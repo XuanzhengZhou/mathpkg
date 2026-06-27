@@ -1,1 +1,0 @@
-This proposition provides the structural decomposition of semisimple rings: every semisimple ring can be embedded as a subdirect product of primitive rings (its "primitive factors" R/P for left primitive ideals P). Conversely, any subdirect product of primitive rings is semisimple. This is the "building block" theorem for semisimple rings.

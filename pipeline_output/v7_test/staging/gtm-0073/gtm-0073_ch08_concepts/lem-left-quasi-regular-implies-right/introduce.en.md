@@ -1,1 +1,0 @@
-This lemma establishes the left-right symmetry of quasi-regularity for left ideals: if every element of a left ideal I has a left quasi-inverse (in R), then every element also has a right quasi-inverse. Using the associativity of the circle operation r circ a = r + a + ra, the proof shows that left and right quasi-regularity coincide for ideals.

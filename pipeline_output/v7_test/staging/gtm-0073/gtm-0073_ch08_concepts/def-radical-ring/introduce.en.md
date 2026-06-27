@@ -1,1 +1,0 @@
-A radical ring is the opposite extreme from a semisimple ring: its Jacobson radical is the entire ring, meaning every element is quasi-regular. Nil rings are radical rings, but there exist simple radical rings that are not nil. Radical rings represent the "purely bad" case in the radical-based classification.

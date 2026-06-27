@@ -1,1 +1,0 @@
-The Noether-Skolem Theorem states that any isomorphism between simple subalgebras of a simple Artinian ring that fixes the center extends to an inner automorphism of the whole ring. In other words, such isomorphisms are always given by conjugation by a unit. This is a powerful uniqueness result with important corollaries (Frobenius, Wedderburn's little theorem).

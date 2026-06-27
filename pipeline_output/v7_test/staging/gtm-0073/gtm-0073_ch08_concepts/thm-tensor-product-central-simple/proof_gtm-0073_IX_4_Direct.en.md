@@ -1,1 +1,0 @@
-Show that any nonzero ideal of A otimes B must contain an element of the form 1 otimes y with y nonzero in B. Using the simplicity of A and B and the fact that their centers are K, the ideal must be the whole ring. The center of A otimes B is K otimes K = K.

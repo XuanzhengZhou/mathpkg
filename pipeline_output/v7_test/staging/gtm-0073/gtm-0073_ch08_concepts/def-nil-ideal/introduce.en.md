@@ -1,1 +1,0 @@
-A nil ideal is one where every element is nilpotent individually. Every nilpotent ideal (where I^n = 0 as a set) is nil, but the converse is not true in general: there exist nil ideals that are not nilpotent, where elements are nilpotent but the index of nilpotency can be arbitrarily large.

@@ -1,1 +1,0 @@
-The tensor product of two central simple K-algebras is again central simple. This closure property is fundamental for the definition of the Brauer group: central simple algebras modulo matrix rings form a group under tensor product, with the inverse of [A] being [A^op], the opposite algebra.

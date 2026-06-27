@@ -1,1 +1,0 @@
-The Jacobson radical of an ideal I is simply the intersection of I with the Jacobson radical of the whole ring. Consequently, ideals of semisimple rings are themselves semisimple, and the Jacobson radical J(R) considered as a ring in its own right is always a radical ring (J(J(R)) = J(R)).

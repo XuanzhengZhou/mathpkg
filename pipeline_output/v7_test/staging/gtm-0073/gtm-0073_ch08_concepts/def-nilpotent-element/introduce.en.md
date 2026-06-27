@@ -1,1 +1,0 @@
-A nilpotent element is one whose power eventually becomes zero. Nilpotent elements are the algebraic generalization of "infinitesimals": they are nonzero but become zero when raised to a sufficiently high power. In the study of radicals, nilpotent elements are a fundamental source of "undesirable" behavior.

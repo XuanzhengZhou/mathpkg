@@ -1,1 +1,0 @@
-If A is a simple R-module, then A is isomorphic to R/I for some regular maximal left ideal I (Theorem 1.3). The annihilator of A is the intersection of all such I. Conversely, if I is a regular maximal left ideal, then R/I is a simple R-module whose annihilator is I.

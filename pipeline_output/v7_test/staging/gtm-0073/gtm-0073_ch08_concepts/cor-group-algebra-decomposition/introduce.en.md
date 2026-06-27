@@ -1,1 +1,0 @@
-For a finite group G over an algebraically closed field K of "good" characteristic, the group algebra K(G) decomposes as a direct product of full matrix rings over K. The integers n_i are the dimensions of the irreducible representations of G over K. This is the fundamental result underpinning the character theory of finite groups.

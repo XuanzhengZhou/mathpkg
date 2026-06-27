@@ -1,1 +1,0 @@
-A finite group cannot be expressed as the union of conjugates of a proper subgroup. This simple group-theoretic fact is the final step in the proof of Wedderburn's Theorem: if D were a proper division algebra, its multiplicative group would be a union of conjugates of the multiplicative group of a maximal subfield, which is impossible.

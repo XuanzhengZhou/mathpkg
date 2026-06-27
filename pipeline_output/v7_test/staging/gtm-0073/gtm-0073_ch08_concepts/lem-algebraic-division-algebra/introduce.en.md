@@ -1,1 +1,0 @@
-Over an algebraically closed field, the only algebraic division algebra is the field itself. This is because any element of D is algebraic over K, so its minimal polynomial splits and has a root in K, forcing the element to already be in K (otherwise D would contain a proper algebraic extension).

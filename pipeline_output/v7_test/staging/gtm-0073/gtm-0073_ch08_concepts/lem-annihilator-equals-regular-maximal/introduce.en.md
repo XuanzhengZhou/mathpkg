@@ -1,1 +1,0 @@
-This lemma establishes the direct correspondence between regular maximal left ideals and annihilators of simple modules, cementing the equivalence of the different characterizations of the Jacobson radical.

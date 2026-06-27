@@ -1,1 +1,0 @@
-The tensor product of a division algebra D (over K) with a finite-dimensional K-algebra A is always left Artinian. This lemma is a technical tool used in the proof of Theorem 6.6 and the Noether-Skolem theorem to ensure finiteness conditions are preserved under scalar extension.

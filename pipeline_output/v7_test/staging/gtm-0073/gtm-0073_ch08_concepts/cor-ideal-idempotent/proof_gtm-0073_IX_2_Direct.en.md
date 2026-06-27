@@ -1,1 +1,0 @@
-By Theorem 3.3, R is a direct product of simple ideals R = I_1 x ... x I_n. For each j, I cap I_j is either 0 or I_j. After re-indexing, I cap I_j = I_j for j=1,...,t and 0 for j>t. Let e_j be the identity of I_j; then 1_R = e_1 + ... + e_n. Set e = e_1 + ... + e_t. Then e is a central idempotent and I = Re.

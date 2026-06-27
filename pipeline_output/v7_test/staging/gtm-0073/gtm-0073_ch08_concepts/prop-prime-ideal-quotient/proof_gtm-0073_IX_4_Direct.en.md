@@ -1,1 +1,0 @@
-If R/K is prime and I,J are ideals with IJ subset K, then pi(I)pi(J) = 0 in R/K, so pi(I) = 0 or pi(J) = 0, giving I subset K or J subset K. The converse follows from ideal correspondence theorems.

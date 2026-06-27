@@ -1,1 +1,0 @@
-A regular (or modular) left ideal is one that admits a "right identity modulo I" -- an element e such that r and re are congruent modulo I for all r. Every left ideal in a ring with identity is regular (take e = 1_R). Regularity is the condition needed for the quotient R/I to be a simple module.

@@ -1,1 +1,0 @@
-Quasi-regularity generalizes the notion of "being in the radical" to rings without identity. The operation r circ a = r + a + ra (the "circle operation") is associative, and a is left quasi-regular exactly when it has a left quasi-inverse under this operation. If R has an identity, left quasi-regularity of a is equivalent to 1_R + a being left invertible.

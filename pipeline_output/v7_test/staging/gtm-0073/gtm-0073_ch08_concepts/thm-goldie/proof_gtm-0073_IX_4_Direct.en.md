@@ -1,1 +1,0 @@
-The theorem is stated without full proof in this text due to space limitations. The proof uses Ore's Theorem to construct the left quotient ring from the set of regular elements, then shows that the Goldie conditions force this quotient ring to be semisimple left Artinian. See I. Herstein [24] or Procesi-Small [65] for complete proofs.

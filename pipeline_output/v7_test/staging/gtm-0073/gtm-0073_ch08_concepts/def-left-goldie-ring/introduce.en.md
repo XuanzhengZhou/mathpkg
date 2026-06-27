@@ -1,1 +1,0 @@
-A left Goldie ring satisfies two finiteness conditions: the ACC on left annihilators (a weakened form of Noetherian) and finiteness of independent sets of left ideals (no infinite direct sums of left ideals). Every left Noetherian ring is a left Goldie ring. Goldie rings are precisely those semiprime rings that possess a semisimple Artinian left quotient ring (Goldie's Theorem).

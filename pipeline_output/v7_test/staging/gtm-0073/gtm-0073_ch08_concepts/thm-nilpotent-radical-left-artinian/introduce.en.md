@@ -1,1 +1,0 @@
-In left Artinian rings, the Jacobson radical is not just quasi-regular -- it is nilpotent. Moreover, it equals the classical Wedderburn radical (the maximal nilpotent ideal). This bridges the modern Jacobson radical theory with the classical Wedderburn theory for Artinian rings, where "radical" historically meant the maximal nilpotent ideal.

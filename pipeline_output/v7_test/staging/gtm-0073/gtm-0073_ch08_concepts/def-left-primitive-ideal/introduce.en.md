@@ -1,1 +1,0 @@
-A left primitive ideal is the annihilator of a simple left R-module. These ideals play a role analogous to maximal ideals in commutative algebra. The quotient R/P is a primitive ring (since the simple module is faithful as an R/P-module), making left primitive ideals the "kernels" of primitive ring representations.

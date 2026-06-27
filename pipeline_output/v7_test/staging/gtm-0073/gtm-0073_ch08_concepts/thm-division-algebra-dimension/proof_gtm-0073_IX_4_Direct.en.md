@@ -1,1 +1,0 @@
-D is a central simple K-algebra. D otimes_K F is simple (Theorem 6.2) and an F-algebra of F-dimension n = dim_K D by Lemma 6.4. As a dense ring of endomorphisms on D, one shows D otimes_K F is isomorphic to Hom_F(D,D) = Mat_n(F). Computing dimensions gives dim_K D = dim_F(D otimes F) = n^2.

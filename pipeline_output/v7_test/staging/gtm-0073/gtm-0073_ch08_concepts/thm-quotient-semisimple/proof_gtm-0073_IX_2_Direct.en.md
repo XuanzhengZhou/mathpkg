@@ -1,1 +1,0 @@
-Let pi: R -> R/J(R). Regular maximal left ideals I of R contain J(R), and pi(I) = I/J(R) are regular maximal left ideals of R/J(R). The intersection of all pi(I) is pi(intersection of all I) = pi(J(R)) = 0. By Theorem 2.3(ii), J(R/J(R)) = 0.

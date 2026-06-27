@@ -1,1 +1,0 @@
-Frobenius's celebrated theorem classifies all algebraic division algebras over the real numbers: the only possibilities are the reals themselves, the complex numbers, and the quaternions. This limits the possible "number systems" over R to exactly three, with the quaternions being the only noncommutative example. It is a beautiful application of the Noether-Skolem theorem.

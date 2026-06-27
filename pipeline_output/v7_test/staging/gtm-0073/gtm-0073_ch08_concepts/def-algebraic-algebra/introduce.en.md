@@ -1,1 +1,0 @@
-An algebraic algebra is one where every element satisfies a polynomial equation over the base field. Finite-dimensional algebras are always algebraic. Algebraic algebras generalize algebraic field extensions and play an important role in the structure theory of algebras over fields.

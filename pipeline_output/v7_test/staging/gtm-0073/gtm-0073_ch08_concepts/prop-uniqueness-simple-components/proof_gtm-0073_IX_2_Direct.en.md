@@ -1,1 +1,0 @@
-(i) By Theorem 3.3. (ii) If J is a simple ideal, then J = RJ = I_1 J x ... x I_n J. Since J is simple, exactly one I_k J is nonzero and must equal J, so J = I_k. (iii) The map J_k -> I_k where J_k = I_k is well-defined and bijective by (ii), giving m = n and equality up to reindexing.

@@ -1,1 +1,0 @@
-The Density Lemma is the key technical step in proving the Jacobson Density Theorem. It states that given a proper finite-dimensional D-subspace V of a simple R-module A, there exists a ring element that annihilates V but acts nontrivially on any element outside V. This enables the "interpolation" property of dense rings.

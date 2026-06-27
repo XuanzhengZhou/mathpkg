@@ -1,1 +1,0 @@
-When working with algebras over a commutative ring K, modules must respect both the K-module structure and the A-module structure, with a compatibility condition. This definition extends the notion of modules over rings to modules over algebras, which is essential for studying representations of algebras and for the algebra version of the Wedderburn-Artin theorem.

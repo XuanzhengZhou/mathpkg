@@ -1,1 +1,0 @@
-This proposition establishes the uniqueness of the invariants in the Wedderburn-Artin Theorem: the dimension and the division ring are uniquely determined (up to isomorphism) by the ring structure. Thus the representation of a simple left Artinian ring as a matrix ring over a division ring is essentially unique.

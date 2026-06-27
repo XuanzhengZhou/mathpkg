@@ -1,1 +1,0 @@
-K(G) is finite-dimensional, hence left Artinian. By Maschke's Theorem (Proposition 5.8), K(G) is semisimple. Since finite-dimensional algebras are algebraic, apply Theorem 5.7 to get the decomposition into matrix rings over K.

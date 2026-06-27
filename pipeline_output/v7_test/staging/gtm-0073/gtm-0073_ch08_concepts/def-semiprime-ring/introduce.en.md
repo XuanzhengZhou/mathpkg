@@ -1,1 +1,0 @@
-A semiprime ring is one with zero prime radical -- equivalently, one with no nonzero nilpotent ideals. Semiprime rings are the "nice" rings in the prime radical theory, analogous to semisimple rings in the Jacobson radical theory. Goldie's Theorem provides a structure theorem for semiprime left Goldie rings.

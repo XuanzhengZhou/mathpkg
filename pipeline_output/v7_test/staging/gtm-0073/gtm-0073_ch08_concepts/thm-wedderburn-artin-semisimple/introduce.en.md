@@ -1,1 +1,0 @@
-The Wedderburn-Artin Theorem for semisimple left Artinian rings is the ultimate structure theorem: such rings are precisely finite direct products of matrix rings over division rings. This completely classifies semisimple Artinian rings and is the noncommutative analogue of the Artin-Wedderburn theorem in representation theory.

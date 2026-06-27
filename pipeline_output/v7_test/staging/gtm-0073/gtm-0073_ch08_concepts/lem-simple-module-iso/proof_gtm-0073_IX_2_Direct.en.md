@@ -1,1 +1,0 @@
-Let A and B be two faithful simple left R-modules. Since A is simple, pick nonzero a in A. Consider the map f: R -> A given by r -> ra; this is surjective by simplicity. The kernel is a left ideal. The simplicity of B and faithfulness of A are used to construct an isomorphism between A and B via the Jacobson Density Theorem machinery.

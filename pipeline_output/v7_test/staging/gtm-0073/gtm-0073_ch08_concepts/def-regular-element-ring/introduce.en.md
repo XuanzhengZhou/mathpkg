@@ -1,1 +1,0 @@
-A regular element is a non-zero-divisor: it can be canceled from both sides of equations. Regular elements form a multiplicative set that is crucial for constructing rings of fractions (quotient rings). In the context of Goldie's Theorem, the set of regular elements of a semiprime Goldie ring satisfies the Ore condition, allowing the construction of the Artinian quotient ring.

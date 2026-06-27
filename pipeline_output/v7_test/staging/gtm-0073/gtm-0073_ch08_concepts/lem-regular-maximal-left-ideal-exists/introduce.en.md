@@ -1,1 +1,0 @@
-This lemma guarantees that proper regular left ideals can be enlarged to regular maximal left ideals, using Zorn's Lemma. It is the technical tool ensuring that the intersection in the Jacobson radical characterization is well-behaved, providing the bridge between regular maximal left ideals and the general theory.

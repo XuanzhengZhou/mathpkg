@@ -1,1 +1,0 @@
-This theorem establishes that the notion of "simple module" is the same whether viewed algebraically (as an algebra A-module) or ring-theoretically (as a module over the ring A). Thus the theory of simple modules, the Jacobson radical, and primitivity all carry over directly from rings to algebras.

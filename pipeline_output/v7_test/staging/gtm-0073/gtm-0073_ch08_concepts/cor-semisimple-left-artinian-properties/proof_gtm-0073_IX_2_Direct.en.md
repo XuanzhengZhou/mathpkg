@@ -1,1 +1,0 @@
-(i) Each simple component (matrix ring over a division ring) has an identity; the product inherits it. (ii) Theorem 3.3 is left-right symmetric. (iii) Matrix rings over division rings are Noetherian as well as Artinian by Corollaries VIII.1.7 and VIII.1.12.

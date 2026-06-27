@@ -1,1 +1,0 @@
-Let e in R satisfy r - re in I for all r. Let S be the set of all left ideals L with I subset L proper subset R, partially ordered by inclusion. Zorn's Lemma applies: any chain has an upper bound (the union). A maximal element of S is a regular maximal left ideal containing I.

@@ -1,1 +1,0 @@
-The Wedderburn-Artin theorem carries over to algebras: a semisimple left Artinian K-algebra decomposes as a direct product of matrix rings over division K-algebras. The key difference from the ring case is that the division rings are now division algebras over K, and the isomorphism is one of K-algebras (respecting the K-module structure).

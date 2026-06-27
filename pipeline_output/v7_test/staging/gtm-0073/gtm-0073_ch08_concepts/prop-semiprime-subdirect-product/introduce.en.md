@@ -1,1 +1,0 @@
-The structural decomposition of semiprime rings: every semiprime ring embeds as a subdirect product of prime rings (its quotients by prime ideals). This is the exact analogue of Proposition 3.2 (semisimple rings are subdirect products of primitive rings), establishing the parallel between the two radical theories.

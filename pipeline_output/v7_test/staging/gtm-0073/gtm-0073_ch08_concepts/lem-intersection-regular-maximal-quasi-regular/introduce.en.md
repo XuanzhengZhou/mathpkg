@@ -1,1 +1,0 @@
-This lemma is a key step in proving that the Jacobson radical (characterized as the intersection of regular maximal left ideals) is a quasi-regular ideal. The proof uses a clever construction involving the set T = {r + ra | r in R} to show every element of K has a left quasi-inverse.

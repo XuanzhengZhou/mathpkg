@@ -1,1 +1,0 @@
-A central simple algebra over a field K is a simple K-algebra whose center is exactly K (no larger). Every division ring with center K is a central simple algebra over K, as is every matrix ring Mat_n(K). Central simple algebras are the basic objects in the Brauer group theory and play a central role in the structure theory of division algebras.

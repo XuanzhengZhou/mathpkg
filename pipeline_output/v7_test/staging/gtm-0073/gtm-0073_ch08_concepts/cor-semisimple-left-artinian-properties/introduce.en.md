@@ -1,1 +1,0 @@
-Semisimple left Artinian rings automatically have an identity and are simultaneously left and right Artinian (and left and right Noetherian). This is a corollary of the Wedderburn-Artin structure theorem: matrix rings over division rings have identities and are both left and right Artinian and Noetherian.

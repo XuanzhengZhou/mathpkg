@@ -1,1 +1,0 @@
-The number of distinct conjugates of H is [G : N(H)], where N(H) is the normalizer of H. Since H is proper and H < N(H) < G, [G : N(H)] < [G : H]. Counting elements: |union xHx^{-1}| <= [G:N(H)] * (|H| - 1) + 1 < |G|.
