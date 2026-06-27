@@ -44,7 +44,6 @@ pip install -r requirements.txt
 
 # Structural analysis
 python3 pipeline_output/stitch_by_section.py
-python3 pipeline_output/stitch_chapters_v2.py         # heuristic fallback
 
 # Concept extraction (requires DeepSeek API key)
 export DEEPSEEK_API_KEY="sk-..."
@@ -63,12 +62,15 @@ python3 pipeline_output/ocr_healthcheck.py
 |---|---|
 | `mathpkg/` | Core library: graph DB, dependency resolver, source management, extraction pipeline |
 | `cmd/` | CLI tool (`math source/update/show/install/mark`) |
-| `pipeline_output/` | Python tools + 6,374 extracted concepts (YAML + LaTeX + natural language) |
+| `pipeline_output/` | Pipeline tools (section split, Flash analysis, Mathlib4 grep, OCR health) |
+| `pipeline_output/math_pkg_release/` | Production outputs: 6,374 concepts (concepts_v7) |
+| `pipeline_output/data/` | Reference data (Mathlib4 index, book lists) |
 | `workflows/` | Agent workflow scripts for parallel concept extraction |
 | `tests/` | 28 unit tests |
-| `docs/` | Full pipeline specification (file format, agent prompts, naming conventions) |
+| `docs/` | Project documentation (architecture, technical, phase histories) |
 | `concepts/` | Hand-curated reference concepts for data model validation |
 | `lean/MathPkg/` | Lean 4 project with verified theorems and proof skeletons |
+| `legacy/` | Archived historical scripts, data, and checkpoint states |
 
 ## 🔬 Key Findings
 

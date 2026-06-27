@@ -9,11 +9,17 @@ Python scripts for the mathpkg pipeline.
 
 ## OCR
 - **ocr_healthcheck.py**: Hourly OCR health monitor with auto-recovery
+- **ocr_output/**: Per-page OCR JSON (runtime, growing)
 
 ## Mathlib4
 - **grep_mathlib4.py**: Multi-strategy grep against Mathlib4 (204K entries)
-- **mathlib4_index.json** (not in repo, 50MB): Full parse of 8,169 .lean files
 
-## Concept Extraction
-- **concepts_v7/**: 6,374 extracted concepts (concept.yaml + theorem.tex + introduce.en.md)
+## Production Output
+- **math_pkg_release/**: 正式版文件夹
+  - `concepts_v7/`: 6,374 extracted concepts (concept.yaml + theorem.tex + introduce.en.md)
+- **stitched_sections/**: Section-split .md files (172 books)
+- **data/**: Reference data (Mathlib4 index, book lists)
 
+## Archived
+- `../legacy/pipeline_scripts/`: Historical one-off extraction scripts
+- `../legacy/outputs/`: Old stitch outputs and section indexes

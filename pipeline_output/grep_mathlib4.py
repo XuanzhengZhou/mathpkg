@@ -3,9 +3,9 @@
 import os, re, json, subprocess, yaml
 from collections import defaultdict
 
-CONCEPTS_DIR = '/home/a123/文档/mathpkg/pipeline_output/concepts_v7'
+CONCEPTS_DIR = '/home/a123/文档/mathpkg/pipeline_output/math_pkg_release/concepts_v7'
 MATHLIB = os.path.expanduser('~/lean-demo/.lake/packages/mathlib/Mathlib')
-OUTPUT = '/home/a123/文档/mathpkg/pipeline_output/mathlib4_grep_results.json'
+OUTPUT = '/home/a123/文档/mathpkg/pipeline_output/data/mathlib4_grep_results.json'
 
 def gen_search_terms(slug, title_en):
     """从 slug 和 title 生成多个搜索变体"""

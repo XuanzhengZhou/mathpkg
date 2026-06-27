@@ -2,13 +2,6 @@
 *.pdf
 *.PDF
 
-# OCR 产出 — 几十GB
-pipeline_output/ocr_output/
-pipeline_output/stitched/
-pipeline_output/stitched_v2/
-pipeline_output/stitched_sections/
-pipeline_output/section_indexes/
-
 # Python
 __pycache__/
 *.pyc
@@ -18,6 +11,8 @@ __pycache__/
 # Lean
 lean/MathPkg/.lake/
 lean/MathPkg/build/
+lean/**/_test*.lean
+lean/**/__test*.lean
 
 # 数据库
 graph.db
@@ -36,82 +31,41 @@ _merge_log.json
 .idea/
 .vscode/
 
-# 大数据 JSON
-pipeline_output/mathlib4_index.json
-pipeline_output/mathlib4_names.json
-pipeline_output/ocr_all_books_full.json
-pipeline_output/all_books_quality.json
-pipeline_output/concepts/
-pipeline_output/concepts_v2/
-pipeline_output/concepts_batch1/
-pipeline_output/translations/
-pipeline_output/gapfill_output/
-pipeline_output/graph/
-pipeline_output/books/
-pipeline_output/ocr_output/
-pipeline_output/dedup/
-pipeline_output/def_done/
-pipeline_output/def_reviews/
-pipeline_output/done_markers/
-pipeline_output/fix_results/
-pipeline_output/skel_done/
-
-# 本地工作文件（不上传）
+# ─── 本地工作文件（不上传） ───
 HANDOVER.md
 CLAUDE.md
 memory/
-*.old
-*.old_scanned
+
+# ─── 归档目录（全部排除） ───
+legacy/
+
+# ─── 文档（本地保留） ───
+docs/
+
+# ─── pipeline_output: 运行时数据（不上传） ───
+pipeline_output/ocr_output/
+pipeline_output/ocr_healthcheck.log
+pipeline_output/__pycache__/
+
+# ─── math_pkg_release: 正式版产物 ───
+# 概念提取的临时标记文件
+pipeline_output/math_pkg_release/concepts_v7/**/.done
+pipeline_output/math_pkg_release/concepts_v7/**/.fail
+pipeline_output/math_pkg_release/concepts_v7/**/.lean.done
+pipeline_output/math_pkg_release/concepts_v7/**/.lean.fail
+
+# section 拆分产物（体积大，本地生成）
+pipeline_output/stitched_sections/
+pipeline_output/section_indexes/
+
+# 大型参考数据（可本地重建）
+pipeline_output/data/mathlib4_index.json
+pipeline_output/data/mathlib4_names.json
+pipeline_output/data/ocr_all_books.json
+pipeline_output/data/ocr_all_books_full.json
+pipeline_output/data/all_books_quality.json
+pipeline_output/data/new_books_quality.json
+pipeline_output/data/content_analysis.json
 
 # API密钥 — 绝对不上传
 # 任何含sk-的文件都要检查
-
-
-# 概念提取结果 — 上传结构，排除临时标记
-pipeline_output/concepts_v7/**/.done
-pipeline_output/concepts_v7/**/.fail
-pipeline_output/concepts_v7/**/.lean.done
-pipeline_output/concepts_v7/**/.lean.fail
-
-
-# 发行版排除（本地保留）
-ARCHITECTURE.md
-PHASE0.md
-PHASE1.md
-TECHNICAL.md
-CLAUDE.md
-HANDOVER.md
-项目简介.md
-concept-encyclopedia-template.md
-extract_*.py
-populate_*.py
-v7_extract_*.py
-pipeline_output/*.json
-pipeline_output/books/
-pipeline_output/concepts/
-pipeline_output/concepts_batch1/
-pipeline_output/concepts_v2/
-pipeline_output/dedup/
-pipeline_output/def_*/
-pipeline_output/done_markers/
-pipeline_output/fix_results/
-pipeline_output/gapfill_output/
-pipeline_output/graph/
-pipeline_output/ocr_output/
-pipeline_output/section_indexes*/
-pipeline_output/skel_done/
-pipeline_output/stitched/
-pipeline_output/stitched_v2/
-pipeline_output/translations/
-pipeline_output/v7_test/
-pipeline_output/__pycache__/
-ARCHITECTURE.md
-PHASE0.md
-PHASE1.md
-TECHNICAL.md
-项目简介.md
-concept-encyclopedia-template.md
-pipeline_output/*.json
-pipeline_output/*.sh
-pipeline_output/*lagrange*.md
-pipeline_output/ocr_healthcheck.log
