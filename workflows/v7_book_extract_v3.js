@@ -1,6 +1,6 @@
 export const meta = {
-  name: 'v7-book-extract',
-  description: 'One book: per-section concept extraction via parallel agents',
+  name: 'v8-book-extract',
+  description: 'One book: per-section concept extraction with proofs+exercises (5 files per concept)',
   phases: [{ title: 'List' }, { title: 'Extract' }]
 }
 
@@ -60,12 +60,12 @@ var thunks = sectionFiles.map(function(sf, i) {
     }
 
     var prompt = [
-      '=== V7 CONCEPT EXTRACTOR (Per-Section) ===',
+      '=== V8 CONCEPT EXTRACTOR (Per-Section, with Proofs+Exercises) ===',
       '',
       'READ this section file: ' + sectionPath,
       '',
       'Extract EVERY theorem, definition, lemma, proposition, corollary, axiom.',
-      'For EACH concept, write 3 files in: ' + destDir + '/{SLUG}/',
+      'For EACH concept, write files in: ' + destDir + '/{SLUG}/',
       '',
       '═══ FILE 1: concept.yaml ═══',
       'id: <semantic-english-slug>',
@@ -79,8 +79,8 @@ var thunks = sectionFiles.map(function(sf, i) {
       'depends_on: {required:[], recommended:[], suggested:[]}',
       'source_books: [{book_id:"' + BOOK_SLUG + '",author:"",title:"",chapter:"",section:"",pages:"",role_in_book:""}]',
       'content_hash: ""',
-      'extraction_date: "2026-06-25"',
-      'extraction_agent: "v7-section-test"',
+      'extraction_date: "2026-06-27"',
+      'extraction_agent: "v8-full-extract"',
       '',
       '═══ FILE 2: theorem.tex ═══',
       'PURE LaTeX STATEMENT only. NO proof. NO natural language outside \\text{}.',
@@ -90,13 +90,36 @@ var thunks = sectionFiles.map(function(sf, i) {
       'YAML frontmatter: role: introduce, locale: en, content_hash: "", written_against: ""',
       'Then 2-4 English sentences explaining the concept.',
       '',
+      '═══ FILE 4: proof_' + BOOK_SLUG + '_Ch.Sec.en.md (for theorem/proposition/lemma/corollary ONLY) ═══',
+      'YAML frontmatter:',
+      '  role: proof',
+      '  locale: en',
+      '  of_concept: <slug>',
+      '  source_book: ' + BOOK_SLUG,
+      '  source_chapter: "<from concept.yaml>"',
+      '  source_section: "<from concept.yaml>"',
+      'Then: Full proof text with LaTeX math. Fix OCR artifacts using mathematical reasoning.',
+      'Skip if the concept is a definition or axiom (no proof).',
+      '',
+      '═══ FILE 5: exercise_' + BOOK_SLUG + '_Ch.Sec.N.en.md (if section has exercises) ═══',
+      'YAML frontmatter:',
+      '  role: exercise',
+      '  locale: en',
+      '  chapter: "<X>"',
+      '  section: "<X>"',
+      '  exercise_number: N',
+      'Then: Exercise statement with LaTeX math.',
+      '',
       '═══ CRITICAL RULES ═══',
       '1. Slug = semantic lowercase-hyphen English (GOOD: kummers-theorem, BAD: gtm012-thm-3-2)',
       '2. theorem.tex = STATEMENT ONLY. NO proof, NO "Proof.", NO natural language',
-      '3. source_books = array of OBJECTS, NOT strings',
-      '4. Extract ALL concepts, including lemmas and corollaries',
-      '5. Fix OCR artifacts using mathematical reasoning',
-      '6. Write .done when complete: echo DONE > ' + destDir + '/.done'
+      '3. proof_*.md = FULL PROOF extracted from section text, preserve LaTeX math',
+      '4. For definitions and axioms: skip proof file (no proof needed)',
+      '5. For exercises at end of section: write one exercise_*.md per exercise',
+      '6. source_books = array of OBJECTS, NOT strings',
+      '7. Extract ALL concepts, including lemmas and corollaries',
+      '8. Fix OCR artifacts using mathematical reasoning',
+      '9. Write .done when complete: echo DONE > ' + destDir + '/.done'
     ].join('\n')
 
     try { await agent(prompt, { label: sName.substring(0,35), phase: 'Extract' }) } catch(e) {}
