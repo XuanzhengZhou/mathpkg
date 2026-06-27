@@ -1,0 +1,58 @@
+# PDF 教材 — 版权文件，不上传
+*.pdf
+*.PDF
+
+# OCR 产出 — 几十GB
+pipeline_output/ocr_output/
+pipeline_output/stitched/
+pipeline_output/stitched_v2/
+pipeline_output/stitched_sections/
+pipeline_output/concepts_v7/
+pipeline_output/section_indexes/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Lean
+lean/MathPkg/.lake/
+lean/MathPkg/build/
+
+# 数据库
+graph.db
+*.db-journal
+
+# 临时文件
+*.tmp
+*.swp
+*~
+.DS_Store
+_trash/
+_merged_archive/
+_merge_log.json
+
+# IDE
+.idea/
+.vscode/
+
+# 大数据 JSON
+pipeline_output/mathlib4_index.json
+pipeline_output/mathlib4_names.json
+pipeline_output/ocr_all_books_full.json
+pipeline_output/all_books_quality.json
+pipeline_output/concepts/
+pipeline_output/concepts_v2/
+pipeline_output/concepts_batch1/
+pipeline_output/translations/
+pipeline_output/gapfill_output/
+pipeline_output/graph/
+pipeline_output/books/
+pipeline_output/ocr_output/
+pipeline_output/dedup/
+pipeline_output/def_done/
+pipeline_output/def_reviews/
+pipeline_output/done_markers/
+pipeline_output/fix_results/
+pipeline_output/skel_done/

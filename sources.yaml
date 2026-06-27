@@ -1,0 +1,8 @@
+# mathpkg knowledge sources
+# Modeled after apt's sources.list
+
+sources:
+  - name: mathpkg-core
+    uri: /home/a123/文档/mathpkg/concepts
+    type: local
+    enabled: true

@@ -1,0 +1,88 @@
+export const meta = {
+  name: 'v7-extract-test-v2',
+  description: 'Test: strict V7 extraction with precise YAML schema',
+  phases: [{ title: 'Extract', detail: 'Agent extracts concepts with enforced YAML format' }]
+}
+
+phase('Extract')
+
+var chapter_file = '/home/a123/文档/mathpkg/pipeline_output/stitched/(GTM073)Algebra/06_CHAPTER_I.md'
+var staging = '/home/a123/文档/mathpkg/pipeline_output/v7_test/staging/gtm-0073/gtm-0073_ch01_concepts_v2'
+var result = await agent([
+  '=== CONCEPT EXTRACTOR (V7, Strict Schema) ===',
+  '',
+  'Read: ' + chapter_file,
+  '',
+  'Extract ALL theorems, definitions, lemmas, propositions, corollaries from this chapter.',
+  'For EACH concept, create a folder under ' + staging + '/{slug}/',
+  'Write these files in EXACTLY this format:',
+  '',
+  '--- concept.yaml ---',
+  'id: <semantic-slug>                    ← English, lowercase-hyphen (e.g., "first-isomorphism-theorem", NOT "gtm-0073-ch01-thm-5.7")',
+  'title_en: "<Full English Name>"',
+  'title_zh: ""',
+  'type: theorem                          ← theorem|definition|lemma|proposition|corollary',
+  'domain: algebra',
+  'subdomain: group-theory',
+  'difficulty: basic                      ← basic|intermediate|advanced',
+  'tags: []',
+  'depends_on:',
+  '  required: []                         ← array of semantic slugs',
+  '  recommended: []',
+  '  suggested: []',
+  'proof_deps: {}',
+  'source_books:',
+  '  - book_id: gtm-0073                  ← MUST be an object, NOT a string',
+  '    author: "Hungerford, Thomas W."',
+  '    title: "Algebra"',
+  '    chapter: I',
+  '    section: "<I.X>"',
+  '    pages: ""',
+  '    role_in_book: "<Theorem X.X>"',
+  'content_hash: ""                       ← ALWAYS empty string',
+  'extraction_date: "2026-06-24"',
+  'extraction_agent: "workflow-test-v2"',
+  '',
+  '--- theorem.tex (or definition.tex/lemma.tex) ---',
+  'PURE LaTeX statement. ZERO YAML. ZERO markdown. ZERO natural language.',
+  'Example: "Let $G$ be a group and $N \\\\trianglelefteq G$. Then the quotient group $G/N$ is well-defined."',
+  '',
+  '--- introduce.en.md ---',
+  '```yaml',
+  '---',
+  'role: introduce',
+  'locale: en',
+  'content_hash: ""',
+  'written_against: ""',
+  '---',
+  '<natural language description, 2-4 sentences>',
+  '```',
+  '',
+  '--- proof_gtm-0073_I_SECTION_TECHNIQUE.en.md ---',
+  '```yaml',
+  '---',
+  'role: proof',
+  'source_book: gtm-0073',
+  'chapter: I',
+  'section: "<I.X>"',
+  'proof_technique: <one-word>',
+  'locale: en',
+  'content_hash: ""',
+  'written_against: ""',
+  '---',
+  '<proof text>',
+  '```',
+  '',
+  'CRITICAL:',
+  '- Slug = SEMANTIC English, NOT book-reference. "first-isomorphism-theorem" ✓, "gtm-0073-ch01-thm-5.7" ✗',
+  '- source_books MUST be an ARRAY of OBJECTS, not an array of strings',
+  '- theorem.tex = PURE LaTeX. Put all English in introduce.en.md',
+  '- Extract max 6 concepts for this test',
+  '- Write .done when done: echo DONE > ' + staging + '/.done'
+].join('\n'), {
+  label: 'extract-v2',
+  phase: 'Extract'
+})
+
+log('Done: ' + (result ? result.length : 0) + ' chars')
+return { ok: true }
