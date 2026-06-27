@@ -70,19 +70,34 @@ try {
 } catch(e) {}
 log(BOOK_SLUG + ' prep: ' + (prepResult || '?'))
 
-// Step 2: Verify prep file exists, get section count
+// Step 2: Get section count by parsing prep summary, not raw agent output
+// Agent tends to format python output, so we extract the number from the summary
 var sectionCount = 0
 try {
-  var verify = await agent(
-    'python3 -c "import json; d=json.load(open(\'/tmp/proofs_map_' + BOOK_SLUG + '.json\')); print(len(d[\'mapping\']))"',
-    { label: 'verify-prep', phase: 'Prep' }
-  )
-  sectionCount = parseInt((verify || '0').trim()) || 0
+  var prepSummary = prepResult || ''
+  // Match "OK: 37 sections" pattern
+  var match = prepSummary.match(/OK:\s*(\d+)\s+sections/)
+  if (match) {
+    sectionCount = parseInt(match[1]) || 0
+  }
 } catch(e) {}
 log(BOOK_SLUG + ': ' + sectionCount + ' sections to process')
 
 if (sectionCount === 0) {
-  log('No sections to process')
+  // Fallback: count sections directly via Python
+  try {
+    var fallback = await agent(
+      'Count the lines in /tmp/proofs_map_' + BOOK_SLUG + '.json mapping array. Reply with ONLY the number, no text.',
+      { label: 'count-fallback', phase: 'Prep' }
+    )
+    var numMatch = (fallback || '').match(/\d+/)
+    sectionCount = numMatch ? parseInt(numMatch[0]) || 0 : 0
+    log(BOOK_SLUG + ' fallback: ' + sectionCount + ' sections')
+  } catch(e2) {}
+}
+
+if (sectionCount === 0) {
+  log('No sections to process — prep file may be missing')
   return { book: BOOK_SLUG, sections: 0, proofs: 0 }
 }
 
