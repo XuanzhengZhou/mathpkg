@@ -1,0 +1,1 @@
+The exponential functions form an orthonormal basis for $L^2$ on the circle. This fact is the foundation of Fourier series theory: every $L^2$ function has a Fourier expansion converging in the $L^2$ norm.

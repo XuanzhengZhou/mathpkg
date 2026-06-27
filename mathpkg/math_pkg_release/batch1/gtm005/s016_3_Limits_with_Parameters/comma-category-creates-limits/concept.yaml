@@ -1,0 +1,23 @@
+id: comma-category-creates-limits
+title_en: "Forgetful functor from comma category creates limits"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [comma-category, creation-of-limits, forgetful-functor, products, equalizers]
+depends_on:
+  required: [comma-category, creation-of-limits, limit-preservation, product, equalizer]
+  recommended: [freyd-adjoint-functor-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "6. Freyd's Adjoint Functor Theorem"
+    pages: ""
+    role_in_book: "Key step in proof of Freyd Adjoint Functor Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

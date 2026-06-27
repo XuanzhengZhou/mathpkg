@@ -1,0 +1,23 @@
+id: association-scheme-sum-formula
+title_en: "Sum Formula for Association Scheme Intersection Parameters"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: block-designs
+difficulty: advanced
+tags: [association-schemes, pbib-designs, intersection-parameters, sum-formula]
+depends_on:
+  required: [association-scheme-intersection-parameters]
+  recommended: [association-scheme]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "IX"
+    section: "E"
+    pages: "265–269"
+    role_in_book: "Proposition E10 establishing the row-sum identity for intersection parameter matrices of an m-class association scheme"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

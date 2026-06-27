@@ -1,0 +1,1 @@
+The right derivative is the one-sided derivative from the right. It generalizes the ordinary derivative and is essential for studying functions of bounded variation and absolutely continuous functions.

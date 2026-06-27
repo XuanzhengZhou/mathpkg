@@ -1,0 +1,23 @@
+id: galois-group-as-module-over-iwasawa-algebra
+title_en: "The Galois Group as Module over the Iwasawa Algebra"
+title_zh: "作为岩泽代数上模的伽罗瓦群"
+type: definition
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [iwasawa-algebra, galois-group, zp-extension, projective-limit, compact-module, group-ring]
+depends_on:
+  required: []
+  recommended: [iwasawa-algebra, zp-extension, projective-limit-of-ideal-class-groups]
+  suggested: [class-field-theory, leopoldt-conjecture]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "§6. The Galois Group as Module over the Iwasawa Algebra"
+    pages: "155-156"
+    role_in_book: "Defines the construction of viewing the Galois group of a p-abelian p-ramified extension as a compact module over the Iwasawa algebra, establishing the foundational viewpoint for Iwasawa-theoretic study of class groups and unit groups in Zp-extensions."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: hurewicz-homomorphism
+title_en: "Hurewicz homomorphism from fundamental group to first homology"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: [hurewicz, fundamental-group, homology, abelianization, pi1]
+depends_on:
+  required: [fundamental-group-is-a-group]
+  recommended: [first-homology-group, complex, simplicial-homology]
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "Moise, Edwin E."
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "14"
+    section: "14"
+    pages: ""
+    role_in_book: "Theorem 8 — relates π₁ to H₁, basis for Hurewicz isomorphism theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: handle-count-equals-first-betti-number
+title_en: "Handle count of regular neighborhood boundary equals first Betti number"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [handle, betti-number, regular-neighborhood, orientable-3-manifold, boundary]
+depends_on:
+  required: [regular-neighborhood, total-number-of-handles, betti-number]
+  recommended: [orientable-3-manifold-as-regular-neighborhood]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: ""
+    section: "23"
+    pages: ""
+    role_in_book: "Relates the handle count of the boundary of a regular neighborhood to the first Betti number of the spine."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

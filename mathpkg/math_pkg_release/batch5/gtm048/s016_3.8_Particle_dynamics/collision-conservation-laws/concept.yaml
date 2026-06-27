@@ -1,0 +1,23 @@
+id: collision-conservation-laws
+title_en: "Collision Conservation Laws for Particle Sets"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: intermediate
+tags: [particle-dynamics, collisions, conservation-laws, four-momentum, electric-charge]
+depends_on:
+  required: [lorentz-world-force-law]
+  recommended: [particle, four-momentum, electric-charge]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs and Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.8"
+    pages: ""
+    role_in_book: "Defines when a finite collection of particles is consistent: 4-momentum and electric charge are conserved at every collision event"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

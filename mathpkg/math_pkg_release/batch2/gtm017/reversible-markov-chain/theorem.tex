@@ -1,0 +1,6 @@
+A Markov chain with transition matrix $\mathbf{P}$ and stationary distribution $\mathbf{p} = (p_i)$, $p_i > 0$, is said to be \text{reversible} if
+$$\mathbf{D}\mathbf{P} = \mathbf{P}'\mathbf{D},$$
+where $\mathbf{D}$ is the diagonal matrix with entries $p_i$. Equivalently, the detailed balance condition holds:
+$$p_i p_{i,j} = p_j p_{j,i} \quad \text{for all } i, j.$$
+This implies that forward and backward transition probabilities are equal:
+$$P(X_{m+1} = j \mid X_m = i) = P(X_m = j \mid X_{m+1} = i).$$

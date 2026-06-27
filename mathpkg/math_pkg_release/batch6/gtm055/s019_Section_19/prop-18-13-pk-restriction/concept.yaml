@@ -1,0 +1,23 @@
+id: prop-18-13-pk-restriction
+title_en: "P(K) as Restriction of P(K-hat)"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [polynomial-approximation, polynomially-convex-hull, maximum-modulus-principle]
+depends_on:
+  required: [polynomially-convex-hull-k-hat]
+  recommended: [maximum-modulus-principle]
+  suggested: []
+source_books:
+  - book_id: "gtm055"
+    author: "Brown and Pearcy"
+    title: "Introduction to Operator Theory I"
+    chapter: "18"
+    section: "19"
+    pages: ""
+    role_in_book: "Shows P(K) functions extend analytically to the interior of K-hat"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

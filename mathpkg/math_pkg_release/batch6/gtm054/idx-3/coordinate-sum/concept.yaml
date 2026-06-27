@@ -1,0 +1,23 @@
+id: coordinate-sum
+title_en: "Coordinate Sum of Subspaces of the Power Set"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: algebraic-combinatorics
+difficulty: intermediate
+tags: [coordinate-sum, direct-sum, subspace, power-set, foundation]
+depends_on:
+  required: [join-of-subspaces, foundation-of-set-family]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "2"
+    section: "IIA"
+    pages: "41-48"
+    role_in_book: "Defines the coordinate sum (direct sum) when foundations are disjoint"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,30 @@
+A **principal object** over $(X, \xi)$ is a tuple $(E, \gamma, p, m, s)$ where:
+
+- $p: (E, \gamma) \rightarrow (X, \xi)$ is a $\mathbf{T}$-homomorphism;
+- $m: (Y, \theta) \times (E, \gamma) \rightarrow (E, \gamma)$ is a $\mathbf{T}$-homomorphism;
+- $s: X \rightarrow E$ is a $\mathcal{K}$-morphism;
+
+subject to the following conditions:
+
+(1) The diagram commutes:
+\[
+\begin{CD}
+Y \times Y \times E @>{+ \times \text{id}}>> Y \times E\\
+@V{\text{id} \times m}VV @VV{m}V\\
+Y \times E @>>{m}> E
+\end{CD}
+\]
+
+(2) $(Y, \theta) \times (E, \gamma) \xrightarrow{m} (E, \gamma)$ is an action;
+
+(3) The square
+\[
+\begin{CD}
+Y \times E @>{m}>> E\\
+@V{\text{pr}_E}VV @VV{p}V\\
+E @>>{p}> X
+\end{CD}
+\]
+is a pullback in $\mathcal{K}^{\mathbf{T}}$.
+
+A **morphism of principal objects** is a $\mathbf{T}$-homomorphism preserving $m$ and $p$ (but ignoring the choice of section $s$).

@@ -1,0 +1,19 @@
+$$\text{Start} \rightarrow T_{\text{seek 0}} \rightarrow T_{\text{right}} \xrightarrow{\text{if 1}} T_{\text{left}} \rightarrow T_{\text{seek 0}} \rightarrow T_{l\text{shift}}$$
+
+$T_{\text{fin}}$ acts as follows in the case of interest:
+\[
+0^{(2)} 1^{(x_0+1)} 0 1^{(x_1+1)} 0 \cdots 0 1^{(x_{(m-1)}+1)} 0 1^{(y+1)} 0 \quad \land
+\]
+\[
+\vdots
+\]
+\[
+1^{(y+1)} 0 0^{(p)} \quad \land
+\]
+
+where $p = x_0 + x_1 + \cdots + x_{m-1} + 2m + 2$. In case $m = 0$:
+\[
+0^{(2)} 1^{(y+1)} 0 \quad \land \quad \vdots \quad 1^{(y+1)} 0 0^{(2)} \quad \land
+\]
+
+In each case the tape is otherwise unchanged. Here "fin" abbreviates "finish."

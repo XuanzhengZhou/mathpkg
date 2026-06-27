@@ -1,0 +1,23 @@
+id: absolute-convergence-of-infinite-product
+title_en: "Absolute Convergence of Infinite Product"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [infinite-product, absolute-convergence, logarithm]
+depends_on:
+  required: [convergence-of-infinite-product-iff-log-series-converges]
+  recommended: [absolute-convergence-of-series]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "5"
+    section: "5.2"
+    pages: ""
+    role_in_book: "Defines absolute convergence of infinite products via log-series"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

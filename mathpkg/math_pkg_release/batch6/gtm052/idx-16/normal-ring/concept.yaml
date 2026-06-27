@@ -1,0 +1,23 @@
+id: normal-ring
+title_en: "Normal Ring"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [normal-ring, integrally-closed, noetherian, localization]
+depends_on:
+  required: []
+  recommended: [noetherian-ring, integrally-closed-domain, localization-at-prime-ideal]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "201-205"
+    role_in_book: "Defines normality for noetherian rings used in Serre's criterion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

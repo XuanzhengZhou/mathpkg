@@ -1,0 +1,23 @@
+id: sign-homomorphism
+title_en: "Sign homomorphism"
+title_zh: "符号同态"
+type: proposition
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [permutation, sign, homomorphism, symmetric-group]
+depends_on:
+  required: [sign-of-permutation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IV"
+    section: "§1. Determinant functions"
+    pages: "4.1"
+    role_in_book: "Shows that the sign map is a group homomorphism from S_p to the multiplicative group {-1,+1}"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

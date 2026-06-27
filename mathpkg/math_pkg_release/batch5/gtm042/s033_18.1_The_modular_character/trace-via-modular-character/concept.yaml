@@ -1,0 +1,23 @@
+id: trace-via-modular-character
+title_en: "Trace of an Endomorphism via Modular Character"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: intermediate
+tags: ["modular-character", "trace", "p-regular-component", "reduction-modulo-p"]
+depends_on:
+  required: ["modular-character"]
+  recommended: ["jordan-decomposition", "p-regular-component"]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "18"
+    section: "18.1"
+    pages: ""
+    role_in_book: "Property (v); relates the ordinary trace of $t_E$ to the modular character evaluated at the $p'$-component of $t$."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

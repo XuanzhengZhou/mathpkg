@@ -1,0 +1,23 @@
+id: unit-group-decomposition-zp
+title_en: "Decomposition of the Unit Group of Z_p"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: p-adic-numbers
+difficulty: intermediate
+tags: [p-adic, units, group-decomposition, teichmuller]
+depends_on:
+  required: [ring-of-p-adic-integers, group-extension-coprime]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "II. p-Adic Fields"
+    section: "3. The multiplicative group of Q_p"
+    pages: ""
+    role_in_book: "Proposition 7: U = V × U_1 where V ≅ F_p^* (Teichmüller representatives)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

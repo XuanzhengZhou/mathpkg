@@ -1,0 +1,11 @@
+A **Poisson structure** on a manifold $M$ is a Lie algebra structure on its space of smooth functions $C^\infty(M)$, together with a bilinear skew-symmetric operation $\{\cdot, \cdot\}$ (the **Poisson bracket**) satisfying:
+
+1. **Skew-symmetry:** $\{f, g\} = -\{g, f\}$
+2. **Jacobi identity:** $\{f, \{g, h\}\} + \{g, \{h, f\}\} + \{h, \{f, g\}\} = 0$
+3. **Leibniz rule:** $\{f, gh\} = \{f, g\}h + g\{f, h\}$
+
+such that for each fixed function $a \in C^\infty(M)$, the operator $\operatorname{ad}_a = \{a, \cdot\}$ (contraction of the Poisson bracket with $a$) is a derivation, i.e., there exists a vector field $\theta_a$ on $M$ satisfying
+
+$$\{a, f\} = \theta_a(f)$$
+
+for all $f \in C^\infty(M)$. The vector field $\theta_a$ is called the **Hamiltonian vector field** with Hamiltonian function $a$. The mapping $a \mapsto \theta_a$ is a Lie algebra homomorphism from $(C^\infty(M), \{\cdot,\cdot\})$ to the Lie algebra of vector fields on $M$.

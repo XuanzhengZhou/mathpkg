@@ -1,0 +1,23 @@
+id: completely-regular-iff-zero-set-base
+title_en: "Characterization of Completely Regular Spaces via Zero-Set Base"
+title_zh: "完全正则空间的零集基刻画"
+type: theorem
+domain: topology
+subdomain: separation-axioms
+difficulty: intermediate
+tags: [completely-regular-space, zero-set, base-for-closed-sets, characterization]
+depends_on:
+  required: [completely-regular-space, zero-set, base-for-closed-sets]
+  recommended: [hausdorff-space]
+  suggested: [weak-topology]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.2"
+    pages: ""
+    role_in_book: "Theorem 3.2; fundamental characterization linking complete regularity to the family of zero-sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

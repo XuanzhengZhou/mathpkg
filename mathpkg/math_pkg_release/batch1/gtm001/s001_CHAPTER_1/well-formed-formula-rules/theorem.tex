@@ -1,0 +1,12 @@
+\text{The formal language consists of:}
+\text{Free variables: } a_0, a_1, \ldots
+\text{Bound variables: } x_0, x_1, \ldots
+\text{Predicate symbol: } \in
+\text{Logical symbols: } \neg, \lor, \land, \rightarrow, \leftrightarrow, \forall, \exists
+
+\text{Rules for wffs:}
+\begin{enumerate}
+\item \text{If $a$ and $b$ are free variables, then $[a \in b]$ is a wff (atomic formula).}
+\item \text{If $\varphi$ and $\psi$ are wffs, then $\neg\varphi$, $[\varphi \lor \psi]$, $[\varphi \land \psi]$, $[\varphi \rightarrow \psi]$, $[\varphi \leftrightarrow \psi]$ are wffs.}
+\item \text{If $\varphi$ is a wff and $x$ is a bound variable, then $(\forall x)\varphi(x)$ and $(\exists x)\varphi(x)$ are wffs.}
+\end{enumerate}

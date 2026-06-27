@@ -1,0 +1,17 @@
+$D = (x_0, E_0, x_1, E_1, \ldots, E_{k-1}, x_k = x_0)$
+
+where all subscripts are to be understood modulo $k$, and $E_i = \{x_i, x_{i+1}\}$ for all $i \in \mathbb{Z}_k$. (The cyclic list $D$ need not denote a true circuit, since condition (a) in the definition of an $st$-path (§IIC) is not required to be satisfied.) By a "cyclic" list, we mean that $D$ is identified with
+
+$(x_j, E_j, x_{j+1}, E_{j+1}, \ldots, E_{k-1}, x_0, E_0, \ldots, E_{j-1}, x_j)$
+
+for any $j = 1, \ldots, k-1$. Such a cyclic list will be called admissible (with respect to $\{\pi_x : x \in V\}$) if
+
+$E_i = \pi_{xi}(E_{i-1})$, for all $i \in \mathbb{Z}_k$,
+
+and its length will be said to be $k$. For the present, let $\mathcal{A}$ denote the set of all admissible cyclic lists.
+
+Let $E = \{x, y\} \in \mathcal{E}$. Given the sequence $x, E, y$, it should be clear how to extend it to an admissible sequence. One begins with $x, E, y, \pi_y(E), \pi_y(E) + \{y\}$, and continues until the vertex $x$ appears again immediately following the edge $\pi_x^{-1}(E)$. We have shown that the sequence $x, E, y$ thus determines a unique element of $\mathcal{A}$. Moreover, each edge $E = \{x, y\}$ yields two sequences $x, E, y$ and $y, E, x$, each of which determines an admissible cyclic list. These two cyclic lists need not be distinct; they never are if $E$ is
+
+On the other hand, suppose now that a graph $\Gamma = (V, \mathcal{E})$ has a 2-cell imbedding in some orientable surface $S$, and let one of the two possible orientations ("clockwise" or "counterclockwise") be chosen. This orientation induces in a natural way a cyclic permutation $\pi_x$ of $x^*$ at each vertex $x \in V$; to wit, for each $E \in x^*$, $\pi_x(E)$ is the "next" edge in $x^*$ after $E$ in the sense of the given orientation. The set $\{\pi_x : x \in V\}$ of permutations determined in this way determines in turn the original 2-cell imbedding with which we started. Thus every 2-cell imbedding of $\Gamma$ in an orientable surface can be obtained from a set $\{\pi_x \in \Pi(x^*) : x \in V\}$ of cyclic permutations.
+
+To illustrate the above abstract description, we shall apply the Edmonds imbedding technique to construct a 2-cell imbedding in the torus of the graph $\Gamma$ represented by Figure E3. It should be emphasized that we do not know beforehand that the surface obtained will be the torus; we only know that it will be orientable.

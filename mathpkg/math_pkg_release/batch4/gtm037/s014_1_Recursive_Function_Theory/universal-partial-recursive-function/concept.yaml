@@ -1,0 +1,25 @@
+id: universal-partial-recursive-function
+title_en: "Universal Partial Recursive Function"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: recursion-theory
+difficulty: advanced
+tags: [partial-recursive-functions, universality, enumeration, diagonal-method]
+depends_on:
+  required:
+    - normal-form-theorem
+    - universal-turing-machines
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "H.-D. Ebbinghaus, J. Flum, W. Thomas"
+    title: "Mathematical Logic"
+    chapter: "5. Recursive Functions"
+    section: "5.1 Recursive Function Theory"
+    pages: ""
+    role_in_book: "Corollary 5.12: Existence of a 2-variable partial recursive function that is universal for unary partial recursive functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

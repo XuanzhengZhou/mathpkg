@@ -1,0 +1,23 @@
+id: direct-algebraic-sum-closed-subspaces-topological
+title_en: "Direct algebraic sum of closed subspaces in a complete metrizable t.v.s. is topological"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [direct-sum, topological-direct-sum, complete-metrizable, closed-subspace]
+depends_on:
+  required: [banach-homomorphism-theorem]
+  recommended: [product-tvs, isomorphism-of-tvs]
+  suggested: [complemented-subspace]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "2"
+    pages: ""
+    role_in_book: "Corollary 3 to Theorem 2.1: algebraic direct sum of closed subspaces → topological direct sum."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

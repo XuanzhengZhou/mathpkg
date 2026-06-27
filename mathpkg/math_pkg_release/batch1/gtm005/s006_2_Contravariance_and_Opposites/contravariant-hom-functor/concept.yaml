@@ -1,0 +1,25 @@
+id: contravariant-hom-functor
+title_en: "Contravariant Hom-Functor"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [hom-functor, contravariant, hom-set, representable-functor]
+depends_on:
+  required: [opposite-category, covariant-hom-functor, functor]
+  recommended: [contravariant-functor]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    edition: "2nd"
+    year: 1998
+    chapter: "I"
+    section: "2. Contravariance and Opposites"
+    pages: "47-49"
+    role_in_book: "Introduces the contravariant hom-functor C(-,b): C^op → Set as the fundamental example of a contravariant functor"
+content_hash: "36241fe0aaf2275dbace8e599e3e9262"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

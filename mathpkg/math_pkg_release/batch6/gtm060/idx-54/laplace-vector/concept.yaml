@@ -1,0 +1,23 @@
+id: laplace-vector
+title_en: "Laplace Vector (Eccentricity Vector)"
+title_zh: "拉普拉斯向量（偏心率向量）"
+type: definition
+domain: geometry
+subdomain: celestial-mechanics
+difficulty: intermediate
+tags: [laplace-vector, keplerian-ellipse, eccentricity, perihelion, planetary-motion]
+depends_on:
+  required: []
+  recommended: [keplerian-ellipse, orbital-elements, eccentricity, two-body-problem]
+  suggested: [runge-lenz-vector, secular-perturbations]
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 9"
+    section: "Introduction"
+    pages: "425"
+    role_in_book: "Introduced in the discussion of planetary motion perturbations as a bridge between KAM theory and celestial mechanics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+Let $\nabla: \Gamma(E) \to \Gamma(T^*(M) \otimes E)$ be a connection on a smooth vector bundle $E$ over $M$. The \textbf{covariant derivative} associated with $\nabla$ is the map
+$$
+\xi \mapsto \nabla_\xi, \quad \nabla_\xi: \Gamma(E) \to \Gamma(E)
+$$
+defined for $\xi \in \Gamma(T(M))$ by $\nabla_\xi(s) = (\nabla(s))(\xi \otimes \text{id})$.
+
+The covariant derivative satisfies:
+\begin{enumerate}
+\item $\nabla_\xi s$ is $C$-linear in $\xi$ and $s$,
+\item For a smooth function $f$, $\nabla_{f\xi} s = f \nabla_\xi s$,
+\item $\nabla_\xi(f s) = f \nabla_\xi s + \xi(f) s$ (Leibniz rule).
+\end{enumerate}
+Conversely, a covariant derivative satisfying these properties determines a connection.

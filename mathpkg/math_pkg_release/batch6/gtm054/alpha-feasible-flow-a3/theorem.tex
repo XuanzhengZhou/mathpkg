@@ -1,0 +1,11 @@
+$\alpha_1(B) = \max\{h(z, a) : h$ is a feasible flow in $(V, k)\}$.
+
+Let the set $U$ satisfy $a \in U \subseteq V + \{z\}$, and let $U_i = U \cap V_i$ ($i=1, 2$). Let $C$ be the cut determined by $U$. Then $C$ is a cut through $(z, a)$, and its capacity satisfies
+
+$$k(C; (z, a)) = |V_1 + U_1| + \sum_{x_1 \in U_1, x_2 \in V_2} k(x_1, x_2) + |U_2|$$
+
+$$\geq |V_1 + U_1| + |N(U_1) + (N(U_1) \cap U_2)| + |U_2|$$
+
+$$\geq |
+
+By the Max-Flow–Min-Cut Theorem (IVC6), A3, and A4, one has $\alpha_1(B) = |V_1| - \delta_1(B)$. The other equality is proved symmetrically.

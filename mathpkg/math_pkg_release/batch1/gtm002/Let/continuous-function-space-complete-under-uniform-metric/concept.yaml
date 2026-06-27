@@ -1,0 +1,23 @@
+id: continuous-function-space-complete-under-uniform-metric
+title_en: "The Space C[a,b] is Complete under the Uniform Metric"
+title_zh: "C[a,b]在一致度量下是完备的"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [completeness, uniform-metric, continuous-functions, cauchy-sequence]
+depends_on:
+  required: [uniform-metric-on-continuous-functions, complete-metric-space]
+  recommended: [uniform-convergence, cauchy-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "10"
+    section: "10"
+    pages: "50-52"
+    role_in_book: "Shows C[a,b] is a complete metric space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

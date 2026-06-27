@@ -1,0 +1,23 @@
+id: jacobi-field
+title_en: "Jacobi Field"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [jacobi-field, geodesic, covariant-derivative, gauss-curvature, frenet-frame, jacobi-equation]
+depends_on:
+  required: [covariant-derivative, geodesic, gauss-curvature]
+  recommended: [frenet-frame, levi-civita-connection]
+  suggested: [second-fundamental-form, geodesic-polar-coordinates]
+source_books:
+  - book_id: gtm051
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.4"
+    pages: "109-112"
+    role_in_book: "Central concept for studying variations of geodesics and curvature"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

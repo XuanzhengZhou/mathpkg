@@ -1,0 +1,23 @@
+id: annihilator-of-primary-submodule-is-primary
+title_en: "Annihilator of a Primary Submodule is a Primary Ideal"
+title_zh: "准素子模的零化子是准素理想"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [primary-submodule, annihilator, primary-ideal, module-theory]
+depends_on:
+  required: [primary-submodule, annihilator, primary-ideal]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "IV"
+    section: "Appendix"
+    pages: ""
+    role_in_book: "Theorem in the appendix. Shows that the annihilator of the difference module of a primary submodule is a primary ideal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

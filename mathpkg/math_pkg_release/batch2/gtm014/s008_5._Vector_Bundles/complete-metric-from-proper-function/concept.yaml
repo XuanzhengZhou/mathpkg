@@ -1,0 +1,23 @@
+id: complete-metric-from-proper-function
+title_en: "Complete Metric Constructed from a Proper Function"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: metric-spaces
+difficulty: intermediate
+tags: [metric-space, complete-metric, proper-function, topology-compatibility]
+depends_on:
+  required: []
+  recommended: [metric-space, proper-map, complete-metric-space]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "I"
+    section: "5. Vector Bundles"
+    pages: "36-40"
+    role_in_book: "Lemma 5.10 — constructs a complete metric on a manifold using a proper function, used to metrize manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

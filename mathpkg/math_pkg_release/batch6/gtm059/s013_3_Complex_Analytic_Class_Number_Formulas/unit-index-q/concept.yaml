@@ -1,0 +1,23 @@
+id: unit-index-q
+title_en: "Unit Index Q"
+title_zh: "单位指数 Q"
+type: definition
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [unit-group, unit-index, cyclotomic-units, real-subfield]
+depends_on:
+  required: []
+  recommended: [unit-group, class-group, real-subfield]
+  suggested: [cyclotomic-units]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "Complex Analytic Class Number Formulas"
+    pages: "86-89"
+    role_in_book: "Defines the unit index Q that measures the difference between full and real unit groups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

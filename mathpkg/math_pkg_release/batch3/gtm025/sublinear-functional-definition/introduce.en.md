@@ -1,0 +1,1 @@
+Sublinear functionals generalize norms (which are sublinear and symmetric). They are the natural domain of the Hahn-Banach theorem, which extends linear functionals dominated by sublinear functionals.

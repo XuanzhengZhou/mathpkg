@@ -1,0 +1,23 @@
+id: dimension-formula-cusp-form-space
+title_en: "Dimension formula for the space of cusp forms M_{2k,0}"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [modular-forms, cusp-forms, dimension-formula, valence-formula]
+depends_on:
+  required: []
+  recommended: [modular-forms-of-weight-2k, cusp-forms-space-m2k0]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.14"
+    pages: ""
+    role_in_book: "Records the dimension of the cusp form space, used to bound the number of simultaneous eigenforms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

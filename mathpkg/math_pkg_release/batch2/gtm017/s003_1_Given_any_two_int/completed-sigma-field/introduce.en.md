@@ -1,0 +1,1 @@
+The completion of a sigma-field with respect to a probability measure adds all subsets of null sets to the sigma-field, making them measurable with measure zero. This ensures that any subset of a set of probability zero is itself measurable. The completed sigma-field is the minimal enlargement achieving this property while preserving the original measure.

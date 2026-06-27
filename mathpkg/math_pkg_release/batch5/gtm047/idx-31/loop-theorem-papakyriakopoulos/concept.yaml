@@ -1,0 +1,23 @@
+id: loop-theorem-papakyriakopoulos
+title_en: "Loop Theorem (Papakyriakopoulos)"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [loop-theorem, 3-manifold, 2-manifold, fundamental-group, two-sided, papakyriakopoulos]
+depends_on:
+  required: [triangulated-3-manifold, polyhedral-2-manifold, two-sided-polyhedral-2-manifold, fundamental-group, polyhedral-2-cell, singular-2-cell]
+  recommended: [dehn-lemma]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "31"
+    section: "Bicollar neighborhoods; an extension of the Loop theorem"
+    pages: "201-210"
+    role_in_book: "Theorem 4: The Loop theorem — if a two-sided 2-manifold in a 3-manifold has nontrivial kernel in the induced fundamental group map, then there exists an embedded 2-cell whose boundary lies in the 2-manifold and is not null-homotopic there"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

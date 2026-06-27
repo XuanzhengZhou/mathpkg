@@ -1,0 +1,23 @@
+id: basis-of-factor-space
+title_en: "Basis of a Factor Space"
+title_zh: "商空间的基"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [vector-space, factor-space, quotient-space, basis, dimension]
+depends_on:
+  required: [vector-space, subspace, basis, factor-space, linear-independence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "II: Finite Dimensional Vector Spaces"
+    section: "9: Factor Spaces"
+    pages: "36-41"
+    role_in_book: "Characterization of the dimension of a factor space in terms of a basis extension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

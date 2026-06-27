@@ -1,0 +1,23 @@
+id: extreme-points-of-compact-convex-hull
+title_en: "Extreme Points of the Closed Convex Hull"
+title_zh: "紧凸包的极点"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [locally-convex-space, extreme-point, convex-hull, compact-set, convex-analysis]
+depends_on:
+  required: [supporting-manifold-and-extreme-point, convex-hull-of-finite-union-of-compact-convex-sets]
+  recommended: [hahn-banach-separation-theorem]
+  suggested: [krein-milman-theorem]
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "10"
+    section: "Compact Convex Sets"
+    pages: ""
+    role_in_book: "Theorem 10.5: if the closed convex hull of a compact set is compact, then every extreme point belongs to the original set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

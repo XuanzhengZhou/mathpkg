@@ -1,0 +1,23 @@
+id: ramanujan-tau-function
+title_en: "Ramanujan's Tau Function"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [ramanujan-tau, fourier-coefficients, discriminant, multiplicative-function]
+depends_on:
+  required: [discriminant-modular-form]
+  recommended: []
+  suggested: [divisor-sum-function]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.1"
+    pages: ""
+    role_in_book: "Fourier coefficients of the discriminant modular form"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

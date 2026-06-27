@@ -1,0 +1,13 @@
+id: green-function-uniform-bound
+title_en: "Uniform Bound for the Interval Green Function"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: intermediate
+tags: [green-function, bound, interval, expected-visits]
+depends_on: {required: [green-function-representation-aperiodic, interval-green-function], recommended: [], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "22", pages: "", role_in_book: "Provides a uniform upper bound for g_N(x,y) that is linear in the distance to the nearest boundary"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: linear-accessibility-density-in-1-sphere
+title_en: "Density of Linearly Accessible Points in a 1-Sphere"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [linear-accessibility, 1-sphere, jordan-curve, density, interior]
+depends_on:
+  required: [1-sphere, linear-accessibility-from-interior]
+  recommended: [jordan-curve-theorem, interior-of-jordan-curve]
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "9"
+    section: "9"
+    pages: ""
+    role_in_book: "Shows that linearly accessible points are dense in the 1-sphere, used in the polygonal approximation step of Schönflies"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

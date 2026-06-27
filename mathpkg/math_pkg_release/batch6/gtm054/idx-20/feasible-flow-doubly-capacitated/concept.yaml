@@ -1,0 +1,23 @@
+id: feasible-flow-doubly-capacitated
+title_en: "Feasible Flow in a Doubly-Capacitated Network"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: network-flows
+difficulty: intermediate
+tags: [network, flow, capacity, lower-bound, upper-bound, feasible]
+depends_on:
+  required: [doubly-capacitated-network]
+  recommended: [integral-flow]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "IV"
+    section: "G"
+    pages: ""
+    role_in_book: "Defines the admissibility condition for flows when both lower and upper capacities are present"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

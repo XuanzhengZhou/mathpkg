@@ -1,0 +1,23 @@
+id: wdl-equivalent-to-cofinality-forcing
+title_en: "WDL Equivalent to Cofinality Forcing Statement"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-algebras
+difficulty: advanced
+tags: [weak-distributive-law, forcing, boolean-valued-model, cofinality]
+depends_on:
+  required: [omega-omega-weak-distributive-law]
+  recommended: [boolean-valued-model, ccc]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "J.L. Bell"
+    title: "Axiomatic Set Theory"
+    chapter: "20"
+    section: "20. Weak Distributive Laws"
+    pages: ""
+    role_in_book: "Theorem 20.3: characterizes the weak distributive law in terms of a forcing statement about cofinality preservation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

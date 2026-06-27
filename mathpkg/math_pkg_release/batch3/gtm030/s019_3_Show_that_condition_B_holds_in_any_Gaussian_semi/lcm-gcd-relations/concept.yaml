@@ -1,0 +1,23 @@
+id: lcm-gcd-relations
+title_en: "Relations Between LCM and GCD"
+title_zh: ""
+type: exercise
+domain: algebra
+subdomain: semi-group-theory
+difficulty: intermediate
+tags: [lcm, gcd, gaussian-semi-group, distributivity, exercise]
+depends_on:
+  required: [gaussian-semi-group, greatest-common-divisor, lcm-existence-in-gaussian-semi-group]
+  recommended: [greatest-common-divisor-notation]
+  suggested: [associativity-of-gcd, distributivity-of-gcd]
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Exercise 2: Prove relations between l.c.m. and g.c.d. in a Gaussian semi-group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

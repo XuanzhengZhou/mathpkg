@@ -1,0 +1,23 @@
+id: bruck-ryser-chowla-theorem
+title_en: "Bruck-Ryser-Chowla Theorem"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: incidence-geometry
+difficulty: advanced
+tags: [bruck-ryser-chowla, finite-projective-plane, non-existence, sum-of-two-squares, lagrange-four-square]
+depends_on:
+  required: [incidence-matrix-product-property, finite-projective-plane-order]
+  recommended: [lagrange-four-square-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "3"
+    section: "5"
+    pages: "page_0097–page_0100"
+    role_in_book: "Theorem 3.14: Necessary condition for existence of a finite projective plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

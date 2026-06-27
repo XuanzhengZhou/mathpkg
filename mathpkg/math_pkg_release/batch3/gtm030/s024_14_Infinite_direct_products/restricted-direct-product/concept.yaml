@@ -1,0 +1,23 @@
+id: restricted-direct-product
+title_en: "Restricted Direct Product (Direct Product with Finite Support)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [restricted-direct-product, finite-support, direct-sum, direct-product]
+depends_on:
+  required: [complete-direct-product, product-set-of-indexed-groups]
+  recommended: [subgroup]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "14"
+    pages: ""
+    role_in_book: "Defines the restricted direct product as elements with finite support (only finitely many non-identity coordinates)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

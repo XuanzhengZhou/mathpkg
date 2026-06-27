@@ -1,0 +1,23 @@
+id: polynomially-convex-hull
+title_en: "Polynomially Convex Hull"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [convex-hull, polynomial-approximation, compact-sets, maximum-modulus]
+depends_on:
+  required: [maximum-modulus-theorem, compact-sets]
+  recommended: [polynomials, runge-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VIII"
+    section: "1"
+    pages: ""
+    role_in_book: "Definition of polynomially convex hull for compact sets in the context of Runge's Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

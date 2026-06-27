@@ -1,0 +1,23 @@
+id: kolmogoroff-normability-criterion
+title_en: "Kolmogoroff's Normability Criterion"
+title_zh: "Kolmogoroff可赋范准则"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [normability, hausdorff-tvs, bounded-neighborhood, convex-neighborhood, gauge, minkowski-functional]
+depends_on:
+  required: [normable-space, hausdorff-space, bounded-set, convex-set, topological-vector-space]
+  recommended: [gauge-functional, circled-set, convex-hull, neighborhood-base]
+  suggested: [banach-space]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Theorem 2.1; central characterization of normability in Hausdorff topological vector spaces, due to Kolmogoroff"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

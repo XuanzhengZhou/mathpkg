@@ -1,0 +1,23 @@
+id: upcrossing-of-interval
+title_en: "Upcrossing of an interval [r, s]"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: martingale-theory
+difficulty: intermediate
+tags: [upcrossing, martingale-convergence]
+depends_on:
+  required: []
+  recommended: [random-variable, sequence-of-random-variables]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "3"
+    section: "4"
+    pages: ""
+    role_in_book: "Definition 3-8: Defines upcrossings to prove martingale convergence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

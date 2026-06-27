@@ -1,0 +1,23 @@
+id: morse-lemma
+title_en: "Morse Lemma"
+title_zh: "Morse引理"
+type: theorem
+domain: geometry
+subdomain: differential-topology
+difficulty: advanced
+tags: [morse-theory, nondegenerate-critical-point, normal-form, coordinate-chart, quadratic-form, morse-index]
+depends_on:
+  required: [nondegenerate-critical-point, intrinsic-derivative-hessian]
+  recommended: [hessian-symmetric-bilinear-nondegenerate, smooth-first-order-taylor, smooth-second-order-taylor, morse-lemma-inductive-diagonalization]
+  suggested: [morse-inequalities]
+source_books:
+  - book_id: gtm014
+    author: "Golubitsky, M.; Guillemin, V."
+    title: "Stable Mappings and Their Singularities"
+    chapter: "6"
+    section: "6. Morse Theory"
+    pages: "77-79"
+    role_in_book: "Central theorem of Morse theory: local normal form near a nondegenerate critical point"
+content_hash: "thm-6-9-gtm014"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,15 @@
+---
+role: exercise
+locale: en
+chapter: "1"
+section: "1.2"
+exercise_number: 7
+---
+
+**EXERCISE 1.2.7**
+
+Let $(M, g)$ be a time-oriented Lorentzian manifold.
+\begin{enumerate}
+\item[(a)] Show that a causal vector field on $M$ must be either everywhere past pointing or everywhere future pointing.
+\item[(b)] Show that if $\gamma: \mathcal{E} \rightarrow M$ is a causal curve then either $\gamma_*u$ is future pointing for all $u \in \mathcal{E}$ or $\gamma_*u$ is past pointing for all $u \in \mathcal{E}$. Then $\gamma$ and $\gamma\mathcal{E}$ are said to be future pointing or past pointing, as the case may be.
+\end{enumerate}

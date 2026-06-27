@@ -1,0 +1,23 @@
+id: thom-space-of-whitney-sum-with-trivial-bundle-is-n-fold-suspension
+title_en: "Thom space of Whitney sum with trivial bundle is n-fold suspension"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: [thom-space, suspension, trivial-bundle, whitney-sum, homeomorphism]
+depends_on:
+  required: [thom-space-of-real-vector-bundle, thom-space-product-homeomorphic-to-smash-product, suspension, trivial-vector-bundle, whitney-sum]
+  recommended: [smash-product]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "1"
+    pages: "page_0232.json–page_0233.json"
+    role_in_book: "Relates Thom space of a stabilised bundle to the suspension of the original Thom space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

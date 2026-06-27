@@ -1,0 +1,23 @@
+id: cat-category
+title_en: "Category of Small Categories (Cat)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [cat, small-categories, large-category, functors-as-arrows]
+depends_on:
+  required: [category]
+  recommended: [functor]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "2"
+    pages: "26"
+    role_in_book: "Large category whose objects are small categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

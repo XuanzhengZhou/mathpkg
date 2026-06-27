@@ -1,0 +1,23 @@
+id: theorem-11-5-automorphism-generic
+title_en: "Theorem 11.5: Automorphism Invariance of Generic Extensions"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [forcing, automorphism, Boolean-algebra, generic-filter, generic-extension]
+depends_on:
+  required: [generic-filter, boolean-valued-models]
+  recommended: [partial-order-structure-p]
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti and Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "11"
+    section: "11 The Independence of V = L and the CH"
+    pages: ""
+    role_in_book: "Shows that automorphisms of the forcing poset lift to the generic extension without changing the model"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

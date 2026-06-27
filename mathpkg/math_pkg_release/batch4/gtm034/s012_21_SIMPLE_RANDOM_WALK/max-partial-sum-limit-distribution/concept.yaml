@@ -1,0 +1,13 @@
+id: max-partial-sum-limit-distribution
+title_en: "Limit Distribution of the Maximum of Partial Sums"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [maximum, partial-sums, limit-distribution, invariance-principle, brownian-motion]
+depends_on: {required: [hitting-time-limit-distribution-general], recommended: [invariance-principle, donsker-theorem], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "23", pages: "", role_in_book: "Reformulates T2 as a limit theorem for the maximum of the first n partial sums"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: associated-primes-characterization-via-quotient
+title_en: "Theorem 6: Associated prime ideals are precisely the radicals of quotient ideals a:(c) that are primary"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [associated-prime-ideal, primary-decomposition, quotient-ideal, radical]
+depends_on:
+  required: [lasker-noether-decomposition-theorem]
+  recommended: [primary-ideal, associated-prime, quotient-ideal, radical]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "IV"
+    section: "§5. Uniqueness theorems"
+    pages: "211"
+    role_in_book: "Characterization of associated primes; foundation for uniqueness theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

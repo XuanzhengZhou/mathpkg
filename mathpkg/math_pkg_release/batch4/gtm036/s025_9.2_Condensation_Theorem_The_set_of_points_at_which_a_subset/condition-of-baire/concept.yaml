@@ -1,0 +1,23 @@
+id: condition-of-baire
+title_en: "Condition of Baire"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: baire-category
+difficulty: basic
+tags: [baire-category, baire-property, first-category, open-set, borel-set]
+depends_on:
+  required: [first-category-set]
+  recommended: [open-set, borel-set]
+  suggested: [banach-subgroup-theorem, difference-theorem]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley"
+    title: "Linear Topological Spaces"
+    chapter: "10"
+    section: "10.4"
+    pages: ""
+    role_in_book: "Definition of the Baire property; prerequisite for the difference theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

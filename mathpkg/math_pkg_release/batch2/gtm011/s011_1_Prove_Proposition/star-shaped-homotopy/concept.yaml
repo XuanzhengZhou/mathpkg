@@ -1,0 +1,23 @@
+id: star-shaped-homotopy
+title_en: "Star-Shaped Sets and Homotopy"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [star-shaped-set, homotopy, rectifiable-curves]
+depends_on:
+  required: [homotopic-curves, convex-star-shaped-sets]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "4"
+    section: "6"
+    pages: ""
+    role_in_book: "Every closed rectifiable curve in an a-star shaped open set is homotopic to the constant curve at a"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

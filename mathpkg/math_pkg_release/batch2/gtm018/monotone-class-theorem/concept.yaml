@@ -1,0 +1,23 @@
+id: monotone-class-theorem
+title_en: "Monotone Class Theorem"
+title_zh: "单调类定理"
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: intermediate
+tags: [set-theory, monotone-class-theorem, sigma-ring]
+depends_on:
+  required: [monotone-class, ring-of-sets, sigma-ring]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "I"
+    section: "6"
+    pages: ""
+    role_in_book: "Theorem B: M(R) = S(R) for any ring R. The fundamental tool for extending properties from rings to sigma-rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: bidual-and-canonical-imbedding
+title_en: "Bidual and Canonical Imbedding of a Locally Convex Space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [bidual, canonical-imbedding, evaluation-map, strong-dual, locally-convex-space]
+depends_on:
+  required: [strong-topology-and-strong-dual, dual-space, locally-convex-space]
+  recommended: [strong-bidual, natural-topology, infrabarreled-space]
+  suggested: [reflexive-space, semi-reflexive-space]
+source_books:
+  - book_id: gtm003
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "5"
+    pages: "146-156"
+    role_in_book: "Defines the bidual E'' of a locally convex space and the canonical evaluation map E → E''"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

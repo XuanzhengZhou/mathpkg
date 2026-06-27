@@ -1,0 +1,23 @@
+id: definite-set
+title_en: "Definite Set in the Boolean-Valued Universe"
+title_zh: "布尔值宇宙中的确定集"
+type: definition
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: intermediate
+tags: [boolean-valued-universe, definite-set, characteristic-function]
+depends_on:
+  required: []
+  recommended: [boolean-valued-universe, extensional-function]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: ""
+    role_in_book: "Defines definite sets — Boolean-valued sets whose membership function is identically 1 on their domain, i.e., elements have full membership. Example: check sets are definite."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

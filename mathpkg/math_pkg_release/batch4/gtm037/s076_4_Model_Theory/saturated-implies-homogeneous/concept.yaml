@@ -1,0 +1,23 @@
+id: saturated-implies-homogeneous
+title_en: "m-Saturated Implies m-Homogeneous"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [saturated-model, homogeneous-model, elementary-equivalence]
+depends_on:
+  required: [m-saturated-structure]
+  recommended: [elementary-equivalence, elementary-extension]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "28"
+    section: "Saturated Structures"
+    pages: ""
+    role_in_book: "Lemma 28.17: establishes that saturation implies homogeneity for the same cardinal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

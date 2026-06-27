@@ -1,0 +1,23 @@
+id: scalar-product-respecting-gradations-implies-duality
+title_en: "Scalar product respecting G-gradations implies dimension equality and Poincaré series equality"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [scalar-product, graded-vector-space, duality, poincare-series, dimension-equality]
+depends_on:
+  required: [nondegenerate-respecting-bilinear-function, poincare-series]
+  recommended: [almost-finite-gradation-and-poincare-series]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VI"
+    section: "§1. G-graded vector spaces"
+    pages: "188"
+    role_in_book: "Proposition; consequence of graded duality for Poincaré series"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

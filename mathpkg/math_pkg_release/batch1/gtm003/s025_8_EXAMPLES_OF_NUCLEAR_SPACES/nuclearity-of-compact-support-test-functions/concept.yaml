@@ -1,0 +1,23 @@
+id: nuclearity-of-compact-support-test-functions
+title_en: "Nuclearity of Test Functions with Compact Support"
+title_zh: "紧支集检验函数的核性"
+type: proposition
+domain: analysis
+subdomain: nuclear-spaces
+difficulty: intermediate
+tags: [nuclear-space, test-functions, compact-support, d-c-space, closed-subspace]
+depends_on:
+  required: [nuclearity-of-interval-test-functions, hereditary-property-of-nuclear-spaces]
+  recommended: [compact-set, closed-subspace, tvs-subspace]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "8"
+    pages: ""
+    role_in_book: "Example 1 (corollary); D_C for compact C is a closed subspace of D_I, hence nuclear"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: stress-energy-tensor-of-electromagnetic-field
+title_en: "Stress-Energy Tensor of an Electromagnetic Field"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: intermediate
+tags: [stress-energy-tensor, electromagnetic-field, maxwell-equations, energy-density, poynting-vector]
+depends_on:
+  required: []
+  recommended: [electromagnetic-field, stress-energy-tensor, maxwells-equations]
+  suggested: [physically-equivalent-tensor, index-notation]
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.7"
+    pages: ""
+    role_in_book: "Definition. The stress-energy tensor $E$ of an electromagnetic field $F$ is the (0,2)-tensor with components $E_{ij} = (1/4\pi)[F_{im}F_j^m - (1/4)g_{ij}F_{mn}F^{mn}]$."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

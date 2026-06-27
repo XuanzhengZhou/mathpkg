@@ -1,0 +1,23 @@
+id: locally-bounded-topological-vector-space
+title_en: "Locally Bounded Topological Vector Space"
+title_zh: "局部有界的拓扑向量空间"
+type: definition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [locally-bounded, bounded-neighborhood, tvs, Lp-spaces]
+depends_on:
+  required: [bounded-set-in-tvs]
+  recommended: [topological-vector-space, metrizable-topological-vector-space]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "I"
+    section: "6"
+    pages: "41-43"
+    role_in_book: "Definition preceding Theorem 6.2; a sufficient condition for metrizability, intermediate between normability and general metrizability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: implicit-automaton-from-scoop
+title_en: "λ-Automaton from Implicit λ-Automaton via Scoop"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: universal-algebra
+difficulty: advanced
+tags: [lambda-automaton, implicit-automaton, scoop, response-equivalence, converse]
+depends_on:
+  required: [implicit-lambda-automaton, scoop-of-t-algebra]
+  recommended: [lambda-to-implicit-automaton]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "3"
+    section: "3.19"
+    pages: ""
+    role_in_book: "Converse of 3.20: constructs a λ-automaton from an implicit λ-automaton and any scoop, preserving response"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

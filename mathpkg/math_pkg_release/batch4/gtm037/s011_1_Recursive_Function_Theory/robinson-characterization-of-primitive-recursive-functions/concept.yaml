@@ -1,0 +1,23 @@
+id: robinson-characterization-of-primitive-recursive-functions
+title_en: "Robinson's Characterization of Primitive Recursive Functions"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: computability-theory
+difficulty: advanced
+tags: [primitive-recursive-function, iteration, closure-properties, Robinson, characterization]
+depends_on:
+  required: [composition, iteration, successor, exc-function, addition, projection-functions]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "3"
+    section: "Recursive Functions; Turing Computability"
+    pages: ""
+    role_in_book: "Theorem (R. M. Robinson) in Exercise 3.61 characterizing the class of primitive recursive functions as the smallest class closed under composition and iteration"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: euler-equation-body
+title_en: "Euler Equation for Angular Momentum in the Body (Euler Theorem 2)"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: lie-groups
+difficulty: advanced
+tags: [euler-equation, angular-momentum, lie-group, rigid-body, coadjoint-representation]
+depends_on: {required:[angular-momentum-body-space, coadjoint-representation], recommended:[conservation-of-spatial-angular-momentum], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V. I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"Appendix 2",section:"D",pages:"318-342",role_in_book:"Theorem 2: Euler equation dM_c/dt = {ω_c, M_c}"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

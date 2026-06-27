@@ -1,0 +1,23 @@
+id: lang-property-from-local-modularity
+title_en: "Lang Property from Local Modularity"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [lang-property, local-modularity, strongly-minimal-groups, diophantine-geometry, one-basedness]
+depends_on:
+  required: [lang-property, hrushovski-pillay-coset-decomposition]
+  recommended: [strongly-minimal-set, definable-group, locally-modular]
+  suggested: [faltings-theorem, mordell-lang-conjecture]
+source_books:
+  - book_id: "gtm053"
+    author: "Yuri I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "6"
+    section: "6.7"
+    pages: ""
+    role_in_book: "Corollary connecting the Hrushovski-Pillay theorem to the Lang property"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

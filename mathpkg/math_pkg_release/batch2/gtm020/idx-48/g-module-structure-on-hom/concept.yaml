@@ -1,0 +1,23 @@
+id: g-module-structure-on-hom
+title_en: "G-Module Structure on Hom Spaces"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [g-module, hom-space, dual-module, conjugate-linear, g-invariant]
+depends_on:
+  required: [g-module, g-morphism]
+  recommended: [dual-space]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "4.7"
+    pages: "190-191"
+    role_in_book: "Defines the natural G-module structure on Hom spaces, enabling the study of dual and internal Hom in the category of G-modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

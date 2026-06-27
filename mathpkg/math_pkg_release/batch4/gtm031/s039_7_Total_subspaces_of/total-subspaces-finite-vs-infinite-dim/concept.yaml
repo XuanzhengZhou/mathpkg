@@ -1,0 +1,26 @@
+id: total-subspaces-finite-vs-infinite-dim
+title_en: Total Subspaces in Finite vs Infinite Dimensions
+title_zh: ''
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required:
+  - dense-iff-total-in-finite-topology
+  - column-finite-subspace-is-total
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm031
+  author: Nathan Jacobson
+  title: 'Lectures in Abstract Algebra II: Linear Algebra'
+  chapter: 'Chapter VIII: The Ring of Linear Transformations'
+  section: 7. Total subspaces of R*
+  pages: 262-269
+  role_in_book: Contrasts finite and infinite dimensional behavior regarding total
+    subspaces.
+content_hash: 2891bd92badd9876
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

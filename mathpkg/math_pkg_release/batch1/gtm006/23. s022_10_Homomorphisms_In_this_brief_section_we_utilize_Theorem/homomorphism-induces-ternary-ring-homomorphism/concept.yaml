@@ -1,0 +1,23 @@
+id: homomorphism-induces-ternary-ring-homomorphism
+title_en: "Homomorphism of Projective Planes Induces a Ternary Ring Homomorphism"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: projective-planes
+difficulty: intermediate
+tags: [homomorphism, planar-ternary-ring, induced-mapping, projective-plane]
+depends_on:
+  required: [planar-ternary-ring, homomorphism-isomorphism-or-infinite-preimages, homomorphism-kernel-is-ternary-ring]
+  recommended: [homomorphism-of-projective-planes]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "6"
+    section: "10. Homomorphisms"
+    pages: ""
+    role_in_book: "Structural result: a homomorphism between projective planes induces a mapping of the restricted ternary rings that preserves the ternary operation and coordinates, parts (ii) and (iii)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

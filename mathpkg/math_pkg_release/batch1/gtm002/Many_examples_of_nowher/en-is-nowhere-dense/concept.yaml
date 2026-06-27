@@ -1,0 +1,23 @@
+id: en-is-nowhere-dense
+title_en: "E_n is Nowhere Dense in C"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [nowhere-dense, category-method, saw-tooth-function, piecewise-linear-approximation]
+depends_on:
+  required: [continuous-function-space, set-en-bounded-right-difference-quotients, en-is-closed]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "11"
+    section: "Nowhere Differentiable Functions"
+    pages: "53-54"
+    role_in_book: "Second step in Banach's category proof: showing E_n is nowhere dense via saw-tooth perturbation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

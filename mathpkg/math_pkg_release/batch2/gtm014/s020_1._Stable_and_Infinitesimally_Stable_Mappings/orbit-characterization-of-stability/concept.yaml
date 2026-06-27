@@ -1,0 +1,23 @@
+id: orbit-characterization-of-stability
+title_en: "Orbit Characterization of Stability"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: singularity-theory
+difficulty: intermediate
+tags: [stability, group-action, orbit, diffeomorphism-group]
+depends_on:
+  required: [stable-mapping, equivalence-of-smooth-mappings]
+  recommended: [group-action, orbit, diff-x-diff-y-action]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Golubitsky & Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "§1. Stable and Infinitesimally Stable Mappings"
+    pages: "83-85"
+    role_in_book: "Lemma 1.2: reformulates stability in terms of group orbits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

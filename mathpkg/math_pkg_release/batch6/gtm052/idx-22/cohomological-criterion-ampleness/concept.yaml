@@ -1,0 +1,23 @@
+id: cohomological-criterion-ampleness
+title_en: "Cohomological Criterion for Ampleness"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [ample, cohomology, invertible-sheaf, proper-scheme, vanishing]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "5"
+    pages: "239-249"
+    role_in_book: "Provides a cohomological characterization of ampleness: an invertible sheaf is ample iff higher cohomology of any coherent sheaf twisted by sufficiently high powers vanishes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

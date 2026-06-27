@@ -1,0 +1,23 @@
+id: dimension-formula-cycle-bond-space
+title_en: "Dimension Formula for Cycle and Bond Spaces"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [dimension-formula, cycle-space, bond-space, rank-nullity]
+depends_on:
+  required: [cycle-space, bond-space]
+  recommended: [boundary-map]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Graver, Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "II Algebraic Structures on Finite Sets"
+    section: "IID Cycle and Cocycle Spaces"
+    pages: "63"
+    role_in_book: "Display D3: fundamental dimension relation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

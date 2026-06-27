@@ -1,0 +1,23 @@
+id: simultaneous-linearization-of-submanifolds
+title_en: "Simultaneous Linearization of Submanifolds in General Position"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: differential-topology
+difficulty: intermediate
+tags: ["general-position", "submanifold", "linearization", "simultaneous-chart", "normal-crossings"]
+depends_on:
+  required: ["general-position-of-submanifolds"]
+  recommended: ["submanifold", "tangent-space", "codimension"]
+  suggested: ["inverse-function-theorem"]
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky, Martin; Guillemin, Victor"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "3"
+    pages: "96"
+    role_in_book: "Key technical lemma: submanifolds in general position can be simultaneously rectified by a single chart"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

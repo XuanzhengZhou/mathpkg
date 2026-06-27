@@ -1,0 +1,23 @@
+id: set-valued-algebraic-characterization
+title_en: "Set-Valued Algebraic Functor Characterization"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [category-theory, algebraic-functor, creates-limits, creates-quotients-of-congruences, solution-set-condition, set-valued-functor, cogenerator]
+depends_on:
+  required: [algebraic-functor, creates-limits, creates-quotients-of-congruences, solution-set-condition]
+  recommended: [cogenerator]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.22"
+    pages: ""
+    role_in_book: "Using 1.13 instead of 1.9, characterizes set-valued algebraic functors via limits and quotients of congruences"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

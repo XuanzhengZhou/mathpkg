@@ -1,0 +1,23 @@
+id: lemma-neighborhood-of-dagger-satisfying-mappings
+title_en: "Lemma on the Existence of a Neighborhood of Mappings Satisfying the Multijet Infinitesimal Stability Condition"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: singularity-theory
+difficulty: advanced
+tags: [infinitesimal-stability, multijet, whitney-topology, stable-mappings]
+depends_on:
+  required: []
+  recommended: [infinitesimal-stability, theorem-1.6-multijet-characterization, proposition-1.10-local-infinitesimal-stability-neighborhood]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "1"
+    pages: "128-129"
+    role_in_book: "Key lemma establishing that infinitesimal stability implies an open neighborhood where the multijet condition (†) holds globally"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

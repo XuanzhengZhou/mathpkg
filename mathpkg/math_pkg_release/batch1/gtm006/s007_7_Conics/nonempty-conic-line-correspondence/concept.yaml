@@ -1,0 +1,23 @@
+id: nonempty-conic-line-correspondence
+title_en: "Points of a nonempty conic correspond to points on a line"
+title_zh: "非空圆锥曲线的点与直线上的点一一对应"
+type: corollary
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags: [conic, bijection, line, cardinality]
+depends_on:
+  required: [conic-line-intersection-bound, conic]
+  recommended: [orthogonal-polarity, absolute-point]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II"
+    section: "7. Conics"
+    pages: "61-67"
+    role_in_book: "Corollary 1 of Lemma 2.34: nonempty conic points correspond 1-1 with line points"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: finite-subring-of-ptr-is-planar
+title_en: "Finite Subring of a Planar Ternary Ring is Planar or Trivial"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: non-associative-algebra
+difficulty: intermediate
+tags: [planar-ternary-ring, finite-subring, planar, ternary-subring]
+depends_on:
+  required: [planar-ternary-ring, finite-ternary-ring-condition-equivalence, finite-ternary-ring-unique-solution-lemma]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "5"
+    section: "4"
+    pages: ""
+    role_in_book: "Establishes that any finite non-empty ternary subring of a PTR is either trivial (consisting of 0 alone) or itself a planar ternary ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

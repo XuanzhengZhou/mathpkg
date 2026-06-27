@@ -1,0 +1,23 @@
+id: fibre-complete
+title_en: "Fibre-Complete Concrete Category"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [fibre-complete, optimal-lift, co-optimal-lift, concrete-category, struct-re-category]
+depends_on:
+  required: []
+  recommended: [optimal-lift, co-optimal-lift, concrete-category]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "3"
+    section: "3.27"
+    pages: ""
+    role_in_book: "Defines fibre-completeness, a strong condition on concrete categories that guarantees existence of adjoints and that the forgetful functor constructs all limits and colimits."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

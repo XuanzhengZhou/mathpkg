@@ -1,0 +1,61 @@
+If $\mu = 0, \sigma^2 < \infty$, then
+
+(a) $$0 < E[Z] = \frac{\sigma}{\sqrt{2}} e^\alpha < \infty$$
+
+(b) $$0 < E[-\bar{Z}] = \frac{\sigma}{\sqrt{2}} e^{-\alpha} < \infty,$$
+
+where $\alpha$ is the sum of the convergent series
+
+(c) $$\alpha = \sum_{k=1}^{\infty} \frac{1}{k} \left\{ \frac{1}{2} - P[S_k > 0] \right\}.$$
+
+Proof: First of all it is clear that P5 gives more information than necessary to complete the proof of T1. (If (B) holds, then $m < \infty$ and $\mu = 0$, so that $T < \infty$ and $T'^* < \infty$ by T17.1; further $\sigma^2 < \infty$, so that P5 not only shows that $Z$ and $\bar{Z}$ have finite moments, but also gives their explicit values. Hence a proof of P5 will complete the proof of T1.)
+
+Next we note that it will suffice to prove (a) and (c) in P5. Once we have (a) and (c) the same proof which gave (a) and (c) can obviously be applied to the reversed random walk. It has
+
+Now we can decompose $E[Z]$, which may be finite or infinite for all we know, into
+
+(1) $E[Z] = \lim_{n \to \infty} \sum_{k=1}^{n} E[S_k; T = k]$
+$$= \lim_{n \to \infty} \sum_{k=1}^{n} \{E[S_k; T > k - 1] - E[S_k; T > k]\}$$
+$$= - \lim_{n \to \infty} E[S_n; T > n].$$
+
+Using P17.5, part (c), we find that
+$$\sum_{n=0}^{\infty} t^n E[r^S_n; T > n] = e^{\sum_{k=1}^{\infty} \frac{t^k}{k} E[r^S_k; S_k \leq 0]},$$
+
+for $0 \leq t < 1$, $r > 1$. To obtain first moments we differentiate with respect to $r$ and subsequently let $r \neq 1$. That gives
+
+(2) $\sum_{n=0}^{\infty} t^n E[S_n; T > n] = \sum_{1}^{\infty} \frac{t^k}{k} E[S_k; S_k \leq 0]$.
+
+By Abel's theorem [39], applied to (1)
+$$E[Z] = - \lim_{t \to 1} (1 - t) \sum_{n=0}^{\infty} t^n E[S_n; T > n] \leq \infty.$$
+
+Therefore we obtain from (2), after multiplying (2) by $(1 - t)$ and letting $t \neq 1$,
+
+(3) $E[Z] = \lim_{t \to 1} F(t)G(t) \leq \infty,$
+
+where $F(t)$ and $G(t)$ denote
+$$F(t) = \sqrt{1 - t} e^{\sum_{k=1}^{\infty} \frac{t^k}{k} P[S_k \leq 0]},$$
+$$G(t) = -\sqrt{1 - t} \sum_{1}^{\infty} \frac{t^k}{k} E[S
+
+Now there are two possibilities. Either $\lim_{t \to 1} F(t)$ in (5) is finite, in which case we can apply P4 to conclude that
+
+$$E[Z] = \frac{\sigma}{\sqrt{2}} e^{\sum_{k=1}^{\infty} \frac{1}{k} \left\{ \frac{1}{2} - P[S_k > 0] \right\}} = \frac{\sigma}{\sqrt{2}} e^\alpha < \infty,$$
+
+so that both (a) and (c) in P5 are proved. Or else (this is the only other possibility)
+
+(6) $$\lim_{t \to 1} F(t) = +\infty.$$
+
+Observe that
+
+$$\frac{1}{2} - P[S_k > 0] = P[S_k = 0] - \left\{ \frac{1}{2} - P[S_k < 0] \right\}.$$
+
+Since
+
+$$\sum_{k=1}^{\infty} \frac{1}{k} P[S_k = 0] < \infty,$$
+
+as observed in the proof of T17.1, (6) implies that
+
+(7) $$\lim_{t \to 1} \sum_{k=1}^{\infty} \frac{t^k}{k} \left\{ \frac{1}{2} - P[S_k < 0] \right\} = -\infty.$$
+
+Now we retrace all the steps in the present proof, up to equation (5) applied to the reversed random walk. Its first positive partial sum is $-S_{\mathbf{T}}$ of the present random walk (in the sense that it has the same probability distribution). But then (7) leads to the inevitable conclusion that $E[-S_{\mathbf{T}}] = 0$ which is impossible since $-S_{\mathbf{T}}$ is by definition a random variable whose only possible values are the positive integers. Thus (6) is impossible, (a) and (c) hold, P5 is proved, and therefore also T1 is true.
+
+As we hinted before, T1 is a powerful tool when used in conjunction with the renewal theorem. To prepare for the applications in the next section we make some convenient definitions.

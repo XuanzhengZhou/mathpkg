@@ -1,0 +1,23 @@
+id: euler-step-five-divisibility
+title_en: "Euler's Step (5) — Divisibility of Successive Power Sums"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: sums-of-squares
+difficulty: intermediate
+tags: [euler, sums-of-squares, divisibility, congruence, infinite-descent]
+depends_on:
+  required: []
+  recommended: [congruences, fermats-little-theorem]
+  suggested: [quadratic-residue]
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.6"
+    pages: ""
+    role_in_book: "Key constructive lemma in Euler's proof of Fermat's two-square theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

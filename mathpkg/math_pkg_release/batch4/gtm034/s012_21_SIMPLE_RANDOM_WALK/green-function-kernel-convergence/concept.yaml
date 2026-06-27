@@ -1,0 +1,13 @@
+id: green-function-kernel-convergence
+title_en: "Convergence of the Interval Green Function to the Kernel R(s,t)"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [green-function, kernel, scaling-limit, riemann-integral, convergence]
+depends_on: {required: [interval-green-function, restricted-transition-convergence-to-derivative], recommended: [potential-theory], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "22", pages: "", role_in_book: "Asserts the convergence of the scaled Green function to the kernel R(s,t) = min(s,t) - st; motivates the development of Section 23"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

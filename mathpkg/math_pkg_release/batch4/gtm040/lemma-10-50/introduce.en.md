@@ -1,0 +1,14 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+For every $x$ in $*S$ and $y$ in $S^*$, both $p(x)$ and $q^\nu(y)$ exist, possibly being infinite. Their defining limits are increasing limits as $E \uparrow S$. Each is a Borel measurable function on its domain, and the functions satisfy
+
+$$p(x) = \lim_{E \uparrow S} \lim_{j \to x} \frac{h_j^E}{(Nf)_j}$$
+
+and
+
+$$q^\nu(y) = \lim_{E \uparrow S} \lim_{j \to y} \frac{\nu_j^E}{(\pi N)_j}.$$

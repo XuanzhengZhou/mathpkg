@@ -1,0 +1,23 @@
+id: locally-convex-space
+title_en: "Locally Convex Space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: ["locally-convex", "barrel", "convex-neighborhood"]
+depends_on:
+  required: ["linear-topological-space", "convex-set-def"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§10"
+  section: "10.A"
+  pages: "53-54"
+  role_in_book: "most important class of TVS"
+content_hash: "57d76921cfc77e9d"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

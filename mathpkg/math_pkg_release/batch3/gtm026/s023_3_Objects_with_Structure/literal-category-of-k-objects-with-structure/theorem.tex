@@ -1,0 +1,12 @@
+Let $\mathcal{K}$ be a (fixed base) category. A \textbf{literal category of $\mathcal{K}$-objects with structure} $\mathcal{C}$ is defined by the following two data and two axioms:
+
+\begin{enumerate}
+  \item $\mathcal{C}$ assigns to each object $K$ of $\mathcal{K}$ a class $\mathcal{C}(K)$ of $\mathcal{C}$-structures on $K$.
+  \item A $\mathcal{C}$-morphism $(K,s) \xrightarrow{f} (K',s')$ with $s \in \mathcal{C}(K)$ and $s' \in \mathcal{C}(K')$ is defined as a $\mathcal{C}$-admissible $\mathcal{K}$-morphism $f: K \to K'$.
+\end{enumerate}
+
+\textbf{Axiom 1.} $\operatorname{id}_K: (K,s) \to (K,s)$ is $\mathcal{C}$-admissible for all $s \in \mathcal{C}(K)$.
+
+\textbf{Axiom 2.} If $(K,s) \xrightarrow{f} (K',s')$ and $(K',s') \xrightarrow{g} (K'',s'')$ are $\mathcal{C}$-admissible, then the composite $(K,s) \xrightarrow{g \circ f} (K'',s'')$ is $\mathcal{C}$-admissible.
+
+It follows from these axioms that $\operatorname{id}_K: s \to s$ for all $s \in \mathcal{C}(K)$. As a result, there is a category—also denoted $\mathcal{C}$—with objects all $\mathcal{C}$-structures and as morphisms all $\mathcal{C}$-admissible $\mathcal{K}$-morphisms. There is also the obvious underlying $\mathcal{K}$-object functor $U: \mathcal{C} \to \mathcal{K}$.

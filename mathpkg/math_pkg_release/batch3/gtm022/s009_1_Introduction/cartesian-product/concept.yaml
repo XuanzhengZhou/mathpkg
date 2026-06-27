@@ -1,0 +1,23 @@
+id: cartesian-product
+title_en: "Cartesian Product of Sets"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [ZF, Zermelo-Fraenkel, cartesian-product, ordered-pair, sets]
+depends_on:
+  required: [axiom-of-power-set, ordered-pair, union-of-a-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Definition of the Cartesian product of two sets within ZF using the power set axiom"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

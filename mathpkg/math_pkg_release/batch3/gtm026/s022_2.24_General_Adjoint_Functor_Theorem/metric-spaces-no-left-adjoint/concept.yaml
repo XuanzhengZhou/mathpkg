@@ -1,0 +1,23 @@
+id: metric-spaces-no-left-adjoint
+title_en: "Example 2.27: Metric Space Forgetful Functor Lacks Left Adjoint"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: metric-spaces
+difficulty: intermediate
+tags: [adjoint-functor, metric-space, forgetful-functor, counterexample, product-preservation]
+depends_on:
+  required: [general-adjoint-functor-theorem, metric-space, distance-decreasing-map, forgetful-functor]
+  recommended: [uncountable-product, metrizability]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.27"
+    pages: ""
+    role_in_book: "Counterexample showing failure of product preservation obstructs adjoint existence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

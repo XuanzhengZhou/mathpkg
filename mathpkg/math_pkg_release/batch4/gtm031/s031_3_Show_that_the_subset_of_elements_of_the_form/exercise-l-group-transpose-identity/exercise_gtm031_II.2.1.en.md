@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "II"
+section: "2"
+exercise_number: 1
+---
+
+Let $\mathfrak{L}(\mathfrak{R}, \mathfrak{S})$ be the group of linear mappings of $\mathfrak{R}$ into $\mathfrak{S}$ and regard $\mathfrak{L}$ as a product of $\mathfrak{R}'$ and $\mathfrak{S}$ in the manner defined in §1. Show that, if $A'$ is a linear transformation in $\mathfrak{R}'$ and $B$ is a linear transformation in $\mathfrak{S}$, then the mapping $A' \times B$ in $\mathfrak{L} = \mathfrak{R}' \times \mathfrak{S}$ is identical with $L \mapsto ALB$ where $L$ is a general element of $\mathfrak{R}$ and $A$ is the transpose in $\mathfrak{R}$ of $A'$.

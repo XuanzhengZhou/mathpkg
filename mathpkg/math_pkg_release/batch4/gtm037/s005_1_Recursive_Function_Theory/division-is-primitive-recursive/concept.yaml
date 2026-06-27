@@ -1,0 +1,13 @@
+id: division-is-primitive-recursive
+title_en: "Integer Division is Primitive Recursive"
+title_zh: "整数除法是原始递归的"
+type: lemma
+domain: logic
+subdomain: recursive-function-theory
+difficulty: intermediate
+tags: [primitive-recursive, division, floor-division, recursion]
+depends_on: {required: [remainder-is-primitive-recursive, sg-bar-is-primitive-recursive, addition-is-primitive-recursive], suggested: []}
+source_books: [{book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "1", section: "Recursive Function Theory", pages: "43-46", role_in_book: "Demonstration that the floor division function [x/y] is primitive recursive"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

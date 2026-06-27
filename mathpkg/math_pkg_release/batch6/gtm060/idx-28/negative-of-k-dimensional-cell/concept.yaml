@@ -1,0 +1,13 @@
+id: negative-of-k-dimensional-cell
+title_en: "Negative of a k-dimensional cell"
+title_zh: "k维胞腔的负"
+type: definition
+domain: geometry
+subdomain: integration-of-forms
+difficulty: basic
+tags: [orientation, singular-cell, chain, integral]
+depends_on: {required: [k-dimensional-singular-cell], recommended: [], suggested: []}
+source_books: [{book_id: "gtm060", author: "V.I. Arnold", title: "Mathematical Methods of Classical Mechanics", chapter: "7", section: "35", pages: "196", role_in_book: "Defines the opposite orientation of a cell, needed to build chains and define integration with orientation reversal"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

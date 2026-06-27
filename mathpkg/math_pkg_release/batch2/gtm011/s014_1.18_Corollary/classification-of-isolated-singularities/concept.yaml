@@ -1,0 +1,23 @@
+id: classification-of-isolated-singularities
+title_en: "Classification of Isolated Singularities via Laurent Expansion"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [isolated-singularity, laurent-expansion, removable-singularity, pole, essential-singularity]
+depends_on:
+  required: [laurent-expansion]
+  recommended: [isolated-singularity]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "V"
+    section: "§1. Classification of Singularities"
+    pages: ""
+    role_in_book: "Corollary 1.18: characterizes removable singularities, poles, and essential singularities in terms of Laurent series coefficients"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

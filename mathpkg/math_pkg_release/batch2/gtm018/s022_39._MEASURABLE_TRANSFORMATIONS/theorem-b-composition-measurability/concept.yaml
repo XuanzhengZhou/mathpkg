@@ -1,0 +1,23 @@
+id: theorem-b-composition-measurability
+title_en: "Theorem B: Measurability of Composition with a Measurable Transformation"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [measurable-transformation, measurable-function, composition]
+depends_on:
+  required: [measurable-transformation, measurable-function, theorem-a-preimage-of-composition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "VIII"
+    section: "39. Measurable Transformations"
+    pages: ""
+    role_in_book: "Composition of measurable function with measurable transformation is measurable w.r.t. pullback sigma-algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

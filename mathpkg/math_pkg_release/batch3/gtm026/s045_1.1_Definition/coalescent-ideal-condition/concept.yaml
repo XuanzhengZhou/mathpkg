@@ -1,0 +1,23 @@
+id: coalescent-ideal-condition
+title_en: "Equivalent condition for a minimal right ideal to be coalescent"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: universal-algebra
+difficulty: intermediate
+tags: [coalescent-ideal, minimal-right-ideal, monoid, left-inverse]
+depends_on:
+  required: [coalescent-ideal-dynamic-monoid]
+  recommended: [minimal-right-ideal]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "4"
+    section: "1"
+    pages: ""
+    role_in_book: "Lemma 1.22; characterizes coalescent ideals via existence of left inverses"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

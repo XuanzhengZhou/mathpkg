@@ -1,0 +1,23 @@
+id: characteristic-oscillation
+title_en: "Characteristic Oscillation and Characteristic Frequency"
+title_zh: "特征振动与特征频率"
+type: definition
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [characteristic-oscillation, principal-oscillation, normal-mode, characteristic-frequency, eigenvalue]
+depends_on:
+  required: [characteristic-oscillation-existence, small-oscillations-direct-product-decomposition]
+  recommended: [eigenvalues, eigenvectors, harmonic-oscillator]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "5"
+    section: "Small Oscillations"
+    pages: "116"
+    role_in_book: "Defines characteristic oscillations (also called principal oscillations or normal modes) and characteristic frequencies"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,12 @@
+This defines a category of $\mathcal{K}$-objects with structure.
+
+If $(E, M)$ is an image factorization system in $\mathcal{K}$ then, if $X$ is an input process, $M$ is reachable if $r: IX^@ \longrightarrow Q$ is in $E$; if $X$ is an output process, $M$ is observable if $\sigma: Q \longrightarrow YX^@$ is in $M$.
+
+2.18 Minimal Realization Theorem. Let $(E, M)$ be an image factorization system in $\mathcal{K}$, let $X$ be an input process and an output process in $\mathcal{K}$, and assume that at least one of the following conditions holds:
+
+1. $X$ preserves $E$;
+2. $X^@$ preserves $E$;
+3. $E$ is the class of all coequalizers; or
+4. $E$ is the class of all epimorphisms.
+
+Then for every response $f: IX^@ \longrightarrow Y$ there exists a reachable and observable realization $M_f = (Q_f, \delta_f, I, \tau_f, Y, \beta_f)$ of $f$. Any such $M_f$ is a terminal object in the category of reachable realizations of $f$ and simulations and any such $M_f$ is an initial object in the category of observable realizations of $f$ and simulations; thus $M_f$ is unique up to isomorphism.

@@ -1,0 +1,8 @@
+Dually, an object $q$ in any category is called \textbf{injective} if for every monomorphism $g : a \rightarrowtail b$ and every arrow $h : a \rightarrow q$, there exists an arrow $h' : b \rightarrow q$ such that $h = h' \circ g$:
+
+$$\xymatrix{
+a \ar@{>->}[d]_{g} \ar[r]^{h} & q \\
+b \ar@{-->}[ur]_{\exists h'}
+}$$
+
+Equivalently, $q$ is injective precisely when the contravariant hom-functor $\hom(-, q)$ carries monomorphisms to epimorphisms in $\mathbf{Set}$.

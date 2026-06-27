@@ -1,0 +1,23 @@
+id: quadratic-polynomial-of-bilinear-form
+title_en: "Quadratic Polynomial of a Bilinear Form"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: bilinear-forms
+difficulty: basic
+tags: [bilinear-form, quadratic-form, quadratic-polynomial]
+depends_on:
+  required: [bilinear-form, ordered-basis]
+  recommended: [symmetric-bilinear-form]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K.W. Gruenberg, A.J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "5.3"
+    pages: "100"
+    role_in_book: "Defines the quadratic polynomial associated to a symmetric bilinear form"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,18 @@
+---
+role: exercise
+locale: en
+chapter: "7"
+section: "27"
+exercise_number: 7
+---
+
+Calculate the basic ring of the ring of matrices of the form
+
+$$\begin{bmatrix}
+A_{11} & A_{12} & \ldots & A_{1n} \\
+0 & A_{22} & \ldots & A_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 & \ldots & A_{nn}
+\end{bmatrix}$$
+
+where $A_{ij} \in \mathbb{M}_{m_i \times m_j}(D)$, $D$ a division ring. Also show that this ring is indecomposable.

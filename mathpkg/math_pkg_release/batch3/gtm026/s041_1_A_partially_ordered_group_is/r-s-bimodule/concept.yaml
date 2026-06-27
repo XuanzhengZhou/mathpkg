@@ -1,0 +1,23 @@
+id: r-s-bimodule
+title_en: "R-S Bimodule"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [bimodule, left-module, right-module, ring, abelian-group, bialgebra]
+depends_on:
+  required: []
+  recommended: [ring, abelian-group, left-r-module, right-s-module, s-t-bialgebra]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "6"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines bimodules and identifies them as bialgebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

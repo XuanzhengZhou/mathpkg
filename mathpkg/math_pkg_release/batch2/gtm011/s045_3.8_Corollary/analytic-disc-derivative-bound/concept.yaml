@@ -1,0 +1,24 @@
+id: analytic-disc-derivative-bound
+title_en: "Lemma XII.1.2: Bound on Derivative at Origin for Analytic Function on a Disc"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [bloch-theorem, landau-theorem, schwarz-lemma, geometric-function-theory]
+depends_on:
+  required: [schwarz-lemma]
+  recommended: [cauchy-estimate, rouche-theorem]
+  suggested: [bloch-landau-theorem, koebe-one-quarter-theorem]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "12"
+    section: "1"
+    pages: ""
+    role_in_book: "Lemma following 1.1, generalizing the unit disc result to B(0;R). Statement truncated in source."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"
+notes: "STATEMENT IS INCOMPLETE in source. The proof text that follows in the stitched section (lines 47-65) does NOT match this lemma — it discusses K(r) = max|f'(z)| and h(r) = (1-r)K(r), referencing equations 1.5 and 1.6, which likely belong to a later result such as the Bloch-Landau Theorem."

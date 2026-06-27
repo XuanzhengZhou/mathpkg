@@ -1,0 +1,23 @@
+id: vacuum-constraint-equations
+title_en: "Vacuum Constraint Equations"
+title_zh: "真空约束方程"
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: advanced
+tags: [einstein-equation, ricci-flat, spacelike-hypersurface, second-fundamental-form, scalar-curvature, initial-value-formulation]
+depends_on:
+  required: [smooth-manifold, riemannian-metric, scalar-curvature, second-fundamental-form, levi-civita-connection, divergence-operator]
+  recommended: [spacelike-imbedding, ricci-curvature, einstein-field-equation]
+  suggested: [adm-formalism, cauchy-problem-general-relativity]
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs and Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "8"
+    section: "8.5.1"
+    pages: ""
+    role_in_book: "Core definition: the PDEs a spacelike hypersurface must satisfy for the ambient spacetime to be Ricci-flat"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

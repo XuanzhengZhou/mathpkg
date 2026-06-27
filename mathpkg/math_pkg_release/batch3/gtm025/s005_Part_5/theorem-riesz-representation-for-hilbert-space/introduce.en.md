@@ -1,0 +1,1 @@
+The Riesz Representation Theorem identifies the dual of a Hilbert space with the space itself via the inner product. Every bounded linear functional is given by taking the inner product with a unique vector.

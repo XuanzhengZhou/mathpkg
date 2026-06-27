@@ -1,0 +1,23 @@
+id: lying-over-ideal
+title_en: "Ideal Lying Over Another Ideal"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [prime-ideal, lying-over, integral-extension, contraction]
+depends_on:
+  required: [prime-ideal, ring-extension]
+  recommended: []
+  suggested: [lying-over-theorem]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition: introduces the terminology 'lies over' for prime ideals in integral extensions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,5 @@
+Given a functor $K: M \to C$ and a category $A$, consider the functor $A^K: A^C \to A^M$ defined by precomposition with $K$. A right Kan extension of $T: M \to A$ along $K$ is a pair $\langle R, \varepsilon: RK \to T \rangle$ where $R: C \to A$ is a functor and $\varepsilon$ is a natural transformation, such that for each pair $\langle S, \alpha: SK \to T \rangle$ there is a unique natural transformation $\sigma: S \to R$ with $\alpha = \varepsilon \cdot \sigma K$. The assignment $\sigma \mapsto \varepsilon \cdot \sigma K$ is a bijection
+
+$$\mathrm{Nat}(S, \mathrm{Ran}_K T) \cong \mathrm{Nat}(SK, T),$$
+
+natural in $S$. This makes $\mathrm{Ran}_K T$ the value of a right adjoint to $A^K$ at $T$.

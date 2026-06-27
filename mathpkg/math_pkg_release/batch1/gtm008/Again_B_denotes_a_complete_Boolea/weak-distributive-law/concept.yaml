@@ -1,0 +1,23 @@
+id: weak-distributive-law
+title_en: "(ω, ω)-Weak Distributive Law and (ω, ω_α)-Weak Distributive Law"
+title_zh: "(ω, ω)-弱分配律与 (ω, ω_α)-弱分配律"
+type: definition
+domain: foundations
+subdomain: boolean-algebras
+difficulty: advanced
+tags: ["weak-distributive-law", "boolean-algebra", "forcing", "ccc"]
+depends_on:
+  required: []
+  recommended: ["complete-boolean-algebra"]
+  suggested: ["countable-chain-condition", "cofinality"]
+source_books:
+  - book_id: "gtm008"
+    author: "G. Takeuti, W.M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "20"
+    section: "20"
+    pages: ""
+    role_in_book: "Defines the weak distributive laws for complete Boolean algebras, which are crucial properties used in Boolean-valued models of set theory to control cardinal arithmetic in generic extensions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

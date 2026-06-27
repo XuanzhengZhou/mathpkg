@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "III"
+section: "B"
+exercise_number: 18
+---
+
+Let $\Gamma$ be a biconnected multigraph with $\dim(\mathcal{Z}(\Gamma)) \geq 2$. Prove that every edge of $\Gamma$ belongs to at least two distinct elementary circuits.

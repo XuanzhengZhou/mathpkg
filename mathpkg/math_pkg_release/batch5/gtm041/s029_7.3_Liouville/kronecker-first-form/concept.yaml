@@ -1,0 +1,23 @@
+id: kronecker-first-form
+title_en: "Kronecker's Theorem (First Form)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-approximation
+difficulty: advanced
+tags: [kronecker, simultaneous-approximation, linear-independence]
+depends_on:
+  required: []
+  recommended: [kronecker-one-dimensional-approximation, linear-independence-over-integers]
+  suggested: [f-function-equivalence, binomial-expansion-term-bound]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "7"
+    section: "7.5"
+    pages: ""
+    role_in_book: "Generalizes Dirichlet's theorem to simultaneous approximation of n real numbers by a linear form with n linearly independent coefficients"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

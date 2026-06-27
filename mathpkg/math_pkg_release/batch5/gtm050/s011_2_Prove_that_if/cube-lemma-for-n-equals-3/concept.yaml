@@ -1,0 +1,23 @@
+id: cube-lemma-for-n-equals-3
+title_en: "Cube Lemma for the Case n=3 of Fermat's Last Theorem"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: fermat-last-theorem
+difficulty: advanced
+tags: [fermat-last-theorem, n-equals-3, cubes, z-sqrt-minus-3, quadratic-integer-rings, euler]
+depends_on:
+  required: [factorization-of-a-plus-b-sqrt-minus-3, odd-factor-theorem-a2-plus-3b2]
+  recommended: [algebraic-number-theory, unique-factorization]
+  suggested: [infinite-descent]
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.5"
+    pages: ""
+    role_in_book: "The crucial lemma needed to prove Fermat's Last Theorem for n=3: if a^2+3b^2 is a cube and a,b are coprime, then a+b√(-3) is itself a cube in Z[√(-3)]"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

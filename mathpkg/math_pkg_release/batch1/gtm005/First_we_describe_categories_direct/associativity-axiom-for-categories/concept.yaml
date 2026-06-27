@@ -1,0 +1,23 @@
+id: associativity-axiom-for-categories
+title_en: "Associativity Axiom for Categories"
+title_zh: "范畴的结合性公理"
+type: axiom
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category-theory, associativity, composition, axiom]
+depends_on:
+  required: [metacategory]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I. Categories, Functors, and Natural Transformations"
+    section: "1. Axioms for Categories"
+    pages: "8"
+    role_in_book: "one of the two fundamental axioms defining a metacategory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

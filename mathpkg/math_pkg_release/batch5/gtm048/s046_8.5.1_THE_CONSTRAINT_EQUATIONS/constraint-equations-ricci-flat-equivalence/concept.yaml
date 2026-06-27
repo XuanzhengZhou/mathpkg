@@ -1,0 +1,23 @@
+id: constraint-equations-ricci-flat-equivalence
+title_en: "Constraint Equations Characterize Ricci Flatness"
+title_zh: "约束方程刻画Ricci平坦性"
+type: theorem
+domain: geometry
+subdomain: general-relativity
+difficulty: advanced
+tags: [einstein-equation, ricci-flat, constraint-equations, spacelike-hypersurface, gauss-codazzi-equations]
+depends_on:
+  required: [vacuum-constraint-equations, ricci-curvature, second-fundamental-form, gauss-equation, codazzi-equation]
+  recommended: [spacelike-imbedding, einstein-field-equation, cauchy-surface]
+  suggested: [adm-formalism, initial-value-problem-general-relativity]
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs and Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "8"
+    section: "8.5.1"
+    pages: ""
+    role_in_book: "Exercise: prove the equivalence between Ricci flatness and the constraint equations on every spacelike hypersurface"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: teichmuller-character
+title_en: "Teichmüller Character"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: p-adic-analysis
+difficulty: intermediate
+tags: [teichmuller-character, p-adic, finite-fields, character-group, roots-of-unity]
+depends_on:
+  required: []
+  recommended: [finite-fields, dirichlet-character, primitive-root]
+  suggested: [p-adic-numbers, cyclotomic-extension]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the Teichmüller character as the unique multiplicative character lifting the residue map; generates the character group of F_p^*"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

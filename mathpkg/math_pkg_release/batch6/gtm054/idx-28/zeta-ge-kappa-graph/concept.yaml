@@ -1,0 +1,23 @@
+id: zeta-ge-kappa-graph
+title_en: "Inequality relating zeta and kappa of a graph"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: graph-connectivity
+difficulty: intermediate
+tags: [connectivity, elementary-circuit, menger-theorem]
+depends_on:
+  required: []
+  recommended: [mengers-theorem, vertex-connectivity]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "Chapter V"
+    section: "Section 30"
+    pages: ""
+    role_in_book: "Corollary C13: For any graph with vertex-connectivity at least 2, the maximum number of vertices on an elementary circuit containing a given set of m vertices is at least the connectivity."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

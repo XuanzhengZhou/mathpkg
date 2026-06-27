@@ -1,0 +1,23 @@
+id: axiom-of-choice
+title_en: "Axiom of Choice (ZF7)"
+title_zh: ""
+type: axiom
+domain: foundations
+subdomain: set-theory
+difficulty: intermediate
+tags: [ZF, Zermelo-Fraenkel, axiom-of-choice, choice-function, sets]
+depends_on:
+  required: [power-set, empty-set, subset-relation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Seventh axiom of ZF; asserts existence of a choice function for every set of non-empty subsets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

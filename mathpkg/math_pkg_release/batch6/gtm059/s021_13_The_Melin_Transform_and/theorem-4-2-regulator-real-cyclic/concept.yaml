@@ -1,0 +1,23 @@
+id: theorem-4-2-regulator-real-cyclic
+title_en: "p-adic Regulator of the Real Cyclic Field"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: p-adic-l-functions
+difficulty: advanced
+tags: [p-adic-regulator, real-cyclic-field, cyclotomic-units, l-function]
+depends_on:
+  required: [p-adic-regulator, cyclotomic-field, p-adic-logarithm-extension]
+  recommended: [p-adic-l-function, leopoldt-conjecture]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "13"
+    section: "The Mellin Transform and p-adic L-function"
+    pages: ""
+    role_in_book: "Theorem 4.2: Expresses the p-adic regulator as a product involving the p-adic L-function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

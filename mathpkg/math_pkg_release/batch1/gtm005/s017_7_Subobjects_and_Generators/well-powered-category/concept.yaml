@@ -1,0 +1,23 @@
+id: well-powered-category
+title_en: "Well-Powered Category"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [well-powered, subobject, small-set, size-condition]
+depends_on:
+  required: [subobject]
+  recommended: [special-adjoint-functor-theorem, general-adjoint-functor-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V. Limits"
+    section: "7. Subobjects and Generators"
+    pages: ""
+    role_in_book: "Size condition on the collection of subobjects; hypothesis of adjoint functor theorems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

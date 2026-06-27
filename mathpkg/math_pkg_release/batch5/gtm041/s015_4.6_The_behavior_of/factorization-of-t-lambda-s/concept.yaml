@@ -1,0 +1,23 @@
+id: factorization-of-t-lambda-s
+title_en: "Factorization of T_λ S"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [modular-group, gamma0-p, coset-representatives, matrix-factorization]
+depends_on:
+  required: []
+  recommended: [modular-group-generators, hecke-operator-fp]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "4"
+    section: "4.6"
+    pages: ""
+    role_in_book: "Lemma 2 providing the key factorization needed to prove Theorem 4.6 on the behavior of f_p under S"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

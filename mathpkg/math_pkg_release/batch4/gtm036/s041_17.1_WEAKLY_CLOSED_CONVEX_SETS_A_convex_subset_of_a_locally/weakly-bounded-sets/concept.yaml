@@ -1,0 +1,23 @@
+id: weakly-bounded-sets
+title_en: "Weakly Bounded Sets"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [weak-topology, bounded-sets, locally-convex-space, polar, banach-alaoglu]
+depends_on:
+  required: [banach-alaoglu-theorem]
+  recommended: [weakly-closed-convex-sets, polar-of-a-set, bounded-set-definition]
+  suggested: [absorption-theorem]
+source_books:
+  - book_id: "gtm036"
+    author: "J.L. Kelley, I. Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "17"
+    section: "17.1"
+    pages: ""
+    role_in_book: "Equivalence of weak boundedness and original-topology boundedness in locally convex spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

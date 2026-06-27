@@ -1,0 +1,30 @@
+id: generalized-malgrange-preparation-for-direct-sums
+title_en: "Generalized Malgrange Preparation Theorem for Direct Sums of Modules"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags:
+  - malgrange-preparation
+  - module-over-ring-of-germs
+  - direct-sum
+  - finite-generation
+depends_on:
+  required:
+    - generalized-malgrange-preparation-theorem
+  recommended:
+    - finitely-generated-module
+    - ring-of-germs
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "§1"
+    pages: ""
+    role_in_book: "Extends the Malgrange Preparation Theorem to direct sums of modules over rings of germs at distinct points, enabling simultaneous analysis of multiple pre-image points."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

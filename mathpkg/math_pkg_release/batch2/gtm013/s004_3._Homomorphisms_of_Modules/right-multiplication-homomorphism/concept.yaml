@@ -1,0 +1,23 @@
+id: right-multiplication-homomorphism
+title_en: "Right Multiplication Homomorphism"
+title_zh: "右乘同态"
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [module-theory, cyclic-module, annihilator]
+depends_on:
+  required: [left-module-homomorphism, left-module]
+  recommended: [cyclic-module]
+  suggested: [first-isomorphism-theorem-modules]
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "3. Homomorphisms of Modules"
+    pages: ""
+    role_in_book: "Construction mapping cyclic modules to quotients of the ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

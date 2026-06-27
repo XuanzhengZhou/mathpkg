@@ -1,0 +1,1 @@
+The space of bounded linear operators between normed spaces is itself a normed space. Completeness of the codomain lifts to completeness of the operator space, making it a Banach space for operator-theoretic constructions.

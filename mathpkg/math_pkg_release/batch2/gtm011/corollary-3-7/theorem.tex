@@ -1,0 +1,15 @@
+Let $\varphi$ be a subharmonic function on a region $G$ and let $\bar{B}(a; r) \subset G$. Let $\varphi'$ be the function defined on $G$ by:
+
+(i) $\varphi'(z) = \varphi(z)$ if $z \in G - B(a; r)$;
+
+(ii) $\varphi'$ is the continuous function on $\bar{B}(a; r)$ which is harmonic in $B(a; r)$ and agrees with $\varphi(z)$ for $|z - a| = r$.
+
+Then $\varphi'$ is subharmonic.
+
+The proof is left to the reader.
+
+As was mentioned at the beginning of this section, one of the purposes in studying subharmonic functions is that they enter into the solution of the Dirichlet Problem. Indeed, the fourth version of the Maximum Principle gives an insight into how this occurs. If $G$ is a region and $u: G^- \to \mathbb{R}$ is a continuous function ($G^- = \text{the closure in } \mathbb{C}_\infty$) which is harmonic in $G$, then $\varphi(z) \leq u(z)$ for all $z$ in $G$ and for all subharmonic functions $\varphi$ which satisfy $\limsup \varphi(z) \leq u(a)$ for all $a$ in $\partial_\infty G$. Since $u$ is itself such a subharmonic function we arrive at the trivial result that
+
+3.8 $u(z) = \sup \{ \varphi(z): \varphi \text{ is subharmonic and } \limsup_{z \to a} \varphi(z) \leq u(a) \text{ for all } a \text{ in } \partial_\infty G \}$.
+
+Although this is a trivial statement, it is nevertheless a beacon that points the way to a solution of the Dirichlet Problem. Equation (3.8) says that if $f: \partial_\infty G \to \mathbb{R}$ is a continuous function and if $f$ can be extended to a function $u$ that is harmonic on $G$, then $u$ can be obtained from a set of subharmonic functions which are defined solely in terms of the boundary values $f$. This leads to

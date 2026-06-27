@@ -1,0 +1,9 @@
+Let $K$ be a class and let $\mathcal{L}(\{K(\cdot)\})$ be the language obtained from $\mathcal{L}_0$ by adding a unary predicate symbol $K(\cdot)$. Define the sequence $\langle \mathbf{A}_\alpha \mid \alpha \in \mathrm{On} \rangle$ of structures $\mathbf{A}_\alpha = \langle A_\alpha, \bar{K}_\alpha \rangle$ by transfinite induction:
+\begin{align*}
+A_0 &\triangleq 0, \\
+\bar{K}_\alpha &\triangleq A_\alpha \cap K, \\
+A_{\alpha+1} &\triangleq \operatorname{Df}(\mathbf{A}_\alpha), \\
+A_\alpha &\triangleq \bigcup_{\beta < \alpha} A_\beta, \quad \alpha \in K_{\mathrm{II}}.
+\end{align*}
+Then
+$$L_K \triangleq \bigcup_{\alpha \in \mathrm{On}} A_\alpha.$$

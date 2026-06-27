@@ -1,0 +1,23 @@
+id: recursive-group
+title_en: "Recursive Group"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: advanced
+tags: [recursive-group, combinatorial-group-theory, enumerable-subgroup, word-problem]
+depends_on:
+  required: [recursively-enumerable-set]
+  recommended: [finitely-presented-group, free-group]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "III"
+    section: "1 (Recursive Groups)"
+    pages: ""
+    role_in_book: "Definition connecting group theory with recursion theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

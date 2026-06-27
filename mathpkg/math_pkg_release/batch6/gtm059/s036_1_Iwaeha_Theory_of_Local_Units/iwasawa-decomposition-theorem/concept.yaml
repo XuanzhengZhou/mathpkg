@@ -1,0 +1,23 @@
+id: iwasawa-decomposition-theorem
+title_en: "Iwasawa Decomposition $V(\chi) = \mathbb{Z}_p[\Gamma] \cdot u(\chi)$ for Even Characters"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [even-character, iwasawa-module, cyclotomic-units, group-ring]
+depends_on:
+  required: [closure-of-cyclotomic-units-vn, cyclotomic-units-group-en]
+  recommended: [iwasawa-algebra, character-decomposition]
+  suggested: [p-adic-l-function]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "Iwasawa Theory of Local Units"
+    section: "5"
+    pages: ""
+    role_in_book: "Theorem 5.1: Decomposes the Iwasawa module $V$ of cyclotomic units according to even characters; each $\chi$-component is a cyclic $\mathbb{Z}_p[\Gamma]$-module"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

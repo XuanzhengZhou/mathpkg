@@ -1,0 +1,23 @@
+id: riemannian-metric-on-open-subset-of-r2
+title_en: "Riemannian Metric on an Open Subset of R^2"
+title_zh: "R^2 开子集上的黎曼度量"
+type: definition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [riemannian-metric, quadratic-form, differentiable-map, surface-theory]
+depends_on:
+  required: [positive-definite-matrix, quadratic-form]
+  recommended: [differentiable-map, symmetric-matrix]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Foundational definition for local Riemannian geometry on surfaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

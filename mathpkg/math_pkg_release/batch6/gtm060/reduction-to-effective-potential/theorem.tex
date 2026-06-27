@@ -1,0 +1,15 @@
+For the motion of a material point of unit mass in a central field the distance from the center of the field varies in the same way as $r$ varies in the one-dimensional problem with potential energy
+
+$$V(r) = U(r) + \frac{M^2}{2r^2}.$$
+
+Proof. Differentiating $\dot{\mathbf{r}} = \dot{r}\mathbf{e}_r + r\dot{\varphi}\mathbf{e}_\varphi$, we find
+
+$$\ddot{\mathbf{r}} = (\ddot{r} - r\dot{\varphi}^2)\mathbf{e}_r + (2\dot{r}\dot{\varphi} + r\ddot{\varphi})\mathbf{e}_\varphi.$$
+
+Since the field is central, $\partial U/\partial \mathbf{r} = (\partial U/\partial r)\mathbf{e}_r$. Therefore the equation of motion in polar coordinates takes the form $\ddot{r} - r\dot{\varphi}^2 = -\partial U/\partial r$, $2\dot{r}\dot{\varphi} + r\ddot{\varphi} = 0$.
+
+By the law of conservation of angular momentum, $\dot{\varphi} = M/r^2$, where $M$ is constant. Therefore,
+
+$$\ddot{r} = -\frac{\partial U}{\partial r} + r \frac{M^2}{r^4} = -\frac{\partial V}{\partial r}, \text{ where } V = U + \frac{M^2}{2r^2}.$$
+
+The quantity $V(r)$ is called the effective potential energy.

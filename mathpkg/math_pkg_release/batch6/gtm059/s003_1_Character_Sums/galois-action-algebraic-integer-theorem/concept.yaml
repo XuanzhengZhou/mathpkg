@@ -1,0 +1,23 @@
+id: galois-action-algebraic-integer-theorem
+title_en: "Galois Action on Algebraic Integers in Cyclotomic Fields"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [galois-action, algebraic-integers, cyclotomic-fields, character-sums, stickelberger]
+depends_on:
+  required: []
+  recommended: [galois-group-cyclotomic, algebraic-integer-definition]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields I and II"
+    chapter: "1"
+    section: "1. Character Sums"
+    pages: "26-29"
+    role_in_book: "Theorem relating algebraic integers in cyclotomic fields to Galois action and congruence conditions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: scott-isomorphism-theorem
+title_en: "Scott's Isomorphism Theorem for L_{omega_1 omega}"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: foundations
+difficulty: advanced
+tags: [scott-isomorphism, l-omega1-omega, infinitary-logic, countable-structure]
+depends_on:
+  required: [l-omega1-omega-language, isomorphism, countable-structure]
+  recommended: [scott-sentence]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "31"
+    section: "Unusual Logics"
+    pages: ""
+    role_in_book: "Theorem 31.1: every countable structure has an L_{omega1 omega} Scott sentence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

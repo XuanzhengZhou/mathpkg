@@ -1,0 +1,13 @@
+id: planar-imbedding-edge-contraction
+title_en: "Planar imbedding survives edge contraction"
+title_zh: ""
+type: lemma
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [planar-imbedding, edge-contraction, cycle-space, planarity]
+depends_on: {required: [planar-imbedding, contraction-of-multigraph, cycle-space-Z-Gamma], recommended: [fundamental-edge-set], suggested: []}
+source_books: [{book_id: "gtm054", author: "Jack E. Graver and Mark E. Watkins", title: "Combinatorics with Emphasis on the Theory of Graphs", chapter: "E", section: "11", pages: "92-97", role_in_book: "Lemma — shows that contracting a non-isthmus edge transforms a planar imbedding of the original graph into a planar imbedding of the contracted graph"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

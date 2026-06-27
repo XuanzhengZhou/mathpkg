@@ -1,0 +1,13 @@
+Let \([0,N]\) be the integer interval \(\{0,1,\dots,N\}\). For a random walk with transition function \(P(x,y)\), define:
+\[
+Q_N(x,y) = P(x,y) \quad \text{for } x,y \in [0,N],
+\]
+\[
+g_N(x,y) = \sum_{n=0}^{\infty} Q_N^n(x,y), \quad x,y \in [0,N],
+\]
+\[
+R_N(x,k) = \sum_{y=0}^{N} g_N(x,y) P(y,N+k), \quad L_N(x,k) = \sum_{y=0}^{N} g_N(x,y) P(y,-k),
+\]
+\[
+R_N(x) = \sum_{k=1}^{\infty} R_N(x,k), \quad L_N(x) = \sum_{k=1}^{\infty} L_N(x,k).
+\]

@@ -1,0 +1,23 @@
+id: planar-multigraph-type-uniqueness
+title_en: "Uniqueness of Planar Multigraphs of Types I and II"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [planar-graph, isovalent, classification, uniqueness]
+depends_on:
+  required: [planar-isovalent-classification]
+  recommended: [isovalent]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "III"
+    section: "12"
+    pages: "102"
+    role_in_book: "Establishes uniqueness of the infinite families in the isovalent classification"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

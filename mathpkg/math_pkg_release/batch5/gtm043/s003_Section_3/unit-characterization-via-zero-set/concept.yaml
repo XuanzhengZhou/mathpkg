@@ -1,0 +1,23 @@
+id: unit-characterization-via-zero-set
+title_en: "f is a Unit of C(X) iff Z(f) is Empty"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: basic
+tags: [unit, zero-set, multiplicative-inverse]
+depends_on:
+  required: [zero-set]
+  recommended: [unit, ring-of-functions]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.12"
+    pages: ""
+    role_in_book: "Characterizes units of C(X) as functions vanishing nowhere"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,11 @@
+Let $V$ be a finite-dimensional left vector space over a skewfield $K$, and let $V'$ be its dual right vector space. Let $\alpha$ be a non-singular semi-linear transformation of $V$ onto $V$, represented in a fixed basis $\{e_1, \dots, e_n\}$ by a matrix $A$ and associated automorphism $\sigma$. For $v = (x_1, \dots, x_n)$,
+$$v^\alpha = (x_1^\sigma, x_2^\sigma, \dots, x_n^\sigma) A.$$
+Define a mapping $\alpha' \colon V' \to V'$ by:
+$$(y_1, y_2, \dots, y_n)^{\alpha'} = A^{-1} (y_1^\sigma, y_2^\sigma, \dots, y_n^\sigma)^T,$$
+where elements of $V'$ are represented as column vectors (transposes of row vectors). Then:
+\begin{enumerate}
+\item $\alpha'$ is a non-singular semi-linear transformation of $V'$ onto $V'$ with the same associated automorphism $\sigma$.
+\item $v^\alpha(w')^\alpha = (v w')^\sigma$ for all $v \in V$, $w' \in V'$, where $v w'$ denotes the evaluation pairing.
+\item The mapping $\alpha \mapsto \alpha'$ is an isomorphism $\Gamma L(V) \to \Gamma L(V')$ with the property $\alpha'' = \alpha$.
+\item This isomorphism sends $GL(V)$ onto $GL(V')$.
+\end{enumerate}

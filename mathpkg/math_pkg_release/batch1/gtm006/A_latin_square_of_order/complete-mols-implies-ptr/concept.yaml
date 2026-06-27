@@ -1,0 +1,23 @@
+id: complete-mols-implies-ptr
+title_en: "Complete Set of MOLS Implies Planar Ternary Ring"
+title_zh: "完全正交拉丁方组蕴含平面三元环"
+type: theorem
+domain: combinatorics
+subdomain: latin-squares
+difficulty: intermediate
+tags: [mols, complete-set, planar-ternary-ring, projective-plane]
+depends_on:
+  required: [complete-set-of-mols, mols-normal-form, bound-on-mols]
+  recommended: [planar-ternary-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "5"
+    section: "5. Latin Squares"
+    pages: ""
+    role_in_book: "Converse direction — complete MOLS yield a PTR coordinatizing a projective plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

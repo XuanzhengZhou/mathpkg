@@ -1,0 +1,1 @@
+The Riesz Representation Theorem identifies the dual of a Hilbert space with the space itself via the inner product. This self-duality is a fundamental property that distinguishes Hilbert spaces from general Banach spaces.

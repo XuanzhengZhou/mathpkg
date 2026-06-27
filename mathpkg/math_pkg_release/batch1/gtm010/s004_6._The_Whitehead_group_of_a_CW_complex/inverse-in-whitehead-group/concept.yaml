@@ -1,0 +1,23 @@
+id: inverse-in-whitehead-group
+title_en: "Inverse in the Whitehead group via the double mapping cylinder"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: simple-homotopy-theory
+difficulty: advanced
+tags: [Whitehead group, inverse, double mapping cylinder, deformation retraction]
+depends_on:
+  required: [whitehead-group-of-a-cw-complex]
+  recommended: [mapping-cylinder, formal-deformation]
+  suggested: []
+source_books:
+  - book_id: gtm010
+    author: "Marshall M. Cohen"
+    title: "A Course in Simple-Homotopy Theory"
+    chapter: "6"
+    section: "6. The Whitehead group of a CW complex"
+    pages: "29-31"
+    role_in_book: "Establishes that Wh(L) is a group by constructing inverses"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

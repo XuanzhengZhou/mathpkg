@@ -1,0 +1,23 @@
+id: baire-property-characterization
+title_en: "Characterization of the Baire Property via Continuity on a Comeager Set"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: baire-category
+difficulty: intermediate
+tags: [baire-property, continuity, first-category, real-function]
+depends_on:
+  required: [property-of-baire-for-sets, first-category-set]
+  recommended: [baire-property-of-real-function]
+  suggested: [lusin-theorem]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "8"
+    section: "The Theorems of Lusin and Egoroff"
+    pages: "44"
+    role_in_book: "Theorem 8.1; the category analogue of Lusin's theorem: a function has the Baire property iff it is continuous off a first-category set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

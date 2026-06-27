@@ -1,0 +1,23 @@
+id: unital-iff-sup-u0-aplus-exists
+title_en: "A C*-algebra A is unital if and only if p := sup(U_0 ∩ A_+) exists; if so, p is the unit of A"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: cstar-algebras
+difficulty: advanced
+tags: [cstar-algebra, unital, supremum, projection, unit, hereditary-subalgebra]
+depends_on:
+  required: [sup-u0-aplus-is-projection, hereditary-subalgebra-projection]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "5"
+    section: "5.4"
+    pages: ""
+    role_in_book: "Characterizes unital C*-algebras by the existence of the supremum of A_+ ∩ U_0"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

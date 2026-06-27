@@ -1,0 +1,23 @@
+id: natural-boolean-algebra-complete-distributive-law
+title_en: "Natural Boolean Algebra Satisfies the Complete Distributive Law"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-algebra
+difficulty: intermediate
+tags: [natural-boolean-algebra, complete-distributive-law, power-set]
+depends_on:
+  required: [complete-distributive-law, alpha-beta-distributive-law, natural-boolean-algebra]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "4"
+    section: "Distributive Laws"
+    pages: "52-55"
+    role_in_book: "Shows that power set algebras are completely distributive"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

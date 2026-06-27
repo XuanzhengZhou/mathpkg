@@ -1,0 +1,23 @@
+id: superharmonic-function
+title_en: "Superharmonic Function"
+title_zh: "超调和函数"
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [superharmonic, harmonic, mean-value-property, potential-theory]
+depends_on:
+  required: [subharmonic-function]
+  recommended: [harmonic-function]
+  suggested: [dirichlet-problem, barrier-function]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.1"
+    pages: "278"
+    role_in_book: "Defined alongside subharmonic functions; used in barrier constructions for the Dirichlet Problem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

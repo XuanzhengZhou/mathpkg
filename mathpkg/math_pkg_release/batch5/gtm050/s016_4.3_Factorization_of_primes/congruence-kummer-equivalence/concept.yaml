@@ -1,0 +1,23 @@
+id: congruence-kummer-equivalence
+title_en: "Kummer's Congruence Equivalence Theorem"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-integers
+difficulty: intermediate
+tags: [congruence, cyclotomic-integers, kummer-theory, prime-factorization]
+depends_on:
+  required: [congruence-mod-cyclotomic-integer, cyclotomic-integer]
+  recommended: [norm-of-cyclotomic-integer, primitive-root-mod-p]
+  suggested: [fermats-little-theorem]
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "4"
+    section: "4.3"
+    pages: ""
+    role_in_book: "Establishes the equivalence between cyclotomic congruences mod h(α) and integer congruences mod p, the fundamental computational tool for prime factorization"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

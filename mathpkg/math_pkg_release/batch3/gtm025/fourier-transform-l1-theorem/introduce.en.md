@@ -1,0 +1,1 @@
+The Fourier transform converts convolution into pointwise multiplication. The Riemann-Lebesgue lemma states that $\hat{f}(y) \to 0$ as $|y| \to \infty$. The Fourier transform on $L^1 \cap L^2$ extends to a unitary operator on $L^2$.

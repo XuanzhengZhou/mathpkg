@@ -1,0 +1,25 @@
+Let $C = (C_0, C_1, i, d_0, d_1, \gamma)$ be an internal category in a finitely complete category $E$. A \textbf{left $C$-object} (also called an \textit{internal diagram} on $C$ or an \textit{internal base-valued functor}) consists of an object $H \in E$ together with a morphism $\pi : H \to C_0$ (the projection to the object of objects) and an action morphism
+$$
+\mu : C_1 \times_{C_0} H \to H,
+$$
+where the pullback is taken along $d_1$ and $\pi$, satisfying the following commutative diagrams (unit law and associative law):
+
+\textit{Unit law:}
+$$
+\begin{CD}
+C_0 \times_{C_0} H @>{i \times 1}>> C_1 \times_{C_0} H \\
+@| @V{\mu}VV \\
+H @= H
+\end{CD}
+$$
+
+\textit{Associative law:}
+$$
+\begin{CD}
+C_1 \times_{C_0} C_1 \times_{C_0} H @>{1 \times \mu}>> C_1 \times_{C_0} H \\
+@V{\gamma \times 1}VV @V{\mu}VV \\
+C_1 \times_{C_0} H @>>{\mu}> H
+\end{CD}
+$$
+
+When $E = \mathbf{Set}$, a left $C$-object precisely recovers an ordinary functor $C \to \mathbf{Set}$.

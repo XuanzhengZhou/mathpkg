@@ -1,0 +1,27 @@
+id: if-vdash-varphi-leftrightarrow-forall-xpsix-and-vdash-varphi-leftrightarrow-exis
+title_en: If $|\vdash [\varphi \leftrightarrow (\forall x)\psi(x)]$ and $|\vdash [\varphi
+  \leftrightarrow (\exists x)\eta(x)]$, if $A$ is a non-empty class that satisfies
+  each nonlogical axiom in some proof of $\varphi \leftrightarrow (\forall x)\psi(x)$
+  and some proof of $\varphi \leftrightarrow (\exists x)\eta(x)$, if $\psi(x)$ Abs
+  $A$ and if $\eta(x)$ Abs $A$ then
+title_zh: ''
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: []
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm001
+  author: Gaisi Takeuti, Wilson M. Zaring
+  title: Introduction to Axiomatic Set Theory (2ed, 1982)
+  chapter: '11'
+  section: ''
+  pages: ''
+  role_in_book: ''
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

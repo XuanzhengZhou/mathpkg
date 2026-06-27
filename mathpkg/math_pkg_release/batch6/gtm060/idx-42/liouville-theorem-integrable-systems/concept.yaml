@@ -1,0 +1,23 @@
+id: liouville-theorem-integrable-systems
+title_en: "Liouville's Theorem on Integrable Systems"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [liouville-theorem, integrable-system, first-integral, involution, torus, conditionally-periodic-motion, quadratures]
+depends_on:
+  required: [functions-in-involution, poisson-bracket, hamiltonian-system, symplectic-manifold]
+  recommended: [first-integral, phase-flow, angular-coordinates]
+  suggested: [action-angle-variables, arnold-liouville-theorem, kolmogorov-arnold-moser-theory]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "10"
+    section: "49"
+    pages: ""
+    role_in_book: "Central theorem of integrable Hamiltonian systems — n first integrals in involution guarantee integrability by quadratures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

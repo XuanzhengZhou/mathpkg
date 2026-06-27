@@ -1,0 +1,13 @@
+id: averages-theorem
+title_en: "Theorem on averages (equality of space and time averages)"
+title_zh: "平均定理（空间平均与时间平均的相等性）"
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [ergodic-theorem, averages, conditionally-periodic, torus, uniform-distribution]
+depends_on: {required: [], recommended: ["space-average", "time-average", "independent-frequencies"], suggested: ["conditionally-periodic-motion"]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"10",section:"51",pages:"",role_in_book:"Core theorem stating equality of time and space averages for conditionally periodic motion with independent frequencies"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

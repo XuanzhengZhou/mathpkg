@@ -1,0 +1,38 @@
+id: long-cohomology-sequence-exactness
+title_en: "Long Cohomology Sequence Exactness Theorem"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: several-complex-variables
+difficulty: advanced
+tags:
+  - cohomology
+  - sheaf-cohomology
+  - exact-sequence
+  - long-exact-sequence
+  - flabby-resolution
+  - derived-functor
+depends_on:
+  required:
+    - flabby-cohomology
+    - canonical-flabby-resolution
+    - connecting-homomorphism
+    - left-exact-functor
+  recommended:
+    - cech-cohomology
+    - double-complex
+    - spectral-sequence
+  suggested:
+    - sheaf-of-modules
+    - abelian-category
+source_books:
+  - book_id: "gtm038"
+    author: "Hans Grauert, Klaus Fritzsche"
+    title: "Several Complex Variables"
+    chapter: "VI. Cohomology Theory"
+    section: "4. The Cohomology Sequence"
+    pages: "175-178"
+    role_in_book: "Main theorem establishing the long exact cohomology sequence from a short exact sequence of sheaves"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

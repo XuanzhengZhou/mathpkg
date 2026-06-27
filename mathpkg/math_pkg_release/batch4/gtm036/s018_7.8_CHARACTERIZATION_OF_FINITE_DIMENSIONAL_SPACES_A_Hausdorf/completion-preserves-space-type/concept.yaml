@@ -1,0 +1,23 @@
+id: completion-preserves-space-type
+title_en: "Completion Preserves Pseudo-Metrizability, Pseudo-Normability, and Local Convexity"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: linear-topological-spaces
+difficulty: intermediate
+tags: [completion, pseudo-metrizable, pseudo-normable, locally-convex, frechet-space, banach-space]
+depends_on:
+  required: []
+  recommended: [completion-theorem, pseudo-metrizable-space, pseudo-normable-space, locally-convex-space, frechet-space, banach-space]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "7"
+    section: "7.8"
+    pages: ""
+    role_in_book: "Exercise B(a); the completion inherits the structural properties of the original space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

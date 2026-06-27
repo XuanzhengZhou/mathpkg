@@ -1,0 +1,23 @@
+id: algebra-of-linear-transformations-noncommutative
+title_en: "Algebra of Linear Transformations is Associative but Not Commutative"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: algebraic-structures
+difficulty: basic
+tags: [algebra, linear-transformations, A(E;E), associativity, non-commutative]
+depends_on:
+  required: [algebra, associative-algebra, commutative-algebra, vector-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "W. Greub"
+    title: "Linear Algebra"
+    chapter: "V"
+    section: "1. Basic properties"
+    pages: "160"
+    role_in_book: "Proposition: A(E;E) is associative but not commutative if dim E ≥ 2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: double-complex-cohomology-isomorphism
+title_en: "Double Complex Cohomology Isomorphism"
+title_zh: "双复形上同调同构定理"
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: ["double complex", "cohomology isomorphism", "augmented cochain complex", "spectral sequence"]
+depends_on:
+  required: ["double-complex", "augmented-cech-complex", "cohomology-group"]
+  recommended: ["exact-sequence", "cochain-complex"]
+  suggested: ["spectral-sequence", "acyclic-resolution"]
+source_books:
+  - book_id: "gtm038"
+    author: "Raghavan Narasimhan"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "3"
+    pages: ""
+    role_in_book: "Relates cohomology of augmented complexes to edge cohomology of an associated double complex"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

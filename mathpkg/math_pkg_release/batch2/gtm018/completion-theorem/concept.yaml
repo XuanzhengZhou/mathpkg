@@ -1,0 +1,23 @@
+id: completion-theorem
+title_en: "Completion of a Measure"
+title_zh: "测度的完备化"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-theory, completion, complete-measure]
+depends_on:
+  required: [measure, complete-measure]
+  recommended: [extension-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "III"
+    section: "13"
+    pages: ""
+    role_in_book: "Every measure can be completed by adjoining subsets of null sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

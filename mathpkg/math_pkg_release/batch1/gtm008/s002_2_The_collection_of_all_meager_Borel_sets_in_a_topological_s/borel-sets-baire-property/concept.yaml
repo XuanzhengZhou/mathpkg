@@ -1,0 +1,23 @@
+id: borel-sets-baire-property
+title_en: "Every Borel Set Has the Property of Baire"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: descriptive-set-theory
+difficulty: intermediate
+tags: [borel-set, baire-property, meager, open-set, symmetric-difference]
+depends_on:
+  required: [borel-set, baire-property, meager-set, baire-algebra]
+  recommended: [meager-sets-proper-sigma-ideal, boundary-of-open-set-empty-interior]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "Chapter 2: Topological Spaces"
+    section: "2. The Collection of All Meager Borel Sets in a Topological Space"
+    pages: ""
+    role_in_book: "Theorem 3.10: Borel sets are in the Baire algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

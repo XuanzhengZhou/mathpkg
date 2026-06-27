@@ -1,0 +1,23 @@
+id: zp-extension
+title_en: "Z_p-Extension of a Number Field"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [zp-extension, galois-group, cyclotomic-extension, number-field]
+depends_on:
+  required: []
+  recommended: [galois-theory, p-adic-integers, number-field]
+  suggested: [iwasawa-algebra]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "5"
+    pages: ""
+    role_in_book: "Definition in Section 4"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

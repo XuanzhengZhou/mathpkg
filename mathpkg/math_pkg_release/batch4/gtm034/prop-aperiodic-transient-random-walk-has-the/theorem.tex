@@ -1,0 +1,65 @@
+Aperiodic transient random walk has the property that $F(0,x) < 1$ for all $x \in R$, with one and only one exception. If the dimension $d = 1$, $m < \infty$, $\mu < 0$, and the random walk is left continuous (i.e., $P(0,x) = 0$ for $x \leq -2$), then $F(0,x) = 1$ for $x < 0$ while $F(0,x) < 1$ for $x > 0$. An analogous rule applies of course to the reversed, right continuous random walk with $m < \infty$, $\mu > 0$.
+
+Proof: Suppose that $F(0,a) = 1$ for a certain aperiodic transient random walk, where $a \neq 0$. Then $F(0,na) = 1$ for every integer $n \geq 1$. For if $\mathbf{T}_x$ is the first time of $\mathbf{x}_n$ at $x$, and if $\mathbf{x}_0 = 0$, then
+
+$$F(0,a) = \mathbf{P}_0[\mathbf{T}_a < \infty],$$
+
+$$F(0,na) = \mathbf{P}_0[\mathbf{T}_{na} < \
+
+It is quite clear that left-continuous random walk with $\mu < 0$ has the desired property. Since $x_n \to -\infty$ with probability one, and no point can be "skipped," $F(0, -1) = F(0, -n) = 1$ for $n \geq 1$.
+
+Finally, if $\mu < 0$ and the random walk is not left continuous, one can show that for every $a < 0$ there is some "path" $0 = x_0, x_1, \ldots, x_n$ such that $x_n < a$,
+
+$$P(0, x_1)P(x_1, x_2) \ldots P(x_{n-1}, x_n) > 0,$$
+
+and $x_k \neq a$ for $k = 1, 2, \ldots, n-1$. That may be done by a simple combinatorial argument (as for example in the proof of P18.8) which of course has to take account of the aperiodicity of the random walk. Because $\mu < 0$, the existence of such a path implies that $F(x_n, a) < 1$ and therefore also that
+
+$$1 - F(0, a) \geq P(0, x_1) \ldots P(x_{n-1}, x_n)[1 - F(x_n, a)] > 0.$$
+
+This inequality shows that left continuity is a necessary property of an aperiodic random walk with $\mu < 0$ and $F(0, a) = 1$ for some $a < 0$. The proof of P9 is therefore complete.
+
+25. HITTING PROBABILITIES
+
+Let $P(x, y)$ be the transition function of a transient random walk. We shall also assume aperiodicity throughout this section, although it will of course usually be possible to rephrase the results in such a way as to remove this condition. The matter of calculating hitting probabilities is quite a bit easier than it was for recurrent random walk in Chapter III. Therefore we shall now attack the general situation where $A \subset R$ is any nonempty, possibly infinite, proper subset of $R$. The relevant definitions can be found in D10.1, but since we
+
+In general, one cannot say much about the probabilities $H_A(x)$ and $E_A(x)$. Obviously $H_A(x)$ is one on $A$ and less than or equal to one on $R - A$. But to get more information is not easy. To appreciate the difficulties, it suffices to take for $A$ the set consisting of the origin, and to look up P24.9 in the last section. According to P24.9, $H_{(0)}(x)$ is less than one for all $x \neq 0$ for “most” transient random walks—but there is the exception of the left- and right-continuous random walks with $m < \infty$.
+
+Now consider the escape function. If
+
+$$\mathbf{T} = \min [n \mid n \geq 1, x_n \in A],$$
+
+then the definition of $E_A(x)$ gives
+
+$$E_A(x) = 1 - \mathbf{P}_z[\mathbf{T} < \infty] = \mathbf{P}_z[\mathbf{T} = +\infty], \quad x \in A.$$
+
+That is why we called it the escape function of $A$. The only general information one has from P10.4, or from the probability interpretation in terms of the hitting time $\mathbf{T}$, is that $E_A(x) \leq 1$ on $A$. Of course, if one wants an example of a set $A$ such that $E_A(x) > 0$ on $A$, one should look for a “small” set—say a finite one. But here again P24.9 teaches one respect for the difficulty of the problem. If the random walk is left continuous, with $m < \infty$ and $\mu < 0$, and if $A$ is the set $A = \{0, -1\}$, then $E_{(0,-1)}(0) = 0$. But for every other one-dimensional transient random walk $E_{(0,-1)}(0) > 0$. Still more difficult is the question of how “large” the set $A$ should be so that $E_A(x) \equiv 0$ on $A$. We shall return to all these questions after getting some information concerning $H_A(x,y)$ and $\Pi_A(x,y)$
+
+we add the $n + 1$ equations one gets by setting $k = 0, 1, 2, \ldots, n$. The result is
+
+$$H_A(x,y) = \sum_{t \in A} G_n(x,t)[\delta(t,y) - \Pi_A(t,y)] + \sum_{t \in R} P_{n+1}(x,t)H_A(t,y), \quad x \in R, \quad y \in A, \quad n \geq 1.$$
+
+But from this point on the situation is drastically simpler for transient than it was for recurrent random walk. One simply obtains
+
+$$H_A(x,y) = \lim_{n \to \infty} \sum_{t \in A} G_n(x,t)[\delta(t,y) - \Pi_A(t,y)], \quad x \in R, \quad y \in A,$$
+
+from the observation that
+
+$$0 \leq \sum_{t \in R} P_{n+1}(x,t)H_A(t,y) \leq \sum_{t \in R} P_n(x,t)F(t,y)$$
+
+$$\leq \sum_{k=n+1}^{\infty} P_k(x,y) = G(x,y) - G_n(x,y),$$
+
+which tends to zero as $n \to +\infty$. To finish the proof of P1 it remains only to show that
+
+$$\lim_{n \to \infty} \sum_{t \in A} G_n(x,t)[\delta(t,y) - \Pi_A(t,y)] = \sum_{t \in A} G(x,t)[\delta(t,y) - \Pi_A(t,y)].$$
+
+This follows (even when $A$ is an infinite set) from the inequalities
+
+$$G_n(x,t) \leq G(x,t) \leq G(0,0)$$
+
+together with
+
+$$\sum_{t \in A} \Pi_A(t,y) \leq 1, \quad y \in R,$$
+
+proved in P10.4.
+
+Several corollaries of P1, or rather of the method of proof of P1, are occasionally useful:

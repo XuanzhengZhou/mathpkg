@@ -1,0 +1,23 @@
+id: c-embedded
+title_en: "C-Embedded Subspace"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [c-embedded, extension, subspace, continuous-function]
+depends_on:
+  required: [c-star-embedded]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.16"
+    pages: ""
+    role_in_book: "Defines C-embedding as extendability of all continuous functions; stronger than C*-embedding"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

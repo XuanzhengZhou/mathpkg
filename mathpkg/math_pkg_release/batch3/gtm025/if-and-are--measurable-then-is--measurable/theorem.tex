@@ -1,0 +1,31 @@
+** If $A$ and $B$ are $\mu$-measurable, then $A \cap B'$ is $\mu$-measurable.
+
+**Proof.** It suffices to prove that if $E \subset A \cap B'$ and $F \subset (A \cap B')'$, then $\mu(E \cup F) = \mu(E) + \mu(F)$. Since $F =
+
+Let $T \subset X$. By (10.9.i) and countable subadditivity, we have
+
+$$\mu(T) = \sum_{n=1}^{\infty} \mu(T \cap B_n) + \mu\left(T \cap \bigcup_{n=1}^{\infty} B_n'\right) \geq \mu\left(T \cap \bigcup_{n=1}^{\infty} B_n\right)$$
+
+$$+ \mu\left(T \cap \bigcup_{n=1}^{\infty} B_n'\right).$$
+
+By countable subadditivity, we have
+
+$$\mu(T) \leq \mu\left(T \cap \bigcup_{n=1}^{\infty} B_n'\right),$$
+
+and so
+
+$$\mu(T) = \mu\left(T \cap \bigcup_{n=1}^{\infty} B_n'\right) + \mu\left(T \cap \bigcup_{n=1}^{\infty} B_n'\right).$$
+
+This implies that $\bigcup_{n=1}^{\infty} B_n$ is $\mu$-measurable. Thus $\bigcup_{n=1}^{\infty} A_n = \bigcup_{n=1}^{\infty} B_n$ is $\mu$-measurable. This fact and (10.8) imply that the family of $\mu$-measurable sets is a $\sigma$-algebra (1.13).
+
+Upon setting $T = \bigcup_{k=1}^{\infty} B_k$ in (10.9.i), we obtain
+
+$$\mu\left(\bigcup_{n=1}^{\infty} B_n\right) = \sum_{n=1}^{\infty} \mu\left(\bigcup_{k=1}^{\infty} B_k\right) \cap B_n\right) + \mu\left(\bigcup_{k=1}^{\infty} B_k\right) \cap \bigcup_{n=1}^{\infty} B_n'\right)$$
+
+$$= \sum_{n=1}^{\infty} \mu(B_n) + \mu(\emptyset) = \sum_{n=1}^{\infty} \mu(B_n).$$
+
+Thus $\mu$ is countably additive on the $\sigma$-algebra of all $\mu$-measurable subsets of $X$. $\square$
+
+Having proved in (10.11
+
+(10.14) Remark. A result strictly analogous to Theorem (10.13) for intersections of measurable sets cannot be proved. To see this let $X = R$, $\mu = \lambda$, and $\mathcal{A} = \mathcal{M}_{\lambda}$, the Lebesgue measurable sets. Let $A_n = [n, \infty[$. Then $\lambda(A_n) = \infty$ for $n = 1, 2, 3, \ldots$, so that $\lim_{n \to \infty} \lambda(A_n) = \infty$. On the other hand, $\lambda\left(\bigcap_{n=1}^{\infty} A_n\right) = \lambda(\emptyset) = 0$. However, we do obtain the following result.

@@ -1,0 +1,23 @@
+id: rank-of-a-set
+title_en: "Rank of a set"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [rank, von-neumann-hierarchy, cumulative-hierarchy, ordinals]
+depends_on:
+  required: [von-neumann-universe]
+  recommended: [ordinal-numbers]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: ""
+    section: "Each of the sets V_α is transitive"
+    pages: ""
+    role_in_book: "Definition of the rank function on the von Neumann universe"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

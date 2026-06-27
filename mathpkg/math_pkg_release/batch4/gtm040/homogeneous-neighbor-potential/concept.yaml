@@ -1,0 +1,13 @@
+id: "homogeneous-neighbor-potential"
+title_en: "A neighbor potential $U$ is homogeneous if $U_{\{m\}}(\iota) = u_j$ and $U_{\{m,m+1\}}(\iota) = u_{jk}$ whenever $i_m = j, i_{m+1} = k$"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-fields
+difficulty: intermediate
+tags: []
+depends_on: {required:[], recommended:[], suggested:[]}
+source_books: [{book_id:"gtm040",author:"J.G. Kemeny, J.L. Snell, A.W. Knapp",title:"Denumerable Markov Chains",chapter:"12",section:"34",pages:"",role_in_book:""}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

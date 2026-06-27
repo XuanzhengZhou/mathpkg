@@ -1,0 +1,23 @@
+id: hyperelliptic-canonical-map
+title_en: "Structure of the canonical map for hyperelliptic curves"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-curves
+difficulty: advanced
+tags: [hyperelliptic-curve, canonical-morphism, rational-normal-curve]
+depends_on:
+  required: []
+  recommended: [canonical-morphism, hyperelliptic-curve, rational-normal-curve]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "IV"
+    section: "§5"
+    pages: ""
+    role_in_book: "Theorem 5.3 — describes the canonical map of a hyperelliptic curve"
+content_hash: "thm53-hash-def"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

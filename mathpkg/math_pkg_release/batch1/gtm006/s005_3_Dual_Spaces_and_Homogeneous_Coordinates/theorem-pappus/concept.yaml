@@ -1,0 +1,23 @@
+id: theorem-pappus
+title_en: "Theorem 2.6: Pappus' Theorem"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [pappus, projective-plane, commutativity, configurational-theorem]
+depends_on:
+  required: [homogeneous-coordinates, frame]
+  recommended: []
+  suggested: [pappus-configuration]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II"
+    section: "3"
+    pages: ""
+    role_in_book: "Classical configurational theorem characterizing commutativity of coordinatizing skewfield"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

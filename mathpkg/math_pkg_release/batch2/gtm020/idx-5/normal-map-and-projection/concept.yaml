@@ -1,0 +1,23 @@
+id: normal-map-and-projection
+title_en: "Normal Map and Projection on Euclidean Space"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: euclidean-geometry
+difficulty: basic
+tags: [normal-map, projection, euclidean-space, linear-functions, orthogonal-decomposition]
+depends_on:
+  required: [euclidean-inner-product]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "4.6"
+    pages: "page_0032–page_0033"
+    role_in_book: "Introduces notation for the normal map v_b and projection π_b used in constructing bundle isomorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

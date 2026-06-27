@@ -1,0 +1,17 @@
+For random walk with mean $\mu = 0$ and variance $0 < \sigma^2 < \infty$, and for $f(x)$ bounded and Riemann integrable on $0 \leq x \leq 1$,
+
+$$\lim_{N \to \infty} \frac{\sigma^2}{2N^2} \sum_{k=0}^{N} g_N([Nt],k)f\left(\frac{k}{N}\right) = \int_0^1 f(s)R(s,t)ds,$$
+
+uniformly for $0 \leq t \leq 1$.
+
+Proposition P2, just as P1, is of interest, and of course makes perfect sense, without any reference whatsoever to probabilistic terms or ideas. But whereas the proof of P1 depended only on elementary calculus, P2 seems to be mathematically deeper. In the next section we shall prove it, and in fact considerably more—but only by making strong use of probabilistic results from Chapter IV.
+
+Much too little is known about the asymptotic properties of eigenfunction expansions in general to attempt a proof of P2 along the lines of section 21. Even if we are willing to restrict attention to symmetric random walk so that $g_N(x,y)$ has a representation of the form
+
+$$g_N(x,y) = \sum_{k=0}^{N} \frac{v_k(x)v_k(y)}{1 - \lambda_k},$$
+
+the difficulties are formidable. Observe that in the above formula we should have written $v_k(x) = v_k(N;x)$, $\
+
+a very general and very powerful mathematical tool, it is not always the best one. For one thing it is too general. Our present problem has a special feature which deserves to be taken advantage of: the operators $P(x,y)$ and $Q_N(x,y)$ are both difference kernels ($P(x,y) = P(0,y-x)$, and $Q_N$ is the truncation of $P$).
+
+In 1920 G. Szegö [97] succeeded in associating with symmetric difference operators a system of orthogonal polynomials. Although these polynomials are not eigenfunctions of the operator, they perform a very similar function. Referring the reader to the literature [36] (see also problems 5, 8, and 9) we shall be content to describe a small part of his theory which is directly relevant to symmetric random walk. This is a very special context from the point of view of Szegö's theory—his matrices need not have non-negative elements, as they do in the context of random walk.

@@ -1,0 +1,23 @@
+id: gram-matrix-of-basis
+title_en: "Gram matrix of a basis in an inner product space"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [inner-product, basis, symmetric-matrix, gram-matrix]
+depends_on:
+  required: [inner-product-space, basis]
+  recommended: [symmetric-bilinear-form]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "2. Orthonormal bases"
+    pages: ""
+    role_in_book: "Defines the symmetric matrix g_{νμ} = (x_ν, x_μ) representing the inner product with respect to a basis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

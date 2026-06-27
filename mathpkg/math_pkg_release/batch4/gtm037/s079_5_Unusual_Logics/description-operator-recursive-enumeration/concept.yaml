@@ -1,0 +1,23 @@
+id: description-operator-recursive-enumeration
+title_en: "Recursive Enumerability of Validities in Descriptive Logic"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: foundations
+difficulty: advanced
+tags: [description-operator, recursive-enumerability, completeness]
+depends_on:
+  required: [descriptive-triple, recursively-enumerable, godel-numbering]
+  recommended: [completeness-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "29"
+    section: "Unusual Logics"
+    pages: ""
+    role_in_book: "Theorem 29.21: the set of valid sentences with description operator is r.e."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

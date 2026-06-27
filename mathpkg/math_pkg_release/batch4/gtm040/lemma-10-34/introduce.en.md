@@ -1,0 +1,14 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $h$, $h^{(1)}$, and $h^{(2)}$ are normalized non-negative super-regular functions with
+
+$$h = c_1h^{(1)} + c_2h^{(2)},$$
+
+where $c_1 \geq 0$ and $c_2 \geq 0$, then
+
+$$\mu^h = c_1\mu^{(1)} + c_2\mu^{(2)}.$$

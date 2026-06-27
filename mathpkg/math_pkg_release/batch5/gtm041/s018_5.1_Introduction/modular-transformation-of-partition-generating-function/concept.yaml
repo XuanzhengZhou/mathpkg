@@ -1,0 +1,23 @@
+id: modular-transformation-of-partition-generating-function
+title_en: "Modular transformation of the partition generating function near roots of unity"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [partition-function, modular-transformation, dedekind-eta-function, circle-method, roots-of-unity]
+depends_on:
+  required: [euler-product-formula-for-partitions]
+  recommended: [dedekind-eta-functional-equation]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "5"
+    section: "5.4"
+    pages: ""
+    role_in_book: "Key lemma describing behavior of F near singularities for circle method"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

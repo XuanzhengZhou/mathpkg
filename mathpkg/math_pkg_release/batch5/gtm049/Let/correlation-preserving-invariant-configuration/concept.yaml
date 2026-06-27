@@ -1,0 +1,23 @@
+id: correlation-preserving-invariant-configuration
+title_en: "Correlation Preserving the Invariant Configuration of a Collineation"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [correlation, collineation, invariant-configuration, duality, transpose]
+depends_on:
+  required: [collineation, invariant-configuration, transpose-of-linear-mapping]
+  recommended: [correlation, projective-duality, module-isomorphism]
+  suggested: [segre-symbol]
+source_books:
+  - book_id: "gtm049"
+    author: "K.W. Gruenberg and A.J. Weir"
+    title: "Linear Geometry"
+    chapter: "7"
+    section: "7.6 Classification of Collineations"
+    pages: ""
+    role_in_book: "Theorem 6: establishes a duality result for invariant configurations of collineations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

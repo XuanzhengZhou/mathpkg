@@ -1,0 +1,23 @@
+id: existence-of-lambda-E-normal-chain
+title_en: "Existence of λ^E in normal chain"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [normal-chain, lambda-E, hitting-probability]
+depends_on:
+  required: [normal-chain]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "2"
+    pages: "264–273"
+    role_in_book: "Lemma 9-37; sufficient condition for λ^E to exist in a normal chain"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

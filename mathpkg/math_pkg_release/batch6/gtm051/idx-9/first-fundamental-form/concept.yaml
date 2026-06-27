@@ -1,0 +1,23 @@
+id: first-fundamental-form
+title_en: "First Fundamental Form"
+title_zh: "第一基本形式"
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [first-fundamental-form, metric, surface, riemannian-metric, induced-metric]
+depends_on:
+  required: [parameterized-surface-patch, induced-quadratic-form, tangent-space-of-a-surface]
+  recommended: [quadratic-form, inner-product]
+  suggested: [gauss-frame]
+source_books:
+  - book_id: gtm051
+    author: "Manfredo P. do Carmo"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.2"
+    pages: "3.2.2"
+    role_in_book: "The fundamental metric structure on a surface, measuring lengths, angles, and areas"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

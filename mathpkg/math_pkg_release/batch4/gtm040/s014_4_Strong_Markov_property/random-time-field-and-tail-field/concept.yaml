@@ -1,0 +1,23 @@
+id: random-time-field-and-tail-field
+title_en: "Random Time Field and Tail-Field"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [random-time, stopping-time, borel-field, tail-field, markov-chain]
+depends_on:
+  required: [tail-field, random-time, markov-chain]
+  recommended: [cylinder-field]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "4"
+    pages: ""
+    role_in_book: "Definition 4-8: The field F_t and tail-field T_t relative to a random time t, generalizing the fixed-time definitions to random times"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

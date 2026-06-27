@@ -1,0 +1,23 @@
+id: language-expansion
+title_en: "Language Expansion, Reduct, and Effective Expansion (Definition 11.14)"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: first-order-logic
+difficulty: intermediate
+tags: [language-expansion, reduct, effective-expansion, model-theory, signature, skolemization]
+depends_on:
+  required: [first-order-language, structure]
+  recommended: [effectivized-language]
+  suggested: [rich-extension-lemma, completeness-theorem]
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "11"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Formalizes the notion of expanding a first-order language with new symbols, and the corresponding reduct of structures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

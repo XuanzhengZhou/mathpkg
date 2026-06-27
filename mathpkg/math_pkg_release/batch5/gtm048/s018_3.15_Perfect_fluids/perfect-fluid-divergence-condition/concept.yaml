@@ -1,0 +1,23 @@
+id: perfect-fluid-divergence-condition
+title_en: "Perfect Fluid Divergence Condition"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: general-relativity
+difficulty: intermediate
+tags: [perfect-fluid, divergence, stress-energy-tensor, reference-frame, pressure-gradient, acceleration]
+depends_on:
+  required: [perfect-fluid-stress-energy-tensor-decomposition]
+  recommended: [energy-density-of-quasi-gas, pressure-of-quasi-gas]
+  suggested: [covariant-derivative]
+source_books:
+  - book_id: gtm048
+    author: "Sachs, R. and Wu, H."
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.15"
+    pages: ""
+    role_in_book: "Proposition 3.15.3 — Characterizes the matter equation div T = 0 for a perfect fluid, yielding conservation and acceleration equations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

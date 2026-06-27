@@ -1,0 +1,9 @@
+For the basic example Markov chain $P$ with parameters $\beta_i = p_1 p_2 \cdots p_i$, $\beta_0 = 1$, the potential of a charge $f$ (with $\beta|f| < \infty$) is given by:
+
+For the forward chain $P$, if $g = Nf$, then
+$$g_i = (Nf)_i = \frac{1}{\beta_\infty} \sum_{j=0}^{\infty} \beta_j f_j - \frac{1}{\beta_i} \sum_{j=0}^{i-1} \beta_j f_j. \tag{1}$$
+
+For the reverse chain $\hat{P}$, if $g = \hat{N}f$, then
+$$g_i = (\hat{N}f)_i = \frac{1}{\beta_\infty} \sum_{j=0}^{\infty} \beta_j f_j - \sum_{j=i+1}^{\infty} f_j. \tag{2}$$
+
+In either case, $g$ is finite-valued if and only if $\beta|f| < \infty$ (in agreement with Lemma 8-2). For the reverse chain, $\sum_j |f_j| < \infty$ follows from $\beta|f| < \infty$ since $\beta_j \geq \beta_\infty$ for all $j$.

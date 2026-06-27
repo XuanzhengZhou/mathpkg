@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+The following conditions are equivalent: (1) $K/k$ is Galois; (2) $K/k$ is the splitting field over $k$ of a set of separable irreducible polynomials in $k[X]$; (3) $K/k$ is normal and separable.

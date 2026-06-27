@@ -1,0 +1,23 @@
+id: minimal-prime-ideal
+title_en: "Minimal Prime Ideal"
+title_zh: "极小素理想"
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [prime-ideal, minimal-prime, integral-domain, height-zero]
+depends_on:
+  required: [prime-ideal, integral-domain]
+  recommended: [noetherian-domain, unique-factorization-domain]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "IV"
+    section: "14"
+    pages: ""
+    role_in_book: "Defines minimal prime ideals in integral domains, which are crucial for the dimension theory of noetherian rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

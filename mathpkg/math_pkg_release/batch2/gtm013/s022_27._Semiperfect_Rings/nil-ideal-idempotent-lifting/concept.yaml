@@ -1,0 +1,23 @@
+id: nil-ideal-idempotent-lifting
+title_en: "Lifting Idempotents Modulo Nil Ideals"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [idempotents, nil-ideals, lifting, binomial-formula]
+depends_on:
+  required: [lifting-idempotents, nil-ideal]
+  recommended: [idempotent]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "27. Semiperfect Rings"
+    pages: ""
+    role_in_book: "Proposition 27.1 — shows nil ideals are small enough for idempotent lifting"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

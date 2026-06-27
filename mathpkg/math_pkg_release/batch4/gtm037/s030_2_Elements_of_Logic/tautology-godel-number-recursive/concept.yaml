@@ -1,0 +1,23 @@
+id: tautology-godel-number-recursive
+title_en: "Recursive Characterization of Godel Numbers of Tautologies (Proposition 10.22)"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: first-order-logic
+difficulty: advanced
+tags: [tautology, godel-numbering, recursive-set, subformulas, decidability]
+depends_on:
+  required: []
+  recommended: [tautology-equivalent-conditions, godel-numbering, recursive-function]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.2"
+    pages: ""
+    role_in_book: "Shows that the set of Godel numbers of tautologies admits a recursive (in fact, primitive recursive) definition using bounded quantifiers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,21 @@
+An \textbf{elementary topos} is a category which has the following additional structure:
+
+\begin{enumerate}
+\item[6.] \textbf{Terminal object.} There is a terminal object $1$ such that every object $a$ has exactly one arrow $a \to 1$.
+
+\item[7.] \textbf{Pullbacks.} Every pair of arrows $f : a \to b \leftarrow c : g$ with a common codomain $b$ has a pullback.
+
+\item[8.] \textbf{Subobject classifier.} There is an object $\Omega$ and a monomorphism $t : 1 \to \Omega$ called \textit{truth}, such that to any monomorphism $m : a \rightarrowtail b$ there is a unique arrow $\psi : b \to \Omega$ for which the following square is a pullback:
+$$\begin{array}{ccc}
+a & \to & 1 \\
+{\scriptstyle m}\downarrow & & \downarrow{\scriptstyle t} \\
+b & \underset{\psi}{\to} & \Omega .
+\end{array}$$
+
+\item[9.] \textbf{Power objects.} To each object $b$ there is an associated object $Pb$ and an arrow $\varepsilon_b : b \times Pb \to \Omega$ such that for every arrow $f : b \times a \to \Omega$ there is a unique arrow $g : a \to Pb$ for which the following diagram commutes:
+$$\begin{array}{ccc}
+b \times a & \xrightarrow{f} & \Omega \\
+{\scriptstyle 1 \times g}\downarrow & & \uparrow{\scriptstyle \varepsilon_b} \\
+b \times Pb & = & b \times Pb .
+\end{array}$$
+\end{enumerate}

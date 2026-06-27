@@ -1,0 +1,23 @@
+id: lattice-isomorphism-of-submodules
+title_en: "Lattice Isomorphism of Submodules under an Epimorphism"
+title_zh: "满同态下的子模格同构"
+type: corollary
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [module-theory, lattice-isomorphism, epimorphism, submodule-lattice]
+depends_on:
+  required: [first-isomorphism-theorem-modules, module-epimorphism, submodule]
+  recommended: [lattice-of-submodules]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "3. Homomorphisms of Modules"
+    pages: ""
+    role_in_book: "Corollary 3.8 — lattice correspondence under epimorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

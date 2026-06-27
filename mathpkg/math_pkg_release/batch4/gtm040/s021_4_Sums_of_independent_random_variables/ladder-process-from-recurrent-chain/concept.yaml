@@ -1,0 +1,23 @@
+id: ladder-process-from-recurrent-chain
+title_en: "Ladder Process from a Recurrent Chain"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [ladder-process, recurrence, sums-of-independent-random-variables, return-times]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "4"
+    pages: ""
+    role_in_book: "Proposition 6-32: The return times to a fixed state in a recurrent chain form a sums of independent random variables ladder process"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

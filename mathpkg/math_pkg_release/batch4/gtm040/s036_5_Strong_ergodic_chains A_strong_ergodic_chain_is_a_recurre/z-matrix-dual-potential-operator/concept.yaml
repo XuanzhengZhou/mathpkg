@@ -1,0 +1,23 @@
+id: z-matrix-dual-potential-operator
+title_en: "Z as a Unified Right and Left Potential Operator"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [z-matrix, potential-operator, strong-ergodic, duality, fundamental-matrix]
+depends_on:
+  required: [z-matrix-fundamental-properties, potential-operator-g, charge-functional]
+  recommended: [strong-ergodic-chain]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "5. Strong ergodic chains"
+    pages: ""
+    role_in_book: "Proposition 9-78: Z serves as both right and left potential operator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

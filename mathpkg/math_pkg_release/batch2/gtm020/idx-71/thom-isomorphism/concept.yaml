@@ -1,0 +1,23 @@
+id: thom-isomorphism
+title_en: "Thom Isomorphism Theorem"
+title_zh: "Thom同构定理"
+type: theorem
+domain: topology
+subdomain: characteristic-classes
+difficulty: advanced
+tags: [thom-isomorphism, cohomology, vector-bundle, thom-space]
+depends_on:
+  required: []
+  recommended: [thom-space, stiefel-whitney-class, euler-class]
+  suggested: [cohomology-ring, orientation]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "17. Chern Classes and Stiefel-Whitney Classes"
+    section: "10"
+    pages: ""
+    role_in_book: "Central isomorphism relating cohomology of base to cohomology of Thom space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

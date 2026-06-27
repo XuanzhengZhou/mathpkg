@@ -1,0 +1,23 @@
+id: dual-of-locally-convex-direct-sum
+title_en: "Dual of a Locally Convex Direct Sum (Corollary 1 of 4.3)"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [direct-sum, dual-space, mackey-topology, locally-convex-space, product-space]
+depends_on:
+  required: [dual-of-product-of-locally-convex-spaces, locally-convex-direct-sum]
+  recommended: [mackey-topology]
+  suggested: [product-space]
+source_books:
+  - book_id: gtm003
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "4"
+    pages: "146-156"
+    role_in_book: "Identifies the dual of a locally convex direct sum as the direct product of the duals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

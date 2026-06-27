@@ -1,0 +1,13 @@
+The \textbf{Ornstein-Uhlenbeck process} $U(t)$ is a stationary Gaussian process defined by
+$$U(t) = \sqrt{\alpha} e^{-\beta t} X(e^{2\beta t}), \quad -\infty < t < \infty,$$
+where $X(t)$ is the Wiener process.
+
+Properties:
+\begin{enumerate}
+\item $EU(t) = 0$
+\item $\operatorname{Cov}(U(t), U(\tau)) = \alpha e^{-\beta|t - \tau|}$ (taking $\alpha = 1$)
+\item It satisfies the Langevin equation: $dU(t) + \beta U(t) dt = \sqrt{2\alpha\beta} dX(t)$
+\item The transition density satisfies the forward equation:
+  $$\frac{\partial p}{\partial t} = \beta \frac{\partial^2 p}{\partial y^2} + \beta \frac{\partial}{\partial y}(yp)$$
+\end{enumerate}
+\end{enumerate}

@@ -1,0 +1,23 @@
+id: dual-space-linear-functionals-right-vector-space
+title_en: "The Dual Space of Linear Functionals as a Right Vector Space"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [dual-space, linear-functional, right-vector-space, skewfield, duality]
+depends_on:
+  required: [linear-functional-left-vector-space-skewfield, right-vector-space-over-skewfield]
+  recommended: [left-vector-space-over-skewfield]
+  suggested: [duality-isomorphism-semilinear-transformations]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I"
+    section: "4. Vector Spaces"
+    pages: ""
+    role_in_book: "The dual space V' is a right vector space when V is a left vector space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

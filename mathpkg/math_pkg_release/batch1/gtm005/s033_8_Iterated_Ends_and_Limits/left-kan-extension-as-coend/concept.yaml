@@ -1,0 +1,23 @@
+id: left-kan-extension-as-coend
+title_en: "Left Kan Extension as a Coend"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [kan-extension, coend, copower, fubini, yoneda-lemma]
+depends_on:
+  required: [left-kan-extension, coend, copower]
+  recommended: [yoneda-lemma, fubini-theorem-for-ends]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "X"
+    section: "4. Kan Extensions as Coends"
+    pages: ""
+    role_in_book: "Expresses left Kan extension as a coend, establishing fundamental formula"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

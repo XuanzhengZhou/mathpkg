@@ -1,0 +1,23 @@
+id: w-algebra-semi-group-equivalence
+title_en: "Equivalence of W-Algebras and Semigroups with Iterated Operations"
+title_zh: "W-代数与半群的等价性"
+type: corollary
+domain: algebra
+subdomain: monads
+difficulty: intermediate
+tags: [word-monad, algebra-over-monad, semigroup, iterated-operation, comparison-functor]
+depends_on:
+  required: [w-algebra-structure, word-monad]
+  recommended: [free-semigroup, comparison-functor]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "4. Words and Free Semigroups"
+    pages: ""
+    role_in_book: "Corollary to Proposition 2: W-algebras are exactly semigroups equipped with all iterated products"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

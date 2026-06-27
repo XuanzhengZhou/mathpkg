@@ -1,0 +1,23 @@
+id: cyclic-generator-basis
+title_en: "Basis from a Cyclic Generator"
+title_zh: "由循环生成元构成的基"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [cyclic-space, basis, generator, minimum-polynomial]
+depends_on:
+  required: [cyclic-space-degree-equals-dimension, cyclic-space]
+  recommended: [linear-independence]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Shows the standard cyclic basis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

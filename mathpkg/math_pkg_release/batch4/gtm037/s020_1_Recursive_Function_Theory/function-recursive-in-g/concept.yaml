@@ -1,0 +1,23 @@
+id: function-recursive-in-g
+title_en: "Function recursive in g (g-recursive function)"
+title_zh: "相对于g的递归函数"
+type: definition
+domain: logic
+subdomain: recursion-theory
+difficulty: intermediate
+tags: [relative-recursiveness, oracle, g-recursive, Turing-degree]
+depends_on:
+  required: []
+  recommended: [recursive-function, oracle-turing-machine]
+  suggested: [Turing-degree, relative-computability]
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "6"
+    section: "Recursive Function Theory"
+    pages: ""
+    role_in_book: "Defines g-recursive functions, establishing equivalence with g-Turing computability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,20 @@
+id: positive-measure-convergence-variance
+title_en: "Convergence on Positive Measure Implies Finite Variance Sum"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [probability, independent-functions, series-convergence, variance, converse]
+depends_on: {required: [kolmogorov-inequality, independence, convergence-of-independent-series, egorovs-theorem], recommended: [], suggested: []}
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX. Probability"
+    section: "§46. Series of Independent Functions"
+    pages: ""
+    role_in_book: "Converse: convergence on positive measure forces finite variance sum"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

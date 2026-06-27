@@ -1,0 +1,8 @@
+Let $f$ map the set of atomic formulas into a set $A$, let $g$ map $A \times \operatorname{Fmla}$ into $A$, let $h$ and $k$ map ${}^2 A \times {}^2 \operatorname{Fmla}$ into $A$, and let $l$ map $A \times \operatorname{Rng} v \times \operatorname{Fmla}$ into $A$. Then there is an $s$: $\operatorname{Fmla} \to A$ such that for any formulas $\varphi, \psi$ and any variable $\alpha$:
+\begin{enumerate}
+\item[(i)] $s(\varphi) = f(\varphi)$ if $\varphi$ is atomic;
+\item[(ii)] $s(\neg \varphi) = g(s(\varphi), \varphi)$;
+\item[(iii)] $s(\varphi \vee \psi) = h(s(\varphi), s(\psi), \varphi, \psi)$;
+\item[(iv)] $s(\varphi \wedge \psi) = k(s(\varphi), s(\psi), \varphi, \psi)$;
+\item[(v)] $s(\forall \alpha \, \varphi) = l(s(\varphi), \alpha, \varphi)$.
+\end{enumerate}

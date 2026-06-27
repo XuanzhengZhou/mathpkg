@@ -1,0 +1,1 @@
+Measurable functions are the natural class of functions for integration theory. The definition using preimages of intervals connects the algebraic structure of the real line with the $\sigma$-algebra structure of the domain.

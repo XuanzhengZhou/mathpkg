@@ -1,0 +1,1 @@
+An analytic sheaf is a sheaf of modules over the structure sheaf of holomorphic functions. Analytic sheaves, especially coherent analytic sheaves, are the central objects in the sheaf-theoretic approach to complex analysis.

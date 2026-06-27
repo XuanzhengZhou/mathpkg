@@ -1,0 +1,23 @@
+id: disjoint-elements-vector-lattice
+title_en: "Disjoint Elements in a Vector Lattice"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [disjoint, vector-lattice, meet, mutually-singular]
+depends_on:
+  required: [vector-lattice, join-in-vector-lattice]
+  recommended: [positive-cone, band]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "23.1"
+    pages: ""
+    role_in_book: "Defines disjoint positive elements as those with zero meet"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

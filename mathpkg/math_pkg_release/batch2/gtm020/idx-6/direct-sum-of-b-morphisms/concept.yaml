@@ -1,0 +1,23 @@
+id: direct-sum-of-b-morphisms
+title_en: "Direct Sum of Bundle Morphisms (Functor ⊕)"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: fibre-bundles
+difficulty: intermediate
+tags: [fibre-bundle, whitney-sum, functor, b-morphism, category]
+depends_on:
+  required: [fibre-product-of-bundles, b-morphism]
+  recommended: []
+  suggested: [bun-category]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "4.2"
+    pages: "32-33"
+    role_in_book: "Extends the Whitney sum to a functor on the category of bundles over a fixed base"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

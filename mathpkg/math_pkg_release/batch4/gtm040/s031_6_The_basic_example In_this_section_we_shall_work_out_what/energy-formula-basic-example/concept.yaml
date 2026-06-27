@@ -1,0 +1,23 @@
+id: energy-formula-basic-example
+title_en: "Energy Formula for the Basic Example"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [energy, potential-theory, basic-example, dirichlet-form]
+depends_on:
+  required: [basic-example-definition, energy-of-charge]
+  recommended: [potential-representation-basic-example]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "8"
+    section: "6"
+    pages: ""
+    role_in_book: "Explicit formula for the energy functional of a charge in the basic example, obtained from the potential representation formula (1)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

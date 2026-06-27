@@ -1,0 +1,23 @@
+id: orthogonal-subspace
+title_en: "Orthogonal Subspace (Polar of a Subspace)"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [orthogonal-subspace, polar, duality, closed-subspace, weak-topology]
+depends_on:
+  required: [polar-of-set, vector-subspace, dual-system]
+  recommended: [closed-subspace-bipolar-criterion]
+  suggested: [polar-lattice-anti-isomorphism]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "1.5"
+    pages: "page_0140"
+    role_in_book: "Defines the orthogonal subspace (annihilator) in the context of a general duality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

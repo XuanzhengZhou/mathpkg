@@ -1,0 +1,23 @@
+id: hughes-plane-addition
+title_en: "Addition in the Hughes Plane Ternary Ring"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [ternary-ring, addition, hughes-plane, planar-ternary-ring]
+depends_on:
+  required: [hughes-plane-coordinatization]
+  recommended: [planar-ternary-ring]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "IX"
+    section: "6. The Hughes Planes"
+    pages: ""
+    role_in_book: "Lemma 9.17: Addition in the ternary ring of the Hughes plane coincides with addition in the nearfield"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

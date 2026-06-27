@@ -1,0 +1,13 @@
+id: riesz-decomposition-transient
+title_en: "Riesz Decomposition for Transient Chains (Proposition 8-7)"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [potential-theory, transient-chains, riesz-decomposition, superharmonic]
+depends_on: {required: [charge-characterization, inverse-potential-operator], recommended: [], suggested: []}
+source_books: [{book_id: "gtm040", author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp", title: "Denumerable Markov Chains", chapter: "8", section: "1", pages: "", role_in_book: "Generalizes the classical Riesz decomposition: any finite-valued solution of (I-P)h = f with Nf finite decomposes as h = lim P^n h + Nf"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,27 @@
+A \emph{monoidal category} $M$ is a category equipped with a bifunctor
+$$\square : M \times M \to M,$$
+written for objects $a, b$ of $M$ as $a \square b$, which is associative up to a natural isomorphism
+$$\alpha_{a,b,c} : a(bc) \cong (ab)c \tag{1}$$
+and is equipped with a unit object $e$ together with natural isomorphisms
+$$\lambda_a : ea \cong a, \quad \rho_a : ae \cong a. \tag{2}$$
+These data must satisfy the following coherence axioms:
+\begin{itemize}
+\item \textbf{Pentagon axiom:} For all objects $a,b,c,d$, the diagram
+\[
+\begin{CD}
+a(b(cd)) @>{\alpha}>> (ab)(cd) @>{\alpha}>> ((ab)c)d \\
+@V{1\alpha}VV @VVV \\
+a((bc)d) @>{\alpha}>> (a(bc))d
+\end{CD}
+\]
+commutes.
+\item \textbf{Triangle axioms:} For all objects $a,c$, the diagram
+\[
+\begin{CD}
+a(ec) @>{\alpha}>> (ae)c \\
+@V{1\lambda}VV @VV{\rho 1}V \\
+ac @= ac
+\end{CD}
+\]
+commutes, and $\lambda_e = \rho_e : ee \to e$.
+\end{itemize}

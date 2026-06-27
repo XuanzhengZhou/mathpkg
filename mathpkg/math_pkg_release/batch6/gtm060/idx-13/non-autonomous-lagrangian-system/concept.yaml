@@ -1,0 +1,23 @@
+id: non-autonomous-lagrangian-system
+title_en: "Non-autonomous Lagrangian System"
+title_zh: "非自治拉格朗日系统"
+type: definition
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [lagrangian-mechanics, non-autonomous-system, time-dependent-lagrangian]
+depends_on:
+  required: [lagrangian-function, configuration-manifold, tangent-bundle]
+  recommended: [autonomous-lagrangian-system, variational-principle]
+  suggested: [hamiltonian-formalism, extended-phase-space]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "4"
+    section: "E"
+    pages: "100-101"
+    role_in_book: "Extends Lagrangian mechanics to systems where the Lagrangian depends explicitly on time"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

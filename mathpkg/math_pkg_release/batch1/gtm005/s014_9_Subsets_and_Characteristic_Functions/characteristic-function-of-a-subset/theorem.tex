@@ -1,0 +1,12 @@
+The characteristic function of a subset $S \subset X$ is the two-valued function $\psi_S \colon X \to \{0, 1\}$ on $X$ with the values
+$$
+\psi_S(x) = 0 \quad \text{if } x \in S, \qquad \psi_S(x) = 1 \quad \text{if } x \in X \text{ but } x \notin S.
+$$
+Put differently, $\{0\} \subset \{0, 1\}$ represents the simplest non-trivial subset. An arbitrary subset $S \subset X$ can be mapped into this simple subset by $\psi_S$, as defined. This map produces a pullback square
+$$
+\xymatrix{
+  S \ar[r] \ar[d] & \{0\} \ar[d]^{t} \\
+  X \ar[r]_{\psi_S} & \{0, 1\}
+}
+$$
+where $t \colon \{0\} \to \{0, 1\}$ is the inclusion. In logic, $\{0, 1\}$ is the set of two truth values with $0$ the value "truth".

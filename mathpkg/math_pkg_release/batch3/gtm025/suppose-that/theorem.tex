@@ -1,0 +1,28 @@
+Suppose that
+
+(i) $M_1 \subset M_2 \subset M_3 \subset \cdots,$
+and write $M_\omega$ for the smallest $\sigma$-algebra containing $\bigcup_{n=1}^{\infty} M_n$. Let $\mu_\omega$ and $\eta_\omega$ be $\mu$ and $\eta$, respectively, restricted to $M_\omega$. Then both of the functions
+
+(ii) $f = \lim_{n \to \infty} f_n$ and $f = \lim_{n
+
+For $n \in N$, let
+
+$$H_n = \{x \in X : \inf \{f_{n+1}(x), f_{n+2}(x), \ldots\} < \alpha_n\},$$
+
+$$H_{n,1} = \{x \in X : f_{n+1}(x) < \alpha_n\},$$
+
+and
+
+$$H_{n,p} = \{x \in X : \min \{f_{n+1}(x), \ldots, f_{n+p-1}(x)\} \geq \alpha_n, f_{n+p}(x) < \alpha_n\},$$
+
+($p \geq 2$).
+
+It is clear that $H_{n,p} \in \mathcal{M}_{n+p}$, that $\{H_{n,p}\}_{p=1}^{\infty}$ is a pairwise disjoint family, that $H_n = \bigcup_{p=1}^{\infty} H_{n,p}$, and that $L_\alpha = \bigcup_{n=1}^{\infty} H_n$. Let $A$ be any set in the algebra $\bigcup_{n=1}^{\infty} M_n$, so that $A \in \bigcup_{n=1}^{\infty} M_n$ for some $n_0$. The set $H_{n,p} \cap A$ is in $\mathcal{M}_{n+p}$ for $n \geq n_0$ and $p \geq 1$. We assemble all of these facts and (20.54) to write
+
+$$\eta(H_n \cap A) = \sum_{p=1}^{\infty} \eta(H_{n,p} \cap A) = \sum_{p=1}^{\infty} \eta_{n+p}(H_{n,p} \cap A)$$
+
+$$\leq \sum_{p=1}^{\infty} \alpha_n \mu_{n+p}(H_{n,p} \cap A) = \alpha_n \mu(H_n \cap A),$$
+
+(3)
+
+the relations (3) holding for all $n \geq n_0$. If $|\eta|(A) < \infty$ and $\mu(A) < \infty$, then we take the limit as $n \to \infty$ in (3

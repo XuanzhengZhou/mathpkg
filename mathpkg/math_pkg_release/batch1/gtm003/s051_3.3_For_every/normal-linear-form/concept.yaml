@@ -1,0 +1,23 @@
+id: normal-linear-form
+title_en: "A positive linear form on a C*-algebra is normal if it is order continuous"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: cstar-algebras
+difficulty: advanced
+tags: [cstar-algebra, normal-linear-form, order-continuous, wstar-algebra, predual]
+depends_on:
+  required: [order-continuous-linear-form, positive-linear-form-characterization]
+  recommended: [wstar-algebra-definition]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "6"
+    section: "6.8"
+    pages: ""
+    role_in_book: "Defines normal positive linear forms, which are precisely the predual elements of a W*-algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,33 @@
+If $f$ is an analytic function on a domain $\Delta$, and if for some complex number $\alpha$ not belonging to $\Delta$ there exists a positive number $r$ such that $\Delta$ contains the punctured disc $\{\lambda \in \mathbb{C}: 0 < |\lambda - \alpha| < r\}$, or, in other words, if $\alpha$ is an isolated point of $\partial \Delta$, then $\alpha$ is an isolated singularity of $f$.
+
+If $\alpha$ is an isolated singularity of an analytic function $f$ on a domain $\Delta$, then $f$ possesses a Laurent expansion
+
+$$f(\lambda) = \sum_{n=-\infty}^{+\infty} \alpha_n(\lambda - \alpha)^n$$
+
+in which the power series
+
+$$\sum_{n=0}^{\infty} \alpha_n(\lambda - \alpha)^n$$
+
+has some positive radius of convergence $r$, while the series
+
+$$\sum_{n=1}^{\infty} \alpha_{-n}(\lambda - \alpha)^{-n}$$
+
+converges for every $\lambda \neq \alpha$. (The sum of this latter series is known as the principal part of $f$ at $\alpha$.) Thus if we write $\tau = 1/(\lambda - \alpha)$, then the function $\sum_{n=1}^{\infty} \alpha_{-n}\tau^n$ is an entire function of $\tau$.
+
+There are three possible cases to be distinguished.
+
+If the isolated singularity is not removable there are some nonzero coefficients in the sequence $\{\alpha_{-n}\}_{n=1}^{\infty}$, and two sharply different cases arise. If there are infinitely many nonzero, negatively indexed coefficients, then $\alpha$ is an essential singularity of $f$. If there are only finitely many nonzero, negatively indexed coefficients, and if $N$ denotes the largest positive integer $n$ for which $\alpha_{-n} \neq 0$, then the function $(\lambda - \alpha)^N f(\lambda)$ has a removable singularity at $\alpha$. If $g$ denotes the function obtained by removing the singularity at $\alpha$, then $g$ satisfies the condition $g(\alpha) \neq 0$, and we have
+
+$$f(\lambda) = \frac{g(\lambda)}{(\lambda - \alpha)^N}.$$
+
+In this situation it is said that $f$ has a pole of order $N$ at $\alpha$.
+
+In this connection we note that the classification of singularities is extended to the point at infinity in a systematic manner (see Problem 3W). If $f$ is a function defined and analytic on the complement in $\mathbb{C}$ of some closed disc $D_r(0)^-$, then the point at infinity is an isolated singularity of $f$, and is said to be an essential singularity of $f$ or a pole of order $N$ if the function $h(\tau) = f(1/\tau)$ has an essential singularity or pole of order $N$ at $\tau = 0$. On the other hand, if the function $h$ has a removable singularity at $\tau = 0$, then $f$ is said to have a removable singularity at infinity, and when this is the case, the function obtained by defining $f$ at $\infty$ by continuity is said to be analytic at infinity.
+
+In the same vein we also recall that if $f$ is an analytic function on a domain $\Delta$ and if $f(\alpha) = 0$, then $\alpha$ is called a zero of $f$. If $\alpha$ is a zero of $f$ then by Taylor's theorem (Th. 5.1) there exist a unique positive integer $N$ and an
+
+We conclude this chapter with a brief remark concerning the relations between analytic functions and harmonic functions. To facilitate this discussion we note first that there is an obvious one-to-one correspondence between domains $\Delta$ in $\mathbb{C}$ and domains (i.e., nonempty connected open sets) $\Delta'$ in $\mathbb{R}^2$ obtained via the correspondence $x + iy \leftrightarrow (x, y)$. Moreover, for each complex-valued function $f$ on a complex domain $\Delta$, there exist two real-valued functions $u$ and $v$ on the corresponding real domain $\Delta'$ such that
+
+$$f(x + iy) = u(x, y) + iv(x, y), \quad (x, y) \in \Delta'.$$
+
+The functions $u$ and $v$ are known customarily (if not with total accuracy) as the real and imaginary parts of $f$.

@@ -1,0 +1,23 @@
+id: convex-hull-of-precompact-is-precompact
+title_en: "The convex hull and convex circled hull of a precompact subset are precompact"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [convex-hull, precompact, locally-convex-space, compactness]
+depends_on:
+  required: [locally-convex-space, precompact-set]
+  recommended: [convex-hull, circled-hull]
+  suggested: [compact-convex-sets]
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "4.3"
+    pages: ""
+    role_in_book: "Theorem 4.3: In every locally convex space, the convex hull of a precompact set is precompact"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: isometric-surfaces
+title_en: "Isometric Surfaces"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [isometry, intrinsic-geometry, first-fundamental-form, gauss-curvature]
+depends_on:
+  required: [surface, diffeomorphism, first-fundamental-form, tangent-space]
+  recommended: []
+  suggested: [geodesic-coordinates]
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "4"
+    section: "4.4"
+    pages: "94-98"
+    role_in_book: "Definition 4.4.1: Defines isometric surfaces via a diffeomorphism preserving the first fundamental form"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

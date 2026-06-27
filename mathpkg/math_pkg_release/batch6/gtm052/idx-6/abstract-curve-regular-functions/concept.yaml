@@ -1,0 +1,23 @@
+id: abstract-curve-regular-functions
+title_en: "Regular Functions on an Abstract Nonsingular Curve"
+title_zh: "抽象非奇异曲线上的正则函数"
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [regular-functions, abstract-curve, discrete-valuation-ring, sheaf]
+depends_on:
+  required: [abstract-nonsingular-curve]
+  recommended: [regular-function, residue-field]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "6"
+    pages: "59"
+    role_in_book: "Definition of the sheaf of regular functions on the abstract curve C_K"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

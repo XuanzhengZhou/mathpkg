@@ -1,0 +1,23 @@
+id: liouville-approximation-lemma
+title_en: "Liouville's Approximation Lemma"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: diophantine-approximation
+difficulty: intermediate
+tags: [liouville, algebraic-number, rational-approximation, diophantine-inequality]
+depends_on:
+  required: [algebraic-number, degree-of-algebraic-number]
+  recommended: [mean-value-theorem]
+  suggested: [transcendental-number, liouville-number]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "2"
+    section: "2. Liouville Numbers"
+    pages: "15-16"
+    role_in_book: "Lemma 2.2. The fundamental inequality bounding how well an algebraic number can be approximated by rationals. It is the key tool for constructing transcendental Liouville numbers."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

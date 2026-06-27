@@ -1,0 +1,13 @@
+Given a natural transformation $\gamma: S \rightarrow S'$ between functors $S, S': C^{\mathrm{op}} \times C \rightarrow X$ which both have ends $\langle e, \omega \rangle$ and $\langle e', \omega' \rangle$, respectively, there is a unique arrow $g = \int_c \gamma_{c,c}: e \rightarrow e'$ in $X$ such that for every $c \in C$ the following diagram commutes:
+\[
+\begin{CD}
+e = \int_c S(c,c) @>{\omega_c}>> S(c,c) \\
+@V{g = \int_c \gamma_{c,c}}VV @VV{\gamma_{c,c}}V \\
+e' = \int_c S'(c,c) @>>{\omega'_c}> S'(c,c).
+\end{CD}
+\]
+
+The arrow $\int_c \gamma_{c,c}$ is called the \textit{end of the natural transformation} $\gamma$. Moreover, composing $\gamma$ with another natural transformation $\gamma': S' \rightarrow S''$ yields the functoriality rule
+\[
+\int_c (\gamma' \cdot \gamma)_{c,c} = \left[ \int_c \gamma'_{c,c} \right] \circ \left[ \int_c \gamma_{c,c} \right].
+\]

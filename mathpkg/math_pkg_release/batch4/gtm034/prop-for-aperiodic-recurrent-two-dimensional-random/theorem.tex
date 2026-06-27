@@ -1,0 +1,186 @@
+For aperiodic recurrent two-dimensional random walk
+
+$$\lim_{n \to \infty} \frac{R_n}{R_{n+1}} = 1.$$
+
+We may write
+
+$$P_z[T > n] = \sum_{k=n}^{\infty} P_z[T = k+1] = \sum_{k=n}^{\infty} \sum_{y \neq 0} Q_k(x,y)P(y,0),$$
+
+where, of course, $Q(x,y)$ is the transition function $P(x,y)$ restricted to $R - \{0\}$, and $Q_n(x,y)$ are its iterates, i.e.,
+
+$$Q_k(x,y) = P_z[x_k = y; T > k] \text{ for } k \geq 1, Q_0(x,y) = \delta(x,y).$$
+
+Letting
+
+$$g(x,y) = g_{(0)}(x,y) = \sum_{n=0}^{\infty} Q_n(x,y)$$
+
+one obtains
+
+$$P_z[T > n] = \sum_{k=0}^{\infty} \sum_{y \neq 0} Q_{n+k}(x,y)P(y,0) = \sum_{t \neq 0} g(x,t) \sum_{y \neq 0} Q_n(t,y)P(y,0).$$
+
+Setting
+
+$$v_n(t) = \frac{1}{R_{n+1}} \sum_{y \neq 0} Q_n(t,y)P(y,0), \quad t \in R - \{0\},$$
+
+one has
+
+(1) $$\frac{P_z[T > n]}{R_n} = \frac{R_{n+1}}{R_n} \sum_{t \neq 0} g(x,t)v_n(t), \quad x \neq 0.$$
+
+To complete the proof of T1 it suffices to show that the right-hand side in (1) tends to $a(x)$ as $n \to \infty$. In view of P1 it will suffice to prove
+
+(2) $$\lim_{n \to \infty} \sum_{t \neq 0} g(x,t)v_n(t) = a(x), \quad x \neq 0.$$
+
+To reduce
+
+But we know that (3) holds from T14.3. To establish (4) and (5) we go back to the definition of $v_n(t)$ which implies
+
+$$v_{n-1}(t) = \frac{1}{R_n} P_t[T = n].$$
+
+Introducing the reversed random walk with probability measure $P_0^*[ ]$ defined by $P^*(x,y) = P(y,x)$, one finds that
+
+$$v_{n-1}(t) = \frac{1}{R_n} P_0^*[x_n = t; T > n]$$
+
+$$= \frac{P_0^*[x_n = t; T > n]}{P_0[T > n]} = \frac{P_0^*[x_n = t; T > n]}{P_0^*[T > n]}.$$
+
+Hence $v_{n-1}(t)$ is a conditional probability measure on $R - \{0\}$. Summing on $t$ over $R - \{0\}$ gives (4).
+
+To prove (5) we have to show that for each $t$
+
+(6) $$\lim_{n \to \infty} \frac{P_0[x_n = t; T > n]}{P_0[T > n]} = 0.$$
+
+Here we have dropped the "stars" as we shall prove (6) for an arbitrary aperiodic two-dimensional recurrent random walk. We can select the integer $m > 0$ so that $P_m(t,0) = \alpha > 0,$
+
+$$\frac{P_0[x_n = t; T > n]}{P_0[T > n]} P_m(t,0) \leq \frac{P_0[n < T \leq n + m]}{P_0[T > n]}$$
+
+or
+
+$$\frac{P_0[x_n = t; T > n]}{P_0[T > n]} \leq \frac{1}{\alpha} \frac{R_n - R_{n+m}}{R_n},$$
+
+and the right-hand side goes to zero as $n \to \infty$ in view of P1.
+
+Now the proof of T1 is complete, except for the proof of P1. But P1 is
+
+for some constant $A > 0$. (This requires some care, as (8) is valid only when condition (3) in P7.6 is satisfied. But since our random walk is recurrent one can find three distinct non-zero points $x$, not colinear, such that $P(0,x) > 0$, and that suffices to satisfy condition (3) in P7.6.) In addition, we only require the identity
+
+$$\sum_{k=0}^{n} U_k R_{n-k} = 1, \quad n \geq 0,$$
+
+which follows by summing on $n$ in
+
+$$U_n = \sum_{k=1}^{n} F_k U_{n-k}, \quad n \geq 1,$$
+
+which is nothing but P1.2. For each integer $m \leq n$ we have
+
+$$1 = \sum_{k=0}^{n} U_k R_{n-k}$$
+$$\leq (U_0 + U_1 + \cdots + U_m) R_{n-m} + U_{m+1} + \cdots + U_n,$$
+
+or
+
+$$R_k \geq \frac{1 - (U_{m+1} + \cdots + U_{m+k})}{U_0 + \cdots + U_m} \geq \frac{1 - A \left( \frac{1}{m+1} + \cdots + \frac{1}{m+k} \right)}{1 + \frac{A}{1} + \frac{A}{2} + \cdots + \frac{A}{m}},$$
+
+for each choice of positive integers $k$ and $m$. Letting $m = [ck]$ (the greatest integer in $ck$)
+
+$$1 - A \left( \frac{1}{m+1} + \cdots + \frac{1}{m+k} \right) \sim 1 - A \ln \left( 1 + \frac{1}{c} \right)$$
+
+as $k \to \infty$. Choosing $c > 0$ so that $A \ln (1 + 1/c) < 1/2$,
+
+$$R_k \geq \frac{1}{2A \ln k}$$
+
+for
+
+Theorem T1 was worded in a somewhat peculiar manner in order to suggest that perhaps
+
+(1) $\lim_{n \to \infty} \frac{P_z[T_B > n]}{P_0[T > n]} = g_B(x, \infty), \quad x \in R - B,$
+
+for every set $B$ of cardinality $1 \leq |B| < \infty$. Unfortunately the step up from $|B| = 1$ to $|B| > 1$ causes considerable difficulty, so that we refer to the recent (1963) literature [60] for the proof of the above assertion. As an instructive way of countering the difficulty we offer the following attempt at proving (1) for arbitrary finite sets $B$ by mathematical induction on the size $|B|$ of $B$. It has been proved for $|B| = 1$, so that we assume it proved for sets of cardinality $p$ and proceed to $|B| = p + 1$. When $|B| = p + 1$ we write $B = B' \cup z$, where $|B'| = p$, and $z$ is the new point. Then the following equation is probabilistically obvious. For $x \in R - B$
+
+$$P_z[T_B > n] = P_z[T_B > n] + \sum_{k=1}^{n} P_z[T_B = k; T_B > n]$$
+
+$$= P_z[T_B > n] + \sum_{k=1}^{n} P_z[T_B = k; x_{T_B} = z] P_z[T_B > n - k].$$
+
+We simplify the notation by writing
+
+(2) $\frac{a_n}{b_n} = \frac{P_z[T_B > n]}{P_0[T > n]} + \frac{1}{b_n} \sum_{k=1}^{n} c_k d_{n-k}$
+
+where
+
+$$a_n = P_z[T_B > n], \quad b_n = P_0[T > n],$$
+
+$$c_n = P_z[T_B = n; x_{T_B} = z], \quad d_n = P_z[T_B > n].$$
+
+According to the induction hypothesis we know that
+
+(3) $\lim_{
+
+But if (5) holds, then substitution of (3), (4), and (5) into (2) shows that
+
+$$\lim_{n \to \infty} \frac{P_z[T_B > n]}{P_0[T > n]} = g_{B'}(x, \infty) - g_{B'}(z, \infty) H_B(x, z)$$
+
+for all $x$ in $R - B$. Observe that
+
+(6) $$g_{B'}(x, y) - g_{B'}(z, y) H_B(x, z) = g_B(x, y), \quad y \in R - B,$$
+
+which is obtained by decomposing $g_{B'}(x, y)$ into the sum of the expected number of visits to $y$ before hitting $B$, and those visits to $y$ occurring after the first visit to the point $z$ in $B$. It is obvious how to construct a formal proof, using P3.2. In view of T14.3 we can let $|y| \to \infty$ in (6). The result is
+
+$$\lim_{n \to \infty} \frac{P_z[T_B > n]}{P_0[T > n]} = g_B(x, \infty), \quad x \in R - B,$$
+
+which completes the induction and therefore proves (1), assuming that (5) is true.
+
+Finally, we shall derive a sufficient condition for (5), and hence (1) to hold. It is quite simply that
+
+(7) $$\lim_{n \to \infty} \frac{R_n}{R_{2n}} < \infty.$$
+
+(Before reducing (5) to (7) it should be pointed out that Kesten has proved (7) for arbitrary recurrent random walk [60]. And in the two-dimensional case even the limit in (7) exists and equals one. For simple random walk this will be verified in E1 below.)
+
+Now we shall assume (7) and for a fixed point $x \neq 0$ in $R$ and some integer $M > 0$, we consider the sum
+
+$$I(n, M, x) = \frac{1}{R_n} \sum_{k=M}^{n-M} P_z[T = k] R_{n-k
+
+Using T1 we get
+
+$$I(n, M, x) \leq k a(x) R_M \frac{R_{[n/2]}}{R_n}$$
+
+for some $k > 0$, and finally, using (7),
+
+(8) $$\lim_{M \to \infty} \lim_{n \to \infty} I(n, M, x) = 0.$$
+
+Using (8) we can show that if, as before
+
+$$b_n = P_0[T > n] = R_n, \quad c_n = P_z[T_B = n; x_{T_B} = z],$$
+
+then
+
+(9) $$\lim_{n \to \infty} \frac{1}{b_n} \sum_{k=1}^{n} c_k b_{n-k} = \sum_{k=1}^{\infty} c_k.$$
+
+This is clear because, given any $\epsilon > 0$, we can choose $M$ such that
+
+(10) $$\lim_{n \to \infty} \frac{1}{b_n} \sum_{k=M}^{n-M} c_k b_{n-k} \leq \lim_{n \to \infty} \frac{1}{R_n} \sum_{k=M}^{n-M} P_z[T_z = k] R_{n-k}$$
+
+$$= \lim_{n \to \infty} I(n, M, x - z) < \epsilon.$$
+
+And as for the tails, P1 implies that
+
+$$\lim_{n \to \infty} \frac{1}{b_n} \sum_{k=1}^{M-1} c_k b_{n-k} = \sum_{k=1}^{M-1} c_k,$$
+
+while
+
+(11) $$\frac{1}{b_n} \sum_{k=n-M+1}^{n} c_k b_{n-k} \leq \frac{1}{b_n} \sum_{k=n-M+1}^{n} c_k \leq \frac{1}{b_n} \sum_{k=n-M+1}^{n} P_z[T_z = k]$$
+
+$$= \frac{1}{b_n} \{P_{z-z}[T > n-M] - P_{z-z}[T > n]\}$$
+
+which tends to zero by T1.
+
+But according to (
+
+it follows from (10), (11), and (12) that the last term in (13) tends to zero as $n$ tends to infinity. And from (9) and (12) we conclude that
+
+$$\lim_{n \to \infty} \frac{1}{b_n} \sum_{k=1}^{n} c_k d_{n-k} = g \sum_{k=1}^{\infty} c_k$$
+
+$$= g_{B'} (z, \infty) \sum_{k=1}^{\infty} P_x [T_B = k; x_{T_B} = z]$$
+
+$$= g_{B'} (z, \infty) H_B (x, z).$$
+
+This is equation (5) so that we have established the sufficiency of condition (7) for (5) and hence for (1).
+
+E1 For simple random walk in the plane
+
+$$R_n = P_0 [T > n] \sim \frac{\pi}{\ln n} \text{ as } n \to \infty.$$

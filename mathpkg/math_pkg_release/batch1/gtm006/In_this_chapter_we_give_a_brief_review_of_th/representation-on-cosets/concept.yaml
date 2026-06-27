@@ -1,0 +1,23 @@
+id: representation-on-cosets
+title_en: "Representation of Transitive Group on Cosets"
+title_zh: "传递群在陪集上的表示"
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [transitive-group, coset-representation, permutation-representation]
+depends_on:
+  required: [stabilizer, orbit-and-transitivity]
+  recommended: [conjugate-stabilizers]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "1"
+    section: "3"
+    pages: ""
+    role_in_book: "Result 1.10; transitive groups as coset actions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

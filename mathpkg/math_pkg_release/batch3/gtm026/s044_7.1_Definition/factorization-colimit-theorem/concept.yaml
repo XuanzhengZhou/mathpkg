@@ -1,0 +1,23 @@
+id: factorization-colimit-theorem
+title_en: "Colimit existence via E-M factorization and quasi-colimits"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [colimit, factorization-system, quasi-colimit, e-co-well-powered, optimal-lift, diagram]
+depends_on:
+  required: [quasi-colimit, factorization-system, adjoint-functor, category-of-diagrams]
+  recommended: [solution-set-condition, embedding-functor-preserves-limits]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "7"
+    section: "7.1"
+    pages: ""
+    role_in_book: "Theorem 7.7; constructs colimits using E-M factorizations and quasi-colimits; described in the Notes as new"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

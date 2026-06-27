@@ -1,0 +1,23 @@
+id: differential-exponent-preserved-under-localization
+title_en: "Differential Exponent Is Preserved Under Localization"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [differential-exponent, different, localization, dedekind-domain, ramification, prime-ideal]
+depends_on:
+  required: [complementary-module, dedekind-domain, integral-closure, differential-exponent, localization]
+  recommended: [separable-extension, prime-ideal, quotient-field]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "IV"
+    section: "11. Different and discriminant"
+    pages: ""
+    role_in_book: "Theorem 27: shows that the differential exponent of a prime ideal is a local invariant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

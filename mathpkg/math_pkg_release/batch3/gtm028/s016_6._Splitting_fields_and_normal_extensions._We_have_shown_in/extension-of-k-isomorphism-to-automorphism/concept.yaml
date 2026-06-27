@@ -1,0 +1,23 @@
+id: extension-of-k-isomorphism-to-automorphism
+title_en: "Corollary 4: Extension of k-Isomorphisms to Automorphisms in Normal Extensions"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: field-theory
+difficulty: intermediate
+tags: [normal-extension, k-isomorphism, automorphism, field-tower]
+depends_on:
+  required: [normal-extension]
+  recommended: [isomorphism-extension-to-splitting-fields, k-isomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "II"
+    section: "6. Splitting fields and normal extensions"
+    pages: "84-91"
+    role_in_book: "Shows that k-isomorphisms of intermediate fields lift to automorphisms of a normal extension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

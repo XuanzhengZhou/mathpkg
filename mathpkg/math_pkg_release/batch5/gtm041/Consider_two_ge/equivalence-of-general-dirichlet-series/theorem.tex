@@ -1,0 +1,14 @@
+Consider two general Dirichlet series with the same sequence of exponents $\Lambda$, say
+$$\sum_{n=1}^{\infty} a(n)e^{-s\lambda(n)} \quad \text{and} \quad \sum_{n=1}^{\infty} b(n)e^{-s\lambda(n)}.$$
+Let $B = \{\beta(n)\}$ be a basis for $\Lambda$ and write $\Lambda = RB$, where $R$ is a Bohr matrix.
+
+We say the two series are \textit{equivalent}, relative to the basis $B$, and we write
+$$\sum_{n=1}^{\infty} a(n)e^{-s\lambda(n)} \sim \sum_{n=1}^{\infty} b(n)e^{-s\lambda(n)}$$
+if there exists a finite or infinite sequence of real numbers $Y = \{y_n\}$ such that
+$$b(n) = a(n)e^{ix_n}$$
+where $X = \{x_n\} = RY$.
+
+In other words, if we write
+$$\lambda(n) = \sum_{k=1}^{q(n)} r_{n,k}\beta(k),$$
+equivalence means that for some sequence $\{y_n\}$ we have
+$$b(n) = a(n) \exp\left(i \sum_{k=1}^{q(n)} r_{n,k}y_k\right).$$

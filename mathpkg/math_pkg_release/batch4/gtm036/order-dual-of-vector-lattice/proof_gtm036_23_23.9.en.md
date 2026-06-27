@@ -1,0 +1,9 @@
+---
+role: proof
+locale: en
+of_concept: order-dual-of-vector-lattice
+source_book: gtm036
+source_chapter: "23"
+source_section: "23.9"
+---
+Let $f$ be a linear functional on $E$ which is bounded on order bounded sets, and for each positive element $x$ let $f^{+}(x)$ be the value as defined in the statement of the theorem. Clearly $f^{+}(x)$ is finite and non-negative. If $x$ and $y$ are positive elements, then $0 \leq u \leq x$ and $0 \leq v \leq y$ imply that $0 \leq u + v \leq x + y$; hence, $f(u) + f(v) = f(u + v) \leq f^{+}(x + y)$. Taking suprema over $u$ and $v$ yields $f^{+}(x) + f^{+}(y) \leq f^{+}(x + y)$. On the other hand, if $0 \leq w \leq x + y$, then by the decomposition lemma there are elements $u$ and $v$ such that $w = u + v$, $0 \leq u \leq x$, and $0 \leq v \leq y$. Hence, $f(w) = f(u + v) = f(u) + f(v) \leq f^{+}(x) + f^{+}(y)$, from which it follows that $f^{+}(x + y) \leq f^{+}(x) + f^{+}(y)$. Therefore, we have $f^{+}(x + y) = f^{+}(x) + f^{+}(y)$ for positive elements $x$ and $y$. Obviously, $f^{+}(t x) = t f^{+}(x)$ for a positive $x$ and a non-negative real number $t$. The function $f^{+}$ is then extended to a linear functional on $E$ by writing each element $z \in E$ as $z = z^{+} - z^{-}$ and setting $f^{+}(z) = f^{+}(z^{+}) - f^{+}(z^{-})$; it is routine to verify that this defines a linear functional. For a positive $x$, $f^{+}(x) \geq f(0) = 0$ and $f^{+}(x) \geq f(x)$, so $f^{+} \geq 0$ and $f^{+} \geq f$ in the dual ordering. Moreover, if $g \in E^{\star}$ satisfies $g \geq f$ and $g \geq 0$, then for any positive $x$ and any $u$ with $0 \leq u \leq x$, we have $f(u) \leq g(u) \leq g(x)$, whence $f^{+}(x) = \sup\{f(u) : 0 \leq u \leq x\} \leq g(x)$. Thus $f^{+} \leq g$, proving that $f^{+} = f \lor 0$ in $E^{\star}$. It follows that $E^{\star}$ is a vector lattice under the dual ordering. The converse (that each member of the order dual is bounded on order bounded sets) has already been remarked.

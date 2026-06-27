@@ -1,0 +1,23 @@
+id: unique-continuous-linear-extension
+title_en: "Unique Continuous Linear Extension to Completion"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [continuous-extension, linear-map, completion, dense-subspace, separated-tvs, complete-tvs]
+depends_on:
+  required: []
+  recommended: [topological-vector-space, continuity-of-linear-maps-at-zero, completion-of-tvs]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "1"
+    pages: "87"
+    role_in_book: "A continuous linear map into a separated complete t.v.s. extends uniquely to any t.v.s. containing the domain as a dense subspace, in particular to the completion."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

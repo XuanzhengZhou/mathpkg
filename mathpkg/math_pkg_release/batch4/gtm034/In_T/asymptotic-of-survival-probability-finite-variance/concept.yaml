@@ -1,0 +1,20 @@
+id: asymptotic-of-survival-probability-finite-variance
+title_en: "Asymptotic of the survival probability for finite-variance random walk"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [asymptotic, survival-probability, finite-variance, karama-ta-theorem, hitting-time]
+depends_on: {required:[], recommended:[karama-ta-theorem, random-walk-characteristic-function], suggested:[abel-theorem, fourier-inversion]}
+source_books:
+  - book_id: gtm034
+    author: Frank Spitzer
+    title: Principles of Random Walk, 2nd ed.
+    chapter: "VII"
+    section: "32"
+    pages: "?"
+    role_in_book: "Sharp asymptotic of P_0[T > n] for one-dimensional recurrent random walk with finite variance"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

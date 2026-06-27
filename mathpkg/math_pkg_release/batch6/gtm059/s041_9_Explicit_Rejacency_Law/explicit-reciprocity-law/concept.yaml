@@ -1,0 +1,23 @@
+id: explicit-reciprocity-law
+title_en: "Explicit Reciprocity Law"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: [explicit-reciprocity-law, lubin-tate, local-pairing, norm-residue, logarithmic-derivative]
+depends_on:
+  required: []
+  recommended: [logarithmic-derivative-property-5, lubin-tate-formal-group, local-norm-residue-symbol]
+  suggested: [iwasawa-theory]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "9"
+    section: "9"
+    pages: ""
+    role_in_book: "Central theorem: explicit formula for the norm residue symbol in terms of the logarithmic derivative"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

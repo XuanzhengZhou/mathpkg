@@ -1,0 +1,23 @@
+id: order-topology-with-order-unit
+title_en: "Order Topology of an Archimedean Ordered Vector Space with Order Unit"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: ordered-topological-vector-spaces
+difficulty: advanced
+tags: [order-topology, order-unit, Archimedean-order, normal-cone, completeness, order-summable, l1-type-sequence]
+depends_on:
+  required: [order-topology-of-ordered-vector-space, order-summable-sequence, positive-sequence-of-type-l1]
+  recommended: [Archimedean-ordered-vector-space, order-unit, normal-cone]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "John Horvath"
+    title: "Topological Vector Spaces"
+    chapter: "V. Order Structures"
+    section: "6. The Order Topology"
+    pages: ""
+    role_in_book: "Theorem 6.2: gives a complete description of the order topology when an order unit exists"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

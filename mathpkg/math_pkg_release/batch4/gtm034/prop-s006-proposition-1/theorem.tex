@@ -1,0 +1,53 @@
+$\sum_{t \in R} P_{n+1}(x,t)H_B(t,y)$
+
+$$= H_B(x,y) - \sum_{t \in B} A_n(x,t)[\Pi_B(t,y) - \delta(t,y)],$
+
+for $x \in R, y \in B, n \geq 0$.
+
+The further development is now impeded by two major problems. We wish to let $n \to \infty$ in P3 and naturally ask
+
+(i) Does $\lim_{n \to \infty} A_n(x,t)$ exist?
+
+(ii) If the answer to (i) is affirmative, what can be said about the other limit in P
+
+shall prove in answer to (i) that the limit of $A_n(x,y)$ exists for all $x,y$ in $R$, which we record as
+
+$(i)' \lim_{n \to \infty} A_n(x,y) = A(x,y), \quad \lim_{n \to \infty} a_n(x) = a(x).$
+
+The proof of this assertion in section 12 will use in an essential way two of our assumptions. The first is that the random walk is aperiodic, which is important, because the limits in question need not exist in the periodic case. The second assumption is that the dimension of the process is two. This is essential only for the proof and in fact we shall present a different proof, in Chapter VII, which shows that
+
+$$\lim_{n \to \infty} A_n(x,y) = A(x,y)$$
+
+exists for every aperiodic random walk.
+
+Concerning question (ii), let us try to simplify the problem. If the answer to (i) is affirmative, then it follows from P3 that
+
+$$\lim_{n \to \infty} \sum_{t \in R} P_{n+1}(x,t)H_B(t,y)$$
+
+exists for every pair $x \in R, y \in B$. Let us fix $y$ and call the above sum $f_{n+1}(x)$. Iterated operation by the transition function $P(x,y)$ shows that
+
+$$f_{n+1}(x) = \sum_{t \in R} P(x,t)f_n(t).$$
+
+Here we have used the obvious fact that $0 \leq f_n(x) \leq 1$, to justify an interchange of summation. As we know that the limit of $f_n(x)$ exists, we may call it $f(x)$, and conclude, again by dominated convergence, that
+
+$$f(x) = \sum_{y \in R} P(x,y)f(y), \quad x \in R.$$
+
+In section 13, P13.1, we shall show, again using the aperiodicity and recurrence of the random walk, that the only non-negative solutions of this equation are the constant functions. This means that the limit we inquired about in (ii) above exists and is independent of $x$, so we may call it $\mu
+
+stated in the conclusions we obtain in propositions P4 through P8 and in the main theorem T1 at the end. The reader to whom this departure from a strictly logical development is abhorrent is invited to turn to the proof of propositions P12.1 and P13.1 at this point.
+
+By applying (i)' and (ii)' to P3 one can immediately conclude
+
+$$H_B(x,y) = \mu_B(y) + \sum_{t \in B} A(x,t)[\Pi_B(t,y) - \delta(t,y)],$$
+
+for $x \in R$, $y \in B$ (subject to (i)' and (ii)').
+
+Our next move is to consider a very special case of P4, by restricting attention to sets $B$ of cardinality two. Nothing is lost, and some simplification gained by letting the origin belong to $B$, so that we let $B = \{0,b\}$ where $b$ is any point in $R$ except 0. Consider now the two by two matrix $\Pi_B$. In view of P2 it is doubly stochastic. This means that if we call $\Pi_B(0,b) = \Pi$, then $\Pi_B(b,0) = \Pi$,
+
+$$\Pi_B(0,0) = \Pi_B(b,b) = 1 - \Pi.$$
+
+To gain further insight it is of interest to restrict both $x$ and $y$ in P4 to the set $B$. P4 then consists of four equations, and keeping in mind that $H_B(x,y) = \delta(x,y)$, we represent them in matrix form as follows:
+
+$$\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} \mu_B(0) & \mu_B(b) \\ \mu_B(0) & \mu_B(b) \end{pmatrix} + \Pi \begin{pmatrix} a(-b) & -a(-b) \\ -a(b) & a(b) \end{pmatrix}.$$
+
+The above matrix identity shows that $\Pi$ cannot be zero, and it readily yields the following solution (in the sense that we think of $a(x)$ as a known function, and of $\Pi$, $\mu_B(0)$

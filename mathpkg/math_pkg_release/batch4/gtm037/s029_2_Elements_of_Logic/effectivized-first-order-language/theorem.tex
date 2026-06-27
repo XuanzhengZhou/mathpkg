@@ -1,0 +1,11 @@
+If $\mathcal{L} = (L, v, \mathcal{O}, \mathcal{R})$ is a first-order language, then members of $\text{Dmn } \mathcal{O} \cup \text{Dmn } \mathcal{R}$ are called \textit{nonlogical constants}. The set
+$$\text{Sym}_{\mathcal{L}} = \text{Rng } L \cup \text{Rng } v \cup \text{Dmn } \mathcal{O} \cup \text{Dmn } \mathcal{R}$$
+is the set of \textit{symbols} of $\mathcal{L}$.
+
+An \textit{effectivized first-order language} is a quintuple $\mathcal{L} = (L, v, \mathcal{O}, \mathcal{R}, g)$ such that $(L, v, \mathcal{O}, \mathcal{R})$ is a first-order language and in addition the following conditions hold:
+
+\begin{enumerate}
+\item[(i)] $g$ is a one-one function mapping $\text{Sym}_{\mathcal{L}}$ into $\omega$;
+\item[(ii)] $g \circ v$ is recursive, $\text{Rng}(g \circ v)$ is recursive, and $v^{-1} \circ g^{-1}$ is partial recursive;
+\item[(iii)] $g^{*}\ \text{Dmn } \mathcal{O}$ is recursive and $\mathcal{O} \circ g^{-1}$ is partial recursive.
+\end{enumerate}

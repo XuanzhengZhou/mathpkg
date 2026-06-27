@@ -1,0 +1,23 @@
+id: comparable-complete-metrizable-topologies-identical
+title_en: "Two comparable complete metrizable topologies on a vector space are identical"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [banach, complete-metrizable, topology-comparison, tvs-topology]
+depends_on:
+  required: [continuous-bijection-complete-metrizable-isomorphism]
+  recommended: [identity-map, finer-topology]
+  suggested: [frechet-space]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "2"
+    pages: ""
+    role_in_book: "Corollary 2 to Theorem 2.1: two comparable complete metrizable t.v.s. topologies on the same vector space are identical."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

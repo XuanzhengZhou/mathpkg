@@ -1,0 +1,23 @@
+id: dual-k-equals-k-hat
+title_en: "Dual of K equals K-hat"
+title_zh: "K的对偶等于K-hat"
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [k-matrix, duality, potential-theory]
+depends_on:
+  required: [k-matrix, dual-matrix, alpha-coefficient]
+  recommended: [k-expressed-via-c-and-g]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Key duality property of K"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

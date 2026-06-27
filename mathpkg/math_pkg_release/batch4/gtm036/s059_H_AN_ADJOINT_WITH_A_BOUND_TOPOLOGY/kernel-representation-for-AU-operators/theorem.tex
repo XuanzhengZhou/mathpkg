@@ -1,0 +1,9 @@
+Let $A(U)$ be the space of analytic functions on the open unit disk $U = \{z : |z| < 1\}$ and let $T$ be a continuous linear mapping of $A(U)$ into itself. Then there exists a unique kernel $B$ such that $T(f) = g$, where for $|z| < 1$,
+$$g(z) = \frac{1}{2\pi i} \int_{|\zeta| = r(z)} f(\zeta) B(\zeta,z) \, d\zeta,$$
+with the contour integral taken round a circle of radius $r(z) < 1$ depending on $z$, and the kernel $B$ satisfies:
+\begin{enumerate}
+\item[(i)] the mapping $(\zeta,z) \mapsto B(\zeta,z)$ is continuous in the two variables for $|\zeta| \geq 1$ and $|z| < 1$;
+\item[(ii)] to each $r < 1$ there corresponds an $r' < 1$ such that, whenever $|z| < r$, the mapping $\zeta \mapsto B(\zeta,z)$ is analytic on $\{\zeta : |\zeta| > r'\}$ and vanishes at infinity;
+\item[(iii)] for each $\zeta$ with $|\zeta| > 1$, the mapping $z \mapsto B(\zeta,z)$ is analytic on $U$.
+\end{enumerate}
+Conversely, if $B$ is a kernel satisfying conditions (i), (ii), and (iii), then it defines a unique continuous linear mapping of $A(U)$ into itself by the above integral formula.

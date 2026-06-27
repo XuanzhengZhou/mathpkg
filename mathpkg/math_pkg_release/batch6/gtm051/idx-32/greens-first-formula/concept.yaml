@@ -1,0 +1,23 @@
+id: greens-first-formula
+title_en: "Green's First Formula"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [greens-formula, laplacian, integral-formula, divergence-theorem, surface-integral]
+depends_on:
+  required: [laplace-beltrami-operator, gauss-theorem, normal-derivative]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.7"
+    pages: "pp. 129–132"
+    role_in_book: "First of Green's integral formulae on a Riemannian surface"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

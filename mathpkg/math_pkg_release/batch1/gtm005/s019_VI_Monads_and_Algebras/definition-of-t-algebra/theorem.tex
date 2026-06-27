@@ -1,0 +1,22 @@
+Let $T = \langle T, \eta, \mu \rangle$ be a monad in a category $X$.
+A \textbf{$T$-algebra} $\langle x, h \rangle$ consists of
+an object $x \in X$ (called the \textbf{underlying object}) and
+an arrow $h: Tx \to x$ of $X$ (called the \textbf{structure map} of the algebra)
+which make the following diagrams commute:
+
+\[
+\begin{CD}
+T^2 x @>{Th}>> Tx \\
+@V{\mu_x}VV @VV{h}V \\
+Tx @>>{h}> x
+\end{CD}
+\qquad
+\begin{CD}
+x @>{\eta_x}>> Tx \\
+@| @VV{h}V \\
+x @= x
+\end{CD}
+\]
+
+The first diagram expresses the \textbf{associative law} for the algebra,
+the second the \textbf{unit law}.

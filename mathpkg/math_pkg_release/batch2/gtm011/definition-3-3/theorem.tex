@@ -1,0 +1,9 @@
+If $G$ is open and $f$ is a function defined and analytic in $G$ except for
+
+where $g$ is analytic and never vanishes in $G$. Since this gives that $g'/g$ is analytic, Cauchy's Theorem gives the result.
+
+Why is this called the "Argument Principle"? The answer to this is not completely obvious, but it is suggested by the fact that if we could define $\log f(z)$ then it would be a primitive for $f'/f$. Thus Theorem 3.4 would give that as $z$ goes around $\gamma$, $\log f(z)$ would change by $2\pi iK$ where $K$ is the integer on the right hand side of (3.5). Since $2\pi iK$ is purely imaginary this would give that $\operatorname{Im} \log f(z) = \arg f(z)$ changes by $2\pi K$.
+
+Of course we can't define $\log f(z)$ (indeed, if we could then $\int_{\gamma} f'/f = 0$ since $f'/f$ has a primitive). However, we can put the discussion in the above paragraph on a solid logical basis. Since no zero or pole of $f$ lies on $\gamma$ there is a disk $B(a; r)$, for each $a$ in $\{\gamma\}$, such that a branch of $\log f(z)$ can be defined on $B(a; r)$ (simply select $r$ sufficiently small that $f(z) \neq 0$ or $\infty$ in $B(a; r)$). The balls form an open cover of $\{\gamma\}$; and so, by Lebesgue's Covering Lemma, there is a positive number $\epsilon > 0$ such that for each $a$ in $\{\gamma\}$ we can define a branch of $\log f(z)$ on $B(a; \epsilon)$. Using the uniform continuity of $\gamma$ (suppose that $\gamma$ is defined on $[0, 1]$), there is a partition $0 = t_0 < t_1 < \cdots < t_k = 1$ such that $\gamma(t) \in B(\gamma(t_{j-1}); \epsilon)$ for $t_{j-1} \leq t \leq t_j$ and $1 \leq j \leq k$. Let $\ell_j$ be a branch of $\log f$ defined
+
+a formula for calculating this inverse. Suppose $R > 0$ and that $f$ is analytic and one-one on $\bar{B}(a; R)$; let $\Omega = f[B(a; R)]$. If $|z - a| < R$ and $\xi = f(z) \in \Omega$ then $f(w) - \xi$ has one, and only one, zero in $B(a; R)$. If we choose $g(w) \equiv w$, Theorem 3.6 gives

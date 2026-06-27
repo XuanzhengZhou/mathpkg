@@ -1,0 +1,30 @@
+id: codense-functor
+title_en: Codense Functor
+title_zh: ''
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags:
+- codense-functor
+- kan-extension
+- yoneda-embedding
+depends_on:
+  required:
+  - functor
+  - kan-extension
+  - yoneda-lemma
+  - dense-functor
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: X
+  section: '6'
+  pages: ''
+  role_in_book: ''
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

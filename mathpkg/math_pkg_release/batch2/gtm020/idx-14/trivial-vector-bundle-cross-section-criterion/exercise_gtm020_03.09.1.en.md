@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "3"
+section: "9"
+exercise_number: 1
+---
+
+Prove that a $k$-dimensional vector bundle $\xi^k$ is trivial if and only if it has $k$ cross sections $s_1, \ldots, s_k$ such that $s_1(b), \ldots, s_k(b)$ are linearly independent for each $b \in B$.

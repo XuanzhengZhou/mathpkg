@@ -1,0 +1,23 @@
+id: incompleteness-of-continuous-functions-under-l1-metric
+title_en: "Incompleteness of the space of continuous functions under the L^1 metric"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: metric-spaces
+difficulty: intermediate
+tags: [metric-space, completeness, counterexample, L1-metric, continuous-functions, function-space]
+depends_on:
+  required: [integral-l1-metric, uniform-metric-on-continuous-functions]
+  recommended: [cauchy-sequence]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "10"
+    section: "Examples of Metric Spaces"
+    pages: "50-52"
+    role_in_book: "Counterexample: (C,σ) is not complete"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

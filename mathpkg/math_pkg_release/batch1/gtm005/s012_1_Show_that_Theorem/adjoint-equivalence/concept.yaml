@@ -1,0 +1,23 @@
+id: adjoint-equivalence
+title_en: "Adjoint Equivalence"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [adjoint-equivalence, equivalence-of-categories, adjunction]
+depends_on:
+  required: [adjunction, equivalence-of-categories]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IV"
+    section: "4"
+    pages: ""
+    role_in_book: "Characterization: S is equivalence iff S is full, faithful, and essentially surjective"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

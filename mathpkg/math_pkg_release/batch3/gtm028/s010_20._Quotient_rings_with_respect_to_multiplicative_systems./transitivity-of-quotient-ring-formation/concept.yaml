@@ -1,0 +1,23 @@
+id: transitivity-of-quotient-ring-formation
+title_en: "Transitivity of Quotient Ring Formation"
+title_zh: "商环构造的传递性"
+type: proposition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [localization, transitivity, iterated-localization, quotient-ring]
+depends_on:
+  required: [quotient-ring-with-respect-to-multiplicative-system, multiplicative-system]
+  recommended: [ring-homomorphism]
+  suggested: [units-in-quotient-ring-characterization]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Volume I"
+    chapter: "I"
+    section: "20. Quotient rings with respect to multiplicative systems"
+    pages: "58-60"
+    role_in_book: "Establishes that iterated localization reduces to a single localization"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

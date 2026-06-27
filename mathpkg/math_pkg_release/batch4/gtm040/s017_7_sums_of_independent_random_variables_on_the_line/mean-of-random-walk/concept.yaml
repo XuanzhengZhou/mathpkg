@@ -1,0 +1,13 @@
+id: mean-of-random-walk
+title_en: "Mean of a sums of independent random variables Markov chain"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: basic
+tags: [random-walk, mean, expected-value, sums-of-independent-random-variables]
+depends_on: {required: ["sums-of-independent-random-variables-markov-chain"], recommended: [], suggested: []}
+source_books: [{book_id: "gtm040", author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp", title: "Denumerable Markov Chains", chapter: "5", section: "7", pages: "", role_in_book: "definition of the drift parameter for random walks"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

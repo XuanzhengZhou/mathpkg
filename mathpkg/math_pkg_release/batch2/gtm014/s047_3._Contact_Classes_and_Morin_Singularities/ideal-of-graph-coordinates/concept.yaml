@@ -1,0 +1,23 @@
+id: ideal-of-graph-coordinates
+title_en: "Ideal of Graph Germ as Coordinate Functions"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: singularity-theory
+difficulty: intermediate
+tags: [map-germ, graph, ideal, coordinate-functions, local-ring]
+depends_on:
+  required: [local-ring-of-contact]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky and Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "II"
+    section: "3"
+    pages: "182-183"
+    role_in_book: "Computes the ideal I_p(A,B) explicitly for the case where A is Euclidean space and B is the graph of a map germ"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

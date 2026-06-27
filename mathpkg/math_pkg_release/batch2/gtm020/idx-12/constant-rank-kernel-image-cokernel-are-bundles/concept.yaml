@@ -1,0 +1,23 @@
+id: constant-rank-kernel-image-cokernel-are-bundles
+title_en: "Kernel, Image, and Cokernel of a Constant Rank Morphism are Vector Bundles"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: vector-bundles
+difficulty: advanced
+tags: [vector-bundles, kernel, image, cokernel, constant-rank, exact-sequence]
+depends_on:
+  required: [vector-bundle, bundle-morphism, kernel-image-cokernel-of-bundle-morphism]
+  recommended: [subbundle, quotient-bundle, local-triviality]
+  suggested: [exact-sequence-of-vector-bundles, short-exact-sequence-splitting]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "3"
+    section: "8"
+    pages: "52"
+    role_in_book: "Theorem 8.2; establishes that kernel, image, and cokernel are vector bundles for constant rank morphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

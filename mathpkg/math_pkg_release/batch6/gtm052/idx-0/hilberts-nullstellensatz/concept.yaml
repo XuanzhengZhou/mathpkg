@@ -1,0 +1,23 @@
+id: hilberts-nullstellensatz
+title_en: "Theorem 1.3A: Hilbert's Nullstellensatz"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [nullstellensatz, hilbert, radical-ideal, zero-set]
+depends_on:
+  required: [algebraic-set, ideal-of-subset-of-affine-space]
+  recommended: [noetherian-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "§1"
+    pages: ""
+    role_in_book: "The foundational theorem linking algebra and geometry; the cornerstone of algebraic geometry"
+content_hash: "c3d4e5f6a7b8"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

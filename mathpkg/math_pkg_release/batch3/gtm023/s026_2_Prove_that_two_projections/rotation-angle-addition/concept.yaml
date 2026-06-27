@@ -1,0 +1,23 @@
+id: rotation-angle-addition
+title_en: "Rotation Angle Addition Formula"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [rotation, angle, composition, abelian]
+depends_on:
+  required: [rotation-angle, canonical-complex-structure]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: ""
+    title: "Linear Algebra"
+    chapter: "8"
+    section: "8.21"
+    pages: ""
+    role_in_book: "Proves that proper rotations in the plane commute and their rotation angles add"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

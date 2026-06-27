@@ -1,0 +1,23 @@
+id: equivalence-class-of-coordinate-mapping
+title_en: "Equivalence class of a coordinate mapping"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: basic
+tags: [pl-topology, coordinate-mapping, equivalence-class, pl-simplex]
+depends_on:
+  required: [equivalence-relation-on-coordinate-mappings, coordinate-mapping]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "7"
+    section: "Abstract complexes and PL complexes"
+    pages: "65-70"
+    role_in_book: "Defines PL simplexes as equivalence classes [h] of coordinate mappings, the fundamental building block of PL complexes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

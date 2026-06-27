@@ -1,0 +1,23 @@
+id: finitely-generated-galois-group-over-iwasawa-algebra
+title_en: "Finite Generation of the Galois Group over the Iwasawa Algebra"
+title_zh: "岩泽代数上伽罗瓦群的有限生成性"
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [iwasawa-algebra, galois-group, finite-generation, nakayama-lemma, leopoldt-conjecture, p-ramified-extension]
+depends_on:
+  required: [galois-group-as-module-over-iwasawa-algebra]
+  recommended: [iwasawa-algebra, zp-extension, nakayama-lemma, leopoldt-conjecture]
+  suggested: [class-field-theory, structure-theorem-for-iwasawa-modules]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "§6. The Galois Group as Module over the Iwasawa Algebra"
+    pages: "156"
+    role_in_book: "Establishes that the Galois group of the maximal p-abelian p-ramified extension is finitely generated over the Iwasawa algebra and determines its rank modulo the augmentation ideal, both unconditionally and under the Leopoldt conjecture."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

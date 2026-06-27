@@ -1,0 +1,25 @@
+id: braid-category-strict-monoidal
+title_en: "Braid Category is a Strict Monoidal Category"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [braid-category, strict-monoidal-category, monoidal-category]
+depends_on:
+  required: [braid-category, strict-monoidal-category]
+  recommended: [monoidal-category]
+  suggested: [braided-monoidal-category, symmetric-monoidal-category]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    edition: "2nd"
+    year: 1998
+    chapter: "XI"
+    section: "4"
+    pages: ""
+    role_in_book: "Establishes the braid category as a strict monoidal category, motivating braided monoidal categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

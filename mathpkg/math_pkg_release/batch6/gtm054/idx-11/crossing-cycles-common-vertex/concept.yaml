@@ -1,0 +1,13 @@
+id: crossing-cycles-common-vertex
+title_en: "Crossing cycles in a planar imbedding share another vertex"
+title_zh: ""
+type: lemma
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [planar-imbedding, crossing-cycles, vertex-intersection, biconnected]
+depends_on: {required: [planar-imbedding, biconnected-cyclic-ordering-planar], recommended: [biconnected-multigraph], suggested: []}
+source_books: [{book_id: "gtm054", author: "Jack E. Graver and Mark E. Watkins", title: "Combinatorics with Emphasis on the Theory of Graphs", chapter: "E", section: "11", pages: "92-97", role_in_book: "Lemma — if two cycles cross at a vertex in a planar imbedding, they must intersect at another vertex; key structural property of planar embeddings"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

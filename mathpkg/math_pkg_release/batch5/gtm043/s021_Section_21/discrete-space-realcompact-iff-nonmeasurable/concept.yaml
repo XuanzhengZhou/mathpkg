@@ -1,0 +1,23 @@
+id: discrete-space-realcompact-iff-nonmeasurable
+title_en: "Discrete space realcompact iff cardinal is nonmeasurable"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: realcompactness
+difficulty: advanced
+tags: [discrete-spaces, measurable-cardinals, realcompactness]
+depends_on:
+  required: [nonmeasurable-cardinal, characteristic-function-of-ultrafilter]
+  recommended: [realcompact-space]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "12"
+    section: "12.2"
+    pages: ""
+    role_in_book: "Main theorem linking realcompactness to measure theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

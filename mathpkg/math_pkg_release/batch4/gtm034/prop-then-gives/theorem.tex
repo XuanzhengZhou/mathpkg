@@ -1,0 +1,227 @@
+then gives
+
+(2) $1 - t\phi(\theta) = c(t) |f_i(t;e^{i\theta})|^2,$
+
+and by P5 (a) this becomes
+
+(3) $1 - t\phi(\theta) = c(t) |1 - E[t^T e^{i\theta T}]|^2.$
+
+Equations (2) and (3) constitute a very interesting form of a classical theorem in Fourier analysis. In its first and simplest form it is due to Fejér [30], 1915, and concerns the representation of non-negative trigonometric polynomials. It states that if
+
+$$\psi(\theta) = a_0 + 2 \sum_{k=1}^{n} [a_k \cos k\theta + b_k \sin k\theta]$$
+
+is non-negative for all real values of $\theta$, then there exists a polynomial of degree $n$
+
+$$f(z) = \sum_{k=0}^{n
+
+onometric polynomial. But we get an actual example of (4) by considering a random walk such that $P(0,x) = 0$ when $|x| > n$ and $P(0,n) > 0$. Then
+
+$$1 - t\phi(\theta) = 1 - tP(0,0) - 2t \sum_{k=1}^{n} P(0,k) \cos k\theta,$$
+
+and since $\phi(\theta)$ is real and $|\phi(\theta)| \leq 1$
+
+$$1 - t\phi(\theta) = \psi(\theta)$$
+
+is a non-negative trigonometric polynomial of degree $n$. Setting
+
+$$f(z) = \sqrt{c(t)} \left\{1 - \mathbf{E}[t^{\mathrm{T}} z^{\mathrm{S_T}}]\right\},$$
+
+equation (3) shows that
+
+$$1 - t\phi(\theta) = \psi(\theta) = |f(z)|^2 \text{ when } z = e^{i\theta},$$
+
+and we have an example of the Fejér representation in equation (4) if we can demonstrate that $f(z)$ is a polynomial of degree $n$ in $z$. But this is obvious since
+
+$$f(z) = \sum_{k=0}^{\infty} c_k z^k$$
+
+with
+
+$$c_k = \sqrt{c(t)} \delta(k,0) - \sqrt{c(t)} \sum_{j=1}^{\infty} \mathbf{P}[T = j; S_T = k] t^j,$$
+
+and $c_k = 0$ for $k > n$ since $P(0,x) = 0$ for $k > n$, which implies that
+
+$$\mathbf{P}[T = j; S_T = k] \leq \mathbf{P}[S_T = k] = 0 \text{ for } k > n.$$
+
+Let us apply this result to the determination of $\mathbf{E}[t^{\mathrm{T}}]$ for simple random walk! It is probabilistically obvious that $S_T = 1$. Thus
+
+$$\psi(\theta) = 1 - t\phi(\theta) = 1 - t \cos \theta,$$
+
+while
+
+$$f(z)
+
+There is only one solution if one requires that $0 \leq E[t^T] < 1$ when $0 \leq t < 1$, and it is
+
+$$E[t^T] = \frac{1 - \sqrt{1 - t^2}}{t},$$
+
+$$c(t) = \frac{1 + \sqrt{1 - t^2}}{2}.$$
+
+For arbitrary symmetric random walk one must of course be satisfied with somewhat less. Taking $0 \leq t < 1$ and $0 \leq x = r < 1$, P5 gives
+
+$$\sqrt{c(t)} [1 - E[t^T r^S T]] = e^{-\sum_{k=1}^{\infty} \frac{t^k}{k} \left\{ \frac{1}{2} P[S_k = 0] + E[r^S k; S_k > 0] \right\}}$$
+
+$$= e^{-\frac{1}{2} \sum_{k=1}^{\infty} \frac{t^k}{k} E[r^S k]}.$$
+
+where we have used the symmetry property in concluding that
+
+$$\frac{1}{2} P[S_k = 0] + E[r^S_k; S_k > 0] = \frac{1}{2} E[r^S_k].$$
+
+One can write
+
+$$\sum_{k=1}^{\infty} \frac{t^k}{k} E[r^S_k] = \sum_{n=-\infty}^{\infty} r^{|n|} \sum_{k=1}^{\infty} \frac{t^k}{k} P[S_k = n].$$
+
+The sequence $r^{|n|}$ has the Fourier series
+
+$$\sum_{n=-\infty}^{\infty} r^{|n|} e^{i n \theta} = \frac{1 - r^2}{1 + r^2 - 2 r \cos \theta}, \quad 0 \leq r < 1,$$
+
+and the sequence
+
+$$c_n = \sum_{k=1}^{\infty} \frac{t^k}{k} P[S_k = n]$$
+
+has the Fourier series
+
+$$\sum_{n=-\infty}^{\infty} c_n e^{i n \
+
+Finally, setting $r = 0$ in (5) gives
+
+(6) $c(t) = e^{\frac{1}{2\pi} \int_{-x}^{\pi} \ln [1 - t\phi(\theta)] d\theta}, \quad 0 \leq t < 1.$
+
+One can of course go further on the basis of (5) and (6). To indicate the possibilities we shall let $r$ tend to one in equation (5). The Poisson kernel
+
+$$K(r, \theta) = \frac{1}{2\pi} \frac{1 - r^2}{1 + r^2 - 2r \cos \theta}$$
+
+has the important property (cf. [1] or [105]) that
+
+$$\lim_{r \to 1} \int_{-x}^{\pi} K(r, \theta) \psi(\theta) d\theta = \psi(0)$$
+
+if the function $\psi(\theta)$ is continuous at $\theta = 0$. And of course
+
+$$\lim_{r \to 1} E[t^T r^8 r] = E[t^T],$$
+
+(regardless of whether $T < \infty$ with probability one or not). Thus it follows from equation (5) that
+
+(7) $$\sqrt{c(t)} \{1 - E[t^T]\} = \sqrt{1 - t}, \quad 0 \leq t < 1.$$
+
+But now (7) will yield the answer to the question whether or not $T < \infty$ with probability one. $P[T < \infty] = 1$ if and only if
+
+$$\sum_{k=1}^{\infty} P[T = k] = \lim_{t \to 1} E[t^T] = 1.$$
+
+According to D3
+
+$$\lim_{t \to 1} c(t) = e^{-\sum_{k=1}^{\infty} \frac{1}{k} P[S_k = 0]},$$
+
+and this limit is strictly positive by P7.6 which tells us that for some $A > 0$
+
+$$\sum_{k=1}^{\infty} \frac{1}{k} P[S_k = 0] \leq A \sum_{k=1}^{\infty} k^{-3/2
+
+It is characterized by the property of the transition function $P(x,y)$ that
+
+$$P(0,x) = 0 \text{ when } x < -1, \quad P(0,-1) > 0.$$
+
+It will be useful to introduce two analytic functions, to wit
+
+$$P(z) = \sum_{n=0}^{\infty} P(0,n-1)z^n, \quad |z| \leq 1,$$
+
+$$f_t(z) = z - tP(z), \quad |z| \leq 1, \quad 0 \leq t < 1.$$
+
+In terms of $P(z)$ and $f_t(z)$ one obtains
+
+(1) $$1 - t\phi(\theta) = e^{-i\theta}[e^{i\theta} - tP(e^{i\theta})] = e^{-i\theta}f_t(e^{i\theta}),$$
+
+where $\phi(\theta)$ is the characteristic function of the random walk.
+
+Everything that follows depends on the property of $f_t(z)$ that for each $t$, $0 \leq t < 1$, it has exactly one simple zero in the disc $|z| \leq 1$. This zero, denoted by $r = r(t)$, is on the positive real axis. This statement is relatively easy to verify. First we look for a zero $r$ satisfying $0 \leq r < 1$. This means that $r = 0$ when $t = 0$, and
+
+$$\frac{r}{t} = P(r) = P(0,-1) + \sum_{k=1}^{\infty} P(0,k-1)r^k,$$
+
+when $0 < t < 1$. Thus we are looking for a point of intersection between the straight line $r/t$ and the graph of $P(r)$, plotted against $r$. That there is such a point with $0 < r = r(t) < 1$ is clear from the intermediate value theorem: at $r = 0$ the straight line is below $P(r)$ since $P(0,-1) > 0$, and at $r = 1$ the straight line is above, since $t^{-1} > P(1) = 1$. To prove that this is the only zero in the unit disk
+
+In terms of the function $r(t)$ our main results concerning left continuous random walk are
+
+(2) $f_e(t;z) = 1 - \frac{r(t)}{z}, \quad |z| \geq 1, \quad 0 \leq t < 1,$
+
+(3) $c(t)f_i(t;z) = \frac{z - tP(z)}{z - r(t)}, \quad |z| \leq 1, \quad 0 \leq t < 1,$
+
+(4) $c(t) = \frac{tP(0, -1)}{r(t)}$.
+
+The proof parallels very closely that of P5. Equation (1) may be expressed as
+
+(5) $1 - t\phi(\theta) = u_i(t;e^{i\theta})u_e(t;e^{i\theta}),$
+
+where
+
+$u_i(t;z) = \frac{z - tP(z)}{z - r(t)}, \quad u_e(t;z) = 1 - \frac{r(t)}{z}.$
+
+It is quite easy to verify that $u_i$ and $u_e$ are inner and outer functions according to the definition D2. The singularity of $u_i(t;z)$ at the point $z = r(t)$ is only an apparent (removable) one since this point is a zero of the numerator $z - tP(z)$. Now one uses P4 to go from equation (5) to
+
+$c(t)f_i(t;z)f_e(t;z) = u_i(t;z)u_e(t;z), \quad |z| = 1.$
+
+Just as in the proof of P5 one has to divide by $u_i$ and by $f_e$. This is possible since $u_i \neq 0$ in $|z| \leq 1, r(t)$ being a simple zero. One gets a pair of functions
+
+$h_i(z) = \frac{c(t)f_i(t;z)}{u_i(t;z)}, \quad |z| \leq 1,$
+
+$h_e(z) = \frac{u_e(t;z)}{f_e(t;z)}, \quad |z| \geq 1,$
+
+with the
+
+Now it is time to investigate the stopping time $T$, in the hope of establishing the highly reasonable result that $P[T < \infty] = 1$ if and only if $\mu \geq 0$, where $\mu$ is the mean of the random walk (D6.4). Using P5 and equations (3) and (4),
+
+(6) $$1 - E[t^T z^S T] = \frac{r(t)}{tP(0, -1)} \cdot \frac{z - tP(z)}{z - r(t)}$$
+
+Letting $z \nearrow 1$ (along the real axis)
+
+(7) $$1 - E[t^T] = \frac{r(t)}{tP(0, -1)} \cdot \frac{1 - t}{1 - r(t)}$$
+
+Thus the question of whether $T < \infty$ with probability one hinges upon the behavior of $r(t)$ as $t \nearrow 1$. But $r(t)$ is defined as the root of the equation $r/t = P(r)$. It is clear from this definition of $r(t)$ that it is a monotone increasing function of $t$. To get more information we consider three separate cases, (i) and (iii) being illustrated in the graph below.
+
+Case (i): $$\mu = \sum_{k=-1}^{\infty} kP(0,k) = P'(1) - 1 > 0.$$
+
+In this case
+
+$$\lim_{t \to 1} r(t) = \rho < 1,$$
+
+so that by equation (7)
+
+$$\lim_{t \to 1} \{1 - E[t^T]\} = P[T = \infty] = 0.$$
+
+Case (ii): $$\mu = 0.$$
+
+Now
+
+$$\lim_{t \to 1} r(t) = 1,$$
+
+but, using the definition of $r(t)$
+
+$$\frac{1 - t}{1 - r(t)} = 1 - t \frac{1 - P[r(t)]}{1 - r(t)} = 1 - \frac{r(t)}{P[r(t)]} \frac{1 - P[r(t)]}{1 - r(t)}.$$
+
+Hence (7) gives
+
+$$\lim_{t \to 1} \{1 - \mathbf{E}[t^T]\} = \frac{1}{P(0, -1)} \left[ 1 - \lim_{r \to 1} \frac{r}{P(r)} \frac{1 - P(r)}{1 - r} \right],$$
+
+and
+
+$$\lim_{r \to 1} \frac{r}{P(r)} \frac{1 - P(r)}{1 - r} = \lim_{r \to 1} \frac{1 - P(r)}{1 - r} = P'(1) = \mu + 1 = 1,$$
+
+so that again
+
+$$\mathbf{P}[T = \infty] = 0.$$
+
+Case (iii):
+
+$$\mu < 0.$$
+
+Again $r(t)$ tends to one as $t \to 1$ and one can follow the argument in case (ii) to obtain
+
+$$\lim_{t \to 1} \{1 - \mathbf{E}[t^T]\} = \mathbf{P}[T = \infty] = \frac{1}{P(0, -1)} \left[ 1 - \lim_{r \to 1} \frac{1 - P(r)}{1 - r} \right] = \frac{-\mu}{P(0, -1)}$$
+
+In Case (iii) it is also of interest to compute $\mathbf{P}[T' = \infty]$. Because the random walk is left continuous,
+
+$$\mathbf{P}[T' = \infty] = 1 - F,$$
+
+$F$ being the probability of a return to 0 (D1.4). One gets, using P5 and equation (4)
+
+$$1 - F = \lim_{t \to 1} c(t)\mathbf{P}[T = \infty] = -\mu.$$
+
+Observe that this is equivalent to saying that $G = (-\mu)^{-1}$, a result which was obtained by entirely different methods in E3.1 of Chapter I.
+
+The general question of when the hitting time $T$ of the right half-line is finite is answered by

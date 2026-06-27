@@ -1,0 +1,23 @@
+id: primary-decomposition-via-minimum-polynomial
+title_en: "Primary decomposition of the space via the minimum polynomial"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [linear-transformation, primary-decomposition, minimum-polynomial, direct-sum, invariant-subspace]
+depends_on:
+  required: [decomposition-for-relatively-prime-factors, minimum-polynomial-of-restriction]
+  recommended: [kernel-of-polynomial-transformation, direct-sum-for-relatively-prime-polynomials]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "§1. Polynomials in a linear transformation"
+    pages: ""
+    role_in_book: "Proposition IV: the fundamental primary decomposition theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

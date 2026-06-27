@@ -1,0 +1,23 @@
+id: simultaneous-eigenform-count-ek
+title_en: "Number of linearly independent simultaneous eigenforms e(k) in M_{2k,0}"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: basic
+tags: [modular-forms, cusp-forms, hecke-operators, simultaneous-eigenforms]
+depends_on:
+  required: []
+  recommended: [hecke-operator-tn, simultaneous-eigenform, cusp-forms-space-m2k0]
+  suggested: [dimension-formula-cusp-form-space]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.14"
+    pages: ""
+    role_in_book: "Defines e(k) to frame the question of how many simultaneous eigenforms exist"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

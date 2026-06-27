@@ -1,0 +1,23 @@
+id: modular-function-definition
+title_en: "Modular Function"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: basic
+tags: ["modular-function", "meromorphic-at-infinity", "weakly-modular"]
+depends_on:
+  required: ["weak-modularity-conditions", "modular-form-definition"]
+  recommended: ["q-expansion"]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Distinguishes modular functions (allowed poles at infinity) from modular forms."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

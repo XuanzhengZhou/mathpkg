@@ -1,0 +1,7 @@
+Let $F$ and $G$ be covariant functors from $C$ to $D$. A natural transformation $\eta = (\eta_A)_{A \in \mathcal{C}}$ from $F$ to $G$ is an indexed family of morphisms in $D$ such that for each $A \in \mathcal{C}$, $\eta_A \in \operatorname{mor}_D(F(A), G(A))$, and for each pair $A, B \in \mathcal{C}$ and each $f \in \operatorname{mor}_C(A, B)$, the following diagram commutes:
+$$\begin{CD}
+F(A) @>{F(f)}>> F(B) \\
+@V{\eta_A}VV @VV{\eta_B}V \\
+G(A) @>{G(f)}>> G(B)
+\end{CD}$$
+That is, $\eta_B \circ F(f) = G(f) \circ \eta_A$.

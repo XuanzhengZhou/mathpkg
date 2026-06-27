@@ -1,0 +1,23 @@
+id: nondegenerate-critical-point-hessian
+title_en: "Nondegenerate Critical Point and Hessian Nonsingularity"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: morse-theory
+difficulty: intermediate
+tags: ["critical-point", "hessian", "nondegenerate", "morse-theory", "jet-bundle", "transversality"]
+depends_on:
+  required: []
+  recommended: ["transversality", "jet-bundles", "submersion"]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "I"
+    section: "§6. Morse Theory"
+    pages: ""
+    role_in_book: "Characterizes nondegenerate critical points via the Hessian and jet bundle transversality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

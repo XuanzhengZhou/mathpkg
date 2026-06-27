@@ -1,0 +1,13 @@
+An **abelian group** in a (locally small) category $\mathcal{K}$ is an object $Y$ together with morphisms $+: Y \times Y \rightarrow Y$, $i: Y \rightarrow Y$, and $0: 1 \rightarrow Y$ satisfying the commutative diagrams for associativity, commutativity, identity, and inverses expressed in terms of products.
+
+Equivalently, there is a bijective correspondence between abelian group structures $(Y, +, i, 0)$ on an object $Y$ and functorial liftings $F$ of the form
+
+\[
+\begin{CD}
+\mathcal{K}^{\text{op}} @>{\mathcal{K}(-,Y)}>> \mathbf{Set}\\
+@VVV @VVV\\
+\mathbf{Ab} @>>> \mathbf{Set}
+\end{CD}
+\]
+
+where the right vertical functor is the forgetful functor from abelian groups. In particular, an abelian group in the category of topological spaces is the same as a topological abelian group.

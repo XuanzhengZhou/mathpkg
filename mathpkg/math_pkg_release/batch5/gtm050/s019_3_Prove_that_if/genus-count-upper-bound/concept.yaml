@@ -1,0 +1,23 @@
+id: genus-count-upper-bound
+title_en: "Upper Bound on Number of Genera via Ambiguous Classes"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: quadratic-integer-divisor-theory
+difficulty: intermediate
+tags: [genus-theory, ambiguous-class, class-number, quadratic-reciprocity, gauss]
+depends_on:
+  required: [class-number-factorization-squares, ambiguous-class-divisor-structure]
+  recommended: [genus-of-divisor-class, number-of-ramifying-primes]
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "7"
+    section: "7.11"
+    pages: "302-303"
+    role_in_book: "Key inequality $g \leq a$ that Gauss used to deduce quadratic reciprocity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

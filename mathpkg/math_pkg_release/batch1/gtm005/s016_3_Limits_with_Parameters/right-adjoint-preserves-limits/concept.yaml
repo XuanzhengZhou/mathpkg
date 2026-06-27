@@ -1,0 +1,23 @@
+id: right-adjoint-preserves-limits
+title_en: "Right adjoints preserve limits"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [adjoints, limits, preservation, right-adjoint, continuous-functor]
+depends_on:
+  required: [adjoint-functor, limit-of-functor, preservation-of-limits, functor-category]
+  recommended: [diagonal-functor, left-adjoint-preserves-colimits]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "5. Adjoints on Limits"
+    pages: ""
+    role_in_book: "Theorem 1: One of the most useful properties of adjoints"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

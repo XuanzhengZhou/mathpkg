@@ -1,0 +1,39 @@
+For strongly aperiodic random walk of dimension $d \geq 1$, with mean $\mu = 0$ and finite second moments
+
+$$\lim_{n \to \infty} \frac{|x|^2}{n} \left[ (2\pi n)^{\frac{d}{2}} P_{n}(0,x) - |Q|^{-\frac{1}{2}} e^{-\frac{
+
+is the Laplace operator. We may apply this idea to $\phi^n(\theta)$ whose second derivatives are continuous by the same proof as in P6.4. Furthermore the boundary terms vanish since $\phi(\theta)$ is periodic. In this way
+
+(1) $$\frac{|x|^2}{n} (2\pi n)^{\frac{d}{2}} P_n(0,x) = - \left( \frac{n}{2\pi} \right)^{\frac{d}{2}} \frac{1}{n} \int_C e^{-i x \cdot \theta} \Delta[\phi^n(\theta)] d\theta$$
+$$= - (2\pi)^{-\frac{d}{2}} \int_{\sqrt{n} C} e^{-i x \cdot \alpha} \Delta[\phi^n \left( \frac{\alpha}{\sqrt{n}} \right)] d\alpha,$$
+
+after a dilation of coordinates to $\alpha = \sqrt{n}\theta$.
+
+From now on the proof proceeds much as did the one of P9, the principal difference being that we do not rely on
+
+(2) $$\lim_{n \to \infty} \phi^n \left( \frac{\alpha}{\sqrt{n}} \right) = e^{-\frac{1}{2} Q(\alpha)}, \quad \alpha \in E,$$
+
+but use instead
+
+(3) $$\lim_{n \to \infty} \Delta[\phi^n \left( \frac{\alpha}{\sqrt{n}} \right)] = \Delta_{\alpha} e^{-\frac{1}{2} Q(\alpha)}, \quad \alpha \in E.$$
+
+The proof of (3) depends on
+
+(4) $$\Delta_{\alpha} \left[ \phi^n \left( \frac{\alpha}{\sqrt{n}} \right) \right]$$
+$$= n \phi^{n-1} \left( \frac{\alpha}{\sqrt{n}} \right) \Delta_{\alpha} \left[ \phi \left( \frac{\alpha}{\sqrt{n}} \right) \right] + n(n-1) \phi^{n-2} \left( \frac{\alpha}{\sqrt{n}} \right) \left| \operatorname{grad}_{\alpha} \phi \left(
+
+where the $I_k$ are exactly the same type of error terms as in the proof of P9, but with the Laplacian in the integrand. Thus
+
+$$-I_1 = (2\pi)^{-\frac{d}{2}} \int_{|\alpha| \leq A} \Delta_\alpha \left[ \phi^n \left( \frac{\alpha}{\sqrt{n}} \right) - e^{-\frac{1}{2} Q(\alpha)} \right] e^{-\frac{iz \cdot \alpha}{\sqrt{n}}} d\alpha,$$
+
+$$I_2 = (2\pi)^{-\frac{d}{2}} \int_{|\alpha| > A} \Delta_\alpha \left[ e^{-\frac{1}{2} Q(\alpha)} \right] e^{-\frac{iz \cdot \alpha}{\sqrt{n}}} d\alpha,$$
+
+$$-I_3 = (2\pi)^{-\frac{d}{2}} \int_{A < |\alpha| \leq r \sqrt{n}} \Delta_\alpha \left[ \phi^n \left( \frac{\alpha}{\sqrt{n}} \right) \right] e^{-\frac{iz \cdot \alpha}{\sqrt{n}}} d\alpha,$$
+
+$$-I_4 = (2\pi)^{-\frac{d}{2}} \int_{|\alpha| > r \sqrt{n}; \alpha \in \sqrt{n} C} \Delta_\alpha \left[ \phi^n \left( \frac{\alpha}{\sqrt{n}} \right) \right] e^{-\frac{iz \cdot \alpha}{\sqrt{n}}} d\alpha.$$
+
+The principal term on the right-hand side in (6) is easily seen to have the right value, i.e.,
+
+$$\frac{|x|^2}{n} |Q|^{-\frac{1}{2}} e^{-\frac{1}{2n}(z \cdot Q^{-1} z)}$$
+
+To show that the sum of the four error terms tends to zero uniformly in $x$ one replaces each integral $I_k$ by the integral of the absolute value of the integrand. That eliminates the dependence on $x$. The order in which one eliminates the error terms is the same as in

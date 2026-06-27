@@ -1,0 +1,23 @@
+id: normal-chain
+title_en: "Normal chain"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [normal-chain, potential-theory, denumerable-markov-chain, recurrent-chain]
+depends_on:
+  required: []
+  recommended: [i-nu-j-and-i-lambda-j]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "2"
+    pages: "264–273"
+    role_in_book: "Definition 9-20; the central definition of a normal chain, a recurrent chain with sufficient regularity for potential theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

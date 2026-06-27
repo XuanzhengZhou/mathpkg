@@ -1,0 +1,13 @@
+id: hermitian-equation-solvability-condition
+title_en: "Hermitian Equation Solvability Condition"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: field-theory
+difficulty: intermediate
+tags: [hermitian-form, involutory-automorphism, equation-solving]
+depends_on: {required: [involutory-automorphism, fixed-field], recommended: [norm-one-subgroup], suggested: []}
+source_books: [{book_id: "gtm006", author: "D.R. Hughes and F.C. Piper", title: "Projective Planes", chapter: "II", section: "8. Unitals", pages: "", role_in_book: "Lemma 2.44; gives necessary condition for solvability of the hermitian-type equation x^{1+φ}a + x^φ b + x b^φ + c = 0"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

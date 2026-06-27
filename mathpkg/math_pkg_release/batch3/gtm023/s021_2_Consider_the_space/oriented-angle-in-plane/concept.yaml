@@ -1,0 +1,23 @@
+id: oriented-angle-in-plane
+title_en: "Oriented angle in an oriented plane"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [inner-product, oriented-angle, normed-determinant, plane]
+depends_on:
+  required: [inner-product-space, normed-determinant-function, orientation]
+  recommended: [oriented-angle]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "3. Normed determinant functions"
+    pages: ""
+    role_in_book: "Defines the oriented angle between two non-zero vectors in an oriented 2-dimensional inner product space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

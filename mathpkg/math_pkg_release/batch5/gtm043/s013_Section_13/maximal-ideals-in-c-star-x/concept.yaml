@@ -1,0 +1,23 @@
+id: maximal-ideals-in-c-star-x
+title_en: "Maximal ideals in C*(X) are precisely M^{*p}"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [maximal-ideals, c-star, stone-cech, ring-of-functions]
+depends_on:
+  required: [stone-cech-compactification, maximal-ideal, c-star-x]
+  recommended: [isomorphism-c-star-to-c-beta-x]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "7"
+    section: "7.2"
+    pages: ""
+    role_in_book: "Core theorem characterizing maximal ideals of C*(X)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

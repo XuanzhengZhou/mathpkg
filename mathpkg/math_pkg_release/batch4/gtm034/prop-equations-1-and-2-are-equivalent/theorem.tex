@@ -1,0 +1,29 @@
+Equations (1) and (2) are equivalent to the integral equation
+
+(a) $$f(x) = \mu \int_0^1 R(x,y)f(y) \, dy, \quad 0 \leq x \leq 1,$$
+
+with symmetric kernel
+
+(b) $$R(x,y) = \min(x,y) - xy \text{ for } 0 \leq x, y \leq 1.$$
+
+The eigenvalues are
+
+(c) $$\mu_k = \pi^2 k^2, \quad k = 1, 2, \ldots,$$
+
+and the eigenfunctions
+
+(d) $$\phi_k(x) = \sqrt{2} \sin \pi kx, \quad 0 \leq x \leq 1, \quad k = 1, 2, \ldots,$$
+
+form an orthonormal set, i.e.,
+
+$$(\phi_k, \phi_m) = \int_0^1 \phi_k(x) \phi_m(x) \, dx = \delta(k,m).$$
+
+The proof can be found in almost any book on eigenvalue problems. The
+
+of part (b) of P2, is Mercer's theorem: the series
+
+$$R(x,y) = \sum_{k=1}^{\infty} \frac{\phi_k(x)\phi_k(y)}{\mu_k},$$
+
+converges uniformly in the square $0 \leq x, y \leq 1$, and so do the series expansions for the iterates of $R(x,y)$ which will be defined and used in the proof of T23.2.
+
+At this point it should not be too surprising that one gets the following formulas for simple random walk

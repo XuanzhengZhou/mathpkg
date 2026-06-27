@@ -1,0 +1,1 @@
+On a Stein manifold, the obstruction to solving the multiplicative Cousin problem is purely topological: it is the vanishing of the Chern class in $H^2(X, \mathbb{Z})$. This is the Oka-Cartan-Serre theorem.

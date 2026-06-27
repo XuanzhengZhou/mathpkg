@@ -1,0 +1,23 @@
+id: matrix-condition-for-o-endomorphism
+title_en: "Matrix Condition for o-Endomorphism"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [endomorphism, matrix-representation, principal-ideal-domain, module]
+depends_on:
+  required: [existence-of-endomorphism-from-generator-images, cyclic-module-decomposition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "3"
+    section: "16"
+    pages: ""
+    role_in_book: "Translates the endomorphism condition into an explicit matrix congruence condition, the foundation for the matrix description of the endomorphism ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

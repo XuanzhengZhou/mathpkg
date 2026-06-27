@@ -1,0 +1,23 @@
+id: freyd-small-complete-preorder
+title_en: "Freyd's Small-Complete Preorder Theorem"
+title_zh: "Freyd小完备范畴是预序定理"
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [category, complete, preorder, small-category, size, product]
+depends_on:
+  required: [small-complete-category, product, preorder]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "1"
+    pages: ""
+    role_in_book: "Proposition 3 (Freyd) — shows that a small category which is small-complete must be a preorder"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

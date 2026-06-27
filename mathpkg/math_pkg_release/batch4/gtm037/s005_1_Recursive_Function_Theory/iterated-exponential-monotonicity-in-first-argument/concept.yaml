@@ -1,0 +1,13 @@
+id: iterated-exponential-monotonicity-in-first-argument
+title_en: "Monotonicity of Iterated Exponential in the First Argument"
+title_zh: "迭代指数对第一变量的单调性"
+type: lemma
+domain: logic
+subdomain: recursive-function-theory
+difficulty: basic
+tags: [iterated-exponential, monotonicity, inequality]
+depends_on: {required: [iterated-exponential-strict-monotonicity], suggested: []}
+source_books: [{book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "2", section: "Elementary Recursive and Primitive Recursive Functions", pages: "43-46", role_in_book: "Lemma 2.39: a(m,n) < a(m+1,n) for all m ≠ 0"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

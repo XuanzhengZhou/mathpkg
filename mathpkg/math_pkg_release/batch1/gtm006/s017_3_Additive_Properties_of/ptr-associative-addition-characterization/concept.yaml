@@ -1,0 +1,34 @@
+id: ptr-associative-addition-characterization
+title_en: "Linear PTR with associative addition is equivalent to ((∞), [∞])-transitivity"
+title_zh: "线性PTR具有结合加法当且仅当平面为((∞), [∞])-传递"
+type: theorem
+domain: geometry
+subdomain: projective-planes
+difficulty: advanced
+tags:
+  - planar-ternary-ring
+  - transitivity
+  - elation
+  - associative-addition
+  - coordinatization
+depends_on:
+  required: []
+  recommended:
+    - planar-ternary-ring
+    - p-l-transitivity
+    - infinity-point
+    - elation
+  suggested:
+    - p-l-desarguesian
+    - coordinatizing-projective-plane
+source_books:
+  - book_id: "gtm006"
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "VI"
+    section: "3"
+    pages: ""
+    role_in_book: "Characterizes when a linear planar ternary ring has associative addition via geometric transitivity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

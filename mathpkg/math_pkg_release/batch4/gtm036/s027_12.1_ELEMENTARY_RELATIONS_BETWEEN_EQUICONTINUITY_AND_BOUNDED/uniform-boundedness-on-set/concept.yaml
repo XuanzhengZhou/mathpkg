@@ -1,0 +1,23 @@
+id: uniform-boundedness-on-set
+title_en: "Uniform Boundedness of a Family of Linear Functions on a Set"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [boundedness, uniform-convergence, linear-functions]
+depends_on:
+  required: [bounded-set]
+  recommended: [linear-topological-space, pointwise-boundedness]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "Kelley, J. L. and Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "12"
+    section: "12.1"
+    pages: ""
+    role_in_book: "Defines uniform boundedness on a set, an intermediate boundedness condition between equicontinuity and pointwise boundedness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: simplicial-category
+title_en: "Simplicial Category (Delta)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [simplicial-category, delta, order-preserving, finite-ordinals, simplicial-sets]
+depends_on:
+  required: [preorder, ordinal-category]
+  recommended: []
+  suggested: [simplicial-set]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "2"
+    pages: "26"
+    role_in_book: "Key example; central to Chapter VII on monoids and simplicial methods"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

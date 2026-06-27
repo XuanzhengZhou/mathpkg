@@ -1,0 +1,23 @@
+id: hughes-plane-construction
+title_en: "Construction of the Hughes Plane"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-planes
+difficulty: advanced
+tags: [finite-geometry, non-desarguesian-plane, nearfield, collineation]
+depends_on:
+  required: []
+  recommended: [nearfield, projective-plane, collineation-group]
+  suggested: [planar-ternary-ring, baer-subplane]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "9"
+    section: "6"
+    pages: ""
+    role_in_book: "construction of the Hughes plane as a class of finite non-desarguesian projective planes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

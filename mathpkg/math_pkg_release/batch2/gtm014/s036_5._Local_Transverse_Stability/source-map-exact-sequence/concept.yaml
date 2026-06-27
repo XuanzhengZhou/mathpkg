@@ -1,0 +1,23 @@
+id: source-map-exact-sequence
+title_en: "Proposition 5.9: Exact Sequence for the Source Map on Jet Bundles"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [jet-bundle, exact-sequence, source-map, tangent-space, pullback-bundle]
+depends_on:
+  required: [lambda-linear-injection, jet-bundle-definition]
+  recommended: [exact-sequence-definition, source-map-definition]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "5"
+    pages: "135-136"
+    role_in_book: "Establishes a short exact sequence relating the pullback tangent bundle jet, the jet bundle tangent space, and the source tangent space."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

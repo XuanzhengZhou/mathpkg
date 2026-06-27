@@ -1,0 +1,23 @@
+id: polyhedral-3-manifold-x-existence
+title_en: "Lemma 2: Existence of a polyhedral 3-manifold X with boundary"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [polyhedral-3-manifold, regular-neighborhood, plh-approximation]
+depends_on:
+  required: [dual-cells-diameter-epsilon-bound]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "8"
+    section: "33"
+    pages: "239-246"
+    role_in_book: "Asserts existence of a polyhedral 3-manifold X serving as the target of the PL homeomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

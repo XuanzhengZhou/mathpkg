@@ -1,0 +1,23 @@
+id: characterization-of-mean-first-passage-matrix
+title_en: "Characterization of the Mean First Passage Time Matrix"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [mean-first-passage-time, characterization, ergodic-chain, matrix-equation]
+depends_on:
+  required: [mean-first-passage-matrix-properties]
+  recommended: [first-passage-time-matrix-relation]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "4"
+    pages: ""
+    role_in_book: "Theorem 6-43: The mean first passage time matrix M of an ergodic chain is uniquely characterized by three properties"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

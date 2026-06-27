@@ -1,0 +1,23 @@
+id: saturation-characterization
+title_en: "Characterization of Saturated Structures"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [saturated-model, universal-structure, homogeneous-structure]
+depends_on:
+  required: [m-saturated-structure, m-universal-structure, m-homogeneous-structure]
+  recommended: [elementary-equivalence]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "28"
+    section: "Saturated Structures"
+    pages: ""
+    role_in_book: "Theorem 28.21: characterizes m-saturated structures when |Fmla| < m"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

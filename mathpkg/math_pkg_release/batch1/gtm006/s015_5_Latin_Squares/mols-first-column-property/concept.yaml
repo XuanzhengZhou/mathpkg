@@ -1,0 +1,23 @@
+id: mols-first-column-property
+title_en: "First Column Normal Form for MOLS (Property 3)"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: latin-squares
+difficulty: intermediate
+tags: [mols, normal-form, first-column, latin-square]
+depends_on:
+  required: [latin-square, orthogonal-latin-squares, mols-normal-form-existence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D. R. Hughes, F. C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "5"
+    pages: "132-137"
+    role_in_book: "Property 3: In a normal-form set of MOLS, the first square may be assumed to have (0,1,...,n-1) as its left column"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

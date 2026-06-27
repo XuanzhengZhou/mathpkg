@@ -1,0 +1,23 @@
+id: halting-problem-recursive-insolubility
+title_en: "Recursive Insolubility of the Halting Problem"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [halting-problem, turing-machine, recursive-function, diagonal-argument, undecidability]
+depends_on:
+  required: []
+  recommended: [turing-machine, recursive-function, godel-numbering]
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D. W. Barnes, J. M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "5"
+    section: "5"
+    pages: ""
+    role_in_book: "Example 5.5 — demonstrates that the stopping (halting) problem for Turing machines is recursively insoluble. A fundamental result in computability theory."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

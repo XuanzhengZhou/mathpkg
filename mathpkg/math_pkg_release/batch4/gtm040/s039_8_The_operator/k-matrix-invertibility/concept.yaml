@@ -1,0 +1,23 @@
+id: k-matrix-invertibility
+title_en: "Invertibility of the restricted K-matrix"
+title_zh: "限制K矩阵的可逆性"
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [k-matrix, invertibility, capacity, finite-set]
+depends_on:
+  required: [restricted-k-identities, capacity-of-set, k-matrix]
+  recommended: [equilibrium-distribution, escape-vector]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Links K_E invertibility to positive capacity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

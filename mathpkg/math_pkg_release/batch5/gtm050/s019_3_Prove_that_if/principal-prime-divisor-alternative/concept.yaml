@@ -1,0 +1,23 @@
+id: principal-prime-divisor-alternative
+title_en: "Principal Divisor Alternative for Product of Two Primes"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: quadratic-integer-divisor-theory
+difficulty: intermediate
+tags: [principal-divisor, ramified-primes, class-group, quadratic-integers]
+depends_on:
+  required: [ambiguous-divisor-class]
+  recommended: [principal-divisor, ramified-prime, divisor-class-group]
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "7"
+    section: "7.10"
+    pages: "301"
+    role_in_book: "Exercise 8: describes which ramified prime divisors are principal when D = pq"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

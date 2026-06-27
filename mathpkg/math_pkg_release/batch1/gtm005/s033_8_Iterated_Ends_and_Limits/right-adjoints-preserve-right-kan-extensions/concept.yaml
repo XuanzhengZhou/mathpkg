@@ -1,0 +1,23 @@
+id: right-adjoints-preserve-right-kan-extensions
+title_en: "Right Adjoints Preserve Right Kan Extensions"
+title_zh: ""
+type: corollary
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [kan-extension, adjoint-functors, right-adjoint]
+depends_on:
+  required: [right-kan-extension, adjunction]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "X"
+    section: "4. Kan Extensions as Coends"
+    pages: ""
+    role_in_book: "Shows that right adjoints preserve right Kan extensions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

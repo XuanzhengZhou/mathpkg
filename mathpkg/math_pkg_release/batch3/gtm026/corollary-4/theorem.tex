@@ -1,0 +1,15 @@
+Using 1.13 and 2.1.46 it is not hard to show that, in the context of the previous proposition, $E$ is the class of coequalizers in $\text{Set}^T$ and $M$ is the class of monomorphisms in $\text{Set}^T$.
+
+4.19 Hausdorff Spaces. All three image factorization systems on $\mathcal{K} = \text{Hausdorff}$ spaces as in 4.8 render $\mathcal{K}$ a regular category. The following hint is useful to prove $E$ co-well-powered for $E = \text{maps with dense image}: if X$ is Hausdorff and $A$ is a dense subset of $X$ then each element of $X$ is the limit of an ultrafilter on $A$ and such ultrafilters converge uniquely; therefore the cardinality of $X$ is at most the cardinality of the set of all ultrafilters on $A$.
+
+4.20 Quasivarieties. Let $(\mathcal{K}, E, M)$ be a regular category. A quasivariety in $(\mathcal{K}, E, M)$ is a full replete subcategory $\mathcal{B}$ of $\mathcal{K}$ such that every object $A$ of $\mathcal{K}$ admits a reflection $e: A \longrightarrow B$ in $\mathcal{B}$ such that $e \in E$.
+
+The following theorem serves to motivate the definition of a regular category.
+
+4.21 Quasivariety Theorem. Let $(\mathcal{K}, E, M)$ be a regular category and let $\mathcal{B}$ be a full replete subcategory of $\mathcal
+
+Then $\text{Im}(f) \in \mathcal{B}$ since $m \in \mathbb{M}$ and $\text{Im}(f)$ can be made to range over a small set of objects since $e \in \mathbb{E}$.
+
+This completes the argument that each $A$ in $\mathcal{K}$ has a reflection $r: A \longrightarrow B$ in $\mathcal{B}$. We must show that $r$ is in $\mathbb{E}$. Let $(e, m)$ be the E-M factorization of $r$. As we know $\text{Im}(r) \in \mathcal{B}$ there exists unique $f$ with $r.f = e$. As $r(f.m) = r.f.m = \text{id}_B$ and $f$ is split mono and epi ($f$ is epi because $e$ is) so $f$ is an isomorphism and $r = e.f^{-1}$ is in $\mathbb{E}$.
+
+It is often true that if $(E, \mathbb{M})$ is an image factorization system in $\mathcal{K}$ then every equalizer is in $\mathbb{M}$. For example, this occurs for all three image factorizations systems of 4.8. This allows the simplification expressed in the following corollary which recaptures the most prevalent definition of quasivariety in the literature, namely a class closed under products and subobjects.

@@ -1,0 +1,40 @@
+If $\mathcal{E}$ is a normed space with norm $\|\|_x$, then the $\mathcal{E}$-valued mappings $(\alpha, x) \to \alpha x$ and $(x, y) \to x + y$ are continuous. Likewise, the real function $x \to \|\|_x$ is continuous
+
+Example E. The space $\mathbb{C}^n$ equipped with any one of the norms $\| \|_p (1 \leq p \leq +\infty)$ is complete, and is therefore a Banach space. This is so for the simple reason that a sequence in $\mathbb{C}^n$ is Cauchy [convergent] with respect to any one of the norms $\| \|_p$ if and only if it is Cauchy [convergent] termwise, and the field $\mathbb{C}$ of complex numbers is complete in the usual metric $|\alpha - \beta|$. (As a matter of fact, every finite dimensional normed space is complete (Prob. J).) The spaces $(\ell_p), 1 \leq p \leq +\infty$, introduced in Example D are also Banach spaces, but here the verification of completeness is not so simple (except for $p = +\infty$; the verification that $(\ell_\infty)$ is complete is an easy exercise which we leave to the reader). The argument goes as follows. Fix $p, 1 \leq p < \infty$, and suppose $\{x_n\}_{n=1}^{\infty}$ is a Cauchy sequence in $(\ell_p)$, where $x_n = \{\xi_m\}_{m=0}^{\infty}, n \in \mathbb{N}$. Then $\{x_n\}$ is certainly Cauchy termwise, and therefore convergent termwise to some sequence $x = \{\xi_m\}_{m=0}^{\infty}$. Let $\varepsilon$ be an arbitrary positive number, and let $N$ be a positive integer such that $\| x_n - x_m \|_p < \varepsilon$ for all $m, n \geq N$. Then for every positive integer $k$ it is the case that
+
+$$\sum_{i=0}^{k} |\xi_i^{(n)} - \xi_i^{(m)}|^p < \varepsilon^p$$
+
+for all $m, n \geq N$. Hence, letting $m$ tend to infinity, we see that
+
+$$\sum_{i=0}^{k} |\xi_i^{(n)} - \xi_i|^p \leq \varepsilon^p$$
+
+for every positive integer $k$ and all positive integers $n$
+
+on $\mathcal{C}(X)$ is simply the metric of uniform convergence, and $\mathcal{C}(X)$ is complete in this metric (cf. Problem 4O). Similarly, the collection $\mathcal{C}_{\mathbb{R}}(X)$ of all real-valued functions in $\mathcal{C}(X)$ is a real Banach space in the sup norm.
+
+(The requirement that $X$ be nonempty in this construction is necessitated by the reference to the sup norm. In the event that $X$ is empty the space $\mathcal{C}(X)$ reduces to the trivial linear space (0) consisting of the empty function. Hence there is but one possible norm on $\mathcal{C}(\emptyset)$, viz., $\|0\| = 0$, and in this norm $\mathcal{C}(\emptyset)$ becomes the trivial Banach space. Thus we may and do regard $\mathcal{C}(X)$ as a well-defined Banach space even when $X$ is empty, and, by a slight abuse of language, also refer to the "sup norm" in this trivial case.)
+
+A broad and frequently useful generalization of the above construction suggests itself at once. Suppose $X$ is a compact Hausdorff space and $\mathcal{E}$ is a given normed space. The collection $\mathcal{C}(X; \mathcal{E})$ of all continuous $\mathcal{E}$-valued mappings on $X$ is a linear space with respect to pointwise linear operations, and a normed space in the sup norm
+
+$$\|\Phi\| = \sup_{x \in X} \|\Phi(x)\|.$$
+
+It is easily seen that if $X$ is nonempty then $\mathcal{C}(X; \mathcal{E})$ is a Banach space when and only when $\mathcal{E}$ is (cf. Problem D). The case $X = \emptyset$ is covered as in the preceding paragraph.
+
+In the study of linear algebra one becomes accustomed to thinking of the continuous scalar-valued functions on an abstract topological space as elements of various linear spaces of functions. As Example F shows, the continuous complex-valued functions on a compact Hausdorff space are, in a natural way, elements of a Banach space. The following example shows that this point of view can lead to
+
+(computed on $F$). Continuing in this fashion we obtain by mathematical induction an infinite sequence $\{g_n\}_{n=1}^{\infty}$ in $\mathcal{C}_{\mathbb{R}}(X)$ such that
+
+$$\|g_n\|_{\infty} \leq \frac{2^{n-1}}{3^n} \text{ in } \mathcal{C}_{\mathbb{R}}(X), \quad n \in \mathbb{N},$$
+
+and such that
+
+$$\left\|f - \sum_{k=1}^{n} g_k\right\|_{\infty} \leq \left(\frac{2}{3}\right)^n \text{ in } C_{\mathbb{R}}(F), \quad n \in \mathbb{N}.$$
+
+From the first of these conditions it follows readily that the infinite series $\sum_{n=1}^{\infty} g_n$ converges in $\mathcal{C}_{\mathbb{R}}(X)$ and that, if we set $g = \sum_{n=1}^{\infty} g_n$, then
+
+$$\|g\|_{\infty} \leq \sum_{n=1}^{\infty} \|g_n\| \leq \frac{1}{3} \frac{1}{1-2/3} = 1$$
+
+in $\mathcal{C}_{\mathbb{R}}(X)$ (cf. Problem G). From the second condition we conclude that $g = f$ on $F$. Thus, except for a trivial normalization, we have proved the following theorem: If $X$ is a compact Hausdorff space, $F$ is a closed subset of $X$, and $f$ is an element of the real Banach space $\mathcal{C}_{\mathbb{R}}(F)$, then there exists an element $g$ of $\mathcal{C}_{\mathbb{R}}(X)$ such that $\|g\|_{\infty}$ (computed on $X$) is equal to $\|f\|_{\infty}$ (computed on $F$), and such that $g|F = f$.
+
+In order to extend this result to t
+...

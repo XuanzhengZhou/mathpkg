@@ -1,0 +1,31 @@
+Let $\Gamma$ be a circle through points $z_2, z_3, z_4$. The points $z, z^*$ in $\mathbb{C}_\infty$ are said to be symmetric with respect to $\Gamma$ if
+
+$$\left(z^*, z_2, z_3, z_4\right) = \overline{\left(z, z_2, z_3, z_4\right)}.$$
+
+As it stands, this definition not only depends on the circle but also on the points $z_2, z_3, z_4$. It is left as an exercise for the reader to show that symmetry is independent of the points chosen (Exercise 11).
+
+Also, by Proposition 3.10 $z$ is symmetric to itself with respect to $\Gamma$ if and only if $z \in \Gamma$.
+
+Let us investigate what it means for $z$ and $z^*$ to be symmetric. If $\Gamma$ is a straight line then our linguistic prejudices lead us to believe that $z$ and $z^*$ are symmetric with respect to $\Gamma$ if the line through $z$ and $z^*
+
+Analytic functions as mappings. Möbius transformations and $z^*$ are equidistant from each point on $\Gamma$. Also
+
+$$\text{Im} \frac{z^* - z_3}{z_2 - z_3} = \text{Im} \frac{\bar{z} - \bar{z}_3}{\bar{z}_2 - \bar{z}_3}$$
+
+$$= -\text{Im} \frac{z - z_3}{z_2 - z_3}$$
+
+Hence, we have (unless $z \in \Gamma$) that $z$ and $z^*$ lie in different half planes determined by $\Gamma$. It now follows that $[z, z^*]$ is perpendicular to $\Gamma$.
+
+Now suppose that $\Gamma = \{z: |z - a| = R\} (0 < R < \infty)$. Let $z_2, z_3, z_4$ be points in $\Gamma$; using (3.18) and Proposition 3.8 for a number of Möbius transformations gives
+
+$$(z^*, z_2, z_3, z_4) = \overline{(z, z_2, z_3, z_4)}$$
+
+$$= \overline{(z - a, z_2 - a, z_3 - a, z_4 - a)}$$
+
+$$= \left( \bar{z} - \bar{a}, \frac{R^2}{z_2 - a}, \frac{R^2}{z_3 - a}, \frac{R^2}{z_4 - a} \right)$$
+
+$$= \left( \frac{R^2}{\bar{z} - \bar{a}}, z_2 - a, z_3 - a, z_4 - a \right)$$
+
+$$= \left( \frac{R^2}{\bar{z} - \bar{a}} + a, z_2, z_3, z_4 \right)$$
+
+Hence, $z^* = a + R^2(\bar{z} - \bar{a})^{-1}$ or $(z^* - a)(\bar{z} - \bar{a}) = R^2$. From this

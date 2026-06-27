@@ -1,0 +1,19 @@
+Let $M$ be an $r \times s$ $\{0, 1\}$-matrix and let $q \in \mathbb{N} + \{0\}$ be a lower bound for the row-sums of $M$. If $\text{perm}(M) \neq 0$, then
+
+$$\text{perm}(M) \geq \begin{cases} q! & \text{if } q < r; \\ q! / (q - r)! & \text{if } q \geq r. \end{cases}$$
+
+A permutation matrix $P$ is an $r \times s$ $\{0, 1\}$-matrix such that $PP^* = I_r$, where
+
+$$I_r = \begin{bmatrix} 1 & \dots & 0 \\ \vdots & \dots & \vdots \\ 0 & \dots
+
+which also has the property that its entries are nonnegative elements of $\mathbb{F}$. Since $\sum_{i,j} a_{ij} = r\rho = s\sigma$, the column-sums of $A'$ are all equal to $\sigma + (s - r)\rho/s = \rho$; i.e., all line sums are equal to $\rho$. Clearly if the proposition holds for $A'$, then it holds for $A$. We may therefore assume that $A$ is an $r \times r$ matrix with all line-sums equal to $\rho$.
+
+We assert that $A$ has an $r$-set of positions occupied by positive elements, no two of which are incident. Were this not so, one could invoke Theorem E7 and the remark following it to infer: some set of fewer than $r$ lines of $A$, say $p$ rows and $q$ columns with $p + q < r$, would be incident with every position occupied by a positive entry in $A$. Hence
+
+$$r\rho = \sum_{i,j} a_{ij} \leq (p + q)\rho < r\rho,$$
+
+which is absurd.
+
+Let $P_1$ be the $r \times r$ matrix with 1's in the aforementioned $r$-set of positions and 0's elsewhere. Then $P_1$ is a permutation matrix. Let $c_1$ be the least of the entries of $A$ occupying one of these $r$ positions. Hence $c_1 > 0$, and $A - c_1P_1$ is also an $r \times r$ matrix whose entries are nonnegative elements of $\mathbb{F}$ and has constant line-sums $\rho - c_1$.
+
+The foregoing argument may be repeated with $A - c_1P_1$ in place of $A$. Since $A - c_1P_1$ has more 0's than $A$, this process must terminate in a finite number of steps.

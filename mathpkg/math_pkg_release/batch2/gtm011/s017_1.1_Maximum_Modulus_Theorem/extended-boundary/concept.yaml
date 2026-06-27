@@ -1,0 +1,23 @@
+id: extended-boundary
+title_en: "Extended Boundary"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [boundary, riemann-sphere, extended-complex-plane]
+depends_on:
+  required: []
+  recommended: [riemann-sphere, boundary]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VI"
+    section: "1.3"
+    pages: ""
+    role_in_book: "Defines the extended boundary to handle unbounded regions in the Maximum Modulus Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: omega-omega-wdl-equivalent-to-dominating-reals
+title_en: "Omega-Omega WDL Equivalent to Dominating Reals Forcing Statement"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-algebras
+difficulty: advanced
+tags: [weak-distributive-law, forcing, boolean-valued-model, dominating-number, baire-space]
+depends_on:
+  required: [omega-omega-weak-distributive-law]
+  recommended: [boolean-valued-model]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "J.L. Bell"
+    title: "Axiomatic Set Theory"
+    chapter: "20"
+    section: "20. Weak Distributive Laws"
+    pages: ""
+    role_in_book: "Theorem 20.4: characterizes the (omega,omega)-WDL in terms of every function in omega^omega being dominated by a ground-model function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

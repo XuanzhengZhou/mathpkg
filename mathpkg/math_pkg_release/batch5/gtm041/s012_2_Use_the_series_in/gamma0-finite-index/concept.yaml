@@ -1,0 +1,23 @@
+id: gamma0-finite-index
+title_en: "Representation of Gamma in Terms of Gamma_0(p) for Prime p"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [gamma0, modular-group, finite-index, coset-representatives, congruence-subgroup]
+depends_on:
+  required: [gamma0-subgroup, modular-group]
+  recommended: [translation-operator, inversion-operator]
+  suggested: [coset-decomposition, group-index]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "4"
+    section: "4.2"
+    pages: ""
+    role_in_book: "Shows Gamma_0(p) has finite index in Gamma, enabling construction of modular functions for the subgroup"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: complete-analytic-function
+title_en: "Complete Analytic Function"
+title_zh: "完全解析函数"
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [analytic-continuation, germ, function-element, riemann-surface]
+depends_on:
+  required: [germ-of-analytic-function, analytic-continuation-along-path]
+  recommended: [function-element, uniqueness-of-analytic-continuation]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "2.1"
+    pages: ""
+    role_in_book: "defines the global object assembled from all germs reachable by analytic continuation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

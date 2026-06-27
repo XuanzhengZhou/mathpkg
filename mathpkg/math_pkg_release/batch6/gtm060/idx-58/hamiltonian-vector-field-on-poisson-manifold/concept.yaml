@@ -1,0 +1,23 @@
+id: hamiltonian-vector-field-on-poisson-manifold
+title_en: "Hamiltonian vector field on a Poisson manifold"
+title_zh: "泊松流形上的哈密顿向量场"
+type: definition
+domain: geometry
+subdomain: poisson-geometry
+difficulty: intermediate
+tags: [poisson-manifold, hamiltonian-vector-field, derivation, lie-algebra-homomorphism]
+depends_on:
+  required: [poisson-structure-on-manifold]
+  recommended: [vector-field, hamiltonian-mechanics]
+  suggested: [symplectic-leaves, casimir-function]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 14"
+    section: "A. Poisson manifolds"
+    pages: ""
+    role_in_book: "Defines the Hamiltonian vector field associated to a function on a Poisson manifold"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

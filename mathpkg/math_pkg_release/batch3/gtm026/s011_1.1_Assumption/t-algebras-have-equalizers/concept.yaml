@@ -1,0 +1,23 @@
+id: t-algebras-have-equalizers
+title_en: "The Category of T-Algebras Has Equalizers"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [category, algebraic-theory, T-algebra, equalizer, categorical-universal-algebra]
+depends_on:
+  required: ["equalizer-in-category", "t-algebra"]
+  recommended: ["t-algebras-have-products"]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "1"
+    pages: ""
+    role_in_book: "Second example of categorical universal algebra: T-algebras inherit equalizers from the base category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: harmonic-conjugate-existence
+title_en: "Existence of Harmonic Conjugates on Disks and the Plane"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [harmonic-conjugate, harmonic-function, cauchy-riemann, disk, potential-theory]
+depends_on:
+  required: [harmonic-laplacian, cauchy-riemann-equations]
+  recommended: [leibniz-rule, differentiation-under-integral-sign]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "5"
+    pages: ""
+    role_in_book: "Theorem 2.30 — on a disk or the whole complex plane, every harmonic function has a harmonic conjugate"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

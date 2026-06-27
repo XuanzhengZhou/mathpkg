@@ -1,0 +1,23 @@
+id: tangent-space-of-differentiable-surface
+title_en: "Tangent Space of a Differentiable Surface"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [tangent-space, tangent-vector, differentiable-surface, differentiable-manifold, chart, equivalence-class]
+depends_on:
+  required: [differentiable-manifold, chart, tangent-space-of-euclidean-space, equivalence-relation]
+  recommended: [differential-of-map-between-euclidean-spaces, vector-space]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.5"
+    pages: "115-116"
+    role_in_book: "Defines tangent vectors and tangent spaces for abstract differentiable surfaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

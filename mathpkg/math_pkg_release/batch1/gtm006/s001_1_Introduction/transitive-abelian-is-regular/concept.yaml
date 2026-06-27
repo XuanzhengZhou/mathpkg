@@ -1,0 +1,23 @@
+id: transitive-abelian-is-regular
+title_en: "Transitive Abelian Permutation Groups are Regular (Result 1.17)"
+title_zh: "传递阿贝尔置换群必为正则（结果1.17）"
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [transitive, abelian, regular, permutation-group]
+depends_on:
+  required: [transitive-permutation-group]
+  recommended: [regular-permutation-group]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "1. Introduction"
+    pages: ""
+    role_in_book: "Any transitive abelian permutation group is necessarily regular"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

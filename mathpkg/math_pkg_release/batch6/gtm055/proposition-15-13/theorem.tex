@@ -1,0 +1,34 @@
+Suppose $\mathcal{E
+
+readily seen that this is the case if and only if $A \cap M_{\lambda}$ is a neighborhood of 0 in $M_{\lambda}$ for every index $\lambda$. Suppose, finally, that $T$ is a linear transformation of $\mathcal{E}$ into some locally convex topological vector space $\mathcal{F}$. If $T$ is continuous with respect to the inductive limit topology on $\mathcal{E}$, then it is clear that $T \mid M_{\lambda}$ is continuous on $M_{\lambda}$ for every $\lambda$. On the other hand, if the latter condition is satisfied, and if $V$ is any absolutely convex neighborhood of 0 in $\mathcal{F}$, then $A = T^{-1}(V)$ is an absolutely convex subset of $\mathcal{E}$, and, as is readily seen, $A$ is also absorbing. Moreover, each intersection $A \cap M_{\lambda}$ is a neighborhood of 0 in $M_{\lambda}$ by virtue of the hypothesis. Hence $A$ is a neighborhood of 0 in $\mathcal{E}$, so $T$ is continuous.
+
+Example L. The (self-indexed) collection of all finite dimensional linear submanifolds of an arbitrary linear space $\mathcal{E}$ satisfies the requirements of the above definition if each finite dimensional submanifold is equipped with its unique separated (locally convex) linear topology (Prob. 11P). Since every pseudonorm $\sigma$ on $\mathcal{E}$ becomes continuous when restricted to a finite dimensional linear manifold (see Problem 11P again), it follows from Proposition 15.13 that every pseudonorm on $\mathcal{E}$ is continuous with respect to the inductive limit topology on $\mathcal{E}$. Hence the inductive limit topology in this instance coincides with the finest locally convex linear topology on $\mathcal{E}$ (Ex. J).
+
+Example M. Suppose given an indexed family $\{\mathcal{E}_{\gamma}\}_{\gamma \in \Gamma}$ of locally convex topological linear spaces. For each subset $\Gamma'$ of $\Gamma$ it is clear that the full algebraic direct sum $\sum_{\gamma \in \Gamma'} + \mathcal{E}_{\gamma}$ can be identified in a natural way with a linear man
+
+see Problem 11V). Let us write $\mathcal{H}$ for the collection of all nonempty compact subsets of $U$, and for each $K$ in $\mathcal{H}$ let us write $\mathcal{D}_K(U)$ for the set of all those test functions on $U$ that are supported on $K$, i.e., vanish on $U \setminus K$. Then $\mathcal{D}_K(U)$ is a linear manifold in $\mathcal{C}_0^{(\infty)}(U)$. Moreover, if, as before, we write $\sigma_K$ for the pseudonorm
+
+$$\sigma_K(f) = \sup_{x \in K} |f(x)|, \quad f \in \mathcal{C}^{(\infty)}(U),$$
+
+and $D^{k_1, \dots, k_n}f$ for the partial derivative of $f$ obtained by differentiating $k_i$ times with respect to the variable $x_i$, $i = 1, \dots, n$, then
+
+$$\sigma_{K,m}(f) = \sup_{k_1 + \dots + k_n \leq m} \sigma_K(D^{k_1, \dots, k_n}f), \quad m \in \mathbb{N}_0,$$
+
+defines a sequence of pseudonorms on $\mathcal{D}_K(U)$ that can be seen (by considering the convergence of sequences, for example) to induce on $\mathcal{D}_K(U)$ the same locally convex topology as the relative topology $\mathcal{D}_K(U)$ acquires as a linear manifold in the Frechét space $\mathcal{C}^{(\infty)}(U)$ of all infinitely differentiable functions on $U$ in the topology of $D$-convergence (cf. Example 14K). Moreover, $\mathcal{D}_K(U)$ is a closed linear manifold in $\mathcal{C}^{(\infty)}(U)$, and is therefore a Frechét space in its own right. The system $\{\mathcal{D}_K(U)\}$ is a net of linear submanifolds of $\mathcal{C}^{(\infty)}(U)$ indexed by $\mathcal{H}$ (directed in the inclusion ordering) and the union (or sum) of this net is the linear
+
+subsequence $\{\varphi_{k_n}\}$ of the given sequence of test functions such that the following conditions are satisfied:
+
+(i) $U = \bigcup_{n=1}^{\infty} K_n^\circ$,
+
+(ii) $x_n \in L_n = K_{n+1} \setminus K_n$, $n \in \mathbb{N}$,
+
+(iii) $\varphi_{k_n}(x_n) \neq 0$, $n \in \mathbb{N}$
+
+(cf. Example 10A). Let $a_n = |\varphi_{k_n}(x_n)|$, and define
+
+$$\sigma(\varphi) = \sum_{n} \sup_{x \in L_n} \frac{|\varphi(x)|}{a_n}, \quad \varphi \in \mathcal{C}_0^{(\infty)}(U).$$
+
+(By (i) only a finite number of terms in this series are nonzero for any one test function $\varphi$.) It is clear that $\sigma$ is a pseudonorm on $\mathcal{C}_0^{(\infty)}(U)$ and it is easily seen that the restriction of $\sigma$ to each space $\mathcal{D}_K(U)$ is continuous there. Hence $\sigma$ is continuous on $\mathcal{C}_0^{(\infty)}(U)$ in the inductive limit topology by Proposition 15.13. But for each positive integer $n$, $1 \leq \sup_{x \in L_n} |\varphi_{k_n}(x)| / a_n \leq \sigma(\varphi_{k_n})$. Thus the sequence $\{\varphi_n\}$ does not converge to 0 in that topology.
+
+Example O. Let $U$ be as in the preceding example. Most ordinary complex-valued functions on $U$ can be interpreted as distributions on $U$. To see how this goes, consider a Borel measurable function $f$ on $U$ that is integrable (with respect to $n$-dimensional Lebesgue measure $\mu_n$) over every compact subset of $U$. (Such a function is customarily said to be locally integrable on $U$. 
+...

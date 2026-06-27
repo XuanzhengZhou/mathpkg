@@ -1,0 +1,27 @@
+id: alpha-2-distributive-law-restricted-equivalence
+title_en: "Equivalence of (α,2)-Distributive Law and Restricted (α,2)-Distributive Law"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-algebras
+difficulty: advanced
+tags:
+  - boolean-algebras
+  - distributive-laws
+  - cardinal-arithmetic
+depends_on:
+  required: []
+  recommended: []
+  suggested:
+    - omega-2-distributive-law-characterization
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti; Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "18"
+    section: "18. Model Theoretic Consequences of the Distributive Laws"
+    pages: "172"
+    role_in_book: "Theorem 18.4: shows that for (α,2)-distributivity it suffices to consider families where complementary entries are negations of each other"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

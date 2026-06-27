@@ -1,0 +1,23 @@
+id: modular-character-tensor-product
+title_en: "Multiplicativity of Modular Characters under Tensor Product"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: basic
+tags: ["modular-character", "tensor-product", "multiplicativity"]
+depends_on:
+  required: ["modular-character"]
+  recommended: ["tensor-product-of-representations"]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "18"
+    section: "18.1"
+    pages: ""
+    role_in_book: "Property (iv); shows the modular character of a tensor product is the pointwise product of the modular characters."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: normal-forms-of-lagrangian-singularities
+title_en: "Normal forms of typical singularities of Lagrangian manifolds"
+title_zh: "拉格朗日流形典型奇点的标准型"
+type: theorem
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [lagrangian-singularities, normal-form, ade-classification, generating-function, swallowtail]
+depends_on:
+  required: [lagrangian-singularities, lagrangian-equivalence]
+  recommended: [whitney-normal-forms-surface-to-plane]
+  suggested: [catastrophe-theory, legendre-singularities]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 12"
+    section: "C-D. Tables of normal forms"
+    pages: ""
+    role_in_book: "Lists the ADE normal forms for Lagrangian singularities up to dimension 5, with generating functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

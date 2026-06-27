@@ -1,0 +1,23 @@
+id: unbounded-function-contains-c-embedded-copy-of-n
+title_en: "Unbounded Function Contains a C-Embedded Copy of N"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [c-embedded, unbounded-function, natural-numbers, copy]
+depends_on:
+  required: [c-embedded, c-embedding-via-homeomorphism-onto-closed-set-in-r]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.20"
+    pages: ""
+    role_in_book: "Structural corollary: unboundedness of a continuous function forces the existence of a C-embedded copy of N on which the function tends to infinity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

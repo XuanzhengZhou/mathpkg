@@ -1,0 +1,13 @@
+id: finite-cyclic-group-order
+title_en: "Structure of Finite Cyclic Groups"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [cyclic-group, finite-group, order]
+depends_on: {required: [cyclic-group, cyclic-group-structure], recommended: [], suggested: []}
+source_books: [{book_id: "gtm030", author: "Nathan Jacobson", title: "Lectures in Abstract Algebra I: Basic Concepts", chapter: "1", section: "11", pages: "", role_in_book: "If a^n=1 for some n>0, the cyclic group is finite with order equal to the minimal such n"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

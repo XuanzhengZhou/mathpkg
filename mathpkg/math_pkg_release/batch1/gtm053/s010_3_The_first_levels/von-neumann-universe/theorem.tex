@@ -1,0 +1,20 @@
+The von Neumann universe is constructed inductively from the empty set by successively applying the power set operation $P$:
+
+$$V_0 = \varnothing,$$
+$$V_1 = P(\varnothing) = \{\varnothing\},$$
+$$V_2 = P(V_1) = \{\varnothing, \{\varnothing\}\},$$
+$$\vdots$$
+$$V_{n+1} = P(V_n),$$
+$$\vdots$$
+
+We have $V_n \subset V_{n+1}$. The level $V_n$ consists of
+
+$$2^{2^{\cdot^{\cdot^{\cdot^{2}}}}} \quad (n-1 \text{ twos})$$
+
+finite sets, whose elements are also finite sets.
+
+To go beyond finite sets, we regard all $V_n$ as already constructed and apply $P$ to their union:
+
+$$V_{\omega_0} = \bigcup_{n=0}^{\infty} V_n,$$
+$$V_{\omega_0 + 1} = P(V_{\omega_0}),$$
+$$\vdots$$

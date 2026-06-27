@@ -1,0 +1,11 @@
+If $S \colon D \to C$ is a functor and $c$ an object of $C$, a \text{universal arrow from $c$ to $S$} is a pair $\langle r, u \rangle$ consisting of an object $r$ of $D$ and an arrow $u \colon c \to Sr$ of $C$, such that to every pair $\langle d, f \rangle$ with $d$ an object of $D$ and $f \colon c \to Sd$ an arrow of $C$, there is a unique arrow $f' \colon r \to d$ of $D$ with $Sf' \circ u = f$. In other words, every arrow $f$ to $S$ factors uniquely through the universal arrow $u$, as in the commutative diagram
+
+$$
+\begin{CD}
+c @>{u}>> Sr @<{S}<< r \\
+@| @V{Sf'}VV @V{f'}VV \\
+c @>>{f}> Sd @<<< d
+\end{CD}
+$$
+
+Equivalently, $u \colon c \to Sr$ is universal from $c$ to $S$ when the pair $\langle r, u \rangle$ is an initial object in the comma category $(c \downarrow S)$, whose objects are the arrows $c \to Sd$. As with any initial object, it follows that $\langle r, u \rangle$ is unique up to isomorphism in $(c \downarrow S)$; in particular, the object $r$ of $D$ is unique up to isomorphism in $D$.

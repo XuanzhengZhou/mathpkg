@@ -1,0 +1,23 @@
+id: completion-of-lcs-is-lcs
+title_en: "The completion of a locally convex space is a locally convex space"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [completion, locally-convex-space, semi-norms, continuous-extension]
+depends_on:
+  required: [locally-convex-space, completion-of-tvs]
+  recommended: [semi-norm, generating-family-of-seminorms]
+  suggested: [uniform-continuity]
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "4.1"
+    pages: ""
+    role_in_book: "Theorem 4.1: The completion of a locally convex space carries a natural locally convex topology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

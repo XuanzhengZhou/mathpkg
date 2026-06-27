@@ -1,0 +1,23 @@
+id: jordan-decomposition-linear-form
+title_en: "Jordan Decomposition: Every self-adjoint linear form on a C*-algebra decomposes uniquely into difference of positive linear forms"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: cstar-algebras
+difficulty: advanced
+tags: [cstar-algebra, jordan-decomposition, self-adjoint-linear-form, positive-linear-form]
+depends_on:
+  required: [positive-linear-form-characterization, state-of-cstar-algebra]
+  recommended: [hahn-jordan-decomposition-measure]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "4"
+    section: "4.2"
+    pages: ""
+    role_in_book: "Establishes the Jordan decomposition for self-adjoint linear forms on C*-algebras, analogous to measure theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

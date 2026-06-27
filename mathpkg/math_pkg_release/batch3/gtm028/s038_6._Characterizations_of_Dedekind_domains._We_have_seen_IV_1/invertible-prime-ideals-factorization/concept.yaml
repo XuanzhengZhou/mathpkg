@@ -1,0 +1,23 @@
+id: invertible-prime-ideals-factorization
+title_en: "Prime Ideals in Product Factorization are Invertible"
+title_zh: "乘积分解中的素理想可逆"
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [invertible-ideal, prime-ideal, factorization, dedekind-domain]
+depends_on:
+  required: [invertible-fractionary-ideal, prime-ideal]
+  recommended: [fractionary-ideal]
+  suggested: [dedekind-domain, unique-factorization-invertible-ideals]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "6"
+    pages: "272"
+    role_in_book: "Lemma 4 of Section 6"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

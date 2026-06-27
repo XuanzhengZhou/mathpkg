@@ -1,0 +1,35 @@
+Let $\Gamma$ be an arbitrary infinite index set. For every finite subset $\Omega$ of $\Gamma$, regard $(T, \mathcal{M}, \mu)$ as $(T_{\Omega} \times T_{\Omega'}, \mathcal{M}_{\Omega} \times \mathcal{M}_{\Omega'}, \mu_{\Omega} \times \mu_{\Omega'})$ [making use of (22.12)]. For $1 \leq p < \infty$ and $f \in \mathfrak{L}_p(T, \mathcal{M}, \mu)$, define $f_{\Omega'}$ on $T$ by
+
+$$f_{\Omega'}(\mathbf{t}_{\Omega}, \mathbf{t}_{\Omega'}) = \int_{T_{\Omega}} f(\mathbf{u}_{\Omega}, \mathbf{t}_{\Omega'}) d\mu_{\Omega}(\mathbf{u}_{\Omega}).$$
+
+That is, $f_{\Omega'}$ is a function of the form $Sf$ as in (22.11). Then $f_{\Omega'}$ is in $\mathfrak{L}_p(T, \mathcal{M}, \mu)$ and
+
+(i) $\lim_{\Omega} \|f_{\Omega'} - \int_{T} f d\mu\|_p = 0.$
+
+Also, let
+
+$$f_{\Omega}(\mathbf{t}_{\Omega}, \mathbf{t}_{\Omega'}) = \int_{T_{\Omega'}} f(\mathbf{t}_{\Omega}, \mathbf{u}_{\Omega'}) d\mu_{\Omega'}(\mathbf{u}_{\Omega'}).$$
+
+Then $f_{\Omega}$ is in $\mathfrak{L}_p(T, \mathcal{M}, \mu)$ and
+
+(ii) $\lim_{\Om
+
+is equal to 1 for all $u_{\Omega'}$ if $t_{\Omega}|_{\Omega'} \in A_{\Omega}$; therefore in this case $f_{\Omega} = f = 1$. If $t_{\Omega}|_{\Omega_0} \notin A_{\Omega_0}$, the integrand vanishes and so $f_{\Omega}(t_{\Omega}, t_{\Omega'}) = 0$. Thus we have
+
+$$f_{\Omega}(t_{\Omega}, t_{\Omega'}) = \xi_{A_{\Omega_0} \times T_{\Omega'}}(t_{\Omega}, t_{\Omega'})$$
+
+and (ii) is established.
+
+(II) To establish (i) and (ii) for all $f \in \mathfrak{L}_p(T, \mathcal{M}, \mu)$, let $\mathfrak{J}$ be the subset of $\mathfrak{L}_p$ for which (i) and (ii) are true. We prove first that $\mathfrak{J}$ is a closed linear subspace of $\mathfrak{L}_p$. It is obvious that $\mathfrak{J}$ is a linear subspace, and so we have to show that it is closed. Suppose that $\lim_{n \to \infty} \|f^{(n)} - f\|_p = 0$, where $f^{(n)} \in \mathfrak{J}$ for $n = 1, 2, 3, \ldots$. For every $\varepsilon > 0$ there is a set $\Omega_n$ such that $\|f^{(n)}_n - \int f^{(n)} d\mu\|_p < \varepsilon$ ($n = 1, 2, 3, \ldots$), and such that the same inequality obtains with $\Omega_n$ replaced by any larger finite set. By (22.11), the inequality $\|f^{(n)} - f\|_p < \delta$ implies the inequalities $\|f^{(n)}_n - f_{\Omega'}^*\|_p < \delta$ and $\|f_{\Omega'}^* - f_{\Omega'}^*\|_p < \delta$
+
+For $\Gamma$ countably infinite, the mean convergence of (22.14) can be replaced by pointwise convergence $\mu$-almost everywhere. These results follow readily from (20.56) and (20.59), as we shall now show.
+
+(22.16) Notation. Throughout (22.16)—(22.23), the following notation will be used. The set $\Gamma$ will be $\{1, 2, 3, \ldots\}$, the set $\Omega_n$ will be $\{1, 2, 3, \ldots, n\}$ for $n \in N$, and $f$ will be an arbitrary function in $\mathcal{L}_1(T, \mathcal{M}, \mu)$. The function $f_n$ will be the function $f_{\Omega_n}$ of (22.14), i.e.,
+
+(i) $f_n(t) = f_n(t_1, \ldots, t_n, t_{n+1}, \ldots)$
+$$= \int_{T_{\Omega_n}} f(t_1, \ldots, t_n, u_{n+1}, \ldots) d\mu_{\Omega_n}(u_{n+1}, \ldots).$$
+
+The function $f'_n$ will be the function $f_{\Omega_n}'$ of (22.14), i.e.,
+
+(ii) $f'_n(t) = f'_n(t_1, \ldots, t_n, t_{n+1}, \ldots)$
+$$= \int_{T_{\Omega_n}} f(u_1, \ldots, u_n, t_{n+1}, \ldots) d\mu_{\Omega_n}(u_1, \ldots, u_n).$$

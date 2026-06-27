@@ -1,0 +1,13 @@
+id: de-rhams-theorem
+title_en: "de Rham's Theorem"
+title_zh: "德拉姆定理"
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: [de-rham, cohomology, homology, betti-number, integration-pairing]
+depends_on: {required:[cohomology-group, homology-group, betti-number], recommended:[stokes-theorem, differential-form], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"Appendix 3",section:"Cohomology and homology",pages:"",role_in_book:"Theorem — the rank of the k-th homology group equals the k-th Betti number"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

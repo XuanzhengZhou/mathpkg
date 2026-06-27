@@ -1,0 +1,23 @@
+id: strong-topology-and-strong-dual
+title_en: "Strong Topology and Strong Dual"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [strong-topology, beta-topology, strong-dual, locally-convex-space, bounded-set]
+depends_on:
+  required: [locally-convex-space, dual-system, s-topology, bounded-set]
+  recommended: [weak-topology, mackey-topology]
+  suggested: [barreled-space]
+source_books:
+  - book_id: gtm003
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "5"
+    pages: "146-156"
+    role_in_book: "Defines the strong topology β(E,E'), strong dual, and introduces the σ, τ, β notation for locally convex spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

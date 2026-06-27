@@ -1,0 +1,13 @@
+id: runges-theorem
+title_en: "Runge's Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [runge-theorem, rational-approximation, compact-set, uniform-convergence, pole-placement]
+depends_on: {required: [cauchy-integral-formula-compact-set, rational-approximation-cauchy-kernel], recommended: [], suggested: []}
+source_books: [{book_id: "gtm011", author: "John B. Conway", title: "Functions of One Complex Variable I", chapter: "VIII", section: "1.7", pages: "", role_in_book: "The central theorem of Chapter VIII: any function analytic on a neighborhood of a compact set K can be uniformly approximated on K by rational functions whose poles lie in a prescribed set E that meets each component of the complement of K"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

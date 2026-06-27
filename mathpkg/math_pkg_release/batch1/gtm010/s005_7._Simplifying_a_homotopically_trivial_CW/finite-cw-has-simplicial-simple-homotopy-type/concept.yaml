@@ -1,0 +1,13 @@
+id: finite-cw-has-simplicial-simple-homotopy-type
+title_en: "Every finite CW complex has the simple-homotopy type of a finite simplicial complex"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: [cw-complex, simplicial-complex, simple-homotopy-type, triangulation]
+depends_on: {required: ["cw-complex", "simple-homotopy-type", "cell-attachment-homotopic-boundary-maps"], recommended: ["simplicial-collapse"], suggested: []}
+source_books: [{book_id: "gtm010", author: "Marshall M. Cohen", title: "A Course in Simple-Homotopy Theory", chapter: "7", section: "7", pages: "", role_in_book: "Shows CW and simplicial simple-homotopy types coincide"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

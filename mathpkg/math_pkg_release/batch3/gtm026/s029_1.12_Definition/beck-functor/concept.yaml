@@ -1,0 +1,23 @@
+id: beck-functor
+title_en: "Beck Functor"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [category-theory, beck-functor, algebraic-functor, creates-limits, absolute-coequalizer]
+depends_on:
+  required: [creates-limits, u-absolute-pair, coequalizer]
+  recommended: [algebraic-functor]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.17"
+    pages: ""
+    role_in_book: "Defines Beck functors: functors that create limits and create coequalizers of U-absolute pairs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

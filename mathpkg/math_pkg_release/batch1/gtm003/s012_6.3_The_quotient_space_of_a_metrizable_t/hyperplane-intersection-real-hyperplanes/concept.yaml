@@ -1,0 +1,23 @@
+id: hyperplane-intersection-real-hyperplanes
+title_en: "Every Hyperplane Is the Intersection of Two Real Hyperplanes"
+title_zh: "每个超平面是两个实超平面的交"
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [hyperplane, real-hyperplane, closed-hyperplane]
+depends_on:
+  required: []
+  recommended: [real-underlying-space, linear-form, hyperplane]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "I"
+    section: "7.3"
+    pages: ""
+    role_in_book: "Represents hyperplanes over complex field via real hyperplanes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

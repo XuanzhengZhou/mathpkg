@@ -1,0 +1,23 @@
+id: generators-relations-semisimple
+title_en: "Generators and Relations for a Semisimple Lie Algebra"
+title_zh: "半单李代数的生成元与关系"
+type: proposition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [semisimple-lie-algebra, cartan-subalgebra, root-system, serre-relations, generators]
+depends_on:
+  required: [semisimple-lie-algebra, cartan-subalgebra, root-system]
+  recommended: [standard-generators]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "VI"
+    section: "18"
+    pages: "102-114"
+    role_in_book: "Derives the Serre relations satisfied by standard generators"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

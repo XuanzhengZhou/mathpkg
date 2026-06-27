@@ -1,0 +1,23 @@
+id: finite-dim-core-theorem
+title_en: "Core in Finite-Dimensional Spaces"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: convex-geometry
+difficulty: intermediate
+tags: ["core", "affine-hull", "finite-dimensional"]
+depends_on:
+  required: ["convex-set-def", "intrinsic-core-def"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§2"
+  section: "2.C"
+  pages: "8"
+  role_in_book: "characterizes when a convex set has core"
+content_hash: "9c2c3ec66dcadff4"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

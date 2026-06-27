@@ -1,0 +1,23 @@
+id: sierpinski-erdos-decomposition-lemma
+title_en: "Sierpinski-Erdos Decomposition Theorem"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [sigma-ideal, aleph-one, decomposition, cardinality, continuum-hypothesis]
+depends_on:
+  required: [sigma-ideal, aleph-one]
+  recommended: [ordinal-numbers, countable-union]
+  suggested: [transfinite-induction]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "19"
+    section: "The Sierpinski-Erdos Duality Theorem"
+    pages: ""
+    role_in_book: "Theorem 19.5: purely set-theoretic decomposition lemma that forms the backbone of the proof of the Sierpinski-Erdos theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

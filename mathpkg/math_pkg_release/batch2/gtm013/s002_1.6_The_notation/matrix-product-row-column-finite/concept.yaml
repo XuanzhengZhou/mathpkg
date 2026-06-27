@@ -1,0 +1,23 @@
+id: matrix-product-row-column-finite
+title_en: "Matrix Product under Row or Column Finiteness"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [matrix-multiplication, row-finite, column-finite, formal-series]
+depends_on:
+  required: [row-finite-matrix]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "1.13"
+    pages: ""
+    role_in_book: "Defines matrix multiplication when one factor is row finite or the other is column finite"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,20 @@
+id: asymptotic-of-hitting-time-distribution-finite-variance
+title_en: "Asymptotic of hitting time distribution for finite variance"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [asymptotic, hitting-time, finite-variance, potential-kernel, karama-ta-theorem]
+depends_on: {required:[], recommended:[potential-kernel, survival-probability-asymptotic], suggested:[karama-ta-theorem]}
+source_books:
+  - book_id: gtm034
+    author: Frank Spitzer
+    title: Principles of Random Walk, 2nd ed.
+    chapter: "VII"
+    section: "32"
+    pages: "?"
+    role_in_book: "Sharp asymptotic of P_x[T > n] with finite variance, stronger than T1"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

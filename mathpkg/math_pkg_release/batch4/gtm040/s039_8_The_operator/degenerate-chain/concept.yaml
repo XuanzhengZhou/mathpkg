@@ -1,0 +1,23 @@
+id: degenerate-chain
+title_en: "Degenerate normal chain"
+title_zh: "退化的正规链"
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [degenerate-chain, capacity, normal-chain]
+depends_on:
+  required: [normal-chain, capacity-of-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Defines degenerate case where all capacities vanish"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

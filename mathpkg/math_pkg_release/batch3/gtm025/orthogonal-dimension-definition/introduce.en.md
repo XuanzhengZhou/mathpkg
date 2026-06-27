@@ -1,0 +1,1 @@
+All complete orthonormal sets in a given Hilbert space have the same cardinality. This cardinal invariant is called the orthogonal (or Hilbert) dimension and classifies Hilbert spaces up to isometric isomorphism.

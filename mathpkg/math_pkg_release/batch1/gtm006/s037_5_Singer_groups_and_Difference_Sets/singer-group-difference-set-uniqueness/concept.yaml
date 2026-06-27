@@ -1,0 +1,23 @@
+id: singer-group-difference-set-uniqueness
+title_en: "Uniqueness of Difference Representation in a Singer Group"
+title_zh: "Singer 群中差表示的唯一性"
+type: lemma
+domain: combinatorics
+subdomain: difference-sets
+difficulty: intermediate
+tags: [singer-group, difference-set, uniqueness, finite-geometry]
+depends_on:
+  required: [singer-group, difference-set]
+  recommended: [projective-plane, regular-group-action]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "XIII"
+    section: "5"
+    pages: ""
+    role_in_book: "Lemma 13.12: every non-identity element of a Singer group can be uniquely expressed as δ₁δ₂⁻¹ and δ₃⁻¹δ₄ for δᵢ in a difference set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

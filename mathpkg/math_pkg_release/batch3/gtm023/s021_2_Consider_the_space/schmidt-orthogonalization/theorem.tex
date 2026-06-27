@@ -1,0 +1,11 @@
+Let \(E\) be a finite-dimensional inner product space and let \(a_{\nu}\) (\(\nu = 1, \ldots, n\)) be an arbitrary basis of \(E\). Then there exists an orthonormal basis \(e_{\nu}\) (\(\nu = 1, \ldots, n\)) of \(E\).
+
+The construction proceeds inductively: set \(b_1 = a_1\). For \(k \geq 2\), define
+
+$$b_k = a_k - \sum_{\nu=1}^{k-1} \frac{(a_k, b_{\nu})}{(b_{\nu}, b_{\nu})} b_{\nu}.$$
+
+Then the vectors \(b_{\nu}\) are mutually orthogonal and non-zero. Normalizing yields
+
+$$e_{\nu} = \frac{b_{\nu}}{|b_{\nu}|} \quad (\nu = 1, \ldots, n),$$
+
+which is an orthonormal basis of \(E\).

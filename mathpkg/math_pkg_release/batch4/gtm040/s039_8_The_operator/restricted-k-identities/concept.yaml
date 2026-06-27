@@ -1,0 +1,23 @@
+id: restricted-k-identities
+title_en: "Restricted K_E identities"
+title_zh: "限制的K_E恒等式"
+type: corollary
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [k-matrix, finite-set, restricted-matrix, normal-chain]
+depends_on:
+  required: [k-w-identities, normal-chain]
+  recommended: [p-e-matrix]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Restricts the K-W identities to E-indexed submatrices"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

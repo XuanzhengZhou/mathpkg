@@ -1,0 +1,1 @@
+A formal power series converges if and only if its norm with respect to some positive polyradius is finite. This characterizes convergent power series purely algebraically in terms of the growth of coefficients.

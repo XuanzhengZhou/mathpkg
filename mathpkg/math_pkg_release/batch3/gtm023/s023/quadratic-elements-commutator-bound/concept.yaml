@@ -1,0 +1,23 @@
+id: quadratic-elements-commutator-bound
+title_en: "Commutator Bound for Quadratic Elements in a Division Algebra"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: division-algebras
+difficulty: advanced
+tags: [division-algebra, quadratic-equation, commutator, linear-independence]
+depends_on:
+  required: [associative-division-algebra, fundamental-theorem-of-algebra]
+  recommended: [quadratic-equation-satisfied-by-elements]
+  suggested: [frobenius-classification-of-division-algebras]
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "6"
+    pages: "222-229"
+    role_in_book: "Lemma I in section 7.24: For x,y ∈ A with x²=-e, y²=-e, we have xy+yx = 2λe with -1≤λ≤1"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: lorentz-light-cone-eigenvector
+title_en: "Existence of an Eigenvector on the Light-Cone for Proper Lorentz Transformations"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: pseudo-euclidean-geometry
+difficulty: advanced
+tags: [lorentz-transformation, light-cone, eigenvector, minkowski-space, orthochroneous]
+depends_on:
+  required: [lorentz-transformation, minkowski-space, light-cone]
+  recommended: [selfadjoint-pseudo-euclidean-eigenvectors, fore-cone-past-cone]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "4"
+    pages: ""
+    role_in_book: "Proves that every proper orthochroneous Lorentz transformation has an eigenvector on the light-cone"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

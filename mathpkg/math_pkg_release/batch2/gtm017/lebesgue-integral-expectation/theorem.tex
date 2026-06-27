@@ -1,0 +1,11 @@
+For a non-negative measurable function $X(w)$, approximate $X$ by simple functions
+$$X_k(w) = \sum_j \frac{j}{2^k} I_{A_{k,j}}(w), \quad A_{k,j} = \{w \mid j/2^k \leq X(w) < (j+1)/2^k\}.$$
+The integral is defined as
+$$\int X(w) \, dP = \lim_{k \to \infty} \int X_k(w) \, dP = \lim_{k \to \infty} \sum_j \frac{j}{2^k} P(A_{k,j}).$$
+For general $X$, decompose $X = X_+ - X_-$ where $X_+ = \max(X,0)$, $X_- = X_+ - X$, and set $\int X \, dP = \int X_+ \, dP - \int X_- \, dP$ whenever both integrals are finite.
+
+\text{Properties:}
+\begin{enumerate}
+\item Linearity: $\int (\alpha X + \beta Y) \, dP = \alpha \int X \, dP + \beta \int Y \, dP$.
+\item Dominated convergence: If $|X_n| \leq Y$ with $Y$ integrable and $X_n \to X$, then $\int X_n \, dP \to \int X \, dP$.
+\end{enumerate}

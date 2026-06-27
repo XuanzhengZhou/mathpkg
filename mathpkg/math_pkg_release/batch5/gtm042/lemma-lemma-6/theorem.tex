@@ -1,0 +1,13 @@
+Each class function on G with integer values divisible by g is an A-linear combination of characters induced from characters of cyclic subgroups of G.
+
+(Here, and in all that follows, the expression "integer values" means "values in Z.")
+
+Let $f$ be such a function, and write it in the form $g\chi$, where $\chi$ is a class function with integer values. If C is a cyclic subgroup of G, let $\theta_C$ be the element of R(C) defined in 9.4. We have
+
+$$g = \sum_C \text{Ind}_C^G(\theta_C), \quad \text{cf. prop. 27},$$
+
+whence
+
+$$f = g\chi = \sum_C \text{Ind}_C^G(\theta_C)\chi = \sum_C \text{Ind}_C^G(\theta_C \cdot \text{Res}_C^G\chi).$$
+
+It remains to show that $\theta_{C \cdot \text{Res}_C^\chi}$ belongs to A $\otimes$ R(C) for each C. But the values of $\chi_C = \theta_C \cdot \text{Res}_C^\chi$ are divisible by the order of C, so if $\psi$ is a character of C, we have $\langle \chi_C, \psi \rangle \in A$, which shows that $\chi_C$ is an A-linear combination of characters of C, whence $\chi_C \in A \otimes R(C)$.

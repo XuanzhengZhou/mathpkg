@@ -1,0 +1,23 @@
+id: theorem-prime-ideal-multiplicatively-closed
+title_en: "Theorem on Prime Ideals Disjoint from Multiplicatively Closed Sets"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [prime-ideal, multiplicatively-closed-set, maximal-principle]
+depends_on:
+  required: [prime-ideal, hausdorff-maximal-principle]
+  recommended: [maximal-ideal]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "0"
+    section: "0.16"
+    pages: ""
+    role_in_book: "Key existence theorem for prime ideals; used throughout algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

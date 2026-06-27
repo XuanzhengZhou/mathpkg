@@ -1,0 +1,16 @@
+An \textit{isomorphism} between complex ringed spaces $(X_1, \mathcal{H}_1)$ and $(X_2, \mathcal{H}_2)$ is a pair $\varphi = (\tilde{\varphi}, \varphi_*)$ with the following properties:
+\begin{enumerate}
+\item $\tilde{\varphi}: X_1 \rightarrow X_2$ is a topological mapping (homeomorphism).
+\item $\varphi_*: \mathcal{H}_1 \rightarrow \mathcal{H}_2$ is a topological mapping.
+\item $\varphi_*$ is stalk-preserving with respect to $\tilde{\varphi}$; that is, the following diagram is commutative:
+\[
+\begin{CD}
+\mathcal{H}_1 @>{\varphi_*}>> \mathcal{H}_2 \\
+@V{\pi_1}VV @VV{\pi_2}V \\
+X_1 @>{\tilde{\varphi}}>> X_2
+\end{CD}
+\]
+\item For every $x \in X_1$, $\varphi_*|_{(\mathcal{H}_1)_x}: (\mathcal{H}_1)_x \rightarrow (\mathcal{H}_2)_{\tilde{\varphi}(x)}$ is a homomorphism of $\mathbb{C}$-algebras.
+\end{enumerate}
+The existence of an isomorphism $\varphi$ between $(X_1, \mathcal{H}_1)$ and $(X_2, \mathcal{H}_2)$ is expressed briefly by
+$$(X_1, \mathcal{H}_1) \simeq (X_2, \mathcal{H}_2).$$

@@ -1,0 +1,9 @@
+Let $\kappa$ be a cardinal. Let $X^{\alpha}$ be topological spaces for $\alpha < \kappa$, and define
+$$X = \{f \mid \text{function } f \text{ with } \operatorname{dom}(f) \subseteq \kappa \text{ and } (\forall \alpha \in \operatorname{dom}(f))[f(\alpha) \in X^{\alpha}]\}.$$
+
+The topology on $X$ is defined by the open base
+$$T = \{\tilde{G}_{\alpha} \mid \alpha < \kappa \land (G_{\alpha} \text{ is open in } X^{\alpha})\},$$
+where $\tilde{G}_{\alpha} = \{f \in X \mid f(\alpha) \in G_{\alpha}\}$.
+
+Define $p_{\alpha}: X \to X^{\alpha}$ by $p_{\alpha}(f) = f(\alpha)$. Then $\langle X, T \rangle$ is a topological space, $p_{\alpha}$ is an open continuous onto map, and
+$$p_{\alpha\beta} \circ p_{\beta} = p_{\alpha}.$$

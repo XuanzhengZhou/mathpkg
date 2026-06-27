@@ -1,0 +1,15 @@
+Let $L$ be a semisimple Lie algebra over the algebraically closed field $F$ of characteristic $0$, $H$ a Cartan subalgebra, $\Phi$ the root system, and $\Delta = \{\alpha_1, \ldots, \alpha_l\}$ a base of $\Phi$. Then there exists a basis
+$$\{\, x_\alpha \mid \alpha \in \Phi \,\} \cup \{\, h_i \mid 1 \leq i \leq l \,\}$$
+of $L$, called a \text{Chevalley basis}, satisfying the following conditions:
+
+\begin{enumerate}
+\item[(a)] $[h_i, h_j] = 0$ for all $i, j$; $[h_i, x_\alpha] = \langle \alpha, \alpha_i \rangle x_\alpha$ for all $i$ and all $\alpha \in \Phi$.
+
+\item[(b)] $[x_\alpha, x_{-\alpha}] = h_\alpha$, where $h_\alpha$ is a $\mathbb{Z}$-linear combination of $h_1, \ldots, h_l$. Moreover, $\kappa(x_\alpha, x_{-\alpha}) = \frac{2}{(\alpha, \alpha)}$, where $\kappa$ is the Killing form.
+
+\item[(c)] Let $\alpha, \beta$ be linearly independent roots, and let $\beta - r\alpha, \ldots, \beta, \ldots, \beta + q\alpha$ be the $\alpha$-string through $\beta$. If $\alpha + \beta \notin \Phi$, then $[x_\alpha, x_\beta] = 0$. If $\alpha + \beta \in \Phi$, then
+$$[x_\alpha, x_\beta] = c_{\alpha\beta}\, x_{\alpha+\beta}, \quad \text{where } c_{\alpha\beta} = \pm(r+1).$$
+Moreover, $c_{\alpha\beta} = -c_{-\alpha, -\beta}$.
+
+\item[(d)] All structure constants $c_{\alpha\beta}$ are integers, determined up to sign by the root system $\Phi$.
+\end{enumerate}

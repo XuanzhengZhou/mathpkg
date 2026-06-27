@@ -1,0 +1,23 @@
+id: minimum-polynomial-of-linear-transformation
+title_en: "Minimum Polynomial of a Linear Transformation"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [minimum-polynomial, linear-transformation, annihilating-polynomial, monic-polynomial]
+depends_on:
+  required: [polynomial-evaluation-homomorphism]
+  recommended: []
+  suggested: [polynomial-ring-is-principal-ideal-domain]
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "III"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the minimum polynomial as the monic generator of the kernel of the polynomial evaluation homomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

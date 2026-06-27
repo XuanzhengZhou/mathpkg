@@ -1,0 +1,23 @@
+id: embedding
+title_en: "Embedding"
+title_zh: "嵌入"
+type: definition
+domain: geometry
+subdomain: differentiable-manifolds
+difficulty: advanced
+tags: [embedding, immersion, cr-map, homeomorphism]
+depends_on:
+  required: [immersion, cr-map]
+  recommended: [submanifold]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "18. Differentiable Manifolds"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition 2.5: an immersion that is a homeomorphism onto its image"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

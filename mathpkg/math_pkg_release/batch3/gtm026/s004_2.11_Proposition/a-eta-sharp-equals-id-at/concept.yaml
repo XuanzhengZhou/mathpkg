@@ -1,0 +1,23 @@
+id: a-eta-sharp-equals-id-at
+title_en: "(Aη)^# = id_{AT} for all sets A"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: universal-algebra
+difficulty: basic
+tags: [omega-algebra, category-theory, identity-morphism, free-monad]
+depends_on:
+  required: [identity-is-omega-homomorphism, omega-homomorphism-composition]
+  recommended: [set-omega-e-is-a-category]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.11"
+    pages: ""
+    role_in_book: "Derives the identity that the sharp of the unit morphism is the identity on AT"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

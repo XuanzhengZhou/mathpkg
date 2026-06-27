@@ -1,0 +1,23 @@
+id: characteristic-oscillations-orthogonal
+title_en: "Orthogonality of Characteristic Oscillations"
+title_zh: "特征振动的正交性"
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [characteristic-oscillation, orthogonality, kinetic-energy, scalar-product, small-oscillations]
+depends_on:
+  required: [characteristic-oscillation, small-oscillations-direct-product-decomposition]
+  recommended: [scalar-product, generalized-eigenvalue-problem]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "5"
+    section: "Small Oscillations"
+    pages: "116"
+    role_in_book: "Establishes that characteristic oscillation directions are pairwise orthogonal with respect to the kinetic energy inner product"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

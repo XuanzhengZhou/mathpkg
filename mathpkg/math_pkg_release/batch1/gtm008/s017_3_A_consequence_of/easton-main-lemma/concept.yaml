@@ -1,0 +1,23 @@
+id: easton-main-lemma
+title_en: "Easton's Main Lemma"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: forcing
+difficulty: advanced
+tags: [easton-forcing, main-lemma, splitable, aleph-alpha-bounded]
+depends_on:
+  required: []
+  recommended: [aleph-alpha-bounded, aleph-alpha-easton-pair, aleph-alpha-aleph-beta-splitable]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "23"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 23.44: Easton's main lemma on splitting families of elements"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

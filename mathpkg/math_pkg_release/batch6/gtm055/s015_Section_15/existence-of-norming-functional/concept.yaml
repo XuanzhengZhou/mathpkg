@@ -1,0 +1,23 @@
+id: existence-of-norming-functional
+title_en: "Corollary 14.11 (Existence of Norming Functional)"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [Hahn-Banach, normed-space, dual-space, norming-functional, separation]
+depends_on:
+  required: [separation-point-from-subspace]
+  recommended: [dual-space, normed-space, bounded-linear-functional]
+  suggested: []
+source_books:
+  - book_id: "gtm055"
+    author: "Arlen Brown, Carl Pearcy"
+    title: "Introduction to Operator Theory I"
+    chapter: "14"
+    section: "15"
+    pages: ""
+    role_in_book: "Guarantees the dual space is rich: for each nonzero vector there is a norm-one functional attaining the norm"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

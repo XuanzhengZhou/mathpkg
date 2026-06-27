@@ -1,0 +1,23 @@
+id: strong-topology-metrizability-completeness
+title_en: "Metrizability and Completeness of Adjoint under Strong Topology"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: functional-analysis
+difficulty: advanced
+tags: [locally-convex-space, pseudo-metrizable, strong-topology, adjoint, completeness, metrizable]
+depends_on:
+  required: []
+  recommended: [strong-topology, locally-convex-space, completeness]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "5"
+    section: "22.12"
+    pages: ""
+    role_in_book: "Establishes that E* with the strong topology is locally convex, metrizable, and complete when E is pseudo-metrizable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

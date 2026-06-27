@@ -1,0 +1,23 @@
+id: rank-of-skew-transformation-is-even
+title_en: "Rank of a Skew Transformation is Even"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [skew-mapping, rank, parity, normal-transformation]
+depends_on:
+  required: [skew-mapping, normal-transformation, rank]
+  recommended: [orthogonal-complement]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: ""
+    title: "Linear Algebra"
+    chapter: "8"
+    section: "8.15"
+    pages: ""
+    role_in_book: "Proves that every skew transformation has even rank"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

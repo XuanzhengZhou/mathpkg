@@ -1,0 +1,13 @@
+id: cycle-on-manifold
+title_en: "Cycle on a Manifold"
+title_zh: "流形上的循环"
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [cycle, chain, boundary, manifold, homology]
+depends_on: {required:[chain-on-manifold, boundary-of-chain], recommended:[differential-form, stokes-theorem], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"7",section:"Differential forms",pages:"",role_in_book:"Definition — a cycle is a chain whose boundary equals zero"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

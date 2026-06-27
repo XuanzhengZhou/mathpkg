@@ -1,0 +1,23 @@
+id: normal-transformation-same-eigenvectors
+title_en: "Normal Transformation and its Adjoint have the Same Eigenvectors"
+title_zh: "正规变换与其伴随有相同的特征向量"
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [normal-transformation, eigenvectors, adjoint, spectral-theory]
+depends_on:
+  required: [normal-transformation, normal-transformation-kernels-coincide, normal-transformation-shift-by-scalar]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VIII"
+    section: "§1. The adjoint mapping"
+    pages: ""
+    role_in_book: "Key property for spectral decomposition of normal operators"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: orientable-3-manifold-as-regular-neighborhood
+title_en: "Every orientable triangulated 3-manifold with boundary is a regular neighborhood in an orientable 3-manifold"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [orientable, 3-manifold, boundary, regular-neighborhood]
+depends_on:
+  required: [triangulated-3-manifold-as-regular-neighborhood, doubling-orientable-3-manifold]
+  recommended: [regular-neighborhood-combinatorial-equivalence]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: ""
+    section: "23"
+    pages: ""
+    role_in_book: "Orientable version of Theorem 13."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

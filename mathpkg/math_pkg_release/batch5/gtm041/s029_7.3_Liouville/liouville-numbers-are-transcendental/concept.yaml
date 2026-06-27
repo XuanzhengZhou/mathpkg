@@ -1,0 +1,23 @@
+id: liouville-numbers-are-transcendental
+title_en: "Every Liouville Number is Transcendental"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-approximation
+difficulty: intermediate
+tags: [liouville, transcendental-number, algebraic-number]
+depends_on:
+  required: [liouvilles-approximation-theorem]
+  recommended: [liouville-number]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "7"
+    section: "7.3"
+    pages: ""
+    role_in_book: "Proves that every Liouville number must be transcendental using Liouville's approximation theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

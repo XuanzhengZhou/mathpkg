@@ -1,0 +1,23 @@
+id: dedekind-eta-functional-equation
+title_en: "Dedekind Eta Functional Equation"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [eta-function, functional-equation, modular-transformation, dedekind]
+depends_on:
+  required: [dedekind-eta-function]
+  recommended: [modular-group, upper-half-plane]
+  suggested: [residue-calculus, analytic-continuation]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "3"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Fundamental functional equation of the Dedekind eta function under modular inversion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

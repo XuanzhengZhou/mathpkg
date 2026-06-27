@@ -1,0 +1,23 @@
+id: unique-readability-formulas
+title_en: "Unique Readability for Formulas (Proposition 10.15)"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: first-order-logic
+difficulty: intermediate
+tags: [unique-readability, formulas, recursive-set, godel-numbering, syntax]
+depends_on:
+  required: []
+  recommended: [atomic-formula, recursion-on-terms, godel-numbering]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.2"
+    pages: ""
+    role_in_book: "Establishes that the set of Godel numbers of formulas is recursive, via unique readability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: homotopy-characterization-by-winding-number
+title_en: "Homotopy Characterization of Closed Curves by Winding Number"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [winding-number, homotopy, punctured-plane, covering-space, fundamental-group]
+depends_on:
+  required: [winding-number-non-rectifiable-curves, monodromy-theorem, path-lifting-in-covering-space]
+  recommended: [fundamental-group-of-punctured-plane]
+  suggested: [argument-principle]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "7"
+    section: "7.12"
+    pages: ""
+    role_in_book: "Characterizes homotopy equivalence of closed curves in the punctured plane via equality of winding numbers, establishing that the winding number is a complete homotopy invariant for closed curves in C\{0}."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

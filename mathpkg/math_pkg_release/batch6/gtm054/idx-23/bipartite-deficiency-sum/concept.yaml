@@ -1,0 +1,23 @@
+id: bipartite-deficiency-sum
+title_en: "For any bipartite graph, the graph deficiency equals the sum of the two bipartite deficiencies"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: advanced
+tags: [bipartite-graph, deficiency, 1-factor, extremal-set]
+depends_on:
+  required: [deficiency-of-graph, deficiency-of-subset-bipartite]
+  recommended: [critical-set-bipartite, extremal-set]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "V"
+    section: "B"
+    pages: ""
+    role_in_book: "Proposition B1: $\delta = \delta_1 + \delta_2$ for bipartite graphs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

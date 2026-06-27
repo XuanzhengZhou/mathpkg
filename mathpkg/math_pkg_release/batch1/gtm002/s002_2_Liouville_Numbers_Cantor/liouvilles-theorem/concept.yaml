@@ -1,0 +1,17 @@
+id: liouvilles-theorem
+title_en: "Liouville's Theorem on Transcendence of Liouville Numbers"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: transcendental-number-theory
+difficulty: intermediate
+tags: [liouville, transcendental, diophantine-approximation, algebraic-numbers]
+depends_on:
+  required: [liouville-inequality, liouville-number, algebraic-number, transcendental-number]
+  recommended: [degree-of-algebraic-number]
+  suggested: []
+source_books:
+  - {book_id: "gtm002", author: "John C. Oxtoby", title: "Measure and Category", chapter: "1", section: "2", pages: "16", role_in_book: "Theorem 2.3; establishes that Liouville numbers are transcendental, providing the first constructive proof of the existence of transcendental numbers"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

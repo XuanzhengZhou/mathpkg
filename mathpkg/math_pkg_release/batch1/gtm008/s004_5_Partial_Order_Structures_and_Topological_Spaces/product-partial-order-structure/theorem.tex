@@ -1,0 +1,6 @@
+Let $P_i = \langle P_i, \leq_i \rangle$, $i \in I$, ($I$ an index set) be partial order structures each having a greatest element $1_i$. Then the \textit{product structure} $P \triangleq \prod_{i \in I} P_i \triangleq \langle P, \leq \rangle$ is defined as:
+\begin{enumerate}
+\item $P \triangleq \{p \in \prod_{i \in I} P_i \mid p(i) = 1_i \text{ for all but finitely many } i \in I\}$.
+\item $(\forall p, q \in P)[p \leq q \leftrightarrow (\forall i \in I)[p(i) \leq_i q(i)]]$.
+\item $1 \triangleq$ the unique $p \in P$ such that $(\forall i \in I)[p(i) = 1_i]$.
+\end{enumerate}

@@ -1,0 +1,5 @@
+Every formula $\varphi$ in the pure theory of equality is equivalent under $\Gamma_3$ to a Boolean combination of the sentences $\varepsilon_k$ (for $k \geq 1$), where $\varepsilon_k$ asserts that there are at least $k$ distinct elements.
+
+More specifically, for a formula $\varphi$ of the form $\exists\alpha[\neg(\alpha = \beta_m) \land \cdots \land \neg(\alpha = \beta_{n-1})]$ where $\beta_m,\ldots,\beta_{n-1}$ are distinct variables different from $\alpha$ and $I = \{m,\ldots,n-1\}$:
+
+$$\models \varphi \leftrightarrow \bigwedge_{J \subseteq I} \left(\bigwedge_{i,j \in J, i \neq j} \neg(\beta_i = \beta_j) \rightarrow \varepsilon_{|J|+1}\right).$$

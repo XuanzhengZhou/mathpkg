@@ -1,0 +1,23 @@
+id: schrodinger-equation
+title_en: "Schrödinger Equation"
+title_zh: ""
+type: definition
+domain: applied-math
+subdomain: quantum-mechanics
+difficulty: intermediate
+tags: [schrodinger-equation, quantum-mechanics, wave-function, potential-energy, laplace-operator]
+depends_on:
+  required: [laplace-operator, wave-function, potential-energy]
+  recommended: [planck-constant, partial-differential-equation]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 11"
+    section: "Short Wave Asymptotics"
+    pages: "pp. 446-452"
+    role_in_book: "Introduced as the fundamental equation for quasi-classical approximation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

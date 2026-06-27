@@ -1,0 +1,1 @@
+A Carathéodory outer measure is a countably subadditive set function defined on all subsets. The Carathéodory construction carves out a $\sigma$-algebra of measurable sets on which the outer measure becomes countably additive.

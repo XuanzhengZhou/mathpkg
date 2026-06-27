@@ -1,0 +1,23 @@
+id: puppe-sequence-exactness-for-s-maps
+title_en: "Puppe Sequence Exactness for S-Maps"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: stable-homotopy
+difficulty: intermediate
+tags: [puppe-sequence, s-map, exact-sequence, mapping-cone, suspension]
+depends_on:
+  required: [s-map, puppe-sequence, mapping-cone, suspension-functor]
+  recommended: [exact-sequence-of-abelian-groups]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "2"
+    pages: "234-236"
+    role_in_book: "Extends the Puppe sequence exactness to the S-category, yielding long exact sequences of S-maps"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

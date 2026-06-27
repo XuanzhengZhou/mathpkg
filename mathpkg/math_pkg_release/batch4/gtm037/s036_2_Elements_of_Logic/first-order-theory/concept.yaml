@@ -1,0 +1,23 @@
+id: first-order-theory
+title_en: "Theory (in First-Order Logic)"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [theory, deductive-closure, first-order-logic, L-structure, conservative-extension]
+depends_on:
+  required: [first-order-language, L-structure, logical-consequence, sentence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "11"
+    section: "2"
+    pages: ""
+    role_in_book: "Fundamental definition introducing the notion of a theory as a deductively closed set of sentences"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

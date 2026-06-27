@@ -1,0 +1,27 @@
+Let $A(x,y)$ be the potential kernel of an aperiodic two-dimensional recurrent random walk. For every fixed pair of points $y_1$ and $y_2$ in $R,$
+
+$$\lim_{|x| \to \infty} [A(x,y_1) - A(x,y_2)] = 0.$$
+
+Proof: The statement of P2 is clearly equivalent to stating that for an arbitrary fixed $
+
+where
+
+$$\psi(\theta) = \frac{1 - e^{i\theta}}{1 - \phi(\theta)}$$
+
+However, we saw in the proof of P1 that $\psi(\theta)$ is Lebesgue integrable on the square $C$. Therefore the Riemann Lebesgue Lemma (P9.1) gives
+
+$$\lim_{|x| \to \infty} \int e^{ix\theta} \psi(\theta) d\theta = 0,$$
+
+which completes the proof of P2.
+
+It is of course of considerable interest to know more about the asymptotic behavior of $a(x)$ for the simple random walk with $P(0,x) = \frac{1}{4}$ when $|x| = 1$. But it turns out to be hardly more work to discuss a somewhat larger class of random walks, which satisfies the following conditions
+
+(a) $P(x,y)$ is two dimensional, and aperiodic,
+
+(b) $$\mu = \sum xP(0,x) = 0,$$
+
+(c) $$Q(\theta) = \sum (x \cdot \theta)^2 P(0,x) = E[(\mathbf{X} \cdot \theta)^2] = \sigma^2 |\theta|^2 < \infty,$$
+
+(d) $$E[|\mathbf{X}|^{2+\delta}] = \sum |x|^{2+\delta} P(0,x) < \infty \text{ for some } \delta > 0.$$
+
+Of course simple random walk satisfies these conditions, and we also know (T8.1) that (b) and (c) imply that the random walk is recurrent. In addition (c) introduces the isotropy requirement that $Q(\theta)$ be proportional to $|\theta|^2$ rather than to any positive definite quadratic form. That is essential and so is (d) in order to obtain a result as sharp and simple as the following.

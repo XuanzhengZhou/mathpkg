@@ -1,0 +1,23 @@
+id: normalized-matrix
+title_en: "Normalized Matrix of an o-Endomorphism"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [normalized-matrix, endomorphism, canonical-form, principal-ideal-domain]
+depends_on:
+  required: [matrix-condition-for-o-endomorphism, cyclic-module-decomposition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "3"
+    section: "16"
+    pages: ""
+    role_in_book: "Defines the canonical matrix representation of an endomorphism with respect to the invariant factor decomposition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

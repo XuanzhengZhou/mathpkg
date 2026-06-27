@@ -1,0 +1,23 @@
+id: korteweg-de-vries-equation
+title_en: "Korteweg–de Vries equation"
+title_zh: "KdV方程"
+type: definition
+domain: applied-math
+subdomain: integrable-systems
+difficulty: advanced
+tags: [kdv, nonlinear-pde, soliton, integrable-system, shallow-water-waves]
+depends_on:
+  required: []
+  recommended: [partial-differential-equations, hamiltonian-mechanics]
+  suggested: [soliton-theory, inverse-scattering, lax-pair]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "The Korteweg–de Vries equation"
+    pages: ""
+    role_in_book: "Introduces the KdV equation as an example of hidden symmetry and complete integrability in infinite dimensions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

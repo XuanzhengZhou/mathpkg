@@ -1,0 +1,10 @@
+\mathcal{L}_5 \text{ is a definitional expansion of } \mathcal{L}_4 \text{ with the following new symbols and axioms:}
+
+\text{(i) } (\cdot,\cdot), \text{ a binary operation symbol. New axiom:}
+$$\forall v_0 \forall v_1 [(v_0, v_1) = \{ \{v_0\}, \{v_0, v_1\} \}]$$
+
+\text{(ii) } \mathbf{Rln}, \text{ a unary relation symbol. New axiom:}
+$$\forall v_0 (\mathbf{Rln}\, v_0 \leftrightarrow \forall v_1 \{v_1 \in v_0 \rightarrow \exists v_2 \exists v_3 [v_1 = (v_2, v_3)]\})$$
+
+\text{(iii) } \mathbf{Fcn}, \text{ a unary relation symbol. New axiom:}
+$$\forall v_0 \{\mathbf{Fcn}\, v_0 \leftrightarrow \mathbf{Rln}\, v_0 \land \forall v_1 \forall v_2 \forall v_3 [(v_1, v_2) \in v_0 \land (v_1, v_3) \in v_0 \rightarrow v_2 = v_3]\}$$

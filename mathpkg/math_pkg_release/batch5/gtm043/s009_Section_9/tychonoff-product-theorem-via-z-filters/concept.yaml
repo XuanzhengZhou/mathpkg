@@ -1,0 +1,23 @@
+id: tychonoff-product-theorem-via-z-filters
+title_en: "Tychonoff Product Theorem (via z-Filters)"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [tychonoff-theorem, compact, product-space, z-ultrafilter, completely-regular]
+depends_on:
+  required: [compact, product-space, z-ultrafilter, z-filter-fixed-free, z-ultrafilter-product-lemma]
+  recommended: [compactness-via-fixed-ideals]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4.14"
+    pages: ""
+    role_in_book: "Proves the Tychonoff product theorem using z-filters, establishing that any product of compact spaces is compact."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

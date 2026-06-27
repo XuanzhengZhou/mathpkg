@@ -1,0 +1,15 @@
+Let $A$ be a nonempty proper subset of the state space $R$ of an aperiodic transient random walk. Then the set $A$ is either recurrent, in which case
+
+$$H_A(x) \equiv 1, \quad E_A(x) \equiv 0, \quad h_A = 1,$$
+
+or it is transient, and in that case
+
+$$H_A(x) < 1 \text{ for some } x \in R, \quad E_A(x) > 0 \text{ for some } x \in A, \quad h_A = 0, \text{ and}$$
+
+$$H_A(x) = \sum_{y \in A} G(x,y)E_A(y), \quad x \in R.$$
+
+Remark: Every finite set $A$ is transient, for every transient random walk. The proof of this remark may be reduced to the case when $|A| = 1$ by the following simple argument. A single point is a transient set, according to the definition of transient random walk in D1.5, if and only if the random walk is transient. Suppose now that a finite set $A$ were recurrent. Then at least one of its points would be visited infinitely often with positive probability. This particular point would then be a recurrent set in the sense of D2, but that would make the random walk recurrent, which it is not.
+
+Now we turn briefly to several other aspects of the potential theory associated with transient random walk. The idea is not to develop fully the analogy with classical Newtonian potential theory, nor even to prove theorems in analysis, just because they are “provable.” Rather we want to prepare some of the machinery which is required to carry the probability theory of random walk a little further. Thus we would like to find effective methods for deciding whether a specific subset of the state space is recurrent or transient, and this objective will be attained in the next section for a regrettably small class of random walks.
+
+Despite our limited objective, we need a few of the notions which belong to the standard repertoire of Newtonian potential theory.

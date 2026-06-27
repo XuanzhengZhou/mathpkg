@@ -1,0 +1,23 @@
+id: visit-variables-and-matrices
+title_en: "Visit Variables and Matrices for Markov Chains"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, hitting-probability, expected-visits, first-entrance]
+depends_on:
+  required: []
+  recommended: [markov-chain, stochastic-process, conditional-probability]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "6"
+    pages: ""
+    role_in_book: "Defines core notation for visit counting and hitting events in Markov chains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

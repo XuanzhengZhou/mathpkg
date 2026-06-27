@@ -1,0 +1,23 @@
+id: systems-theorem-for-markov-chains-expectation
+title_en: "Systems Theorem for Markov Chains (Expectation)"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [systems-theorem, strong-markov-property, random-time, expectation-decomposition]
+depends_on:
+  required: [strong-markov-property, systems-theorem-for-markov-chains-probability, markov-chain, random-time]
+  recommended: [random-variable, mean]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "5"
+    pages: ""
+    role_in_book: "Theorem 4-11: Systems theorem for means - generalization of Theorem 4-10 from characteristic functions to arbitrary random variables, decomposing expectation via the state at a random time"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

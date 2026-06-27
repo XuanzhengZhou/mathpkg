@@ -1,0 +1,51 @@
+$$\lim_{n \to \infty} \sqrt{n} P_x[T >
+
+Now it remains only to prove T1 in one dimension, when $\sigma^2 = \infty$. It is natural to look back at the proof of T16.1, inquiring whether the present case can be handled by the same methods. In the proof of T16.1 we arrived at the equation
+
+$$\frac{P_x[T > n]}{P_0[T > n]} = \frac{R_{n+1}}{R_n} \sum_{t \neq 0} g(x,t)v_n(t), \quad x \neq 0.$$
+
+Here $v_n(t)$ was a sequence of probability measures on $R - \{0\}$, and we were able to show that
+
+$$\lim_{n \to \infty} v_n(t) = 0, \quad t \in R - \{0\}$$
+
+using the result of P16.1, namely
+
+$$\lim_{n \to \infty} \frac{R_n}{R_{n+1}} = 1.$$
+
+The proof of T16.1 was then completed by combining (2) and (3) with the asymptotic result that
+
+$$\lim_{|t| \to \infty} g(x,t) = a(x), \quad x \in R - \{0\}.$$
+
+In view of P29.4 and T29.1 equation (4) is also valid for aperiodic recurrent one-dimensional random walk with $\sigma^2 = \infty$. (It is false when $\sigma^2 < \infty$ and that is why this case required a different proof, given in P2, P3, and P4.) Consequently the proof of T1 would be complete if we had a proof of (3). That difficulty will be resolved by proving the far stronger statement in T2, which implies (3). (If a random walk is strongly aperiodic, then obviously $F_n/F_{n+1} \to 1$ entails
+
+$$\frac{R_n}{R_{n+1}} = 1 + \frac{F_{n+1}}{R_{n+1}} \to 1.$$
+
+And if it is not strongly aperiodic, then by P5.1, $F_k = 0$ unless $k = ns$ for some integer $s > 1$. But in
+
+for all large enough $n$, according to P5.2. The random walk being recurrent, we can choose $a_1 > 0$ and $a_2 > 0$ so that
+
+$$P(0, a_1) > 0 \quad \text{and} \quad P(0, -a_2) > 0.$$
+
+Then
+
+(1) $$P[S_1 = a_1, S_{n-1} - S_1 = a_2 - a_1, S_n = 0] \geq (1 - \epsilon)^n$$
+
+for sufficiently large $n$. This is obvious since the above probability is nothing but $P(0, a_1)P[S_{n-2} = a_2 - a_1]P(0, -a_2)$. The notation of partial sums $S_k = X_1 + \cdots + X_k$ of Chapter IV was chosen because it facilitates the following combinatorial argument. Consider the sequence $X_2, X_3, \ldots, X_{n-1}$, and subject it to all possible cyclic permutations (of which there are $n - 2$, including the identity). If $p$ is one of these cyclic permutations (acting on the integers 2, 3, \ldots, $n - 1$) we get $X_{p(2)}, \ldots, X_{p(n-1)}$. For each cyclic permutation $p$ consider the polygonal line $L(p)$ in the plane formed by connecting the points
+
+$$(1, a_1), (2, a_1 + X_{p(2)}), (3, a_1 + X_{p(2)} + X_{p(3)}), \ldots, (n - 1, a_2).$$
+
+For at least one of the $n - 2$ permutations the polygonal line will lie entirely above or on the chord connecting $(1, a_1)$ to $(n - 1, a_2)$. This may easily be inferred from the illustration below, where $n = 6$ and $p$ is the cyclic permutation $(3, 4, 5, 2)$. Which one of the
+
+coordinates. Thus each cyclic permutation of the integers $2, \ldots, n-1$ is equally likely to yield such a polygon.
+
+Now we are nearly finished. Call $E_n(p)$ the event that $X_1 = a_1, X_n = -a_2$ and that $L(p)$ lies above its chord. Then, for each $p$, the probability of $E_n(p)$ is at least as large as the probability in (1) divided by $n-2$. If $e$ denotes the identity permutation, then
+
+$$P_0[E_n(e)] \geq \frac{(1-\epsilon)^n}{n-2},$$
+
+for large enough $n$. On the other hand, the event $E_n(e)$ implies that the first return of the random walk $x_n$ with $x_0 = 0$ to the origin occurs at time $n$. Hence
+
+$$F_n \geq P_0[E_n(e)] \geq \frac{(1-\epsilon)^n}{n-2}$$
+
+for sufficiently large $n$, and that proves P5.
+
+Remark: At this point, using P5, it is possible to complete the proof of T2 in a few lines, under the additional hypothesis that $P(0,0) > 0$. This may be done just as in the proof of the ratio ergodic theorem in P5.4. (Wherever we used P5.2, giving the exponential lower bound $P_n(0,0) \geq (1-\epsilon)^n$ in proving P5.4, one may now use P5 in exactly the same way.) However, it does not seem possible to eliminate the hypothesis that $P(0,0) > 0$ when working with the sequence $F_n$ instead of $U_n = P_n(0,0)$. Therefore a different approach is necessary, which begins with

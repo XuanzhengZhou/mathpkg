@@ -1,0 +1,23 @@
+id: hilbert-closed-subspace-algebra
+title_en: "The Partial Boolean Algebra B(H) of Closed Subspaces of a Hilbert Space"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: quantum-logic
+difficulty: advanced
+tags: [quantum-logic, hilbert-space, closed-subspace, partial-boolean-algebra, projection]
+depends_on:
+  required: [partial-boolean-algebra]
+  recommended: [hilbert-space, orthogonal-complement]
+  suggested: [projection-operator]
+source_books:
+  - book_id: "gtm053"
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "12"
+    section: "12.11"
+    pages: ""
+    role_in_book: "Canonical example of a partial Boolean algebra arising from quantum mechanics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

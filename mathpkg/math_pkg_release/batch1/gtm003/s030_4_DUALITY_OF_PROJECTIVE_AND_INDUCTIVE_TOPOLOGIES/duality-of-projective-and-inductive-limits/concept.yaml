@@ -1,0 +1,23 @@
+id: duality-of-projective-and-inductive-limits
+title_en: "Duality of Projective and Inductive Limits (Theorem 4.4)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [projective-limit, inductive-limit, duality, mackey-topology, locally-convex-space]
+depends_on:
+  required: [projective-limit, inductive-limit, dual-of-product-of-locally-convex-spaces, dual-system-induced-by-subspace]
+  recommended: [mackey-space, product-direct-sum-duality-of-s-topologies]
+  suggested: [strict-inductive-limit]
+source_books:
+  - book_id: gtm003
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "4"
+    pages: "146-156"
+    role_in_book: "Establishes that the Mackey dual of a projective limit is an inductive limit of the duals, and vice versa"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

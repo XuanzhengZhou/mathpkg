@@ -1,0 +1,30 @@
+id: uniqueness-of-identity-arrow
+title_en: Uniqueness of the Identity Arrow
+title_zh: ''
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags:
+- identity
+- uniqueness
+- metacategory
+- category-theory
+depends_on:
+  required:
+  - metacategory
+  - unit-law-axiom
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: I
+  section: '1'
+  pages: ''
+  role_in_book: first structural result; justifies identifying objects with their
+    identity arrows
+content_hash: ef062896b3f3356a
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

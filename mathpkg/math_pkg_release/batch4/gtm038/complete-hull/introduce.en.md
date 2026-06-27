@@ -1,0 +1,1 @@
+The complete hull of a proper Reinhardt domain is obtained by filling in all polycylinders centered at the origin that are contained within the domain. It is the largest complete Reinhardt domain contained in $G$.

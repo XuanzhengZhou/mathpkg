@@ -1,0 +1,23 @@
+id: m-j-coefficient-dirichlet
+title_en: "m_j coefficient in Dirichlet's L(1,\\chi_j) formula"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: dirichlet-l-functions
+difficulty: intermediate
+tags: [dirichlet-l-function, cyclotomic-integers, primitive-root, character-sum]
+depends_on:
+  required: [c-nu-coefficients, dirichlet-character, primitive-root]
+  recommended: [dirichlets-formula-for-l1-chi, cyclotomic-units]
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "6. Determination of the Class Number"
+    section: "6.5 Dirichlet's evaluation of L(1,\\chi)"
+    pages: ""
+    role_in_book: "The normalized coefficient appearing in the compact form of Dirichlet's formula for even and odd character cases"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

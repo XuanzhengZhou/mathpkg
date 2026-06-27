@@ -1,0 +1,23 @@
+id: finite-projective-plane-mols-equivalence
+title_en: "Equivalence of Finite Projective Planes and Complete Sets of MOLS"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: latin-squares
+difficulty: intermediate
+tags: [projective-plane, mols, equivalence, complete-set]
+depends_on:
+  required: [projective-plane-yields-complete-mols, complete-mols-yields-ptr]
+  recommended: [finite-projective-plane]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D. R. Hughes, F. C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "5"
+    pages: "132-137"
+    role_in_book: "Corollary summarizing the equivalence between finite projective planes and complete sets of MOLS"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

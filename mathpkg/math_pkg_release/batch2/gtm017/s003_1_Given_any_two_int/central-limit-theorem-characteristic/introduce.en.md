@@ -1,0 +1,1 @@
+The central limit theorem states that the normalized sum of i.i.d. random variables with finite variance converges in distribution to the standard normal. The characteristic function proof is elegant: Taylor expansion around zero reveals the rescaled sum's characteristic function converges pointwise to $e^{-t^2/2}$. Combined with the continuity theorem, this yields the CLT.

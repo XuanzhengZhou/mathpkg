@@ -1,0 +1,23 @@
+id: standard-borel-subalgebras-conjugate
+title_en: "Conjugacy of Standard Borel Subalgebras"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [borel-subalgebra, standard-borel, conjugacy, mathcal-e, root-system, weyl-group]
+depends_on:
+  required: [borel-subalgebra, mathcal-e-group, root-system, cartan-subalgebra]
+  recommended: [weyl-group, base-of-root-system, simple-reflection]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "16"
+    section: "16.3"
+    pages: "91-101"
+    role_in_book: "Key lemma: all standard Borel subalgebras relative to a fixed CSA are conjugate under E(L); used in proof of full Borel conjugacy"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

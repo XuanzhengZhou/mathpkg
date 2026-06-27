@@ -1,0 +1,23 @@
+id: positivity-equivalence-cstar
+title_en: "Equivalent characterizations of positive elements in a unital C*-algebra"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [c-star-algebra, positive-element, characterization]
+depends_on:
+  required: [c-star-algebra, positive-element-cstar]
+  recommended: [spectrum, order-unit]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "3"
+    pages: ""
+    role_in_book: "Lemma (b): For a self-adjoint element x in a unital C*-algebra, positivity is equivalent to an estimate involving the norm and unit"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+The closure $\bar{S}$
+
+By formula (2) (§1) this distance satisfies the "strong triangle inequality":
+
+(2) $d(x, z) \leq \max \{d(x, y), d(y, z)\}$.
+
+Naturally, this distance function does not define a metric in $E$, in the usual sense, unless $E$ is a Hausdorff space; we have namely $d(x, y) = 0$ if and only if $x - y \in \bigcap_{n=0}^{\infty} m^n E$. Nevertheless we can speak of Cauchy sequences $\{x_n\}$ in $E$: they are the sequences such that $x_n - x_{n+i} \in m^{N(n)} E$ for all $i \geq 0$, where $N(n) \to +\infty$ as $n \to +\infty$. In view of the strong triangle inequality (2) it is seen at once that $\{x_n\}$ is a Cauchy sequence if and only if $d(x_n, x_{n+1}) \to 0$. A null sequence $\{x_n\}$ is one for which $d(x_n, 0) \to 0$. A limit of a sequence $\{x_n\}$ is any element $y$ of $E$ such that $\{x_n - y\}$ is a null sequence. If $\{x_n\}$ has a limit $y$, then $y'$ is also a limit of $\{x_n\}$ if and only if $y' - y \in \bigcap_{n=0}^{\infty} m^n E$. The module $E$ is complete if every Cauchy sequence in $E$ converges in $E$ (i.e., has a limit in $E$). In view of the strong triangle inequality, if $E$ is complete then the convergent series $\sum_{n=0}^{\infty} z_n$ are those whose general term $z_n$ tends to zero.
+
+Let $F$ now be a submodule of $E$. The factor $A$-module $E/F$ admits a unique topology such that the canonical mapping $f: E \to E/F$ is both open and continuous: it is the topology defined by taking as basis of neighborhoods of the zero of $E/F$ the $f$-images
+
+of $E$ containing $\mathfrak{b}^s E$ such that $\mathfrak{b}F = F \cap F'$; thus $\mathfrak{b}F \supset F \cap \mathfrak{b}^s E$. In particular, any basic neighborhood $m^n F$ for the $m$-topology contains some basic neighborhood $F \cap m^{n s} E$ of the induced topology. Q.E.D.
+
+Another proof of Theorem 4 may be deduced from the following result, due to E. Artin and D. Rees:

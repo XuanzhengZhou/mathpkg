@@ -1,0 +1,23 @@
+id: minkowski-space
+title_en: "Minkowski Space"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: pseudo-euclidean-geometry
+difficulty: intermediate
+tags: [minkowski-space, special-relativity, pseudo-euclidean, lorentz]
+depends_on:
+  required: [pseudo-euclidean-space]
+  recommended: [fore-cone-past-cone, lorentz-transformation]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines Minkowski space as a 4-dimensional pseudo-Euclidean space of index 3"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

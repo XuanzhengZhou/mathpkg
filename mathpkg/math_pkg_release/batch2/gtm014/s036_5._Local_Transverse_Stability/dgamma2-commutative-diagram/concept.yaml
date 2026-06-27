@@ -1,0 +1,23 @@
+id: dgamma2-commutative-diagram
+title_en: "Proposition 5.11: Commutative Diagram for the Source Action on Jet Orbits"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [jet-bundle, diffeomorphism-group, commutative-diagram, tangent-space, orbit]
+depends_on:
+  required: [dgamma1-commutative-diagram, lambda-linear-injection]
+  recommended: [source-map-exact-sequence, one-parameter-group]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "5"
+    pages: "136-137"
+    role_in_book: "Relates the action of Diff(X) on the jet orbit to the derivative of the k-jet map and the map lambda."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

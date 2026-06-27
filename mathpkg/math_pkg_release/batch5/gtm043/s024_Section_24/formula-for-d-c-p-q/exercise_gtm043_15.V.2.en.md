@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "15"
+section: "V"
+exercise_number: 2
+---
+Prove: For $p, q \in c[X; \mathcal{D}]$,
+$$d^c(p, q) = \inf \{d\{Z\}: Z \in A^p \cap A^q\} = \sup \{d[Z_p, Z_q]: Z_p \in A^p, Z_q \in A^q\}.$$

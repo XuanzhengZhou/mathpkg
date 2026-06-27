@@ -1,0 +1,23 @@
+id: integral-closure-contained-in-finite-module
+title_en: "Theorem 7: Integral closure contained in a finite module"
+title_zh: "定理7：整闭包包含于有限模中"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [integral-closure, finite-module, separable-extension, integrally-closed-domain]
+depends_on:
+  required: []
+  recommended: [integrally-closed-domain, integral-closure, separable-extension, trace-form]
+  suggested: [noetherian-ring]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra. Vol. I"
+    chapter: "V"
+    section: "§4. Finiteness theorems"
+    pages: ""
+    role_in_book: "Core structure theorem for integral closures in separable extensions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

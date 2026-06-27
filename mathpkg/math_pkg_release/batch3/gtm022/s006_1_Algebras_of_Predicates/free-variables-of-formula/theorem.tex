@@ -1,0 +1,7 @@
+Let $w \in P(V, \mathcal{R})$ and let $\tilde{w} \in \tilde{P}(V, \mathcal{R})$ be some representative of the congruence class $w$. The set $\text{var}(w)$ of free variables of $w$ is defined by $\text{var}(w) = \text{var}(\tilde{w})$, where $\text{var}(\tilde{w})$ is given inductively by:
+\begin{itemize}
+\item[(i)] $\text{var}(F) = \varnothing$.
+\item[(ii)] $\text{var}(r(x_1, \ldots, x_n)) = \{x_1, \ldots, x_n\}$ for $r \in \mathcal{R}$, $x_1, \ldots, x_n \in V$.
+\item[(iii)] $\text{var}(\tilde{w}_1 \Rightarrow \tilde{w}_2) = \text{var}(\tilde{w}_1) \cup \text{var}(\tilde{w}_2)$.
+\item[(iv)] $\text{var}((\forall x)\tilde{w}) = \text{var}(\tilde{w}) - \{x\}$.
+\end{itemize}

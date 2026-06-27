@@ -1,0 +1,9 @@
+Let $(V, k)$ be an integral network and let $e_0 \in W$.
+
+\textbf{Step 1:} Select a feasible flow $h$ for $(V, k)$.
+
+\textbf{Step 2:} Search for an elementary circuit $D$ which is unsaturated with respect to $h$ and $e_0$.
+
+\textbf{Step 3:} If such a circuit $D$ exists, replace $h$ by $h + h_D$ and return to Step 2.
+
+\textbf{Step 4:} If no such $D$ exists then $h$ is a maximum flow through $e_0$.

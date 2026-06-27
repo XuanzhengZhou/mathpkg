@@ -1,0 +1,23 @@
+id: radical-of-projective-module
+title_en: "Radical of a Projective Module"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [radical, projective-module, jacobson-radical]
+depends_on:
+  required: [projective-module-equivalent-conditions]
+  recommended: [jacobson-radical, radical-of-module]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "5"
+    section: "17"
+    pages: ""
+    role_in_book: "Proposition 17.10 — for projective module P, Rad(P) = JP"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

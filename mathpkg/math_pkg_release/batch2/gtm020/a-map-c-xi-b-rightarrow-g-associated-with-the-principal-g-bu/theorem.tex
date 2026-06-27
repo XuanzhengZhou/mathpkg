@@ -1,0 +1,23 @@
+The above discussion could be carried out for vector bundles of dimension $k$, using $G = U_F(k)$.
+
+9. Characteristic Map of the Tangent Bundle over $S^n$
+
+9.1 Notation. Let $a, b \in S^{n-1}$ and $a \neq -b$. Let $R(b, a)$ denote the rotation in $SO(n)$ with the
+
+9.3 Notation. We define $\phi: S^n - \{-e_n\} \rightarrow SO(n + 1)$ by the relation $\phi(x) = R(x, e_n)$, where $R$ is defined in (9.1). Let $r(x) = \phi(e_{n-1})^2(x)$. We can calculate $\phi(e_{n-1})(x_0, \ldots, x_n) = (x_0, \ldots, x_{n-2}, x_n, -x_{n-1})$, and consequently we have $r(x_0, \ldots, x_n) = (x_0, \ldots, x_{n-2}, -x_{n-1}, -x_n)$ and $r^2 = 1$.
+
+9.4 Local Charts for $SO(n + 1) \rightarrow S^n$. We define maps $h_1: (S^n - \{-e_n\}) \times SO(n) \rightarrow SO(n + 1)$ and $h_2: (S^n - \{e_n\}) \times SO(n) \rightarrow SO(n + 1)$ by the relations $h_1(x, u) = \phi(x)u$ and $h_2(x, u) = r\phi(r(x))u$, where the following diagrams are commutative.
+
+$$\begin{array}{c}
+(S^n - \{-e_n\}) \times SO(n) \xrightarrow{h_1} SO(n + 1) \\
+S^n
+\end{array}$$
+
+$$\begin{array}{c}
+(S^n - \{e_n\}) \times SO(n) \xrightarrow{h_2} SO(n + 1) \\
+S^n
+\end{array}$$
+
+Observe that $p(\phi(x)u) = \phi(x)u(e_n) = \phi(x)e_n = x$ and $ph_2(x, u) = r\phi(r(x))u(e_n) = r\phi(r(x))e_n = r(r(x)) = x$ by (9.3). Clearly, $h_1$ and $h_2$ commute with the action of $SO(n)$ on the right. The transition map $g
+
+Second, we do the calculation for $\pi/2 \leq \theta \leq \pi$. We have $R(x, e_{n-1})^2(0, 0) = (2\theta - 2\pi, 0)$. Since $R(x, e_n)$ is a $90^\circ$ rotation from $e_n$ to $x$ around the axis $(\theta - 3\pi/2, 0)$ and $\theta - 3\pi/2 \leq 2\theta - 2\pi$, we have $R(x, e_n)(2\theta - 2\pi, 0) = (\theta - 3\pi/2, \theta - \pi/2)$. For the other side of the relation, we observe also that $r(\theta, \phi) = (-\pi - \theta, -\phi)$ for $-\pi \leq \theta \leq 0$. Then $R(r(x), e_n)$ is a $90^\circ$ rotation from $e_n$ to $(\pi - \theta, 0)$ around the axis $(\pi/2 - \theta, 0)$, and we have $R(r(x), e_n)(0, 0) = (\pi/2 - \theta, \pi/2 - \theta)$. Finally, we have $rR(r(x), e_n)(0, 0) = r(\pi/2 - \theta, \pi/2 - \theta) = (\theta - 3\pi/2, \theta - \pi/2)$. This proves the theorem since a rotation is determined by its image on two points $x$ and $y$ with $x \neq y$ and $x \neq -y$.

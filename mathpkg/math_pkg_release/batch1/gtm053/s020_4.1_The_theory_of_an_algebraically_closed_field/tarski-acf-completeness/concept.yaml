@@ -1,0 +1,13 @@
+id: tarski-acf-completeness
+title_en: "Tarski's theorem on completeness and quantifier elimination for ACF_p"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [completeness, quantifier-elimination, algebraically-closed-field, tarski, steinitz-theorem]
+depends_on: {required: [acf-p-theory, quantifier-elimination], recommended: [steinitz-theorem, transcendence-degree], suggested: [back-and-forth-method]}
+source_books: [{book_id: "gtm053", author: "Yuri I. Manin", title: "A Course in Mathematical Logic for Mathematicians", chapter: "4", section: "4.2", pages: "", role_in_book: "Theorem 4.2: ACF_p is complete and allows quantifier elimination"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: cofactor-expansion-determinant
+title_en: "Cofactor Expansion of the Determinant"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [determinant, cofactor-expansion, laplace-expansion]
+depends_on:
+  required: [definition-of-determinant]
+  recommended: [definition-of-cofactor]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "7"
+    section: "2"
+    pages: ""
+    role_in_book: "Recalled as a known property used to derive the adjoint matrix relation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

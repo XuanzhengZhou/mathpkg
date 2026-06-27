@@ -1,0 +1,23 @@
+id: generated-sigma-ring-section-formula
+title_en: "Generated Sigma-Ring Section Formula"
+title_zh: "生成σ-环的截面公式"
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: intermediate
+tags: [set-theory, sigma-ring, section, generated-class]
+depends_on:
+  required: [sigma-ring, generated-sigma-ring, set-difference]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "I"
+    section: "5"
+    pages: ""
+    role_in_book: "Theorem E: For any class E of sets and any subset A of X, S(E) ∩ A = S(E ∩ A)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

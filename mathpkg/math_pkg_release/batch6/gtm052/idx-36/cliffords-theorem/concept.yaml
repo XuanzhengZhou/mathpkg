@@ -1,0 +1,23 @@
+id: cliffords-theorem
+title_en: "Theorem 5.4: Clifford's theorem"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-curves
+difficulty: intermediate
+tags: [cliffords-theorem, linear-system, special-divisor, riemann-roch, hyperelliptic-curve, canonical-divisor]
+depends_on:
+  required: [riemann-roch-theorem, lemma-sum-of-dimensions-of-linear-systems]
+  recommended: [special-divisor, canonical-divisor, hyperelliptic-curve]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "IV"
+    section: "5"
+    pages: ""
+    role_in_book: "Classical bound on the dimension of a special linear system on a curve"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

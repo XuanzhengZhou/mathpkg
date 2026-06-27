@@ -1,0 +1,24 @@
+id: kernel-subspace-condition-for-linear-extension
+title_en: "Existence of Linear Map with Prescribed Kernel"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [linear-map, kernel, vector-space, dimension-condition, ocr-incomplete]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "§6"
+    pages: ""
+    role_in_book: "Used in proof of Proposition 6.1 to construct a map germ with prescribed S_n singularity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"
+ocr_notes: "Lemma statement is incomplete in OCR — text cuts off after 'If dim...'. Statement reconstructed from mathematical context."

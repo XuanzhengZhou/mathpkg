@@ -1,0 +1,23 @@
+id: factoring-via-kernel-containment
+title_en: "Factoring a Linear Map via Kernel Containment"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [factorization, kernel, linear-mapping, commutative-diagram]
+depends_on:
+  required: [kernel, linear-mapping, quotient-space]
+  recommended: [first-isomorphism-theorem, induced-linear-map-on-quotient]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "2"
+    section: "§1. Basic properties, 2.4"
+    pages: ""
+    role_in_book: "Characterizes when one linear map factors through another via kernel containment"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

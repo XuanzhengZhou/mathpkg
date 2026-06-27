@@ -1,0 +1,23 @@
+id: similarity-over-extension-implies-similarity-over-base-field
+title_en: "Similarity over Extension Field Implies Similarity over Base Field"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [field-extension, matrix-similarity, linear-transformation, infinite-field, kronecker-product]
+depends_on:
+  required: [extension-of-vector-space-base-field, dimension-preservation-under-field-extension]
+  recommended: [matrix-similarity, linear-independence, field-extension]
+  suggested: [determinant, polynomial-identity]
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "VII"
+    section: "8"
+    pages: "234-235"
+    role_in_book: "Theorem 5 — shows that matrix similarity over an extension field can be realized over the original field when the base field is infinite"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: mersenne-prime-definition
+title_en: "Mersenne Prime"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: prime-numbers
+difficulty: basic
+tags: [mersenne, primes, 2n-minus-1, perfect-numbers]
+depends_on:
+  required: [perfect-number-definition]
+  recommended: [euclid-perfect-number-formula]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "1"
+    section: "1.8"
+    pages: ""
+    role_in_book: "Definition motivated by Euclid's perfect number construction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

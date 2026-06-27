@@ -1,0 +1,23 @@
+id: economical-description-abelian-categories
+title_en: "Economical Description of Abelian Categories"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [abelian-category, axiomatics, additive-category, binary-products, binary-coproducts]
+depends_on:
+  required: [abelian-category, additive-category]
+  recommended: [binary-product, binary-coproduct]
+  suggested: [freyd-mitchell-embedding-theorem]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Alternative axiomatic characterization of abelian categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

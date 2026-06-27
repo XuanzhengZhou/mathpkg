@@ -1,0 +1,1 @@
+The second extension approximates arbitrary nonnegative functions from above by lower semicontinuous functions. This two-step process (first below, then above) yields an outer integral with all the crucial properties: monotonicity, subadditivity, and countable additivity.

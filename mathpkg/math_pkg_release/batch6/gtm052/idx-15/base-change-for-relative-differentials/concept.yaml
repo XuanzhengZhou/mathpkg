@@ -1,0 +1,23 @@
+id: base-change-for-relative-differentials
+title_en: "Base Change for Relative Differentials"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [differentials, base-change, tensor-product, kahler-differentials]
+depends_on:
+  required: [relative-differentials-via-diagonal]
+  recommended: [tensor-product-of-algebras]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Proposition 8.2A: base change for the module of relative differentials; if A' is an A-algebra then Ω_{B⊗_A A'/A'} ≅ Ω_{B/A} ⊗_B (B⊗_A A')"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

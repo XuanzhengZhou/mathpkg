@@ -1,0 +1,23 @@
+id: dirichlet-l1chi-odd-characters
+title_en: "Dirichlet's Evaluation of $L(1,\\chi)$ for Odd Characters"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [dirichlet-l-function, cyclotomic-fields, class-number, gauss-sum]
+depends_on:
+  required: [dirichlet-character, cyclotomic-integer]
+  recommended: [dirichlet-l1chi-even-characters]
+  suggested: [class-number-formula]
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "6"
+    section: "6.5"
+    pages: "page_0210–page_0314"
+    role_in_book: "Explicit evaluation of L(1,χ) for odd characters as a Gauss sum times a sum of γ_k β^{-(2ν+1)k}"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

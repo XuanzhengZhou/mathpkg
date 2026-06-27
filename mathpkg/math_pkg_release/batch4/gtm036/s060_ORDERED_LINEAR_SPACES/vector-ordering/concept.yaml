@@ -1,0 +1,23 @@
+id: vector-ordering
+title_en: "Vector Ordering"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: ordered-linear-spaces
+difficulty: basic
+tags: [vector-ordering, partial-order, cone, positive-cone]
+depends_on:
+  required: [cone-in-linear-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "ORDERED LINEAR SPACES"
+    pages: "224"
+    role_in_book: "Defines the order structure on linear spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

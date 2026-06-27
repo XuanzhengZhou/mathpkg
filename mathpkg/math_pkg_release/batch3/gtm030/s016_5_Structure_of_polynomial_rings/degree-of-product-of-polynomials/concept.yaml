@@ -1,0 +1,23 @@
+id: degree-of-product-of-polynomials
+title_en: "Degree of Product of Polynomials"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: polynomial-rings
+difficulty: basic
+tags: [degree, polynomial-ring, product-rule]
+depends_on:
+  required: []
+  recommended: [polynomial-ring, degree-of-polynomial, integral-domain]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "5"
+    pages: ""
+    role_in_book: "Relation (14): deg(fg) = deg f + deg g for polynomials over an integral domain"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

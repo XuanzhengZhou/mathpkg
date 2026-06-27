@@ -1,0 +1,23 @@
+id: 2-generic-mapping
+title_en: "2-Generic Mapping"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [genericity, transversality, thom-boardman, singularities, stable-mappings]
+depends_on:
+  required: [s-rs-singularity-set]
+  recommended: [transversality-theorem, genericity]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky and V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VI"
+    section: "4. The $S_{r,s}$ Singularities"
+    pages: "166"
+    role_in_book: "Definition of second-order generic mappings for Thom-Boardman theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: theorem-prime-ideals-cp-chain
+title_en: "Prime Ideals in C/P Form a Chain"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ordered-rings
+difficulty: advanced
+tags: [prime-ideal, chain, totally-ordered-ring, cp-quotient]
+depends_on:
+  required: [theorem-prime-ideals-cp-convex, convex-ideal]
+  recommended: [definition-upper-ideal-lower-ideal]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "14"
+    section: "3"
+    pages: ""
+    role_in_book: "Fundamental structural result for C/P"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

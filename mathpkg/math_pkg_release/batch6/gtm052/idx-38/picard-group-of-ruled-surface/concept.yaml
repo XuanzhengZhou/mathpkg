@@ -1,0 +1,23 @@
+id: picard-group-of-ruled-surface
+title_en: "Picard Group and Neron-Severi Group of a Ruled Surface"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-surfaces
+difficulty: advanced
+tags: [ruled-surface, picard-group, neron-severi-group, numerical-equivalence]
+depends_on:
+  required: [geometrically-ruled-surface, direct-image-locally-free-ruled-surface]
+  recommended: [picard-group, neron-severi-group, numerical-equivalence]
+  suggested: [intersection-theory-surfaces]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "2"
+    pages: "371"
+    role_in_book: "Describes the Picard and Num groups of a ruled surface in terms of the base curve"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

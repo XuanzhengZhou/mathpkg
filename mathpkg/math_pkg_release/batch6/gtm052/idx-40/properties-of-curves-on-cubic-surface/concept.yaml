@@ -1,0 +1,23 @@
+id: properties-of-curves-on-cubic-surface
+title_en: "Properties of Curves on a Cubic Surface"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [cubic-surface, curves-on-surfaces, intersection-theory, arithmetic-genus, divisor-class]
+depends_on:
+  required: [cubic-surface, intersection-theory, canonical-sheaf-of-blown-up-plane]
+  recommended: [linear-equivalence, arithmetic-genus, adjunction-formula]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Theorem 4.8; lists properties of curves on a nonsingular cubic surface"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

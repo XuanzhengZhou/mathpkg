@@ -1,0 +1,23 @@
+id: conic-size-finite-plane
+title_en: "In a finite projective plane a conic is either empty or has q+1 points"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [conic, finite-projective-plane, cardinality]
+depends_on:
+  required: [nonempty-conic-bijects-projective-line]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "7"
+    section: "Conics"
+    pages: ""
+    role_in_book: "Corollary 2 to Lemma 2.34 — cardinality of conic in finite plane of order q"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

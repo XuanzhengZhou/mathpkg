@@ -1,0 +1,23 @@
+id: shifted-mean-matrix-identity
+title_en: "Shifted Mean Matrix Identity"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, expected-visits, matrix-identity, shifted-process]
+depends_on:
+  required: [systems-theorem-for-expectations, visit-variables-and-matrices]
+  recommended: [markov-chain, transition-matrix]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "6"
+    pages: ""
+    role_in_book: "Relates shifted and unshifted expected visit count matrices"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

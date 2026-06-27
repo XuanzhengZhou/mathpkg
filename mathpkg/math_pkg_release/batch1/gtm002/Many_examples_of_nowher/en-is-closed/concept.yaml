@@ -1,0 +1,23 @@
+id: en-is-closed
+title_en: "E_n is Closed in C"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [closed-set, difference-quotient, category-method, uniform-convergence]
+depends_on:
+  required: [continuous-function-space, set-en-bounded-right-difference-quotients]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "11"
+    section: "Nowhere Differentiable Functions"
+    pages: "53"
+    role_in_book: "First step in Banach's category proof: showing the sets E_n are closed"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

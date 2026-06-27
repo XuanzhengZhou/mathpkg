@@ -1,0 +1,23 @@
+id: conditional-probability-of-disjoint-disjunctions
+title_en: "Conditional Probability of Disjoint Disjunctions"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: conditional-probability
+difficulty: basic
+tags: [conditional-probability, disjoint-events, disjunction]
+depends_on:
+  required: [conditional-probability]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "4"
+    pages: ""
+    role_in_book: "Lemma 4-4: If the conditional probability of p given each p_k equals c, then the same holds for the disjunction of the p_k"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: free-object
+title_en: "Free A-Object over K with respect to U"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [free-object, adjoint, universal-property, forgetful-functor]
+depends_on:
+  required: []
+  recommended: [functor, category, morphism, universal-property]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "Free Objects"
+    pages: "123-125"
+    role_in_book: "Definition of free objects as left adjoints to forgetful functors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

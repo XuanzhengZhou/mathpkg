@@ -1,0 +1,23 @@
+id: pseudo-euclidean-space
+title_en: "Pseudo-Euclidean Space"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: pseudo-euclidean-geometry
+difficulty: intermediate
+tags: [pseudo-euclidean, indefinite-inner-product, bilinear-form, index]
+depends_on:
+  required: []
+  recommended: [bilinear-function, inner-product-space, non-degenerate-bilinear-form]
+  suggested: [euclidean-space, symmetric-bilinear-form]
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines pseudo-Euclidean spaces and their fundamental concepts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

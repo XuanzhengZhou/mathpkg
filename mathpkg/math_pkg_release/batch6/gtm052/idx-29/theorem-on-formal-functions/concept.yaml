@@ -1,0 +1,23 @@
+id: theorem-on-formal-functions
+title_en: "Theorem on Formal Functions"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [formal-functions, higher-direct-image, coherent-sheaf, projective-morphism, inverse-limit, cohomology]
+depends_on:
+  required: [thickened-fibre, projective-morphism, coherent-sheaf, higher-direct-image, noetherian-scheme, cohomology-of-schemes]
+  recommended: [inverse-limit, inverse-system, cech-cohomology]
+  suggested: [formal-completion, grothendieck-existence-theorem]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "11"
+    pages: "page_0294–page_0298"
+    role_in_book: "Central result linking higher direct images to cohomology of thickened fibres"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

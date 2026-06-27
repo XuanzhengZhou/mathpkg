@@ -1,0 +1,23 @@
+id: direct-summand-decomposition
+title_en: "Decomposition of a direct summand into irreducible ideals"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [direct-summand, irreducible-ideal, factor-algebra, decomposition]
+depends_on:
+  required: [irreducible-ideals-unique-direct-sum-decomposition, direct-sum, ideal]
+  recommended: [finite-dimensional-algebra]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "12"
+    section: "4. The structure of factor algebras"
+    pages: "388"
+    role_in_book: "Shows that any direct summand ideal in the factor algebra is itself a direct sum of the irreducible ideals I_i"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

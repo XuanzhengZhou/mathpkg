@@ -1,0 +1,23 @@
+id: intersection-of-lagrangian-tori
+title_en: "Intersection of Lagrangian Tori under Symplectic Diffeomorphisms"
+title_zh: "辛微分同胚下拉格朗日子环面的交"
+type: proposition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [lagrangian-torus, intersection, fixed-points, generating-function, morse-theory]
+depends_on:
+  required: []
+  recommended: [lagrangian-submanifold, torus, symplectic-diffeomorphism, homologous-to-the-identity]
+  suggested: [morse-theory, critical-points]
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 9"
+    section: "D"
+    pages: "430-432"
+    role_in_book: "A key technical result linking Lagrangian intersection theory to fixed point counting"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

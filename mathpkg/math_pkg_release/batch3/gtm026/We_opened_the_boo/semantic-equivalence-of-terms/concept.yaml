@@ -1,0 +1,23 @@
+id: semantic-equivalence-of-terms
+title_en: "Equivalence Relation E_A on the Term Algebra AΩ"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: universal-algebra
+difficulty: intermediate
+tags: [equational-presentation, term-algebra, equivalence-relation, quotient-algebra, free-algebra]
+depends_on:
+  required: [term-algebra, equational-presentation, omega-algebra]
+  recommended: [quotient-algebra]
+  suggested: [category-theory]
+source_books:
+  - book_id: "gtm026"
+    author: "Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: ""
+    pages: "23-25"
+    role_in_book: "Defines the semantic equivalence of terms and the free algebra AT as a quotient, the foundation for the clone construction."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

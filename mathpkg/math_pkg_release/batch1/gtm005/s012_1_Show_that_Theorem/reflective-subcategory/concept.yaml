@@ -1,0 +1,23 @@
+id: reflective-subcategory
+title_en: "Reflective Subcategory"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [reflective-subcategory, adjoint-functor, full-subcategory]
+depends_on:
+  required: [adjunction, full-subcategory]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IV"
+    section: "3"
+    pages: ""
+    role_in_book: "Full subcategory whose inclusion has a left adjoint"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: hecke-operator-composition-formula
+title_en: "General composition formula for Hecke operators"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [hecke-operator, composition-formula, commutativity, hecke-algebra, divisor-sum]
+depends_on:
+  required: []
+  recommended: [hecke-operator-composition-coprime, hecke-operator-definition]
+  suggested: [hecke-operator-matrix-representation, hecke-operator-prime-power]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.10"
+    pages: ""
+    role_in_book: "The fundamental theorem establishing the multiplicative structure of the Hecke algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

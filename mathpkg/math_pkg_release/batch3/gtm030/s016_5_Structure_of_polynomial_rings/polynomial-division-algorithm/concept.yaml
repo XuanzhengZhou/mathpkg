@@ -1,0 +1,23 @@
+id: polynomial-division-algorithm
+title_en: "Polynomial Division Algorithm"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: polynomial-rings
+difficulty: intermediate
+tags: [polynomial-division, polynomial-ring, quotient, remainder, unit-leading-coefficient]
+depends_on:
+  required: [degree-of-product-of-polynomials, degree-of-sum-inequality]
+  recommended: [polynomial-ring]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "5"
+    pages: ""
+    role_in_book: "Division algorithm: existence and uniqueness of right/left quotient and remainder"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

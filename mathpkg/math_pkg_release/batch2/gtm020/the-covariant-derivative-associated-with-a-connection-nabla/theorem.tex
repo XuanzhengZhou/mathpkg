@@ -1,0 +1,21 @@
+6.3 Remark. The covariant derivative satisfies the following relations as $a'$ function of $(\xi, s) \mapsto \nabla_\xi s$:
+
+(1) For $\xi \in \Gamma(T(M))$ and $s \in \Gamma(E)$ the function $\nabla_\xi s$ is C-linear, and
+
+(2) for a smooth function $f$ we have $\nabla_{f\xi} s = f \nabla_\xi s$ and
+
+$$\nabla_\xi(fs) = f \nabla_\xi s + \xi(f)s.$$
+
+Conversely, given a covariant derivative $\nabla_\xi s$ we can define a connection $\nabla: \Gamma(E) \rightarrow \Gamma(T^*(M) \otimes E)$ by the relation $\nabla_\
+
+$$\zeta g(\xi, \eta) = g(\nabla_{\zeta} \xi, \eta) + g(\xi, \nabla_{\zeta} \eta),$$
+$$\eta g(\zeta, \xi) = g(\nabla_{\eta} \xi, \xi) + g(\zeta, \nabla_{\eta} \xi),$$
+$$\xi g(\eta, \zeta) = g(\nabla_{\zeta} \eta, \zeta) + g(\eta, \nabla_{\zeta} \zeta)$$
+$$= g(\nabla_{\zeta} \eta, \zeta) + g(\eta, \nabla_{\zeta} \xi) + g(\eta, [\xi, \zeta]).$$
+
+Now we form an alternating sum of these three expressions to obtain
+
+$$\zeta g(\xi, \eta) - \xi g(\eta, \zeta) + \eta g(\zeta, \xi)$$
+$$= 2g(\xi, \nabla_{\zeta} \eta) - g(\eta, [\xi, \zeta]) + g([\eta, \zeta], \xi) + g(\zeta, [\eta, \xi]).$$
+
+This is a formula for $g(\xi, \nabla_{\zeta} \eta)$ as one half of a six-term formula involving $g$ and brackets of vector fields. This proves the uniqueness, and further the six term expression is a formula for $\nabla_{\zeta} \eta$ since it is determined by knowing $g(\xi, \nabla_{\zeta} \eta)$ for each $\xi \in \Gamma(T(M))$. It is easy to see that $\nabla_{\zeta} \eta$ is C-bilinear in $\zeta$ and $\eta$. The $A^0(M)$-homogeneity properties are a direct calculation left to the reader. Using the formula to calculate $2(g(\xi, \nabla_{\zeta} \eta) - g(\xi, \nabla_{\zeta} \eta))$, we get the term $2g(\xi, [\xi, \eta])$ showing that condition (T) holds. Similarly, $\nabla$ is compatible with $g$.

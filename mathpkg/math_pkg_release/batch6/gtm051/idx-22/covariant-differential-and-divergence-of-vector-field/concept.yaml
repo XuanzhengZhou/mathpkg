@@ -1,0 +1,23 @@
+id: covariant-differential-and-divergence-of-vector-field
+title_en: "Covariant Differential and Divergence of a Vector Field"
+title_zh: "向量场的协变微分和散度"
+type: definition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [covariant-differential, divergence, vector-field, levi-civita-connection, trace]
+depends_on:
+  required: [covariant-derivative-of-basis-vector-fields]
+  recommended: [divergence-theorem-on-surfaces, laplacian]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Defines covariant differential and divergence operators for vector fields on Riemannian surfaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

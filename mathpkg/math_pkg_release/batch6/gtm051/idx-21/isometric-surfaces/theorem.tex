@@ -1,0 +1,11 @@
+Two surfaces $f: U \to \mathbb{R}^3$ and $\tilde{f}: V \to \mathbb{R}^3$ are \textbf{isometric} if there exists a diffeomorphism $\phi: V \to U$ such that
+
+$$g_{\phi(v)}(d\phi X, d\phi Y) = \tilde{g}_v(X, Y)$$
+
+for all $v \in V$ and $X, Y \in T_v \mathbb{R}^2$. The map $\phi$ is called an \textbf{isometry}. This defines an equivalence relation between surfaces, and the definition involves only the intrinsic geometry of a surface.
+
+Equivalently, if $\phi: V \to U$ is an isometry, then for all $X, Y \in T_v \tilde{f}$,
+
+$$g_{\phi(v)}(df \circ d\phi \circ df^{-1}X, df \circ d\phi \circ df^{-1}Y) = \tilde{g}_v(X, Y).$$
+
+To check whether a map $\phi$ is an isometry, it is only necessary to verify that $g_{\phi(v)}(d\phi \tilde{f}_i, d\phi \tilde{f}_j) = \tilde{g}_v(\tilde{f}_i, \tilde{f}_j) = \tilde{g}_{ij}$, since $g$ and $\tilde{g}$ are bilinear and the coordinate vectors form a basis at each point.

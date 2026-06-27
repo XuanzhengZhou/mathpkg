@@ -1,0 +1,5 @@
+Let $F(\tau, \xi; t, x) = P[X(t) \leq x \mid X(\tau) = \xi]$. $X(t)$ is a \textbf{diffusion process} if for any $\delta > 0$, as $\Delta t \to 0$:
+(1) $\frac{1}{\Delta t} \int_{|y-x| \geq \delta} d_y F(t-\Delta t, x; t, y) \to 0$;
+(2) $\frac{1}{\Delta t} \int_{|y-x| < \delta} (y-x)^2 d_y F(t-\Delta t, x; t, y) \to a(t,x) \geq 0$;
+(3) $\frac{1}{\Delta t} \int_{|y-x| < \delta} (y-x) d_y F(t-\Delta t, x; t, y) \to b(t,x)$.
+$a(t,x)$ is infinitesimal variance, $b(t,x)$ infinitesimal drift. The Wiener process has $a \equiv 1$, $b \equiv 0$.

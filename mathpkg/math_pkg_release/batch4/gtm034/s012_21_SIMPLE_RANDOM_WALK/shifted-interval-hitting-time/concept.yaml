@@ -1,0 +1,13 @@
+id: shifted-interval-hitting-time
+title_en: "Exit Time and Occupation Counts for the Shifted Interval"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: random-walk
+difficulty: basic
+tags: [exit-time, interval, occupation-time, shifted-interval]
+depends_on: {required: [interval-exit-time], recommended: [], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "23", pages: "", role_in_book: "Redefines T_N and introduces N_N(y) for the symmetric interval [-N,N] starting from 0"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

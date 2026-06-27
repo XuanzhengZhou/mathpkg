@@ -1,0 +1,20 @@
+id: dynkin-diagram
+title_en: "Dynkin Diagram"
+title_zh: "Dynkin 图"
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [dynkin-diagram, coxeter-graph, root-system, classification, cartan-matrix]
+depends_on: {required: [root-system-axioms], recommended: [irreducible-root-system], suggested: [classification-of-simple-lie-algebras]}
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "11"
+    section: "11.4"
+    pages: "70-74"
+    role_in_book: "Graphical encoding of Cartan matrices"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

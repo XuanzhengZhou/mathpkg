@@ -1,0 +1,23 @@
+id: corollary-10-1-continuous-real-linear-forms
+title_en: "Continuous Real Linear Forms on Locally Convex Spaces"
+title_zh: "局部凸空间上的连续实线性形式"
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [locally-convex-space, continuous-real-linear-form, compact-convex-set, supporting-hyperplane]
+depends_on:
+  required: [supporting-hyperplanes-of-compact-convex-sets]
+  recommended: [hahn-banach-separation-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "10"
+    section: "Compact Convex Sets"
+    pages: ""
+    role_in_book: "Corollary to Theorem 10.1: the space E'_0 of continuous real linear forms separates points and determines supporting hyperplanes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

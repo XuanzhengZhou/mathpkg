@@ -1,0 +1,23 @@
+id: theorem-5-1-regulator-index
+title_en: "Relation between p-adic Regulators and Unit Index"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: p-adic-regulator
+difficulty: advanced
+tags: [p-adic-regulator, cyclotomic-units, real-subfield, unit-index]
+depends_on:
+  required: [p-adic-regulator, cyclotomic-units, real-subfield]
+  recommended: [class-number-formula]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "13"
+    section: "The Mellin Transform and p-adic L-function"
+    pages: ""
+    role_in_book: "Theorem 5.1: Relates the p-adic regulator of cyclotomic units to that of all units, with index factor (E:ℱ) = h^+"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

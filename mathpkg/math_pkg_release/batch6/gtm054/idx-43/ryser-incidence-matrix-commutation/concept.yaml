@@ -1,0 +1,23 @@
+id: ryser-incidence-matrix-commutation
+title_en: "Ryser's Incidence Matrix Commutation Theorem"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: design-theory
+difficulty: advanced
+tags: [ryser, incidence-matrix, commutation, symmetric-design, bib-design]
+depends_on:
+  required: []
+  recommended: [balanced-incomplete-block-design, incidence-matrix, symmetric-block-design]
+  suggested: []
+source_books:
+- book_id: gtm054
+  author: "Jack E. Graver, Mark E. Watkins"
+  title: "Combinatorics with Emphasis on the Theory of Graphs"
+  chapter: "IX"
+  section: "C"
+  pages: "253-260"
+  role_in_book: "Theorem C16 (Ryser 1950): For a (;1,2)-design with b=v and λ*(2)<k<v, MM* = M*M"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

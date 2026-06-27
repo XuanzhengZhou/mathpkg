@@ -1,0 +1,20 @@
+id: cartan-subalgebra
+title_en: "Cartan Subalgebra"
+title_zh: "嘉当子代数"
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [cartan-subalgebra, nilpotent, self-normalizing, csa]
+depends_on: {required: [nilpotent-lie-algebra, normalizer-of-subalgebra], recommended: [toral-subalgebra], suggested: []}
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "15"
+    section: "15.3"
+    pages: "80-84"
+    role_in_book: "Generalization of maximal toral subalgebra to arbitrary Lie algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

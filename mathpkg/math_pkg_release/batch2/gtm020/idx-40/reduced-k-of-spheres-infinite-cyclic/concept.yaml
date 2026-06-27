@@ -1,0 +1,23 @@
+id: reduced-k-of-spheres-infinite-cyclic
+title_en: "Reduced K-Theory of Spheres"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: k-theory
+difficulty: advanced
+tags: [k-theory, spheres, bott-periodicity, reduced-k-functor, cohomology]
+depends_on:
+  required: [bott-periodicity, reduced-k-functor]
+  recommended: [vector-bundle, clutching-construction, invariance-of-v-n-under-index-shift]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "5"
+    section: "5.5"
+    pages: "page_0163–page_0164"
+    role_in_book: "Computes the reduced K-theory of spheres as a corollary of the complex Bott periodicity theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

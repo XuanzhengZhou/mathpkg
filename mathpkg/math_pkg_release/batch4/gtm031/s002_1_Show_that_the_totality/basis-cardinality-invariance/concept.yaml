@@ -1,0 +1,23 @@
+id: basis-cardinality-invariance
+title_en: "Theorem 3: Invariance of Basis Cardinality"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [basis, dimensionality, invariance, vector-space, dimension]
+depends_on:
+  required: [basis-cardinality-bound, basis-of-free-module, linear-independence]
+  recommended: [linear-dependence-extension-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "1"
+    section: "2"
+    pages: ""
+    role_in_book: "Proves that all bases have the same cardinality, establishing the dimension as an invariant."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

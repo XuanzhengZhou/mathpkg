@@ -1,0 +1,23 @@
+id: leopoldt-conjecture
+title_en: "Leopoldt Conjecture"
+title_zh: "Leopoldt猜想"
+type: theorem
+domain: number-theory
+subdomain: class-field-theory
+difficulty: advanced
+tags: [leopoldt-conjecture, p-adic-regulator, unit-group, number-field, zp-extension]
+depends_on:
+  required: [galois-group-maximal-p-extension]
+  recommended: [p-adic-logarithm, dirichlet-unit-theorem, regulator]
+  suggested: [iwasawa-theory]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "Iwasawa Theory and Ideal Class Groups"
+    pages: ""
+    role_in_book: "States the Leopoldt conjecture on the p-adic independence of global units, central to the structure of Z_p-extensions."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

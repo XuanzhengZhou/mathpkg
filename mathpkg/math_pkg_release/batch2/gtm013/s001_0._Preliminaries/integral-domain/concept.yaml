@@ -1,0 +1,13 @@
+id: integral-domain
+title_en: "Integral Domain"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [integral-domain, cancellable, zero-divisor, ring]
+depends_on: {required: [ring, left-cancellable], recommended: [left-zero-divisor], suggested: []}
+source_books: [{book_id: "gtm013", author: "Frank W. Anderson, Kent R. Fuller", title: "Rings and Categories of Modules", chapter: "1", section: "1", pages: "", role_in_book: "Defines integral domains; every subring of an integral domain is an integral domain"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

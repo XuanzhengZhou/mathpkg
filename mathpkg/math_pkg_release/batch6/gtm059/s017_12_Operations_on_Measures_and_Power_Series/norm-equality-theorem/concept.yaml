@@ -1,0 +1,23 @@
+id: norm-equality-theorem
+title_en: "Norm Equality Theorem for Measures and Power Series"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: p-adic-measures
+difficulty: intermediate
+tags: ["norm-equality", "measure", "power-series", "theorem-1.4", "p-adic"]
+depends_on:
+  required: ["norm-on-measures-and-power-series", "p-adic-measure", "p-adic-power-series-associated-to-measure"]
+  recommended: []
+  suggested: ["corollary-of-theorem-1.3"]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "12"
+    pages: "111–112"
+    role_in_book: "Theorem 1.4 — equality of the measure norm and the associated power series norm"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

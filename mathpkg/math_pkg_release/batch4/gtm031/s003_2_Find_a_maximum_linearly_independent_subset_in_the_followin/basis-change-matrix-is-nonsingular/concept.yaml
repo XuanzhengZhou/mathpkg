@@ -1,0 +1,23 @@
+id: basis-change-matrix-is-nonsingular
+title_en: "The matrix of one basis relative to another is non-singular"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [basis, change-of-basis, nonsingular, matrix, inverse, theorem-5]
+depends_on:
+  required: [matrix-of-basis-relative-to-basis, nonsingular-matrix-over-division-ring]
+  recommended: [matrix-multiplication-over-division-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "II"
+    section: "6"
+    pages: "26-28"
+    role_in_book: "Theorem 5. Establishes that change-of-basis matrices are invertible, a fundamental fact underlying the matrix representation of linear transformations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

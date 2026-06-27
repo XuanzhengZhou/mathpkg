@@ -1,0 +1,23 @@
+id: immersion-properties
+title_en: "Properties of Immersions"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: differential-topology
+difficulty: intermediate
+tags: [immersion, discrete-fiber, submanifold, topology]
+depends_on:
+  required: [immersion, submanifold, immersed-submanifold]
+  recommended: [immersion-local-submanifold]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "I"
+    section: "2"
+    pages: ""
+    role_in_book: "Corollary 2.11: fibers of an immersion are discrete; image is submanifold iff topologies match"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

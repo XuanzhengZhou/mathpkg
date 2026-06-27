@@ -1,0 +1,20 @@
+id: dedekind-sum-congruence-mod-power-2
+title_en: "Congruence of Dedekind Sums Modulo Powers of 2"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: dedekind-sums
+difficulty: advanced
+tags: [dedekind-sum, congruence, power-of-2, 2-adic]
+depends_on: {required: [dedekind-sum, dedekind-sum-congruence-mod-8, dedekind-reciprocity-law], recommended: [], suggested: []}
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "3"
+    section: "3.8"
+    pages: ""
+    role_in_book: "Theorem 3.10; sharp 2-adic congruence for multiplier system"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,20 @@
+A \emph{metacategory} is a metagraph with two additional operations:
+
+\begin{enumerate}
+\item \textbf{Identity}, which assigns to each object $a$ an arrow $\text{id}_a = 1_a: a \rightarrow a$;
+\item \textbf{Composition}, which assigns to each pair $\langle g, f \rangle$ of arrows with $\text{dom} g = \text{cod} f$ an arrow $g \circ f$, called their composite, with $g \circ f: \text{dom} f \rightarrow \text{cod} g$.
+\end{enumerate}
+
+These operations are subject to the following two axioms:
+
+\begin{itemize}
+\item \textbf{Associativity}. For given objects and arrows
+$$a \xrightarrow{f} b \xrightarrow{g} c \xrightarrow{k} d$$
+one always has
+$$k \circ (g \circ f) = (k \circ g) \circ f.$$
+
+\item \textbf{Unit law}. For all arrows $f: a \rightarrow b$ and $g: b \rightarrow c$, composition with the identity arrow $1_b$ gives
+$$1_b \circ f = f \quad \text{and} \quad g \circ 1_b = g.$$
+\end{itemize}
+
+A metacategory is any interpretation which satisfies all these axioms.

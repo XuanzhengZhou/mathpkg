@@ -1,0 +1,23 @@
+id: universal-distribution
+title_en: "Universal Distribution"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [distribution, universal-distribution, stickelberger, bernoulli, group-theory]
+depends_on:
+  required: [ordinary-distribution]
+  recommended: [free-abelian-group, torsion-group]
+  suggested: [cyclotomic-units, bernoulli-numbers, stickelberger-ideal]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields I and II"
+    chapter: "2"
+    section: "Stickelberger Ideals and Bernoulli Distributions"
+    pages: ""
+    role_in_book: "The universal object in the category of distributions; fundamental for Stickelberger's theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

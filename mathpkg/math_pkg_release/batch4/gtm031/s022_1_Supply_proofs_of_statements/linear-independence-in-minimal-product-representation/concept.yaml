@@ -1,0 +1,23 @@
+id: linear-independence-in-minimal-product-representation
+title_en: "Linear Independence in Minimal Product Representation"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [bilinear-form, dual-space, linear-independence, product-representation, rank]
+depends_on:
+  required: [representation-of-linear-transformation-as-sum-of-products, product-of-dual-vectors]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "Bilinear Forms"
+    section: "5"
+    pages: "158-159"
+    role_in_book: "Characterizes minimal representations; the sets {u_i'} and {v_i} in a minimal sum representation are linearly independent"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

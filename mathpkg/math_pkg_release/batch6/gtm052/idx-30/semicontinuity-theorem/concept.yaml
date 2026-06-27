@@ -1,0 +1,23 @@
+id: semicontinuity-theorem
+title_en: "Semicontinuity Theorem for Cohomology"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [semicontinuity, cohomology, projective-morphism, coherent-sheaf, flat-family, fibre-cohomology]
+depends_on:
+  required: [t-i-cohomology-functor, t-i-left-exactness-criterion, upper-semicontinuous-function, flat-morphism, projective-morphism]
+  recommended: [nakayama-lemma, coherent-sheaf, base-change]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "12"
+    pages: ""
+    role_in_book: "Theorem 12.8 — one of the main theorems of the chapter"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

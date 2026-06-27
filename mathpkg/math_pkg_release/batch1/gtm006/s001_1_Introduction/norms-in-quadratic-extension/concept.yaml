@@ -1,0 +1,23 @@
+id: norms-in-quadratic-extension
+title_en: "Norms in GF(q^2) over GF(q) (Result 1.7)"
+title_zh: "GF(q^2)/GF(q)中的范数（结果1.7）"
+type: theorem
+domain: algebra
+subdomain: field-theory
+difficulty: intermediate
+tags: [norm, finite-field, quadratic-extension, frobenius-automorphism]
+depends_on:
+  required: [norm-of-automorphism]
+  recommended: [properties-of-finite-fields]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "1. Introduction"
+    pages: ""
+    role_in_book: "The Frobenius automorphism on GF(q^2) has exactly the elements of GF(q) as norms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

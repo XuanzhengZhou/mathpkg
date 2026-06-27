@@ -1,0 +1,23 @@
+id: q1-factor-theorem
+title_en: "The Q_1 Factor (Theorem 4.1)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [class-number-formula, cyclotomic-units, iwasawa-invariants]
+depends_on:
+  required: [cyclotomic-units, plus-minus-eigenspaces]
+  recommended: [ideal-class-group]
+  suggested: [class-number-formula]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "4.6 The (±1)-conjectures"
+    pages: ""
+    role_in_book: "Determines the index of cyclotomic units in the full unit group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

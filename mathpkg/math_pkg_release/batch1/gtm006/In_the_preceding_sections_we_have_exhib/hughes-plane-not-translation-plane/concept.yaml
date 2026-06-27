@@ -1,0 +1,23 @@
+id: hughes-plane-not-translation-plane
+title_en: "Hughes Plane is not a Translation Plane"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [translation-plane, hughes-plane, non-desarguesian, finite-geometry]
+depends_on:
+  required: [hughes-plane-is-finite-projective-plane]
+  recommended: [translation-plane, dual-translation-plane]
+  suggested: [v-l-transitivity]
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "IX"
+    section: "6. The Hughes Planes"
+    pages: ""
+    role_in_book: "Corollary 2: A Hughes plane is not a translation plane or dual translation plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

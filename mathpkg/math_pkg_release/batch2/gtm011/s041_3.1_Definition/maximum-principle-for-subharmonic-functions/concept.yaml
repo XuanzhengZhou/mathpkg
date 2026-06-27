@@ -1,0 +1,23 @@
+id: maximum-principle-for-subharmonic-functions
+title_en: "Maximum Principle for Subharmonic Functions (Third Version)"
+title_zh: "次调和函数的最大值原理（第三版）"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [maximum-principle, subharmonic, harmonic, potential-theory]
+depends_on:
+  required: [subharmonic-function, maximum-principle]
+  recommended: [harmonic-function]
+  suggested: [dirichlet-problem]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.2"
+    pages: "278-279"
+    role_in_book: "Extends the Maximum Principle from harmonic to subharmonic functions; a subharmonic function cannot attain a maximum in a region unless it is constant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

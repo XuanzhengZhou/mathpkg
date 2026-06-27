@@ -1,0 +1,25 @@
+id: lemma-hilberts-theorem
+title_en: 'Lemma: Let $E$ be an $A$-module $\neq (0)$, and $a_1, \cdots, a_q$ non-invertible
+  elements of $A$ such that, for every $i \leq q$, we have $(a_1E + \cdots + a_{i-1}E):
+  Aa_i = a_1E + \cdots + a_{i-1}E$'
+title_zh: ''
+type: lemma
+domain: algebra
+subdomain: polynomial-rings
+difficulty: intermediate
+tags: []
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm029
+  author: Oscar Zariski, Pierre Samuel
+  title: Commutative Algebra Volume II
+  chapter: VII
+  section: '13'
+  pages: ''
+  role_in_book: ''
+content_hash: d9159fb232b84533
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

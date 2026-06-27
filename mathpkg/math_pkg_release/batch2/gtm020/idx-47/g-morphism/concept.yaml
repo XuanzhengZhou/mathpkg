@@ -1,0 +1,23 @@
+id: g-morphism
+title_en: "G-Morphism between G-Modules"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [g-morphism, g-module, equivariant-map, linear-map, representation]
+depends_on:
+  required: [g-module]
+  recommended: [linear-map, group-action]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines structure-preserving morphisms between G-modules, forming the morphisms of the category of G-modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

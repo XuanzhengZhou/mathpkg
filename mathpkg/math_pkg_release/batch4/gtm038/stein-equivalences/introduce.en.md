@@ -1,0 +1,1 @@
+Stein manifolds admit multiple equivalent characterizations: via holomorphic convexity, via solvability of the Cousin problems, and via vanishing of higher sheaf cohomology. This is the Cartan-Serre theorem.

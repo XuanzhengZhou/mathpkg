@@ -1,0 +1,23 @@
+id: theorem-172-lob-theorem
+title_en: "Theorem 17.2 (Löb's Theorem)"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: mathematical-logic
+difficulty: advanced
+tags: [lob-theorem, provability-predicate, strong-theory, self-reference, goedel-incompleteness]
+depends_on:
+  required: [definition-171-strong-theory]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "Part 3"
+    section: "Decidable and Undecidable Theories"
+    pages: ""
+    role_in_book: "General formulation of Löb's Theorem: given a formula Pr satisfying Hilbert-Bernays derivability conditions in a strong theory, if Pr(φ)→φ is provable then φ itself is provable. This is the key lemma for the unprovability of consistency."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

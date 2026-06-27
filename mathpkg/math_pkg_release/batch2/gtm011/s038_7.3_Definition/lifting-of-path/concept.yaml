@@ -1,0 +1,23 @@
+id: lifting-of-path
+title_en: "Lifting of a Path in a Covering Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: covering-spaces
+difficulty: intermediate
+tags: [covering-space, path-lifting, fundamental-group]
+depends_on:
+  required: [covering-space]
+  recommended: [path, homotopy]
+  suggested: [fundamental-group, monodromy-theorem]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "7"
+    section: "7.3"
+    pages: ""
+    role_in_book: "Defines the lifting of a path from a base space to a covering space, a fundamental notion for studying the monodromy of analytic continuation."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

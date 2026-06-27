@@ -1,0 +1,23 @@
+id: godel-numbering
+title_en: "Gödel Numbering"
+title_zh: "哥德尔编码"
+type: definition
+domain: logic
+subdomain: computability
+difficulty: intermediate
+tags: [godel-numbering, encoding, computability, turing-machine]
+depends_on:
+  required: [turing-machine]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm022
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "9"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines the Gödel numbering scheme for encoding Turing machines as natural numbers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

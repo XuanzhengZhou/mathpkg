@@ -1,0 +1,1 @@
+This lemma relates infinite products to infinite sums via the inequality $\log(1-x) \sim -x$. It is the basis of the Borel-Cantelli lemmas in probability theory, which characterize when events occur infinitely often.

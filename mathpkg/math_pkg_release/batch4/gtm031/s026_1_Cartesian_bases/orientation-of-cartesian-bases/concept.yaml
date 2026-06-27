@@ -1,0 +1,23 @@
+id: orientation-of-cartesian-bases
+title_en: "Orientation of Cartesian Bases"
+title_zh: "笛卡尔基的定向"
+type: definition
+domain: algebra
+subdomain: euclidean-geometry
+difficulty: basic
+tags: [orientation, cartesian-basis, orthogonal-matrix, proper, improper]
+depends_on:
+  required: [cartesian-basis, proper-improper-orthogonal-matrix]
+  recommended: [cartesian-basis-orthogonal-matrix-correspondence]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines orientation classes of Cartesian bases"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

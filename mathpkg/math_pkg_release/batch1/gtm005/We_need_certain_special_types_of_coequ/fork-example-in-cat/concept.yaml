@@ -1,0 +1,13 @@
+id: fork-example-in-cat
+title_en: "Split Fork Example in Cat"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [fork, split-fork, cat, category-of-categories, terminal-object]
+depends_on: {required: [split-fork, fork-in-a-category], recommended: [category-of-categories, terminal-object], suggested: []}
+source_books: [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "VI. Monads and Algebras", section: "6. Split Coequalizers", pages: "", role_in_book: "Example of a split fork in Cat using C^2 and the terminal category 1"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

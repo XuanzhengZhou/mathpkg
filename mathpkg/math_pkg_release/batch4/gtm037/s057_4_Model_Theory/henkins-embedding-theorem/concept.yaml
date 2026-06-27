@@ -1,0 +1,23 @@
+id: henkins-embedding-theorem
+title_en: "Henkin's Embedding Theorem"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [embedding, diagram, compactness, finitely-generated, substructure]
+depends_on:
+  required: [diagram-embedding-proposition, compactness-theorem]
+  recommended: [diagram-of-a-structure, finitely-generated-substructure]
+  suggested: [ultraproduct, elementary-embedding]
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "4"
+    section: "4"
+    pages: ""
+    role_in_book: "Theorem 19.13; every finitely generated substructure embeddable into K implies the whole structure embeddable into K"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: lie-parallel-vector-field
+title_en: "Lie Parallel Vector Field over a Curve"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [lie-derivative, lie-parallel, vector-field-over-curve, flow]
+depends_on:
+  required: [tensor-field-over-a-map, lie-derivative]
+  recommended: [integral-curve, flow-of-vector-field]
+  suggested: []
+source_books:
+  - book_id: "gtm048"
+    author: "R. K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "2"
+    section: "2.0.1"
+    pages: ""
+    role_in_book: "Defines the Lie-transport analogous notion for vector fields over curves; used in the Gauss Lemma for spacetimes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

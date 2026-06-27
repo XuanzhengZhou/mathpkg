@@ -1,0 +1,23 @@
+id: automorphism-space-is-g-delta
+title_en: "The Automorphism Space H is a G-delta Subset of C[0,1]"
+title_zh: "自同构空间H是C[0,1]的G_δ子集"
+type: theorem
+domain: analysis
+subdomain: metric-spaces
+difficulty: intermediate
+tags: [g-delta-set, automorphism, topologically-complete, homeomorphism]
+depends_on:
+  required: [space-of-unit-interval-automorphisms, g-delta-set]
+  recommended: [topologically-complete-space]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "13"
+    section: "13"
+    pages: "57-63"
+    role_in_book: "Shows H is topologically complete as a G_delta in C[0,1]"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

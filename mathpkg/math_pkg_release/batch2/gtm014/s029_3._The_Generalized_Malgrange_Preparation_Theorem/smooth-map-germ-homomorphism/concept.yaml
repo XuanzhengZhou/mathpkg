@@ -1,0 +1,23 @@
+id: smooth-map-germ-homomorphism
+title_en: "Ring Homomorphism Induced by a Smooth Map on Germs"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: differential-topology
+difficulty: intermediate
+tags: [smooth-map, germ, ring-homomorphism, local-diffeomorphism, pullback]
+depends_on:
+  required: [germ-of-smooth-function, cotangent-space-germ-isomorphism]
+  recommended: [ring-isomorphism, diffeomorphism, inverse-function-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "3. The Generalized Malgrange Preparation Theorem"
+    pages: ""
+    role_in_book: "Characterizes local diffeomorphisms via the induced map on germs, a key tool for the Malgrange Preparation Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

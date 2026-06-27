@@ -1,0 +1,23 @@
+id: extension-of-semilinear-to-ambient-space
+title_en: "Extension of Semi-linear Transformation to Ambient Space (Lemma 2.17)"
+title_zh: "半线性变换到外围空间的延拓（引理2.17）"
+type: lemma
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [semilinear, extension, subspace, line, projective-plane]
+depends_on:
+  required: [semilinear-transformation]
+  recommended: [projective-geometry-of-a-vector-space]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II. Classical Projective Planes"
+    section: "5. The Line in the Plane"
+    pages: ""
+    role_in_book: "Any semilinear transformation between 2-dim subspaces extends to the whole 3-dim space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

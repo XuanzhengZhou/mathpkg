@@ -1,0 +1,23 @@
+id: transitivity-of-implication-variant
+title_en: "Transitivity of Implication Variant (Lemma 8.12)"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: propositional-logic
+difficulty: basic
+tags: [transitivity, implication, hilbert-system, deduction-theorem, sentential-logic]
+depends_on:
+  required: [formal-proof, deduction-theorem]
+  recommended: [modus-ponens]
+  suggested: [self-implication]
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "1"
+    section: "1.2"
+    pages: ""
+    role_in_book: "A lemma used toward the completeness theorem, establishing transitivity-like chaining of implications"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

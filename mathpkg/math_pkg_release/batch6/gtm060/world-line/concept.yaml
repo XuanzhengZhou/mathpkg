@@ -1,0 +1,13 @@
+id: world-line
+title_en: "World Line"
+title_zh: "世界线"
+type: definition
+domain: geometry
+subdomain: classical-mechanics
+difficulty: basic
+tags: [world-line, space-time, galilean-space, motion]
+depends_on: {required:[galilean-space, motion-in-rn], recommended:[], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"1",section:"2",pages:"8",role_in_book:"Defines world line as curve in Galilean space appearing as graph of motion"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

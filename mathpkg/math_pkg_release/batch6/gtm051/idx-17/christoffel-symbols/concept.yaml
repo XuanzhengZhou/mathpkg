@@ -1,0 +1,23 @@
+id: christoffel-symbols
+title_en: "Christoffel Symbols of the First and Second Kind (Definition 3.8.2)"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: basic
+tags: [christoffel-symbols, first-fundamental-form, metric-connection, surface-theory, levi-civita-connection]
+depends_on:
+  required: [first-fundamental-form, partial-derivatives-on-surfaces]
+  recommended: [gauss-weingarten-equations]
+  suggested: [riemannian-metric, covariant-derivative]
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.8"
+    pages: "pp. 70-72"
+    role_in_book: "Fundamental definition introducing the connection coefficients for a surface"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: hat-l-representation
+title_en: "Tensor Algebra Representation of the Free Lie Algebra Associated to a Cartan Matrix"
+title_zh: "与 Cartan 矩阵相关的自由李代数的张量代数表示"
+type: proposition
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [serre-theorem, free-lie-algebra, cartan-matrix, tensor-algebra, representation]
+depends_on:
+  required: [free-lie-algebra, cartan-matrix]
+  recommended: [universal-enveloping-algebra, tensor-algebra]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "VI"
+    section: "18"
+    pages: "102-114"
+    role_in_book: "Construction of a faithful representation used in the proof of Serre's Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

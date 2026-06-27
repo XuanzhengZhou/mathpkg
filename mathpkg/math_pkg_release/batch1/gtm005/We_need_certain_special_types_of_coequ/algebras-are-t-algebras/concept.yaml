@@ -1,0 +1,13 @@
+id: algebras-are-t-algebras
+title_en: "Variety Algebras are Monadic over Set"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [variety, universal-algebra, monad, eilenberg-moore-category, comparison-functor, becks-theorem, algebras]
+depends_on: {required: [becks-theorem, monad, variety-of-algebras, absolute-coequalizer], recommended: [eilenberg-moore-category], suggested: []}
+source_books: [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "VI. Monads and Algebras", section: "8. Algebras Are T-Algebras", pages: "", role_in_book: "Proves that every variety of algebras is monadic over Set"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

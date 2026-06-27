@@ -1,0 +1,26 @@
+id: duality-operator-properties
+title_en: "Properties of the Duality Operator"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [duality, operator, linearity, superregular, order-preserving]
+depends_on:
+  required: [
+    - duality-operator, alpha-dual-matrix
+  ]
+  recommended: [
+  ]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "2. Duality"
+    pages: ""
+    role_in_book: "Proposition 6-14: ten properties of the dual operator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

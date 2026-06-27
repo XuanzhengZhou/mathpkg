@@ -1,0 +1,25 @@
+Let $E$ be an $A$-module $\neq (0)$, and $a_1, \cdots, a_q$ non-invertible elements of $A$ such that, for every $i \leq q$, we have $(a_1E + \cdots + a_{i-1}E): Aa_i = a_1E + \cdots + a_{i-1}E$. Then we have $\delta(E/(a_1E + \cdots + a_qE)) = q + \delta(E)$.
+
+Proof. If we set $E_i = E/(a_1E + \cdots + a_{i-1}E)$ it suffices to prove that $\delta(E_{i+1}) = 1 + \delta(E_i)$. We have $E_{i+1} = E_i/a_iE_i$, and, by hypothesis, the submodule $(0)$ of $E_i$ satisfies the condition $(0): Aa_i = (0)$ (in other words: " $a_i
+
+annihilated by $m$, it is, in a natural way, a vector space over $A/m$. Since $M'$ is the direct sum of a certain number of copies of $A/m$, we have $\delta(M') = n$ (corollary to Lemma 7). We have to show that $\delta(M) = n$. Suppose this is not the case, i.e., that $\delta(M) < n$ (Theorem 43). We set $M'' = M/M'$, and we consider some $(n-1)$-st modules of syzygies $S, S', S''$ of $M, M', M''$; by repeated applications of Lemma 5, we may assume that $S'$ is a submodule of $S$, and that $S''$ is $S/S'$. The assumption that $\delta(M) < n$ means that $S$ is free. Hence $S'$ is a first module of syzygies of $S''$, whence an $n$-th module of syzygies of $M''$, and is therefore free (Theorem 43). This implies $\delta(M') \leq n-1$, in contradiction with $\delta(M') = n$.
+
+We now prove the inequality $h(M) \leq \delta(M)$ by induction on $n-h(M)$. If $h(M) < n$, none of the ideals $p_i$ is equal to $m$, whence, since these ideals are prime, there exists an element $a$ of $m$ such that $a \notin p_i$ for every $i$; this element may be assumed to be homogeneous in case (a)$'$. Then the submodule (0) of $M$ satisfies the relation (0): $Aa = (0)$ (Vol. I, Ch. IV, Appendix), and we therefore have $\delta(M/aM) = 1 + \delta(M)$ (Lemma 7). If we show that $h(M/aM) \geq h(M) + 1$, our proof will be complete, since, by the induction hypothesis, we have the inequality $h(M/aM) \leq \delta(M/aM)$.
+
+We thus show that $h(M/aM) \geq h(M) + 1$. Let $p$ be an
+
+theorem (Vol. I, Ch. IV, Appendix), since the element $1 + a$ is invertible in $A$. Q.E.D.
+
+We terminate this section by showing how Hilbert's theorem on characteristic polynomials may be deduced from Hilbert's theorem on syzygies. We restrict ourselves to the case of a graded module $M$ over a polynomial ring $A = K[X_1, \cdots, X_n]$ over a field $K$. We consider a chain of syzygies of $M$:
+
+(S) $0 \rightarrow F_j \rightarrow F_{j-1} \rightarrow \cdots \rightarrow F_1 \rightarrow M \rightarrow 0,$
+
+where the sequence is exact, and where $j \leq n+1$. Denote by $d_{i1}, \cdots, d_{is(i)}$ the degrees of the generators of the free $A$-module $F_i$. For $q \geq \max_{1 \leq j \leq s(i)}(d_{ij})$ the vector space $F_i^{(q)}$ of elements of degree $q$ in $F_i$ has dimension $\varphi_i(q) = \sum_{j=1}^{s(i)} \binom{n+q-d_{ij}-1}{n-1}$, and this is a polynomial of degree $n-1$ in $q$. Since the exact sequence (S) induces an exact sequence
+
+$$0 \rightarrow F_j^{(q)} \rightarrow F_{j-1}^{(q)} \rightarrow \cdots \rightarrow F_1^{(q)} \rightarrow M^{(q)} \rightarrow 0$$
+
+in the homogeneous components of degree $q$, then, for $q \geq \max_{i,j}(d_{ij})$, we have:
+
+$$\dim_K(M^{(q)}) = -\varphi_1(q) + \varphi_2(q) + \cdots + (-1)^j \varphi_j(q)$$
+
+by the result about alternating sums of dimensions in an exact sequence (§12, Lemma 1). Thus, for $q \geq \max_{i,j}(d_{ij})$, $\dim_K(M^{(q)})$ is a polynomial of degree at most $n-1$ in $q

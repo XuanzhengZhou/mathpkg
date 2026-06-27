@@ -1,0 +1,23 @@
+id: extreme-points-in-supporting-hyperplanes
+title_en: "Extreme Points in Supporting Hyperplanes"
+title_zh: "支持超平面中的极点"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [locally-convex-space, compact-convex-set, extreme-point, supporting-hyperplane, zorns-lemma]
+depends_on:
+  required: [supporting-hyperplanes-of-compact-convex-sets]
+  recommended: [hahn-banach-separation-theorem, zorns-lemma]
+  suggested: [krein-milman-theorem]
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "10"
+    section: "Compact Convex Sets"
+    pages: ""
+    role_in_book: "Theorem 10.3: every closed real hyperplane supporting a compact convex set contains at least one extreme point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+Lebesgue measure is invariant under translations and reflections. This fundamental symmetry property characterizes Lebesgue measure as the unique translation-invariant measure on $\mathbb{R}$ normalized to give unit intervals measure 1.

@@ -1,0 +1,23 @@
+id: generalized-hahn-banach-circled-variant
+title_en: "Generalized Hahn-Banach Theorem: Circled Variant with Admissible Operators"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [hahn-banach-theorem, circled-set, absolutely-convex-functional, linear-functional, extension-theorem, admissible-operators]
+depends_on:
+  required: [hahn-banach-theorem, circled-set, absolutely-convex-functional, linear-functional, subspace]
+  recommended: [generalized-hahn-banach-convex-functional, convex-functional]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "3"
+    section: "3.9"
+    pages: ""
+    role_in_book: "Remark F following Theorem 3.9; circled variant of the generalized Hahn-Banach theorem incorporating families of linear operators"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

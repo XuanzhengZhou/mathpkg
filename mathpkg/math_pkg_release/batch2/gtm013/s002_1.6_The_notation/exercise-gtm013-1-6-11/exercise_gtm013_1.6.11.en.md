@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "1"
+section: "1.6"
+exercise_number: 11
+---
+
+Let $R$ be a ring. Prove that there is a unique ring homomorphism $\chi: \mathbb{Z} \to R$. The kernel of $\chi$ is of the form $\mathbb{Z}n$ for some unique $n \geq 0$. This $n$ is called the characteristic of $R$.

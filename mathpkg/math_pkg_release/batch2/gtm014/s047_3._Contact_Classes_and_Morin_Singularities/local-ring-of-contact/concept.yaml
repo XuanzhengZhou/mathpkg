@@ -1,0 +1,23 @@
+id: local-ring-of-contact
+title_en: "Local Ring of the Contact of B with A"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: intermediate
+tags: [local-ring, contact-equivalence, ideal-of-vanishing-functions, singularity-theory]
+depends_on:
+  required: [contact-of-submanifold-germs]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky and Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "II"
+    section: "3"
+    pages: "181"
+    role_in_book: "Defines the algebraic invariant (local ring) that classifies contact of submanifold germs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

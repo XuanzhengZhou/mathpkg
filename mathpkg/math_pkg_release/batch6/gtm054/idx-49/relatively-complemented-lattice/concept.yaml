@@ -1,0 +1,23 @@
+id: relatively-complemented-lattice
+title_en: "Relatively Complemented Lattice"
+title_zh: "相对补格"
+type: definition
+domain: combinatorics
+subdomain: lattice-theory
+difficulty: intermediate
+tags: [lattice, complemented, interval, matroid-lattice]
+depends_on:
+  required: []
+  recommended: [lattice, complemented-lattice, matroid-lattice]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "X"
+    section: "49"
+    pages: "295-301"
+    role_in_book: "Defines relatively complemented lattice: every interval is complemented"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

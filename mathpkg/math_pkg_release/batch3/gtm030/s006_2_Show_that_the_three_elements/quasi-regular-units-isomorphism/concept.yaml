@@ -1,0 +1,23 @@
+id: quasi-regular-units-isomorphism
+title_en: "Isomorphism Between Group of Units and Quasi-Regular Group"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [quasi-regular, units, isomorphism, circle-composition]
+depends_on:
+  required: [quasi-regular-group, ring-with-identity]
+  recommended: [group-isomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "For ring with identity, z→1-z is isomorphism Q→U"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

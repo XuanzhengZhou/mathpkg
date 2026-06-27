@@ -1,0 +1,31 @@
+id: pl-schoenflies-theorem
+title_en: "PL Schönflies Theorem in $\\mathbb{R}^3$"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: advanced
+tags:
+- pl-schoenflies
+- polyhedral-2-sphere
+- simply-imbedded
+- 3-simplex
+- plh
+depends_on:
+  required:
+  - simply-imbedded
+  - convex-polyhedral-3-cell-boundary-simply-imbedded
+  - 3-simplex-has-push-property
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm047
+  author: "Edwin E. Moise"
+  title: "Geometric Topology in Dimensions 2 and 3"
+  chapter: ""
+  section: "21"
+  pages: ""
+  role_in_book: "Main theorem of the section"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: dirichlet-lemma-p2-minus-5q2-fifth-power
+title_en: "Dirichlet's Lemma on $P^2 - 5Q^2$ as a Fifth Power"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [fermat-last-theorem, n-equals-5, dirichlet, pell-equation, quadratic-field]
+depends_on:
+  required: [pell-equation, quadratic-field-z-sqrt-5]
+  recommended: [fermat-last-theorem-case-n5, fundamental-unit]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "3"
+    section: "3.2"
+    pages: "page_0082–page_0097"
+    role_in_book: "Key lemma for Dirichlet's proof of FLT for n=5, establishing sufficient conditions for unique fifth-power factorization in Z[√5]"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

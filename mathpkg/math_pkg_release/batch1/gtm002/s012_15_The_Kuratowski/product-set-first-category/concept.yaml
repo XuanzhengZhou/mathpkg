@@ -1,0 +1,23 @@
+id: product-set-first-category
+title_en: "Characterization of First-Category Product Sets"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: baire-category
+difficulty: intermediate
+tags: [baire-category, product-set, first-category, nowhere-dense, kuratowski-ulam]
+depends_on:
+  required: [kuratowski-ulam-theorem, first-category, nowhere-dense, product-topology, dense-open-set]
+  recommended: [baire-category-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "15"
+    section: "15. The Kuratowski-Ulam Theorem"
+    pages: ""
+    role_in_book: "Theorem 15.3 — product A×B is first category iff A or B is first category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,14 @@
+id: godel-numbers-of-markov-algorithms-elementary
+title_en: "The Set of Gödel Numbers of Markov Algorithms is Elementary"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [Gödel-numbering, Markov-algorithm, elementary-relation, arithmetization]
+depends_on: {required: [godel-number-of-markov-algorithm], recommended: [elementary-relations], suggested: []}
+source_books:
+  - {book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "4. Recursive Function Theory", section: "4.1", pages: "", role_in_book: "Shows that the property of being the Gödel number of a Markov algorithm is elementary"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

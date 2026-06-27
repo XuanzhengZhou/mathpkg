@@ -1,0 +1,6 @@
+Let $(X_n, d_n)$ be a metric space for each $n \geq 1$ and let $X = \prod_{n=1}^{\infty} X_n$ be their cartesian product:
+$$X = \{\xi = \{x_n\} : x_n \in X_n \text{ for each } n \geq 1\}.$$
+For $\xi = \{x_n\}$ and $\eta = \{y_n\}$ in $X$ define
+$$d(\xi, \eta) = \sum_{n=1}^{\infty} \left(\frac{1}{2}\right)^n \frac{d_n(x_n, y_n)}{1 + d_n(x_n, y_n)}.$$
+
+Then $(\prod_{n=1}^{\infty} X_n, d)$ is a metric space. If $\xi^k = \{x_n^k\}_{n=1}^{\infty}$ is a sequence in $X$, then $\xi^k \to \xi = \{x_n\}$ iff $x_n^k \to x_n$ for each $n \geq 1$. Moreover, if each $(X_n, d_n)$ is compact then $(X, d)$ is compact.

@@ -1,0 +1,23 @@
+id: independence-rank-equivalence
+title_en: "Equivalence of Independence Systems and Rank Structures"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: matroid-theory
+difficulty: intermediate
+tags: [independence-system, rank-structure, matroid, rank-function, equivalence]
+depends_on:
+  required: []
+  recommended: [rank-structure, independence-system, matroid]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "X"
+    section: "C"
+    pages: "288-294"
+    role_in_book: "C6 Proposition: establishes the equivalence between independence systems and rank structures via the rank function defined as max cardinality of independent subsets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

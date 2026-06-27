@@ -1,0 +1,9 @@
+For a type language, formulas are defined inductively as follows:
+
+\begin{enumerate}
+\item[(8)] If $\sigma$ and $\tau$ are terms of the same type, then $\sigma = \tau$ is a formula.
+\item[(9)] If $R$ is a relation variable or constant of type $(\sigma_0, \ldots, \sigma_m)$, and $\tau_0, \ldots, \tau_m$ are terms of types $\sigma_0, \ldots, \sigma_m$ respectively, then $R\tau_0 \cdots \tau_m$ is a formula.
+\item[(10)] If $\varphi$ and $\psi$ are formulas, so are $\neg\varphi$, $\varphi \lor \psi$, and $\varphi \land \psi$.
+\item[(11)] If $\varphi$ is a formula and $\alpha$ is a variable, then $\forall\alpha\,\varphi$ is a formula.
+\item[(12)] Formulas can only be formed in these ways.
+\end{enumerate}

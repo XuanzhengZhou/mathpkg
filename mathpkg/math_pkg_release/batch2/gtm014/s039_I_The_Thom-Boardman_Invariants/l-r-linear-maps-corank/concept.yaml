@@ -1,0 +1,23 @@
+id: l-r-linear-maps-corank
+title_en: "$L^r(V, W)$ — Linear Maps of Corank $r$"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [linear-maps, corank, vector-bundles, singularity-theory]
+depends_on:
+  required: []
+  recommended: [s-r-singularity, grassmannian]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the space of linear maps of a fixed corank, used to construct the manifold structure of $S_r$"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

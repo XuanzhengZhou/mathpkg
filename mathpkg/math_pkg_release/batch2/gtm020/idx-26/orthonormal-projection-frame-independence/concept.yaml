@@ -1,0 +1,23 @@
+id: orthonormal-projection-frame-independence
+title_en: "Orthonormal projection is independent of the choice of frame"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: inner-product-spaces
+difficulty: basic
+tags: [orthonormal-frame, orthogonal-projection, inner-product, stiefel-variety, unitary-group]
+depends_on:
+  required: [inner-product, orthonormal-basis]
+  recommended: [stiefel-variety]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "3"
+    section: "3.1"
+    pages: "107-110"
+    role_in_book: "Shows that the orthogonal projection defined via an orthonormal k-frame is independent of the choice of frame within the same U_F(k)-orbit"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

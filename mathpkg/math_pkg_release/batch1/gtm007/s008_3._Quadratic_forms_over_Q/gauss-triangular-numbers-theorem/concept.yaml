@@ -1,0 +1,13 @@
+id: gauss-triangular-numbers-theorem
+title_en: "Gauss's Theorem on Sums of Three Triangular Numbers"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: sums-of-squares
+difficulty: intermediate
+tags: [triangular-numbers, gauss, sums-of-squares, quadratic-forms]
+depends_on: {required: [three-square-theorem, triangular-number], recommended: [], suggested: [lagrange-four-square-theorem]}
+source_books: [{book_id: "gtm007", author: "Jean-Pierre Serre", title: "A Course in Arithmetic", chapter: "IV", section: "§3. Quadratic forms over Q", pages: "", role_in_book: "Corollary 2 to the three-square theorem: every positive integer is a sum of three triangular numbers"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

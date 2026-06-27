@@ -1,0 +1,23 @@
+id: minimal-closed-generating-set-for-convex-hull
+title_en: "Minimal Closed Generating Set for Convex Hull"
+title_zh: "凸包的最小闭生成集"
+type: corollary
+domain: analysis
+subdomain: convex-analysis
+difficulty: intermediate
+tags: [extreme-point, convex-hull, compact-convex-set, locally-convex-space, krein-milman]
+depends_on:
+  required: [extreme-points-of-compact-convex-hull]
+  recommended: [supporting-manifold-and-extreme-point]
+  suggested: [krein-milman-theorem]
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "10"
+    section: "Compact Convex Sets"
+    pages: ""
+    role_in_book: "Corollary to Theorem 10.5: extreme points form the minimal closed subset whose convex closure equals the whole set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

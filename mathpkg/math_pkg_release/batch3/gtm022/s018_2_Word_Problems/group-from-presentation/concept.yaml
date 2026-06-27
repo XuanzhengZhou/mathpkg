@@ -1,0 +1,23 @@
+id: group-from-presentation
+title_en: "Group Determined by a Presentation"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: combinatorial-group-theory
+difficulty: basic
+tags: [group-presentation, free-group, normal-subgroup, factor-group]
+depends_on:
+  required: [group-presentation]
+  recommended: [free-group, normal-subgroup, quotient-group]
+  suggested: []
+source_books:
+  - book_id: gtm022
+    author: "D. W. Barnes, J. M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "7"
+    section: "2. Word Problems"
+    pages: "110"
+    role_in_book: "Explains how a presentation determines a concrete group via the free group quotient construction."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

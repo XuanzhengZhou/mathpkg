@@ -1,0 +1,23 @@
+id: tangency-of-curves-on-manifold
+title_en: "Tangency of Curves on a Manifold"
+title_zh: "流形上曲线的相切"
+type: definition
+domain: geometry
+subdomain: smooth-manifolds
+difficulty: basic
+tags: [curve, tangent-vector, equivalence-relation, smooth-manifold]
+depends_on:
+  required: [curve-on-manifold-based-at-point]
+  recommended: [smooth-chart]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "1"
+    section: "3"
+    pages: ""
+    role_in_book: "Definition 3.1(2) — defines the equivalence relation for tangent vectors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

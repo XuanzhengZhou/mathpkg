@@ -1,0 +1,17 @@
+The category $\mathbf{Ab}$ of abelian groups and homomorphisms has coequalizers. Given $f, g: A \to B$, the canonical projection
+$$q: B \to B / \operatorname{Im}(f - g)$$
+is the coequalizer: $q = \text{coeq}(f, g)$.
+
+\textbf{Example.} If $\mathbb{Z}$ is the additive group of integers and $\mathbb{Z}_2$ is the 2-element group, then
+\[
+\begin{array}{ccc}
+\mathbb{Z} & \mathrel{\mathop{\rightrightarrows}\limits_{2}^{0}} & \mathbb{Z} \xrightarrow{q} \mathbb{Z}_2
+\end{array}
+\]
+is the coequalizer in $\mathbf{Ab}$, where $q$ is reduction modulo 2. (The coequalizer in $\mathbf{Set}$ would be infinite.)
+
+Moreover, an abelian group is \textbf{torsion-free} if each of its elements is of infinite order. The category of torsion-free abelian groups also has coequalizers: given $f, g: A \to B$, let $Q$ be the coequalizer in $\mathbf{Ab}$ and $T$ the torsion subgroup of $Q$ (elements of finite order). Then
+\[
+B \to Q \to Q/T
+\]
+is the coequalizer in the category of torsion-free abelian groups. In particular, $\text{coeq}(0, 2) = 0$ in this category.

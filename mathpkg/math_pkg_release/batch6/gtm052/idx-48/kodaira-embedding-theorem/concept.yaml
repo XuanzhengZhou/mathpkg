@@ -1,0 +1,23 @@
+id: kodaira-embedding-theorem
+title_en: "Theorem 4.1 (Kodaira Embedding Theorem): Hodge Manifolds are Projective Algebraic"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: complex-analytic-geometry
+difficulty: advanced
+tags: [kodaira, embedding, hodge-manifold, projective-algebraic, kahler]
+depends_on:
+  required: [hodge-manifold, kahler-manifold]
+  recommended: [ample-line-bundle]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix B"
+    section: "4"
+    pages: "445"
+    role_in_book: "The fundamental theorem: Hodge manifold iff projective algebraic manifold over C"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: c-generated-module
+title_en: "c-Generated Module"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [generating-set, cardinal-number, free-module, epimorphism]
+depends_on:
+  required: [module, generating-set, cardinal-number]
+  recommended: [free-module]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson and Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "25. Injective Modules and Noetherian Rings—The Faith–Walker Theorems"
+    pages: ""
+    role_in_book: "Definition used in the Faith-Walker theorem to bound the size of indecomposable injective summands"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

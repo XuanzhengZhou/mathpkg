@@ -1,0 +1,17 @@
+Let $R$ be an $n$-ary relation on $\omega$, and let $S$ be a recursive $(n+m)$-ary relation. For $m > 0$, $R$ is in $\Sigma_m$ if $m$ is odd and
+
+$$R = \{(x_0, \ldots, x_{n-1}) \in {}^n\omega : \exists y_0 \in \omega \forall y_1 \in \omega \exists y_2 \in \omega \ldots \exists y_{m-2} \in \omega \forall y_{m-1} \in \omega [(x_0, \ldots, x_{n-1}, y_0, \ldots, y_{m-1}) \in S]\},$$
+
+while, if $m$ is even,
+
+$$R = \{(x_0, \ldots, x_{n-1}) \in {}^n\omega : \exists y_0 \in \omega \forall y_1 \in \omega \exists y_2 \in \omega \ldots \forall y_{m-2} \in \omega \exists y_{m-1} \in \omega [(x_0, \ldots, x_{n-1}, y_0, \ldots, y_{m-1}) \in S]\}.$$
+
+$R$ is in $\Pi_m$ if $m$ is odd and
+
+$$R = \{(x_0, \ldots, x_{n-1}) \in {}^n\omega : \forall y_0 \in \omega \exists y_1 \in \omega \forall y_2 \in \omega \ldots \forall y_{m-2} \in \omega \exists y_{m-1} \in \omega [(x_0, \ldots, x_{n-1}, y_0, \ldots, y_{m-1}) \in S]\},$$
+
+while, if $m$ is even,
+
+$$R = \{(x_0, \ldots, x_{n-1}) \in {}^n\omega : \forall y_0 \in \omega \exists y_1 \in \omega \forall y_2 \in \omega \ldots \exists y_{m-2} \in \omega \forall y_{m-1} \in \omega [(x_0, \ldots, x_{n-1}, y_0, \ldots, y_{m-1}) \in S]\}.$$
+
+Members of $\Sigma_m$ (respectively $\Pi_m$) are called $\Sigma_m$-relations (respectively $\Pi_m$-relations). Also let $\Delta_m = \Sigma_m \cap \Pi_m$.

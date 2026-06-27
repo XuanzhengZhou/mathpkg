@@ -1,0 +1,14 @@
+Consider an irreducible space $E$ with minimum polynomial $\mu = f^k$, $\deg f = p$. Choose a generator $e$ and consider the vectors
+$$a_{ij} = f(\varphi)^{i-1} \varphi^{j-1} e \quad \begin{cases} i = 1, \ldots, k \\ j = 1, \ldots, p \end{cases}.$$
+These form a basis of $E$. The matrix of $\varphi$ relative to the basis
+$$a_{11}, \ldots, a_{1p}; a_{21}, \ldots, a_{2p}; \ldots; a_{k1}, \ldots, a_{kp}$$
+consists of $k \times k$ blocks of $p \times p$ submatrices $A_j$ ($j = 1, \ldots, k$) along the diagonal, where
+$$A_j = \begin{bmatrix}
+0 & 1 & \cdots & 0 \\
+\vdots & \ddots & \ddots & \vdots \\
+0 & \cdots & 0 & 1 \\
+-\alpha_0 & -\alpha_1 & \cdots & -\alpha_{p-1}
+\end{bmatrix},$$
+and $f = t^p + \sum_{v=0}^{p-1} \alpha_v t^v$. This matrix is called a Jordan canonical matrix of the irreducible transformation $\varphi$.
+
+For an arbitrary $\varphi$, decompose $E$ into irreducible subspaces and choose the Jordan canonical basis in each; the resulting block diagonal matrix is a Jordan canonical matrix of $\varphi$.

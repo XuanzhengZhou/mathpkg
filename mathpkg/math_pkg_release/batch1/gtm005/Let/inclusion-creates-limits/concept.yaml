@@ -1,0 +1,23 @@
+id: inclusion-creates-limits
+title_en: "Inclusion Functor Creates Limits"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [inclusion-functor, creation-of-limits, discrete-subcategory]
+depends_on:
+  required: []
+  recommended: [pointwise-limits, creation-of-limits]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "3. Limits with Parameters"
+    pages: ""
+    role_in_book: "Theorem 2 of Section V.3; reformulation of pointwise limits as creation of limits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

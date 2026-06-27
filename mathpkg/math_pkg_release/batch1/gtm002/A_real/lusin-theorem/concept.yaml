@@ -1,0 +1,23 @@
+id: lusin-theorem
+title_en: "Lusin's Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [lusin-theorem, measurable-function, continuity, lebesgue-measure, approximation]
+depends_on:
+  required: [measurable-real-valued-function, lebesgue-measure]
+  recommended: [measurable-set]
+  suggested: [baire-property-characterization, egoroff-theorem]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "8"
+    section: "The Theorems of Lusin and Egoroff"
+    pages: "45-46"
+    role_in_book: "Theorem 8.2; characterizes measurable functions as those that are continuous off sets of arbitrarily small measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

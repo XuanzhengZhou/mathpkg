@@ -1,0 +1,23 @@
+id: biendomorphism-stabilization
+title_en: "Stabilization of the Biendomorphism Construction"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [biendomorphism-ring, stabilization, endomorphism-ring]
+depends_on:
+  required: [biendomorphism-bimodule-is-faithfully-balanced]
+  recommended: [endomorphism-ring-of-regular-module]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "4"
+    pages: ""
+    role_in_book: "Shows that BiEnd construction stabilizes after one step"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

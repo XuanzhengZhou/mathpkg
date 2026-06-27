@@ -1,0 +1,23 @@
+id: form-represents-zero
+title_en: "Representation of Zero and Hyperbolic Splitting"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: quadratic-forms
+difficulty: intermediate
+tags: [representation, hyperbolic-form, witt-decomposition, isotropic]
+depends_on:
+  required: [quadratic-form, form-represents-element, hyperbolic-form, isotropic-element]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "IV"
+    section: "§1.3 Isotropic vectors"
+    pages: ""
+    role_in_book: "Proposition 3', if a nondegenerate form represents 0 it splits off a hyperbolic plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: universal-proper-elementary-substructure
+title_en: "m-plus-Universal Structure Isomorphic to Proper Elementary Substructure"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [universal-structure, elementary-substructure, isomorphism]
+depends_on:
+  required: [m-universal-structure, elementary-substructure]
+  recommended: [downward-lowenheim-skolem-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "28"
+    section: "Saturated Structures"
+    pages: ""
+    role_in_book: "Theorem 28.23: universal structures of sufficiently small power embed as proper elementary substructures of themselves"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

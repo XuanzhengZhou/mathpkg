@@ -1,0 +1,23 @@
+id: fermats-last-theorem-n4
+title_en: "Fermat's Last Theorem for n = 4"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-equations
+difficulty: intermediate
+tags: [fermats-last-theorem, n4, infinite-descent, pythagorean-triples]
+depends_on:
+  required: [relatively-prime-square-factors, method-of-infinite-descent, pythagorean-triple-parametrization]
+  recommended: [infinite-descent-principle]
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem"
+    chapter: "1"
+    section: "1.5"
+    pages: ""
+    role_in_book: "First nontrivial case of FLT proved; demonstrates infinite descent technique"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

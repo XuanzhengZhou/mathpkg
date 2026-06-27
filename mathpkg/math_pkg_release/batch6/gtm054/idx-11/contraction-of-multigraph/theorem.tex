@@ -1,0 +1,9 @@
+A system $\Gamma' = (V', f', E')$ is a **contraction** of the multigraph $\Gamma = (V, f, E)$ if
+
+(a) $V' \in \mathbb{P}(V)$ and $\Gamma_W$ is connected for all $W \in V'$;
+
+(b) $E' = \{e \in E : f(e) \not\subseteq W \text{ for all } W \in V'\}$;
+
+(c) $f'(e) = \{W \in V' : f(e) \cap W \neq \varnothing\}$, for all $e \in E'$.
+
+A contraction of a multigraph is clearly a multigraph, but a contraction of a graph need not itself be a graph. The contraction $\Gamma'$ is uniquely determined by $\Gamma$ and $V'$. Every multigraph is obviously a contraction of itself.

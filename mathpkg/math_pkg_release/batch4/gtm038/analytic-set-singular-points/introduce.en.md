@@ -1,0 +1,1 @@
+An analytic set is the zero locus of a family of holomorphic functions. Analytic sets generalize algebraic varieties to the complex analytic setting and form the geometric objects of study in local complex analysis.

@@ -1,0 +1,13 @@
+id: elementary-topos
+title_en: "Elementary Topos"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: topos-theory
+difficulty: advanced
+tags: [topos, subobject-classifier, power-object, cartesian-closed, categorical-foundations]
+depends_on: {required: [], recommended: [category, terminal-object, pullback, monomorphism], suggested: [cartesian-closed-category, well-pointed-category]}
+source_books: [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "Appendix", section: "Foundations", pages: "289-291", role_in_book: "Presents the axioms for an elementary topos as an alternative foundation for mathematics"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

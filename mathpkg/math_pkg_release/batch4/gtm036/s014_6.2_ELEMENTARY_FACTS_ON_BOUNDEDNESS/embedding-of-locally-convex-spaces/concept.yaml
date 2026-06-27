@@ -1,0 +1,23 @@
+id: embedding-of-locally-convex-spaces
+title_en: "Embedding of Locally Convex Spaces"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [locally-convex-space, embedding, product-space, pseudo-normable]
+depends_on:
+  required: [locally-convex-linear-topological-space, pseudo-normable-space, embedding-lemma]
+  recommended: [product-topology]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "6"
+    section: "6.4"
+    pages: ""
+    role_in_book: "Shows every locally convex space embeds into a product of pseudo-normable spaces; justifies focus on pseudo-normed spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

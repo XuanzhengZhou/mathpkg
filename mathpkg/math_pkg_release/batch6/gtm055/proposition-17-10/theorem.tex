@@ -1,0 +1,33 @@
+Let $(X, S, \mu)$ be a measure space and let $\mathcal{E}$ be a normed space. The collection $\mathcal{L}_{\infty}(X; \mathcal{E}) = \mathcal{L}_{\infty}(X, S, \mu; \mathcal{E})$ of all those measurable mappings $\Phi$ of $X$ into $\mathcal{E}$ such that
+
+$$\|\Phi\|_{\infty} = \|N_{\Phi}\|_{\infty} = \text{ess sup}_{X} \|\Phi(x)\|_{<} + \infty$$
+
+is a linear space with respect to pointwise linear operations, and $\|\Phi\|_{\infty}$ is a pseudonorm on $\mathcal{L}_{\infty}(X; \mathcal{E})$.
+
+For any measure space $(X, S, \mu)$ and normed space $\mathcal{E}$, the zero spaces of the various pseudonorms $\|\|\|_{p}$, $1 \leq p \leq +\infty$, are all the same, each coinciding with the linear manifold $\mathcal{Z}(X; \mathcal{E})$ of those measurable $\mathcal{E}$-valued mappings on $X$ that are equal to 0 a.e. $[\mu]$. Just as before, we shall use the symbol $\mathcal{L}_{p}(X; \mathcal{E})$ to stand for both the linear space of $\mathcal{E}$-valued mappings equipped with the pseudonorm $\|\|\|_{p}$ and for the associated normed space $\dot{\mathcal{L}}_{p}(X; \mathcal{E})$ (whose elements are cosets modulo $\mathcal{Z}(X; \mathcal{E})$) equipped with the norm $\|\|\|_{p}$. In this same spirit we also continue to admit as an element of $\mathcal{L}_{p}(X; \mathcal{E})$ any $\mathcal{E}$-valued mapping $\Phi$ whose domain is a subset of $X$ that contains the complement of some set $Z$ such that $\mu(Z) = 0$, provided the restriction of $\Phi$ to $X \setminus Z$ belongs to $\mathcal{L}_{p}(X \
+
+then $\Phi$ is measurable on $X \setminus Z$ (Prob. 6R), and $\|\Phi(x) - \Phi_N(x)\| \leq \sum_{n=N}^{\infty} g_n(x)$ for all $x$ in $X \setminus Z$ and all positive integers $N$. Hence, appealing to Lemma 17.3 once again, we obtain
+
+$$\|\Phi - \Phi_k\|_p \leq \left\| \sum_{n=N}^{\infty} g_n \right\|_p \leq \sum_{n=N}^{\infty} \|g_n\|_p$$
+
+for all $k \geq N$, and the completeness of $\mathcal{L}_p(X; \mathcal{E})$ follows.
+
+Suppose, conversely, that $\mathcal{L}_p(X; \mathcal{E})$ is complete for some value of $p$ ($p \geq 1$), and that $X$ contains at least one measurable set $E$ such that $0 < \mu(E) < +\infty$. If $\{v_n\}$ is a sequence in $\mathcal{E}$ such that $\sum_n \|v_{n+1} - v_n\| < +\infty$, then the sequence $\{\chi_E v_n\}_{n=1}^{\infty}$ satisfies the condition
+
+$$\sum_n \|\chi_E v_{n+1} - \chi_E v_n\|_p < +\infty$$
+
+in $\mathcal{L}_p(X; \mathcal{E})$, whence it follows, just as in the first part of the proof, that the sequence $\{\chi_E v_n\}_{n=1}^{\infty}$ is pointwise convergent in $\mathcal{E}$ almost everywhere on $X$. If $x_0$ is any one point of $E$ at which this series converges, say to a limit $w$, then it is clear that the sequence $\{v_n\}$ converges to $w$, and it follows that $\mathcal{E}$ is complete.
+
+The existence of the Lebesgue space $\mathcal{L}_1(X; \mathcal{E})$ permits an interesting and useful extension of the theory of integration to Banach space valued mappings when $\mathcal{E}$ is a
+
+$E_n$ and $\Phi(x) = 0$ outside of $E = \bigcup_n E_n$. For each pair of positive integers $k$ and $n$ we define $G_{k,n} = \{x \in X : \|\Phi(x) - v_k\| \leq 1/n\}$. Then, since the vectors $v_k$ are dense in $\mathcal{E}$, for each fixed $n$ the sequence $\{G_{k,n}\}_{k=1}^{\infty}$ covers $X$, whence it follows that for each positive integer $n$ there exists a positive integer $m = m_n$ with the property that
+
+$$\mu(E_n \setminus (G_{1,n} \cup G_{2,n} \cup \cdots \cup G_{m_n,n})) \leq 1/2^n$$
+
+(Prop. 7.4). We write $G_n = G_{1,n} \cup \cdots \cup G_{m_n,n}$, $n \in \mathbb{N}$, and for each $k = 1, \ldots, m_n$, we define
+
+$$H_{k,n} = E_n \cap \left(G_{k,n} \setminus \bigcup_{i>k} G_{i,n}\right),$$
+
+with the result that the sets $H_{1,n}, \ldots, H_{m_n,n}$ are pairwise disjoint, each $H_{k,n}$ is contained in the corresponding set $G_{k,n}$, and $H_{1,n} \cup \cdots \cup H_{m_n,n} = E_n \cap G_n$. Next we define $\Sigma_n$ by setting $\Sigma_n(x) = v_k$ for all $x$ in $H_{k,n}$ and defining $\Sigma_n(x) = 0$ outside $E_n \cap G_n$. Then from the various definitions it is obvious that $\Sigma_n$ is an integrable simple $\mathcal{E}$-valued mapping on $X$ for each $n$. Likewise, if $x \in E_n \cap G_n$ then $x \in H_{k,n}$ for some $k$, and we have $\Sigma_n(x) = v_k$, so
+
+$$\|\Phi(x) - \S

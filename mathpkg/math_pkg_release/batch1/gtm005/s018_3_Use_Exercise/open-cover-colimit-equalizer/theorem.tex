@@ -1,0 +1,5 @@
+Let $\{U_i \mid i \in J\}$ be an open cover of a space $X$. A $J$-indexed family of continuous maps $f_i: U_i \to Y$ determines a map $f$ continuous on all of $X$ if and only if $f_i | (U_i \cap U_j) = f_j | (U_i \cap U_j)$ for all $i$ and $j$. This is expressed by the statement that the following diagram is an equalizer
+
+$$\mathbf{Top}(X, Y) \to \prod_i \mathbf{Top}(U_i, Y) \rightrightarrows \prod_{i,j} \mathbf{Top}(U_i \cap U_j, Y),$$
+
+where the arrows are given by restriction. Equivalently, $X$ is the colimit in $\mathbf{Top}$, with colimiting cone the inclusion maps $U_i \to X$, of the functor $U: J' \to \mathbf{Top}$, where $J'$ is the category with objects the pairs $(i, j)$ and arrows from $(i, j)$ to $i$ and $j$.

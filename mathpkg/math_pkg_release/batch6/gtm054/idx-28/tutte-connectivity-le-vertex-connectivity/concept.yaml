@@ -1,0 +1,23 @@
+id: tutte-connectivity-le-vertex-connectivity
+title_en: "Tutte connectivity is bounded above by vertex connectivity"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: multigraph-connectivity
+difficulty: intermediate
+tags: [tutte-connectivity, vertex-connectivity, multigraph]
+depends_on:
+  required: [tutte-connectivity, vertex-connectivity, k-separated-multigraph]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "Chapter VI"
+    section: "Section 30"
+    pages: ""
+    role_in_book: "Proposition E5/E4: For multigraphs, τ(Γ) ≤ κ(Γ) holds whenever not every two vertices are incident."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,14 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+For any set $E$,
+
+$$(I - P)B^E = \begin{pmatrix} I - P^E & 0 \\ 0 & 0 \end{pmatrix}.$$
+
+If $N^{(n)} = I + P + \cdots + P^n$, then
+
+$$B^E N^{(n)} = N^{(n)} + E^E N(P^{n+1} - I).$$

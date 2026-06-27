@@ -1,0 +1,31 @@
+id: birkhoff-subcategory-uniqueness
+title_en: "Uniqueness of Birkhoff Subcategories via Common Reflection"
+title_zh: "通过公共反射的 Birkhoff 子范畴唯一性"
+type: corollary
+domain: algebra
+subdomain: universal-algebra
+difficulty: advanced
+tags:
+  - birkhoff-subcategory
+  - uniqueness
+  - reflection
+  - algebraic-theory
+  - monad
+depends_on:
+  required:
+    - abstract-birkhoff-subcategory
+    - birkhoff-variety-theorem
+    - reflection
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "3"
+    section: "3.4"
+    pages: ""
+    role_in_book: "Immediate consequence of Theorems 3.2, 3.3, and 3.4; shows that an abstract Birkhoff subcategory is determined by its reflection data."
+content_hash: "b2c3d4e5"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

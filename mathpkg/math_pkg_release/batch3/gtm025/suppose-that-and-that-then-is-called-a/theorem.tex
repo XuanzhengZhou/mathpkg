@@ -1,0 +1,103 @@
+Suppose that $f \in \mathfrak{L}_1([a, b])$ and that $x \in ]a, b[$. Then $x$ is called a Lebesgue point for $f$ if (18.5.i) holds. The set of all Lebesgue points for $f$ is called the Lebesgue set for $f$.
+
+It is obvious that every point of $]a, b[$ at which $f$ is continuous is a Lebesgue point for $f$. However $f$ need not be continuous anywhere, and yet almost every point is a Lebesgue point. The Lebesgue set plays an important role in the theory of Fourier series and integrals, as we shall see in (18.29) and (21.43).
+
+We now inquire into the "reverse" [not really a converse] of Theorem (18.3). Given a continuous function $\varphi$ that is differentiable a.e., is it true that
+
+$$\varphi(x) - \varphi(a) = \int_a^x \varphi'(t) dt?$$
+
+That is, does the fundamental theorem of the calculus hold with the Riemann integral replaced by the Lebesgue integral and differentiability replaced by differentiability a.e.? The following examples answer this question with an emphatic "no".
+
+(18.7) Example. As in (8.28), let $\psi$ be Lebesgue's singular function. Then $\psi$ is continuous on $[0, 1]$ and it is clear that $\psi'(x) = 0$ for all $x$ in $[0, 1]$ that are not in $P$ [CANTOR's ternary set]. Thus $\psi'(x) = 0$ a.e. It follows that
+
+$$\psi(1) - \psi(0) = 1 \neq 0 = \int_0^1 \psi'(x) dx.$$
+
+The next example seems not as geometrically obvious as (18.7), but it is much more dramatic.
+
+(18.8) Example [Adapted from RIESZ-NAGY]. We will exhibit a real-valued function $F$ on $[0, 1]$ such that
+
+strictly increasing. Indeed, for $0 < t < 1$ and any $\alpha, \beta$ such that $\alpha < \beta$, the inequalities
+
+$$\beta - \left( \frac{1 - t}{2} \alpha + \frac{1 + t}{2} \beta \right) = \frac{1 - t}{2} (\beta - \alpha) > 0$$
+
+and
+
+$$\frac{1 - t}{2} \alpha + \frac{1 + t}{2} \beta - \alpha = \frac{1 + t}{2} (\beta - \alpha) > 0$$
+
+hold. These inequalities show that if $F_n$ is strictly increasing, then
+
+$$F_{n+1} \left( \frac{k}{2^n} \right) < F_{n+1} \left( \frac{2k+1}{2^{n+1}} \right) < F_{n+1} \left( \frac{k+1}{2^n} \right)$$
+
+for $k = 0, 1, \ldots, 2^n - 1$. The piecewise linearity of $F_{n+1}$ proves that it too is strictly increasing. Also, if $\alpha < \beta$, we have
+
+$$\frac{1 - t}{2} \alpha + \frac{1 + t}{2} \beta - \frac{\alpha + \beta}{2} = \frac{t}{2} (\beta - \alpha) > 0$$
+
+and from this inequality it follows that
+
+$$F_n \left( \frac{2k+1}{2^{n+1}} \right) < F_{n+1} \left( \frac{2k+1}{2^{n+1}} \right)$$
+
+for $k = 0, 1, \ldots, 2^n - 1$. Hence, again by linearity, the inequality
+
+$$F_n(x) \leq F_{n+1}(x)$$
+
+holds for all $x \in [0, 1]$. Thus the sequence $(F_n(x))_{n=1}^{\infty}$ converges for all $x \in [0, 1]$; let
+
+$$F(x) = \lim_{n \to
+
+Let $k$ be a fixed nonnegative integer. Suppose that we go to the right in going from $(\alpha_k, \beta_k)$ to $(\alpha_{k+1}, \beta_{k+1})$. Then we have
+
+$$F(\beta_{k+1}) - F(\alpha_{k+1}) = F_{k+1}(\beta_{k+1}) - F_{k+1}(\alpha_{k+1})$$
+
+$$= F_k(\beta_k) - \left\{ \frac{1 - t_{k+1}}{2} F_k(\alpha_k) + \frac{1 + t_{k+1}}{2} F_k(\beta_k) \right\}$$
+
+$$= \frac{1 - t_{k+1}}{2} \left( F(\beta_k) - F(\alpha_k) \right). \tag{3}$$
+
+If we go to the left in going from $(\alpha_k, \beta_k)$ to $(\alpha_{k+1}, \beta_{k+1})$, then a like computation shows that
+
+$$F(\beta_{k+1}) - F(\alpha_{k+1}) = \frac{1 + t_{k+1}}{2} \left( F(\beta_k) - F(\alpha_k) \right). \tag{4}$$
+
+A simple induction shows that
+
+$$F(\beta_n) - F(\alpha_n) = \prod_{k=1}^{n} \left( \frac{1 + \varepsilon_k t_k}{2} \right),$$
+
+where the $\varepsilon_k$'s are 1 or $-1$. Thus
+
+$$|F(\beta_n) - F(\alpha_n)| \leq \prod_{k=1}^{n} \left( \frac{1 + t_k}{2} \right),$$
+
+and if all $t_k$ are less than a number less than 1, $F$ is obviously continuous. [We will not bother with exploring necessary conditions for the continuity of $F$.]
+
+We now look at the derivates of $F$. Consider any dyadic rational $\frac{l}{2^p}$ such that $0 \leq \frac{l}{2^p} < 1$. Define a sequence $(\alpha_n, \beta_n)$ satisfying (1) and (2) for which $\
+
+each value is assumed for infinitely many $k$'s, i.e., $x$ is not a dyadic rational. For each $n$, there is a unique $l$ such that $\frac{l}{2^n} < x < \frac{l+1}{2^n}$; let $\alpha_n = \frac{l}{2^n}$ and $\beta_n = \frac{l+1}{2^n}$. In fact these numbers are given by
+
+$$\alpha_n = \frac{l}{2^n} = \frac{x_1}{2} + \cdots + \frac{x_n}{2^n} < x < \frac{x_1}{2} + \cdots + \frac{x_n}{2^n} + \frac{1}{2^n} = \frac{l+1}{2^n} = \beta_n.$$
+
+We will compute $\frac{F(\beta_n) - F(\alpha_n)}{\frac{1}{2^n}}$. If $x_n = 0$, then $\alpha_n = \alpha_{n-1}$ and
+
+$$\beta_n = \alpha_{n-1} + \frac{1}{2^n} = \frac{\alpha_{n-1} + \beta_{n-1}}{2}.$$
+
+If $x_n = 1$, then $\beta_n = \beta_{n-1}$, and
+
+$$\alpha_n = \alpha_{n-1} + \frac{1}{2^n} = \frac{\alpha_{n-1} + \beta_{n-1}}{2}.$$
+
+In the first case we have
+
+$$\frac{F(\beta_n) - F(\alpha_n)}{\frac{1}{2^n}} = 2^n \left\{ \frac{1-t_n}{2} F_{n-1}(\alpha_{n-1}) + \frac{1+t_n}{2} F_{n-1}(\beta_{n-1}) - F_{n-1}(\alpha_{n-1}) \right\}$$
+
+$$= 2^n \left\{ \frac{1+t_n}{2} \cdot (F_{n-1}(\beta_{n-1}) - F_{n-1}(\alpha_{n-1})) \right\}.$
+
+(ii) if $\lim_{n \to \infty} t_n < 1$, then $F$ is continuous;
+
+(iii) if $\lim_{n \to \infty} t_n > 0$ and $x$ is a dyadic rational in $]0, 1[$, then $D^+ F(x) = \infty$ and $D_- F(x) = 0$;
+
+(iv) if $\lim_{n \to \infty} t_n > 0$, then $F'(x) = 0$ for almost all $x \in ]0, 1[$.
+
+Thus if $0 < \lim_{n \to \infty} t_n < 1$, then $F$ is continuous, strictly increasing, and $F' = 0$ a.e. The reader should sketch the first few approximants $F_n$ to $F$ for a special choice of $(t_n)$, say $t_n = \frac{1}{2}$ for all $n$, to see what is going on.
+
+(18.9) Note. The construction in (18.8) proves also a curious measure-theoretic fact. If $(t_n)_{n=1}^{\infty}$ is a sequence of numbers in $]0, 1[$ not having limit 0, then
+
+$$\prod_{k=1}^{\infty} (1 + (-1)^{x_k} t_k) = 0$$
+
+for almost all numbers $x = \sum_{k=1}^{\infty} \frac{x_k}{2^k}$.
+
+We now identify the class of functions that are indefinite integrals of functions in $\mathfrak{L}_1$.

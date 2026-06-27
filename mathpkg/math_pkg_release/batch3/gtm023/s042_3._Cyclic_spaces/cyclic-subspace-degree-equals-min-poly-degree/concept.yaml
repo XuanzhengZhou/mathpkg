@@ -1,0 +1,23 @@
+id: cyclic-subspace-degree-equals-min-poly-degree
+title_en: "Existence of Cyclic Subspace with Dimension Equal to Degree of Minimum Polynomial"
+title_zh: "存在维数等于最小多项式次数的循环子空间"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [cyclic-subspace, minimum-polynomial, dimension]
+depends_on:
+  required: [sigma-a-map, kernel-of-sigma-a-equals-ideal-of-minimum-polynomial, cyclic-subspace]
+  recommended: [dimension, quotient-ring]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Shows there is a maximal cyclic subspace whose dimension attains deg μ"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

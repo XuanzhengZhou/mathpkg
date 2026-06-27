@@ -1,0 +1,23 @@
+id: borel-intersection-contains-csa
+title_en: "Intersection of Borel Subalgebras Contains a Cartan Subalgebra"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [borel-subalgebra, cartan-subalgebra, semisimple-lie-algebra, intersection-theorem]
+depends_on:
+  required: [borel-subalgebra, cartan-subalgebra, semisimple-lie-algebra]
+  recommended: [conjugacy-of-borel-subalgebras, root-system]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "16"
+    section: "16.Exercises"
+    pages: "91-101"
+    role_in_book: "Exercise proving that any two Borel subalgebras intersect in a subspace containing a Cartan subalgebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

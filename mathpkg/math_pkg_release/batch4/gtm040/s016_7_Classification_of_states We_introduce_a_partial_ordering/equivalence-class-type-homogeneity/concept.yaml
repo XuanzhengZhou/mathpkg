@@ -1,0 +1,23 @@
+id: equivalence-class-type-homogeneity
+title_en: "Equivalence Class Type Homogeneity"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, state-classification, recurrence, equivalence-class, communication]
+depends_on:
+  required: [recurrent-state-reaching-probability, bounded-return-probability-before-hitting]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "7. Classification of states"
+    pages: ""
+    role_in_book: "Proposition 4-24: All states in an equivalence class are of the same type — either all recurrent or all transient"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

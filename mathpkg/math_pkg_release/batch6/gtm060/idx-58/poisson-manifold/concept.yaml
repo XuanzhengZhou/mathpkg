@@ -1,0 +1,23 @@
+id: poisson-manifold
+title_en: "Poisson manifold"
+title_zh: "泊松流形"
+type: definition
+domain: geometry
+subdomain: poisson-geometry
+difficulty: advanced
+tags: [poisson-structure, manifold, symplectic-leaves, casimir, lie-algebroid]
+depends_on:
+  required: [poisson-structure-on-manifold]
+  recommended: [symplectic-manifold]
+  suggested: [poisson-cohomology, momentum-map, integrable-system]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 14"
+    section: "A. Poisson manifolds"
+    pages: ""
+    role_in_book: "Defines a Poisson manifold as a manifold equipped with a Poisson structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

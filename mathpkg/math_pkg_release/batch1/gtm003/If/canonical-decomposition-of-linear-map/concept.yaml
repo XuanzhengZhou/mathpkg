@@ -1,0 +1,23 @@
+id: canonical-decomposition-of-linear-map
+title_en: "Canonical Decomposition of a Linear Map"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [linear-map, canonical-decomposition, quotient-space, null-space, topological-homomorphism]
+depends_on:
+  required: []
+  recommended: [topological-vector-space, quotient-vector-space, linear-map]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "1"
+    pages: "88"
+    role_in_book: "Every linear map factorizes canonically as the composition of the quotient map, an associated bijection, and the inclusion map. This decomposition is fundamental for analyzing topological homomorphisms."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

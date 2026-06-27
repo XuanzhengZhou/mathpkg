@@ -1,0 +1,13 @@
+Let $\{X_n\}$ be a sequence of random variables with $E[|X_n|] < \infty$ and $\{\mathfrak{B}_n\}$ a non-decreasing sequence of sub-sigma-fields of $\mathfrak{F}$, with $X_n$ measurable with respect to $\mathfrak{B}_n$. The sequence $\{X_n\}$ is called:
+
+\begin{itemize}
+\item A \text{martingale} (relative to $\{\mathfrak{B}_n\}$) if
+  $$X_m = E[X_n \mid \mathfrak{B}_m], \quad m < n,$$
+  almost surely.
+
+\item A \text{supermartingale} if $X_m \geq E[X_n \mid \mathfrak{B}_m]$ for $m < n$.
+
+\item A \text{submartingale} if $X_m \leq E[X_n \mid \mathfrak{B}_m]$ for $m < n$.
+\end{itemize}
+
+Martingale differences $Z_n = X_n - X_{n-1}$ (with $X_{-1} = 0$) satisfy $E[Z_n \mid \mathfrak{B}_{n-1}] = 0$.

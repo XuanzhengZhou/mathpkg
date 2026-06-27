@@ -1,0 +1,23 @@
+id: intersection-of-primary-ideals-for-p-in-noetherian-ring
+title_en: "Intersection of Primary Ideals for a Prime in a Noetherian Ring"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [noetherian-ring, primary-ideal, prime-ideal, localization, krulls-theorem]
+depends_on:
+  required: [quotient-ring-with-respect-to-prime-ideal, noetherian-ring, krulls-intersection-theorem]
+  recommended: [primary-decomposition]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "III"
+    section: "10"
+    pages: ""
+    role_in_book: "Theorem 20; equality of two intersections of primary ideals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

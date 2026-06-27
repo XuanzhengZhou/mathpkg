@@ -1,0 +1,24 @@
+Let $E$ be a real normed linear space and let $M$ be a linear subspace of $E$. If $f \in M^*$, then there exists $g \in E
+for $\alpha \in R$. It is also obvious that $|f_j(x)| \leq |f(x)| \leq \|f\| \cdot \|x\|$, and so $f_1$ and $f_2$ are bounded and $\|f_j\| \leq \|f\|$. Now, regarding $E$ and $M$ as real linear spaces [simply ignore multiplication by all but real scalars], we apply (14.11) to obtain a bounded real linear functional $g_1$ on $E$ such that $f_1 \subset g_1$ and $\|g_1\| = \|f_1\|$. Next define $g$ on $E$ by the rule
+
+$$g(x) = g_1(x) - ig_1(ix).$$
+
+It is easy to see that $g$ is a complex linear functional, e.g., $ig(x) = ig_1(x) + g_1(ix) = g_1(ix) - ig_1(i(ix)) = g(ix)$. To see that $f \subset g$, notice that for $x \in M$ we have
+
+$$g_1(ix) + if_2(ix) = f_1(ix) + if_2(ix) = f(ix) = if(x) = -f_2(x) + if_1(x) = -f_2(x) + ig_1(x),$$
+
+so that $g_1(ix) = -f_2(x)$ and therefore $g(x) = g_1(x) - ig_1(ix) = f_1(x) + if_2(x) = f(x)$. We need only show that $g$ is bounded and that $\|g\| = \|f\|$. Let $x \in E$ be arbitrary and write $g(x) = r \exp(i\theta)$ where $r \geq 0$ and $\theta \in R$. Then we have
+
+$$|g(x)| = r = \exp(-i\theta) g(x) = g(\exp(-i\theta)x) = g_1(\exp(-i\theta)x) \leq \|g_1\| \cdot \|x\| = \|f_1
+
+that is,
+
+$$\|\pi(x)\| = \|x\|.$$
+
+Clearly $$\|\pi(0)\| = 0 = \|0\|.$$ We have thus proved that $\pi$ preserves norms. Consequently $x \neq y$ in $E$ implies that $$\|\pi(x) - \pi(y)\| = \|\pi(x - y)\| = \|x - y\| \neq 0,$$ and so $\pi(x) \neq \pi(y).$$
+
+(14.15) Remark. In view of (14.14), a normed linear space $E$ is indistinguishable qua normed linear space from the subspace $\pi(E)$ of $E^{**}$. The mapping $\pi$ need not be onto $E^{**}$ [see (14.26)]. In case $\pi(E) = E^{**}$, the space $E$ is called reflexive. Since $E^{**}$ is complete and $\pi$ is an isometry, every reflexive normed linear space is a Banach space. In § 15 we will show that every $\mathfrak{L}_p$ space $(1 < p < \infty)$ is reflexive.
+
+We next present three theorems which, together with the Hahn-Banach theorem, are often regarded as the cornerstones of functional analysis. These are the open-mapping theorem, the closed-graph theorem, and the uniform boundedness principle. Several applications of these theorems will be given in the corollaries and the exercises. Unlike the Hahn-Banach theorem, these three theorems require completeness.
+
+(14.16) Open mapping theorem [BANACH]. Let $A$ and $B$ be Banach spaces and let $T$ be a bounded linear transformation from $A$ onto $B$. Then $T(U)$ is open in $B$ for each open subset $U$ of $A$.

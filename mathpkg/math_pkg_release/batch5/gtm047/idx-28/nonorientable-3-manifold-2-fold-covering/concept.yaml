@@ -1,0 +1,23 @@
+id: nonorientable-3-manifold-2-fold-covering
+title_en: "Non-Orientable 3-Manifolds Have a 2-Fold Covering"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: ["non-orientable", "3-manifold", "2-fold-covering", "covering-space", "orientation", "boundary"]
+depends_on:
+  required: ["covering", "k-sheeted-covering"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "7"
+    section: "24"
+    pages: ""
+    role_in_book: "Theorem 7; every non-orientable polyhedral 3-manifold with boundary admits a 2-fold covering, constructed via orientation data"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

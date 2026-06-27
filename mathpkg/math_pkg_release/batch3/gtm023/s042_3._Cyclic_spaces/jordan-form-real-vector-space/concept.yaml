@@ -1,0 +1,23 @@
+id: jordan-form-real-vector-space
+title_en: "Jordan Canonical Form for Real Vector Spaces"
+title_zh: "实向量空间的Jordan标准型"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [jordan-canonical-form, real-vector-space, irreducible-polynomial]
+depends_on:
+  required: [jordan-canonical-matrix, real-vector-space]
+  recommended: [complex-numbers, quadratic-polynomial]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Jordan form for real irreducible transformations with quadratic irreducible factors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

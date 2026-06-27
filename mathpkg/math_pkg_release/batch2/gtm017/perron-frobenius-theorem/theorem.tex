@@ -1,0 +1,8 @@
+\textbf{Theorem 1 (Perron-Frobenius):} The characteristic equation of a non-negative irreducible matrix $A$,
+$$\Phi(z) = \det(zI - A) = 0,$$
+has a simple positive root $\lambda$ that is greater than or equal to the absolute value of any other root. The eigenvector of $A$ corresponding to this root can be taken with all its components positive. The maximal eigenvalue $\lambda$ is the only one with its corresponding eigenvector non-negative.
+
+Furthermore, $\lambda$ satisfies the max-min property:
+$$\lambda = \max_{\substack{x \geq 0 \\ x \neq 0}} \min_{i} \frac{\sum_j a_{i,j} x_j}{x_i}.$$
+
+When $A$ is a transition probability matrix, $\lambda = 1$.

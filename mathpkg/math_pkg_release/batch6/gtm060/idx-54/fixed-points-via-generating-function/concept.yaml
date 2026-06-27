@@ -1,0 +1,23 @@
+id: fixed-points-via-generating-function
+title_en: "Fixed Points of a Symplectic Diffeomorphism as Critical Points of the Generating Function"
+title_zh: "辛微分同胚的不动点作为生成函数的临界点"
+type: proposition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [fixed-points, generating-function, critical-points, symplectic-diffeomorphism]
+depends_on:
+  required: []
+  recommended: [generating-function-for-symplectic-diffeomorphism, poincares-geometric-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 9"
+    section: "B"
+    pages: "427-429"
+    role_in_book: "Connects fixed points to critical points, providing an analytic proof strategy for Poincaré's theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

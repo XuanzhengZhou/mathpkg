@@ -1,0 +1,23 @@
+id: fibre-of-morphism
+title_en: "Fibre of a Morphism"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [scheme, fibre, fibred-product, residue-field, family-of-schemes]
+depends_on:
+  required: [fibred-product-of-schemes]
+  recommended: [residue-field, morphism-of-schemes]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "3"
+    pages: "84-85"
+    role_in_book: "Defines the scheme-theoretic fibre via fibred product with Spec k(y)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

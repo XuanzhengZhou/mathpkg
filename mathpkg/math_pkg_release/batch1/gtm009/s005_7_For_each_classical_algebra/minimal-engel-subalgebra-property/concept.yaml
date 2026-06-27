@@ -1,0 +1,23 @@
+id: minimal-engel-subalgebra-property
+title_en: "Minimal Engel Subalgebra Property"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [engel-subalgebra, cartan-subalgebra, minimal-subalgebra, generalized-eigenspace]
+depends_on:
+  required: [engel-subalgebra]
+  recommended: [characteristic-polynomial, generalized-eigenspace-decomposition]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "15"
+    section: "15.2"
+    pages: "91-101"
+    role_in_book: "Key lemma establishing minimality property of Engel subalgebras, used in proving CSA existence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

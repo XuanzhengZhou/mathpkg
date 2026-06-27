@@ -1,0 +1,23 @@
+id: invertible-fractionary-ideal
+title_en: "Invertible Fractionary Ideal"
+title_zh: "可逆分式理想"
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [ideal-theory, fractionary-ideal, invertible-ideal, dedekind-domain]
+depends_on:
+  required: [fractionary-ideal]
+  recommended: [integral-ideal, principal-fractionary-ideal]
+  suggested: [dedekind-domain]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "6"
+    pages: "272"
+    role_in_book: "Central definition for Dedekind domain theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,14 @@
+id: dimension-of-affine-algebraic-set
+title_en: "Dimension of an affine algebraic set equals Krull dimension of its coordinate ring"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [dimension, affine-algebraic-set, coordinate-ring, krull-dimension]
+depends_on: {required: [krull-dimension-of-ring, algebraic-set, radical-ideal-algebraic-set-correspondence], recommended: [affine-variety], suggested: []}
+source_books:
+  - {book_id: "gtm052", author: "Robin Hartshorne", title: "Algebraic Geometry", chapter: "I", section: "1", pages: "18-23", role_in_book: "Proposition 1.7 — connects geometric dimension to algebraic Krull dimension"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,10 @@
+Let $(V, D)$ be a directed graph. Let $j: V \to \mathbb{N}$ be a vertex capacity for $(V, D)$, and let $x_0 \in V$. Then
+
+$$\max\{h(x_0): h \text{ is a feasible flow in } (V, D)\} = \min\{j(U): U \text{ is a vertex-cut through } x_0\},$$
+
+where:
+\begin{itemize}
+\item A feasible flow $h$ in $(V, D)$ satisfies $0 \leq h(x, y)$ for each $(x, y) \in W$ and $h(x) \leq j(x)$ for all $x \in V$.
+\item A vertex-cut through $x_0$ is a subset $U \subseteq V \setminus \{x_0\}$ such that every directed circuit through $x_0$ contains an element of $U$.
+\item The capacity of a vertex-cut $U$ is $j(U) = \sum_{x \in U} j(x)$.
+\end{itemize}

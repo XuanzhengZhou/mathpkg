@@ -1,0 +1,23 @@
+id: quadric-union-of-hyperplanes
+title_en: "Quadric Contained in the Union of Two Hyperplanes"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: quadric-geometry
+difficulty: advanced
+tags: [quadric, hyperplane, union, projective-geometry, classification, f3]
+depends_on:
+  required: [quadric-in-hyperplane-orthogonality]
+  recommended: [orthogonal-complement, non-degenerate-quadric]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K. W. Gruenberg and A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "7"
+    pages: ""
+    role_in_book: "Exercise 5: classifies quadrics contained in the union of two hyperplanes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

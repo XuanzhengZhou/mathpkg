@@ -1,0 +1,23 @@
+id: diffeomorphism
+title_en: "Diffeomorphism"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-topology
+difficulty: basic
+tags: [diffeomorphism, rank, differentiable-manifold, inverse-function-theorem]
+depends_on:
+  required: [differentiable-mapping-between-manifolds, rank-of-differentiable-map]
+  recommended: [inverse-function-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "I"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition: a bijective map between n-manifolds with rank n everywhere is a diffeomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

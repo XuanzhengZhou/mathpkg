@@ -1,0 +1,23 @@
+id: local-ring-of-a-point-on-a-variety
+title_en: "Local ring of a point on a variety"
+title_zh: "簇上点的局部环"
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [local-ring, germ, regular-function, stalk]
+depends_on:
+  required: [regular-function-at-a-point, ring-of-regular-functions-on-a-variety]
+  recommended: [localization, maximal-ideal]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "3"
+    pages: "16"
+    role_in_book: "Defines the stalk of the structure sheaf"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

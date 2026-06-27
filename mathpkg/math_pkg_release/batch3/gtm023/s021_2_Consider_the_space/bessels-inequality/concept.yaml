@@ -1,0 +1,23 @@
+id: bessels-inequality
+title_en: "Bessel's inequality"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [inner-product, orthogonal-projection, bessel-inequality]
+depends_on:
+  required: [orthogonal-decomposition, orthogonal-projection]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "2. Orthonormal bases"
+    pages: ""
+    role_in_book: "The norm of the orthogonal projection never exceeds the norm of the original vector"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

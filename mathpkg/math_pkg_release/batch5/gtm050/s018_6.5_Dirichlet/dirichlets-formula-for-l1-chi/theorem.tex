@@ -1,0 +1,19 @@
+Let $\chi$ be a nonprincipal Dirichlet character modulo a prime $\lambda$, let $\alpha$ be a primitive $\lambda$th root of unity, and let $\gamma$ be a primitive root modulo $\lambda$. Define the conjugation $\sigma : \alpha \mapsto \alpha^\gamma$. Then
+
+$$L(1, \chi) = \sum_{\nu=1}^{\lambda-1} c_\nu \log \frac{1}{1-\alpha^\nu},$$
+
+where
+
+$$c_\nu = \frac{1}{\lambda} \sum_{j=1}^{\lambda-1} \chi(j) \alpha^{-j\nu}, \qquad c_0 = 0.$$
+
+Reordering the terms by powers of $\gamma$, set $b_k = c_\nu$ with $\nu \equiv \gamma^k \bmod \lambda$. Then $b_k = \sigma^k(b_0)$ and
+
+$$L(1, \chi) = \sum_{k=0}^{\lambda-2} b_k \log \frac{1}{1-\sigma^k \alpha} = b_0 \sum_{k=0}^{\lambda-2} \rho^{-k} \log \frac{1}{1-\sigma^k \alpha},$$
+
+where $\rho = \chi(\gamma)$. Let $\beta$ be a primitive $(\lambda-1)$st root of unity and let $\chi_j$ be the character for which $\chi_j(\gamma) = \beta^j$. Then
+
+$$L(1, \chi_j) = (-1)^j m_j \sum_{k=0}^{\lambda-2} \beta^{-jk} \log \frac{1}{1-\sigma^k \alpha},$$
+
+where
+
+$$m_j = \frac{1}{\lambda} \sum_{k=0}^{\lambda-2} \beta^{jk} \sigma^k \alpha.$$

@@ -1,0 +1,23 @@
+id: structural-equivalence-finitary-equational-presentations
+title_en: "Structural equivalence of finitary equational presentations"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: universal-algebra
+difficulty: advanced
+tags: [equational-presentation, structural-equivalence, category-isomorphism, clone-isomorphism, monoid-isomorphism, finitary]
+depends_on:
+  required: [set-omega-e-is-a-category, monoid-of-omega-e, equational-presentation]
+  recommended: [omega-algebra, omega-homomorphism, category-isomorphism]
+  suggested: [clone-morphism]
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.17"
+    pages: ""
+    role_in_book: "Central theorem characterizing structural equivalence of finitary equational presentations via three equivalent conditions: category isomorphism (2.18), clone isomorphism (2.19), and monoid isomorphism (2.20)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,11 @@
+A \emph{$\lambda$-semiring} is a (commutative) semiring $R$ together with functions $\lambda^i: R \to R$ for $i \geq 0$ satisfying the following properties:
+\[
+\begin{aligned}
+&\text{(1)}\quad \lambda^0(x) = 1 \quad\text{and}\quad \lambda^1(x) = x \quad\text{for each } x \in R.\\
+&\text{(2)}\quad \text{For each } x, y \in R,\quad \lambda^k(x + y) = \sum_{i+j=k} \lambda^i(x)\lambda^j(y).
+\end{aligned}
+\]
+
+A \emph{morphism} $u: (R, \lambda^i) \to (R', \lambda^i)$ between two $\lambda$-semirings is a semiring morphism $u: R \to R'$ such that $\lambda^i(u(x)) = u(\lambda^i(x))$ for each $x \in R$ and $i \geq 0$.
+
+A \emph{$\lambda$-ring} is a $\lambda$-semiring whose underlying semiring is a ring.

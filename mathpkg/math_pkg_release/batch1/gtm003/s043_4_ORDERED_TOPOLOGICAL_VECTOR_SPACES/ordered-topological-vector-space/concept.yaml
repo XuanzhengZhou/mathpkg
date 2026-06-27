@@ -1,0 +1,23 @@
+id: ordered-topological-vector-space
+title_en: "Ordered Topological Vector Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: ordered-topological-vector-spaces
+difficulty: intermediate
+tags: [ordered-vector-space, positive-cone, closed-cone, LTO-axiom]
+depends_on:
+  required: [topological-vector-space, ordered-vector-space, positive-cone]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines the fundamental object of study: a topological vector space whose positive cone is closed"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

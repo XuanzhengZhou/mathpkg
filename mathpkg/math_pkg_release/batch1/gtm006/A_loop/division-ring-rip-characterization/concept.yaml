@@ -1,0 +1,23 @@
+id: division-ring-rip-characterization
+title_en: "Division ring RIP characterization via elations"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-planes
+difficulty: advanced
+tags: [projective-plane, division-ring, right-inverse-property, elation, translation-plane]
+depends_on:
+  required: [right-inverse-property, division-ring]
+  recommended: [planar-ternary-ring, translation-plane]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "6"
+    pages: "146-150"
+    role_in_book: "Theorem 6.11: characterizes when a division ring has RIP in terms of the existence of certain elations in the associated projective plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+The Radon-Nikodym theorem is a cornerstone of measure theory: absolute continuity implies the existence of a density relating two measures. In probability, this guarantees that absolutely continuous distributions have probability density functions. The theorem also underpins the definition of conditional expectation as a Radon-Nikodym derivative.

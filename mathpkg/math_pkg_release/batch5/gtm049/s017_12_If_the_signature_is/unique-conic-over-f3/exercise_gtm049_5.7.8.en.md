@@ -1,0 +1,11 @@
+---
+role: exercise
+locale: en
+chapter: "5"
+section: "5.7"
+exercise_number: 8
+---
+
+Over $\mathbf{F}_3$ there exists a unique non-degenerate conic through any four points, no three of which are collinear. (Thus $X_0X_1 + X_1X_2 + X_2X_0 = 0$ is the unique non-degenerate conic through $(1, 0, 0), (0, 1, 0), (0, 0, 1), (1, 1, 1)$.)
+
+If a completion were degenerate it would be a line pair and so $Q'$ would contain 3 points. Let $Q' = \{A, B\}$. There are 3 points on the line at infinity and not on $AB$: any two of these together with $A, B$ give a completion of $Q'$.

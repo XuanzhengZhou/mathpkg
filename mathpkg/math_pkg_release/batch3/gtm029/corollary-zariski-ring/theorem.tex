@@ -1,0 +1,25 @@
+A complete semi-local ring $A$ is a direct sum of complete local rings. In particular, if $A$ is a domain, it is a local ring.
+
+Let $m$ be the intersection of the maximal ideals $\mathfrak{p}_i$ of $A$. Then $A/m$ is the direct sum of the ideals $\mathfrak{v}_j/m$, where $\mathfrak{v}_j = \prod_{i \neq j} \mathfrak{p}_i = \bigcap_{i \neq j} \mathfrak{p}_i$. Since $\mathfrak{p}_j$ is maximal, $\mathfrak{v}_j/m \cong A/\mathfrak{p}_j$ is a field. Thus the direct summand $\mathfrak{n}_j = \bigcap_{n=0}^{\infty} \mathfrak{v}_j^n$ of $A$ which is such that $\mathfrak{n}_j/m\mathfrak{n}_j = \mathfrak{v}_j/m$ is a field and which is a complete Zariski ring for its $(\mathfrak{m}\mathfrak{n}_j)$-topology (§4, Example 3), is a local ring (Theorem 10, §4). The second assertion follows from the fact that a direct sum of $h$ ideals, $h > 1$, is always a ring with zero-divisors.
+
+Remark. Let $A$ be a (not necessarily complete) semi-local ring, and $m$ the intersection of its maximal ideals $\mathfrak{p}_i$. We consider $\hat{A}$; the ideal $\hat{A}\mathfrak{p}_i$ is maximal, and $\hat{A}$ is the direct sum of the ideals $\mathfrak{n}_j = \bigcap_{n=
+
+Since $A$ is a semi-local, it follows from Theorem 10, §4 (where we replace $m$ by $m^n$) that the ring $A/m^n$ satisfies the d.c.c. If $v$ contains a power $m^n$ of $m$, then a fortiori also the ring $A/v$ satisfies the d.c.c., since this ring is a homomorphic image of $A/m^n$. Conversely, if $A/v$ satisfies the d.c.c., we must have $m^n + v = m^{n+1} + v$ for all large $n$, and therefore $v \supset m^n$ if $n$ is large, since $v$ is a closed set and since therefore $v$ is the intersection of the ideals $m^n + v$. Thus, the condition that $v$ is open is equivalent to the condition that the ring $A/v$ satisfies the d.c.c.
+
+Let $\{p_j\}$ be the set of maximal ideals of $A$. Then the primary representation of $v$ is
+
+(1) $$v = \bigcap_j q_j = \prod_j q_j,$$
+
+where $q_j$ is either primary for $p_j$ or is equal to $A$. The ideal $v^n$ is equal to $\prod_j q_j^n = \bigcap_j q_j^n$ since the ideals $q_j^n$ are pairwise comaximal. The length of the ideal $v^n$ is therefore finite (Vol. I, Ch. IV, §13, Theorem 24). We call characteristic function of the ideal $v$ and denote by $P_v(n)$ the length $\lambda(v^n)$. Since the ideals $q_j^n$ are pairwise comaximal, and since $v^n = \bigcap_j q_j^n$, the ring $A/v^n$ is isomorphic to the direct sum of the rings $A/q_j^n$. Hence
+
+(2) $$P_v(n) = \sum_j \lambda(q_j^n).$$
+
+Since the ideal $q_j^n$ is primary for $p_j$, the length $\lambda(q_j^n)$ is equal to the length of the ideal $q_j^
+
+§. Hence $G(E)$ is a finite graded module over $R$. Since $A/\mathfrak{v}$ is a ring which satisfies the d.c.c., we may apply Hilbert's theorem (VII, § 12, Theorem 41), which tells us that the length of $\mathfrak{v}^n E/\mathfrak{v}^{n+1} E$ is a polynomial in $n$, for $n$ large enough. From this it follows also that the length $\ell(E/\mathfrak{v}^n E) = \sum_{j=0}^{n-1} \ell(\mathfrak{v}^j E/\mathfrak{v}^{j+1} E)$ is a polynomial for $n$ large enough.
+
+Q.E.D.
+
+The polynomial to which $P_{\mathfrak{v}}(n)$ is equal for large values of $n$ is called the characteristic polynomial of the ideal $\mathfrak{v}$. We shall denote it by $P_{\mathfrak{v}}(n)$, and sometimes by $P_{\mathfrak{v}}(n)$ when we are dealing with large values of $n$. As in Chapter VII, § 12 (see p. 233), we find also here that, if $P_{\mathfrak{v}}(n)$ is a polynomial of degree $d$, its coefficients are integral multiples of $1/d!$.
+
+We first prove some simple results about characteristic functions.

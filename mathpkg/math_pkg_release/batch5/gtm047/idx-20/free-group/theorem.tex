@@ -1,0 +1,11 @@
+Consider the following operations which may be performed on a word in $W(A)$:
+
+(1) Insert or delete a syllable of the type $a^0$.
+
+(2) Replace two consecutive syllables $a^\alpha, a^\beta$ by a single syllable $a^{\alpha+\beta}$, or vice versa.
+
+For $w, w' \in W(A)$, define $w \sim w'$ to mean that $w'$ is obtainable from $w$ by a finite sequence of these operations. Let $[w] = \{w' \mid w' \sim w\}$ and
+
+$$F(A) = \{[w] \mid w \in W(A)\}.$$
+
+Multiplication in $W(A)$ induces a multiplication for equivalence classes via $[w_1][w_2] = [w_1w_2]$. The resulting system $[F(A), \cdot]$ is a group, called the \text{free group with alphabet $A$}.

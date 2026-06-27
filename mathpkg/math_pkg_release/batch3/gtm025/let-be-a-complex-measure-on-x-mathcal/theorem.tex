@@ -1,0 +1,40 @@
+Let $v$ be a complex measure on $(X, \mathcal{
+dissection $\{E_1, \ldots, E_n\}$ of $E$, we have
+
+$$\sum_{k=1}^{n} |v(E_k)| \leq \sum_{k=1}^{n} \left(v_1^+ (E_k) + v_1^- (E_k) + v_2^+ (E_k) + v_2^- (E_k)\right)$$
+
+$$= v_1^+ (E) + v_1^- (E) + v_2^+ (E) + v_2^- (E).$$
+
+Take the supremum over all $\{E_1, \ldots, E_n\}$ to obtain (iii). Next let $\alpha = \sup \{|v(A)| : A \in \mathcal{A}, A \subset E\}$. Applying (iii) and (19.7), we have
+
+$$|v|(E) \leq v_1(E \cap P_1) + |v_1(E \cap P_1')| + v_2(E \cap P_2) + |v_2(E \cap P_2')|$$
+
+$$\leq |v(E \cap P_1)| + |v(E \cap P_1')| + |v(E \cap P_2)| + |v(E \cap P_2')|$$
+
+$$\leq 4\alpha.$$
+
+(1)
+
+If $A \in \mathcal{A}$ and $A \subset E$, then $\{A, E \cap A'\}$ is a measurable dissection of $E$, and so $|v(A)| \leq |v(A)| + |v(E \cap A')| \leq |v|(E)$. Take the supremum over all such $A$'s to obtain
+
+$$\alpha \leq |v|(E).$$
+
+(2)
+
+Combine (1) and (2) to get (iv).
+
+Conclusion (v) follows from (iv) and (iii) [recall that $v$ is complex-valued and that $\infty$ is not a complex number].
+
+Finally, (vi) follows from (iv) because
+
+$$v_j^+ (E) = v_j(E \cap P_j) \leq |v|(E)
+
+(19.15) Notes. (a) Notation is as in (19.14). It is all but obvious that $\alpha_1 \mu_1 + \alpha_2 \mu_2$ is a complex measure on $(X, \mathcal{A})$, that $\alpha \mu$ is a signed measure, and that $\mu + \nu$, if defined, is a signed measure.
+
+(b) If $\mu_1$ and $\mu_2$ are measures on $(X, \mathcal{A})$ and $\alpha_1, \alpha_2$ are in $[0, \infty[$, then $\alpha_1 \mu_1 + \alpha_2 \mu_2$ is a measure on $(X, \mathcal{A})$.
+
+(c) For notational convenience, we will usually write the Jordan decomposition (19.13.ii) of a complex measure $\nu$ as
+
+$$\alpha_1 \nu_1 + \alpha_2 \nu_2 + \alpha_3 \nu_3 + \alpha_4 \nu_4.$$
+
+We now consider integration with respect to complex measures, beginning with a useful if rather obvious fact.

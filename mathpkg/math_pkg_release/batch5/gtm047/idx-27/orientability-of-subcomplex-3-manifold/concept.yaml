@@ -1,0 +1,23 @@
+id: orientability-of-subcomplex-3-manifold
+title_en: "A subcomplex 3-manifold of an orientable 3-manifold is orientable"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [orientable, 3-manifold, subcomplex, triangulated-3-manifold]
+depends_on:
+  required: [triangulated-n-manifold, orientable-2-manifold]
+  recommended: [triangulated-3-manifolds-are-combinatorial]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: ""
+    section: "23"
+    pages: ""
+    role_in_book: "Orientability is inherited by subcomplexes that are themselves 3-manifolds with boundary."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

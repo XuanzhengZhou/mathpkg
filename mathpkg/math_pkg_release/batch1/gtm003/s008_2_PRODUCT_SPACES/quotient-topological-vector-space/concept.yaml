@@ -1,0 +1,23 @@
+id: quotient-topological-vector-space
+title_en: "Quotient Topological Vector Space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [quotient-space, quotient-topology, canonical-map, tvs]
+depends_on:
+  required: [topological-vector-space, subspace-of-topological-vector-space]
+  recommended: [quotient-vector-space, quotient-topology]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; with M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "I"
+    section: "2"
+    pages: "32-33"
+    role_in_book: "Defines the quotient topology on L/M as the finest topology making the canonical map continuous."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: galois-group
+title_en: "Galois Group G(K/k)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: galois-theory
+difficulty: intermediate
+tags: [galois-theory, field-automorphism, normal-extension, group-action]
+depends_on:
+  required: [finite-normal-extension, k-automorphism, field-automorphism]
+  recommended: [group-of-automorphisms, fixed-field]
+  suggested: [separable-extension]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "II"
+    section: "§7. The fundamental theorem of Galois theory"
+    pages: ""
+    role_in_book: "Core definition introducing the Galois group concept"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

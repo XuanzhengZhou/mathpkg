@@ -1,0 +1,23 @@
+id: countable-covering-of-manifold-by-euclidean-balls
+title_en: "Countable covering of an n-manifold by Euclidean ball pairs"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [manifold, covering, euclidean-ball, separable, homeomorphism, triangulation]
+depends_on:
+  required: [manifold, separable-metric-space]
+  recommended: [locally-euclidean, second-countable]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "7"
+    section: "The triangulation theorem for 2-manifolds"
+    pages: "65-70"
+    role_in_book: "First step in Radó's triangulation proof: provides a countable cover by charts with well-controlled nested balls"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: induced-measure-from-outer-measure
+title_en: "Measure Induced by an Outer Measure (Theorem C)"
+title_zh: "外测度诱导的测度（定理C）"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-theory, outer-measure, induced-measure, complete-measure]
+depends_on:
+  required: [outer-measure, caratheodory-measurable-set, measurable-sets-form-sigma-ring]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "II"
+    section: "11"
+    pages: ""
+    role_in_book: "The restriction of an outer measure to its measurable sets yields a complete measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

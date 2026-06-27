@@ -1,0 +1,23 @@
+id: harmonic-measure-normal-chain
+title_en: "Harmonic measure $\\beta$ for a normal Markov chain"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [harmonic-measure, normal-chain, entrance-boundary, Martin-boundary, beta-measure]
+depends_on:
+  required: [normal-chain-g0-admissibility, entrance-boundary-probability-measure]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "11"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines the harmonic measure on the entrance boundary for normal chains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

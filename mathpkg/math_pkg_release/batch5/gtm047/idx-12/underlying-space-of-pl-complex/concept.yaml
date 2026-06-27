@@ -1,0 +1,23 @@
+id: underlying-space-of-pl-complex
+title_en: "Underlying space of a PL complex"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: basic
+tags: [pl-topology, pl-complex, underlying-space, geometric-realization]
+depends_on:
+  required: [pl-complex]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "7"
+    section: "Abstract complexes and PL complexes"
+    pages: "65-70"
+    role_in_book: "Defines the geometric realization |K| of a PL complex as the union of all its PL simplexes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

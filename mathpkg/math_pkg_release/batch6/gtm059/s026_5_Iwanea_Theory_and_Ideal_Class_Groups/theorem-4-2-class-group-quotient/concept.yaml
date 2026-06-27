@@ -1,0 +1,23 @@
+id: theorem-4-2-class-group-quotient
+title_en: "Class Group Quotient Formula for $\mathbb{Z}_p$-extensions (Theorem 4.2)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: ["iwasawa-theory", "class-group", "zp-extension", "norm-map"]
+depends_on:
+  required: ["theorem-4-1-iwasawa-semidirect-product", "ideal-class-group"]
+  recommended: ["class-field-theory"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "4"
+    pages: ""
+    role_in_book: "Theorem 4.2 — describes the class group of each level as a quotient of the base class group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

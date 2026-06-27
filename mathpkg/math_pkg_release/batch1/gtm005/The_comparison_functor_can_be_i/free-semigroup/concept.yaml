@@ -1,0 +1,13 @@
+id: free-semigroup
+title_en: "Free Semigroup (Word Monad on Set)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: semigroup-theory
+difficulty: intermediate
+tags: [free-semigroup, word-monad, adjunction, monad, free-construction]
+depends_on: {required: [semigroup], recommended: [monad, adjunction, forgetful-functor], suggested: []}
+source_books: [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "VI", section: "4", pages: "", role_in_book: "Illustrates the comparison functor; constructs the word monad W from the free semigroup adjunction"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

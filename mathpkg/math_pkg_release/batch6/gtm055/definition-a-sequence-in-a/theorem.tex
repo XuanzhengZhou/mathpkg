@@ -1,0 +1,21 @@
+A sequence $X = \{x_n\}_{n=0}^{\infty}$ in a Banach space $\mathcal{E}$ is a (Schauder) basis for $\mathcal{E}$ if for each vector $x$ in $\mathcal{E}$ there exists a unique sequence $\{\alpha_n\}_{n=0}^{\infty}$ of complex numbers such that
+
+$$x = \sum_{n=0}^{\infty} \alpha_n x_n.$$  
+
+(2)
+
+If $X$ is a basis for $\mathcal{E}$ then the scalars $\alpha_n$ appearing in (2) are the coefficients of $x$ with respect to the basis $X$, the sequence $\{\alpha_n\}_{n=0}^{\infty}$ is the coefficient sequence of $x$ with respect to $X$, and the series (2) is the expansion of $x$ with respect to the basis $X$. A basis for $\mathcal{E}$ indexed by $\mathbb{N}$ (or any other index system with the same order type as $\mathbb{N}_0$) is defined in exactly the same fashion with the obvious changes in notation. A two-way infinite sequence $X = \{x_n\}_{n=0}^{+\infty}$ in $\mathcal{E}$ is a (Schauder) basis for $\mathcal{E}$ in the primary sense [Cauchy sense] if for each vector $x$ in $\mathcal{E}$ there exists a unique sequence $\{\alpha_n\}_{n=0}^{+\infty}$ of complex numbers such that
+
+$$x = \sum_{n=-\infty}^{+\infty} \alpha_n x_n$$
+
+in the primary sense [Cauchy sense], and the terms coefficient and expansion are employed accordingly.
+
+Example B. As noted above, the sequence $\{e_n\}_{n=0}^{\infty}$ is a basis for $(\ell_p)$, $1 \leq p < +\infty$. This basis has the special property that the coefficient sequence of each element $x$ of $(\ell_p)$ with respect to it is the sequence $x$ itself. Similarly, for each $p$, $1 \leq p < +\infty$, the two-way infinite sequence $\{e_n\}_{n=0}^{+\infty}$ is a basis for $(\ell_p)^{\#}$ (in the primary sense) having the property that the coefficient sequence of each vector in $(
+
+is defined to be the restriction to $[0, 1]$ of the function $g(2^n t - k + 1)$, and in this way we obtain an infinite sequence $\{f_2, f_3, \ldots\}$ of piecewise linear elements of $\mathcal{C}([0, 1])$ all of which vanish at both $t = 0$ and $t = 1$. Moreover, an examination of the details of the construction discloses that for each nonnegative integer $n$, and for each dyadic number $p/2^{n+1}$, where $p = 2q - 1$, $q = 1, \ldots, 2^n$ (so that $p$ is an odd integer between 1 and $2^{n+1}$), there exists exactly one index $m > 2^n$ (viz., $m = 2^n + q$) such that $f_m(p/2^{n+1}) = 1$, while $f_r(p/2^{n+1}) = 0$ for all other indices $r > 2^n$. It follows, of course, that if $f$ is an element of the Banach space $\mathcal{C}_0([0, 1])$ consisting of those functions in $\mathcal{C}([0, 1])$ that vanish at 0 and 1, and if $\{\alpha_n\}_{n=2}^{\infty}$ is a sequence of complex numbers such that $\sum_{n=2}^{\infty} \alpha_n f_n$ converges uniformly to a function $f$, then the coefficients $\alpha_m$, $m = 2^n + 1, \ldots, 2^n + 2^n$, must be chosen so that the partial sum
+
+$$\sum_{n=2}^{2^n+q} \alpha_n f_n$$
+
+agrees with $f$ at $(2q - 1)/2^{n+1}$. Thus $\alpha_2$ must equal $f(\frac{1}{2})$, $\alpha_3$ and $\alpha_4$ must equal $f(\frac{1}{4}) - \frac{1}{2} f(\frac{1}{2})$ and $f(\frac{3}{4}) - \frac{
+
+defines a norm on $\mathcal{L}$ with respect to which $\mathcal{L}$ is complete. (Analogous results hold with appropriate notational changes when other index systems such as $\mathbb{N}$ or $\mathbb{Z}$ are used in place of $\mathbb{N}_0$.)

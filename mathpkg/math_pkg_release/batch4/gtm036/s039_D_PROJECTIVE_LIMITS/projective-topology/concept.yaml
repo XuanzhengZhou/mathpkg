@@ -1,0 +1,23 @@
+id: projective-topology
+title_en: "Projective Topology"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [projective-topology, locally-convex-space, weak-topology, initial-topology]
+depends_on:
+  required: []
+  recommended: [locally-convex-space, weak-topology]
+  suggested: [product-topology, quotient-topology]
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "Appendix"
+    section: "D"
+    pages: ""
+    role_in_book: "Defines the projective topology as the weakest topology making a family of linear maps continuous"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

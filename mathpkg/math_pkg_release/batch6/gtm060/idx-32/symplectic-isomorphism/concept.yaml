@@ -1,0 +1,23 @@
+id: symplectic-isomorphism
+title_en: "Symplectic Isomorphism Between Vectors and 1-Forms"
+title_zh: "辛同构：向量与1-形式之间的对应"
+type: definition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [symplectic-manifold, isomorphism, tangent-vector, 1-form, symplectic-form]
+depends_on:
+  required: [symplectic-manifold, differential-form]
+  recommended: [tangent-bundle, cotangent-bundle]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "8"
+    section: "38"
+    pages: "214-218"
+    role_in_book: "Defines the isomorphism I between tangent and cotangent spaces induced by the symplectic form"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

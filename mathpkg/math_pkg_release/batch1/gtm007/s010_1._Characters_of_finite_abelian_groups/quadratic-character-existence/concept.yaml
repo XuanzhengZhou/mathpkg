@@ -1,0 +1,23 @@
+id: quadratic-character-existence
+title_en: "Existence of the Quadratic Character χ_a"
+title_zh: "二次特征标χ_a的存在性"
+type: proposition
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: advanced
+tags: [quadratic-character, legendre-symbol, quadratic-reciprocity, hilbert-symbol]
+depends_on:
+  required: [character-modulo-m, quadratic-reciprocity-law]
+  recommended: [legendre-symbol, jacobi-symbol]
+  suggested: [hilbert-symbol, p-adic-numbers]
+source_books:
+  - book_id: gtm007
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VI"
+    section: "§1.3"
+    pages: ""
+    role_in_book: "Constructs a specific quadratic character used in the application of Dirichlet's theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: riesz-representation-theorem-c0-star
+title_en: "Riesz Representation Theorem for C_0(X)^*"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [Riesz-representation, C0-space, dual-space, regular-Borel-measure, Banach-space-isomorphism]
+depends_on:
+  required: [integral-representation-on-c0-space, c0-star-representation-by-regular-borel-measure, complex-regular-borel-measure-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm025
+    author: "Edwin Hewitt, Karl Stromberg"
+    title: "Real and Abstract Analysis"
+    chapter: "5"
+    section: "20"
+    pages: ""
+    role_in_book: "Culminating theorem identifying the dual of C_0(X) as M(X)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

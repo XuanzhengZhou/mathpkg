@@ -1,0 +1,23 @@
+id: absolute-points-collinear-or-oval
+title_en: "Characterization of Polarities with Minimal Number of Absolute Points"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [polarity, absolute-points, oval, collinear, finite-projective-plane]
+depends_on:
+  required: [baer-seib-polarity-bound, number-of-absolute-points]
+  recommended: [oval, polarity]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "XII"
+    section: "1"
+    pages: ""
+    role_in_book: "Characterization theorem for polarities attaining the Baer lower bound"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: smallest-proof-turing-machine
+title_en: "Smallest Proof Number Computation by Turing Machine"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [turing-machine, proof-theory, effective-axiomatization, godel-number]
+depends_on:
+  required: []
+  recommended: [proof-recognition-by-turing-machine, godel-numbering]
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D. W. Barnes, J. M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "5"
+    section: "5"
+    pages: ""
+    role_in_book: "Proposition establishing that the smallest Gödel number of a proof can be computed by a Turing machine for effectively axiomatised theories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

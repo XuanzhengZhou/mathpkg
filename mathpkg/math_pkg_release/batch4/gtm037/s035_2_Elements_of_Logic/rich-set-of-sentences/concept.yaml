@@ -1,0 +1,23 @@
+id: rich-set-of-sentences
+title_en: "Rich Set and Complete Set of Sentences (Definition 11.9)"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: first-order-logic
+difficulty: intermediate
+tags: [henkin-construction, rich-set, complete-set, existential-elimination, quantifier-elimination, model-existence]
+depends_on:
+  required: [first-order-language, formal-proof, sentence]
+  recommended: [formula-denotation, consistency]
+  suggested: [henkin-model-existence, completeness-theorem]
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "11"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Defines rich and complete sets of sentences as key ingredients for the Henkin-style completeness proof"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

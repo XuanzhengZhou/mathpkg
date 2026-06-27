@@ -1,0 +1,21 @@
+Let $K$ be a number field of degree $N = [K : \mathbb{Q}]$. Let
+
+$$r_1 = \text{number of real embeddings of } K,$$
+$$r_2 = \text{number of pairs of complex conjugate embeddings},$$
+
+so that $N = r_1 + 2r_2$. Define the following invariants:
+
+$$w = w_K = \text{number of roots of unity in } K,$$
+$$h = h_K = \text{class number of } K,$$
+$$R = R_K = \text{regulator of } K,$$
+$$d = d_K = \text{discriminant of } K.$$
+
+Then the residue of the Dedekind zeta function $\zeta_K(s)$ at $s = 1$ is given by the analytic class number formula:
+
+$$\lim_{s \to 1} (s - 1) \zeta_K(s) = \frac{2^{r_1} (2\pi)^{r_2} h R}{w \sqrt{|d|}}.$$
+
+If $K$ is totally real ($r_2 = 0$), then $w = 2$ and the formula reads
+
+$$\frac{2^{r_1} h R}{w \sqrt{|d|}} = \prod_{\chi \neq 1} L(1, \chi)$$
+
+where the product is taken over all non-trivial primitive characters of the Galois group of $K/\mathbb{Q}$. For the maximal real subfield $K^+$ of a CM field $K$, the corresponding formula involves the product over even characters only.

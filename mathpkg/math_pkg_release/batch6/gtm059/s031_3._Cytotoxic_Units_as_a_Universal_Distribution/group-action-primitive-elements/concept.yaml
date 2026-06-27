@@ -1,0 +1,23 @@
+id: group-action-primitive-elements
+title_en: "Simply Transitive Action on Primitive Elements"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: intermediate
+tags: [group-action, primitive-elements, galois-group, cyclotomic-units]
+depends_on:
+  required: [cyclotomic-units]
+  recommended: [galois-group, group-action, primitive-roots-of-unity]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "3. Cyclotomic Units as a Universal Distribution"
+    pages: ""
+    role_in_book: "Theorem 3.2: The Galois group acts simply transitively on primitive elements in the cyclotomic unit group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

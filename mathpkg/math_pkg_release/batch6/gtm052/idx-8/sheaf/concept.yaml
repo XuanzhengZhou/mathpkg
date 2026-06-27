@@ -1,0 +1,13 @@
+id: sheaf
+title_en: "Sheaf on a Topological Space"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [sheaf, sheaf-theory, presheaf, gluing-axiom, identity-axiom, local-data]
+depends_on: {required: [presheaf-of-abelian-groups], recommended: [topological-space, stalk-of-presheaf], suggested: [sheaf-of-regular-functions]}
+source_books: [{book_id: "gtm052", author: "Robin Hartshorne", title: "Algebraic Geometry", chapter: "II", section: "1", pages: "69-81", role_in_book: "Defines a sheaf as a presheaf satisfying identity and gluing axioms; fundamental to the definition of schemes"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

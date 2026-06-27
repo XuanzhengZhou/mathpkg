@@ -1,0 +1,23 @@
+id: abstract-curve-functor-is-full
+title_en: "Functor from Curves to Function Fields is Full"
+title_zh: "从曲线到函数域的函子是满的"
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [abstract-curve, functor, full-faithful, function-field, birational-equivalence]
+depends_on:
+  required: [abstract-curve-functor-is-faithful]
+  recommended: [function-field, dominant-morphism]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "6"
+    pages: "61-62"
+    role_in_book: "Theorem 6.8, the functor Y \mapsto K(Y) is full"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

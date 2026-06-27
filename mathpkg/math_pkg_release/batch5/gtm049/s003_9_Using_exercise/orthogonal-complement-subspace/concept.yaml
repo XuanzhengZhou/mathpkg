@@ -1,0 +1,23 @@
+id: orthogonal-complement-subspace
+title_en: "Orthogonal Complement of a Subspace"
+title_zh: "子空间的正交补"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [orthogonal-complement, subspace, dual-space, bilinear-form, annihilator]
+depends_on:
+  required: [vector-space, subspace]
+  recommended: [linear-span]
+  suggested: [coset-as-solution-set-of-linear-equations]
+source_books:
+  - book_id: gtm049
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "3"
+    section: "9"
+    pages: ""
+    role_in_book: "Defines the annihilator of a subspace as M^⊥ for the standard dot product"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

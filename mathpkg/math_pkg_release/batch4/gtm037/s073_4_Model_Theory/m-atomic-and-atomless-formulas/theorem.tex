@@ -1,0 +1,11 @@
+Let $\Gamma$ be a theory and $m \in \omega$.
+
+\begin{enumerate}
+\item[(i)] Define $\approx_m^\Gamma = \{(\varphi, \psi) : \varphi, \psi \in \mathrm{Fmla}_{\mathcal{L}}^m \text{ and } \Gamma \models \varphi \leftrightarrow \psi\}$.
+
+\item[(ii)] A formula $\varphi \in \mathrm{Fmla}_{\mathcal{L}}^m$ is \emph{$m$-atomic over $\Gamma$} provided that $\Gamma \cup \{\exists v_0 \cdots \exists v_{m-1} \varphi\}$ has a model and for any $\psi \in \mathrm{Fmla}_{\mathcal{L}}^m$, either $\Gamma \models \varphi \rightarrow \psi$ or $\Gamma \models \varphi \rightarrow \neg \psi$.
+
+\item[(iii)] A formula $\varphi \in \mathrm{Fmla}_{\mathcal{L}}^m$ is \emph{$m$-atomless over $\Gamma$} provided that $\Gamma \cup \{\exists v_0 \cdots \exists v_{m-1} \varphi\}$ has a model but there is no formula $\psi \in \mathrm{Fmla}_{\mathcal{L}}^m$ $m$-atomic over $\Gamma$ such that $\Gamma \models \psi \rightarrow \varphi$.
+\end{enumerate}
+
+Using the Lindenbaum--Tarski construction, $\mathrm{Fmla}_{\mathcal{L}}^m / {\approx_m^\Gamma}$ forms a Boolean algebra $\mathfrak{A}_m^\Gamma$. A formula $\varphi \in \mathrm{Fmla}_{\mathcal{L}}^m$ is $m$-atomic over $\Gamma$ iff $[\varphi]$ is an atom of $\mathfrak{A}_m^\Gamma$, and it is $m$-atomless over $\Gamma$ iff $[\varphi]$ is an atomless element of $\mathfrak{A}_m^\Gamma$.

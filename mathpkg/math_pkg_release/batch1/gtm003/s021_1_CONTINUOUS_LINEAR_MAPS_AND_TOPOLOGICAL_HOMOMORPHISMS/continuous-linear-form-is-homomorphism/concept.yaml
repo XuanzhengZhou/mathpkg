@@ -1,0 +1,23 @@
+id: continuous-linear-form-is-homomorphism
+title_en: "Every continuous linear form on a t.v.s. is a topological homomorphism"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [linear-form, topological-homomorphism, continuous-functional]
+depends_on:
+  required: [finite-dimensional-range-homomorphism]
+  recommended: []
+  suggested: [hahn-banach-theorem]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "1"
+    pages: ""
+    role_in_book: "Corollary to Proposition 1.3: continuous linear forms (functionals) are automatically topological homomorphisms."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+Let $V(\lambda')$ and $V(\lambda'')$ be irreducible finite-dimensional $L$-modules of highest weights $\lambda', \lambda'' \in \Lambda^+$, with formal characters $\operatorname{ch}_{\lambda'}$ and $\operatorname{ch}_{\lambda''}$. Let $\Pi(\lambda')$ be the set of weights of $V(\lambda')$, and let $m_{\lambda'}(\lambda)$ denote the multiplicity of weight $\lambda$ in $V(\lambda')$. Define the function $t(\mu)$ by:
+$$
+t(\mu) =
+\begin{cases}
+0 & \text{if } \sigma(\mu) = \mu \text{ for some } \sigma \neq 1 \text{ in } \mathcal{W}, \\
+\operatorname{sn}(\sigma) & \text{if the stabilizer of } \mu \text{ in } \mathcal{W} \text{ is trivial and } \sigma(\mu) \text{ is dominant}.
+\end{cases}
+$$
+Then the product of the formal characters satisfies:
+$$
+\operatorname{ch}_{\lambda'} * \operatorname{ch}_{\lambda''} = \sum_{\lambda \in \Pi(\lambda')} m_{\lambda'}(\lambda) \, t(\lambda + \lambda'' + \delta) \, \operatorname{ch}_{\{\lambda + \lambda'' + \delta\} - \delta},
+$$
+where $\{\mu\}$ denotes the unique dominant weight in the Weyl group orbit of $\mu$, and $\delta$ is half the sum of positive roots.

@@ -1,0 +1,23 @@
+id: topological-homomorphism-via-bijective-map
+title_en: "A linear map is a topological homomorphism iff its associated bijective map is an isomorphism"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [topological-homomorphism, isomorphism, bijective-map, quotient]
+depends_on:
+  required: [topological-homomorphism, canonical-decomposition-of-linear-map]
+  recommended: [isomorphism-of-tvs]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "1"
+    pages: ""
+    role_in_book: "Proposition 1.2: equivalence between topological homomorphism and u_0 being an isomorphism."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

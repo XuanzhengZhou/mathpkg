@@ -1,0 +1,23 @@
+id: linear-independence-of-u-alpha
+title_en: "Linear Independence of the u_alpha Family in B(S)"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [bounded-functions, linear-independence, cardinality, dimension]
+depends_on:
+  required: [space-of-bounded-functions]
+  recommended: [linear-independence, scalar-field]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "0"
+    section: "D"
+    pages: ""
+    role_in_book: "Constructs a large linearly independent family in B(S) to establish a lower bound on the dimension."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

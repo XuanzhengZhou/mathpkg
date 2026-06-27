@@ -1,0 +1,23 @@
+id: simple-field-extension-structure
+title_en: "Structure of Fields via Simple Extensions"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: field-theory
+difficulty: advanced
+tags: [field-extension, simple-extension, transcendental, algebraic, prime-field, field-structure]
+depends_on:
+  required: [simple-transcendental-extension, simple-algebraic-extension, prime-field]
+  recommended: [field, well-ordering]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "8"
+    pages: ""
+    role_in_book: "Structure theorem: any field is built from its prime field by simple extensions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

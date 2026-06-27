@@ -1,0 +1,1 @@
+The Thullen estimate provides Cauchy-type bounds on all derivatives of a holomorphic function on compact subsets of the epsilon-interior. These estimates are crucial for characterizing domains of holomorphy via convergence of power series.

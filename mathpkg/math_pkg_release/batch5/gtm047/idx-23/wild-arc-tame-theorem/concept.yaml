@@ -1,0 +1,23 @@
+id: wild-arc-tame-theorem
+title_en: "The Wild Arc A_1 Is Tame"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [wild-arc, tame-imbedding, simply-connected-complement, polyhedral-3-cell]
+depends_on:
+  required: [wild-arc, tame-imbedding, unknotted-broken-line, polyhedral-3-cell]
+  recommended: [plh-extension-unknotted-broken-lines]
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "19"
+    section: "19 (A Wild Arc with Simply Connected Complement)"
+    pages: ""
+    role_in_book: "Theorem 3 of Chapter 19; proves that the specific wild arc A_1 constructed from concentric cubes is tame"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

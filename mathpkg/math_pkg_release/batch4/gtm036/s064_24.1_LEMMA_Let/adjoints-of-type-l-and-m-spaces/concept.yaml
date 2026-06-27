@@ -1,0 +1,17 @@
+id: adjoints-of-type-l-and-m-spaces
+title_en: "Adjoints of Spaces of Type L and M"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: normed-lattices
+difficulty: intermediate
+tags: ["adjoint", "L-space", "M-space", "Banach-lattice", "dual-ordering", "normed-lattice"]
+depends_on:
+  required: []
+  recommended: ["normed-lattice", "l-space", "m-space", "banach-lattice", "unit-of-normed-lattice"]
+  suggested: []
+source_books:
+  - {book_id: "gtm036", author: "Kelley, J.L. and Namioka, I.", title: "Linear Topological Spaces", chapter: "24", section: "24.3", pages: "", role_in_book: "Theorem 24.3; the adjoint of a normed lattice is a Banach lattice with the dual ordering. The adjoint of an M space is an L space, and the adjoint of an L space is an M space with unit. This is a fundamental duality result in the theory of normed lattices."}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

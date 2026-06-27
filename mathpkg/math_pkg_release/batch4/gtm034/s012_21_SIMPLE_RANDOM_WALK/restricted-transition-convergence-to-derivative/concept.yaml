@@ -1,0 +1,13 @@
+id: restricted-transition-convergence-to-derivative
+title_en: "Convergence of the Restricted Transition Operator to the Second Derivative"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [transition-operator, second-derivative, scaling-limit, finite-difference, central-limit-theorem]
+depends_on: {required: [restricted-transition-function], recommended: [central-limit-theorem, differential-operators], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "22", pages: "", role_in_book: "Shows that the discrete operator I_N - Q_N converges, after appropriate scaling, to the second derivative operator"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

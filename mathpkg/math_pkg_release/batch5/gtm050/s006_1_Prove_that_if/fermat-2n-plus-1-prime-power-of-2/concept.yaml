@@ -1,0 +1,23 @@
+id: fermat-2n-plus-1-prime-power-of-2
+title_en: "If 2^n + 1 is Prime, Then n is a Power of 2"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: prime-numbers
+difficulty: basic
+tags: [fermat, fermat-numbers, primes, factorization]
+depends_on:
+  required: []
+  recommended: [fermat-numbers-definition]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "1"
+    section: "1.8"
+    pages: ""
+    role_in_book: "Justification for Fermat's conjecture that numbers of the form 2^(2^n)+1 are prime"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

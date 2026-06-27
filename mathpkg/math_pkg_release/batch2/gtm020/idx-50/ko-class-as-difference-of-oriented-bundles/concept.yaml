@@ -1,0 +1,23 @@
+id: ko-class-as-difference-of-oriented-bundles
+title_en: "KO-Class as Difference of Oriented Vector Bundles"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: k-theory
+difficulty: intermediate
+tags: [ko-theory, vector-bundle, oriented-bundle, adams-operations]
+depends_on:
+  required: [exterior-power-of-sum-with-line-bundle]
+  recommended: [ko-theory, oriented-vector-bundle]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "10"
+    section: "10. The ψ-Operations on K(X) and KO(X)"
+    pages: "page_0199.json–page_0202.json"
+    role_in_book: "Reduces KO(X) computations to oriented vector bundles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

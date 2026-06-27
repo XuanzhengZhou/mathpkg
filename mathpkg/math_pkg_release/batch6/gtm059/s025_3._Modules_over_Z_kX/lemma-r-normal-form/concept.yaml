@@ -1,0 +1,32 @@
+id: lemma-r-normal-form
+title_en: "Lemma on Transforming a Matrix into r-Normal Form"
+title_zh: "将矩阵转化为 r-正规形式的引理"
+type: lemma
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags:
+  - iwasawa-algebra
+  - relation-matrix
+  - normal-form
+  - distinguished-polynomial
+  - admissible-operations
+depends_on:
+  required:
+    - admissible-matrix-operations
+    - r-normal-form
+    - deg-zero-invariant
+  recommended: []
+  suggested:
+    - iwasawa-structure-theorem
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5. Iwasawa Theory and Ideal Class Groups"
+    section: "3. Modules over Z_p[[T]]"
+    pages: ""
+    role_in_book: "Key induction step lemma used in the proof of the structure theorem to incrementally diagonalize the relation matrix"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

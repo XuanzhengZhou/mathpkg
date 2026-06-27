@@ -1,0 +1,23 @@
+id: natural-isomorphism
+title_en: "Natural Isomorphism (Natural Equivalence)"
+title_zh: "自然同构"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [category-theory, natural-transformation, isomorphism, equivalence]
+depends_on:
+  required: [natural-transformation]
+  recommended: [functor, category]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I. Categories, Functors, and Natural Transformations"
+    section: "4. Natural Transformations"
+    pages: ""
+    role_in_book: "Definition of natural isomorphism as an invertible natural transformation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

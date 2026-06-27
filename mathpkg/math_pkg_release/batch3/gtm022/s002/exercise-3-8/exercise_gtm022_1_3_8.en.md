@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "I"
+section: "§3"
+exercise_number: 8
+---
+
+Let $S$ be a commutative ring with $1$. Show that the class of commutative rings $R$ with $1_R = 1_S$ and which contain $S$ as a subring is a variety.

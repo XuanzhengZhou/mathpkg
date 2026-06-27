@@ -1,0 +1,23 @@
+id: universal-property-of-free-algebra
+title_en: "The Universal Property of the Free Algebra AT"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: universal-algebra
+difficulty: intermediate
+tags: [free-algebra, universal-property, equational-presentation, omega-homomorphism, adjunction]
+depends_on:
+  required: [semantic-equivalence-of-terms, equational-presentation, omega-algebra]
+  recommended: [universal-mapping-property, adjoint-functor]
+  suggested: [category-theory]
+source_books:
+  - book_id: "gtm026"
+    author: "Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: ""
+    pages: "24-25"
+    role_in_book: "Establishes the universal property of AT, showing it is the free (Ω,E)-algebra on A. This is the fundamental building block for the clone construction."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

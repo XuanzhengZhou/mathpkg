@@ -1,0 +1,23 @@
+id: q-fundamental-identity
+title_en: "Fundamental identity in the algebra Q"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [algebra-q, adjugate, determinant, trace]
+depends_on:
+  required: [algebra-q]
+  recommended: [adjoint-mapping, determinant-of-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Formula (11.34): φφ̃ = φ ad φ = ι·det φ, a key algebraic identity in Q relating composition with the adjugate to the determinant."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

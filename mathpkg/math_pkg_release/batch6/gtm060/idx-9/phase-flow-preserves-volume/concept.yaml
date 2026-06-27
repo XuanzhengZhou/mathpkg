@@ -1,0 +1,23 @@
+id: phase-flow-preserves-volume
+title_en: "Phase Flow Preserves Volume"
+title_zh: "相流保持体积"
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [hamiltonian-mechanics, phase-flow, volume-preservation, liouville-theorem, symplectic-geometry]
+depends_on:
+  required: []
+  recommended: [hamiltons-equations, phase-space]
+  suggested: [divergence-theorem]
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "B"
+    pages: "83-87"
+    role_in_book: "Fundamental theorem establishing that Hamiltonian phase flows are volume-preserving, a precursor to Liouville's theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

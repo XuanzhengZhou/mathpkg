@@ -1,0 +1,23 @@
+id: eigenspaces-via-linear-factors
+title_en: "Eigenspaces via Linear Factors of the Minimum Polynomial"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [eigenspace, eigenvalue, minimum-polynomial, primary-decomposition, generalized-eigenspace]
+depends_on:
+  required: [primary-decomposition-via-minimum-polynomial]
+  recommended: [eigenvector-eigenvalue, minimum-polynomial-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "13"
+    section: "13.4"
+    pages: ""
+    role_in_book: "Characterization of eigenspaces as kernels of linear factors in the minimum polynomial decomposition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

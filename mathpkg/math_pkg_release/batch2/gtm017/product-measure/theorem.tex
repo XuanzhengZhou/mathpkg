@@ -1,0 +1,6 @@
+Given measure spaces $(\Omega_1, \mathcal{F}_1, m_1)$ and $(\Omega_2, \mathcal{F}_2, m_2)$, the \textbf{product measure} $m = m_1 \times m_2$ on the product sigma-field $\mathcal{F}_1 \times \mathcal{F}_2$ satisfies
+$$m(A_1 \times A_2) = m_1(A_1) m_2(A_2).$$
+
+\textbf{Fubini's Theorem:} If $f(w_1, w_2)$ is integrable with respect to $m$, then
+$$\iint f(w_1, w_2) dm = \int \left(\int f(w_1, w_2) dm_1(w_1)\right) dm_2(w_2)$$
+$$= \int \left(\int f(w_1, w_2) dm_2(w_2)\right) dm_1(w_1).$$

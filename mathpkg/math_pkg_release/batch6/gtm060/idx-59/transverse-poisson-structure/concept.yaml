@@ -1,0 +1,23 @@
+id: transverse-poisson-structure
+title_en: "Transverse Poisson Structure"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: poisson-geometry
+difficulty: advanced
+tags: [poisson-manifold, symplectic-leaf, transverse-structure, weinstein]
+depends_on:
+  required: [poisson-manifold, local-decomposition-poisson-manifold]
+  recommended: [symplectic-structure-on-poisson-leaves]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "B. Poisson Mappings"
+    pages: "469-479"
+    role_in_book: "Definition of the transverse Poisson structure on a minimal transverse manifold to a symplectic leaf at a nongeneric point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

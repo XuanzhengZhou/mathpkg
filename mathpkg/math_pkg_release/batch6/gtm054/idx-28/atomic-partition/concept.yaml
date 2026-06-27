@@ -1,0 +1,23 @@
+id: atomic-partition
+title_en: "Atomic partition of a graph"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-connectivity
+difficulty: intermediate
+tags: [atom, partition, connectivity, fragment]
+depends_on:
+  required: [atom-of-graph, fragment-of-graph]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "Chapter V"
+    section: "Section 30"
+    pages: ""
+    role_in_book: "Defines the atomic partition as the unique partition of V into atoms when each vertex belongs to some atom."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

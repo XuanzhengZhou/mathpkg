@@ -1,0 +1,23 @@
+id: gauss-map-implies-riemannian-metric
+title_en: "Every Vector Bundle with a Gauss Map has a Riemannian or Hermitian Metric"
+title_zh: "每个具有高斯映射的向量丛都有黎曼或埃尔米特度量"
+type: theorem
+domain: topology
+subdomain: fibre-bundles
+difficulty: intermediate
+tags: [gauss-map, riemannian-metric, hermitian-metric, vector-bundle, existence]
+depends_on:
+  required: [gauss-map, riemannian-metric-on-vector-bundle, inner-product-on-vector-space]
+  recommended: [classifying-map, grassmann-variety]
+  suggested: [euclidean-metric-on-canonical-bundle]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "9"
+    section: "9.5"
+    pages: "page_0054"
+    role_in_book: "Existence theorem for metrics via Gauss maps; key step toward metric existence on paracompact spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

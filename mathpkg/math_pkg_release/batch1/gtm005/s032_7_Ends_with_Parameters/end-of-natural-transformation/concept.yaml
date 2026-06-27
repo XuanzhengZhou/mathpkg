@@ -1,0 +1,23 @@
+id: end-of-natural-transformation
+title_en: "End of a Natural Transformation"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [end, natural-transformation, wedge, universal-property, dinatural]
+depends_on:
+  required: []
+  recommended: [end, natural-transformation, wedge]
+  suggested: [coend]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IX"
+    section: "7"
+    pages: "242-243"
+    role_in_book: "Shows that natural transformations between functors with ends induce unique arrows between those ends, establishing the functoriality of the end construction."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

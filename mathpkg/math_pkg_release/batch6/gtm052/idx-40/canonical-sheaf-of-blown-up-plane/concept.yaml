@@ -1,0 +1,23 @@
+id: canonical-sheaf-of-blown-up-plane
+title_en: "Canonical Sheaf of Blown-Up Plane"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [canonical-sheaf, blowing-up, cubic-surface, del-pezzo, projective-embedding]
+depends_on:
+  required: [blowing-up, canonical-sheaf, projective-space]
+  recommended: [cubic-surface, linear-system-of-cubics]
+  suggested: [anticanonical-embedding]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Theorem 4.7; embeds the blow-up of 6 points as a cubic surface"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

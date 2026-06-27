@@ -1,0 +1,23 @@
+id: commutant-stability-of-generalized-eigenspaces
+title_en: "Generalized Eigenspaces Are Stable Under the Commutant"
+title_zh: "广义特征空间在交换子下稳定"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [characterization-of-direct-sums-of-generalized-eigenspaces, commutant, generalized-eigenspace]
+  recommended: [projection-operator, stable-subspace]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "5"
+    pages: ""
+    role_in_book: "Generalized eigenspaces are stable under every transformation commuting with varphi"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

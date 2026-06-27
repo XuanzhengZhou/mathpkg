@@ -1,0 +1,20 @@
+\textbf{Local Definition.}
+Let $X$ be a manifold and let $E = X \times \mathbf{R}^k$ and $F = X \times \mathbf{R}^l$ be product bundles over $X$. Let $\rho : E \to F$ be a vector bundle homomorphism, viewed as a mapping $X \to \operatorname{Hom}(\mathbf{R}^k, \mathbf{R}^l)$. For $p \in X$, let $K_p = \operatorname{Ker} \rho(p)$ and $L_p = \operatorname{Coker} \rho(p)$. The \emph{intrinsic derivative} $(D\rho)_p$ is the composite map
+$$
+T_p X \xrightarrow{(d\rho)_p} T_{\rho(p)} \operatorname{Hom}(\mathbf{R}^k, \mathbf{R}^l) = \operatorname{Hom}(\mathbf{R}^k, \mathbf{R}^l) \longrightarrow \operatorname{Hom}(K_p, L_p)
+$$
+where the second arrow is given by restricting to $K_p$ and projecting to $L_p$.
+
+\textbf{General Definition.}
+Let $E$ and $F$ be vector bundles over $X$ and let $\rho : E \to F$ be a vector bundle homomorphism. For $p \in X$, define $K_p = \operatorname{Ker} \rho(p)$ and $L_p = \operatorname{Coker} \rho(p)$. The \emph{intrinsic derivative} of $\rho$ at $p$,
+$$
+(D\rho)_p : T_p X \longrightarrow \operatorname{Hom}(K_p, L_p),
+$$
+is defined by choosing trivializations of $E$ and $F$ on a neighborhood of $p$ and computing as in the local situation. This mapping is independent of the choice of trivializations.
+
+\textbf{Invariant Definition.}
+Let $\rho : E \to F$ be a vector bundle map and let $\sigma = \rho_x \in L^r(E, F)$ be of corank $r$. Let $N_\sigma$ be the normal space to $L^r(E, F)$ in $\operatorname{Hom}(E, F)$. The intrinsic derivative is the composite
+$$
+T_x X \xrightarrow{(d\rho)_x} T_\sigma \operatorname{Hom}(E, F) \longrightarrow N_\sigma \cong \operatorname{Hom}(K_\sigma, L_\sigma),
+$$
+where the identification $N_\sigma \cong \operatorname{Hom}(K_\sigma, L_\sigma)$ is canonical.

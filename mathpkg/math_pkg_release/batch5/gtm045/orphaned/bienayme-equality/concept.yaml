@@ -1,0 +1,13 @@
+id: bienayme-equality
+title_en: "Bienaymé Equality"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: independence
+difficulty: basic
+tags: [bienayme, variance, independence, additivity]
+depends_on: {required: ["variance-of-random-variable", "independence-of-events"], recommended: [], suggested: []}
+source_books: [{book_id:"gtm045",author:"Michel Loève",title:"Probability Theory I",chapter:"Introductory Part, II",section:"3. Independence",pages:"",role_in_book:"Variance of sum of independent random variables equals sum of variances"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

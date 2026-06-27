@@ -1,0 +1,23 @@
+id: theorem-10-16-quasifield-multiplication
+title_en: "Multiplication in the Derived Quasifield"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [planar-ternary-ring, quasifield, multiplication, derived-plane]
+depends_on:
+  required: [planar-ternary-ring, quasifield, derived-plane, theorem-10-15-derived-plane-coordinates]
+  recommended: [right-quasifield]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "10"
+    section: "4"
+    pages: ""
+    role_in_book: "Gives the explicit multiplication formula for the derived quasifield"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

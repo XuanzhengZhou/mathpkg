@@ -1,0 +1,15 @@
+$$|A''| = \sum_{a \in A} g(a) = m.$$
+
+Now let $S'' \subset V''$ separate $Z$ from $A''$ in $\Gamma'$. Corresponding to $S''$ is a set $S' \subset V' \cup D'$ given by
+
+$$S' = [S'' \cap (V' \cup D')] \cup \{(a, x): a \in A; (a_j, x) \in S'' \text{ for some } j = 1, \ldots, g(a)\} \cup \{a \in A: \{a_1, \ldots, a_{g(a)}\} \subseteq S''\}.$$
+
+Hence $|S''| \geq |S'|$.
+
+We assert that $|S''| \geq m$. Were that not so, we would have $A'' \not\subseteq S''$ by B6, and consequently $A \not\subseteq S'$. Also $|S'| < m$, implying, by the way that $\Gamma'$ was constructed from $\Gamma$ and by the hypothesis, that $S'$ fails to separate $Z$ from $A$ in $\Gamma'$. Hence there would exist an AZ-path $\Pi'$ in $\Gamma'_{(S')}$ whose initial vertex is some $a \in A + (A \cap S')$. Also $\Pi'$ contains an edge $(a, x)$ for some $x \in V'$. It follows that for some $j \in \{1, \ldots, g(a)\}$, neither $a_j$ nor the edge $(a_j, x)$ is an element of $S'$. If $a$ and $(a, x)$ are replaced in $\Pi'$ by $a_j$ and $(a_j, x)$, one obtains an $A''Z$-path in $\Gamma'_{(S'')}$, and so $S''$ fails to separate $Z$ from $A''$ as assumed.
+
+Since every set separating $Z$ from $A''$ in
+
+VI Separation and Connectivity in Multigraphs
+
+Suppose that the sets $A$ and $Z$ in the above theorem are each $m$-subsets of $V$ and that any set separating $Z$ from $A$ is at least an $m$-set. Then $\Gamma$ admits an $m$-family of disjoint AZ-paths. It is not hard to see that the converse is also true. Another condition equivalent to these two lies implicitly in various arguments of M. J. Piff [p.4] and is stated explicitly as follows.

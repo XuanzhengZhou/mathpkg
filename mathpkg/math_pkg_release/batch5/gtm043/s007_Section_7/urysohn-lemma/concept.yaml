@@ -1,0 +1,23 @@
+id: urysohn-lemma
+title_en: "Urysohn's Lemma"
+title_zh: "乌雷松引理"
+type: theorem
+domain: topology
+subdomain: normal-spaces
+difficulty: intermediate
+tags: [normal-space, completely-separated, completely-regular, continuous-function, separation-axiom]
+depends_on:
+  required: [normal-space, completely-separated, closed-set]
+  recommended: [continuous-function, open-set]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "7"
+    pages: ""
+    role_in_book: "Core separation theorem for normal spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

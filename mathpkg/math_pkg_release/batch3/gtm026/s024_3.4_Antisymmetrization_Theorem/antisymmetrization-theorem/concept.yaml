@@ -1,0 +1,23 @@
+id: antisymmetrization-theorem
+title_en: "Antisymmetrization Theorem"
+title_zh: "反对称化定理"
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [antisymmetric, concrete-category, reflection, full-subcategory, replete-subcategory]
+depends_on:
+  required: [concrete-category, antisymmetric-concrete-category, reflective-subcategory]
+  recommended: [equivalence-relation-on-objects, quotient-category]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "3"
+    section: "3.4"
+    pages: ""
+    role_in_book: "Main theorem establishing that antisymmetric concrete categories form a full reflective replete subcategory of all concrete categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,21 @@
+(1) $p \Vdash \neg \varphi \overset{\Delta}{\rightarrow} (\forall q \leq p) \neg (q \Vdash \varphi)$.
+
+(2) $p \Vdash [\varphi_1 \wedge \varphi_2] \overset{\Delta}{\rightarrow} [p \Vdash \varphi_1] \wedge [p \Vdash \varphi_2]$.
+
+$p \Vdash [\varphi_1 \vee \varphi_2] \overset{\Delta}{\rightarrow} [p \Vdash \varphi_1] \vee [p \Vdash \varphi_2]$.
+
+(3) $p \Vdash \exists^\alpha x_i \varphi(x_i) \overset{\Delta}{\rightarrow} (\exists t \in T_\alpha)[p \Vdash \varphi(t)]$.
+
+(4) If $\varphi$ is not of the form $\mathbf{k}_1 \in \mathbf{k}_2$ and $E(\varphi)$ is defined for $\varphi$, then
+
+$$p \Vdash \varphi \overset{\Delta}{\rightarrow} p \Vdash E(\varphi).$$
+
+(5) If $E(t \in \mathbf{G})$ is not defined, then
+
+$$p \Vdash [t \in \mathbf{G}] \overset{\Delta}{\rightarrow} (\exists q \geq p)[p \Vdash \forall^\alpha x_i (x_i \in t \leftrightarrow x_i \in \mathbf{q})]$$
+
+where $\alpha = \rho(\mathbf{G})$.
+
+(6) $p \Vdash [\mathbf{k}_1 \in \mathbf{k}_2] \overset{\Delta}{\rightarrow} k_1 \in k_2$.
+
+(7) If $t$ is not of the form $\mathbf{k}'$ and $E(t \in \

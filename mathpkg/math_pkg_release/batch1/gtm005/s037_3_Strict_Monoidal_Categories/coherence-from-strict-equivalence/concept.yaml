@@ -1,0 +1,23 @@
+id: coherence-from-strict-equivalence
+title_en: "Coherence from Strict Monoidal Equivalence"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [monoidal-category, strict-monoidal-category, coherence, associativity, tensor-product]
+depends_on:
+  required: []
+  recommended: [strict-monoidal-equivalence, monoidal-category, strong-monoidal-functor]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "3. Strict Monoidal Categories"
+    pages: ""
+    role_in_book: "Theorem 2: coherence for associativity follows from equivalence to a strict monoidal category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

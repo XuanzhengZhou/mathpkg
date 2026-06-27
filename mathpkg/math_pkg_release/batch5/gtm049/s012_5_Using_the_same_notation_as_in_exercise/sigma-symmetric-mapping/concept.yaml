@@ -1,0 +1,13 @@
+id: sigma-symmetric-mapping
+title_en: "Sigma-Symmetric Linear Mapping"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: bilinear-forms
+difficulty: intermediate
+tags: [symmetric-bilinear-form, linear-mapping, euclidean-space, sigma-symmetric]
+depends_on: {required: [bilinear-form, linear-mapping], recommended: [euclidean-space, cartesian-basis, symmetric-matrix], suggested: []}
+source_books: [{book_id: "gtm049", author: "Gruenberg and Weir", title: "Linear Geometry", chapter: "6", section: "6.3", pages: "", role_in_book: "Defines sigma-symmetric mapping as the key link between symmetric bilinear forms and linear operators, enabling simultaneous diagonalization via eigenvectors"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

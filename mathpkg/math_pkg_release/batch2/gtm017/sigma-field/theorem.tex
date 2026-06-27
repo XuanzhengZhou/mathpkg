@@ -1,0 +1,11 @@
+A collection $\mathfrak{F}$ of subsets of a space $\Omega$ is called a \textbf{sigma-field} (or \textbf{Borel field}) if:
+\begin{enumerate}
+\item Given any denumerable collection of sets $A_1, A_2, \ldots \in \mathfrak{F}$, the union
+  $$\bigcup_{i=1}^{\infty} A_i \in \mathfrak{F}.$$
+\item $\Omega \in \mathfrak{F}$.
+\item Given any set $A \in \mathfrak{F}$, the complementary set $\bar{A} \in \mathfrak{F}$.
+\end{enumerate}
+
+The probability $P$ on a sigma-field satisfies countable additivity:
+$$P\left(\bigcup_{i=1}^{\infty} A_i\right) = \sum_{i=1}^{\infty} P(A_i)$$
+for any denumerable collection of disjoint events $A_1, A_2, \ldots \in \mathfrak{F}$.

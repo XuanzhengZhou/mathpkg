@@ -1,0 +1,9 @@
+A class of $L$-structures $K$ equipped with a notion of ``strong submodel'' $\preceq$ is an \text{abstract elementary class} (AEC) if the class $K$ and the class of pairs $(A, B)$ with $A \preceq B$ satisfy the following axioms:
+\begin{enumerate}
+\item[(a)] $\preceq$ is a partial order on $K$;
+\item[(b)] If $A \preceq B$ then $A \subseteq B$ (as $L$-structures);
+\item[(c)] $K$ and $\preceq$ are closed under isomorphisms;
+\item[(d)] (Coherence) If $A_1 \subseteq A_2 \subseteq B$, $A_1 \preceq B$, and $A_2 \preceq B$, then $A_1 \preceq A_2$;
+\item[(e)] (Tarski--Vaught chain axiom) The union of an increasing chain of strong submodels is a strong submodel of each member of the chain and belongs to $K$;
+\item[(f)] (Löwenheim--Skolem number) There exists a cardinal $\operatorname{LS}(K)$ such that for every $A \in K$ and $X \subseteq A$, there exists $B \in K$ with $X \subseteq B \preceq A$ and $|B| \leq |X| + \operatorname{LS}(K)$.
+\end{enumerate}

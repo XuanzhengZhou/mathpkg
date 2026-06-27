@@ -1,0 +1,23 @@
+id: true-formulas-are-godelian
+title_en: "The Set of True Formulas Is Gödelian"
+title_zh: "真公式的集合是哥德尔式的"
+type: proposition
+domain: logic
+subdomain: proof-theory
+difficulty: intermediate
+tags: [truth, godelian-set, completeness, deduction-rules, logical-axioms]
+depends_on:
+  required: [rules-of-deduction-mp-gen, tautology-axioms, quantifier-axioms, godelian-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "II"
+    section: "3"
+    pages: ""
+    role_in_book: "Connects semantic truth with syntactic Gödelian properties"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

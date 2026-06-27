@@ -1,0 +1,23 @@
+id: dimension-drop-very-ampleness
+title_en: "Dimension Drop Criterion for Very Ampleness"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [very-ample, dimension, linear-system, base-points]
+depends_on:
+  required: [very-ampleness-via-base-points, linear-system-with-assigned-base-points]
+  recommended: [complete-linear-system, dimension-of-linear-system]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Remark 4.0.2; dimension form of the very ampleness criterion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: composition-series-chain-conditions
+title_en: "Chain Conditions and Composition Series"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [composition-series, chain-conditions, M-groups, descending-chain-condition, ascending-chain-condition, Jordan-Hölder, Schreier-refinement]
+depends_on:
+  required: [descending-chain-condition, ascending-chain-condition, composition-series]
+  recommended: [Schreier-refinement-theorem, Jordan-Hölder-theorem]
+  suggested: [normal-series, maximal-invariant-subgroup]
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "II"
+    section: "8"
+    pages: ""
+    role_in_book: "Characterization of existence of composition series via chain conditions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

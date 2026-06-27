@@ -1,0 +1,23 @@
+id: nullset-infinite-covering-characterization
+title_en: "Infinite Covering Characterization of Nullsets"
+title_zh: "零测集的无穷覆盖刻画"
+type: lemma
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [nullset, lebesgue-measure, covering, interval]
+depends_on:
+  required: [nullset, lebesgue-measure]
+  recommended: [series-convergence]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "14"
+    section: "14"
+    pages: "57-63"
+    role_in_book: "Lemma 14.1; technical characterization used in Fubini's theorem proof"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

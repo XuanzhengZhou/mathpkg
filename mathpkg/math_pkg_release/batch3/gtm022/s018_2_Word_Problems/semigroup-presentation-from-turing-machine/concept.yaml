@@ -1,0 +1,23 @@
+id: semigroup-presentation-from-turing-machine
+title_en: "Semigroup Presentation Associated with a Turing Machine"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [semigroup-presentation, turing-machine, word-problem, instantaneous-description, relations]
+depends_on:
+  required: [group-presentation, turing-machine, instantaneous-description]
+  recommended: [word-problem, semigroup]
+  suggested: []
+source_books:
+  - book_id: gtm022
+    author: "D. W. Barnes, J. M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "7"
+    section: "2. Word Problems"
+    pages: "111-112"
+    role_in_book: "Constructs a finite semigroup presentation from a Turing machine to encode computation as semigroup equivalence, the key step in proving the word problem insoluble."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

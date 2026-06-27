@@ -1,0 +1,23 @@
+id: squares-in-q2
+title_en: "Squares in Q_2^*"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: p-adic-numbers
+difficulty: intermediate
+tags: [p-adic, dyadic, squares, quadratic-residue]
+depends_on:
+  required: [structure-of-one-units, unit-group-decomposition-zp]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "II. p-Adic Fields"
+    section: "3. The multiplicative group of Q_p"
+    pages: ""
+    role_in_book: "Theorem 4: criterion for an element of Q_2^* to be a square"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

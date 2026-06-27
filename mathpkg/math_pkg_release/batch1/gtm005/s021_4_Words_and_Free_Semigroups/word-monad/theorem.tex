@@ -1,0 +1,8 @@
+The \text{word monad} $W = \langle W, \eta, \mu \rangle$ on $\mathbf{Set}$ is defined by
+$$WX = \prod_{n=1}^{\infty} X^n,$$
+the set of all words of positive length in letters from $X$, together with the unit
+$$\eta_X : X \to WX, \qquad \eta_X(x) = \langle x \rangle$$
+for each $x \in X$, and the multiplication $\mu_X : W^2 X \to WX$ given by
+$$\mu_X(\langle \langle x_{11} \rangle \dots \langle x_{1n_1} \rangle \rangle \dots \langle \langle x_{k1} \rangle \dots \langle x_{kn_k} \rangle \rangle)$$
+$$= \langle x_{11} \rangle \dots \langle x_{1n_1} \rangle \dots \langle x_{k1} \rangle \dots \langle x_{kn_k} \rangle$$
+for all positive integers $k$, all $k$-tuples $n_1, \dots, n_k$ of positive integers, and all $x_{ij} \in X$.

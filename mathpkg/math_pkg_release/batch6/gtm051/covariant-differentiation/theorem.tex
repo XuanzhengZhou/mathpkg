@@ -1,0 +1,5 @@
+Let $f: U \to \mathbb{R}^3$ be a surface and $X$ a tangential vector field along $f$. For a tangent vector $V \in T_u f$, the covariant derivative $\nabla_V X$ is defined as the tangential component of the ordinary directional derivative $dX(V)$:
+$$\nabla_V X := dX(V) - (dX(V) \cdot n)n.$$
+In coordinates, if $X = \sum a^i f_{u^i}$, then
+$$\nabla_{f_{u^k}} X = \sum_i \left( \frac{\partial a^i}{\partial u^k} + \sum_j a^j \Gamma_{jk}^i \right) f_{u^i},$$
+where the Christoffel symbols are $\Gamma_{jk}^i = \sum_l g^{il} \Gamma_{jk,l}$ with $\Gamma_{jk,l} = \frac{1}{2}(g_{jl,k} + g_{kl,j} - g_{jk,l})$.

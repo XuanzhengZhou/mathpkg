@@ -1,0 +1,23 @@
+id: fixed-configuration-of-collineation-is-closed
+title_en: "Fixed Configuration of a Collineation is Closed (Lemma 4.2)"
+title_zh: "直射变换的不动构形是封闭的（引理4.2）"
+type: lemma
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags: [collineation, fixed-points, closed-configuration, incidence]
+depends_on:
+  required: [collineation-of-projective-plane]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "IV. Collineations of Projective and Affine Planes"
+    section: "2. Basic Concepts and Definitions"
+    pages: ""
+    role_in_book: "The fixed points and lines of a collineation form a closed incidence structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

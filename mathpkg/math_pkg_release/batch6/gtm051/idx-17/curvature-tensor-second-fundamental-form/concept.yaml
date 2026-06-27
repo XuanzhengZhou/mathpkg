@@ -1,0 +1,23 @@
+id: curvature-tensor-second-fundamental-form
+title_en: "Curvature Tensor in Terms of the Second Fundamental Form (Lemma 3.8.5)"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [curvature-tensor, second-fundamental-form, gauss-equation, surface-theory, determinant]
+depends_on:
+  required: [riemann-curvature-tensor-surface, gauss-codazzi-mainardi-equations, second-fundamental-form]
+  recommended: [gauss-curvature, theorema-egregium]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.8"
+    pages: "pp. 70-72"
+    role_in_book: "Expresses the curvature tensor directly through the second fundamental form via the Gauss equation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

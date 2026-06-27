@@ -1,0 +1,23 @@
+id: picard-iteration-for-linear-differential-equations
+title_en: "Picard Iteration for Linear Differential Equations"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: linear-algebra
+difficulty: advanced
+tags: [picard-iteration, differential-equations, existence, linear-automorphisms]
+depends_on:
+  required: [continuous-family-of-linear-transformations, operator-norm]
+  recommended: [uniform-convergence]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: ""
+    title: "Linear Algebra"
+    chapter: "8"
+    section: "8.27"
+    pages: ""
+    role_in_book: "Constructs the solution of φ̇ = ψ ∘ φ by successive approximations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

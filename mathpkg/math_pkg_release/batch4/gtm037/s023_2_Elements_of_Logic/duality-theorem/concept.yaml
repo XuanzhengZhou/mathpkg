@@ -1,0 +1,17 @@
+id: duality-theorem
+title_en: "Duality Theorem (Proposition 8.33)"
+title_zh: "对偶性定理"
+type: proposition
+domain: logic
+subdomain: sentential-logic
+difficulty: intermediate
+tags: [duality, sentential-logic, conjunction, disjunction, biimplication, negation]
+depends_on:
+  required: [logical-connectives-definition]
+  recommended: [completeness-theorem, model, provability]
+  suggested: [duality-definition]
+source_books:
+  - {book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "Chapter 8: Sentential Logic", section: "2. Elements of Logic", pages: "", role_in_book: "Eight-part duality theorem for sentential logic"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

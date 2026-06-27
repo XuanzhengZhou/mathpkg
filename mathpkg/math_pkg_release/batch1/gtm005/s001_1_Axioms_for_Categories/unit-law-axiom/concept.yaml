@@ -1,0 +1,30 @@
+id: unit-law-axiom
+title_en: Unit Law Axiom
+title_zh: ''
+type: axiom
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags:
+- unit-law
+- identity
+- composition
+- category-theory
+- axiom
+depends_on:
+  required:
+  - metacategory
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: I
+  section: '1'
+  pages: ''
+  role_in_book: one of the two axioms defining a metacategory; ensures identity arrows
+    act as neutral elements
+content_hash: 4f5a6d256557fc8d
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

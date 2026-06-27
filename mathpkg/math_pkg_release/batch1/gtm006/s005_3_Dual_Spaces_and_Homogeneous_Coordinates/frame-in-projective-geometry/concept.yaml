@@ -1,0 +1,23 @@
+id: frame-in-projective-geometry
+title_en: "Frame in a Projective Geometry"
+title_zh: "射影几何中的标架"
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [frame, projective-geometry, basis, coordinates, homogeneous-coordinates]
+depends_on:
+  required: [projective-geometry-of-a-vector-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II. Classical Projective Planes"
+    section: "3. Dual Spaces and Homogeneous Coordinates"
+    pages: ""
+    role_in_book: "Ordered set of n+2 points, no n+1 in a hyperplane; the projective analogue of a basis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

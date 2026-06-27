@@ -1,0 +1,23 @@
+id: normable-space
+title_en: "Normable Space"
+title_zh: "可赋范空间"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [topological-vector-space, norm, metric, normability]
+depends_on:
+  required: [topological-vector-space, norm]
+  recommended: [metric-space, topology-definition]
+  suggested: [hausdorff-space]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Fundamental definition introducing normable topological vector spaces, distinguished from normed spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

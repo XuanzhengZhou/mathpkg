@@ -1,0 +1,23 @@
+id: irreducible-ideals-unique-direct-sum-decomposition
+title_en: "Irreducibility of the ideals and uniqueness of the direct sum decomposition"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [factor-algebra, irreducible-ideal, direct-sum, unique-decomposition, prime-power]
+depends_on:
+  required: [factor-algebra-prime-power-decomposition, canonical-epimorphism-onto-irreducible-ideals, relatively-prime]
+  recommended: [irreducible-algebra, direct-sum-decomposition, prime-polynomial]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "12"
+    section: "4. The structure of factor algebras"
+    pages: "388"
+    role_in_book: "Proves that the ideals I_i are irreducible and that the decomposition (12.19) is the unique decomposition of the factor algebra into a direct sum of irreducible ideals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: first-initial-value-theorem-for-maxwell-equations
+title_en: "First Initial Value Theorem for Maxwell's Equations"
+title_zh: "麦克斯韦方程的第一初值定理"
+type: theorem
+domain: applied-math
+subdomain: general-relativity
+difficulty: advanced
+tags: [maxwell-equations, initial-value-problem, pde, symmetric-hyperbolic-system, electromagnetic-field, spacelike-submanifold]
+depends_on:
+  required: []
+  recommended: [spacetime, charge-current-density, maxwell-equations, pullback-of-forms, normal-bundle-exponential-map]
+  suggested: [symmetric-hyperbolic-systems, friedrichs-theory, lax-theory]
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs and Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.11"
+    pages: ""
+    role_in_book: "Initial value theorem guaranteeing existence and uniqueness of solutions to Maxwell's equations given initial data on a spacelike hypersurface"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

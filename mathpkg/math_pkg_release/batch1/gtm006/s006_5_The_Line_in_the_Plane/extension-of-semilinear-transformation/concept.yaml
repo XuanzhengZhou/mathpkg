@@ -1,0 +1,23 @@
+id: extension-of-semilinear-transformation
+title_en: "Extension of Non-Singular Semi-Linear Transformation from Two-Dimensional to Three-Dimensional Vector Space"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [semilinear-transformation, projective-line, vector-space, collineation, projective-plane]
+depends_on:
+  required: []
+  recommended: [semilinear-transformation, projective-line, collineation-group]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "2"
+    section: "5"
+    pages: "47-60"
+    role_in_book: "Lemma 2.17 — Extension of a semi-linear transformation on a 2D subspace to the full 3D vector space, ensuring the induced mapping belongs to PΓL(V)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

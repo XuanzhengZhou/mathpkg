@@ -1,0 +1,23 @@
+id: baire-property-countable-union
+title_en: "Baire Property Closed Under Countable Union"
+title_zh: "贝尔性质对可数并封闭"
+type: theorem
+domain: topology
+subdomain: descriptive-set-theory
+difficulty: intermediate
+tags: [baire-property, countable-union, sigma-algebra, first-category]
+depends_on:
+  required: [property-of-baire, baire-property-complement-closure]
+  recommended: [first-category-set, sigma-algebra]
+  suggested: [baire-category-theorem]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "4"
+    section: "4. The Property of Baire"
+    pages: ""
+    role_in_book: "Theorem 4.3 — together with Thm 4.2 shows Baire-property sets form a σ-algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

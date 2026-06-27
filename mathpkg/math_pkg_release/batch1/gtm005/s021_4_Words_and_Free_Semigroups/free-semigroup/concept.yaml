@@ -1,0 +1,23 @@
+id: free-semigroup
+title_en: "Free Semigroup"
+title_zh: "自由半群"
+type: definition
+domain: algebra
+subdomain: semigroups
+difficulty: basic
+tags: [free-semigroup, word, juxtaposition, monad]
+depends_on:
+  required: []
+  recommended: [free-monoid, semigroup]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "4. Words and Free Semigroups"
+    pages: ""
+    role_in_book: "Defines the free semigroup WX on a set X, as preliminary to the word monad"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

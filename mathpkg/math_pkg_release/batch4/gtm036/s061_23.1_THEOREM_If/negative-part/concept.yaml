@@ -1,0 +1,23 @@
+id: negative-part
+title_en: "Negative Part of a Vector Lattice Element"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [negative-part, vector-lattice, meet, positive-cone]
+depends_on:
+  required: [vector-lattice, positive-part]
+  recommended: [positive-cone, join-in-vector-lattice]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "23.1"
+    pages: ""
+    role_in_book: "Defines x^- = (-x) ∨ 0, the negative part of an element in a vector lattice"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

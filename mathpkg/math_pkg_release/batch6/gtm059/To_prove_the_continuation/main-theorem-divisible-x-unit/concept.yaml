@@ -1,0 +1,23 @@
+id: main-theorem-divisible-x-unit
+title_en: "Main Theorem for Divisible x and Unit z"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: [lubin-tate, explicit-reciprocity-law, hilbert-symbol, unit, valuation]
+depends_on:
+  required: []
+  recommended: [main-theorem-symbol-x-ni, lubin-tate-formal-group, hilbert-symbol]
+  suggested: [p-adic-valuation, norm-residue-symbol]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "9"
+    section: "6"
+    pages: ""
+    role_in_book: "Equality of symbols when one argument is a unit"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

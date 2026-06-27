@@ -1,0 +1,8 @@
+---
+role: exercise
+locale: en
+chapter: "I"
+section: "2"
+exercise_number: 10
+---
+Let $\sigma$ be the automorphism of $\mathfrak{sl}(2, F)$ defined in (2.3). Verify that $\sigma(x) = -y$, $\sigma(y) = -x$, $\sigma(h) = -h$.

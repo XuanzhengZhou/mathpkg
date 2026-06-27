@@ -1,0 +1,23 @@
+id: property-k3
+title_en: "Property K.3: Chain rule for associated power series"
+title_zh: "性质K.3: 相伴幂级数的链式法则"
+type: proposition
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [kummer-homomorphism, chain-rule, associated-power-series]
+depends_on:
+  required: [kummer-homomorphism, property-k1]
+  recommended: [differential-operators]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "6"
+    section: "6"
+    pages: ""
+    role_in_book: "Chain rule property for the Kummer homomorphism in terms of the variable T"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

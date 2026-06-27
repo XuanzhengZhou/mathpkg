@@ -1,0 +1,23 @@
+id: modular-character-of-algebraic-group
+title_en: "Modular Character of a Linear Algebraic Group"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: algebraic-groups
+difficulty: advanced
+tags: ["modular-character", "algebraic-group", "semisimple-elements", "brauer-character"]
+depends_on:
+  required: ["modular-character"]
+  recommended: ["linear-algebraic-group", "semisimple-element"]
+  suggested: ["algebraically-closed-field"]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "18"
+    section: "18.1"
+    pages: ""
+    role_in_book: "Remark generalizing modular characters from finite groups to linear algebraic groups over algebraically closed fields."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

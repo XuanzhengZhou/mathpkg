@@ -1,0 +1,8 @@
+A Markov process $X(t)$ on the real line with conditional distribution function $F(\tau, \xi; t, x) = P[X(t) \leq x \mid X(\tau) = \xi]$ is called a \textbf{diffusion process} if for any fixed $\delta > 0$:
+\begin{enumerate}
+\item $\lim_{\Delta t \to 0} \frac{1}{\Delta t} \int_{|y-x| \geq \delta} d_y F(t-\Delta t, x; t, y) = 0$
+\item $\lim_{\Delta t \to 0} \frac{1}{\Delta t} \int_{|y-x| < \delta} (y - x)^2 d_y F(t-\Delta t, x; t, y) = a(t, x) \geq 0$
+\item $\lim_{\Delta t \to 0} \frac{1}{\Delta t} \int_{|y-x| < \delta} (y - x) d_y F(t-\Delta t, x; t, y) = b(t, x)$
+\end{enumerate}
+
+$a(t, x)$ is the infinitesimal variance (diffusion coefficient) and $b(t, x)$ is the infinitesimal mean (drift coefficient).

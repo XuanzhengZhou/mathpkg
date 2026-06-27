@@ -1,0 +1,23 @@
+id: extensional-set-dot-product-properties
+title_en: "Properties of Dot Product with Extensional Sets"
+title_zh: "外延集的点乘性质"
+type: definition
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: basic
+tags: [boolean-valued-universe, dot-product, extensional-set, boolean-algebra]
+depends_on:
+  required: [extensional-function, dot-product-of-boolean-element-and-set]
+  recommended: [supremum-of-boolean-valued-set]
+  suggested: [extensional-restriction-by-subset]
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: ""
+    role_in_book: "Exercise 1 — for extensional u, establishes relationships between [[u = b·u]], sup(u), and b, plus formulas for [[u = 0]] and [[b·u ⊆ u]]."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

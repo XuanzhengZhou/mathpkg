@@ -1,0 +1,23 @@
+id: eigenfunction-of-hecke-operators
+title_en: "Eigenfunction (Eigenform) of Hecke Operators"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [hecke-operator, eigenform, modular-form]
+depends_on:
+  required: [hecke-operator, modular-form-of-weight-k]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.11"
+    pages: "140-143"
+    role_in_book: "Defines eigenforms of Hecke operators, fundamental to the theory of Hecke eigenforms and L-functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

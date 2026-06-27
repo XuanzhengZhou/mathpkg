@@ -1,0 +1,20 @@
+id: kolmogorov-three-series-theorem
+title_en: "Kolmogorov's Three Series Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [probability, independent-functions, series-convergence, kolmogorov, truncation]
+depends_on: {required: [bounded-independent-convergence-criterion, independence, variance, convergence-of-independent-series], recommended: [kolmogorov-inequality], suggested: []}
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX. Probability"
+    section: "§46. Series of Independent Functions"
+    pages: ""
+    role_in_book: "Complete characterization of a.e. convergence for series of independent functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

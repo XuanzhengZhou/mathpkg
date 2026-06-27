@@ -1,0 +1,24 @@
+id: comparison-theorem-for-kleisli-construction
+title_en: "Theorem 2: The comparison theorem for the Kleisli construction"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [kleisli-category, comparison-theorem, adjunction, monad]
+depends_on:
+  required: [kleisli-category-of-a-monad]
+  recommended: [definition-of-a-monad, definition-of-adjunction, map-of-adjunctions]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    edition: "2nd"
+    chapter: "VI. Monads and Algebras"
+    section: "5. Free Algebras for a Monad"
+    pages: "161–162"
+    role_in_book: "States that the Kleisli category is initial among all resolutions of a monad: any adjunction defining T factors uniquely through X_T"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

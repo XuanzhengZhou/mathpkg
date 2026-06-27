@@ -1,0 +1,23 @@
+id: isomorphism-via-left-and-right-inverses
+title_en: "Isomorphism via Left and Right Inverses"
+title_zh: "通过左右逆刻画同构"
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [module-theory, isomorphism, inverse]
+depends_on:
+  required: [left-module-homomorphism, module-epimorphism, module-monomorphism]
+  recommended: [module-isomorphism-inverse]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "3. Homomorphisms of Modules"
+    pages: ""
+    role_in_book: "Proposition 3.5 — isomorphism iff left and right inverses exist"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

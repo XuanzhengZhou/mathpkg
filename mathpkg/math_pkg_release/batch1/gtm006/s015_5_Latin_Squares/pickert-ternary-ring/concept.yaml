@@ -1,0 +1,23 @@
+id: pickert-ternary-ring
+title_en: "Pickert Ternary Ring"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [projective-plane, coordinatization, pickert, ternary-ring]
+depends_on:
+  required: [hall-coordinatization]
+  recommended: [planar-ternary-ring]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D. R. Hughes, F. C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "5"
+    pages: "132-137"
+    role_in_book: "Description of Pickert's modification to Hall's coordinatization method"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

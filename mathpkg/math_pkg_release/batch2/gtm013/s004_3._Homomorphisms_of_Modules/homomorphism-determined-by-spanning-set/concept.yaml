@@ -1,0 +1,23 @@
+id: homomorphism-determined-by-spanning-set
+title_en: "Homomorphism Determined by Action on a Spanning Set"
+title_zh: "同态由生成集上的作用确定"
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [module-theory, spanning-set, homomorphism]
+depends_on:
+  required: [left-module-homomorphism, spanning-set, submodule]
+  recommended: [kernel-image-coimage-cokernel]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "3. Homomorphisms of Modules"
+    pages: ""
+    role_in_book: "Proposition 3.1 — fundamental property of module homomorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

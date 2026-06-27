@@ -1,0 +1,23 @@
+id: quotient-cylindric-algebra
+title_en: "Quotient of a Cylindric Algebra by an Ideal"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: cylindric-algebra
+difficulty: intermediate
+tags: [quotient, ideal, cylindric-algebra, homomorphism, algebraic-logic]
+depends_on:
+  required: [ideal-of-cylindric-algebra, homomorphism-of-cylindric-algebras]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "12"
+    section: "2"
+    pages: ""
+    role_in_book: "Proposition 12.17: If I is an ideal in a CA_α, then A/I is a CA_α and the canonical map is a homomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

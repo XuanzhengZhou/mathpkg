@@ -1,0 +1,8 @@
+Let $N$ be a non-negative integer and $[0,N] = \{0,1,2,\ldots,N\}$ the interval of integers from $0$ to $N$. For a random walk with transition function $P(x,y)$, the \textbf{restricted transition function} $Q_N(x,y)$ is defined by
+$$Q_N(x,y) = P(x,y) \quad \text{for } x,y \in [0,N].$$
+
+Its iterates are defined by
+$$Q_N^0(x,y) = I_N(x,y) = \delta(x,y), \quad Q_N^1(x,y) = Q_N(x,y),$$
+$$Q_N^{n+1}(x,y) = \sum_{t=0}^{N} Q_N^n(x,t) Q_N(t,y) \quad \text{for } x,y \in [0,N].$$
+
+The degenerate case $P(0,0) = 1$ is excluded.

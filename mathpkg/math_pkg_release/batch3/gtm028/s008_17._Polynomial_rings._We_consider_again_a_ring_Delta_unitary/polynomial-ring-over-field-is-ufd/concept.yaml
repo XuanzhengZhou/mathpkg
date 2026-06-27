@@ -1,0 +1,23 @@
+id: polynomial-ring-over-field-is-ufd
+title_en: "Polynomial Ring over a Field is a UFD"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [polynomial-ring, field, ufd, unique-factorization, euclidean-domain]
+depends_on:
+  required: [division-algorithm-for-polynomials, unique-factorization-domain]
+  recommended: [field, polynomial-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "I"
+    section: "17"
+    pages: ""
+    role_in_book: "F[x] is a UFD, monic associates unique"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

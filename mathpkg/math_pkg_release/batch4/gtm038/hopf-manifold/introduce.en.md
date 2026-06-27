@@ -1,0 +1,1 @@
+The Hopf manifold is a compact complex manifold diffeomorphic to $S^1 \times S^{2n-1}$. It is an example of a compact complex manifold that is not Kaehler and illustrates phenomena specific to several complex variables.

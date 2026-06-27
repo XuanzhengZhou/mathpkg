@@ -1,0 +1,12 @@
+Let $(E, p, B)$ and $(E', p', B')$ be two bundles. A \text{bundle morphism} $(u, f): (E, p, B) \rightarrow (E', p', B')$ is a pair of maps $u: E \rightarrow E'$ and $f: B \rightarrow B'$ such that $p'u = fp$.
+
+The relation $p'u = fp$ is expressed by the requirement that the following diagram commutes:
+\[
+\begin{array}{ccc}
+E & \xrightarrow{u} & E' \\
+p\downarrow & & \downarrow p' \\
+B & \xrightarrow{f} & B'
+\end{array}
+\]
+
+Equivalently, the condition $p'u = fp$ can be expressed by $u(p^{-1}(b)) \subset (p')^{-1}(f(b))$ for each $b \in B$; that is, the fibre over $b \in B$ is mapped into the fibre over $f(b) \in B'$.

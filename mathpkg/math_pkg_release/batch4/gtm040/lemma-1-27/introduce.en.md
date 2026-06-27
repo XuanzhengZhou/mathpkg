@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $A = \bigcup_n A_n$ with $A$ in $\mathcal{G}^*$ and $\{A_n\}$ a sequence of disjoint sets in $\mathcal{F}^*$, then $\mu(A) = \sum_n \mu(A_n)$.

@@ -1,0 +1,1 @@
+In several complex variables, any injective holomorphic map between regions of the same dimension is automatically biholomorphic onto its image. This is a deep result with no direct analogue in real analysis.

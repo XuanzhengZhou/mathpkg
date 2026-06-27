@@ -1,0 +1,23 @@
+id: matrix-multiplication-definition
+title_en: "Matrix Multiplication"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [matrix, multiplication, linear-transformation, composition]
+depends_on:
+  required: [matrix, matrix-of-a-linear-transformation]
+  recommended: [composition-of-linear-transformations]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "III"
+    section: "4"
+    pages: "60-65"
+    role_in_book: "Defines matrix multiplication as corresponding to composition of linear transformations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

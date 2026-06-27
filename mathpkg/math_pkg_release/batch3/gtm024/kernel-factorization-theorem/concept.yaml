@@ -1,0 +1,23 @@
+id: kernel-factorization-theorem
+title_en: "Factorization Through Kernel Inclusion"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: ["kernel", "linear-map", "factorization"]
+depends_on:
+  required: ["linear-subspace", "quotient-space-def"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§1"
+  section: "1.G"
+  pages: "4-5"
+  role_in_book: "fundamental algebraic factorization"
+content_hash: "f1da6f33301b152b"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

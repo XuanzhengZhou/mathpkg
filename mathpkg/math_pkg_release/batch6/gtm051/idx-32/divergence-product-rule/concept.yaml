@@ -1,0 +1,23 @@
+id: divergence-product-rule
+title_en: "Divergence Product Rule (Scalar Times Vector Field)"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: basic
+tags: [divergence, product-rule, covariant-derivative, differential-form]
+depends_on:
+  required: [divergence-operator, exterior-derivative]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.7"
+    pages: "pp. 129–132"
+    role_in_book: "Product rule for the divergence operator, used in deriving Green's formulae"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

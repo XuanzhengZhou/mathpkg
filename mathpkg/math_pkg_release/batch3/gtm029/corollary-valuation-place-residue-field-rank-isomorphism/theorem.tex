@@ -1,0 +1,61 @@
+The notations being the same as in the preceding corollary, assume that $K^\star$ is a finite algebraic extension of $K$. Then the reduced ramification index of $v^\star$ relative to $v$ is the product of the reduced ramification indices of $v_1^\star$ and $\bar{v}^\star$ relative to $v_1$ and $\bar{v}$ respectively.
+
+For, the reduced ramification indices of $v^\star$, $v_1^\star$ and $\bar{v}^\star$ are equal respectively to the orders of the following finite abelian groups: $\Gamma^\star/\Gamma$, $(\Gamma^\star/G^\star)/(\Gamma/G)$ and $G^\star/G$. Since $G^\star \cap \Gamma = G$, the group $G^\star/G$ can be canonically identified with a subgroup of $\Gamma^\star/\Gamma$. Using the well known isomorphism theorem from group theory, we find that the groups $(\Gamma^\star/\Gamma)/(G^\star/G)$ and $(\Gamma^\star/G^\star)/(\Gamma/G)$ are isomorphic (they are both isomorphic to $\Gamma^\star/(\Gamma, G^\star))$. Hence the order of $\Gamma^\star/\Gamma$ is the product of the orders of $G^\star/G$ and $(\Gamma^\star/G^\star)/
+
+(i=1, 2, \cdots, g; s=1, 2, \cdots, e_i; t=1, 2, \cdots, n_i) satisfying the following conditions:
+
+(2) $v_i^\star(x_{is}) = \alpha_{is}$;
+
+(2') $v_j^\star(x_{is}) > \max(\alpha_{11}, \alpha_{12}, \cdots, \alpha_{21}, \alpha_{22}, \cdots, \alpha_{ge_g})$, if $j \neq i$;
+
+(3) $v_i^\star(y_{it} - u_{it}) > 0$;
+
+(3') $v_j^\star(y_{it}) > 0$, $j \neq i$.
+
+We assert that the $e_1n_1 + e_2n_2 + \cdots + e_gn_g$ products $x_{is_i}y_{it_i}(s_i=1, 2, \cdots, e_i; t_i=1, 2, \cdots, n_i)$ are linearly independent over $K$. The proof of this assertion will establish our theorem in the case of valuations of rank 1.
+
+Assume that our assertion is false and that we have therefore a relation of the form:
+
+(4) $\sum_{i,s_i,t_i} a_{is_it_i}x_{is_t}y_{it_t} = 0,$
+
+where the $a_{is_it_i}$ are elements of $K$, not all zero. We may assume that these elements all belong to $R_v$ and that at least one of these elements is a unit in $R_v$. We may then assume, without loss of generality, that $v(a_{111}) = 0$. We set
+
+(5) $z_s = \left( \sum_{t=1}^{n_1} a_{1st}y_{1t} \right)x_{1s}, \quad s = 1, 2, \cdots, e_1$.
+
+We now observe that the $v_1^\star$ value of any element $y_1$ of $K^\star$, of the form $\sum_{t=1}^{n_1} b_ty_{1t}, b_t \in R_v$, belongs
+
+that the $v_1^\star$-values of $z_1, z_2, \cdots, z_{e_1}$ are distinct elements of $\Gamma_1^\star$ and that consequently $v_1^\star(z_1 + z_2 + \cdots + z_{e_1}) = \min \{v_1^\star(z_1), v_1^\star(z_2), \cdots, v_1^\star(z_{e_1})\}$. Now, since $v(a_{111}) = 0$, the reasoning used in the proof of the above observation shows that $v_1^\star\left(\sum_{t=1}^{n_1} a_{11t} y_{1t}\right) = 0$ and that consequently $v_1^\star(z_1) = \alpha_{11}$. Therefore $v_1^\star(z_1 + z_2 + \cdots + z_{e_1}) \leq \alpha_{11}$, i.e.,
+
+(6) $v_1^\star\left(\sum_{s_1,t_1} a_{1s_1t_1} x_{1s_1} y_{1t_1}\right) \leq \alpha_{11}$.
+
+On the other hand, we have by (2') and (3') (for $m = 1$) that
+
+(7) $v_1^\star\left(\sum_{i=2}^{g} \sum_{s_1,t_1} a_{is_1t_1} x_{is_1} y_{it_1}\right) > \alpha_{11}$.
+
+By (6) and (7) it follows that the $v_1^\star$ value of the left-hand side of (4) is $\leq \alpha_{11}$, in contradiction with (4). This contradiction establishes our assertion that the $e_1n_1 + e_2n_2 + \cdots + e_gn_g$ products $x_{is_1} y_{it_1}$ are linearly independent over $K$.
+
+(b) We now pass to the general case of a valuation $v$ of finite rank $m > 1$ and we shall use induction with respect to $m$. We assume
+
+with respect to $v'$. Since $v'$ and $\bar{v}$ are valuations of rank $< m$, we have by our induction hypothesis:
+
+(8) $$\sum_{t_s=1}^{q_s} \bar{e}_{st_s} n_{st_s} \leq n'_s,$$
+
+(8') $$\sum_{s=1}^{h} e'_s n'_s \leq n.$$
+
+Hence
+
+(8'') $$\sum_{s=1}^{h} \sum_{t_s=1}^{q_s} e'_s \bar{e}_{t_s} n_{st_s} \leq n,$$
+
+and this is the desired inequality, since, by Lemma 4, Corollary 2, we have $e_{st_s} = e'_s \bar{e}_{t_s}$. This completes the proof of the theorem.
+
+We shall see in the next section that (a) if the residue field $D$ of $v$ is of characteristic zero then the equality sign holds in (1) (§12, Theorem 24, Corollary); and (b) if $K^\star$ is a normal extension of $K$ and the characteristic $p$ of $D$ is different from zero, then the quotient $n/(e_1 n_1 + e_2 n_2 + \cdots + e_g n_g)$ is a power $p^\delta$ of $p$, where $\delta$ is an integer $\geq 0$ (§12, Theorem 25, Corollary).
+
+The integer $\delta$ may be referred to as the ramification deficiency of $v$ (this integer is defined only in the case of normal extensions $K^\star$). Here we shall only show that if we assume that (a) is valid in the case of normal extensions $K^\star$ then its general validity is an immediate consequence. For, let $\bar{K}$ be the least normal extension of $K$ which contains $K^\star$ and let $\bar{v}_{i1}, \bar{v}_{i2}, \cdots$ be the extensions of $v_i^\star$ to $\bar{K}$. Let $N = [\bar{K} : K]$, $n^\star = [\bar{K}
+
+places of $K^\star$ having center $\mathfrak{P}$ in $R$. Hence by Theorem 8, §5, $R^\star$ is the integral closure of $R$ in $K^\star$. We also observe that
+
+(12) $$\mathfrak{P}^\star = R^\star \mathfrak{P}.$$
+
+To prove (12) we have only to show that $\mathfrak{P}^\star \subset R^\star \mathfrak{P}$, for the opposite inclusion is obvious. Let $x^\star$ be any element of $\mathfrak{P}^\star$, and let $v_j^\star(x^\star) = \alpha_j^\star$. Since $x^\star \in R_j^\star \mathfrak{P}$, it is obvious that we can find, for each $j$, positive elements in $\Gamma$ which are not greater than $\alpha_j^\star$. Therefore we can also find a positive element in $\Gamma$ which is not greater than any of the $\alpha_j^\star$. Let $\beta$ be such an element: $\alpha_j^\star \geq \beta, j=1, 2, \cdots, g$. We fix an element $x$ in $\mathfrak{P}$ such that $v(x) = \beta$. Then $v_j(x^\star/x) \geq 0, j=1, 2, \cdots, g$, whence $x^\star/x \in R^\star$ and $x^\star \in R^\star \mathfrak{P}$, as asserted.
+
+It is clear that $\mathfrak{P}^\star \cap R = \mathfrak{P}$. Hence the ring $R^\star/\mathfrak{P}^\star$ can be regarded as a vector space over the field $R/\mathfrak{P}$. We next prove the following lemma:

@@ -1,0 +1,23 @@
+id: analytic-continuation-dirichlet-series-modular-form
+title_en: "Analytic Continuation and Functional Equation of the Dirichlet Series Associated with a Modular Form"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [analytic-continuation, functional-equation, dirichlet-series, modular-forms, hecke, gamma-function, mellin-transform]
+depends_on:
+  required: [modular-form-dirichlet-series-correspondence]
+  recommended: [gamma-function, mellin-transform, modular-form]
+  suggested: [hecke-operator, riemann-zeta-functional-equation]
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.16"
+    pages: "147-153"
+    role_in_book: "Theorem 6.20 — Establishes the analytic continuation and functional equation for the Dirichlet series formed from Fourier coefficients of a modular form, a cornerstone of Hecke's theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

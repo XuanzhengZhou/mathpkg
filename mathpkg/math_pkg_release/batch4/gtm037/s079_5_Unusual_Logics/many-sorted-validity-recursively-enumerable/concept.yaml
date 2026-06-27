@@ -1,0 +1,23 @@
+id: many-sorted-validity-recursively-enumerable
+title_en: "Recursive Enumerability of Many-Sorted Validities"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: many-sorted-logic
+difficulty: intermediate
+tags: [many-sorted-logic, recursive-enumerability, validity, reduction]
+depends_on:
+  required: [many-sorted-validity-equivalence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "29"
+    section: "5. Unusual Logics"
+    pages: ""
+    role_in_book: "Establishes that the set of valid many-sorted sentences is recursively enumerable, enabling proof-theoretic development of many-sorted logic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

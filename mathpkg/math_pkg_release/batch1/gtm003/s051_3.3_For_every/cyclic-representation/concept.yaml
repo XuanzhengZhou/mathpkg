@@ -1,0 +1,23 @@
+id: cyclic-representation
+title_en: "A representation π with a cyclic vector ξ whose orbit is dense in H"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: cstar-algebras
+difficulty: advanced
+tags: [cstar-algebra, representation, cyclic-vector, hilbert-space]
+depends_on:
+  required: [representation-of-cstar-algebra]
+  recommended: [gns-construction]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "4"
+    section: "4.2"
+    pages: ""
+    role_in_book: "Defines cyclic representations, essential for the GNS construction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

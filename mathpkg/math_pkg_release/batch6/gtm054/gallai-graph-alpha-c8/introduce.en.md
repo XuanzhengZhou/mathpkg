@@ -1,0 +1,13 @@
+---
+role: introduce
+locale: en
+content_hash: "04586ec6f12b"
+written_against: "2026-06-27"
+---
+
+C8 (theorem) from Combinatorics with Emphasis on the Theory of Graphs.
+
+(T. Gallai [g.2], 1959).
+
+(a) For any graph, $\alpha_0 + \beta_{01} = \nu_0$.
+(b) For any graph without isolated vertices, $\alpha_1 + \beta_{10} = \nu_0$.

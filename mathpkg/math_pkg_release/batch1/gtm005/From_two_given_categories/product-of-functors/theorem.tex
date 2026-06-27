@@ -1,0 +1,11 @@
+Given functors $U: B \to B'$ and $V: C \to C'$, the \textbf{product functor}
+$$U \times V: B \times C \to B' \times C'$$
+is defined on objects and arrows by
+$$(U \times V)\langle b, c \rangle = \langle Ub, Vc \rangle, \quad (U \times V)\langle f, g \rangle = \langle Uf, Vg \rangle.$$
+Equivalently, $U \times V$ is the unique functor making the diagram
+$$\begin{array}{ccc}
+B & \xleftarrow{P} & B \times C & \xrightarrow{Q} & C \\
+{\scriptstyle U}\downarrow & & \downarrow{\scriptstyle U \times V} & & \downarrow{\scriptstyle V} \\
+B' & \xleftarrow{P'} & B' \times C' & \xrightarrow{Q'} & C'
+\end{array}$$
+commute.

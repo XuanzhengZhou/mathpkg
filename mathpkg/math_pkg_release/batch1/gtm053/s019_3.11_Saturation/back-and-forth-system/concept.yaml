@@ -1,0 +1,23 @@
+id: back-and-forth-system
+title_en: "Back-and-Forth System"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [back-and-forth, partial-isomorphism, elementary-equivalence, saturated-models]
+depends_on:
+  required: [structure, isomorphism, substructure]
+  recommended: [saturated-structure]
+  suggested: [ehrenfeucht-fraisse-criterion]
+source_books:
+  - book_id: gtm053
+    author: "Yuri I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "3"
+    section: "3.14"
+    pages: ""
+    role_in_book: "Definition of back-and-forth system, central to Ehrenfeucht–Fraïssé arguments"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

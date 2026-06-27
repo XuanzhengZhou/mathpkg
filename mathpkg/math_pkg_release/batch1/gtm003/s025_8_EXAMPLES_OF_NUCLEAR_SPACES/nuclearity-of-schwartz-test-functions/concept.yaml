@@ -1,0 +1,23 @@
+id: nuclearity-of-schwartz-test-functions
+title_en: "Nuclearity of the Schwartz Space of Test Functions"
+title_zh: "Schwartz检验函数空间的核性"
+type: proposition
+domain: analysis
+subdomain: nuclear-spaces
+difficulty: advanced
+tags: [nuclear-space, schwartz-space, test-functions, inductive-limit, lf-space]
+depends_on:
+  required: [nuclearity-of-compact-support-test-functions, inductive-limit-of-nuclear-spaces]
+  recommended: [lf-space, strict-inductive-limit]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "8"
+    pages: ""
+    role_in_book: "Example 2; Schwartz space D is nuclear as the inductive limit of nuclear D_C spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

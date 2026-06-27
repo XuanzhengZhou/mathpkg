@@ -1,0 +1,23 @@
+id: category-analogue-of-diagonal-nullset-theorem
+title_en: "Category Analogue of Diagonal Nullset Theorem"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: descriptive-set-theory
+difficulty: advanced
+tags: [property-of-baire, first-category, diagonal-argument, counterexample, duality]
+depends_on:
+  required: [property-of-baire, first-category-set, diagonal-nullset-from-nested-measurable-sequences]
+  recommended: [rational-points, dense-set]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "4"
+    section: "21. The Extended Principle of Duality"
+    pages: ""
+    role_in_book: "Presented as the dual statement of Theorem 21.2, explicitly shown to be false, demonstrating that the extended principle of duality does not hold at this level"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

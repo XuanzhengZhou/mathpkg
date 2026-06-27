@@ -1,0 +1,23 @@
+id: vect-k-cofunctor
+title_en: "The Cofunctor Vect_k of k-Dimensional Vector Bundles"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundles, classification, cofunctor, homotopy]
+depends_on:
+  required: []
+  recommended: [category-of-paracompact-spaces, homotopy-classes-of-maps]
+  suggested: [grassmannian, classifying-space]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "3"
+    section: "7"
+    pages: "50-51"
+    role_in_book: "Defines the cofunctor whose corepresentability is proved in the chapter"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

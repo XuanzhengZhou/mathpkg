@@ -1,0 +1,23 @@
+id: lambda-transformation-formula-k-equals-1
+title_en: "Transformation Formula for λ-Function Sums, Case k = 1"
+title_zh: "λ-函数和的变换公式，情形 k = 1"
+type: corollary
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [Dedekind-eta-function, Iseki-formula, lambda-function, transformation-formula]
+depends_on:
+  required: [lambda-function-definition, iseki-formula]
+  recommended: [equation-16-transformation-formula-for-lambda-sums]
+  suggested: [dedekind-functional-equation]
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "3"
+    section: "3.6"
+    pages: ""
+    role_in_book: "The simplest case of Equation (16) of Lemma 2. It is proved first as a stepping stone to the general case, by setting β = 0 in Iseki's formula and taking α → 0⁺. The result is a clean functional equation relating λ(nz) to λ(n/z)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

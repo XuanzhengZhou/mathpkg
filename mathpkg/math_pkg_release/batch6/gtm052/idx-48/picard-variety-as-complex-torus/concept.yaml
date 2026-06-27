@@ -1,0 +1,23 @@
+id: picard-variety-as-complex-torus
+title_en: "Picard Variety as a Complex Torus"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: complex-algebraic-geometry
+difficulty: advanced
+tags: [picard-variety, complex-torus, abelian-variety, picard-group]
+depends_on:
+  required: [exponential-sequence, picard-group]
+  recommended: [abelian-variety]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix B"
+    section: "5"
+    pages: "447"
+    role_in_book: "The Picard variety Pic^0(X) is a complex torus and an abelian variety"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

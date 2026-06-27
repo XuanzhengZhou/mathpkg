@@ -1,0 +1,23 @@
+id: duality-of-category-axioms
+title_en: "Dual of Each Category Axiom is an Axiom"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [duality, axioms, category-axioms, self-dual]
+depends_on:
+  required: [categorical-duality, axiom-of-category]
+  recommended: [dual-statement]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "II. Constructions on Categories"
+    section: "1. Duality"
+    pages: "45-46"
+    role_in_book: "Establishes that the axioms of a category are mapped to axioms under duality, which is the key justification for the duality principle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

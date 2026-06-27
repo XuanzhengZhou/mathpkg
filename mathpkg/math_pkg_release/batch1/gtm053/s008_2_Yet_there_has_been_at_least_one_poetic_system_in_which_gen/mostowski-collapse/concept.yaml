@@ -1,0 +1,23 @@
+id: mostowski-collapse
+title_en: "Mostowski Collapse Theorem"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: set-theory
+difficulty: advanced
+tags: [mostowski, collapse, transitive-model, extensionality, isomorphism]
+depends_on:
+  required: []
+  recommended: [zermelo-fraenkel, transitive-set, epsilon-relation, isomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "I"
+    section: "7"
+    pages: ""
+    role_in_book: "Shows how to replace a non-transitive countable model of ZF by a transitive one"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

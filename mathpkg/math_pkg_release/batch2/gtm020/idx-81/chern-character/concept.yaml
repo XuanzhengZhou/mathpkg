@@ -1,0 +1,23 @@
+id: chern-character
+title_en: "Chern Character"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: characteristic-classes
+difficulty: advanced
+tags: ["chern-character", "characteristic-class", "vector-bundle", "k-theory", "cohomology"]
+depends_on:
+  required: []
+  recommended: ["chern-classes", "characteristic-classes", "vector-bundles", "a-map-bijection"]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "IV"
+    section: "8"
+    pages: ""
+    role_in_book: "Definition of the Chern character as the additive characteristic class corresponding to the exponential power series"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

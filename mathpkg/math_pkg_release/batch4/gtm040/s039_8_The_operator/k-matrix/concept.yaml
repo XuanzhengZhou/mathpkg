@@ -1,0 +1,23 @@
+id: k-matrix
+title_en: "The K-matrix"
+title_zh: "K-矩阵"
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [potential-theory, recurrent-chains, k-operator]
+depends_on:
+  required: [normal-chain, alpha-coefficient, mean-occupation-time]
+  recommended: [c-matrix, g-matrix]
+  suggested: [potential-operator]
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Defines the K-matrix as potential operator for recurrent chains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

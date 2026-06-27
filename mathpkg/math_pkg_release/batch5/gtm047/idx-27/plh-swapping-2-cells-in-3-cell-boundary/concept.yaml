@@ -1,0 +1,23 @@
+id: plh-swapping-2-cells-in-3-cell-boundary
+title_en: "PLH swapping two 2-cells forming the boundary of a combinatorial 3-cell"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [plh, 3-cell, 2-cell, boundary, triangulated-3-manifold, isotopy]
+depends_on:
+  required: [triangulated-3-manifolds-are-combinatorial, combinatorial-equivalence]
+  recommended: [polyhedral-2-sphere-bounds-combinatorial-3-cell]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: ""
+    section: "23"
+    pages: ""
+    role_in_book: "Provides a PLH that swaps the two halves of a 3-cell boundary, used to show regular neighborhoods are equivalent to the original subcomplex."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

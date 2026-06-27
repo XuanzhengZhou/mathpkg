@@ -1,0 +1,23 @@
+id: existence-of-endomorphism-from-generator-images
+title_en: "Existence of Endomorphism from Generator Images"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [endomorphism, generators, module, principal-ideal-domain]
+depends_on:
+  required: [order-ideal-divisibility-under-endomorphism, endomorphism-determined-by-generators]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "3"
+    section: "16"
+    pages: ""
+    role_in_book: "Converse to the necessary condition: shows that any choice of images satisfying the order ideal condition yields a valid endomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

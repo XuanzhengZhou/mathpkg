@@ -1,0 +1,23 @@
+id: star-of-vertex-in-pl-complex
+title_en: "Star of a vertex in a PL complex"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: basic
+tags: [pl-topology, pl-complex, star, vertex, neighborhood]
+depends_on:
+  required: [pl-complex]
+  recommended: [skeleton-of-pl-complex]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "7"
+    section: "Abstract complexes and PL complexes"
+    pages: "65-70"
+    role_in_book: "Defines the star of a vertex in a PL complex, the analog of the star in a simplicial complex"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

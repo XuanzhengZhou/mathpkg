@@ -1,0 +1,23 @@
+id: existence-of-light-signals-through-intermediate-events
+title_en: "Existence of Light Signals Through Intermediate Events"
+title_zh: "通过中间事件的光信号的唯一存在性"
+type: proposition
+domain: geometry
+subdomain: general-relativity
+difficulty: advanced
+tags: [light-signal, causality, observer, convex-neighborhood, existence, uniqueness]
+depends_on:
+  required: [light-signal, observer, spacetime]
+  recommended: [simply-convex-neighborhood, chronological-past, chronological-future]
+  suggested: [causal-structure]
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "5"
+    section: "5.2"
+    pages: ""
+    role_in_book: "Proposition 5.2.3 establishes that for an observer, every nearby event not on the observer's worldline admits a unique pair of light signals connecting it to the observer's past and future"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

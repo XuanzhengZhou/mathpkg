@@ -1,0 +1,23 @@
+id: barycentric-coordinate-invariance-under-equivalence
+title_en: "Barycentric coordinate invariance under equivalence of coordinate mappings"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: intermediate
+tags: [pl-topology, coordinate-mapping, barycentric-coordinates, equivalence-relation, simplicial-isomorphism]
+depends_on:
+  required: [equivalence-relation-on-coordinate-mappings, barycentric-coordinates]
+  recommended: [simplicial-isomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "7"
+    section: "Abstract complexes and PL complexes"
+    pages: "65-70"
+    role_in_book: "Shows that equivalent coordinate mappings induce identical barycentric coordinate systems, justifying that PL simplexes carry well-defined barycentric coordinates"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

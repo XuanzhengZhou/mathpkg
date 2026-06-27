@@ -1,0 +1,13 @@
+id: hadamard-theorem
+title_en: "Hadamard Theorem"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [hadamard, cartan-hadamard, non-positive-curvature, exponential-map, diffeomorphism, simply-connected, complete-surface]
+depends_on: {required: [], recommended: [exponential-map-surface, conjugate-points, homotopy-geodesic-length-lemma], suggested: [hopf-rinow-theorem, geodesic-completeness, gauss-bonnet]}
+source_books: [{book_id: "gtm051", author: "Wilhelm Klingenberg", title: "A Course in Differential Geometry", chapter: "6", section: "6.6", pages: "164-167", role_in_book: "Main theorem of Section 6.6; characterizes complete simply connected surfaces of non-positive curvature as diffeomorphic to the plane"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+The uniform limit of holomorphic functions in several complex variables is again holomorphic. This is a consequence of the Cauchy integral representation and the fact that uniform limits commute with integration.

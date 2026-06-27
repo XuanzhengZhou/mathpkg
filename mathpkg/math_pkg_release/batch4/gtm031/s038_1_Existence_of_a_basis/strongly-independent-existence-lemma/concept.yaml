@@ -1,0 +1,23 @@
+id: strongly-independent-existence-lemma
+title_en: "Existence of a Large Strongly Independent Collection (Lemma 2)"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [strongly-independent, dual-space, cardinal-number, zorn-lemma]
+depends_on:
+  required: [strongly-independent-collection, zorns-lemma, vector-space-cardinality-lemma]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "Lemma 2: There exists a strongly independent collection of sequences with cardinal number at least the cardinality of the division ring d."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+For a conservative dynamical system with Hamiltonian $H$, the volume in phase space is preserved under time evolution. The Jacobian satisfies $\partial J/\partial t = 0$, so $J \equiv 1$. This is fundamental to statistical mechanics, justifying uniform probability distributions on energy shells that generate strictly stationary processes.

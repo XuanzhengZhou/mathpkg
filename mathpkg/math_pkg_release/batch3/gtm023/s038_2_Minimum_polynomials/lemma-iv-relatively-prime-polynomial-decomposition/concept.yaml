@@ -1,0 +1,23 @@
+id: lemma-iv-relatively-prime-polynomial-decomposition
+title_en: "Lemma IV: Polynomial Decomposition with Relatively Prime Derivative"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: polynomial-algebra
+difficulty: intermediate
+tags: [polynomial, relatively-prime, derivative, factorization, semisimple-nilpotent-decomposition]
+depends_on:
+  required: [lemma-iii-relatively-prime-polynomial-decomposition]
+  recommended: []
+  suggested: [theorem-iv-semisimple-nilpotent-decomposition]
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "12"
+    section: "12.17"
+    pages: "390-393"
+    role_in_book: "Technical lemma used with Lemma III in the proof of Theorem IV (Jordan-Chevalley decomposition)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

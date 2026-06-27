@@ -1,0 +1,23 @@
+id: algebraic-theory-of-an-adjointness
+title_en: "The Algebraic Theory of an Adjointness"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [adjointness, algebraic-theory, monad, functor, natural-transformation]
+depends_on:
+  required: [adjointness, functor, natural-transformation, algebraic-theory-in-k]
+  recommended: [kleisli-category, eilenberg-moore-category]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.20"
+    pages: ""
+    role_in_book: "Defines the algebraic theory (monad) induced by an adjointness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

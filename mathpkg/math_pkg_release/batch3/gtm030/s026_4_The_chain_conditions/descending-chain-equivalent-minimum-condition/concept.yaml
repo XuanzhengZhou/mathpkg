@@ -1,0 +1,23 @@
+id: descending-chain-equivalent-minimum-condition
+title_en: "Equivalence of Descending Chain Condition and Minimum Condition"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [descending-chain-condition, minimum-condition, equivalence, artinian, submodule]
+depends_on:
+  required: [descending-chain-condition, minimum-condition]
+  recommended: [module, submodule]
+  suggested: [axiom-of-choice]
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "Chapter VI"
+    section: "4. The chain conditions"
+    pages: ""
+    role_in_book: "Establishes the equivalence of two fundamental finiteness conditions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

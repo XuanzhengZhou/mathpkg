@@ -1,0 +1,23 @@
+id: connected-cycle-is-circuit
+title_en: "Connected Cycle is a Circuit"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [cycle, circuit, connected, multigraph]
+depends_on:
+  required: [elementary-cycle-iff-circuit, circuit]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "III"
+    section: "A"
+    pages: ""
+    role_in_book: "Proposition A10: Strongest possible converse to A9"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

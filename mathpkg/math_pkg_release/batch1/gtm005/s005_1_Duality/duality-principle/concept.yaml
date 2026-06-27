@@ -1,0 +1,23 @@
+id: duality-principle
+title_en: "Duality Principle"
+title_zh: "对偶原理"
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [duality, duality-principle, metatheorem, syntactic-duality, proof-by-duality]
+depends_on:
+  required: [dual-statement, elementary-theory-of-abstract-category]
+  recommended: [involution-of-duality]
+  suggested: [opposite-category]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "II"
+    section: "1"
+    pages: ""
+    role_in_book: "The central metatheorem of categorical duality: provability is preserved under dualization."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: approximation-of-characteristic-function-by-l-plus
+title_en: "Approximation of Characteristic Functions of Compact Baire Sets by L_+ Functions"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [compact-baire-set, characteristic-function, decreasing-sequence, l-plus, approximation]
+depends_on:
+  required: [class-of-nonnegative-functions-with-compact-support, compact-baire-set]
+  recommended: [bounded-open-set, urysohn-function]
+  suggested: []
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "55"
+    section: "55. Classes of Continuous Functions"
+    pages: ""
+    role_in_book: "Theorem A; fundamental approximation result used to link Baire measures with L functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

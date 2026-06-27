@@ -1,0 +1,23 @@
+id: ascending-chain-condition-commutative
+title_en: "Ascending Chain Condition for Commutative Groups"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [chain-conditions, commutative-groups, ascending-chain, M-groups]
+depends_on:
+  required: [ascending-chain-condition]
+  recommended: [commutative-group, invariant-subgroup]
+  suggested: [descending-chain-condition-commutative, composition-series-chain-conditions]
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "II"
+    section: "8"
+    pages: ""
+    role_in_book: "Simplified chain condition for commutative M-groups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

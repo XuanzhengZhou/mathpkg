@@ -1,0 +1,23 @@
+id: locally-convex-quasinormable-equivalence
+title_en: "Proposition 14.8 (Metrizable Locally Convex = Quasinormable)"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [locally-convex, quasinormable, metrizable, pseudonorm, Frechet-space]
+depends_on:
+  required: [locally-convex-characterization]
+  recommended: [countable-pseudonorm-family, quasinorm, metrizable-topological-linear-space]
+  suggested: []
+source_books:
+  - book_id: "gtm055"
+    author: "Arlen Brown, Carl Pearcy"
+    title: "Introduction to Operator Theory I"
+    chapter: "14"
+    section: "15"
+    pages: ""
+    role_in_book: "A space is locally convex and metrizable iff topology comes from a countable family of pseudonorms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

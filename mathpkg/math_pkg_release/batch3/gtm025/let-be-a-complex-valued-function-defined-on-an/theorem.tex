@@ -1,0 +1,47 @@
+** Let $f$ be a complex-valued function defined on an open interval $]a, b[$ of the real line. We say that the right-hand limit of $f$ at $a$ is $f(a+)$ [or that the left-hand limit of $f$ at $b$ is $f(b-)$], and we write
+
+$$\lim_{x \to a} f(x) = f(a+) \quad [\text{or} \lim_{x \to b} f(x) = f(b-)]$$
+
+if there exists a complex number $f(a+)$ [or $f(b-)$] such that for each $\varepsilon > 0$ there is a $\delta > 0$ such that
+
+$$|f(x) - f(a+)| < \varepsilon \quad [|f(x) - f(b-)| < \varepsilon]$$
+
+whenever $x \in ]a, b[$ and $x - a < \delta$ [or $b - x < \delta$].
+
+Next
+
+$\beta(x) = \alpha(x) - \alpha(0-)$ on a dense subset of $R$. It follows from (8.17) that $S_{\beta}(f) = S_{\alpha}(f)$ for all $f \in \mathfrak{C}_{00}(R)$. Because of these facts, we lose nothing, in constructing Riemann-Stieltjes integrals on $\mathfrak{C}_{00}(R)$, by normalizing our $\alpha$'s to be left continuous and to vanish at 0. It must be pointed out however that this normalization may affect the value of the integral of a discontinuous function. For example, let $\alpha(x) = 0$ for $x < 0$ and $\alpha(x) = 1$ for $x \geq 0$; $\beta(x) = 0$ for $x \leq 0$ and $\beta(x) = 1$ for $x > 0$; and take $f = \beta$. Integrating over $[-1, 1]$, we have $L(\beta, \alpha, \Delta) = L(\beta, \beta, \Delta) = 0$ and $U(\beta, \beta, \Delta) = 1$ for all $\Delta$ in $\mathcal{D}([-1, 1])$ while $U(\beta, \alpha, \Delta) = 0$ if $0 \in \Delta \in \mathcal{D}([-1, 1])$. Therefore $S_{\alpha}(\beta, [-1, 1])$ is zero and $S_{\beta}(\beta, [-1, 1])$ does not exist.
+
+(b) The foregoing example of a non Stieltjes integrable function is undramatic, to say the least. A bit more interesting is the function on $[0, 1]$ such that $f(x) = 0$ if $x$ is rational and $f(x) = 1$ if $x$ is irrational. The Riemann-Stieltjes integral $S_{\alpha}(f; [0, 1])$ exists only if $\alpha(1) = \alpha(0)$, since all lower Darboux sums are 0 and all upper Darboux sums are $\alpha(1) - \alpha
+
+(8.26) Exercise. Let $(x_n)_{n=1}^{\infty}$ be an enumeration of $Q$. Define $\alpha$ on $R$ by the rule: $\alpha(x) = \sum \frac{1}{2^n}$, where the summation is extended over all $n$ such that $x_n < x$. Prove that:
+
+(a) $\alpha$ is strictly increasing;
+(b) $\alpha$ is left continuous;
+(c) $\alpha$ is discontinuous at each rational number;
+(d) $\alpha$ is continuous at each irrational number;
+(e) $\lim_{x \to \infty} \alpha(x) = 1;
+(f) $\lim_{x \to -\infty} \alpha(x) = 0$.
+
+[This example gives some indication of how bad a monotone function can be.]
+
+(8.27) Exercise. Let $(x_n)$ and $\alpha$ be as in (8.26). Prove that $S_\alpha(f) = \sum_{n=1}^{\infty} \frac{f(x_n)}{2^n}$ for every $f \in \mathfrak{C}_{00}(R)$. [First consider $f \in \mathfrak{C}_{00}^r(R)$, show that every $L$ is $\leq$ this sum and that every $U$ is $\geq$ it.]
+
+(8.28) Exercise. Let $P$ denote the Cantor ternary set. Notation is as in (6.62) and (6.64). Define a function $\psi$ on $[0, 1]$ as follows:
+
+$\psi(0) = 0;
+\psi(x) = \frac{2k-1}{2^n}$ for $x \in I_{n,k}$ ($n=1, 2, \ldots; k=1, 2, \ldots, 2^{n-1}$);
+$\psi(x) = \sup\{\psi(t) : t \in P', t < x\}$ for $x \in P \cap \{0\}'$.
+
+The function $\psi$ is called Lebesgue's singular function. Prove that:
+
+(a) $\psi(x)$ is defined for all $x \in [0, 1]$;
+(b) $\psi$ is
+
+(8.29) Exercise. Let $\psi$ be as in (8.28) and let $\iota(x) = x$ for all $x \in [0, 1]$.
+
+Prove that $S_{\psi}(\iota; [0, 1]) = \frac{1}{2}$. [Consider the sequence of subdivisions $(\Delta_n)$ where $\Delta_n$ consists of the endpoints of the closed intervals $J_{n,k}$ making up $P_n$.] For the computation of $S_{\psi}(\iota^k; [0, 1])$ for $k = 2, 3, \ldots$, see (22.44) and (22.45) infra.
+
+§ 9. Extending certain functionals
+
+In § 8 we have presented Riemann-Stieltjes integrals as averaging processes on $\mathfrak{C}_{00}(R)$. We wish to extend these processes to much wider classes of functions. To be sure, there exist many discontinuous functions on $R$ which are Riemann-Stieltjes integrable, but these integrals suffer from serious defects. For example, very simple functions are nonintegrable [see (8.20)]. Our method of extension is a very general one. It consists of starting with an averaging process on a space of continuous functions, extending it to nonnegative lower semicontinuous functions, extending a second time to all nonnegative, extended real-valued functions, and finally realizing our process as an integral [the Lebesgue integral] on a large class of functions. This procedure is often called the Daniell approach to integration theory, after the British mathematician P. J. Daniell (1889–1946).

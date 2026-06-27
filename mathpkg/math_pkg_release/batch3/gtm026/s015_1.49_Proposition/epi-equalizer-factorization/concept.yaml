@@ -1,0 +1,23 @@
+id: epi-equalizer-factorization
+title_en: "Epi-Equalizer Factorization"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [factorization, epimorphism, equalizer, epi-mono-factorization, dual-concept]
+depends_on:
+  required: []
+  recommended: [coequalizer-mono-factorization, epimorphism, equalizer]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.49"
+    pages: ""
+    role_in_book: "Defines the dual factorization: f = p.i with p an epimorphism and i an equalizer"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

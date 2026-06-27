@@ -1,0 +1,23 @@
+id: op-ideal
+title_en: "The Ideal O^p"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [z-ideal, stone-cech-compactification, zero-set, maximal-ideal, neighborhood]
+depends_on:
+  required: [stone-cech-compactification, z-ideal, maximal-ideals-in-cx]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "7"
+    section: "14 (7.12)"
+    pages: ""
+    role_in_book: "introduces O^p as a key z-ideal associated with points of beta X"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

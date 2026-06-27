@@ -1,0 +1,23 @@
+id: quantifier-elimination-rich-sets
+title_en: "Quantifier Elimination for Rich Sets (Proposition 11.10)"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: first-order-logic
+difficulty: intermediate
+tags: [quantifier-elimination, rich-set, henkin-construction, model-existence]
+depends_on:
+  required: [rich-set-of-sentences, formal-proof]
+  recommended: [first-order-language, sentence]
+  suggested: [henkin-model-existence]
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "11"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Shows that in a rich set of sentences, every sentence is provably equivalent to a quantifier-free sentence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

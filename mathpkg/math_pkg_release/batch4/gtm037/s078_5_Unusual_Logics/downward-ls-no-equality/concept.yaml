@@ -1,0 +1,23 @@
+id: downward-lowenheim-skolem-no-equality
+title_en: "Downward Löwenheim–Skolem Theorem for Logic without Equality"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [lowenheim-skolem, logic-without-equality, elementary-substructure]
+depends_on:
+  required: [downward-lowenheim-skolem-theorem, logic-without-equality]
+  recommended: [elementary-substructure]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "29"
+    section: "Unusual Logics"
+    pages: ""
+    role_in_book: "Theorem 29.15: downward LS holds verbatim for logic without equality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

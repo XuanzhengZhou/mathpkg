@@ -1,0 +1,23 @@
+id: linear-hall-ptr
+title_en: "Linear Hall Planar Ternary Ring"
+title_zh: "线性Hall平面三元环"
+type: definition
+domain: algebra
+subdomain: planar-ternary-rings
+difficulty: intermediate
+tags: [hall-ptr, linear-ptr, planar-ternary-ring, coordinatization]
+depends_on:
+  required: [planar-ternary-ring]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "5"
+    section: "5. Latin Squares"
+    pages: ""
+    role_in_book: "Defines linearity in the Hall coordinatization method"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

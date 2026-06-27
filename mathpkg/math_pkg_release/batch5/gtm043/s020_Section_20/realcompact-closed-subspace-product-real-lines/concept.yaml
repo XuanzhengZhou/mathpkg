@@ -1,0 +1,23 @@
+id: realcompact-closed-subspace-product-real-lines
+title_en: "A Space is Realcompact iff Homeomorphic with a Closed Subspace of a Product of Real Lines"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: compactifications
+difficulty: advanced
+tags: [realcompact, product-space, closed-subspace, characterization, embedding]
+depends_on:
+  required: [H-realcompact-vX, realcompact-space, closed-subspace-of-realcompact-is-realcompact]
+  recommended: [product-space-P-embedding, sigma-homeomorphism-C-embedded]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "11"
+    section: "12"
+    pages: ""
+    role_in_book: "External characterization of realcompact spaces analogous to the characterization of compact spaces as closed subspaces of cubes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

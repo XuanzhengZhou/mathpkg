@@ -1,0 +1,23 @@
+id: proper-smooth-mappings-nonempty-open
+title_en: "Proper Smooth Mappings Form a Nonempty Open Set"
+title_zh: "光滑proper映射构成非空开集"
+type: lemma
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [proper-mapping, smooth-manifold, c0-topology, whitney-embedding]
+depends_on:
+  required: []
+  recommended: [smooth-manifold, proper-mapping, c0-topology]
+  suggested: [whitney-embedding-theorem]
+source_books:
+  - book_id: gtm014
+    author: "Golubitsky, M.; Guillemin, V."
+    title: "Stable Mappings and Their Singularities"
+    chapter: "5"
+    section: "5. The Whitney Embedding Theorem"
+    pages: "74"
+    role_in_book: "Key lemma for proving the Whitney Embedding Theorem: ensures proper immersions exist"
+content_hash: "lemma-5.10-gtm014"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

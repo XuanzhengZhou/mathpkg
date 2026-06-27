@@ -1,0 +1,23 @@
+id: mobius-fixed-points
+title_en: "Fixed Points of Möbius Transformations"
+title_zh: "莫比乌斯变换的不动点"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [mobius-transformation, fixed-points, quadratic-equation]
+depends_on:
+  required: [mobius-transformation]
+  recommended: [mobius-extension-to-riemann-sphere]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.5"
+    pages: "46-48"
+    role_in_book: "Characterizes the number of fixed points of Möbius transformations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: discrete-valuation-ring-temp
+title_en: "Discrete Valuation Ring (Temporary Definition)"
+title_zh: "离散赋值环（临时定义）"
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [discrete-valuation-ring, dedekind-domain, local-ring]
+depends_on:
+  required: [dedekind-domain]
+  recommended: [local-dedekind-domain-is-pid]
+  suggested: [valuation-theory]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "6"
+    pages: "276"
+    role_in_book: "Temporary definition; formal definition given in Chapter VI"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

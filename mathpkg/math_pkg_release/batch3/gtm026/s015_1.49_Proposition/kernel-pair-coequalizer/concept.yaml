@@ -1,0 +1,23 @@
+id: kernel-pair-coequalizer
+title_en: "Coequalizer of Kernel Pair"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [kernel-pair, coequalizer, factorization, pullback]
+depends_on:
+  required: []
+  recommended: [kernel-pair, coequalizer, pullback, coequalizer-mono-factorization]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.53"
+    pages: ""
+    role_in_book: "Lemma 1.53: If p is a coequalizer and its kernel pair exists, then p is the coequalizer of its own kernel pair"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: complementary-subspace-tvs
+title_en: "Complementary Subspace in a Topological Vector Space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [complementary-subspace, direct-sum, tvs, algebraic-direct-sum]
+depends_on:
+  required: [topological-vector-space, subspace-of-topological-vector-space]
+  recommended: [direct-sum-characterization-via-projections]
+  suggested: [algebraic-direct-sum]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; with M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "I"
+    section: "2"
+    pages: "32-33"
+    role_in_book: "Defines complementary (supplementary) subspaces and notes that they do not always exist, even for finite-dimensional M."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,11 @@
+Let $C, D$ be internal categories in a finitely complete category $E$, and let $f, g : C \to D$ be internal functors with object maps $f_0, g_0 : C_0 \to D_0$ and arrow maps $f_1, g_1 : C_1 \to D_1$. An \textbf{internal natural transformation} $\alpha : f \Rightarrow g$ is a morphism $\alpha : C_0 \to D_1$ in $E$ such that the following diagrams commute (expressing the naturality condition internally):
+
+\[
+\begin{CD}
+C_0 @>{\alpha}>> D_1 \\
+@V{(f_0, g_0)}VV @VV{(d_0, d_1)}V \\
+D_0 \times D_0 @= D_0 \times D_0
+\end{CD}
+\]
+
+and the composition-with-$\gamma$ condition expressing that $\alpha$ commutes with the arrow maps $f_1, g_1$ via the internal composition $\gamma_D$.

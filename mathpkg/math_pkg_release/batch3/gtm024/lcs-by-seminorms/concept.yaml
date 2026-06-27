@@ -1,0 +1,23 @@
+id: lcs-by-seminorms
+title_en: "Locally Convex Topology via Seminorms"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: ["locally-convex", "seminorm", "generated-topology"]
+depends_on:
+  required: ["locally-convex-space", "seminorm-def"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§10"
+  section: "10.A"
+  pages: "54"
+  role_in_book: "constructing locally convex topologies"
+content_hash: "9a2f17b96cdb7eba"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

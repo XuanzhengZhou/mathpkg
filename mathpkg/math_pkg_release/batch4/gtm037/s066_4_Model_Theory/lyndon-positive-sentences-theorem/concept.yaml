@@ -1,0 +1,23 @@
+id: lyndon-positive-sentences-theorem
+title_en: "Lyndon's Positive Sentences Theorem"
+title_zh: "Lyndon正语句定理"
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [lyndon, positive-sentence, homomorphism, preservation-theorem, axiomatizability]
+depends_on:
+  required: [model-of-positive-consequences]
+  recommended: [positive-sentence, homomorphism, ultraproduct]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "25"
+    section: "4"
+    pages: ""
+    role_in_book: "Theorem 25.22: Lyndon's characterization of classes axiomatizable by positive sentences"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: existence-and-uniqueness-of-gf-pn
+title_en: "Existence and Uniqueness of GF(p^n) (Result 1.6)"
+title_zh: "GF(p^n)的存在唯一性（结果1.6）"
+type: theorem
+domain: algebra
+subdomain: field-theory
+difficulty: intermediate
+tags: [finite-fields, existence, uniqueness, galois-field, splitting-field]
+depends_on:
+  required: [properties-of-finite-fields]
+  recommended: [splitting-field]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "1. Introduction"
+    pages: ""
+    role_in_book: "For every prime power p^n, there exists a unique finite field of order p^n"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

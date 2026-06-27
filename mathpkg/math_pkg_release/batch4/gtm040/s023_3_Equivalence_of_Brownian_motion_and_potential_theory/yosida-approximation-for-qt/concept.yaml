@@ -1,0 +1,23 @@
+id: yosida-approximation-for-qt
+title_en: "Yosida Approximation Formula for Recovering $Q^t$ from its Generator $A$"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: operator-theory
+difficulty: advanced
+tags: [yosida-approximation, semigroup, infinitesimal-generator, brownian-motion, potential-theory, resolvent]
+depends_on:
+  required: [infinitesimal-generator-definition]
+  recommended: [infinitesimal-generator, resolvent-operator, semigroup-properties]
+  suggested: [hille-yosida-theorem, stone-theorem]
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "7"
+    section: "3. Equivalence of Brownian motion and potential theory"
+    pages: "187"
+    role_in_book: "Explicit formula recovering the semigroup from its infinitesimal generator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

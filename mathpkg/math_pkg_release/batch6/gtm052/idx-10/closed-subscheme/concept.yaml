@@ -1,0 +1,23 @@
+id: closed-subscheme
+title_en: "Closed Subscheme"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [scheme, closed-subscheme, closed-immersion, ideal-sheaf]
+depends_on:
+  required: [closed-immersion]
+  recommended: [scheme, equivalence-class]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "3"
+    pages: "82-83"
+    role_in_book: "Defines closed subschemes as equivalence classes of closed immersions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

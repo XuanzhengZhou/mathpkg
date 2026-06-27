@@ -1,0 +1,23 @@
+id: field-multiplicative-group
+title_en: "Multiplicative Group of a Field"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: field-theory
+difficulty: basic
+tags: [field, multiplicative-group, group-of-units, equivalent-characterization]
+depends_on:
+  required: [field-definition, group-definition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Volume I"
+    chapter: "I"
+    section: "8. Fields"
+    pages: "22"
+    role_in_book: "Equivalent characterization of a field via the multiplicative group of nonzero elements"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

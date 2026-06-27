@@ -1,0 +1,23 @@
+id: regular-functions-yield-martingales
+title_en: "Regular Functions Yield Martingales"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: martingale-theory
+difficulty: intermediate
+tags: [regular-function, martingale, markov-chain, transition-matrix, cross-partition]
+depends_on:
+  required: [p-regular-function, martingale]
+  recommended: [markov-chain, conditional-expectation]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "3"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem establishing the fundamental connection between P-regular functions and martingales: evaluating a regular function along sample paths of a Markov chain yields a martingale."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

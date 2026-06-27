@@ -1,0 +1,23 @@
+id: volume-derivative-divergence-integral
+title_en: "Derivative of Volume at Zero Equals Integral of Divergence"
+title_zh: "体积在零处的导数等于散度的积分"
+type: lemma
+domain: applied-math
+subdomain: dynamical-systems
+difficulty: intermediate
+tags: [volume-derivative, divergence, change-of-variables, jacobian, liouville-theorem]
+depends_on:
+  required: [determinant-expansion-first-order-trace]
+  recommended: [change-of-variables-formula]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "B"
+    pages: "83-87"
+    role_in_book: "Key lemma for proving Liouville's theorem on volume preservation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

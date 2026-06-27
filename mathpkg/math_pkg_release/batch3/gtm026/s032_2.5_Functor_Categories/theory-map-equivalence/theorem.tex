@@ -1,0 +1,14 @@
+Let $T = (T, \eta, \circ, \mu)$ and $T' = (T', \eta', \circ', \mu')$ be algebraic theories in $\mathcal{K}$ and let $K\lambda: KT \longrightarrow KT'$ be given for each $K \in \mathcal{K}$. The following two conditions are equivalent:
+
+\begin{enumerate}
+\item $\lambda: T \longrightarrow T'$ is a theory map, that is, $\lambda$ is a natural transformation $T \longrightarrow T'$ subject to the diagrams
+$$
+\eta \cdot \lambda = \eta', \qquad \mu \cdot \lambda = \lambda\lambda \cdot \mu'.
+$$
+
+\item $K\eta \cdot K\lambda = K\eta'$ for all $K \in \mathcal{K}$, and composition with $\lambda$ preserves Kleisli composition:
+$$
+(\alpha \circ \beta) \cdot C\lambda = (\alpha \cdot B\lambda) \circ' (\beta \cdot C\lambda)
+$$
+for all $\alpha: A \longrightarrow BT$, $\beta: B \longrightarrow CT$.
+\end{enumerate}

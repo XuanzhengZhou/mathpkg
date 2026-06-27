@@ -1,0 +1,23 @@
+id: category-analogue-of-egoroff-fails
+title_en: "Failure of the Category Analogue of Egoroff's Theorem"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: baire-category
+difficulty: advanced
+tags: [egoroff-theorem, baire-category, counterexample, uniform-convergence, first-category]
+depends_on:
+  required: [egoroff-theorem, baire-property-characterization, first-category-set]
+  recommended: [lusin-theorem, property-of-baire-for-sets]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "8"
+    section: "The Theorems of Lusin and Egoroff"
+    pages: "46"
+    role_in_book: "Counterexample showing that while Lusin's theorem has a valid category analogue (Theorem 8.1), the natural category analogue of Egoroff's theorem is false"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

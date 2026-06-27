@@ -1,0 +1,38 @@
+{
+  "id": "colimit",
+  "title_en": "Colimit (Direct Limit / Inductive Limit)",
+  "title_zh": "",
+  "type": "definition",
+  "domain": "foundations",
+  "subdomain": "category-theory",
+  "difficulty": "intermediate",
+  "tags": [
+    "colimit",
+    "direct-limit",
+    "inductive-limit",
+    "cocone"
+  ],
+  "depends_on": {
+    "required": [
+      "universal-arrow-from-c-to-s",
+      "diagonal-functor",
+      "functor-category"
+    ],
+    "recommended": [],
+    "suggested": []
+  },
+  "source_books": [
+    {
+      "book_id": "gtm005",
+      "author": "Saunders Mac Lane",
+      "title": "Categories for the Working Mathematician",
+      "chapter": "III",
+      "section": "3",
+      "pages": "",
+      "role_in_book": ""
+    }
+  ],
+  "content_hash": "",
+  "extraction_date": "2026-06-27",
+  "extraction_agent": "v8-full-extract"
+}

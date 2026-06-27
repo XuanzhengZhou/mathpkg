@@ -1,0 +1,23 @@
+id: balanced-module
+title_en: "Balanced Module"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [balanced-module, biendomorphism-ring, natural-homomorphism]
+depends_on:
+  required: [balanced-bimodule, endomorphism-and-automorphism]
+  recommended: [faithfully-balanced-bimodule]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines when a module is balanced via its derived bimodule"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

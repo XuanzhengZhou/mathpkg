@@ -1,0 +1,23 @@
+id: compact-class
+title_en: "Compact Class of Structures"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [compactness, model-existence, first-order-logic]
+depends_on:
+  required: [first-order-language, sentence]
+  recommended: [compactness-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "26"
+    section: "Elementary Classes and Elementary Equivalence"
+    pages: ""
+    role_in_book: "Definition 26.1(iv): K is compact if finite satisfiability implies satisfiability in K"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

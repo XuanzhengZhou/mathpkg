@@ -1,0 +1,23 @@
+id: reduction-to-creative-set
+title_en: "Every r.e. set is an inverse image of a creative set"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: recursive-function-theory
+difficulty: intermediate
+tags: [creative-set, recursive-function, inverse-image, reduction, recursively-enumerable]
+depends_on:
+  required: []
+  recommended: [creative-set, productive-function, recursion-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "6"
+    section: "Recursive Function Theory"
+    pages: ""
+    role_in_book: "Shows that every r.e. set can be reduced to a creative set via an inverse image of a recursive function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

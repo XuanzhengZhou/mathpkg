@@ -1,0 +1,23 @@
+id: sharp-uniqueness
+title_en: "Uniqueness of the Sharp Map"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: boolean-algebras
+difficulty: advanced
+tags: [complete-boolean-algebra, complete-monomorphism, sharp-operator, uniqueness]
+depends_on:
+  required: [sharp-operator-properties, sharp-is-open-continuous-onto]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "22"
+    section: "The Completion of a Boolean Algebra"
+    pages: ""
+    role_in_book: "Establishes uniqueness of the o.c.o. map inducing a given complete monomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

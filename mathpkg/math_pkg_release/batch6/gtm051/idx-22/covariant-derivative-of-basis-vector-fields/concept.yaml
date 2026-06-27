@@ -1,0 +1,23 @@
+id: covariant-derivative-of-basis-vector-fields
+title_en: "Covariant Derivative of Basis Vector Fields"
+title_zh: "基向量场的协变导数"
+type: definition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [covariant-derivative, basis-vector-field, christoffel-symbols, levi-civita-connection]
+depends_on:
+  required: [christoffel-symbols-for-riemannian-metric]
+  recommended: [parallel-transport, geodesic]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Defines covariant differentiation of coordinate basis vector fields via Christoffel symbols"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

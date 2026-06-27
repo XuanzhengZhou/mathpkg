@@ -1,0 +1,23 @@
+id: lie-algebra-of-vector-fields-under-poisson-bracket
+title_en: "Vector Fields Form a Lie Algebra Under the Poisson Bracket"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [lie-algebra, vector-field, poisson-bracket, jacobi-identity, manifold]
+depends_on:
+  required: [lie-algebra, poisson-bracket-of-vector-fields]
+  recommended: [jacobi-identity, bilinear-form]
+  suggested: [commutator-of-flows-mixed-partial]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "7"
+    section: "39"
+    pages: "223"
+    role_in_book: "Establishes that the Poisson bracket endows the space of vector fields on a manifold with a Lie algebra structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

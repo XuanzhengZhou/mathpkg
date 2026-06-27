@@ -1,0 +1,15 @@
+A \textbf{descriptive triple} is a triple $(L, \tau, O)$ where $L$ is a first-order language with equality, $\tau$ is a new symbol (the description operator), and $O$ is a distinguished individual constant.
+
+For a descriptive triple $(L, \tau, O)$, the \textbf{terms} and \textbf{formulas} are defined simultaneously by:
+
+\begin{itemize}
+\item[(i)] any variable is a term;
+\item[(ii)] if $O$ is an operation symbol of rank $m$ and $\sigma_0, \ldots, \sigma_{m-1}$ are terms, then $O \sigma_0 \cdots \sigma_{m-1}$ is a term;
+\item[(iii)] if $\sigma$ and $\rho$ are terms, then $\sigma = \rho$ is a formula;
+\item[(iv)] if $R$ is a relation symbol of rank $m$ and $\sigma_0, \ldots, \sigma_{m-1}$ are terms, then $R \sigma_0 \cdots \sigma_{m-1}$ is a formula;
+\item[(v)] if $\varphi$ and $\psi$ are formulas, then so are $\neg \varphi$, $\varphi \lor \psi$, and $\varphi \land \psi$;
+\item[(vi)] if $\alpha$ is a variable and $\varphi$ is a formula, then $\forall \alpha \varphi$ is a formula;
+\item[(vii)] if $\alpha$ is a variable and $\varphi$ is a formula, then $\tau \alpha \varphi$ is a term.
+\end{itemize}
+
+Intuitively, $\tau v_i \varphi$ is interpreted as "the unique $v_i$ such that $\varphi$, or $O$ if there is no $v_i$, or several $v_i$, such that $\varphi$."

@@ -1,0 +1,23 @@
+id: equivalence-crossed-modules-internal-categories-grp
+title_en: "Equivalence of Crossed Modules and Category Objects in Grp"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [crossed-module, internal-category, category-object, group, equivalence, homotopy-theory]
+depends_on:
+  required: [crossed-module, internal-category-in-grp, crossed-module-from-internal-category-in-grp, internal-category-in-grp-from-diagram-data]
+  recommended: [composition-formula-internal-category-grp]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XII"
+    section: "8"
+    pages: ""
+    role_in_book: "Main theorem of the section: a category object in Grp is essentially the same thing as a crossed module. Proof formulated by George Janelidze."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

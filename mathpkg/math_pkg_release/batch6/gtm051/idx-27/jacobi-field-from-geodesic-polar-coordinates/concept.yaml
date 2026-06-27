@@ -1,0 +1,23 @@
+id: jacobi-field-from-geodesic-polar-coordinates
+title_en: "Jacobi Field from Geodesic Polar Coordinates"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [jacobi-field, geodesic-polar-coordinates, exponential-map, gauss-curvature, frenet-frame, variation-of-geodesics]
+depends_on:
+  required: [jacobi-field, geodesic-polar-coordinates, exponential-map]
+  recommended: [gauss-lemma, first-fundamental-form]
+  suggested: [gauss-curvature-formula-in-geodesic-coordinates]
+source_books:
+  - book_id: gtm051
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.4"
+    pages: "109-112"
+    role_in_book: "Key lemma connecting Jacobi fields to geodesic polar coordinates and curvature"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

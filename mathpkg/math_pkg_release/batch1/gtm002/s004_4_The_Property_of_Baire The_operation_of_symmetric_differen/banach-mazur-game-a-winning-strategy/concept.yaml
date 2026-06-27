@@ -1,0 +1,23 @@
+id: banach-mazur-game-a-winning-strategy
+title_en: "Player A has a winning strategy in the Banach-Mazur game if and only if B is of first category on some subinterval"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: descriptive-set-theory
+difficulty: advanced
+tags: [banach-mazur-game, winning-strategy, first-category]
+depends_on:
+  required: [banach-mazur-game-b-winning-strategy, banach-mazur-game]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "6"
+    section: "The Banach-Mazur Game"
+    pages: ""
+    role_in_book: "Theorem 6.2; winning condition for player A"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

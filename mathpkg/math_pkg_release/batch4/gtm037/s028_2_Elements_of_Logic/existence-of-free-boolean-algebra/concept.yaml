@@ -1,0 +1,23 @@
+id: existence-of-free-boolean-algebra
+title_en: "Existence of Free Boolean Algebra on Any Nonempty Set"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: boolean-algebra
+difficulty: advanced
+tags: [boolean-algebra, free-algebra, existence, universal-algebra]
+depends_on:
+  required: [free-boolean-algebra, boolean-algebra-transport-of-structure]
+  recommended: []
+  suggested: [lindenbaum-algebra-freely-generated]
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "9"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Existence theorem for free Boolean algebras; provides two proofs, one algebraic and one via Lindenbaum algebras."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

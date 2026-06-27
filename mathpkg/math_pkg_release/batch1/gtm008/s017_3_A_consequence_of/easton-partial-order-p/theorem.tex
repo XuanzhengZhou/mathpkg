@@ -1,0 +1,13 @@
+Let $G: On \rightarrow On$ satisfy:
+\begin{enumerate}
+\item $(\forall \alpha)(\forall \beta)[\alpha \leq \beta \rightarrow G(\alpha) \leq G(\beta)]$,
+\item $(\forall \alpha)[cf(\aleph_{G(\alpha)}) > \aleph_\alpha]$.
+\end{enumerate}
+Define the partial order $\mathbf{P} = \langle P, \leq \rangle$ where $P$ consists of all functions $q$ such that:
+\begin{enumerate}
+\item[(i)] $q$ is a function with domain $\subseteq \{(\epsilon, \gamma, \alpha, \eta) \mid \epsilon \in 2 \land \gamma, \alpha, \eta \in On\}$ satisfying certain conditions,
+\item[(ii)] $q = \bigcup_{\alpha \in On} q^\alpha$,
+\item[(iii)] $\alpha \in \text{Reg} \rightarrow \bigcup_{\beta \leq \alpha} q^\beta < \aleph_\alpha$,
+\item[(iv)] $(\forall \gamma)(\forall \alpha)(\forall \eta) \neg [\langle 0, \gamma, \alpha, \eta \rangle \in q \land \langle 1, \gamma, \alpha, \eta \rangle \in q]$.
+\end{enumerate}
+The order is defined by $p \leq q \iff q \subseteq p$ for $p, q \in P$.

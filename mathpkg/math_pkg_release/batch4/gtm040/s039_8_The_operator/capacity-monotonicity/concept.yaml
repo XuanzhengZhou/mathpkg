@@ -1,0 +1,23 @@
+id: capacity-monotonicity
+title_en: "Monotonicity and Choquet property of capacity"
+title_zh: "容量的单调性与Choquet性质"
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [capacity, choquet-capacity, monotonicity, subadditivity]
+depends_on:
+  required: [capacity-of-set, capacity-difference-identity, set-intersection-occupancy-inequality]
+  recommended: [choquet-capacity-definition]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Establishes capacity as a Choquet capacity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

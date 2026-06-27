@@ -1,0 +1,23 @@
+id: gamma0-subgroup
+title_en: "Congruence Subgroup Gamma_0(q)"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [congruence-subgroup, gamma0, modular-group, modular-forms, hecke-operator]
+depends_on:
+  required: []
+  recommended: [modular-group, unimodular-matrix]
+  suggested: [congruence-subgroup-gamma1, hecke-congruence-subgroup]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "4"
+    section: "4.2"
+    pages: ""
+    role_in_book: "Defines the congruence subgroup used to prove congruences for coefficients of the modular function j"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

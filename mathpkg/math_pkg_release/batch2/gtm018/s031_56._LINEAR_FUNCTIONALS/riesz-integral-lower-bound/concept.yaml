@@ -1,0 +1,23 @@
+id: riesz-integral-lower-bound
+title_en: "Theorem B: Integral Lower Bound for Positive Linear Functionals"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [riesz-representation, integral-bound, positive-linear-functional]
+depends_on:
+  required: [riesz-content-regularity, content-induced-by-positive-linear-functional]
+  recommended: [lebesgue-integral]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "56"
+    section: "56. LINEAR FUNCTIONALS"
+    pages: ""
+    role_in_book: "Establishes ∫fdμ ≤ Λ(f), one half of the Riesz representation equality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

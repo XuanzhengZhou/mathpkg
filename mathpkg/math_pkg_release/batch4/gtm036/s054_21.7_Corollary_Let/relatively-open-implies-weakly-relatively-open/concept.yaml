@@ -1,0 +1,31 @@
+id: relatively-open-implies-weakly-relatively-open
+title_en: "Relatively Open Implies Weakly Relatively Open"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags:
+  - locally-convex-space
+  - weak-topology
+  - relatively-open-mapping
+  - continuous-linear-transformation
+  - adjoint-operator
+depends_on:
+  required: []
+  recommended:
+    - open-mapping-theorem
+    - weak-star-closed-range
+    - mackey-topology
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "21"
+    section: "21.7"
+    pages: ""
+    role_in_book: "Corollary connecting relative openness to weak relative openness for continuous linear transformations between locally convex spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

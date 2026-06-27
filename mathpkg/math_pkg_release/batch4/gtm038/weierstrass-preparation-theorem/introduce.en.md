@@ -1,0 +1,1 @@
+The Weierstrass preparation theorem states that every convergent power series regular in one variable can be factored uniquely as a unit times a Weierstrass polynomial. This is the fundamental algebraic tool in local complex analysis.

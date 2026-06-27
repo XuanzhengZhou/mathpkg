@@ -1,0 +1,23 @@
+id: positive-element-cstar
+title_en: "Positive element of a C*-algebra"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [c-star-algebra, positive-element, spectrum, self-adjoint]
+depends_on:
+  required: [c-star-algebra, self-adjoint-part-cstar]
+  recommended: [spectrum]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "3"
+    pages: ""
+    role_in_book: "Definition: An element x of a C*-algebra is positive if it is self-adjoint and has non-negative spectrum"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

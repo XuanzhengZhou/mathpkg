@@ -1,0 +1,23 @@
+id: mazur-lemma
+title_en: "Mazur's Lemma on Convex Closures"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: ["mazur", "convex-set", "weak-closure", "norm-closure"]
+depends_on:
+  required: ["weak-topology", "closed-convex-hull"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§12"
+  section: "12.A"
+  pages: "66-67"
+  role_in_book: "weak and norm closures of convex sets coincide"
+content_hash: "01dadba7a66f3753"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: varphi-antiderivation
+title_en: "$\varphi$-Antiderivation"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: derivations
+difficulty: intermediate
+tags: [antiderivation, homomorphism, varphi-derivation]
+depends_on:
+  required: [antiderivation, algebra-homomorphism, involution-in-algebra]
+  recommended: [varphi-derivation]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "5"
+    section: "§1. Basic properties"
+    pages: "168"
+    role_in_book: "generalizes antiderivation to a linear map between different algebras twisted by a homomorphism and involutions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,51 @@
+Let $X$ be a compact Hausdorff space. Then for each bounded linear functional $\varphi$ on the real space $\mathcal{C}_{\mathbb{R}}(X)$ of continuous real-valued functions on $X$ there is a unique signed measure $\mu$ in $\mathcal{M}_0(X)$ such that
+
+$$\varphi(f) = \varphi_\mu(f) = \int_X f \, d\mu, \quad f \in \mathcal{C}_{\mathbb{R}}(X).$$
+
+(3)
+
+Moreover, the correspondence $\mu \rightarrow \varphi_\mu$ in (3) is an isometric isomorphism of the real Banach space $\mathcal{C}_{\mathbb{R}}(X)^*$ onto the real Banach space $\mathcal{M}_{\mathbb{R},0}(X)$ of all regular signed Borel measures on $X$.
+
+Proof. As was noted above, all that is really necessary is to show that there exists a regular signed Borel measure $\mu$ such that (3) holds. To this end we define a new functional $\varphi'$ on the collection $\mathcal{
+
+We next extend $\varphi'$ to $\mathcal{C}_{\mathbb{R}}(X)$ by setting
+
+$$\varphi'(f) = \varphi'(f^+) - \varphi'(f^-), \quad f \in \mathcal{C}_{\mathbb{R}}(X),$$
+
+and verify that $\varphi'$ thus extended is a linear functional. Indeed, if $t \geq 0$, then $(tf)^+ = tf^+$ and $(tf)^- = tf^-$, so we have
+
+$$\varphi'(tf) = t\varphi'(f^+) - t\varphi'(f^-) = t\varphi'(f).$$
+
+On the other hand, if $t \leq 0$, then $(tf)^+ = -tf^-$ and $(tf)^- = -tf^+$, so
+
+$$\varphi'(tf) = \varphi'(-tf^-) - \varphi'(-tf^+) = t\varphi'(f).$$
+
+Thus $\varphi'$ is homogeneous. In order to verify additivity, let $f_1$ and $f_2$ be two functions in $\mathcal{C}_{\mathbb{R}}(X)$ and let us write $h = f_1^+ + f_2^+ - (f_1 + f_2)^+$. Then $h \geq 0$, so
+
+$$\varphi'(f_1^+) + \varphi'(f_2^+) = \varphi'(f_1^+ + f_2^+) = \varphi'((f_1 + f_2)^+) + \varphi'(h).$$
+
+On the other hand, we also have $h = f_1^- + f_2^- - (f_1 + f_2)^-$, and therefore, as above,
+
+$$\varphi'(f_1^-) + \varphi'(f_2^-) = \varphi'((f_1 + f_2)^-) + \varphi'(h),$$
+
+whence it follows at once that $\varphi'(f_1 + f_2) = \varphi'(f_1) + \varphi'(f_2)$.
+
+Thus, summarizing, we see that $\varphi'$ is a positive linear functional on
+
+$\mathcal{C}([a, b])^*$ (see Problem 14F). Theorem 18.3 permits us to shed further light on this relationship. In the first place, the interval $[a, b]$ is a metric space, so $\mathcal{M}([a, b])$ and $\mathcal{M}_0([a, b])$ coincide. Moreover, if for each element $\xi$ of $\mathcal{M}([a, b])$ we define
+
+$$\alpha_\xi(t) = \begin{cases} 0, & t = a, \\ \xi([a, t]), & a < t \leq b, \end{cases}$$
+
+then $\alpha_\xi$ is a complex-valued function of bounded variation on $[a, b]$, and it is easy to see that $\alpha_\xi$ is right-continuous on $(a, b)$. From this it follows that $\xi$ is, in turn, the (Stieltjes–) Borel measure associated with $\alpha_\xi$ (see Example 8K), that
+
+$$\int_{[a, b]} f d\xi = \int_a^b f(t) d\alpha_\xi(t), \quad f \in \mathcal{C}([a, b])$$
+
+(Prob. 8X), and also that if we define
+
+$$\Phi(\xi) = \alpha_\xi, \quad \xi \in \mathcal{M}([a, b]),$$
+
+then $\Phi$, which is obviously a linear transformation of $\mathcal{M}([a, b])$ into $\mathcal{V}([a, b])$, is in fact an isometry of $\mathcal{M}([a, b])$ onto a subspace $\mathcal{R}$ of $\mathcal{V}([a, b])$ (see Problem 8W). Finally, we note that $\mathcal{R}$ consists precisely of those functions in $\mathcal{V}([a, b])$ that are right-continuous on $(a, b)$ and vanish at $a$. If $\beta$ is a function of bounded variation on $[a, b]$ that is right-continuous on $(a, b)$, and if $\zeta = \zeta_\beta$ is the Stieltjes–Borel measure associated with $\beta$, then
+
+virtue of its being an algebra. Among other things, we shall need some information concerning the subalgebras of $\mathcal{C}(X)$. In this connection we recall (Ex. 3R) that a subset $M$ of $\mathcal{C}(X)$ is said to be separating on $X$ if for every two points $x_1 \neq x_2$ in $X$ there exists a function $f$ in $M$ such that $f(x_1) \neq f(x_2)$. We shall also say that $M$ is strongly separating on $X$ if $M$ is separating and if for each $x$ in $X$ there is a function $f$ in $M$ such that $f(x) \neq 0$.
+
+The central fact that we wish to verify is that if $\mathcal{A}$ is a self-conjugate, strongly separating subalgebra of $\mathcal{C}(X)$, then $\mathcal{A}$ is dense in $\mathcal{C}(X)$. (Recall (Ex. 2H) that a linear space of complex-valued functions on a set $X$ is said to be self-conjugate if $\bar{f}$ belongs to the set whenever $f$ does.) Since the closure of a self-conjugate subalgebra is again a self-conjugate subalgebra, this assertion is equivalent to the following theorem.

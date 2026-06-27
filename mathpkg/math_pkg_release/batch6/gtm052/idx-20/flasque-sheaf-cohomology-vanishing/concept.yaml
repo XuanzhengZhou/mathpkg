@@ -1,0 +1,23 @@
+id: flasque-sheaf-cohomology-vanishing
+title_en: "Flasque sheaves have vanishing higher cohomology"
+title_zh: "松软层的上同调消失定理"
+type: proposition
+domain: geometry
+subdomain: sheaf-cohomology
+difficulty: intermediate
+tags: [flasque, sheaf, cohomology, acyclic]
+depends_on:
+  required: []
+  recommended: [injective-object, flasque-sheaf, derived-functor-cohomology, long-exact-cohomology-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "§2 Cohomology of Sheaves"
+    pages: "207-208"
+    role_in_book: "Proposition 2.5 — establishes that flasque sheaves are acyclic for the global sections functor"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

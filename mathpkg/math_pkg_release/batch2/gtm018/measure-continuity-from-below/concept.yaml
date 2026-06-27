@@ -1,0 +1,23 @@
+id: measure-continuity-from-below
+title_en: "Continuity of Measure from Below (Theorem D)"
+title_zh: "测度的下连续性（定理D）"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [measure-theory, continuity-from-below, increasing-sequence]
+depends_on:
+  required: [measure, monotone-sequence-of-sets]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "II"
+    section: "9"
+    pages: ""
+    role_in_book: "The measure of the limit of an increasing sequence equals the limit of the measures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

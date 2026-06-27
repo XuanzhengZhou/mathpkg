@@ -1,0 +1,23 @@
+id: mean-zero-integration-formula
+title_en: "Mean 0 Integration Formula"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: p-adic-measures
+difficulty: advanced
+tags: [p-adic, measure, integration, mean-operation, cyclotomic-fields]
+depends_on:
+  required: [norm-on-measures-and-power-series]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields I and II"
+    chapter: "12"
+    section: "Operations on Measures and Power Series"
+    pages: ""
+    role_in_book: "Mean 0 operation; expresses the integral of the constant function 1 against the measure as the evaluation of the associated power series at 0."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

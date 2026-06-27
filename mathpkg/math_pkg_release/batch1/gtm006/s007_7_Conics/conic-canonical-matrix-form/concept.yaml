@@ -1,0 +1,23 @@
+id: conic-canonical-matrix-form
+title_en: "Canonical Matrix Form of a Nonempty Conic"
+title_zh: "非空圆锥曲线的标准矩阵形式"
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [conic, canonical-form, matrix, symmetric-bilinear-form, basis-selection]
+depends_on:
+  required: [conic]
+  recommended: [conic-line-intersection-bound, orthogonal-polarity]
+  suggested: [projective-plane, symmetric-matrix, basis]
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II"
+    section: "7. Conics"
+    pages: "61-67"
+    role_in_book: "Theorem 2.36 - canonical matrix form and parametrization of a nonempty conic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

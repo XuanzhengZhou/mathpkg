@@ -1,0 +1,23 @@
+id: n-duality
+title_en: "n-Duality (S-Duality)"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: stable-homotopy
+difficulty: advanced
+tags: [n-duality, s-duality, n-pairing, smash-product, freyd, spanier-whitehead]
+depends_on:
+  required: [s-map, smash-product, sphere]
+  recommended: [cw-complex, suspension]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "3"
+    pages: "234-236"
+    role_in_book: "Defines n-duality between finite CW-complexes, generalizing Spanier-Whitehead duality via S-maps"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

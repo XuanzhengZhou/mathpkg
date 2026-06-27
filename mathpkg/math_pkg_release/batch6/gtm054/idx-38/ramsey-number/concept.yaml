@@ -1,0 +1,23 @@
+id: ramsey-number
+title_en: "Ramsey number n(q_1,...,q_m:s)"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: ramsey-theory
+difficulty: intermediate
+tags: [ramsey-number, ramsey-theory, pigeonhole-principle, extremal-combinatorics]
+depends_on:
+  required: [set-theory]
+  recommended: [coloring, partition]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "VIII"
+    section: "B"
+    pages: "224-229"
+    role_in_book: "Definition of the Ramsey number, central object of Ramsey Theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

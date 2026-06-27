@@ -1,0 +1,23 @@
+id: kernel-image-coimage-cokernel
+title_en: "Kernel, Image, Coimage, and Cokernel of a Module Homomorphism"
+title_zh: "模同态的核、像、余像与余核"
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [module-theory, kernel, image, coimage, cokernel]
+depends_on:
+  required: [left-module-homomorphism, submodule]
+  recommended: [quotient-module]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "3. Homomorphisms of Modules"
+    pages: ""
+    role_in_book: "Basic constructions associated to any module homomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

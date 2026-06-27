@@ -1,0 +1,18 @@
+A \textbf{braiding} for a monoidal category $M$ consists of a family of isomorphisms
+$$\gamma_{a,b} : a \square b \cong b \square a$$
+natural in $a$ and $b$, which satisfy the following two hexagonal diagrams:
+\[
+\begin{array}{ccc}
+a \square (b \square c) & \xrightarrow{\alpha} & (a \square b) \square c & \xrightarrow{\gamma} & c \square (a \square b) \\
+& {}_{1 \square \gamma} \searrow & & \nearrow_{\alpha} \\
+& & a \square (c \square b) & \xrightarrow{\alpha} & (a \square c) \square b
+\end{array}
+\]
+\[
+\begin{array}{ccc}
+(a \square b) \square c & \xrightarrow{\alpha^{-1}} & a \square (b \square c) & \xrightarrow{1 \square \gamma} & a \square (c \square b) \\
+& {}_{\gamma \square 1} \searrow & & \nearrow_{\alpha^{-1}} \\
+& & (b \square a) \square c & \xrightarrow{\alpha^{-1}} & b \square (a \square c)
+\end{array}
+\]
+These hexagons assert that $\gamma$ is compatible with the associativity isomorphism $\alpha$.

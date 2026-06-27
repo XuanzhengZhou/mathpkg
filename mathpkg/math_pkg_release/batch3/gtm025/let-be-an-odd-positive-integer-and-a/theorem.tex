@@ -1,0 +1,48 @@
+Let $a$ be an odd positive integer and $b$ a real number such that $0 < b < 1$. Suppose also that $ab > 1 + \frac{3\pi}{2}$. Let $f$ be the function defined on $R$ by
+
+$$f(x) = \sum_{k=0}^{\infty} b^k \cos
+for all $x \in R$. Also, if $f_n(x) = \sum_{k=0}^{n-1} b^k \cos[a^k \pi x]$, we have
+
+$$\|f - f_n\|_u \leq \sum_{k=n}^{\infty} b^k = \frac{b^n}{1-b} \rightarrow 0$$
+
+as $n \rightarrow \infty$. It follows as in (7.9) that $f$ is continuous on $R$.
+
+We will show that $f$ is differentiable at no point of $R$. Let $x \in R$ be fixed. For $n \in N$ and $h > 0$, write
+
+$$\frac{f(x+h) - f(x)}{h} = \sum_{k=0}^{n-1} b^k \frac{\cos[a^k \pi(x+h)] - \cos[a^k \pi x]}{h} + \sum_{k=n}^{\infty} b^k \frac{\cos[a^k \pi(x+h)] - \cos[a^k \pi x]}{h} = S_n + R_n.$$
+
+Using the mean value theorem, we write
+
+$$\frac{\cos[a^k \pi(x+h)] - \cos[a^k \pi x]}{h} = -a^k \pi \sin[a^k \pi(x+h')],$$
+
+where $0 < h' < h$. The absolute value of the right side of (1) is less than or equal to $a^k \pi$, and so
+
+$$|S_n| \leq \sum_{k=0}^{n-1} a^k b^k \pi = \pi \frac{a^n b^n - 1}{ab - 1} < \frac{\pi a^n b^n}{ab - 1}.$$
+
+Now write
+
+$$a^n x = \alpha_n + \beta_n,$$
+
+where $\alpha_n$ is an integer, and $-\frac{1}{2} \leq \beta_n < \frac{1}{2}$. Let
+
+$$h_n = \frac{1 - \beta_n}{a^n}.$$
+
+Since $\frac{3}{2} \ge
+
+Upon setting $h = h_n$, we find that $|R_n|$ becomes
+
+$$|R_n| = \left| \sum_{k=n}^{\infty} b^k \frac{(-1)^{1+\alpha_n} + (-1)^{1+\alpha_n} \cos[\pi a^{k-n} \beta_n]}{h_n} \right|$$
+
+$$= \left| \frac{(-1)^{1+\alpha_n}}{h_n} \right| \cdot \sum_{k=n}^{\infty} b^k (1 + \cos[\pi a^{k-n} \beta_n]) \geq \frac{b^n}{h_n} \geq \frac{2a^n b^n}{3},$$
+
+since $\cos \pi \beta_n \geq 0$. Combining this estimate for $|R_n|$ with (2), we obtain
+
+$$\left| \frac{f(x + h_n) - f(x)}{h_n} \right| \geq |R_n| - |S_n| > \frac{2a^n b^n}{3} - \frac{\pi a^n b^n}{ab - 1} = (ab)^n \left[ \frac{2}{3} - \frac{\pi}{ab - 1} \right].$$
+
+Since $ab > 1 + \frac{3}{2} \pi$, $\left[ \frac{2}{3} - \frac{\pi}{ab - 1} \right]$ is a positive constant, and it follows that
+
+$$\lim_{n \to \infty} \left| \frac{f(x + h_n) - f(x)}{h_n} \right| = \infty.$$
+
+Since $\lim_{n \to \infty} h_n = 0$, it is clear that at least one right derivate of $f$ at $x$ is infinite. $\square$
+
+Our next theorem gives an indirect proof that continuous nowhere differentiable functions exist. It shows actually that in a certain sense most continuous functions are nowhere differentiable.

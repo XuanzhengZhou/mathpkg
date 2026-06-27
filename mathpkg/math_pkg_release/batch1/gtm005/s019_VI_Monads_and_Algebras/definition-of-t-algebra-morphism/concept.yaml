@@ -1,0 +1,23 @@
+id: definition-of-t-algebra-morphism
+title_en: "Definition of a Morphism of T-Algebras"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [monad, t-algebra, morphism, eilenberg-moore-algebra]
+depends_on:
+  required: [definition-of-t-algebra]
+  recommended: [definition-of-functor, definition-of-natural-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "1. Monads in a Category"
+    pages: "139"
+    role_in_book: "Defines the arrows in the Eilenberg-Moore category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: order-entire-function-epsilon-bound
+title_en: "Epsilon Characterization of Finite Order"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [entire-function, order, growth-bound, epsilon, maximum-modulus]
+depends_on:
+  required: [finite-order-entire-function]
+  recommended: []
+  suggested: [entire-function-genus-growth-bound]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "2.14"
+    pages: ""
+    role_in_book: "Characterizes finite order λ: for any ε>0, |f(z)|<exp(|z|^{λ+ε}) for large |z|, and |f(z)|≥exp(|z|^{λ-ε}) on arbitrarily large |z|"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

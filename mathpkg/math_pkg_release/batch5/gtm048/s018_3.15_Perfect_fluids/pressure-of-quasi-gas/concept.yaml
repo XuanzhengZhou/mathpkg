@@ -1,0 +1,23 @@
+id: pressure-of-quasi-gas
+title_en: "Pressure of a Quasi-Gas"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: intermediate
+tags: [pressure, quasi-gas, perfect-fluid, stress-energy-tensor]
+depends_on:
+  required: [perfect-fluid-stress-energy-tensor-decomposition]
+  recommended: [energy-density-of-quasi-gas]
+  suggested: [stress-energy-tensor]
+source_books:
+  - book_id: gtm048
+    author: "Sachs, R. and Wu, H."
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.15"
+    pages: ""
+    role_in_book: "Defines the pressure scalar $p$ of a quasi-gas as the coefficient of the spatial projection term in the stress-energy decomposition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

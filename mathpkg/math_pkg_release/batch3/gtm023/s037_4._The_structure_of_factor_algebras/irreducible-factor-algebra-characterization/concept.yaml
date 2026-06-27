@@ -1,0 +1,23 @@
+id: irreducible-factor-algebra-characterization
+title_en: "Characterization of irreducible factor algebras"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [factor-algebra, irreducible-algebra, prime-power, polynomial-algebra]
+depends_on:
+  required: [irreducible-ideals-unique-direct-sum-decomposition, factor-algebra]
+  recommended: [irreducible-polynomial, prime-power]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "12"
+    section: "4. The structure of factor algebras"
+    pages: "388"
+    role_in_book: "Characterizes exactly when a factor algebra is irreducible: precisely when f is a power of an irreducible polynomial"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

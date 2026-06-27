@@ -1,0 +1,23 @@
+id: complex-basis-deformation
+title_en: "Basis Deformation in Complex Vector Spaces"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [basis, deformation, complex-vector-space, orientation]
+depends_on:
+  required: [basis-deformation-theorem]
+  recommended: [complex-linear-space]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§8. Oriented vector spaces"
+    pages: "4.36"
+    role_in_book: "Shows that any two bases of a complex vector space can be deformed into each other"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

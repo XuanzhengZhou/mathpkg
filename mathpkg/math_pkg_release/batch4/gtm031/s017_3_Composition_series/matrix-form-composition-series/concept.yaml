@@ -1,0 +1,23 @@
+id: matrix-form-composition-series
+title_en: "Block Triangular Matrix Form Relative to a Composition Series"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [composition-series, matrix-representation, block-triangular, invariant-subspace, linear-transformations]
+depends_on:
+  required: [composition-series-definition, factor-space-induced-transformation]
+  recommended: [invariant-subspace-quotient-correspondence]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "Chapter III: Sets of Linear Transformations"
+    section: "3. Composition series"
+    pages: "131-132"
+    role_in_book: "Describing the canonical matrix form induced by a composition series"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

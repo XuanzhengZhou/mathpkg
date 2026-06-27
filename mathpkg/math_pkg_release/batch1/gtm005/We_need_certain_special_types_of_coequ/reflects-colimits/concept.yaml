@@ -1,0 +1,13 @@
+id: reflects-colimits
+title_en: "Reflects Colimits"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [reflects-colimits, colimit, functor, preservation]
+depends_on: {required: [colimit, functor, cone], recommended: [reflects-coequalizers, reflects-isomorphisms], suggested: []}
+source_books: [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "VI. Monads and Algebras", section: "7. Beck's Theorem", pages: "", role_in_book: "Defines when a functor reflects colimits, used in formulations of Beck's theorem"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

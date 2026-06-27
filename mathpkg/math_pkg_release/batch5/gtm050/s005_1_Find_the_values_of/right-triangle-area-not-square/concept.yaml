@@ -1,0 +1,23 @@
+id: right-triangle-area-not-square
+title_en: "Area of a Right Triangle Is Not a Square"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-equations
+difficulty: advanced
+tags: [fermat, right-triangle, area, square, pythagorean-triples, infinite-descent]
+depends_on:
+  required: [pythagorean-triple-parametrization, method-of-infinite-descent, relatively-prime-square-factors]
+  recommended: [fermats-last-theorem-n4]
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem"
+    chapter: "1"
+    section: "1.6"
+    pages: ""
+    role_in_book: "Fermat's own proposition proved via infinite descent; historically significant as the only proof Fermat wrote out in detail"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

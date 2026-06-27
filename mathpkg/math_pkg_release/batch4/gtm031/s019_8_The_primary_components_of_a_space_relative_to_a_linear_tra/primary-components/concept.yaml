@@ -1,0 +1,23 @@
+id: primary-components
+title_en: "Primary Components of a Space Relative to a Linear Transformation"
+title_zh: "空间关于线性变换的准素分量"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [primary-decomposition, linear-transformation, minimum-polynomial, invariant-subspace]
+depends_on:
+  required: [minimum-polynomial, invariant-subspace, direct-sum-decomposition]
+  recommended: [irreducible-polynomial, primary-decomposition-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "III"
+    section: "8"
+    pages: "141-143"
+    role_in_book: "Introduces the primary decomposition relative to a single linear transformation, a fundamental structural result in the theory of a single linear transformation over a general field."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

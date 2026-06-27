@@ -1,0 +1,23 @@
+id: bounded-regular-function-constant-if-maximum-attained
+title_en: "Bounded Regular Function is Constant if Maximum Attained on Transient Set"
+title_zh: ""
+type: corollary
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [maximum-principle, regular-function, absorbing-chain, dirichlet-problem]
+depends_on:
+  required: [maximum-principle-markov-potential-theory, dirichlet-problem-denumerable-markov-chains]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "8"
+    section: "4"
+    pages: "220-225"
+    role_in_book: "Corollary to Theorem 8-42; bounded regular functions cannot attain maximum off the boundary"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

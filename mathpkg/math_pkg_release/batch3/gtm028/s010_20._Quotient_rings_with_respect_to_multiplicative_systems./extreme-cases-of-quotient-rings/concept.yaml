@@ -1,0 +1,23 @@
+id: extreme-cases-of-quotient-rings
+title_en: "Extreme Cases of Quotient Rings"
+title_zh: "商环的极端情形"
+type: proposition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: [localization, quotient-ring, units, total-quotient-ring]
+depends_on:
+  required: [quotient-ring-with-respect-to-multiplicative-system, multiplicative-system]
+  recommended: [unit, regular-element]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Volume I"
+    chapter: "I"
+    section: "20. Quotient rings with respect to multiplicative systems"
+    pages: "58-60"
+    role_in_book: "Illustrates the two boundary cases of the quotient ring construction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

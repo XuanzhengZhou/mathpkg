@@ -1,0 +1,23 @@
+id: path-lifting-in-covering-space
+title_en: "Path Lifting Property in a Covering Space"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: covering-spaces
+difficulty: intermediate
+tags: [covering-space, path-lifting, unique-lifting]
+depends_on:
+  required: [covering-space, lifting-of-continuous-function-from-square]
+  recommended: [lifting-of-path]
+  suggested: [monodromy-theorem, homotopy-lifting]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "7"
+    section: "7.5"
+    pages: ""
+    role_in_book: "Establishes that every path in the base space lifts uniquely to the covering space given a prescribed starting point, a key consequence of Theorem 7.4."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

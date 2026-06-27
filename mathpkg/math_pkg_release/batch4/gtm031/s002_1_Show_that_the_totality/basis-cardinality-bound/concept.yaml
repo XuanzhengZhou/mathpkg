@@ -1,0 +1,23 @@
+id: basis-cardinality-bound
+title_en: "Theorem 2: Cardinality Bound from a Basis"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [basis, linear-dependence, dimensionality, vector-space]
+depends_on:
+  required: [linear-independence, replacement-lemma, basis-of-free-module]
+  recommended: [linear-dependence-extension-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "1"
+    section: "2"
+    pages: ""
+    role_in_book: "Fundamental theorem: in a space with an n-element basis, any n+1 vectors are dependent. The key step toward dimensionality invariance."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

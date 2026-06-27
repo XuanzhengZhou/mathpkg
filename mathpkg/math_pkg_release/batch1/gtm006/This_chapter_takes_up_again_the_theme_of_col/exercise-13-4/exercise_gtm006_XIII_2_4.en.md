@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "XIII"
+section: "2"
+exercise_number: 4
+---
+
+Let $\mathcal{P}$ be a finite projective plane with a collineation group $\Pi$. Show that $\Pi$ is doubly transitive on the points of $\mathcal{P}$ if and only if $\Pi$ is transitive on the flags of $\mathcal{P}$ and on the anti-flags of $\mathcal{P}$. (Recall that a flag is an incident point-line pair while an anti-flag is a non-incident point-line pair.)

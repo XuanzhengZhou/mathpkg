@@ -1,0 +1,23 @@
+id: locally-convex-algebra
+title_en: "Locally Convex Algebra"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: topological-algebras
+difficulty: intermediate
+tags: [algebra, locally-convex-space, separately-continuous-multiplication, topological-algebra]
+depends_on:
+  required: [algebra-over-field, locally-convex-space, separately-continuous]
+  recommended: []
+  suggested: [normed-algebra, banach-algebra, locally-m-convex-algebra]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "Appendix 2"
+    section: "Topological Algebras"
+    pages: "215"
+    role_in_book: "Definition of a locally convex algebra as an algebra whose underlying space is locally convex with separately continuous multiplication"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

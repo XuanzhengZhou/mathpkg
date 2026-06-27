@@ -1,0 +1,23 @@
+id: galois-group-maximal-p-extension
+title_en: "Galois Group of Maximal p-Extension over Hilbert Class Field"
+title_zh: "极大p-扩张在Hilbert类域上的伽罗瓦群"
+type: theorem
+domain: number-theory
+subdomain: class-field-theory
+difficulty: advanced
+tags: [class-field-theory, hilbert-class-field, p-extension, galois-group, unit-group, leopoldt-conjecture]
+depends_on:
+  required: [maximal-p-abelian-unramified-extension, unit-group-idele-lemma]
+  recommended: [idele-class-group, galois-cohomology]
+  suggested: [leopoldt-conjecture]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "Iwasawa Theory and Ideal Class Groups"
+    pages: ""
+    role_in_book: "Describes the Galois group of M(K) over the p-Hilbert class field H as a quotient of the p-adic completion of the unit group."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

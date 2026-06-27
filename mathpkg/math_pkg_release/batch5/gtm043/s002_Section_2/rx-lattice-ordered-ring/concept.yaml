@@ -1,0 +1,23 @@
+id: rx-lattice-ordered-ring
+title_en: "R^X is a lattice-ordered ring"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: rings-of-functions
+difficulty: basic
+tags: [lattice-ordered-ring, rx, vector-lattice, riesz-space]
+depends_on:
+  required: [rx-partially-ordered-ring, join-operation-rx, meet-operation-rx]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.2"
+    pages: ""
+    role_in_book: "Establishes the full lattice structure of the function ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

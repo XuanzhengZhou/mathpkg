@@ -1,0 +1,23 @@
+id: infinitesimal-extension
+title_en: "Infinitesimal Extension of a Scheme by a Coherent Sheaf"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [infinitesimal-deformation, extension, coherent-sheaf, square-zero-ideal]
+depends_on:
+  required: [scheme, coherent-sheaf]
+  recommended: [infinitesimal-lifting-property]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "206-212"
+    role_in_book: "Exercise 8.7 — introduces the notion of infinitesimal extension; trivial for affine nonsingular $X$"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

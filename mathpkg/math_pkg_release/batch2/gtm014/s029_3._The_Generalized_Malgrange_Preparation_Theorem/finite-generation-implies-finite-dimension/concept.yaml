@@ -1,0 +1,23 @@
+id: finite-generation-implies-finite-dimension
+title_en: "Finite Generation Implies Finite Dimensional Fiber"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: [finitely-generated-module, local-ring, residue-field, vector-space, malgrange-preparation]
+depends_on:
+  required: [germ-of-smooth-function, smooth-germs-form-local-ring]
+  recommended: [finitely-generated-module, vector-space-dimension]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "3. The Generalized Malgrange Preparation Theorem"
+    pages: ""
+    role_in_book: "The easy direction of the Generalized Malgrange Preparation Theorem; shows finite dimensionality of the fiber is necessary"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

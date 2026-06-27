@@ -1,0 +1,23 @@
+id: positive-part
+title_en: "Positive Part of a Vector Lattice Element"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [positive-part, vector-lattice, join, positive-cone]
+depends_on:
+  required: [vector-lattice, join-in-vector-lattice]
+  recommended: [positive-cone, negative-part]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "23.1"
+    pages: ""
+    role_in_book: "Defines x^+ = x ∨ 0, the positive part of an element in a vector lattice"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

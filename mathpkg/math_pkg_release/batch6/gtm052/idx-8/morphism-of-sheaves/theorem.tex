@@ -1,0 +1,13 @@
+If $\mathcal{F}$ and $\mathcal{G}$ are presheaves on $X$, a \text{morphism} $\varphi: \mathcal{F} \rightarrow \mathcal{G}$ consists of a morphism of abelian groups $\varphi(U): \mathcal{F}(U) \rightarrow \mathcal{G}(U)$ for each open set $U$, such that for every inclusion $V \subseteq U$ the diagram
+
+\[
+\begin{CD}
+\mathcal{F}(U) @>{\varphi(U)}>> \mathcal{G}(U)\\
+@V{\rho_{UV}}VV @VV{\rho'_{UV}}V\\
+\mathcal{F}(V) @>{\varphi(V)}>> \mathcal{G}(V)
+\end{CD}
+\]
+
+is commutative, where $\rho$ and $\rho'$ are the restriction maps in $\mathcal{F}$ and $\mathcal{G}$. If $\mathcal{F}$ and $\mathcal{G}$ are sheaves, we use the same definition. An \text{isomorphism} is a morphism which has a two-sided inverse.
+
+A morphism $\varphi: \mathcal{F} \rightarrow \mathcal{G}$ induces a morphism $\varphi_P: \mathcal{F}_P \rightarrow \mathcal{G}_P$ on the stalks for any point $P \in X$.

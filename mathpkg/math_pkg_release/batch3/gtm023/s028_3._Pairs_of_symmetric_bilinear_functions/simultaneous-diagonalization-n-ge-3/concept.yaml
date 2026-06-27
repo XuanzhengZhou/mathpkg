@@ -1,0 +1,23 @@
+id: simultaneous-diagonalization-n-ge-3
+title_en: "Simultaneous diagonalization of two symmetric bilinear functions in dimension at least three"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [symmetric-bilinear-form, simultaneous-diagonalization, line-integral, simple-connectivity]
+depends_on:
+  required: [path-independence-of-integral-J, homogeneity-of-functional-F, construction-of-minimizing-eigenvector]
+  recommended: [simultaneous-diagonalization-nondegenerate-case]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "3. Pairs of symmetric bilinear functions"
+    pages: ""
+    role_in_book: "Main theorem of the section - general simultaneous diagonalization for dimension at least 3"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

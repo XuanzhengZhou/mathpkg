@@ -1,0 +1,23 @@
+id: composition-formula-internal-category-grp
+title_en: "Composition Formula for Internal Category in Grp"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [internal-category, group-object, composition, middle-four-exchange]
+depends_on:
+  required: []
+  recommended: [internal-category-in-grp]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XII"
+    section: "8"
+    pages: ""
+    role_in_book: "Derivation showing that categorical composition in an internal category in Grp is determined by group multiplication, yielding formula g∘f = f 1_b^{-1} g"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

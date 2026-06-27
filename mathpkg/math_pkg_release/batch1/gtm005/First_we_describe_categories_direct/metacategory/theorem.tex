@@ -1,0 +1,18 @@
+A \emph{metacategory} is a metagraph with two additional operations:
+
+\begin{itemize}
+\item \textbf{Identity}, which assigns to each object $a$ an arrow $\operatorname{id}_a = 1_a: a \to a$;
+\item \textbf{Composition}, which assigns to each pair $\langle g, f \rangle$ of arrows with $\operatorname{dom} g = \operatorname{cod} f$ an arrow $g \circ f$, called their \emph{composite}, with $g \circ f: \operatorname{dom} f \to \operatorname{cod} g$.
+\end{itemize}
+
+These operations are subject to the following two axioms:
+
+\begin{description}
+\item[Associativity.] For objects and arrows in the configuration
+$$a \xrightarrow{f} b \xrightarrow{g} c \xrightarrow{k} d$$
+one always has
+$$k \circ (g \circ f) = (k \circ g) \circ f.$$
+
+\item[Unit law.] For all arrows $f: a \to b$ and $g: b \to c$, composition with the identity arrow $1_b$ gives
+$$1_b \circ f = f \quad \text{and} \quad g \circ 1_b = g.$$
+\end{description}

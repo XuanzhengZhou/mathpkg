@@ -1,0 +1,23 @@
+id: exercise-gtm030-3-2
+title_en: "Non-modularity of the Subgroup Lattice of A_4"
+title_zh: ""
+type: exercise
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [alternating-group, subgroup, lattice, modular, non-modular]
+depends_on:
+  required: [modular-lattice-definition, invariant-subgroup-lattice-modularity]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "3"
+    pages: ""
+    role_in_book: "Exercise demonstrating that while the lattice of invariant subgroups is modular, the lattice of all subgroups may fail to be modular."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

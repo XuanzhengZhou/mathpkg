@@ -1,0 +1,13 @@
+id: rth-compound-matrix
+title_en: "The r-th Compound of a Matrix"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: multilinear-algebra
+difficulty: intermediate
+tags: [matrix, compound-matrix, minor, skew-symmetric, lexicographic-basis]
+depends_on: {required: [], recommended: [], suggested: []}
+source_books: [{book_id: "gtm031", author: "Nathan Jacobson", title: "Lectures in Abstract Algebra II. Linear Algebra", chapter: "VII", section: "7. Symmetry classes of tensors", pages: "228-232", role_in_book: "Defines the r-th compound matrix C_r(alpha) as the matrix of the induced transformation on skew-symmetric tensors"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

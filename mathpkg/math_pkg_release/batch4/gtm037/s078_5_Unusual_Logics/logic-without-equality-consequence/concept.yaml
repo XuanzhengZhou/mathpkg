@@ -1,0 +1,23 @@
+id: logic-without-equality-consequence
+title_en: "Logical Consequence in Logic without Equality"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [logic-without-equality, logical-consequence, equality-axioms]
+depends_on:
+  required: [first-order-logic, logical-consequence]
+  recommended: [equality-axioms, congruence-relation]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "29"
+    section: "Unusual Logics"
+    pages: ""
+    role_in_book: "Proposition 29.10: reduction of consequence in logic with equality to logic without"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

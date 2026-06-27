@@ -1,0 +1,23 @@
+id: bidual-isomorphism
+title_en: "Bidual Isomorphism of a Finite Abelian Group"
+title_zh: "有限阿贝尔群的双对偶同构"
+type: proposition
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [bidual, double-dual, isomorphism, finite-abelian-group, reflexivity]
+depends_on:
+  required: [dual-group-of-finite-abelian-group, order-of-dual-group]
+  recommended: [character-of-finite-abelian-group]
+  suggested: [pontryagin-duality]
+source_books:
+  - book_id: gtm007
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VI"
+    section: "§1.1"
+    pages: ""
+    role_in_book: "Shows G is canonically isomorphic to its double dual, enabling orthogonality relations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

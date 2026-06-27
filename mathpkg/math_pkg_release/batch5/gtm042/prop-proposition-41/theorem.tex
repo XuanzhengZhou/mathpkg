@@ -1,0 +1,9 @@
+(a) Every module $M$ has a projective envelope which is unique up to isomorphism.
+
+(b) If $P_i$ is the projective envelope of $M_i$ ($i = 1, \ldots, n$), the direct sum of the $P_i$'s is a projective envelope for the direct sum of the $M_i$'s.
+
+(c) If $P$ is a projective module, and if $E$ is its largest semisimple quotient module, then $P$ is a projective envelope for $E$.
+
+We prove (a). Write $M$ in the form $L/R$, where $L$ is projective and $R$ is a submodule of $L$ (we can take $L$ free, for example). For $N \subset R$, let $f_N$ be the canonical homomorphism of $L/N$ onto $M = L/R$. Now let $N$ be minimal in $R$ such that $f_N$ is essential; such a submodule exists, since $f_R$ is essential, and $k[G]$ is artinian. Put $P = L/N$, and let $Q$ be a submodule of $L$ minimal among those whose projection $Q \rightarrow P$ is surjective. Since $L$ is projective, the projection $p$: $L \rightarrow P = L/N$ lifts to $q$: $L \rightarrow Q$, and the minimality of $Q$ shows that $q(L) = Q$. Let $N'$ be the kernel of $q$. The projection $f_N'$: $L/N' \rightarrow L/R$ factors into $L/N' = Q \rightarrow L/N \rightarrow L/R$ and the two factors are essential. Since $N'$ is contained in $N$, the minimality of $N$ implies that $N' = N$, i.e., that $Q \rightarrow P$ is an isomorphism. The module $L$ is thus a direct sum $L = N \oplus Q$, which shows that $P = L/N$ is projective. It is then clear that $P \rightarrow M$ is a projective envelope of $M$.
+
+Let $P' \rightarrow M$ be another projective envelope of $M

@@ -1,0 +1,10 @@
+Let $E$ be a finite-dimensional real vector space, and let $\Phi$ and $\Psi$ be symmetric bilinear functions on $E$ with $\Psi \neq 0$. Fix an auxiliary positive definite inner product $\langle\cdot,\cdot\rangle$ on $E$ and define linear transformations $\varphi, \psi: E \to E$ by
+$$\Phi(x, y) = \langle \varphi x, y \rangle, \quad \Psi(x, y) = \langle \psi x, y \rangle.$$
+Let $r = \operatorname{rank}(\psi) \geq 1$, and let $\{x_1, \ldots, x_n\}$ be a basis of $E$ such that $\{x_{r+1}, \ldots, x_n\}$ is a basis of $\ker \psi$. Define the polynomial
+$$f(\lambda) = \Delta(\varphi x_1 + \lambda \psi x_1, \ldots, \varphi x_n + \lambda \psi x_n),$$
+where $\Delta$ is a non-zero determinant function on $E$. Then:
+\begin{enumerate}
+\item $f(\lambda)$ is a polynomial of degree $r$ whose leading coefficient is
+$$\Delta(\psi x_1, \ldots, \psi x_r, \varphi x_{r+1}, \ldots, \varphi x_n) \neq 0.$$
+\item There exists $\lambda_0 \in \mathbb{R}$ such that $f(\lambda_0) \neq 0$, and consequently the bilinear function $\Phi + \lambda_0 \Psi$ is non-degenerate.
+\end{enumerate}

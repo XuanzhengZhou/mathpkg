@@ -1,0 +1,23 @@
+id: generating-set
+title_en: "Set of Generators of a Vector Space"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [generating-set, vector-space, linear-combination, span]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "Defines a generating set (set of generators) of a vector space over a division ring as a subset such that every vector is a finite linear combination of its elements."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: block-multiplication-matrices
+title_en: "Block Multiplication of Matrices"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: infinite-matrices
+difficulty: intermediate
+tags: [matrix, block-multiplication, partitioning]
+depends_on:
+  required: [matrix-multiplication-definition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "J.G. Kemeny, J.L. Snell, A.W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "1"
+    section: "1"
+    pages: "5"
+    role_in_book: "Justifies block decomposition of matrix products"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

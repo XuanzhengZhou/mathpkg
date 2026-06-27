@@ -1,0 +1,23 @@
+id: precession-of-ellipsoid-of-revolution
+title_en: "Precession of an Ellipsoid of Revolution"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [rigid-body, precession, ellipsoid-of-revolution, euler-equations, force-free-top]
+depends_on:
+  required: []
+  recommended: [eulers-equations, inertia-ellipsoid, angular-momentum, poinsots-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "6"
+    section: "29"
+    pages: "161-162"
+    role_in_book: "Describes the geometric properties of precession when the inertia ellipsoid is an ellipsoid of revolution (I2 = I3 ≠ I1)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

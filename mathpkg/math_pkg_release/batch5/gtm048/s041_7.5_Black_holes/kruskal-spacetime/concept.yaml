@@ -1,0 +1,23 @@
+id: kruskal-spacetime
+title_en: "Kruskal Spacetime"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: advanced
+tags: [general-relativity, black-hole, schwarzschild, maximal-extension, vacuum-spacetime]
+depends_on:
+  required: [schwarzschild-spacetime, normal-schwarzschild-spacetime]
+  recommended: []
+  suggested: [schwarzschild-black-hole, event-horizon]
+source_books:
+  - book_id: gtm048
+    author: "R.K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "7"
+    section: "7.5"
+    pages: ""
+    role_in_book: "Core definition of Kruskal maximal extension of Schwarzschild"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

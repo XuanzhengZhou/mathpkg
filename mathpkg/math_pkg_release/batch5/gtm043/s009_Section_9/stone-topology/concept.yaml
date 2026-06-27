@@ -1,0 +1,23 @@
+id: stone-topology
+title_en: "Stone Topology on the Set of Maximal Ideals"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [stone-topology, maximal-ideals, structure-space, hull-kernel-topology, C(X)]
+depends_on:
+  required: [maximal-ideal, C(X)]
+  recommended: [fixed-maximal-ideals-in-cx]
+  suggested: [zariski-topology]
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4.9"
+    pages: ""
+    role_in_book: "Defines the Stone topology on the set of all maximal ideals of C(X), making it homeomorphic to X for compact X."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

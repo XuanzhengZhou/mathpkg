@@ -1,0 +1,23 @@
+id: nakayamas-lemma
+title_en: "Nakayama's Lemma"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [nakayama-lemma, jacobson-radical, finitely-generated-module, superfluous-submodule]
+depends_on:
+  required: [jacobson-radical]
+  recommended: [finitely-generated-module, maximal-submodule, superfluous-submodule]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "9"
+    section: "15"
+    pages: ""
+    role_in_book: "Corollary 15.13 (Nakayama's Lemma)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

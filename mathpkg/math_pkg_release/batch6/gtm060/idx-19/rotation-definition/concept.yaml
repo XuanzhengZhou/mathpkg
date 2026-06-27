@@ -1,0 +1,13 @@
+id: rotation-definition
+title_en: "Rotation"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: rigid-body-kinematics
+difficulty: basic
+tags: [rotation, linear-operator, orthogonal-transformation]
+depends_on: {required:[motion-definition], recommended:[], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"6",section:"26",pages:"",role_in_book:"Defines a rotation as a motion that fixes the origin, i.e., a motion that is a linear operator."}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

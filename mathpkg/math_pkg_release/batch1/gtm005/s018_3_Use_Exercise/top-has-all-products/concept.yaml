@@ -1,0 +1,23 @@
+id: top-has-all-products
+title_en: "Top has All Products via Adjoint Functor Construction"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: category-theory
+difficulty: intermediate
+tags: [products, adjoint-functor, forgetful-functor, limit]
+depends_on:
+  required: [weakest-topology-left-adjoint, top-category]
+  recommended: [product-category]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IV. Adjoints"
+    section: "9. Adjoints in Topology"
+    pages: ""
+    role_in_book: "Exercise 9.3(c): conclude Top has all products"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

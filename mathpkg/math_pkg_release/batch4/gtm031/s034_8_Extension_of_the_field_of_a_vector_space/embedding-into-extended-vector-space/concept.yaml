@@ -1,0 +1,23 @@
+id: embedding-into-extended-vector-space
+title_en: "Embedding into the Extended Vector Space"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [field-extension, vector-space, embedding, subspace]
+depends_on:
+  required: [extension-of-vector-space-base-field]
+  recommended: [vector-space, linear-transformation]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "VII"
+    section: "8"
+    pages: "234"
+    role_in_book: "Shows the original vector space embeds as a subspace of its extension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

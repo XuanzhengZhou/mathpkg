@@ -1,0 +1,23 @@
+id: null-object
+title_en: "Null Object (Zero Object)"
+title_zh: "零对象"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category-theory, null-object, zero-object, initial-object, terminal-object]
+depends_on:
+  required: [initial-object, terminal-object]
+  recommended: []
+  suggested: [zero-arrow]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I. Categories, Functors, and Natural Transformations"
+    section: "5. Monics, Epis, and Zeros"
+    pages: ""
+    role_in_book: "Definition of null (zero) object"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

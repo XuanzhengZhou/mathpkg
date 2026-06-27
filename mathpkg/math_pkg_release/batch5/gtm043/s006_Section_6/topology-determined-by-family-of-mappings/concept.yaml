@@ -1,0 +1,23 @@
+id: topology-determined-by-family-of-mappings
+title_en: "Topology Determined by a Family of Mappings"
+title_zh: "由映射族决定的拓扑"
+type: definition
+domain: topology
+subdomain: weak-topology
+difficulty: intermediate
+tags: [weak-topology, initial-topology, determining-family, mapping]
+depends_on:
+  required: [weak-topology-generated-by-family]
+  recommended: [product-topology]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.10"
+    pages: ""
+    role_in_book: "General definition of weak topology induced by mappings into possibly different spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

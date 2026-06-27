@@ -1,0 +1,23 @@
+id: cyclic-space-characteristic-polynomial
+title_en: "Characteristic Polynomial of a Cyclic Space"
+title_zh: "循环空间的特征多项式"
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [cyclic-space, characteristic-polynomial, minimum-polynomial]
+  recommended: [determinant-function, generator]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "5"
+    pages: ""
+    role_in_book: "For a cyclic space, the characteristic polynomial equals (-1)^m times the minimum polynomial"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

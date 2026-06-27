@@ -1,0 +1,25 @@
+id: artin-braid-group
+title_en: "Artin Braid Group B_n"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: braid-groups
+difficulty: intermediate
+tags: [braid-group, group-presentation, artin, geometric-group-theory]
+depends_on:
+  required: []
+  recommended: [group-presentation, symmetric-group, free-group]
+  suggested: [fundamental-group, configuration-space]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    edition: "2nd"
+    year: 1998
+    chapter: "XI"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines Artin braid groups as part of the construction of the braid category for braided monoidal categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: primitive-pythagorean-triple-parametrization
+title_en: "Primitive Pythagorean Triple Parametrization"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-equations
+difficulty: basic
+tags: [pythagorean-triple, primitive, parametrization, euclids-formula]
+depends_on:
+  required: []
+  recommended: [gcd, parity, pythagorean-triple-definition]
+  suggested: [pell-equation]
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "1"
+    section: "1.3"
+    pages: "page_0022–page_0024"
+    role_in_book: "Complete characterization of primitive Pythagorean triples via integer parameters"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

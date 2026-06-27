@@ -1,0 +1,23 @@
+id: sylvesters-law-of-inertia
+title_en: "Sylvester's Law of Inertia for Real Symmetric Matrices"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: bilinear-forms
+difficulty: intermediate
+tags: [sylvesters-law, inertia, signature, real-symmetric-matrix, quadratic-form, positive-definite, negative-definite]
+depends_on:
+  required: [diagonalization-of-hermitian-scalar-products]
+  recommended: [symmetric-bilinear-form, cogredience, positive-definite, signature]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "5"
+    section: "8"
+    pages: "163-169"
+    role_in_book: "Theorem 5 (Sylvester) — the number of positive diagonal entries is an invariant of the cogredience class over the real numbers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

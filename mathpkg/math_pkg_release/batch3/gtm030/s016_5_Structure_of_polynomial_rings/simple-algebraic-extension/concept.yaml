@@ -1,0 +1,23 @@
+id: simple-algebraic-extension
+title_en: "Simple Algebraic Extension of a Field (Kronecker's Construction)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: field-theory
+difficulty: intermediate
+tags: [field-extension, algebraic-extension, quotient-ring, irreducible-polynomial, Kronecker]
+depends_on:
+  required: [irreducible-polynomial, polynomial-ring-modulo-principal-ideal]
+  recommended: [field, principal-ideal, quotient-ring]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "5"
+    pages: ""
+    role_in_book: "Kronecker's construction of simple algebraic extensions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

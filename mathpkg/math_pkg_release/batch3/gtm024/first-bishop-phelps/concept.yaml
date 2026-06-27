@@ -1,0 +1,23 @@
+id: first-bishop-phelps
+title_en: "First Bishop-Phelps Theorem: Density of Support Points"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: ["bishop-phelps", "support-points", "density", "banach-space"]
+depends_on:
+  required: ["support-theorem", "hahn-banach-theorem"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§20"
+  section: "20.A-B"
+  pages: "164-166"
+  role_in_book: "density of support points in Banach spaces"
+content_hash: "818425b89d8baf58"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

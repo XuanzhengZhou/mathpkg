@@ -1,0 +1,18 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $E$ be a measurable set, and suppose $\{f_n\}$ is a sequence of measurable functions such that
+
+$$0 \leq f_1 \leq f_2 \leq \cdots$$
+
+and
+
+$$f(x) = \lim_{n \to \infty} f_n(x).$$
+
+Then
+
+$$\int_E f d\mu = \lim_{n \to \infty} \int_E f_n d\mu.$$

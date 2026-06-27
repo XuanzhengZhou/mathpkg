@@ -1,0 +1,23 @@
+id: complement-component-is-simply-connected
+title_en: "Component Outside a Closed Set Is Simply Connected"
+title_zh: "闭集外侧分支是单连通的"
+type: lemma
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [simply-connected, components, complement, topology, extended-complex-plane]
+depends_on:
+  required: [simply-connected-region, component, connected-set]
+  recommended: [riemann-sphere]
+  suggested: [covering-spaces]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "X"
+    section: "4"
+    pages: ""
+    role_in_book: "Topological lemma used to prove barrier existence for regions with nontrivial complement components"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

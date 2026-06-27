@@ -1,0 +1,23 @@
+id: integrality-of-center-elements
+title_en: "Integrality of Center Elements with Algebraic Integer Coefficients"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [algebraic-integer, center-of-group-algebra, conjugacy-class, integral-element]
+depends_on:
+  required: [algebraic-integer, center-of-group-algebra, integral-over-z-equivalent-properties]
+  recommended: [conjugacy-class, finitely-generated-module]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "6"
+    section: "6.5"
+    pages: ""
+    role_in_book: "Proposition 16: An element of Cent. C[G] whose coefficients are algebraic integers is integral over Z"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

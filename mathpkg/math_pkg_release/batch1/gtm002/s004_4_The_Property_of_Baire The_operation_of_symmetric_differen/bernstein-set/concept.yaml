@@ -1,0 +1,23 @@
+id: bernstein-set
+title_en: "Bernstein set"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: descriptive-set-theory
+difficulty: advanced
+tags: [bernstein-set, non-measurable, property-of-baire, axiom-of-choice, transfinite-induction]
+depends_on:
+  required: [uncountable-closed-set, transfinite-induction, well-ordering]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "5"
+    section: "Non-Measurable Sets"
+    pages: ""
+    role_in_book: "Construction of a set that is simultaneously non-measurable and lacks the property of Baire"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

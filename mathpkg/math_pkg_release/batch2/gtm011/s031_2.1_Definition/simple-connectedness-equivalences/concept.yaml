@@ -1,0 +1,23 @@
+id: simple-connectedness-equivalences
+title_en: "Equivalent characterizations of simple connectedness"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [simple-connectedness, winding-number, polynomial-approximation, harmonic-conjugate, analytic-logarithm, homeomorphism, runge-theorem, homology]
+depends_on:
+  required: [homeomorphism, winding-number, analytic-function, harmonic-function]
+  recommended: [cauchy-theorem, runge-theorem, cauchy-integral-formula]
+  suggested: [harmonic-conjugate, analytic-logarithm, homology]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VIII"
+    section: "2.2"
+    pages: ""
+    role_in_book: "Central theorem establishing equivalence of topological, analytical, and function-theoretic characterizations of simple connectedness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

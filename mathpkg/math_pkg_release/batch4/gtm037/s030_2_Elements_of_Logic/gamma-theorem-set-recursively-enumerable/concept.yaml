@@ -1,0 +1,23 @@
+id: gamma-theorem-set-recursively-enumerable
+title_en: "Recursive Enumerability of Theorems from R.E. Hypotheses (Theorem 10.29)"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: first-order-logic
+difficulty: intermediate
+tags: [theorem-set, recursively-enumerable, formal-provability, godel-numbering, axiomatizability]
+depends_on:
+  required: []
+  recommended: [gamma-proof-set-recursively-enumerable, formal-deduction-characterization]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.2"
+    pages: ""
+    role_in_book: "One of the most important results of elementary logic: the set of provable formulas from an r.e. axiom set is itself r.e."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

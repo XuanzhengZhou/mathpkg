@@ -1,0 +1,23 @@
+id: decomposition-into-cyclic-subspaces
+title_en: "Decomposition into Cyclic Subspaces"
+title_zh: "分解为循环子空间的直和"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [cyclic-subspace, minimum-polynomial-degree-bounded-by-dimension]
+  recommended: [direct-sum, stable-subspace, induction]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Every vector space decomposes as a direct sum of cyclic subspaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

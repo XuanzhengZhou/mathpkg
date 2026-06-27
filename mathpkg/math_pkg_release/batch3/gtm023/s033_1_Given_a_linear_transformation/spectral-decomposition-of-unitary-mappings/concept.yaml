@@ -1,0 +1,23 @@
+id: spectral-decomposition-of-unitary-mappings
+title_en: "Spectral Decomposition of Unitary Mappings"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [unitary-mapping, spectral-theorem, orthonormal-basis, eigenvalue, normal-operator]
+depends_on:
+  required: [unitary-mapping, normal-operator, spectral-theorem-for-normal-operators, eigenvalues-of-unitary-mapping-have-norm-one]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "3"
+    pages: "353"
+    role_in_book: "Spectral theorem for unitary operators on finite-dimensional unitary spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

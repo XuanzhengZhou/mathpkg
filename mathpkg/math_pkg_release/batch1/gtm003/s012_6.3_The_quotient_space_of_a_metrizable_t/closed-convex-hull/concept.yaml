@@ -1,0 +1,23 @@
+id: closed-convex-hull
+title_en: "Closed Convex Hull and Closed Convex Circled Hull"
+title_zh: "闭凸包与闭凸圆包"
+type: definition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [closed-convex-hull, convex-closure, closed-convex-circled-hull]
+depends_on:
+  required: []
+  recommended: [convex-hull, convex-circled-hull, closure]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines closed hulls combining convexity and closedness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

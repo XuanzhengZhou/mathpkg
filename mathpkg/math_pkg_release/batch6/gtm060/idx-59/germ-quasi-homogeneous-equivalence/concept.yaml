@@ -1,0 +1,23 @@
+id: germ-quasi-homogeneous-equivalence
+title_en: "Normal Form Theorem for Germs of Quasi-Homogeneous Differential Forms"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [quasi-homogeneous, normal-form, differential-form, germ-equivalence, newton-diagram]
+depends_on:
+  required: [power-of-volume-form, simple-singularity-hypersurface-ade]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "E. The Quasi-Homogeneous Case"
+    pages: "469-479"
+    role_in_book: "States that every germ f^β h dx with quasi-homogeneous f can be reduced to a polynomial normal form"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

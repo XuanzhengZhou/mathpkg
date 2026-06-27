@@ -1,0 +1,23 @@
+id: dimension-of-invariants-by-modular-character
+title_en: "Dimension of Invariant Subspace via Modular Character"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: intermediate
+tags: ["modular-character", "invariants", "fixed-points", "inner-product"]
+depends_on:
+  required: ["modular-character", "projective-modular-character"]
+  recommended: ["group-algebra", "invariant-subspace"]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "18"
+    section: "18.1"
+    pages: ""
+    role_in_book: "Property (ix); gives a formula for the dimension of the invariant subspace of a projective module using the inner product with the trivial character."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

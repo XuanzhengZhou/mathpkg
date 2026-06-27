@@ -1,0 +1,13 @@
+id: semialgebraic-set
+title_en: "Semialgebraic set"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [semialgebraic-set, real-closed-field, tarski-seidenberg, quantifier-free-definable, real-algebraic-geometry]
+depends_on: {required: [tarski-seidenberg-rcf], recommended: [real-closed-field, quantifier-elimination], suggested: [o-minimality]}
+source_books: [{book_id: "gtm053", author: "Yuri I. Manin", title: "A Course in Mathematical Logic for Mathematicians", chapter: "4", section: "4.7-4.8", pages: "", role_in_book: "Defines semialgebraic sets as quantifier-free definable sets in a real closed field; by Tarski-Seidenberg, these are exactly the definable sets"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

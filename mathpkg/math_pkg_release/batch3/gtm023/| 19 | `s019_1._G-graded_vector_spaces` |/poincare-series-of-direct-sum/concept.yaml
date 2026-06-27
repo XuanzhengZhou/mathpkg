@@ -1,0 +1,23 @@
+id: poincare-series-of-direct-sum
+title_en: "Poincaré series of the direct sum"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [poincare-series, direct-sum, additivity]
+depends_on:
+  required: [almost-finite-gradation-and-poincare-series, g-gradation-on-direct-sum-of-family]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VI"
+    section: "§1. G-graded vector spaces"
+    pages: "186"
+    role_in_book: "Proposition; additivity of Poincaré series"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

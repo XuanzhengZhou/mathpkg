@@ -1,0 +1,9 @@
+A \textbf{Turing machine} with (finite) alphabet $\mathfrak{S}$ and (finite) set $\mathfrak{Q}$ of internal states is a subset $M$ of $\mathfrak{Q} \times \mathfrak{S} \times (\mathfrak{S} \cup \{L, R\}) \times \mathfrak{Q}$ such that for each pair $(q_i, s_j) \in \mathfrak{Q} \times \mathfrak{S}$, there is at most one quadruple in $M$ whose first two components are $q_i$ and $s_j$.
+
+The elements of $M$ are called \textit{quadruples} and specify the machine's responses:
+\begin{itemize}
+\item $(q_i, s_j, s_t, q_r)$: replace $s_j$ by $s_t$ and change state to $q_r$;
+\item $(q_i, s_j, R, q_r)$: move one square right and change state to $q_r$;
+\item $(q_i, s_j, L, q_r)$: move one square left and change state to $q_r$.
+\end{itemize}
+If no quadruple begins with $(q_i, s_j)$, the machine stops.

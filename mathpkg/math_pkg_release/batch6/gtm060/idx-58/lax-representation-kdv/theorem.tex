@@ -1,0 +1,11 @@
+**Lax's Theorem.** The Korteweg–de Vries equation $u_t = 6uu_x - u_{xxx}$ can be represented in the **Lax form**
+
+$$\frac{dL}{dt} = [A, L] = AL - LA,$$
+
+where $L$ and $A$ are differential operators acting on functions of $x$. Specifically:
+
+$$L = -\frac{d^2}{dx^2} + u(x, t)$$
+
+is the Sturm–Liouville (Schrödinger) operator with potential $u$, and $A$ is a suitable skew-symmetric differential operator (of third order) whose commutator with $L$ yields the KdV flow.
+
+The Lax representation implies that the spectrum of $L$ is invariant under the KdV flow (isospectral deformation). Equivalently, the operators $L(t)$ constructed from a solution $u(x, t)$ are unitarily equivalent for all $t$.

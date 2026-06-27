@@ -1,0 +1,23 @@
+If the minimum polynomial of $f$ factors into linear factors over $F$ as
+$$m(X) = (X - x_1)^{s_1} \cdots (X - x_t)^{s_t},$$
+then $V$ has an ordered basis with respect to which $f$ has matrix
+$$\begin{pmatrix}
+A_1 & \cdots & 0 \\
+\vdots & \ddots & \vdots \\
+0 & \cdots & A_t
+\end{pmatrix}$$
+where, for each $i$, $A_i$ is a block diagonal matrix
+$$\begin{pmatrix}
+C_{i1} & \cdots & 0 \\
+\vdots & \ddots & \vdots \\
+0 & \cdots & C_{ik_i}
+\end{pmatrix}$$
+and $C_{ij}$ is the $n_{ij} \times n_{ij}$ Jordan block
+$$\begin{pmatrix}
+x_i & 1 & & & 0 \\
+& x_i & 1 & & \\
+& & \ddots & \ddots & \\
+& & & x_i & 1 \\
+0 & & & & x_i
+\end{pmatrix}.$$
+The $n_{ij}$ are the exponents appearing in the elementary divisors $(X - x_i)^{n_{ij}}$ of $f$.

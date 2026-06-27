@@ -1,0 +1,23 @@
+id: interval-countable-subadditivity
+title_en: "Countable Subadditivity for Intervals (Theorem C)"
+title_zh: "区间的可数次可加性（定理C）"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [measure-theory, intervals, countable-subadditivity]
+depends_on:
+  required: [interval-length-function, interval-subadditivity-open-cover]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "II"
+    section: "8"
+    pages: ""
+    role_in_book: "Countable subadditivity for intervals; key step toward countable additivity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

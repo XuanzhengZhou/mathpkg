@@ -1,0 +1,3 @@
+Given two parallel arrows $f, g: a \to b$ in a category $C$, a \textbf{coequalizer} of $f$ and $g$ is an arrow $u: b \to e$ such that (i) $u \circ f = u \circ g$, and (ii) for any arrow $h: b \to c$ with $h \circ f = h \circ g$, there is a unique arrow $h': e \to c$ with $h = h' \circ u$.
+    
+Equivalently, the coequalizer is a universal arrow from the pair $\langle f, g \rangle$ (regarded as an object in $C^{\cdot \rightrightarrows \cdot}$) to the diagonal functor $\Delta: C \to C^{\cdot \rightrightarrows \cdot}$ where $\Delta c = \langle 1_c, 1_c \rangle$.

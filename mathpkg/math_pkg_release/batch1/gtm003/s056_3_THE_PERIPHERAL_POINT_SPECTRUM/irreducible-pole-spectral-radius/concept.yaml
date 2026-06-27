@@ -1,0 +1,23 @@
+id: irreducible-pole-spectral-radius
+title_en: "Spectral Properties of Irreducible Endomorphisms with Pole at Spectral Radius"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [irreducible-operators, spectral-radius, pole-of-resolvent, positive-eigenvectors, banach-lattices, quasi-interior-points]
+depends_on:
+  required: [irreducible-endomorphism, spectral-radius, pole-of-resolvent, quasi-interior-point, strictly-positive-linear-form]
+  recommended: [ordered-banach-space, positive-cone, multiplicity-of-pole]
+  suggested: [banach-lattice]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer, with M. P. Wolff"
+    title: "Topological Vector Spaces, Second Edition"
+    chapter: "Appendix D"
+    section: "3. The Peripheral Point Spectrum"
+    pages: ""
+    role_in_book: "Theorem 3.2 — spectral properties when r(u) is a pole of the resolvent"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

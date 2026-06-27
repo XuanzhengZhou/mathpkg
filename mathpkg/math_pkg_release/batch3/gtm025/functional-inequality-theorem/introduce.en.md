@@ -1,0 +1,1 @@
+Nonnegative linear functionals are real-valued on real-valued functions and preserve order. The inequality $|I(f)| \leq I(|f|)$ is fundamental and follows from decomposing $f$ into positive and negative parts.

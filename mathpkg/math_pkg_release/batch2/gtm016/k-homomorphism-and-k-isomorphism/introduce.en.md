@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $K_1$ and $K_2$ are extension fields of $k$, a $k$-homomorphism (resp. $k$-isomorphism) from $K_1$ to $K_2$ is a homomorphism (resp. isomorphism) from $K_1$ to $K_2$ which is $k$-linear.

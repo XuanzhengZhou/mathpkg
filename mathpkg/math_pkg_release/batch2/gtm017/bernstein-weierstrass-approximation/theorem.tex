@@ -1,0 +1,7 @@
+Let $f(x)$, $0 \leq x \leq 1$, be a continuous function. The \text{Bernstein polynomial} of degree $n$ corresponding to $f$ is
+$$p_n(x) = \sum_{k=0}^{n} f(k/n) \binom{n}{k} x^k (1-x)^{n-k} = E[f(Y/n)],$$
+where $Y$ is a binomial random variable with parameters $n$ and $x$. Then $p_n(x) \to f(x)$ uniformly on $[0,1]$ as $n \to \infty$.
+
+\textbf{Proof sketch:} By the weak law of large numbers, $Y/n \to x$ in probability. By uniform continuity of $f$ on $[0,1]$, the difference $|E[f(Y/n)] - f(x)|$ can be bounded using Chebyshev's inequality:
+$$|p_n(x) - f(x)| \leq E|f(Y/n) - f(x)| \leq \varepsilon + 2M \, P(|Y/n - x| \geq \delta) \leq \varepsilon + \frac{2M x(1-x)}{n\delta^2} < 2\varepsilon$$
+for $n$ sufficiently large.

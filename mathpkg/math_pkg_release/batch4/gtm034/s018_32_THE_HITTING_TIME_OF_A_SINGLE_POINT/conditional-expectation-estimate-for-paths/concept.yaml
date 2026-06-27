@@ -1,0 +1,20 @@
+id: conditional-expectation-estimate-for-paths
+title_en: "Conditional Expectation Estimate for Random Walk Paths"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [conditional-expectation, bernoulli-sum, exponential-bound, path-estimate]
+depends_on: {required:[], recommended:[exponential-lower-bound-for-return-probabilities, bernoulli-inequality], suggested:[]}
+source_books:
+  - book_id: "gtm034"
+    author: "Frank Spitzer"
+    title: "Principles of Random Walk"
+    chapter: "VI"
+    section: "32"
+    pages: "385-387"
+    role_in_book: "Technical estimate controlling conditional probability of paths staying near the origin, used in proving T2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

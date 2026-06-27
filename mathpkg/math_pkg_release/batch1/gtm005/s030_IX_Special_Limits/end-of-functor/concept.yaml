@@ -1,0 +1,13 @@
+id: end-of-functor
+title_en: "End of a Functor"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [end, bifunctor, wedge, dinatural-transformation, limit, integral-notation]
+depends_on: {required: [bifunctor, dinatural-transformation, limit], recommended: [opposite-category], suggested: [coend]}
+source_books: [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "IX", section: "Special Limits", pages: "", role_in_book: "Defines the end of a bifunctor as a universal dinatural wedge"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

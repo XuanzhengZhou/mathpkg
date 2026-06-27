@@ -1,0 +1,16 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $P$ be a noncyclic recurrent chain, and for a fixed state $s$ let $E$ and $F$ be any two sets of integers whose union is the set of all non-negative integers. Then either
+
+$$\Pr_{\pi}[x_n = s \text{ for infinitely many } n \in E] = 1$$
+
+or
+
+$$\Pr_{\pi}[x_n = s \text{ for infinitely many } n \in F] = 1 \text{ (or both)},$$
+
+and whichever alternative holds is independent of the starting distribution $\pi$.

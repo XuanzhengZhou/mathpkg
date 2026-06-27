@@ -1,0 +1,23 @@
+id: curvature-functions-via-weingarten-characteristic-polynomial
+title_en: "Curvature functions K and H via the characteristic polynomial of the Weingarten map"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [gauss-curvature, mean-curvature, weingarten-map, characteristic-polynomial, trace, determinant]
+depends_on:
+  required: [gauss-curvature-and-mean-curvature, weingarten-map]
+  recommended: [second-fundamental-form, first-fundamental-form]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "5"
+    pages: ""
+    role_in_book: "Relates the Gauss and mean curvatures to the algebraic invariants (trace, determinant) of the Weingarten map"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

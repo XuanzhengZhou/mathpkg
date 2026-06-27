@@ -1,0 +1,23 @@
+id: quotient-space-linear
+title_en: "Quotient Space (Factor Space) of a Linear Space"
+title_zh: "线性空间的商空间（因子空间）"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [quotient-space, factor-space, coset, linear-subspace, equivalence-class]
+depends_on:
+  required: [linear-space, linear-subspace]
+  recommended: [coset, equivalence-relation]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "1"
+    section: "1.4"
+    pages: ""
+    role_in_book: "Defines the quotient space construction for linear spaces, fundamental for later topological quotients"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: tensor-contraction
+title_en: "Contraction of tensor spaces"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: multilinear-algebra
+difficulty: intermediate
+tags: [tensor-contraction, tensor-space, bilinear-form, linear-transformation]
+depends_on:
+  required: []
+  recommended: [tensor-space, kronecker-product-of-vector-spaces, dual-space]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "7"
+    section: "6"
+    pages: ""
+    role_in_book: "Defines contraction as a linear mapping from a tensor space of rank (r,s) to one of rank (r-1,s-1) by pairing a contravariant and covariant index via evaluation."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

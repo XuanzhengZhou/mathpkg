@@ -1,0 +1,1 @@
+This exercise relates the orthogonal dimension of $\mathfrak{L}_2$ to the measure-theoretic structure of the underlying measure space, connecting the cardinality of atoms to the Hilbert space dimension.

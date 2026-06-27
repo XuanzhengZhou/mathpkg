@@ -1,0 +1,23 @@
+id: finite-conic-size
+title_en: "Finite conic has q+1 or 0 points"
+title_zh: "有限圆锥曲线有 q+1 个点或为空"
+type: corollary
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags: [conic, finite-geometry, cardinality, projective-plane]
+depends_on:
+  required: [nonempty-conic-line-correspondence, conic]
+  recommended: [finite-projective-plane]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II"
+    section: "7. Conics"
+    pages: "61-67"
+    role_in_book: "Corollary 2 of Lemma 2.34: finite conic cardinality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

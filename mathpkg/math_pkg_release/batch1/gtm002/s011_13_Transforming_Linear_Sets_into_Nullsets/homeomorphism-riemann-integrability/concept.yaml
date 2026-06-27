@@ -1,0 +1,23 @@
+id: homeomorphism-riemann-integrability
+title_en: "Riemann Integrability under Homeomorphic Substitution"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [riemann-integrability, homeomorphism, first-category, nullset, countable-set, change-of-variable, oxtoby]
+depends_on:
+  required: [first-category-set, nullset, riemann-integrability, countable-set]
+  recommended: [transforming-first-category-set-into-nullset, baire-category-theorem, f-sigma-set]
+  suggested: [sigma-ideal, second-category-set]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "13"
+    section: "13"
+    pages: ""
+    role_in_book: "Characterizes Riemann integrability of f∘h in terms of the three σ-ideals: countable, first category, and null"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

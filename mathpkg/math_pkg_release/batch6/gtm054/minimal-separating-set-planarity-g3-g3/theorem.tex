@@ -1,0 +1,13 @@
+Max-Flow–Min-Cut Theorem (Doubly-Capacitated Form). If $e_0 \in W$ and if the doubly-capacitated network $(V, k_1, k_2)$ admits a feasible flow, then it admits a maximum flow $h$ through $e_0$ and
+
+$$h(e_0) = \min\{k_2(e_0)\} \cup \{k_2(C; e_0): C \text{ is a cut through } e_0\}.$$
+
+Proof. The proof of C6 may be adapted to prove this result with the following modest changes. First, replace $k$ by $k_2$ throughout. Second, alter the third condition in the definition of “unsaturated path” to read: $e_i = (x_i, x_{i-1}) \Rightarrow h(e) > k_1(e).$
+
+The first inequality in G2 gives a lower bound for flows through $e_0$. We are thus led to call a feasible flow $h$ a minimum flow through $e_0$ if $h(e_0) \leq h'(e_0)$ for any feasible flow $h'$. Clearly if $k_1$ is a flow, then it is a minimum flow through each edge. However, when
+
+The existence of a feasible flow in a doubly-capacitated network $(V, k_1, k_2)$ is the essential question, for without it, Theorems G3 and G4 add nothing to what has already been said. Let $e_0 \in W$ and let a cut $C = \sum_{x \in U} f^*(x)$ through $e_0$ be given. If $h$ is a feasible flow, then by G2,
+
+$$k_2(C; e_0) \geq h(e_0) \geq k_1(e_0),$$
+
+and so

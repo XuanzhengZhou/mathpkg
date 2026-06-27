@@ -1,0 +1,23 @@
+id: negation-conjunction-functional-completeness
+title_en: "Negation and conjunction give functionally complete sentential logic"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: sentential-logic
+difficulty: intermediate
+tags: [functional-completeness, negation, conjunction, sentential-logic, truth-function]
+depends_on:
+  required: []
+  recommended: [general-sentential-logic-functional-completeness, truth-function]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "8. Sentential Logic"
+    section: "8.2 Elements of Logic"
+    pages: ""
+    role_in_book: "establishes that {negation, conjunction} is a functionally complete set of connectives"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

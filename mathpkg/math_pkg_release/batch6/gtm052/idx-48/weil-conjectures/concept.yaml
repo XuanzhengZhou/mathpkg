@@ -1,0 +1,23 @@
+id: weil-conjectures
+title_en: "The Weil Conjectures"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: arithmetic-geometry
+difficulty: advanced
+tags: [weil-conjectures, zeta-function, finite-field, rationality, riemann-hypothesis, betti-numbers, deligne]
+depends_on:
+  required: [zeta-function-of-scheme, smooth-projective-variety]
+  recommended: [l-adic-cohomology]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix C"
+    section: "1"
+    pages: "450-451"
+    role_in_book: "States the four Weil conjectures: rationality, functional equation, Riemann hypothesis analogue, Betti numbers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

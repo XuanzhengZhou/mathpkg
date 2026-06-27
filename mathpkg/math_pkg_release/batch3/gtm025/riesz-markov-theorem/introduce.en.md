@@ -1,0 +1,1 @@
+The Riesz-Markov theorem establishes a one-to-one correspondence between nonnegative linear functionals on continuous functions with compact support and regular Borel measures. This unifies the Daniell and Bourbaki approaches to integration.

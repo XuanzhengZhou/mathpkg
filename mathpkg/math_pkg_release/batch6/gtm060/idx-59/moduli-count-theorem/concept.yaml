@@ -1,0 +1,23 @@
+id: moduli-count-theorem
+title_en: "Moduli Count Theorem for Powers of Volume Forms"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [moduli, differential-form, quasi-homogeneous, singularity-theory, resonance]
+depends_on:
+  required: [degree-of-non-quasi-homogeneity, power-of-volume-form]
+  recommended: [germ-quasi-homogeneous-equivalence]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "E. The Quasi-Homogeneous Case"
+    pages: "469-479"
+    role_in_book: "States that for almost all β, the number of moduli of f^β h dx equals the degree of non-quasi-homogeneity of f"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

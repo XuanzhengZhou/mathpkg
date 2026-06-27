@@ -1,0 +1,23 @@
+id: reduction-of-degenerate-simultaneous-diagonalization
+title_en: "Reduction of the degenerate case in simultaneous diagonalization"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [symmetric-bilinear-forms, simultaneous-diagonalization, degenerate-bilinear-form, kernel, determinant, polynomial]
+depends_on:
+  required: [symmetric-bilinear-function, determinant-function, kernel-of-bilinear-form, linear-independence]
+  recommended: [simultaneous-diagonalization-of-symmetric-bilinear-pairs]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IX"
+    section: "§3, 9.16"
+    pages: ""
+    role_in_book: "Reduction of the case where Ψ is degenerate to the non-degenerate case via polynomial perturbation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

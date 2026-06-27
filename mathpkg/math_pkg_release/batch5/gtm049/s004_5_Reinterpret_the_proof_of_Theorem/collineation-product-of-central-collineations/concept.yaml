@@ -1,0 +1,23 @@
+id: collineation-product-of-central-collineations
+title_en: "Collineation as Product of Central Collineations"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [collineation, central-collineation, projective-transformation, factorization]
+depends_on:
+  required: [automorphism-fixing-hyperplane, central-collineation-unique-center]
+  recommended: [projective-isomorphism-semilinear-representation]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "Gruenberg, K. W. and Weir, A. J."
+    title: "Linear Geometry"
+    chapter: "3"
+    section: "3.7"
+    pages: ""
+    role_in_book: "Striking result: any collineation of a projective geometry of dimension n >= 2 is a product of at most n central collineations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

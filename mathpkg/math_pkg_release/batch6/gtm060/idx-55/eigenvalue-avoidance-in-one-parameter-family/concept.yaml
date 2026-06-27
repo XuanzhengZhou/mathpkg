@@ -1,0 +1,23 @@
+id: eigenvalue-avoidance-in-one-parameter-family
+title_en: "Eigenvalue Avoidance in One-Parameter Families"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: spectral-theory
+difficulty: intermediate
+tags: [eigenvalue-avoidance, one-parameter-family, avoided-crossing, characteristic-frequency, hyperbolic-behavior]
+depends_on:
+  required: [eigenvalue-cone-at-multiplicity-point, generic-one-parameter-family-no-multiple-spectra]
+  recommended: [two-sheeted-cone]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 10"
+    section: "Multiplicities of characteristic frequencies and ellipsoids of revolution"
+    pages: "438-445"
+    role_in_book: "Explains the phenomenon of avoided crossing of eigenvalues under one-parameter variation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

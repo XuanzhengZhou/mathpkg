@@ -1,0 +1,9 @@
+For every positive integer $n$, the partition function $p(n)$ is given by the convergent series
+$$
+p(n) = \frac{1}{\pi \sqrt{2}} \sum_{k=1}^{\infty} A_k(n) \, k^{1/2} \, \frac{d}{dn} \left( \frac{\sinh \left\{ \frac{\pi}{k} \sqrt{\frac{2}{3} \left(n - \frac{1}{24}\right)} \right\}}{\sqrt{n - \frac{1}{24}}} \right),
+$$
+where
+$$
+A_k(n) = \sum_{\substack{0 \leq h < k \\ (h, k) = 1}} e^{\pi i s(h, k) - 2\pi i nh/k},
+$$
+and $s(h, k)$ is the Dedekind sum.

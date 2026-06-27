@@ -1,0 +1,23 @@
+id: lemma-trace-determinant
+title_en: "Lemma 4.1: Trace-Determinant Identity"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [trace, determinant, linear-algebra, zeta-function, lefschetz-trace]
+depends_on:
+  required: []
+  recommended: [linear-algebra, finite-dimensional-vector-space]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix C"
+    section: "4"
+    pages: "454-455"
+    role_in_book: "Elementary linear algebra lemma used to factor the zeta function from the Lefschetz trace formula"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

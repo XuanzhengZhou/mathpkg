@@ -1,0 +1,28 @@
+id: v-l-desarguesian
+title_en: (V,l)-Desarguesian Plane
+title_zh: ''
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags:
+- desargues
+- projective-plane
+- configuration
+depends_on:
+  required:
+  - triangles-in-perspective
+  recommended:
+  - desargues-configuration
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '7'
+  pages: ''
+  role_in_book: Defines a localized version of Desargues' theorem
+content_hash: 0d3a490e2530
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

@@ -1,0 +1,23 @@
+id: proposition-s-bar-depends-only-on-cardinality
+title_en: "Proposition A5: s-bar Depends Only on Cardinality"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: design-theory
+difficulty: intermediate
+tags: [design, s-bar, cardinality, t-design, combinatorial-identity]
+depends_on:
+  required: [lemma-s-bar-formula-from-t-subsets]
+  recommended: [t-design]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "IX"
+    section: "A"
+    pages: "244"
+    role_in_book: "Proposition A5 — immediate corollary of Lemma A4: s-bar(S) depends only on |S|"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

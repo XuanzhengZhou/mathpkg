@@ -1,0 +1,23 @@
+id: quadratic-elements-subspace-structure
+title_en: "Structure of the Subset of Quadratic Elements in a Division Algebra"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: division-algebras
+difficulty: advanced
+tags: [division-algebra, quadratic-equation, vector-space-decomposition, direct-sum]
+depends_on:
+  required: [associative-division-algebra, quadratic-elements-commutator-bound]
+  recommended: [quadratic-equation-satisfied-by-elements]
+  suggested: [frobenius-classification-of-division-algebras]
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "6"
+    pages: "222-229"
+    role_in_book: "Lemma II in section 7.24 describing the subspace F = {x : x² = -γ²e} and its decomposition properties"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

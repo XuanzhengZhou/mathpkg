@@ -1,0 +1,23 @@
+id: two-sided-polyhedral-2-manifold
+title_en: "Two-Sided Polyhedral 2-Manifold"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [2-manifold, two-sided, separation, polyhedral, 3-manifold]
+depends_on:
+  required: [polyhedral-2-manifold, triangulated-3-manifold, separated-sets, connected-neighborhood]
+  recommended: [two-sided-surface]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "31"
+    section: "Bicollar neighborhoods; an extension of the Loop theorem"
+    pages: "201-210"
+    role_in_book: "Definition of two-sidedness for polyhedral 2-manifolds in 3-manifolds used in the Loop theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: interchange-of-algebraic-structures
+title_en: "Interchange of Algebraic Structures"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [interchange, internal-category, algebraic-structure, finite-limit-theory, category-of-models]
+depends_on: {required:[internal-category, finite-limit], recommended:[group-object, category-object], suggested:[lawvere-theory, essentially-algebraic-theory]}
+source_books: [{book_id:"gtm005",author:"Saunders Mac Lane",title:"Categories for the Working Mathematician",chapter:"XII",section:"1. Internal Categories",pages:"282",role_in_book:"States the general principle that the category of X-objects in the category of Y-objects is equivalent to the category of Y-objects in the category of X-objects, for algebraic structures definable by finite limits"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

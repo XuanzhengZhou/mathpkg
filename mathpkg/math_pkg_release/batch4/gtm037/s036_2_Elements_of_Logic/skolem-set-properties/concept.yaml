@@ -1,0 +1,23 @@
+id: skolem-set-properties
+title_en: "Properties of the Skolem Set"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [skolem-expansion, skolem-set, skolem-form, conservative-extension, universal-formula]
+depends_on:
+  required: [first-order-theory, primitive-skolem-expansion, skolem-expansion, conservative-extension, theory]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "11"
+    section: "2"
+    pages: ""
+    role_in_book: "States the fundamental properties of the Skolem set: Skolem form implies original formula, conservativity, and model existence equivalence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

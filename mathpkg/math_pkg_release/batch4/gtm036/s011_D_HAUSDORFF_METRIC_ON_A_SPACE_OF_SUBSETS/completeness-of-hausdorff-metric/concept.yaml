@@ -1,0 +1,23 @@
+id: completeness-of-hausdorff-metric
+title_en: "Completeness of the Space of Closed Non-Void Sets under the Hausdorff Metric"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: metric-spaces
+difficulty: intermediate
+tags: ["hausdorff", "completeness", "hyperspace", "cauchy-sequence"]
+depends_on:
+  required: ["hausdorff-metric"]
+  recommended: ["complete-metric-space", "cauchy-sequence"]
+  suggested: ["limit-point"]
+source_books:
+  - book_id: "gtm036"
+    author: "Kelley, J.L. and Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "1"
+    section: "D"
+    pages: ""
+    role_in_book: "States that the Hausdorff hyperspace of a complete metric space is complete"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

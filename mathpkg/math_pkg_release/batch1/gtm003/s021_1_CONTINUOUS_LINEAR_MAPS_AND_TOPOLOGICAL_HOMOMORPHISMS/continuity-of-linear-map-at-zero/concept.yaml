@@ -1,0 +1,23 @@
+id: continuity-of-linear-map-at-zero
+title_en: "Continuity of a linear map is equivalent to continuity at zero"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [linear-map, continuity, uniform-continuity, dense-extension]
+depends_on:
+  required: []
+  recommended: [topological-vector-space, uniform-structure]
+  suggested: [separation-axioms, completeness]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "1"
+    pages: ""
+    role_in_book: "Basic fact establishing that continuity of linear maps between t.v.s. reduces to continuity at the origin, and the unique continuous extension to completions."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

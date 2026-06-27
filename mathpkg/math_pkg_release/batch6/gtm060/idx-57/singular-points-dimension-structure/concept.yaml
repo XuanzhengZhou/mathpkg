@@ -1,0 +1,23 @@
+id: singular-points-dimension-structure
+title_en: "Dimension Structure of Singular Points of Lagrangian Manifolds"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [singular-points, lagrangian-manifold, caustics, singularity-theory, projection-singularities]
+depends_on:
+  required: [lagrangian-manifold]
+  recommended: [caustic, singularity-theory]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 11"
+    section: "B. The Morse and Maslov Indices"
+    pages: "453-455"
+    role_in_book: "Describes the stratification of singular points on Lagrangian manifolds by corank"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: transcendental-number
+title_en: "Transcendental Number"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: transcendental-number-theory
+difficulty: basic
+tags: [transcendental-number, algebraic-number, non-algebraic]
+depends_on:
+  required: [algebraic-number]
+  recommended: []
+  suggested: [real-number]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "2"
+    section: "2. Liouville Numbers"
+    pages: "15"
+    role_in_book: "The central object of study in this chapter; Liouville numbers are a specific construction of transcendental numbers, and their category/measure properties are analyzed."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

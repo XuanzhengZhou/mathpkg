@@ -1,0 +1,23 @@
+id: henkin-model-existence
+title_en: "Henkin Model Existence Theorem (Theorem 11.12)"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: first-order-logic
+difficulty: advanced
+tags: [henkin-construction, model-existence, term-model, complete-theory, rich-set, consistency, cardinality-bound]
+depends_on:
+  required: [rich-set-of-sentences, complete-set, consistency, equivalence-relation, quotient-structure]
+  recommended: [quantifier-elimination-rich-sets, formula-denotation]
+  suggested: [completeness-theorem-first-form, compactness-theorem]
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "11"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Core Henkin construction: every complete, rich, consistent set of sentences has a term model with bounded cardinality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

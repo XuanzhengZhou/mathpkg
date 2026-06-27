@@ -1,0 +1,22 @@
+If $A$ is a noetherian ring, then the power series ring $A[[X]]$ is also noetherian.
+
+Proof. We give here a proof parallel to the second proof of Hilbert's basis theorem, cf. Vol. I, Ch. IV, § 1, i.e., a proof using the finite basis condition. Let $\mathfrak{A}$ be an ideal in $A[[X]]$. For any integer $i \geq 0$ denote by $L_i(\mathfrak{A})$ the set of elements of $A$ consisting of 0 and of the coefficients of $X^i$ in all elements of $\mathfrak{A}$ which are of order $i$. Then $L_i(\mathfrak{A})$ is an ideal in $A$, and the ideals $L_i(\mathfrak{A})$ constitute an ascending sequence. Their union $L(\mathfrak{A})$ is the ideal in $A$ consisting of 0 and of the coefficients of the initial terms† of all non-zero elements of $\mathfrak{A}$. Since $A$ is noetherian, $L(\mathfrak{A})$ has a finite basis $\{a_1, \cdots, a_q\}$. We fix in $\mathfrak{A}$ a power series $F_i(X)$ whose initial term
+
+$\mathfrak{A}$ is in the ideal $(F_i(X), G_{jk_j}(X))$. We will even prove that such an element is in the ideal $(F_1(X), \cdots, F_q(X))$.
+
+(b) Let $P(X)$ be an element of $\mathfrak{A}$ of order $s \geq d$, and let $cX^s$ be its initial term. We may write $c = \sum_{i=1}^{q} c_i a_i (c_i \in A)$. Thus $P(X) - \sum_{i=1}^{q} c_i X^{s-o(F_i)} F_i(X)$ is an element of order $\geq s+1$ of $\mathfrak{A}$. By successive applications of this result we get $q$ sequences $\{c_i^n\} (i=1, 2, \cdots, q; n=s, s+1, \cdots; c_i^s=c_i)$ of elements of $A$ such that, for every $n$, the power series
+
+$$P(X) - \sum_{i=1}^{q} \left( \sum_{j=s}^{j=n} c_i^j X^{j-o(F_i)} \right) F_i(X)$$
+
+is of order $> n$. As the exponents $j-o(F_i)$ tend to infinity with $j$, each of the infinite sums $\sum_{j=s}^{\infty} c_i^j X^{j-o(F_i)}$ converges and represents an element $s_i(X)$ of $A[[X]]$. Since the order of the power series $P(X) - \sum_{i=1}^{q} s_i(X) F_i(X)$ is greater than $n$ for every $n$, this power series is 0, and we have $P(X) = \sum_{i=1}^{q} s_i(X) F_i(X)$. Q.E.D.
+
+COROLLARY. The power series ring $A[[X_1, \cdots, X_n]]$ in $n$ indeterminates over a noetherian ring $A$ (in particular, over a field, or over the ring of integers) is noetherian.
+
+This follows from Theorem 4 by induction on $n$, since $A
+
+$X_n$) and $s$ power series $R_i(X_1, \cdots, X_{n-1})$ in $X_1, \cdots, X_{n-1}$ ($0 \leq i \leq s-1$) such that
+
+(11) $G(X_1, \cdots, X_n) = U(X_1, \cdots, X_n)F(X_1, \cdots, X_n)$
+$$+ \sum_{i=0}^{s-1} R_i(X_1, \cdots, X_{n-1})X_n^i.$$
+
+The power series $U$ and $R_i$ are uniquely determined by $G$ and $F$.

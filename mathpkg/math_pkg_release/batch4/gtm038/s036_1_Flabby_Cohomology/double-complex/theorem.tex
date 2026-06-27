@@ -1,0 +1,19 @@
+A **double complex** is a system $(C_{ij})$ of $R$-modules (with $i, j \in \mathbb{N}_0$) and $R$-module homomorphisms
+$$d' : C_{ij} \rightarrow C_{i+1,j}, \quad d'' : C_{ij} \rightarrow C_{i,j+1}$$
+such that
+
+1. $d' \circ d' = 0$
+2. $d'' \circ d'' = 0$
+3. $d' \circ d'' = -d'' \circ d'$
+
+Thus $d := d' + d'' : \bigoplus_{i+j=n} C_{ij} \rightarrow \bigoplus_{i+j=n+1} C_{ij}$ satisfies $d \circ d = 0$. A double complex is therefore an anticommutative diagram:
+
+$$\begin{array}{cccccc}
+C_{00} & \xrightarrow{d''} & C_{01} & \xrightarrow{d''} & C_{02} & \xrightarrow{d''} & \cdots \\
+\downarrow d' & & \downarrow d' & & \downarrow d' \\
+C_{10} & \xrightarrow{d''} & C_{11} & \xrightarrow{d''} & C_{12} & \xrightarrow{d''} & \cdots \\
+\downarrow d' & & \downarrow d' & & \downarrow d' \\
+C_{20} & \xrightarrow{d''} & C_{21} & \xrightarrow{d''} & C_{22} & \xrightarrow{d''} & \cdots \\
+\downarrow d' & & \downarrow d' & & \downarrow d' \\
+\vdots & & \vdots & & \vdots
+\end{array}$$

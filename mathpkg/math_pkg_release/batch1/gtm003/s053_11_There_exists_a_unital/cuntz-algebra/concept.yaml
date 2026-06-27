@@ -1,0 +1,23 @@
+id: cuntz-algebra
+title_en: "Cuntz Algebra O(n)"
+title_zh: "Cuntz代数 O(n)"
+type: theorem
+domain: analysis
+subdomain: operator-algebras
+difficulty: intermediate
+tags: [C*-algebra, Cuntz-algebra, generators-and-relations, Hilbert-space]
+depends_on:
+  required: []
+  recommended: [c-star-algebra, hilbert-space, adjoint-operator]
+  suggested: [toeplitz-operator, fredholm-operator]
+source_books:
+  - book_id: "gtm003"
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "11"
+    pages: ""
+    role_in_book: "Exercise 11: definition and existence/uniqueness of the Cuntz algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

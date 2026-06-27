@@ -1,0 +1,23 @@
+id: cayley-hamilton-theorem
+title_en: "Cayley-Hamilton Theorem"
+title_zh: "Cayley-Hamilton 定理"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [characteristic-polynomial, minimum-polynomial, cyclic-subspace-degree-equals-min-poly-degree]
+  recommended: [determinant, companion-matrix]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "5"
+    pages: ""
+    role_in_book: "The minimum polynomial divides the characteristic polynomial; every transformation satisfies its characteristic equation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

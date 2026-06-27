@@ -1,0 +1,23 @@
+id: measurability-of-neighborhood-sets
+title_en: "Theorem C: Measurability and finiteness of class N sets"
+title_zh: "定理C: N类集合的可测性与有限性"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measurable-group, weil-topology, class-n, measurability]
+depends_on:
+  required: [class-n-measurable-group, measurable-group]
+  recommended: [subset-with-inverse-in-neighborhood]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "XII"
+    section: "62"
+    pages: "273"
+    role_in_book: "Establishes basic measure-theoretic properties of the neighborhood base N"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

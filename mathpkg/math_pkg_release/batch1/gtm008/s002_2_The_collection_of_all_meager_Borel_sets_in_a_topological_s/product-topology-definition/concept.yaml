@@ -1,0 +1,23 @@
+id: product-topology-definition
+title_en: "The Product Topology"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [product-topology, tychonoff-topology, cartesian-product, base]
+depends_on:
+  required: [product-topology-base, topological-space]
+  recommended: [projection-function-definition]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "Chapter 2: Topological Spaces"
+    section: "2. The Collection of All Meager Borel Sets in a Topological Space"
+    pages: ""
+    role_in_book: "Definition 3.31: The product (Tychonoff) topology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

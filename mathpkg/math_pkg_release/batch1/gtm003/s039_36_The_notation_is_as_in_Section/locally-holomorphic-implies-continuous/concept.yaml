@@ -1,0 +1,23 @@
+id: locally-holomorphic-implies-continuous
+title_en: "Locally Holomorphic Vector-Valued Functions Are Continuous"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: vector-valued-holomorphic-functions
+difficulty: advanced
+tags: [locally-holomorphic, vector-valued-function, continuity, complex-analysis]
+depends_on:
+  required: [locally-holomorphic-vector-valued-function, continuous-function]
+  recommended: [derivative-of-vector-valued-holomorphic-function, cauchy-integral-formula]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "Appendix 1"
+    section: "Vector-Valued Holomorphic Functions"
+    pages: "214"
+    role_in_book: "Proposition (b): every locally holomorphic E-valued function is continuous"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+The conditional expectation $E(Y|\mathfrak{B})$ is the best $\mathfrak{B}$-measurable approximation to $Y$ in the $L^2$ sense. Defined via the Radon-Nikodym theorem, it is a cornerstone of modern probability theory, essential for martingale theory, stochastic processes, and Bayesian inference. When $\mathfrak{B} = \mathfrak{F}_X$, we write $E[Y|X]$.

@@ -1,0 +1,23 @@
+id: gibbs-field-iff-markov-field-infinite
+title_en: "Neighbor Gibbs Field if and only if Markov Field (Infinite Case)"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-fields
+difficulty: advanced
+tags: [gibbs-field, markov-random-field, equivalence, infinite-random-field, dobrushin-lanford-ruelle]
+depends_on:
+  required: [neighbor-gibbs-field-infinite]
+  recommended: [gibbs-field-iff-markov-field-finite, markov-field-definition]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "12"
+    section: "4"
+    pages: "447-455"
+    role_in_book: "Establishes the fundamental equivalence between Markov fields and neighbor Gibbs fields for infinite T"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: property-of-baire
+title_en: "Property of Baire"
+title_zh: "贝尔性质"
+type: definition
+domain: topology
+subdomain: descriptive-set-theory
+difficulty: intermediate
+tags: [baire-category, symmetric-difference, first-category]
+depends_on:
+  required: [symmetric-difference]
+  recommended: [first-category, open-set]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "4"
+    section: "The Property of Baire"
+    pages: ""
+    role_in_book: "Central definition of the chapter; sets with this property form a σ-algebra containing all open sets and all first-category sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

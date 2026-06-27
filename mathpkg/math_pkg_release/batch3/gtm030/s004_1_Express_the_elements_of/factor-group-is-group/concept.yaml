@@ -1,0 +1,23 @@
+id: factor-group-is-group
+title_en: "Factor Group is a Group"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [factor-group, quotient-group, invariant-subgroup, coset-multiplication]
+depends_on:
+  required: [invariant-subgroup, factor-group, group]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "14"
+    pages: ""
+    role_in_book: "Proves that the set of cosets of an invariant subgroup forms a group under set multiplication"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

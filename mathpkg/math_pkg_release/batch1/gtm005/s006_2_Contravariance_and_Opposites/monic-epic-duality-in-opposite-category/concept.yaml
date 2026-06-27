@@ -1,0 +1,25 @@
+id: monic-epic-duality-in-opposite-category
+title_en: "Monic-Epic Duality in the Opposite Category"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [monic, epic, opposite-category, duality]
+depends_on:
+  required: [opposite-category]
+  recommended: [monomorphism, epimorphism]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    edition: "2nd"
+    year: 1998
+    chapter: "I"
+    section: "2. Contravariance and Opposites"
+    pages: "47-49"
+    role_in_book: "Shows that the properties of being monic and epic are dual via the opposite category construction"
+content_hash: "b97835dd2a5c7dfe01396358780dbc26"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

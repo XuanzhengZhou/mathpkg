@@ -1,0 +1,13 @@
+id: random-field
+title_en: "Random Field"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: random-fields
+difficulty: intermediate
+tags: [random-field, configuration-space, cylinder-probabilities]
+depends_on: {required: [], recommended: [probability-space, stochastic-process], suggested: [markov-chain]}
+source_books: [{book_id: "gtm040", author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp", title: "Denumerable Markov Chains", chapter: "12", section: "1. Markov fields", pages: "", role_in_book: "Fundamental definition introducing random fields as the generalization of stochastic processes to arbitrary countable parameter sets"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

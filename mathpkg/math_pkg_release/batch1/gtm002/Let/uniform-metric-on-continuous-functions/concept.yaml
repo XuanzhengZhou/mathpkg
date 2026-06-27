@@ -1,0 +1,23 @@
+id: uniform-metric-on-continuous-functions
+title_en: "Uniform Metric on Continuous Functions"
+title_zh: "连续函数空间上的一致度量"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [metric-space, uniform-metric, continuous-functions, sup-norm]
+depends_on:
+  required: [metric-space, continuous-function]
+  recommended: [supremum, uniform-convergence]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "10"
+    section: "10"
+    pages: "50-52"
+    role_in_book: "Defines the uniform metric space C[a,b]"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

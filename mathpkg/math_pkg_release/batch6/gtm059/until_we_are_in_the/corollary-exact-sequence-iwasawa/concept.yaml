@@ -1,0 +1,23 @@
+id: corollary-exact-sequence-iwasawa
+title_en: "Exact Sequence of Galois Groups in Iwasawa Theory"
+title_zh: "岩泽理论中伽罗瓦群的正合列"
+type: corollary
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [iwasawa-theory, exact-sequence, galois-group, semidirect-product, commutator-subgroup]
+depends_on:
+  required: [galois-group-structure-iwasawa-theory]
+  recommended: [exact-sequence, group-cohomology]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "Iwasawa Theory and Ideal Class Groups"
+    pages: ""
+    role_in_book: "Corollary to Theorem 4.1 giving an exact sequence relating G, G_1, and I."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

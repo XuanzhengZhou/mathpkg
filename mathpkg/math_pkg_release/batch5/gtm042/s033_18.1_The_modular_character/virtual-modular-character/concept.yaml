@@ -1,0 +1,23 @@
+id: virtual-modular-character
+title_en: "Virtual Modular Character"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: intermediate
+tags: ["virtual-character", "modular-character", "grothendieck-group", "rk-g"]
+depends_on:
+  required: ["modular-character", "modular-character-additivity"]
+  recommended: ["grothendieck-group", "rk-g", "rg-g"]
+  suggested: ["decomposition-map"]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "18"
+    section: "18.1"
+    pages: ""
+    role_in_book: "Remark extending modular characters to the Grothendieck group $R_k(G)$, enabling virtual modular characters for arbitrary elements of $R_k(G)$."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

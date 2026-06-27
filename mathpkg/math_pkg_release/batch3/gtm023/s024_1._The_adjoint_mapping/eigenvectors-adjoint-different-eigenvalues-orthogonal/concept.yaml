@@ -1,0 +1,23 @@
+id: eigenvectors-adjoint-different-eigenvalues-orthogonal
+title_en: "Eigenvectors of a Map and its Adjoint with Different Eigenvalues are Orthogonal"
+title_zh: "映射与伴随的特征向量在不同特征值下正交"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [adjoint, eigenvectors, eigenvalues, orthogonality]
+depends_on:
+  required: [adjoint-mapping, eigenvector, eigenvalue]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VIII"
+    section: "§1. The adjoint mapping"
+    pages: ""
+    role_in_book: "Key orthogonality relation for spectral theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

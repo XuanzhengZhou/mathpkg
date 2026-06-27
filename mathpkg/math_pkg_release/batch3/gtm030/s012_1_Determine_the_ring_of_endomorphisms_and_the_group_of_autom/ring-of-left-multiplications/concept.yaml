@@ -1,0 +1,23 @@
+id: ring-of-left-multiplications
+title_en: "Ring of Left Multiplications"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [ring, left-multiplication, endomorphism-ring, subring, anti-homomorphism]
+depends_on:
+  required: [left-multiplication-anti-homomorphism]
+  recommended: [subring, endomorphism-ring, anti-isomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "14"
+    pages: ""
+    role_in_book: "Defines the set of left multiplications as a subring of the endomorphism ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

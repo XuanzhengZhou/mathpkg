@@ -1,0 +1,23 @@
+id: operator-norm-is-norm-function
+title_en: "The Operator Norm is a Norm-Function on B(E;E)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [operator-norm, normed-space, B(E,E), bounded-operators, norm-axioms]
+depends_on:
+  required: [operator-norm, bounded-linear-transformation, norm-function]
+  recommended: [bounded-transformations-form-subspace]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VII"
+    section: "5 (7.21)"
+    pages: ""
+    role_in_book: "core"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: zero-one-law-noncyclic-recurrent
+title_en: "Zero-One Law for Noncyclic Recurrent Chains"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [zero-one-law, recurrence, noncyclic, sums-of-independent-random-variables]
+depends_on:
+  required: [ladder-process-from-recurrent-chain]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "4"
+    pages: ""
+    role_in_book: "Lemma 6-36: Zero-one law for visits to a fixed state in noncyclic recurrent chains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

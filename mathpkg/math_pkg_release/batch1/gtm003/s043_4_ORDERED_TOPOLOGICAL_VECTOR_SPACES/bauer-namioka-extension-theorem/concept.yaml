@@ -1,0 +1,23 @@
+id: bauer-namioka-extension-theorem
+title_en: "Bauer-Namioka Extension Theorem for Positive Linear Forms"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: ordered-topological-vector-spaces
+difficulty: advanced
+tags: [extension-theorem, positive-linear-form, continuous-linear-form, hahn-banach]
+depends_on:
+  required: [ordered-topological-vector-space, positive-linear-form, continuous-linear-form]
+  recommended: [hahn-banach-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "5"
+    pages: ""
+    role_in_book: "Theorem 5.4 (Bauer-Namioka): Criterion for extending a continuous positive linear form from a subspace to the whole space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

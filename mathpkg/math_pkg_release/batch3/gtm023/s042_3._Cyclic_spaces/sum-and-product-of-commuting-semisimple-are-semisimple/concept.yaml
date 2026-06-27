@@ -1,0 +1,23 @@
+id: sum-and-product-of-commuting-semisimple-are-semisimple
+title_en: "Sum and Product of Commuting Semisimple Transformations Are Semisimple"
+title_zh: "交换半单变换的和与积仍半单"
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [commuting-semisimple-transformations-form-semisimple-set, converse-semisimple-set-in-commutative-algebra]
+  recommended: [algebra, sum-of-transformations, product-of-transformations]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "6"
+    pages: ""
+    role_in_book: "If φ and ψ are commuting semisimple transformations, then φ+ψ and φψ are again semisimple"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

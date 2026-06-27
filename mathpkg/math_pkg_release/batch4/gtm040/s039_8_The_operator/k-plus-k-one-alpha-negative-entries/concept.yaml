@@ -1,0 +1,23 @@
+id: k-plus-k-one-alpha-negative-entries
+title_en: "K + k 1α has negative entries for infinite ergodic chains"
+title_zh: "无限遍历链中K + k1α有负项"
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [k-matrix, ergodic-chain, negative-entries, stationary-distribution]
+depends_on:
+  required: [k-matrix, infinite-ergodic-chain, stationary-distribution]
+  recommended: [c-matrix, g-matrix]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Shows K is not nonnegative-definite"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

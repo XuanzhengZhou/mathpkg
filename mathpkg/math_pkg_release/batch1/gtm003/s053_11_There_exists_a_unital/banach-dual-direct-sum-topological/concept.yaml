@@ -1,0 +1,23 @@
+id: banach-dual-direct-sum-topological
+title_en: "Algebraic Direct Sum of Weak*-Closed Subspaces is Topological"
+title_zh: "弱*闭子空间的代数直和是拓扑的"
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [Banach-space, weak-star-topology, direct-sum, projection, sigma-continuity]
+depends_on:
+  required: [banach-space, dual-space, weak-star-topology, direct-algebraic-sum]
+  recommended: [closed-graph-theorem, banach-steinhaus-theorem]
+  suggested: [sigma-compactness, krein-smulian-theorem]
+source_books:
+  - book_id: "gtm003"
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "11"
+    pages: ""
+    role_in_book: "Exercise 17: algebraic direct sum of weak*-closed subspaces is topological"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

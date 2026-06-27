@@ -1,0 +1,59 @@
+A Markov chain $P$ with $P1 = 1$ is said to represent some given electric circuit if each state corresponds to a terminal and if any standard voltage problem can be solved in such a way that the voltage vector is $P$-regular at points of $F - E$.
+
+It follows from Theorem 8-41 that if $P$ represents a circuit, then the solution $v$ to a standard voltage problem is unique and satisf
+
+PROOF: We first prove uniqueness; let $P$ represent the circuit. Let $i$ and $j$ be any two distinct states, and let $E = \{j\}$ and $F = \{i, j\}$. Put a unit voltage at $j$ and ground $\tilde{F}$. Then by (3),
+
+$$\sum_k (v_i - v_k) c_{ik} = 0.$$
+
+Since $v_k = 0$ except when $k$ is $i$ or $j$ and since $c_{ii} = 0$, we have
+
+$$v_i \sum_k c_{ik} = v_i c_{ii} + v_j c_{ij} = c_{ij}.$$
+
+Hence
+
+$$v_i = \frac{c_{ij}}{\sum_k c_{ik}}.$$
+
+(The denominator is not zero since the circuit is connected.) Now since $P$ represents the circuit,
+
+$$v_i = (Pv)_i = \sum_k P_{ik} v_k = P_{ii} v_i + P_{ij} v_j.$$
+
+Since $P_{ii} = 0$ and since $v_j = 1$, we have
+
+$$v_i = P_{ij}.$$
+
+Therefore
+
+$$P_{ij} = \frac{c_{ij}}{\sum_k c_{ik}},$$
+
+and $P$ is unique.
+
+Next we prove existence. Let the circuit be given, and define
+
+$$P_{ij} = \frac{c_{ij}}{\sum_k c_{ik}}.$$
+
+Then $P_{ij} \geq 0$, $P_{ii} = 0$, and
+
+$$\sum_j P_{ij} = \frac{\sum_j c_{ij}}{\sum_k c_{ik}} = 1.$$
+
+Hence $P$ is a transition matrix with $P_{ii} = 0$ and $P1 = 1$. Thus let $E$ and $F$ be finite sets with $E \subset F$, let $v_E$ be specified, and let $v_{\tilde{F}} = 0$. We are to show the standard voltage problem has a solution. Define $v$ by
+
+$$v = B^{E \cup \tilde{F}} \begin{pmatrix} v_E \\ v_{\tilde{
+
+Then $v$ is regular on $F - E$, or
+
+$$v_i - \sum_k P_{ik}v_k = [(I - P)v]_i = 0$$
+
+for $i$ in $F - E$. Since $P1 = 1$,
+
+$$\sum_k (v_i - v_k)P_{ik} = 0,$$
+
+or
+
+$$\sum_k (v_i - v_k) \frac{c_{ik}}{\sum_m c_{im}} = 0.$$
+
+Thus
+
+$$\sum_k (v_i - v_k)c_{ik} = 0,$$
+
+and $v$ is a solution to the standard voltage problem.

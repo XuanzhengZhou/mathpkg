@@ -1,0 +1,23 @@
+id: ptr-addition-and-multiplication-are-loops
+title_en: "Addition and Multiplication of a PTR are Loops"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: non-associative-algebra
+difficulty: intermediate
+tags: [planar-ternary-ring, loop, addition, multiplication, identity]
+depends_on:
+  required: [planar-ternary-ring, loop, addition-and-multiplication-in-ptr]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "5"
+    section: "4"
+    pages: ""
+    role_in_book: "Shows that the binary operations derived from a PTR form loops; the additive loop has identity 0 and the multiplicative loop of nonzero elements has identity 1"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

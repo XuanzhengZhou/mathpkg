@@ -1,0 +1,25 @@
+id: opposite-category
+title_en: "Opposite Category"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category, opposite, dual, arrows, composition]
+depends_on:
+  required: []
+  recommended: [category, metacategory]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    edition: "2nd"
+    year: 1998
+    chapter: "I"
+    section: "2. Contravariance and Opposites"
+    pages: "47-49"
+    role_in_book: "Fundamental construction that reverses all arrows of a category, enabling the formal treatment of duality and contravariant functors"
+content_hash: "8ba401535c230e05d16dfdb49ec758ec"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

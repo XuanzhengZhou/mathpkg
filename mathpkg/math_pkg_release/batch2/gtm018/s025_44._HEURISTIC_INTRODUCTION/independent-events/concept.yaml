@@ -1,0 +1,20 @@
+id: independent-events
+title_en: "Independent Events"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: foundations
+difficulty: intermediate
+tags: [probability, independence, stochastic-independence]
+depends_on: {required: [conditional-probability, event-intersection], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX. Probability"
+    section: "44. Heuristic Introduction"
+    pages: ""
+    role_in_book: "Two events E and F are independent if μ_F(E) = μ(E), or equivalently μ(E ∩ F) = μ(E)μ(F)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

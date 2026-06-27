@@ -1,0 +1,23 @@
+id: universal-homogeneous-implies-saturated
+title_en: "m-Universal and m-Homogeneous Implies m-Saturated"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [universal-structure, homogeneous-structure, saturated-model]
+depends_on:
+  required: [m-universal-structure, m-homogeneous-structure, m-saturated-structure]
+  recommended: [elementary-substructure, lowenheim-skolem-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "28"
+    section: "Saturated Structures"
+    pages: ""
+    role_in_book: "Lemma 28.20: universality plus homogeneity yields saturation when language is small"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

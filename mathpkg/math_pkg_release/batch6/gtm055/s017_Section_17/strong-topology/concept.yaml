@@ -1,0 +1,23 @@
+id: strong-topology
+title_en: "Strong Topology"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [strong-topology, dual-pair, polar-topology, uniform-convergence, bounded-set]
+depends_on:
+  required: [dual-pair, topology-of-uniform-convergence, admissible-collection-and-admissible-polar-topology]
+  recommended: [bounded-set, polar-topology]
+  suggested: [weak-topology, norm-topology]
+source_books:
+  - book_id: "gtm055"
+    author: "Arlen Brown, Carl Pearcy"
+    title: "Introduction to Operator Theory I"
+    chapter: "16"
+    section: "16.4"
+    pages: ""
+    role_in_book: "Defines the finest admissible polar topology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

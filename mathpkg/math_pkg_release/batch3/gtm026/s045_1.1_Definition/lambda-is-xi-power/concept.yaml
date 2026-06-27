@@ -1,0 +1,23 @@
+id: lambda-is-xi-power
+title_en: "Lambda is the function g maps to xi^g"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: universal-algebra
+difficulty: intermediate
+tags: [algebraic-theory, enveloping-monoid, unary-operation, lambda]
+depends_on:
+  required: [enveloping-monoid, reflection-in-smp]
+  recommended: [unary-operation]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "4"
+    section: "1"
+    pages: ""
+    role_in_book: "Proposition 1.7; gives an explicit description of the lambda map as sending g to the unary operation xi^g"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

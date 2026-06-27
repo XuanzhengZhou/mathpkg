@@ -1,0 +1,9 @@
+Let $h$ be a recursive function with $\text{Rng}\,h = g^{+*} \text{Sent}$ and $h(0) \in g^{+*} \Gamma$. Define the recursive function $f$ by:
+
+$$f(0) = h(0)$$
+$$f(m + 1) = \begin{cases}
+h(m) & \text{if } \Gamma \not\vdash \bigwedge_{i < m} g^{+-1} f(i) \rightarrow \neg g^{+-1} h(m) \\
+f(m) & \text{otherwise}
+\end{cases}$$
+
+Then let $\Delta = g^{+-1} \text{Rng}\,f$, the set of sentences whose Gödel numbers appear in the range of $f$.

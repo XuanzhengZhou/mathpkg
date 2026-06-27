@@ -1,0 +1,13 @@
+id: markov-gibbs-equivalence
+title_en: "Equivalence of Finite Markov and Neighbor Gibbs Fields"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-fields
+difficulty: advanced
+tags: [markov-gibbs-equivalence, markov-field, gibbs-field, neighbor-potential, hammersley-clifford]
+depends_on: {required: [markov-field, gibbs-field, canonical-potential-representation], recommended: [neighbor-system], suggested: [hammersley-clifford-theorem]}
+source_books: [{book_id: "gtm040", author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp", title: "Denumerable Markov Chains", chapter: "12", section: "3. Equivalence of finite Markov and neighbor Gibbs fields", pages: "", role_in_book: "Theorem 12-16: The fundamental equivalence theorem — finite Markov fields are exactly neighbor Gibbs fields"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

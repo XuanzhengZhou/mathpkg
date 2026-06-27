@@ -1,0 +1,23 @@
+id: bounded-completeness-inheritance
+title_en: "Bounded Completeness Inheritance by Function Spaces"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [bounded-completeness, function-spaces, uniform-convergence, linear-topological-spaces, cauchy-nets]
+depends_on:
+  required: [uniform-convergence-of-pointwise-cauchy-nets, bounded-set, totally-bounded-set, cauchy-net]
+  recommended: [complete-topological-vector-space, evaluation-map-continuity]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "8"
+    section: "8.8"
+    pages: ""
+    role_in_book: "Theorem establishing that the bounded completeness property of the codomain E is inherited by the function space B_A(S,E)"
+content_hash: "TBD"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

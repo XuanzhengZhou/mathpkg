@@ -1,0 +1,50 @@
+In light of the previous result, we suggest that the reader look anew at the proof of 1.4.22 where $(X, \delta)$ was shown to be a quotient of a subalgebra of a product of elements of $\mathcal{A}$.
+
+4.26 Hausdorff Transformation Groups. Let $\mathcal{K}$ be the category of topological spaces and continuous maps. Let E be the class-of continuous surjections (= epimorphisms) and let M be the class of optimal injections (= equalizers). Then ($\mathcal{K}$, E, M) is a regular category in which every equalizer is in M. Let G be a topological group and let T be the algebraic theory of 1.3.7 whose algebras (1.4.16) are topological transformation groups. If $f: X \longrightarrow Y$ is a continuous surjection then $f \times \
+
+(b) Prove that 4.11—modified so that the condition on $h$ reads “$e.h = f$ and $h.t = m$—holds for any factorization system. [Hint: to prove $h.e = \text{id}_{\text{Im}(t)}$, use the uniqueness of $(e, m)$.]
+
+(c) Show that 4.12 and 4.14 hold for any factorization system.
+
+2. Let $\mathcal{K}$ be the category of metric spaces with base point as in 2.1.12. Verify that $(\mathcal{K}, \mathcal{E}, \mathcal{M})$ is a regular category with respect to the following three choices of $(\mathcal{E}, \mathcal{M})$:
+
+(a) $\mathcal{E} = \text{coequalizers}, \mathcal{M} = \text{injective maps}$;
+
+(b) $\mathcal{E} = \text{surjective maps}, \mathcal{M} = \text{isometries onto a subspace}$;
+
+(c) $\mathcal{E} = \text{maps with dense image}, \mathcal{M} = \text{isometries onto a closed subspace}$.
+
+(d) Show that the forgetful functor (not the unit disc functor!) from the category of normed linear spaces and norm-decreasing linear mappings to $\mathcal{K}$ is algebraic. [Hint: special adjoint functor theorem.]
+
+(e) With $\mathcal{E}$ as in (c) and $\mathbf{T}$ as in (d), show that “Banach spaces” is an $\mathcal{E}$-Birkhoff subcategory of normed linear spaces. [Hint: use the Hahn-Banach theorem to prove that $T$ preserves $\mathcal{E}$.]
+
+3. Let $(\mathcal{E}, \mathcal{M})$ be an image factorization system in $\mathcal{K}$.
+
+(a) If $F, G: \mathcal{A} \longrightarrow \mathcal{K}$ are functors and $\alpha: F \longrightarrow G$ is a natural transformation, let
+
+$$AF \xrightarrow{Ae} AI \xrightarrow{Am} AG$$
+
+be an $\mathcal{E}$-M factorization of $A\alpha$
+
+whose evaluation map (2.1.60)
+
+is in M. [Hint: use 4.13.] In particular, $J$ is a cogenerator in the quasivariety it generates.
+
+(b) In contradistinction to exercise 2a of section 3, show that if there is at least one morphism between every pair of $\mathcal{K}$-objects and if $\mathcal{K}$ has no cogenerator (e.g. the category of groups, 2.1.64) then no small set of objects generates $\mathcal{K}$ as a quasivariety.
+
+6. Let $\mathbf{T}$ be an algebraic theory in an arbitrary category $\mathcal{K}$. A $\mathbf{T}$-equation is an arbitrary pair of morphisms of form $e, e' : K \longrightarrow AT$. A $\mathbf{T}$-algebra $(X, \xi)$ satisfies $e = e'$ if for every $f : A \longrightarrow X$ we have $e.f^{\#} = e'.f^{\#}$. A full replete subcategory of $\mathcal{K}^{\mathbf{T}}$ is equational if it consists of all $\mathbf{T}$-algebras satisfying some class of equations. Prove the following version of Birkhoff’s theorem (cf. [Hatcher ’70], [Herrlich and Ringel ’72]): If $(\mathcal{K}, E, M)$ is a regular category with $E$ the class of all coequalizers, then the $E$-Birkhoff subcategories coincide with the equational classes in $\mathcal{K}^{\mathbf{T}}$ for any $\mathbf{T}$ such that $T$ preserves $E$. [Hint: if $\mathcal{B}$ is $E$-Birkhoff, the appropriate equations are the kernel pairs of the $A\lambda'$s.]
+
+7. Let $(E, M)$ be an image factorization system on $\mathcal{K}$ and let $\mathbf{T}$ be an algebraic theory in $\mathcal{K}$ such that $T$ preserves $E$. Let $(X, \xi)$ be a $\mathbf{T}$-algebra and let $m : A \longrightarrow X$ be in M. Show that $\langle A \rangle = \operatorname{Im
+
+an arbitrary fibre-complete category in Struct(Set) and replacing $\Omega$-algebras with $\mathbf{T}$-algebras for $\mathbf{T}$ an arbitrary algebraic theory in Set. The main result is the obvious generalization of "topological algebras is algebraic over topological spaces." A Birkhoff subcategory argument is used.
+
+Let $(\mathcal{A}, U) \in \text{Struct}(\mathcal{K})$ be fibre complete and let $(\mathcal{K}^{\mathbf{T}}, U^{\mathbf{T}}) \in \text{Struct}(\mathcal{K})$ be algebraic. Consider $(\mathcal{P}, W) = (\mathcal{A}, U) \times (\mathcal{K}^{\mathbf{T}}, U^{\mathbf{T}})$ in Struct$(\mathcal{K})$ (2.3.7) and the associated pullback diagram 5.1 in the category of categories and functors
+
+$$\begin{array}{c}
+\mathcal{P} \\
+U_1 \\
+\mathcal{A} \\
+U
+\end{array} \rightarrow \mathcal{K}^{\mathbf{T}}$$
+
+(cf. 2.3.35). Clearly $(\mathcal{P}, U_1)$ is in Struct$(\mathcal{A})$ via $\mathcal{P}(K, s) = \{\xi: (K, \xi)\}$ is a $\mathbf{T}$-algebra and, similarly, $(\mathcal{P}, U_2)$ is in Struct$(\mathcal{K}^{\mathbf{T}})$. It is easily seen that $(\mathcal{P}, U_2)$ is fibre complete over $\mathcal{K}^{\mathbf{T}}$ (cf. 2.3.36). We now prove

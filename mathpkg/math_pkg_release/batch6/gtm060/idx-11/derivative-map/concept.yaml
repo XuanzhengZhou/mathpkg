@@ -1,0 +1,23 @@
+id: derivative-map
+title_en: "Derivative of a differentiable mapping between manifolds"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [derivative, pushforward, tangent-map, linear-map]
+depends_on:
+  required: [tangent-vector, differentiable-manifold]
+  recommended: [tangent-bundle]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnol'd"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "4"
+    section: "18"
+    pages: ""
+    role_in_book: "Defines the derivative (pushforward) of a smooth map between manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

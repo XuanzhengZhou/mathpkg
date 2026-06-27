@@ -1,0 +1,1 @@
+The ring of holomorphic functions on a connected domain has no zero divisors, i.e., if the product of two holomorphic functions is identically zero, one factor must be zero. This follows from the identity theorem.

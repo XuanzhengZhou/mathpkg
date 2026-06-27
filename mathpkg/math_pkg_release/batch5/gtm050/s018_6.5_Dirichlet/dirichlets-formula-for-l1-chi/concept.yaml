@@ -1,0 +1,23 @@
+id: dirichlets-formula-for-l1-chi
+title_en: "Dirichlet's explicit formula for L(1,\\chi)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: dirichlet-l-functions
+difficulty: advanced
+tags: [dirichlet-l-function, cyclotomic-integers, primitive-root, gauss-sum, class-number-formula]
+depends_on:
+  required: [dirichlet-character, c-nu-coefficients, primitive-root]
+  recommended: [m-j-coefficient-dirichlet, cyclotomic-units]
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "6. Determination of the Class Number"
+    section: "6.5 Dirichlet's evaluation of L(1,\\chi)"
+    pages: ""
+    role_in_book: "Main result of Section 6.5, giving the explicit evaluation of the L-series at s=1 needed for the class number formula"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

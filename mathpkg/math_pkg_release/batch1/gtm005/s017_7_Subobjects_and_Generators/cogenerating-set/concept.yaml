@@ -1,0 +1,23 @@
+id: cogenerating-set
+title_en: "Cogenerating Set (Cogenerator)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [cogenerator, cogenerating-set, coseparating-family, dual-notion]
+depends_on:
+  required: [generating-set, parallel-pair]
+  recommended: [faithful-functor, special-adjoint-functor-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V. Limits"
+    section: "7. Subobjects and Generators"
+    pages: ""
+    role_in_book: "Defines cogenerators, essential hypothesis of the Special Adjoint Functor Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

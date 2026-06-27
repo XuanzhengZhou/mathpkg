@@ -1,0 +1,7 @@
+Let $T : J \times P \rightarrow X$ be a bifunctor such that for each object $p \in P$ the functor $T(-, p) : J \rightarrow X$ has a limit in $X$. Then the object function
+$$p \mapsto \operatorname{Lim}_j T(j, p)$$
+is the object function of a functor $P \rightarrow X$ (the limit of $T$ with parameter $p$).
+
+Equivalently, under the adjunction $\operatorname{Cat}(J \times P, X) \cong \operatorname{Cat}(J, X^P)$, let $S : J \rightarrow X^P$ be the adjunct of $T$. Then $\operatorname{Lim} S$ exists in the functor category $X^P$ and for each $p \in P$,
+$$E_p(\operatorname{Lim} S) = \operatorname{Lim}(E_p S),$$
+where $E_p : X^P \rightarrow X$ is the evaluation functor at $p$. In a functor category, limits may be calculated pointwise (provided the pointwise limits exist).

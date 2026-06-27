@@ -1,0 +1,23 @@
+id: nondegenerate-alternating-space-even-dimension
+title_en: "Non-Degenerate Alternating Space has Even Dimension"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: bilinear-forms
+difficulty: intermediate
+tags: [alternating-bilinear-form, non-degenerate, even-dimension, symplectic-space]
+depends_on:
+  required: [alternating-bilinear-form, non-degenerate-bilinear-form]
+  recommended: [structure-theorem-alternating-forms]
+  suggested: []
+source_books:
+  - book_id: gtm049
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "5.3"
+    pages: "102-103"
+    role_in_book: "Corollary 1 to Theorem 2: establishes that non-degenerate alternating spaces must have even dimension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

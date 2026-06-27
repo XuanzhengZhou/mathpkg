@@ -1,0 +1,23 @@
+id: regular-cardinal-subtheory
+title_en: "Regular Cardinal and Subtheory Truncation"
+title_zh: "正则基数与子理论截断"
+type: proposition
+domain: algebra
+subdomain: universal-algebra
+difficulty: advanced
+tags: [regular-cardinal, subtheory, algebraic-theory, semilattice, truncation]
+depends_on:
+  required: [m-complete-semilattice]
+  recommended: [algebraic-theory, subtheory]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "5"
+    section: "5.16"
+    pages: ""
+    role_in_book: "5.16: characterizes regular cardinals in terms of algebraic theories — M is regular iff T_M is a subtheory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

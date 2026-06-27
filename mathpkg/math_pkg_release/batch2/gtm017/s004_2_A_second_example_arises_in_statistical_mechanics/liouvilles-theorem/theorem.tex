@@ -1,0 +1,5 @@
+Consider a conservative dynamical system with $n$ degrees of freedom described by generalized coordinates $q_1, \ldots, q_n$ and momenta $p_1, \ldots, p_n$, with Hamiltonian $H(p_i, q_i; i = 1, \ldots, n)$ and equations of motion
+$$\frac{dq_i}{dt} = \frac{\partial H}{\partial p_i}, \quad \frac{dp_i}{dt} = -\frac{\partial H}{\partial q_i}, \quad i = 1, \ldots, n.$$
+The phase space is the $2n$-space of points $A = (x_1, \ldots, x_{2n})$ with $x_1 = q_1, \ldots, x_n = q_n, x_{n+1} = p_1, \ldots, x_{2n} = p_n$. Let $T_t$ be the one-parameter family of transformations mapping a phase point $A_s$ at time $s$ to $A_{s+t}$ after time $t$. Then the volume in phase space is preserved under $T_t$. Specifically, if $J$ is the Jacobian determinant,
+$$\frac{\partial J}{\partial t} = J \sum_{k=1}^{n} \frac{\partial^2 H}{\partial p_k \partial q_k} - J \sum_{k=1}^{n} \frac{\partial^2 H}{\partial q_k \partial p_k} = 0.$$
+Thus $J \equiv 1$ and volume is unchanged by $T_t$.

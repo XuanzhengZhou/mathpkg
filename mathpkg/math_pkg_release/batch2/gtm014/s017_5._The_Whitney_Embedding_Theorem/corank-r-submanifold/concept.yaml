@@ -1,0 +1,23 @@
+id: corank-r-submanifold
+title_en: "Corank-r Strata are Submanifolds"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [jet-bundle, submanifold, stratification, corank, thom-boardman]
+depends_on:
+  required: [corank-r-jet-set, corank-of-one-jet]
+  recommended: [submanifold, fiber-bundle]
+  suggested: [proposition-5-3]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "5"
+    section: "The Whitney Embedding Theorem"
+    pages: ""
+    role_in_book: "theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

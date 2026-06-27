@@ -1,0 +1,11 @@
+---
+role: exercise
+locale: en
+chapter: "III"
+section: "11"
+exercise_number: 4
+---
+
+Show that the symmetric polynomials $s_k = \sum x_i^k$ satisfy Newton's identities:
+
+$$s_k - p_1 s_{k-1} + p_2 s_{k-2} - \cdots + (-1)^{k-1} p_{k-1} s_1 + (-1)^k k p_k = 0, \quad k = 1, 2, \cdots, n.$$

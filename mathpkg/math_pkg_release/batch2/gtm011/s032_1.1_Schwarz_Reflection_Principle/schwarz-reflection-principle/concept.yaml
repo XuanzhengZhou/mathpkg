@@ -1,0 +1,23 @@
+id: schwarz-reflection-principle
+title_en: "Schwarz Reflection Principle"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [analytic-continuation, complex-conjugate, reflection, symmetric-region, real-axis]
+depends_on:
+  required: [symmetric-region, analytic-function]
+  recommended: [moreras-theorem, continuous-function]
+  suggested: [schwarz-reflection-across-circle]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "9"
+    section: "9.1"
+    pages: ""
+    role_in_book: "Core theorem for analytically continuing a function across the real axis by reflection; the fundamental technique of Schwarz reflection."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

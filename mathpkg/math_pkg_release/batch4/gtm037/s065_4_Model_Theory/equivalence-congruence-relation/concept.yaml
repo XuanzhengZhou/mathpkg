@@ -1,0 +1,23 @@
+id: gamma-congruence-relation
+title_en: "Gamma-Equivalence is a Congruence"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [congruence-relation, term-algebra, equational-logic]
+depends_on:
+  required: [gamma-equivalence-relation, congruence-relation]
+  recommended: [term-algebra]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "24"
+    section: "Preservation and Characterization Theorems"
+    pages: ""
+    role_in_book: "Proposition 24.15: the Gamma relation is a congruence on the term algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

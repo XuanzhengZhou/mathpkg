@@ -1,0 +1,23 @@
+id: tangent-curves-in-mapping-space
+title_en: "Tangent Curves Criterion in $C^\\infty(X, Y)$"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [tangent-curves, mapping-space, frechet-manifold, pointwise-criterion]
+depends_on:
+  required: [tangent-space-of-frechet-manifold, smooth-maps-as-frechet-manifold]
+  recommended: [tubular-neighborhood-theorem, frechet-derivative]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "§1. Stable and Infinitesimally Stable Mappings"
+    pages: ""
+    role_in_book: "Characterizes tangency of curves in the mapping space C^\\infty(X,Y), enabling computation of the differential of the group action"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

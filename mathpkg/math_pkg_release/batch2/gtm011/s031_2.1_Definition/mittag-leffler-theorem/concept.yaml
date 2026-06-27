@@ -1,0 +1,23 @@
+id: mittag-leffler-theorem
+title_en: "Mittag-Leffler's Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [meromorphic-function, pole, singular-part, runge-theorem, mittag-leffler, rational-function]
+depends_on:
+  required: [meromorphic-function, pole, singular-part, analytic-function]
+  recommended: [runge-theorem, cauchy-sequence, uniform-convergence, weierstrass-m-test]
+  suggested: [weierstrass-factorization-theorem]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VIII"
+    section: "3.2"
+    pages: ""
+    role_in_book: "Existence theorem for meromorphic functions with prescribed poles and singular parts; the additive analog of Weierstrass's theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

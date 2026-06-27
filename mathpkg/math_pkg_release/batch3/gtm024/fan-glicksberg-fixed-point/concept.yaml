@@ -1,0 +1,23 @@
+id: fan-glicksberg-fixed-point
+title_en: "Fan-Glicksberg Fixed Point Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: fixed-point-theory
+difficulty: advanced
+tags: ["fan-glicksberg", "fixed-point", "kakutani", "upper-semicontinuous"]
+depends_on:
+  required: ["closed-convex-hull", "locally-convex-space"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§15"
+  section: "15.D"
+  pages: "103-104"
+  role_in_book: "generalization of Kakutani fixed point theorem"
+content_hash: "ddc2415827c7f779"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

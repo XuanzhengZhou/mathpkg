@@ -1,0 +1,15 @@
+---
+role: exercise
+locale: en
+chapter: "1"
+section: "1.4"
+exercise_number: 7
+---
+
+**EXERCISE 1.4.7**
+
+Let $\tilde{G}$ be the $(1,1)$ tensor field physically equivalent to the Einstein tensor $G$ on a spacetime.
+\begin{enumerate}
+\item[(a)] Show that the scalar curvature $S$ obeys $S = -\operatorname{contraction} \tilde{G}$.
+\item[(b)] Show that $\operatorname{Ric} = 0$ if and only if $G = 0$.
+\end{enumerate}

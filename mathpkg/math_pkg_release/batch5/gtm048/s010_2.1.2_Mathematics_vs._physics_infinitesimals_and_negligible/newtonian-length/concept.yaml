@@ -1,0 +1,23 @@
+id: newtonian-length
+title_en: "Newtonian length"
+title_zh: "牛顿长度"
+type: definition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: basic
+tags: [observer, length, rest-space, projection, metric]
+depends_on:
+  required: [instantaneous-observer, newtonian-angle]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs, Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "2"
+    section: "2.1.4"
+    pages: ""
+    role_in_book: "Defines the Newtonian length of a tangent vector as measured by an instantaneous observer"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

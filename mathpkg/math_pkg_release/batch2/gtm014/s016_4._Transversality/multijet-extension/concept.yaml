@@ -1,0 +1,23 @@
+id: multijet-extension
+title_en: "Multijet Extension j_s^k f"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: basic
+tags: ["jet-extension", "multijet", "transversality", "smooth-map"]
+depends_on:
+  required: ["multijet-bundle", "configuration-space-xs"]
+  recommended: ["jet-extension", "k-jet"]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "II"
+    section: "§4. Transversality"
+    pages: ""
+    role_in_book: "defines-the-multijet-extension-of-a-smooth-map"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: brauer-irreducible-modular-characters-basis
+title_en: "Brauer's Theorem: Irreducible Modular Characters Form a Basis"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: advanced
+tags: ["brauers-theorem", "modular-character", "class-function", "basis", "linear-independence"]
+depends_on:
+  required: ["irreducible-modular-characters", "modular-character", "class-function"]
+  recommended: ["density-theorem", "absolutely-simple-module", "sk"]
+  suggested: ["decomposition-map"]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "18"
+    section: "18.2"
+    pages: ""
+    role_in_book: "Theorem 42 (R. Brauer); one of the central theorems of modular representation theory, establishing that irreducible Brauer characters span and are linearly independent in the space of class functions on $G_{\text{reg}}$."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: coherence-from-strict-monoidal-equivalence
+title_en: "Coherence from Strict Monoidal Equivalence"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [monoidal-category, strict-monoidal-category, coherence, associativity, monoidal-functor]
+depends_on:
+  required: [monoidal-category, strict-monoidal-category, strong-monoidal-functor]
+  recommended: [strictification-theorem-for-monoidal-categories]
+  suggested: [coherence-theorem]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "3"
+    pages: "271-273"
+    role_in_book: "Converse direction: strict monoidal equivalence implies coherence for associativity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

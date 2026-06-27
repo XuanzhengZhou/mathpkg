@@ -1,0 +1,10 @@
+In any category $C$, an object $p$ is called \textit{projective} if for every epimorphism $g : b \twoheadrightarrow c$ and every arrow $h : p \rightarrow c$, there exists an arrow $h' : p \rightarrow b$ such that $g \circ h' = h$:
+\[
+\begin{CD}
+@. p @.\\
+@. @VV{h'}V @VV{h}V\\
+b @>>{g}>_{\text{epi}}> c
+\end{CD}
+\]
+
+Equivalently, $p$ is projective precisely when the hom-functor $\hom(p, -) : C \rightarrow \mathbf{Set}$ preserves epimorphisms; that is, $g$ epi implies $\hom(p, g) : \hom(p, b) \rightarrow \hom(p, c)$ is surjective.

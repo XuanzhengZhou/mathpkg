@@ -1,0 +1,23 @@
+id: rank-cycle-characterization
+title_en: "Rank Characterization via Cycles"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: matroid-theory
+difficulty: intermediate
+tags: [rank-function, cycle, matroid, characterization, dependent-set]
+depends_on:
+  required: []
+  recommended: [independence-rank-equivalence, matroid, rank-structure]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "X"
+    section: "C"
+    pages: "288-294"
+    role_in_book: "C7 Corollary: characterizes when adding an element does not increase rank in terms of existence of a cycle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

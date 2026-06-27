@@ -1,0 +1,29 @@
+Notation is as in (13.41). Suppose that $p = 1$, that $f_n \to f \mu$-a.e., and that $\|f_n\|_1 \to \|f\|_1$. Then
+
+(i) $\int_E |f_n| d\mu \to \int_E |f| d\mu$ for all $E \in \mathcal{A}$,
+
+(ii) $\|f - f_n\|_1 \to 0,$ and
+
+(iii
+
+for all $n \geq n_0$. Now apply (i) to get
+
+$$\lim_{n \to \infty} \int_X |f - f_n| d\mu = \lim_{n \to \infty} \left[ \int_{A'} |f - f_n| d\mu + \int_{A \cap B'} |f - f_n| d\mu + \int_B |f - f_n| d\mu \right]$$
+
+$$\leq \lim_{n \to \infty} \left[ \int_{A'} |f| d\mu + \int_{A'} |f_n| d\mu + \int_{A \cap B'} |f| d\mu + \int_{A \cap B'} |f_n| d\mu \right] + \frac{\varepsilon}{5}$$
+
+$$= 2 \int_{A'} |f| d\mu + 2 \int_{A \cap B'} |f| d\mu + \frac{\varepsilon}{5} < \frac{2\varepsilon}{5} + \frac{2\varepsilon}{5} + \frac{\varepsilon}{5} = \varepsilon.$$
+
+Since $\varepsilon$ is arbitrary, we have proved (ii). Conclusion (iii) follows at once from (ii).
+
+(13.48) Note. Theorem (13.42) admits a partial converse involving no hypothesis about pointwise convergence or convergence in measure. This converse is easy to prove once certain inequalities are established, and we postpone it to (15.17) infra.
+
+(13.49) Exercise. Notation is as in (13.41). Suppose that $\|f_n\|_p \to \|f\|_p$. Prove the following.
+
+(a) If $f_n \to f$ $\mu$-a.e., then $\|f - f_n\|_p \to 0$.
+
+(b) If $f_n \to f$ in measure, then $\|f - f_n\|_p \to 0$. [Recall that $1 \leq p < \infty$.]
+
+(13.50) Exercise. Notation is as in (13.41). Suppose that $f_n \
+
+DUNFORD and JACOB T. SCHWARTZ [New York: Interscience Publishers, 1958]. Throughout this section $F$ will denote either the field $R$ or the field $K$.

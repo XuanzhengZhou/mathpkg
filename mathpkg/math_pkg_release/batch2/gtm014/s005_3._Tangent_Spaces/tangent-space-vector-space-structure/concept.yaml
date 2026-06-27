@@ -1,0 +1,23 @@
+id: tangent-space-vector-space-structure
+title_en: "Unique Vector Space Structure on Tangent Space"
+title_zh: "切空间上唯一的向量空间结构"
+type: proposition
+domain: geometry
+subdomain: smooth-manifolds
+difficulty: basic
+tags: [tangent-space, vector-space, chart, linear-isomorphism, smooth-manifold]
+depends_on:
+  required: [tangent-space-chart-map-bijection]
+  recommended: [tangency-of-curves-on-manifold]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "1"
+    section: "3"
+    pages: ""
+    role_in_book: "Proposition 3.5 — makes T_pX a vector space, foundation for differential"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

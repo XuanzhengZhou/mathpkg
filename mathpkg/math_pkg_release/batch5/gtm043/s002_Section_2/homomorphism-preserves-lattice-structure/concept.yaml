@@ -1,0 +1,23 @@
+id: homomorphism-preserves-lattice-structure
+title_en: "Every ring homomorphism from C(Y) or C*(Y) into C(X) is a lattice homomorphism"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-functions
+difficulty: intermediate
+tags: [ring-homomorphism, lattice-homomorphism, order-preserving, cx, algebraic-determination]
+depends_on:
+  required: [ring-of-continuous-functions-cx, cx-subring-of-rx, cx-closed-under-join]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.6"
+    pages: ""
+    role_in_book: "Key result showing the order structure is algebraically determined"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

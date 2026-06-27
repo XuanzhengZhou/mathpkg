@@ -1,0 +1,23 @@
+id: whitney-cusp-theorem
+title_en: "Whitney Cusp Theorem"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [Whitney, cusp, simple-cusp, normal-form, 2-manifold, singularity-theory, Malgrange-preparation-theorem]
+depends_on:
+  required: [cusp-point, S1-singularity]
+  recommended: [whitney-fold-theorem, malgrange-preparation-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky and Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "IV"
+    section: "2"
+    pages: ""
+    role_in_book: "Second Whitney theorem for generic maps between 2-manifolds; normal form for simple cusp points"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

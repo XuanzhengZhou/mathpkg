@@ -1,0 +1,23 @@
+If $T$ is a stopping time, and $F(n,x)$ an arbitrary non-negative function defined for all $n \geq 0$ and all $x \in R$, and if $F(\infty, x) = 0$, then
+
+$$E_z[F(T, x_{T+n})] = E_z\{E_{x_T}[F(T, x_n)]\} = E_z[\sum_{y \in R} P_n(x_T, y)F(T, y)]$$
+
+$$= \sum_{z \in R} \sum_{k=0}^{\infty} P_z[x_T = z; T = k]E_z[F(k, x_n)] \leq \infty.$$
+
+In particular, setting $F(n,x) = 1$ if $n = k$ and $x = y$, while $F(n,x) = 0$ otherwise,
+
+$$P_z[T = k; x_{T+n} = y] = \sum_{z \in R} P_z[x_T = z; T = k]P_z[x_n = y].$$
+
+The proof is omitted—the reduction to a problem involving independent functions is quite natural, and then the result becomes a special case of part (b) of P1. Instead we illustrate the use of P2 by giving a still shorter proof of part (c) of P1.2.
+
+Let $T_y = \min[k | k \geq 1, x_k = y]$. It is clearly a stopping time in the sense of D3. Now we have
+
+$$P_n(x,y) = P_z[x_n = y] = \sum_{k=1}^{n} P_z[T_y = k; x_n = y]$$
+
+$$= \sum_{k=1}^{n} P_z[T_y = k; x_{T_y+n-k} = y],$$
+
+and since $x_{T_y} = y$, the last line of P2 gives
+
+$$P_n(x,y) = \sum_{k=1}^{n} P_z[T_y = k]P_y[x_{n-k} = y] = \sum_{k=1}^{n} F_k(x,y)P_{n-k}(y,y).$$
+
+As the next illustration of the use of the measure theoretical notation in D1 we shall reformulate the definition of recurrence

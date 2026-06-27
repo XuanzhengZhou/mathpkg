@@ -1,0 +1,23 @@
+id: change-of-bound-variables
+title_en: "Change of bound variables"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: first-order-logic
+difficulty: intermediate
+tags: [bound-variable, substitution, logical-equivalence, first-order-logic, alpha-conversion]
+depends_on:
+  required: [bound-variable-decomposition, replace-occurrence-equivalence, free-substitution]
+  recommended: [lemma-10.55, formula-induction]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "10"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Main theorem: bound variables can be renamed while preserving logical equivalence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

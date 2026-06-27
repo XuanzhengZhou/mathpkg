@@ -1,0 +1,23 @@
+id: bounded-nonzero-regular-function-absorbing-chain
+title_en: "Bounded Nonzero Regular Function for Absorbing Chain"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [absorbing-chain, regular-function, bounded-function]
+depends_on:
+  required: []
+  recommended: [martingale-convergence, absorbing-chain]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "8"
+    section: "4"
+    pages: "220-225"
+    role_in_book: "Lemma used to prove uniqueness in the Dirichlet problem for Markov chains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: p-adic-solenoid
+title_en: "p-adic Solenoid"
+title_zh: "p进螺线管"
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [p-adic, solenoid, inverse-limit, topological-space]
+depends_on:
+  required: [limit-of-diagram, topological-space, circle]
+  recommended: [inverse-limit, p-adic-integers-as-inverse-limit]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "1. Creation of Limits"
+    pages: ""
+    role_in_book: "Topological example of limits — the p-adic solenoid as an inverse limit of circles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

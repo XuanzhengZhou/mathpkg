@@ -1,0 +1,23 @@
+id: m-isomorphic-to-hom-r-m
+title_en: "M is Isomorphic to Hom_R(R,M) as a Left R-Module"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [hom-set, regular-module, isomorphism]
+depends_on:
+  required: []
+  recommended: [hom-set-is-abelian-group, regular-bimodule]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "4"
+    pages: ""
+    role_in_book: "Establishes the canonical isomorphism between a module and Hom from the regular module"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

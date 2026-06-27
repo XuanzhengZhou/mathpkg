@@ -1,0 +1,23 @@
+id: w-is-exact-functor
+title_en: "W is an Exact Functor"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: sheaf-theory
+difficulty: advanced
+tags: [sheaf, exact-functor, flabby-resolution, exact-sequence]
+depends_on:
+  required: [flabby-resolution-sheaf-w, w-is-covariant-functor]
+  recommended: [exact-functor, short-exact-sequence-of-sheaves]
+  suggested: []
+source_books:
+  - book_id: gtm038
+    author: "Grauert, H.; Fritzsche, K."
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Establishes that the flabby resolution functor W preserves exactness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

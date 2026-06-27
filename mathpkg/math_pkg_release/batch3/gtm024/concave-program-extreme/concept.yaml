@@ -1,0 +1,23 @@
+id: concave-program-extreme
+title_en: "Extreme Point Solution of Concave Programs"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: optimization
+difficulty: advanced
+tags: ["concave-program", "extreme-point", "optimization"]
+depends_on:
+  required: ["extremal-set-def", "convex-function-def"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§8"
+  section: "8.F"
+  pages: "37"
+  role_in_book: "optimal solutions at extreme points"
+content_hash: "865f0ec851fa463a"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: cauchy-riemann-sufficient
+title_en: "Sufficiency of the Cauchy-Riemann Equations"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [cauchy-riemann, analytic-function, complex-differentiability, sufficient-condition]
+depends_on:
+  required: [cauchy-riemann-equations]
+  recommended: [continuous-partial-derivatives, analytic-function-definition]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "5"
+    pages: ""
+    role_in_book: "Theorem — if u and v have continuous first partial derivatives satisfying the Cauchy-Riemann equations, then f = u + iv is analytic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

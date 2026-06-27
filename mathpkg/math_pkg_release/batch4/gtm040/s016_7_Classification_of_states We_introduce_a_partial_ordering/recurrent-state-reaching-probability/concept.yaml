@@ -1,0 +1,23 @@
+id: recurrent-state-reaching-probability
+title_en: "Recurrent State Reaching Probabilities"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, recurrence, hitting-probability, r-relation]
+depends_on:
+  required: [bounded-return-probability-before-hitting, recurrent-and-transient-states]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "7. Classification of states"
+    pages: ""
+    role_in_book: "Lemma 4-23: If i is recurrent and R(i,j), then H_ji = 1 and H_ij = 1"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: primary-ideal
+title_en: "Primary ideal"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [primary-ideal, prime-ideal, radical, primary-decomposition]
+depends_on:
+  required: [ideal, radical-ideal-properties]
+  recommended: [prime-ideal]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "III"
+    section: "§9"
+    pages: ""
+    role_in_book: "generalizes powers of prime numbers to ideals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: fundamental-pair-lemma
+title_en: "Existence of Fundamental Pair of Periods"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [fundamental-pair, periods, lattice, equivalent-pairs, modular-group]
+depends_on:
+  required: [modular-group, lattice, fundamental-domain]
+  recommended: [upper-half-plane]
+  suggested: [linear-fractional-transformation]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "2"
+    section: "2.3"
+    pages: ""
+    role_in_book: "Lemma 1 — Key lemma for proving the existence and shape of the fundamental region of the modular group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

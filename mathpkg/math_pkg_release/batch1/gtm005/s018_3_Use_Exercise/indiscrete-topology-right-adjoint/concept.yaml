@@ -1,0 +1,23 @@
+id: indiscrete-topology-right-adjoint
+title_en: "Indiscrete Topology Functor as Right Adjoint to Forgetful Functor"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: category-theory
+difficulty: basic
+tags: [adjunction, indiscrete-topology, forgetful-functor, right-adjoint]
+depends_on:
+  required: [forgetful-functor-top-to-set]
+  recommended: [adjoint-functor]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IV. Adjoints"
+    section: "9. Adjoints in Topology"
+    pages: ""
+    role_in_book: "Right adjoint to forgetful functor; shows G preserves colimits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

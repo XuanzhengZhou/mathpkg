@@ -1,0 +1,20 @@
+id: engels-theorem
+title_en: "Engel's Theorem"
+title_zh: "恩格尔定理"
+type: theorem
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [engel, nilpotent, ad-nilpotent, common-eigenvector]
+depends_on: {required: [nilpotent-lie-algebra], recommended: [], suggested: [lies-theorem]}
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "3"
+    section: "3.3"
+    pages: "26-28"
+    role_in_book: "Characterizes nilpotent Lie algebras via ad-nilpotent elements"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

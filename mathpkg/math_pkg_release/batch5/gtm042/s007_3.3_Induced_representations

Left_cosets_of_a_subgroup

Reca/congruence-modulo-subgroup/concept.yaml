@@ -1,0 +1,23 @@
+id: congruence-modulo-subgroup
+title_en: "Congruence Modulo a Subgroup"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [coset, equivalence-relation, subgroup]
+depends_on:
+  required: [left-coset]
+  recommended: [subgroup]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "3"
+    section: "3.3"
+    pages: ""
+    role_in_book: "Equivalence relation used to partition G into left cosets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

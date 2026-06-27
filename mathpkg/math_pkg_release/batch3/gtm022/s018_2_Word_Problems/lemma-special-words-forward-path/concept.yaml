@@ -1,0 +1,23 @@
+id: lemma-special-words-forward-path
+title_en: "Lemma 2.8: Forward Path Lemma for Special Words"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [special-words, terminal-word, forward-step, backward-step, word-problem, semigroup]
+depends_on:
+  required: [forward-step, backward-step, semigroup-presentation-from-turing-machine]
+  recommended: [special-word, terminal-word]
+  suggested: []
+source_books:
+  - book_id: gtm022
+    author: "D. W. Barnes, J. M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "7"
+    section: "2. Word Problems"
+    pages: "112-113"
+    role_in_book: "Key lemma showing that equivalence of a special word to a terminal word can be witnessed by a path of forward steps only, eliminating backward steps."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

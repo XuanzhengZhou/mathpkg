@@ -1,0 +1,23 @@
+id: irreducible-iff-pure-power-minimum-polynomial-and-cyclic
+title_en: "Characterization of Irreducible Spaces"
+title_zh: "不可约空间的刻画"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [irreducible-subspace, cyclic-space, minimum-polynomial]
+  recommended: [irreducible-polynomial, divisibility]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "E is irreducible iff the minimum polynomial is a pure power of an irreducible and E is cyclic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

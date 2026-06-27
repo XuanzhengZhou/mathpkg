@@ -1,0 +1,23 @@
+id: stiefel-whitney-classes-and-chern-classes
+title_en: "Stiefel-Whitney Classes and Chern Classes"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: characteristic-classes
+difficulty: intermediate
+tags: [stiefel-whitney-class, chern-class, characteristic-class, vector-bundle, cohomology]
+depends_on:
+  required: []
+  recommended: [leray-hirsch-theorem-for-projective-bundle, projective-bundle-associated-with-vector-bundle, tautological-class-of-projective-bundle]
+  suggested: [characteristic-class, classifying-space]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "15"
+    section: "2"
+    pages: ""
+    role_in_book: "The central definition: Stiefel-Whitney classes w_i(ξ) for real vector bundles and Chern classes c_i(ξ) for complex vector bundles, defined as the coefficients x_i(ξ) from the relation satisfied by a_ξ^n."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

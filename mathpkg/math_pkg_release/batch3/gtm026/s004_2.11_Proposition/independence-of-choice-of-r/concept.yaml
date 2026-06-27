@@ -1,0 +1,23 @@
+id: independence-of-choice-of-r
+title_en: "Independence of the choice of r in structural equivalence construction"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: universal-algebra
+difficulty: intermediate
+tags: [equational-presentation, structural-equivalence, clone-morphism, monoid-isomorphism]
+depends_on:
+  required: [structural-equivalence-finitary-equational-presentations, monoid-of-omega-e]
+  recommended: [set-omega-e-is-a-category]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.22"
+    pages: ""
+    role_in_book: "Technical lemma ensuring the definition of ψ_X in (2.20)⇒(2.18) is well-defined, independent of the auxiliary function r"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: pseudometric-space
+title_en: "Pseudometric Space"
+title_zh: "伪度量空间"
+type: definition
+domain: analysis
+subdomain: metric-spaces
+difficulty: basic
+tags: [pseudometric, metric-space, equivalence-relation, identification]
+depends_on:
+  required: [metric-space]
+  recommended: [equivalence-relation]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "10"
+    section: "10"
+    pages: "50-52"
+    role_in_book: "Defines pseudometric; constructs metric space by identification"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

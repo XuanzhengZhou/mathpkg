@@ -1,0 +1,23 @@
+id: monic-epic-via-exact-sequences
+title_en: "Monic and Epic Characterized via Exact Sequences"
+title_zh: "通过正合列刻画单同态与满同态"
+type: corollary
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [module-theory, exact-sequence, monomorphism, epimorphism]
+depends_on:
+  required: [exact-sequence-of-modules, module-epimorphism, module-monomorphism, kernel-image-coimage-cokernel]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "3. Homomorphisms of Modules"
+    pages: ""
+    role_in_book: "Corollary 3.12 — exact sequence characterizations of monic and epic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

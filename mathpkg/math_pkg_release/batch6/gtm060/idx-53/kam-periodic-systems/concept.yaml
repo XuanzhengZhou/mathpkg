@@ -1,0 +1,23 @@
+id: kam-periodic-systems
+title_en: "KAM Theorem for Periodic Hamiltonian Systems"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: hamiltonian-mechanics
+difficulty: advanced
+tags: [KAM-theory, periodic-systems, invariant-tori, perturbation-theory, hamiltonian]
+depends_on:
+  required: [nondegeneracy-condition]
+  recommended: [kam-theorem, diophantine-condition]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnol'd"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 8"
+    section: "D.2"
+    pages: ""
+    role_in_book: "KAM variant for systems with periodic time dependence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

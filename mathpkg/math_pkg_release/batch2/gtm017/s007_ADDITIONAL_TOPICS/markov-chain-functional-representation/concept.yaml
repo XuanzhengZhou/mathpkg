@@ -1,0 +1,13 @@
+id: markov-chain-functional-representation
+title_en: "Functional Representation of Finite-State Markov Chains"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [markov-chain, representation, independent-random-variables, bernoulli-shift]
+depends_on: {required: [markov-chain, independent-events], recommended: [borel-zero-one-law], suggested: []}
+source_books: [{book_id: "gtm017", author: "", title: "Random Processes", chapter: "7", section: "Additional Topics", pages: "", role_in_book: "Shows finite-state stationary Markov chains with positive transitions are functions of i.i.d. uniforms"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

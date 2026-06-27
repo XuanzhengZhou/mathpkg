@@ -1,0 +1,23 @@
+id: trace-of-linear-transformation
+title_en: "Trace of a Linear Transformation"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [trace, linear-transformation, determinant-function]
+depends_on:
+  required: [determinant, linear-transformation]
+  recommended: [characteristic-polynomial]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§7. The trace"
+    pages: "4.23"
+    role_in_book: "Defines the trace of a linear transformation via a determinant function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

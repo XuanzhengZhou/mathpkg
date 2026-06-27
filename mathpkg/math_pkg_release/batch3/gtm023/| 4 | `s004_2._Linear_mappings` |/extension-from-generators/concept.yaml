@@ -1,0 +1,23 @@
+id: extension-from-generators
+title_en: "Extension of a Set Map from a System of Generators to a Linear Mapping"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [linear-mapping, extension, system-of-generators, linear-relations, vector-space]
+depends_on:
+  required: [linear-mapping-definition, system-of-generators]
+  recommended: [linear-combination]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "1"
+    section: "2"
+    pages: ""
+    role_in_book: "Proposition I — characterizes when a set map on generators extends to a linear map; uniqueness and necessary/sufficient condition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

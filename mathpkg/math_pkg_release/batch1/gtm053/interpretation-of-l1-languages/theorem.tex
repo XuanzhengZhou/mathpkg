@@ -1,0 +1,9 @@
+An \text{interpretation} $\phi$ of a language $L$ in a set $M$ consists of:
+\begin{enumerate}
+\item Primary mappings: $\phi(c) \in M$ for each constant $c$; $\phi(f): M^r \to M$ for each operation $f$ of degree $r$; $\phi(p) \subset M^r$ for each relation $p$ of degree $r$.
+\item The interpretation class $\overline{M} = \{\text{maps from variables to } M\}$. For each $\xi \in \overline{M}$, $x^\xi \in M$.
+\item Terms: $\phi(t): \overline{M} \to M$ defined inductively; $\phi(f(t_1,\ldots,t_r))(\xi) = \phi(f)(\phi(t_1)(\xi),\ldots,\phi(t_r)(\xi))$.
+\item Formulas: truth function $|P|_\phi: \overline{M} \to \{0,1\}$ defined inductively via the Boolean connectives and quantifier rules:
+$$|\forall x P|(\xi) = \min_{\xi'} |P|(\xi'), \quad |\exists x P|(\xi) = \max_{\xi'} |P|(\xi'),$$
+where $\xi'$ runs through all variations of $\xi$ along $x$.
+\end{enumerate}

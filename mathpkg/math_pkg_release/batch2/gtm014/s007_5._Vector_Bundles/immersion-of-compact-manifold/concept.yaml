@@ -1,0 +1,23 @@
+id: immersion-of-compact-manifold
+title_en: "1:1 Immersion of a Compact Manifold into Euclidean Space"
+title_zh: ""
+type: exercise
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [compact-manifold, immersion, embedding, euclidean-space, submanifold, smooth-manifold]
+depends_on:
+  required: [smooth-manifold, immersion, compact-manifold]
+  recommended: [submersion, vector-bundle]
+  suggested: [whitney-embedding-theorem]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "5"
+    section: "5. Vector Bundles"
+    pages: ""
+    role_in_book: "Exercise — asks the reader to prove that every compact smooth manifold immerses injectively into some Euclidean space, foreshadowing the Whitney embedding theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

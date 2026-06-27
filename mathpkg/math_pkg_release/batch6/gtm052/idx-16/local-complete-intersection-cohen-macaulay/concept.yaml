@@ -1,0 +1,23 @@
+id: local-complete-intersection-cohen-macaulay
+title_en: "Local Complete Intersection Subscheme Properties"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [local-complete-intersection, cohen-macaulay, normal, regular-in-codimension-1, nonsingular-variety]
+depends_on:
+  required: [normal-ring, serre-criterion-normality]
+  recommended: [cohen-macaulay-ring, local-complete-intersection, regular-sequence, codimension]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "201-205"
+    role_in_book: "Proposition 8.23: Cohen-Macaulay and normality properties of local complete intersections"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

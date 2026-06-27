@@ -1,0 +1,23 @@
+id: pi-star-proper-immersion
+title_en: "Proposition 1.4: π* is a 1:1 Proper Immersion"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [proper-immersion, grassmannian, linear-maps, corank, submanifold]
+depends_on:
+  required: [pi-star-map, lr-linear-maps-corank]
+  recommended: [proper-map, immersion]
+  suggested: [sr-submanifold-in-jet-space]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "Chapter VI: Classification of Singularities, Part I: The Thom-Boardman Invariants"
+    section: "§1. The S_r Classification"
+    pages: "145"
+    role_in_book: "Key technical proposition showing L^r(V,W) is a submanifold of Hom(V,W)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

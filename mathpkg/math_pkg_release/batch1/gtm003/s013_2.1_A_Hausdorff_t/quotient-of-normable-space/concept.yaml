@@ -1,0 +1,23 @@
+id: quotient-of-normable-space
+title_en: "Quotient of a Normable Space"
+title_zh: "可赋范空间的商空间"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [normable-space, quotient-space, closed-subspace, norm, completeness]
+depends_on:
+  required: [normable-space, quotient-vector-space, closed-subspace]
+  recommended: [hausdorff-space, banach-space, quotient-map]
+  suggested: [bounded-set, convex-set]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Theorem 2.3; establishes that the quotient of a normable (resp. complete) t.v.s. by a closed subspace inherits normability (resp. completeness), with explicit quotient norm formula"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,31 @@
+id: alexandroffs-theorem
+title_en: "Alexandroff's Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: metric-spaces
+difficulty: intermediate
+tags:
+  - G-delta-set
+  - topologically-complete
+  - complete-metric-space
+  - remetrization
+depends_on:
+  required:
+    - remetrization-lemma
+  recommended:
+    - complete-metric-space
+    - g-delta-set
+    - metric-space
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "12"
+    section: "The Theorem of Alexandroff"
+    pages: ""
+    role_in_book: "Main theorem of Chapter 12; characterizes which subspaces of complete metric spaces admit a complete metric"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,71 @@
+For any real number $\alpha$, let $\binom{\alpha}{n} = \frac{\alpha(\alpha - 1)(\alpha - 2) \cdots (\alpha - n + 1)}{n!}$
+
+for $n = 1, 2, \ldots$. The infinite series
+
+(i) $$\sum_{n=0}^{\infty} \binom{\alpha}{n} x^n$$
+
+converges for all $x \in ]-1, 1$. For $\alpha > 0$, the series
+
+(ii
+
+Hence the series (i) converges absolutely for $|x| < 1$. Next we prove (ii). The case in which $\alpha$ is a nonnegative integer is again trivial. For $\alpha$ not a nonnegative integer, let $a_n = \left| \binom{\alpha}{n} \right|$. Then we have
+
+$$\frac{a_{n+1}}{a_n} = \frac{|\alpha - n|}{n+1} = \frac{n - \alpha}{n+1},$$
+
+the last equality holding for $n \geq [\alpha] + 1$ $[[\alpha]$ is the largest integer not exceeding $\alpha$]. Hence for $n \geq [\alpha] + 1$, we have $(n+1)a_{n+1} = na_n - \alpha a_n$, and so
+
+$$na_n - (n+1)a_{n+1} = \alpha a_n > 0.$$
+
+Thus for $n \geq [\alpha] + 1$, $(na_n)$ is a decreasing sequence, and so has a limit; let $\lim_{n \to \infty} na_n = \gamma \geq 0$. Now consider the series $\sum_{n=0}^{\infty} (na_n - (n+1)a_{n+1})$. The $p^{\text{th}}$ partial sum of this series is $-(p+1)a_{p+1}$, which converges to $-\gamma$. Hence the series $\sum_{n=0}^{\infty} (na_n - (n+1)a_{n+1})$ converges, and since by (1)
+
+$$a_n = \frac{1}{\alpha} (na_n - (n+1)a_{n+1})$$
+
+for sufficiently large $n$, the series $\sum_{n=0}^{\infty} a_n$ converges; i.e., the series (ii) converges. Since $\left| \binom{\alpha}{n} x^n \right| \leq \left| \binom{\alpha}{n} \right|$ for $|x| \leq 1$, the series (i) converges absolutely and uniformly in $[-1, 1]$ and so defines a continuous function on $[-1, 1]$
+
+i.e.,
+
+$$ (1 + x) f_{\alpha - 1}(x) = f_{\alpha}(x). $$
+
+Combining (2) and (3), we see that
+
+$$ (1 + x) f_{\alpha}'(x) - \alpha f_{\alpha}(x) = 0 $$
+
+for all $x \in ] - 1, 1[$. Also we have
+
+$$ \frac{d}{dx} \left[ f_{\alpha}(x) (1 + x)^{-\alpha} \right] = (1 + x)^{-\alpha - 1} \left( (1 + x) f_{\alpha}'(x) - \alpha f_{\alpha}(x) \right) = 0. $$
+
+Hence $\frac{f_{\alpha}(x)}{(1 + x)^{\alpha}}$ is a constant function in $] - 1, 1[$. Setting $x = 0$, we determine that the constant value of this function is 1; i.e., $f_{\alpha}(x) = (1 + x)^{\alpha}$ for $|x| < 1$. If $\alpha > 0$, then the series also converges for $x = \pm 1$, and hence the identity (iii) also holds for these values of $x$. [Two continuous complex-valued functions that are equal on a dense subset of their common domain are equal everywhere.]
+
+(7.26) Remarks. (a) In proving the important Theorem (7.27), we need only the special case of (7.25.iii) in which $\alpha = \frac{1}{2}$. That is, we need the identity
+
+(i) $$ (1 + x)^{\frac{1}{2}} = \sum_{n=0}^{\infty} \left( \frac{1}{n} \right) x^n, $$
+
+and the fact that the series converges absolutely and uniformly for $|x| \leq 1$.
+
+(b) The STONE-WEIERSTRASS theorem depends ultimately upon order properties of the space $\mathfrak{C}'(X)$ for a compact Hausdorff space $X$. It is evident that $\max\{f, g\}$ and $\min\{f, g\}$ are continuous if $f, g$ are in $\mathfrak
+
+$|t| \leq 2^{\frac{1}{2}}$ (7.26). For every positive integer $p$ and for all real $t$ such that $|t| \leq 2^{\frac{1}{2}}$, we thus have
+
+$$\left| |t| - \sum_{n=0}^{p} \binom{\frac{1}{2}}{n} (t^2 - 1)^n \right| \leq \sum_{n=p+1}^{\infty} \left| \binom{\frac{1}{2}}{n} \right|;$$
+
+(1)
+
+and the right side of (1) is arbitrarily small for $p$ sufficiently large. Now consider any nonzero function $\psi$ in $\mathfrak{B}^r(X)$, and for brevity write the number $\|\psi\|_u$ as $\beta$. For $x \in X$ and $p \in N$, we apply (1) to write
+
+$$\left| |\psi(x)| - \sum_{n=0}^{p} \beta \left(\frac{1}{n}\right) \left[ \frac{\psi^2(x)}{\beta^2} - 1 \right]^n \right|$$
+
+$$= \beta \left| \beta^{-1} |\psi(x)| - \sum_{n=0}^{p} \binom{\frac{1}{2}}{n} \left[ \frac{\psi^2(x)}{\beta^2} - 1 \right]^n \right|$$
+
+$$\leq \beta \sum_{n=p+1}^{\infty} \left| \binom{\frac{1}{2}}{n} \right|.$$
+
+It follows that for $\psi \in \mathfrak{B}^r(X)$ and $\varepsilon > 0$, there is a real polynomial $Q$ in the functions 1 and $\psi^2$ [i.e., a linear combination with real coefficients of 1, $\psi^2, \psi^4, \ldots$], the coefficients of which depend solely upon $\beta$ and $\varepsilon$, for which
+
+$$\|\psi\| - Q\|_u < 2\varepsilon.$$
+
+(2)
+
+If $\varphi = \psi$, the relation (
+
+nominal in functions from $\mathfrak{S}$ is an element of the smallest subalgebra of $R^X$ that contains $\mathfrak{S}$. Complex polynomials are defined similarly in $K^X$.
+
+We now prove one version of the STONE-WEIERSTRASS theorem.

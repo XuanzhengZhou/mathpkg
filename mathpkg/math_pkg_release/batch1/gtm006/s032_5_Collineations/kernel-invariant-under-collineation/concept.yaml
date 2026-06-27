@@ -1,0 +1,23 @@
+id: kernel-invariant-under-collineation
+title_en: "Corollary to Lemma 11.16: Kernel invariant under Collineations"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [kernel, collineation, confined-configuration, invariance, projective-plane]
+depends_on:
+  required: [kernel-of-configuration, confined-configuration-collineation-invariance]
+  recommended: [confined-configuration]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes"
+    title: "Projective Planes"
+    chapter: "Chapter XI"
+    section: "5. Collineations"
+    pages: "244-248"
+    role_in_book: "core"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: geodesic-minimizes-length
+title_en: "Geodesics Locally Minimize Length"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [geodesic, length-minimization, geodesic-polar-coordinates, comparison-curve, reparametrization]
+depends_on:
+  required: [geodesic-polar-coordinates]
+  recommended: [gauss-lemma, exponential-map]
+  suggested: [arc-length, first-fundamental-form]
+source_books:
+  - book_id: gtm051
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.3"
+    pages: "109-112"
+    role_in_book: "Fundamental property of geodesics on Riemannian surfaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

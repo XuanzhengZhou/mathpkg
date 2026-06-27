@@ -1,0 +1,11 @@
+An effectivized general logic is a weak effectivized general logic $L$ such that the following conditions hold:
+
+\begin{enumerate}
+  \item[(1)] There is a unary recursive function $\mathrm{Comp}_L$ such that if $(\mathcal{L}, \Gamma, \mathfrak{A}, \varphi, h) \in L$ and $\mathcal{L}$ is a reduct of $\mathcal{L}_{\mathrm{un}}$, then for any $\varphi \in \Gamma$, $\mathrm{Comp}_L(h\varphi) = h\psi$ for some $\psi \in \Gamma$ such that
+  $$\mathrm{Mod}_{\mathcal{L}, L} \psi = \mathbf{S}_{\mathcal{L}} \sim \mathrm{Mod}_{\mathcal{L}, L} \varphi;$$
+
+  \item[(2)] There is a binary recursive function $\mathrm{Int}_L$ such that if $\mathcal{L}, \Gamma, h$ are as in (1) and $\varphi, \psi \in \Gamma$, then $\mathrm{Int}_L(h\varphi, h\psi) = h\chi$ for some $\chi \in \Gamma$ such that
+  $$\mathrm{Mod}_{\mathcal{L}, L} \chi = \mathrm{Mod}_{\mathcal{L}, L} \varphi \cap \mathrm{Mod}_{\mathcal{L}, L} \psi;$$
+
+  \item[(3)] The set $\{h\varphi : (\mathcal{L}, \Gamma, \mathfrak{A}, \psi, h) \in L,\ \varphi \in \Gamma,\ \mathcal{L} \text{ is a reduct of } \mathcal{L}_{\mathrm{un}}\}$ is recursive.
+\end{enumerate}

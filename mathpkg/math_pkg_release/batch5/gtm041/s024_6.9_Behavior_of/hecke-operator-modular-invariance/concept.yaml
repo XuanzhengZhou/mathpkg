@@ -1,0 +1,23 @@
+id: hecke-operator-modular-invariance
+title_en: "Modular invariance of the Hecke operator"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [hecke-operator, modular-group, modular-form, transformation-law, weight-k]
+depends_on:
+  required: []
+  recommended: [modular-form-weight-k, modular-group-gamma]
+  suggested: [hecke-operator-definition]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.9"
+    pages: ""
+    role_in_book: "Establishes that Hecke operators commute with the slash operator of the modular group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

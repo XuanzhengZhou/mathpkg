@@ -1,0 +1,23 @@
+id: subset-characterization-via-equality
+title_en: "Subset Relation as Boolean Sum of Equalities"
+title_zh: "子集关系的布尔等值求和刻画"
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: intermediate
+tags: [boolean-valued-universe, subset, equality, power-set]
+depends_on:
+  required: [extensional-subset-same-domain]
+  recommended: [extensional-function]
+  suggested: [power-set-of-definite-set]
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: ""
+    role_in_book: "Characterizes the Boolean subset relation [[v subseteq u]] as the sum of [[v = v']] over all v' with the same domain as u."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

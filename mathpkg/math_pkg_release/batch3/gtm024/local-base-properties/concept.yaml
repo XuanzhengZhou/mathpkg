@@ -1,0 +1,23 @@
+id: local-base-properties
+title_en: "Properties of a Local Base in LTS"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: ["local-base", "absorbing", "balanced", "hausdorff"]
+depends_on:
+  required: ["linear-topological-space"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§9"
+  section: "9.A"
+  pages: "47-48"
+  role_in_book: "working properties of LTS neighborhoods"
+content_hash: "af7041f94d9373c6"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

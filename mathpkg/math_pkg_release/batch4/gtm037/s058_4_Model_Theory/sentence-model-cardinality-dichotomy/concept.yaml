@@ -1,0 +1,23 @@
+id: sentence-model-cardinality-dichotomy
+title_en: "Sentence Model Cardinality Dichotomy"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: model-theory
+difficulty: basic
+tags: [sentence-spectrum, cardinality, infinite-models, lowenheim-skolem]
+depends_on:
+  required: [upward-lowenheim-skolem-theorem]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "4"
+    section: "Model Theory"
+    pages: ""
+    role_in_book: "Corollary 19.26: any sentence either has no infinite models or has models of every infinite cardinality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

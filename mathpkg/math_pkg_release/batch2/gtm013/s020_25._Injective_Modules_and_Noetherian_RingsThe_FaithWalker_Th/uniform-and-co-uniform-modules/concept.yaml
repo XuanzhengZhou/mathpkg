@@ -1,0 +1,23 @@
+id: uniform-and-co-uniform-modules
+title_en: "Uniform and Co-Uniform Modules"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [uniform-module, co-uniform-module, essential-submodule, superfluous-submodule, injective-envelope, projective-cover]
+depends_on:
+  required: [essential-submodule, superfluous-submodule, injective-envelope, projective-cover]
+  recommended: [indecomposable-module, local-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson and Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "25. Injective Modules and Noetherian Rings—The Faith–Walker Theorems"
+    pages: ""
+    role_in_book: "Exercise 25.1 — defines uniform and co-uniform modules and their connections to indecomposability of injective envelopes and projective covers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

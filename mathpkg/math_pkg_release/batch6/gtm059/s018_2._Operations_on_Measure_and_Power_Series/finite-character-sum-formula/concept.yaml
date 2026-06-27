@@ -1,0 +1,23 @@
+id: finite-character-sum-formula
+title_en: "Measure Associated to a Finite-Order Character"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: p-adic-l-functions
+difficulty: advanced
+tags: [finite-order-character, conductor, primitive-root-of-unity, fourier-transform, iwasawa-power-series, unitization]
+depends_on:
+  required: []
+  recommended: [iwasawa-unitization-operator, fourier-transform-p-adic-measure]
+  suggested: [primitive-roots-of-unity, finite-order-characters-zp]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "2"
+    section: "2. Operations on Measure and Power Series"
+    pages: ""
+    role_in_book: "Expresses the measure associated to a character of finite order on Z_p via a finite sum and the unitization operator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

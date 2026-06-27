@@ -1,0 +1,23 @@
+id: cohn-vossen-theorem
+title_en: "Cohn-Vossen Theorem on Complete Open Surfaces of Positive Curvature"
+title_zh: "Cohn-Vossen 正曲率完备开曲面定理"
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [cohn-vossen, open-surface, positive-curvature, gauss-bonnet, complete-surface, global-differential-geometry]
+depends_on:
+  required: [gauss-curvature, complete-surface, diffeomorphism]
+  recommended: [gauss-bonnet-theorem, geodesic]
+  suggested: [open-surface, paraboloid-of-revolution]
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.8"
+    pages: "174-188"
+    role_in_book: "primary_text"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: elliptic-ruled-surfaces
+title_en: "Classification of Ruled Surfaces over Elliptic Curves"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-surfaces
+difficulty: advanced
+tags: [ruled-surface, elliptic-curve, indecomposable-bundle, classification, invariant-e]
+depends_on:
+  required: [classification-of-ruled-surfaces, normalized-bundle-invariant]
+  recommended: [elliptic-curve, extension-class, cohomology-of-curves]
+  suggested: [atiyah-classification-vector-bundles-elliptic-curves]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "2"
+    pages: "375"
+    role_in_book: "Complete classification of elliptic ruled surfaces: only two indecomposable types (e = 0, -1)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

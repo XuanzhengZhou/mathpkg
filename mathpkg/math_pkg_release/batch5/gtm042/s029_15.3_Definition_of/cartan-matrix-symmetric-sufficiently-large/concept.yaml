@@ -1,0 +1,23 @@
+id: cartan-matrix-symmetric-sufficiently-large
+title_en: "Corollary 3 to Theorem 35: Symmetry of the Cartan Matrix"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [modular-representation-theory, cartan-matrix, symmetry, sufficiently-large-field]
+depends_on:
+  required: [cartan-map-divisibility-by-pn, cde-triangle-commutativity, adjointness-of-d-and-e]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "16"
+    section: "16.1"
+    pages: ""
+    role_in_book: "When K is sufficiently large, the Cartan matrix C is symmetric"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: row-finite-matrix
+title_en: "Row Finite and Column Finite Matrices"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [matrix, row-finite, column-finite, infinite-matrix]
+depends_on:
+  required: [matrix-over-ring]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "1.14"
+    pages: ""
+    role_in_book: "Defines row finite and column finite matrices to ensure matrix multiplication is well-defined"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

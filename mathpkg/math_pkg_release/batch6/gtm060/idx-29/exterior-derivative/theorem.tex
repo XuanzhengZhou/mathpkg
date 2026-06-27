@@ -1,0 +1,7 @@
+Let $M$ be an $n$-dimensional manifold and let $\omega^k$ be a $k$-form on $M$. Choose a local coordinate system, i.e., a differentiable map $f$ of a neighborhood of $0 \in \mathbb{R}^n$ to a neighborhood of $x \in M$. For tangent vectors $\xi_1, \ldots, \xi_{k+1} \in TM_x$, let $\xi_1^*, \ldots, \xi_{k+1}^* \in \mathbb{R}^n$ be their pre-images under the differential $f_*$. Let $\Pi^* \subset \mathbb{R}^n$ be the parallelepiped spanned by $\xi_1^*, \ldots, \xi_{k+1}^*$ and let $\Pi = f(\Pi^*)$ be the curvilinear parallelepiped on $M$. Then
+
+$$
+(d\omega^k)(\xi_1, \ldots, \xi_{k+1}) = \lim_{\varepsilon \to 0} \frac{1}{\varepsilon^{k+1}} \int_{\partial(\varepsilon \Pi)} \omega^k
+$$
+
+where $\partial(\varepsilon \Pi)$ denotes the boundary of the $(k+1)$-dimensional cell $\varepsilon \Pi$ obtained by scaling all vectors by $\varepsilon$. The form $d\omega^k$ does not depend on the choice of the coordinate system used to define the curvilinear parallelepiped $\Pi$. It is called the \text{exterior derivative} (or \text{differential}) of the form $\omega^k$ (at the point $x$) and is denoted by $d\omega^k$.

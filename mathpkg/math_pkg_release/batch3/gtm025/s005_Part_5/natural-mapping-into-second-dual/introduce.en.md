@@ -1,0 +1,1 @@
+The natural mapping $\pi: E \to E^{**}$ embeds a normed linear space $E$ into its second dual by evaluating each $x \in E$ on bounded linear functionals: $\pi(x)(f) = f(x)$. The Hahn-Banach theorem guarantees this mapping is norm-preserving, making it an isometric embedding.

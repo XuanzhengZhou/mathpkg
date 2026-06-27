@@ -1,0 +1,23 @@
+id: torsion-free-group-ring
+title_en: "The Group Ring Z[Z_k] Has No Torsion for m ≥ 2"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: intermediate
+tags: [group-ring, torsion-free, cyclotomic-units, integral-group-ring]
+depends_on:
+  required: [cyclotomic-units, group-action-primitive-elements]
+  recommended: [group-ring, torsion-elements, integral-group-ring]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "3. Cyclotomic Units as a Universal Distribution"
+    pages: ""
+    role_in_book: "Theorem 3.3: The group ring Z[Z_k] is torsion-free for m ≥ 2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

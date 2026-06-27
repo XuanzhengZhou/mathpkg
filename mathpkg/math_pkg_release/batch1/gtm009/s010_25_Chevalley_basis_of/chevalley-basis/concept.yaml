@@ -1,0 +1,23 @@
+id: chevalley-basis
+title_en: "Chevalley Basis Theorem"
+title_zh: "Chevalley 基定理"
+type: theorem
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [chevalley-basis, structure-constants, root-system, integral-basis, semisimple-lie-algebra]
+depends_on:
+  required: []
+  recommended: [semisimple-lie-algebra, cartan-subalgebra, root-space-decomposition, pairs-of-roots]
+  suggested: [killing-form, weyl-group]
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "VII"
+    section: "25.2"
+    pages: ""
+    role_in_book: "Core theorem: constructs an integral basis for any semisimple Lie algebra, enabling reduction modulo primes and the definition of Chevalley groups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

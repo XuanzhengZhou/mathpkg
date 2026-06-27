@@ -1,0 +1,23 @@
+id: closure-of-sums-of-two-squares-under-division
+title_en: "Closure of Sums of Two Squares Under Division"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: sums-of-squares
+difficulty: intermediate
+tags: [sums-of-two-squares, divisibility, euler-proof, infinite-descent]
+depends_on:
+  required: [brahmagupta-fibonacci-identity]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.4"
+    pages: ""
+    role_in_book: "Statement (2) in Euler's proof: if a sum of two squares is divided by another sum of two squares, the quotient is again a sum of two squares"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

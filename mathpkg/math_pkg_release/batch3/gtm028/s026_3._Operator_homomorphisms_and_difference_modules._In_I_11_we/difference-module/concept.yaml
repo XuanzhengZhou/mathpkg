@@ -1,0 +1,23 @@
+id: difference-module
+title_en: "Difference module (factor module / quotient module)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [quotient-module, factor-module, difference-module, canonical-homomorphism, natural-homomorphism]
+depends_on:
+  required: [difference-module-construction, r-homomorphism]
+  recommended: [submodule]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "III"
+    section: "3"
+    pages: ""
+    role_in_book: "terminology for quotient modules and canonical maps"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

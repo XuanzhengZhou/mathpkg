@@ -1,0 +1,23 @@
+id: poisson-bracket-of-vector-fields
+title_en: "Poisson Bracket of Vector Fields"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [poisson-bracket, commutator, vector-field, lie-algebra, differential-operator]
+depends_on:
+  required: [vector-field, differential-operator, flow-of-vector-field]
+  recommended: [commutator-of-flows-mixed-partial, lie-derivative]
+  suggested: [lie-algebra]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "7"
+    section: "39"
+    pages: "222"
+    role_in_book: "Defines the Poisson bracket (commutator) of two vector fields via the commutator of their associated differential operators"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

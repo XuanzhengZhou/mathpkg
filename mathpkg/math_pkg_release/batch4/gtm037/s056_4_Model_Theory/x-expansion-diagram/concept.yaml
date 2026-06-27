@@ -1,0 +1,23 @@
+id: x-expansion-diagram
+title_en: "X-Expansion and Diagrams"
+title_zh: "X-扩张与图表法"
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [diagram, X-expansion, Henkin, Robinson, constants, L-structure]
+depends_on:
+  required: [L-structure, substructure]
+  recommended: [elementary-substructure, elementary-diagram]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "19"
+    section: "Elementary Equivalence"
+    pages: ""
+    role_in_book: "Introduces the technique of diagrams for handling substructures in a logical context"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

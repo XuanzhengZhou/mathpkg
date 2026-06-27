@@ -1,0 +1,23 @@
+id: maxwells-equations
+title_en: "Maxwell's Equations in General Relativity"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: intermediate
+tags: [maxwell-equations, electromagnetism, relativistic-model, closed-form, divergence]
+depends_on:
+  required: []
+  recommended: [spacetime, electromagnetic-field, charge-current-density, relativistic-model]
+  suggested: [exterior-derivative, divergence, stress-energy-tensor-of-electromagnetic-field]
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.7"
+    pages: ""
+    role_in_book: "Definition 3.7.1. The fundamental laws of relativistic electrodynamics: (a) dF = 0 (the electromagnetic field is closed), and (b) div \hat{F} = 4\pi J."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: simple-algebra
+title_en: "Simple Algebra"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: structure-theory
+difficulty: intermediate
+tags: [simple-algebra, ideal]
+depends_on:
+  required: [algebra, ideal]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "5"
+    section: "§2. Ideals"
+    pages: "170"
+    role_in_book: "defines simple algebra as having no proper nontrivial ideals and nonzero square"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

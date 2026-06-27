@@ -1,0 +1,16 @@
+---
+role: exercise
+locale: en
+chapter: "16"
+section: "The Maximum Principle"
+exercise_number: 1
+---
+
+Let $u \in V^{(\mathbf{B})}$ and $b \in B$. Define $b \cdot u$ by
+$$\mathcal{D}(b \cdot u) = \mathcal{D}(u) \quad\text{and}\quad (\forall x \in \mathcal{D}(u))\; (b \cdot u)(x) = b \cdot u(x).$$
+
+Show that:
+\begin{enumerate}
+\item $\llbracket v \in b \cdot u \rrbracket = b \cdot \llbracket v \in u \rrbracket$ for all $v \in V^{(\mathbf{B})}$,
+\item $\llbracket b \cdot u = b \cdot v \rrbracket = \neg b + \llbracket u = v \rrbracket$ for all $v \in V^{(\mathbf{B})}$.
+\end{enumerate}

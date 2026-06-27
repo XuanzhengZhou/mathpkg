@@ -1,0 +1,23 @@
+id: inductive-limit
+title_en: "Inductive Limit of Locally Convex Spaces"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [inductive-limit, inductive-topology, direct-limit, locally-convex-space]
+depends_on:
+  required: [inductive-topology, locally-convex-direct-sum]
+  recommended: [quotient-topology, hausdorff-space]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "6"
+    pages: ""
+    role_in_book: "Construction of inductive limits of locally convex spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

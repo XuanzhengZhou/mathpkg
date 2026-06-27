@@ -1,0 +1,23 @@
+id: consistency-family
+title_en: "Consistency Family"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [consistency-family, rich-expansion, model-construction, henkin-style, conditions]
+depends_on:
+  required: [first-order-language, rich-expansion-by-c, formula-transformation-arrow]
+  recommended: [consistency, substitution, logical-consequence]
+  suggested: [completeness-theorem]
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "18"
+    section: "Construction of Models"
+    pages: ""
+    role_in_book: "main definition for the consistency family method of model construction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

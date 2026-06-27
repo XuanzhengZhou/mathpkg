@@ -1,0 +1,23 @@
+id: measurable-sets-space-complete
+title_en: "The Metric Space of Measurable Sets Modulo Nullsets is Complete"
+title_zh: "可测集模零测集的度量空间是完备的"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [completeness, measurable-sets, symmetric-difference, metric-space]
+depends_on:
+  required: [symmetric-difference-metric, complete-metric-space]
+  recommended: [cauchy-sequence, liminf-limsup-of-sets]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "10"
+    section: "10"
+    pages: "50-52"
+    role_in_book: "Shows completeness of measurable sets under symmetric difference metric"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

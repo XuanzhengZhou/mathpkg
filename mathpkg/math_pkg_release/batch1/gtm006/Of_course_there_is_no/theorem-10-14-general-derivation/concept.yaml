@@ -1,0 +1,23 @@
+id: theorem-10-14-general-derivation
+title_en: "General Derivation Theorem"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [derivation, derivable-plane, Baer-subplane, affine-plane]
+depends_on:
+  required: [derivable-plane, Baer-subplane, affine-plane, derivation-set]
+  recommended: [right-quasifield, division-ring, translation-plane]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "10"
+    section: "4"
+    pages: ""
+    role_in_book: "Gives sufficient conditions for an affine plane to be derivable based on algebraic properties of its coordinate system"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

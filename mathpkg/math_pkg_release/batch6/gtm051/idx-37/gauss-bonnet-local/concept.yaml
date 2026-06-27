@@ -1,0 +1,23 @@
+id: gauss-bonnet-local
+title_en: "Gauss-Bonnet Theorem (Local Version)"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [gauss-bonnet, geodesic-curvature, gauss-curvature, euler-characteristic, intrinsic-geometry]
+depends_on:
+  required: [geodesic-curvature-in-geodesic-coordinates]
+  recommended: [geodesic-curvature, gauss-curvature, umlaufsatz, geodesic-coordinates]
+  suggested: [euler-characteristic]
+source_books:
+  - book_id: gtm051
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.3"
+    pages: "147-150"
+    role_in_book: "Central theorem of intrinsic differential geometry; local version establishing the relation between curvature integral, geodesic curvature of the boundary, and exterior angles for a polygonal region"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

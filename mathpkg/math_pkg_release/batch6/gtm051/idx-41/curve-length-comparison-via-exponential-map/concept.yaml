@@ -1,0 +1,23 @@
+id: curve-length-comparison-via-exponential-map
+title_en: "Curve Length Comparison via Exponential Map"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [curve-length, exponential-map, geodesic, curvature-upper-bound, length-minimizing, local-isometry]
+depends_on:
+  required: [exponential-map, geodesic, gauss-curvature, length-functional, geodesic-polar-coordinates]
+  recommended: [jacobi-field, rauch-comparison-theorem, injectivity-radius, gauss-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.6"
+    pages: "pp. 162–163"
+    role_in_book: "Key lemma for showing geodesics are length-minimizing below curvature-dependent threshold"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

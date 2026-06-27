@@ -1,0 +1,23 @@
+id: orthogonal-change-of-basis-matrix
+title_en: "Change of basis matrix between orthonormal bases is orthogonal"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [inner-product, orthonormal-basis, orthogonal-matrix, change-of-basis]
+depends_on:
+  required: [inner-product-space, orthonormal-basis, orthogonal-matrix]
+  recommended: [schmidt-orthogonalization]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "2. Orthonormal bases"
+    pages: ""
+    role_in_book: "Shows that the transformation matrix between two orthonormal bases is orthogonal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

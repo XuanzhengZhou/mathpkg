@@ -1,0 +1,23 @@
+id: right-kan-extension-via-powers
+title_en: "Right Kan Extension via Powers"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [kan-extension, end, power, cotensor]
+depends_on:
+  required: [right-kan-extension, end]
+  recommended: [power, cotensor, ab-category]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "X"
+    section: "4. Kan Extensions as Coends"
+    pages: ""
+    role_in_book: "End formula for right Kan extensions using powers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

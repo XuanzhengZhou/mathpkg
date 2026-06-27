@@ -1,0 +1,23 @@
+id: creates-limits
+title_en: "Creates Limits (Functor)"
+title_zh: "创建极限（函子）"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [category-theory, limits, functor, creation-of-limits]
+depends_on:
+  required: [category, functor, limit-of-diagram, limiting-cone]
+  recommended: [forgetful-functor]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "1. Creation of Limits"
+    pages: ""
+    role_in_book: "Formal definition of a functor creating limits, central to the treatment of limits in concrete categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

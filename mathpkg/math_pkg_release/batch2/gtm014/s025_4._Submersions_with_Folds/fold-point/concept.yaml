@@ -1,0 +1,23 @@
+id: fold-point
+title_en: "Fold Point"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: singularity-theory
+difficulty: advanced
+tags: ["fold-point", "singularity", "whitney-fold", "corank-1"]
+depends_on:
+  required: []
+  recommended: ["jet-bundles", "transversality"]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "§4. Submersions with Folds"
+    pages: ""
+    role_in_book: "Defines fold points as elementary stable singularities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

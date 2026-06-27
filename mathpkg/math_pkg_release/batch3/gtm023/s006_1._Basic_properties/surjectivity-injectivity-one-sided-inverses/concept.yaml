@@ -1,0 +1,23 @@
+id: surjectivity-injectivity-one-sided-inverses
+title_en: "Characterization of Surjectivity and Injectivity via One-Sided Inverses"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [injective, surjective, left-inverse, right-inverse, linear-mapping]
+depends_on:
+  required: [left-right-inverses, linear-mapping]
+  recommended: [complementary-subspace, linear-isomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "2"
+    section: "§2. Operations with linear mappings, 2.11"
+    pages: ""
+    role_in_book: "Characterizes surjectivity and injectivity via existence of right and left inverses"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

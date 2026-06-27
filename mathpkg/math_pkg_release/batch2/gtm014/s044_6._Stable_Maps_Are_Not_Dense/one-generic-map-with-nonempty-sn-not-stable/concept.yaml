@@ -1,0 +1,23 @@
+id: one-generic-map-with-nonempty-sn-not-stable
+title_en: "One-Generic Map with Nonempty S_n Singularity Locus Is Not Stable for n > 2"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: singularity-theory
+difficulty: advanced
+tags: [stable-maps, one-generic, sn-singularity, boardman-symbol, stability, density]
+depends_on:
+  required: [one-generic-map, sn-singularity, stable-map]
+  recommended: [jet-space, transversality, group-action-on-jet-space]
+  suggested: [mather-stability-theorem, boardman-classification]
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "§6"
+    pages: ""
+    role_in_book: "Main result of the section: combined with Proposition 6.1 proves stable maps are not dense when dim X = dim Y = n^2, n > 2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

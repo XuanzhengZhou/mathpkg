@@ -1,0 +1,23 @@
+id: powerset-monad
+title_en: "Power Set Monad (Manes Monad)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [monad, power-set, covariant-functor, manes-monad, set-category]
+depends_on:
+  required: [monad]
+  recommended: [covariant-functor, power-set]
+  suggested: [complete-semilattice]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "1"
+    pages: "156-157"
+    role_in_book: "Exercise: the power set monad as an example of a monad"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

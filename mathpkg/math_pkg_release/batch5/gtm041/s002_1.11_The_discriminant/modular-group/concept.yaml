@@ -1,0 +1,23 @@
+id: modular-group
+title_en: "The modular group"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: basic
+tags: [modular-group, psl2z, unimodular-transformation]
+depends_on:
+  required: [unimodular-transformation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "1"
+    section: "1.13"
+    pages: ""
+    role_in_book: "Defines the modular group as the group of all unimodular transformations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

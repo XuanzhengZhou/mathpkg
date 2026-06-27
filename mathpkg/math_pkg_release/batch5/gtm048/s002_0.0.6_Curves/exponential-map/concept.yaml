@@ -1,0 +1,23 @@
+id: exponential-map
+title_en: "Exponential Map at a Point"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [exponential-map, geodesic, tangent-space, normal-neighborhood]
+depends_on:
+  required: [geodesic, tangent-vector]
+  recommended: [geodesic-vector-field, completeness-equivalent-conditions]
+  suggested: [normal-coordinates]
+source_books:
+  - book_id: gtm048
+    author: "Sachs and Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "0"
+    section: "0.0.6"
+    pages: ""
+    role_in_book: "Fundamental construction mapping tangent vectors to points on the manifold via geodesics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+A finitely additive measure assigns a nonnegative 'size' to sets in an algebra, with the size of a disjoint union being the sum of the sizes. Countable additivity, which is stronger, is required for genuine measures.

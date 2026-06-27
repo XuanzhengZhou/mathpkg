@@ -1,0 +1,9 @@
+If $\varphi$ is a closed formula of $\mathcal{L}^* \triangleq \mathcal{L}(C(A))$, then $[\![\varphi]\!]$ is an element of $B$ defined recursively as follows:
+\begin{enumerate}
+\item $[\![R_j(c_1, \ldots, c_n)]\!] \triangleq \phi(R_j)(\phi(c_1), \ldots, \phi(c_n))$ for every finite sequence of constants $c_1, \ldots, c_n$.
+\item $[\![\neg \varphi]\!] \triangleq -[\![\varphi]\!]$.
+\item $[\![\varphi \land \psi]\!] \triangleq [\![\varphi]\!] \cdot [\![\psi]\!]$.
+\item $[\![\varphi \lor \psi]\!] \triangleq [\![\varphi]\!] + [\![\psi]\!]$.
+\item $[\![(\forall x)\varphi(x)]\!] \triangleq \prod_{a \in A} [\![\varphi(c_a)]\!]$.
+\item $[\![(\exists x)\varphi(x)]\!] \triangleq \sum_{a \in A} [\![\varphi(c_a)]\!]$.
+\end{enumerate}

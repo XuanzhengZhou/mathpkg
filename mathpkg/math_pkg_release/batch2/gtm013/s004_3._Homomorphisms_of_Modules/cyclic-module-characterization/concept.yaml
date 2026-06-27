@@ -1,0 +1,23 @@
+id: cyclic-module-characterization
+title_en: "Characterization of Cyclic Modules"
+title_zh: "循环模的刻画"
+type: corollary
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [module-theory, cyclic-module, quotient-module]
+depends_on:
+  required: [first-isomorphism-theorem-modules, cyclic-module, right-multiplication-homomorphism]
+  recommended: [left-ideal]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "3. Homomorphisms of Modules"
+    pages: ""
+    role_in_book: "Corollary 3.9 — cyclic modules are quotients of the ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

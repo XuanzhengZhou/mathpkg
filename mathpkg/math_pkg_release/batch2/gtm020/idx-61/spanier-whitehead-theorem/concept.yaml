@@ -1,0 +1,23 @@
+id: spanier-whitehead-theorem
+title_en: "Spanier-Whitehead Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: stable-homotopy
+difficulty: advanced
+tags: [spanier-whitehead, s-map, cw-complex, suspension, bijection]
+depends_on:
+  required: [s-map, cw-complex, suspension-functor, homotopy-classes]
+  recommended: [n-connected-space]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "2"
+    pages: "234-236"
+    role_in_book: "States that the natural map from homotopy classes to S-maps is a bijection under dimension and connectivity conditions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

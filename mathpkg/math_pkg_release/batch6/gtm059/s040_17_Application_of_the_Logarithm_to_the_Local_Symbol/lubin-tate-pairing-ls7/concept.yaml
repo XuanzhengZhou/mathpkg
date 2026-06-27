@@ -1,0 +1,23 @@
+id: lubin-tate-pairing-ls7
+title_en: "LS 7: Local Symbol Pairing via the Lubin-Tate Group"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: ["local-symbol", "Lubin-Tate", "pairing", "reciprocity"]
+depends_on:
+  required: ["dual-ideal-under-trace", "trace-pairing-on-local-field"]
+  recommended: ["lubin-tate-formal-group-law"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "17"
+    section: "17"
+    pages: ""
+    role_in_book: "Local symbol formula LS 7 expressing the pairing via the Lubin-Tate logarithm"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

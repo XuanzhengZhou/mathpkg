@@ -1,0 +1,23 @@
+id: gauss-lemma
+title_en: "Lemma (Gauss): Gauss's lemma for quadratic residues"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: quadratic-residues
+difficulty: intermediate
+tags: [gauss-lemma, legendre-symbol, quadratic-reciprocity, eisenstein-proof]
+depends_on:
+  required: [legendre-symbol]
+  recommended: [squares-in-finite-fields]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "I"
+    section: "§3 Appendix"
+    pages: ""
+    role_in_book: "Provides an alternative expression for the Legendre symbol used in Eisenstein's trigonometric proof of quadratic reciprocity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

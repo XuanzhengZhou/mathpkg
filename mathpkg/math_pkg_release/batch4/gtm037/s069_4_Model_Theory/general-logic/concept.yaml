@@ -1,0 +1,23 @@
+id: general-logic
+title_en: "General Logic"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [abstract-logic, lindstrom-theorem, elementary-class, isomorphism-closure]
+depends_on:
+  required: [weak-general-logic]
+  recommended: [first-order-logic]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "H.-D. Ebbinghaus, J. Flum, W. Thomas"
+    title: "Mathematical Logic"
+    chapter: "XII"
+    section: "4"
+    pages: ""
+    role_in_book: "Definition 26.19(v) — general logic with isomorphism closure and renaming"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

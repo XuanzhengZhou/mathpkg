@@ -1,0 +1,23 @@
+id: linear-constraint-system
+title_en: "System Obtained by Imposition of a Linear Constraint"
+title_zh: ""
+type: definition
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [linear-constraint, small-oscillations, quadratic-forms, restriction]
+depends_on:
+  required: []
+  recommended: [kinetic-energy, potential-energy-one-dof]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "5"
+    section: "24"
+    pages: ""
+    role_in_book: "Definition introducing constrained system via restriction of energy forms to a subspace"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: stationary-rotation-principal-axes
+title_en: "Existence of Stationary Rotations about Principal Axes"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [rigid-body, stationary-rotation, principal-axes, euler-equations, equilibrium]
+depends_on:
+  required: [euler-equations-rigid-body, stationary-rotation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "6"
+    section: "29"
+    pages: "154-160"
+    role_in_book: "Characterizes all stationary rotations of a rigid body fixed at a point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

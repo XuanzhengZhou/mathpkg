@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+For $f(X) \in K^G[X]$, $\operatorname{Roots}_K f(X)$ is $G$-stable. An element $x \in K$ is algebraic over $K^G$ if and only if the $G$-orbit $Gx$ of $x$ in $K$ is finite.

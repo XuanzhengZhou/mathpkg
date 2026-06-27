@@ -1,0 +1,13 @@
+id: pseudoplane
+title_en: "Pseudoplane"
+title_zh: "伪平面"
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [pseudoplane, geometric-stability, trichotomy, incidence-structure]
+depends_on: {required: [combinatorial-pregeometry], recommended: [independent-set-pregeometry], suggested: [trichotomy-conjecture, locally-modular-pregeometry]}
+source_books: [{book_id: "gtm053", author: "Yu. I. Manin", title: "A Course in Mathematical Logic for Mathematicians", chapter: "6 Geometric Stability Theory", section: "6.4 Weak trichotomy theorem", pages: "", role_in_book: "Defines pseudoplanes as combinatorial obstruction to local modularity"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

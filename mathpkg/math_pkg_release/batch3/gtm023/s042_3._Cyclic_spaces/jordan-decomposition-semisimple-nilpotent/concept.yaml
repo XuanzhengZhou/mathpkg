@@ -1,0 +1,23 @@
+id: jordan-decomposition-semisimple-nilpotent
+title_en: "Jordan Decomposition into Semisimple and Nilpotent Parts"
+title_zh: "半单-幂零Jordan分解"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [semisimple-transformation, nilpotent-transformation]
+  recommended: [jordan-decomposition, polynomial-in-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "6"
+    pages: ""
+    role_in_book: "Every linear transformation uniquely decomposes as varphi = varphi_S + varphi_N with semisimple and nilpotent parts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

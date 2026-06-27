@@ -1,0 +1,101 @@
+For one-dimensional random walk with $\mu = 0, 0 < \sigma^2 < \infty, R_N(x) - x N \to 0$ uniformly for all $0 \leq x \leq
+
+$d > 1$ such that the random walk is aperiodic on the state space consisting of the multiples of $d$.
+
+In view of P7 it suffices to show that
+
+$$\lim_{N \to \infty} \frac{1}{N} \sum_{k=1}^{\infty} kR_N(x,k) = 0.$$
+
+uniformly in $0 \leq x \leq N$, and to obtain a similar result for $L_N(x,k)$. Since both problems yield to the same method it suffices to treat only one of them. Now
+
+$$\frac{1}{N} \sum_{k=1}^{\infty} kR_N(x,k) = \frac{1}{N} \sum_{k=1}^{\infty} k \sum_{y=0}^{N} g_N(x,y)P(y,N+k),$$
+
+and using P5 one gets
+
+$$\frac{1}{N} \sum_{k=1}^{\infty} kR_N(x,k) \leq \frac{M}{N} \sum_{k=1}^{\infty} k \sum_{y=0}^{N} (1+N-y)P(y,N+k)$$
+
+$$= \frac{M}{N} \sum_{k=1}^{\infty} k \sum_{s=0}^{N} (1+s)P(0,k+s) = \frac{M}{N} \sum_{s=0}^{N} (1+s)a(s),$$
+
+in the terminology of equation (1) preceding the statement of T1. This upper bound is independent of $x$, and it was shown to go to zero as $N \to \infty$ in (2) preceding T1. As one can obtain analogous estimates for the probabilities $L_N$ of leaving on the left, the proof of T1 is complete.
+
+With T1 we have solved "one-half" of the problem of extending the basic theory of the absorption problem from simple random walk to the case $\mu = 0, \sigma^2 < \infty$. Note that T1 corresponds to part (b) of P21.4, where the result is "exact" in the sense that
+
+$$R_N(x) = \frac{x+1}{N+2}, \quad 0 \leq x \leq N.$$
+
+Our
+
+In other words, the limit, when $\mu = 0, \sigma^2 < \infty$, is the uniform distribution. Just as in our brief discussion of the arc-sine law, and of occupation time problems in general, at the end of section 20, one can ask the following question. For what random walks does
+
+(1) $\lim_{N \to \infty} R_N([Nx]) = F(x), \quad 0 \leq x \leq 1,$
+
+exist, with $F(x)$ a probability distribution, and what distributions $F(x)$ can arise as limits of this type? Just as in occupation time problems, the limit may fail to exist altogether. For symmetric random walk Kesten exhibits classes of random walks where the limiting distribution is the incomplete beta-function
+
+(2) $F_\alpha(x) = \frac{\Gamma(\alpha)}{\left[ \Gamma\left(\frac{\alpha}{2}\right) \right]^2} \int_0^{x} t^{\frac{\alpha}{2}-1}(1-t)^{\frac{\alpha}{2}-1} dt, \quad 0 < \alpha \leq 2.$
+
+Quite likely these are all the possibilities. Just as in the occupation time problems the parameter $\alpha$ is related to the asymptotic behavior of $P(x,y)$ as $|x-y| \to \infty$; in particular $\alpha = 2$ when $\mu = 0$ and $\sigma^2 < \infty$, giving the result $F_\alpha(x) = x$ of T1.
+
+As an amusing special case consider the random walk of E8.3 in Chapter II. It was shown there that
+
+(3) $\phi(\theta) = \sum_{x=-\infty}^{\infty} P(0,x)e^{ix\theta} = 1 - \left| \sin \frac{\theta}{2} \right|$
+
+is the characteristic function of
+
+(4) $P(0,0) = 1 - \frac{2}{\pi}, \quad P(0,x) = \frac{2}{\pi} \frac{1}{4x^2-1}$ for $x \neq 0.$
+
+Since Kesten showed that (2) holds with parameter $\alpha, 0 < \alpha < 2$ when $P(0,x) \sim
+
+E1 Consider simple random walk $x_n$ in the plane $R$. Given any positive integer $N$ we decompose $R$ into the three sets
+
+$$A_N = [z \mid z \in R, z = k(1 + i) \text{ for some } k \geq N + 1],$$
+$$B_N = [z \mid z \in R, z = k(1 + i) \text{ for some } k < 0],$$
+$$C_N = R - (A_N \bigcup B_N).$$
+
+Finally, let us call $D$ the entire diagonal $[z \mid z = n(1 + i), -\infty < n < \infty]$.
+
+It was shown in E8.3 that $P(x,y)$, defined in equation (4) above, is the transition function of the random walk executed by $x_n$ when it visits $D$ (the imbedded random walk associated with $D$). But then it follows that for any real $t$, $0 < t < 1$, $R_N([Nt])$ of equation (5) has an interesting probability interpretation in terms of simple two-dimensional random walk $x_n$. All we have to do is to take
+
+$$x_0 = [Nt](1 + i), \quad T_N = \min [k \mid k \geq 1, x_k \in A_N \bigcup B_N],$$
+
+to be able to conclude that
+
+(6) $$R_N([Nt]) = P_{[Nt](1 + i)}[x_{T_N} \in A_N].$$
+
+To calculate $R_N([Nt])$ consider the function
+
+$$f_N(z) = P_z[x_{T_N} \in A_N], \quad z \in R,$$
+
+and observe that it solves the exterior Dirichlet problem (see P13.2)
+
+(7) $$\frac{1}{4}[f_N(z + 1) + f_N(z - 1) + f_N(z + i) + f_N(z - i)] = f_N(z)$$
+
+for $z \in C_N$, with boundary conditions
+
+(8) $$f_N(z) = 1 \text{ for } z \in A_N, \quad f_N(z) = 0 \text{
+
+Friedrichs, and Lewy [15]). Even the probabilistic aspects of the problem were already then fairly well understood.
+
+Finally we have to find the harmonic function $u(x,y)$, which can easily be done by use of a suitable conformal mapping (a mapping $w(x)$ of $R - (A \cup B)$ on a domain $D$ such that $\text{Re } w(z) = 1$ when $z \in A$ and $0$ when $z \in B$). In this way one obtains
+
+$$u(x,y) = \frac{1}{\pi} \tan^{-1} \frac{2 \text{ Im } (w)}{w \bar{w} - 1},$$
+
+where
+
+$$\frac{2z}{1+i} - 1 = \frac{1+w^2}{1-w^2}, \quad \text{Im } (w) > 0.$$
+
+After verifying that $u(x,y)$ is the appropriate harmonic function, set $x = y = t$ to obtain
+
+$$w = i \sqrt{\frac{1-t}{t}}, \quad 0 < t < 1,$$
+
+(10)
+
+$$u(t,t) = \frac{1}{\pi} \tan^{-1} \left[ \frac{2 \text{ Im } (w)}{w \bar{w} - 1} \right] = \frac{1}{\pi} \tan^{-1} \left[ \frac{2\sqrt{t} \sqrt{1-t}}{1-2t} \right]$$
+
+$$= \frac{2}{\pi} \sin^{-1} \sqrt{t}.$$
+
+In view of equation (9), this completes our proof (apart from the justification of the passage to the limit in (9)) that the random walk in (4) has absorption probabilities given by (5). Qualitatively, since
+
+$$\frac{2}{\pi} \sin^{-1} \sqrt{t} \begin{cases} > t \text{ for } t < \frac{1}{2} \\ < t \text{ for } t > \frac{1}{2} \end{cases}$$
+
+we conclude that symmetric random walk with infinite variance differs from random walk with $\mu = 0
+
+To get information about the asymptotic behavior of $g_N(x,y)$ as $N \to \infty$ we shall use T22.1 and the identity

@@ -1,0 +1,23 @@
+id: normal-crossings-double-dimension
+title_en: "Normal Crossings Condition for Immersions when dim Y = 2 dim X"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-topology
+difficulty: intermediate
+tags: [normal-crossings, immersion, stable-mapping, self-intersection]
+depends_on:
+  required: [immersion-with-normal-crossings]
+  recommended: [stable-immersion]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky, Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "4. Submersions with Folds"
+    pages: "98-101"
+    role_in_book: "Exercise: interpreting normal crossings in terms of self-crossings when the target has twice the dimension of the source"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

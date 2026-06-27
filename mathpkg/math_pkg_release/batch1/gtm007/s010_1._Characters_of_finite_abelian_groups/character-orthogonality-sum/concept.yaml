@@ -1,0 +1,23 @@
+id: character-orthogonality-sum
+title_en: "Orthogonality Relation for Characters of a Finite Abelian Group"
+title_zh: "有限阿贝尔群特征标的正交关系"
+type: corollary
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [orthogonality, character-sum, finite-abelian-group, fourier-analysis]
+depends_on:
+  required: [bidual-isomorphism, dual-group-of-finite-abelian-group]
+  recommended: [character-of-finite-abelian-group]
+  suggested: [representation-theory, harmonic-analysis]
+source_books:
+  - book_id: gtm007
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VI"
+    section: "§1.1"
+    pages: ""
+    role_in_book: "Key computational tool used throughout the chapter to isolate arithmetic progressions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

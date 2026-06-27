@@ -1,0 +1,23 @@
+id: recursion-relations-for-g2m
+title_en: "Recursion relations for the Eisenstein series G_{2m}"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: ["eisenstein-series", "recursion-relations", "weierstrass-p", "elliptic-functions", "differential-equation"]
+depends_on:
+  required: ["weierstrass-p-function", "weierstrass-p-differential-equation", "eisenstein-series"]
+  recommended: ["laurent-expansion-of-weierstrass-p"]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "1"
+    section: "1.9"
+    pages: ""
+    role_in_book: "Gives recurrence formulas for the coefficients in the Laurent expansion and for the Eisenstein series G_{2m}"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: ck-order-complete-iff-stonian
+title_en: "C(K) is Order Complete iff K is Stonian"
+title_zh: "C(K)序完备当且仅当K是Stonian的"
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [C-star-algebra, order-completeness, Stonian-space, extremally-disconnected, compact-space]
+depends_on:
+  required: [C-K-algebra, order-completeness, Stonian-space]
+  recommended: [extremally-disconnected, Dedekind-complete]
+  suggested: [Stone-duality]
+source_books:
+  - book_id: "gtm003"
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "11"
+    pages: ""
+    role_in_book: "Exercise 20: characterization of order completeness of C(K)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

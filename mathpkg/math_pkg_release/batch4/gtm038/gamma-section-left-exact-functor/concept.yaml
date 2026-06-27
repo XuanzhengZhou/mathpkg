@@ -1,0 +1,23 @@
+id: gamma-section-left-exact-functor
+title_en: "Theorem 1.7 (Gamma is a Left-Exact Functor)"
+title_zh: "定理 1.7 (Γ 是左正合函子)"
+type: theorem
+domain: analysis
+subdomain: sheaf-cohomology
+difficulty: intermediate
+tags: [left-exact-functor, section-functor, global-sections, sheaf, several-complex-variables]
+depends_on:
+  required: []
+  recommended: [sheaf, global-sections, left-exact-functor]
+  suggested: [sheaf-cohomology, generalized-section, exact-functor]
+source_books:
+  - book_id: "gtm038"
+    author: "Grauert, Hans and Fritzsche, Klaus"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Establishes that the global sections functor is left-exact; starting point for sheaf cohomology as right-derived functor"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

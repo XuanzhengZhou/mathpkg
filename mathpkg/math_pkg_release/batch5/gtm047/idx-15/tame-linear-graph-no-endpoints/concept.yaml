@@ -1,0 +1,23 @@
+id: tame-linear-graph-no-endpoints
+title_en: "Taming of a linear graph without end-points"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [taming, linear-graph, planar-homeomorphism, phi-approximation, polyhedron]
+depends_on:
+  required: [sets-Ii-are-disjoint, decomposition-of-neighborhood-at-vertex, endpoint-of-linear-graph]
+  recommended: [contracting-collection, strongly-positive-function, schoenflies-theorem, theorem-6-gtm047]
+  suggested: [tame-set, phi-approximation-of-identity]
+source_books:
+  - book_id: "gtm047"
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "5"
+    section: "15"
+    pages: "83-90"
+    role_in_book: "Theorem 7 - Core taming result for linear graphs in the plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

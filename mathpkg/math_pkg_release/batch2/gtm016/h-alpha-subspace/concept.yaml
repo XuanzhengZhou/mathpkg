@@ -1,0 +1,23 @@
+id: h-alpha-subspace
+title_en: "The H_alpha(T) Subspace"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: field-theory
+difficulty: advanced
+tags: [hopf-algebra, weight-space, dual-space, commutator, character]
+depends_on:
+  required: [hopf-algebra-of-field-extension, k-dual-space]
+  recommended: [toral-k-subcoring]
+  suggested: [weight-space-decomposition]
+source_books:
+  - book_id: "gtm016"
+    author: "David J. Winter"
+    title: "The Structure of Fields"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Defines the generalized weight space H_alpha(T) for k-subspaces of the Hopf algebra of a field extension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

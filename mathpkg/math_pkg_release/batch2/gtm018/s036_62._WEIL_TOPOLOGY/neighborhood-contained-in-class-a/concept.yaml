@@ -1,0 +1,23 @@
+id: neighborhood-contained-in-class-a
+title_en: "Theorem B: Every N-neighborhood is contained in a set from class A"
+title_zh: "定理B: N类邻域包含于A类集合"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measurable-group, weil-topology, class-n, class-a]
+depends_on:
+  required: [class-a-measurable-group, class-n-measurable-group]
+  recommended: [symmetric-difference-metric]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "XII"
+    section: "62"
+    pages: "273"
+    role_in_book: "Shows that class N sets are subsets of class A sets, linking the two fundamental classes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

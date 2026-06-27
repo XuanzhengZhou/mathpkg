@@ -1,0 +1,23 @@
+id: brownian-motion-operator-n-dim
+title_en: "n-dimensional Brownian motion operator"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: brownian-motion
+difficulty: intermediate
+tags: [brownian-motion, heat-kernel, transition-operator, gaussian]
+depends_on:
+  required: []
+  recommended: [brownian-motion, heat-equation, transition-probability]
+  suggested: [gaussian-kernel, semigroup]
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "7"
+    section: "4. Brownian motion and potential theory in n dimensions"
+    pages: ""
+    role_in_book: "Defines the transition operator for Brownian motion in R^n"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

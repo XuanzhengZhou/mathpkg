@@ -1,0 +1,8 @@
+A number-theoretic function $f$ is primitive recursive if and only if there is a finite sequence $\langle g_0, \ldots, g_{k-1} \rangle$ of functions such that $g_{k-1} = f$, and for each $i < k$ one of the following conditions holds:
+\begin{enumerate}
+\item[(i)] $g_i = \varnothing$ (the zero function).
+\item[(ii)] $g_i = U_j^n$ for some $n > 0$, $j < n$ (a projection function).
+\item[(iii)] $g_i$ is obtained from earlier functions by composition.
+\item[(iv)] There exist $j, h < i$ and $m \in \omega$, $m \neq 0$, such that $g_j$ is $m$-ary, $g_h$ is $(m+2)$-ary, and $g_i = R^m(g_j, g_h)$ (primitive recursion with parameters).
+\item[(v)] There exist $j < i$ and $a \in \omega$ such that $g_j$ is $2$-ary and $g_i = R^0(a, g_j)$ (primitive recursion without parameters).
+\end{enumerate}

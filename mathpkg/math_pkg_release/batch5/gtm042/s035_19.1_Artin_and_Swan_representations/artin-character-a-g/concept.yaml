@@ -1,0 +1,23 @@
+id: artin-character-a-g
+title_en: "Artin Character a_G"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [artin-character, galois-group, ramification, local-field, class-function]
+depends_on:
+  required: [ramification-function-i-g]
+  recommended: [galois-extension, discrete-valuation, class-function, group-representation]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "19"
+    section: "19.1 Artin and Swan representations"
+    pages: ""
+    role_in_book: "Definition of the Artin character from the ramification function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

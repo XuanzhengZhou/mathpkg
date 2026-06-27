@@ -1,0 +1,23 @@
+id: morse-lemma-inductive-diagonalization
+title_en: "Inductive Diagonalization for Morse Lemma"
+title_zh: "Morse引理的归纳对角化引理"
+type: lemma
+domain: geometry
+subdomain: differential-topology
+difficulty: advanced
+tags: [morse-lemma, induction, diagonalization, quadratic-form, nondegenerate-critical-point]
+depends_on:
+  required: [smooth-second-order-taylor, nondegenerate-critical-point]
+  recommended: [morse-lemma, quadratic-form-diagonalization]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Golubitsky, M.; Guillemin, V."
+    title: "Stable Mappings and Their Singularities"
+    chapter: "6"
+    section: "6. Morse Theory"
+    pages: "78-79"
+    role_in_book: "The main technical lemma proving the Morse Lemma by induction on the number of variables"
+content_hash: "lemma-6-12-gtm014"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

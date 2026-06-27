@@ -1,0 +1,23 @@
+id: lambda-k-and-k-l-identities
+title_en: "λ^E K and K l^E identities"
+title_zh: "λ^E K 和 K l^E 恒等式"
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [k-matrix, equilibrium-distribution, escape-vector, finite-set]
+depends_on:
+  required: [b-e-k-identities, capacity-of-set, equilibrium-distribution]
+  recommended: [escape-vector, mean-occupation-time]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Generalizes the restricted capacity identities to full matrices"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

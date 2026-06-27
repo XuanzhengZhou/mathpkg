@@ -1,0 +1,23 @@
+id: pos-neg-as-cozero-sets
+title_en: "pos f and neg f are Cozero-Sets"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: basic
+tags: [cozero-set, pos, neg, lattice-operations]
+depends_on:
+  required: [cozero-set, zero-set]
+  recommended: [lattice-operations]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.11"
+    pages: ""
+    role_in_book: "Shows that the sets where a function is positive or negative are cozero-sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

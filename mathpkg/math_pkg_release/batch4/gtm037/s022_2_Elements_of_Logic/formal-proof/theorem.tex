@@ -1,0 +1,6 @@
+Let $\mathcal{P} = (n, c, P)$ be a sentential language, let $\Gamma \subseteq \text{Sent}_{\mathcal{P}}$, and let $\varphi \in \text{Sent}_{\mathcal{P}}$. A sequence $\langle \psi_0, \psi_1, \ldots, \psi_{m-1} \rangle$ of sentences of $\mathcal{P}$ is called a formal proof of $\varphi$ from the hypotheses $\Gamma$ if $\psi_{m-1} = \varphi$ and for each $i < m$, one of the following holds:
+\begin{enumerate}
+\item[(i)] $\psi_i$ is a logical axiom of $\mathcal{P}$,
+\item[(ii)] $\psi_i \in \Gamma$,
+\item[(iii)] $\psi_k = \psi_j \to \psi_i$ for some $j, k < i$.
+\end{enumerate}

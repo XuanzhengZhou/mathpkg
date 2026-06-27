@@ -1,0 +1,23 @@
+id: terminal-object
+title_en: "Terminal Object"
+title_zh: "终对象"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category-theory, terminal-object, universal-property]
+depends_on:
+  required: [category]
+  recommended: []
+  suggested: [initial-object, null-object]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I. Categories, Functors, and Natural Transformations"
+    section: "5. Monics, Epis, and Zeros"
+    pages: ""
+    role_in_book: "Definition of terminal object"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

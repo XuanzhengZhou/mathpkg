@@ -1,0 +1,23 @@
+id: fine-partial-order-open-closed
+title_en: "Basic Open Sets are Regular Open in Fine Partial Orders"
+title_zh: "精细偏序中基本开集是正则开集"
+type: lemma
+domain: foundations
+subdomain: order-theory
+difficulty: intermediate
+tags: [fine, partial-order, regular-open, basic-open]
+depends_on:
+  required: [fine-partial-order, regular-open-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "5"
+    section: "Partial Order Structures and Topological Spaces"
+    pages: ""
+    role_in_book: "Lemma 5.22"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

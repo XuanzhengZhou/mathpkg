@@ -1,0 +1,23 @@
+id: quotient-zero-neighborhood-base
+title_en: "Zero-Neighborhood Base of a Quotient Topological Vector Space"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [quotient-space, zero-neighborhood-base, quotient-topology, tvs, open-map]
+depends_on:
+  required: [topological-vector-space, quotient-topological-vector-space, quotient-map-is-open]
+  recommended: [zero-neighborhood, neighborhood-base]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; with M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "I"
+    section: "2"
+    pages: "32-33"
+    role_in_book: "States that the image of any 0-neighborhood base in L under the quotient map is a 0-neighborhood base in L/M."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

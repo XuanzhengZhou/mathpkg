@@ -1,0 +1,1 @@
+Two Riemann domains are isomorphic if each is contained in the other. Isomorphism of Riemann domains means there exists a topological fiber-preserving homeomorphism between them that respects the base points.

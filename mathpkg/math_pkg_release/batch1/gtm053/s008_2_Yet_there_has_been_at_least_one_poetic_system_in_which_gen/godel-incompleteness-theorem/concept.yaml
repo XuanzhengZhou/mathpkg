@@ -1,0 +1,23 @@
+id: godel-incompleteness-theorem
+title_en: "Gödel's First Incompleteness Theorem for Arithmetic"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: formal-arithmetic
+difficulty: advanced
+tags: [godel, incompleteness, arithmetic, provability, truth, tarski]
+depends_on:
+  required: [tarski-undefinability-theorem]
+  recommended: [language-sar, goedel-numbering, deducibility]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "I"
+    section: "11"
+    pages: ""
+    role_in_book: "Derived from Tarski's theorem: provability and truth cannot coincide in arithmetic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

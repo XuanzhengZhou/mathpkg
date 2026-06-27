@@ -1,0 +1,17 @@
+A vector field $\mathbf{F}$ is conservative if and only if its work along any path $M_1M_2$ depends only on the endpoints of the path, and not on the shape of the path.
+
+Proof. Suppose that the work of a field $\mathbf{F}$ does not depend on the path. Then
+
+$$U(M) = - \int_{M_0}^{M} (\mathbf{F}, d\mathbf{S})$$
+
+is well defined as a function of the point $M$. It is easy to verify that
+
+$$\mathbf{F} = - \frac{\partial U}{\partial \mathbf{x}},$$
+
+i.e., the field is conservative and $U$ is its potential energy. The potential energy is defined only up to the additive constant $U(M_0)$.
+
+Conversely, suppose that the field $\mathbf{F}$ is conservative and that $U$ is its potential energy. Then it is easily verified that
+
+$$\int_{M_0}^{M} (\mathbf{F}, d\mathbf{S}) = - U(M) + U(M_0),$$
+
+i.e., the work does not depend on the shape of the path.

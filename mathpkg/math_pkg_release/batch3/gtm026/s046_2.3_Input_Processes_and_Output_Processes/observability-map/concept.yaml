@@ -1,0 +1,29 @@
+id: observability-map
+title_en: "Observability Map"
+title_zh: "可观测映射"
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags:
+  - observability
+  - automaton
+  - cofree-dynamics
+depends_on:
+  required:
+    - output-process
+    - cofree-dynamics
+    - x-automaton
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.3 Input Processes and Output Processes"
+    pages: ""
+    role_in_book: "Defines the observability map as the dynamorphic coextension of output morphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

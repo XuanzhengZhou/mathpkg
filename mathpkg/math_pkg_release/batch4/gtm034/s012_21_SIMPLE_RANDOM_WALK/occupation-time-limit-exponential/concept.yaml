@@ -1,0 +1,13 @@
+id: occupation-time-limit-exponential
+title_en: "Exponential Limit for Occupation Times"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [occupation-time, exponential-distribution, limit-theorem, green-function]
+depends_on: {required: [green-function-asymptotic-kernel, shifted-interval-hitting-time], recommended: [geometric-distribution], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "23", pages: "", role_in_book: "Shows that the scaled occupation count converges to an exponential distribution with parameter sigma^2"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

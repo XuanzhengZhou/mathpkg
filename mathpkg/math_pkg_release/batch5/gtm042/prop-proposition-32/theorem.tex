@@ -1,0 +1,14 @@
+Let $(V_i, \rho_i)$ be the distinct (up to isomorphism) irreducible linear representations of $G$ over $K$, and let $\chi_i$ be the corresponding characters. Then
+
+(a) The $\chi_i$ form a basis of $R_K(G)$.
+(b) The $\chi_i$ are mutually orthogonal.
+
+[As usual, this concerns orthogonality with respect to the bilinear form $\langle \varphi, \chi \rangle = (1/g) \sum_{s \in G} \varphi(s^{-1})\chi(s).$]
+
+It is clear that the $\chi_i$ generate $R_K(G)$. On the other hand, if $i \neq j$ we have $Hom^G(V_i, V_j) = 0$. But in general, if $V$ and $W$ have characters $\chi_V$ and $\chi_W$, we have
+
+$$\dim_K Hom^G(V, W) = \dim_C Hom^G(V_C, W_C) = \langle \chi_V, \chi_W \rangle,$$
+
+cf. 7.2, lemma 2. It follows that $\langle \chi_i, \chi_j \rangle = 0$ if $i \neq j$, and that $\langle \chi_i, \chi_i \rangle = \dim End^G(V_i)$ is an integer $\geqslant 1$ (equal to 1 if and only if $V_C$ is irreducible, i.e., if $V$ is absolutely irreducible, cf. Bourbaki [8], §13, no. 4). In particular, the $\chi_i$ are linearly independent.
+
+A linear representation of $G$ over $C$ is said to be realizable over $K$ (or rational over $K$) if it is isomorphic to a representation of the form $\rho_C$, where $\rho$ is a linear representation of $G$ over $K$; this amounts to saying that it can be realized by matrices having coefficients in $K$.

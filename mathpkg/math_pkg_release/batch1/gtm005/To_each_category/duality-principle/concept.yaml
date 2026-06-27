@@ -1,0 +1,23 @@
+id: duality-principle
+title_en: "Duality Principle for Categories"
+title_zh: "范畴对偶原理"
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [category-theory, duality, opposite-category, meta-theorem]
+depends_on:
+  required: [opposite-category]
+  recommended: [category]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "II"
+    section: "2"
+    pages: "47-49"
+    role_in_book: "The fundamental meta-theorem enabling proof by duality in category theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

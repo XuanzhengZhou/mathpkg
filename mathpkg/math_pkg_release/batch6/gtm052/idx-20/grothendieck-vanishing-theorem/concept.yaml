@@ -1,0 +1,23 @@
+id: grothendieck-vanishing-theorem
+title_en: "Grothendieck's vanishing theorem for sheaf cohomology"
+title_zh: "Grothendieck 层上同调消失定理"
+type: theorem
+domain: geometry
+subdomain: sheaf-cohomology
+difficulty: advanced
+tags: [cohomology, vanishing, noetherian, dimension, grothendieck]
+depends_on:
+  required: []
+  recommended: [noetherian-topological-space, krull-dimension, sheaf-cohomology, flasque-sheaf]
+  suggested: [cohomology-of-pushforward-sheaf]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "§2 Cohomology of Sheaves"
+    pages: "208-209"
+    role_in_book: "Theorem 2.7 — Grothendieck's fundamental result that sheaf cohomology vanishes above the dimension of the space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

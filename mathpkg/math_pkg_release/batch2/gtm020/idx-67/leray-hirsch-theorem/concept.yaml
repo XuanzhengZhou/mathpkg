@@ -1,0 +1,23 @@
+id: leray-hirsch-theorem
+title_en: "Leray-Hirsch Theorem"
+title_zh: "勒雷-赫希定理"
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: [fibre-bundles, cohomology, leray-hirsch, characteristic-classes, spectral-sequences]
+depends_on:
+  required: []
+  recommended: [fibre-bundle, cohomology-ring, mayer-vietoris-sequence]
+  suggested: [chern-class, stiefel-whitney-class, thom-isomorphism]
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "17"
+    section: "1"
+    pages: ""
+    role_in_book: "Fundamental theorem for computing cohomology of total spaces of fibre bundles, used to construct Chern and Stiefel-Whitney classes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

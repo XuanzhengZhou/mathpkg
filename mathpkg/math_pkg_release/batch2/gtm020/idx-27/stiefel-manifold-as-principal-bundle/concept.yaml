@@ -1,0 +1,23 @@
+id: stiefel-manifold-as-principal-bundle
+title_en: "Stiefel Manifold as a Principal Bundle over the Grassmannian"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: fibre-bundles
+difficulty: intermediate
+tags: [stiefel-variety, grassmannian, principal-bundle, classical-groups, homogeneous-spaces]
+depends_on:
+  required: [grassmannian-manifold, stiefel-manifold, principal-bundle]
+  recommended: [compact-lie-group, homogeneous-space-principal-bundle]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "8"
+    section: "2"
+    pages: ""
+    role_in_book: "States that the Stiefel manifold over the Grassmannian is a principal bundle with structure group U_F(k) or SU_F(k)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

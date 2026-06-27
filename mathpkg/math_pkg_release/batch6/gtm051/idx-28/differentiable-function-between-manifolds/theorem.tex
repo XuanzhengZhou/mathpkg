@@ -1,0 +1,11 @@
+Suppose $M$ and $N$ are differentiable manifolds and $F: M \to N$ is a continuous function. Then $F$ is differentiable if, for atlases $(u_\alpha, M_\alpha)_{\alpha \in A}$ of $M$ and $(v_\beta, N_\beta)_{\beta \in B}$ of $N$, the function
+
+$$v_\beta \circ F \circ u_{\alpha}^{-1}: u_\alpha(M_\alpha \cap F^{-1}(N_\beta)) \to v_\beta(N_\beta)$$
+
+is differentiable (in the sense of Euclidean spaces) for all $(\alpha, \beta) \in A \times B$.
+
+This definition is independent of the choice of atlases, as follows from the equality
+
+$$v_{\beta'} \circ F \circ u_{\alpha'}^{-1} = (v_{\beta'} \circ v_{\beta}^{-1}) \circ (v_\beta \circ F \circ u_{\alpha}^{-1}) \circ (u_\alpha \circ u_{\alpha'}^{-1}),$$
+
+where the outer compositions are diffeomorphisms (chart transition maps).

@@ -1,0 +1,23 @@
+id: theorem-4-3
+title_en: "Theorem 4.3: Injectivity of the class group map under Vandiver conjecture"
+title_zh: "定理4.3: Vandiver猜想下类群映射的单射性"
+type: theorem
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [class-group, vandiver-conjecture, galois-cohomology, zm-extensions]
+depends_on:
+  required: [class-group, kummer-theory-cyclotomic-zp-extensions]
+  recommended: [vandiver-conjecture]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "6"
+    section: "6"
+    pages: ""
+    role_in_book: "Relates the kernel of the class group map C1→C2 to Galois cohomology H^i and shows injectivity under the Vandiver conjecture"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

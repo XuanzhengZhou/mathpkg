@@ -1,0 +1,23 @@
+id: existence-uniqueness-semisimple
+title_en: "Existence and Uniqueness of Semisimple Lie Algebras with Given Root System"
+title_zh: "具有给定根系半单李代数的存在唯一性"
+type: theorem
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [semisimple-lie-algebra, root-system, classification, existence, uniqueness, serre-theorem, isomorphism-theorem]
+depends_on:
+  required: [serre-theorem, root-system, semisimple-lie-algebra]
+  recommended: [cartan-subalgebra, standard-generators]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "VI"
+    section: "18"
+    pages: "102-114"
+    role_in_book: "Culmination of the classification: existence and uniqueness of semisimple Lie algebras for each root system"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

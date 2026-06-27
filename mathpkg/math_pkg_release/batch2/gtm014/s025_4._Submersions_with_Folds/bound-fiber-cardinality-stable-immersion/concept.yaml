@@ -1,0 +1,23 @@
+id: bound-fiber-cardinality-stable-immersion
+title_en: "Bound on Preimage Cardinality for Stable Immersions"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-topology
+difficulty: intermediate
+tags: [stable-immersion, fiber-cardinality, normal-crossings, dimension-counting]
+depends_on:
+  required: [stable-immersion, immersion-with-normal-crossings]
+  recommended: []
+  suggested: [normal-crossings-double-dimension]
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky, Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "4. Submersions with Folds"
+    pages: "98-101"
+    role_in_book: "Exercise: bounding the cardinality of fibers of stable immersions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

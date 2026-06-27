@@ -1,0 +1,23 @@
+id: semisimple-int-l-conjugacy
+title_en: "Conjugacy of Cartan Subalgebras in Semisimple Lie Algebras"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [cartan-subalgebra, conjugacy, semisimple-lie-algebra, maximal-toral-subalgebra, inner-automorphism]
+depends_on:
+  required: [cartan-subalgebra, semisimple-lie-algebra, maximal-toral-subalgebra, conjugacy-theorems]
+  recommended: [inner-automorphism, root-system]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "16"
+    section: "16.5"
+    pages: "91-101"
+    role_in_book: "Theorem establishing that all Cartan subalgebras (equivalently, maximal toral subalgebras) of a semisimple Lie algebra are conjugate under inner automorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

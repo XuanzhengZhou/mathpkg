@@ -1,0 +1,23 @@
+id: link
+title_en: "Link"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: knot-theory
+difficulty: basic
+tags: [link, knot, 1-manifold, polyhedral]
+depends_on:
+  required: [knot]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "Moise, Edwin E."
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "15"
+    section: "15"
+    pages: ""
+    role_in_book: "Defines a link as a finite disjoint union of polygonal knots"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

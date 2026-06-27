@@ -1,0 +1,23 @@
+id: existence-uniqueness-weak-star-continuity-adjoints
+title_en: "Existence, Uniqueness, and Weak* Continuity of Adjoints; One-to-One Transformations"
+title_zh: "伴随的存在性、唯一性与弱*连续性；一一变换"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [adjoint, weak-star-continuity, locally-convex-space, existence, uniqueness, one-to-one-transformation]
+depends_on:
+  required: [adjoint-linear-transformation, dual-transformation, locally-convex-space]
+  recommended: [weak-topology, weak-star-topology, continuous-linear-transformation]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "21"
+    section: "21.3"
+    pages: ""
+    role_in_book: "Characterizes adjoints of linear transformations between locally convex spaces: existence iff weak continuity, uniqueness, weak* continuity, and criterion for a map on duals to be an adjoint"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

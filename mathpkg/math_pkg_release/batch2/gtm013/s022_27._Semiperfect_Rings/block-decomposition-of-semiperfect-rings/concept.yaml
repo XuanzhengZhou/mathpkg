@@ -1,0 +1,23 @@
+id: block-decomposition-of-semiperfect-rings
+title_en: "Block Decomposition of Semiperfect Rings"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: advanced
+tags: [semiperfect-ring, block-decomposition, central-idempotent, indecomposable-ring, primitive-idempotent]
+depends_on:
+  required: [semiperfect-ring, block-decomposition, central-idempotent]
+  recommended: [primitive-idempotent, indecomposable-module]
+  suggested: [composition-factor]
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "27. Semiperfect Rings"
+    pages: ""
+    role_in_book: "Theorem 27.16 — block decomposition of semiperfect rings via primitive idempotents"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

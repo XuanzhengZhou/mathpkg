@@ -1,0 +1,35 @@
+In order that V be induced by W, it is necessary and sufficient that the homomorphism
+
+$$i: C[G] \otimes_{C[H]} W \rightarrow V$$
+
+be an isomorphism.
+
+This is a consequence of the fact that the elements of R form a basis of C[G] considered as a right C[H]-module.
+
+Remarks
+
+(1) This characterization of the representation induced by W makes it obvious that the induced representation exists and is unique (cf. 3.3, th. 11).
+
+7.2: The character of an induced representation
+
+In what follows, the representation of $G$ induced by $W$ will be denoted by $\text{Ind}_H^G(W)$, or simply $\text{Ind}(W)$ if there is no danger of confusion.
+
+(2) If $V$ is induced by $W$ and if $E$ is a $C[G]$-module, we have a canonical isomorphism
+
+$$\text{Hom}^H(W, E) \cong \text{Hom}^G(V, E),$$
+
+where $\text{Hom}^G(V, E)$ denotes the vector space of $C[G]$-homomorphisms of $V$ into $E$, and $\text{Hom}^H(W, E)$ is defined similarly. This follows from an elementary property of tensor products (see also 3.3, lemma 1).
+
+(3) Induction is transitive: if $G$ is a subgroup of a group $K$, we have
+
+$$\text{Ind}_G^K(\text{Ind}_H^G(W)) \cong \text{Ind}_H^K(W).$$
+
+This can be seen directly, or by using the associativity of the tensor product.
+
+**Proposition 19.** Let $V$ be a $C[G]$-module which is a direct sum $V = \bigoplus_{i \in I} W_i$ of vector subspaces permuted transitively by $G$. Let $i_0 \in I$, $W = W_{i_0}$ and let $H$ be the stabilizer of $W$ in $G$ (i.e., the set of all $s \in G$ such that $sW = W$). Then $W$ is stable under the subgroup $H$ and the $C[G]$-module $V$ is induced by the $C[H]$-module $W$.
+
+This is clear.
+
+**Remark.** In order to apply proposition 19 to an irreducible representation $V = \oplus W_i$ of $G$, it is enough to check that the $W_i$ are permuted among themselves by $G$; the transitivity condition is automatic, because each orbit of $G$ in the set of $W_i$'s defines a sub
+
+Chapter 7: Induced representations; Mackey's criterion

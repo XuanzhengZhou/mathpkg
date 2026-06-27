@@ -1,0 +1,23 @@
+id: bound-on-degree-of-radical
+title_en: "Bound on the Degree of Nilpotency of the Radical"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: radical-theory
+difficulty: intermediate
+tags: [radical, nilpotent, dimension, bound]
+depends_on:
+  required: [radical-of-associative-algebra, nilpotent-ideal]
+  recommended: [dimension]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "5"
+    section: "§2. Ideals"
+    pages: "170"
+    role_in_book: "bounds the nilpotency degree of the radical by its dimension plus one"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

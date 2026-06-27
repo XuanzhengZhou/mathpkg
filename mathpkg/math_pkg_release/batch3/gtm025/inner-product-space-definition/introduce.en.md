@@ -1,0 +1,1 @@
+Inner product spaces generalize Euclidean geometry to infinite dimensions. The inner product induces a norm via $\|x\| = \sqrt{\langle x, x \rangle}$, and complete inner product spaces are Hilbert spaces.

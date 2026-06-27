@@ -1,0 +1,23 @@
+id: units-in-polynomial-rings
+title_en: "Units in Polynomial Rings over Integral Domains"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: polynomial-rings
+difficulty: basic
+tags: [units, polynomial-ring, integral-domain]
+depends_on:
+  required: [degree-of-product-of-polynomials]
+  recommended: [polynomial-ring, integral-domain]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "5"
+    pages: ""
+    role_in_book: "Characterization of units: the only units in A[x] (A integral domain) are units of A"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

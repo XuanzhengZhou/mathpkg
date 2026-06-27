@@ -1,0 +1,23 @@
+id: positive-linear-functional
+title_en: "Positive Linear Functional"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [positive-linear-functional, riesz-representation, continuous-functions]
+depends_on:
+  required: [linear-functional-on-L]
+  recommended: []
+  suggested: [baire-measure-definition]
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "56"
+    section: "56. LINEAR FUNCTIONALS"
+    pages: ""
+    role_in_book: "Definition needed for the Riesz Representation Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

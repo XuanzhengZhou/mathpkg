@@ -1,0 +1,23 @@
+id: peripheral-spectrum-banach-lattice
+title_en: "Cyclic Peripheral Point Spectrum for Banach Lattices with Complexification"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [banach-lattices, peripheral-spectrum, cyclic-groups, complexification, positive-operators]
+depends_on:
+  required: [peripheral-spectrum, banach-lattice, complexification, positive-endomorphism, strictly-positive-linear-form]
+  recommended: [spectral-radius, cyclic-group]
+  suggested: [lp-spaces]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer, with M. P. Wolff"
+    title: "Topological Vector Spaces, Second Edition"
+    chapter: "Appendix D"
+    section: "3. The Peripheral Point Spectrum"
+    pages: ""
+    role_in_book: "Theorem 3.4 — generalization of cyclicity beyond C(X)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: developable-surface-gauss-curvature-zero
+title_en: "A Surface Without Planar Points is Developable iff Gauss Curvature Vanishes"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [developable-surface, gauss-curvature, planar-points, principal-curvature, ruled-surface, differential-geometry]
+depends_on:
+  required: [developable-surface, ruled-surface-generators-are-asymptotic]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.7"
+    pages: "68-69"
+    role_in_book: "Theorem 3.7.9 — fundamental characterization of developable surfaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

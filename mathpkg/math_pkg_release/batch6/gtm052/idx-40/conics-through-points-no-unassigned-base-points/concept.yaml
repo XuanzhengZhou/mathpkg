@@ -1,0 +1,23 @@
+id: conics-through-points-no-unassigned-base-points
+title_en: "Linear System of Conics through r Points has No Unassigned Base Points"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [conics, base-points, linear-system, projective-plane]
+depends_on:
+  required: [linear-system-with-assigned-base-points, conic]
+  recommended: [bezouts-theorem, projective-plane]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Proposition 4.1; the linear system of conics through r points has no unassigned base points"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

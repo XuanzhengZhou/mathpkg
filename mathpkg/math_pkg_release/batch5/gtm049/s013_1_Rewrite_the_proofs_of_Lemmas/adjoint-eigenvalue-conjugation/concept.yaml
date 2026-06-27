@@ -1,0 +1,23 @@
+id: adjoint-eigenvalue-conjugation
+title_en: "Eigenvalues of the Adjoint are Conjugates of Eigenvalues of the Original Mapping"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: hilbert-space
+difficulty: intermediate
+tags: [adjoint, eigenvalue, eigenvector, hilbert-space, complex-conjugation]
+depends_on:
+  required: [adjoint-operator, eigenvalue, eigenvector]
+  recommended: [hilbert-space]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K.W. Gruenberg, A.J. Weir"
+    title: "Linear Geometry"
+    chapter: "13"
+    section: "13.1"
+    pages: ""
+    role_in_book: "Exercise 4(ii): Relationship between eigenvalues of f and f*"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

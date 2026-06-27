@@ -1,0 +1,23 @@
+id: first-homotopy-groups-of-classical-groups
+title_en: "First Homotopy Groups of Classical Groups"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: homotopy-theory
+difficulty: intermediate
+tags: [Lie-group, homotopy-group, fundamental-group, classical-group]
+depends_on:
+  required: [homotopy-isomorphism-for-stiefel-inclusion]
+  recommended: [orthogonal-group, unitary-group, symplectic-group, real-projective-space]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "12"
+    pages: ""
+    role_in_book: "Computes $\pi_1$ of the classical matrix groups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

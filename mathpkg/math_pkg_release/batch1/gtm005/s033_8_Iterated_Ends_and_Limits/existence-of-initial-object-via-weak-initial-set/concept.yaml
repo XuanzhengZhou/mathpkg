@@ -1,0 +1,23 @@
+id: existence-of-initial-object-via-weak-initial-set
+title_en: "Existence of Initial Object via Weakly Initial Set"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [initial-object, weak-initial-set, completeness, small-category]
+depends_on:
+  required: [initial-object-via-limit-of-identity]
+  recommended: [complete-category, weak-initial-object]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "X"
+    section: "2. Weak Universality"
+    pages: ""
+    role_in_book: "Gives sufficient conditions for existence of initial objects in complete categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

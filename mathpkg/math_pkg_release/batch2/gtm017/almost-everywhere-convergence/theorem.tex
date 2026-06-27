@@ -1,0 +1,12 @@
+A sequence of random variables $X_n(w)$ \text{converges almost everywhere} (or \text{with probability one}) to $X(w)$ if
+$$X(w) = \lim_{n \to \infty} X_n(w)$$
+except possibly on a set of $w$ of probability measure zero.
+
+$X_n(w)$ \text{converges in probability} to $X(w)$ if for every $\varepsilon > 0$,
+$$\lim_{n \to \infty} P(|X_n(w) - X(w)| > \varepsilon) = 0.$$
+
+Convergence almost everywhere implies convergence in probability, but the converse does not hold.
+
+The sequence $X_n$ is \text{uniformly integrable} if
+$$\int_{\{w \mid |X_n(w)| \geq a\}} |X_n(w)| \, dP \to 0$$
+uniformly in $n$ as $a \to \infty$. Uniform integrability plus convergence in probability implies $L^1$ convergence.

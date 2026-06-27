@@ -1,0 +1,23 @@
+id: fundamental-group
+title_en: "Fundamental group"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [fundamental-group, pi1, homotopy-group]
+depends_on:
+  required: [path-equivalence-relation, path-multiplication-respects-equivalence, path-equivalence-is-equivalence-relation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "Moise, Edwin E."
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "14"
+    section: "14"
+    pages: ""
+    role_in_book: "Defines the fundamental group π(X,P₀) as equivalence classes of closed paths"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

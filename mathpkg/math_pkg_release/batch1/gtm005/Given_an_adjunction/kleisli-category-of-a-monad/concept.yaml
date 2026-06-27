@@ -1,0 +1,23 @@
+id: kleisli-category-of-a-monad
+title_en: "Kleisli Category of a Monad"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [monad, kleisli-category, adjunction, free-algebra, mac-lane]
+depends_on:
+  required: [monad, adjunction, functor, natural-transformation]
+  recommended: [eilenberg-moore-category]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "5. Free Algebras for a Monad"
+    pages: ""
+    role_in_book: "Constructs the Kleisli category from a monad, proving it yields an adjunction that recovers the original monad"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: vector-space-of-linear-transformations-over-center
+title_en: "Vector Space of Linear Transformations over the Center Field"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [linear-transformation, vector-space, center, scalar-multiplication]
+depends_on:
+  required: [linear-transformations-form-commutative-group, center-scalar-multiplications-are-linear]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "II"
+    section: "2"
+    pages: "44-54"
+    role_in_book: "Shows that the set of linear transformations forms a vector space over the center field"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

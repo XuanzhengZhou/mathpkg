@@ -1,0 +1,23 @@
+id: minimal-cogenerator-noetherian-test
+title_en: "Minimal Cogenerator Test for Left Noetherian Rings"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [minimal-cogenerator, noetherian-ring, injective-module, direct-sum]
+depends_on:
+  required: [minimal-cogenerator, noetherian-ring, injective-module]
+  recommended: [cogeneration-via-annihilator, faiths-injective-direct-sum-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson and Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "25. Injective Modules and Noetherian Rings—The Faith–Walker Theorems"
+    pages: ""
+    role_in_book: "Provides an economical test for left noetherianity using the minimal cogenerator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

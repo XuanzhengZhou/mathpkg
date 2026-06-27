@@ -1,0 +1,23 @@
+id: theorem-10-9-derived-desarguesian-plane
+title_en: "Derived Plane of a Desarguesian Plane"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [derived-plane, desarguesian-plane, derivation]
+depends_on:
+  required: [desarguesian-plane, derived-plane, derivation-set]
+  recommended: [translation-plane, shear]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "10"
+    section: "3"
+    pages: ""
+    role_in_book: "Characterizes the derived plane of a desarguesian affine plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

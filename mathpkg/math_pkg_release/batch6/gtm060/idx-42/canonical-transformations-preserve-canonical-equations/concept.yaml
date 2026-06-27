@@ -1,0 +1,23 @@
+id: canonical-transformations-preserve-canonical-equations
+title_en: "Canonical Transformations Preserve the Form of Hamilton's Canonical Equations"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [canonical-transformation, hamilton-equations, symplectic-invariance, phase-space, hamiltonian-function]
+depends_on:
+  required: [canonical-transformation, hamilton-equations]
+  recommended: [symplectic-form, poisson-bracket, phase-flow]
+  suggested: [infinitesimal-canonical-transformation, generating-function]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "8"
+    section: "42"
+    pages: ""
+    role_in_book: "Corollary: under canonical transformations the canonical equations retain their form with the same hamiltonian function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

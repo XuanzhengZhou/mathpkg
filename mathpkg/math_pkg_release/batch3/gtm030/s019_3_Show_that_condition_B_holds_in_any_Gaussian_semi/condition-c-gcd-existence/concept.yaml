@@ -1,0 +1,23 @@
+id: condition-c-gcd-existence
+title_en: "Condition C (Greatest Common Divisor Property)"
+title_zh: ""
+type: axiom
+domain: algebra
+subdomain: semi-group-theory
+difficulty: basic
+tags: [gcd, condition-c, semi-group, factorization]
+depends_on:
+  required: []
+  recommended: [greatest-common-divisor, condition-a-factorization, condition-b-prime]
+  suggested: [gaussian-semi-group]
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Condition C states that every pair of elements has a greatest common divisor"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

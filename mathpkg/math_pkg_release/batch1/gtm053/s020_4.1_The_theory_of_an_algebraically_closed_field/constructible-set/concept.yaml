@@ -1,0 +1,13 @@
+id: constructible-set
+title_en: "Constructible set"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [constructible-set, algebraic-geometry, quantifier-elimination, boolean-combination, zero-set]
+depends_on: {required: [algebraically-closed-field], recommended: [zariski-topology, boolean-algebra], suggested: [chevalley-theorem]}
+source_books: [{book_id: "gtm053", author: "Yuri I. Manin", title: "A Course in Mathematical Logic for Mathematicians", chapter: "4", section: "4.3", pages: "", role_in_book: "Defines constructible sets as Boolean combinations of zero-sets of polynomials; Chevalley's theorem identifies them with L_1Ar-definable sets"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

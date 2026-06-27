@@ -1,0 +1,23 @@
+id: von-neumann-natural-numbers
+title_en: "von Neumann Natural Numbers"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [ZF, Zermelo-Fraenkel, natural-numbers, von-Neumann, ordinals, omega, successor, sets]
+depends_on:
+  required: [empty-set, union-of-a-set, axiom-of-extension]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "von Neumann construction of natural numbers as sets; defines 0, 1, 2, 3, ..., ω, N"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

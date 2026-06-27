@@ -1,0 +1,23 @@
+id: gauss-lemma-for-spacetimes
+title_en: "Gauss Lemma for Spacetimes"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: semi-riemannian-geometry
+difficulty: advanced
+tags: [gauss-lemma, spacetime, geodesic, lie-parallel, metric]
+depends_on:
+  required: [lie-parallel-vector-field, geodesic-vector-field, spacetime]
+  recommended: [symmetric-connection, induced-covariant-derivative-along-a-curve]
+  suggested: [gauss-lemma-riemannian]
+source_books:
+  - book_id: "gtm048"
+    author: "R. K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "2"
+    section: "2.0.1"
+    pages: ""
+    role_in_book: "A spacetime analogue of the Riemannian Gauss Lemma; constancy of inner products along geodesics for Lie parallel fields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

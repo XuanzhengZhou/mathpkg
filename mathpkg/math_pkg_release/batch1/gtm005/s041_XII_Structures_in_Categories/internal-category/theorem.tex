@@ -1,0 +1,25 @@
+Let $E$ be a finitely complete category. An \textbf{internal category} $C$ in $E$ (also called a \textit{category object} in $E$) consists of two objects $C_0, C_1 \in E$ together with four morphisms
+$$
+i : C_0 \to C_1, \quad d_0, d_1 : C_1 \to C_0, \quad \gamma : C_1 \times_{C_0} C_1 \to C_1,
+$$
+called \textit{identity}, \textit{domain}, \textit{codomain}, and \textit{composition}, where $\gamma$ is defined on the pullback
+$$
+\begin{CD}
+C_1 \times_{C_0} C_1 @>{\pi_2}>> C_1 \\
+@V{\pi_1}VV @VV{d_1}V \\
+C_1 @>>{d_0}> C_0
+\end{CD}
+$$
+satisfying the following axioms:
+\begin{enumerate}
+\item $d_0 \circ i = 1_{C_0} = d_1 \circ i$,
+\item $i \circ d_0$ and $i \circ d_1$ act as units for $\gamma$: the diagram
+$$
+\begin{CD}
+C_0 \times_{C_0} C_1 @>{i \times 1}>> C_1 \times_{C_0} C_1 @<{1 \times i}<< C_1 \times_{C_0} C_0
+\end{CD}
+$$
+commutes appropriately with $\gamma$,
+\item $d_0 \circ \gamma = d_0 \circ \pi_1$ and $d_1 \circ \gamma = d_1 \circ \pi_2$,
+\item $\gamma \circ (\gamma \times 1) = \gamma \circ (1 \times \gamma)$ on the triple pullback $C_1 \times_{C_0} C_1 \times_{C_0} C_1$.
+\end{enumerate}

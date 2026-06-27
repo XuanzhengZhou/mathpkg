@@ -1,0 +1,23 @@
+id: diagonal-rank-computation
+title_en: "Rank of Coordinate Differences on the Diagonal"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: complex-manifolds
+difficulty: intermediate
+tags: [diagonal, complex-manifold, rank, submanifold, jacobian]
+depends_on:
+  required: [complex-manifold]
+  recommended: [product-complex-manifold, diagonal-mapping, tangent-vector]
+  suggested: [regular-analytic-set, singularity-free, codimension]
+source_books:
+  - book_id: gtm038
+    author: "H. Grauert, K. Fritzsche"
+    title: "Several Complex Variables"
+    chapter: "V"
+    section: "V.3 Examples of Complex Manifolds"
+    pages: ""
+    role_in_book: "Lemma establishing that the diagonal D in X × X is a regular analytic subset by computing the rank of the coordinate difference functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

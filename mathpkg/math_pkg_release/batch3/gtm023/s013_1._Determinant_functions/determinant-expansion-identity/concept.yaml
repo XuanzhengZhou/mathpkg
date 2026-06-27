@@ -1,0 +1,23 @@
+id: determinant-expansion-identity
+title_en: "Determinant expansion identity"
+title_zh: "行列式展开恒等式"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [determinant, expansion, cofactor, laplace-expansion]
+depends_on:
+  required: [determinant-function]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IV"
+    section: "§1. Determinant functions"
+    pages: "4.3"
+    role_in_book: "Proposition IV: A key identity relating determinant expansion to a linear combination with signed determinants"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

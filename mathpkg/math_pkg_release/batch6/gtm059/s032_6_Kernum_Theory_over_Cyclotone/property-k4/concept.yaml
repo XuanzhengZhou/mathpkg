@@ -1,0 +1,23 @@
+id: property-k4
+title_en: "Property K.4: Character action on Kummer-Takagi exponents"
+title_zh: "性质K.4: 特征标对Kummer-Takagi指数的作用"
+type: proposition
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [kummer-takagi-exponents, characters, galois-group, idempotents]
+depends_on:
+  required: [kummer-homomorphism, kummer-takagi-exponents]
+  recommended: [group-characters, idempotents]
+  suggested: [iwasawa-theory]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "6"
+    section: "6"
+    pages: ""
+    role_in_book: "Computes the action of idempotents e(a) on the Kummer-Takagi exponents, distinguishing the case k = a mod p from k ≠ a mod p"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: discrete-topology-left-adjoint
+title_en: "Discrete Topology Functor as Left Adjoint to Forgetful Functor"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: category-theory
+difficulty: basic
+tags: [adjunction, discrete-topology, forgetful-functor, left-adjoint]
+depends_on:
+  required: [forgetful-functor-top-to-set]
+  recommended: [adjoint-functor]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IV. Adjoints"
+    section: "9. Adjoints in Topology"
+    pages: ""
+    role_in_book: "First example of adjoint in topology; shows G preserves limits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

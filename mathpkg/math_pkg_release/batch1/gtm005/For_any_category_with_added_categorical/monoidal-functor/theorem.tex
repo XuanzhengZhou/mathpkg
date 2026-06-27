@@ -1,0 +1,26 @@
+A \text{monoidal functor} $(F, F_2, F_0) : M \rightarrow M'$ between monoidal categories $M$ and $M'$ consists of:
+
+\begin{enumerate}
+\item[(i)] An (ordinary) functor $F : M \rightarrow M'$ between categories;
+\item[(ii)] For objects $a, b$ in $M$, morphisms
+$$F_2(a, b) : F(a) \square F(b) \rightarrow F(a \square b)$$
+in $M'$ which are natural in $a$ and $b$;
+\item[(iii)] For the units $e$ and $e'$, a morphism in $M'$
+$$F_0 : e' \rightarrow Fe.$$
+\end{enumerate}
+
+Together, these must make the following three diagrams commute in $M'$:
+
+$$F(a) \square (F(b) \square F(c)) \xrightarrow{\alpha'} (F(a) \square F(b)) \square F(c)$$
+$$1 \square F_2 \downarrow \qquad \qquad \downarrow F_2 \square 1$$
+$$F(a) \square F(b \square c) \qquad \qquad F(a \square b) \square F(c)$$
+$$F_2 \downarrow \qquad \qquad \downarrow F_2$$
+$$F(a \square (b \square c)) \xrightarrow{F(\alpha)} F((a \square b) \square c)$$
+
+$$e' \square F(a) \xrightarrow{F_0 \square 1} F(e) \square F(a)$$
+$$\lambda' \downarrow \qquad \qquad \downarrow F_2$$
+$$F(a) \xleftarrow{F(\lambda)} F(e \square a)$$
+
+$$F(a) \square e' \xrightarrow{1 \square F_0} F(a) \square F(e)$$
+$$\rho' \downarrow \qquad \qquad \downarrow F_2$$
+$$F(a) \xleftarrow{F(\rho)} F(a \square e)$$

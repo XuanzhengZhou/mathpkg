@@ -1,0 +1,23 @@
+id: elementary-continuous-t-invariance
+title_en: "T-Invariance of Elementary Continuous Functions"
+title_zh: "初等连续函数的T-不变性"
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [elementary-continuous-function, t-continuous, martin-boundary]
+depends_on:
+  required: [elementary-continuous-function, t-continuous-function]
+  recommended: [limit-of-b-e-k]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Lemma 11-10. Every elementary continuous function is T-continuous"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

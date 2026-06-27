@@ -1,0 +1,23 @@
+id: fundamental-region-existence
+title_en: "Existence of Equivalent Point in the Fundamental Region"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [fundamental-region, modular-group, upper-half-plane, equivalent-points, fundamental-domain]
+depends_on:
+  required: [modular-group, fundamental-pair-lemma, upper-half-plane]
+  recommended: [fundamental-domain, fundamental-region]
+  suggested: [imaginary-part, linear-fractional-transformation]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "2"
+    section: "2.3"
+    pages: ""
+    role_in_book: "Theorem 2.2 — Establishes that every point in the upper half-plane is Γ-equivalent to a point in the fundamental region, the foundation for constructing modular functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: relational-version-of-language
+title_en: "Relational Version of a First-Order Language (Definition 11.26)"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: first-order-logic
+difficulty: advanced
+tags: [relational-version, translation, operation-elimination, model-theory, effective-version, partial-recursive]
+depends_on:
+  required: [first-order-language, language-expansion, effectivized-language]
+  recommended: [structure, formula-denotation]
+  suggested: [translation-function-recursive, properties-of-relational-versions]
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "11"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Defines relational versions of languages, eliminating operation symbols by replacing them with relation symbols, and the translation between formulas"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

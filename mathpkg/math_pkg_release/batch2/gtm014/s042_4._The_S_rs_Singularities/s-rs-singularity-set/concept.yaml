@@ -1,0 +1,23 @@
+id: s-rs-singularity-set
+title_en: "$S_{r,s}(f)$ (The $S_{r,s}$ Singularity Set)"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [thom-boardman, singularities, jet-bundles, stable-mappings, transversality]
+depends_on:
+  required: [s-r-2-preimage, hom-bundle-symmetric-subbundle]
+  recommended: [s-r-singularity, second-jet-bundle]
+  suggested: [transversality-theorem]
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky and V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VI"
+    section: "4. The $S_{r,s}$ Singularities"
+    pages: "166"
+    role_in_book: "Core definition of second-order Thom-Boardman singularities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

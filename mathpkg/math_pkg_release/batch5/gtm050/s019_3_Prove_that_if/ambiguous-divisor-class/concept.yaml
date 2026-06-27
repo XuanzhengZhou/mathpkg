@@ -1,0 +1,23 @@
+id: ambiguous-divisor-class
+title_en: "Ambiguous Divisor Class"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: quadratic-integer-divisor-theory
+difficulty: intermediate
+tags: [ambiguous-class, divisor-class-group, quadratic-integers, genus-theory]
+depends_on:
+  required: []
+  recommended: [divisor-of-quadratic-integers, divisor-class-group, conjugate-divisor]
+  suggested: [cyclic-method]
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "7"
+    section: "7.10"
+    pages: "298-301"
+    role_in_book: "Defines ambiguous classes as a foundational concept for counting ambiguous classes and proving quadratic reciprocity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

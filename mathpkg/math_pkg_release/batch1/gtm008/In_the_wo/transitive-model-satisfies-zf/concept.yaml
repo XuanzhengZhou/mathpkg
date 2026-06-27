@@ -1,0 +1,23 @@
+id: transitive-model-satisfies-zf
+title_en: "The Union of a Cumulative Hierarchy Satisfies ZF"
+title_zh: "累积层次的并满足 ZF"
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [ZF, transitive-model, cumulative-hierarchy, reflection]
+depends_on:
+  required: [absoluteness-reflection-corollary, subset-absorption-in-hierarchy]
+  recommended: [reflection-principle]
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "7"
+    section: "Relative Constructibility"
+    pages: ""
+    role_in_book: "Theorem 7.21"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: unit-ball
+title_en: "Unit Ball (Closed Unit Ball)"
+title_zh: "单位球（闭单位球）"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [normed-space, unit-ball, closed-set, convex-set, bounded-set]
+depends_on:
+  required: [normed-space]
+  recommended: [normable-space, convex-set, bounded-set]
+  suggested: [topological-vector-space]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Fundamental geometric object in a normed space; its gauge recovers the norm"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

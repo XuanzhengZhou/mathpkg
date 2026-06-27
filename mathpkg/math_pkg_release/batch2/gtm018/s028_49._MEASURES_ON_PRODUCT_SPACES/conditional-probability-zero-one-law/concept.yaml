@@ -1,0 +1,23 @@
+id: conditional-probability-zero-one-law
+title_en: "Zero-One Law for Conditional Probabilities on Product Spaces (Theorem B)"
+title_zh: "乘积空间条件概率的零一律"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [product-space, conditional-probability, zero-one-law, martingale-convergence, cylinder-set]
+depends_on:
+  required: [conditional-probability, product-space, kolmogorov-extension-theorem, cylinder-set]
+  recommended: [almost-uniform-convergence, almost-everywhere-convergence]
+  suggested: [martingale-convergence-theorem, levy-zero-one-law]
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX"
+    section: "49"
+    pages: ""
+    role_in_book: "Shows that conditional probabilities given the first n coordinates converge almost everywhere to the indicator of the set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

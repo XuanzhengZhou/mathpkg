@@ -1,0 +1,23 @@
+id: phragmen-lindelof-angular-sector
+title_en: "Phragmén-Lindelöf Theorem for Angular Sectors"
+title_zh: "角扇形的 Phragmén-Lindelöf 定理"
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [phragmen-lindelof, angular-sector, exponential-growth, maximum-principle]
+depends_on:
+  required: [phragmen-lindelof-theorem]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VI"
+    section: "§4"
+    pages: ""
+    role_in_book: "Specializes the Phragmén-Lindelöf Theorem to angular sectors where the auxiliary function is exp(-z^a), yielding a bound on |f| when growth is at most exp(|z|^b) with b < a."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,12 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $\mathcal{R}_0 \subset \mathcal{R}_1 \subset \cdots$ be an increasing sequence of partitions and let $\mathcal{R}^*$ be the smallest augmented Borel field containing the field $\bigcup \mathcal{R}_n^*$. Let $f$ be a random variable measurable with respect to $\mathcal{R}^*$ and having finite mean, and set $g_n = M[f \mid \mathcal{R}_n]$. Then $(g_n, \mathcal{R}_n)$ is a martingale, and
+
+$$\lim_{n \to \infty} g_n = f$$
+
+almost everywhere.

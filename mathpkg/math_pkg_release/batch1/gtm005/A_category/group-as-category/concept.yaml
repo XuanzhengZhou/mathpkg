@@ -1,0 +1,23 @@
+id: group-as-category
+title_en: "Group as a Category with One Object and All Arrows Invertible"
+title_zh: "群作为所有态射可逆的单对象范畴"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [group, one-object-category, invertible-arrow, groupoid]
+depends_on:
+  required: [category, monoid-as-category]
+  recommended: [group-theory]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "2"
+    pages: ""
+    role_in_book: "Shows groups as a special case of categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

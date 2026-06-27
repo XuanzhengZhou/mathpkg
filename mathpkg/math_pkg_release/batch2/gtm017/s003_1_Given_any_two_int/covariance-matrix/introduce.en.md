@@ -1,0 +1,1 @@
+The covariance matrix of a random vector collects all pairwise covariances. It is always symmetric and positive semidefinite, a property that follows directly from the definition. When positive definite, no nontrivial linear combination of the variables is constant.

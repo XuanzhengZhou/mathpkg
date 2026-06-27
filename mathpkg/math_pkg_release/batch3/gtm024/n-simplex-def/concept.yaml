@@ -1,0 +1,23 @@
+id: n-simplex-def
+title_en: "n-Simplex and Barycentric Coordinates"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: convex-geometry
+difficulty: basic
+tags: ["simplex", "barycentric-coordinates", "affine-independence"]
+depends_on:
+  required: ["convex-hull-def"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§2"
+  section: "2.C"
+  pages: "8"
+  role_in_book: "fundamental polytope"
+content_hash: "de91fcc87b6506bc"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

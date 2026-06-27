@@ -1,0 +1,23 @@
+id: cycle-representation-fermat
+title_en: "Fermat Representation from Cycle of Principal Class"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: quadratic-integers
+difficulty: advanced
+tags: [fermat, sum-of-squares, cyclic-method, principal-class, quadratic-integers, gauss]
+depends_on:
+  required: [cyclic-method, principal-divisor]
+  recommended: [fundamental-unit, ambiguous-divisor-class]
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "7"
+    section: "7.10"
+    pages: "301"
+    role_in_book: "Exercise 9: shows how the cyclic method yields Fermat's representation D = u^2 + v^2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

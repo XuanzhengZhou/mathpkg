@@ -1,0 +1,23 @@
+id: kochen-specker-nonembeddability
+title_en: "Non-Embeddability of B(H) into a Boolean Algebra (Kochen–Specker Theorem)"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: quantum-logic
+difficulty: advanced
+tags: [quantum-logic, kochen-specker, boolean-algebra, hidden-variables, hilbert-space]
+depends_on:
+  required: [hilbert-closed-subspace-algebra, partial-boolean-algebra]
+  recommended: [boolean-algebra, graph-gamma2-sphere-realization]
+  suggested: [orthomodular-lattice, von-neumann-algebra]
+source_books:
+  - book_id: "gtm053"
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "12"
+    section: "12.12"
+    pages: ""
+    role_in_book: "Main theorem ruling out hidden-variable theories for quantum mechanics (dim ≥ 3)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

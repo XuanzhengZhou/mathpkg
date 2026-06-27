@@ -1,0 +1,23 @@
+id: exactness-under-morita-duality
+title_en: "Exactness under Morita Duality"
+title_zh: "Morita对偶下的正合性"
+type: corollary
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [morita-duality, exact-sequence, dual-exactness, hom-functor, injective-cogenerator]
+depends_on:
+  required: [morita-duality, characterization-of-morita-dualities]
+  recommended: [exact-sequence, hom-functor-exactness]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "24. Morita Dualities"
+    pages: ""
+    role_in_book: "Corollary 24.2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

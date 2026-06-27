@@ -1,0 +1,23 @@
+id: meromorphic-function
+title_en: "Meromorphic Function"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [meromorphic, singularities, complex-analysis, pole]
+depends_on:
+  required: [analytic-function, isolated-singularity, pole]
+  recommended: []
+  suggested: [residue]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "V"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines meromorphic functions, providing the natural setting for the Argument Principle and Rouché's Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

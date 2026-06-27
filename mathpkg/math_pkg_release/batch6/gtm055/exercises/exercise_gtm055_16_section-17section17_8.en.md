@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "16"
+section: "Section 17_Section_17"
+exercise_number: 8
+---
+
+H. Let $\mathcal{E}$ be an infinite dimensional linear space, and let $\mathcal{L}$ be a linear manifold of linear functionals on $\mathcal{E}$. Show that in the topology induced on $\mathcal{E}$ by $\mathcal{L}$ every neighborhood of the origin contains an infinite dimensional linear submanifold of $\mathcal{E}$. Conclude that every neighborhood of an arbitrary vector $x_0$ in this topology contains a line through $x_0$. Conclude also that the topology induced by $\mathcal{L}$ is not induced by any norm on $\mathcal{E}$. (This is expressed by saying that the space $\mathcal{E}$ equipped with the topology induced by $\mathcal{L}$ is not normable.) (Hint: If $\{f_1, \ldots, f_p\}$ is any finite set of linear functionals on $\mathcal{E}$, then the linear manifold $\mathcal{N} = \{x \in \mathcal{E}: f_i(x) = 0, i = 1, \ldots, p\}$ is infinite dimensional.)

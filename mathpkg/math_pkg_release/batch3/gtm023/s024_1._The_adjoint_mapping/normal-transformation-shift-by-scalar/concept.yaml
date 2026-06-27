@@ -1,0 +1,23 @@
+id: normal-transformation-shift-by-scalar
+title_en: "Shift of a Normal Transformation by a Scalar is Normal"
+title_zh: "正规变换减去标量倍恒等映射仍是正规变换"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [normal-transformation, scalar-shift, identity-map]
+depends_on:
+  required: [normal-transformation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VIII"
+    section: "§1. The adjoint mapping"
+    pages: ""
+    role_in_book: "Stability of normality under affine shifts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

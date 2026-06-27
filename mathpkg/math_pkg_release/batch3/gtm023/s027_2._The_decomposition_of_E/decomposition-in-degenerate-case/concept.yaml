@@ -1,0 +1,23 @@
+id: decomposition-in-degenerate-case
+title_en: "Decomposition of E in the Degenerate Case"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [bilinear-form, degenerate, decomposition, nullspace]
+depends_on:
+  required: [nullspace-of-symmetric-bilinear-function, decomposition-into-positive-negative-subspaces]
+  recommended: [direct-sum-decomposition, complementary-subspace]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "2. The decomposition of E"
+    pages: ""
+    role_in_book: "Extends the decomposition theorem to degenerate bilinear functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

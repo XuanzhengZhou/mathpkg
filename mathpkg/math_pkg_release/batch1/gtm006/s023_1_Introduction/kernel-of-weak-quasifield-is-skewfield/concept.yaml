@@ -1,0 +1,23 @@
+id: kernel-of-weak-quasifield-is-skewfield
+title_en: "The Kernel of a Weak Quasifield is a Skewfield"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: quasifields-and-translation-planes
+difficulty: intermediate
+tags: [kernel, weak-quasifield, skewfield, right-vector-space]
+depends_on:
+  required: [kernel-of-weak-quasifield, weak-quasifield]
+  recommended: [skewfield, vector-space]
+  suggested: [finite-dimensional-weak-quasifield-is-quasifield]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "VII"
+    section: "2"
+    pages: ""
+    role_in_book: "Theorem 7.2. Fundamental structural theorem: kernel is a skewfield and W is a right vector space over it."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,20 @@
+id: empty-set-boolean-valued
+title_en: "Boolean-Valued Empty Set: [0 = \check{0}] = 1"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [boolean-valued-models, empty-set, check-embedding]
+depends_on: {required: [], recommended: [canonical-embedding-check, boolean-valued-membership-and-equality], suggested: []}
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti; Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "13"
+    section: "13. Boolean-Valued Set Theory"
+    pages: ""
+    role_in_book: "Example 1 - The empty set in V^(B) is the check of the empty set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

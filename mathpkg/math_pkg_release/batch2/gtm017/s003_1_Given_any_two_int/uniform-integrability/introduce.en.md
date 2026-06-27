@@ -1,0 +1,1 @@
+Uniform integrability is a condition on a sequence of random variables that prevents probability mass from escaping to infinity. It requires that the tail integrals $\int_{|X_n| \geq a} |X_n| dP$ tend to zero as the threshold $a$ grows, uniformly over the sequence. This condition is the key bridge between almost everywhere convergence and $L^1$ convergence.

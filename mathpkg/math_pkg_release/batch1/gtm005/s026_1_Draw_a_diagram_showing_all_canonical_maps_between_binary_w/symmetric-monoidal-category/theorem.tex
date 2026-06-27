@@ -1,0 +1,19 @@
+A monoidal category $B$ is said to be **symmetric** when it is equipped with isomorphisms
+
+$$\gamma_{a,b} : a \square b \cong b \square a,$$
+
+natural in $a, b \in B$, such that the following diagrams commute:
+
+$$\gamma_{a,b} \circ \gamma_{b,a} = 1,$$
+
+$$\varrho_b = \lambda_b \circ \gamma_{b,e} : b \square e \cong b,$$
+
+and the hexagon coherence diagram
+
+$$\begin{array}{ccc}
+a \square (b \square c) & \xrightarrow{\alpha} & (a \square b) \square c & \xrightarrow{\gamma} & c \square (a \square b) \\
+\downarrow {\scriptstyle 1 \square \gamma} & & & & \downarrow {\scriptstyle \alpha} \\
+a \square (c \square b) & \xrightarrow{\alpha} & (a \square c) \square b & \xrightarrow{\gamma \square 1} & (c \square a) \square b
+\end{array}$$
+
+commutes. Monoidal categories where $\square$ is the categorical product or coproduct are automatically symmetric.

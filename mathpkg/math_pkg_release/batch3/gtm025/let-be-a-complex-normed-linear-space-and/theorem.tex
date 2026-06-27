@@ -1,0 +1,23 @@
+** Let $E$ be a complex normed linear space, and let $L$ be a nonzero bounded linear functional on $E$ for which there exists $g \in E$ satisfying the conditions $\|g\| = 1$ and $L(g) = \|L\|$. Consider the function
+
+(i) $t \to \|g + tf\| = \psi_f(t)$
+
+defined on $R$, where $f$ is any element of $E$. If $\psi_f$ and $\psi_{-if}$ are differentiable at $t = 0$, then we have
+
+(ii) $\frac{1}{\|L\|} L(f) = \psi_f'(0) + i \psi_{-if}'(0).$
+
+**Proof.** Suppose without loss of generality that $\|L\| = 1$. For any complex number $z$, we have
+
+$$L(g + z(f - L(f)g)) = L(g) + z(L(f) - L(f)L(g)) = L(g) = 1.$$
+
+Since $|L(h)| \leq \|h\|$ for all $h \in E$, it follows that
+
+$$\|g + z(f - L(f)g)\| \geq 1 \quad \text{for all} \quad z \in K.$$
+
+For each $t \in R$ different
+
+Applying (4) to the function $-if$, we obtain
+
+$$\psi'_{-if}(0) = \text{Re}(L(-if)) = \text{Im}(L(f));$$
+
+and (4) and (5) imply (ii). $\square$

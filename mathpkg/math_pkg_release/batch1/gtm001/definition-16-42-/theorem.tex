@@ -1,0 +1,19 @@
+(1) $D(t_1 \in t_2) \xrightarrow{\triangle} D(E(t_1 \in t_2))$.
+
+(2) $D(t_1 = t_2) \xrightarrow{\triangle} D(E(t_1 = t_2))$.
+
+(3) $D(\neg \varphi) \xrightarrow{\triangle} \neg D(\varphi)$.
+
+(4) $D(\varphi \vee \psi) \xrightarrow{\triangle} D(\varphi) \vee D(\psi)$.
+
+(5) $D(\exists^\alpha x_i \varphi(x_i)) \xrightarrow{\triangle} (\exists t \in T_\alpha) D(\varphi(t))$.
+
+(6) $D(\hat{x}_i^\alpha \varphi(x_i)) \triangleq \{D(t) | t \in T_\alpha \wedge D(\varphi(t))\}$.
+
+$L_\alpha \triangleq \{D(t) | t \in T_\alpha\}$ and $L \triangleq \bigcup_{\alpha \in \text{On}} L_\alpha$.
+
+For each sentence $\varphi$ of $\mathcal{L}$, $L \models \varphi \xrightarrow{\triangle} D(\varphi)$.
+
+EXERCISE
+
+Prove that the class $L$ defined here is the class of constructible sets defined in Chapter 15. Prove also that all of the notions involving $L$ are absolute with respect to $L$.

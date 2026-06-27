@@ -1,0 +1,23 @@
+id: golden-ratio-approximation-constant
+title_en: "Optimality of the Approximation Constant 1/√5 for the Golden Ratio"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-approximation
+difficulty: advanced
+tags: [golden-ratio, hurwitz-theorem, continued-fractions, approximation-constant, markov-spectrum]
+depends_on:
+  required: []
+  recommended: [farey-fraction-approximation]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "7"
+    section: "Exercises for Chapter 7, Exercise 5"
+    pages: ""
+    role_in_book: "Exercise showing the golden ratio α = (1+√5)/2 is the hardest irrational to approximate, with optimal constant 1/√5 in Hurwitz's theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

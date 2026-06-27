@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $A, B$ be subfields of $K$ containing $k$. Suppose that $A/k$ is algebraic and normal (resp. Galois). Then $AB/B$ is normal (resp. Galois) and $A$ is stable under $\operatorname{Aut}_B AB$. Furthermore, the groups $\operatorname{Aut}_B AB$ and $\operatorname{Aut}_{A \cap B} A$ are isomorphic under restriction.

@@ -1,0 +1,23 @@
+id: metacategory
+title_en: "Metacategory"
+title_zh: "元范畴"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category-theory, metacategory, axioms, foundation]
+depends_on:
+  required: [metagraph]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I. Categories, Functors, and Natural Transformations"
+    section: "1. Axioms for Categories"
+    pages: "8-9"
+    role_in_book: "core definition of a category via axioms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

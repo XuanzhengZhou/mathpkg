@@ -1,0 +1,23 @@
+id: cech-cohomology-vanishing-flabby
+title_en: "Vanishing of Čech Cohomology for Flabby Sheaves"
+title_zh: "松层切赫上同调消失定理"
+type: theorem
+domain: topology
+subdomain: sheaf-cohomology
+difficulty: advanced
+tags: ["flabby sheaf", "Čech cohomology", "vanishing theorem", "acyclic"]
+depends_on:
+  required: ["flabby-sheaf", "cech-coboundary-operator", "cohomology-group"]
+  recommended: ["flabby-sheaf-surjectivity", "augmented-cech-complex"]
+  suggested: ["godement-resolution", "acyclic-resolution"]
+source_books:
+  - book_id: "gtm038"
+    author: "Raghavan Narasimhan"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Proves flabby sheaves are acyclic for Čech cohomology; key to computing sheaf cohomology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

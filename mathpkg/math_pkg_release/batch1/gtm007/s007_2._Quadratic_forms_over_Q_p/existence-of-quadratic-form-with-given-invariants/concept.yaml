@@ -1,0 +1,23 @@
+id: existence-of-quadratic-form-with-given-invariants
+title_en: "Existence of Quadratic Forms over Q_p with Prescribed Invariants"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: intermediate
+tags: [quadratic-form, p-adic, existence, discriminant, epsilon-invariant, rank]
+depends_on:
+  required: [epsilon-invariant-of-quadratic-form, criterion-for-representing-an-element]
+  recommended: [classification-of-quadratic-forms-over-q-p]
+  suggested: []
+source_books:
+  - book_id: gtm007
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "IV"
+    section: "§2.2.3"
+    pages: ""
+    role_in_book: "Determines for which triples (n, d, epsilon) there exists a quadratic form over Q_p with those invariants"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: fundamental-theorem-of-projective-geometry-plane
+title_en: "Fundamental Theorem of Projective Geometry for the Plane (Theorem 2.8)"
+title_zh: "射影几何基本定理（平面情形，定理2.8）"
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [fundamental-theorem, projective-geometry, isomorphism, semilinear, collineation]
+depends_on:
+  required: [semilinear-transformation]
+  recommended: [frame-in-projective-geometry]
+  suggested: [pappus-theorem]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II. Classical Projective Planes"
+    section: "3. Dual Spaces and Homogeneous Coordinates"
+    pages: ""
+    role_in_book: "Every isomorphism between projective planes is induced by a semi-linear transformation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,14 @@
+id: inclusion-functor
+title_en: "Inclusion Functor"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category-theory, inclusion-functor, subcategory]
+depends_on: {required: [functor, subcategory], recommended: [faithful-functor], suggested: [full-subcategory]}
+source_books:
+  [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "I", section: "3", pages: "15", role_in_book: "Defines the inclusion functor associated to a subcategory; a basic example of a functor"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: member-of-object-abelian-category
+title_en: "Member of an Object in an Abelian Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [abelian-category, member, diagram-chasing, element-free]
+depends_on:
+  required: [abelian-category, pullback-epi-abelian-category]
+  recommended: [epimorphism, monomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VIII"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines members as a substitute for elements, enabling diagram chases in general abelian categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

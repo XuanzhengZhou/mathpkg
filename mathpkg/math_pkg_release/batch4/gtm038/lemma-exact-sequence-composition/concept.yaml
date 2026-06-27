@@ -1,0 +1,23 @@
+id: lemma-exact-sequence-composition
+title_en: "Lemma 2 (Exact Sequence Composition)"
+title_zh: "引理 2 (正合列合成)"
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [exact-sequence, composition, homological-algebra, sheaf-cohomology]
+depends_on:
+  required: []
+  recommended: [exact-sequence, kernel, image]
+  suggested: [sheaf, abelian-category]
+source_books:
+  - book_id: "gtm038"
+    author: "Grauert, Hans and Fritzsche, Klaus"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Technical lemma used in the proof that the W-sheaf functor is exact"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

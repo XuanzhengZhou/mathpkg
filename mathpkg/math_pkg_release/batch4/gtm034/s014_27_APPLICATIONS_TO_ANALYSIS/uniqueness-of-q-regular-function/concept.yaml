@@ -1,0 +1,23 @@
+id: uniqueness-of-q-regular-function
+title_en: "Uniqueness of Q-regular Functions via Boundary Limits"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: potential-theory
+difficulty: advanced
+tags: [q-regular, transient-kernel, martin-boundary, uniqueness, green-function]
+depends_on:
+  required: [transient-kernel, q-regular-excessive-potential, riesz-decomposition-of-q-excessive, h-transformed-kernel-properties]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm034
+    author: "Frank Spitzer"
+    title: "Principles of Random Walk"
+    chapter: "27"
+    section: "APPLICATIONS TO ANALYSIS"
+    pages: ""
+    role_in_book: "Core theorem: sufficient conditions for a transient kernel to have a unique regular function up to scaling"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

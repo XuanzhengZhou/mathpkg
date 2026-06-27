@@ -1,0 +1,23 @@
+id: extended-real-derivative-of-signed-measure
+title_en: "Extended Real-Valued Derivative of a Signed Measure"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [signed-measure, Radon-Nikodym-derivative, Lebesgue-decomposition, Hahn-decomposition]
+depends_on:
+  required: [signed-measure, Lebesgue-Radon-Nikodym-theorem, Lebesgue-decomposition, Hahn-decomposition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm025
+    author: "Edwin Hewitt, Karl Stromberg"
+    title: "Real and Abstract Analysis"
+    chapter: "5"
+    section: "20"
+    pages: ""
+    role_in_book: "Defines derivatives allowing infinite values for the singular part"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

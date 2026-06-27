@@ -1,0 +1,23 @@
+id: sheaf-component-characterization
+title_en: "Characterization of Components of the Sheaf of Germs (Theorem 5.11)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [sheaf-of-germs, component, analytic-continuation, curve]
+depends_on:
+  required: [sheaf-of-germs, path-in-sheaf-iff-analytic-continuation, analytic-continuation-along-curve]
+  recommended: [sheaf-of-germs-locally-arcwise-connected, component]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "5"
+    section: "5.6"
+    pages: ""
+    role_in_book: "characterizes the connected components of the sheaf space in terms of analytic continuation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

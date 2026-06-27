@@ -1,0 +1,23 @@
+id: cusp-forms-subspace
+title_en: "Subspace of Cusp Forms M_{k,0}"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: basic
+tags: [modular-forms, cusp-forms, subspace, entire-forms]
+depends_on:
+  required: [space-of-entire-modular-forms, entire-modular-form]
+  recommended: [cusp-form, modular-form-zero-at-infinity]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.4"
+    pages: ""
+    role_in_book: "Definition of the linear subspace of cusp forms within M_k"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

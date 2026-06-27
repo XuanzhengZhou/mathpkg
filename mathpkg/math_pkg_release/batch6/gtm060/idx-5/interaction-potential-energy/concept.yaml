@@ -1,0 +1,23 @@
+id: interaction-potential-energy
+title_en: "Potential Energy of Interaction Between Two Particles"
+title_zh: "两质点相互作用的势能"
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [potential-energy, two-body-interaction, central-forces]
+depends_on:
+  required: [conservative-system, potential-energy-existence-criterion]
+  recommended: [central-forces]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "10"
+    pages: "55-67"
+    role_in_book: "Formula for the potential energy of interaction between two points"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

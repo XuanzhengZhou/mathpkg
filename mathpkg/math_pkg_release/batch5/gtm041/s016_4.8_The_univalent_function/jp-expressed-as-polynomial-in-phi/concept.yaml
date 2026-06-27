@@ -1,0 +1,23 @@
+id: jp-expressed-as-polynomial-in-phi
+title_en: "The function j_p expressed as a polynomial in Φ"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [modular-function, j-function, hecke-operator, univalent-function, polynomial-identity, fourier-expansion]
+depends_on:
+  required: []
+  recommended: [univalent-function-phi, jp-hecke-average, theorem-4.6, invariance-of-phi-under-gamma0]
+  suggested: [fourier-expansion-of-j, valence-formula]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "4"
+    section: "4.10"
+    pages: ""
+    role_in_book: "Shows that the Hecke-averaged function j_p can be expressed as a monic polynomial in p^{r/2}Φ of degree p^2 with integer coefficients, a key step toward congruences for the coefficients of j"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

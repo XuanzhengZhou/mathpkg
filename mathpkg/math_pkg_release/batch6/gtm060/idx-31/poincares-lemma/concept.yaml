@@ -1,0 +1,13 @@
+id: poincares-lemma
+title_en: "Poincaré's Lemma"
+title_zh: "庞加莱引理"
+type: lemma
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [closed-form, exact-form, differential-form, vector-space, de-rham-cohomology]
+depends_on: {required:[closed-differential-form, exact-differential-form], recommended:[differential-form, exterior-derivative], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"7",section:"Differential forms",pages:"",role_in_book:"Lemma — every closed k-form on a vector space is the differential of some (k-1)-form"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: embedded-surface
+title_en: "Embedded Surface"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [embedded-surface, submanifold, parameterized-surface, chart, coordinate-system]
+depends_on:
+  required: [parameterized-surface, homeomorphism, induced-topology]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.1"
+    pages: "pp. 129–132"
+    role_in_book: "Defines embedded surfaces as subsets of R^3 with local parameterizations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

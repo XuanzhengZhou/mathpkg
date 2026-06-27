@@ -1,0 +1,23 @@
+id: bounded-function-potential-strong-ergodic
+title_en: "Bounded Functions Have Finite Potential in Strong Ergodic Chains"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [potential-theory, strong-ergodic, bounded-function, charge, G-operator]
+depends_on:
+  required: [strong-ergodic-chain, potential-operator-g, charge-functional]
+  recommended: [ergodic-chain]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "5. Strong ergodic chains"
+    pages: ""
+    role_in_book: "Proposition 9-73: Characterizes the action of G on bounded functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

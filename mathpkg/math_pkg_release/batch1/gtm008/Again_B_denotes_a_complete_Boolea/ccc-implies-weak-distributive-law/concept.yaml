@@ -1,0 +1,23 @@
+id: ccc-implies-weak-distributive-law
+title_en: "Countable Chain Condition Implies (ω, ω_α)-Weak Distributive Law"
+title_zh: "可数链条件蕴含 (ω, ω_α)-弱分配律"
+type: theorem
+domain: foundations
+subdomain: boolean-algebras
+difficulty: advanced
+tags: ["ccc", "weak-distributive-law", "boolean-algebra", "cofinality", "forcing"]
+depends_on:
+  required: ["weak-distributive-law", "countable-chain-condition"]
+  recommended: ["cofinality"]
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "G. Takeuti, W.M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "20"
+    section: "20"
+    pages: ""
+    role_in_book: "Shows that the countable chain condition together with uncountable cofinality implies the weak distributive law, a key result connecting c.c.c. forcing notions with preservation of cofinalities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

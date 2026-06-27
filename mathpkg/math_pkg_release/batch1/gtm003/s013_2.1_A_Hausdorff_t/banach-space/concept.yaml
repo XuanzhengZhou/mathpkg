@@ -1,0 +1,23 @@
+id: banach-space
+title_en: "Banach Space (B-Space)"
+title_zh: "Banach空间（B-空间）"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [normed-space, completeness, banach-space, metric-space]
+depends_on:
+  required: [normed-space, completeness]
+  recommended: [normable-space, metric-space]
+  suggested: [cauchy-sequence]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Fundamental definition of complete normed spaces, the central objects of functional analysis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

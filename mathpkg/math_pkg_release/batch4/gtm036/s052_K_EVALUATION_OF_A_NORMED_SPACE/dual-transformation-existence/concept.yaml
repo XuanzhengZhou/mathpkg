@@ -1,0 +1,23 @@
+id: dual-transformation-existence
+title_en: "Existence and Uniqueness of the Dual Transformation"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [dual-transformation, adjoint, existence, uniqueness, weak-continuity, distinguishing-points]
+depends_on:
+  required: [dual-transformation, linear-topological-space, dual-space, weak-topology]
+  recommended: [representation-theorem-16-2, hamel-basis]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "Kelley, Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "21"
+    section: "1"
+    pages: ""
+    role_in_book: "Characterizes when a dual transformation exists and when it is unique"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

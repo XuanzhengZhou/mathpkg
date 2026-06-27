@@ -1,0 +1,23 @@
+id: homogeneous-potential-orbit-scaling
+title_en: "Orbit Scaling Under Homogeneous Potentials"
+title_zh: "齐次势场下的轨道缩放"
+type: proposition
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: advanced
+tags: [similarity, dimensional-analysis, homogeneous-potential, orbit-scaling, keplers-third-law, isochronous-pendulum]
+depends_on:
+  required: [central-force-problem]
+  recommended: [homogeneous-function, dimensional-analysis]
+  suggested: [keplers-third-law]
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "11"
+    pages: "55-67"
+    role_in_book: "Scaling property of orbits in homogeneous central potentials; yields Kepler's third law and pendulum isochronicity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

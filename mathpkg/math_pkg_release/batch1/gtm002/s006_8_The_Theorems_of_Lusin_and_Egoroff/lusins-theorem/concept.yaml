@@ -1,0 +1,23 @@
+id: lusins-theorem
+title_en: "Lusin's Theorem"
+title_zh: "卢津定理"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [lusin, measurable-function, continuity, approximation, lebesgue-measure, real-analysis]
+depends_on:
+  required: [measurable-function, lebesgue-measure]
+  recommended: [countable-base, regularity-of-lebesgue-measure]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "8"
+    section: "8"
+    pages: ""
+    role_in_book: "Theorem 8.2 — fundamental bridge between measurability and continuity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: dimension-formula-cycle-cocycle-space
+title_en: "Dimension Formula for Cycle and Cocycle Spaces"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [dimension-formula, cycle-space, cocycle-space, orthogonal-complement]
+depends_on:
+  required: [cycle-space, cocycle-space]
+  recommended: [orthogonal-complement-dimension]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Graver, Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "II Algebraic Structures on Finite Sets"
+    section: "IID Cycle and Cocycle Spaces"
+    pages: "63"
+    role_in_book: "Display D4: dimension relation from orthogonal complement property A6"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

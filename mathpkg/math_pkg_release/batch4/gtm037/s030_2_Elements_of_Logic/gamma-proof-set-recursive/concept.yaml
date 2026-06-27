@@ -1,0 +1,23 @@
+id: gamma-proof-set-recursive
+title_en: "Recursiveness of the Set of Formal Proofs from a Recursive Hypothesis Set (Proposition 10.27)"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: first-order-logic
+difficulty: intermediate
+tags: [formal-proof, recursive-set, godel-numbering, deductive-system, decidability]
+depends_on:
+  required: []
+  recommended: [formal-deduction-characterization, logical-axiom-set-recursive, godel-encoding-of-expression-sequences]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.2"
+    pages: ""
+    role_in_book: "Shows that formal proofs from a recursive set of hypotheses can be effectively recognized"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

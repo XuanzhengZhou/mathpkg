@@ -1,0 +1,23 @@
+id: theorem-q-is-eta1-set
+title_en: "Q is an η₁-Set"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: order-theory
+difficulty: advanced
+tags: [eta1-set, order-type, similarity]
+depends_on:
+  required: [upper-elements-set-q, eta1-set-definition, lemma-cofinal-in-qalpha]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "13"
+    section: "22"
+    pages: ""
+    role_in_book: "Main theorem: Q is the canonical η₁-set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

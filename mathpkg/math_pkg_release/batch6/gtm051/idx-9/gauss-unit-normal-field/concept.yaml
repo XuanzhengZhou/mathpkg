@@ -1,0 +1,23 @@
+id: gauss-unit-normal-field
+title_en: "Gauss Unit Normal Field (Gauss Map)"
+title_zh: "高斯单位法向量场（高斯映射）"
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [gauss-map, normal-vector, surface, orientation, cross-product]
+depends_on:
+  required: [parameterized-surface-patch]
+  recommended: [cross-product, unit-vector]
+  suggested: [tangent-space-of-a-surface]
+source_books:
+  - book_id: gtm051
+    author: "Manfredo P. do Carmo"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: "3.1.7"
+    role_in_book: "Defines the Gauss map, fundamental for studying curvature of surfaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

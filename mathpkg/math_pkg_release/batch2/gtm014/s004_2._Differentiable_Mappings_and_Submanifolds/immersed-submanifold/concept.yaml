@@ -1,0 +1,23 @@
+id: immersed-submanifold
+title_en: "Immersed Submanifold"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-topology
+difficulty: intermediate
+tags: [immersed-submanifold, immersion, differentiable-manifold, subspace-topology]
+depends_on:
+  required: [immersion, submanifold, differentiable-mapping-between-manifolds]
+  recommended: []
+  suggested: [embedding-of-manifolds]
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "I"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition 2.9: the image of a 1-1 immersion, given the manifold structure induced via the bijection"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

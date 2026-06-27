@@ -1,0 +1,23 @@
+id: quasi-homogeneous-2d-poisson
+title_en: "Corollary 6: Reduction of Poisson Structures for Quasi-Homogeneous Singularities in 2D"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: poisson-geometry
+difficulty: advanced
+tags: [poisson-structure, 2d, quasi-homogeneous, normal-form, singularity-theory]
+depends_on:
+  required: [two-dim-poisson-normal-forms, germ-quasi-homogeneous-equivalence]
+  recommended: [pole-form-ade-reduction]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "E. The Quasi-Homogeneous Case"
+    pages: "469-479"
+    role_in_book: "Normal form for Poisson structures in the plane with quasi-homogeneous singular curve f(x,y)=0"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

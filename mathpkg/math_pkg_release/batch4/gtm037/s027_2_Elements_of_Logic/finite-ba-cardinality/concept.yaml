@@ -1,0 +1,23 @@
+id: finite-ba-cardinality
+title_en: "Cardinality of Finite Boolean Algebras"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: boolean-algebras
+difficulty: basic
+tags: [boolean-algebra, finite, cardinality, power-of-two]
+depends_on:
+  required: [finite-ba-is-atomic, atom-in-boolean-algebra]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "9"
+    section: "2"
+    pages: ""
+    role_in_book: "Characterizes possible cardinalities of finite Boolean algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: exterior-powers-integral-invariant
+title_en: "Exterior Powers of the Symplectic Form are Integral Invariants"
+title_zh: "辛形式的外幂是积分不变量"
+type: corollary
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [integral-invariant, exterior-power, symplectic-form, hamiltonian-phase-flow, volume-preservation]
+depends_on:
+  required: [symplectic-form-integral-invariant, exterior-power, wedge-product]
+  recommended: [integral-invariant]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "8"
+    section: "38"
+    pages: "214-218"
+    role_in_book: "Generalizes Liouville's theorem: all exterior powers of the symplectic form are preserved"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: circled-sets-not-local-base
+title_en: "Family of Circled Sets Radial at 0 Is Not a Local Base for an Infinite-Dimensional Space"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: linear-topological-spaces
+difficulty: advanced
+tags: [circled-set, radial-set, local-base, infinite-dimensional, vector-topology, strongest-topology]
+depends_on:
+  required: [linear-topological-space, local-base, circled-set, radial-set]
+  recommended: [linear-independence, direct-sum, subspace]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "Kelley, J. L.; Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "2"
+    section: "D (Attempt at a Strongest Vector Topology)"
+    pages: ""
+    role_in_book: "Shows that the naive candidate for a strongest vector topology fails for infinite-dimensional spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

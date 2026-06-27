@@ -1,0 +1,13 @@
+id: integral-representation-of-superregular-functions
+title_en: "Integral Representation of Superregular Functions (Theorem 10-41)"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [martin-boundary, superregular-function, integral-representation, exit-space, harmonic-measure]
+depends_on: {required: [uniqueness-of-representing-measure, exit-space-is-borel-set-of-full-harmonic-measure], recommended: [superregular-function, h-process-harmonic-measure], suggested: [fubini-theorem, lebesgue-decomposition]}
+source_books: [{book_id: "gtm040", author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp", title: "Denumerable Markov Chains", chapter: "10", section: "7. Uniqueness of the representation", pages: "", role_in_book: "Existence and uniqueness theorem: every nonnegative superregular function admits a unique integral representation over the Martin boundary"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

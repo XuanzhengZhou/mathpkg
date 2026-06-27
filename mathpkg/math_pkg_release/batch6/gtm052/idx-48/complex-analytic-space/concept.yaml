@@ -1,0 +1,23 @@
+id: complex-analytic-space
+title_en: "Complex Analytic Space"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: complex-analytic-geometry
+difficulty: advanced
+tags: [complex-manifold, analytic-space, grauert, structure-sheaf]
+depends_on:
+  required: []
+  recommended: [scheme, ringed-space, holomorphic-function]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix B"
+    section: "1"
+    pages: "438-439"
+    role_in_book: "Introduces complex analytic spaces as the transcendental counterpart to schemes, needed for GAGA comparison"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

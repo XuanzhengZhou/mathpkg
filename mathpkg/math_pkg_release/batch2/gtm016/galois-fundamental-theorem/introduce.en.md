@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $K/k$ be a finite dimensional Galois extension with Galois group $G = \operatorname{Aut}_k K$. Then there is a one-to-one correspondence between subfields $k' \subseteq K$ containing $k$ and subgroups $H \subseteq G$, given by $k' \mapsto \operatorname{Aut}_{k'} K$ with inverse $H \mapsto K^H$. Moreover, $k'/k$ is normal (resp. Galois) iff $H$ is normal in $G$, and in that case $\operatorname{Aut}_k k' \cong G/H$.

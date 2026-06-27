@@ -1,0 +1,23 @@
+id: local-boundedness-weil-topology
+title_en: "Theorem F: Local boundedness in the Weil topology"
+title_zh: "定理F: Weil拓扑下的局部有界性"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [weil-topology, measurable-group, locally-bounded, measure-theory]
+depends_on:
+  required: [weil-topology-topological-group, separated-measurable-group]
+  recommended: [measurability-of-neighborhood-sets]
+  suggested: [locally-compact-group]
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "XII"
+    section: "62"
+    pages: "274"
+    role_in_book: "Relates measure-theoretic and topological boundedness in the Weil topology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

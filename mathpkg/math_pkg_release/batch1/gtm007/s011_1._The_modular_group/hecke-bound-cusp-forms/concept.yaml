@@ -1,0 +1,23 @@
+id: hecke-bound-cusp-forms
+title_en: "Hecke's Bound for Fourier Coefficients of Cusp Forms"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: ["hecke", "cusp-form", "fourier-coefficient", "growth-estimate", "modular-form"]
+depends_on:
+  required: ["modular-form-definition", "fundamental-domain-of-modular-group"]
+  recommended: ["growth-of-eisenstein-coefficients", "deligne-bound"]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Classical bound relating the weight to the growth of cusp form coefficients."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: hausdorff-via-neighborhood-systems
+title_en: "Hausdorff Condition via Neighborhood Systems"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: separation-axioms
+difficulty: intermediate
+tags: [hausdorff, neighborhood-system, separation]
+depends_on:
+  required: [neighborhood-system, topology-induced-by-neighborhood-system, hausdorff-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "4"
+    section: "4.19"
+    pages: ""
+    role_in_book: "Characterizes when the topology induced by a neighborhood system is Hausdorff"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

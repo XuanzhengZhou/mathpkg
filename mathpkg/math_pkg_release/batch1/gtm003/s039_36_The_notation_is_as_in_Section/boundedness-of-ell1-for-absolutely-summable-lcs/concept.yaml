@@ -1,0 +1,23 @@
+id: boundedness-of-ell1-for-absolutely-summable-lcs
+title_en: "Boundedness of l^1(N,E) Subsets under Absolute Summability"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [locally-convex-space, summability, absolute-summability, l1-space, vector-valued-sequence]
+depends_on:
+  required: [locally-convex-space, summable-sequence, absolutely-summable-sequence, l1-N-E-space, bounded-set]
+  recommended: [infrabarreled-space, l1-N-E-bracket-space]
+  suggested: [pietsch-nuclear-locally-convex-spaces]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "Exercises, No. 36(a)"
+    pages: "213"
+    role_in_book: "Exercise 36(a) — establishes boundedness relationship between two l^1-type spaces under absolute summability condition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

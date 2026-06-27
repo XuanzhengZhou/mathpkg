@@ -1,0 +1,23 @@
+id: clairauts-theorem
+title_en: "Clairaut's Theorem"
+title_zh: "克莱罗定理"
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [geodesics, surface-of-revolution, conservation-law, angular-momentum]
+depends_on:
+  required: [conservation-of-angular-momentum, conservation-of-energy]
+  recommended: [geodesic-equation, lagrangian-mechanics-on-manifolds]
+  suggested: [riemannian-metric-on-surfaces, first-integrals]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "4"
+    section: "D"
+    pages: "100"
+    role_in_book: "Conserved quantity for geodesics on surfaces of revolution, derived from conservation of angular momentum"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

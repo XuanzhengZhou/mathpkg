@@ -1,0 +1,23 @@
+id: gauss-weingarten-equations
+title_en: "Gauss-Weingarten Equations (Theorem 3.8.1)"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [gauss-formula, weingarten-equations, christoffel-symbols, surface-theory, second-fundamental-form]
+depends_on:
+  required: [first-fundamental-form, second-fundamental-form, christoffel-symbols]
+  recommended: [gauss-map, partial-derivatives-on-surfaces]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.8"
+    pages: "pp. 70-72"
+    role_in_book: "Core theorem expressing second derivatives of a parametrization and derivatives of the unit normal in the tangent-normal basis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: zariski-differential-map-for-local-rings
+title_en: "Zariski Differential Map for Local Rings"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [differentials, local-rings, zariski-tangent-space, kahler-differentials]
+depends_on:
+  required: [relative-differentials-via-diagonal, regular-local-ring]
+  recommended: [second-exact-sequence-of-differentials]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Proposition 8.7: if B is a local ring containing a field k isomorphic to its residue field, the map δ: 𝔪/𝔪² → Ω_{B/k} ⊗_B k is an isomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

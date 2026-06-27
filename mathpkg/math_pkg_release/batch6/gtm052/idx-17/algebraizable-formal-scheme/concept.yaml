@@ -1,0 +1,23 @@
+id: algebraizable-formal-scheme
+title_en: "Algebraizable Formal Scheme"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [formal-scheme, algebraization, grothendieck-existence-theorem]
+depends_on:
+  required: [formal-scheme]
+  recommended: [formal-completion, affine-formal-scheme]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "9"
+    pages: "206-212"
+    role_in_book: "Example 9.3.2 — distinguishes formal schemes arising from ordinary schemes; nonalgebraizable examples exist (Hironaka-Matsumura, Hartshorne)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: sigma-finite-measure-of-set
+title_en: "Set of Sigma-Finite Measure"
+title_zh: "σ-有限测度集"
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [measure-theory, sigma-finite]
+depends_on:
+  required: [measure, finite-measure-of-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "II"
+    section: "7"
+    pages: ""
+    role_in_book: "A set that can be covered by countably many sets of finite measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

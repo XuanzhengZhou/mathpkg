@@ -1,0 +1,23 @@
+id: b7-ramsey-recursive-bound
+title_en: "B7: Recursive upper bound for Ramsey numbers n(q_1,q_2:s)"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: ramsey-theory
+difficulty: advanced
+tags: [ramsey-number, recursive-bound, ramsey-theorem, finiteness]
+depends_on:
+  required: [ramsey-number, b4-pigeonhole-ramsey-lemma]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "VIII"
+    section: "B"
+    pages: "224-229"
+    role_in_book: "Key recursive inequality proving finiteness of Ramsey numbers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

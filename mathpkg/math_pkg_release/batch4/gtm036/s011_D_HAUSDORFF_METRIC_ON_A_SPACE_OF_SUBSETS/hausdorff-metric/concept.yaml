@@ -1,0 +1,23 @@
+id: hausdorff-metric
+title_en: "Hausdorff Metric on the Space of Closed Non-Void Subsets"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: metric-spaces
+difficulty: intermediate
+tags: ["hausdorff", "metric", "closed-sets", "hyperspace"]
+depends_on:
+  required: []
+  recommended: ["metric-space", "closed-set", "infimum"]
+  suggested: ["bounded-metric", "equivalent-metrics"]
+source_books:
+  - book_id: "gtm036"
+    author: "Kelley, J.L. and Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "1"
+    section: "D"
+    pages: ""
+    role_in_book: "Defines the Hausdorff metric for hyperspaces of closed sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

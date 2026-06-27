@@ -1,0 +1,23 @@
+id: euler-class-product-formula
+title_en: "Multiplicative Property of the Euler Class"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: characteristic-classes
+difficulty: intermediate
+tags: [euler-class, direct-sum, whitney-sum, multiplicativity, characteristic-classes]
+depends_on:
+  required: [euler-class, whitney-sum-of-bundles]
+  recommended: [thom-fundamental-class]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "8"
+    section: "8.2"
+    pages: "page_0265–page_0270"
+    role_in_book: "Establishes the Whitney sum formula for the Euler class"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

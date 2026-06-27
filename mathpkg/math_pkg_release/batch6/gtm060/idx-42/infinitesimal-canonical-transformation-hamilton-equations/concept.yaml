@@ -1,0 +1,23 @@
+id: infinitesimal-canonical-transformation-hamilton-equations
+title_en: "Infinitesimal Canonical Transformation Satisfies Hamilton's Equations"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [infinitesimal-canonical-transformation, hamilton-equations, generating-function, symplectic-geometry, phase-flow]
+depends_on:
+  required: [canonical-transformation, hamilton-equations]
+  recommended: [generating-function, poisson-bracket, symplectic-form]
+  suggested: [legendre-transformation, one-parameter-group]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "8"
+    section: "42"
+    pages: ""
+    role_in_book: "Theorem establishing that infinitesimal canonical transformations satisfy Hamilton's differential equations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

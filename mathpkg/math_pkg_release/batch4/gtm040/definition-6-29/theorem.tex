@@ -1,0 +1,9 @@
+A recurrent chain is said to be non-cyclic if its period is one and cyclic if its period is greater than one.
+
+Let $P$ be a recurrent chain of period $d$. Define a relation $R$ on the states of $P$ by the following: We say that $i R j$ if and only if, starting at $i$, the process can reach $j$ in $md$ steps for some $m$. From the definition of the period $d$, it follows that $i R i$. The symmetry of $R$ follows from the fact $md$ plus the time to return from $j$ to $i$ must be a multiple of $d$. To see that $R$ is transitive, we note that if $j$ can be reached from $i$ in $md$ steps and if $k$ can be reached from $j$ in $nd$ steps, then $k$ can be reached from $i$ in $(m + n)d$ steps.
+
+Thus $R$ partitions the states into cyclic subclasses. The reader may verify that there are $d$ distinct subclasses and that the $n$th class contains all those states which it is possible to reach from the starting state only at times which are congruent to $n$ modulo $d$. The process moves cyclically through the classes in the specified order. Furthermore, if the chain is watched after every $d$th step, the resulting process is again a Markov chain (by the strong Markov property), and its behavior will be noncyclic. The transition matrix for the new process is $P^d$, and its form is that of $d$ separate recurrent chains:
+
+$$P^d = \begin{pmatrix} \rho_d & 0 & 0 \\ 0 & d & 0 \\ 0 & 0 & d \end{pmatrix}, \quad d \text{ blocks.}$$
+
+The entries in each block are the entries of a recurrent noncyclic chain, and the entries which are not in any block are all zeros.

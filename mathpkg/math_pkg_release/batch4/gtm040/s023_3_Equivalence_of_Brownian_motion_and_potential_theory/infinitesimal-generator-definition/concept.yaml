@@ -1,0 +1,23 @@
+id: infinitesimal-generator-definition
+title_en: "Infinitesimal Generator of a Semigroup"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: operator-theory
+difficulty: intermediate
+tags: [infinitesimal-generator, semigroup, brownian-motion, transition-operator, limit-definition]
+depends_on:
+  required: []
+  recommended: [transition-semigroup, uniform-convergence]
+  suggested: [hille-yosida-theorem, domain-of-generator]
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "7"
+    section: "3. Equivalence of Brownian motion and potential theory"
+    pages: "187"
+    role_in_book: "Definition of the infinitesimal generator A that determines the semigroup Q^t"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

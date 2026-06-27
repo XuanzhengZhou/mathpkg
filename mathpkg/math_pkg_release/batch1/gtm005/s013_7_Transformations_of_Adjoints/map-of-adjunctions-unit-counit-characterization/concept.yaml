@@ -1,0 +1,31 @@
+id: map-of-adjunctions-unit-counit-characterization
+title_en: Map of Adjunctions Unit-Counit Characterization
+title_zh: ''
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags:
+- adjunction
+- map-of-adjunctions
+- unit
+- counit
+- category-theory
+depends_on:
+  required:
+  - map-of-adjunctions
+  - adjunction
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: IV
+  section: '7'
+  pages: ''
+  role_in_book: characterizes the hom-set condition for a map of adjunctions equivalently
+    in terms of the unit and counit of the adjunctions
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

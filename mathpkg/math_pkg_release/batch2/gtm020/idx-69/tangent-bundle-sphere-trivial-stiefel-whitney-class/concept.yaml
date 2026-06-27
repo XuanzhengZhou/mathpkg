@@ -1,0 +1,23 @@
+id: tangent-bundle-sphere-trivial-stiefel-whitney-class
+title_en: "Tangent Bundle of the Sphere Has Trivial Stiefel-Whitney Class"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [stiefel-whitney-classes, tangent-bundle, sphere, stable-triviality, characteristic-classes]
+depends_on:
+  required: [stiefel-whitney-classes, tangent-bundle, stably-equivalent-bundles-equal-characteristic-classes]
+  recommended: [sphere, trivial-bundle]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "4.4"
+    pages: ""
+    role_in_book: "Computes the total Stiefel-Whitney class of the tangent bundle of the sphere"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

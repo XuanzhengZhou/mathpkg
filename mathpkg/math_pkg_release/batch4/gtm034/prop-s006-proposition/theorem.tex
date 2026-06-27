@@ -1,0 +1,23 @@
+$$G^*(x,y) = G(y,x), \quad Q_n^*(x,y) = Q_n(y,x),$$
+
+$$\Pi_A^*(x,y) = \Pi_A(y,x), \quad g_A^*(x,y) = g_A(y,x),$$
+
+each identity being valid on the entire domain of
+
+Then the expected value of $N_z$, when $x_0 = 0$, is
+
+$$E_0[N_z] = E_0[\sum_{n=0}^{T} \delta(x,x_n)] = \sum_{n=1}^{\infty} P_0[x_n = x; T > n].$$
+
+But
+
+$$P_0[x_n = x; T > n] = \sum_{t \neq 0} P(0,t)Q_{n-1}(t,x),$$
+
+where $Q_n(x,y)$ is defined according to D1 for the set $A = \{0\}$. Using P2, for $n \geq 1$
+
+$$P_0[x_n = x; T > n] = \sum_{t \neq 0} P^*(t,0)Q_{n-1}^*(x,t) = \sum_{t \neq 0} Q_{n-1}^*(x,t)P^*(t,0).$$
+
+But this is the probability that the reversed random walk, starting at $x$, visits 0 for the first time at time $n$. Thus
+
+$$P_0[x_n = x; T > n] = F_n^*(x,0), \quad E_0[N_z] = \sum_{n=1}^{\infty} F_n^*(x,0) = F^*(x,0).$$
+
+This enables us to prove

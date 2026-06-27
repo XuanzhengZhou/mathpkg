@@ -1,0 +1,15 @@
+---
+role: exercise
+locale: en
+chapter: "III"
+section: "6"
+exercise_number: 10
+---
+
+Let $f: X \to Y$ be a finite morphism of noetherian schemes. Duality for a Finite Flat Morphism.
+
+(a) For any quasi-coherent $\mathcal{O}_Y$-module $\mathcal{G}$, $\mathcal{H}om_Y(f_*\mathcal{O}_X, \mathcal{G})$ is a quasi-coherent $f_*\mathcal{O}_X$-module, hence corresponds to a quasi-coherent $\mathcal{O}_X$-module, which we call $f^!\mathcal{G}$ (II, Ex. 5.17e).
+
+(b) Show that for any coherent $\mathcal{F}$ on $X$ and any quasi-coherent $\mathcal{G}$ on $Y$, there is a natural isomorphism
+
+$$f_*\mathcal{H}om_X(\mathcal{F}, f^!\mathcal{G}) \xrightarrow{\sim} \mathcal{H}om_Y(f_*\mathcal{F}, \mathcal{G}).$$

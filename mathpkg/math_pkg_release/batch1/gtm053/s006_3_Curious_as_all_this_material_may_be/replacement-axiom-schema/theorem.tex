@@ -1,0 +1,10 @@
+In the formula $P$ below we list all the variables that occur freely in $P$:
+
+$$\forall z_1 \cdots \forall z_n \forall u \Bigl(\forall x \bigl(x \in u \Rightarrow \exists!y P(x, y, z_1, \ldots, z_n)\bigr)$$
+$$\Rightarrow \exists w \forall y \bigl(y \in w \Leftrightarrow \exists x (x \in u \wedge P(x, y, z_1, \ldots, z_n))\bigr)\Bigr).$$
+
+The hypothesis says that $P$ gives $y$ as a function of $x \in u$ (for given values of the parameters $z_1, \ldots, z_n$); the conclusion says that the image of the set $u$ under this function is some set $w$.
+
+From the replacement axioms and the axioms of equality are deducible the \textbf{separation axioms}:
+
+$$\forall z_1 \cdots \forall z_n \forall x \exists y \forall u \bigl(u \in y \Leftrightarrow u \in x \wedge P(u, z_1, \ldots, z_n)\bigr).$$

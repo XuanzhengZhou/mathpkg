@@ -1,0 +1,23 @@
+id: restriction-criterion-rk-g
+title_en: "Restriction criterion for membership in R_K(G)"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: ["representation-theory", "restriction", "induction", "brauer-theorem", "elementary-subgroups", "rationality"]
+depends_on:
+  required: ["brauer-theorem-rk-g", "gamma-k-elementary-subgroup"]
+  recommended: ["restriction-functor", "class-functions"]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "12"
+    section: "12.6"
+    pages: ""
+    role_in_book: "Proposition 36: gives a necessary and sufficient condition for a class function to belong to R_K(G) in terms of restrictions to Γ_K-elementary subgroups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

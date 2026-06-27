@@ -1,0 +1,23 @@
+id: cyclotomic-zp-extension
+title_en: "Cyclotomic Z_p-Extension"
+title_zh: "分圆Z_p-扩张"
+type: definition
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: intermediate
+tags: [cyclotomic-extension, zp-extension, roots-of-unity, p-adic, iwasawa-theory]
+depends_on:
+  required: [zp-extension]
+  recommended: [cyclotomic-field, roots-of-unity]
+  suggested: [kronecker-weber-theorem]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "Iwasawa Theory and Ideal Class Groups"
+    pages: ""
+    role_in_book: "The basic example of a Z_p-extension, obtained by adjoining all p-power roots of unity to the base field."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

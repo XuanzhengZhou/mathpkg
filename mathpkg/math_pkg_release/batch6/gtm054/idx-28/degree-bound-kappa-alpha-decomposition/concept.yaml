@@ -1,0 +1,23 @@
+id: degree-bound-kappa-alpha-decomposition
+title_en: "Degree bound via kappa-alpha decomposition"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-connectivity
+difficulty: advanced
+tags: [atom, degree, connectivity, decomposition]
+depends_on:
+  required: [atom-of-graph, atomic-partition, vertex-connectivity]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "Chapter V"
+    section: "Section 30"
+    pages: ""
+    role_in_book: "Proposition D13: For κ=mα+b, the degree satisfies ρ(x) ≤ ((m+1)/m)κ − 1 − b/m."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,20 @@
+id: ratio-approximation-for-return-with-excursion
+title_en: "Ratio approximation for return probability with excursion condition"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [ratio-approximation, excursion, return-probability, recurrent-random-walk]
+depends_on: {required:[], recommended:[conditional-probability-bound], suggested:[stopping-time, markov-property]}
+source_books:
+  - book_id: gtm034
+    author: Frank Spitzer
+    title: Principles of Random Walk, 2nd ed.
+    chapter: "VII"
+    section: "32"
+    pages: "?"
+    role_in_book: "Approximates F_n by a modified probability q_n in the proof of T2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

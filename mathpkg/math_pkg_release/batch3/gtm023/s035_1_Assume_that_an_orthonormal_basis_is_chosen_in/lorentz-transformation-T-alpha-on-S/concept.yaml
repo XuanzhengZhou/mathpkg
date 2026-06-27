@@ -1,0 +1,23 @@
+id: lorentz-transformation-T-alpha-on-S
+title_en: "Lorentz Transformation T_alpha on the Space S of Selfadjoint Mappings"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [Lorentz-transformation, selfadjoint, complex-plane, determinant, inner-product]
+depends_on:
+  required: [space-of-selfadjoint-mappings-S]
+  recommended: [linear-transformation, determinant, conjugate-transpose]
+  suggested: [proper-Lorentz-transformation, orthochroneous-Lorentz-transformation]
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XI"
+    section: "§5. Application to Lorentz-transformations, 11.18"
+    pages: "358–364"
+    role_in_book: "Defines Lorentz transformations on S induced by linear transformations of C with determinant 1"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

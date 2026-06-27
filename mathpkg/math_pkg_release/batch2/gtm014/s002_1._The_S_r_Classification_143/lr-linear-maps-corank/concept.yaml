@@ -1,0 +1,23 @@
+id: lr-linear-maps-corank
+title_en: "L^r(V,W) — Linear Maps of Corank r"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: intermediate
+tags: [linear-maps, corank, grassmannian, manifold-structure]
+depends_on:
+  required: []
+  recommended: [linear-map, grassmannian, universal-quotient-bundle]
+  suggested: [sr-singularity]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "Chapter VI: Classification of Singularities, Part I: The Thom-Boardman Invariants"
+    section: "§1. The S_r Classification"
+    pages: "144-145"
+    role_in_book: "Provides a manifold structure for the space of linear maps of given corank, to show S_r is a submanifold"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

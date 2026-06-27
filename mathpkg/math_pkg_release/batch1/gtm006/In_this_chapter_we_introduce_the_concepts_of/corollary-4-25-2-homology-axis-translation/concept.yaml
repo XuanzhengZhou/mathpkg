@@ -1,0 +1,28 @@
+id: corollary-4-25-2-homology-axis-translation
+title_en: 'Corollary 2 to Theorem 4.25: Many Homologies Imply Translation Line'
+title_zh: ''
+type: corollary
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags:
+- homology
+- translation-line
+- andre-theorem
+depends_on:
+  required:
+  - theorem-4-25-andre-homology-orbit
+  - translation-line-and-plane
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '6'
+  pages: ''
+  role_in_book: Shows that sufficiently many homologies force a translation line
+content_hash: 87b39baafca0
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

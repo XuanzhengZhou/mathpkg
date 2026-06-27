@@ -1,0 +1,23 @@
+id: main-theorem-divisible-x-y-unit
+title_en: "Main Theorem for Divisible x and y = unit"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: [lubin-tate, explicit-reciprocity-law, hilbert-symbol, formal-group-addition]
+depends_on:
+  required: []
+  recommended: [main-theorem-divisible-x-unit, lubin-tate-formal-group]
+  suggested: [formal-group-logarithm, p-adic-valuation]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "9"
+    section: "6"
+    pages: ""
+    role_in_book: "Interchangeability of addition in the formal group and the ground field for the symbol"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: boundary-of-chain
+title_en: "Boundary of a chain"
+title_zh: "链的边界"
+type: definition
+domain: geometry
+subdomain: integration-of-forms
+difficulty: intermediate
+tags: [boundary, chain, linear-operator, homology]
+depends_on: {required: [k-dimensional-chain, boundary-of-singular-cell], recommended: [], suggested: []}
+source_books: [{book_id: "gtm060", author: "V.I. Arnold", title: "Mathematical Methods of Classical Mechanics", chapter: "7", section: "35", pages: "198", role_in_book: "Defines the boundary operator on chains by linear extension from cells"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

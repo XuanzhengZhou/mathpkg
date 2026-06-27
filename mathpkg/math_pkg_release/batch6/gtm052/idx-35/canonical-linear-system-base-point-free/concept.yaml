@@ -1,0 +1,23 @@
+id: canonical-linear-system-base-point-free
+title_en: "The canonical linear system is base-point-free for genus at least 2"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: algebraic-curves
+difficulty: advanced
+tags: [canonical-divisor, base-point-free, curves, riemann-roch]
+depends_on:
+  required: []
+  recommended: [canonical-divisor, complete-linear-system, riemann-roch-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "IV"
+    section: "§5"
+    pages: ""
+    role_in_book: "Lemma 5.1 — establishes that the canonical linear system has no base points for g>=2"
+content_hash: "lemma5-1-hash"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

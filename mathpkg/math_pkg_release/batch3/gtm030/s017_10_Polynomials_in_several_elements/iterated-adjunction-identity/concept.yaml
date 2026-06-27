@@ -1,0 +1,23 @@
+id: iterated-adjunction-identity
+title_en: "Iterated Adjunction Identity for Polynomial Rings"
+title_zh: "多项式环的迭代附加恒等式"
+type: proposition
+domain: algebra
+subdomain: polynomial-rings
+difficulty: basic
+tags: [polynomial-ring, commuting-elements, iterated-extension, induction]
+depends_on:
+  required: [polynomial-ring-several-commuting-elements, polynomial-ring-one-variable]
+  recommended: [subring-generated-by-set]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "II"
+    section: "10"
+    pages: ""
+    role_in_book: "Shows that adjoining several commuting elements can be done iteratively, reducing the multi-variable case to repeated single-variable extensions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

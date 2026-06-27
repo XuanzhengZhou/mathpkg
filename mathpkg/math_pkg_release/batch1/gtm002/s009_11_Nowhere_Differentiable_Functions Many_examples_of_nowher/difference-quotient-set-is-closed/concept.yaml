@@ -1,0 +1,23 @@
+id: difference-quotient-set-is-closed
+title_en: "The Sets E_n Are Closed in C[0,1]"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: real-analysis
+difficulty: intermediate
+tags: [baire-category, continuous-functions, closed-set, difference-quotients]
+depends_on:
+  required: [bounded-difference-quotient-set, continuous-function-space, uniform-convergence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "11"
+    section: "Nowhere Differentiable Functions"
+    pages: ""
+    role_in_book: "Key lemma: E_n is closed, used to show E_n is nowhere dense and thus E is first category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

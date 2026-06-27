@@ -1,0 +1,23 @@
+id: prenex-normal-form-theorem
+title_en: "Prenex Normal Form Theorem (Theorem 10.81)"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: predicate-logic
+difficulty: intermediate
+tags: [prenex-normal-form, quantifier, predicate-calculus, normal-form, induction]
+depends_on:
+  required: [prenex-normal-form, quantifier-free-formula]
+  recommended: [substitutivity-of-equivalence, change-of-bound-variable, vacuous-quantifier-implication]
+  suggested: [universal-quantifier-commutativity]
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.10"
+    pages: ""
+    role_in_book: "Establishes that every formula is provably equivalent to one in prenex normal form preserving free variable occurrences"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

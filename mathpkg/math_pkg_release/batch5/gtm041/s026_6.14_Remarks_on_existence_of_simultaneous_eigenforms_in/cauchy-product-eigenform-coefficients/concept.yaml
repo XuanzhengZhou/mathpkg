@@ -1,0 +1,23 @@
+id: cauchy-product-eigenform-coefficients
+title_en: "Cauchy product formula for eigenform coefficients when dim M_{2k,0}=1"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [modular-forms, eigenforms, hecke-operators, fourier-coefficients, cauchy-product, ramanujan-delta]
+depends_on:
+  required: []
+  recommended: [ramanujan-tau-function, eisenstein-series, eisenstein-series-normalization, hecke-eigenvalue-multiplicative-property]
+  suggested: [dimension-formula-cusp-form-space]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.13"
+    pages: ""
+    role_in_book: "Explicit construction of eigenforms when the cusp form space is one-dimensional"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

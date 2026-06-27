@@ -1,0 +1,23 @@
+id: subobject-classifier
+title_en: "Subobject Classifier"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [subobject-classifier, topos, monomorphism, pullback, terminal-object, omega]
+depends_on:
+  required: [characteristic-function-of-subset, pullback, monomorphism, terminal-object]
+  recommended: []
+  suggested: [characteristic-function-pullback]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "9. Subsets and Characteristic Functions"
+    pages: ""
+    role_in_book: "Core definition; central to topos theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

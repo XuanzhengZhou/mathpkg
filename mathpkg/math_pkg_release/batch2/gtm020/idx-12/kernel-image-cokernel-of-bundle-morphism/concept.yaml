@@ -1,0 +1,23 @@
+id: kernel-image-cokernel-of-bundle-morphism
+title_en: "Kernel, Image, and Cokernel of a Vector Bundle Morphism"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundles, kernel, image, cokernel, bundle-morphism]
+depends_on:
+  required: [vector-bundle, bundle-morphism]
+  recommended: [subbundle, quotient-bundle]
+  suggested: [exact-sequence-of-bundles]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "3"
+    section: "8"
+    pages: "51-52"
+    role_in_book: "Defines fundamental constructions needed for exact sequences of vector bundles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

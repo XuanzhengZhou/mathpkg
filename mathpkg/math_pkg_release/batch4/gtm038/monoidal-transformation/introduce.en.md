@@ -1,0 +1,1 @@
+The monoidal transformation (blow-up) replaces the origin with the projective space of lines through it. This is the fundamental modification operation in complex geometry, used to resolve singularities.

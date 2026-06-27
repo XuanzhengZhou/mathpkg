@@ -1,0 +1,27 @@
+The weak topology on a normed space $\mathcal{E}$ is a linear topology on $\mathcal{E}$ turning $\mathcal{E}$ into a separated locally convex space. The weak topology coincides with the norm topology when and only when $\mathcal{E}$ is finite dimensional.
+
+Proof. The weak topology on $\mathcal{E}$ coincides with the (linear) topology induced on $\mathcal{E}$ by the family of pseudonorms $\{\sigma_f\}_{f \in \mathcal{E}^*}$, and is therefore locally convex
+
+$U(f_1; \varepsilon) \cap \dots \cap U(f_n; \varepsilon)$ is the intersection of the open balls with center 0 and radius $\varepsilon$ with respect to the pseudometrics defined by the pseudonorms $\sigma_{f_1}, \dots, \sigma_{f_n}$. Hence each set in $\mathcal{V}$ is a weakly open neighborhood of 0. On the other hand, if $U$ is any weakly open subset of $\mathcal{E}$ such that $0 \in U$, then there exist functionals $f_1, \dots, f_n$ in $\mathcal{E}^*$ and positive radii $\varepsilon_1, \dots, \varepsilon_n$ such that
+
+$$U(f_1; \varepsilon_1) \cap \dots \cap U(f_n; \varepsilon_n) \subset U$$
+
+(Ex. 3M) and hence such that
+
+$$U(f_1, \dots, f_n; \varepsilon_1 \wedge \dots \wedge \varepsilon_n) \subset U.$$
+
+Example A. Suppose $\parallel \parallel_1$ and $\parallel \parallel_2$ are two equivalent norms on a linear space $\mathcal{E}$, and let $\mathcal{E}_1$ and $\mathcal{E}_2$ denote the spaces obtained by equipping $\mathcal{E}$ with $\parallel \parallel_1$ and $\parallel \parallel_2$, respectively. Then the norm topologies on $\mathcal{E}_1$ and $\mathcal{E}_2$ are identical, and consequently $\mathcal{E}_1$ and $\mathcal{E}_2$ have exactly the same linear functionals in their dual spaces (though the norm of a functional in $\mathcal{E}_1^*$ need not be the same as its norm in $\mathcal{E}_2^*$). Hence the weak topology on $\mathcal{E}_1$ is identical with the weak topology on $\mathcal{E}_2$. If the norm $\parallel \parallel_1$ merely dominates $\parallel \parallel_2$ (Ex. 13A), then the norm topology on $\mathcal{E}_1$ refines the
+
+Since $(l_1)^* = (l_\infty)$ by Example 14B, the sequence $\{x_n\}$ converges weakly to zero if and only if
+
+$$\lim_{n} \sum_{m=0}^{\infty} \xi_m^{(n)} \alpha_m = 0$$
+
+for every element $a = \{\alpha_0, \alpha_1, \ldots\}$ of $(l_\infty)$. In particular, setting $a = e_m$ (cf. Example 11H), we see that if $\{x_n\}$ converges weakly to 0 in $(l_1)$, then $\lim_{n} \xi_m^{(n)} = 0$ for every $m$ in $\mathbb{N}_0$. Hence if $\{x_n\}$ converges weakly to a limit $x$ in $(l_1)$, then $\{x_n\}$ also converges termwise to $x$. That this necessary condition is not sufficient can be seen by considering the sequence $\{e_n\}_{n=0}^{\infty}$ itself, which converges termwise to zero, but does not converge weakly in $(l_1)$ to anything. On the other hand, $\{e_n\}_{n=0}^{\infty}$ does converge weakly to zero in $(l_p), 1 < p < +\infty$ (cf. Example 14C).
+
+In obvious analogy with the notion of weak convergence, it is customary to say that a set $M$ in a normed space $\mathcal{E}$ is weakly bounded if $f(M)$ is a bounded set of scalars for every $f$ in $\mathcal{E}^*$. As it turns out, however, this definition does not lead to anything new. This is a fact having many important consequences, and we pause to study the matter more closely.
+
+The central idea is that if $x$ is a vector in a normed space $\mathcal{E}$, then $x$ defines in a natural way a functional $F_x$ on the dual space $\mathcal{E}^*$ according to the formula
+
+$$F_x(f) = f(x), \quad f \in \mathcal{E}^*.$$
+
+Since $|F_x(f)| = |f(x)| \leq \|f\| \|x\|$, we see

@@ -1,0 +1,23 @@
+id: immersion
+title_en: "Immersion"
+title_zh: "浸入"
+type: definition
+domain: geometry
+subdomain: differentiable-manifolds
+difficulty: advanced
+tags: [immersion, cr-map, tangent-map, monomorphism]
+depends_on:
+  required: [tangent-bundle-of-manifold, cr-map]
+  recommended: [monomorphism]
+  suggested: [embedding]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "18. Differentiable Manifolds"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition 2.5: map whose tangent map is fibrewise injective"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

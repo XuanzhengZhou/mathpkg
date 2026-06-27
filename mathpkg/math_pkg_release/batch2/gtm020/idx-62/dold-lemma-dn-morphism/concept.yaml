@@ -1,0 +1,23 @@
+id: dold-lemma-dn-morphism
+title_en: "Dold's Lemma on D^n-Morphisms of Bundles"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: fibre-bundles
+difficulty: advanced
+tags: [dold, fibre-homotopy, dn-morphism, product-bundle, homotopy-equivalence]
+depends_on:
+  required: [fibre-homotopy]
+  recommended: [locally-trivial-bundle, homotopy-equivalence]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "4"
+    pages: "238"
+    role_in_book: "Technical lemma for establishing fibre homotopy equivalence of bundles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

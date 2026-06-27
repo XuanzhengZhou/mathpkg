@@ -1,0 +1,23 @@
+id: existence-of-initial-object
+title_en: "Existence of an Initial Object (Solution Set Condition)"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [initial-object, solution-set-condition, small-complete, freyd]
+depends_on:
+  required: []
+  recommended: [initial-object, small-complete-category, limits]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "6. Freyd's Adjoint Functor Theorem"
+    pages: ""
+    role_in_book: "Theorem 1 of Section V.6; characterizes existence of initial object via solution set condition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

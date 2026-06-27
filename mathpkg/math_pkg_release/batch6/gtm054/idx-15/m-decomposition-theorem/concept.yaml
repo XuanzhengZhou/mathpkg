@@ -1,0 +1,23 @@
+id: m-decomposition-theorem
+title_en: "A6: M-Decomposition Theorem"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: algebraic-combinatorics
+difficulty: advanced
+tags: [m-decomposition, minimal-function, subspace, support, sign-condition]
+depends_on:
+  required: [support-collection-and-minimal-function, minimal-function-scalar-multiple]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm054
+  author: "Jack E. Graver, Mark E. Watkins"
+  title: "Combinatorics with Emphasis on the Theory of Graphs"
+  chapter: "IV"
+  section: "15"
+  pages: ""
+  role_in_book: "Central result of this section: every function in a subspace decomposes into minimal functions with supports contained in the original support and consistent signs"
+content_hash: "e5f6a1b2c3d4"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

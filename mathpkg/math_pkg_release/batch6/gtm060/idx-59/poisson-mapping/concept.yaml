@@ -1,0 +1,23 @@
+id: poisson-mapping
+title_en: "Poisson Mapping"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: poisson-geometry
+difficulty: advanced
+tags: [poisson-manifold, poisson-structure, pullback]
+depends_on:
+  required: []
+  recommended: [poisson-manifold, poisson-bracket]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "B. Poisson Mappings"
+    pages: "469-479"
+    role_in_book: "Definition of a Poisson mapping between Poisson manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

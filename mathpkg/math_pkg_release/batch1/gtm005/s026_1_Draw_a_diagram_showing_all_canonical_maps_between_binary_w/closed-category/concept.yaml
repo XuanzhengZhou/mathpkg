@@ -1,0 +1,23 @@
+id: closed-category
+title_en: "Closed Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [closed-category, symmetric-monoidal-category, internal-hom, adjoint]
+depends_on:
+  required: []
+  recommended: [symmetric-monoidal-category, adjoint-functor]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VII"
+    section: "7"
+    pages: ""
+    role_in_book: "Defines closed categories as symmetric monoidal with internal hom adjunction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

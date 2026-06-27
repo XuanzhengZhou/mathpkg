@@ -1,0 +1,23 @@
+id: existence-of-pointwise-kan-extension
+title_en: "Existence of Pointwise Right Kan Extension Along Fully Faithful K"
+title_zh: ""
+type: corollary
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [kan-extension, pointwise-kan-extension, fully-faithful, extension]
+depends_on:
+  required: [pointwise-right-kan-extension-via-limits]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "X"
+    section: "3. The Kan Extension"
+    pages: ""
+    role_in_book: "Corollary 3: when the limit formula yields an actual extension RK = T"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

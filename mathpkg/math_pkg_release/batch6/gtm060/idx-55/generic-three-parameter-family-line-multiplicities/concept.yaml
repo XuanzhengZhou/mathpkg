@@ -1,0 +1,23 @@
+id: generic-three-parameter-family-line-multiplicities
+title_en: "Generic Three-Parameter Families Have Line-Like Multiple Spectra"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: spectral-theory
+difficulty: advanced
+tags: [three-parameter-family, ellipsoid-of-revolution, multiple-spectrum, conic-singularity, projective-plane-embedding]
+depends_on:
+  required: [ellipsoids-of-revolution-codimension-theorem]
+  recommended: [generic-two-parameter-family-isolated-multiplicities]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 10"
+    section: "Multiplicities of characteristic frequencies and ellipsoids of revolution"
+    pages: "438-445"
+    role_in_book: "Describes the singularity structure of three-parameter deformations near multiple spectra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

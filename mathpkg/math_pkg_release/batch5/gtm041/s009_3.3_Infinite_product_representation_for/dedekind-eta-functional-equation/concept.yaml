@@ -1,0 +1,23 @@
+id: dedekind-eta-functional-equation
+title_en: "Dedekind's Functional Equation for the Eta Function"
+title_zh: "戴德金η函数的函数方程"
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [dedekind-eta, functional-equation, dedekind-sum, modular-group, multiplier-system]
+depends_on:
+  required: []
+  recommended: [dedekind-sum, dedekind-eta-multiplier]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "3"
+    section: "3.4"
+    pages: ""
+    role_in_book: "Theorem 3.4 — the fundamental transformation law for η(τ) under the modular group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: metrizability-criterion-countable-neighborhood-base
+title_en: "Metrizability Criterion via Countable Neighborhood Base"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [metrizability, countable-neighborhood-base, tvs, f-norm, translation-invariant-metric]
+depends_on:
+  required: [metrizable-topological-vector-space, topological-vector-space]
+  recommended: [hausdorff-topological-vector-space]
+  suggested: [uniform-space-metrizability]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "I"
+    section: "6"
+    pages: ""
+    role_in_book: "Theorem 6.1 — characterizes metrizable Hausdorff t.v.s."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $G$ be finite, let $V$ be a vector space over $K$, and let $\sigma(v)$ be a $G$-product on $V$. For $v \in V$, let $\bar{v} = \sum_{\sigma \in G} \sigma(v)$. Then $\bar{v} \in V^G$ and for each nonzero $v \in V$, there exists $a \in K$ such that $\overline{av} \neq 0$.

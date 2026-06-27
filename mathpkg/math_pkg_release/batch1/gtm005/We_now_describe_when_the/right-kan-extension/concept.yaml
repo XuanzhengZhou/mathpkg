@@ -1,0 +1,23 @@
+id: right-kan-extension
+title_en: "Right Kan Extension (Ran_K T)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [kan-extension, right-kan-extension, universal-property, functor-category]
+depends_on:
+  required: []
+  recommended: [natural-transformation, functor-category]
+  suggested: [adjunction]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "X"
+    section: "3. The Kan Extension"
+    pages: ""
+    role_in_book: "Core definition: right Kan extension as universal arrow"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

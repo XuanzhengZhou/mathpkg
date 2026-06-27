@@ -1,0 +1,23 @@
+id: polynomial-remainder-theorem
+title_en: "Polynomial Remainder Theorem"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: polynomial-rings
+difficulty: intermediate
+tags: [remainder-theorem, polynomial-ring, evaluation, linear-factor]
+depends_on:
+  required: [polynomial-division-algorithm]
+  recommended: [polynomial-ring]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "5"
+    pages: ""
+    role_in_book: "Remainder formula: f(x) - f_R(c) = q(x)(x-c)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

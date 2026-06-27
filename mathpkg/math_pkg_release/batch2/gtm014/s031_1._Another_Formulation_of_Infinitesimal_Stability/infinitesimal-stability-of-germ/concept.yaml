@@ -1,0 +1,31 @@
+id: infinitesimal-stability-of-germ
+title_en: "Infinitesimal Stability of a Germ"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: intermediate
+tags:
+  - infinitesimal-stability
+  - germ
+  - jet-space
+  - malgrange-preparation
+depends_on:
+  required: []
+  recommended:
+    - local-ring-of-germs
+    - pullback-bundle
+    - vector-fields-along-map
+  suggested:
+    - generalized-malgrange-preparation-theorem
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "§1"
+    pages: ""
+    role_in_book: "Defines the fundamental notion of infinitesimal stability for a germ of a smooth map, and the solvability of the stability equations to finite order."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

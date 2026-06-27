@@ -1,0 +1,23 @@
+id: main-lemma-highly-divisible-x
+title_en: "Main Lemma for Highly Divisible x"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: ["norm-residue-symbol", "hilbert-symbol", "explicit-reciprocity-law", "local-field", "p-adic"]
+depends_on:
+  required: []
+  recommended: [norm-residue-symbol, hilbert-symbol-local, p-adic-valuation]
+  suggested: [explicit-reciprocity-law, local-class-field-theory]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: ""
+    section: "9. Explicit Reciprocity Laws"
+    pages: ""
+    role_in_book: "Main lemma providing formula for the norm residue symbol when one argument is highly divisible, used in the proof of explicit reciprocity laws"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

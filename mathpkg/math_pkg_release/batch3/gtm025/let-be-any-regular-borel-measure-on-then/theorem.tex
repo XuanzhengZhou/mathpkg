@@ -1,0 +1,103 @@
+Let $\iota$ be any regular Borel measure on $R$. Then $\iota$ can be expressed in just one way in the form
+
+(i) $$\iota = \iota_a + \iota_s + \iota_d,$$
+
+where $\iota_a, \iota_s,$ and $\iota_d$ are regular Borel measures on $R$, $\iota_a \ll \lambda$, $\iota_s \perp \lambda$, $\iota_d$ is purely discontinuous, and $\iota_s$ is continuous. If $\alpha, \alpha_a, \alpha_s,$ and $\alpha_d$ are the corresponding nondecreasing functions [see (19.45)], then:
+
+(ii) $$\alpha = \alpha_a + \alpha_s + \alpha_d;$$
+
+$\alpha_a$ is absolutely continuous on every compact interval; $\alpha_s$ is continuous; $\alpha'_s = 0$ a.e.; and $\alpha_d$ is a saltus function. Furthermore, we have
+
+(iii) $$\iota_a(E) = \int_E \alpha'(t) dt$$
+
+for all Borel sets $E,$ and
+
+(iv) $$\alpha_a(x) = \begin{cases} \int_
+
+and, by (1), $\alpha_s$ is nondecreasing. Next let $\iota_s \rightarrow \alpha_s$, i.e., $\iota_s = \lambda_{\alpha_s}$. Then $\iota_s$ is continuous (19.52) and regular and
+
+$$\iota_c = \iota_a + \iota_s.$$ (2)
+
+Formula (iv) follows at once from (iii) and the definition of $\alpha_a$. From this fact and (18.3) we get $\alpha'_a = \alpha' = \alpha'_c$ a.e.; hence $\alpha'_s = 0$ a.e., and so $\iota_s \perp \lambda$ (19.60). Thus (2) gives the unique Lebesgue decomposition of $\iota_c$ with respect to $\lambda$.
+
+As usual, we close the section with a set of exercises. None of them is essential for subsequent work, but they all illustrate the theory in one way or another, and we recommend their study to the reader.
+
+(19.62) Exercise. Let $v$ be a signed measure on $(X, \mathcal{A})$. Prove that
+
+$$v^+(E) = \sup\{v(F) : F \in \mathcal{A}, F \subset E\}$$
+
+and
+
+$$v^-(E) = -\inf\{v(F) : F \in \mathcal{A}, F \subset E\}$$
+
+for all $E \in \mathcal{A}$.
+
+(19.63) Exercise. Let $X$ be a nonvoid set and let $\mathcal{A}$ be an algebra of subsets of $X$. Suppose that $v$ is a real-valued set function defined on $\mathcal{A}$ such that $v(\emptyset) = 0$ and $v(A \cup B) = v(A) + v(B)$ if $A$ and $B$ are disjoint in $\mathcal{A}$. Let $v^+$ and $v^-$ be defined as in (19.62).
+
+(a) Prove that $v^+$ and $v^-$ are finitely additive measures on $(X, \mathcal{A})$.
+
+(b) Suppose that $\sup\{|
+
+(19.67) Exercise. Let $(X, \mathcal{A})$ be a measurable space and $\mu$ and $\nu$ complex or signed measures on $\mathcal{A}$. Then $\nu$ is called $\mu$-continuous if $\lim_{|\mu|(E) \to 0} \nu(E) = 0$ [that is, for every $\varepsilon > 0$ there is a $\delta > 0$ such that $|\mu|(E) < \delta$ implies $|\nu(E)| < \varepsilon$]. If $\nu$ is finite, prove that $\nu$ is $\mu$-continuous if and only if it is absolutely continuous with respect to $\mu$.
+
+(19.68) Exercise. Let $(X, \mathcal{M}, \mu)$ be a measure space and $(\nu_n)_{n=1}^{\infty}$ a sequence of finite measures on $\mathcal{M}$ that are absolutely continuous with respect to $\mu$. Suppose that $\lim_{n \to \infty} \nu_n(E) = \nu(E)$ exists and is finite for all $E \in \mathcal{M}$ and that $\mu(X) < \infty$.
+
+(a) Prove that the $\nu_n$'s are uniformly absolutely continuous with respect to $\mu$; i.e., $\lim_{|\mu|(E) \to 0} \nu_n(E) = 0$ uniformly in $n$.
+
+(b) Prove that $\nu$ is a measure.
+
+(c) Do (a) under the modified hypothesis that $\mu$ is a complex-valued measure on $\mathcal{M}$ and that the $\nu_n$'s are complex measures. Prove that, in this case, $\nu$ is a complex measure.
+
+[Hints. Consider the metric space $(\mathcal{M}, \varrho)$ defined in (10.45). Show that each $\nu_n$ is well defined and continuous on this space. For given $\varepsilon > 0$, the families
+
+$$\mathcal{M}_{m,n} = \left\{ E \in \mathcal{M}: |\nu_n(E) - \nu_m(E)| \leq \frac{\varepsilon}{3} \right\}, \quad m, n = 1, 2, 3, \dots,$$
+
+(19.71) Exercise: Examples relating to the Lebesgue-Radon-Nikodym Theorem.
+
+(a) Let $(X, \mathcal{A}, \mu)$ be an arbitrary measure space and let $\nu$ on $\mathcal{A}$ be defined by: $\nu(A) = 0$ if $\mu(A) = 0$ and $\nu(A) = \infty$ if $\mu(A) > 0$. Prove that $(X, \mathcal{A}, \nu)$ is a measure space and that $\nu \ll \mu$. Find a function $f_0$ for which the conclusions of (19.24) are valid.
+
+(b) Let $X$ be a locally compact Hausdorff space admitting a nonzero measure $\iota$ as in §9 such that $\iota(\{x\}) = 0$ for all $x \in X$. Let $\mu$ be counting measure (10.4.a), with its domain of definition restricted to $\mathcal{M}_i$. Show that $\iota \ll \mu$ and that there is no function $f_0$ on $X$ for which (19.24.ii) obtains. Find an $f_0$ for which (19.24.ii) holds for all $A \in \mathcal{M}_i$ that are $\sigma$-finite with respect to $\mu$.
+
+(c) Let $X$ be a locally compact Hausdorff space admitting a measure $\iota$ as in §9 such that $X$ is not $\sigma$-finite with respect to $\iota$ and such that $\iota(\{x\}) = 0$ for all $x \in X$. Prove that there is a subset of $X$ that is locally $\iota$-null but not $\iota$-null. [Use (19.30), and choose a set $S$ containing just one point in each $F \in \mathcal{F}_0$.]
+
+(d) Let $X = R \times R$ and let $\mathcal{A} = \mathcal{B}(X)$. Define $\mu$ and $\nu$ on $\mathcal{A}$ by
+
+$$\mu(E) = \sum_{x \in R} \lambda(\{y \in R : (x, y) \in
+
+Let $(r_n)_{n=1}^{\infty}$ be an enumeration of $Q$ and let $g$ be the function such that
+
+$$g(x) = x^{-\frac{1}{2}} \quad \text{if} \quad 0 < x < 1,$$
+
+$$g(x) = 0 \quad \text{otherwise.}$$
+
+Define $f$ on $R$ by the rule
+
+$$f(x) = \sum_{n=1}^{\infty} 2^{-n} g(x + r_n).$$
+
+(a) Prove that $f \in \mathfrak{L}_1(R)$.
+
+Define $\mu$ on $\mathfrak{M}_{\lambda}$ by
+
+$$\mu(E) = \int_E f^2 d\lambda.$$
+
+Note that $\mu \ll \lambda$.
+
+(b) Prove that $\mu([a, b]) = \infty$ for all $a < b$ in $R$.
+
+(c) Prove that $\mu$ is $\sigma$-finite.
+
+(d) Find a sequence $(F_n)_{n=1}^{\infty}$ of Borel subsets of $R$ such that $\bigcup_{n=1}^{\infty} F_n = R$ and $\mu(F_n) < \infty$ for all $n \in N$. Can the $F_n$'s be chosen so as to be compact?
+
+(e) Why is this example not a counterexample to (19.48)?
+
+(19.76) Exercise. Extend the result of (16.48.b) to subspaces of $\mathfrak{L}_2(X, \mathcal{A}, \mu)$, where $(X, \mathcal{A}, \mu)$ is an arbitrary decomposable measure space. That is, let $\mathfrak{M}$ and $\mathfrak{F}$ be as in (16.48.a). Then there is a set $E \in \mathcal{A}$ such that projection onto $\mathfrak{M}$ is just multiplication by $\xi_E$, and so $\mathfrak{M}$ is the set of all $f$ in $\mathfrak{L}_2(X, \mathcal{A}, \mu)$ that vanish on $E'$.
+
+(19.77) Exercise: Leb
+
+We choose four famous applications, which are either themselves important theorems in analysis or needed to establish such facts.
+
+(20.2) Integration by substitution. We will apply the Lebesgue-Radon-Nikodym theorem to prove a very general theorem on integration by substitution or by "change of variable". We wish to use the construction of continuous images of measures given in (12.45) and (12.46), and also (19.24). Hence we consider locally compact Hausdorff spaces $X$ and $Y$ and a continuous mapping $\varphi$ of $X$ onto $Y$. It is convenient to suppose that $Y$ is $\sigma$-compact. [We could avoid this hypothesis, but at the cost of tedious complications.] Let $\mu$ and $\varrho$ be measures on $X$ and $Y$, respectively, in the sense of § 9. Suppose as in (12.45) that $\varphi^{-1}(F)$ is compact in $X$ for $F$ compact in $Y$, or that $\mu(X) < \infty$. Then define the measure $\nu$ on $Y$ just as in (12.45). Since $Y$ is $\sigma$-compact by hypothesis, $\nu$ must be $\sigma$-finite (9.27). Theorem (12.46) implies that
+
+(i) $\nu(B) = \mu(\varphi^{-1}(B))$
+
+for all $\nu$-measurable subsets $B$ of $Y$. With these preliminaries, we can state and prove our general theorem on integration by substitution.

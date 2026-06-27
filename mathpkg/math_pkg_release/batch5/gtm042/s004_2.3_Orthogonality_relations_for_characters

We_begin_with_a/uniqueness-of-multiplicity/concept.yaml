@@ -1,0 +1,23 @@
+id: uniqueness-of-multiplicity
+title_en: "Uniqueness of Multiplicity in Decomposition into Irreducibles"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: representation-theory
+difficulty: basic
+tags: [uniqueness, multiplicity, decomposition, irreducible-representations]
+depends_on:
+  required: [multiplicity-via-scalar-product]
+  recommended: [orthogonality-of-irreducible-characters]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "2"
+    section: "2.3"
+    pages: ""
+    role_in_book: "Corollary 1 to Theorem 4. Establishes that the multiplicity of each irreducible representation in a decomposition is independent of the chosen decomposition."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

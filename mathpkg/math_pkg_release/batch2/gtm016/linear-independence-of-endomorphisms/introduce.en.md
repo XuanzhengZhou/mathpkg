@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $\sum_1^n \sigma_i v_i = 0$ with distinct endomorphisms $\sigma_i$ and vectors $v_i$, then $v_1 = \cdots = v_n = 0$.

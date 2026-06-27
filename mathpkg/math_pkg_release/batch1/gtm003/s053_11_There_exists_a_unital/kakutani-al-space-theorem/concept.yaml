@@ -1,0 +1,23 @@
+id: kakutani-al-space-theorem
+title_en: "Kakutani's Theorem on Abstract L-spaces"
+title_zh: "Kakutani抽象L-空间定理"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [Kakutani-theorem, L-space, Banach-lattice, L1-space, measure-theory]
+depends_on:
+  required: [abstract-L-space, Banach-lattice, L1-space]
+  recommended: [weak-order-unit, Radon-measure, Riesz-space]
+  suggested: [Kakutani-M-space-theorem, Stone-representation]
+source_books:
+  - book_id: "gtm003"
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "11"
+    pages: ""
+    role_in_book: "Exercise 21: Kakutani's representation theorem for AL-spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

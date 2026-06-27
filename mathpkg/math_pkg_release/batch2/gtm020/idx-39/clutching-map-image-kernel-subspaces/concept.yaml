@@ -1,0 +1,23 @@
+id: clutching-map-image-kernel-subspaces
+title_en: "Image and Kernel Subspaces of Clutching Map Projections"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: fibre-bundles
+difficulty: advanced
+tags: [vector-bundles, clutching-functions, subbundles, projections, k-theory]
+depends_on:
+  required: [clutching-map-projection-identity]
+  recommended: [vector-bundle-projection-constant-rank]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "10"
+    section: "4. Analysis of Linear Clutching Maps"
+    pages: "159-162"
+    role_in_book: "Notation 4.4: Definition of the image and kernel subbundles of the projections p_0 and p_∞, and the restricted clutching maps between them"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

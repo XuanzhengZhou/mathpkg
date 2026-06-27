@@ -1,0 +1,23 @@
+id: deficiency-parity-congruence
+title_en: "Parity congruence for deficiency"
+title_zh: ""
+type: lemma
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [graph, deficiency, parity, odd-component, 1-factor]
+depends_on:
+  required: [deficiency-of-subset-general-graph]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "V"
+    section: "B"
+    pages: ""
+    role_in_book: "Lemma B3: parity congruence $|U \cup N(U)| - \delta(U) \equiv 0 \pmod{2}$"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

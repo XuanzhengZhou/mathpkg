@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $\sigma \in \operatorname{Aut} K$ have finite order $p^f$ dividing $p^e$. Then there exists $x \in W_e K$ such that $\sigma(x) = x + 1_f$.

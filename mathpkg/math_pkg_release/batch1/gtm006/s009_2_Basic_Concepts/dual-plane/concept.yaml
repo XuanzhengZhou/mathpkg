@@ -1,0 +1,23 @@
+id: dual-plane
+title_en: "Dual Plane"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags: [duality, incidence-geometry]
+depends_on:
+  required: [projective-plane]
+  recommended: [lemma-3-1-quadrangle-lines-form-quadrilateral]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "3"
+    section: "2. Basic Concepts"
+    pages: ""
+    role_in_book: "fundamental construction establishing duality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

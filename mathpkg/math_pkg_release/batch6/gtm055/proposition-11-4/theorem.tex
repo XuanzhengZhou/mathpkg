@@ -1,0 +1,42 @@
+If $\mathcal{E}$ is a normed space, then the metric $\rho$ defined on $\mathcal{E}$ by the norm is an invariant metric satisfying the condition
+
+$$\rho(\lambda x, \lambda y) = |\lambda| \rho(x, y), \quad x, y \in \mathcal{E}, \quad \lambda \in \mathbb{C}.$$
+
+Conversely, if $\rho$ is an invariant metric on a linear space $\mathcal{E}$ that satisfies (2), then there exists a unique norm $\|\|_{\rho}$ on $\mathcal{E}$ such that $\rho$ is defined by $\|\|_{\rho}$.
+
+Proof. One way is clear enough; if $\rho$ is defined by a norm $\|\|_{\rho}$ on $\mathcal{E}$, then $\rho(\lambda x, \lambda y) = \|\lambda x - \lambda y\| = |\lambda| \|x - y\| = |\lambda| \rho(x, y)$ for all vectors $x, y$ and complex numbers $\lambda$. Moreover, if $\rho$ is defined by $\|\|_{\rho}$, then $\|\|x\| = \rho(x, 0)$ for every vector $x$ in $\mathcal{E}$, so
+
+as does the formula $\|a\|_\infty = \max_i |\alpha_i|$. We next consider an interesting and important family of norms on $\mathbb{C}^n$ of which $\| \|_1$ and $\| \|_\infty$ are special cases.
+
+Example B. For an arbitrary $n$-tuple $a = (\alpha_1, \ldots, \alpha_n)$ in $\mathbb{C}^n$ and an arbitrary positive real number $p$ we write
+
+$$\|a\|_p = \left[ \sum_{i=1}^{n} |\alpha_i|^p \right]^{1/p}$$
+
+(The reader will note that this is consistent with the notation $\| \|_1$ used above, and likewise that $\| \|_2$ coincides with the quadratic norm on $\mathbb{C}^n$ introduced in Example A.) We shall see that the function $\| \|_p$ is a norm on $\mathbb{C}^n$ for every $p \geq 1$ (but not for $0 < p < 1$; cf. Example C below). To show that this is so it clearly suffices to treat the case $p > 1$, and to each such number $p$ there corresponds a unique positive number $q$ satisfying the condition $1/p + 1/q = 1$ or, equivalently, the condition $p + q = pq$. The number $q$ is called the Hölder conjugate of $p$, and $p$ and $q$ are said to be Hölder conjugates. As it turns out, if $p$ and $q$ are any two Hölder conjugates, and if $u$ and $v$ denote arbitrary nonnegative numbers, then
+
+$$uv \leq \frac{u^p}{p} + \frac{v^q}{q}.$$
+
+(3)
+
+(The proof of (3) is an exercise in elementary calculus; see Problem A.) Using this fact it is an easy matter to verify the Hölder inequality
+
+$$\sum_{i=1}^{n} |\alpha_i\beta_i| \leq \|a\|_p \|b\|_q,$$
+
+(4)
+
+valid for all $n$-tuples $a = (\alpha_1,
+
+known as the Minkowski inequality, valid for all $n$-tuples $a = (\alpha_1, \ldots, \alpha_n)$ and $b = (\beta_1, \ldots, \beta_n)$ (cf. Problem B). Since it is obvious that $\parallel \parallel_p$ satisfies the other two defining conditions for a norm, we see that $\parallel \parallel_p$ is indeed a norm on $\mathbb{C}^n$ for all $p \geq 1$. (The reader may note that this argument is a straightforward generalization of the one used to derive the triangle inequality for $\parallel \parallel_2$ from the Cauchy inequality, to which the Hölder inequality reduces when $p = q = 2$; see Problem 4A.) It should be observed that a sequence $\{x_k\} = \{(\xi_1^{(k)}, \ldots, \xi_n^{(k)})\}$ of $n$-tuples converges to a limit $a = (\alpha_1, \ldots, \alpha_n)$ with respect to the (metric defined by the) norm $\parallel \parallel_p$, $1 \leq p \leq +\infty$, if and only if it converges termwise or coordinatewise to $a$, i.e., if and only if $\lim_k \xi_i^{(k)} = \alpha_i$, $i = 1, \ldots, n$. Thus, while these norms differ from one another in numerical value, they all induce the same norm topology on $\mathbb{C}^n$, namely, the usual product topology (Cor. 3.19, Prob. 3I). Two norms on the same linear space that induce the same norm topology are said to be equivalent. Thus the norms $\parallel \parallel_p$, $1 \leq p \leq +\infty$, are all equivalent norms on $\mathbb{C}^n$.
+
+Example C. The function $\parallel \parallel_p$ is not a norm on $\mathbb{C}^n$ for any $p$ such that $0 < p < 1$ (unless $n = 1$). Consider the case of the two pairs $(1, 0)$ and $(0, 1)$. Clearly $\parallel (1, 0) \parallel
+
+series (the same proof works), and then to use that inequality to obtain the Minkowski inequality for elements of $(\ell_p)$ (see Problem B).
+
+The justification for the notation $\|\|_x$ is to be found in the relation
+
+$$\|\|_x = \lim_{p \to +\infty} \|\|_p,$$
+
+valid for every sequence $a = \{\alpha_n\}$ belonging to any of the spaces $(\ell_p)$, $p < +\infty$. The space $\mathbb{C}^n$ equipped with the quadratic norm $\|\|_2$ and its generalization $(\ell_2)$ are examples, indeed prototypes, of a class of normed spaces called Hilbert spaces, the study of which we shall take up in earnest in Volume II.
+
+Notation and Terminology. The closed ball of radius $r (r > 0)$ centered at the origin in a normed space $\mathcal{E}$ will be denoted by $\mathcal{E}_r$. It is easily seen that the open ball about 0 with the same radius $r$ is the topological interior of $\mathcal{E}_r$, and will accordingly be denoted by $\mathcal{E}_r^\circ$. In this connection it should be observed that the balls $\mathcal{E}_r^\circ, r > 0$, along with thei
+...

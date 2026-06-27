@@ -1,0 +1,23 @@
+id: potential-with-support-in-union
+title_en: "Potential with support in union of two sets"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [normal-chain, potential-theory, small-set, ergodic-set]
+depends_on:
+  required: [principle-of-balayage-recurrent]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "2"
+    pages: "264–273"
+    role_in_book: "Proposition 9-44; constructs a potential with prescribed values on two disjoint small ergodic sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "18-19"
+section: "Section 20_Section_20"
+exercise_number: 19
+---
+
+S. Let $\{x_{\gamma}\}_{\gamma \in \Gamma}$

@@ -1,0 +1,23 @@
+id: solution-space-dimension-theorem
+title_en: "Solution Space Dimension Theorem"
+title_zh: "解空间维数定理"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [linear-equations, homogeneous-system, solution-space, rank-nullity, vector-space, dimension]
+depends_on:
+  required: []
+  recommended: [linear-equations, vector-space, linear-independence]
+  suggested: [gaussian-elimination, row-space]
+source_books:
+  - book_id: gtm049
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "3"
+    section: "9"
+    pages: ""
+    role_in_book: "Characterization of solution spaces of homogeneous linear equations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

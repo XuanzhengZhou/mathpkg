@@ -1,0 +1,23 @@
+id: embedding-theorem-for-linear-topological-spaces
+title_en: "Embedding Theorem for Linear Topological Spaces"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [embedding, linear-topological-space, pseudo-metrizable, product-space]
+depends_on:
+  required: [linear-topological-space, pseudo-metrizable-space, embedding-lemma, metrization-theorem]
+  recommended: [product-topology]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "6"
+    section: "6.9"
+    pages: ""
+    role_in_book: "General embedding result: every linear topological space embeds into a product of pseudo-metrizable spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,9 @@
+The \text{Cayley algebra} $\mathfrak{C}$ is the 8-dimensional $F$-vector space consisting of all $2 \times 2$ matrices of the form
+$$\begin{pmatrix} a & v \\ w & b \end{pmatrix}$$
+where $a, b \in F$, $v, w \in F^3$, with multiplication defined by
+$$\begin{pmatrix} a & v \\ w & b \end{pmatrix} \begin{pmatrix} a' & v' \\ w' & b' \end{pmatrix} =
+\begin{pmatrix} aa' - v \cdot w' & av' + b'v + w \times w' \\ a'w + bw' + v \times v' & bb' - w \cdot v' \end{pmatrix}$$
+where $\cdot$ and $\times$ denote the usual dot product and cross product on $F^3$. A basis is given by
+$$c_1 = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix},\; c_2 = \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix},\;
+c_{2+i} = \begin{pmatrix} 0 & e_i \\ 0 & 0 \end{pmatrix},\; c_{5+i} = \begin{pmatrix} 0 & 0 \\ e_i & 0 \end{pmatrix}\quad(i=1,2,3).$$
+The element $c_1 + c_2$ acts as the identity. The subspace $\mathfrak{C}_o$ spanned by all commutators $cc' - c'c$ has codimension one, with basis $(c_1 - c_2, c_3, c_4, c_5, c_6, c_7, c_8)$.

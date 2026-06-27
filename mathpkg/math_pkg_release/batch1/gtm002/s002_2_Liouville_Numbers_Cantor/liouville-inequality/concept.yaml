@@ -1,0 +1,17 @@
+id: liouville-inequality
+title_en: "Liouville's Inequality for Algebraic Numbers"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: diophantine-approximation
+difficulty: intermediate
+tags: [liouville, diophantine-approximation, algebraic-numbers, rational-approximation, transcendence]
+depends_on:
+  required: [algebraic-number, degree-of-algebraic-number]
+  recommended: [mean-value-theorem]
+  suggested: [polynomial]
+source_books:
+  - {book_id: "gtm002", author: "John C. Oxtoby", title: "Measure and Category", chapter: "1", section: "2", pages: "15-16", role_in_book: "Lemma 2.2; the key estimate that bounds how well an algebraic number can be approximated by rationals, used to prove Liouville numbers are transcendental"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

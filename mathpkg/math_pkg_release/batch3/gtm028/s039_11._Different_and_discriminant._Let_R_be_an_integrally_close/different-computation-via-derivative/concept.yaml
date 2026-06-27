@@ -1,0 +1,23 @@
+id: different-computation-via-derivative
+title_en: "Computation of the Different via the Derivative of the Minimal Polynomial"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [different, derivative, minimal-polynomial, dedekind-domain, integral-basis]
+depends_on:
+  required: [different, minimal-polynomial, integral-basis]
+  recommended: [lagrange-interpolation, trace-formula]
+  suggested: [dedekinds-different-theorem]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "11"
+    pages: ""
+    role_in_book: "Theorem 29: when R' = R[y] for some y, the different equals (F'(y)) where F is the minimal polynomial of y"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

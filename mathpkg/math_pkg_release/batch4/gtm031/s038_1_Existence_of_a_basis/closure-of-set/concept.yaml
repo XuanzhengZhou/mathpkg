@@ -1,0 +1,23 @@
+id: closure-of-set
+title_en: "Closure of a Set in a Topological Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [closure, topology, closed-set, limit-point]
+depends_on:
+  required: [topological-space, closed-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "The closure Cl S of a subset S is the intersection of all closed sets containing S, equivalently the set of points p such that every neighborhood of p has non-empty intersection with S."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

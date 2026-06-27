@@ -1,0 +1,23 @@
+id: mathcal-e-group
+title_en: "The Group $\mathcal{E}(L)$"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [strongly-ad-nilpotent, inner-automorphism, mathcal-e, conjugacy]
+depends_on:
+  required: [cartan-subalgebra, ad-nilpotent]
+  recommended: [inner-automorphism-group, generalized-eigenspace]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "16"
+    section: "16.1"
+    pages: "91-101"
+    role_in_book: "Definition of the subgroup of inner automorphisms used for conjugacy theorems; has better functorial properties than Int L"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

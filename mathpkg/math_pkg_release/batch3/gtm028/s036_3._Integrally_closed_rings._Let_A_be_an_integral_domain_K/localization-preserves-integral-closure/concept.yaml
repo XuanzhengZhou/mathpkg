@@ -1,0 +1,23 @@
+id: localization-preserves-integral-closure
+title_en: "Localization Preserves Integral Closure"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: [localization, integrally-closed, quotient-ring, integral-closure]
+depends_on:
+  required: [integrally-closed-domain, localization, quotient-ring]
+  recommended: [integral-element]
+  suggested: [multiplicative-system]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "3"
+    pages: ""
+    role_in_book: "Example 2: localization of an integrally closed ring remains integrally closed"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

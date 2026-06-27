@@ -1,0 +1,23 @@
+id: yoneda-lemma
+title_en: "Yoneda Lemma"
+title_zh: ""
+type: lemma
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [yoneda-lemma, natural-transformation, representable-functor]
+depends_on:
+  required: [functor, natural-transformation, hom-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "III"
+    section: "2"
+    pages: ""
+    role_in_book: "Fundamental lemma: Nat(D(r,-), K) ≅ Kr"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

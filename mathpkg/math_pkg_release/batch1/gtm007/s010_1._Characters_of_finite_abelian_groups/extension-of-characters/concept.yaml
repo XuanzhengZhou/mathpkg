@@ -1,0 +1,23 @@
+id: extension-of-characters
+title_en: "Extension of Characters from a Subgroup"
+title_zh: "子群特征标的延拓"
+type: proposition
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [character-extension, finite-abelian-group, subgroup]
+depends_on:
+  required: [character-of-finite-abelian-group]
+  recommended: [dual-group-of-finite-abelian-group]
+  suggested: []
+source_books:
+  - book_id: gtm007
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VI"
+    section: "§1.1"
+    pages: ""
+    role_in_book: "Ensures characters can always be lifted from a subgroup to the whole group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

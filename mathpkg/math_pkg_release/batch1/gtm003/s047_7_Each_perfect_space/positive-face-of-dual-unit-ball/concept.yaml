@@ -1,0 +1,23 @@
+id: positive-face-of-dual-unit-ball
+title_en: "Positive Face of the Dual Unit Ball"
+title_zh: "对偶单位球的正端面"
+type: definition
+domain: analysis
+subdomain: banach-lattices
+difficulty: advanced
+tags: [dual-space, unit-ball, positive-cone, extreme-points, weak-topology]
+depends_on:
+  required: []
+  recommended: [am-space-with-unit, dual-cone, weak-topology]
+  suggested: [kakutanis-am-space-representation]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "V: Order Structures"
+    section: "8. Stone-Weierstrass and Representation Theorems"
+    pages: ""
+    role_in_book: "defines the set of positive normalized functionals, used in Kakutani's representation theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+If $A$ and $B$ are $L$-structures with domains $A$ and $B$ correspondingly, an embedding $h : A \rightarrow B$ is a map $A \rightarrow B$ that preserves the symbols of relations, operations, and constants of $L$, that is,
+
+\begin{enumerate}
+\item[(i)] for any $n$-ary relation symbol $p \in L$ and $a_1, \ldots, a_n \in A$,
+$$A \vDash p(a_1, \ldots, a_n) \quad \text{iff} \quad B \vDash p(h(a_1), \ldots, h(a_n));$$
+
+\item[(ii)] for any $n$-ary operation symbol $f \in L$ and $a_1, \ldots, a_n, a \in A$,
+$$A \vDash f(a_1, \ldots, a_n) = a \quad \text{iff} \quad B \vDash f(h(a_1), \ldots, h(a_n)) = h(a);$$
+
+\item[(iii)] for any constant symbol $c \in L$ and $a \in A$,
+$$A \vDash c^A = a \quad \text{iff} \quad B \vDash c^B = h(a),$$
+where $c^A$ stands for the interpretation of $c$ in the structure $A$.
+\end{enumerate}

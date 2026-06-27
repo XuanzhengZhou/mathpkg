@@ -1,0 +1,23 @@
+id: kam-fixed-points-mappings
+title_en: "KAM Theorem for Fixed Points of Symplectic Mappings"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: hamiltonian-mechanics
+difficulty: advanced
+tags: [KAM-theory, fixed-points, symplectic-mappings, birkhoff-normal-form, invariant-tori, stability]
+depends_on:
+  required: [nondegeneracy-condition]
+  recommended: [kam-symplectic-mappings, kam-equilibrium-autonomous]
+  suggested: [birkhoff-normal-form, symplectic-map]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnol'd"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 8"
+    section: "D.6"
+    pages: ""
+    role_in_book: "KAM variant for fixed points of canonical/symplectic mappings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

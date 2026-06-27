@@ -1,0 +1,23 @@
+id: deduction-finite-conjunction
+title_en: "Deduction from Finite Set via Conjunction (Corollary 10.88)"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: predicate-logic
+difficulty: intermediate
+tags: [deduction, finite-set, conjunction, sentence, predicate-calculus, formal-proof]
+depends_on:
+  required: [deduction-theorem-generalized, sentence]
+  recommended: [properties-of-deducibility]
+  suggested: [conjunction]
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.10"
+    pages: ""
+    role_in_book: "Characterizes deduction from a finite set of sentences in terms of a single conjunctive implication"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

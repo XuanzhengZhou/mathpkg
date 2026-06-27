@@ -1,0 +1,23 @@
+id: units-in-quotient-ring-characterization
+title_en: "Characterization of Units in a Quotient Ring"
+title_zh: "商环中单位的刻画"
+type: proposition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: [localization, unit, quotient-ring, divisor, saturation]
+depends_on:
+  required: [quotient-ring-with-respect-to-multiplicative-system, multiplicative-system]
+  recommended: [unit, regular-element, divisor]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Volume I"
+    chapter: "I"
+    section: "20. Quotient rings with respect to multiplicative systems"
+    pages: "58-60"
+    role_in_book: "Characterizes which elements of R become invertible in R_M"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,11 @@
+Let $G$ be a (directed) graph. There exists a category $C = C_G$ and a morphism $P : G \to UC$ of graphs with the following universal property: for any category $B$ and any morphism $D : G \to UB$ of graphs, there exists a unique functor $D' : C \to B$ such that $D = UD' \circ P$. That is, the diagram
+\[
+\begin{array}{ccc}
+G & \xrightarrow{P} & UC \\
+& \searrow{D} & \downarrow{U D'} \\
+& & UB
+\end{array}
+\]
+commutes. Equivalently, $P : G \to UC$ is an initial object in the comma category $(G \downarrow U)$. The resulting bijection
+$$\text{Cat}(C_G, B) \cong \text{Grph}(G, UB)$$
+is natural in $G$ and $B$, establishing that the free category functor $C : \text{Grph} \to \text{Cat}$ is left adjoint to the forgetful functor $U : \text{Cat} \to \text{Grph}$.

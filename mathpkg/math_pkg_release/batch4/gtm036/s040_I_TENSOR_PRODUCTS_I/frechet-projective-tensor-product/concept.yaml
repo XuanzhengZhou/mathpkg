@@ -1,0 +1,23 @@
+id: frechet-projective-tensor-product
+title_en: "Projective Tensor Product of Metrizable Spaces is Fréchet"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [tensor-product, projective-topology, frechet-space, metrizable, barrelled-space]
+depends_on:
+  required: [projective-tensor-product-completion, algebraic-tensor-product-via-bilinear-forms]
+  recommended: [frechet-space, barrelled-space, metrizable-locally-convex-space, completion-of-topological-vector-space]
+  suggested: [projective-tensor-product-topology]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "I"
+    section: "I TENSOR PRODUCTS I"
+    pages: ""
+    role_in_book: "States that the completed projective tensor product preserves the Fréchet property and, under an additional barrelledness hypothesis, the barrelled property."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: selfadjoint-pseudo-euclidean-eigenvectors
+title_en: "Existence of Orthonormal Eigenvectors for Selfadjoint Maps in Pseudo-Euclidean Spaces"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: pseudo-euclidean-geometry
+difficulty: advanced
+tags: [selfadjoint, eigenvectors, pseudo-euclidean, orthonormal-basis, spectral-theorem]
+depends_on:
+  required: [pseudo-euclidean-space, selfadjoint-linear-transformation]
+  recommended: [orthonormal-basis-pseudo-euclidean, light-cone, symmetric-bilinear-forms-pairs-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "4"
+    pages: ""
+    role_in_book: "Generalizes the spectral theorem to pseudo-Euclidean spaces under a non-vanishing condition on light-vectors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

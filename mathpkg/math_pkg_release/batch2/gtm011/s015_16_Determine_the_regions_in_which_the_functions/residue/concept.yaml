@@ -1,0 +1,23 @@
+id: residue
+title_en: "Residue"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [residue, laurent-series, isolated-singularity]
+depends_on:
+  required: []
+  recommended: [laurent-expansion, isolated-singularity]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "V"
+    section: "§2. Residues"
+    pages: ""
+    role_in_book: "Definition 2.1 — defines the residue as the coefficient a_{-1} in the Laurent expansion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

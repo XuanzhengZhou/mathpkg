@@ -1,0 +1,23 @@
+id: absolutely-continuous-measure
+title_en: "Absolutely Continuous Measure"
+title_zh: "绝对连续测度"
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-theory, absolute-continuity, radon-nikodym]
+depends_on:
+  required: [signed-measure]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "VI"
+    section: "30"
+    pages: ""
+    role_in_book: "A measure that vanishes on sets where a reference measure vanishes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

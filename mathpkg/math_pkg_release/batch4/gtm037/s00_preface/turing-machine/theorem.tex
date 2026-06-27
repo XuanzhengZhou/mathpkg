@@ -1,0 +1,25 @@
+A \text{Turing machine} is a matrix of the form
+\[
+\begin{array}{cccc}
+c_1 & 0 & v_1 & d_1 \\
+c_1 & 1 & v_2 & d_2 \\
+c_2 & 0 & v_3 & d_3 \\
+c_2 & 1 & v_4 & d_4 \\
+\vdots & \vdots & \vdots & \vdots \\
+c_n & 0 & v_{2n-1} & d_{2n-1} \\
+c_n & 1 & v_{2n} & d_{2n} \\
+\vdots & \vdots & \vdots & \vdots \\
+c_m & 0 & v_{2m-1} & d_{2m-1} \\
+c_m & 1 & v_{2m} & d_{2m}
+\end{array}
+\]
+where $c_1, \ldots, c_m$ are distinct members of $\omega$, $v_1, \ldots, v_{2m} \in \{0, 1, 2, 3, 4\}$, and $d_1, \ldots, d_{2m} \in \{c_1, \ldots, c_m\}$. $c_1, \ldots, c_m$ are called \text{states}. $c_1$ is called the \text{initial state} of the machine.
+
+A row $c_i \; \varepsilon \; v_j \; d_j$ of this matrix gives the following information: when the machine is in state $c_i$ and scans the symbol $\varepsilon$ on the tape, it takes action $v_j$ and then moves into state $d_j$. The action given by $v_j$ is:
+\begin{align*}
+v_j = 0 &: \text{write } 0 \text{ on scanned square}; \\
+v_j = 1 &: \text{write } 1 \text{ on scanned square}; \\
+v_j = 2 &: \text{move tape one square to the right}; \\
+v_j = 3 &: \text{move tape one square to the left}; \\
+v_j = 4 &: \text{stop}.
+\end{align*}

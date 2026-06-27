@@ -1,0 +1,23 @@
+id: cyclotomic-units-generate-group-ring
+title_en: "Cyclotomic Units Generate the Group Ring"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: intermediate
+tags: [cyclotomic-units, group-ring, generators, universal-distribution]
+depends_on:
+  required: [cyclotomic-units, torsion-free-group-ring]
+  recommended: [group-ring, stickelberger-ideal]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "3. Cyclotomic Units as a Universal Distribution"
+    pages: ""
+    role_in_book: "Theorem 3.4: Cyclotomic unit elements generate the integral group ring as a module"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: transitive-automorphisms-exist-and-are-residual
+title_en: "Existence and Residuality of Transitive Automorphisms of the Unit Square"
+title_zh: "单位正方形上传递自同构的存在性与剩余性"
+type: theorem
+domain: topology
+subdomain: dynamical-systems
+difficulty: advanced
+tags: [transitive-automorphism, dense-gdelta, Baire-category, measure-preserving, unit-square, metrical-transitivity]
+depends_on:
+  required: [transitive-automorphism, dense-positive-semiorbit-residual, Baire-category-theorem]
+  recommended: [measure-preserving-automorphism, uniform-metric, topological-completeness]
+  suggested: [recurrent-points, Theorem-17.3]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "18"
+    section: "Transitive Transformations"
+    pages: ""
+    role_in_book: "Main theorem establishing existence of transitive automorphisms via the category method"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

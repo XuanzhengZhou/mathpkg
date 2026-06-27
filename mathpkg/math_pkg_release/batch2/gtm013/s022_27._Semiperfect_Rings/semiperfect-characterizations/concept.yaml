@@ -1,0 +1,23 @@
+id: semiperfect-characterizations
+title_en: "Basic Characterizations of Semiperfect Rings"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: advanced
+tags: [semiperfect-ring, projective-cover, local-ring, idempotent]
+depends_on:
+  required: [semiperfect-ring, projective-cover]
+  recommended: [local-ring, simple-module]
+  suggested: [complete-orthogonal-set-of-idempotents]
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "27. Semiperfect Rings"
+    pages: ""
+    role_in_book: "Theorem 27.6 — fundamental characterizations of semiperfect rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

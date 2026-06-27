@@ -1,0 +1,23 @@
+id: structure-of-general-semilinear-group
+title_en: "Structure of the General Semi-linear Group"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [gamma-l, general-linear-group, semilinear-group, semidirect-product, skewfield, automorphism-group]
+depends_on:
+  required: [semi-linear-transformation, linear-transformation-over-skewfield, general-linear-group]
+  recommended: [skewfield, automorphism-of-skewfield]
+  suggested: [semidirect-product-of-groups]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I"
+    section: "4. Vector Spaces"
+    pages: ""
+    role_in_book: "Result 1.21 -- Structure theorem for the semi-linear group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

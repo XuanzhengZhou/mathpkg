@@ -1,0 +1,23 @@
+id: least-upper-bound
+title_en: "Least Upper Bound (Supremum)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: lattice-theory
+difficulty: basic
+tags: [least-upper-bound, supremum, l.u.b., partially-ordered-set, poset, order-theory]
+depends_on:
+  required: [upper-bound]
+  recommended: [partially-ordered-set]
+  suggested: [greatest-lower-bound, lattice]
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "Chapter VII"
+    section: "2. Lattices"
+    pages: ""
+    role_in_book: "Fundamental definition for lattice theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

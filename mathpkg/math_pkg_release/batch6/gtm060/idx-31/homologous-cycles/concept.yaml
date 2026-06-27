@@ -1,0 +1,13 @@
+id: homologous-cycles
+title_en: "Homologous Cycles"
+title_zh: "同调循环"
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [homology, cycles, boundary, poincare, equivalence-relation]
+depends_on: {required:[cycle-on-manifold, boundary-of-chain], recommended:[chain-on-manifold], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"Appendix 3",section:"Cohomology and homology",pages:"",role_in_book:"Definition — Poincaré called two cycles a and b homologous if a - b is a boundary"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

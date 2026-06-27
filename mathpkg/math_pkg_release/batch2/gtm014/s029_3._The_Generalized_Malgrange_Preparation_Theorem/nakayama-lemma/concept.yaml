@@ -1,0 +1,23 @@
+id: nakayama-lemma
+title_en: "Nakayama's Lemma"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [nakayama, local-ring, finitely-generated-module, maximal-ideal, determinant-trick]
+depends_on:
+  required: [germ-of-smooth-function, smooth-germs-form-local-ring]
+  recommended: [finitely-generated-module, matrix-determinant-over-commutative-ring]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "3. The Generalized Malgrange Preparation Theorem"
+    pages: ""
+    role_in_book: "Key algebraic lemma used to prove the Generalized Malgrange Preparation Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

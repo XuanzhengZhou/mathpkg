@@ -1,0 +1,14 @@
+The following two types of abstract systems are equivalent: Boolean algebra, Boolean ring with identity.
+
+Explicitly:
+\begin{enumerate}
+\item Given a Boolean algebra $B$ with operations $\cup$, $\cap$, $'$, define
+$$a + b = (a \cap b') \cup (a' \cap b), \quad a \cdot b = a \cap b.$$
+Then $(B, +, \cdot)$ is a Boolean ring with identity $1$.
+
+\item Given a Boolean ring $\mathfrak{B}$ with identity $1$, define
+$$a \cup b = a + b - ab, \quad a \cap b = ab, \quad a' = 1 - a.$$
+Then $(\mathfrak{B}, \cup, \cap, ')$ is a Boolean algebra.
+
+\item These two constructions are inverses of each other.
+\end{enumerate}

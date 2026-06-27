@@ -1,0 +1,23 @@
+id: dolbeault-lemma-on-stein-manifolds
+title_en: "d''-Poincaré Lemma on Stein Manifolds"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: several-complex-variables
+difficulty: advanced
+tags: [stein-manifold, d-bar, dolbeault-cohomology, cartan-theorem-b, vanishing-cohomology]
+depends_on:
+  required: [dolbeault-isomorphism-theorem]
+  recommended: [stein-manifold, cartan-theorem-b]
+  suggested: []
+source_books:
+  - book_id: "gtm038"
+    author: "Grauert, H.; Fritzsche, K."
+    title: "Several Complex Variables"
+    chapter: "VII"
+    section: "5. Fine Sheaves (Theorems of Dolbeault and de Rham)"
+    pages: "196-197"
+    role_in_book: "Shows that on Stein manifolds, every d''-closed (p,q)-form with q>=1 is d''-exact"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

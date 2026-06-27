@@ -1,0 +1,23 @@
+id: bilinear-space
+title_en: "Bilinear Space"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: bilinear-forms
+difficulty: basic
+tags: [bilinear-form, bilinear-space, vector-space]
+depends_on:
+  required: [bilinear-form]
+  recommended: [vector-space]
+  suggested: []
+source_books:
+  - book_id: gtm049
+    author: "Gruenberg; Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Introduces the pair (V, σ) as a bilinear space, the fundamental object for studying bilinear forms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

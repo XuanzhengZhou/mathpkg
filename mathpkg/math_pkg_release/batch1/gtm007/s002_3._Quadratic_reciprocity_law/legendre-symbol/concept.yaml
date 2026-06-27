@@ -1,0 +1,23 @@
+id: legendre-symbol
+title_en: "Definition: Legendre symbol"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: quadratic-residues
+difficulty: basic
+tags: [legendre-symbol, quadratic-residue, finite-fields, multiplicative-character]
+depends_on:
+  required: [squares-in-finite-fields]
+  recommended: [finite-fields, group-homomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "I"
+    section: "§3.2"
+    pages: ""
+    role_in_book: "Defines the Legendre symbol as the quadratic residue character mod p; central object in quadratic reciprocity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

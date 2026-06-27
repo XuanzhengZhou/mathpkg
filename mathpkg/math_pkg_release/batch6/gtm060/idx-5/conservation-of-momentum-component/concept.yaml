@@ -1,0 +1,23 @@
+id: conservation-of-momentum-component
+title_en: "Conservation of a Component of Momentum"
+title_zh: "动量分量的守恒"
+type: corollary
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: basic
+tags: [momentum-conservation, component, external-forces]
+depends_on:
+  required: [rate-of-change-of-momentum]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "10"
+    pages: "55-67"
+    role_in_book: "Corollary: if external forces are perpendicular to a direction, that component of momentum is conserved"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

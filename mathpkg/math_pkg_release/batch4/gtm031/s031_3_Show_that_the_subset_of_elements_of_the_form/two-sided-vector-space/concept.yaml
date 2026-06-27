@@ -1,0 +1,23 @@
+id: two-sided-vector-space
+title_en: "Two-Sided Vector Space"
+title_zh: "双边向量空间"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [vector-space, two-sided, division-ring, left-multiplication, right-multiplication]
+depends_on:
+  required: []
+  recommended: [vector-space, left-vector-space, right-vector-space]
+  suggested: [direct-product-of-vector-spaces]
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "II"
+    section: "3"
+    pages: "215-218"
+    role_in_book: "Introduces two-sided vector spaces to make direct products of vector spaces into vector spaces rather than mere groups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

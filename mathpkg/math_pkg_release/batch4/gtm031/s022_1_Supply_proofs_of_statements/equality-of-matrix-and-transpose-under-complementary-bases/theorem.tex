@@ -1,0 +1,18 @@
+---
+role: statement
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $\mathfrak{R}_1$ and $\mathfrak{R}_2$ be vector spaces over a division ring $\Delta$, and let $\mathfrak{R}_i'$ be dual to $\mathfrak{R}_i$ relative to non-degenerate bilinear forms $g_i$, $i = 1, 2$. Let $(e_1, e_2, \dots, e_{n_1})$ be a basis for $\mathfrak{R}_1$ and $(e_1', e_2', \dots, e_{n_1}')$ the complementary basis in $\mathfrak{R}_1'$. Similarly, let $(f_1, f_2, \dots, f_{n_2})$ be a basis for $\mathfrak{R}_2$ and $(f_1', f_2', \dots, f_{n_2}')$ the complementary basis in $\mathfrak{R}_2'$.
+
+Let $A : \mathfrak{R}_1 \to \mathfrak{R}_2$ be a linear transformation with matrix $(\alpha_{ik})$ relative to the bases $\{e_i\}$ and $\{f_k\}$:
+$$e_i A = \sum_{k=1}^{n_2} \alpha_{ik} f_k, \quad i = 1, 2, \dots, n_1.$$
+
+Let $A' : \mathfrak{R}_2' \to \mathfrak{R}_1'$ be the transpose of $A$ with matrix $(\alpha_{jl}')$ relative to the complementary bases $\{f_l'\}$ and $\{e_j'\}$:
+$$f_l' A' = \sum_{j=1}^{n_1} e_j' \alpha_{jl}', \quad l = 1, 2, \dots, n_2.$$
+
+Then the adjoint relation
+$$g_2(e_i A, f_l') = g_1(e_i, f_l' A')$$
+implies $\alpha_{il} = \alpha_{il}'$ for all $i, l$. Consequently, if complementary bases are used in the dual spaces, the matrix of a transformation $A$ and the matrix of its transpose $A'$ are equal.

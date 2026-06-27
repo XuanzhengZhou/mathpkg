@@ -1,0 +1,13 @@
+id: absolute-difference-is-primitive-recursive
+title_en: "Absolute Difference is Primitive Recursive"
+title_zh: "绝对差是原始递归的"
+type: lemma
+domain: logic
+subdomain: recursive-function-theory
+difficulty: basic
+tags: [primitive-recursive, absolute-difference, arithmetic]
+depends_on: {required: [addition-is-primitive-recursive], recommended: [subtraction-is-primitive-recursive], suggested: []}
+source_books: [{book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "1", section: "Recursive Function Theory", pages: "43-46", role_in_book: "Demonstration that absolute difference is primitive recursive via composition of truncated subtraction"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

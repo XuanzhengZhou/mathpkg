@@ -1,0 +1,23 @@
+id: topological-nilpotent
+title_en: "Topological Nilpotent"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: spectral-theory
+difficulty: basic
+tags: [topological-nilpotent, spectral-radius, banach-algebra, entire-function]
+depends_on:
+  required: [spectral-radius-limit-formula, spectrum-resolvent-and-spectral-radius]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "Appendix"
+    section: "1. Elementary Properties of the Resolvent"
+    pages: ""
+    role_in_book: "Defines topological nilpotents as operators with vanishing spectral radius"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

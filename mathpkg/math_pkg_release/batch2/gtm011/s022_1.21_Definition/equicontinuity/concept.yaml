@@ -1,0 +1,23 @@
+id: equicontinuity
+title_en: "Equicontinuity"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [equicontinuity, function-spaces, compact-convergence, uniform-continuity]
+depends_on:
+  required: [continuity, uniform-continuity, metric-space]
+  recommended: [compact-set]
+  suggested: [arzela-ascoli-theorem]
+source_books:
+  - book_id: gtm011
+    author: "Conway, John B."
+    title: "Functions of One Complex Variable I"
+    chapter: "1"
+    section: "1.21"
+    pages: ""
+    role_in_book: "Definition 1.21"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: linear-maps-finite-dim-continuous
+title_en: "Continuity of Linear Maps Between Finite-Dimensional Real Vector Spaces"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [vector-space, linear-map, continuity, finite-dimensional]
+depends_on:
+  required: [unique-topology-finite-dim, linear-mapping]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "1"
+    section: "1.22"
+    pages: ""
+    role_in_book: "Every linear map between finite-dim real vector spaces is continuous"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

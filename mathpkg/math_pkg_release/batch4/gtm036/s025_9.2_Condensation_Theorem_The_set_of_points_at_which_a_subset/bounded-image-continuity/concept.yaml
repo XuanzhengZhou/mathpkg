@@ -1,0 +1,23 @@
+id: bounded-image-continuity
+title_en: "Bounded Image Implies Continuity"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [additive-map, continuity, open-mapping, bounded-set, condition-of-baire]
+depends_on:
+  required: [continuity-and-openness-theorem, condition-of-baire, bounded-set]
+  recommended: [second-category, linear-topological-space]
+  suggested: [additive-continuity-baire-condition]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley"
+    title: "Linear Topological Spaces"
+    chapter: "10"
+    section: "10.9"
+    pages: ""
+    role_in_book: "Continuity from bounded image of a second category set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

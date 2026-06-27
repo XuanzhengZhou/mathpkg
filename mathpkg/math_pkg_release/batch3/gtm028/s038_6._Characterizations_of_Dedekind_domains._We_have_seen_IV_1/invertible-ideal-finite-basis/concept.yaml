@@ -1,0 +1,23 @@
+id: invertible-ideal-finite-basis
+title_en: "Invertible Ideal has a Finite Basis"
+title_zh: "可逆理想具有有限基"
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [invertible-ideal, finite-basis, module, dedekind-domain]
+depends_on:
+  required: [invertible-fractionary-ideal]
+  recommended: [fractionary-ideal]
+  suggested: [noetherian-ring]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "6"
+    pages: "272"
+    role_in_book: "Lemma 3 of Section 6"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

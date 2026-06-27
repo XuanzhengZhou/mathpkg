@@ -1,0 +1,23 @@
+id: augmentation-homomorphism-group-ring
+title_en: "Augmentation homomorphism on the group ring of the Stickelberger ideal"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: intermediate
+tags: ["group-ring", "augmentation-homomorphism", "stickelberger-ideal"]
+depends_on:
+  required: []
+  recommended: ["group-ring", "integralized-bernoulli-distribution"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "2"
+    section: "Integral Stickelberger Ideals"
+    pages: "48-53"
+    role_in_book: "Defines the augmentation homomorphism deg on the group ring Z[G] used in §3 for Stickelberger ideals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

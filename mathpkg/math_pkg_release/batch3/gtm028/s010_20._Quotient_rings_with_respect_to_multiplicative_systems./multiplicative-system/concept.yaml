@@ -1,0 +1,23 @@
+id: multiplicative-system
+title_en: "Multiplicative System"
+title_zh: "乘法系"
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: [localization, ring-theory, regular-elements]
+depends_on:
+  required: []
+  recommended: [ring, zero-divisor, regular-element]
+  suggested: [total-quotient-ring]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Volume I"
+    chapter: "I"
+    section: "20. Quotient rings with respect to multiplicative systems"
+    pages: "58-60"
+    role_in_book: "Foundational definition for the theory of localization"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

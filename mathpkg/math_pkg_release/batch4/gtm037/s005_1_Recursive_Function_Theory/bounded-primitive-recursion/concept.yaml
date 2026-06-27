@@ -1,0 +1,13 @@
+id: bounded-primitive-recursion
+title_en: "Bounded Primitive Recursion"
+title_zh: "有界原始递归"
+type: proposition
+domain: logic
+subdomain: recursive-function-theory
+difficulty: advanced
+tags: [bounded-primitive-recursion, elementary-functions, primitive-recursion]
+depends_on: {required: [elementary-function, primitive-recursion-schema], recommended: [course-of-values-function, bounded-minimization], suggested: []}
+source_books: [{book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "2", section: "Elementary Recursive and Primitive Recursive Functions", pages: "43-46", role_in_book: "Proposition 2.34: If a function defined by primitive recursion is bounded by an elementary function, then it is elementary"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

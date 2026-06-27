@@ -1,0 +1,23 @@
+id: effective-divisor-dimension-inequality
+title_en: "Dimension inequality for sum of effective divisors on a curve"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: algebraic-curves
+difficulty: advanced
+tags: [effective-divisor, linear-system, curves]
+depends_on:
+  required: []
+  recommended: [complete-linear-system, projective-space-dimension]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "IV"
+    section: "§5"
+    pages: ""
+    role_in_book: "Lemma 5.5 — key inequality used in proof of Clifford's theorem"
+content_hash: "lem55-hash-ghi"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

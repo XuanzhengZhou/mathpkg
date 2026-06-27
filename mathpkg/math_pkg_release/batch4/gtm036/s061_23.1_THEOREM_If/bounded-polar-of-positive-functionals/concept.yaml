@@ -1,0 +1,23 @@
+id: bounded-polar-of-positive-functionals
+title_en: "Boundedness of the Polar of Positive Functionals"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [polar-set, positive-functional, bounded-set, normal-cone, separation-theorem]
+depends_on:
+  required: [normal-cone-characterization]
+  recommended: [polar-set, bipolar-theorem, separation-theorem, positive-functional]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "23.1"
+    pages: ""
+    role_in_book: "Shows that if each functional is a difference of positive functionals, then the polar B_0 is bounded, implying cone normality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

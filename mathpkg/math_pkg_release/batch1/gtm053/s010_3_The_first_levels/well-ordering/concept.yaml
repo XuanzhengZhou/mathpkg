@@ -1,0 +1,23 @@
+id: well-ordering
+title_en: "Well-Ordering"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: order-theory
+difficulty: basic
+tags: [well-order, linear-order, least-element, binary-relation]
+depends_on:
+  required: [linear-ordering]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yuri I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "1"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines well-ordering via irreflexivity, comparability, and least-element property"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

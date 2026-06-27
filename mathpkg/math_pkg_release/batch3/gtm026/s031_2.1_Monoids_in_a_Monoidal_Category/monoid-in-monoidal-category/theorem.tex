@@ -1,0 +1,21 @@
+Let $(\mathcal{K}, \otimes, I, a, b, c)$ be a monoidal category. A \textbf{monoid} in $(\mathcal{K}, \otimes, I, a, b, c)$ is a triple $(K, m, e)$ where $K$ is an object of $\mathcal{K}$ and
+$$m: K \otimes K \to K, \qquad e: I \to K$$
+are $\mathcal{K}$-morphisms subject to the following commutative diagrams:
+
+\textbf{Associativity law:}
+$$
+\begin{CD}
+K \otimes (K \otimes K) @>{a}>> (K \otimes K) \otimes K @>{m \otimes \mathrm{id}}>> K \otimes K \\
+@V{\mathrm{id} \otimes m}VV @. @VV{m}V \\
+K \otimes K @>>{m}> K
+\end{CD}
+$$
+
+\textbf{Unit laws:}
+$$
+\begin{CD}
+I \otimes K @>{e \otimes \mathrm{id}}>> K \otimes K @<{\mathrm{id} \otimes e}<< K \otimes I \\
+@V{b}VV @VV{m}V @VV{c}V \\
+K @= K @= K
+\end{CD}
+$$

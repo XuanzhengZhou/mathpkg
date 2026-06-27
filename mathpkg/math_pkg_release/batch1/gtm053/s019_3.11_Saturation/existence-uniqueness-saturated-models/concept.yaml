@@ -1,0 +1,23 @@
+id: existence-uniqueness-saturated-models
+title_en: "Existence and Uniqueness of Saturated Models"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: ["saturated-models", "existence", "uniqueness", "compactness"]
+depends_on:
+  required: ["kappa-saturated-structure", "complete-theory", "compactness-theorem"]
+  recommended: ["elementary-extension", "type"]
+  suggested: ["back-and-forth-system"]
+source_books:
+  - book_id: "gtm053"
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "3"
+    section: "3.11"
+    pages: ""
+    role_in_book: "Main theorem establishing existence and uniqueness of saturated models"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

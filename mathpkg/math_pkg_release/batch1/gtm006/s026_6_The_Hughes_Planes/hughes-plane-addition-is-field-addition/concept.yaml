@@ -1,0 +1,23 @@
+id: hughes-plane-addition-is-field-addition
+title_en: "Addition in the Hughes Plane Ternary Ring Coincides with Nearfield Addition"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: projective-planes
+difficulty: advanced
+tags: [finite-geometry, non-desarguesian-plane, hughes-plane, planar-ternary-ring, nearfield]
+depends_on:
+  required: [hughes-plane-coordinatization]
+  recommended: [planar-ternary-ring, nearfield]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "9"
+    section: "6"
+    pages: ""
+    role_in_book: "Lemma 9.17 — the ternary operation a⊕b equals a+b in the nearfield N"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

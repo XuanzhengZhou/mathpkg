@@ -1,0 +1,23 @@
+id: harmonic-laplacian
+title_en: "Harmonicity of Real and Imaginary Parts of Analytic Functions"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [harmonic-function, laplacian, cauchy-riemann, analytic-function, laplace-equation]
+depends_on:
+  required: [cauchy-riemann-equations]
+  recommended: [harmonic-function-definition, partial-derivative, continuous-second-partials]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "5"
+    pages: ""
+    role_in_book: "Corollary 2.25 — the real and imaginary parts of an analytic function are harmonic: u_xx + u_yy = 0 and v_xx + v_yy = 0"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

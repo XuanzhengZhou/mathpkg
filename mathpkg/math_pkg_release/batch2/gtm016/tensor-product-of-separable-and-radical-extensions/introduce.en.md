@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $k_s/k$ and $k_r/k$ are finite dimensional separable and radical extensions of $k$ respectively, then $\bar{K} = k_s \otimes k_r$ (tensor product of $k$-algebras) is a field extension of $k = 1 \otimes k$.

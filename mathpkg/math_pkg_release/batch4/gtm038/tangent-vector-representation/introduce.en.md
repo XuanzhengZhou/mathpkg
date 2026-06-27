@@ -1,0 +1,1 @@
+Every tangent vector in $\mathbb{C}^n$ is a unique complex-linear combination of $\partial/\partial z_v$ and $\partial/\partial \overline{z}_v$. This decomposition into holomorphic and antiholomorphic parts is fundamental for complex differential geometry.

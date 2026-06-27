@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: IV
+section: '6'
+exercise_number: '16'
+---
+
+Let $\Sigma$ be a finite group with two distinct elements $\alpha, \beta$ each of order 2. Show that $\alpha, \beta$ are conjugate in $\langle\alpha,\beta\rangle$ if and only if $\alpha\beta$ has odd order. If $\alpha\beta$ has even order, show that $\langle\alpha,\beta\rangle$ contains an element $\gamma$ of order 2 such that $\gamma$ commutes with $\alpha$ and $\beta$.

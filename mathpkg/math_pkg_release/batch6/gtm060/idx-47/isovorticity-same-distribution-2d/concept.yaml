@@ -1,0 +1,23 @@
+id: isovorticity-same-distribution-2d
+title_en: "Isovorticity Equivalent to Same Vorticity Distribution in 2D"
+title_zh: "二维等涡量性等价于相同涡度分布"
+type: proposition
+domain: geometry
+subdomain: hydrodynamics
+difficulty: advanced
+tags: [isovorticial, vorticity, distribution-function, 2d-hydrodynamics]
+depends_on:
+  required: [isovorticial-fields, vorticity-2d]
+  recommended: [measure-theory, distribution-function]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 2"
+    section: "Section 47"
+    pages: ""
+    role_in_book: "Characterization of isovorticity in 2D simply connected case by vorticity distribution"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

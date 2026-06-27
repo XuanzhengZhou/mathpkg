@@ -1,0 +1,23 @@
+id: m-basic-model-lemma
+title_en: "Lemma 21.17: Existence of m-basic model elementarily equivalent up to m"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [m-basic-model, equivalence-relation, elementary-submodel]
+depends_on:
+  required: []
+  recommended: [equivalence-relation, elementary-substructure, automorphism]
+  suggested: [choice-function, cardinality]
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "21"
+    section: "4"
+    pages: ""
+    role_in_book: "Establishes existence of m-basic submodels for models of Gamma_equiv with bounded equivalence class size"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

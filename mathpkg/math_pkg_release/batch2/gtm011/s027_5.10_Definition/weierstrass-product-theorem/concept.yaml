@@ -1,0 +1,23 @@
+id: weierstrass-product-theorem
+title_en: "Weierstrass Product Theorem (Entire Function with Prescribed Zeros)"
+title_zh: "Weierstrass 乘积定理（具有指定零点的整函数）"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [weierstrass, infinite-product, entire-function, prescribed-zeros, elementary-factor]
+depends_on:
+  required: [elementary-factor, elementary-factor-inequality]
+  recommended: [infinite-product-convergence, entire-function]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "5"
+    section: "5.12"
+    pages: ""
+    role_in_book: "Core existence theorem for constructing entire functions with prescribed zeros"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

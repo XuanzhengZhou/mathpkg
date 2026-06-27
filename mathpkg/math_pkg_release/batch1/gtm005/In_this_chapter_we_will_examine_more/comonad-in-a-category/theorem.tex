@@ -1,0 +1,17 @@
+A \text{comonad} in a category $A$ consists of a functor $L: A \to A$ and natural transformations
+$$
+\varepsilon: L \to I_A, \qquad \delta: L \to L^2
+$$
+which render commutative the diagrams
+$$
+\begin{array}{ccc}
+L & \xrightarrow{\delta} & L^2 \\
+{\scriptstyle \delta}\downarrow & & \downarrow{\scriptstyle L\delta} \\
+L^2 & \xrightarrow{\delta L} & L^3
+\end{array}
+\qquad
+\begin{array}{c}
+IL \xleftarrow{\varepsilon L} L^2 \xrightarrow{L\varepsilon} LI
+\end{array}
+$$
+The transformation $\varepsilon$ is the \text{counit} and $\delta$ the \text{comultiplication} of the comonad.

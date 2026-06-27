@@ -1,0 +1,23 @@
+id: integral-maxwell-equations
+title_en: "Integral Form of Maxwell's Equations"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: general-relativity
+difficulty: advanced
+tags: [maxwell-equations, integral-form, electromagnetic-field, charge-current-density, stokes-theorem]
+depends_on:
+  required: []
+  recommended: [maxwells-equations, electromagnetic-field, metric-volume-element]
+  suggested: [space-section, interior-product, exterior-derivative]
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.7"
+    pages: ""
+    role_in_book: "Proposition 3.7.5. States the integral versions of Maxwell's equations using the metric volume element and interior product."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

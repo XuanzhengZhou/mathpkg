@@ -1,0 +1,23 @@
+id: linearity-condition-for-planar-ternary-ring
+title_en: "Linearity condition for Planar Ternary Ring"
+title_zh: "平面三元环的线性条件"
+type: theorem
+domain: geometry
+subdomain: projective-planes
+difficulty: intermediate
+tags: [planar-ternary-ring, linearity, desargues-configuration, coordinatization]
+depends_on:
+  required: [planar-ternary-ring, coordinatizing-projective-plane]
+  recommended: [linear-planar-ternary-ring, desargues-theorem]
+  suggested: [p-l-transitivity]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "VI. Algebraic Properties of Planar Ternary Rings"
+    section: "2. The Condition for Linearity"
+    pages: "138-139"
+    role_in_book: "Gives the first theorem characterizing linearity of a coordinatizing PTR in geometric terms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

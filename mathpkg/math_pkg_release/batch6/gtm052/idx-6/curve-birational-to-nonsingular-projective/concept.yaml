@@ -1,0 +1,23 @@
+id: curve-birational-to-nonsingular-projective
+title_en: "Every Curve is Birationally Equivalent to a Nonsingular Projective Curve"
+title_zh: "每条曲线都双有理等价于一条非奇异射影曲线"
+type: corollary
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [birational-equivalence, nonsingular-curve, projective-curve, resolution-of-singularities]
+depends_on:
+  required: [abstract-curve-is-projective]
+  recommended: [birational-equivalence, function-field]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "6"
+    pages: "64"
+    role_in_book: "Corollary 6.11, resolution of singularities for curves"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

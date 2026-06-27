@@ -1,0 +1,20 @@
+id: finite-additivity-of-probability
+title_en: "Finite Additivity of Probability"
+title_zh: ""
+type: axiom
+domain: probability
+subdomain: foundations
+difficulty: basic
+tags: [probability, additivity, axiom]
+depends_on: {required: [probability-set-function, mutually-exclusive-events, event-union], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX. Probability"
+    section: "44. Heuristic Introduction"
+    pages: ""
+    role_in_book: "If E and F are mutually exclusive (E ∩ F = ∅), then μ(E ∪ F) = μ(E) + μ(F). This is the additivity condition for probability."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

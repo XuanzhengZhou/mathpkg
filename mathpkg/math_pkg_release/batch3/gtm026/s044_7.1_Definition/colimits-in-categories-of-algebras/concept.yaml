@@ -1,0 +1,23 @@
+id: colimits-in-categories-of-algebras
+title_en: "Small colimits in categories of T-algebras over a regular base"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [colimit, regular-category, algebraic-theory, t-algebra, factorization-system, weak-coproduct]
+depends_on:
+  required: [regular-category, algebraic-theory, factorization-colimit-theorem, category-of-algebras]
+  recommended: [colimit, e-m-factorization]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "7"
+    section: "7.1"
+    pages: ""
+    role_in_book: "Corollary 7.9; sufficient conditions for K^T to have small colimits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

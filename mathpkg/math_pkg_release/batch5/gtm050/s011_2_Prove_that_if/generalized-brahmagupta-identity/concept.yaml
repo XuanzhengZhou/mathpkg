@@ -1,0 +1,23 @@
+id: generalized-brahmagupta-identity
+title_en: "Generalized Brahmagupta Identity for the Form x^2 + cy^2"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: basic
+tags: [quadratic-forms, brahmagupta, algebraic-identity, norm-multiplicativity]
+depends_on:
+  required: []
+  recommended: [complex-numbers, ring-theory]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.5"
+    pages: ""
+    role_in_book: "General formula underlying Euler's use of numbers of the form a+b√(-c); the key identity that makes arithmetic in quadratic integer rings work"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

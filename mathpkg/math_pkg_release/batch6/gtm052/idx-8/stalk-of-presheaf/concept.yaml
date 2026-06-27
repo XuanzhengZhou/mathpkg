@@ -1,0 +1,13 @@
+id: stalk-of-presheaf
+title_en: "Stalk of a Presheaf"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [stalk, presheaf, sheaf-theory, direct-limit, germ]
+depends_on: {required: [presheaf-of-abelian-groups], recommended: [direct-limit, topological-space], suggested: [sheaf]}
+source_books: [{book_id: "gtm052", author: "Robin Hartshorne", title: "Algebraic Geometry", chapter: "II", section: "1", pages: "69-81", role_in_book: "Defines the stalk of a presheaf at a point as the direct limit of sections over neighborhoods"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: riemannian-metric
+title_en: "Riemannian Metric"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: basic
+tags: [riemannian-metric, tangent-bundle, metric, smooth-manifold, riemannian-geometry]
+depends_on:
+  required: [metric-on-vector-bundle, tangent-bundle]
+  recommended: [vector-field]
+  suggested: [symmetric-bilinear-form]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "5"
+    section: "5. Vector Bundles"
+    pages: ""
+    role_in_book: "Definition 5.5(4) — defines a Riemannian metric on a smooth manifold"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

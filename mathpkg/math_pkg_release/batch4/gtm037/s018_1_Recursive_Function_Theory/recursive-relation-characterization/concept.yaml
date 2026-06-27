@@ -1,0 +1,23 @@
+id: recursive-relation-characterization
+title_en: "Characterization of Recursive Relations via r.e. Complement"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: recursion-theory
+difficulty: intermediate
+tags: ["recursive-relation", "recursively-enumerable", "complement", "characterization"]
+depends_on:
+  required: ["recursive-set-characterization"]
+  recommended: ["recursive-relation-definition", "r.e.-relation-definition"]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "Joseph R. Shoenfield"
+    title: "Mathematical Logic"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Generalizes Post's theorem from sets to multi-ary relations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

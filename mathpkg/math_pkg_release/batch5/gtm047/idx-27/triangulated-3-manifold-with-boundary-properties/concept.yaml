@@ -1,0 +1,23 @@
+id: triangulated-3-manifold-with-boundary-properties
+title_en: "Properties of triangulated 3-manifolds with boundary"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [triangulated-3-manifold, boundary, frontier, invariance-of-domain]
+depends_on:
+  required: [triangulated-3-manifolds-are-combinatorial, boundary-complex-of-triangulated-3-manifold]
+  recommended: [boundary-of-3-manifold-is-2-manifold]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: ""
+    section: "23"
+    pages: ""
+    role_in_book: "Shows that for a triangulated 3-manifold K, the simplicial boundary coincides with the topological boundary."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

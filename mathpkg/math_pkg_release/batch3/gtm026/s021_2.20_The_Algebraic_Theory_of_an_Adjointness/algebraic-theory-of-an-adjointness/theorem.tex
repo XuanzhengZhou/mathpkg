@@ -1,0 +1,21 @@
+Let $(\mathcal{A}, \mathcal{K}, U, F, \eta, \varepsilon)$ be an adjointness. Then $T = FU\colon \mathcal{K} \longrightarrow \mathcal{K}$ is a functor and
+
+$$\text{id}_{\mathcal{K}} \xrightarrow{\eta} T \qquad TT = F(UF)U \xrightarrow{\mu = F\varepsilon U} FU = T$$
+
+are natural transformations. For each object $A$ of $\mathcal{A}$ the diagrams
+
+\[
+\begin{CD}
+A @>{A\eta}>> AUF\\
+@V{A\eta}VV @VV{A\eta T}V\\
+AUF @>{A\eta F}>> AUFU
+\end{CD}
+\qquad
+\begin{CD}
+AUFU @>{A\varepsilon UF}>> AUF\\
+@V{AUF\varepsilon}VV @VV{A\varepsilon}V\\
+AUF @>{A\varepsilon}>> A
+\end{CD}
+\]
+
+are immediate consequences of 2.15, which is reminiscent of 1.4.9 and 1.4.10. Setting $A = KF$ and observing that $\eta T \cdot \mu = (\eta F \cdot F\varepsilon)U = \text{id}_T$, we obtain all the diagrams of 1.3.16; that is $\mathbf{T} = (T, \eta, \mu)$ is an algebraic theory in $\mathcal{K}$. $\mathbf{T}$ is called the algebraic theory induced by the adjointness $(\mathcal{A}, \mathcal{K}, U, F, \eta, \varepsilon)$.

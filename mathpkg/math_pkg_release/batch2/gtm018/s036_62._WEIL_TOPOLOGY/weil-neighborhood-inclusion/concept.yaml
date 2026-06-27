@@ -1,0 +1,23 @@
+id: weil-neighborhood-inclusion
+title_en: "Weil Neighborhood Inclusion in Class A"
+title_zh: "N 类集合包含于 A 类集合"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [weil-topology, haar-measure, measurable-group, topological-group]
+depends_on:
+  required: [class-a-weil-topology, class-n-weil-neighborhood]
+  recommended: [haar-measure-definition, measurable-group-definition]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "62"
+    section: "Weil Topology"
+    pages: ""
+    role_in_book: "Theorem B: For A=EE^{-1} in A, the corresponding N is in N and N subset A"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

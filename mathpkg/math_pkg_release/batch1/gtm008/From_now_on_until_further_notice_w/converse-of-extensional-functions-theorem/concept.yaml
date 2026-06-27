@@ -1,0 +1,23 @@
+id: converse-of-extensional-functions-theorem
+title_en: "Converse of the Extensional Functions Theorem"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [extensional-function, definite-set, uniform-set, boolean-valued-universe, V-B]
+depends_on:
+  required: [extensional-functions-induce-boolean-valued-functions, definite-set, uniform-set-partition-property]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: "164"
+    role_in_book: "Every V^(B) function from definite uniform sets corresponds to a real extensional function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

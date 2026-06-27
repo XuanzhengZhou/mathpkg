@@ -1,0 +1,24 @@
+id: levitzki-theorem
+title_en: "Levitzki's Theorem (Nil Ideals in Left Noetherian Rings are Nilpotent)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: advanced
+tags: [levitzki-theorem, left-noetherian, nil-ideal, nilpotent]
+depends_on:
+  required: [left-noetherian-ring, nil-ideal, nilpotent-ideal]
+  recommended: [jacobson-radical, left-artinian-ring]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "9"
+    section: "15"
+    pages: ""
+    role_in_book: "Theorem 15.22 (Levitzki)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"
+note: "OCR text is severely truncated; only the beginning of the statement is present. The standard Levitzki theorem states: If R is left noetherian, then every nil one-sided ideal of R is nilpotent."

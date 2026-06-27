@@ -1,0 +1,23 @@
+id: characterization-of-bidual
+title_en: "Characterization of the Bidual as a Subspace of the Algebraic Dual (Theorem 5.4)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [bidual, algebraic-dual, strong-topology, locally-convex-space, equicontinuous]
+depends_on:
+  required: [bidual-and-canonical-imbedding, strong-topology-and-strong-dual, equicontinuous-set]
+  recommended: [locally-convex-space, polar-set]
+  suggested: [reflexive-space]
+source_books:
+  - book_id: gtm003
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "5"
+    pages: "146-156"
+    role_in_book: "Characterizes elements of the bidual E'' in terms of continuity with respect to the strong topology on E'"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

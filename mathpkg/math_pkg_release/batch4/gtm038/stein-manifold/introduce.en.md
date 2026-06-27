@@ -1,0 +1,1 @@
+A Stein manifold is the higher-dimensional analogue of a non-compact Riemann surface. Stein manifolds are the natural domains for global function theory in several complex variables, characterized by having many holomorphic functions.

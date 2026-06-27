@@ -1,0 +1,1 @@
+Oka's theorem solves the Levi problem for Riemann domains: pseudoconvexity implies holomorphic convexity, which implies the existence of a holomorphic function that cannot be extended. This is one of the deepest results in several complex variables.

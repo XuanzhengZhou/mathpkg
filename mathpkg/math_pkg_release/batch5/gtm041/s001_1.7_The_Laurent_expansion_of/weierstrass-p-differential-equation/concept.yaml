@@ -1,0 +1,23 @@
+id: weierstrass-p-differential-equation
+title_en: "Differential equation for the Weierstrass ℘ function"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: ["weierstrass-p", "elliptic-functions", "differential-equation", "eisenstein-series", "invariants"]
+depends_on:
+  required: ["weierstrass-p-function", "invariants-g2-g3", "laurent-expansion-of-weierstrass-p"]
+  recommended: ["elliptic-function"]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "1"
+    section: "1.8"
+    pages: ""
+    role_in_book: "Fundamental differential equation satisfied by ℘, linking it to the invariants g_2 and g_3"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

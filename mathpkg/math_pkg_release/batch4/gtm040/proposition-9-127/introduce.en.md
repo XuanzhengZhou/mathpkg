@@ -1,0 +1,12 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $P$ be a Markov chain which represents an electric circuit with conductances $c_{ij}$. Then the row vector $\alpha$ defined by
+
+$$\alpha_i = \sum_k c_{ik}$$
+
+is $P$-regular, and the $\alpha$-dual of $P$ is $P$.

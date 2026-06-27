@@ -1,0 +1,23 @@
+id: unitary-equivalence-of-lax-operators
+title_en: "Unitary equivalence of Lax operators and conservation of eigenvalues"
+title_zh: "Lax算子的酉等价与特征值守恒"
+type: corollary
+domain: applied-math
+subdomain: integrable-systems
+difficulty: advanced
+tags: [lax-pair, unitary-equivalence, isospectral, first-integral, kdv]
+depends_on:
+  required: [lax-representation-kdv]
+  recommended: [sturm-liouville-theory]
+  suggested: [inverse-scattering-transform, spectral-theory]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "The Korteweg–de Vries equation"
+    pages: ""
+    role_in_book: "States that eigenvalues of the Sturm-Liouville operator L are first integrals of the KdV equation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

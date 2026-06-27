@@ -1,0 +1,23 @@
+id: frenet-equations-plane-curves
+title_en: "Frenet Equations for Plane Curves"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-geometry
+difficulty: basic
+tags: [frenet-frame, plane-curves, curvature, curve-theory]
+depends_on:
+  required: [frenet-frame, ith-curvature-distinguished-frenet-frame]
+  recommended: [parametrized-curve]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Thierry Aubin"
+    title: "A Course in Differential Geometry"
+    chapter: "1"
+    section: "1.4"
+    pages: "25-29"
+    role_in_book: "Specialization of the Frenet equations to plane curves (n=2)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: semisimple-set-of-transformations
+title_en: "Semisimple Set of Linear Transformations"
+title_zh: "半单线性变换集"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [semisimple-transformation, set-of-transformations]
+  recommended: [stable-subspace, complementary-subspace]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "6"
+    pages: ""
+    role_in_book: "A set of transformations is semisimple if to every common stable subspace there is a common complementary one"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

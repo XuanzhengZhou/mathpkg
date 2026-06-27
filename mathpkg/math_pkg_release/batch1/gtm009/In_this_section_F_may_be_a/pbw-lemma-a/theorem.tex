@@ -1,0 +1,8 @@
+Fix an ordered basis $(x_{\lambda}; \lambda \in \Omega)$ of a Lie algebra $L$. This identifies the symmetric algebra $\mathfrak{S}(L)$ with the polynomial algebra in indeterminates $z_{\lambda}$ ($\lambda \in \Omega$). For each sequence $\Sigma = (\lambda_1, \ldots, \lambda_m)$, let $z_{\Sigma} = z_{\lambda_1} \cdots z_{\lambda_m} \in S^m$, and call $\Sigma$ \textit{increasing} if $\lambda_1 \leq \lambda_2 \leq \cdots \leq \lambda_m$. Write $\lambda \leq \Sigma$ if $\lambda \leq \mu$ for all $\mu \in \Sigma$.
+
+For each $m \in \mathbb{Z}^+$, there exists a unique linear map $f_m: L \otimes S_m \to \mathfrak{S}$ satisfying:
+\begin{align*}
+(A_m) &\quad f_m(x_{\lambda} \otimes z_{\Sigma}) = z_{\lambda} z_{\Sigma} \quad \text{for } \lambda \leq \Sigma,\; z_{\Sigma} \in S_m;\\
+(B_m) &\quad f_m(x_{\lambda} \otimes z_{\Sigma}) - z_{\lambda} z_{\Sigma} \in S_k \quad \text{for } k \leq m,\; z_{\Sigma} \in S_k;\\
+(C_m) &\quad f_m(x_{\lambda} \otimes f_m(x_{\mu} \otimes z_T)) = f_m(x_{\mu} \otimes f_m(x_{\lambda} \otimes z_T)) + f_m([x_{\lambda} x_{\mu}] \otimes z_T) \quad \text{for } z_T \in S_{m-1}.
+\end{align*}

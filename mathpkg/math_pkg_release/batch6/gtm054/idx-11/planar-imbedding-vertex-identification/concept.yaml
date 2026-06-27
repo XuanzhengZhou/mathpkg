@@ -1,0 +1,13 @@
+id: planar-imbedding-vertex-identification
+title_en: "Planar imbedding survives vertex identification"
+title_zh: ""
+type: lemma
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [planar-imbedding, vertex-identification, cycle-space, planarity, projection]
+depends_on: {required: [planar-imbedding, contraction-of-multigraph, contraction-cycle-cocycle-space], recommended: [projection-map], suggested: []}
+source_books: [{book_id: "gtm054", author: "Jack E. Graver and Mark E. Watkins", title: "Combinatorics with Emphasis on the Theory of Graphs", chapter: "E", section: "11", pages: "92-97", role_in_book: "Lemma — shows that identifying two vertices incident with a common edge and projecting the planar imbedding yields a planar imbedding of the resulting multigraph"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: distal-t-algebra
+title_en: "Distal T-algebra"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: universal-algebra
+difficulty: advanced
+tags: [distal, t-algebra, dynamic-theory, enveloping-monoid, bijection, minimal-algebra, birkhoff-subcategory]
+depends_on:
+  required: [dynamic-theory-characterization, enveloping-monoid, coalescent-ideal-dynamic-monoid]
+  recommended: [distal-transformation-group, bijection, group]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "4"
+    section: "1"
+    pages: ""
+    role_in_book: "Definition/Theorem 1.21; characterizes distal algebras via five equivalent conditions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

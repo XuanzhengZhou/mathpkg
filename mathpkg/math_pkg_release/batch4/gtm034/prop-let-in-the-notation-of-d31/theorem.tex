@@ -1,0 +1,39 @@
+Let $S_n = X_1 + \cdots + X_n$, in the notation of D3.1, denote Bernoulli random walk with
+
+$$0 < p = P(0,1) = P[X_k = 1] = 1 - P(0,-1) < 1.$$
+
+There exists a constant $a > 0$, depending on $p$, but independent of $n$, such that
+
+$$P\left[ \left| \frac{S_n}{n} - (2p - 1) \right| \geq \epsilon \right] \leq 2e^{-a\epsilon^2n}$$
+
+for all $n \geq 1$ and all $\epsilon > 0$.
+
+Proof: For convenience we call $T_n = n^{-1}[S_n - n(2p - 1)]$. Since $|T_n| \leq 2$, P3 is automatically true when $\epsilon > 2$ so that we may assume that $0 < \epsilon \leq 2$. We may also simplify the problem by proving only that
+
+(1) $$P[T_n \geq \epsilon] \leq e^{-a\epsilon^2n}, \quad n \geq 1, \quad 0 < \epsilon \leq 2.$$
+
+for some $a > 0$. The proof of (1
+
+Using the independence of the random variables $X_k$ (P3.1)
+
+$$E[e^{tT_n}] = E\left[e^{\frac{t}{n} \sum_{k=1}^{n}(X_k - 2p + 1)}\right] = \prod_{k=1}^{n} E\left[e^{\frac{t}{n}(X_k - 2p + 1)}\right]$$
+
+$$= \left\{E\left[e^{\frac{t}{n}(X_1 - 2p + 1)}\right]\right\}^n = \left[pe^{\frac{2t}{n}(1-p)} + (1-p)e^{\frac{-2t}{n}p}\right]^n.$$
+
+Expanding the function
+
+$$f(x) = pe^{x(1-p)} + (1-p)e^{-xp}$$
+
+in a Taylor series about the origin, one readily verifies that $f(0) = 1$, $f'(0) = 0$, $f''(0) > 0$. Hence there exist two constants $k_1 > 0$, $k_2 > 0$, depending on $p$ such that
+
+$$f(x) \leq 1 + k_1x^2 \leq e^{k_1x^2}$$
+
+whenever $|x| \leq k_2$. Therefore it follows from (2) and (3) that
+
+$$P[T_n \geq \epsilon] \leq e^{-t\epsilon}\left[f\left(\frac{2t}{n}\right)\right]^n \leq e^{(-t\epsilon + (4k_1t^2)/n)}$$
+
+when $|2t| \leq nk_2$. Now we let $t = cn\epsilon$ where $c > 0$ is still to be determined. Then
+
+$$P[T_n \geq \epsilon] \leq e^{-n\epsilon^2(c-4k_1c^2)}$$
+
+when $|2c\epsilon| \leq k_2$. Since $\epsilon \leq 2$ we may indeed choose a small enough positive value for $c$ so that $2c\epsilon \leq k_2$ and simultaneously $c - 4k_1c^2 > 0

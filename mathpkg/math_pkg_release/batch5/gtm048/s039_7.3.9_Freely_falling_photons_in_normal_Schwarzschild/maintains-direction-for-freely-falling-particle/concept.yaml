@@ -1,0 +1,23 @@
+id: maintains-direction-for-freely-falling-particle
+title_en: "Maintains direction for a freely falling particle"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: basic
+tags: [general-relativity, schwarzschild, angular-momentum, freely-falling]
+depends_on:
+  required: [first-integrals-for-freely-falling-particles]
+  recommended: [total-energy-of-freely-falling-particle]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs, Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "7"
+    section: "7.3"
+    pages: ""
+    role_in_book: "Defines when a freely falling particle maintains direction (zero angular momentum)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

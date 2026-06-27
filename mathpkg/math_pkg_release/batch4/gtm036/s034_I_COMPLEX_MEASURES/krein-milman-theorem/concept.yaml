@@ -1,0 +1,23 @@
+id: krein-milman-theorem
+title_en: "Krein-Milman Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [krein-milman, extreme-point, convex-compact, locally-convex-space, closed-convex-hull]
+depends_on:
+  required: [extreme-point, locally-convex-space, compact-set, convex-hull]
+  recommended: []
+  suggested: [hahn-banach-theorem]
+source_books:
+  - book_id: "gtm036"
+    author: "J.L. Kelley, I. Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "4"
+    section: "15 (Extreme Points)"
+    pages: ""
+    role_in_book: "Section 15, principal theorem on extreme points of compact convex sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

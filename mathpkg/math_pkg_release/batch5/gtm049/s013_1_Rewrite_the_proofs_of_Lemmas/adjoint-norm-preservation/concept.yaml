@@ -1,0 +1,23 @@
+id: adjoint-norm-preservation
+title_en: "Norm Preservation by the Adjoint of a Linear Mapping on a Hilbert Space"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: hilbert-space
+difficulty: intermediate
+tags: [adjoint, norm, hilbert-space, linear-mapping]
+depends_on:
+  required: [hilbert-space, adjoint-operator]
+  recommended: [hermitian-form]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K.W. Gruenberg, A.J. Weir"
+    title: "Linear Geometry"
+    chapter: "13"
+    section: "13.1"
+    pages: ""
+    role_in_book: "Exercise 4(i): Basic property of the adjoint mapping"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

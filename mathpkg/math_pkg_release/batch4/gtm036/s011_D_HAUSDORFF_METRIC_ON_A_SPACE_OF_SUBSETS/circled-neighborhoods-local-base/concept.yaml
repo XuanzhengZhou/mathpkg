@@ -1,0 +1,23 @@
+id: circled-neighborhoods-local-base
+title_en: "Circled Neighborhoods Form a Local Base"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: ["circled-sets", "local-base", "balanced-neighborhoods"]
+depends_on:
+  required: ["local-base", "vector-topology-from-local-base"]
+  recommended: ["circled-set"]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "Kelley, J.L. and Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "5"
+    section: "1"
+    pages: ""
+    role_in_book: "Key consequence of Theorem 5.1 part (iii)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

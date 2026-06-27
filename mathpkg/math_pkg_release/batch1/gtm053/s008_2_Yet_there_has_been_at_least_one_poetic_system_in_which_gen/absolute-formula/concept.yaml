@@ -1,0 +1,23 @@
+id: absolute-formula
+title_en: "Absolute Formula"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [absoluteness, formula, interpretation, model]
+depends_on:
+  required: []
+  recommended: [interpretation, formula, truth-value]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "I"
+    section: "7"
+    pages: ""
+    role_in_book: "Defines when a formula has the same truth value in two nested models M ⊂ N"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

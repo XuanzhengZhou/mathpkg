@@ -1,0 +1,23 @@
+id: center-of-symmetric-group
+title_en: "The Center of the Symmetric Group S_n is Trivial for n > 2"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [symmetric-group, center, conjugate-class, trivial-center]
+depends_on:
+  required: [symmetric-group, center-of-group, conjugate-classes]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "I"
+    section: "18"
+    pages: ""
+    role_in_book: "Corollary (center of S_n)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

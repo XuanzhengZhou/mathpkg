@@ -1,0 +1,13 @@
+id: generator-system-contains-basis
+title_en: "Every System of Generators Contains a Basis"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [basis, generators, spanning-set]
+depends_on: {required:[basis-existence-zorn], recommended:[system-of-generators, basis-of-vector-space], suggested:[]}
+source_books: [{book_id:"gtm023",author:"Werner Greub",title:"Linear Algebra",chapter:"I",section:"§1. Vector spaces",pages:"",role_in_book:"Corollary I — immediate consequence of Theorem I"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

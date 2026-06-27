@@ -1,0 +1,23 @@
+id: asymptotic-return-probability-reflecting-walk
+title_en: "Asymptotic Return Probability for Reflecting Random Walk"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [reflecting-random-walk, stirling-formula, asymptotic-analysis, catalan-numbers]
+depends_on:
+  required: [return-probability-reflecting-random-walk]
+  recommended: [stirling-formula, catalan-numbers]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "Kemeny, Snell, Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "7"
+    section: "7. Further examples"
+    pages: ""
+    role_in_book: "Asymptotic estimate of return probability using Stirling's formula"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

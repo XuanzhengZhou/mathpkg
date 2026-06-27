@@ -1,0 +1,23 @@
+id: adjoint-invariant-subspace
+title_en: "Invariance of Orthogonal Complement Under Adjoint-Preserving Mappings"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: hilbert-space
+difficulty: intermediate
+tags: [adjoint, invariant-subspace, orthogonal-complement, hilbert-space]
+depends_on:
+  required: [adjoint-operator, orthogonal-complement, invariant-subspace]
+  recommended: [hilbert-space]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K.W. Gruenberg, A.J. Weir"
+    title: "Linear Geometry"
+    chapter: "13"
+    section: "13.1"
+    pages: ""
+    role_in_book: "Exercise 4(iii): Invariance property enabling induction on dimension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: H-star-compact-beta
+title_en: "H* is the Set of Homomorphisms of C*(X) into R and is Compact"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: compactifications
+difficulty: advanced
+tags: [Stone-Cech-compactification, homomorphism, compactness, e-filter, C-star-embedded]
+depends_on:
+  required: [sigma-star-homeomorphism-C-star-embedded, H-homomorphisms-onto-R]
+  recommended: [closure-sigma-star-compact-beta, maximal-ideal]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "11"
+    section: "9"
+    pages: ""
+    role_in_book: "Characterizes H* as homomorphisms, proves every maximal ideal in C*(H*) is fixed"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,20 @@
+id: root-space-decomposition
+title_en: "Root Space Decomposition"
+title_zh: "根空间分解"
+type: theorem
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [root-space, cartan-subalgebra, root-system, semisimple, weight-space]
+depends_on: {required: [semisimple-lie-algebra, toral-subalgebra], recommended: [], suggested: [root-system-axioms]}
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "8"
+    section: "8.1-8.2"
+    pages: "48-56"
+    role_in_book: "Fundamental structural decomposition of semisimple Lie algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

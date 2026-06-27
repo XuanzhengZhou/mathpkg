@@ -1,0 +1,23 @@
+id: borel-mod-meager-regular-open-isomorphism
+title_en: "The Boolean Algebra of Borel Sets Modulo Meager Sets is Isomorphic to the Regular Open Algebra"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: descriptive-set-theory
+difficulty: advanced
+tags: [borel-algebra, meager-ideal, regular-open, boolean-isomorphism, baire-category]
+depends_on:
+  required: [borel-regular-open-representation, baire-category-theorem, meager-sets-proper-sigma-ideal, boolean-algebra]
+  recommended: [regular-open-set, sigma-ideal]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "Chapter 2: Topological Spaces"
+    section: "2. The Collection of All Meager Borel Sets in a Topological Space"
+    pages: ""
+    role_in_book: "Theorem 3.24: Structural theorem completing the Baire category circle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

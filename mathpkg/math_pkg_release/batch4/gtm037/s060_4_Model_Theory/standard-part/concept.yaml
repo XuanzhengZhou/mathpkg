@@ -1,0 +1,29 @@
+id: standard-part
+title_en: "Standard Part of a Finite Nonstandard Real"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags:
+  - nonstandard-analysis
+  - standard-part-map
+  - infinitesimal
+depends_on:
+  required:
+    - finite-nonstandard-real
+    - infinitesimal
+  recommended:
+    - nonstandard-extension-of-reals
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "Ebbinghaus, Flum, Thomas"
+    title: "Mathematical Logic"
+    chapter: "Part 4"
+    section: "Model Theory"
+    pages: ""
+    role_in_book: "Defines the standard part map st: finite nonstandard reals → standard reals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

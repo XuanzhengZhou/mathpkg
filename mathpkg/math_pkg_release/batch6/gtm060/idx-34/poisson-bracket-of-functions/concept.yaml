@@ -1,0 +1,23 @@
+id: poisson-bracket-of-functions
+title_en: "Poisson Bracket of Functions"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [poisson-bracket, symplectic-manifold, hamiltonian-function, phase-flow]
+depends_on:
+  required: []
+  recommended: [symplectic-manifold, hamiltonian-vector-field, phase-flow]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "7"
+    section: "40"
+    pages: "225-226"
+    role_in_book: "Defines the Poisson bracket of two functions on a symplectic manifold as the derivative along the hamiltonian phase flow"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

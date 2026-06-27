@@ -1,0 +1,7 @@
+For every continuous curve $\psi(t)$ in $L(E; E)$ there exists exactly one differentiable family $\varphi(t)$ ($t_0 \leq t \leq t_1$) of linear automorphisms satisfying the differential equation
+$$\dot{\varphi}(t) = \psi(t) \circ \varphi(t)$$
+and the initial condition $\varphi(t_0) = \iota$.
+
+The solution is constructed by the Picard iteration:
+$$\varphi_0(t) = \iota, \quad \varphi_{n+1}(t) = \iota + \int_{t_0}^{t} \psi(t) \circ \varphi_n(t) \, dt$$
+and the sequence $\varphi_n(t)$ converges uniformly to $\varphi(t)$.

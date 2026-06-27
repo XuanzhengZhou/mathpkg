@@ -1,0 +1,23 @@
+id: exercise-2-35
+title_en: "Exercise 2.35: Effect of Collineation on the Point at Infinity"
+title_zh: "习题2.35：检查共线变换对无穷远点的作用"
+type: exercise
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [exercise, conic, orthogonal-group, point-at-infinity, collineation, parametric-coordinate]
+depends_on:
+  required: [orthogonal-group-triply-transitive]
+  recommended: [conic-canonical-matrix-form, orthogonal-group]
+  suggested: [fractional-linear-transformation, point-at-infinity]
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II"
+    section: "7. Conics"
+    pages: "61-67"
+    role_in_book: "Exercise 2.35 - examines the effect of the mapping beta on the point at infinity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

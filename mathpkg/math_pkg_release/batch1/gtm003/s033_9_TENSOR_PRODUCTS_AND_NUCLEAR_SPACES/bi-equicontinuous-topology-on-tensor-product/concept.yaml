@@ -1,0 +1,23 @@
+id: bi-equicontinuous-topology-on-tensor-product
+title_en: "Topology of Bi-Equicontinuous Convergence on Tensor Products"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [tensor-product, equicontinuity, locally-convex-spaces, polar-topology, duality]
+depends_on:
+  required: [tensor-product-of-locally-convex-spaces, equicontinuous-set, polar-of-a-set]
+  recommended: [projective-tensor-product, inductive-tensor-product]
+  suggested: [completed-tensor-product]
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "Appendix: Tensor Products and Nuclear Spaces"
+    pages: "180-183"
+    role_in_book: "Defines the topology of bi-equicontinuous convergence on the algebraic tensor product, which is intermediate between the projective and inductive topologies and whose completion yields the space of integral bilinear forms."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: ext-of-structure-sheaf
+title_en: "Ext of the Structure Sheaf"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [ext-sheaves, structure-sheaf, sheaf-cohomology, derived-functors]
+depends_on:
+  required: []
+  recommended: [definition-of-ext-sheaves, derived-functors-hom]
+  suggested: [sheaf-cohomology, global-sections-functor]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "6"
+    pages: "250-252"
+    role_in_book: "Proposition 6.3: computes Ext sheaves and Ext groups with the structure sheaf as first argument"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

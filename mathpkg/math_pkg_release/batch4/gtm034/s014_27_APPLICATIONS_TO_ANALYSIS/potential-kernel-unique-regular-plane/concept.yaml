@@ -1,0 +1,23 @@
+id: potential-kernel-unique-regular-plane
+title_en: "Potential Kernel as Unique Q-regular Function for Planar Random Walk"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [potential-kernel, recurrent-random-walk, plane, regular-function]
+depends_on:
+  required: [transient-kernel, uniqueness-of-q-regular-function, potential-kernel]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm034
+    author: "Frank Spitzer"
+    title: "Principles of Random Walk"
+    chapter: "27"
+    section: "APPLICATIONS TO ANALYSIS"
+    pages: ""
+    role_in_book: "Example E4: applies P3 to planar random walk, showing the potential kernel is the unique regular function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

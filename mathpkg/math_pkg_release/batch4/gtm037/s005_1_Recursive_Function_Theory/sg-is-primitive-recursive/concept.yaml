@@ -1,0 +1,13 @@
+id: sg-is-primitive-recursive
+title_en: "The Sign Function is Primitive Recursive"
+title_zh: "符号函数是原始递归的"
+type: lemma
+domain: logic
+subdomain: recursive-function-theory
+difficulty: basic
+tags: [primitive-recursive, sign-function, composition]
+depends_on: {required: [sg-bar-is-primitive-recursive], recommended: [], suggested: []}
+source_books: [{book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "1", section: "Recursive Function Theory", pages: "43-46", role_in_book: "Demonstration that the sign function sg is primitive recursive via composition of sg-bar"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

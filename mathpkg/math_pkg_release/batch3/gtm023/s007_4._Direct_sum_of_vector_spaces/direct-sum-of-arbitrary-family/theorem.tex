@@ -1,0 +1,18 @@
+Let $(E_\alpha)_{\alpha \in A}$ be an arbitrary family of vector spaces. Consider all mappings
+$$x: A \to \bigcup_{\alpha \in A} E_\alpha$$
+such that
+\begin{enumerate}
+\item $x(\alpha) \in E_\alpha$ for all $\alpha \in A$,
+\item all but finitely many $x(\alpha)$ are zero.
+\end{enumerate}
+Denote $x(\alpha)$ by $x_\alpha$. The sum of two such mappings $x$ and $y$ is defined by
+$$(x + y)(\alpha) = x_\alpha + y_\alpha$$
+and scalar multiplication by
+$$(\lambda x)(\alpha) = \lambda x_\alpha.$$
+Under these operations, the set of all such mappings becomes a vector space called the (external) direct sum of the family $(E_\alpha)$ and denoted by $\bigoplus_{\alpha \in A} E_\alpha$.
+
+The canonical injection $i_\varrho: E_\varrho \to \bigoplus_{\alpha} E_\alpha$ is defined by
+$$i_\varrho x: \alpha \mapsto \begin{cases} 0_\alpha & \alpha \neq \varrho \\ x & \alpha = \varrho \end{cases}, \quad x \in E_\varrho$$
+and the canonical projection $\pi_\varrho: \bigoplus_{\alpha} E_\alpha \to E_\varrho$ by
+$$\pi_\varrho x = x_\varrho.$$
+These satisfy $\pi_\varrho \circ i_\varrho = \iota_{E_\varrho}$ and $\pi_\varrho \circ i_\sigma = 0$ for $\varrho \neq \sigma$.

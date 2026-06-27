@@ -1,0 +1,23 @@
+id: numerable-bundle-retraction-isomorphism
+title_en: "Isomorphism Between a Numerable Bundle and its Retraction Pullback"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: fibre-bundles
+difficulty: intermediate
+tags: [principal-bundle, numerable, isomorphism, pullback, retraction, homotopy]
+depends_on:
+  required: [numerable-principal-g-bundle, pullback-bundle]
+  recommended: [classifying-space, homotopy-invariance]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "4. General Fibre Bundles"
+    section: "9.7"
+    pages: "page_0066–page_0068"
+    role_in_book: "Corollary 9.7 in Chapter 4, Section 9. A consequence of the homotopy invariance for numerable bundles, yielding an isomorphism over B × I"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

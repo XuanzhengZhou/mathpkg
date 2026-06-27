@@ -1,0 +1,24 @@
+id: ccc-cardinal-absolute
+title_en: "CCC Implies Cardinal Absoluteness in V^{(B)}"
+title_zh: ""
+type: corollary
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [boolean-valued-universe, cardinal, chain-condition, ccc, cardinal-absoluteness]
+depends_on:
+  required: [ccc-preserves-cardinals]
+  recommended: [countable-chain-condition, cardinal-definition]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "17"
+    section: "Cardinals in V^{(B)}"
+    pages: ""
+    role_in_book: "Restates cardinal absoluteness under c.c.c.; if B satisfies c.c.c., then V and V^{(B)} agree on which ordinals are cardinals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"
+note: "Statement was partially truncated in OCR source; reconstructed from context via the preceding remark that cardinals are absolute under c.c.c."

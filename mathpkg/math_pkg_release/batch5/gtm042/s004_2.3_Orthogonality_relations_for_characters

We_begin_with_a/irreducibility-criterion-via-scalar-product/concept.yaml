@@ -1,0 +1,23 @@
+id: irreducibility-criterion-via-scalar-product
+title_en: "Irreducibility Criterion via Scalar Product of Characters"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [irreducibility-criterion, characters, scalar-product, norm]
+depends_on:
+  required: [multiplicity-via-scalar-product, orthogonality-of-irreducible-characters]
+  recommended: [characters-determine-isomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "2"
+    section: "2.4"
+    pages: ""
+    role_in_book: "Theorem 5. Provides a simple computational criterion for irreducibility: a character has norm 1 exactly when the representation is irreducible."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

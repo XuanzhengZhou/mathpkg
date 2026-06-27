@@ -1,0 +1,15 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+8.3 Lemma from Conway's "Functions of One Complex Variable I."
+(a) Let $S = \{z: \text{Re } z \geq a\}$ where $a > 1$. If $\epsilon > 0$ then there is a number $\delta, 0 < \delta < 1$, such that for all $z$ in $S$
+
+$$\left| \int_\alpha^\beta (e^t - 1)^{-1} t^{z-1} dt \right| < \epsilon$$
+
+whenever $\delta > \beta > \alpha > 0$.
+
+(b) Let $S = \{z: \text{Re } z...

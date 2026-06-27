@@ -1,0 +1,23 @@
+id: completely-reducible-set-linear-transformations
+title_en: "Completely Reducible Set of Linear Transformations"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [complete-reducibility, invariant-subspace, complemented-lattice]
+depends_on:
+  required: [decomposable-set-linear-transformations]
+  recommended: [invariant-subspace, direct-sum]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "II"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines complete reducibility via the complementation property of the lattice of invariant subspaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

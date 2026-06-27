@@ -1,0 +1,23 @@
+id: exercise-1-primary-decomposition
+title_en: "Primary Decomposition of Commutative Torsion Group"
+title_zh: ""
+type: exercise
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [primary-decomposition, torsion-group, commutative-group, direct-product, p-group]
+depends_on:
+  required: [restricted-direct-product, p-group, torsion-group]
+  recommended: [commutative-group]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "14"
+    pages: ""
+    role_in_book: "Exercise: show that a commutative torsion group decomposes as the direct product of its primary components"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

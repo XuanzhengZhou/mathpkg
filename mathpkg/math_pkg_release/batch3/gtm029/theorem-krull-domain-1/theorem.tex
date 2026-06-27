@@ -1,0 +1,15 @@
+Let $R$ be a Krull domain, $(F)$ its family of essential valuations. In order for $R$ to be a Dedekind domain
+
+b is an integral ideal, necessarily equal to $R$, for $b$ is not contained in any maximal ideal $a$. Consequently we have $Rx = \prod a^{v_a(x)}$, so each $a$ is invertible provided $v_a(x) > 0$ (Vol. I, Ch. V, § 6, lemma 4). In particular $p$ is invertible.
+
+We now prove that every integral ideal $a$ in $R$ is invertible, and this will show that $R$ is a Dedekind domain by Theorem 12 of Vol. I, Ch. V, § 6. In fact, let us denote by $v_p(a)$ the smallest value taken by $v_p$ on $a$, and consider the ideal $a' = \prod p v_p(a)$. It is clear that we have $a \subset a'$.
+
+Since $a'$ is invertible (as a product of invertible ideals), we can consider the ideal $b = a a'^{-1}$; this is an integral ideal since $a \subset a'$, and we have $a = a' b$. Since we have $v_p(b) = 0$ for every $p$, $b$ is necessarily equal to $R$, as it is not contained in any maximal ideal $a$. Therefore $a = a'$, and $a$ is invertible. Q.E.D.
+
+We now study the behavior of normal domains under two simple types of extensions.
+
+Given a field $K$ and a valuation $v$ of $K$, we consider the polynomial ring $K[X]$ in one indeterminate over $K$. If $P(X) = a_0 + a_1 X + \cdots + a_n X^n$, $a_i \in K$, we set $v'(P(X)) = \min_{0 \leq i \leq n} (v(a_i))$. It is clear that we have $v'(P(X) + Q(X)) \geq \min \{v'(P(X)), v'(Q(X))\}$, and $v'(P(X) \cdot Q(X)) \geq v'(P(X)) + v'(Q(X))$. To prove the equality $v'(P(X) \cdot Q(X)) = v'
+
+then $R[X]$ is a Krull domain, and $(F') \cup (G)$ is its family of essential valuations.
+
+(c) If $R$ is a UFD, then $R[X]$ is also a UFD.

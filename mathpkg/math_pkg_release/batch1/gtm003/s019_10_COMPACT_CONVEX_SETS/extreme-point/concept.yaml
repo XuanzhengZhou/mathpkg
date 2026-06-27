@@ -1,0 +1,23 @@
+id: extreme-point
+title_en: "Extreme Point"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [extreme-point, convex-set, supporting-manifold, locally-convex-space]
+depends_on:
+  required: []
+  recommended: [convex-set, supporting-hyperplane, locally-convex-space]
+  suggested: [krein-milman-theorem]
+source_books:
+  - book_id: "gtm003"
+    author: "Schaefer, H.H."
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "10"
+    pages: ""
+    role_in_book: "Defines extreme points of convex sets, fundamental to Krein-Milman theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

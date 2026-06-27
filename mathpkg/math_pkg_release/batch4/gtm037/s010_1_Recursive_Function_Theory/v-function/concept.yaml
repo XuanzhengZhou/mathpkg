@@ -1,0 +1,23 @@
+id: v-function
+title_en: "V Function"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability-theory
+difficulty: advanced
+tags: [Turing-machine, elementary-function, recursive-function-theory, bounded-minimization]
+depends_on:
+  required: []
+  recommended: [tm-is-elementary]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "3"
+    section: "1"
+    pages: ""
+    role_in_book: "Definition 3.37 defining the V function used to decode Turing machine computations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

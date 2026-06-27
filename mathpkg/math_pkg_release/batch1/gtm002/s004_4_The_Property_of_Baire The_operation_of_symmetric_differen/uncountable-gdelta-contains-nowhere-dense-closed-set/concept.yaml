@@ -1,0 +1,23 @@
+id: uncountable-gdelta-contains-nowhere-dense-closed-set
+title_en: "Every uncountable G-delta set contains a nowhere dense closed set of measure zero that maps continuously onto [0,1]"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: descriptive-set-theory
+difficulty: advanced
+tags: [gdelta, nowhere-dense, measure-zero, continuous-image, condensation-points, bernstein-set]
+depends_on:
+  required: [gdelta-set, nowhere-dense-set, nullset, cantor-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "5"
+    section: "Non-Measurable Sets"
+    pages: ""
+    role_in_book: "Lemma 5.1; used in the construction of Bernstein sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

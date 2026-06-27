@@ -1,0 +1,23 @@
+id: isolated-singularity-two-exceptional-values
+title_en: "Isolated Singularity with Two Exceptional Values"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [isolated-singularity, essential-singularity, pole, removable-singularity, great-picard-theorem]
+depends_on:
+  required: [great-picard-theorem, isolated-singularity, pole, removable-singularity]
+  recommended: [essential-singularity, casorati-weierstrass-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "XII"
+    section: "§4. The Great Picard Theorem"
+    pages: ""
+    role_in_book: "Corollary 4.3, alternate phrasing of the Great Picard Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

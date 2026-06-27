@@ -1,0 +1,23 @@
+id: epsilon-invariant-of-quadratic-module-over-qp
+title_en: "Epsilon Invariant of a Quadratic Module over Q_p"
+title_zh: "Q_p上二次模的ε不变量"
+type: definition
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: intermediate
+tags: [epsilon-invariant, hilbert-symbol, quadratic-form, p-adic, invariant]
+depends_on:
+  required: [discriminant-of-quadratic-module-over-qp]
+  recommended: [hilbert-symbol, orthogonal-basis]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "J-P. Serre"
+    title: "A Course in Arithmetic"
+    chapter: "4"
+    section: "2"
+    pages: ""
+    role_in_book: "Defines the second fundamental invariant of quadratic forms over p-adic fields, expressed as a product of Hilbert symbols"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

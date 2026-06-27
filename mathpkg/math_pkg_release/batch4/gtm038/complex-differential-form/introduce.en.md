@@ -1,0 +1,1 @@
+Complex differential forms generalize real differential forms by allowing complex values. The decomposition into types (p,q) according to holomorphic and antiholomorphic degrees is the foundation of Dolbeault cohomology.

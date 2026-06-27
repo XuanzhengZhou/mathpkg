@@ -1,0 +1,23 @@
+id: cyclotomic-units-group-en
+title_en: "Group of Cyclotomic Units $E_n$"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: intermediate
+tags: [cyclotomic-units, norm-compatible, iwasawa-theory]
+depends_on:
+  required: []
+  recommended: [cyclotomic-extension, local-units]
+  suggested: [group-of-units]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "Iwasawa Theory of Local Units"
+    section: "15"
+    pages: ""
+    role_in_book: "Defines the group of cyclotomic units and its closure in the local unit group, fundamental for the p-adic Iwasawa theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: triangulable-set-is-tame
+title_en: "Every triangulable set in the plane is tame"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [tame, triangulable, polyhedron, planar-homeomorphism, phi-approximation]
+depends_on:
+  required: [tame-linear-graph-no-endpoints, extension-of-complex-to-remove-endpoints, interior-of-2-cell-equals-interior-of-boundary]
+  recommended: [triangulable-set, theorem-2-2-gtm047]
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "5"
+    section: "15"
+    pages: "83-90"
+    role_in_book: "Theorem 13 - Ultimate taming result for 2-dimensional polyhedra in the plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

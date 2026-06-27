@@ -1,0 +1,23 @@
+id: substitution-theorem
+title_en: "The Substitution Theorem"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: propositional-calculus
+difficulty: intermediate
+tags: [substitution, homomorphism, free-algebra, semantic-consequence, proposition-algebra]
+depends_on:
+  required: [valuation-of-proposition-algebra, proof-in-propositional-calculus]
+  recommended: [free-proposition-algebra]
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes and J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "II"
+    section: "4"
+    pages: ""
+    role_in_book: "States that homomorphisms of free proposition algebras preserve semantic consequence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

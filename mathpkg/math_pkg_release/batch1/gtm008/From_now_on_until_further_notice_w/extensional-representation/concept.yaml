@@ -1,0 +1,23 @@
+id: extensional-representation
+title_en: "Extensional Representation Theorem"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: intermediate
+tags: [extensional, boolean-valued-universe, V-B, representation]
+depends_on:
+  required: [extensional-function, boolean-valued-universe, domain-extension-for-boolean-valued-sets]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: "158-159"
+    role_in_book: "Every V^(B) set can be represented by an extensional set on any given domain"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

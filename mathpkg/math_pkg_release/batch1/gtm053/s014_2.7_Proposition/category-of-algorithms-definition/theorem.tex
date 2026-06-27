@@ -1,0 +1,7 @@
+A category of algorithms over a constructive universe $\mathcal{C}$ is a pair consisting of a category $\mathcal{A}$ and a functor $J : \mathcal{A} \rightarrow \mathcal{C}$ with the following properties:
+
+(a) $\mathcal{A}$ is enriched over $\mathcal{C}$. This means that morphism sets in $\mathcal{A}$ are objects of $\mathcal{C}$, and the composition maps $\mathcal{A}(U,V) \times \mathcal{A}(V,W) \rightarrow \mathcal{A}(U,W)$, as well as identities, are morphisms in $\mathcal{C}$ fitting into standard commutative diagrams.
+
+(b) $J$ identifies $\text{Ob}\mathcal{A}$ with a subset of $\text{Ob}\mathcal{C}$.
+
+(c) For any objects $U,V$ of $\mathcal{A}$, $\mathcal{A}(U,V)$ is a programming method. It comes with the evaluation morphism $\text{ev}_{U,V} : \mathcal{A}(U,V) \times U \rightarrow V$ in $\mathcal{C}$, satisfying $J(f)(u) = \text{ev}_{U,V}(f,u)$ for all $f \in \mathcal{A}(U,V)$ and $u \in U$.

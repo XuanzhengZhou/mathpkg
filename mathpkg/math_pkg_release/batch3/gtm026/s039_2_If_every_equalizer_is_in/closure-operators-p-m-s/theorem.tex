@@ -1,0 +1,10 @@
+The operators $\mathsf{P}$, $\mathsf{M}$, and $\mathsf{S}$ are all closure operators $\mathsf{O}$, i.e., they satisfy:
+\begin{enumerate}
+\item $\mathcal{A} \subset \mathsf{O}(\mathcal{A})$,
+\item $\mathsf{O}(\mathcal{A}) \subset \mathsf{O}(\mathcal{B})$ whenever $\mathcal{A} \subset \mathcal{B}$,
+\item $\mathsf{O}\mathsf{O}(\mathcal{A}) \subset \mathsf{O}(\mathcal{A})$.
+\end{enumerate}
+
+For any such closure operator, $\mathsf{O}(\mathcal{A})$ is the smallest $\mathsf{O}$-closed $\mathcal{B}$ containing $\mathcal{A}$ (where $\mathcal{B}$ is $\mathsf{O}$-closed just in case $\mathsf{O}(\mathcal{B}) \subset \mathcal{B}$) since $\mathcal{A} \subset \mathsf{O}(\mathcal{A})$, $\mathsf{O}\mathsf{O}(\mathcal{A}) \subset \mathsf{O}(\mathcal{A})$ and if $\mathcal{A} \subset \mathcal{B}$ with $\mathsf{O}(\mathcal{B}) \subset \mathcal{B}$ then $\mathsf{O}(\mathcal{A}) \subset \mathsf{O}(\mathcal{B}) \subset \mathcal{B}$.
+
+Moreover, if $\mathsf{O}_1$ and $\mathsf{O}_2$ are closure operators and if $\mathsf{O}_1\mathsf{O}_2(\mathcal{A}) \subset \mathsf{O}_2\mathsf{O}_1(\mathcal{A})$, then $\mathsf{O}_1\mathsf{O}_2$ is also a closure operator. In particular, $\mathsf{MP}(\mathcal{A})$ and $\mathsf{SMP}(\mathcal{A})$ are quasivarieties; indeed, $\mathsf{SMPSMP}(\mathcal{A}) \subset \mathsf{SMSPMP}(\mathcal{A}) \subset \mathsf{SSMPMP}(\mathcal{A}) \subset \mathsf{SMP}(\mathcal{A})$, which together with 4.22 establishes the result.

@@ -1,0 +1,15 @@
+We choose an orientation of a surface $M$ in a neighborhood of a point and consider parallel translation of vectors along the boundary of a small region $D$ on the surface. The result of such a translation is rotation by a small angle $\varphi(D)$ (the sign of the angle is fixed by the choice of orientation).
+
+If we divide the region $D$ into two parts $D_1$ and $D_2$, the result of parallel translation along the boundary of $D$ can be obtained by first going around one part, and then the other. Thus,
+
+$$\varphi(D) = \varphi(D_1) + \varphi(D_2),$$
+
+i.e., the angle $\varphi$ is an additive function of regions. The \text{curvature form} $\Omega$ is the differential 2-form defined by
+
+$$\varphi(D) = \int_D \Omega.$$
+
+The value of $\Omega$ on a pair of tangent vectors $\xi, \eta$ in $TM_x$ is given by
+
+$$\Omega(\xi, \eta) = \lim_{\varepsilon \to 0} \frac{\varphi(\Pi_\varepsilon)}{\varepsilon^2},$$
+
+where $\Pi_\varepsilon$ is the parallelogram spanned by $\varepsilon\xi, \varepsilon\eta$ on $M$ (constructed via local identification of a neighborhood of $x$ with a neighborhood of $0$ in $TM_x$).

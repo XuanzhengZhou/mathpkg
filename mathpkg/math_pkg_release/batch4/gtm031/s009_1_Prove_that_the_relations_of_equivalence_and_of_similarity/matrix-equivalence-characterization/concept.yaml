@@ -1,0 +1,20 @@
+id: matrix-equivalence-characterization
+title_en: "Characterization of Matrix Equivalence by Row Rank"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [matrix, equivalence, row-rank, division-ring, linear-transformation]
+depends_on: {required: [row-rank, matrix-equivalence, row-rank-canonical-form-equivalence], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "III"
+    section: "9"
+    pages: "55-57"
+    role_in_book: "Theorem 6: Two matrices over a division ring are equivalent if and only if they have the same row rank"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

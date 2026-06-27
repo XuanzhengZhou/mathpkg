@@ -1,0 +1,20 @@
+id: chevalley-basis
+title_en: "Chevalley Basis"
+title_zh: "Chevalley 基"
+type: theorem
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [chevalley, basis, root-system, structure-constants, integral]
+depends_on: {required: [root-space-decomposition, simple-lie-algebra], recommended: [], suggested: [chevalley-group]}
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "25"
+    section: "25.1-25.3"
+    pages: "158-176"
+    role_in_book: "Integral basis with nice structure constants"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

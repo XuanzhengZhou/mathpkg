@@ -1,0 +1,23 @@
+id: c-star-embedded-not-implies-c-embedded
+title_en: "C*-Embedded Does Not Imply C-Embedded"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [c-star-embedded, c-embedded, counterexample]
+depends_on:
+  required: [c-star-embedded, c-embedded]
+  recommended: [pseudocompact]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.18"
+    pages: ""
+    role_in_book: "Demonstrates that C*-embedding is strictly weaker than C-embedding"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

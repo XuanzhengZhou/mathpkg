@@ -1,0 +1,23 @@
+id: periodic-points-first-category
+title_en: "Periodic Automorphisms are of First Category"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: dynamical-systems
+difficulty: advanced
+tags: [periodic-points, first-category, measure-preserving, Baire-category]
+depends_on:
+  required: [transitive-automorphism]
+  recommended: [first-category, measure-preserving-automorphism, nowhere-dense]
+  suggested: [non-transitive-perturbation]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category (2nd ed.)"
+    chapter: "18"
+    section: "18"
+    pages: "78-81"
+    role_in_book: "Theorem showing periodic behavior is negligible in the space of measure-preserving automorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

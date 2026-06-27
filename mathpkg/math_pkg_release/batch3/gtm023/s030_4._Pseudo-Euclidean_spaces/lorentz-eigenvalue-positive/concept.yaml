@@ -1,0 +1,23 @@
+id: lorentz-eigenvalue-positive
+title_en: "Positivity of Eigenvalues for Light-Cone Eigenvectors of Lorentz Transformations"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: pseudo-euclidean-geometry
+difficulty: intermediate
+tags: [lorentz-transformation, eigenvalue, light-cone, positivity, orthochroneous]
+depends_on:
+  required: [lorentz-transformation, lorentz-light-cone-eigenvector, light-cone]
+  recommended: [fore-cone-past-cone]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "4"
+    pages: ""
+    role_in_book: "Proves that eigenvalues of orthochroneous Lorentz transformations on the light-cone are positive"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

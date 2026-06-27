@@ -1,0 +1,20 @@
+Let $A = \mathbb{Z}_p[[T]]$. A relation matrix $R$ over $A$ is said to be in *$r$-normal form* if it has the shape
+
+$$
+R = \begin{pmatrix}
+\lambda_1 & 0 & \cdots & 0 & 0 & \cdots & 0 \\
+0 & \lambda_2 & \cdots & 0 & 0 & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots & \vdots & \ddots & \vdots \\
+0 & 0 & \cdots & \lambda_r & 0 & \cdots & 0 \\
+0 & 0 & \cdots & 0 & 0 & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots & \vdots & \ddots & 0
+\end{pmatrix} \neq 0
+$$
+
+where each $\lambda_i$ for $i = 1, \dots, r$ is a distinguished polynomial with the property that
+
+$$
+\deg^0(R) = \deg \lambda_i \qquad \text{for } i = 1, \dots, r.
+$$
+
+The matrix is said to be *$(r-1)$-arithmetic form* if the same conditions hold for the first $r-1$ rows.

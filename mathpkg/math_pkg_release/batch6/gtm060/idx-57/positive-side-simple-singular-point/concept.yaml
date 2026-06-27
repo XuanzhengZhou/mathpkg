@@ -1,0 +1,23 @@
+id: positive-side-simple-singular-point
+title_en: "Positive Side of a Simple Singular Point"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [lagrangian-manifold, singular-points, positive-side, orientation, caustics]
+depends_on:
+  required: [two-sidedness-simple-singular-manifold]
+  recommended: [lagrangian-manifold, singular-points-dimension-structure]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 11"
+    section: "B. The Morse and Maslov Indices"
+    pages: "453-455"
+    role_in_book: "Defines the positive side of a simple singular point on a Lagrangian manifold"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

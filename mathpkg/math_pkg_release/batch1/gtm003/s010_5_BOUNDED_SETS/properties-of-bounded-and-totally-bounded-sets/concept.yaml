@@ -1,0 +1,23 @@
+id: properties-of-bounded-and-totally-bounded-sets
+title_en: "Closure, finite union, and circled hull properties of bounded and totally bounded sets"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [bounded-set, totally-bounded, closure, circled-hull, finite-union, topological-vector-space]
+depends_on:
+  required: [bounded-subset-of-tvs, totally-bounded-subset-of-tvs]
+  recommended: [circled-set, locally-precompact-field]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "5"
+    pages: "38-40"
+    role_in_book: "Theorem 5.1; Fundamental stability properties of bounded/totally bounded sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

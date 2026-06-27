@@ -1,0 +1,23 @@
+id: divisible-torsion-free-abelian-group-completeness
+title_en: "Completeness and Decidability of Nontrivial Divisible Torsion-Free Abelian Groups"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: basic
+tags: [divisible-group, torsion-free-abelian-group, completeness, decidability, categoricity, los-vaught-test]
+depends_on:
+  required: [los-vaught-test, divisible-abelian-group, torsion-free-abelian-group, categoricity-in-uncountable-powers]
+  recommended: [abelian-group]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "21"
+    section: "4"
+    pages: ""
+    role_in_book: "Another application of the Loś-Vaught test via categoricity in uncountable powers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+Holomorphic continuation along paths is unique: if two holomorphic functions have the same germ at a starting point and their domains project to the same path in $\mathbb{C}^n$, then their germs agree at every point along the path.

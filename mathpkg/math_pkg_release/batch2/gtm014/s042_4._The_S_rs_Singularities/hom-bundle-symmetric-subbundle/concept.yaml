@@ -1,0 +1,23 @@
+id: hom-bundle-symmetric-subbundle
+title_en: "$\text{Hom}(E \circ E, F)_s$ is a Fiber Subbundle"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [fiber-bundle, symmetric-product, vector-bundle, thom-boardman]
+depends_on:
+  required: [hom-symmetric-submanifold]
+  recommended: [vector-bundle, fiber-bundle]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky and V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VI"
+    section: "4. The $S_{r,s}$ Singularities"
+    pages: "165"
+    role_in_book: "Fiber bundle version of Prop 4.3, used to define $S_{r,s}$ singularities globally"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: induced-connection-over-a-map
+title_en: "Induced Connection over a Map"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [connection, induced-connection, covariant-derivative, pullback-connection]
+depends_on:
+  required: [connection-on-manifold, tensor-field-over-a-map]
+  recommended: [covariant-derivative]
+  suggested: []
+source_books:
+  - book_id: "gtm048"
+    author: "R. K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "2"
+    section: "2.0.1"
+    pages: ""
+    role_in_book: "Defines how a connection on the target manifold induces a connection for tensor fields over a map"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

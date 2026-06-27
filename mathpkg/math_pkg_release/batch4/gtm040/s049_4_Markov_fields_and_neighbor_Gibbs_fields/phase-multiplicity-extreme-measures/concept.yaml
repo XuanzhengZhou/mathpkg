@@ -1,0 +1,23 @@
+id: phase-multiplicity-extreme-measures
+title_en: "Phase Multiplicity and Extreme Gibbs Measures"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: random-fields
+difficulty: advanced
+tags: [phase-transition, gibbs-field, extreme-measure, convex-set, phase-multiplicity, statistical-mechanics]
+depends_on:
+  required: [neighbor-gibbs-field-infinite]
+  recommended: [gibbs-field-iff-markov-field-infinite]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "12"
+    section: "4"
+    pages: "447-455"
+    role_in_book: "Defines phase multiplicity/transition and extreme Gibbs measures, introducing the convex structure of G_V"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,20 @@
+id: final-functor
+title_en: "Final Functor"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [final-functor, cofinal, colimit, comma-category, connected]
+depends_on: {required: [comma-category], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IX"
+    section: "3. Final Functors"
+    pages: ""
+    role_in_book: "Defines functors that preserve colimits; generalizes cofinal subsets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

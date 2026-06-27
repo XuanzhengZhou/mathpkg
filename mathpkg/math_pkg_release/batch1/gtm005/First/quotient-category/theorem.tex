@@ -1,0 +1,3 @@
+Let $C$ be a category and let $R$ be a function assigning to each pair of objects $a, b$ of $C$ a binary relation $R_{a,b}$ on $C(a, b)$. Then there exists a category $C/R$ and a functor $Q : C \to C/R$ with the following universal property: $Q$ identifies two arrows $f, f' : a \to b$ whenever $f \, R_{a,b} \, f'$, and for any functor $H : C \to D$ such that $f \, R_{a,b} \, f'$ implies $H f = H f'$, there exists a unique functor $H' : C/R \to D$ with $H = H' \circ Q$.
+
+The objects of $C/R$ are the objects of $C$, and each hom-set $(C/R)(a, b)$ is the quotient $C(a, b) / R'_{a,b}$, where $R'$ is the least congruence on $C$ containing $R$. The projection $Q : C \to C/R$ sends each arrow to its $R'$-equivalence class.

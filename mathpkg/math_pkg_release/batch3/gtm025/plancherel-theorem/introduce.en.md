@@ -1,0 +1,1 @@
+Plancherel's theorem establishes the Fourier transform as an isometry (up to normalization) on $L^2$. This is the foundation of Fourier analysis on the real line and is essential for quantum mechanics, signal processing, and PDEs.

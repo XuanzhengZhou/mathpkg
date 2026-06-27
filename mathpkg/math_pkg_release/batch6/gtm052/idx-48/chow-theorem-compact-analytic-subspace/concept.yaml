@@ -1,0 +1,23 @@
+id: chow-theorem-compact-analytic-subspace
+title_en: "Theorem 2.2 (Chow): Compact Analytic Subspaces of Projective Space are Algebraic"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: complex-analytic-geometry
+difficulty: advanced
+tags: [chow, projective-space, algebraic-subvariety, gaga]
+depends_on:
+  required: [serre-gaga-theorem, projective-space]
+  recommended: [complex-analytic-space]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix B"
+    section: "2"
+    pages: "441"
+    role_in_book: "Every compact analytic subspace of P^n_C is algebraic, answering Q1 in the projective case"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

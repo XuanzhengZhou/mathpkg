@@ -1,0 +1,31 @@
+Consider the system of $l + 1$ differential equations
+
+$$\begin{aligned}
+\dot{\varphi} &= \omega(I) + \varepsilon f(I, \varphi), \quad \varphi \bmod 2\pi \in S^1, \\
+\dot{I} &= \varepsilon g(I, \varphi), \quad I \in G \subset \mathbb{R}^l,
+\end{aligned}$$
+
+and the averaged system
+
+$$\dot{J} = \varepsilon \bar{g}(J), \quad \bar{g}(J) = \frac{1}{2\pi} \int_0^{2\pi} g(J, \varphi) \, d\varphi.$$
+
+Let $I(t), \varphi(t)$ be the solution of the original system with initial conditions $I(0), \varphi(0)$, and $J(t)$ the solution of the averaged system with $J(0) = I(0)$.
+
+\textbf{Theorem.} Suppose that:
+
+\begin{enumerate}
+\item the functions $\omega, f, g$ are defined for $I$ in a bounded region $G$, and in this region they are bounded, together with their derivatives up to second order:
+$$\|\omega, f, g\|_{C^2(G \times S^1)} < c_1;$$
+
+\item in the region $G$, we have
+$$\omega(I) > c > 0;$$
+
+\item for $0 \leq t \leq 1/\varepsilon$, a neighborhood of radius $d$ of the point $J(t)$ belongs to $G$:
+$$J(t) \in G - d.$$
+\end{enumerate}
+
+Then for sufficiently small $\varepsilon$ ($0 < \varepsilon < \varepsilon_0$),
+
+$$|I(t) - J(t)| < c_9 \varepsilon, \quad \text{for all } t,\; 0 \leq t \leq \frac{1}{\varepsilon},$$
+
+where the constant $c_9 > 0$ depends on $c_1, c, d$, but not on $\varepsilon$.

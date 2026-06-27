@@ -1,0 +1,15 @@
+Limited formulas and abstraction terms are defined simultaneously by the following recursion:
+\begin{enumerate}
+\item If each of $t_1, t_2$ is either an individual constant, a ranked variable $x^\alpha$, or an abstraction term, then
+$$F(t_1), \quad K(t_1), \quad t_1 \in t_2$$
+are limited formulas.
+\item If $\varphi$ and $\psi$ are limited formulas then $\neg \varphi$ and $\varphi \wedge \psi$ are limited formulas.
+\item If $\varphi(x^\alpha)$ is a limited formula that does not contain $x^\alpha$ as a bound variable then $(\forall x^\alpha)\varphi(x^\alpha)$ is a limited formula.
+\item If $\varphi(x^\alpha)$ is a limited formula satisfying:
+  \begin{enumerate}
+  \item $\varphi(x^\alpha)$ contains no free variables other than $x^\alpha$,
+  \item if $k$ is an individual constant occurring in $\varphi(x^\alpha)$ then $\text{rank}(k) < \alpha$,
+  \item if an abstraction term $\hat{x}^\beta \psi(x^\beta)$ occurs in $\varphi(x^\alpha)$ then $\beta < \alpha$,
+  \end{enumerate}
+then $\hat{x}^\alpha \varphi(x^\alpha)$ is an abstraction term.
+\end{enumerate}

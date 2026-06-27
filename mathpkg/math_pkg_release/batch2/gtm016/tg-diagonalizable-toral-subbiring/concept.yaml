@@ -1,0 +1,23 @@
+id: tg-diagonalizable-toral-subbiring
+title_en: "T(G) — Diagonalizable Toral k-Subbiring of H(K/k)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: hopf-algebra
+difficulty: advanced
+tags: [hopf-algebra, galois-splitting, dual-group-algebra, diagonalizable, toral-subbiring]
+depends_on:
+  required: [group-algebra, hopf-algebra, galois-splitting]
+  recommended: [dual-space, comultiplication, counit]
+  suggested: []
+source_books:
+  - book_id: "gtm016"
+    author: "Winter"
+    title: "The Structure of Fields"
+    chapter: "6.2"
+    section: "6.2"
+    pages: ""
+    role_in_book: "Defines T(G) as the set of bared dual elements forming a diagonalizable toral k-subbiring of the Hopf algebra H(K/k)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

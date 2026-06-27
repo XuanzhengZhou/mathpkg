@@ -1,0 +1,23 @@
+id: dvoretzky-rogers-improvement-finite-dimension
+title_en: "Improvement of Dvoretzky-Rogers Theorem: Normable Absolutely Summable Implies Finite Dimensional"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [normable-space, absolute-summability, finite-dimensional, dvoretzky-rogers-theorem, nuclear-space]
+depends_on:
+  required: [normable-space, summable-sequence, absolutely-summable-sequence, finite-dimensional-space]
+  recommended: [topological-isomorphism-ell1-bracket-infrabarreled, nuclear-space]
+  suggested: [dvoretzky-rogers-theorem]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "Exercises, No. 36(c)"
+    pages: "213"
+    role_in_book: "Exercise 36(c) — improvement of the Dvoretzky-Rogers theorem via the infrabarreled argument"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

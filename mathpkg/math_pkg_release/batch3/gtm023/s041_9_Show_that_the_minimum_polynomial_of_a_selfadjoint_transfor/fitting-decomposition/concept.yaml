@@ -1,0 +1,23 @@
+id: fitting-decomposition
+title_en: "Fitting Decomposition"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [fitting-decomposition, nilpotent, isomorphism, generalized-eigenspace, primary-decomposition]
+depends_on:
+  required: [primary-decomposition-via-minimum-polynomial, generalized-eigenspace]
+  recommended: [nilpotent-transformation]
+  suggested: [fitting-decomposition-properties]
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "13"
+    section: "13.7"
+    pages: ""
+    role_in_book: "Defines the Fitting decomposition into nilpotent and isomorphic parts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

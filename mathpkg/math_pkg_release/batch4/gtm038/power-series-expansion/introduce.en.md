@@ -1,0 +1,1 @@
+Every holomorphic function of several complex variables admits a convergent power series expansion about any point in a polycylinder contained in its domain. This generalizes the one-variable theorem and is a consequence of the Cauchy integral formula.

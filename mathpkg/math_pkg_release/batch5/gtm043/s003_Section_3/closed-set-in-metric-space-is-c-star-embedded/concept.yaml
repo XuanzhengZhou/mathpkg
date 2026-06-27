@@ -1,0 +1,23 @@
+id: closed-set-in-metric-space-is-c-star-embedded
+title_en: "Every Closed Set in a Metric Space is C*-Embedded (Tietze's Extension Theorem)"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [tietze-extension, metric-space, closed-set, c-star-embedded]
+depends_on:
+  required: [urysohn-extension-theorem, c-star-embedded]
+  recommended: [metric-space]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.17"
+    pages: ""
+    role_in_book: "Classical Tietze Extension Theorem as a corollary of Urysohn's theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

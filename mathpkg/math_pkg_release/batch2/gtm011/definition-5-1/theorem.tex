@@ -1,0 +1,19 @@
+Let $G$ be a region in the plane and let $a \in G$. A Green’s Function of $G$ with singularity at $a$ is a function $g_a: G - \{a\} \to \mathbb{R}$ with the properties:
+
+(a) $g_a$ is harmonic in $G - \{a\}$;
+(b) $G(z) = g_a(z) + \log |z-a|$ is harmonic in a disk about $a$;
+(c) $\lim g_a(z) = 0$ for each $w$ in $\partial_\infty G$.
+
+For a given region $G$ and a point $a$ in $G$,
+
+$$|g(z) - g(z_1)| < \epsilon \text{ if } |z_1 - z| < \delta; \text{ so } g(z) < g(z_1) + \epsilon \text{ if } |z - z_1| < \delta.$$ Let $r > |z_1 - z_2| > \delta$; then
+
+$$h_r(z) = \frac{g(z_1) + \epsilon}{\log \left( \frac{\delta}{r} \right)} \log \left| \frac{z - z_1}{r} \right|$$
+
+is harmonic in $\mathbb{C} - \{z_1\}$. It is left to the reader to check that $g(z) \leq h_r(z)$ for $z$ on the boundary of the annulus $A = \{z : \delta < |z - z_1| < r\}$. By the Maximum Principle, $g(z) \leq h_r(z)$ for $z$ in $A$; in particular, $h_r(z_2) \geq g(z_2)$. Letting $r \to \infty$ we get
+
+$$g(z_2) \leq \lim_{r \to \infty} h_r(z_2) = g(z_1) + \epsilon;$$
+
+since $\epsilon$ was arbitrary, $g(z_2) \leq g(z_1)$ and $g$ must be a constant function.
+
+When do Green's Functions exist?

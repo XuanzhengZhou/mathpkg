@@ -1,0 +1,23 @@
+id: serre-affine-vanishing-theorem
+title_en: "Serre's vanishing theorem for quasi-coherent sheaves on affine schemes"
+title_zh: "仿射概形上拟凝聚层的 Serre 消失定理"
+type: theorem
+domain: geometry
+subdomain: sheaf-cohomology
+difficulty: advanced
+tags: [cohomology, vanishing, affine-scheme, quasi-coherent, serre]
+depends_on:
+  required: []
+  recommended: [affine-scheme, quasi-coherent-sheaf, injective-module-localization-surjectivity, flasque-sheaf]
+  suggested: [grothendieck-vanishing-theorem, cech-cohomology]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "§3 Cohomology of a Noetherian Affine Scheme"
+    pages: "211-212"
+    role_in_book: "Theorem 3.5 — higher cohomology of quasi-coherent sheaves on Spec A vanishes; justifies use of Cech cohomology for computations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

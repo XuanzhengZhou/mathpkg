@@ -1,0 +1,23 @@
+id: t-transitive-permutation-group
+title_en: "t-Transitive Permutation Group"
+title_zh: "t-传递置换群"
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [t-transitive, multiply-transitive, permutation-group, group-action]
+depends_on:
+  required: [transitive-permutation-group]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "1. Introduction"
+    pages: ""
+    role_in_book: "A group acting transitively on ordered t-tuples of distinct points"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

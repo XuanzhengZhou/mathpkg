@@ -1,0 +1,23 @@
+id: equal-orthogonal-sets-implies-proportional-forms
+title_en: "Equal Orthogonal Sets Implies Proportional Forms"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: bilinear-forms
+difficulty: intermediate
+tags: [bilinear-form, orthogonality, proportionality, left-orthogonal]
+depends_on:
+  required: [bilinear-form, left-orthogonal]
+  recommended: [right-orthogonal, ordered-basis]
+  suggested: []
+source_books:
+  - book_id: gtm049
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "5.3"
+    pages: "97"
+    role_in_book: "Lemma 4: establishes that if two bilinear forms have the same left orthogonal complement, they are proportional"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

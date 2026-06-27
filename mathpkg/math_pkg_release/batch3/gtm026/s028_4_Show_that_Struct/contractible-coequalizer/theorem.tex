@@ -1,0 +1,16 @@
+Given $A \xrightarrow{f} B \xrightarrow{g} B \xrightarrow{h} C$ in a category $\mathcal{K}$, $(f, g, h; d, d')$ is a contractible coequalizer (also: $(f, g, h)$ is a contractible coequalizer with $(d, d')$ as contraction) if the following diagram commutes:
+\[
+\begin{array}{ccc}
+A & \xrightarrow{f} & B \\
+& \xrightarrow{g} & \\
+\end{array}
+\quad
+\begin{array}{ccc}
+& d & \\
+B & \xrightarrow{h} & C \\
+& d' & \\
+\end{array}
+\]
+with $d.f = \mathrm{id}_B$, $h.d' = \mathrm{id}_C$, $f.h = g.h$, and $d.g = h.d'$.
+
+A diagram $A \xrightarrow{f} B \xrightarrow{g} C$ in a category $\mathcal{K}$ is an absolute coequalizer if for every functor $H: \mathcal{K} \longrightarrow \mathcal{L}$, $hH = \mathrm{coeq}(fH, gH)$.

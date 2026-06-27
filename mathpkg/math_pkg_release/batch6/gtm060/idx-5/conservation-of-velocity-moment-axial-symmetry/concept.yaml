@@ -1,0 +1,23 @@
+id: conservation-of-velocity-moment-axial-symmetry
+title_en: "Conservation of Velocity Moment in an Axially Symmetric Field"
+title_zh: "轴对称场中速度矩的守恒"
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [axial-symmetry, conservation-law, angular-momentum, moment-relative-to-axis]
+depends_on:
+  required: [moment-relative-to-axis, axially-symmetric-vector-field]
+  recommended: [conservative-field]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "9"
+    pages: "55-67"
+    role_in_book: "Conservation of the axial component of angular momentum in an axially symmetric conservative field"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

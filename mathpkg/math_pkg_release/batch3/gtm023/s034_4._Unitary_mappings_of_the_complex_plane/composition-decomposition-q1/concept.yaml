@@ -1,0 +1,23 @@
+id: composition-decomposition-q1
+title_en: "Decomposition of composition in Q_1"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [algebra-q, cross-product, quaternions, decomposition]
+depends_on:
+  required: [algebra-q, cross-product-on-q1, anticommutator-in-q1]
+  recommended: [inner-product-on-algebra-q]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Decomposes the composition product in Q_1 into a scalar part (inner product) and a vector part (cross product), exactly as in quaternion multiplication."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

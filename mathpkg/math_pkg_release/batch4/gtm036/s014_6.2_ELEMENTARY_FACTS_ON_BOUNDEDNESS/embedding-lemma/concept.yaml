@@ -1,0 +1,23 @@
+id: embedding-lemma
+title_en: "Embedding Lemma"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [embedding, product-space, coordinate-map, relatively-open, topological-isomorphism]
+depends_on:
+  required: [linear-topological-space, product-topology]
+  recommended: [relatively-open-map, topological-isomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Key lemma for embedding linear topological spaces into products; used in Theorems 6.4 and 6.9"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

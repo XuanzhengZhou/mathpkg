@@ -1,0 +1,23 @@
+id: hecke-fp-operator-automorphy
+title_en: "Construction of Functions Automorphic under Γ₀(p)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [modular-function, automorphy, hecke-operator, gamma0-subgroup, fourier-expansion, prime]
+depends_on:
+  required: [modular-function, modular-group, gamma0-subgroup]
+  recommended: [fourier-expansion, automorphic-function, upper-half-plane]
+  suggested: [hecke-operator, meromorphic-function]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "4"
+    section: "4.5"
+    pages: ""
+    role_in_book: "Constructs functions automorphic under congruence subgroup Γ₀(p) from functions automorphic under the full modular group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

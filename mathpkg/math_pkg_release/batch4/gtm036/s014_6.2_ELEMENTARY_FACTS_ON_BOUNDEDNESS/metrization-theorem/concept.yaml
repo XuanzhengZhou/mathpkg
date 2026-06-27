@@ -1,0 +1,23 @@
+id: metrization-theorem
+title_en: "Metrization Theorem for Linear Topological Spaces"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [pseudo-metrizable, countable-local-base, invariant-pseudo-metric, circled-sphere]
+depends_on:
+  required: [linear-topological-space, pseudo-metric, local-base]
+  recommended: [invariant-metric, circled-set]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "6"
+    section: "6.7"
+    pages: ""
+    role_in_book: "Characterizes pseudo-metrizable linear topological spaces by countable local bases; constructs an invariant pseudo-metric with circled spheres"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

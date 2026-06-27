@@ -1,0 +1,14 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $h \geq 0$ is a normalized bounded regular function, then $\mu^h$ is absolutely continuous with respect to $\mu$ and
+
+$$h_i = \int_S K(i, x)f(x)d\mu(x) = \int_{B_e} K(i, x)f(x)d\mu(x),$$
+
+where $f$ is the Radon–Nikodym derivative of $\mu^h$ with respect to $\mu$. The function $f$ may be taken to be zero on $S$, and if it is, then
+
+$$\Pr[\lim_{n \to \infty} h(x_n) = f(x_v)] = 1.$$

@@ -1,0 +1,13 @@
+id: absolute-coequalizer
+title_en: "Absolute Coequalizer"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [absolute-coequalizer, coequalizer, functor, preservation]
+depends_on: {required: [coequalizer, fork-in-a-category], recommended: [functor], suggested: [absolute-colimit]}
+source_books: [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "VI. Monads and Algebras", section: "6. Split Coequalizers", pages: "", role_in_book: "Defines absolute coequalizers, which remain coequalizers after applying any functor"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: rational-approximation-cauchy-kernel
+title_en: "Rational Approximation of the Cauchy Kernel Integral"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [rational-approximation, cauchy-kernel, compact-set, riemann-sum]
+depends_on: {required: [], recommended: [], suggested: []}
+source_books: [{book_id: "gtm011", author: "John B. Conway", title: "Functions of One Complex Variable I", chapter: "VIII", section: "1.5", pages: "", role_in_book: "Shows that the Cauchy integral over a rectifiable curve can be uniformly approximated on compact sets by rational functions with poles on the curve, a key step toward Runge's Theorem"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

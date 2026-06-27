@@ -1,0 +1,14 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $E$ be a measurable set, and let $\{f_n\}$ be a sequence of non-negative measurable functions. Then
+
+$$\
+
+In particular, if $f(x) = \lim_n f_n(x)$,
+
+$$\int_E f d\mu \leq \liminf_n \int_E f_n d\mu.$$

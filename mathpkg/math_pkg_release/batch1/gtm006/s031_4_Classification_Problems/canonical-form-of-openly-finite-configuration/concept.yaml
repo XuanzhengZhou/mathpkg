@@ -1,0 +1,23 @@
+id: canonical-form-of-openly-finite-configuration
+title_en: "Canonical Form of Openly Finite Configurations"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [canonical-form, free-equivalence, openly-finite, configuration, core, open-rank]
+depends_on:
+  required: [free-equivalence-of-configurations, canonical-form-of-nondegenerate-finite-open-configuration, core-of-configuration, open-rank, openly-finite-configuration]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "11"
+    section: "4. Classification Problems"
+    pages: "page_0238.json–page_0243.json"
+    role_in_book: "Lemma 11.10. Shows that every openly finite configuration is free equivalent to one whose non-core elements are all contained in a single line, with the number of such points equal to the open rank. Together with Lemma 11.9, this provides the canonical form needed for the isomorphism theorem."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

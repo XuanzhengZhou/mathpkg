@@ -1,0 +1,13 @@
+id: random-walk
+title_en: "Random Walk"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: stochastic-processes
+difficulty: intermediate
+tags: [random-walk, sum-of-increments, simple-walk]
+depends_on: {required: ["simple-random-variable","independence-of-events"], recommended: [], suggested: []}
+source_books: [{book_id:"gtm045",author:"Michel Loève",title:"Probability Theory I",chapter:"Introductory Part, III",section:"III. Random walk",pages:"",role_in_book:"Introduction to random walks as sums of independent increments"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

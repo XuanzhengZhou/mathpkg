@@ -1,0 +1,23 @@
+id: t-i-cohomology-functor
+title_en: "T^i Cohomology Functor"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [cohomology, functor, flatness, projective-morphism, base-change]
+depends_on:
+  required: [coherent-sheaf, projective-morphism, flat-morphism, cohomology-of-schemes]
+  recommended: [higher-direct-image, sheaf-cohomology, derived-functor]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "12"
+    pages: ""
+    role_in_book: "Core definition for semicontinuity and base change theorems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

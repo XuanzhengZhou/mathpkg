@@ -1,0 +1,23 @@
+id: boardman-fiber-subbundle-theorem
+title_en: "Boardman's Theorem on Fiber Subbundles $S_{r_1,\\ldots,r_k}$ (Theorem 5.1)"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [boardman-symbols, jet-bundle, fiber-subbundle, singularity, thom-boardman, transversality]
+depends_on:
+  required: []
+  recommended: [higher-order-boardman-symbols, jet-bundle, s-r-singularity]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VI"
+    section: "5"
+    pages: ""
+    role_in_book: "Fundamental result of Boardman that the higher-order singularity sets form fiber subbundles of jet space, enabling the Thom-Boardman stratification"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

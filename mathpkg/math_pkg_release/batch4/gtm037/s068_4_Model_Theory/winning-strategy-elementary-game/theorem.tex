@@ -1,0 +1,7 @@
+Let $\mathfrak{A}$ and $\mathfrak{B}$ be $\mathcal{L}$-structures. Player II has a \textbf{winning strategy for the $m$-elementary game} over $\mathfrak{A}$, $\mathfrak{B}$ provided that there is a function $F$ with the following two properties:
+
+\begin{enumerate}
+\item[(i)] If $k < m$, $x \in {}^k A$, and $y \in {}^k B$, then $F(x, y, 0, a) \in B$ for each $a \in A$ and $F(x, y, 1, b) \in A$ for each $b \in B$.
+
+\item[(ii)] For every $z \in {}^m [(\{0\} \times A) \cup (\{1\} \times B)]$, define $x \in {}^m A$ and $y \in {}^m B$ by induction as follows. Suppose $k < m$ and $x \upharpoonright k$, $y \upharpoonright k$ have been defined. If $(z_k)_0 = 0$, let $x_k = (z_k)_1$ and $y_k = F(x \upharpoonright k, y \upharpoonright k, 0, x_k)$. If $(z_k)_0 = 1$, let $y_k = (z_k)_1$ and $x_k = F(x \upharpoonright k, y \upharpoonright k, 1, y_k)$. Then for the so defined sequences $x$ and $y$ it is the case that $\{(x_i, y_i) : i < m\}$ is a partial isomorphism of $\mathfrak{A}$ into $\mathfrak{B}$.
+\end{enumerate}

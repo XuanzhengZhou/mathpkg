@@ -1,0 +1,23 @@
+id: normal-transformation-is-semisimple
+title_en: "Normal Transformations Are Semisimple with Orthogonal Eigenspaces"
+title_zh: "正规变换是半单的且特征空间正交"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [normal-transformation, semisimple-transformation, inner-product-space]
+  recommended: [orthogonal-decomposition, selfadjoint-projection]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "7"
+    pages: ""
+    role_in_book: "A normal transformation on an inner product space is semisimple; its generalized eigenspaces are orthogonal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

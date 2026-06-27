@@ -1,0 +1,23 @@
+id: length-relation-for-colon-ideals
+title_en: "Length Relation for Colon Ideals"
+title_zh: "商理想的长度关系"
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [length-of-ideal, colon-ideal, composition-series, local-ring]
+depends_on:
+  required: [length-of-module, colon-ideal, composition-series]
+  recommended: [irreducible-primary-ideals-in-local-rings]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "IV"
+    section: "15"
+    pages: ""
+    role_in_book: "Lemma 2 in the proof of Theorem 34. Relates the lengths of an ideal and its colon ideal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

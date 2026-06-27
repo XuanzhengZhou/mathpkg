@@ -1,0 +1,23 @@
+id: metric-uniformity-equivalence-lemma
+title_en: "Equivalence of the Metric ρ and Uniform Convergence on Compact Sets"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: metric-spaces
+difficulty: intermediate
+tags: ["metric-space", "uniform-convergence", "compact-set", "function-space", "uniformity"]
+depends_on:
+  required: ["metric-on-continuous-functions-space", "compact-exhaustion-of-open-sets-in-complex-plane"]
+  recommended: ["uniform-convergence-on-compacta", "metric-topology"]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VII"
+    section: "1.7"
+    pages: ""
+    role_in_book: "Establishes that the metric ρ on C(G, Ω) encodes the topology of uniform convergence on compact subsets of G; this equivalence is fundamental for studying compactness and convergence of analytic functions in subsequent sections."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

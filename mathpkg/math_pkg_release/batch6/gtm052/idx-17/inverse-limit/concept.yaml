@@ -1,0 +1,23 @@
+id: inverse-limit
+title_en: "Inverse Limit"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [projective-limit, inverse-system, completion]
+depends_on:
+  required: [inverse-system]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "9"
+    pages: "206-212"
+    role_in_book: "Used to define formal completion of schemes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

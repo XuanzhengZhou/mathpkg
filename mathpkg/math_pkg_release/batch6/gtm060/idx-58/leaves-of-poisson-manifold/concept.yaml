@@ -1,0 +1,23 @@
+id: leaves-of-poisson-manifold
+title_en: "Leaves (symplectic leaves) of a Poisson manifold"
+title_zh: "泊松流形的叶（辛叶）"
+type: definition
+domain: geometry
+subdomain: poisson-geometry
+difficulty: advanced
+tags: [poisson-manifold, symplectic-leaves, foliation, hamiltonian-vector-field, casimir]
+depends_on:
+  required: [poisson-manifold, hamiltonian-vector-field-on-poisson-manifold]
+  recommended: [symplectic-manifold, foliation]
+  suggested: [lie-algebroid, coadjoint-orbit, symplectic-reduction]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 14"
+    section: "A. Poisson manifolds"
+    pages: ""
+    role_in_book: "Defines the symplectic leaves of a Poisson manifold as the equivalence classes under Hamiltonian flows"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

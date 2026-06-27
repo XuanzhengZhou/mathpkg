@@ -1,0 +1,19 @@
+A continuous function $u: G \rightarrow \mathbb{R}$ has the Mean Value Property (MVP) if whenever $\bar{B}(a; r) \subset G$
+
+$$u(a) = \frac{1}{2\pi} \int_0^{2\pi} u(a + re^{i\theta}) d\theta.$$
+
+In the following section it will be shown that any continuous function defined on a region that has the MVP must be a harmonic function. One of the main tools used in showing this is the following analogue of the Maximum Modulus Theorem for harmonic functions.
+
+1.6 Maximum Principle (First Version). Let $G$ be a region and suppose that $u$ is a continuous real valued function on $G$ with the MVP. If
+
+there is a proper interval $I$ of $[0, 2\pi]$ such that $\beta \in I$ and $u(z_0 + \rho e^{i\theta}) < u(z_0)$ for all $\theta$ in $I$. Hence, by the MVP
+
+$$u(z_0) = \frac{1}{2\pi} \int_0^{2\pi} u(z_0 + \rho e^{i\theta}) d\theta < u(z_0),$$
+
+a contradiction. So $B(z_0; r) \subset A$ and $A$ is also open. By the connectedness of $G$, $A = G$.
+
+1.7 Maximum Principle (Second Version). Let $G$ be a region and let $u$ and $v$ be two bounded continuous real valued functions on $G$ that have the MVP. If for each point $a$ in the extended boundary $\partial_\infty G$,
+
+$$\limsup_{z \to a} u(z) \leq \liminf_{z \to a} v(z)$$
+
+then either $u(z) < v(z)$ for all $z$ in $G$ or $u = v$.

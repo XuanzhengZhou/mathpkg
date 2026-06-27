@@ -1,0 +1,23 @@
+id: nonempty-conic-bijects-projective-line
+title_en: "Nonempty conics are in one-to-one correspondence with the points on a line"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [conic, bijection, projective-line, cardinality]
+depends_on:
+  required: [line-meets-conic-at-most-two-points]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "7"
+    section: "Conics"
+    pages: ""
+    role_in_book: "Corollary 1 to Lemma 2.34 — parametrization of nonempty conic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

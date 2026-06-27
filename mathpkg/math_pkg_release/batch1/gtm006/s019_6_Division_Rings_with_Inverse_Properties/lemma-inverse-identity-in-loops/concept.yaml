@@ -1,0 +1,23 @@
+id: lemma-inverse-identity-in-loops
+title_en: "Lemma 6.10: Inverse identity in loops with RIP or LIP"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: loop-theory
+difficulty: basic
+tags: [loop, inverse, RIP, LIP, identity]
+depends_on:
+  required: [right-inverse-property, left-inverse-property, loop]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "VI"
+    section: "6. Division Rings with Inverse Properties"
+    pages: ""
+    role_in_book: "Establishes that the element x^{-1} produced by RIP or LIP is a genuine two-sided inverse satisfying the usual inverse identities."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

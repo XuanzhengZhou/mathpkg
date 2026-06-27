@@ -1,0 +1,23 @@
+id: criterion-for-representing-zero-over-qp
+title_en: "Criterion for a Quadratic Form over Q_p to Represent Zero"
+title_zh: "Q_p上二次型表示零的判别准则"
+type: theorem
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: advanced
+tags: [represent-zero, quadratic-form, p-adic, discriminant, epsilon-invariant, isotropic]
+depends_on:
+  required: [discriminant-of-quadratic-module-over-qp, epsilon-invariant-of-quadratic-module-over-qp, hilbert-symbol-preimage-sets]
+  recommended: [hilbert-symbol]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "J-P. Serre"
+    title: "A Course in Arithmetic"
+    chapter: "4"
+    section: "2"
+    pages: ""
+    role_in_book: "Central theorem characterizing when a quadratic form over Q_p is isotropic (represents zero nontrivially)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

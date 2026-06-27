@@ -1,0 +1,23 @@
+id: effectivized-first-order-logic
+title_en: "Effectivized First-Order Logic"
+title_zh: "可有效化的一阶逻辑"
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [effectivization, first-order-logic, godel-numbering, effective-language, lindstrom]
+depends_on:
+  required: [effectivized-general-logic, first-order-logic, effectivized-first-order-language]
+  recommended: [godel-numbering, weak-effectivized-general-logic]
+  suggested: [lindstroms-theorem, effective-lindstrom-theorem]
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "26"
+    section: "4"
+    pages: ""
+    role_in_book: "Definition of the effectivized version of first-order logic with recursive Gödel numbering"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

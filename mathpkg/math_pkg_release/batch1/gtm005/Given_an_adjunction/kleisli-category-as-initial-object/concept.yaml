@@ -1,0 +1,23 @@
+id: kleisli-category-as-initial-object
+title_en: "Kleisli Category as Initial Object in the Category of Resolutions"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [monad, kleisli-category, initial-object, adjunction, resolution, mac-lane]
+depends_on:
+  required: [monad, kleisli-category-of-a-monad, comparison-theorem-for-kleisli-construction, eilenberg-moore-category]
+  recommended: [map-of-adjunctions]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "5. Free Algebras for a Monad"
+    pages: ""
+    role_in_book: "Summarizes the comparison theorems by stating that the Kleisli adjunction is the initial object in the category of adjunctions defining a given monad"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

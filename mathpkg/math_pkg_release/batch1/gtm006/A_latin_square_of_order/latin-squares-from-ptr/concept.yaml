@@ -1,0 +1,23 @@
+id: latin-squares-from-ptr
+title_en: "Latin Squares from Planar Ternary Rings"
+title_zh: "从平面三元环构造拉丁方"
+type: lemma
+domain: combinatorics
+subdomain: latin-squares
+difficulty: intermediate
+tags: [latin-square, planar-ternary-ring, mols, orthogonality]
+depends_on:
+  required: [latin-square, orthogonal-latin-squares]
+  recommended: [planar-ternary-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "5"
+    section: "5. Latin Squares"
+    pages: ""
+    role_in_book: "Lemma 5.7 — bridges PTRs and mutually orthogonal Latin squares"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

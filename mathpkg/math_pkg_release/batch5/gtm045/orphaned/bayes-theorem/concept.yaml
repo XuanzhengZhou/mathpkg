@@ -1,0 +1,13 @@
+id: bayes-theorem
+title_en: "Bayes Theorem"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: conditioning
+difficulty: basic
+tags: [bayes, inverse-probability, posterior]
+depends_on: {required: ["conditional-probability", "total-probability-rule"], recommended: [], suggested: []}
+source_books: [{book_id:"gtm045",author:"Michel Loève",title:"Probability Theory I",chapter:"Introductory Part, III",section:"1. Conditional probabilities",pages:"",role_in_book:"Formula for inverse probabilities (posterior given prior and likelihood)"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

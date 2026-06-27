@@ -1,0 +1,23 @@
+id: boolean-algebra-invariant-automorphisms
+title_en: "Only 0 and 1 Are Invariant Under All Automorphisms of B*"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [boolean-algebra, automorphism, regular-open-sets, forcing, independence]
+depends_on:
+  required: [complete-boolean-algebra, regular-open-algebra, partial-order-forcing]
+  recommended: [automorphism-group]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "19"
+    section: "19"
+    pages: ""
+    role_in_book: "Characterizes the Boolean algebra used for independence of V=L as rigid up to automorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

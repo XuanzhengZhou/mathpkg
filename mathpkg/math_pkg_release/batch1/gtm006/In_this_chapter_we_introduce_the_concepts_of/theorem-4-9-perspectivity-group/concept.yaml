@@ -1,0 +1,29 @@
+id: theorem-4-9-perspectivity-group
+title_en: 'Theorem 4.9: Perspectivity Subgroup Structure'
+title_zh: ''
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags:
+- perspectivity
+- collineation-group
+- subgroup
+depends_on:
+  required:
+  - perspectivity-central-collineation
+  - theorem-4-6-maximal-closed-baer-subset
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '5'
+  pages: ''
+  role_in_book: Establishes that perspectivities with given centre and axis form a
+    subgroup
+content_hash: d33dd66253fd
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

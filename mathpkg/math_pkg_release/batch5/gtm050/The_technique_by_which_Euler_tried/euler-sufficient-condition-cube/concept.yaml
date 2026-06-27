@@ -1,0 +1,23 @@
+id: euler-sufficient-condition-cube
+title_en: "Euler's sufficient condition: if p + q√-3 is a cube then p^2 + 3q^2 is a cube"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: intermediate
+tags: [euler, cube, z-sqrt-minus-3, cubic-form, sufficient-condition]
+depends_on:
+  required: [factorization-p2-plus-3q2, surd-multiplication-formula]
+  recommended: [euler-conjugate-cube]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem"
+    chapter: "2"
+    section: "2.3"
+    pages: ""
+    role_in_book: "The core sufficient condition Euler used to characterize cubes of form p^2+3q^2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

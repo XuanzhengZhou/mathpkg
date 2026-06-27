@@ -1,0 +1,23 @@
+id: p-adic-logarithm-extension
+title_en: "Extension of the p-adic Logarithm to C_p^×"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: p-adic-analysis
+difficulty: intermediate
+tags: [p-adic-logarithm, continuous-homomorphism, p-adic-units]
+depends_on:
+  required: [p-adic-logarithm]
+  recommended: [p-adic-absolute-value, principal-units]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "13"
+    section: "The Mellin Transform and p-adic L-function"
+    pages: ""
+    role_in_book: "Extension of the p-adic logarithm to the full multiplicative group of the completion, essential for defining the p-adic regulator and L-function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

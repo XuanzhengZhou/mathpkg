@@ -1,0 +1,6 @@
+For an arbitrary one-dimensional random walk with mean $\mu = 0$ and variance $0 < \sigma^2 < \infty$, the exit time $\mathbf{T}_N$ from $[-N,N]$ starting at $0$ satisfies
+$$\lim_{N \to \infty} P_0\left[ \mathbf{T}_N > x \frac{N^2}{\sigma^2} \right] = 1 - F(x), \quad x > 0,$$
+where
+$$F(x) = 1 - \frac{4}{\pi} \sum_{j=0}^{\infty} \frac{(-1)^j}{2j+1} e^{-\frac{\pi^2}{8}(2j+1)^2 x},$$
+with $F(0) = 0$, $F(\infty) = 1$. The Laplace transform of $F$ is
+$$\int_0^\infty e^{-sx} \, dF(x) = (\cosh \sqrt{2s})^{-1}.$$

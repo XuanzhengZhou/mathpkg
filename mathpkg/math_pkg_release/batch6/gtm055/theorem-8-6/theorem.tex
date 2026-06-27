@@ -1,0 +1,31 @@
+The positive and negative variations $\mu_+$ and $\mu_-$ of a signed measure $\mu$ on a measurable space $(X, S)$ are measures on $(X, S)$, one of which at least is finite, and $\mu = \mu_+ - \mu_-$ setwise on $S$. Moreover, $\mu_+$ and $\mu_-$ are minimal in this respect in the sense that if $v_1$ and $v_2$ are any two measures on $(X, S)$ such that $\mu = v_1 - v_2$, then there exists a finite measure $\delta$ on $(X, S)$ such that $v_1 = \mu_+ + \delta$ and $v_2 = \mu_- + \delta$. If $\mu$ is finite or $\sigma$-finite, then so are $\mu_+$ and $\mu_-$.
+
+Proof. It is clear that $\mu_+$ and $\mu_-$ are measures, one of which is necessarily finite, that both are finite (or $\sigma$-finite) if $\mu$ is, and that $\mu = \mu_+ - \mu_
+
+integrable both $[\mu_+]$ and $[\mu_-]$. If $f$ is integrable $[\mu]$, then the integral of $f$ with respect to $\mu$ is defined to be
+
+$$\int_X f \, d\mu = \int_X f \, d\mu_+ - \int_X f \, d\mu_-.$$
+
+Example J. Let $g$ be a real-valued function of bounded variation on a closed interval of real numbers $[a, b]$, $a \leq b$. (See Problems 1I, 1J, and 1K for definitions and terminology.) Then there exists a unique signed measure $\mu_g$ on the $\sigma$-ring of Borel subsets of $[a, b]$ satisfying the conditions
+
+$$\mu_g((s, t)) = g(t-) - g(s+), \quad a \leq s < t \leq b,$$
+
+and
+
+$$\mu_g(\{a\}) = g(a+) - g(a), \quad \mu_g(\{b\}) = g(b) - g(b-).$$
+
+Indeed, if we write $g_+$ and $g_-$ for the positive and negative variations, respectively, of $g$ on the interval $[a, b]$, then $g_+$ and $g_-$ are monotone increasing functions on $[a, b]$ satisfying the condition
+
+$$g(t) - g(a) = g_+(t) - g_-(t), \quad a \leq t \leq b.$$
+
+Hence, if $v_1$ and $v_2$ denote the Stieltjes–Borel measures associated with $g_+$ and $g_-$, respectively, as in Example E, then the signed measure $\mu_g = v_1 - v_2$ has the prescribed properties. Just as in Example E, if $g$ is normalized so as to make $g(t+) = g(t)$ for all $a < t < b$, then the formulas
+
+$$\mu_g((s, t)) = g(t) - g(s), \quad a < s \leq t \leq b,$$
+
+$$\mu_g([a, t]) = g(t) - g(a), \quad
+
+that if $\{E_1, \ldots, E_n\}$ is any finite partition of $X$ into disjoint measurable sets, then the sum
+
+$$\sum_{i=1}^{n} |\zeta(E_i)|$$
+
+is dominated by the finite number $\mu_+(X) + \mu_-(X) + v_+(X) + v_-(X)$. The supremum of the set of sums of the form (7), taken over the set of all finite partitions of $X$ into measurable subsets, is therefore a finite real number called the total variation of $\zeta$. More generally, we define the total variation of $\zeta$ over each measurable set $E$ to be the total variation of the complex measure $\zeta|E$ obtained by restricting $\zeta$ to the measurable subsets of $E$ (Ex. 7M). The total variation of $\zeta$ over $E$ will be denoted by $|\zeta|(E)$, so that the total variation of $\zeta$ is given by $|\zeta|(X)$. The reader will note that this defines the total variation of a finite signed measure, since a finite signed measure is a complex measure; a discussion of the total variation of an arbitrary signed measure may be found in Problem U(i). The following proposition, whose proof is left as an exercise (Prob. U(ii)), summarizes the elementary facts concerning the total variation of a complex measure.

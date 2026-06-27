@@ -1,0 +1,17 @@
+Let $g: \mathbb{R}^{2n} \to \mathbb{R}^{2n}$ be a canonical transformation given by the functions $\mathbf{P}(\mathbf{p}, \mathbf{q})$ and $\mathbf{Q}(\mathbf{p}, \mathbf{q})$. In a neighborhood of every point $(\mathbf{p}_0, \mathbf{q}_0)$ at least one of the $2^n$ sets of functions $(P_i, Q_j, \mathbf{q})$ can be taken as independent coordinates on $\mathbb{R}^{2n}$:
+
+$$\det \frac{\partial(P_i, Q_j, \mathbf{q})}{\partial(p_i, p_j, \mathbf{q})} = \det \frac{\partial(P_i, Q_j)}{\partial(p_i, p_j)} \neq 0.$$
+
+In a neighborhood of such a point, the canonical transformation $g$ can be reconstructed from the function
+
+$$S_3(P_i, Q_j, \mathbf{q}) = (P_i Q_i) + \int \mathbf{p} \, d\mathbf{q} - \mathbf{P} \, d\mathbf{Q}$$
+
+by the relations
+
+$$\mathbf{p} = \frac{\partial S_3}{\partial \mathbf{q}}, \quad Q_i = \frac{\partial S_3}{\partial P_i}, \quad P_j = -\frac{\partial S_3}{\partial Q_j}.$$
+
+Conversely, if $S_3(P_i, Q_j, \mathbf{q})$ is any function for which the determinant
+
+$$\det\left( \frac{\partial^2 S_3}{\partial P \partial \mathbf{q}} \right)\bigg|_{P_0, \mathbf{q}_0}$$
+
+(with $P = (P_i, Q_j)$) is not zero, then the above relations give a canonical transformation in a neighborhood of the point $\mathbf{p}_0, \mathbf{q}_0$.

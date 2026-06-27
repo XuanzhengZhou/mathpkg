@@ -1,0 +1,23 @@
+id: linear-system-with-assigned-base-points
+title_en: "Linear System with Assigned Base Points"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [linear-system, base-points, divisors, blown-up-models, infinitely-near-points]
+depends_on:
+  required: [linear-system, divisor, base-point]
+  recommended: [blowing-up, infinitely-near-point, complete-linear-system]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Defines linear systems with assigned base points, including infinitely near ones"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

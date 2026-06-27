@@ -1,0 +1,23 @@
+id: rank-of-rk-g
+title_en: "The rank of R_K(G) equals the number of Γ_K-classes"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: ["representation-theory", "galois-theory", "rationality", "character-theory", "rank"]
+depends_on:
+  required: ["gamma-k-conjugacy", "irreducible-character"]
+  recommended: ["galois-theory", "group-algebra", "grothendieck-group"]
+  suggested: ["schur-index", "brauer-theorem"]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "12"
+    section: "12.4"
+    pages: ""
+    role_in_book: "Main theorem of Section 12.4: determines the rank (number of irreducible representations) of R_K(G) over an arbitrary field K of characteristic zero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

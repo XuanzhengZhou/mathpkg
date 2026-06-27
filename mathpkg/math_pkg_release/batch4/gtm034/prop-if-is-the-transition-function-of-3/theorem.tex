@@ -1,0 +1,49 @@
+If $P$ is the transition function of an aperiodic recurrent random walk, then the only non-negative functions regular relative to $
+
+Since $f$ is a regular function
+
+$$E_0[f(x_n)] = \sum_{z \in R} P_n(0,x)f(x) = f(0) = \alpha$$
+
+for every $n \geq 0$. Similarly
+
+$$E_z[f(x_n)] = f(x)$ for all $x$ in $R$.
+
+Therefore
+
+$$\alpha = E_0[f(x_n)] \geq E_0[f(x_n); T \leq n]$$
+
+$$= \sum_{k=1}^{n} E_0[f(x_n); T = k]$$
+
+$$= \sum_{k=1}^{n} P_0[T = k]E_z[f(x_{n-k}) = \sum_{k=1}^{n} P_0[T = k]f(z)$$
+
+$$= \beta P_0[T \leq n],$$
+
+for each $n \geq 1$.
+
+Hence
+
+$$\alpha \geq \beta \lim_{n \to \infty} P_0[T \leq n] = \beta,$$
+
+and this contradicts the assumption that $\beta > \alpha$.
+
+In Chapter VI we will encounter several other attacks on this problem—in particular an elementary proof of T24.1 to the effect that the only bounded regular functions for any aperiodic random walk are the constant functions. This weaker result holds in the transient case as well.
+
+The reader is now asked to agree that problems (i) and (ii) raised in section 11 have been completely answered. Problem (i) was disposed of through P12.1 and (ii) by P1 above. Therefore we have now completed the proof of every statement in section 11, in particular of the important T11.1. Now we are free to use T11.1 in proceeding further. We shall actually do so in connection with problem C, a little later on.
+
+Problem B. The classical problem in question is the Exterior Dirichlet Problem. Given a bounded domain (simply connected open set) in the plane whose boundary $\partial D$ is a sufficiently regular simple closed curve we seek a function $u(x)$ such that
+
+(i) $\Delta u = 0$ on the complement of $D + \partial D$
+
+(ii) $u(x) =
+
+This problem is known to have a unique solution. This is also the case in the discrete problem as we shall show in P2. The particularly simple representation of the solution in P2 below has the following classical counterpart. Associated with the domain $D$ is an exterior Green function $g_D(x,y)$ defined for $x$ and $y$ outside $D$. It is a harmonic function in each variable, except at the point $x = y$, where it has a logarithmic singularity. When $y$ is a point on the boundary we call the exterior normal derivative of $g_D(x,y)$
+
+$$H_D(x,y) = \frac{\partial}{\partial n} g_D(x,y), \quad x \in R - (D + \partial D), \quad y \in \partial D.$$
+
+Then the solution of the exterior Dirichlet problem has the representation as the line integral
+
+$$u(x) = \int_{\partial D} H_D(x,y)\varphi(y) \, dy.$$
+
+As the notation was intended to suggest, $H_D$ is the correct continuous analogue of the hitting probability measure $H_D(x,y)$ defined in D10.1, and the Green function $g_D$ is also the counterpart of $g_D$ in D10.1. (Unfortunately one has to look quite hard for the discrete analogue of the above relation between $H_D$ and $g_D$ by means of a normal derivative. It can be shown to be the very unassuming identity (c) in P10.1.)
+
+Here is now the random walk counterpart of problem B. The dimension of the random walk again is irrelevant to the conclusion (the reason being that we treat only recurrent random walk, so that $d \leq 2$ by T8.1).

@@ -1,0 +1,23 @@
+id: mean-monotonicity-of-martingales
+title_en: "Mean monotonicity of martingales, supermartingales, and submartingales"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: martingale-theory
+difficulty: basic
+tags: [martingale, supermartingale, submartingale, mean, monotonicity]
+depends_on:
+  required: [martingale, supermartingale, submartingale, conditional-expectation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "3"
+    section: "4"
+    pages: ""
+    role_in_book: "Lemma 3-10: Mean monotonicity property"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

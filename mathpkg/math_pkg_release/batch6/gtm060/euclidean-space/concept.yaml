@@ -1,0 +1,13 @@
+id: euclidean-space
+title_en: "Euclidean Space"
+title_zh: "欧几里得空间"
+type: definition
+domain: geometry
+subdomain: euclidean-geometry
+difficulty: basic
+tags: [euclidean-space, affine-space, distance, scalar-product]
+depends_on: {required:[affine-n-dimensional-space, euclidean-structure-on-rn], recommended:[], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"1",section:"2",pages:"5",role_in_book:"Notation — defines E^n as affine space with Euclidean distance"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

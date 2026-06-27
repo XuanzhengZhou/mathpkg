@@ -1,0 +1,23 @@
+id: unit-index-lemma
+title_en: "Unit Index Lemma — Relation to Class Numbers"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [unit-index, CM-field, class-number, regulator, Hasse]
+depends_on:
+  required: [unit-index]
+  recommended: [analytic-class-number-formula]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "3"
+    pages: "86-89"
+    role_in_book: "Core lemma: relation between unit index, class numbers, and regulator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

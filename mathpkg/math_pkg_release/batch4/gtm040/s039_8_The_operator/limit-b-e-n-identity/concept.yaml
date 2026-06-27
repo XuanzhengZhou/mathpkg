@@ -1,0 +1,23 @@
+id: limit-b-e-n-identity
+title_en: "Limit identity for B^E N^{(n)}"
+title_zh: "B^E N^{(n)}的极限恒等式"
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [truncated-potential, taboo-probability, finite-set]
+depends_on:
+  required: [truncated-potential, taboo-probability, b-matrix]
+  recommended: [mean-occupation-time, equilibrium-distribution]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Technical lemma for B^E-K identities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: serre-twisting-sheaf
+title_en: "Serre twisting sheaf O_X(n)"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [serre-twist, proj, graded-ring, invertible-sheaf, twisting-sheaf]
+depends_on:
+  required: []
+  recommended: [proj-construction, graded-ring, sheaf-of-modules, tensor-product-of-sheaves]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines the twisting sheaf O_X(n) on Proj of a graded ring, the fundamental tool for studying projective schemes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

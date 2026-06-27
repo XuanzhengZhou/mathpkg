@@ -1,0 +1,23 @@
+id: inf-convex-lemma
+title_en: "Convexity of Infimum over Convex Set"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: convex-analysis
+difficulty: basic
+tags: ["convex-function", "infimum", "projection"]
+depends_on:
+  required: ["convex-function-def"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§3"
+  section: "3.B"
+  pages: "12"
+  role_in_book: "constructing convex functions"
+content_hash: "8d01a0d8a6134c40"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

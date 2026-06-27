@@ -1,0 +1,23 @@
+id: proposition-175-lel-definitional-expansion-of-lnos
+title_en: "Proposition 17.5: (P, L_el) is a Definitional Expansion of (P, L_nos)"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: mathematical-logic
+difficulty: advanced
+tags: [definitional-expansion, elementary-language, formalized-syntax]
+depends_on:
+  required: [definition-174-language-lel-and-theory-p]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "Part 3"
+    section: "Decidable and Undecidable Theories"
+    pages: ""
+    role_in_book: "Establishes that the enriched language L_el with theory P is a definitional expansion of the base theory, meaning all new symbols are eliminable by explicit definitions while preserving provability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

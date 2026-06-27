@@ -1,0 +1,23 @@
+id: row-finite-matrix
+title_en: "Row-Finite Matrix"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [row-finite-matrix, infinite-matrix, linear-transformation, matrix-representation]
+depends_on:
+  required: [linear-transformation, basis-of-vector-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "A row-finite matrix is an I x J matrix in which each row has only finitely many non-zero entries. Such matrices represent linear transformations between infinite-dimensional vector spaces."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: separation-point-from-subspace
+title_en: "Lemma 14.10 (Separation of a Point from a Closed Subspace)"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [Hahn-Banach, normed-space, closed-subspace, separation, distance]
+depends_on:
+  required: [hahn-banach-pseudonorm-extension]
+  recommended: [normed-space, closed-linear-submanifold, distance-to-subspace]
+  suggested: []
+source_books:
+  - book_id: "gtm055"
+    author: "Arlen Brown, Carl Pearcy"
+    title: "Introduction to Operator Theory I"
+    chapter: "14"
+    section: "15"
+    pages: ""
+    role_in_book: "Key corollary of Hahn-Banach: separates a point from a closed subspace by a bounded functional"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: decomposition-group
+title_en: "Decomposition Group of a Prime Ideal"
+title_zh: "素理想的分解群"
+type: definition
+domain: algebra
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [dedekind-domain, galois-theory, prime-ideal, decomposition-group, ramification]
+depends_on:
+  required: [dedekind-domain, galois-extension]
+  recommended: [prime-ideal, automorphism-group]
+  suggested: [decomposition-field, inertia-group]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "10"
+    pages: "284"
+    role_in_book: "Definition in Section 10"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

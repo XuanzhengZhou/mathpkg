@@ -1,0 +1,23 @@
+id: montel-space
+title_en: "Montel Space (M-space)"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [montel-space, reflexive-space, compact-bounded, locally-convex-space]
+depends_on:
+  required: [reflexive-space, locally-convex-space]
+  recommended: [strong-topology, bounded-set]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition of Montel spaces as examples of reflexive spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

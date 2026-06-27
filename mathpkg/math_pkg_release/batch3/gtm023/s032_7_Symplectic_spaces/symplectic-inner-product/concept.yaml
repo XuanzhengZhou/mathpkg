@@ -1,0 +1,23 @@
+id: symplectic-inner-product
+title_en: "Symplectic Inner Product"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [symplectic, bilinear-form, non-degenerate, skew-symmetric]
+depends_on:
+  required: []
+  recommended: [bilinear-form, skew-symmetric-bilinear-form, non-degenerate-bilinear-form]
+  suggested: [inner-product-space]
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "7"
+    pages: "347-352"
+    role_in_book: "Defines the fundamental structure of symplectic geometry as a precursor to symplectic bases and transformations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: lattice-pseudo-norms-mackey-base
+title_en: "Lattice Pseudo-Norms as a Base for the Mackey Topology"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: ordered-linear-spaces
+difficulty: advanced
+tags: [lattice-pseudo-norm, Mackey-topology, order-dual, vector-lattice]
+depends_on:
+  required: [mackey-topology-order-dual-bound]
+  recommended: [order-dual]
+  suggested: [lattice-operations]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "ORDERED LINEAR SPACES"
+    pages: "224"
+    role_in_book: "Characterizes the Mackey topology via lattice pseudo-norms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

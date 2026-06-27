@@ -1,0 +1,23 @@
+id: characterization-of-transient-states
+title_en: "Characterization of Transient States via Expected Number of Visits"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, transient-state, expected-visits, recurrence]
+depends_on:
+  required: [recurrent-and-transient-states, identities-for-first-return-probabilities]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "7. Classification of states"
+    pages: ""
+    role_in_book: "Proposition 4-20: Characterizes transient states by the finiteness of the expected number of visits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

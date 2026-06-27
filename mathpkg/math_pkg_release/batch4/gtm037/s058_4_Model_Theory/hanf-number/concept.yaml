@@ -1,0 +1,23 @@
+id: hanf-number
+title_en: "Hanf Number"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [hanf-number, hanf-system, cardinal-characteristic]
+depends_on:
+  required: [hanf-system, hanf-number-existence-theorem]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "4"
+    section: "Model Theory"
+    pages: ""
+    role_in_book: "Definition 19.29: the Hanf number of a Hanf system is the least cardinal m satisfying Theorem 19.28"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

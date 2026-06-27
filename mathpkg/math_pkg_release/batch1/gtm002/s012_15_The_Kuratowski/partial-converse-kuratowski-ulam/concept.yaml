@@ -1,0 +1,23 @@
+id: partial-converse-kuratowski-ulam
+title_en: "Partial Converse of the Kuratowski-Ulam Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: baire-category
+difficulty: advanced
+tags: [baire-category, kuratowski-ulam, property-of-baire, first-category, section, product-space]
+depends_on:
+  required: [kuratowski-ulam-theorem, property-of-baire, first-category]
+  recommended: [baire-category-theorem, g-delta-set]
+  suggested: [brouwer-homeomorphism-theorem, fubini-theorem]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "15"
+    section: "15. The Kuratowski-Ulam Theorem"
+    pages: ""
+    role_in_book: "Theorem 15.4 — partial converse: if sections are a.e. first category, the set is first category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,73 @@
+Aperiodic transient random walk, $d = 1$, $m = \sum_{x \in R} |x| P(0,x) < \infty$, $\mu = \sum_{x \in R} xP(0,x)$. If $\mu > 0$, then
+
+$$\lim_{x \to +\infty} G(0,x) = \frac{1}{\mu}, \quad \lim_{x \to -\infty} G(0,x) = 0.$$
+
+If $\mu < 0$, the limits are reversed, and $(-\mu)^{-1}$ replaces $\mu^{-1}$.
+
+Proof: The proof uses in principle the same summation by parts as that of P2, which was given as P9.3 in Chapter II. Only far greater care is required in the present case. First we remark that the two limits
+
+$$\lim_{x \to +\infty} G(0,x) = G(0,+\infty), \quad \lim_{x \to -\infty} G(0,x) = G(0,-\infty)$$
+
+certainly exist. This is a consequence of P1, P3, and P4, for P1 states that $G(0,x) +
+
+then be recurrent). Conversely, if this identity holds, then P6 is true. For suppose $\mu > 0$ and it holds. Since we know from P4 that either $G(0, +\infty)$ or $G(0, -\infty)$ is zero, it follows that $G(0, +\infty) = \mu^{-1}$ and $G(0, -\infty) = 0$. If $\mu < 0$ one gets $G(0, -\infty) = (-\mu)^{-1}$ and $G(0, +\infty) = 0$.
+
+Finally, let us introduce some simplifying notation. Let
+
+$$f(a,b) = \sum_{z=a}^{b} P(0,x)$$
+
+where $a$ may be $-\infty$ and $b$ may be $+\infty$;
+
+$$\mu^{+} = \sum_{z=1}^{\infty} xP(0,x) = \sum_{a=1}^{\infty} f(a, +\infty),$$
+
+$$\mu^{-} = -\sum_{z=-\infty}^{-1} xP(0,x) = \sum_{b=-\infty}^{-1} f(-\infty,b),$$
+
+$$\mu = \mu^{+} - \mu^{-}.$$
+
+Now we define $u(x) = G(0,x)$, so that
+
+$$u(x) = \sum_{t=-\infty}^{\infty} u(t)P(0,x-t) + \delta(0,x), \quad x \in R.$$
+
+Taking $M$ and $N$ to be two positive integers, one obtains
+
+$$\sum_{z=-M}^{N} u(x) = \sum_{t=-\infty}^{\infty} u(t)f(-M-t,N-t) + 1.$$
+
+It is possible, by grouping terms properly, and changing variables of summation, to write this identity in the form
+
+$$1 = \sum_{s=0}^{N} u(N-s)[f(-\infty,s-N-M-1) + f(s+1,\infty)]$$
+
+$$+ \sum_{s=-M+1}^{0} u(-M-s)[f(-\infty,s-1) + f(M+N+s+1,\infty)]$$
+
+$$
+
+course used in an essential way and gives dominated convergence that justifies limit processes such as
+
+$$\lim_{N \to \infty} \sum_{s=0}^{N} u(N-s)f(s+1,\infty)$$
+
+$$= \lim_{N \to \infty} u(N) \sum_{s=0}^{\infty} f(s+1,\infty) = G(0,+\infty)\mu^+.$$
+
+In this way the above "decomposition of 1" becomes, as $N \to \infty$
+
+$$1 = \sum_{s=0}^{\infty} u(s)f(-\infty,-M-s-1) + G(0,+\infty)\mu^+$$
+
+$$+ \sum_{s=-M+1}^{0} u(-M-s)f(-\infty,s-1) + 0$$
+
+$$- G(0,+\infty)\mu^- - \sum_{s=-\infty}^{-1} u(-M+s)f(-s,\infty).$$
+
+(The terms have been kept in the original order to facilitate the verification.) Now let $M \to +\infty$. Then one gets
+
+$$1 = 0 + G(0,+\infty)\mu^+ + G(0,-\infty)\mu^- + 0$$
+
+$$- G(0,+\infty)\mu^- - G(0,-\infty)\mu^+$$
+
+$$= [G(0,+\infty) - G(0,-\infty)][\mu^+ - \mu^-]$$
+
+$$= [G(0,+\infty) - G(0,-\infty)]\mu.$$
+
+This is the desired result which implies P6.
+
+It now remains only to investigate transient one-dimensional random walk with $m = \infty$, and of course the desired result is
+
+$$\lim_{|z| \to \infty} G(0,x) = 0.$$
+
+Unfortunately this seems to be impossible to obtain from the methods developed so far in this chapter. Instead we make use of the rather more delicate apparatus of the "ladder" random variable $Z$ introduced in Chapter IV, D18.1. It was, by the way, in connection with the renewal theorem that $Z$ and the ladder random walk, consisting of partial sums of random variables with the same

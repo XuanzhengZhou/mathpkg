@@ -1,0 +1,11 @@
+---
+role: exercise
+locale: en
+chapter: "X"
+section: "13"
+exercise_number: "3e"
+---
+
+If $\mu$ is a measure on the class of Borel subsets of a separable, complete metric space $X$, and $\mathbf{C}_0$ is the class of compact subsets of $X$ that have finite measure, then for every Borel set $E$,
+
+$$\mu(E) = \sup \{ \mu(C): E \supset C \in \mathbf{C}_0 \}.$$

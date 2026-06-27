@@ -1,0 +1,23 @@
+id: projection-operators-are-polynomials
+title_en: "Projection Operators of the Primary Decomposition are Polynomials in the Transformation"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [projection-operator, primary-decomposition, polynomial-transformation, generalized-eigenspace]
+depends_on:
+  required: [primary-decomposition-via-minimum-polynomial, kernel-of-polynomial-transformation]
+  recommended: [polynomial-evaluation-homomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "13"
+    section: "13.5"
+    pages: ""
+    role_in_book: "Shows the projection operators of the primary decomposition are polynomial expressions in the original transformation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

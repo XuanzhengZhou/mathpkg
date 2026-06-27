@@ -1,0 +1,23 @@
+id: small-complete-category
+title_en: "Small-Complete Category"
+title_zh: "小完备范畴"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [category, limit, complete, small-complete]
+depends_on:
+  required: []
+  recommended: [category, functor, limit, small-category]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines completeness of categories, foundational for the chapter on limits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

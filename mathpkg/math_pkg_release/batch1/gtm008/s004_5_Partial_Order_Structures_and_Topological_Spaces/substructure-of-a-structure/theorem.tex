@@ -1,0 +1,9 @@
+If $\mathbf{A} = \langle A, R_0^{\mathbf{A}}, \ldots, R_n^{\mathbf{A}}, c_0^{\mathbf{A}}, \ldots, c_m^{\mathbf{A}} \rangle$ and
+$\mathbf{B} = \langle B, R_0^{\mathbf{B}}, \ldots, R_n^{\mathbf{B}}, c_0^{\mathbf{B}}, \ldots, c_m^{\mathbf{B}} \rangle$
+are two structures for the language $\mathcal{L}$, then $\mathbf{A}$ is a \textit{substructure} of $\mathbf{B}$, denoted $\mathbf{A} \subseteq \mathbf{B}$, iff:
+\begin{enumerate}
+\item $A \subseteq B$.
+\item For each $R_i$, $i = 0, \ldots, n$, if $R_i$ is $p$-ary then $\forall a_1, \ldots, a_p \in A$,
+$R_i^{\mathbf{A}}(a_1, \ldots, a_p) \leftrightarrow R_i^{\mathbf{B}}(a_1, \ldots, a_p)$.
+\item $c_j^{\mathbf{A}} = c_j^{\mathbf{B}}$ for $j = 0, \ldots, m$.
+\end{enumerate}

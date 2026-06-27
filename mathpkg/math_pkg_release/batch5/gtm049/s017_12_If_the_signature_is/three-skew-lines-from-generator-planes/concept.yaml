@@ -1,0 +1,23 @@
+id: three-skew-lines-from-generator-planes
+title_en: "Three Skew Generators from Planes through a Generator"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: quadric-geometry
+difficulty: intermediate
+tags: [quadric, generator, skew-lines, projective-geometry, ruling]
+depends_on:
+  required: [plane-through-generator-conic-decomposition]
+  recommended: [generator-self-orthogonal, skew-lines]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K. W. Gruenberg and A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "Exercises 14"
+    pages: ""
+    role_in_book: "Shows that three planes through a generator yield three pairwise skew generators"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

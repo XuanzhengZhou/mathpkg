@@ -1,0 +1,23 @@
+id: solution-set-condition-for-colimits
+title_en: "Solution set condition for existence of colimits"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [colimit, solution-set-condition, locally-small, small-limits, adjoint-functor-theorem, diagram-scheme]
+depends_on:
+  required: [category-of-diagrams, colimit-via-free-over-constant-diagram, embedding-functor-preserves-limits, solution-set-condition]
+  recommended: [general-adjoint-functor-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "7"
+    section: "7.1"
+    pages: ""
+    role_in_book: "Theorem 7.4; necessary and sufficient condition for all Δ-diagrams to have colimits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

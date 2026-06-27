@@ -1,0 +1,13 @@
+id: reflects-coequalizers
+title_en: "Reflects Coequalizers"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [reflects-coequalizers, coequalizer, functor, reflection]
+depends_on: {required: [coequalizer, reflects-colimits], recommended: [fork-in-a-category], suggested: []}
+source_books: [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "VI. Monads and Algebras", section: "7. Beck's Theorem", pages: "", role_in_book: "Defines when a functor reflects coequalizers, a special case of reflecting colimits"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

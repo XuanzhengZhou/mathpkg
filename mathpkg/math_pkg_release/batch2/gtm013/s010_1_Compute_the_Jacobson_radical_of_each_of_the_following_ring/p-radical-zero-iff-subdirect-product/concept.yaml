@@ -1,0 +1,23 @@
+id: p-radical-zero-iff-subdirect-product
+title_en: "The P-radical is Zero iff the Ring is a Subdirect Product of Rings in P"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [radical, subdirect-product, jacobson-radical, primitive-ring]
+depends_on:
+  required: [p-radical-is-ideal, subdirect-product]
+  recommended: [jacobson-radical]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "15"
+    pages: ""
+    role_in_book: "characterization of rings with zero P-radical"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

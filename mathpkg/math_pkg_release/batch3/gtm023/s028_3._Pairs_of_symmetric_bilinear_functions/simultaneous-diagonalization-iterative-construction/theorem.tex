@@ -1,0 +1,11 @@
+Let $E$ be a real vector space of dimension $n$, and let $\Phi$ and $\Psi$ be symmetric bilinear functions on $E$ satisfying the conditions of the simultaneous diagonalization theorem. Assume $\Psi$ is non-degenerate. Then, by iteratively applying the construction of section 9.14, there exists a basis $\{e_v\}_{v=1}^n$ of $E$ and real numbers $\lambda_1, \ldots, \lambda_n$ such that:
+\begin{enumerate}
+\item $\Phi(e_v, y) = \lambda_v \Psi(e_v, y)$ for all $y \in E$ and $v = 1, \ldots, n$,
+\item $\Psi(e_v, e_v) \neq 0$ for all $v$,
+\item $\Psi(e_v, e_\mu) = 0$ for $v \neq \mu$.
+\end{enumerate}
+After rearranging the basis vectors and normalizing, one obtains
+$$\Psi(e_v, e_\mu) = \varepsilon_v \delta_{v\mu}, \quad \varepsilon_v = \begin{cases} +1 & (v = 1, \ldots, s) \\ -1 & (v = s+1, \ldots, n) \end{cases}$$
+where $s$ is the signature of $\Psi$. Moreover,
+$$\Phi(e_v, e_\mu) = \lambda_v \varepsilon_v \delta_{v\mu}.$$
+Thus both $\Phi$ and $\Psi$ are diagonal in the basis $\{e_v\}$.

@@ -1,0 +1,20 @@
+id: omega-is-check-omega
+title_en: "Omega is Absolute: [omega = \check{\omega}] = 1"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: intermediate
+tags: [boolean-valued-models, omega, absoluteness, natural-numbers]
+depends_on: {required: [], recommended: [omega-induction-boolean-valued, empty-set-boolean-valued, successor-ordinal-embedding-boolean-valued], suggested: []}
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti; Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "13"
+    section: "13. Boolean-Valued Set Theory"
+    pages: ""
+    role_in_book: "Example 6 - The set of natural numbers is absolute for V^(B)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: hirzebruch-riemann-roch
+title_en: "Hirzebruch-Riemann-Roch Theorem"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [riemann-roch, chern-classes, chern-character, todd-class, euler-characteristic, intersection-theory]
+depends_on:
+  required: [chern-classes, chern-character, todd-class, euler-characteristic-of-sheaf]
+  recommended: [riemann-roch-for-curves, riemann-roch-for-surfaces, intersection-theory]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "IV"
+    section: "1"
+    pages: "pages 449-450"
+    role_in_book: "Central theorem of Chapter IV; generalizes the Riemann-Roch theorem from curves and surfaces to varieties of arbitrary dimension using Chern classes and the Todd class."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

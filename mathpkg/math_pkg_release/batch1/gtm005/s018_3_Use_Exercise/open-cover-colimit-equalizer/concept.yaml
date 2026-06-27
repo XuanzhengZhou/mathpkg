@@ -1,0 +1,23 @@
+id: open-cover-colimit-equalizer
+title_en: "Open Cover as Colimit Equalizer Diagram"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: category-theory
+difficulty: intermediate
+tags: [colimit, equalizer, open-cover, hom-functor, restriction]
+depends_on:
+  required: [top-category, equalizer, colimit]
+  recommended: [hom-functor]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IV. Adjoints"
+    section: "9. Adjoints in Topology"
+    pages: ""
+    role_in_book: "Categorical expression of the gluing condition for continuous maps"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

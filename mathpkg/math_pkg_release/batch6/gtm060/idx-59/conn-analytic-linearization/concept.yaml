@@ -1,0 +1,23 @@
+id: conn-analytic-linearization
+title_en: "Conn's Theorem on Linearization of Analytic Poisson Structures"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: poisson-geometry
+difficulty: advanced
+tags: [poisson-structure, linearization, analytic, semisimple, normal-form]
+depends_on:
+  required: [transverse-poisson-structure]
+  recommended: [poisson-manifold]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "B. Poisson Mappings"
+    pages: "469-479"
+    role_in_book: "States that semisimple analytic Poisson structures can be linearized by an analytic change of coordinates"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

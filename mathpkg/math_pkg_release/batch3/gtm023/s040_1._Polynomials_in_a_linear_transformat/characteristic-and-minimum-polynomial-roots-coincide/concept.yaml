@@ -1,0 +1,23 @@
+id: characteristic-and-minimum-polynomial-roots-coincide
+title_en: "The minimum polynomial and characteristic polynomial share the same roots"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [characteristic-polynomial, minimum-polynomial, eigenvalues, root]
+depends_on:
+  required: [eigenvalues-are-roots-of-minimum-polynomial, characteristic-polynomial]
+  recommended: [determinant]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "§1. Polynomials in a linear transformation"
+    pages: ""
+    role_in_book: "Relates minimum and characteristic polynomials; states that the minimum polynomial divides the characteristic polynomial"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

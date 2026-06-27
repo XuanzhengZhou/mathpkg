@@ -1,0 +1,23 @@
+id: hom-functor-preserves-limits
+title_en: "Hom-functor preserves limits"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [limits, hom-functor, preservation, representable-functor, yoneda]
+depends_on:
+  required: [hom-functor, limit-of-functor, preservation-of-limits, set-category]
+  recommended: [yoneda-lemma]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "4. Preservation of Limits"
+    pages: ""
+    role_in_book: "Theorem 1: fundamental property — hom-functors are continuous"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

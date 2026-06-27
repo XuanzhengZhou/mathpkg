@@ -1,0 +1,23 @@
+id: absolutely-convex-ideal-equivalence
+title_en: "Equivalent Characterizations of Absolutely Convex Ideals"
+title_zh: "绝对凸理想的等价刻画"
+type: theorem
+domain: algebra
+subdomain: ordered-rings
+difficulty: intermediate
+tags: [absolutely-convex-ideal, lattice-ordered-ring, quotient-ring, lattice-homomorphism, sublattice]
+depends_on:
+  required: [absolutely-convex-ideal, convex-ideal]
+  recommended: [lattice-ordered-ring, lattice-homomorphism, absolute-value]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.3"
+    pages: ""
+    role_in_book: "Gives five equivalent conditions for a convex ideal to be absolutely convex; central to understanding when the quotient ring becomes a lattice"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

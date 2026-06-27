@@ -1,0 +1,1 @@
+Weak convergence generalizes norm convergence: every norm-convergent sequence converges weakly, but not conversely. Weak compactness of bounded sets in $L^p$ ($1 < p < \infty$) is a crucial tool in existence proofs.

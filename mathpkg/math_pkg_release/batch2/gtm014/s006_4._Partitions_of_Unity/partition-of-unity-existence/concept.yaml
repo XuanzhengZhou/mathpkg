@@ -1,0 +1,23 @@
+id: partition-of-unity-existence
+title_en: "Existence of Partitions of Unity"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [partition-of-unity, differentiable-manifold, locally-finite, smooth-function, subordinate-cover]
+depends_on:
+  required: [covering-of-a-topological-space, locally-finite-covering, refinement-of-a-covering, locally-finite-refinement-for-manifolds]
+  recommended: [smooth-bump-function, differentiable-manifold]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky and V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "1"
+    section: "4"
+    pages: "28"
+    role_in_book: "Theorem 4.6; the main result of this section, fundamental to global analysis on manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

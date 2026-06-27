@@ -1,0 +1,23 @@
+id: modular-form-definition
+title_en: "Modular Form and Cusp Form"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: basic
+tags: ["modular-form", "cusp-form", "holomorphic", "weight"]
+depends_on:
+  required: ["modular-function-definition", "weak-modularity-conditions"]
+  recommended: ["q-expansion"]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the central objects of study in the chapter."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

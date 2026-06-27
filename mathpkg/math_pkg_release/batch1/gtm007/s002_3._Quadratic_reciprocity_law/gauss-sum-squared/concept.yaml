@@ -1,0 +1,23 @@
+id: gauss-sum-squared
+title_en: "Lemma 1: Square of the quadratic Gauss sum"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: gauss-sums
+difficulty: intermediate
+tags: [gauss-sum, legendre-symbol, quadratic-reciprocity, roots-of-unity]
+depends_on:
+  required: [legendre-symbol, epsilon-omega-functions]
+  recommended: [finite-fields, roots-of-unity]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "I"
+    section: "§3"
+    pages: ""
+    role_in_book: "Key computational lemma in the Gauss sum proof of quadratic reciprocity; computes the square of the quadratic Gauss sum"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

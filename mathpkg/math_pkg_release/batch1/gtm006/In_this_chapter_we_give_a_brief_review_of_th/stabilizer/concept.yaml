@@ -1,0 +1,23 @@
+id: stabilizer
+title_en: "Stabilizer (Pointwise Stabilizer)"
+title_zh: "稳定子群"
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [stabilizer, point-stabilizer, group-action, isotropy]
+depends_on:
+  required: [permutation-group]
+  recommended: [orbit-and-transitivity]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "1"
+    section: "3"
+    pages: ""
+    role_in_book: "Stabilizer concept central to orbit-stabilizer theorem and Frobenius groups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

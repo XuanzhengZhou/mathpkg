@@ -1,0 +1,23 @@
+id: maximal-chain
+title_en: "Maximal Chain in a Partially-Ordered Set"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: order-theory
+difficulty: basic
+tags: [maximal-chain, poset, chain, maximal-element]
+depends_on:
+  required: [chain-in-poset, partially-ordered-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "2"
+    section: "IIB"
+    pages: "41-48"
+    role_in_book: "Defines maximal chain and characterizes its extremal elements"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

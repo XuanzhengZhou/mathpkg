@@ -1,0 +1,23 @@
+id: local-triviality-of-stiefel-projection
+title_en: "Local Triviality of the Projection from the Stiefel Manifold to the Grassmannian"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: fibre-bundles
+difficulty: advanced
+tags: [stiefel-variety, grassmannian, local-triviality, principal-bundle, classical-groups]
+depends_on:
+  required: [stiefel-manifold, grassmannian-manifold, gram-schmidt-map-on-stiefel-variety, orthogonal-projection-invariance-under-frame-change]
+  recommended: [stiefel-manifold-as-principal-bundle, locally-trivial-bundle]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "8"
+    section: "3"
+    pages: ""
+    role_in_book: "Main theorem of Section 3: proves that the Stiefel-Grassmann projection is a locally trivial principal bundle with elementary geometric methods"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

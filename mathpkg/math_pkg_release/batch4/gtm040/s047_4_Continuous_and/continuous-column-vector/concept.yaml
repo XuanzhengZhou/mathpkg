@@ -1,0 +1,23 @@
+id: continuous-column-vector
+title_en: "Continuous Column Vector"
+title_zh: "连续列向量"
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [continuous-function, compactification, markov-chain-boundary]
+depends_on:
+  required: []
+  recommended: [martin-boundary, stone-cech-compactification]
+  suggested: [elementary-continuous-function]
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines continuity for column vectors via extension to the Martin compactification"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: complex-approximation-cohomology
+title_en: "Complex Approximation Lemma for Cohomology"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [homological-algebra, complex, free-resolution, flatness, cohomology, finitely-generated]
+depends_on:
+  required: [noetherian-ring, complex-of-modules, flat-module, finitely-generated-module]
+  recommended: [free-module, homology, projective-resolution]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "12"
+    pages: ""
+    role_in_book: "Lemma 12.3 — key algebraic lemma enabling the study of T^i via free complexes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,24 @@
+id: hopkins-theorem
+title_en: "Hopkins' Theorem (Left Artinian Implies Left Noetherian)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: advanced
+tags: [hopkins-theorem, left-artinian, left-noetherian, nilpotent-radical, semisimple]
+depends_on:
+  required: [left-artinian-ring, left-noetherian-ring, jacobson-radical]
+  recommended: [semisimple-ring, composition-series]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "9"
+    section: "15"
+    pages: ""
+    role_in_book: "Theorem 15.20 (Hopkins)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"
+note: "OCR text is incomplete; the statement of the theorem is truncated. The standard Hopkins theorem states: R is left artinian iff R is left noetherian, J(R) is nilpotent, and R/J(R) is semisimple."

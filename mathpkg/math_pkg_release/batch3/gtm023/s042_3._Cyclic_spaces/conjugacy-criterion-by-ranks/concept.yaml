@@ -1,0 +1,23 @@
+id: conjugacy-criterion-by-ranks
+title_en: "Conjugacy Criterion by Ranks of Polynomials"
+title_zh: "用多项式秩判断共轭性"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [conjugate-linear-transformations, minimum-polynomial]
+  recommended: [rank, polynomial-in-transformation, irreducible-decomposition]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Two transformations are conjugate iff they have the same minimum polynomial and equal ranks for all polynomial iterates"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

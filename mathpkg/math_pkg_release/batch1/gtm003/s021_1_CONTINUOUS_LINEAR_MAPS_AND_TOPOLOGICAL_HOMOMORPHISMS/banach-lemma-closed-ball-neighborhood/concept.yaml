@@ -1,0 +1,23 @@
+id: banach-lemma-closed-ball-neighborhood
+title_en: "Banach's lemma: closed ball neighborhood implies open mapping"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [banach, open-mapping, complete-metric, topological-homomorphism, pseudonorm]
+depends_on:
+  required: []
+  recommended: [topological-homomorphism, complete-metric-tvs, pseudonorm]
+  suggested: [baire-category-theorem]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "2"
+    pages: ""
+    role_in_book: "Lemma preparatory to Banach's homomorphism theorem (Theorem 2.1)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

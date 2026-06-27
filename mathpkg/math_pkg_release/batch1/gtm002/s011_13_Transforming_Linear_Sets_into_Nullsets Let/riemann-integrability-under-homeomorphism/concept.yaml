@@ -1,0 +1,23 @@
+id: riemann-integrability-under-homeomorphism
+title_en: "Riemann Integrability of Composite Function under Homeomorphism"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: real-analysis
+difficulty: advanced
+tags: [riemann-integrability, homeomorphism, first-category, nullset, countable-set, sigma-ideal, points-of-discontinuity]
+depends_on:
+  required: [first-category-to-nullset]
+  recommended: [riemann-integrability-criterion, first-category-set, lebesgue-measure, homeomorphism, f-sigma-set]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "13"
+    section: "Transforming Linear Sets into Nullsets"
+    pages: ""
+    role_in_book: "Synthesizes the three sigma-ideals (countable, first category, nullset) via Riemann integrability of f∘h under homeomorphic change of variable."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: serre-lemma-ad-xk-yij
+title_en: "Serre's Lemma: ad x_k Kills the Serre Elements y_{ij}"
+title_zh: "Serre 引理：ad x_k 消灭 Serre 元 y_{ij}"
+type: lemma
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [serre-theorem, serre-relations, adjoint-action, semisimple-lie-algebra, root-system]
+depends_on:
+  required: [generators-relations-semisimple, free-lie-algebra]
+  recommended: [semisimple-lie-algebra, cartan-matrix]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "VI"
+    section: "18"
+    pages: "102-114"
+    role_in_book: "Technical lemma in the proof of Serre's Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

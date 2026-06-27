@@ -1,0 +1,23 @@
+id: unit-group-idele-lemma
+title_en: "Unit Group and Idele Lemma"
+title_zh: "单位群与伊代尔引理"
+type: lemma
+domain: number-theory
+subdomain: class-field-theory
+difficulty: advanced
+tags: [idele-group, unit-group, class-field-theory, closure, topology]
+depends_on:
+  required: [maximal-p-abelian-unramified-extension]
+  recommended: [idele-class-group, adele-ring]
+  suggested: [profinite-topology]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "Iwasawa Theory and Ideal Class Groups"
+    pages: ""
+    role_in_book: "Relates the intersection of the unit idele group with the closure of K* to the p-adic completion of the global units."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

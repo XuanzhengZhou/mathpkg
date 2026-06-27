@@ -1,0 +1,23 @@
+id: cohomology-of-pushforward-sheaf
+title_en: "Cohomology of the pushforward sheaf equals cohomology on the subspace"
+title_zh: "推出层的上同调等于子空间上的上同调"
+type: lemma
+domain: geometry
+subdomain: sheaf-cohomology
+difficulty: intermediate
+tags: [cohomology, pushforward, closed-immersion, flasque-resolution]
+depends_on:
+  required: []
+  recommended: [flasque-sheaf, derived-functor-cohomology, direct-image-sheaf]
+  suggested: [grothendieck-vanishing-theorem]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "§2 Cohomology of Sheaves"
+    pages: "209"
+    role_in_book: "Lemma 2.10 — cohomology of j_*F on X equals cohomology of F on Y for a closed subset j: Y → X"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

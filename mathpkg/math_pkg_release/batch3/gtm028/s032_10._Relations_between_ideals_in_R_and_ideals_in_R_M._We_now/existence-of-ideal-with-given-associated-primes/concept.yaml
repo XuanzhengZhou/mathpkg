@@ -1,0 +1,23 @@
+id: existence-of-ideal-with-given-associated-primes
+title_en: "Existence of Ideal with Given Associated Primes"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [noetherian-ring, associated-prime, primary-decomposition, prime-ideal]
+depends_on:
+  required: [intersection-of-primary-ideals-for-p-in-noetherian-ring, primary-decomposition]
+  recommended: [associated-prime]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "III"
+    section: "10"
+    pages: ""
+    role_in_book: "Theorem 21; construction of an ideal with prescribed associated primes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

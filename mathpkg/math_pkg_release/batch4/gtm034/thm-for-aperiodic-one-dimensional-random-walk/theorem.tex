@@ -1,0 +1,47 @@
+For aperiodic one-dimensional random walk, with $\mu = 0$, $0 < \sigma^2 < \infty$,
+
+$$\frac{\sigma^2}{2N} g_N(x,y) - R\left(\frac{x}{N}, \frac{y}{N}\right) \to 0$$
+
+as $N \to \infty$, uniformly in $0 \leq x,y \leq N$. Here
+
+$$R(s,t) = \min(s,t) - st, \quad 0 \leq s,t \leq 1.$$
+
+Proof: Without loss of generality one may assume that $y \leq x$. The other case then can be obtained from the reversed random walk. Since $u(x) \to u > 0$, $v(x) \to v > 0$, we
+
+where the error term $\rho(x,y)$, defined for $0 \leq y \leq x$, has the property that
+
+$$|\rho(x,y)| \leq \sum_{k=0}^{y} \epsilon(k), \quad 0 \leq y \leq x,$$
+
+$\epsilon(n)$ being a fixed non-negative null sequence $(\lim_{n \to \infty} \epsilon(n) = 0)$.
+
+Using P1 one obtains
+
+$$\frac{\sigma^2}{2N} g_N(x,y) - R\left(\frac{x}{N}, \frac{y}{N}\right)$$
+
+$$= \frac{\sigma^2}{2N} g_N(x,y) - \frac{y}{N}\left(1 - \frac{x}{N}\right)$$
+
+$$= \frac{\sigma^2}{2N} g(x,y) - \frac{\sigma^2}{2N} \sum_{k=1}^{\infty} R_N(x,k)g(N+k,y) - \frac{y}{N}\left(1 - \frac{x}{N}\right)$$
+
+$$= \frac{y+1}{N} + \frac{1}{N}\rho(x,y) - \frac{y+1}{N}R_N(x)$$
+
+$$- \frac{1}{N} \sum_{k=1}^{\infty} R_N(x,k)\rho(N+k,y) - \frac{y}{N}\left(1 - \frac{x}{N}\right).$$
+
+Now it remains only to estimate the error terms. First we observe that
+
+$$\left|\frac{1}{N}\rho(x,y)\right| \leq \frac{1}{N} \sum_{k=0}^{y} \epsilon(k) \leq \frac{1}{N} \sum_{k=0}^{N} \epsilon(k),$$
+
+$$\left|\frac{1}{N} \sum_{k=1}^{\infty} R_N(x,k)\rho(N+k,y)\right| \leq \epsilon(y)\frac{y}{N} \leq \frac{1}{N} \sum_{k=0}^{N} \epsilon(k),$$
+
+so that these two terms tend to zero uniformly, as required. Let us call the sum of these two terms $\epsilon_N'$. Furthermore we have, in view
+
+Now we are in a position to harvest several interesting consequences of T1. We shall be quite selective and choose only three (cf. problems 6 and 7 for one more application). First of all, we can now prove P22.2 in the beginning of the last section, which to some extent motivated the development of T22.1 and T1, but which was never proved. We have to show that
+
+$$\lim_{N \to \infty} \frac{\sigma^2}{2N^2} \sum_{k=0}^{N} g_N([Nt],k)f\left(\frac{k}{N}\right) = \int_0^1 R(t,s)f(s)ds.$$
+
+Since $f(x)$ is bounded and since the convergence in T1 is uniform, we have
+
+$$\lim_{N \to \infty} \frac{\sigma^2}{2N^2} \sum_{k=0}^{N} g_N([Nt],k)f\left(\frac{k}{N}\right) = \lim_{N \to \infty} \frac{1}{N} \sum_{k=0}^{N} R\left(\frac{[Nt]}{N},\frac{k}{N}\right)f\left(\frac{k}{N}\right),$$
+
+and the last limit is of course the approximating sum of the desired Riemann integral.
+
+For an application which is no more profound, but probabilistically a lot more interesting, we shall study an occupation time problem. This problem will appear a little more natural if we change the absorbing interval from $[0,N]$ to $[-N,N]$, so that the process can start at a fixed point, say at the middle of the interval. Thus we shall make the following definitions.

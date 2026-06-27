@@ -1,0 +1,17 @@
+Let $a \in \mathbb{C}^N$ and let $n \geq 2$ be an integer. There exists $b \in \mathbb{C}^N$ such that $a = b^n$ if and only if the least $j$ for which $a_j \neq 0$ is an integral multiple of $n$.
+
+In lieu of a proof, we give a demonstration for $n = 2$, leaving the generalization to the reader as an Exercise.
+
+Let $a = b^2$ and let $k$ be the least integer for which $b_k \neq 0$. If $j$ is the least integer such that $a_j \neq 0$, then
+
+XIB Generating Functions
+
+If $a, b \in \mathbb{C}^N$, we say that $b(x) = \sum_{j=0}^{\infty} b_j x^j$ is a generating function for the sequence $a$ if there exists a vector space isomorphism $\varphi: \mathbb{C}^N \to \mathbb{C}^N$ such that $\varphi(a) = b$. (Thus $\varphi$ respects the two operations defined by A1 and A2.) Obviously a given sequence may have many different generating functions. In this section we shall confine our attention to the two most commonly used generating functions. If $\varphi$ is the identity function, then $\varphi(a)$ is called the ordinary generating function for $a$. If $\varphi$ is given by $\varphi(a) = \sum_{j=0}^{\infty} (a_j/j!) x^j$, then $\varphi(a)$ is called the exponential generating function for $a$. In the latter case,
+
+$$\varphi(a(x))\varphi(b(x)) = \sum_{k=0}^{\infty} \left( \sum_{j=0}^{k} \binom{k}{j} a_j b_{k-j} \right) x^k/k!$$
+
+while
+
+$$\varphi(a(x)b(x)) = \sum_{k=0}^{\infty} \left( \sum_{j=0}^{k} a_j b_{k-j} \right) x^k/k!$$
+
+and so $\varphi$ is not an algebra-isomorphism.

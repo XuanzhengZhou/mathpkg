@@ -1,0 +1,28 @@
+id: taylor-remainder-bound
+title_en: "Taylor Remainder Bound Lemma"
+title_zh: "泰勒余项界引理"
+type: lemma
+domain: analysis
+subdomain: taylor-expansion
+difficulty: intermediate
+tags:
+  - taylor-expansion
+  - remainder-bound
+  - norm-estimate
+  - smooth-functions
+  - convex-set
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky & Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "2. Stability Under Deformations"
+    pages: "130-133"
+    role_in_book: "Bounds the remainder coefficients in a Taylor expansion by the norm of the function, used in the proof of the generalized homotopic stability criterion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

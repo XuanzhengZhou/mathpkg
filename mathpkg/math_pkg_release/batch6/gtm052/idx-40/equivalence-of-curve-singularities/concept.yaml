@@ -1,0 +1,23 @@
+id: equivalence-of-curve-singularities
+title_en: "Equivalence of Curve Singularities"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [curve-singularities, classification, blowing-up, resolution, equivalence-relation]
+depends_on:
+  required: [infinitely-near-point, multiplicity]
+  recommended: [monoidal-transformation, strict-transform, normalization]
+  suggested: [analytic-isomorphism]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "3"
+    pages: "409-420"
+    role_in_book: "Remark 3.9.4; defines a new equivalence relation on curve singularities weaker than analytic isomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

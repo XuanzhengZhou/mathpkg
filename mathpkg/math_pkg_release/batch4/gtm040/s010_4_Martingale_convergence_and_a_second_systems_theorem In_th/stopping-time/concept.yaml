@@ -1,0 +1,23 @@
+id: stopping-time
+title_en: "Stopping time (random stopping time)"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: martingale-theory
+difficulty: intermediate
+tags: [stopping-time, random-time, filtration]
+depends_on:
+  required: [random-variable, filtration]
+  recommended: [martingale]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "3"
+    section: "4"
+    pages: ""
+    role_in_book: "Unnumbered definition preceding Lemma 3-14; essential for the Optional Stopping Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

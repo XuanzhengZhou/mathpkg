@@ -1,0 +1,23 @@
+id: discrete-ordering
+title_en: "Discrete Ordering"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: basic
+tags: [ordering, discrete, immediate-successor, immediate-predecessor]
+depends_on:
+  required: []
+  recommended: [linear-ordering, simple-ordering]
+  suggested: [henkins-embedding-theorem]
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "4"
+    section: "4"
+    pages: ""
+    role_in_book: "Definition used in example application of Henkin's Embedding Theorem (Theorem 19.13): every simple ordering embeds into a discrete ordering"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

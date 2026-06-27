@@ -1,0 +1,1 @@
+The norm of a formal power series with respect to a polyradius $t$ is the sum of absolute values of coefficients weighted by the monomials evaluated at $t$. This norm makes the space of power series with finite norm into a Banach algebra.

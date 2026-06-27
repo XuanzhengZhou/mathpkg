@@ -1,0 +1,23 @@
+id: conductor-localization-lemma
+title_en: "Lemma: Conductor behavior under localization"
+title_zh: "引理：导子在局部化下的行为"
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [conductor, localization, integral-closure, multiplicative-system]
+depends_on:
+  required: [conductor-of-integral-closure]
+  recommended: [localization, integral-closure, finite-module]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra. Vol. I"
+    chapter: "V"
+    section: "§5. The conductor of an integral closure"
+    pages: ""
+    role_in_book: "Key lemma on how the conductor behaves under localization"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

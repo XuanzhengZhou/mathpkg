@@ -1,0 +1,23 @@
+id: theorem-1-20-fourier-expansion-of-modular-j
+title_en: "Fourier expansion of the modular invariant J"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [klein-j-invariant, fourier-expansion, q-expansion, modular-function]
+depends_on:
+  required: [kleins-modular-function-j, ramanujan-tau-function]
+  recommended: [theorem-1-18-fourier-expansion-of-eisenstein-series]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "1"
+    section: "1.15"
+    pages: ""
+    role_in_book: "Theorem 1.20 - Gives the Fourier expansion of J(tau) with integer coefficients c(n)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

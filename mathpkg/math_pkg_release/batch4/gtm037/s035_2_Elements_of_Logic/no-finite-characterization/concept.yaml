@@ -1,0 +1,23 @@
+id: no-finite-characterization
+title_en: "No First-Order Characterization of Finiteness (Corollary 11.23)"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: first-order-logic
+difficulty: intermediate
+tags: [compactness-theorem, finiteness, first-order-limitation, model-theory, infinite-model, definability]
+depends_on:
+  required: [completeness-theorem, compactness-theorem]
+  recommended: [first-order-language, structure]
+  suggested: [lowenheim-skolem, trachtenbrot-theorem]
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "11"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Classic application of compactness: finiteness is not first-order definable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

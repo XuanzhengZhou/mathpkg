@@ -1,0 +1,29 @@
+id: omega-2-distributive-law-characterization
+title_en: "Characterization of (ω,2)-Distributive Law via Boolean-Valued Powerset"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags:
+  - boolean-valued-models
+  - distributive-laws
+  - powerset
+  - forcing
+depends_on:
+  required: []
+  recommended:
+    - subset-inclusion-of-powersets-in-boolean-valued-model
+  suggested:
+    - alpha-2-distributive-law-restricted-equivalence
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti; Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "18"
+    section: "18. Model Theoretic Consequences of the Distributive Laws"
+    pages: "170-171"
+    role_in_book: "Theorem 18.2: characterizes when a complete Boolean algebra satisfies the (ω,2)-distributive law in terms of equality of powersets in the Boolean-valued model"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

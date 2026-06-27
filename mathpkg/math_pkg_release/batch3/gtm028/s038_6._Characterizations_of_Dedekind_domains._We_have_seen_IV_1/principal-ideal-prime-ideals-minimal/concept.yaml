@@ -1,0 +1,23 @@
+id: principal-ideal-prime-ideals-minimal
+title_en: "Prime Ideals of Principal Ideals are Minimal"
+title_zh: "主理想的素理想是极小素理想"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [integrally-closed, noetherian-ring, principal-ideal, minimal-prime-ideal, associated-prime]
+depends_on:
+  required: [noetherian-ring, integrally-closed-domain]
+  recommended: [principal-ideal, prime-ideal, minimal-prime-ideal]
+  suggested: [dedekind-domain-noetherian-characterization]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "6"
+    pages: "275"
+    role_in_book: "Theorem 14"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

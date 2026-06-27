@@ -1,0 +1,23 @@
+id: vector-space-over-subfield
+title_en: "Vector Space Over a Subfield"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: field-theory
+difficulty: basic
+tags: [vector-space, subfield, scalar-restriction]
+depends_on:
+  required: [vector-space, field]
+  recommended: [subfield]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "5"
+    section: "§3. Change of coefficient field of a vector space"
+    pages: "173"
+    role_in_book: "viewing a vector space over a field as a vector space over a subfield"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

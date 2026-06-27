@@ -1,0 +1,33 @@
+id: complexification-criterion-for-real-and-quaternionic-modules
+title_en: "Criterion for a Complex G-Module to be the Complexification of a Real G-Module or Restriction of a Quaternionic G-Module"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: k-theory
+difficulty: advanced
+tags:
+  - representation-theory
+  - compact-lie-group
+  - real-representation
+  - quaternionic-representation
+  - hermitian-form
+  - symmetric-bilinear-form
+  - skew-symmetric-form
+depends_on:
+  required: []
+  recommended:
+    - relations-between-representation-rings
+    - representation-ring-of-compact-lie-group
+    - g-invariant-hermitian-form
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "11"
+    section: "11"
+    pages: "page_0218.json–page_0219.json"
+    role_in_book: "Determines when a complex representation comes from a real or quaternionic representation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

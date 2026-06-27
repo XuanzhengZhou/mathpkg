@@ -1,0 +1,23 @@
+id: poincare-birkhoff-witt-theorem
+title_en: "Poincaré-Birkhoff-Witt Theorem"
+title_zh: "Poincaré-Birkhoff-Witt 定理"
+type: theorem
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [pbw-theorem, universal-enveloping-algebra, symmetric-algebra, associated-graded-algebra, filtration]
+depends_on:
+  required: [universal-enveloping-algebra, symmetric-algebra]
+  recommended: [tensor-algebra, filtered-algebra, graded-algebra]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "V"
+    section: "17"
+    pages: "102-114"
+    role_in_book: "Fundamental structure theorem for universal enveloping algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

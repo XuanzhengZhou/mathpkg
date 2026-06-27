@@ -1,0 +1,23 @@
+id: thickened-fibre
+title_en: "Thickened fibre of a scheme over a point"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [scheme, fibre, nilpotent, formal-completion, infinitesimal-neighborhood]
+depends_on:
+  required: [scheme, fibre-product-of-schemes, local-ring, maximal-ideal, nilpotent-element]
+  recommended: [coherent-sheaf, pullback-sheaf]
+  suggested: [formal-scheme]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "11"
+    pages: "page_0294–page_0298"
+    role_in_book: "Preliminary definition for the Theorem on Formal Functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

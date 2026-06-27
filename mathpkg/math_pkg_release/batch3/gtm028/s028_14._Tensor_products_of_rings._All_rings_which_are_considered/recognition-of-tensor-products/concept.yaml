@@ -1,0 +1,23 @@
+id: recognition-of-tensor-products
+title_en: "Corollary 2 to Theorem 34: Recognition criterion for tensor products"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [tensor-product, recognition-criterion, homomorphism, isomorphism]
+depends_on:
+  required: [universal-property-of-tensor-product]
+  recommended: [product-of-algebras-over-k]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra. Vol. I."
+    chapter: "I"
+    section: "14. Tensor products of rings"
+    pages: ""
+    role_in_book: "Corollary 2 to Theorem 34. If a product of A and B admits a homomorphism into a tensor product respecting the embeddings, then it is itself a tensor product and the homomorphism is an isomorphism."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

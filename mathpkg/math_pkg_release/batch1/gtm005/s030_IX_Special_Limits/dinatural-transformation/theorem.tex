@@ -1,0 +1,11 @@
+Given categories $C, B$ and functors $S, T : C^{\mathrm{op}} \times C \to B$, a \text{dinatural transformation} $\alpha : S \xrightarrow{\bullet} T$ is a family of arrows $\alpha_c : S(c, c) \to T(c, c)$ for each $c \in C$ such that for every arrow $f : c \to c'$ in $C$, the following hexagon commutes:
+\[
+\begin{CD}
+S(c, c) @>{\alpha_c}>> T(c, c) \\
+@V{S(1, f)}VV @VV{T(f, 1)}V \\
+S(c, c') @. T(c', c) \\
+@V{S(f, 1)}VV @VV{T(1, f)}V \\
+S(c', c') @>>{\alpha_{c'}}> T(c', c')
+\end{CD}
+\]
+This generalizes naturality: for a fixed $f : c \to c'$, the diagram involves $S(c,c) \to S(c,c') \leftarrow S(c',c')$ and $T(c,c) \to T(c',c) \leftarrow T(c',c')$.

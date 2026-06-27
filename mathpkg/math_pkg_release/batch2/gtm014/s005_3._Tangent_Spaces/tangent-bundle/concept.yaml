@@ -1,0 +1,23 @@
+id: tangent-bundle
+title_en: "Tangent Bundle of a Manifold"
+title_zh: "流形的切丛"
+type: definition
+domain: geometry
+subdomain: smooth-manifolds
+difficulty: basic
+tags: [tangent-bundle, tangent-space, vector-bundle, projection, smooth-manifold]
+depends_on:
+  required: [tangent-space-vector-space-structure]
+  recommended: [differential-of-smooth-map]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "1"
+    section: "3"
+    pages: ""
+    role_in_book: "Definition 3.7 — defines the tangent bundle set-theoretically"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

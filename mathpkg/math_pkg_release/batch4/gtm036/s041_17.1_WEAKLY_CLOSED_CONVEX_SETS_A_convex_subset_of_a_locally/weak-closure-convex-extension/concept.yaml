@@ -1,0 +1,23 @@
+id: weak-closure-convex-extension
+title_en: "Weak Closure and Convex Extension"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [weak-topology, convex-hull, closure, locally-convex-space, metrizable-space]
+depends_on:
+  required: [weakly-closed-convex-sets]
+  recommended: [convex-hull-definition, weak-closure-definition]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "J.L. Kelley, I. Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "17"
+    section: "17.1"
+    pages: ""
+    role_in_book: "Relates weak closure to the T-closure of the convex extension; sequential characterization for metrizable spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

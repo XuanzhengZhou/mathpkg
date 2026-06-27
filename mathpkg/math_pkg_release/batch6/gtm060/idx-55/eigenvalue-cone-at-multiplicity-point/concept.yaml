@@ -1,0 +1,23 @@
+id: eigenvalue-cone-at-multiplicity-point
+title_en: "Eigenvalue Graph Forms a Two-Sheeted Cone Near a Multiplicity Point"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: spectral-theory
+difficulty: advanced
+tags: [eigenvalue, two-parameter-family, two-sheeted-cone, multiplicity-point, quadratic-form]
+depends_on:
+  required: [generic-two-parameter-family-isolated-multiplicities]
+  recommended: [eigenvalue, quadratic-form]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 10"
+    section: "Multiplicities of characteristic frequencies and ellipsoids of revolution"
+    pages: "438-445"
+    role_in_book: "Describes the local topology of eigenvalue sheets near a coincidence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

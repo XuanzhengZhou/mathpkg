@@ -1,0 +1,27 @@
+---
+role: proof
+locale: en
+of_concept: let-xi-be-a-principal-g-bundle-over-b-b-1-cup-b-2-where-b-1
+source_book: gtm020
+source_chapter: "4. General Fibre Bundles"
+source_section: "2"
+---
+
+
+In order that the argument in 3(4.1) should
+
+Each $(x, t) \in B \times I$ has a neighborhood which is contained in one set $U_i$ and which intersects only a finite number of sets $U_j$. Since $I$ is compact, there are for each $x \in B$ a neighborhood $N$ and a natural number $r$ such that
+
+(1) $N \times [(q - 1)/r, q/r] \subset U_{k(q)}$ for some $k(q) \in T$ for each $1 \leq q \leq r$.
+
+(2) $N \times I$ intersects only a finite number of $V_j = v_j^{-1}(0, 1]$ for $j \in T$.
+
+By property (1), $\{v_k^{-1}(0, 1]\}$ is a covering of $B$, and by property (2), for a given $r$, the family of $\{v_k\}$ for $k \in T$ is locally finite.
+
+Now we augment the maps $v_k$ in such a way that we get a locally finite partition of unity. Let $w_r(x)$ denote the sum of all the functions $v_k(x)$ with $k = (k(1), \ldots, k(s))$ and $s < r$. We define
+
+$$u_k(x) = \max(0, v_k(x) - rw_r(x))$$
+
+For $x \in B$, we have a $k = (k(1), \ldots, k(r))$ with $r$ minimal with respect to the property that $v_k(x) > 0$. Then $w_r(x) = 0$ and $u_k(x) = v_k(x)$. Consequently, the sets $u_k^{-1}(0, 1]$ form an open covering of $B$. Moreover, let $m > r$ such that $v_k(x) > 1/m$. Then we have $w_m(x) > 1/m$ and $mw_m(y) > 1$ for all $y$ in a neighborhood of $x$. In this neighborhood all $u_k$ with $k = (k(1), \ldots, k(s))$ and $s \geq m$ vanish, and consequently the system $\{u_k\}$ is a locally finite partition of unity such
+
+q are infinite compositions of maps where all but a finite number of terms equal the identity near a point.

@@ -1,0 +1,23 @@
+id: kernel-theorem-nuclear-bilinear-forms
+title_en: "Kernel Theorem for Nuclear Bilinear Forms"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [nuclear-space, kernel-theorem, bilinear-form, equicontinuous-sequence, Grothendieck]
+depends_on:
+  required: [nuclear-space, locally-convex-space, continuous-bilinear-form, equicontinuous-subset]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; with M. P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "9"
+    pages: ""
+    role_in_book: "Theorem 9.5: kernel theorem — every continuous bilinear form on product of nuclear and l.c.s. has a nuclear series representation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

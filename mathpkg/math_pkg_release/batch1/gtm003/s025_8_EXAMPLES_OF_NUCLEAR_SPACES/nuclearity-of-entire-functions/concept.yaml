@@ -1,0 +1,23 @@
+id: nuclearity-of-entire-functions
+title_en: "Nuclearity of the Space of Entire Functions"
+title_zh: "全纯函数空间的核性"
+type: proposition
+domain: analysis
+subdomain: nuclear-spaces
+difficulty: advanced
+tags: [nuclear-space, entire-functions, compact-convergence, complex-analysis, h-c-space]
+depends_on:
+  required: [nuclear-space, nuclear-f-space]
+  recommended: [entire-function, compact-convergence-topology]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "8"
+    pages: ""
+    role_in_book: "Example 4; H(C) (all entire functions of one complex variable under compact convergence) is nuclear"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

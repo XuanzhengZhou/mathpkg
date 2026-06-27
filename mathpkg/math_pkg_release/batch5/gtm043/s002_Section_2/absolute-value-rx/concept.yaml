@@ -1,0 +1,23 @@
+id: absolute-value-rx
+title_en: "Absolute value in R^X"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: rings-of-functions
+difficulty: basic
+tags: [absolute-value, lattice-operations, rx, pointwise]
+depends_on:
+  required: [join-operation-rx, additive-inverse-rx]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.2"
+    pages: ""
+    role_in_book: "Defines the absolute value operation as a lattice-theoretic construction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

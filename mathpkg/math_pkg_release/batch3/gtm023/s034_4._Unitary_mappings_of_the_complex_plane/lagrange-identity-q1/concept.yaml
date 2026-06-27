@@ -1,0 +1,23 @@
+id: lagrange-identity-q1
+title_en: "Lagrange identity for the cross product in Q_1"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [algebra-q, cross-product, lagrange-identity, quaternions, norm]
+depends_on:
+  required: [algebra-q, cross-product-on-q1, composition-decomposition-q1]
+  recommended: [inner-product-on-algebra-q]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "The Lagrange identity |φ|²|ψ|² = (φ,ψ)² + |φ×ψ|² for Q_1, showing the cross product norm measures the area of the parallelogram spanned by φ and ψ."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

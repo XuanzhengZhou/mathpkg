@@ -1,0 +1,23 @@
+id: thin-set-at-a-point
+title_en: "Thin Set at a Point"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [fine-topology, thin-set, exit-boundary, fine-neighborhood, potential-theory]
+depends_on:
+  required: [fine-neighborhood-zero-one-law]
+  recommended: [fine-boundary-function, exit-boundary, h-process]
+  suggested: [cartan-fine-topology, effros-measure]
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "10"
+    section: "9. Fine boundary functions"
+    pages: ""
+    role_in_book: "Defines thin sets as complements of fine neighborhoods; characterizes them via the h-process"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

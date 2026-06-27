@@ -1,0 +1,23 @@
+id: baires-theorem-on-first-class-functions
+title_en: "Baire's Theorem on Functions of First Class"
+title_zh: "贝尔第一类函数定理"
+type: theorem
+domain: analysis
+subdomain: real-analysis
+difficulty: intermediate
+tags: [baire-class, first-category, continuity, pointwise-limit]
+depends_on:
+  required: [function-of-baire-first-class, first-category-set, oscillation-at-point]
+  recommended: [nowhere-dense-set, uniform-convergence]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "7"
+    section: "7"
+    pages: "39-43"
+    role_in_book: "Fundamental theorem bounding discontinuity of Baire 1 functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

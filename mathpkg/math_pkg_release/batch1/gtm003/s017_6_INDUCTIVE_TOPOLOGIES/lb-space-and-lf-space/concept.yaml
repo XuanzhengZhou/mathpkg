@@ -1,0 +1,23 @@
+id: lb-space-and-lf-space
+title_en: "(LB)-space and (LF)-space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [lb-space, lf-space, strict-inductive-limit, banach-space, frechet-space]
+depends_on:
+  required: [inductive-limit, banach-space, frechet-space]
+  recommended: [strict-inductive-limit]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "6"
+    pages: ""
+    role_in_book: "Definition of important classes of inductive limits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

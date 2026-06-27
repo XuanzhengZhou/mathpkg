@@ -1,0 +1,23 @@
+id: gamma-integral-bounds
+title_en: "Uniform Bounds for the Gamma Integral Representation on Vertical Strips"
+title_zh: "Gamma 积分表示在垂直带形上的均匀界"
+type: lemma
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [gamma-function, integral-representation, uniform-convergence, euler-integral]
+depends_on:
+  required: [gamma-function-definition]
+  recommended: [improper-integrals, uniform-convergence]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "7"
+    section: "7.16"
+    pages: ""
+    role_in_book: "Establishes uniform convergence of the Euler integral for Gamma on vertical strips"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

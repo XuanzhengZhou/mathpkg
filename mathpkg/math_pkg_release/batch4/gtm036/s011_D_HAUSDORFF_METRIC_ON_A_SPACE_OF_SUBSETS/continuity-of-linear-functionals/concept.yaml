@@ -1,0 +1,23 @@
+id: continuity-of-linear-functionals
+title_en: "Theorem 5.4: Equivalent Conditions for Continuity of Linear Functionals"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: ["linear-functional", "continuity", "null-space", "bounded", "theorem-5-4"]
+depends_on:
+  required: ["linear-topological-space", "local-base"]
+  recommended: ["linear-functional", "circled-set", "radial-set"]
+  suggested: ["real-part-functional"]
+source_books:
+  - book_id: "gtm036"
+    author: "Kelley, J.L. and Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "5"
+    section: "4"
+    pages: ""
+    role_in_book: "Characterizes continuity of non-zero linear functionals via six equivalent conditions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

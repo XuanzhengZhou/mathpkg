@@ -1,0 +1,23 @@
+id: strongly-independent-collection
+title_en: "Strongly Independent Collection of Sequences"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [strongly-independent, sequences, dual-space, linear-independence]
+depends_on:
+  required: [linear-independence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "A collection F of sequences with entries in Delta is strongly independent if every finite square matrix chosen from the collection is non-singular."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

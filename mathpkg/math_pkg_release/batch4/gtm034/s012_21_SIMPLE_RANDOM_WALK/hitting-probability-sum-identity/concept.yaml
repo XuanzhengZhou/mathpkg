@@ -1,0 +1,13 @@
+id: hitting-probability-sum-identity
+title_en: "Sum and Moment Identities for Interval Hitting Probabilities"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: intermediate
+tags: [hitting-probability, interval, martingale, identity, exit-distribution]
+depends_on: {required: [right-hitting-probability-interval, left-hitting-probability-interval], recommended: [optional-stopping-theorem], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "22", pages: "", role_in_book: "Shows that the hitting probabilities sum to 1 and satisfy a first-moment identity"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

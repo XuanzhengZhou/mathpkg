@@ -1,0 +1,1 @@
+When $\sum 1/b_n < \infty$, the system may pass through infinitely many states in finite time, and uniqueness of solutions may fail. This illustrates complications when the boundedness condition on $p(t,x)$ is relaxed.

@@ -1,0 +1,15 @@
+(Tonelli Theorem). Let $(X, S, \mu)$ and $(Y, T, v)$ be $\sigma$-finite measure spaces. If $f$ is a function that is measurable $[S \times T]$ and nonnegative on $X \times Y$, then
+
+$$\int_X \left[ \int_Y f(x, y)dv(y) \right] d\mu = \int_Y \left[ \int_X f(x, y)d\mu(x) \right] dv$$
+
+$$= \int_{X \times Y} f d(\mu \times v).$$
+
+Thus if $\varphi$ is an arbitrary measurable complex-valued function on $X \times Y$, and if the function $g(x) = \int_Y |\varphi(x, y)|dv(y)$ satisfies the condition $\int_X g d\mu < +\infty$ (or if $h(y) = \int_X |\varphi(x, y)|d\mu(x)$ satisfies the condition $\int_Y h dv < +\infty$), then $\varphi$ is integrable $[\mu \times v]$.
+
+Corollary 9.
+
+on measurable rectangles, and this measure, which is constructed in a completely standard fashion, possesses certain rather appealing properties. For example, the Fubini theorem is valid for the measure $\hat{\lambda}$, again without any restrictions whatever on $X$ or $Y$ (Prob. H). Thus it might seem natural simply to define the “product measure” on $(X \times Y, S \times T)$ to be the measure $\hat{\lambda}$. In the most general case, however, the measure $\hat{\lambda}$ is not uniquely determined by (1), which makes the terminology “product measure” somewhat suspect. (Indeed, at least one serious student of this circle of ideas has proposed another candidate altogether for the “product” of two arbitrary measures [5].) Another (more serious) difficulty is that the Tonelli theorem is not valid, in general, for the measure $\hat{\lambda}$, and since this is ordinarily the only feasible way of determining when the Fubini theorem is applicable, we have, in this book, relegated the measure $\hat{\lambda}$ to the problems (see Problems G and H). Readers who wish to probe more deeply into these matters may consult the articles [49], [50], [6], and [45].
+
+Example C. If we identify $\mathbb{R}^m \times \mathbb{R}^n$ with $\mathbb{R}^{m+n}$ in the usual manner, then the $\sigma$-ring of Borel subsets of $\mathbb{R}^{m+n}$ is identified with the product of the $\sigma$-rings of Borel subsets of $\mathbb{R}^m$ and $\mathbb{R}^n$. Thus Lebesgue–Borel measure on $\mathbb{R}^{m+n}$ is also identified with the product of the Lebesgue–Borel measures on $\mathbb{R}^m$ and $\mathbb{R}^n$. In the same way, Lebesgue–Borel measure on $\mathbb{R}^n$ may be thought of as the product of $n$ copies of Lebesgue–Borel measure on the real line, and Lebesgue–Borel measure on $\mathbb{C}$ as the product of the Lebesgue–Borel measures on the real and imaginary axes in $\mathbb{C}$.
+
+Example D. Let $(Y, T, v)$ be a $\sigma$-fin

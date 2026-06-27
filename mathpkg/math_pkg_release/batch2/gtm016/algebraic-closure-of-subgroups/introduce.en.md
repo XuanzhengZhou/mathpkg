@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Suppose that $G$ is algebraic and let $H, H'$ be subgroups of $G$. Then $K^{\bar{H}} = K^H$, and $K^H = K^{H'}$ if and only if $\bar{H} = \bar{H}'$.

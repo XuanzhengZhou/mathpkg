@@ -1,0 +1,7 @@
+Let $\Delta$ be a diagram scheme. The \textit{category $\mathcal{K}^{\Delta}$ of $\Delta$-diagrams in $\mathcal{K}$} has as objects diagrams $(\Delta, D)$ in $\mathcal{K}$ and as morphisms $\chi: D \longrightarrow E$ the $N(\Delta)$-indexed collections $\chi_i: D_i \longrightarrow E_i$ subject to the commutativities
+$$D_{\alpha} \chi_j = \chi_i E_{\alpha}$$
+for all $\alpha \in \Delta(i, j)$. $\mathcal{K}^{\Delta}$ forms a category with pointwise composition $(\chi \chi')_i = \chi_i \chi'_i$ and pointwise identities $(\mathrm{id}_D)_i = \mathrm{id}_{D_i}$.
+
+Each object $K$ of $\mathcal{K}$ induces the \textit{constant diagram} $\tilde{K}$ in $\mathcal{K}^{\Delta}$ defined by $\tilde{K}_i = K$, $\tilde{K}_{\alpha} = \mathrm{id}_K$. An upper bound $(L, \psi)$ of $D$ is the same thing as a diagram morphism $\psi: D \longrightarrow \tilde{L}$. The constant diagram construction defines the \textit{embedding functor}
+$$(\tilde{\cdot}): \mathcal{K} \longrightarrow \mathcal{K}^{\Delta}$$
+where $\tilde{f}: \tilde{K} \longrightarrow \tilde{L}$ is the diagram morphism with $(\tilde{f})_i = f$.

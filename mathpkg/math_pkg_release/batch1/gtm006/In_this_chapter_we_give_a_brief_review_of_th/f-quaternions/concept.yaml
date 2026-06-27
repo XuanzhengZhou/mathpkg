@@ -1,0 +1,23 @@
+id: f-quaternions
+title_en: "F-Quaternions"
+title_zh: "F-四元数"
+type: definition
+domain: algebra
+subdomain: quaternion-algebra
+difficulty: intermediate
+tags: [quaternions, skewfield, non-commutative]
+depends_on:
+  required: [skewfield]
+  recommended: []
+  suggested: [field]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "1"
+    section: "2"
+    pages: ""
+    role_in_book: "Example of a non-commutative skewfield; counterexample source"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

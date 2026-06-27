@@ -1,0 +1,14 @@
+id: turing-computable-implies-markov-computable
+title_en: "Every Turing Computable Function is Markov Computable"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: computability-theory
+difficulty: advanced
+tags: [Turing-machine, Markov-algorithm, equivalence, computability]
+depends_on: {required: [markov-algorithm, algorithmic-function, turing-machine], recommended: [], suggested: [church-turing-thesis]}
+source_books:
+  - {book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "4. Recursive Function Theory", section: "4.1", pages: "", role_in_book: "Main theorem establishing that Markov algorithms are at least as powerful as Turing machines"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

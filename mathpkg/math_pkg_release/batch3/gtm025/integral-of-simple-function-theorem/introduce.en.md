@@ -1,0 +1,1 @@
+The integral of a nonnegative simple function is defined as the sum of the product of each value with the measure of the set where it occurs. This definition is unambiguous because different representations of the same simple function yield the same integral.

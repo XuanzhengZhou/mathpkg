@@ -1,0 +1,1 @@
+The holomorphically convex hull of a subset $K$ consists of all points in the region where every holomorphic function is bounded by its supremum on $K$. This generalizes the notion of polynomial convexity and is central to the theory of Stein manifolds.

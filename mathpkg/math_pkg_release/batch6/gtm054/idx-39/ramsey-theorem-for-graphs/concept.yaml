@@ -1,0 +1,23 @@
+id: ramsey-theorem-for-graphs
+title_en: "Ramsey Theorem for Graphs"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: ramsey-theory
+difficulty: intermediate
+tags: [ramsey-theorem, graph-ramsey, ramsey-number, recurrence-inequality]
+depends_on:
+  required: [ramsey-number-graph-characterization, ramsey-number-boundary-values]
+  recommended: [ramsey-theorem-general]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "VIII"
+    section: "C"
+    pages: ""
+    role_in_book: "Central theorem: existence and recurrence inequality for graph Ramsey numbers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: diagram-of-shape-g
+title_en: "Diagram of a given shape in a category"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [diagram, graph, shape, functor, free-category]
+depends_on:
+  required: [graph, category, functor]
+  recommended: [free-category-generated-by-graph]
+  suggested: [adjunction]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "II"
+    section: "7"
+    pages: ""
+    role_in_book: "Defines diagrams of a given shape as graph morphisms, equivalent to functors from the free category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

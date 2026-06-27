@@ -1,0 +1,23 @@
+id: deligne-weil-riemann-hypothesis
+title_en: "Theorem 4.5 (Deligne): The Riemann Hypothesis Analogue for the Weil Conjectures"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: arithmetic-geometry
+difficulty: advanced
+tags: [deligne, weil-conjectures, riemann-hypothesis, l-adic-cohomology, algebraic-integers]
+depends_on:
+  required: [weil-conjectures, l-adic-cohomology, theorem-zeta-factorization]
+  recommended: [lefschetz-pencil, monodromy]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix C"
+    section: "4"
+    pages: "456-457"
+    role_in_book: "Deligne's proof (1973) of the Riemann hypothesis analogue, completing the Weil conjectures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

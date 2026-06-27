@@ -1,0 +1,23 @@
+id: infrabarreled-space
+title_en: "Infrabarreled Space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [infrabarreled, barrel, bounded-set, locally-convex-space, bornological-space]
+depends_on:
+  required: [locally-convex-space, barrel, bounded-set, bornological-space]
+  recommended: [barreled-space, mackey-space, strong-topology-and-strong-dual]
+  suggested: [quasi-complete-space]
+source_books:
+  - book_id: gtm003
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "5"
+    pages: "146-156"
+    role_in_book: "Defines infrabarreled spaces as those where every bound-absorbing barrel is a neighborhood of zero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

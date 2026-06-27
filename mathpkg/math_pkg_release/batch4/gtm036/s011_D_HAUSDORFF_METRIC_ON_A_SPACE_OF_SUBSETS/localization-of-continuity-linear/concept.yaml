@@ -1,0 +1,23 @@
+id: localization-of-continuity-linear
+title_en: "Proposition 5.3: Localization of Continuity for Linear Maps"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: ["continuity", "linear-map", "localization", "proposition-5-3"]
+depends_on:
+  required: ["linear-topological-space", "local-base"]
+  recommended: ["continuous-function"]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "Kelley, J.L. and Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "5"
+    section: "3"
+    pages: ""
+    role_in_book: "Shows continuity of linear maps reduces to continuity at the origin"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

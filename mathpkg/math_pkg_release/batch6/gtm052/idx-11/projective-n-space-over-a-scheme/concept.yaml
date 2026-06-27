@@ -1,0 +1,23 @@
+id: projective-n-space-over-a-scheme
+title_en: "Projective $n$-Space over a Scheme"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [projective-space, fiber-product]
+depends_on:
+  required: [projective-space-over-ring, scheme, fiber-product-of-schemes]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines projective n-space over any scheme Y as a base change from Spec Z"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

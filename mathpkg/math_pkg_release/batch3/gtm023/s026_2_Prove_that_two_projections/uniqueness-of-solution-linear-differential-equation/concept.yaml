@@ -1,0 +1,23 @@
+id: uniqueness-of-solution-linear-differential-equation
+title_en: "Uniqueness of Solution to Linear Operator Differential Equation"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: linear-algebra
+difficulty: advanced
+tags: [uniqueness, differential-equation, gronwall-inequality]
+depends_on:
+  required: [picard-iteration-for-linear-differential-equations]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: ""
+    title: "Linear Algebra"
+    chapter: "8"
+    section: "8.29"
+    pages: ""
+    role_in_book: "Proves uniqueness of solutions to φ̇ = ψ ∘ φ with given initial condition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

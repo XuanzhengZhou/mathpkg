@@ -1,0 +1,1 @@
+The holomorphic hull is the maximal Riemann domain to which every function in a given family extends holomorphically. It is the analogue of the envelope of holomorphy in the category of Riemann domains.

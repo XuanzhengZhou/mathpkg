@@ -1,0 +1,14 @@
+---
+role: exercise
+locale: en
+chapter: "1"
+section: "1.6"
+exercise_number: 10
+---
+
+Denote the underlying additive group of the ring $R$ by $R^+$. For each $r \in R$ define two functions $\lambda_r, \rho_r: R \to R$ by
+$$\lambda_r: x \mapsto rx \quad \text{and} \quad \rho_r: x \mapsto xr.$$
+Write each $\lambda_r$ as a left operator and each $\rho_r$ as a right operator.
+
+(1) Prove that $\lambda: r \mapsto \lambda_r$ defines an injective ring homomorphism $R \to \operatorname{End}^\ell(R^+)$ and that $\rho: r \mapsto \rho_r$ defines an injective ring homomorphism $R \to \operatorname{End}^r(R^+)$. Thus a ring $R$ is isomorphic to a ring of left endomorphisms of an abelian group as well as to a ring of right endomorphisms of an abelian group.
+(2) Prove that if $R^+$ is cyclic, then $R$ is commutative and both $\lambda$ and $\rho$ are isomorphisms.

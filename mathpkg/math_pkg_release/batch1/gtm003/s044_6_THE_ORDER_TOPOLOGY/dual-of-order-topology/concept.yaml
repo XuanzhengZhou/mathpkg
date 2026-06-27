@@ -1,0 +1,23 @@
+id: dual-of-order-topology
+title_en: "Dual of the Order Topology"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: ordered-topological-vector-spaces
+difficulty: intermediate
+tags: [order-topology, dual-space, order-bounded-linear-form, Lb]
+depends_on:
+  required: [order-topology-of-ordered-vector-space]
+  recommended: [order-bounded-linear-form, locally-convex-dual]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "John Horvath"
+    title: "Topological Vector Spaces"
+    chapter: "V. Order Structures"
+    section: "6. The Order Topology"
+    pages: ""
+    role_in_book: "Theorem 6.1: characterizes the dual of the order topology as the space of order-bounded linear forms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

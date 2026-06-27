@@ -1,0 +1,23 @@
+id: morita-equivalence-symmetry
+title_en: "Morita Equivalence is Symmetric"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [morita-equivalence, opposite-ring, symmetric-relation]
+depends_on:
+  required: [moritas-theorem, opposite-ring, category-equivalence]
+  recommended: [progenerator]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "6"
+    section: "22"
+    pages: ""
+    role_in_book: "Corollary 22.3: Morita equivalence is symmetric; left and right equivalence coincide"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,5 @@
+A \textbf{branching process} (or Galton-Watson process) is a Markov chain where $X_s$ denotes the number of individuals in a population at time $s$. The probability of $i$ individuals generating $j$ progeny in the next generation is
+$$p_{i,j} = \sum_{j_1+\cdots+j_i=j} q_{j_1} q_{j_2} \cdots q_{j_i} = q_j^{(i*)},$$
+where $q_j \geq 0$, $\sum_{j=0}^{\infty} q_j = 1$, is the offspring distribution.
+
+The generating function $\varphi(s) = \sum q_j s^j$ satisfies $\varphi^{(t+1)}(s) = \varphi(\varphi^{(t)}(s))$.

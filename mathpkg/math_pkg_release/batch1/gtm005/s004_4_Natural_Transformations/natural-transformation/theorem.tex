@@ -1,0 +1,9 @@
+Given two functors $S, T: C \rightarrow B$, a \textbf{natural transformation} $\tau: S \xrightarrow{\cdot} T$ is a function which assigns to each object $c$ of $C$ an arrow $\tau_c = \tau c: Sc \rightarrow Tc$ of $B$ in such a way that for every arrow $f: c \rightarrow c'$ in $C$, the following diagram commutes:
+\[
+\begin{array}{ccc}
+Sc & \xrightarrow{\tau_c} & Tc \\
+{\scriptstyle Sf}\downarrow & & \downarrow{\scriptstyle Tf} \\
+Sc' & \xrightarrow{\tau_{c'}} & Tc'
+\end{array}
+\]
+When this holds, we say that $\tau_c: Sc \rightarrow Tc$ is \textbf{natural} in $c$.

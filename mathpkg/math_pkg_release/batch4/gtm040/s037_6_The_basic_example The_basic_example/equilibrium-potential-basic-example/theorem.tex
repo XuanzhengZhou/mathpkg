@@ -1,0 +1,9 @@
+For the forward chain $P$ of the basic example, if $E$ is a finite set with last element $m$, then the equilibrium potential is
+$$e_i^E = \begin{cases} \frac{\beta_\infty}{\beta_m} & \text{if } i = m, \\ 0 & \text{otherwise}. \end{cases}$$
+The hitting probability of $E$ is
+$$h_i^E = \begin{cases} 1 - \frac{\beta_\infty}{\beta_i} & \text{if } i > m, \\ 1 & \text{if } i \leq m. \end{cases}$$
+All non-empty finite sets have capacity $C(E) = \beta_\infty$.
+
+For the reverse chain $\hat{P}$, if $E$ has least element $m$, then for $i < m$:
+$$\hat{h}_i^E = 1 - \frac{\beta_\infty}{\beta_m},$$
+and $\hat{h}_i^E = 1$ for $i \geq m$. The equilibrium charge satisfies $\hat{e}_m^E = \frac{\beta_\infty}{\beta_m}$ when $m > 0$, and $\hat{e}_0^E = \beta_\infty$ when $m = 0$.

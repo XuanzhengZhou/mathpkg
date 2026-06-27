@@ -1,0 +1,29 @@
+$$\alpha + 0 \triangleq \alpha,$$
+$$\alpha + (\beta + 1) \triangleq (\alpha + \beta) + 1,$$
+$$\alpha + \beta
+
+the result of adding 0 to $\alpha$, we define the sum of $\alpha$ and $(\beta + 1)$ as an operation on $\alpha + \beta$ namely the operation of adding one, and we define $\alpha + \beta$ for $\beta \in K_{\mathrm{II}}$ as the supremum of the set of sums $\alpha + \gamma$ for $\gamma < \beta$.
+
+That this is sufficient to define $\alpha + \beta$ for all $\alpha$ and $\beta$ is clear from Proposition 7.44. If in Proposition 7.44, $H = \{ \langle \alpha, \alpha + 1 \rangle | \alpha \in \mathrm{On} \}$ and $a = \alpha$ then
+
+$$F'0 = \alpha,$$
+
+$$F'(\beta + 1) = H'F'\beta = F'\beta + 1,$$
+
+$$F'\beta = \bigcup_{\gamma < \beta} F'\gamma, \beta \in K_{\mathrm{II}},$$
+
+i.e., $\alpha + \beta = F'\beta$.
+
+The reader should have little difficulty convincing himself, or herself, that Definition 8.1 captures our intuitive notion that $\alpha + \beta$ is an ordinal with initial segment $\alpha$ and terminal segment that is order isomorphic to $\beta$. In addition, Definition 8.1 is designed for proofs by induction. Recall that in order to prove $(\forall \alpha)\varphi(\alpha)$ by induction we need only prove
+
+(1) $(\forall \beta \in \alpha)\varphi(\beta) \rightarrow \varphi(\alpha)$.
+
+Since for each $\alpha$ either $\alpha = 0$ or $(\exists \gamma)[\alpha = \gamma + 1]$ or $\alpha \in K_{\mathrm{II}}$, we can prove (1) by proving
+
+$$\varphi(0),$$
+
+$$\varphi(\alpha) \rightarrow \varphi(\alpha + 1),$$
+
+and
+
+$$\alpha \in K_{\mathrm{II}} \wedge (\forall \beta \in \alpha)\varphi(\beta) \rightarrow \varphi(\alpha).$$

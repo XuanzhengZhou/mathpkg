@@ -1,0 +1,23 @@
+id: residue-at-a-pole
+title_en: "Residue at a Pole"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [residue, pole, laurent-series, derivative-formula]
+depends_on:
+  required: [residue]
+  recommended: [pole, laurent-expansion]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "V"
+    section: "§2. Residues"
+    pages: ""
+    role_in_book: "Proposition 2.4 — formula for computing residues at poles of order m"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

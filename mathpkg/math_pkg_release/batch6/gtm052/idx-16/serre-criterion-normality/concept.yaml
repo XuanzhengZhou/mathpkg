@@ -1,0 +1,23 @@
+id: serre-criterion-normality
+title_en: "Serre's Criterion for Normality"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [serre-criterion, normality, regular-local-ring, depth, noetherian-ring]
+depends_on:
+  required: [normal-ring]
+  recommended: [regular-local-ring, depth, height-of-prime-ideal]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "201-205"
+    role_in_book: "Theorem 8.22A: equivalent conditions for a noetherian ring to be normal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,9 @@
+A random time $t$ which is finite almost everywhere is called a \emph{random stopping time}, or simply a \emph{stopping time}.
+
+If $t$ is a stopping time, then the set $\bigcap_{n=1}^{\infty} \{\omega \mid t(\omega) \geq n\}$ has measure zero. If $\{f_n\}$ is a sequence of random variables, we define a function $f_t$ almost everywhere by
+
+$$f_t(\omega) = f_n(\omega) \quad \text{if} \quad t(\omega) = n$$
+
+and $f_t$ is a random variable since
+
+$$\{\omega \mid f_t(\omega) < c\} = \bigcup_{n=1}^{\infty} \left(\{\omega \mid t(\omega) = n\} \cap \{\omega \mid f_n(\omega) < c\}\right).$$

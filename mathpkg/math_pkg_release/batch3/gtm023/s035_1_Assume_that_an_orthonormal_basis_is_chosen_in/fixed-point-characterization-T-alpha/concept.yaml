@@ -1,0 +1,23 @@
+id: fixed-point-characterization-T-alpha
+title_en: "Fixed Points of Lorentz Transformations on S — Characterization of alpha = ±iota"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [Lorentz-transformation, fixed-point, selfadjoint, complex-plane]
+depends_on:
+  required: [lorentz-transformation-T-alpha-on-S, space-of-selfadjoint-mappings-S]
+  recommended: [linear-transformation, determinant]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XI"
+    section: "§5. Application to Lorentz-transformations, 11.19"
+    pages: "358–364"
+    role_in_book: "Characterizes which alpha induce the identity Lorentz transformation on S"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

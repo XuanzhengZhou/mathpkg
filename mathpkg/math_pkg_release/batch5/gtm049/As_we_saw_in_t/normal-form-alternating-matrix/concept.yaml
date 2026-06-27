@@ -1,0 +1,23 @@
+id: normal-form-alternating-matrix
+title_en: "Normal Form for Alternating Matrices"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: bilinear-forms
+difficulty: intermediate
+tags: [alternating-matrix, normal-form, congruence, symplectic]
+depends_on:
+  required: [alternating-bilinear-form, matrix-congruence]
+  recommended: [structure-theorem-alternating-forms]
+  suggested: []
+source_books:
+  - book_id: gtm049
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "5.3"
+    pages: "103"
+    role_in_book: "Corollary 2 to Theorem 2: gives the normal form for alternating matrices under congruence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

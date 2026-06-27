@@ -1,0 +1,1 @@
+A uniformly distributed random variable on $[a,b]$ assigns equal probability density to every subinterval of equal length. Its distribution function rises linearly from 0 at $a$ to 1 at $b$. This is the simplest continuous probability distribution, fundamental in simulation and the probability integral transform.

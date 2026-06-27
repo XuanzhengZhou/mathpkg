@@ -1,0 +1,23 @@
+id: product-direct-sum-duality-of-s-topologies
+title_en: "Product-Direct Sum Duality of 𝔖-Topologies (Theorem 4.2)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [duality, product-space, direct-sum, s-topology, polar]
+depends_on:
+  required: [dual-system, product-dual-system, s-topology]
+  recommended: [dual-system-induced-by-subspace]
+  suggested: [locally-convex-direct-sum]
+source_books:
+  - book_id: gtm003
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "4"
+    pages: "146-156"
+    role_in_book: "Establishes duality between 𝔖-topologies on the product F = ∏F_α and the direct sum G = ⊕G_α"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

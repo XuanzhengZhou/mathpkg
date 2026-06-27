@@ -1,0 +1,23 @@
+id: unparameterized-surface
+title_en: "Unparameterized Surface"
+title_zh: "无参数化曲面"
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [surface, equivalence-class, change-of-variables, parametrization]
+depends_on:
+  required: [change-of-variables-for-surfaces, parameterized-surface-patch]
+  recommended: [equivalence-relation]
+  suggested: []
+source_books:
+  - book_id: gtm051
+    author: "Manfredo P. do Carmo"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: "3.1.3"
+    role_in_book: "Defines the geometric surface independent of parametrization"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

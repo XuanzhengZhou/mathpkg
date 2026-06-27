@@ -1,0 +1,29 @@
+id: theorem-4-6-maximal-closed-baer-subset
+title_en: 'Theorem 4.6: Proper Closed Baer Subset is Maximal'
+title_zh: ''
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags:
+- closed-baer-subset
+- maximal-configuration
+- projective-plane
+depends_on:
+  required:
+  - theorem-4-4-closed-baer-subset
+  - lemma-4-5-subplane-containing-line-equals-plane
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '2'
+  pages: ''
+  role_in_book: Establishes maximality of closed Baer subsets, critical for quasiperspectivity
+    theory
+content_hash: 6e0a3065999f
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

@@ -1,0 +1,7 @@
+The Poisson process $\{X_t(\omega), t \geq 0\}$ with intensity $\lambda > 0$ is characterized by:
+(1) $X_0(\omega) = 0$;
+(2) Independent increments;
+(3) Poisson-distributed increments: $X_t - X_\tau \sim \mathrm{Poisson}(\lambda(t - \tau))$ for $0 \leq \tau < t$.
+The joint probability mass function for $0 < t_1 < \cdots < t_k$ is
+$$P(X_{t_1} = j_1, \ldots, X_{t_k} = j_k) = \frac{(\lambda t_1)^{j_1} e^{-\lambda t_1}}{j_1!} \prod_{u=1}^{k-1} \frac{[\lambda(t_{u+1} - t_u)]^{j_{u+1} - j_u}}{(j_{u+1} - j_u)!} e^{-\lambda(t_{u+1} - t_u)}$$
+if $0 \leq j_1 \leq \cdots \leq j_k$, and 0 otherwise.

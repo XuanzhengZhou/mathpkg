@@ -1,0 +1,23 @@
+id: stable-theory
+title_en: "Stable Theory"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [stability-theory, classification-theory, forking]
+depends_on:
+  required: [kappa-stability]
+  recommended: [complete-type, theory]
+  suggested: [superstable-theory, omega-stability, morley-rank]
+source_books:
+  - book_id: "gtm053"
+    author: "Yuri Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "5"
+    section: "5.2"
+    pages: ""
+    role_in_book: "central definition of classification theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

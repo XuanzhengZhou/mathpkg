@@ -1,0 +1,23 @@
+id: lower-capacity-of-cut
+title_en: "Lower Capacity of a Cut"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: network-flows
+difficulty: intermediate
+tags: [network, cut, capacity, lower-bound, doubly-capacitated]
+depends_on:
+  required: [doubly-capacitated-network, cut]
+  recommended: [upper-capacity-of-cut]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "IV"
+    section: "G"
+    pages: ""
+    role_in_book: "Defines the lower capacity of a cut in a doubly-capacitated network, giving a lower bound for flow through the cut"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: lemma-weakstar-mapping-onto-adjoint
+title_en: "Lemma on Weak* Continuous Mapping onto the Adjoint"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [weak-star-topology, equicontinuity, cantor-set, co-base, adjoint]
+depends_on:
+  required: [locally-convex-linear-topological-space, equicontinuity]
+  recommended: [embedding-separable-lcs-into-cr]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "Kelley, J.L. and Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "B"
+    section: "EMBEDDING THEORIES"
+    pages: ""
+    role_in_book: "Key lemma for embedding separable LCS into C(R)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: partially-ordered-set
+title_en: "Partially-Ordered Set (Poset)"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: order-theory
+difficulty: basic
+tags: [poset, partial-order, ordered-set]
+depends_on:
+  required: [partial-order]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "2"
+    section: "IIB"
+    pages: "41-48"
+    role_in_book: "Defines a partially-ordered set as a pair (U, ≤)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

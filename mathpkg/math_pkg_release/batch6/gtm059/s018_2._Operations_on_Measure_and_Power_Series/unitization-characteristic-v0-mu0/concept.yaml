@@ -1,0 +1,23 @@
+id: unitization-characteristic-v0-mu0
+title_en: "Unitization Operator on Characteristic Function of Z_p"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: p-adic-l-functions
+difficulty: advanced
+tags: [unitization-operator, characteristic-function, haar-measure, iwasawa-power-series, p-adic-measure]
+depends_on:
+  required: []
+  recommended: [iwasawa-unitization-operator, p-adic-haar-measure, characteristic-function-zp]
+  suggested: [fourier-expansion-measure, formal-multiplicative-group]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "2"
+    section: "2. Operations on Measure and Power Series"
+    pages: ""
+    role_in_book: "Relates the unitization operator U to the Haar measure μ₀ via the characteristic function of Z_p"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

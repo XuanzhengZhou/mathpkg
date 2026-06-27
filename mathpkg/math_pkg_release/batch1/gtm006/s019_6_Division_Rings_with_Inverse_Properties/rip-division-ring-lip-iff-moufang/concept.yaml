@@ -1,0 +1,23 @@
+id: rip-division-ring-lip-iff-moufang
+title_en: "Theorem 6.15: RIP + LIP iff Moufang plane"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-planes
+difficulty: advanced
+tags: [division-ring, RIP, LIP, Moufang-plane, projective-plane, planar-ternary-ring]
+depends_on:
+  required: [right-inverse-property, left-inverse-property, division-ring, moufang-plane, rip-division-ring-lip-iff-transitive]
+  recommended: [theorem-4-20-translation-lines]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "VI"
+    section: "6. Division Rings with Inverse Properties"
+    pages: ""
+    role_in_book: "Characterization theorem: a division ring with RIP has LIP if and only if the projective plane is Moufang. Reframes Theorem 6.14 in the language of Moufang planes."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

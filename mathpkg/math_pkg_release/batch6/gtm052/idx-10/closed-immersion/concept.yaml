@@ -1,0 +1,23 @@
+id: closed-immersion
+title_en: "Closed Immersion"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [scheme, closed-immersion, homeomorphism, surjective-sheaf-map]
+depends_on:
+  required: [scheme, morphism-of-schemes]
+  recommended: [sheaf, homeomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "3"
+    pages: "82-83"
+    role_in_book: "Defines closed immersions; a homeomorphism onto a closed subset with surjective sheaf map"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

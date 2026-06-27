@@ -1,0 +1,23 @@
+id: transitive-permutation-induced-representation
+title_en: "Induced Representation from Transitive Permutation of Subspaces"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [induced-representation, transitive-action, stabilizer-subgroup, direct-sum-decomposition]
+depends_on:
+  required: [induced-representation, group-action, stabilizer-subgroup]
+  recommended: [transitive-action, orbit-stabilizer-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "7"
+    section: "7.2"
+    pages: ""
+    role_in_book: "Proposition 19 — relates induced representations to transitive permutation of subspaces by the group action"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

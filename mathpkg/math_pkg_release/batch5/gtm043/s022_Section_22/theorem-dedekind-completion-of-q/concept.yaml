@@ -1,0 +1,23 @@
+id: theorem-dedekind-completion-of-q
+title_en: "R is the Dedekind Completion of Q and |R| = 2^{ℵ₁}"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: order-theory
+difficulty: advanced
+tags: [dedekind-completion, eta1-set, cardinality, beth-numbers]
+depends_on:
+  required: [upper-elements-set-q, theorem-q-is-eta1-set, lemma-between-elements-in-s]
+  recommended: [dedekind-complete]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "13"
+    section: "23"
+    pages: ""
+    role_in_book: "Characterizes Dedekind completion of the canonical η₁-set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

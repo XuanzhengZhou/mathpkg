@@ -1,0 +1,23 @@
+id: extension-of-orthogonal-projections
+title_en: "Extension of Orthogonal Projections to a Supplementary Set"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [projection, orthogonal, supplementary, idempotent, extension]
+depends_on:
+  required: [supplementary-orthogonal-projections]
+  recommended: [idempotent-linear-transformation]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "2"
+    section: "12"
+    pages: ""
+    role_in_book: "Shows that any finite set of orthogonal projections can be extended to a supplementary set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

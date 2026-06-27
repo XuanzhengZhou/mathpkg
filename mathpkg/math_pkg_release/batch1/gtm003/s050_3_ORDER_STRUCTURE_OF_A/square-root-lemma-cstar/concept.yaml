@@ -1,0 +1,23 @@
+id: square-root-lemma-cstar
+title_en: "Existence and uniqueness of positive square root in a C*-algebra"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [c-star-algebra, positive-element, square-root, spectral-theory]
+depends_on:
+  required: [c-star-algebra, positive-element-cstar]
+  recommended: [spectral-radius, continuous-functional-calculus]
+  suggested: [self-adjoint-element]
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "3"
+    pages: ""
+    role_in_book: "Lemma: Every positive element in a C*-algebra has a unique positive square root"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: semiperfect-ring
+title_en: "Semiperfect Ring"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: advanced
+tags: [semiperfect-ring, jacobson-radical, semisimple, idempotent-lifting]
+depends_on:
+  required: [jacobson-radical, semisimple-ring, lifting-idempotents]
+  recommended: [local-ring, artinian-ring]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "27. Semiperfect Rings"
+    pages: ""
+    role_in_book: "Central definition — a ring is semiperfect if R/J(R) is semisimple and idempotents lift modulo J(R)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

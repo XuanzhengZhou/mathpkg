@@ -1,0 +1,23 @@
+id: sentential-model
+title_en: "Sentential Model and Tautology (Definition 8.22)"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: propositional-logic
+difficulty: basic
+tags: [model, truth-assignment, tautology, semantic-consequence, sentential-logic, truth-table]
+depends_on:
+  required: [sentential-language, formal-proof]
+  recommended: [logical-axiom]
+  suggested: [properties-of-deducibility]
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "1"
+    section: "1.2"
+    pages: ""
+    role_in_book: "Defines the semantic notions of model, truth assignment, tautology, and semantic consequence for sentential logic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

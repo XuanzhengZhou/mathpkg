@@ -1,0 +1,23 @@
+id: definition-174-language-lel-and-theory-p
+title_en: "Definition 17.4: The Language L_el and Theory P"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: mathematical-logic
+difficulty: advanced
+tags: [formalized-syntax, elementary-language, peano-arithmetic, goedel-numbering, induction]
+depends_on:
+  required: [definition-171-strong-theory]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "Part 3"
+    section: "Decidable and Undecidable Theories"
+    pages: ""
+    role_in_book: "Defines the expanded language L_el (elementary language) and the theory P as the formal environment in which the syntax of first-order logic can be internalized. L_el extends L_nos with operations for absolute difference, integer division, and relation symbols for each operation symbol previously introduced."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

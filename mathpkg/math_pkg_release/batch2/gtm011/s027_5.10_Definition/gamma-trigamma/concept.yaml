@@ -1,0 +1,23 @@
+id: gamma-trigamma-derivative
+title_en: "Derivative of the Digamma Function (Trigamma)"
+title_zh: "Digamma 函数的导数（Trigamma 函数）"
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [gamma-function, trigamma-function, series-representation, logarithmic-convexity]
+depends_on:
+  required: [gamma-logarithmic-derivative]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "7"
+    section: "7.12"
+    pages: ""
+    role_in_book: "Shows the second derivative is positive, proving logarithmic convexity of Gamma(x) on (0,∞)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

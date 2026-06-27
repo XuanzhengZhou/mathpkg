@@ -1,0 +1,23 @@
+id: dual-stiefel-whitney-class
+title_en: "Dual Stiefel-Whitney Class"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [stiefel-whitney-class, dual, vector-bundle, cohomology, z2-coefficients, manifold]
+depends_on:
+  required: [stiefel-whitney-class]
+  recommended: [cohomology-ring, real-vector-bundle, tangent-bundle]
+  suggested: [normal-bundle, immersion, embedding]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "10"
+    section: "10.1"
+    pages: ""
+    role_in_book: "Defines the dual Stiefel-Whitney class for use in immersion and embedding obstruction theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

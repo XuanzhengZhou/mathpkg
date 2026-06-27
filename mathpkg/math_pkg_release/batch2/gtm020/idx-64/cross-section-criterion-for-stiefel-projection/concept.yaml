@@ -1,0 +1,23 @@
+id: cross-section-criterion-for-stiefel-projection
+title_en: "Cross Section Criterion for the Projection from Stiefel Manifold to Sphere"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: ["stiefel-manifold", "cross-section", "vector-fields-on-spheres", "real-projective-space", "homotopy", "fibration"]
+depends_on:
+  required: ["theta-homeomorphism-sphere-to-stiefel-v1"]
+  recommended: ["fibre-map", "lifting-property-of-fibrations", "degree-of-map"]
+  suggested: ["radon-hurwitz-number"]
+source_books:
+  - book_id: "gtm020"
+    author: "Husemoller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "9"
+    pages: "245-247"
+    role_in_book: "Reduces the existence of orthonormal vector fields on spheres to a problem about the reducibility of shunted projective spaces."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: stiefel-projection-is-principal-bundle
+title_en: "Stiefel projection is a principal bundle"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: fibre-bundles
+difficulty: intermediate
+tags: [stiefel-variety, grassmannian, principal-bundle, homogeneous-space, compact-group]
+depends_on:
+  required: [stiefel-variety, grassmannian, principal-bundle]
+  recommended: [homogeneous-space]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "2"
+    section: "2.4"
+    pages: "103-106"
+    role_in_book: "Shows that Stiefel varieties define principal bundles over Grassmannians"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

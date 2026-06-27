@@ -1,0 +1,23 @@
+id: greens-function-existence-bounded-dirichlet
+title_en: "Existence of Green's Function for Bounded Dirichlet Regions"
+title_zh: "有界狄利克雷区域的格林函数存在性"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [greens-function, dirichlet-region, existence, harmonic-function, boundary-value-problem]
+depends_on:
+  required: [greens-function, dirichlet-region, harmonic-function]
+  recommended: [perron-method]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "X"
+    section: "5"
+    pages: ""
+    role_in_book: "Proves that every bounded Dirichlet Region admits a Green's Function with singularity at any interior point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

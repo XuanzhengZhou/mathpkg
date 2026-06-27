@@ -1,0 +1,84 @@
+**Proof.** Observe that for any $\alpha: \mathbb{V} \longrightarrow \mathbb{V}T$ we have
+
+$$\begin{align*}
+\Gamma & \longrightarrow \mathbb{V}T \\
+\Gamma' & \longrightarrow \mathbb{V}T' \\
+(\alpha \Gamma)^{\#}
+\end{align*}$$
+
+(2.23)
+
+since $\alpha^{\#}.\Gamma = (\mathrm{id}_{\mathbb{V}T} \circ \alpha).\Gamma = (\mathrm{id}_{\mathbb{V}T}.\Gamma) \circ' (\alpha \Gamma) = (\alpha \Gamma)^{\#\#}$. Define $f: \mathbb{V} \longrightarrow \mathbb{V}$ by
+
+$$v_i f = \begin{cases} v_i & \text{if } n \geqslant 1 \text{ and } 1 \leqslant i \leqslant n \\ v_1 & \text{otherwise} \end{cases}$$
+
+and set $\alpha: \mathbb{V} \longrightarrow \mathbb{V}T$ to be $f.\mathbb{V}\eta$. Let $X, \delta, \omega', r$ be as in 2.21. Observing that $\alpha^{\#}.r^{\#} = (f.r)^{\#}$ (use 2.5
+
+for arbitrary $r: \mathcal{V} \longrightarrow X$ (i.e., if $\{e_1, e_2\}$ is in $E'$ then $e_1 r^{###} = e_2 r^{###}$ because $\langle e_1, \mathcal{V} \rho' \rangle = \langle e_2, \mathcal{V} \rho' \rangle$). We prove this by algebraic general recursion:
+
+**Basis step:** Each path sends $v$ to $vr$.
+
+**Recursive step:** Let $p = p_1 \cdots p_n \omega'$ with both paths agreeing on $p_i$.
+
+Let $\alpha, \beta: \mathcal{V} \longrightarrow \mathcal{V} T$ satisfy $v_1 \alpha = [v_1 \cdots v_n \omega']$, $v_i \beta = [p_i]$. Then $\langle v_1, \alpha \circ' \beta \rangle = [p]$ by 2.10. Then
+
+$$\langle [p], \Gamma^{-1}.r^{\#} \rangle$$
+$$= \langle v_1, (\alpha \Gamma^{-1}) \circ (\beta \Gamma^{-1}) \rangle r^{\#}$$
+$$= \langle [v_1 \cdots v_n \omega'] \Gamma^{-1}, (\beta \Gamma^{-1}.r^{\#})^{\#} \rangle$$
+(use 2.5)
+$$= (\langle v_1, \beta \Gamma^{-1}.r^{\#} \rangle, \ldots, \langle v_n, \beta \Gamma^{-1}.r^{\#} \rangle) \delta'_{\omega'} \quad (\text{by 2.22})$$
+$$= (p_1 r^{###}, \ldots, p_n r^{###}) \delta'_{\omega'}$$
+$$= pr^{###}$$
+
+The remaining details of the proof that 2.18 holds are easy. If $f: (X, \delta) \longrightarrow (Y, \gamma)$ is an $\Omega$-homomorphism between $(\Omega, E)$-algebras, then $r^{\#
+
+logicians’ “interpretations between theories,” e.g. [Enderton ’72, section 2.7]. More general clone homomorphisms will appear in 3.2.8.
+
+Theorem 2.17 is a “folklore theorem” which has not, to our knowledge, appeared in print before; however, see [Felscher ’72, 2.1.8, 2.3.2].
+
+Exercises for Section 2
+
+1. The axiom of choice asserts that for every onto function $f: X \longrightarrow Y$ there exists a “choice function” $c: Y \longrightarrow X$ such that $c.f = \text{id}_Y$. From the point of view of “naive” set theory one simply chooses for each $y$ any $c_y$ with $c_y f = y$ (since $f$ is onto) and defines $yc = c_y$. From the point of view of axiomatic set theory (see [Monk ’69, Chapter 3], [Lawvere ’64], [Jech ’73, Chapter 1]) this cannot be established from the other “standard” axioms unless $Y$ is finite. Show that the axiom of choice in the proof of 2.2 can be avoided by restricting $r: V \longrightarrow AT$ to the finite set of variables occurring in $e_1$ and $e_2$.
+
+2. Prove that the axiom of choice, as defined in exercise 1, is equivalent to the following: for every function $f: X \longrightarrow Y$ with $X$ nonempty there exists $g: Y \longrightarrow X$ with $fgf = f$.
+
+3. Let $\Omega$ have a single $n$-ary operation $\omega$ and let $E$ possess the equation $\{(w_1, \ldots, w_n)\omega, w_1\}$ whenever $w_1, \ldots, w_n \in V$ are such that not all $w_i$ are distinct. Show that $AT = \{[a]: a \in A\}$ if $A$ has less than $n$ elements and that $AT$ is infinite otherwise.
+
+4. Let $\Omega$ be a finitary operator
+
+Show that $\Gamma$ is a structural equivalence in the sense of 2.20 and that $\delta'$, as in 2.21, is given by $(x, y, z)\delta' = (x, y)\delta_m$.
+
+10. Given $p \in A\Omega$, the set $\text{var}(p)$ of variables occurring in $p$ is defined in the obvious way by algebraic recursion:
+
+$$\text{var}(a) = \{a\}$$
+$$\text{var}(p_1 \cdots p_n\omega) = \text{var}(p_1) \cup \cdots \cup \text{var}(p_n)$$
+
+Given an $(\Omega, E)$-algebra $(X, \delta)$, prove that if $r, s: A \longrightarrow X$ agree on $\text{var}(p)$ then $[p]r^\# = [p]s^\#$. Verify that this description of $\text{var}(p)$ agrees with the one given in 2.10$^{-}$.
+
+11. Verify that 2.23 is equivalent to $(\alpha \circ \beta).\Gamma = (\alpha.\Gamma)^\circ (\beta.\Gamma)$.
+
+12. Verify that “groups” as in 1.1 is structurally equivalent to “groups” as in 1.2 (as modified in 1.3$^{+}$).
+
+13. Without peeking at Chapter 2, formulate a definition of “isomorphism of categories” to formalize our assertion of 2.14$^{+}$ that $\text{Set}(\Omega, E)$ may be “identified” with the category of $(\Omega, E)$-algebras of form $AT$.
+
+14. Verify that the proof of 2.22 is valid when $n = 0$.
+
+15. Let $\Omega$ have a single nullary operation and let $E$ be empty. Show that $\text{Set}(\Omega, E)$ may be identified with the category of sets and partial functions.
+
+3. Algebraic Theories
+
+Roughly speaking, the algebraic theory of an equational presentation $(\Omega, E)$ is its equivalence class in the various senses of 2.1
+
+each $\mathcal{H}$-morphism $f: A \longrightarrow B$ induces $f^{\Delta}: A \longrightarrow B$ defined by
+
+$$f^{\Delta} = A \xrightarrow{f} B \xrightarrow{B \eta} BT$$
+
+The axioms on $T$, then, are:
+
+(3.3) $(\alpha \circ \beta) \circ \gamma = \alpha \circ (\beta \circ \gamma)$ for all $\alpha: A \longrightarrow B$, $\beta: B \longrightarrow C$ and $\gamma: C \longrightarrow D$
+
+$$\alpha \circ B \eta = \alpha \quad \text{for all} \quad \alpha: A \longrightarrow B$$
+
+$$f^{\Delta} \circ \alpha = f.\alpha \quad \text{for all} \quad f: A \longrightarrow B, \quad \alpha: B \longrightarrow C$$
+
+This defines a category, $\mathcal{K}_T$, with the same objects as $\mathcal{K}$, composition $\circ$, and identity morphisms $\eta$ (set $f = \text{id}_A$ to prove that $A \eta \circ \alpha = \alpha$). $\mathcal{K}_T$ is called the Kleisli category of $T$.

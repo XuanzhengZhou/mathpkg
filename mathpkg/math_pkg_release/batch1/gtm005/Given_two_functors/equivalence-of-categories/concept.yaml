@@ -1,0 +1,23 @@
+id: equivalence-of-categories
+title_en: "Equivalence of Categories"
+title_zh: "范畴等价"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [category-theory, equivalence, functor, natural-isomorphism]
+depends_on:
+  required: [natural-isomorphism, functor]
+  recommended: [category, natural-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I. Categories, Functors, and Natural Transformations"
+    section: "4. Natural Transformations"
+    pages: ""
+    role_in_book: "Definition of equivalence of categories as the fundamental notion of sameness between categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

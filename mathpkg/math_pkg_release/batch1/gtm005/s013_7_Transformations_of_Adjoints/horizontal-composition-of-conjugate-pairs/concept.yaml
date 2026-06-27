@@ -1,0 +1,34 @@
+id: horizontal-composition-of-conjugate-pairs
+title_en: Horizontal Composition of Conjugate Pairs
+title_zh: ''
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags:
+- adjunction
+- conjugate
+- horizontal-composition
+- natural-transformation
+- 2-category
+- category-theory
+depends_on:
+  required:
+  - conjugate-natural-transformations
+  - composition-of-adjunctions
+  - natural-transformation-composition
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: IV
+  section: '8'
+  pages: ''
+  role_in_book: shows that the horizontal composite of two conjugate pairs yields
+    a conjugate pair for the composite adjunctions; establishes the 2-categorical
+    structure of Adj
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

@@ -1,0 +1,23 @@
+id: black-hole-region-future-trapped
+title_en: "Black hole region is future-trapped"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: general-relativity
+difficulty: advanced
+tags: [black-hole, kruskal-spacetime, causal-structure, trapped-region]
+depends_on:
+  required: [kruskal-spacetime, black-hole-region]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm048"
+    author: "Sachs-Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "7"
+    section: "7.5"
+    pages: ""
+    role_in_book: "Proves that any particle or observer entering the black hole region M_II can never escape back to infinity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

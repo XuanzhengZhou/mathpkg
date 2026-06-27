@@ -1,0 +1,23 @@
+id: basis-of-vector-space
+title_en: "Basis of a Vector Space"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [basis, vector-space, linear-independence, generating-set]
+depends_on:
+  required: [generating-set, linear-independence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "Defines a basis as a linearly independent set of generators; equivalently, every vector can be expressed uniquely as a finite linear combination of basis elements."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

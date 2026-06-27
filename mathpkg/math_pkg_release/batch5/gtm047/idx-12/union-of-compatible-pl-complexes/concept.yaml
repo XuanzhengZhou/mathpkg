@@ -1,0 +1,23 @@
+id: union-of-compatible-pl-complexes
+title_en: "Union of compatible PL complexes"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: intermediate
+tags: [pl-topology, pl-complex, union, intersection, compatibility]
+depends_on:
+  required: [pl-complex]
+  recommended: [face-of-coordinate-mapping]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "7"
+    section: "Abstract complexes and PL complexes"
+    pages: "65-70"
+    role_in_book: "Establishes that the union of two PL complexes satisfying a compatibility condition on intersections is again a PL complex"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

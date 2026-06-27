@@ -1,0 +1,23 @@
+id: dimension-of-conics-with-base-points
+title_en: "Dimension of Linear System of Conics with Base Points"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [conics, linear-system, dimension, base-points]
+depends_on:
+  required: [conics-through-points-no-unassigned-base-points]
+  recommended: [linear-system-with-assigned-base-points]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Corollary 4.2; computes dimensions of linear systems of conics with base points"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

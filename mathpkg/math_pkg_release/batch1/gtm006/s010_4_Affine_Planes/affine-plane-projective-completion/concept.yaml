@@ -1,0 +1,23 @@
+id: affine-plane-projective-completion
+title_en: "Projective Completion of an Affine Plane"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: incidence-geometry
+difficulty: intermediate
+tags: [affine-plane, projective-plane, projective-completion, embedding]
+depends_on:
+  required: [affine-plane, projective-plane, affine-plane-parallelism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "3"
+    section: "4"
+    pages: "page_0094–page_0095"
+    role_in_book: "Theorem 3.10: Every affine plane embeds uniquely into a projective plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

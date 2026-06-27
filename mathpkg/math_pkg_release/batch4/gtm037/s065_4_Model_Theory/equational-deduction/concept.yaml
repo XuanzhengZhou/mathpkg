@@ -1,0 +1,23 @@
+id: equational-deduction
+title_en: "Equational Deduction System"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [equational-logic, deduction-system, universal-algebra]
+depends_on:
+  required: [equation, algebraic-language]
+  recommended: [substitution, replacement]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "24"
+    section: "Preservation and Characterization Theorems"
+    pages: ""
+    role_in_book: "Definition 24.17: purely equational proof-theoretic consequence with no logical axioms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

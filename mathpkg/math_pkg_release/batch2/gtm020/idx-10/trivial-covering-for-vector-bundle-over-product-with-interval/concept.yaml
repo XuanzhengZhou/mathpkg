@@ -1,0 +1,23 @@
+id: trivial-covering-for-vector-bundle-over-product-with-interval
+title_en: "Trivial Covering for Vector Bundle over Product with Interval"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundles, homotopy, local-triviality, covering]
+depends_on:
+  required: [vector-bundle, trivial-vector-bundle]
+  recommended: [pullback-bundle]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "4.2"
+    pages: ""
+    role_in_book: "Key technical lemma for the homotopy invariance of vector bundles: existence of a covering by open sets U_i such that the restriction to U_i × I is trivial"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

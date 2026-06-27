@@ -1,0 +1,23 @@
+id: lifting-simple-zero
+title_en: "Lifting of Simple Zeros modulo p"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: p-adic-equations
+difficulty: intermediate
+tags: [p-adic, hensels-lemma, simple-zero, lifting]
+depends_on:
+  required: [newton-method-p-adic]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "II. p-Adic Fields"
+    section: "2. p-adic equations"
+    pages: ""
+    role_in_book: "Corollary 1: simple zeros modulo p lift to zeros in Z_p"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

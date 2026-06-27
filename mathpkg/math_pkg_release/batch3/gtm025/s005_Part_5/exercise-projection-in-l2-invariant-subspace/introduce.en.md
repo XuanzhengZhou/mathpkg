@@ -1,0 +1,1 @@
+This exercise characterizes subspaces of $\mathfrak{L}_2$ that are invariant under multiplication by bounded measurable functions. Such subspaces correspond exactly to multiplication by characteristic functions.

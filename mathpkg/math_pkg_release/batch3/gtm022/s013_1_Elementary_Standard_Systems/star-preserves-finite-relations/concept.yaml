@@ -1,0 +1,14 @@
+id: star-preserves-finite-relations
+title_en: "Star Operation Preserves Exactly Finite Relations"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [star-operation, finite-relations, definable-relations, enlargement]
+depends_on: {required: [enlargement-of-theory], recommended: [trivial-full-enlargement-implies-finite], suggested: []}
+source_books:
+  - {book_id: "gtm022", author: "D.W. Barnes, J.M. Mack", title: "An Algebraic Introduction to Mathematical Logic", chapter: "VIII", section: "4", pages: "", role_in_book: "Characterizes when the *-extension of a definable relation coincides with the original"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

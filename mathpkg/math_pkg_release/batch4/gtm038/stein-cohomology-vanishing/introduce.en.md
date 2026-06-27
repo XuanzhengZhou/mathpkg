@@ -1,0 +1,1 @@
+Stein manifolds have vanishing higher cohomology for all coherent analytic sheaves. This is Theorem B of Cartan-Serre and implies that the global section functor is exact on coherent sheaves over Stein manifolds.

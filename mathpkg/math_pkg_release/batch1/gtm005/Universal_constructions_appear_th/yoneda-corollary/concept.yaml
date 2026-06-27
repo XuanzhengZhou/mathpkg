@@ -1,0 +1,23 @@
+id: yoneda-corollary
+title_en: "Yoneda Corollary: Natural Transformations Between Hom-Functors"
+title_zh: ""
+type: corollary
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [yoneda, hom-functor, natural-transformation, yoneda-embedding]
+depends_on:
+  required: [yoneda-lemma]
+  recommended: [hom-functor, functor-category]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "III"
+    section: "2. The Yoneda Lemma"
+    pages: "59"
+    role_in_book: "Immediate corollary: natural transformations between hom-functors D(r,-) and D(s,-) correspond uniquely to arrows s→r, i.e., the Yoneda embedding is fully faithful"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

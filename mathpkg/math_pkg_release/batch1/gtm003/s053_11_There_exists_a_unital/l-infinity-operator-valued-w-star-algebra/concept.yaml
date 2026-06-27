@@ -1,0 +1,23 @@
+id: l-infinity-operator-valued-w-star-algebra
+title_en: "Operator-Valued L-infinity is a W*-algebra"
+title_zh: "算子值L-无穷是一个W*-代数"
+type: proposition
+domain: analysis
+subdomain: operator-algebras
+difficulty: advanced
+tags: [W-star-algebra, von-Neumann-algebra, L-infinity, operator-valued-functions, separable-predual]
+depends_on:
+  required: [W-star-algebra, L-infinity-space, measurable-function]
+  recommended: [separable-Hilbert-space, sigma-finite-measure-space]
+  suggested: [Takesaki-duality]
+source_books:
+  - book_id: "gtm003"
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "11"
+    pages: ""
+    role_in_book: "Exercise 19: L^∞(X,μ;L(H)) is a W*-algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: mod-x-has-enough-injectives
+title_en: "The Category of Sheaves of Modules Has Enough Injectives"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [sheaf-cohomology, injective-object, ringed-space, sheaf-of-modules]
+depends_on:
+  required: [injective-object, abelian-category]
+  recommended: [existence-of-derived-functors]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "2"
+    pages: "222-223"
+    role_in_book: "Proposition 2.2: ensures derived functor cohomology is well-defined for ringed spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

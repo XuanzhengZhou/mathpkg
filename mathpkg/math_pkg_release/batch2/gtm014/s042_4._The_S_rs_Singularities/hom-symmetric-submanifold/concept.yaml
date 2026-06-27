@@ -1,0 +1,23 @@
+id: hom-symmetric-submanifold
+title_en: "$\text{Hom}(V \circ V, W)_s$ is a Submanifold (Proposition 4.3)"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [submanifold, symmetric-product, thom-boardman, codimension]
+depends_on:
+  required: [hom-symmetric-rank-s]
+  recommended: [l-s-v-hom-v-w]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky and V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VI"
+    section: "4. The $S_{r,s}$ Singularities"
+    pages: "164-165"
+    role_in_book: "Establishes that the rank-stratified symmetric homomorphisms form a submanifold"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

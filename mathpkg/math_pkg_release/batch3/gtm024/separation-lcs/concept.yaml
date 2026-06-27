@@ -1,0 +1,23 @@
+id: separation-lcs
+title_en: "Separation Theorem in Locally Convex Spaces"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: ["separation", "locally-convex", "closed-hyperplane", "continuous-functional"]
+depends_on:
+  required: ["basic-separation-theorem", "locally-convex-space"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§11"
+  section: "11.E"
+  pages: "63-64"
+  role_in_book: "topological separation theorem"
+content_hash: "581f46f7beaeefc4"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

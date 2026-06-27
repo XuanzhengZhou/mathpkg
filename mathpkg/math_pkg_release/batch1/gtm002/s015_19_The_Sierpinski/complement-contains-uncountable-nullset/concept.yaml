@@ -1,0 +1,23 @@
+id: complement-contains-uncountable-nullset
+title_en: "Complement Contains Uncountable Set of Same Class"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-category
+difficulty: intermediate
+tags: [nullset, first-category, cardinality, continuum, complement]
+depends_on:
+  required: []
+  recommended: [uncountable-closed-set-in-complement, nowhere-dense-set-of-power-c]
+  suggested: [lebesgue-nullset, baire-category, sigma-ideal]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "19"
+    section: "The Sierpinski-Erdos Duality Theorem"
+    pages: ""
+    role_in_book: "Theorem 19.1: establishes that complements of nullsets and first category sets each contain a large set of the same type"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,10 @@
+Let $S$ be an arbitrary countably infinite or finite set. A function $Q(x,y)$ from $S \times S$ to the reals is called a \textbf{transient kernel} if it satisfies:
+
+\textbf{D1}
+$$Q(x,y) \geq 0 \quad \text{for } x,y \in S$$
+$$\sum_{y \in S} Q(x,y) \leq 1 \quad \text{for } x \in S$$
+$$Q_0(x,y) = \delta(x,y), \quad Q_1(x,y) = Q(x,y),$$
+$$Q_{n+1}(x,y) = \sum_{t \in S} Q_n(x,t)Q(t,y), \quad x,y \in S, \ n \geq 0.$$
+$$\sum_{n=0}^{\infty} Q_n(x,y) = g(x,y) < \infty, \quad x,y \in S.$$
+
+The function $g(x,y)$ is called the \textbf{Green function} of the transient kernel $Q$.

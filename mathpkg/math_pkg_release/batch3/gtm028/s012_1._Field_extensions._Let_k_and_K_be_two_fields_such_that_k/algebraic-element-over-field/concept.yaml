@@ -1,0 +1,23 @@
+id: algebraic-element-over-field
+title_en: "Algebraic Element over a Field"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: field-theory
+difficulty: basic
+tags: [algebraic-element, polynomial-root, field-extension]
+depends_on:
+  required: [field-extension, simple-extension]
+  recommended: [polynomial-ring]
+  suggested: [transcendental-element]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Volume I"
+    chapter: "II"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines when an element of an extension field is algebraic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

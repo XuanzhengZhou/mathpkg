@@ -1,0 +1,23 @@
+id: mean-return-time-alpha-formula
+title_en: "Alpha-Weighted Mean Return Time Formula"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [mean-return-time, regular-measure, recurrent-chain, duality]
+depends_on:
+  required: [recurrent-sum-alpha-formula, mean-first-passage-time-matrix]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "2. Duality"
+    pages: ""
+    role_in_book: "Proposition 6-24: sum of alpha-weighted mean return times equals total alpha measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

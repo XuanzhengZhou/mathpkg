@@ -1,0 +1,23 @@
+id: theorem-11-11-independence-of-ch
+title_en: "Theorem 11.11: Independence of the Continuum Hypothesis"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [forcing, independence, continuum-hypothesis, CH, Cohen, generic-extension, cardinals]
+depends_on:
+  required: [theorem-11-8-cardinal-preservation-ccc, partial-order-structure-p]
+  recommended: [generic-filter, cardinal-arithmetic]
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti and Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "11"
+    section: "11 The Independence of V = L and the CH"
+    pages: ""
+    role_in_book: "Crown jewel: establishes that CH is independent of ZFC by constructing a model where CH fails"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

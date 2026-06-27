@@ -1,0 +1,23 @@
+id: rpn-immersion-embedding-dimension-bound
+title_en: "RP^n Immersion and Embedding Dimension Bounds"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [projective-space, immersion, embedding, dimension-bound, stiefel-whitney-class, power-of-two]
+depends_on:
+  required: [projective-space-immersion-embedding-condition]
+  recommended: [dual-stiefel-whitney-class, real-projective-space]
+  suggested: [whitney-immersion-theorem]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "10"
+    section: "10.4"
+    pages: ""
+    role_in_book: "Generalizes the RP^n immersion/embedding bounds using residual class modulo powers of two"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

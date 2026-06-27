@@ -1,0 +1,9 @@
+Let $2$ be the category with two objects $0, 1$ and one non-identity arrow $\downarrow: 0 \to 1$. The product category $C \times 2$ consists of two copies $C \times 0$ and $C \times 1$ of $C$.
+
+Define the functors $T_0, T_1: C \to C \times 2$ (the "bottom" and "top" embeddings) by
+$$T_0 f = \langle f, 1_0 \rangle, \quad T_1 f = \langle f, 1_1 \rangle$$
+for each arrow $f$ of $C$.
+
+Define the \textbf{universal natural transformation} $\mu: T_0 \to T_1$ by its components
+$$\mu c = \langle 1_c, \downarrow \rangle: \langle c, 0 \rangle \to \langle c, 1 \rangle$$
+for each object $c \in C$. Then $\mu$ is a natural transformation with the following universal property: given any natural transformation $\tau: S \to T$ between functors $S, T: C \to D$, there exists a unique functor $F: C \times 2 \to D$ such that $F \circ T_0 = S$, $F \circ T_1 = T$, and $F \circ \mu = \tau$.

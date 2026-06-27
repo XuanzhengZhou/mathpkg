@@ -1,0 +1,23 @@
+id: recurrent-chain-definition
+title_en: "Recurrent Markov Chain"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, recurrent-chain, state-classification, equivalence-class]
+depends_on:
+  required: [equivalence-class-type-homogeneity, recurrent-and-transient-states]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "7. Classification of states"
+    pages: ""
+    role_in_book: "Definition 4-29: Defines a recurrent Markov chain as one whose states form a single recurrent equivalence class"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

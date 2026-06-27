@@ -1,0 +1,23 @@
+id: primary-decomposition-theorem
+title_en: "Primary Decomposition Theorem"
+title_zh: "准素分解定理"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [primary-decomposition, minimum-polynomial, invariant-subspace, direct-sum, linear-transformation]
+depends_on:
+  required: [minimum-polynomial, invariant-subspace, primary-components, principal-idempotent-elements, direct-sum-decomposition]
+  recommended: [irreducible-polynomial, bezouts-identity, polynomial-remainder-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "III"
+    section: "8"
+    pages: "141-143"
+    role_in_book: "Theorem 6. The fundamental structure theorem for a single linear transformation, decomposing the space into primary components uniquely determined by the minimum polynomial."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

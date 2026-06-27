@@ -1,0 +1,23 @@
+id: irrotational-iff-locally-synchronizable
+title_en: "Irrotational Reference Frame iff Locally Synchronizable"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: intermediate
+tags: [irrotational, synchronizable, reference-frame, general-relativity]
+depends_on:
+  required: [irrotational-and-rigid-reference-frame, locally-synchronizable-reference-frame]
+  recommended: [exterior-derivative, reference-frame]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "R.K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "2"
+    section: "2.3"
+    pages: ""
+    role_in_book: "Establishes the equivalence between irrotationality and local synchronizability of a reference frame"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

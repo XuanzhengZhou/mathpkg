@@ -1,0 +1,23 @@
+id: perron-family
+title_en: "Perron Family (Subharmonic Envelope Class)"
+title_zh: "Perron族（次调和包络类）"
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [perron-method, subharmonic, dirichlet-problem, potential-theory]
+depends_on:
+  required: [subharmonic-function, limsup]
+  recommended: [harmonic-function, maximum-principle-for-subharmonic-functions]
+  suggested: [perron-function-is-harmonic, barrier-function]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.9"
+    pages: "280-281"
+    role_in_book: "Defines the class of subharmonic functions bounded above by a given boundary function; used in Perron's method for constructing harmonic functions with prescribed boundary values"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

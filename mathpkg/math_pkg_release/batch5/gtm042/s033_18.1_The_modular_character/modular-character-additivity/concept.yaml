@@ -1,0 +1,23 @@
+id: modular-character-additivity
+title_en: "Additivity of Modular Characters on Exact Sequences"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: basic
+tags: ["modular-character", "exact-sequence", "additivity"]
+depends_on:
+  required: ["modular-character"]
+  recommended: ["exact-sequence"]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "18"
+    section: "18.1"
+    pages: ""
+    role_in_book: "Property (iii); establishes that modular characters are additive on short exact sequences, enabling the definition of virtual modular characters."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: classification-of-lagrangian-mapping-singularities
+title_en: "Classification theorem for singularities of Lagrangian mappings"
+title_zh: "拉格朗日映射奇点分类定理"
+type: theorem
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [lagrangian-equivalence, singularity-classification, ade-series, stability, versal-deformation]
+depends_on:
+  required: [lagrangian-equivalence, normal-forms-of-lagrangian-singularities]
+  recommended: [whitney-normal-forms-surface-to-plane]
+  suggested: [catastrophe-theory, legendre-singularities]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 12"
+    section: "E. Lagrangian equivalence"
+    pages: ""
+    role_in_book: "States that for n ≤ 5, every stable Lagrangian mapping singularity is Lagrangian equivalent to one of the ADE normal forms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

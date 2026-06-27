@@ -1,0 +1,14 @@
+id: subcategory
+title_en: "Subcategory"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category-theory, subcategory, inclusion]
+depends_on: {required: [category], recommended: [inclusion-functor, full-subcategory], suggested: []}
+source_books:
+  [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "I", section: "3", pages: "15", role_in_book: "Defines subcategories and inclusion functors; used throughout the book for examples and constructions"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

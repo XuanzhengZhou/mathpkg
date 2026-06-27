@@ -1,0 +1,23 @@
+id: general-adjoint-functor-theorem
+title_en: "General Adjoint Functor Theorem"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [adjoint-functor, solution-set-condition, limit-preservation]
+depends_on:
+  required: [left-adjoint, small-limit, locally-small-category, solution-set-condition]
+  recommended: [equalizer, product]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.24"
+    pages: ""
+    role_in_book: "Core theorem characterizing existence of left adjoints"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,24 @@
+id: class-of-partial-recursive-functions
+title_en: "Class of Partial Recursive Functions"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: recursion-theory
+difficulty: intermediate
+tags: [recursive-functions, partial-functions, computability, closure-properties]
+depends_on:
+  required:
+    - minimalization
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "H.-D. Ebbinghaus, J. Flum, W. Thomas"
+    title: "Mathematical Logic"
+    chapter: "5. Recursive Functions"
+    section: "5.1 Recursive Function Theory"
+    pages: ""
+    role_in_book: "Definition of the class of partial recursive functions as the smallest class closed under composition, primitive recursion, and minimalization"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

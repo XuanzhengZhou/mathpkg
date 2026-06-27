@@ -1,0 +1,23 @@
+id: generated-monotone-class
+title_en: "Generated Monotone Class"
+title_zh: "生成的单调类"
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [set-theory, monotone-class, generated-class]
+depends_on:
+  required: [monotone-class, class-of-sets]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "I"
+    section: "6"
+    pages: ""
+    role_in_book: "Defines M(E), the smallest monotone class containing a class E of sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

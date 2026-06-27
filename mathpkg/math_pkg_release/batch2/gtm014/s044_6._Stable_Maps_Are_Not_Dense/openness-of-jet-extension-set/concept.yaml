@@ -1,0 +1,23 @@
+id: openness-of-jet-extension-set
+title_en: "Openness of the Jet Extension Set in Jet Space"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: singularity-theory
+difficulty: intermediate
+tags: [jet-space, whitney-topology, jet-extension, openness, jet-bundle]
+depends_on:
+  required: [jet-space, k-jet]
+  recommended: [whitney-c-infinity-topology]
+  suggested: [multijet-transversality]
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "§6"
+    pages: ""
+    role_in_book: "Technical lemma used in proof of Proposition 6.4 to control jet extensions of maps in an open set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

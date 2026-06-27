@@ -1,0 +1,23 @@
+id: localization-of-ext-sheaves
+title_en: "Localization of Ext Sheaves"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [ext-sheaves, localization, ringed-spaces, cohomology, derived-functors]
+depends_on:
+  required: []
+  recommended: [definition-of-ext-sheaves]
+  suggested: [derived-functors, injective-resolutions]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "6"
+    pages: "250-252"
+    role_in_book: "Proposition 6.2: states that Ext sheaves are local — restriction commutes with Ext sheaf construction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

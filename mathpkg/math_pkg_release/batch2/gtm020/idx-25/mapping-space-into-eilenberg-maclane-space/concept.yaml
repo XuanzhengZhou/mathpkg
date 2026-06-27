@@ -1,0 +1,23 @@
+id: mapping-space-into-eilenberg-maclane-space
+title_en: "Mapping space into an Eilenberg-MacLane space is a product of Eilenberg-MacLane spaces"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: homotopy-theory
+difficulty: advanced
+tags: [mapping-space, eilenberg-maclane-space, homotopy-equivalence, thom-theorem, cohomology]
+depends_on:
+  required: [eilenberg-maclane-space, mapping-space, classifying-space, cohomology-group]
+  recommended: [gauge-group, loop-space]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "4.6"
+    pages: "99-102"
+    role_in_book: "Thom's theorem decomposing Map(X, K(Pi,n)) into a product of Eilenberg-MacLane spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

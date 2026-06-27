@@ -1,0 +1,23 @@
+id: c-equals-g-reflecting-random-walk
+title_en: "C-Matrix Equals G-Matrix for Reflecting Random Walk"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [reflecting-random-walk, c-matrix, g-matrix, duality, markov-chain]
+depends_on:
+  required: [g-matrix-reflecting-random-walk]
+  recommended: [c-matrix, duality-markov-chains, reverse-markov-chain]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "Kemeny, Snell, Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "7"
+    section: "7. Further examples"
+    pages: ""
+    role_in_book: "Establishes that C = G for this class of recurrent processes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

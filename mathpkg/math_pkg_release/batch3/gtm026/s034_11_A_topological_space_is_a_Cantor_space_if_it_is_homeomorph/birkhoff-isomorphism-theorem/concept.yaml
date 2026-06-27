@@ -1,0 +1,23 @@
+id: birkhoff-isomorphism-theorem
+title_en: "Abstract Birkhoff Subcategory Isomorphism Theorem"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: universal-algebra
+difficulty: advanced
+tags: [birkhoff-subcategory, isomorphism, algebraic-theory, reflection, algebraic-over-k]
+depends_on:
+  required: [abstract-birkhoff-subcategory, birkhoff-subcategory-induces-theory-map]
+  recommended: [algebraic-functor, eilenberg-moore-category, struct-category]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "3"
+    section: "3.3"
+    pages: ""
+    role_in_book: "The main classification theorem: every abstract Birkhoff subcategory A of K^T is isomorphic to K^{T'} for a quotient theory T', establishing that Birkhoff subcategories are precisely the algebraic subcategories."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

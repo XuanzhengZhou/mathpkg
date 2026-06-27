@@ -1,0 +1,23 @@
+id: continuity-of-linear-functionals
+title_en: "Continuity of Linear Functionals"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [linear-functional, continuity, condition-of-baire, upper-semi-continuous, second-category]
+depends_on:
+  required: [condition-of-baire, second-category, linear-functional]
+  recommended: [upper-semi-continuous, lower-semi-continuous, difference-theorem]
+  suggested: [bounded-image-continuity]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley"
+    title: "Linear Topological Spaces"
+    chapter: "10"
+    section: "10.10"
+    pages: ""
+    role_in_book: "Continuity of linear functionals from Baire category conditions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

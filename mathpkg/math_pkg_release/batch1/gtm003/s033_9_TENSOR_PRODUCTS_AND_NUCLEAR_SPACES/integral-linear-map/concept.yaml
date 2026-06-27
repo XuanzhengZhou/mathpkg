@@ -1,0 +1,23 @@
+id: integral-linear-map
+title_en: "Integral Linear Map"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [integral-linear-map, weak-integral, integral-bilinear-form, duality, locally-convex-spaces]
+depends_on:
+  required: [integral-bilinear-form, canonical-isomorphism-bilinear-forms-linear-maps]
+  recommended: [radon-measure, weak-integral]
+  suggested: [nuclear-map]
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "Appendix: Tensor Products and Nuclear Spaces"
+    pages: "180-183"
+    role_in_book: "Defines integral linear maps as the linear maps corresponding to integral bilinear forms under the canonical isomorphism, equipped with a weak integral representation."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

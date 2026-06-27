@@ -1,0 +1,23 @@
+id: newtonian-speed-bound
+title_en: "Newtonian speed bound"
+title_zh: "牛顿速率上界"
+type: proposition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: basic
+tags: [observer, newtonian-speed, causality, timelike, speed-of-light]
+depends_on:
+  required: [newtonian-speed, newtonian-velocity]
+  recommended: [instantaneous-observer]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs, Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "2"
+    section: "2.1.3"
+    pages: ""
+    role_in_book: "Establishes that Newtonian speed is bounded by the speed of light and characterizes timelike vectors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

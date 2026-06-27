@@ -1,0 +1,23 @@
+id: integral-linear-map
+title_en: "Integral Linear Map"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [integral-linear-map, integral-bilinear-form, nuclear-operator, weak-integral]
+depends_on:
+  required: [integral-bilinear-form, canonical-isomorphism-bilinear-forms-linear-maps]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces, Second Edition"
+    chapter: "III"
+    section: "9. Tensor Products and Nuclear Spaces"
+    pages: ""
+    role_in_book: "Defines integral linear maps as those originating from integral bilinear forms via the canonical isomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: normal-bundle-of-immersion
+title_en: "Normal bundle of an immersion"
+title_zh: "浸入的法丛"
+type: definition
+domain: geometry
+subdomain: differentiable-manifolds
+difficulty: advanced
+tags: [normal-bundle, immersion, quotient-bundle, vector-bundle]
+depends_on:
+  required: [immersion, tangent-bundle-of-manifold, quotient-bundle]
+  recommended: [pullback-bundle]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "18. Differentiable Manifolds"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition 2.6: quotient of pulled-back tangent bundle by tangent bundle of domain"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

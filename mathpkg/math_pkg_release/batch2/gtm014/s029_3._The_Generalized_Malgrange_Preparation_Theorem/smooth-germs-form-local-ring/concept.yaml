@@ -1,0 +1,23 @@
+id: smooth-germs-form-local-ring
+title_en: "The Ring of Smooth Germs is a Local Ring"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: differential-topology
+difficulty: basic
+tags: [germ, local-ring, maximal-ideal, smooth-manifold]
+depends_on:
+  required: [germ-of-smooth-function]
+  recommended: [ring-theory, maximal-ideal]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "3. The Generalized Malgrange Preparation Theorem"
+    pages: ""
+    role_in_book: "Establishes the local ring structure needed for the algebraic formulation of the Malgrange Preparation Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

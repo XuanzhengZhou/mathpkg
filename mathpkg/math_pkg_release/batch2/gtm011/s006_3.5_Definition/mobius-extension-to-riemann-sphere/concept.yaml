@@ -1,0 +1,23 @@
+id: mobius-extension-to-riemann-sphere
+title_en: "Extension of Möbius Transformations to the Riemann Sphere"
+title_zh: "莫比乌斯变换到黎曼球面的延拓"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [mobius-transformation, riemann-sphere, extended-complex-plane]
+depends_on:
+  required: [mobius-transformation]
+  recommended: [riemann-sphere]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.5"
+    pages: "46-48"
+    role_in_book: "Extends Möbius transformations to the extended complex plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

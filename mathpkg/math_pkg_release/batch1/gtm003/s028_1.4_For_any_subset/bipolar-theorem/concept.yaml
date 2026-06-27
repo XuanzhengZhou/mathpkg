@@ -1,0 +1,23 @@
+id: bipolar-theorem
+title_en: "Bipolar Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [bipolar, polar, weak-topology, convex-hull, hahn-banach, separation-theorem, duality]
+depends_on:
+  required: [dual-system, polar-of-set, bipolar-set, sigma-f-g-topology, separation-theorem]
+  recommended: [closed-convex-hull, hahn-banach-theorem]
+  suggested: [polar-set-properties, closed-subspace-bipolar-criterion]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "1.5"
+    pages: "page_0139"
+    role_in_book: "Central theorem characterizing the bipolar as the weak-closed convex hull; fundamental tool in duality theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

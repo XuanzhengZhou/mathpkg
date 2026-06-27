@@ -1,0 +1,23 @@
+id: perron-function-is-harmonic
+title_en: "Perron Function is Harmonic"
+title_zh: "Perron函数是调和的"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [perron-function, harmonic, subharmonic, dirichlet-problem, potential-theory]
+depends_on:
+  required: [subharmonic-function, harmonic-function, poisson-modification-preserves-subharmonicity, maximum-principle]
+  recommended: [supremum-representation-of-harmonic-function]
+  suggested: [barrier-function, dirichlet-region]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.11"
+    pages: "281-282"
+    role_in_book: "Core theorem of the Perron method: the supremum of admissible subharmonic functions yields a harmonic function; half of the solution to the Dirichlet Problem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,28 @@
+id: "period-of-recurrent-chain"
+title_en: "Period of a recurrent Markov chain"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags:
+  - period
+  - cyclicity
+  - recurrent-markov-chain
+  - return-times
+  - greatest-common-divisor
+depends_on:
+  required: ["lemma-6-27"]
+  recommended: ["lemma-6-26"]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "3. Cyclicity"
+    pages: "156-157"
+    role_in_book: "Defines the fundamental cyclic invariant of a recurrent Markov chain as the greatest common divisor of possible return times to a state"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

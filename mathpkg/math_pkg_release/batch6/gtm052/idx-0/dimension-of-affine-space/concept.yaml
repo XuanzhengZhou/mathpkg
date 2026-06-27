@@ -1,0 +1,23 @@
+id: dimension-of-affine-space
+title_en: "Proposition 1.9: Dimension of Affine n-Space"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [dimension, affine-space, polynomial-ring]
+depends_on:
+  required: [dimension-of-affine-algebraic-set, dimension-via-transcendence-degree]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "§1"
+    pages: ""
+    role_in_book: "Confirms that affine n-space has dimension n, as expected"
+content_hash: "e7f8a9b0c1d2"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

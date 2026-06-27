@@ -1,0 +1,13 @@
+id: biconnected-cyclic-ordering-planar
+title_en: "Cyclic ordering of edges at a vertex from a planar imbedding"
+title_zh: ""
+type: lemma
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [biconnected-multigraph, planar-imbedding, cyclic-ordering, vertex-incidence, edge-ordering]
+depends_on: {required: [biconnected-multigraph, planar-imbedding, cyclic-ordering-of-set], recommended: [elementary-imbedding], suggested: []}
+source_books: [{book_id: "gtm054", author: "Jack E. Graver and Mark E. Watkins", title: "Combinatorics with Emphasis on the Theory of Graphs", chapter: "E", section: "11", pages: "92-97", role_in_book: "Lemma E21 — establishes that in any planar imbedding of a biconnected multigraph, the incident edges at each vertex have a natural cyclic ordering induced by the region cycles"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: logical-consequence
+title_en: "Logical Consequence"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: basic
+tags: [logical-consequence, semantic-consequence, model-theory, compactness]
+depends_on:
+  required: [L-structure, L-sentence]
+  recommended: []
+  suggested: [elementary-equivalence, logical-validity]
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "1"
+    section: "1.1"
+    pages: ""
+    role_in_book: "Semantic definition of logical consequence, foundational for model theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

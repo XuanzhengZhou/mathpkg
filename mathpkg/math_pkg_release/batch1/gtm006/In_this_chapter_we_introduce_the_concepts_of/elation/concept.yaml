@@ -1,0 +1,27 @@
+id: elation
+title_en: Elation
+title_zh: ''
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags:
+- elation
+- perspectivity
+- translation
+depends_on:
+  required:
+  - perspectivity-central-collineation
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '5'
+  pages: ''
+  role_in_book: Defines elation as a perspectivity with centre on axis
+content_hash: cdf32c96656c
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

@@ -1,0 +1,23 @@
+id: stickelbergers-theorem
+title_en: "Stickelberger's Theorem"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [stickelberger, gauss-sum, p-adic-valuation, prime-ideal-factorization, bernoulli-numbers]
+depends_on:
+  required: []
+  recommended: [gauss-sum, teichmuller-character, p-adic-digit-sum, cyclotomic-extension]
+  suggested: [p-adic-numbers, algebraic-number-theory, ideal-class-group]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "2"
+    pages: ""
+    role_in_book: "Theorem 2.1: determines the prime ideal factorization of Gauss sums via p-adic digit sums"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

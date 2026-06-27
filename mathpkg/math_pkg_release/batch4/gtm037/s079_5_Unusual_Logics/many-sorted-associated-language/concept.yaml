@@ -1,0 +1,23 @@
+id: many-sorted-associated-language
+title_en: "Reduction of Many-Sorted Logic to First-Order Logic"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [many-sorted-logic, reduction, first-order-logic, unary-predicate]
+depends_on:
+  required: [many-sorted-structure, first-order-structure]
+  recommended: [relativization]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "29"
+    section: "Unusual Logics"
+    pages: ""
+    role_in_book: "Proposition 29.28: many-sorted logic reduces to ordinary first-order logic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

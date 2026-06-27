@@ -1,0 +1,23 @@
+id: decidability-of-gamma2
+title_en: "Decidability of Presburger Arithmetic (Γ₂)"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [decidability, presburger-arithmetic, quantifier-elimination, gamma2]
+depends_on:
+  required: [quantifier-elimination-to-basic-formulas, basic-formula]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J.L. Bell, M. Machover"
+    title: "A Course in Mathematical Logic"
+    chapter: "13"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 13.9 — Presburger arithmetic (the theory of ⟨ℤ, +, <, 0, 1, ≡_m⟩) is decidable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,17 @@
+id: algebraic-numbers-are-denumerable
+title_en: "The Set of Real Algebraic Numbers Is Denumerable"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: basic
+tags: [algebraic-numbers, denumerable, countable, cantor, diagonal-argument]
+depends_on:
+  required: [algebraic-number]
+  recommended: [denumerable-set]
+  suggested: [polynomial]
+source_books:
+  - {book_id: "gtm002", author: "John C. Oxtoby", title: "Measure and Category", chapter: "1", section: "2", pages: "15", role_in_book: "Theorem 2.1; establishes countability of algebraic numbers, implying by Cantor's theorem the existence of transcendental numbers"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

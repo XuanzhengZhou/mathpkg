@@ -1,0 +1,1 @@
+Almost everywhere convergence is strictly stronger than convergence in probability. The converse is false -- a sequence can converge in probability while failing to converge on a set of positive measure. A standard counterexample is a sequence of indicator functions that become progressively narrower but slide across the unit interval.

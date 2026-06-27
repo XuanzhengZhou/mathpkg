@@ -1,0 +1,51 @@
+One-dimensional random walk with finite absolute mean $m$ is recurrent if and only if the mean $\mu$ is zero.
+
+The ideas of this section are now applied to obtain an amusing generalization of certain properties of Bernoulli random walk.
+
+E1 It was shown in E1.2 that Bernoulli random walk with $p > q$ has the property that
+
+(1) $$G(0,x) = \frac{1}{p - q} \text{ for } x \geq 0.$$
+
+This result can be extended to arbitrary right-continuous random walk with positive mean in a surprisingly interesting fashion; we shall assume that
+
+$$P(0,x) = 0 \text{ for } x \geq 2, \quad 0 < \mu = \sum_{x=-\infty}^{1} xP(0,x)$$
+
+and prove that for such a random walk
+
+(2) $$G(0,0) = G(0,1) = G(0,2) = \cdots = \frac{1}{\mu}.$$
+
+This is a clear-cut generalization of (1) where $\mu$ happens to have the value $p - q$.
+
+First we observe that this random walk is transient according to T1. Also $S_n \to +\infty$ (or $x_n \to +\infty$) with probability one, according to the strong law of large numbers (P4). Consequently, if
+
+$$T_y = \min [k \mid
+
+Our next observation is that, when $x \neq y$,
+
+(4) $G(x,y) = F(x,y)G(y,y) = F(x,y)G(0,0)$
+
+which was contained in P1.5. Calling $G(0,0) = G$ and setting $x = 0$ in (4), we get from (3)
+
+(5) $G(0,y) = G$ for $y \geq 1$.
+
+Thus it remains to show only that the constant $G$ has the value $\mu^{-1}$. For this purpose we use the identity
+
+(6) $G(0,x) = \sum_{y \in R} G(0,y)P(y,x) + \delta(0,x), \quad x \in R$.
+
+When $x \geq 1$, this identity reduces to the trivial result $G = G$ so we must consider also negative values of $x$, although $G(0,x)$ is then unknown. One can write
+
+$$\mu = P(0,1) - \sum_{y=1}^{\infty} \sum_{z=-\infty}^{0} P(y,x)$$
+
+which suggests summing $x$ in (6) from $-\infty$ to $0$. For $n \geq 1$
+
+$$\sum_{z=-n}^{0} G(0,x) - 1 = \sum_{y \in R} G(0,y) \sum_{z=-n}^{0} P(y,x)$$
+
+$$= \sum_{y=1}^{\infty} G(0,y) \sum_{z=-n}^{0} P(y,x) + \sum_{y=-\infty}^{0} G(0,y) \sum_{z=-n}^{0} P(y,x)$$
+
+Hence, letting $n \rightarrow +\infty$,
+
+$$G\mu = 1 + GP(0,1) - \sum_{y=-\infty}^{0} G(0,y)\left[1 - \sum_{z=-\infty}^{0} P(y,x)\right]$$
+
+$$= 1 - \sum_{y=-\infty}^{-1} G(0,y)\left[1 - \sum_{z=-\infty}^{0} P(y,x)\right] = 1,$$
+
+since

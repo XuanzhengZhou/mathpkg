@@ -1,0 +1,23 @@
+id: steinhaus-pettis-theorem
+title_en: "Steinhaus-Pettis Theorem (Category Analogue)"
+title_zh: "施泰因豪斯-佩蒂斯定理（范畴类比）"
+type: theorem
+domain: analysis
+subdomain: measure-and-category
+difficulty: advanced
+tags: [baire-property, second-category, measurable-set, difference-set, translation-invariance]
+depends_on:
+  required: [property-of-baire, measurable-set, second-category-set]
+  recommended: [steinhaus-theorem, positive-measure]
+  suggested: [pettis-theorem, topological-group]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "4"
+    section: "4. The Property of Baire"
+    pages: ""
+    role_in_book: "Theorem 4.8 — parallels measurable/measure and Baire/category analogies for difference sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

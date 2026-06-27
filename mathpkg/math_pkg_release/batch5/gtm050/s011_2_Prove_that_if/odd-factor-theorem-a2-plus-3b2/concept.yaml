@@ -1,0 +1,23 @@
+id: odd-factor-theorem-a2-plus-3b2
+title_en: "Odd Factor Theorem for Numbers of the Form a^2 + 3b^2"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: advanced
+tags: [quadratic-forms, a2-plus-3b2, odd-factors, infinite-descent, euler]
+depends_on:
+  required: [product-identity-a2-plus-3b2, divisibility-by-two-for-a2-plus-3b2]
+  recommended: [infinite-descent]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.4"
+    pages: ""
+    role_in_book: "Statement (5'): the critical theorem that every odd factor of a^2+3b^2 with a,b coprime is of the form c^2+3d^2, proved via infinite descent"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

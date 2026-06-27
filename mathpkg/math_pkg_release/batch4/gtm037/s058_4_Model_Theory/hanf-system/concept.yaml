@@ -1,0 +1,23 @@
+id: hanf-system
+title_en: "Hanf System"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [hanf-system, hanf-number, set-class-distinction, ternary-relation]
+depends_on:
+  required: [set-class-distinction]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "4"
+    section: "Model Theory"
+    pages: ""
+    role_in_book: "Definition 19.27: a Hanf system is a ternary relation whose first projection is a set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

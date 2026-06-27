@@ -1,0 +1,23 @@
+id: e-is-split-injection
+title_en: "Theorem 34: e is a Split Injection"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [modular-representation-theory, cde-triangle, split-injection, grothendieck-group]
+depends_on:
+  required: [homomorphism-e-pk-to-rk, surjectivity-of-d, adjointness-of-d-and-e]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "16"
+    section: "16.1"
+    pages: ""
+    role_in_book: "Shows e is a split injection, dual to the surjectivity of d"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

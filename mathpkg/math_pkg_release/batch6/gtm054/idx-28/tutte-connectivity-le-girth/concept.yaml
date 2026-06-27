@@ -1,0 +1,23 @@
+id: tutte-connectivity-le-girth
+title_en: "Tutte connectivity is bounded above by the girth"
+title_zh: ""
+type: lemma
+domain: combinatorics
+subdomain: multigraph-connectivity
+difficulty: intermediate
+tags: [tutte-connectivity, girth, multigraph, cycle]
+depends_on:
+  required: [tutte-connectivity, girth-of-multigraph, tutte-connectivity-le-vertex-connectivity]
+  recommended: [elementary-circuit]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "Chapter VI"
+    section: "Section 30"
+    pages: ""
+    role_in_book: "Lemma E6: For Γ not one of the small forbidden multigraphs, τ(Γ) ≤ γ(Γ)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

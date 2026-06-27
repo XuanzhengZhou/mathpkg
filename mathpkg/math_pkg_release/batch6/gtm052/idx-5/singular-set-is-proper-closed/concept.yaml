@@ -1,0 +1,23 @@
+id: singular-set-is-proper-closed
+title_en: "The Singular Locus is a Proper Closed Subset"
+title_zh: "奇异轨迹是闭的真子集"
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [singular-locus, jacobian-criterion, birational-map, nonsingularity]
+depends_on:
+  required: [nonsingularity-iff-regular-local-ring, variety, jacobian-matrix]
+  recommended: [birational-map, dimension-theory]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "5"
+    pages: ""
+    role_in_book: "Proves that the set of singular points of a variety forms a proper closed subset, so nonsingularity is generic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

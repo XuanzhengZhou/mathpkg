@@ -1,0 +1,23 @@
+id: realcompact-space
+title_en: "Realcompact Space"
+title_zh: "实紧空间"
+type: definition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [realcompact, real-ideal, maximal-ideal, residue-class-field, c-star]
+depends_on:
+  required: [real-ideal, maximal-ideal, pseudocompact]
+  recommended: [maximal-ideal-c-star-real, completely-regular-space]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.9"
+    pages: ""
+    role_in_book: "Introduces realcompact spaces; a space is realcompact if every real maximal ideal in C(X) is fixed. The problem of describing residue class fields of C* is settled by Theorem 5.8."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

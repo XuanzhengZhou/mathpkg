@@ -1,0 +1,23 @@
+id: endomorphism-ring-of-regular-module
+title_en: "Endomorphism Ring of the Regular Module is Isomorphic to R"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [endomorphism-ring, regular-module, ring-isomorphism]
+depends_on:
+  required: []
+  recommended: [m-isomorphic-to-hom-r-m, regular-module]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "4"
+    pages: ""
+    role_in_book: "Shows that left/right multiplication gives ring isomorphisms from R to endomorphism rings of regular modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

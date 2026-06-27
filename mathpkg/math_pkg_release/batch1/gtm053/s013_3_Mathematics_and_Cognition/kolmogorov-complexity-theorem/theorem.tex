@@ -1,0 +1,10 @@
+Let $u = \{u_k\}$ be an enumerable family of $m$-functions over $\mathbf{Z}^+$, and let $f$ be a partial recursive $m$-function. Define the complexity of $f$ relative to $u$ as
+$$C_u(f) = \begin{cases} \min\{k \mid u_k = f\}, & \text{if such a } k \text{ exists;} \\ \infty, & \text{otherwise.} \end{cases}$$
+
+The family $u$ is called asymptotically optimal if for any other enumerable family $v$, there exists $c_{u,v} > 0$ such that for every partial recursive $m$-function $f$,
+$$C_u(f) \leqslant c_{u,v}C_v(f).$$
+
+Theorem (Kolmogorov):
+(a) For any $m \geq 0$, optimal families exist and can be effectively constructed.
+(b) If $u$ and $v$ are optimal families of $m$-functions, then for any $m$-function $f$,
+$$c_{v,u}^{-1} \leqslant C_u(f)/C_v(f) \leqslant c_{u,v}.$$

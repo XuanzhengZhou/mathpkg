@@ -1,0 +1,23 @@
+id: lax-representation-kdv
+title_en: "Lax representation of the KdV equation"
+title_zh: "KdV方程的Lax表示"
+type: theorem
+domain: applied-math
+subdomain: integrable-systems
+difficulty: advanced
+tags: [lax-pair, kdv, sturm-liouville, isospectral-flow, inverse-scattering]
+depends_on:
+  required: [korteweg-de-vries-equation]
+  recommended: [sturm-liouville-theory]
+  suggested: [lax-equation, inverse-scattering-transform, zakharov-shabat]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "The Korteweg–de Vries equation"
+    pages: ""
+    role_in_book: "States Lax's theorem that the KdV equation is equivalent to the isospectral deformation of a Sturm-Liouville operator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

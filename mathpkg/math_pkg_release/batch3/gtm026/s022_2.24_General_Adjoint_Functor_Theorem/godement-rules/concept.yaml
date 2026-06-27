@@ -1,0 +1,23 @@
+id: godement-rules
+title_en: "Godement Rules for Natural Transformations"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [natural-transformation, functor-composition, godement, whiskering, horizontal-composition]
+depends_on:
+  required: [natural-transformation, functor, composition]
+  recommended: [functor-category]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.24"
+    pages: ""
+    role_in_book: "Notational rules for composing natural transformations with functors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

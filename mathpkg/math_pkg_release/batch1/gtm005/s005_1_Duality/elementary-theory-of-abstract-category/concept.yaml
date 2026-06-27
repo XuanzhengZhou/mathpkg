@@ -1,0 +1,23 @@
+id: elementary-theory-of-abstract-category
+title_en: "Elementary Theory of an Abstract Category (ETAC)"
+title_zh: "抽象范畴的初等理论"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [etac, formal-language, atomic-statements, well-formed-formula, sentence, first-order-logic]
+depends_on:
+  required: []
+  recommended: [category, axiom]
+  suggested: [first-order-logic]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "II"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the formal first-order language used to axiomatize category theory for the purpose of stating the duality principle."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

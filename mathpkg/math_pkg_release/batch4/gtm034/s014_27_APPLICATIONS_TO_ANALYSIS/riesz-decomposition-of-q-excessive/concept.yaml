@@ -1,0 +1,23 @@
+id: riesz-decomposition-of-q-excessive
+title_en: "Riesz Decomposition of Q-excessive Functions"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: potential-theory
+difficulty: advanced
+tags: [riesz-decomposition, transient-kernel, q-excessive, q-regular, q-potential]
+depends_on:
+  required: [transient-kernel, q-regular-excessive-potential, properties-of-q-function-classes]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm034
+    author: "Frank Spitzer"
+    title: "Principles of Random Walk"
+    chapter: "27"
+    section: "APPLICATIONS TO ANALYSIS"
+    pages: ""
+    role_in_book: "Fundamental structure theorem: every excessive function uniquely decomposes into regular + potential parts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

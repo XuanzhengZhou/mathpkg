@@ -1,0 +1,23 @@
+id: parameterized-surface-patch
+title_en: "Parameterized Surface Patch"
+title_zh: "参数化曲面片"
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [surface, parametrization, immersion, regular-mapping]
+depends_on:
+  required: []
+  recommended: [differentiable-mapping, injective-linear-map, open-set-in-r2]
+  suggested: []
+source_books:
+  - book_id: gtm051
+    author: "Manfredo P. do Carmo"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: "3.1.1"
+    role_in_book: "Foundational definition of a surface as a parameterized object"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

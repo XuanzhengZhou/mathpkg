@@ -1,0 +1,23 @@
+id: canonical-embedding-nonhyperelliptic
+title_en: "Characterization of the canonical embedding for nonhyperelliptic curves"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-curves
+difficulty: advanced
+tags: [canonical-embedding, nonhyperelliptic, curves, projective-embedding]
+depends_on:
+  required: []
+  recommended: [canonical-linear-system, very-ample-divisor, hyperelliptic-curve]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "IV"
+    section: "§5"
+    pages: ""
+    role_in_book: "Theorem 5.2 — characterizes when the canonical morphism is a closed embedding"
+content_hash: "thm52-hash-abc"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

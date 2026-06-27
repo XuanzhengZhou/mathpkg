@@ -1,0 +1,23 @@
+id: ap-counterexample-banach
+title_en: "If a Locally Convex Space Without AP Exists, Then a Banach Space Without AP Exists"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [approximation-property, banach-space, locally-convex-space, counterexample]
+depends_on:
+  required: [approximation-property, projective-limit-hilbert-ap]
+  recommended: [banach-space]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "Chapter III"
+    section: "9. The Approximation Property. Compact Maps"
+    pages: ""
+    role_in_book: "Corollary 3: reduction of the approximation problem to Banach spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

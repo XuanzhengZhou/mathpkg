@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+$K/k$ is purely transcendental if $K = k(S)$ for some algebraically independent subset $S$ of $K$ over $k$.

@@ -1,0 +1,30 @@
+id: riesz-theory-nullspace-sequence-stabilizes
+title_en: "Riesz Theory Nullspace Sequence Stabilization"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags:
+  - riesz-theory
+  - completely-continuous
+  - nullspace
+  - ascending-chain
+  - compact-operator
+depends_on:
+  required: []
+  recommended:
+    - completely-continuous-linear-mapping
+    - riesz-theory-closed-subspace-lemma
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "21"
+    section: "21.7"
+    pages: ""
+    role_in_book: "Part (b) of the Riesz theory outline: the ascending sequence of nullspaces of powers of S = \lambda I - T stabilizes at a finite index"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

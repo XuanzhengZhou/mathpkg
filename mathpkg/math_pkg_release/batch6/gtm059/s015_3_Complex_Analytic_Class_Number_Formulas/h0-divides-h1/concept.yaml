@@ -1,0 +1,23 @@
+id: h0-divides-h1
+title_en: "h_0 Divides h_1"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [class-number, divisibility, hilbert-class-field, cyclotomic-field]
+depends_on:
+  required: [index-relation-h0]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3. Complex Analytic Class Number Formulas"
+    section: "5"
+    pages: ""
+    role_in_book: "States that the class number of the real subfield divides the class number of the full cyclotomic field"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

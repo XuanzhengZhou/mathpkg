@@ -1,0 +1,23 @@
+id: gelfand-ponomarev-boolean-substructure
+title_en: "Gelfand–Ponomarev Boolean Subalgebra in L^n"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: quantum-logic
+difficulty: advanced
+tags: [quantum-logic, modular-structure, boolean-algebra, gelfand-ponomarev, quantum-tautology]
+depends_on:
+  required: [modular-structure]
+  recommended: [boolean-algebra]
+  suggested: [representation-theory]
+source_books:
+  - book_id: "gtm053"
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "12"
+    section: "12.16"
+    pages: ""
+    role_in_book: "Constructs a Boolean subalgebra within a modular structure, yielding quantum tautologies"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

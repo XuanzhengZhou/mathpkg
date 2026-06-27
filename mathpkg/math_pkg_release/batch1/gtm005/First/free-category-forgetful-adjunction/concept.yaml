@@ -1,0 +1,23 @@
+id: free-category-forgetful-adjunction
+title_en: "Free category functor is left adjoint to forgetful functor"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [adjunction, free-category, forgetful-functor, graph, left-adjoint]
+depends_on:
+  required: [free-category-generated-by-graph, adjunction, graph, category, functor]
+  recommended: [diagram-of-shape-g]
+  suggested: [natural-transformation]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "II"
+    section: "7"
+    pages: ""
+    role_in_book: "Corollary of Theorem 1 establishing the fundamental adjunction between graphs and categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

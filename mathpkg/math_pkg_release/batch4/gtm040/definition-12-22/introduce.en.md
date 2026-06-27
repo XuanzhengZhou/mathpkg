@@ -1,0 +1,26 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+When $|\mathcal{G}_V| = \infty$ we say that there is phase multiplicity (or phase transition) for $V$. A measure $\mu \in \mathcal{G}_V$ is extreme if whenever $\mu = \alpha \mu_1 + (1 - \alpha)\mu_2$, $\mu_1, \mu_2 \in \mathcal{G}_V$, $0 < \alpha < 1$, then $\mu_1 = \mu_2 = \mu$. The class of extreme elements of $\mathcal{G}_V$ is denoted by $\mathcal{E}_V$.
+
+Since $\mathcal{G}_V$ is convex, in the case of phase multiplicity one would hope for an integral representation in terms of $\mathcal{E}_V$. We will obtain such a representation, along with a number of other results on the structure of $\mathcal{G}_V$, by connecting neighbor Gibbs fields with Martin boundaries for certain Markov chains. The remainder of this section is devoted to the study of general structural properties of $\mathcal{G}_V$ with the aid of the boundary theory developed in Chapter 10.
+
+To begin, we fix a neighbor potential $V$, assume $\mathcal{G}_V \neq \varnothing$, and choose a reference measure $\nu \in \mathcal{G}_V$. Also we fix an increasing sequence $\{\Lambda(n), n = 0, 1, \ldots\}$
+
+chain are all possible pairs $(n, \kappa^n)$, $n \geq 0$, $\kappa^n \in S^{K(n)}$. The transition matrix is
+
+$$P_{(n, \kappa^n)(n+1, \kappa^n+1)} = \nu([\kappa^{n+1}] \mid [\kappa^n]).$$
+
+Proposition 12-23 and a simple induction show that the $n$-step transition matrix is given by
+
+$$P^{(n)}_{(m, \kappa^m)(m+n, \kappa^m+n)} = \nu([\kappa^{m+n}] \mid [\kappa^n]).$$
+
+If the initial distribution is $\pi_{(0, \kappa^0)} = \nu([\kappa^0])$, and $\{y_n\}$ denotes the resulting chain, then we obtain the simple relationship
+
+$$\Pr_n[y_n = (n, \kappa^n)] = \nu([\kappa^n]).$$
+
+Next, we connect $P$-regular functions with fields in $\mathcal{G}_V$. A lemma will be useful for this purpose.

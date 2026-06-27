@@ -1,0 +1,23 @@
+id: convolution-in-l1
+title_en: "Convolution in L^1(R)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: intermediate
+tags: [convolution, L1-space, Lebesgue-integral, translation, Fubini-theorem]
+depends_on:
+  required: [fubini-theorem, L1-space, Lebesgue-measure, translation-invariance]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm025
+    author: "Edwin Hewitt, Karl Stromberg"
+    title: "Real and Abstract Analysis"
+    chapter: "6"
+    section: "21"
+    pages: ""
+    role_in_book: "Defines convolution on L^1 and establishes basic properties"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

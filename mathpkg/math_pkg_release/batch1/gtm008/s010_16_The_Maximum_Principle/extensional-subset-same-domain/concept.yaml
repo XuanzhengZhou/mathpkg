@@ -1,0 +1,23 @@
+id: extensional-subset-same-domain
+title_en: "Extensional Subset with Same Domain"
+title_zh: "相同定义域的外延子集"
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: intermediate
+tags: [boolean-valued-universe, extensional-set, subset, domain-compatibility]
+depends_on:
+  required: [extensional-function, extensional-restriction-by-subset]
+  recommended: []
+  suggested: [subset-characterization-via-equality]
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: ""
+    role_in_book: "If v is extensionally a subset of u, one can replace v by an extensional v' with the same domain as u that is Boolean-equal to v."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

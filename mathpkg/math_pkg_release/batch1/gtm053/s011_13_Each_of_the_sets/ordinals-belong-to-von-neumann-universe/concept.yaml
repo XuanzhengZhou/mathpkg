@@ -1,0 +1,23 @@
+id: ordinals-belong-to-von-neumann-universe
+title_en: "All ordinals belong to V"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: set-theory
+difficulty: intermediate
+tags: [ordinals, von-neumann-universe, cumulative-hierarchy, transfinite-induction]
+depends_on:
+  required: [von-neumann-universe, ordinal-numbers]
+  recommended: [transfinite-induction]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: ""
+    section: "Each of the sets V_α is transitive"
+    pages: ""
+    role_in_book: "Ordinals are contained in the von Neumann universe"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

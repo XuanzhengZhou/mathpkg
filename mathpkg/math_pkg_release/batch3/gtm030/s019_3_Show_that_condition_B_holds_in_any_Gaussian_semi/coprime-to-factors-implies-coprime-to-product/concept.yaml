@@ -1,0 +1,23 @@
+id: coprime-to-factors-implies-coprime-to-product
+title_en: "Coprime to Factors Implies Coprime to Product"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: semi-group-theory
+difficulty: basic
+tags: [gcd, coprime, semi-group, condition-c, euclidean-lemma]
+depends_on:
+  required: [condition-c-gcd-existence, distributivity-of-gcd, associativity-of-gcd]
+  recommended: [greatest-common-divisor-notation]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Lemma 4: If an element is coprime to each of two elements, it is coprime to their product"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

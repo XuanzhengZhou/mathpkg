@@ -1,0 +1,13 @@
+Let $X$ and $Y$ be smooth manifolds of dimensions $n$ and $m$ respectively. Let $U \subset X$ and $V \subset Y$ be coordinate charts with diffeomorphisms $\phi: U \to U' \subset \mathbf{R}^n$ and $\psi: V \to V' \subset \mathbf{R}^m$. Define the open subset $J^k(U, V) = \alpha^{-1}(U) \cap \beta^{-1}(V) \subset J^k(X, Y)$.
+
+For $\sigma \in J^k(U, V)$ with source $x_0 \in U$ and target $y_0 \in V$, let $f: X \to Y$ be a smooth map representing $\sigma$. Define the Taylor polynomial map
+
+$$T_k(f_i)(x_0) = \sum_{1 \leq |\alpha| \leq k} \frac{\partial^{|\alpha|} f_i}{\partial x^\alpha}(x_0) (x - x_0)^\alpha$$
+
+where $f_i$ are the coordinate functions of $\psi \circ f \circ \phi^{-1}$. Then the map
+
+$$\tau_{U,V}: J^k(U, V) \to U \times V \times B_{n,m}^k$$
+
+given by $\tau_{U,V}(\sigma) = (x_0, y_0, T_k(f_1)(x_0), \ldots, T_k(f_m)(x_0))$ is a bijection. Moreover, the transition maps $\tau_{U_1,V_1} \circ \tau_{U,V}^{-1}$ are smooth, endowing $J^k(X, Y)$ with the structure of a smooth manifold.
+
+The source and target maps $\alpha: J^k(X, Y) \to X$ and $\beta: J^k(X, Y) \to Y$ are smooth submersions.

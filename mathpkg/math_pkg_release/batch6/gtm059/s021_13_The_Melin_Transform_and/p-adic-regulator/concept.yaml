@@ -1,0 +1,23 @@
+id: p-adic-regulator
+title_en: "p-adic Regulator"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: p-adic-regulator
+difficulty: advanced
+tags: [p-adic-regulator, units, p-adic-logarithm, determinant]
+depends_on:
+  required: [p-adic-logarithm-extension, unit-group, algebraic-number-theory]
+  recommended: [class-number-formula, dirichlet-unit-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "13"
+    section: "The Mellin Transform and p-adic L-function"
+    pages: ""
+    role_in_book: "Central object connecting the p-adic logarithm of units to the p-adic L-function; its non-vanishing is equivalent to Leopoldt's conjecture"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

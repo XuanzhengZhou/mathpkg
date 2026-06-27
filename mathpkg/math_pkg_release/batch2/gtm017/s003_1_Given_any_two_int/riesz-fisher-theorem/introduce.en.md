@@ -1,0 +1,1 @@
+The Riesz-Fisher theorem establishes the completeness of the $L^2$ space: every Cauchy sequence in mean square converges in mean square to a limit. More generally, the Cauchy criterion holds for all three standard modes of convergence, meaning each corresponding space of random variables is complete. This is essential for functional-analytic methods in probability.

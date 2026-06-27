@@ -1,0 +1,6 @@
+Let $p = (p_1, p_2, \ldots)$ be a vector of non-negative numbers with $\sum_i p_i = 1$ (initial probabilities). Let $P^{(m,m+1)} = (p_{i_m, i_{m+1}}^{(m,m+1)})$ be matrices with non-negative elements and row sums one (one-step transition probabilities).
+
+The \textbf{Markov assumption} states that the probability of a sample point $(i_1, \dots, i_n)$ is given by
+$$P((i_1, \dots, i_n)) = p_{i_1} p_{i_1, i_2}^{(1,2)} \cdots p_{i_{n-1}, i_n}^{(n-1,n)}.$$
+
+Such a probability model is called a \textbf{Markov chain}. $X_m(w) = i_m$ is the state at time $m$.

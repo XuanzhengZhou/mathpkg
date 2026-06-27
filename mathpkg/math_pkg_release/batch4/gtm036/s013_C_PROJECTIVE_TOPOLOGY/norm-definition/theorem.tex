@@ -1,0 +1,9 @@
+A \textbf{norm} $p$ for a linear space $E$ is a subadditive, absolutely homogeneous, non-negative functional on $E$ such that $p(x) = 0$ if and only if $x = 0$. That is, for all $x, y \in E$ and all scalars $t$:
+
+\begin{itemize}
+\item $p(x + y) \leq p(x) + p(y)$ (subadditivity)
+\item $p(tx) = |t|\,p(x)$ (absolute homogeneity)
+\item $p(x) \geq 0$ and $p(x) = 0 \iff x = 0$ (positive definiteness)
+\end{itemize}
+
+If $p$ is a norm for $E$, then the \textbf{metric associated with $p$} is defined by $d(x, y) = p(x - y)$. The metric topology $\mathcal{T}$ associated with $d$ is defined by calling a set $U$ $\mathcal{T}$-open if and only if for each $x \in U$ there is $\varepsilon > 0$ such that the open sphere of radius $\varepsilon$ about $x$ is contained in $U$.

@@ -1,0 +1,23 @@
+id: return-time-moments-reflecting-random-walk
+title_en: "Return Time Moments for Reflecting Random Walk"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [reflecting-random-walk, return-time, moments, catalan-numbers, markov-chain]
+depends_on:
+  required: [return-probability-reflecting-random-walk]
+  recommended: [moment-generating-function, catalan-numbers]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "Kemeny, Snell, Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "7"
+    section: "7. Further examples"
+    pages: ""
+    role_in_book: "Formula for moments of return time in reflecting random walk"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

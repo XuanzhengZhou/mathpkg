@@ -1,0 +1,23 @@
+id: cartesian-closed-category
+title_en: "Cartesian Closed Category"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [cartesian-closed, exponential-object, adjoint-functor, closed-category, lambda-calculus]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "9"
+    pages: ""
+    role_in_book: "Defines cartesian closure as the existence of right adjoints to product functors, a topos axiom"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

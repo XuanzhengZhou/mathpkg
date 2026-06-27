@@ -1,0 +1,23 @@
+id: indecomposable-decomposition-complements-summands
+title_en: "Indecomposable Decompositions of Injective Modules Complement Direct Summands"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [injective-module, indecomposable-decomposition, direct-summand, azumaya-theorem]
+depends_on:
+  required: [injective-module, indecomposable-module, direct-summand]
+  recommended: [azumaya-theorem, direct-sum-decomposition]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson and Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "25. Injective Modules and Noetherian Rings—The Faith–Walker Theorems"
+    pages: ""
+    role_in_book: "Shows that indecomposable decompositions of injective modules have the strong complementation property, a key step toward the noetherian characterization"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

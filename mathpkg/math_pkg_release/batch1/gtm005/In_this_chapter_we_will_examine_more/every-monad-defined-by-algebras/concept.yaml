@@ -1,0 +1,23 @@
+id: every-monad-defined-by-algebras
+title_en: "Every Monad is Defined by Its T-Algebras"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [monad, t-algebra, eilenberg-moore-category, adjunction, free-forgetful]
+depends_on:
+  required: [monad-in-a-category, t-algebra, adjunction]
+  recommended: [kleisli-category, monadicity-theorem, becks-theorem]
+  suggested: [compact-hausdorff-space-as-algebra]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI. Monads and Algebras"
+    section: "1. Monads in a Category"
+    pages: ""
+    role_in_book: "Theorem 1: every monad arises from an adjunction between X and its Eilenberg-Moore category X^T"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

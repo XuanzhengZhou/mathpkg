@@ -1,0 +1,23 @@
+id: lifting-csa-under-epimorphism
+title_en: "Lifting Cartan Subalgebras under Epimorphisms"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [cartan-subalgebra, csa, epimorphism, lifting, functorial-property]
+depends_on:
+  required: [cartan-subalgebra, epimorphism-preserves-csa]
+  recommended: [preimage-under-epimorphism]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "15"
+    section: "15.4"
+    pages: "91-101"
+    role_in_book: "Second functorial property of CSAs; allows lifting CSAs through epimorphisms, used in conjugacy proof"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

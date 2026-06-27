@@ -1,0 +1,23 @@
+id: egoroffs-theorem
+title_en: "Egoroff's Theorem"
+title_zh: "叶戈罗夫定理"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [egoroff, uniform-convergence, almost-everywhere-convergence, measurable-function, finite-measure, real-analysis]
+depends_on:
+  required: [measurable-function, almost-everywhere-convergence, lebesgue-measure]
+  recommended: [uniform-convergence]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "8"
+    section: "8"
+    pages: ""
+    role_in_book: "Theorem 8.3 — almost-everywhere convergence implies uniform convergence off small sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

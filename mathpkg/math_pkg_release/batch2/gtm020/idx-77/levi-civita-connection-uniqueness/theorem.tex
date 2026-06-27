@@ -1,0 +1,10 @@
+Let $M$ be a smooth manifold with a pseudo-riemannian metric $g$ on the tangent bundle $T(M)$. There exists a unique connection $\nabla$ on $T(M)$ (the Levi-Civita connection) satisfying:
+\begin{enumerate}
+\item $\nabla$ is symmetric (torsion-free): $\nabla_\xi \eta - \nabla_\eta \xi = [\xi, \eta]$ for all vector fields $\xi, \eta \in \Gamma(T(M))$,
+\item $\nabla$ is compatible with $g$: $\zeta g(\xi, \eta) = g(\nabla_\zeta \xi, \eta) + g(\xi, \nabla_\zeta \eta)$ for all $\xi, \eta, \zeta \in \Gamma(T(M))$.
+\end{enumerate}
+The covariant derivative is given by the Koszul formula:
+\begin{align*}
+2g(\xi, \nabla_\zeta \eta) &= \zeta g(\xi, \eta) + \eta g(\zeta, \xi) - \xi g(\eta, \zeta) \\
+&\quad - g(\eta, [\xi, \zeta]) + g([\eta, \zeta], \xi) + g(\zeta, [\eta, \xi]).
+\end{align*}

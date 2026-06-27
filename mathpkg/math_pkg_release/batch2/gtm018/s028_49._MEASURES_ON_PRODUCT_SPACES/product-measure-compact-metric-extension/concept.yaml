@@ -1,0 +1,23 @@
+id: product-measure-compact-metric-extension
+title_en: "Extension of Theorem A to Compact Metric Spaces (Exercise 2)"
+title_zh: "定理A到紧度量空间的推广"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [product-space, compact-metric-space, measure-extension, kolmogorov-extension, compactification]
+depends_on:
+  required: [kolmogorov-extension-theorem, compact-metric-space, product-measure, cylinder-set]
+  recommended: [stone-cech-compactification, tychonoff-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX"
+    section: "49"
+    pages: ""
+    role_in_book: "Exercise showing Theorem A holds for compact metric spaces and the real line via compactification"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+This exercise shows that absolute convergence cannot be characterized by boundedness of a weighted sequence, using the Open Mapping Theorem applied to a transformation between $\ell_\infty$ and $\ell_1$.

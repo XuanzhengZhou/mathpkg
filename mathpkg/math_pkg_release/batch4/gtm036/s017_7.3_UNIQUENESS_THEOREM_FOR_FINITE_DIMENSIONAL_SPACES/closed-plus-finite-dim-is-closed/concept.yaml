@@ -1,0 +1,23 @@
+id: closed-plus-finite-dim-is-closed
+title_en: "Corollary: Sum of a Closed Subspace and a Finite Dimensional Subspace is Closed"
+title_zh: "闭子空间与有限维子空间的和是闭的"
+type: corollary
+domain: topology
+subdomain: linear-topological-spaces
+difficulty: intermediate
+tags: [closed-subspace, finite-dimensional, sum-of-subspaces, quotient-map]
+depends_on:
+  required: [finite-dim-subspace-topological-isomorphism]
+  recommended: [quotient-map, closed-subspace]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "Kelley, J. L. and Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "7"
+    section: "7.4"
+    pages: ""
+    role_in_book: "Corollary to the uniqueness theorem for finite dimensional spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

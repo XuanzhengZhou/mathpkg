@@ -1,0 +1,23 @@
+id: irreducible-iff-extreme-point
+title_en: "Irreducible GNS Representation iff State is Extreme Point"
+title_zh: "GNS表示不可约当且仅当态是端点"
+type: proposition
+domain: analysis
+subdomain: operator-algebras
+difficulty: advanced
+tags: [C*-algebra, irreducible-representation, extreme-point, state-space, gns-construction]
+depends_on:
+  required: [irreducible-representation, extreme-point, state-space, gns-representation]
+  recommended: [irreducible-iff-trivial-commutant]
+  suggested: [krein-milman-theorem]
+source_books:
+  - book_id: "gtm003"
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "11"
+    pages: ""
+    role_in_book: "Exercise 12(b): irreducibility of GNS representation characterized by extreme points of state space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

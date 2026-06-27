@@ -1,0 +1,3 @@
+Let $U_1^{(k)}$ be the Hadamard gate on the $k$-th qubit, and let $U_2^{(kj)}$ be the controlled phase gate on qubits $k,j$ multiplying $|11\rangle$ by $\exp(i\pi/2^{j-k})$. Then the quantum Fourier transform $\Phi_n^t$ factorizes as:
+$$\Phi_n^t = \prod_{k=0}^{n-1} \left( U_1^{(k)} \prod_{j=k+1}^{n-1} U_2^{(kj)} \right).$$
+This presentation has polynomial length $O(n^2)$ gates.

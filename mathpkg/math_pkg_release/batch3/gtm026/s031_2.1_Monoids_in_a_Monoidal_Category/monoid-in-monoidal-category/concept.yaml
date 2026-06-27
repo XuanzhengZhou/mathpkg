@@ -1,0 +1,23 @@
+id: monoid-in-monoidal-category
+title_en: "Monoid in a Monoidal Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [monoid, monoidal-category, internal-monoid, monoid-object, associativity-law, unit-law]
+depends_on:
+  required: [monoidal-category]
+  recommended: [monoid]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.1 Monoids in a Monoidal Category"
+    pages: ""
+    role_in_book: "Core definition — generalizes ordinary monoids to an arbitrary monoidal category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

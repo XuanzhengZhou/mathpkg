@@ -1,0 +1,23 @@
+id: completely-regular-reflection
+title_en: "Completely Regular Reflection of a Topological Space"
+title_zh: "拓扑空间的完全正则反射"
+type: theorem
+domain: topology
+subdomain: separation-axioms
+difficulty: advanced
+tags: [completely-regular-space, reflection, quotient, ring-isomorphism, continuous-function]
+depends_on:
+  required: [completely-regular-space, weak-topology, quotient-space]
+  recommended: [ring-isomorphism, equivalence-relation]
+  suggested: [stone-cech-compactification]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.9"
+    pages: ""
+    role_in_book: "Theorem 3.9; shows every space has a completely regular reflection with isomorphic function ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

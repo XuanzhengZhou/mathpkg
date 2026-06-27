@@ -1,0 +1,23 @@
+id: theorem-4-3-class-number-regulator
+title_en: "p-adic Class Number-Regulator Formula"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: p-adic-l-functions
+difficulty: advanced
+tags: [class-number-formula, p-adic-regulator, p-adic-l-function, iwasawa-theory]
+depends_on:
+  required: [p-adic-regulator, p-adic-l-function, class-number, cyclotomic-field]
+  recommended: [analytic-class-number-formula, leopoldt-conjecture]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "13"
+    section: "The Mellin Transform and p-adic L-function"
+    pages: ""
+    role_in_book: "Theorem 4.3: The p-adic class number formula relating h^+, the regulator, and the p-adic L-function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

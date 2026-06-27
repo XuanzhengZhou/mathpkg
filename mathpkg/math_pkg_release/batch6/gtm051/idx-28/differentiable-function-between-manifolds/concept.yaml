@@ -1,0 +1,23 @@
+id: differentiable-function-between-manifolds
+title_en: "Differentiable Function Between Differentiable Manifolds"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [differentiable-manifold, differentiable-function, chart, atlas, diffeomorphism]
+depends_on:
+  required: [differentiable-manifold, chart, atlas]
+  recommended: [differentiable-function-on-euclidean-space, diffeomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.5"
+    pages: "114-115"
+    role_in_book: "Defines differentiability for maps between manifolds using charts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

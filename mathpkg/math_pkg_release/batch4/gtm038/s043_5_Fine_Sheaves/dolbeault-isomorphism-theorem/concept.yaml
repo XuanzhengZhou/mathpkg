@@ -1,0 +1,23 @@
+id: dolbeault-isomorphism-theorem
+title_en: "Dolbeault Isomorphism Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: several-complex-variables
+difficulty: advanced
+tags: [dolbeault-theorem, sheaf-cohomology, d-bar-cohomology, complex-manifold, fine-sheaf, acyclic-resolution]
+depends_on:
+  required: [dolbeault-sequence-and-groups, exactness-of-dolbeault-sheaf-sequence, sheaf-of-holomorphic-p-forms]
+  recommended: [fine-sheaf, flabby-resolution]
+  suggested: []
+source_books:
+  - book_id: "gtm038"
+    author: "Grauert, H.; Fritzsche, K."
+    title: "Several Complex Variables"
+    chapter: "VII"
+    section: "5. Fine Sheaves (Theorems of Dolbeault and de Rham)"
+    pages: "196"
+    role_in_book: "States the Dolbeault isomorphism identifying Dolbeault cohomology with sheaf cohomology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

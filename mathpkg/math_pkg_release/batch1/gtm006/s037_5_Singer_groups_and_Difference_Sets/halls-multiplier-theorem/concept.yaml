@@ -1,0 +1,23 @@
+id: halls-multiplier-theorem
+title_en: "Hall's Multiplier Theorem for Difference Sets"
+title_zh: "差集的 Hall 乘子定理"
+type: theorem
+domain: combinatorics
+subdomain: difference-sets
+difficulty: advanced
+tags: [hall-multiplier, difference-set, singer-group, abelian-group, collineation]
+depends_on:
+  required: [singer-group, difference-set]
+  recommended: [projective-plane, group-ring, abelian-group]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "XIII"
+    section: "5"
+    pages: ""
+    role_in_book: "Theorem 13.14 (M. Hall): multiplier theorem for abelian Singer groups, showing D^φ = Dλ"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

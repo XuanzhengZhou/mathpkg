@@ -1,0 +1,23 @@
+id: relations-between-g-c-n-matrices
+title_en: "Relations between G, C, and N matrices"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [normal-chain, matrix-identity, potential-theory, fundamental-matrix]
+depends_on:
+  required: [matrices-c-and-g, characterization-of-normal-chains]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "2"
+    pages: "264–273"
+    role_in_book: "Proposition 9-45; algebraic identities linking the matrices G, C, and N (the fundamental matrix relative to any state k)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

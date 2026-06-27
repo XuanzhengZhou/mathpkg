@@ -1,0 +1,13 @@
+id: integral-of-k-form-over-k-dimensional-cell
+title_en: "Integral of a k-form over a k-dimensional cell"
+title_zh: "k-形式在k维胞腔上的积分"
+type: definition
+domain: geometry
+subdomain: integration-of-forms
+difficulty: intermediate
+tags: [integral, k-form, singular-cell, pullback, manifold]
+depends_on: {required: [k-dimensional-singular-cell, pullback-of-differential-form, integral-of-k-form-on-oriented-euclidean-space], recommended: [], suggested: []}
+source_books: [{book_id: "gtm060", author: "V.I. Arnold", title: "Mathematical Methods of Classical Mechanics", chapter: "7", section: "35", pages: "196", role_in_book: "Defines integration of a differential form over a singular cell, the key definition for integration on manifolds"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,7 @@
+Given two categories $B$ and $C$, the \textbf{product category} $B \times C$ consists of:
+\begin{itemize}
+\item \textbf{Objects:} Pairs $\langle b, c \rangle$ where $b$ is an object of $B$ and $c$ is an object of $C$;
+\item \textbf{Arrows:} Pairs $\langle f, g \rangle: \langle b, c \rangle \to \langle b', c' \rangle$ where $f: b \to b'$ in $B$ and $g: c \to c'$ in $C$;
+\item \textbf{Composition:} Defined componentwise by
+$$\langle f', g' \rangle \circ \langle f, g \rangle = \langle f' \circ f, g' \circ g \rangle.$$
+\end{itemize}

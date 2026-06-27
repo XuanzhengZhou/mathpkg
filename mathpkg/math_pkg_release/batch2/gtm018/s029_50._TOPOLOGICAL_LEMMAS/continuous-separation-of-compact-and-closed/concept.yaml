@@ -1,0 +1,23 @@
+id: continuous-separation-of-compact-and-closed
+title_en: "Continuous Separation of Compact and Closed Disjoint Sets"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: locally-compact-spaces
+difficulty: intermediate
+tags: [compact-set, closed-set, separating-function, urysohn-lemma, completely-regular]
+depends_on:
+  required: [class-of-normalized-continuous-functions, completely-regular-space]
+  recommended: [compact-set, closed-set]
+  suggested: [partition-of-unity]
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "X"
+    section: "50"
+    pages: ""
+    role_in_book: "existence of separating function vanishing on compact set and equal to 1 on disjoint closed set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

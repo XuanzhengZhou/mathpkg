@@ -1,0 +1,13 @@
+id: barycentric-subdivision-mesh-bound
+title_en: "Mesh Bound for Barycentric Subdivision"
+title_zh: "重心重分的网格界"
+type: lemma
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: basic
+tags: [barycentric-subdivision, mesh, diameter, simplex]
+depends_on: {required: [barycentric-subdivision, mesh-of-complex], recommended: [], suggested: []}
+source_books: [{book_id: "gtm047", author: "Edwin E. Moise", title: "Geometric Topology in Dimensions 2 and 3", chapter: "5", section: "5", pages: "52-57", role_in_book: "Property 7: The mesh of bK is at most half the mesh of K"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

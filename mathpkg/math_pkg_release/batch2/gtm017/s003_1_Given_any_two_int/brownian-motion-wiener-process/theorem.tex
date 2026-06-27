@@ -1,0 +1,6 @@
+The Brownian motion (Wiener process) $\{X_t(\omega), t \geq 0\}$ is a Gaussian process characterized by:
+(1) $X_0(\omega) \equiv 0$;
+(2) Independent increments: for $0 \leq \tau_1 \leq t_1 \leq \cdots \leq \tau_k \leq t_k$, the increments $X_{t_i} - X_{\tau_i}$ are independent;
+(3) Distribution of increments: $X_t - X_\tau \sim N(0, t - \tau)$.
+The joint density for $0 < t_1 < \cdots < t_k$ is:
+$$f(x_1, \ldots, x_k) = \frac{1}{\sqrt{2\pi t_1}} e^{-x_1^2/(2t_1)} \prod_{j=1}^{k-1} \frac{1}{\sqrt{2\pi(t_{j+1} - t_j)}} e^{-(x_{j+1} - x_j)^2/(2(t_{j+1} - t_j))}.$$

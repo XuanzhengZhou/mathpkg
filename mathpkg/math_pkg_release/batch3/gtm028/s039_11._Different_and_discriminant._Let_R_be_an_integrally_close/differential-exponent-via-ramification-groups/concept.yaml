@@ -1,0 +1,23 @@
+id: differential-exponent-via-ramification-groups
+title_en: "Differential Exponent via Ramification Groups"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [differential-exponent, ramification-groups, different, dedekind-domain, galois-extension, valuation]
+depends_on:
+  required: [differential-exponent, ramification-groups, different, galois-extension, discrete-valuation]
+  recommended: [dedekind-domain, inertia-group, decomposition-group]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "IV"
+    section: "11. Different and discriminant"
+    pages: ""
+    role_in_book: "Expresses differential exponent in terms of ramification groups in the normal separable case"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

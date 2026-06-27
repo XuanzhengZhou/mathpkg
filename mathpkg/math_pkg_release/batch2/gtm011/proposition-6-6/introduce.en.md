@@ -1,0 +1,13 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+6.6 Proposition from Conway's "Functions of One Complex Variable I."
+Let $G$ be a region in the plane and let $f$ be an analytic function on $G$ with non-vanishing derivative. If $\Gamma$ is the graph of $f$ and
+
+$$\Phi = \{(U_\alpha, \varphi_\alpha) : \alpha \in \Gamma, U_\alpha \text{ and } \varphi_\alpha \text{ as in (6.4) and (6.5)}\}$$
+
+then $(\Gamma, \Phi)$ is...

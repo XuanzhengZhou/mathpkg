@@ -1,0 +1,42 @@
+{
+  "id": "isometry-characterization-einstein-de-sitter",
+  "title_en": "Proposition 6.0.5f: Isometry Characterization of Einstein-de Sitter Spacetime",
+  "title_zh": "",
+  "type": "proposition",
+  "domain": "geometry",
+  "subdomain": "differential-geometry",
+  "difficulty": "intermediate",
+  "tags": [
+    "general-relativity",
+    "einstein-de-sitter",
+    "isometry",
+    "cosmology"
+  ],
+  "depends_on": {
+    "required": [
+      "einstein-de-sitter-spacetime",
+      "isometry"
+    ],
+    "recommended": [
+      "euclidean-isometry"
+    ],
+    "suggested": [
+      "cosmological-time",
+      "space-slice"
+    ]
+  },
+  "source_books": [
+    {
+      "book_id": "gtm048",
+      "author": "Rainer K. Sachs, Hung-Hsi Wu",
+      "title": "General Relativity for Mathematicians",
+      "chapter": "6",
+      "section": "6.0",
+      "pages": "",
+      "role_in_book": "Characterization of all isometries of Einstein-de Sitter spacetime"
+    }
+  ],
+  "content_hash": "",
+  "extraction_date": "2026-06-27",
+  "extraction_agent": "v8-full-extract"
+}

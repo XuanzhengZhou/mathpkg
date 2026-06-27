@@ -1,0 +1,23 @@
+id: fixed-maximal-ideals-in-cstar-x
+title_en: "Fixed Maximal Ideals in C*(X)"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [maximal-ideal, fixed-ideal, C*(X), bounded-continuous-functions, residue-field]
+depends_on:
+  required: [maximal-ideal, C*(X), completely-regular-space]
+  recommended: [fixed-maximal-ideals-in-cx]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4.6"
+    pages: ""
+    role_in_book: "Characterizes all fixed maximal ideals of C*(X) as the sets M*_p of bounded continuous functions vanishing at p, with C*(X)/M*_p ≅ R."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: decomposition-into-stable-planes
+title_en: "Decomposition into Stable Planes and Straight Lines"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [rotation, stable-subspace, orthogonal-decomposition, eigenspace]
+depends_on:
+  required: [rotation, inner-product-space, eigenvalue]
+  recommended: [orthogonal-complement, spectral-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: ""
+    title: "Linear Algebra"
+    chapter: "8"
+    section: "8.20"
+    pages: ""
+    role_in_book: "Proves that every rotation admits an orthogonal decomposition into stable 1D and 2D subspaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

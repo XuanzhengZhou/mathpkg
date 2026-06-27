@@ -1,0 +1,5 @@
+Let $B$ be a Boolean algebra. A Boolean truth function $\|~\|$ on formulas of $L$ is defined by assigning values $\|P\| \in B$ to atomic formulas and extending inductively:
+$$\|P \Leftrightarrow Q\| = \|P\|\|Q\| + \|P\|'\|Q\|', \quad \|P \Rightarrow Q\| = \|P\|' \lor \|Q\|,$$
+$$\|P \lor Q\| = \|P\| \lor \|Q\|, \quad \|P \land Q\| = \|P\| \land \|Q\|, \quad \|\neg P\| = \|P\|'.$$
+For quantifiers (in a complete Boolean algebra):
+$$\|\forall x P\| = \bigwedge_{\xi'} \|P\|(\xi'), \quad \|\exists x P\| = \bigvee_{\xi'} \|P\|(\xi').$$

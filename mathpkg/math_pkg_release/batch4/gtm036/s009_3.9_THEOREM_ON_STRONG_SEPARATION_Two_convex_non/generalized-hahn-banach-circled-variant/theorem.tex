@@ -1,0 +1,16 @@
+Let $A$ be a circled convex subset of a (real or complex) linear space $E$, and let $F$ be a subspace of $E$. Let $f$ be a linear functional on $F$ and let $p$ be an absolutely convex functional on $A$ (that is, $p\!\left(\sum \{a_i x_i : 1 \leq i \leq n\}\right) \leq \sum \{|a_i|\, p(x_i) : 1 \leq i \leq n\}$ whenever $x_i \in A$, $a_i$ are scalars, and $\sum \{|a_i| : 1 \leq i \leq n\} \leq 1$).
+
+Let $\mathcal{L}_1$ be a family of linear operators on $E$. Then:
+
+(a) For each $x$ in $E$, define $g(x) = \inf \{\, p(x + \sum \{ R_i(y_i) : 1 \leq i \leq k \}) : y_i \in E,\ R_i \in \mathcal{L}_1,\ k \text{ a positive integer} \,\}$. Then $g$ is a non-negatively homogeneous, non-negative, subadditive functional on $E$ and $g \leq p$.
+
+(b) The inequality $f(x) \leq g(x)$ holds for each $x$ in $F$ if and only if there exists an extension $\bar{f}$ of $f$ such that $\bar{f} \leq p$ on $E$ and $\bar{f} \circ R = 0$ for each $R$ in $\mathcal{L}_1$ (apply the Hahn-Banach theorem to $f$ and $g$).
+
+A family $\mathcal{L}$ of linear operators on $E$ is called \emph{admissible} if $S[F] \subset F$ and $f \circ S = f$ for every $S$ in $\mathcal{L}$. A linear extension $\bar{f}$ of $f$ is $\mathcal{L}$-\emph{admissible} if $\bar{f} \leq p$ on $E$ and $\bar{f} \circ S = \bar{f}$ for every $S$ in $\mathcal{L}$.
+
+(c) Suppose $\mathcal{L}$ is an admissible family of linear operators. Then the following are equivalent:
+\begin{itemize}
+\item[(i)] There exists a linear extension $\bar{f}$ of $f$ that is $\mathcal{L}$-admissible.
+\item[(ii)] For each finite subset $\mathcal{L}'$ of $\mathcal{L}$, there exists a linear $\mathcal{L}'$-admissible extension of $f$.
+\item[(iii)] $f(x) \leq p(x + \sum \{ S_i(y_i) - y_i : 1 \leq i \leq k \})$ for all $x \in F$, $y_i \in E$, and $S_i \in \mathcal{L}$.
+\end{itemize}

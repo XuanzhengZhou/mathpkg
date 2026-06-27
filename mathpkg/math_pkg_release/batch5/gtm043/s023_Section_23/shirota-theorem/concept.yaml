@@ -1,0 +1,20 @@
+id: shirota-theorem
+title_en: "Shirota's Theorem on Complete Structures and Realcompactness"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: uniform-spaces
+difficulty: advanced
+tags: [shirota, realcompact, complete-structure, measurable-cardinal, discrete-subspace]
+depends_on: {required:[realcompact-complete-equivalence, complete-uniform-space-definition], recommended:[], suggested:[]}
+source_books:
+  - book_id: "gtm043"
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "15"
+    section: "23"
+    pages: ""
+    role_in_book: "Theorem 15.20; barring measurable cardinals, complete spaces are realcompact"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

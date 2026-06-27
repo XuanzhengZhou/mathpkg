@@ -1,0 +1,23 @@
+id: connectivity-upper-bound
+title_en: "Upper Bound for Vertex-Connectivity $\kappa(\Gamma) \leq |V| - 1$"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: graph-theory
+difficulty: basic
+tags: [connectivity, vertex-connectivity, upper-bound]
+depends_on:
+  required: [vertex-connectivity-kappa]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "VI"
+    section: "C"
+    pages: ""
+    role_in_book: "Upper bound for connectivity with complete graph characterization"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

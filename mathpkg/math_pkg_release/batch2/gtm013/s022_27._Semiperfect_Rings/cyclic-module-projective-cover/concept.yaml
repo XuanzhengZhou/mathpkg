@@ -1,0 +1,23 @@
+id: cyclic-module-projective-cover
+title_en: "Projective Cover of a Cyclic Module"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [cyclic-module, projective-cover, idempotent, jacobson-radical]
+depends_on:
+  required: [cyclic-module, projective-cover, jacobson-radical]
+  recommended: [idempotent]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "27. Semiperfect Rings"
+    pages: ""
+    role_in_book: "Lemma 27.3 — characterizes when cyclic modules admit projective covers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

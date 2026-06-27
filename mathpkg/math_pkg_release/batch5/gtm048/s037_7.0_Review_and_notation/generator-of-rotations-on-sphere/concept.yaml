@@ -1,0 +1,23 @@
+id: generator-of-rotations-on-sphere
+title_en: "Generator of Rotations around an Axis on the Unit Sphere"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [Killing-vector-field, sphere, rotations, isometry, orientation]
+depends_on:
+  required: []
+  recommended: [killing-vector-field, unit-sphere-metric, physically-equivalent-1-form]
+  suggested: [lie-derivative]
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "7"
+    section: "7.0"
+    pages: ""
+    role_in_book: "Review and notation: defines the standard Killing generator of rotations on the unit 2-sphere used throughout Chapter 7"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

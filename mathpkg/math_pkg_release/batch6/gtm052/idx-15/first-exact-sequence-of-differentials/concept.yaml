@@ -1,0 +1,23 @@
+id: first-exact-sequence-of-differentials
+title_en: "First Exact Sequence of Differentials"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [differentials, exact-sequence, ring-homomorphisms, kahler-differentials]
+depends_on:
+  required: [relative-differentials-via-diagonal]
+  recommended: [exact-sequence-of-modules]
+  suggested: [base-change-for-relative-differentials]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Proposition 8.3A: first fundamental exact sequence for differentials; for ring homomorphisms A → B → C there is a natural exact sequence of C-modules Ω_{B/A} ⊗_B C → Ω_{C/A} → Ω_{C/B} → 0"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

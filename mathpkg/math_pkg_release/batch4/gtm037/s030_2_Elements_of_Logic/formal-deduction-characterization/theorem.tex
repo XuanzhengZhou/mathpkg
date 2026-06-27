@@ -1,0 +1,7 @@
+For $\Gamma \cup \{\varphi\} \subseteq \operatorname{Fmla}$, $\Gamma \vdash \varphi$ iff there is a finite sequence $\langle \psi_0, \ldots, \psi_{m-1} \rangle$ of formulas such that $\psi_{m-1} = \varphi$ and for each $i < m$ one of the following conditions holds:
+\begin{enumerate}
+\item[(i)] $\psi_i \in \operatorname{Axm}$,
+\item[(ii)] $\psi_i \in \Gamma$,
+\item[(iii)] $\exists j, k < i$ such that $\psi_k = (\psi_j \to \psi_i)$,
+\item[(iv)] $\exists j < i \; \exists k \in \omega \; (\psi_i = \forall v_k \psi_j)$.
+\end{enumerate}

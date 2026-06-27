@@ -1,0 +1,21 @@
+Let $\{(X_\gamma, S_\gamma)\}_{\gamma \in \Gamma}$ be an indexed family of measurable spaces with the property that the sets $X_\gamma$ are pairwise disjoint. Then by the direct sum $\sum_{\gamma \in \Gamma} \oplus (X_\gamma, S_\gamma)$ is meant the measurable space $(X, S)$, where $X = \bigcup_\gamma X_\gamma$ and $S$ denotes the $\sigma$-ring consisting of all those subsets $E$ of $X$ with the property that $E \cap X_\gamma \in S_\gamma$ for every index $\gamma$. (It is obvious that $S$ is indeed a $\sigma$-ring and that $X \in S$.) If, in addition, there is given a measure $\mu_\gamma$ on $(X_\gamma, S_\gamma)$ for each index $\gamma$, then it is an easy consequence of Example 7L that the set function $\mu$ defined by
+
+$$\mu(E) = \sum_{\gamma \in \Gamma} \mu_\gamma(E \cap X_\gamma), \quad E \in S,$$
+
+is a measure on the measurable space $(X, S)$. The measure space $(X, S, \mu)$ is called the direct sum of the indexed family $\{(X_\gamma, S_\gamma, \mu_\gamma)\}_{\gamma \in \Gamma}$ of measure spaces, and is denoted by $\sum_{\gamma \in \
+
+Example H. Let $\{t_n\}_{n=0}^{\infty}$ be a strictly increasing sequence of nonnegative numbers such that
+
+$$t_0 = 0 \quad \text{and} \quad \lim_{n} t_n = +\infty.$$
+
+Let $B$ denote the $\sigma$-ring of Borel subsets of the half-line $[0, +\infty)$, and for each positive integer $n$ let $B_n$ denote the trace of $B$ on the interval $[t_{n-1}, t_n)$ (Prob. 6D). Then
+
+$$([0, +\infty), B, \mu) = \sum_{n=1}^{\infty} \oplus ([t_{n-1}, t_n), B_n, \mu | [t_{n-1}, t_n)),$$
+
+where $\mu$ denotes Lebesgue–Borel measure on $[0, +\infty)$. More generally, if $(X, S, \mu)$ is an arbitrary measure space and if $\{E_n\}$ is any partition of $X$ into a countable collection of measurable sets, then
+
+$$(X, S, \mu) = \sum_{n} \oplus (E_n, S_{E_n}, \mu | E_n).$$
+
+Example I. Let $X$ be an arbitrary set, let $S$ denote the power class on $X$, and let $\kappa$ be the counting measure on $(X, S)$ (Ex. 7J). Then $(X, S, \kappa)$ is, in an obvious sense, the direct sum of the (self-indexed) family of all the singletons in $X$.
+
+The subject of measure theory is ordinarily understood to deal with various set functions other than measures. Two useful generalizations of the notion of a measure are given in the following definition.

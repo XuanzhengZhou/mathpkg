@@ -1,0 +1,23 @@
+id: w-algebra-structure
+title_en: "Structure of W-Algebras"
+title_zh: "W-代数的结构"
+type: proposition
+domain: algebra
+subdomain: monads
+difficulty: intermediate
+tags: [word-monad, algebra-over-monad, n-ary-operation, semigroup]
+depends_on:
+  required: [word-monad, algebra-over-monad]
+  recommended: [free-semigroup]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "4. Words and Free Semigroups"
+    pages: ""
+    role_in_book: "Proposition 2: characterizes algebras over the word monad W as sets with an n-ary operation for each positive integer n"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

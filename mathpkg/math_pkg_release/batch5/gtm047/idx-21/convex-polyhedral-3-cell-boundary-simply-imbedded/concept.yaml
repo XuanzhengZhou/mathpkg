@@ -1,0 +1,29 @@
+id: convex-polyhedral-3-cell-boundary-simply-imbedded
+title_en: "Boundary of a Convex Polyhedral 3-Cell is Simply Imbedded"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: advanced
+tags:
+- convex-polyhedral-3-cell
+- simply-imbedded
+- 3-simplex
+- push-property
+depends_on:
+  required:
+  - simply-imbedded
+  - 3-simplex-has-push-property
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm047
+  author: "Edwin E. Moise"
+  title: "Geometric Topology in Dimensions 2 and 3"
+  chapter: ""
+  section: "21"
+  pages: ""
+  role_in_book: "Key lemma for PL Schoenflies theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

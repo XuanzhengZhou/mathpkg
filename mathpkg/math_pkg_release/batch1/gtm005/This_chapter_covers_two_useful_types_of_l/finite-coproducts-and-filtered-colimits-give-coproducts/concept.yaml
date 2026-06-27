@@ -1,0 +1,20 @@
+id: finite-coproducts-and-filtered-colimits-give-coproducts
+title_en: "Finite Coproducts and Filtered Colimits Give All Coproducts"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [coproducts, filtered-colimits, colimits, category-theory]
+depends_on: {required: [filtered-colimit, finite-coproduct], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IX"
+    section: "1. Filtered Limits"
+    pages: ""
+    role_in_book: "Theorem 1: Reduces all small coproducts to finite coproducts plus directed colimits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

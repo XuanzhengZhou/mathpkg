@@ -1,0 +1,1 @@
+The epsilon-interior of a region, consisting of points at distance at least epsilon from the boundary, forms a closed subset. This is a technical tool used in the proof of the Thullen theorem characterizing domains of holomorphy.

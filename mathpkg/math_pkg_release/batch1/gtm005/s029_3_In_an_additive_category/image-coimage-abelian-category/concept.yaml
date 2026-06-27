@@ -1,0 +1,23 @@
+id: image-coimage-abelian-category
+title_en: "Image and Coimage in an Abelian Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [abelian-category, image, coimage, factorization]
+depends_on:
+  required: [factorization-arrow-abelian-category]
+  recommended: [subobject, quotient-object]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines image and coimage via the monic-epi factorization"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

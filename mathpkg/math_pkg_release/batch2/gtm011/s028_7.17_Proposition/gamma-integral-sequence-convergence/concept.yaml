@@ -1,0 +1,23 @@
+id: gamma-integral-sequence-convergence
+title_en: "Analytic Convergence of the Gamma Integral Sequence"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [gamma-function, analytic-function, uniform-convergence, compact-convergence]
+depends_on:
+  required: []
+  recommended: [analytic-function, uniform-convergence-on-compact-sets, complete-metric-space-of-holomorphic-functions]
+  suggested: [gamma-function, improper-integrals]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "7"
+    section: "7.17"
+    pages: ""
+    role_in_book: "Establishes the analyticity and convergence of approximating integrals used to define the Gamma function via the limit of proper integrals."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

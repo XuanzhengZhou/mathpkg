@@ -1,0 +1,1 @@
+Every measurable function can be pointwise approximated by an increasing sequence of simple functions. For nonnegative functions, this provides the standard route to defining the Lebesgue integral: define it for simple functions, then extend by the Monotone Convergence Theorem.

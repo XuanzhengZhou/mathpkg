@@ -1,0 +1,23 @@
+id: classification-irreps-d-infty
+title_en: "Classification of irreducible representations of $D_{\infty}$"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [classification, irreducible-representation, dihedral-group, peter-weyl-theorem]
+depends_on:
+  required: [degree-1-irreps-d-infty, degree-2-irreps-d-infty]
+  recommended: [peter-weyl-theorem, fourier-analysis-on-compact-groups]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "5"
+    section: "5.5"
+    pages: ""
+    role_in_book: "States that the constructed representations exhaust all irreducible representations of D∞ up to isomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

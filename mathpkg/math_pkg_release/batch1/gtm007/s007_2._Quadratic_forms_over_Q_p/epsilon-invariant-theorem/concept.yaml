@@ -1,0 +1,23 @@
+id: epsilon-invariant-theorem
+title_en: "Epsilon Invariant is Independent of Orthogonal Basis"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: intermediate
+tags: [epsilon-invariant, hilbert-symbol, p-adic, quadratic-form, orthogonal-basis, invariant]
+depends_on:
+  required: [epsilon-invariant-of-quadratic-form]
+  recommended: [hilbert-symbol, discriminant-of-quadratic-form, orthogonal-basis]
+  suggested: []
+source_books:
+  - book_id: gtm007
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "IV"
+    section: "§2.2.1"
+    pages: ""
+    role_in_book: "Proves that the epsilon invariant does not depend on the choice of orthogonal basis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

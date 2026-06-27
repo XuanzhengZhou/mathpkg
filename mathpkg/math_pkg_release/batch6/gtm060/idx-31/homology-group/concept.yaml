@@ -1,0 +1,13 @@
+id: homology-group
+title_en: "Homology Group"
+title_zh: "同调群"
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [homology, cycles, boundaries, quotient-group, manifold]
+depends_on: {required:[cycle-on-manifold, homologous-cycles], recommended:[chain-group, boundary-operator], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"Appendix 3",section:"Cohomology and homology",pages:"",role_in_book:"Definition — the k-th homology group of a manifold M"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

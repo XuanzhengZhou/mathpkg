@@ -1,0 +1,23 @@
+id: baire-property-continuity-characterization
+title_en: "Baire Property Characterization via Continuity"
+title_zh: "贝尔性质的连续性刻画"
+type: theorem
+domain: analysis
+subdomain: baire-category
+difficulty: intermediate
+tags: [baire-property, continuity, first-category, real-analysis, characterization]
+depends_on:
+  required: [baire-property-of-function, property-of-baire-for-sets]
+  recommended: [first-category-set, countable-base]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "8"
+    section: "8"
+    pages: ""
+    role_in_book: "Theorem 8.1 — fundamental characterization of Baire functions as continuous off a first-category set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

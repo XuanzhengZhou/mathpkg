@@ -1,0 +1,23 @@
+id: integral-scheme
+title_en: "Integral Scheme"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [scheme, integral, integral-domain, structure-sheaf]
+depends_on:
+  required: [scheme, reduced-scheme, irreducible-scheme]
+  recommended: [integral-domain]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "3"
+    pages: "80"
+    role_in_book: "Defines integral schemes; the scheme-theoretic analogue of integral domains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: block-upper-triangular-morita-characterization
+title_en: "Block Upper Triangular Matrix Ring Morita Characterization"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: advanced
+tags: [morita-equivalence, block-upper-triangular-matrix, division-ring, serial-ring]
+depends_on:
+  required: [morita-equivalence, block-upper-triangular-matrix-ring]
+  recommended: [serial-ring, division-ring]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "8"
+    section: "23"
+    pages: ""
+    role_in_book: "Characterization of rings Morita equivalent to block upper triangular matrix rings over a division ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

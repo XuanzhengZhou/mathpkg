@@ -1,0 +1,23 @@
+id: weak-order-unit-equivalence
+title_en: "Equivalence of Weak Order Unit Characterizations"
+title_zh: "弱序单位的等价刻画"
+type: theorem
+domain: analysis
+subdomain: ordered-topological-vector-spaces
+difficulty: advanced
+tags: [weak-order-unit, quasi-interior-point, positive-linear-form, minimal-type, order-complete, vector-lattice, lcvl]
+depends_on:
+  required: []
+  recommended: [weak-order-unit, quasi-interior-point, order-complete-vector-lattice, minimal-type, band]
+  suggested: [positive-linear-form]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "V: Order Structures"
+    section: "7. Each Perfect Space"
+    pages: ""
+    role_in_book: "7.7: fundamental equivalence theorem for weak order units in minimal type lattices"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

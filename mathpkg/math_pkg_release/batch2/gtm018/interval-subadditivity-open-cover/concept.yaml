@@ -1,0 +1,23 @@
+id: interval-subadditivity-open-cover
+title_en: "Subadditivity for Open Covers (Theorem B)"
+title_zh: "开覆盖的次可加性（定理B）"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [measure-theory, intervals, open-cover, subadditivity]
+depends_on:
+  required: [interval-length-function]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "II"
+    section: "8"
+    pages: ""
+    role_in_book: "A closed interval covered by finitely many open intervals has length bounded by sum of their lengths"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

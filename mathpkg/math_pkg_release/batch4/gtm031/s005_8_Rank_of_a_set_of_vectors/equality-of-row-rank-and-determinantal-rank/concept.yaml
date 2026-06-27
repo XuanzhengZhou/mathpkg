@@ -1,0 +1,23 @@
+id: equality-of-row-rank-and-determinantal-rank
+title_en: "Equality of Row Rank and Determinantal Rank"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [matrix, row-rank, determinantal-rank, equality]
+depends_on:
+  required: [row-rank-of-a-matrix, determinantal-rank, linear-independence-and-determinantal-rank]
+  recommended: [rank-of-a-set-of-vectors]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "1"
+    section: "8"
+    pages: "33-35"
+    role_in_book: "Establishes equivalence of geometric and algebraic rank definitions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

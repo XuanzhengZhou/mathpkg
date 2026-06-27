@@ -1,0 +1,23 @@
+id: field-of-p-adic-numbers
+title_en: "Field of p-adic Numbers"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: p-adic-numbers
+difficulty: intermediate
+tags: [p-adic, field, valuation, completion]
+depends_on:
+  required: [ring-of-p-adic-integers]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "II. p-Adic Fields"
+    section: "1. The ring Z_p and the field Q_p"
+    pages: ""
+    role_in_book: "Definition of Q_p as the field of fractions of Z_p, with p-adic valuation v_p and distance d"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

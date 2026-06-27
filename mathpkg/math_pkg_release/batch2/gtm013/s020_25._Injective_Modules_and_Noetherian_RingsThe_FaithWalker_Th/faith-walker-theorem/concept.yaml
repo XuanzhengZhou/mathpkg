@@ -1,0 +1,23 @@
+id: faith-walker-theorem
+title_en: "Faith-Walker Theorem on Noetherian Rings and Injective Modules"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [noetherian-ring, injective-module, c-generated-module, cardinal-number, direct-sum, faith-walker]
+depends_on:
+  required: [noetherian-ring, injective-module, c-generated-module, direct-sum]
+  recommended: [noetherian-via-injective-decompositions, indecomposable-injective, minimal-cogenerator]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson and Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "25. Injective Modules and Noetherian Rings—The Faith–Walker Theorems"
+    pages: ""
+    role_in_book: "The culminating theorem of section 25, characterizing noetherian rings by a uniform cardinal bound on indecomposable summands of injective modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: hausdorff-ultrafilter-space-for-boolean-algebra
+title_en: "Ultrafilter Space of a Boolean Algebra is Hausdorff"
+title_zh: "布尔代数的超滤空间是 Hausdorff 空间"
+type: theorem
+domain: topology
+subdomain: stone-spaces
+difficulty: advanced
+tags: [Hausdorff, ultrafilter, Boolean-algebra, partial-order, topological-space]
+depends_on:
+  required: [filter-for-partial-order, partial-order-associated-with-boolean-algebra, t1-space]
+  recommended: [ultrafilter-topology-partial-order]
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "5"
+    section: "Partial Order Structures and Topological Spaces"
+    pages: ""
+    role_in_book: "Theorem 5.8"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

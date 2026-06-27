@@ -1,0 +1,23 @@
+id: liouville-number
+title_en: "Liouville Number"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: transcendental-number-theory
+difficulty: intermediate
+tags: [liouville, transcendental, rational-approximation, irrational]
+depends_on:
+  required: [transcendental-number]
+  recommended: [liouville-approximation-lemma]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "Main object of Chapter 2; set E analyzed via Baire category and Hausdorff measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

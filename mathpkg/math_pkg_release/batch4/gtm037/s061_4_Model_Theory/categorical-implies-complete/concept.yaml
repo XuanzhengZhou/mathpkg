@@ -1,0 +1,23 @@
+id: categorical-implies-complete
+title_en: "Categorical Theories are Complete"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: model-theory
+difficulty: basic
+tags: [categoricity, completeness, isomorphism, elementary-equivalence]
+depends_on:
+  required: [categorical-theory, elementary-equivalence]
+  recommended: [isomorphism-of-structures, theory]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "21"
+    section: "4"
+    pages: ""
+    role_in_book: "Immediate consequence of categoricity definition and elementary equivalence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

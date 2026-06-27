@@ -1,0 +1,23 @@
+id: logically-valid
+title_en: "Logically Valid Sentence"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: basic
+tags: [logical-validity, tautology, semantic-consequence, model-theory]
+depends_on:
+  required: [L-sentence, L-structure]
+  recommended: [logical-consequence]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "1"
+    section: "1.1"
+    pages: ""
+    role_in_book: "Defines logical validity as truth in all structures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

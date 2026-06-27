@@ -1,0 +1,13 @@
+id: fatou-boundary-convergence-corollary
+title_en: "Fatou Boundary Convergence for Regular Functions (Corollary 10-44)"
+title_zh: ""
+type: corollary
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [martin-boundary, fatou-theorem, regular-function, boundary-convergence, harmonic-measure]
+depends_on: {required: [markov-chain-boundary-convergence, k-process-absorbs-at-boundary], recommended: [lebesgue-decomposition, radon-nikodym-derivative], suggested: [nontangential-convergence]}
+source_books: [{book_id: "gtm040", author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp", title: "Denumerable Markov Chains", chapter: "10", section: "7. Uniqueness of the representation", pages: "", role_in_book: "Corollary translating the almost everywhere convergence result into a boundary statement using K(·,x)-processes, the direct analog of Fatou's theorem"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

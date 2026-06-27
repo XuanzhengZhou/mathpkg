@@ -1,0 +1,23 @@
+id: unitary-transformation-phase-space
+title_en: "Unitary transformation of linear phase space"
+title_zh: "线性相空间的酉变换"
+type: definition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [unitary-transformation, symplectic-group, orthogonal-group, complex-structure, phase-space]
+depends_on:
+  required: [complex-structure-on-phase-space]
+  recommended: [symplectic-linear-group, orthogonal-group]
+  suggested: [lagrangian-submanifold]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 11"
+    section: "C. Indices of closed curves"
+    pages: ""
+    role_in_book: "Defines unitary transformations as those preserving two (hence all three) of the symplectic, euclidean, and complex structures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

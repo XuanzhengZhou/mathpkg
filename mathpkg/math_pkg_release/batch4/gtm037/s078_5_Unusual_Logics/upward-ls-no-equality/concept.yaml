@@ -1,0 +1,23 @@
+id: upward-lowenheim-skolem-no-equality
+title_en: "Upward Löwenheim–Skolem Theorem for Logic without Equality"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [lowenheim-skolem, logic-without-equality, elementary-extension]
+depends_on:
+  required: [upward-lowenheim-skolem-theorem, logic-without-equality]
+  recommended: [elementary-extension]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "29"
+    section: "Unusual Logics"
+    pages: ""
+    role_in_book: "Theorem 29.16: strong upward LS for logic without equality—any superset extends"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

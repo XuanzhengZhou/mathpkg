@@ -1,0 +1,23 @@
+id: display-lemma
+title_en: "Display Lemma (Self-Display in SAr)"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: formal-arithmetic
+difficulty: intermediate
+tags: [sar, self-reference, display, goedel-numbering, diagonalization]
+depends_on:
+  required: [expression-satisfaction-sar]
+  recommended: [goedel-numbering, language-sar]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "I"
+    section: "11"
+    pages: ""
+    role_in_book: "Key lemma equating the set of expressions displayed in P with the set satisfying P_E"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

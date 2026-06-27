@@ -1,0 +1,9 @@
+Let $\tilde{V}_k(F^n)$ be the subspace of $(F^n)^k$ consisting of linearly independent $k$-tuples in $F^n$. The Gram-Schmidt map $GS: \tilde{V}_k(F^n) \to V_k(F^n)$ is defined by
+
+$$GS(y_1, \ldots, y_k) = (v_1, \ldots, v_k)$$
+
+where $v_1 = y_1 / \|y_1\|$ and for $1 < j \leq k$,
+
+$$v_j = \frac{y_j - \sum_{i < j} (y_j | v_i) v_i}{\| y_j - \sum_{i < j} (y_j | v_i) v_i \|}$$
+
+This map sends an arbitrary linearly independent $k$-tuple to an orthonormal $k$-frame spanning the same $k$-dimensional subspace.

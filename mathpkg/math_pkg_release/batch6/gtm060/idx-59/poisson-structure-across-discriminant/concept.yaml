@@ -1,0 +1,23 @@
+id: poisson-structure-across-discriminant
+title_en: "Poisson Structure Holomorphically Extendable Across the Discriminant (Varchenko-Givental)"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: poisson-geometry
+difficulty: advanced
+tags: [poisson-structure, discriminant, period-mapping, varchenko-givental, swallowtail, versal-deformation]
+depends_on:
+  required: [poisson-structure-from-period-mapping, nondegenerate-period-mapping]
+  recommended: [discriminant, versal-deformation, swallowtail]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "F. Period Mappings and Poisson Structures"
+    pages: "469-479"
+    role_in_book: "States that the Poisson structure constructed from a generic 1-form via a period mapping extends holomorphically across the discriminant locus"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: lowenheim-skolem-theorem
+title_en: "Löwenheim–Skolem Theorem (Downward)"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [lowenheim-skolem, countable-model, model-theory, submodel]
+depends_on:
+  required: [absolute-submodel-existence]
+  recommended: [absolute-formula, interpretation, model]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "I"
+    section: "7"
+    pages: ""
+    role_in_book: "Classical downward Löwenheim–Skolem: countable theories with infinite models have countable submodels"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

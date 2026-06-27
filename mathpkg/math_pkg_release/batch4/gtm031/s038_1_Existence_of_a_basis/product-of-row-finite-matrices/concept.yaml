@@ -1,0 +1,23 @@
+id: product-of-row-finite-matrices
+title_en: "Product of Row-Finite Matrices"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [row-finite-matrix, matrix-multiplication, ring-of-matrices, composition]
+depends_on:
+  required: [row-finite-matrix, lt-isomorphic-row-finite-matrices]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "The product of two row-finite I x I matrices is defined by the usual matrix multiplication formula (finite sum per entry) and is again row-finite. The set of row-finite matrices forms a ring isomorphic to the ring of linear transformations."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

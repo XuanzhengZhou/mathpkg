@@ -1,0 +1,23 @@
+id: direct-image-of-subobjects
+title_en: "Direct Image of Subobjects"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [direct-image, subobject, coequalizer-mono-factorization, monosubobject]
+depends_on:
+  required: [monosubobject, coequalizer-mono-factorization]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.4"
+    pages: ""
+    role_in_book: "Defines the direct image map on monosubobjects induced by a morphism, using coequalizer-mono factorizations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

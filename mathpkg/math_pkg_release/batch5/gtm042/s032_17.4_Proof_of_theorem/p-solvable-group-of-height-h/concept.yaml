@@ -1,0 +1,23 @@
+id: p-solvable-group-of-height-h
+title_en: "p-Solvable Group of Height h"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [p-solvable-group, p-height, successive-extension, p-group, prime-to-p-order, finite-group]
+depends_on:
+  required: []
+  recommended: [solvable-group, p-group, normal-subgroup, quotient-group, group-extension]
+  suggested: [composition-series, chief-series, modular-representation-theory]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "17"
+    section: "17.6"
+    pages: ""
+    role_in_book: "Defines the inductive parameter for the Fong–Swan lifting theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

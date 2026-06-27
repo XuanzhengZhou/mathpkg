@@ -1,0 +1,23 @@
+id: ratio-limit-theorem-for-hitting-time
+title_en: "Ratio Limit Theorem for the Hitting Time of a Single Point"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [hitting-time, ratio-limit, potential-kernel]
+depends_on:
+  required: []
+  recommended: [potential-kernel, green-function, hitting-time-definition]
+  suggested: [transient-random-walk, recurrent-random-walk]
+source_books:
+  - book_id: "gtm034"
+    author: "Frank Spitzer"
+    title: "Principles of Random Walk"
+    chapter: "VI"
+    section: "32"
+    pages: "377-391"
+    role_in_book: "Central theorem characterizing the asymptotic ratio of tail probabilities for the hitting time of the origin, relating it to the potential kernel a(x)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

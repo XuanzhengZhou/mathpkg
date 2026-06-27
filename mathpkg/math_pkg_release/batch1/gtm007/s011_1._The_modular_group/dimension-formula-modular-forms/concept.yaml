@@ -1,0 +1,23 @@
+id: dimension-formula-modular-forms
+title_en: "Dimension Formula for Spaces of Modular Forms"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: ["dimension", "modular-form", "modular-group", "graded-algebra"]
+depends_on:
+  required: ["structure-of-modular-form-spaces"]
+  recommended: ["valence-formula-modular-function"]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Gives explicit dimension of M_k and M_k^0 for all k."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

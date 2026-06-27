@@ -1,0 +1,23 @@
+id: inertial-force-translating-frame
+title_en: "Inertial Force in a Translating Coordinate System"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [inertial-force, translating-frame, non-inertial-frame, newtons-second-law]
+depends_on:
+  required: [newtons-equation]
+  recommended: [galilean-transformation, composition-of-velocities]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "6"
+    section: "27"
+    pages: ""
+    role_in_book: "Theorem describing the effective inertial force appearing in a translating non-inertial coordinate system"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

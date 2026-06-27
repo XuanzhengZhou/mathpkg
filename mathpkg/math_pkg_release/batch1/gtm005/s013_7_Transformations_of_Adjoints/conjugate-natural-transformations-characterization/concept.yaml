@@ -1,0 +1,35 @@
+id: conjugate-natural-transformations-characterization
+title_en: Characterization of Conjugate Natural Transformations
+title_zh: ''
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags:
+- adjunction
+- conjugate
+- natural-transformation
+- unit
+- counit
+- Yoneda-lemma
+- category-theory
+depends_on:
+  required:
+  - conjugate-natural-transformations
+  - adjunction
+  - yoneda-lemma
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: IV
+  section: '7'
+  pages: ''
+  role_in_book: characterizes conjugate natural transformations via four equivalent
+    commuting diagrams of units/counits, and establishes the bijective correspondence
+    between sigma and tau
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

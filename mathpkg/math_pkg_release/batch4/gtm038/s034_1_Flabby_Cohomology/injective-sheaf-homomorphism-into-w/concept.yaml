@@ -1,0 +1,23 @@
+id: injective-sheaf-homomorphism-into-w
+title_en: "Injective Sheaf Homomorphism from S into W(S)"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: sheaf-theory
+difficulty: intermediate
+tags: [sheaf, injective-homomorphism, flabby-resolution, canonical-embedding]
+depends_on:
+  required: [flabby-resolution-sheaf-w, canonical-isomorphism-to-w-sections]
+  recommended: [sheaf-monomorphism, induced-sheaf]
+  suggested: []
+source_books:
+  - book_id: gtm038
+    author: "Grauert, H.; Fritzsche, K."
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Theorem 1.2(2): S embeds injectively into its flabby resolution W(S)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

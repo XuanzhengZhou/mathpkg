@@ -1,0 +1,23 @@
+id: cozero-set-in-realcompact-space
+title_en: "Cozero-Sets in Realcompact Spaces are Realcompact"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: realcompact-spaces
+difficulty: basic
+tags: [realcompact, cozero-set, continuous-function, preimage]
+depends_on:
+  required: [preimage-of-realcompact-subset]
+  recommended: [cozero-set, realcompact-space]
+  suggested: [z-filter, zero-set]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "8"
+    section: "16"
+    pages: ""
+    role_in_book: "Corollary to preimage theorem: every cozero-set in a realcompact space is realcompact"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: sigma-ring-closed-under-limits
+title_en: "Sigma-Ring Closed Under Limits"
+title_zh: "σ-环对极限运算封闭"
+type: proposition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [set-theory, sigma-ring, limsup, liminf]
+depends_on:
+  required: [sigma-ring, limsup-of-sets, liminf-of-sets]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "I"
+    section: "5"
+    pages: ""
+    role_in_book: "Shows that a sigma-ring is closed under lim inf and lim sup of sequences of its sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

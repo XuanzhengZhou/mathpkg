@@ -1,0 +1,1 @@
+A Lebesgue point is a point where the function is well-behaved in an integral-averaging sense. Almost every point is a Lebesgue point for an $L^1$ function, a fact deeper than mere almost-everywhere differentiability of the integral.

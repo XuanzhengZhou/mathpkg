@@ -1,0 +1,27 @@
+Such an assertion can be proved by induction using the following approach. Let $\psi(\alpha)$ be the wff
+
+$$\alpha < \gamma \lor \varphi(\alpha).$$
+
+Then to prove (1) it is sufficient to prove $(\forall \alpha)\psi(\alpha)$. To prove this by induction it is sufficient to prove three things:
+
+(a) $\psi(0)$,
+
+(b) $\psi(\alpha) \rightarrow \psi(\alpha + 1)$,
+
+(c) $\alpha \in K_{\text{II}} \land (\forall \beta \in \alpha)\psi(\beta) \rightarrow \psi(\alpha).$
+
+Since $\gamma > 0$ the proof of (a) is already established so we have nothing to do. To prove (b) we have nothing to do if $\alpha + 1 < \gamma$. For $\alpha + 1 = \gamma$ we must prove $\varphi(\gamma)$ and for $\alpha + 1 > \gamma$ we must prove $\varphi(\alpha) \rightarrow \varphi(\alpha + 1)$. To prove (c) we must prove $\varphi(\gamma)$ if $\gamma \in K_{\text{II}}$ and we must prove that
+
+$$\alpha \in K_{\text{II}} \land (\forall \beta)[\gamma \leq \beta < \alpha \land \varphi(\beta)] \rightarrow \varphi(\alpha).$$
+
+In summary we must prove
+
+$$\varphi(\gamma),$$
+
+$$\alpha \geq \gamma \land \varphi(\alpha) \rightarrow \varphi(\alpha + 1),$$
+
+and
+
+$$\alpha \in K_{\text{II}} \land (\forall \beta)[\gamma \leq \beta < \alpha \land \varphi(\beta)] \rightarrow \varphi(\alpha).$$
+
+Let us illustrate:

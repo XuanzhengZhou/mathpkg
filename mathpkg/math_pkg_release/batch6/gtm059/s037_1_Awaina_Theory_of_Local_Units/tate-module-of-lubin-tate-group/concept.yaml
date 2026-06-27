@@ -1,0 +1,13 @@
+id: tate-module-of-lubin-tate-group
+title_en: "Tate Module of a Lubin-Tate Formal Group"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [formal-groups, lubin-tate-theory, tate-module, galois-representations]
+depends_on: {required: [lubin-tate-torsion-points, structure-of-lubin-tate-torsion-module], recommended: [inverse-limit], suggested: []}
+source_books: [{book_id: "gtm059", author: "Serge Lang", title: "Cyclotomic Fields", chapter: "8", section: "2. Formal p-adic Multiplication", pages: "", role_in_book: "Definition of the π-adic Tate module T_π(A) as the projective limit of A_n, yielding a free o-module of rank 1 with Galois action"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

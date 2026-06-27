@@ -1,0 +1,23 @@
+id: iwasawa-structure-theorem-local-units
+title_en: "Iwasawa Structure Theorem for Local Units"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [iwasawa-theory, local-units, iwasawa-algebra, structure-theorem, galois-modules]
+depends_on:
+  required: [projective-limit-of-local-unit-groups, lemma-projective-limit-no-p-torsion, lemma-rank-of-unit-chi-eigenspace]
+  recommended: [iwasawa-algebra, structure-theorem-for-finitely-generated-modules]
+  suggested: [p-adic-l-functions]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "Iwasawa Theory of Local Units"
+    section: "2"
+    pages: "184-187"
+    role_in_book: "Theorem 2.1: The chi-eigenspace U(chi) is free of rank 1 over the Iwasawa algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

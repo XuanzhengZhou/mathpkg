@@ -1,0 +1,23 @@
+id: photon-absorption
+title_en: "Photon Absorption"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: basic
+tags: [photon, absorption, future-endpoint, general-relativity]
+depends_on:
+  required: [photon]
+  recommended: [causal-structure, spacetime-endpoint]
+  suggested: [photon-emission]
+source_books:
+  - book_id: "gtm048"
+    author: "R.K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "5"
+    section: "5.1.2"
+    pages: ""
+    role_in_book: "Defines the absorption (destruction) of a photon at a future endpoint in spacetime."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

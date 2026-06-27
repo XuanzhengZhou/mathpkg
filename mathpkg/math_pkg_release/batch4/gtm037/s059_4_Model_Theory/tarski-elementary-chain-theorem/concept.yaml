@@ -1,0 +1,23 @@
+id: tarski-elementary-chain-theorem
+title_en: "Tarski's Elementary Chain Theorem (Union of Elementary Chain)"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [tarski, elementary-chain, union-of-structures, elementary-substructure, directed-set]
+depends_on:
+  required: [union-of-directed-structures, elementary-substructure]
+  recommended: [directed-union-substructure]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "19"
+    section: "4. Model Theory"
+    pages: ""
+    role_in_book: "Tarski's fundamental theorem: the union of an elementary chain is an elementary extension of each member."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

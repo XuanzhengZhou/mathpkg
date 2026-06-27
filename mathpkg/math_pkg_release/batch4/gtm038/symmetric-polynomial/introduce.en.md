@@ -1,0 +1,1 @@
+For relatively prime polynomials over the ring of holomorphic functions, there exists a linear combination producing a non-zero element of the coefficient ring. This is a Bézout-type identity adapted to the holomorphic setting.

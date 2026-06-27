@@ -1,0 +1,23 @@
+id: linearization-of-differential-equation
+title_en: "Linearization of a Differential Equation"
+title_zh: "微分方程的线性化"
+type: definition
+domain: applied-math
+subdomain: dynamical-systems
+difficulty: basic
+tags: [linearization, differential-equation, taylor-series, equilibrium]
+depends_on:
+  required: []
+  recommended: [taylor-series, linear-operator]
+  suggested: [stability-theory]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "5"
+    section: "Linearization"
+    pages: "113-114"
+    role_in_book: "Defines the linearized approximation of a dynamical system near equilibrium"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

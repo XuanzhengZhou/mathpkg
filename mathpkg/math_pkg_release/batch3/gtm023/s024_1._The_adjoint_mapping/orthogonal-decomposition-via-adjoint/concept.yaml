@@ -1,0 +1,23 @@
+id: orthogonal-decomposition-via-adjoint
+title_en: "Orthogonal Decomposition via the Adjoint"
+title_zh: "伴随映射的正交分解"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [adjoint, orthogonal-decomposition, kernel, image, inner-product-space]
+depends_on:
+  required: [adjoint-mapping, orthogonal-complement]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VIII"
+    section: "§1. The adjoint mapping"
+    pages: ""
+    role_in_book: "Relates the image and kernel of a map and its adjoint"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

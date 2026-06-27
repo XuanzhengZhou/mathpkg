@@ -1,0 +1,23 @@
+id: pendant-vertex
+title_en: "Pendant Vertex"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: basic
+tags: [multigraph, pendant-vertex, valence]
+depends_on:
+  required: [valence-of-vertex]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "III"
+    section: "A"
+    pages: ""
+    role_in_book: "Defines pendant vertex as a vertex of valence one"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

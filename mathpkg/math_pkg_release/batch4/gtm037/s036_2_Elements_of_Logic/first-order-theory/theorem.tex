@@ -1,0 +1,7 @@
+A \textbf{theory} is a pair $(\Gamma, \mathcal{L})$ such that $\Gamma$ is a set of sentences of $\mathcal{L}$ and $\varphi \in \Gamma$ whenever $\Gamma \models \varphi$, for each sentence $\varphi$ in $\mathcal{L}$. We call $\Gamma$ itself a theory when $\mathcal{L}$ is implicitly understood, or we say that $\Gamma$ is a theory over or in $\mathcal{L}$.
+
+If $\mathfrak{A}$ is an $\mathcal{L}$-structure, the \textbf{$\mathcal{L}$-theory of $\mathfrak{A}$} is the pair $(\Gamma, \mathcal{L})$, where $\Gamma = \{\varphi \in \text{Sent}_{\mathcal{L}} : \mathfrak{A} \models \varphi\}$; clearly $(\Gamma, \mathcal{L})$ is a theory.
+
+A theory $(\Gamma', \mathcal{L}')$ is an \textbf{extension} of a theory $(\Gamma, \mathcal{L})$ provided that $\mathcal{L}'$ is an expansion of $\mathcal{L}$ and $\Gamma \subseteq \Gamma'$. We say that $(\Gamma', \mathcal{L}')$ is a \textbf{conservative extension} of $(\Gamma, \mathcal{L})$ provided that, in addition, $\Gamma = \Gamma' \cap \text{Sent}_{\mathcal{L}}$.
+
+A theory $(\Gamma', \mathcal{L}')$ is a \textbf{definitional extension} of $(\Gamma, \mathcal{L})$ if $(\Gamma', \mathcal{L}')$ is a definitional expansion of $(\Gamma, \mathcal{L})$ for which there is a function $\varphi$ as in (iii) such that $g^+ \circ \varphi \circ g'^{-1} \upharpoonright \{g' \mathbf{C} : \mathbf{C} \text{ is a nonlogical constant of } \mathcal{L}' \text{ but not of } \mathcal{L}\}$ is partial recursive.

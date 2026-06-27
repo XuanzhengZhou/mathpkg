@@ -1,0 +1,23 @@
+id: decomposition-field
+title_en: "Decomposition Field of a Prime Ideal"
+title_zh: "素理想的分解域"
+type: definition
+domain: algebra
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [dedekind-domain, galois-theory, decomposition-field, prime-ideal]
+depends_on:
+  required: [decomposition-group]
+  recommended: [galois-extension, dedekind-domain]
+  suggested: [inertia-field, inertia-group]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "10"
+    pages: "284-285"
+    role_in_book: "Definition in Section 10"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

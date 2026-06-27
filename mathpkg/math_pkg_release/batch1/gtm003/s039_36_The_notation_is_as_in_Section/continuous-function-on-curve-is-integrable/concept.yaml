@@ -1,0 +1,23 @@
+id: continuous-function-on-curve-is-integrable
+title_en: "Integrability of Continuous Functions on a Rectifiable Curve"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: vector-valued-integration
+difficulty: advanced
+tags: [continuous-function, rectifiable-curve, vector-valued-integration, compact-convex-hull, locally-convex-space]
+depends_on:
+  required: [locally-convex-space, compact-set, convex-hull, riemann-integrable-vector-valued-over-curve, quasi-complete]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "Appendix 1"
+    section: "Vector-Valued Holomorphic Functions"
+    pages: "214"
+    role_in_book: "Proposition (a): every continuous E-valued function on a curve is Riemann integrable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

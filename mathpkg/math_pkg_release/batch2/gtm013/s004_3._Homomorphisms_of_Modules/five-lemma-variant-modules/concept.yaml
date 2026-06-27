@@ -1,0 +1,23 @@
+id: five-lemma-variant-modules
+title_en: "Commutative Diagram Lemma with Exact Rows"
+title_zh: "具有正合行的交换图引理"
+type: lemma
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [module-theory, exact-sequence, commutative-diagram, five-lemma]
+depends_on:
+  required: [exact-sequence-of-modules, module-epimorphism, module-monomorphism]
+  recommended: [kernel-image-coimage-cokernel]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "3. Homomorphisms of Modules"
+    pages: ""
+    role_in_book: "Lemma 3.14 — diagrammatic lemma relating monic/epic in commutative squares with exact rows"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: radical-matrix-ring
+title_en: "Radical of Matrix Ring and Corner Ring"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [radical, matrix-ring, idempotent, corner-ring]
+depends_on:
+  required: [radical-endomorphism-ring-corollary]
+  recommended: [matrix-ring, idempotent]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "5"
+    section: "17"
+    pages: ""
+    role_in_book: "Corollary 17.13 — J(M_n(R)) = M_n(J) and J(eRe) = eJe"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

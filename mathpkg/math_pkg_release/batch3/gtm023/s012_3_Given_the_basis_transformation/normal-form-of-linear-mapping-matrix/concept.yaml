@@ -1,0 +1,23 @@
+id: normal-form-of-linear-mapping-matrix
+title_en: "Normal Form of the Matrix of a Linear Mapping"
+title_zh: "线性映射矩阵的标准形"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [matrix, linear-mapping, normal-form, rank, basis, kernel]
+depends_on:
+  required: [linear-mapping-definition, basis-definition, kernel-image, linear-independence]
+  recommended: [rank-of-linear-mapping]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "3"
+    section: "4. Elementary transformations"
+    pages: "109"
+    role_in_book: "Defines the standard normal form of a matrix representing a linear map, expressed with respect to bases adapted to the kernel."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

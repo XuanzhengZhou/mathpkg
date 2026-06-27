@@ -1,0 +1,13 @@
+id: hecke-l-series-fermat
+title_en: "Hecke L-Series Relation for the Fermat Curve"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: arithmetic-geometry
+difficulty: advanced
+tags: [hecke-l-series, fermat-curve, zeta-function, jacobi-sums]
+depends_on: {required:[weil-inequality-for-fermat-curve, fermat-curve], recommended:[], suggested:[]}
+source_books: [{book_id:"gtm059",author:"Serge Lang",title:"Cyclotomic Fields",chapter:"16",section:"Applications to the Fermat Curve",pages:"",role_in_book:"Shows that the zeta function of the Fermat curve equals a product of Hecke L-series, up to an elementary factor"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

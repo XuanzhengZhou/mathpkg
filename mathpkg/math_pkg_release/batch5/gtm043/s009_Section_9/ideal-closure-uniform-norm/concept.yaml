@@ -1,0 +1,23 @@
+id: ideal-closure-uniform-norm
+title_en: "Closure of an Ideal in the Uniform Norm Topology"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [ideal, C(X), uniform-norm, closed-ideal, maximal-ideal, zero-set]
+depends_on:
+  required: [ideal, C(X), uniform-norm, maximal-ideal]
+  recommended: [fixed-maximal-ideals-in-cx]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4N"
+    pages: ""
+    role_in_book: "Characterizes the uniform-norm closure of an ideal I in C(X) as the intersection of all maximal ideals containing I, and as the set of all functions whose zero-set contains the intersection of Z[I]."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

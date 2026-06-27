@@ -1,0 +1,23 @@
+id: scc-implies-ucl
+title_en: "If B satisfies the s.c.c. then B satisfies the UCL"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-algebras
+difficulty: advanced
+tags: [boolean-algebras, scc, ucl, chain-condition]
+depends_on:
+  required: []
+  recommended: [countable-chain-condition, uniform-convergence-law]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "23"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 23.21: the strong countable chain condition implies the uniform convergence law"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

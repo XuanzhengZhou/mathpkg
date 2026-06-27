@@ -1,0 +1,13 @@
+id: three-square-theorem
+title_en: "Three-Square Theorem"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: sums-of-squares
+difficulty: advanced
+tags: [sums-of-squares, quadratic-forms, legendre-theorem, hasse-minkowski]
+depends_on: {required: [hasse-minkowski-theorem, davenport-cassels-lemma], recommended: [quadratic-forms-over-q], suggested: [lagrange-four-square-theorem]}
+source_books: [{book_id: "gtm007", author: "Jean-Pierre Serre", title: "A Course in Arithmetic", chapter: "IV", section: "§3. Quadratic forms over Q", pages: "", role_in_book: "Classical theorem characterizing integers representable as sums of three squares, proved via Hasse-Minkowski and Davenport-Cassels"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

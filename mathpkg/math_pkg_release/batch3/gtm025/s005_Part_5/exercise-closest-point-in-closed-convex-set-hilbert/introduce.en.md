@@ -1,0 +1,1 @@
+In a Hilbert space, every closed convex set admits a unique closest point projection. This is the Hilbert space version of the closest point property, which holds more generally in uniformly convex Banach spaces.

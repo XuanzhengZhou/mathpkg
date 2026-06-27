@@ -1,0 +1,23 @@
+id: independent-set-supplement-to-basis
+title_en: "Linearly Independent Set Can Be Supplemented to a Basis"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [basis, linear-independence, extension, zorn-lemma, vector-space]
+depends_on:
+  required: [generating-set, linear-independence, basis-of-vector-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "States that any linearly independent set can be supplemented by elements from any basis to give a basis."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

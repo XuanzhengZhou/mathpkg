@@ -1,0 +1,23 @@
+id: sup-weak-convergence-normal-cone
+title_en: "Weak Convergence Characterization via Positive Continuous Linear Forms"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: ordered-topological-vector-spaces
+difficulty: intermediate
+tags: [supremum, weak-convergence, positive-linear-form, normal-cone, equicontinuous]
+depends_on:
+  required: [monotone-convergence-normal-cone]
+  recommended: [equicontinuous-subset]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "4"
+    pages: ""
+    role_in_book: "Corollary 1 to Theorem 4.2: Weak convergence of a directed set to its supremum is characterized by positive continuous linear forms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

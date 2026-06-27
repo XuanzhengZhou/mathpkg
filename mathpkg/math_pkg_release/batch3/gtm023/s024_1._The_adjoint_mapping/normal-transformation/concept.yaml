@@ -1,0 +1,23 @@
+id: normal-transformation
+title_en: "Normal Transformation"
+title_zh: "正规变换"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [normal-transformation, adjoint, commutativity, spectral-theory]
+depends_on:
+  required: [adjoint-mapping, linear-transformation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VIII"
+    section: "§1. The adjoint mapping"
+    pages: ""
+    role_in_book: "Key class of transformations for spectral theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

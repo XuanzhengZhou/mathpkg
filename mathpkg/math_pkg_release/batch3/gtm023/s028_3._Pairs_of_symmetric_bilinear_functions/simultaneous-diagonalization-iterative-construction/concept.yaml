@@ -1,0 +1,23 @@
+id: simultaneous-diagonalization-iterative-construction
+title_en: "Iterative construction of a basis simultaneously diagonalizing two symmetric bilinear functions"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [symmetric-bilinear-form, simultaneous-diagonalization, iterative-construction, signature]
+depends_on:
+  required: [construction-of-minimizing-eigenvector, nondegeneracy-of-psi-restriction-to-E1]
+  recommended: [simultaneous-diagonalization-n-ge-3]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "3. Pairs of symmetric bilinear functions"
+    pages: ""
+    role_in_book: "Section 9.15 — culminates the proof by constructing the diagonalizing basis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

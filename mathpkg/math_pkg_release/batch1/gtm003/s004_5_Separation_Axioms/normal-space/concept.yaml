@@ -1,0 +1,23 @@
+id: normal-space
+title_en: "Normal Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [normal, separation-axiom, T4, disjoint-closed-sets]
+depends_on:
+  required: [hausdorff-space, topological-space]
+  recommended: [regular-space, closed-set]
+  suggested: [uryson-lemma]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "0"
+    section: "5"
+    pages: ""
+    role_in_book: "Preliminaries — separation axioms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

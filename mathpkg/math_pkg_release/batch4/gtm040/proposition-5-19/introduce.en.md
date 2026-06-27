@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $P$ is a Markov chain for which the only bounded $P$-regular functions are constant vectors, then, for each subset of states $E$, $\Pr[i[s_E] = 0 \text{ or } 1$, independently of the starting state $i$.

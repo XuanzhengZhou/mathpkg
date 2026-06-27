@@ -1,0 +1,23 @@
+id: radial-kernel-nonvoid-generating
+title_en: "Non-void Radial Kernel Implies Generating Cone"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: ordered-linear-spaces
+difficulty: intermediate
+tags: [radial-kernel, generating-cone, cone]
+depends_on:
+  required: [cone-in-linear-space, generating-cone]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "ORDERED LINEAR SPACES"
+    pages: "224"
+    role_in_book: "Sufficient condition for a cone to be generating"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

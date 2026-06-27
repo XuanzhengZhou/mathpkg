@@ -1,0 +1,31 @@
+follows from P28.1 together with T28.1. Here $\mu_A(y)$ is of course
+
+$$\mu_A(y) = \lim_{n \to \infty} \sum_{t \in R} P_{n+1}(x,t)H_A(t,y),$$
+
+which is independent of $x$, being a bounded regular function of $x$ for each $y$ in $R$. As far as the hitting probabilities $H_A(x,y)$ are concerned, the proof of T1 is almost complete. In case (1) the proof in T14.1 carries over verbatim, using of course part (1) of T29.1. In case (2) we get
+
+$$\lim_{x \to +\infty} H_A(x,y) = \mu_A(y) + \lim_{x \to +\infty} \sum_{t \in A} a(x-t)[\Pi_A(t,y) - \delta(t,y)]$$
+
+$$= \mu_A(y) + \lim_{x \to +\infty} \sum_{t \in A} [a(x-t) - a(x)][\Pi_A(t,y) - \delta(t,y)]$$
+
+using P11.2, to the effect that
+
+$$\sum_{t \in A} [\Pi_A(t,y) - \delta(t,y)] = 0, \quad y \in A.$$
+
+Now T29.1 implies
+
+$$\lim_{x \to +\infty} H_A(x,y) = \mu_A(y) - \frac{1}{\sigma^2} \sum_{t \in A} t[\Pi_A(t,y) - \delta(t,y)]$$
+
+and of course a similar argument proves the existence of the limit as $x \to -\infty$.
+
+Finally, the simplest proof of the part of T1 which concerns the Green function comes from
+
+$$g_A(x,y) = H_{A \cup y
+
+we have actually gained insight of rather impressive proportions. Together these theorems describe intuitively plausible, but far from obvious, regularity properties shared by every random walk (the aperiodicity condition being hardly a restriction, but rather an essential part of the proper formulation of such theorems). Only in the last section of this chapter, in T32.1, will we encounter another general regularity theorem of equal or even greater depth.
+
+Now we pass at once to a curious phenomenon hinted at a little earlier, namely the classification of aperiodic recurrent random walk according to whether
+
+$$a(x) > 0 \text{ for all } x \neq 0$$
+
+or not. The somewhat surprising result is

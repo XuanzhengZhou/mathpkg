@@ -1,0 +1,11 @@
+For any formula $\varphi$, let $\text{Fv}\,\varphi$ be the set of all variables occurring freely in $\varphi$. For any first-order language $L$, a \textbf{primitive Skolem expansion} of $L$ is an expansion $L'$ of $L$ such that there is a function $S$ mapping $\{\exists v_i \varphi : \varphi \in \text{Fmla}_L\}$ one-one onto the set of all nonlogical constants of $L'$ which are not constants of $L$, such that for each $\varphi \in \text{Fmla}_L$ and each variable $\alpha$, $S_{\exists \alpha \varphi}$ is an operation symbol of rank $|\text{Fv}\,\exists \alpha \varphi|$.
+
+In case $L$ and $L'$ are effectivized with Gödel numbering functions $g, g'$, we call $L'$ an \textbf{effective primitive Skolem expansion} provided that $L'$ is an effective expansion of $L$ and the function
+
+$$g' \circ S \circ g^{+-1} \upharpoonright g^{+*} \{\exists v_i \varphi : \varphi \in \text{Fmla}_L\}$$
+
+is partial recursive.
+
+Given first-order languages $L = (L, v, \emptyset, \mathcal{R})$ and $L' = (L, v, \emptyset', \mathcal{R})$, we say that $L'$ is a \textbf{Skolem expansion} of $L$ provided there is a sequence $\langle L_i : i \in \omega \rangle$ of first-order languages $L_i = (L, v, \emptyset_i, \mathcal{R})$ such that $L_0 = L$, for each $i \in \omega$ $L_{i+1}$ is a primitive Skolem expansion of $L_i$ with associated function $S^i$, and $\emptyset' = \bigcup_{i \in \omega} \emptyset_i$.
+
+If all of these languages are effectivized, $L'$ is an \textbf{effective Skolem expansion} of $L$ provided that each $L_{i+1}$ is an effective primitive Skolem expansion of $L_i$, and $L'$ is an effective expansion of each $L_i$.

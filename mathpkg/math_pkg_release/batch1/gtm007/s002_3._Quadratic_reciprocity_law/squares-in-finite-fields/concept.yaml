@@ -1,0 +1,23 @@
+id: squares-in-finite-fields
+title_en: "Theorem 4: Squares in F_q"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: finite-fields
+difficulty: basic
+tags: [finite-fields, squares, quadratic-residues, exact-sequence, frobenius]
+depends_on:
+  required: [finite-fields]
+  recommended: [cyclic-groups, group-index]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "I"
+    section: "§3.1"
+    pages: ""
+    role_in_book: "Characterizes the subgroup of squares in a finite field; foundation for Legendre symbol and quadratic reciprocity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

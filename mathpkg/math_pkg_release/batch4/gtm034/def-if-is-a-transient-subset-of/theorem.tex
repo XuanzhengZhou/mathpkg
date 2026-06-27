@@ -1,0 +1,25 @@
+If $A$ is a transient subset of $R$, $E_A(x)$ is called the equilibrium charge of $A$;
+
+$$H_A(x) = \sum_{y \in A} G
+
+E1 The capacity of a set consisting of a single point is of course $1 - F(0,0) = [G(0,0)]^{-1}$. The capacity of any finite set can be calculated as follows: Let $A = \{x_1, x_2, \ldots, x_n\}$, the $x_i$ being distinct points of $R$. According to D1, $E_A(x)$ is defined in terms of $\Pi_A(x,y)$. By P2, part (b), $\delta(x,y) - \Pi_A(x,y)$, for $x$ and $y$ in $A$, is the matrix inverse of the $n$ by $n$ matrix
+
+$$G = G(x_i,x_j), \quad i,j = 1, 2, \ldots, n.$$
+
+It follows from D3 that $C(A)$ is the sum of the elements in the $n$ by $n$ matrix $G^{-1}$.
+
+When $n = |A| = 2$, $A = \{0,x\}$ one finds that
+
+$$C(A) = \frac{2G(0,0) - G(x,0) - G(0,x)}{G^2(0,0) - G(0,x)G(x,0)}, \text{ if } x \neq 0.$$
+
+One remarkable conclusion is that $C(\{0,x\}) = C(\{0,-x\})$, i.e., the capacity of a two-point set is invariant under reflection about zero. That generalizes nicely to arbitrary finite sets $A$, and in addition, of course, the capacity of any set is invariant under translation of the set.
+
+Another interesting property of capacity concerns the limit of $C(\{0,x\})$ as $|x| \to \infty$. Let us exclude the case of one-dimensional random walk with finite mean, which will be treated in T2 and E2 following it at the end of this section. In all other cases, T24.2 gives
+
+$$\lim_{|x| \to \infty} C(\{0,x\}) = \frac{2}{G(0,0)}.$$
+
+This generalizes to
+
+$$\lim_{|x| \to \infty} C(\{x_1, x_2, \ldots, x_n
+
+with non-negative charge $\psi(y) \geq 0$ on $R$. They will be useful in getting a new definition of capacity different from that in D3, and also in studying the properties of capacity as a set function. Our results take the form of a maximum principle.

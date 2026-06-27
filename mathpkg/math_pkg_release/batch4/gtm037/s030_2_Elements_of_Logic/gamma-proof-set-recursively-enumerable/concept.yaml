@@ -1,0 +1,23 @@
+id: gamma-proof-set-recursively-enumerable
+title_en: "Recursive Enumerability of Proofs from R.E. Hypotheses (Proposition 10.28)"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: first-order-logic
+difficulty: intermediate
+tags: [formal-proof, recursively-enumerable, godel-numbering, deductive-system]
+depends_on:
+  required: []
+  recommended: [gamma-proof-set-recursive, recursively-enumerable-set]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.2"
+    pages: ""
+    role_in_book: "Shows that if the Godel numbers of hypotheses form an r.e. set, then the proofs from those hypotheses are also r.e."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

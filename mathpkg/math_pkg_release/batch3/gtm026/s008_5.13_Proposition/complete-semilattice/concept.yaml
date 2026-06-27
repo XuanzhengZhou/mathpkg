@@ -1,0 +1,23 @@
+id: complete-semilattice
+title_en: "Complete Semilattice"
+title_zh: "完备半格"
+type: definition
+domain: algebra
+subdomain: order-theory
+difficulty: intermediate
+tags: [semilattice, complete, supremum, order-theory]
+depends_on:
+  required: [semilattice]
+  recommended: []
+  suggested: [m-complete-semilattice]
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "5"
+    section: "5.13"
+    pages: ""
+    role_in_book: "Definition of complete semilattice, where every subset has a supremum"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

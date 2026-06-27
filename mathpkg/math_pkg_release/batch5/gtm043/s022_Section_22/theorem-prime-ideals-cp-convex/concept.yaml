@@ -1,0 +1,23 @@
+id: theorem-prime-ideals-cp-convex
+title_en: "Every Prime Ideal in C/P is Convex"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ordered-rings
+difficulty: advanced
+tags: [prime-ideal, convex-ideal, totally-ordered-ring, cp-quotient]
+depends_on:
+  required: [prime-ideal-definition, convex-ideal, totally-ordered-ring]
+  recommended: [definition-pa-largest-prime-without-a]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "14"
+    section: "3"
+    pages: ""
+    role_in_book: "Fundamental property of prime ideals in C/P"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

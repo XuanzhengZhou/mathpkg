@@ -1,0 +1,17 @@
+id: liouville-numbers-hausdorff-measure-zero
+title_en: "Liouville Numbers Have Hausdorff Measure Zero"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: hausdorff-measure
+difficulty: advanced
+tags: [liouville-numbers, hausdorff-measure, nullset, measure-theory, fractal]
+depends_on:
+  required: [liouville-number, hausdorff-measure]
+  recommended: [s-dimensional-hausdorff-measure]
+  suggested: [geometric-measure-theory]
+source_books:
+  - {book_id: "gtm002", author: "John C. Oxtoby", title: "Measure and Category", chapter: "1", section: "2", pages: "16-17", role_in_book: "Theorem 2.4; shows that Liouville numbers form a nullset of every positive Hausdorff dimension, demonstrating they are small in measure even though they are residual in category"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

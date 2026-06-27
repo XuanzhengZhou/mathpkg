@@ -1,0 +1,23 @@
+id: schreier-refinement-theorem
+title_en: "Schreier Refinement Theorem for M-Groups"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: advanced
+tags: [group-with-operators, m-group, normal-series, refinement, schreier, isomorphism-theorem]
+depends_on:
+  required: [normal-series-for-m-groups, m-subgroup, m-factor-group]
+  recommended: [second-isomorphism-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "V: Groups with Operators"
+    section: "5: Normal series and composition series"
+    pages: ""
+    role_in_book: "Fundamental refinement theorem — any two normal series have equivalent refinements"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

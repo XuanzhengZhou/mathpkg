@@ -1,0 +1,23 @@
+id: relation-gamma-power-m-s2
+title_en: "Relation gamma^m = 1 + m(gamma-1) on the 2-Sphere"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: k-theory
+difficulty: advanced
+tags: ["k-theory", "2-sphere", "canonical-line-bundle", "chern-character"]
+depends_on:
+  required: []
+  recommended: ["chern-character-isomorphism-s2", "relation-gamma-minus-one-squared-s2"]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "IV"
+    section: "9"
+    pages: ""
+    role_in_book: "Binomial expansion relation for the canonical line bundle in K(S^2)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

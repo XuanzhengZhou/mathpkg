@@ -1,0 +1,12 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $\{x_n\}$ is an extended chain with transition matrix $P$ and if $k$ is in a finite set $E$ in $S$, then
+
+$$\Pr[x_{v_E-2} = i \wedge x_{v_E-1} = j \wedge x_{v_E} = k] = \nu_i P_{ij} P_{jk} e^E_k,$$
+
+where $e^E$ is the escape vector for $P$.

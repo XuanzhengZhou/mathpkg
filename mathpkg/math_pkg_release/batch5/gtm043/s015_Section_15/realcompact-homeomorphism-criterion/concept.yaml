@@ -1,0 +1,23 @@
+id: realcompact-homeomorphism-criterion
+title_en: "Realcompact Homeomorphism Criterion via Ring Isomorphism"
+title_zh: "实紧空间同胚的环同构判据"
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [realcompact, homeomorphism, ring-isomorphism, C(X), algebraic-invariant]
+depends_on:
+  required: [realcompact-space, ring-of-continuous-functions, maximal-ideal]
+  recommended: [real-maximal-ideal, fixed-ideal]
+  suggested: [hewitt-realcompactification-vx]
+source_books:
+  - book_id: gtm043
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "8"
+    section: "8.3"
+    pages: ""
+    role_in_book: "Shows C(X) distinguishes realcompact spaces just as C*(X) distinguishes compact spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: monotone-convergence-theorem
+title_en: "Monotone Convergence Theorem"
+title_zh: "单调收敛定理"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-theory, monotone-convergence, lebesgue-integral]
+depends_on:
+  required: [lebesgue-integral, measurable-function]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "V"
+    section: "26"
+    pages: ""
+    role_in_book: "If a non-decreasing sequence of non-negative measurable functions converges pointwise, the integrals converge to the integral of the limit"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: metric-splits-exact-sequence
+title_en: "Metric Splits a Short Exact Sequence of Vector Bundles"
+title_zh: "度量分裂向量丛的短正合序列"
+type: theorem
+domain: topology
+subdomain: fibre-bundles
+difficulty: intermediate
+tags: [exact-sequence, metric, splitting, orthogonal-complement, vector-bundle]
+depends_on:
+  required: [short-exact-sequence-of-vector-bundles, riemannian-metric-on-vector-bundle, b-monomorphism-of-vector-bundles, b-epimorphism-of-vector-bundles]
+  recommended: [direct-sum-of-vector-bundles, orthogonal-complement]
+  suggested: [splitting-lemma-in-abelian-category]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "9"
+    section: "9.6"
+    pages: "page_0054"
+    role_in_book: "Application of metrics: every short exact sequence of vector bundles splits in the presence of a metric"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

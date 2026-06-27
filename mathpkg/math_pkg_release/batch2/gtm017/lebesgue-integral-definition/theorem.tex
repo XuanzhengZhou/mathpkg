@@ -1,0 +1,7 @@
+For a non-negative measurable function $X(w)$, the integral (expectation) $\int X(w) dP = EX(w)$ is defined as the limit of integrals of simple approximating functions.
+
+For a general measurable $X(w)$, decompose $X = X_+ - X_-$ where $X_+(w) = \max(X(w), 0)$, $X_-(w) = X_+(w) - X(w)$. Then $X$ is integrable if both $X_+$ and $X_-$ are integrable, and
+$$EX = \int X dP = \int X_+ dP - \int X_- dP.$$
+
+The integral is a linear operator:
+$$\int (\alpha X + \beta Y) dP = \alpha \int X dP + \beta \int Y dP.$$

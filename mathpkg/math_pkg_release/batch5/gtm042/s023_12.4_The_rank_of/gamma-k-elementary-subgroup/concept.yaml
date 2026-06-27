@@ -1,0 +1,23 @@
+id: gamma-k-elementary-subgroup
+title_en: "Γ_K-elementary subgroups"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: advanced
+tags: ["representation-theory", "galois-theory", "elementary-subgroups", "brauer-theorem", "rationality"]
+depends_on:
+  required: ["gamma-k-conjugacy", "elementary-subgroup"]
+  recommended: ["semidirect-product", "p-group", "cyclic-group"]
+  suggested: ["brauer-theorem"]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "12"
+    section: "12.6"
+    pages: ""
+    role_in_book: "Defines Γ_K-elementary subgroups, which generalize p-elementary subgroups and are the key class of subgroups for Brauer's induction theorem over non-algebraically-closed fields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: hahn-banach-theorem
+title_en: "Hahn-Banach Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [hahn-banach, extension-theorem, linear-functional, subadditive-functional, real-linear-space]
+depends_on:
+  required: []
+  recommended: [subspace, linear-functional, subadditive-functional, non-negatively-homogeneous]
+  suggested: [proper-cone-in-conical-halfspace, conical-halfspace]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "3"
+    section: "3.4"
+    pages: ""
+    role_in_book: "The fundamental extension theorem for linear functionals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

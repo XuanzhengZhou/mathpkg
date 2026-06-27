@@ -1,0 +1,23 @@
+id: l9-multiplication-successor-law
+title_en: "Multiplication by Successor in L_9"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: mathematical-logic
+difficulty: intermediate
+tags: [L9, multiplication, successor, robinson-arithmetic]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "3"
+    section: "3.5 Decidable and Undecidable Theories"
+    pages: ""
+    role_in_book: "Establishes that L_9 satisfies the recursive definition of multiplication: v_0 · s v_1 = v_0 · v_1 + v_0"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

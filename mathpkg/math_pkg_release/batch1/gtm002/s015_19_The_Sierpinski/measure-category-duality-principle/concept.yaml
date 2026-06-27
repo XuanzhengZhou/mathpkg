@@ -1,0 +1,23 @@
+id: measure-category-duality-principle
+title_en: "Measure-Category Duality Principle"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: measure-category
+difficulty: intermediate
+tags: [duality-principle, nullset, first-category, continuum-hypothesis, sierpinski]
+depends_on:
+  required: [sierpinski-nullset-category-mapping]
+  recommended: [lebesgue-nullset, baire-category]
+  suggested: [similar-classes-of-sets]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "19"
+    section: "The Sierpinski-Erdos Duality Theorem"
+    pages: ""
+    role_in_book: "Justifies the principle that any proposition involving only nullset and pure set-theoretic notions is equivalent to the proposition obtained by substituting 'set of first category' for 'nullset', assuming CH"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

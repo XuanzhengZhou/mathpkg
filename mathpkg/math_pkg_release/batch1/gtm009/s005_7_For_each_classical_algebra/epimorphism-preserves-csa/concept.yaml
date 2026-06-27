@@ -1,0 +1,23 @@
+id: epimorphism-preserves-csa
+title_en: "Epimorphism Preserves Cartan Subalgebras"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [cartan-subalgebra, csa, epimorphism, functorial-property]
+depends_on:
+  required: [cartan-subalgebra, csa-characterization]
+  recommended: [lie-algebra-epimorphism]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "15"
+    section: "15.4"
+    pages: "91-101"
+    role_in_book: "Functorial property of CSAs under epimorphisms; used in conjugacy proof of Chapter 16"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

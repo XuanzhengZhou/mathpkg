@@ -1,0 +1,23 @@
+id: limit-superior
+title_en: "Limit Superior of a Function"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [limsup, boundary-behavior, extended-reals]
+depends_on:
+  required: []
+  recommended: [limit-of-a-function]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VI"
+    section: "1.3"
+    pages: ""
+    role_in_book: "Defines limsup for functions, needed to state the third version of the Maximum Modulus Theorem without continuity assumptions on the closure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

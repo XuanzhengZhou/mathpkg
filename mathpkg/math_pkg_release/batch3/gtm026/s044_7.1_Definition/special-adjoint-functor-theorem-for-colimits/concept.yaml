@@ -1,0 +1,23 @@
+id: special-adjoint-functor-theorem-for-colimits
+title_en: "Special adjoint functor theorem for small colimits"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [colimit, special-adjoint-functor-theorem, locally-small, small-limits, well-powered, cogenerator]
+depends_on:
+  required: [colimit-via-free-over-constant-diagram, embedding-functor-preserves-limits, special-adjoint-functor-theorem, cogenerator, well-powered]
+  recommended: [solution-set-condition-for-colimits]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "7"
+    section: "7.1"
+    pages: ""
+    role_in_book: "Theorem 7.5; sufficient conditions for a category to have small colimits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

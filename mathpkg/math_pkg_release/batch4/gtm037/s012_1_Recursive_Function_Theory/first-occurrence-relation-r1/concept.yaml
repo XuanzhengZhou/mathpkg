@@ -1,0 +1,14 @@
+id: first-occurrence-relation-r1
+title_en: "First Occurrence Relation R_1"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [first-occurrence, Gödel-numbering, words, arithmetization, Markov-algorithm]
+depends_on: {required: [occurrence-relation-r0, godel-numbering-of-words], recommended: [cat-concatenation-function], suggested: []}
+source_books:
+  - {book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "4. Recursive Function Theory", section: "4.1", pages: "", role_in_book: "Defines the formal relation encoding the first occurrence of one word within another, essential for formalizing Markov algorithm computation steps"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

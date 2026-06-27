@@ -1,0 +1,23 @@
+id: weil-topology-definition
+title_en: "Weil topology"
+title_zh: "Weil拓扑"
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [weil-topology, measurable-group, topological-group, haar-measure]
+depends_on:
+  required: [separated-measurable-group, class-n-measurable-group]
+  recommended: [weil-topology-topological-group]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "XII"
+    section: "62"
+    pages: "273"
+    role_in_book: "Naming the natural topology induced on a separated measurable group by the neighborhood base N"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

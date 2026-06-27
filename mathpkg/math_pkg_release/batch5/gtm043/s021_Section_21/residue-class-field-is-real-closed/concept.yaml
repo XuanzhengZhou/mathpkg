@@ -1,0 +1,23 @@
+id: residue-class-field-is-real-closed
+title_en: "Every residue class field C(X)/M is real-closed"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [real-closed-fields, residue-class-fields]
+depends_on:
+  required: [real-closed-field, root-continuity-functions]
+  recommended: [exponentiation-in-residue-class-field]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "13"
+    section: "13.4"
+    pages: ""
+    role_in_book: "Central structural theorem for C(X)/M"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

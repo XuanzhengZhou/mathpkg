@@ -1,0 +1,13 @@
+id: frobenius-power-series
+title_en: "Frobenius Power Series"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [formal-groups, lubin-tate-theory, local-fields]
+depends_on: {required: [formal-group], recommended: [complete-discrete-valuation-ring], suggested: [frobenius-endomorphism]}
+source_books: [{book_id: "gtm059", author: "Serge Lang", title: "Cyclotomic Fields", chapter: "8", section: "1. Lubin-Tate Groups", pages: "", role_in_book: "The input data for the Lubin-Tate construction; each Frobenius power series determines a unique formal group"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

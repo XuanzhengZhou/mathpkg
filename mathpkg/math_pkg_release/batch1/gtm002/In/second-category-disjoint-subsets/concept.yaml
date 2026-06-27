@@ -1,0 +1,23 @@
+id: second-category-disjoint-subsets
+title_en: "Disjoint Subsets of Second Category"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: measure-and-category
+difficulty: intermediate
+tags: [second-category, disjoint-sets, continuum-hypothesis, duality, lusin-set]
+depends_on:
+  required: [second-category, first-category, lusin-set]
+  recommended: [continuum-hypothesis, cardinality-of-continuum]
+  suggested: [lusin-second-category-subset]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "20"
+    section: "Examples of Duality"
+    pages: "page_0086.json–page_0089.json"
+    role_in_book: "Proposition 20.3 — decomposition into disjoint second category sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

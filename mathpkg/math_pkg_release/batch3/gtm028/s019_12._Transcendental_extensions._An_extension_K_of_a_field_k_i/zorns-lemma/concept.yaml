@@ -1,0 +1,23 @@
+id: zorns-lemma
+title_en: "Zorn's Lemma"
+title_zh: ""
+type: axiom
+domain: foundations
+subdomain: set-theory
+difficulty: intermediate
+tags: [axiom-of-choice, maximal-element, poset, chain]
+depends_on:
+  required: [partially-ordered-set, totally-ordered-set, upper-bound, inductive-set, maximal-element]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "II. Elements of Field Theory"
+    section: "§12. Transcendental Extensions"
+    pages: ""
+    role_in_book: "Used to prove existence of transcendence bases (Theorems 23, 24) and basis cardinality uniqueness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

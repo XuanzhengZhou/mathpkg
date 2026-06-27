@@ -1,0 +1,20 @@
+id: locally-compact-tvs-is-finite-dim
+title_en: "Locally Compact Hausdorff TVS is Finite-Dimensional"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [tvs, locally-compact, finite-dimension, complete-field, riesz]
+depends_on: {required: [finite-dimensional-hausdorff-tvs-isomorphism, compact-space], recommended: [], suggested: []}
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "I. Topological Vector Spaces"
+    section: "3.6"
+    pages: "page_0034–page_0037"
+    role_in_book: "Converse to finite-dim implies locally compact; generalizes Riesz lemma"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

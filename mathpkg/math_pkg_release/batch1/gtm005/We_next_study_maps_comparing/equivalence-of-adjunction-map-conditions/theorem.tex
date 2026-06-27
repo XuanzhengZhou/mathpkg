@@ -1,0 +1,17 @@
+Given two adjunctions
+$$\langle F, G, \varphi, \eta, \varepsilon \rangle : X \rightharpoonup A, \quad \langle F', G', \varphi', \eta', \varepsilon' \rangle : X' \rightharpoonup A'$$
+and functors $K : A \to A'$ and $L : X \to X'$ such that the squares
+$$\begin{array}{c}
+A \xrightarrow{G} X \xrightarrow{F} A \\
+K \downarrow \quad \quad L \downarrow \quad \quad K \downarrow \\
+A' \xrightarrow{G'} X' \xrightarrow{F'} A'
+\end{array}$$
+of functors commute, the commutativity of the hom-set diagram
+$$\begin{array}{c}
+A(Fx, a) \xrightarrow{\varphi} X(x, Ga) \\
+K_{Fx, a} \downarrow \quad \quad \downarrow L \\
+A'(KFx, Ka) \quad X'(Lx, LGa) \\
+\parallel \quad \quad \parallel \\
+A'(F'Lx, Ka) \xrightarrow{\varphi'} X'(Lx, G'Ka)
+\end{array}$$
+for all $x \in X$ and $a \in A$ is equivalent to the equality $L\eta = \eta'L$, and also equivalent to the equality $\varepsilon'K = K\varepsilon$.

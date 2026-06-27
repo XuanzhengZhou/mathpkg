@@ -1,0 +1,23 @@
+id: hamiltonian-track-integral-lemma
+title_en: "Hamiltonian Track Integral Lemma"
+title_zh: "哈密顿轨道积分引理"
+type: lemma
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [hamiltonian-phase-flow, track-of-chain, integral-invariant, symplectic-form]
+depends_on:
+  required: [hamiltonian-vector-field, chain, differential-form-integral]
+  recommended: [hamiltonian-phase-flow]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "8"
+    section: "38"
+    pages: "214-218"
+    role_in_book: "Key technical lemma for proving that Hamiltonian flows preserve the symplectic structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

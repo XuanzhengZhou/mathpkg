@@ -1,0 +1,55 @@
+For aperiodic recurrent one-dimensional random walk with $\sigma^2 < \infty$, or with $\sigma^2 = \infty$, but in the latter case neither left nor right continuous, and $2 \leq |B| < \infty$
+
+(a) $\Pi_B(x,y) = \delta(x,y) + K_B(x,y) - \frac{K_B(x \cdot) K_B(\cdot y)}{K_B(\cdot \cdot)}, \quad x,y \in B,$
+
+(b) $\mu_B(y) = \frac{K_B(\cdot y)}{K_B(\cdot \cdot)}, \quad \mu_B^*(x) = \frac{K_B(x \cdot)}{K_B(\cdot \cdot)}, \quad x,y \in B,$
+
+(c) $H_B(x,y) = \mu_B(y) + \sum_{t \in B} A(x,t)[\Pi_B(t,y) - \delta(t,y)],$
+
+$$x \in R, \quad y \in B,$
+
+(d) $g_B(x,y) = -A(x,y) - \frac{1}{K_B(\cdot \cdot)}$
+
+$$+ \sum_{s \in B} \mu_B(s) A(s,y) + \sum_{t \in B} A(x,t) \mu_B^*(t)$
+
+$$+ \sum_{s \in B} \sum_{t \in B} A(x,t)[\Pi_B(t,s) - \delta(t,s)] A(s,y), \quad x,y \in R.$$
+
+The proofs of these statements in Chapter III require no modification whatsoever
+
+For example, when $\sigma^2 = \infty$ (left- and right-continuous random walk being excluded)
+
+(1) $\lim_{|x| \to \infty} H_B(x,y) = \mu_B(y), \quad y \in B,$
+
+(2) $\lim_{|x| \to \infty} g_B(x,y) = \sum_{s \in B} \mu_B(s) A(s,y) - \frac{1}{K_B(\cdot)}, \quad y \in R.$
+
+When $\sigma^2 < \infty$, on the other hand, the limits of $H_B$ and $g_B$ as $x \to +\infty$ and as $x \to -\infty$ turn out to be a little more complicated. Although they are easy to calculate on the basis of T2 and the known asymptotic behavior of $a(x)$, the remarkable thing is that (1) and (2) continue to hold in a slightly modified form. Let us call
+
+(3) $\lim_{x} f(x) = \frac{1}{2} \lim_{x \to +\infty} f(x) + \frac{1}{2} \lim_{x \to -\infty} f(x),$
+
+for a function $f(x)$ on the integers with the property that the two ordinary limits exist. Then it may easily be verified that (1) and (2) continue to hold when $\sigma^2 < \infty$, provided one replaces the limits by Lim as defined in (3).
+
+Now a few words concerning the notion of capacity, of the logarithmic type, which was sketched at the end of section 14 in Chapter III. One can dismiss the left- and right-continuous random walk with $\sigma^2 = \infty$ with the statement that it does not give rise to a nontrivial potential theory. (According to any natural definition of capacity at all, three of which were discussed in Chapter III, the capacity of any finite set would be zero for left- or right-continuous random walk.)
+
+It should be clear that for every other one-dimensional random walk with $\sigma^2 = \infty$ the associated potential theory is exactly of the same type as that sketched in Chapter III.
+
+Finally, consider the case when $\sigma^2 < \infty$. If the capacity of a finite set $B$ is
+
+This exposition of the potential theory was kept quite brief for several reasons. First of all it is not clear why one should set any store by formal generalizations from classical potential theory under the pretext of studying probability theory. (Logarithmic capacity does not have as simple a probability interpretation as capacity for transient random walk. See problems 9 and 10 at the end of the chapter.) Secondly, according to the general plan formulated at the beginning of Chapter III, we were going to study stopping times, and in particular the hitting time $T_B$ for a finite subset of the state space. With T2, and its counterpart in Chapter III, this problem is in a sense solved. But much more important than the actual explicit solution are the methods which were developed on the way. In particular the proof of part (d) of T2 was quite difficult. The reader who conscientiously traced it back to its origins in Chapter III should be somewhat reluctant to leave things as they are. The explicit formula for $g_B$ was obtained by solving the equation
+
+$$\sum_{t \in R} P(x,t)g_B(t,y) = H_B(x,y), \quad x \in R - B, \quad y \in B.$$
+
+By the substitution
+
+$$u(t) = g_B(x,t) + A(x,t),$$
+
+this equation was reduced to
+
+$$\sum_{t \in R} u(t)P(t,y) - u(y) = H_A(x,y), \quad y \in R,$$
+
+which is a special case of Poisson's equation
+
+$$Pf(x) - f(x) = \psi(x), \quad x \in R, \quad \psi \geq 0 \text{ on } R.$$
+
+The theory of Poisson's equation, however, as developed in P13.3 and T28.1 is quite crude, and was developed before we could anticipate what demands would be made on it in the future.
+
+This theory—concerned with the existence and uniqueness of non-negative solutions to Poisson's equation, will be vastly improved in the next section. In the course of this improvement we shall use only the basic results of this chapter—namely those concerning the existence and asymptotic behavior of the potential kernel. In short we shall use only T28.1, T29.1, P

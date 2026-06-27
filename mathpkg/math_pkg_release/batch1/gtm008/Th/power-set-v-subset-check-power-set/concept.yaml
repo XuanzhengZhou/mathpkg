@@ -1,0 +1,23 @@
+id: power-set-v-subset-check-power-set
+title_en: "Power Set of ω in V^{(B)} is a Subset of the Check of the Power Set of ω"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [boolean-valued-models, power-set, forcing, set-theory]
+depends_on:
+  required: []
+  recommended: [boolean-valued-universe, check-of-set, power-set]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti and Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "18"
+    section: "Model Theoretic Consequences of the Distributive Laws"
+    pages: ""
+    role_in_book: "Theorem 18.1 — shows that the power set of ω in the Boolean-valued model V^{(B)} is contained in the check of the power set of ω"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

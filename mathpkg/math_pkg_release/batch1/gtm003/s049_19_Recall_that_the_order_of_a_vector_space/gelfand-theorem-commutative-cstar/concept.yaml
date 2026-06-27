@@ -1,0 +1,32 @@
+id: gelfand-theorem-commutative-cstar
+title_en: 'Gelfand''s Theorem: Commutative Unital C*-Algebras are C(K)'
+title_zh: ''
+type: theorem
+domain: analysis
+subdomain: cstar-algebras
+difficulty: intermediate
+tags:
+- Gelfand
+- commutative
+- C*-algebra
+- C(K)
+- Gelfand-transform
+depends_on:
+  required:
+  - C*-algebra
+  - Gelfand-Mazur-theorem
+  - maximal-ideal-is-closed
+  recommended:
+  - Banach-algebra
+  suggested: []
+source_books:
+- book_id: gtm003
+  author: H. H. Schaefer
+  title: Topological Vector Spaces
+  chapter: Chapter VI
+  section: Section 2, Theorem 2.2
+  pages: ''
+  role_in_book: Major theorem
+content_hash: 54aa64bd2b6e26db
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

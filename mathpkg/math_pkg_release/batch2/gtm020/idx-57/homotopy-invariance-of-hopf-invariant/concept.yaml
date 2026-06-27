@@ -1,0 +1,23 @@
+id: homotopy-invariance-of-hopf-invariant
+title_en: "Homotopy Invariance of the Hopf Invariant"
+title_zh: "霍普夫不变量的同伦不变性"
+type: proposition
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: [hopf-invariant, homotopy-invariance, k-theory, mapping-cone]
+depends_on:
+  required: [k-theory-hopf-invariant]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "15"
+    section: "1.3"
+    pages: "225-226"
+    role_in_book: "Establishes that the K-theory Hopf invariant is a homotopy invariant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

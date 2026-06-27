@@ -1,0 +1,23 @@
+id: smooth-first-order-taylor
+title_en: "Smooth First-Order Taylor Expansion on Convex Sets"
+title_zh: "凸集上的光滑一阶Taylor展开"
+type: lemma
+domain: analysis
+subdomain: differential-topology
+difficulty: basic
+tags: [taylor-expansion, smooth-function, convex-set, fundamental-theorem-of-calculus]
+depends_on:
+  required: []
+  recommended: [smooth-function, convex-set, fundamental-theorem-of-calculus]
+  suggested: [morse-lemma]
+source_books:
+  - book_id: gtm014
+    author: "Golubitsky, M.; Guillemin, V."
+    title: "Stable Mappings and Their Singularities"
+    chapter: "6"
+    section: "6. Morse Theory"
+    pages: "77"
+    role_in_book: "Technical lemma for the proof of the Morse Lemma: first-order Taylor with smooth coefficients"
+content_hash: "lemma-6-10-gtm014"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

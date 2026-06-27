@@ -1,0 +1,28 @@
+id: dgamma2-plus-dgamma1-surjective
+title_en: "Lemma 5.12: Surjectivity of the direct sum of infinitesimal diffeomorphism actions"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: singularity-theory
+difficulty: advanced
+tags:
+  - jet-space
+  - diffeomorphism-group
+  - infinitesimal-stability
+  - orbit
+  - tangent-space
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky and Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "5. Local Transverse Stability"
+    pages: ""
+    role_in_book: "Shows that every tangent vector to the orbit D_σ is realized by the action of vector fields on X and Y; a crucial surjectivity result used in the proof of Theorem 5.13"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

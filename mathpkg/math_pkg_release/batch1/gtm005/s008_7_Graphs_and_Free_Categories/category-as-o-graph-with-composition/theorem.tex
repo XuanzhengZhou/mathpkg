@@ -1,0 +1,21 @@
+A category with objects $O$ may be described as an $O$-graph $A$ equipped with two morphisms of $O$-graphs:
+\begin{itemize}
+\item $c: A \times_O A \to A$ (composition), and
+\item $i: O \to A$ (identity),
+\end{itemize}
+such that the associativity diagram commutes:
+\[
+\begin{CD}
+(A \times_O A) \times_O A @>{\cong}>> A \times_O (A \times_O A) @>{1 \times c}>> A \times_O A \\
+@V{c \times 1}VV @VV{c}V \\
+A \times_O A @>>{c}> A
+\end{CD}
+\]
+and the unit laws hold:
+\[
+\begin{CD}
+O \times_O A @>{i \times 1}>> A \times_O A @<{1 \times i}<< A \times_O O \\
+@| @VV{c}V @| \\
+A @= A @= A
+\end{CD}
+\]

@@ -1,0 +1,23 @@
+id: egorovs-theorem
+title_en: "Egorov's Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [egorov, measure-space, pointwise-convergence, almost-uniform-convergence, finite-measure]
+depends_on:
+  required: [measure-countable-subadditivity-semicontinuity]
+  recommended: [limit-of-measurable-functions]
+  suggested: []
+source_books:
+  - book_id: "gtm055"
+    author: "Arlen Brown, Carl Pearcy"
+    title: "Introduction to Operator Theory I: Elements of Functional Analysis"
+    chapter: "7"
+    section: "8"
+    pages: ""
+    role_in_book: "Pointwise convergence implies almost uniform convergence on finite measure spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

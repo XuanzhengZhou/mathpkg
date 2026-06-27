@@ -1,0 +1,23 @@
+id: ring-of-right-multiplications
+title_en: "Ring of Right Multiplications"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [ring, right-multiplication, endomorphism-ring, subring]
+depends_on:
+  required: [right-multiplication-ring-homomorphism]
+  recommended: [subring, endomorphism-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "14"
+    pages: ""
+    role_in_book: "Defines the set of right multiplications as a subring of the endomorphism ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

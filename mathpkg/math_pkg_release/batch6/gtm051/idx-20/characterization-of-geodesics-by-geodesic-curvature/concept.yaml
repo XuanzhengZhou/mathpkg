@@ -1,0 +1,23 @@
+id: characterization-of-geodesics-by-geodesic-curvature
+title_en: "Characterization of Geodesics by Geodesic Curvature"
+title_zh: "测地曲率对测地线的刻画"
+type: proposition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [geodesic, geodesic-curvature, pre-geodesic, arc-length-parametrization, intrinsic-geometry]
+depends_on:
+  required: [geodesic-curvature, geodesic, regular-curve, covariant-derivative-on-surface]
+  recommended: [frenet-frame-on-surface, arc-length-parametrization]
+  suggested: [characterization-of-straight-lines]
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "4"
+    section: "4.3"
+    pages: "pp.88-89"
+    role_in_book: "Proposition 4.3.2 — characterizes geodesics in terms of vanishing geodesic curvature, generalizing the characterization of straight lines in the plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

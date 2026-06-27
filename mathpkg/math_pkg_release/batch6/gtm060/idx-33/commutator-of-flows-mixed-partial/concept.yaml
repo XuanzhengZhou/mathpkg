@@ -1,0 +1,23 @@
+id: commutator-of-flows-mixed-partial
+title_en: "Mixed Partial Derivative of Flow Commutator Equals Commutator of Directional Derivatives"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [vector-field, flow, poisson-bracket, directional-derivative, commutator]
+depends_on:
+  required: [vector-field, differential-operator, flow-of-vector-field]
+  recommended: [poisson-bracket-of-vector-fields, lie-derivative]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "7"
+    section: "39"
+    pages: "221"
+    role_in_book: "Lemma 1: Relates the non-commutativity of flows to the commutator of differentiation operators, providing the motivation for the Poisson bracket definition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

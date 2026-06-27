@@ -1,0 +1,23 @@
+id: elementary-sets
+title_en: "Elementary Sets"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: recursive-function-theory
+difficulty: basic
+tags: [elementary-sets, singleton, empty-set, characteristic-function]
+depends_on:
+  required: [constant-function, cosign-function]
+  recommended: [a-relation]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J.L. Bell, M. Machover"
+    title: "A Course in Mathematical Logic"
+    chapter: "3"
+    section: "1"
+    pages: ""
+    role_in_book: "Proposition 2.10: the sets 0 (empty set) and ω (the set of all natural numbers) are elementary, and every singleton {x} is elementary"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

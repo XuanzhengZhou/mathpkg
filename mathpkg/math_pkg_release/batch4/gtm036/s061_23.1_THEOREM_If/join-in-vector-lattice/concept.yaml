@@ -1,0 +1,23 @@
+id: join-in-vector-lattice
+title_en: "Join (Supremum) in a Vector Lattice"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [join, supremum, vector-lattice, binary-operation, lattice]
+depends_on:
+  required: [vector-lattice]
+  recommended: [supremum, lattice-order]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "23.1"
+    pages: ""
+    role_in_book: "Defines the join operation x ∨ y as the unique supremum in a vector lattice"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

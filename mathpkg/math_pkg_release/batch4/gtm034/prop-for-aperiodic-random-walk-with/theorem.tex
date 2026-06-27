@@ -1,0 +1,31 @@
+For aperiodic random walk, with $\mu =
+
+To make use of T1 in an efficient manner we translate the interval $[-N,N]$ to $[0,2N]$ so that the condition $x_0 = 0$ becomes $x_0 = N$ while the point $y$ turns into $y + N$. In this setting a simple computation shows that
+
+$$p_N(y) = \frac{g_{2N}(N,N+y)}{g_{2N}(N+y,N+y)},$$
+
+$$r_N(y) = 1 - \frac{1}{g_{2N}(N+y,N+y)}.$$
+
+Hence
+
+$$P_0[N_N(y) > Nx] = p_N(y)[r_N(y)]^{[Nz]}.$$
+
+By T1 it is clear that
+
+$$\lim_{N \to \infty} p_N(y) = 1.$$
+
+To estimate $r_N(y)$, observe that
+
+$$\frac{\sigma^2}{4N} g_{2N}(N+y,N+y) = \frac{1}{4} - \frac{y^2}{4N^2} + \epsilon_N(y)$$
+
+where $\epsilon_N(y) \to 0$ uniformly in $y$. Consequently
+
+$$r_N(y) = 1 - \frac{\sigma^2}{N} + o\left(\frac{1}{N}\right),$$
+
+where $No(1/N) \to 0$ as $N \to \infty$. But that suffices to conclude
+
+$$\lim_{N \to \infty}[r_N(y)]^{[Nz]} = \lim_{N \to \infty}\left(1 - \frac{\sigma^2}{N}\right)^{Nz} = e^{-\sigma^2z},$$
+
+and proves P2.
+
+Our next application of T1 concerns the asymptotic behavior of the first time $T_N$ outside the interval $[-N,N]$. We shall show that P21.5 holds in a very general context, by proving

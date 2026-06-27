@@ -1,0 +1,23 @@
+id: conservation-of-total-mechanical-energy
+title_en: "Conservation of Total Mechanical Energy in a Conservative System"
+title_zh: "保守系统的机械能守恒"
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: basic
+tags: [energy-conservation, conservative-system, total-energy, kinetic-energy, potential-energy]
+depends_on:
+  required: [conservative-system, potential-energy-existence-criterion, work-energy-theorem-for-systems]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "10"
+    pages: "55-67"
+    role_in_book: "Conservation of total energy E = T + U in a conservative system"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

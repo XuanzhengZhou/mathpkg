@@ -1,0 +1,23 @@
+id: adjunction-defines-comonad
+title_en: "Every Adjunction Defines a Comonad"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [comonad, adjunction, duality, functor-composition]
+depends_on:
+  required: [comonad-in-a-category, adjunction, functor-composition]
+  recommended: [monad-in-a-category, adjunction-defines-monad]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI. Monads and Algebras"
+    section: "1. Monads in a Category"
+    pages: ""
+    role_in_book: "Dual of adjunction-defines-monad; shows comonads arise from adjunctions on the codomain side"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

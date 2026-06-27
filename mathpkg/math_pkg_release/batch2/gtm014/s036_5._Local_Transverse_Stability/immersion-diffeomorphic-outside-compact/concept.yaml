@@ -1,0 +1,23 @@
+id: immersion-diffeomorphic-outside-compact
+title_en: "Lemma 5.2: Immersion Diffeomorphic Outside Compact Set is a Diffeomorphism"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: differential-topology
+difficulty: intermediate
+tags: [immersion, diffeomorphism, compact-set, inverse-function-theorem]
+depends_on:
+  required: []
+  recommended: [inverse-function-theorem, immersion-definition, submersion-definition]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "5"
+    pages: "131-132"
+    role_in_book: "Technical lemma used to construct global diffeomorphisms from local data by damping outside compact sets."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

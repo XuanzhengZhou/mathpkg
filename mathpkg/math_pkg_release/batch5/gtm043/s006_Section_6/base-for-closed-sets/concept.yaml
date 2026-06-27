@@ -1,0 +1,23 @@
+id: base-for-closed-sets
+title_en: "Base for the Closed Sets"
+title_zh: "闭集基"
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [base, closed-sets, topology, intersection]
+depends_on:
+  required: [closed-set, topological-space]
+  recommended: [base-for-open-sets]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.2"
+    pages: ""
+    role_in_book: "Dual notion to a base for open sets, introduced for convenience in expressing topological properties via closed sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

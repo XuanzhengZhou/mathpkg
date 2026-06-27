@@ -1,0 +1,23 @@
+id: vanishing-odd-chern-classes-self-conjugate
+title_en: "Vanishing of odd Chern classes for self-conjugate bundles"
+title_zh: "自共轭丛的奇陈类消失"
+type: corollary
+domain: topology
+subdomain: characteristic-classes
+difficulty: advanced
+tags: [chern-class, self-conjugate, complex-vector-bundle]
+depends_on:
+  required: [chern-class-of-conjugate-bundle]
+  recommended: [chern-class]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "17. Chern Classes and Stiefel-Whitney Classes"
+    section: "11"
+    pages: ""
+    role_in_book: "Corollary 11.2: consequence of conjugate Chern class formula"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

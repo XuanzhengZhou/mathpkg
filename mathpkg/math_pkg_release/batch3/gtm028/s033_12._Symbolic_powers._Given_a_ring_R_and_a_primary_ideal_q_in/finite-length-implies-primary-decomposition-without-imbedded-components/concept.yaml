@@ -1,0 +1,23 @@
+id: finite-length-implies-primary-decomposition-without-imbedded-components
+title_en: "Finite Length of Difference Module implies Primary Decomposition without Imbedded Components"
+title_zh: "差模有限长蕴含无嵌入分量的准素分解"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [length-of-module, primary-decomposition, without-imbedded-components, noetherian-ring]
+depends_on:
+  required: [length-of-module, primary-decomposition, noetherian-ring]
+  recommended: [chain-conditions, maximal-ideal]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "IV"
+    section: "13"
+    pages: ""
+    role_in_book: "Theorem 27. Relates the finite length of the difference module R-a to the existence of a primary decomposition without imbedded components"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,31 @@
+id: iwasawa-structure-theorem
+title_en: "Structure Theorem for Finitely Generated Modules over the Iwasawa Algebra"
+title_zh: "岩泽代数上有限生成模的结构定理"
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags:
+  - iwasawa-algebra
+  - pseudo-isomorphism
+  - distinguished-polynomial
+  - structure-theorem
+depends_on:
+  required: []
+  recommended:
+    - distinguished-polynomial
+    - finitely-generated-module
+  suggested:
+    - iwasawa-algebra
+    - p-adic-l-function
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5. Iwasawa Theory and Ideal Class Groups"
+    section: "3. Modules over Z_p[[T]]"
+    pages: ""
+    role_in_book: "Main structure theorem for modules over the Iwasawa algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

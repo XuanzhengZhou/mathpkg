@@ -1,0 +1,1 @@
+This technical result is the engine of the Daniell extension. It uses the finite intersection property of compact sets to show that a downward-directed family of continuous functions converging pointwise to zero also converges in functional value to zero.

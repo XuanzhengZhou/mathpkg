@@ -1,0 +1,23 @@
+id: irreducible-iff-trivial-commutant
+title_en: "Irreducible Representation iff Commutant is Trivial"
+title_zh: "表示不可约当且仅当交换子平凡"
+type: proposition
+domain: analysis
+subdomain: operator-algebras
+difficulty: intermediate
+tags: [C*-algebra, irreducible-representation, commutant, von-neumann-bicommutant]
+depends_on:
+  required: [irreducible-representation, commutant]
+  recommended: [projection-operator, invariant-subspace]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "11"
+    pages: ""
+    role_in_book: "Exercise 12(a): characterization of irreducibility via commutant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

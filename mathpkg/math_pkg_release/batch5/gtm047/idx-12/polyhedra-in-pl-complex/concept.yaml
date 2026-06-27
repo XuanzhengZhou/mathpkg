@@ -1,0 +1,23 @@
+id: polyhedra-in-pl-complex
+title_en: "Polyhedra in a PL complex"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: intermediate
+tags: [pl-topology, pl-complex, polyhedron, subcomplex, subdivision]
+depends_on:
+  required: [pl-complex]
+  recommended: [underlying-space-of-pl-complex]
+  suggested: [subdivision-of-complex]
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "7"
+    section: "Abstract complexes and PL complexes"
+    pages: "65-70"
+    role_in_book: "Defines polyhedra as subsets of |K| that can be realized as PL complexes whose simplexes are rectilinear subsimplexes of K, i.e., subcomplexes of subdivisions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

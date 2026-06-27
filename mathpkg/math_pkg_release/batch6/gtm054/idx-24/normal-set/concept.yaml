@@ -1,0 +1,23 @@
+id: normal-set
+title_en: "Normal Set"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: advanced
+tags: [normal-set, extremal-set, almost-factorable, 1-factor, matching]
+depends_on:
+  required: [extremal-set, almost-factorable-graph]
+  recommended: [deficiency-of-graph, one-factor]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "V"
+    section: "B"
+    pages: ""
+    role_in_book: "Definition: A subset U of vertices is normal if it is extremal, V = U + N(U), and every component of the graph induced by U is almost factorable."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

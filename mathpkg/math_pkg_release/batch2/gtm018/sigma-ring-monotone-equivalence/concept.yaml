@@ -1,0 +1,23 @@
+id: sigma-ring-monotone-equivalence
+title_en: "Sigma-Ring and Monotone Ring Equivalence"
+title_zh: "σ-环与单调环的等价性"
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [set-theory, sigma-ring, monotone-class]
+depends_on:
+  required: [sigma-ring, monotone-class, ring-of-sets]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "I"
+    section: "6"
+    pages: ""
+    role_in_book: "Theorem A: Every sigma-ring is a monotone class; every monotone ring is a sigma-ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

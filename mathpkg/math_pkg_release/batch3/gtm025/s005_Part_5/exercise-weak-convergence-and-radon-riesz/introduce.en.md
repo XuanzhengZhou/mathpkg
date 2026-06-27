@@ -1,0 +1,1 @@
+The Radon-Riesz theorem states that in a uniformly convex space, weak convergence plus convergence of norms implies norm convergence. This is a key property of $\mathfrak{L}_p$ spaces for $1 < p < \infty$.

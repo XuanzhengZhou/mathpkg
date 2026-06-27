@@ -1,0 +1,23 @@
+id: projective-cover-idempotents
+title_en: "Projective Covers and Idempotents"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [projective-cover, idempotent, cyclic-module]
+depends_on:
+  required: [projective-cover, projective-cover-uniqueness]
+  recommended: [idempotent, cyclic-module]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "5"
+    section: "17"
+    pages: ""
+    role_in_book: "Proposition 17.18 — projective cover of simple module iff Re ≅ Rf as left modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

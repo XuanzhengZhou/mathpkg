@@ -1,0 +1,23 @@
+id: semi-linear-transformation
+title_en: "Semi-linear Transformation"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [semi-linear, skewfield, automorphism, gamma-l, semilinear-group]
+depends_on:
+  required: [left-vector-space-over-skewfield, automorphism-of-skewfield]
+  recommended: [linear-transformation-over-skewfield]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I"
+    section: "4. Vector Spaces"
+    pages: ""
+    role_in_book: "Definition of semi-linear transformations for projective geometry"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

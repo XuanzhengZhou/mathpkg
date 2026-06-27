@@ -1,0 +1,23 @@
+id: tame-imbedding
+title_en: "Tame Imbedding (Tame and Wild Sets)"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [tame-imbedding, wild-imbedding, polyhedron, triangulable, artin, fox]
+depends_on:
+  required: []
+  recommended: [triangulation, polyhedron, homeomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "10"
+    section: "10"
+    pages: "81-82"
+    role_in_book: "Core definition: a triangulable set is tame if it can be mapped to a polyhedron by a homeomorphism of R^n; otherwise wild"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

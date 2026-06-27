@@ -1,0 +1,13 @@
+id: recurrence-criterion-for-random-walk
+title_en: "Recurrence criterion for sums of independent random variables on the line"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [random-walk, recurrence, transience, drift, mean-zero, generating-function, martingale, sums-of-independent-random-variables]
+depends_on: {required: ["sums-of-independent-random-variables-markov-chain", "mean-of-random-walk"], recommended: [], suggested: []}
+source_books: [{book_id: "gtm040", author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp", title: "Denumerable Markov Chains", chapter: "5", section: "7", pages: "", role_in_book: "main theorem of Section 7: characterizes recurrence for random walks by zero mean"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

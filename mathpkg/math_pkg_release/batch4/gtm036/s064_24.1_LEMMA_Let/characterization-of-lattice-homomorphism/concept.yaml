@@ -1,0 +1,17 @@
+id: characterization-of-lattice-homomorphism
+title_en: "Characterization of Lattice Homomorphisms on Vector Lattices"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: vector-lattices
+difficulty: intermediate
+tags: ["lattice-homomorphism", "positive-functional", "vector-lattice", "disjoint-elements", "meet-preserving"]
+depends_on:
+  required: []
+  recommended: ["vector-lattice", "ordered-linear-space", "positive-linear-functional", "lattice-homomorphism"]
+  suggested: []
+source_books:
+  - {book_id: "gtm036", author: "Kelley, J.L. and Namioka, I.", title: "Linear Topological Spaces", chapter: "24", section: "24.2", pages: "", role_in_book: "Theorem 24.2; characterizes lattice homomorphisms among linear functionals on a vector lattice via three equivalent conditions involving positivity, disjointness, and scalar multiples."}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

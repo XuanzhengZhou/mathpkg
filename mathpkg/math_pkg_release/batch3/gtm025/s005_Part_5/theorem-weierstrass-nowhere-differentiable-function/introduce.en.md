@@ -1,0 +1,1 @@
+Weierstrass's construction of a continuous but nowhere differentiable function (1872) is a landmark counterexample. The function is a Fourier series whose terms oscillate faster than their amplitudes decay, creating a fractal-like curve with no well-defined tangent anywhere.

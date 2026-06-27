@@ -1,0 +1,23 @@
+id: nearfield
+title_en: "Nearfield"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: quasifields-nearfields
+difficulty: intermediate
+tags: [quasifield, nearfield, associative-multiplication, planar-ternary-ring]
+depends_on:
+  required: []
+  recommended: [quasifield, planar-ternary-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "6"
+    section: "4. Multiplicative Properties of (R,T)"
+    pages: ""
+    role_in_book: "Defines nearfield as a quasifield with associative multiplication, connecting algebraic and geometric structures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

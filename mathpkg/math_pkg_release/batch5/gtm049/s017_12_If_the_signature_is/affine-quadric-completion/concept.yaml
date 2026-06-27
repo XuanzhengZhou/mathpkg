@@ -1,0 +1,23 @@
+id: affine-quadric-completion
+title_en: "Affine Quadric Contained in a Hyperplane"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: affine-geometry
+difficulty: intermediate
+tags: [affine-quadric, projective-completion, hyperplane, classification, f3]
+depends_on:
+  required: [quadric-union-of-hyperplanes]
+  recommended: [affine-space, projective-completion]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K. W. Gruenberg and A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "7"
+    pages: ""
+    role_in_book: "Exercise 7: classifies affine quadrics contained in a hyperplane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

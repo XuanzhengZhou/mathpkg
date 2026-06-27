@@ -1,0 +1,11 @@
+Let $p = 4n + 1$ be a prime. Then there exists a constructive method to find integers $a, b$ such that $p = a^2 + b^2$, proceeding as follows:
+
+\text{(i) Find an integer $c$ such that $p$ divides $c^{2n} + (c-1)^{2n}$; equivalently, find $c$ such that $c^{2n} \equiv -1 \pmod{p}$ and then compute $a \equiv c^{2n-1} \pmod{p}$ to obtain $a^2 + 1^2 = kp$ for some integer $k$.}
+
+\text{(ii) If $k = 1$, the representation is found. Otherwise, use the identity}
+
+$$(a^2 + b^2)(c^2 + d^2) = (ac \mp bd)^2 + (ad \pm bc)^2$$
+
+\text{to divide by prime factors of $k$, each of which can be written as a sum of two squares (by the theorem itself, applied to smaller primes of the form $4n+1$).}
+
+\text{(iii) A more efficient variant is to reduce $k$ by replacing $(a, b)$ with a smaller pair found from the congruence $a \equiv cb \pmod{k}$ where $c^2 \equiv -1 \pmod{k}$.}

@@ -1,0 +1,23 @@
+id: kummer-theory-cyclotomic-zp-extensions
+title_en: "Kummer Theory over Cyclotomic Z_p-extensions"
+title_zh: "分圆Z_p-扩张上的Kummer理论"
+type: definition
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [kummer-theory, cyclotomic-fields, zp-extensions, iwasawa-theory, galois-cohomology]
+depends_on:
+  required: []
+  recommended: [kummer-theory, cyclotomic-fields, galois-cohomology]
+  suggested: [iwasawa-theory, class-field-theory, local-units]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "6"
+    section: "6"
+    pages: ""
+    role_in_book: "Main topic: Kummer theory applied to cyclotomic Z_p-extensions, including Iwasawa theory of local units and Kummer-Takagi exponents"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

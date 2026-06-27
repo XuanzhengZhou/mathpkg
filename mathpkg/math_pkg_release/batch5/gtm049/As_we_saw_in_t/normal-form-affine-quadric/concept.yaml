@@ -1,0 +1,23 @@
+id: normal-form-affine-quadric
+title_en: "Normal Form of Affine Quadric Equations"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: affine-geometry
+difficulty: intermediate
+tags: [affine-quadric, normal-form, coordinate-system]
+depends_on:
+  required: [affine-quadric]
+  recommended: [decomposition-symmetric-bilinear-forms]
+  suggested: []
+source_books:
+  - book_id: gtm049
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "5.7"
+    pages: "117-118"
+    role_in_book: "Proposition 12: any affine quadric can be put into one of two standard normal forms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,16 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+In the infinite drunkard's walk
+
+$$B_{i0} = \lim_n nB_{i0},$$
+
+$$N_{ij} = \lim_n nN_{ij},$$
+
+and
+
+$$a_i = \lim_n na_i.$$

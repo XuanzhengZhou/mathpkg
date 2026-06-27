@@ -1,0 +1,23 @@
+id: ascending-chain-finitely-generated
+title_en: "Ascending Chain Condition iff Every Submodule is Finitely Generated"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [ascending-chain-condition, finitely-generated, noetherian, submodule, acc]
+depends_on:
+  required: [ascending-chain-condition, module, submodule]
+  recommended: [maximum-condition]
+  suggested: [noetherian-module]
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "Chapter VI"
+    section: "4. The chain conditions"
+    pages: ""
+    role_in_book: "Theorem 2; characterizes Noetherian modules via finite generation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

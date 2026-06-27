@@ -1,0 +1,23 @@
+id: hughes-plane-is-finite-projective-plane
+title_en: "Hughes Plane is a Finite Projective Plane of Order q²"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [finite-geometry, projective-plane, hughes-plane, incidence-geometry]
+depends_on:
+  required: [hughes-plane]
+  recommended: [projective-plane, nearfield]
+  suggested: [general-linear-group]
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "IX"
+    section: "6. The Hughes Planes"
+    pages: ""
+    role_in_book: "Theorem 9.14: Establishing that the Hughes incidence structure satisfies the projective plane axioms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

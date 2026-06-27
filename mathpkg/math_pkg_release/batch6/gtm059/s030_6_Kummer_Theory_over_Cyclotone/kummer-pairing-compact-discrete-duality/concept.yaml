@@ -1,0 +1,23 @@
+id: kummer-pairing-compact-discrete-duality
+title_en: "Kummer Pairing Compact-Discrete Duality"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [kummer-theory, cyclotomic-fields, iwasawa-theory, galois-cohomology, zp-extension]
+depends_on:
+  required: []
+  recommended: [kummer-pairing, projective-limit, direct-limit, cyclotomic-zp-extension]
+  suggested: [tate-duality, class-field-theory]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "6"
+    section: "Kummer Theory over Cyclotomic Z_p-extension"
+    pages: ""
+    role_in_book: "Core result establishing compact-discrete duality via Kummer pairing in Iwasawa theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

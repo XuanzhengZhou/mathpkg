@@ -1,0 +1,23 @@
+id: first-isomorphism-theorem-vector-spaces
+title_en: "First Isomorphism Theorem for Vector Spaces"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [isomorphism-theorem, kernel, quotient-space, factoring]
+depends_on:
+  required: [kernel, quotient-space, induced-linear-map-on-quotient]
+  recommended: [linear-mapping]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "2"
+    section: "§1. Basic properties, 2.4"
+    pages: ""
+    role_in_book: "Every linear map factors through its kernel quotient as an injective map"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

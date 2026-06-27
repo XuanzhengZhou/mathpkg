@@ -1,0 +1,23 @@
+id: incidence-matrix-product-property
+title_en: "Incidence Matrix Product Formula for Projective Planes"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: incidence-geometry
+difficulty: intermediate
+tags: [incidence-matrix, projective-plane, matrix-product]
+depends_on:
+  required: [incidence-matrix-of-finite-plane, finite-projective-plane]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "3"
+    section: "5"
+    pages: "page_0096–page_0097"
+    role_in_book: "Shows that for a projective plane incidence matrix A, AA' = nI + J"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

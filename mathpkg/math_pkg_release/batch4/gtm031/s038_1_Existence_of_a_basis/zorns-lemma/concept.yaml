@@ -1,0 +1,23 @@
+id: zorns-lemma
+title_en: "Zorn's Lemma"
+title_zh: ""
+type: lemma
+domain: foundations
+subdomain: set-theory
+difficulty: intermediate
+tags: [zorn-lemma, axiom-of-choice, partial-order, maximal-element]
+depends_on:
+  required: [partially-ordered-set, chain, upper-bound]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "Zorn's Lemma: a partially ordered set in which every chain has an upper bound possesses a maximal element. Essential for proving existence of bases in infinite-dimensional vector spaces."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

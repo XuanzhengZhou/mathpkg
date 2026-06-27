@@ -1,0 +1,23 @@
+id: skew-symmetric-p-linear-map
+title_en: "Skew symmetric p-linear map"
+title_zh: "斜对称p重线性映射"
+type: definition
+domain: algebra
+subdomain: multilinear-algebra
+difficulty: intermediate
+tags: [skew-symmetric, alternating, multilinear, determinant]
+depends_on:
+  required: [p-linear-map, sign-of-permutation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IV"
+    section: "§1. Determinant functions"
+    pages: "4.2"
+    role_in_book: "Defines skew symmetric p-linear maps as those that change by sign under permutation of arguments"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

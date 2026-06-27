@@ -1,0 +1,14 @@
+id: lemma-orthogonal-complement-included-in-degenerate-radical
+title_en: "Orthogonal Complement Contained in Right Radical for Non-degenerate Subspaces"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: bilinear-forms
+difficulty: intermediate
+tags: [orthogonality, radical, nondegenerate, subspace, orthogonal-complement]
+depends_on: {required: [orthogonality], recommended: [dimension-formula-for-orthogonal-subspaces], suggested: []}
+source_books:
+  - {book_id: "gtm049", author: "K. W. Gruenberg, A. J. Weir", title: "Linear Geometry", chapter: "5", section: "5.2 Orthogonality", pages: "105-106", role_in_book: "Lemma 3. For a non-degenerate subspace M, we have M ∩ M⊥ = 0, which is a key ingredient for the direct sum decomposition in Proposition 5."}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

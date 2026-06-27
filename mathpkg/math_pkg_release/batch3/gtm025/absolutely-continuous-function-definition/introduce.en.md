@@ -1,0 +1,1 @@
+Absolute continuity is a strengthening of uniform continuity that is precisely the condition for a function to be an indefinite Lebesgue integral. Absolutely continuous functions map null sets to null sets and are differentiable almost everywhere.

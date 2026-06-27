@@ -1,0 +1,8 @@
+A \emph{functor} $T: C \rightarrow B$ with domain $C$ and codomain $B$ consists of two suitably related functions:
+\begin{itemize}
+\item The \emph{object function} $T$, which assigns to each object $c$ of $C$ an object $Tc$ of $B$;
+\item The \emph{arrow function} (also written $T$), which assigns to each arrow $f: c \rightarrow c'$ of $C$ an arrow $Tf: Tc \rightarrow Tc'$ of $B$,
+\end{itemize}
+in such a way that
+$$T(1_c) = 1_{Tc}, \quad T(g \circ f) = Tg \circ Tf,$$
+the latter whenever the composite $g \circ f$ is defined in $C$.

@@ -1,0 +1,23 @@
+id: uniform-set-partition-of-unity
+title_en: "Partition of Unity Formula for Uniform Sets"
+title_zh: "一致集的单位划分公式"
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: intermediate
+tags: [boolean-valued-universe, uniform-set, partition-of-unity, completeness]
+depends_on:
+  required: [extensional-function, corollary-16-3-partition]
+  recommended: [boolean-valued-universe]
+  suggested: [uniform-set-factorization]
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: ""
+    role_in_book: "Shows that uniform (extensional with complete domain) sets respect Boolean-linear combinations: the membership value of a partition-of-unity sum equals the corresponding sum of membership values."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

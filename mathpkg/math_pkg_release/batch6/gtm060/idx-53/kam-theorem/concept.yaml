@@ -1,0 +1,23 @@
+id: kam-theorem
+title_en: "Kolmogorov-Arnold-Moser (KAM) Theorem"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: hamiltonian-mechanics
+difficulty: advanced
+tags: [perturbation-theory, invariant-tori, conditionally-periodic-motion, KAM-theory, integrable-systems]
+depends_on:
+  required: []
+  recommended: [nondegeneracy-condition, diophantine-condition, isoenergetic-nondegeneracy]
+  suggested: [hamiltonian-system, action-angle-variables, integrable-system]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnol'd"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 8"
+    section: "B"
+    pages: ""
+    role_in_book: "Main theorem on conservation of invariant tori under small perturbations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

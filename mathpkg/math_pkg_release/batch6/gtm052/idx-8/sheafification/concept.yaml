@@ -1,0 +1,13 @@
+id: sheafification
+title_en: "Sheafification — Sheaf Associated to a Presheaf"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [sheafification, presheaf, sheaf, associated-sheaf, universal-property]
+depends_on: {required: [sheaf, presheaf-of-abelian-groups], recommended: [stalk-of-presheaf, direct-limit], suggested: [morphism-of-sheaves]}
+source_books: [{book_id: "gtm052", author: "Robin Hartshorne", title: "Algebraic Geometry", chapter: "II", section: "1", pages: "69-81", role_in_book: "Proposition-Definition 1.2 — constructs the sheafification functor: every presheaf has an associated sheaf with a universal property"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: motion-classification-for-freely-falling-particles
+title_en: "Motion classification for freely falling particles in Schwarzschild spacetime"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: basic
+tags: [general-relativity, schwarzschild, freely-falling, radial-motion, circular-motion]
+depends_on:
+  required: [maintains-direction-for-freely-falling-particle]
+  recommended: [total-energy-of-freely-falling-particle, first-integrals-for-freely-falling-particles]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs, Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "7"
+    section: "7.3"
+    pages: ""
+    role_in_book: "Defines kinematic terminology for freely falling particles: go in/out, maintain height, directly in/out, hover, circle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

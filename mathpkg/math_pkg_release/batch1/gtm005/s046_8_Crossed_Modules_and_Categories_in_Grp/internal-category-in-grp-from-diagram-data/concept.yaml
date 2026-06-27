@@ -1,0 +1,23 @@
+id: internal-category-in-grp-from-diagram-data
+title_en: "Internal Category in Grp from Diagram Data"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [internal-category, group-object, crossed-module, composition, converse-construction]
+depends_on:
+  required: [internal-category-in-grp, composition-formula-internal-category-grp]
+  recommended: [crossed-module-from-internal-category-in-grp]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XII"
+    section: "8"
+    pages: ""
+    role_in_book: "Converse construction: from a diagram of groups satisfying the domain/codomain/identity conditions and the commutator condition, define composition to obtain an internal category in Grp"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

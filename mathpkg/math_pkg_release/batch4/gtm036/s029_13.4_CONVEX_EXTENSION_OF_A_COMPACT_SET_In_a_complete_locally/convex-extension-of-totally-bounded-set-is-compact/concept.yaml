@@ -1,0 +1,33 @@
+id: convex-extension-of-totally-bounded-set-is-compact
+title_en: "Closed Circled Convex Extension of a Totally Bounded Set is Compact"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags:
+  - locally-convex-space
+  - compactness
+  - totally-bounded
+  - convex-extension
+  - circled-hull
+depends_on:
+  required:
+    - totally-bounded-set
+    - compact-set
+    - complete-space
+    - locally-convex-space
+    - convex-circled-extension-of-totally-bounded-set-is-totally-bounded
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "13"
+    section: "13.4"
+    pages: ""
+    role_in_book: "Main theorem of Section 13.4, characterizing compactness of the convex circled extension in complete locally convex spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

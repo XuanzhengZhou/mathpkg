@@ -1,0 +1,23 @@
+id: generalized-normal-crossing-condition
+title_en: "Generalized Normal Crossing Condition (5.5)"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [normal-crossing, jet-space, boardman-map, transversality, submersion, general-position]
+depends_on:
+  required: []
+  recommended: [normal-crossing-condition, boardman-map, jet-bundle, thom-transversality-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VI"
+    section: "5"
+    pages: ""
+    role_in_book: "Generalizes the NC condition to arbitrary families of submanifolds of jet space that submerge onto the target"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

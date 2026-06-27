@@ -1,0 +1,23 @@
+id: eigenvalues-in-real-linear-spaces
+title_en: "Eigenvalues in Real Linear Spaces"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [eigenvalue, real-linear-space, odd-dimension, determinant]
+depends_on:
+  required: [characteristic-polynomial]
+  recommended: [existence-of-eigenvalues-complex]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§6. The characteristic polynomial"
+    pages: "4.20"
+    role_in_book: "Establishes existence conditions for eigenvalues in real vector spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

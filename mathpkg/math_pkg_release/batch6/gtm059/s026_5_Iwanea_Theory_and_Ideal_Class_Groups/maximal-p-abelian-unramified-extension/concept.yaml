@@ -1,0 +1,23 @@
+id: maximal-p-abelian-unramified-extension
+title_en: "Maximal $p$-abelian Unramified Extension"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: class-field-theory
+difficulty: intermediate
+tags: ["class-field-theory", "unramified-extension", "p-group", "idele-class-group"]
+depends_on:
+  required: ["hilbert-class-field", "class-field-theory"]
+  recommended: ["profinite-groups"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines $M(K)$ and $G_M(K)$ in the context of the maximal p-abelian unramified extension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

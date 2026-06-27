@@ -1,0 +1,8 @@
+---
+role: exercise
+locale: en
+chapter: "22"
+section: "Exercises"
+exercise_number: 17
+---
+Let $R$ be hereditary. Prove that if $P_R$ is finitely generated projective, then $\operatorname{End}(P_R)$ is hereditary. In particular, if $e \in R$ is a non-zero idempotent, then $eRe$ is hereditary.

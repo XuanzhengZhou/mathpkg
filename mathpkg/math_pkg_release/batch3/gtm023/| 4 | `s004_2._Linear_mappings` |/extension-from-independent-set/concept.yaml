@@ -1,0 +1,23 @@
+id: extension-from-independent-set
+title_en: "Extension of a Set Map from a Linearly Independent Set to a Linear Mapping"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [linear-independence, basis-extension, linear-mapping, extension, vector-space]
+depends_on:
+  required: [linear-independence, extension-from-basis, basis-definition]
+  recommended: [basis-existence-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "1"
+    section: "2"
+    pages: ""
+    role_in_book: "Corollary of Proposition II — every set map on a linearly independent set extends (non-uniquely) to a linear map"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

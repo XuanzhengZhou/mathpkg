@@ -1,0 +1,23 @@
+id: third-homotopy-of-sok-for-large-k
+title_en: "Third Homotopy Group of SO(k) for k Greater or Equal to 5"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: homotopy-theory
+difficulty: advanced
+tags: [special-orthogonal-group, homotopy-group, stability, Stiefel-manifold]
+depends_on:
+  required: [third-homotopy-group-of-so3, homotopy-isomorphism-for-stiefel-inclusion]
+  recommended: [stability-of-homotopy-groups]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "12"
+    pages: ""
+    role_in_book: "Extends the $\pi_3(SO(3))$ calculation to $SO(k)$ for all $k \geq 5$"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

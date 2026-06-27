@@ -1,0 +1,23 @@
+id: rational-canonical-form
+title_en: "Rational Canonical Form of a Linear Transformation"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [rational-canonical-form, companion-matrix, invariant-factors, cyclic-decomposition, f-module]
+depends_on:
+  required: []
+  recommended: [companion-matrix-of-cyclic-module, invariant-factor-decomposition, invariant-factors-of-linear-map]
+  suggested: [jordan-canonical-form]
+source_books:
+  - book_id: "gtm049"
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "7"
+    section: "7.5"
+    pages: ""
+    role_in_book: "core"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

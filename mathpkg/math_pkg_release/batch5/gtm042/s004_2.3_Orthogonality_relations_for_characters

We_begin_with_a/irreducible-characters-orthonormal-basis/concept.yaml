@@ -1,0 +1,23 @@
+id: irreducible-characters-orthonormal-basis
+title_en: "Irreducible Characters Form an Orthonormal Basis of Class Functions"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [irreducible-characters, orthonormal-basis, class-functions, character-theory]
+depends_on:
+  required: [orthogonality-of-irreducible-characters, class-function-homothety]
+  recommended: [class-function, hermitian-inner-product]
+  suggested: [schurs-lemma]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "2"
+    section: "2.5"
+    pages: ""
+    role_in_book: "Theorem 6. Culmination of character theory: the irreducible characters form a complete orthonormal basis for the space of class functions."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

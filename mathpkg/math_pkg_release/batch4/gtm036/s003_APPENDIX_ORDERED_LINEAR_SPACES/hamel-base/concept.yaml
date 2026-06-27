@@ -1,0 +1,23 @@
+id: hamel-base
+title_en: "Hamel Base"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [hamel-base, basis, linear-combination, dimension]
+depends_on:
+  required: [linear-space, linearly-independent-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Fundamental algebraic basis concept; used to define dimension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

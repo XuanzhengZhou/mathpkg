@@ -1,0 +1,23 @@
+id: basis-of-topology
+title_en: "Basis of a Topology"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [basis, topology, open-set]
+depends_on:
+  required: [topological-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "A subcollection B of open sets is a basis if every open set is a union of members of B. Equivalently, the intersection of any two basis elements is a union of basis elements."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

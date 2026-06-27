@@ -1,0 +1,23 @@
+id: iterated-biproduct
+title_en: "Iterated Biproduct (Finite Direct Sum) in Ab-Categories"
+title_zh: "Ab-范畴中的迭代双积（有限直和）"
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [ab-category, biproduct, direct-sum, finite-coproduct, finite-product]
+depends_on:
+  required: [biproduct-characterization]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VIII. Abelian Categories"
+    section: "2. Additive Categories"
+    pages: ""
+    role_in_book: "Definition — iterates the binary biproduct to obtain n-ary biproducts with matrix characterization"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

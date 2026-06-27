@@ -1,0 +1,5 @@
+Let $X_1, \ldots, X_n$ be independent, identically distributed random variables with mean zero and variance one. Let $\varphi(t)$ be their common characteristic function. Then
+$$\varphi(t) = 1 - \frac{t^2}{2} + o(t^2) \quad \text{as } t \to 0.$$
+The characteristic function of $S_n/\sqrt{n} = \frac{1}{\sqrt{n}} \sum_{j=1}^{n} X_j$ is $[\varphi(t/\sqrt{n})]^n$, and
+$$\lim_{n \to \infty} [\varphi(t/\sqrt{n})]^n = \exp\left(-\frac{t^2}{2}\right),$$
+which is the characteristic function of the standard normal distribution. By the continuity theorem, $S_n/\sqrt{n}$ converges in distribution to $N(0,1)$.

@@ -1,0 +1,23 @@
+id: thm-18-4-riesz-representation
+title_en: "Riesz Representation Theorem for C(X)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [riesz-representation, dual-space, signed-measure, compact-hausdorff]
+depends_on:
+  required: [complex-borel-measures-mx, prop-18-1-total-variation-norm]
+  recommended: [positive-linear-functional, jordan-decomposition]
+  suggested: []
+source_books:
+  - book_id: "gtm055"
+    author: "Brown and Pearcy"
+    title: "Introduction to Operator Theory I"
+    chapter: "18"
+    section: "19"
+    pages: ""
+    role_in_book: "Central theorem identifying the dual of C_R(X) with regular signed Borel measures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

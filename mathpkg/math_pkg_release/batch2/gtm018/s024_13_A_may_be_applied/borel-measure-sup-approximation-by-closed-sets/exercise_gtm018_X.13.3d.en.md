@@ -1,0 +1,13 @@
+---
+role: exercise
+locale: en
+chapter: "X"
+section: "13"
+exercise_number: "3d"
+---
+
+If $\mu$ is a measure on the class of Borel subsets of a metric space $X$, and $\mathbf{C}$ is the class of closed subsets of $X$ that have finite measure, then for every Borel set $E$ of $\sigma$-finite measure,
+
+$$\mu(E) = \sup \{ \mu(C): E \supset C \in \mathbf{C} \}.$$
+
+(Hint: it is sufficient to consider sets $E$ of finite measure. Write $\nu(F) = \mu(E \cap F)$ and apply (3c) to $\nu$ and $X - E$.)

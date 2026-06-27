@@ -1,0 +1,23 @@
+id: duality-map-notation
+title_en: "Duality Map Notation for Poincaré–Alexander Duality"
+title_zh: "庞加莱-亚历山大对偶的对偶映射记号"
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [poincare-duality, alexander-duality, orientation-class, cap-product, excision-isomorphism, manifold]
+depends_on:
+  required: [orientation-class, cap-product, excision-isomorphism]
+  recommended: [cup-cap-relation, canonical-pairing-homology-cohomology]
+  suggested: [poincare-duality-isomorphism]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "5"
+    section: "5.2"
+    pages: "page_0283"
+    role_in_book: "Defines the fundamental duality map D_K^V used throughout the proof of Poincaré–Alexander duality on manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

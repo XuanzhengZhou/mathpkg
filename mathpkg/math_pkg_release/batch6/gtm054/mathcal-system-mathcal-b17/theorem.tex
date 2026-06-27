@@ -1,0 +1,15 @@
+Let $(V, \mathcal{A})$ be a set system.
+
+(a) If $(V, \mathcal{A})$ satisfies B14, then $(V, \mathcal{M}(\mathcal{A}))$ satisfies B13 and B15.
+
+(b) If $(V, \mathcal{A})$ satisfies B15, then $(V, \mathcal{M}(\mathcal{A}))$ satisfies B13 and B14, and every set in $\mathcal{A}$ is
+
+| $M_1 \cup M_2$|, there exists $M' \in \mathcal{M}(\mathcal{A})$ such that $y \in M'$ and $M' \subseteq (M_2 \cup M) + \{z\}$. Now $(M_1, M', x, y)$ is admissible for $(V, \mathcal{M}(\mathcal{A}))$, and $M_1 \cup M' \subseteq M_1 \cup M_2$ since $z \notin M_1 \cup M'$. Again by the minimality assumption, there exists $M'' \in \mathcal{M}(\mathcal{A})$ such that $x \in M''$ and $M'' \subseteq (M_1 \cup M') + \{y\} \subseteq (M_1 \cup M_2) + \{y\}$, which provides a contradiction.
+
+(b) It is immediate that $(V, \mathcal{M}(\mathcal{A}))$ satisfies B13 and that $(V, \mathcal{A})$ satisfies B14. Hence $(V, \mathcal{M}(\mathcal{A}))$ satisfies B15 by part (a), whence it also satisfies B14.
+
+If the remainder of the assertion is false, we pick a smallest nonempty set $A \in \mathcal{A}$ which is not a union of sets in $\mathcal{M}(\mathcal{A})$. Thus $\mathcal{M}(\mathcal{A}) \cap \mathcal{P}(A)$ fails to cover $A$; there exists $x \in A$ such that $x \notin \bigcup_{M \in \mathcal{M}(\mathcal{A}) \cap \mathcal{P}(A)} M$. However, $A$ contains some set $M \in \mathcal{M}(\mathcal{A})$. Letting $y \in M$, we form the admissible 4-tuple $(A, M, x, y)$ for $(V, \mathcal{A})$. There exists a set $A' \in \mathcal{A}$ such that $x \in A'$ and $A' \subseteq A + \{y\}$. Since $|A'| < |A|$, $A'$ is
+
+directly that $(U, \mathcal{M}(\mathcal{A}))$ is a cycle system. Condition B13 holds by definition, and if $(M_1, M_2, x, y)$ is an admissible 4-tuple, then certainly $x \in M_1 + M_2 \subseteq (M_1 \cup M_2) + \{y\}$. Since $\mathcal{A}$ is a subspace, $M_1 + M_2 \in \mathcal{A}$. By IIIC1, $M_1 + M_2$ is a sum of pairwise-disjoint elements of $\mathcal{M}(\mathcal{A})$. One of these, say $M$, contains $x$. Thus $x \in M \subseteq (M_1 \cup M_2) + \{y\}$, and we have verified B14 for $(U, \mathcal{M}(\mathcal{A}))$.
+
+If $\Gamma = (V, f, E)$ is a multigraph, then $\mathcal{X}(\Gamma)$ and $\mathcal{X}^\perp(\Gamma)$ are two very important subspaces of $\mathcal{P}(E)$. Thus $(E, \mathcal{M}(\mathcal{X}(\Gamma)))$ and $(E, \mathcal{M}(\mathcal{X}^\perp(\Gamma)))$ are very important cycle systems. Their blocks are respectively the elementary cycles and the elementary cocycles of $\Gamma$. Note that here the blocks of $\Gamma$ become the vertices of the cycle system.

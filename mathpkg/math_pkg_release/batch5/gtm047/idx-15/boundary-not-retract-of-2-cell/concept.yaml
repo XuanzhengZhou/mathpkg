@@ -1,0 +1,23 @@
+id: boundary-not-retract-of-2-cell
+title_en: "The boundary of a 2-cell is not a retract"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [2-cell, retract, boundary, planar-topology, fixed-point-theory]
+depends_on:
+  required: [two-cell-separation-theorem, retraction]
+  recommended: [2-cell]
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "5"
+    section: "15"
+    pages: "83-90"
+    role_in_book: "Theorem 10 - Key topological fact about 2-cells"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

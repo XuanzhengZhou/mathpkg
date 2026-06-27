@@ -1,0 +1,11 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+3.2 Definition from Conway's "Functions of One Complex Variable I."
+An entire function is a function which is defined and analytic in the whole complex plane $\mathbb{C}$. (The term “integral function” is also used.)
+
+The following result follows from Theorem 2.8 and the fact that $\mathbb{C}$ contains $B(0; R)$ for arbitrarily large $R$....

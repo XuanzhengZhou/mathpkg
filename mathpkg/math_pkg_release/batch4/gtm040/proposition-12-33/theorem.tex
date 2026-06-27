@@ -1,0 +1,50 @@
+Let $T = \mathbb{N}$, and suppose that $\nu \in \mathcal{G}_V$ has initial measure $\pi_0$ and transition matrices $P_n$. Then any $\mu \in \mathcal{G}_V$ is Markovian with initial measure $\pi'_0$ and transition matrices $P'_n$ which satisfy $\pi'_{0,i
+
+Definition 12-34: A Markov field $\{x_t\}_{t \in \mathbb{Z}}$ is homogeneous if
+
+$$\mu_m^{\bar{m}}(\iota) = \mu_m^{\bar{m}+n}(\theta^{-n}\iota) \quad \text{for all } m, n \in \mathbb{Z}, \iota \in \Omega,$$
+
+where the value of $\theta^{-n}\iota$ at site $t$ is $i_{t-n}$. A neighbor potential $U$ is homogeneous if
+
+$$U_{\{m\}}(\iota) = u_j \quad \text{and} \quad U_{\{m,m+1\}}(\iota) = u_{jk} \quad \text{whenever } i_m = j, i_{m+1} = k.$$
+
+Two facts follow immediately from the definitions. First, if $\{x_t\}$ is homogeneous Markov, then the canonical $V$ of Theorem 12-21 is a homogeneous neighbor potential. Second, any neighbor Gibbs field with homogeneous neighbor potential $U$ is homogeneous Markov. For such a $U$, if we set $Q_{jk} = \exp\left\{\frac{1}{2}u_j + u_{jk} + \frac{1}{2}u_k\right\}$, then $\mu$ is a Gibbs field with potential $U$ if and only if
+
+$$\mu_m^{\bar{m}}(\iota) = \frac{e^{u_j + u_{ij} + u_{jk}}}{\sum_{s \in S} e^{u_s + u_{is} + u_{sk}}} = \frac{Q_{ij}Q_{jk}e^{-(u_i + u_k)/2}}{\sum_{s \in S} Q_{is}Q_{sk}e^{-(u_i + u_k)/2}} = \frac{Q_{ij}Q_{jk}}{(Q^2)_{ik}}$$
+
+whenever $i_{m-1} = i, i_m = j$ and $i_{m+1} = k$. On the other hand, any strictly positive $Q$ defines consistent local characteristics by means of the above equation, and these in turn give
+
+PROOF: The statements and proofs of Proposition 12-14 and Corollary 12-15 are easily modified to apply to neighbor potentials on an infinite parameter set by replacing $T$ with $\bar{A}$. In our case, if $U'$ and $U''$ are the homogeneous neighbor potentials such that $u'_k = u'_k = 0$ for all $k$ and $u'_{ij} = \ln Q'_{ij}$, $u'_{ij} = \ln Q'_{ij}$, then $U'$ and $U''$ determine the same Gibbs fields if and only if
+
+$$\sum_{B \subset A \subset D \subset \bar{A}} (-1)^{|A-B|} \Delta_D(\iota^B) = 0 \quad \text{for every } A = \{m\}, \{m, m + 1\},$$
+
+where $\Delta_A = U'_A - U'_A'$. Setting $\delta_{ij} = u'_{ij} - u'_{ij}'$, these equations become
+
+(1) $$\delta_{k0} + \delta_{0k} - 2\delta_{00} = 0$$
+(2) $$\delta_{ij} - \delta_{i0} - \delta_{0j} + \delta_{00} = 0$$
+
+The combination (2) + $\frac{1}{2}(1$ with $k = i)$ + $\frac{1}{2}(1$ with $k = j)$ yields
+
+(3) $(u'_{ij} - u'_{ij}') + w_i - w_j - z = 0,$
+
+where $w_k = \frac{1}{2}(\delta_{0k} - \delta_{k0}), \quad z = \delta_{00}$.
+
+Defining $h_k = e^{w_k}$ and $c = e^z$, the desired equation in terms of $Q'$ and $Q''$ follows. Conversely, if the hypothesis holds then
+
+$$\frac{Q'_{ij} Q'_{jk}}{(Q''^2)_{ik}} = \frac{c^2 Q'_{ij} (h_j/h_i) Q'_{
+
+whenever $l \leq m$. Therefore
+
+$$\Pr[x_m = i_m \mid x_l = i_l \wedge x_{l+1} = i_{l+1} \wedge \dots \wedge x_{m-1} = i_{m-1}]$$
+
+$$= \lim_{n \to \infty} \Pr[x_m = i_m \mid x_{-n} = k_{-n} \wedge x_l = i_l \wedge x_{l+1} = i_{l+1} \wedge \dots \wedge x_{m-1} = i_{m-1} \wedge x_n = k_n]$$
+
+By the Markov field property, for all $n$ sufficiently large the right hand side becomes
+
+$$\lim_{n \to \infty} \Pr[x_m = i_m \mid x_{-n} = k_{-n} \wedge x_{m-1} = i_{m-1} \wedge x_n = k_n]$$
+
+$$= \lim_{n \to \infty} \frac{\Pr[x_{m-1} = i_{m-1} \wedge x_m = i_m \mid x_{-n} = k_{-n} \wedge x_n = k_n]}{\Pr[x_{m-1} = i_{m-1} \mid x_{-n} = k_{-n} \wedge x_n = k_n]}$$
+
+$$= \Pr[x_m = i_m \mid x_{m-1} = i_{m-1}] = P_{m-1,i_{m-1}i_m}.$$
+
+Next we present a useful representation theorem for the extreme homogeneous Gibbs states with matrix $Q$.

@@ -1,0 +1,23 @@
+id: finiteness-of-all-b-moments
+title_en: "Finiteness of All b-Moments from a Single State"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [recurrent-chains, moments, ergodic-degree, induction]
+depends_on:
+  required: [equivalence-of-finite-b-and-m-moments, factorization-of-moments-under-strong-markov-property]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "4"
+    pages: ""
+    role_in_book: "Proposition 9-68 proves that finiteness of b_0^{(r)} for one state implies finiteness for all states"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

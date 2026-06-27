@@ -1,0 +1,23 @@
+id: quasi-regular-group
+title_en: "Group of Quasi-Regular Elements under Circle Composition"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [quasi-regular, circle-composition, group, jacobson-radical]
+depends_on:
+  required: [quasi-regular-element, circle-composition]
+  recommended: [group-definition]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "The set Q of quasi-regular elements forms a group under circle composition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

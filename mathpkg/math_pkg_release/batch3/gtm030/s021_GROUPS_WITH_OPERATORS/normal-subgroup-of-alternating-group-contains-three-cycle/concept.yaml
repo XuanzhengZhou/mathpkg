@@ -1,0 +1,23 @@
+id: normal-subgroup-of-alternating-group-contains-three-cycle
+title_en: "A Nontrivial Normal Subgroup of the Alternating Group Contains a Three-Cycle"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: group-theory
+difficulty: advanced
+tags: [alternating-group, three-cycle, normal-subgroup, simple-group, permutation-group]
+depends_on:
+  required: [alternating-group, normal-subgroup, permutation, cycle-decomposition]
+  recommended: [conjugation-of-permutations]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "V: Groups with Operators"
+    section: "5: Application — Simplicity of the alternating group"
+    pages: ""
+    role_in_book: "Key lemma in the proof that A_n is simple for n >= 5"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

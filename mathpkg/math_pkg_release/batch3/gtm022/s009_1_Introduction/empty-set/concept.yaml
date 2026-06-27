@@ -1,0 +1,23 @@
+id: empty-set
+title_en: "Empty Set"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [ZF, Zermelo-Fraenkel, empty-set, null-set, sets]
+depends_on:
+  required: [axiom-schema-of-subsets, axiom-of-extension]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Construction of the empty set from ZF1 and ZF2; the unique set with no members"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

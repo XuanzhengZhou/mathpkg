@@ -1,0 +1,23 @@
+id: s-map
+title_en: "S-Map"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: stable-homotopy
+difficulty: intermediate
+tags: [s-map, direct-limit, suspension, stable-homotopy, spanier-whitehead]
+depends_on:
+  required: [suspension-functor, direct-limit-of-abelian-groups, homotopy-classes]
+  recommended: [cw-complex, coh-space]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "2"
+    pages: "234-236"
+    role_in_book: "Defines S-maps as the direct limit of homotopy classes under iterated suspension, foundational for stable homotopy theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

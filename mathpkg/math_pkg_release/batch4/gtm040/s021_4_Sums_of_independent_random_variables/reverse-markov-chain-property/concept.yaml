@@ -1,0 +1,23 @@
+id: reverse-markov-chain-property
+title_en: "Reverse Markov Chain Property"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [reverse-process, time-reversal, markov-property]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "8"
+    pages: ""
+    role_in_book: "Proposition 6-44: A denumerable Markov process reversed in time over a finite horizon is still a Markov process"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: corollary-hall-plane-from-derivation
+title_en: "Derived Desarguesian Plane is a Hall Plane"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [Hall-plane, derived-plane, desarguesian-plane, Baer-subplane]
+depends_on:
+  required: [Hall-plane, derived-plane, desarguesian-plane, theorem-10-12-multiple-derivation-andre-plane]
+  recommended: [Baer-subplane, collineation-group]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "10"
+    section: "3"
+    pages: ""
+    role_in_book: "Identifies the derived desarguesian plane as a Hall plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: hasse-invariant-legendre-form
+title_en: "Hasse invariant criterion for elliptic curves in Legendre form"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [elliptic-curves, hasse-invariant, legendre-form, positive-characteristic, deuring-polynomial]
+depends_on:
+  required: [hasse-invariant-coefficient-criterion]
+  recommended: [hasse-invariant, elliptic-curve, legendre-family]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "IV"
+    section: "4"
+    pages: ""
+    role_in_book: "Corollary 4.22 — Hasse invariant expressed via the Deuring polynomial h_p(λ)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

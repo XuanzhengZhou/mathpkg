@@ -1,0 +1,23 @@
+id: simplex-icr-lemma
+title_en: "Intrinsic Core of an n-Simplex"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: convex-geometry
+difficulty: basic
+tags: ["simplex", "intrinsic-core", "barycentric-coordinates"]
+depends_on:
+  required: ["n-simplex-def", "intrinsic-core-def"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§2"
+  section: "2.C"
+  pages: "8"
+  role_in_book: "shows simplices have non-empty intrinsic core"
+content_hash: "6e7ba8fd2121114f"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

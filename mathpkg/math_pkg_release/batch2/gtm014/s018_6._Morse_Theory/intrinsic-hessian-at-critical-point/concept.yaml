@@ -1,0 +1,23 @@
+id: intrinsic-hessian-at-critical-point
+title_en: "Intrinsic Hessian at a Critical Point"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: morse-theory
+difficulty: intermediate
+tags: ["hessian", "critical-point", "intrinsic-derivative", "symmetric-bilinear-form", "nondegenerate"]
+depends_on:
+  required: []
+  recommended: ["nondegenerate-critical-point-hessian", "intrinsic-derivative"]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "I"
+    section: "§6. Morse Theory"
+    pages: ""
+    role_in_book: "Gives an invariant definition of the Hessian at a critical point using intrinsic derivative"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

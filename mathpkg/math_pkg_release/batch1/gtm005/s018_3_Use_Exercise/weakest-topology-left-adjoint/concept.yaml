@@ -1,0 +1,23 @@
+id: weakest-topology-left-adjoint
+title_en: "Weakest Topology Constructed as a Left Adjoint"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: category-theory
+difficulty: intermediate
+tags: [weakest-topology, left-adjoint, forgetful-functor, family-of-functions]
+depends_on:
+  required: [adjoint-functor, forgetful-functor-top-to-set]
+  recommended: [initial-topology]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IV. Adjoints"
+    section: "9. Adjoints in Topology"
+    pages: ""
+    role_in_book: "Exercise 9.3(b): weak topology as left adjoint"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

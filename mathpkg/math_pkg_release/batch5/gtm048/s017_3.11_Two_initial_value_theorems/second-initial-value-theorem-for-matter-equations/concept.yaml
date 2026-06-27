@@ -1,0 +1,22 @@
+id: second-initial-value-theorem-for-matter-equations
+title_en: "Second Initial Value Theorem for Matter Equations"
+title_zh: "物质方程的第二初值定理"
+type: theorem
+domain: applied-math
+subdomain: general-relativity
+difficulty: advanced
+tags: [matter-equations, initial-value-problem, particle-flow, simple-matter-equations, spacelike-submanifold]
+depends_on:
+  required: []
+  recommended: [spacetime, particle-type, particle-flow, simple-matter-equations, electromagnetic-field, first-initial-value-theorem-for-maxwell-equations]
+  suggested: [proposition-3-2-3, theorem-3-8-3]
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs and Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.11"
+    pages: ""
+    role_in_book: "Initial value theorem guaranteeing existence and uniqueness of a particle flow extending given initial data on a spacelike hypersurface, neglecting back-reaction on spacetime"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

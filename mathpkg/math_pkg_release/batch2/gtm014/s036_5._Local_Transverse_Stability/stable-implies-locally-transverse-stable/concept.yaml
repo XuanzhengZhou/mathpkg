@@ -1,0 +1,23 @@
+id: stable-implies-locally-transverse-stable
+title_en: "Lemma 5.7: Stable Maps are Locally Transverse Stable"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [stability, transverse-stability, thom-transversality, jet-bundle]
+depends_on:
+  required: [locally-transverse-stable, stable-mapping-definition]
+  recommended: [thom-transversality-theorem, orbit-immersed-submanifold]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "5"
+    pages: "134-135"
+    role_in_book: "Shows that stability (global) implies local transverse stability, establishing one direction of the equivalence between geometric and algebraic stability."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

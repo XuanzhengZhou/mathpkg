@@ -1,0 +1,23 @@
+id: each-eigenspace-intersects-exactly-one-f-j
+title_en: "Each Generalized Eigenspace Intersects Exactly One F_j"
+title_zh: "每个广义特征空间恰好与一个F_j有非平凡交"
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [characterization-of-direct-sums-of-generalized-eigenspaces, generalized-eigenspace]
+  recommended: [stable-subspace, direct-sum]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "5"
+    pages: ""
+    role_in_book: "Under condition (iii), each generalized eigenspace E_i has non-trivial intersection with exactly one F_j"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

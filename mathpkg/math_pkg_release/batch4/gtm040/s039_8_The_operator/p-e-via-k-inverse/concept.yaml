@@ -1,0 +1,23 @@
+id: p-e-via-k-inverse
+title_en: "Expression of P^E via K_E^{-1}"
+title_zh: "通过K_E^{-1}表示P^E"
+type: corollary
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [k-matrix, p-e-matrix, inverse-matrix, capacity]
+depends_on:
+  required: [k-matrix-invertibility, p-e-matrix, capacity-of-set]
+  recommended: [alpha-coefficient]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Practical formula for computing P^E from K_E"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

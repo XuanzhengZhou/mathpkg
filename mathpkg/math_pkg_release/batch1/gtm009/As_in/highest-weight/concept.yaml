@@ -1,0 +1,23 @@
+id: highest-weight
+title_en: "Highest Weight of a Module"
+title_zh: "模的最高权"
+type: definition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [highest-weight, standard-cyclic-module, maximal-vector, dominant-weight]
+depends_on:
+  required: [standard-cyclic-module, weight-of-representation, partial-ordering-of-weights]
+  recommended: [dominant-integral-weight]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "20"
+    section: "20.2"
+    pages: ""
+    role_in_book: "The highest weight is the classifying invariant for finite-dimensional irreducible representations of semisimple Lie algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

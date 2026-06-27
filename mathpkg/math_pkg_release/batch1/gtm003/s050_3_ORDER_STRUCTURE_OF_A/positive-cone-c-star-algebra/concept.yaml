@@ -1,0 +1,23 @@
+id: positive-cone-c-star-algebra
+title_en: "The positive cone of a C*-algebra is a proper, closed, convex, normal cone"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [c-star-algebra, positive-cone, normal-cone, order-structure]
+depends_on:
+  required: [c-star-algebra, positive-element-cstar]
+  recommended: [normal-cone, convex-cone]
+  suggested: [order-unit]
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Proposition 3.1: The set A_+ of positive elements forms a proper closed convex normal cone"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: special-linear-group-slv
+title_en: "Special Linear Group"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [special-linear-group, determinant, general-linear-group, sl, linear-transformation]
+depends_on:
+  required: [linear-transformation-over-skewfield, general-linear-group]
+  recommended: [determinant]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I"
+    section: "4. Vector Spaces"
+    pages: ""
+    role_in_book: "Result 1.22 -- Definition of the special linear group SL(V)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: pi-star-proper-immersion
+title_en: "Proposition 1.4 — $\pi^*$ is a 1:1 Proper Immersion"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-topology
+difficulty: intermediate
+tags: [proper-immersion, linear-maps, corank, manifold-structure, grassmannian]
+depends_on:
+  required: []
+  recommended: [l-r-linear-maps-corank, proper-map, immersion]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Key technical proposition used to prove that $L^r(V, W)$ is a submanifold of $\operatorname{Hom}(V, W)$"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

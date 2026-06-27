@@ -1,0 +1,23 @@
+id: product-of-completely-regular-spaces
+title_en: "Arbitrary Product of Completely Regular Spaces is Completely Regular"
+title_zh: "完全正则空间的任意积是完全正则的"
+type: theorem
+domain: topology
+subdomain: separation-axioms
+difficulty: intermediate
+tags: [completely-regular-space, product-space, tychonoff, hereditary-property]
+depends_on:
+  required: [completely-regular-space, product-topology-as-weak-topology, hausdorff-space]
+  recommended: [base-product-completely-regular-spaces]
+  suggested: [tychonoff-theorem]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.10"
+    pages: ""
+    role_in_book: "Theorem 3.10(a); establishes that the class of completely regular spaces is productive"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

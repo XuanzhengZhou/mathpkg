@@ -1,0 +1,23 @@
+id: derived-locally-convex-topology
+title_en: "Derived Locally Convex Topology"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: locally-convex-spaces
+difficulty: intermediate
+tags: [locally-convex-topology, vector-topology, continuous-linear-functional, convex-circled-neighborhood]
+depends_on:
+  required: [linear-topological-space, locally-convex-space]
+  recommended: [convex-body]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, W. F. Donoghue Jr., Kenneth R. Lucas"
+    title: "Linear Topological Spaces"
+    chapter: "4"
+    section: "14"
+    pages: ""
+    role_in_book: "Establishes the relationship between an arbitrary vector topology and the associated locally convex topology bearing the same continuous linear functionals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

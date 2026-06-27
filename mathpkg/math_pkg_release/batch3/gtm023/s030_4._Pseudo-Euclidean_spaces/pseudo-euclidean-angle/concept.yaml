@@ -1,0 +1,23 @@
+id: pseudo-euclidean-angle
+title_en: "Pseudo-Euclidean Angle"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: pseudo-euclidean-geometry
+difficulty: intermediate
+tags: [pseudo-euclidean-angle, hyperbolic-angle, space-like-vectors]
+depends_on:
+  required: [pseudo-euclidean-space, normed-determinant-function]
+  recommended: [pseudo-euclidean-plane]
+  suggested: [hyperbolic-functions]
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines the pseudo-Euclidean angle between space-like vectors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

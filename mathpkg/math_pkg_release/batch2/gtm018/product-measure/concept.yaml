@@ -1,0 +1,23 @@
+id: product-measure
+title_en: "Product Measure"
+title_zh: "乘积测度"
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-theory, product-measure, fubini]
+depends_on:
+  required: [measure, sigma-ring]
+  recommended: [measure-space]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "VII"
+    section: "35"
+    pages: ""
+    role_in_book: "The measure on the product space whose value on measurable rectangles is the product of the marginal measures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

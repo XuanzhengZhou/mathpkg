@@ -1,0 +1,23 @@
+id: k-covalent-isocovalent
+title_en: "k-Covalent and Isocovalent Planar Multigraphs"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [planar-graph, covalence, isocovalent, k-covalent, regular-graph]
+depends_on:
+  required: [average-covalence, planar-imbedding]
+  recommended: [isthmus]
+  suggested: [isovalent]
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "III"
+    section: "12"
+    pages: "100"
+    role_in_book: "Defines regularity notions for region covalences in planar multigraphs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: maximal-p-abelian-unramified-extension
+title_en: "Maximal p-Abelian Unramified Extension"
+title_zh: "极大p-阿贝尔非分歧扩张"
+type: definition
+domain: number-theory
+subdomain: class-field-theory
+difficulty: intermediate
+tags: [class-field-theory, p-extension, unramified, abelian-extension, idele-class-group]
+depends_on:
+  required: []
+  recommended: [class-field-theory, hilbert-class-field, idele-group]
+  suggested: [profinite-group, galois-cohomology]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "Iwasawa Theory and Ideal Class Groups"
+    pages: ""
+    role_in_book: "Defines the maximal p-abelian unramified extension M(K) and relates its Galois group to the idele class group via class field theory."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

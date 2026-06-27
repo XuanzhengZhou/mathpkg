@@ -1,0 +1,23 @@
+id: second-category-set
+title_en: "Second Category Set"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: baire-category
+difficulty: basic
+tags: [second-category, inexhaustible, non-meager, baire-category]
+depends_on:
+  required: [first-category-set]
+  recommended: [nowhere-dense-set, topological-space]
+  suggested: [baire-category-theorem]
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "3"
+    section: "9"
+    pages: ""
+    role_in_book: "Foundational definition for Baire category theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

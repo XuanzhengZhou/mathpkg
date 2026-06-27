@@ -1,0 +1,30 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+The totality of theorems about the operators $P^t$, the measures $\mu$ on $R^3$ with $\mu(R^3) = 1$, and quantities definable in terms of them and properties of $R^3$ is called Brownian motion theory.
+
+We immediately extend $P^t$ by linearity to be defined on all finite measures on $R^3$ and all differences of two finite measures.
+
+2. Potential theory
+
+Classical potential theory begins as a study of Coulomb's law of attraction of electrical charges in physics. This law states that every two charges in the universe attract (or repel) each other with a force whose direction is the line connecting them and whose magnitude is proportional to the magnitude of each of them and inversely proportional to the square of the distance between them. That is,
+
+$$F = \epsilon_0 \frac{Qq}{r^2},$$
+
+where $\epsilon_0$ is a constant depending on the units. As an aid in the study, one introduces the notion of potential: The potential at a point $x$ due to a charge $q$ is the work (or energy) required to bring a unit charge from infinity to the point $x$. It can be shown that this potential is independent of the path along which the charge is brought to the point $x$ and that its value is
+
+$$\frac{1}{2\pi} \
+
+are additive, the potential due to a charge distribution consisting of charges $q_1, \ldots, q_n$ at points $x_1, \ldots, x_n$ is
+
+$$\frac{1}{2\pi} \sum_{i=1}^{n} \frac{q_i}{|x - x_i|}.$$
+
+Passing to the limit in an appropriate sense, we would expect the potential due to an arbitrary charge distribution $\mu$ to be
+
+$$\frac{1}{2\pi} \int_{R^3} \frac{d\mu(y)}{|x - y|}.$$
+
+After checking that such an expression is always well defined, we shall define a potential to be any function of this form.

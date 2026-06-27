@@ -1,0 +1,23 @@
+id: rank-2-locally-free-is-extension
+title_en: "Rank-2 Locally Free Sheaf on a Curve is an Extension of Invertible Sheaves"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: algebraic-curves
+difficulty: advanced
+tags: [locally-free-sheaf, extension, invertible-sheaf, algebraic-curve, ruled-surface]
+depends_on:
+  required: [ruled-surface-is-projective-bundle]
+  recommended: [locally-free-sheaf, invertible-sheaf, extension-of-sheaves]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "2"
+    pages: "371"
+    role_in_book: "Every rank-2 locally free sheaf on a curve fits into a short exact sequence with invertible outer terms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: characteristic-polynomial
+title_en: "Characteristic Polynomial"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [characteristic-polynomial, determinant, linear-transformation]
+depends_on:
+  required: [determinant, linear-transformation]
+  recommended: [characteristic-equation-eigenvalue]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§6. The characteristic polynomial"
+    pages: "4.19"
+    role_in_book: "Defines the characteristic polynomial via expansion of det(φ-λι) and its coefficient form"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

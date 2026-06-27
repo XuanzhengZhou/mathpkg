@@ -1,0 +1,23 @@
+id: crossed-module-from-internal-category-in-grp
+title_en: "Crossed Module from Internal Category in Grp"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [crossed-module, internal-category, category-object, group, short-exact-sequence]
+depends_on:
+  required: [crossed-module, internal-category-in-grp]
+  recommended: [composition-formula-internal-category-grp]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XII"
+    section: "8"
+    pages: ""
+    role_in_book: "Construction showing that every internal category in Grp yields a crossed module via H = ker d_0, P = C_0, and α = d_1 restricted to ker d_0"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

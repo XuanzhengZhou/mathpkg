@@ -1,0 +1,1 @@
+The adjoint of a bounded operator is the Hilbert space analogue of the conjugate transpose of a matrix. The mapping $T \mapsto T^*$ makes $\mathfrak{B}(H)$ into a *-algebra, the foundation of operator theory and quantum mechanics.

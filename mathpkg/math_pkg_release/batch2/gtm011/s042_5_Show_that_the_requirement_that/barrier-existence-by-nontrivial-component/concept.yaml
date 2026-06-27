@@ -1,0 +1,23 @@
+id: barrier-existence-by-nontrivial-component
+title_en: "Existence of Barrier for Nontrivial Complement Component"
+title_zh: "非平凡补集分量蕴含障碍函数存在性"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [barrier, dirichlet-problem, complement-component, harmonic-function, superharmonic-function]
+depends_on:
+  required: [barrier-for-dirichlet-problem, complement-component-is-simply-connected]
+  recommended: [conformal-mapping, harmonic-measure]
+  suggested: [harnacks-theorem]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "X"
+    section: "4"
+    pages: ""
+    role_in_book: "Gives a geometric sufficient condition (nontrivial complement component) for the existence of a barrier at a boundary point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

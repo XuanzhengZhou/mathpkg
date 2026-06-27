@@ -1,0 +1,23 @@
+id: fourier-transform-convolution
+title_en: "Fourier Transform of Convolution on Finite Fields"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: finite-fields
+difficulty: intermediate
+tags: ["fourier-transform", "convolution", "finite-fields", "character-sums"]
+depends_on:
+  required: ["fourier-transform-finite-field", "convolution-finite-field"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "1"
+    pages: "2"
+    role_in_book: "Theorem 1.2 — Fourier transform converts convolution to pointwise product"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

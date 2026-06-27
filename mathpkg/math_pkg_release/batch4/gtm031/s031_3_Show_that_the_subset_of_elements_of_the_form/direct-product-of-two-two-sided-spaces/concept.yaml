@@ -1,0 +1,23 @@
+id: direct-product-of-two-two-sided-spaces
+title_en: "Direct Product of Two Two-Sided Vector Spaces"
+title_zh: "两个双边向量空间的直积"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [direct-product, two-sided-vector-space, scalar-multiplication, commutation]
+depends_on:
+  required: [two-sided-vector-space, left-direct-product-of-two-sided-and-left-space, right-direct-product-of-right-and-two-sided-space]
+  recommended: [direct-product-of-vector-spaces]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "II"
+    section: "3"
+    pages: "215-218"
+    role_in_book: "Shows that the direct product of two two-sided vector spaces is again a two-sided vector space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

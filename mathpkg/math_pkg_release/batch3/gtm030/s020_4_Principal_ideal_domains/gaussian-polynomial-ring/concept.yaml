@@ -1,0 +1,23 @@
+id: gaussian-polynomial-ring
+title_en: "Polynomial Ring over a Gaussian Domain is Gaussian"
+title_zh: "高斯整环上的多项式环仍是高斯整环"
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: advanced
+tags: [gaussian-domain, polynomial-ring, unique-factorization, gauss-lemma, primitive-polynomial]
+depends_on:
+  required: [gaussian-domain, polynomial-ring, gauss-lemma, primitive-polynomial, irreducible-element, unique-factorization-domain]
+  recommended: [principal-ideal-domain]
+  suggested: [field-of-fractions]
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "III"
+    section: "6"
+    pages: ""
+    role_in_book: "Theorem 4; the main theorem of Section 6 on polynomial extensions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: plh-approximation-between-2-manifolds
+title_en: "PLH Approximation of Homeomorphisms Between Combinatorial 2-Manifolds"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [piecewise-linear-homeomorphism, combinatorial-2-manifold, phi-approximation, generalization]
+depends_on:
+  required: [plh-approximation-2-manifold-boundary-r2]
+  recommended: [combinatorial-2-manifold-with-boundary, piecewise-linear-homeomorphism, strongly-positive-function, phi-approximation]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "5"
+    section: "10"
+    pages: "page_0058–page_0061"
+    role_in_book: "Generalizes Theorem 3 from the case where the target is the Euclidean plane to the case where the target is an arbitrary combinatorial 2-manifold."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

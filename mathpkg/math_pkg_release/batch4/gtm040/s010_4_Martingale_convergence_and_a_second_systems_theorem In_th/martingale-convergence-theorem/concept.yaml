@@ -1,0 +1,23 @@
+id: martingale-convergence-theorem
+title_en: "Martingale Convergence Theorem (Doob's Submartingale Convergence Theorem)"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: martingale-theory
+difficulty: advanced
+tags: [martingale-convergence, submartingale, doob, almost-sure-convergence]
+depends_on:
+  required: [submartingale, upcrossing-lemma, monotone-convergence-theorem]
+  recommended: [upcrossing-of-interval]
+  suggested: [conditional-expectation]
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "3"
+    section: "4"
+    pages: ""
+    role_in_book: "Theorem 3-12: Central convergence result for submartingales"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

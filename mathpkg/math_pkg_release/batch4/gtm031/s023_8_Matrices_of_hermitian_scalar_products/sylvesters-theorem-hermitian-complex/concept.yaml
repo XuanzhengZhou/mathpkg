@@ -1,0 +1,23 @@
+id: sylvesters-theorem-hermitian-complex
+title_en: "Sylvester's Theorem for Complex Hermitian Matrices"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: bilinear-forms
+difficulty: intermediate
+tags: [sylvesters-law, hermitian-matrix, complex-field, signature, inertia, cogredience]
+depends_on:
+  required: [sylvesters-law-of-inertia]
+  recommended: [hermitian-scalar-product, complex-conjugate, matrix-cogredience]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "5"
+    section: "8"
+    pages: "163-169"
+    role_in_book: "extension of Sylvester's law of inertia to hermitian scalar products over the complex numbers with the usual conjugation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

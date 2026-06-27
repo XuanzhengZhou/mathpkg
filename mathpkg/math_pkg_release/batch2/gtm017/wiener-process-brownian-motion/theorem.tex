@@ -1,0 +1,9 @@
+The \text{Wiener process} (or \text{Brownian motion}) $\{X_t, t \geq 0\}$ is a continuous-parameter normal process with independent increments satisfying:
+\begin{enumerate}
+\item $X_0 = 0$ almost surely.
+\item For $0 \leq \tau_1 \leq t_1 \leq \cdots \leq \tau_k \leq t_k$, the increments $X_{t_i} - X_{\tau_i}$ are independent.
+\item $X_t - X_\tau \sim N(0, t - \tau)$ for $t > \tau$.
+\end{enumerate}
+
+The joint density of $X_{t_1}, \ldots, X_{t_k}$ ($0 < t_1 < \cdots < t_k$) is
+$$\frac{1}{\sqrt{2\pi t_1}} e^{-x_1^2/2t_1} \prod_{j=1}^{k-1} \frac{1}{\sqrt{2\pi(t_{j+1} - t_j)}} e^{-(x_{j+1} - x_j)^2/2(t_{j+1} - t_j)}.$$

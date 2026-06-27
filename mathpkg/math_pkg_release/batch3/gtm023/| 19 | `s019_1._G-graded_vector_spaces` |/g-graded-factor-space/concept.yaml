@@ -1,0 +1,23 @@
+id: g-graded-factor-space
+title_en: "G-graded factor space"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [graded-vector-space, factor-space, quotient, canonical-projection]
+depends_on:
+  required: [gradation-induced-by-homogeneous-surjection, g-graded-subspace]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VI"
+    section: "§1. G-graded vector spaces"
+    pages: "184"
+    role_in_book: "Corollary; defines graded quotient spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

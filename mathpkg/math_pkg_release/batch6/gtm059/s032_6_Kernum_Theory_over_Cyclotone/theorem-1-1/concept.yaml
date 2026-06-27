@@ -1,0 +1,23 @@
+id: theorem-1-1
+title_en: "Theorem 1.1: Values of the Kummer-Takagi pairing φ0"
+title_zh: "定理1.1: Kummer-Takagi配对φ0的值"
+type: theorem
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [kummer-takagi-exponents, kummer-homomorphism, cyclotomic-units, characters]
+depends_on:
+  required: [kummer-homomorphism, property-k4, lemma-orthogonal-units]
+  recommended: [group-characters, p-adic-logarithm]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "6"
+    section: "6"
+    pages: ""
+    role_in_book: "Computes the Kummer-Takagi pairing values φ0(n) = -k mod p when k=j and 0 otherwise"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

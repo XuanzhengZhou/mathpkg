@@ -1,0 +1,23 @@
+id: exercise-ultraproduct-integers-not-ufd
+title_en: "Ultraproduct of Integers Is Integral Domain but Not UFD"
+title_zh: "整数环的超积是整环但非唯一分解整环"
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: advanced
+tags: [ultraproduct, ultrafilter, integral-domain, UFD, unique-factorization-domain, ring-of-integers, nonprincipal-ultrafilter]
+depends_on:
+  required: [ultraproduct, integral-domain, UFD, nonprincipal-ultrafilter]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "18"
+    section: "Exercises"
+    pages: ""
+    role_in_book: "Exercise showing ultraproduct of ring of integers is an integral domain but fails to be a UFD"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

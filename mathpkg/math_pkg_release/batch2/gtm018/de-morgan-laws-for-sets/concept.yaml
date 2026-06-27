@@ -1,0 +1,23 @@
+id: de-morgan-laws-for-sets
+title_en: "De Morgan's Laws for Sets"
+title_zh: "集合的德摩根律"
+type: proposition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [set-theory, de-morgan, complement, duality]
+depends_on:
+  required: [complement-of-set, union-of-class, intersection-of-class]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "I"
+    section: "3"
+    pages: ""
+    role_in_book: "The fundamental duality between union/intersection under complementation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

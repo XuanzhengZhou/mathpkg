@@ -1,0 +1,9 @@
+\begin{align*}
+D(t_1 \in t_2) &\triangleq D(t_1) \in D(t_2).\\
+D(t_1 = t_2) &\triangleq D(t_1) = D(t_2).\\
+D(\neg \varphi) &\triangleq \neg D(\varphi).\\
+D(\varphi \lor \psi) &\triangleq D(\varphi) \lor D(\psi).\\
+D(\exists^\alpha x_i \varphi) &\triangleq (\exists t \in T_\alpha) D(\varphi(t)).\\
+D(\hat{x}_i^\alpha \varphi) &\triangleq \{D(t) \mid t \in T_\alpha \land D(\varphi(t))\}.
+\end{align*}$$
+$$L_\alpha \triangleq \{D(t) \mid t \in T_\alpha\}, \quad L \triangleq \bigcup_{\alpha \in \mathrm{On}} L_\alpha.$$

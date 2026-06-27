@@ -1,0 +1,30 @@
+id: r-normal-form
+title_en: "r-Normal Form of a Relation Matrix over the Iwasawa Algebra"
+title_zh: "岩泽代数上关系矩阵的 r-正规形式"
+type: definition
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags:
+  - iwasawa-algebra
+  - relation-matrix
+  - normal-form
+  - distinguished-polynomial
+depends_on:
+  required: []
+  recommended:
+    - admissible-matrix-operations
+    - deg-zero-invariant
+  suggested:
+    - iwasawa-structure-theorem
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5. Iwasawa Theory and Ideal Class Groups"
+    section: "3. Modules over Z_p[[T]]"
+    pages: ""
+    role_in_book: "Canonical diagonal form achieved by admissible operations in the proof of the structure theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: adjointness-of-d-and-e
+title_en: "Adjointness of d and e with Respect to Bilinear Forms"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [modular-representation-theory, cde-triangle, adjoint-homomorphisms, bilinear-form]
+depends_on:
+  required: [homomorphism-e-pk-to-rk, decomposition-homomorphism-d, bilinear-form-on-grothendieck-groups]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "15"
+    section: "15.4"
+    pages: ""
+    role_in_book: "Shows that d and e are adjoints with respect to the bilinear forms defined in 14.5"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

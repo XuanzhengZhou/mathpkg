@@ -1,0 +1,23 @@
+id: compact-exhaustion-of-open-sets-in-complex-plane
+title_en: "Compact Exhaustion of Open Sets in the Complex Plane"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: general-topology
+difficulty: intermediate
+tags: ["compact-exhaustion", "open-set", "complex-plane", "compact-set", "riemann-sphere"]
+depends_on:
+  required: []
+  recommended: ["compact-set", "open-set", "connected-component", "riemann-sphere"]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VII"
+    section: "1.2"
+    pages: ""
+    role_in_book: "Constructs a canonical compact exhaustion of any open set in the complex plane; the resulting sequence {K_n} is used to define the metric on C(G, Ω) and is essential for all subsequent convergence results in Chapter VII."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

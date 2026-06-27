@@ -1,0 +1,30 @@
+id: riesz-theory-range-sequence-stabilizes
+title_en: "Riesz Theory Range Sequence Stabilization"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags:
+  - riesz-theory
+  - completely-continuous
+  - range-sequence
+  - descending-chain
+  - compact-operator
+depends_on:
+  required: []
+  recommended:
+    - completely-continuous-linear-mapping
+    - riesz-theory-nullspace-sequence-stabilizes
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "21"
+    section: "21.7"
+    pages: ""
+    role_in_book: "Part (c) of the Riesz theory outline: the descending sequence of ranges of powers of S = \lambda I - T stabilizes at a finite index"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

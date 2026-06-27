@@ -1,0 +1,23 @@
+id: euler-conjugate-cube
+title_en: "Conjugate of a cube is the cube of the conjugate in Z[√-3]"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: basic
+tags: [conjugate, cube, surd, z-sqrt-minus-3, euler]
+depends_on:
+  required: [surd-ring-z-sqrt-minus-3, surd-multiplication-formula]
+  recommended: [euler-sufficient-condition-cube]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem"
+    chapter: "2"
+    section: "2.3"
+    pages: ""
+    role_in_book: "Enables the factorization p^2+3q^2 = (a+b√-3)^3 (a-b√-3)^3 = (a^2+3b^2)^3"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

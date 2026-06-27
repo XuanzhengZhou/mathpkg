@@ -1,0 +1,23 @@
+id: direct-sum-for-relatively-prime-polynomials
+title_en: "Direct sum decomposition for relatively prime polynomials"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [linear-transformation, direct-sum, relatively-prime, kernel]
+depends_on:
+  required: [kernel-sum-equals-kernel-of-lcm, kernel-intersection-equals-kernel-of-gcd]
+  recommended: [kernel-of-polynomial-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "§1. Polynomials in a linear transformation"
+    pages: ""
+    role_in_book: "Corollary I to Proposition II: direct sum decomposition for coprime polynomials"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

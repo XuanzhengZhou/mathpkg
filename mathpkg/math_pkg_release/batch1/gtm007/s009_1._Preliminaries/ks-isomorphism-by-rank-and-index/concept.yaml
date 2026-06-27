@@ -1,0 +1,20 @@
+id: ks-isomorphism-by-rank-and-index
+title_en: "Corollary 1: K(S) ≅ {(a,b) ∈ Z² : a ≡ b mod 2}"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: quadratic-forms
+difficulty: intermediate
+tags: [quadratic-form, grothendieck-group, isomorphism, rank, index]
+depends_on: {required: [grothendieck-group-ks, rank-of-quadratic-module, index-of-quadratic-module], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "V"
+    section: "1"
+    pages: ""
+    role_in_book: "Determines the Grothendieck group K(S) explicitly"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

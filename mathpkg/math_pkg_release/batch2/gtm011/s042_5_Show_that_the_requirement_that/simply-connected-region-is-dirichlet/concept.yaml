@@ -1,0 +1,23 @@
+id: simply-connected-region-is-dirichlet
+title_en: "Simply Connected Region Is a Dirichlet Region"
+title_zh: "单连通区域是狄利克雷区域"
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [simply-connected, dirichlet-region, complement, riemann-sphere]
+depends_on:
+  required: [dirichlet-region-no-point-components, simply-connected-region]
+  recommended: [riemann-mapping-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "X"
+    section: "4"
+    pages: ""
+    role_in_book: "Establishes that all simply connected regions (except the whole plane, which is trivial) are Dirichlet Regions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

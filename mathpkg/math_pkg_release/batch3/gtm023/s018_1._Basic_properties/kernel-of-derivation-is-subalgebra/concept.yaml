@@ -1,0 +1,23 @@
+id: kernel-of-derivation-is-subalgebra
+title_en: "Kernel of a Derivation is a Subalgebra"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: derivations
+difficulty: basic
+tags: [derivation, kernel, subalgebra]
+depends_on:
+  required: [derivation-in-algebra]
+  recommended: [subalgebra, kernel]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "5"
+    section: "§1. Basic properties"
+    pages: "167"
+    role_in_book: "shows that the kernel of a derivation is a subalgebra but not generally an ideal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

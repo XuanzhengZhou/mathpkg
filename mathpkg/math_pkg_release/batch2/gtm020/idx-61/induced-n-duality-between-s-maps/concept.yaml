@@ -1,0 +1,23 @@
+id: induced-n-duality-between-s-maps
+title_en: "Induced n-Duality between S-Maps"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: stable-homotopy
+difficulty: advanced
+tags: [n-duality, s-map, group-isomorphism, duality-map, composition]
+depends_on:
+  required: [n-duality, s-map, duality-isomorphism-for-finite-cw-complexes]
+  recommended: [commutative-diagram]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "3"
+    pages: "234-236"
+    role_in_book: "Defines the induced duality isomorphism on S-maps between pairs of dual spaces, establishing functoriality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+The Levi condition generalizes convexity to the complex setting using the complex Hessian. For domains with smooth boundary, it provides a local differential-geometric characterization of pseudoconvexity.

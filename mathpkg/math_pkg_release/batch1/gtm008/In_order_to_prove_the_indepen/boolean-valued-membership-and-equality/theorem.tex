@@ -1,0 +1,4 @@
+For $u, v \in V^{(B)}$, the Boolean truth values of membership and equality are defined by simultaneous recursion:
+$$[\![u \in v]\!] \triangleq \sum_{y \in \mathcal{D}(v)} (v(y) \cdot [\![u = y]\!]).$$
+$$[\![u = v]\!] \triangleq \prod_{x \in \mathcal{D}(u)} (u(x) \Rightarrow [\![x \in v]\!]) \cdot \prod_{y \in \mathcal{D}(v)} (v(y) \Rightarrow [\![y \in u]\!]).$$
+Here $\sum$ and $\prod$ denote the Boolean supremum and infimum, and $a \Rightarrow b = -a + b$ is the Boolean implication.

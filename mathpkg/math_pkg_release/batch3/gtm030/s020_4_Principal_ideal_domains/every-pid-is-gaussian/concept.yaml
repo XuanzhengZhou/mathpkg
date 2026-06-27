@@ -1,0 +1,23 @@
+id: every-pid-is-gaussian
+title_en: "Every Principal Ideal Domain is Gaussian"
+title_zh: "每个主理想整环都是高斯整环"
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [principal-ideal-domain, gaussian-domain, gcd, unique-factorization]
+depends_on:
+  required: [principal-ideal-domain, gaussian-domain, greatest-common-divisor, ideal-generation, divisor-chain-condition]
+  recommended: []
+  suggested: [integral-domain, euclidean-domain]
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "III"
+    section: "4"
+    pages: ""
+    role_in_book: "Theorem 2; the central result of Section 4"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

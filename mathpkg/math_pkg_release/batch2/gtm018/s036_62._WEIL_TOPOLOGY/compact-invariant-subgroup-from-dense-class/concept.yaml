@@ -1,0 +1,23 @@
+id: compact-invariant-subgroup-from-dense-class
+title_en: "Compact Invariant Subgroup from Dense Class"
+title_zh: "由稠密类构造紧不变子群"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [weil-topology, haar-measure, measurable-group, topological-group]
+depends_on:
+  required: [class-a-weil-topology, class-n-weil-neighborhood]
+  recommended: [haar-measure-definition, measurable-group-definition]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "64"
+    section: "Weil Topology"
+    pages: ""
+    role_in_book: "Theorem D: Y = {y: rho(yE,E)=0 for all E in a dense class} is a compact invariant subgroup"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

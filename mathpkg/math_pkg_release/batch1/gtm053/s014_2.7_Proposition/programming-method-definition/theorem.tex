@@ -1,0 +1,5 @@
+A constructive world $P = P(U,V)$ together with an evaluation morphism $\text{ev}_P : P \times U \rightarrow V$ is called a programming method (for the class of all partial recursive morphisms $U \rightarrow V$, or for the class of all primitive recursive morphisms) if:
+
+First, the map $Q \rightarrow \mathcal{C}(U,V) : q \mapsto \overline{q}$ is surjective (resp. its image consists of all primitive recursive morphisms).
+
+Second, for any programming method $(P = P(U,V), \text{ev}_P)$ with the same source $U$ and target $V$ (resp. for any $(P,\text{ev}_P)$ producing only primitive recursive morphisms) there is at least one compilation morphism in $\mathcal{C}$, $\text{comp} : P(U,V) \rightarrow Q(U,V)$, that is, an everywhere defined, computable map $P \rightarrow Q$ such that if $\text{comp}(p) = q$, then $\overline{p} = \overline{q}$.

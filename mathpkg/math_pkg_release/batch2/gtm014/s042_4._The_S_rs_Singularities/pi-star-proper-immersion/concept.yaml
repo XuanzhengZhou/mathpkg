@@ -1,0 +1,23 @@
+id: pi-star-proper-immersion
+title_en: "$M_s$ and the Proper Immersion $\pi^*$ (Proposition 4.6)"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [proper-immersion, grassmannian, symmetric-product, thom-boardman]
+depends_on:
+  required: [hom-symmetric-rank-s]
+  recommended: [hom-symmetric-submanifold]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky and V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VI"
+    section: "4. The $S_{r,s}$ Singularities"
+    pages: "165"
+    role_in_book: "Technical lemma establishing that $\text{Hom}(V \circ V, W)_s$ is a submanifold"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

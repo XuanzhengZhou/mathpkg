@@ -1,0 +1,23 @@
+id: finite-moufang-plane-is-pappian
+title_en: "Finite Moufang Plane is Pappian"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [moufang-plane, pappian-plane, desarguesian-plane, finite-projective-plane, alternative-division-ring]
+depends_on:
+  required: [moufang-plane-characterization, pappian-plane-characterization]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "IV"
+    section: "9"
+    pages: ""
+    role_in_book: "Corollary to the theorem on maximal Moufang subplanes; summarizes that in the finite case, Moufang implies pappian (and hence desarguesian)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: embedding-of-manifolds
+title_en: "Embedding of Manifolds"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-topology
+difficulty: basic
+tags: [embedding, immersion, homeomorphism, differentiable-manifold]
+depends_on:
+  required: [immersion, differentiable-mapping-between-manifolds]
+  recommended: [submanifold]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "I"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition (part e): an immersion that is also a homeomorphism onto its image"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

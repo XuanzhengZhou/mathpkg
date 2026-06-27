@@ -1,0 +1,23 @@
+id: blochs-constant
+title_en: "Bloch's Constant"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: ["blochs-theorem", "blochs-constant", "schlicht-disk", "analytic-function", "open-problem"]
+depends_on:
+  required: []
+  recommended: ["blochs-theorem", "corollary-bloch-disk-radius"]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "1"
+    section: "1.8"
+    pages: ""
+    role_in_book: "definition of Bloch's constant B as the infimum of maximal schlicht disk radii for normalized analytic functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

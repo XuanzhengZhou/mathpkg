@@ -1,0 +1,47 @@
+(Radon–Nikodym Theorem). Let $(X, S, \mu)$ be a $\sigma$-finite measure space, and suppose given a measure $v$ on $(X, S)$ that is absolutely continuous with respect to $\mu$. Then there exists a measurable nonnegative extended real-valued function $f$ on $X$ such that
+
+$$v(E) = \int_E f d\mu, \quad E \in S.$$  
+
+(3)
+
+In other words, $v = v_f$ is the indefinite integral of $f$ with respect to $\mu$. The function $f$, which is unique in the sense that if $f_0$ is any other function satisfying (3), then $f = f_0$ a.e. $[\mu]$, is called the Radon–Nikodym derivative of $v$ with respect to $\mu$, and is frequently denoted by $dv/d\mu$.
+
+Proof. Let $\{E_n\}_{n=1}^{\infty}$ be a disjoint sequence of sets of finite measure with respect to $\mu$ such that $X = \bigcup_n E_n$, and suppose the theorem valid for each of the subspaces $E_n$. If, for each $n$, $f_n$ is a Radon–Nikodym derivative of $v|E_n$ with respect to $\mu|E_n$, and if we define
+
+$$f(x) = f_n(x), \quad x \in E_n,$$
+
+for every $n$ in $\mathbb{N}$, then
+
+$f = f_0$ a.e. $[\mu]$. This proves the uniqueness assertion of the theorem. It remains to establish the existence of a measurable nonnegative extended real-valued function $f$ on $X$ satisfying (3).
+
+For each positive rational number $r$ let $\{A_r, X \setminus A_r\}$ be a Hahn decomposition of $X$ with respect to the signed measure $r\mu - v$ (Theorem 8.5), so that $v(E) \leq r\mu(E)$ for every measurable subset $E$ of $A_r$, while $v(E) \geq r\mu(E)$ for every measurable subset $E$ of $X \setminus A_r$. The countable collection of sets $\{A_r\}$ thus obtained need not be nested, but if $r$ and $s$ are any two rational numbers such that $0 < r < s$, then
+
+$$s\mu(A_r \setminus A_s) \leq v(A_r \setminus A_s) \leq r\mu(A_r \setminus A_s),$$
+
+which implies that $\mu(A_r \setminus A_s) = 0$, and hence that $v(A_r \setminus A_s) = 0$ too, since $v$ is absolutely continuous with respect to $\mu$. Using this fact it is not difficult to verify that if we define
+
+$$B_t = \bigcup_{0 < r < t} A_r$$
+
+for each positive real number $t$, where the union is extended over all those rational numbers $r$ such that $0 < r < t$, then the new family $\{B_t\}$ retains the property that $\{B_t, X \setminus B_t\}$ is a Hahn decomposition of $X$ for the signed measure $t\mu - v$, $0 < t < +\infty$, and also satisfies the condition
+
+$$B_u = \bigcup_{0 < t < u} B_t,$$
+
+for every positive real number $u$.
+
+We now define the function $f$ by setting
+
+$$f(x) = \begin{cases} \inf\{t : x \in B_t\}, & x \in B_\infty, \\ +\infty, & x \in X \
+
+Since $\mu$ is finite and $\varepsilon$ is arbitrary, this implies that $v(E) = v_f(E)$. Next, if $E$ is any measurable subset of $B_\infty$, and if $\{t_n\}$ is an increasing sequence of positive real numbers tending to $+\infty$, then
+
+$$v(E) = \lim_n v(E \cap B_{t_n}) = v_f(E \cap B_{t_n}) = v_f(E)$$
+
+by what has just been shown and the semicontinuity of measures (Prop. 7.4).
+
+Suppose, finally, that $E$ is a measurable subset of $X \setminus B_\infty$. If $\mu(E) = 0$, then $v(E) = v_f(E) = 0$ because $v$ and $v_f$ are both absolutely continuous $[\mu]$. On the other hand, if $\mu(E) > 0$, then $v(E) \geq t\mu(E)$ for every positive real number $t$, and therefore $v(E) = +\infty = v_f(E)$. Thus $v$ and $v_f$ agree on the measurable subsets of both $B_\infty$ and $X \setminus B_\infty$, and the theorem follows. $\square$
+
+We note that if $\mu$ and $v$ are as in the statement of the Radon–Nikodym theorem, and if $g$ is either integrable $[\nu]$ or nonnegative and measurable $[S]$, then
+
+$$\int g \, dv = \int g \frac{dv}{d\mu} \, d\mu$$
+
+by virtue of Proposition 9.5.

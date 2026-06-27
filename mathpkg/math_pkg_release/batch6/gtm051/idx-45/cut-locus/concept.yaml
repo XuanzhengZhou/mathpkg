@@ -1,0 +1,23 @@
+id: cut-locus
+title_en: "Cut Locus"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: advanced
+tags: [cut-locus, geodesic, exponential-map, conjugate-points, length-minimizing]
+depends_on:
+  required: [geodesic, exponential-map, riemannian-metric, distance-function-manifold]
+  recommended: [conjugate-points, jacobi-field, gauss-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.8"
+    pages: "174-175"
+    role_in_book: "Advanced geometric concept introduced in final section on global surface geometry."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

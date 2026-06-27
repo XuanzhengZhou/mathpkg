@@ -1,0 +1,23 @@
+id: dedekind-sum-transformation-evenness
+title_en: "Evenness of the Dedekind sum transformation defect"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [dedekind-sums, transformation-formula, modular-group]
+depends_on:
+  required: [dedekind-sums, dedekind-sum-reciprocity-law, dedekind-sum-theta-congruence, dedekind-sum-mod-8-congruence]
+  recommended: [dedekind-sum-power-of-2-congruence]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "3"
+    section: "3.7"
+    pages: ""
+    role_in_book: "Theorem 3.11: Evenness of the transformation defect for Dedekind sums"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $\{f_n\}$ be a sequence of measurable functions. Then the functions
+(1) $\sup_n f_n(x)$
+(2) $\inf_n f_n(x)$
+(3) $\limsup_n f_n(x)$
+(4) $\liminf_n f_n(x)$
+are all measurable.

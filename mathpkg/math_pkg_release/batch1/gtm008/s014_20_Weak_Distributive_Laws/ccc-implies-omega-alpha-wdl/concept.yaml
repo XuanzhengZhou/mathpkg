@@ -1,0 +1,23 @@
+id: ccc-implies-omega-alpha-wdl
+title_en: "CCC Implies Weak Distributive Law"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-algebras
+difficulty: advanced
+tags: [ccc, weak-distributive-law, complete-boolean-algebra, cofinality]
+depends_on:
+  required: [omega-omega-weak-distributive-law, ccc]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "J.L. Bell"
+    title: "Axiomatic Set Theory"
+    chapter: "20"
+    section: "20. Weak Distributive Laws"
+    pages: ""
+    role_in_book: "Theorem 20.2: shows that the countable chain condition implies the weak distributive law when cofinality exceeds omega"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: space-of-selfadjoint-mappings-S
+title_en: "Space S of Selfadjoint Mappings of the Complex Plane with Indefinite Inner Product"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [selfadjoint, complex-plane, inner-product, indefinite-metric, Lorentz-group]
+depends_on:
+  required: []
+  recommended: [selfadjoint-mapping, trace, determinant, complex-inner-product]
+  suggested: [Pauli-matrices]
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XI"
+    section: "§5. Application to Lorentz-transformations, 11.16"
+    pages: "358–364"
+    role_in_book: "Defines the space S of selfadjoint mappings used to study Lorentz transformations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

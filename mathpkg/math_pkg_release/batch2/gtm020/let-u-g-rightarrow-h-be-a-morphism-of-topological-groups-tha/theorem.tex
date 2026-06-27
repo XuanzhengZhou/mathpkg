@@ -1,0 +1,24 @@
+Then for a topological group morphism $u: G \rightarrow H$ and $H$-modules $M$ and $N$ we have $u^*(M \oplus N) = u^*(M) \oplus u^*(N), u^*(M \otimes N) = u^*(M) \otimes u^*(N)$, and $u^*(\Lambda^i M) = \Lambda^i u^*(M)$. Consequently, $u^*$ defines a $\lambda$-semiring morphism $\mathbf{M}_F(u): \mathbf{M}_F(H) \rightarrow \mathbf{M}_F(G)$ by $\mathbf{M}_F(u)[M] = [u^*(M)]$, and this defines a unique $\lambda$-ring morphism $R_F(u): R_F(H) \rightarrow R_F(G)$ such that the following diagram is commutative.
+
+$$\begin{array}{ccc}
+\mathbf{M}_F(H) & \xrightarrow{\mathbf{M}_F(u)} & \mathbf{
+
+6. Semisimplicity of $G$-Modules over Compact Groups
+
+All topological groups are compact in this section.
+
+5.1 Haar Measure. We outline the properties of the Haar measure that will be used in this section. A rapid proof of the existence and uniqueness can be found in Pontrjagin [1, chap. 4, sec. 25].
+
+Let $V$ be a normed vector space over $F$, and let $G$ be a compact topological group. Let $C_V(G)$ denote the normed space of all continuous $f: G \rightarrow V$, where $\|f\| = \sup \|f(s)\|$ for $s \in G$. Let $C(G)$ denote $C_R(G)$.
+
+The Haar measure is the linear function $\mu: C(G) \rightarrow R$ with the following properties:
+
+(1) If $f \geq 0$, then $\mu(f) \geq 0$, and if, in addition, $f(s) > 0$ for some $s \in G$, then $\mu(f) > 0$.
+
+(2) For the function $1, \mu(1) = 1$.
+
+(3) $\mu(L_a f) = \mu(f)$, where $L_a f(s) = f(as)$ for $a, s \in G$.
+
+It is a theorem that $\mu$ exists and is unique with respect to properties (1) to (3). See Pontrjagin [1].
+
+The Haar measure defines a unique Haar measure $\mu_V: C_V(G) \rightarrow V$ for each normed linear space $V$ from the requirement that $u\mu_V(f) = \mu(uf)$ for each $R$-linear $u: V \rightarrow R$. If $e_1, \ldots, e_n$ is a basis of $V$, and if $f = f_1 e_1 + \cdots + f_n e_n \in C_V(G)$, then $\mu_V(f) = \mu(f_1)e_1 + \cdots + \mu(f_n)e_n$.

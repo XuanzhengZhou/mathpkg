@@ -1,0 +1,23 @@
+id: corollary-disjoint-compact-sets
+title_en: "Corollary: Disjoint Compact Sets Have Disjoint Neighborhoods"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [compact, hausdorff, separation, neighborhood]
+depends_on:
+  required: [lemma-disjoint-neighborhoods-set-compact, compact-space-hausdorff]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "0"
+    section: "0.11"
+    pages: ""
+    role_in_book: "Standard separation property of compact sets in Hausdorff spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

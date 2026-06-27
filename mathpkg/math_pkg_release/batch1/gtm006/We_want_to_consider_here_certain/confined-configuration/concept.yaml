@@ -1,0 +1,23 @@
+id: confined-configuration
+title_en: "Confined Configuration"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: incidence-geometry
+difficulty: basic
+tags: [configuration, confined, incidence, minimum-degree]
+depends_on:
+  required: [configuration, subconfiguration]
+  recommended: []
+  suggested: [open-configuration]
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "XI"
+    section: "2"
+    pages: ""
+    role_in_book: "Finiteness condition used to characterize free closures; elements have at least 3 incidences"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

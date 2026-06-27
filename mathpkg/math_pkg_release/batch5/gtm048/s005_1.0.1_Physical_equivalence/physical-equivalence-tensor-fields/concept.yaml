@@ -1,0 +1,23 @@
+id: physical-equivalence-tensor-fields
+title_en: "Physical Equivalence of Tensor Fields"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: semi-riemannian-geometry
+difficulty: intermediate
+tags: [tensor-field, equivalence-relation, general-relativity, physical-interpretation, index-raising-lowering]
+depends_on:
+  required: [physical-equivalence-tensors-at-point]
+  recommended: [tensor-field, smooth-manifold]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs, Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "1"
+    section: "1.0.1"
+    pages: ""
+    role_in_book: "Defines physical equivalence for tensor fields on an open set; all tensor fields in one equivalence class share the same physical interpretation in general relativity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

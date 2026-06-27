@@ -1,0 +1,12 @@
+Let $C$ and $D$ be categories. A covariant functor $F = (F', F'')$ from $C$ to $D$ consists of:
+\begin{itemize}
+\item an object map $F'$ assigning to each object $A \in C$ an object $F'(A) \in D$;
+\item a morphism map $F''$ assigning to each morphism $f: A \to B$ in $C$ a morphism $F''(f): F'(A) \to F'(B)$ in $D$,
+\end{itemize}
+satisfying:
+\begin{enumerate}
+\item[(F.1)] $F''(f): F'(A) \to F'(B)$ in $D$;
+\item[(F.2)] $F''(g \circ f) = F''(g) \circ F''(f)$;
+\item[(F.3)] $F''(1_A) = 1_{F'(A)}$.
+\end{enumerate}
+Thus a covariant functor preserves domains, codomains, composition, and identities.

@@ -1,0 +1,13 @@
+Let $T: P \times C^{\mathrm{op}} \times C \to X$ be a functor such that for each object $p \in P$, the bifunctor $T(p, -, -): C^{\mathrm{op}} \times C \to X$ has an end
+
+$$\omega_{p}: \int_c T(p, c, c) \to T(p, -, -)$$
+
+in $X$. Then there is a unique functor $U: P \to X$ with object function
+
+$$Up = \int_c T(p, c, c)$$
+
+and with arrow function: for each morphism $f: p \to q$ in $P$,
+
+$$Uf = \int_c T(f, c, c): \int_c T(p, c, c) \to \int_c T(q, c, c),$$
+
+defined as the end of the natural transformation $T(f, -, -): T(p, -, -) \Rightarrow T(q, -, -)$, whose existence and uniqueness are guaranteed by Proposition 1.

@@ -1,0 +1,23 @@
+id: finord-setf-equivalence
+title_en: "Equivalence of Finord and Set_f (Finite Ordinals and Finite Sets)"
+title_zh: "有限序数范畴与有限集合范畴的等价"
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [category-theory, equivalence-of-categories, finite-ordinals, finite-sets, skeleton]
+depends_on:
+  required: [equivalence-of-categories, natural-isomorphism]
+  recommended: [functor, category-of-finite-sets, ordinal]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I. Categories, Functors, and Natural Transformations"
+    section: "4. Natural Transformations"
+    pages: ""
+    role_in_book: "Key example of equivalence of categories: skeleton of finite sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

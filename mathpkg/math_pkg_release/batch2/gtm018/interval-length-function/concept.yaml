@@ -1,0 +1,23 @@
+id: interval-length-function
+title_en: "Length Function on Intervals"
+title_zh: "区间长度函数"
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [measure-theory, interval-length, lebesgue-measure]
+depends_on:
+  required: [semiclosed-intervals-class]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "II"
+    section: "8"
+    pages: ""
+    role_in_book: "The prototype measure on intervals: μ([a,b)) = b - a"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

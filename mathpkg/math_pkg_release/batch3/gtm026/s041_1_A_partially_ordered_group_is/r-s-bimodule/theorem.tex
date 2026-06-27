@@ -1,0 +1,11 @@
+Let $R$ and $S$ be rings. A \textit{left $R$-module} is an abelian group $A$ together with a function
+$$R \times A \rightarrow A, \quad (r, a) \longmapsto ra$$
+satisfying $(rr_1)a = r(r_1a)$, $r(a + b) = ra + rb$, $(r + r')a = ra + r'a$, and $1a = a$.
+
+A \textit{right $S$-module} is an abelian group $A$ equipped with a function
+$$A \times S \rightarrow A, \quad (a, s) \longmapsto as$$
+satisfying $a(ss_1) = (as)s_1$, $(a + b)s = as + bs$, $a(s + s') = as + as'$, $a1 = a$.
+
+An \textit{$R$-$S$ bimodule} is a triple $(A, \xi, \theta)$ such that $(A, \xi)$ is a left $R$-module, $(A, \theta)$ is a right $S$-module, and
+$$r(as) = (ra)s$$
+for all $r \in R$, $a \in A$, $s \in S$. An $R$-$S$ bimodule is the same thing as an $R$-$S$ bialgebra.

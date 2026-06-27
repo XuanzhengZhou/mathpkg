@@ -1,0 +1,1 @@
+A collection of random variables is jointly independent if their joint distribution function factorizes into the product of their marginal distribution functions. Independence is the central structural assumption in probability theory, enabling factorization of expectations and characteristic functions, and underpinning limit theorems.

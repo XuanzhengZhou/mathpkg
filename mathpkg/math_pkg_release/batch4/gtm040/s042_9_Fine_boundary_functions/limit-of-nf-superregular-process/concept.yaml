@@ -1,0 +1,23 @@
+id: limit-of-nf-superregular-process
+title_en: "Proposition 10-45: Limit of Nf-type Superregular Functions"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [superregular-function, pi-integrability, potential-kernel, supermartingale-convergence, boundary-theory]
+depends_on:
+  required: []
+  recommended: [superregular-function, potential-kernel-N, dominated-convergence]
+  suggested: [martingale-convergence-theorem, exit-boundary]
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "10"
+    section: "9. Fine boundary functions"
+    pages: ""
+    role_in_book: "Shows that Nf-type superregular functions converge to zero almost surely, extending Section 8 results"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

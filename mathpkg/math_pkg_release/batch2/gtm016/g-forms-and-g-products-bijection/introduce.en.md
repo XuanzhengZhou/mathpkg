@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $G$ be algebraic and let $V$ be a vector space over $K$. Then there is a bijection between the set of $K^G$-forms of $V$ and the set of $G$-products on $V$ such that the orbits of $G$ in $V$ are finite.

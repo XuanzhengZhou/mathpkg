@@ -1,0 +1,23 @@
+id: existence-uniqueness-lorentz-particle
+title_en: "Existence and Uniqueness of Particle Curve under Lorentz World-Force Law"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: general-relativity
+difficulty: advanced
+tags: [lorentz-force, ode-existence-uniqueness, particle-dynamics, geodesic-equation, zorns-lemma]
+depends_on:
+  required: [lorentz-world-force-law, particle-spacetime, covariant-derivative, ordinary-differential-equations]
+  recommended: [inextendible-curve, hausdorff-space]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.8"
+    pages: "page_0099.json–page_0108.json"
+    role_in_book: "Establishes that the Lorentz world-force law determines a unique particle evolution from initial position and velocity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

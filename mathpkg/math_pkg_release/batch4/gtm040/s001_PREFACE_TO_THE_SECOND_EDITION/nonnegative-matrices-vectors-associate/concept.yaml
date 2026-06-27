@@ -1,0 +1,23 @@
+id: nonnegative-matrices-vectors-associate
+title_en: "Non-Negative Matrices and Column Vectors Associate"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: infinite-matrices
+difficulty: basic
+tags: [matrix, associativity, vector, non-negative, markov-chain]
+depends_on:
+  required: [nonnegative-matrices-associate]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "J.G. Kemeny, J.L. Snell, A.W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "1"
+    section: "1"
+    pages: "4"
+    role_in_book: "Ensures powers of non-negative matrices applied to vectors associate; basis for Chapman-Kolmogorov"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

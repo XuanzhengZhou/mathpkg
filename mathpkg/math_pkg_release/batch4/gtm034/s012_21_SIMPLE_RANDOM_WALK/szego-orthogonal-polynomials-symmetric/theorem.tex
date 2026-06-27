@@ -1,0 +1,11 @@
+Suppose that $P(x,y) = P(y,x)$ is the transition function of a symmetric one-dimensional random walk with characteristic function
+$$\phi(\theta) = \sum_{x=-\infty}^{\infty} P(0,x) e^{ix\theta} = \overline{\phi(\theta)} = \phi(-\theta).$$
+
+Then there exists a unique sequence of polynomials
+$$p_n(z) = \sum_{k=0}^{n} p_{n,k} z^k, \quad n \geq 0,$$
+satisfying $p_{n,n} > 0$ for all $n \geq 0$ and the orthogonality relation
+$$\frac{1}{2\pi} \int_{-\pi}^{\pi} p_k(e^{i\theta}) \overline{p_m(e^{i\theta})} [1 - \phi(\theta)] \, d\theta = \delta(k,m), \quad k,m = 0,1,2,\ldots$$
+
+All coefficients $p_{n,k}$ are non-negative. The Green function $g_N(i,j)$ admits a representation in terms of these polynomials. Moreover,
+$$\lim_{n \to \infty} p_{n,n-k} = u(k), \quad k \geq 0,$$
+where $u(k)$ is the sequence related to the potential kernel of the half-line.

@@ -1,0 +1,23 @@
+id: theoremhood-solubility-via-model
+title_en: "Solubility of Theoremhood Decision via Proof or Counter-Model"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [decision-problem, effective-axiomatization, model-existence, proof-theory]
+depends_on:
+  required: []
+  recommended: [proof-recognition-by-turing-machine, goedel-completeness-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D. W. Barnes, J. M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "5"
+    section: "5"
+    pages: ""
+    role_in_book: "Proposition that for effectively axiomatised theories, theoremhood is soluble in principle — by finding either a proof or a counter-model"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

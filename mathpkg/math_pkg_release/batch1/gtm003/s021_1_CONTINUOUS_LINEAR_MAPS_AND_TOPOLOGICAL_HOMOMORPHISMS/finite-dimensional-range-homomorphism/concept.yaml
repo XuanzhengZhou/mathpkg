@@ -1,0 +1,23 @@
+id: finite-dimensional-range-homomorphism
+title_en: "Continuous linear maps with finite-dimensional separated range are topological homomorphisms"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [topological-homomorphism, finite-dimensional, separated-space, hausdorff]
+depends_on:
+  required: [topological-homomorphism, topological-homomorphism-via-bijective-map]
+  recommended: [finite-dimensional-tvs-isomorphism, hausdorff-tvs]
+  suggested: [closed-null-space]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "1"
+    pages: ""
+    role_in_book: "Proposition 1.3: a continuous linear map with finite-dimensional separated range is automatically a topological homomorphism."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

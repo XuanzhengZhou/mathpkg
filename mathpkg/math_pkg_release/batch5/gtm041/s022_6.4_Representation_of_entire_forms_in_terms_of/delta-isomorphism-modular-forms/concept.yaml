@@ -1,0 +1,23 @@
+id: delta-isomorphism-modular-forms
+title_en: "Isomorphism Between Modular Form Spaces via Multiplication by the Discriminant"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [modular-forms, discriminant, isomorphism, cusp-forms, linear-transformation]
+depends_on:
+  required: [space-of-entire-modular-forms, cusp-forms-subspace, modular-discriminant]
+  recommended: [entire-form-representation-by-eisenstein-and-delta]
+  suggested: [dimension-of-entire-modular-forms-space]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.4"
+    pages: ""
+    role_in_book: "Linear isomorphism T: M_{k-12} → M_{k,0} via multiplication by Δ"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

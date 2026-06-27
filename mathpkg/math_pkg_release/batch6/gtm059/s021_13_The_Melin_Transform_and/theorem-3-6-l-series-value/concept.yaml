@@ -1,0 +1,23 @@
+id: theorem-3-6-l-series-value
+title_en: "Value of the L-series at s = a+1"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: p-adic-l-functions
+difficulty: advanced
+tags: [p-adic-l-function, dirichlet-character, mellin-transform, p-adic-logarithm]
+depends_on:
+  required: [dirichlet-character, p-adic-l-function, p-adic-logarithm-extension]
+  recommended: [mellin-transform, p-adic-regulator]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "13"
+    section: "The Mellin Transform and p-adic L-function"
+    pages: ""
+    role_in_book: "Theorem 3.6: Expresses the value L_{p}(1, \chi) in terms of a sum involving the p-adic logarithm"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

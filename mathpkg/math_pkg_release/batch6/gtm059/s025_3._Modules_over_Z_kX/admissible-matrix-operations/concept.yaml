@@ -1,0 +1,31 @@
+id: admissible-matrix-operations
+title_en: "Admissible Operations on Relation Matrices over the Iwasawa Algebra"
+title_zh: "岩泽代数上关系矩阵的可容许操作"
+type: definition
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags:
+  - iwasawa-algebra
+  - relation-matrix
+  - pseudo-isomorphism
+  - row-operations
+  - column-operations
+depends_on:
+  required: []
+  recommended:
+    - finitely-generated-module
+    - iwasawa-algebra
+  suggested:
+    - iwasawa-structure-theorem
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5. Iwasawa Theory and Ideal Class Groups"
+    section: "3. Modules over Z_p[[T]]"
+    pages: ""
+    role_in_book: "Operations used in the proof of the structure theorem; each operation corresponds to a pseudo-isomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

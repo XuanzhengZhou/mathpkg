@@ -1,0 +1,23 @@
+id: minus-part-injectivity
+title_en: "Injectivity of the Minus Part Map (Theorem 4.2)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [class-group, minus-part, injectivity, cyclotomic-field]
+depends_on:
+  required: [plus-minus-eigenspaces, ideal-class-group]
+  recommended: [norm-map]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "4.6 The (±1)-conjectures"
+    pages: ""
+    role_in_book: "Shows the natural map from C_K^- to C_K is injective"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

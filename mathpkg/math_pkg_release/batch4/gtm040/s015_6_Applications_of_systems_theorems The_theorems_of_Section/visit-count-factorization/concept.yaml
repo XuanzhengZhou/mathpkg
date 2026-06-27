@@ -1,0 +1,23 @@
+id: visit-count-factorization
+title_en: "Visit Count Factorization"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, expected-visits, factorization, hitting-probability]
+depends_on:
+  required: [visit-variables-and-matrices, strong-markov-property]
+  recommended: [shifted-mean-matrix-identity]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "6"
+    pages: ""
+    role_in_book: "Factorizes expected visit counts as hitting probability times visit count from target state"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

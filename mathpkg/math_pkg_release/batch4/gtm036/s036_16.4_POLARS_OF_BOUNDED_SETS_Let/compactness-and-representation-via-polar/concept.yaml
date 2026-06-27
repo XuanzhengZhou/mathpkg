@@ -1,0 +1,23 @@
+id: compactness-and-representation-via-polar
+title_en: "Compactness and Representation of Linear Functionals via Polars"
+title_zh: ""
+type: theorem
+domain: functional-analysis
+subdomain: duality-theory
+difficulty: advanced
+tags: [compactness, polar, weak-topology, representation-of-functionals, paired-linear-spaces]
+depends_on:
+  required: [polars-of-bounded-sets, computation-rules-for-polars, elementary-facts-on-boundedness]
+  recommended: [weak-topology, canonical-map-into-algebraic-dual]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "16"
+    section: "16.4"
+    pages: ""
+    role_in_book: "Characterizes compactness of w(E,F)-closed sets via polars and representability of bounded linear functionals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

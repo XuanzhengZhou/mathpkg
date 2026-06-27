@@ -1,0 +1,23 @@
+id: neighborhood-contains-zero-set-neighborhood
+title_en: "Every Neighborhood Contains a Zero-Set-Neighborhood of a Point"
+title_zh: "每个邻域包含一个零集邻域"
+type: corollary
+domain: topology
+subdomain: separation-axioms
+difficulty: basic
+tags: [completely-regular-space, zero-set-neighborhood, neighborhood]
+depends_on:
+  required: [completely-regular-iff-zero-set-base, completely-regular-space]
+  recommended: [zero-set-neighborhood]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.2"
+    pages: ""
+    role_in_book: "Corollary (b) to Theorem 3.2; fundamental property of neighborhood systems in completely regular spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

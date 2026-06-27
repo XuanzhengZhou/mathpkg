@@ -1,0 +1,23 @@
+id: analytically-isomorphic-points
+title_en: "Analytically Isomorphic Points"
+title_zh: "解析同构点"
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [analytically-isomorphic, completion, local-ring, formal-neighborhood]
+depends_on:
+  required: [completion-of-noetherian-local-ring, local-ring-of-a-point]
+  recommended: [cohen-structure-theorem, formal-scheme]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines when two points on (possibly different) varieties have the same formal local structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

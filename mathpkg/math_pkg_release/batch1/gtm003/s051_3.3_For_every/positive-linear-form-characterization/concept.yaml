@@ -1,0 +1,23 @@
+id: positive-linear-form-characterization
+title_en: "For φ ∈ A', φ is positive iff ||φ|| = lim_λ φ(u_λ) for some approximate unit"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: cstar-algebras
+difficulty: advanced
+tags: [cstar-algebra, positive-linear-form, approximate-unit, dual-norm]
+depends_on:
+  required: []
+  recommended: [positive-linear-form-definition, approximate-unit-definition]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "4"
+    section: "4.1"
+    pages: ""
+    role_in_book: "Characterizes positive linear forms on C*-algebras via approximate units"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

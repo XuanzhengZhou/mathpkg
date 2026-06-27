@@ -1,0 +1,23 @@
+id: powerset-monad-algebra-complete-semilattice
+title_en: "Every P-algebra is a Complete Semi-lattice"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [monad-algebra, powerset-monad, complete-semilattice, order-structure]
+depends_on:
+  required: [powerset-monad, complete-semilattice, algebra-of-a-monad]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "1"
+    pages: "156-157"
+    role_in_book: "Exercise 1(b): establishing one direction of the equivalence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

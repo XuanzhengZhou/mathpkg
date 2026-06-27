@@ -1,0 +1,23 @@
+id: alexandroff-theorem
+title_en: "Alexandroff Theorem (G-delta subsets of complete metric spaces are topologically complete)"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: metric-spaces
+difficulty: intermediate
+tags: [complete-metric-space, g-delta-set, topological-completeness, remetrization]
+depends_on:
+  required: []
+  recommended: [complete-metric-space, g-delta-set]
+  suggested: [topologically-complete, homeomorphism]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "12"
+    section: "The Theorem of Alexandroff"
+    pages: "55-56"
+    role_in_book: "Establishes that every G-delta subset of a complete metric space is topologically complete"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

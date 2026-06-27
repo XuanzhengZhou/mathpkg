@@ -1,0 +1,23 @@
+id: topological-vector-lattice
+title_en: "Topological Vector Lattice"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: ordered-topological-vector-spaces
+difficulty: advanced
+tags: [vector-lattice, locally-solid, tvs, riesz-space, topological-lattice]
+depends_on:
+  required: [vector-lattice, topological-vector-space]
+  recommended: [locally-solid-topology]
+  suggested: [normal-cone]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "7"
+    pages: ""
+    role_in_book: "Core definition uniting order and topological structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

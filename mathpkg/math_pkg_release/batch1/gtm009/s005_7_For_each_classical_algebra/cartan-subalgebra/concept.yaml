@@ -1,0 +1,23 @@
+id: cartan-subalgebra
+title_en: "Cartan Subalgebra"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [cartan-subalgebra, csa, nilpotent, normalizer, engel-subalgebra]
+depends_on:
+  required: [engel-subalgebra]
+  recommended: [nilpotent-lie-algebra, normalizer]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "15"
+    section: "15.3"
+    pages: "91-101"
+    role_in_book: "Central definition; CSA is the appropriate analogue of maximal toral subalgebra for arbitrary Lie algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

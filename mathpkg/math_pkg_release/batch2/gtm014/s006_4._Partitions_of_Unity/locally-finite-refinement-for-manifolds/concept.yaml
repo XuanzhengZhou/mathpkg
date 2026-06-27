@@ -1,0 +1,23 @@
+id: locally-finite-refinement-for-manifolds
+title_en: "Locally Finite Refinement for Differentiable Manifolds"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [locally-finite, refinement, differentiable-manifold, chart, partition-of-unity]
+depends_on:
+  required: [covering-of-a-topological-space, refinement-of-a-covering, locally-finite-covering]
+  recommended: [differentiable-manifold, chart]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky and V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "1"
+    section: "4"
+    pages: "27"
+    role_in_book: "Corollary 4.3; key technical step toward the existence of partitions of unity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

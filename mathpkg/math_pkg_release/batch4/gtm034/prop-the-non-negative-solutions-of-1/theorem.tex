@@ -1,0 +1,83 @@
+The non-negative solutions of (1) exhibited in P1 are the only ones.
+
+Proof: The two-dimensional case is left out, having been settled in E27.4, but the proof for the one-dimensional case will nevertheless parallel closely that in E27.4. Consequently it will be convenient to adopt the notation in D27.4 and P27.3. At first one is tempted to let $Q(x,y) = P(x,y)$, restricted to $x$ and $y$ in $R - \{0\}$. Then the countable set $S$ in P27.3 would be $S = R - \{0\}$. But this is not a good idea, since $g_{(0)}(x,y)$ may fail to be positive for some $x$ or some $y$ in $R - \{0\}$. Instead we shall choose $S$ in a slightly more elaborate fashion, which will greatly simplify the remainder of the proof.
+
+Given a solution $h(x) \geq 0$ (but not identically zero) on $R - \{0\}$ of
+
+(1) $$\sum_{y \neq 0} P(x,y)h(y) = h(x), \quad x \neq 0,$$
+
+we define
+
+$$S = [x \mid x \in R - \{0\}, h(x
+
+familiar from the proof of P18.8). This observation verifies our claim that $S$ is either a half-line, or all of $R - \{0\}$. Let us now suppose that $S$ is a half-line, say the positive one. Then, as we just saw, it follows that
+
+$$g_{(0)}(x,y) = 0 \text{ when } x < 0, \quad y > 0,$$
+
+and in particular
+
+(3) $$P(x,y) = 0 \text{ when } x < 0, \quad y > 0,$$
+
+as could have been observed directly from (1). This state of affairs simplifies matters considerably. We can now define, in all cases ($S$ being either a half-line or all of $R - \{0\}$),
+
+$$Q(x,y) = Q_1(x,y) = P(x,y), \quad Q_0(x,y) = \delta(x,y), \quad x,y \in S,$$
+
+$$Q_{n+1}(x,y) = \sum_{t \in S} Q_n(x,t)Q(t,y), \quad x,y \in S, \quad n \geq 0,$$
+
+and finally
+
+$$g(x,y) = \sum_{n=0}^{\infty} Q_n(x,y), \quad x,y \in S,$$
+
+being sure that
+
+(4) $$g(x,y) > 0 \text{ for } x,y \in S,$$
+
+(5) $$g(x,y) = g_{(0)}(x,y) \text{ for } x,y \in S.$$
+
+Next we define the transient kernel
+
+$$Q^h(x,y) = \frac{Q(x,y)h(y)}{h(x)}, \quad x,y \in S,$$
+
+its iterates $Q_n^h(x,y)$, and its Green function
+
+(6) $$g^h(x,y) = \sum_{n=0}^{\infty} Q_n^h(x,y) = \frac{g(x,y)h(y)}{h(x)},$$
+
+and proceed along the lines of P27.3. But it is convenient at this point to separate the argument into two cases, according as $\sigma^2 = \infty$ or $\sigma^2 < \infty$.
+
+where $\xi$ is an arbitrary point in $S$. Forgetting for the moment the unpleasant possibility that $a(\xi) = 0$, we see that, in view of (5), (7), and P1, all the hypotheses in P27.3 are satisfied. Thus we are able to conclude that $h(x)$ is a multiple of $a(x)$, which proves P2 when $\sigma^2 = \infty$, provided we were able to choose $\xi$ so that $a(\xi) > 0$. Suppose now that $\xi > 0$ and $a(\xi) = 0$ (the case $\xi < 0$ receives the same treatment). This implies, in view of P30.2, that the random walk is left continuous. Now either $S = R - \{0\}$, in which case we can modify (7) by choosing $\xi < 0$ so that $a(\xi) > 0$. Otherwise $S = [x | x > 0]$, but that is impossible, since (3) gives $P(-1,n) = 0$ for $n > 0$, whereas left continuity together with $\sigma^2 = \infty$ implies $P(-1,n) > 0$ for arbitrarily large $n$. Thus the proof of P2 is complete when $\sigma^2 = \infty$.
+
+When $\sigma^2 < \infty$ we cannot hope to quote P27.3 verbatim, as it deals only with cases where there is a unique solution. But it is easy enough to retrace the steps in the proof of P27.3 until we come to the crucial argument which begins with equation (4), namely
+
+$$e(x) = 1 = \lim_{n \to \infty} \sum_{y \in S} \frac{g^h(x,y)}{g^h(\xi,y)} \gamma_n(y).$$
+
+By the same compactness argument used there and in E27.4 and E27.5, equation (8) yields the conclusion that
+
+$$1 = u^h(x) + \lim_{y \to -\infty} \frac{g^h(x,y)}{g^h(\xi,y)} \gamma(-\infty)$$
+
+$$+ \lim_{y \to +\infty} \frac{
+
+functions. By the Riesz decomposition theorem (T27.1) the potential must be zero. Substituting (10) into (9), and multiplying (9) through by $h(x)$ we find
+
+$$h(x) = \gamma(-\infty) \frac{h(\xi)}{\sigma^2 a(\xi) - \xi} [\sigma^2 a(x) - x] + \gamma(+\infty) \frac{h(\xi)}{\sigma^2 a(\xi) + \xi} [\sigma^2 a(x) + x], \quad x \in S.$$
+
+This shows that every regular function $h(x)$ is a linear combination of $a(x)$ and $x$, which is just what we wanted to prove!
+
+The proof of P2 will now be completed by eliminating the alarming possibility that equation (9) does not make sense because one of the denominators $\sigma^2 a(\xi) \pm \xi$ in (10) vanishes. According to P30.3 of the last section, it is only left- or right-continuous random walk that could cause trouble. For every other random walk one can choose $\xi$ so that $\sigma^2 a(\xi) - |\xi| \neq 0$. Therefore we shall consider all the different possibilities separately.
+
+(a) Suppose the random walk is both left and right continuous. Then $0 < P(0,1) = P(0,-1) = [1 - P(0,0)]/2 \leq 1/2$. But in this very simple case P2 can be verified directly.
+
+(b) Suppose the random walk is left but not right continuous. Then there are several possibilities concerning the set $S$. If $S = R - \{0\}$ or $S = [x \mid x < 0]$ we may choose a negative value of $\xi$, such that, according to P30.3, both $\sigma^2 a(\xi) + \xi$ and $\sigma^2 a(\xi) - \xi$ are non-zero. Finally there is the case $S = [x \mid x > 0]$. But then an examination of equation (1) shows that this case cannot arise; equation (1) implies that if $h(x) > 0$ for $x > 0$, then $h
+
+For many applications it is important to modify T1 to give information about potentials, i.e., about non-negative solutions of
+
+$$\sum_{y \in R} P(x,y)f(y) - f(x) = \delta(x,0), \quad x \in R,$$
+
+or, more generally, about functions $f(x) \geq 0$ on $R$ such that
+
+$$Pf(x) - f(x) = \psi(x), \quad x \in R,$$
+
+with
+
+$$\psi(x) = 0 \quad \text{when} \quad x \in R - A.$$
+
+This reformulation is accomplished by means of a minimum principle which is the recurrent analogue of the maximum principle for transient random walk in part (a) of P25.9 in Chapter VI.

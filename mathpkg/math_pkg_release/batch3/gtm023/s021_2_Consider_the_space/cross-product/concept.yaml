@@ -1,0 +1,23 @@
+id: cross-product
+title_en: "Cross product in an oriented 3-dimensional inner product space"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [cross-product, inner-product, oriented-space, normed-determinant, lie-algebra]
+depends_on:
+  required: [normed-determinant-function, inner-product-space, orientation]
+  recommended: [oriented-angle-in-plane]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "3. Normed determinant functions"
+    pages: ""
+    role_in_book: "Defines the cross product via the normed determinant function and establishes its basic algebraic properties"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

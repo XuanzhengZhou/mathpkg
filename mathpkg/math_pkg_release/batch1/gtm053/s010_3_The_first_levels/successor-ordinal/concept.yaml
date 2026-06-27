@@ -1,0 +1,23 @@
+id: successor-ordinal
+title_en: "Successor Ordinal"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [ordinal, successor, von-neumann, natural-numbers]
+depends_on:
+  required: [ordinal]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yuri I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "1"
+    section: "8"
+    pages: ""
+    role_in_book: "Defines the successor of an ordinal as alpha+1 = alpha ∪ {alpha}"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: symmetric-difference-in-boolean-algebra
+title_en: "Symmetric Difference in a Boolean Algebra"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: lattice-theory
+difficulty: basic
+tags: [boolean-algebra, symmetric-difference, ring-structure]
+depends_on:
+  required: [boolean-algebra]
+  recommended: [complement-of-element-in-lattice]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "VII"
+    section: "7. Complemented modular lattices"
+    pages: "209"
+    role_in_book: "Definition of symmetric difference, the addition operation for Boolean rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

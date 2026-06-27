@@ -1,0 +1,13 @@
+id: eigenvalues-of-restricted-transition
+title_en: "Eigenvalues and Eigenvectors of the Restricted Transition Matrix for Simple Random Walk"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: intermediate
+tags: [eigenvalues, eigenvectors, symmetric-matrix, simple-random-walk, spectral-theorem, tridiagonal-matrix]
+depends_on: {required: [restricted-transition-function], recommended: [linear-algebra, spectral-theorem], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "21", pages: "", role_in_book: "Gives the explicit eigenvalues and eigenvectors of the restricted transition matrix for simple symmetric random walk"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

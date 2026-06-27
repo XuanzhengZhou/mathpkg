@@ -1,0 +1,23 @@
+id: plh-approximation-2-manifold-boundary-r2
+title_en: "PLH Approximation of Homeomorphisms from 2-Manifolds with Boundary into the Plane"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [piecewise-linear-homeomorphism, combinatorial-2-manifold, phi-approximation, strongly-positive-function, planar-embedding]
+depends_on:
+  required: []
+  recommended: [combinatorial-2-manifold-with-boundary, piecewise-linear-homeomorphism, strongly-positive-function, phi-approximation, combinatorial-schoenflies-theorem]
+  suggested: [plh-approximation-on-1-skeleton]
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "5"
+    section: "10"
+    pages: "page_0058–page_0061"
+    role_in_book: "Establishes that any homeomorphism from a combinatorial 2-manifold with boundary into the plane can be approximated by a piecewise linear homeomorphism."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,15 @@
+Let (29) be a decomposition of a complete ideal $A$ into valuation ideals $q_i$ and let $v_i$ be a valuation (non-negative on $0$) such that $q_i$ is a $v_i$-ideal (we do not assume that the $v_i$ are discrete). Assume that $A$ is primary for $m$ and that the decomposition (29) satisfies conditions (30). Let $h$ be an arbitrary integer, let $r$ be the order of $A$ and let $\tilde{q}_i$ be the $v_i$-ideal determined by the condition: $v_i(\tilde{q}_i) = v_i(m^h A)$. Then
+
+$$m^h A = \tilde{q}_1 \cap \tilde{q}_2 \cap \cdots \cap \tilde{q}_n \cap m^{r+h}.$$
+
+Proof. Denote by $D$ the ideal on the right-hand side of (32). Since $m^h A$ has order $r+h$ and since $m^h A \subset D \subset m^{r+h}$, also $D$ has order $r+h$. Therefore $c(D)$ divides $c(A)$, and the difference between the order $r+h$ of $D$ and the degree of $c(D)$ is at least equal to $h$. Therefore, $m^h$ factors out from $D$ (Theorem 1). Let $D = m^h E$. Since $m^h A \subset D \subset \tilde{q}_i$ and $v_i(m^h A) = v_i(\tilde{q}_i)$, it follows that $v_i(D) = v_i(\tilde{q}_i)$. Thus $v_i(m^h) + v_i(E) = v_i(D) = v_i(m^h A) = v_i(m^h) + v_i(A)$, i.e., $v_i(E) = v_i(A)$, and $E \subset q_i$. Consequently $E \subset A$ and $D \subset m^h A$, showing that $D = m^h A$. Q.E.D.
+
+We now proceed to the proof
+
+$v_i(q_i) = v_i(A_1)$. Furthermore, $m^r$ is a $v_m$-ideal, where $v_m$ is the $m$-adic prime divisor of $o$, and since $r(A_1) = r$ it follows that $v_m(A_1) = v_m(m^r) = r$. Now, $\max \{v_1(A_1), v_2(A_1), \cdots, v_n(A_1)\} \leq \max \{v_1(q_1), v_2(q_2), \cdots, v_n(q_n)\}$ (since $v_i(q_i) = v_i(A) \geq r$, for $i = 1, 2, \cdots, n) = w(A)$. Hence $w(A_1) \leq w(A)$, and it will be sufficient to prove that $w(A') < w(A_1)$. We may therefore assume that already our original ideal $A$ has the property that $c(A)$ is a power of $\bar{g}$. If none of the $v_i$ ($i = 1, 2, \cdots, n$) is the $m$-adic prime divisor $v_m$, we can add to the standard decomposition (29) of $A$ the $v_m$-ideal $m^r$, i.e., we may write
+
+(34) $A = q_1 \cap q_2 \cap \cdots \cap q_n \cap m^r$,
+
+and this will still be a standard decomposition of $A$, since from $A \subset m^r$, $A \not\subset m^{r+1}$ follows $v_m(A) = r = v_m(m^r)$. Relation (33) is not affected, since from $A \subset m^r$ follows $v_i(A) \geq r$. We therefore use the decomposition (34) and we now assume that $v_1, v_2, \cdots, v_n$ are different from $v_m$. Since $c(A)$ is a power of $\bar{g}$, any $q_i$ such that the directional form of $v_i$ is different from $\bar{g}$ is superfluous in (3
+
+For the $m$-adic prime divisor $v_m$ of $o$ we have $v_m(\xi') \geq 0$, $v_m(y/x) \geq r$, whence $v_m(y) \geq r + h$, showing that $y \in m^{r+h}$. From this and (36) we conclude, by Lemma 5, that $y \in m^h A$, and this establishes (35) and completes the proof of the inequality (31).

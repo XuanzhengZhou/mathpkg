@@ -1,0 +1,23 @@
+id: jacobson-radical
+title_en: "Jacobson Radical of a Ring"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [radical, jacobson-radical, two-sided-ideal]
+depends_on:
+  required: []
+  recommended: [radical-of-a-module, endomorphism-ring]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "9"
+    section: "15"
+    pages: ""
+    role_in_book: "Defines the Jacobson radical J(R) as Rad(R), the radical of R as a ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

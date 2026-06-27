@@ -1,0 +1,23 @@
+id: lemma-lubin-tate-log-derivative
+title_en: "Lemma: Logarithmic derivative equality for Lubin-Tate formal groups"
+title_zh: "引理: Lubin-Tate形式群的对数导函等式"
+type: lemma
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [lubin-tate-formal-groups, logarithmic-derivative, power-series, local-fields]
+depends_on:
+  required: [lubin-tate-formal-groups, kummer-homomorphism]
+  recommended: [formal-groups, p-adic-analysis]
+  suggested: [coates-wiles-theory]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "6"
+    section: "6"
+    pages: ""
+    role_in_book: "Equality of coefficients from the logarithmic derivative operator applied to Lubin-Tate group power series expansions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

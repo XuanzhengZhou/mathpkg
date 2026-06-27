@@ -1,0 +1,9 @@
+Consider the real Banach space $\mathfrak{C}^r = \mathfrak{C}^r([0, 1])$. Let $\mathfrak{D} = \{
+
+$(f_k)$ converges in norm to $f$; we denote these subsequences again by $(x_k)$ and $(f_k)$ respectively. Let $x = \lim_{k \to \infty} x_k$; clearly $x \in \left[0, 1 - \frac{1}{n}\right]$. Now fix $h \in \left[0, \frac{1}{n}\right]$ and let $\varepsilon > 0$ be arbitrary. Choose $k$ so large that $\|f - f_k\|_u < \frac{h\varepsilon}{4}, |f(x_k) - f(x)| < \frac{h\varepsilon}{4}$, and $|f(x_k + h) - f(x + h)| < \frac{h\varepsilon}{4}$. Then $|f(x + h) - f(x)| \leq |f(x + h) - f(x_k + h)| + |f(x_k + h) - f_k(x_k + h)| + |f_k(x_k + h) - f_k(x_k)| + |f_k(x_k) - f(x_k)| < \frac{h\varepsilon}{4} + \frac{h\varepsilon}{4} + nh + \frac{h\varepsilon}{4} + \frac{h\varepsilon}{4} = h(n + \varepsilon)$. Since $\varepsilon$ is arbitrary, it follows that
+
+$$\left| \frac{f(x + h) - f(x)}{h} \right| \leq n$$
+
+for all $h \in \left[0, \frac{1}{n}\right]$; hence $f \in \mathfrak{E}_n$. It follows that $\mathfrak{E}_n$ is closed.
+
+We now show that every $\mathfrak{E}_n$ has void interior. Assume the contrary, i.e., that there exist an $n$, an $f \in \mathfrak{E}_n$, and an $\varepsilon > 0$ such that $\mathfrak{B}_\varepsilon(f) = \{\varphi \in \mathfrak{C}^r : \|f - \varphi\|_u < \varepsilon\} \subset \mathfrak{E}_n$. By WEIERSTR

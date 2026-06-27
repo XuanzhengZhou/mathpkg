@@ -1,0 +1,23 @@
+id: j-order-and-non-existence-of-rho-n-vector-fields
+title_en: "J-Order Implies Nonexistence of Vector Fields on Spheres"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: vector-fields-on-spheres
+difficulty: advanced
+tags: [vector-fields, spheres, j-homomorphism, k-theory, projective-spaces, adams-conjecture]
+depends_on:
+  required: [j-group, real-projective-space, stiefel-manifold, canonical-line-bundle]
+  recommended: [radon-hurwitz-number, adams-vector-field-theorem, clifford-module]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "11"
+    section: "11.8"
+    pages: ""
+    role_in_book: "Connects the computation of J(RP^k) to the vector field problem on spheres, showing that the determination of the order of J(ξ_k) would imply the optimal bound for vector fields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

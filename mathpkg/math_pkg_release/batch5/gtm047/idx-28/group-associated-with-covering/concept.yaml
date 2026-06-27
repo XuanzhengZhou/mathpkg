@@ -1,0 +1,23 @@
+id: group-associated-with-covering
+title_en: "Group Associated with a Covering"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: ["covering-space", "fundamental-group", "monodromy", "lifting"]
+depends_on:
+  required: ["covering"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "7"
+    section: "24"
+    pages: ""
+    role_in_book: "Defines the subgroup π₀ of π(M, P₀) associated with a covering; this subgroup characterizes the covering up to equivalence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

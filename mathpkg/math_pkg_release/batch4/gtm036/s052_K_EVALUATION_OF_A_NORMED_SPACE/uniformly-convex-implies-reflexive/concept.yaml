@@ -1,0 +1,23 @@
+id: uniformly-convex-implies-reflexive
+title_en: "Every Uniformly Convex Normed Space is Reflexive"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [uniformly-convex, reflexive, normed-space, milman-pettis, unit-sphere, weak-star-closure]
+depends_on:
+  required: [normed-space, uniform-convexity, reflexive-space, second-adjoint]
+  recommended: [weak-star-topology, hahn-banach-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "Kelley, Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "17"
+    section: "L"
+    pages: ""
+    role_in_book: "Milman-Pettis theorem: uniform convexity implies reflexivity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: left-module-homomorphism
+title_en: "Left R-Module Homomorphism"
+title_zh: "左R-模同态"
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [module-theory, homomorphism, ring-theory]
+depends_on:
+  required: [left-module]
+  recommended: [abelian-group-homomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "3. Homomorphisms of Modules"
+    pages: ""
+    role_in_book: "Foundational definition for module theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

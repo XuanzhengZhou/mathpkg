@@ -1,0 +1,23 @@
+id: normed-lattice
+title_en: "Normed Lattice"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: ordered-topological-vector-spaces
+difficulty: intermediate
+tags: [normed-space, vector-lattice, solid-unit-ball]
+depends_on:
+  required: [normed-space, vector-lattice]
+  recommended: [solid-set]
+  suggested: [banach-lattice]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "7"
+    pages: ""
+    role_in_book: "Normed space whose unit ball is solid with respect to the lattice order"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

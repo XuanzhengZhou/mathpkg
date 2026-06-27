@@ -1,0 +1,12 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $\mu$ is a charge distribution, then
+
+$$g(x) = \frac{1}{2\pi} \int_{R^3} \frac{1}{|x - y|} d\mu(y)$$
+
+is finite a.e. with respect to Lebesgue measure.

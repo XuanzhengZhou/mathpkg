@@ -1,0 +1,23 @@
+id: jordan-holder-theorem-modular-lattices
+title_en: "Jordan-Hölder Theorem for Modular Lattices"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: lattice-theory
+difficulty: advanced
+tags: [Jordan-Hölder, modular, lattice, composition-chain, chain-condition]
+depends_on:
+  required: [modular-lattice-definition, schreier-refinement-theorem-modular-lattices]
+  recommended: [modular-lattice-interval-isomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "3"
+    pages: ""
+    role_in_book: "Establishes the Jordan-Hölder theorem for composition chains in modular lattices satisfying the ascending and descending chain conditions, and derives the fundamental dimensionality relation."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

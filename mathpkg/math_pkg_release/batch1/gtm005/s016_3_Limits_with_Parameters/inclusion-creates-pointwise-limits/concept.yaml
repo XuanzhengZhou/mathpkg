@@ -1,0 +1,23 @@
+id: inclusion-creates-pointwise-limits
+title_en: "Inclusion of discrete subcategory creates limits"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [limits, creation-of-limits, discrete-category, functor-category, pointwise-limits]
+depends_on:
+  required: [pointwise-limits, creation-of-limits, discrete-category, functor-category]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "3. Limits with Parameters"
+    pages: ""
+    role_in_book: "Theorem 2: reformulation of pointwise limits via discrete subcategory inclusion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: equivalent-conditions-on-beta-x-point
+title_en: "Equivalent Conditions for Points in $\beta X$ to be Real"
+title_zh: "βX中点的实性等价条件"
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [beta-X, vX, real-maximal-ideal, countable-intersection-property, Stone-extension]
+depends_on:
+  required: [stone-cech-compactification, maximal-ideal, real-maximal-ideal]
+  recommended: [hewitt-realcompactification-vx, z-ultrafilter]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "8"
+    section: "8.4"
+    pages: ""
+    role_in_book: "Characterizes which points of βX belong to vX"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

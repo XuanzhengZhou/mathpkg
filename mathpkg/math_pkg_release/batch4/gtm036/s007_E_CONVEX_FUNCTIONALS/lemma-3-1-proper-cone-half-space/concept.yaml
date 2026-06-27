@@ -1,0 +1,23 @@
+id: lemma-3-1-proper-cone-half-space
+title_en: "Lemma 3.1: Proper Cone as a Half-Space"
+title_zh: "引理3.1：真锥作为半空间"
+type: lemma
+domain: analysis
+subdomain: convex-analysis
+difficulty: intermediate
+tags: [proper-cone, half-space, radial-kernel, conical-half-space]
+depends_on:
+  required: [proper-cone, conical-half-space]
+  recommended: [radial-kernel, half-space-definition]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "J.L. Kelley, I. Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "3"
+    section: "E CONVEX FUNCTIONALS"
+    pages: ""
+    role_in_book: "Key lemma characterizing when a proper cone is a half-space, fundamental for separation theorems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

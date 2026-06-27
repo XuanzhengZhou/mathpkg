@@ -1,0 +1,23 @@
+id: kolmogorov-extension-theorem
+title_en: "Kolmogorov Extension Theorem (Theorem A)"
+title_zh: "柯尔莫哥洛夫扩张定理"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [product-space, probability-measure, extension-theorem, cylinder-set, kolmogorov]
+depends_on:
+  required: [product-sigma-algebra, probability-measure, cylinder-set, measure-extension]
+  recommended: [caratheodory-extension, compactness-argument, radon-measure]
+  suggested: [prokhorov-theorem, consistent-family]
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX"
+    section: "49"
+    pages: ""
+    role_in_book: "Main theorem establishing existence of probability measures on infinite product spaces from consistent finite-dimensional distributions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

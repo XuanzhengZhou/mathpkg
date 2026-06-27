@@ -1,0 +1,23 @@
+id: proposition-35-psi-basis-of-rbar-k-g
+title_en: "Proposition 35: Characters \psi_i = \chi_i/m_i form a basis of \overline{R}_K(G)"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [schur-index, basis, virtual-characters, galois-conjugacy, semisimple-algebra]
+depends_on:
+  required: [rbar-k-g-ring-of-k-valued-virtual-characters, schur-index-of-irreducible-representation]
+  recommended: [proposition-32-basis-of-rk-g, proposition-34-rk-g-finite-index]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "12"
+    section: "12.2"
+    pages: ""
+    role_in_book: "Refines Prop 34 by giving an explicit basis of overline{R}_K(G) in terms of Schur indices"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

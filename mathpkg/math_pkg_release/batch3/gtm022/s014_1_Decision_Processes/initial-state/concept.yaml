@@ -1,0 +1,23 @@
+id: initial-state
+title_en: "Initial State (of a Turing Machine)"
+title_zh: "初始状态（图灵机）"
+type: definition
+domain: logic
+subdomain: computability
+difficulty: intermediate
+tags: [turing-machine, initial-state, computation]
+depends_on:
+  required: [turing-machine, instantaneous-description]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm022
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "9"
+    section: "2"
+    pages: ""
+    role_in_book: "Defines the starting configuration for a Turing machine computation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

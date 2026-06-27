@@ -1,0 +1,23 @@
+id: exp-product-local-diffeomorphism
+title_en: "Local Diffeomorphism via Exponential Product"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: lie-groups
+difficulty: intermediate
+tags: [Lie-group, exponential-map, local-diffeomorphism, tangent-space, one-parameter-group]
+depends_on:
+  required: [lie-group, left-invariant-one-parameter-group]
+  recommended: [exponential-map, inverse-function-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "Appendix A"
+    section: "§A. Lie Groups"
+    pages: ""
+    role_in_book: "Corollary A.6: constructs a local diffeomorphism from T_eG to G using exp"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

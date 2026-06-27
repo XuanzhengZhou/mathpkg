@@ -1,0 +1,23 @@
+id: lattice-of-subspaces
+title_en: "Lattice of Subspaces (Partially Ordered Set of Subspaces)"
+title_zh: "子空间格（子空间的偏序集）"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [vector-space, subspace, lattice, partially-ordered-set, inclusion-relation]
+depends_on:
+  required: [vector-space, subspace, partially-ordered-set]
+  recommended: [lattice-theory]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "II: Finite Dimensional Vector Spaces"
+    section: "9: Factor Spaces"
+    pages: "36-41"
+    role_in_book: "Introduces the lattice-theoretic perspective on subspaces of a vector space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

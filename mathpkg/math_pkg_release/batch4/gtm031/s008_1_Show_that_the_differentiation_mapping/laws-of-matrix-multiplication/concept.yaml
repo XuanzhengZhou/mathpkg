@@ -1,0 +1,23 @@
+id: laws-of-matrix-multiplication
+title_en: "Laws of Matrix Multiplication"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [matrix, multiplication, associativity, distributivity]
+depends_on:
+  required: [matrix-multiplication-definition, matrix-addition]
+  recommended: [ring-of-linear-transformations]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "III"
+    section: "4"
+    pages: "60-65"
+    role_in_book: "Establishes associative and distributive laws for matrix multiplication"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: artinian-radical-nilpotent
+title_en: "The Radical of a Left Artinian Ring is the Largest Nilpotent Ideal"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: advanced
+tags: [left-artinian, jacobson-radical, nilpotent-ideal, nil-ideal]
+depends_on:
+  required: [jacobson-radical, left-artinian-ring]
+  recommended: [nilpotent-ideal, nakayamas-lemma]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "9"
+    section: "15"
+    pages: ""
+    role_in_book: "Theorem 15.19"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

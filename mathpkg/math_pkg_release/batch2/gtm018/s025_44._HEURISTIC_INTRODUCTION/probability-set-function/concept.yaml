@@ -1,0 +1,20 @@
+id: probability-set-function
+title_en: "Probability as a Set Function"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: foundations
+difficulty: basic
+tags: [probability, set-function, measure]
+depends_on: {required: [event, impossible-and-certain-events], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX. Probability"
+    section: "44. Heuristic Introduction"
+    pages: ""
+    role_in_book: "Probability is a numerically valued function μ of events E (sets of a Boolean σ-algebra); μ(E) ∈ [0,1] represents the expected proportion of occurrences of E."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

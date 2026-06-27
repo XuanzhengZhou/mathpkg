@@ -1,0 +1,23 @@
+id: limit-of-b-e-k
+title_en: "Limit of Taboo Probabilities for Continuous Column Vectors"
+title_zh: "连续列向量的禁忌概率极限"
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [taboo-probability, continuous-function, weak-star-convergence, martin-boundary, beta-measure]
+depends_on:
+  required: [proposition-11-2, proposition-11-5, continuous-column-vector]
+  recommended: [lemma-11-8, proposition-11-3]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Proposition 11-9. Expresses the limit of taboo probability operators applied to a continuous column vector as an integral against the boundary measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

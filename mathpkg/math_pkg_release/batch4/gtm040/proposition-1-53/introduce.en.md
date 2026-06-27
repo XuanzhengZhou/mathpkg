@@ -1,0 +1,12 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $\pi \geq 0$ be a row vector and suppose $\{f^{(k)}\}$ is a sequence of column vectors converging entry-by-entry to $f$ and satisfying
+
+$$0 \leq f^{(1)} \leq f^{(2)} \leq \dots.$$
+
+Then $\pi f = \lim_{k} \pi f^{(k)}$.

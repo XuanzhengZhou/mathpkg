@@ -1,0 +1,23 @@
+id: definitional-expansion-conservative
+title_en: "Definitional Expansions are Conservative Extensions"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [definitional-expansion, conservative-extension, theory, logical-consequence, model]
+depends_on:
+  required: [first-order-theory, definitional-extension, conservative-extension, L-structure, logical-consequence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "11"
+    section: "2"
+    pages: ""
+    role_in_book: "States that nothing new can be proved in a definitional expansion — it is always a conservative extension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

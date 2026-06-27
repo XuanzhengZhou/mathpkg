@@ -1,0 +1,23 @@
+id: transversals-form-independence-system
+title_en: "Transversals Form an Independence System"
+title_zh: ""
+type: lemma
+domain: combinatorics
+subdomain: matroid-theory
+difficulty: advanced
+tags: ["matroid", "transversal", "independence-system", "transversal-matroid", "matching-matroid"]
+depends_on:
+  required: []
+  recommended: ["transversal-definition", "independence-system-definition", "matching-matroid"]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Graver, J. E. and Watkins, M. E."
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "X"
+    section: "E"
+    pages: ""
+    role_in_book: "E1 Lemma. The collection of transversals of a set system forms an independence system, establishing the foundation for transversal matroids."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

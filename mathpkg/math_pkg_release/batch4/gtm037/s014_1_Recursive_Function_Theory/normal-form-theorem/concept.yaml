@@ -1,0 +1,25 @@
+id: normal-form-theorem
+title_en: "Normal Form Theorem (Kleene)"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: recursion-theory
+difficulty: advanced
+tags: [partial-recursive-functions, normal-form, kleene, computability, enumeration]
+depends_on:
+  required:
+    - class-of-partial-recursive-functions
+    - kleene-t-predicate
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "H.-D. Ebbinghaus, J. Flum, W. Thomas"
+    title: "Mathematical Logic"
+    chapter: "5. Recursive Functions"
+    section: "5.1 Recursive Function Theory"
+    pages: ""
+    role_in_book: "Theorem 5.9: Every partial recursive function can be expressed in a fixed normal form using the T-predicate"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

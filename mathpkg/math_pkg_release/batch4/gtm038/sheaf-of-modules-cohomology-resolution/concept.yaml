@@ -1,0 +1,23 @@
+id: sheaf-of-modules-cohomology-resolution
+title_en: "Theorem 1.8 (Canonical Flabby Resolution and Sheaf Cohomology)"
+title_zh: "定理 1.8 (典范松弛分解与层上同调)"
+type: theorem
+domain: analysis
+subdomain: sheaf-cohomology
+difficulty: advanced
+tags: [sheaf-of-modules, flabby-resolution, sheaf-cohomology, canonical-resolution, several-complex-variables]
+depends_on:
+  required: []
+  recommended: [flabby-sheaf, sheaf-cohomology, global-sections-functor]
+  suggested: [derived-functor, w-sheaf-exact-functor, gamma-section-left-exact-functor]
+source_books:
+  - book_id: "gtm038"
+    author: "Grauert, Hans and Fritzsche, Klaus"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the canonical flabby resolution and states that its cohomology computes sheaf cohomology; statement truncated in source"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,26 @@
+id: n-bar-h-dual-relation
+title_en: "Expected Visits from a Single State via Duality"
+title_zh: ""
+type: corollary
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [duality, expected-visits, hitting-probability, superregular-measure]
+depends_on:
+  required: [
+    - alpha-measure-dual-formula
+  ]
+  recommended: [
+  ]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "2. Duality"
+    pages: ""
+    role_in_book: "Corollary 6-20: relation between single-state expected visits and dual hitting probability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

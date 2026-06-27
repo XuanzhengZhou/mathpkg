@@ -1,0 +1,23 @@
+id: rotation-vector
+title_en: "Rotation Vector"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: linear-algebra
+difficulty: advanced
+tags: [rotation, vector, axis, cross-product, 3-space]
+depends_on:
+  required: [rotation, cross-product, skew-mapping]
+  recommended: [rotation-angle]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: ""
+    title: "Linear Algebra"
+    chapter: "8"
+    section: "8.22"
+    pages: ""
+    role_in_book: "Defines the rotation vector for a proper rotation in 3-space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

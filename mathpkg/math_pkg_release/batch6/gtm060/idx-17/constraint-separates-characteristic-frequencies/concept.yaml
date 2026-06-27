@@ -1,0 +1,23 @@
+id: constraint-separates-characteristic-frequencies
+title_en: "Constraint Separates Characteristic Frequencies"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [characteristic-frequencies, constraint, separation, interlacing, small-oscillations]
+depends_on:
+  required: [linear-constraint-system]
+  recommended: [cross-section-semi-axes-separation]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "5"
+    section: "24"
+    pages: ""
+    role_in_book: "Theorem 3 of Section 24: Frequency interlacing under a linear constraint"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

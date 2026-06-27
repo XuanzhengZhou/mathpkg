@@ -1,0 +1,38 @@
+{
+  "id": "full-functor",
+  "title_en": "Full Functor",
+  "title_zh": "",
+  "type": "definition",
+  "domain": "foundations",
+  "subdomain": "category-theory",
+  "difficulty": "basic",
+  "tags": [
+    "full-functor",
+    "functor",
+    "surjective-on-homs"
+  ],
+  "depends_on": {
+    "required": [
+      "functor"
+    ],
+    "recommended": [
+      "hom-set",
+      "faithful-functor"
+    ],
+    "suggested": []
+  },
+  "source_books": [
+    {
+      "book_id": "gtm005",
+      "author": "Saunders Mac Lane",
+      "title": "Categories for the Working Mathematician",
+      "chapter": "I",
+      "section": "3",
+      "pages": "",
+      "role_in_book": "core definition"
+    }
+  ],
+  "content_hash": "f0159d11a4959151",
+  "extraction_date": "2026-06-27",
+  "extraction_agent": "v8-full-extract"
+}

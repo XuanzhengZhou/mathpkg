@@ -1,0 +1,23 @@
+id: proposition-32-basis-of-rk-g
+title_en: "Proposition 32: Irreducible K-characters form an orthogonal basis of R_K(G)"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [characters, orthogonality-relations, basis, irreducible-representations]
+depends_on:
+  required: [rk-g-ring-of-k-characters]
+  recommended: [orthogonality-of-characters, schurs-lemma]
+  suggested: [absolutely-irreducible-representation]
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "12"
+    section: "12.1"
+    pages: ""
+    role_in_book: "Establishes the structure of R_K(G) as a free abelian group with orthogonal basis given by irreducible K-characters"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

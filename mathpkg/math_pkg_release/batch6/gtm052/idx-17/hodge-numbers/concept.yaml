@@ -1,0 +1,23 @@
+id: hodge-numbers
+title_en: "Hodge Numbers"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [hodge-theory, differential-forms, birational-invariant, projective-variety]
+depends_on:
+  required: [sheaf-of-differentials, projective-variety]
+  recommended: []
+  suggested: [plurigenus, geometric-genus]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "206-212"
+    role_in_book: "Exercise 8.8 — introduces Hodge numbers as birational invariants of projective nonsingular varieties"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

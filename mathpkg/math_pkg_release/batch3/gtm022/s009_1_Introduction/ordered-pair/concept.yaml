@@ -1,0 +1,23 @@
+id: ordered-pair
+title_en: "Ordered Pair (Kuratowski)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [ZF, Zermelo-Fraenkel, ordered-pair, Kuratowski, cartesian-product, sets]
+depends_on:
+  required: [axiom-of-extension, subset-relation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Kuratowski definition of ordered pair as a set; foundational for Cartesian products"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

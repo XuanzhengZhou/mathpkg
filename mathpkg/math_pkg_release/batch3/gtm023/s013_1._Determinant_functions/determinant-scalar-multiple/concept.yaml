@@ -1,0 +1,23 @@
+id: determinant-scalar-multiple
+title_en: "Uniqueness of determinant function up to scalar"
+title_zh: "行列式函数在标量意义下的唯一性"
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [determinant, uniqueness, scalar-multiple]
+depends_on:
+  required: [determinant-representation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IV"
+    section: "§1. Determinant functions"
+    pages: "4.3"
+    role_in_book: "Corollary to Proposition III: All determinant functions on E are scalar multiples of a fixed nonzero one"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

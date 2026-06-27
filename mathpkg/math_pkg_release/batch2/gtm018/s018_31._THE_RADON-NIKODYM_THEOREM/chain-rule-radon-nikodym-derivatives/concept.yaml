@@ -1,0 +1,23 @@
+id: chain-rule-radon-nikodym-derivatives
+title_en: "Chain Rule for Radon-Nikodym Derivatives"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [radon-nikodym, chain-rule, derivative, measure]
+depends_on:
+  required: [radon-nikodym-theorem, radon-nikodym-derivative]
+  recommended: [signed-measure, absolute-continuity-measures]
+  suggested: []
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "31"
+    section: "31. The Radon-Nikodym Theorem"
+    pages: ""
+    role_in_book: "Theorem A; fundamental calculus property of Radon-Nikodym derivatives"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

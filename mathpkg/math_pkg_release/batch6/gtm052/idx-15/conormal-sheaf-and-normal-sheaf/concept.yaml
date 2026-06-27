@@ -1,0 +1,23 @@
+id: conormal-sheaf-and-normal-sheaf
+title_en: "Conormal Sheaf and Normal Sheaf of a Nonsingular Subvariety"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [conormal-sheaf, normal-sheaf, nonsingular-subvariety, locally-free-sheaf, tangent-sheaf]
+depends_on:
+  required: [nonsingularity-via-sheaf-of-differentials, dual-sheaf]
+  recommended: [tangent-sheaf, exact-sequence-of-locally-free-sheaves]
+  suggested: [normal-bundle]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Definition of the conormal sheaf I/I² and normal sheaf Hom(I/I², O_Y) of a nonsingular subvariety Y in X, with the exact sequence 0 → T_Y → T_X⊗O_Y → N_{Y/X} → 0"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

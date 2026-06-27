@@ -1,0 +1,23 @@
+id: extreme-point-in-supporting-hyperplane
+title_en: "Theorem 10.3 (Extreme Point in Every Supporting Hyperplane)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [extreme-point, supporting-hyperplane, compact-convex-set, zorn-lemma, locally-convex-space]
+depends_on:
+  required: [extreme-point, supporting-hyperplanes-compact-convex]
+  recommended: [zorn-lemma, compact-set, locally-convex-space]
+  suggested: [krein-milman-theorem]
+source_books:
+  - book_id: "gtm003"
+    author: "Schaefer, H.H."
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "10"
+    pages: ""
+    role_in_book: "Key step toward Krein-Milman: every supporting hyperplane of a compact convex set contains an extreme point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

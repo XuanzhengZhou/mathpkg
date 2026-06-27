@@ -1,0 +1,11 @@
+Let $\mathbf{T}$ be an algebraic theory in $\mathcal{K}$ and let $(Y, \theta; +, i, 0)$ be an abelian group in $\mathcal{K}^{\mathbf{T}}$. For each $\mathbf{T}$-algebra $(X, \xi)$, the **triple cohomology** cochain complex is
+
+$$0 \xrightarrow{d^0} [XT, Y] \xrightarrow{d^1} \cdots \xrightarrow{d^n} [XT^{n+1}, Y] \xrightarrow{d^{n+1}} [XT^{n+2}, Y] \rightarrow \cdots$$
+
+where $[XT^{n+1}, Y]$ denotes the abelian group $\mathcal{K}^{\mathbf{T}}((XT^{n+1}, XT^n \mu), (Y, \theta))$, and the coboundary maps are given by
+
+$$(XT^{n+1} \xrightarrow{a} Y) d^{n+1} = \xi T^{n+1} \cdot a + \sum_{k=0}^{n} (-1)^{k+1}(XT^k \mu T^{n-k} \cdot a).$$
+
+The **$n$th triple cohomology group** $H^n(X, \xi)$ of $(X, \xi)$ with coefficients in $(Y, \theta; +, i, 0)$ is the $n$th cohomology group of this complex:
+
+$$H^n(X, \xi) = \frac{\operatorname{Ker}(d^{n+1})}{\operatorname{Im}(d^n)}.$$

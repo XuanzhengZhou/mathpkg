@@ -1,0 +1,23 @@
+id: existence-of-symplectic-basis
+title_en: "Existence of Symplectic Basis"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [symplectic, basis, existence, symplectic-vector-space]
+depends_on:
+  required: [symplectic-inner-product, symplectic-basis]
+  recommended: [even-dimensionality-of-symplectic-spaces]
+  suggested: [gram-schmidt, bilinear-form-diagonalization]
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "7"
+    pages: "347-352"
+    role_in_book: "Establishes that every finite-dimensional symplectic vector space admits a canonical symplectic basis, the linear-algebraic analog of Darboux's theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

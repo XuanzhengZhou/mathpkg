@@ -1,0 +1,23 @@
+id: universal-specification
+title_en: "Universal Specification (Theorem 10.61)"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: predicate-logic
+difficulty: intermediate
+tags: [universal-specification, substitution, universal-quantifier, free-variable, bound-variable, predicate-calculus]
+depends_on:
+  required: [universal-generalization, change-of-bound-variable]
+  recommended: [universal-instantiation, free-substitution, bound-substitution]
+  suggested: [logical-axiom]
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.10"
+    pages: ""
+    role_in_book: "Establishes the validity of universal specification when the term being substituted does not cause variable capture"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

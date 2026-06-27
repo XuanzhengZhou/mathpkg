@@ -1,0 +1,6 @@
+Let $A \subseteq P(V, \mathcal{R})$ and $p \in P(V, \mathcal{R})$. A proof of length $n$ of $p$ from $A$ is a sequence $p_1, \ldots, p_n$ of $n$ elements of $P(V, \mathcal{R})$ such that $p_n = p$, the sequence $p_1, \ldots, p_{n-1}$ is a proof of length $n-1$ of $p_{n-1}$ from $A$, and one of the following holds:
+\begin{itemize}
+\item[(a)] $p_n \in \mathcal{A} \cup A$, where $\mathcal{A}$ is the set of logical axioms;
+\item[(b)] $p_i = p_j \Rightarrow p_n$ for some $i, j < n$ (Modus Ponens);
+\item[(c)] $p_n = (\forall x)w(x)$ and some subsequence $p_{k_1}, \ldots, p_{k_r}$ of $p_1, \ldots, p_{n-1}$ is a proof of length $r < n$ of $w(x)$ from $A$, and $x$ does not occur free in any element of $A$ used in that proof subsequence (Generalisation).
+\end{itemize}

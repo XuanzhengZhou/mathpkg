@@ -1,0 +1,23 @@
+id: countable-space-is-realcompact
+title_en: "Every Countable Space is Realcompact"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: general-topology
+difficulty: intermediate
+tags: [realcompact, countable-space, z-ultrafilter, countable-intersection-property]
+depends_on:
+  required: [real-z-ultrafilter, real-maximal-ideal-characterization]
+  recommended: [realcompact-space, z-filter, free-z-filter]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.15"
+    pages: ""
+    role_in_book: "Corollary: every countable space is realcompact since no free z-filter on a countable space can have the countable intersection property"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

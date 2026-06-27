@@ -1,0 +1,23 @@
+id: polar-lattice-anti-isomorphism
+title_en: "Polar Map as Anti-Isomorphism of Lattices of Closed Subspaces"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [polar, lattice-anti-isomorphism, closed-subspace, weak-topology, duality, lattice-operations]
+depends_on:
+  required: [bipolar-theorem, closed-subspace-bipolar-criterion, vector-subspace, sigma-f-g-topology]
+  recommended: [lattice-of-subspaces, polar-of-set]
+  suggested: [orthogonal-subspace]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "1.5"
+    pages: "page_0140"
+    role_in_book: "Establishes the polar map as an order-reversing bijection between lattices of weakly closed subspaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

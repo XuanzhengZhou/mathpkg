@@ -1,0 +1,23 @@
+id: bound-on-average-valence
+title_en: "Bound on Average Valence: ρ < H(γ, ι)"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: graph-theory
+difficulty: advanced
+tags: [average-valence, imbedding-index, girth, heawood-inequality, ringel-analog]
+depends_on:
+  required: [imbedding-index-bound-c10, average-valence-identity, imbedding-index-inequality-c8]
+  recommended: [imbedding-index]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "Chapter VII"
+    section: "Section 34"
+    pages: "208-213"
+    role_in_book: "Main theorem of the section; generalizes Heawood's inequality and Ringel's analog"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

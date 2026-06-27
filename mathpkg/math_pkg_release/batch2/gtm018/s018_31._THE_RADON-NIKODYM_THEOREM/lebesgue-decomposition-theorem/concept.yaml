@@ -1,0 +1,23 @@
+id: lebesgue-decomposition-theorem
+title_en: "Lebesgue Decomposition Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [lebesgue-decomposition, radon-nikodym, singular-measure, absolute-continuity, signed-measure]
+depends_on:
+  required: [radon-nikodym-theorem, signed-measure, singular-measures]
+  recommended: [totally-sigma-finite-measure, absolute-continuity-measures]
+  suggested: []
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "31"
+    section: "31. The Radon-Nikodym Theorem"
+    pages: ""
+    role_in_book: "Theorem C; decomposes a signed measure into absolutely continuous and singular parts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

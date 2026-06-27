@@ -1,0 +1,23 @@
+id: equilibrium-energy-equals-capacity
+title_en: "Energy of the Equilibrium Potential Equals Capacity"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: potential-theory
+difficulty: intermediate
+tags: [equilibrium-potential, energy, capacity, equilibrium-set]
+depends_on:
+  required: [energy-of-potential, equilibrium-potential, capacity]
+  recommended: [dual-of-function]
+  suggested: [equilibrium-set]
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "8"
+    section: "5"
+    pages: ""
+    role_in_book: "connects energy of the equilibrium potential to capacity, fundamental for the equilibrium theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

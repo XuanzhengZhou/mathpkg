@@ -1,0 +1,23 @@
+id: H-realcompact-vX
+title_en: "H is Realcompact and Equals v(σ[X])"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: compactifications
+difficulty: advanced
+tags: [realcompact, realcompactification, fixed-ideal, real-maximal-ideal, isomorphism]
+depends_on:
+  required: [H-homomorphisms-onto-R, realcompact-space, isomorphism-via-pi-closure-CX]
+  recommended: [sigma-homeomorphism-C-embedded, fixed-maximal-ideal]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "11"
+    section: "8"
+    pages: ""
+    role_in_book: "Proves H is realcompact, establishing it as the realcompactification vX"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

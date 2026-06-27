@@ -1,0 +1,102 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $P$ is a Markov chain, then for $n \geq 0$,
+
+$$\Pr_i[x_n = j] = (P^n)_{ij}$$
+
+and
+
+$$\Pr_\pi[x_n = j] = (\pi P^n)_{j}.$$
+
+We shall use the notation $P_{ij}^{(n)}$ for $(P^n)_{ij}$, the $n$-step probability from $i$ to $j$.
+
+2. Examples of Markov chains
+
+We give ten examples of Markov chains; we shall refer to all of them from time to time.
+
+Example 1: Weather in the Land
+
+The weather is conveniently represented as a Markov chain with the three states $S = \{Rain, Nice, Snow\}$. The transition matrix becomes
+
+$$P = \begin{pmatrix}
+R & N & S \\
+R & \left( \begin{array}{ccc} \frac{1}{2} & \frac{1}{4} & \frac{1}{4} \\ \frac{1}{2} & 0 & \frac{1}{2} \\ \frac{1}{4} & \frac{1}{4} & \frac{1}{2} \end{array} \right) \end{pmatrix}.$$
+
+Example 2: Chain with a set of states $E$ made absorbing.
+
+Let $P$ be an arbitrary Markov chain with $S$ the set of states. Let a subset $E$ of $S$ be specified. We modify the original process by requiring that if the process is ever in a state $j$ of $E$, it does not leave that state. The new process is also a Markov chain; its transition matrix $P'$ differs from the $P$-matrix in that $P'_{jj} = 1$ and $P'_{ji} = 0$ for every $j \in E$ and for every $i \neq j$. The new process is called the chain with $E$ made absorbing.
+
+Example 3: Finite drunkard's walk.
+
+A drunkard walks randomly on a street between his house and a lake, starting at a bar in the middle. He has some idea of which way is home. The steps along the way are labeled by the integers from 0 to $n$; the bar, some integer $i$ between 0 and $n$, is the starting state, and the drunkard moves one step toward home (state $n$) with probability $p$ and one step toward the lake (state 0) with probability $q = 1 - p$. States 0 and $n$ are absorbing. We assume that $p \neq 0$ and $p \neq 1$. The transition matrix is
+
+$$P = \begin{pmatrix}
+0 & 1 & 2 & 3 & n - 1 & n \\
+1 & 0 & 0 & 0 & \ldots
+
+We assume $p \neq 0$ and $q \neq 0$. The transition matrix is
+
+$$P = \begin{pmatrix}
+0 & 1 & 2 & 3 \\
+1 & 0 & 0 & 0 \\
+q & 0 & p & 0 \\
+0 & q & 0 & p \\
+\vdots
+\end{pmatrix}.$$
+
+If $p = \frac{1}{2}$, then $\{x_n\}$ is a martingale, and if $p \neq \frac{1}{2}$, then $\{(q/p)^{x_n}\}$ is a martingale.
+
+Example 5: Basic example.
+
+A sequence of tasks is to be performed in a certain order, each with its own probability of success. Success means that the process goes to the next state; failure means that the process must start over at state 0. Thus the states are the non-negative integers, and with each positive integer $i$ we associate two probabilities $p_i$ and $q_i$ such that $p_i + q_i = 1$. The value $p_i$ is the transition probability from state $i - 1$ to state $i$, and $q_i$ is the transition probability from state $i - 1$ to 0. Thus $p_i$ is the probability of succeeding in the $i$th task. We assume that $p_i < 1$ for infinitely many $i$, and we normally assume that $p_i > 0$ for every $i$. The transition matrix is
+
+$$P = \begin{pmatrix}
+0 & 1 & 2 & 3 \\
+q_1 & p_1 & 0 & 0 \\
+q_2 & 0 & p_2 & 0 \\
+q_3 & 0 & 0 & p_3 \\
+\vdots
+\end{pmatrix}.$$
+
+In connection with this example, we define a row vector $\beta$ by
+
+$$\beta_0 = 1$$
+
+$$\beta_i = \prod_{k=1}^{i} p_k.$$
+
+Then $\beta_i$ is the probability of $i$ successes in a row after the process starts at 0. The reader should verify that a necessary and sufficient condition for $\beta = \beta
+
+an abelian group. A probability distribution $\{p_i\}$ defined on $I$ satisfies $p_i \geq 0$ and $\sum p_i = 1$. The Markov chain $P$ is defined by $p_{ij} = p_{j-i}$.
+
+The name of this Markov chain is derived from thinking of performing independent experiments which have probability $p_i$ of outcome $i$. The states of the chain are the partial sums of these results, and the sum changes from $i$ to $j$ with probability $P_{i,i+k} = p_k$ if $j = i + k$.
+
+For the case in which the index set $I$ is the set of integers with the usual concept of addition defined on them, martingales arise as in Example 1 of Section 3-2. We shall apply these ideas in Chapter 5.
+
+Example 7: Two classes of random walks.
+
+We shall be concerned especially with two kinds of random walks. The symmetric random walk in $n$-dimensions is defined to be a sums of independent random variables process on the lattice of integer points in $n$-dimensional Euclidean space. The transition probability from one lattice point to another is $(2n)^{-1}$ if the two points are a Euclidean distance of one unit apart; the transition probability is zero otherwise. Thus, from each point the process moves to one of $2n$ neighboring points with probability $(2n)^{-1}$.
+
+A second kind of random walk with which we shall be concerned is a sums of independent random variables process on the integers with $P_{i,i+1} = p$ and $P_{i,i-1} = q$ for every $i$. We shall call this process the $p-q$ random walk. If $p = q = \frac{1}{2}$, then $\{x_n\}$ is a martingale, and if $p \neq \frac{1}{2}$, then $\{(q/p)^{x_n}\}$ is a martingale.
+
+Example 8: General random walks on the line.
+
+The state space for a random walk on the line is the set of integers, and for each integer $i$, three probabilities $p_i, q_i$, and $r_i$ with $p_i + q_i +
+
+mean $\sum kp_k$ of $p$ is $m$. Let $\{y_n\}$ be a sequence of non-negative integer-valued independent random variables with common distribution $p$, and set $s_n = y_1 + \cdots + y_n$. Let $p_j^{(n)} = \Pr[s_n = j]$. Then the branching process is defined to be a Markov chain with transition probabilities $P_{ij} = p_j^{(i)}$.
+
+The usual model is the following. A species of bacteria has the distribution $p$ representative of the number of offspring one such bacterium has before it dies. The value of $y_k$ represents the number of offspring the $k$th bacterium has while it is alive, and $s_n$ represents the total number of bacteria produced by $n$ bacteria in one generation of the colony. The $r$th position, $x_r$, of the stochastic process is the number of bacteria in the $r$th offspring generation.
+
+As we have noted, the branching process is a Markov chain. Let $\{x_n\}$ be the outcome functions for the chain started in state 1 (that is, with one bacterium in the colony initially), and suppose the mean $m$ is finite. Then $\{x_n/m^n\}$ with its natural partition forms a martingale. The reader should verify that $M[|x_n/m^n|]$ is finite; we shall show that $M[x_{n+1}/m^{n+1} \mid x_1/m \land \cdots \land x_n/m^n] = x_n/m^n$. First we note that
+
+$$M[s_n] = \sum M[y_i] = nm,$$
+
+so that if we know that the process is in state $r$, then the mean state that it is in after the next step is $rm$. Then
+
+$$M[x_{n+1}/m^{n+1} \mid x_1/m \land \cdots \land x_n/m^n] = M[x_{n+1}/m^{n+1} \mid x_n] = (1/m^{n+1})M[x_{n+1} \mid x_n] = (1/m^{n+1})x_n m$$
+
+by the remarks above

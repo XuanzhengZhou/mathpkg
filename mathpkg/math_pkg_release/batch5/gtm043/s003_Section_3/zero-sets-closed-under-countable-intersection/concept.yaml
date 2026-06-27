@@ -1,0 +1,23 @@
+id: zero-sets-closed-under-countable-intersection
+title_en: "Z(X) is Closed Under Countable Intersection"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [zero-set, countable-intersection, uniform-convergence]
+depends_on:
+  required: [zero-set, zero-set-family]
+  recommended: [uniform-convergence]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.14"
+    pages: ""
+    role_in_book: "Establishes countable closure of Z(X), a key property for the algebraic study of C(X)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

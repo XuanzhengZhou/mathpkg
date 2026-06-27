@@ -1,0 +1,23 @@
+id: capacity-of-set
+title_en: "Capacity of a finite set"
+title_zh: "有限集的容量"
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [capacity, k-matrix, finite-set, potential-theory]
+depends_on:
+  required: [capacity-constant-existence, k-matrix]
+  recommended: [escape-vector, equilibrium-distribution]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Defines capacity for recurrent chains, analogous to classical capacity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

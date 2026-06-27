@@ -1,0 +1,11 @@
+For any formula $\varphi$ the following conditions are equivalent:
+\begin{enumerate}
+\item[(i)] $\varphi$ is a tautology;
+\item[(ii)] for any $f$, if $f$ maps the set $S$ of subformulas of $\varphi$ into $2$ and satisfies the following conditions:
+\begin{itemize}
+\item[(a)] for any $\psi$, if $\psi \in S$ and $\neg \psi \in S$, then $f(\neg \psi) = 1$ iff $f(\psi) = 0$;
+\item[(b)] for any $\psi, \chi$, if $\psi, \chi, \psi \vee \chi \in S$, then $f(\psi \vee \chi) = 1$ iff ($f(\psi) = 1$ or $f(\chi) = 1$);
+\item[(c)] for any $\psi, \chi$, if $\psi, \chi, \psi \wedge \chi \in S$, then $f(\psi \wedge \chi) = 1$ iff ($f(\psi) = 1$ and $f(\chi) = 1$);
+\end{itemize}
+then $f(\varphi) = 1$.
+\end{enumerate}

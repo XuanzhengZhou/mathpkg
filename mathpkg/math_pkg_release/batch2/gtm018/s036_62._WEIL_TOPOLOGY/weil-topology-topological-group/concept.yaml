@@ -1,0 +1,23 @@
+id: weil-topology-topological-group
+title_en: "Theorem E: Weil topology makes a separated measurable group into a topological group"
+title_zh: "定理E: Weil拓扑使分离可测群成为拓扑群"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [weil-topology, measurable-group, topological-group, neighborhood-base]
+depends_on:
+  required: [separated-measurable-group, class-n-measurable-group, topological-group-axioms]
+  recommended: [class-a-measurable-group, subset-with-inverse-in-neighborhood, neighborhood-contained-in-class-a, intersection-property-of-class-a]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "XII"
+    section: "62"
+    pages: "273-274"
+    role_in_book: "Main theorem: the Weil topology makes the group into a topological group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

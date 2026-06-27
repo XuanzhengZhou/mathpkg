@@ -1,0 +1,28 @@
+id: 3-simplex-has-push-property
+title_en: "Every 3-Simplex in $\\mathbb{R}^3$ Has the Push Property"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: advanced
+tags:
+- 3-simplex
+- push-property
+- plh
+depends_on:
+  required:
+  - plh-maps-2-cell-in-simplex-boundary-to-face
+  recommended: []
+  suggested:
+  - push-property-3-simplex
+source_books:
+- book_id: gtm047
+  author: "Edwin E. Moise"
+  title: "Geometric Topology in Dimensions 2 and 3"
+  chapter: ""
+  section: "21"
+  pages: ""
+  role_in_book: "Key lemma for PL Schoenflies theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

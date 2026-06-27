@@ -1,0 +1,23 @@
+id: kruskal-vacuum-not-flat-not-stationary
+title_en: "Kruskal Spacetime is Vacuum, Not Flat, and Not Stationary"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: advanced
+tags: [general-relativity, kruskal-spacetime, kretschmann-scalar, vacuum-spacetime, killing-vector-field]
+depends_on:
+  required: [kruskal-spacetime, mi-isometric-to-normal-schwarzschild]
+  recommended: []
+  suggested: [kretschmann-scalar, killing-vector-field]
+source_books:
+  - book_id: gtm048
+    author: "R.K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "7"
+    section: "7.5"
+    pages: ""
+    role_in_book: "Corollary 7.5.4 — establishes key geometric properties of the Kruskal spacetime"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

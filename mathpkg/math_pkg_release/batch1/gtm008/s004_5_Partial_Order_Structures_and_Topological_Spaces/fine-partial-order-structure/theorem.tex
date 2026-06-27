@@ -1,0 +1,3 @@
+A partial order structure $P = \langle P, \leq \rangle$ (or a partially ordered set $P$) is called \textit{fine} if the following condition is satisfied:
+$$(\forall p, q \in P)[q \not\leq p \rightarrow (\exists r \in P)[r \leq q \land \neg \text{Comp}(r, p)]],$$
+where $\text{Comp}(r, p)$ means $r$ and $p$ are compatible, i.e., $(\exists s \in P)[s \leq r \land s \leq p]$.

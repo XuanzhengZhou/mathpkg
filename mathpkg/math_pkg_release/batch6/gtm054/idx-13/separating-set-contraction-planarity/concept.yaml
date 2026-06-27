@@ -1,0 +1,23 @@
+id: separating-set-contraction-planarity
+title_en: "Planarity Reduction via Separating Set Contraction"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [separating-set, contraction, planarity, minimal-separating-set, connected-components]
+depends_on:
+  required: []
+  recommended: [subcontraction, planar-graph, separating-set, contraction-in-planarity]
+  suggested: [kuratowski-planarity-theorem, lobe]
+source_books:
+  - book_id: gtm054
+    author: "Graver, J.E. and Watkins, M.E."
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "III"
+    section: "13 (III.G Kuratowski's Theorem)"
+    pages: "104-107"
+    role_in_book: "Proposition G3: A key reduction lemma for the proof of Kuratowski's Theorem, allowing planarity to be checked on simpler contractions when a small separating set exists."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

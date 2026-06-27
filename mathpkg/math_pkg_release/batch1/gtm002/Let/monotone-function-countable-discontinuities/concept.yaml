@@ -1,0 +1,23 @@
+id: monotone-function-countable-discontinuities
+title_en: "Monotone Functions Have Countably Many Discontinuities"
+title_zh: "单调函数的不连续点至多可数"
+type: theorem
+domain: analysis
+subdomain: real-analysis
+difficulty: basic
+tags: [monotone-function, discontinuity, countable-set, oscillation]
+depends_on:
+  required: [oscillation-at-point, monotone-function]
+  recommended: [countable-set]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "7"
+    section: "7"
+    pages: "39-43"
+    role_in_book: "Theorem 7.8; shows monotone functions have at most countably many jump discontinuities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

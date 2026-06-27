@@ -1,0 +1,23 @@
+id: limit-of-monotone-sequence
+title_en: "Limit of a Monotone Sequence of Sets"
+title_zh: "单调集列的极限"
+type: proposition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [set-theory, monotone, limit]
+depends_on:
+  required: [monotone-sequence-of-sets, union-of-class, intersection-of-class]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "I"
+    section: "3"
+    pages: ""
+    role_in_book: "Shows that monotone sequences always converge to their union or intersection"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

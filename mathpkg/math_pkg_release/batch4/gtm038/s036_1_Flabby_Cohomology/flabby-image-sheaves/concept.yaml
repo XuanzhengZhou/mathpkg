@@ -1,0 +1,23 @@
+id: flabby-image-sheaves
+title_en: "Flabbiness of Image Sheaves in a Flabby Resolution"
+title_zh: "松层分解中像层的松性"
+type: theorem
+domain: topology
+subdomain: sheaf-cohomology
+difficulty: intermediate
+tags: ["flabby sheaf", "sheaf resolution", "induction", "global sections"]
+depends_on:
+  required: ["flabby-sheaf", "exact-sequence-of-sheaves"]
+  recommended: ["flabby-sheaf-surjectivity"]
+  suggested: ["sheaf-resolution", "acyclic-resolution"]
+source_books:
+  - book_id: "gtm038"
+    author: "Raghavan Narasimhan"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Key step in proving flabby sheaves are acyclic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

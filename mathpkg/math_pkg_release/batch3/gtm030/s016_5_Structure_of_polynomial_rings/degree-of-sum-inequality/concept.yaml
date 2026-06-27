@@ -1,0 +1,23 @@
+id: degree-of-sum-inequality
+title_en: "Degree of Sum Inequality for Polynomials"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: polynomial-rings
+difficulty: basic
+tags: [degree, polynomial-ring, sum-inequality]
+depends_on:
+  required: []
+  recommended: [polynomial-ring, degree-of-polynomial]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "5"
+    pages: ""
+    role_in_book: "Relation (15): deg(f+g) ≤ max(deg f, deg g)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

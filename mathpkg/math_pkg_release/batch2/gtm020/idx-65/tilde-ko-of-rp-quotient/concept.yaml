@@ -1,0 +1,23 @@
+id: tilde-ko-of-rp-quotient
+title_en: "Structure of the Reduced Real KO-Theory of Relative Real Projective Spaces"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: k-theory
+difficulty: advanced
+tags: [k-theory, projective-spaces, real-k-theory, clifford-modules, relative-cohomology]
+depends_on:
+  required: [theta-prime-group-morphism-to-tilde-ko, tilde-ko-group]
+  recommended: [representation-ring-of-clifford-algebra, j-group-of-rp]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "11"
+    section: "11.6"
+    pages: ""
+    role_in_book: "Determines the structure of the relative KO-theory of real projective spaces in terms of Clifford module representations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

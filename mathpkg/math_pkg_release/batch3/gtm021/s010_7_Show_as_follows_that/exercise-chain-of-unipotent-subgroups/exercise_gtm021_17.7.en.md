@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "17"
+section: "17"
+exercise_number: 7
+---
+
+Show that U = U(n,K) has a chain of closed connected subgroups, each normal in U and of codimension 1. Order pairs (i,j) with i<j by: (i,j) < (k,l) if j<l or j=l and i>k. Set U_{ij} = {x in U | x_{kl} = 0 for (k,l) <= (i,j)} and verify U superset U_{12} superset ... superset U_{1n} superset e has the asserted properties. Verify each U_{ij} is normalized by D(n,K).

@@ -1,0 +1,23 @@
+id: total-number-of-handles
+title_en: "Total number of handles of a compact orientable 2-manifold"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: geometric-topology
+difficulty: basic
+tags: [handle, orientable-2-manifold, genus, betti-number]
+depends_on:
+  required: [orientable-2-manifold, handle, sphere-with-handles]
+  recommended: [classification-of-compact-connected-2-manifolds]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: ""
+    section: "23"
+    pages: ""
+    role_in_book: "Defines the total handle count h(M) for compact orientable 2-manifolds as input to Theorem 18."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

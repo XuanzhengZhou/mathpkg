@@ -1,0 +1,20 @@
+id: difference-estimate-for-successive-probabilities
+title_en: "Difference Estimate for Successive Approximating Probabilities"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [difference-estimate, hitting-event, ratio-limit, return-probability]
+depends_on: {required:[], recommended:[ratio-approximation-for-hitting-events], suggested:[]}
+source_books:
+  - book_id: "gtm034"
+    author: "Frank Spitzer"
+    title: "Principles of Random Walk"
+    chapter: "VI"
+    section: "32"
+    pages: "388-389"
+    role_in_book: "Final estimate linking $q_n$ and $\tilde{q}_{n+1}$, completing the proof of T2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

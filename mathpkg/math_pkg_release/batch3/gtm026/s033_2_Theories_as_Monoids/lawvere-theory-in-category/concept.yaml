@@ -1,0 +1,23 @@
+id: lawvere-theory-in-category
+title_en: "Lawvere Theory in a Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [lawvere-theory, algebraic-theory, adjoint-functor, linton-theory, clone]
+depends_on:
+  required: [category, functor, adjoint-functor]
+  recommended: [algebraic-theory-clone-form]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2. Theories as Monoids"
+    pages: ""
+    role_in_book: "Definition introduced in Exercise 7; Linton's generalization of Lawvere theories to arbitrary base categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: multiplicity-of-irreducible-in-regular-representation
+title_en: "Multiplicity of Irreducible Representations in the Regular Representation"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [regular-representation, multiplicity, irreducible-representations, degree]
+depends_on:
+  required: [character-of-regular-representation, multiplicity-via-scalar-product]
+  recommended: [irreducible-character-degree]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "2"
+    section: "2.4"
+    pages: ""
+    role_in_book: "Corollary 1 to Proposition 5. Every irreducible representation appears in the regular representation with multiplicity equal to its degree, a crucial structural result."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: taylor-expansion-analytic-functions
+title_en: "Power Series Expansion of Analytic Functions"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [taylor-series, analytic-function, power-series, radius-of-convergence]
+depends_on:
+  required: [cauchy-integral-formula-disk, uniform-convergence-line-integral]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "2.8"
+    pages: ""
+    role_in_book: "Central theorem establishing that every analytic function has a convergent power series expansion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,8 @@
+A \textbf{bicategory} $B$ consists of:
+\begin{itemize}
+\item A set of objects (0-cells) $A, B, C, \ldots$;
+\item For each pair $A, B$, a category $B(A, B)$ whose objects are 1-cells (arrows) $f: A \rightarrow B$ and whose arrows are 2-cells $\alpha: f \Rightarrow g$;
+\item For each triple $A, B, C$, a composition functor $c_{A,B,C}: B(B, C) \times B(A, B) \rightarrow B(A, C)$;
+\item For each $A$, an identity 1-cell $1_A \in B(A, A)$;
+\item Natural isomorphisms for associativity ($a$) and left/right unit ($\ell, r$) satisfying coherence axioms (the pentagon and triangle identities).
+\end{itemize}

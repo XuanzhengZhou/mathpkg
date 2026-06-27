@@ -1,0 +1,1 @@
+The holomorphically convex hull satisfies closure properties analogous to the geometrically convex hull: it is closed, idempotent, and preserves boundedness. These properties make it a hull operator in the sense of topology.

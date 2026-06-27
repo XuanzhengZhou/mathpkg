@@ -1,0 +1,23 @@
+id: maximum-principle
+title_en: "The Maximum Principle"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [maximum-principle, boolean-valued-universe, existential-quantifier, V-B]
+depends_on:
+  required: [boolean-valued-universe, domain-extension-for-boolean-valued-sets]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: "154-155"
+    role_in_book: "Central theorem of Chapter 16: the existential quantifier in V^(B) is witnessed by a single element"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+Every holomorphic function on a proper Reinhardt domain admits a unique Laurent series expansion about the origin that converges throughout the domain. This generalizes the Laurent expansion from one variable.

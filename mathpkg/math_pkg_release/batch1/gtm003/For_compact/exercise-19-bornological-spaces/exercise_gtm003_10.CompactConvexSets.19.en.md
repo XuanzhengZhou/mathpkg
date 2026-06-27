@@ -1,0 +1,17 @@
+---
+role: exercise
+locale: en
+chapter: "10"
+section: "Compact Convex Sets"
+exercise_number: 19
+---
+
+Let $\{E_\alpha : \alpha \in A\}$ be a family of l.c.s. over $K$.
+
+(a) Assume that $K_0^A$ is bornological. If $u$ is a linear map on $E = \prod_\alpha E_\alpha$ into a l.c.s. $F$ such that $u$ carries bounded sets onto bounded sets and the restriction of $u$ to each of the subspaces $\dot{E}_\alpha = \{x \in E : x_\beta = 0 \text{ for } \beta \neq \alpha\}$ of $E$ $(\alpha \in A)$ vanishes, then $u = 0$. (Consider the restriction of $u$ to the bornological space $\prod_\alpha Kx_\alpha$ for each $x = (x_\alpha) \in E$, and use (8.3).)
+
+(b) Let $F$ be a Banach space and let $u$ be a linear map of $E = \prod_\alpha E_\alpha$ into $F$ transforming bounded sets into bounded sets. Show that $u$ must vanish on all but a finite number of the subspaces $\dot{E}_\alpha$.
+
+(c) Using (a) and (b), show that if $K_0^A$ is bornological and $u$ is a linear map on $\prod_\alpha E_\alpha$ into a Banach space $F$ such that $u$ maps bounded sets onto bounded sets, there exists a finite subset $H \subset A$ such that $\prod_\alpha E_\alpha = \prod_{\beta \in H} E_\beta \oplus G$ and $u(G) = \{0\}$.
+
+(d) Using (c) and Exercise 18, show that $\prod_\alpha E_\alpha$ is bornological if $E_\alpha$ $(\alpha \in A)$ and $K_0^A$ are bornological. Deduce from this that the product of a countable family of bornological spaces is bornological.

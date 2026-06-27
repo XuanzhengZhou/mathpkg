@@ -1,0 +1,23 @@
+id: property-k1
+title_en: "Property K.1: Product of associated power series"
+title_zh: "性质K.1: 相伴幂级数的乘积"
+type: proposition
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [kummer-homomorphism, associated-power-series, local-units]
+depends_on:
+  required: [kummer-homomorphism]
+  recommended: [power-series, p-adic-analysis]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "6"
+    section: "6"
+    pages: ""
+    role_in_book: "Closure property: if f,f' are associated with u,u0 then ff' is associated with ww0"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

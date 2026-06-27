@@ -1,0 +1,25 @@
+$r(U + \{x_1, x_2\}) - r(U + \{x_2\}) = 1.$
+
+By successive substitutions of C18, C19, then C17,
+
+$$r(U) = r(U + \{x_2\}) - 1$$
+$$= r(U + \{x_1, x_2\}) - 2$$
+$$= r(U + \{x_1\}) - 2,$$
+
+contrary to C2. Hence $(V, c)$ is a closure structure.
+
+Finally, let us define $s: \mathcal{P}(V) \to \mathbb{N}$ by
+
+$$s(U) = \min\{|T|: T \in \mathcal{P}(U); c(T) = c(U)\}.$$
+
+Since (a) implies (b) in this proposition, $(V, s)$ is a rank structure, and it suffices to prove $r = s$. We proceed by induction on $|U|$. By C1, $r(\emptyset) = 0 = s(\emptyset)$. Suppose that $r(U) = s(U)$ for some set $U \in \mathcal{P}(V)$ but that $r(U + \{x\}) \neq s(U + \{x\})$ for some $x \in V + U$. By C2 exactly one of the following two equations holds:
+
+$$r(U + \{x\}) = r(U); \quad s(U + \{x\}) = s(U).$$
+
+However, if $x \in c(U)$, then both equations hold, while if $x \notin c(U)$ then both equations fail. We arrive at a contradiction either way. Hence $r = s.$
+
+If $\Lambda = (V, \mathcal{M})$ is a matroid whose rank function is $r$, it now makes sense to define the closure operator $c: \mathcal{P}(V) \to \mathcal{P}(V)$ of $\Lambda$
+
+X Matroid Theory
+
+$\mathcal{V}$ spanned by $U$, and $\mathcal{C}(\Lambda)$ is the collection of intersections of $V$ with subspaces of $\mathcal{V}$.

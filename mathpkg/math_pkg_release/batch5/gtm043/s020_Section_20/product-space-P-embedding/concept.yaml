@@ -1,0 +1,23 @@
+id: product-space-P-embedding
+title_en: "Product Space P and P* for the Embedding of X"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: compactifications
+difficulty: advanced
+tags: [product-space, embedding, C-embedded, C-star-embedded, Tychonoff-embedding, realcompactification, Stone-Cech-compactification]
+depends_on:
+  required: [C-embedded-subspace, product-topology, weak-topology, projection-mapping]
+  recommended: [realcompact-space, Stone-Cech-compactification]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "11"
+    section: "2"
+    pages: ""
+    role_in_book: "Defines the product spaces P and P* used in the Tychonoff-style embedding construction of βX and vX"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

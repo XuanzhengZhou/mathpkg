@@ -1,0 +1,23 @@
+id: lattice-of-ideals
+title_en: "Lattice of Ideals in an Algebra"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: ideal-theory
+difficulty: basic
+tags: [ideal, lattice, algebra, partial-order]
+depends_on:
+  required: [ideal, algebra]
+  recommended: [lattice]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "5"
+    section: "§2. Ideals"
+    pages: "169"
+    role_in_book: "shows the set of ideals forms a lattice under inclusion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

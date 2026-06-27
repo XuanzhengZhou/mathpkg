@@ -1,0 +1,27 @@
+id: dual-power-formula
+title_en: "Power and Potential Formulas for the Alpha-Dual Matrix"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [duality, matrix-power, potential-kernel, type-preservation]
+depends_on:
+  required: [
+    - alpha-dual-matrix
+  ]
+  recommended: [
+    - transition-matrix, potential-kernel
+  ]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "2. Duality"
+    pages: ""
+    role_in_book: "Proposition 6-12: formulas for dual powers, potentials, and type preservation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

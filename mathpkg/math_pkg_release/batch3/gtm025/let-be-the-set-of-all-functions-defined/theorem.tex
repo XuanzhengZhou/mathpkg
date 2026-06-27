@@ -1,0 +1,23 @@
+Let $\mathfrak{F}^+$ be the set of all functions defined on $X$ with values in $[0, \infty]$. For $h \in \mathfrak{F}^+$, let
+
+$$\bar{I}(h) = \inf\{\bar{I}(g)
+
+for $n = 1, 2, \ldots$. The reader can easily check the identity
+
+$$g'_{n+1} + \min\{g'_n, g_{n+1}\} = g'_n + g_{n+1}.$$
+
+All of the functions above are in $\mathfrak{M}^+$, and so we have
+
+$$\bar{I}(g'_{n+1}) + \bar{I}(\min\{g'_n, g_{n+1}\}) = \bar{I}(g'_n) + \bar{I}(g_{n+1}).$$
+
+From the inequalities $g_{n+1} \geq h_{n+1} \geq h_n$ and $g'_n = \max\{g_1, g_2, \ldots, g_n\} \geq \max\{h_1, h_2, \ldots, h_n\} = h_n$, it follows that $\min\{g'_n, g_{n+1}\} \geq h_n$. Hence $-\bar{I}(\min\{g'_n, g_{n+1}\}) \leq -\bar{I}(h_n)$, and we have
+
+$$\bar{I}(g'_{n+1}) = \bar{I}(g'_n) + \bar{I}(g_{n+1}) - \bar{I}(\min\{g'_n, g_{n+1}\})$$
+
+$$\leq \bar{I}(g'_n) + \bar{I}(g_{n+1}) - \bar{I}(h_n)$$
+
+$$< \bar{I}(g'_n) + \bar{I}(h_{n+1}) + \frac{\varepsilon}{2^{n+1}} - \bar{I}(h_n).$$
+
+Summing this inequality over $n = 1, 2, \ldots, p$, we have
+
+$$\sum_{n=1}^{p} \bar{I}(g'_{n+1}) < \sum_{n=1}^{p} \bar{I}(g'_n) + \sum_{n=1}^{p} \bar{I}(h_{

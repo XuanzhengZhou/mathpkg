@@ -1,0 +1,23 @@
+id: null-chain-limit-zero
+title_en: "Null Chain Limit is Zero"
+title_zh: ""
+type: corollary
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [null-chain, limit, convergence]
+depends_on:
+  required: [convergence-theorem-noncyclic-recurrent-chains]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "4"
+    pages: ""
+    role_in_book: "Corollary 6-39: For any null chain (not necessarily noncyclic), the n-step transition probabilities tend to zero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

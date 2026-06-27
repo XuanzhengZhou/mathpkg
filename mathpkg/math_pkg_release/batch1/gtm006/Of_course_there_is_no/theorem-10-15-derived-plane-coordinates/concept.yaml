@@ -1,0 +1,23 @@
+id: theorem-10-15-derived-plane-coordinates
+title_en: "Coordinatization of the Derived Plane"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [derived-plane, coordinate-system, planar-ternary-ring, Baer-subplane]
+depends_on:
+  required: [derived-plane, planar-ternary-ring, Baer-subplane, coordinatization]
+  recommended: [right-quasifield, affine-plane]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "10"
+    section: "4"
+    pages: ""
+    role_in_book: "Specifies how to coordinatize the derived plane in terms of the original coordinate system"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

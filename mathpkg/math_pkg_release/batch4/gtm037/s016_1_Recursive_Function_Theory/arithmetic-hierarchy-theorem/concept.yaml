@@ -1,0 +1,23 @@
+id: arithmetic-hierarchy-theorem
+title_en: "Arithmetic Hierarchy Theorem"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: computability-theory
+difficulty: advanced
+tags: ["arithmetic-hierarchy", "hierarchy-theorem", "sigma-m", "pi-m", "delta-m", "strictness", "monk-5-36"]
+depends_on:
+  required: ["sigma-m-pi-m-delta-m-relations", "universal-arithmetical-relations"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "Part 1: Recursive Function Theory"
+    section: "5. Arithmetic Hierarchy"
+    pages: ""
+    role_in_book: "Theorem 5.36 — the arithmetic hierarchy does not collapse; each level properly contains the previous ones"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

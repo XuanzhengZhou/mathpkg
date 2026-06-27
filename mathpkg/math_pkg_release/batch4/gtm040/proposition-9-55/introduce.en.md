@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+In a noncyclic ergodic chain all sets are small, and $\lambda^E = \alpha B^E$ and $^E \nu = \alpha^E N$. In particular, for the set of all states, $\lambda^S = \alpha$.

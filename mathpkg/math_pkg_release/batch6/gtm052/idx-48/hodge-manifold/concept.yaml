@@ -1,0 +1,23 @@
+id: hodge-manifold
+title_en: "Hodge Manifold"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: complex-analytic-geometry
+difficulty: advanced
+tags: [hodge, kahler, projective-algebraic, kodaira]
+depends_on:
+  required: [kahler-manifold]
+  recommended: [hodge-theory]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix B"
+    section: "4"
+    pages: "445"
+    role_in_book: "Defines Hodge manifolds and states the equivalence with projective algebraic manifolds via Kodaira embedding theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

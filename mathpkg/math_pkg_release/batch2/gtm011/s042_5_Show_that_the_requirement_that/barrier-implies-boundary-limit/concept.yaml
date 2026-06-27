@@ -1,0 +1,23 @@
+id: barrier-implies-boundary-limit
+title_en: "Barrier Implies Limit of Perron Solution"
+title_zh: "障碍函数蕴含佩隆解的边界极限"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [barrier, dirichlet-problem, perron-method, boundary-behavior, harmonic-function]
+depends_on:
+  required: [barrier-for-dirichlet-problem, perron-method, superharmonic-function]
+  recommended: [dirichlet-region, subharmonic-function]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "X"
+    section: "4"
+    pages: ""
+    role_in_book: "Shows that existence of a barrier at a boundary point implies the Perron solution attains the prescribed boundary value there"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

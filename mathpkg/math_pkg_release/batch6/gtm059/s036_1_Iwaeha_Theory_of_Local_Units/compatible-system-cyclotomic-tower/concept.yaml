@@ -1,0 +1,23 @@
+id: compatible-system-cyclotomic-tower
+title_en: "Norm-Comptible System in the Cyclotomic Tower"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [norm-compatible, cyclotomic-tower, local-units, projective-system]
+depends_on:
+  required: [cyclotomic-units-group-en, closure-of-cyclotomic-units-vn]
+  recommended: [projective-limit, norm-map]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "Iwasawa Theory of Local Units"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines norm-compatible elements $v_n$ in the cyclotomic tower satisfying $N_{m,n} v_m = v_n$, and constructs the projective limit $v = \varprojlim v_n$"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

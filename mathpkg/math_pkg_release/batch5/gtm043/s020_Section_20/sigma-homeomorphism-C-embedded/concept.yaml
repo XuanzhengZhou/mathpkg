@@ -1,0 +1,23 @@
+id: sigma-homeomorphism-C-embedded
+title_en: "The Mapping σ is a Homeomorphism and σ[X] is C-Embedded in P"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: compactifications
+difficulty: advanced
+tags: [embedding, C-embedded, product-space, Tychonoff-embedding, realcompactification]
+depends_on:
+  required: [product-space-P-embedding, C-embedded-subspace, induced-homomorphism]
+  recommended: [weak-topology, Stone-Cech-compactification]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "11"
+    section: "3"
+    pages: ""
+    role_in_book: "Establishes the embedding of X into P via σ, proving σ[X] is C-embedded in P"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

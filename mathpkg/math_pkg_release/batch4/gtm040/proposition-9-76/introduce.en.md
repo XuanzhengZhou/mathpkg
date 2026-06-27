@@ -1,0 +1,14 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $P$ is strong ergodic, then
+
+(1) dual $Z = \hat{Z}$.
+(2) $Z1 = 1$ and $\alpha Z = \alpha$.
+(3) $Z(I - P) = I - A = (I - P)Z$.
+(4) $Z(I - P + A) = I = (I - P + A)Z$.
+(5) $Z = A - G(I - A) = A - (I - A)C$.

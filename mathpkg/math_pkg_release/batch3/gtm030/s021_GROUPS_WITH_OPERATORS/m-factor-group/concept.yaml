@@ -1,0 +1,23 @@
+id: m-factor-group
+title_en: "M-Factor Group"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [group-with-operators, m-group, factor-group, quotient-group, invariant-m-subgroup]
+depends_on:
+  required: [group-with-operators, m-subgroup, factor-group]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "V: Groups with Operators"
+    section: "2: M-subgroups, M-factor groups and M-homomorphisms"
+    pages: ""
+    role_in_book: "Defines how to make a factor group into an M-group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,20 @@
+id: permutation-parity
+title_en: "Parity of a Permutation"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: ["permutation", "parity", "sign", "alternating-group"]
+depends_on: {required: ["transposition", "disjoint-cycles"], recommended: [], suggested: []}
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "I"
+    section: "12"
+    pages: ""
+    role_in_book: "Theorem (parity is well-defined)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

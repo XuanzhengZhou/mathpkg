@@ -1,0 +1,23 @@
+id: skew-symmetric-vanishing-dimension
+title_en: "Vanishing of skew symmetric maps above dimension"
+title_zh: "高于维数时斜对称映射的消失"
+type: corollary
+domain: algebra
+subdomain: multilinear-algebra
+difficulty: basic
+tags: [skew-symmetric, dimension, vanishing, multilinear]
+depends_on:
+  required: [skew-symmetric-characterization]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IV"
+    section: "§1. Determinant functions"
+    pages: "4.2"
+    role_in_book: "Corollary to Proposition I: skew symmetric p-linear maps vanish when p exceeds dimension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

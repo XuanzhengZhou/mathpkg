@@ -1,0 +1,23 @@
+id: fourier-expansion-of-step-functions-on-cosets
+title_en: "Fourier Expansion of Step Functions on Cosets"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: p-adic-measures
+difficulty: advanced
+tags: [p-adic, measure, fourier-expansion, step-function, coset, cyclotomic-fields]
+depends_on:
+  required: [norm-on-measures-and-power-series]
+  recommended: [dirichlet-character]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields I and II"
+    chapter: "12"
+    section: "Operations on Measures and Power Series"
+    pages: ""
+    role_in_book: "Defines the Fourier expansion of a step function that is constant on cosets of p^N Z_p, connecting measures to characters via the operator U."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

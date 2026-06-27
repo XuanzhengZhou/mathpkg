@@ -1,0 +1,23 @@
+id: linear-topological-space
+title_en: "Linear Topological Space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: ["linear-topology", "topological-vector-space", "tvs"]
+depends_on:
+  required: ["linear-space"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§9"
+  section: "9.A"
+  pages: "46-47"
+  role_in_book: "merges topology and linear structure"
+content_hash: "d61134a800424bb6"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: distinguished-frenet-frame
+title_en: "Existence and Uniqueness of the Distinguished Frenet Frame"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [frenet-frame, gram-schmidt, orthogonalization, curve]
+depends_on: {required: [moving-n-frame-along-curve, regular-curve, linear-independence], recommended: [gram-schmidt-process], suggested: [frenet-equations]}
+source_books: [{book_id: "gtm051", author: "Wilhelm Klingenberg", title: "A Course in Differential Geometry", chapter: "1", section: "1.2", pages: "", role_in_book: "constructs the canonical Frenet frame using Gram-Schmidt on derivatives"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

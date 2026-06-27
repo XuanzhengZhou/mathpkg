@@ -1,0 +1,23 @@
+id: tensor-product-unary-theories
+title_en: "Existence of Tensor Product for Theories with Unary Operations"
+title_zh: "一元运算理论张量积的存在性"
+type: proposition
+domain: algebra
+subdomain: universal-algebra
+difficulty: advanced
+tags: [algebraic-theory, tensor-product, unary-operation, arity, bialgebra]
+depends_on:
+  required: []
+  recommended: [algebraic-theory, tensor-product-of-theories, syntactic-operation, arity]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "6"
+    section: "6.21"
+    pages: ""
+    role_in_book: "Proposition 6.21 — if every syntactic S-operation has arity 1, then S⊗T exists for all T"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

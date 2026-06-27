@@ -1,0 +1,23 @@
+id: ftc-line-integrals
+title_en: "Fundamental Theorem of Calculus for Line Integrals"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [fundamental-theorem-calculus, line-integral, primitive, complex-integration]
+depends_on:
+  required: [line-integral]
+  recommended: [polygonal-approximation-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "1"
+    section: "1.18"
+    pages: ""
+    role_in_book: "Extends the Fundamental Theorem of Calculus to complex line integrals via primitives"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

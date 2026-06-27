@@ -1,0 +1,23 @@
+id: kummers-theorem-application-cyclotomic-fields
+title_en: "Kummer's Theorem Applied to Cyclotomic Fields"
+title_zh: ""
+type: example
+domain: algebra
+subdomain: algebraic-number-theory
+difficulty: intermediate
+tags: [kummer, cyclotomic-field, prime-decomposition, p-th-root-of-unity, ramification]
+depends_on:
+  required: [kummers-theorem, cyclotomic-field]
+  recommended: [primitive-root, finite-field]
+  suggested: [fermats-little-theorem]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "13"
+    pages: ""
+    role_in_book: "Application of Kummer's theorem to cyclotomic fields Q(zeta_p) for odd primes p"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

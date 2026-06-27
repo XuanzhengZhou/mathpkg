@@ -1,0 +1,13 @@
+id: green-function-asymptotic-kernel
+title_en: "Asymptotic Convergence of the Interval Green Function to the Kernel R(s,t)"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [green-function, kernel, asymptotic-convergence, scaling-limit, uniform-convergence]
+depends_on: {required: [green-function-subtraction-formula, green-function-representation-aperiodic, hitting-probability-right-uniform-convergence], recommended: [potential-theory], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "23", pages: "", role_in_book: "Main theorem: proves uniform convergence of the scaled interval Green function to the continuous kernel R(s,t)"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+Every Hilbert space is isometrically isomorphic to an $l^2$ space over a set whose cardinality equals the Hilbert dimension. This representation theorem shows that $l^2$ spaces are the universal models for Hilbert spaces.

@@ -1,0 +1,23 @@
+id: transformation-conjugate-to-its-dual
+title_en: "Every Linear Transformation is Conjugate to Its Dual"
+title_zh: "每个线性变换都与其对偶共轭"
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [conjugate-linear-transformations, dual-transformation]
+  recommended: [dual-space, transpose]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Every linear transformation is conjugate to its dual transformation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

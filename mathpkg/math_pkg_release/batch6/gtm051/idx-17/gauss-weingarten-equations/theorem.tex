@@ -1,0 +1,17 @@
+Let $f: U \to \mathbb{R}^3$ be a parametrized surface, let $\{f_1, f_2\}$ be the standard basis of $T_u f$, and let $n(u)$ be the unit normal. Let $(g_{ij}(u))$ and $(h_{ij}(u))$ be the matrix representations of the first and second fundamental forms with respect to $\{f_i\}$, and let $(g^{ij})$ be the inverse of $(g_{ij})$. Then
+
+$$
+f_{ik}(u) = \sum_{l} \Gamma_{ik}^l(u) f_l(u) + h_{ik}(u) n(u),
+$$
+
+$$
+n_i(u) = -\sum_{l,k} h_{il} g^{lk} f_k(u),
+$$
+
+where the Christoffel symbols of the second kind $\Gamma_{ik}^l$ are given by
+
+$$
+\Gamma_{ik}^l := \sum_j g^{lj} (f_{ik} \cdot f_j) = \frac{1}{2} \sum_j g^{lj} (g_{ij,k} + g_{jk,i} - g_{ki,j}),
+$$
+
+with $g_{ij,k} = \partial g_{ij} / \partial u^k$.

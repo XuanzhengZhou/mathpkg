@@ -1,0 +1,23 @@
+id: quasi-isomorphism-galois-group-modulo-torsion
+title_en: "Quasi-Isomorphism of the Galois Group Modulo Torsion"
+title_zh: "伽罗瓦群模挠元的拟同构"
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [iwasawa-algebra, galois-group, quasi-isomorphism, torsion-submodule, leopoldt-conjecture, structure-theorem]
+depends_on:
+  required: [galois-group-as-module-over-iwasawa-algebra, finitely-generated-galois-group-over-iwasawa-algebra]
+  recommended: [structure-theorem-for-iwasawa-modules, quasi-isomorphism]
+  suggested: [class-field-theory, totally-imaginary-field]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "§6. The Galois Group as Module over the Iwasawa Algebra"
+    pages: "156-157"
+    role_in_book: "Determines the free part of the Iwasawa module G modulo torsion as a free Λ-module of rank r₂, assuming the base field is totally imaginary and each layer satisfies the Leopoldt conjecture."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

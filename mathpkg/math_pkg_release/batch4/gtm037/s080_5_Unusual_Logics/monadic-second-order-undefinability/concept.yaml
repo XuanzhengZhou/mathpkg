@@ -1,0 +1,23 @@
+id: monadic-second-order-undefinability
+title_en: "Undefinability of Truth in Monadic Second-Order Logic"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: foundations
+difficulty: advanced
+tags: [monadic-second-order-logic, undefinability, tarski-theorem]
+depends_on:
+  required: [monadic-second-order-logic, elementary-definability]
+  recommended: [weak-second-order-undefinability]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "30"
+    section: "Unusual Logics"
+    pages: ""
+    role_in_book: "Theorem 30.4: the set of monadic second-order validities is not r.e."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

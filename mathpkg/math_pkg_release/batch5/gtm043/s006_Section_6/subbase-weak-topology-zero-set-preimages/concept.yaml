@@ -1,0 +1,23 @@
+id: subbase-weak-topology-zero-set-preimages
+title_en: "Subbase for Weak Topology via Zero-Set Preimages"
+title_zh: "通过零集原像的弱拓扑子基"
+type: proposition
+domain: topology
+subdomain: weak-topology
+difficulty: intermediate
+tags: [weak-topology, subbase, zero-set, preimage, completely-regular]
+depends_on:
+  required: [topology-determined-by-family-of-mappings, zero-set]
+  recommended: [completely-regular-space]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.10"
+    pages: ""
+    role_in_book: "Provides the explicit subbase for weak topologies when the target spaces are completely regular"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

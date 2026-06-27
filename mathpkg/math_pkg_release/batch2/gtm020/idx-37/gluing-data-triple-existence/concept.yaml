@@ -1,0 +1,23 @@
+id: gluing-data-triple-existence
+title_en: "Existence and Uniqueness of Triple for Gluing Vector Bundles"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: vector-bundles
+difficulty: advanced
+tags: [vector-bundles, gluing, clutching, difference-isomorphism, bundle-construction]
+depends_on:
+  required: [difference-isomorphism, vector-bundle]
+  recommended: [clutching-construction]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "6"
+    section: "6.4"
+    pages: ""
+    role_in_book: "Lemma used in the proof of commutativity of L-cup and K-cup products; provides gluing construction for difference isomorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

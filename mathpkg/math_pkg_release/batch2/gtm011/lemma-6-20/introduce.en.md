@@ -1,0 +1,9 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+6.20 Lemma from Conway's "Functions of One Complex Variable I."
+Let $f, G, \mathcal{F}$ and $(\mathcal{R}, \rho)$ be as in the preceding proposition. If $[g]_a \in \mathcal{F}$ then there is a disk $D$ about $a$ on which $g$ is defined and such that $f(g(z)) = z$ for all $z$ in $D$....

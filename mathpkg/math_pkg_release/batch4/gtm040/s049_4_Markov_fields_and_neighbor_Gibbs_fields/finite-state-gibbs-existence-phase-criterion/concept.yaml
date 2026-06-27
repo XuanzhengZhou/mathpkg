@@ -1,0 +1,23 @@
+id: finite-state-gibbs-existence-phase-criterion
+title_en: "Existence of Gibbs Fields for Finite State Space and Phase Multiplicity Criterion"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-fields
+difficulty: advanced
+tags: [gibbs-field, finite-state-space, existence, phase-transition, phase-multiplicity, monotonic-limits]
+depends_on:
+  required: [neighbor-gibbs-field-infinite, phase-multiplicity-extreme-measures]
+  recommended: [monotonicity-gibbs-minmax]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "12"
+    section: "4"
+    pages: "447-455"
+    role_in_book: "Proves existence of Gibbs fields when S is finite and gives a criterion for phase multiplicity in terms of limits of extremal conditional probabilities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

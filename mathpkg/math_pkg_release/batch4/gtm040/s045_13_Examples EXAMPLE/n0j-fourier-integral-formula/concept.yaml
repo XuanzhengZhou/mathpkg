@@ -1,0 +1,23 @@
+id: n0j-fourier-integral-formula
+title_en: "Fourier integral representation of the potential kernel for the 3-dimensional symmetric random walk"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [symmetric-random-walk, potential-kernel, fourier-analysis, integral-representation]
+depends_on:
+  required: []
+  recommended: [potential-kernel, green-function, discrete-laplacian]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "10"
+    section: "13"
+    pages: ""
+    role_in_book: "Key lemma establishing the Fourier integral formula for the potential kernel"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: sharp-composition
+title_en: "Composition of Sharp Maps"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: boolean-algebras
+difficulty: advanced
+tags: [complete-boolean-algebra, complete-monomorphism, sharp-operator, composition]
+depends_on:
+  required: [sharp-operator-properties, sharp-is-open-continuous-onto]
+  recommended: [sharp-uniqueness]
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "22"
+    section: "The Completion of a Boolean Algebra"
+    pages: ""
+    role_in_book: "Shows that sharp maps compose compatibly with complete monomorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

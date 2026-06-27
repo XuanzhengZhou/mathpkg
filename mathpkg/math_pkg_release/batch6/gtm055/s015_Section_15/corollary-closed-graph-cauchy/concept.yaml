@@ -1,0 +1,23 @@
+id: corollary-closed-graph-cauchy
+title_en: "Corollary 13.5 (Closed Graph Cauchy Criterion)"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [F-space, closed-graph, Cauchy-sequence, continuity-criterion]
+depends_on:
+  required: [closed-graph-theorem]
+  recommended: [F-space, completion-of-metric-space, Cauchy-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm055"
+    author: "Arlen Brown, Carl Pearcy"
+    title: "Introduction to Operator Theory I"
+    chapter: "13"
+    section: "15"
+    pages: ""
+    role_in_book: "Reformulation: T is continuous if whenever z_n->0 and Tz_n is Cauchy, then Tz_n->0"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

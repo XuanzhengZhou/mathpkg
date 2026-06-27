@@ -1,0 +1,23 @@
+id: capacity-constant-existence
+title_en: "Existence of the capacity constant k(E)"
+title_zh: "容量常数k(E)的存在性"
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [k-matrix, capacity, finite-set, normal-chain]
+depends_on:
+  required: [restricted-k-identities, k-matrix]
+  recommended: [alpha-coefficient, equilibrium-distribution]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Defines the capacity constant, precursor to the capacity concept"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

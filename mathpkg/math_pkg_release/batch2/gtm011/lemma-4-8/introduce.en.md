@@ -1,0 +1,9 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+4.8 Lemma from Conway's "Functions of One Complex Variable I."
+Let $G$ be a region in $\mathbb{C}$ and let $S$ be a closed connected subset of $\mathbb{C}_\infty - G$ such that $\infty \in S$ and $S \cap \partial_\infty G = \{a\}$. If $G_0$ is the component of $\mathbb{C}_\infty - S$ that contains $G$ then $G_0$ is a simply connected region in the plane....

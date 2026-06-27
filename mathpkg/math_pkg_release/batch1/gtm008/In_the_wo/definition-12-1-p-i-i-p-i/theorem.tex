@@ -1,0 +1,23 @@
+that was used for the proof of the independence of $V = L$. Let $P_i, i \in \omega$, be isomorphic copies of $P$ and let $j_i$ be an isomorphism of $P$ onto $P_i$. Note that $P$ has a greatest element $\langle 0, 0 \rangle$.
+
+Consider the language $\mathcal{L}_0(\{ V(\cdot) \} \cup \{ F_i(\cdot) \mid i \in \omega \} \cup \{ S(\cdot) \})$ and the corresponding ramified language $R(\{ V(\cdot) \} \cup \{ F_i(\cdot) \mid i \in \omega \} \cup \{ S(\cdot) \})$. Let $B$ be the complete Boolean algebra of all regular open sets in $\prod_{i \in \omega}^{w} P_i$ and $f_i: P \rightarrow B$ be defined by $f_i(p) = [\ldots p_{i_1} \ldots]^{-0}$ where $p_i = j_i(p)$.
+
+We define $
+
+So it is only by condition 7 that $\pi$ is in general not the identity on the terms and formulas.
+
+Finally, let $p^1, \ldots, p^n$ be elements of $P$. Then for
+
+$$p = \{ \ldots p_{i_1}^{1}, \ldots, p_{i_n}^{n} \} \in \prod_{i \in \omega}^{w} P_i$$
+
+where $p_{i_k}^{k} = j_{i_k}(p^k)$, $k = 1, 2, \ldots, n$, we define $\pi(p)$ to be
+
+$$\{ \ldots p_{\pi(i_1)}^{1}, \ldots, p_{\pi(i_n)}^{n} \}.$$
+
+That is, $\pi(p)$ is an element of $\prod_{i \in \omega}^{w} P_i$ whose $\pi(i_k)$th coordinate is the counterpart of $p^k$ in $P_{\pi(i_k)}$, $k = 1, \ldots, n$, and whose $m$th coordinate is 1 if $m \neq \pi(i_k)$ for all $k = 1, 2, \ldots, n$. Then one can prove by transfinite induction on Ord $(\varphi)$:
+
+**Theorem 12.2.** Let $p \in \prod_{i \in \omega}^{w} P_i$. Then $p \Vdash \varphi \leftrightarrow \pi(p) \Vdash \pi(\varphi).$
+
+**Theorem 12.3.** For every formula $\varphi$,
+
+$$(\forall t \in T) \left( \forall p \in \prod_{i \in \omega}^{w} P_i \right) (\exists m) (\forall \pi) [\pi \in \mathbf{G}_m \rightarrow \pi(t) = t \wedge \pi(\varphi) = \varphi \wedge \pi(p) = p].$$

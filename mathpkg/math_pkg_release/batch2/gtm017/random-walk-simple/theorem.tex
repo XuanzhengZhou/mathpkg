@@ -1,0 +1,9 @@
+Consider a particle on the integer points of the real line. Given the particle is at $i$, its probability of moving one step to the right is $p$ and one step to the left is $q$, where $p, q \geq 0$, $p+q=1$:
+$$p_{i,i+1} = p, \quad p_{i,i-1} = q.$$
+
+Starting at $i=0$ at $t=0$, the probability of being at $j$ at time $n$ is
+$$\binom{n}{(n+j)/2} p^{(n+j)/2} q^{(n-j)/2},$$
+for $n+j$ even (otherwise zero).
+
+For an absorbing barrier at $-a < 0$:
+$$p_{-a,-a} = 1, \quad p_{i,i+1} = p, \; p_{i,i-1} = q \;\; (i > -a).$$

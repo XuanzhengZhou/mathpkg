@@ -1,0 +1,23 @@
+id: totally-bounded-subset-of-tvs
+title_en: "Totally bounded subset of a topological vector space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [totally-bounded, precompact, topological-vector-space, zero-neighborhood]
+depends_on:
+  required: [bounded-subset-of-tvs]
+  recommended: [hausdorff-topological-vector-space]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "5"
+    pages: "38-40"
+    role_in_book: "Defines total boundedness and relates it to precompactness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

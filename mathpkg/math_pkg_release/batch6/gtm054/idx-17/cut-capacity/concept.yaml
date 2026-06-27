@@ -1,0 +1,13 @@
+id: cut-capacity
+title_en: "Capacity of a cut"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [network, cut, capacity, flow, g-function]
+depends_on: {required: [network-cut], recommended: [], suggested: []}
+source_books: [{book_id: "gtm054", author: "Jack E. Graver and Mark E. Watkins", title: "Combinatorics with Emphasis on the Theory of Graphs", chapter: "IV", section: "18", pages: "", role_in_book: "Definition — capacity of a cut through a directed edge, defined via the auxiliary function g_U"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

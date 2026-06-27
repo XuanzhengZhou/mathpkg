@@ -1,0 +1,23 @@
+id: semilinear-fixing-subspaces-over-field
+title_en: "Semi-linear Transformations Fixing 1-Dimensional Subspaces over a Field (Result 1.24)"
+title_zh: "域上固定一维子空间的半线性变换（结果1.24）"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [semilinear, field, scalar-matrix, centre, one-dimensional-subspace]
+depends_on:
+  required: [subgroup-fixing-one-dimensional-subspaces]
+  recommended: [general-linear-group]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "4. Vector Spaces"
+    pages: ""
+    role_in_book: "Over a field, only scalar multiples of the identity fix all 1-dimensional subspaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

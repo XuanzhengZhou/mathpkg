@@ -1,0 +1,23 @@
+id: kernel-of-translation-plane-isomorphic-to-kernel-of-coordinatizing-quasifield
+title_en: "Kernel of a Translation Plane is Isomorphic to the Kernel of any Coordinatizing Quasifield"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [translation-plane, kernel, quasifield, coordinatization, isomorphism]
+depends_on:
+  required: [translation-plane, kernel-of-weak-quasifield, quasifield-algebraic-definition]
+  recommended: [collineation, homology, coordinatization-theorem]
+  suggested: [elation-groups-in-translation-plane, kernel-of-weak-quasifield-is-skewfield]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "VII"
+    section: "2"
+    pages: ""
+    role_in_book: "Theorem 7.11. Shows the kernel is an invariant of the plane independent of coordinatization choice."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

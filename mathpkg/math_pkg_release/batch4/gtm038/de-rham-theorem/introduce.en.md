@@ -1,0 +1,1 @@
+De Rham's theorem identifies topological cohomology (defined via differential forms and the exterior derivative) with sheaf cohomology of the constant sheaf. Together with Dolbeault's theorem, this completes the connection between analysis, geometry, and topology.

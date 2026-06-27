@@ -1,0 +1,23 @@
+id: residue-class-ring
+title_en: "Residue Class Ring Z_n"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [integers-modulo-n, residue-classes, quotient-ring]
+depends_on:
+  required: [standard-number-rings]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "1.6"
+    pages: ""
+    role_in_book: "Defines the ring of integers modulo n"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

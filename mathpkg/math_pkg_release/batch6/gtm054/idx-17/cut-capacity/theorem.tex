@@ -1,0 +1,11 @@
+Let $C$ be any cut through $e_0 = (y_0, x_0)$ in a network $(V, k)$. Then for some $U \subseteq V$, $C = \sum_{x \in U} f^*(x)$. Replacing $U$ by $V + U$ if necessary, we may assume $x_0 \in U \subseteq V + \{y_0\}$. For all $(x, y) \in W$, define:
+
+$$g_U(x, y) = \begin{cases}
+1 & \text{if } \{x, y\} \cap U = \{x\}; \\
+-1 & \text{if } \{x, y\} \cap U = \{y\}; \\
+0 & \text{otherwise.}
+\end{cases}$$
+
+The \textbf{capacity} of the cut $C$ through $e_0$ is defined to be
+
+$$k(C; e_0) = \sum_{g_U(e) = 1} k(e).$$

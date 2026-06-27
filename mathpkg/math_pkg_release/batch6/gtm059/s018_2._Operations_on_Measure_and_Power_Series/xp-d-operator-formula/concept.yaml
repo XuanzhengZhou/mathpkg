@@ -1,0 +1,23 @@
+id: xp-d-operator-formula
+title_en: "Relation Between x_p and the D-Operator"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: p-adic-l-functions
+difficulty: advanced
+tags: [x-p-function, d-operator, p-adic-integration, iwasawa-power-series, logarithmic-derivative]
+depends_on:
+  required: []
+  recommended: [iwasawa-d-operator, p-adic-logarithm, mahler-expansion]
+  suggested: [formal-multiplicative-group, taylors-formula-p-adic]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "2"
+    section: "2. Operations on Measure and Power Series"
+    pages: ""
+    role_in_book: "Expresses x_p(X) in terms of the D-operator (1+X)D on power series"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

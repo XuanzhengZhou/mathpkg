@@ -1,0 +1,23 @@
+id: completely-regular-space
+title_en: "Completely Regular Space"
+title_zh: "完全正则空间"
+type: definition
+domain: topology
+subdomain: separation-axioms
+difficulty: intermediate
+tags: [completely-regular-space, tychonoff-space, complete-separation, hausdorff, continuous-function]
+depends_on:
+  required: [hausdorff-space, zero-set, continuous-function]
+  recommended: [complete-separation, tychonoff-embedding]
+  suggested: [normal-space, urysohn-lemma]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Fundamental topological hypothesis; the entire theory of rings of continuous functions is developed for this class of spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

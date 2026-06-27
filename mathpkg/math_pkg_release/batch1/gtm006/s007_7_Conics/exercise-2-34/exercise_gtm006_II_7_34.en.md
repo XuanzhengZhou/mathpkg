@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "II"
+section: "7"
+exercise_number: 34
+---
+
+Let $\beta$ be an arbitrary orthogonal polarity of $\mathcal{P}(V)$, whose set $\mathcal{C}$ of absolute points is not empty. If $\alpha$ is an element of $\operatorname{Aut} \mathcal{P}(V)$ show that $\alpha \beta = \beta \alpha$ if and only if $\mathcal{C}^{\alpha} = \mathcal{C}$.

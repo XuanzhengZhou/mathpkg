@@ -1,0 +1,28 @@
+id: crx-not-dual-unless-stonian-not-reflexive-unless-finite
+title_en: C_R(X) Cannot be a Dual Banach Space Unless X is Stonian, Not Reflexive Unless X is Finite
+title_zh: ''
+type: corollary
+domain: analysis
+subdomain: banach-lattices
+difficulty: advanced
+tags:
+- dual-banach-space
+- reflexive
+- stonian-space
+- continuous-functions
+depends_on:
+  required:
+  - crx-order-complete-iff-extremally-disconnected
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm003
+  author: H. H. Schaefer
+  title: Topological Vector Spaces
+  chapter: Chapter V
+  section: Exercise 23
+  pages: ''
+  role_in_book: Corollary in exercise
+content_hash: 9ab69fb4f912c587
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

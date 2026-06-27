@@ -1,0 +1,30 @@
+id: limit-nonstandard-characterization
+title_en: "Nonstandard Characterization of Limits of Sequences"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags:
+  - nonstandard-analysis
+  - limit
+  - sequence
+  - standard-part
+depends_on:
+  required:
+    - standard-part
+    - infinitely-close
+  recommended:
+    - nonstandard-interpretation-of-sequence
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "Ebbinghaus, Flum, Thomas"
+    title: "Mathematical Logic"
+    chapter: "Part 4"
+    section: "Model Theory"
+    pages: ""
+    role_in_book: "Proposition 20.5 — nonstandard equivalent condition for limit of a real sequence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

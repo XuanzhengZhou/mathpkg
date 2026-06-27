@@ -1,0 +1,23 @@
+id: dimension-of-cubics-with-base-points
+title_en: "Dimension of Linear System of Cubics with Base Points"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [cubics, linear-system, dimension, base-points]
+depends_on:
+  required: [cubics-through-seven-points-no-unassigned-base-points]
+  recommended: [linear-system-with-assigned-base-points]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Corollary 4.4; dimension formulas for cubic linear systems through points"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

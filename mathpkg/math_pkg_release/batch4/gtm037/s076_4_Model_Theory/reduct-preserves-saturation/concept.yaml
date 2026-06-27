@@ -1,0 +1,23 @@
+id: reduct-preserves-saturation
+title_en: "Reduct Preserves m-Saturation"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [saturated-model, reduct]
+depends_on:
+  required: [m-saturated-structure, reduct]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "28"
+    section: "Saturated Structures"
+    pages: ""
+    role_in_book: "Proposition 28.25: saturation is preserved under taking reducts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

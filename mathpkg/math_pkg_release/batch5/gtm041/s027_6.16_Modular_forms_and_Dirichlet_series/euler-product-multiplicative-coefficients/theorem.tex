@@ -1,0 +1,11 @@
+If the coefficients $c(n)$ satisfy the multiplicative property
+$$c(m)c(n) = \sum_{d \mid (m,n)} d^{2k-1} c\!\left(\frac{mn}{d^2}\right),$$
+then the Dirichlet series $\varphi(s) = \sum_{n=1}^{\infty} c(n)/n^s$ admits an Euler product representation
+$$\varphi(s) = \prod_p \frac{1}{1 - c(p)p^{-s} + p^{2k-1-2s}},$$
+valid whenever the Dirichlet series converges absolutely.
+
+The identity $c(m)c(n) = \sum_{d \mid (m,n)} d^{2k-1} c(mn/d^2)$ implies, for each prime $p$,
+$$c(p)c(p^n) = c(p^{n+1}) + p^{2k-1} c(p^{n-1}),$$
+which yields the power series identity
+$$(1 - c(p)x + p^{2k-1}x^2)\left(1 + \sum_{n=1}^{\infty} c(p^n)x^n\right) = 1$$
+for all $|x| < 1$. Setting $x = p^{-s}$ reduces the product over primes to the stated Euler product form.

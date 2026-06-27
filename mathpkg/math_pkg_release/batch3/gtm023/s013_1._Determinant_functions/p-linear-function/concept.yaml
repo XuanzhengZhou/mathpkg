@@ -1,0 +1,23 @@
+id: p-linear-function
+title_en: "p-linear function"
+title_zh: "p重线性函数"
+type: definition
+domain: algebra
+subdomain: multilinear-algebra
+difficulty: basic
+tags: [multilinear, p-linear, linear-functional]
+depends_on:
+  required: [p-linear-map]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IV"
+    section: "§1. Determinant functions"
+    pages: "4.2"
+    role_in_book: "Defines p-linear functions as p-linear maps taking values in the ground field, precursors to determinant functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

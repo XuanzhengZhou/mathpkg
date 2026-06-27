@@ -1,0 +1,23 @@
+id: gamma-gauss-formula
+title_en: "Gauss's Formula for the Gamma Function"
+title_zh: "Gamma 函数的 Gauss 公式"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [gamma-function, gauss-formula, infinite-product, limit-representation]
+depends_on:
+  required: [gamma-function-definition, euler-constant]
+  recommended: [weierstrass-product]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "7"
+    section: "7.6"
+    pages: ""
+    role_in_book: "Limit representation of the gamma function used to derive the functional equation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,28 @@
+id: inductive-ultrafilter-construction-from-elementary-equivalence
+title_en: "Inductive Ultrafilter Construction from Elementary Equivalence"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags:
+  - ultrapower
+  - ultrafilter
+  - elementary-equivalence
+  - reduced-product
+  - induction
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "26"
+    section: "4"
+    pages: ""
+    role_in_book: "Lemma used in the proof of the isomorphism theorem for elementarily equivalent structures; constructs an ultrafilter via transfinite induction on the cardinality of the set of formulas."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

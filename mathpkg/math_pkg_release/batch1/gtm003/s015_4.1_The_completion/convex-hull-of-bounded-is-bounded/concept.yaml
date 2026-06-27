@@ -1,0 +1,23 @@
+id: convex-hull-of-bounded-is-bounded
+title_en: "The convex hull of a bounded subset of a locally convex space is bounded"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: functional-analysis
+difficulty: basic
+tags: [convex-hull, bounded-set, locally-convex-space]
+depends_on:
+  required: [locally-convex-space, bounded-set]
+  recommended: [convex-hull]
+  suggested: [absorbing-set]
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "4"
+    pages: ""
+    role_in_book: "Basic property linking boundedness and convexity in locally convex spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

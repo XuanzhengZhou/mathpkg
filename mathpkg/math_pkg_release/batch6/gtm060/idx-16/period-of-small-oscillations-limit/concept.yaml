@@ -1,0 +1,23 @@
+id: period-of-small-oscillations-limit
+title_en: "Limit of the Period of Small Oscillations"
+title_zh: "小振动周期的极限"
+type: corollary
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: basic
+tags: [oscillation-period, linearization, harmonic-oscillator, frequency]
+depends_on:
+  required: [linearization-of-lagrangian-system, liapunov-stability-strict-local-minimum]
+  recommended: [harmonic-oscillator]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "5"
+    section: "Oscillations"
+    pages: "114"
+    role_in_book: "Shows the period of nonlinear oscillations approaches the linearized period"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

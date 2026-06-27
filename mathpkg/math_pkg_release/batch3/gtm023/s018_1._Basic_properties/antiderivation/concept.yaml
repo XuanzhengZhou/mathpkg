@@ -1,0 +1,23 @@
+id: antiderivation
+title_en: "Antiderivation with Respect to an Involution"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: derivations
+difficulty: intermediate
+tags: [antiderivation, involution, derivation]
+depends_on:
+  required: [involution-in-algebra, derivation-in-algebra]
+  recommended: [linear-transformation]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "5"
+    section: "§1. Basic properties"
+    pages: "167-168"
+    role_in_book: "defines antiderivation as a linear map twisted by an involution"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

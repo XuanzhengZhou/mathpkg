@@ -1,0 +1,13 @@
+Let $\varphi: E \to F$ be a linear mapping and let $E_1 \subset E$, $F_1 \subset F$ be subspaces such that $\varphi(E_1) \subset F_1$. Then $\varphi$ induces a unique linear mapping
+$$
+\bar{\varphi}: E/E_1 \to F/F_1
+$$
+such that the following diagram commutes:
+$$
+\begin{CD}
+E @>{\varphi}>> F \\
+@V{\pi_E}VV @VV{\pi_F}V \\
+E/E_1 @>{\bar{\varphi}}>> F/F_1
+\end{CD}
+$$
+Equivalently, $\bar{\varphi} \circ \pi_E = \pi_F \circ \varphi$, or in terms of cosets, $\bar{\varphi}(\bar{x}) = \overline{\varphi(x)}$.

@@ -1,0 +1,23 @@
+id: affine-classification-of-quadrics-with-center
+title_en: "Affine Classification of Quadrics with Center"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: affine-geometry
+difficulty: intermediate
+tags: [quadric, affine-equivalence, center, rank, index, normal-form, classification]
+depends_on:
+  required: []
+  recommended: [quadric, center-of-quadric, bilinear-form-equivalence-by-rank-and-index, affine-equivalence-of-quadrics]
+  suggested: [uniqueness-theorem-for-quadrics]
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "X. Quadrics"
+    section: "§3. Affine equivalence of quadrics"
+    pages: ""
+    role_in_book: "Theorem 10.15 — criterion for affine equivalence of two quadrics with center"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

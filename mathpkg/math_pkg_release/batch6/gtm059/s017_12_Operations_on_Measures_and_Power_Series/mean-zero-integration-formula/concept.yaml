@@ -1,0 +1,23 @@
+id: mean-zero-integration-formula
+title_en: "Mean Zero Integration Formula"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: p-adic-measures
+difficulty: intermediate
+tags: ["integration", "measure", "power-series", "mean-zero", "p-adic"]
+depends_on:
+  required: ["p-adic-measure", "p-adic-power-series-associated-to-measure", "theorem-1.2-gtm059"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "12"
+    pages: "111–112"
+    role_in_book: "Mean 0 — the integral of a measure equals the value of the associated power series at zero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

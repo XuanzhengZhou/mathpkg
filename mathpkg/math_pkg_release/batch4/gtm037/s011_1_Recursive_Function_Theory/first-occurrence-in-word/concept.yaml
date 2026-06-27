@@ -1,0 +1,23 @@
+id: first-occurrence-in-word
+title_en: "First Occurrence of a Word"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability-theory
+difficulty: basic
+tags: [Markov-algorithm, word, occurrence, first-occurrence]
+depends_on:
+  required: [word-occurrence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "4"
+    section: "Markov Algorithms"
+    pages: ""
+    role_in_book: "Definition of the first occurrence of a word in another word for Markov algorithms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

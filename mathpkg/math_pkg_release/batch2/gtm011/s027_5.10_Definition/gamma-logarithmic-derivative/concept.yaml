@@ -1,0 +1,23 @@
+id: gamma-logarithmic-derivative
+title_en: "Logarithmic Derivative of the Gamma Function"
+title_zh: "Gamma 函数的对数导数（Digamma 函数）"
+type: proposition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [gamma-function, digamma-function, logarithmic-derivative, series-representation, euler-constant]
+depends_on:
+  required: [gamma-function-definition, weierstrass-product]
+  recommended: [euler-constant]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "7"
+    section: "7.11"
+    pages: ""
+    role_in_book: "Series representation of the digamma function, used to prove logarithmic convexity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

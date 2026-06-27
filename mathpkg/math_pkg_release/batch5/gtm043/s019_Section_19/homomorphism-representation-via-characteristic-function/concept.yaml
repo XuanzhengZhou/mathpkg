@@ -1,0 +1,23 @@
+id: homomorphism-representation-via-characteristic-function
+title_en: "Representation of Homomorphisms from C(Y) into C(X) via Characteristic Function"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [homomorphism, characteristic-function, idempotent, Stone-Cech, realcompact]
+depends_on:
+  required: [induced-homomorphism-theorem]
+  recommended: [idempotent-characteristic-function, stone-cech-compactification]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "10"
+    section: "10.8"
+    pages: ""
+    role_in_book: "Characterizes arbitrary homomorphisms C(Y)→C(X) via an open-and-closed set and a continuous map into vY"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

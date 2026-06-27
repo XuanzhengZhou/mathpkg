@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+$H$ is conormal if $H$ has a co-Galois subbiring $H_{\text{Gal}}$ and a coradical subbiring $H_{\text{rad}}$ such that $H = H_{\text{Gal}} H_{\text{rad}}$ (internal tensor product).

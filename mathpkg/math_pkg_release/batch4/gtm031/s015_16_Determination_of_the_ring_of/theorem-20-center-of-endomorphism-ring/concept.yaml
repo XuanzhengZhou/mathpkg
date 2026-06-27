@@ -1,0 +1,23 @@
+id: theorem-20-center-of-endomorphism-ring
+title_en: "Theorem 20: Center of the Endomorphism Ring"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [endomorphism-ring, center, scalar-multiplications, principal-ideal-domain, module]
+depends_on:
+  required: [normalized-matrix-bijection, scalar-multiplication, endomorphism-matrix-subring]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "3"
+    section: "18"
+    pages: ""
+    role_in_book: "Identifies the center of the endomorphism ring of a finitely generated module over a PID as the scalar multiplications"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

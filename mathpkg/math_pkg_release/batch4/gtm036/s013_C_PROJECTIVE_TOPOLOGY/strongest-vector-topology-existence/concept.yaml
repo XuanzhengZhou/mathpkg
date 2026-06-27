@@ -1,0 +1,23 @@
+id: strongest-vector-topology-existence
+title_en: "Existence of a Strongest Vector Topology"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: linear-topological-spaces
+difficulty: advanced
+tags: [strongest-topology, vector-topology, upper-bound, linear-space]
+depends_on:
+  required: [linear-topological-space, vector-topology]
+  recommended: [initial-topology, final-topology]
+  suggested: [indiscrete-topology, discrete-topology]
+source_books:
+  - book_id: gtm036
+    author: "Kelley, J. L.; Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "2"
+    section: "E (Strongest Vector Topology I)"
+    pages: ""
+    role_in_book: "Establishes the existence of a finest vector topology on any linear space as the upper bound of all vector topologies"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

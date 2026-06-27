@@ -1,0 +1,23 @@
+id: metric-space-completely-regular
+title_en: "Every Metric Space is Completely Regular"
+title_zh: "每个度量空间都是完全正则空间"
+type: proposition
+domain: topology
+subdomain: separation-axioms
+difficulty: basic
+tags: [metric-space, completely-regular-space, separation-axioms]
+depends_on:
+  required: [metric-space, completely-regular-space]
+  recommended: [urysohn-lemma]
+  suggested: [normal-space]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Establishes that metric spaces, including R and its subspaces, fall within the scope of the theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

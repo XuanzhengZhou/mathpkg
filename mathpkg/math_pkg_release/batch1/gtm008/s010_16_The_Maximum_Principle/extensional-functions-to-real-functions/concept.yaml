@@ -1,0 +1,23 @@
+id: extensional-functions-correspond-to-boolean-functions
+title_en: "Correspondence Between Extensional Functions and Boolean-Valued Functions"
+title_zh: "外延函数与布尔值函数的对应"
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [boolean-valued-universe, extensional-function, definite-set, function-correspondence]
+depends_on:
+  required: [extensional-function, definite-set]
+  recommended: [boolean-valued-universe]
+  suggested: [extensional-functions-to-real-functions]
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: ""
+    role_in_book: "Shows that real extensional functions between definite sets correspond to Boolean-valued functions in V^(B). This bridges the gap between the ground model and the Boolean-valued universe."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

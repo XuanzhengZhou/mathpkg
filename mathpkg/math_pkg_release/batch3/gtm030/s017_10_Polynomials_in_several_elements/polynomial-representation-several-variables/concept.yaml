@@ -1,0 +1,23 @@
+id: polynomial-representation-several-variables
+title_en: "Polynomial Representation in Several Variables"
+title_zh: "多元多项式表示定理"
+type: theorem
+domain: algebra
+subdomain: polynomial-rings
+difficulty: basic
+tags: [polynomial-ring, several-variables, representation, algebraic-independence]
+depends_on:
+  required: [polynomial-ring-several-commuting-elements, iterated-adjunction-identity]
+  recommended: [polynomial-ring-one-variable, transcendental-element]
+  suggested: [algebraic-independence]
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "II"
+    section: "10"
+    pages: ""
+    role_in_book: "Characterizes elements of the ring A[u_1,…,u_r] as formal polynomials in the u_i with coefficients in A, establishing the standard polynomial notation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

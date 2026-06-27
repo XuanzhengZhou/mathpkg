@@ -1,0 +1,14 @@
+A **$(P, \Omega)$-homomorphism** $f: (X, \delta) \rightarrow (X', \delta')$ is a family of functions of the form $f(p): X(p) \rightarrow X'(p)$ satisfying, for each $\omega \in \Omega_{p_1 \cdots p_{n+1}}$,
+
+\[
+f(p_{n+1}) \circ \delta_\omega = \delta'_\omega \circ (f(p_1) \times \cdots \times f(p_n)).
+\]
+
+That is, the following diagram commutes:
+\[
+\begin{CD}
+X(p_1) \times \cdots \times X(p_n) @>{\delta_\omega}>> X(p_{n+1})\\
+@V{f(p_1) \times \cdots \times f(p_n)}VV @VV{f(p_{n+1})}V\\
+X'(p_1) \times \cdots \times X'(p_n) @>>{\delta'_\omega}> X'(p_{n+1})
+\end{CD}
+\]

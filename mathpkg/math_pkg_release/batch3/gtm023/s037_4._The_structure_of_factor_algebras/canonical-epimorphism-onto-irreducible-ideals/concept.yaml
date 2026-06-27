@@ -1,0 +1,23 @@
+id: canonical-epimorphism-onto-irreducible-ideals
+title_en: "Canonical epimorphism onto irreducible ideal components"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [factor-algebra, epimorphism, kernel, irreducible-ideal, isomorphism, polynomial-algebra]
+depends_on:
+  required: [factor-algebra-prime-power-decomposition, polynomial-algebra, epimorphism, kernel]
+  recommended: [ideal, quotient-algebra, isomorphism-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "12"
+    section: "4. The structure of factor algebras"
+    pages: "387-388"
+    role_in_book: "Constructs an explicit epimorphism from the polynomial algebra onto each irreducible ideal component and identifies its kernel, yielding an isomorphism with a prime-power factor algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

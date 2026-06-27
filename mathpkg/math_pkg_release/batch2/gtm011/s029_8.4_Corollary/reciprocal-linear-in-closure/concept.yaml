@@ -1,0 +1,13 @@
+id: reciprocal-linear-in-closure
+title_en: "Reciprocal Linear Functions Belong to the Rational Closure"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [rational-approximation, runge-theorem, pole-placement, function-algebra]
+depends_on: {required: [runges-theorem], recommended: [], suggested: []}
+source_books: [{book_id: "gtm011", author: "John B. Conway", title: "Functions of One Complex Variable I", chapter: "VIII", section: "1.10", pages: "", role_in_book: "Key technical lemma in the proof of Runge's Theorem showing that (z-a)^{-1} belongs to the closed algebra B(E) of uniform limits of rational functions with poles in E for every a outside K"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

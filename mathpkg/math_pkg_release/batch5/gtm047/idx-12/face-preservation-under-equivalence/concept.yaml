@@ -1,0 +1,23 @@
+id: face-preservation-under-equivalence
+title_en: "Face preservation under equivalence of coordinate mappings"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: intermediate
+tags: [pl-topology, coordinate-mapping, face, equivalence-relation, restriction]
+depends_on:
+  required: [face-of-coordinate-mapping, equivalence-relation-on-coordinate-mappings]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "7"
+    section: "Abstract complexes and PL complexes"
+    pages: "65-70"
+    role_in_book: "Establishes that the face relation is well-defined on equivalence classes of coordinate mappings, essential for defining faces of PL simplexes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

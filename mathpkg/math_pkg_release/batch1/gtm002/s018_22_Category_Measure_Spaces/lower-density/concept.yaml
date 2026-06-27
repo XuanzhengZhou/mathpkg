@@ -1,0 +1,13 @@
+id: lower-density
+title_en: "Lower Density"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [lower-density, measure-space, lifting, boolean-algebra, equivalence-class]
+depends_on: {required: ["measure-space", "nullset", "symmetric-difference"], recommended: ["complete-measure-space", "von-neumann-maharam-lower-density"], suggested: ["lebesgue-density-theorem", "density-topology"]}
+source_books: [{book_id: "gtm002", author: "John C. Oxtoby", title: "Measure and Category", chapter: "22", section: "22. Category Measure Spaces", pages: "87", role_in_book: "Definition within Theorem 22.4; a lower density is the key tool for topologizing a measure space into a category measure space"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: dirichlet-series-equivalence-is-equivalence-relation
+title_en: "Dirichlet Series Equivalence is an Equivalence Relation"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: dirichlet-series
+difficulty: basic
+tags: [dirichlet-series, equivalence-relation, reflexivity, symmetry, transitivity]
+depends_on:
+  required: [equivalence-of-general-dirichlet-series]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "8"
+    section: "8.7"
+    pages: "184–186"
+    role_in_book: "Theorem 8.11: verifies that the equivalence relation ∼ on Dirichlet series satisfies the axioms of an equivalence relation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

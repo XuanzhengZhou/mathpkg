@@ -1,0 +1,23 @@
+id: b-monomorphism-of-vector-bundles
+title_en: "B-Monomorphism of Vector Bundles"
+title_zh: "向量丛的B-单态"
+type: definition
+domain: topology
+subdomain: fibre-bundles
+difficulty: intermediate
+tags: [monomorphism, vector-bundle, kernel, injective, fibre-wise]
+depends_on:
+  required: [morphism-of-vector-bundles, exact-sequence-of-vector-bundles]
+  recommended: [kernel-of-bundle-morphism]
+  suggested: [monomorphism-in-abelian-category]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "8"
+    section: "8.5"
+    pages: "page_0053"
+    role_in_book: "Remark defining morphism types for vector bundles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: normed-determinant-function
+title_en: "Normed determinant function"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [inner-product, determinant, normed-determinant, orientation]
+depends_on:
+  required: [inner-product-space, determinant-function, orientation]
+  recommended: [gram-determinant]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "3. Normed determinant functions"
+    pages: ""
+    role_in_book: "Defines the normed determinant function in an inner product space, satisfying the product identity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

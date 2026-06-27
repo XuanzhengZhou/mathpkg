@@ -1,0 +1,23 @@
+id: locally-compact-hausdorff-tvs-is-finite-dimensional
+title_en: "Locally Compact Hausdorff Topological Vector Spaces are Finite-Dimensional"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [locally-compact, finite-dimensional, hausdorff, complete-field, riesz-lemma, compact-neighborhood]
+depends_on:
+  required: [one-dimensional-hausdorff-tvs-isomorphism]
+  recommended: [locally-compact-space, compact-set, circled-neighborhood, null-sequence]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "1"
+    section: "3.6"
+    pages: ""
+    role_in_book: "Fundamental theorem: local compactness forces finite dimension over a complete field"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

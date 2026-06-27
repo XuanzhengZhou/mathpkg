@@ -1,0 +1,24 @@
+id: first-suspension-theorem
+title_en: "First Suspension Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: [suspension-theorem, freudenthal, homotopy-groups, suspension, loop-space]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "17"
+    section: "1"
+    pages: "330"
+    role_in_book: "Immediate consequence of Moore's homology and cohomology suspension theorems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"
+extraction_notes: "Statement is truncated in source. The theorem states that for an (n-1)-connected space X, the suspension homomorphism E: pi_i(X) -> pi_{i+1}(SX) is an isomorphism for i < 2n-1 and an epimorphism for i = 2n-1."

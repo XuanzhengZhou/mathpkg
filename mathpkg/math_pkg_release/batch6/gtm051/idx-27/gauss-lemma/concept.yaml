@@ -1,0 +1,23 @@
+id: gauss-lemma
+title_en: "Gauss Lemma"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [geodesic-coordinates, polar-coordinates, geodesic-circle, exponential-map, first-fundamental-form]
+depends_on:
+  required: []
+  recommended: [geodesic-polar-coordinates, normal-coordinates, exponential-map]
+  suggested: [first-fundamental-form]
+source_books:
+  - book_id: gtm051
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.3"
+    pages: "109-112"
+    role_in_book: "Core result in geodesic polar coordinates theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

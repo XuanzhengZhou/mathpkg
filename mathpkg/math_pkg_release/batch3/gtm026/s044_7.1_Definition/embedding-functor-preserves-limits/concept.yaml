@@ -1,0 +1,23 @@
+id: embedding-functor-preserves-limits
+title_en: "The constant diagram embedding functor preserves limits"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [embedding-functor, constant-diagram, limits, diagram-category, preservation]
+depends_on:
+  required: [category-of-diagrams, limit]
+  recommended: [adjoint-functor, free-object]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "7"
+    section: "7.1"
+    pages: ""
+    role_in_book: "Proposition 7.3; the embedding functor (·)̃: K → K^Δ preserves limits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: weakened-cone-separation-hypothesis
+title_en: "Extension of Theorem 3.2: Weakened Cone Hypothesis for Separation"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [separation-theorem, cone, convex-set, linear-functional, radial-set]
+depends_on:
+  required: [convex-set, cone, linear-functional, separation-theorem]
+  recommended: [strong-separation-theorem, radial-set]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "3"
+    section: "3.9"
+    pages: ""
+    role_in_book: "Remark C following Theorem 3.9; weakens the cone hypothesis in Theorem 3.2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

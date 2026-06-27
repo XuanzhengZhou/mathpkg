@@ -1,0 +1,23 @@
+id: number-of-degrees-of-freedom
+title_en: "Number of degrees of freedom"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: classical-mechanics
+difficulty: basic
+tags: [configuration-space, dimension, degrees-of-freedom]
+depends_on:
+  required: [differentiable-manifold]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnol'd"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "4"
+    section: "18"
+    pages: ""
+    role_in_book: "Defines the dimension of configuration space as the number of degrees of freedom"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

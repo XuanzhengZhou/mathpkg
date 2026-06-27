@@ -1,0 +1,23 @@
+id: cousin-i-distribution
+title_en: "Cousin I Distribution"
+title_zh: "库赞 I 分布"
+type: definition
+domain: analysis
+subdomain: several-complex-variables
+difficulty: intermediate
+tags: ["Cousin problem", "meromorphic function", "sheaf cohomology", "Mittag-Leffler"]
+depends_on:
+  required: ["meromorphic-function", "holomorphic-function", "open-covering"]
+  recommended: ["cech-coboundary-operator", "cocycle"]
+  suggested: ["cousin-ii-distribution", "additive-cousin-problem"]
+source_books:
+  - book_id: "gtm038"
+    author: "Raghavan Narasimhan"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Formulates the additive Cousin problem in sheaf-theoretic language"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

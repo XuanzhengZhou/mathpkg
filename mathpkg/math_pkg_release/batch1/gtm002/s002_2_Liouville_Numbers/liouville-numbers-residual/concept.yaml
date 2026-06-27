@@ -1,0 +1,23 @@
+id: liouville-numbers-residual
+title_en: "Liouville Numbers Form a Residual Set"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: baire-category
+difficulty: intermediate
+tags: [liouville-number, baire-category, residual-set, first-category, dense-open]
+depends_on:
+  required: [liouville-number, baires-theorem, first-category-set, nowhere-dense-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "2"
+    section: "2. Liouville Numbers"
+    pages: "16"
+    role_in_book: "Shows that the complement of Liouville numbers is of first category, so Liouville numbers exist in every interval — they are the 'general case' in the sense of Baire category."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

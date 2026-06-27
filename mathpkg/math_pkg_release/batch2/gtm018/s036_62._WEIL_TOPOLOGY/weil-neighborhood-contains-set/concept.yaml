@@ -1,0 +1,23 @@
+id: weil-neighborhood-contains-set
+title_en: "Weil Neighborhood Contains Set of Form GG^{-1}"
+title_zh: "Weil 邻域包含 GG^{-1} 型集合"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [weil-topology, measurable-group, neighborhood-base]
+depends_on:
+  required: [class-a-weil-topology, class-n-weil-neighborhood, measurable-set, product-measure]
+  recommended: [fubini-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "62"
+    section: "Weil Topology"
+    pages: "273"
+    role_in_book: "Theorem A: Every measurable set of positive measure contains a subset G with GG^{-1} contained in a given N-neighborhood"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

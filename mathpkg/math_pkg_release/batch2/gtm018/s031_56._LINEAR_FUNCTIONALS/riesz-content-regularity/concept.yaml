@@ -1,0 +1,23 @@
+id: riesz-content-regularity
+title_en: "Theorem A: Regularity of the Content Induced by a Positive Linear Functional"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [content, positive-linear-functional, regularity, riesz-representation]
+depends_on:
+  required: [content-induced-by-positive-linear-functional, positive-linear-functional]
+  recommended: [regular-content-definition, content-definition]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "56"
+    section: "56. LINEAR FUNCTIONALS"
+    pages: ""
+    role_in_book: "Establishes that λ is a regular content; used in the proof of Theorems B-D"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

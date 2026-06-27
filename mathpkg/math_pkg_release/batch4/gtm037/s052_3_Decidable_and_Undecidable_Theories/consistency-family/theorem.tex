@@ -1,0 +1,11 @@
+Let $\mathcal{L}'$ be a rich expansion of $\mathcal{L}$ by $C$. Let $S$ be a family of sets of sentences of $\mathcal{L}'$. Then $S$ is a consistency family (for $\mathcal{L}, \mathcal{L}'$) iff for each $\Gamma \in S$ all of the following hold, for all sentences $\varphi, \psi$ of $\mathcal{L}'$:
+
+\begin{itemize}
+\item[(C0)] If $\Delta \subseteq \Gamma$, then $\Delta \in S$.
+\item[(C1)] $\varphi \notin \Gamma$ or $\neg \varphi \notin \Gamma$.
+\item[(C2)] If $\neg \varphi \in \Gamma$, then $\Gamma \cup \{\varphi \rightarrow\} \in S$.
+\item[(C3)] If $\varphi \land \psi \in \Gamma$, then $\Gamma \cup \{\varphi\} \in S$ and $\Gamma \cup \{\psi\} \in S$.
+\item[(C4)] If $\varphi \lor \psi \in \Gamma$, then $\Gamma \cup \{\varphi\} \in S$ or $\Gamma \cup \{\psi\} \in S$.
+\item[(C5)] If $\forall \alpha \varphi \in \Gamma$, then for all $\mathbf{c} \in C$, $\Gamma \cup \{\text{Sbf}_{\mathbf{c}}^\alpha \varphi\} \in S$.
+\item[(C6)] If $\exists \alpha \varphi \in \Gamma$, then there is some $\mathbf{c} \in C$ such that $\Gamma \cup \{\text{Sbf}_{\mathbf{c}}^\alpha \varphi\} \in S$.
+\end{itemize}

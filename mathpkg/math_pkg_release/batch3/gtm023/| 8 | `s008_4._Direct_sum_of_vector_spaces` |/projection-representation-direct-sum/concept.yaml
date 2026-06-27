@@ -1,0 +1,23 @@
+id: projection-representation-direct-sum
+title_en: "Direct Sum Representation of a Projection Operator"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [projection-operator, direct-sum, identity-map, zero-map, block-diagonal]
+depends_on:
+  required: [projection-kernel-image-direct-sum]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "2"
+    section: "4"
+    pages: "75"
+    role_in_book: "Equation (2.29): Block-diagonal form of a projection operator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: exercise-4-7
+title_en: "Exercise 4.7: Universal Turing Machine"
+title_zh: "习题 4.7：通用图灵机"
+type: exercise
+domain: logic
+subdomain: computability
+difficulty: advanced
+tags: [universal-turing-machine, godel-numbering, simulation, exercise]
+depends_on:
+  required: [turing-machine, godel-numbering]
+  recommended: [computation, failure-for-input]
+  suggested: []
+source_books:
+  - book_id: gtm022
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "9"
+    section: "4"
+    pages: ""
+    role_in_book: "Exercise constructing a universal Turing machine that simulates any other Turing machine"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

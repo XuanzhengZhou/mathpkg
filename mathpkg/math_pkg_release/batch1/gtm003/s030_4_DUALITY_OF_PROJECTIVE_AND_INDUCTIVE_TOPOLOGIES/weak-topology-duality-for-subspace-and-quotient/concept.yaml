@@ -1,0 +1,23 @@
+id: weak-topology-duality-for-subspace-and-quotient
+title_en: "Weak Topology Duality for Subspace and Quotient (Corollary 1 of 4.1)"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [weak-topology, duality, subspace, quotient, sigma-topology]
+depends_on:
+  required: [duality-of-induced-and-quotient-s-topologies, weak-topology]
+  recommended: [dual-system-induced-by-subspace]
+  suggested: [mackey-topology]
+source_books:
+  - book_id: gtm003
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "4"
+    pages: "146-156"
+    role_in_book: "Characterizes when the weak topology on a quotient coincides with the quotient of the weak topology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

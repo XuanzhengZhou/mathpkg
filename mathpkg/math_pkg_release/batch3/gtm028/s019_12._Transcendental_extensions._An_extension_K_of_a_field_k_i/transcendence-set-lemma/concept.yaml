@@ -1,0 +1,23 @@
+id: transcendence-set-lemma
+title_en: "Extension of Transcendence Sets"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: field-theory
+difficulty: intermediate
+tags: [transcendence-set, algebraic-independence, transcendental-extension]
+depends_on:
+  required: [transcendence-set, transcendental-extension]
+  recommended: [algebraic-independence]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "II. Elements of Field Theory"
+    section: "§12. Transcendental Extensions"
+    pages: ""
+    role_in_book: "Characterizes when adding an element to a transcendence set preserves algebraic independence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

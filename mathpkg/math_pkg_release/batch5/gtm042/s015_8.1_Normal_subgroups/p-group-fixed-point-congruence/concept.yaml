@@ -1,0 +1,23 @@
+id: p-group-fixed-point-congruence
+title_en: "Lemma 3: Cardinality congruence for p-group actions"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [p-group, group-action, fixed-point, congruence, class-equation]
+depends_on:
+  required: [p-group, group-action, orbit-stabilizer]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "8"
+    section: "8.3"
+    pages: ""
+    role_in_book: "Key counting lemma for p-group actions; used to prove Theorem 14 and Sylow theorems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

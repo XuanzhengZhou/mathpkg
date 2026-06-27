@@ -1,0 +1,16 @@
+A diagram
+$$A \mathrel{\mathop{\rightrightarrows}\limits_{g}^{f}} B \xrightarrow{q} Q$$
+in a category $\mathcal{K}$ is a \textbf{coequalizer} if $q = \text{coeq}(f, g)$, meaning that $q$ is the coequalizer of $f$ and $g$. Equivalently, $q = \text{eq}(f, g)$ in $\mathcal{K}^{\text{op}}$.
+
+That is:
+\begin{enumerate}
+\item $q \circ f = q \circ g$;
+\item For any $q': B \to Q'$ with $q' \circ f = q' \circ g$, there exists a unique $h: Q \to Q'$ such that $q \circ h = q'$:
+\[
+\begin{array}{c}
+A \mathrel{\mathop{\rightrightarrows}\limits_{g}^{f}} B \xrightarrow{q} Q \\
+\qquad \searrow_{q'} \quad \downarrow_{h} \\
+\qquad\qquad Q'
+\end{array}
+\]
+\end{enumerate}

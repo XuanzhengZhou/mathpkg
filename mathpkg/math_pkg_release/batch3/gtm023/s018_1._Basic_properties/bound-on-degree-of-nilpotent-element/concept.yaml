@@ -1,0 +1,23 @@
+id: bound-on-degree-of-nilpotent-element
+title_en: "Bound on the Degree of Nilpotency of an Element"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: nilpotent-theory
+difficulty: basic
+tags: [nilpotent, bound, dimension]
+depends_on:
+  required: [bound-on-degree-of-radical, nilpotent-element-in-algebra]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "5"
+    section: "§2. Ideals"
+    pages: "170"
+    role_in_book: "any nilpotent element in an n-dim algebra has degree at most n+1"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

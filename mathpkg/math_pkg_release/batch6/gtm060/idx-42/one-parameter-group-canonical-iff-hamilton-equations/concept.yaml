@@ -1,0 +1,23 @@
+id: one-parameter-group-canonical-iff-hamilton-equations
+title_en: "One-Parameter Group Satisfies Hamilton's Equations iff Transformations Are Canonical"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [one-parameter-group, canonical-transformation, hamilton-equations, symplectic-geometry, phase-flow]
+depends_on:
+  required: [infinitesimal-canonical-transformation-hamilton-equations, canonical-transformation]
+  recommended: [hamilton-equations, phase-flow, symplectic-form]
+  suggested: [generating-function, poisson-bracket]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "8"
+    section: "42"
+    pages: ""
+    role_in_book: "Corollary characterizing one-parameter groups: the flow satisfies Hamilton's equations exactly when each transformation is canonical"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

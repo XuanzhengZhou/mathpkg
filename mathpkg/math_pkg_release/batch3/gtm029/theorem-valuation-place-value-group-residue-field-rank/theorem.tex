@@ -1,0 +1,53 @@
+$G_V$ is a $\pi$-group, i.e., a group whose order is a power of $\pi$. (In particular, $G_V = (1)$ if $\Delta$ has characteristic zero.)
+
+Proof. We have only to show that if $s \in G_V$ and $s$ has prime order $q$, then $q = \pi$. Assume the contrary: $q \neq \pi$. Let $L$ be the fixed field of $s$. Then $K^\star$ is a cyclic extension of $L$, of degree $q$. Let $x$ be a primitive element of $K^\star/L$ and let $X^q + a_{q-1}X^{q-1} + \cdots + a_0, a_i \in L$ be the minimal polynomial of $x$ over $L$. We may assume that $a_{q-1} = 0$ since $q \neq \pi$ and since therefore we can replace $x$ by $x + a_{q-1}/q$. Hence we may assume that the trace of $x$ is zero. On the other hand, if we set $s_i = s^i$, $i = 0, 1, \cdots, q-1$, then the $v^\star$-residue of $x^{s_i}/x$ is 1, since $s_i \in G_V$, and hence the $v^\star$-residue of $\sum_{i=0}^{q-1} x^{s_i}/x$ is equal to $q \neq 0$, a contradiction since the trace $\sum x^{s_i}$ is zero. This completes the proof of the theorem.
+
+At this stage we can already obtain, as a corollary of Theorem 24, the definitive result in the case $\pi = 1$ (i.e., in the case in which $\Delta$ has characteristic zero):
+
+Corollary. If the residue field $\Delta$ of $v$ has characteristic zero then the groups $G_T$ and $\Gamma^\star/\Gamma$ are isomorphic. The ram
+
+$N_{K^\star/K_V}$ to the relation $\frac{s(x)}{x} - 1 \in \mathfrak{M}_{v^\star}$, we easily get $\frac{s(y)}{y} - 1 \in \mathfrak{M}_{v^\star}$ for every $s$ in $G_T$. It follows that the conjugates $y_i$ of $y$ over $K_T$ may be written in the form $y_i = y(1 + b_i)(b_i \in \mathfrak{M}_{v^\star})$. Since $[K_V:K_T] = e'_0$ (see (23)), there are $e'_0$ conjugates $y_i$, and, by summation, we get
+
+$$T_{K_V/K_T}(y) = y(e'_0 + b)$$
+
+with $b = \sum b_i \in \mathfrak{M}_{v^\star}$. Since $e'_0$ is prime to $\pi$, it is a unit in $R_{v^\star}$. Hence $v^\star(y) = v^\star(T(y)) \in \Gamma_T$, and therefore $v^\star(y) \in \Gamma$ by Theorem 23. Q.E.D.
+
+It follows from the lemma that the pairing
+
+$$h: \ G_T/G_V \times \tilde{\Gamma}_0 \rightarrow \Delta^{\star'}$$
+
+defined by (21) and (22) is faithful in the sense that 1 is the only element $\sigma$ of $G_T/G_V$ such that $h(\sigma, \tilde{\alpha}) = 1$ for every $\tilde{\alpha}$ in $\tilde{\Gamma}_0$, and that 0 is the only element $\tilde{\alpha}$ of the additive group $\tilde{\Gamma}_0$ such that $h(\sigma, \alpha) = 1$ for every $\sigma$ in $G_T/G_V$. On the other hand, $h$ takes its values in the group $U$ of $e'_0$-th roots of unity contained in $\Delta^\star$; this group $U$ is a cyclic group of order prime to $\pi$.
+
+Now the theory of characters† for finite abelian groups shows that, given a finite ab
+
+(c) If $a \subset b$, then $G_a \subset G_b$ and $H_a \subset H_b$.
+
+(d) $G_a$ and $H_a$ are invariant subgroups of $G_Z$.
+
+(e) The commutator of an element of $H_a$ and of an element of $H_b$ is in $H_{ab}$.
+
+(f) Let the value group $\Gamma^\star$ be isomorphic to a dense subgroup of the group of real numbers, and be identified with such a subgroup. If $a$ is a positive real number, and if $a$ is the ideal in $R_v^\star$ defined by $v^\star(x) \geq a$, then $G_a = H_a$. In fact take any $x \neq 0$ in $R_v^\star$, any real number $\varepsilon > 0$, and write $x = x_1 \cdots x_n$ where $0 \leq v^\star(x_i) \leq \varepsilon$ (this is possible for $n$ large enough, since $\Gamma^\star$ is a dense subgroup of the real line). The formula
+
+$$s(x) - x = \sum_{j=1}^{n} s(x_1) \cdots s(x_{j-1})(s(x_j) - x_j)x_{j+1} \cdots x_n$$
+
+shows that, if $s$ is in $G_Z$, we have
+
+$$v^\star(s(x) - x) \geq \min_j (v^\star(x) - v^\star(x_j) + v^\star[s(x_j) - x_j]).$$
+
+Taking $s$ in $G_a$, this gives $v^\star(s(x) - x) \geq v^\star(x) + a - \varepsilon$. As this is true for every $\varepsilon > 0$, we have $v^\star(s(x) - x) \geq v^\star(x) + a$, i.e., $s(x) - x \in ax$, whence $s \in H_a$. Our conclusion follows then from (a).
+
+REMARK. In the case of a discrete valuation $v^\star$ of rank 1, the decomposition of $x$ into a product of elements of order 1 shows, in
+
+$v^\star(a) (s \in G_Z)$, and since $s(y_t) - y_t \in R_{v^\star} a \subset \mathfrak{M}_{v^\star}$, the term $s(a) \cdot [s(y_t)) - y_t]$ is in $\mathfrak{M}_{v^\star} a$. Similarly, since $s(a) - a = s(a') s(a'') - a' a'' = s(a') [s(a'') - a''] + a'' [s(a') - a']$, the term $(s(a) - a) y_t$ belongs to $\mathfrak{M}_{v^\star} a$. Hence $ay_{ts} \equiv ay_s + ay_t$ (mod $\mathfrak{M}_{v^\star} a$), and therefore $y_{ts} \equiv y_s + y_t$ (mod $\mathfrak{M}_{v^\star} a$).
+
+In other words, we have a pairing $B$ between $G_a$ and the additive group of $R_{v^\star}$, with values in the additive group of $\Delta^\star$. The kernel of the homomorphism $\varphi$ of $G_a$ into Hom $(R_{v^\star}, \Delta^\star)$ defined by $\varphi(s)(x) = B(x, s)$ is the set of all $s$ in $G_a$ such that $\frac{s(x) - x}{a} \in \mathfrak{M}_{v^\star}$ for every $x$ in $R_{v^\star}$; in other words, this kernel is $G_a \mathfrak{M}_{v^\star}$. The image $\varphi(G_a)$ in Hom $(R_{v^\star}, \Delta^\star)$ is therefore a subgroup of Hom $(R_{v^\star}, \Delta^\star)$, which is isomorphic to $G_a / G_a \mathfrak{M}_{v^\star}$ and therefore finite. If the characteristic of $\Delta^\star$ is zero, no subgroup of Hom $(R_{v^\star}, \Delta^\star)$ is finite, except the subgroup (0), since such a subgroup contains, with any element $\Theta \neq 0$, all its multiples $\Theta + \The
+
+$\psi(u)$; in particular we have $\psi(u) = 0$ if and only if $G_a = G_a \mathfrak{M}_v^\star$. Furthermore (still under the assumptions that $\Delta^\star$ is separable over $\Delta$ and that $\Gamma^\star$ admits a smallest element $> 0$), the mapping $s \rightarrow \psi(u)(s) = B(u, s)$ defines an isomorphism of $G_a / G_a \mathfrak{M}_v^\star$ onto an additive subgroup of $\Delta^\star$.
+
+(h) Let still $a$ be a principal ideal $R_{t^\star}a$ with $a$ in $\mathfrak{M}_v^\star$. For $t$ in $H_a$ and $x \neq 0$ in $K^\star$, we denote by $C(x, t)$ the $v^\star$-residue of $\frac{t(x) - x}{ax}$.
+
+The mapping $C$ satisfies the following relations:
+
+(29) $C(xy, t) = C(x, t) + C(y, t)$,
+
+(30) $C(x, ts) = C(x, s) + C(x, t)$.

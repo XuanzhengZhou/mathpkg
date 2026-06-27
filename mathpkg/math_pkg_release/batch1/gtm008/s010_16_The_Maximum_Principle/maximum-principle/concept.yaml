@@ -1,0 +1,23 @@
+id: maximum-principle
+title_en: "The Maximum Principle for Boolean-Valued Models"
+title_zh: "布尔值模型的最大原理"
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [maximum-principle, boolean-valued-universe, forcing, existential-quantifier]
+depends_on:
+  required: [domain-extension-for-families]
+  recommended: [boolean-valued-universe, boolean-valued-logic]
+  suggested: [corollary-16-3-partition]
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: ""
+    role_in_book: "Central theorem of Boolean-valued models — asserts that for any existential formula there exists a witness whose Boolean truth value equals that of the existential statement."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

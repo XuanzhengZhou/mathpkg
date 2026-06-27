@@ -1,0 +1,23 @@
+id: perfect-fluid-divergence-free-condition
+title_en: "Perfect Fluid Divergence-Free Condition"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: general-relativity
+difficulty: advanced
+tags: [perfect-fluid, stress-energy-tensor, divergence, reference-frame, geodesic-equation]
+depends_on:
+  required: [perfect-fluid-stress-energy-representation, covariant-derivative, divergence-operator, gradient]
+  recommended: [reference-frame, energy-density-of-quasi-gas, pressure-of-quasi-gas]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.15"
+    pages: ""
+    role_in_book: "Proposition 3.15.3 — Necessary and sufficient conditions for div T̂ = 0 in a perfect fluid"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,20 @@
+id: filtered-colimit
+title_en: "Filtered Colimit"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [filtered-colimit, colimit, filtered-category, directed-colimit]
+depends_on: {required: [filtered-category], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IX"
+    section: "1. Filtered Limits"
+    pages: ""
+    role_in_book: "Defines colimits over filtered index categories; classically restricted to directed preorders"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

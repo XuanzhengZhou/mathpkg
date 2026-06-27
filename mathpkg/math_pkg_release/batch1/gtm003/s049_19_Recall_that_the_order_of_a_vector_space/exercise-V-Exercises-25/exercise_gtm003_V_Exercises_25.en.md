@@ -1,0 +1,14 @@
+---
+role: exercise
+locale: en
+chapter: "V"
+section: "Exercises"
+exercise_number: 25
+---
+
+25. (Spectral Algebras.)
+(a) A l.c. algebra $A$ over $\mathbf{R}$ with unit $e$ is a spectral algebra if and only if there exists an order of $A$ such that (i) $A$ is an ordered algebra; (ii) $e$ is an order unit, and $[-e, e]$ is bounded; (iii) every positive sequence of type $\ell^1$ is order summable.
+(b) A l.c. algebra over $\mathbf{C}$ with unit $e$ is a spectral algebra if and only if there exists a real subalgebra $A_1$ containing $e$ such that each $a \in A$ has a unique representation $a = b + ic$ ($b, c \in A_1$), and such that $A_1$ is a spectral algebra over $\mathbf{R}$.
+(c) Let $\mu$ be a spectral measure on $X$ with range $A$. Define the support of $\mu$ to be the complement $X_0$ of the largest open set $G \subset X$ such that $\mu(f) = 0$ whenever $f$ has its support in $G$. Then $\mu$ induces a spectral measure $\mu_0$ on $X_0$ with range $A$ which is biunivocal. For $\mu_0$ to be a homeomorphism, it is necessary and sufficient that $a \mapsto r(a)$ be continuous on $A$, where $r(a)$ denotes the spectral radius of $a \in A$.
+(d) If $A$ is a l.c. algebra, an element $a \in A$ is called a spectral element if $a$ is contained in a spectral subalgebra of $A$. If $a$ is a spectral element of $A$ and $\mu$ is a spectral measure on $X$ such that $a = \mu(f)$, then $f(X)$ is the spectrum of $a$: $f(X) = \sigma(a)$.
+Moreover, there exists a unique extension $\bar{\mu}$ of $\mu$ to the Banach algebra $\mathcal{B}(X)$ of bounded Baire functions on $X$, such that $\bar{\mu}$ is an algebraic homomorphism of $\mathcal{B}(X)$ into $A$. And $\bar{\mu}$ induces a homomorphism of the Boolean algebra of Baire subsets of $X$ onto a $\sigma$-complete Boolean algebra of idempotents of $A$.

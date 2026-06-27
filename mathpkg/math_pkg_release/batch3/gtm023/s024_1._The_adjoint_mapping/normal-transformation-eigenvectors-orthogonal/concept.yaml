@@ -1,0 +1,23 @@
+id: normal-transformation-eigenvectors-orthogonal
+title_en: "Eigenvectors of a Normal Transformation with Distinct Eigenvalues are Orthogonal"
+title_zh: "正规变换不同特征值的特征向量正交"
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [normal-transformation, eigenvectors, orthogonality, spectral-theorem]
+depends_on:
+  required: [normal-transformation, normal-transformation-same-eigenvectors, eigenvectors-adjoint-different-eigenvalues-orthogonal]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VIII"
+    section: "§1. The adjoint mapping"
+    pages: ""
+    role_in_book: "Orthogonality of eigenspaces for normal operators"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,10 @@
+The \textbf{Wiener process} (or \textbf{Brownian motion}) $X_t(w)$, $0 \leq t < \infty$, is a Gaussian process with:
+\begin{enumerate}
+\item $X_0(w) \equiv 0$
+\item Independent increments: $X_{t_i} - X_{\tau_i}$ are independent for nonoverlapping intervals
+\item $E X_t = 0$, $\operatorname{Cov}(X_t, X_\tau) = \min(t, \tau)$
+\item The increments $X_t - X_\tau$ are normally distributed with mean 0 and variance $t - \tau$
+\end{enumerate}
+
+The joint density of $X_{t_1}, \ldots, X_{t_k}$ ($0 < t_1 < \cdots < t_k$) is
+$$\frac{1}{\sqrt{2\pi t_1}} e^{-x_1^2/(2t_1)} \prod_{j=1}^{k-1} \frac{1}{\sqrt{2\pi(t_{j+1} - t_j)}} e^{-(x_{j+1} - x_j)^2/(2(t_{j+1} - t_j))}.$$

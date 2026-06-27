@@ -1,0 +1,23 @@
+id: bornological-stability-under-quotient
+title_en: "Stability of Bornological Spaces under Quotients, Direct Sums, and Inductive Limits"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [bornological, quotient-space, direct-sum, inductive-limit, locally-convex-space]
+depends_on:
+  required: [bornological-space, bornological-inductive-limit, quotient-space, locally-convex-direct-sum]
+  recommended: [separated-quotient, inductive-limit-of-bornological]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "8"
+    section: "8.2"
+    pages: ""
+    role_in_book: "Corollary 1 of Theorem 8.2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

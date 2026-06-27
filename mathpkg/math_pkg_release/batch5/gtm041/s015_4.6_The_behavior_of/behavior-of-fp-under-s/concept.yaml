@@ -1,0 +1,23 @@
+id: behavior-of-fp-under-s
+title_en: "Behavior of f_p under S"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [Hecke-operator, modular-form, group-action, slash-operator]
+depends_on:
+  required: []
+  recommended: [hecke-operator-fp, modular-group-generators]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "4"
+    section: "4.6"
+    pages: ""
+    role_in_book: "Primary theorem describing how the Hecke operator f_p transforms under the modular inversion S"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: second-differential-matrix-representation
+title_en: "Matrix representation of the second differential"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [second-differential, hessian, partial-derivatives, matrix-representation]
+depends_on:
+  required: [differential-at-a-point, jacobian-matrix-of-differential]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: ""
+    title: "A Course in Differential Geometry"
+    chapter: "0"
+    section: "0.3"
+    pages: "12-14"
+    role_in_book: "Extends the Jacobian representation to the second differential d²F"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

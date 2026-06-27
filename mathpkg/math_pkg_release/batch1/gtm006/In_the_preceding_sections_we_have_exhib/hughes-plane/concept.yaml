@@ -1,0 +1,23 @@
+id: hughes-plane
+title_en: "Hughes Plane"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [finite-geometry, projective-plane, non-desarguesian, nearfield]
+depends_on:
+  required: []
+  recommended: [nearfield, projective-plane, finite-field]
+  suggested: [quasifield, ternary-ring]
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "IX"
+    section: "6. The Hughes Planes"
+    pages: ""
+    role_in_book: "Introduces a class of finite non-desarguesian projective planes constructed from nearfields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

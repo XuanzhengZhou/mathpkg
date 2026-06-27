@@ -1,0 +1,23 @@
+id: adjoint-involution
+title_en: "Involution Property of the Semi-linear Adjoint"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [adjoint, involution, sesquilinear-form, semilinear-mapping, complex-conjugation]
+depends_on:
+  required: [semilinear-adjoint]
+  recommended: [sesquilinear-form, transpose-of-linear-mapping]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K. W. Gruenberg and A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "6"
+    section: "6.5"
+    pages: ""
+    role_in_book: "Exercise 5(i) — proof that f** = f for the semi-linear adjoint"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

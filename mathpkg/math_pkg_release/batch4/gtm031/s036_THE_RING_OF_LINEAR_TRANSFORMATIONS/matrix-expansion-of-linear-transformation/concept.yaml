@@ -1,0 +1,23 @@
+id: matrix-expansion-of-linear-transformation
+title_en: "Matrix Expansion of a Linear Transformation"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [matrix-representation, linear-transformations, matrix-units, scalar-transformations, endomorphism-ring]
+depends_on:
+  required: [matrix-units, scalar-transformation-bar-alpha, bar-alpha-commutes-with-matrix-units]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "VIII"
+    section: "1. Simplicity of $\\mathfrak{L}$"
+    pages: ""
+    role_in_book: "Establishes that every linear transformation can be uniquely expressed as a linear combination of matrix units with coefficients in $\\bar{\\Delta}$"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

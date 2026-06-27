@@ -1,0 +1,23 @@
+id: classical-lie-algebras-are-semisimple
+title_en: "Classical Lie Algebras Are Semisimple"
+title_zh: "典型李代数的半单性"
+type: theorem
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [classical-lie-algebras, semisimple, irreducibility, natural-representation, type-B, type-C, type-D]
+depends_on:
+  required: [reductive-lie-algebra, semisimple-lie-algebra, classical-lie-algebras, natural-representation]
+  recommended: [structure-of-reductive-lie-algebra]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "19"
+    section: "19.3"
+    pages: ""
+    role_in_book: "Theorem establishing that the classical Lie algebras of types B_ell, C_ell, D_ell are semisimple, proved by showing their natural representations are irreducible and consist of trace-0 endomorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

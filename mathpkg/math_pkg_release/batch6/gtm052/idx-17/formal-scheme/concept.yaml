@@ -1,0 +1,23 @@
+id: formal-scheme
+title_en: "Formal Scheme"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [formal-completion, locally-ringed-space, noetherian-scheme, adic-topology]
+depends_on:
+  required: [formal-completion]
+  recommended: [inverse-limit-of-sheaves]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "9"
+    pages: "206-212"
+    role_in_book: "Definition of the central object of study in §9; generalizes the notion of a scheme by allowing structure sheaves with nilpotent elements of arbitrarily high order"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: delta-p-via-infinitely-near-points
+title_en: "Computation of delta_P via Infinitely Near Points"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [delta-invariant, curve-singularities, infinitely-near-points, multiplicity, resolution-of-singularities]
+depends_on:
+  required: [infinitely-near-point, multiplicity]
+  recommended: [genus-via-normalization, arithmetic-genus]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "3"
+    pages: "409-420"
+    role_in_book: "Example 3.9.3; computes the delta-invariant of a curve singularity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

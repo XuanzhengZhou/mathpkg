@@ -1,0 +1,23 @@
+id: projective-quadric
+title_en: "Projective Quadric"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [quadric, symmetric-bilinear-form, projective-geometry, quadratic-form]
+depends_on:
+  required: [symmetric-bilinear-form, projective-space]
+  recommended: [quadratic-form]
+  suggested: []
+source_books:
+  - book_id: gtm049
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "5.6"
+    pages: "111"
+    role_in_book: "Defines projective quadrics as the set of isotropic points of a symmetric bilinear form"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

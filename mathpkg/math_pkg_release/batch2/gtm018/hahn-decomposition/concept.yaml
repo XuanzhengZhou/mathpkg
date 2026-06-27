@@ -1,0 +1,23 @@
+id: hahn-decomposition-theorem
+title_en: "Hahn Decomposition Theorem"
+title_zh: "Hahn分解定理"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-theory, hahn-decomposition, signed-measure]
+depends_on:
+  required: [signed-measure]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "VI"
+    section: "29"
+    pages: ""
+    role_in_book: "Every signed measure decomposes the space into a positive set and a negative set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+The discriminant of a polynomial vanishes precisely when the polynomial has a multiple root. This algebraic criterion is essential for identifying singular points of analytic sets defined by Weierstrass polynomials.

@@ -1,0 +1,11 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+2.6 Theorem from Conway's "Functions of One Complex Variable I."
+Let $f$ be an entire function of genus $\mu$. For each positive number $\alpha$ there is a number $r_0$ such that for $|z| > r_0$
+
+$$|f(z)| < \exp(\alpha |z|^{\mu+1})$$...

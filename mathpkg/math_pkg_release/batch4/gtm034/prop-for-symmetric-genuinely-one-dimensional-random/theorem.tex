@@ -1,0 +1,9 @@
+For symmetric genuinely one-dimensional random walk (i.e., when $P(x,y) = P(y,x), P(0,0
+
+The series defining $c$ always converges, and that defining $\alpha$ was shown to converge in the proof of P18.5, when $\mu = 0$ and $\sigma^2 < \infty$.
+
+We shall worry only about the asymptotic behavior of $P[N_n = 0]$, since the evaluation of the other limit follows a similar path. Using part (b) of T1 one gets
+
+$$\sqrt{1 - t} \sum_{n=0}^{\infty} P[N_n = 0] t^n = e^{\sum_{k=1}^{\infty} \frac{t_k}{k} \left\{P[S_k \leq 0] - \frac{1}{2}\right\}} = e^{\sum_{k=1}^{\infty} \frac{t_k}{k} \left\{\frac{1}{2} - P[S_k > 0]\right\}}.$$
+
+As $t \nearrow 1$ the right-hand side has a finite limit. This limit is clearly $e^\alpha$ in the case when $\mu = 0$ and $\sigma^2 < \infty$, and by using the fact that $P[S_n > 0] = P[S_n < 0]$ it is seen to be $\sqrt{c}$ when the random walk is symmetric. From this point on the proof for both cases can follow a common pattern. It will make use of only one simple property of the sequence $P[N_n = 0] = p_n$. That is its monotonicity and non-negativity: $p_0 \geq p_1 \geq \cdots \geq p_n \geq p_{n+1} \cdots \geq 0$. Thus P1 will follow from

@@ -1,0 +1,26 @@
+id: dualized-identity
+title_en: "Dualized Identity for the Expected Visit Matrix"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [duality, expected-visits, taboo-probability, matrix-identity]
+depends_on:
+  required: [
+    - identities-relating-b-e, dual-of-p-equals-p-hat-e, dual-b-e-formula
+  ]
+  recommended: [
+  ]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "2. Duality"
+    pages: ""
+    role_in_book: "Proposition 6-18: dualized version of the first identity of Proposition 6-17"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

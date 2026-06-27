@@ -1,0 +1,23 @@
+id: orientability-via-first-stiefel-whitney-class
+title_en: "Orientability criterion via the first Stiefel-Whitney class"
+title_zh: "通过第一Stiefel-Whitney类判断可定向性"
+type: theorem
+domain: topology
+subdomain: characteristic-classes
+difficulty: advanced
+tags: [orientability, stiefel-whitney-class, vector-bundle]
+depends_on:
+  required: [stiefel-whitney-class, orientation]
+  recommended: [splitting-principle, exterior-power]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "17. Chern Classes and Stiefel-Whitney Classes"
+    section: "11"
+    pages: ""
+    role_in_book: "Characterization of orientability of real vector bundles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

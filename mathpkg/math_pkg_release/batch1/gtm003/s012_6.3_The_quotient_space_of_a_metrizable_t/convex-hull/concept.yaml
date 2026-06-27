@@ -1,0 +1,23 @@
+id: convex-hull
+title_en: "Convex Hull of a Set"
+title_zh: "凸包"
+type: definition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [convex-hull, convex-combination]
+depends_on:
+  required: []
+  recommended: [convex-set]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines convex hull as intersection of all convex supersets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: h-transformed-kernel
+title_en: "h-Transformed Kernel and Green Function"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: potential-theory
+difficulty: intermediate
+tags: [h-transform, doob-transform, transient-kernel, green-function]
+depends_on:
+  required: [transient-kernel, q-regular-excessive-potential]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm034
+    author: "Frank Spitzer"
+    title: "Principles of Random Walk"
+    chapter: "27"
+    section: "APPLICATIONS TO ANALYSIS"
+    pages: ""
+    role_in_book: "Defines the h-transform, a key tool for studying regular functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

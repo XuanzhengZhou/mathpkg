@@ -1,0 +1,23 @@
+id: ordered-lcs-regularly-ordered
+title_en: "Every Ordered Locally Convex Space is Regularly Ordered"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: ordered-topological-vector-spaces
+difficulty: intermediate
+tags: [ordered-locally-convex-space, regularly-ordered, bipolar-theorem]
+depends_on:
+  required: [ordered-topological-vector-space, locally-convex-space, characterization-regularly-ordered-tvs]
+  recommended: [bipolar-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "4"
+    pages: ""
+    role_in_book: "Corollary 2: Shows that the LTO axiom implies regular order for l.c.s."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

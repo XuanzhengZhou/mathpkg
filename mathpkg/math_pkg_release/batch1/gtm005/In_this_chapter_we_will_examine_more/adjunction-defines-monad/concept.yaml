@@ -1,0 +1,23 @@
+id: adjunction-defines-monad
+title_en: "Every Adjunction Gives Rise to a Monad"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [monad, adjunction, functor-composition, horizontal-composition]
+depends_on:
+  required: [monad-in-a-category, adjunction, natural-transformation, functor-composition]
+  recommended: [horizontal-composition, counit]
+  suggested: [free-group-monad]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI. Monads and Algebras"
+    section: "1. Monads in a Category"
+    pages: ""
+    role_in_book: "Key proposition: shows that monads naturally arise from adjunctions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

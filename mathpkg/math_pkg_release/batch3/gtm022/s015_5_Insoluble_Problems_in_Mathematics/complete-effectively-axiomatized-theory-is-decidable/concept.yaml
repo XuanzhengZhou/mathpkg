@@ -1,0 +1,23 @@
+id: complete-effectively-axiomatized-theory-is-decidable
+title_en: "Complete Effectively Axiomatised Theories Are Decidable"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: proof-theory
+difficulty: intermediate
+tags: [decidability, completeness, effective-axiomatization, turing-machine, proof-theory]
+depends_on:
+  required: []
+  recommended: [decidable-theory, effective-axiomatization, complete-theory]
+  suggested: [proof-recognition-by-turing-machine]
+source_books:
+  - book_id: "gtm022"
+    author: "D. W. Barnes, J. M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "5"
+    section: "5"
+    pages: ""
+    role_in_book: "Exercise 5.4 — proves that a consistent, complete, and effectively axiomatised theory is decidable, with a Turing machine that provides proofs of its answers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,27 @@
+If $H_B(x,y)$ is the hitting probability measure of a finite, nonempty subset $B \subset R$ for a random walk of type II, then both limits
+
+(a) $\lim_{x \to -\infty} H_B(x,y) = H_B(-\infty,y)$
+
+(b) $\lim_{x \to +\infty} H_B(x,y) = H_B(+\infty,y)$
+
+exist for every $y$ in $B$.
+
+Proof: The foundations for this theorem were carefully laid in P24.7 in the last chapter. As in D24.1, let $A$ denote the half-line $A = [x \mid x > 0]$. Without loss of generality we may assume that the set $B$ of P6 is a subset of $A$. As a simple probability argument shows, the hitting probabilities of $A$ and of $B$ are then related, for $x \leq 0$, by
+
+(1) $H_B(x,y) = \sum_{t=1}^{\infty} H_A(x,t)H_B(t,y), \quad x \leq 0, \quad y \in B.$
+
+The formal proof may safely be omitted; it is based on the stopping time $T = \min[n \mid n \geq 1, x_n \in A]$ in the obvious way.
+
+Now we recall from T18.1 that type II random walk has the property that
+
+$E_0[Z] < \infty$, where $Z = x_T.$
+
+Thus we are in the classification (3) or equivalently (iii) in P24.7, which permits the conclusion
+
+(2) $\lim_{x \to -\infty} H_A(x,y) = \gamma_A(y), \quad y \in A; \quad \sum_{y=1}^{\infty} \gamma_A(y) = 1.$
+
+Applying (2) to (1) one immediately has the existence of
+
+$\lim
+
+As a simple consequence of P6 we record

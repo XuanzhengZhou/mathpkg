@@ -1,0 +1,23 @@
+id: stably-equivalent-bundles-equal-characteristic-classes
+title_en: "Stably Equivalent Bundles Have Equal Characteristic Classes"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [characteristic-classes, stiefel-whitney-classes, chern-classes, stable-equivalence, vector-bundles]
+depends_on:
+  required: [stiefel-whitney-classes, chern-classes, vector-bundle]
+  recommended: [s-equivalence, whitney-sum-formula]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "4.3"
+    pages: ""
+    role_in_book: "Shows that characteristic classes are invariants of stable equivalence classes of vector bundles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+---
+role: exercise
+locale: en
+chapter: "X"
+section: "13"
+exercise_number: "3c"
+---
+
+If $\mu$ is a finite measure defined on the class of Borel subsets of a metric space $X$, and $\mathbf{U}$ is the class of open subsets of $X$, then for every Borel set $E$,
+
+$$\mu(E) = \inf \{ \mu(U): E \subset U \in \mathbf{U} \}.$$
+
+(Hint: the set function $\nu^*$ defined by $\nu^*(E) = \inf \{ \mu(U): E \subset U \in \mathbf{U} \}$ is a finite metric outer measure which defines a measure $\nu$ on the class of Borel sets, and $\nu$ agrees with $\mu$ on $\mathbf{U}$.)

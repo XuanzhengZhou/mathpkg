@@ -1,0 +1,5 @@
+A \text{monad} in a preorder $P$ is a monotonic function $T: P \to P$ such that for all $x \in P$,
+$$
+x \leq Tx, \qquad T(Tx) \leq Tx.
+$$
+The monad axioms (associativity and unit laws) commute automatically because in a preorder there is at most one arrow between any two objects. The condition $x \leq Tx$ corresponds to the unit law, while $T(Tx) \leq Tx$ corresponds to the multiplication. A monad in a preorder is thus precisely a \text{closure operator}.

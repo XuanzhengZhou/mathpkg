@@ -1,0 +1,23 @@
+id: real-closed-eta1-field-embedding
+title_en: "Real-Closed η₁-Field Contains Copy of Every Real-Closed Field of Cardinal ≤ ℵ₁"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: real-closed-fields
+difficulty: advanced
+tags: [eta1-set, real-closed-field, embedding, ordered-field, cardinality]
+depends_on:
+  required: [eta1-set-definition, artin-schreier-theorem, real-closure]
+  recommended: [similarity-of-eta1-sets]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "13"
+    section: "15"
+    pages: ""
+    role_in_book: "Embedding theorem relating η₁-fields and ordered fields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

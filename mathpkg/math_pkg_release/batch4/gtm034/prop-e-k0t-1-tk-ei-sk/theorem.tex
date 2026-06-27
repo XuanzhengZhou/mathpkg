@@ -1,0 +1,51 @@
+$$\mathbf{E}\left[ \sum_{k=0}^{T-1} t^k e^{i\theta S_k} \right] = \sum_{k=0}^{\infty} t^k \mathbf{E}[e^{i\theta S_k}; \mathbf{T} > k]$$
+
+$$= [1 - t\phi(\theta)]^{-1}\{1 - \mathbf{E}[t^T e^{i\theta S_T}]\},$$
+
+for $0 \leq t < 1$, and $-\infty < \theta < \infty$. The same result holds with $\mathbf{T}$ replaced throughout by $\mathbf{T}'$.
+
+Remark (a): When $\mathbf{T} = \infty$, $t^T = 0$, so that it is not necessary to define $e^{i\theta S_T}$ when $\mathbf{T} = \infty$.
+
+Remark (b): We notice that P1 extends (3) as follows.
+
+$$\sum_{k=0}^{\infty} t^k \mathbf{E}[e^{i\theta S_k}; \mathbf{T} > k] = \sum_{k=0}^{\infty} t^k \sum_{y=-\infty}^{0} Q_k(0,y)e^{i\theta y}$$
+
+is a Fourier series, its Fourier coefficients being
+
+$$\sum_{k=0}^{\infty} t^k Q_k(0,y) \text{ when } y \leq 0, 0 \text{ when } y > 0.$$
+
+Now we write P1 in the form
+
+$$[1 - t\phi(\theta)] \sum_{k=0}^{\infty} t^k \mathbf{E}[e^{i\theta S
+
+But if $B = [1, \infty)$ this is nothing but
+
+$$\sum_{z=-\infty}^{0} g_B(0,x)P(x,y) = H_B(0,y),$$
+
+which we recognize as equation (3).
+
+Proof of P1: Although the foregoing considerations can obviously be made to yield a proof of P1, we proceed more quickly as follows. The first identity in P1 is just a matter of definition:
+
+$$E[e^{i\theta S_k}; T > k] = E[e^{i\theta S_k}A_k]$$
+
+where $A_k$ is a random variable which is one or zero according as $T > k$ or $T \leq k$. So we go on to the important part of P1, writing
+
+$$E \sum_{0}^{T-1} t^k e^{i\theta S_k} = E \sum_{0}^{\infty} t^k e^{i\theta S_k} - E \sum_{T}^{\infty} t^k e^{i\theta S_k}.$$
+
+There are no convergence difficulties, since $|t| < 1$. Now
+
+$$E \sum_{0}^{\infty} t^k e^{i\theta S_k} = [1 - t\phi(\theta)]^{-1},$$
+
+while
+
+$$E \sum_{k=T}^{\infty} t^k e^{i\theta S_k} = \sum_{k=0}^{\infty} E[t^T+k e^{i\theta S_T+k}] = \sum_{k=0}^{\infty} t^k E[t^T e^{i\theta S_T} e^{i\theta(S_T+k-S_T)]}.$$
+
+But $S_{T+k} - S_T$ is independent of $T$ and $S_T$—here is a typical application of P3.1(b) in section 3. One obtains
+
+$$E \sum_{0}^{T-1} t^k e^{i\theta S_k} = [1 - t\phi(\theta)]^{-1} - \sum_{k=0}^{\infty} t^k \phi^k(\theta) E[t^T e^{i\theta S_T}]$$
+
+$$= [1 - t\phi(\theta)]^{-1} \{1 -
+
+The results from classical analysis that we now introduce will be helpful in working with the very special type of Fourier series, which we have already encountered—namely Fourier series of the form
+
+$$\sum_{k=0}^{\infty} a_k e^{ik\theta} \text{ or } \sum_{k=-\infty}^{0} a_k e^{ik\theta}.$$

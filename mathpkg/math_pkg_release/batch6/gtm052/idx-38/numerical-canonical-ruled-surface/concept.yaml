@@ -1,0 +1,23 @@
+id: numerical-canonical-ruled-surface
+title_en: "Numerical Equivalence of Canonical Divisor on Ruled Surface"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: algebraic-surfaces
+difficulty: advanced
+tags: [ruled-surface, canonical-divisor, numerical-equivalence, intersection-theory]
+depends_on:
+  required: [canonical-divisor-ruled-surface, picard-group-of-ruled-surface]
+  recommended: [numerical-equivalence, self-intersection]
+  suggested: [noethers-formula]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "2"
+    pages: "373"
+    role_in_book: "Gives K ≡ -2C_0 + (2g-2-e)f and K^2 = 8(1-g), showing K^2 depends only on the base genus"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

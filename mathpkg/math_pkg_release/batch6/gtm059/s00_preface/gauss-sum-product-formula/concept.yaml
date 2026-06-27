@@ -1,0 +1,23 @@
+id: gauss-sum-product-formula
+title_en: "Product Formula for Gauss Sums"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: character-sums
+difficulty: intermediate
+tags: ["gauss-sum", "product-formula", "absolute-value", "finite-fields", "character-sums"]
+depends_on:
+  required: ["gauss-sum-finite-field", "fourier-transform-character"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "1"
+    pages: "3"
+    role_in_book: "Property GS2 — fundamental relation S(χ)S(χ^{-1}) = χ(-1)q"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

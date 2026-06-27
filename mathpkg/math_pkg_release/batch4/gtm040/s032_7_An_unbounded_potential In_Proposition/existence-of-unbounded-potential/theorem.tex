@@ -1,0 +1,19 @@
+\begin{proposition}[Existence of an unbounded potential]
+\label{prop:existence-of-unbounded-potential}
+There exists a denumerable Markov chain $P$ on $\mathbb{Z}$ and a choice of $\alpha$ for which the associated potential is unbounded. Specifically, let $P$ be defined by
+\[
+P_{i,i-1} = \frac{2}{3},\quad P_{i,i+1} = \frac{1}{3} \qquad \text{for } i \leq 0,
+\]
+and
+\[
+P_{ii} = 1 - \frac{1}{i},\quad P_{i,i-1} = \frac{2}{3i},\quad P_{i,i+1} = \frac{1}{3i} \qquad \text{for } i > 0.
+\]
+Taking $\alpha$ to be the $0$th row of the potential matrix $N$, the resulting potential $g$ satisfies
+\[
+g_i = \begin{cases}
+6\left(\frac{1}{2}\right)^{|i|} & \text{for } i \leq 0,\\[4pt]
+\frac{3}{2}\left(i^2 + 3i + 4\right) & \text{for } i > 0,
+\end{cases}
+\]
+so that $\displaystyle\lim_{i \to +\infty} g_i = +\infty$ and $g$ is unbounded. Moreover, the potential $g$ has a bounded charge whose support $E = \{1, 2, 3, \ldots\}$ is simultaneously an equilibrium set and a dual equilibrium set.
+\end{proposition}

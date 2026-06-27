@@ -1,0 +1,23 @@
+id: sum-of-two-squares-in-finite-field
+title_en: "Every Element of GF(q) is a Sum of Two Squares"
+title_zh: "有限域的每个元素是两个平方之和"
+type: theorem
+domain: algebra
+subdomain: finite-fields
+difficulty: intermediate
+tags: [finite-field, sum-of-squares, quadratic-forms, characteristic]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "2. Skewfields and Fields"
+    pages: ""
+    role_in_book: "Result 1.4(iv); fundamental property of finite fields used in projective plane constructions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

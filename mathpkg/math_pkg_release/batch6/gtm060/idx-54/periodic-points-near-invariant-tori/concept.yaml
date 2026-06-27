@@ -1,0 +1,23 @@
+id: periodic-points-near-invariant-tori
+title_en: "Periodic Points near Invariant Tori for Symplectic Diffeomorphisms"
+title_zh: "辛微分同胚不变环面附近的周期点"
+type: theorem
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [periodic-points, invariant-tori, symplectic-diffeomorphism, implicit-function-theorem, generating-function]
+depends_on:
+  required: []
+  recommended: [symplectic-diffeomorphism, homologous-to-the-identity, invariant-torus, generating-function-for-symplectic-diffeomorphism]
+  suggested: [implicit-function-theorem, morse-theory]
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 9"
+    section: "E"
+    pages: "432-434"
+    role_in_book: "Provides a systematic method to construct periodic solutions from invariant tori via generating functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

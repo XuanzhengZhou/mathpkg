@@ -1,0 +1,23 @@
+id: direct-image-locally-free-ruled-surface
+title_en: "Direct Image of Line Bundle on Ruled Surface is Locally Free"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: algebraic-surfaces
+difficulty: advanced
+tags: [ruled-surface, direct-image, locally-free-sheaf, cohomology]
+depends_on:
+  required: [geometrically-ruled-surface]
+  recommended: [line-bundle, locally-free-sheaf, fibre-of-morphism]
+  suggested: [cohomology-and-base-change]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "2"
+    pages: "369"
+    role_in_book: "Key lemma: direct image of a line bundle whose degree on fibres is nonnegative is locally free"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

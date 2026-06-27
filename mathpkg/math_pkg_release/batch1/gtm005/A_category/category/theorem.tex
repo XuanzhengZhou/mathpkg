@@ -1,0 +1,19 @@
+A \emph{category} is a directed graph with a set $O$ of objects, a set $A$ of arrows, domain and codomain functions
+$$
+A \underset{\operatorname{cod}}{\overset{\operatorname{dom}}{\rightrightarrows}} O,
+$$
+together with two additional functions
+$$
+O \xrightarrow{\operatorname{id}} A, \qquad A \times_O A \xrightarrow{\circ} A,
+$$
+called \emph{identity} ($c \mapsto \operatorname{id}_c$) and \emph{composition} ($\langle g, f \rangle \mapsto g \circ f$, also written $gf$), where
+$$
+A \times_O A = \{ \langle g, f \rangle \mid g, f \in A \text{ and } \operatorname{dom} g = \operatorname{cod} f \}
+$$
+is the set of composable pairs of arrows, satisfying:
+\begin{enumerate}
+\item $\operatorname{dom}(\operatorname{id}_a) = a = \operatorname{cod}(\operatorname{id}_a)$ for all objects $a \in O$,
+\item $\operatorname{dom}(g \circ f) = \operatorname{dom} f$ and $\operatorname{cod}(g \circ f) = \operatorname{cod} g$ for all composable pairs $\langle g, f \rangle \in A \times_O A$,
+\item \emph{Associativity}: $h \circ (g \circ f) = (h \circ g) \circ f$ whenever the composites are defined,
+\item \emph{Unit}: $f \circ \operatorname{id}_{\operatorname{dom} f} = f = \operatorname{id}_{\operatorname{cod} f} \circ f$ for every arrow $f \in A$.
+\end{enumerate}

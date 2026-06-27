@@ -1,0 +1,23 @@
+id: ring-without-zero-divisors
+title_en: "Ring Without Zero Divisors"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [ring, zero-divisor, integral-domain]
+depends_on:
+  required: [proper-zero-divisor, ring]
+  recommended: []
+  suggested: [integral-domain]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "I"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines an important class of rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

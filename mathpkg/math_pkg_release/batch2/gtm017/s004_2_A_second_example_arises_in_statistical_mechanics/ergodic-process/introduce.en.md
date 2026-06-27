@@ -1,0 +1,1 @@
+An ergodic process is one for which time averages along a single trajectory equal ensemble averages over all possible paths. This allows recovering the statistical structure of the entire ensemble from a single sample path.

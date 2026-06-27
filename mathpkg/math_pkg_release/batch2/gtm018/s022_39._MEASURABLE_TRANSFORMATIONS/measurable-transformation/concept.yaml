@@ -1,0 +1,23 @@
+id: measurable-transformation
+title_en: "Measurable Transformation"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [measurable-transformation, measurable-space, measurability]
+depends_on:
+  required: [transformation, measurable-space, measurable-set]
+  recommended: [inverse-image]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "VIII"
+    section: "39. Measurable Transformations"
+    pages: ""
+    role_in_book: "Core definition: inverse image of every measurable set is measurable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

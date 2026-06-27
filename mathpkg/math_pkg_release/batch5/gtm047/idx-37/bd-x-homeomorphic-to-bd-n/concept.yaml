@@ -1,0 +1,23 @@
+id: bd-x-homeomorphic-to-bd-n
+title_en: "Lemma 11: Bd X and Bd N are homeomorphic"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [homeomorphism, boundary, fundamental-group, homology, orientability, classification-of-surfaces]
+depends_on:
+  required: [fundamental-group-of-bd-x-isomorphic-to-bd-n]
+  recommended: [theorem-22-9, theorem-26-8]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "8"
+    section: "33"
+    pages: "239-246"
+    role_in_book: "Key step showing the boundaries are homeomorphic, enabling the PL homeomorphism extension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

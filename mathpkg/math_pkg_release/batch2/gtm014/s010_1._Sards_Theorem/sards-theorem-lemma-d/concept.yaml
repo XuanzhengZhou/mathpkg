@@ -1,0 +1,23 @@
+id: sards-theorem-lemma-d
+title_en: "Sard's Theorem — Lemma D (Measure Zero of f(C_k) for Large k)"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [sard, critical-point, measure-zero, taylors-theorem, cube-subdivision]
+depends_on:
+  required: [higher-order-critical-set]
+  recommended: [sards-theorem-lemma-c, taylors-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Final lemma in the inductive proof of Sard's Theorem; handles the deepest stratum"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

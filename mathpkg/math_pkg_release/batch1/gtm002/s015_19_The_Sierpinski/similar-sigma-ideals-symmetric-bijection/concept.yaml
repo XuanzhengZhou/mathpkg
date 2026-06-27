@@ -1,0 +1,23 @@
+id: similar-sigma-ideals-symmetric-bijection
+title_en: "Symmetric Bijection Between Similar Sigma-Ideals"
+title_zh: ""
+type: lemma
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [sigma-ideal, bijection, symmetric-mapping, aleph-one, decomposition]
+depends_on:
+  required: [sierpinski-erdos-decomposition-lemma]
+  recommended: [sigma-ideal, aleph-one]
+  suggested: [transfinite-induction, ordinal-numbers]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "19"
+    section: "The Sierpinski-Erdos Duality Theorem"
+    pages: ""
+    role_in_book: "Theorem 19.4: given two σ-ideals satisfying the conditions of Theorem 19.5, constructs a symmetric bijection mapping one class onto the other; the key lemma proving the Sierpinski-Erdos theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: composition-series
+title_en: "Composition Series for M-Groups"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [group-with-operators, m-group, composition-series, simple-group, normal-series, jordan-holder]
+depends_on:
+  required: [normal-series-for-m-groups, simple-group]
+  recommended: []
+  suggested: [jordan-holder-theorem]
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "V: Groups with Operators"
+    section: "5: Composition series"
+    pages: ""
+    role_in_book: "Defines composition series — normal series with simple factors, basis for Jordan-Hölder"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

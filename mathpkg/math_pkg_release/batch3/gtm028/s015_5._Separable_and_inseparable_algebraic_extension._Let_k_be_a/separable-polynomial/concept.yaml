@@ -1,0 +1,23 @@
+id: separable-polynomial
+title_en: "Separable Polynomial"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: field-theory
+difficulty: basic
+tags: [separable, polynomial, derivative, field, irreducible]
+depends_on:
+  required: [polynomial-derivative-over-field, derivative-zero-in-characteristic-p]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "II"
+    section: "5. Separable and inseparable algebraic extension"
+    pages: ""
+    role_in_book: "Definition 3; fundamental to separability theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: craigs-theorem
+title_en: "Craig's Theorem on Recursive Axiomatizability"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: decidability
+difficulty: advanced
+tags: [craigs-theorem, recursive-axiomatizability, elementary-axiomatization, r.e.-theories]
+depends_on:
+  required: []
+  recommended: [recursive-axiomatizability, elementary-function, recursively-enumerable-set]
+  suggested: [complete-theory, godel-numbering]
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "15"
+    section: "3. Decidable and Undecidable Theories"
+    pages: ""
+    role_in_book: "Craig's theorem: three equivalent characterizations of recursively axiomatizable theories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,19 @@
+A number-theoretic function is a function which is, for some positive integer $m$, an $m$-ary operation on $\omega$. The class of elementary recursive, or for brevity elementary functions, is the intersection of all classes $\mathcal{A}$ of number-theoretic functions such that, first of all, the following specific functions are in $\mathcal{A}$:
+
+(1) $+$, the usual 2-ary operation of addition;
+(2) $\cdot$, the usual 2-ary operation of multiplication;
+(3) the 2-ary operation $f$ such that $f(m, n) = |m - n|$ for all $m, n \in \omega$;
+(4) the 2-ary operation $f$ such that $f(m, n)$ is the greatest nonnegative integer $\leq m/n$ (if $n \neq 0$), $0$ if $n = 0$; we denote $f(m, n)$ by $[m/n]$;
+(5) for each positive integer $n$ and each $i < n$, the $n$-ary operation $f$ on $\omega$ such that for all $x_0, \ldots, x_{n-1} \in \omega$, $f(x_0, \ldots, x_{n-1}) = x_i$; $f$ is denoted by $U_i^n$; it is called an identity or projection function.
+
+Second, and last, $\mathcal{A}$ is required to be closed under the following operations upon number-theoretic functions:
+
+(a) The operation of composition. If $f$ is an $m$-ary function, and $g_0, \ldots, g_{m-1}$ are $n$-ary functions, then the composition of $f$ with $g_0, \ldots, g_{m-1}$ is denoted by $K_n^m(f; g_0, \ldots, g_{m-1})$; it is defined to be the $n$-ary function $h$ such that for all $x_0, \ldots, x_{n-1} \in \omega$,
+\[
+h(x_0, \ldots, x_{n-1}) = f(g_0(x_0, \ldots, x_{n-1}), \ldots, g_{m-1}(x_0, \ldots, x_{n-1})).
+\]
+
+(b) The operation of summation. If $f$ is an $m$-ary function, then $g$ ($m$-ary) is obtained from $f$ by summation, in symbols $g = \sum f$, if for all $x_0, \ldots, x_{m-1} \in \omega$,
+\[
+g(x_0, \ldots, x_{m-1}) = \sum_{z < x_{m-1}} f(x_0, \ldots, x_{m-2}, z).
+\]

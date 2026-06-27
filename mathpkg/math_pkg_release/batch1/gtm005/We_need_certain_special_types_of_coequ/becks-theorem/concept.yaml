@@ -1,0 +1,13 @@
+id: becks-theorem
+title_en: "Beck's Theorem (Precise Tripleability Theorem)"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [becks-theorem, monad, algebra, adjunction, comparison-functor, split-coequalizer, absolute-coequalizer]
+depends_on: {required: [monad, eilenberg-moore-category, adjunction, split-coequalizer, absolute-coequalizer], recommended: [comparison-functor], suggested: [beck-monadicity-theorem]}
+source_books: [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "VI. Monads and Algebras", section: "7. Beck's Theorem", pages: "", role_in_book: "Central theorem characterizing categories of algebras over a monad via coequalizer creation"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

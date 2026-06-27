@@ -1,0 +1,23 @@
+id: class-number-hadamard-bound
+title_en: "Hadamard Bound for the Class Number (Carlitz)"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: intermediate
+tags: [class-number, hadamard-inequality, determinant-bound, carlitz]
+depends_on:
+  required: [carlitz-olson-class-number-determinant]
+  recommended: [hadamard-determinant-inequality]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "7"
+    pages: ""
+    role_in_book: "Upper bound on the class number obtained by applying Hadamard's inequality to the Carlitz-Olson determinant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

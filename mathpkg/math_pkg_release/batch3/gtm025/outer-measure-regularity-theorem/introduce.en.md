@@ -1,0 +1,1 @@
+Every set can be approximated from above by open sets in terms of outer measure. This outer regularity property is essential for the Carathéodory extension theorem and for linking measure theory to topology.

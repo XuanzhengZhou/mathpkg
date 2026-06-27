@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $G$ be a finite group and let $p$ be a prime number dividing $G:1$. Then $G$ has an element of order $p$.

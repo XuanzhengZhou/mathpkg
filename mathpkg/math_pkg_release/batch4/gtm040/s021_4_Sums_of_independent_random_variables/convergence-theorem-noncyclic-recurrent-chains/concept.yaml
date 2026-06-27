@@ -1,0 +1,23 @@
+id: convergence-theorem-noncyclic-recurrent-chains
+title_en: "Convergence Theorem for Noncyclic Recurrent Chains"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [convergence, noncyclic, recurrence, limiting-matrix, ergodic, null]
+depends_on:
+  required: [convergence-of-difference-probability-vectors]
+  recommended: [zero-one-law-noncyclic-recurrent]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "4"
+    pages: ""
+    role_in_book: "Theorem 6-38: The n-step transition probabilities of a noncyclic recurrent chain converge"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

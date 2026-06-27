@@ -1,0 +1,23 @@
+id: braided-monoidal-functor
+title_en: "Braided Monoidal Functor"
+title_zh: "辫幺半函子"
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [monoidal-category, braided-monoidal-category, monoidal-functor, braiding, symmetry]
+depends_on:
+  required: [monoidal-functor, braided-monoidal-category]
+  recommended: [symmetric-monoidal-category]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "2. Monoidal Functors"
+    pages: ""
+    role_in_book: "Defines monoidal functors compatible with braidings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

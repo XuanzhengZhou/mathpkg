@@ -1,0 +1,23 @@
+id: recurrent-classes-are-closed-and-maximal
+title_en: "Recurrent Classes are Closed and Maximal"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, recurrent-class, closed-class, maximal-class, partial-ordering]
+depends_on:
+  required: [equivalence-class-type-homogeneity, r-relation-on-states]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "7. Classification of states"
+    pages: ""
+    role_in_book: "Proposition 4-26: Recurrent classes are closed (no escape) and maximal with respect to the R-ordering"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

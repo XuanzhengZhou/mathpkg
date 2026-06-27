@@ -1,0 +1,23 @@
+id: principal-branch-logarithm
+title_en: "Principal Branch of the Logarithm"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [logarithm, branch, principal-value, complex-logarithm]
+depends_on:
+  required: [logarithm-branch-analytic]
+  recommended: [complex-exponential, branch-cut]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "5"
+    pages: ""
+    role_in_book: "Definition — the principal branch of the logarithm defined on C minus the non-positive real axis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

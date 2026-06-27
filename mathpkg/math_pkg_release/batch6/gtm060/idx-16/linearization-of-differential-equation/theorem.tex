@@ -1,0 +1,13 @@
+Consider a differential equation $\dot{x} = f(x)$, $x \in \mathbb{R}^n$, with an equilibrium position at $x_0 = 0$. Expand $f$ in a Taylor series:
+
+$$f(x) = Ax + R_2(x), \quad A = \left. \frac{\partial f}{\partial x} \right|_0, \quad R_2 = O(x^2),$$
+
+where the linear operator $A$ is given in coordinates $x_1, \ldots, x_n$ by the matrix $a_{ij} = \partial f_i / \partial x_j$:
+
+$$A(x)_i = \sum_j a_{ij} x_j.$$
+
+The passage from the original system $\dot{x} = f(x)$ to the linear system
+
+$$\frac{dy}{dt} = A y \qquad (y \in T\mathbb{R}^n_0)$$
+
+is called the **linearization** of the original differential equation.

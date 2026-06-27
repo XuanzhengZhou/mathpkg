@@ -1,0 +1,23 @@
+id: cup-cap-relation
+title_en: "Cup-Cap Relation"
+title_zh: "杯积-帽积关系"
+type: proposition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [cup-product, cap-product, duality, manifold, homology, cohomology]
+depends_on:
+  required: []
+  recommended: [cup-product, cap-product, canonical-pairing-homology-cohomology]
+  suggested: [excision-isomorphism, poincare-duality]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "5"
+    section: "5.2"
+    pages: "page_0283"
+    role_in_book: "Foundational relation linking cup and cap products, essential for Poincaré duality on manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

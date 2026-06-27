@@ -1,0 +1,13 @@
+id: matrix-normal-form-via-rank
+title_en: "Matrix Normal Form via Rank"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [matrix, rank, normal-form, equivalence, invertible]
+depends_on: {required: [canonical-form-of-linear-mapping, row-rank-column-rank], recommended: [change-of-basis-matrix-formula], suggested: []}
+source_books: [{book_id: "gtm049", author: "K. W. Gruenberg, A. J. Weir", title: "Linear Geometry", chapter: "IV", section: "4.4", pages: "", role_in_book: "Corollary — every matrix can be reduced to [I_r 0; 0 0] by invertible row and column operations"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

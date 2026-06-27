@@ -1,0 +1,23 @@
+id: decomposition-into-definite-uniform
+title_en: "Decomposition of Boolean-Valued Sets into Definite and Uniform"
+title_zh: ""
+type: corollary
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: intermediate
+tags: [boolean-valued-universe, definite, uniform, decomposition, V-B]
+depends_on:
+  required: [decomposition-of-uniform-set, extensional-representation, boolean-valued-universe]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: "161"
+    role_in_book: "Every V^(B) element equals a scalar multiple of a definite uniform set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

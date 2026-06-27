@@ -1,0 +1,23 @@
+id: distinct-roots-of-polynomial
+title_en: "Distinct Roots of a Polynomial over a Field"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: polynomial-rings
+difficulty: basic
+tags: [roots, polynomial, field, factorization, degree-bound]
+depends_on:
+  required: [polynomial-remainder-theorem]
+  recommended: [polynomial-ring, field, integral-domain]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "9"
+    pages: ""
+    role_in_book: "Theorem on number of distinct roots: a degree n polynomial has at most n distinct roots"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

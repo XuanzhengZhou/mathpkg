@@ -1,0 +1,23 @@
+id: generic-one-parameter-family-no-multiple-spectra
+title_en: "Generic One-Parameter Families Avoid Multiple Spectra"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: spectral-theory
+difficulty: intermediate
+tags: [one-parameter-family, ellipsoid-of-revolution, multiple-spectrum, generic-property, codimension]
+depends_on:
+  required: [ellipsoids-of-revolution-codimension-theorem]
+  recommended: [manifold-of-ellipsoids, codimension-of-submanifold]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 10"
+    section: "Multiplicities of characteristic frequencies and ellipsoids of revolution"
+    pages: "438-445"
+    role_in_book: "Consequence of Theorem 1 explaining why one-parameter deformations generically preserve distinct eigenvalues"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

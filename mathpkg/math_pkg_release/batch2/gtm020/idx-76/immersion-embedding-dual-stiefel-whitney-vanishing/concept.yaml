@@ -1,0 +1,23 @@
+id: immersion-embedding-dual-stiefel-whitney-vanishing
+title_en: "Immersion and Embedding Dual Stiefel-Whitney Class Vanishing"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [immersion, embedding, dual-stiefel-whitney-class, manifold, normal-bundle, euler-class, cohomology]
+depends_on:
+  required: [dual-stiefel-whitney-class, stiefel-whitney-class, normal-bundle]
+  recommended: [immersion, embedding, euler-class, tangent-bundle-direct-sum]
+  suggested: [orientable-manifold, whitney-immersion-theorem]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "10"
+    section: "10.2"
+    pages: ""
+    role_in_book: "Relates dual Stiefel-Whitney classes to obstruction theory for immersions and embeddings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

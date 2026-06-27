@@ -1,0 +1,13 @@
+id: second-order-logic
+title_en: "Second-Order Logic (Full)"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: higher-order-logic
+difficulty: advanced
+tags: [second-order-logic, relation-variables, prenex-normal-form, compactness-failure]
+depends_on: {required:[], recommended:[first-order-logic, monadic-second-order-logic], suggested:[]}
+source_books: [{book_id:"gtm037",author:"J. Donald Monk",title:"Mathematical Logic",chapter:"30",section:"5",pages:"",role_in_book:"Introduces full second-order logic with variables ranging over relations of arbitrary arities, and notes the prenex normal form theorem and existence of a proof theory for weakened validity"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

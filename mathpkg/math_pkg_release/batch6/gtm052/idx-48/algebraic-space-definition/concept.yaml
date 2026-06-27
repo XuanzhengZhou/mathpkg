@@ -1,0 +1,23 @@
+id: algebraic-space-definition
+title_en: "Algebraic Space (Artin-Knutson)"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-spaces
+difficulty: advanced
+tags: [algebraic-space, artin, knutson, etale-equivalence-relation, moishezon]
+depends_on:
+  required: [scheme, etale-morphism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix B"
+    section: "3"
+    pages: "445"
+    role_in_book: "Defines algebraic spaces as a generalization of schemes; every Moishezon manifold is algebraic in this sense"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

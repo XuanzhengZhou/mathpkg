@@ -1,0 +1,23 @@
+id: vector-field-along-a-surface
+title_en: "Vector Field Along a Surface"
+title_zh: "沿曲面的向量场"
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [vector-field, surface, tangent-bundle, differentiable-mapping]
+depends_on:
+  required: [parameterized-surface-patch]
+  recommended: [tangent-space-of-r3]
+  suggested: []
+source_books:
+  - book_id: gtm051
+    author: "Manfredo P. do Carmo"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: "3.1.4"
+    role_in_book: "Defines vector fields as maps into the ambient space restricted to the surface"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

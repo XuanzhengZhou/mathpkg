@@ -1,0 +1,5 @@
+Let $B = \langle B, +, \cdot, -, 0, 1 \rangle$ be a complete Boolean algebra. Then $V_{\alpha}^{(B)}$ is defined by recursion with respect to $\alpha$ as follows:
+$$V_{0}^{(B)} \triangleq \emptyset.$$
+$$V_{\alpha}^{(B)} \triangleq \{u \mid [u: \mathcal{D}(u) \rightarrow B] \wedge (\exists \xi < \alpha)[\mathcal{D}(u) \subseteq V_{\xi}^{(B)}]\}, \quad \alpha > 0.$$
+$$V^{(B)} \triangleq \bigcup_{\alpha \in On} V_{\alpha}^{(B)}.$$
+Elements of $V^{(B)}$ are called $B$-valued sets; they are functions $u$ from their domain $\mathcal{D}(u)$ into $B$, where $\mathcal{D}(u)$ itself consists of $B$-valued sets.

@@ -1,0 +1,43 @@
+{
+  "id": "stress-energy-tensor-of-photon-gas",
+  "title_en": "Proposition 5.7.2: Stress-Energy Tensor of a Photon Gas",
+  "title_zh": "",
+  "type": "proposition",
+  "domain": "geometry",
+  "subdomain": "differential-geometry",
+  "difficulty": "advanced",
+  "tags": [
+    "general-relativity",
+    "photon-gas",
+    "stress-energy-tensor",
+    "lightcone-integration"
+  ],
+  "depends_on": {
+    "required": [
+      "rapid-decay-function-on-lightcone",
+      "future-lightcone",
+      "natural-volume-element"
+    ],
+    "recommended": [
+      "photon-distribution-function",
+      "stress-energy-tensor"
+    ],
+    "suggested": [
+      "trace-of-tensor"
+    ]
+  },
+  "source_books": [
+    {
+      "book_id": "gtm048",
+      "author": "Rainer K. Sachs, Hung-Hsi Wu",
+      "title": "General Relativity for Mathematicians",
+      "chapter": "5",
+      "section": "5.7",
+      "pages": "",
+      "role_in_book": "Existence and properties of the stress-energy tensor derived from a photon gas distribution"
+    }
+  ],
+  "content_hash": "",
+  "extraction_date": "2026-06-27",
+  "extraction_agent": "v8-full-extract"
+}

@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $h = K(\cdot, x)$. Then $x \in \bar{S}$ if and only if $h$ is normalized and $\mu^h(\{x\}) = 1$.

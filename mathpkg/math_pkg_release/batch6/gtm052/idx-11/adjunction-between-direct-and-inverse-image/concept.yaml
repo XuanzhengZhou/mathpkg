@@ -1,0 +1,23 @@
+id: adjunction-between-direct-and-inverse-image
+title_en: "Adjunction between Direct and Inverse Image"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [adjunction, direct-image, inverse-image, sheaf-of-modules]
+depends_on:
+  required: [inverse-image-sheaf, direct-image-sheaf, sheaf-of-OX-modules]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "5"
+    pages: ""
+    role_in_book: "States the adjunction between $f_*$ and $f^*$ for sheaves of modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

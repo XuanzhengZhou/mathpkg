@@ -1,0 +1,23 @@
+id: isolated-primary-components-are-unique
+title_en: "Theorem 8: Isolated primary components are uniquely determined by the ideal"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [isolated-primary-component, primary-decomposition, uniqueness]
+depends_on:
+  required: [associated-primes-characterization-via-quotient, isolated-and-imbedded-prime-ideals]
+  recommended: [primary-decomposition, isolated-prime-ideal]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "IV"
+    section: "§5. Uniqueness theorems"
+    pages: "212"
+    role_in_book: "Second uniqueness theorem for primary decomposition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

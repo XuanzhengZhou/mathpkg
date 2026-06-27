@@ -1,0 +1,23 @@
+id: discontinuity-first-category-iff-dense-continuity
+title_en: "Discontinuity Set is First Category iff Function is Continuous on a Dense Set"
+title_zh: "不连续点集是第一纲集当且仅当函数在稠密集上连续"
+type: theorem
+domain: analysis
+subdomain: real-analysis
+difficulty: basic
+tags: [first-category, discontinuity, dense-set, f-sigma]
+depends_on:
+  required: [discontinuity-set-is-f-sigma, first-category-set]
+  recommended: [dense-set, f-sigma-set]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "7"
+    section: "7"
+    pages: "39-43"
+    role_in_book: "Characterizes when discontinuity set is meager"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

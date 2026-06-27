@@ -1,0 +1,23 @@
+id: projection-to-factor-commutator-is-natural
+title_en: "The Projection to the Factor-Commutator Group is a Natural Transformation"
+title_zh: "到因子-换位子群的投影是自然变换"
+type: proposition
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [category-theory, natural-transformation, group-theory, commutator-subgroup, abelianization]
+depends_on:
+  required: [natural-transformation, commutator-subgroup]
+  recommended: [functor, abelianization-functor]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I. Categories, Functors, and Natural Transformations"
+    section: "4. Natural Transformations"
+    pages: ""
+    role_in_book: "Example of a natural transformation: projection from a group to its abelianization"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

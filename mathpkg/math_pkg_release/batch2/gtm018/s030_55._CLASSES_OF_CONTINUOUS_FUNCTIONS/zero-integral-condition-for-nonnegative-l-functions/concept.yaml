@@ -1,0 +1,23 @@
+id: zero-integral-condition-for-nonnegative-l-functions
+title_en: "Condition for Zero Integral of a Non-Negative L Function"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [baire-measure, l-plus, integral, nonnegative-function, open-baire-set]
+depends_on:
+  required: [class-of-nonnegative-functions-with-compact-support, baire-measure, baire-contraction]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "55"
+    section: "55. Classes of Continuous Functions"
+    pages: ""
+    role_in_book: "Theorem B; characterizes when the integral of a non-negative L function vanishes for strictly positive Baire measures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

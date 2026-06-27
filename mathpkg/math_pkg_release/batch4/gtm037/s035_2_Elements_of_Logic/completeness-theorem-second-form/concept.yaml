@@ -1,0 +1,23 @@
+id: completeness-theorem-second-form
+title_en: "Completeness Theorem, Second Form — Syntactic and Semantic Consequence Coincide (Theorem 11.20)"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: first-order-logic
+difficulty: advanced
+tags: [completeness-theorem, goedel, syntactic-consequence, semantic-consequence, equivalence, soundness]
+depends_on:
+  required: [completeness-theorem-first-form, soundness-theorem, formal-proof, semantic-consequence]
+  recommended: [consistency, first-order-language]
+  suggested: [compactness-theorem]
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "11"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "The classical formulation of Gödel's completeness theorem: syntactic and semantic consequence are equivalent"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

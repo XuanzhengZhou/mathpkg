@@ -1,0 +1,8 @@
+Let $B$ and $C$ be categories. The \textbf{product category} $B \times C$ is defined as follows:
+\begin{itemize}
+\item An object of $B \times C$ is a pair $\langle b, c \rangle$ of objects $b \in \operatorname{Obj}(B)$ and $c \in \operatorname{Obj}(C)$.
+\item An arrow $\langle b, c \rangle \to \langle b', c' \rangle$ of $B \times C$ is a pair $\langle f, g \rangle$ of arrows $f: b \to b'$ in $B$ and $g: c \to c'$ in $C$.
+\item The composite of $\langle b, c \rangle \xrightarrow{\langle f, g \rangle} \langle b', c' \rangle \xrightarrow{\langle f', g' \rangle} \langle b'', c'' \rangle$ is defined by
+  $$\langle f', g' \rangle \circ \langle f, g \rangle = \langle f' \circ f, g' \circ g \rangle.$$
+\item The identity arrow for $\langle b, c \rangle$ is $\langle 1_b, 1_c \rangle$.
+\end{itemize}

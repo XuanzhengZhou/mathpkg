@@ -1,0 +1,23 @@
+id: simply-connected-equivalence-classes
+title_en: "Equivalence Classes of Simply Connected Regions"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [simply-connected, conformal-equivalence, riemann-mapping, classification]
+depends_on:
+  required: [conformally-equivalent, riemann-mapping-lemma]
+  recommended: [simply-connected, liouville-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VII"
+    section: "4"
+    pages: ""
+    role_in_book: "Classifies all simply connected regions into exactly two conformal equivalence classes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: finite-genus-entire-function
+title_en: "Finite Genus of an Entire Function"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [entire-function, genus, canonical-product, weierstrass-factorization, rank, growth]
+depends_on:
+  required: [standard-form-canonical-product]
+  recommended: [finite-rank-entire-function, entire-function-order]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "2.5"
+    pages: ""
+    role_in_book: "Defines the genus of an entire function as max(rank, degree of exponential polynomial)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: k-exists-iff-p-is-normal
+title_en: "K exists if and only if P is normal"
+title_zh: "K存在当且仅当P是正规的"
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [k-matrix, normal-chain, existence]
+depends_on:
+  required: [k-matrix, normal-chain, c-matrix, g-matrix]
+  recommended: [k-expressed-via-c-and-g]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Characterizes when K exists"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

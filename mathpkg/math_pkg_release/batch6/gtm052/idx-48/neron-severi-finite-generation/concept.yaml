@@ -1,0 +1,23 @@
+id: neron-severi-finite-generation
+title_en: "Néron–Severi Group is Finitely Generated"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: complex-algebraic-geometry
+difficulty: advanced
+tags: [neron-severi, picard-group, finite-generation, cohomology]
+depends_on:
+  required: [exponential-sequence, picard-group]
+  recommended: [neron-severi-group]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix B"
+    section: "5"
+    pages: "447"
+    role_in_book: "The Néron–Severi group NS(X) is a finitely generated abelian group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

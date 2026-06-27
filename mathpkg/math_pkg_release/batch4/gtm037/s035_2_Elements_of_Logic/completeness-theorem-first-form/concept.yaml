@@ -1,0 +1,23 @@
+id: completeness-theorem-first-form
+title_en: "Completeness Theorem, First Form — Model Existence (Theorem 11.19)"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: first-order-logic
+difficulty: advanced
+tags: [completeness-theorem, model-existence, goedel, henkin, consistency, cardinality]
+depends_on:
+  required: [henkin-model-existence, rich-extension-lemma, consistency, language-expansion]
+  recommended: [lindenbaum-lemma, completeness-theorem-second-form]
+  suggested: [compactness-theorem, lowenheim-skolem]
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "11"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Gödel's completeness theorem: every consistent set of sentences has a model of bounded cardinality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

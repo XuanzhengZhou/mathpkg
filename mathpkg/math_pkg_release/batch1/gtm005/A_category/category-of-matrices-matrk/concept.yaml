@@ -1,0 +1,23 @@
+id: category-of-matrices-matrk
+title_en: "Category of Matrices over a Commutative Ring (Matr_K)"
+title_zh: "交换环上矩阵的范畴 (Matr_K)"
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: basic
+tags: [matrices, commutative-ring, rectangular-matrices, matrix-multiplication]
+depends_on:
+  required: [category]
+  recommended: [commutative-ring, matrix-multiplication]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "2"
+    pages: ""
+    role_in_book: "Example of a concrete category whose arrows are matrices"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

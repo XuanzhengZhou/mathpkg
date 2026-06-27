@@ -1,0 +1,5 @@
+Let $E = \varprojlim g_{\alpha\beta} E_\beta$ be the projective limit of a projective system $\{E_\alpha, g_{\alpha\beta}\}$ of Hausdorff locally convex spaces indexed by a directed set $\mathbf{A}$. Let $F = \prod_{\alpha \in \mathbf{A}} E_\alpha$ and let $p_\alpha \colon F \to E_\alpha$ be the canonical projection. For each pair $(\alpha, \beta) \in \mathbf{A} \times \mathbf{A}$ with $\alpha \leq \beta$, define
+$$V_{\alpha\beta} = \{x \in F : p_\alpha(x) - g_{\alpha\beta}(p_\beta(x)) = 0\}.$$
+Since each $E_\alpha$ is Hausdorff and $V_{\alpha\beta}$ is the null space of the continuous linear map $p_\alpha - g_{\alpha\beta} \circ p_\beta$, each $V_{\alpha\beta}$ is closed in $F$. Hence
+$$E = \bigcap_{\alpha \leq \beta} V_{\alpha\beta}$$
+is closed in $F$.

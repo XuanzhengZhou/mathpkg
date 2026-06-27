@@ -1,0 +1,23 @@
+id: davenport-hasse-theorem
+title_en: "Davenport-Hasse Theorem on Gauss Sums over Extension Fields"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: gauss-sums
+difficulty: advanced
+tags: [davenport-hasse, gauss-sum, finite-field, extension-field, character-sum]
+depends_on:
+  required: []
+  recommended: [gauss-sum, multiplicative-character, additive-character, trace-map, norm-map]
+  suggested: [jacobi-sum, teichmuller-character]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "5. Gauss Sums Over Extension Fields"
+    pages: "20-22"
+    role_in_book: "Theorem 5.1; fundamental result relating Gauss sums over an extension field to Gauss sums over the base field; used to compute zeta functions of Fermat curves"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

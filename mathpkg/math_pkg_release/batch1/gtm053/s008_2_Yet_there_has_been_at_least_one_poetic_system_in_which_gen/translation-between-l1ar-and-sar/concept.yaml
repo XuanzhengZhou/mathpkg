@@ -1,0 +1,23 @@
+id: translation-between-l1ar-and-sar
+title_en: "Mutual Translation Between L1Ar and SAr"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: formal-arithmetic
+difficulty: advanced
+tags: [translation, l1ar, sar, definability, formal-arithmetic]
+depends_on:
+  required: []
+  recommended: [language-sar, language-l1ar, formula, truth-value]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "I"
+    section: "10"
+    pages: ""
+    role_in_book: "Establishes that L1Ar and SAr define the same classes of sets despite different syntax"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: boolean-valued-axiom-union
+title_en: "Axiom of Union in Boolean-Valued Universes"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [axiom-of-union, boolean-valued-universe, forcing]
+depends_on:
+  required: [boolean-valued-quantifier-formulas]
+  recommended: [boolean-valued-universe-vb, boolean-valued-universe-v-tilde-b]
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "23"
+    section: "Boolean Algebras That Are Not Sets"
+    pages: ""
+    role_in_book: "Verifies that the Axiom of Union holds in both V^{(B)} and V^{(\\tilde{B})}"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

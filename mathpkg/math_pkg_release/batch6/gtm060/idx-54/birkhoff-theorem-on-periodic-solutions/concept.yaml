@@ -1,0 +1,23 @@
+id: birkhoff-theorem-on-periodic-solutions
+title_en: "Birkhoff's Theorem on Infinitely Many Periodic Solutions"
+title_zh: "Birkhoff关于无穷多个周期解的定理"
+type: theorem
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [periodic-solutions, linearly-stable, fixed-points, generating-function, birkhoff]
+depends_on:
+  required: []
+  recommended: [periodic-solution, linearly-stable, symplectic-mapping, normal-form]
+  suggested: [kolmogorov-arnold-moser-theory, poincare-birkhoff-theorem]
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 9"
+    section: "E"
+    pages: "432-434"
+    role_in_book: "Establishes existence of infinitely many periodic solutions near a linearly stable periodic orbit"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

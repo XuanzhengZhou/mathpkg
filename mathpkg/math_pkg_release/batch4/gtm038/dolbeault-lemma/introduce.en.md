@@ -1,0 +1,1 @@
+Dolbeault's lemma is the $\overline{\partial}$-analogue of the Poincare lemma: locally, every $\overline{\partial}$-closed form of positive degree is $\overline{\partial}$-exact. This shows the Dolbeault complex is a fine resolution of the sheaf of holomorphic forms.

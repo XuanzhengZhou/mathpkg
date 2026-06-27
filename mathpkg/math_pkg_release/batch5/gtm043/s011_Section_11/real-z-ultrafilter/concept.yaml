@@ -1,0 +1,23 @@
+id: real-z-ultrafilter
+title_en: "Real z-Ultrafilter"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [z-ultrafilter, real-maximal-ideal, countable-intersection-property, zero-set]
+depends_on:
+  required: [real-maximal-ideal-characterization, z-ultrafilter]
+  recommended: [maximal-ideal, z-filter]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.15"
+    pages: ""
+    role_in_book: "Definition: a real z-ultrafilter is Z[M] for a real maximal ideal M, equivalently a z-ultrafilter with the countable intersection property"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

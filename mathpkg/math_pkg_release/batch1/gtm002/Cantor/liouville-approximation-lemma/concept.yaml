@@ -1,0 +1,23 @@
+id: liouville-approximation-lemma
+title_en: "Liouville's Approximation Lemma for Algebraic Numbers"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: diophantine-approximation
+difficulty: intermediate
+tags: [liouville, algebraic-number, rational-approximation, diophantine-inequality]
+depends_on:
+  required: [algebraic-number, degree-of-algebraic-number]
+  recommended: [mean-value-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "Lemma 2.2; provides the key inequality for constructing explicit transcendental (Liouville) numbers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

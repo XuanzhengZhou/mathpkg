@@ -1,0 +1,23 @@
+id: sigma-compact-space
+title_en: "$\sigma$-Compact Space"
+title_zh: "σ-紧空间"
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [sigma-compact, countable-union, compact, lindelof, realcompact]
+depends_on:
+  required: [compact-space, lindelof-space]
+  recommended: [realcompact-space]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "8"
+    section: "8.2"
+    pages: ""
+    role_in_book: "Defines $\sigma$-compact as a sufficient condition for Lindelöf and realcompactness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

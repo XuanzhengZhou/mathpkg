@@ -1,0 +1,23 @@
+id: ramification-in-zp-extensions
+title_en: "Ramification in Z_p-Extensions"
+title_zh: "Z_p-扩张中的分歧"
+type: lemma
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: intermediate
+tags: [zp-extension, ramification, totally-ramified, number-field, iwasawa-theory]
+depends_on:
+  required: [zp-extension]
+  recommended: [ramification-theory, decomposition-group, inertia-group]
+  suggested: [hensel-lemma, completions]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "Iwasawa Theory and Ideal Class Groups"
+    pages: ""
+    role_in_book: "Establishes that only finitely many primes ramify in a Z_p-extension and characterizes the ramification behavior."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

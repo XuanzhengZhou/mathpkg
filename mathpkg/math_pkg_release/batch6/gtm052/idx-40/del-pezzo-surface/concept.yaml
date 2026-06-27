@@ -1,0 +1,23 @@
+id: del-pezzo-surface
+title_en: "Del Pezzo Surface"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [del-pezzo-surface, anticanonical, fano-variety, cubic-surface, projective-embedding]
+depends_on:
+  required: [canonical-sheaf, projective-space, degree]
+  recommended: [blowing-up, cubic-surface]
+  suggested: [fano-variety, rational-surface]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Remark 4.7.1; defines Del Pezzo surfaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

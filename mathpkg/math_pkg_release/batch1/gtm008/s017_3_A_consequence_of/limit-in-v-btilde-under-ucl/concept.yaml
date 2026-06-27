@@ -1,0 +1,23 @@
+id: limit-in-v-btilde-under-ucl
+title_en: "Every element of V^{(\\tilde{B})} is a limit of elements of V^{(B)} under UCL"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [boolean-valued-models, completion, ucl, limit]
+depends_on:
+  required: []
+  recommended: [boolean-algebra-completion, uniform-convergence-law, v-b-subset-v-btilde-completion]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "23"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 23.16: limit representation of elements in the Boolean-valued universe over the completion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

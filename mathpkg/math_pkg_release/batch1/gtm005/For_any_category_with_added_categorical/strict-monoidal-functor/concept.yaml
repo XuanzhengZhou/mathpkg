@@ -1,0 +1,23 @@
+id: strict-monoidal-functor
+title_en: "Strict Monoidal Functor"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [monoidal-functor, strict, identity, coherence]
+depends_on:
+  required: [monoidal-functor, strict-monoidal-category]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "2"
+    pages: "page_0269–page_0270"
+    role_in_book: "Defines strict monoidal functors where comparison morphisms are identities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+One of the most useful consequences of independence is that the expectation of a product factors into the product of individual expectations. The proof uses the factorization of the joint distribution function, allowing the iterated integral to factor as a product of one-dimensional integrals.

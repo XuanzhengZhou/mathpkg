@@ -1,0 +1,33 @@
+---
+role: proof
+locale: en
+of_concept: woodall-theorem-design-inequality
+source_book: gtm054
+source_chapter: "IX"
+source_section: "A"
+---
+
+**Proof (D. R. Woodall, 1970).** We may clearly assume that $b > 1$. Let $M$ be an incidence matrix for $\Lambda$. Thus $M$ is a $v \times b$ matrix, whose $j$th column sum we denote by $\sigma_j$. Since the usual inner product of any two distinct columns, regarded as vectors, is exactly $\lambda^*(2)$, we have $\sigma_j \geq \lambda^*(2)$ for $j = 1, \ldots, b$. Equality can hold only if $M$ has two identical columns. This is impossible since by A11, $\Lambda$ is a set system. Hence,
+
+$$\sigma_j - \lambda^*(2) > 0, \quad j = 1, \ldots, b.$$
+
+If we suppose $v < b$, then we can extend $M$ to a $b \times b$ matrix $N$ by adjoining $b - v$ rows of $0$'s at the bottom of $M$. Since $\det(N) = 0$, we have $\det(N^*N) = 0$. This latter matrix is of the form
+
+$$N^*N = \begin{bmatrix}
+\sigma_1 & \lambda^*(2) & \cdots & \lambda^*(2) \\
+\lambda^*(2) & \sigma_2 & \cdots & \lambda^*(2) \\
+\vdots & \vdots & \ddots & \vdots \\
+\lambda^*(2) & \lambda^*(2) & \cdots & \sigma_b
+\end{bmatrix}.$$
+
+Its main diagonal is $(\sigma_1, \ldots, \sigma_b)$ while all other entries are $\lambda^*(2)$. Next we evaluate $\det(N^*N)$ again, this time by elementary methods.
+
+First subtract the first column from all of the other columns. Then, for each $i = 2, \ldots, b$, add to the first row the $i$th row multiplied by
+
+$$(\sigma_1 - \lambda^*(2)) / (\sigma_i - \lambda^*(2)).$$
+
+Since only $0$'s remain above the main diagonal, the product of the entries on the main diagonal gives $\det(N^*N)$. But each of these entries except the first equals $\sigma_i - \lambda^*(2) > 0$, and the first entry, after these operations, is
+
+$$\sigma_1 - \lambda^*(2)\sum_{i=2}^b \frac{\sigma_1 - \lambda^*(2)}{\sigma_i - \lambda^*(2)} \neq 0.$$
+
+Hence $\det(N^*N) \neq 0$, contradicting $\det(N) = 0$. Therefore $v \geq b$. $\square$

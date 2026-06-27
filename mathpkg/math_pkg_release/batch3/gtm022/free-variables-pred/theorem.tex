@@ -1,0 +1,5 @@
+For $w \in P$, the set $\operatorname{var}(w)$ of (free) variables of $w$ is defined inductively by:
+(i) $\operatorname{var}(F) = \varnothing$,
+(ii) $\operatorname{var}(r(x_1, \ldots, x_n)) = \{x_1, \ldots, x_n\}$,
+(iii) $\operatorname{var}(w_1 \Rightarrow w_2) = \operatorname{var}(w_1) \cup \operatorname{var}(w_2)$,
+(iv) $\operatorname{var}((\forall x)w) = \operatorname{var}(w) \setminus \{x\}$.

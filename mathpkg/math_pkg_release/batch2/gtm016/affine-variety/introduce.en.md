@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+An affine variety over $k$ is the set $V = \operatorname{Spec}_k k[x_1, \ldots, x_n]$ of $k$-linear ring homomorphisms from a subring $k[x_1, \ldots, x_n]$ of a field extension $L$ of $k$ to an algebraically closed field.

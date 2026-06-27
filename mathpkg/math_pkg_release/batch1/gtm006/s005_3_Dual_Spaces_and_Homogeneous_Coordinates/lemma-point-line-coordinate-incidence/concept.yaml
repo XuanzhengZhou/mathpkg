@@ -1,0 +1,23 @@
+id: lemma-point-line-coordinate-incidence
+title_en: "Lemma 2.7: Point-Line Incidence in Affine Coordinates"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [incidence, coordinates, projective-plane, affine-patch]
+depends_on:
+  required: [homogeneous-coordinates, frame]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II"
+    section: "3"
+    pages: ""
+    role_in_book: "Relates geometric incidence to algebraic equation y = xm + b in affine coordinates"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

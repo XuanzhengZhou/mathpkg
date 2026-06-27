@@ -1,0 +1,23 @@
+id: invariant-sigma-ring-metric-separable
+title_en: "Separability of Invariant sigma-Ring Metric Space"
+title_zh: "不变 sigma-环度量空间的可分性"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [weil-topology, haar-measure, measurable-group, topological-group]
+depends_on:
+  required: [class-a-weil-topology, class-n-weil-neighborhood]
+  recommended: [haar-measure-definition, measurable-group-definition]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "64"
+    section: "Weil Topology"
+    pages: ""
+    role_in_book: "Theorem B: If E is countable class of Baire sets of finite measure, the metric space of finite measure sets in the generated invariant sigma-ring is separable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

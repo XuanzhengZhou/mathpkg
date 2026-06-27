@@ -1,0 +1,23 @@
+id: existence-of-right-kan-extension-extending
+title_en: "Existence of Right Kan Extension That Extends T"
+title_zh: ""
+type: corollary
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [kan-extension, limits, full-subcategory, extension]
+depends_on:
+  required: [right-kan-extension-via-limits]
+  recommended: [full-subcategory]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "X"
+    section: "3. The Kan Extension"
+    pages: ""
+    role_in_book: "When M is a full subcategory and limits exist, right Kan extension actually extends T"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

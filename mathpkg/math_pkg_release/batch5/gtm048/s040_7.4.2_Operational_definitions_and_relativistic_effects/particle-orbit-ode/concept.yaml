@@ -1,0 +1,23 @@
+id: particle-orbit-ode
+title_en: "Particle Orbit Ordinary Differential Equation"
+title_zh: ""
+type: proposition
+domain: applied-math
+subdomain: general-relativity
+difficulty: advanced
+tags: [particle-orbit, schwarzschild, ode, geodesic-equation, solar-system]
+depends_on:
+  required: [schwarzschild-metric, geodesic-equation, conserved-quantities-killing]
+  recommended: [gravitational-potential-delta, area-radius, particle-angular-momentum]
+  suggested: [bending-of-light, perihelion-precession]
+source_books:
+  - book_id: "gtm048"
+    author: "R.K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "7"
+    section: "7.4"
+    pages: ""
+    role_in_book: "Core ordinary differential equation governing particle orbits in the Schwarzschild exterior; basis for computing light bending and perihelion precession"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

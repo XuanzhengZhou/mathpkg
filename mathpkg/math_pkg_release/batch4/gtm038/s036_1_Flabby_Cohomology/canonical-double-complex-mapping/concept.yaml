@@ -1,0 +1,23 @@
+id: canonical-double-complex-mapping
+title_en: "Canonical Double Complex Mapping φ_ij"
+title_zh: "典范双复形映射φ_ij"
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: ["double complex", "cohomology mapping", "canonical double complex", "spectral sequence"]
+depends_on:
+  required: ["double-complex", "cohomology-group", "flabby-sheaf"]
+  recommended: ["double-complex-cohomology-isomorphism", "flabby-resolution"]
+  suggested: ["spectral-sequence", "cech-derived-functor-comparison"]
+source_books:
+  - book_id: "gtm038"
+    author: "Raghavan Narasimhan"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "3"
+    pages: ""
+    role_in_book: "Constructs the mapping φ_ij comparing cohomology groups in the canonical double complex"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

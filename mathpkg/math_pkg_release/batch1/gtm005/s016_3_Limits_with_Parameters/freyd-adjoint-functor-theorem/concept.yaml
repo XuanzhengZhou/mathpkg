@@ -1,0 +1,23 @@
+id: freyd-adjoint-functor-theorem
+title_en: "Freyd Adjoint Functor Theorem"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [adjoint-functor-theorem, freyd, left-adjoint, solution-set-condition, continuous-functor, small-complete]
+depends_on:
+  required: [adjoint-functor, small-complete-category, continuous-functor, existence-of-initial-object, solution-set-condition]
+  recommended: [special-adjoint-functor-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "6. Freyd's Adjoint Functor Theorem"
+    pages: ""
+    role_in_book: "Theorem 2: the central existence theorem for left adjoints"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

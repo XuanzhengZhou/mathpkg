@@ -1,0 +1,23 @@
+id: morita-characterization-of-dualities
+title_en: "Morita's Characterization of Dualities"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [duality, Morita-theory, bimodule, U-duality, reflexive-module]
+depends_on:
+  required: [duality-natural-isomorphisms, u-duality-between-reflexive-modules]
+  recommended: [fundamental-lemma-of-duality]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Anderson, F.W. and Fuller, K.R."
+    title: "Rings and Categories of Modules"
+    chapter: "23"
+    section: "23.5"
+    pages: ""
+    role_in_book: "The main result of the chapter: every duality between module categories closed under isomorphisms is a U-duality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

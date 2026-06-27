@@ -1,0 +1,1 @@
+If a region admits a normal exhaustion by holomorphically convex compact sets, then it is a region of holomorphy. This connects the geometric notion of holomorphic convexity with the function-theoretic notion of domain of holomorphy.

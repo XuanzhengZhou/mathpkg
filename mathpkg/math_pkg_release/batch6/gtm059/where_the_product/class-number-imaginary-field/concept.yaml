@@ -1,0 +1,23 @@
+id: class-number-imaginary-field
+title_en: "Class Number Formula for Imaginary Fields (Theorem 3.2)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [class-number, CM-field, unit-index, regulator, first-factor, imaginary-field]
+depends_on:
+  required: [unit-index, unit-index-lemma, analytic-class-number-formula]
+  recommended: [decomposition-of-l-series]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "3"
+    pages: "86-89"
+    role_in_book: "Core: class number formula expressing h in terms of h^*, unit index, and regulators"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

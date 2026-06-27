@@ -1,0 +1,1 @@
+Absolutely continuous functions are precisely the indefinite integrals of $L^1$ functions. This characterizes the fundamental theorem of calculus: the class of functions for which differentiation and integration are inverse operations.

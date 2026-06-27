@@ -1,0 +1,23 @@
+id: polygon-homeomorphic-to-frontier-of-2-simplex
+title_en: "Every polygon is homeomorphic to the frontier of a 2-simplex"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: planar-topology
+difficulty: intermediate
+tags: [polygon, homeomorphism, 2-simplex, Schönflies-theorem, planar-topology]
+depends_on:
+  required: [free-2-simplex-in-polygon-triangulation]
+  recommended: [polygon, triangulation, homeomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "3"
+    section: "The Schönflies theorem for polygons in R^2"
+    pages: ""
+    role_in_book: "Central step in the Schönflies theorem for polygons"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: character-isomorphism-r-k-g
+title_en: "Character isomorphism from $R_K(G)$ to virtual characters"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [character-theory, grothendieck-group, virtual-character, class-function, representation-ring]
+depends_on:
+  required: [grothendieck-group-r-l-g, character-of-representation]
+  recommended: [basis-of-r-l-g, orthogonality-relations]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "14"
+    section: "14.1"
+    pages: ""
+    role_in_book: "Identifies the representation ring over a characteristic zero field with the ring of virtual characters"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

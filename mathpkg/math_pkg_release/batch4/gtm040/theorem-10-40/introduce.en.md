@@ -1,0 +1,12 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $h \geq 0$ is a normalized superregular function such that
+
+$$h_i = \int_S K(i,x) d\nu(x)$$
+
+for some measure $\nu$ on $S^*$ with $\nu(\bar{S}) = \nu(S^*) = 1$, then $\nu = \mu^h$.

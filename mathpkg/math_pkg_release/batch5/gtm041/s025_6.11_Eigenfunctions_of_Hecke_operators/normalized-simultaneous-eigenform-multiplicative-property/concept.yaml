@@ -1,0 +1,23 @@
+id: normalized-simultaneous-eigenform-multiplicative-property
+title_en: "Normalized simultaneous eigenform multiplicative property"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [hecke-operator, simultaneous-eigenform, multiplicative-coefficients, cusp-form, ramanujan-tau]
+depends_on:
+  required: [simultaneous-eigenform, non-vanishing-first-fourier-coefficient-simultaneous-eigenform]
+  recommended: [hecke-operator-fourier-coefficient-formula]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.13"
+    pages: ""
+    role_in_book: "Theorem 6.15 — characterizes normalized simultaneous eigenforms by the multiplicativity of Fourier coefficients"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

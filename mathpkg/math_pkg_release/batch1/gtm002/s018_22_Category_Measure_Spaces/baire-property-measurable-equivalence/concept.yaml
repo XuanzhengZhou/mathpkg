@@ -1,0 +1,13 @@
+id: baire-property-measurable-equivalence
+title_en: "Baire Property Coincides with Measurability in the Density Topology"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: measure-theory
+difficulty: advanced
+tags: [density-topology, baire-property, measurable-set, category-measure]
+depends_on: {required: ["density-topology-construction", "baire-property", "measurable-set"], recommended: ["nowhere-dense-iff-nullset"], suggested: []}
+source_books: [{book_id: "gtm002", author: "John C. Oxtoby", title: "Measure and Category", chapter: "22", section: "22. Category Measure Spaces", pages: "89", role_in_book: "Theorem 22.7; the Baire-property sets are exactly the measurable sets in the density topology"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

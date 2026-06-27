@@ -1,0 +1,23 @@
+id: product-of-dual-vectors
+title_en: "Product of Dual Vectors"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [bilinear-form, dual-space, linear-transformation, product]
+depends_on:
+  required: [bilinear-form, dual-space, linear-transformation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "Bilinear Forms"
+    section: "5"
+    pages: "157-158"
+    role_in_book: "Fundamental construction linking bilinear forms and linear transformations; the product u' x v is the building block for representing arbitrary linear transformations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

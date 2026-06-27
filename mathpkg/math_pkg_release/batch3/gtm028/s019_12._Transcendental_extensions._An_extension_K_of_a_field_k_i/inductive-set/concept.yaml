@@ -1,0 +1,23 @@
+id: inductive-set
+title_en: "Inductive Set"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [inductive, partial-order, zorns-lemma, chain]
+depends_on:
+  required: [partially-ordered-set, totally-ordered-set, upper-bound]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "II. Elements of Field Theory"
+    section: "§12. Transcendental Extensions"
+    pages: ""
+    role_in_book: "Hypothesis of Zorn's Lemma, used to prove existence of transcendence bases"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

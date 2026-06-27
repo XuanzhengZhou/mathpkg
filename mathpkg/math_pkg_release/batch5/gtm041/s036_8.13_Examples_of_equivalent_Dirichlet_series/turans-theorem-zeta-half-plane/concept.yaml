@@ -1,0 +1,13 @@
+id: turans-theorem-zeta-half-plane
+title_en: "Turán's Theorem on the Non-Vanishing of the Riemann Zeta Function"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: riemann-zeta-function
+difficulty: advanced
+tags: [riemann-zeta, riemann-hypothesis, turan-theorem, liouville-function, landau-theorem, bohr-equivalence]
+depends_on: {required: [liouville-function-integral-representation], recommended: [landau-theorem, bohr-equivalence-theorem], suggested: []}
+source_books: [{book_id: "gtm041", author: "Tom M. Apostol", title: "Modular Functions and Dirichlet Series in Number Theory", chapter: "8", section: "8.14", pages: "", role_in_book: "Theorem 8.20 — if the partial sums C(x) of Liouville's function are nonnegative for large x, then the Riemann zeta function has no zeros in the half-plane sigma > 1/2"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

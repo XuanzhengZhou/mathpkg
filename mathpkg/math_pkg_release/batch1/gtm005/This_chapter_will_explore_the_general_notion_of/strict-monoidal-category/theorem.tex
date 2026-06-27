@@ -1,0 +1,7 @@
+A \textbf{strict monoidal category} $\langle B, \square, e \rangle$ is a category $B$ equipped with a bifunctor $\square : B \times B \rightarrow B$ which is associative,
+$$\square(\square \times 1) = \square(1 \times \square) : B \times B \times B \rightarrow B,$$
+and with an object $e$ which is a left and right unit for $\square$,
+$$\square(e \times 1) = \mathrm{id}_B = \square(1 \times e).$$
+The bifunctor $\square$ assigns to each pair of objects $a, b \in B$ an object $a \square b$ of $B$ and to each pair of arrows $f : a \rightarrow a', g : b \rightarrow b'$ an arrow $f \square g : a \square b \rightarrow a' \square b'$, satisfying the interchange law
+$$1_a \square 1_b = 1_{a \square b}, \quad (f' \square g') (f \square g) = (f' f) \square (g' g),$$
+whenever the composites $f'f$ and $g'g$ are defined.

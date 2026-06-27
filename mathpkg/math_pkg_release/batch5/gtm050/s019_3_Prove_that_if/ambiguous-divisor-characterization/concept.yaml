@@ -1,0 +1,23 @@
+id: ambiguous-divisor-characterization
+title_en: "Characterization of Ambiguous Divisors"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: quadratic-integer-divisor-theory
+difficulty: intermediate
+tags: [ambiguous-divisor, divisor-class-group, quadratic-integers, ramified-primes]
+depends_on:
+  required: [ambiguous-divisor-class, ambiguous-class-divisor-structure]
+  recommended: [divisor-of-quadratic-integers, cyclic-method]
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "7"
+    section: "7.10"
+    pages: "300-301"
+    role_in_book: "Culminating result of Section 7.10: characterizes ambiguous divisors in terms of divisibility of 4D or D"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

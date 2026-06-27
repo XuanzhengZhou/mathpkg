@@ -1,0 +1,17 @@
+Given two adjunctions
+$$\langle F, G, \varphi, \eta, \varepsilon \rangle : X \rightharpoonup A, \quad \langle F', G', \varphi', \eta', \varepsilon' \rangle : X' \rightharpoonup A'$$
+a \textbf{map of adjunctions} (from the first to the second adjunction) is a pair of functors $K : A \to A'$ and $L : X \to X'$ such that both squares
+$$\begin{array}{c}
+A \xrightarrow{G} X \xrightarrow{F} A \\
+K \downarrow \quad L \downarrow \quad K \downarrow \\
+A' \xrightarrow{G'} X' \xrightarrow{F'} A'
+\end{array}$$
+of functors commute, and such that the diagram of hom-sets
+$$\begin{array}{c}
+A(Fx, a) \xrightarrow{\varphi} X(x, Ga) \\
+K = K_{Fx, a} \downarrow \quad \downarrow L \\
+A'(KFx, Ka) \quad X'(Lx, LGa) \\
+\parallel \quad \parallel \\
+A'(F'Lx, Ka) \xrightarrow{\varphi'} X'(Lx, G'Ka)
+\end{array}$$
+commutes for all objects $x \in X$ and $a \in A$, where $K_{Fx, a}$ is the map $f \mapsto Kf$ given by the functor $K$ applied to each $f : Fx \to a$.

@@ -1,0 +1,9 @@
+Let $(V, D)$ be a directed graph with vertex capacity $j: V \to \mathbb{N}$. Construct a network $(X, k)$ where each vertex $x \in V$ is split into two vertices $x^1, x^2$. Let $h$ be a feasible flow in $(V, D)$. Define $\bar{h}: Y \to \mathbb{N}$ by
+
+$$\bar{h}(x^i, y^i) = 0 \quad \text{for all } x, y \in V,\ i \in \{1, 2\},$$
+
+$$\bar{h}(x^1, y^2) = h(x, y) \quad \text{for all } x, y \in V,$$
+
+$$\bar{h}(x^2, y^1) = \begin{cases} h(x) & \text{if } x = y, \\ 0 & \text{if } x \neq y. \end{cases}$$
+
+Then the mapping $h \mapsto \bar{h}$ is a bijection from the set of feasible flows on $(V, D)$ onto the set of feasible flows on $(X, k)$.

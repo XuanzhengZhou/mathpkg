@@ -1,0 +1,23 @@
+id: mackey-corollary-normal-subgroup
+title_en: "Mackey's Criterion for Normal Subgroups"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [mackey-criterion, normal-subgroup, induced-representation, irreducibility, conjugate-representation]
+depends_on:
+  required: [mackey-irreducibility-criterion, normal-subgroup, conjugate-representation]
+  recommended: [induced-representation-of-normal-subgroup]
+  suggested: [clifford-theory]
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "7"
+    section: "7.4"
+    pages: ""
+    role_in_book: "Corollary to Proposition 23 — simplifies Mackey's criterion when the subgroup is normal in G"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

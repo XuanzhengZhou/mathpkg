@@ -1,0 +1,23 @@
+id: convolution-finite-field
+title_en: "Convolution on Finite Fields"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: finite-fields
+difficulty: intermediate
+tags: ["convolution", "finite-fields", "character-sums"]
+depends_on:
+  required: []
+  recommended: ["fourier-transform-finite-field"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "1"
+    pages: "1-2"
+    role_in_book: "Auxiliary definition for character sum theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

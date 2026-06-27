@@ -1,0 +1,23 @@
+id: topology-determined-by-subfamily
+title_en: "Topology Determined by a Subfamily Implies Complete Regularity"
+title_zh: "由子族决定的拓扑蕴含完全正则性"
+type: theorem
+domain: topology
+subdomain: separation-axioms
+difficulty: intermediate
+tags: [completely-regular-space, weak-topology, determined-topology, hausdorff]
+depends_on:
+  required: [completely-regular-space, weak-topology-c-and-cstar]
+  recommended: [weak-topology-generated-by-family]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.7"
+    pages: ""
+    role_in_book: "Theorem 3.7; sharpens the characterization of complete regularity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,27 @@
+For complex $a, b, |a| < 1, |b| < 1$,
+
+$$(1 - ab) \sum_{x=0}^{\infty} \sum_{y=0}^{\infty} a^x b^y g(x
+
+$(1 - ab) \sum_{x=0}^{\infty} \sum_{y=0}^{a^x b^y g(x,y)}$
+
+$= (1 - ab) \sum_{n=0}^{\infty} \sum_{x=0}^{\infty} \sum_{y=0}^{a^x b^y Q_n(x,y)}$
+
+$= (1 - ab) \sum_{n=0}^{\infty} \sum_{x=0}^{\infty} \sum_{y=0}^{a^x b^y P[x + S_n = y; x + S_j \geq 0 \text{ for } j = 0, 1, \ldots, n]$
+
+$= (1 - ab) \sum_{n=0}^{\infty} \sum_{x=0}^{\infty} \sum_{y=0}^{a^x b^y P[S_n^* = x - y; S_j^* \leq x \text{ for } j = 0, 1, \ldots, n]$
+
+$= (1 - ab) \sum_{n=0}^{\infty} \sum_{x=0}^{\infty} \sum_{y=0}^{a^x b^y P[M_n^* \leq x, M_n^* - S_n^* \leq y; S_n^* = x - y]$
+
+$= \sum_{n=0}^{\infty} \sum_{x=0}^{\infty} \sum_{y=0}^{a^x b^y P[M_n^* = x; M_n^* - S_n^* = y]$
+
+$= \sum_{n=0}^{\infty} E[a^{M_n^*} b^{M_n^*} - S_n^*]$.
+
+If the "stars" were not present we would now have from P1
+
+$(1 - ab) \sum_{x=0}^{\infty} \sum_{y=0}^{a^x b^y g(x,y)} = [c(1)f_i(1;a)f_e(1;b^{-1})]^{-1}$.
+
+But we have stars. According to the definitions of $f_i$ and $f_e$ this merely amounts to an interchange of $a$ and $b$. Another difficulty, that of letting $t \neq 1$ in
+
+By part (c) of P10.1 the hitting probabilities $H_B(x,y)$ of the half-line $B$ are given by
+
+$$H_B(x,y) = \sum_{t=0}^{\infty} g(x,t)P(t,y), \quad x \in R - B, \quad y \in B.$$

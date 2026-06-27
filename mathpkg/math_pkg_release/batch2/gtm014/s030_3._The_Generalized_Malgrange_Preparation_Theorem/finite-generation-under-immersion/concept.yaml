@@ -1,0 +1,28 @@
+id: finite-generation-under-immersion
+title_en: "Finite Generation of Modules under Immersions"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags:
+  - immersion
+  - finite-generation
+  - module-over-ring-of-germs
+  - malgrange-preparation
+depends_on:
+  required: []
+  recommended:
+    - generalized-malgrange-preparation-theorem
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "3"
+    section: "3"
+    pages: ""
+    role_in_book: "Lemma 3.8; handles the immersion case in the proof of the Generalized Malgrange Preparation Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

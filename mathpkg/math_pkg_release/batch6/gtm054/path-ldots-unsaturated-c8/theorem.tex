@@ -1,0 +1,19 @@
+$h(e_0) < k(e_0).$
+
+An $x_0$x-path $x_0, e_1, x_1, \ldots, e_m, x$ is said to be unsaturated with respect to $h$ if
+
+$$e_i \neq e_0 \quad \text{for } i = 1, \ldots, m;$$
+
+$$e_i = (x_{i-1}, x_i) \Rightarrow h(e_i) < k(e_i);$$
+
+$$e_i = (x_i, x_{i-1}) \Rightarrow h(e_i) > 0.$$
+
+Let $U = \{x \in V : \text{there exists an unsaturated } x_0x\text{-path}\}$. Trivially $x_0 \in U$. Also if $x \in U$, then so is every vertex on an unsaturated $x_0x$-path.
+
+Case 1: $y_0 \in U$. Let $x_0, e_1, x_1, \ldots, e_m, y_0$ be an unsaturated $x_0y_0$-path, and let $D$ be the circuit $x_0, e_1, x_1, \ldots, e
+
+flow you produced in C5 and try to find an unsaturated path from 9 to 1. If you can find such a path, increase the flow by one unit as in Case 1 above. If there is no such path, construct the cut as in Case 2 above.
+
+IVD The Flow Algorithm
+
+Let $(V, k)$ be any network. As in the proof of the Max-Flow–Min-Cut Theorem, let $n$ be the least positive integer such that $nk$ is integral. Then $(V, nk)$ is an integral network. Furthermore, $h$ is a feasible flow in $(V, k)$ if and only if $nh$ is a feasible flow in $(V, nk)$. Finally, for any $e_0 \in W$, $h$ is a maximum flow through $e_0$ in $(V, k)$ if and only if $nh$ is a maximum flow through $e_0$ in $(V, nk)$. It should thus be clear that for the purposes of actually computing maximum flows, it suffices to restrict oneself to integral networks.

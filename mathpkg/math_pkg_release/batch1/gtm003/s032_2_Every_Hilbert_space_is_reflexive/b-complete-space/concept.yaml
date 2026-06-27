@@ -1,0 +1,23 @@
+id: b-complete-space
+title_en: "B-complete Space (Ptak Space)"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [b-complete, ptak-space, locally-convex-space, weak-topology, equicontinuous]
+depends_on:
+  required: [locally-convex-space, equicontinuous-set, weak-topology]
+  recommended: [closed-subspace, duality]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "8"
+    pages: ""
+    role_in_book: "Definition of B-completeness (Ptak spaces)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

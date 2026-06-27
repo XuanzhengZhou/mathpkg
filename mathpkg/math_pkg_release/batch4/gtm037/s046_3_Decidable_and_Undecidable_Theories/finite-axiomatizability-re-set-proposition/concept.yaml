@@ -1,0 +1,23 @@
+id: finite-axiomatizability-re-set-proposition
+title_en: "Finite Axiomatizability Implies R.E. Set of Counter-Models"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: decidability
+difficulty: intermediate
+tags: [finite-axiomatizability, r.e., finite-models, inseparable-theories]
+depends_on:
+  required: []
+  recommended: [recursive-extension-function-f]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "Bell and Machover"
+    title: "A Course in Mathematical Logic"
+    chapter: "3"
+    section: "3"
+    pages: "269-272"
+    role_in_book: "Proposition (*) establishing that for finitely axiomatizable theories, the set of sentences whose negations hold in finite models is r.e."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

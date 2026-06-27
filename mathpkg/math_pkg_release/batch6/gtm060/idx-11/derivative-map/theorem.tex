@@ -1,0 +1,11 @@
+Let $f: M \to N$ be a mapping of a manifold $M$ to a manifold $N$. $f$ is called differentiable if in local coordinates on $M$ and $N$ it is given by differentiable functions.
+
+The derivative of a differentiable mapping $f: M \to N$ at a point $x \in M$ is the linear map of the tangent spaces
+
+$$f_{*x}: TM_x \to TN_{f(x)},$$
+
+which is given in the following way:
+
+Let $v \in TM_x$. Consider a curve $\varphi: \mathbb{R} \to M$ with $\varphi(0) = x$ and velocity vector $(d\varphi/dt)|_{t=0} = v$. Then $f_{*x}(v)$ is the velocity vector of the image curve $f \circ \varphi: \mathbb{R} \to N$ at $t = 0$:
+
+$$f_{*x}(v) = \left.\frac{d}{dt}\right|_{t=0} f(\varphi(t)).$$

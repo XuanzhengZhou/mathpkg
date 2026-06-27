@@ -1,0 +1,23 @@
+id: polygon-as-frontier-of-2-cell
+title_en: "Every polygon is the frontier of a 2-cell"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: planar-topology
+difficulty: basic
+tags: [polygon, 2-cell, frontier, planar-topology]
+depends_on:
+  required: [polygon-homeomorphic-to-frontier-of-2-simplex]
+  recommended: [polygon, 2-cell]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "3"
+    section: "The Schönflies theorem for polygons in R^2"
+    pages: ""
+    role_in_book: "Corollary of Theorem 4, confirming topological nature of polygons"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

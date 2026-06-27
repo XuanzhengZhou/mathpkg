@@ -1,0 +1,23 @@
+id: property-of-baire
+title_en: "Property of Baire"
+title_zh: "贝尔性质"
+type: definition
+domain: topology
+subdomain: descriptive-set-theory
+difficulty: intermediate
+tags: [baire-property, first-category, symmetric-difference, baire-category]
+depends_on:
+  required: [first-category-set, symmetric-difference, open-set]
+  recommended: [meager-set, topological-space]
+  suggested: [sigma-algebra, baire-category-theorem]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "4"
+    section: "4. The Property of Baire"
+    pages: ""
+    role_in_book: "Core definition introducing the topological analogue of measurability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

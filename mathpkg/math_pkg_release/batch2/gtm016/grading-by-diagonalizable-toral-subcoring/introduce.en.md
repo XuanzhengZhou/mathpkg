@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $T$ be a diagonalizable toral $k$-subcoring of $H(K/k)$. Then $G(T) = \{K_\alpha(T) \mid \alpha \in T^*, K_\alpha(T) \neq \{0\}\}$ is the grading of $K$ by $T$.

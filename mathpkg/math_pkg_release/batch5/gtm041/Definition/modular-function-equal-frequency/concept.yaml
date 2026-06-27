@@ -1,0 +1,23 @@
+id: modular-function-equal-frequency
+title_en: "Modular Functions Take Every Value Equally Often"
+title_zh: "模函数在基本域中取每个值次数相同"
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [modular-function, value-distribution, fundamental-region, zeros, poles]
+depends_on:
+  required: [modular-function, zeros-equal-poles-in-fundamental-region]
+  recommended: [fundamental-region]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "2"
+    section: "2.4"
+    pages: "45-50"
+    role_in_book: "Theorem 2.5 — Corollary that every value is assumed equally often"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

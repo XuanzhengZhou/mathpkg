@@ -1,0 +1,23 @@
+id: absolutely-convex-ideal
+title_en: "Absolutely Convex Ideal in a Lattice-Ordered Ring"
+title_zh: "格序环中的绝对凸理想"
+type: definition
+domain: algebra
+subdomain: ordered-rings
+difficulty: intermediate
+tags: [absolutely-convex-ideal, lattice-ordered-ring, ideal, convex-ideal]
+depends_on:
+  required: [convex-ideal]
+  recommended: [lattice-ordered-ring, absolute-value]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Defines absolutely convex ideals; they are precisely the ideals for which the quotient ring becomes a lattice-ordered ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

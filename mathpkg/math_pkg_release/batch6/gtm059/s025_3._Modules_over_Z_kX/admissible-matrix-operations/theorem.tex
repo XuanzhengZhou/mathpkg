@@ -1,0 +1,11 @@
+Let $A = \mathbb{Z}_p[[T]]$. Let $R$ be a relation matrix for a finitely generated $A$-module $M$ with generators $u_1, \dots, u_m$. The following are *admissible operations* on $R$, each corresponding to a pseudo-isomorphism of $M$:
+
+\begin{enumerate}
+\item[(O.1)] If $R$ contains a row $(j_1, j_2, \dots, j_n)$ with $j_1$ not divisible by $p$, replace $R$ by the matrix whose rows consist of $(j_1, \dots, j_n)$ together with the rows of $R$ with first element multiplied by $p$.
+
+\item[(O.2)] If there exists an element $i_1$ that is distinguished (or equivalently $i_1$ not divisible by $p$), form the module $M'$ by adjoining a new element $v$ with the relations $p^n = p_1 v_1$ and $i_1 = -(p_2 v_2 + \dots + i_n v_n)$. Then $M \hookrightarrow M'$ and $M'/M$ is finite.
+
+\item[(O.3)] If $(\lambda_{i_1}, \dots, \lambda_{i_k})$ is also a relation and there exists an element $i$ not divisible by $p$, replace the row $P(\lambda_1, \dots, \lambda_k)$ by $(\lambda_1, \dots, \lambda_k)$. This corresponds to a surjection with finite kernel.
+
+\item[Row/column operations] Elementary row and column operations over $A$ are also admissible.
+\end{enumerate}

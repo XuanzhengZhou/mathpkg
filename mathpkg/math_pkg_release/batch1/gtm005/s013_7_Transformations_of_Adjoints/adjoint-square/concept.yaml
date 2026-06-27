@@ -1,0 +1,33 @@
+id: adjoint-square
+title_en: Adjoint Square
+title_zh: ''
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags:
+- adjoint-square
+- adjunction
+- natural-transformation
+- Kelly
+- category-theory
+depends_on:
+  required:
+  - adjunction
+  - map-of-adjunctions
+  - natural-transformation
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: IV
+  section: '7'
+  pages: ''
+  role_in_book: exercise by Kelly defining an adjoint square; a general framework of
+    categories, functors, adjunctions, and natural transformations where sigma and
+    tau determine each other
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

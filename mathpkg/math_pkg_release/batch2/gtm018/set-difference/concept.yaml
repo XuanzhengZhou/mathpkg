@@ -1,0 +1,23 @@
+id: set-difference
+title_en: "Set Difference"
+title_zh: "集合的差"
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [set-theory, difference]
+depends_on:
+  required: [complement-of-set, intersection-of-class]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "I"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines set difference and proper difference, essential for ring axioms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

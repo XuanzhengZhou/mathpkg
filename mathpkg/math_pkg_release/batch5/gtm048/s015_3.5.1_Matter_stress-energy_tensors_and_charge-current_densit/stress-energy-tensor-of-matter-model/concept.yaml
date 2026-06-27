@@ -1,0 +1,23 @@
+id: stress-energy-tensor-of-matter-model
+title_en: "Stress-Energy Tensor of a Matter Model"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: intermediate
+tags: [stress-energy-tensor, matter-model, particle-flows, relativistic-model]
+depends_on:
+  required: []
+  recommended: [spacetime, relativistic-model, particle-flow, stress-energy-tensor-definition]
+  suggested: [world-density, instantaneous-observer]
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.5.1"
+    pages: ""
+    role_in_book: "Definition. For a finite collection of particle flows $(m_A, e_A, P_A, \eta_A)$, the stress-energy tensor of the matter model $M$ is $\hat{T} = \sum_{A=1}^{N} \eta_A P_A \otimes P_A$."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

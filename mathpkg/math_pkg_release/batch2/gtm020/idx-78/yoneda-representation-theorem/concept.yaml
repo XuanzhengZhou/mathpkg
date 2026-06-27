@@ -1,0 +1,23 @@
+id: yoneda-representation-theorem
+title_en: "Yoneda Representation Theorem"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [yoneda, cofunctor, natural-transformation, representable-functor]
+depends_on:
+  required: [hom-functor-is-a-cofunctor]
+  recommended: [definition-of-natural-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: Dale Husemoller
+    title: Fibre Bundles
+    chapter: "20"
+    section: "1"
+    pages: ""
+    role_in_book: "Core categorical tool for calculating characteristic classes and cohomology operations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

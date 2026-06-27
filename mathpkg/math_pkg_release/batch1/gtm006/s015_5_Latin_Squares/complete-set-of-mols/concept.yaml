@@ -1,0 +1,23 @@
+id: complete-set-of-mols
+title_en: "Complete Set of Mutually Orthogonal Latin Squares"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: latin-squares
+difficulty: basic
+tags: [latin-square, mols, mutually-orthogonal, complete-set]
+depends_on:
+  required: [latin-square, orthogonal-latin-squares]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D. R. Hughes, F. C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "5"
+    pages: "132-137"
+    role_in_book: "Definition of a complete set of MOLS: n-1 mutually orthogonal n×n Latin squares"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

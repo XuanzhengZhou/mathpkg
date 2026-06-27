@@ -1,0 +1,23 @@
+id: discrete-topology-free
+title_en: "Discrete Topology as Free Topological Space"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: category-theory
+difficulty: basic
+tags: [free-object, discrete-topology, forgetful-functor, set, topological-space]
+depends_on:
+  required: [free-object]
+  recommended: [topological-space, forgetful-functor, discrete-topology]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "Free Objects"
+    pages: "123-125"
+    role_in_book: "Example 2.4 — discrete topology provides a free topological space over a set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

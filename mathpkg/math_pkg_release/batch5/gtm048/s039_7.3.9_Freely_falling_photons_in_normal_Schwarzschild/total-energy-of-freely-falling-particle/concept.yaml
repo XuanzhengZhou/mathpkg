@@ -1,0 +1,23 @@
+id: total-energy-of-freely-falling-particle
+title_en: "Total energy of a freely falling particle"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: basic
+tags: [general-relativity, schwarzschild, energy, freely-falling, observer]
+depends_on:
+  required: [first-integrals-for-freely-falling-particles]
+  recommended: [static-reference-frame-on-normal-schwarzschild]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs, Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "7"
+    section: "7.3"
+    pages: ""
+    role_in_book: "Defines total energy E as conserved quantity along freely falling particles in Schwarzschild spacetime"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

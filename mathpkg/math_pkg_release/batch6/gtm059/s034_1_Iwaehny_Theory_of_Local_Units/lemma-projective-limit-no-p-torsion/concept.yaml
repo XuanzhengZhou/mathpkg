@@ -1,0 +1,23 @@
+id: lemma-projective-limit-no-p-torsion
+title_en: "Lemma: Projective Limit of Local Units has No p-Torsion"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [projective-limit, local-units, p-torsion, iwasawa-theory]
+depends_on:
+  required: [projective-limit-of-local-unit-groups]
+  recommended: [p-adic-numbers]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "Iwasawa Theory of Local Units"
+    section: "2"
+    pages: "184-187"
+    role_in_book: "Lemma 2 establishing that U has no Z_p-torsion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

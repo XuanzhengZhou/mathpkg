@@ -1,0 +1,23 @@
+id: correlation-of-projective-plane
+title_en: "Correlation of a Projective Plane"
+title_zh: "射影平面的相关映射"
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [correlation, duality, polarity, incidence, projective-plane]
+depends_on:
+  required: [collineation-of-projective-plane, projective-plane-duality]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "IV. Collineations of Projective and Affine Planes"
+    section: "2. Basic Concepts and Definitions"
+    pages: ""
+    role_in_book: "Maps points to lines and lines to points; products of correlations are collineations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

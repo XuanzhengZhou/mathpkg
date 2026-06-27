@@ -1,0 +1,23 @@
+id: dehn-lemma
+title_en: "Dehn Lemma"
+title_zh: "德恩引理"
+type: lemma
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [singular-2-cell, polyhedral-2-cell, PL-topology, 3-manifold]
+depends_on:
+  required: []
+  recommended: [singular-2-cell, polyhedral-2-cell, PL-manifold]
+  suggested: [loop-theorem, regular-neighborhood]
+source_books:
+  - book_id: "gtm047"
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "10"
+    section: "30"
+    pages: "197-200"
+    role_in_book: "Classical lemma in 3-manifold topology; stated in historical context during the proof of the Loop Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

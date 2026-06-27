@@ -1,0 +1,23 @@
+id: irreducible-trace-zero-semisimple
+title_en: "Semisimplicity Criterion via Irreducible Action"
+title_zh: "通过不可约作用的半单性判定"
+type: proposition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [lie-algebra, semisimple, irreducible-representation, trace-zero, glv]
+depends_on:
+  required: [reductive-lie-algebra]
+  recommended: [irreducible-module, trace-form, killing-form]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "V"
+    section: "19.1"
+    pages: ""
+    role_in_book: "Practical criterion for proving semisimplicity of classical Lie algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

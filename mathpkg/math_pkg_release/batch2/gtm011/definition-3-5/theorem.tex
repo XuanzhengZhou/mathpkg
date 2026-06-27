@@ -1,0 +1,23 @@
+A mapping of the form $S(z) = \frac{az+b}{cz+d}$ is called a linear fractional transformation. If $a, b, c$, and $d$ also satisfy $ad-bc \neq 0$ then $S(z)$ is called a Möbius transformation.
+
+If $S$ is a Möbius transformation then $S^{-1}(z) = \frac{dz-b}{-cz+a}$ satisfies $S(S^{-1}(z)) = S^{-1}(S(z)) = z$; that is, $S^{-1}$ is the inverse mapping of $S$. If $S$ and $T$ are both linear fractional transformations then it follows that $S \circ T$ is also. Hence, the set of Möbius maps forms a group under composition. Unless otherwise stated, the only linear fractional transformations we will consider are Möbius transformations.
+
+Let $S(z) = \frac{az+b}{cz+d}$; if $\lambda$ is any non-zero complex number, then
+
+$$S(z) = \frac{(\lambda a)z + (\lambda b)}{(\lambda c)z + (\lambda d)}.$$
+
+That is, the coefficients $a, b, c, d$ are not unique (see Exercise 20).
+
+We may also consider $S$ as defined on $\mathbb{C}_\infty$ with $S(\infty) = a/c$ and $S(-d/c) = \infty$. (Notice that we cannot have $a = 0 = c$ or $d = 0 = c$
+
+Hence, a Möbius transformation can have at most two fixed points unless $S(z) = z$ for all $z$. (Why?)
+
+Now let $S$ be a Möbius transformation and let $a, b, c$ be distinct points in $\mathbb{C}_{\infty}$ with $\alpha = S(a), \beta = S(b), \gamma = S(c)$. Suppose that $T$ is another map with this property. Then $T^{-1} \circ S$ has $a, b$, and $c$ as fixed points and, therefore, $T^{-1} \circ S = I =$ the identity. That is, $S = T$. Hence, a Möbius map is uniquely determined by its action on any three given points in $\mathbb{C}_{\infty}$.
+
+Let $z_2, z_3, z_4$ be points in $\mathbb{C}_{\infty}$. Define $S: \mathbb{C}_{\infty} \rightarrow \mathbb{C}_{\infty}$ by
+
+$$S(z) = \left( \frac{z - z_3}{z - z_4} \right) / \left( \frac{z_2 - z_3}{z_2 - z_4} \right) \quad \text{if} \quad z_2, z_3, z_4 \in \mathbb{C};$$
+
+$$S(z) = \frac{z - z_3}{z - z_4} \quad \text{if} \quad z_2 = \infty;$$
+
+$$S(z) = \frac{z_2 - z_4}{z - z_4} \quad \text{if} \quad z_3 = \infty;$$

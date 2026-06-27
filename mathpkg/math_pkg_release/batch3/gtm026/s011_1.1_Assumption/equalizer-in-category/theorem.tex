@@ -1,0 +1,6 @@
+Given morphisms $f, g: A_1 \longrightarrow A_2$ in a category $\mathcal{K}$, an \textbf{equalizer} of $(f, g)$ is an object $E$ together with a morphism $i: E \longrightarrow A_1$ satisfying:
+\begin{enumerate}
+\item $i.f = i.g$;
+\item For every morphism $i': E' \longrightarrow A_1$ with $i'.f = i'.g$, there exists a unique morphism $h: E' \longrightarrow E$ such that $h.i = i'$.
+\end{enumerate}
+Equalizers are unique up to isomorphism; we write $\mathrm{eq}(f, g)$ to denote any representative. $\mathcal{K}$ \textbf{has equalizers} if $\mathrm{eq}(f, g)$ exists for every parallel pair $f, g: A_1 \longrightarrow A_2$.

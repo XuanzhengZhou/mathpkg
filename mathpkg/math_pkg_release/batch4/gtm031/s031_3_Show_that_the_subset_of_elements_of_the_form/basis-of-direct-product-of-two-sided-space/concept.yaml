@@ -1,0 +1,23 @@
+id: basis-of-direct-product-of-two-sided-space
+title_en: "Basis of the Direct Product of a Two-Sided and a Left Vector Space"
+title_zh: "双边与左向量空间直积的基"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [basis, direct-product, two-sided-vector-space, dimension]
+depends_on:
+  required: [left-direct-product-of-two-sided-and-left-space, linear-independence, basis]
+  recommended: [dimension, direct-product-of-vector-spaces]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "II"
+    section: "3"
+    pages: "215-218"
+    role_in_book: "Establishes that the direct product basis is the tensor-like product of the individual bases, with dimension given by the product of dimensions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

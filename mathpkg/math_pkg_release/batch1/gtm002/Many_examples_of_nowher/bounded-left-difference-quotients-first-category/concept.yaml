@@ -1,0 +1,23 @@
+id: bounded-left-difference-quotients-first-category
+title_en: "Functions with Bounded Left Difference Quotients Are of First Category"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [first-category, left-derivative, isometry, category-method, banach]
+depends_on:
+  required: [bounded-right-difference-quotients-first-category, continuous-function-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "11"
+    section: "Nowhere Differentiable Functions"
+    pages: "54"
+    role_in_book: "Corollary: by the isometry induced by x → 1-x, the left-hand analogue is also first category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

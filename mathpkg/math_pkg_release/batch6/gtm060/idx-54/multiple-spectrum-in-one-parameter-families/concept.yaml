@@ -1,0 +1,23 @@
+id: multiple-spectrum-in-one-parameter-families
+title_en: "Avoidance of Multiple Spectrum in Typical One-Parameter Families of Quadratic Forms"
+title_zh: "典型单参数二次型族中多重谱的规避"
+type: theorem
+domain: geometry
+subdomain: spectral-theory
+difficulty: intermediate
+tags: [eigenvalues, quadratic-forms, ellipsoids, degeneracy, codimension, one-parameter-families]
+depends_on:
+  required: []
+  recommended: [quadratic-form, eigenvalue, ellipsoid-of-revolution, parameter-space, transversality]
+  suggested: [von-neumann-wigner-theorem, avoided-crossing]
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 10"
+    section: ""
+    pages: "435-437"
+    role_in_book: "Explains why eigenvalue degeneracies require at least two parameters, crucial for small oscillations and rigid body dynamics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

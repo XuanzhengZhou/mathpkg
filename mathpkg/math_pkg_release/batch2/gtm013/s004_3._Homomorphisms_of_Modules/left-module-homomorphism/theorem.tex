@@ -1,0 +1,9 @@
+Let $M$ and $N$ be left $R$-modules. A function $f: M \to N$ is a \textbf{left $R$-homomorphism} (or $R$-linear map) if for all $a, b \in R$ and all $x, y \in M$,
+$$f(ax + by) = af(x) + bf(y).$$
+Equivalently, if $M$ and $N$ are left $R$-modules via ring homomorphisms $\lambda, \lambda': R \to \text{End}(M), \text{End}(N)$ respectively, an abelian group homomorphism $f: M \to N$ is an $R$-homomorphism iff for each $a \in R$ the diagram
+$$\begin{CD}
+M @>f>> N \\
+@V\lambda(a)VV @VV\lambda'(a)V \\
+M @>f>> N
+\end{CD}$$
+commutes.

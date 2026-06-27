@@ -1,0 +1,23 @@
+id: open-configuration
+title_en: "Open Configuration"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: incidence-geometry
+difficulty: basic
+tags: [configuration, open, confined, subconfiguration]
+depends_on:
+  required: [configuration, subconfiguration, confined-configuration]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "XI"
+    section: "2"
+    pages: ""
+    role_in_book: "Dual notion to confined; configurations with no confined subconfiguration"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

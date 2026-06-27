@@ -1,0 +1,23 @@
+id: intrinsic-derivative-hessian
+title_en: "Intrinsic Derivative (Hessian at a Critical Point)"
+title_zh: "内蕴导数（临界点处的Hessian）"
+type: definition
+domain: geometry
+subdomain: differential-topology
+difficulty: advanced
+tags: [hessian, intrinsic-derivative, critical-point, vector-bundle, connection]
+depends_on:
+  required: [critical-point, vector-bundle]
+  recommended: [nondegenerate-critical-point, tangent-bundle]
+  suggested: [morse-lemma]
+source_books:
+  - book_id: gtm014
+    author: "Golubitsky, M.; Guillemin, V."
+    title: "Stable Mappings and Their Singularities"
+    chapter: "6"
+    section: "6. Morse Theory"
+    pages: "75-76"
+    role_in_book: "Gives an invariant (coordinate-free) definition of the Hessian at a critical point"
+content_hash: "def-intrinsic-derivative-gtm014"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: plane-through-generator-conic-decomposition
+title_en: "Plane through Generator Yields Rank-2 Conic Decomposition"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: quadric-geometry
+difficulty: intermediate
+tags: [quadric, generator, conic, rank, projective-geometry, orthogonal-complement]
+depends_on:
+  required: [generator-self-orthogonal]
+  recommended: [orthogonal-complement, rank-of-bilinear-form]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K. W. Gruenberg and A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "Exercises 14"
+    pages: ""
+    role_in_book: "Describes the intersection of a quadric with a plane containing a generator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

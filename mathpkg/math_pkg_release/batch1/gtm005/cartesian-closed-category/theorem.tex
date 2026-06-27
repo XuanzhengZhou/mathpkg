@@ -1,0 +1,5 @@
+A category $C$ is \textbf{cartesian closed} if it has specified adjoints to the following functors (from $C$ to the terminal category $1$, to $C \times C$, and $- \times b: C \to C$):
+$$t \leftarrow 0, \qquad a \times b \leftarrow \langle a, b \rangle, \qquad c^b \leftarrow c.$$
+That is, $C$ has a terminal object $t$, binary products $a \times b$, and for each object $b$ the functor $- \times b: C \to C$ has a right adjoint $(-)^b: C \to C$, called the \textbf{exponential}. The adjunction is determined by a natural bijection
+$$\hom(a \times b, c) \cong \hom(a, c^b)$$
+and a counit (evaluation map) $e: c^b \times b \to c$. Examples: $\mathbf{Set}$ with $c^b = \hom(b, c)$; $\mathbf{Cat}$ with $C^B$ the functor category.

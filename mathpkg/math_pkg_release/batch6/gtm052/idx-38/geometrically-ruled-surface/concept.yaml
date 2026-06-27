@@ -1,0 +1,23 @@
+id: geometrically-ruled-surface
+title_en: "Geometrically Ruled Surface"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-surfaces
+difficulty: advanced
+tags: [ruled-surface, projective-bundle, fibration, algebraic-surface]
+depends_on:
+  required: []
+  recommended: [projective-space, nonsingular-curve, morphism, fibre-product]
+  suggested: [tsens-theorem, section-of-morphism]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "2"
+    pages: "369"
+    role_in_book: "Foundational definition of ruled surfaces in the classification of algebraic surfaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

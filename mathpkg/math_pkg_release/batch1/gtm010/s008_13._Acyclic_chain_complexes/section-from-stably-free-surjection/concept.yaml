@@ -1,0 +1,23 @@
+id: section-from-stably-free-surjection
+title_en: "Existence of section for surjection onto a stably free module"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [stably-free, section, surjection, splitting, direct-sum]
+depends_on:
+  required: [stably-free-module]
+  recommended: [free-module, direct-sum-of-modules, split-exact-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm010"
+    author: "Marshall M. Cohen"
+    title: "A Course in Simple-Homotopy Theory"
+    chapter: "II"
+    section: "13"
+    pages: "56-58"
+    role_in_book: "Key lemma — establishes that stably free modules behave like free modules with respect to the lifting of surjections; used repeatedly in the construction of chain contractions for acyclic complexes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

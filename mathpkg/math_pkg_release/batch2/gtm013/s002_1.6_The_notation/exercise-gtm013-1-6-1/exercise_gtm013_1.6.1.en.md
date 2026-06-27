@@ -1,0 +1,11 @@
+---
+role: exercise
+locale: en
+chapter: "1"
+section: "1.6"
+exercise_number: 1
+---
+
+Let $\overline{R}$ be a ring and $R$ a subset of $\overline{R}$. Prove that $R$ is a subring of $\overline{R}$ if and only if there exists a ring extension $(\overline{R}, +, \cdot, 0, 1)$ in which $(R, +, \cdot, 0)$ is an ideal.
+
+[Hint: On $R \times \mathbb{Z}$ define addition and multiplication by $(r,n) + (s,m) = (r + s, n + m)$ and $(r,n)(s,m) = (rs + mr + ns, nm)$.]

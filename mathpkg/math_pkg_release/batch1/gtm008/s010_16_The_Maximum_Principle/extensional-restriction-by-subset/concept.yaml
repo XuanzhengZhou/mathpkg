@@ -1,0 +1,23 @@
+id: extensional-restriction-by-subset
+title_en: "Extensional Restriction by Subset Relation"
+title_zh: "子集关系下的外延限制"
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: intermediate
+tags: [boolean-valued-universe, extensional-set, subset, dot-product]
+depends_on:
+  required: [extensional-function, dot-product-of-boolean-element-and-set]
+  recommended: []
+  suggested: [extensional-subset-same-domain]
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: ""
+    role_in_book: "Shows that multiplying an extensional set v by b = [[v subseteq u]] yields an extensional set v' that is fully included in u and Boolean-equal to v exactly to the extent that v was included in u."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

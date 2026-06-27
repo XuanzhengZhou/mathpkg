@@ -1,0 +1,23 @@
+id: m-sigma-and-m-sigma-of-riemann-zeta
+title_en: "The functions m(σ) and M(σ) for the Riemann zeta function"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: analytic-number-theory
+difficulty: intermediate
+tags: [riemann-zeta-function, supremum, infimum, vertical-lines, critical-strip]
+depends_on:
+  required: []
+  recommended: [riemann-zeta-function, euler-product]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "7"
+    section: "7.6"
+    pages: ""
+    role_in_book: "Defines the infimum and supremum of |ζ(σ+it)| along vertical lines σ = constant, used to determine the bounds of the Riemann zeta function."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

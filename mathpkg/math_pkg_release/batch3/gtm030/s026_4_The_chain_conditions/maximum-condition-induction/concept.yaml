@@ -1,0 +1,23 @@
+id: maximum-condition-induction
+title_en: "Induction Principle from the Maximum Condition"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [maximum-condition, induction, submodule, noetherian]
+depends_on:
+  required: [maximum-condition]
+  recommended: [ascending-chain-condition, module, submodule]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "Chapter VI"
+    section: "4. The chain conditions"
+    pages: ""
+    role_in_book: "Useful induction principle derived from the maximum condition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

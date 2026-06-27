@@ -1,0 +1,37 @@
+For transient random walk with $m = \infty$
+
+$$\lim_{|x| \to \infty} G(0,x) = 0.$$
+
+Proof: It will clearly suffice to show that
+
+$$\lim_{x \to +\infty} G(0,x) = 0,$$
+
+as there is nothing in the hypotheses of P8 to distinguish $+\infty$ from $-\infty$. The proof is based on the identity that motivated the development of P7, in the rather special form
+
+(a) $$G(x,1) = \sum_{y=1}^{\infty} H_A(x,y)G(y,1).$$
+
+Now we run through the three
+
+$H_A(x,y)$ tends to zero for each $y > 0$ as $x \rightarrow -\infty$, but the total probability "mass" $H_A(x)$ is constant (one), it can be concluded from (a) that
+
+$$\lim_{x \rightarrow -\infty} G(x,1) \leq \lim_{y \rightarrow +\infty} G(y,1),$$
+
+and since both limits are known to exist (this was pointed out at the start of the proof of P6)
+
+$$\lim_{x \rightarrow -\infty} G(x,1) = G(0,+\infty) \leq \lim_{y \rightarrow +\infty} G(y,1) = G(0,-\infty).$$
+
+But if we had $G(0,+\infty) > 0$, then this inequality would entail $G(0,-\infty) > 0$ which contradicts P4. Hence P8 holds if we are in cases (i) or (ii).
+
+Finally consider case (iii). There seems to be nothing here to prevent $G(-\infty,0) = G(0,+\infty)$ from being positive. So, there must be another way out of the dilemma, and that is the realization that transient random walk cannot possibly come under the classification (iii) when its absolute moment $m$ is infinite! For when $m = \infty$, then either $\mu^+$ or $\mu^-$ or both are infinite (they were defined in the proof of P6). If $\mu^+ < \infty$ and $\mu^- = \infty$, then we are in case (i) since $T = \infty$ with positive probability (by the law of large numbers). Finally, if $\mu^+ = \infty$, we may still be in case (i) and then there is nothing left to prove. We may also be in case (ii) and that case has also been settled. But case (iii) is out of the question since, when $T < \infty$ with probability one, then
+
+$$E_0[Z] \geq E_0[Z; T = 1] = \sum_{x=1}^{\infty} xP(0,x) = \mu^+.$$
+
+That completes the proof of P8, and now it remains only to
+
+are distinct, with
+
+$$G(0, +\infty) = \frac{1}{\mu} \quad \text{and} \quad G(0, -\infty) = 0 \quad \text{when} \quad \mu > 0,$$
+
+$$G(0, -\infty) = \frac{1}{|\mu|} \quad \text{and} \quad G(0, +\infty) = 0 \quad \text{when} \quad \mu < 0.$$
+
+The most important applications of T2 are associated with the study of hitting probabilities in the next section. But as a good illustration of its uses we can make a remark which improves and completes the fundamental result T2.1 of Chapter I. For transient random walk the probability $F(0,0)$ of a return to the starting point is less than one. However $F(0,x)$ presented a problem which could not be solved by earlier methods. Now we have

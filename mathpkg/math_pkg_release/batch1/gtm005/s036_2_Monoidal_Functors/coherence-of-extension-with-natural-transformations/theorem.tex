@@ -1,0 +1,10 @@
+For any monoidal natural transformation $\theta : F \to G$ between two monoidal functors and for any word $v$, the following diagram commutes:
+
+\begin{center}
+\begin{tikzcd}
+v(F a_1, \ldots, F a_n) \arrow[r, "F_v"] \arrow[d, "v(\theta_{a_1}, \ldots, \theta_{a_n})"'] & F v(a_1, \ldots, a_n) \arrow[d, "\theta_{v(a_1, \ldots, a_n)}"] \\
+v(G a_1, \ldots, G a_n) \arrow[r, "G_v"] & G v(a_1, \ldots, a_n)
+\end{tikzcd}
+\end{center}
+
+This condition generalizes the conditions (5) and (6) in the definition of a monoidal natural transformation.

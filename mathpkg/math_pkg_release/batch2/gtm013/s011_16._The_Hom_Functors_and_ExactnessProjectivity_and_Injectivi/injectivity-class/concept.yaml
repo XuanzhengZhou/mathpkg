@@ -1,0 +1,23 @@
+id: injectivity-class
+title_en: "Injectivity Class"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [injectivity-class, m-injective]
+depends_on:
+  required: [m-injective-module, projectivity-class]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "§16. The Hom Functors and Exactness—Projectivity and Injectivity"
+    pages: ""
+    role_in_book: "Definition of injectivity class I_R(M)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

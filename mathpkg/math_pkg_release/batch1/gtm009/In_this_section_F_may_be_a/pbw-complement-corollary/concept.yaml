@@ -1,0 +1,23 @@
+id: pbw-complement-corollary
+title_en: "PBW Corollary A: Complement from Symmetric Tensors"
+title_zh: "PBW 推论 A：对称张量的补空间"
+type: corollary
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [pbw-theorem, universal-enveloping-algebra, symmetric-tensors, filtration]
+depends_on:
+  required: [poincare-birkhoff-witt-theorem]
+  recommended: [symmetric-algebra, universal-enveloping-algebra]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "V"
+    section: "17"
+    pages: "102-114"
+    role_in_book: "Corollary of PBW Theorem: symmetric tensors provide complements in filtration"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,29 @@
+id: subspaces-in-general-position
+title_en: "Subspaces in General Position from Infinitesimal Stability"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: singularity-theory
+difficulty: intermediate
+tags:
+  - general-position
+  - infinitesimal-stability
+  - tangent-map
+  - subspaces
+depends_on:
+  required:
+    - simultaneous-local-infinitesimal-stability
+  recommended:
+    - general-position-of-subspaces
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "§1"
+    pages: ""
+    role_in_book: "Shows that condition (†) forces the images (df)_{p_i}(T_{p_i}X) to be in general position in T_qY, a key step towards bounding critical points."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

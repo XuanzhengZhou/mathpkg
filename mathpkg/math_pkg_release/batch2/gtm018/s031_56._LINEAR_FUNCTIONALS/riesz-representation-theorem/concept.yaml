@@ -1,0 +1,23 @@
+id: riesz-representation-theorem
+title_en: "Theorem D: Riesz Representation Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [riesz-representation, positive-linear-functional, borel-measure, integral-representation]
+depends_on:
+  required: [riesz-integral-lower-bound, riesz-approximation-theorem, content-induced-by-positive-linear-functional]
+  recommended: [borel-measure-definition, lebesgue-integral]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "56"
+    section: "56. LINEAR FUNCTIONALS"
+    pages: ""
+    role_in_book: "Main theorem of the section: every positive linear functional on ℒ is integration against a Borel measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

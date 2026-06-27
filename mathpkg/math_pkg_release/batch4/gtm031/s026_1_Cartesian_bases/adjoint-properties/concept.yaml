@@ -1,0 +1,23 @@
+id: adjoint-properties
+title_en: "Algebraic Properties of the Adjoint Mapping"
+title_zh: "伴随映射的代数性质"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [adjoint, transpose, linear-transformation, algebraic-properties]
+depends_on:
+  required: [adjoint-linear-transformation]
+  recommended: [linear-transformation, matrix-transpose]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "VI"
+    section: "2"
+    pages: ""
+    role_in_book: "Fundamental algebraic identities for the adjoint operation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

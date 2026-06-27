@@ -1,0 +1,23 @@
+id: existence-of-unique-jacobi-field
+title_en: "Existence and Uniqueness of Jacobi Field with Given Initial Conditions"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: basic
+tags: [jacobi-field, initial-value-problem, ode, uniqueness, existence, geodesic]
+depends_on:
+  required: [jacobi-field]
+  recommended: [existence-and-uniqueness-theorem-ode]
+  suggested: [frenet-frame]
+source_books:
+  - book_id: gtm051
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.4"
+    pages: "109-112"
+    role_in_book: "Basic well-posedness of the Jacobi equation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

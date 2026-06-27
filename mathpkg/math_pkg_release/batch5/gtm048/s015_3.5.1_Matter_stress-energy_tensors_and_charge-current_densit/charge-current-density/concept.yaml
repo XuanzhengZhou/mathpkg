@@ -1,0 +1,23 @@
+id: charge-current-density
+title_en: "Charge-Current Density of a Matter Model"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: intermediate
+tags: [charge-current-density, matter-model, particle-flows, relativistic-model]
+depends_on:
+  required: []
+  recommended: [spacetime, relativistic-model, particle-flow]
+  suggested: [world-density, vector-field]
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.5.1"
+    pages: ""
+    role_in_book: "Definition. For a finite collection of particle flows, the charge-current density of the matter model $M$ is $J = \sum_{A=1}^{N} e_A \eta_A P_A$, where $e_A$ is the charge and $P_A$ the 4-velocity of each flow."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

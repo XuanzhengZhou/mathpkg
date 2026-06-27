@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+The proposition **(1) If $9 \subseteq b \subseteq \text{On}$, if $b$ is closed with respect to $C, K_1, K_2$, and $J$, and if $f \text{ Isom}_{E, E}(b, \eta)$ then** (Proposition 15.43.) is a fundamental notion in axiomatic set theory, introduced in Chapter 15 of Takeuti and Zaring's *Introduction to Axiomatic Set Theory* (2nd ed., 1982). It forms part of the formal development of Zermelo-Fraenkel set theory with classes (GB or ZF).

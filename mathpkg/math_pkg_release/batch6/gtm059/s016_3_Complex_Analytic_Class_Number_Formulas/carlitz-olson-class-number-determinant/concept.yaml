@@ -1,0 +1,23 @@
+id: carlitz-olson-class-number-determinant
+title_en: "Carlitz–Olson Class Number Determinant Formula"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [class-number, cyclotomic-field, determinant, carlitz-olson, bernoulli-numbers]
+depends_on:
+  required: []
+  recommended: [dedekind-determinant, dirichlet-class-number-formula, stickelberger-ideal]
+  suggested: [generalized-bernoulli-numbers]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "7"
+    pages: ""
+    role_in_book: "Core result expressing the class number of the maximal real subfield as a determinant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

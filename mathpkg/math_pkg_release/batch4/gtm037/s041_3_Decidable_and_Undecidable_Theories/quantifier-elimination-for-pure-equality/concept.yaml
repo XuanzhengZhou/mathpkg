@@ -1,0 +1,23 @@
+id: quantifier-elimination-for-pure-equality
+title_en: "Quantifier Elimination for the Pure Theory of Equality"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [quantifier-elimination, pure-equality, decidability, gamma3, epsilon-sentences]
+depends_on:
+  required: [pure-theory-of-equality]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J.L. Bell, M. Machover"
+    title: "A Course in Mathematical Logic"
+    chapter: "13"
+    section: "3"
+    pages: ""
+    role_in_book: "Quantifier elimination lemma for Γ₃ — every formula in the pure theory of equality is equivalent to a Boolean combination of ε_k sentences (asserting the existence of at least k distinct elements)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

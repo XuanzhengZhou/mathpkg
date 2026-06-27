@@ -1,0 +1,12 @@
+---
+role: proof
+locale: en
+of_concept: strongly-independent-existence-lemma
+source_book: gtm031
+source_chapter: "IV"
+source_section: "1-6"
+---
+We partially order the strongly independent collections $F$ by inclusion. If a set $\{F\}$ of these collections is linearly ordered, clearly $\bigcup F$ is strongly independent. By Zorn's lemma, there exists a maximal strongly independent collection $M$. We shall prove, by induction, that if the cardinal number of $M$ is less than $d$, then we can construct a sequence $X \notin M$ such that $M \cup \{X\}$ is strongly independent, thereby contradicting the maximality of $M$. Suppose that we have found the first $p$ elements $\xi_1, \xi_2, \cdots, \xi_p$ of $X$ so that every $q \times q$ matrix, $q \leq p$, chosen from $M \cup \{(\xi_1, \xi_2, \cdots, \xi_p)\}$ is non-singular. We shall determine $\xi_{p+1}$ so that every $r \times r$ matrix, $r \leq p+1$, of the form
+$$\begin{bmatrix} A & * \\ \xi_{i_1}, \cdots, \xi_{i_{r-1}} & \xi_{p+1} \end{bmatrix}$$
+where $A$ is an $(r-1) \times (r-1)$ matrix determined by $M$, be non-singular. Now for each matrix of this form, in which $\xi_{p+1}$ is regarded as an indeterminate, there is just one choice of $\xi_{p+1}$ in $\Delta$ making it singular. Thus, $A$ is a non-singular matrix; hence its row vectors are left linearly independent. It follows that the row vector $(\xi_{i_1}, \xi_{i_2}, \cdots, \xi_{i_{r-1}})$ can be written in one and only one way as a linear combination of the rows of $A$. Then if $\mu$ represents the same linear combination of the elements of the last column, the matrix is non-singular provided that $\xi_{p+1} \neq \mu$. We note next that the cardinal number of the collection of such matrices in which $\xi_{p+1}$ is an indeterminate is less than $d$. By our assumption the cardinal number of $M$ is less than $d$. The cardinal number of the set of matrices under consideration is the product of the cardinal number of sets of $r-1$ sequences chosen from $M$ times the cardinal number of $r-1$ elements chosen in the integers $1, 2, \cdots, p$. The result is either finite or the cardinal number of $M$. In either case it is less than $d$. Since the cardinal number of $\Delta$ is $d$, we can choose $\xi_{p+1}$ so that all such matrices are non-singular. This completes the proof by induction of the existence of $X$ such that $M \cup \{X\}$ is strongly independent. We have therefore contradicted the maximality of $M$ and established the lemma.
+

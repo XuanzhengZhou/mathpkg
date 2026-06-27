@@ -1,0 +1,23 @@
+id: hopf-flat-torus-theorem
+title_en: "Hopf Flat Torus Theorem"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: advanced
+tags: [torus, flat-metric, conjugate-points, gauss-curvature, global-differential-geometry]
+depends_on:
+  required: [gauss-bonnet-theorem, conjugate-points, geodesic, gauss-curvature-and-mean-curvature]
+  recommended: [jacobi-field, exponential-map, closed-geodesics-fundamental-group]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.8"
+    pages: "174"
+    role_in_book: "Advanced global result in final section: characterizes flat torus by absence of conjugate points."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

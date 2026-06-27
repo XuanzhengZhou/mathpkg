@@ -1,0 +1,23 @@
+id: substitution-under-universal-quantifier
+title_en: "Substitution under universal quantifier (special case)"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: first-order-logic
+difficulty: intermediate
+tags: [substitution, universal-quantifier, bound-variable, first-order-logic]
+depends_on:
+  required: [free-substitution, universal-instantiation, equality-axioms]
+  recommended: [lemma-10.49, logical-tautologies]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "10"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Special case lemma for change of bound variables theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

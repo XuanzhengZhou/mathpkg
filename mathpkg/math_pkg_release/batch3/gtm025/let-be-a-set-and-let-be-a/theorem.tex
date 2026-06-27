@@ -1,0 +1,16 @@
+Let $X$ be a set and let $\varrho$ be a function from $X \times X$ into $R$ such that for all $x, y, z \in X$ we have:
+
+(i) $\varrho(x, y) \geq 0$;
+(ii) $\varrho(x, y) = 0$ if and only if $x = y$;
+(iii) $\varrho(x, y) = \varrho(y, x)$;
+(iv) $\varrho(x, z) \leq \varrho(x, y) + \varrho(y, z)$ [the triangle inequality].
+
+Then $\varrho$ is called a metric [or distance-function] for $X$; $\varrho(x, y)$ is called the distance from $x$ to $y$, and the pair $(X, \varrho)$ is called a metric space. When no confusion seems possible, we will refer to $X$ as a metric space.
+
+(6.13) Examples. (a) Let $n$ be a positive integer, let $X = R^n$ or $K
+
+(e) Let $D = \{z \in K : |z| \leq 1\}$ be the closed unit disk in the complex plane. For $z, w \in D$ define
+
+$$\varrho(z, w) = \begin{cases} |z - w| & \text{if } \arg(z) = \arg(w) \text{ or one of } z \text{ and } w \text{ is zero}, \\ |z| + |w| & \text{otherwise.} \end{cases}$$
+
+Then $(D, \varrho)$ is a metric space. This space is called the "French railroad space" or the "Washington D. C. space". A picture should be sketched to appreciate the reasons for these names. Actually this rather artificial-looking space is [essentially] a certain closed subset of the closed unit ball in a Hilbert space of dimension $c$. See (16.54) infra.

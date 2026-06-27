@@ -1,0 +1,23 @@
+id: simultaneous-triangularization-commutative-matrices
+title_en: "Simultaneous triangularization of commutative matrices over an algebraically closed field"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [commutative-matrices, simultaneous-triangularization, algebraically-closed-field, indecomposable, composition-series]
+depends_on:
+  required: [indecomposable-commutative-set-prime-power, irreducible-commutative-set-irreducible-minimal-polynomial, composition-series, algebraically-closed-field]
+  recommended: [primary-decomposition, invariant-subspace]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "9"
+    pages: ""
+    role_in_book: "Main theorem of the section: canonical form for commutative matrices"
+content_hash: "c3d4e5f6a1b2"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

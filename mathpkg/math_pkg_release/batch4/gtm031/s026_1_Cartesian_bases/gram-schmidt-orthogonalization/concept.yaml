@@ -1,0 +1,23 @@
+id: gram-schmidt-orthogonalization
+title_en: "Gram-Schmidt Orthogonalization Process (E. Schmidt)"
+title_zh: "格拉姆-施密特正交化过程"
+type: theorem
+domain: algebra
+subdomain: euclidean-geometry
+difficulty: intermediate
+tags: [gram-schmidt, orthogonalization, cartesian-basis, euclidean-space, orthonormal]
+depends_on:
+  required: [euclidean-space, cartesian-basis]
+  recommended: [positive-definite-symmetric-scalar-product]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Constructive proof of existence of Cartesian bases for Euclidean spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

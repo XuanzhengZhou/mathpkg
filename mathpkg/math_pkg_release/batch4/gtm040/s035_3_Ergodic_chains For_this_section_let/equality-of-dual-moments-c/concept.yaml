@@ -1,0 +1,23 @@
+id: equality-of-dual-moments-c
+title_en: "Equality of Dual Moment Vectors"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [recurrent-chains, dual-chain, moments, stationary-distribution]
+depends_on:
+  required: [recurrence-time-distribution-duality]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "4"
+    pages: ""
+    role_in_book: "Lemma 9-70 proves that the dual moment vectors coincide: c_0^{(r)} = \hat{c}_0^{(r)}"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

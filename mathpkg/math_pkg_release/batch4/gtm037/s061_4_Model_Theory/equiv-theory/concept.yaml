@@ -1,0 +1,23 @@
+id: equiv-theory
+title_en: "Theory of One Equivalence Relation and m-Basic Models"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [equivalence-relation, axiom, m-basic-model, decidability, dana-scott]
+depends_on:
+  required: [equivalence-relation, logical-consequence, first-order-theory]
+  recommended: [m-elementary-extension, decidability]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "21"
+    section: "4"
+    pages: ""
+    role_in_book: "Example theory to demonstrate m-elementary extension method for decidability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

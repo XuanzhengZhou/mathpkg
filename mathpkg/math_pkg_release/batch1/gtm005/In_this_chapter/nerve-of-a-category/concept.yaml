@@ -1,0 +1,23 @@
+id: nerve-of-a-category
+title_en: "Nerve of a Category"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [nerve, simplicial-set, category, composable-arrows, face-operators, degeneracy-operators]
+depends_on:
+  required: [category]
+  recommended: [simplicial-set, pullback]
+  suggested: [classifying-space, geometric-realization]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XII"
+    section: "In this chapter"
+    pages: "281-285"
+    role_in_book: "Chapter introduction defining the nerve of a category as a simplicial set of composable arrow strings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

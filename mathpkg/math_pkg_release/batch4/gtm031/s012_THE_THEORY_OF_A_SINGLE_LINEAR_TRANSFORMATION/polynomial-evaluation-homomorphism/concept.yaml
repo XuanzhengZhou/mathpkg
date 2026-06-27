@@ -1,0 +1,23 @@
+id: polynomial-evaluation-homomorphism
+title_en: "Polynomial Evaluation Homomorphism into the Algebra of Linear Transformations"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [polynomial-ring, homomorphism, linear-transformation, evaluation-map]
+depends_on:
+  required: [algebra-of-linear-transformations-over-field, powers-of-linear-transformation-span-finite-dimensional-subspace]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "III"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the canonical homomorphism from the polynomial ring into the algebra of linear transformations by evaluating polynomials at a given linear transformation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

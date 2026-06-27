@@ -1,0 +1,23 @@
+id: half-period-values-e1-e2-e3
+title_en: "Half-period values e_1, e_2, e_3 of the Weierstrass ℘ function"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: ["weierstrass-p", "elliptic-functions", "half-periods", "roots", "cubic"]
+depends_on:
+  required: ["weierstrass-p-function", "periodic-lattice"]
+  recommended: ["weierstrass-p-differential-equation"]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "1"
+    section: "1.10"
+    pages: ""
+    role_in_book: "Defines the values of ℘ at the three non-zero half-periods; these are the roots of the cubic 4x^3 - g_2 x - g_3"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

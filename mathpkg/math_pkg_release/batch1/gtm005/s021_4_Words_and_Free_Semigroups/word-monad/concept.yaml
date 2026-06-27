@@ -1,0 +1,23 @@
+id: word-monad
+title_en: "Word Monad on Set"
+title_zh: "集合上的单词单子"
+type: definition
+domain: algebra
+subdomain: monads
+difficulty: intermediate
+tags: [word-monad, free-semigroup, monad, semigroup, adjunction]
+depends_on:
+  required: [monad, free-semigroup]
+  recommended: [forgetful-functor, adjunction]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "4. Words and Free Semigroups"
+    pages: ""
+    role_in_book: "Defines the word monad (W, η, μ) on Set arising from the free semigroup adjunction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

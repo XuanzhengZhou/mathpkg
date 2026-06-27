@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "1"
+section: "2"
+exercise_number: 12
+---
+
+Let $\Lambda = (V, f, E)$ have selection $

@@ -1,0 +1,23 @@
+id: vector-topology-from-local-base
+title_en: "Theorem 5.1: A Local Base Determines a Vector Topology"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: ["local-base", "vector-topology", "theorem-5-1"]
+depends_on:
+  required: ["local-base", "linear-topological-space"]
+  recommended: ["filter-base"]
+  suggested: ["hausdorff-topology"]
+source_books:
+  - book_id: "gtm036"
+    author: "Kelley, J.L. and Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "5"
+    section: "1"
+    pages: ""
+    role_in_book: "Gives sufficient conditions for a filter base to generate a vector topology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

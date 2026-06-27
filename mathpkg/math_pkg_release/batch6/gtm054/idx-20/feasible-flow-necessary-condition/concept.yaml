@@ -1,0 +1,23 @@
+id: feasible-flow-necessary-condition
+title_en: "Necessary Condition for Existence of a Feasible Flow (G5)"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: network-flows
+difficulty: intermediate
+tags: [network, flow, feasible, necessary-condition, doubly-capacitated]
+depends_on:
+  required: [feasible-flow-doubly-capacitated, feasible-flow-cut-bound]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "IV"
+    section: "G"
+    pages: ""
+    role_in_book: "Gives a necessary condition for a doubly-capacitated network to admit any feasible flow"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

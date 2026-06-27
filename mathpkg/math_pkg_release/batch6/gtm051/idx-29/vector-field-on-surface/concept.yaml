@@ -1,0 +1,23 @@
+id: vector-field-on-surface
+title_en: "Vector Field on a Differentiable Surface"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [vector-field, differentiable-manifold, tangent-bundle, section]
+depends_on:
+  required: [tangent-bundle-of-surface, differentiable-surface]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.5"
+    pages: "118-119"
+    role_in_book: "Definition 5.5.7 — formal definition of a vector field as a smooth section of the tangent bundle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

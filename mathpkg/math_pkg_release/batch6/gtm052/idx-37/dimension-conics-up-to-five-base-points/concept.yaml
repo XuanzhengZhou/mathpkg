@@ -1,0 +1,13 @@
+id: dimension-conics-up-to-five-base-points
+title_en: "Dimension of Linear System of Conics with up to Five Base Points"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: algebraic-surfaces
+difficulty: basic
+tags: [linear-systems, conics, dimension-count, base-points]
+depends_on: {required: [conics-four-points-no-unassigned-base-points], recommended: [linear-system-assigned-base-points], suggested: []}
+source_books: [{book_id: "gtm052", author: "Robin Hartshorne", title: "Algebraic Geometry", chapter: "V", section: "4", pages: "", role_in_book: "Corollary 4.2: dimension of |2H - P_1 - ... - P_r| for r <= 5"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

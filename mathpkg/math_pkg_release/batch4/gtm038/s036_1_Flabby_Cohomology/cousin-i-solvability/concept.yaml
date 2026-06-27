@@ -1,0 +1,23 @@
+id: cousin-i-solvability
+title_en: "Cousin I Distribution Solvability Criterion"
+title_zh: "库赞 I 分布可解性准则"
+type: theorem
+domain: analysis
+subdomain: several-complex-variables
+difficulty: intermediate
+tags: ["Cousin problem", "Čech cohomology", "cocycle", "coboundary"]
+depends_on:
+  required: ["cousin-i-distribution", "cech-coboundary-operator", "cocycle", "coboundary"]
+  recommended: ["structure-sheaf", "sheaf-cohomology"]
+  suggested: ["cousin-ii-problem", "stein-manifold"]
+source_books:
+  - book_id: "gtm038"
+    author: "Raghavan Narasimhan"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Characterizes solvability of Cousin I via vanishing Čech cohomology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

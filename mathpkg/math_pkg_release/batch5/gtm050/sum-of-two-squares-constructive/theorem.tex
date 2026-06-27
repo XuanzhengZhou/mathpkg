@@ -1,0 +1,7 @@
+Given a prime $p \equiv 1 \pmod{4}$, there is a constructive algorithm to find integers $a, b$ such that $p = a^2 + b^2$:
+\begin{enumerate}
+\item Find an integer $c$ such that $c^2 \equiv -1 \pmod{p}$.
+\item Compute $c^2 + 1 = kp$; this gives $c^2 + 1^2 = kp$ with $k < p$.
+\item Use the division algorithm to reduce $k$: write $c = qk + r$ with $|r| \leq k/2$, then $r^2 + 1^2 = kk'$ with $k' < k$.
+\item Repeat until $k = 1$, at which point the representation $p = a^2 + b^2$ is obtained by back-substitution.
+\end{enumerate}

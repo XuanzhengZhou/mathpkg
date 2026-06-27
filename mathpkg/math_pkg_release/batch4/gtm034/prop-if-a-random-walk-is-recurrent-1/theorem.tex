@@ -1,0 +1,28 @@
+If a random walk is recurrent and $x \in R^+$, then also $-x \in R^+$. Further $R^+ = \bar{R}$ and
+
+$$F(0,x) = 1 \text{ for all } x \in \bar{R},$$
+$$F(0,x) = 0 \text{ for all } x \in R - \bar{R}.$$
+
+Proof: We shall work with the special case
+
+$$\sum_{t \in R} P(x,t)F(t,0) = F(x,0), \quad x \in R$$
+
+of P4(b). It follows that
+
+$$\sum_{t \in R} P_2(x,t)F(t,0) = \sum_{t \in R} P(x,t)F(t,0),$$
+
+and by further iterations of the transition operator $P(x,y)$
+
+$$\sum_{t \in R} P_m(x,t)F(t,0) = F(x,0), \quad m \geq 0, \quad x \in R.$$
+
+Now we take a fixed $x_0 \in R^+$, in order to prove that $F(x_0,0) = 1$. This is done by setting $x = 0$ in the last equation, giving
+
+$$\sum_{t \in R} P_m(0,t)F(t,0) = F(0,0) = F = 1.$$
+
+Since $x_0 \in R^+$, we may select $m_0 \geq 0$ such that $P_{m_0}(0,x_0) > 0$. Then
+
+$$1 = P_{m_0}(0,x_0)F(x_0,0) + \sum_{t \neq x_0} P_{m_0}(0,t)F(t,0)$$
+$$\leq P_{m_0}(0,x_0)F(x_0,0) + \sum_{t \neq x_0} P_{m_0}(0,t)$$
+$$=
+
+Before summarizing the results of P2 through P5, it is convenient to simplify matters by focusing attention on the set $\bar{R}$. If $R = \bar{R}$, then the statement in P5 that $R^+ = \bar{R}$ reduces to $R^+ = R$. But even in the transient case that part of $R$ which is not in $\bar{R}$ is quite irrelevant in the following sense. One could always imbed $R$ in a larger group of dimension $d + 1$ without affecting the random walk in the least. So we shall make the definition$^3$

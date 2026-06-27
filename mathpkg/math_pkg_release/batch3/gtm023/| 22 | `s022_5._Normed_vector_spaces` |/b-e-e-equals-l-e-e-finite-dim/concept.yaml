@@ -1,0 +1,23 @@
+id: b-e-e-equals-l-e-e-finite-dim
+title_en: "In a Finite-Dimensional Normed Space, Every Linear Transformation is Bounded"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [finite-dimension, normed-space, bounded-operator, L(E,E), B(E,E), operator-norm]
+depends_on:
+  required: [finite-dim-linear-function-continuous, bounded-linear-transformation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VII"
+    section: "5 (unnumbered, after 7.21)"
+    pages: ""
+    role_in_book: "core"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

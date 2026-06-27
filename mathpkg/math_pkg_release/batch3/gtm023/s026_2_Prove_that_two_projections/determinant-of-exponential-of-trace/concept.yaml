@@ -1,0 +1,23 @@
+id: determinant-of-exponential-of-trace
+title_en: "Determinant Formula for φ(t)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: linear-algebra
+difficulty: advanced
+tags: [determinant, trace, exponential, differential-equation]
+depends_on:
+  required: [determinant, trace, picard-iteration-for-linear-differential-equations]
+  recommended: [jacobi-formula]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: ""
+    title: "Linear Algebra"
+    chapter: "8"
+    section: "8.28"
+    pages: ""
+    role_in_book: "Proves det φ(t) = exp(∫ tr ψ(t) dt)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

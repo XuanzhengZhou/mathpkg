@@ -1,0 +1,23 @@
+id: logical-axiom-set-recursive
+title_en: "Recursiveness of the Set of Logical Axioms (Proposition 10.25)"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: first-order-logic
+difficulty: intermediate
+tags: [logical-axioms, recursive-set, godel-numbering, first-order-logic, decidability]
+depends_on:
+  required: []
+  recommended: [logical-axiom, godel-numbering, recursion-on-formulas]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.2"
+    pages: ""
+    role_in_book: "Establishes that the set of Godel numbers of logical axioms is recursive, ensuring proofs can be effectively checked"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

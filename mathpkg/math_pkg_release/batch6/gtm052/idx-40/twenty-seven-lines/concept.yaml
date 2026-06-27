@@ -1,0 +1,23 @@
+id: twenty-seven-lines
+title_en: "The Twenty-Seven Lines on a Cubic Surface"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [cubic-surface, lines-on-surfaces, exceptional-curves, classical-geometry]
+depends_on:
+  required: [cubic-surface, blowing-up, properties-of-curves-on-cubic-surface, curve-class-on-blown-up-plane]
+  recommended: [intersection-theory, self-intersection]
+  suggested: [schlafli-double-six, classical-projective-geometry]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Theorem 4.9; the famous 27 lines theorem for cubic surfaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

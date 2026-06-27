@@ -1,0 +1,23 @@
+id: eisenstein-series-modular-form
+title_en: "Eisenstein Series as a Modular Form"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: ["eisenstein-series", "modular-form", "weight", "zeta-function", "holomorphic"]
+depends_on:
+  required: ["modular-form-definition", "weak-modularity-conditions"]
+  recommended: ["riemann-zeta-function", "absolute-convergence"]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Shows that Eisenstein series provide the first nontrivial examples of modular forms."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

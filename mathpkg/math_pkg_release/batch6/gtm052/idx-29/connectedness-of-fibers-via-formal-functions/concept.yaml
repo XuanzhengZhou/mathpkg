@@ -1,0 +1,23 @@
+id: connectedness-of-fibers-via-formal-functions
+title_en: "Characterization of connected fibres via formal functions"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [connected-fibre, formal-functions, zariski-connectedness, projective-morphism, structure-sheaf]
+depends_on:
+  required: [theorem-on-formal-functions, projective-morphism, coherent-sheaf, noetherian-scheme]
+  recommended: [direct-image-sheaf, completion-of-local-ring, connected-component]
+  suggested: [zariskis-main-theorem, stein-factorization]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "11"
+    pages: "page_0294–page_0298"
+    role_in_book: "Corollary 11.3; key step toward Zariski's Main Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

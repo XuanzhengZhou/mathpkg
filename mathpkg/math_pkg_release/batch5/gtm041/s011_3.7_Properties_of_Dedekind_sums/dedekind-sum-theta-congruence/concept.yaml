@@ -1,0 +1,23 @@
+id: dedekind-sum-theta-congruence
+title_en: "Congruence relation for Dedekind sums with theta = (3,k)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [dedekind-sums, congruence, theta-function]
+depends_on:
+  required: [dedekind-sums, dedekind-sum-reciprocity-law]
+  recommended: [dedekind-sum-symmetry]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "3"
+    section: "3.7"
+    pages: ""
+    role_in_book: "Theorem 3.8: Congruence properties of Dedekind sums modulo theta*k"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

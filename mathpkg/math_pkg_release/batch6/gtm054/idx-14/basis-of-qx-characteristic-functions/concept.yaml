@@ -1,0 +1,23 @@
+id: basis-of-qx-characteristic-functions
+title_en: "Basis of Q^X via Singleton Characteristic Functions"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [basis, characteristic-function, function-algebra, vector-space]
+depends_on:
+  required: [characteristic-function-in-qx, rational-function-algebra-over-set]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm054
+  author: "Jack E. Graver, Mark E. Watkins"
+  title: "Combinatorics with Emphasis on the Theory of Graphs"
+  chapter: "IV"
+  section: "A (Algebraic Preliminaries)"
+  pages: "108-111"
+  role_in_book: "Establishes that {c_x : x in X} is a basis for the vector space Q^X"
+content_hash: "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

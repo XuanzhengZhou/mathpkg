@@ -1,0 +1,14 @@
+id: schurs-lemma
+title_en: "Schur's Lemma"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [schurs-lemma, irreducible, endomorphisms, division-ring, commutant]
+depends_on: {required: [], recommended: [irreducible-set-endomorphisms, endomorphism], suggested: [jacobson-density-theorem]}
+source_books:
+  - {book_id: "gtm031", author: "Nathan Jacobson", title: "Lectures in Abstract Algebra II: Linear Algebra", chapter: "IX", section: "13", pages: "", role_in_book: "Fundamental lemma establishing the division ring structure of the commutant of an irreducible set of endomorphisms, the first step in the Density Theorem"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

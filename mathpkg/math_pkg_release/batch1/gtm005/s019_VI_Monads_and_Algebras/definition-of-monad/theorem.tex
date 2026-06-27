@@ -1,0 +1,24 @@
+A \textbf{monad} $T = \langle T, \eta, \mu \rangle$ in a category $X$ consists of
+a functor $T: X \to X$ and two natural transformations
+$$\eta: I_X \to T, \qquad \mu: T^2 \to T$$
+which make the following diagrams commute:
+
+\[
+\begin{CD}
+T^3 @>{T\mu}>> T^2 \\
+@V{\mu T}VV @VV{\mu}V \\
+T^2 @>>{\mu}> T
+\end{CD}
+\qquad
+\begin{CD}
+T @>{T\eta}>> T^2 @<{\eta T}<< T \\
+@| @VV{\mu}V @| \\
+T @= T @= T
+\end{CD}
+\]
+
+The natural transformation $\eta$ is called the \textbf{unit} and $\mu$ the \textbf{multiplication} of the monad.
+The first diagram expresses the \textbf{associative law}, while the second diagram expresses the
+\textbf{left and right unit laws}. All told, a monad in $X$ is a monoid in the category of endofunctors of $X$,
+with the cartesian product $\times$ replaced by composition of endofunctors and the unit object replaced
+by the identity endofunctor.

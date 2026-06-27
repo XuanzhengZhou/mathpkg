@@ -1,0 +1,23 @@
+id: homotopy-group-isomorphism-theta
+title_en: "Isomorphism Between Homotopy Groups of Map Spaces and Spheres"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: homotopy-theory
+difficulty: advanced
+tags: [homotopy-group, mapping-space, sphere, loop-space, isomorphism, fibre-homotopy]
+depends_on:
+  required: [homotopy-group, sphere]
+  recommended: [mapping-space, loop-space, homotopy-equivalence]
+  suggested: [j-x-subgroup-of-k-top]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "6"
+    pages: "240"
+    role_in_book: "Explicit description of the isomorphism relating homotopy groups of mapping spaces to homotopy groups of spheres"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: reduced-k-of-even-sphere
+title_en: "Reduced K-Theory of Even-Dimensional Spheres"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: k-theory
+difficulty: intermediate
+tags: [k-theory, sphere, adams-operations, reduced-k-theory, bott-periodicity]
+depends_on:
+  required: [adams-operations-ring-morphisms]
+  recommended: [reduced-k-theory, bott-periodicity, exterior-power]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "11"
+    section: "11. (Continuation of ψ-operations section)"
+    pages: "page_0199.json–page_0202.json"
+    role_in_book: "Computes the K-theory of even spheres using Adams operations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

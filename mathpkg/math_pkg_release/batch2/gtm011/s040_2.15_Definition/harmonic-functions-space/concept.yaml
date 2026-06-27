@@ -1,0 +1,23 @@
+id: harmonic-functions-space
+title_en: "The Space Har(G) of Harmonic Functions"
+title_zh: "调和函数空间 Har(G)"
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [harmonic-functions, function-spaces, uniform-convergence]
+depends_on:
+  required: []
+  recommended: [harmonic-function, continuous-functions-space]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "2.15"
+    pages: ""
+    role_in_book: "Defines the metric space of harmonic functions on an open set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: baire-theorem
+title_en: "Baire Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: baire-category
+difficulty: intermediate
+tags: [baire-category, complete-metric, pseudo-metric, second-category, nowhere-dense]
+depends_on:
+  required: [first-category-set, complete-metric-space, nowhere-dense]
+  recommended: [interior, closed-sphere, pseudo-metric]
+  suggested: [compact-subset-second-category, condensation-theorem]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley"
+    title: "Linear Topological Spaces"
+    chapter: "9"
+    section: "9.2"
+    pages: ""
+    role_in_book: "Fundamental existence theorem for second category sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

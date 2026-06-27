@@ -1,0 +1,23 @@
+id: normalized-matrix-bijection
+title_en: "Bijective Correspondence between Normalized Matrices and Endomorphisms"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [normalized-matrix, endomorphism, bijection, principal-ideal-domain]
+depends_on:
+  required: [normalized-matrix-explicit-form, matrix-endomorphism-homomorphism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "3"
+    section: "16"
+    pages: ""
+    role_in_book: "Establishes a 1-1 correspondence between normalized matrices in U and endomorphisms in B"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

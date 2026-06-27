@@ -1,0 +1,11 @@
+Let $V$ and $W$ be finite-dimensional real vector spaces. Define
+$$
+L^r(V, W) = \{ A \in \operatorname{Hom}(V, W) \mid \operatorname{corank}(A) = r \},
+$$
+the set of linear maps from $V$ to $W$ whose corank (dimension of cokernel) equals $r$.
+
+Let $s = \dim V - r$ and let $G(s, V)$ be the Grassmannian of $s$-dimensional subspaces of $V$. Let $Q \to G(s, V)$ be the universal quotient bundle, whose fiber at $K \in G(s, V)$ is $V/K$. There is a natural identification
+$$
+L^r(V, W) \cong \{ (K, A) \mid K \in G(s, V),\; A \in L^0(V/K, W) \},
+$$
+where $L^0(V/K, W) \cong \operatorname{GL}(V/K, W)$ is the set of injective linear maps. This identification endows $L^r(V, W)$ with the structure of a smooth manifold via its description as the total space of a fiber bundle over $G(s, V)$ with fiber $\operatorname{GL}(V/K, W)$.

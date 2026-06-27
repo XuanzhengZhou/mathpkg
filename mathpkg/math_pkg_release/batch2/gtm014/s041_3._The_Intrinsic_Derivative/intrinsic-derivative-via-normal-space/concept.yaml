@@ -1,0 +1,23 @@
+id: intrinsic-derivative-via-normal-space
+title_en: "Intrinsic Derivative via Normal Space"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: ["intrinsic-derivative", "normal-space", "l-r-space", "vector-bundle-homomorphism"]
+depends_on:
+  required: ["intrinsic-derivative", "l-r-space", "normal-space"]
+  recommended: ["vector-bundle-homomorphism"]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky, Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "3"
+    pages: ""
+    role_in_book: "Equivalence of two definitions of the intrinsic derivative; links the pedestrian trivialization-based definition to the invariant normal-space formulation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

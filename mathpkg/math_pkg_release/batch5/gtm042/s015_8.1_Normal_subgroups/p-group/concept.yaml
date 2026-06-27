@@ -1,0 +1,23 @@
+id: p-group
+title_en: "p-group"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [p-group, finite-group, prime-power-order]
+depends_on:
+  required: [group, order-of-group]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "8"
+    section: "8.3"
+    pages: ""
+    role_in_book: "Background definition; p-groups are important in representation theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: one-parameter-group-from-differential-equation
+title_en: "1-Parameter Group from a Linear Differential Equation"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: linear-algebra
+difficulty: advanced
+tags: [one-parameter-group, differential-equation, exponential]
+depends_on:
+  required: [one-parameter-group-of-linear-automorphisms, picard-iteration-for-linear-differential-equations]
+  recommended: [uniqueness-of-solution-linear-differential-equation]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: ""
+    title: "Linear Algebra"
+    chapter: "8"
+    section: "8.30"
+    pages: ""
+    role_in_book: "Shows that the solution to φ̇ = ψ ∘ φ with φ(0)=ι is a 1-parameter group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

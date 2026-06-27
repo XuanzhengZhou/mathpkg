@@ -1,0 +1,23 @@
+id: umbilic-point
+title_en: "Umbilic point of a surface"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: basic
+tags: [umbilic-point, principal-curvatures, surface-theory]
+depends_on:
+  required: [principal-curvatures]
+  recommended: [gauss-curvature-and-mean-curvature]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines points where the two principal curvatures coincide"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

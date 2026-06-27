@@ -1,0 +1,23 @@
+id: symmetric-difference
+title_en: "Symmetric Difference of Sets"
+title_zh: "集合的对称差"
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [set-theory, symmetric-difference, boolean-ring]
+depends_on:
+  required: [set-difference, union-of-class]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "I"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines symmetric difference, which gives rings their Boolean ring structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

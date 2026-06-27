@@ -1,0 +1,14 @@
+Given a monad $\langle T, \eta, \mu \rangle$ in a category $X$, define new objects $x_T$ for each $x \in X$ and new arrows $f^\flat : x_T \to y_T$ for each arrow $f : x \to Ty$ in $X$. These new objects and arrows constitute a category $X_T$ when the composite of $f^\flat : x_T \to y_T$ with $g^\flat : y_T \to z_T$ is defined by
+
+$$g^\flat \circ f^\flat = (\mu_z \circ Tg \circ f)^\flat : x_T \to z_T.$$
+
+The identity arrow on $x_T$ is $(\eta_x)^\flat : x_T \to x_T$. Define functors $F_T : X \to X_T$ and $G_T : X_T \to X$ by
+
+$$F_T x = x_T, \qquad F_T (f : x \to y) = (\eta_y \circ f)^\flat : x_T \to y_T,$$
+$$G_T (x_T) = T x, \qquad G_T (f^\flat : x_T \to y_T) = \mu_y \circ T f : T x \to T y.$$
+
+Then $F_T \dashv G_T$ with bijection
+
+$$X_T(F_T x, y_T) = X_T(x_T, y_T) \cong X(x, T y) = X(x, G_T y_T)$$
+
+natural in $x$ and $y_T$. The unit is $\eta$ and the counit $\varepsilon_T$ is given by $(\varepsilon_T)_{y_T} = (1_{T y})^\flat : (T y)_T \to y_T$. The monad defined by this adjunction is exactly $\langle T, \eta, \mu \rangle$.

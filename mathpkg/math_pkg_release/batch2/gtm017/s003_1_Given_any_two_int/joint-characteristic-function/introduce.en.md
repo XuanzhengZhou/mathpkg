@@ -1,0 +1,1 @@
+The joint characteristic function extends the univariate characteristic function to multiple dimensions. It completely characterizes the joint distribution. When variables are independent, it factorizes into the product of marginal characteristic functions, making it convenient for studying sums of independent random variables.

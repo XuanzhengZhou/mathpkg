@@ -1,0 +1,23 @@
+id: finite-ternary-ring-unique-solution-lemma
+title_en: "Unique Solution Lemma for Finite Ternary Rings"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: non-associative-algebra
+difficulty: intermediate
+tags: [finite-ternary-ring, unique-solution, bijection, planar-ternary-ring]
+depends_on:
+  required: [finite-ternary-ring]
+  recommended: [planar-ternary-ring]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "5"
+    section: "4"
+    pages: ""
+    role_in_book: "Technical lemma used in the proof of Theorem 5.5; shows that 'at most one' solution implies 'exactly one' in a finite ternary ring satisfying (D)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,14 @@
+id: jacobson-density-theorem
+title_en: "Jacobson Density Theorem"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [jacobson-density-theorem, irreducible, dense-ring, chevalley-jacobson]
+depends_on: {required: [schurs-lemma, dense-ring-finite-topology, irreducible-set-endomorphisms, k-fold-transitive], recommended: [theorem-6-structure-dense-rings], suggested: []}
+source_books:
+  - {book_id: "gtm031", author: "Nathan Jacobson", title: "Lectures in Abstract Algebra II: Linear Algebra", chapter: "IX", section: "13", pages: "", role_in_book: "The culmination of Chapter IX: every irreducible ring of endomorphisms is a dense ring of linear transformations, establishing the equivalence of the two concepts"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

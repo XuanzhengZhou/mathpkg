@@ -1,0 +1,23 @@
+id: additive-functor-preserves-biproducts
+title_en: "Characterization of Additive Functors via Biproduct Preservation"
+title_zh: "通过保持双积刻画加性函子"
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [ab-category, additive-functor, biproduct, product, coproduct]
+depends_on:
+  required: [additive-functor, biproduct-characterization]
+  recommended: [iterated-biproduct]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VIII. Abelian Categories"
+    section: "2. Additive Categories"
+    pages: ""
+    role_in_book: "Proposition 4 — a functor is additive iff it preserves binary biproducts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

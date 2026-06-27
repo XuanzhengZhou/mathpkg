@@ -1,0 +1,23 @@
+id: existence-of-simple-extension-for-irreducible-polynomial
+title_en: "Theorem 3': Existence of a Simple Extension for an Irreducible Polynomial"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: field-theory
+difficulty: intermediate
+tags: [simple-extension, irreducible-polynomial, existence, field-construction, quotient-ring]
+depends_on:
+  required: [structure-of-simple-algebraic-extension, k-isomorphism-of-simple-extensions-same-minimal-polynomial]
+  recommended: [quotient-ring, factor-ring]
+  suggested: [kronecker-construction]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Volume I"
+    chapter: "II"
+    section: "1"
+    pages: ""
+    role_in_book: "Constructive existence theorem showing every irreducible polynomial yields an extension field"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

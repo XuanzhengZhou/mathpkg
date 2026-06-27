@@ -1,0 +1,14 @@
+id: algorithmic-function
+title_en: "Algorithmic Function (Markov Computable)"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [algorithmic-function, Markov-computable, word-encoding, Markov-algorithm]
+depends_on: {required: [markov-algorithm], recommended: [], suggested: [turing-computable]}
+source_books:
+  - {book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "4. Recursive Function Theory", section: "4.1", pages: "", role_in_book: "Defines what it means for a function to be computed by a Markov algorithm"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

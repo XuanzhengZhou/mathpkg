@@ -1,0 +1,23 @@
+id: compactible-theory
+title_en: "Compactible theory via theory map from beta"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: universal-algebra
+difficulty: advanced
+tags: [compactible-theory, theory-map, beta, compact-hausdorff, enveloping-monoid]
+depends_on:
+  required: [enveloping-monoid]
+  recommended: [theory-map, compact-hausdorff, birkhoff-subcategory]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "4"
+    section: "1"
+    pages: ""
+    role_in_book: "Proposition 1.15; gives a sufficient condition for a theory to be compactible"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

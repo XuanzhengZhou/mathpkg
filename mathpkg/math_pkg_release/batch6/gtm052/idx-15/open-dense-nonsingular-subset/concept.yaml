@@ -1,0 +1,23 @@
+id: open-dense-nonsingular-subset
+title_en: "Existence of an Open Dense Nonsingular Subset"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [nonsingular, open-dense, generic-smoothness, separably-generated]
+depends_on:
+  required: [nonsingular-variety, differentials-and-separably-generated-extensions]
+  recommended: [sheaf-of-relative-differentials, function-field]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Corollary 8.16: every variety over k contains an open dense nonsingular subset, reproving (I, 5.3)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

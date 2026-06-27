@@ -1,0 +1,23 @@
+id: algebraic-iff-beck-plus-solution-set-condition
+title_en: "Algebraic Functor Characterization via Beck and Solution Set Condition"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [category-theory, algebraic-functor, beck-functor, solution-set-condition, adjoint-functor-theorem]
+depends_on:
+  required: [algebraic-functor, beck-functor, solution-set-condition, creates-limits, locally-small-category, small-limits]
+  recommended: [cogenerator, well-powered-category]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.21"
+    pages: ""
+    role_in_book: "U is algebraic iff U is Beck and satisfies the solution set condition; if a cogenerator exists, 'Beck' alone suffices"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

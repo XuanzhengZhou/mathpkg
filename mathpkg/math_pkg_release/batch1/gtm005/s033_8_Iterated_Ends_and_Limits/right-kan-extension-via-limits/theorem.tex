@@ -1,0 +1,5 @@
+Let $K: M \to C$ and $T: M \to A$ be functors. If for each $c \in C$, the composite functor
+$$(c \downarrow K) \xrightarrow{Q} M \xrightarrow{T} A$$
+has a limit in $A$, then $T$ has a right Kan extension $\mathrm{Ran}_K T = R$ along $K$, given on objects by
+$$Rc = \lim\big( T Q: (c \downarrow K) \to A \big)$$
+and on arrows $g: c \to c'$ by the unique map $Rg: Rc \to Rc'$ commuting with the limiting cones. Moreover, for each $n \in M$, the component $\varepsilon_n: R(Kn) \to Tn$ is the component $\lambda_{1_{Kn}}$ of the limiting cone, making $\varepsilon: RK \to T$ a natural transformation. The pair $\langle R, \varepsilon \rangle$ is then a right Kan extension of $T$ along $K$.

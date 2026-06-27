@@ -1,0 +1,23 @@
+id: integrally-closed-domain
+title_en: "Integrally Closed Domain"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [integral-closure, domain, quotient-field, integral-dependence]
+depends_on:
+  required: [integral-domain, integral-element]
+  recommended: [integral-closure]
+  suggested: [dedekind-domain]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines integrally closed domains: domains that are equal to their own integral closure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: normability-theorem
+title_en: "Normability Theorem (6.1)"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: linear-topological-spaces
+difficulty: intermediate
+tags: [normability, pseudo-normable, bounded-set, convex-neighborhood, Minkowski-functional, normed-space]
+depends_on:
+  required: [linear-topological-space, bounded-set-definition, pseudo-norm-definition, convex-set, Minkowski-functional]
+  recommended: [Hausdorff-space, normed-space]
+  suggested: [locally-convex-space, bornological-space]
+source_books:
+  - book_id: gtm036
+    author: "Kelley, J. L.; Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "2"
+    section: "6 (Normability, Metrizability, and Embedding; Local Convexity)"
+    pages: ""
+    role_in_book: "The fundamental characterization of pseudo-normable and normable linear topological spaces in terms of bounded convex neighborhoods"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

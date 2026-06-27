@@ -1,0 +1,23 @@
+id: path
+title_en: "Path"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: connectivity
+difficulty: basic
+tags: [path, connectivity, mapping, interval]
+depends_on:
+  required: [topological-space, metric-space]
+  recommended: []
+  suggested: [pathwise-connected-set, arc]
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "1"
+    section: "Connectivity"
+    pages: ""
+    role_in_book: "Fundamental definition for connectivity in polyhedra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

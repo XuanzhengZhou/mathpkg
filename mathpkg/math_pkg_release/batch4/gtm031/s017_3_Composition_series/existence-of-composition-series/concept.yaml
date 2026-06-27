@@ -1,0 +1,23 @@
+id: existence-of-composition-series
+title_en: "Existence of Composition Series"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [composition-series, existence, finite-dimensional, invariant-subspace, linear-transformations]
+depends_on:
+  required: [composition-series-definition, irreducible-over-subspace, invariant-subspace-quotient-correspondence]
+  recommended: [factor-space-induced-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "Chapter III: Sets of Linear Transformations"
+    section: "3. Composition series"
+    pages: "132"
+    role_in_book: "Proving that every finite-dimensional vector space admits a composition series for any set of linear transformations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

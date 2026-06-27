@@ -1,0 +1,23 @@
+id: norm-definition
+title_en: "Norm on a Linear Space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: normed-spaces
+difficulty: basic
+tags: [norm, normed-space, subadditivity, absolute-homogeneity, metric-topology]
+depends_on:
+  required: [linear-space, metric-space]
+  recommended: [functional-analysis, banach-space]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "Kelley, J. L.; Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "2"
+    section: "6 (Normability, Metrizability, and Embedding; Local Convexity)"
+    pages: ""
+    role_in_book: "Defines the notion of a norm, the fundamental structure for normable linear topological spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

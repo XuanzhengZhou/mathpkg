@@ -1,0 +1,13 @@
+id: action-angle-transformation-is-canonical
+title_en: "Canonicality of the action-angle transformation"
+title_zh: "作用量-角变换的正则性"
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: advanced
+tags: [action-angle, canonical-transformation, symplectic-geometry, liouville-integrable, hamiltonian-mechanics]
+depends_on: {required: [], recommended: ["action-variables", "canonical-transformation"], suggested: ["symplectic-manifold", "liouville-integrability"]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"10",section:"50",pages:"",role_in_book:"Proves that the transformation to action-angle variables is a canonical transformation preserving the symplectic structure"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: baire-set-compact-invariant-coset-separable-quotient
+title_en: "Baire Set Coset Decomposition with Separable Quotient"
+title_zh: "Baire 集的陪集分解与可分商群"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [weil-topology, haar-measure, measurable-group, topological-group]
+depends_on:
+  required: [class-a-weil-topology, class-n-weil-neighborhood]
+  recommended: [haar-measure-definition, measurable-group-definition]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "64"
+    section: "Weil Topology"
+    pages: ""
+    role_in_book: "Theorem G: Every Baire set is a union of cosets of a compact invariant subgroup Y such that X/Y is separable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

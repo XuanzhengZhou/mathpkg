@@ -1,0 +1,17 @@
+---
+role: exercise
+locale: en
+chapter: "20"
+section: "20.Exercises"
+exercise_number: 10
+---
+
+Given modules ${}_S N$ and ${}_R W_S$, use the isomorphism
+
+$$(- \otimes_R (W \otimes_S N)) \cong ((- \otimes_R W) \otimes_S N)$$
+
+of Proposition (20.8) to prove:
+(1) ${}_S N$ flat and ${}_R W$ flat implies ${}_R (W \otimes_S N)$ flat.
+(2) ${}_S N$ completely faithful and ${}_R (W \otimes_S N)$ flat implies ${}_R W$ flat.
+(3) ${}_S N$ and ${}_R W$ completely faithful implies ${}_R (W \otimes_S N)$ completely faithful.
+(4) ${}_R (W \otimes_S N)$ completely faithful implies ${}_R W$ completely faithful.

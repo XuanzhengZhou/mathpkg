@@ -1,0 +1,23 @@
+id: idempotent-transition-independent-trials
+title_en: "Idempotence of Transition Matrix for Independent Trials"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: basic
+tags: [markov-chain, independent-trials, idempotent-matrix, transition-matrix]
+depends_on:
+  required: [independent-trials-process]
+  recommended: [stochastic-matrix, matrix-multiplication]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "Kemeny, Snell, Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "7"
+    section: "7. Further examples"
+    pages: ""
+    role_in_book: "Property of the independent trials process transition matrix"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

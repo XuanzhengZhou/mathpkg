@@ -1,0 +1,23 @@
+id: free-theory-algebra
+title_en: "Free K^T-object over K"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [free-object, algebraic-theory, kleisli-category, eilenberg-moore-algebra]
+depends_on:
+  required: [free-object, algebraic-theory]
+  recommended: [functor, category, monad]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "Free Objects"
+    pages: "123-125"
+    role_in_book: "Example 2.3 — free algebra over an object in a Kleisli category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,14 @@
+id: kaplansky-density-theorem
+title_en: "Kaplansky's Density Theorem"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: operator-algebras
+difficulty: advanced
+tags: [kaplansky, density-theorem, von-neumann-algebra, strong-operator-topology, unitary-group]
+depends_on: {required: [von-neumann-bicommutant-theorem, strongly-continuous-functions, involution-strong-continuity-normal-elements, unitary-exponential-von-neumann-algebra], recommended: [], suggested: []}
+source_books:
+  - {book_id: "gtm003", author: "Helmut H. Schaefer", title: "Topological Vector Spaces", chapter: "VI", section: "7", pages: "300-314", role_in_book: "Theorem 7.4 — central density result for von Neumann algebras"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: adjoint-matrix-metric-tensor
+title_en: "Matrix of the Adjoint under Metric Tensors"
+title_zh: "度量张量下伴随映射的矩阵关系"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [adjoint, matrix, metric-tensor, basis, inner-product-space]
+depends_on:
+  required: [adjoint-mapping, metric-tensor]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VIII"
+    section: "§1. The adjoint mapping"
+    pages: ""
+    role_in_book: "General matrix relation between a map and its adjoint"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

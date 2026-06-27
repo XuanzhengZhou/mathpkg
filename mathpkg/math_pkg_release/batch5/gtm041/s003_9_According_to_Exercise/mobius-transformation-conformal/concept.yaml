@@ -1,0 +1,13 @@
+id: mobius-transformation-conformal
+title_en: "Möbius Transformations are Conformal"
+title_zh: "莫比乌斯变换是共形的"
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [mobius-transformation, conformal-mapping, derivative]
+depends_on: {required:["mobius-transformation", "mobius-transformation-derivative"], recommended:[], suggested:["conformal-mapping"]}
+source_books: [{book_id:"gtm041",author:"Tom M. Apostol",title:"Modular Functions and Dirichlet Series in Number Theory",chapter:"2",section:"2.1",pages:"",role_in_book:"Establishes the conformal nature of Möbius transformations"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

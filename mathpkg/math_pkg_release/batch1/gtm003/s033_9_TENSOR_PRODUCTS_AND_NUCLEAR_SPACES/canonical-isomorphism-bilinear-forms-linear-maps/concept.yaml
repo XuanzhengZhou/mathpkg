@@ -1,0 +1,23 @@
+id: canonical-isomorphism-bilinear-forms-linear-maps
+title_en: "Canonical Isomorphism between Bilinear Forms and Linear Maps into Weak Duals"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [bilinear-forms, linear-maps, duality, weak-topology, locally-convex-spaces]
+depends_on:
+  required: []
+  recommended: [separately-continuous-bilinear-form, weak-dual-topology, space-of-continuous-linear-maps]
+  suggested: [equicontinuous-set, projective-tensor-product]
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "Appendix: Tensor Products and Nuclear Spaces"
+    pages: "180-183"
+    role_in_book: "Establishes the fundamental identification between bilinear forms and linear maps with values in weak duals, serving as the bridge to tensor product theory."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

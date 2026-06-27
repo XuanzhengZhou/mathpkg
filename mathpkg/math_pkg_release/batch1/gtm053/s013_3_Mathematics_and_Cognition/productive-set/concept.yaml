@@ -1,0 +1,23 @@
+id: productive-set
+title_en: "Productive Set"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability-theory
+difficulty: advanced
+tags: [productive-set, diagonal-method, godel-incompleteness, arithmetical-truth]
+depends_on:
+  required: [recursively-enumerable-set, versal-family]
+  recommended: [self-reference-lemma, tarski-undefinability-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "III"
+    section: "7"
+    pages: ""
+    role_in_book: "Formalization of Gödel's theorem on productivity of arithmetical truth"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

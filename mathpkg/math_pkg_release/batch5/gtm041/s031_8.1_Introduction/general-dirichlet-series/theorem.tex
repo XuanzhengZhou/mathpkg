@@ -1,0 +1,9 @@
+Let $\{\lambda(n)\}$ be a strictly increasing sequence of real numbers such that $\lambda(n) \to +\infty$ as $n \to \infty$. A series of the form
+$$\sum_{n=1}^{\infty} a(n)e^{-s\lambda(n)}$$
+is called a \emph{general Dirichlet series}. The numbers $\lambda(n)$ are called the \emph{exponents} of the series, and the numbers $a(n)$ are called its \emph{coefficients}.
+
+As usual, we write $s = \sigma + it$ where $\sigma$ and $t$ are real.
+
+\textit{Note.} When $\lambda(n) = \log n$ then $e^{-s\lambda(n)} = n^{-s}$ and we obtain the ordinary Dirichlet series $\sum a(n)n^{-s}$. When $\lambda(n) = n$ the series becomes a power series in $x$, where $x = e^{-s}$.
+
+A general Dirichlet series is analogous to the Laplace transform of a function, $\int_0^\infty f(t)e^{-st}\,dt$. Both Dirichlet series and Laplace transforms are special cases of the Laplace--Stieltjes transform, $\int_0^\infty e^{-st}\,d\alpha(t)$. When $\alpha(t)$ has a continuous derivative $\alpha'(t) = f(t)$ this gives the Laplace transform of $f$. When $\alpha$ is a step function with jump $a(n)$ at the point $\lambda(n)$ the integral becomes the general Dirichlet series $\sum a(n)e^{-s\lambda(n)}$.

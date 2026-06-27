@@ -1,0 +1,23 @@
+id: bornological-inductive-limit
+title_en: "Inductive Limit of Bornological Spaces is Bornological"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [bornological, inductive-limit, locally-convex-space, bounded-set]
+depends_on:
+  required: [bornological-space, inductive-topology, locally-convex-space]
+  recommended: [bounded-set, quotient-space, direct-sum]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "8"
+    section: "8.2"
+    pages: ""
+    role_in_book: "Theorem on inductive limits of bornological spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

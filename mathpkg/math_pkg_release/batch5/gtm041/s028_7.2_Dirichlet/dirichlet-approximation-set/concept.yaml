@@ -1,0 +1,20 @@
+id: dirichlet-approximation-set
+title_en: "Set of Dirichlet Approximations S(theta)"
+title_zh: "狄利克雷逼近集合 S(θ)"
+type: definition
+domain: number-theory
+subdomain: diophantine-approximation
+difficulty: intermediate
+tags: [dirichlet, diophantine-approximation, set-definition, rational-approximation, irrationality-criterion]
+depends_on: {required: [dirichlet-approximation-weak-form], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "7"
+    section: "7.2"
+    pages: ""
+    role_in_book: "Defines the set of good rational approximations for theta"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

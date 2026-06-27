@@ -1,0 +1,23 @@
+id: exercise-2-13
+title_en: "Exercise 2.13: Composition of Turing Machines"
+title_zh: "习题 2.13：图灵机的复合"
+type: exercise
+domain: logic
+subdomain: computability
+difficulty: advanced
+tags: [turing-machine, composition, algorithm, exercise]
+depends_on:
+  required: [turing-machine, computation]
+  recommended: [initial-state, terminal-state]
+  suggested: []
+source_books:
+  - book_id: gtm022
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "9"
+    section: "2"
+    pages: ""
+    role_in_book: "Exercise on composing multiple Turing machines into a single machine executing an algorithm"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

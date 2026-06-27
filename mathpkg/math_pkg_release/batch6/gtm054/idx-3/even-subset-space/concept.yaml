@@ -1,0 +1,23 @@
+id: even-subset-space
+title_en: "The Space of Even-Cardinality Subsets"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: algebraic-combinatorics
+difficulty: intermediate
+tags: [vector-space, power-set, even-subsets, characteristic-function]
+depends_on:
+  required: []
+  recommended: [power-set-vector-space, symmetric-difference]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "2"
+    section: "IIA"
+    pages: "41-48"
+    role_in_book: "Defines the subspace of even-cardinality subsets within the power set vector space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

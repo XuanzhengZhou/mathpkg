@@ -1,0 +1,23 @@
+id: interpretation-map
+title_en: "Interpretation Map"
+title_zh: "解释映射"
+type: definition
+domain: algebra
+subdomain: universal-algebra
+difficulty: intermediate
+tags: [omega-algebra, equation, satisfaction, variety, equational-presentation]
+depends_on:
+  required: [omega-algebra, total-description-map, substitution-of-variables]
+  recommended: [principle-of-finitary-algebraic-general-recursion]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.19"
+    pages: ""
+    role_in_book: "Defines interpretation of terms under variable assignments, satisfaction of equations, and (Ω,E)-algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

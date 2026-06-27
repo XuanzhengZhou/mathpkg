@@ -1,0 +1,23 @@
+id: atomic-partition-degree-bounds
+title_en: "Degree bounds under the atomic partition"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-connectivity
+difficulty: advanced
+tags: [atom, atomic-partition, degree, connectivity]
+depends_on:
+  required: [atomic-partition, atom-of-graph, vertex-connectivity]
+  recommended: [minimum-degree]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "Chapter V"
+    section: "Section 30"
+    pages: ""
+    role_in_book: "Proposition D11: If the atomic partition exists, then 2α ≤ ρ(x) ≤ κ+α-1 for all vertices x."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

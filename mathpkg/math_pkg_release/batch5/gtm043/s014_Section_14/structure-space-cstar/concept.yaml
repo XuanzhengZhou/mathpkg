@@ -1,0 +1,23 @@
+id: structure-space-cstar
+title_en: "Structure Space of C*(X)"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [structure-space, stone-topology, maximal-ideals, stone-cech-compactification]
+depends_on:
+  required: [maximal-ideals-in-cstar, stone-cech-compactification]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "7"
+    section: "14 (7.10)"
+    pages: ""
+    role_in_book: "defines the topological space of maximal ideals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

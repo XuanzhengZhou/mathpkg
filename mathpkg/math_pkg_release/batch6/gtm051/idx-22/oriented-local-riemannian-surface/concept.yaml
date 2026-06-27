@@ -1,0 +1,23 @@
+id: oriented-local-riemannian-surface
+title_en: "Oriented Local Surface with Riemannian Metric"
+title_zh: "带黎曼度量的定向局部曲面"
+type: definition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [riemannian-surface, orientation, equivalence-class, intrinsic-geometry]
+depends_on:
+  required: [positively-equivalent-riemannian-metrics, local-riemannian-surface]
+  recommended: [orientation-of-surface]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Defines oriented local Riemannian surface as a positive isometry class"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

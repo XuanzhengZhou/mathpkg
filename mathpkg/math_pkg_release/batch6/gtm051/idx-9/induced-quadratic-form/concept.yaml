@@ -1,0 +1,23 @@
+id: induced-quadratic-form
+title_en: "Induced Quadratic Form"
+title_zh: "诱导二次型"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [quadratic-form, pullback, linear-map, induced-form]
+depends_on:
+  required: [quadratic-form]
+  recommended: [linear-map, injective-map]
+  suggested: []
+source_books:
+  - book_id: gtm051
+    author: "Manfredo P. do Carmo"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.2"
+    pages: "3.2.1"
+    role_in_book: "The mechanism by which the first fundamental form is induced from the Euclidean inner product"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

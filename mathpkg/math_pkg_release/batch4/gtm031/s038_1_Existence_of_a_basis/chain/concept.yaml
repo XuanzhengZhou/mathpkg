@@ -1,0 +1,23 @@
+id: chain
+title_en: "Chain (Linearly Ordered Set)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [chain, linear-order, total-order, partial-order]
+depends_on:
+  required: [partially-ordered-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "A chain (linearly ordered set) is a partially ordered set in which any two elements are comparable."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,37 @@
+For $d$-dimensional aperiodic random walk, $d \geq 1$, with characteristic function $\phi(\theta)$ there exists a constant $\lambda > 0$ such that
+
+$$1 - \text{Re} \phi(\theta) \geq \lambda|\theta|^{2}$$
+
+for all $\theta$ in $C$.
+
+Proof: Since $R = \bar
+
+Since $a_k \in \Sigma, k = 1, \ldots, d$, the right-hand side could vanish only if $\theta$ were perpendicular to $a_1, a_2, \ldots, a_d$. This is impossible as they are linearly independent, so $Q_L(\theta)$ is positive definite.
+
+We have
+
+$$\text{Re} [1 - \phi(\theta)] = \sum_{x \in R} [1 - \cos x \cdot \theta] P(0,x)$$
+
+$$= 2 \sum_{x \in R} \sin^2 \left(\frac{x \cdot \theta}{2}\right) P(0,x) \geq 2 \sum_{|z| \leq L} \sin^2 \left(\frac{x \cdot \theta}{2}\right) P(0,x)$$
+
+Since $\left| \sin \frac{x \cdot \theta}{2} \right| \geq \pi^{-1} |x \cdot \theta|$ when $|x \cdot \theta| \leq \pi$,
+
+$$\text{Re} [1 - \phi(\theta)] \geq \frac{2}{\pi^2} \sum_{|z| \leq L} (x \cdot \theta)^2 P(0,x).$$
+
+But under the restriction on $x$ that $|x| \leq L$ we know that $|x \cdot \theta| \leq \pi$ whenever $|\theta| \leq \pi L^{-1}$. Therefore
+
+$$\text{Re} [1 - \phi(\theta)] \geq \frac{2}{\pi^2} \sum_{|z| \leq L} (x \cdot \theta)^2 P(0,x) = \frac{2}{\pi^2} Q_L(\theta)$$
+
+for all $\theta$ such that $|\theta| \leq \pi L^{-1}$. If $\lambda_1$ is the smallest eigenvalue of $Q_L(\theta)$, then P4 yields
+
+(1) $$1 - \text{Re} \phi(\theta) \geq \frac{2}{\pi^2} \lambda_1 |\theta|^2 \text{ for } |\theta| \leq \pi L^{-1}.$$
+
+asymptotic behavior of the transition function $P_n(0,x)$ as $n \to \infty$. The simplest statements of this type would be
+
+(1) $\lim_{n \to \infty} P_n(0,0) = 0$, when $P(0,0) \neq 1$,
+
+and a slightly more sophisticated version, namely
+
+(2) $\lim_{n \to \infty} \sup_{x \in R} P_n(0,x) = 0$,
+
+the latter being correct in all cases except when $P(0,x) = 1$ for some $x \in R$. Note that even (1), although obvious for transient random walk, is not too easy to prove in the recurrent case, say by the methods of Chapter I. But, using Fourier analytical devices, we shall be able to obtain even sharper results than (2), in the form of an upper bound on the supremum in (2) which will depend on the dimension $d$ of the random walk. Since the dimension is the crucial thing, but not aperiodicity, it will be useful to state

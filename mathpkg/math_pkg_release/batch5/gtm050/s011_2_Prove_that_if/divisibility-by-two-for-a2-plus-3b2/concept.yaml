@@ -1,0 +1,23 @@
+id: divisibility-by-two-for-a2-plus-3b2
+title_en: "Divisibility by 2 for Numbers of the Form a^2 + 3b^2"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: intermediate
+tags: [quadratic-forms, a2-plus-3b2, divisibility-by-2, euler]
+depends_on:
+  required: [product-identity-a2-plus-3b2]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.4"
+    pages: ""
+    role_in_book: "Statement (2'): handles the special role of the prime 2 in the representation theory of a^2+3b^2, which differs from the a^2+b^2 case"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

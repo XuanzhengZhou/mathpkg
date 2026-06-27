@@ -1,0 +1,35 @@
+If an arbitrary random walk has
+
+$$m = \sum_{x \in R} |x| P(0,x) < \infty,$$
+
+$$\mu = \sum_{x \in R} xP(0,x),$$
+
+then the sequence of random variables $S_n = X_1 + \cdots + X_n$ has the property that
+
+$$P\left[ \lim_{n \to \infty} \frac{S_n}{n} = \mu \right] = 1.$$
+
+Remark: (a) The theorem makes perfectly good sense, and is even true, for arbitrary random walk in dimension $d \geq 1$. When $d > 1$ the mean $\mu$ is a vector and so are the random variables $S_n$. However, we shall use only P4 when $d = 1$.
+
+(b) It is easy to show that the set
+
+$$\left[ \omega \mid \lim_{n \to \infty} \frac{S_n(\omega)}{n} = \mu \right] \in \mathcal{F},$$
+
+by representing it in terms of a countable number of cylinder sets of the form $[\omega \mid |S_n(\omega) - n\mu| > r]$, where $r$ may be any positive rational number.
+
+Our immediate goal is the proof of the sufficient condition for one-dimensional random walk to be transient, which was discussed at the end of section 2, and which served as motivation for introducing measure theory. For this purpose the following seemingly (not actually) weak version of P4 will suffice. We shall assume that $\mu \neq 0$, let
+
+$$C_n = \left[ \omega \mid \left| \frac{S_n}{n} - \mu \right| > \frac{|\mu|}{2} \right],$$
+
+and observe that P4 implies
+
+$$P\left[ \lim_{n \to \infty} C_n \right] = 0.$$
+
+8 The first proof, for the case of Bernoulli random walk, is due to Borel [6], 1909. The general version in P4, announced by Kolmogor
+
+Now we let $A_n = [\omega \mid S_n = 0]$, and notice that $C_n$ was defined so that $A_n \subset C_n$ for all $n \geq 1$. Consequently
+
+$$P \left[ \lim_{n \to \infty} A_n \right] = 0.$$
+
+Finally, we refer back to P3 where it was shown that the upper limit of the sequence of sets $A_n$ has measure zero if and only if the underlying random walk is transient.
+
+Hence every random walk with $m < \infty$ and $\mu \neq 0$ is transient! (Our proof is perfectly valid in dimension $d > 1$.) Combining this fact, when $d = 1$, with P2.8, we can assert that

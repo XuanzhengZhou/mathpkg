@@ -1,0 +1,23 @@
+id: characteristic-polynomial-of-matrix
+title_en: "Characteristic Polynomial of a Matrix"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [characteristic-polynomial, matrix, eigenvalues-of-matrix]
+depends_on:
+  required: [characteristic-polynomial, matrix-of-linear-transformation]
+  recommended: [determinant-of-matrix]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§6. The characteristic polynomial"
+    pages: "4.22"
+    role_in_book: "Defines the characteristic polynomial of a matrix and its eigenvalues"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

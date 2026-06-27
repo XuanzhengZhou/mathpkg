@@ -1,0 +1,23 @@
+id: monosubobject
+title_en: "Monosubobject"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [monosubobject, subobject, monomorphism, partial-order]
+depends_on:
+  required: [monomorphism, isomorphism, category]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.4"
+    pages: ""
+    role_in_book: "Defines the partial order on monomorphisms and the notion of monosubobject as an isomorphism class"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

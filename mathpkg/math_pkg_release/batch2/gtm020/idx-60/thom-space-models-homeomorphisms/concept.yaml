@@ -1,0 +1,23 @@
+id: thom-space-models-homeomorphisms
+title_en: "Restrictions q₁ and q₂ are homeomorphisms inducing Thom space models"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: [thom-space, sphere-bundle, projective-bundle, homeomorphism]
+depends_on:
+  required: [sphere-bundle, projective-bundle-associated-to-vector-bundle, disc-bundle]
+  recommended: [quotient-topology, riemannian-metric-on-vector-bundle]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "1"
+    pages: "page_0232.json–page_0233.json"
+    role_in_book: "Provides alternative models for the Thom space via restrictions of maps between sphere and projective bundles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

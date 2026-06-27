@@ -1,0 +1,23 @@
+id: irreducible-endomorphism-continuous-functions
+title_en: "Peripheral Point Spectrum of Irreducible Endomorphisms on Continuous Functions"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [irreducible-operators, continuous-functions, compact-spaces, peripheral-spectrum, cyclic-spectrum, radon-measures]
+depends_on:
+  required: [irreducible-endomorphism, peripheral-spectrum, compact-space, radon-measure, resolvent]
+  recommended: [positive-endomorphism, spectral-radius, eigenvalue-multiplicity]
+  suggested: [banach-lattice, connected-space]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer, with M. P. Wolff"
+    title: "Topological Vector Spaces, Second Edition"
+    chapter: "Appendix D"
+    section: "3. The Peripheral Point Spectrum"
+    pages: ""
+    role_in_book: "Theorem 3.3 — main structure theorem for irreducible endomorphisms of C(X)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

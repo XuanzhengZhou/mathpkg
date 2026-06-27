@@ -1,0 +1,23 @@
+id: model-existence-with-admissible-functions
+title_en: "Model Existence Theorem with Admissible Functions"
+title_zh: "带容许函数的模型存在定理"
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [model-existence, consistency-family, admissible-functions, henkin-construction, cardinality-bound]
+depends_on:
+  required: [consistency-family, rich-expansion, admissible-functions]
+  recommended: [model-existence-theorem, henkin-construction, compactness-theorem]
+  suggested: [lowenheim-skolem-theorem, completeness-theorem]
+source_books:
+  - book_id: "gtm037"
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "4"
+    section: "Model Theory"
+    pages: ""
+    role_in_book: "Refinement of the Model Existence Theorem incorporating admissible functions to control model cardinality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

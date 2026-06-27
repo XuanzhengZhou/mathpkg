@@ -1,0 +1,30 @@
+id: bolzano-weierstrass-nonstandard
+title_en: "Bolzano–Weierstrass Theorem (Nonstandard Proof)"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags:
+  - nonstandard-analysis
+  - bolzano-weierstrass
+  - limit-point
+  - bounded-sequence
+depends_on:
+  required:
+    - standard-part
+    - limit-nonstandard-characterization
+  recommended:
+    - infinite-nonstandard-real
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "Ebbinghaus, Flum, Thomas"
+    title: "Mathematical Logic"
+    chapter: "Part 4"
+    section: "Model Theory"
+    pages: ""
+    role_in_book: "Proposition 20.7 — standard theorem proved by nonstandard means"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

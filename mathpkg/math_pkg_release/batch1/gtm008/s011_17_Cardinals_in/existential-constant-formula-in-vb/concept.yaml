@@ -1,0 +1,23 @@
+id: existential-constant-formula-in-vb
+title_en: "Existential Quantification over Constants in V^{(B)}"
+title_zh: ""
+type: corollary
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [boolean-valued-universe, constant-function, constructible-set, existential-quantifier]
+depends_on:
+  required: []
+  recommended: [boolean-valued-universe, constructible-universe, constant-function-in-vb]
+  suggested: [theorem-17-8]
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "17"
+    section: "Cardinals in V^{(B)}"
+    pages: ""
+    role_in_book: "Relates the Boolean value of an existential formula over constants to a sum over the constructible universe L"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

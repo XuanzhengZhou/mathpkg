@@ -1,0 +1,23 @@
+id: nuclearity-of-smooth-functions-compact-convergence
+title_en: "Nuclearity of Smooth Functions with Compact Convergence Topology"
+title_zh: "紧收敛拓扑下光滑函数空间的核性"
+type: proposition
+domain: analysis
+subdomain: nuclear-spaces
+difficulty: advanced
+tags: [nuclear-space, smooth-functions, compact-convergence, f-space, e-space]
+depends_on:
+  required: [nuclearity-of-compact-support-test-functions]
+  recommended: [seminorm, compact-set, frechet-space]
+  suggested: [nuclear-f-space]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "8"
+    pages: ""
+    role_in_book: "Example 3; E (C∞ functions on R^k under compact convergence) is a nuclear (F)-space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

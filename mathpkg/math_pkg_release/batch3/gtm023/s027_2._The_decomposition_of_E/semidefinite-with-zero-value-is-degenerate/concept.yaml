@@ -1,0 +1,23 @@
+id: semidefinite-with-zero-value-is-degenerate
+title_en: "Positive Semidefinite with Zero Value Implies Degeneracy"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [bilinear-form, degenerate, schwarz-inequality, positive-semidefinite]
+depends_on:
+  required: [nullspace-of-symmetric-bilinear-function, positive-definite-bilinear-function]
+  recommended: [schwarz-inequality]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "2. The decomposition of E"
+    pages: ""
+    role_in_book: "Shows positive semidefinite forms with a nontrivial zero are degenerate"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

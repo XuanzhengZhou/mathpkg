@@ -1,0 +1,23 @@
+id: incompleteness-of-continuous-functions-under-integral-metric
+title_en: "Incompleteness of (C[a,b], integral metric)"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: metric-spaces
+difficulty: intermediate
+tags: [continuous-functions, integral-metric, incompleteness, l1-metric, counterexample]
+depends_on:
+  required: []
+  recommended: [integral-metric-on-continuous-functions, completeness-of-continuous-functions-under-uniform-metric]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "10"
+    section: "10"
+    pages: ""
+    role_in_book: "Shows that changing the metric can destroy completeness, even on the same underlying set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

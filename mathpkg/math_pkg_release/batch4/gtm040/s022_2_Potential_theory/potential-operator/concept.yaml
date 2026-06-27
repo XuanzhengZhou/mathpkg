@@ -1,0 +1,13 @@
+id: "potential-operator"
+title_en: "Potential operator"
+title_zh: "势算子"
+type: definition
+domain: analysis
+subdomain: potential-theory
+difficulty: basic
+tags: [potential-operator, integral-operator, green-function, charge]
+depends_on: {required:[], recommended:["potential-function"], suggested:[]}
+source_books: [{book_id:"gtm040",author:"J.G. Kemeny, J.L. Snell, A.W. Knapp",title:"Denumerable Markov Chains",chapter:"7",section:"2",pages:"",role_in_book:"Defines the potential operator as the integral transform mapping a charge to its potential"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

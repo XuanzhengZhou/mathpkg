@@ -1,0 +1,23 @@
+id: subtractive-set-function
+title_en: "Subtractive Set Function"
+title_zh: "可减集函数"
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [measure-theory, subtractive]
+depends_on:
+  required: [monotone-set-function]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "II"
+    section: "9"
+    pages: ""
+    role_in_book: "A set function satisfying mu(F-E) = mu(F) - mu(E) when E is a subset of F"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: coleman-homomorphism
+title_en: "Coleman Homomorphism on Local Units"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [coleman-power-series, local-units, p-adic-logarithm]
+depends_on:
+  required: []
+  recommended: [iwasawa-algebra, cyclotomic-extension]
+  suggested: [formal-group-logarithm]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "Iwasawa Theory of Local Units"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the Coleman (Iwasawa) homomorphism mapping local units via the logarithm of the Coleman power series"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+Let $(H', H'')$ be a duality between full subcategories ${}_R \mathcal{C}$ and $\mathcal{D}_S$ of ${}_R \mathcal{M}$ and $\mathcal{M}_S$, with natural isomorphisms $\eta: H''H' \to 1_{{}_R \mathcal{C}}$ and $\zeta: H'H'' \to 1_{\mathcal{D}_S}$. Then for each $M \in {}_R \mathcal{C}$ and $N \in \mathcal{D}_S$ there is a $\mathbb{Z}$-isomorphism
+$$\mu_{MN}: \operatorname{Hom}_S(N, H'(M)) \to \operatorname{Hom}_R(M, H''(N)),$$
+natural in both $M$ and $N$, given by the composition
+$$H''(\ ) \circ \eta_M^{-1}: \operatorname{Hom}_S(N, H'(M)) \to \operatorname{Hom}_R(H''H'(M), H''(N)) \to \operatorname{Hom}_R(M, H''(N)).$$
+There is also an inverse isomorphism
+$$v_{MN}: \operatorname{Hom}_R(M, H''(N)) \to \operatorname{Hom}_S(N, H'(M))$$
+given similarly via $\zeta_N^{-1}$. These satisfy the following relations for all $h: M_2 \to M_1$ in ${}_R \mathcal{C}$, $k: N_1 \to N_2$ in $\mathcal{D}_S$, and $\gamma \in \operatorname{Hom}_S(N_1, H'(M_1))$, $\delta \in \operatorname{Hom}_R(M_1, H''(N_1))$:
+\begin{align*}
+\text{(1)} &\quad \mu(H'(h)\gamma k) = h\mu(\gamma) H''(k) \\
+\text{(2)} &\quad v(k\delta H'(h)) = h v(\delta) H''(k) \\
+\text{(3)} &\quad \mu^{-1}(H''(k)\bar{\gamma}h) = H'(h)\mu^{-1}(\bar{\gamma}k) \\
+\text{(4)} &\quad v^{-1}(h\bar{\delta}H''(k)) = k v^{-1}(\bar{\delta}) H'(h).
+\end{align*}

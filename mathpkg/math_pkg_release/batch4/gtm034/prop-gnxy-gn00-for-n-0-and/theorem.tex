@@ -1,0 +1,9 @@
+$$G_{n}(x,y) \leq G_{n}(0,0) \text{ for } n \geq 0 \text{ and all } x,y \text{ in } R.$$
+
+Proof: As $G_{n}(x,y) = G_{n}(x-y,0)$ in view of P1, it suffices to prove P3 in the case $y = 0$ and $x \neq 0$. Using part (c) of P2 we have
+
+$$G_{n}(x,0) = \sum_{k=1}^{n} P_{k}(x,0) = \sum_{k=1}^{n} \sum_{j=0}^{k
+
+The stage is now set for the most important classification of random walks, according to whether they are recurrent$^2$ or transient (non-recurrent). The basic idea is that the sum $\sum_{k=1}^{n} F_k(0,0)$ represents the probability of a return to the starting point before or at time $n$. The sequence of the sums $\sum_{k=1}^{n} F_k(0,0)$ is nondecreasing as $n$ increases, and by P2 they are bounded by one. Hence they have a limit, which we shall call $F$, and $F \leq 1$. Therefore it is reasonable to call the random walk recurrent if $F = 1$ and transient if $F < 1$.
+
+Actually it turns out that there is another, equivalent, classification, based on the number $G$, the limit of the monotone sequence $G_n(0,0)$. $G$ may be finite or infinite (in which case we write $G = +\infty$) and it will be shown (in P4) that $G < \infty$ when $F < 1$ and $G = +\infty$ when $F = 1$. But first we make two more definitions designed mainly to simplify the notation.

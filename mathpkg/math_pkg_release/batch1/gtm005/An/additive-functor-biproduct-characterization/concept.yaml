@@ -1,0 +1,23 @@
+id: additive-functor-biproduct-characterization
+title_en: "Characterization of additive functors via biproduct preservation"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [additive-functor, biproduct-preservation, ab-category, characterization]
+depends_on:
+  required: [additive-functor, biproduct-characterization]
+  recommended: [product-coproduct-natural-isomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VIII"
+    section: "2"
+    pages: "208-211"
+    role_in_book: "Proposition 4. Characterizes additive functors as exactly those preserving binary biproducts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

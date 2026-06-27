@@ -1,0 +1,23 @@
+id: l-one-even-character-formula
+title_en: "Formula for L(1, chi) for Even Primitive Characters"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: dirichlet-l-functions
+difficulty: intermediate
+tags: [l-function, dirichlet-character, even-character, class-number-formula]
+depends_on:
+  required: [l-one-primitive-character-formula, even-odd-dirichlet-character]
+  recommended: [gauss-sum-definition]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields I and II"
+    chapter: "3"
+    section: "3. Complex Analytic Class Number Formulas"
+    pages: ""
+    role_in_book: "Simplified L(1, chi) formula for even primitive characters"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

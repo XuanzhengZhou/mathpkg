@@ -1,0 +1,23 @@
+id: integralized-bernoulli-distribution
+title_en: "Integralized Bernoulli distribution E_{k,c}^{(N)}"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: ["bernoulli-distribution", "stickelberger-ideal", "p-adic-integrality", "distribution-relation"]
+depends_on:
+  required: []
+  recommended: ["bernoulli-polynomials", "projective-limit-of-cyclic-groups", "p-adic-numbers"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "2"
+    section: "Stickelberger Ideals and Bernoulli Distributions"
+    pages: "48-53"
+    role_in_book: "Defines the integralized Bernoulli distribution E_{k,c}^{(N)} used to obtain p-integral Stickelberger elements"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

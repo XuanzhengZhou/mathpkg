@@ -1,0 +1,6 @@
+Let $\text{Finord}$ be the category whose objects are all finite ordinals $n = \{0, 1, \ldots, n-1\}$ and whose morphisms are all functions between them. Let $\text{Set}_f$ be the category of all finite sets (in some universe $U$). Define:
+\begin{itemize}
+\item The inclusion functor $S: \text{Finord} \rightarrow \text{Set}_f$, regarding each ordinal as a finite set.
+\item The cardinality functor $\#: \text{Set}_f \rightarrow \text{Finord}$, sending each finite set $X$ to the ordinal $\# X$ (the number of elements in $X$). For each $X$, choose a bijection $\theta_X: X \rightarrow \# X$; for any function $f: X \rightarrow Y$, define $\# f = \theta_Y \circ f \circ \theta_X^{-1}$.
+\end{itemize}
+Then $\# \circ S = I_{\text{Finord}}$ (equality of functors, taking $\theta_X$ to be the identity when $X$ is itself an ordinal), and $\theta: I_{\text{Set}_f} \cong S \circ \#$ is a natural isomorphism. Hence $\text{Finord}$ and $\text{Set}_f$ are equivalent categories.

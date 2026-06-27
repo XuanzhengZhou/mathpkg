@@ -1,0 +1,23 @@
+id: umbilic
+title_en: "Umbilic"
+title_zh: "脐点"
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [umbilic, S2-singularity, multiplicity-4, singularity-theory, stable-mappings]
+depends_on:
+  required: []
+  recommended: [S2-singularity, thom-boardman-stratification]
+  suggested: [jet-transversality, local-ring-of-singularity]
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "II"
+    section: "5"
+    pages: "193"
+    role_in_book: "core"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

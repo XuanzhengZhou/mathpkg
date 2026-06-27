@@ -1,0 +1,23 @@
+id: quadratic-first-integrals-euler-equations
+title_en: "Quadratic First Integrals of Euler's Equations"
+title_zh: ""
+type: lemma
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [euler-equations, first-integrals, conservation-laws, rigid-body, angular-momentum, kinetic-energy]
+depends_on:
+  required: [euler-equations-rigid-body]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "6"
+    section: "29"
+    pages: "154-160"
+    role_in_book: "Identifies the two conserved quadratic quantities that govern the phase portrait of rigid body rotation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

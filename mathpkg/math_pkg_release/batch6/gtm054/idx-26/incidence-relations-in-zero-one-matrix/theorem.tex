@@ -1,0 +1,11 @@
+Let $M = [m_{ij}]$ be an $r \times s$ $\{0,1\}$-matrix. The following incidence relations are defined:
+
+\begin{itemize}
+\item The $i$th row and $j$th column of $M$ are \textbf{incident} if $m_{ij} = 1$.
+\item The $i$th and $j$th rows are \textbf{incident} if their inner product satisfies
+  $$\sum_{k=1}^{s} m_{ik} m_{jk} > 0,$$
+  i.e., $m_{ik} = 1 = m_{jk}$ for some $k \in \{1, \ldots, s\}$.
+\item Similarly, two columns are \textbf{incident} if their inner product is positive.
+\item The position $(i, j)$ is \textbf{incident} with the $i$th row and with the $j$th column.
+\item Two positions on a common line are \textbf{incident}.
+\end{itemize}

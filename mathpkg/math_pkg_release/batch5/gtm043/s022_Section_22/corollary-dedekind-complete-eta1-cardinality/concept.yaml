@@ -1,0 +1,23 @@
+id: corollary-dedekind-complete-eta1-cardinality
+title_en: "A Dedekind-Complete Set Containing an η₁-Set Has Cardinality at Least 2^{ℵ₁}"
+title_zh: ""
+type: corollary
+domain: foundations
+subdomain: order-theory
+difficulty: advanced
+tags: [dedekind-complete, eta1-set, cardinality, lower-bound]
+depends_on:
+  required: [theorem-dedekind-completion-of-q, theorem-q-is-eta1-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "13"
+    section: "24"
+    pages: ""
+    role_in_book: "Cardinality lower bound for Dedekind-complete extensions of η₁-sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

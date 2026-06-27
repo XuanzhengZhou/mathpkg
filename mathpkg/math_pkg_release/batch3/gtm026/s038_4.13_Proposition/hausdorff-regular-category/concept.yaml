@@ -1,0 +1,23 @@
+id: hausdorff-regular-category
+title_en: "Hausdorff Spaces as Regular Categories"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: general-topology
+difficulty: intermediate
+tags: [regular-category, Hausdorff-spaces, image-factorization, E-co-well-powered]
+depends_on:
+  required: [regular-category]
+  recommended: [Hausdorff-space, image-factorization-system]
+  suggested: [ultrafilter]
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "4"
+    section: "4.19"
+    pages: "246-249"
+    role_in_book: "Example 4.19 shows that Hausdorff spaces with various factorization systems form regular categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,17 @@
+Let $K_0$ be a number field, and let $K_\infty/K_0$ be any $\mathbb{Z}_p$-extension, with Galois group $\Gamma = \{\gamma\}$, with topological generator $\gamma$. Let $Q$ be a $p$-abelian extension of $K_\infty$ which is also Galois over $K_0$. For each $n$ let $Q_n$ be the maximal subfield of $Q$ which is abelian over $K_n$.
+
+Let $G = \operatorname{Gal}(Q/K_\infty)$. Since $Q$ is assumed Galois over $K_0$ and abelian over $K_\infty$, the commutator subgroup is
+$$G' = G^{\gamma-1},$$
+which consists of all elements $\sigma^{\gamma-1} = \sigma\gamma\sigma^{-1}\gamma^{-1}$ with $\sigma \in G$.
+
+The group $\Gamma_n$ operates by conjugation on $\operatorname{Gal}(Q/K_n)$, and hence on the commutator group $G^{(n)} = \operatorname{Gal}(Q/K_n) / \operatorname{Gal}(Q/K_n)^{\gamma-1}$. Consequently,
+$$\varprojlim G_n = G$$
+is a compact module over the Iwasawa algebra $\Lambda = \mathbb{Z}_p[\![X]\!] = \varprojlim \mathbb{Z}_p[\Gamma_n]$, where $X = \gamma - 1$.
+
+Taking $K_n$ as ground field instead of $K_0$, one obtains
+$$G_n = G^{\gamma^{p^n}-1} / (G^{\gamma^{p^n}-1})^{\gamma-1}.$$
+In terms of the Iwasawa algebra,
+$$G_n = G / X_n G,$$
+where $X_n = \gamma^{p^n} - 1$.
+
+The sign $\sim$ denotes a quasi-isomorphism of $\Lambda$-modules (a homomorphism with finite kernel and cokernel).

@@ -1,0 +1,23 @@
+id: colimits-in-set-algebras
+title_en: "Small colimits in categories of Set-valued algebras"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [colimit, set, algebraic-theory, t-algebra, category-of-algebras]
+depends_on:
+  required: [colimits-in-categories-of-algebras, algebraic-theory-in-set]
+  recommended: [set-category, regular-category]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "7"
+    section: "7.1"
+    pages: ""
+    role_in_book: "Corollary 7.10; Set^T has small colimits for any algebraic theory T in Set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: discontinuity-set-is-f-sigma
+title_en: "Set of Points of Discontinuity is an F-sigma"
+title_zh: "不连续点集是F_σ集"
+type: theorem
+domain: analysis
+subdomain: real-analysis
+difficulty: basic
+tags: [discontinuity, f-sigma, oscillation, real-function]
+depends_on:
+  required: [oscillation-at-point]
+  recommended: [f-sigma-set]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "7"
+    section: "7"
+    pages: "39-43"
+    role_in_book: "Characterizes structure of discontinuity set of any real function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

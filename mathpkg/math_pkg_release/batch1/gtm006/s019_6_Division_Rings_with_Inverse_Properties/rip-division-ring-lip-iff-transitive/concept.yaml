@@ -1,0 +1,23 @@
+id: rip-division-ring-lip-iff-transitive
+title_en: "Theorem 6.14: RIP + LIP iff ((0,0),[0,0])-transitivity"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-planes
+difficulty: advanced
+tags: [division-ring, RIP, LIP, transitivity, projective-plane, planar-ternary-ring]
+depends_on:
+  required: [right-inverse-property, left-inverse-property, division-ring, translation-plane]
+  recommended: [lemma-inverse-identity-in-loops]
+  suggested: [theorem-4-20-translation-lines]
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "VI"
+    section: "6. Division Rings with Inverse Properties"
+    pages: ""
+    role_in_book: "Characterizes when a division ring with RIP also has LIP in terms of a specific geometric transitivity condition on the coordinatized projective plane."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

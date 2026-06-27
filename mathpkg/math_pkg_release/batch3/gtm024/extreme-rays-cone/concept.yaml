@@ -1,0 +1,23 @@
+id: extreme-rays-cone
+title_en: "Extreme Rays Generate Closed Cones"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: convex-geometry
+difficulty: intermediate
+tags: ["extreme-rays", "cone", "base"]
+depends_on:
+  required: ["extremal-set-def", "wedge-and-cone-def"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§8"
+  section: "8.C"
+  pages: "36"
+  role_in_book: "representation of cones by extreme rays"
+content_hash: "5c2743211e95b420"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

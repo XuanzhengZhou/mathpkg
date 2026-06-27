@@ -1,0 +1,23 @@
+id: prime-ideal-of-height-h-is-isolated-for-h-generated-ideal
+title_en: "Prime Ideal of Height h is Isolated for Some h-Generated Ideal"
+title_zh: "高度为h的素理想是某个h元生成理想的孤立分量"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [height, krull-dimension, noetherian-ring, isolated-prime]
+depends_on:
+  required: [height-bound-for-ideals-generated-by-r-elements, height-and-depth-of-prime-ideal]
+  recommended: [isolated-prime-ideal]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "IV"
+    section: "14"
+    pages: ""
+    role_in_book: "Theorem 31. Converse to Theorem 30: every prime of height h is isolated for some h-generated ideal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: additivity-of-length-of-ideals
+title_en: "Additivity of the Length of an Ideal"
+title_zh: "理想长度的可加性"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [length-of-ideal, primary-decomposition, irredundant]
+depends_on:
+  required: [finiteness-of-length-for-ideals-without-imbedded-components, primary-representation]
+  recommended: [length-of-module, quotient-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "IV"
+    section: "13"
+    pages: ""
+    role_in_book: "Theorem 25. The length of an ideal equals the sum of lengths of its isolated primary components"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: finitely-satisfiable-implies-consistent
+title_en: "Finitely Satisfiable Set of Sentences is Consistent"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: proof-theory
+difficulty: basic
+tags: [consistency, finite-satisfiability, deduction, compactness]
+depends_on:
+  required: [finitely-satisfiable]
+  recommended: [formal-deduction, first-order-language]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "2"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Key lemma in the first proof of the Compactness Theorem (via completeness theorem)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

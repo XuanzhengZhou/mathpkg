@@ -1,0 +1,23 @@
+id: existence-of-power-series-hk
+title_en: "Existence of Power Series $h_k$ for Congruence Classes mod $p-1$"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [power-series, congruence-class, p-adic-analysis, local-units]
+depends_on:
+  required: []
+  recommended: [coleman-homomorphism, formal-power-series-ring]
+  suggested: [p-adic-measure]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "Iwasawa Theory of Local Units"
+    section: "1"
+    pages: ""
+    role_in_book: "Theorem 4.2: Constructs power series associated to congruence classes modulo p-1, used in the decomposition of the Iwasawa module of local units"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: existence-and-uniqueness-of-lie-parallel-vector-fields
+title_en: "Existence and Uniqueness of Lie Parallel Vector Fields"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [lie-parallel, existence, uniqueness, flow, vector-field-over-curve]
+depends_on:
+  required: [lie-parallel-vector-field]
+  recommended: [flow-of-vector-field, integral-curve]
+  suggested: []
+source_books:
+  - book_id: "gtm048"
+    author: "R. K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "2"
+    section: "2.0.1"
+    pages: ""
+    role_in_book: "Ensures a unique Lie parallel extension exists for any initial vector at a point on the curve"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: local-charts-on-jet-bundles
+title_en: "Local Trivialization and Smooth Manifold Structure of Jet Bundles"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: differential-topology
+difficulty: advanced
+tags: [jet-bundles, local-charts, smooth-manifold, trivialization, fiber-bundle]
+depends_on:
+  required: [jet-space-of-maps, polynomial-space-no-constant-term]
+  recommended: [smooth-manifold, fiber-bundle-definition]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "2"
+    section: "2. Jet Bundles"
+    pages: ""
+    role_in_book: "Provides the local coordinate description making J^k(X,Y) a smooth manifold"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,19 @@
+$$pu = p \quad \text{and} \quad u(xs) = u(x)s \quad \text{for} \quad s \in G, x \in P.$$
+
+Thus, an element of the gauge group is $G$-equivariant and preserves the projection to $B$, and this is why we denote it by $\text{Aut}_B(P)$. From 3(3.2) we know that if $u \in \text{Aut}_B(P)$, then the inverse $u^{-1}: P \rightarrow P$ is defined and $u^{-1} \in \text{Aut}_B(B)$.
+
+We give $\text{Aut}_B(P)$ the subspace topology from the mapping space $\text{Map}(P, P)$. A general reference for mapping spaces is Bourbaki, General to-
+
+pology, Chapter 10. From general mapping space theory we know that composition in $\text{Aut}_B(P)$ is continuous, but there remains the question as to whether or not $u \mapsto u^{-1}$ defined $\text{Aut}_B(P) \to \text{Aut}_B(P)$ is continuous. We will leave this question unanswered for the moment, for it will be resolved in the context of other descriptions of the gauge group.
+
+1.2 Remark. Let $P$ denote a principal $G$-bundle over $B$. To each $u \in \text{Aut}_B(P)$, we assign the continuous function $\phi_u: P \to G$ defined by the relation $u(x) = x\phi_u(x)$ or by the formula $\phi_u(x) = \tau(x, u(x))$ where $\tau: P \times_B P \to G$ is the translation function of the principal bundle $P$. Next, observe that the relation $u(xs) = u(x)s$ is equivalent to the functional relation $\phi_u(xs) = s^{-1}\phi_u(x)s$ for all $x \in P, s \in G$.
+
+1.3 Notation. For a topological group $G$ we denote by $\text{Ad}(G)$ the right $G$-space $G$ with right adjoint $G$-action given by $x, s = s^{-1}xs$. Here the operation $s^{-1}xs$ is multiplication in $G$. In addition, $\text{Ad}(G)$ is a $G$-group because the topological group structure on $G$ is preserved by the right $G$-action. For $X$ and $Y$, two right $G$-spaces, we denote by $\text{Map}_G(X, Y)$ the subspace of all $f \in \text{Map}(X, Y)$ satisfying $f(xs) = f(x)s$ for all $s \in G, x \in X$.
+
+In particular, we have that $\text{Aut}_B(P)$ is a subspace of $\text{Map}_G(P, P)$.
+
+1.4 Remark. The function which assigns to an automorphism $u \in \text{Aut}_B(P)$ the function $\phi_u \in \text{Map}_G(P
+
+to the $G$-map $\phi$: $P \rightarrow \text{Ad}(G)$ the cross section $s_\phi$: $B \rightarrow \text{Ad}(P)$ where $s_\phi(b) = (x, \phi(x)) \bmod G$ for $x \in P_b$ an arbitrary element of the fibre $P_b$ over $b \in B$. In chapter 3 we did not take up the question of the continuity of this bijection or its inverse, and we will not need it here since we use only the first two descriptions of the gauge group.
+
+Finally, we close with the following calculations of the gauge group.

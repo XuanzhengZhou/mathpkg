@@ -1,0 +1,13 @@
+id: iterated-exponential-lower-bound
+title_en: "Lower Bound for the Iterated Exponential"
+title_zh: "迭代指数的下界"
+type: lemma
+domain: logic
+subdomain: recursive-function-theory
+difficulty: basic
+tags: [iterated-exponential, inequality, monotonicity]
+depends_on: {required: [iterated-exponential-is-primitive-recursive], suggested: []}
+source_books: [{book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "2", section: "Elementary Recursive and Primitive Recursive Functions", pages: "43-46", role_in_book: "Lemma 2.37: m ≤ a(m,n) for all m,n"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

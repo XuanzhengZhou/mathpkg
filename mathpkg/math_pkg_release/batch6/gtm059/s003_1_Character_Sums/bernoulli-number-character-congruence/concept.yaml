@@ -1,0 +1,23 @@
+id: bernoulli-number-character-congruence
+title_en: "Bernoulli Number Congruence for Dirichlet Characters"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: bernoulli-numbers
+difficulty: advanced
+tags: [bernoulli-numbers, dirichlet-characters, p-adic-congruences, teichmuller-character]
+depends_on:
+  required: []
+  recommended: [bernoulli-numbers, dirichlet-character-definition, teichmuller-character]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields I and II"
+    chapter: "1"
+    section: "1. Character Sums"
+    pages: "26-29"
+    role_in_book: "Congruence relations for Bernoulli numbers associated to Dirichlet characters, distinguishing the Teichmüller character case"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

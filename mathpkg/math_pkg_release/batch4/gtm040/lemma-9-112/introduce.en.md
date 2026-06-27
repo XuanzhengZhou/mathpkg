@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $g'$ is a generalized potential with support in $E \in \mathcal{L}$ and if $g$ is any pure potential such that $g_E \leq g'_E$, then $af' \geq \alpha f$.

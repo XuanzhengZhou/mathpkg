@@ -1,0 +1,23 @@
+id: factorization-of-quadratic-integers-z5
+title_en: "Factorization of $a + b\sqrt{5}$ via prime factorization of $a^2 - 5b^2$"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [quadratic-integers, factorization, dirichlet, z5, unique-factorization]
+depends_on:
+  required: [dirichlets-lemma]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "3"
+    section: "3.3"
+    pages: ""
+    role_in_book: "Factorization result for Z[√5] used in Dirichlet's proof for n=5"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

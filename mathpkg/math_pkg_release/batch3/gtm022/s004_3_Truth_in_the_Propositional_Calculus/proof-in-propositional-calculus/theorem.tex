@@ -1,0 +1,11 @@
+\text{Let } q \in P(X) \text{ and let } A \subseteq P(X). \text{ In the propositional calculus on the set } X, \text{ a proof of } q \text{ from the assumptions } A \text{ is a finite sequence } p_1, p_2, \ldots, p_n \text{ of elements } p_i \in P(X) \text{ such that } p_n = q \text{ and for each } i, \text{ either } p_i \in \mathcal{A} \cup A \text{ or for some } j, k < i, \text{ we have } p_k = (p_j \Rightarrow p_i).
+
+\text{The set } \mathcal{A} = \mathcal{A}_1 \cup \mathcal{A}_2 \cup \mathcal{A}_3 \text{ of axioms is given by:}
+
+\mathcal{A}_1 = \{p \Rightarrow (q \Rightarrow p) \mid p, q \in P(X)\},
+
+\mathcal{A}_2 = \{(p \Rightarrow (q \Rightarrow r)) \Rightarrow ((p \Rightarrow q) \Rightarrow (p \Rightarrow r)) \mid p, q, r \in P(X)\},
+
+\mathcal{A}_3 = \{\sim\sim p \Rightarrow p \mid p \in P(X)\}.
+
+\text{The rule of inference is modus ponens: from } p \text{ and } p \Rightarrow q, \text{ deduce } q.

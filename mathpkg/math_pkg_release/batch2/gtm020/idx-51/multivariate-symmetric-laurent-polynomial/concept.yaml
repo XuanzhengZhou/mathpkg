@@ -1,0 +1,23 @@
+id: multivariate-symmetric-laurent-polynomial
+title_en: "Multivariate Symmetric Laurent Polynomial"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [laurent-polynomials, symmetric-functions, multivariate-polynomials, chebyshev-polynomials]
+depends_on:
+  required: [symmetric-laurent-polynomial-representation, chebyshev-polynomial-for-laurent-sum]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "14"
+    section: "5"
+    pages: ""
+    role_in_book: "Corollary 5.3, multivariate extension used for representation ring of Sp(n)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

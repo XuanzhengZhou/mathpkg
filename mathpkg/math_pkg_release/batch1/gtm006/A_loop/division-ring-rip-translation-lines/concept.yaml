@@ -1,0 +1,23 @@
+id: division-ring-rip-translation-lines
+title_en: "Division ring with RIP implies all lines through (∞) are translation lines"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-planes
+difficulty: advanced
+tags: [projective-plane, division-ring, right-inverse-property, translation-plane, translation-line]
+depends_on:
+  required: [division-ring-rip-characterization]
+  recommended: [translation-plane, theorem-4.20]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "6"
+    pages: "146-150"
+    role_in_book: "Theorem 6.12: restatement of Theorem 6.11, every line through (∞) is a translation line when R has RIP"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

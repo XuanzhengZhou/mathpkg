@@ -1,0 +1,23 @@
+id: character-modulo-m
+title_en: "Character Modulo m (Dirichlet Character)"
+title_zh: "模m特征标（狄利克雷特征标）"
+type: definition
+domain: number-theory
+subdomain: analytic-number-theory
+difficulty: intermediate
+tags: [dirichlet-character, modular-character, multiplicative-function, l-function]
+depends_on:
+  required: [character-of-finite-abelian-group, multiplicative-group-modulo-m]
+  recommended: [dual-group-of-finite-abelian-group]
+  suggested: [primitive-character, conductor]
+source_books:
+  - book_id: gtm007
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VI"
+    section: "§1.3"
+    pages: ""
+    role_in_book: "Central definition; Dirichlet characters are used to define L-functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

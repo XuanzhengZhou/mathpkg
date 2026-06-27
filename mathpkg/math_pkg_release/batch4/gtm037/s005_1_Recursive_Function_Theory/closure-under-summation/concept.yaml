@@ -1,0 +1,13 @@
+id: closure-under-summation
+title_en: "Closure under Summation for Primitive Recursive Functions"
+title_zh: "原始递归函数对求和运算封闭"
+type: proposition
+domain: logic
+subdomain: recursive-function-theory
+difficulty: intermediate
+tags: [primitive-recursive, summation, closure-property, bounded-summation]
+depends_on: {required: [composition-of-primitive-recursive-functions, primitive-recursion-schema], suggested: []}
+source_books: [{book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "1", section: "Recursive Function Theory", pages: "43-46", role_in_book: "Demonstration that a class A closed under primitive recursive operations is also closed under summation"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

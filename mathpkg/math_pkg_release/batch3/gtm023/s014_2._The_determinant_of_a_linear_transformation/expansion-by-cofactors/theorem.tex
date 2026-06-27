@@ -1,0 +1,11 @@
+Let $A = (\alpha_i^j)$ be an $n \times n$-matrix and let $S_i^j$ be the $(n-1) \times (n-1)$-matrix obtained from $A$ by deleting the $i$-th row and $j$-th column. Then:
+
+Expansion with respect to the $i$-th row:
+
+$$\det A = \sum_{j=1}^{n} (-1)^{i+j} \alpha_i^j \det S_i^j \quad (i = 1, \ldots, n).$$
+
+Expansion with respect to the $j$-th column:
+
+$$\det A = \sum_{i=1}^{n} (-1)^{i+j} \alpha_i^j \det S_i^j \quad (j = 1, \ldots, n).$$
+
+The quantity $\operatorname{cof}(\alpha_i^j) = (-1)^{i+j} \det S_i^j$ is called the cofactor of the entry $\alpha_i^j$.

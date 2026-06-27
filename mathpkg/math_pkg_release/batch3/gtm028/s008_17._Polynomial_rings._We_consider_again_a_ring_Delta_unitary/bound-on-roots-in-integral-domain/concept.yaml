@@ -1,0 +1,23 @@
+id: bound-on-roots-in-integral-domain
+title_en: "Bound on the Number of Roots in an Integral Domain"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: [polynomial, roots, integral-domain, factor-theorem]
+depends_on:
+  required: [factor-theorem, integral-domain]
+  recommended: [polynomial-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "I"
+    section: "17"
+    pages: ""
+    role_in_book: "Corollary 2 to Theorem 9: Polynomial has at most deg f roots"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

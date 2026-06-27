@@ -1,0 +1,14 @@
+id: dimension-of-affine-n-space
+title_en: "The dimension of affine n-space is n"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: basic
+tags: [dimension, affine-space, krull-dimension, polynomial-ring]
+depends_on: {required: [dimension-of-affine-algebraic-set, dimension-equals-transcendence-degree], recommended: [affine-n-space], suggested: []}
+source_books:
+  - {book_id: "gtm052", author: "Robin Hartshorne", title: "Algebraic Geometry", chapter: "I", section: "1", pages: "18-23", role_in_book: "Proposition 1.9 — confirms that the algebraic notion of dimension gives the expected answer for affine space"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

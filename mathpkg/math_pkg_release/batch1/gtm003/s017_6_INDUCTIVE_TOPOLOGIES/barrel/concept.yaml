@@ -1,0 +1,23 @@
+id: barrel
+title_en: "Barrel (Tonneau)"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [barrel, tonneau, radial, convex, circled, closed, topological-vector-space]
+depends_on:
+  required: [topological-vector-space, convex-set, circled-set]
+  recommended: [radial-set]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "7"
+    pages: ""
+    role_in_book: "Fundamental definition for the theory of barreled spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

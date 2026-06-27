@@ -1,0 +1,23 @@
+id: rademacher-path-of-integration
+title_en: "Rademacher's Path of Integration P(N)"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: analytic-number-theory
+difficulty: advanced
+tags: [Rademacher, partition-function, Ford-circles, Farey-series, path-of-integration]
+depends_on:
+  required: []
+  recommended: [ford-circles, farey-series]
+  suggested: [dedekind-eta-function, hardy-ramanujan-circle-method]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "5"
+    section: "5.6"
+    pages: ""
+    role_in_book: "Defines the integration contour used in Rademacher's proof of the exact partition formula"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

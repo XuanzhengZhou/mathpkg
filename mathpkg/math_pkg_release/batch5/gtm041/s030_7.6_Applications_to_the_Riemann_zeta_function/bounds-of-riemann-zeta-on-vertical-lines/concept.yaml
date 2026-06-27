@@ -1,0 +1,23 @@
+id: bounds-of-riemann-zeta-on-vertical-lines
+title_en: "Bounds of the Riemann zeta function on vertical lines"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: analytic-number-theory
+difficulty: intermediate
+tags: [riemann-zeta-function, supremum, infimum, euler-product, kroneckers-theorem]
+depends_on:
+  required: [m-sigma-and-m-sigma-of-riemann-zeta]
+  recommended: [euler-product, kroneckers-approximation-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "7"
+    section: "7.6"
+    pages: ""
+    role_in_book: "Theorem 7.11 — determines the exact supremum and infimum of |ζ(σ+it)| for σ > 1."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

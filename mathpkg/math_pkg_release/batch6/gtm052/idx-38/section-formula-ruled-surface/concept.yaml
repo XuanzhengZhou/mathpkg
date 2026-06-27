@@ -1,0 +1,23 @@
+id: section-formula-ruled-surface
+title_en: "Linear Equivalence Formula for Sections of a Ruled Surface"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-surfaces
+difficulty: advanced
+tags: [ruled-surface, section, linear-equivalence, picard-group]
+depends_on:
+  required: [picard-group-of-ruled-surface, normalized-bundle-invariant]
+  recommended: [linear-equivalence, divisor-class-group]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "2"
+    pages: "372"
+    role_in_book: "Relates any section D to the distinguished section C_0 via the invariant e"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

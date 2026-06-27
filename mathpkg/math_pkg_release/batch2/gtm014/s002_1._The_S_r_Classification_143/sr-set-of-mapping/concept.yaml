@@ -1,0 +1,23 @@
+id: sr-set-of-mapping
+title_en: "S_r(f) — Singular Set of Type S_r"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: intermediate
+tags: [singularity, corank, jet-space, thom-boardman]
+depends_on:
+  required: [sr-singularity]
+  recommended: [one-jet-extension]
+  suggested: [whitney-immersion-theorem]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "Chapter VI: Classification of Singularities, Part I: The Thom-Boardman Invariants"
+    section: "§1. The S_r Classification"
+    pages: "143-144"
+    role_in_book: "Defines the singular set of each corank type for a given mapping"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

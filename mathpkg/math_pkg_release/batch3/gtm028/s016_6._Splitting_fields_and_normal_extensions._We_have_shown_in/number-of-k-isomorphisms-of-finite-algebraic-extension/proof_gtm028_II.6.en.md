@@ -1,0 +1,12 @@
+---
+role: proof
+locale: en
+of_concept: number-of-k-isomorphisms-of-finite-algebraic-extension
+source_book: gtm028
+source_chapter: "II"
+source_section: "6. Splitting fields and normal extensions"
+---
+
+The theorem is obvious in the case $n_0 = 1$, for in that case every element of $L$ is purely inseparable over $k$ and therefore is left invariant by every $k$-isomorphism of $L$ into $K$; that is, the identity is the only $k$-isomorphism of $L$ into $K$. The theorem is also obvious if $L$ is a simple extension of $k$, say $L = k(\alpha)$. For in that case, $n_0$ is also the reduced degree of the minimal polynomial of $\alpha$ in $k[X]$. Hence $\alpha$ has exactly $n_0$ conjugate elements in $K$ (that is, conjugate over $k$). If $\alpha_1, \alpha_2, \cdots, \alpha_{n_0}$ are these conjugate elements ($\alpha_1 = \alpha$), then there exists a unique $k$-isomorphism $\tau_i$ of $k(\alpha)$ onto $k(\alpha_i)$ which sends $\alpha$ into $\alpha_i$. It is clear that the $n_0$ isomorphisms $\tau_i$ ($\tau_1 =$ the identity) are the only $k$-isomorphisms of $k(\alpha)$ into $K$, since any $k$-isomorphism of $k(\alpha)$ into $K$ must send $\alpha$ into a conjugate element of $\alpha$ over $k$, that is, into one of the elements $\alpha_i$.
+
+After these preliminary remarks, we proceed to prove the theorem by induction on $n_0$. We assume namely that the theorem is true for all finite algebraic extensions of $k$ for which $n_0$ is less than a given integer $m$, $m > 1$. Let $n_0 = m$ for the given field $L$. Since $m > 1$, there exist elements in $L$, not in $k$, which are separable over $k$. We fix one such element, say, $\alpha$. Let $s$ be the degree $[k(\alpha):k]$. Since $\alpha$ is separable over $k$, the maximal separable extension of $k$ in $L$ coincides with the maximal separable extension of $k(\alpha)$ in $L$. Hence $[L:k(\alpha)]_s = n_0/s$, and $[L:k(\alpha)]_s < n_0$ since $s > 1$. By the induction hypothesis, $L$ possesses exactly $n_0/s$ distinct $k(\alpha)$-isomorphisms into $K$, say $\sigma_1, \sigma_2, \cdots, \sigma_r$ where $r = n_0/s$. On the other hand, $k(\alpha)$ possesses $s$ distinct $k$-isomorphisms $\tau_1, \tau_2, \cdots, \tau_s$ into $K$, and by Lemma 2 each $\tau_i$ has exactly $r$ extensions to $L$. Therefore the compositions $\rho_{ij} = \tau_i \circ \sigma_j$ ($i = 1,\ldots,s$, $j = 1,\ldots,r$) yield $s \cdot r = n_0$ distinct $k$-isomorphisms of $L$ into $K$. This completes the proof.

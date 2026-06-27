@@ -1,0 +1,7 @@
+Let $\phi$ be an interpretation of $L$ in $M$, and let $\overline{M}$ be the set of all maps from the variables of $L$ to $M$. The interpretation of terms correlates to each term $t$ a function $\phi(t) : \overline{M} \to M$, defined inductively:
+
+(a) If $c$ is a constant, then $\phi(c)$ is the constant function whose value is $\phi(c) \in M$.
+
+(b) If $x$ is a variable, then $\phi(x)(\xi) = x^\xi$ (the value of $\xi$ at $x$).
+
+(c) If $t = f(t_1, \ldots, t_r)$, then $\phi(t)(\xi) = \phi(f)(\phi(t_1)(\xi), \ldots, \phi(t_r)(\xi))$.

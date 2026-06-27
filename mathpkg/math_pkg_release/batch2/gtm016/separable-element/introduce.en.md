@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+An element $s \in K$ is separable (resp. radical) over $k$ if its minimum polynomial $f_s(X)$ over $k$ is separable (resp. radical) over $k$.

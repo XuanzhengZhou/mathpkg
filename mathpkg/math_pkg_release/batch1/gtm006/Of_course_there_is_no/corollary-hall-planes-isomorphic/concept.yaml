@@ -1,0 +1,23 @@
+id: corollary-hall-planes-isomorphic
+title_en: "Isomorphism of Hall Planes of the Same Order"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [Hall-plane, isomorphism, projective-plane]
+depends_on:
+  required: [Hall-plane, theorem-10-16-quasifield-multiplication]
+  recommended: [irreducible-quadratic, Galois-field]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "10"
+    section: "4"
+    pages: ""
+    role_in_book: "Establishes that finite Hall planes are uniquely determined by their order"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,20 @@
+id: constructive-decomposition-for-a-squared-plus-3b-squared
+title_en: "Constructive Decomposition of a Prime 3n+1 as a² + 3b²"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: sums-of-squares
+difficulty: intermediate
+tags: [constructive-method, a-squared-plus-3b-squared, prime-3n-plus-1, quadratic-form]
+depends_on: {required: [prime-representation-as-a-squared-plus-3b-squared], recommended: [constructive-two-square-decomposition], suggested: []}
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.6 Addendum on sums of two squares"
+    pages: ""
+    role_in_book: "Constructive algorithm for finding the a²+3b² decomposition of primes congruent to 1 mod 3"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

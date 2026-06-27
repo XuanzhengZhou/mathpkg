@@ -1,0 +1,10 @@
+The boundary value problem
+$$\frac{d^2}{dx^2} f(x) + \mu f(x) = 0, \quad 0 \leq x \leq 1,$$
+with boundary conditions $f(0) = f(1) = 0$ is equivalent to the integral equation
+$$f(x) = \mu \int_0^1 R(x,y) f(y) \, dy, \quad 0 \leq x \leq 1,$$
+with symmetric kernel
+$$R(x,y) = \min(x,y) - xy \quad \text{for } 0 \leq x, y \leq 1.$$
+
+The eigenvalues are $\mu_k = \pi^2 k^2$, $k = 1, 2, \ldots$, and the eigenfunctions
+$$\phi_k(x) = \sqrt{2} \sin \pi k x, \quad 0 \leq x \leq 1, \quad k = 1, 2, \ldots,$$
+form an orthonormal set with $(\phi_k, \phi_m) = \int_0^1 \phi_k(x) \phi_m(x) \, dx = \delta(k,m)$.

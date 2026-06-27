@@ -1,0 +1,23 @@
+id: frenet-frame-on-surface
+title_en: "Frenet Frame on a Surface"
+title_zh: "曲面上的Frenet标架"
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [frenet-frame, curves-on-surfaces, geodesic-curvature, intrinsic-geometry]
+depends_on:
+  required: [curve, tangent-vector-field, covariant-derivative-on-surface]
+  recommended: [first-fundamental-form, orientation]
+  suggested: [frenet-frame-plane-curve, geodesic-curvature]
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "4"
+    section: "4.2"
+    pages: "p.88"
+    role_in_book: "Definition 4.2.6(i) — introduces the Frenet frame adapted to a surface, generalizing the plane curve Frenet frame"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

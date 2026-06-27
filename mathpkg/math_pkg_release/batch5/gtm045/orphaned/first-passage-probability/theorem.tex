@@ -1,0 +1,7 @@
+The probability $Q_{jk}^n$ of passage from $j$ to $k$ in exactly $n$ steps (without passing through $k$ before the $n$th step) is
+
+$$Q_{jk}^n = \sum_{h_1 \neq k, \cdots, h_{n-1} \neq k} P_{j h_1} P_{h_1 h_2} \cdots P_{h_{n-1} k}.$$
+
+The \textit{central relation} (renewal equation) is
+
+$$P_{jk}^n = \sum_{m=1}^{n} Q_{jk}^m P_{kk}^{n-m}, \quad P_{kk}^0 = 1.$$

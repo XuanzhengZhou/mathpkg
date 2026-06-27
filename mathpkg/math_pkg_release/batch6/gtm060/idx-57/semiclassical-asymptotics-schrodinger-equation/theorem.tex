@@ -1,0 +1,11 @@
+Let $(p_j, q_j)$ denote initial points in phase space for which the phase flow arrives at $Q$ after time $t$, and let $S_j$ be the action along the trajectory from $(p_j, q_j)$:
+
+$$S_j(Q, t) = s(q_j) + \int_0^t L \, d\theta,$$
+
+where $L = \frac{\dot{q}^2}{2} - U(q)$ and $g^\theta(p_j, q_j) = (p(\theta), q(\theta))$.
+
+Then, as $h \to 0$, the solution of Schrödinger's equation with the oscillating initial condition given by functions $s$ and $\varphi$ has asymptotic form
+
+$$\psi(Q, t) = \sum_j \varphi(q_j) \left| \frac{DQ}{Dq_j} \right|^{-1/2} e^{(i/h)S_j(Q, t) - (i\pi/2)\mu_j} + O(h),$$
+
+where $\mu_j$ is an integer (the Morse index) equal to the number of focal points to the Lagrangian manifold on the interval $[0, t]$ of the phase curve starting at $(p_j, q_j)$.

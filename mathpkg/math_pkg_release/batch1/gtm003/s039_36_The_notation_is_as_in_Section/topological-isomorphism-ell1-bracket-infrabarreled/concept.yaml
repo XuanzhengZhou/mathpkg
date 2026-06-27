@@ -1,0 +1,23 @@
+id: topological-isomorphism-ell1-bracket-infrabarreled
+title_en: "Topological Isomorphism l^1[N,E] \to l^1(N,E) for Infrabarreled Spaces"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [locally-convex-space, infrabarreled, absolute-summability, topological-isomorphism, nuclear-space, l1-space]
+depends_on:
+  required: [locally-convex-space, infrabarreled-space, summable-sequence, absolutely-summable-sequence, l1-N-E-space, l1-N-E-bracket-space]
+  recommended: [boundedness-of-ell1-for-absolutely-summable-lcs, nuclear-space, canonical-map]
+  suggested: [pietsch-nuclear-locally-convex-spaces]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "Exercises, No. 36(b)"
+    pages: "213"
+    role_in_book: "Exercise 36(b) — establishes that the canonical injection is a topological isomorphism when the space is infrabarreled"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

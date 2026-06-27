@@ -1,0 +1,23 @@
+id: existence-of-rational-numbers-with-given-hilbert-symbols
+title_en: "Existence of rational numbers with given Hilbert symbols"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: advanced
+tags: [hilbert-symbol, existence-theorem, local-global, rational-numbers, approximation]
+depends_on:
+  required: [hilbert-product-formula]
+  recommended: [chinese-remainder-theorem, weak-approximation-lemma, dirichlet-theorem-arithmetic-progressions]
+  suggested: [quadratic-reciprocity-law]
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "III"
+    section: "2"
+    pages: ""
+    role_in_book: "Characterizes which families of local Hilbert symbol values can be realized by a global rational number"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

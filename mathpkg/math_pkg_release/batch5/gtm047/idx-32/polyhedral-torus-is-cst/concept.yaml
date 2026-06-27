@@ -1,0 +1,32 @@
+id: polyhedral-torus-is-cst
+title_en: "Every Polyhedral Solid Torus in R^3 is a Combinatorial Solid Torus"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags:
+  - polyhedral-torus
+  - combinatorial-solid-torus
+  - cst
+  - pl-3-manifold
+  - loop-theorem
+depends_on:
+  required:
+    - combinatorial-solid-torus
+    - loop-theorem
+    - polyhedral-solid-torus
+    - bicollar-neighborhood
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "32"
+    section: "Section 32"
+    pages: "211-213"
+    role_in_book: "Establishes that the polyhedral and combinatorial definitions of solid torus coincide in R^3"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: lambda-linear-injection
+title_en: "Proposition 5.8: The Map Lambda is a Well-Defined Linear Injection"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [jet-bundle, tangent-space, pullback-bundle, deformation]
+depends_on:
+  required: [jet-bundle-definition, pullback-tangent-bundle]
+  recommended: [deformation-of-mapping, taylors-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "5"
+    pages: "135"
+    role_in_book: "Defines a canonical linear injection from the jet of the pullback tangent bundle into the tangent space of the jet bundle at a jet."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

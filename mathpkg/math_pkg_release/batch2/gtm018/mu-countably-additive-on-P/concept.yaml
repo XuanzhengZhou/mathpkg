@@ -1,0 +1,23 @@
+id: mu-countably-additive-on-P
+title_en: "Countable Additivity of Length on Intervals (Theorem D)"
+title_zh: "长度在区间类上的可数可加性（定理D）"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [measure-theory, countable-additivity, interval-length]
+depends_on:
+  required: [interval-length-function, interval-subadditivity-finite, interval-countable-subadditivity]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "II"
+    section: "8"
+    pages: ""
+    role_in_book: "The length function is countably additive on the semiring P"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

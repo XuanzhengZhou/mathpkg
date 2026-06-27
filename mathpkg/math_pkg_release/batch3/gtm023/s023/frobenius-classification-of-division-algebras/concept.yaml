@@ -1,0 +1,23 @@
+id: frobenius-classification-of-division-algebras
+title_en: "Frobenius Classification of Finite-Dimensional Associative Division Algebras over R"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: division-algebras
+difficulty: advanced
+tags: [frobenius-theorem, division-algebra, quaternions, complex-numbers, real-numbers, classification]
+depends_on:
+  required: [associative-division-algebra, quadratic-elements-subspace-structure, fundamental-theorem-of-algebra]
+  recommended: [quaternion-algebra, complex-numbers]
+  suggested: [cayley-numbers, adams-theorem]
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "6"
+    pages: "222-229"
+    role_in_book: "Theorem 7.26: Classification of all finite-dimensional associative division algebras over R as R, C, or H"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

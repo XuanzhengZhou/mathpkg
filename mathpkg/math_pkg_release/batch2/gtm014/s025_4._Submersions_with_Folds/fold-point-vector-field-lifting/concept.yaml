@@ -1,0 +1,23 @@
+id: fold-point-vector-field-lifting
+title_en: "Lifting of Vector Fields Vanishing on the Singular Set at a Fold Point"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [fold-point, vector-field-lifting, infinitesimal-stability, singularity-theory]
+depends_on:
+  required: [fold-point]
+  recommended: [infinitesimal-stability, submersion-with-folds]
+  suggested: [thm-4-5-local-normal-form-fold]
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky, Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "4. Submersions with Folds"
+    pages: "98-101"
+    role_in_book: "Key lemma for proving sufficiency of the infinitesimal stability criterion for submersions with folds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: pullback
+title_en: "Pullback"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [pullback, limit, fiber-product, universal-property]
+depends_on:
+  required: []
+  recommended: [limit, product, equalizer]
+  suggested: [pushout]
+source_books:
+  - book_id: "gtm026"
+    author: "Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.49"
+    pages: ""
+    role_in_book: "Defines pullback square, pullback of two morphisms, and pullback of one morphism along another"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

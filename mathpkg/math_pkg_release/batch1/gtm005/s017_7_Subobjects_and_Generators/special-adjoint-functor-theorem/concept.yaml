@@ -1,0 +1,23 @@
+id: special-adjoint-functor-theorem
+title_en: "Special Adjoint Functor Theorem (SAFT)"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [adjoint-functor-theorem, left-adjoint, cogenerating-set, well-powered, continuous-functor]
+depends_on:
+  required: [adjunction, cogenerating-set, subobject, pullback, continuous-functor, initial-object-from-cogenerating-set]
+  recommended: [general-adjoint-functor-theorem, comma-category, stone-cech-compactification]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V. Limits"
+    section: "7. Subobjects and Generators"
+    pages: ""
+    role_in_book: "Central theorem: gives sufficient conditions for a continuous functor to have a left adjoint, using a cogenerating set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

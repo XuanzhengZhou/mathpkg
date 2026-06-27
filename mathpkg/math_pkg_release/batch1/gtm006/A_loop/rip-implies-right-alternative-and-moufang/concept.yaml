@@ -1,0 +1,23 @@
+id: rip-implies-right-alternative-and-moufang
+title_en: "RIP division ring satisfies right alternative law and Moufang identity"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: alternative-algebras
+difficulty: advanced
+tags: [division-ring, right-inverse-property, right-alternative-law, moufang-identity, non-associative-algebra]
+depends_on:
+  required: [right-inverse-property, division-ring]
+  recommended: [alternative-division-ring]
+  suggested: [loop-inverse-properties]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "6"
+    pages: "146-150"
+    role_in_book: "Lemma 6.13: partial step toward proving RIP division rings are alternative; used in the Skornyakov-San Soucie Theorem (Theorem 6.16)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

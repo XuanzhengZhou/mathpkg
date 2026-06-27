@@ -1,0 +1,23 @@
+id: equivalence-preserves-products-coproducts
+title_en: "Equivalence Preserves Products, Coproducts, Generators, Cogenerators, and Envelopes"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [category-equivalence, direct-product, direct-coproduct, generator, cogenerator, injective-envelope, projective-cover, essential-monomorphism, superfluous-epimorphism]
+depends_on:
+  required: [category-equivalence, direct-product, generator, cogenerator, injective-envelope, projective-cover]
+  recommended: [fundamental-lemma-equivalence, equivalence-preserves-exact-sequences]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "6"
+    section: "21"
+    pages: ""
+    role_in_book: "21.5 Proposition, equivalence preserves categorical constructions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

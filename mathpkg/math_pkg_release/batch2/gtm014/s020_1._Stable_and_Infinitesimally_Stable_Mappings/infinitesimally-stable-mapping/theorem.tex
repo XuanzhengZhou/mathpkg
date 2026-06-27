@@ -1,0 +1,13 @@
+Let $X$ and $Y$ be smooth manifolds, and let $f: X \to Y$ be a smooth mapping. Let $\gamma_f: \operatorname{Diff}(X) \times \operatorname{Diff}(Y) \to C^\infty(X, Y)$ be the action map $\gamma_f(g, h) = h \circ f \circ g^{-1}$.
+
+Then $f$ is \text{infinitesimally stable} if the derivative
+
+$$
+(d\gamma_f)_{(\operatorname{id}_X, \operatorname{id}_Y)}: T_{\operatorname{id}_X}\operatorname{Diff}(X) \times T_{\operatorname{id}_Y}\operatorname{Diff}(Y) \longrightarrow T_f C^\infty(X, Y)
+$$
+
+is surjective. Equivalently, identifying $T_{\operatorname{id}_X}\operatorname{Diff}(X) \cong C^\infty(TX)$ and $T_{\operatorname{id}_Y}\operatorname{Diff}(Y) \cong C^\infty(TY)$ and $T_f C^\infty(X, Y) \cong C_f^\infty(X, TY)$, for every vector field $w \in C_f^\infty(X, TY)$ along $f$ there exist vector fields $s \in C^\infty(TX)$ and $t \in C^\infty(TY)$ such that
+
+$$
+w = (df) \circ s + t \circ f.
+$$

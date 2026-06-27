@@ -1,0 +1,23 @@
+id: lemma-rank-of-unit-chi-eigenspace
+title_en: "Lemma: Rank of the Unit Chi-Eigenspace"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [local-units, eigenspace, iwasawa-theory, galois-modules]
+depends_on:
+  required: [projective-limit-of-local-unit-groups, local-cyclotomic-unit]
+  recommended: [galois-cohomology, group-rings]
+  suggested: [iwasawa-algebra]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "Iwasawa Theory of Local Units"
+    section: "1"
+    pages: "184-187"
+    role_in_book: "Lemma 1 characterizing the Z_p-rank and freeness of U_n(chi)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

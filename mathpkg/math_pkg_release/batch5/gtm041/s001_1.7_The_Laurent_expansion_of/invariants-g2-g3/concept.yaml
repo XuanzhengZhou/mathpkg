@@ -1,0 +1,23 @@
+id: invariants-g2-g3
+title_en: "The invariants g_2 and g_3 of the Weierstrass ℘ function"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: ["weierstrass-p", "elliptic-functions", "eisenstein-series", "differential-equation"]
+depends_on:
+  required: ["eisenstein-series"]
+  recommended: ["weierstrass-p-function"]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "1"
+    section: "1.9"
+    pages: ""
+    role_in_book: "Defines the lattice invariants g_2 = 60 G_4 and g_3 = 140 G_6 that appear in the differential equation for ℘"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

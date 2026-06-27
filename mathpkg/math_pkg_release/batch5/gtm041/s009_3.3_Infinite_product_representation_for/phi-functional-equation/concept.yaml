@@ -1,0 +1,23 @@
+id: phi-functional-equation
+title_en: "Functional Equation for Phi in Iseki's Proof"
+title_zh: "井关证明中的Φ函数方程"
+type: lemma
+domain: number-theory
+subdomain: analytic-number-theory
+difficulty: advanced
+tags: [hurwitz-zeta, periodic-zeta, functional-equation, isekis-formula, mellin-transform]
+depends_on:
+  required: [hurwitz-zeta-function, periodic-zeta-function]
+  recommended: [isekis-lambda-formula]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "3"
+    section: "3.5"
+    pages: ""
+    role_in_book: "Functional equation Φ(α,β,-s)=Φ(1-β,α,s) used to derive Iseki's formula for Λ"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

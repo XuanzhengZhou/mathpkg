@@ -1,0 +1,1 @@
+For $n \geqslant 2$, isolated singularities are removable. This is one of the most striking differences between one and several complex variables and is a consequence of the Hartogs continuation phenomenon.

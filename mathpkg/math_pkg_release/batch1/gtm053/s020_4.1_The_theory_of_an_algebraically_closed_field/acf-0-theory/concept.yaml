@@ -1,0 +1,13 @@
+id: acf-0-theory
+title_en: "ACF_0 — The theory of an algebraically closed field of characteristic zero"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [algebraically-closed-field, characteristic-zero, first-order-theory, field-axioms]
+depends_on: {required: [acf-p-theory], recommended: [field-axioms], suggested: [ultraproduct, lefshetz-principle]}
+source_books: [{book_id: "gtm053", author: "Yuri I. Manin", title: "A Course in Mathematical Logic for Mathematicians", chapter: "4", section: "4.1", pages: "", role_in_book: "Defines ACF_0 as the theory with field axioms, algebraic closedness, and negations of all characteristic-p axioms"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

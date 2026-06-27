@@ -1,0 +1,23 @@
+id: isekis-lambda-formula
+title_en: "Iseki's Formula for Lambda"
+title_zh: "井关Λ函数公式"
+type: lemma
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [iseki, lambda-function, hurwitz-zeta, periodic-zeta, bernoulli-polynomials, mellin-transform]
+depends_on:
+  required: []
+  recommended: [isekis-transformation-formula, hurwitz-zeta-function, periodic-zeta-function]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "3"
+    section: "3.5"
+    pages: ""
+    role_in_book: "Iseki's formula for Λ(α,β,z), the main technical result underlying Lemma 2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

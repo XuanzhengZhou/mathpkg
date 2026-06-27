@@ -1,0 +1,23 @@
+id: convexity-fore-cone-past-cone
+title_en: "Convexity of the Fore-Cone and Past-Cone"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: pseudo-euclidean-geometry
+difficulty: intermediate
+tags: [convexity, fore-cone, past-cone, time-like, pseudo-euclidean]
+depends_on:
+  required: [fore-cone-past-cone, pseudo-euclidean-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "4"
+    pages: ""
+    role_in_book: "Proves that T+ and T- are convex subsets of the pseudo-Euclidean space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

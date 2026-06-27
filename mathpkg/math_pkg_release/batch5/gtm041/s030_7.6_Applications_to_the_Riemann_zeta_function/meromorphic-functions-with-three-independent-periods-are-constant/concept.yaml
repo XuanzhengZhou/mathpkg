@@ -1,0 +1,23 @@
+id: meromorphic-functions-with-three-independent-periods-are-constant
+title_en: "Meromorphic functions with three independent periods are constant"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [periodic-functions, meromorphic-functions, constant-functions, three-periods, kroneckers-theorem]
+depends_on:
+  required: [three-independent-periods-implies-arbitrarily-small-periods]
+  recommended: [identity-theorem-analytic-functions]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "7"
+    section: "7.7"
+    pages: ""
+    role_in_book: "Corollary to Theorem 7.13 — the only meromorphic functions with three linearly independent periods over the integers are constant functions on any open connected subset where they are analytic."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

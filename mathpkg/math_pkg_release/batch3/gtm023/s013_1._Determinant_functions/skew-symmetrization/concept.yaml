@@ -1,0 +1,23 @@
+id: skew-symmetrization
+title_en: "Skew-symmetrization of a p-linear map"
+title_zh: "p重线性映射的斜对称化"
+type: proposition
+domain: algebra
+subdomain: multilinear-algebra
+difficulty: intermediate
+tags: [skew-symmetric, alternating, symmetrization, multilinear]
+depends_on:
+  required: [p-linear-map, skew-symmetric-p-linear-map, sign-of-permutation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IV"
+    section: "§1. Determinant functions"
+    pages: "4.2"
+    role_in_book: "Shows that every p-linear map induces a skew symmetric one via alternation over the symmetric group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

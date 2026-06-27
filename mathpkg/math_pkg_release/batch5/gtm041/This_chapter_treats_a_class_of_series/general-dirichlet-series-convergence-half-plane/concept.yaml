@@ -1,0 +1,23 @@
+id: general-dirichlet-series-convergence-half-plane
+title_en: "Half-Plane of Convergence for General Dirichlet Series"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: dirichlet-series
+difficulty: advanced
+tags: [dirichlet-series, convergence, half-plane, uniform-convergence, limsup]
+depends_on:
+  required: [general-dirichlet-series]
+  recommended: [ordinary-dirichlet-series-abscissa-of-convergence]
+  suggested: [partial-summation, cauchy-criterion]
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "8"
+    section: "8.2"
+    pages: "173-175"
+    role_in_book: "Theorem 8.1 — Fundamental result characterizing the half-plane of convergence for general Dirichlet series in terms of the partial sum growth rate"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

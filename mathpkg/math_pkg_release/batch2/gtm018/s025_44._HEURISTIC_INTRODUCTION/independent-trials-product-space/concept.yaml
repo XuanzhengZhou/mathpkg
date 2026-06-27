@@ -1,0 +1,20 @@
+id: independent-trials-product-space
+title_en: "Product Space for Independent Trials"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: foundations
+difficulty: intermediate
+tags: [probability, product-space, independent-trials, product-measure]
+depends_on: {required: [probability-measure-space, independent-events], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX. Probability"
+    section: "44. Heuristic Introduction"
+    pages: ""
+    role_in_book: "Two independent trials of an experiment described by (X,S,μ) correspond to the Cartesian product measure space (X×X, S×S, μ×μ)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: weil-topology-local-boundedness
+title_en: "Local Boundedness in Weil Topology"
+title_zh: "Weil 拓扑的局部有界性"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [weil-topology, haar-measure, measurable-group, topological-group]
+depends_on:
+  required: [class-a-weil-topology, class-n-weil-neighborhood]
+  recommended: [haar-measure-definition, measurable-group-definition]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "62"
+    section: "Weil Topology"
+    pages: ""
+    role_in_book: "Theorem F: Separated measurable group is locally bounded; nonempty interior implies positive measure; bounded implies finite measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

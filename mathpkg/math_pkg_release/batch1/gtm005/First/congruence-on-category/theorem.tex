@@ -1,0 +1,9 @@
+A congruence $R$ on a category $C$ consists of, for each pair of objects $a, b$ of $C$, a binary relation $R_{a,b}$ on the hom-set $C(a, b)$ satisfying:
+
+\begin{enumerate}
+  \item For each pair $a, b$, $R_{a,b}$ is an equivalence relation (reflexive, symmetric, transitive) on $C(a, b)$.
+  \item If $f, f' : a \to b$ satisfy $f \, R_{a,b} \, f'$, then for all $g : a' \to a$ and all $h : b \to b'$, one has
+  $$(h \circ f \circ g) \; R_{a',b'} \; (h \circ f' \circ g).$$
+\end{enumerate}
+
+That is, the equivalence is preserved by precomposition and postcomposition with arbitrary morphisms.

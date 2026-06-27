@@ -1,0 +1,23 @@
+id: krull-intersection-domain-corollary
+title_en: "Corollary 1 to Krull's Intersection Theorem: In a noetherian domain, distinct powers of a nonzero ideal are distinct"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: [krull-intersection-theorem, noetherian-domain, power-of-ideal]
+depends_on:
+  required: [krull-intersection-theorem]
+  recommended: [noetherian-domain, integral-domain]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "IV"
+    section: "§6. Krull's intersection theorem"
+    pages: "216"
+    role_in_book: "Application of Krull's theorem to integral domains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

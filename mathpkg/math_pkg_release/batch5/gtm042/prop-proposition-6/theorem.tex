@@ -1,0 +1,19 @@
+Let $f$ be a class function on $G$, and let $\rho: G \rightarrow GL(V)$ be a linear representation of $G$. Let $\rho_f$ be the linear mapping of $V$ into itself defined by:
+
+$$\rho_f = \sum_{t \in G} f(t)\rho_t.$$
+
+If $V$ is irreducible of degree $n$ and character $\chi$, then $\rho_f$ is a homothety of ratio $\lambda$ given by:
+
+$$\lambda = \frac{1}{n} \sum_{t \in G} f(t)\chi(t) = \frac{g}{n}(f|\chi^*).$$
+
+Let us compute $\rho_s^{-1}\rho_f\rho_s$. We have:
+
+$$\rho_s^{-1}\rho_f\rho_s = \sum_{t \in G} f(t)\rho_s^{-1}\rho_t\rho_s = \sum_{t \in G} f(t)\rho_s^{-1}ts.$$
+
+Putting $u = s^{-1}ts$, this becomes:
+
+$$\rho_s^{-1}\rho_f\rho_s = \sum_{u \in G} f(sus^{-1})\rho_u = \sum_{u \in G} f(u)\rho_u = \rho_f.$$
+
+So we have $\rho_f\rho_s = \rho_s\rho_f$. By the second part of prop. 4, this shows that $\rho_f$ is a homothety $\lambda$. The trace of $\lambda$ is $n\lambda$; that of $\rho_f$ is $\sum_{t \in G} f(t)\operatorname{Tr}(\rho_t) = \sum_{t \in G} f(t)\chi(t)$. Hence $\lambda = (1/n) \sum_{t \in G} f(t)\chi(t) = (g/n)(f|\chi^*).$
+
+We introduce now the space $H$ of class functions on $G$; the irreducible characters $\chi_1, \ldots, \chi_h$ belong to $H$.

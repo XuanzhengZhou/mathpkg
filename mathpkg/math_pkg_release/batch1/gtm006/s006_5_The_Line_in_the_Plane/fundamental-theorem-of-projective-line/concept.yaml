@@ -1,0 +1,23 @@
+id: fundamental-theorem-of-projective-line
+title_en: "Fundamental Theorem for the Projective Line (Theorem 2.23)"
+title_zh: "射影直线基本定理（定理2.23）"
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [fundamental-theorem, projective-line, semilinear, cross-ratio, collineation]
+depends_on:
+  required: [cross-ratio-invariance]
+  recommended: [automorphism-group-of-projective-line]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II. Classical Projective Planes"
+    section: "5. The Line in the Plane"
+    pages: ""
+    role_in_book: "A bijection of the projective line preserving cross-ratios is induced by a semilinear map"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

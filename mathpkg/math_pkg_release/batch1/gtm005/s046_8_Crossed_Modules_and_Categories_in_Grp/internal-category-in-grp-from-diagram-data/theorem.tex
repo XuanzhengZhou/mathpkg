@@ -1,0 +1,17 @@
+Given a diagram in $\mathbf{Grp}$
+
+$$C_1 \xrightarrow{d_0} C_0 \xrightarrow{i} C_1 \xrightarrow{d_1} C_0$$
+
+where $d_0, d_1 : C_1 \rightarrow C_0$ and $i : C_0 \rightarrow C_1$ are group homomorphisms satisfying
+
+$$d_0 i = 1 = d_1 i$$
+
+and the commutator condition
+
+$$[\ker d_0, \ker d_1] = 1,$$
+
+define a categorical composition $\gamma : C_1 \times_{C_0} C_1 \rightarrow C_1$ on composable pairs $(g, f)$ (where $d_1(f) = d_0(g) = b$) by setting
+
+$$\gamma(g, f) = f \, 1_b^{-1} \, g = g \, 1_b^{-1} \, f,$$
+
+where $1_b = i(b)$. Then this data defines an internal category in $\mathbf{Grp}$.

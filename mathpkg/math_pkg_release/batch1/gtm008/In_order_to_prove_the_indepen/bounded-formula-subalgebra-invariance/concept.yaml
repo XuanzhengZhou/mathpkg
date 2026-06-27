@@ -1,0 +1,20 @@
+id: bounded-formula-subalgebra-invariance
+title_en: "Invariance of Bounded Formulas Under Complete Subalgebras"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [boolean-valued-models, bounded-formulas, complete-subalgebra, absoluteness]
+depends_on: {required: [], recommended: [complete-subalgebra-embedding, boolean-valued-bounded-quantifier], suggested: []}
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti; Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "13"
+    section: "13. Boolean-Valued Set Theory"
+    pages: ""
+    role_in_book: "Theorem 13.18 - Bounded formulas have the same truth value in V^(B) and V^(B')"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

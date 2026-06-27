@@ -1,0 +1,23 @@
+id: openly-finitely-generated-plane-free-closure-unless-confined
+title_en: "Characterization of Openly Finitely Generated Planes as Free Closures"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [openly-finite, free-closure, confined-subconfiguration, projective-plane, core]
+depends_on:
+  required: [decomposition-of-openly-finitely-generated-projective-plane, confined-subconfiguration, core-of-configuration]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "11"
+    section: "4. Classification Problems"
+    pages: "page_0238.json–page_0243.json"
+    role_in_book: "Corollary to Theorem 11.13. An openly finitely generated projective plane is a free closure of an openly finite configuration unless every element of the plane is contained in a finite confined subconfiguration."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

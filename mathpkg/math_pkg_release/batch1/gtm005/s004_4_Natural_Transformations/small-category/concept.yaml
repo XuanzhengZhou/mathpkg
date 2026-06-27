@@ -1,0 +1,36 @@
+{
+  "id": "small-category",
+  "title_en": "Small Category",
+  "title_zh": "",
+  "type": "definition",
+  "domain": "foundations",
+  "subdomain": "category-theory",
+  "difficulty": "basic",
+  "tags": [
+    "small-category",
+    "universe"
+  ],
+  "depends_on": {
+    "required": [
+      "category",
+      "small-set",
+      "universe"
+    ],
+    "recommended": [],
+    "suggested": []
+  },
+  "source_books": [
+    {
+      "book_id": "gtm005",
+      "author": "Saunders Mac Lane",
+      "title": "Categories for the Working Mathematician",
+      "chapter": "I",
+      "section": "5",
+      "pages": "",
+      "role_in_book": ""
+    }
+  ],
+  "content_hash": "50854be2e4971185",
+  "extraction_date": "2026-06-27",
+  "extraction_agent": "v8-full-extract"
+}

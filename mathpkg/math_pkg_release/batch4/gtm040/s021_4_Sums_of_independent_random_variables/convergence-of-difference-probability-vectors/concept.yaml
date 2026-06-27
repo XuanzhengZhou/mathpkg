@@ -1,0 +1,23 @@
+id: convergence-of-difference-probability-vectors
+title_en: "Convergence of Difference of Probability Vectors for Noncyclic Recurrent Chains"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [convergence, probability-vectors, noncyclic, recurrence]
+depends_on:
+  required: [zero-one-law-noncyclic-recurrent]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "4"
+    pages: ""
+    role_in_book: "Lemma 6-37: For a noncyclic recurrent chain, the total variation distance between two probability vectors under P^n tends to zero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

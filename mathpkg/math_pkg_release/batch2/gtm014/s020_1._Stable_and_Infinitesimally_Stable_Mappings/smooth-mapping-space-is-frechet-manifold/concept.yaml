@@ -1,0 +1,23 @@
+id: smooth-mapping-space-is-frechet-manifold
+title_en: "The Space of Smooth Mappings is a Frechet Manifold"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-geometry
+difficulty: advanced
+tags: [frechet-manifold, smooth-mapping-space, tubular-neighborhood]
+depends_on:
+  required: [frechet-space, smooth-function-spaces-are-frechet]
+  recommended: [smooth-manifold, tubular-neighborhood-theorem, compact-manifold]
+  suggested: [tangent-space-of-frechet-manifold]
+source_books:
+  - book_id: gtm014
+    author: "Golubitsky & Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "§1. Stable and Infinitesimally Stable Mappings"
+    pages: "86-89"
+    role_in_book: "Theorem 1.11: establishes the manifold structure needed to differentiate the action map"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

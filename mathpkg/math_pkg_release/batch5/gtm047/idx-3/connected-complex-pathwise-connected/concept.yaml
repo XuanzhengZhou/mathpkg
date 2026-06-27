@@ -1,0 +1,23 @@
+id: connected-complex-pathwise-connected
+title_en: "Connected Complex is Pathwise Connected"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: connectivity
+difficulty: intermediate
+tags: [complex, connected, pathwise-connected, polyhedron]
+depends_on:
+  required: [complex, connected-space, pathwise-connected-set]
+  recommended: []
+  suggested: [simplex-is-pathwise-connected]
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "1"
+    section: "Connectivity"
+    pages: ""
+    role_in_book: "Theorem 4. Shows connectivity and pathwise connectivity agree for complexes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

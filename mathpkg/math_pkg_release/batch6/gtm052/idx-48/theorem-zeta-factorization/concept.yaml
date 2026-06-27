@@ -1,0 +1,23 @@
+id: theorem-zeta-factorization
+title_en: "Theorem 4.2: Zeta Function Factorization via $l$-adic Cohomology"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: arithmetic-geometry
+difficulty: advanced
+tags: [zeta-function, factorization, l-adic-cohomology, frobenius, trace-formula]
+depends_on:
+  required: [l-adic-cohomology, zeta-function-of-scheme, lemma-trace-determinant]
+  recommended: [lefschetz-trace-formula]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix C"
+    section: "4"
+    pages: "455"
+    role_in_book: "The zeta function of a smooth projective variety over F_q can be written as an alternating product of characteristic polynomials of Frobenius on l-adic cohomology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

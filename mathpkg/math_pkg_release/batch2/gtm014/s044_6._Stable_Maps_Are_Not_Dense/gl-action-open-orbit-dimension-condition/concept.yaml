@@ -1,0 +1,24 @@
+id: gl-action-open-orbit-dimension-condition
+title_en: "GL(V) × GL(W) Action on Hom(V∘V, W) Has Open Orbit Only When dim < 3"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: invariant-theory
+difficulty: advanced
+tags: [group-action, gl-group, open-orbit, symmetric-homomorphisms, dimension-count, invariant-theory, representation-theory]
+depends_on:
+  required: [group-action, orbit, homogeneous-space]
+  recommended: [intrinsic-derivative, symmetric-bilinear-form, boardman-symbol]
+  suggested: [mather-classification, morin-singularities]
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "§6"
+    pages: ""
+    role_in_book: "Key algebraic lemma completing the proof that stable maps are not dense — shows no open orbit exists for n ≥ 3"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"
+ocr_notes: "Proof is incomplete in OCR — cuts off mid-sentence at page break. Only the dimension count is preserved."

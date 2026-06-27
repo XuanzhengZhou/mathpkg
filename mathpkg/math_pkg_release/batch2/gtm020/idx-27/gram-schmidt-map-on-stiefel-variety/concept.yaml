@@ -1,0 +1,23 @@
+id: gram-schmidt-map-on-stiefel-variety
+title_en: "Gram-Schmidt Map on the Stiefel Variety"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: inner-product-spaces
+difficulty: basic
+tags: [gram-schmidt, stiefel-variety, orthonormalization, linear-independence]
+depends_on:
+  required: [stiefel-manifold]
+  recommended: [gram-schmidt-process, orthogonal-projection-invariance-under-frame-change]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "8"
+    section: "3"
+    pages: ""
+    role_in_book: "Definition of the Gram-Schmidt map from linearly independent k-tuples to orthonormal k-frames, used in the proof of local triviality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

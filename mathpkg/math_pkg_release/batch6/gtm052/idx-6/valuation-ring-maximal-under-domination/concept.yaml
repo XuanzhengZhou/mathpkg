@@ -1,0 +1,23 @@
+id: valuation-ring-maximal-under-domination
+title_en: "Valuation Ring Maximal under Domination"
+title_zh: "赋值环是支配关系下的极大元"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [valuation-ring, domination, characterization]
+depends_on:
+  required: [valuation-ring, domination-of-local-rings]
+  recommended: [local-ring]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "6"
+    pages: "57"
+    role_in_book: "Theorem 6.1A, characterizing valuation rings in terms of domination"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

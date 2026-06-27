@@ -1,0 +1,173 @@
+If $A$ is locally $\iota$-null, then $A$ is
+
+$$= \iota(C) - \iota(A) = 0, \iota(A \cap B') = \iota(A) - \iota(B) = 0,$$ and so also
+
+$$\iota(C \cap B') = \iota(C \cap A') + \iota(A \cap B') = 0.$$
+
+(II) If $\iota(A) = \infty$, then, as in the proof of (10.30), write $A = \bigcup_{n=1}^{\infty} A_n$ where each $A_n$ is measurable and has finite measure. By case (I), there are $\sigma$-compact sets $B_n$ and $G_\delta$ sets $C_n$, $n = 1, 2, 3, \ldots$, such that $B_n \subset A_n \subset C_n$ and $\iota(C_n \cap B_n') = 0$. Let $B = \bigcup_{n=1}^{\infty} B_n$; $B$ is clearly $\sigma$-compact. We have
+
+$$A \cap B' = \left( \bigcup_{n=1}^{\infty} A_n \right) \cap \left( \bigcup_{k=1}^{\infty} B_k' \right)' = \left( \bigcup_{n=1}^{\infty} A_n \right) \cap \left( \bigcup_{k=1}^{\infty} B_k' \right) \subset \bigcup_{n=1}^{\infty} (A_n \cap B_n'),$$
+
+and so
+
+$$\iota(A \cap B') \leq \iota\left( \bigcup_{n=1}^{\infty} (A_n \cap B_n') \right) \leq \sum_{n=1}^{\infty} \iota(A_n \cap B_n') = 0.$$
+
+Now let $C = \bigcup_{n=1}^{\infty} C_n$; $C$ is clearly a Borel set. The argument given above to prove that $\iota(A \cap B') = 0$ can be used to prove that $\iota(C \cap A') = 0$, and as in part (I) it follows that $\iota(C \cap B') = 0.$
+
+The functional
+
+Now choose $\varepsilon > 0$. There is a function $f \in \mathfrak{M}^+$ such that $f \geq \alpha \xi_A + \beta \xi_B$ and
+
+$$\bar{I}(f) - \frac{1}{3} \varepsilon < \bar{I}(\alpha \xi_A + \beta \xi_B).$$
+
+Choose $\delta > 0$ such that
+
+$$0 < \delta < \min \left\{ \frac{\varepsilon}{3 \iota(U_0)}, \frac{\varepsilon}{3 \iota(V_0)}, \alpha, \beta \right\}.$$
+
+For all $x \in A$, we have $f(x) \geq \alpha$. By the lower semicontinuity of $f$, there is an open set $U$ such that $A \subset U \subset U_0$ and $f(x) > \alpha - \delta$ for all $x \in U$. Similarly, there is an open set $V$ such that $B \subset V \subset V_0$ and $f(x) > \beta - \delta$ for all $x \in V$. Thus we have $f \geq (\alpha - \delta) \xi_U + (\beta - \delta) \xi_V$; therefore
+
+$$\bar{I}(f) \geq \bar{I}((\alpha - \delta) \xi_U + (\beta - \delta) \xi_V) = (\alpha - \delta) \bar{I}(\xi_U) + (\beta - \delta) \bar{I}(\xi_V)$$
+
+$$= (\alpha - \delta) \iota(U) + (\beta - \delta) \iota(V) \geq \alpha \iota(A) + \beta \iota(B) - \delta(\iota(U) + \iota(V))$$
+
+$$\geq \alpha \iota(A) + \beta \iota(B) - \delta(\iota(U_0) + \iota(V_0)) > \alpha \iota(A) + \beta \iota(B) - \frac{2}{3} \varepsilon.$$
+
+Summarizing, we have shown that
+
+$$\alpha \bar{I
+
+(d) Prove that $\mu$ can be extended to a countably additive measure defined on a $\sigma$-algebra of subsets of $X$ that contains $\mathcal{A}$. [The fact that this can be done is called $E$. Hopf's extension theorem.]
+
+(10.37) Exercise. Let $X$ and $\mathcal{A}$ be as in (10.36). Let $\gamma$ be a set function on $\mathcal{A}$ satisfying the following conditions:
+
+(i) $0 \leq \gamma(A) \leq \infty$ for all $A \in \mathcal{A}$;
+
+(ii) $\gamma(A \cup B) = \gamma(A) + \gamma(B)$ for $A, B \in \mathcal{A}$ and $A \cap B = \varnothing$;
+
+(iii) if $A_1, A_2, \ldots \in \mathcal{A}$, if $A_1 \supset A_2 \supset \cdots \supset A_n \supset \cdots$, and $\bigcap_{n=1}^{\infty} A_n = \varnothing$, then $\lim_{n \to \infty} \gamma(A_n) = 0$.
+
+Define $\bar{\gamma}$ just as in (10.36). Prove that (a), (b), (c), and (d) of (10.36) hold for the set functions $\gamma$ and $\bar{\gamma}$. [This is another version of E. Hopf's extension theorem.]
+
+(10.38) Exercise. Let $(X, \mathcal{A}, \mu)$ be a measure space. Prove that $\mu$ can be extended to a measure $\bar{\mu}$ on a $\sigma$-algebra $\mathcal{A}$ such that every subset of every set of $\mu$-measure 0 is $\bar{\mu}$-measurable and has $\bar{\mu}$-measure 0.
+
+The following exercise will be needed in the sequel to prove two important theorems of the main text [(20.56) and (20.57)], and so we spell out the proof in some detail.
+
+(10.39) Exercise. Let $X, \mathcal{A}, \mu$, and $\bar
+
+(d) If the $\sigma$-finiteness hypothesis in (c) fails, then $\mu$ may have more than one extension to $S$. [Hint. Let $X = [0, 1]$ and let $A$ be the algebra of all finite unions of intervals of the form $[a, b] \subset [0, 1]$. Define $\mu$ on $A$ by $\mu(\emptyset) = 0$ and $\mu(A) = \infty$ if $A \neq \emptyset$. Show that there are exactly $2^c$ countably additive measures on the Borel sets of $[0, 1]$ that agree with $\mu$ on $A$.]
+
+(10.40) Exercise. An outer measure $\mu$ on $P(X)$ is said to be regular if for each $E \subset X$, there exists a $\mu$-measurable set $A \subset X$ such that $E \subset A$ and $\mu(A) = \mu(E)$.
+
+(a) Prove that any outer measure obtained from a measure on an algebra of sets as in (10.36) is a regular outer measure.
+
+(b) Prove that if $X$ is a locally compact Hausdorff space and $\iota$ is as in §9, then $\iota$ is a regular outer measure.
+
+(c) Let $X = \{0, 1\}$. Construct an irregular outer measure on $P(X)$.
+
+(d) Let $\mu$ be a regular outer measure on $P(X)$, let $E \subset X$, and let $A$ be the smallest algebra containing $\{E\} \cup M_\mu$. Prove that if $\mu$ is finitely additive on $A$, then $E \in M_\mu$.
+
+(e) Notice that, since $\lambda$ is a regular outer measure on $R$, none of the extensions of $\lambda$ [as a measure on $M_\lambda$] mentioned in (10.29.b) can agree with the outer measure $\lambda$ on any algebra of sets properly containing $M_\lambda$.
+
+(10.41) Exercise. Let $A$ be a subset of $[0, 1]$ that is not $\lambda$-measurable, and let $B = [0,
+
+(c) The set $T - T$ contains an interval $[-\alpha, \alpha]$. [The function $x \rightarrow \lambda((x + T) \cap T)$ is positive at 0, and if $(x + T) \cap T \neq \emptyset$, then $x \in T - T$.]
+
+(10.44) Exercise. Generalize (10.43) to $A + B$, where $A, B$ are in $\mathcal{M}_\lambda$ and both have positive measure.
+
+(10.45) Exercise. Let $(X, \mathcal{M}, \mu)$ be a measure space and let
+
+$$\tilde{\mathcal{M}} = \{E \in \mathcal{M} : \mu(E) < \infty\}.$$
+
+For $A, B \in \tilde{\mathcal{M}}$, define
+
+$$\varrho(A, B) = \mu(A \triangle B).$$
+
+(a) Identifying sets $A$ and $B$ for which $\mu(A \triangle B) = 0$, prove that $(\tilde{\mathcal{M}}, \varrho)$ is a complete metric space.
+
+(b) Show that the mappings from $\tilde{\mathcal{M}} \times \tilde{\mathcal{M}}$ to $\tilde{\mathcal{M}}$ with values $A \cup B, A \triangle B$, and $A \cap B$ at $(A, B)$ are continuous. Show also that $A \rightarrow A'$ is continuous from $\tilde{\mathcal{M}}$ to $\tilde{\mathcal{M}}$.
+
+(10.46) Exercise. Prove that the metric space $(\tilde{\mathcal{M}}, \varrho)$ defined in (10.45) is not compact in the case that $X = [0, 1]$, $\mathcal{M} = \mathcal{B}([0, 1])$, and $\mu = \lambda$.
+
+(10.47) Exercise. (a) Let $X$ be a locally compact Hausdorff space and let $\iota$ be a measure on $X$ as in §9. Prove that if there exists a countable base for the topology of $X$, then the metric space $(\tilde{\mathcal{M}
+
+diam $U \leq \varepsilon \cup \{\varnothing\}$. For each $E \subset X$, define
+
+$$\mu_{p, \varepsilon}(E) = \inf \left\{ \sum_{n=1}^{\infty} (\text{diam } U_n)^p : U_n \in \mathcal{O}_\varepsilon, E \subset \bigcup_{n=1}^{\infty} U_n \right\},$$
+
+where we define diam $\varnothing = 0$.
+
+(a) Prove that $\mu_{p, \varepsilon}(E)$ is nondecreasing as $\varepsilon$ decreases.
+
+Define $\mu_{p}(E) = \lim_{\varepsilon \to 0} \mu_{p, \varepsilon}(E)$ for each $E \subset X$.
+
+(b) Prove that $\mu_{p}$ is a metric outer measure on $X$.
+
+(c) Prove that if $\mu_{p}(E) < \infty$ and $q > p$, then $\mu_{q}(E) = 0$.
+
+The set function $\mu_{p}$ is called the Hausdorff $p$-dimensional [outer] measure on $X$. For $E \subset X$ we define the Hausdorff dimension of $E$ to be the number $\sup \{ p \in R : p > 0, \mu_{p}(E) = \infty \}$, where we let sup $\varnothing = 0$.
+
+(10.50) Exercise. Let $R$ have its usual metric. We consider Hausdorff measures $\mu_{p}$ on $R$ [see (10.49)]. For $E \subset R$, let dim $E$ be the Hausdorff dimension of $E$. Prove that
+
+(a) $\mu_1 = \lambda$;
+
+(b) $\dim U = 1$ for all nonvoid open sets $U \subset R$;
+
+(c) $\dim E = 0$ implies $\lambda(E) = 0$;
+
+(d) if $P$ is Cantor's ternary set, then $\dim P = \frac{\log 2}{\log 3}$ [consider the sets $P_n$ of (6.62)];
+
+(e) there is an uncountable
+
+if $\varrho(A, B) > 0$. This follows from the equality $n(A \cup B, t) = n(A, t) + n(B, t)$, which is valid for $t < \varrho(A, B)$.
+
+(b) Compute $\nu_{\varphi}$ for $X = R$ with the usual metric for $R$ and $\varphi(t) = \frac{1}{t}$.
+
+(c) Compare the outer measures $\nu_{\varphi}$ [with suitable $\varphi!$] with Hausdorff $p$-dimensional measures.
+
+(d) Prove that $\nu_{\varphi}(E) = 0$ if $E$ is countable.
+
+(e) Prove that $\nu_{\varphi}(E) = \nu_{\varphi}(F)$ if there is an isometry of $E$ onto $F$. [An isometry is a mapping $\psi$ of one metric space onto another such that $\varrho(x, y) = \varrho'(\psi(x), \psi(y))$, $\varrho$ and $\varrho'$ being the metrics on the two spaces.]
+
+(10.52) Exercise. Let $\alpha$ be any real-valued nondecreasing function on $R$ and let $\lambda_{\alpha}$ be the Lebesgue-Stieltjes measure on $R$ induced by the Riemann-Stieltjes integral as in §9. Prove that $\lambda_{\alpha}(\{x\}) = 0$ for $x \in R$ if and only if $\alpha$ is continuous at $x$.
+
+(10.53) Exercise. Let $\alpha$ and $\lambda_{\alpha}$ be as in (10.52) and suppose that $\alpha$ is continuous. Prove the following assertions.
+
+(a) For each $\varepsilon > 0$ there exists a nowhere dense perfect set $A \subset [0, 1]$ such that $\lambda_{\alpha}(A) > \lambda_{\alpha}([0, 1]) - \varepsilon$.
+
+(b) There exists an $F_{\alpha}$ set $B \subset [0, 1]$ such that $B$ is of first category and $\lambda_{\alpha}(B) = \lambda_{\alpha}([0, 1])$.
+
+(c) There exists a $G_{\delta}$ set of second category contained in $[0,
+
+$\lambda_{\alpha}(B) = 0$. Similarly $\lambda_{\alpha}(B') = 0$, and so if $B$ is $\lambda_{\alpha}$-measurable, $\lambda_{\alpha}$ is the zero measure.
+
+Throughout the remainder of this exercise, assume the continuum hypothesis, i.e., $x_1 = c$ [see (4.49) and (4.50)].
+
+(d) Prove that there exists an indexing $\{C_{\eta}: 0 \leq \eta < \Omega\}$ of the family of all nowhere dense closed subsets of $[0, 1]$ by the set $P_{\Omega}$ of all countable ordinal numbers.
+
+Define [by transfinite recursion and the axiom of choice] a set $S = \{x_{\eta}: 0 \leq \eta < \Omega\}$ as follows: let $x_0 \in [0, 1] \cap C'_0$ and
+
+$$x_{\eta} \in [0, 1] \cap \bigcup_{\theta < \eta} (C_{\theta} \cup \{x_{\theta}\})'.$$
+
+(e) Prove that $\bar{S} = c$ and that $S \cap C_{\eta}$ is countable for all $\eta \in P_{\Omega}$.
+
+(f) Prove that $\lambda_{\alpha}(S) = 0$ for all Lebesgue-Stieltjes measures $\lambda_{\alpha}$ such that $\alpha$ is continuous.
+
+(10.55) Remark. The set $S$ defined above is not a Borel set in $R$. In fact, it is known that each uncountable Borel set in a complete separable metric space contains a nonvoid perfect set [see W. SIERPIÑSKI, loc. cit. (10.21.b), p. 228].
+
+(10.56) Exercise. (a) Let $(X, \mathcal{A}, \mu)$ be a measure space such that $0 < \mu(X) < \infty$ and $\mu$ assumes only a finite number of distinct positive values. Prove that $X = E_1 \cup \cdots \cup E_n \cup F$, where the summands are $\mathcal{A}$
+
+(10.57) Exercise. Let $X$ be a set and let $\mathcal{L}$ be a family of subsets of $X$ such that $A \cup B \in \mathcal{L}$ and $A \cap B \in \mathcal{L}$ if $A, B \in \mathcal{L}$. Suppose also that $X \in \mathcal{L}$ and $\varnothing \in \mathcal{L}$. Such a family $\mathcal{L}$ is called a lattice of sets [with unit and zero]. Let $\mathcal{D}$ be the family of all proper differences of sets in $\mathcal{L}$, i.e., $\mathcal{D} = \{B \cap A' : A, B \in \mathcal{L}, A \subset B\}$. Finally, let $\mathcal{U}$ be the family of all finite disjoint unions of sets in $\mathcal{D}$. Prove the following.
+
+(a) If $D_1, D_2 \in \mathcal{D}$, then $D_1 \cap D_2 \in \mathcal{D}$. [If $D_j = B_j \cap A'$ ($j = 1, 2$), then $D_1 \cap D_2 = (B_1 \cap B_2) \cap ((A_1 \cap B_2) \cup (A_2 \cap B_1))'$.]
+
+(b) If $U_1, U_2 \in \mathcal{U}$, then $U_1 \cap U_2 \in \mathcal{U}$.
+
+(c) If $U \in \mathcal{U}$, then $U' \in \mathcal{U}$. [Use induction on the number $n$, where $U = D_1 \cup D_2 \cup \cdots \cup D_n$.]
+
+(d) The family $\mathcal{U}$ is the smallest algebra of subsets of $X$ containing $\mathcal{L}$.
+
+Let $\mathcal{A}$ be a $\sigma$-algebra of subsets of $X$ such that $\mathcal{L} \subset \mathcal{A}$ and let $\mu$ and $\nu$ be two measures defined on $\mathcal{A}$.
+
+(e) If $\mu(A) = \nu(A)$ for all $A \in \mathcal{L
+
+Throughout this section, $X$ will denote an arbitrary set and $\mathcal{A}$ will denote an arbitrary $\sigma$-algebra of subsets of $X$. The ordered pair $(X, \mathcal{A})$ is called a measurable space$^1$.

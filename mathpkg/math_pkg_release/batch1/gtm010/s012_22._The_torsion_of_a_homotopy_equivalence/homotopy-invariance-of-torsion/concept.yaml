@@ -1,0 +1,27 @@
+id: homotopy-invariance-of-torsion
+title_en: "Homotopy Invariance of Torsion"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: simple-homotopy-theory
+difficulty: intermediate
+tags: [torsion, homotopy-equivalence, homotopy-invariance, whitehead-group]
+depends_on:
+  required:
+    - torsion-of-homotopy-equivalence
+    - cellular-homotopy-equivalence
+    - induced-map-on-whitehead-groups
+    - mapping-cylinder
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm010
+    author: "Marshall M. Cohen"
+    title: "A Course in Simple-Homotopy Theory"
+    chapter: "22"
+    section: "The torsion of a homotopy equivalence"
+    pages: "81-84"
+    role_in_book: "Lemma (22.1) — ensures τ(f) is well-defined on homotopy classes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

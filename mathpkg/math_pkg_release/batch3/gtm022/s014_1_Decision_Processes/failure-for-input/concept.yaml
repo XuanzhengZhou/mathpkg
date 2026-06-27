@@ -1,0 +1,23 @@
+id: failure-for-input
+title_en: "Failure for Input (of a Turing Machine)"
+title_zh: "输入失败（图灵机）"
+type: definition
+domain: logic
+subdomain: computability
+difficulty: intermediate
+tags: [turing-machine, failure, non-halting, computation]
+depends_on:
+  required: [turing-machine, computation]
+  recommended: [initial-state, terminal-state]
+  suggested: []
+source_books:
+  - book_id: gtm022
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "9"
+    section: "2"
+    pages: ""
+    role_in_book: "Defines when a Turing machine does not halt on a given input"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

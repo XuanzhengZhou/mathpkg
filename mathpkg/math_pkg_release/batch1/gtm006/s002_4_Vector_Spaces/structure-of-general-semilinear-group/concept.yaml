@@ -1,0 +1,23 @@
+id: structure-of-general-semilinear-group
+title_en: "Structure of \Gamma L(V) (Result 1.21)"
+title_zh: "\Gamma L(V)的结构（结果1.21）"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [semilinear, general-linear-group, semidirect-product, automorphism]
+depends_on:
+  required: [general-semilinear-group]
+  recommended: [general-linear-group]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "4. Vector Spaces"
+    pages: ""
+    role_in_book: "Gamma L(V) is the semidirect product of GL(V) by Aut(K)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

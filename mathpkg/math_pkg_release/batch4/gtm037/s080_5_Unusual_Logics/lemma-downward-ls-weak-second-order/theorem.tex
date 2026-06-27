@@ -1,0 +1,4 @@
+Let $\mathfrak{B}$ be an $\mathcal{L}$-structure and let $\varphi$ be a formula of weak second-order logic. Let $D_m$ be constructed as in the proof of the downward Lowenheim--Skolem theorem 19.17, with the addition that for each formula $\exists F_i \varphi$ satisfied in $\mathfrak{B}$, a finite subset $H$ witnessing this is added. Formally:
+$$D_{m+1} = D_m \cup \{ \mathcal{C} \{ a : \mathfrak{B} \models \varphi[x_a^k; y] \} : (G, \varphi, k, l, x, y) \in J_m \text{ and } \mathfrak{B} \models \exists v_k \varphi[x; y] \} \cup \{ \mathcal{C} \{ H : \mathfrak{B} \models \varphi[x; y_H^l] \} : (G, \varphi, k, l, x, y) \in J_m \text{ and } \mathfrak{B} \models \exists F_i \varphi[x; y] \}.$$
+
+The downward Lowenheim--Skolem theorem 19.17 then carries over verbatim to weak second-order logic using this construction.

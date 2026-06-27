@@ -1,0 +1,23 @@
+id: unique-primary-decomposition-when-primes-are-maximal
+title_en: "Theorem 9: In a noetherian ring where every proper prime ideal is maximal, every ideal has a unique irredundant primary decomposition"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [primary-decomposition, maximal-ideal, noetherian-ring, uniqueness]
+depends_on:
+  required: [lasker-noether-decomposition-theorem, isolated-primary-components-are-unique]
+  recommended: [primary-decomposition, maximal-ideal, noetherian-ring]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "IV"
+    section: "§5. Uniqueness theorems"
+    pages: "213"
+    role_in_book: "Uniqueness of primary decomposition when all primes are maximal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

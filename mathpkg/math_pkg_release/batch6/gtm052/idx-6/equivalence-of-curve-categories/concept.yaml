@@ -1,0 +1,23 @@
+id: equivalence-of-curve-categories
+title_en: "Equivalence of Categories of Curves and Function Fields"
+title_zh: "曲线范畴与函数域范畴的等价"
+type: corollary
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [equivalence-of-categories, nonsingular-projective-curves, function-fields, functor]
+depends_on:
+  required: [abstract-curve-functor-is-faithful, abstract-curve-functor-is-full, abstract-curve-is-projective]
+  recommended: [category-equivalence]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "6"
+    pages: "64"
+    role_in_book: "Corollary 6.12, equivalence of three categories related to curves"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

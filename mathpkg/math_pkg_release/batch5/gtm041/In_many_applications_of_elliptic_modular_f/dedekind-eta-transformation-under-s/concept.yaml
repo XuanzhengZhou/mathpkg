@@ -1,0 +1,23 @@
+id: dedekind-eta-transformation-under-s
+title_en: "Transformation of Dedekind Eta Function Under Inversion"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [eta-function, modular-transformation, dedekind, siegel-proof, functional-equation]
+depends_on:
+  required: [dedekind-eta-function]
+  recommended: [modular-group, analytic-continuation, residue-theorem]
+  suggested: [dedekind-sums, eta-functional-equation-general]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "3"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Theorem 3.1 — the transformation formula for the Dedekind eta function under the generator S of the modular group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

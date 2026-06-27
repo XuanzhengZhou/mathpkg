@@ -1,0 +1,23 @@
+id: poisson-structure-on-manifold
+title_en: "Poisson structure on a manifold"
+title_zh: "流形上的泊松结构"
+type: definition
+domain: geometry
+subdomain: poisson-geometry
+difficulty: advanced
+tags: [poisson-bracket, lie-algebra, derivation, jacobi-identity, symplectic-leaves]
+depends_on:
+  required: []
+  recommended: [lie-algebra, symplectic-manifold]
+  suggested: [poisson-manifold, hamiltonian-vector-field, momentum-map]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 14"
+    section: "A. Poisson manifolds"
+    pages: ""
+    role_in_book: "Defines a Poisson structure as a Lie algebra structure on smooth functions satisfying a derivation property"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

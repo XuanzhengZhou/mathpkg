@@ -1,0 +1,23 @@
+id: mean-first-passage-time-relations
+title_en: "Mean First Passage Time Relations"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [ergodic-chains, mean-first-passage-time, taboo-probabilities]
+depends_on:
+  required: [noncyclic-ergodic-chains-are-normal]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "3"
+    pages: ""
+    role_in_book: "Proposition 9-58 gives identities relating mean first passage times and taboo occupation times"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: equivalence-preserves-module-properties
+title_en: "Equivalence Preserves Module-Theoretic Properties"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [category-equivalence, simple-module, semisimple-module, finitely-generated, composition-length, artinian, noetherian, indecomposable]
+depends_on:
+  required: [category-equivalence, simple-module, semisimple-module, composition-length, artinian-module, noetherian-module]
+  recommended: [equivalence-submodule-lattice-isomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "6"
+    section: "21"
+    pages: ""
+    role_in_book: "21.8 Proposition, module properties preserved by equivalence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

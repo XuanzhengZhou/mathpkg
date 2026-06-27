@@ -1,0 +1,23 @@
+id: krein-weak-compactness
+title_en: "Krein's Theorem on Weak Compactness of Closed Convex Hull"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: ["krein", "smulian", "weak-compactness", "closed-convex-hull"]
+depends_on:
+  required: ["james-theorem", "mazur-lemma"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§19"
+  section: "19.E"
+  pages: "162-163"
+  role_in_book: "weak compactness of closed convex hull"
+content_hash: "066449a3b3800735"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

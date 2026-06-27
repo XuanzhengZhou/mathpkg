@@ -1,0 +1,5 @@
+$r(U) = \min\{|T| : T \subseteq U; c(T) = c(U)\}$ for all $U \in \mathcal{P}(V)$.
+
+For let $T$ be a subset of $V$ such that $c(T) = c(U)$ and $|T| = r(U)$; subject to these conditions, let $|T + (T \cap U)|$ be as small as possible. If this quantity is positive, let $x_1 \in T + (T \cap U)$ and let $S = T + \{x_1\}$. By C12c, $c(S) \subseteq c(T) = c(U)$, but since $|S| < |T| = r(U)$, we must have $c(S) \subset c(U)$. Hence by C10 and C12b, $U \notin c(S)$. Let $x_2 \in U + (U + c(S))$. Since $c(U) = c(S + \{x_1\})$, Lemma C14 implies that $c(S + \{x_2\}) = c(U)$. Furthermore, $r(U) = |T| = |S + \{x_2\}|$. However, $|(S + \{x_2\}) + [(S + \{x_2\}) \cap U]| < |T + (T \cap U)|$, contrary to our assumption. This proves C16.
+
+To verify C2, let $U \in \mathcal{P}(V)$ and $x \in V + U$. By C16 we choose $T \subseteq U + \{x\}$ such that $r(U + \{x\}) = |T|$ and $c(U + \{x\}) = c(T)$. If $T \subseteq U$, then $c(U + \{x\}) = c(T) \subseteq c(U)$. Hence $c(U) = c

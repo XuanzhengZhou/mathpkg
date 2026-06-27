@@ -1,0 +1,23 @@
+id: liapunov-stability-strict-local-minimum
+title_en: "Liapunov Stability via Strict Local Minimum of Potential Energy"
+title_zh: "势能严格局部极小蕴含李雅普诺夫稳定性"
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [stability, liapunov, potential-energy, equilibrium, phase-flow]
+depends_on:
+  required: [equilibrium-position-condition]
+  recommended: [conservation-of-energy, phase-space]
+  suggested: [liapunov-stability-definition]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "5"
+    section: "Equilibrium Positions"
+    pages: "113"
+    role_in_book: "Relates Liapunov stability of equilibrium to local minima of potential energy"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

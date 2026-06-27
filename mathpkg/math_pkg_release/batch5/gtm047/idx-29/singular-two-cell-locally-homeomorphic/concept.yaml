@@ -1,0 +1,23 @@
+id: singular-two-cell-locally-homeomorphic
+title_en: "Lemma on Locally Homeomorphic Singular 2-Cell"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [singular-2-cell, locally-homeomorphic, two-to-one, loop-theorem, Stallings]
+depends_on:
+  required: [singular-2-cell, nonsingular-2-cell, boundary-of-singular-2-cell, loop-conjugacy-class]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: ""
+    section: "29"
+    pages: "192-196"
+    role_in_book: "Technical lemma used in the Stallings proof; allows reduction to nonsingular 2-cell"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

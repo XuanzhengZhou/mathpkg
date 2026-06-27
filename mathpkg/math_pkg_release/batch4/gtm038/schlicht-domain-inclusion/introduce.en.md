@@ -1,0 +1,1 @@
+The maximal Riemann domain (holomorphic hull) is constructed by taking equivalence classes of points from all Riemann domains that extend a given family of holomorphic functions. This generalizes the construction of the universal covering space.

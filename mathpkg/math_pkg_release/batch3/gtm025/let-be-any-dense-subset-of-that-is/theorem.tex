@@ -1,0 +1,25 @@
+Let $D$ be any dense subset of $R$ [that is, $D^- = R$]. The following conditions on an extended real-valued function $f$ with domain $X$ are equivalent:
+
+(i) $f$ is $\mathcal{A}$-measurable;
+(ii) $f^{-1}([a, \infty]) \in \mathcal{A}$ for all $a \in D$;
+(iii) $f^{-1}([a, \infty]) \in \mathcal{A}$ for all $a \in D$;
+(iv) $f^{-1}([-\infty, a]) \in \mathcal{A}$ for all $a \in D$;
+(v) $f^{-1}([-\infty, a]) \in \mathcal{A
+
+Conversely, suppose that $f$ is $\mathcal{A}$-measurable. Then
+
+$$f^{-1}(\{-\infty\}) = \bigcap_{n=1}^{\infty} f^{-1}([-\infty, -n]) \in \mathcal{A}$$ and $$f^{-1}(\{\infty\}) = \bigcap_{n=1}^{\infty} f^{-1}(]n, \infty]) \in \mathcal{A}.$$
+
+Thus (i) obtains. To prove (ii), let $\mathcal{S} = \{S \subset R : f^{-1}(S) \in \mathcal{A}\}$. We will show that $\mathcal{S}$ is a $\sigma$-algebra of subsets of $R$. Clearly $\varnothing \in \mathcal{S}$. If $(S_n)$ is any sequence in $\mathcal{S}$, then $$f^{-1}\left(\bigcup_{n=1}^{\infty} S_n\right) = \bigcup_{n=1}^{\infty} f^{-1}(S_n) \in \mathcal{A};$$ thus countable unions of sets in $\mathcal{S}$ are again in $\mathcal{S}$. If $S \in \mathcal{S}$, then
+
+$$f^{-1}(R \cap S') = [f^{-1}(S) \cup f^{-1}(\{-\infty\}) \cup f^{-1}(\{\infty\})]' \in \mathcal{A};$$
+
+thus $\mathcal{S}$ is closed under complementation. It follows that $\mathcal{S}$ is a $\sigma$-algebra of subsets of $R$. We next show that $\mathcal{S}$ contains every open subset of $R$. Indeed, since $f$ is $\mathcal{A}$-measurable, $R \in \mathcal{S}$, and (i) is true, we have $f^{-1}(]a, \infty]) \in \mathcal{A}$ and $f^{-1}([-\infty, b[) \in \mathcal{A}$ whenever $-\infty \leq a < \infty$ and $-\infty < b \leq \infty$. Thus if $]a, b[$ is any open interval of $R$, we have
+
+$$f^{-1}(]a, b[) = f^{-1}([-\infty,
+
+subset of $P$ (10.28) and let $A = f(S)$. Then we have $A \subset C$, so that $\lambda(A) = 0$ and $A \in \mathcal{M}_1$. However $f^{-1}(A) = S \notin \mathcal{M}_1$. [Note that the above construction can be used to show that any two nowhere dense compact perfect subsets of $R$ are homeomorphic.]
+
+We conclude from (11.4) that the set $A$ in the above example is not a Borel set. This is yet another proof that there exist Lebesgue measurable sets that are not Borel sets [cf. (10.21.a)].
+
+Let $f, A$, and $S$ be as above and let $g = \xi_A$. It is clear that $g \circ f = \xi_S$ (on $[0, 1]$). Notice that $f$ and $g$ are both Lebesgue measurable and that $g \circ f$ is not. Thus the composition of two measurable functions need not be measurable. We do however have the following theorem.

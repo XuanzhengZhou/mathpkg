@@ -1,0 +1,23 @@
+id: space-section
+title_en: "Space-Section"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: intermediate
+tags: [space-section, causal-box, integration, general-relativity]
+depends_on:
+  required: [causal-box]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "R.K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.0"
+    pages: ""
+    role_in_book: "Defines space-sections as the upper boundary of a causal box, used for integral formulations of conservation laws"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

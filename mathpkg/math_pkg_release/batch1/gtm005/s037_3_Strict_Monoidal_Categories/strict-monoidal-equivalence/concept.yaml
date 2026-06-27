@@ -1,0 +1,23 @@
+id: strict-monoidal-equivalence
+title_en: "Strict Monoidal Equivalence Theorem"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [monoidal-category, strict-monoidal-category, categorical-equivalence, coherence]
+depends_on:
+  required: []
+  recommended: [monoidal-category, strict-monoidal-category, strong-monoidal-functor]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "3. Strict Monoidal Categories"
+    pages: ""
+    role_in_book: "Theorem 1: establishes equivalence between any monoidal category and a strict one"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

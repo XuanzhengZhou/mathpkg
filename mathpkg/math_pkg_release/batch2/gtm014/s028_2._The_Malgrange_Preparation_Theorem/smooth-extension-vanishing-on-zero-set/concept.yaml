@@ -1,0 +1,23 @@
+id: smooth-extension-vanishing-on-zero-set
+title_en: "Smooth Extension Vanishing on Zero Set of Polynomial"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: singularity-theory
+difficulty: advanced
+tags: [smooth-extension, preparation-theorem, polynomial-zero-set, malgrange]
+depends_on:
+  required: [smooth-initial-value-lemma, smooth-extension-lemma, borel-theorem-smooth-functions]
+  recommended: [generalized-cauchy-integral-formula]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky and Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "IV"
+    section: "2"
+    pages: ""
+    role_in_book: "Key technical proposition: extend functions so ∂̄-derivative vanishes on P_k=0"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

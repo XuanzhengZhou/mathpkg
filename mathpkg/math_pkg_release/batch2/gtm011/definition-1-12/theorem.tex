@@ -1,0 +1,25 @@
+If $\gamma: [a, b] \to \mathbb{C}$ is a rectifiable path and $f$ is a function defined and continuous on the trace of $\gamma$ then the (line) integral of $f$ along $\gamma$ is
+
+$$\int_{a}^{b} f(\gamma(t)) d\gamma(t).$$
+
+This line integral is also denoted by $\int_{\gamma} f = \int_{\gamma} f(z) dz$.
+
+As an example let us take $\gamma: [0, 2\pi] \to \mathbb{C}$ to be $\gamma(t) = e^{it}$ and define $f(z) = \frac{1}{z}$ for $z \neq 0$. Now $\gamma$ is differentiable so, by Theorem 1.9 we have
+
+$$\int_{\gamma} \frac{1}{z} dz = \int_{0}^{2\pi} e^{-it}(ie^{it}) dt = 2\pi i.$$
+
+Using the same definition of $\gamma$ and letting $m$ be any integer $\geq 0$ gives
+
+$$\int_{\gamma} z^{m} dz = \int_{0}^{2\pi} e^{imt}(ie^{it}) dt = i \int_{0}^{2\pi} \exp(i(m+1)t) dt - \int_{0}^{2\pi} \sin(m+1)t dt = 0.$$
+
+Now let $a, b \in \mathbb{C}$ and put $\gamma(t) = tb + (1-t)a$ for $0 \leq t \leq 1$. Then $\gamma'(t) = b - a$, and using the Fundamental Theorem of Calculus we get that for
+
+$$n \geq 0, \int_{\gamma} z^{n} dz = (b-a) \int_{0}^{1} [tb+(1-t)a]^{n} dt = \frac{1}{n+1} (b^{n+1}-a^{n+1}).$$
+
+There are more examples in the exercises, but now we will prove a certain "invariance" result which, besides being useful in computations, forms the basis for our definition of a curve.
+
+If $\gamma: [a, b] \to \mathbb{C
+
+1.15
+
+$$\left| \int_{\gamma} f - \sum_{k=1}^{n} f(\gamma(\tau_k)) [\gamma(t_k) - \gamma(t_{k-1})] \right| < \frac{1}{2} \epsilon.$$

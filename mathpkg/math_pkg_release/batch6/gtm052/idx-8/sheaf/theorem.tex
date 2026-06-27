@@ -1,0 +1,9 @@
+A presheaf $\mathcal{F}$ on a topological space $X$ is a \text{sheaf} if it satisfies the following additional conditions:
+
+(3) (Identity) If $U$ is an open set, $\{V_i\}$ is an open covering of $U$, and $s \in \mathcal{F}(U)$ is an element such that $s|_{V_i} = 0$ for all $i$, then $s = 0$.
+
+(3') Equivalently, if $s, t \in \mathcal{F}(U)$ satisfy $s|_{V_i} = t|_{V_i}$ for all $i$, then $s = t$.
+
+(4) (Gluing) If $U$ is an open set, $\{V_i\}$ is an open covering of $U$, and we have elements $s_i \in \mathcal{F}(V_i)$ for each $i$, with the property that for each $i,j$, $s_i|_{V_i \cap V_j} = s_j|_{V_i \cap V_j}$, then there exists an element $s \in \mathcal{F}(U)$ such that $s|_{V_i} = s_i$ for each $i$.
+
+In words: a function which is $0$ locally is $0$ globally, and a function which is defined consistently on an open covering can be glued to a global function.

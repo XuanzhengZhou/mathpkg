@@ -1,0 +1,23 @@
+id: cubics-through-seven-points-no-unassigned-base-points
+title_en: "Linear System of Cubics through Seven Points has No Unassigned Base Points"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [cubics, base-points, linear-system, projective-plane]
+depends_on:
+  required: [linear-system-with-assigned-base-points, cubic-curve]
+  recommended: [conics-through-points-no-unassigned-base-points, bezouts-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Proposition 4.3; cubics through up to 7 points have no unassigned base points"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

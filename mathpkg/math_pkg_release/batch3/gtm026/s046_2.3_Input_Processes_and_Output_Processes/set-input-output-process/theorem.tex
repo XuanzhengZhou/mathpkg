@@ -1,0 +1,14 @@
+Let $\mathbf{Set}$ be the category of sets and let $X_0$ be a fixed set. Define the process $X = - \times X_0: \mathbf{Set} \to \mathbf{Set}$. Then $X$ is both an input process and an output process in $\mathbf{Set}$.
+
+\textbf{Free dynamics} (input process structure):
+$$AX^{\sharp} = A \times X_0^*, \qquad A\mu_0: A \times X_0^* \times X_0 \to A \times X_0^*, \quad (a, w, x) \mapsto (a, wx),$$
+$$A\eta: A \to A \times X_0^*, \quad a \mapsto (a, \Lambda)$$
+where $\Lambda$ denotes the empty string and $X_0^*$ is the free monoid on $X_0$. The reachability map satisfies the algebraic recursion:
+$$(a, \Lambda) f^{\#} = a f, \qquad (a, wx) f^{\#} = ((a, w f^{\#}), x) \delta.$$
+
+\textbf{Cofree dynamics} (output process structure):
+$$AX_{\sharp} = A^{(X_0^*)}, \qquad AL: AX_{\sharp} \times X_0 \to AX_{\sharp}, \quad (g, x) \mapsto L_x \circ g$$
+where $L_x: X_0^* \to X_0^*$ is left translation by $x$ ($w \mapsto xw$), and
+$$A\Lambda: AX_{\sharp} \to A, \quad g \mapsto g(\Lambda)$$
+evaluates at the empty string. The observability map satisfies:
+$$\langle \Lambda, q f_{\#} \rangle = \langle q, f \rangle, \qquad \langle xw, q f_{\#} \rangle = \langle w, \langle (q, x)\delta, f_{\#} \rangle \rangle.$$

@@ -1,0 +1,23 @@
+id: dcc-ring-is-direct-sum-of-noetherian-primary-rings
+title_en: "Theorem 3: A ring with identity satisfying the d.c.c. is the direct sum of noetherian primary rings, and this decomposition is unique"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [descending-chain-condition, direct-sum, noetherian-ring, primary-ring, decomposition]
+depends_on:
+  required: [dcc-equivalent-to-acc-with-maximal-primes]
+  recommended: [direct-sum, primary-ideal, comaximal-ideals]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "IV"
+    section: "§2. Rings with descending chain condition"
+    pages: "203"
+    role_in_book: "Structure theorem for Artinian rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

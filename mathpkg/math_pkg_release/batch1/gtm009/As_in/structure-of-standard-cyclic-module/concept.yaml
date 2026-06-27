@@ -1,0 +1,23 @@
+id: structure-of-standard-cyclic-module
+title_en: "Structure of Standard Cyclic Modules"
+title_zh: "标准循环模的结构"
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [standard-cyclic-module, highest-weight, weight-decomposition, indecomposable, unique-irreducible-quotient]
+depends_on:
+  required: [standard-cyclic-module, maximal-vector, universal-enveloping-algebra, weight-space]
+  recommended: [verma-module, weyl-complete-reducibility]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "20"
+    section: "20.2"
+    pages: ""
+    role_in_book: "Central structure theorem describing standard cyclic modules; all finite-dimensional irreducible representations are quotients of such modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: pre-order
+title_en: "Pre-Order"
+title_zh: "预序"
+type: definition
+domain: foundations
+subdomain: order-theory
+difficulty: basic
+tags: [pre-order, binary-relation, reflexive, transitive, set-theory]
+depends_on:
+  required: []
+  recommended: [binary-relation, partial-order]
+  suggested: [compatible-pre-order]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "V: Order Structures"
+    section: "8. Stone-Weierstrass and Representation Theorems"
+    pages: ""
+    role_in_book: "exercise definition, basic order-theoretic concept"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

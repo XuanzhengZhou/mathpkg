@@ -1,0 +1,23 @@
+id: nowhere-dense-closed-set-homeomorphic-to-nullset
+title_en: "Nowhere Dense Closed Set Homeomorphic to Nullset"
+title_zh: "无处稠密闭集同胚于零测集"
+type: lemma
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [nowhere-dense, nullset, homeomorphism, unit-interval]
+depends_on:
+  required: [nowhere-dense-set, nullset, homeomorphism]
+  recommended: [lebesgue-measure]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "13"
+    section: "13"
+    pages: "57-63"
+    role_in_book: "Motivating observation: nowhere dense closed sets can be mapped to nullsets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

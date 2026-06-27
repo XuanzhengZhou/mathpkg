@@ -1,0 +1,23 @@
+id: continuous-function-on-w-constant-on-tail
+title_en: "Every Continuous Function on W is Constant on a Tail"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: general-topology
+difficulty: advanced
+tags: [well-ordered-space, continuous-function, constant-on-tail, countably-compact]
+depends_on:
+  required: [w-and-w-star-definition, no-countable-set-cofinal-in-w]
+  recommended: [countably-compact, cofinal-set, nested-intersection]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.12"
+    pages: ""
+    role_in_book: "Theorem 5.12(c): Every f in C(W) is constant on a tail, a key structural result used to study C(W) and its maximal ideals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

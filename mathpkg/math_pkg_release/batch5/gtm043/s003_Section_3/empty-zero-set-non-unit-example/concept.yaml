@@ -1,0 +1,23 @@
+id: empty-zero-set-non-unit-example
+title_en: "Example: Bounded Function with Empty Zero-Set Not a Unit of C*"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: basic
+tags: [c-star, unit, counterexample, natural-numbers, bounded-function]
+depends_on:
+  required: [c-star, unit-of-cstar-zero-set-empty]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.13"
+    pages: ""
+    role_in_book: "Provides the simplest example showing Z(f)=∅ does not guarantee f is a unit in C*"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

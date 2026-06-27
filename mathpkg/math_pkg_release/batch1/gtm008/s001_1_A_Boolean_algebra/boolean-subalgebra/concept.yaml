@@ -1,0 +1,26 @@
+id: boolean-subalgebra
+title_en: "Boolean Subalgebra"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: boolean-algebras
+difficulty: basic
+tags:
+  - boolean-algebra
+  - subalgebra
+depends_on:
+  required:
+    - boolean-algebra
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "3"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines subalgebra of a Boolean algebra via subset and restricted operations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

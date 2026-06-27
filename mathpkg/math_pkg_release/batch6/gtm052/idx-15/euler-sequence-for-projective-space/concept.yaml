@@ -1,0 +1,23 @@
+id: euler-sequence-for-projective-space
+title_en: "Euler Sequence for the Sheaf of Differentials on Projective Space"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [euler-sequence, projective-space, sheaf-of-differentials, twisting-sheaf]
+depends_on:
+  required: [sheaf-of-relative-differentials, projective-space, twisting-sheaf]
+  recommended: [exact-sequence-of-sheaves, serre-twisting-sheaf]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Theorem 8.13: the Euler exact sequence 0 → Ω_{P^n_A/A} → O(-1)^{n+1} → O → 0, a fundamental computational tool for differentials on projective varieties"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

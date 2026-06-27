@@ -1,0 +1,23 @@
+id: geodesic-constant-speed
+title_en: "Geodesics Have Constant Speed"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-geometry
+difficulty: basic
+tags: [geodesic, constant-speed, semi-riemannian, metric]
+depends_on:
+  required: [curve, geodesic]
+  recommended: [levi-civita-connection]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "Sachs and Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "0"
+    section: "0.0.6"
+    pages: ""
+    role_in_book: "Establishes that the squared norm of the tangent vector of a geodesic is constant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

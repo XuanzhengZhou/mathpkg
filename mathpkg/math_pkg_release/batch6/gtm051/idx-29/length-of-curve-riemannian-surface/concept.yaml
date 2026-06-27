@@ -1,0 +1,23 @@
+id: length-of-curve-riemannian-surface
+title_en: "Length of a Curve on a Riemannian Surface"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [length, curve, riemannian-metric, surface, arc-length]
+depends_on:
+  required: [riemannian-metric, differentiable-surface, curve-on-manifold, tangent-vector]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.5"
+    pages: "118-119"
+    role_in_book: "Definition of the length of a curve on a surface equipped with a Riemannian metric, extending the single-chart definition to manifolds with atlases"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

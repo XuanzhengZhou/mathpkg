@@ -1,0 +1,23 @@
+id: theorem-9-10-existence-nontrivial-d
+title_en: "Theorem 9.10: Existence of Non-Trivial Division Ring D for GF(p^n) with n > 1"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: division-rings
+difficulty: advanced
+tags: [division-ring, existence, finite-field, anti-automorphism, gf-pn]
+depends_on:
+  required: [division-ring-from-skewfield-anti-automorphism, lemma-9-9-finite-d-associative-iff-theta-1]
+  recommended: [finite-field]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "Hughes, D.R. and Piper, F.C."
+    title: "Projective Planes"
+    chapter: "IX"
+    section: "4"
+    pages: ""
+    role_in_book: "Sufficiency of n > 1 for constructing non-associative division rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

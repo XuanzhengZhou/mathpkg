@@ -1,0 +1,23 @@
+id: positive-capacity-for-ergodic-chains
+title_en: "Positive capacity for ergodic chains"
+title_zh: "遍历链的正容量"
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [capacity, ergodic-chain, symmetric-random-walk]
+depends_on:
+  required: [capacity-of-set, ergodic-chain, noncyclic-ergodic]
+  recommended: [symmetric-random-walk, positive-capacity-condition]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Ensures capacity is positive for large classes of chains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

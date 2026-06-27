@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $s_1, \ldots, s_n \in K$. Then $k\langle s_1, \ldots, s_n \rangle = k\langle S \rangle$, $k[s_1, \ldots, s_n] = k[S]$, and $k(s_1, \ldots, s_n) = k(S)$ where $S = \{s_1, \ldots, s_n\}$.

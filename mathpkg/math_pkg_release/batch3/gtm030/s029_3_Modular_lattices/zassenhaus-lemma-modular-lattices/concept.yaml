@@ -1,0 +1,23 @@
+id: zassenhaus-lemma-modular-lattices
+title_en: "Zassenhaus Lemma for Modular Lattices"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: lattice-theory
+difficulty: intermediate
+tags: [zassenhaus, modular, lattice, projective-intervals, butterfly-lemma]
+depends_on:
+  required: [modular-lattice-definition, modular-lattice-interval-isomorphism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "3"
+    pages: ""
+    role_in_book: "The lattice-theoretic analogue of Zassenhaus' lemma (third isomorphism theorem), used to prove the Schreier refinement theorem for modular lattices."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

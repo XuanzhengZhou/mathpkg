@@ -1,0 +1,23 @@
+id: euler-class-euler-characteristic-relation
+title_en: "Euler Class — Euler Characteristic Relation"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: [euler-class, euler-characteristic, tangent-bundle, orientation-class, closed-manifold]
+depends_on:
+  required: [euler-characteristic, euler-class, tangent-bundle, orientation-class]
+  recommended: [closed-manifold, connected-manifold, fundamental-class]
+  suggested: [duality-morphism, thom-isomorphism]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "7"
+    section: "7.2"
+    pages: ""
+    role_in_book: "Main theorem relating Euler class of tangent bundle to Euler characteristic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

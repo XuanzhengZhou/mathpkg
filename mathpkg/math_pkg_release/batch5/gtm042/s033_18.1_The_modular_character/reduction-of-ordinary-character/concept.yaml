@@ -1,0 +1,23 @@
+id: reduction-of-ordinary-character
+title_en: "Modular Character as Reduction of Ordinary Character"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: intermediate
+tags: ["modular-character", "ordinary-character", "reduction-modulo-p", "stable-lattice"]
+depends_on:
+  required: ["modular-character", "ordinary-character", "reduction-modulo-p"]
+  recommended: ["stable-lattice", "valuation-ring"]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "18"
+    section: "18.1"
+    pages: ""
+    role_in_book: "Property (vi); shows that the modular character of a reduction is the restriction of the ordinary character to $G_{\text{reg}}$."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

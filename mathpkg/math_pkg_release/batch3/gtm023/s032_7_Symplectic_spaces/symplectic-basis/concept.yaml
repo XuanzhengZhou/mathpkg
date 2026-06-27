@@ -1,0 +1,23 @@
+id: symplectic-basis
+title_en: "Symplectic Basis"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [symplectic, basis, symplectic-vector-space, canonical-form]
+depends_on:
+  required: [symplectic-inner-product]
+  recommended: [even-dimensionality-of-symplectic-spaces]
+  suggested: [standard-symplectic-form, darboux-theorem]
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "7"
+    pages: "347-352"
+    role_in_book: "Defines the canonical basis for a symplectic vector space, analogous to an orthonormal basis in an inner product space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

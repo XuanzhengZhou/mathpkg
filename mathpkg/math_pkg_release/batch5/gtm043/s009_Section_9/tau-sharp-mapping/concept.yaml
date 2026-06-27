@@ -1,0 +1,23 @@
+id: tau-sharp-mapping
+title_en: "The Mapping tau-sharp on z-Filters"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [z-filter, continuous-mapping, preimage, zero-set, induced-map]
+depends_on:
+  required: [z-filter, zero-set, continuous-mapping]
+  recommended: [z-filter-fixed-free]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4.12"
+    pages: ""
+    role_in_book: "Defines the map tau-sharp that sends a z-filter on X to a family of zero-sets on Y via preimages under a continuous map tau: X → Y."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,26 @@
+id: alpha-measure-dual-formula
+title_en: "Relation Between Alpha-Measure and Dual Hitting Probability"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [duality, superregular-measure, hitting-probability, expected-visits]
+depends_on:
+  required: [
+    - dual-b-e-formula, alpha-dual-matrix
+  ]
+  recommended: [
+  ]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "2. Duality"
+    pages: ""
+    role_in_book: "Proposition 6-19: sum of alpha-weighted expected visits equals alpha-weighted dual hitting probability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: complementary-stable-subspace-for-maximal-cyclic
+title_en: "Complementary Stable Subspace for Maximal Cyclic Subspace"
+title_zh: "最大循环子空间有稳定补子空间"
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [cyclic-subspace, corollary-nu-equals-mu-iff-dim-f-equals-deg-mu]
+  recommended: [dual-space, annihilator, minimum-polynomial]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Key lemma for decomposing E: maximal cyclic subspace has a stable complement"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

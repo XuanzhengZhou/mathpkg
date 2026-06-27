@@ -1,0 +1,23 @@
+id: parameterized-end-in-functor-category
+title_en: "Parameterized End as an End in the Functor Category"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [end, parameter, functor-category, exponential-adjunction, dinatural]
+depends_on:
+  required: []
+  recommended: [parameter-theorem-for-ends, end-of-natural-transformation, functor-category]
+  suggested: [adjunction, cartesian-closed-category, coend]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IX"
+    section: "7"
+    pages: "242-243"
+    role_in_book: "Identifies a parameterized end as itself an end in the functor category X^P, via the exponential adjunction Cat(P × C^op × C, X) ≅ Cat(C^op × C, X^P)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

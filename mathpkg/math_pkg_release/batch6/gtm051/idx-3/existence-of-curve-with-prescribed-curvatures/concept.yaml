@@ -1,0 +1,23 @@
+id: existence-of-curve-with-prescribed-curvatures
+title_en: "Existence of a Curve with Prescribed Curvature Functions"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [frenet-frame, curvature, existence-theorem, ordinary-differential-equations, curve-theory]
+depends_on:
+  required: [ith-curvature-distinguished-frenet-frame, fundamental-theorem-of-curves-congruence]
+  recommended: [linear-system-of-odes, existence-and-uniqueness-ode]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Thierry Aubin"
+    title: "A Course in Differential Geometry"
+    chapter: "1"
+    section: "1.3"
+    pages: "22-25"
+    role_in_book: "Existence theorem for curves with prescribed curvature functions in R^n"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

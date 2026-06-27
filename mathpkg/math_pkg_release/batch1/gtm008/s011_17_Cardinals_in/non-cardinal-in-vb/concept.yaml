@@ -1,0 +1,23 @@
+id: non-cardinal-in-vb
+title_en: "Non-Cardinals Are Not Cardinals in V^{(B)}"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [boolean-valued-universe, cardinal, check-embedding]
+depends_on:
+  required: []
+  recommended: [boolean-valued-universe, cardinal-definition, bounded-formula, corollary-13-18]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "17"
+    section: "Cardinals in V^{(B)}"
+    pages: ""
+    role_in_book: "Shows that if α is not a cardinal in V, then the Boolean value of ¬Card(ǎ) is 1 in V^{(B)}"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

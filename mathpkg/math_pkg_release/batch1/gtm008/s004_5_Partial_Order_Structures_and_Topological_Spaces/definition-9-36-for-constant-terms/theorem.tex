@@ -1,0 +1,42 @@
+Let $M[F_0] \triangleq M[h] \triangleq \{D(t) \mid t \in T\}$, where $T = \{T_\alpha^M \mid \alpha \in M\}$.
+
+When we wish to identify the particular denotation operator associated with a particular $M[F_0]$ we will write $D_{M[F_0]}$ instead of $D$.
+
+4. $D'(V(t)) \xrightarrow{\Delta} (\exists k \in M) D'(t = k)$.
+5. $D'(F(t)) \xrightarrow{\Delta} (\exists k \in F_0) D'(t = k)$.
+6. $D'(\underline{k}_1 \in \underline{k}_2) \xrightarrow{\Delta} k_1 \in k_2, \quad k_1, k_2 \in K
+
+as will become clear from the applications in the next sections. We can however give an application of this method now:
+
+Suppose that $M$ is a countable standard transitive model of $ZF$, $B \in M$ and $B$ is $M$-complete, also $K \in M$ and $(V[f_0])^M$ is defined as before. Now assume that there is some sentence $\varphi$ such that $[[\varphi]] \neq 0$. Then there is a homomorphism $h: |B| \rightarrow |2|$ that is $M$-complete, sends $[[\varphi]]$ to 1, and from which we get a standard 2-valued model $M[F_0]$ of $ZF$ in which $\varphi$ is true in the ordinary sense of 2-valued logic.
+
+10. Forcing
+
+As an application of the general theory developed in the previous sections we give a definition of “forcing” and derive its elementary properties. Throughout this section, $M$ denotes a standard transitive model of $ZF$, $P \in M$ is a partial order structure, and $B$ is the corresponding $M$-complete Boolean algebra of regular open sets of $P$ in the relative sense of $M$. Furthermore we have
+
+$h$ an $M$-complete homomorphism of $B$ into 2,
+$F$ an $M$-complete ultrafilter for $B$, and
+$G$ a set that is $P$-generic over $M$,
+
+such that $h, F,$ and $G$ are related to each other as described in §2. Thus one of them may be given and the remaining sets are obtained from it as in §2.
+
+We now specialize the construction of $M[F_0]$ to one of the following cases:
+
+1. $K = B$ and $f_0: B \rightarrow B$ is the identity on $B$ or
+2. $K = P$ and $f_0: P \rightarrow B$ is defined by
+
+$$f_0(p) = [p]^{-0}, \quad p \in P.$$
+
+In case 1
+
+$$F_0 = \{b \in B \mid h(f_0(b)) = 1\}$$
+$$= \{b \in B \mid h(b) = 1\}$$
+$$= F.$$
+
+In case 2
+
+$$F_0 = \{p \in P \mid h([p]^{-0}) = 1\}$$
+$$= \{p \in P \mid [p]^{-0} \in F\}$$
+$$= G.$$
+
+Since $h, F, G$ are obtainable from each other in a simple way, we have in both cases $M[F_0] = M[h] = M[G] = M[F]$ and Theorem 10.1 follows.

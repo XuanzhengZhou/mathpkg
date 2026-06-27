@@ -1,0 +1,23 @@
+id: free-module-from-constant-vector-space-dimension
+title_en: "Free Module from Constant Vector Space Dimension"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [free-modules, nakayama-lemma, torsion-free, dvr, vector-space-dimension]
+depends_on:
+  required: [nakayama-lemma, torsion-free-module]
+  recommended: [discrete-valuation-ring]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Lemma used in the proof that Ω_{X/k} locally free of rank n implies nonsingularity; if A is a local domain, M is torsion-free of finite type, and dim_k M⊗k = r, then M ≅ A^r"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: configuration-manifold-rigid-body
+title_en: "Configuration Manifold of a Rigid Body"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [rigid-body, configuration-space, special-orthogonal-group, manifold]
+depends_on:
+  required: [rigid-body]
+  recommended: [euclidean-space, rotation-group]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "6"
+    section: "28"
+    pages: ""
+    role_in_book: "Theorem identifying the configuration manifold of a rigid body as R^3 × SO(3)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: p-adic-digit-sum
+title_en: "p-adic Digit Sum"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: p-adic-analysis
+difficulty: basic
+tags: [p-adic-digits, digit-sum, stickelberger, combinatorial-number-theory]
+depends_on:
+  required: []
+  recommended: [p-adic-numbers]
+  suggested: [gauss-sum, bernoulli-numbers]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "2"
+    pages: ""
+    role_in_book: "Auxiliary definition for Stickelberger's Theorem: the p-adic digit sum s(k) and product γ(k) determine the prime ideal factorization of Gauss sums"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

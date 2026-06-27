@@ -1,0 +1,23 @@
+id: discontinuous-functional-dense
+title_en: "Discontinuous Functionals Have Dense Kernel"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: ["discontinuous-functional", "dense-kernel", "hyperplane"]
+depends_on:
+  required: ["finite-rank-continuity"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§11"
+  section: "11.D"
+  pages: "63"
+  role_in_book: "characterization of discontinuity"
+content_hash: "4acfbeae50e99fa8"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

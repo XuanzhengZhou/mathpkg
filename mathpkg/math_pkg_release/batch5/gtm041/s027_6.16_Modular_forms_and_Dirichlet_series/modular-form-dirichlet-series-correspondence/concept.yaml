@@ -1,0 +1,23 @@
+id: modular-form-dirichlet-series-correspondence
+title_en: "Modular Form and Dirichlet Series Correspondence"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [modular-forms, dirichlet-series, fourier-coefficients, hecke]
+depends_on:
+  required: []
+  recommended: [modular-form, dirichlet-series]
+  suggested: [fourier-expansion-of-modular-form]
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.16"
+    pages: "147-153"
+    role_in_book: "Introduces the fundamental correspondence between a modular form and its associated Dirichlet series formed with the same Fourier coefficients"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

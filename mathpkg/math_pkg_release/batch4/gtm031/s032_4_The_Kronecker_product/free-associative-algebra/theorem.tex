@@ -1,0 +1,15 @@
+Let $\Re$ be an arbitrary vector space over a field $\Phi$. Introduce the Kronecker products
+
+$$\Re_0^i \equiv \underbrace{\Re \times \Re \times \cdots \times \Re}_{i\text{ factors}}$$
+
+for $i \geq 1$, and adopt the convention that $\Re_0^1 = \Re$ and $\Re_0^0 = \Phi$. Hence $\Re_0^i$ is defined for all $i = 0, 1, 2, \cdots$. By associativity, $\Re_0^i \times \Re_0^j = \Re_0^{i+j}$ if $i, j \geq 1$.
+
+Let $\mathfrak{F}$ be the direct sum of the spaces $\Re_0^i$:
+
+$$\mathfrak{F} = \Re_0^0 \oplus \Re_0^1 \oplus \Re_0^2 \oplus \cdots.$$
+
+Introduce a multiplication $\times$ in $\mathfrak{F}$ by defining $(\sum x^{(i)}) \times (\sum y^{(j)}) = \sum z^{(k)}$ where
+
+$$z^{(k)} = x^{(0)} \times y^{(k)} + x^{(1)} \times y^{(k-1)} + \cdots + x^{(k)} \times y^{(0)}.$$
+
+Then $\mathfrak{F}$ is an associative algebra. This algebra is called the \text{free (associative) algebra} based on the vector space $\Re$.

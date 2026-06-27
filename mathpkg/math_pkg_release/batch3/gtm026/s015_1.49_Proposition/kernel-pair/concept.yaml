@@ -1,0 +1,23 @@
+id: kernel-pair
+title_en: "Kernel Pair"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [kernel-pair, pullback, equivalence-relation, internal-equivalence-relation]
+depends_on:
+  required: []
+  recommended: [pullback, kernel, equalizer]
+  suggested: [coequalizer-mono-factorization]
+source_books:
+  - book_id: "gtm026"
+    author: "Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.49"
+    pages: ""
+    role_in_book: "Defines the kernel pair of a morphism as the pullback of (f, f, B), used in constructing coequalizer-mono factorizations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

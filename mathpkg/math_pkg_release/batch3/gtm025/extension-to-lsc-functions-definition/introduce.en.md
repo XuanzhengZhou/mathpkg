@@ -1,0 +1,1 @@
+The first extension of a nonnegative linear functional is to nonnegative lower semicontinuous functions, by approximating them from below with continuous functions. This preserves the supremum property.

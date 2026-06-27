@@ -1,0 +1,1 @@
+A Riemann surface is a one-dimensional complex manifold. The classical definition as a concrete Riemann surface over $\mathbb{C}$ via a local homeomorphism is equivalent to the abstract manifold definition.

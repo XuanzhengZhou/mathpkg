@@ -1,0 +1,23 @@
+id: matrix-invertibility-criterion
+title_en: "Matrix Invertibility via Determinant"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [matrix, invertibility, determinant, linear-transformation]
+depends_on:
+  required: [equality-of-row-rank-and-determinantal-rank, determinant]
+  recommended: [row-rank-of-a-matrix]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "1"
+    section: "8"
+    pages: "33-35"
+    role_in_book: "Characterizes invertible matrices by non-vanishing determinant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

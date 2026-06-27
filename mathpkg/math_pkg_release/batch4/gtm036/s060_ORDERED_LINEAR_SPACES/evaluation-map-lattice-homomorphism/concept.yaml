@@ -1,0 +1,23 @@
+id: evaluation-map-lattice-homomorphism
+title_en: "Evaluation Map into the Order Bidual is a Lattice Homomorphism"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: ordered-linear-spaces
+difficulty: advanced
+tags: [evaluation-map, lattice-homomorphism, order-bidual, vector-lattice, order-dual]
+depends_on:
+  required: [mackey-topology-order-dual-bound, lattice-operations-mackey-continuity]
+  recommended: [order-dual]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "ORDERED LINEAR SPACES"
+    pages: "224"
+    role_in_book: "Shows that the canonical embedding preserves lattice structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

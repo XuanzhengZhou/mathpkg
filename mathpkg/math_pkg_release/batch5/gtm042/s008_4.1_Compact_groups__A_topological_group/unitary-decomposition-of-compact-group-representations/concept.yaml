@@ -1,0 +1,23 @@
+id: unitary-decomposition-of-compact-group-representations
+title_en: "Unitary Decomposition of Compact Group Representations"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [compact-group, unitary-representation, hilbert-space, peter-weyl, direct-sum]
+depends_on:
+  required: [linear-representation-of-compact-group, haar-measure]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "4"
+    section: "4.3 Linear representations of compact groups"
+    pages: ""
+    role_in_book: "States that every Hilbert space representation of a compact group decomposes as a direct sum of finite-dimensional unitary representations, allowing reduction to the finite-dimensional case."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

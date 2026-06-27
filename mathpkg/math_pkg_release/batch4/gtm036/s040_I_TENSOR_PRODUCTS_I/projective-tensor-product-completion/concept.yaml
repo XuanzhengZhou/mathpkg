@@ -1,0 +1,23 @@
+id: projective-tensor-product-completion
+title_en: "Completed Projective Tensor Product"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [tensor-product, projective-topology, completion, frechet-space, locally-convex-space]
+depends_on:
+  required: [algebraic-tensor-product-via-bilinear-forms]
+  recommended: [projective-tensor-product-topology, completion-of-topological-vector-space]
+  suggested: [frechet-space, barrelled-space]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "I"
+    section: "I TENSOR PRODUCTS I"
+    pages: ""
+    role_in_book: "Defines the completion of the algebraic tensor product under the projective tensor product topology."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

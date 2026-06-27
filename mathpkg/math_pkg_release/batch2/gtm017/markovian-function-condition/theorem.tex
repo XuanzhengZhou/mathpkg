@@ -1,0 +1,7 @@
+Let $X(m)$ be a Markov chain and $Y(m) = f(X(m))$ where $f$ maps states to sets $S_\alpha$. The process $Y(m)$ is Markovian if and only if for all $\alpha, \beta$,
+$$p_{i, S_\beta} = C_{S_\alpha, S_\beta},$$
+whenever $i \in S_\alpha$, where $p_{i, S_\beta} = \sum_{j \in S_\beta} p_{i,j}$.
+
+For reversible chains, this condition is both necessary and sufficient. In matrix notation:
+$$(I - BA)PB = 0,$$
+where $B$ is the collapsing matrix ($b_{i,j} = 1$ if $i \in S_j$) and $A = (B'DB)^{-1}B'D$.

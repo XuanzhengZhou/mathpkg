@@ -1,0 +1,23 @@
+id: no-ideal-between-a-and-b-condition
+title_en: "Condition for No Ideal Between Two Ideals"
+title_zh: "两理想间无中间理想的条件"
+type: corollary
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [maximal-ideal, ideal-chain, corollary]
+depends_on:
+  required: [simple-modules-over-commutative-rings, maximal-ideal]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "IV"
+    section: "13"
+    pages: ""
+    role_in_book: "Corollary 1 to Theorem 28. Gives necessary and sufficient condition for no intermediate ideal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: krull-schmidt-linear-transformations
+title_en: "Krull-Schmidt Theorem for Sets of Linear Transformations"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [krull-schmidt, direct-sum-decomposition, indecomposable, omega-isomorphism]
+depends_on:
+  required: [omega-isomorphic-invariant-subspaces, decomposable-set-linear-transformations]
+  recommended: [krull-schmidt-theorem-groups]
+  suggested: [indecomposable-module]
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "II"
+    section: "6"
+    pages: ""
+    role_in_book: "Fundamental uniqueness theorem for direct sum decompositions into indecomposable Omega-invariant subspaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: acf-decidability
+title_en: "Decidability of ACF and ACF_p"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [decidability, acf, algebraically-closed-field, recursive-axiomatization, complete-theory]
+depends_on: {required: [complete-theory-decidability, tarski-acf-completeness], recommended: [acf-p-theory, acf-0-theory], suggested: []}
+source_books: [{book_id: "gtm053", author: "Yuri I. Manin", title: "A Course in Mathematical Logic for Mathematicians", chapter: "4", section: "4.12", pages: "", role_in_book: "Corollary: the explicit axiomatizations of ACF_p and RCF are recursive, hence these theories are decidable; even the incomplete theory ACF is decidable"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

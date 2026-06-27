@@ -1,0 +1,23 @@
+id: stiefel-whitney-chern-axioms-uniqueness
+title_en: "Uniqueness of Stiefel-Whitney and Chern Classes via Axioms"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: characteristic-classes
+difficulty: intermediate
+tags: [stiefel-whitney-classes, chern-classes, characteristic-classes, uniqueness, axioms, splitting-principle]
+depends_on:
+  required: [existence-of-splitting-map, stiefel-whitney-class, chern-class]
+  recommended: [cohomology-ring, line-bundle]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "5"
+    section: "5.4"
+    pages: "page_0265–page_0270"
+    role_in_book: "Establishes that the Stiefel-Whitney and Chern class axioms uniquely determine these characteristic classes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

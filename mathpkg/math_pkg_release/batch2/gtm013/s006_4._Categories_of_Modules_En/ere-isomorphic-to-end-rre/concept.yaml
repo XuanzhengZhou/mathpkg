@@ -1,0 +1,23 @@
+id: ere-isomorphic-to-end-rre
+title_en: "eRe is Isomorphic to End(R Re) and End(eR_R)"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [idempotent, endomorphism-ring, ring-isomorphism, corner-ring]
+depends_on:
+  required: [em-isomorphic-to-hom-re-m]
+  recommended: [endomorphism-ring-of-regular-module, idempotent]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "4"
+    pages: ""
+    role_in_book: "Identifies the endomorphism ring of an idempotent-generated ideal with the corner ring eRe"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

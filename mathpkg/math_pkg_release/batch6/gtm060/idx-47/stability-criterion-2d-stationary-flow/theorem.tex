@@ -1,0 +1,11 @@
+Let $D$ be a region in the Euclidean plane with Cartesian coordinates $(x, y)$. Consider a stationary flow with stream function $\psi = \psi(x, y)$. Define the second variation of the kinetic energy on the tangent space to the manifold of fields isovorticial to the stationary flow:
+$$2 d^2 H = \iint_D (\delta v)^2 + \frac{\Delta \psi}{\nabla \Delta \psi} (\delta r)^2 \, dx \, dy,$$
+where $\delta v$ is the variation of the velocity field and $\delta r = \operatorname{curl} \delta v$ is the variation of the vorticity.
+
+Assume the stationary flow satisfies the bounds
+$$c \leq -\frac{\nabla \psi}{\nabla \Delta \psi} \leq C, \quad 0 < c < C < \infty.$$
+
+If the quadratic form
+$$\iint_D (\nabla \varphi)^2 + \frac{\nabla \psi}{\nabla \Delta \psi} (\Delta \varphi)^2 \, dx \, dy$$
+is positive-definite (respectively negative-definite) with respect to $\nabla \varphi$, then the stationary flow is Lyapunov stable. Moreover, any perturbation $\varphi$ is bounded in terms of the initial perturbation $\varphi_0$ by
+$$\iint_D (\nabla \varphi)^2 + c (\Delta \varphi)^2 \, dx \, dy \leq \iint_D (\nabla \varphi_0)^2 + C (\Delta \varphi_0)^2 \, dx \, dy.$$

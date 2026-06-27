@@ -1,0 +1,23 @@
+id: projections-total-in-wstar
+title_en: "In any W*-algebra, the set of all projections is total; every positive element is approximated by linear combinations of projections"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: von-neumann-algebras
+difficulty: advanced
+tags: [wstar-algebra, projections, total-set, spectral-theorem, stonian-space]
+depends_on:
+  required: [wstar-algebra-order-complete]
+  recommended: [spectral-theorem, maximal-commutative-subalgebra]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Shows that projections are norm-total in W*-algebras, a key structural result"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

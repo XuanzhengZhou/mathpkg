@@ -1,0 +1,23 @@
+id: hartogs-kugelsatz
+title_en: "Hartogs' Kugelsatz (Removable Compact Singularities)"
+title_zh: "Hartogs 球定理（可去紧奇点）"
+type: theorem
+domain: analysis
+subdomain: several-complex-variables
+difficulty: advanced
+tags: [holomorphic-extension, compact-removable-singularities, several-complex-variables, hartogs-phenomenon, bochner-martinelli]
+depends_on:
+  required: [holomorphic-function, domain, compact-set, connected-set]
+  recommended: [bochner-martinelli-integral-formula, continuity-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm038"
+    author: "Hans Grauert, Klaus Fritzsche"
+    title: "Several Complex Variables"
+    chapter: "II. Domains of Holomorphy"
+    section: "1. The Continuity Theorem"
+    pages: "39-41"
+    role_in_book: "Generalization of Theorem 1.3: holomorphic functions on G-K extend to G when K is compact and G-K is connected"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

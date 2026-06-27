@@ -1,0 +1,23 @@
+id: sheaf-of-relative-differentials
+title_en: "Sheaf of Relative Differentials"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [sheaf-of-differentials, diagonal-morphism, schemes, quasicoherent-sheaves]
+depends_on:
+  required: [relative-differentials-via-diagonal, scheme, diagonal-morphism, sheaf-of-ideals]
+  recommended: [quasicoherent-sheaf, closed-subscheme]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Definition of the sheaf of relative differentials Ω_{X/Y} for a morphism of schemes f: X → Y, defined as Δ^*(I/I²) where I is the sheaf of ideals of the diagonal Δ(X) in an open subset of X ×_Y X"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

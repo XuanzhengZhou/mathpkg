@@ -1,0 +1,23 @@
+id: geodesic-curvature
+title_en: "Geodesic Curvature"
+title_zh: "测地曲率"
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [geodesic-curvature, curves-on-surfaces, frenet-frame, covariant-derivative]
+depends_on:
+  required: [frenet-frame-on-surface, covariant-derivative-on-surface, regular-curve]
+  recommended: [first-fundamental-form, geodesic]
+  suggested: [curvature-of-plane-curve, second-fundamental-form]
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "4"
+    section: "4.2"
+    pages: "p.88"
+    role_in_book: "Definition 4.2.6(ii) — defines the geodesic curvature of a curve on a surface as a generalization of plane curve curvature"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

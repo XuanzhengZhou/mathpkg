@@ -1,0 +1,23 @@
+id: symmetric-random-walk-recurrence-transience
+title_en: "Recurrence and Transience of the Symmetric Random Walk"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: intermediate
+tags: [recurrence, transience, symmetric-random-walk, hitting-probabilities, n-dimensional]
+depends_on:
+  required: []
+  recommended: [hitting-probability, potential-kernel, multinomial-coefficient, stirlings-approximation]
+  suggested: [brownian-motion-limit, n-matrix]
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "7"
+    section: "Symmetric random walk in n dimensions"
+    pages: "199-201"
+    role_in_book: "Main classification result for symmetric random walk recurrence/transience"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

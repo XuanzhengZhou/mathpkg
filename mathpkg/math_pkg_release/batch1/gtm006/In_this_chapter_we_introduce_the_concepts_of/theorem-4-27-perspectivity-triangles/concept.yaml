@@ -1,0 +1,28 @@
+id: theorem-4-27-perspectivity-triangles
+title_en: 'Theorem 4.27: Perspectivity Induces Perspective Triangles'
+title_zh: ''
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags:
+- perspectivity
+- triangles
+- desargues
+depends_on:
+  required:
+  - perspectivity-central-collineation
+  - triangles-in-perspective
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '7'
+  pages: ''
+  role_in_book: Connects perspectivities to the geometric Desargues configuration
+content_hash: 78909ce1a9f7
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

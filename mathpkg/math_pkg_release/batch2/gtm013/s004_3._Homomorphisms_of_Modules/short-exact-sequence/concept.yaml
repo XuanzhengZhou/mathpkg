@@ -1,0 +1,23 @@
+id: short-exact-sequence
+title_en: "Short Exact Sequence"
+title_zh: "短正合列"
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [module-theory, exact-sequence, short-exact-sequence]
+depends_on:
+  required: [exact-sequence-of-modules]
+  recommended: [module-epimorphism, module-monomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "3. Homomorphisms of Modules"
+    pages: ""
+    role_in_book: "Definition and structure of short exact sequences"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

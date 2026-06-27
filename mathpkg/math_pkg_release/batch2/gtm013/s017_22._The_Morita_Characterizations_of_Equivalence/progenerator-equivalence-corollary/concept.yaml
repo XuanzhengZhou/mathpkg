@@ -1,0 +1,23 @@
+id: progenerator-equivalence-corollary
+title_en: "Equivalence via Progenerator Endomorphism Ring"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [progenerator, endomorphism-ring, morita-equivalence, tensor-functor, hom-functor]
+depends_on:
+  required: [progenerator, moritas-theorem, endomorphism-ring]
+  recommended: [progenerator-endomorphism-equivalence, tensor-product, dual-module]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "6"
+    section: "22"
+    pages: ""
+    role_in_book: "Corollary 22.5: Explicit equivalence via progenerator and its dual"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

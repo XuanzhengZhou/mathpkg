@@ -1,0 +1,23 @@
+id: farey-fraction-approximation
+title_en: "Farey Fraction Approximation with Error Bound 1/(2k^2)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-approximation
+difficulty: intermediate
+tags: [farey-fractions, rational-approximation, dirichlet-approximation, continued-fractions]
+depends_on:
+  required: [farey-fractions]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "7"
+    section: "Exercises for Chapter 7, Exercise 4"
+    pages: ""
+    role_in_book: "Exercise proving infinitely many rational approximations h/k with error < 1/(2k^2) using Farey fractions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

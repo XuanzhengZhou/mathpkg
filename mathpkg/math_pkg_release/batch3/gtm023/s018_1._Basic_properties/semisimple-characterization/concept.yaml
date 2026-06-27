@@ -1,0 +1,23 @@
+id: semisimple-characterization
+title_en: "Characterization of Semisimple Algebras"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: structure-theory
+difficulty: intermediate
+tags: [semisimple, totally-reducible, radical]
+depends_on:
+  required: [direct-sum-of-radical-and-semisimple-ideal, totally-reducible-algebra]
+  recommended: [simple-algebra]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "5"
+    section: "§2. Ideals"
+    pages: "172"
+    role_in_book: "an algebra is semisimple iff it is totally reducible and its radical is zero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

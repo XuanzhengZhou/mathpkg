@@ -1,0 +1,23 @@
+id: quadratic-form-invariants
+title_en: "Invariants of a Quadratic Form over Q"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: intermediate
+tags: [quadratic-forms, invariants, discriminant, hilbert-symbol, signature, local-fields]
+depends_on:
+  required: []
+  recommended: [quadratic-forms-over-fields, hilbert-symbol]
+  suggested: [p-adic-numbers]
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "IV"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Defines the invariants of a quadratic form over Q: discriminant, local Hilbert symbols, and signature"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

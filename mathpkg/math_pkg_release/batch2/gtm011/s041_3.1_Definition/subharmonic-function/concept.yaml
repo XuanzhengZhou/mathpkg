@@ -1,0 +1,23 @@
+id: subharmonic-function
+title_en: "Subharmonic Function"
+title_zh: "次调和函数"
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [subharmonic, harmonic, mean-value-property, potential-theory]
+depends_on:
+  required: [harmonic-function, mean-value-property]
+  recommended: [maximum-principle, upper-semicontinuous-function]
+  suggested: [dirichlet-problem, perron-function]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.1"
+    pages: "278"
+    role_in_book: "Introduces subharmonic functions as a generalization of harmonic functions, foundational for the Dirichlet Problem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

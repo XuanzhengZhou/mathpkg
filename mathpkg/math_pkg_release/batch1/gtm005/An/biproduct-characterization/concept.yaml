@@ -1,0 +1,23 @@
+id: biproduct-characterization
+title_en: "Biproduct characterization in an Ab-category"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [biproduct, direct-sum, product, coproduct, ab-category, additive-category]
+depends_on:
+  required: [ab-category, zero-arrow-in-ab-category]
+  recommended: [product, coproduct, null-object-in-ab-category]
+  suggested: [direct-sum-of-abelian-groups]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VIII"
+    section: "2"
+    pages: "208-211"
+    role_in_book: "Proposition 2. Characterizes biproducts in Ab-categories via algebraic equations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

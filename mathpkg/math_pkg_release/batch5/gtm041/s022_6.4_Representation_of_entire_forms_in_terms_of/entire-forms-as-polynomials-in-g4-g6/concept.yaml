@@ -1,0 +1,23 @@
+id: entire-forms-as-polynomials-in-g4-g6
+title_en: "Entire Modular Forms as Polynomials in G_4 and G_6"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [entire-modular-forms, eisenstein-series, polynomial-basis, g4, g6]
+depends_on:
+  required: [space-of-entire-modular-forms, eisenstein-series]
+  recommended: [entire-form-representation-by-eisenstein-and-delta]
+  suggested: [modular-discriminant]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.4"
+    pages: ""
+    role_in_book: "Theorem 6.4 — every entire modular form is a polynomial in the Eisenstein series G_4 and G_6"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: categorical-duality
+title_en: "Categorical Duality"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [duality, categories, arrows, contravariance, opposites]
+depends_on:
+  required: []
+  recommended: [category, morphism, axiom-of-category]
+  suggested: [contravariant-functor, opposite-category]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "II. Constructions on Categories"
+    section: "1. Duality"
+    pages: "45-46"
+    role_in_book: "Introduces the fundamental duality principle: reversing all arrows in any categorical statement yields a dual statement that is also true"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

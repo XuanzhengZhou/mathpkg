@@ -1,0 +1,23 @@
+id: upcrossing-lemma
+title_en: "Upcrossing Lemma"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: martingale-theory
+difficulty: intermediate
+tags: [upcrossing, submartingale, doob]
+depends_on:
+  required: [submartingale, upcrossing-of-interval, supremum-of-submartingales]
+  recommended: [conditional-expectation, monotone-convergence-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "3"
+    section: "4"
+    pages: ""
+    role_in_book: "Proposition 3-11: Bounds expected number of upcrossings, key to Martingale Convergence Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

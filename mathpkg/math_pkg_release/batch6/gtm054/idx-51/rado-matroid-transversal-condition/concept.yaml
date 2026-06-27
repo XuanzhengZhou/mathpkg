@@ -1,0 +1,23 @@
+id: rado-matroid-transversal-condition
+title_en: "Rado's Condition for LDR in Matroids (Proposition E6)"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: matroid-theory
+difficulty: advanced
+tags: [transversal, LDR, matroid, Rado, Hall-theorem, independence-system]
+depends_on:
+  required: []
+  recommended: [system-of-representatives, matroid-rank-function, independent-set]
+  suggested: [phillip-hall-theorem, transversal-matroid, matching-matroid]
+source_books:
+- book_id: gtm054
+  author: "Jack E. Graver, Mark E. Watkins"
+  title: "Combinatorics with Emphasis on the Theory of Graphs"
+  chapter: "Chapter E: Matroid Theory"
+  section: "Section 51"
+  pages: "310-313"
+  role_in_book: "Generalizes Phillip Hall's theorem to the setting of matroids; gives a necessary and sufficient rank condition for the existence of a system of distinct representatives whose image is independent in a given matroid."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+Nondecreasing functions are the integrators in Riemann-Stieltjes integration. They generalize the identity function (which gives the ordinary Riemann integral) and allow weighted averages of functions.

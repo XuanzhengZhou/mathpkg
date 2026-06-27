@@ -1,0 +1,23 @@
+id: ptr-order-4-elementary-abelian
+title_en: "PTR of Order 4 Must Be Elementary Abelian"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: planar-ternary-ring
+difficulty: intermediate
+tags: [ptr, elementary-abelian, order-4, z4, latin-square, projective-plane]
+depends_on:
+  required: [planar-ternary-ring, exercise-5-7-no-mols-orthogonal-to-z4]
+  recommended: [linear-ptr-definition]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D. R. Hughes, F. C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "5"
+    pages: "132-137"
+    role_in_book: "Corollary: For a PTR of order 4, the additive loop must be elementary abelian"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

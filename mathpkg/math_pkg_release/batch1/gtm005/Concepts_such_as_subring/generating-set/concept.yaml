@@ -1,0 +1,20 @@
+id: generating-set
+title_en: "Generating Set (Generator)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [category-theory, generator, separating-family, generator-set]
+depends_on: {required: [category], recommended: [monomorphism], suggested: [adjoint-functor-theorem]}
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "7. Subobjects and Generators"
+    pages: ""
+    role_in_book: "Defines the notion of a generating set (separating family) in a category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

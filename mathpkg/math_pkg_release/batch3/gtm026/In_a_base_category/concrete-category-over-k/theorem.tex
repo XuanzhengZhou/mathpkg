@@ -1,0 +1,13 @@
+Let $\mathcal{K}$ be a fixed base category. A \textbf{concrete category over $\mathcal{K}$} is a pair $(\mathcal{A}, U)$ where $\mathcal{A}$ is a category and $U: \mathcal{A} \to \mathcal{K}$ is a faithful functor.
+
+A \textbf{homomorphism} $H: (\mathcal{A}, U) \to (\mathcal{B}, V)$ of concrete categories over $\mathcal{K}$ is a functor $H: \mathcal{A} \to \mathcal{B}$ such that the diagram
+
+\[
+\begin{CD}
+\mathcal{A} @>{H}>> \mathcal{B} \\
+@V{U}VV @VV{V}V \\
+\mathcal{K} @= \mathcal{K}
+\end{CD}
+\]
+
+commutes (both on objects and on morphisms). Equivalently, $H$ is \emph{over $\mathcal{K}$}, meaning $UH = V$ (i.e., $H$ preserves the underlying $\mathcal{K}$-objects).

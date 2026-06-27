@@ -1,0 +1,23 @@
+id: formal-criterion-for-adjoint
+title_en: "Formal Criterion for the Existence of an Adjoint"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [adjoint-functors, limits, comma-category, representability]
+depends_on:
+  required: [initial-object-via-limit-of-identity]
+  recommended: [adjunction, limit-of-functor, comma-category]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "X"
+    section: "1. Adjoints and Limits"
+    pages: ""
+    role_in_book: "Characterizes existence of left adjoints via preservation of limits and comma category limits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

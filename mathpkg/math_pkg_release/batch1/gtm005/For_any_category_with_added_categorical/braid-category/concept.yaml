@@ -1,0 +1,23 @@
+id: braid-category
+title_en: "Braid Category"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [braid-category, monoidal-category, braid-group]
+depends_on:
+  required: [monoidal-category, artin-braid-group]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "4"
+    pages: ""
+    role_in_book: "Definition of the braid category as a monoidal category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

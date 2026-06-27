@@ -1,0 +1,23 @@
+id: thom-levine-trivial-deformation-characterization
+title_en: "Theorem 3.3 (Thom-Levine): Characterization of Trivial Deformations"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [trivial-deformation, thom-levine, vector-fields, infinitesimal-deformations, stable-mappings]
+depends_on:
+  required: [k-deformation, tau-f-infinitesimal-deformation]
+  recommended: [compact-manifold, one-parameter-group]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky, M. and Guillemin, V."
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "3. A Characterization of Trivial Deformations"
+    pages: ""
+    role_in_book: "Core theorem characterizing when a k-deformation is trivial in terms of the existence of vector fields satisfying an infinitesimal equation. This bridges the gap between geometric triviality and infinitesimal conditions."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

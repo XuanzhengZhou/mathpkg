@@ -1,0 +1,8 @@
+If $\leq$ is a partial ordering of $P$ then $T' \triangleq \{[x] \mid x \in P\}$ is a base for a topology on $P$. Furthermore if $A \subseteq P$ then in this topology:
+\begin{enumerate}
+\item $x \in A^0 \leftrightarrow (\exists [y])[x \in [y] \subseteq A] \leftrightarrow [x] \subseteq A$.
+\item $x \in A^- \leftrightarrow (\forall [y])[x \in [y] \rightarrow [y] \cap A \neq 0] \leftrightarrow [x] \cap A \neq 0$.
+\item $x \in A^{-0} \leftrightarrow [x] \subseteq A^- \leftrightarrow (\forall y \leq x)[[y] \cap A \neq 0]$.
+\item $x \in (P - A)^0 \leftrightarrow [x] \subseteq P - A \leftrightarrow (\forall y \leq x)[y \notin A]$.
+\item $A$ is dense in $P \leftrightarrow A^- = P \leftrightarrow (\forall x \in P)[x \in A^-] \leftrightarrow (\forall x \in P)[[x] \cap A \neq 0]$.
+\end{enumerate}

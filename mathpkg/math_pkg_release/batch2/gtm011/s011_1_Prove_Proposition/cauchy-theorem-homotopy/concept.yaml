@@ -1,0 +1,23 @@
+id: cauchy-theorem-homotopy
+title_en: "Cauchy's Theorem (Third Version)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [cauchy-theorem, homotopy, complex-integration, analytic-function]
+depends_on:
+  required: [homotopic-curves, analytic-function, contour-integral]
+  recommended: [cauchy-theorem, cauchy-integral-formula-first-version]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "4"
+    section: "6"
+    pages: ""
+    role_in_book: "The homotopy version of Cauchy's Theorem: integrals of analytic functions are invariant under homotopy of curves"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

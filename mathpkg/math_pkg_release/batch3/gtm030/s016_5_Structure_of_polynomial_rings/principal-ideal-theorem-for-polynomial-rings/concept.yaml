@@ -1,0 +1,23 @@
+id: principal-ideal-theorem-for-polynomial-rings
+title_en: "Principal Ideal Theorem for Polynomial Rings over a Field"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: polynomial-rings
+difficulty: intermediate
+tags: [principal-ideal-domain, polynomial-ring, field, euclidean-domain]
+depends_on:
+  required: [polynomial-division-algorithm]
+  recommended: [ideal, principal-ideal, field]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "5"
+    pages: ""
+    role_in_book: "Theorem 6: Every ideal in F[x], F a field, is a principal ideal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,5 @@
+Let $E$ be a metric space, with metric $d$, and let $\mathcal{E}$ be the set of closed non-void subsets of $E$. For each $x \in E$ and each $A \in \mathcal{E}$ let
+$$d(x, A) = \inf \{d(x, y) : y \in A\},$$
+and for $A \in \mathcal{E}$ and $B \in \mathcal{E}$ let
+$$d(A, B) = \max \{\sup \{d(a, B) : a \in A\}, \sup \{d(A, b) : b \in B\}\}.$$
+The function $d(A, B)$ is a metric on $\mathcal{E}$, except that it may take infinite values. (Infinite values may always be avoided by using an equivalent bounded metric $d'$; e.g., $d'(x, y) = \min \{d(x, y), 1\}$ or $d'(x, y) = d(x, y) / (1 + d(x, y))$.) This is called the Hausdorff metric on the space of closed non-void sets.

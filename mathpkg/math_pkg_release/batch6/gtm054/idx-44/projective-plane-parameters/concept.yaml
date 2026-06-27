@@ -1,0 +1,23 @@
+id: projective-plane-parameters
+title_en: "Parameters of a Finite Projective Plane"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: block-design
+difficulty: basic
+tags: [projective-plane, block-design-parameters]
+depends_on:
+  required: [finite-projective-plane, order-of-projective-plane]
+  recommended: [symmetric-block-design]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "IX"
+    section: "D"
+    pages: "261-264"
+    role_in_book: "D1 — explicit formulas for the parameters of a finite projective plane of order $n$"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

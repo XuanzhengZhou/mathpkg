@@ -1,0 +1,23 @@
+id: poinsot-theorem
+title_en: "Poinsot's Theorem on the Motion of the Inertia Ellipsoid"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: advanced
+tags: [poinsot, inertia-ellipsoid, rigid-body, rolling-without-slipping, invariable-plane, geometric-description]
+depends_on:
+  required: [euler-equations-rigid-body]
+  recommended: [stationary-rotation]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "6"
+    section: "29"
+    pages: "154-160"
+    role_in_book: "Provides the geometric description of rigid body motion as rolling of the inertia ellipsoid on a fixed plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

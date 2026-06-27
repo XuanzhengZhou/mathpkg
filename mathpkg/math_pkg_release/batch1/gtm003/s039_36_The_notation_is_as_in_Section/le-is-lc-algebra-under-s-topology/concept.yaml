@@ -1,0 +1,23 @@
+id: le-is-lc-algebra-under-s-topology
+title_en: "L(E) as a Locally Convex Algebra under the S-Topology"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: topological-algebras
+difficulty: advanced
+tags: [locally-convex-algebra, operator-algebra, s-topology, hypocontinuous-multiplication, barreled-space]
+depends_on:
+  required: [locally-convex-algebra, locally-convex-space, bounded-set, s-topology, hypocontinuous]
+  recommended: [barreled-space, f-space, equicontinuous]
+  suggested: [bornological-space, operator-topology]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "Appendix 2"
+    section: "Topological Algebras"
+    pages: "215"
+    role_in_book: "Proposition (a): L(E) becomes a locally convex algebra under the S-topology with various continuity properties depending on E"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

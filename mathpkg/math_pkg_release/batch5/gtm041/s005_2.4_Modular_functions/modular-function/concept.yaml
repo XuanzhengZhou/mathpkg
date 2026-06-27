@@ -1,0 +1,23 @@
+id: modular-function
+title_en: "Modular Function"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [modular-function, upper-half-plane, modular-group, fourier-expansion, meromorphic]
+depends_on:
+  required: [modular-group, fundamental-region]
+  recommended: [upper-half-plane, meromorphic-function]
+  suggested: [laurent-expansion, fourier-series]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "2"
+    section: "2.4"
+    pages: ""
+    role_in_book: "Core definition of modular function concept"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

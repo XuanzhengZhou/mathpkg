@@ -1,0 +1,23 @@
+id: sigma-strong-mackey-inclusions
+title_en: "For any W*-algebra W, σ(W, V) ⊂ s(W, V) ⊂ τ(W, V); multiplication is jointly s(W, V)-continuous on bounded sets"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: von-neumann-algebras
+difficulty: advanced
+tags: [wstar-algebra, weak-star-topology, strong-topology, mackey-topology, multiplication-continuity]
+depends_on:
+  required: [wstar-algebra-definition]
+  recommended: [mackey-arens-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "6"
+    section: "6.7"
+    pages: ""
+    role_in_book: "Establishes relationships between the natural locally convex topologies on a W*-algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

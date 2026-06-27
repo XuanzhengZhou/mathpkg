@@ -1,0 +1,7 @@
+Let $\delta_0$ denote the $0$th row of the identity matrix. A finite-valued row vector $\nu$ for a Markov chain $P$ is called **admissible for the entrance boundary** if it satisfies the following three conditions:
+\begin{enumerate}
+\item[(1)] $\nu \geq 0$ (non-negativity).
+\item[(2)] $\nu_0 = 0$ (zero $0$-coordinate).
+\item[(3)] $\nu P \leq \nu + \delta_0$ (subinvariance with $\delta_0$ correction).
+\end{enumerate}
+The row vector $\bar{\nu}$ defined by $\bar{\nu}_j = \nu_j + \delta_{0j}$ is then non-negative and $Q$-superregular, where $Q$ is the substochastic kernel restricted to the non-absorbing states.

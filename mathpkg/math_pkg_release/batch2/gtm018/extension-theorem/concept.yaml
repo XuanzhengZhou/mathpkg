@@ -1,0 +1,23 @@
+id: extension-theorem
+title_en: "Caratheodory Extension Theorem"
+title_zh: "Carathéodory扩张定理"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-theory, extension, caratheodory]
+depends_on:
+  required: [measure, outer-measure, caratheodory-measurable-set]
+  recommended: [measure-induces-outer-measure]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "III"
+    section: "13"
+    pages: ""
+    role_in_book: "Every measure on a ring extends to a complete measure on a sigma-ring containing the original ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

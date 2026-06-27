@@ -1,0 +1,23 @@
+id: linear-manifold-flat
+title_en: "Linear Manifold (Linear Variety, Flat)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [linear-manifold, linear-variety, flat, affine-subspace, translation]
+depends_on:
+  required: [linear-subspace, translation-of-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines affine subspaces; used in separation and Hahn-Banach theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

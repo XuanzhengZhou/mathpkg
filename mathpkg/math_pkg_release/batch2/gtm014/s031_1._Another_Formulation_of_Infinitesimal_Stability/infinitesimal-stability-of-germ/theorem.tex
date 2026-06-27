@@ -1,0 +1,34 @@
+% Definition 1.1: Infinitesimal Stability of a Germ
+% From GTM014, Chapter V, §1
+%
+% STATEMENT ONLY — no proof text.
+
+\begin{definition}
+Let $f: X \rightarrow Y$ be a smooth map, let $p \in X$, and let $q = f(p) \in Y$.
+
+\textup{(a)} The germ $[f]_p$ is \textbf{infinitesimally stable} if for every germ $\tau \in C^\infty(f^*TY)_p$ there exist germs $\zeta \in C^\infty(TX)_p$ and $\eta \in C^\infty(TY)_q$ such that
+\[
+\tau = (df)(\zeta) + f^*\eta .
+\]
+
+\textup{(b)} In local coordinates, write
+\[
+\tau = \sum_{i=1}^{m} \tau_i(x) \frac{\partial}{\partial y_i} \circ f,\qquad
+\zeta = \sum_{j=1}^{n} \zeta_j(x) \frac{\partial}{\partial x_j},\qquad
+\eta = \sum_{i=1}^{m} \eta_i(y) \frac{\partial}{\partial y_i},
+\]
+and let $f_1,\ldots,f_m$ be the coordinate functions of $f$.
+The equations $(**)$ are
+\[
+\tau_i(x) = \sum_{j=1}^{n} \frac{\partial f_i}{\partial x_j}(x)\, \zeta_j(x)
+            + \eta_i\bigl(f_1(x),\ldots,f_m(x)\bigr),\qquad i = 1,\ldots,m .
+\]
+We say the equations $(**)$ can be \textbf{solved to order $k$} if for every
+$\tau_1,\ldots,\tau_m \in C_0^\infty(\mathbf{R}^n)$ there exist
+$\zeta_1,\ldots,\zeta_n \in C_0^\infty(\mathbf{R}^n)$ and
+$\eta_1,\ldots,\eta_m \in C_0^\infty(\mathbf{R}^m)$ such that
+\[
+\tau_i(x) = \sum_{j=1}^{n} \frac{\partial f_i}{\partial x_j}(x)\, \zeta_j(x)
+            + \eta_i\bigl(f_1(x),\ldots,f_m(x)\bigr) + O(|x|^{k+1}) .
+\]
+\end{definition}

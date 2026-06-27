@@ -1,0 +1,8 @@
+A \textbf{birth and death process} is a continuous-time Markov chain on the non-negative integers where in a small time only transitions to neighboring states are possible:
+$$p'_{i,j}(0) = b_{i,j} = \begin{cases}
+b_{i,i} \leq 0 & j = i \\
+b_{i,i+1} \geq 0 & j = i+1 \\
+b_{i,i-1} \geq 0 & j = i-1 \\
+0 & \text{otherwise}
+\end{cases}$$
+with $\sum_j b_{i,j} = 0$. The states correspond to population sizes, with births and deaths occurring one at a time.

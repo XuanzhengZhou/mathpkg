@@ -1,0 +1,30 @@
+id: cat-is-2-category
+title_en: Cat is a 2-Category
+title_zh: ''
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags:
+- cat
+- 2-category
+- functor
+- natural-transformation
+depends_on:
+  required:
+  - 2-category
+  - functor
+  - natural-transformation
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: II
+  section: '5'
+  pages: ''
+  role_in_book: ''
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

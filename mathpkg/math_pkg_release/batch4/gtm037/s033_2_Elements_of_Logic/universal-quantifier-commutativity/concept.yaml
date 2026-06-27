@@ -1,0 +1,23 @@
+id: universal-quantifier-commutativity
+title_en: "Commutativity of Universal Quantifiers (Proposition 10.65)"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: predicate-logic
+difficulty: basic
+tags: [universal-quantifier, commutativity, predicate-calculus, quantifier-permutation]
+depends_on:
+  required: [universal-instantiation, universal-generalization]
+  recommended: [logical-axiom]
+  suggested: [universal-specification]
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.10"
+    pages: ""
+    role_in_book: "Establishes that adjacent universal quantifiers can be permuted"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,8 @@
+Let $P$ be a preorder, regarded as a category.
+A functor $T: P \to P$ is a monotonic function (i.e., $x \leq y$ implies $Tx \leq Ty$).
+Natural transformations $\eta: I_P \to T$ and $\mu: T^2 \to T$ exist precisely when
+$$x \leq Tx, \qquad T(Tx) \leq Tx$$
+for all $x \in P$. The commutative diagrams of the monad axioms are automatically satisfied,
+since in a preorder category there is at most one arrow between any two objects.
+Thus a monad in a preorder $P$ is exactly a \textbf{closure operator}: a monotonic function
+$T: P \to P$ with $x \leq Tx$ (inflationary) and $T(Tx) \leq Tx$ (idempotent, so $TTx \cong Tx$).

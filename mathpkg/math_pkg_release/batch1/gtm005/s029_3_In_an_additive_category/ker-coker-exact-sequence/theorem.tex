@@ -1,0 +1,17 @@
+Given a morphism $\langle f, g, h \rangle$ of short exact sequences in an abelian category:
+
+\[
+\begin{CD}
+0 @>>> a @>m>> b @>e>> c @>>> 0 \\
+@V{f}VV @V{g}VV @V{h}VV \\
+0 @>>> a' @>m'>> b' @>e'>> c' @>>> 0
+\end{CD}
+\]
+
+let $\operatorname{Ker} f$, $\operatorname{Ker} g$, $\operatorname{Ker} h$ denote the domains of the respective kernels, and $\operatorname{Coker} f$, $\operatorname{Coker} g$, $\operatorname{Coker} h$ the codomains of the respective cokernels. Then there exists a unique connecting morphism $\delta : \operatorname{Ker} h \rightarrow \operatorname{Coker} f$ such that the following sequence is exact:
+
+\[
+0 \rightarrow \operatorname{Ker} f \xrightarrow{m_0} \operatorname{Ker} g \xrightarrow{e_0} \operatorname{Ker} h \xrightarrow{\delta} \operatorname{Coker} f \xrightarrow{m_1} \operatorname{Coker} g \xrightarrow{e_1} \operatorname{Coker} h \rightarrow 0.
+\]
+
+Moreover, the connecting morphism $\delta$ is natural with respect to morphisms of short exact sequences.

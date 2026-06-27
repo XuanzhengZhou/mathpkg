@@ -1,0 +1,1 @@
+The geometrically convex hull of a planar set is the smallest closed convex set containing it, obtained by intersecting all closed half-planes that contain the set. This serves as a model for the holomorphically convex hull.

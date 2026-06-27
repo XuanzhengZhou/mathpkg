@@ -1,0 +1,23 @@
+id: hecke-operator-composition-coprime
+title_en: "Multiplicative property of Hecke operators for coprime indices"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [hecke-operator, composition, coprime, multiplicative-property]
+depends_on:
+  required: []
+  recommended: [hecke-operator-definition, hecke-operator-preserves-modular-forms]
+  suggested: [hecke-operator-matrix-representation]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.10"
+    pages: ""
+    role_in_book: "Establishes the fundamental composition law for Hecke operators with coprime indices"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

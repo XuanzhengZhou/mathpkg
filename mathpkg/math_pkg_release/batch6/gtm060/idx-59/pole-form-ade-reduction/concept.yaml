@@ -1,0 +1,23 @@
+id: pole-form-ade-reduction
+title_en: "Corollary 1: Reduction of Pole Forms with ADE Singularities"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [pole-form, ade-singularity, normal-form, singularity-theory]
+depends_on:
+  required: [simple-singularity-hypersurface-ade, germ-quasi-homogeneous-equivalence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "E. The Quasi-Homogeneous Case"
+    pages: "469-479"
+    role_in_book: "States that pole forms with ADE singularities in 3 variables can be reduced to the simple form dx ∧ dy ∧ dz / f"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

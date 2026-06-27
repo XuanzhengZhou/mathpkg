@@ -1,0 +1,23 @@
+id: atiyah-james-vector-fields-coreduction
+title_en: "Atiyah-James Reduction of Vector Fields to Coreduction of Shunted Projective Space"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: ["vector-fields-on-spheres", "radon-hurwitz", "s-duality", "coreduction", "shunted-projective-space", "atiyah", "james"]
+depends_on:
+  required: ["cross-section-criterion-for-stiefel-projection"]
+  recommended: ["s-duality", "j-homomorphism", "radon-hurwitz-number", "stiefel-manifold"]
+  suggested: ["stable-homotopy"]
+source_books:
+  - book_id: "gtm020"
+    author: "Husemoller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "10"
+    pages: "245-247"
+    role_in_book: "Reduces the problem of existence of orthonormal vector fields on spheres to a coreduction problem for shunted projective spaces, connecting the Radon-Hurwitz problem to stable homotopy theory."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

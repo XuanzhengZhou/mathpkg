@@ -1,0 +1,1 @@
+For separable Hilbert spaces, the Gram-Schmidt process constructs an explicit countable orthonormal basis from any countable dense set. This algorithmic construction is fundamental in applied mathematics and numerical analysis.

@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "20"
+section: "20"
+exercise_number: 4
+---
+
+Let char K = p > 0. If x in M(n,K), x^p = 0, show that exp'(ax)exp'(bx) = exp'((a+b)x) for a,b in K. However, for commuting x,y with x^p = 0 = y^p, exp'(x+y) need not equal exp'(x)exp'(y).

@@ -1,0 +1,23 @@
+id: horizontal-vector-field-on-light-cone
+title_en: "Horizontal Vector Field on the Future Light Cone"
+title_zh: "未来光锥上的水平向量场"
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [tangent-bundle, light-cone, horizontal-vector-field, pullback-connection, photon-gas]
+depends_on:
+  required: [tangent-bundle, future-light-cone, horizontal-vector-field-on-tm, pullback-connection]
+  recommended: [identity-map, levi-civita-connection, ehresmann-connection]
+  suggested: [photon-gas, liouville-operator, spray-geometry]
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs and Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "8"
+    section: "8.6.1"
+    pages: ""
+    role_in_book: "Definition: restriction of horizontal vector fields to the future light cone"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

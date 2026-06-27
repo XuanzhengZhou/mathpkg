@@ -1,0 +1,15 @@
+id: internal-diagram
+title_en: "Internal Diagram (alias for Left C-Object)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [internal-diagram, left-c-object, internal-category, base-valued-functor]
+depends_on: {required:[internal-category], recommended:[left-c-object], suggested:[]}
+source_books: [{book_id:"gtm005",author:"Saunders Mac Lane",title:"Categories for the Working Mathematician",chapter:"XII",section:"1. Internal Categories",pages:"283",role_in_book:"Alternative name for a left C-object; an internal presheaf on an internal category C"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"
+aliases: [left-c-object]
+canonical_slug: left-c-object

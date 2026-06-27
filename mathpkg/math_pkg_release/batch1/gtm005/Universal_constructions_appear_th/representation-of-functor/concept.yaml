@@ -1,0 +1,23 @@
+id: representation-of-functor
+title_en: "Representation of a Functor"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [representable-functor, representing-object, natural-isomorphism, hom-functor]
+depends_on:
+  required: []
+  recommended: [functor, natural-transformation, hom-functor]
+  suggested: [yoneda-lemma]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "III"
+    section: "1. Universal Arrows"
+    pages: "58"
+    role_in_book: "Core definition: a representable functor is one naturally isomorphic to a covariant hom-functor; links universal elements/arrows to representations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

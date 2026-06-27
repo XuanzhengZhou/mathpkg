@@ -1,0 +1,23 @@
+id: translation-extension-diffeomorphism
+title_en: "Proposition 5.3: Extension of Translation to a Global Diffeomorphism"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-topology
+difficulty: intermediate
+tags: [translation, diffeomorphism, bump-function, compact-support]
+depends_on:
+  required: [immersion-diffeomorphic-outside-compact]
+  recommended: [bump-function, partition-of-unity]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "5"
+    pages: "132"
+    role_in_book: "Shows translations can be extended to globally defined diffeomorphisms that equal the identity outside a compact set. Used to construct charts for jet orbits."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

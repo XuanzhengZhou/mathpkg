@@ -1,0 +1,23 @@
+id: finite-complex-subdivision-approaching-open-set
+title_en: "Finite complex subdivision approaching an open set"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [complex, subdivision, open-set, mesh, subcomplex, finite-complex, triangulation]
+depends_on:
+  required: [finite-complex, subdivision-of-complex, mesh]
+  recommended: [pl-complex, compactness]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "7"
+    section: "The triangulation theorem for 2-manifolds"
+    pages: "65-70"
+    role_in_book: "Key technical lemma for Radó's triangulation proof: constructs a subcomplex that fills an open set via iterated subdivisions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

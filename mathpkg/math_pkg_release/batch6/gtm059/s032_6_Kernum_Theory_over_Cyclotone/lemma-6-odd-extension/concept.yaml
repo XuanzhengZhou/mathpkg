@@ -1,0 +1,23 @@
+id: lemma-6-odd-extension
+title_en: "Lemma 6: Odd extension criterion for cyclotomic layers"
+title_zh: "引理6: 分圆层的奇扩张判别"
+type: lemma
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [odd-extension, cyclotomic-fields, complex-conjugation, galois-group]
+depends_on:
+  required: [kummer-theory-cyclotomic-zp-extensions]
+  recommended: [galois-theory, cyclotomic-fields]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "6"
+    section: "6"
+    pages: ""
+    role_in_book: "States that if (C^{n+1},K)=k_1K_1 then K_1K_1 is an odd extension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

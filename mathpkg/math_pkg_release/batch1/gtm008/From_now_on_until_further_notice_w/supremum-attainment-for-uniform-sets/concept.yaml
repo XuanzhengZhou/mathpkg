@@ -1,0 +1,23 @@
+id: supremum-attainment-for-uniform-sets
+title_en: "Supremum Attainment for Uniform Sets"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: intermediate
+tags: [uniform-set, supremum, boolean-valued-universe, V-B, partition-of-unity]
+depends_on:
+  required: [supremum-of-boolean-valued-set, uniform-set-partition-property, partition-of-unity-corollary]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: "160"
+    role_in_book: "Every uniform set attains its supremum at some element of its domain"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

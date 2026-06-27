@@ -1,0 +1,23 @@
+id: galois-field-multiplicative-group-cyclic
+title_en: "Multiplicative Group of a Galois Field is Cyclic"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: finite-fields
+difficulty: intermediate
+tags: [galois-field, finite-field, cyclic-group, multiplicative-group, primitive-element]
+depends_on:
+  required: [galois-field, cyclic-group, order-of-element, abelian-group]
+  recommended: [prime-factorization, elementary-divisor, finite-abelian-group]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "II"
+    section: "§8. Galois fields (or §7 overflow)"
+    pages: ""
+    role_in_book: "Theorem that the multiplicative group of every finite field is cyclic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

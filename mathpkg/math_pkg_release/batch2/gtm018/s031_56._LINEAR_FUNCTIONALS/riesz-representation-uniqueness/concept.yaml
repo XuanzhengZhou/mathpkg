@@ -1,0 +1,23 @@
+id: riesz-representation-uniqueness
+title_en: "Theorem E: Uniqueness of the Representing Borel Measure"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [riesz-representation, uniqueness, borel-measure, regular-measure]
+depends_on:
+  required: [riesz-representation-theorem, content-induced-by-positive-linear-functional]
+  recommended: [regular-measure-definition, borel-measure-definition]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "56"
+    section: "56. LINEAR FUNCTIONALS"
+    pages: ""
+    role_in_book: "Establishes that the representing Borel measure in the Riesz Representation Theorem is unique"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

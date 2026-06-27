@@ -1,0 +1,23 @@
+id: zeta-function-of-scheme
+title_en: "Zeta Function of a Scheme of Finite Type over a Finite Field"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: arithmetic-geometry
+difficulty: advanced
+tags: [zeta-function, weil-conjectures, finite-field, point-counting]
+depends_on:
+  required: [scheme-over-finite-field, finite-field]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix C"
+    section: "1"
+    pages: "449-450"
+    role_in_book: "Defines the zeta function Z(X,t) for a scheme over F_q and states the Weil conjectures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

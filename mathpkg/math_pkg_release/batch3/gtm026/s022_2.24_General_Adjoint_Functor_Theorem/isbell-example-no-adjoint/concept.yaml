@@ -1,0 +1,23 @@
+id: isbell-example-no-adjoint
+title_en: "Example 2.28: Isbell Limit-Preserving Functor Without Left Adjoint"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [adjoint-functor, counterexample, limit-preservation, solution-set-condition, isbell]
+depends_on:
+  required: [general-adjoint-functor-theorem, limit-preservation, set-valued-functor, groups-category]
+  recommended: [solution-set-condition, cogenerator, well-powered-category]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.28"
+    pages: ""
+    role_in_book: "Counterexample: limit preservation alone insufficient for adjoint existence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

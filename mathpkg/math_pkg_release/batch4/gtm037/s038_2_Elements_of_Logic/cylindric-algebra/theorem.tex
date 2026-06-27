@@ -1,0 +1,13 @@
+A cylindric algebra of dimension $\alpha$ (where $\alpha$ is an ordinal) is a structure
+$$\mathfrak{A} = \langle A, +, \cdot, -, 0, 1, c_\kappa, d_{\kappa \lambda} \rangle_{\kappa,\lambda < \alpha}$$
+such that $\langle A, +, \cdot, -, 0, 1 \rangle$ is a Boolean algebra, each $c_\kappa$ is a unary operation on $A$, each $d_{\kappa \lambda} \in A$, and the following axioms hold for all $\kappa, \lambda, \mu < \alpha$ and all $x, y \in A$:
+
+\begin{align}
+\text{(C1)} &\quad c_\kappa 0 = 0; \\
+\text{(C2)} &\quad x \leq c_\kappa x; \\
+\text{(C3)} &\quad c_\kappa(x \cdot c_\kappa y) = c_\kappa x \cdot c_\kappa y; \\
+\text{(C4)} &\quad c_\kappa c_\lambda x = c_\lambda c_\kappa x; \\
+\text{(C5)} &\quad d_{\kappa \kappa} = 1; \\
+\text{(C6)} &\quad \text{if } \kappa \neq \lambda, \mu,\text{ then } d_{\lambda \mu} = c_\kappa(d_{\lambda \kappa} \cdot d_{\kappa \mu}); \\
+\text{(C7)} &\quad \text{if } \kappa \neq \lambda,\text{ then } c_\kappa(d_{\kappa \lambda} \cdot x) \cdot c_\kappa(d_{\kappa \lambda} \cdot -x) = 0.
+\end{align}

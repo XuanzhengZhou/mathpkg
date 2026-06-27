@@ -1,0 +1,23 @@
+id: analytic-implies-infinitely-differentiable
+title_en: "Analytic Functions are Infinitely Differentiable"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [analytic-function, infinite-differentiability, smoothness, complex-differentiability]
+depends_on:
+  required: [taylor-expansion-analytic-functions]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "2.12"
+    pages: ""
+    role_in_book: "Establishes the dramatic contrast between real and complex differentiability: one complex derivative implies all orders"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

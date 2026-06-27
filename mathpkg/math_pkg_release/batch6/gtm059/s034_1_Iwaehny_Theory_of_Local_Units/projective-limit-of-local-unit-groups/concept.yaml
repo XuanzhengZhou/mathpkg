@@ -1,0 +1,23 @@
+id: projective-limit-of-local-unit-groups
+title_en: "Projective Limit of Local Unit Groups"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [projective-limit, local-units, iwasawa-theory, norm-maps]
+depends_on:
+  required: [local-cyclotomic-unit]
+  recommended: [projective-limits, galois-cohomology]
+  suggested: [iwasawa-algebra]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "Iwasawa Theory of Local Units"
+    section: "1-2"
+    pages: "184-187"
+    role_in_book: "Defines the projective limit of local unit groups under norm maps"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

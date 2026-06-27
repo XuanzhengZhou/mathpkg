@@ -1,0 +1,15 @@
+---
+role: exercise
+locale: en
+chapter: "16"
+section: "Problems"
+exercise_number: "U"
+---
+
+If $\varphi$ is a continuously differentiable function on $\mathbb{R}$ that is supported on some closed interval $[c, d]$, then $\varphi'$ is bounded on $\mathbb{R}$. Use this fact to show that the difference quotient $(\varphi(s + h) - \varphi(s))/h$ tends boundedly to $\varphi'(s)$ on $\mathbb{R}$ as $h \to 0$. (Show, that is, that there exists a positive constant $M$ such that $|(\varphi(s + h) - \varphi(s))/h| \leq M$ for all $h \neq 0$.) Conclude that if $f$ is a locally integrable function on $\mathbb{R}$, then the function
+$$g(s) = \int_{\mathbb{R}} f(t) \varphi(s - t) \, dt$$
+has derivative
+$$g'(s) = \int_{\mathbb{R}} f(t) \varphi'(s - t) \, dt$$
+at every point $s$ of $\mathbb{R}$.
+
+\textit{Hint:} See Problem 7W.

@@ -1,0 +1,23 @@
+id: klee-minkowski-decomposition
+title_en: "Klee-Minkowski Decomposition Theorem"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: convex-geometry
+difficulty: advanced
+tags: ["klee-minkowski", "decomposition", "extreme-points", "recession-cone"]
+depends_on:
+  required: ["extremal-set-def", "recession-cone-def"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§8"
+  section: "8.C"
+  pages: "35-36"
+  role_in_book: "fundamental decomposition of closed convex sets"
+content_hash: "594f482fc5eed942"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

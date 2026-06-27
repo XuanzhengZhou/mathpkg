@@ -1,0 +1,23 @@
+id: hermitian-scalar-product
+title_en: "Hermitian Scalar Product"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [hermitian, scalar-product, anti-automorphism, involution, sesquilinear]
+depends_on:
+  required: [scalar-product, anti-automorphism-of-division-ring, involutorial-anti-automorphism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "Bilinear Forms"
+    section: "7"
+    pages: "162-163"
+    role_in_book: "Defines the hermitian symmetry condition for scalar products, the foundation for Euclidean and unitary geometry over arbitrary division rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

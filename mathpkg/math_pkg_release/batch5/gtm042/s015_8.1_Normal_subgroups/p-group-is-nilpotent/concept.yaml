@@ -1,0 +1,23 @@
+id: p-group-is-nilpotent
+title_en: "Theorem 14: Every p-group is nilpotent"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [p-group, nilpotent-group, center, class-equation]
+depends_on:
+  required: [p-group, nilpotent-group, p-group-fixed-point-congruence]
+  recommended: [supersolvable-group, solvable-group]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "8"
+    section: "8.3"
+    pages: ""
+    role_in_book: "Fundamental property of p-groups; used in representation theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

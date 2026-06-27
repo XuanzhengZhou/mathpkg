@@ -1,0 +1,23 @@
+id: lie-group
+title_en: "Lie Group"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: lie-groups
+difficulty: intermediate
+tags: [Lie-group, smooth-manifold, group-theory, differential-geometry]
+depends_on:
+  required: []
+  recommended: [smooth-manifold, topological-group]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "Appendix A"
+    section: "§A. Lie Groups"
+    pages: ""
+    role_in_book: "Fundamental definition of a Lie group used throughout the book for studying group actions on jet spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

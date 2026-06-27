@@ -1,0 +1,27 @@
+$M_n = \max_{0 \leq k \leq n} S_k$, $n \geq 0$.
+
+$T_n = \min [k \mid 0 \leq k \leq n, S_k = M_n], \quad n \geq 0$.
+
+The random variables $T_n$ denote the first time at which the random walk attains its maximum $M_n$ during the first $n$ steps. It will play an auxiliary role in deriving the characteristic function of $M_n$. For a result of independent interest concerning $T_n$, see problem 7 at the end of the chapter.
+
+One can decompose, for each $n \geq 0, |z| \leq 1, |w| \leq 1$,
+
+$$E[z^{M_n}w^{M_n}-S_n] = \sum_{k=0}^{n} E[z^{M_n}w^{M_n}-S_n; T_n = k]$$
+
+$$= \sum_{k=0}^{n} E[z^{S_k}w^{S_k}-S_n; T_n = k]$$
+
+$$= \sum_{k=0}^{n} E[z^{S_k}; S_0 < S_k, S_1 < S_k, \ldots, S_{k-1} < S_k; w^{S_k}-S_n; S_{k
+
+up to the second semicolon, are independent of the terms that follow. Therefore we get a product of expectations, and if in the second one of these one relabels $S_{k+1} - S_k = S_1, S_{k+2} - S_k = S_2$, and so forth, the result will appear as
+
+$$E[z^{M_n}w^{M_n}-S_n] = \sum_{k=0}^{n} E[z^{S_k}; S_0 < S_k, \ldots, S_{k-1} < S_k]E[w^{-S_n-k}; S_0 \leq 0, \ldots, S_{n-k} \leq 0]$$
+
+$$= \sum_{k=0}^{n} E[z^{S_k}; T'^* > k]E[w^{-S_n-k}; T > n-k].$$
+
+In the last step we recalled, and used, the definition of the hitting times $T$ and $T'^*$ in D17.1 and D18.1, respectively.
+
+At this point it is convenient to introduce generating functions. The representation of our expectation as a convolution quite strongly suggests this, and so for $0 \leq t < 1$ one obtains
+
+$$\sum_{0}^{\infty} t^n E[z^{M_n}w^{M_n}-S_n] = \sum_{n=0}^{\infty} t^n E[z^{S_n}; T'^* > n] \cdot \sum_{n=0}^{\infty} t^n E[w^{-S_n}; T > n].$$
+
+It remains only to look up P17.5 to verify that we have proved

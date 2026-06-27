@@ -1,0 +1,23 @@
+id: r-integrable-function-space-metric
+title_en: "Space of R-Integrable Functions as a Metric Space"
+title_zh: "R-可积函数空间作为度量空间"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [riemann-integral, metric-space, pseudometric, quotient-space]
+depends_on:
+  required: [pseudometric-space, riemann-integral, l1-metric-on-continuous-functions]
+  recommended: [null-function]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "10"
+    section: "10"
+    pages: "50-52"
+    role_in_book: "Constructs metric space of Riemann-integrable functions via identification"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: plh-extension-unknotted-broken-lines
+title_en: "PLH Extension for Unknotted Broken Lines"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [broken-line, unknotted, plh-extension, polyhedral-3-cell]
+depends_on:
+  required: [unknotted-broken-line, piecewise-linear-homeomorphism, extension-of-plh-on-boundary-of-2-cell]
+  recommended: [broken-line-unknotted-in-polyhedral-3-cell]
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "19"
+    section: "19 (A Wild Arc with Simply Connected Complement)"
+    pages: ""
+    role_in_book: "Theorem 2 of Chapter 19; every PLH between boundaries of polyhedral 3-cells that respects unknotted broken lines extends to the interiors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

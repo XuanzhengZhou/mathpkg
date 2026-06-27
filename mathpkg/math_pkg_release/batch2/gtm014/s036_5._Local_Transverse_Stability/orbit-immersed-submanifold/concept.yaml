@@ -1,0 +1,23 @@
+id: orbit-immersed-submanifold
+title_en: "Theorem 5.1: Orbit of Jet Action is an Immersed Submanifold"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [jet-bundles, group-action, immersed-submanifold, diffeomorphism-group]
+depends_on:
+  required: []
+  recommended: [jet-bundle-manifold-structure, diffeomorphism-group-definition, lie-group-action]
+  suggested: [malgrange-preparation-theorem]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "5"
+    pages: "131-134"
+    role_in_book: "Establishes that the orbit of the Diff(X)×Diff(Y) action on jet space is an immersed submanifold, foundational for transverse stability."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

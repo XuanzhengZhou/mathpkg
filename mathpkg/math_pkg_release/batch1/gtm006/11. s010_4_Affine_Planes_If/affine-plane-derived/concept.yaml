@@ -1,0 +1,23 @@
+id: affine-plane-derived
+title_en: "Affine Plane Derived from a Projective Plane"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: affine-planes
+difficulty: basic
+tags: [projective-plane, affine-plane, line-at-infinity, incidence-geometry]
+depends_on:
+  required: [projective-plane]
+  recommended: []
+  suggested: [affine-plane-axiomatic]
+source_books:
+  - book_id: gtm006
+    author: ""
+    title: "Projective Planes"
+    chapter: "3"
+    section: "4"
+    pages: ""
+    role_in_book: "Constructs an affine plane by deleting a line and its incident points from a projective plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

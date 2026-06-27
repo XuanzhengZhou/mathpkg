@@ -1,0 +1,23 @@
+id: regular-function-is-continuous
+title_en: "A regular function is continuous"
+title_zh: "正则函数是连续的"
+type: lemma
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [regular-function, continuity, zariski-topology]
+depends_on:
+  required: [regular-function-at-a-point, zariski-topology]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "3"
+    pages: "16"
+    role_in_book: "Lemma 3.1; establishes continuity of regular functions in Zariski topology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: adjoint-of-composition
+title_en: "Adjoint of a Composition"
+title_zh: "复合映射的伴随"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [adjoint, composition, linear-transformation]
+depends_on:
+  required: [adjoint-mapping, composition-of-linear-maps]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VIII"
+    section: "§1. The adjoint mapping"
+    pages: ""
+    role_in_book: "Functorial property of the adjoint"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

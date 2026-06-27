@@ -1,0 +1,23 @@
+id: homeomorphism-join-to-product-boundary
+title_en: "Homeomorphism from Join to Product Boundary and Sphere"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [join, sphere, homeomorphism, hopf-invariant, k-theory]
+depends_on:
+  required: [join-and-suspension]
+  recommended: [product-of-topological-spaces, boundary-of-manifold]
+  suggested: [k-theory-ring]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "15"
+    section: "3. Hopf Invariant and Bidegree"
+    pages: ""
+    role_in_book: "Establishes that the join of two spheres is homeomorphic to both the boundary of a product of balls and to a sphere of higher dimension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

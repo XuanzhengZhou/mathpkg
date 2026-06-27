@@ -1,0 +1,23 @@
+id: trivial-bundle-euler-class-zero
+title_en: "Euler Class of a Trivial Bundle"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: characteristic-classes
+difficulty: basic
+tags: [euler-class, trivial-bundle, characteristic-classes]
+depends_on:
+  required: [euler-class]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "7"
+    section: "7.9"
+    pages: "page_0265–page_0270"
+    role_in_book: "Shows that the Euler class vanishes for trivial bundles, confirming it detects nontrivial twisting"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

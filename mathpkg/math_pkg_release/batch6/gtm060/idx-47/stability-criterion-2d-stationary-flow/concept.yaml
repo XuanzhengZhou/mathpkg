@@ -1,0 +1,23 @@
+id: stability-criterion-2d-stationary-flow
+title_en: "Stability Criterion for Two-Dimensional Stationary Flows"
+title_zh: "二维定常流的稳定性判据"
+type: theorem
+domain: geometry
+subdomain: hydrodynamics
+difficulty: advanced
+tags: [stability, stationary-flow, 2d-hydrodynamics, lyapunov-stability, second-variation]
+depends_on:
+  required: [stationary-flow-conditional-extremum, stream-function-2d, vorticity-2d]
+  recommended: [second-variation, lyapunov-stability]
+  suggested: [dirichlet-stability-criterion]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 2"
+    section: "Section 47"
+    pages: ""
+    role_in_book: "Theorem providing sufficient conditions for Lyapunov stability of planar stationary flows"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

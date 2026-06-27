@@ -1,0 +1,23 @@
+id: boolean-prime-ideal-theorem
+title_en: "Boolean Prime Ideal Theorem"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: boolean-algebras
+difficulty: advanced
+tags: [boolean-algebra, maximal-ideal, prime-ideal, existence, axiom-of-choice]
+depends_on:
+  required: [maximal-ideal, intersection-of-ideals]
+  recommended: [zorns-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "9"
+    section: "2"
+    pages: ""
+    role_in_book: "Fundamental existence theorem: every proper ideal extends to a maximal ideal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

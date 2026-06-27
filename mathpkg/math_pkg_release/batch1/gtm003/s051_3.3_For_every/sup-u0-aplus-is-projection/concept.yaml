@@ -1,0 +1,23 @@
+id: sup-u0-aplus-is-projection
+title_en: "If p := sup(U_0 ∩ A_+) exists in a C*-algebra A, then p is a projection"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: cstar-algebras
+difficulty: advanced
+tags: [cstar-algebra, supremum, projection, positive-cone, approximate-unit]
+depends_on:
+  required: [a-plus-cap-u0-approximate-unit]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "5"
+    section: "5.3"
+    pages: ""
+    role_in_book: "Key lemma showing that the supremum of the positive part of the open unit ball is a projection"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

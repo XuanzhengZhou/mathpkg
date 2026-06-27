@@ -1,0 +1,1 @@
+This exercise provides a concrete counterexample showing that in $\mathfrak{L}_1$, weak convergence plus norm convergence of norms does not imply norm convergence, contrasting with $\mathfrak{L}_p$ for $1 < p < \infty$.

@@ -1,0 +1,32 @@
+id: linear-functional-continuity-on-convex-set
+title_en: "Continuity of Linear Functions on a Convex Set"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags:
+  - linear-functional
+  - convex-set
+  - continuity
+  - uniform-convergence
+  - level-set
+depends_on:
+  required:
+    - locally-convex-space
+    - linear-functional
+    - convex-set
+    - uniform-convergence
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "13"
+    section: "13.4"
+    pages: ""
+    role_in_book: "Theorem about linear functions continuous on a convex set, concerning the completeness of spaces of linear functions under uniform convergence on convex sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

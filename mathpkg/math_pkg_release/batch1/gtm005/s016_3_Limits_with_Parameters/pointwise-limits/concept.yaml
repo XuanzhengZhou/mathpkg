@@ -1,0 +1,23 @@
+id: pointwise-limits
+title_en: "Limits in functor categories are computed pointwise"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [limits, functor-categories, pointwise-limits, bifunctors, parameter-theorem]
+depends_on:
+  required: [limit-of-functor, functor-category, adjunct-functor]
+  recommended: [evaluation-functor, diagonal-functor]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "3. Limits with Parameters"
+    pages: ""
+    role_in_book: "Core limit theorem: limits in functor categories are computed pointwise"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

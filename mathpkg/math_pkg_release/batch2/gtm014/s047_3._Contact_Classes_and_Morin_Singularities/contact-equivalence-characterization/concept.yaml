@@ -1,0 +1,23 @@
+id: contact-equivalence-characterization
+title_en: "Characterization of Contact Equivalence via Local Rings"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [contact-equivalence, local-ring, map-germ, submanifold-germ]
+depends_on:
+  required: [contact-of-submanifold-germs, local-ring-of-contact, contact-equivalence-of-map-germs]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky and Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "II"
+    section: "3"
+    pages: "181-182"
+    role_in_book: "Shows that contact equivalence of map germs is completely determined by equality of their local rings, giving a geometric interpretation of the algebraic invariant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: nonsingular-variety
+title_en: "Nonsingular Variety"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [nonsingular, regular-local-ring, smooth-variety, abstract-variety]
+depends_on:
+  required: [abstract-variety, regular-local-ring, algebraically-closed-field]
+  recommended: [sheaf-of-relative-differentials]
+  suggested: [jacobi-criterion, smooth-morphism]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Definition of a nonsingular (abstract) variety over an algebraically closed field k: all local rings are regular local rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

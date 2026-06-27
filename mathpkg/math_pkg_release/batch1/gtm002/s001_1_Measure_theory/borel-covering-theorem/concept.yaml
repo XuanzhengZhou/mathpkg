@@ -1,0 +1,23 @@
+id: borel-covering-theorem
+title_en: "Borel Covering Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [borel, interval-covering, measure, heine-borel]
+depends_on:
+  required: [nullset, interval-length]
+  recommended: [cantors-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Proves that no interval is a nullset; another proof of Cantor's theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

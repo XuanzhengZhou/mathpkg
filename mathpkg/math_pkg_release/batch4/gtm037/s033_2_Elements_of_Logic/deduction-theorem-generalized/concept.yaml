@@ -1,0 +1,23 @@
+id: deduction-theorem-generalized
+title_en: "Generalized Deduction Theorem (Theorem 10.87)"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: predicate-logic
+difficulty: intermediate
+tags: [deduction-theorem, finite-premises, conjunction, predicate-calculus, formal-proof]
+depends_on:
+  required: [deduction-theorem, conjunction]
+  recommended: [formal-proof, tautology]
+  suggested: [properties-of-deducibility]
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.10"
+    pages: ""
+    role_in_book: "Generalizes the deduction theorem from a single hypothesis to finitely many hypotheses using conjunction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

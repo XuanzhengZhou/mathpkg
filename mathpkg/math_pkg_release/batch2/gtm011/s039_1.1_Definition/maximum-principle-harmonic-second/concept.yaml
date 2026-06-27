@@ -1,0 +1,23 @@
+id: maximum-principle-harmonic-second
+title_en: "Maximum Principle for Harmonic Functions (Second Version)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: intermediate
+tags: [maximum-principle, harmonic, mvp, boundary-behavior, comparison-principle]
+depends_on:
+  required: [maximum-principle-harmonic-first, mean-value-property]
+  recommended: [extended-boundary, limsup, liminf]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "X"
+    section: "1.7"
+    pages: ""
+    role_in_book: "Comparison form of the Maximum Principle using extended boundary"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: properties-of-finite-fields
+title_en: "Properties of Finite Fields"
+title_zh: "有限域的性质"
+type: theorem
+domain: algebra
+subdomain: finite-fields
+difficulty: intermediate
+tags: [finite-field, galois-field, cyclic-group, squares, characteristic]
+depends_on:
+  required: [field]
+  recommended: [polynomial-over-field]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "1"
+    section: "2"
+    pages: ""
+    role_in_book: "Result 1.4; fundamental facts about finite fields used throughout"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

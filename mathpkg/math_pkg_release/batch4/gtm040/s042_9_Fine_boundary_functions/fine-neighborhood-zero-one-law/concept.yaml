@@ -1,0 +1,23 @@
+id: fine-neighborhood-zero-one-law
+title_en: "Proposition 10-47: Zero-One Law for Fine Neighborhoods"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [fine-topology, zero-one-law, exit-boundary, h-process, fine-neighborhood, thin-set]
+depends_on:
+  required: [lemma-10-46-minimal-regular-function-characterization]
+  recommended: [h-process, exit-boundary, fine-boundary-function]
+  suggested: [proposition-5-19, regular-function]
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "10"
+    section: "9. Fine boundary functions"
+    pages: ""
+    role_in_book: "Establishes the zero-one law for the fine topology via the h-process; characterizes fine neighborhoods and thin sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

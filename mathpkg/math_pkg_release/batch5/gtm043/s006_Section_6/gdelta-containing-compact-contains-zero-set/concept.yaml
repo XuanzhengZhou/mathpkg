@@ -1,0 +1,23 @@
+id: gdelta-containing-compact-contains-zero-set
+title_en: "Every G-Delta Containing a Compact Set Contains a Zero-Set Containing It"
+title_zh: "每个包含紧集的G_δ集包含一个包含该紧集的零集"
+type: theorem
+domain: topology
+subdomain: compactness
+difficulty: intermediate
+tags: [g-delta, compact-set, zero-set, completely-regular-space, countable-intersection]
+depends_on:
+  required: [completely-regular-space, compact-set, g-delta-set, zero-set]
+  recommended: [complete-separation]
+  suggested: [c-embedded]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.11"
+    pages: ""
+    role_in_book: "Theorem 3.11(b); powerful result about the relationship between G_δ sets and zero-sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

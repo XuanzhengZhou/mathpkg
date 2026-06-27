@@ -1,0 +1,23 @@
+id: hyper-real-ideal
+title_en: "Hyper-Real Ideal and Hyper-Real Residue Class Field"
+title_zh: "超实理想与超实商域"
+type: definition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [hyper-real-ideal, hyper-real-field, nonarchimedean-field, maximal-ideal, residue-class-field]
+depends_on:
+  required: [real-ideal, maximal-ideal]
+  recommended: [archimedean-field, nonarchimedean-field, infinitely-large-element]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.6"
+    pages: ""
+    role_in_book: "Defines hyper-real ideals: maximal ideals whose residue class field properly contains the canonical copy of R; these are nonarchimedean fields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

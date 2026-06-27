@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $p$ be a prime number and let $G$ be a finite $p$-group. Then the order $G:1$ of $G$ is a power of $p$.

@@ -1,0 +1,23 @@
+id: locally-arcwise-connected
+title_en: "Locally Arcwise Connected Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [locally-arcwise-connected, locally-pathwise-connected, topological-space, connectedness]
+depends_on:
+  required: [arcwise-connected]
+  recommended: [topological-space, neighborhood-system]
+  suggested: [locally-connected]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "5"
+    section: "5.6"
+    pages: ""
+    role_in_book: "definition needed for studying local properties of sheaf spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,9 @@
+The \text{adjoint representation} $\operatorname{ad}: L \rightarrow \mathfrak{gl}(L)$ sends $x$ to $\operatorname{ad} x$, where $\operatorname{ad} x(y) = [xy]$. It is clear that $\operatorname{ad}$ is a linear transformation. To see that it preserves the bracket:
+\begin{align*}
+[\operatorname{ad} x, \operatorname{ad} y](z) &= \operatorname{ad} x \operatorname{ad} y(z) - \operatorname{ad} y \operatorname{ad} x(z) \\
+&= \operatorname{ad} x([yz]) - \operatorname{ad} y([xz]) \\
+&= [x[yz]] - [y[xz]] \\
+&= [x[yz]] + [[xz]y] \\
+&= [[xy]z] \\
+&= \operatorname{ad}[xy](z).
+\end{align*}

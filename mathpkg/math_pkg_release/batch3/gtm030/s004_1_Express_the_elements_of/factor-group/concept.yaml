@@ -1,0 +1,23 @@
+id: factor-group
+title_en: "Factor Group (Quotient Group)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [factor-group, quotient-group, normal-subgroup, coset]
+depends_on:
+  required: [invariant-subgroup, coset, group]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "14"
+    pages: ""
+    role_in_book: "Defines the factor (quotient) group of a group by an invariant subgroup"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

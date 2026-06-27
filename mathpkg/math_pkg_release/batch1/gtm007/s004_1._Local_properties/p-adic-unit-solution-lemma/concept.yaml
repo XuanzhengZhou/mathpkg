@@ -1,0 +1,13 @@
+id: p-adic-unit-solution-lemma
+title_en: "Existence of Unit Solution for $z^2 - p x^2 - v y^2 = 0$"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: p-adic-numbers
+difficulty: intermediate
+tags: [p-adic-numbers, quadratic-forms, primitive-solutions, p-adic-units, hensels-lemma]
+depends_on: {required: [p-adic-number-field, p-adic-integer-ring], recommended: [hensel-lemma, squares-in-qp], suggested: []}
+source_books: [{book_id: "gtm007", author: "Jean-Pierre Serre", title: "A Course in Arithmetic", chapter: "III", section: "§1. Local properties", pages: "", role_in_book: "Lemma used in proof of Theorem 1 — ensures solutions with unit coordinates"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

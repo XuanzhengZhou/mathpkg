@@ -1,0 +1,23 @@
+id: normed-algebra
+title_en: "Normed Algebra"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: topological-algebras
+difficulty: intermediate
+tags: [normed-algebra, banach-algebra, submultiplicative-norm, unit]
+depends_on:
+  required: [algebra-over-field, normed-space, submultiplicative-norm]
+  recommended: [locally-convex-algebra]
+  suggested: [banach-algebra, c-star-algebra]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "Appendix 2"
+    section: "Topological Algebras"
+    pages: "215"
+    role_in_book: "Definition of a normed algebra with submultiplicative norm and unit normalization"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

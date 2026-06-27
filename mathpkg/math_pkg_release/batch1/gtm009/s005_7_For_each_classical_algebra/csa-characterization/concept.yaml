@@ -1,0 +1,23 @@
+id: csa-characterization
+title_en: "Cartan Subalgebra Characterization Theorem"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [cartan-subalgebra, csa, engel-subalgebra, minimal-engel, nilpotent]
+depends_on:
+  required: [cartan-subalgebra, engel-subalgebra, minimal-engel-subalgebra-property]
+  recommended: [engels-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "15"
+    section: "15.3"
+    pages: "91-101"
+    role_in_book: "Main theorem of Section 15.3; establishes equivalence between CSAs and minimal Engel subalgebras, guaranteeing existence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

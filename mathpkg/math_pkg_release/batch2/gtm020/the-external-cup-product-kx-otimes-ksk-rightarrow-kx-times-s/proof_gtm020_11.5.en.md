@@ -1,0 +1,15 @@
+---
+role: proof
+locale: en
+of_concept: the-external-cup-product-kx-otimes-ksk-rightarrow-kx-times-s
+source_book: gtm020
+source_chapter: "11. Bott Periodicity in the Complex Case"
+source_section: "5"
+---
+
+
+$$j_*: \pi_i(V_k(F^n)) \rightarrow \pi_i(V_{k+1}(F^{n+1}))$$
+
+is an isomorphism for $i \leq c(n+1) - 3$.
+
+For $c = 1$, the inequality has the form $i \leq n - 2$, and $\pi_i(V_1(R^n)) = \pi_i(S^{n-1}) = 0$. This yields $\pi_i(V_k(R^n)) = 0$ for $i \leq (n-k) - 1$, which is Theorem (5.1). The first nontrivial group is $\pi_{n-k}(V_k(R^n))$. This we calculate in the next proposition.

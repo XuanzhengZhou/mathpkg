@@ -1,0 +1,23 @@
+id: t-continuous-function
+title_en: "T-Continuous Function"
+title_zh: "T-连续函数"
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [t-transform, beta-measure, continuous-function, martin-boundary, harmonic-function]
+depends_on:
+  required: [continuous-column-vector, limit-of-b-e-k]
+  recommended: [elementary-continuous-function]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines the T-transform and T-continuous functions on the Martin compactification"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

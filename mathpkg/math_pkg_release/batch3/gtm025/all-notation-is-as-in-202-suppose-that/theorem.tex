@@ -1,0 +1,23 @@
+All notation is as in (20.2). Suppose that
+
+(i) $\varrho(\varphi(E)) = 0$ for all $E \subset X$ such that $\mu(E) = 0$.
+
+Then there is a nonnegative, real-valued, Borel measurable function $w$ on $X$ with the following properties. For every $f \in \mathfrak{L}_1(Y, \mathcal{M}_\varrho, \varrho)$, the function $(f \circ \varphi)w$ is in $\mathfrak{L}_1(X, \mathcal{M}_\mu, \mu)$
+
+it follows that $f_1 \circ \varphi$ is Borel measurable [see (10.42.a)]. Combining (1) and (2) and writing $w = f_1 \circ \varphi$, we obtain
+
+$$\int_Y g(y) d\varrho(y) = \int_X g \circ \varphi(x) w(x) d\mu(x)$$
+
+for all $g \in \mathfrak{L}_1(Y, \mathcal{B}(Y), \varrho)$.
+
+Suppose that $B \subset Y$ and that $\varrho(B) = 0$. Let $(U_n)$ be a decreasing sequence of open subsets of $Y$ such that $U_n \supset B$, $\varrho(U_1) < \infty$, and $\lim_{n \to \infty} \varrho(U_n) = 0$. Write $A = \bigcap_{n=1}^{\infty} U_n$. Put $g = \xi_A$ in (3) and use (10.15) to obtain
+
+$$0 = \varrho(A) = \int_X \xi_A \circ \varphi(x) w(x) d\mu(x).$$
+
+Thus $(\xi_A \circ \varphi)w$ vanishes $\mu$-a.e. on $X$, and hence $(\xi_B \circ \varphi)w$ also vanishes $\mu$-a.e. on $X$. If $h$ is any $\mathcal{M}_\varrho$-measurable function on $Y$ that vanishes except on $B$, we clearly have $(h \circ \varphi)w = (h \circ \varphi)(\xi_B \circ \varphi)w$, and so $(h \circ \varphi)w$ is $\mathcal{M}_\mu$-measurable and vanishes $\mu$-a.e. on $X$. Finally, consider an arbitrary $f \in \mathfrak{L}_1(Y, \mathcal{M}_\varrho)$. By (12.63), we can write
+
+$$f = g + h,$$
+
+where $g$ is Borel measurable and $h$ vanishes $\varrho$-a.e. on $Y$. Applying the last observations, we see that $(f
+
+The function $w$ in (20.4) can be rather complicated to compute [see (20.6)—(20.8)]. For monotone $\varphi$, however, it is simply $|\varphi'|$, as we now show. [This is the classical form of the theorem on integration by substitution.]

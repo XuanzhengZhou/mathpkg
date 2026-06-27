@@ -1,0 +1,23 @@
+id: distributivity-of-gcd
+title_en: "Distributivity of GCD with Respect to Multiplication"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: semi-group-theory
+difficulty: basic
+tags: [gcd, distributivity, semi-group, condition-c]
+depends_on:
+  required: [condition-c-gcd-existence]
+  recommended: [greatest-common-divisor-notation, associativity-of-gcd]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Lemma 3: Multiplication distributes through the g.c.d. up to associates"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

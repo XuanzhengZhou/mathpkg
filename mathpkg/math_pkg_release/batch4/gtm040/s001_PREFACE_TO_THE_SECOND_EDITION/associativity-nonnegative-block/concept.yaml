@@ -1,0 +1,23 @@
+id: associativity-nonnegative-block
+title_en: "Associativity with Non-Negative Block Subtraction"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: infinite-matrices
+difficulty: intermediate
+tags: [matrix, associativity, non-negative, block]
+depends_on:
+  required: [nonnegative-matrices-associate, distributivity-of-matrix-multiplication]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "J.G. Kemeny, J.L. Snell, A.W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "1"
+    section: "1"
+    pages: "4"
+    role_in_book: "Allows regrouping when subtracting non-negative matrix products"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

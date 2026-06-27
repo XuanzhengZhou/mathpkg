@@ -1,0 +1,23 @@
+id: rank-bounds-empty-quadric
+title_en: "Rank Bounds for Quadratic Forms with Empty Zero-Set"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: bilinear-forms
+difficulty: intermediate
+tags: [rank, quadratic-form, empty-quadric, real-field, algebraically-closed]
+depends_on:
+  required: [orthogonal-decomposition-rank]
+  recommended: [signature-of-quadratic-form]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K. W. Gruenberg and A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "7"
+    pages: ""
+    role_in_book: "Exercise 4(i-iii): rank bounds for empty quadrics over different fields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

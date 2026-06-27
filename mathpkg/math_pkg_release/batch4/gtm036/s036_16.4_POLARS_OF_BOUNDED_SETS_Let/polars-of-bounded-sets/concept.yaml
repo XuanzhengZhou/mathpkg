@@ -1,0 +1,23 @@
+id: polars-of-bounded-sets
+title_en: "Polars of Bounded Sets"
+title_zh: ""
+type: theorem
+domain: functional-analysis
+subdomain: duality-theory
+difficulty: intermediate
+tags: [polar, bounded-set, weak-topology, radial-set, paired-linear-spaces]
+depends_on:
+  required: [computation-rules-for-polars, elementary-facts-on-boundedness]
+  recommended: [weak-topology, polar-of-set]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "16"
+    section: "16.4"
+    pages: ""
+    role_in_book: "Characterizes boundedness via polars in paired linear spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

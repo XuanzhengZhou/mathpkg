@@ -1,0 +1,23 @@
+id: cross-cap-singularity
+title_en: "Cross-cap Singularity"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: intermediate
+tags: [cross-cap, Whitney singularity, Boardman symbol, S_1, jet transversality]
+depends_on:
+  required: [boardman-symbols, s1-singularity]
+  recommended: [jet-transversality]
+  suggested: [whitney-umbrella]
+source_books:
+  - book_id: gtm014
+    author: "Golubitsky, M.; Guillemin, V."
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VII"
+    section: "4"
+    pages: ""
+    role_in_book: "Definition of cross-cap singularity for maps from n-manifolds to (2n-1)-manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

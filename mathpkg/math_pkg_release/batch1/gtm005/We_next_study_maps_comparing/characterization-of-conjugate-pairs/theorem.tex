@@ -1,0 +1,16 @@
+Given two adjunctions
+$$\langle F, G, \eta, \varepsilon \rangle : X \rightharpoonup A, \quad \langle F', G', \eta', \varepsilon' \rangle : X \rightharpoonup A$$
+the natural transformations $\sigma : F \to F'$ and $\tau : G' \to G$ are conjugate if and only if any one of the following four diagrams (of natural transformations) commutes:
+\[
+\begin{array}{cc}
+G' \xrightarrow{\tau} G & F \xrightarrow{\sigma} F' \\
+\eta'_{G'} \downarrow \quad \downarrow G\sigma G' & \varepsilon \downarrow \quad \downarrow \varepsilon' \\
+G'F'G' \xrightarrow{G'\tau F'} G'FG & FG \xrightarrow{F\sigma G} F'G \\
+\\
+FG' \xrightarrow{F\tau} FG & F'G' \xrightarrow{F'\tau} F'G \\
+\sigma_{G'} \downarrow \quad \downarrow \varepsilon & \sigma_{G'} \downarrow \quad \downarrow \varepsilon' \\
+F'G' \xrightarrow{\varepsilon'} I_A & F'G' \xrightarrow{\varepsilon'} I_A
+\end{array}
+\]
+
+Moreover, given the adjunctions and a natural transformation $\sigma : F \to F'$, there exists a unique $\tau : G' \to G$ such that the pair $\langle \sigma, \tau \rangle$ is conjugate. Dually, given $\tau$, there exists a unique $\sigma$ with $\langle \sigma, \tau \rangle$ conjugate.

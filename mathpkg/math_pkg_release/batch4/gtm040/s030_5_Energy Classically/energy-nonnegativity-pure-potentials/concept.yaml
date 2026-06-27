@@ -1,0 +1,23 @@
+id: energy-nonnegativity-pure-potentials
+title_en: "Non-negativity of Energy for Pure Potentials"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: potential-theory
+difficulty: intermediate
+tags: [energy, pure-potential, non-negative, inner-product, schwarz-inequality]
+depends_on:
+  required: [energy-of-potential, energy-via-restricted-transition-operator]
+  recommended: [restricted-transition-operator, superregular-measure]
+  suggested: [equilibrium-potential]
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "8"
+    section: "5"
+    pages: ""
+    role_in_book: "proves that energy is non-negative for pure potentials"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

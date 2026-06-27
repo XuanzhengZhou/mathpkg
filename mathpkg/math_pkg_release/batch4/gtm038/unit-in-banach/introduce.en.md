@@ -1,0 +1,1 @@
+In a Banach algebra, an element sufficiently close to 1 is invertible, with an explicit estimate for the norm of its inverse. This follows from the geometric series expansion and is used throughout the Weierstrass theory.

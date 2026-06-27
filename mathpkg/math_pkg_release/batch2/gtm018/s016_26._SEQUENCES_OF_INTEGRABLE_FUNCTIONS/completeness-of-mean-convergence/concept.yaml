@@ -1,0 +1,23 @@
+id: completeness-of-mean-convergence
+title_en: "Completeness of the Space of Integrable Functions under Mean Convergence"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [mean-convergence, completeness, integrable-functions, l1-space, riesz-fischer]
+depends_on:
+  required: [simple-function-mean-approximation]
+  recommended: [mean-fundamental-sequence, convergence-in-measure, integrable-function]
+  suggested: [l1-norm, banach-space]
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX"
+    section: "§26. Sequences of Integrable Functions"
+    pages: ""
+    role_in_book: "Completeness of L¹; every mean fundamental sequence converges in mean"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

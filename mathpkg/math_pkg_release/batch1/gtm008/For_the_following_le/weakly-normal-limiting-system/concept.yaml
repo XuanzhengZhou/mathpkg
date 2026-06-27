@@ -1,0 +1,23 @@
+id: weakly-normal-limiting-system
+title_en: "Weakly Normal Limiting System of Partial Order Structures"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: boolean-algebras
+difficulty: advanced
+tags: [normal-limiting-system, weakly-normal, partial-order, boolean-algebra]
+depends_on:
+  required: [normal-limiting-system-partial-orders, compatibility-normal-limiting-system]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "22"
+    section: "The Completion of a Boolean Algebra"
+    pages: ""
+    role_in_book: "Shows that weakly normal systems suffice, and under a density condition they are equivalent to normal systems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

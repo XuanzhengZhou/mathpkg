@@ -1,0 +1,23 @@
+id: satisfaction-with-equality
+title_en: "Satisfaction in Logic with Equality vs Without"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [first-order-logic, equality, satisfaction]
+depends_on:
+  required: [first-order-language-with-equality, satisfaction-relation]
+  recommended: [equivalence-relation]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "29"
+    section: "Unusual Logics"
+    pages: ""
+    role_in_book: "Proposition 29.9: equivalence of satisfaction in logic with and without primitive equality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

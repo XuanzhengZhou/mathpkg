@@ -1,0 +1,23 @@
+id: algebra-over-commutative-ring
+title_en: "Algebra over a Commutative Ring"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [algebra, K-algebra, scalar-multiplication, center]
+depends_on:
+  required: [center-of-ring]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "1.11"
+    pages: ""
+    role_in_book: "Defines K-algebra as a ring with a homomorphism from K into the center"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

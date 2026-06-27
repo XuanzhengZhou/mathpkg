@@ -1,0 +1,23 @@
+id: fourier-inversion-finite-field
+title_en: "Fourier Inversion Formula on Finite Fields"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: finite-fields
+difficulty: intermediate
+tags: ["fourier-transform", "fourier-inversion", "finite-fields", "character-sums"]
+depends_on:
+  required: ["fourier-transform-finite-field"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "1"
+    pages: "1-2"
+    role_in_book: "Theorem 1.1 — establishes that double Fourier transform recovers the original function up to sign inversion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

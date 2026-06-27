@@ -1,0 +1,1 @@
+Simple functions are the 'step functions' of abstract measure theory. They serve as building blocks for integration: the integral of a simple function is defined by a finite sum, and general measurable functions are approximated by simple functions.

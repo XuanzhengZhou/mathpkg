@@ -1,0 +1,23 @@
+id: inverse-function-formula
+title_en: "Inverse Function Formula via Contour Integration"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [inverse-function, contour-integration, argument-principle, analytic-function, one-to-one]
+depends_on:
+  required: [generalized-argument-principle, analytic-function]
+  recommended: [argument-principle]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "V"
+    section: "3"
+    pages: ""
+    role_in_book: "Gives a contour integral formula for the inverse of an injective analytic function, derived from the Generalized Argument Principle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: wedge-decomposition-suspension-omega-fibre
+title_en: "Wedge Decomposition of SΩF_n Localized at an Odd Prime"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: homotopy-theory
+difficulty: advanced
+tags: [wedge-decomposition, loop-space, fibre-of-double-suspension, localization, homotopy-equivalence, james-construction]
+depends_on:
+  required: [tau-n-element, t-n-space, relative-homotopy-of-mapping-cone]
+  recommended: [james-construction, loop-suspension-decomposition, p-local-homotopy]
+  suggested: [homology-of-loop-spaces, mod-p-homology]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "7"
+    section: "7.4"
+    pages: "349-350"
+    role_in_book: "Provides the wedge decomposition of SΩF_n that is central to the double suspension analysis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

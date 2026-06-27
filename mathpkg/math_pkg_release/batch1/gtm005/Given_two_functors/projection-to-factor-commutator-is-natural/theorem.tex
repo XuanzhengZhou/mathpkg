@@ -1,0 +1,8 @@
+Let $G \mapsto G/[G,G]$ be the functor sending each group to its factor-commutator group (the abelianization), considered as the composite of the abelianization functor $\text{Grp} \rightarrow \text{Ab}$ and the inclusion $\text{Ab} \rightarrow \text{Grp}$. Then for each group $G$, the canonical projection $p_G: G \rightarrow G/[G,G]$ is the component at $G$ of a natural transformation $p: I_{\text{Grp}} \mathbin{\raisebox{0.5pt}{\hspace{0.5pt}\tikz\draw[->](0,0)--(0.5,0);\hspace{0.5pt}}} [\cdot]/[\cdot,\cdot]$. Moreover, $p$ is natural because each group homomorphism $f: G \rightarrow H$ defines the evident homomorphism $f'$ for which the following diagram commutes:
+$$
+\begin{array}{ccc}
+G & \xrightarrow{p_G} & G/[G,G] \\
+{\scriptstyle f}\downarrow & & \downarrow {\scriptstyle f'} \\
+H & \xrightarrow{p_H} & H/[H,H]
+\end{array}
+$$

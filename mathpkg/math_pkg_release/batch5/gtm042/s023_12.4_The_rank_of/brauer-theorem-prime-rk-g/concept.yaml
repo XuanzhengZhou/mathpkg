@@ -1,0 +1,23 @@
+id: brauer-theorem-prime-rk-g
+title_en: "Brauer's theorem for R_K(G) at a fixed prime p"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: ["representation-theory", "brauer-theorem", "induction", "elementary-subgroups", "rationality", "prime"]
+depends_on:
+  required: ["gamma-k-elementary-subgroup", "brauer-theorem-rk-g"]
+  recommended: ["semidirect-product", "p-group"]
+  suggested: ["brauer-theorem-classical"]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "12"
+    section: "12.6"
+    pages: ""
+    role_in_book: "Theorem 28: the precise p-primary version of Brauer's theorem for R_K(G) — the constant function l (prime to p) belongs to the image of induction from Γ_K-p-elementary subgroups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

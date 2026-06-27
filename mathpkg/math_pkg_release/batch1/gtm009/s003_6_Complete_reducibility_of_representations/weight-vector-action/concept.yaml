@@ -1,0 +1,23 @@
+id: weight-vector-action
+title_en: "Action of sl(2,F) Basis on Weight Vectors"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: lie-algebra
+difficulty: intermediate
+tags: [sl2, weight-vector, representation, nilpotent, lie-algebra]
+depends_on:
+  required: [l-module, sl2-lie-algebra]
+  recommended: [preservation-of-jordan-decomposition]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "II"
+    section: "7"
+    pages: ""
+    role_in_book: "Lemma describing action of standard sl(2) basis on weight spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

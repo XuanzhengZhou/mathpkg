@@ -1,0 +1,23 @@
+id: rank-in-boolean-valued-universe
+title_en: "Rank Function in Boolean-Valued Universe"
+title_zh: "布尔值宇宙中的秩函数"
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: intermediate
+tags: [boolean-valued-universe, rank-function, cumulative-hierarchy]
+depends_on:
+  required: [subset-characterization-via-equality]
+  recommended: [u-alpha-v-alpha-inclusion]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: ""
+    role_in_book: "Computes the Boolean truth value of u ∈ R(check(alpha)), relating the Boolean rank to the V_alpha^(B) hierarchy."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

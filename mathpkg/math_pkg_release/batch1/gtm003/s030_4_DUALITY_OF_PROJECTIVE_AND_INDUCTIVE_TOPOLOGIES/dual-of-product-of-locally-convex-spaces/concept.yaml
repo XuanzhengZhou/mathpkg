@@ -1,0 +1,23 @@
+id: dual-of-product-of-locally-convex-spaces
+title_en: "Dual of a Product of Locally Convex Spaces (Theorem 4.3)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [product-space, dual-space, mackey-topology, weak-topology, locally-convex-space]
+depends_on:
+  required: [product-direct-sum-duality-of-s-topologies, locally-convex-space, dual-space]
+  recommended: [mackey-topology, weak-topology]
+  suggested: [direct-sum]
+source_books:
+  - book_id: gtm003
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "4"
+    pages: "146-156"
+    role_in_book: "Identifies the dual of a product as the direct sum of the duals, with topological identities for weak and Mackey topologies"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

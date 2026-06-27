@@ -1,0 +1,23 @@
+id: integrable-potentials-characterization
+title_en: "Characterization of Integrable Potentials"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [ergodic-chains, potentials, stationary-distribution, integrable-functions]
+depends_on:
+  required: [convergence-to-stationary-limit]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 9-53 characterizes integrable potentials as functions with zero stationary mean"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

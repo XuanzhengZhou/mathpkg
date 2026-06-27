@@ -1,0 +1,15 @@
+Let $A$ be a subset of $R$. An extended real-valued function $\alpha$ defined on $A$ is said to be nondecreasing on $A$ if $\alpha(x) \leq \alpha(y)$ whenever $x < y$ in $A$. In case $\alpha(x) < \alpha(y)$ whenever $x < y$
+
+$\mathcal{D}([a, b])$, define
+
+$$L(f, \alpha, \Delta) = \sum_{j=1}^{n} \inf \{f(x): x \in [t_{j-1}, t_j]\} \cdot (\alpha(t_j) - \alpha(t_{j-1}))$$
+
+and
+
+$$U(f, \alpha, \Delta) = \sum_{j=1}^{n} \sup \{f(x): x \in [t_{j-1}, t_j]\} \cdot (\alpha(t_j) - \alpha(t_{j-1}))$$
+
+These numbers are known as lower Darboux sums and upper Darboux sums, respectively. Suppose that for every $\varepsilon > 0$ there exists a $\Delta \in \mathcal{D}([a, b])$ [depending on $f, \alpha$, and $\varepsilon$] such that
+
+$$U(f, \alpha, \Delta) - L(f, \alpha, \Delta) < \varepsilon.$$
+
+Then $f$ is said to be Riemann-Stieltjes integrable with respect to $\alpha$ on $[a, b]$.

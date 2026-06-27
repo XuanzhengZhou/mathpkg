@@ -1,0 +1,23 @@
+id: criterion-for-representing-zero
+title_en: "Criterion for a Quadratic Form over Q_p to Represent Zero"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: advanced
+tags: [quadratic-form, p-adic, represent-zero, isotropic, discriminant, epsilon-invariant, hilbert-symbol]
+depends_on:
+  required: [epsilon-invariant-of-quadratic-form, structure-of-k-mod-k-star-2]
+  recommended: [criterion-for-representing-an-element, discriminant-of-quadratic-form]
+  suggested: []
+source_books:
+  - book_id: gtm007
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "IV"
+    section: "§2.2.2"
+    pages: ""
+    role_in_book: "Gives necessary and sufficient conditions for a quadratic form over Q_p to represent 0 nontrivially"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

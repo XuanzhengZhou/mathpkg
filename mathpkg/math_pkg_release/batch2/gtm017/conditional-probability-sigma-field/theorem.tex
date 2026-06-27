@@ -1,0 +1,9 @@
+Let $(\Omega, \mathfrak{F}, P)$ be a probability space and $\mathfrak{B} \subset \mathfrak{F}$ a sub-sigma-field. The \text{conditional probability} $P(A|\mathfrak{B})(w)$ of an event $A \in \mathfrak{F}$ given $\mathfrak{B}$ is defined as the $\mathfrak{B}$-measurable function satisfying
+$$P(AB) = \int_B P(A|\mathfrak{B})(w) \, dP \quad \text{for all } B \in \mathfrak{B}.$$
+
+The conditional probability satisfies, for almost every $w$:
+\begin{enumerate}
+\item $0 \leq P(A|\mathfrak{B})(w) \leq 1$.
+\item $P(\Omega|\mathfrak{B})(w) = 1$.
+\item For disjoint $A_1, A_2, \ldots$, $P(\bigcup A_i|\mathfrak{B})(w) = \sum_i P(A_i|\mathfrak{B})(w)$.
+\end{enumerate}

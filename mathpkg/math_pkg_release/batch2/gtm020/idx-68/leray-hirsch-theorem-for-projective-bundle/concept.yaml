@@ -1,0 +1,23 @@
+id: leray-hirsch-theorem-for-projective-bundle
+title_en: "Leray-Hirsch Theorem for Projective Bundles"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: characteristic-classes
+difficulty: advanced
+tags: [leray-hirsch-theorem, projective-bundle, cohomology-base, monomorphism, stiefel-whitney-class, chern-class]
+depends_on:
+  required: []
+  recommended: [projective-bundle-associated-with-vector-bundle, tautological-class-of-projective-bundle, leray-hirsch-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "15"
+    section: "2"
+    pages: ""
+    role_in_book: "Establishes the cohomological framework for defining characteristic classes; the classes 1, a_ξ, ..., a_ξ^{n-1} form a basis of the cohomology of the total space as a free module over the base cohomology."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

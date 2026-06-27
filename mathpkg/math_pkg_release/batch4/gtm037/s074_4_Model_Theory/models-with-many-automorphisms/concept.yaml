@@ -1,0 +1,23 @@
+id: models-with-many-automorphisms
+title_en: "Existence of Models with Many Automorphisms"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [automorphism, model-existence, ehrenfeucht-mostowski, cardinality]
+depends_on:
+  required: [ehrenfeucht-mostowski-theorem]
+  recommended: [indiscernibles, automorphism-group]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: ""
+    title: "Mathematical Logic"
+    chapter: "27"
+    section: "Indiscernibles and the Ehrenfeucht-Mostowski Theorem"
+    pages: ""
+    role_in_book: "An immediate corollary of the Ehrenfeucht-Mostowski theorem, showing that theories with infinite models possess arbitrarily large models with the maximum possible number of automorphisms."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

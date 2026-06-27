@@ -1,0 +1,23 @@
+id: transient-state-finitude-of-expected-visits
+title_en: "Finiteness of Expected Visits to Transient States"
+title_zh: ""
+type: corollary
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, transient-state, expected-visits, hitting-probability]
+depends_on:
+  required: [characterization-of-transient-states]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "7. Classification of states"
+    pages: ""
+    role_in_book: "Corollary 4-21: If j is transient, then N_ij is finite for all i, with formula N_ij = H_ij N_jj"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

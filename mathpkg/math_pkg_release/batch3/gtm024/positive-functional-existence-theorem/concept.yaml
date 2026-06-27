@@ -1,0 +1,23 @@
+id: positive-functional-existence-theorem
+title_en: "Existence of Positive Linear Functionals"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: ordered-spaces
+difficulty: intermediate
+tags: ["positive-functional", "wedge", "core", "separation"]
+depends_on:
+  required: ["wedge-and-cone-def", "basic-separation-theorem"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§5"
+  section: "5.B"
+  pages: "17-18"
+  role_in_book: "sufficient condition for non-trivial dual wedge"
+content_hash: "91515ce58ec51890"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

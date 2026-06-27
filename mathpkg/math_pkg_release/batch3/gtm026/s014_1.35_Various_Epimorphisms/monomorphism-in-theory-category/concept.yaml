@@ -1,0 +1,23 @@
+id: monomorphism-in-theory-category
+title_en: "Monomorphism in the Category of T-Algebras"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [monomorphism, algebraic-theory, t-homomorphism, free-algebra, universal-property]
+depends_on:
+  required: [monomorphism, algebraic-theory, t-algebra]
+  recommended: [free-t-algebra, universal-property-of-free-algebra]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.46"
+    pages: ""
+    role_in_book: "Characterizes monomorphisms in K^T as those T-homomorphisms whose underlying map is mono in K"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

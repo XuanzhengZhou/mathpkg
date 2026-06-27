@@ -1,0 +1,23 @@
+id: bott-periodicity-k-theory-spheres
+title_en: "Isomorphism Between Reduced K-Theory of Spheres and Homotopy Groups of the Structure Group"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: k-theory
+difficulty: advanced
+tags: [k-theory, spheres, bott-periodicity, homotopy-groups, unitary-group]
+depends_on:
+  required: [reduced-k-functor, classifying-space-b-f]
+  recommended: [stiefel-variety, homotopy-exact-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "9"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Establishes the Bott periodicity isomorphism relating K-theory of spheres to homotopy groups of the unitary/orthogonal group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

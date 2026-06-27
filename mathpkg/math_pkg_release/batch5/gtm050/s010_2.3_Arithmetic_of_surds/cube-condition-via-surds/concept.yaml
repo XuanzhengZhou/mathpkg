@@ -1,0 +1,13 @@
+id: cube-condition-via-surds
+title_en: "Sufficient condition for p^2+3q^2 to be a cube via surds"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: intermediate
+tags: [surds, cube, cubic-residue, Fermat-last-theorem, Euler, Z-sqrt-3]
+depends_on: {required: [factorization-p2-plus-3q2-via-surds, ring-of-surds-z-sqrt-3], recommended: [conjugate-of-surds-cube], suggested: []}
+source_books: [{book_id: "gtm050", author: "Harold M. Edwards", title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory", chapter: "2", section: "2.3", pages: "", role_in_book: "Euler's approach: sufficient condition for p^2+3q^2 to be a cube using arithmetic of surds Z[sqrt(-3)]"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

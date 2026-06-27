@@ -1,0 +1,24 @@
+Associate with a Turing machine $M$ a finite semigroup presentation as follows. With an instantaneous description $\sigma q_i \tau$ associate the semigroup word $e \sigma q_i \tau e$, where $e$ is an end symbol and $q_\infty$ is a new internal state symbol meaning the machine has stopped. The relations are:
+
+\begin{itemize}
+\item[(b_0)] For each quadruple $q_i s_0 L q_t \in M$, the relations
+$$s_k q_i s_0 \sim q_t s_k s_0 \quad (\text{all } k),$$
+$$e q_i s_0 \sim e q_t s_0 s_0,$$
+$$s_k q_i e \sim q_t s_k e \quad (\text{all } k \neq 0),$$
+$$s_0 q_i e \sim q_t e,$$
+$$e q_i e \sim e q_t e.$$
+
+\item[(c)] For each quadruple $q_i s_j R q_t \in M$ with $j \neq 0$, the relation
+$$q_i s_j \sim s_j q_t.$$
+
+\item[(c_0)] For each quadruple $q_i s_0 R q_t \in M$, the relations
+$$s_k q_i s_0 \sim s_k s_0 q_t \quad (\text{all } k),$$
+$$e q_i s_0 \sim e q_t,$$
+$$s_k q_i e \sim s_k s_0 q_t e \quad (\text{all } k),$$
+$$e q_i e \sim e q_t e.$$
+
+\item[(d)] For each pair $q_i s_j$ for which there is no quadruple in $M$ beginning with $q_i s_j$, the relation
+$$q_i s_j \sim q_\infty s_j,$$
+and, if $j = 0$, the relation
+$$q_i e \sim q_\infty e.$$
+\end{itemize}

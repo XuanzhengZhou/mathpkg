@@ -1,0 +1,23 @@
+id: progenerator-endomorphism-equivalence
+title_en: "Progenerator Endomorphism Ring Equivalence"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [progenerator, endomorphism-ring, morita-equivalence, equivalence-test]
+depends_on:
+  required: [progenerator, moritas-theorem, endomorphism-ring]
+  recommended: [balanced-bimodule]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "6"
+    section: "22"
+    pages: ""
+    role_in_book: "Corollary 22.4: Most useful test for Morita equivalence via progenerators"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

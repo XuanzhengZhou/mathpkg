@@ -1,0 +1,23 @@
+id: small-oscillation-decomposition
+title_en: "Decomposition of Every Small Oscillation into Characteristic Oscillations"
+title_zh: "任意小振动分解为特征振动之和"
+type: corollary
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [decomposition, characteristic-oscillation, small-oscillations, superposition, lissajous-figures]
+depends_on:
+  required: [characteristic-oscillations-orthogonal, characteristic-oscillation]
+  recommended: [linear-superposition, fourier-decomposition]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "5"
+    section: "Small Oscillations"
+    pages: "116"
+    role_in_book: "States that every small oscillation can be expressed as a superposition of characteristic oscillations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+Let $\langle \mathfrak{A}_i : i \in I \rangle$ be a system of $\mathcal{L}$-structures and let $F$ be an ultrafilter over $I$. The \text{ultraproduct} $\prod_{i \in I} \mathfrak{A}_i / F$ is the $\mathcal{L}$-structure defined as follows. Let $\mathfrak{B} = \prod_{i \in I} \mathfrak{A}_i$ be the product structure and let $\equiv_F$ be the congruence relation defined by
+$$x \equiv_F y \quad \text{iff} \quad \{i \in I : x_i = y_i\} \in F.$$
+The universe of the ultraproduct is $B/{\equiv_F}$, the set of equivalence classes $[x]_F$ for $x \in \prod_{i \in I} A_i$. The operations and relations are defined by:
+
+\begin{enumerate}
+\item[(i)] If $\mathbf{O}$ is an $m$-ary operation symbol, then
+$$\mathbf{O}^{\prod \mathfrak{A}_i/F}([x_0]_F, \ldots, [x_{m-1}]_F) = [\mathbf{O}^{\mathfrak{B}}(x_0, \ldots, x_{m-1})]_F.$$
+
+\item[(ii)] If $\mathbf{R}$ is an $m$-ary relation symbol, then
+$$([x_0]_F, \ldots, [x_{m-1}]_F) \in \mathbf{R}^{\prod \mathfrak{A}_i/F} \quad \text{iff} \quad \{i \in I : (x_{0i}, \ldots, x_{m-1,i}) \in \mathbf{R}^{\mathfrak{A}_i}\} \in F.$$
+\end{enumerate}
+
+When all $\mathfrak{A}_i = \mathfrak{C}$, the ultraproduct is called the \text{ultrapower} of $\mathfrak{C}$ modulo $F$, denoted ${}^I\mathfrak{C}/F$.

@@ -1,0 +1,23 @@
+id: curve-class-on-blown-up-plane
+title_en: "Curve Classes on the Blown-Up Plane"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [divisor-class, blowing-up, strict-transform, picard-group, cubic-surface]
+depends_on:
+  required: [blowing-up, picard-group, linear-equivalence]
+  recommended: [strict-transform, multiplicity]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Remark 4.8.1; describes how curves on the blow-up correspond to plane curves"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

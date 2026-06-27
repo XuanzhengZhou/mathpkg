@@ -1,0 +1,23 @@
+id: effective-lindenbaum-extension-theorem
+title_en: "Effective Lindenbaum Extension Theorem"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: decidability
+difficulty: advanced
+tags: [lindenbaum, recursive, complete-theory, decidable, r.e.]
+depends_on:
+  required: []
+  recommended: [lindenbaums-theorem, complete-re-theory-is-decidable]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "Bell and Machover"
+    title: "A Course in Mathematical Logic"
+    chapter: "3"
+    section: "3"
+    pages: "269-272"
+    role_in_book: "Effective version of Lindenbaum's Theorem: every consistent r.e. theory can be extended to a complete decidable theory."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

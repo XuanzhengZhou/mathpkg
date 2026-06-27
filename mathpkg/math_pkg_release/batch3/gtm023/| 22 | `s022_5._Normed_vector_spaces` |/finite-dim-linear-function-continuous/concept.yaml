@@ -1,0 +1,23 @@
+id: finite-dim-linear-function-continuous
+title_en: "Every Linear Function on a Finite-Dimensional Normed Space is Continuous"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [finite-dimension, normed-space, continuity, linear-functional, boundedness]
+depends_on:
+  required: [normed-linear-space, linear-mapping-definition, finite-basis-existence]
+  recommended: [bounded-linear-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VII"
+    section: "5 (unnumbered, after 7.21)"
+    pages: ""
+    role_in_book: "core"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

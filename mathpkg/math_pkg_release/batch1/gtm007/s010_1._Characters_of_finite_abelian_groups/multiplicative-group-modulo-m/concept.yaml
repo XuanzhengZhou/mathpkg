@@ -1,0 +1,23 @@
+id: multiplicative-group-modulo-m
+title_en: "Multiplicative Group Modulo m"
+title_zh: "模m乘法群"
+type: definition
+domain: number-theory
+subdomain: modular-arithmetic
+difficulty: basic
+tags: [modular-arithmetic, unit-group, euler-totient, z-mod-nz]
+depends_on:
+  required: []
+  recommended: [modular-arithmetic, euler-totient-function]
+  suggested: [ring-of-integers-modulo-n]
+source_books:
+  - book_id: gtm007
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VI"
+    section: "§1.3"
+    pages: ""
+    role_in_book: "Defines the group on which modular characters (Dirichlet characters) are defined"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

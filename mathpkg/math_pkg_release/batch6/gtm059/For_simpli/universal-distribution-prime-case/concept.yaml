@@ -1,0 +1,23 @@
+id: universal-distribution-prime-case
+title_en: "Structure of the Universal Distribution for Prime Level"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [universal-distribution, distribution, stickelberger, bernoulli, prime-distribution]
+depends_on:
+  required: [universal-distribution, ordinary-distribution]
+  recommended: [free-abelian-group, primitive-root]
+  suggested: [cyclotomic-units, stickelberger-ideal]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields I and II"
+    chapter: "2"
+    section: "Universal Distributions"
+    pages: ""
+    role_in_book: "Structure theorem for the universal distribution when the level is prime"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,20 @@
+id: i-implies-s
+title_en: "Property I Implies Property S"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [silver-machines, cardinal-arithmetic, property-i, property-s]
+depends_on: {required:[property-i, elementary-embedding-lkappa], recommended:[kappa-direct-limit-system], suggested:[]}
+source_books:
+  - book_id: gtm001
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Introduction to Axiomatic Set Theory"
+    chapter: "17"
+    section: "17.3"
+    pages: ""
+    role_in_book: "Central theorem connecting Silver machine properties to cardinal arithmetic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

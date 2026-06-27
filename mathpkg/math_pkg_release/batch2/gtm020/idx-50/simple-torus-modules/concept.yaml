@@ -1,0 +1,23 @@
+id: simple-torus-modules
+title_en: "Simple Modules of the n-Torus and its Representation Ring"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [torus, simple-module, representation-ring, laurent-polynomial]
+depends_on:
+  required: [simple-module-abelian-group]
+  recommended: [representation-ring, tensor-product-of-representations]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "9"
+    section: "9. The Representation Ring of a Torus"
+    pages: "page_0199.json–page_0202.json"
+    role_in_book: "Classifies simple T^n-modules and identifies R(T^n) as a Laurent polynomial ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

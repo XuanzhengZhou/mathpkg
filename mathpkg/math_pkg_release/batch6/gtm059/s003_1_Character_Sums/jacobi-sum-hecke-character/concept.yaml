@@ -1,0 +1,23 @@
+id: jacobi-sum-hecke-character
+title_en: "Jacobi Sum as Hecke Character"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: hecke-characters
+difficulty: advanced
+tags: [jacobi-sum, hecke-character, grossencharacter, cyclotomic-fields]
+depends_on:
+  required: []
+  recommended: [jacobi-sum-definition, hecke-character-definition, gauss-sum]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields I and II"
+    chapter: "1"
+    section: "1. Character Sums"
+    pages: "26-29"
+    role_in_book: "Definition of Jacobi sums as Hecke characters (Grossencharaktere) on the cyclotomic field"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

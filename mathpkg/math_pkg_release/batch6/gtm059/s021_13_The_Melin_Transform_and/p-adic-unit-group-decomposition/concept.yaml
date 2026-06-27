@@ -1,0 +1,23 @@
+id: p-adic-unit-group-decomposition
+title_en: "Decomposition of the Unit Group in a p-adic Field"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: p-adic-analysis
+difficulty: intermediate
+tags: [p-adic-units, roots-of-unity, principal-units, product-decomposition]
+depends_on:
+  required: [p-adic-absolute-value, p-adic-integers]
+  recommended: [p-adic-logarithm]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "13"
+    section: "The Mellin Transform and p-adic L-function"
+    pages: ""
+    role_in_book: "Fundamental structural decomposition of the unit group, required for extending the p-adic logarithm and defining the p-adic regulator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

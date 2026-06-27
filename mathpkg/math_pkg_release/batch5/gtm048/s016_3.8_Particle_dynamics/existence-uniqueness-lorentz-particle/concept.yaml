@@ -1,0 +1,23 @@
+id: existence-uniqueness-lorentz-particle
+title_en: "Existence and Uniqueness for the Lorentz World-Force Law"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: general-relativity
+difficulty: advanced
+tags: [particle-dynamics, ordinary-differential-equations, existence-uniqueness, lorentz-force, geodesic-equation]
+depends_on:
+  required: [lorentz-world-force-law]
+  recommended: [covariant-derivative, geodesic, connection-coefficients]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs and Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.8"
+    pages: ""
+    role_in_book: "Fundamental existence and uniqueness theorem: initial data determines the entire particle world-line"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

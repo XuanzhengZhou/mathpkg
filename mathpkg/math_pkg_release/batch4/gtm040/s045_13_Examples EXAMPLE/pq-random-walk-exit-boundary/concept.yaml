@@ -1,0 +1,23 @@
+id: pq-random-walk-exit-boundary
+title_en: "Exit boundary of the asymmetric nearest-neighbor random walk on the integers"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [random-walk, exit-boundary, extreme-points, birth-death-chain]
+depends_on:
+  required: []
+  recommended: [exit-boundary, extreme-boundary-point, harmonic-measure]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "10"
+    section: "13"
+    pages: ""
+    role_in_book: "Explicit computation of exit boundary for the classical asymmetric random walk"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

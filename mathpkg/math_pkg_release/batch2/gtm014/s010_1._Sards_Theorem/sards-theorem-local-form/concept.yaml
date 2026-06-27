@@ -1,0 +1,23 @@
+id: sards-theorem-local-form
+title_en: "Sard's Theorem — Local Euclidean Form"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [sard, critical-value, measure-zero, euclidean-space, induction]
+depends_on:
+  required: [sards-theorem]
+  recommended: [measure-zero-definition, taylors-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Local reduction of Sard's Theorem; proved by induction on source dimension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

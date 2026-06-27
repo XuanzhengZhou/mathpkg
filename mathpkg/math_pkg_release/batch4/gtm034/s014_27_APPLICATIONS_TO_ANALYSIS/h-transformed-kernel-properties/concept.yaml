@@ -1,0 +1,23 @@
+id: h-transformed-kernel-properties
+title_en: "Properties of the h-Transformed Kernel"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: potential-theory
+difficulty: basic
+tags: [h-transform, transient-kernel, green-function, doob-transform]
+depends_on:
+  required: [transient-kernel, h-transformed-kernel]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm034
+    author: "Frank Spitzer"
+    title: "Principles of Random Walk"
+    chapter: "27"
+    section: "APPLICATIONS TO ANALYSIS"
+    pages: ""
+    role_in_book: "Verifies that the h-transform preserves the transient kernel property"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

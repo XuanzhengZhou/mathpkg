@@ -1,0 +1,23 @@
+id: phi-z-homomorphism
+title_en: "Homomorphism property of the mapping z to phi_z"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [algebra-q, quaternions, homomorphism, complex-plane, multiplication]
+depends_on:
+  required: [algebra-q, mapping-phi-z, multiplication-in-complex-plane]
+  recommended: [q-isomorphic-to-quaternions]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Formula (11.44): φ_{z_1z_2} = φ_{z_2} ∘ φ_{z_1}, showing the mapping z → φ_z is a product-preserving homomorphism from C with quaternionic multiplication to Q with composition."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

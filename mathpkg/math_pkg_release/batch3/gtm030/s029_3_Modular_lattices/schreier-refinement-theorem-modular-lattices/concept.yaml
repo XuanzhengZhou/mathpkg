@@ -1,0 +1,23 @@
+id: schreier-refinement-theorem-modular-lattices
+title_en: "Schreier Refinement Theorem for Modular Lattices"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: lattice-theory
+difficulty: advanced
+tags: [Schreier, refinement, modular, lattice, chain, projective]
+depends_on:
+  required: [modular-lattice-definition, zassenhaus-lemma-modular-lattices]
+  recommended: [modular-lattice-interval-isomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "3"
+    pages: ""
+    role_in_book: "The lattice-theoretic analogue of Schreier's refinement theorem for groups, stating that any two finite descending chains in a modular lattice have equivalent refinements."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

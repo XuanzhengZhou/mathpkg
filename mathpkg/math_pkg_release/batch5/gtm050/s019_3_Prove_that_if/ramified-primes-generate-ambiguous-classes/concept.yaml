@@ -1,0 +1,23 @@
+id: ramified-primes-generate-ambiguous-classes
+title_en: "Ramified Primes Generate Ambiguous Classes"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: quadratic-integer-divisor-theory
+difficulty: intermediate
+tags: [ramified-prime, ambiguous-class, divisor-class-group, quadratic-integers]
+depends_on:
+  required: [ambiguous-divisor-class]
+  recommended: [divisor-of-quadratic-integers, ramified-prime, conjugate-divisor]
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "7"
+    section: "7.10"
+    pages: "298-299"
+    role_in_book: "Identifies a fundamental source of ambiguous classes: divisors built from ramified primes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: cross-section-criterion-for-restriction
+title_en: "Cross Section Criterion for Restriction of Principal Bundles"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: fibre-bundles
+difficulty: advanced
+tags: [principal-bundle, restriction, cross-section, homogeneous-space, associated-bundle]
+depends_on:
+  required: [restriction-and-prolongation-of-principal-bundles, canonical-isomorphism-quotient-bundle-to-associated-bundle]
+  recommended: [cross-section, principal-g-bundle]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "6"
+    section: "2"
+    pages: ""
+    role_in_book: "Theorem 2.3 - a principal G-bundle has a restriction to H iff the associated bundle with fibre G/H admits a cross section"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

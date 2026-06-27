@@ -1,0 +1,23 @@
+id: trigonometric-product-formula
+title_en: "Lemma: Trigonometric product formula for sin(mx)/sin(x)"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: quadratic-reciprocity
+difficulty: intermediate
+tags: [trigonometric-identity, chebyshev-polynomials, eisenstein-proof, quadratic-reciprocity]
+depends_on:
+  required: []
+  recommended: [trigonometric-functions, polynomial-roots]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "I"
+    section: "§3 Appendix"
+    pages: ""
+    role_in_book: "Trigonometric identity used in Eisenstein's proof of quadratic reciprocity to relate the product over sines to a double product"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

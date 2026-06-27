@@ -1,0 +1,23 @@
+id: T-alpha-proper-orthochroneous
+title_en: "T_alpha is a Proper Orthochroneous Lorentz Transformation"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [Lorentz-transformation, proper, orthochroneous, determinant, selfadjoint]
+depends_on:
+  required: [lorentz-transformation-T-alpha-on-S, space-of-selfadjoint-mappings-S]
+  recommended: [proper-Lorentz-transformation, orthochroneous-Lorentz-transformation]
+  suggested: [continuous-family-of-transformations]
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XI"
+    section: "§5. Application to Lorentz-transformations, 11.18"
+    pages: "358–364"
+    role_in_book: "Shows that T_alpha belongs to the identity component of the Lorentz group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

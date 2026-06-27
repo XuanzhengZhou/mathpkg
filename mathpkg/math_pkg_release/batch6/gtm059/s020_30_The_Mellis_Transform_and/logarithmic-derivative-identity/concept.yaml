@@ -1,0 +1,23 @@
+id: logarithmic-derivative-identity
+title_en: "Logarithmic derivative identity for S_{l,l} and G_l(T)"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: p-adic-l-functions
+difficulty: advanced
+tags: ["logarithmic-derivative", "p-adic-l-function", "power-series", "g-l-function"]
+depends_on:
+  required: []
+  recommended: ["power-series-of-j-k"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "The Mellin Transform and p-adic L-function"
+    pages: ""
+    role_in_book: "Lemma — establishes the identity (S_{l,l}/N) * sum B(i) = T/N = g_{l,l}(G_l(T)) - G_l(T) via logarithmic derivative"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

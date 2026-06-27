@@ -1,0 +1,23 @@
+id: elementary-recursive-functions
+title_en: "Elementary Recursive Functions"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability
+difficulty: intermediate
+tags: ["recursive-function", "closure-properties", "number-theoretic-function"]
+depends_on:
+  required: []
+  recommended: ["addition", "multiplication", "absolute-difference", "integer-division", "projection-functions", "composition-operation", "summation-operation"]
+  suggested: ["primitive-recursive-functions"]
+source_books:
+  - book_id: "gtm037"
+    author: "Ebbinghaus, Flum, Thomas"
+    title: "Mathematical Logic"
+    chapter: "2"
+    section: "2.1 (Recursive Function Theory)"
+    pages: ""
+    role_in_book: "Defines the class of elementary recursive functions as the intersection of all classes closed under specified initial functions and operations (composition and summation)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

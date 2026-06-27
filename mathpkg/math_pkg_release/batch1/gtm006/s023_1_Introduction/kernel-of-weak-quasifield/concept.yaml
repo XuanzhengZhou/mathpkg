@@ -1,0 +1,23 @@
+id: kernel-of-weak-quasifield
+title_en: "Kernel of a Weak Quasifield"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: quasifields-and-translation-planes
+difficulty: intermediate
+tags: [kernel, weak-quasifield, skewfield, right-distributive, right-associative]
+depends_on:
+  required: [weak-quasifield]
+  recommended: [skewfield, right-vector-space]
+  suggested: [kernel-of-weak-quasifield-is-skewfield]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "VII"
+    section: "2"
+    pages: ""
+    role_in_book: "Defines the kernel as elements satisfying right-distributivity and right-associativity; kernel is shown to be a skewfield"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

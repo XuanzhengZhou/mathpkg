@@ -1,0 +1,31 @@
+id: crx-order-complete-iff-extremally-disconnected
+title_en: C_R(X) is Order Complete iff X is Extremally Disconnected
+title_zh: ''
+type: theorem
+domain: analysis
+subdomain: banach-lattices
+difficulty: advanced
+tags:
+- order-complete
+- extremally-disconnected
+- stonian-space
+- continuous-functions
+depends_on:
+  required:
+  - order-completeness
+  - extremally-disconnected
+  recommended:
+  - banach-lattice
+  - continuous-functions
+  suggested: []
+source_books:
+- book_id: gtm003
+  author: H. H. Schaefer
+  title: Topological Vector Spaces
+  chapter: Chapter V
+  section: Exercise 23
+  pages: ''
+  role_in_book: Exercise problem
+content_hash: 706163f5b8a9a9ce
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

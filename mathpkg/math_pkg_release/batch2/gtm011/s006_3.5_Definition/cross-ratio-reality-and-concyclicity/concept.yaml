@@ -1,0 +1,23 @@
+id: cross-ratio-reality-and-concyclicity
+title_en: "Cross-Ratio Reality and Concyclicity"
+title_zh: "交比为实数与四点共圆"
+type: proposition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [cross-ratio, circle, concyclicity, generalized-circle, mobius-transformation]
+depends_on:
+  required: [cross-ratio, mobius-transformation]
+  recommended: [cross-ratio-mapping]
+  suggested: [projective-geometry, circle-geometry]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.10"
+    pages: "46-48"
+    role_in_book: "Characterizes when four points lie on a generalized circle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: weak-topology-c-and-cstar
+title_en: "Weak Topology Induced by C(X) and C*(X)"
+title_zh: "C(X)与C*(X)诱导的弱拓扑"
+type: theorem
+domain: topology
+subdomain: weak-topology
+difficulty: intermediate
+tags: [weak-topology, completely-regular-space, c-star, zero-set, neighborhood-base]
+depends_on:
+  required: [weak-topology-generated-by-family, completely-regular-space, zero-set]
+  recommended: [c-star-embedded]
+  suggested: [compactification]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.6"
+    pages: ""
+    role_in_book: "Theorem 3.6; establishes equality of weak topologies from C and C*, and characterizes completely regular spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

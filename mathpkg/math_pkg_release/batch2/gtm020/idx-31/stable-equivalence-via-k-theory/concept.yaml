@@ -1,0 +1,23 @@
+id: stable-equivalence-via-k-theory
+title_en: "Classification of s-Equivalence Classes via K-Theory"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: k-theory
+difficulty: advanced
+tags: [k-theory, stable-equivalence, vector-bundle, grothendieck-completion]
+depends_on:
+  required: [k-ring-of-a-space, stable-equivalence-of-vector-bundles, reduced-k-functor]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "3"
+    section: "3.8"
+    pages: ""
+    role_in_book: "Proves that K_F(X) classifies s-equivalence classes of vector bundles; the core result linking K-theory to stable equivalence."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

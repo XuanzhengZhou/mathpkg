@@ -1,0 +1,23 @@
+id: triangulated-3-manifold-as-regular-neighborhood
+title_en: "Every triangulated 3-manifold with boundary is a regular neighborhood"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [triangulated-3-manifold, boundary, regular-neighborhood, doubling, combinatorial-equivalence]
+depends_on:
+  required: [regular-neighborhood, triangulated-3-manifolds-are-combinatorial, gluing-3-manifolds-along-boundary]
+  recommended: [regular-neighborhood-combinatorial-equivalence]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: ""
+    section: "23"
+    pages: ""
+    role_in_book: "Represents any triangulated 3-manifold with boundary as a regular neighborhood in a closed triangulated 3-manifold."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

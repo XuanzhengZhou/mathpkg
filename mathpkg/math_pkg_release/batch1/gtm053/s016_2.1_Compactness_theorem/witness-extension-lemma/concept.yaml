@@ -1,0 +1,23 @@
+id: witness-extension-lemma
+title_en: "Extension to a Complete Finitely Satisfiable Set with Witnesses"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [henkin-construction, witnesses, completeness, constant-symbols, language-extension, compactness]
+depends_on:
+  required: [lindenbaums-theorem, finitely-satisfiable, first-order-language]
+  recommended: [henkin-constants, complete-theory]
+  suggested: [compactness-theorem, loss-theorem]
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "2"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Key lemma for the second (Henkin-style) proof of the Compactness Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

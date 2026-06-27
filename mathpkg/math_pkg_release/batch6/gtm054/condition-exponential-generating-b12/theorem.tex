@@ -1,0 +1,15 @@
+$a_n - na_{n-1} - (-1)^n = 0,$
+
+with the condition $a_0 = 1$. If $b$ is the exponential generating function for $a$, then
+
+$$b(x) - 1 = \sum_{n=1}^{\infty} \frac{a_n}{n!} x^n = \sum_{n=1}^{\infty} \frac{a_{n-1}}{(n-1)!} x^n + \sum_{n=1}^{\infty} \frac{(-1)^n}{n!} x^n.$$
+
+Thus
+
+$$b(x) - 1 = xb(x) + \exp(-x) - 1$$
+
+whence
+
+$$b(x) = \exp(-x)/(1-x).$$
+
+Comparing this equation with example B4 implies that $a_n = D_n$ and that B12 holds for the derangement numbers. Another recurrence for the derangement numbers is IE19a.

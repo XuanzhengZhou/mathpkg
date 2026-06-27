@@ -1,0 +1,32 @@
+$T_B = \min [k \mid k \geq 1; x_k \in B]$, and call
+
+$$T_B = T \text{ when } B = \{0\}, \text{ and } R_n = P_0[T > n], \text{ for } n \geq 1,$$
+
+$$F_0 = 0, F_n = P_0[T = n] \text{ for } n \geq 1, U_n = P_0[x_n = 0]$$
+
+$$= P_n(0,0) \text{ for } n \geq 0.$$
+
+Since the random walk is recurrent, $T_B < \infty$ with probability one whenever
+
+It is a trivial matter to verify that this system of equations has a unique solution. The function $f_0(x)$ is specified completely for all $x$ by (ii) and (iii). Substituting its values into (i) determines $f_1(x)$ on $R - B$. But on $B$, $f_1(x)$ is given by (ii) so that $f_1(x)$ is uniquely determined. And so on, by induction: once $f_n$ is determined everywhere, equation (i) determines $f_{n+1}$ on $R - B$, and then (ii) gives $f_{n+1}$ on $B$.
+
+To avoid time consuming iteration, we shall simply write down the solution, and then verify that (i), (ii), and (iii) hold. Let $f_0(x) = 0$ on $R - B$, $f_0(x) = 1$ on $B$, and for $n \geq 1$ let
+
+$$f_n(x) = P_x[T_B \leq n] \text{ for } x \in R - B,$$
+$$= 1 \text{ for } x \in B.$$
+
+Conditions (ii) and (iii) hold trivially, and (i) follows from
+
+$$P_x[T \leq n + 1] = \sum_{y \in B} P(x,y) + \sum_{y \in R-B} P(x,y)P_y[T \leq n],$$
+
+for $x \in R - B$, $n \geq 1$.
+
+Therefore the random walk analogue of equation (1) should concern the rate of convergence of the sequence
+
+$$1 - f_n(x) = P_x[T_B > n]$$
+
+to zero as $n$ tends to infinity. We shall show that the correct analogue of $\ln t$ in (1) is the reciprocal of
+
+$$R_n = P_0[T_{(0)} > n] = P_0[T > n].$$
+
+In fact, simple random walk in the plane has the property that $R_n$ is asymptotically $\pi(\ln n)^{-1}$, as will be shown later, in E1.

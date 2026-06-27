@@ -1,0 +1,23 @@
+id: uniqueness-of-minimal-polynomial
+title_en: "Corollary: Uniqueness of the Minimal Polynomial"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: field-theory
+difficulty: basic
+tags: [uniqueness, minimal-polynomial, monic, irreducible]
+depends_on:
+  required: [irreducibility-and-divisibility-of-minimal-polynomial]
+  recommended: [monic-polynomial, unit]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Volume I"
+    chapter: "II"
+    section: "1"
+    pages: ""
+    role_in_book: "Immediate consequence of Theorem 1; essential for defining the minimal polynomial"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

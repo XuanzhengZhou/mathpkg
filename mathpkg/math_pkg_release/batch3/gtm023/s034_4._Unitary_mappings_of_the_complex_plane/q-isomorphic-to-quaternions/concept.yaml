@@ -1,0 +1,23 @@
+id: q-isomorphic-to-quaternions
+title_en: "The algebra Q is isomorphic to the quaternions"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [algebra-q, quaternions, division-algebra, isomorphism, frobenius-theorem]
+depends_on:
+  required: [algebra-q, inner-product-on-algebra-q, cross-product-on-q1, composition-decomposition-q1]
+  recommended: [lagrange-identity-q1]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Concludes that Q is an associative division algebra of dimension 4 over R, hence isomorphic to the quaternions H. Makes this isomorphism explicit."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

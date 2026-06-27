@@ -1,0 +1,23 @@
+id: skew-symmetric-characterization
+title_en: "Characterization of skew symmetric p-linear maps"
+title_zh: "斜对称p重线性映射的刻画"
+type: proposition
+domain: algebra
+subdomain: multilinear-algebra
+difficulty: intermediate
+tags: [skew-symmetric, alternating, multilinear, linear-dependence]
+depends_on:
+  required: [p-linear-map, skew-symmetric-p-linear-map]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IV"
+    section: "§1. Determinant functions"
+    pages: "4.2"
+    role_in_book: "Proposition I: Gives equivalent characterizations of skew symmetric p-linear maps (char 0)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

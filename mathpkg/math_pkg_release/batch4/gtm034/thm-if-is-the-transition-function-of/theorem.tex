@@ -1,0 +1,45 @@
+If $P(x,y)$ is the transition function of any aperiodic recurrent random walk (either of dimension one or two), then the limit
+
+(a) $A(x,y) = a(x - y) = \lim_{n \to \infty} \sum_{k=0}^{n} [P_k(0,0) - P_k(x,y)] < \infty$
+
+exists for all pairs $x$ and $y$ in $R$. Moreover $A(x,y)$ satisfies the equation
+
+(b) $$\sum_{t \in R} P(x,t)A(t,y) - A(x,y) = \delta(x,y), \quad x,y \in R.$$
+
+29. THE ASYMPTOTIC BEHAVIOR OF THE POTENTIAL KERNEL
+
+The results of this section are illustrated by the following examples which give an explicit formula for $a(x) = A(x,0)$ in two special cases.
+
+E1 For simple random walk with $P(0,1) = P(0,-1) = 1/2$ one has, as shown in the proof of P6.6,
+
+$$a(x) = \frac{1}{2\pi} \int_{-n}^{n} \frac{1 - \cos x\theta}{1 - \cos \theta} d\theta = |x|, \quad x \in R.$$
+
+This result will be typical of type II random walk (recurrent, aperiodic, $d
+
+(As a harmless sort of amusement, note that the above integral representing $a(x)$ may be evaluated by a simple probabilistic argument. Applying T28.1 to P28.2 one obtains
+
+$$\lim_{n \to \infty} \sum_{t \in R} P_{n+1}(x,t)H_C(t,0) = H_C(x,0) + [a(x) - a(x-1)]\Pi_C(0,1),$$
+
+where $C$ is the set consisting of 0 and 1. But clearly $H_C(x,0) = 1$ for $x \leq 0$ and 0 otherwise, while $\Pi_C(0,1) = 1/2$, so that in view of P28.7
+
+$$a(x) - a(x-1) = 1 - 2H_C(x,0) = \begin{cases} 1 \text{ if } x > 0 \\ -1 \text{ if } x \leq 0. \end{cases}$$
+
+Since $a(0) = 0$, it follows that $a(x) = |x|$.
+
+E2 The second example is a random walk we have encountered before, in E8.3 and E22.1, namely
+
+$$P(0,0) = 1 - \frac{2}{\pi},$$
+
+$$P(0,x) = \frac{2}{\pi} \frac{1}{4x^2 - 1} \text{ for } x \neq 0.$$
+
+Its characteristic function is
+
+$$\phi(\theta) = 1 - \left| \sin \frac{\theta}{2} \right|.$$
+
+Thus it has infinite variance. Its potential kernel is
+
+$$a(x) = \frac{1}{2\pi} \int_{-x}^{x} \frac{1 - \cos x\theta}{\left| \sin \frac{\theta}{2} \right|} d\theta = \frac{1}{\pi} \int_{-x}^{\pi} \frac{\sin^2 \left( \frac{x\theta}{2} \right)}{\left| \sin \frac{\theta}{2} \right|} d\theta$$
+
+$$= \frac{4}{\pi} \left
+
+which is valid for every aperiodic recurrent random walk, regardless of dimension. Here $C = \{0,c\}$, $c \neq 0$.

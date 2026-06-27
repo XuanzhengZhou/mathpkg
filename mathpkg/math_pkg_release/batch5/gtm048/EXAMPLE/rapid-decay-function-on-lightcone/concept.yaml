@@ -1,0 +1,44 @@
+{
+  "id": "rapid-decay-function-on-lightcone",
+  "title_en": "Example 5.6.4: Rapid Decay Function on Lightcone",
+  "title_zh": "",
+  "type": "proposition",
+  "domain": "geometry",
+  "subdomain": "differential-geometry",
+  "difficulty": "advanced",
+  "tags": [
+    "general-relativity",
+    "lightcone",
+    "rapid-decay",
+    "integration",
+    "photon-gas"
+  ],
+  "depends_on": {
+    "required": [
+      "instantaneous-observer",
+      "future-lightcone",
+      "natural-volume-element"
+    ],
+    "recommended": [
+      "causal-1-form",
+      "schwarz-inequality"
+    ],
+    "suggested": [
+      "photon-distribution-function"
+    ]
+  },
+  "source_books": [
+    {
+      "book_id": "gtm048",
+      "author": "Rainer K. Sachs, Hung-Hsi Wu",
+      "title": "General Relativity for Mathematicians",
+      "chapter": "5",
+      "section": "5.6",
+      "pages": "",
+      "role_in_book": "Example demonstrating rapid decay of the function f(Y)=exp(-u)/u on the future lightcone"
+    }
+  ],
+  "content_hash": "",
+  "extraction_date": "2026-06-27",
+  "extraction_agent": "v8-full-extract"
+}

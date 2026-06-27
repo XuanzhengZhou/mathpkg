@@ -1,0 +1,23 @@
+id: algebraic-tensor-product-via-bilinear-forms
+title_en: "Algebraic Tensor Product via Bilinear Forms on Duals"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [tensor-product, bilinear-form, algebraic-dual, linear-subspace, canonical-mapping]
+depends_on:
+  required: [elementary-tensor-as-bilinear-form]
+  recommended: [algebraic-dual, bilinear-form-space]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "I"
+    section: "I TENSOR PRODUCTS I"
+    pages: ""
+    role_in_book: "Defines the algebraic tensor product E⊗F as the linear subspace of the space of bilinear forms on the duals spanned by all elementary tensors."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: morita-duality-submodule-correspondence
+title_en: "Submodule Lattice Anti-Isomorphism under Morita Duality"
+title_zh: "Morita对偶下的子模格反同构"
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [morita-duality, lattice-anti-isomorphism, annihilator, submodule-lattice, u-reflexive]
+depends_on:
+  required: [morita-duality, annihilator-and-reject]
+  recommended: [submodule-lattice, essential-submodule, superfluous-submodule]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "24. Morita Dualities"
+    pages: ""
+    role_in_book: "Proposition 24.5"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

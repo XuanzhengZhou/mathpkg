@@ -1,0 +1,23 @@
+id: matroid-minor-composition
+title_en: "Composition of Matroid Minors"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: matroid-theory
+difficulty: advanced
+tags: ["matroid", "minor", "restriction", "contraction"]
+depends_on:
+  required: []
+  recommended: ["restriction-and-contraction-are-matroids", "matroid-minor-definition"]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Graver, J. E. and Watkins, M. E."
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "X"
+    section: "D"
+    pages: ""
+    role_in_book: "D15 Corollary. Any sequence of restriction and contraction operations on a matroid compresses to a single contraction followed by a single restriction."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

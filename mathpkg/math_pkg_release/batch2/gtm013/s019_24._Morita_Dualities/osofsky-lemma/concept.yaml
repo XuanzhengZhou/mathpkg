@@ -1,0 +1,23 @@
+id: osofsky-lemma
+title_en: "Osofsky's Lemma on Infinite Direct Sums"
+title_zh: "Osofsky关于无限直和的引理"
+type: lemma
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [morita-duality, infinite-direct-sum, u-reflexive, osofsky, artinian]
+depends_on:
+  required: [morita-duality, morita-duality-submodule-correspondence]
+  recommended: [direct-sum, u-reflexive-module]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "24. Morita Dualities"
+    pages: ""
+    role_in_book: "Lemma 24.7 (Osofsky)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

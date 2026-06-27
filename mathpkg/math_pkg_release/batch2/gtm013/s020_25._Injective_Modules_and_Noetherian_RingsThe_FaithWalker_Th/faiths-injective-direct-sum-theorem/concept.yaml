@@ -1,0 +1,23 @@
+id: faiths-injective-direct-sum-theorem
+title_en: "Faith's Theorem on Injective Direct Sums"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [injective-module, direct-sum, ascending-chain-condition, annihilator, faith]
+depends_on:
+  required: [injective-module, direct-sum, ascending-chain-condition]
+  recommended: [m-annihilator-lattice, injective-test-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson and Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "25. Injective Modules and Noetherian Rings—The Faith–Walker Theorems"
+    pages: ""
+    role_in_book: "Key theorem characterizing when arbitrary direct sums of an injective module remain injective"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

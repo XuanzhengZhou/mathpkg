@@ -1,0 +1,19 @@
+A \textbf{probability model} consists of:
+\begin{enumerate}
+\item A collection $\mathfrak{F}$ of subsets of a space $\Omega$ (called \textbf{events}) such that:
+  \begin{enumerate}
+  \item $\Omega \in \mathfrak{F}$
+  \item If $A \in \mathfrak{F}$, then $\bar{A} \in \mathfrak{F}$
+  \end{enumerate}
+\item A function $P$ on $\mathfrak{F}$ (called \textbf{probability}) with:
+  \begin{enumerate}
+  \item $0 \leq P(A) \leq 1$
+  \item $P(\Omega) = 1$
+  \item $P(A_1 \cup A_2) = P(A_1) + P(A_2)$ if $A_1, A_2 \in \mathfrak{F}$ are disjoint
+  \end{enumerate}
+\end{enumerate}
+
+For a finite collection of disjoint events $A_1, \dots, A_n$:
+$$P\left(\bigcup_{i=1}^{n} A_i\right) = \sum_{i=1}^{n} P(A_i).$$
+
+It follows that $P(\bar{A}) = 1 - P(A)$.

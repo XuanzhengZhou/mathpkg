@@ -1,0 +1,23 @@
+id: closure-sigma-star-compact-beta
+title_en: "The Closure of σ*[X] in P* is Compact and Equals β(σ*[X])"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: compactifications
+difficulty: advanced
+tags: [Stone-Cech-compactification, compactness, product-space, Tychonoff-theorem]
+depends_on:
+  required: [sigma-star-homeomorphism-C-star-embedded, Tychonoff-theorem, C-star-embedded-subspace]
+  recommended: [product-space-P-embedding]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "11"
+    section: "5"
+    pages: ""
+    role_in_book: "Proves that the closure of σ*[X] is a compactification, establishing it as a model for βX"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

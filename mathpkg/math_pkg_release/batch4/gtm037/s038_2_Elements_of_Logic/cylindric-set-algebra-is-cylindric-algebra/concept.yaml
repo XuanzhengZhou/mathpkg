@@ -1,0 +1,23 @@
+id: cylindric-set-algebra-is-cylindric-algebra
+title_en: "Every cylindric set algebra is a cylindric algebra"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: cylindric-algebras
+difficulty: intermediate
+tags: [cylindric-algebra, cylindric-set-algebra, soundness, algebraic-logic]
+depends_on:
+  required: [cylindric-algebra, cylindric-field-of-sets]
+  recommended: [boolean-algebra]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "12. Cylindric Algebras"
+    section: "Part 2: Elements of Logic"
+    pages: ""
+    role_in_book: "establishes that concrete cylindric set algebras satisfy the abstract axioms of cylindric algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

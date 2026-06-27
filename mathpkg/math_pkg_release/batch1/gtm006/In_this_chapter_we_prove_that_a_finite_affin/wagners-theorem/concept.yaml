@@ -1,0 +1,13 @@
+id: wagners-theorem
+title_en: "Wagner's Theorem: Finite Affine Line-Transitive Plane is a Translation Plane"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: affine-planes
+difficulty: advanced
+tags: [affine-planes, translation-planes, collineation-groups, line-transitive, wagner]
+depends_on: {required:[translation-plane-if-even-or-prime-power-order, doubly-transitive-frobenius-kernel-elementary-abelian, 2-subplane-order-relationship], recommended:[affine-line-transitivity-equivalent-conditions, involutory-homology-in-minimal-2-subplane, affine-plane-classification-by-involutory-homologies], suggested:[]}
+source_books: [{book_id:"gtm006",author:"D.R. Hughes, F.C. Piper",title:"Projective Planes",chapter:"XIV",section:"7",pages:"",role_in_book:"Main theorem of Chapter XIV: the culmination of Wagner's 1965 result"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

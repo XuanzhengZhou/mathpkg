@@ -1,0 +1,23 @@
+id: complement-of-hypersurface-is-affine
+title_en: "The complement of a hypersurface in projective space is affine"
+title_zh: "射影空间中超曲面的补集是仿射的"
+type: exercise
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [affine-variety, projective-space, hypersurface, complement]
+depends_on:
+  required: [affine-variety, projective-variety, hypersurface]
+  recommended: [d-uple-embedding]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "3"
+    pages: "19"
+    role_in_book: "Exercise 3.5"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

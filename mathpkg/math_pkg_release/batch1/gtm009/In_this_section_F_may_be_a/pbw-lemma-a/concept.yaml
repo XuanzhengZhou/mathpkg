@@ -1,0 +1,23 @@
+id: pbw-lemma-a
+title_en: "PBW Lemma A: Existence of Linear Maps f_m"
+title_zh: "PBW 引理 A：线性映射 f_m 的存在性"
+type: lemma
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [pbw-theorem, universal-enveloping-algebra, symmetric-algebra, induction]
+depends_on:
+  required: [poincare-birkhoff-witt-theorem]
+  recommended: [symmetric-algebra, universal-enveloping-algebra]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "V"
+    section: "17"
+    pages: "102-114"
+    role_in_book: "Key technical lemma in the proof of the PBW Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

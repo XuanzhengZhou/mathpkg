@@ -1,0 +1,23 @@
+id: simultaneous-mapping-reduction
+title_en: "Simultaneous Linear Mapping Reduction by Common Eigenvector"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [linear-mapping, eigenvector, direct-sum, induction, simultaneous-reduction]
+depends_on:
+  required: []
+  recommended: [direct-sum-decomposition, eigenvector, linear-mapping-restriction]
+  suggested: [induction-principle]
+source_books:
+  - book_id: "gtm049"
+    author: "K. W. Gruenberg and A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Exercise 3 solution hint — reduction lemma for simultaneous mappings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

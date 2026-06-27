@@ -1,0 +1,23 @@
+id: linearization-of-lagrangian-system
+title_en: "Linearization of a Lagrangian System"
+title_zh: "拉格朗日系统的线性化"
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [linearization, lagrangian-system, small-oscillations, quadratic-form, hamiltonian]
+depends_on:
+  required: [linearization-of-differential-equation]
+  recommended: [lagranges-equations, hamiltonian-equations, canonical-variables]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "5"
+    section: "Linearization"
+    pages: "114"
+    role_in_book: "Shows how to linearize a Lagrangian system by replacing T and U with their quadratic approximations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

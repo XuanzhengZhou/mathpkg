@@ -1,0 +1,23 @@
+id: diagonalizable-toral-subbiring-pi-subcoring
+title_en: "T_π as π-Subcoring/π-Subbiring of H(K) — Theorem 6.2.11"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: hopf-algebra
+difficulty: advanced
+tags: [hopf-algebra, diagonalizable-toral-subbiring, pi-subcoring, radical-extension, galois-theory]
+depends_on:
+  required: [tg-diagonalizable-toral-subbiring, hopf-algebra, radical-extension]
+  recommended: [pi-subbiring, fixed-field-of-toral-action]
+  suggested: []
+source_books:
+  - book_id: "gtm016"
+    author: "Winter"
+    title: "The Structure of Fields"
+    chapter: "6.2"
+    section: "6.2"
+    pages: ""
+    role_in_book: "Relates a diagonalizable toral k-subbiring T of H(K/k) to its π-subcoring T_π in H(K) and characterizes H(K/K^T)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

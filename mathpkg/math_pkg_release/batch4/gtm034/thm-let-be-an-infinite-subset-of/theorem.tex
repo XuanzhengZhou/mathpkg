@@ -1,0 +1,51 @@
+Let $A$ be an infinite subset of the state space $R$ of an aperiodic transient random walk, and suppose that it is transient in the sense of D2. Then there are two possibilities. If the dimension $d = 1$ and the random walk has its first absolute moment $m$ finite, then $C(A) = |\mu|$. In all other cases $C(A) = +\infty$.
+
+Proof: Suppose first that $d = 1$, $m < \infty$. Since the problem is invariant under reflection about 0 (reversal of the random walk), we may assume that $\mu < 0$. This being the case, we shall show that the set $A$ can contain at most a finite number of points to the left of 0; for suppose that we had an infinite sequence of points $y_n$ in $A$, with $n = 1, 2, \ldots$,
+
+$$\lim_{n \to \infty}
+
+By a simple calculation
+
+$$P_x[A_n] = \frac{G(x,y_n)}{G(0,0)},$$
+
+and by the renewal theorem, P24.6 or T24.2,
+
+$$\lim_{n \to \infty} P_x[A_n] = [G(0,0)]^{-1} \lim_{y \to -\infty} G(x,y) = [G(0,0)|\mu|]^{-1} > 0.$$
+
+Combining the inequalities, one finds that $h_A > 0$, which is impossible as $A$ is a transient set.
+
+At this point we know that $A$ contains infinitely many points to the right of the origin (since $|A| = \infty$, and $A$ contains only finitely many points to the left of the origin). Thus we may select a sequence $z_n$ in $A$, with
+
+$$\lim_{n \to \infty} z_n = +\infty,$$
+
+and write, using T1,
+
+$$H_A(z_n) = 1 = \sum_{t \in A} G(z_n,t)E_A(t).$$
+
+For every integer $N > 0$,
+
+$$1 \ge \lim_{n \to \infty} \sum_{t \in A, t \leq N} G(z_n,t)E_A(t) = \frac{1}{|\mu|} \sum_{t \in A, t \leq N} E_A(t).$$
+
+(The interchange of limits was justified since $A$ has only finitely many points to the left of $N$.) Thus we have
+
+$$C(A) = \sum_{t \in A} E_A(t) \leq |\mu|,$$
+
+and now one can repeat the limiting process using the facts that $C(A) < \infty$ and $G(z_n,t) \leq G(0,0)$ to conclude, by the argument of dominated convergence, that $C(A) = |\mu|$.
+
+There remains only the case when $d = 1$ and $m = \infty$, or $d \geq 2$. Again one can base the proof on
+
+$$H_A(z_n) = 1 = \sum_{t \in A} G(z_n,t)E_A(t)$$
+
+It follows from T24.2 that $C(A) = +\infty$, for if that were not so, then a dominated convergence argument would give
+
+$$1 = \lim_{n \to \infty} \sum_{t \in A} G(z_n,t)E_A(t) = \sum_{t \in A} \lim_{n \to \infty} G(z_n,t)E_A(t) = 0.$$
+
+The last step used the full strength of T24.2 and completes the proof of T2.
+
+E2 What are the transient sets for a one-dimensional aperiodic random walk with $m < \infty$ and $\mu < 0$? This problem was actually completely solved in the course of the above proof of T2. Obviously every finite set $A$ is transient, and if $A$ is infinite and transient we saw that it must contain only a finite number of points to the left of 0. Further it is easy to see (use the strong law of large numbers!) that every set $A$ of this type is transient. Thus the transient sets are exactly those which are bounded on the left.
+
+A natural extension of this question concerns the transient sets when $m = \infty$, $\mu^+ < \infty$, $\mu^- = \infty$ (with $\mu^+$ and $\mu^-$ as defined in the proof of P24.6). Then it turns out that there are transient sets which are unbounded on the left. (See problem 3.)
+
+26. RANDOM WALK IN THREE-SPACE WITH MEAN ZERO AND FINITE SECOND MOMENTS
+
+Here we are concerned with somewhat deeper problems than in the last section, in the following sense. By now nearly everything has been said about transient random walk which depends only on the generalized renewal theorem T24.2. When $d \geq 2$, T24.2 tells us only that $G(0,x) \to 0$ as $|x| \to \infty$, and although the number zero is a "rather disarming constant" we have come to appreciate that this result is far from trivial. Nevertheless, it is hardly surprising to find that certain interesting aspects of the behavior of a transient random walk depend on the asymptotic behavior of the

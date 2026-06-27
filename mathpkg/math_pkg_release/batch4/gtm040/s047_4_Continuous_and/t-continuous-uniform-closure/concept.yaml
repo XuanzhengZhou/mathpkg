@@ -1,0 +1,23 @@
+id: t-continuous-uniform-closure
+title_en: "Characterization of T-Continuous Functions as Uniform Closure"
+title_zh: "T-连续函数作为初等连续函数一致闭包的刻画"
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [t-continuous, uniform-closure, elementary-continuous-function, martin-boundary]
+depends_on:
+  required: [elementary-continuous-t-invariance, t-continuous-strong-closure]
+  recommended: [elementary-continuous-function]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Proposition 11-12. The T-continuous functions are exactly the uniform closure of the elementary continuous functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

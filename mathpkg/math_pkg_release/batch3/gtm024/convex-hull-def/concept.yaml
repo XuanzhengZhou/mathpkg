@@ -1,0 +1,23 @@
+id: convex-hull-def
+title_en: "Convex Hull"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: convex-geometry
+difficulty: basic
+tags: ["convex-hull", "convex-combination"]
+depends_on:
+  required: ["convex-set-def"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§2"
+  section: "2.A"
+  pages: "6"
+  role_in_book: "smallest convex set containing a given set"
+content_hash: "a885901ce5e239e7"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: dual-transformation
+title_en: "Dual (Adjoint) Transformation"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [dual-transformation, adjoint-transformation, linear-transformation, dual-space, duality]
+depends_on:
+  required: [linear-topological-space, dual-space, continuous-linear-transformation]
+  recommended: [weak-topology]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "Kelley, Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "21"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the adjoint/dual transformation induced on dual spaces by a continuous linear map"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

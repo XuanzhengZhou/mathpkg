@@ -1,0 +1,23 @@
+id: two-cell-separation-theorem
+title_en: "Separation of opposite boundary points by disjoint closed sets in a 2-cell"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [2-cell, separation, planar-topology, boundary, jordan-curve]
+depends_on:
+  required: [2-cell]
+  recommended: [theorem-4-4-gtm047, schoenflies-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "5"
+    section: "15"
+    pages: "83-90"
+    role_in_book: "Theorem 9 - Used to prove boundary is not a retract of a 2-cell"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

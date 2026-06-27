@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "III"
+section: "12"
+exercise_number: 2
+---
+
+Let $\mathfrak{F}$ be a finite field containing $q$ elements. Prove that, if $f(x_1, x_2, \cdots, x_r)$ is a non-zero polynomial of degree $< q$ in each $x_i$, then there exist $c_i \in \mathfrak{F}$ such that $f(c_1, c_2, \cdots, c_r) \neq 0$.

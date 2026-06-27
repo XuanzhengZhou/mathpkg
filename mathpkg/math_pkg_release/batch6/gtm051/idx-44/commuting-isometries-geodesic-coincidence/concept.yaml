@@ -1,0 +1,23 @@
+id: commuting-isometries-geodesic-coincidence
+title_en: "Commuting Covering Transformations Share Invariant Geodesics"
+title_zh: "交换覆盖变换共享不变测地线"
+type: proposition
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [commuting-isometries, invariant-geodesic, fundamental-group, negative-curvature, covering-transformation]
+depends_on:
+  required: [unique-invariant-geodesic-negative-curvature, closed-geodesic-from-fundamental-group, covering-transformation-fixed-point-free]
+  recommended: [commuting-elements, group-action, isometry]
+  suggested: [flat-torus-geodesics, comparison-theorems]
+source_books:
+  - book_id: gtm051
+    author: "W. Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.7"
+    pages: ""
+    role_in_book: "Part (iv) of Theorem 6.7.1: relationship between commuting fundamental group elements and their invariant geodesics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

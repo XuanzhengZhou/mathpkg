@@ -1,0 +1,32 @@
+id: adjunctions-with-a-parameter
+title_en: Adjunctions with a Parameter
+title_zh: ''
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags:
+- adjunction
+- parameter
+- bifunctor
+- conjugate
+- natural-transformation
+- category-theory
+depends_on:
+  required:
+  - adjunction
+  - conjugate-natural-transformations
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: IV
+  section: '7'
+  pages: ''
+  role_in_book: shows how an adjunction with a parameter extends to a bifunctor natural
+    in all three variables; generalizes the Hom-tensor adjunction
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

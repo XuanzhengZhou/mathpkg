@@ -1,0 +1,23 @@
+id: schlafli-double-six
+title_en: "Schläfli's Double-Six Configuration"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [schlafli-double-six, cubic-surface, classical-geometry, configuration-of-lines]
+depends_on:
+  required: [twenty-seven-lines, cubic-surface]
+  recommended: [projective-geometry]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Remark 4.9.1; introduces Schläfli's double-six configuration"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

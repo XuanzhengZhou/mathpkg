@@ -1,0 +1,23 @@
+id: upward-lowenheim-skolem-cardinalities
+title_en: "Upward Löwenheim–Skolem: Models of All Larger Cardinalities"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [upward-lowenheim-skolem, infinite-model, cardinality, compactness]
+depends_on:
+  required: [upward-lowenheim-skolem-theorem, compactness-theorem]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "4"
+    section: "Model Theory"
+    pages: ""
+    role_in_book: "Corollary 19.25: if a set of sentences has an infinite model, it has models of all cardinalities ≥ |Fmla_L|"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

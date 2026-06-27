@@ -1,0 +1,23 @@
+id: parity-in-cubic-fermat
+title_en: "Parity Classification for Solutions of x^3 + y^3 = z^3"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: diophantine-equations
+difficulty: basic
+tags: [parity, cubic-fermat-equation, pairwise-coprime, parity-argument]
+depends_on:
+  required: [reduction-to-pairwise-coprime]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.2"
+    pages: ""
+    role_in_book: "Establishes that among pairwise coprime x,y,z with x^3+y^3=z^3, exactly one of the three numbers is even."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

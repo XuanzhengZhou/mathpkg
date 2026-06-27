@@ -1,0 +1,21 @@
+for $x \in S(\xi)$, $x' \in S(\xi')$, $y \in S(\eta)$, and $0 \leq \theta \leq \pi/2$. The homotopies
+
+$$k_t(x \cos \theta, y \sin \theta) = (h_t(x) \cos \theta, y \sin \theta)$$
+
+$$k'_t(x' \cos \theta, y \sin \theta) = (h'_t(x') \cos \theta, y \sin \theta)$$
+
+are fibre homotopies with $k_0 = g'g$, $k_1 = 1$, $k'_0 = gg'$, and $k'_1 = 1$. This proves the proposition.
+
+5.3 Remarks. Let $X$ be a finite CW-complex. The group $J(X)$ is a subgroup of another group $\tilde{K}_{\text{Top}}(X)$. We outline its construction. Consider the set $F_n(X)$ of all fibre homotopy classes of fibrations with fibre $S^{n-1}$. The transition functions have values in the semigroup $H(n)$ of homotopy equivalences $S^{n-1} \rightarrow S^{n-1}$. As in Chaps. 3 and 4, the cofunctor $F_n(X)$ can be represented by $[X, B_{H(n)}]$, where $B_{H(n)}$ is a classifying space for the semigroup $H(n)$ (see Dold and Lashof [1]). The inclusion $H(n) \rightarrow H(n+r)$ defines a map $B_{H(n)} \rightarrow B_{H(n+r)}$. We denote by $B_H$ the inductive limit of the sequence
+
+$$B_{H(1)} \rightarrow B_{H(2)} \rightarrow \cdots \rightarrow B_{H(n)} \rightarrow \cdots$$
+
+Then $B_H$ admits a natural $H$-space structure, and there is an $H$-space map $B_0 \rightarrow B_H$ which is induced by the inclusion $O(n) \rightarrow H(n)$. By analogy with $\tilde{K}O(X)$,
+
+Let $M_n^d$ denote the component of $\text{Map}_0(S^{n-1}, S^{n-1})$ consisting of maps of degree $d$. We have natural inclusions $M_n^1 \rightarrow H^+(n)$ and $M_n^{-1} \rightarrow H^-(n)$. The substitution map $\pi$ from $f \in H^+(n)$ to $f(*)$ is a fibre map $\pi: H^+(n) \rightarrow S^{n-1}$ with fibre $\pi^{-1}(*)$ equal to $M_n^1$. From the exact sequence of homotopy groups with $k \leq n - 3$, we have
+
+$$0 = \pi_{k+1}(S^{n-1}) \rightarrow \pi_k(M_n^1) \rightarrow \pi_k(H^+(n)) \rightarrow \pi_k(S^{n-1}) = 0$$
+
+and the groups $\pi_k(M_n^1), \pi_k(H^+(n))$, and $\pi_k(H(n))$ are isomorphic for $k \leq n - 3$. Since $\text{Map}_0(S^{n-1}, S^{n-1})$ is homeomorphic to the $H$-space $\Omega^{n-1}(S^{n-1})$, there are isomorphisms between $\pi_k(H(n)), \pi_k(M_n^1), \pi_k(M_n^0) = \pi_k(\Omega^{n-1}(S^{n-1})) = \pi_{n+k-1}(S^{n-1})$ for $1 \leq k \leq n - 3$. This proves the proposition.
+
+6.2 Remark. Explicitly, the isomorphism $\theta$ between $\pi_k(M_n^1)$ and $\pi_{n+k-1}(S^{n-1})$ can be described as follows: For $[f] \in \pi_k(M_n^1)$ the map $f$ is the translation by the identity of $h'$: $S^k \times S^{n-1} \rightarrow S^{n-1}$, where $h'(x, y) = *$ if either $x = *$ or $y = *$. Then $\theta

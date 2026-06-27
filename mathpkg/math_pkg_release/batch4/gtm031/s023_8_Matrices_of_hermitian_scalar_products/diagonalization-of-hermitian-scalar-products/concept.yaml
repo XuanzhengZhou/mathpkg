@@ -1,0 +1,23 @@
+id: diagonalization-of-hermitian-scalar-products
+title_en: "Diagonalization Theorem for Hermitian Scalar Products"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: bilinear-forms
+difficulty: intermediate
+tags: [hermitian-scalar-product, diagonalization, orthogonal-basis, lagrange-method]
+depends_on:
+  required: [existence-of-nonzero-represented-elements]
+  recommended: [hermitian-scalar-product, orthogonal-complement]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "5"
+    section: "8"
+    pages: "163-169"
+    role_in_book: "Theorem 3 — the central diagonalization result: every hermitian scalar product admits an orthogonal basis with non-zero diagonal entries"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

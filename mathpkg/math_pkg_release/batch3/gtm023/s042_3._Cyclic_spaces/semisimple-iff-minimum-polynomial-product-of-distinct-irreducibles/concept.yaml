@@ -1,0 +1,23 @@
+id: semisimple-iff-minimum-polynomial-product-of-distinct-irreducibles
+title_en: "Characterization of Semisimple Transformations"
+title_zh: "半单变换的刻画"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [semisimple-transformation, minimum-polynomial, irreducible-polynomial]
+  recommended: [generalized-eigenspace, relatively-prime]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "6"
+    pages: ""
+    role_in_book: "A transformation is semisimple iff its minimum polynomial is a product of relatively prime irreducible polynomials"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

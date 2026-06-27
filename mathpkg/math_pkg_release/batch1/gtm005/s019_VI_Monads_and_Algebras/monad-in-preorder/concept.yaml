@@ -1,0 +1,23 @@
+id: monad-in-preorder
+title_en: "Characterization of Monads in a Preorder"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [monad, preorder, closure-operator, monotonic-function]
+depends_on:
+  required: [definition-of-monad]
+  recommended: [definition-of-preorder]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "1. Monads in a Category"
+    pages: "138-139"
+    role_in_book: "Illustrates monads concretely as closure operators on preorders"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

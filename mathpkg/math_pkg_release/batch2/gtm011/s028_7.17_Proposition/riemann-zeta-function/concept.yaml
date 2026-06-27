@@ -1,0 +1,23 @@
+id: riemann-zeta-function
+title_en: "Riemann Zeta Function"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [riemann-zeta-function, dirichlet-series, analytic-continuation, number-theory]
+depends_on:
+  required: []
+  recommended: [complex-analytic-function, uniform-convergence, dirichlet-series]
+  suggested: [gamma-function, prime-number-theorem]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "7"
+    section: "8"
+    pages: ""
+    role_in_book: "Defines the Riemann zeta function as an analytic function on the right half-plane Re z > 1 via the Dirichlet series sum n^{-z}."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

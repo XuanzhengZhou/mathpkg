@@ -1,0 +1,23 @@
+id: theorem-insoluble-word-problem
+title_en: "Theorem 2.9: Insoluble Word Problem for Semigroup Presentation"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: computability-theory
+difficulty: advanced
+tags: [word-problem, semigroup-presentation, turing-machine, recursively-enumerable, non-recursive, unsolvability]
+depends_on:
+  required: [semigroup-presentation-from-turing-machine, lemma-special-words-forward-path]
+  recommended: [recursively-enumerable-set, turing-machine, halting-problem]
+  suggested: []
+source_books:
+  - book_id: gtm022
+    author: "D. W. Barnes, J. M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "7"
+    section: "2. Word Problems"
+    pages: "113"
+    role_in_book: "The central negative result: constructs a semigroup presentation with insoluble word problem using a Turing machine that enumerates a non-recursive set."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

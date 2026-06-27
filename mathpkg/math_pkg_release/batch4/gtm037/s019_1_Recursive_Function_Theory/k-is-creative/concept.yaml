@@ -1,0 +1,23 @@
+id: k-is-creative
+title_en: "K is creative"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: recursive-function-theory
+difficulty: intermediate
+tags: [creative-set, productive-set, recursively-enumerable, Kleene-set]
+depends_on:
+  required: []
+  recommended: [creative-set, productive-set, kleene-set-k, recursive-function]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "6"
+    section: "Recursive Function Theory"
+    pages: ""
+    role_in_book: "Establishes that the Kleene set K is creative, a fundamental example of a creative set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

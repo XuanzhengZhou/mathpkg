@@ -1,0 +1,23 @@
+id: open-sets-independent-of-compact-exhaustion
+title_en: "Independence of Open Sets from Choice of Compact Exhaustion"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [metric-space, compact-exhaustion, open-sets, continuous-functions, topology]
+depends_on:
+  required: []
+  recommended: [metric-on-continuous-functions]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "1"
+    section: "1.11"
+    pages: ""
+    role_in_book: "Shows that the topology on C(G, Ω) is independent of the particular choice of compact exhaustion {K_n} used to define the metric ρ"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

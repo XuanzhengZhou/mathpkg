@@ -1,0 +1,9 @@
+For every $b \in B$ in a monoidal category, the $n$-th $\square$-power is defined as
+
+$$b^n = (b \square b) \square \cdots \square b$$
+
+with all parentheses in front; thus $b^0 = e$, $b^1 = b$, $b^{n+1} = b^n \square b$.
+
+For a monoid $\langle c, \mu, \eta \rangle$, the $n$-fold product $\mu^{(n)} : c^n \rightarrow c$ is defined recursively by
+
+$$\mu^{(0)} = \eta, \quad \mu^{(1)} = \mathrm{id}_c, \quad \mu^{(2)} = \mu, \quad \mu^{(n+1)} = \mu(\mu^{(n)} \square 1).$$

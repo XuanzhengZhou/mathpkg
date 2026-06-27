@@ -1,0 +1,23 @@
+id: duality-finitely-generated-modules
+title_en: "Duality between Categories of Finitely Generated Modules"
+title_zh: "有限生成模范畴之间的对偶"
+type: theorem
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [morita-duality, artinian-ring, finitely-generated-module, category-duality]
+depends_on:
+  required: [morita-duality, osofsky-lemma]
+  recommended: [artinian-ring, finitely-generated-module, category-equivalence]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "24. Morita Dualities"
+    pages: ""
+    role_in_book: "Theorem 24.8"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

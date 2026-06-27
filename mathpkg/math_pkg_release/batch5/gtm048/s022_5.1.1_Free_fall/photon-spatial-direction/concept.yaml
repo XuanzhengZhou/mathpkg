@@ -1,0 +1,23 @@
+id: photon-spatial-direction
+title_en: "Spatial Direction of a Photon Measured by an Observer"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: intermediate
+tags: [photon, spatial-direction, observer, lorentzian-metric, general-relativity]
+depends_on:
+  required: [photon-energy-momentum, instantaneous-observer]
+  recommended: [orthogonal-complement]
+  suggested: [photon-energy-measured-by-observer]
+source_books:
+  - book_id: "gtm048"
+    author: "R.K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "5"
+    section: "5.1.3"
+    pages: ""
+    role_in_book: "Defines the spatial direction of a photon as measured by an instantaneous observer."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

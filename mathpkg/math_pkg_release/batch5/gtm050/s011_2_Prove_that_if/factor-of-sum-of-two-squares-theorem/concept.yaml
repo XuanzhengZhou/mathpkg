@@ -1,0 +1,23 @@
+id: factor-of-sum-of-two-squares-theorem
+title_en: "Every Factor of a Sum of Two Squares with Coprime Terms is a Sum of Two Squares"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: sums-of-squares
+difficulty: intermediate
+tags: [sums-of-two-squares, coprime, infinite-descent, euler-proof]
+depends_on:
+  required: [brahmagupta-fibonacci-identity, closure-of-sums-of-two-squares-under-division]
+  recommended: [infinite-descent]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.4"
+    pages: ""
+    role_in_book: "Statement (4) in Euler's proof: the critical theorem that every factor of a^2+b^2 with a,b coprime is itself a sum of two squares, proved via infinite descent"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

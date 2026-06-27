@@ -1,0 +1,3 @@
+Given a bifunctor $F : X \times P \to A$, assume for each object $p \in P$ that $F(-, p) : X \to A$ has a right adjoint $G(p, -) : A \to X$, via an adjunction
+$$\hom(F(x, p), a) \cong \hom(x, G(p, a)),$$
+natural in $x$ and $a$. There is then a unique way to assign to each arrow $h : p \to p'$ of $P$ and each object $a \in A$ an arrow $G(h, a) : G(p', a) \to G(p, a)$ of $X$ so that $G$ becomes a bifunctor $P^{\mathrm{op}} \times A \to X$ for which the bijection of the adjunction is natural in all three variables $x, p$, and $a$. This assignment of arrows $G(h, a)$ to $\langle h, a \rangle$ may also be described as the unique way to make $G(h, -)$ a natural transformation conjugate to $F(-, h)$.

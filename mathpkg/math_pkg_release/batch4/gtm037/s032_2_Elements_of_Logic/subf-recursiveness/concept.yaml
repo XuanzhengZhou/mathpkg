@@ -1,0 +1,23 @@
+id: subf-recursiveness
+title_en: "Recursiveness of the free substitution function Subf"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [godel-numbering, substitution, recursive-function, first-order-logic]
+depends_on:
+  required: [godel-numbering, recursive-functions]
+  recommended: [free-substitution-definition, formula-induction]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "10"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Proposition establishing that the Gödel number of the free substitution operation is recursive"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

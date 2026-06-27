@@ -1,0 +1,23 @@
+id: additive-functor
+title_en: "Additive Functor"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: basic
+tags: [functor, additive, hom-functor, tensor-functor, abelian-category]
+depends_on:
+  required: [functor, abelian-group]
+  recommended: [covariant-functor, contravariant-functor]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "5"
+    section: "16"
+    pages: ""
+    role_in_book: "definition of additive functor between module categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

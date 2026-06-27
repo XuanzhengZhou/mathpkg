@@ -1,0 +1,23 @@
+id: injective-module-localization-surjectivity
+title_en: "Localization map of an injective module over a noetherian ring is surjective"
+title_zh: "诺特环上内射模的局部化映射是满射"
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [injective-module, localization, noetherian-ring]
+depends_on:
+  required: []
+  recommended: [injective-module, localization-of-modules, noetherian-ring]
+  suggested: [serre-affine-vanishing-theorem]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "§3 Cohomology of a Noetherian Affine Scheme"
+    pages: "210-211"
+    role_in_book: "Lemma 3.3 — key property of injective modules over noetherian rings used to prove flasqueness of quasi-coherent injective sheaves on Spec A"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

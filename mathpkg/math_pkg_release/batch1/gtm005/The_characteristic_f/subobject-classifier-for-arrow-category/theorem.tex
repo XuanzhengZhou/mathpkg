@@ -1,0 +1,19 @@
+In the arrow category $\mathbf{2}$ (objects $0, 1$ with a single non-identity arrow $a : 0 \to 1$), the functor category $\mathbf{Sets}^{\mathbf{2}}$ has as objects all functions $f : X \to Y$ and as morphisms commutative squares. The morphism $j : \{0, 2\} \hookrightarrow \{0, 1, 2\}$ defined by $j(0) = 0$, $j(2) = 2$ is a subobject classifier for $\mathbf{Sets}^{\mathbf{2}}$.
+
+For a subobject $(S, f|_S) \hookrightarrow (X, f)$ (i.e., a subset $S \subset X$ with $f|_S$ the restriction), the classifying morphism $\psi : X \to \{0, 1, 2\}$ is the three-valued characteristic function:
+$$
+\psi(x) =
+\begin{cases}
+0 & \text{if } x \in S, \\
+1 & \text{if } x \notin S \text{ but } f(x) \in T, \\
+2 & \text{if } f(x) \notin T \text{ (and hence } x \notin S).
+\end{cases}
+$$
+This yields a pullback square:
+$$
+\begin{array}{ccc}
+(S, f|_S) & \longrightarrow & (\{0,2\}, j|_{\{0,2\}}) \\[4pt]
+\downarrow & & \downarrow \\[4pt]
+(X, f) & \xrightarrow{\;\psi\;} & (\{0,1,2\}, j).
+\end{array}
+$$

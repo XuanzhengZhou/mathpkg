@@ -1,0 +1,8 @@
+A planar ternary ring is a set $R$ with a ternary operation $F: R \times R \times R \to R$ satisfying:
+\begin{enumerate}
+\item $F(a, 0, b) = b$ and $F(0, a, b) = b$ for all $a, b \in R$
+\item $F(1, a, 0) = a = F(a, 1, 0)$ for all $a \in R$
+\item Given $a, b, c, d \in R$ with $a \neq c$, there exists a unique $x \in R$ such that $F(x, a, b) = F(x, c, d)$
+\item Given $a, b, c \in R$, there exists a unique $x \in R$ such that $F(a, b, x) = c$
+\item Given $a, b, c, d \in R$ with $a \neq c$, there exists a unique pair $(x, y) \in R^2$ such that $F(a, x, y) = b$ and $F(c, x, y) = d$
+\end{enumerate}

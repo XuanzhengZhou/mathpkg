@@ -1,0 +1,29 @@
+id: matrix-reducible-to-identity-implies-collapse
+title_en: If the matrix can be reduced to identity, the pair collapses
+title_zh: ''
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags:
+- simplified-form
+- matrix-operations
+- collapse
+- whitehead-group
+depends_on:
+  required:
+  - identity-matrix-implies-collapse
+  - matrix-operations-realizable-by-formal-deformations
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm010
+  author: Marshall M. Cohen
+  title: A Course in Simple-Homotopy Theory
+  chapter: '8'
+  section: '8'
+  pages: ''
+  role_in_book: ''
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

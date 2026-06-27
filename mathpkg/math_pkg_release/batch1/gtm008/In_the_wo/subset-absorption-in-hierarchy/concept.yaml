@@ -1,0 +1,23 @@
+id: subset-absorption-in-hierarchy
+title_en: "Every Subset of M is Contained in Some Stage of the Hierarchy"
+title_zh: "M 的每个子集都包含在层次结构的某个阶段中"
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [subset, hierarchy, replacement, stage]
+depends_on:
+  required: [transitive-model, hierarchy, replacement-axiom]
+  recommended: []
+  suggested: [transitive-model-satisfies-zf]
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "7"
+    section: "Relative Constructibility"
+    pages: ""
+    role_in_book: "Theorem 7.12"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

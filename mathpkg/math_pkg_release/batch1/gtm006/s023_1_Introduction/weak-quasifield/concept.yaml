@@ -1,0 +1,23 @@
+id: weak-quasifield
+title_en: "Weak Quasifield"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: quasifields-and-translation-planes
+difficulty: intermediate
+tags: [weak-quasifield, quasifield, loop, left-distributive, abelian-group]
+depends_on:
+  required: []
+  recommended: [quasifield-algebraic-definition, abelian-group, loop]
+  suggested: [kernel, skewfield]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "VII"
+    section: "2"
+    pages: ""
+    role_in_book: "A weakened version of quasifield lacking the unique solution axiom; serves as intermediate structure for kernel theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

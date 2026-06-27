@@ -1,0 +1,14 @@
+Let $X_1(w), \ldots, X_k(w)$ be random variables on a probability space. Their joint \text{distribution function} is
+$$F(x_1, \ldots, x_k) = P(\{w \mid X_1(w) \leq x_1, \ldots, X_k(w) \leq x_k\}).$$
+
+Properties:
+\begin{enumerate}
+\item $0 \leq F(x_1, \ldots, x_k) \leq 1$.
+\item $\lim_{x_i \to -\infty} F(x_1, \ldots, x_k) = 0$ for each $i$.
+\item $\lim_{x_1, \ldots, x_k \to \infty} F(x_1, \ldots, x_k) = 1$.
+\item $F$ is non-decreasing in each coordinate and right-continuous.
+\item The $k$-th order difference $\Delta_{h_1} \cdots \Delta_{h_k} F(x_1, \ldots, x_k) \geq 0$ for $h_1, \ldots, h_k \geq 0$.
+\end{enumerate}
+
+For a continuous function $g$, the expectation can be written as a Riemann-Stieltjes integral:
+$$E[g(X_1, \ldots, X_k)] = \int \cdots \int g(x_1, \ldots, x_k) \, dF(x_1, \ldots, x_k).$$

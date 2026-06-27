@@ -1,0 +1,13 @@
+id: iterated-green-function-limit
+title_en: "Limit of Iterated Green Function Powers"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [green-function, iterated-powers, scaling-limit, kernel-iterates, moment-method]
+depends_on: {required: [green-function-asymptotic-kernel], recommended: [integral-operators, riemann-integration], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "23", pages: "", role_in_book: "Extends the convergence of g_N to the convergence of its matrix powers, crucial for the moment calculation in T2"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

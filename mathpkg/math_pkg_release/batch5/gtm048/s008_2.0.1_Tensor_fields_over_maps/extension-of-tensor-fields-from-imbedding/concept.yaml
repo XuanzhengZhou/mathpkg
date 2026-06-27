@@ -1,0 +1,23 @@
+id: extension-of-tensor-fields-from-imbedding
+title_en: "Extension of Tensor Fields from an Imbedded Submanifold"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [imbedding, tensor-field-extension, paracompact, partition-of-unity]
+depends_on:
+  required: [tensor-field-over-a-map]
+  recommended: [imbedding, paracompact-manifold, partition-of-unity]
+  suggested: [closed-imbedding]
+source_books:
+  - book_id: "gtm048"
+    author: "R. K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "2"
+    section: "2.0.1"
+    pages: ""
+    role_in_book: "Ensures tensor fields defined over an imbedding can be extended to the ambient manifold"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

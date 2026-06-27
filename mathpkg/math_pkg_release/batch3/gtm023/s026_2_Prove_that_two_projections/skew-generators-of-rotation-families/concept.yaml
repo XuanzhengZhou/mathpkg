@@ -1,0 +1,23 @@
+id: skew-generators-of-rotation-families
+title_en: "Skew Generators of Rotation Families"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: linear-algebra
+difficulty: advanced
+tags: [rotation, skew-mapping, differential-equation, lie-algebra]
+depends_on:
+  required: [skew-mapping, one-parameter-group-of-linear-automorphisms, rotation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: ""
+    title: "Linear Algebra"
+    chapter: "8"
+    section: "8.31"
+    pages: ""
+    role_in_book: "Shows that ψ(t)=φ̇(t)∘φ(t)⁻¹ is skew and conversely skew generators produce rotations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

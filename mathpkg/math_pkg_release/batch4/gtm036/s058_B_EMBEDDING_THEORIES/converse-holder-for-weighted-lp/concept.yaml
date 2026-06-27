@@ -1,0 +1,23 @@
+id: converse-holder-for-weighted-lp
+title_en: "Converse Hölder Inequality for Weighted $l^p$ Spaces"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [lp-space, holder-inequality, weighted-space, duality]
+depends_on:
+  required: [weighted-lp-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "Kelley, J.L. and Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "E"
+    section: "SPACES $l^p(\omega)$"
+    pages: ""
+    role_in_book: "Converse Hölder: if xy ∈ l^1 for all x ∈ l^p, then y ∈ l^q"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

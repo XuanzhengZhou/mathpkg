@@ -1,0 +1,23 @@
+id: every-metrizable-lcs-is-bornological
+title_en: "Every Metrizable Locally Convex Space is Bornological"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [metrizable, bornological, locally-convex-space, bounded-set]
+depends_on:
+  required: [bornological-space, metrizable-space, locally-convex-space]
+  recommended: [countable-neighborhood-base, null-sequence, bounded-set]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "8"
+    section: "8.1"
+    pages: ""
+    role_in_book: "Theorem establishing that metrizability implies bornological"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

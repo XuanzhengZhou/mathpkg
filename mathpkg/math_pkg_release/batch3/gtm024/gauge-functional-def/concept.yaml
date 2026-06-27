@@ -1,0 +1,23 @@
+id: gauge-functional-def
+title_en: "Gauge (Minkowski Functional)"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: convex-analysis
+difficulty: basic
+tags: ["gauge", "minkowski-functional", "absorbing-set"]
+depends_on:
+  required: ["convex-function-def", "sublinear-function-def"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§3"
+  section: "3.C"
+  pages: "13"
+  role_in_book: "connects convex sets and convex functions"
+content_hash: "59014caa335ddaf6"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

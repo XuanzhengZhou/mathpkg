@@ -1,0 +1,23 @@
+id: semiring-of-sets
+title_en: "Semiring of Sets"
+title_zh: "集半环"
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [set-theory, semiring]
+depends_on:
+  required: [ring-of-sets, set-difference]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "I"
+    section: "5"
+    pages: ""
+    role_in_book: "A weaker structure that generates rings; useful for intervals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

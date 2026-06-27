@@ -1,0 +1,23 @@
+id: completion-of-separated-group
+title_en: "Theorem H: Completion of a separated measurable group to a locally compact group"
+title_zh: "定理H: 分离可测群的局部紧完备化"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [weil-topology, measurable-group, locally-compact-group, completion, haar-measure]
+depends_on:
+  required: [separated-measurable-group, weil-topology-topological-group, local-boundedness-weil-topology]
+  recommended: [invariant-measure-subgroup-closed, locally-compact-group-completion]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "XII"
+    section: "62"
+    pages: "274-275"
+    role_in_book: "Culminating theorem: embedding a separated measurable group as a dense subgroup of a locally compact group with extended measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

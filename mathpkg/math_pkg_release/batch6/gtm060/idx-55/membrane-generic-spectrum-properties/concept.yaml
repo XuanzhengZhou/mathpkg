@@ -1,0 +1,23 @@
+id: membrane-generic-spectrum-properties
+title_en: "Generic Spectrum Properties of a Membrane"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: spectral-theory
+difficulty: advanced
+tags: [membrane, characteristic-frequency, simple-spectrum, continuous-medium, dirichlet-integral, transversality]
+depends_on:
+  required: [ellipsoids-of-revolution-codimension-theorem, generic-two-parameter-family-isolated-multiplicities]
+  recommended: [generic-one-parameter-family-no-multiple-spectra]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 10"
+    section: "Multiplicities of characteristic frequencies and ellipsoids of revolution"
+    pages: "438-445"
+    role_in_book: "Applies the codimension-2 result to oscillations of continuous media (membranes)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

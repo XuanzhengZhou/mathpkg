@@ -1,0 +1,23 @@
+id: algebraic-numbers-denumerable
+title_en: "Denumerability of Real Algebraic Numbers"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: basic
+tags: [algebraic-number, denumerable, countable, cantor]
+depends_on:
+  required: [algebraic-number]
+  recommended: [denumerable-set, polynomial-with-integer-coefficients]
+  suggested: [weight-of-polynomial]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "2"
+    section: "2. Liouville Numbers"
+    pages: "15"
+    role_in_book: "Theorem 2.1. Shows the algebraic numbers form only a countable set, so almost all real numbers are transcendental (by Cantor's theorem that the reals are uncountable)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

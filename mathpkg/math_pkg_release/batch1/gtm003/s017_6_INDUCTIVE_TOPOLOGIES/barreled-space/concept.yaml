@@ -1,0 +1,23 @@
+id: barreled-space
+title_en: "Barreled Space (Espace Tonnelé)"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [barreled-space, tonnele, barrel, locally-convex-space]
+depends_on:
+  required: [barrel, locally-convex-space]
+  recommended: [frechet-space, banach-space]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "7"
+    pages: ""
+    role_in_book: "Definition of one of the most important classes of locally convex spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: quaternion-algebra
+title_en: "Quaternion Algebra"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: division-algebras
+difficulty: intermediate
+tags: [quaternions, division-algebra, euclidean-space, cross-product, hamilton]
+depends_on:
+  required: [oriented-euclidean-space, bilinear-map, orthogonal-complement]
+  recommended: [cross-product, normed-determinant-function]
+  suggested: [cayley-numbers, associative-division-algebra]
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "6"
+    pages: "222-229"
+    role_in_book: "Definition 7.23 introducing the quaternion algebra H as a bilinear multiplication on an oriented Euclidean 4-space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: left-radical-and-right-radical
+title_en: "Left Radical and Right Radical of a Bilinear Form"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [bilinear-form, radical, null-space, kernel]
+depends_on:
+  required: [bilinear-form, induced-linear-mappings-of-bilinear-form]
+  recommended: [subspace, null-space]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "Bilinear Forms"
+    section: "1. Bilinear forms"
+    pages: ""
+    role_in_book: "Defines the left and right radicals, which measure the degeneracy of a bilinear form"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

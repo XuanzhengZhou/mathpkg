@@ -1,0 +1,23 @@
+id: gaussian-elimination
+title_en: "Gaussian Elimination"
+title_zh: "高斯消元法"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [gaussian-elimination, linear-equations, matrix, row-operations, triangular-form, solution-of-linear-systems]
+depends_on:
+  required: [reduction-to-normal-form, elementary-basis-transformations-matrix-effect]
+  recommended: [linear-equation-system]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "3"
+    section: "4. Elementary transformations"
+    pages: "111-112"
+    role_in_book: "Describes the Gaussian elimination algorithm for solving systems of linear equations by successive elimination of unknowns."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

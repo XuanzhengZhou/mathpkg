@@ -1,0 +1,23 @@
+id: factorization-p2-plus-3q2
+title_en: "Factorization of p^2 + 3q^2 in Z[√-3]"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: basic
+tags: [factorization, quadratic-form, z-sqrt-minus-3, euler]
+depends_on:
+  required: [surd-ring-z-sqrt-minus-3, surd-multiplication-formula]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem"
+    chapter: "2"
+    section: "2.3"
+    pages: ""
+    role_in_book: "Key factorization that enables Euler's technique for studying cubes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

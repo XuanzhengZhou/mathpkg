@@ -1,0 +1,23 @@
+id: theorem-11-8-cardinal-preservation-ccc
+title_en: "Theorem 11.8: Cardinal Preservation under Countable Chain Condition Forcing"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [forcing, cardinals, countable-chain-condition, generic-extension, preservation]
+depends_on:
+  required: [generic-filter, boolean-valued-models]
+  recommended: [regular-open-sets, complete-boolean-algebra]
+  suggested: [absolute-formulas]
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti and Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "11"
+    section: "11 The Independence of V = L and the CH"
+    pages: ""
+    role_in_book: "Establishes that CCC forcing preserves all cardinals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

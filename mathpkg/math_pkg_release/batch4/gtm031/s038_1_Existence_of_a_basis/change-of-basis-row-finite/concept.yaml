@@ -1,0 +1,23 @@
+id: change-of-basis-row-finite
+title_en: "Change of Basis for Row-Finite Matrices"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [change-of-basis, row-finite-matrix, transition-matrix, invertible-matrix]
+depends_on:
+  required: [row-finite-matrix, product-of-row-finite-matrices]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "Change of basis in the infinite-dimensional setting is expressed by mutually inverse row-finite matrices."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

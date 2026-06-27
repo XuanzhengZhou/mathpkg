@@ -1,0 +1,23 @@
+id: regular-space
+title_en: "Regular Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [regular, separation-axiom, T3, closed-neighborhoods]
+depends_on:
+  required: [hausdorff-space, topological-space]
+  recommended: [neighborhood-base, closed-set]
+  suggested: [normal-space]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "0"
+    section: "5"
+    pages: ""
+    role_in_book: "Preliminaries — separation axioms for topological vector spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

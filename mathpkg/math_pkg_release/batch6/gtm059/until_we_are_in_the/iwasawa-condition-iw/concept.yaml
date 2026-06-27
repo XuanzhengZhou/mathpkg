@@ -1,0 +1,23 @@
+id: iwasawa-condition-iw
+title_en: "Iwasawa Condition (IW)"
+title_zh: "岩泽条件 (IW)"
+type: definition
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: intermediate
+tags: [iwasawa-theory, zp-extension, totally-ramified, finitely-many-primes]
+depends_on:
+  required: [zp-extension, ramification-in-zp-extensions]
+  recommended: [galois-extension, number-field]
+  suggested: [class-field-theory]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "Iwasawa Theory and Ideal Class Groups"
+    pages: ""
+    role_in_book: "Defines Iwasawa's condition IW: the Z_p-extension is totally ramified over K at a finite number of primes and unramified elsewhere."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

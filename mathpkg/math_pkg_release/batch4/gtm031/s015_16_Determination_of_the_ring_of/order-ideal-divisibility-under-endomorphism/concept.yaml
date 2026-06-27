@@ -1,0 +1,23 @@
+id: order-ideal-divisibility-under-endomorphism
+title_en: "Order Ideal Divisibility under Endomorphism"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [endomorphism, order-ideal, principal-ideal-domain, module]
+depends_on:
+  required: [endomorphism-determined-by-generators, order-ideal]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "3"
+    section: "16"
+    pages: ""
+    role_in_book: "Establishes the necessary condition for an endomorphism: the order ideal of each image must divide the order ideal of the source generator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: finite-dimensional-weak-quasifield-is-quasifield
+title_en: "Finite-Dimensional Weak Quasifield is a Quasifield"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: quasifields-and-translation-planes
+difficulty: intermediate
+tags: [weak-quasifield, quasifield, finite-dimensional, kernel, skewfield]
+depends_on:
+  required: [weak-quasifield, kernel-of-weak-quasifield, quasifield-algebraic-definition]
+  recommended: [vector-space, linear-transformation, non-singular]
+  suggested: [kernel-of-weak-quasifield-is-skewfield]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "VII"
+    section: "2"
+    pages: ""
+    role_in_book: "Theorem 7.3. Shows finite dimensionality over kernel implies the quasifield axiom; a key criterion."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

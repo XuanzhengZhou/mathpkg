@@ -1,0 +1,8 @@
+For a type language, terms are defined inductively as follows:
+
+\begin{enumerate}
+\item[(4)] Operation variables of type $o$ and operation constants of type $o$ are terms of type $o$.
+\item[(5)] A relation variable or constant of type $\sigma \neq o$ is a term of type $\sigma$.
+\item[(6)] If $O$ is an operation variable or constant of type $(\sigma_0, \ldots, \sigma_m)$ with $m > 0$ and $\tau_0, \ldots, \tau_{m-1}$ are terms of types $\sigma_0, \ldots, \sigma_{m-1}$ respectively, then $O\tau_0 \cdots \tau_{m-1}$ is a term of type $\sigma_m$.
+\item[(7)] Terms can only be formed in these ways.
+\end{enumerate}

@@ -1,0 +1,1 @@
+Birkhoff's ergodic theorem: time averages converge a.s. to the conditional expectation given the invariant $\sigma$-field. For metrically transitive processes, this equals the unconditional expectation.

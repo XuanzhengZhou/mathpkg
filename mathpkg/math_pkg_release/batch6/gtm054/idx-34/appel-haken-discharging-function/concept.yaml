@@ -1,0 +1,23 @@
+id: appel-haken-discharging-function
+title_en: "Appel-Haken Discharging Function g"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [discharging-method, four-color-theorem, vertex-charge, graph-theory]
+depends_on:
+  required: []
+  recommended: [vertex-valence, rational-function]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "Appendix B"
+    section: "Section 34"
+    pages: "208-213"
+    role_in_book: "Central tool in Appel-Haken Four-Color Theorem proof; redistributes charge from low-degree vertices"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: pullback-of-transition-functions
+title_en: "Pullback of Transition Functions"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: fibre-bundles
+difficulty: intermediate
+tags: [pullback, transition-functions, atlas, functoriality]
+depends_on:
+  required: [system-of-transition-functions]
+  recommended: [existence-of-principal-bundle-from-transition-functions]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "5"
+    section: "4"
+    pages: "page_0077–page_0082"
+    role_in_book: "Shows how transition functions behave under pullback of fibre bundles along a continuous map"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

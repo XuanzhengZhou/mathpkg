@@ -1,0 +1,23 @@
+id: normal-form-of-skew-symmetric-matrix
+title_en: "Normal Form of a Skew Symmetric Matrix"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [skew-symmetric, normal-form, orthonormal-basis, block-diagonal]
+depends_on:
+  required: [skew-mapping, orthonormal-basis, eigenvalue]
+  recommended: [spectral-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: ""
+    title: "Linear Algebra"
+    chapter: "8"
+    section: "8.16"
+    pages: ""
+    role_in_book: "Establishes the canonical block-diagonal form for skew-symmetric matrices"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

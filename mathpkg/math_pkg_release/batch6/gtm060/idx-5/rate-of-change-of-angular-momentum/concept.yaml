@@ -1,0 +1,23 @@
+id: rate-of-change-of-angular-momentum
+title_en: "Rate of Change of Angular Momentum of a System"
+title_zh: "质点系角动量的变化率"
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [angular-momentum, external-torque, system-of-particles]
+depends_on:
+  required: [angular-momentum-of-a-system]
+  recommended: [moment-of-force]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "10"
+    pages: "55-67"
+    role_in_book: "Theorem relating dM/dt to the sum of moments of external forces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

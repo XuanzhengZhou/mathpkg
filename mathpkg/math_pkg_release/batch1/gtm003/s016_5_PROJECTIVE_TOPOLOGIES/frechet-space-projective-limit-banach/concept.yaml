@@ -1,0 +1,23 @@
+id: frechet-space-projective-limit-banach
+title_en: "Fréchet Space as Projective Limit of a Sequence of Banach Spaces"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: locally-convex-spaces
+difficulty: intermediate
+tags: [frechet-space, projective-limit, banach-space, sequence, locally-convex-space]
+depends_on:
+  required: [complete-lcs-projective-limit-banach, frechet-space]
+  recommended: [projective-limit]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "5.4"
+    pages: ""
+    role_in_book: "Corollary 1 of Theorem 5.4"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

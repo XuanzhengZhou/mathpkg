@@ -1,0 +1,23 @@
+id: lagrange-equations-on-manifolds
+title_en: "Lagrange Equations on Manifolds"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [lagrangian-mechanics, manifolds, tangent-bundle, equations-of-motion]
+depends_on:
+  required: []
+  recommended: [lagrangian-function, tangent-bundle, configuration-manifold]
+  suggested: [newton-equations, principle-of-least-action]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "4"
+    section: "Lagrangian mechanics on manifolds"
+    pages: "98-99"
+    role_in_book: "Main theorem of Chapter 4: extends Lagrange equations from Euclidean space to manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

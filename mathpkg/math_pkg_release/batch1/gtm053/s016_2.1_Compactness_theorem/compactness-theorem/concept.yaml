@@ -1,0 +1,23 @@
+id: compactness-theorem
+title_en: "Compactness Theorem"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [compactness, first-order-logic, model-theory, satisfiability, cardinality]
+depends_on:
+  required: []
+  recommended: [finitely-satisfiable, first-order-language, godel-completeness-theorem]
+  suggested: [lindenbaums-theorem, ultraproduct, loss-theorem]
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "2"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Central theorem of first-order model theory; the section presents three different proofs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

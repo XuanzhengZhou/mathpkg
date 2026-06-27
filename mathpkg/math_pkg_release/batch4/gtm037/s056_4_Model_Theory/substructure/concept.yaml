@@ -1,0 +1,23 @@
+id: substructure
+title_en: "Substructure"
+title_zh: "子结构"
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: basic
+tags: [substructure, extension, L-structure, operation, relation, restriction]
+depends_on:
+  required: [L-structure]
+  recommended: [elementary-equivalence, elementary-substructure]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "19"
+    section: "Elementary Equivalence"
+    pages: ""
+    role_in_book: "Core definition introducing substructure and extension of L-structures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

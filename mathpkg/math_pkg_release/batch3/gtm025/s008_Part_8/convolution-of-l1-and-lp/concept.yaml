@@ -1,0 +1,23 @@
+id: convolution-of-l1-and-lp
+title_en: "Convolution of L^1 and L^p Functions"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: intermediate
+tags: [convolution, L1-space, Lp-space, Young-inequality]
+depends_on:
+  required: [convolution-in-l1, Lp-space, fubini-theorem, Holder-inequality]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm025
+    author: "Edwin Hewitt, Karl Stromberg"
+    title: "Real and Abstract Analysis"
+    chapter: "6"
+    section: "21"
+    pages: ""
+    role_in_book: "Generalizes convolution to L^1 * L^p and proves Young's inequality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

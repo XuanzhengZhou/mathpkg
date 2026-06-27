@@ -1,0 +1,23 @@
+id: character-of-regular-representation
+title_en: "Character of the Regular Representation"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: basic
+tags: [regular-representation, character, finite-groups]
+depends_on:
+  required: [regular-representation, trace-of-matrix]
+  recommended: [permutation-representation]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "2"
+    section: "2.4"
+    pages: ""
+    role_in_book: "Proposition 5. Computes the character of the regular representation, a key ingredient for the degree-sum relations of irreducible representations."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

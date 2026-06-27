@@ -1,0 +1,23 @@
+id: approximation-of-simple-function-by-l-functions
+title_en: "L¹-Approximation of Simple Functions with Compact Baire Supports by L Functions"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [baire-measure, simple-function, compact-baire-set, l1-approximation, l-class, urysohn-function]
+depends_on:
+  required: [class-of-continuous-functions-with-compact-support, baire-measure, compact-baire-set]
+  recommended: [regularity-of-baire-measures, urysohn-function]
+  suggested: [lusin-theorem-for-baire-measures]
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "55"
+    section: "55. Classes of Continuous Functions"
+    pages: ""
+    role_in_book: "Theorem D; shows that L functions are L¹-dense in the space of simple functions with compact Baire supports"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: inductive-topology
+title_en: "Inductive Topology"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [inductive-topology, locally-convex-space, final-topology, projective-topology]
+depends_on:
+  required: []
+  recommended: [locally-convex-space, projective-topology, linear-mapping]
+  suggested: [topological-vector-space, lattice-of-topologies]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "6"
+    pages: ""
+    role_in_book: "Core definition introducing inductive topologies"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,29 @@
+$C = [\theta | \theta \in E, |\theta_i| \leq \pi$ for $i = 1, 2, \ldots, d]$
+
+and for complex valued functions $f(\theta)$ which are Lebesgue integrable on $C$, the integral over $C$ is denoted by
+
+$$\int f d\theta = \int_C f d\theta = \int_{-\pi}^{\pi} \ldots \int_{-\pi}^{\pi} f(\theta) d\theta_1 \ldots d\theta_d.$$
+
+Thus $d\theta$ will always denote the volume element (Lebesgue measure in $E$). To achieve corresponding economy of notation for summation over $R$, we shall write
+
+$$\sum g(x) = \sum_{x \in R} g(x) \quad \text{when} \quad \sum_{x \in R} |g(x)| < \infty.$$
+
+In most of our work $f(\theta)$ will in fact be a continuous function on $C$ so that the integral $\int f d\theta$ is then just the ordinary $
+
+one-dimensional integrals over the real interval from $-\pi$ to $\pi$. Thus the integral is
+
+$$\prod_{k=1}^{d} \frac{1}{2\pi} \int_{-\pi}^{\pi} e^{i\theta_k(x^k-y^k)} d\theta_k = \prod_{k=1}^{d} \delta(x^k,y^k) = \delta(x,y),$$
+
+which depends only on the fact that for every integer $n$
+
+$$\frac{1}{2\pi} \int_{-\pi}^{\pi} e^{i n\theta} d\theta = \delta(n,0).$$
+
+Next we give a very weak form of the Parseval Theorem. Let $a_1(x)$ and $a_2(x)$ be two summable complex valued functions on $R$, i.e., we suppose that
+
+$$\sum |a_k(x)| < \infty \text{ for } k = 1, 2.$$
+
+Then it makes sense to define their Fourier series, $f_1(\theta)$ and $f_2(\theta)$, for $\theta \in E$, by
+
+$$f_k(\theta) = \sum a_k(x) e^{i x \cdot \theta}, \quad k = 1, 2.$$
+
+Since the $a_k(x)$ are summable, the series defining $f_k(\theta)$ converge absolutely, so that in fact each $f_k(\theta)$ is a continuous function on $E$. Then Parseval's Theorem is (in the notation of D3)

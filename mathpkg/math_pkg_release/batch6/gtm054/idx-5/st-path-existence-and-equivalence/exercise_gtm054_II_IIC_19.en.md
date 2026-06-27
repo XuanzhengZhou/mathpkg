@@ -1,0 +1,11 @@
+---
+role: exercise
+locale: en
+chapter: "II"
+section: "IIC"
+exercise_number: 19
+---
+
+(a) Let $\Lambda = (V, f, E)$ be a system and let $s, t \in V \cup E$. Show that if $\Lambda$ admits an $st$-path, then it admits an elementary $st$-path.
+
+(b) Define the relation $\sim$ on $V \cup E$ by: $s \sim t$ if and only if there exists an $st$-path in $\Lambda$. Show that $\sim$ is an equivalence relation.

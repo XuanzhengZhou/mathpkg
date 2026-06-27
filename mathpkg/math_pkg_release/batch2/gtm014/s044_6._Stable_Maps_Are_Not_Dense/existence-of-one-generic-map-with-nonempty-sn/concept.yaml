@@ -1,0 +1,23 @@
+id: existence-of-one-generic-map-with-nonempty-sn
+title_en: "Existence of a One-Generic Map with Nonempty S_n Singularity Locus"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: singularity-theory
+difficulty: advanced
+tags: [stable-maps, one-generic, boardman-symbol, sn-singularity, transversality]
+depends_on:
+  required: []
+  recommended: [one-generic-map, boardman-singularity, jet-space, transversality]
+  suggested: [morse-theory, whitney-umbrella]
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "§6"
+    pages: ""
+    role_in_book: "Key step in proving stable maps are not dense when dim X = dim Y = n^2 (n > 2)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

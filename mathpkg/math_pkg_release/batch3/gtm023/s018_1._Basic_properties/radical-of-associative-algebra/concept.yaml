@@ -1,0 +1,23 @@
+id: radical-of-associative-algebra
+title_en: "Radical of an Associative Commutative Algebra"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: radical-theory
+difficulty: intermediate
+tags: [radical, nilpotent, associative-algebra, commutative-algebra]
+depends_on:
+  required: [nilpotent-element-in-algebra, nilpotent-ideal]
+  recommended: [ideal]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "5"
+    section: "§2. Ideals"
+    pages: "169-170"
+    role_in_book: "defines the radical as the ideal of nilpotent elements in a commutative associative algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

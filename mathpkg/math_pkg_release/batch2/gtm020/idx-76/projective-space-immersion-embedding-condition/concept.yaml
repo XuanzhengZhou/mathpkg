@@ -1,0 +1,23 @@
+id: projective-space-immersion-embedding-condition
+title_en: "Projective Space Immersion and Embedding Condition"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [projective-space, immersion, embedding, stiefel-whitney-class, dual-stiefel-whitney-class, power-of-two]
+depends_on:
+  required: [dual-stiefel-whitney-class, immersion-embedding-dual-stiefel-whitney-vanishing]
+  recommended: [real-projective-space, cohomology-of-rpn, stiefel-whitney-class-of-rpn]
+  suggested: [whitney-immersion-theorem, stiefel-manifold]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "10"
+    section: "10.3"
+    pages: ""
+    role_in_book: "Gives complete characterization of when RP^n immerses or embeds in one dimension higher"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

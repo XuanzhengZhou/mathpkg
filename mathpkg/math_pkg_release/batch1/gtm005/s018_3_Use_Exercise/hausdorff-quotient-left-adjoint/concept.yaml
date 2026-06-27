@@ -1,0 +1,23 @@
+id: hausdorff-quotient-left-adjoint
+title_en: "Largest Hausdorff Quotient as Left Adjoint"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: category-theory
+difficulty: intermediate
+tags: [hausdorff-space, quotient, left-adjoint, adjoint-functor-theorem]
+depends_on:
+  required: [haus-complete-cocomplete, adjoint-functor-theorem]
+  recommended: [hausdorff-category]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IV. Adjoints"
+    section: "9. Adjoints in Topology"
+    pages: ""
+    role_in_book: "Explicit construction of the left adjoint H via AFT; universal Hausdorff quotient"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

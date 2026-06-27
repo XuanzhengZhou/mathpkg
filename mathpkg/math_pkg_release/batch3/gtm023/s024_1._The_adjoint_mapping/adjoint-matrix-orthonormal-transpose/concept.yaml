@@ -1,0 +1,23 @@
+id: adjoint-matrix-orthonormal-transpose
+title_en: "Adjoint Matrix is the Transpose in Orthonormal Bases"
+title_zh: "标准正交基下伴随矩阵即转置"
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [adjoint, transpose, orthonormal-basis, matrix]
+depends_on:
+  required: [adjoint-matrix-metric-tensor, orthonormal-basis]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VIII"
+    section: "§1. The adjoint mapping"
+    pages: ""
+    role_in_book: "Specialization to orthonormal bases"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

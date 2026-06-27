@@ -1,0 +1,23 @@
+id: even-permutation
+title_en: "Even permutation"
+title_zh: "偶排列"
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [permutation, even, symmetric-group, parity]
+depends_on:
+  required: [sign-of-permutation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IV"
+    section: "§1. Determinant functions"
+    pages: "4.1"
+    role_in_book: "Defines even permutations as those with sign +1, used in determinant theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

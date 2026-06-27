@@ -1,0 +1,23 @@
+id: jet-bundle-manifold-structure
+title_en: "Jet Bundle as a Smooth Fiber Bundle"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: differential-topology
+difficulty: advanced
+tags: [jet-bundles, smooth-manifold, fiber-bundle, submersion]
+depends_on:
+  required: [local-charts-on-jet-bundles, jet-space-of-maps, fiber-bundle-definition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "2"
+    section: "2. Jet Bundles"
+    pages: ""
+    role_in_book: "Main structural theorem of Section 2: J^k(X,Y) is a smooth manifold and fiber bundle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

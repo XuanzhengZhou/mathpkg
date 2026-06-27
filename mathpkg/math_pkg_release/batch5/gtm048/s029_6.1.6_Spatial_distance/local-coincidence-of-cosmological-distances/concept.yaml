@@ -1,0 +1,23 @@
+id: local-coincidence-of-cosmological-distances
+title_en: "Local Coincidence of Cosmological Distance Measures"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: cosmology
+difficulty: intermediate
+tags: [cosmology, distance-measure, luminosity-distance, angular-diameter-distance, newtonian-distance, general-relativity]
+depends_on:
+  required: [luminosity-distance, angular-diameter-distance]
+  recommended: [newtonian-distance, spacetime-curvature]
+  suggested: []
+source_books:
+  - book_id: "gtm048"
+    author: "R. K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "6.1"
+    section: "6.1.6 Spatial distance"
+    pages: ""
+    role_in_book: "Establishes that different cosmological distance measures coincide locally when spacetime curvature is negligible"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

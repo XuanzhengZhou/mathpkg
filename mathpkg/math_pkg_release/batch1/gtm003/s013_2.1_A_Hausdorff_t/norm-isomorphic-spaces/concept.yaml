@@ -1,0 +1,23 @@
+id: norm-isomorphic-spaces
+title_en: "Norm Isomorphic Spaces"
+title_zh: "范数同构空间"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [normed-space, isomorphism, norm-isomorphism, equivalence]
+depends_on:
+  required: [norm-isomorphism]
+  recommended: [normed-space, banach-space]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Defines the equivalence relation on normed spaces induced by norm isomorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

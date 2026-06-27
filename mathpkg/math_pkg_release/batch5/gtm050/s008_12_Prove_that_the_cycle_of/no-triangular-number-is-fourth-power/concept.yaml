@@ -1,0 +1,23 @@
+id: no-triangular-number-is-fourth-power
+title_en: "No Triangular Number Greater Than 1 is a Fourth Power"
+title_zh: "大于1的三角形数不是四次幂"
+type: theorem
+domain: number-theory
+subdomain: diophantine-equations
+difficulty: advanced
+tags: [triangular-numbers, fourth-powers, diophantine-equations, legendre, fermat]
+depends_on:
+  required: [polygonal-numbers]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "8"
+    section: "12"
+    pages: ""
+    role_in_book: "Mentioned in Fermat's concluding summary as an example of a simple-to-state but hard-to-prove theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

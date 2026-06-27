@@ -1,0 +1,23 @@
+id: midpoint-convex-with-symmetric-second-category-is-neighborhood
+title_en: "Midpoint Convex Set Containing a Symmetric Second Category Baire Set Is a Neighborhood of Zero"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [midpoint-convex, second-category, baire-property, neighborhood-of-zero, linear-topological-space]
+depends_on:
+  required: [second-category-baire-contains-translate-of-symmetric]
+  recommended: [midpoint-convex, condition-of-baire, linear-topological-space]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "Kelley, J. L. and Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "D"
+    section: "Midpoint Convex Neighborhoods"
+    pages: ""
+    role_in_book: "Main theorem characterizing when a midpoint convex set is a neighborhood of zero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

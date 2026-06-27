@@ -1,0 +1,23 @@
+id: uniqueness-haar-measure-locally-compact
+title_en: "Uniqueness of regular Haar measure on locally compact groups"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [haar-measure, locally-compact-group, uniqueness, regular-measure, borel-set]
+depends_on:
+  required: [proportionality-measurable-group-measures]
+  recommended: [haar-measure, locally-compact-group, baire-set, borel-set, regular-measure]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "X"
+    section: "60. Uniqueness"
+    pages: ""
+    role_in_book: "Extends uniqueness from measurable groups to locally compact topological groups: any two regular Haar measures differ only by a positive multiplicative constant."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: "ramanujan-tau-hecke-relations"
+title_en: "Ramanujan Tau Function Hecke Relations"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: hecke-operators
+difficulty: intermediate
+tags: []
+depends_on:
+  required: []
+  recommended: [hecke-eigenfunction-coefficients, ramanujan-tau-function]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "5.5"
+    pages: ""
+    role_in_book: "Corollary: τ(nm)=τ(n)τ(m) for (n,m)=1 and τ(p)τ(p^n)=τ(p^{n+1})+p^{11}τ(p^{n-1})"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

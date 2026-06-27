@@ -1,0 +1,23 @@
+id: kernel-sum-equals-kernel-of-lcm
+title_en: "Kernel of LCM equals sum of kernels"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [linear-transformation, polynomial, kernel, least-common-multiple]
+depends_on:
+  required: [kernel-of-polynomial-transformation, least-common-multiple]
+  recommended: [kernel-intersection-equals-kernel-of-gcd]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "§1. Polynomials in a linear transformation"
+    pages: ""
+    role_in_book: "Proposition II: characterizes sum of polynomial kernels via LCM"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

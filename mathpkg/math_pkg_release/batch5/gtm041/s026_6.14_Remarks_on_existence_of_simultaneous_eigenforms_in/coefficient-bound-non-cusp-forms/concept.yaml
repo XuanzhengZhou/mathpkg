@@ -1,0 +1,23 @@
+id: coefficient-bound-non-cusp-forms
+title_en: "Fourier coefficient bound for non-cusp modular forms: c(n) = O(n^{2k-1})"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [modular-forms, fourier-coefficients, eisenstein-series, growth-estimates, divisor-sums]
+depends_on:
+  required: []
+  recommended: [modular-forms-of-weight-2k, fourier-expansion-of-modular-form, eisenstein-series-fourier-expansion, divisor-sum-function]
+  suggested: [coefficient-bound-cusp-forms]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.15"
+    pages: ""
+    role_in_book: "Theorem 6.18 — Upper bound for Fourier coefficients of modular forms that are not cusp forms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

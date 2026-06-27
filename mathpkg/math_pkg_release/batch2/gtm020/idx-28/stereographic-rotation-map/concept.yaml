@@ -1,0 +1,23 @@
+id: stereographic-rotation-map
+title_en: "Stereographic Rotation Map from the Punctured Sphere to the Special Orthogonal Group"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [stereographic-projection, rotation, special-orthogonal-group, sphere]
+depends_on:
+  required: []
+  recommended: [rotation-in-special-orthogonal-group, n-sphere]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "5"
+    section: "9"
+    pages: ""
+    role_in_book: "defines a map from punctured S^n to SO(n+1) used in computing the characteristic map of the tangent bundle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

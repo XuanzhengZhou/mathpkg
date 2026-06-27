@@ -1,0 +1,37 @@
+(a) $F_n(x,y)
+
+first visit to $y$, starting at $x$, occurs before or at time $n$. Fortunately it is not hard to base an elementary proof on this idea. (The skeptical reader will observe that we are indeed about to introduce the notion of measure—but measure of a very simple sort, the total number of elementary events being countably infinite.)
+
+Let us define as the set of "elementary events" the set of sequences $\omega$ of the form $\omega = \{x_0, x_1, x_2, \ldots, x_{n-1}, x_n\}$ where $x_0 = x$, and where $x_1, x_2, \ldots, x_n$ may assume any value in $R$. Since $R$ is countable, this set of sequences, which we denote $\Omega_n$, is also countable. With each $\omega$ in $\Omega_n$ we associate the measure
+
+$$p(\omega) = P(x, x_1)P(x_1, x_2) \ldots P(x_{n-1}, x_n).$$
+
+It follows from D1 and P1 that
+
+$$\sum_{[\omega] \in \Omega_n, x_n = y} p(\omega) = P_n(x,y), \quad \sum_{\omega \in \Omega_n} p(\omega) = \sum_{y \in R} P_n(x,y) = 1.$$
+
+On the other hand, if
+
+$$A_k = [\omega \mid \omega \in \Omega_n; x_1 \neq y, x_2 \neq y, \ldots, x_{k-1} \neq y, x_k = y], \quad 1 \leq k \leq n,$$
+
+then the sets $A_k$ are disjoint subsets of $\Omega_n$, and it is obvious from D2 that
+
+$$F_k(x,y) = \sum_{\omega \in A_k} p(\omega), \quad 1 \leq k \leq n.$$
+
+The $A_k$ being disjoint, one obtains
+
+$$\sum_{k=1}^{n} F_k(x,y) \leq \sum_{\omega \in \Omega_n} p(\omega) = 1.$$
+
+Part (c) can be proved in a similar
+
+It follows, using the induction hypothesis again, that
+
+$$P_{j+1}(x,y) = \sum_{k=1}^{j} F_{k+1}(x,y) P_{j-k}(y,y) + \sum_{k=1}^{j} P(x,y) F_{k}(y,y) P_{j-k}(y,y)$$
+
+$$= \sum_{m=2}^{j+1} F_{m}(x,y) P_{j+1-m}(y,y) + F_{1}(x,y) P_{j}(y,y)$$
+
+$$= \sum_{m=1}^{j+1} F_{m}(x,y) P_{j+1-m}(y,y).$$
+
+That completes the induction, and also the proof, since (c) is evidently correct when $n = 1$.
+
+Next we define, in D3 below, the function $G_{n}(x,y)$ to correspond to the expected number of visits of the random walk, starting at $x$, to the point $y$ within time $n$. (As soon as we develop the simplest probabilistic apparatus, this function will of course be an expectation, being defined as a sum of probabilities.) Then we prove, in P3, a result comparing $G_{n}(x,y)$ to the expected number of visits to the starting point of the random walk.

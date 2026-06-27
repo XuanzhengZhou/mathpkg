@@ -1,0 +1,23 @@
+id: lifting-simple-modules-for-p-solvable-groups
+title_en: "Lifting of Simple Modules for p-Solvable Groups"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [lifting, simple-module, p-solvable-group, modular-representation, discrete-valuation-ring, projective-module, fong-swan-theorem]
+depends_on:
+  required: []
+  recommended: [p-solvable-group-of-height-h, simple-kg-module, lifting-to-a-free-module, induction-from-normal-subgroup]
+  suggested: [cartan-homomorphism, brauer-lifting, absolutely-simple-module]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "17"
+    section: "17.6"
+    pages: ""
+    role_in_book: "The Fong–Swan theorem: for p-solvable groups, every simple modular representation lifts to characteristic zero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

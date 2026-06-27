@@ -1,0 +1,23 @@
+id: universal-existential-formula
+title_en: "Universal-Existential Formula"
+title_zh: "全称-存在公式"
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [universal-existential, quantifier-prefix, syntactic-form, preservation-theorem]
+depends_on:
+  required: [quantifier-free-formula]
+  recommended: [universal-sentence, existential-sentence]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "25"
+    section: "4"
+    pages: ""
+    role_in_book: "Definition 25.15: Universal-existential formula and its role in Chang-Łoś-Suszko theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

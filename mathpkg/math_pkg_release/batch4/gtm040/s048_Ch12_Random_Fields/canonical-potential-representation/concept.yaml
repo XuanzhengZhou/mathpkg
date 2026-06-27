@@ -1,0 +1,13 @@
+id: canonical-potential-representation
+title_en: "Canonical Potential Representation Theorem"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-fields
+difficulty: advanced
+tags: [canonical-potential, gibbs-field, representation-theorem, normalized-potential]
+depends_on: {required: [gibbs-field, mobius-inversion-for-characteristics], recommended: [random-field, markov-field], suggested: []}
+source_books: [{book_id: "gtm040", author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp", title: "Denumerable Markov Chains", chapter: "12", section: "2. Gibbs fields", pages: "", role_in_book: "Theorem 12-12: Every finite random field is a Gibbs field with a unique normalized canonical potential"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

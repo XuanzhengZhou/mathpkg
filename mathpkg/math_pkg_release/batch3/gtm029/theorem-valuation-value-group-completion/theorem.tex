@@ -1,0 +1,25 @@
+The completion $M'$ of $M$ in $K$ coincides with the integral closure of $M$ in $K$.
+
+Proof. Let $z \in K$ be integrally dependent on $M$. Using (4) we can write
+
+$$zn_i = \sum_{j=1}^{h} m_{ij} n_j, \quad i = 1, 2, \dots, h,$$
+
+where $N = \sum_{i=1}^{h} o n_i$ and $m_{ij} \in M$. Let $v$ be any valuation in $S$ (i.e., $v$ is non-negative on $o$) and let $m_{\alpha\beta}$ be one of the $h^2$ elements $m_{ij}$ for which $v(m_{\alpha\beta})$ is minimum. Dividing (5) by $m_{\alpha\beta}$ and observing that $m_{ij}/m_{\alpha\beta} \in R_v$ for all $i$ and $j$, we see that $z/m_{\alpha\beta}$ is integral over $R_v$, whence $z/m_{\alpha\beta} \in R_v, z \in R_v m_{\alpha\beta} \subset R_v M$. Since this holds for all $v$ in $S$ we deduce that $z \in M'$.
+
+Conversely, assume that $z \in M'$. Let $L$ denote the set of all quotients $m/z, m \in M$, and let us consider the ring $o[L]$. For any $v$ which is non-negative on $o[L]$ (and hence also on $o$) there exists an element $m$ of $M$ such that $v(z) \geq v(m)$ (since $z \in M'$). Hence there exists no valuation $v$ of $K$ which is non-negative on $o[L]$ and such that $\mathfrak{M}_v$ contains the ideal
+
+of $M$ as an $0$-module. If we take for $v_1$ the prime subring $k$ of $0$ and we treat $M$ as a $k$-module, then the valuation space $S$ which occurs in our Definition 1 of completion becomes the set of all valuations of $K$. We have therefore
+
+$$\bigcap_{v \in S} R_v M = \bigcap_{all v} R_v M.$$
+
+We give here a direct proof of this equality.
+
+We have to show if $x \in \bigcap_{v \in S} R_v M$ then $v(x) \geq v(M)$ for any valuation $v$ of $K$ (and we may assume here that $v \notin S$). Let $\Gamma$ be the value group of $v$, let $H$ be the set of all elements $\alpha$ of $\Gamma$ such that $\alpha = v(z)$ for some $z$ in $R_v 0$. Let $\Delta$ be the set of those elements $\alpha$ of $H$ which have the property that also $-\alpha$ is in $H$. We note that $H$ is closed under addition (in $\Gamma$) and that if $\alpha \in H$ and $\beta \geq \alpha$ then also $\beta \in H$. From this it follows easily that $\Delta$ is an isolated subgroup of $\Gamma$ (see VI, § 10; note that $\Delta$ is non-empty since $1 \in 0$ and since therefore $0 \in \Delta$). The isolated subgroup $\Delta$ determines a valuation $v_1$ of $K$ with which $v$ is composite and whose value group is $\Gamma/\Delta$ ($v_1$ is the trivial valuation if $\Delta = \Gamma$). Now, if $a$ is any element of $0$ then $v(a)$ is either in $\Delta$ or is a strictly positive element of $\Gamma$. Therefore $v_1(a) \geq 0$, i.e., we have $v_1 \in S$, and thus $x \in R_{v_1} M$. There exists then an element $m$ of $M$ such that $v_1(x) \geq v_1(m)$, or—e
+
+quotients $m_q/m'_q$, where $m_q, m'_q \in M^q$ and $q=0, 1, 2, \ldots$. Let $F'_0$ be the algebraic closure of $F_0$ in $K$, and let $\bar{R}''$ be the integral closure of $R'_0(t)$. Then, by the Corollary to Theorem 11 of VII, § 2, $\bar{R}''$ is a graded domain: $\bar{R}'' = \sum_{q=0}^{\infty} \bar{R}_q''$. From Theorem 1, and using criterion (3) of integral dependence over modules, we see at once (compare with the Remark at the end of VII, § 2) that
+
+$$M'' = \bar{R}_1''.$$
+
+Relation (8) expresses in a different form the content of Theorem 1. At this stage it will be convenient to introduce certain notations and terminology. Given the $\emptyset$-module $M$, the field $F_0$ introduced above shall be denoted by $\emptyset(M)$. The module $M$ shall be said to be homogeneous if the sum $R = \sum_{q=0}^{\infty} M^q$ is direct (so that $R$ is therefore a graded ring). It is immediately seen that if $M$ is a homogeneous module, then every element $m$ of $M$, $m \neq 0$, is transcendental over $\emptyset(M)$, and that if this last condition is satisfied by some element $m$ of $M$, $m \neq 0$, then $M$ is homogeneous.
+
+The above transition from $M$ to $M'$ is only necessary if $M$ is not homogeneous. If $M$ itself is homogeneous, then it is not necessary to introduce a new transcendental $t$, and we can deal directly with the graded ring $R$ (instead of with $R'$). Summarizing, we can now state the following result:

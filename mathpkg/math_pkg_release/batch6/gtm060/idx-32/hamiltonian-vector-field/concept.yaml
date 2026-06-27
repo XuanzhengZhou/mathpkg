@@ -1,0 +1,23 @@
+id: hamiltonian-vector-field
+title_en: "Hamiltonian Vector Field"
+title_zh: "哈密顿向量场"
+type: definition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [hamiltonian-mechanics, vector-field, symplectic-manifold, hamiltonian-function]
+depends_on:
+  required: [symplectic-isomorphism, differential-form, symplectic-manifold]
+  recommended: [hamiltonian-equations]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "8"
+    section: "38"
+    pages: "214-218"
+    role_in_book: "Defines the Hamiltonian vector field as the symplectic gradient of a Hamiltonian function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

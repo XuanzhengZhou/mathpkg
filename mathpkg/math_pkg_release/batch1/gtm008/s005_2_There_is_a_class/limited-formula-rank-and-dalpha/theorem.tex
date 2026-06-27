@@ -1,0 +1,7 @@
+A limited formula $\varphi$ is of rank $\leq \alpha$ iff every quantifier in $\varphi$ is of the form $\forall x^\beta$, for some $\beta \leq \alpha$, and every constant term occurring in $\varphi$ is an element of $T_\alpha$. We now define an operator $D_\alpha$ for closed limited formulas of rank $\leq \alpha$:
+\begin{enumerate}
+\item $D_\alpha(t_1 \in t_2) \xrightarrow{\Delta} D(t_1) \in D(t_2)$.
+\item $D_\alpha(K(t)) \xrightarrow{\Delta} D(t) \in K$.
+\item $D_\alpha(F(t)) \xrightarrow{\Delta} D(t) \in F$.
+\item $D_\alpha((\forall x^\alpha)\varphi(x^\alpha)) \xrightarrow{\Delta} (\forall x \in T_\alpha) D_\alpha(\varphi(x))$.
+\end{enumerate}

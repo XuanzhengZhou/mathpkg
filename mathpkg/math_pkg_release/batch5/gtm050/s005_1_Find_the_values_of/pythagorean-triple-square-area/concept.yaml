@@ -1,0 +1,23 @@
+id: pythagorean-triple-square-area
+title_en: "No Pythagorean Triple Has Square Area"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: diophantine-equations
+difficulty: advanced
+tags: [pythagorean-triple, square-area, fermat, diophantine]
+depends_on:
+  required: [right-triangle-area-not-square, pythagorean-triple-parametrization]
+  recommended: [relatively-prime-square-factors]
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem"
+    chapter: "1"
+    section: "1.6"
+    pages: ""
+    role_in_book: "Reformulation of Fermat's right triangle theorem in terms of Pythagorean triples"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

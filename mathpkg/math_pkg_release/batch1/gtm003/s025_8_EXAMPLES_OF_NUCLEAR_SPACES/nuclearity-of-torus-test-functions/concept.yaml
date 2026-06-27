@@ -1,0 +1,23 @@
+id: nuclearity-of-torus-test-functions
+title_en: "Nuclearity of Test Functions on the Torus"
+title_zh: "环面上检验函数的核性"
+type: proposition
+domain: analysis
+subdomain: nuclear-spaces
+difficulty: advanced
+tags: [nuclear-space, torus, test-functions, fourier-series, f-space]
+depends_on:
+  required: [nuclear-space, nuclear-f-space]
+  recommended: [topological-tensor-product, quasi-complete-locally-convex-space]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "8"
+    pages: ""
+    role_in_book: "Example 1; shows that D_T (C∞ functions on k-dimensional torus) is a nuclear (F)-space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

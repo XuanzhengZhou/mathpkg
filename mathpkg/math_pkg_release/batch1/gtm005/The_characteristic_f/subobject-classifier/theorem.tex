@@ -1,0 +1,9 @@
+Let $\mathcal{C}$ be a category with a terminal object $1$. A \textit{subobject classifier} for $\mathcal{C}$ is a monomorphism $\mathsf{true} : 1 \rightarrowtail \Omega$ such that for every monomorphism $m : S \rightarrowtail X$ in $\mathcal{C}$, there exists a unique morphism $\chi_m : X \to \Omega$ (called the \textit{classifying map} or \textit{characteristic morphism} of $m$) making the following square a pullback:
+$$
+\begin{array}{ccc}
+S & \longrightarrow & 1 \\[4pt]
+\downarrow\scriptstyle{m} & & \downarrow\scriptstyle{\mathsf{true}} \\[4pt]
+X & \xrightarrow{\;\chi_m\;} & \Omega.
+\end{array}
+$$
+In other words, every monomorphism in $\mathcal{C}$ is the pullback of $\mathsf{true} : 1 \rightarrowtail \Omega$ along a unique morphism $\chi_m : X \to \Omega$.

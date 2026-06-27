@@ -1,0 +1,23 @@
+id: rank-nullity
+title_en: "Rank-Nullity Theorem (Dimension Formula for Linear Transformations)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [rank-nullity, dimension, linear-transformation, kernel, image, finite-dimensional]
+depends_on:
+  required: [vector-space, basis-vector-space, dimension-theorem, linear-transformations]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "I"
+    section: "21"
+    pages: ""
+    role_in_book: "Theorem 23: Establishes the fundamental dimension formula [V:F] = [K:F] + [VT:F] for a linear transformation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

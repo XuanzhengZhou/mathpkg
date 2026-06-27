@@ -1,0 +1,23 @@
+id: varphi-derivation
+title_en: "$\varphi$-Derivation"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: derivations
+difficulty: intermediate
+tags: [derivation, homomorphism, varphi-derivation]
+depends_on:
+  required: [derivation-in-algebra, algebra-homomorphism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "5"
+    section: "§1. Basic properties"
+    pages: "167"
+    role_in_book: "generalizes derivation to a linear map twisted by a fixed homomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

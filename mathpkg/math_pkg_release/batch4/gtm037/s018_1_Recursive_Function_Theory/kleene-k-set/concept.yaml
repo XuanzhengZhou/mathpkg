@@ -1,0 +1,23 @@
+id: kleene-k-set
+title_en: "Kleene's K Set"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: recursion-theory
+difficulty: intermediate
+tags: ["recursively-enumerable", "kleene", "t-predicate", "diagonalization"]
+depends_on:
+  required: []
+  recommended: ["t1-predicate", "recursively-enumerable-definition"]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "Joseph R. Shoenfield"
+    title: "Mathematical Logic"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Canonical non-recursive r.e. set used for diagonalization arguments"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

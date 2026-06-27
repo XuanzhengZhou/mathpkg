@@ -1,0 +1,23 @@
+id: split-mono-in-m-split-epi-in-e
+title_en: "Split Mono in M and Split Epi in E"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [split-monomorphism, split-epimorphism, factorization-system, regular-category]
+depends_on:
+  required: []
+  recommended: [E-M-factorization, split-mono, split-epi]
+  suggested: [regular-category]
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "4"
+    section: "4.14"
+    pages: "246-249"
+    role_in_book: "Proposition 4.14 establishes that split monos lie in M and split epis lie in E"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

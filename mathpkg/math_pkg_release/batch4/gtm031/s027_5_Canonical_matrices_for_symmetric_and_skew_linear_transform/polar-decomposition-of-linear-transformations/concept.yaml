@@ -1,0 +1,23 @@
+id: polar-decomposition-of-linear-transformations
+title_en: "Polar Decomposition of Linear Transformations"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [polar-decomposition, semi-definite, orthogonal-transformation, euclidean-space, matrix-decomposition]
+depends_on:
+  required: []
+  recommended: [semi-definite-square-root, orthogonal-transformation, positive-definite-linear-transformation]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "VI"
+    section: "8"
+    pages: ""
+    role_in_book: "Theorem 12; polar decomposition A = PO with P semi-definite, O orthogonal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: decomposition-into-positive-negative-subspaces
+title_en: "Decomposition of E into Positive and Negative Definite Subspaces"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [bilinear-form, decomposition, positive-definite, negative-definite, orthogonal-complement, indefinite]
+depends_on:
+  required: [positive-definite-bilinear-function, negative-definite-bilinear-function, indefinite-bilinear-function]
+  recommended: [orthogonal-complement, direct-sum-decomposition]
+  suggested: [schwarz-inequality]
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "2. The decomposition of E"
+    pages: ""
+    role_in_book: "Main structure theorem: indefinite non-degenerate symmetric bilinear forms admit a splitting into positive and negative definite subspaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

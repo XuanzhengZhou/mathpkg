@@ -1,0 +1,23 @@
+id: dedekind-domain-group-characterization
+title_en: "Characterization of Dedekind Domains via the Group of Fractionary Ideals"
+title_zh: "用分式理想群刻画Dedekind环"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [dedekind-domain, fractionary-ideal, group, characterization]
+depends_on:
+  required: [dedekind-domain, fractionary-ideal, invertible-fractionary-ideal]
+  recommended: [invertible-integral-ideals-group, invertible-ideal-finite-basis]
+  suggested: [dedekind-domain-noetherian-characterization]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "6"
+    pages: "274"
+    role_in_book: "Theorem 12"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

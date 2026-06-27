@@ -1,0 +1,13 @@
+id: final-functor
+title_en: "Final Functor"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [final-functor, cofinal, colimit, comma-category, connected]
+depends_on: {required: [functor, comma-category, connected-category], recommended: [colimit], suggested: []}
+source_books: [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "IX", section: "Special Limits", pages: "", role_in_book: "Defines final functors as those that preserve colimits upon precomposition"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

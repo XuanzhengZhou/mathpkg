@@ -1,0 +1,23 @@
+id: baire-space-fails-omega-omega-wdl
+title_en: "Baire Space Regular Open Algebra Fails Omega-Omega Weak Distributive Law"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-algebras
+difficulty: advanced
+tags: [baire-space, regular-open-algebra, weak-distributive-law, counterexample, product-topology]
+depends_on:
+  required: [omega-omega-weak-distributive-law, regular-open-algebra]
+  recommended: [baire-space]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "J.L. Bell"
+    title: "Axiomatic Set Theory"
+    chapter: "20"
+    section: "20. Weak Distributive Laws"
+    pages: ""
+    role_in_book: "Theorem 20.7: counterexample showing that the regular open algebra of the Baire space does not satisfy the (omega,omega)-weak distributive law"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

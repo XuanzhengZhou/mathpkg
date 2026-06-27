@@ -1,0 +1,23 @@
+id: z-matrix-fundamental-properties
+title_en: "Fundamental Properties of the Z Matrix in Strong Ergodic Chains"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [z-matrix, strong-ergodic, duality, potential-theory, fundamental-matrix]
+depends_on:
+  required: [z-matrix-characterization-strong-ergodic, strong-ergodic-chain]
+  recommended: [ergodic-chain, stationary-distribution-matrix-a]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "5. Strong ergodic chains"
+    pages: ""
+    role_in_book: "Proposition 9-76: Five fundamental identities satisfied by Z"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

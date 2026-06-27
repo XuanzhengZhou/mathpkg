@@ -1,0 +1,23 @@
+id: left-multiplication-anti-homomorphism
+title_en: "Left Multiplication is an Anti-Homomorphism into the Endomorphism Ring"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [ring, left-multiplication, anti-homomorphism, endomorphism-ring]
+depends_on:
+  required: [left-multiplication-in-a-ring]
+  recommended: [anti-homomorphism, endomorphism-ring, ring-of-right-multiplications]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "14"
+    pages: ""
+    role_in_book: "Shows the map a → a_l is an anti-homomorphism into the endomorphism ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

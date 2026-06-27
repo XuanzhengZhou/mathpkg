@@ -1,0 +1,13 @@
+id: hitting-probability-right-uniform-convergence
+title_en: "Uniform Convergence of the Right Hitting Probability"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [hitting-probability, uniform-convergence, exit-distribution, limit-theorem]
+depends_on: {required: [green-function-uniform-bound, hitting-probability-sum-identity], recommended: [kronecker-lemma], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "22", pages: "", role_in_book: "Proves that R_N(x) converges to x/N uniformly for all one-dimensional random walks with mean zero and finite variance"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

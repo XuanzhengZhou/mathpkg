@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $\{x_n\}$ be a denumerable Markov process and let $N$ be a fixed positive integer. Define $y_n = x_{N-n}$ for $0 \leq n \leq N$ and $y_n = "stop"$ for $n > N$. Then the functions $y_n$ are the outcome functions for a denumerable Markov process with the same state space with "stop" adjoined.

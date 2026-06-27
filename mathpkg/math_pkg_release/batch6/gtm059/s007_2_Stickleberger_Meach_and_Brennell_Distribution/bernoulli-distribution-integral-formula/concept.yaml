@@ -1,0 +1,23 @@
+id: bernoulli-distribution-integral-formula
+title_en: "Integral formula for the Bernoulli distribution E_{1,c}^{(N)}"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: intermediate
+tags: ["bernoulli-distribution", "bernoulli-polynomials", "stickelberger-ideal"]
+depends_on:
+  required: ["integralized-bernoulli-distribution"]
+  recommended: ["bernoulli-polynomials"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "2"
+    section: "Stickelberger Ideals and Bernoulli Distributions"
+    pages: "48-53"
+    role_in_book: "Property E.1 — explicit formula for the integralized distribution when k=1"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: p-adically-closed-field
+title_en: "p-adically closed field"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [p-adic-field, valued-field, elementary-equivalence, Q_p, ax-kochen]
+depends_on: {required: [valued-field, p-adic-numbers], recommended: [hensels-lemma], suggested: [quantifier-elimination]}
+source_books: [{book_id: "gtm053", author: "Yuri I. Manin", title: "A Course in Mathematical Logic for Mathematicians", chapter: "4", section: "4.13", pages: "", role_in_book: "Defines p-adically closed fields as fields elementarily equivalent to Q_p in the language of valued fields"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

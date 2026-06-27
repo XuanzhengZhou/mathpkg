@@ -1,0 +1,23 @@
+id: tangent-space-at-point
+title_en: "Tangent Space at a Point"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: basic
+tags: [tangent-space, fiber, surface, inner-product, riemannian-metric]
+depends_on:
+  required: [tangent-bundle-of-surface, base-point-of-tangent-vector]
+  recommended: [vector-space, inner-product, riemannian-metric]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: ""
+    title: ""
+    chapter: "5"
+    section: "5.2"
+    pages: ""
+    role_in_book: "Defines the tangent space T_pM as the fiber of the tangent bundle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

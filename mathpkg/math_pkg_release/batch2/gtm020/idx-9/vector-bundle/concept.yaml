@@ -1,0 +1,23 @@
+id: vector-bundle
+title_en: "k-Dimensional Vector Bundle"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundle, fibre-bundle, local-triviality, real-vector-bundle, complex-vector-bundle, quaternionic-vector-bundle]
+depends_on:
+  required: [fibre-bundle]
+  recommended: [topological-space, vector-space, grassmann-manifold]
+  suggested: [tangent-bundle, product-bundle]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "3"
+    section: "1. Definition and Examples of Vector Bundles"
+    pages: "page_0040–page_0041"
+    role_in_book: "Foundational definition of vector bundles, establishing the core object of study for Chapter 3"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

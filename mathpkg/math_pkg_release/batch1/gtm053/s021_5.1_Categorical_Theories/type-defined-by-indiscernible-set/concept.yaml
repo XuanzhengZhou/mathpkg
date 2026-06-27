@@ -1,0 +1,23 @@
+id: type-defined-by-indiscernible-set
+title_en: "Type Defined by an Indiscernible Set"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [indiscernibles, types, stability-theory, saturated-models]
+depends_on:
+  required: [indiscernible-set, average-type, stable-theory]
+  recommended: [saturated-model, complete-type, elementary-submodel]
+  suggested: [nonforking-extension]
+source_books:
+  - book_id: "gtm053"
+    author: "Yuri Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "5"
+    section: "5.6"
+    pages: ""
+    role_in_book: "characterizes types via indiscernibles in stable theories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

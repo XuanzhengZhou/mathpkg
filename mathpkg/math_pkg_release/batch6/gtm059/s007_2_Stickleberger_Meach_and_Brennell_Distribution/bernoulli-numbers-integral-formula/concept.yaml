@@ -1,0 +1,23 @@
+id: bernoulli-numbers-integral-formula
+title_en: "Bernoulli numbers expressed as integrals of the Bernoulli distribution"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: ["bernoulli-numbers", "bernoulli-distribution", "p-adic-integration", "stickelberger-ideal"]
+depends_on:
+  required: ["p-adic-bernoulli-distribution-relation"]
+  recommended: ["bernoulli-numbers", "p-adic-measures"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "2"
+    section: "Stickelberger Ideals and Bernoulli Distributions"
+    pages: "48-53"
+    role_in_book: "Theorem 2.3 — expresses (1/k)B_k as an integral over Z_p* of the integralized distribution"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

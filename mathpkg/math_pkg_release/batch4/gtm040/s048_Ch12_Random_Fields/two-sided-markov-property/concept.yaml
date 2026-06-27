@@ -1,0 +1,13 @@
+id: two-sided-markov-property
+title_en: "Two-Sided Markov Property"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [two-sided-markov-property, markov-process, conditional-independence]
+depends_on: {required: [markov-chain, stochastic-process], recommended: [], suggested: []}
+source_books: [{book_id: "gtm040", author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp", title: "Denumerable Markov Chains", chapter: "12", section: "1. Markov fields", pages: "", role_in_book: "Motivates the Markov field definition by extending the Markov property to two-sided conditioning"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

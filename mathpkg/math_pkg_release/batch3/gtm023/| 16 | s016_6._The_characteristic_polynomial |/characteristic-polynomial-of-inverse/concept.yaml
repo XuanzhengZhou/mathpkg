@@ -1,0 +1,23 @@
+id: characteristic-polynomial-of-inverse
+title_en: "Characteristic Polynomial of the Inverse Mapping"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [characteristic-polynomial, inverse-mapping, regular-transformation]
+depends_on:
+  required: [characteristic-polynomial]
+  recommended: [inverse-linear-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§6. The characteristic polynomial"
+    pages: "4.21"
+    role_in_book: "Relates characteristic polynomials of a regular transformation and its inverse"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

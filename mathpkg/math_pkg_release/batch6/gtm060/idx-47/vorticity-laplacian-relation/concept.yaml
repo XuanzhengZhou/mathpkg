@@ -1,0 +1,23 @@
+id: vorticity-laplacian-relation
+title_en: "Vorticity-Laplacian Relation for 2D Flows"
+title_zh: "二维流涡度与拉普拉斯算子的关系"
+type: proposition
+domain: geometry
+subdomain: hydrodynamics
+difficulty: intermediate
+tags: [vorticity, laplacian, stream-function, 2d-hydrodynamics]
+depends_on:
+  required: [vorticity-2d, stream-function-2d]
+  recommended: [laplacian]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 2"
+    section: "Section 47"
+    pages: ""
+    role_in_book: "Expression of vorticity in terms of the Laplacian of the stream function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

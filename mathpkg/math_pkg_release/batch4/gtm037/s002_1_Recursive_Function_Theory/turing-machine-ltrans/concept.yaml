@@ -1,0 +1,23 @@
+id: turing-machine-ltrans
+title_en: "Turing Machine T_ltrans — Left Translation"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability
+difficulty: intermediate
+tags: ["turing-machine", "tape-translation"]
+depends_on:
+  required: []
+  recommended: ["turing-machine-left", "turing-machine-right", "turing-machine-t0", "turing-machine-t1"]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "Ebbinghaus, Flum, Thomas"
+    title: "Mathematical Logic"
+    chapter: "1"
+    section: "1.X (Turing Machines)"
+    pages: ""
+    role_in_book: "Defines a Turing submachine that translates a block of 1s leftward with appropriate zero padding."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

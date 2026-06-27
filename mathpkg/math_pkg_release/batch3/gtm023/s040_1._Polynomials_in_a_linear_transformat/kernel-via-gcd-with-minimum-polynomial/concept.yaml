@@ -1,0 +1,23 @@
+id: kernel-via-gcd-with-minimum-polynomial
+title_en: "Kernel determined by GCD with minimum polynomial"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [linear-transformation, kernel, minimum-polynomial, greatest-common-divisor]
+depends_on:
+  required: [kernel-intersection-equals-kernel-of-gcd, minimum-polynomial]
+  recommended: [kernel-of-polynomial-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "§1. Polynomials in a linear transformation"
+    pages: ""
+    role_in_book: "Corollary I to Proposition I: reduces arbitrary polynomial kernel to a divisor of the minimum polynomial"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: capacity-limit-and-strong-ergodicity
+title_en: "Capacity limit and strong ergodicity"
+title_zh: "容量极限与强遍历性"
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [capacity, strong-ergodicity, mean-first-passage-time, stationary-distribution]
+depends_on:
+  required: [capacity-of-set, strong-ergodicity, mean-first-passage-time]
+  recommended: [stationary-distribution]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Connects capacity limit to strong ergodicity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

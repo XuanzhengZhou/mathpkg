@@ -1,0 +1,23 @@
+id: criterion-for-distributive-law-via-zero-constant-sum
+title_en: "Criterion for the (I,J)-Distributive Law via Zero Element with Constant Sum"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: boolean-algebras
+difficulty: advanced
+tags: [boolean-algebras, distributive-law, criterion, zero-element, constant-sum]
+depends_on:
+  required: []
+  recommended: [distributive-law, complete-boolean-algebra, theorem-4-2]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti and Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "18"
+    section: "Model Theoretic Consequences of the Distributive Laws"
+    pages: ""
+    role_in_book: "Remark 3 — another equivalent criterion for DL: if all products along selection functions vanish and all row sums equal some constant b, then b must be zero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

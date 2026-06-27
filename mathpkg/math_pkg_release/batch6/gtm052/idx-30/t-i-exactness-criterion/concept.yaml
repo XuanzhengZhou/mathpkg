@@ -1,0 +1,23 @@
+id: t-i-exactness-criterion
+title_en: "Exactness Criterion for the T^i Functor"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [cohomology, exact-functor, projective-module, base-change, flatness]
+depends_on:
+  required: [t-i-cohomology-functor, t-i-natural-map, t-i-left-exactness-criterion]
+  recommended: [projective-module, locally-free-sheaf]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "12"
+    pages: ""
+    role_in_book: "Corollary 12.6 — T^i is exact iff T^i(A) is projective"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

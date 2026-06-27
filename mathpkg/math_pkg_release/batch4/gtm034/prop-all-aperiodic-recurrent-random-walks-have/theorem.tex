@@ -1,0 +1,53 @@
+All aperiodic recurrent random walks have the property that $a(x) > 0$ for every $x \neq 0$ with one single exception. This exception is left- or right-continuous random walk whose variance $\sigma^2$ is infinite.
+
+In the left-continuous case with $\sigma^2 = \infty$
+
+$$a(x) = 0 \text{ for } x \geq 0 \quad \text{and} \quad a(x) > 0 \text{ for } x < 0,$$
+
+and in the right-continuous case the situation is of course reversed.
+
+Proof: First we suppose the random walk to be recurrent and left continuous, with $\sigma^2 = \infty$. If $A = \{0,1\}$, then by P29.1 or P1
+
+$$H_A(x,0) = \mu_A(0) + [a(x-1) - a(x)]\Pi_A(0,1).$$
+
+Clearly $H_A(x,0) = 0$ for $x > 0$ (the random walk can move only one step to the left at one time). If we now sum over $x = 1, 2, \ldots, r$, we obtain
+
+$$r\mu_A(0) = a(r)\Pi_A(0,1), \quad r \geq 0.$$
+
+Dividing by $r$, and letting $r \rightarrow +\infty$, we get
+
+$$0 \leq \mu_A(0) = \Pi_A(0,1) \lim_{r \rightarrow +\infty
+
+To complete the proof of P2 it will now suffice to consider a recurrent aperiodic one-dimensional random walk with the property that $a(c) = 0$ for some $c > 0$, and to prove that this random walk must be left continuous with $\sigma^2 = \infty$. (Two-dimensional random walk need not be considered here since it has $a(x) > 0$ for all $x$ in $R$ according to P11.7.) This is done by choosing $A = \{0,c\}$. In
+
+$$H_A(x,0) = \mu_A(0) + [a(x-c) - a(x)]\Pi_A(0,c)$$
+
+we set $x = c$, so that $\mu_A(0) = 0$ because
+
+$$a(c) = 0 \quad \text{and} \quad H_A(c,0) = 0.$$
+
+But in that case
+
+$$H_A(2c,0) = -a(2c)\Pi_A(0,c) \leq 0,$$
+
+which is only possible if $a(2c) = 0$. Continuing this argument in the obvious manner one concludes that
+
+$$a(nc) = 0, \quad n = 1, 2, \dots.$$
+
+Hence
+
+$$\lim_{x \to +\infty} \frac{a(x)}{x} = 0$$
+
+which shows (by T29.1) that $\sigma^2 = \infty$.
+
+Now it remains only to show that the present random walk must be left continuous, in addition to having $\sigma^2 = \infty$. To do so observe that, using the identity for $g_{(0)}(x,y)$ in P29.4,
+
+$$g_{(0)}(c,-c) = a(c) + a(c) - a(2c) = 0.$$
+
+That can happen only if there is no finite "path" of positive probability from $c$ to $-c$, which does not pass through the origin. More precisely, it implies that every product of the form
+
+$$P(c,x_1)P(x_1,x_2) \cdots P(x_n,-c) = 0$$
+
+when $x_1 \neq 0$ for $i =
+
+is concerned, one might ask if it has other interesting properties. Indeed there is a peculiar property of the potential kernel which characterizes left- and right-continuous random walk with mean 0 and $\sigma^2 < \infty$. It will be useful in the proof of T31.1.

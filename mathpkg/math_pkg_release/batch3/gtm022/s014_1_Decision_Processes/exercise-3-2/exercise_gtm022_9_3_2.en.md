@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "9"
+section: "3"
+exercise_number: 2
+---
+
+$f: U \to \mathbb{N}^t$ is a partial recursive function with domain $U \subseteq \mathbb{N}^k$. Show that there is a Turing machine $M$ such that $\Psi_M^{(k, t)} = f$ and such that, for each $(n_1, \ldots, n_k) \in U$, the computation $d_0, d_1, \ldots, d_t$ by $M$ which begins with $d_0 = q_0 \operatorname{code}(n_1, \ldots, n_k)$ ends with $d_t = q \operatorname{code} f(n_1, \ldots, n_k)$ for some internal state $q$ of $M$.

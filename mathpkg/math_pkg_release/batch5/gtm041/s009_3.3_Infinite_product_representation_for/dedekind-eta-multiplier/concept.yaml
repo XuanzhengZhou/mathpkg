@@ -1,0 +1,23 @@
+id: dedekind-eta-multiplier
+title_en: "Dedekind Eta Multiplier"
+title_zh: "戴德金η乘子"
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [dedekind-eta, multiplier, root-of-unity, dedekind-sum]
+depends_on:
+  required: [dedekind-sum]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "3"
+    section: "3.4"
+    pages: ""
+    role_in_book: "Definition of ε(a,b,c,d), the 24th root of unity multiplier in Dedekind's functional equation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

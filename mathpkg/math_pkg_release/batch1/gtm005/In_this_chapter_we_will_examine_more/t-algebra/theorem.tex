@@ -1,0 +1,23 @@
+Let $T = \langle T, \eta, \mu \rangle$ be a monad in a category $X$. A \text{$T$-algebra} $\langle x, h \rangle$ is a pair consisting of an object $x \in X$ (the \text{underlying object}) and an arrow $h: Tx \to x$ of $X$ (the \text{structure map}) which makes both diagrams commute:
+$$
+\begin{array}{ccc}
+T^2 x & \xrightarrow{Th} & Tx \\
+{\scriptstyle \mu_x}\downarrow & & \downarrow{\scriptstyle h} \\
+Tx & \xrightarrow{h} & x
+\end{array}
+\qquad
+\begin{array}{ccc}
+x & \xrightarrow{\eta_x} & Tx \\
+& {\scriptstyle \mathrm{id}_x}}\searrow & \downarrow{\scriptstyle h} \\
+& & x
+\end{array}
+$$
+A \text{morphism} $f: \langle x, h \rangle \to \langle x', h' \rangle$ of $T$-algebras is an arrow $f: x \to x'$ of $X$ making the diagram commute:
+$$
+\begin{array}{ccc}
+Tx & \xrightarrow{Tf} & Tx' \\
+{\scriptstyle h}\downarrow & & \downarrow{\scriptstyle h'} \\
+x & \xrightarrow{f} & x'
+\end{array}
+$$
+The category of $T$-algebras is denoted $X^T$.

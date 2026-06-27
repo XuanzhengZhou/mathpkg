@@ -1,0 +1,23 @@
+id: completeness-of-closed-subsets-metrizable
+title_en: "Completeness of the Space of Closed Subsets for Complete Metrizable Spaces"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: uniform-spaces
+difficulty: intermediate
+tags: [hausdorff-uniformity, completeness, metrizable-space, closed-subsets]
+depends_on:
+  required: [space-of-nonvoid-closed-subsets, cauchy-net-in-hausdorff-uniformity]
+  recommended: [complete-uniform-space, hausdorff-metric]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "Kelley, Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "F"
+    section: "Hypercomplete Spaces"
+    pages: ""
+    role_in_book: "States that the space of non-void closed subsets is complete when the underlying space is complete and metrizable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

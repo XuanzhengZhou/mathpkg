@@ -1,0 +1,20 @@
+id: tvs-completion
+title_en: "Completion of a Hausdorff Topological Vector Space"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [tvs, completion, cauchy-filter, uniform-space]
+depends_on: {required: [tvs-cauchy-filter, tvs-hausdorff-characterization], recommended: [uniform-space], suggested: []}
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "I. Topological Vector Spaces"
+    section: "1.5"
+    pages: "page_0027–page_0031"
+    role_in_book: "Existence and uniqueness of TVS completion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

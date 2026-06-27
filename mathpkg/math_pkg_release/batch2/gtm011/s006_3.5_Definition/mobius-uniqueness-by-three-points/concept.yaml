@@ -1,0 +1,23 @@
+id: mobius-uniqueness-by-three-points
+title_en: "Uniqueness of Möbius Transformations by Action on Three Points"
+title_zh: "莫比乌斯变换由三点作用唯一确定"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [mobius-transformation, uniqueness, fixed-points, cross-ratio]
+depends_on:
+  required: [mobius-transformation, mobius-fixed-points]
+  recommended: [mobius-group, cross-ratio]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.5"
+    pages: "46-48"
+    role_in_book: "Key uniqueness result for Möbius transformations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

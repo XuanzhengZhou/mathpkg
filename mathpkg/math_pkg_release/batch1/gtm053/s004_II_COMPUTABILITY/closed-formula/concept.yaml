@@ -1,0 +1,23 @@
+id: closed-formula
+title_en: "Closed Formula (Sentence)"
+title_zh: "闭公式（语句）"
+type: definition
+domain: logic
+subdomain: formal-languages
+difficulty: basic
+tags: [closed-formula, sentence, free-variables, semantics]
+depends_on:
+  required: [free-and-bound-variable-occurrences]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "II"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines formulas with definite truth values"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,14 @@
+Let $\gamma$ be a smooth curve in the plane, and let $q_1, q_2$ be curvilinear coordinates on a neighborhood of $\gamma$ where $q_1$ is in the direction of $\gamma$ and $q_2$ is distance from the curve. Consider the system with potential energy
+$$U_N = N q_2^2 + U_0(q_1, q_2),$$
+depending on a parameter $N$, with initial conditions on $\gamma$:
+$$q_1(0) = q_1^0,\quad \dot{q}_1(0) = \dot{q}_1^0,\quad q_2(0) = 0,\quad \dot{q}_2(0) = 0.$$
+Denote by $q_1 = \varphi(t, N)$ the evolution of the coordinate $q_1$ under a motion with these initial conditions in the field $U_N$. Then the following limit exists as $N \to \infty$:
+$$\lim_{N \to \infty} \varphi(t, N) = \psi(t).$$
+The limit $q_1 = \psi(t)$ satisfies Lagrange's equation
+$$\frac{d}{dt} \left( \frac{\partial L_*}{\partial \dot{q}_1} \right) = \frac{\partial L_*}{\partial q_1},$$
+where $L_*(q_1, \dot{q}_1) = T|_{q_2 = \dot{q}_2 = 0} - U_0|_{q_2 = 0}$, and $T$ is the kinetic energy of motion along $\gamma$.
+
+The same result holds in the $3n$-dimensional configuration space of $n$ points with masses $m_i$ and metric $ds^2 = \sum_{i=1}^{n} m_i d\mathbf{r}_i^2$: if the potential energy has the form
+$$U = U_0(\mathbf{q}_1, \mathbf{q}_2) + N \mathbf{q}_2^2,$$
+then as $N \to \infty$, a motion on the submanifold $\gamma$ is defined by Lagrange's equations with the Lagrangian function
+$$L_* = T|_{\mathbf{q}_2 = \dot{\mathbf{q}}_2 = 0} - U_0|_{\mathbf{q}_2 = 0}.$$

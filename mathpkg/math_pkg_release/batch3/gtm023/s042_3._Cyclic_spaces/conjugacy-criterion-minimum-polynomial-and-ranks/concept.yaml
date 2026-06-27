@@ -1,0 +1,23 @@
+id: conjugacy-criterion-minimum-polynomial-and-ranks
+title_en: "Conjugacy Criterion: Same Minimum Polynomial and Rank Condition"
+title_zh: "共轭准则：相同最小多项式与秩条件"
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [conjugacy-criterion-by-ranks, same-minimum-polynomial-cyclic-implies-conjugate]
+  recommended: [rank, minimum-polynomial]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Two linear transformations are conjugate iff they have the same minimum polynomial and satisfy condition (ii)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: bundle-homomorphism-with-base-map
+title_en: "Homomorphism of Vector Bundles with Base Mapping"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundle, homomorphism, base-map, smooth-map, linear-map, jacobian]
+depends_on:
+  required: [family-of-vector-spaces]
+  recommended: [vector-bundle, smooth-map, linear-transformation]
+  suggested: [homomorphism-of-vector-bundles]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "I"
+    section: "5. Vector Bundles"
+    pages: "36-40"
+    role_in_book: "Definition 5.13 — defines homomorphisms between vector bundles over possibly different base spaces, with an accompanying base mapping"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

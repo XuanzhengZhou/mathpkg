@@ -1,0 +1,14 @@
+id: occurrence-relation-r0
+title_en: "Occurrence Relation R_0"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [occurrence-relation, Gödel-numbering, words, arithmetization]
+depends_on: {required: [godel-numbering-of-words], recommended: [cat-concatenation-function], suggested: []}
+source_books:
+  - {book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "4. Recursive Function Theory", section: "4.1", pages: "", role_in_book: "Defines the formal relation expressing that one word occurs as a subword of another, encoded via Gödel numbers"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

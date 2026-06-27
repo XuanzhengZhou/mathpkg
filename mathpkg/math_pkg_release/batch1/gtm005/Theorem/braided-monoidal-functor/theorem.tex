@@ -1,0 +1,11 @@
+Let $B$ and $B'$ be braided monoidal categories, with braidings $\gamma$ and $\gamma'$ respectively. A \textbf{braided monoidal functor} is a monoidal functor
+$$(F, F_2, F_0) : B \rightarrow B'$$
+which commutes with the braidings $\gamma$ and $\gamma'$ in the sense that the following diagram commutes:
+\[
+\begin{CD}
+F a \otimes F b @>{\gamma'}>> F b \otimes F a \\
+@VVV @VVV \\
+F(a \otimes b) @>{F(\gamma)}>> F(b \otimes a)
+\end{CD}
+\]
+where the vertical arrows are given by the monoidal structure maps $F_2$, and $\gamma$, $\gamma'$ are the braidings of $B$ and $B'$, respectively.

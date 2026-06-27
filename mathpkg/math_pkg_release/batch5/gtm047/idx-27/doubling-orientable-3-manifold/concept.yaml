@@ -1,0 +1,23 @@
+id: doubling-orientable-3-manifold
+title_en: "The doubling of an orientable triangulated 3-manifold with boundary is orientable"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [orientable, 3-manifold, boundary, doubling, triangulation]
+depends_on:
+  required: [gluing-3-manifolds-along-boundary, orientable-2-manifold]
+  recommended: [triangulated-3-manifolds-are-combinatorial]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: ""
+    section: "23"
+    pages: ""
+    role_in_book: "Ensures the doubling construction preserves orientability."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

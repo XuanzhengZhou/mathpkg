@@ -1,0 +1,23 @@
+id: direct-sum-functional-decomposition
+title_en: "Decomposition of Weak*-Continuous Functional over Finite Support"
+title_zh: "弱*连续泛函在有限支撑上的分解"
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [direct-sum, dual-space, weak-star-continuity, finite-support, decomposition]
+depends_on:
+  required: [direct-sum-functional-finite-support, direct-sum-topology]
+  recommended: [completeness-of-direct-sum]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "17"
+    section: "F"
+    pages: "178-179"
+    role_in_book: "Step (b) in the alternative proof of completeness of direct sum"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

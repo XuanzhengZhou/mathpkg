@@ -1,0 +1,23 @@
+id: braided-monoidal-functor
+title_en: "Braided Monoidal Functor"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [monoidal-category, braided-category, monoidal-functor, braiding]
+depends_on:
+  required: []
+  recommended: [monoidal-functor, braided-monoidal-category]
+  suggested: [symmetric-monoidal-category]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "3"
+    pages: "271-273"
+    role_in_book: "Defines compatibility condition between monoidal functors and braidings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

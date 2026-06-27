@@ -1,0 +1,23 @@
+id: lusin-second-category-subset
+title_en: "Lusin's Proposition on Second Category Sets"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: real-analysis
+difficulty: intermediate
+tags: [lusin, second-category, baire-category, continuum-hypothesis, descriptive-set-theory]
+depends_on:
+  required: [second-category]
+  recommended: [continuum-hypothesis, sierpinski-decomposition]
+  suggested: [lusin-set]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "20"
+    section: "20. Examples of Duality"
+    pages: "86-89"
+    role_in_book: "Proposition 20.1: Any linear set of second category contains a Lusin-type subset of power c"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

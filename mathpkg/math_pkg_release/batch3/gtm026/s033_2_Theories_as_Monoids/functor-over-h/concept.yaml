@@ -1,0 +1,23 @@
+id: functor-over-h
+title_en: "Functor over H"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [algebraic-theory, functor, forgetful-functor, semantics-functor, theory-map]
+depends_on:
+  required: [algebraic-theory, functor, forgetful-functor]
+  recommended: [category-of-algebras]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2. Theories as Monoids"
+    pages: ""
+    role_in_book: "Definition introduced in Exercise 10; generalizes the identity-on-base case to arbitrary base-change functors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

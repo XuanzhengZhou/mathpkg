@@ -1,0 +1,14 @@
+\text{Logical Axioms:}
+\begin{enumerate}
+\item \varphi \rightarrow [\psi \rightarrow \varphi]
+\item [\varphi \rightarrow [\psi \rightarrow \eta]] \rightarrow [[\varphi \rightarrow \psi] \rightarrow [\varphi \rightarrow \eta]]
+\item [\neg \varphi \rightarrow \neg \psi] \rightarrow [\psi \rightarrow \varphi]
+\item (\forall x)[\varphi \rightarrow \psi(x)] \rightarrow [\varphi \rightarrow (\forall x)\psi(x)] \quad \text{where the free variable on which we are quantifying does not occur in $\varphi$}
+\item (\forall x)\varphi(x) \rightarrow \varphi(a)
+\end{enumerate}
+
+\text{Rules of Inference:}
+\begin{enumerate}
+\item \text{From $\varphi$ and $\varphi \rightarrow \psi$ to infer $\psi$ (Modus Ponens).}
+\item \text{From $\varphi$ to infer $(\forall x)\varphi(x)$ (Generalization).}
+\end{enumerate}

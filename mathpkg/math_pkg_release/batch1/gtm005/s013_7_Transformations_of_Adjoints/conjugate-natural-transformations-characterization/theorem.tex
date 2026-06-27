@@ -1,0 +1,14 @@
+Given two adjunctions
+$$\langle F, G, \eta, \varepsilon \rangle, \langle F', G', \eta', \varepsilon' \rangle : X \rightharpoonup A$$
+natural transformations $\sigma : F \xrightarrow{\cdot} F'$ and $\tau : G' \xrightarrow{\cdot} G$ are conjugate if and only if any one of the four following diagrams (of natural transformations) commutes:
+$$\begin{array}{ccc}
+G' \xrightarrow{\tau} G &\quad& G' \xrightarrow{\tau} G \\
+\eta' G' \downarrow \quad \downarrow G\sigma G' &\quad& \eta G' \uparrow \quad \uparrow G'\sigma G' \\
+G'F'G' \xrightarrow{G'\tau F'} G'FG' &\quad& GF'G' \xrightarrow{G\sigma G'} GG'F'
+\end{array}$$
+$$\begin{array}{ccc}
+FG' \xrightarrow{F\tau} FG &\quad& FG' \xrightarrow{F\tau} FG \\
+\sigma G' \downarrow \quad \downarrow \varepsilon &\quad& \sigma G' \downarrow \quad \downarrow \varepsilon' \\
+F'G' \xrightarrow{\varepsilon'} I_A &\quad& F'G \xrightarrow{F'\tau} F'G'
+\end{array}$$
+Moreover, given the adjunctions and $\sigma : F \xrightarrow{\cdot} F'$, there is a unique $\tau : G' \xrightarrow{\cdot} G$ such that $\langle \sigma, \tau \rangle$ is conjugate. Dually, given $\tau$, there is a unique $\sigma$ with $\langle \sigma, \tau \rangle$ conjugate.

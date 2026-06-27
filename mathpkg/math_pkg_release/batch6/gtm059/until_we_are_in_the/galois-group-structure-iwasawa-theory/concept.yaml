@@ -1,0 +1,23 @@
+id: galois-group-structure-iwasawa-theory
+title_en: "Structure of the Galois Group in Iwasawa Theory"
+title_zh: "岩泽理论中伽罗瓦群的结构"
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [iwasawa-theory, galois-group, semidirect-product, zp-extension, ideal-class-group]
+depends_on:
+  required: [zp-extension, p-primary-class-group-projective-limit, iwasawa-condition-iw]
+  recommended: [galois-cohomology, class-field-theory, hilbert-class-field]
+  suggested: [semidirect-product, pro-p-group]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "Iwasawa Theory and Ideal Class Groups"
+    pages: ""
+    role_in_book: "Describes the Galois group of the maximal unramified abelian p-extension in a Z_p-extension as a semidirect product."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

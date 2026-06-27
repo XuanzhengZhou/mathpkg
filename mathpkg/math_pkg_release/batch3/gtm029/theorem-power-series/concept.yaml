@@ -1,0 +1,24 @@
+id: theorem-power-series
+title_en: 'Theorem: If $f$ and $g$ are power series in $A[[X_1, X_2, \cdots, X_n]]$,
+  then (3) $o(f + g) \geq \min\{o(f), o(g)\}$, (4) $o(fg) \geq o(f) + o(g)$'
+title_zh: ''
+type: theorem
+domain: algebra
+subdomain: polynomial-rings
+difficulty: intermediate
+tags: []
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm029
+  author: Oscar Zariski, Pierre Samuel
+  title: Commutative Algebra Volume II
+  chapter: VII
+  section: 1-2
+  pages: ''
+  role_in_book: ''
+content_hash: b1d8909124294c76
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

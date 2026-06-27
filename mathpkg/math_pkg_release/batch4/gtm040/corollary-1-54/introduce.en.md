@@ -1,0 +1,14 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $\pi \geq 0$ be a row vector and suppose $\{f^{(k)}\}$ is a sequence of non-negative column vectors such that
+
+$$f = \sum_{k=1}^{\infty} f^{(k)}$$
+
+Then
+
+$$\pi f = \sum_{k=1}^{\infty} \pi f^{(k)}$$

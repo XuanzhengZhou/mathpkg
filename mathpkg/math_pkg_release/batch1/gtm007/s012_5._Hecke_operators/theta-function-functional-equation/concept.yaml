@@ -1,0 +1,23 @@
+id: "theta-function-functional-equation"
+title_en: "Functional Equation of the Theta Function"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: theta-functions
+difficulty: advanced
+tags: []
+depends_on:
+  required: []
+  recommended: [poisson-formula-lattices, theta-function-definition]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "6.2"
+    pages: ""
+    role_in_book: "Proposition 16: Θ_Γ(t) = t^{-n/2} v^{-1} Θ_{Γ'}(t^{-1})"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

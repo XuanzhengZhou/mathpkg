@@ -1,0 +1,25 @@
+id: hilbert-basis-theorem
+title_en: "Hilbert Basis Theorem"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [noetherian, polynomial-ring, hilbert, basis-theorem]
+depends_on:
+  required:
+    - noetherian-ring
+  recommended:
+    - li-ideals-lemma
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "IV"
+    section: "1"
+    pages: ""
+    role_in_book: "Theorem 1 of Chapter IV; central result of the section"
+content_hash: "de6547e8b6efa11689fbf4e5701ea097"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

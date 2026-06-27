@@ -1,0 +1,23 @@
+id: polarization-identity-complex-hilbert
+title_en: "Polarization Identity for Complex Hilbert Spaces"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: hilbert-space
+difficulty: intermediate
+tags: [polarization-identity, hilbert-space, hermitian-form, inner-product, norm]
+depends_on:
+  required: [hilbert-space, norm-from-inner-product]
+  recommended: [hermitian-form]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K.W. Gruenberg, A.J. Weir"
+    title: "Linear Geometry"
+    chapter: "13"
+    section: "13.1"
+    pages: ""
+    role_in_book: "Exercise 2: Relates the hermitian form to the norm in a complex Hilbert space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

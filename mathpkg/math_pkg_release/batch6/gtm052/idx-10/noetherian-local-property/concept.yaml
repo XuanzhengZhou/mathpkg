@@ -1,0 +1,23 @@
+id: noetherian-local-property
+title_en: "Local Nature of the Noetherian Property"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [scheme, noetherian, local-property, affine-scheme]
+depends_on:
+  required: [locally-noetherian-scheme, noetherian-scheme]
+  recommended: [noetherian-ring, localization]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "3"
+    pages: "80-81"
+    role_in_book: "Proposition 3.2: Establishes that the noetherian property is local"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: lang-property
+title_en: "Lang Property"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [diophantine-geometry, model-theory, algebraic-groups, mordell-lang, geometric-stability]
+depends_on:
+  required: []
+  recommended: [algebraic-variety, algebraic-group, algebraic-subgroup, coset]
+  suggested: [strongly-minimal-set, one-basedness, mordell-lang-conjecture]
+source_books:
+  - book_id: "gtm053"
+    author: "Yuri I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "6"
+    section: "6.7"
+    pages: ""
+    role_in_book: "Introduces the Lang property as a model-theoretic geometric concept with applications to Diophantine geometry"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

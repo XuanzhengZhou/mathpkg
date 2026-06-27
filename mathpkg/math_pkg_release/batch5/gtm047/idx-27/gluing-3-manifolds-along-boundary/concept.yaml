@@ -1,0 +1,23 @@
+id: gluing-3-manifolds-along-boundary
+title_en: "Gluing two 3-manifolds along their boundaries yields a 3-manifold"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [3-manifold, boundary, gluing, identification-space, cartesian-neighborhood]
+depends_on:
+  required: [triangulated-n-manifold, boundary-of-3-manifold-is-2-manifold]
+  recommended: [2-cell-neighborhood-in-boundary-of-3-manifold]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: ""
+    section: "23"
+    pages: ""
+    role_in_book: "Establishes the 'doubling' construction for 3-manifolds with boundary."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

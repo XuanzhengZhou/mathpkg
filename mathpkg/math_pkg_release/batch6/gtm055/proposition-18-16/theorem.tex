@@ -1,0 +1,34 @@
+(Runge’s Theorem). Let $U$ be an open subset of $\mathbb{C}$ and let $P$ be a subset of $\hat{\mathbb{C}} \setminus U$ with the property that $P$ contains at least one point of each connected component of $\hat{\mathbb{C}} \setminus U$. Then for any locally analytic function $f$ on $U$ there exists a sequence $\{r_n\}$ of rational functions, each with poles confined to $P$, such that $\{r_n\}$ converges to uniformly on compact subsets of $U$.
+
+Proof. If $U = \mathbb{C}$ then $P = \{\infty\}$, $f$ is entire, and the partial sums of any power series expansion of $f$ may be used. Otherwise, for each positive integer $n$ let $D_n^-$ denote the closed disc $\{\lambda \in \mathbb{C}: |\lambda| \leq n\}$, and set
+
+$$K_n = \left\{ \lambda \in D_n^- : d(\lambda, \mathbb{C} \setminus U) \geq \frac{1}{n} \right\}.$$
+
+Then $\{K_n\}$ is an increasing sequence of compact subsets of $U$ with the properties that $K_n \subset K_{n+1}^+$, $n \in \mathbb{N}$, and $U = \bigcup_{n=1}^{\infty} K_n$. Hence for any compact subset $K$ of $U$ there exists a positive integer $n$
+
+subsets of $\Delta$. (This special case of Proposition 18.16 is also sometimes referred to as Runge’s theorem.)
+
+Precise (but quite complicated) necessary and sufficient conditions on the compact set $K$ in order that $\mathcal{R}(K)$ coincide with $\mathcal{A}(K)$ are known. The relevant theorems are due to Vituškin [64]. A nice account of them may be found in [27]. (Sample result: If $K$ is a compact set in $\mathbb{C}$ and if every point of $K$ has a neighborhood that meets only a finite number of components of $\mathbb{C} \setminus K$, then $\mathcal{R}(K) = \mathcal{A}(K)$.) On the other hand, a simple necessary and sufficient condition that $\mathcal{P}(K)$ coincide with $\mathcal{A}(K)$ may be stated at once: If $K$ is a compact set in $\mathbb{C}$, then $\mathcal{P}(K) = \mathcal{A}(K)$ if and only if $K$ does not separate the plane, that is, if and only if there are no holes in $K$. This is Mergelyan’s theorem [48]. More readable accounts may be found in [27] or [57].
+
+PROBLEMS
+
+A. Let $\xi$ and $\zeta$ be regular complex Borel measures on a locally compact Hausdorff space $X$. Verify that
+
+$$||\xi|(E) - |\zeta|(E)| \leq \|\xi - \zeta\|$$
+
+for every Borel set $E$ in $X$.
+
+B. Show that if $[a, b]$ is a closed interval of real numbers, then $\mathcal{C}([a, b])^*$ may not only be identified with the subspace $\mathcal{R}$ of $\mathcal{V}([a, b])$ consisting of those functions that are right-continuous on $(a, b)$ and vanish at $a$, as in Example $A$, but may also be identified with a subspace of $\mathcal{V}([a, b])$ consisting of left-continuous functions.
+
+C. Show that if, for an arbitrary function $\alpha$ of bounded variation on an interval $[a, b]$,
+
+G. Let $X$ and $Y$ be compact Hausdorff spaces, and let $F: X \rightarrow Y$ be a continuous mapping. If we write $\Phi_F(f) = f \circ F$ for every $f$ in $\mathcal{C}(Y)$, then $\Phi_F$ maps $\mathcal{C}(Y)$ into $\mathcal{C}(X)$. Show that $\Phi_F$ is a contraction. Show also that if $F$ is onto, then $\Phi_F$ is an isometry, and that if $f$ is one-to-one, then $\Phi_F$ is onto. Consequently, if $F$ is a homeomorphism between $X$ and $Y$, then $\Phi_F$ is a unital Banach algebra isomorphism between $\mathcal{C}(Y)$ and $\mathcal{C}(X)$. (Hint: Use the Tietze extension theorem; see Example 11G.)
+
+H. Show that, for any Banach space $\mathcal{E}$ whatever, there exists a compact Hausdorff space $X = X_\mathcal{E}$ and an isometric isomorphism of $\mathcal{E}$ onto a subspace of $\mathcal{C}(X)$. Show also that $X$ can be taken to be metrizable if and only if $\mathcal{E}$ is separable. (Hint: For each $x$ in $\mathcal{E}$ consider $j(x)|(\mathcal{E}^*)_1$.)
+
+The results of the preceding problem are frequently expressed by saying that $\mathcal{C}(X)$ is “universal” for Banach spaces—meaning that every Banach space may be viewed as a subspace of some $\mathcal{C}(X)$—and that $\mathcal{C}(X)$, with $X$ a compact metric space, is universal for separable Banach spaces. It is interesting to pursue these ideas a bit further. According to a standard theorem in topology (see Problem 4T), if $X$ is any compact metric space, then there exists a continuous mapping of the Cantor set $C$ onto $X$. Hence, according to Problem G, $\mathcal{C}(X)$ is isomorphic as a Banach space to some subspace of $\mathcal{C}(C)$, so $\mathcal{C}(C)$ all by
+
+where $\xi$ is a complex Borel measure on $[a, b]$, $t_0$ denotes a fixed point of $[a, b]$, and $\alpha$ is a complex number. Show also that this representation is unique in the sense that, once $t_0$ has been chosen, the measure $\xi$ and the coefficient $\alpha$ are completely determined by $\varphi$. Likewise, find the most general bounded linear functional on the space $C^{(k)}$ of $k$ times continuously differentiable functions. (Hint: If $D: C^{(1)} \rightarrow C^{(0)}$ is defined by $Df = f'$, and $V: C^{(0)} \rightarrow C^{(1)}$ is the transformation given by
+
+$$(
+...

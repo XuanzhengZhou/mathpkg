@@ -1,0 +1,23 @@
+id: directional-derivative-existence
+title_en: "Existence of Directional Derivatives for Convex Functions"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: convex-analysis
+difficulty: intermediate
+tags: ["directional-derivative", "sublinear", "convex"]
+depends_on:
+  required: ["directional-derivative-monotone"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§6"
+  section: "6.E"
+  pages: "28-29"
+  role_in_book: "directional derivative exists and is sublinear"
+content_hash: "e73261c080ba6e29"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

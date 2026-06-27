@@ -1,0 +1,23 @@
+id: set-t-regular-category
+title_en: "Regular Category of T-Algebras in Set"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [regular-category, algebraic-theory, Set, T-algebra, factorization-system]
+depends_on:
+  required: [regular-category-algebraic-theory-preserving-e]
+  recommended: [algebraic-theory-in-Set]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "4"
+    section: "4.18"
+    pages: "246-249"
+    role_in_book: "Corollary 4.18 establishes that Set^T is a regular category for any algebraic theory T in Set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

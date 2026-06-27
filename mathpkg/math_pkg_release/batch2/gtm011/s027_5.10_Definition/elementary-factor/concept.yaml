@@ -1,0 +1,23 @@
+id: elementary-factor
+title_en: "Elementary Factor $E_p(z)$"
+title_zh: "初等因子 $E_p(z)$"
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [infinite-product, weierstrass, zeros, entire-function]
+depends_on:
+  required: []
+  recommended: [exponential-function, complex-plane]
+  suggested: [infinite-product-convergence]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "5"
+    section: "5.10"
+    pages: ""
+    role_in_book: "Introduces the elementary factors used in Weierstrass product construction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

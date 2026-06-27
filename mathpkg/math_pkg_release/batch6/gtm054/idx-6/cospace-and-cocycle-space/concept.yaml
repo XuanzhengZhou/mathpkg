@@ -1,0 +1,23 @@
+id: cospace-and-cocycle-space
+title_en: "Cospace and Cocycle Space of a Set System"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [cospace, cocycle-space, cycle-space, orthogonal-complement, set-system]
+depends_on:
+  required: [cycle-space, bond-space]
+  recommended: [orthogonal-complement]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Graver, Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "II Algebraic Structures on Finite Sets"
+    section: "IID Cycle and Cocycle Spaces"
+    pages: "63"
+    role_in_book: "Defines the cospace and cocycle space as orthogonal complements"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

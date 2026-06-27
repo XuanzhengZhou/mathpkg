@@ -1,0 +1,23 @@
+id: exercise-srs-2manifold-dim
+title_en: "Dimension of $S_1$ and $S_{1,1}$ for 2-Generic Maps between 2-Manifolds"
+title_zh: ""
+type: exercise
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [thom-boardman, dimension-formula, 2-manifolds, 2-generic]
+depends_on:
+  required: [s-rs-singularity-set, 2-generic-mapping]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky and V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VI"
+    section: "4. The $S_{r,s}$ Singularities"
+    pages: "166"
+    role_in_book: "Exercise"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

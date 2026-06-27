@@ -1,0 +1,13 @@
+id: "weakly-modular-characterization"
+title_en: "Characterization of Weakly Modular Functions"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [modular-forms, weakly-modular, S-T-invariance]
+depends_on: {required:[generators-of-modular-group, weakly-modular-function], recommended:[modular-group], suggested:[]}
+source_books: [{book_id:"gtm007",author:"Jean-Pierre Serre",title:"A Course in Arithmetic",chapter:"VII",section:"2. Modular functions",pages:"",role_in_book:"Proposition 1: A meromorphic function f on H is weakly modular of weight 2k iff it satisfies f(z+1)=f(z) and f(-1/z)=z^{2k}f(z)"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

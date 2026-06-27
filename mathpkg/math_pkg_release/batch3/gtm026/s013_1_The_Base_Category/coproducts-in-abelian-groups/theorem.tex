@@ -1,0 +1,7 @@
+The category $\mathbf{Ab}$ of abelian groups has coproducts. For a family $(A_i)_{i \in I}$ of abelian groups,
+$$\coprod_{i \in I} A_i = \bigoplus_{i \in I} A_i,$$
+called the \textbf{direct sum}, which is the subgroup of the direct product $\prod_{i \in I} A_i$ consisting of all $I$-tuples $(a_i)_{i \in I}$ such that $a_i = 0$ for all but at most finitely many $i \in I$.
+
+The $i$th injection $\text{in}_i: A_i \to \bigoplus_j A_j$ sends $a \in A_i$ to the $I$-tuple $(\delta^i_j a : j \in I)$, where $\delta^i_j$ is the Kronecker delta ($\delta^i_i = 1$, $\delta^i_j = 0$ for $j \neq i$).
+
+For the universal property: given homomorphisms $f_i: A_i \to B$, define $f: \bigoplus A_i \to B$ by $f((a_i)) = \sum_{i \in I} f_i(a_i)$, where the sum is pointwise finite (only finitely many $a_i$ are nonzero).

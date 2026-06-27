@@ -1,0 +1,23 @@
+id: parabolic-subalgebra
+title_en: "Parabolic Subalgebra"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [parabolic-subalgebra, borel-subalgebra, standard-parabolic, root-system]
+depends_on:
+  required: [borel-subalgebra, cartan-subalgebra, root-system]
+  recommended: [base-of-root-system]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "16"
+    section: "16.5"
+    pages: "91-101"
+    role_in_book: "Defines parabolic subalgebras as those containing a Borel subalgebra; introduces standard parabolic subalgebras P(Δ')"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

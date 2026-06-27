@@ -1,0 +1,23 @@
+id: polynomial-ring-over-ufd-is-ufd
+title_en: "Polynomial Ring over a UFD is a UFD"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [polynomial-ring, ufd, gauss-lemma, unique-factorization]
+depends_on:
+  required: [unique-factorization-domain, polynomial-ring, gauss-lemma]
+  recommended: [primitive-polynomial, content-of-polynomial]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "I"
+    section: "17"
+    pages: ""
+    role_in_book: "Theorem 10: preservation of UFD property under polynomial extension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: quasivariety
+title_en: "Quasivariety in a Regular Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [quasivariety, regular-category, reflective-subcategory, E-morphism, full-replete-subcategory]
+depends_on:
+  required: [regular-category]
+  recommended: [reflective-subcategory, full-subcategory, replete-subcategory]
+  suggested: [variety, birkhoff-variety-theorem]
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "4"
+    section: "4.20"
+    pages: "246-249"
+    role_in_book: "Definition 4.20 introduces quasivarieties in regular categories as reflective subcategories with E-reflections"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

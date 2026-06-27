@@ -1,0 +1,23 @@
+id: first-category-set
+title_en: "First Category Set"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: baire-category
+difficulty: basic
+tags: [first-category, meager, exhaustible, nowhere-dense, countable-union, baire-category]
+depends_on:
+  required: [nowhere-dense-set]
+  recommended: [countable-set, topological-space]
+  suggested: [baire-category-theorem]
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "3"
+    section: "9"
+    pages: ""
+    role_in_book: "Foundational definition for Baire category theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: open-submanifold
+title_en: "Open submanifold"
+title_zh: "开子流形"
+type: definition
+domain: geometry
+subdomain: differentiable-manifolds
+difficulty: advanced
+tags: [submanifold, open-subset, manifold]
+depends_on:
+  required: [manifold]
+  recommended: [chart, cr-atlas]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "18. Differentiable Manifolds"
+    section: "1"
+    pages: ""
+    role_in_book: "Example 1.4: natural manifold structure on open subsets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

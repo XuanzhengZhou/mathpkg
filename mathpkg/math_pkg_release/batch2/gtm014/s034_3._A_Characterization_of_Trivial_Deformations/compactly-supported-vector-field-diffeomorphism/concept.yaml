@@ -1,0 +1,23 @@
+id: compactly-supported-vector-field-diffeomorphism
+title_en: "Lemma 3.4"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [compactly-supported-vector-field, diffeomorphism, deformation, one-parameter-group]
+depends_on:
+  required: [compactly-supported-vector-field, one-parameter-group]
+  recommended: [global-flow-existence]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky, M. and Guillemin, V."
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "3. A Characterization of Trivial Deformations"
+    pages: ""
+    role_in_book: "Technical lemma used in the sufficiency proof of the Thom-Levine theorem (Theorem 3.3). Constructs a diffeomorphism on X×R^k whose pushforward of ∂/∂t_k picks up a given compactly supported vector field."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

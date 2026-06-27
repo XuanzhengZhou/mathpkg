@@ -1,0 +1,23 @@
+id: dual-basis
+title_en: "Dual Basis"
+title_zh: "对偶基"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [dual-basis, linear-functional, basis, coordinate]
+depends_on:
+  required: [dual-vector-space]
+  recommended: [left-vector-space]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "4. Vector Spaces"
+    pages: ""
+    role_in_book: "The basis of the dual space canonically associated to a basis of V"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

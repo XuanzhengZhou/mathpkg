@@ -1,0 +1,23 @@
+id: uniqueness-of-complement-in-boolean-algebra
+title_en: "Uniqueness and Properties of Complements in a Boolean Algebra"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: lattice-theory
+difficulty: basic
+tags: [boolean-algebra, complement, de-morgan, involution]
+depends_on:
+  required: [boolean-algebra, complemented-lattice, distributive-lattice]
+  recommended: [complement-of-element-in-lattice]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "VII"
+    section: "7. Complemented modular lattices"
+    pages: "207-208"
+    role_in_book: "Theorem 11: fundamental properties of complement in Boolean algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

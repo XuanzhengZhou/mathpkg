@@ -1,0 +1,23 @@
+id: independent-trials-process
+title_en: "Independent Trials Process"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: basic
+tags: [markov-chain, independent-trials, transition-matrix, idempotent]
+depends_on:
+  required: []
+  recommended: [markov-chain, transition-probability, stochastic-matrix]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "Kemeny, Snell, Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "7"
+    section: "7. Further examples"
+    pages: ""
+    role_in_book: "Example illustrating a special type of denumerable Markov chain"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

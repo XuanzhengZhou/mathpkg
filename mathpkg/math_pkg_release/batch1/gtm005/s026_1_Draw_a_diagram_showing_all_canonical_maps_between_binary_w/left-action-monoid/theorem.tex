@@ -1,0 +1,17 @@
+A left action of a monoid $\langle c, \mu, \eta \rangle$ on an object $a \in B$ (in a fixed monoidal category $B$) is an arrow $\nu : c \square a \rightarrow a$ of $B$ such that the diagram
+
+$$\begin{array}{ccc}
+c \square (c \square a) & \xrightarrow{\alpha} & (c \square c) \square a \\
+\downarrow {\scriptstyle 1 \square \nu} & & \downarrow {\scriptstyle \mu \square 1} \\
+c \square a & \xrightarrow{\nu} & a
+\end{array}$$
+
+and
+
+$$\begin{array}{ccc}
+e \square a & \xrightarrow{\eta \square 1} & c \square a \\
+\searrow {\scriptstyle \lambda} & & \downarrow {\scriptstyle \nu} \\
+& a &
+\end{array}$$
+
+commute. For example, $c$ acts on itself by the map $\mu : c \square c \rightarrow c$; this is the "left regular representation" of $c$.

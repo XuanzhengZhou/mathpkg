@@ -1,0 +1,23 @@
+id: generating-function-yields-lagrangian-manifold
+title_en: "Graph of Phase Gradient is a Lagrangian Manifold"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [lagrangian-manifold, generating-function, phase-space, symplectic-structure]
+depends_on:
+  required: [lagrangian-manifold, phase-space, symplectic-form]
+  recommended: [canonical-symplectic-form, cotangent-bundle]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 11"
+    section: "Short Wave Asymptotics"
+    pages: "pp. 446-452"
+    role_in_book: "Relates generating functions to Lagrangian submanifolds in the context of short-wave asymptotics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

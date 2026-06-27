@@ -1,0 +1,23 @@
+id: thom-boardman-stratification
+title_en: "Thom-Boardman Stratification"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [thom-boardman, stratification, boardman-map, singularity, immersion, submersion, jet-space]
+depends_on:
+  required: []
+  recommended: [boardman-map, higher-order-boardman-symbols, boardman-fiber-subbundle-theorem, normal-crossing-condition]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VI"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines the stratification of the domain of a Boardman map by singularity type, the central object of the Thom-Boardman theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

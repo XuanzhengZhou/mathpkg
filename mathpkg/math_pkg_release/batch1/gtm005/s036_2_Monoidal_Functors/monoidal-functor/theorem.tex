@@ -1,0 +1,34 @@
+A \text{monoidal functor} $(F, F_2, F_0) : M \to M'$ between monoidal categories $M$ and $M'$ consists of:
+
+\begin{enumerate}
+\item[(i)] An ordinary functor $F : M \to M'$ between categories;
+\item[(ii)] For objects $a, b$ in $M$, morphisms
+  $$F_2(a, b) : F(a) \square F(b) \to F(a \square b)$$
+  in $M'$ which are natural in $a$ and $b$;
+\item[(iii)] For the units $e$ and $e'$, a morphism in $M'$
+  $$F_0 : e' \to F e.$$
+\end{enumerate}
+
+Together, these must make the following three diagrams commute in $M'$:
+
+\begin{center}
+\begin{tikzcd}
+F(a) \square (F(b) \square F(c)) \arrow[r, "\alpha'"] \arrow[d, "1 \square F_2(b,c)"'] & (F(a) \square F(b)) \square F(c) \arrow[d, "F_2(a,b) \square 1"] \\
+F(a) \square F(b \square c) \arrow[d, "F_2(a, b \square c)"'] & F(a \square b) \square F(c) \arrow[d, "F_2(a \square b, c)"] \\
+F(a \square (b \square c)) \arrow[r, "F(\alpha)"] & F((a \square b) \square c)
+\end{tikzcd}
+\end{center}
+
+\begin{center}
+\begin{tikzcd}
+e' \square F(a) \arrow[r, "\lambda'"] \arrow[d, "F_0 \square 1"'] & F(a) \\
+F(e) \square F(a) \arrow[r, "F_2(e, a)"] & F(e \square a) \arrow[u, "F(\lambda)"']
+\end{tikzcd}
+\end{center}
+
+\begin{center}
+\begin{tikzcd}
+F(a) \square e' \arrow[r, "\rho'"] \arrow[d, "1 \square F_0"'] & F(a) \\
+F(a) \square F(e) \arrow[r, "F_2(a, e)"] & F(a \square e) \arrow[u, "F(\rho)"']
+\end{tikzcd}
+\end{center}

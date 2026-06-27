@@ -1,0 +1,23 @@
+id: non-square-order-polarity
+title_en: "Polarity on Non-Square Order Forces Minimal Absolute Points"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [polarity, absolute-points, finite-projective-plane, non-square-order]
+depends_on:
+  required: [baer-seib-polarity-bound, number-of-absolute-points]
+  recommended: [finite-projective-plane, polarity]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "XII"
+    section: "1"
+    pages: ""
+    role_in_book: "Theorem on polarities when the plane order is not a perfect square"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

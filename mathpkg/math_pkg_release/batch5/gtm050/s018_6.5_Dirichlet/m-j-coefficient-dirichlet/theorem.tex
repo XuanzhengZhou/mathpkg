@@ -1,0 +1,9 @@
+Let $\lambda$ be a prime, let $\alpha$ be a primitive $\lambda$th root of unity, let $\gamma$ be a primitive root modulo $\lambda$, and let $\sigma : \alpha \mapsto \alpha^\gamma$ be the corresponding conjugation. Let $\beta$ be a primitive $(\lambda-1)$st root of unity. For $j = 0, 1, \dots, \lambda-2$, define
+
+$$m_j = \frac{1}{\lambda} \sum_{k=0}^{\lambda-2} \beta^{jk} \sigma^k \alpha.$$
+
+The $m_j$ are cyclotomic integers (up to the factor $1/\lambda$) and appear as the prefactor in Dirichlet's formula
+
+$$L(1, \chi_j) = (-1)^j m_j \sum_{k=0}^{\lambda-2} \beta^{-jk} \log \frac{1}{1-\sigma^k \alpha},$$
+
+where $\chi_j$ is the Dirichlet character modulo $\lambda$ determined by $\chi_j(\gamma) = \beta^j$.

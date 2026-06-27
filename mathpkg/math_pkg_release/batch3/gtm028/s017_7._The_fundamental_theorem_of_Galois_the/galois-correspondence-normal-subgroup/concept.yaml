@@ -1,0 +1,23 @@
+id: galois-correspondence-normal-subgroup
+title_en: "Galois Correspondence for Normal Intermediate Extensions"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: galois-theory
+difficulty: advanced
+tags: [galois-theory, normal-subgroup, invariant-subgroup, factor-group, intermediate-field, galois-correspondence]
+depends_on:
+  required: [fundamental-theorem-of-galois-theory, galois-group, normal-extension]
+  recommended: [normal-subgroup, factor-group, field-isomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "II"
+    section: "§7. The fundamental theorem of Galois theory"
+    pages: ""
+    role_in_book: "Corollary characterizing normal intermediate extensions via invariant subgroups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

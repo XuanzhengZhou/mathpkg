@@ -1,0 +1,29 @@
+id: planar-collineation
+title_en: Planar Collineation
+title_zh: ''
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags:
+- planar-collineation
+- collineation
+- baer-subplane
+depends_on:
+  required:
+  - collineation-of-projective-plane
+  recommended:
+  - baer-subplane
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '2'
+  pages: ''
+  role_in_book: Introduces an important class of collineations with subplane fixed
+    structure
+content_hash: 21e448dabfaf
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

@@ -1,0 +1,1 @@
+Each function $g \in \mathfrak{L}_{p'}$ defines a bounded linear functional on $\mathfrak{L}_p$ via integration against $\bar{g}$, and the operator norm equals the $\mathfrak{L}_{p'}$-norm of $g$. The proof uses Holder's inequality.

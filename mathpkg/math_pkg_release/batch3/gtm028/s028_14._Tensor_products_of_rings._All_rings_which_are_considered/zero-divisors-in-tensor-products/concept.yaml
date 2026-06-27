@@ -1,0 +1,23 @@
+id: zero-divisors-in-tensor-products
+title_en: "Lemma: Non-zero-divisors remain non-zero-divisors in tensor products"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [tensor-product, zero-divisor, regular-element, linear-independence]
+depends_on:
+  required: [tensor-product-of-algebras]
+  recommended: [zero-divisor, linear-independence-over-field]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra. Vol. I."
+    chapter: "I"
+    section: "14. Tensor products of rings"
+    pages: ""
+    role_in_book: "Lemma. If an element a ∈ A is not a zero-divisor in A, then it is not a zero-divisor in A ⊗_k B."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

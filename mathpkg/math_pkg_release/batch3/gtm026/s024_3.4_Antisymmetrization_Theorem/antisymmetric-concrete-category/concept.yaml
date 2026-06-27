@@ -1,0 +1,23 @@
+id: antisymmetric-concrete-category
+title_en: "Antisymmetric Concrete Category"
+title_zh: "反对称具体范畴"
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [concrete-category, antisymmetry, fibre, partial-order]
+depends_on:
+  required: [concrete-category]
+  recommended: [fibre, partial-order]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "3"
+    section: "3.4"
+    pages: ""
+    role_in_book: "Defines antisymmetry for concrete categories as a prerequisite for the Antisymmetrization Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

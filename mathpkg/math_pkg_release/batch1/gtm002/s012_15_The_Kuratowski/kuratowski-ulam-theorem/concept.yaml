@@ -1,0 +1,23 @@
+id: kuratowski-ulam-theorem
+title_en: "Kuratowski-Ulam Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: baire-category
+difficulty: advanced
+tags: [baire-category, fubini-analogue, product-space, section, first-category, nowhere-dense]
+depends_on:
+  required: [baire-category-theorem, nowhere-dense, first-category, product-topology]
+  recommended: [fubini-theorem, property-of-baire]
+  suggested: [brouwer-homeomorphism-theorem]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "15"
+    section: "15. The Kuratowski-Ulam Theorem"
+    pages: ""
+    role_in_book: "Main theorem of Chapter 15 — the category analogue of Fubini's theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

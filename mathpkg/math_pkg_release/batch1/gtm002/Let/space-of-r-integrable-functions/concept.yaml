@@ -1,0 +1,23 @@
+id: space-of-r-integrable-functions
+title_en: "Space of R-Integrable Functions"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: integration
+difficulty: basic
+tags: [riemann-integrable, integral-metric, quotient-space, pseudo-metric]
+depends_on:
+  required: []
+  recommended: [null-function, pseudo-metric-to-metric-quotient, integral-metric-on-continuous-functions]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "10"
+    section: "10"
+    pages: ""
+    role_in_book: "Example of constructing a metric space from a pseudo-metric via quotient by null functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: ac-in-v-b
+title_en: "The Axiom of Choice holds in V^{(B)}"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [boolean-valued-models, axiom-of-choice, forcing]
+depends_on:
+  required: []
+  recommended: [v-b-hierarchy, boolean-valued-interpretation]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "23"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 23.23: the Axiom of Choice has Boolean value 1 in any V^{(B)}"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

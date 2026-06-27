@@ -1,0 +1,23 @@
+id: symmetric-monoidal-category
+title_en: "Symmetric Monoidal Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [monoidal-category, braiding, symmetry, symmetric-group]
+depends_on:
+  required: [monoidal-category, braiding]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "1. Symmetric Monoidal Categories"
+    pages: ""
+    role_in_book: "Defines symmetric monoidal categories as braided monoidal categories with involutive braiding, and proves the symmetric coherence theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: proper-map
+title_en: "Proper Map"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [proper-map, compact-set, preimage, continuous-map]
+depends_on:
+  required: []
+  recommended: [compactness]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "I"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition 2.12: a continuous map is proper if preimages of compact sets are compact"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

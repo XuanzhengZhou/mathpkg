@@ -1,0 +1,20 @@
+id: toral-subalgebra
+title_en: "Toral Subalgebra"
+title_zh: "环面子代数"
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [toral, ad-semisimple, abelian, cartan-subalgebra]
+depends_on: {required: [semisimple-lie-algebra, abstract-jordan-decomposition], recommended: [], suggested: [cartan-subalgebra]}
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "8"
+    section: "8.1"
+    pages: "48-52"
+    role_in_book: "Analogous to maximal tori in Lie groups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

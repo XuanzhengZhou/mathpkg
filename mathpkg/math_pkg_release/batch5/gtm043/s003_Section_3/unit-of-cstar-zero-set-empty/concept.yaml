@@ -1,0 +1,23 @@
+id: unit-of-cstar-zero-set-empty
+title_en: "Unit of C*(X) has Empty Zero-Set but Converse Fails"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: basic
+tags: [unit, c-star, bounded-function, zero-set, counterexample]
+depends_on:
+  required: [zero-set, unit-characterization-via-zero-set]
+  recommended: [c-star]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.12"
+    pages: ""
+    role_in_book: "Highlights that empty zero-set is necessary but not sufficient for being a unit in C*(X)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

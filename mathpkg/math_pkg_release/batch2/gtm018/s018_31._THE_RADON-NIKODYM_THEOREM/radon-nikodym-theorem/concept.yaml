@@ -1,0 +1,23 @@
+id: radon-nikodym-theorem
+title_en: "Radon-Nikodym Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [radon-nikodym, absolute-continuity, radon-nikodym-derivative, signed-measure, sigma-finite]
+depends_on:
+  required: [absolute-continuity-measures, signed-measure, lebesgue-integral, hahn-decomposition-theorem]
+  recommended: [sigma-finite-measure, totally-finite-measure, jordan-decomposition]
+  suggested: []
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "31"
+    section: "31. The Radon-Nikodym Theorem"
+    pages: ""
+    role_in_book: "Central theorem of the chapter; establishes the existence and uniqueness of Radon-Nikodym derivatives"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: m-complete-semilattice
+title_en: "M-Complete Semilattice"
+title_zh: "M-完备半格"
+type: definition
+domain: algebra
+subdomain: order-theory
+difficulty: advanced
+tags: [semilattice, m-complete, cardinal, supremum, order-theory]
+depends_on:
+  required: [semilattice]
+  recommended: [regular-cardinal]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "5"
+    section: "5.13"
+    pages: ""
+    role_in_book: "Definition of M-complete semilattice, a semilattice where subsets of cardinality < M have suprema"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

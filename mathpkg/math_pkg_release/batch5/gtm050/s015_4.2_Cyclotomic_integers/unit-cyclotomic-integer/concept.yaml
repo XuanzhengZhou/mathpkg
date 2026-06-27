@@ -1,0 +1,13 @@
+id: unit-cyclotomic-integer
+title_en: "Unit in the Ring of Cyclotomic Integers"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: intermediate
+tags: [cyclotomic, unit, norm, algebraic-number-theory]
+depends_on: {required: [cyclotomic-integer, norm-cyclotomic-integer], recommended: [norm-cyclotomic-integer-is-integer], suggested: []}
+source_books: [{book_id: "gtm050", author: "Harold M. Edwards", title: "Fermat's Last Theorem", chapter: "4", section: "4.2", pages: "page_0098–page_0105", role_in_book: "Units are trivial factors (norm 1) and are not counted as proper factors"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

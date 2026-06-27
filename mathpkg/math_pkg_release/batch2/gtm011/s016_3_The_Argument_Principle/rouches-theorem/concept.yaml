@@ -1,0 +1,23 @@
+id: rouches-theorem
+title_en: "Rouché's Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [rouche, zeros, poles, meromorphic, contour-integration, argument-principle]
+depends_on:
+  required: [argument-principle, meromorphic-function]
+  recommended: [symmetric-version-rouche]
+  suggested: [fundamental-theorem-of-algebra]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "V"
+    section: "3"
+    pages: ""
+    role_in_book: "Symmetric form of Rouché's Theorem giving equality of Z_f - P_f and Z_g - P_g under a strict triangle inequality condition on the boundary"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

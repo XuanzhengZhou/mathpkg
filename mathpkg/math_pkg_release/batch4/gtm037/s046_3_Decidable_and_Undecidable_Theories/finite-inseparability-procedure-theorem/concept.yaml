@@ -1,0 +1,23 @@
+id: finite-inseparability-procedure-theorem
+title_en: "Finite Inseparability Implies Automatic Procedure"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: decidability
+difficulty: advanced
+tags: [finite-inseparability, automatic-procedure, finitely-axiomatizable, essential-undecidability]
+depends_on:
+  required: []
+  recommended: [finite-axiomatizability-re-set-proposition]
+  suggested: [essentially-undecidable-theories]
+source_books:
+  - book_id: "gtm037"
+    author: "Bell and Machover"
+    title: "A Course in Mathematical Logic"
+    chapter: "3"
+    section: "3"
+    pages: "269-272"
+    role_in_book: "Theorem connecting finite inseparability with the existence of an automatic procedure for finding independent sentences."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

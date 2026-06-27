@@ -1,0 +1,23 @@
+id: coset-as-solution-set-of-linear-equations
+title_en: "Coset as Solution Set of Linear Equations"
+title_zh: "陪集作为线性方程组的解集"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [coset, solution-set, linear-equations, orthogonal-complement, dual-space]
+depends_on:
+  required: [vector-space, subspace, linear-equations]
+  recommended: [coefficient-space, solution-space-dimension-theorem]
+  suggested: [orthogonal-complement-subspace]
+source_books:
+  - book_id: gtm049
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "3"
+    section: "9"
+    pages: ""
+    role_in_book: "Converse to Theorem 3: every coset is the solution set of some linear system"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

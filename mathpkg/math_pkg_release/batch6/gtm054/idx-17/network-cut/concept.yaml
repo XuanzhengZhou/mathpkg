@@ -1,0 +1,13 @@
+id: network-cut
+title_en: "Cut of a network"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [network, cut, cocycle, flow]
+depends_on: {required: [network, cocycle, multigraph], recommended: [], suggested: []}
+source_books: [{book_id: "gtm054", author: "Jack E. Graver and Mark E. Watkins", title: "Combinatorics with Emphasis on the Theory of Graphs", chapter: "IV", section: "18", pages: "", role_in_book: "Definition — a cut is a cocycle of the underlying multigraph; cut through an edge contains that edge"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

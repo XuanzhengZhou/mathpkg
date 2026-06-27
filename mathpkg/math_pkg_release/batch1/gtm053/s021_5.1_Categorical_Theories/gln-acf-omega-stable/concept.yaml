@@ -1,0 +1,23 @@
+id: gln-acf-omega-stable
+title_en: "$\operatorname{GL}_n(F)$ is $\aleph_0$-Stable over $\operatorname{ACF}_p$"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [stability-theory, algebraic-groups, acf, omega-stability, morley-rank]
+depends_on:
+  required: [omega-stability, algebraically-closed-field, definable-structure]
+  recommended: [general-linear-group, stability-hereditary-definable]
+  suggested: []
+source_books:
+  - book_id: "gtm053"
+    author: "Yuri Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "5"
+    section: "5.4"
+    pages: ""
+    role_in_book: "example of stability inheritance via definability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

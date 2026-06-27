@@ -1,0 +1,67 @@
+Let $z = x + iy$ be a complex number different from 0. Then $\arg(z)$ is the set of all real numbers $\theta$ such that
+
+$$\cos(\
+
+$$\text{Arg}\left(\frac{1}{z}\right) = -\text{Arg}(z).$$ If $z$ is a negative real number, prove that $\text{Arg}(z) = \text{Arg}\left(\frac{1}{z}\right) = \pi$.
+
+(5.54) Exercise. For $z$ and $w$ nonzero complex numbers, prove that $\text{arg}(zw) = \text{arg}(z) + \text{arg}(w)$. For every positive integer $k$, $\text{arg}(z^k) = k \cdot \text{arg}(z)$.
+
+(5.55) Recapitulation.
+
+In the accompanying Figure 3 we illustrate addition and multiplication of complex numbers. Addition is componentwise; graphically, one applies the parallelogram law for addition of vectors. Multiplication is a little more complicated. We have
+
+$$\text{Arg}(zw) = \text{Arg}(z) + \text{Arg}(w) \text{ modulo } 2\pi, \quad |zw| = |z| \cdot |w|.$$
+
+In Figure 4, we illustrate the only conditions under which $|z_1 + z_2| = |z_1| + |z_2|$ (5.49) and also the position of $\bar{z}$ relative to $z$.
+
+(5.56) Exponential notation. A sequence $(z_n)$ of complex numbers converges to a limit $z$ if $\lim_{n \to \infty} |z - z_n| = 0$. [We shall have more to say on this subject in §6.] For the moment, we use it to define the exponential function exp by
+
+$$\exp(z) = \sum_{n=0}^{\infty} \frac{z^n}{n!} = \lim_{k \to \infty} \sum_{n=0}^{k} \frac{z^n}{n!}.$$
+
+Just as with real power series, one proves that $\exp(z)$ exists [i.e., the limit exists] for all $z \in K$. The identity
+
+$$\exp(z + w) = \exp(z) \exp(w)$$
+
+holds and is proved by multiplying out $\left( \sum_{n=0}^{k} \frac{z^n}{n!} \right) \left( \sum_{m=0}^{k} \frac{w^m}{m!} \right)$ and taking the limit as $k \to \infty$. It is easy to show that
+
+$$\exp(i\theta) = \cos(\theta) + i\sin(\theta)$$
+
+for all $\theta \in R$ and so $|\exp(i\theta)| = 1$. Every nonzero complex number $z$ can thus be written as
+
+$$z = |z| \left( \frac{z}{|z|} \right) = |z| \exp(i\theta) = |z| (\cos(\theta) + i\sin(\theta)).$$
+
+Here $\theta$ is any number in $\arg(z)$.
+
+The function $z \to \frac{z}{|z|}$, defined implicitly above, is used frequently. It is called the signum and is defined formally by
+
+$$\operatorname{sgn}(z) = \begin{cases} \frac{z}{|z|} & \text{if } z \in K \cap \{0\}', \\ 0 & \text{if } z = 0. \end{cases}$$
+
+(5.57) Exercise. Use Hamel bases to prove that the additive groups $R$ and $K$ are isomorphic.
+
+(5.58) Exercise. Define addition in $K$ as usual and define multiplication "coordinatewise":
+
+$$(x + iy) (u + iv) = xu + iyv.$$
+
+Prove that, with these operations, $K$ is a commutative ring with unit. Prove also that $K$ is not a field.
+
+CHAPTER TWO
+
+Topology and Continuous Functions
+
+The main goal of this text is to give a complete presentation of integration and differentiation. Plainly a detailed study of set-theoretic topology would be out of place here. Similarly, a detailed treatment of continuous functions is outside our purview. Nevertheless, topology and continuity can be ignored in no study of integration and differentiation having a serious claim to completeness.
+
+First of all, there is an intimate connection between measure theory [which is almost coextensive with the theory of integration] and the topological notion of compactness. Second, many important facts in the theories of integrals and derivatives rest in the end on properties of continuous functions. Third, purely topological notions play a vital part both in constructing the objects studied in abstract analysis and in carrying out proofs. Fourth, a great many proofs are just as simple for arbitrary topological spaces as they are for the real line.
+
+Therefore, in asking the reader to consider constructions involving topological spaces far more general than the line, we ask for a not inconsiderable preliminary effort, as the length of §6 will show. In return, we promise a much more thorough presentation of contemporary analysis.
+
+Section 6 is a self-contained if rather terse treatment of those parts of set-theoretic topology that have proved important for analysis. With some reluctance we have omitted the topics of paracompactness and compactifications of completely regular spaces. But a line had to be drawn somewhere. In §7, we embark on a study of continuous functions and of functions closely related to continuous functions. We are particularly concerned with spaces of such functions and properties that they may have. The section culminates with the STONE-WEIERSTRASS theorem, surely an indispensable tool for every analyst.
+
+§6. Topological preliminaries
+
+Set-theoretic topology is the study of abstract forms of the notions of nearness, limit point, and convergence. Consider as a special but extremely important case the line $R$. For $x, y \in R$, we can define the distance between $x$ and $y$ as the absolute value of $x - y$:
+
+$$\varrho(x, y) = |x - y|.$$
+
+We can also associate with a point $x \in R$ all of the points $y \in R$ such that $\varrho(x, y)$ is less than a specified positive number $\alpha$, i.e., the open interval $]x - \alpha, x + \alpha[$. This gives us a systematic notion of nearness in $R$ based on the distance-function $\varrho$. Even a more general idea is needed. A subset $A$ of $R$ is called open if it contains all points "sufficiently close" to each of its members. The abstract and axiomatized notion of open set is one common and convenient way to approach the study of set-theoretic topology.
+
+To make all of this precise, we begin with some definitions. We first extend the real number system, and describe certain important subsets of the extended real numbers.

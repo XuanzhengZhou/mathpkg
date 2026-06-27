@@ -1,0 +1,23 @@
+id: weak-mackey-continuity-openness-dual
+title_en: "Weak and Mackey Continuity and Openness of the Dual Transformation"
+title_zh: "对偶变换的弱连续性与Mackey连续性和开性"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [paired-spaces, dual-transformation, weak-continuity, Mackey-continuity, relative-openness, strong-continuity, weakly-closed-range]
+depends_on:
+  required: [continuity-openness-admissible-topologies, dual-transformation]
+  recommended: [Mackey-topology, weak-topology, paired-linear-spaces]
+  suggested: [admissible-topology, polar-topology]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "21"
+    section: "21.3"
+    pages: ""
+    role_in_book: "Characterization of weak/Mackey continuity and openness equivalences for linear transformations between paired spaces, relating dual transformation properties to weak relative openness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: banach-algebra
+title_en: "Banach Algebra"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: topological-algebras
+difficulty: intermediate
+tags: [banach-algebra, normed-algebra, banach-space, completeness]
+depends_on:
+  required: [normed-algebra, banach-space, completeness]
+  recommended: []
+  suggested: [c-star-algebra, von-neumann-algebra, spectral-theory]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "Appendix 2"
+    section: "Topological Algebras"
+    pages: "215"
+    role_in_book: "Definition of a Banach algebra as a complete normed algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

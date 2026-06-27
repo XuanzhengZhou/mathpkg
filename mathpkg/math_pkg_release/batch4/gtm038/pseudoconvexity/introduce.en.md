@@ -1,0 +1,1 @@
+A region is pseudoconvex if it satisfies the Kontinuitaetssatz: whenever the smaller part of a Hartogs figure lies in the region, the entire Hartogs figure must also lie in it. Pseudoconvexity is the geometric characterization of domains of holomorphy.

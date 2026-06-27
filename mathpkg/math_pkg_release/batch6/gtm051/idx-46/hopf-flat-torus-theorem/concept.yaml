@@ -1,0 +1,23 @@
+id: hopf-flat-torus-theorem
+title_en: "Hopf's Flat Torus Theorem"
+title_zh: "Hopf 平坦环面定理"
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [flat-torus, conjugate-points, gauss-curvature, global-differential-geometry]
+depends_on:
+  required: [gauss-bonnet-theorem, conjugate-points, flat-torus]
+  recommended: [riemannian-metric, geodesic]
+  suggested: [jacobi-fields, sturm-comparison-theorem]
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.8"
+    pages: "174-188"
+    role_in_book: "primary_text"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

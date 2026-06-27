@@ -1,0 +1,23 @@
+id: basic-set-of-primitive-idempotents
+title_en: "Basic Set of Primitive Idempotents for a Semiperfect Ring"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: ring-theory
+difficulty: advanced
+tags: [semiperfect-ring, primitive-idempotents, basic-ring, indecomposable-projective, simple-module]
+depends_on:
+  required: [semiperfect-ring, primitive-idempotent, basic-ring]
+  recommended: [indecomposable-module, simple-module, block-decomposition]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "27. Semiperfect Rings"
+    pages: ""
+    role_in_book: "Proposition 27.10 — characterizes basic sets of primitive idempotents"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

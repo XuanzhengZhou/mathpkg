@@ -1,0 +1,23 @@
+id: oscillation-at-point
+title_en: "Oscillation of a Function at a Point"
+title_zh: "函数在一点处的振幅"
+type: definition
+domain: analysis
+subdomain: real-analysis
+difficulty: basic
+tags: [oscillation, continuity, discontinuity, real-function]
+depends_on:
+  required: [oscillation-on-interval]
+  recommended: [limit-of-function]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "7"
+    section: "7"
+    pages: "39-43"
+    role_in_book: "Quantitative measure of discontinuity at a point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

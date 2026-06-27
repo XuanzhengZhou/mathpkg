@@ -1,0 +1,23 @@
+id: orthogonal-complement
+title_en: "Orthogonal Complement in the Power Set"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: algebraic-combinatorics
+difficulty: intermediate
+tags: [orthogonal-complement, inner-product, power-set, subspace]
+depends_on:
+  required: [power-set-inner-product, orthogonal-subsets]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "2"
+    section: "IIA"
+    pages: "41-48"
+    role_in_book: "Defines the orthogonal complement of a family of subsets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

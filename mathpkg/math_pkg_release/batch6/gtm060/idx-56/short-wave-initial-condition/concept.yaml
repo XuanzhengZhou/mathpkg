@@ -1,0 +1,23 @@
+id: short-wave-initial-condition
+title_en: "Short-Wave Initial Condition"
+title_zh: ""
+type: definition
+domain: applied-math
+subdomain: wave-asymptotics
+difficulty: intermediate
+tags: [short-wave-asymptotics, wkb-method, initial-condition, phase-function, amplitude-function]
+depends_on:
+  required: [wave-function, schrodinger-equation]
+  recommended: [quasi-classical-approximation, eikonal-approximation]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 11"
+    section: "Short Wave Asymptotics"
+    pages: "pp. 446-452"
+    role_in_book: "Defines the ansatz for the WKB/quasi-classical initial condition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: quotient-mapping-linear
+title_en: "Quotient Mapping of a Linear Space"
+title_zh: "线性空间的商映射"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [quotient-map, canonical-projection, linear-map, quotient-space]
+depends_on:
+  required: [quotient-space]
+  recommended: [linear-map]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "1"
+    section: "1.4"
+    pages: ""
+    role_in_book: "Defines the canonical quotient map from a linear space to its quotient"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

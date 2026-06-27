@@ -1,0 +1,23 @@
+id: reduced-k-f-cofunctor
+title_en: "Reduced K_F cofunctor"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: k-theory
+difficulty: advanced
+tags: [K-theory, reduced-K-theory, vector-bundles, cofunctor, rank]
+depends_on:
+  required: []
+  recommended: [k-f-ring-of-space]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "3"
+    section: "3.5"
+    pages: "130-132"
+    role_in_book: "Defines reduced K-theory as kernel of the rank map"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

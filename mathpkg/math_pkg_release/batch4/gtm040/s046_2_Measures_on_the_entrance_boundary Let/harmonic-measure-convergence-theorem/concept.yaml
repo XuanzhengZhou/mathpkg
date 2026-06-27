@@ -1,0 +1,23 @@
+id: harmonic-measure-convergence-theorem
+title_en: "Convergence of normalized entrance measures to harmonic measure"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [harmonic-measure, weak-star-convergence, entrance-boundary, normal-chain, Theorem-11-7]
+depends_on:
+  required: [harmonic-measure-normal-chain, theta-weak-star-convergence]
+  recommended: [normal-chain-g0-admissibility]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "11"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 11-7: The fundamental convergence theorem for the entrance boundary of normal chains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

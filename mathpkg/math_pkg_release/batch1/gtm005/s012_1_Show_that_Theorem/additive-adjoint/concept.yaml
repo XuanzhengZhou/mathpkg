@@ -1,0 +1,23 @@
+id: additive-adjoint
+title_en: "Adjoint of an Additive Functor is Additive"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [additive-functor, adjoint-functor, ab-category]
+depends_on:
+  required: [adjunction, additive-functor]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IV"
+    section: "1"
+    pages: ""
+    role_in_book: "Any left adjoint of an additive functor is additive; dually, right adjoints of additive functors are additive"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

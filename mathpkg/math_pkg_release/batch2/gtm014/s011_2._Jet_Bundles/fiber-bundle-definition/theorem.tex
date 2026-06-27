@@ -1,0 +1,10 @@
+A \textit{fiber bundle} consists of three smooth manifolds $E$, $X$, $F$ and a smooth map $\pi: E \to X$ such that for every $p \in X$, there exists a neighborhood $U$ of $p$ and a diffeomorphism $\phi_U: E_U \to U \times F$ where $E_U = \pi^{-1}(U)$, making the following diagram commute:
+
+$$\xymatrix{
+E_U \ar[rr]^{\phi_U} \ar[dr]_{\pi_U} & & U \times F \ar[dl]^{\mathrm{pr}_1} \\
+& U &
+}$$
+
+where $\pi_U$ is the restriction of $\pi$ to $E_U$ and $\mathrm{pr}_1$ is the obvious projection. The space $E$ is called the \textit{total space}, $X$ the \textit{base space}, $F$ the \textit{fiber}, and $\pi$ the \textit{projection}. For each $p \in X$, the set $E_p = \pi^{-1}(p)$ is diffeomorphic (under $\phi_U$) to $F$.
+
+A \textit{vector bundle} of dimension $n$ over $X$ is a fiber bundle with fiber $F = \mathbf{R}^n$ and with the additional property that the transition functions $\phi_U \circ \phi_V^{-1}$ act linearly on the $\mathbf{R}^n$ factor. Not every fiber bundle with a Euclidean space as fiber is a vector bundle.

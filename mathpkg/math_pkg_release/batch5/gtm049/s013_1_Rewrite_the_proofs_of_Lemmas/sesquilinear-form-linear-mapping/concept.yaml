@@ -1,0 +1,23 @@
+id: sesquilinear-form-linear-mapping
+title_en: "Sesquilinear Form Induces a Linear Mapping"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: hilbert-space
+difficulty: intermediate
+tags: [sesquilinear-form, linear-mapping, hilbert-space, hermitian-form, adjoint]
+depends_on:
+  required: [hilbert-space, sesquilinear-form, hermitian-form]
+  recommended: [linear-transformation]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K.W. Gruenberg, A.J. Weir"
+    title: "Linear Geometry"
+    chapter: "13"
+    section: "13.1"
+    pages: ""
+    role_in_book: "Exercise 3: Shows that a sesquilinear form on a Hilbert space defines a linear endomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

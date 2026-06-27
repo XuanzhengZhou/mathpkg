@@ -1,0 +1,39 @@
+Let $\mathfrak{D}$ be an integrally closed integral domain, and let $\mathfrak{D}'$ be an integral domain which is integrally dependent on $\mathfrak{D}$. Let $\mathfrak{q}$ be a prime ideal in $\mathfrak{D}$ and let $\mathfrak{q}'$ be a prime ideal in $\mathfrak{D}'$ which lies over $\mathfrak{q}$. If $\mathcal{P}$ is a place of the quotient field $K$ of $\mathfrak{D}$ which has center
+
+$K^*$ is contained in a maximal ideal $\mathfrak{P}^*$ of $K^*$. By Theorem 12, Corollary 2, the quotient ring of $K^*$ with respect to $\mathfrak{P}^*$ is the valuation ring of an extension $\mathfrak{P}^*$ of $\mathfrak{P}$. The prime ideal $\mathfrak{M}^*$ of $\mathfrak{P}^*$ contracts in $\mathfrak{D}^*$ to a prime ideal which contains $\mathfrak{q}^*$ (since $\mathfrak{P}^* \supset \mathfrak{q}^*$) and contracts to the ideal $\mathfrak{q}$ in $\mathfrak{D}$. Hence $\mathfrak{q}^* = \mathfrak{M}^* \cap \mathfrak{D}^*$ (see Vol. I, Ch. V, p. 259, complement 1 to Theorem 3), and thus $\mathfrak{q}^*$ is the center of $\mathfrak{P}^*$.
+
+Now, the proof that $K^*\mathfrak{q}^* \neq (1)$ is achieved by observing that if $K^*\mathfrak{q}^* = (1)$, then $1 = \sum_{i=1}^{h} a_i^* q_i^*, a_i^* \in K^*$, $q_i \in \mathfrak{q}^*$, and from this relation one concludes easily that there exists an intermediate ring $\mathfrak{D}'$ between $\mathfrak{D}$ and $\mathfrak{D}^*$ with the following properties: the quotient field $K'$ of $\mathfrak{D}'$ is a finite algebraic extension of $K$, and if $\mathfrak{q}' = \mathfrak{q}^* \cap \mathfrak{D}'$ then $K'_\mathfrak{q}' = (1)$, where $K'_\mathfrak{q}$ is the integral closure of $K_\mathfrak{q}$ in $K'$. The relation $K'_\mathfrak{q}' =
+
+group $K'$ onto the additive group $\Gamma$. Hence $v(1) = 0; v(-1) + v(-1) = v(1) = 0$, and hence $v(-1) = 0$ since $\Gamma$ is a totally ordered group. More generally, if an element $w$ of $K'$ is a root of unity, say if $w^n = 1$, then $nv(w) = 0$, whence $v(w) = 0$ (for $\Gamma$ is totally ordered).
+
+From $v(-1) = 0$ it follows that $v(-x) = v(x)$, and hence, by (b):
+
+$(b')$ $v(x-y) \geq \min \{v(x), v(y)\}$
+
+We also note the following consequences of the properties (a), (b) and (b'):
+
+(1) $v(y/x) = v(y) - v(x), \quad x \neq 0$
+
+(2) $v(1/x) = -v(x), \quad x \neq 0$
+
+(3) $v(x) < v(y) \Rightarrow v(x+y) = v(x)$.
+
+To prove (3), we first observe that $v(x+y) \geq v(x)$, by (b). On the other hand, if we write $x$ in the form $(x+y) - y$ and apply $(b')$, we find $v(x) \geq \min \{v(x+y), v(y)\}$. Hence $v(x) \geq v(x+y)$, since, by assumption, $v(x) < v(y)$. Combining with the preceding inequality $v(x+y) \geq v(x)$ we find (3).
+
+The following are easy generalizations of (b) and (3):
+
+(4) $v\left(\sum_{i=1}^{n} x_i\right) \geq \min \{v(x_1), v(x_2), \cdots, v(x_n)\}$ for all $x_i \in K$;
+
+(5) $v\left(\sum_{i=1}^{n} x_i\right) = \min \{v(x_1), v(x_2), \cdots, v(x_n)\}$ if the minimum
+
+a valuation $v$ of $K$ is said to be a valuation over $k$, or a valuation of $K/k$, if $v(c) = 0$ for all $c$ in $k$, $c \neq 0$, i.e., if $v$ is trivial on $k$.
+
+The set of elements $x$ of $K$ such that $v(x) \geq 0$ is clearly a ring. This ring will be denoted by $R_v$ and will be called the valuation ring of $v$.
+
+Since, for every $x$ in $K$, we have either $v(x) \geq 0$ or $v(x) \leq 0$, i.e., either $v(x) \geq 0$ or $v(1/x) \geq 0$ (by (2)), it follows that either $x$ or $1/x$ belongs to the valuation ring. This justifies the name "valuation ring" (see Theorem 1, § 2).
+
+The "divisibility relation in $K$ with respect to $R_v$," i.e., the relation $y|x$ defined by the condition that there exists an element $z$ in $R_v$ such that $x = yz$, is equivalent to the relation "$v(x) \geq v(y)$." This follows at once from (a).
+
+In order that both $x$ and $1/x$ belong to $R_v$ it is necessary and sufficient that $v(x) \geq 0$ and $-v(x) \geq 0$, i.e., that $v(x) = 0$. In other words: the multiplicative group of units in $R_v$ coincides with the kernel of the homomorphism $v$ of $K'$ onto $\Gamma$.
+
+The non-units in $R_v$ are therefore the elements $y$ in $K$ such that $v(y) > 0$. It follows directly from (a) and (b') that the set of non-units in $R_v$ is a prime ideal. We shall denote this prime ideal by $\mathfrak{M}_v$ and refer to it as the prime ideal of the valuation $v$. Notice that any element of $K$ which does not belong to $R_v$ is the recip

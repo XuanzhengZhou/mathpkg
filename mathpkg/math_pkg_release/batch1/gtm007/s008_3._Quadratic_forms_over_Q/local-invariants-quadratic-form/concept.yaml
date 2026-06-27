@@ -1,0 +1,23 @@
+id: local-invariants-quadratic-form
+title_en: "Local Invariants of a Quadratic Form over Q"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: intermediate
+tags: [quadratic-form, local-invariant, hilbert-symbol, p-adic]
+depends_on:
+  required: [discriminant-quadratic-form]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm007
+    author: "J.-P. Serre"
+    title: "A Course in Arithmetic"
+    chapter: "IV"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines the local invariants d_v(f) and ε_v(f) at each place v"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

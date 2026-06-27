@@ -1,0 +1,23 @@
+id: mazur-orlicz-theorem
+title_en: "Mazur-Orlicz Consistency Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: ["mazur-orlicz", "consistency", "linear-inequalities", "moment-problem"]
+depends_on:
+  required: ["hahn-banach-theorem", "sublinear-function-def"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§7"
+  section: "7.C"
+  pages: "26-27"
+  role_in_book: "consistency of infinite linear inequality systems"
+content_hash: "1bd99aed9c11d9bf"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

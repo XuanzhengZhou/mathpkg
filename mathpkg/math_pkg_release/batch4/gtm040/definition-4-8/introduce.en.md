@@ -1,0 +1,14 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+The field $\mathcal{F}_t$ is the Borel field of all sets $A$ such that, for each $n$, $A \cap \{\omega | t(\omega) = n\}$ is in $\mathcal{F}_n$. The tail-field $\mathcal{T}_t$ is the smallest augmented Borel field containing all truth sets of statements
+
+$$x_t = c_t \wedge \dots \wedge x_{t+k} = c_{t+k}, \quad k \geq 0.$$
+
+A statement $q$ relative to $\mathcal{F}_t$ is one such that, for each $n$, the statement $q \wedge t = n$ depends only on outcomes $x_0, \dots, x_n$. A statement $r$ relative to $\mathcal{T}_t$ is one whose truth set does not depend on outcomes before time $t$. Specifically, a set $R$ in $\mathcal{B}$ is in $\mathcal{T}_t$ if and only if whenever $\omega \in R$ and $\omega'$ is such that $\omega' = \omega_t$, then $\omega' \in R$.
+
+We state the strong Markov property as the next theorem.

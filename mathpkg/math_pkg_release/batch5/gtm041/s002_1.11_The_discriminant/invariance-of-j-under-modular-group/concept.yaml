@@ -1,0 +1,23 @@
+id: invariance-of-j-under-modular-group
+title_en: "Invariance of J under the modular group"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [modular-invariance, klein-j-invariant, modular-group]
+depends_on:
+  required: [kleins-modular-function-j, modular-group]
+  recommended: [unimodular-transformation]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "1"
+    section: "1.13"
+    pages: ""
+    role_in_book: "States that J(tau) is invariant under transformations of the modular group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

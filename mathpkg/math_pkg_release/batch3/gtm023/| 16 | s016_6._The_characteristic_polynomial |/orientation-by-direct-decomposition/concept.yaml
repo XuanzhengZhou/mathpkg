@@ -1,0 +1,23 @@
+id: orientation-by-direct-decomposition
+title_en: "Orientation Induced by Direct Decomposition"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [orientation, direct-decomposition, positive-basis]
+depends_on:
+  required: [orientation-by-determinant, direct-sum]
+  recommended: [positive-basis]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§8. Oriented vector spaces"
+    pages: "4.29"
+    role_in_book: "Shows how orientations on summands induce an orientation on the direct sum"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

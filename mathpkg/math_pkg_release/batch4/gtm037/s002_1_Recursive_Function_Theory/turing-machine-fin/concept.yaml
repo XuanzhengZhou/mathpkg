@@ -1,0 +1,23 @@
+id: turing-machine-fin
+title_en: "Turing Machine T_fin — Finish/Cleanup Submachine"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability
+difficulty: intermediate
+tags: ["turing-machine", "tape-cleanup", "scratchwork-removal"]
+depends_on:
+  required: ["turing-machine-ltrans", "turing-machine-lshift"]
+  recommended: ["turing-machine-seek0", "turing-machine-right", "turing-machine-left"]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "Ebbinghaus, Flum, Thomas"
+    title: "Mathematical Logic"
+    chapter: "1"
+    section: "1.X (Turing Machines)"
+    pages: ""
+    role_in_book: "Defines a Turing submachine used at the end of computations to erase scratchwork and leave the final result."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

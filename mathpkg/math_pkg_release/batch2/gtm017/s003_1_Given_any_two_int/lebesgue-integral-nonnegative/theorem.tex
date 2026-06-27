@@ -1,0 +1,6 @@
+Let $X(w) \geq 0$ be a non-negative random variable. For each $k$, define the simple approximating function
+$$X_k(w) = \sum_{j} \frac{j}{2^k} I_{A_{k,j}}(w),$$
+where $A_{k,j} = \{ w \mid j/2^k \leq X(w) < (j+1)/2^k \}$. Then $\lim_{k \to \infty} X_k(w) = X(w)$. The integral of $X_k(w)$ is
+$$\int X_k(w) \, dP = \sum_{j} \frac{j}{2^k} P(A_{k,j}).$$
+The sequence of these integrals is nondecreasing. If the limit is finite, we say $X(w)$ is integrable and define
+$$\int X(w) \, dP = \lim_{k \to \infty} \int X_k(w) \, dP.$$

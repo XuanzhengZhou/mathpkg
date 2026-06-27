@@ -1,0 +1,10 @@
+Let $U: \mathcal{A} \longrightarrow \mathcal{K}$ be a functor and let $K$ be an object of $\mathcal{K}$. A \textbf{free $\mathcal{A}$-object over $K$ with respect to $U$} is a pair $(F, \eta)$ where $F$ is an object of $\mathcal{A}$ and $\eta: K \longrightarrow FU$ is a morphism in $\mathcal{K}$ subject to the universal property that whenever $(A, f)$ is another such pair (that is, $A$ is an object in $\mathcal{A}$ and $f: K \longrightarrow AU$ in $\mathcal{K}$) there exists a unique $\mathcal{A}$-morphism $\psi: F \longrightarrow A$ such that the following diagram commutes:
+
+$$
+\xymatrix{
+K \ar[r]^{\eta} \ar[rd]_{f} & FU \ar[d]^{\psi U} \\
+& AU
+}
+$$
+
+That is, $\eta \cdot \psi U = f$.

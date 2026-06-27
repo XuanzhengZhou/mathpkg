@@ -1,0 +1,23 @@
+id: negation-disjunction-functional-completeness
+title_en: "Negation and disjunction give functionally complete sentential logic"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: sentential-logic
+difficulty: intermediate
+tags: [functional-completeness, negation, disjunction, sentential-logic]
+depends_on:
+  required: []
+  recommended: [negation-conjunction-functional-completeness, general-sentential-logic-functional-completeness]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "8. Sentential Logic"
+    section: "8.2 Elements of Logic"
+    pages: ""
+    role_in_book: "establishes that {negation, disjunction} is functionally complete, dual to Theorem 8.43"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

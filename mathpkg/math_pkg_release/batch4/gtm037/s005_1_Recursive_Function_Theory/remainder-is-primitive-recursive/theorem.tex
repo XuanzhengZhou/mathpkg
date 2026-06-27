@@ -1,0 +1,6 @@
+The remainder function $rm$ on $\omega^2$ is primitive recursive. Define an auxiliary function $f$ by primitive recursion:
+
+$$f(x, 0) = 0,$$
+$$f(x, \delta y) = \delta f(x, y) \cdot \overline{sg}\,|x - \delta f(x, y)|.$$
+
+Then $rm(x, y) = f(y, x)$.

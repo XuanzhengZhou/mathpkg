@@ -1,0 +1,23 @@
+id: real-ideal
+title_en: "Real Ideal (Residue Class Field Equals R)"
+title_zh: "实理想（商域等于R）"
+type: definition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [real-ideal, maximal-ideal, residue-class-field, real-field, constant-function]
+depends_on:
+  required: [maximal-ideal, residue-class-field]
+  recommended: [prime-ideal-absolute-convexity, real-numbers]
+  suggested: [hyper-real-ideal]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.6"
+    pages: ""
+    role_in_book: "Defines real ideals: maximal ideals whose residue class field is exactly R; every fixed maximal ideal is real"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

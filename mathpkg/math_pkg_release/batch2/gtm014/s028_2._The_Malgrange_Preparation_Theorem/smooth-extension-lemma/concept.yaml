@@ -1,0 +1,23 @@
+id: smooth-extension-lemma
+title_en: "Smooth Extension Lemma for Agreeing Functions"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: smooth-manifolds
+difficulty: intermediate
+tags: [smooth-extension, bump-functions, taylor-series, borel-theorem]
+depends_on:
+  required: [borel-theorem-smooth-functions]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky and Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "IV"
+    section: "2"
+    pages: ""
+    role_in_book: "Technical lemma: extend two smooth functions that agree to infinite order on intersection"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

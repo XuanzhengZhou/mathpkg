@@ -1,0 +1,23 @@
+id: banach-nowhere-differentiable-theorem
+title_en: "Banach's Theorem on Nowhere Differentiable Functions"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: real-analysis
+difficulty: advanced
+tags: [baire-category, nowhere-differentiable, banach, continuous-functions, first-category, residual-set]
+depends_on:
+  required: [bounded-difference-quotient-set, difference-quotient-set-is-closed, difference-quotient-set-is-nowhere-dense, sawtooth-function, baire-category-theorem]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "11"
+    section: "Nowhere Differentiable Functions"
+    pages: ""
+    role_in_book: "Main theorem of the chapter: almost all continuous functions are nowhere differentiable in the sense of Baire category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

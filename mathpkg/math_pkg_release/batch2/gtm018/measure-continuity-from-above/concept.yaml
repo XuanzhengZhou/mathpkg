@@ -1,0 +1,23 @@
+id: measure-continuity-from-above
+title_en: "Continuity of Measure from Above (Theorem E)"
+title_zh: "测度的上连续性（定理E）"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [measure-theory, continuity-from-above, decreasing-sequence]
+depends_on:
+  required: [measure, measure-continuity-from-below]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "II"
+    section: "9"
+    pages: ""
+    role_in_book: "The measure of a decreasing sequence limit equals the limit of measures, provided one has finite measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

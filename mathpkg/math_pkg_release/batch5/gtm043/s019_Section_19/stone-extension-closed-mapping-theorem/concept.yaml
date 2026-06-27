@@ -1,0 +1,23 @@
+id: stone-extension-closed-mapping-theorem
+title_en: "Stone Extension of Continuous Map onto Dense Subspace is Closed with Compact Fibers"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [stone-extension, stone-cech, closed-mapping, compact-fiber, dense-subspace]
+depends_on:
+  required: [stone-cech-compactification, dense-subset-restriction-nonclosed-lemma]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "10"
+    section: "10.13"
+    pages: ""
+    role_in_book: "Main theorem on extending continuous maps with closedness properties"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

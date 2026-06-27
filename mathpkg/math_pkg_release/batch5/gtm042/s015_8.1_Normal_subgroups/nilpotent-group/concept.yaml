@@ -1,0 +1,23 @@
+id: nilpotent-group
+title_en: "Nilpotent group"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [nilpotent-group, central-extension, upper-central-series]
+depends_on:
+  required: [solvable-group, center-of-group, quotient-group]
+  recommended: [central-series]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "8"
+    section: "8.3"
+    pages: ""
+    role_in_book: "Background definition for representation theory of specific group classes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

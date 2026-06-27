@@ -1,0 +1,23 @@
+id: signed-measure
+title_en: "Signed Measure"
+title_zh: "符号测度"
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-theory, signed-measure]
+depends_on:
+  required: [measure, countably-additive-set-function]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "VI"
+    section: "28"
+    pages: ""
+    role_in_book: "A countably additive set function that can take negative values"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

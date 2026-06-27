@@ -1,0 +1,23 @@
+id: content-of-polynomial
+title_en: "Content of a Polynomial"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: [content, polynomial, ufd, gcd, primitive-polynomial]
+depends_on:
+  required: [polynomial-ring, unique-factorization-domain, greatest-common-divisor]
+  recommended: [primitive-polynomial]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "I"
+    section: "17"
+    pages: ""
+    role_in_book: "Definition of content; used in Gauss's Lemma"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

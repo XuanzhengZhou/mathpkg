@@ -1,0 +1,23 @@
+id: finite-ba-isomorphism
+title_en: "Isomorphism of Finite Boolean Algebras"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: boolean-algebras
+difficulty: basic
+tags: [boolean-algebra, finite, isomorphism, cardinality]
+depends_on:
+  required: [finite-ba-cardinality]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "9"
+    section: "2"
+    pages: ""
+    role_in_book: "States that two finite Boolean algebras are isomorphic iff they have the same cardinality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

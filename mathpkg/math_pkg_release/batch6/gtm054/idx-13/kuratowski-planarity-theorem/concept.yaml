@@ -1,0 +1,23 @@
+id: kuratowski-planarity-theorem
+title_en: "Kuratowski's Planarity Theorem"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [kuratowski, planarity, subcontraction, k5, k33, multigraph, planar-graph]
+depends_on:
+  required: []
+  recommended: [subcontraction, planar-graph, planar-imbedding, lobe]
+  suggested: [complete-graph-k5, complete-bipartite-graph-k33, euler-formula]
+source_books:
+  - book_id: gtm054
+    author: "Graver, J.E. and Watkins, M.E."
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "III"
+    section: "13 (III.G Kuratowski's Theorem)"
+    pages: "104-107"
+    role_in_book: "Theorem G1: The central result of Chapter III.G, characterizing planar multigraphs by forbidden subcontractions $K_5$ and $K_{3,3}$. A milestone theorem in topological graph theory."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: infinite-recurrence-in-recurrent-class
+title_en: "Infinite Recurrence in a Recurrent Class"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, recurrent-class, infinite-visits, almost-sure]
+depends_on:
+  required: [recurrent-classes-are-closed-and-maximal, identities-for-first-return-probabilities]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "7. Classification of states"
+    pages: ""
+    role_in_book: "Proposition 4-27: In a recurrent class, every state is visited infinitely often with probability one"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

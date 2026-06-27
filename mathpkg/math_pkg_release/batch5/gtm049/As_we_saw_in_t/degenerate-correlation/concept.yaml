@@ -1,0 +1,23 @@
+id: degenerate-correlation
+title_en: "Degenerate Correlation"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [degenerate-correlation, degenerate-polarity, bilinear-form, projective-geometry]
+depends_on:
+  required: [correlation, degenerate-bilinear-form]
+  recommended: [polarity]
+  suggested: []
+source_books:
+  - book_id: gtm049
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "5.5"
+    pages: "110"
+    role_in_book: "Defines degenerate correlations and degenerate polarities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

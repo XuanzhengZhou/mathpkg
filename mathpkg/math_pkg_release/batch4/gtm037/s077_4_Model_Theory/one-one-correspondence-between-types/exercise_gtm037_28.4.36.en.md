@@ -1,0 +1,10 @@
+---
+role: exercise
+locale: en
+chapter: "28"
+section: "4"
+exercise_number: 36
+---
+
+Let $\Gamma$ be a theory in a language $\mathcal{L}$, and let $\mathcal{L}$ be an expansion of $\mathcal{L}$ by adjoining $m$ new individual constants, where $m \in \omega$. Show that there is a one-one correspondence between 1-types over $\Gamma$ in $\mathcal{L}$ and $(m + 1)$-types over $\Gamma$ in $\mathcal{L}$. (See the proof of 28.7.)
+

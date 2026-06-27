@@ -1,0 +1,94 @@
+If a random walk satisfies conditions (a) through (d) of P1, then for any finite subset $A$ of $R$
+
+(1) $\lim_{|z| \to \infty} |x| H_A(x,y) = \frac{1}{2\pi\sigma^2} E_A^*(y), \quad \lim_{|z| \to \infty} |x| H_A(x) = \frac{C(A)}{2\pi\sigma^2},$
+
+and
+
+(2) $\lim_{|z| \to \infty} \frac{H_A(x,y)}{H_A(x)} = \frac{E_A^*(y)}{C(A)}$.
+
+Observe that part (2) is a far weaker statement than (1). It does not depend at all on the full strength of P1, but will hold whenever the Green function has the property
+
+$$\lim_{|z| \to \infty} \frac{G(x,y)}{G(x,0)} = 1, \quad y \in R.$$
+
+E1 It was observed by Ciesielski and Taylor ([14], 1962) that two interesting random variables associated with the Brownian motion process have the same probability distribution: the time until $d$-dimensional Brownian motion first leaves the unit sphere has the same distribution as the total time spent by $(d + 2)$-dimensional Brownian motion in the unit sphere. (This makes sense, Brownian motion in dimension $d + 2 \geq 3$ being transient. Incidentally both Brownian motions must start at the origin, for the theorem to hold.)
+
+We shall take the case $d = 1$, and use P1 to prove an analogous theorem for random walk. For one-dimensional random walk, let $T_n$ denote the first time outside the interval $[-n,n]$. When the random walk has mean 0 and finite variance $\sigma^2$, and starts at the origin, it was shown in T23.2 that
+
+(1) $\lim_{n \to \infty} P_0 \
+
+so that $N_r$ is the total time spent in the sphere $[x \mid |x| \leq r]$. ($N_r$ is finite, since the random walk is transient.) We shall show that
+
+(2) $$\lim_{r \to \infty} P_0 \left[ N_r > \frac{r^2 x}{\sigma^2} \right] = 1 - F(x),$$
+
+with $\sigma^2$ as defined in P1, and $F(x)$ the same distribution function as in equation (1) above.
+
+The proof of (1) in section 23 was carried out by the method of moments. Referring to the justification given there, it will therefore suffice to prove that for $p \geq 1$
+
+(3) $$\lim_{r \to \infty} E_0 \left[ \left( \frac{\sigma^2}{r^2} N_r \right)^p \right] = p! \frac{\pi}{2} \left( \frac{8}{\pi^2} \right)^{p+1} \sum_{k=0}^{\infty} \frac{(-1)^k}{(2k+1)^{2p+1}},$$
+
+these limits being the moments of $F(x)$, given in P23.3. The main idea of the proof of (3) will be clear if we consider the cases $p = 1$ and $p = 2$.
+
+Letting $p = 1$,
+
+(4) $$E_0 [N_r] = E_0 \left[ \sum_{k=0}^{\infty} \chi_r(x_k) \right] = E_0 \left[ \sum_{x \mid |x| \leq r} \sum_{k=0}^{\infty} \delta(x, x_k) \right]$$
+
+$$= \sum_{x \mid |x| \leq r} \sum_{k=0}^{\infty} P_k(0,x) = \sum_{x \mid |x| \leq r} G(0,x).$$
+
+Using P1 we obtain, asymptotically as $r \to \infty$,
+
+(5) $$E_0 [N_r] \sim \frac{1}{2\pi\sigma^2} \sum_{x \mid |
+
+The dominant term in (6) is of course the one of order $r^4$, and the method by which it was derived generalizes, to give for arbitrary $p \geq 1$,
+
+$$E_0[(N_r)^p] \sim p! \sum_{|x_1| \leq r} \dots \sum_{|x_p| \leq r} G(0,x_1)G(x_1,x_2) \dots G(x_{p-1},x_p)$$
+
+$$\sim p!\left(\frac{r^2}{2\pi\sigma^2}\right)^p \int_{|\alpha_1| \leq 1} \dots \int_{|\alpha_p| \leq 1} \frac{d\alpha_1}{|\alpha_1|} \frac{d\alpha_2}{|\alpha_2 - \alpha_1|} \dots \frac{d\alpha_p}{|\alpha_p-1 - \alpha_p|}.$$
+
+Let us denote the Newtonian potential kernel by $K(\alpha,\beta)$, for $\alpha,\beta$ in the unit sphere of three-dimensional Euclidean space $E$. Then
+
+$$|\alpha - \beta|^{-1} = K(\alpha,\beta) = K_1(\alpha,\beta), K_{p+1}(\alpha,\beta) = \int_{|\alpha| \leq 1} K_p(\alpha,\gamma)K(\gamma,\beta) d\gamma,$$
+
+are the iterates of the kernel $K$, restricted to the unit sphere, and equation (7) may be written in the form
+
+$$E_0[N_r^p] \sim p!\left(\frac{r^2}{2\pi\sigma^2}\right)^p \int_{|\alpha| \leq 1} K_p(0,\alpha) d\alpha.$$
+
+Comparing equation (8) with equation (3), which we are striving to prove, it is seen that (3) is equivalent to
+
+$$\int_{|\alpha| \leq 1} K_p(0,\alpha) d\alpha = \frac{4}{\pi}\left(\frac{16}{\pi}\right)^p \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)^{
+
+and from $|\beta| > |\alpha| = r$. The second part is conveniently evaluated at $|\alpha| = 0$ (since it is constant!) and in this way one gets
+
+(10) $$Kf(\alpha) = \int_{|\beta| \leq 1} \frac{f(\beta)}{|\alpha - \beta|} d\beta$$
+$$= \frac{4\pi}{r} \int_{0}^{r} \tilde{f}(\rho) \rho^2 d\rho + 4\pi \int_{r}^{1} \tilde{f}(\rho) \rho d\rho,$$
+
+if $|\alpha| = r$ and $f(\beta) = \tilde{f}(\rho)$ when $|\beta| = \rho$.
+
+Suppose now that $f$ is a spherically symmetric eigenfunction of $K$, i.e., that $f = \lambda Kf$ on the unit ball, for some $\lambda \neq 0$. It is convenient to write $r\tilde{f}(r) = \phi(r)$, for then it follows from equation (10) that $f = \lambda Kf$ assumes the simple form
+
+(11) $$\phi(r) = 4\pi \lambda \int_{0}^{1} \phi(\rho) \min(\rho,r) d\rho, \quad 0 \leq r \leq 1.$$
+
+In other words we are looking for the eigenfunctions of the integral operator $4\pi \min(\rho,r)$ which has every desirable property (it is symmetric, positive, and completely continuous; hence its eigenfunctions form a complete orthonormal set, and Mercer's theorem applies). Differentiating (11) one gets
+
+(12) $$\phi''(r) + 4\pi \lambda \phi(r) = 0, \quad 0 \leq r \leq 1,$$
+
+and the boundary conditions are easily seen to be
+
+(13) $$\phi(0) = \phi'(1) = 0.$$
+
+The solutions of (12) and (13) are
+
+(14) $$\lambda_n = \frac{\pi}{16} (2n + 1)^2, \quad \phi_n(r) = \sqrt{2} \
+
+Hence $\psi_p$ is the result of applying the $(p - 1)$st iterate of $4\pi \min (\rho, r)$ to the function $\psi_1(r) \equiv 1$. By Mercer's theorem (see P21.3)
+
+$$\psi_p(r) = \sum_{n=0}^{\infty} \int_0^1 \frac{\phi_n(r)\phi_n(\rho)}{(\lambda_n)^{p-1}} d\rho.$$
+
+Finally,
+
+$$\int_{|\alpha| \leq 1} K_p(0, \alpha) d\alpha = 4\pi \int_0^1 \psi_p(r) r dr$$
+
+$$= \sum_{n=0}^{\infty} \frac{4\pi}{(\lambda_n)^{p-1}} \int_0^1 \phi_n(r) r dr \int_0^1 \phi_n(\rho) d\rho,$$
+
+and straightforward computation using (14) shows that (9) is true. That proves the limit theorem in equation (2) for the time $N_r$ spent in a sphere of radius $r$ by the three-dimensional random walk.
+
+A still deeper application of P1 yields a characterization of the infinite transient sets (all finite sets are of course transient). The following criterion (for simple random walk) was recently discovered (1959) by Itô and McKean [46].

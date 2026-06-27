@@ -1,0 +1,23 @@
+id: closure-operators-p-m-s
+title_en: "P, M, and S as Closure Operators"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [closure-operator, quasivariety, m-morphism, split-epimorphism, product]
+depends_on:
+  required: [m-s-operators]
+  recommended: [quasivariety, birkhoff-subcategory]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "4"
+    section: "2. If every equalizer is in M"
+    pages: ""
+    role_in_book: "Establishes that P, M, S are closure operators and uses this to prove MP(A) and SMP(A) are quasivarieties"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

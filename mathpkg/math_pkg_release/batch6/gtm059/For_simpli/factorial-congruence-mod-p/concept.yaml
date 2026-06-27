@@ -1,0 +1,23 @@
+id: factorial-congruence-mod-p
+title_en: "Factorial Congruence modulo Prime Powers"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: intermediate
+tags: [factorial, congruence, stickelberger, bernoulli, p-adic]
+depends_on:
+  required: []
+  recommended: [congruence, p-adic-valuation, binomial-coefficient]
+  suggested: [stickelberger-theorem, bernoulli-numbers]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields I and II"
+    chapter: "2"
+    section: "The Davenport-Hasse Distribution"
+    pages: ""
+    role_in_book: "Technical lemma for the proof of Stickelberger's theorem and the Davenport-Hasse distribution"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

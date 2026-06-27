@@ -1,0 +1,23 @@
+id: duality-isomorphism-for-finite-cw-complexes
+title_en: "Duality Isomorphism for Finite CW-Complexes"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: stable-homotopy
+difficulty: intermediate
+tags: [n-duality, cw-complex, isomorphism, s-map, smash-product]
+depends_on:
+  required: [n-duality, s-map, finite-cw-complex, smash-product]
+  recommended: [puppe-sequence, induction-on-cells]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "3"
+    pages: "234-236"
+    role_in_book: "Extends the n-duality isomorphism from spheres to arbitrary finite CW-complexes Z"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: free-ideal-contains-nonzero-fixed-ideals
+title_en: "Every Free Ideal Contains Nonzero Fixed Ideals"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [free-ideal, fixed-ideal, C(X), C*(X), principal-ideal]
+depends_on:
+  required: [free-ideal, fixed-ideal, principal-ideal-nonempty-zeroset-fixed]
+  recommended: [principal-ideal]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4.2"
+    pages: "64-65"
+    role_in_book: "Structural result showing free ideals always contain nontrivial fixed sub-ideals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

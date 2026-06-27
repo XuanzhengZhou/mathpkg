@@ -1,0 +1,23 @@
+id: symmetric-algebra
+title_en: "Symmetric Algebra"
+title_zh: "对称代数"
+type: definition
+domain: algebra
+subdomain: universal-algebra
+difficulty: intermediate
+tags: [tensor-product, symmetric-tensor, graded-algebra, universal-property, commutative-algebra, polynomial-algebra]
+depends_on:
+  required: [tensor-algebra]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "V"
+    section: "17"
+    pages: "92"
+    role_in_book: "Constructed in order to define the associated graded algebra of the universal enveloping algebra; its isomorphism to the polynomial algebra is used in the PBW Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

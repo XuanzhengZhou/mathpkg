@@ -1,0 +1,23 @@
+id: function-equivalence-not-recursive
+title_en: "Non-recursiveness of the equivalence relation on indices of partial recursive functions"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: recursion-theory
+difficulty: intermediate
+tags: [recursion-theory, rice-theorem, function-equivalence, non-recursiveness]
+depends_on:
+  required: [rices-theorem]
+  recommended: [partial-recursive-function]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "Ebbinghaus, Flum, Thomas"
+    title: "Mathematical Logic"
+    chapter: "5"
+    section: "1. Recursive Function Theory"
+    pages: ""
+    role_in_book: "Corollary 5.21 — Rice's theorem applied to function equivalence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

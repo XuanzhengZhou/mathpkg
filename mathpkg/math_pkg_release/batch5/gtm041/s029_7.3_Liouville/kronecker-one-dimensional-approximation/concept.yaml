@@ -1,0 +1,23 @@
+id: kronecker-one-dimensional-approximation
+title_en: "Kronecker's One-Dimensional Approximation Theorem"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-approximation
+difficulty: intermediate
+tags: [kronecker, linear-form, irrational, approximation]
+depends_on:
+  required: [fractional-parts-dense]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "7"
+    section: "7.4"
+    pages: ""
+    role_in_book: "Extends density result to arbitrary real α without the restriction 0 ≤ α ≤ 1"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

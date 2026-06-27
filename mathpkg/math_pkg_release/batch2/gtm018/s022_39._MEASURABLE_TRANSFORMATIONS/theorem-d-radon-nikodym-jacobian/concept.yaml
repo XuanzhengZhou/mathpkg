@@ -1,0 +1,23 @@
+id: theorem-d-radon-nikodym-jacobian
+title_en: "Theorem D: Radon-Nikodym Derivative as Generalized Jacobian"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [radon-nikodym, jacobian, change-of-variables, pushforward-measure]
+depends_on:
+  required: [theorem-c-change-of-variables, radon-nikodym-theorem, pushforward-measure, totally-sigma-finite-measure, absolutely-continuous-measure]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "VIII"
+    section: "39. Measurable Transformations"
+    pages: ""
+    role_in_book: "General change-of-variables with Radon-Nikodym derivative as Jacobian"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

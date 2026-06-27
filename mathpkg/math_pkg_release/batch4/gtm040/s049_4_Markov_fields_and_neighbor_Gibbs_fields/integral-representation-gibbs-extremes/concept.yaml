@@ -1,0 +1,23 @@
+id: integral-representation-gibbs-extremes
+title_en: "Integral Representation of Gibbs Measures by Extreme Measures"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-fields
+difficulty: advanced
+tags: [gibbs-field, extreme-measure, integral-representation, choquet-theory, martin-boundary, harmonic-measure]
+depends_on:
+  required: [regular-function-gibbs-bijection, extreme-points-nonempty-gibbs]
+  recommended: [martin-boundary-theory, choquet-integral-representation]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "12"
+    section: "4"
+    pages: "447-455"
+    role_in_book: "Provides the integral representation of any Gibbs measure as an integral over extreme Gibbs measures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

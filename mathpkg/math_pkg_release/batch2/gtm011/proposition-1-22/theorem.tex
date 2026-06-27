@@ -1,0 +1,35 @@
+Suppose $\mathcal{F} \subset C(G, \Omega)$ is equicontinuous at each point of $G$; then $\mathcal{F}$
+
+and Proposition 1.16 implies there are functions $f_1, \ldots, f_n$ in $\mathcal{F}$ such that for each $f$ in $\mathcal{F}$ there is at least one $f_k$ with
+
+$$\sup \{d(f(z), f_k(z)) : z \in K\} < \frac{\epsilon}{3}.$$
+
+But since each $f_k$ is continuous there is a $\delta, 0 < \delta < R$, such that $|z - z_0| < \delta$ implies that
+
+$$d(f_k(z), f_k(z_0)) < \frac{\epsilon}{3}$$
+
+for $1 \leq k \leq n$. Therefore, if $|z - z_0| < \delta$, $f \in \mathcal{F}$, and $k$ is chosen so that (1.24) holds, then
+
+$$d(f(z), f(z_0)) \leq d(f(z), f_k(z)) + d(f_k(z), f_k(z_0)) + d(f_k(z_0), f(z_0))$$
+
+$$< \epsilon$$
+
+That is, $\mathcal{F}$ is equicontinuous at $z_0$.
+
+Now suppose $\mathcal{F}$ satisfies conditions (a) and (b); it must be shown that $\mathcal{F}$ is normal. Let $\{z_n\}$ be the sequence of all points in $G$ with rational real and imaginary parts (so for $z$ in $G$ and $\delta > 0$ there is a $z_n$ with $|z - z_n| < \delta$). For each $n \geq 1$ let
+
+$$X_n = \{f(z_n) : f \in \mathcal{F}\}^- \subset \Omega;$$
+
+from part (a), $(X_n, d)$ is a compact metric space. Thus, by Proposition 1.18, $X = \prod_{n=1}^{\infty} X_n$ is a compact metric space. For $f$ in $\mathcal{F}$ define $\tilde{f}$ in $X$ by
+
+$$\tilde{f} = \{f(z_1), f(z_2), \ldots\}.$$
+
+Let $\{f_k\}$ be a sequence
+
+point of $G$ it is equicontinuous on $K_1$ by Proposition 1.22. So choose $\delta$, $0 < \delta < \frac{1}{2}R$, such that
+
+$$d(f(z), f(z')) < \frac{\epsilon}{3}$$
+
+for all $f$ in $\mathcal{F}$ whenever $z$ and $z'$ are in $K_1$ with $|z - z'| < \delta$. Now let $D$ be the collection of points in $\{z_n\}$ which are also points in $K_1$; that is
+
+$$D = \{z_n : z_n \in K_1\}$$

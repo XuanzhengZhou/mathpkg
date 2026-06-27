@@ -1,0 +1,14 @@
+id: separating-family-cardinal-bound
+title_en: "Cardinality Bound for Finite Separating Families"
+title_zh: ""
+type: corollary
+domain: foundations
+subdomain: set-theory
+difficulty: intermediate
+tags: [separating-family, cardinality-bound, quasi-disjoint, Erdos-Rado]
+depends_on: {required: [finite-quasi-disjoint-bound], recommended: [erdos-rado, quasi-disjoint], suggested: []}
+source_books:
+  - {book_id: "gtm008", author: "Gaisi Takeuti, Wilson M. Zaring", title: "Axiomatic Set Theory", chapter: "5", section: "21. A Proof of Marczewski's Theorem", pages: "", role_in_book: "Corollary 21.4: if each A_t is finite and B_t has size ≤ γ, with separating property, then |T| ≤ γ"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

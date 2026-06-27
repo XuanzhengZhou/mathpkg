@@ -1,0 +1,23 @@
+id: liouvilles-theorem
+title_en: "Liouville's Theorem (on Geodesics in a Liouville Line Element)"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: advanced
+tags: [liouville, geodesic, liouville-line-element, conserved-quantity, first-integral]
+depends_on:
+  required: [geodesic-equation, liouville-line-element, clairauts-theorem]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.7"
+    pages: "pp. 129–132"
+    role_in_book: "Characterizes geodesics on surfaces with a Liouville line element via a conserved quantity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

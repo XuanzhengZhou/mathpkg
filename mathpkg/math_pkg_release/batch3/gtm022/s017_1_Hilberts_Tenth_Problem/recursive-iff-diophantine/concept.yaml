@@ -1,0 +1,23 @@
+id: recursive-iff-diophantine
+title_en: "Recursive Functions are Exactly the Diophantine Functions"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: recursion-theory
+difficulty: advanced
+tags: [recursive-functions, diophantine, hilberts-tenth-problem, computability, matiyasevich-theorem, davis-putnam-robinson]
+depends_on:
+  required: [recursive-functions-characterization, diophantine-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "Donald W. Barnes, John M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "10"
+    section: "1"
+    pages: ""
+    role_in_book: "Fundamental theorem linking recursive functions to Diophantine equations; implies unsolvability of Hilbert's Tenth Problem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

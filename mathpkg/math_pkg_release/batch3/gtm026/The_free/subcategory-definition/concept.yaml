@@ -1,0 +1,23 @@
+id: subcategory-definition
+title_en: "Subcategory, Literal Subcategory, and Full Subcategory"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: basic
+tags: [subcategory, literal-subcategory, full-subcategory, monomorphism, category-of-categories]
+depends_on:
+  required: [category, functor]
+  recommended: [monomorphism, subobject, inclusion-functor]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "Free Objects"
+    pages: "123-125"
+    role_in_book: "Definition 2.6 — categorical treatment of subcategories and their representations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

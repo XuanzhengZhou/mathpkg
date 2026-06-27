@@ -1,0 +1,23 @@
+id: linearity-condition-for-planar-ternary-ring
+title_en: "Linearity Condition for Planar Ternary Ring"
+title_zh: "平面三元环的线性条件"
+type: theorem
+domain: geometry
+subdomain: projective-planes
+difficulty: intermediate
+tags: [planar-ternary-ring, linear-ptr, configurational-condition, projective-plane]
+depends_on:
+  required: [planar-ternary-ring, coordinatization-of-projective-plane]
+  recommended: [p-l-transitivity, p-l-desarguesian]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D. R. Hughes, F. C. Piper"
+    title: "Projective Planes"
+    chapter: "VI"
+    section: "2"
+    pages: "138-139"
+    role_in_book: "Characterizes when a planar ternary ring is linear via a configurational condition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: canonical-isomorphism-to-w-sections
+title_en: "Canonical Isomorphism from Generalized Sections to Sections of W(S)"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: sheaf-theory
+difficulty: intermediate
+tags: [sheaf, generalized-section, isomorphism, flabby-resolution]
+depends_on:
+  required: [flabby-resolution-sheaf-w, generalized-sections]
+  recommended: [presheaf-to-sheaf-isomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm038
+    author: "Grauert, H.; Fritzsche, K."
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Theorem 1.2(1): The canonical map from generalized sections to sections of W(S) is an isomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

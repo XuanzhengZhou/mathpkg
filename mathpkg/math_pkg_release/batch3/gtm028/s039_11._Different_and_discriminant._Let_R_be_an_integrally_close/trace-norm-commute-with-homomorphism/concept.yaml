@@ -1,0 +1,23 @@
+id: trace-norm-commute-with-homomorphism
+title_en: "Trace and Norm Commute with Homomorphism"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [trace, norm, homomorphism, dedekind-domain, field-polynomial, prime-ideal, residue-field]
+depends_on:
+  required: [trace-form, norm, field-polynomial, dedekind-domain, prime-ideal-decomposition]
+  recommended: [characteristic-polynomial, separable-extension, integral-closure]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "IV"
+    section: "11. Different and discriminant"
+    pages: ""
+    role_in_book: "Lemma 1: describes how trace and norm behave under passage to residue fields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

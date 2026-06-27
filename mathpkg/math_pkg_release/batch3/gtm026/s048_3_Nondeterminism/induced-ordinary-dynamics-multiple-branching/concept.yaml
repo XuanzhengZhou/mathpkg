@@ -1,0 +1,13 @@
+id: induced-ordinary-dynamics-multiple-branching
+title_en: "Induced Ordinary Dynamics from Multiple Branching Dynamics"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: universal-algebra
+difficulty: intermediate
+tags: [multiple-branching, dynamics, nondeterminism, induced-dynamics, reachability, subset-theory]
+depends_on: {required: ["canonical-map-nonempty-subset-theory", "multiple-branching-dynamics"], recommended: ["lambda-algebra"], suggested: ["fuzzy-automaton"]}
+source_books: [{book_id: "gtm026", author: "Ernest G. Manes", title: "Algebraic Theories", chapter: "4", section: "3", pages: "317-319", role_in_book: "Defines the ordinary (deterministic) dynamics $\delta^\bullet$ induced by a multiple branching dynamics $\delta$"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

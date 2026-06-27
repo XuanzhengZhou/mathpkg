@@ -1,0 +1,13 @@
+id: grp-has-all-small-colimits
+title_en: "The Category of Groups Has All Small Colimits"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [group, colimit, coproduct, free-product, Grp, cocomplete]
+depends_on: {required: [finite-coproducts-plus-directed-colimits-equals-all-coproducts, filtered-colimits-in-grp, coequalizer], recommended: [free-product], suggested: []}
+source_books: [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "IX", section: "Special Limits", pages: "", role_in_book: "Corollary: Grp is cocomplete; the coproduct is the free product"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

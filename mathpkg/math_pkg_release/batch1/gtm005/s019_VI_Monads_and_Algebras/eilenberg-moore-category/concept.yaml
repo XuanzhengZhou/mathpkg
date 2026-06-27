@@ -1,0 +1,23 @@
+id: eilenberg-moore-category
+title_en: "Theorem 1: Every Monad is Defined by its T-Algebras (Eilenberg-Moore Construction)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [monad, t-algebra, eilenberg-moore-category, adjunction, free-forgetful-adjunction]
+depends_on:
+  required: [definition-of-monad, definition-of-t-algebra, definition-of-t-algebra-morphism, definition-of-adjunction]
+  recommended: [monad-from-adjunction]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "1. Monads in a Category"
+    pages: "139-140"
+    role_in_book: "Central theorem: every monad arises from the Eilenberg-Moore adjunction between the base category and the category of its algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

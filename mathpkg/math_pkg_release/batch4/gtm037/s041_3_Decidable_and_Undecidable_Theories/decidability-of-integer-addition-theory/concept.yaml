@@ -1,0 +1,23 @@
+id: decidability-of-integer-addition-theory
+title_en: "Decidability of the Theory of (ℤ, +)"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [decidability, presburger-arithmetic, integer-addition, quantifier-elimination]
+depends_on:
+  required: [decidability-of-gamma2]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J.L. Bell, M. Machover"
+    title: "A Course in Mathematical Logic"
+    chapter: "13"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 13.10 — the first-order theory of the integers with addition alone is decidable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

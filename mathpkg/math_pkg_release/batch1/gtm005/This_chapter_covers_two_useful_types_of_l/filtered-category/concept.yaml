@@ -1,0 +1,20 @@
+id: filtered-category
+title_en: "Filtered Category"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [filtered-category, directed-category, limits, colimits]
+depends_on: {required: [directed-preorder], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IX"
+    section: "1. Filtered Limits"
+    pages: ""
+    role_in_book: "Generalizes directed preorders to categories; basis for filtered colimits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

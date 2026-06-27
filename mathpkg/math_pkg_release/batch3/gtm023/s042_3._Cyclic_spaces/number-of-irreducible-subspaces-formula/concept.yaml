@@ -1,0 +1,23 @@
+id: number-of-irreducible-subspaces-formula
+title_en: "Formula for the Number of Irreducible Subspaces"
+title_zh: "不可约子空间个数的公式"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [jordan-canonical-matrix, irreducible-subspace, decomposition-into-irreducible-subspaces]
+  recommended: [rank, nilpotent-transformation, dimension]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "The numbers N_kappa of irreducible subspaces of dimension p*kappa are uniquely determined by the ranks of f(varphi)^j"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

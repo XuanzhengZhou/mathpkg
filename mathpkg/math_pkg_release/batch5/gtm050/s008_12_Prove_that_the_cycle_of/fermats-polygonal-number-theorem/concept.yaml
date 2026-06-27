@@ -1,0 +1,23 @@
+id: fermats-polygonal-number-theorem
+title_en: "Fermat's Polygonal Number Theorem"
+title_zh: "费马多边形数定理"
+type: theorem
+domain: number-theory
+subdomain: additive-number-theory
+difficulty: advanced
+tags: [polygonal-numbers, fermat, lagrange, gauss, sums-of-squares, triangular-numbers, pentagonal-numbers, hexagonal-numbers]
+depends_on:
+  required: [polygonal-numbers]
+  recommended: []
+  suggested: [lagranges-four-square-theorem, gausss-eureka-theorem]
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "8"
+    section: "12"
+    pages: ""
+    role_in_book: "Mentioned in Fermat's concluding summary to Carcavi of his favorite number-theoretic discoveries"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

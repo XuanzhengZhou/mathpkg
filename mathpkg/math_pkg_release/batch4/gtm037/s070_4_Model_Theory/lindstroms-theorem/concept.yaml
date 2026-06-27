@@ -1,0 +1,23 @@
+id: lindstroms-theorem
+title_en: "Lindström's Theorem"
+title_zh: "林斯特伦定理"
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [lindstrom, general-logic, first-order-logic, lowenheim-skolem, compactness, characterization, elementary-class]
+depends_on:
+  required: [general-logic, first-order-logic, elementary-class, downward-lowenheim-skolem-theorem, countable-compactness-theorem]
+  recommended: [lemma-26-23, condition-26-22]
+  suggested: [ultraproduct, elementary-equivalence]
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "26"
+    section: "4"
+    pages: ""
+    role_in_book: "First main theorem of Lindström characterizing first-order logic as the maximal logic satisfying downward Löwenheim–Skolem and countable compactness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

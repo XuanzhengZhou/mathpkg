@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+A homomorphism $f$ from $G$ with the Krull Topology to a group with the discrete topology is continuous if and only if the kernel of $f$ is a subgroup of $G$ of finite index.

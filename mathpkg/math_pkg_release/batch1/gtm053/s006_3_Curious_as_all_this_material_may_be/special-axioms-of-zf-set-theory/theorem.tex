@@ -1,0 +1,21 @@
+The following formulas are true in the standard interpretation of $\mathrm{L}_1\mathrm{Set}$ in the von Neumann universe $V$:
+
+\textbf{(a) Axiom of the empty set:}
+$$\forall x \; \neg (x \in \varnothing).$$
+
+\textbf{(b) Axiom of extensionality:}
+$$\forall z (z \in x \Leftrightarrow z \in y) \Leftrightarrow x = y.$$
+
+\textbf{(c) Axiom of pairing:}
+$$\forall u \forall w \exists x \forall z (z \in x \Leftrightarrow z = u \vee z = w).$$
+
+\textbf{(d) Axiom of the union:}
+$$\forall x \exists y \forall u (\exists z (u \in z \wedge z \in x) \Leftrightarrow u \in y).$$
+
+\textbf{(e) Axiom of the power set:}
+$$\forall x \exists y \forall z (z \subset x \Leftrightarrow z \in y),$$
+where $z \subset x$ abbreviates $\forall u (u \in z \Rightarrow u \in x)$.
+
+\textbf{(f) Axiom of regularity:}
+$$\forall x (\neg x = \varnothing \Rightarrow \exists y (y \in x \wedge y \cap x = \varnothing)),$$
+where $y \cap x = \varnothing$ abbreviates $\neg \exists z (z \in y \wedge z \in x)$.

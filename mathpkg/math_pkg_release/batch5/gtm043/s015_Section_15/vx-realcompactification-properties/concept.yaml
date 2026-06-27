@@ -1,0 +1,23 @@
+id: vx-realcompactification-properties
+title_en: "Universal Properties of the Hewitt Realcompactification $vX$"
+title_zh: "Hewitt实紧化vX的万有性质"
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [vX, realcompactification, universal-property, C-embedded, Stone-extension, zero-set]
+depends_on:
+  required: [hewitt-realcompactification-vx, realcompactification, C-embedded]
+  recommended: [stone-cech-compactification, realcompact-space]
+  suggested: [equivalent-conditions-for-dense-c-embedded]
+source_books:
+  - book_id: gtm043
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "8"
+    section: "8.7"
+    pages: ""
+    role_in_book: "Main theorem: existence and universal properties of the Hewitt realcompactification"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

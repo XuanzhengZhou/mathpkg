@@ -1,0 +1,23 @@
+id: flabby-resolution-sheaf-w
+title_en: "The Flabby Resolution Sheaf W(S)"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: sheaf-theory
+difficulty: intermediate
+tags: [sheaf, flabby, generalized-section, presheaf, resolution]
+depends_on:
+  required: [generalized-sections]
+  recommended: [presheaf-to-sheaf, restriction-map]
+  suggested: []
+source_books:
+  - book_id: gtm038
+    author: "Grauert, H.; Fritzsche, K."
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Constructs the sheaf W(S) from generalized sections, producing a flabby sheaf"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

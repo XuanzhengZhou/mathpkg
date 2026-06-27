@@ -1,0 +1,23 @@
+id: six-mutually-skew-lines-cubic-surface
+title_en: "Six Mutually Skew Lines Determine a Cubic Surface"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [cubic-surface, lines-on-surfaces, blow-down, birational-map]
+depends_on:
+  required: [twenty-seven-lines, cubic-surface, blowing-up]
+  recommended: [schlafli-double-six, blowing-down]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Proposition 4.10; any six mutually skew lines on a cubic surface can be blown down"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

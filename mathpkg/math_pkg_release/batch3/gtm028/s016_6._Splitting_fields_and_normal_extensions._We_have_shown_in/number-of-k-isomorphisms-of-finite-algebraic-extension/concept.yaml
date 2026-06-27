@@ -1,0 +1,23 @@
+id: number-of-k-isomorphisms-of-finite-algebraic-extension
+title_en: "Theorem 16: Number of k-Isomorphisms of a Finite Algebraic Extension"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: field-theory
+difficulty: advanced
+tags: [k-isomorphism, separable-degree, inseparable-degree, finite-algebraic-extension, normal-extension]
+depends_on:
+  required: [separable-degree, inseparable-degree, finite-extension]
+  recommended: [normal-extension, isomorphism-extensions-in-field-tower]
+  suggested: [separable-extension, purely-inseparable-extension]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "II"
+    section: "6. Splitting fields and normal extensions"
+    pages: "84-91"
+    role_in_book: "Determines the exact number of k-isomorphisms of a finite algebraic extension into a normal extension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

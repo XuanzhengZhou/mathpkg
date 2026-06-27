@@ -1,0 +1,23 @@
+id: quantifier-elimination-to-basic-formulas
+title_en: "Quantifier Elimination to Basic Formulas in Presburger Arithmetic"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [quantifier-elimination, presburger-arithmetic, decidability, basic-formulas, gamma2]
+depends_on:
+  required: [basic-formula]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J.L. Bell, M. Machover"
+    title: "A Course in Mathematical Logic"
+    chapter: "13"
+    section: "3"
+    pages: ""
+    role_in_book: "Lemma 13.8 — key quantifier elimination lemma reducing any formula to a quantifier-free combination of basic formulas under the theory Γ₂"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

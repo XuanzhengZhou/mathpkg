@@ -1,0 +1,23 @@
+id: closed-geodesic-compact-isometry
+title_en: "Closed Geodesics for Isometries of Compact Surfaces"
+title_zh: "紧曲面上等距映射的闭合测地线"
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [closed-geodesic, compact-surface, isometry, fixed-point-free, distance-function, variational-method]
+depends_on:
+  required: [compact-surface, isometry, closed-geodesic-from-fundamental-group, distance-function-manifold]
+  recommended: [geodesic, first-variation-formula, covering-transformation-fixed-point-free]
+  suggested: [gauss-bonnet-theorem, hopf-rinow-theorem]
+source_books:
+  - book_id: gtm051
+    author: "W. Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.7"
+    pages: ""
+    role_in_book: "Extension of Theorem 6.7.1 to isometries on compact surfaces, proving existence of invariant closed geodesics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

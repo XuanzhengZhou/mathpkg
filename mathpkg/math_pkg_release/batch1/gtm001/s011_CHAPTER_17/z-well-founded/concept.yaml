@@ -1,0 +1,20 @@
+id: z-well-founded
+title_en: "Z-Well-Founded Direct Limit System"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [direct-limit, well-founded, elementary-submodel, silver-machines]
+depends_on: {required:[kappa-direct-limit-system], recommended:[elementary-submodel], suggested:[]}
+source_books:
+  - book_id: gtm001
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Introduction to Axiomatic Set Theory"
+    chapter: "17"
+    section: "17.4"
+    pages: ""
+    role_in_book: "Defines a relativized notion of well-foundedness for direct limit systems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

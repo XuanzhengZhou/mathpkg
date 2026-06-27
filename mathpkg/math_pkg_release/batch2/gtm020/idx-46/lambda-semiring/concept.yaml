@@ -1,0 +1,23 @@
+id: lambda-semiring
+title_en: "λ-semiring and λ-ring"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: lambda-rings
+difficulty: advanced
+tags: [lambda-ring, lambda-semiring, exterior-powers, k-theory, adams-operations]
+depends_on:
+  required: []
+  recommended: [semiring, ring, exterior-power]
+  suggested: [k-theory, representation-ring, vector-bundle]
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "13"
+    section: "1.1"
+    pages: ""
+    role_in_book: "Defines the λ-semiring and λ-ring structures used throughout Chapter 13 to study Adams operations on representation rings and K-theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

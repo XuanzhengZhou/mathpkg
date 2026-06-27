@@ -1,0 +1,23 @@
+id: mean-return-time-ii-formula
+title_en: "Mean Return Time to a Single State for Recurrent Chains"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [mean-return-time, regular-measure, recurrent-chain]
+depends_on:
+  required: [recurrent-alpha-ratio, mean-first-passage-time-matrix]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "2. Duality"
+    pages: ""
+    role_in_book: "Proposition 6-25: mean return time to state i expressed via the regular measure alpha"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

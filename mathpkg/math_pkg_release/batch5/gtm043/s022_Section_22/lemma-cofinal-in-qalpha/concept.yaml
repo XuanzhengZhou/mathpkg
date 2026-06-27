@@ -1,0 +1,23 @@
+id: lemma-cofinal-in-qalpha
+title_en: "Every Set in Q_α Has a Countable Cofinal and Coinitial Subset"
+title_zh: ""
+type: lemma
+domain: foundations
+subdomain: order-theory
+difficulty: advanced
+tags: [cofinal, coinitial, countable, transfinite-induction]
+depends_on:
+  required: [upper-elements-set-q]
+  recommended: [cofinality]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "13"
+    section: "21"
+    pages: ""
+    role_in_book: "Technical lemma for η₁ property of Q"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

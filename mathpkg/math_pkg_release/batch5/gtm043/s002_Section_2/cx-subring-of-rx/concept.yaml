@@ -1,0 +1,23 @@
+id: cx-subring-of-rx
+title_en: "C(X) is a subring of R^X"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-functions
+difficulty: basic
+tags: [cx, subring, continuous-functions, algebraic-closure]
+depends_on:
+  required: [ring-of-continuous-functions-cx, rx-commutative-ring-with-unity]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.3"
+    pages: ""
+    role_in_book: "Establishes C(X) as an algebraic subobject of the full function ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

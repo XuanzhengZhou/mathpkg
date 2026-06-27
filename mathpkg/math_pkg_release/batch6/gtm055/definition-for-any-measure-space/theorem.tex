@@ -1,0 +1,37 @@
+For any measure space $(X, \mathbf{S}, \mu)$ the normed spaces $\mathcal{L}_p(X, \mathbf{S}, \mu)$, $1 \leq p \leq +\infty$, are known as the Lebesgue spaces on $X$.
+
+Example A. Let $(X, \mathbf{S}, \mu)$ be a finite measure space, and suppose $1 \leq p \leq p' < +\infty$. If $f$ is an arbitrary element of $\mathcal{L}_p'(X)$, and if we write
+
+$$E = \{x \in X : |f(x)| < 1\},$$
+
+then
+
+$$\int_X |f|^p d\mu = \left( \int_E + \int_{X \setminus E} \right) |f|^p d\mu \leq \mu(X) + \int_X |f|^{p'} d\mu < +\infty.$$
+
+Thus $\mathcal{L}_p'(X) \subset \mathcal{L}_p(X)$ when $1 \leq p \leq p' < +\infty$ and $\mu(X) < +\infty$. Moreover, it is clear that $\mathcal{L}_\infty(X
+
+defines a bounded linear operator $J$ on $\mathcal{L}_p([a, b])$. Indeed, for $p = +\infty$ it is clear that $J$ is bounded and that, in fact, $\| J \| = b - a$. To take care of the case $1 \leq p < +\infty$ we define the function
+
+$$V(x, t) = \begin{cases} 1, & a \leq t \leq x \leq b, \\ 0, & a \leq x < t \leq b, \end{cases}$$
+
+on the square $[a, b] \times [a, b]$. Then
+
+$$(Jf)(x) = \int_a^b V(x, t) f(t) dt, \quad a \leq x \leq b, \quad f \in \mathcal{L}_p([a, b]).$$
+
+Hence for $p = 1$ we may use the Fubini and Tonelli theorems (Ths. 9.2 and 9.3) to write
+
+$$\| Jf \|_1 \leq \int_a^b \left[ \int_a^b V(x, t) |f(t)| dx \right] dt = \int_a^b |f(t)| (b - t) dt \leq (b - a) \| f \|_1$$
+
+for an arbitrary element $f$ of $\mathcal{L}_1([a, b])$, which shows that $\| J \| \leq b - a$. (Here, once again, it is easy to verify that $\| J \| = b - a.$) Finally, for $1 < p < +\infty$ we employ the Hölder inequality (Prob. A). If $q$ denotes the Hölder conjugate of $p$, then
+
+$$|(Jf)(x)| \leq \left[ \int_a^b V(x, t)^q dt \right]^{1/q} \| f \|_p = (x - a)^{1/q} \| f \|_p, \quad a \leq x \leq b.$$
+
+Hence $\| Jf \|_p \leq \left[ \int_a^b (x - a)^{p/q} dx \right]^{1/p}
+
+nonnegative (for we may simply replace $g_n$ by $|g_n|$). Set $h_n = g_1 + \cdots + g_n$.
+Then $\|h_n\|_p \leq \|g_1\|_p + \cdots + \|g_n\|_p$ by the Minkowski inequality (Prob. A), and consequently
+
+$$\int_X h_n^p d\mu = \|h_n\|_p^p \leq \left[ \sum_{k=1}^n \|g_k\|_p \right]^p \leq \left[ \sum_{k=1}^{\infty} \|g_n\|_p \right]^p < +\infty.$$ (3)
+
+Since $\{h_n^p\}_{n=1}^{\infty}$ is a monotone increasing sequence, it follows from the monotone convergence theorem (Th. 7.9) that the sequence $\{h_n^p\}$ converges a.e. $[\mu]$.
+Hence $\{h_n\}$ also converges a.e. $[\mu]$, and if we write $g = \lim_n h_n$, then $h_n^p \rightarrow g^p$ a.e. as well. But then by (3) we have $\int_X g^p d\mu \leq \left( \sum_{n=1}^{\infty} \|g_n\|_p \right)^p$, and the lemma follows. (The function $g$ is, in general, undefined on a set of measure zero; nevertheless, $g$ represents a unique element of $\mathcal{L}_p(X)$ according to the convention announced above.)

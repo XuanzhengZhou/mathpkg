@@ -1,0 +1,23 @@
+id: convex-set-interior-closure
+title_en: "Interior and Closure of Convex Sets in LTS"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: ["convex-set", "interior", "closure", "solid"]
+depends_on:
+  required: ["convex-set-def", "linear-topological-space"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§11"
+  section: "11.A"
+  pages: "59-60"
+  role_in_book: "topological properties of convex sets"
+content_hash: "8f0e1f2e23a5cdbf"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

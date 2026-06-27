@@ -1,0 +1,23 @@
+id: orthonormal-basis-simultaneous-eigenforms
+title_en: "Existence of orthonormal basis of simultaneous eigenforms in M_{2k,0}"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [modular-forms, cusp-forms, hecke-operators, simultaneous-eigenforms, orthonormal-basis, spectral-theorem, petersson-inner-product]
+depends_on:
+  required: []
+  recommended: [hecke-operator-tn, hecke-operators-are-hermitian, petersson-inner-product, simultaneous-eigenform]
+  suggested: [dimension-formula-cusp-form-space, simultaneous-eigenform-count-ek]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.14"
+    pages: ""
+    role_in_book: "Spectral theorem for Hecke operators: guarantees a full basis of simultaneous eigenforms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

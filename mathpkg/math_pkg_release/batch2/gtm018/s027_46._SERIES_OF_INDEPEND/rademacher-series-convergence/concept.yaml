@@ -1,0 +1,20 @@
+id: rademacher-series-convergence
+title_en: "Rademacher Series Convergence Criterion"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [probability, independent-functions, rademacher-functions, series-convergence, random-signs]
+depends_on: {required: [bounded-independent-convergence-criterion, rademacher-functions, independence], recommended: [], suggested: []}
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX. Probability"
+    section: "§46. Series of Independent Functions"
+    pages: ""
+    role_in_book: "Special case of Theorem D: random sign series converge iff coefficients are square-summable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

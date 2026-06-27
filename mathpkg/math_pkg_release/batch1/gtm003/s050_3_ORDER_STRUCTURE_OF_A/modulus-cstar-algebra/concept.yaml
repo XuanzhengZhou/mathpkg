@@ -1,0 +1,23 @@
+id: modulus-in-c-star-algebra
+title_en: "Modulus of an element in a C*-algebra"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [c-star-algebra, modulus, positive-element, square-root]
+depends_on:
+  required: [c-star-algebra, square-root-lemma-cstar]
+  recommended: [positive-element-cstar]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "3"
+    pages: ""
+    role_in_book: "Definition of the modulus |x| = sqrt(x*x)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: ninth-point-of-cubics
+title_en: "Ninth Associated Point of Eight Points in the Plane"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [cubics, base-points, bezouts-theorem, ninth-point, projective-plane]
+depends_on:
+  required: [dimension-of-cubics-with-base-points, bezouts-theorem]
+  recommended: [linear-system-with-assigned-base-points]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Corollary 4.5; classical ninth-point theorem for cubics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,11 @@
+1. $(\mathcal{A}, U) \in \text{Struct}(\mathcal{K})$ (2.3.3) and is discretely ordered (2.3.9);
+2. If $\mathcal{K}$ is locally small then $\mathcal{A}$ is locally small;
+3. If $\mathcal{K}$ is well powered (2.2.29(2)) and has kernel pairs then $\mathcal{A}$ is well powered;
+
+the rightmost square above is a pullback whenever the leftmost square is (consider the kernel pair of $iU$). It is now clear that the passage from $i$ to $iU$ is a well-defined function from monosubobjects of $A$ into monosubobjects of $AU$. It suffices to prove that this function is injective. To this end, let $i:S \rightarrow A$ and $i':S' \rightarrow A$ be monos and suppose there exists an isomorphism $f:SU \rightarrow S'U$ of subobjects as shown above. Then the rightmost square shown below is a pullback diagram,
+
+so must lift to a pullback diagram in $\mathcal{A}$ as shown on the left, above. As $id_{SU}$ and $f$ are isomorphisms in $\mathcal{A}$, $(id_{SU})^{-1}.f$ and $f^{-1}.id_{SU}$ are the desired $\mathcal{A}$-morphisms showing that $(S, i)$ and $(S', i')$ represent the same subobject of $A$. $\square$
+
+1.17 Beck Functors. A functor $U: \mathcal{A} \rightarrow \mathcal{K}$ is a Beck functor if $U$ creates limits and if $U$ creates coequalizers of $U$-absolute pairs.
+
+The proof of the following theorem is an easy exercise:

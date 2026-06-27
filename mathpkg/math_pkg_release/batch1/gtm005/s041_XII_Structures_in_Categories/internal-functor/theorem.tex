@@ -1,0 +1,25 @@
+Let $C = (C_0, C_1, i^C, d_0^C, d_1^C, \gamma^C)$ and $D = (D_0, D_1, i^D, d_0^D, d_1^D, \gamma^D)$ be internal categories in a finitely complete category $E$. An \textbf{internal functor} $f : C \to D$ consists of a pair of morphisms
+$$
+f_0 : C_0 \to D_0, \qquad f_1 : C_1 \to D_1
+$$
+in $E$, called the \textit{object} and \textit{arrow} maps respectively, such that the following diagrams commute:
+$$
+\begin{CD}
+C_1 @>{d_0^C}>> C_0 @>{i^C}>> C_1 \\
+@V{f_1}VV @V{f_0}VV @V{f_1}VV \\
+D_1 @>>{d_0^D}> D_0 @>>{i^D}> D_1
+\end{CD}
+\qquad
+\begin{CD}
+C_1 @>{d_1^C}>> C_0 \\
+@V{f_1}VV @V{f_0}VV \\
+D_1 @>>{d_1^D}> D_0
+\end{CD}
+$$
+$$
+\begin{CD}
+C_1 \times_{C_0} C_1 @>{f_1 \times f_1}>> D_1 \times_{D_0} D_1 \\
+@V{\gamma^C}VV @V{\gamma^D}VV \\
+C_1 @>>{f_1}> D_1
+\end{CD}
+$$

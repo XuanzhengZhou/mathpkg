@@ -1,0 +1,23 @@
+id: tensor-product-finite-sum-representation
+title_en: "Representation of Tensor Product Elements as Finite Sums of Elementary Tensors"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [tensor-product, elementary-tensor, finite-sum, representation]
+depends_on:
+  required: [algebraic-tensor-product-via-bilinear-forms]
+  recommended: [linear-span, bilinear-form]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "I"
+    section: "I TENSOR PRODUCTS I"
+    pages: ""
+    role_in_book: "States the fundamental representation property: every element of the algebraic tensor product can be expressed as a finite sum of elementary tensors."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

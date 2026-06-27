@@ -1,0 +1,16 @@
+1. $U$ is algebraic if and only if $U$ creates limits, $U$ creates quotients of congruences, and $U$ satisfies the solution set condition at $K$ for every set $K$.
+
+2. If $\mathcal{A}$ has a cogenerator, $U$ is algebraic if and only if $U$ creates limits and $U$ creates quotients of congruences. $\square$
+
+1.23 Compact Abelian Groups. Let $\mathcal{A}$ be the category of compact (Hausdorff) abelian groups and continuous homomorphisms and let $U: \mathcal{A} \longrightarrow \text{Set}$ be the underlying set functor. Then $U$ is algebraic. The circle group $S^1$ is a cogenerator in $\mathcal{A}$ [Hewitt and Ross '63, Theorem 22.17]. The proof that $U$ creates limits will be left as an easy exercise. The proof that $U$ creates quotients of congruences is essentially the same as in 1.14. While the circle group is, in fact, a cogenerator in the category of locally compact abelian groups the forgetful set-valued functor $V$ from this category is not algebraic. By 1.16 and 1.19 it is enough to observe that $V$ does not reflect isomorphisms. For example, let $G$ be any locally compact abelian group which is not discrete and let $H$ be the same group with the discrete topology; then the identity function $f: H \longrightarrow G$ is a continuous homomorphism of locally compact abelian groups which is not an isomorphism.
+
+The next theorem is just right
+
+Let us prove 1.25. To see that $(nT, \psi)$ is a lower bound of $DU$, we use the structure of $nT$. Let $\omega \in nT$ and suppose that $\alpha: A \longrightarrow A'$ is an edge of $D$; then $\langle \omega, \psi_{(A, f)}.\alpha U \rangle = \langle f, A\omega.\alpha U \rangle = \langle f, (\alpha U)^n.A'\omega \rangle = \langle f.\alpha U, A'\omega \rangle = \langle f', A'\omega \rangle = \langle \omega, \psi_{(A, f)} \rangle$. Now let $(L', \psi')$ be another lower bound of $DU$. Define $\Gamma: L' \longrightarrow nT$ by
+
+$$AU^n \xrightarrow{A(x\Gamma)} AU$$
+$$f \mapsto \langle x, \psi'_{(A, f)} \rangle$$
+
+To prove that $x\Gamma \in nT$ for all $x \in L'$, let $\alpha: A \longrightarrow A'$ in $\mathcal{A}$; (it will be helpful to glance at the triangle and square above). For all $f:n \longrightarrow AU$ we have $\langle f, A(x\Gamma).\alpha U \rangle = \langle x, \psi'_{(A, f)}.\alpha U \rangle = \langle x, \psi'_{(A', f).\alpha U} \rangle = \langle f.\alpha U, A'(x\Gamma) \rangle = \langle f, \alpha U^n.A'(x\Gamma) \rangle$. Since $\langle x, \Gamma.\psi_{(A, f)} \rangle = \langle f, A(x\Gamma) \rangle = \langle x, \psi'_{(A, f)} \rangle$ we have
+
+Suppose also that $\Lambda: L' \longrightarrow nT$ satisfies $\Lambda.\psi_{(A, f)} = \psi'_{(A, f)}$. Then for all $

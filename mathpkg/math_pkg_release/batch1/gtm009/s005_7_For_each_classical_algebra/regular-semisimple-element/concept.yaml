@@ -1,0 +1,23 @@
+id: regular-semisimple-element
+title_en: "Regular Semisimple Element"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [regular-element, semisimple-element, cartan-subalgebra, eigenvalues]
+depends_on:
+  required: [semisimple-endomorphism, cartan-subalgebra, general-linear-lie-algebra]
+  recommended: [root-system]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "15"
+    section: "15.Exercises"
+    pages: "91-101"
+    role_in_book: "Exercise characterizing regular semisimple elements of sl(n,F) by eigenvalue multiplicities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

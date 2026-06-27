@@ -1,0 +1,29 @@
+id: reachability-map
+title_en: "Reachability Map"
+title_zh: "可达映射"
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags:
+  - reachability
+  - automaton
+  - free-dynamics
+depends_on:
+  required:
+    - input-process
+    - free-dynamics
+    - x-automaton
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.3 Input Processes and Output Processes"
+    pages: ""
+    role_in_book: "Defines the reachability map as the dynamorphic extension of initial state"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: lagrangian-system-admits-mapping
+title_en: "Lagrangian System Admits a Mapping"
+title_zh: "拉格朗日系统容许映射"
+type: definition
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [lagrangian-mechanics, symmetry, invariant-transformation, noether-theorem]
+depends_on:
+  required: [lagrangian-function, tangent-bundle, pushforward]
+  recommended: [diffeomorphism-group, configuration-manifold]
+  suggested: [lie-group-action, symplectic-geometry]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "4"
+    section: "20"
+    pages: "102"
+    role_in_book: "Defines symmetry of a Lagrangian system, prerequisite for Noether's theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: mapping-phi-z
+title_en: "The mapping z to phi_z from C to Q"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [complex-plane, quaternions, linear-isomorphism, algebra-q]
+depends_on:
+  required: [algebra-q]
+  recommended: [inner-product-on-algebra-q]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines a linear isomorphism z → φ_z from C (as a 4-dimensional real space) onto Q, used to construct quaternionic multiplication on C."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

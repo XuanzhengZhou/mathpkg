@@ -1,0 +1,23 @@
+id: no-countable-set-cofinal-in-w
+title_en: "No Countable Set in W is Cofinal"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: general-topology
+difficulty: intermediate
+tags: [well-ordered-space, cofinal, uncountable-ordinal, cardinality]
+depends_on:
+  required: [w-and-w-star-definition]
+  recommended: [cofinal, ordinal, cardinal-arithmetic]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.12"
+    pages: ""
+    role_in_book: "Proposition 5.12(a): No countable subset of W is cofinal, a key property used to prove that continuous functions on W are eventually constant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

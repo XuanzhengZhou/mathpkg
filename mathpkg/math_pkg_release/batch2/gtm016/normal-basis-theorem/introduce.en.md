@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $K/k$ be a finite dimensional Galois extension and let $\operatorname{Aut}_k K = \{\sigma_1, \ldots, \sigma_n\}$. Then $\sigma_1(y), \ldots, \sigma_n(y)$ is a basis for $K$ over $k$ for some $y \in K$.

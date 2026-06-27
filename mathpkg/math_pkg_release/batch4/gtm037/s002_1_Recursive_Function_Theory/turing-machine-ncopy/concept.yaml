@@ -1,0 +1,23 @@
+id: turing-machine-ncopy
+title_en: "Turing Machine T_ncopy — Multi-Block Copy (n-th Block)"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability
+difficulty: intermediate
+tags: ["turing-machine", "tape-copy", "block-indexing"]
+depends_on:
+  required: ["turing-machine-copy"]
+  recommended: ["turing-machine-lseek0", "turing-machine-rseek0"]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "Ebbinghaus, Flum, Thomas"
+    title: "Mathematical Logic"
+    chapter: "1"
+    section: "1.X (Turing Machines)"
+    pages: ""
+    role_in_book: "Defines a Turing submachine that copies the n-th block to the left end of a sequence of blocks."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

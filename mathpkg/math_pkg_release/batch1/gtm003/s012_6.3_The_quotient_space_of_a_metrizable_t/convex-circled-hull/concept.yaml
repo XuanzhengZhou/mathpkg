@@ -1,0 +1,23 @@
+id: convex-circled-hull
+title_en: "Convex Circled Hull (Gamma-Hull)"
+title_zh: "凸圆包（Gamma包）"
+type: definition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [gamma-hull, convex-circled-hull, absolutely-convex]
+depends_on:
+  required: []
+  recommended: [convex-hull, circled-hull]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the gamma-hull, also called absolutely convex hull"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

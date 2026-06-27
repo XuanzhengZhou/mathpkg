@@ -1,0 +1,14 @@
+The following two types of abstract systems are equivalent:
+\begin{enumerate}
+\item Boolean algebra $(B, \cup, \cap, ')$.
+\item Boolean ring with identity $(\mathfrak{B}, +, \cdot)$.
+\end{enumerate}
+
+The correspondence is given by:
+\begin{align*}
+a + b &= (a \cap b') \cup (a' \cap b) \quad \text{(symmetric difference)}, \\
+a \cdot b &= a \cap b, \\
+a \cup b &= a + b - ab, \\
+a \cap b &= ab, \\
+a' &= 1 - a.
+\end{align*}

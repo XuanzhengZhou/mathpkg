@@ -1,0 +1,23 @@
+id: locally-bounded-topological-vector-space
+title_en: "Locally Bounded Topological Vector Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [locally-bounded, bounded-set, tvs, neighborhood-base]
+depends_on:
+  required: [bounded-set-topological-vector-space]
+  recommended: [topological-vector-space]
+  suggested: [metrizable-topological-vector-space]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "I"
+    section: "6"
+    pages: ""
+    role_in_book: "Defines locally bounded t.v.s., used in Theorem 6.2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

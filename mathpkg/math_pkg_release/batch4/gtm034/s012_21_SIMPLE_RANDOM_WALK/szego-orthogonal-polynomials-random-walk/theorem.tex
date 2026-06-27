@@ -1,0 +1,9 @@
+For symmetric one-dimensional random walk with characteristic function \(\phi(\theta)\), there exists a unique sequence of polynomials \(p_n(z) = \sum_{k=0}^{n} p_{n,k} z^k\) with \(p_{n,n} > 0\) such that
+\[
+\frac{1}{2\pi} \int_{-\pi}^{\pi} p_k(e^{i\theta}) \overline{p_m(e^{i\theta})} [1 - \phi(\theta)] \, d\theta = \delta(k,m).
+\]
+The Green function has the representation
+\[
+g_N(i,j) = \sum_{n=0}^{\min(i,j)} p_{N-i}(0) p_{N-j}(0) / p_{N,N}.
+\]
+Moreover, \(\lim_{n \to \infty} p_{n,n-k} = u(k)\) where \(u(k)\) relates to the ladder height variables.

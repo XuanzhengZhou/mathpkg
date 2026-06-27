@@ -1,0 +1,23 @@
+id: frame-semantics-lemma
+title_en: "Frame Semantics Equivalence Lemma"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: foundations
+difficulty: advanced
+tags: [type-theory, frame-semantics, satisfaction, higher-order-logic]
+depends_on:
+  required: [type-language, frame, l-structure]
+  recommended: [satisfaction-relation]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "30"
+    section: "Unusual Logics"
+    pages: ""
+    role_in_book: "Lemma 30.7: equivalence of frame satisfaction and satisfaction in associated first-order structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

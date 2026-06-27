@@ -1,0 +1,23 @@
+id: initial-object-from-cogenerating-set
+title_en: "Existence of Initial Object from Cogenerating Set"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [initial-object, cogenerating-set, subobject-lattice, completeness, intersection]
+depends_on:
+  required: [cogenerating-set, subobject, initial-object, pullback, product]
+  recommended: [special-adjoint-functor-theorem, equalizer]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V. Limits"
+    section: "7. Subobjects and Generators"
+    pages: ""
+    role_in_book: "Key lemma for the Special Adjoint Functor Theorem: a complete category with a cogenerating set and intersections of subobjects has an initial object"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

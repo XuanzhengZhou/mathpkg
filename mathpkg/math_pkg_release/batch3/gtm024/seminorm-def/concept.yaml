@@ -1,0 +1,23 @@
+id: seminorm-def
+title_en: "Seminorm"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: ["seminorm", "gauge", "absolutely-convex"]
+depends_on:
+  required: ["gauge-functional-def", "sublinear-function-def"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§3"
+  section: "3.D"
+  pages: "14"
+  role_in_book: "gauge of absolutely convex absorbing set"
+content_hash: "8f51a4a7b9f7726a"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: category-measure
+title_en: "Category Measure"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [category-measure, baire-property, first-category, nullset, category-measure-space]
+depends_on: {required: ["measure", "baire-property", "first-category"], recommended: ["category-measure-space", "sigma-algebra"], suggested: ["extended-principle-of-duality"]}
+source_books: [{book_id: "gtm002", author: "John C. Oxtoby", title: "Measure and Category", chapter: "22", section: "22. Category Measure Spaces", pages: "86", role_in_book: "Key definition; a measure for which nullsets are exactly the first category sets"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

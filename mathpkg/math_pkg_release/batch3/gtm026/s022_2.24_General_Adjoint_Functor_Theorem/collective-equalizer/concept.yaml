@@ -1,0 +1,23 @@
+id: collective-equalizer
+title_en: "Collective Equalizer"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [equalizer, limit, family-of-morphisms, universal-property]
+depends_on:
+  required: [equalizer, morphism, category]
+  recommended: [small-limit]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.24"
+    pages: ""
+    role_in_book: "Generalization of equalizer to arbitrary set of parallel morphisms, used in Lemma 2.25"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

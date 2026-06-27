@@ -1,0 +1,23 @@
+id: index-of-bilinear-function
+title_en: "Index of a Symmetric Bilinear Function"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [bilinear-form, index, signature, positive-definite]
+depends_on:
+  required: [decomposition-into-positive-negative-subspaces]
+  recommended: [decomposition-in-degenerate-case]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "2. The decomposition of E"
+    pages: ""
+    role_in_book: "Defines the index as the dimension of the maximal positive definite subspace"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: product-of-schemes
+title_en: "Product of Schemes"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [scheme, product, fibred-product, spec-Z]
+depends_on:
+  required: [fibred-product-of-schemes]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "3"
+    pages: "84"
+    role_in_book: "Defines the absolute product X × Y as the fibred product over Spec Z"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

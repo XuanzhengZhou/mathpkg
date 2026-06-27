@@ -1,0 +1,23 @@
+id: decomposition-of-openly-finitely-generated-projective-plane
+title_en: "Decomposition of Openly Finitely Generated Projective Planes"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [free-closure, openly-finite, projective-plane, core, decomposition]
+depends_on:
+  required: [free-closure, core-of-configuration, openly-finite-configuration, free-equivalence-of-configurations]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "11"
+    section: "4. Classification Problems"
+    pages: "page_0238.json–page_0243.json"
+    role_in_book: "Theorem 11.13. Characterizes openly finitely generated projective planes: such a plane is either equal to its own core or is a free closure of a proper openly finite subconfiguration."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

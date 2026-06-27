@@ -1,0 +1,23 @@
+id: analytic-class-number-formula
+title_en: "Analytic Class Number Formula"
+title_zh: "解析类数公式"
+type: theorem
+domain: number-theory
+subdomain: class-number-formula
+difficulty: advanced
+tags: [class-number, L-series, regulator, discriminant, Dedekind-zeta, Dirichlet-character]
+depends_on:
+  required: []
+  recommended: [dirichlet-l-function, regulator, discriminant, dedekind-zeta-function, class-group]
+  suggested: [functional-equation-of-l-functions]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "Complex Analytic Class Number Formulas"
+    pages: "86-89"
+    role_in_book: "Central theorem of the chapter, relating L-series at s=1 to arithmetic invariants"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

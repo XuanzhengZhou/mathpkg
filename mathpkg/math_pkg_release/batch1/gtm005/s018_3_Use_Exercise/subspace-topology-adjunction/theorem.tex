@@ -1,0 +1,9 @@
+For a fixed topological space $X$, the forgetful functor $G$ induces a functor
+
+$$G \downarrow X: (\mathbf{Top} \downarrow X) \to (\mathbf{Set} \downarrow GX).$$
+
+This functor has a right-adjoint-right-inverse $L$: for each subset $S \subset GX$ with inclusion $t: S \to GX$, $LS$ is the set $S$ with the subspace topology, and any continuous $f: Y \to X$ which factors through $t$ as $Gf = t \circ s$ in $\mathbf{Set}$ has $s: Y \to LS$ continuous. This property restates the adjunction:
+
+$$\hom(Gf, t) \cong \hom(f, Lt).$$
+
+Moreover, $(G \downarrow X) \circ L = \mathrm{Id}$.

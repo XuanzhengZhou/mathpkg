@@ -1,0 +1,27 @@
+id: definition-whitehead-group-of-cyclic-except-orders
+title_en: Whitehead group computation for cyclic groups of order not 1,2,3,4,6
+title_zh: ''
+type: theorem
+domain: algebra
+subdomain: algebraic-k-theory
+difficulty: advanced
+tags:
+- whitehead-group
+- cyclic-group
+- non-trivial-unit
+depends_on:
+  required:
+  - nontrivial-whitehead-group-cyclic-except-orders
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm010
+  author: Marshall M. Cohen
+  title: A Course in Simple-Homotopy Theory
+  chapter: '11'
+  section: '11'
+  pages: ''
+  role_in_book: ''
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

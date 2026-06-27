@@ -1,0 +1,23 @@
+id: phragmen-lindelof-theorem
+title_en: "Phragmén-Lindelöf Theorem"
+title_zh: "Phragmén-Lindelöf 定理"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [maximum-principle, phragmen-lindelof, bounded-analytic-function, extended-boundary]
+depends_on:
+  required: [maximum-modulus-theorem-third-version, simply-connected-region-logarithm]
+  recommended: [hadamard-three-circles-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VI"
+    section: "§4"
+    pages: ""
+    role_in_book: "Extends the Maximum Modulus Theorem to unbounded regions by introducing auxiliary bounded analytic functions (Phragmén-Lindelöf functions) to control growth at infinity."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

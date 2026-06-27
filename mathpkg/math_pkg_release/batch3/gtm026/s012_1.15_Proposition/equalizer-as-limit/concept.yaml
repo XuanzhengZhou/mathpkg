@@ -1,0 +1,23 @@
+id: equalizer-as-limit
+title_en: "Equalizer as a Limit"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [equalizer, limit, diagram, category-theory]
+depends_on:
+  required: [equalizer, limit-of-diagram]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.21"
+    pages: ""
+    role_in_book: "Shows that equalizers are a special case of limits, unifying the two concepts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

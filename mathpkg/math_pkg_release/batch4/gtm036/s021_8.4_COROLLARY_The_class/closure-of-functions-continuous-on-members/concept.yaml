@@ -1,0 +1,23 @@
+id: closure-of-functions-continuous-on-members
+title_en: "Closure of Functions Continuous on Members of a Family of Sets"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [continuous-functions, function-spaces, uniform-convergence, closure, linear-topological-spaces]
+depends_on:
+  required: [uniform-convergence-preserves-continuity-on-set, topology-of-uniform-convergence]
+  recommended: [continuous-function-space]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "8"
+    section: "8.11"
+    pages: ""
+    role_in_book: "Proposition establishing that the family of functions continuous on each member of A is closed under uniform convergence on members of A"
+content_hash: "TBD"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

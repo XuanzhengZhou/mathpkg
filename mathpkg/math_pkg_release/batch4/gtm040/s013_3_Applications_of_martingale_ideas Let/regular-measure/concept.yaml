@@ -1,0 +1,23 @@
+id: regular-measure
+title_en: "Regular Measure"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [regular-measure, markov-chain, transition-matrix, invariant-measure, stationary-distribution]
+depends_on:
+  required: [p-regular-function]
+  recommended: [transition-matrix, invariant-measure]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "3"
+    section: "3"
+    pages: ""
+    role_in_book: "Definition: a non-negative row vector is a regular measure if it is invariant under right multiplication by P."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

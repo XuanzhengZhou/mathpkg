@@ -1,0 +1,13 @@
+Let $\mathcal{K}$ be a fixed base category. A \textbf{literal category $\mathcal{C}$ of $\mathcal{K}$-objects with structure} is defined by the following two data and two axioms:
+
+\begin{enumerate}
+  \item \textbf{(Data 1)} $\mathcal{C}$ assigns to each object $K$ of $\mathcal{K}$ a class $\mathcal{C}(K)$ of \emph{$\mathcal{C}$-structures} on $K$.
+  \item \textbf{(Data 2)} A $\mathcal{C}$-morphism $f: (K, s) \to (K', s')$ is a $\mathcal{K}$-morphism $f: K \to K'$ such that $f$ is \emph{$\mathcal{C}$-admissible} from $s$ to $s'$.
+\end{enumerate}
+
+\begin{enumerate}
+  \item \textbf{(Axiom 1)} For each $K \in \mathcal{K}$ and each $s \in \mathcal{C}(K)$, $id_K: s \to s$ is $\mathcal{C}$-admissible.
+  \item \textbf{(Axiom 2)} If $f: s \to s'$ and $g: s' \to s''$ are $\mathcal{C}$-admissible, then $g \circ f: s \to s''$ is $\mathcal{C}$-admissible.
+\end{enumerate}
+
+There is an obvious underlying $\mathcal{K}$-object functor $U: \mathcal{C} \to \mathcal{K}$ which on objects sends $(K, s)$ to $K$.

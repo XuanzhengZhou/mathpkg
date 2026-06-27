@@ -1,0 +1,23 @@
+id: existence-of-least-normal-extension
+title_en: "Theorem 14: Existence of the Least Normal Extension"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: field-theory
+difficulty: intermediate
+tags: [normal-extension, finite-extension, least-normal-extension, normal-closure]
+depends_on:
+  required: [normal-extension, splitting-field-is-finite-normal-extension]
+  recommended: [finite-extension, splitting-field]
+  suggested: [isomorphism-extension-to-splitting-fields]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "II"
+    section: "6. Splitting fields and normal extensions"
+    pages: "84-91"
+    role_in_book: "Constructs the normal closure: every finite extension has a minimal normal extension containing it"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

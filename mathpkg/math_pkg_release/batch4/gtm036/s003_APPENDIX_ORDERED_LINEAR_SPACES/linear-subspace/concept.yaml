@@ -1,0 +1,23 @@
+id: linear-subspace
+title_en: "Linear Subspace"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [linear-subspace, vector-subspace, closed-under-linear-combinations]
+depends_on:
+  required: [linear-space]
+  recommended: [sum-of-subsets]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Core algebraic substructure; used throughout the text"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

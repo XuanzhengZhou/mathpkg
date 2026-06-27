@@ -1,0 +1,23 @@
+id: lemma-12-d-times-rbar-k-g
+title_en: "Lemma 12: d \cdot \overline{R}_K(G) \subset R_K(G)"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [scalar-restriction, trace, field-extension, virtual-characters]
+depends_on:
+  required: [rk-g-ring-of-k-characters, rbar-k-g-ring-of-k-valued-virtual-characters]
+  recommended: [field-trace, scalar-restriction-functor]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "12"
+    section: "12.1"
+    pages: ""
+    role_in_book: "Key technical lemma for proving finite index of R_K(G) in overline{R}_K(G)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

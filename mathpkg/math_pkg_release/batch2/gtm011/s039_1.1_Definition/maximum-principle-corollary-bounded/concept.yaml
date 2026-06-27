@@ -1,0 +1,23 @@
+id: maximum-principle-corollary-bounded
+title_en: "Maximum Principle Corollary for Bounded Regions"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: basic
+tags: [maximum-principle, harmonic, mvp, bounded-region, boundary]
+depends_on:
+  required: [maximum-principle-harmonic-second, mean-value-property]
+  recommended: [bounded-region]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "X"
+    section: "1.9"
+    pages: ""
+    role_in_book: "Special case of the Maximum Principle for bounded regions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

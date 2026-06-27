@@ -1,0 +1,23 @@
+id: cocycle-sum-support
+title_en: "Support of a Linear Combination of Vertex Cocycle Functions"
+title_zh: ""
+type: lemma
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [cocycle-space, vertex-cocycle-function, support, coboundary, orthogonal-complement]
+depends_on:
+  required: []
+  recommended: [vertex-cocycle-function, flow-space, coboundary]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "IV"
+    section: "B"
+    pages: "117-120"
+    role_in_book: "Lemma B11 relates the support of a linear combination of vertex cocycle functions g_x to the coboundaries of the involved vertices"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

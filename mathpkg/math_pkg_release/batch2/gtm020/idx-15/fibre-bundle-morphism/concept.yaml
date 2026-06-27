@@ -1,0 +1,23 @@
+id: fibre-bundle-morphism
+title_en: "Fibre Bundle Morphism"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: fibre-bundles
+difficulty: intermediate
+tags: [fibre-bundle, principal-bundle, associated-bundle, bundle-morphism]
+depends_on:
+  required: [fibre-bundle, principal-bundle, associated-bundle]
+  recommended: [principal-bundle-morphism]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "6"
+    section: "6.1"
+    pages: "62-63"
+    role_in_book: "Defines morphisms in the category of fibre bundles with fibre F and structure group G"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

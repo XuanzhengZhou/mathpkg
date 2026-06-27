@@ -1,0 +1,23 @@
+id: rados-triangulation-theorem-for-2-manifolds
+title_en: "Radó's triangulation theorem for 2-manifolds"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [triangulation, 2-manifold, surface, pl-complex, rado, euclidean-complex, combinatorial-manifold]
+depends_on:
+  required: [manifold, pl-complex, countable-covering-of-manifold-by-euclidean-balls, finite-complex-subdivision-approaching-open-set]
+  recommended: [euclidean-complex, combinatorial-2-manifold-with-boundary]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "7"
+    section: "The triangulation theorem for 2-manifolds"
+    pages: "65-70"
+    role_in_book: "Major theorem: establishes that every 2-manifold admits a triangulation, the culmination of Chapter 7"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

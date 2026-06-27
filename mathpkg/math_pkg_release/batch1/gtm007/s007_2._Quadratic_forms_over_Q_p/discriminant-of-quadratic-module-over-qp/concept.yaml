@@ -1,0 +1,23 @@
+id: discriminant-of-quadratic-module-over-qp
+title_en: "Discriminant of a Quadratic Module over Q_p"
+title_zh: "Q_p上二次模的判别式"
+type: definition
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: intermediate
+tags: [discriminant, quadratic-form, p-adic, invariant]
+depends_on:
+  required: []
+  recommended: [quadratic-module, orthogonal-basis, k-star-mod-squares]
+  suggested: [hilbert-symbol, p-adic-numbers]
+source_books:
+  - book_id: "gtm007"
+    author: "J-P. Serre"
+    title: "A Course in Arithmetic"
+    chapter: "4"
+    section: "2"
+    pages: ""
+    role_in_book: "Defines one of the two fundamental invariants of quadratic forms over p-adic fields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

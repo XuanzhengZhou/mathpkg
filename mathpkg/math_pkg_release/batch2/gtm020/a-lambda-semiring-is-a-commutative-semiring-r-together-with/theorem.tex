@@ -1,0 +1,11 @@
+(1) $\lambda^0(x) = 1$ and $\lambda^1(x) = x$ for each $x \in R$.
+
+(2) For each $x, y \in R$, $\lambda^k(x + y) = \sum_{i+j=k} \lambda^i(x)\lambda^j(y)$.
+
+A morphism $u: (R, \lambda^i) \rightarrow (R', \lambda^i)$ between two $\lambda$-semirings is a semiring morphism $u: R \rightarrow R'$ such that $\lambda^i(u(x)) = u(\lambda^i(x))$ for each $x \in R$ and $i \geq 0$. A $\lambda$-ring is a $\lambda$-semiring whose underlying semiring is a ring.
+
+1.2 Example. The semiring of isomorphism classes of vector bundles $\text{Vect}_F(X)$ is a $\lambda$-semiring for $F = \mathbf{R}$ and $\mathbf{C}$, where we define $\lambda^i[\xi] = [\Lambda^i\xi]$, using the $i$th exterior power which exists by 5(6.9). Then axioms (1) and (2) follow from corresponding properties of exterior powers of vector spaces and Theorem 5(6.3).
+
+If $f: Y \rightarrow X$ is a map and if $\xi$ is a vector bundle, by 5(6.9) $f^*(\Lambda^i \xi)$ and $\Lambda^i f^*(\xi)$ are $Y$-isomorphic. Consequently, $\text{Vect}_F(f): \text{Vect}_F(X) \rightarrow \text{Vect}_F(Y)$ is a morphism of $\lambda$-semirings.
+
+To define a $\lambda$-ring structure on $K_F(X)$, we use the following construction. For a $\lambda$-semiring $R$ with operations $\lambda^i$, we define $\lambda_t: R \rightarrow 1 + R[[t]]^+$ to be $\lambda_t(x) = \sum_{i \geq 0} \lambda^i(x)t^i$. By axiom (2) we have $\lambda_t(x + y) = \lambda_t(x)\lambda_t(y)$. Here $1 + R[[t]]^+$ denotes the semigroup of power series $1 + a_1t + a_2t^2 + \cdots$. If $R$ is a ring, then $1 + R[[t]]^+$ is a commutative group.

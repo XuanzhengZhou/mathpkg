@@ -1,0 +1,8 @@
+---
+role: exercise
+locale: en
+chapter: "I"
+section: "2"
+exercise_number: 7
+---
+Prove that $\mathfrak{t}(n, F)$ and $\mathfrak{d}(n, F)$ are self-normalizing subalgebras of $\mathfrak{gl}(n, F)$, whereas $\mathfrak{n}(n, F)$ has normalizer $\mathfrak{t}(n, F)$.

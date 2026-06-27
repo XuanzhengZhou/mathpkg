@@ -1,0 +1,23 @@
+id: projection-equivalence-conditions
+title_en: "For projections p, q in a C*-algebra, the following are equivalent: q ≤ p, pq = qp = q, and p - q is a projection"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: cstar-algebras
+difficulty: intermediate
+tags: [cstar-algebra, projections, order-relation, equivalent-conditions]
+depends_on:
+  required: [projection-definition-cstar]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "5"
+    section: "5.2"
+    pages: ""
+    role_in_book: "Characterizes the order relation on projections in a C*-algebra via algebraic conditions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

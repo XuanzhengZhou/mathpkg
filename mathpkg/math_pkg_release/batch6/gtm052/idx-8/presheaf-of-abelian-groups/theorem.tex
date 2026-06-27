@@ -1,0 +1,15 @@
+Let $X$ be a topological space. A \text{presheaf} $\mathcal{F}$ of abelian groups on $X$ consists of the data:
+
+(a) for every open subset $U \subseteq X$, an abelian group $\mathcal{F}(U)$, and
+
+(b) for every inclusion $V \subseteq U$ of open subsets of $X$, a morphism of abelian groups $\rho_{UV} : \mathcal{F}(U) \rightarrow \mathcal{F}(V)$,
+
+subject to the conditions:
+
+(0) $\mathcal{F}(\emptyset) = 0$,
+
+(1) $\rho_{UU}$ is the identity map $\mathcal{F}(U) \rightarrow \mathcal{F}(U)$, and
+
+(2) if $W \subseteq V \subseteq U$ are three open subsets, then $\rho_{UW} = \rho_{VW} \circ \rho_{UV}$.
+
+Equivalently, a presheaf is a contravariant functor from the category $\mathfrak{Top}(X)$ (whose objects are open subsets of $X$ and whose morphisms are inclusions) to the category $\mathfrak{Ab}$ of abelian groups.

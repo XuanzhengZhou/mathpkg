@@ -1,0 +1,1 @@
+A real-valued function is differentiable at a point precisely when all four Dini derivates coincide and are finite. This definition highlights the relationship between one-sided behavior and differentiability.

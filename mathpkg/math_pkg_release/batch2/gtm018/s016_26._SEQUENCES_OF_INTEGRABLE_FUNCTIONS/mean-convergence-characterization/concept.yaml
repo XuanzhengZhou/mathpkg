@@ -1,0 +1,23 @@
+id: mean-convergence-characterization
+title_en: "Characterization of Convergence in Mean"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [mean-convergence, convergence-in-measure, uniform-absolute-continuity, equicontinuity, integrable-functions]
+depends_on:
+  required: [equicontinuity-from-above-at-zero, set-function-continuity-from-above-at-zero]
+  recommended: [convergence-in-measure, uniform-absolute-continuity, indefinite-integral, completeness-of-mean-convergence]
+  suggested: [vitali-convergence-theorem]
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX"
+    section: "§26. Sequences of Integrable Functions"
+    pages: ""
+    role_in_book: "Main characterization: mean convergence iff convergence in measure + uniform absolute continuity + equicontinuity of indefinite integrals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: minimum-polynomial-degree-bounded-by-dimension
+title_en: "Minimum Polynomial Degree Bounded by Dimension"
+title_zh: "最小多项式次数不超过维数"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [minimum-polynomial, dimension, cyclic-space, cyclic-subspace]
+depends_on:
+  required: [cyclic-subspace-degree-equals-min-poly-degree, cyclic-space-degree-equals-dimension]
+  recommended: [minimum-polynomial, dimension]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Fundamental inequality: deg μ ≤ dim E, equality characterizes cyclic spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

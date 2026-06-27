@@ -1,0 +1,23 @@
+id: projective-semilinear-group-quotient
+title_en: "Projective Groups as Quotients (Theorem 2.10)"
+title_zh: "射影群作为商群（定理2.10）"
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [projective-group, semilinear, quotient, scalar-transformation, centre]
+depends_on:
+  required: [general-semilinear-group]
+  recommended: [fundamental-theorem-of-projective-geometry-plane]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II. Classical Projective Planes"
+    section: "3. Dual Spaces and Homogeneous Coordinates"
+    pages: ""
+    role_in_book: "PΓL(V), PGL(V), PSL(V) are quotients of their linear counterparts by scalar maps"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

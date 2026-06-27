@@ -1,0 +1,1 @@
+The normal (Gaussian) distribution is the most important continuous probability distribution, characterized by its bell-shaped density centered at the mean $m$ with spread determined by $\sigma^2$. Any affine transformation of a standard normal produces a normal random variable. The normal distribution arises universally as the limit in the central limit theorem.

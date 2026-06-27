@@ -1,0 +1,20 @@
+id: v-equals-l-implies-gch
+title_en: "V = L implies the Generalized Continuum Hypothesis"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [constructible-universe, gch, silver-machines, cardinal-arithmetic]
+depends_on: {required:[check-ordinal], recommended:[silver-m-l-machine, collapsing-property], suggested:[]}
+source_books:
+  - book_id: gtm001
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Introduction to Axiomatic Set Theory"
+    chapter: "17"
+    section: "17.1"
+    pages: ""
+    role_in_book: "Central theorem: if all sets are constructible, then GCH holds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+The covariance measures the linear dependence between two random variables. It is the expected product of their deviations from their respective means. The Cauchy-Schwarz inequality bounds the absolute covariance by the product of the standard deviations, giving rise to the correlation coefficient.

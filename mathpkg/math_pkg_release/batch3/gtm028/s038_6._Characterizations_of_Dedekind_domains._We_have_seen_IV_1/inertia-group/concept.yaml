@@ -1,0 +1,23 @@
+id: inertia-group
+title_en: "Inertia Group of a Prime Ideal"
+title_zh: "素理想的惯性群"
+type: definition
+domain: algebra
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [dedekind-domain, galois-theory, inertia-group, ramification]
+depends_on:
+  required: [decomposition-group]
+  recommended: [galois-extension, prime-ideal]
+  suggested: [inertia-field, residue-field-extension-galois]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "10"
+    pages: "285"
+    role_in_book: "Definition in Section 10"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

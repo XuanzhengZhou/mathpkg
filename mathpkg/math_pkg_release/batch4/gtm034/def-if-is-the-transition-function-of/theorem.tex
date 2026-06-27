@@ -1,0 +1,45 @@
+If $P(x,y)$ is the transition function of a recurrent aperiodic random walk, then the non-negative solutions of
+
+$$\sum_{y \in R} P(x,y)f(y) = f(x), \quad x \in R$$
+
+are called regular functions.
+
+In the random walk case, the difficulties of problem A (the problem of characterizing regular functions) will now be illustrated with three examples.
+
+E1 Let $P(x,y)$ be the transition function of periodic random walk. We don't care whether it is recurrent or not, nor what the dimension is. Then $\bar{R}$ is a proper subgroup of $R$. Define
+
+$$f(x) = 1 \text{ for } x \in \bar{R},$$
+
+$$= 0 \text{ for } x \in R - \bar{R}.$$
+
+Then
+
+$$Pf(x) = \sum_{y \in R} P(x,y)f(y) = \sum_{y \in R} P(0,y-x)f(y) = \sum_{t \in R} P(0,t)f(t+x).$$
+
+But $P(0,t) = 0$ unless $t$ is in $\bar{R}$, so that
+
+$$Pf(x) = \sum_{t \in R} P(0,t)f(t+x).$$
+
+When $t \in \bar{R}$, then $t + x$ is in
+
+E2 Consider Bernoulli random walk in one dimension, with $P(0,1) = p$, $P(0,-1) = q$, $p + q = 1$, $p > q$. As was shown in E1.2 there are two linearly independent regular functions, when $p \neq q$, namely
+
+$$f(x) \equiv 1 \quad \text{and} \quad f(x) = \left( \frac{p}{q} \right)^z.$$
+
+This shows that we cannot hope to prove that all regular functions are constant for transient random walk.
+
+E3 Dropping the restriction of non-negativity, and calling solutions of $Pf = f$ harmonic, let us look at simple symmetric random walk in the plane. There are then so many harmonic functions that it is interesting to look for harmonic polynomials,
+
+$$p(z) = \sum_{k,m} a_{k,m} x^k y^m, \quad a_{k,m} \text{ real},$$
+
+where $z = x + iy$, and $\sum a$ sum over a finite number of pairs $(k,m)$ of non-negative integers. The degree of $p(z)$ is the largest value of $k + m$ occurring in any term of the sum. In the classical theory of harmonic functions every harmonic polynomial of degree $n$ can be expressed uniquely as a linear combination of
+
+$$a_k \text{ Re} (z^k) + b_k \text{ Im} (z^k), \quad a_k, \quad b_k \text{ real}, \quad 0 \leq k \leq n.$$
+
+In the random walk case one might expect a similar result and so we make two conjectures, each reflecting certain essential features of the classical result.
+
+(1) For each $n \geq 1$ there are exactly $2n + 1$ linearly independent harmonic polynomials of degree $n$.
+
+(2) Among the polynomials in (1) there are two which are homogeneous of degree $n$, i.e., polynomials $p(z)$ such that $p(tz) = |t|^n p(z)$.
+
+Following an elegant approach of Stöhr [96], we show that (1) is correct, but that (2

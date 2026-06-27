@@ -1,0 +1,20 @@
+id: watts-theorem
+title_en: "Watt's Theorem"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [category-theory, representable-functor, additive-category, module-theory, cogenerator]
+depends_on: {required: [generating-set, special-adjoint-functor-theorem, additive-functor], recommended: [ring, module], suggested: [contravariant-functor, representable-functor]}
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "7. Subobjects and Generators"
+    pages: ""
+    role_in_book: "Characterization of representable contravariant additive functors on module categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: special-adjoint-functor-theorem
+title_en: "Special Adjoint Functor Theorem"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [adjoint-functor, cogenerator, well-powered, solution-set-condition, freyd]
+depends_on:
+  required: [general-adjoint-functor-theorem, cogenerator, well-powered-category, locally-small-category, small-limit]
+  recommended: [solution-set-condition, cartesian-power]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.29"
+    pages: ""
+    role_in_book: "Variant of GAFT using cogenerator + well-powered instead of explicit solution set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

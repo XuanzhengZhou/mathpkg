@@ -1,0 +1,23 @@
+id: homomorphism-preserves-cstar
+title_en: "Homomorphism Whose Image Contains C*(X) Carries C*(Y) onto C*(X)"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [homomorphism, c-star, bounded-functions, ring-homomorphism]
+depends_on:
+  required: []
+  recommended: [c-star, ring-homomorphism, lattice-operations]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.9"
+    pages: ""
+    role_in_book: "Establishes that homomorphisms whose image contains all bounded functions automatically preserve boundedness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

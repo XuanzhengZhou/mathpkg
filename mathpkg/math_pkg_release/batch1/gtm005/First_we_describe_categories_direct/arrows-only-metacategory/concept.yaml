@@ -1,0 +1,23 @@
+id: arrows-only-metacategory
+title_en: "Arrows-Only Metacategory"
+title_zh: "纯箭头的元范畴"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [category-theory, arrows-only, alternative-definition, foundation]
+depends_on:
+  required: [metacategory, uniqueness-of-identity-arrows]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I. Categories, Functors, and Natural Transformations"
+    section: "1. Axioms for Categories"
+    pages: "9"
+    role_in_book: "alternative object-free definition of a metacategory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

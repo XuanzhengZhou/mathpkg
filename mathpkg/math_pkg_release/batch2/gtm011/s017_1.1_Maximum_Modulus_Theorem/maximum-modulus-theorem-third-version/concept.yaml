@@ -1,0 +1,23 @@
+id: maximum-modulus-theorem-third-version
+title_en: "Maximum Modulus Theorem (Third Version)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [maximum-modulus, limsup, extended-boundary, phragmen-lindelof]
+depends_on:
+  required: [limit-superior, extended-boundary, maximum-modulus-theorem-first-version]
+  recommended: [riemann-sphere]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VI"
+    section: "1.4"
+    pages: ""
+    role_in_book: "The most general version of the Maximum Modulus Theorem, using limsup bounds on the extended boundary to handle unbounded regions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

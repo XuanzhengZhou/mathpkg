@@ -1,0 +1,23 @@
+id: continuity-theorem
+title_en: "Continuity Theorem (Kontinuitätssatz)"
+title_zh: "连续性定理"
+type: theorem
+domain: analysis
+subdomain: several-complex-variables
+difficulty: advanced
+tags: [holomorphic-extension, hartogs-figure, identity-theorem, several-complex-variables]
+depends_on:
+  required: [holomorphic-function, identity-theorem-holomorphic, domain, hartogs-figure]
+  recommended: [holomorphic-extension]
+  suggested: []
+source_books:
+  - book_id: "gtm038"
+    author: "Hans Grauert, Klaus Fritzsche"
+    title: "Several Complex Variables"
+    chapter: "II. Domains of Holomorphy"
+    section: "1. The Continuity Theorem"
+    pages: "39-41"
+    role_in_book: "Fundamental extension theorem for holomorphic functions in several variables, enabling continuation across subsets where extension is automatic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

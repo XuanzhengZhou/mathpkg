@@ -1,0 +1,23 @@
+id: parameter-theorem-for-ends
+title_en: "Parameter Theorem for Ends and Limits"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [end, limit, parameter, functoriality, parameterized-end]
+depends_on:
+  required: []
+  recommended: [end, end-of-natural-transformation, limit]
+  suggested: [coend, adjoint-functor-theorem]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IX"
+    section: "7"
+    pages: "242-243"
+    role_in_book: "Establishes that an end depending on a parameter defines a functor in that parameter, generalizing the behavior of limits with parameters."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

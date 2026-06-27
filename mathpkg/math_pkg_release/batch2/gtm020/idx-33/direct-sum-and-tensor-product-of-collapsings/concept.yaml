@@ -1,0 +1,23 @@
+id: direct-sum-and-tensor-product-of-collapsings
+title_en: "Direct Sum and Tensor Product of Collapsings"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: k-theory
+difficulty: intermediate
+tags: [vector-bundle, collapsing, direct-sum, tensor-product, relative-k-theory]
+depends_on:
+  required: [collapsing-of-vector-bundle-with-trivialization]
+  recommended: [direct-sum-of-vector-bundles, tensor-product-of-vector-bundles]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "10. Relative K-Theory"
+    section: "1. Collapsing of Trivialized Bundles"
+    pages: "136-138"
+    role_in_book: "Proposition 1.5: Shows that collapsing commutes with direct sum and tensor product operations on vector bundles, establishing that the collapsing construction respects the additive and multiplicative structures essential for K-theory."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

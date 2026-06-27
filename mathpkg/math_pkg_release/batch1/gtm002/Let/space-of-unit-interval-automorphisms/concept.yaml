@@ -1,0 +1,23 @@
+id: space-of-unit-interval-automorphisms
+title_en: "Space of Automorphisms of the Unit Interval"
+title_zh: "单位区间自同构空间"
+type: definition
+domain: analysis
+subdomain: metric-spaces
+difficulty: intermediate
+tags: [homeomorphism-group, automorphism, unit-interval, uniform-metric]
+depends_on:
+  required: [homeomorphism, uniform-metric-on-continuous-functions]
+  recommended: [topological-group]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "13"
+    section: "13"
+    pages: "57-63"
+    role_in_book: "Defines the metric space H of interval automorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

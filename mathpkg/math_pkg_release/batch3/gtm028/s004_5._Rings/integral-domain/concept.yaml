@@ -1,0 +1,23 @@
+id: integral-domain
+title_en: "Integral Domain"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [ring, integral-domain, commutative-ring, zero-divisor, identity]
+depends_on:
+  required: [ring-with-identity, ring-without-zero-divisors]
+  recommended: [commutative-ring]
+  suggested: [field]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "I"
+    section: "6"
+    pages: ""
+    role_in_book: "Defines integral domains, the central object of commutative algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

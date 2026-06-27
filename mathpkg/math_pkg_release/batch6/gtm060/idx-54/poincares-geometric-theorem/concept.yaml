@@ -1,0 +1,23 @@
+id: poincares-geometric-theorem
+title_en: "Poincaré's Geometric Theorem"
+title_zh: "庞加莱几何定理"
+type: theorem
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [fixed-points, area-preserving-maps, annulus, celestial-mechanics]
+depends_on:
+  required: []
+  recommended: [area-preserving-mapping, planar-circular-annulus, fixed-point, homeomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 9"
+    section: "A"
+    pages: "425-427"
+    role_in_book: "Provides a topological guarantee of fixed points for area-preserving annulus maps, fundamental to celestial mechanics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

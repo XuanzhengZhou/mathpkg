@@ -1,0 +1,23 @@
+id: duality-principle-for-functors
+title_en: "Duality Principle for Functors"
+title_zh: "函子的对偶原理"
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [duality, duality-principle, functor, metatheorem, dual-statement]
+depends_on:
+  required: [duality-principle, dual-statement, functor]
+  recommended: [elementary-theory-of-abstract-category]
+  suggested: [opposite-category]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "II"
+    section: "1"
+    pages: ""
+    role_in_book: "Extends the duality principle to statements involving several categories and functors between them."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

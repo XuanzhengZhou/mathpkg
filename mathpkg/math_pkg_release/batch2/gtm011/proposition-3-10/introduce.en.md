@@ -1,0 +1,9 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+3.10 Proposition from Conway's "Functions of One Complex Variable I."
+Let $z_1, z_2, z_3, z_4$ be four distinct points in $\mathbb{C}_\infty$. Then $(z_1, z_2, z_3, z_4)$ is a real number iff all four points lie on a circle....

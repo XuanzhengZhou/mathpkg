@@ -1,0 +1,23 @@
+id: primitive-recursion-closure-under-a
+title_en: "Primitive Recursion Preserves Membership in A"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: computability-theory
+difficulty: advanced
+tags: [recursive-function, primitive-recursion, closure-properties, beta-function]
+depends_on:
+  required: [beta-function, primitive-recursion, Godel-beta-function]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "3"
+    section: "Recursive Functions; Turing Computability"
+    pages: ""
+    role_in_book: "Lemma (32) showing that if a function g is defined by primitive recursion from f and h, and f, h are in A, then g is in A"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

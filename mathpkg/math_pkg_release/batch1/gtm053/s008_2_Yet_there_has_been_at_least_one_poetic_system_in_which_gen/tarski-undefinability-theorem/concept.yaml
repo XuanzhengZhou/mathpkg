@@ -1,0 +1,23 @@
+id: tarski-undefinability-theorem
+title_en: "Tarski's Undefinability Theorem"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: formal-arithmetic
+difficulty: advanced
+tags: [tarski, undefinability, truth, self-reference, liar-paradox]
+depends_on:
+  required: [display-lemma, expression-satisfaction-sar]
+  recommended: [language-sar, goedel-numbering, self-reference]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "I"
+    section: "11"
+    pages: ""
+    role_in_book: "Central theorem: the set of true formulas of arithmetic is not definable in arithmetic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

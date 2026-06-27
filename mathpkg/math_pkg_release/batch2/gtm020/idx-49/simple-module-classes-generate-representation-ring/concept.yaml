@@ -1,0 +1,23 @@
+id: simple-module-classes-generate-representation-ring
+title_en: "Simple Module Classes Generate the Representation Ring"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [simple-module, representation-ring, generator, compact-group]
+depends_on:
+  required: [semisimple-g-module-via-invariant-hermitian-form, representation-ring]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "9"
+    section: "6"
+    pages: "page_0192.json–page_0198.json"
+    role_in_book: "Corollary 6.6: simple G-module classes generate R_F(G) as a group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

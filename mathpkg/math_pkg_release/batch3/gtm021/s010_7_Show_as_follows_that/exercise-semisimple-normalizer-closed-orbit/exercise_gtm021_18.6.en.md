@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "18"
+section: "18"
+exercise_number: 6
+---
+
+Let H be a closed subgroup of G. x in g normalizes H if Ad y(x) - x in h for all y in H. Prove: if x is semisimple and normalizes H, then {Ad y(x) | y in H} is closed in g. [Imitate the proof of Proposition 18.2.]

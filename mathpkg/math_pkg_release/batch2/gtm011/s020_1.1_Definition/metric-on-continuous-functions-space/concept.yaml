@@ -1,0 +1,23 @@
+id: metric-on-continuous-functions-space
+title_en: "The Metric ρ on C(G, Ω)"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: metric-spaces
+difficulty: intermediate
+tags: ["metric-space", "compact-exhaustion", "function-space", "uniform-convergence-on-compacta"]
+depends_on:
+  required: ["compact-exhaustion-of-open-sets-in-complex-plane", "continuous-functions-space-c-g-omega"]
+  recommended: ["metric-space", "supremum-metric"]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VII"
+    section: "1.4"
+    pages: ""
+    role_in_book: "Defines the metric on C(G, Ω) that makes it a complete metric space and encodes uniform convergence on compact subsets."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

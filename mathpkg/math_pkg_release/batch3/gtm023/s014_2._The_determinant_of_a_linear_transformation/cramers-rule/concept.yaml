@@ -1,0 +1,23 @@
+id: cramers-rule
+title_en: "Cramer's Rule"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [cramers-rule, linear-equations, determinant, cofactor]
+depends_on:
+  required: [expansion-by-cofactors]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "4"
+    section: "4"
+    pages: ""
+    role_in_book: "Cramer's solution formula for linear systems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,19 @@
+If $\phi(\theta)$ is the characteristic function of the transition function $P(x,y)$, then for every integer $n \geq 0$
+
+(a) $$\phi^n(\theta) = \sum P_n(0,x)e^{ix \cdot \theta} \text{ for all } \theta \text{ in } E,$$
+
+(b) $$P_n(0,y) = (2\pi)^{-d} \int e^{-iy \cdot \theta} \phi^n(\theta) d\theta \text{ for all } y \text{ in } R.$$
+
+Proof: It is instructive to prove the first part using the probability interpretation of the problem. In the notation of D3.1
+
+$$P_n(0,x) = P[S_n = x]$$
+
+where $S_n = X_1 + \cdots + X_n$ is the sum of independent $d$-dimensional random variables which describes the position of the random walk at time $n$. Using P3.1 we obtain
+
+$$\sum P_n(0,x)e^{i\theta \cdot x} = E[e^{i\theta \cdot S_n}] = E[e^{i\theta \cdot (X_1 + \cdots + X_n)}]$$
+
+$$= \prod_{k=1}^{n} E[e^{i\theta \cdot X_k}] = \phi^n(\theta).$$
+
+Here we used
+
+useful in deciding whether a random walk is recurrent or not. Some related results, such as P5, are included because they are indispensable for work in later chapters. We begin with one-dimensional random walk, where we pay particular attention to the relations between the moments of a transition function and the derivatives of its characteristic function at the origin. It is an old and familiar fact in Fourier analysis that the behavior of a sequence (or function), far out, is reflected in the behavior of its Fourier series (or transform) near the origin. In probability theory these connections become particularly sharp and interesting, because we are dealing with a very restricted class of Fourier series.

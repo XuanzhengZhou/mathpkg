@@ -1,0 +1,23 @@
+id: fermat-odd-prime-x2-plus-2y2
+title_en: "Fermat's Theorem on Primes of the Form x² + 2y²"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: advanced
+tags: [fermat, primes, x2-plus-2y2, 8n-plus-1, 8n-plus-3]
+depends_on:
+  required: [identity-x2-plus-2y2-product]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "1"
+    section: "1.7"
+    pages: ""
+    role_in_book: "Characterization of odd primes representable by x²+2y²"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

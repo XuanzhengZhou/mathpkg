@@ -1,0 +1,11 @@
+The cyclic method (chakravala) for solving $y^2 - Ax^2 = 1$ proceeds as follows:
+
+Start with $1^2 - A \cdot 0^2 = 1$. Suppose at stage $n$ the equation is $p^2 - Aq^2 = k$. Multiply by $r^2 - A = s$ using the identity
+$$(a^2 - Ab^2)(c^2 - Ad^2) = (ac + Abd)^2 - A(ad + bc)^2$$
+to obtain $(pr + qA)^2 - A(p + qr)^2 = ks$.
+
+Choose $r$ a positive integer so that $p + qr$ is divisible by $k$ and $|s| = |r^2 - A|$ is as small as possible. Then $pr + qA$ is also divisible by $k$, and dividing by $k^2$ yields the next stage
+$$P^2 - AQ^2 = K$$
+where $P = (pr + qA)/|k|$, $Q = (p + qr)/|k|$, $K = s/k$.
+
+Continue until $K = 1$, giving a solution. Infinitely many solutions follow by continuing the method or by raising the fundamental solution to powers.

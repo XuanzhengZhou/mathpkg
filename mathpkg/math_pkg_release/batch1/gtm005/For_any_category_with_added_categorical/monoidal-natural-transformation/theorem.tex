@@ -1,0 +1,9 @@
+A \text{monoidal natural transformation} $$\theta : (F, F_2, F_0) \rightarrow (G, G_2, G_0) : M \rightarrow M'$$ between two monoidal functors is a natural transformation between the underlying ordinary functors $\theta : F \rightarrow G$ such that the following two diagrams commute in $M'$:
+
+$$F(a) \square F(b) \xrightarrow{F_2} F(a \square b)$$
+$$\theta_a \square \theta_b \downarrow \qquad \qquad \downarrow \theta_{a \square b}$$
+$$G(a) \square G(b) \xrightarrow{G_2} G(a \square b)$$
+
+$$e' \xrightarrow{F_0} F e$$
+$$\| \qquad \qquad \downarrow \theta_e$$
+$$e' \xrightarrow{G_0} G e$$

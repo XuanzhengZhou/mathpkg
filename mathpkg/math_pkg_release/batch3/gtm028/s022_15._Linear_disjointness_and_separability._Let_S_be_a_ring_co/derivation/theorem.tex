@@ -1,0 +1,7 @@
+Let $S$ be a ring and $R$ a subring of $S$. A mapping $D : R \to S$ is said to be a \textbf{derivation} of $R$ (with values in $S$) if, for every $x, y \in R$, $D$ satisfies the following conditions:
+\begin{enumerate}
+\item $D(x + y) = D(x) + D(y)$.
+\item $D(xy) = xD(y) + yD(x)$.
+\end{enumerate}
+
+For every $x \in R$ and every integer $n \geq 1$, we have $D(x^n) = n x^{n-1} D(x)$. In particular, if $S$ has a unit element $e$ which lies in $R$, then $D(e) = 0$. The kernel of $D$ is a subring of $R$ containing $e$ (if $e \in R$). A derivation $D$ such that $D(x) = 0$ for every $x$ in a subring $R'$ of $R$ is said to be \textbf{trivial on $R'$}, or to be an \textbf{$R'$-derivation} of $R$.

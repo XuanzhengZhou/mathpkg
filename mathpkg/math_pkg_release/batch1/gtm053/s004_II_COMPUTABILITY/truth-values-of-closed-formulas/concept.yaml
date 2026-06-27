@@ -1,0 +1,23 @@
+id: truth-values-of-closed-formulas
+title_en: "Well-Defined Truth Values of Closed Formulas"
+title_zh: "闭公式的真值是良定义的"
+type: corollary
+domain: logic
+subdomain: model-theory
+difficulty: basic
+tags: [truth, closed-formulas, sentences, semantics]
+depends_on:
+  required: [truth-depends-on-free-variables, closed-formula]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "II"
+    section: "2"
+    pages: ""
+    role_in_book: "Formal justification that sentences have definite truth values"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

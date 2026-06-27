@@ -1,0 +1,23 @@
+id: rigidity-increases-characteristic-frequencies
+title_en: "Increase in Rigidity Increases All Characteristic Frequencies"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [rigidity, characteristic-frequencies, small-oscillations, eigenvalue-inequality, rayleigh-courant-fisher]
+depends_on:
+  required: [more-rigid-system]
+  recommended: [characteristic-frequencies, contained-ellipsoid-semi-axes-inequality]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "5"
+    section: "24"
+    pages: ""
+    role_in_book: "Theorem 1 of Section 24: Characteristic frequencies are monotone with respect to rigidity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

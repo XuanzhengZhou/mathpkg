@@ -1,0 +1,30 @@
+id: intermediate-value-theorem-nonstandard
+title_en: "Intermediate Value Theorem (Nonstandard Proof)"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags:
+  - nonstandard-analysis
+  - intermediate-value-theorem
+  - continuity
+  - infinitesimal
+depends_on:
+  required:
+    - continuity-nonstandard-characterization
+    - standard-part
+  recommended:
+    - infinitesimal
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "Ebbinghaus, Flum, Thomas"
+    title: "Mathematical Logic"
+    chapter: "Part 4"
+    section: "Model Theory"
+    pages: ""
+    role_in_book: "Proposition 20.10 — intermediate value theorem with a mixed standard/nonstandard proof"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: triangular-imbedding-tait-coloring
+title_en: "Triangular Imbedding 4-Colorability Equivalent to Tait Coloring of Orthogonal Graph"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [planar-graph, triangular-imbedding, tait-coloring, four-color-problem, orthogonal-graph]
+depends_on:
+  required: [edge-partition-4-colorable-condition]
+  recommended: [planar-graph, triangular-imbedding, tait-coloring, orthogonal-graph]
+  suggested: [four-color-theorem]
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "VII"
+    section: "B"
+    pages: ""
+    role_in_book: "Corollary B16, connects triangular imbeddings to Tait colorings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

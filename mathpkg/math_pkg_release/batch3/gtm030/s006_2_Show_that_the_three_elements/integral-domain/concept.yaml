@@ -1,0 +1,23 @@
+id: integral-domain
+title_en: "Integral Domain"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [integral-domain, domain-of-integrity, zero-divisor-free]
+depends_on:
+  required: [ring-definition]
+  recommended: [commutative-ring]
+  suggested: [zero-divisor]
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition of integral domain: non-zero elements form sub-semigroup of multiplicative semigroup"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

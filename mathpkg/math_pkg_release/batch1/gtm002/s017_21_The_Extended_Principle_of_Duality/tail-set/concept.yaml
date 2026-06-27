@@ -1,0 +1,23 @@
+id: tail-set
+title_en: "Tail Set"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: descriptive-set-theory
+difficulty: intermediate
+tags: [tail-set, product-space, cantor-space, zero-one-law, tail-event]
+depends_on:
+  required: [product-space, cantor-set]
+  recommended: [property-of-baire, residual-set, first-category-set]
+  suggested: [kolmogorov-zero-one-law]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "4"
+    section: "21. The Extended Principle of Duality"
+    pages: ""
+    role_in_book: "Defines tail sets in the product space X = {0,1}^N as preparation for the category zero-one law (Theorem 21.4)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

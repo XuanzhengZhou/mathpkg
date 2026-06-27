@@ -1,0 +1,23 @@
+id: curvature-plane-curve
+title_en: "Curvature of a Plane Curve"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: basic
+tags: [curvature, plane-curves, frenet-frame, curve-theory]
+depends_on:
+  required: [frenet-equations-plane-curves, ith-curvature-distinguished-frenet-frame]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Thierry Aubin"
+    title: "A Course in Differential Geometry"
+    chapter: "1"
+    section: "1.4"
+    pages: "25-29"
+    role_in_book: "Definition of the curvature for a plane curve"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

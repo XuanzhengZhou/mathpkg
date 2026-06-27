@@ -1,0 +1,23 @@
+id: kummer-prime-factor-theorem
+title_en: "Kummer's Prime Factor Theorem"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-integers
+difficulty: advanced
+tags: [kummer-theory, cyclotomic-integers, prime-factorization, norm, binomial-divisors]
+depends_on:
+  required: [congruence-mod-cyclotomic-integer, congruence-kummer-equivalence, norm-of-cyclotomic-integer]
+  recommended: [primitive-root-mod-p, divisor-of-binomial]
+  suggested: [fermats-little-theorem, order-of-element-mod-p]
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "4"
+    section: "4.3"
+    pages: ""
+    role_in_book: "The central theorem of Section 4.3, characterizing prime cyclotomic integers via their norms and establishing that every prime factor divides a binomial of the form α-k"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: simultaneous-diagonalization-of-symmetric-bilinear-pairs
+title_en: "Simultaneous diagonalization of pairs of symmetric bilinear functions"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [symmetric-bilinear-forms, simultaneous-diagonalization, diagonal-form, signature, eigenvalue, principal-axis-theorem]
+depends_on:
+  required: [nondegenerate-bilinear-form, symmetric-bilinear-function, minimizer-eigenvalue-equation, nondegenerate-restriction-to-orthogonal-complement]
+  recommended: [spectral-theorem, principal-axis-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IX"
+    section: "§3, 9.15"
+    pages: ""
+    role_in_book: "Main theorem: constructive simultaneous diagonalization of two symmetric bilinear functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

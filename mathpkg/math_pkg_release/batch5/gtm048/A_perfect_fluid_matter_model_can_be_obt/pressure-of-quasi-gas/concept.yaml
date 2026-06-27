@@ -1,0 +1,23 @@
+id: pressure-of-quasi-gas
+title_en: "Pressure of a Quasi-Gas"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: intermediate
+tags: [perfect-fluid, pressure, stress-energy-tensor]
+depends_on:
+  required: [perfect-fluid-stress-energy-representation, energy-density-of-quasi-gas]
+  recommended: [quasi-gas, random-velocity]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.15"
+    pages: ""
+    role_in_book: "Definition of pressure p for a quasi-gas, following Proposition 3.15.1"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+Let $c: I \to \mathbb{R}^n$ be a curve satisfying the conditions of (1.2.2), and consider its distinguished Frenet frame $\{e_1(t), \ldots, e_n(t)\}$ with connection forms $\omega_{ij}(t) = \dot{e}_i(t) \cdot e_j(t)$. The $i$-th curvature of $c$, for $i = 1, 2, \ldots, n - 1$, is the function
+
+$$\kappa_i(t) := \frac{\omega_{i,i+1}(t)}{|\dot{c}(t)|}.$$
+
+For the distinguished Frenet frame, the matrix of connection forms $\omega = (\omega_{ij})$ takes the skew-symmetric tridiagonal form
+
+$$\omega = |\dot{c}| \begin{pmatrix}
+0 & \kappa_1 & 0 & \cdots & 0 \\
+-\kappa_1 & 0 & \kappa_2 & \cdots & 0 \\
+\vdots & -\kappa_2 & \ddots & \ddots & \vdots \\
+0 & \cdots & -\kappa_{n-2} & 0 & \kappa_{n-1} \\
+0 & \cdots & 0 & -\kappa_{n-1} & 0
+\end{pmatrix}.$$

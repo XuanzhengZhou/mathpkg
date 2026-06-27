@@ -1,0 +1,23 @@
+id: principal-idempotent-elements
+title_en: "Principal Idempotent Elements of a Linear Transformation"
+title_zh: "线性变换的主幂等元"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [primary-decomposition, idempotent, projection, linear-transformation, polynomial-in-A]
+depends_on:
+  required: [primary-components, minimum-polynomial]
+  recommended: [orthogonal-idempotents, primary-decomposition-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "III"
+    section: "8"
+    pages: "141-143"
+    role_in_book: "Defines the canonical orthogonal idempotents associated with the primary decomposition of a space relative to a linear transformation."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

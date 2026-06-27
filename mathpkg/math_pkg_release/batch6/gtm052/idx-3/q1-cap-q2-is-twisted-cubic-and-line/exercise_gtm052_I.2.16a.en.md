@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "I"
+section: "2"
+exercise_number: "2.16(a)"
+---
+
+Let $Q_1$ and $Q_2$ be the quadric surfaces in $\mathbf{P}^3$ given by the equations $x^2 - yw = 0$ and $xy - zw = 0$, respectively. Show that $Q_1 \cap Q_2$ is the union of a twisted cubic curve and a line.

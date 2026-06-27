@@ -1,0 +1,23 @@
+id: symmetric-coherence-theorem
+title_en: "Symmetric Coherence Theorem"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [monoidal-category, symmetric-monoidal-category, coherence, canonical-map, symmetric-group]
+depends_on:
+  required: [monoidal-category, symmetric-monoidal-category, braiding]
+  recommended: [monoidal-coherence-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "1. Symmetric Monoidal Categories"
+    pages: ""
+    role_in_book: "Extends the monoidal coherence theorem to symmetric monoidal categories: all diagrams built from associativity and symmetry commute"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

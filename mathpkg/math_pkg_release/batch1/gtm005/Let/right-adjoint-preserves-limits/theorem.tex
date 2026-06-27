@@ -1,0 +1,14 @@
+A functor which is a right adjoint preserves all limits which exist in its domain.
+
+Dually, a functor which is a left adjoint preserves all colimits which exist in its domain.
+
+More precisely, given an adjunction $\langle F, G, \eta, \varepsilon \rangle : X \rightleftarrows A$ and any index category $J$, the diagram of adjoint pairs
+
+$$\xymatrix{
+X^J \ar@<0.5ex>[r]^{F^J} & A^J \ar@<0.5ex>[l]^{G^J} \\
+X \ar@<0.5ex>[r]^{F} \ar[u]^{\Delta} & A \ar@<0.5ex>[l]^{G} \ar[u]^{\Delta}
+}$$
+
+commutes on the left ($F^J \Delta = \Delta F$), so the composites $\operatorname{Lim} \circ G^J$ and $G \circ \operatorname{Lim}$ are both right adjoint to $\Delta \circ F$, hence naturally isomorphic:
+
+$$\operatorname{Lim} \circ G^J \cong G \circ \operatorname{Lim}.$$

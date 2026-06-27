@@ -1,0 +1,23 @@
+id: leibniz-formula-for-derivations
+title_en: "Leibniz Formula for Derivations"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: derivations
+difficulty: intermediate
+tags: [derivation, leibniz-formula, binomial-theorem]
+depends_on:
+  required: [derivation-in-algebra]
+  recommended: [binomial-coefficient]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "5"
+    section: "§1. Basic properties"
+    pages: "166"
+    role_in_book: "generalizes the Leibniz product rule to higher powers of a derivation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

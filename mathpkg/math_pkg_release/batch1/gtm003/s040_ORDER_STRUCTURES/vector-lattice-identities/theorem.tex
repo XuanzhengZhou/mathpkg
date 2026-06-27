@@ -1,0 +1,21 @@
+Let $E$ be a vector lattice. Then the following hold:
+
+\begin{enumerate}
+\item[(3)] $x + y = \sup(x, y) + \inf(x, y)$ is an identity on $E \times E$.
+
+\item For each $x \in E$, define $x^+ = \sup(x, 0)$ and $x^- = \sup(-x, 0)$. Then
+$$x = x^+ - x^-, \qquad |x| = x^+ + x^-,$$
+and $x = x^+ - x^-$ is the unique representation of $x$ as a difference of disjoint elements $\geq 0$.
+
+\item[(4)] For all $\lambda \in R$,
+$$(\lambda x)^+ = \begin{cases} \lambda x^+, & \lambda \geq 0 \\ |\lambda| x^-, & \lambda < 0 \end{cases}, \qquad
+(\lambda x)^- = \begin{cases} \lambda x^-, & \lambda \geq 0 \\ |\lambda| x^+, & \lambda < 0 \end{cases}.$$
+
+\item[(5)] $|x + y| \leq |x| + |y|$ (triangle inequality).
+
+\item[(6)] $|x^+ - y^+| \leq |x - y|$.
+
+\item[(D)] (Riesz Decomposition Property) For all $x \geq 0$, $y \geq 0$,
+$$[0, x] + [0, y] = [0, x + y].$$
+That is, if $0 \leq z \leq x + y$, there exist $u, v$ such that $0 \leq u \leq x$, $0 \leq v \leq y$, and $z = u + v$.
+\end{enumerate}

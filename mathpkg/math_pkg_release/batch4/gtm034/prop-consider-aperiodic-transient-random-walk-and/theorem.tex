@@ -1,0 +1,23 @@
+Consider aperiodic transient random walk, and a finite subset $A$ of $R$. Then there are three possibilities.
+
+(a) The dimension $d \geq 2$, or $d = 1$ but $m = \infty$, in which case
+
+$$\lim_{|z| \to \infty} H_A(x,y) = 0 \text{ for } y \in A.$$
+
+(b) $d = 1$ and $m < \infty$, $\mu > 0$, in which case
+
+$$\lim_{z \to -\infty} H_A(x,y) = \frac{1}{\mu} \left[ 1 - \sum_{t \in A} \Pi_A(t,y) \right], \quad y \in A,$$
+
+$$\lim_{z \to +\infty} H_A(x,y) = 0, \quad y \in A.$$
+
+(c) $d = 1$, $m < \infty$, and $\mu < 0$, which is just like case (
+
+Now we turn to a study of the escape probabilities $E_A(x)$ and their relation to the entrance probability function $H_A(x)$. The reader who has recognized part (a) of P2 above as the Poisson equation, discussed in Chapter III, D13.2, will not be surprised to see that we now proceed to solve this equation for $H_A(x)$ in terms of $E_A(x)$. The result is (remember that $A$ is once again an arbitrary nonempty proper subset of $R$, finite or infinite)
+
+$$H_A(x) = h_A(x) + \sum_{t \in A} G(x,t)E_A(t), \quad x \in R,$$
+
+where the sum on the right converges, and where $h_A(x)$ is the limit
+
+$$h_A(x) = \lim_{n \to \infty} \sum_{t \in R} P_n(x,t)H_A(t), \quad x \in R.$$
+
+Moreover, $h_A(x)$ is independent of $x$; it is a constant $h_A$ which depends on the transition function $P(x,y)$ and on the set $A$.

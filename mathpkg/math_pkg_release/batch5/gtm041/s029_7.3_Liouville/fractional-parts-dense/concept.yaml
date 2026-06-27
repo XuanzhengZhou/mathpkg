@@ -1,0 +1,23 @@
+id: fractional-parts-dense
+title_en: "Fractional Parts of Multiples of an Irrational are Dense"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-approximation
+difficulty: intermediate
+tags: [kronecker, fractional-part, density, irrational, one-dimensional-approximation]
+depends_on:
+  required: []
+  recommended: [fractional-part, irrational-number, dirichlet-approximation-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "7"
+    section: "7.4"
+    pages: ""
+    role_in_book: "Proves that the sequence {nθ} is dense in [0,1] for irrational θ, the one-dimensional Kronecker approximation theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

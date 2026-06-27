@@ -1,0 +1,23 @@
+id: set-of-01-transfinite-sequences
+title_en: "Set s of All {0,1}-Valued Transfinite Sequences of Length ω₁"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [eta1-set, transfinite-sequence, ordered-set, omega1]
+depends_on:
+  required: [ordinal-numbers, transfinite-sequences]
+  recommended: [eta1-set-definition]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "13"
+    section: "16"
+    pages: ""
+    role_in_book: "Canonical construction for η₁-sets and Dedekind completions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

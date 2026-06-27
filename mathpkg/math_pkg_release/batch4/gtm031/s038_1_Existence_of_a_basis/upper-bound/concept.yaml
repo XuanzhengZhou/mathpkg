@@ -1,0 +1,23 @@
+id: upper-bound
+title_en: "Upper Bound in a Partially Ordered Set"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [upper-bound, partial-order, poset, zorn-lemma]
+depends_on:
+  required: [partially-ordered-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "An upper bound of a subset S of a partially ordered set P is an element u in P such that s <= u for every s in S."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

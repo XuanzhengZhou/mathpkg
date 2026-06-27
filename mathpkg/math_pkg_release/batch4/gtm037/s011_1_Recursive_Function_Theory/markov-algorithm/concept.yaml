@@ -1,0 +1,23 @@
+id: markov-algorithm
+title_en: "Markov Algorithm"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [Markov-algorithm, word, normal-algorithm, computability, string-rewriting]
+depends_on:
+  required: [word, finite-sequence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "4"
+    section: "Markov Algorithms"
+    pages: ""
+    role_in_book: "Definition 4.1 defining a Markov algorithm as a matrix of word-rewriting rules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

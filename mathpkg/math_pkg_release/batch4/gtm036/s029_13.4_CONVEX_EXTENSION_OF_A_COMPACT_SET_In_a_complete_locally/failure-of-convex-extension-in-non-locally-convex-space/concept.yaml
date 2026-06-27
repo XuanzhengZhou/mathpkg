@@ -1,0 +1,34 @@
+id: failure-of-convex-extension-in-non-locally-convex-space
+title_en: "Failure of Convex Extension of Bounded and Totally Bounded Sets in Non-Locally-Convex Spaces"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags:
+  - non-locally-convex-space
+  - bounded-set
+  - totally-bounded
+  - convex-extension
+  - counterexample
+  - l-half-space
+depends_on:
+  required:
+    - locally-convex-space
+    - bounded-set
+    - totally-bounded-set
+    - convex-extension
+  recommended:
+    - sequence-space-l-half
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "13"
+    section: "13.4"
+    pages: ""
+    role_in_book: "Problem C: counterexample showing that convex extension of bounded/totally bounded sets may fail in spaces that are not locally convex"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

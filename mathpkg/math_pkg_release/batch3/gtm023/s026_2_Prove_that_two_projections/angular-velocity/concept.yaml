@@ -1,0 +1,23 @@
+id: angular-velocity
+title_en: "Angular Velocity"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: linear-algebra
+difficulty: advanced
+tags: [angular-velocity, rotation, cross-product, rigid-motion]
+depends_on:
+  required: [skew-generators-of-rotation-families, rotation-vector]
+  recommended: [cross-product]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: ""
+    title: "Linear Algebra"
+    chapter: "8"
+    section: "8.32"
+    pages: ""
+    role_in_book: "Defines angular velocity for differentiable families of 3D rotations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

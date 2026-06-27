@@ -1,0 +1,13 @@
+id: kruskal-spacetime
+title_en: "Kruskal Spacetime"
+title_zh: "克鲁斯卡尔时空"
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: advanced
+tags: [black-hole, kruskal, schwarzschild, maximal-spacetime, vacuum]
+depends_on: {required: [schwarzschild-spacetime, spacetime, maximal-spacetime], recommended: [black-hole], suggested: []}
+source_books: [{book_id: "gtm048", author: "R. K. Sachs and H. Wu", title: "General Relativity for Mathematicians", chapter: "7", section: "7.5", pages: "", role_in_book: "definition of maximal vacuum spacetime containing Schwarzschild"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

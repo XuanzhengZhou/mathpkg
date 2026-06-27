@@ -1,0 +1,7 @@
+Let $m$ and $n$ be infinite cardinal numbers. An $L_{mn}$-language is a first-order language augmented by allowing conjunction and disjunction of fewer than $m$ formulas, and universal quantification on fewer than $n$ variables. Thus the new formation and satisfaction rules are codified as follows:
+
+If $\langle \varphi_\alpha : \alpha < p \rangle$ is a system of formulas with $p < m$, then $\bigwedge_{\alpha < p} \varphi_\alpha$ and $\bigvee_{\alpha < p} \varphi_\alpha$ are formulas. We allow, instead of just $\aleph_0$ variables, $n$ variables $\langle v_\alpha : \alpha < n \rangle$ and add the formation rule:
+
+If $\varphi$ is a formula and $\alpha \in {}^p n$ is one-one, where $p < n$, then $\forall v_{\alpha_0} \cdots v_{\alpha_\xi} \cdots \varphi$ is a formula.
+
+We say that $\mathfrak{A} \models \bigwedge_{\alpha < p} \varphi_\alpha[x]$ iff for all $\alpha < p$, $\mathfrak{A} \models \varphi_\alpha[x]$.

@@ -1,0 +1,7 @@
+Let $\{f_n\}$, $n = 0, 1, \ldots$, satisfy $f_0 = 0$, $f_n \geq 0$, $\sum f_n = 1$, and let the greatest common divisor of $\{n : f_n > 0\}$ be $1$. Set $u_0 = 1$ and for $n \geq 1$,
+$$u_n = \sum_{k=0}^{n} f_k u_{n-k}.$$
+Then $\lim_{n \to \infty} u_n = \left(\sum_{k=0}^{\infty} k f_k\right)^{-1}$, with the limit interpreted as $0$ if the sum diverges.
+
+Applied to Markov chains: for a recurrent non-periodic state $j$,
+$$p_{j,j}^{(n)} \to \frac{1}{\mu_j} = u_j$$
+as $n \to \infty$, where $\mu_j$ is the mean recurrence time.

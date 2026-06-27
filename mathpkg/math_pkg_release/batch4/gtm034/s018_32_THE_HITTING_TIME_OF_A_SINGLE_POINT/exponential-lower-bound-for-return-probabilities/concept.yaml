@@ -1,0 +1,20 @@
+id: exponential-lower-bound-for-return-probabilities
+title_en: "Exponential Lower Bound for Return Probabilities"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [return-probability, exponential-bound, cyclic-permutation, combinatorial-argument]
+depends_on: {required:[], recommended:[strongly-aperiodic-random-walk, recurrent-random-walk], suggested:[]}
+source_books:
+  - book_id: "gtm034"
+    author: "Frank Spitzer"
+    title: "Principles of Random Walk"
+    chapter: "VI"
+    section: "32"
+    pages: "383-385"
+    role_in_book: "First step in proving T2; provides the exponential lower bound controlling the decay rate of $F_n$"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,15 @@
+There is a direct argument that shows $H^*_{DR}(g): H^*_{DR}(N) \rightarrow H^*_{DR}(M)$ is a well-defined linear mapping. In general, de Rham cohomology is isomorphic to singular cohomology, sheaf and Čech cohomology, and for a compact, orientable manifold $M$ it satisfies Poincaré duality. All of this for coefficients in $R$ or in $C$.
+
+1.6 Comparison with Singular Cohomology. This is done by Stokes' formula
+
+$$\int_{\partial c} \omega = \int_c d\omega$$
+
+where $c$ is a smooth $(q+1)$-chain with boundary $\partial c$ and $\omega$ is a $q$-form. Integration defines a pairing $(c, \omega) \mapsto \int_c \omega$, and Stokes' formula is just the assertion that $\partial$ on chains and $d$ on forms are adjoint to each other under the integration pairing of chains and forms. It is a theorem: This pairing given by integration induces a perfect pairing $H_q(M) \otimes H^q_{DR}(M) \rightarrow R$ which implies that $H^q_{DR}(M) = H_q(M)^\vee$, the dual to singular homology which is singular cohomology.
+
+1.7 Poincaré Duality for de Rham Cohomology. Let $M$ be a closed oriented manifold which means, firstly, that integration over the manifold is well defined. If $\dim(M) = n$, then given a $p$-form $\omega$ and a $q$-form $\omega'$ with $p+q=n$ so that $\omega \wedge \omega'$ is an $n$-form, and thus we can define a pairing $A^p(M) \otimes A^q(M) \rightarrow R$ given by
+
+$$(\omega, \omega') \mapsto \int_M \omega \wedge \omega' = [\omega, \omega'].$$
+
+Since the boundary of $M$ is empty, we have $[d\theta, \theta'] = (-1)^{p+1}[\theta, d\theta']$
+
+$$Q(\omega) = Q(\alpha + \beta \wedge dt) = (-1)^{q-1} \int_0^1 \beta dt.$$

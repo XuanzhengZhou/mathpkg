@@ -1,0 +1,23 @@
+id: strong-dual-reflexive
+title_en: "The Strong Dual of a Reflexive Space is Reflexive"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [reflexive, strong-dual, locally-convex-space, barreled, semi-reflexive, weak-topology]
+depends_on:
+  required: [reflexive-space-barreled-relative-compact, semi-reflexive-space-equivalences]
+  recommended: [strong-topology, mackey-topology, barreled-space]
+  suggested: [bounded-set, equicontinuous-set]
+source_books:
+  - book_id: "gtm003"
+    author: "Schaefer, H.H.; Wolff, M.P."
+    title: "Topological Vector Spaces"
+    chapter: "5"
+    section: "5.6"
+    pages: ""
+    role_in_book: "Corollary establishing that reflexivity passes to the strong dual"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

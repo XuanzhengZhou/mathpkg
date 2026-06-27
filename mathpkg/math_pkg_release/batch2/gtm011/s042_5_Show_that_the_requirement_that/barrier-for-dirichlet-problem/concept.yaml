@@ -1,0 +1,23 @@
+id: barrier-for-dirichlet-problem
+title_en: "Barrier for G at a"
+title_zh: "狄利克雷问题的障碍函数"
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [barrier, dirichlet-problem, superharmonic-function, boundary-behavior]
+depends_on:
+  required: [superharmonic-function, dirichlet-region]
+  recommended: [perron-method, harmonic-function]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "X"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines a family of superharmonic functions that control boundary behavior for the Dirichlet Problem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

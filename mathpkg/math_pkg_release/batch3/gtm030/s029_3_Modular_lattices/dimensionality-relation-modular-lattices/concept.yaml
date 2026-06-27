@@ -1,0 +1,23 @@
+id: dimensionality-relation-modular-lattices
+title_en: "Fundamental Dimensionality Relation for Modular Lattices"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: lattice-theory
+difficulty: intermediate
+tags: [modular, lattice, dimensionality, rank, length]
+depends_on:
+  required: [modular-lattice-definition, modular-lattice-interval-isomorphism]
+  recommended: [jordan-holder-theorem-modular-lattices]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "3"
+    pages: ""
+    role_in_book: "Derives the fundamental dimensionality (rank) formula l(a ∪ b) = l(a) + l(b) - l(a ∩ b) for modular lattices of finite length, analogous to the dimension formula for vector subspaces."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

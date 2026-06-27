@@ -1,0 +1,9 @@
+(a) Composition (substitution): $h = g \circ f$ from $(\mathbb{Z}^+)^m$ to $(\mathbb{Z}^+)^p$ with $D(g \circ f) = \{x \in D(f) \mid f(x) \in D(g)\}$ and $h(x) = g(f(x))$.
+
+(b) Juxtaposition: $h = \langle f_1, \ldots, f_n \rangle$ from $(\mathbb{Z}^+)^m$ to $(\mathbb{Z}^+)^n$ with $D(h) = \bigcap D(f_i)$ and $h(x) = \langle f_1(x), \ldots, f_n(x) \rangle$.
+
+(c) Recursion: $h$ from $(\mathbb{Z}^+)^{n+1}$ to $\mathbb{Z}^+$ defined by
+$h(x_1, \ldots, x_n, 1) = f(x_1, \ldots, x_n)$,
+$h(x_1, \ldots, x_n, k+1) = g(x_1, \ldots, x_n, k, h(x_1, \ldots, x_n, k))$.
+
+(d) The $\mu$-operator: $h(x_1, \ldots, x_n) = \min\{x_{n+1} \mid f(x_1, \ldots, x_n, x_{n+1}) = 1\}$ where $f$ is defined for all smaller arguments.

@@ -1,0 +1,1 @@
+A convergent power series is invertible in the ring of convergent power series precisely when its constant term does not vanish. This is the several-variable analogue of the corresponding fact for formal power series.

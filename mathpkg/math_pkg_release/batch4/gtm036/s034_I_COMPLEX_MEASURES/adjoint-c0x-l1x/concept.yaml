@@ -1,0 +1,23 @@
+id: adjoint-c0x-l1x
+title_en: "Dual of c_0(X) is l^1(X)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [c0-space, dual-space, l1-space, discrete-measure, sequence-space]
+depends_on:
+  required: [riesz-representation-c0x, l1-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "J.L. Kelley, I. Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "4"
+    section: "I (Complex Measures)"
+    pages: ""
+    role_in_book: "Problem section I, corollary to Riesz theorem for discrete X"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

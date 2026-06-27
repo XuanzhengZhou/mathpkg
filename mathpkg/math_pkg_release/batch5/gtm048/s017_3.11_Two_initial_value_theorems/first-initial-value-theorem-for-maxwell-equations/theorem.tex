@@ -1,0 +1,19 @@
+\textbf{Theorem 3.11.1 (First Initial Value Theorem for Maxwell's Equations).}
+Suppose the following data are given:
+\begin{itemize}
+  \item[(a)] a spacetime $M$;
+  \item[(b)] a charge-current density $J$ on $M$ such that $\operatorname{div} J = 0$;
+  \item[(c)] a coordinate neighborhood $U \subset M$;
+  \item[(d)] an imbedded three-dimensional spacelike submanifold $\phi: W \to U$.
+\end{itemize}
+Let a $2$-form $F_0$ over $\phi$ be given, and define a $2$-form $\phi^* F_0$ on $W$ by
+$$
+(\phi^* F_0)_x = \phi^*(F_0 x), \qquad \forall x \in W.
+$$
+Then the initial conditions
+\begin{align}
+  d(\phi^* F_0) &= 0, \tag{e_1}\\
+  d\bigl(i(\hat{F}_0)(\Omega \circ \phi)\bigr) &= 4\pi\, i(J \circ \phi)(\Omega \circ \phi) \tag{e_2}
+\end{align}
+are necessary and sufficient for the existence of a unique $2$-form $F$ on $U$ (for $U$ sufficiently small) such that $F \circ \phi = F_0$ and $(U, F|_U, J|_U)$ obeys Maxwell's equations.
+Equivalently, if $\vec{\jmath}$, $\sigma$ are given for all time $t$ and obey the equation of continuity, and if $\vec{B}$, $\vec{E}$ are known for all $\vec{x} \in \mathcal{W}$ at $t = 0$ and satisfy $\nabla \cdot \vec{B} = 0$ and $\nabla \cdot \vec{E} = 4\pi\sigma$ at $t = 0$, then there exist unique $\vec{B}(\vec{x}, t)$ and $\vec{E}(\vec{x}, t)$, defined for $|t| < \varepsilon$, such that $\vec{B}(\vec{x}, 0)$ and $\vec{E}(\vec{x}, 0)$ agree with the given values and such that all eight classical Maxwell's equations for $\vec{B}(\vec{x}, t)$ and $\vec{E}(\vec{x}, t)$ are satisfied for $|t| < \varepsilon$.

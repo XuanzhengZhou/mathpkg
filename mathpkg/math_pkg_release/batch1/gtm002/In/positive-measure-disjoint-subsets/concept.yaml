@@ -1,0 +1,23 @@
+id: positive-measure-disjoint-subsets
+title_en: "Disjoint Subsets of Positive Outer Measure"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: measure-and-category
+difficulty: intermediate
+tags: [positive-outer-measure, disjoint-sets, continuum-hypothesis, duality]
+depends_on:
+  required: [outer-measure, lebesgue-measure]
+  recommended: [continuum-hypothesis]
+  suggested: [sierpinski-duality, second-category-disjoint-subsets]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "20"
+    section: "Examples of Duality"
+    pages: "page_0086.json–page_0089.json"
+    role_in_book: "Proposition 20.3* — dual of Proposition 20.3"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

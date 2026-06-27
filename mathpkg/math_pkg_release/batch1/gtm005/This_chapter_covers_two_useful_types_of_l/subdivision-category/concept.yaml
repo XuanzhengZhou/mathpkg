@@ -1,0 +1,20 @@
+id: subdivision-category
+title_en: "Subdivision Category"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [subdivision-category, end, limit, diagram-category]
+depends_on: {required: [end-of-bifunctor], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IX"
+    section: "5. Ends"
+    pages: ""
+    role_in_book: "Technical construction that reduces an end to an ordinary limit"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

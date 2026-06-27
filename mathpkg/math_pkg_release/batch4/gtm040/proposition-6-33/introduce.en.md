@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $P'$ be a sums of independent random variables ladder process on the integers. There exists a recurrent chain $P$ and a state $s$ such that the times to return to $s$ are the outcome functions for $P'$.

@@ -1,0 +1,13 @@
+id: fourier-transform-gauss-sum-property
+title_en: "Fourier Transform and Gauss Sum Relation for Primitive Characters"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: number-theory
+difficulty: advanced
+tags: [cyclotomic-fields, fourier-transform, gauss-sums, primitive-character, theorem-1-2]
+depends_on: {required: [fourier-transform-on-z-nz, gauss-sum-on-z-nz, primitive-character-on-z-nz], recommended: [gauss-sum-vanishing-imprimitive], suggested: []}
+source_books: [{book_id: "gtm059", author: "Serge Lang", title: "Cyclotomic Fields", chapter: "2", section: "Stickelberger Ideals and Bernoulli Distributions", pages: "", role_in_book: "Theorem 1.2: Fourier transform of a character equals the Gauss sum times the conjugate character"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

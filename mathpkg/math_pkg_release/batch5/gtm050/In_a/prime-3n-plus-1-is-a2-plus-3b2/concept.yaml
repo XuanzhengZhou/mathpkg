@@ -1,0 +1,23 @@
+id: prime-3n-plus-1-is-a2-plus-3b2
+title_en: "Representation of Primes 3n+1 as a^2 + 3b^2"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: intermediate
+tags: [prime, representation, quadratic-form, sum-of-squares-variant]
+depends_on:
+  required: []
+  recommended: [congruences, quadratic-residue, constructive-two-squares-decomposition]
+  suggested: [class-number, binary-quadratic-forms]
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.6"
+    pages: ""
+    role_in_book: "Analogue of Fermat's two-square theorem for the form a^2+3b^2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

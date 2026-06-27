@@ -1,0 +1,10 @@
+Let $X, Y$ be smooth manifolds and $f: X \to Y$ a smooth map. A smooth map $F: X \times I_\varepsilon \to Y \times I_\varepsilon$ (for some $\varepsilon > 0$) is a \textbf{deformation} of $f$ if $F_0 = f$, where $F_t$ denotes the restriction $F|_{X \times \{t\}}$ composed with projection to $Y$. A deformation $F$ of $f$ is \textbf{trivial} if there exist $\delta$ with $0 < \delta \leq \varepsilon$ and smooth families $G: X \times I_\delta \to X$, $H: Y \times I_\delta \to Y$ such that $G_t$ and $H_t$ are diffeomorphisms for each $t$, $G_0 = \mathrm{id}_X$, $H_0 = \mathrm{id}_Y$, and the following diagram commutes for all $t \in I_\delta$:
+\[
+\begin{CD}
+X \times I_\delta @>{F|_{X \times I_\delta}}>> Y \times I_\delta \\
+@V{G}VV @VV{H}V \\
+X \times I_\delta @>{f \times \mathrm{id}_{I_\delta}}>> Y \times I_\delta
+\end{CD}
+\]
+
+A smooth map $f: X \to Y$ is \textbf{stable under deformations} (or \textbf{homotopically stable}) if every deformation of $f$ is trivial.

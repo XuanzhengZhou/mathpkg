@@ -1,0 +1,14 @@
+Let $\kappa$ be a cardinal or $\mathrm{On}$. A system
+
+$$\langle \{P_{\alpha} \mid \alpha < \kappa\}, \{p_{\alpha\beta} \mid \alpha \leq \beta < \kappa\} \rangle$$
+
+is called a normal limiting system of partial order structures iff:
+
+\begin{enumerate}
+\item $P_{\alpha}$ is a partial order structure for every $\alpha < \kappa$ and
+$$\langle \{P_{\alpha} \mid \alpha < \kappa\}, \{p_{\alpha\beta} \mid \alpha \leq \beta < \kappa\} \rangle$$
+is an o.c.o. inverse system.
+\item $p_{\alpha\beta}$ is a topological embedding of $P_{\alpha}$ into $P_{\beta}$.
+\item $x \in P_{\alpha} \land y \in P_{\beta} \land x \leq y \rightarrow p_{\alpha\max(\alpha,\beta)}(x) \leq p_{\beta\max(\alpha,\beta)}(y)$.
+\item $x \in P_{\alpha} \land y \in P_{\beta} \land \alpha \leq \beta \land \mathrm{Comp}(x, p_{\alpha\beta}(y)) \rightarrow \mathrm{Comp}(x, y)$.
+\end{enumerate}

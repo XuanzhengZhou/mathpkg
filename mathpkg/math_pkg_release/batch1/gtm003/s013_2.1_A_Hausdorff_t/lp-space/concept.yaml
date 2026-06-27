@@ -1,0 +1,23 @@
+id: lp-space
+title_en: "$L^p$ Space"
+title_zh: "$L^p$空间"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [measure-space, lp-space, banach-space, semi-norm, quotient-space, holder-inequality, minkowski-inequality, integrable-function]
+depends_on:
+  required: [measure-space, banach-space, quotient-vector-space, semi-norm]
+  recommended: [lebesgue-integral, holder-inequality, minkowski-inequality]
+  suggested: [normable-space, separable-space]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Example 2; constructs the classical Banach spaces L^p from a measure space, fundamental examples throughout functional analysis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

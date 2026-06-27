@@ -1,0 +1,23 @@
+id: definition-pa-largest-prime-without-a
+title_en: "P_a and P^a -- Lower and Upper Ideals in C/P"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ordered-rings
+difficulty: advanced
+tags: [prime-ideal, lower-ideal, upper-ideal, cp-quotient]
+depends_on:
+  required: [theorem-prime-ideals-cp-chain, definition-upper-ideal-lower-ideal]
+  recommended: [theorem-pa-pa-formulas]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "14"
+    section: "3"
+    pages: ""
+    role_in_book: "Canonical notation for successive prime ideals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

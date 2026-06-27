@@ -1,0 +1,23 @@
+id: harmonic-mvp-equivalence
+title_en: "Equivalence of Harmonicity and the Mean Value Property"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: intermediate
+tags: [harmonic, mvp, equivalence, poisson-integral]
+depends_on:
+  required: [harmonic-function, mean-value-property, poisson-kernel-properties]
+  recommended: [maximum-principle-corollary-bounded]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "X"
+    section: "2.11"
+    pages: ""
+    role_in_book: "Converse to the Mean Value Theorem — establishes MVP as equivalent to harmonicity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

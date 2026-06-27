@@ -1,0 +1,23 @@
+id: discriminant-modular-form
+title_en: "The Discriminant Modular Form Delta(tau)"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [discriminant, delta-function, modular-form, weight-12, cusp-form]
+depends_on:
+  required: [modular-form, modular-group]
+  recommended: []
+  suggested: [eisenstein-series]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.1"
+    pages: ""
+    role_in_book: "Key example of a cusp form of weight 12"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

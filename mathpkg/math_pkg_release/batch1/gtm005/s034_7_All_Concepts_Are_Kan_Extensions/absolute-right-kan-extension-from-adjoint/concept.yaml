@@ -1,0 +1,23 @@
+id: absolute-right-kan-extension-from-adjoint
+title_en: "Absolute Right Kan Extension from an Adjoint"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [kan-extension, adjoint-functor, absolute-kan-extension, preservation]
+depends_on:
+  required: [right-kan-extension, adjoint-functor, formal-criteria-for-existence-of-adjoint]
+  recommended: [counit-of-adjunction, identity-functor]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "X"
+    section: "7"
+    pages: "262-264"
+    role_in_book: "Strengthens the formal criteria for adjoints by showing the Kan extension is absolute: preserved by any functor"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

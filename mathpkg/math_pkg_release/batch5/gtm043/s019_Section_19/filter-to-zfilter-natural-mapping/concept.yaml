@@ -1,0 +1,23 @@
+id: filter-to-zfilter-natural-mapping
+title_en: "Natural Mapping δ^# from Filters to z-Filters"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [filter, z-filter, zero-set, convergence, delta-map]
+depends_on:
+  required: [z-filter-definition, filter-definition]
+  recommended: [stone-cech-compactification, z-ultrafilter]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "10"
+    section: "10.17"
+    pages: ""
+    role_in_book: "Defines the natural mapping from filters to z-filters"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

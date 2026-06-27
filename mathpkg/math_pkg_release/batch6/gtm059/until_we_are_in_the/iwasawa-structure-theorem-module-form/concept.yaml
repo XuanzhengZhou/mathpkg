@@ -1,0 +1,23 @@
+id: iwasawa-structure-theorem-module-form
+title_en: "Iwasawa Structure Theorem (Module Form)"
+title_zh: "岩泽结构定理（模形式）"
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [iwasawa-theory, pseudo-isomorphism, finitely-generated-module, distinguished-polynomial, iwasawa-algebra]
+depends_on:
+  required: [iwasawa-structure-theorem-matrix-form]
+  recommended: [iwasawa-algebra, distinguished-polynomial, pseudo-isomorphism]
+  suggested: [structure-theorem-finitely-generated-modules-over-pid]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "Iwasawa Theory and Ideal Class Groups"
+    pages: ""
+    role_in_book: "Classifies finitely generated Λ-modules up to pseudo-isomorphism as a direct sum of cyclic modules Λ/(f_i) where f_i are distinguished polynomials or zero."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

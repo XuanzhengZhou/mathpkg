@@ -1,0 +1,23 @@
+id: pullback-of-numerable-bundle-is-numerable
+title_en: "Pullback of a Numerable Bundle is Numerable"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: fibre-bundles
+difficulty: intermediate
+tags: [principal-bundle, numerable, pullback, locally-finite-partition-of-unity]
+depends_on:
+  required: [numerable-principal-g-bundle, pullback-of-principal-bundle]
+  recommended: [locally-finite-partition-of-unity]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "9"
+    section: "9.3"
+    pages: "66"
+    role_in_book: "Establishes that the pullback of a numerable bundle remains numerable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

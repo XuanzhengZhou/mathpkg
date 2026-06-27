@@ -1,0 +1,38 @@
+{
+  "id": "groupoid",
+  "title_en": "Groupoid",
+  "title_zh": "",
+  "type": "definition",
+  "domain": "foundations",
+  "subdomain": "category-theory",
+  "difficulty": "intermediate",
+  "tags": [
+    "groupoid",
+    "invertible",
+    "group"
+  ],
+  "depends_on": {
+    "required": [
+      "category",
+      "invertible-arrow"
+    ],
+    "recommended": [
+      "group"
+    ],
+    "suggested": []
+  },
+  "source_books": [
+    {
+      "book_id": "gtm005",
+      "author": "Saunders Mac Lane",
+      "title": "Categories for the Working Mathematician",
+      "chapter": "I",
+      "section": "5",
+      "pages": "",
+      "role_in_book": ""
+    }
+  ],
+  "content_hash": "8496827e9da1b319",
+  "extraction_date": "2026-06-27",
+  "extraction_agent": "v8-full-extract"
+}

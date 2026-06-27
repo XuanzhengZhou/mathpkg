@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+The ground subspace of a vector space $V$ over $K$ with $\mathcal{A}$-product is the $K^{\mathcal{A}}$-subspace $V^{\mathcal{A}} = \{v \in V \mid T(xv) = T(x)v \text{ for all } T \in \mathcal{A}, x \in K\}$.

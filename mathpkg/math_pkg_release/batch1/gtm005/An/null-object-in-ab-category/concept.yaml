@@ -1,0 +1,23 @@
+id: null-object-in-ab-category
+title_en: "Null object properties in an Ab-category"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [null-object, initial-object, terminal-object, zero-object, ab-category]
+depends_on:
+  required: [ab-category, zero-arrow-in-ab-category]
+  recommended: [initial-object, terminal-object]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VIII"
+    section: "2"
+    pages: "208-211"
+    role_in_book: "Proposition 1. Characterizes null objects in Ab-categories by algebraic conditions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

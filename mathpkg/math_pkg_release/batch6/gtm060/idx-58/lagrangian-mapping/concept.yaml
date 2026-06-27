@@ -1,0 +1,23 @@
+id: lagrangian-mapping
+title_en: "Lagrangian mapping"
+title_zh: "拉格朗日映射"
+type: definition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [lagrangian-submanifold, projection, caustic, cotangent-bundle, singularity-theory]
+depends_on:
+  required: [lagrangian-submanifold, lagrangian-singularities]
+  recommended: [cotangent-bundle]
+  suggested: [lagrangian-equivalence, generating-family]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 12"
+    section: "E. Lagrangian equivalence"
+    pages: ""
+    role_in_book: "Defines a Lagrangian mapping as the projection of a Lagrangian submanifold onto configuration space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

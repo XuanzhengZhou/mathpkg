@@ -1,0 +1,23 @@
+id: zeta-function-integral-bound
+title_en: "Integral Bound for the Zeta-Gamma Product"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [riemann-zeta-function, integral-estimate, uniform-bound, gamma-function]
+depends_on:
+  required: []
+  recommended: [riemann-zeta-function, gamma-function, complex-integration]
+  suggested: [eulers-constant, analytic-continuation-of-zeta]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "7"
+    section: "8"
+    pages: ""
+    role_in_book: "Provides the key integral estimates needed to interchange sum and integral in the derivation of the functional equation relating the Riemann zeta function and the Gamma function."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

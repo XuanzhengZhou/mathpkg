@@ -1,0 +1,15 @@
+Let $A$ be an $(n \times n)$-matrix and let $p$ ($1 \leq p \leq n-1$) be a fixed integer. Then
+
+$$\det A = \sum_{v_1 < \dots < v_p} \varepsilon(v_1, \dots, v_p) \det A^{v_1 \dots v_p} \det B^{v_{p+1} \dots v_n},$$
+
+where
+
+$$A^{v_1 \dots v_p} = A_{1 \dots p}^{v_1 \dots v_p}$$
+
+is the submatrix of $A$ formed by the first $p$ rows and columns $v_1, \dots, v_p$, and
+
+$$B^{v_{p+1} \dots v_n} = A_{p+1 \dots n}^{v_{p+1} \dots v_n}$$
+
+is the submatrix formed by the last $n-p$ rows and the complementary columns $v_{p+1}, \dots, v_n$ (where $\{v_1, \dots, v_p, v_{p+1}, \dots, v_n\} = \{1, \dots, n\}$), and
+
+$$\varepsilon(v_1, \dots, v_p) = (-1)^{\sum_{i=1}^{p} (v_i - i)}.$$

@@ -1,0 +1,23 @@
+id: top-has-coequalizers
+title_en: "Top has Coequalizers"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: category-theory
+difficulty: intermediate
+tags: [coequalizer, colimit, topological-space, quotient]
+depends_on:
+  required: [faithful-functor-equalizer-existence, quotient-topology-adjunction]
+  recommended: [coequalizer]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IV. Adjoints"
+    section: "9. Adjoints in Topology"
+    pages: ""
+    role_in_book: "Shows Top has coequalizers via dual of Proposition 1"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

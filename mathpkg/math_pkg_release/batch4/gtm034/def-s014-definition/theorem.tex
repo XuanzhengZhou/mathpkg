@@ -1,0 +1,19 @@
+$$Q(x,y) \geq 0 \text{ for } x,y \in S$$
+
+$$\sum_{y \in S} Q(x,y) \leq 1 \text{ for } x \in S$$
+
+$$Q_0(x,y) = \delta(x,y), \quad Q_1(x,y) = Q(x,y),$$
+
+$$Q_{n+1}(x,y) = \sum_{t \in S} Q_n(x,t)Q(t,y), \quad x,y \in S, \quad n \geq 0.$$
+
+$$\sum_{n=0}^{\infty} Q_n(x,y) = g(x,y) < \infty, \quad x,y \in S.$$
+
+Such a function $Q$ is called a transient kernel.
+
+We avoid the term transition function for $Q(x,y)$ since it need not be a difference kernel; indeed, no operation of addition or subtraction is defined on $S$. Nevertheless $Q(x,y)$ and its iterates $Q_n(x,y)$ behave much like transition functions. It is not hard to see that one can associate a
+
+However it is not our purpose to carry out such an elaborate construction. Rather, it will meet our needs to derive some simple analytic properties of transient kernels defined by D1. Just as was done for transient random walk, we shall define a class of functions which are non-negative and satisfy the equation
+
+$$Qf(x) = \sum_{y \in S} Q(x,y)f(y) = f(x), \quad x \in S.$$
+
+They will be called $Q$-regular. Two more classes of functions are defined, the $Q$-potentials and also a convenient class of functions which contains all $Q$-potentials. The latter are called $Q$-excessive and form an analogue of the superharmonic functions in classical analysis.

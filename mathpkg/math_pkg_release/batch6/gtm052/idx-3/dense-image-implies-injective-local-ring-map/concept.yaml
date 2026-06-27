@@ -1,0 +1,23 @@
+id: dense-image-implies-injective-local-ring-map
+title_en: "If the image of a morphism is dense, the local ring maps are injective"
+title_zh: "若态射的像稠密，则局部环映射是单射"
+type: exercise
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [morphism, dense-image, local-ring, injective-homomorphism]
+depends_on:
+  required: [induced-homomorphism-of-local-rings]
+  recommended: [dominant-morphism]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "3"
+    pages: "19"
+    role_in_book: "Exercise 3.3(c)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

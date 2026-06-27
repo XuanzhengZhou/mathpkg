@@ -1,0 +1,23 @@
+id: m-omega-1-ideal
+title_en: "The Maximal Ideal M^{omega_1} in C(W)"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [maximal-ideal, fixed-ideal, well-ordered-space, zero-set]
+depends_on:
+  required: [w-and-w-star-definition, w-c-embedded-in-w-star]
+  recommended: [maximal-ideal, fixed-ideal, zero-set]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.13"
+    pages: ""
+    role_in_book: "Definition of M^{omega_1}, the set of functions in C(W) that vanish on a tail, which is the unique free maximal ideal in C(W)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: desarguesian-plane-characterization
+title_en: "Characterization of Desarguesian Planes via Skewfields and (V,k)-Transitivity"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [desarguesian-plane, skewfield, division-ring, planar-ternary-ring, vk-transitivity]
+depends_on:
+  required: [planar-ternary-ring, skewfield, vk-transitivity]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "IV"
+    section: "9"
+    pages: ""
+    role_in_book: "Summary table entry (b): establishes the equivalence between the algebraic property (coordinating PTR is a skewfield) and the geometric property (desarguesian plane)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

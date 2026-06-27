@@ -1,0 +1,23 @@
+id: monoidal-natural-transformation
+title_en: "Monoidal Natural Transformation"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [monoidal-functor, natural-transformation, coherence, 2-category]
+depends_on:
+  required: [monoidal-functor, natural-transformation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "2"
+    pages: "page_0269–page_0270"
+    role_in_book: "Defines monoidal natural transformations as 2-cells between monoidal functors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

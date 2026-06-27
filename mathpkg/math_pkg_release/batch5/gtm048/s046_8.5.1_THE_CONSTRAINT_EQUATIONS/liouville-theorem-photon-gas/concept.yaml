@@ -1,0 +1,23 @@
+id: liouville-theorem-photon-gas
+title_en: "Liouville's Theorem for Photon Gases"
+title_zh: "光子气体的刘维尔定理"
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [liouville-theorem, photon-gas, light-cone, volume-form, lie-derivative, liouville-operator]
+depends_on:
+  required: [future-light-cone, horizontal-vector-field-on-light-cone, volume-form, lie-derivative]
+  recommended: [liouville-operator, canonical-one-form, cotangent-bundle]
+  suggested: [kinetic-theory, boltzmann-equation, phase-space]
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs and Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "8"
+    section: "8.6.2"
+    pages: ""
+    role_in_book: "Exercise: prove the Liouville theorem L_L ω = 0 on the light cone"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

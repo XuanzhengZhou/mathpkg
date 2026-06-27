@@ -1,0 +1,23 @@
+id: rip-lip-transitivity-equivalence
+title_en: "RIP division ring has LIP iff plane is ((0,0),[0,0])-transitive"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-planes
+difficulty: advanced
+tags: [projective-plane, division-ring, right-inverse-property, left-inverse-property, transitivity, moufang-plane]
+depends_on:
+  required: [right-inverse-property, left-inverse-property, division-ring-rip-characterization]
+  recommended: [translation-plane, theorem-4.20]
+  suggested: [rip-lip-moufang-plane-equivalence]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "6"
+    pages: "146-150"
+    role_in_book: "Theorem 6.14: characterizes LIP in a RIP division ring by ((0,0),[0,0])-transitivity of the projective plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

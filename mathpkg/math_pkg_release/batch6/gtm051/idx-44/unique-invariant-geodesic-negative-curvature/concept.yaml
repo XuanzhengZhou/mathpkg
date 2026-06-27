@@ -1,0 +1,23 @@
+id: unique-invariant-geodesic-negative-curvature
+title_en: "Uniqueness of Invariant Geodesics under Negative Curvature"
+title_zh: "负曲率下不变测地线的唯一性"
+type: proposition
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [invariant-geodesic, negative-curvature, uniqueness, gauss-bonnet-theorem, geodesic-quadrilateral, covering-transformation]
+depends_on:
+  required: [closed-geodesic-from-fundamental-group, gauss-curvature, gauss-bonnet-theorem]
+  recommended: [covering-transformation, geodesic-quadrilateral, angle-sum]
+  suggested: [cartan-hadamard-theorem, comparison-theorems]
+source_books:
+  - book_id: gtm051
+    author: "W. Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.7"
+    pages: ""
+    role_in_book: "Part (iii) of Theorem 6.7.1: uniqueness of γ-invariant geodesics when Gauss curvature is negative"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

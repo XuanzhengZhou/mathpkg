@@ -1,0 +1,23 @@
+id: vx-largest-c-embedded-subspace
+title_en: "$vX$ is the Largest Subspace of $\beta X$ in which $X$ is $C$-Embedded"
+title_zh: "vX是βX中使X C-嵌入的最大子空间"
+type: corollary
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [vX, C-embedded, beta-X, maximal-subspace]
+depends_on:
+  required: [hewitt-realcompactification-vx, C-embedded, stone-cech-compactification]
+  recommended: [equivalent-conditions-on-beta-x-point]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "8"
+    section: "8.5"
+    pages: ""
+    role_in_book: "Shows vX is maximal for the C-embedded property within βX"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

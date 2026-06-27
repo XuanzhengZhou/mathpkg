@@ -1,0 +1,23 @@
+id: definitional-extension-eliminability
+title_en: "Eliminability of Definitions in Definitional Extensions"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [definitional-extension, eliminability, defined-symbols, effective-procedure, formula-translation]
+depends_on:
+  required: [first-order-theory, definitional-extension, formula, sentence, logical-consequence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "11"
+    section: "2"
+    pages: ""
+    role_in_book: "States that defined symbols can always be eliminated in favor of old symbols in a definitional extension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

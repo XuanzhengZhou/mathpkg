@@ -1,0 +1,23 @@
+id: fundamental-lemma
+title_en: "Fundamental Lemma"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [completeness-proof, term-model, henkin-constants, consistent-set]
+depends_on:
+  required: [sufficient-alphabet]
+  recommended: [consistent-set, complete-set, logical-axioms]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "I"
+    section: "6"
+    pages: ""
+    role_in_book: "Core lemma in the proof of Gödel's Completeness Theorem, constructing a term model"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

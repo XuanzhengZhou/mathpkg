@@ -1,0 +1,23 @@
+id: convenient-number-primality-conditions
+title_en: "Necessary and Sufficient Primality Conditions for Convenient Numbers"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: advanced
+tags: [convenient-number, numerus-idoneus, quadratic-form, primality-test, euler]
+depends_on:
+  required: []
+  recommended: [quadratic-form-representation, divisor-of-quadratic-integers, genus-theory]
+  suggested: [conjugate-divisor, norm-of-divisor]
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "7"
+    section: "7.10"
+    pages: "298"
+    role_in_book: "Exercise 4: characterizes when k = ax^2 + by^2 is prime for convenient numbers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

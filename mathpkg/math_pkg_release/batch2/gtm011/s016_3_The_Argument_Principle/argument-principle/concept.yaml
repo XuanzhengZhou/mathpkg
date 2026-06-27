@@ -1,0 +1,23 @@
+id: argument-principle
+title_en: "The Argument Principle"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [argument-principle, zeros, poles, contour-integration, logarithmic-derivative, meromorphic]
+depends_on:
+  required: [meromorphic-function, cauchy-residue-theorem, winding-number]
+  recommended: [logarithmic-derivative]
+  suggested: [rouches-theorem]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "V"
+    section: "3"
+    pages: ""
+    role_in_book: "Core theorem relating the contour integral of the logarithmic derivative to the count of zeros and poles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

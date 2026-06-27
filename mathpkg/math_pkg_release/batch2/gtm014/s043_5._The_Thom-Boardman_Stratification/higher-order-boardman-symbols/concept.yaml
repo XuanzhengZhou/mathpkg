@@ -1,0 +1,23 @@
+id: higher-order-boardman-symbols
+title_en: "Higher-Order Boardman Symbols $S_{i_1,\\ldots,i_k}(f)$"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [boardman-symbols, jet-space, singularity, corank, thom-boardman, differentiable-map]
+depends_on:
+  required: []
+  recommended: [s-r-singularity, boardman-map, jet-bundle]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VI"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines inductive higher-order Boardman symbols on jet space for classifying singularities of smooth maps"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

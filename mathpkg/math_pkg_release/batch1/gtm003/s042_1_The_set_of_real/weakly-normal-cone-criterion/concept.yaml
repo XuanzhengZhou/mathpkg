@@ -1,0 +1,23 @@
+id: weakly-normal-cone-criterion
+title_en: "Weak Normality Criterion via Dual Cone Difference (Corollary 3)"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: ordered-vector-spaces
+difficulty: intermediate
+tags: ["cone", "weakly-normal-cone", "normal-cone", "dual-cone", "locally-convex-space", "s-topology"]
+depends_on:
+  required: ["cone", "locally-convex-space", "dual-cone", "weakly-normal-cone", "normal-cone"]
+  recommended: ["saturated-family", "s-topology"]
+  suggested: ["normal-cone-s-topology-equivalence"]
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "3"
+    pages: ""
+    role_in_book: "Characterizes weak normality by the condition E' = C' - C'"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

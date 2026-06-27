@@ -1,0 +1,23 @@
+id: w-star-group-algebra-factor
+title_en: "W(G) is a II_1 Factor iff G has Infinite Conjugacy Classes"
+title_zh: "W(G)是II_1因子当且仅当G有无穷共轭类"
+type: proposition
+domain: analysis
+subdomain: operator-algebras
+difficulty: advanced
+tags: [W-star-algebra, W-group-algebra, type-II1-factor, ICC-group, infinite-conjugacy-classes]
+depends_on:
+  required: [w-star-group-algebra, type-II1-factor, infinite-conjugacy-classes]
+  recommended: [w-star-group-algebra-finite, factor-von-Neumann-algebra]
+  suggested: [amenable-group, hyperfinite-II1-factor]
+source_books:
+  - book_id: "gtm003"
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "11"
+    pages: ""
+    role_in_book: "Exercise 26(b): W(G) factor criterion and II_1 classification"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

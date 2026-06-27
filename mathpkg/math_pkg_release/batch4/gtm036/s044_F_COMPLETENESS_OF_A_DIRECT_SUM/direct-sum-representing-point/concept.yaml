@@ -1,0 +1,23 @@
+id: direct-sum-representing-point
+title_en: "Representing Point for Weak*-Continuous Functional on Direct Sum Dual"
+title_zh: "直和对偶上弱*连续泛函的表示点"
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [direct-sum, dual-space, weak-star-continuity, representing-point, evaluation-functional]
+depends_on:
+  required: [direct-sum-functional-decomposition, direct-sum-functional-finite-support, grothendieck-completeness-theorem]
+  recommended: [completeness-of-direct-sum]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "17"
+    section: "F"
+    pages: "178-179"
+    role_in_book: "Step (c) in the alternative proof — constructs the representing point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

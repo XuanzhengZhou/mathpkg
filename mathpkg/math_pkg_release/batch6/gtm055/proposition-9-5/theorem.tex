@@ -1,0 +1,27 @@
+If $f$ is a measurable extended real-valued function defined and nonnegative a.e. $[\mu]$ on a measure space $(X, \mathbf{S}, \mu)$, then the set function
+
+$$v_f(E) = \int_E f d\mu, \quad E \in \mathbf{S},$$
+
+is a measure on $(X, \mathbf{S})$ called the indefinite integral of $f$ with respect to $\mu$. If $g$ is an arbitrary measurable function that is either integrable with respect to $v_f$ or nonnegative, then
+
+$$\int_X g dv_f = \int_X gf d\mu.$$
+
+Example E. Let $T$ denote the strip $\{(r, t) : r \geq 0, 0 \leq t < 2\pi\}$ in the plane $\mathbb{R}^2$, and consider the mapping
+
+$$\varphi(r, t) = re^{it}, \quad (r, t) \in T,$$
+
+of $T$ onto the complex plane $\mathbb{C}$. The mapping $\varphi$ is clearly Borel measurable; indeed, if $0 \leq r_0 < r_1 < +\infty$ and $0 \leq t_0 < t_1 < 2\pi$, then the half-open rectangle $H = [r_0, r_1) \times [t_0, t_1)$ is the inverse image under $\varphi$ of the segment $S$ of the annulus $\{\lambda \in \mathbb{C}: r_0 \leq |\lambda| < r_1\}$ cut out by the angle $\{\lambda \in \mathbb{C}: t_0 \leq \text{Arg } \lambda < t_1\}$, and sets of the form $S$ generate the $\sigma$-ring of Borel subsets of $\mathbb{C}$. Moreover, it is easily seen that the Lebesgue–Borel measure of $S$ is given by
+
+$$v(S) = \frac{(t_1 - t_0)(r_1^2 - r_0^2)}{2}.$$
+
+(Indeed, if $t_0$ and $t_1$ are both rational multiples of
+
+Thus, for example, if $A$ denotes the annulus $A = \{\lambda \in \mathbb{C} : r_0 < |\lambda| < r_1\}$, and if $f$ is any Lebesgue integrable function on $A$, then
+
+$$\int_A f \, dv = \int_0^{2\pi} \int_{r_0}^{r_1} f(re^{it})r \, dr \, dt.$$
+
+In particular, if $f$ is Lebesgue integrable over a disc $D_R(0)$, then
+
+$$\int_{D_R(0)} f \, dv = \int_0^{2\pi} \int_0^{R} f(re^{it})r \, dr \, dt.$$
+
+The properties of the indefinite integral $v_f$ of a function $f$ with respect to a measure $\mu$ as defined in Proposition 9.5 reflect, quite naturally, the properties of the underlying measure space $(X, S, \mu)$ as well as those of the function $f$. Thus if $f$ is finite-valued (a.e. $[\mu]$), then $v_f$ is easily seen to be $\sigma$-finite whenever $\mu$ is $\sigma$-finite, and locally finite whenever $\mu$ is locally finite; cf. Proposition 8.1. On the other hand, it is possible for $v_f(E)$ to be equal to $+\infty$ even when $\mu(E)$ is finite and $f$ is finite-valued. An important observation concerning indefinite integrals that holds quite generally is the following: For any measurable nonnegative extended real-valued function $f$, $v_f$ vanishes wherever $\mu$ does (Prop. 7.8).

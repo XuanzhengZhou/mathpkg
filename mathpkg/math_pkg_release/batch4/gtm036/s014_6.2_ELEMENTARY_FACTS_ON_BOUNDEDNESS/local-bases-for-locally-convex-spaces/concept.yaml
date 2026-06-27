@@ -1,0 +1,23 @@
+id: local-bases-for-locally-convex-spaces
+title_en: "Local Bases for Locally Convex Spaces"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [locally-convex-space, local-base, convex-set, circled-set, radial-set]
+depends_on:
+  required: [locally-convex-linear-topological-space, local-base]
+  recommended: [convex-set, circled-set, radial-set]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "6"
+    section: "6.5"
+    pages: ""
+    role_in_book: "Characterizes locally convex topologies via properties of a local base; useful for constructing and recognizing such topologies"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

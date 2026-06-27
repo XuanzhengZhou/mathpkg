@@ -1,0 +1,23 @@
+id: monoidal-functor
+title_en: "Monoidal Functor"
+title_zh: "幺半函子"
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [monoidal-category, functor, tensor-product, coherence]
+depends_on:
+  required: [monoidal-category]
+  recommended: [functor, natural-transformation]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "2. Monoidal Functors"
+    pages: ""
+    role_in_book: "Defines structure-preserving functors between monoidal categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

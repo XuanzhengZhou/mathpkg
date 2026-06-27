@@ -1,0 +1,10 @@
+In any category $C$, an object $q$ is called \textit{injective} if for every monomorphism $g : a \rightarrowtail b$ and every arrow $h : a \rightarrow q$, there exists an arrow $h' : b \rightarrow q$ such that $h' \circ g = h$:
+\[
+\begin{CD}
+a @>{g}>_{\text{monic}}> b\\
+@V{h}VV @VV{h'}V\\
+q @= q
+\end{CD}
+\]
+
+Equivalently, $q$ is injective precisely when the contravariant hom-functor $\hom(-, q) : C^{\text{op}} \rightarrow \mathbf{Set}$ carries monomorphisms in $C$ to epimorphisms in $\mathbf{Set}$; that is, $g$ monic implies $\hom(g, q) : \hom(b, q) \rightarrow \hom(a, q)$ is surjective.

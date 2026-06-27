@@ -1,0 +1,24 @@
+id: category-of-adjunctions-for-monad
+title_en: "Theorem 3: The category of adjunctions for a monad"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [adjunction, monad, kleisli-category, eilenberg-moore-category, initial-object, terminal-object]
+depends_on:
+  required: [kleisli-category-of-a-monad, comparison-theorem-for-kleisli-construction]
+  recommended: [definition-of-a-monad, definition-of-adjunction, eilenberg-moore-category]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    edition: "2nd"
+    chapter: "VI. Monads and Algebras"
+    section: "5. Free Algebras for a Monad"
+    pages: "161–162"
+    role_in_book: "Summarizes the two comparison theorems: the category of adjunctions defining a monad T has the Kleisli construction as initial object and the Eilenberg–Moore construction as terminal object"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

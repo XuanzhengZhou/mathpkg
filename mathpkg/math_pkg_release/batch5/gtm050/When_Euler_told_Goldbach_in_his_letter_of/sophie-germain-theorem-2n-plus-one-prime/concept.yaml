@@ -1,0 +1,20 @@
+id: sophie-germain-theorem-2n-plus-one-prime
+title_en: "If n is an odd prime and 2n+1 is prime then x^n+y^n=z^n implies one of x,y,z is divisible by n"
+title_zh: "若 n 是奇素数且 2n+1 是素数，则 x^n+y^n=z^n 蕴含 x,y,z 中有一个被 n 整除"
+type: theorem
+domain: number-theory
+subdomain: fermat-last-theorem
+difficulty: intermediate
+tags: [fermat-last-theorem, sophie-germain, odd-prime, divisibility, diophantine-equations]
+depends_on: {required: [], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "3"
+    section: "3.2"
+    pages: ""
+    role_in_book: "Generalization of the n=5 divisibility theorem to any odd prime n where 2n+1 is also prime"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

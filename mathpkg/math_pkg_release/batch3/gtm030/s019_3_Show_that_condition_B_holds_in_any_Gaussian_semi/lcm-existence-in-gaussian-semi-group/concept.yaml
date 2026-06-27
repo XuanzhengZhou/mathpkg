@@ -1,0 +1,23 @@
+id: lcm-existence-in-gaussian-semi-group
+title_en: "Existence of Least Common Multiple in a Gaussian Semi-group"
+title_zh: ""
+type: exercise
+domain: algebra
+subdomain: semi-group-theory
+difficulty: basic
+tags: [lcm, gaussian-semi-group, gcd, exercise]
+depends_on:
+  required: [gaussian-semi-group, greatest-common-divisor]
+  recommended: [greatest-common-divisor-notation]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Exercise 1: Prove that any two elements in a Gaussian semi-group have an l.c.m."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

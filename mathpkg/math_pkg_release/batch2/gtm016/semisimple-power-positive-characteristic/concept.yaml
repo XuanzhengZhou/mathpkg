@@ -1,0 +1,23 @@
+id: semisimple-power-positive-characteristic
+title_en: "Semisimple Power of a Linear Transformation in Positive Characteristic"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [semisimple, positive-characteristic, linear-transformation, splitting-field, galois-extension]
+depends_on:
+  required: []
+  recommended: [semisimple-via-galois-splitting-field, separable-element]
+  suggested: [diagonalizable-linear-transformation]
+source_books:
+  - book_id: "gtm016"
+    author: "David J. Winter"
+    title: "The Structure of Fields"
+    chapter: "6"
+    section: "1"
+    pages: ""
+    role_in_book: "Shows that for p > 1, some power t^{p^e} of any linear transformation is semisimple"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

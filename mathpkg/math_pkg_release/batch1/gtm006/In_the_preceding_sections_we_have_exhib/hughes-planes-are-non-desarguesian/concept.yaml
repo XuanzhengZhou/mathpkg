@@ -1,0 +1,23 @@
+id: hughes-planes-are-non-desarguesian
+title_en: "Hughes Planes are Non-Desarguesian"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [non-desarguesian, hughes-plane, projective-plane, finite-geometry]
+depends_on:
+  required: [hughes-plane-addition]
+  recommended: [hughes-plane, desarguesian-plane]
+  suggested: [linear-ptr]
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "IX"
+    section: "6. The Hughes Planes"
+    pages: ""
+    role_in_book: "Corollary 1 of Lemma 9.17: The Hughes planes are non-desarguesian"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

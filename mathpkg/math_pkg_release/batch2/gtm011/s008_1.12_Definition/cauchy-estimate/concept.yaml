@@ -1,0 +1,23 @@
+id: cauchy-estimate
+title_en: "Cauchy's Estimate"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [cauchy-estimate, derivative-bound, analytic-function, maximum-modulus]
+depends_on:
+  required: [cauchy-integral-formula-derivatives]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "2.14"
+    pages: ""
+    role_in_book: "Provides sharp bounds on derivatives of analytic functions in terms of their supremum"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

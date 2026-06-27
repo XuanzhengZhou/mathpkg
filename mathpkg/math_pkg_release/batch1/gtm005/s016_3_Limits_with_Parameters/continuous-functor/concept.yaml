@@ -1,0 +1,23 @@
+id: continuous-functor
+title_en: "Continuous functor"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [limits, preservation, continuous-functor, small-limits]
+depends_on:
+  required: [preservation-of-limits, small-limit]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "4. Preservation of Limits"
+    pages: ""
+    role_in_book: "Definition of continuous functor as small-limit-preserving functor"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

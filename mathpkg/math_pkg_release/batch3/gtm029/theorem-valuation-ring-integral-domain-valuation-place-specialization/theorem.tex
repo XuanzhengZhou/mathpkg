@@ -1,0 +1,37 @@
+Let $0$ be a subring of $K$ containing 1, and let $\mathfrak{A}$ be an ideal in $0$, different from $0$. Then there exists a place $\mathcal{P}$ of $K$ such that $K_{\mathcal{P}} \supset 0$ and $\mathfrak{M}_{\mathcal{P}} \supset \mathfrak{A}$.
+
+Proof. Let $M$ denote the set of all subrings $R_i$ of $K$ such that $0 \subset R_i$ and $R_i \mathfrak{A} \neq R_i$. The set $M$ is non-empty, since $0 \in M$. We partially order the rings $R_i$ by set-theoretic inclusion. Let $\{R_\alpha\}$ be a totally ordered subset $N$ of $M$, and let $R$ be the join of the rings $R_\alpha$. We cannot have a relation of the form $1 = a_1 \xi_1 + a_2 \xi_2 + \cdots + a_m \xi_m$, $a_i \in \mathfrak{A}$, $\xi_i \in R$, for the $\xi$'s would then belong to some $R_\beta$, $R_\beta \in N$ (since $N$ is linearly ordered), and we would have $R_\beta \mathfrak{A} = R_\beta$, a contradiction (since $R_\beta \in M$). It follows that $R \mathfrak{A} \neq R$, and hence $R \in M$. We have therefore proved that every totally ordered subset $N$ of $M$ has an upper bound $R$ in $M$. By Zorn's lemma, $M$ contains, then, maximal elements. We shall prove that every maximal element of $M$ is the valuation ring of a place $\mathcal{P}$ of $K$, satisfying the required conditions.
+
+Let $L$ be a maximal element of $M$. The ring $L$ satisfies, then, the following conditions (1) $0 \subset L$, $L \mathfrak{A} \neq L
+
+Thus,
+
+$$1 - b_0 = (1 - b_0)a_0 + \cdots + (1 - b_0)a_{n-1}x^{n-1} + a_nb_1x^{n-1} + \cdots + a_nb_mx^{n-m},$$
+
+or
+
+$$1 = \sum_{\nu=0}^{n-1} c_\nu x^\nu, \quad c_\nu \in \Im,$$
+
+and this is a relation of the same form as (1) and of degree less than $n$, contrary to our assumption that (1) is of lowest possible degree.
+
+We now apply the lemma to the case $R = L$, $\Im = L\Im$. If $x$ is any element of $K$, and if we set $L' = L[x]$, $L'' = L[1/x]$, then the lemma tells us that at least one of the following two relations must hold: $L' \Im \neq L'$, $L'' \Im \neq L''$. This implies by the maximality property of $L$, that either $L = L'$ or $L = L''$, i.e., either $x \in L$ or $1/x \in L$. Hence $L$ is a valuation ring of a place $\mathcal{P}$ of $K$ (§2, Theorem 1).
+
+The prime ideal $\mathfrak{M}_\mathcal{P}$ of $\mathcal{P}$ is the ideal of non-units of $L$, whence $\mathfrak{M}_\mathcal{P} \supset L\Im \supset \Im$, and since $L \supset 0$ the proof of the theorem is now complete.
+
+We note that if $\mathcal{P}$ is a trivial place of $K$ then $\mathfrak{M}_\mathcal{P} = (0)$. Hence if the ideal $\Im$ is not the zero ideal, any place $\mathcal{P}$ satisfying the conditions of the theorem is necessarily non-trivial.
+
+**Corollary 1.** If $\emptyset$ is an integral domain, not a field, and if $K$ is a field containing $\emptyset$ as subring, then there exist non-trivial places $\mathcal{P}$ of
+
+$K_{\varphi} \supset 0', \mathfrak{M}_{\varphi} \cap 0' \supset m'$. Since $m'$ is a maximal ideal in $0'$ and since $1 \notin \mathfrak{M}_{\varphi}$, it follows that $\mathfrak{M}_{\varphi} \cap 0' = m'$. Hence $\mathfrak{M}_{\varphi} \cap 0 = m$, since $m' \cap 0 = m$.
+
+The following is essentially an equivalent formulation of Theorem 5:
+
+**Theorem 5'.** (The extension theorem). If $0$ is an integral domain and $K$ is a field containing $0$, then any specialization $\varphi$ of $0$ can be extended to a place $\mathcal{P}$ of $K$. In particular, if $k$ is a subfield of $K$ then any place of $k$ can be extended to a place of $K$.
+
+For if $m$ denotes the kernel of $\varphi$ then $m \neq 0$ (by definition of specializations), and there exists a place $\mathcal{P}$ of $K$ such that $K_{\varphi} \supset 0$ and $\mathfrak{M}_{\varphi} \cap 0 = m$. If $\psi$ denotes the restriction of $\mathcal{P}$ to $0$, $\psi^{-1}\varphi$ is an isomorphism of $0\psi$ onto $0\varphi$ (since $m$ is the kernel of both $\varphi$ and $\psi$). This isomorphism can be extended to an isomorphism of the residue field $\Delta$ of $\mathcal{P}$ into some field containing $0\varphi$. If $\mathcal{Q}$ is such an extension, then the place $\mathcal{P}\mathcal{Q}$ of $K$ is an extension of $\varphi$.
+
+We now give a number of important consequences of Theorems 5 and 5'.
+
+For applications to algebraic function fields, or, more generally, to fields $K$ in which a subfield $k$ has been specified as ground field, it is important to analyze Theorem 5' in the special case $\varphi = 1$ (whence $m = (0)$), with reference to
+
+For consider the set $M$ of all valuation rings in $K$ which belong to places of $K/k$ (i.e., valuation rings which contain $k$). By Corollary 1, $M$ is non-empty. By Theorem 1, § 2, the intersection of any descending chain of valuation rings in $K$ is again a valuation ring. Hence, by Zorn’s lemma, $M$ contains minimal elements (it is understood that $M$ is partially ordered by set-theoretic inclusion). Let $R$ be a minimal element of $M$ and let $\mathcal{P}$ be a place of $K/k$ such that $K_{\mathcal{P}} = R$. We assert that $\mathcal{P}$ is algebraic over $k$. For, assuming the contrary, i.e., assuming that the residue field $\Delta$ of $\mathcal{P}$ has positive transcendence degree over $k$, then it would follow from Corollary 1 that there exists a non-trivial place $\mathcal{Q}$ of $\Delta/k$. Then the composite place $\mathcal{P}' = \mathcal{P} \mathcal{Q}$ is a place of $K/k$ whose valuation ring is a proper subset of $R$, a contradiction.

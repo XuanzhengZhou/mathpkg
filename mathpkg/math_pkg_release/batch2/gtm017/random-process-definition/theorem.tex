@@ -1,0 +1,13 @@
+A \text{random (stochastic) process} $\{X_t(w), t \in T\}$ is an indexed family of random variables on a probability space $(\Omega, \mathfrak{F}, P)$, with the index $t$ ranging over a parameter set $T$. The parameter $t$ is typically interpreted as time. Common cases:
+\begin{itemize}
+\item $T = \{k h : k = 0, \pm 1, \ldots\}, h > 0$ (discrete time).
+\item $T = \mathbb{R}$ (continuous time).
+\end{itemize}
+
+The finite-dimensional distributions
+$$F_{t_1, \ldots, t_k}(x_1, \ldots, x_k) = P(X_{t_1} \leq x_1, \ldots, X_{t_k} \leq x_k)$$
+for any $t_1, \ldots, t_k \in T$ satisfy the consistency conditions:
+\begin{enumerate}
+\item Symmetry under permutation of indices.
+\item $F_{t_1, \ldots, t_k}(x_1, \ldots, x_j, \infty, \ldots, \infty) = F_{t_1, \ldots, t_j}(x_1, \ldots, x_j)$ for $1 \leq j < k$.
+\end{enumerate}

@@ -1,0 +1,131 @@
+For one-dimensional random walk with $\mu = 0, 0 < \sigma^2 < \infty$
+
+$$\lim_{n \to \infty} \mathbf{P}\left[ \max_{1 \leq k \leq n} |\mathbf{S}_k| \leq \sigma x \sqrt{n} \right] = 1 - F\left(\frac{1}{x^2}\right), \quad x > 0,$$
+
+with $F(x)$ as defined in T2.
+
+Proof: Let us call $G_n(x)$ the distribution of $(\sigma^2 n)^{-1/2} \max_{1 \leq k \leq n} |\mathbf{S}_k|$. Then T3 amounts to saying that the sequence
+
+$$G_n(x) = \sum_{y=0}^{2[\sigma x \sqrt{n}]} Q_{2[x \sigma \sqrt{n}]}^n([\sigma x \sqrt{n}], y), \quad x > 0,$$
+
+converges to the limit
+
+$$G(x) = 1 - F(x^{-2}), \quad x > 0,$$
+
+as $n \to \infty$. It seems impossible to obtain sufficiently powerful estimates for the iterates of $Q$ to verify this result directly. However, we shall see that most of the work was already done in the course of proving T2. The crucial observation concerns the two events
+
+(i) $\max_{1 \leq k \leq n} |\mathbf{S}_k| \leq \sigma x \sqrt{n},$
+
+(ii) $\mathbf{T}_{[\sigma x \sqrt{n}]} > n$.
+
+They are obviously the same event! In other words
+
+$$G_n(x) = \mathbf{P}\left[\mathbf{T}_{[\sigma x \sqrt{n}]} > n\right].$$
+
+If we fix $x > 0$, and let $m = m(n) = [\sigma x \sqrt{n}]$, then
+
+$$\frac{m^2}{\sigma^2 x^2} \leq n < \frac{(m+1)^2}{\sigma^2 x
+
+by T2, and also
+
+$$\lim_{n \to \infty} G_n(x) \geq \lim_{m \to \infty} P\left[T_m > \frac{m^2}{\sigma^2} \frac{1}{x^2}\left(1 + \frac{1}{m}\right)^2\right]$$
+
+$$\geq \lim_{m \to \infty} P\left[T_m > \frac{m^2}{\sigma^2} \frac{c}{x^2}\right] = 1 - F\left(\frac{c}{x^2}\right)$$
+
+for every real $c > 1$. But $F(x)$ as well as $F(x^{-2})$ are continuous functions of $x$, and therefore the fact that $c$ may be taken arbitrarily close to one yields
+
+$$\lim_{n \to \infty} G_n(x) = 1 - F(x^{-2}).$$
+
+Remark: The first rigorous proof of T2 and T3 is due to Erdős and Kac [29], 1946. Their proof is not only shorter, but in a way more interesting than ours, as it reduces the problem to the proof of T3 for the Brownian motion process, which is the limiting case of a sequence of random walks, if the time and space scales are changed appropriately. In the context of Brownian motion T3 had indeed been known already to Bachelier, in the beginning of the century, so that the crux of the proof in [29] was the justification of the limiting process, by means of a so-called invariance principle [22].
+
+Problems
+
+1. Derive the analogue of P21.1 for simple random walk in the plane, i.e., find the eigenfunctions and eigenvalues of the transition function restricted to the rectangle
+
+$$[x \mid 0 \leq \operatorname{Re}(z) \leq M; 0 \leq \operatorname{Im}(z) \leq N] = R_{M,N}.$$
+
+2. Continuation. When $M$ and $N$ are even integers and
+
+$$T = \min[k \mid k \geq 1, x_n \in R - R_{M,N}],$$
+
+calculate $E_z[T]$ for $z \in R
+
+5. Show that the proper analogue of P22.3 for unsymmetrical random walk concerns a (uniquely determined) biorthogonal system of polynomials $q_n(z)$ and $r_n(z)$ such that
+
+$$(2\pi)^{-1} \int_{-n}^{\pi} q_n(e^{i\theta}) \overline{r_m(e^{i\theta})} [1 - \phi(\theta)] d\theta = \delta_{m,n}.$$
+
+Hint: Verify that these orthogonality relations hold if
+
+$$q_{nk} = \sum_{v=0}^{\infty} P_k[x_v = n; x_j < n \text{ for } j = 1, 2, \ldots, v - 1] \text{ for } n > k,$$
+
+$$q_{nn} = 1,$$
+
+and
+
+$$r_{nk} = \sum_{v=0}^{\infty} P_n[x_v = k; x_j \leq n \text{ for } j = 1, 2, \ldots, v] \text{ for } n \geq k,$$
+
+are defined as the coefficients of the polynomials
+
+$$q_n(z) = \sum_{k=0}^{n} q_{nk} z^k, \quad r_n(z) = \sum_{k=0}^{n} r_{nk} z^k.$$
+
+Using these polynomials one has
+
+$$g_N(i,j) = \sum_{v=\max(i,j)}^N q_{vi} r_{vj}.$$
+
+6. Let $D_N$ denote the number of distinct points visited before leaving the interval $[-N,N]$, by a one-dimensional random walk with mean 0 and variance $0 < \sigma^2 < \infty$. Calculate
+
+$$\lim_{N \to \infty} E_0 \left[ \frac{D_N}{2N} \right],$$
+
+the "fraction of points visited." (How should one expect that the answer will depend on $\sigma^2$?)
+
+$^6$ This biorthogonal system has been investigated by Baxter (see [2] and [3]) in a much more general context. Indeed all results concerning the orthogonal polynomials in P22
+
+7. As in problem 10 of Chapter I, the integers in $R$ are assumed to be "red" with probability $\alpha$ and "green" with probability $(1 - \alpha)$. Let $E_{N,\alpha}$ denote the expected number of red points in the interval $[-N,N]$ and $P_{N,\alpha}$ the probability that the random walk of problem 6 above will visit a red point before leaving the interval $[-N,N]$. Prove that
+
+$$\lim_{N \to \infty} \lim_{\alpha \to 0} \frac{P_{N,\alpha}}{E_{N,\alpha}} = \lim_{\alpha \to 0} \lim_{N \to \infty} \frac{P_{N,\alpha}}{E_{N,\alpha}} = \ln 2.$$
+
+Does the double limit exist?
+
+8. For symmetric one-dimensional random walk $x_n$, $Q_n$ is the $(n + 1)$ by $(n + 1)$ matrix defined in D21.1, and $\lambda_0(n) \leq \lambda_1(n) \leq \cdots \leq \lambda_n(n)$ are its (real) eigenvalues. Then the trace of the $k^{\text{th}}$ power of $Q_n$ is
+
+$$\text{Tr} \left( Q_n^k \right) = \sum_{j=0}^{n} \lambda_j^k(n).$$
+
+Let
+
+$$M_k = \max_{0 \leq j \leq k} x_j - \min_{0 \leq j \leq k} x_j,$$
+
+and prove that
+
+$$(n + 1)P_k(0,0) - \text{Tr} \left( Q_n^k \right) = (n + 1)P_0[x_k = 0; M_k > n] + E_0[M_k; x_k = 0, M_k \leq n].$$
+
+Without any assumptions on the moments of the random walk, prove that
+
+$$\lim_{n \to \infty} \frac{1}{n + 1} \sum_{j=0}^{n} \lambda_j^k(n) = P_k(0,0), \quad n \geq 0.$$
+
+9. Continuation. Using the theorem of We
+
+Thus the results of problems 8 and 9 are valid for real functions
+
+$$\phi(\theta) = \sum_{k=-\infty}^{\infty} c_k e^{ik\theta}$$
+
+whose Fourier series converge absolutely. By approximating step functions by polynomials one may rephrase our results as follows: For any interval $I$, let $N_n(I)$ denote the number of eigenvalues of $Q_n$ which fall in the interval $I$, and $L_\phi(I)$ the Lebesgue measure of that subset of $[-\pi, \pi]$ where $\phi(\theta) \in I$. Then
+
+$$\lim_{n \to \infty} \frac{1}{n+1} N_n(I) = \frac{L_\phi(I)}{2\pi}.$$
+
+10. Show that the limit distribution
+
+$$F(x) = 1 - \frac{4}{\pi} \sum_{n=0}^{\infty} \frac{(-1)^n}{2n+1} e^{-\frac{n^2}{8}(2n+1)^2z}$$
+
+in P21.5, T23.2, and T23.3 has the Laplace transform
+
+$$\int_0^\infty e^{-sz} dF(x) = \frac{\pi}{2} \sum_{n=0}^{\infty} (-1)^n \frac{2n+1}{s + \frac{\pi^2}{8}(2n+1)^2} = (\cosh \sqrt{2s})^{-1}$$
+
+$$= 2e^{-\sqrt{2s}} \sum_{k=0}^{\infty} (-1)^k e^{-2k\sqrt{2s}}.$$
+
+Inverting the last series (term by term) show that the density of $F$ is
+
+$$f(x) = \frac{dF}{dx} = \sqrt{\frac{2}{\pi}} \sum_{n=0}^{\infty} (-1)^n \frac{2n+1}{x^{3/2}} e^{-\frac{(2n+1)^2}{2z}},$$
+
+which converges fast for small (positive) $x$, while
+
+$$f(x) = \frac{\pi}{2} \sum_{n=0}^{\infty} (-1)^n(

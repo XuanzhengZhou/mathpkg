@@ -1,0 +1,23 @@
+id: comma-category-projection-preserves-monics
+title_en: "Comma Category Projection Preserves Monics"
+title_zh: ""
+type: lemma
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [comma-category, monomorphism, projection-functor, kernel-pair]
+depends_on:
+  required: [comma-category, monomorphism, kernel-pair]
+  recommended: [special-adjoint-functor-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V. Limits"
+    section: "7. Subobjects and Generators"
+    pages: ""
+    role_in_book: "Technical lemma used in the proof of the Special Adjoint Functor Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

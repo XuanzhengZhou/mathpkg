@@ -1,0 +1,6 @@
+Expanding $\Delta(\varphi x_1 - \lambda x_1, \ldots, \varphi x_n - \lambda x_n)$ gives a sum of $2^n$ terms. Denote by $S_p$ the sum of terms with $p$ arguments equal to $\varphi x_v$ and $n-p$ equal to $-\lambda x_v$. Then
+$$S_p = (-\lambda)^{n-p} \sum_{\sigma} \varepsilon_{\sigma} \Delta(\varphi x_{\sigma(1)}, \ldots, \varphi x_{\sigma(p)}, x_{\sigma(p+1)}, \ldots, x_{\sigma(n)})$$
+where the sum extends over permutations satisfying $\sigma(p+1) < \cdots < \sigma(n)$. Define
+$$\Phi_p(x_1, \ldots, x_n) = \sum_{\sigma} \varepsilon_{\sigma} \Delta(\varphi x_{\sigma(1)}, \ldots, \varphi x_{\sigma(p)}, x_{\sigma(p+1)}, \ldots, x_{\sigma(n)}).$$
+Then $\Phi_p$ is skew-symmetric and $\Phi_p = (-1)^{n-p} p!(n-p)! \alpha_p \cdot \Delta$ for a scalar $\alpha_p$, yielding
+$$\det(\varphi - \lambda \iota) = \sum_{p=0}^{n} \alpha_p \lambda^{n-p}.$$

@@ -1,0 +1,9 @@
+Let $X$ and $Y$ be smooth manifolds and let $k$ be a non-negative integer. For $p \in X$, $q \in Y$, define
+
+$$J^k(X, Y)_{p,q} = \{ \text{equivalence classes of smooth maps } f: X \to Y \text{ with } f(p) = q \text{ under the relation } \sim_k \text{ at } p \}.$$
+
+The \textit{space of $k$-jets from $X$ to $Y$} is
+
+$$J^k(X, Y) = \bigcup_{p \in X, q \in Y} J^k(X, Y)_{p,q}.$$
+
+An element $\sigma \in J^k(X, Y)_{p,q}$ is called a \textit{$k$-jet} with source $p$ and target $q$. There are canonical \textit{source} and \textit{target} mappings $\alpha: J^k(X, Y) \to X$ and $\beta: J^k(X, Y) \to Y$ given by $\alpha(\sigma) = p$ and $\beta(\sigma) = q$. For a smooth map $f: X \to Y$, the \textit{$k$-jet extension} of $f$ is the map $j^k f: X \to J^k(X, Y)$ defined by $j^k f(p) =$ the equivalence class of $f$ in $J^k(X, Y)_{p, f(p)}$.

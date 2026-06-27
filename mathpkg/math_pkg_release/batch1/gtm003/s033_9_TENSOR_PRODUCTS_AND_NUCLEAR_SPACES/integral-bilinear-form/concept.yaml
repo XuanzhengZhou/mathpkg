@@ -1,0 +1,23 @@
+id: integral-bilinear-form
+title_en: "Integral Bilinear Form"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [integral-bilinear-form, tensor-product, bi-equicontinuous-topology, duality, locally-convex-spaces]
+depends_on:
+  required: [bi-equicontinuous-topology-on-tensor-product, completed-tensor-product]
+  recommended: [projective-tensor-product, bilinear-form]
+  suggested: [integral-linear-map]
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "Appendix: Tensor Products and Nuclear Spaces"
+    pages: "180-183"
+    role_in_book: "Defines the space of integral bilinear forms as the dual of the completed bi-equicontinuous tensor product, the key object linking tensor products to measure-theoretic representations."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

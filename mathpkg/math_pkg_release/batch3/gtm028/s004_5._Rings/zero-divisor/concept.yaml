@@ -1,0 +1,23 @@
+id: zero-divisor
+title_en: "Zero Divisor"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [ring, zero-divisor, left-zero-divisor, right-zero-divisor, zero-element]
+depends_on:
+  required: [ring, multiplication-by-zero-in-ring]
+  recommended: []
+  suggested: [integral-domain]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "I"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines zero divisors, a fundamental concept for integral domains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

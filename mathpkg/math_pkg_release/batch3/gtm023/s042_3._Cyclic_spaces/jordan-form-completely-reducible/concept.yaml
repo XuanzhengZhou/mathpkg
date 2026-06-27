@@ -1,0 +1,23 @@
+id: jordan-form-completely-reducible
+title_en: "Jordan Canonical Form for Completely Reducible Minimum Polynomial"
+title_zh: "完全可约最小多项式下的Jordan标准型"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [jordan-canonical-form, completely-reducible, eigenvalue]
+depends_on:
+  required: [jordan-canonical-matrix, irreducible-iff-pure-power-minimum-polynomial-and-cyclic]
+  recommended: [eigenvalue, diagonalization]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Special case of Jordan form when minimum polynomial factors into linear factors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: azumaya-morita-characterization
+title_en: "Azumaya-Morita Characterization of Duality"
+title_zh: "Azumaya-Morita对偶刻画"
+type: corollary
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [morita-duality, artinian-ring, injective-cogenerator, balanced-bimodule, finitely-generated-module, azumaya, morita]
+depends_on:
+  required: [duality-finitely-generated-modules, characterization-of-morita-dualities]
+  recommended: [artinian-ring, injective-cogenerator, balanced-bimodule]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "24. Morita Dualities"
+    pages: ""
+    role_in_book: "Corollary 24.9 (Azumaya, Morita)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

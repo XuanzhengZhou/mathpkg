@@ -1,0 +1,13 @@
+id: multiplication-is-primitive-recursive
+title_en: "Multiplication is Primitive Recursive"
+title_zh: "乘法是原始递归的"
+type: lemma
+domain: logic
+subdomain: recursive-function-theory
+difficulty: basic
+tags: [primitive-recursive, multiplication, recursion]
+depends_on: {required: [addition-is-primitive-recursive], recommended: [primitive-recursion-schema, composition-of-primitive-recursive-functions], suggested: []}
+source_books: [{book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "1", section: "Recursive Function Theory", pages: "43-46", role_in_book: "Demonstration that multiplication is primitive recursive via recursion on addition"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

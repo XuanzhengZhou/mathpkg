@@ -1,0 +1,23 @@
+id: right-vector-space-via-anti-automorphism
+title_en: "Right Vector Space via Anti-Automorphism"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [anti-automorphism, vector-space, left-vs-right, scalar-multiplication]
+depends_on:
+  required: [anti-automorphism-of-division-ring, vector-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "Bilinear Forms"
+    section: "6"
+    pages: "160"
+    role_in_book: "Technical construction enabling scalar products over non-commutative division rings; converts left vector spaces to right vector spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

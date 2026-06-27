@@ -1,0 +1,23 @@
+id: symmetric-group
+title_en: "Symmetric Group"
+title_zh: "对称群"
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [symmetric-group, permutation-group, group-action]
+depends_on:
+  required: [permutation-definition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "1. Introduction"
+    pages: ""
+    role_in_book: "The full permutation group on a set, fundamental in group theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

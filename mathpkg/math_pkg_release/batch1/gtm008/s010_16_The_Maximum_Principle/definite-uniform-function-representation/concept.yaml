@@ -1,0 +1,23 @@
+id: definite-uniform-function-representation
+title_en: "Converse Correspondence: Boolean-Valued Functions are Real Extensional Functions"
+title_zh: "逆对应：布尔值函数即实外延函数"
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [boolean-valued-universe, extensional-function, definite-set, uniform-set]
+depends_on:
+  required: [extensional-functions-correspond-to-boolean-functions, definite-set, uniform-set-factorization]
+  recommended: [extensional-function]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: ""
+    role_in_book: "Converse of Theorem 16.8 — any Boolean-valued function between definite uniform sets arises from a real extensional function on their domains."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

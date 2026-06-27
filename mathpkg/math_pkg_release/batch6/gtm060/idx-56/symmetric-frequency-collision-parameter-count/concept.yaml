@@ -1,0 +1,23 @@
+id: symmetric-frequency-collision-parameter-count
+title_en: "Minimal Parameter Count for Frequency Collisions in Rotationally Symmetric Systems"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: spectral-theory
+difficulty: advanced
+tags: [characteristic-frequencies, rotational-symmetry, eigenvalue-collisions, parameter-spaces, symmetric-oscillations]
+depends_on:
+  required: [characteristic-oscillation, rotational-symmetry, eigenvalue-multiplicity]
+  recommended: [degenerate-perturbation-theory, group-representation-theory]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 10"
+    section: "Behavior of Frequencies under Variation of Parameters"
+    pages: "pp. 446-452"
+    role_in_book: "Gives the codimension formula for collisions of eigenvalues in symmetric spectral problems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

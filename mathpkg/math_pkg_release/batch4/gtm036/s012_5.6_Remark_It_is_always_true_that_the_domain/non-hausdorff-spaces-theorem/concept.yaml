@@ -1,0 +1,23 @@
+id: non-hausdorff-spaces-theorem
+title_en: "Theorem on Non-Hausdorff Linear Topological Spaces"
+title_zh: "非Hausdorff线性拓扑空间定理"
+type: theorem
+domain: topology
+subdomain: linear-topological-spaces
+difficulty: intermediate
+tags: [non-hausdorff, closure-of-zero, trivial-topology, topological-isomorphism, hausdorff, complementary-subspace]
+depends_on:
+  required: [lemma-on-projections]
+  recommended: [hausdorff-space, closure, trivial-topology, complementary-subspace, regular-space]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "J.L. Kelley, I. Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "5"
+    section: "5.11"
+    pages: ""
+    role_in_book: "Structure theorem showing every linear topological space decomposes as product of a Hausdorff space and a space with trivial topology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

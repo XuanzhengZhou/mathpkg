@@ -1,0 +1,28 @@
+id: exercise-4-24-p2k-desarguesian
+title_en: 'Exercise 4.24: P_2(K) is (V,l)-Desarguesian'
+title_zh: ''
+type: exercise
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags:
+- desarguesian
+- projective-plane-over-field
+- p2k
+depends_on:
+  required:
+  - v-l-desarguesian
+  - desarguesian-plane
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '7'
+  pages: ''
+  role_in_book: Verifies that the classical projective plane over any field is desarguesian
+content_hash: fd1582e17a1c
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

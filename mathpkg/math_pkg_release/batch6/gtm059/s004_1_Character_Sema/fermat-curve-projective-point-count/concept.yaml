@@ -1,0 +1,23 @@
+id: fermat-curve-projective-point-count
+title_en: "Number of Projective Points of the Fermat Curve over a Finite Field"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: zeta-functions
+difficulty: advanced
+tags: [fermat-curve, jacobi-sum, finite-field, projective-point-count, character-sum]
+depends_on:
+  required: [fermat-curve-affine-point-count]
+  recommended: [truncated-character, jacobi-sum]
+  suggested: [davenport-hasse-theorem, zeta-function]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "6. Application to the Fermat Curve"
+    pages: "24"
+    role_in_book: "Corollary to Theorem 6.1; gives the number of projective points on the Fermat curve over a finite field, from which the zeta function is readily derived"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

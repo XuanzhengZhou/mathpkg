@@ -1,0 +1,23 @@
+id: number-of-simple-modules-equals-p-regular-classes
+title_en: "Number of Simple k[G]-Modules Equals Number of p-Regular Conjugacy Classes"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: intermediate
+tags: ["simple-module", "p-regular-class", "modular-character", "brauers-theorem"]
+depends_on:
+  required: ["brauer-irreducible-modular-characters-basis", "irreducible-modular-characters"]
+  recommended: ["class-function", "p-regular-conjugacy-class"]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "18"
+    section: "18.2"
+    pages: ""
+    role_in_book: "Corollary 3; an immediate consequence of Theorem 42 — the dimension of the space of class functions on $G_{\text{reg}}$ equals both the number of irreducible modular characters and the number of $p$-regular conjugacy classes."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

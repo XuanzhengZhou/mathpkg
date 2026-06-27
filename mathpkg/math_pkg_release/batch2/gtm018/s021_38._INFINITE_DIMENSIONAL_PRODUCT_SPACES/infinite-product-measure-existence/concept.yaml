@@ -1,0 +1,34 @@
+id: infinite-product-measure-existence
+title_en: "Existence and Uniqueness of Infinite Product Measure (Theorem B)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags:
+  - product-measure
+  - infinite-product
+  - existence-theorem
+  - uniqueness-theorem
+  - kolmogorov-extension
+depends_on:
+  required:
+    - cylinder-measure-consistency
+    - measurable-set-in-infinite-product-space
+    - continuity-from-above
+  recommended:
+    - finite-product-measure
+    - product-sigma-algebra
+  suggested:
+    - kolmogorov-extension-theorem
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX"
+    section: "38. Infinite Dimensional Product Spaces"
+    pages: ""
+    role_in_book: "Main theorem of the section: establishes the existence and uniqueness of the infinite product measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: theorem-4-1-iwasawa-semidirect-product
+title_en: "Iwasawa's Semidirect Product Theorem for $\mathbb{Z}_p$-extensions (Theorem 4.1)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: ["iwasawa-theory", "semidirect-product", "galois-group", "zp-extension", "ideal-class-group"]
+depends_on:
+  required: ["zp-extension", "condition-iw", "hilbert-class-field"]
+  recommended: ["group-cohomology", "profinite-groups"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "4"
+    pages: ""
+    role_in_book: "Theorem 4.1 — describes the Galois group of the maximal p-abelian unramified extension in a Z_p-extension as a semidirect product"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

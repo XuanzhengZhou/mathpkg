@@ -1,0 +1,23 @@
+id: probability-field
+title_en: "Probability Field"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: probability-axioms
+difficulty: basic
+tags: [probability-field, probability-space]
+depends_on:
+  required: ["axiom-i-field-of-events", "axiom-ii-probability-measure-finite"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm045"
+    author: "Michel Loève"
+    title: "Probability Theory I"
+    chapter: "Introductory Part, II"
+    section: "1. Axioms of the finite case"
+    pages: ""
+    role_in_book: "Definition of a probability field as the pair of a field of events and a probability measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

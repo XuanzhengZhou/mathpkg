@@ -1,0 +1,23 @@
+id: weight-of-representation
+title_en: "Weight of a Representation"
+title_zh: "表示的权"
+type: definition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [weight, lie-module, cartan-subalgebra, representation-theory]
+depends_on:
+  required: [weight-space]
+  recommended: [roots, dominant-weight]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "20"
+    section: "20.1"
+    pages: ""
+    role_in_book: "The notion of a weight of an L-module V is fundamental to the classification of irreducible finite-dimensional representations of semisimple Lie algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

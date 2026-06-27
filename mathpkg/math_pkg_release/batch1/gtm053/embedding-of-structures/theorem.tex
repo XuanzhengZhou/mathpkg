@@ -1,0 +1,6 @@
+If $A$ and $B$ are $L$-structures with domains $A$ and $B$, an 	ext{embedding} $h : A 	o B$ is a map $A 	o B$ that preserves the symbols of relations, operations, and constants of $L$. That is:
+egin{enumerate}
+\item[(i)] for any $n$-ary relation symbol $p$ and $a_1,\ldots,a_n \in A$, $A \models p(a_1,\ldots,a_n)$ iff $B \models p(h(a_1),\ldots,h(a_n))$;
+\item[(ii)] for any $n$-ary operation symbol $f$, $A \models f(a_1,\ldots,a_n)=a$ iff $B \models f(h(a_1),\ldots,h(a_n))=h(a)$;
+\item[(iii)] for any constant symbol $c$, $A \models c^A = a$ iff $B \models c^B = h(a)$.
+nd{enumerate}

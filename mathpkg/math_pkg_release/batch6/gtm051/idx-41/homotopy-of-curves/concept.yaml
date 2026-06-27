@@ -1,0 +1,23 @@
+id: homotopy-of-curves
+title_en: "Homotopy of Curves"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: basic
+tags: [homotopy, curve-homotopy, fundamental-group, path-homotopy, fixed-endpoint-homotopy]
+depends_on:
+  required: [continuous-function, curve, product-topology]
+  recommended: [fundamental-group, simply-connected]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.6"
+    pages: "pp. 162–163"
+    role_in_book: "Defines homotopy between curves with fixed endpoints, used in studying closed geodesics and the fundamental group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

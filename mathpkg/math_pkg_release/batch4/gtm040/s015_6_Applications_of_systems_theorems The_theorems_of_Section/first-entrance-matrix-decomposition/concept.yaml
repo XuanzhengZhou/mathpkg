@@ -1,0 +1,23 @@
+id: first-entrance-matrix-decomposition
+title_en: "First Entrance Matrix Decomposition"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, hitting-probability, first-entrance, matrix-identity]
+depends_on:
+  required: [visit-variables-and-matrices, systems-theorem-for-statements]
+  recommended: [transition-matrix]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "6"
+    pages: ""
+    role_in_book: "Decomposes hitting probability matrices as sums of first-entrance distributions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: theory-qm-monadic-second-order
+title_en: "Theory Q^m in Monadic Second-Order Logic"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: higher-order-logic
+difficulty: advanced
+tags: [monadic-second-order-logic, peano-arithmetic, induction-axiom, categoricity]
+depends_on: {required:[monadic-second-order-logic], recommended:[peano-arithmetic, theory-qw-weak-second-order], suggested:[]}
+source_books: [{book_id:"gtm037",author:"J. Donald Monk",title:"Mathematical Logic",chapter:"30",section:"5",pages:"",role_in_book:"Defines the theory Q^m obtained by adding the monadic second-order induction axiom to Q, characterizing (ω,+,·,s,0) up to isomorphism"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

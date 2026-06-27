@@ -1,0 +1,23 @@
+id: existence-of-power-of-two-hadamard-matrices
+title_en: "Existence of Power-of-Two Hadamard Matrices"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: block-design
+difficulty: basic
+tags: [hadamard-matrix, kronecker-product]
+depends_on:
+  required: [kronecker-product-of-hadamard-matrices]
+  recommended: [hadamard-matrix]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "IX"
+    section: "C"
+    pages: "261-264"
+    role_in_book: "C37 — existence of $2^n \times 2^n$ Hadamard matrices for all $n$, with consequences for Hadamard designs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

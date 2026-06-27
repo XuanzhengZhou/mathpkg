@@ -1,0 +1,23 @@
+id: pullback-of-monic-is-monic
+title_en: "Pullbacks of Monics are Monic"
+title_zh: ""
+type: lemma
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [pullback, monomorphism, monic, limit-preservation]
+depends_on:
+  required: [pullback, monomorphism]
+  recommended: [pullback-lemma]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V. Limits"
+    section: "7. Subobjects and Generators"
+    pages: ""
+    role_in_book: "Establishes that pullbacks preserve monomorphisms, used in subobject constructions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

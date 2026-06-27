@@ -1,0 +1,1 @@
+The Fourier transform on the circle is injective: a function is uniquely determined (almost everywhere) by its Fourier coefficients. This uniqueness is essential for applications in signal processing and PDEs.

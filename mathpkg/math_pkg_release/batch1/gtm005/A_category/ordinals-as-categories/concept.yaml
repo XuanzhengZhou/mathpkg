@@ -1,0 +1,23 @@
+id: ordinals-as-categories
+title_en: "Ordinal Numbers as Categories"
+title_zh: "序数作为范畴"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [ordinal, preorder, linear-order, omega]
+depends_on:
+  required: [category, preorder-as-category]
+  recommended: [ordinal-numbers]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "2"
+    pages: ""
+    role_in_book: "Example: each linearly ordered ordinal is a category (preorder)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

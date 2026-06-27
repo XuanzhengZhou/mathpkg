@@ -1,0 +1,23 @@
+id: change-of-variables-for-surfaces
+title_en: "Change of Variables for Surfaces"
+title_zh: "曲面的变量变换"
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [diffeomorphism, change-of-variables, parametrization, equivalence-relation]
+depends_on:
+  required: [parameterized-surface-patch]
+  recommended: [diffeomorphism, jacobian-determinant]
+  suggested: []
+source_books:
+  - book_id: gtm051
+    author: "Manfredo P. do Carmo"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: "3.1.3"
+    role_in_book: "Defines equivalence of parameterizations via reparametrization"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

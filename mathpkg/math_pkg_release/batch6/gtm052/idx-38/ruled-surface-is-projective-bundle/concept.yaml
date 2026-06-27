@@ -1,0 +1,23 @@
+id: ruled-surface-is-projective-bundle
+title_en: "Ruled Surface is Isomorphic to Projective Bundle"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-surfaces
+difficulty: advanced
+tags: [ruled-surface, projective-bundle, locally-free-sheaf, classification]
+depends_on:
+  required: [geometrically-ruled-surface, direct-image-locally-free-ruled-surface]
+  recommended: [proj-construction, invertible-sheaf, tensor-product-of-sheaves]
+  suggested: [nakayamas-lemma, section-of-morphism]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "2"
+    pages: "370"
+    role_in_book: "Characterizes ruled surfaces as projective bundles P(E) for rank-2 locally free sheaves E on the base curve"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: hausdorff-tvs-metrizability-criterion
+title_en: "Metrizability Criterion for Hausdorff Topological Vector Spaces"
+title_zh: "Hausdorff拓扑向量空间的可度量化准则"
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [metrizability, countable-base, pseudo-norm, F-norm, translation-invariant-metric]
+depends_on:
+  required: [metrizable-topological-vector-space]
+  recommended: [topological-vector-space, uniform-space, countable-neighborhood-base]
+  suggested: [separation-axioms, metric-space]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "I"
+    section: "6"
+    pages: "41-43"
+    role_in_book: "Theorem 6.1; central characterization of metrizability in t.v.s., constructs a translation-invariant pseudo-norm from a countable 0-neighborhood base"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

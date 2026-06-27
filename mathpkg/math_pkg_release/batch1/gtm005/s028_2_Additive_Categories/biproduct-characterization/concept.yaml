@@ -1,0 +1,23 @@
+id: biproduct-characterization
+title_en: "Characterization of Biproducts in Ab-Categories"
+title_zh: "Ab-范畴中双积的刻画"
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [ab-category, biproduct, direct-sum, product, coproduct]
+depends_on:
+  required: [ab-category, null-object-characterization-in-ab-category]
+  recommended: [product, coproduct]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VIII. Abelian Categories"
+    section: "2. Additive Categories"
+    pages: ""
+    role_in_book: "Theorem 2 — a diagram satisfying the biproduct equations is simultaneously a product and a coproduct"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

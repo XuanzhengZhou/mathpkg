@@ -1,0 +1,11 @@
+Let $\mathfrak{B}_n$ be a sequence of sub $\sigma$-fields of events. The $\mathfrak{B}_n$ are said to form a chain, or to be chained (or chain-dependent), if for every $n$,
+
+$$P^{\mathfrak{B}_n} B_{n+1} \cdots B_{n+m} = P^{\mathfrak{B}_n} B_{n+1} \cdots P^{\mathfrak{B}_n} B_{n+m} \text{ a.s.}$$
+
+for all $B_{n+1} \in \mathfrak{B}_{n+1}, \ldots, B_{n+m} \in \mathfrak{B}_{n+m}$. This means the "future" ($\mathfrak{B}_{n+1}, \ldots, \mathfrak{B}_{n+m}$) is conditionally independent given the "present" ($\mathfrak{B}_n$).
+
+More generally, for arbitrary integers $k_1 < \cdots < k_n < k_{n+1} < \cdots < k_{n+m}$,
+
+$$P^{\mathfrak{B}_{k_1} \vee \cdots \vee \mathfrak{B}_{k_n}} B_{k_{n+1}} \cdots B_{k_{n+m}} = P^{\mathfrak{B}_{k_n}} B_{k_{n+1}} \cdots B_{k_{n+m}} \text{ a.s.}$$
+
+If $\mathfrak{B}_n = \mathfrak{B}_{X_n}$, we speak of the chain of random variables $X_n$.

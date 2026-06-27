@@ -1,0 +1,23 @@
+id: graph-gamma2-sphere-realization
+title_en: "Realization of the Graph Gamma-2 on the Sphere S^2"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: quantum-logic
+difficulty: advanced
+tags: [quantum-logic, kochen-specker, graph-embedding, sphere, combinatorial-geometry]
+depends_on:
+  required: []
+  recommended: [kochen-specker-nonembeddability]
+  suggested: [graph-theory, spherical-geometry]
+source_books:
+  - book_id: "gtm053"
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "12"
+    section: "12.14"
+    pages: ""
+    role_in_book: "Key combinatorial-geometric lemma used in the proof of the Kochen–Specker non-embeddability theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

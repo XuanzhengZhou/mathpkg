@@ -1,0 +1,23 @@
+id: bounded-set-definition
+title_en: "Bounded Set in a Linear Topological Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: linear-topological-spaces
+difficulty: basic
+tags: [bounded-set, linear-topological-space, neighborhood, absorbent-set]
+depends_on:
+  required: [linear-topological-space, neighborhood-of-zero]
+  recommended: [normed-space, bornology]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "Kelley, J. L.; Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "2"
+    section: "6 (Normability, Metrizability, and Embedding; Local Convexity)"
+    pages: ""
+    role_in_book: "Defines bounded sets, a key concept used to characterize normability of linear topological spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

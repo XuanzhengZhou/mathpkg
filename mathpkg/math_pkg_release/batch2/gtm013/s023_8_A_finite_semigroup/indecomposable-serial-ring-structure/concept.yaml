@@ -1,0 +1,23 @@
+id: indecomposable-serial-ring-structure
+title_en: "Structure of Indecomposable Serial Rings via Block Upper Triangular Matrix Rings"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: advanced
+tags: [serial-ring, indecomposable-ring, block-upper-triangular-matrix, division-ring, cartan-invariant]
+depends_on:
+  required: [serial-ring, indecomposable-ring, block-upper-triangular-matrix-ring]
+  recommended: [cartan-invariant, division-ring]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "8"
+    section: "23"
+    pages: ""
+    role_in_book: "Characterization of indecomposable serial rings as homomorphic images of block upper triangular matrix rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: br-complete-space
+title_en: "B_r-complete Space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [br-complete, ptak-space, locally-convex-space, weak-topology, equicontinuous]
+depends_on:
+  required: [b-complete-space, locally-convex-space]
+  recommended: [weak-topology, equicontinuous-set]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "8"
+    pages: ""
+    role_in_book: "Definition of B_r-completeness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

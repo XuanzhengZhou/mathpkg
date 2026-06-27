@@ -1,0 +1,177 @@
+is strongly aperiodic. That is crucial because it will enable us to apply P3 in the estimation procedure which follows.
+
+We may decompose
+
+(1) $P_n(0,0) = P_0[x_n = 0]$
+$$= \sum_{k=0}^{n} P_0[x_n = 0; n - \sum_{j=1}^{n} \delta(x_{j-1}, x_j) = k]$$
+
+according to the number of jumps of the random walk in time $n$, if we say that a jump occurs at time $j - 1$ if $x_{j-1} \neq x_j$. Since $P(0,0) = 1 - \alpha$, the probability of $k$ jumps in time $n$ is given by the binomial distribution
+
+(2) $b(n,k,\alpha) = \binom{n}{k} \alpha^k (1 - \alpha)^{n-k}$.
+
+But if a jump occurs at time $j$ and if $x_j = x$, then the probability that $x_{j+1} = y$ is
+
+(3) $Q(x,y) = \alpha^{-1} P(x,y)$ for $x \neq y$
+$$= 0 \quad \text{for } x = y.$$
+
+Equation (3) defines a perfectly legitimate transition function $Q(x,y)$. We may call its iterates $Q_n(x,y)$ and conclude from the identity
+
+$$P(x,y) = (1 - \alpha) \delta(x,y) + \alpha Q(x,y), \quad x,y \in R$$
+
+that
+
+(4) $P_n(0,0) = \sum_{k=0}^{n} Q_k(0,0)b(n,k,\alpha), \quad n \geq 0.$
+
+Now we shall decompose the sum in equation (4) into two parts $(\sum = \sum_{n,\epsilon'} + \sum_{n,\epsilon'}), \sum_{n,\epsilon'}$ being over the set of integers $k$ such that $0 \leq k \leq n$ and in addition $|k - n\alpha| < \epsilon n$. Here $\epsilon$ is an arbitrary positive number which will tend to zero later, and $\sum_{n,\
+
+In view of (5) and P2, the last term in (6) is bounded above by
+
+$$\frac{2e^{-A\epsilon^2n}}{P_{n+1}(0,0)} \leq \frac{2e^{-A\epsilon^2n}}{(1-\delta)^{n+1}} \text{ for all } n \geq N(\delta)$$
+
+whenever $0 < \delta < 1$, so that this term tends to zero as $n \to \infty$. It follows that
+
+(7) $$\lim_{n \to \infty} \frac{P_n(0,0)}{P_{n+1}(0,0)} \leq \lim_{n \to \infty} \frac{\sum_{n,\epsilon} Q_k(0,0)b(n,k,\alpha)}{P_{n+1}(0,0)}$$
+
+$$\leq \lim_{n \to \infty} \left[ \frac{\sum_{n+1,\epsilon} Q_k(0,0)b(n,k,\alpha)}{P_{n+1}(0,0)} + R_{n,\epsilon} \right].$$
+
+Here $R_{n,\epsilon}$ is an error term which tends to zero as $n \to \infty$. (It is of the form $[P_{n+1}(0,0)]^{-1} \sum'' Q_k(0,0)b(n,k,\alpha)$ where $\sum''$ extends over all values of $k$ which are included in the summation $\sum_{n,\epsilon}'$ but not in $\sum_{n+1,\epsilon}'$. Hence
+
+$$|R_{n,\epsilon}| \leq \frac{\sum_{n,\epsilon/2} b(n,k,\alpha)}{P_{n+1}(0,0)}$$
+
+for all sufficiently large $n$, and tends to zero by previous arguments using P2 and P3.) Resuming the estimation from (7),
+
+(8) $$\lim_{n \to \infty} \frac{P_n(0,0)}{P_{n+1}(0,0)} \leq \lim_{n \to \infty} \frac{\sum_{n+1,\epsilon} Q_k(0,0)b(n,k,\alpha)}{\sum_{n+1,\epsilon} Q_k(
+
+To prove part (b) of P4, use P1.2 to write
+
+$$P_n(0,x) = \sum_{k=0}^{n} F_k(0,x) P_{n-k}(0,0), \quad n \geq 1.$$
+
+For every positive integer $m$
+
+$$\lim_{n \to \infty} \frac{P_n(0,x)}{P_n(0,0)} \geq \lim_{n \to \infty} \sum_{k=0}^{m} F_k(0,x) \frac{P_{n-k}(0,0)}{P_n(0,0)} = \sum_{k=0}^{m} F_k(0,x),$$
+
+where we applied part (a) of P4 to evaluate the lower limit. Since the random walk is recurrent, the last term tends to one as $m \to \infty$, so that
+
+(9) $$\lim_{n \to \infty} \frac{P_n(0,x)}{P_n(0,0)} \geq 1.$$
+
+To complete the proof of P4, suppose that (b) is false. Then there is some $x_0 \in R$ where
+
+$$\lim_{n \to \infty} \frac{P_n(0,x_0)}{P_n(0,0)} = 1 + \delta > 1.$$
+
+We may choose an integer $k$ such that $P_k(x_0,0) > 0$. Then
+
+(10) $$\frac{P_{n+k}(0,0)}{P_n(0,0)} = \sum_{y \neq x_0} \frac{P_n(0,y)}{P_n(0,0)} P_k(y,0) + \frac{P_n(0,x_0)}{P_n(0,0)} P_k(x_0,0).$$
+
+The left-hand side has limit one as $n \to \infty$, so that
+
+$$1 \geq \sum_{y \neq x_0} P_k(y,0) \lim_{n \to \infty} \frac{P_n(0,y)}{P_n(0,0)} + (1 + \delta) P_k(x_0,0)$$
+
+$$\geq
+
+obtain (b) here too—it did not depend on the positivity of $P(0,0)$ at all. Now let $s$ denote the smallest positive integer such that $P_s(0,0) > 0$. Actually any positive integer with this property would do, and we may of course assume that $s > 1$, as the case of $s = 1$ was settled in P4. It is clear from P1 that such a value of $s$ exists, and also that the transition function
+
+$$Q(x,y) = P_s(x,y)$$
+
+is again the transition function of an aperiodic recurrent random walk. It satisfies the hypotheses of P4, so that
+
+(1) $$\lim_{n \to \infty} \frac{Q_n(0,0)}{Q_{n+1}(0,0)} = \lim_{n \to \infty} \frac{P_{ns}(0,0)}{P_{(n+1)s}(0,0)} = 1.$$
+
+Therefore, as is easy to see, we shall have proved part (a) of T1 if we show that
+
+(2) $$\lim_{n \to \infty} \frac{P_{ns+r}(0,0)}{P_{ns}(0,0)} = 1 \text{ for } 1 \leq r < s.$$
+
+One obtains a lower estimate for the ratio in (2) from
+
+(3) $$P_{ns+r}(0,0) = \sum_{x \in R} P_r(0,x)P_{ns}(x,0).$$
+
+If we apply P4(b) to the ratios
+
+$$\frac{P_{ns}(x,0)}{P_{ns}(0,0)} = \frac{Q_n(x,0)}{Q_n(0,0)},$$
+
+then (3) leads to
+
+$$\lim_{n \to \infty} \frac{P_{ns+r}(0,0)}{P_{ns}(0,0)} \geq \sum_{|z| \leq M} P_r(0,x) \lim_{n \to \infty} \frac{Q_n(x,0)}{Q_n(0,0)}$$
+
+$$= \sum_{|z| \leq M} P_r
+
+(that follows quite easily from the recurrence and strong aperiodicity of the random walk). Then we choose a positive integer $p$ such that $p(s - 1) \geq N$, and let $n \to \infty$ in
+
+$$\frac{P_{(n+p)s}(0,0)}{P_{ns}(0,0)} = \sum_{k=0}^{(n+p)s} F_k(0,0) \frac{P_{(n+p)s-k}(0,0)}{P_{ns}(0,0)}$$
+
+If T1 were false, then (2) would have to fail, and in view of (4) there would be some value of $r$, $0 \leq r < s$ such that the ratio $P_{ns+r}(0,0)/P_{ns}(0,0)$ has upper limit $1 + \delta > 1$. Let us suppose this to be so. The coefficient of this ratio on the right-hand side in (5) is $F_{ps-r}(0,0)$ which is positive by our choice of $p$. As the left side in (5) tends to one, we obtain
+
+(6) $1 \geq (1 + \delta)F_{ps-r}(0,0)$
+
+$$+ \sum_{k \neq ps-r} F_k(0,0) \lim_{n \to \infty} \frac{P_{(n+p)s-k}(0,0)}{P_{ns}(0,0)}$$
+
+for every $M > 0$. Using (4)
+
+$$1 \geq (1 + \delta)F_{ps-r}(0,0) + \sum_{k \neq ps-r} F_k(0,0) = 1 + \delta F_{ps-r}(0,0) > 1$$
+
+which is the desired contradiction. Hence $P_{ns+r}(0,0)/P_{ns}(0,0)$ has upper limit at most one for every $r$, equation (2) holds, and T1 is proved.
+
+Remark: Although the dimension of the random walk did in no way seem to affect the proof of T1, we shall see in the next chapter (T8.1) that T1 has only been proved when $d \leq 2$. The reason is that
+
+denote the expected number of visits to the origin in the time interval $[m,m+n]$. Prove that
+
+$$E_{0,n} \geq E_{m,n}$$ for all $m \geq 0, n \geq 0$.
+
+2. Again for arbitrary random walk prove that
+
+$$\sum_{x \in R} F_1(0,x) = 1, \text{ while } \sum_{x \in R} F_n(0,x) = 1 - \sum_{k=1}^{n-1} F_k(0,0)$$
+
+when $n \geq 2$.
+
+3. A two-dimensional random walk is defined (in complex notation) by
+
+$$0 < P(0,1) = P(0,-1) = p < 1, P(0,i) = 1 - 2p,$$
+
+so that $P(0,z) = 0$ for all other $z = m+ni$. Show that this random walk is transient and calculate $F$ and $G$.
+
+4. Find the simplest possible expression, in terms of binomial coefficients, for $P_n(0,0)$ for simple random walk in the plane. Apply Stirling's formula to show that this random walk is recurrent. This fact—together with the result of the next problem, constitutes a famous theorem of Polya [83], 1921.
+
+5. Use Stirling's formula to show that simple random walk is transient in dimension $d \geq 3$.
+
+6. For an arbitrary aperiodic recurrent random walk $x_n$ starting at $x_0 = 0$, calculate the expected number of visits to the point $x \neq 0$, before the first return to 0. Show that the answer is independent of $x$ (and of the random walk in question).
+
+7. Repeat the calculation in problem 6 for transient random walk.
+
+8. Explain why (6) and (7) were easy, and why it is harder to calculate
+
+(a) The expected number of returns to 0 before the first visit to $x$;
+
+(b) The probability of a visit to $x$ before the first return to 0;
+
+(c) The probability of return to 0 before the first visit to $x$.
+
+9. Express the probability
+
+11. Continuing (10), prove that
+
+$$\mathbf{P}[\mathbf{T}_{\alpha} > n] = \mathbf{E}[(1 - \alpha)^{\mathbf{R}_{\alpha}}], \quad n \geq 0,$$
+
+$$\mathbf{P}[\mathbf{x}_{\alpha} = x] = \frac{\alpha}{1 - \alpha} \mathbf{P}[\mathbf{T} < \mathbf{T}_{\alpha}], \quad x \in R.$$
+
+Here $\mathbf{T} = \min[n \mid n \geq 0, \mathbf{x}_n = x]$, and $\mathbf{x}_0 = 0$, while $\mathbf{R}_n$ is the range of T4.1.
+
+12. Continuing (11), prove that for transient random walk
+
+$$\lim_{\alpha \to 0} \mathbf{P}[\alpha \mathbf{T}_{\alpha} > t] = e^{-(1-F)k}, \quad t \geq 0.$$
+
+13. Continuing (11), prove that for simple random walk in one dimension
+
+$$\lim_{\alpha \to 0} \mathbf{P}[\alpha \mathbf{x}_{\alpha} \leq y] = F(y)$$
+
+for all real $y$, where $F(y)$ is the distribution function with density
+
+$$f(y) = F'(y) = |y| \int_{|y|}^{\infty} \frac{e^{-s} ds}{s^2}, \quad y \neq 0.$$
+
+14. Let $A$ denote the random subset of $R$ constructed, as in problem 10, by selecting each point of $R$ with probability $\alpha$. If $\varphi_A$ is the characteristic function of the set $A$ then
+
+$$\mathbf{N}_n(\alpha) = \sum_{k=0}^{n} \varphi_A(\mathbf{x}_k)$$
+
+may be interpreted as the occupation time of the random set $A$ up to time $n$. Show that $\mathbf{E}[\mathbf{N}_n(\alpha)] = (n + 1)\alpha$, and that $\sigma^2[\mathbf{N}_n(\alpha)]/n^2 \to 0$, so that $\mathbf{N
+
+6. CHARACTERISTIC FUNCTIONS AND MOMENTS¹
+
+As in the last chapter $R$ will denote the $d$-dimensional group of lattice points $x = (x^1, x^2, \ldots, x^d)$ where the $x^i$ are integers. To develop the usual notions of Fourier analysis we must consider still another copy of Euclidean space, which we shall call $E$. It will be the whole of Euclidean space (not just the integers) and of the same dimension $d$ as $R$. For convenience we shall use Greek letters to denote elements of $E$, and so, if $R$ is $\alpha$-dimensional, the elements of $E$ will be $\theta = (\theta_1, \theta_2, \ldots, \theta_d)$, where each $\theta_i$ is a real number for $i = 1, 2, \ldots, d$. The following notation will be convenient.

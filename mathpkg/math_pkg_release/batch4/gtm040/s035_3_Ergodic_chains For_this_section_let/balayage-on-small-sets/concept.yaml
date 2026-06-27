@@ -1,0 +1,23 @@
+id: balayage-on-small-sets
+title_en: "Balayage on Small Sets in Ergodic Chains"
+title_zh: ""
+type: corollary
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [ergodic-chains, balayage, small-sets, taboo-potentials]
+depends_on:
+  required: [all-sets-are-small-in-noncyclic-ergodic-chains, integrable-potentials-characterization]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "3"
+    pages: ""
+    role_in_book: "Corollary 9-56 describes the balayage operator on small sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

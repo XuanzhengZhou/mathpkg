@@ -1,0 +1,23 @@
+id: hyper-real-field-is-eta-one-field
+title_en: "Every hyper-real residue class field is an eta-1-field"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [eta-one-fields, hyper-real-fields]
+depends_on:
+  required: [interpolation-lemma-for-prime-ideal, eta-one-field, hyper-real-field]
+  recommended: [residue-class-field-is-real-closed]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "13"
+    section: "13.8"
+    pages: ""
+    role_in_book: "Order-theoretic structure of hyper-real fields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

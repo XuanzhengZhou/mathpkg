@@ -1,0 +1,29 @@
+id: isomorphism-opposite-product-category
+title_en: "Isomorphism $(C \times D)^{\\mathrm{op}} \\cong C^{\\mathrm{op}} \times\
+  \ D^{\\mathrm{op}}$"
+title_zh: ''
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags:
+- opposite-category
+- product-category
+- isomorphism
+depends_on:
+  required:
+  - opposite-category
+  - product-category
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: II
+  section: '3'
+  pages: ''
+  role_in_book: ''
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

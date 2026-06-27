@@ -1,0 +1,1 @@
+The multiplicative Cousin problem asks whether given non-vanishing local holomorphic functions can be patched into a global one. The obstruction is measured by a cohomology class in $H^1(X, \mathcal{O}^*)$.

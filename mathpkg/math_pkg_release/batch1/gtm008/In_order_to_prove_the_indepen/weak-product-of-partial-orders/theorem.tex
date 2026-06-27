@@ -1,0 +1,5 @@
+Let $P_i = \langle P_i, \leq \rangle$, $i \in I$, be a family of partial order structures with $I$ a set, and suppose each $P_i$ has a greatest element $1_i$. Then
+$$P = \prod_{i \in I}^{w} P_i$$
+(the weak product of the $P_i$'s) is defined to be the partial order structure $\langle P_0, \leq \rangle$ where
+$$P_0 \triangleq \left\{ p \mid p \in \prod_{i \in I} P_i \land (\exists F \subseteq I)[\bar{\bar{F}} < \omega \land (\forall i \in I - F)[p(i) = 1_i]] \right\}$$
+i.e., $P_0$ is the set of $p \in P$ where $p(i) = 1_i$ for all but finitely many $i \in I$, and $\leq$ is inherited from the strong product.

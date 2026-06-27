@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $e$ be the radical exponent of $f(X)$. Then $f(X)$ is separable over $k$ if and only if $e = 0$, and $f(X)$ is radical over $k$ if and only if $f(X) = c(X - s)^{p^e}$ for some $s \in k_{\text{Alg}}$.

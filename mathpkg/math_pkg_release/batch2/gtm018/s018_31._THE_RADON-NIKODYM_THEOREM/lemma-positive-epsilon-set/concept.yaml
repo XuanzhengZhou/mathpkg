@@ -1,0 +1,23 @@
+id: lemma-positive-epsilon-set
+title_en: "Existence of a Positive Set for ν − εμ"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [radon-nikodym, signed-measure, hahn-decomposition, positive-set]
+depends_on:
+  required: [hahn-decomposition-theorem]
+  recommended: [signed-measure, absolute-continuity-measures]
+  suggested: []
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "31"
+    section: "31. The Radon-Nikodym Theorem"
+    pages: ""
+    role_in_book: "Auxiliary lemma used in the proof of the Radon-Nikodym Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

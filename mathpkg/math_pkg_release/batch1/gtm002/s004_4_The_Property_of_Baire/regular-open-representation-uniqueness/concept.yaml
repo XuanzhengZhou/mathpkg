@@ -1,0 +1,23 @@
+id: regular-open-representation-uniqueness
+title_en: "Uniqueness of Regular Open Representation"
+title_zh: "正则开集表示的唯一性"
+type: theorem
+domain: topology
+subdomain: descriptive-set-theory
+difficulty: intermediate
+tags: [baire-property, regular-open-set, uniqueness, symmetric-difference]
+depends_on:
+  required: [property-of-baire, regular-open-set]
+  recommended: [first-category-set, symmetric-difference]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "4"
+    section: "4. The Property of Baire"
+    pages: ""
+    role_in_book: "Theorems 4.5-4.6 — existence and uniqueness of regular open representation for Baire property sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

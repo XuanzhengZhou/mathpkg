@@ -1,0 +1,19 @@
+If $K \colon D \to \mathbf{Set}$ is a functor from $D$ and $r$ an object in $D$ (for $D$ a category with small hom-sets), there is a bijection
+
+$$
+y \colon \operatorname{Nat}(D(r, -), K) \xrightarrow{\cong} Kr
+$$
+
+which sends each natural transformation $\alpha \colon D(r, -) \to K$ to $\alpha_r(1_r)$, the image of the identity $r \to r$.
+
+The proof is indicated by the following commutative diagram:
+
+$$
+\begin{array}{ccc}
+D(r, r) & \xrightarrow{\alpha_r} & Kr \\
+{\scriptstyle f_* = D(r, f)}\downarrow & & \downarrow {\scriptstyle K(f)} \\
+D(r, d) & \xrightarrow{\alpha_d} & Kd
+\end{array}
+$$
+
+where for any arrow $f \colon r \to d$, naturality of $\alpha$ forces $\alpha_d(f) = \alpha_d \circ D(r, f)(1_r) = K(f) \circ \alpha_r(1_r)$, showing that $\alpha$ is completely determined by $\alpha_r(1_r) \in Kr$.

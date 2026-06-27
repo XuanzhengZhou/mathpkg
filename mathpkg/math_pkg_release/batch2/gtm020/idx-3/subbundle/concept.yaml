@@ -1,0 +1,23 @@
+id: subbundle
+title_en: "Subbundle"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: fibre-bundles
+difficulty: basic
+tags: [subbundle, bundle, subspace]
+depends_on:
+  required: [bundle]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "2"
+    section: "1.3"
+    pages: "page_0027–page_0029"
+    role_in_book: "Defines subbundle via subspace restriction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

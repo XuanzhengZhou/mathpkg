@@ -1,0 +1,23 @@
+id: bounded-convergence-theorem-for-integrable-functions
+title_en: "Lebesgue's Bounded Convergence Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [bounded-convergence, lebesgue, dominated-convergence, convergence-in-measure, convergence-almost-everywhere, integrable-functions]
+depends_on:
+  required: [mean-convergence-characterization]
+  recommended: [integrable-function, convergence-in-measure, convergence-almost-everywhere]
+  suggested: [lebesgue-dominated-convergence-theorem, indefinite-integral]
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX"
+    section: "§26. Sequences of Integrable Functions"
+    pages: ""
+    role_in_book: "Key convergence theorem: pointwise boundedness by an integrable function yields mean convergence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: quasi-colimit
+title_en: "Quasi-colimit of a diagram"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [quasi-colimit, colimit, weak-colimit, diagram, upper-bound]
+depends_on:
+  required: [diagram, colimit, upper-bound]
+  recommended: [weak-colimit]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "7"
+    section: "7.1"
+    pages: ""
+    role_in_book: "Definition 7.6; introduces quasi-colimits as a weakening of colimits where existence but not uniqueness of mediating morphisms is required"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

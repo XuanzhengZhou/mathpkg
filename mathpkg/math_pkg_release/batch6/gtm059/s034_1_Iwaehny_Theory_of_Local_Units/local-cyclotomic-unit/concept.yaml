@@ -1,0 +1,23 @@
+id: local-cyclotomic-unit
+title_en: "Local Cyclotomic Unit"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [cyclotomic-units, local-fields, iwasawa-theory]
+depends_on:
+  required: []
+  recommended: [cyclotomic-units, local-fields, p-adic-numbers]
+  suggested: [iwasawa-algebra]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "Iwasawa Theory of Local Units"
+    section: "1"
+    pages: "184-187"
+    role_in_book: "Defines cyclotomic units in the local setting for Iwasawa theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

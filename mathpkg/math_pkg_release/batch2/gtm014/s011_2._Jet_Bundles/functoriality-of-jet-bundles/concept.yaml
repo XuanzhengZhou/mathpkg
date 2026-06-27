@@ -1,0 +1,23 @@
+id: functoriality-of-jet-bundles
+title_en: "Functorial Properties of Induced Maps on Jet Bundles"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-topology
+difficulty: intermediate
+tags: [jet-bundles, functoriality, pushforward, pullback, diffeomorphism]
+depends_on:
+  required: [jet-space-of-maps, contact-preserved-under-composition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "2"
+    section: "2. Jet Bundles"
+    pages: ""
+    role_in_book: "Shows that jet space construction is functorial in both source and target"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

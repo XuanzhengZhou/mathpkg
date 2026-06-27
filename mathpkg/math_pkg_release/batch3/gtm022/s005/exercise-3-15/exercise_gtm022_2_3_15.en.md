@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "II"
+section: "§3"
+exercise_number: 15
+---
+
+Investigate the following propositional calculi: (a) Prop₂(X) free of type {∼, ∨}, (b) Prop′₂(X) relatively free of type {∼, ∨} with $p \lor q = q \lor p$, (c) Prop₃(X) free of type {|} (Sheffer stroke), (d) Prop′₃(X) relatively free of type {|} with $p|q = q|p$.

@@ -1,0 +1,23 @@
+id: monotonic-pseudo-norm-equivalence
+title_en: "Equivalence of Monotonic Pseudo-Norm and Positive Functional Decomposition"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [monotonic-pseudo-norm, positive-functional-decomposition, ordered-space, equivalent-norm]
+depends_on:
+  required: [equivalent-monotonic-pseudo-norm-existence, bounded-polar-of-positive-functionals]
+  recommended: [normal-cone, ordered-vector-space, positive-functional]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "23.1"
+    pages: ""
+    role_in_book: "Full equivalence between decomposability of functionals and existence of monotonic pseudo-norm"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

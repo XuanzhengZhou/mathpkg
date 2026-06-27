@@ -1,0 +1,23 @@
+id: absorption-theorem
+title_en: "Absorption Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [absorption, convex-set, bounded-set, second-category, linear-topological-space]
+depends_on:
+  required: [convex-set, bounded-set, second-category, linear-topological-space]
+  recommended: [somewhere-dense, neighborhood]
+  suggested: [compact-subset-second-category]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley"
+    title: "Linear Topological Spaces"
+    chapter: "10"
+    section: "10.1"
+    pages: ""
+    role_in_book: "Key theorem linking second category bounded convex sets to absorption"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

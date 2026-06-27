@@ -1,0 +1,23 @@
+id: equilibrium-sets-basic-example
+title_en: "Equilibrium Sets and Potentials for the Basic Example"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [equilibrium-sets, equilibrium-potential, capacity, basic-example, hitting-probabilities]
+depends_on:
+  required: [basic-example-definition, equilibrium-set, equilibrium-potential, capacity]
+  recommended: [reverse-chain-transition-basic-example]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "8"
+    section: "6"
+    pages: ""
+    role_in_book: "Complete characterization of equilibrium sets and explicit formulas for equilibrium potentials of both P and P-hat in the basic example"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

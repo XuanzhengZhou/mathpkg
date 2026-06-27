@@ -1,0 +1,17 @@
+id: liouville-number
+title_en: "Liouville Number"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: diophantine-approximation
+difficulty: intermediate
+tags: [liouville, diophantine-approximation, rational-approximation, transcendence]
+depends_on:
+  required: []
+  recommended: [rational-number]
+  suggested: []
+source_books:
+  - {book_id: "gtm002", author: "John C. Oxtoby", title: "Measure and Category", chapter: "1", section: "2", pages: "16", role_in_book: "Definition within Theorem 2.3; Liouville numbers are the first explicit examples of transcendental numbers, constructed via extremely rapid rational approximation"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

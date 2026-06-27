@@ -1,0 +1,23 @@
+id: projective-over-local-ring-free
+title_en: "Projective Modules over Local Rings are Free"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [projective-module, free-module, local-ring, kaplansky]
+depends_on:
+  required: [projective-module, free-module, local-ring, countably-generated-local-endomorphism-decomposition]
+  recommended: [endomorphism-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "5"
+    section: "26"
+    pages: ""
+    role_in_book: "Corollary 26.7: Kaplansky's theorem - projective modules over local rings are free"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

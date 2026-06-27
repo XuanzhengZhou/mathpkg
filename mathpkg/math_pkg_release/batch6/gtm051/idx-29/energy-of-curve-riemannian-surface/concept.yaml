@@ -1,0 +1,23 @@
+id: energy-of-curve-riemannian-surface
+title_en: "Energy of a Curve on a Riemannian Surface"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [energy, curve, riemannian-metric, surface, dirichlet-energy]
+depends_on:
+  required: [riemannian-metric, differentiable-surface, curve-on-manifold, tangent-vector]
+  recommended: [length-of-curve-riemannian-surface]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.5"
+    pages: "118-119"
+    role_in_book: "Definition of the energy (Dirichlet energy) of a curve on a surface equipped with a Riemannian metric, generalizing to manifolds with atlases"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

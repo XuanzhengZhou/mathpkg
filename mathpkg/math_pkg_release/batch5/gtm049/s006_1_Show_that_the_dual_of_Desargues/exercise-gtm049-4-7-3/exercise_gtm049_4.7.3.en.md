@@ -1,0 +1,11 @@
+---
+role: exercise
+locale: en
+chapter: "4"
+section: "4.7"
+exercise_number: 3
+---
+
+The configuration $\mathfrak{C}$ consisting of all the points on a line is called a range of points. Describe the plane dual and the three-dimensional dual of $\mathfrak{C}$ (called a pencil of lines and a pencil of planes, respectively).
+
+Find the three-dimensional dual of the configuration consisting of all points on a projective plane.

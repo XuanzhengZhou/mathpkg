@@ -1,0 +1,23 @@
+id: general-stability-criterion
+title_en: "General Stability Criterion via Normal Crossing"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: singularity-theory
+difficulty: advanced
+tags: [stable-mappings, normal-crossings, Boardman-singularities, Mather-theory, general-position]
+depends_on:
+  required: [normal-crossing-condition]
+  recommended: [Boardman-stratification, infinitesimal-stability]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "§6. Stable Mappings in Low Dimensions"
+    pages: ""
+    role_in_book: "General result from which Theorem 6.3 is deduced; stability equivalence under NC"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

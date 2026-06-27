@@ -1,0 +1,9 @@
+Let $R$ be a ring, $G$ a semigroup (written multiplicatively) with identity $e$. Let $R^{(G)}$ be the set of all functions $f: G \to R$ with finite support. For each $f,g \in R^{(G)}$ define addition by $(f+g)(x) = f(x) + g(x)$ and multiplication (convolution) by
+
+$$(fg)(x) = \sum_{yz = x} f(y)g(z) \quad (x \in G).$$
+
+(1) Prove that $(R^{(G)}, +, \cdot)$ is a ring with identity $\xi(e)$ where $\xi(e)(x) = \delta_{ex}$. This ring is called the semigroup ring (or group ring if $G$ is a group) and is denoted $RG$.
+
+(2) For each $r \in R$ and $x \in G$ define $\sigma(r)$ and $\xi(x)$ in $RG$ by $\sigma(r)(y) = \delta_{ey}r$ and $\xi(x)(y) = \delta_{xy}$. Prove that $\sigma: R \to RG$ is an injective ring homomorphism and $\xi: G \to RG$ is an injective monoid homomorphism into the multiplicative semigroup of $RG$.
+
+(3) Prove that every nonzero $f \in RG$ can be uniquely expressed as $f = \sum_{i=1}^{n} \sigma(r_i)\xi(x_i)$ with $r_i \in R \setminus \{0\}$ and distinct $x_i \in G$.

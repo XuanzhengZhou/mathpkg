@@ -1,0 +1,23 @@
+id: strong-markov-property
+title_en: "Strong Markov Property"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [strong-markov-property, random-time, tail-field, conditional-independence]
+depends_on:
+  required: [markov-chain, random-time-field-and-tail-field, markov-chain-conditional-independence-from-past]
+  recommended: [tail-field, conditional-probability]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "4"
+    pages: ""
+    role_in_book: "Theorem 4-9: The Strong Markov Property - given the present (at a random time t), the past and future are conditionally independent"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

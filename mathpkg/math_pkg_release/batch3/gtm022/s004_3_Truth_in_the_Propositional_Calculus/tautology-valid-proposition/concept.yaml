@@ -1,0 +1,23 @@
+id: tautology-valid-proposition
+title_en: "Tautology (Valid Proposition)"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: propositional-calculus
+difficulty: basic
+tags: [tautology, validity, semantic-consequence, truth-table]
+depends_on:
+  required: [valuation-of-proposition-algebra]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes and J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "II"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines validity and tautology as universal truth under all valuations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

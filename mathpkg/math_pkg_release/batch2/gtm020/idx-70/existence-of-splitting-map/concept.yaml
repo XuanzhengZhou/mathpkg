@@ -1,0 +1,23 @@
+id: existence-of-splitting-map
+title_en: "Existence of Splitting Maps for Vector Bundles"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: characteristic-classes
+difficulty: intermediate
+tags: [splitting-map, vector-bundle, projective-bundle, induction]
+depends_on:
+  required: [splitting-map-of-vector-bundle]
+  recommended: [projective-bundle, cohomology-monomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "5"
+    section: "5.2"
+    pages: "page_0265–page_0270"
+    role_in_book: "Proves that every vector bundle admits a splitting map, enabling the computation of characteristic classes via line bundles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

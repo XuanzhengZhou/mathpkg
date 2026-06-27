@@ -1,0 +1,23 @@
+If $\chi$ is the character of a representation $\rho$ of degree $n$, we have:
+
+(i) $\chi(1) = n,$
+(ii) $\chi(s^{-1}) = \chi(s)^*$ for $s \in G,$
+(iii) $\chi(tst^{-1}) = \chi(s)$ for $s, t \in G.$
+
+(If $z = x + iy$ is a complex number, we denote the conjugate $x - iy$ either by $z^*$ or $\bar{z}$.)
+
+We have $\rho(1) = 1$, and $\text{Tr}(1) = n$ since $V$ has dimension $n$; hence (i).
+
+For (ii) we observe that $\rho_s$ has finite order; consequently the same is true
+
+of its eigenvalues $\lambda_1, \ldots, \lambda_n$ and so these have absolute value equal to 1 (this is also a consequence of the fact that $\rho_s$ can be defined by a unitary matrix, cf. 1.3). Thus
+
+$$\chi(s)^* = \text{Tr}(\rho_s)^* = \sum \lambda_i^* = \sum \lambda_i^{-1} = \text{Tr}(\rho_s^{-1}) = \text{Tr}(\rho_{s^{-1}}) = \chi(s^{-1}).$$
+
+Formula (iii) can also be written $\chi(vu) = \chi(uv)$, putting $u = ts, v = t^{-1}$; hence it follows from the well known formula
+
+$$\text{Tr}(ab) = \text{Tr}(ba),$$
+
+valid for two arbitrary linear mappings $a$ and $b$ of $V$ into itself. $\square$
+
+Remark. A function $f$ on $G$ satisfying identity (iii), or what amounts to the same thing, $f(uv) = f(vu)$, is called a class function. We will see in 2.5 that each class function is a linear combination of characters.

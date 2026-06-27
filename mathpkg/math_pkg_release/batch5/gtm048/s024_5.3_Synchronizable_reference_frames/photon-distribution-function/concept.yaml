@@ -1,0 +1,23 @@
+id: photon-distribution-function
+title_en: "Photon Distribution Function"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: advanced
+tags: [photon-distribution, kinetic-theory, radiative-transfer, direction-energy-space, general-relativity]
+depends_on:
+  required: []
+  recommended: [direction-energy-space, instantaneous-observer, lightcone, celestial-sphere]
+  suggested: []
+source_books:
+  - book_id: "gtm048"
+    author: "Sachs and Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "5"
+    section: "5.5"
+    pages: ""
+    role_in_book: "Defines the photon distribution function F_Z as a smoothed-out model for many-photon systems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

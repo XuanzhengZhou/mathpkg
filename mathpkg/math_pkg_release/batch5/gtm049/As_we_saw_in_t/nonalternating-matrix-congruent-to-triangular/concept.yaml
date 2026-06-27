@@ -1,0 +1,23 @@
+id: nonalternating-matrix-congruent-to-triangular
+title_en: "Non-Alternating Matrix Congruent to Triangular Matrix"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: bilinear-forms
+difficulty: intermediate
+tags: [triangular-matrix, congruence, non-alternating, matrix]
+depends_on:
+  required: [decomposition-nonalternating-bilinear-forms, lower-triangular-matrix]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm049
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "5.3"
+    pages: "107"
+    role_in_book: "Corollary to Theorem 4: any non-alternating matrix over a field with >2 elements is congruent to a triangular matrix"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

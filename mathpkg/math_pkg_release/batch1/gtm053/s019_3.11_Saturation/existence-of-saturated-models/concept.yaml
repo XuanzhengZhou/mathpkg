@@ -1,0 +1,23 @@
+id: existence-of-saturated-models
+title_en: "Existence and Uniqueness of Saturated Models"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [saturation, existence, isomorphism, complete-theory, back-and-forth]
+depends_on:
+  required: [kappa-saturated-structure, saturated-structure, complete-theory, elementary-extension]
+  recommended: [compactness-theorem, back-and-forth-system, cardinal-arithmetic]
+  suggested: [ehrenfeucht-fraisse-criterion]
+source_books:
+  - book_id: gtm053
+    author: "Yuri I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "3"
+    section: "3.12-3.13"
+    pages: ""
+    role_in_book: "Core theorem: saturated models exist and are unique up to isomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

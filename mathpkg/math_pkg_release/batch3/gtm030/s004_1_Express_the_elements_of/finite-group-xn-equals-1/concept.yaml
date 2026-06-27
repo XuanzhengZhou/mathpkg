@@ -1,0 +1,23 @@
+id: finite-group-xn-equals-1
+title_en: "In a Finite Group, x^n = 1"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [finite-group, order, lagrange-theorem, exponent]
+depends_on:
+  required: [finite-group, group-order, lagrange-theorem, cyclic-subgroup]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "13"
+    pages: ""
+    role_in_book: "Corollary of Lagrange's theorem: every element raised to the group order equals identity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

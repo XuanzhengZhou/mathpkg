@@ -1,0 +1,13 @@
+id: szego-orthogonal-polynomials-symmetric
+title_en: "Szegő Orthogonal Polynomials for Symmetric Random Walk"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [orthogonal-polynomials, szego-theory, symmetric-random-walk, green-function, spectral-theory]
+depends_on: {required: [interval-green-function], recommended: [orthogonal-polynomials, gram-schmidt], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "22", pages: "", role_in_book: "Introduces Szegő's theory of orthogonal polynomials associated with symmetric difference operators; gives Green function representation and limit theorem for coefficients"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

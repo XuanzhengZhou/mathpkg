@@ -1,0 +1,23 @@
+id: strict-inductive-limit
+title_en: "Strict Inductive Limit of a Sequence of Linear Topological Spaces"
+title_zh: "线性拓扑空间序列的严格归纳极限"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [strict-inductive-limit, inductive-limit, locally-convex-space, closed-subspace, relativization]
+depends_on:
+  required: [inductive-limit-topology, relativization-topology]
+  recommended: [direct-sum-topology, locally-convex-space]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "17"
+    section: "F"
+    pages: "178-179"
+    role_in_book: "Definition appearing in exercises/problems following Section F"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

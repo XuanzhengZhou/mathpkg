@@ -1,0 +1,32 @@
+---
+role: proof
+locale: en
+of_concept: characterization-of-l-spaces
+source_book: gtm036
+source_chapter: "24"
+source_section: "24.8"
+---
+
+Throughout the following $E$ will be a fixed $L$ space, $E^*$ its conjugate, and $X$ will be the spectrum of $E^*$. To avoid notation, no distinction will be made between $E^*$ and the space $C(X)$ of real continuous functions on $X$. If $x$ is a member of $E$, then $m_x$ will denote the corresponding signed measure on $X$.
+
+The proof depends on a sequence of lemmas.
+
+**Lemma 24.10.** A subset of $E$ or of $E^*$ which has an upper bound has a least upper bound. Each monotonically increasing net in $E$ (respectively $E^*$) which is bounded above is a Cauchy net.
+
+Observe that for $\alpha$ fixed, $\|x_\beta - x_\alpha\|$ is monotonic for $\beta \geq \alpha$, and bounded, and hence converges. Since the norm is linear on the positive cone, for $\gamma \geq \beta \geq \alpha$ it is true that $\|x_\gamma - x_\beta\| = \|x_\gamma - x_\alpha\| - \|x_\beta - x_\alpha\|$. From this it follows easily that the net is Cauchy and hence converges to a member $x$ of $E$. It is not hard to verify that $x$ is the supremum of the members $x_\alpha$, by making use of the fact that the set $\{z : z \geq y\}$ is always closed. Finally, to prove the first statement of the lemma, if $B$ is a subset of $E$ (or of $E^*$) with an upper bound, then let $\mathcal{A}$ be the family of finite subsets of $B$ directed by $\supset$, and for $A$ in $\mathcal{A}$ let $x_A$ be the supremum of the set $A$. Then the net $\{x_A, A \in \mathcal{A}\}$ is monotonically increasing and bounded, and its limit is the supremum of $B$.
+
+**Lemma 24.11.** The closure of each open set in $X$ is both open and closed. For each $x$ in $E$, the measure $m_x$ vanishes on Borel sets of the first category.
+
+*Proof.* Let $U$ be an open set in $X$, let $B$ be the family of all non-negative continuous real functions which are $0$ on $X \sim U$ and are bounded by $1$, and let $f$ be the supremum of the set $B$. Then $f$ is a continuous function which is $1$ on $U$, because for each $s$ in $U$ there is a member of $B$ which assumes the value $1$ at $s$. On the other hand, if $s \notin U^-$ then there is a member of $B$ vanishing on a neighborhood of $s$, so that $f$ is $0$ on $X \sim U^-$. Hence the characteristic function of $U^-$ coincides with $f$ except on the boundary of $U$, which is nowhere dense. Consequently $U^-$ is both open and closed, and each $m_x$ assigns measure zero to the boundary of any open set. Since the Borel sets of the first category are precisely those contained in a countable union of boundaries of open sets, each $m_x$ vanishes on first-category Borel sets.
+
+The method of attack for completing the proof of Theorem 24.9 is as follows. Suppose $n$ is a positive regular Borel measure which vanishes on sets of the first category. Let $B$ be the set of measures of the form $m_x$ such that $0 \leq m_x \leq n$, and let $p$ be the supremum of $B$. This supremum exists, in view of Lemma 24.10 applied to the $L$ space $E^{**}$, and the suprema of finite subsets of $B$ converge to $p$ relative to the norm topology. Since $E$ is isometric to a closed subspace of $E^{**}$, it follows that $p = m_y$ for some $y$ in $E$. If $p = n$, then $n$ belongs to the image of $E$; otherwise $n - p$ is a positive regular Borel measure, zero on sets of the first category, such that no non-zero positive $m_x$ is less than $n - p$. The following lemma then completes the proof.
+
+**Lemma 24.12.** If $n$ is a positive regular Borel measure vanishing on Borel sets of the first category and $\|n\| \neq 0$, then for some positive non-zero $x$ in $E$ it is true that $m_x < n$.
+
+*Proof.* As a preliminary, it is to be observed that, if $A$ is a Borel subset of $X$, then there is an open and closed subset $A'$ of $X$ such that the symmetric difference $(A \sim A') \cup (A' \sim A)$ is of category one. This may be proved by showing that the class $\mathcal{A}$ of all sets $A$ such that, for some open set $C$, the symmetric difference of $A$ and $C$ is of first category, is closed under countable union and complementation, and contains all compact sets and hence all Borel sets (this is a well-known lemma of set theory). Since each open set $C$ differs from the open and closed set $C^-$ by a nowhere dense set, the stated result follows.
+
+Turning to the proof of the lemma, it is first shown that if $p$ is a positive measure belonging to $E$ (more precisely, if $p = m_x$ for some $x \in E$), and if $U$ is an open subset of $X$ on which $n$ vanishes, then the measure $p_U$ defined by $p_U(B) = p(B \cap U)$ also belongs to $E$. Since $n$ vanishes on each compact subset of $U$, $n(U) = 0$. It follows that $n(U^-) = 0$. Let $A$ be the complement of $U^-$ in $X$; then $A$ is open and closed, and it has the properties: $n(X \sim A) = 0$, and if $B$ is a non-void open subset of $A$, then $n(B) > 0$. From this fact it follows that a Borel subset $B$ of $A$ is of category one if and only if $n(B) = 0$, for given such a set $B$ there is an open set $B'$ such that $(B \sim B') \cup (B' \sim B)$ is of category one, hence $n(B) = n(B') = 0$, therefore $B'$ is disjoint from $A$, and consequently $B$ is a subset of the first category set $B \sim B'$. It follows that a Borel set $B$ in $X$ is of $n$-measure $0$ if and only if $B \cap A$ is of the first category.
+
+Finally, let $f$ be the characteristic function of $A$, and choose a positive measure $p$ in $E$ such that $\int f\,dp \neq 0$. Then, applying the result of the second paragraph, $p_A \in E$, and clearly $p_A \neq 0$. In view of the characterization of the null sets of $n$, $p_A$ is absolutely continuous with respect to $n$, and by virtue of the Radon-Nikodym theorem there is a non-negative Borel function $g$ such that $p_A(B) = \int_B g\,dn$ for any Borel set $B$ in $X$. For some positive integer $r$ the set $C = \{x: g(x) \leq r\}$ has a positive $p_A$-measure. Then $p_A \cap C$ is a non-zero element of $E$ and is dominated by $rn$; the lemma is proved.
+
+Thus by Lemma 24.12, if $n$ belongs to the class of positive regular Borel measures vanishing on first-category sets, either $n$ is in the image of $E$ or there exists a non-zero $m_x$ dominated by $n$. The completeness argument using $E^{**}$ then shows that the image of $E$ exhausts this class of measures, completing the proof of Theorem 24.9.

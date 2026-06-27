@@ -1,0 +1,23 @@
+id: light-signals-meet-at-infinity
+title_en: "Light Signals Meet at Infinity"
+title_zh: "光信号在无穷远处相遇"
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: intermediate
+tags: [causality, light-signal, minkowski-space, equivalence-relation, null-infinity]
+depends_on:
+  required: [light-signal]
+  recommended: [minkowski-space, inextendible-light-signal]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "5"
+    section: "5.2"
+    pages: ""
+    role_in_book: "Definition from Example 5.2.1 characterizing when two light signals in Minkowski space are parallel and offset in a null direction, extending the Hawking–Ellis notion of meeting at infinity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

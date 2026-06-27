@@ -1,0 +1,23 @@
+id: lemma-177-relation-symbols-of-lel
+title_en: "Lemma 17.7: Representation of Relation Symbols in L_el"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: mathematical-logic
+difficulty: advanced
+tags: [relation-symbols, elementary-language, formalized-arithmetic, goedel-numbering]
+depends_on:
+  required: [lemma-176-operation-symbols-of-lel]
+  recommended: [definition-174-language-lel-and-theory-p]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "Part 3"
+    section: "Decidable and Undecidable Theories"
+    pages: ""
+    role_in_book: "Corollary of Lemma 17.6 extending the representation result to relation symbols: each relation symbol R_O corresponding to an operation symbol O is correctly represented in P"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

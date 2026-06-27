@@ -1,0 +1,23 @@
+id: dedekind-sum-mod-8-congruence
+title_en: "Congruence modulo 8 for Dedekind sums"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [dedekind-sums, congruence, modulo-8]
+depends_on:
+  required: [dedekind-sums, dedekind-sum-reciprocity-law]
+  recommended: [dedekind-sum-theta-congruence]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "3"
+    section: "3.7"
+    pages: ""
+    role_in_book: "Theorem 3.9: Congruence for Dedekind sums modulo 8"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

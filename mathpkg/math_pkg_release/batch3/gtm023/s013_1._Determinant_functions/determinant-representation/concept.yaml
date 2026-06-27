@@ -1,0 +1,23 @@
+id: determinant-representation
+title_en: "Representation of skew symmetric n-linear maps via determinant"
+title_zh: "斜对称n重线性映射的行列式表示"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [determinant, skew-symmetric, representation, multilinear]
+depends_on:
+  required: [determinant-function, skew-symmetric-basis-determination]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IV"
+    section: "§1. Determinant functions"
+    pages: "4.3"
+    role_in_book: "Proposition III: Every skew symmetric n-linear map factors uniquely through a fixed nonzero determinant function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

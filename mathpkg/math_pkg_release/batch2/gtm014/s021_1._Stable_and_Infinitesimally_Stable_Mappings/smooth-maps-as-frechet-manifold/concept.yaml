@@ -1,0 +1,23 @@
+id: smooth-maps-as-frechet-manifold
+title_en: "$C^\\infty(X, Y)$ as a Fréchet Manifold"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [frechet-manifold, mapping-space, smooth-maps, tubular-neighborhood, compact-manifold]
+depends_on:
+  required: [frechet-space, frechet-spaces-from-compact-manifolds, tubular-neighborhood-theorem]
+  recommended: [smooth-manifold, compact-manifold]
+  suggested: [tangent-space-of-frechet-manifold]
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "§1. Stable and Infinitesimally Stable Mappings"
+    pages: ""
+    role_in_book: "Establishes that the space of smooth maps is a Fréchet manifold, enabling differential calculus on mapping spaces for stability theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

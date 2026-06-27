@@ -1,0 +1,23 @@
+id: faithfully-balanced-generator
+title_en: "Faithfully Balanced Bimodule Generator Criterion"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [generator, faithfully-balanced, bimodule, finitely-generated-projective]
+depends_on:
+  required: [generator-direct-sum-decomposition, finitely-generated-projective]
+  recommended: [faithfully-balanced-bimodule]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "5"
+    section: "17"
+    pages: ""
+    role_in_book: "Lemma 17.7 — for faithfully balanced bimodule, left generator iff right finitely generated projective"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

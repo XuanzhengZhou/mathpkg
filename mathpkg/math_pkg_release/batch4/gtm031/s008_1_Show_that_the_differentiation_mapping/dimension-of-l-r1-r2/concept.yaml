@@ -1,0 +1,23 @@
+id: dimension-of-l-r1-r2
+title_en: "Dimension of the Space of Linear Transformations (Theorem 1)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [dimension, linear-transformations, matrix-space, vector-space]
+depends_on:
+  required: [linear-transformation, matrix-of-a-linear-transformation, basis]
+  recommended: [dimension, matrix-space-as-vector-space]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "III"
+    section: "3-4"
+    pages: "55-65"
+    role_in_book: "Establishes that the space of linear transformations has dimension n1*n2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

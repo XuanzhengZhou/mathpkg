@@ -1,0 +1,23 @@
+id: metrizability-of-locally-bounded-hausdorff-tvs
+title_en: "Metrizability of Locally Bounded Hausdorff Topological Vector Spaces"
+title_zh: "局部有界Hausdorff拓扑向量空间的可度量化"
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [locally-bounded, metrizability, countable-neighborhood-base, bounded-set]
+depends_on:
+  required: [locally-bounded-topological-vector-space, hausdorff-tvs-metrizability-criterion]
+  recommended: [bounded-set-in-tvs]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "I"
+    section: "6"
+    pages: "41-43"
+    role_in_book: "Theorem 6.2; establishes that local boundedness is a sufficient condition for metrizability in Hausdorff t.v.s."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

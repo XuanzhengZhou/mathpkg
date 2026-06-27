@@ -1,0 +1,23 @@
+id: frechet-lattice
+title_en: "Frechet Lattice"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: ordered-topological-vector-spaces
+difficulty: advanced
+tags: [frechet-space, vector-lattice, lcvl, f-space]
+depends_on:
+  required: [locally-convex-vector-lattice, frechet-space]
+  recommended: [f-space]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "7"
+    pages: ""
+    role_in_book: "Frechet space that is also a locally convex vector lattice"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

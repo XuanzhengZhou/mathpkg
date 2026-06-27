@@ -1,0 +1,23 @@
+id: completeness-of-uniform-metric-space-of-continuous-functions
+title_en: "Completeness of the space of continuous functions under the uniform metric"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: metric-spaces
+difficulty: basic
+tags: [metric-space, completeness, continuous-functions, uniform-convergence, function-space]
+depends_on:
+  required: [uniform-metric-on-continuous-functions, cauchy-sequence]
+  recommended: [uniform-limit-of-continuous-functions-is-continuous]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "10"
+    section: "Examples of Metric Spaces"
+    pages: "50-52"
+    role_in_book: "Theorem about completeness of (C,ϱ)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,25 @@
+id: braid-crossing-transformation
+title_en: "Braid Crossing Transformation gamma"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [braid-category, natural-transformation, braiding, symmetry]
+depends_on:
+  required: [braid-category]
+  recommended: [natural-transformation, symmetric-monoidal-category]
+  suggested: [braided-monoidal-category, yang-baxter-equation]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    edition: "2nd"
+    year: 1998
+    chapter: "XI"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines the crossing natural transformation in the braid category, illustrating why it is braided but not symmetric"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: continuity-set-riemann-integrability-under-homeomorphism
+title_en: "Riemann Integrability under Homeomorphic Change of Variable"
+title_zh: "同胚变量替换下的黎曼可积性"
+type: theorem
+domain: analysis
+subdomain: real-analysis
+difficulty: advanced
+tags: [riemann-integral, homeomorphism, discontinuity, first-category, nullset, countable-set]
+depends_on:
+  required: [lebesgue-riemann-integrability-criterion, first-category-set-homeomorphic-to-nullset]
+  recommended: [first-category-set, nullset]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "13"
+    section: "13"
+    pages: "57-63"
+    role_in_book: "Theorem 13.3; characterizes Riemann integrability under homeomorphic substitution"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

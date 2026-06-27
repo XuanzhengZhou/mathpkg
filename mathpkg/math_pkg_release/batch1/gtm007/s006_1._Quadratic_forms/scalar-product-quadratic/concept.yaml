@@ -1,0 +1,23 @@
+id: scalar-product-quadratic
+title_en: "Scalar Product Associated with a Quadratic Form"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: quadratic-forms
+difficulty: basic
+tags: [scalar-product, symmetric-bilinear-form, quadratic-form]
+depends_on:
+  required: [quadratic-form]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "IV"
+    section: "§1.1 Definitions"
+    pages: ""
+    role_in_book: "Definition of the symmetric bilinear form associated with a quadratic form when char(k) != 2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

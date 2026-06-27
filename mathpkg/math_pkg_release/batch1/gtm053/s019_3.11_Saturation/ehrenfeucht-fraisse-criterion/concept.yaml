@@ -1,0 +1,23 @@
+id: ehrenfeucht-fraisse-criterion
+title_en: "Ehrenfeucht–Fraïssé Criterion for Saturated Models"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [ehrenfeucht-fraisse, back-and-forth, saturated-model, elementary-equivalence]
+depends_on:
+  required: [back-and-forth-system, saturated-structure, elementary-equivalence]
+  recommended: [kappa-saturated-structure]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yuri I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "3"
+    section: "3.15"
+    pages: ""
+    role_in_book: "Ehrenfeucht–Fraïssé criterion: characterization of elementary equivalence for ℵ₀-saturated structures via back-and-forth systems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

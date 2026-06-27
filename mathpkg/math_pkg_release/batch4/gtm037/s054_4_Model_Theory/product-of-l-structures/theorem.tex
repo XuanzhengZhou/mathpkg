@@ -1,0 +1,13 @@
+Let $\langle \mathfrak{A}_i : i \in I \rangle$ be a system of $\mathcal{L}$-structures, where $\mathcal{L}$ is any first-order language. By the \text{product} $\prod_{i \in I} \mathfrak{A}_i$ of the system $\langle \mathfrak{A}_i : i \in I \rangle$ we mean the $\mathcal{L}$-structure $\mathfrak{B}$ with universe
+$$B = \prod_{i \in I} A_i = \{f : f \text{ is a function}, \operatorname{Dmn} f = I, \text{ and for each } i \in I, f_i \in A_i\},$$
+and with relations and operations as follows:
+
+\begin{enumerate}
+\item[(i)] if $\mathbf{O}$ is an $m$-ary operation symbol and $x_0, \ldots, x_{m-1} \in B$, then for any $i \in I$,
+$$[\mathbf{O}^{\mathfrak{B}}(x_0, \ldots, x_{m-1})]_i = \mathbf{O}^{\mathfrak{A}_i}(x_{0i}, \ldots, x_{m-1,i});$$
+
+\item[(ii)] if $\mathbf{R}$ is an $m$-ary relation symbol, then
+$$\mathbf{R}^{\mathfrak{B}} = \{(x_0, \ldots, x_{m-1}) \in {}^m B : \forall i \in I \; (x_{0i}, \ldots, x_{m-1,i}) \in \mathbf{R}^{\mathfrak{A}_i}\}.$$
+\end{enumerate}
+
+If $\mathfrak{A}_i = \mathfrak{C}$ for all $i \in I$ we write ${}^I\mathfrak{C}$ instead of $\prod_{i \in I} \mathfrak{A}_i$; ${}^I\mathfrak{C}$ is the $I^{\text{th}}$ direct power of $\mathfrak{C}$. In case $I$ has exactly two elements $i, j$, we write $\mathfrak{A}_i \times \mathfrak{A}_j$.

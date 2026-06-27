@@ -1,0 +1,23 @@
+id: mobius-coefficient-nonuniqueness
+title_en: "Non-Uniqueness of Coefficients in Möbius Transformations"
+title_zh: "莫比乌斯变换系数的非唯一性"
+type: proposition
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [mobius-transformation, homogeneous-coordinates, projective-linear-group]
+depends_on:
+  required: [mobius-transformation]
+  recommended: [linear-fractional-transformation]
+  suggested: [projective-geometry]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.5"
+    pages: "46-48"
+    role_in_book: "Explains the projective nature of Möbius transformations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

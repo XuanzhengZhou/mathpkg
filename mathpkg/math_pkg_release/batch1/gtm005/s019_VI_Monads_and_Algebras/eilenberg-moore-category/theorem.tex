@@ -1,0 +1,12 @@
+Let $\langle T, \eta, \mu \rangle$ be a monad in a category $X$.
+
+\textbf{Theorem 1 (Eilenberg--Moore).} The $T$-algebras and their morphisms form a category $X^T$ (the \textbf{Eilenberg--Moore category}). There is an adjunction
+$$\langle F^T, G^T; \eta^T, \varepsilon^T \rangle : X \rightharpoonup X^T$$
+where:
+\begin{itemize}
+\item The \textbf{forgetful functor} $G^T: X^T \to X$ sends each $T$-algebra $\langle x, h \rangle$ to its underlying object $x$, and each morphism $f: \langle x, h \rangle \to \langle x', h' \rangle$ to the arrow $f: x \to x'$.
+\item The \textbf{free functor} $F^T: X \to X^T$ sends each object $x \in X$ to the \textbf{free $T$-algebra} $\langle Tx, \mu_x \rangle$, and each arrow $f: x \to x'$ to $Tf: \langle Tx, \mu_x \rangle \to \langle Tx', \mu_{x'} \rangle$.
+\item The unit is $\eta^T = \eta: I_X \to G^T F^T = T$.
+\item The counit $\varepsilon^T$ has components $\varepsilon^T_{\langle x, h \rangle} = h: F^T G^T \langle x, h \rangle = \langle Tx, \mu_x \rangle \to \langle x, h \rangle$.
+\end{itemize}
+Moreover, the monad defined by this adjunction is exactly the original monad $\langle T, \eta, \mu \rangle$.

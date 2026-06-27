@@ -1,0 +1,23 @@
+id: riemannian-metric-compact-equivalence
+title_en: "Local Equivalence of Riemannian and Euclidean Metrics on Compact Sets"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [riemannian-metric, compact-set, equivalence-of-metrics, pseudometric, arc-length]
+depends_on:
+  required: [riemannian-metric]
+  recommended: [compact-set]
+  suggested: [partition-of-unity, local-trivialization]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "5"
+    section: "5. Vector Bundles"
+    pages: ""
+    role_in_book: "Lemma 5.7 — shows that on a compact set, any Riemannian metric is comparable to the Euclidean metric, used to prove the induced pseudometric is a metric"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

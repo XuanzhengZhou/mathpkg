@@ -1,0 +1,1 @@
+Measures are continuous from below for increasing sequences and continuous from above for decreasing sequences (with finite initial measure). These properties are essential tools in measure-theoretic arguments.

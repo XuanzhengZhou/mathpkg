@@ -1,0 +1,23 @@
+id: subset-of-small-set-is-small
+title_en: "Subset of a small set is small"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [normal-chain, small-set, subset-property]
+depends_on:
+  required: [small-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "2"
+    pages: "264–273"
+    role_in_book: "Proposition 9-36; every subset of a small set is small, with λ^E = λ^F B^E"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

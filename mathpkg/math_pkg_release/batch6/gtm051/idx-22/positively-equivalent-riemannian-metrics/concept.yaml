@@ -1,0 +1,23 @@
+id: positively-equivalent-riemannian-metrics
+title_en: "Positively Equivalent Riemannian Metrics"
+title_zh: "正定向等价黎曼度量"
+type: definition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [riemannian-metric, orientation-preserving, diffeomorphism, equivalence-relation]
+depends_on:
+  required: [isometric-riemannian-metrics, orientation-preserving-diffeomorphism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Defines oriented equivalence of Riemannian metrics, used to define oriented Riemannian surfaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

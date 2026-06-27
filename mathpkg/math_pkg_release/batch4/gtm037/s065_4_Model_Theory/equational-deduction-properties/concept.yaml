@@ -1,0 +1,23 @@
+id: equational-deduction-properties
+title_en: "Properties of Equational Deduction"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [equational-logic, deduction, reflexivity, transitivity, substitution]
+depends_on:
+  required: [equational-deduction]
+  recommended: [congruence-relation]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "24"
+    section: "Preservation and Characterization Theorems"
+    pages: ""
+    role_in_book: "Proposition 24.18: eq-deduction satisfies reflexivity, symmetry, transitivity, and congruence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

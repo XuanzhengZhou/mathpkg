@@ -1,0 +1,23 @@
+id: godel-encoding-of-expression-sequences
+title_en: "Godel Encoding of Sequences of Expressions (Definition 10.26)"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: first-order-logic
+difficulty: basic
+tags: [godel-numbering, sequences, expressions, coding, formal-proof]
+depends_on:
+  required: []
+  recommended: [godel-numbering, formal-deduction-characterization]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.2"
+    pages: ""
+    role_in_book: "Extends the Godel numbering to finite sequences of expressions, enabling the arithmetization of formal proofs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

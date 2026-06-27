@@ -1,0 +1,23 @@
+id: axiom-schema-of-subsets
+title_en: "Axiom Schema of Subsets (ZF2)"
+title_zh: ""
+type: axiom
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [ZF, Zermelo-Fraenkel, separation, comprehension, subsets, Russell-paradox]
+depends_on:
+  required: [axiom-of-extension, subset-relation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Second axiom schema of ZF; restricts set formation by property to avoid Russell's paradox"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

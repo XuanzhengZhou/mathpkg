@@ -1,0 +1,23 @@
+id: path-in-sheaf-iff-analytic-continuation
+title_en: "Path in the Sheaf of Germs iff Analytic Continuation (Theorem 5.10)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [sheaf-of-germs, path, analytic-continuation, curve, germ]
+depends_on:
+  required: [sheaf-of-germs, analytic-continuation-along-curve, path]
+  recommended: [arcwise-connected, sheaf-of-germs-locally-arcwise-connected]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "5"
+    section: "5.6"
+    pages: ""
+    role_in_book: "fundamental theorem linking the topology of the sheaf space to analytic continuation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: compactness-via-fixed-ideals
+title_en: "Compactness Equivalent to All Ideals Being Fixed"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [compact, fixed-ideal, z-filter, z-ultrafilter, C(X), C*(X)]
+depends_on:
+  required: [compact, fixed-ideal, z-filter, C(X), C*(X)]
+  recommended: [compact-zero-set-lemma, z-filter-fixed-free]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4.11"
+    pages: ""
+    role_in_book: "Shows that X is compact iff every ideal in C(X) (or C*(X)) is fixed, iff every maximal ideal is fixed."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

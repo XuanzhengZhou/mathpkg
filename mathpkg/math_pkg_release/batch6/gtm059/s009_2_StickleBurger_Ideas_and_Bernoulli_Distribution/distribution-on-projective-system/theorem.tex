@@ -1,0 +1,10 @@
+Let $\{X_n\}$ be a projective system of finite sets with connecting maps
+$\pi_{m,n}: X_m \to X_n$ for $n \mid m$. Let $A$ be an abelian group.
+A \textbf{distribution} $\varphi$ on $\{X_n\}$ with values in $A$ is a family of
+maps $\varphi_n: X_n \to A$ satisfying the compatibility (distribution) relation:
+for all $n \mid m$ and $x \in X_n$,
+
+$$\varphi_n(x) = \sum_{\substack{y \in X_m \\ \pi_{m,n}(y) = x}} \varphi_m(y).$$
+
+Equivalently, a distribution is an additive map from the space of locally constant
+functions on the projective limit $X = \varprojlim X_n$ to $A$.

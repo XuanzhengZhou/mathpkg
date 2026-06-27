@@ -1,0 +1,23 @@
+id: ideal-distributivity
+title_en: "Distributivity of Ideal Operations via Prime Exponent Functions"
+title_zh: "通过素指数函数验证理想运算分配律"
+type: proposition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [dedekind-domain, distributivity, ideal-arithmetic, valuation]
+depends_on:
+  required: [fractionary-ideal-prime-factorization]
+  recommended: [crt-equivalent-to-distributivity]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "7"
+    pages: "277"
+    role_in_book: "Verification of distributivity in Dedekind domains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

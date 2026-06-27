@@ -1,0 +1,23 @@
+id: dual-group-of-finite-abelian-group
+title_en: "Dual Group of a Finite Abelian Group"
+title_zh: "有限阿贝尔群的对偶群"
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [dual-group, character-group, finite-abelian-group, pontryagin-duality]
+depends_on:
+  required: [character-of-finite-abelian-group]
+  recommended: [finite-abelian-group]
+  suggested: [pontryagin-duality]
+source_books:
+  - book_id: gtm007
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VI"
+    section: "§1.1"
+    pages: ""
+    role_in_book: "Defines the group structure on characters, foundational for orthogonality relations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

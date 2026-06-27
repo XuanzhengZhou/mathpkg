@@ -1,0 +1,23 @@
+id: basis-of-r-l-g
+title_en: "Basis of $R_L(G)$ given by simple modules"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [grothendieck-group, simple-module, basis, representation-ring, composition-series]
+depends_on:
+  required: [grothendieck-group-r-l-g]
+  recommended: [jordan-holder-theorem, composition-series]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "14"
+    section: "14.1"
+    pages: ""
+    role_in_book: "Proposition 40: the classes of simple L[G]-modules form a Z-basis of the representation ring R_L(G)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: generating-cone
+title_en: "Generating Cone (Reproducing Cone)"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: ordered-linear-spaces
+difficulty: basic
+tags: [generating-cone, reproducing-cone, cone, ordered-linear-space]
+depends_on:
+  required: [cone-in-linear-space, cone-difference-linear-subspace]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "ORDERED LINEAR SPACES"
+    pages: "224"
+    role_in_book: "Key condition for the positive cone to span the entire space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

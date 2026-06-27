@@ -1,0 +1,23 @@
+id: fubini-theorem-for-measurable-sets
+title_en: "Fubini's Theorem for Plane Measurable Sets"
+title_zh: "平面可测集的富比尼定理"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [fubini-theorem, measurable-set, section, product-measure, lebesgue-measure]
+depends_on:
+  required: [fubini-theorem-for-nullsets, measurable-set, f-sigma-set]
+  recommended: [lebesgue-measure]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "14"
+    section: "14"
+    pages: "57-63"
+    role_in_book: "Theorem 14.3; extends Fubini to all measurable plane sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

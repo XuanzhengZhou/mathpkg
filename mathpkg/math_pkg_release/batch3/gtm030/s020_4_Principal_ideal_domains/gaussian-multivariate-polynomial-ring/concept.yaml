@@ -1,0 +1,23 @@
+id: gaussian-multivariate-polynomial-ring
+title_en: "Multivariate Polynomial Ring over a Gaussian Domain is Gaussian"
+title_zh: "高斯整环上的多元多项式环仍是高斯整环"
+type: corollary
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [gaussian-domain, polynomial-ring, multivariate-polynomial, unique-factorization, algebraically-independent]
+depends_on:
+  required: [gaussian-polynomial-ring, gaussian-domain, algebraically-independent, polynomial-ring]
+  recommended: [principal-ideal-domain]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "III"
+    section: "6"
+    pages: ""
+    role_in_book: "Immediate corollary of Theorem 4; extends the result to finitely many variables by induction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

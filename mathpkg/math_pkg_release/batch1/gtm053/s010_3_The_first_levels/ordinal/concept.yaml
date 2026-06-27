@@ -1,0 +1,23 @@
+id: ordinal
+title_en: "Ordinal (von Neumann Definition)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: intermediate
+tags: [ordinal, von-neumann, transitive-set, well-ordering, membership-relation]
+depends_on:
+  required: [well-ordering, transitive-set]
+  recommended: [well-ordered-set-comparison]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yuri I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "1"
+    section: "6"
+    pages: ""
+    role_in_book: "Definition 6: von Neumann definition of an ordinal as a transitive set well-ordered by membership"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

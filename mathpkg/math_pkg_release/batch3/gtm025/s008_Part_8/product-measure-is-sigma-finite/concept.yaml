@@ -1,0 +1,23 @@
+id: product-measure-is-sigma-finite
+title_en: "Product Measure is Countably Additive and sigma-Finite"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [product-measure, countable-additivity, sigma-finite]
+depends_on:
+  required: [product-measure-definition, sigma-finite-measure]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm025
+    author: "Edwin Hewitt, Karl Stromberg"
+    title: "Real and Abstract Analysis"
+    chapter: "6"
+    section: "21"
+    pages: ""
+    role_in_book: "Verifies that the product measure is indeed a measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

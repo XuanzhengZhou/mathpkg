@@ -1,0 +1,23 @@
+id: m-saturated-structure
+title_en: "m-Saturated and Saturated Structures"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [saturation, types, model-theory, saturated-structure]
+depends_on:
+  required: [first-order-structure, formula-satisfaction, type-realization]
+  recommended: [compactness-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: ""
+    title: "Mathematical Logic"
+    chapter: "28"
+    section: "Saturated Structures"
+    pages: ""
+    role_in_book: "Defines the central notion of saturated structures, where all 'small' types over parameter sets are realized."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

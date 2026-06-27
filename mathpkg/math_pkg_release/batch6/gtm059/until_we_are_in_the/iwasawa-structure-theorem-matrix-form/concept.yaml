@@ -1,0 +1,23 @@
+id: iwasawa-structure-theorem-matrix-form
+title_en: "Iwasawa Structure Theorem (Matrix Form)"
+title_zh: "岩泽结构定理（矩阵形式）"
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [iwasawa-theory, modules-over-p-adic-group-ring, distinguished-polynomials, matrix-reduction, elementary-divisors]
+depends_on:
+  required: []
+  recommended: [iwasawa-algebra, distinguished-polynomial, finitely-generated-module-over-zp-x]
+  suggested: [elementary-divisor-theorem, p-adic-numbers]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "Iwasawa Theory and Ideal Class Groups"
+    pages: ""
+    role_in_book: "Structure theorem for finitely generated modules over the Iwasawa algebra Λ = Z_p[[X]], reducing a matrix of relations to canonical form via admissible operations."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

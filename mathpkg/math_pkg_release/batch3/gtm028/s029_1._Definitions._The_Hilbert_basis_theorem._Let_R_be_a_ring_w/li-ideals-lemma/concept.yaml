@@ -1,0 +1,24 @@
+id: li-ideals-lemma
+title_en: "Lemma on the Ideals L_i of Leading Coefficients"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [noetherian, polynomial-ring, leading-coefficient, ideal]
+depends_on:
+  required:
+    - noetherian-ring
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "IV"
+    section: "1"
+    pages: ""
+    role_in_book: "Key lemma used in the first proof of the Hilbert Basis Theorem (maximum condition proof)"
+content_hash: "609b8aa3a870633fec1cb84ab133058d"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,12 @@
+Let $\mathcal{P}$ be a finite collection $\{(\gamma, m, e)\}$ of particles. Assume that each $\gamma \in \mathcal{P}$ contains any endpoint it has: if $\gamma: \mathcal{E} \rightarrow M$ has a future endpoint then $\operatorname{lub} \mathcal{E} \in \mathcal{E}$, and dually for past endpoints.
+
+An event $x \in M$ is a \textbf{collision event} for $\mathcal{P}$ iff $x$ is an endpoint (future or past) for some $\gamma \in \mathcal{P}$. For a collision event $x$, a particle $\gamma \in \mathcal{P}$ is \textbf{destroyed} (or incoming) at $x$ iff $x$ is the future endpoint of $\gamma$, and \textbf{created} (or outgoing) at $x$ iff $x$ is the past endpoint of $\gamma$. Denote by $\operatorname{in}(x) \subset \mathcal{P}$ the set of particles destroyed at $x$ and by $\operatorname{out}(x)$ the set of particles created at $x$.
+
+The collection $\mathcal{P}$ is \textbf{consistent} (or obeys the collision conservation laws) iff at every collision event $x$:
+\begin{enumerate}
+\item[(a)] \textbf{Conservation of total 4-momentum:}
+$$\sum_{\gamma \in \operatorname{in}(x)} \gamma_* = \sum_{\gamma \in \operatorname{out}(x)} \gamma_*,$$
+where each $\gamma_*$ is evaluated at the appropriate endpoint.
+\item[(b)] \textbf{Conservation of total electric charge:}
+$$\sum_{(\gamma,m,e) \in \operatorname{in}(x)} e = \sum_{(\gamma,m,e) \in \operatorname{out}(x)} e.$$
+\end{enumerate}

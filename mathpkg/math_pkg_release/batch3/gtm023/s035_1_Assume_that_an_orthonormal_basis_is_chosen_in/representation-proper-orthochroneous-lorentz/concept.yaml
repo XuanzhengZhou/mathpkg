@@ -1,0 +1,23 @@
+id: representation-proper-orthochroneous-lorentz
+title_en: "Representation of Every Proper Orthochroneous Lorentz Transformation as T_alpha"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [Lorentz-transformation, proper, orthochroneous, representation, SL(2,C), spinor]
+depends_on:
+  required: [lorentz-transformation-T-alpha-on-S, T-alpha-proper-orthochroneous, isomorphism-between-Q-and-S, fixed-point-characterization-T-alpha]
+  recommended: [Lorentz-group, Minkowski-space, spin-representation]
+  suggested: [SL(2,C)-to-SO+(1,3)-homomorphism]
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XI"
+    section: "§5. Application to Lorentz-transformations, 11.20"
+    pages: "358–364"
+    role_in_book: "Main theorem: establishes the surjectivity of the map alpha → T_alpha onto the proper orthochroneous Lorentz group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

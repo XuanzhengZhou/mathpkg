@@ -1,0 +1,23 @@
+id: free-objects-adjointness-equivalence
+title_en: "Equivalence of Free Objects and Adjointness"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [adjointness, free-object, universal-property, category-theory, adjoint-functor]
+depends_on:
+  required: [adjointness, free-object, functor]
+  recommended: [natural-transformation, universal-mapping-property]
+  suggested: [cofree-objects-adjointness-equivalence, duality-principle-for-adjointness]
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.15"
+    pages: ""
+    role_in_book: "Theorem 2.18 establishes the fundamental equivalence: a functor U admits free objects over every object in its domain if and only if U is part of an adjointness. This theorem connects the universal property of free objects to the categorical concept of adjointness."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

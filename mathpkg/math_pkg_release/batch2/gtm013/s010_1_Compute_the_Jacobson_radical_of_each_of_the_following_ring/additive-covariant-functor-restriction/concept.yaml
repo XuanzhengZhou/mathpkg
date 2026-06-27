@@ -1,0 +1,23 @@
+id: additive-covariant-functor-restriction
+title_en: "Restriction of an Additive Covariant Functor is an Abelian Group Homomorphism"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: basic
+tags: [functor, additive, covariant, hom-functor, abelian-group]
+depends_on:
+  required: [additive-functor, covariant-functor]
+  recommended: [hom-functor]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "5"
+    section: "16"
+    pages: ""
+    role_in_book: "immediate consequence of additivity for covariant functors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

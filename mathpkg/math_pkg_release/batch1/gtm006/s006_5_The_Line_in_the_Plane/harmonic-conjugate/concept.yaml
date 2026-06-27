@@ -1,0 +1,23 @@
+id: harmonic-conjugate
+title_en: "Harmonic Conjugate"
+title_zh: "调和共轭"
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags: [harmonic-conjugate, cross-ratio, involution, projective-line]
+depends_on:
+  required: [cross-ratio]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II. Classical Projective Planes"
+    section: "5. The Line in the Plane"
+    pages: ""
+    role_in_book: "Two points are harmonic conjugates w.r.t. another pair if the cross-ratio is -1"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+A \textbf{deduction} of a formula $P$ from a set of formulas $\mathcal{E}$ (in a language $L$ in $\mathfrak{L}_1$) is a finite sequence of formulas
+
+$$P_1, P_2, \ldots, P_n = P$$
+
+with the property that for each $i$, one of the following holds:
+\begin{enumerate}
+\item $P_i \in \mathcal{E}$ (an hypothesis);
+\item $P_i$ is a logical axiom (a tautology or a quantifier axiom of $\text{Ax } L$);
+\item $P_i$ follows from earlier formulas $P_j, P_k$ (with $j, k < i$) by the rule of modus ponens (MP);
+\item $P_i = \forall x P_j$ follows from an earlier formula $P_j$ (with $j < i$) by the rule of generalization (Gen), provided $x$ does not occur freely in any formula of $\mathcal{E}$ used in deriving $P_j$.
+\end{enumerate}
+
+We write $\mathcal{E} \vdash P$ and say that $P$ is \textit{deducible} from $\mathcal{E}$.

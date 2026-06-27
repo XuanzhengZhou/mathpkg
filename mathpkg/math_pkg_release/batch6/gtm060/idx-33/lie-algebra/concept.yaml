@@ -1,0 +1,23 @@
+id: lie-algebra
+title_en: "Lie Algebra"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [lie-algebra, commutator, jacobi-identity, skew-symmetry, bilinear]
+depends_on:
+  required: [vector-space, bilinear-form]
+  recommended: [jacobi-identity, commutator-bracket]
+  suggested: [poisson-bracket-of-vector-fields]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "7"
+    section: "39"
+    pages: "220"
+    role_in_book: "Introduces the algebraic definition of a Lie algebra as the foundation for the Lie algebra of vector fields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

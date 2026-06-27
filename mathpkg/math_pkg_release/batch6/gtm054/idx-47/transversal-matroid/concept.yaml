@@ -1,0 +1,23 @@
+id: transversal-matroid
+title_en: "Transversal Matroid"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: matroid-theory
+difficulty: advanced
+tags: ["matroid", "transversal", "transversal-matroid", "independence-system"]
+depends_on:
+  required: []
+  recommended: ["transversals-form-independence-system", "transversal-definition"]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Graver, J. E. and Watkins, M. E."
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "X"
+    section: "E"
+    pages: ""
+    role_in_book: "Definition of the transversal matroid: a matroid whose independent sets are precisely the transversals of a given set system."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

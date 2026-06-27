@@ -1,0 +1,23 @@
+id: triangulated-3-manifolds-are-combinatorial
+title_en: "Every triangulated 3-manifold is a combinatorial 3-manifold"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [triangulated-3-manifold, combinatorial-3-manifold, invariance-of-domain, 3-simplex]
+depends_on:
+  required: [triangulated-n-manifold, combinatorial-3-manifold]
+  recommended: [star-of-vertex, link-of-vertex, combinatorial-equivalence]
+  suggested: [invariance-of-domain]
+source_books:
+  - book_id: gtm047
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: ""
+    section: "23"
+    pages: ""
+    role_in_book: "Fundamental theorem showing that the local combinatorial condition is automatically satisfied; all triangulated 3-manifolds are combinatorial."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

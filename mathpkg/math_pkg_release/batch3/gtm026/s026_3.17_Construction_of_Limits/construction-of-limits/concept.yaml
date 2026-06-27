@@ -1,0 +1,23 @@
+id: construction-of-limits
+title_en: "Construction of Limits and Colimits"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [limit, colimit, optimal-lift, concrete-category, forgetful-functor]
+depends_on:
+  required: []
+  recommended: [optimal-lift, concrete-category, limit-of-diagram, forgetful-functor]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "3"
+    section: "3.17 Construction of Limits"
+    pages: ""
+    role_in_book: "Defines when a forgetful functor constructs limits, a key property linking limits in a concrete category to limits in the base category via optimal lifts."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,25 @@
+id: braid-category
+title_en: "Braid Category B"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [braid-category, monoidal-category, strict-monoidal, braid-group]
+depends_on:
+  required: [artin-braid-group]
+  recommended: [monoidal-category, strict-monoidal-category]
+  suggested: [braided-monoidal-category, symmetric-monoidal-category]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    edition: "2nd"
+    year: 1998
+    chapter: "XI"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines the braid category as a key example of a strict monoidal category that is almost symmetric"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

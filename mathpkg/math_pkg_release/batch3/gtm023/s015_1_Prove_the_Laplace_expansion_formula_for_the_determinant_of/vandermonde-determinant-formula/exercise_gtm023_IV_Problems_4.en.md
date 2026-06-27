@@ -1,0 +1,25 @@
+---
+role: exercise
+locale: en
+chapter: "IV"
+section: "Problems"
+exercise_number: 4
+---
+
+Show that
+
+a) $$\det \begin{pmatrix}
+\ldots
+\end{pmatrix}$$
+
+and that
+
+$$\det \begin{pmatrix}
+1 & 1 & \ldots & 1 \\
+\lambda_1 & \lambda_2 & \ldots & \lambda_n \\
+\lambda_1^2 & \lambda_2^2 & \ldots & \lambda_n^2 \\
+\vdots & \vdots & \ddots & \vdots \\
+\lambda_1^{n-1} & \lambda_2^{n-1} & \ldots & \lambda_n^{n-1}
+\end{pmatrix} = \prod_{i>j} (\lambda_i - \lambda_j).$$
+
+(Vandermonde determinant.)

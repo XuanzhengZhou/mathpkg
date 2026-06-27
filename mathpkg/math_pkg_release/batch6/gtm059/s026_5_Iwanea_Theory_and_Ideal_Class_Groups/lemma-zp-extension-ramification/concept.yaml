@@ -1,0 +1,23 @@
+id: lemma-zp-extension-ramification
+title_en: "Ramification Lemma for $\mathbb{Z}_p$-extensions"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: intermediate
+tags: ["zp-extension", "ramification", "prime-ideals", "iwasawa-theory"]
+depends_on:
+  required: ["zp-extension", "ramification-theory"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "4"
+    pages: ""
+    role_in_book: "Characterizes ramification behavior in Z_p-extensions — only finitely many primes ramify, and those that do are totally ramified"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

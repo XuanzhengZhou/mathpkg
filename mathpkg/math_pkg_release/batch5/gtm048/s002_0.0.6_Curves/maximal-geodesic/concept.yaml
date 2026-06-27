@@ -1,0 +1,23 @@
+id: maximal-geodesic
+title_en: "Maximal (Inextendible) Geodesic"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: basic
+tags: [geodesic, inextendible, maximal, completeness]
+depends_on:
+  required: [geodesic, inextendible-curve]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "Sachs and Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "0"
+    section: "0.0.6"
+    pages: ""
+    role_in_book: "Defines geodesics that cannot be extended, a key notion for geodesic completeness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

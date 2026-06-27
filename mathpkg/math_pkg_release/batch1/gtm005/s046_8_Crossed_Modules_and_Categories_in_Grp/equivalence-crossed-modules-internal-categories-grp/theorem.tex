@@ -1,0 +1,8 @@
+A category object in $\mathbf{Grp}$ (an internal category in the category of groups) is essentially the same thing as a crossed module. Specifically, there is a one-to-one correspondence between:
+
+\begin{enumerate}
+\item Internal categories in $\mathbf{Grp}$: consisting of groups $C_0, C_1$ and group homomorphisms $d_0, d_1 : C_1 \rightarrow C_0$, $i : C_0 \rightarrow C_1$ satisfying $d_0 i = 1 = d_1 i$ and $[\ker d_0, \ker d_1] = 1$, with composition $\gamma(g, f) = f 1_b^{-1} g$.
+\item Crossed modules: pairs of groups $(H, P)$ with an action of $P$ on $H$ and a homomorphism $\alpha : H \rightarrow P$ satisfying the crossed module axioms.
+\end{enumerate}
+
+The correspondence is given by $H = \ker d_0$, $P = C_0$, and $\alpha = d_1|_{\ker d_0}$ in one direction, and conversely by $C_1 = P \ltimes H$ (or equivalent construction via the short exact sequence) in the other.

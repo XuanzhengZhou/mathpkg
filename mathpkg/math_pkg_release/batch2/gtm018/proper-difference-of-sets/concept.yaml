@@ -1,0 +1,23 @@
+id: proper-difference-of-sets
+title_en: "Proper Difference of Sets"
+title_zh: "集合的真差"
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [set-theory, difference, proper-inclusion]
+depends_on:
+  required: [set-difference, subset]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "I"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines proper difference: E - F is called proper if E ⊃ F"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

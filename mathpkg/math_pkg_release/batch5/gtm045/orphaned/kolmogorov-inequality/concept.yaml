@@ -1,0 +1,13 @@
+id: kolmogorov-inequality
+title_en: "Kolmogorov Inequality for Partial Sums"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: independence
+difficulty: intermediate
+tags: [kolmogorov, maximal-inequality, independent, tail-bound]
+depends_on: {required: ["bienayme-equality","tchebichev-inequality"], recommended: [], suggested: []}
+source_books: [{book_id:"gtm045",author:"Michel Loève",title:"Probability Theory I",chapter:"Part Three",section:"17.2 Bounds in terms of variances",pages:"",role_in_book:"Maximal inequality bounding the supremum of partial sums of independent r.v.s"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

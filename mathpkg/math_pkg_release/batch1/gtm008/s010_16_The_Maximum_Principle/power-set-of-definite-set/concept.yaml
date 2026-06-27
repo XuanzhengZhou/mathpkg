@@ -1,0 +1,23 @@
+id: power-set-of-definite-set
+title_en: "Power Set of a Definite Set in the Boolean-Valued Universe"
+title_zh: "确定集的幂集"
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: intermediate
+tags: [boolean-valued-universe, power-set, definite-set]
+depends_on:
+  required: [definite-set, subset-characterization-via-equality]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: ""
+    role_in_book: "Computes the Boolean power set of a definite set u as B^{D(u)} × {1}, establishing the set-theoretic nature of P(u) in V^(B)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

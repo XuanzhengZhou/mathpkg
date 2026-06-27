@@ -1,0 +1,23 @@
+id: set-algebra-from-model
+title_en: "Cylindric Set Algebra from a Model"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: cylindric-algebra
+difficulty: intermediate
+tags: [set-algebra, model, cylindric-algebra, homomorphism, algebraic-logic, model-theory]
+depends_on:
+  required: [lindenbaum-tarski-algebra-is-cylindric, homomorphism-of-cylindric-algebras]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "12"
+    section: "2"
+    pages: ""
+    role_in_book: "Proposition 12.24: The set of definable relations in a model forms a cylindric set algebra homomorphic image of the formula algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

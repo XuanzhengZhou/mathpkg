@@ -1,0 +1,23 @@
+id: dense-winding-line-irrational-torus
+title_en: "Dense Winding Line on the Torus for Irrational Slope"
+title_zh: "无理斜率环面上的稠密绕线"
+type: theorem
+domain: applied-math
+subdomain: dynamical-systems
+difficulty: intermediate
+tags: [torus, winding-line, irrational-flow, dense-orbit, poincare-recurrence, ergodic-theory]
+depends_on:
+  required: [poincares-recurrence-theorem]
+  recommended: [liouvilles-theorem]
+  suggested: [kroneckers-theorem]
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "B"
+    pages: "83-87"
+    role_in_book: "Application of Poincaré's recurrence theorem: constant flow on the torus is dense when frequency ratio is irrational"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: conformal-automorphisms-unit-disk
+title_en: "Conformal Automorphisms of the Unit Disk"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [schwarz-lemma, mobius-transformation, conformal-mapping, unit-disk, automorphism]
+depends_on:
+  required: [schwarz-lemma, mobius-transformation-phi-a]
+  recommended: [conformal-mapping, automorphism-group]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VI"
+    section: "2.5"
+    pages: ""
+    role_in_book: "Characterizes all one-to-one analytic maps of the unit disk onto itself as rotations composed with Möbius transformations φ_a"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

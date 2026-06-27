@@ -1,0 +1,23 @@
+id: gcd-of-cubic-fermat-factors
+title_en: "GCD Analysis of 2p and p^2 + 3q^2"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: diophantine-equations
+difficulty: intermediate
+tags: [gcd, coprime, divisibility-by-3, quadratic-form, cubic-fermat-equation]
+depends_on:
+  required: [algebraic-reduction-cubic-fermat]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.2"
+    pages: ""
+    role_in_book: "Shows that for coprime p,q of opposite parity, the only possible common divisor of 2p and p^2+3q^2 is 3, leading to a case split in Euler's proof."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

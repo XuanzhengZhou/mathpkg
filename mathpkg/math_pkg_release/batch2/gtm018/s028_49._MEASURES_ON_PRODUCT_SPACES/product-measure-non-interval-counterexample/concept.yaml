@@ -1,0 +1,23 @@
+id: product-measure-non-interval-counterexample
+title_en: "Counterexample to Theorem A for Non-Interval Spaces (Exercise 3)"
+title_zh: "非区间空间下定理A的反例"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [product-space, counterexample, kolmogorov-extension-theorem, thick-set, lebesgue-measure]
+depends_on:
+  required: [kolmogorov-extension-theorem, conditional-probability-zero-one-law, lebesgue-measure, thick-set]
+  recommended: [radon-measure, compactness-argument]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX"
+    section: "49"
+    pages: ""
+    role_in_book: "Exercise constructing a counterexample that shows Theorem A fails when spaces are not intervals, using thick sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

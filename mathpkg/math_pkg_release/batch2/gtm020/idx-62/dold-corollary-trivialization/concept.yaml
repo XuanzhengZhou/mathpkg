@@ -1,0 +1,23 @@
+id: dold-corollary-trivialization
+title_en: "Dold's Corollary on Fibre Homotopy Trivialization"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: fibre-bundles
+difficulty: intermediate
+tags: [dold, fibre-homotopy, trivial-bundle, cw-complex, homotopy-equivalence]
+depends_on:
+  required: [fibre-homotopy, dold-lemma-dn-morphism]
+  recommended: [locally-trivial-bundle, cw-complex, trivial-product-bundle]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "4"
+    pages: "238"
+    role_in_book: "Criterion for a bundle to be fibre homotopically equivalent to a trivial bundle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

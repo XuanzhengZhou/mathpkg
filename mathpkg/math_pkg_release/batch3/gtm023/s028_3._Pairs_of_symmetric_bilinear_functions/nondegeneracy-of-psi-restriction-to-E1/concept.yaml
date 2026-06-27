@@ -1,0 +1,23 @@
+id: nondegeneracy-of-psi-restriction-to-E1
+title_en: "Non-degeneracy of the restriction of a non-degenerate bilinear function to the orthogonal complement of a non-isotropic vector"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [symmetric-bilinear-form, nondegenerate, orthogonal-complement, restriction]
+depends_on:
+  required: [construction-of-minimizing-eigenvector]
+  recommended: [nondegenerate-bilinear-form]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "3. Pairs of symmetric bilinear functions"
+    pages: ""
+    role_in_book: "Section 9.15 — ensures the iterative construction can proceed"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

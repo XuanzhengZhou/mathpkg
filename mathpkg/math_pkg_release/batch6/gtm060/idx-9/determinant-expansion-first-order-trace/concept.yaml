@@ -1,0 +1,23 @@
+id: determinant-expansion-first-order-trace
+title_en: "First-Order Expansion of Determinant in Terms of Trace"
+title_zh: "行列式的一阶展开与迹"
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [determinant, trace, matrix-expansion, algebraic-identity, perturbation-theory]
+depends_on:
+  required: []
+  recommended: []
+  suggested: [jacobian-matrix, taylor-expansion]
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "B"
+    pages: "83-87"
+    role_in_book: "Algebraic lemma used to compute the derivative of volume under a flow"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

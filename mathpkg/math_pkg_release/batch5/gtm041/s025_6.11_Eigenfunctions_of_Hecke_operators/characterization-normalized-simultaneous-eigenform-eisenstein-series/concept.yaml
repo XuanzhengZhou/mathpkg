@@ -1,0 +1,23 @@
+id: characterization-normalized-simultaneous-eigenform-eisenstein-series
+title_en: "Characterization of normalized simultaneous eigenforms as Eisenstein series"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [hecke-operator, simultaneous-eigenform, eisenstein-series, fourier-coefficient, divisor-function]
+depends_on:
+  required: [simultaneous-eigenform, normalized-simultaneous-eigenform-multiplicative-property]
+  recommended: [eisenstein-series, divisor-function]
+  suggested: [bernoulli-numbers]
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.13"
+    pages: ""
+    role_in_book: "Theorem 6.16 — shows that in M_{2k}, the only normalized simultaneous eigenforms that are not cusp forms are constant multiples of Eisenstein series G_{2k}"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

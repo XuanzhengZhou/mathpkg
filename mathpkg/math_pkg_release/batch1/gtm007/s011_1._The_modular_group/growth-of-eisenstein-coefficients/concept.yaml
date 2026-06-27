@@ -1,0 +1,23 @@
+id: growth-of-eisenstein-coefficients
+title_en: "Growth of Fourier Coefficients of Eisenstein Series"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: ["eisenstein-series", "fourier-coefficients", "growth-estimate", "divisor-function"]
+depends_on:
+  required: ["eisenstein-series-q-expansion"]
+  recommended: ["asymptotic-analysis"]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Contrasts the growth of Eisenstein coefficients with cusp form coefficients (Theorem 5)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

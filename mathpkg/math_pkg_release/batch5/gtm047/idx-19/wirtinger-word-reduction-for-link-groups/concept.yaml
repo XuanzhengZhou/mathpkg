@@ -1,0 +1,23 @@
+id: wirtinger-word-reduction-for-link-groups
+title_en: "Wirtinger Word Reduction for Link Groups"
+title_zh: "链环群的Wirtinger字约化定理"
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [fundamental-group, link-complement, knot-theory, wirtinger-relations, word-reduction, free-group]
+depends_on:
+  required: [generators-of-link-complement-fundamental-group]
+  recommended: [free-group, homotopy, pl-topology]
+  suggested: [normal-subgroup, group-presentation, triangulation]
+source_books:
+  - book_id: "gtm047"
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "15"
+    section: "15"
+    pages: ""
+    role_in_book: "Provides the relations half of the Wirtinger presentation for the link group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

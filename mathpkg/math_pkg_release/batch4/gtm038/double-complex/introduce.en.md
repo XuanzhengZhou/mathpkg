@@ -1,0 +1,1 @@
+A double complex is a bigraded family of modules with two anticommuting differentials. The associated total complex and its spectral sequence are fundamental tools for computing sheaf cohomology via Cech resolutions.

@@ -1,0 +1,23 @@
+id: cyclic-subspace
+title_en: "Cyclic Subspace"
+title_zh: "循环子空间"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [cyclic-space, stable-subspace, linear-transformation, sigma-a-map]
+depends_on:
+  required: [cyclic-space, stable-subspace, sigma-a-map]
+  recommended: [induced-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines cyclic subspaces and the fundamental subspace E_a"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: weak-order-unit
+title_en: "Weak Order Unit"
+title_zh: "弱序单位"
+type: definition
+domain: analysis
+subdomain: ordered-vector-spaces
+difficulty: intermediate
+tags: [vector-lattice, order-unit, freudenthal]
+depends_on:
+  required: []
+  recommended: [vector-lattice, order-interval, band]
+  suggested: [quasi-interior-point]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "V: Order Structures"
+    section: "7. Each Perfect Space"
+    pages: ""
+    role_in_book: "introduces a weaker substitute for order units in vector lattices"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

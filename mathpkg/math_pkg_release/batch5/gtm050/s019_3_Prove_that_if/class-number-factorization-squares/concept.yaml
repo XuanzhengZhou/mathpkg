@@ -1,0 +1,23 @@
+id: class-number-factorization-squares
+title_en: "Class Number Factorization via Squares and Ambiguous Classes"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: quadratic-integer-divisor-theory
+difficulty: intermediate
+tags: [class-number, ambiguous-class, genus-theory, divisor-class-group]
+depends_on:
+  required: [ambiguous-divisor-class]
+  recommended: [class-number, divisor-class-group, genus-of-divisor-class]
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "7"
+    section: "7.11"
+    pages: "302-303"
+    role_in_book: "Key factorization linking class number, genera, squares, and ambiguous classes for Gauss's proof of quadratic reciprocity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

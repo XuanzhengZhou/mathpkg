@@ -1,0 +1,35 @@
+id: open-mapping-equivalences-metrizable
+title_en: "Open Mapping Equivalences for Metrizable Spaces"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags:
+  - locally-convex-space
+  - complete-metrizable-space
+  - relatively-open-mapping
+  - weak-topology
+  - weak-star-topology
+  - adjoint-operator
+  - open-mapping-theorem
+  - mackey-topology
+depends_on:
+  required: []
+  recommended:
+    - open-mapping-theorem
+    - closed-graph-theorem
+    - mackey-arens-theorem
+    - weak-star-closed-range
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "21"
+    section: "21.7"
+    pages: ""
+    role_in_book: "Theorem establishing equivalences between openness, weak openness, closed range, and adjoint properties for continuous linear transformations between complete metrizable and metrizable spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,9 @@
+Let $R$ be the relation of Proposition 10.21 (coding the set of subformulas). For any $m \in \omega$, $m$ is the Godel number of a tautology iff:
+
+$$\exists n \leq p_{\ln(m)}^{m \cdot \ln(m)} \; \big\{ n > 1 \text{ and } \forall p \leq m[(p, m) \in R \Rightarrow \exists i \leq \ln(n)(p = (n)_i)] \text{ and } \forall i \leq \ln[((n)_i, m) \in R] \text{ and } (n)_{\ln(n)} = m \text{ and }$$
+$$\forall f \leq p_{\ln(n)}^{m} [ \ln(f) = \ln(n) \text{ and } \forall i \leq \ln(f) [(f)_i = 1 \text{ or } (f)_i = 2] \text{ and }$$
+$$\forall i \leq \ln(f) \forall j \leq \ln(f) [\neg'(n)_j = (n)_i \Rightarrow ((f)_i = 2 \Leftrightarrow (f)_j = 1)] \text{ and }$$
+$$\forall i \leq \ln(f) \forall j \leq \ln(f) \forall k \leq \ln(f) [(n)_j \vee'(n)_k = (n)_i \Rightarrow ((f)_i = 2 \Leftrightarrow (f)_j = 2 \text{ or } (f)_k = 2)] \text{ and }$$
+$$\forall i \leq \ln(f) \forall j \leq \ln(f) \forall k \leq \ln(f) [(n)_j \wedge'(n)_k = (n)_i \Rightarrow ((f)_i = 2 \text{ iff } (f)_j = 2 \text{ and } (f)_k = 2)] \Rightarrow (f)_{\ln(f)} = 2] \big\}.$$
+
+Here $n$ codes the set $S$ of all subformulas of the formula with Godel number $m$, and $f$ codes a valuation on $S$ satisfying the truth-table conditions. The bounded quantifiers ensure the definition is recursive.

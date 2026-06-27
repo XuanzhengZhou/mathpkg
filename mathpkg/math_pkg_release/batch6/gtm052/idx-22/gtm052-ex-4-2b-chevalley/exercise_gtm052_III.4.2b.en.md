@@ -1,0 +1,11 @@
+---
+role: exercise
+locale: en
+chapter: "III"
+section: "4"
+exercise_number: "4.2(b)"
+---
+
+For any coherent sheaf $\mathcal{F}$ on $Y$, show that there is a coherent sheaf $\mathcal{G}$ on $X$, and a morphism $\beta: f_*\mathcal{G} \rightarrow \mathcal{F}^r$ which is an isomorphism at the generic point of $Y$.
+
+[Hint: Apply $\mathcal{H}\mathit{om}(\cdot, \mathcal{F})$ to $\alpha$ and use (II, Ex. 5.17e).]

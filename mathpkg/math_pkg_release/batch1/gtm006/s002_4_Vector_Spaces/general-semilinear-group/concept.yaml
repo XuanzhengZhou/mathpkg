@@ -1,0 +1,23 @@
+id: general-semilinear-group
+title_en: "General Semi-linear Group \Gamma L(V)"
+title_zh: "一般半线性群\Gamma L(V)"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [semilinear, group, automorphism, vector-space, collineation]
+depends_on:
+  required: [semilinear-transformation]
+  recommended: [general-linear-group]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "4. Vector Spaces"
+    pages: ""
+    role_in_book: "The full automorphism group of the projective geometry of V"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

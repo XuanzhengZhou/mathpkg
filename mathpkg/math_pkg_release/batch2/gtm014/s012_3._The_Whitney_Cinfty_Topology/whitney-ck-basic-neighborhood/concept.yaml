@@ -1,0 +1,23 @@
+id: whitney-ck-basic-neighborhood
+title_en: "Whitney C^k topology basic neighborhood"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [whitney-topology, jet-bundle, function-space, infinite-dimensional-topology]
+depends_on:
+  required: []
+  recommended: [jet-bundle, smooth-manifold, metric-compatible-with-topology]
+  suggested: [mather-topology, map-germ, transversality]
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "I. Preliminaries on Manifolds"
+    section: "3. The Whitney C∞ Topology"
+    pages: "54-57"
+    role_in_book: "Fundamental definition for the Whitney C^k topology on function spaces"
+content_hash: "4e0cd70d543362f50c4cff057b6c63acb6b9ac1e937509273cbab77258a93218"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

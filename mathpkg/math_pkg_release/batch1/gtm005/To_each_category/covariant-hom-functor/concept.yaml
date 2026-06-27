@@ -1,0 +1,23 @@
+id: covariant-hom-functor
+title_en: "Covariant Hom-Functor"
+title_zh: "协变Hom函子"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category-theory, hom-functor, representable-functor, yoneda]
+depends_on:
+  required: [category, hom-set]
+  recommended: [covariant-functor]
+  suggested: [yoneda-lemma]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "II"
+    section: "2"
+    pages: "47-49"
+    role_in_book: "Introduces the covariant hom-functor C(a,-) as a fundamental example of a functor into Set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

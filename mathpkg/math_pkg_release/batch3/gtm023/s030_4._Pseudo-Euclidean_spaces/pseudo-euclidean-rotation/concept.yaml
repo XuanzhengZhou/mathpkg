@@ -1,0 +1,23 @@
+id: pseudo-euclidean-rotation
+title_en: "Pseudo-Euclidean Rotation"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: pseudo-euclidean-geometry
+difficulty: intermediate
+tags: [pseudo-euclidean-rotation, linear-transformation, inner-product-preserving, orthochroneous]
+depends_on:
+  required: [pseudo-euclidean-space]
+  recommended: [euclidean-rotation, pseudo-orthogonal-matrix]
+  suggested: [fore-cone-past-cone]
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines pseudo-Euclidean rotations and their basic properties"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

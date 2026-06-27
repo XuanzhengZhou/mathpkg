@@ -1,0 +1,23 @@
+id: quasi-interior-point
+title_en: "Quasi-Interior Point of the Positive Cone"
+title_zh: "正锥的拟内点"
+type: definition
+domain: analysis
+subdomain: ordered-topological-vector-spaces
+difficulty: intermediate
+tags: [positive-cone, order-interval, total-subset, topological-vector-space]
+depends_on:
+  required: []
+  recommended: [ordered-tvs, order-interval, total-subset]
+  suggested: [weak-order-unit]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "V: Order Structures"
+    section: "7. Each Perfect Space"
+    pages: ""
+    role_in_book: "topological counterpart of weak order units"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

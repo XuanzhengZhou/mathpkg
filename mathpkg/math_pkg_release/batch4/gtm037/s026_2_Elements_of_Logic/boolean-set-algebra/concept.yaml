@@ -1,0 +1,13 @@
+id: boolean-set-algebra
+title_en: "Boolean Set Algebra"
+title_zh: "布尔集合代数"
+type: corollary
+domain: foundations
+subdomain: boolean-algebra
+difficulty: basic
+tags: [boolean-algebra, set-algebra, field-of-sets, ba]
+depends_on: {required: [boolean-algebra-axioms, field-of-sets], recommended: [], suggested: []}
+source_books: [{book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "9", section: "Elements of Logic", pages: "148-151", role_in_book: "Shows that every field of sets yields a Boolean algebra, the canonical example"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

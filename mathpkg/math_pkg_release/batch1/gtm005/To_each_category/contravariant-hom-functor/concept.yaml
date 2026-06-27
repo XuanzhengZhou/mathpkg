@@ -1,0 +1,23 @@
+id: contravariant-hom-functor
+title_en: "Contravariant Hom-Functor"
+title_zh: "反变Hom函子"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category-theory, hom-functor, contravariant-functor, yoneda]
+depends_on:
+  required: [opposite-category, hom-set, covariant-hom-functor]
+  recommended: [contravariant-functor]
+  suggested: [yoneda-lemma]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "II"
+    section: "2"
+    pages: "47-49"
+    role_in_book: "Introduces the contravariant hom-functor C(-,b) as the contravariant counterpart of the hom-functor construction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

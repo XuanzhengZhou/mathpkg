@@ -1,0 +1,23 @@
+id: estimates-for-z1-z2-and-chord
+title_en: "Estimates for z1, z2 and the Chord"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: analytic-number-theory
+difficulty: intermediate
+tags: [Ford-circles, Farey-series, Rademacher-path, modulus-estimate, chord-estimate]
+depends_on:
+  required: [ford-circle-mapping-under-z-transform]
+  recommended: [farey-series, farey-neighbors-property]
+  suggested: [rademacher-path-of-integration]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "5"
+    section: "5.6"
+    pages: ""
+    role_in_book: "Provides key modulus and chord-length estimates for bounding the error terms in Rademacher's contour integral"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: morita-duality-consequences
+title_en: "Consequences of Morita Duality Existence"
+title_zh: "Morita对偶存在的推论"
+type: theorem
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [morita-duality, ideal-lattice, center-isomorphism, reflexive-module, projective, injective]
+depends_on:
+  required: [morita-duality, characterization-of-morita-dualities]
+  recommended: [finitely-generated-module, finitely-cogenerated-module, projective-module, injective-module]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "24. Morita Dualities"
+    pages: ""
+    role_in_book: "Theorem 24.6"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

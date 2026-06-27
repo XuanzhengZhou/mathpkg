@@ -1,0 +1,25 @@
+id: left-composition-map
+title_en: "Left Composition Map (Induced Map k_*)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [hom-functor, composition, notation, k-star]
+depends_on:
+  required: [covariant-hom-functor]
+  recommended: [category, hom-set]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    edition: "2nd"
+    year: 1998
+    chapter: "I"
+    section: "2. Contravariance and Opposites"
+    pages: "47-49"
+    role_in_book: "Introduces standard notation k_* for the map induced by composing with k on the left"
+content_hash: "d782917fd9e27d71dac870d81617377f"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

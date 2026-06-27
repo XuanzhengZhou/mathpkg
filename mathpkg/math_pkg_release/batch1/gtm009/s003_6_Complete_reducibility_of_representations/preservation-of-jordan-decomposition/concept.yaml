@@ -1,0 +1,23 @@
+id: preservation-of-jordan-decomposition
+title_en: "Preservation of Jordan Decomposition"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: lie-algebra
+difficulty: advanced
+tags: [jordan-decomposition, semisimple, representation, abstract-jordan, lie-algebra]
+depends_on:
+  required: [semisimple-lie-algebra, weyls-complete-reducibility-theorem, jordan-decomposition]
+  recommended: [schurs-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "II"
+    section: "6"
+    pages: ""
+    role_in_book: "Shows that abstract Jordan decomposition is preserved under any finite dimensional representation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

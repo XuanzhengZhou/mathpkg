@@ -1,0 +1,23 @@
+id: fragment-of-graph
+title_en: "Fragment of a graph"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-connectivity
+difficulty: intermediate
+tags: [fragment, separating-set, connectivity, attachment-vertices]
+depends_on:
+  required: [vertex-connectivity, separating-set, neighborhood]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "Chapter V"
+    section: "Section 30"
+    pages: ""
+    role_in_book: "Defines a fragment as a subset W of vertices with nonempty interior and exterior whose neighborhood has size exactly kappa."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

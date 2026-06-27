@@ -1,0 +1,32 @@
+(Bounded Convergence Theorem).** Let $(X, S, \mu)$ be a finite measure space, and let $\{f_n\}$ be a sequence of complex-valued functions measurable $[\mu]$ on $X$. Suppose that $\{f_n\}$ converges a.e. to a function $f$, and that there exists a real number $M$ such that $|f_n| \leq M$ a.e. for every $n$. Then the functions $f_n$ and $f$ are integrable $[\mu]$,
+
+$$\lim_n \int_X |f_n -
+
+B. Let $(X, S)$ be a measurable space, let $(X, L, L)$ be a Lebesgue integral on $(X, S)$, and let $\mu$ be the measure associated with $L$ as in Theorem 7.6. Verify that if $E$ is a set in $S$ and $\alpha$ is a complex number such that $\alpha \neq 0$ then $\chi_{\chi_E}$ belongs to $L$ if and only if $\mu(E) < +\infty$, and use this fact to show that a measurable simple function $s$ on $X$ belongs to $L$ if and only if it vanishes on the complement of a set of finite measure. Conclude that for each simple function $s$ in $L$ there exist representations of the form $s = \sum_{i=1}^{n} \alpha_i \chi_{\chi_E}$, where $\mu(E_i) < +\infty$, $i = 1, \ldots, n$, and that, for any such representation, $L(s) = \sum_{i=1}^{n} \alpha_i \mu(E_i)$.
+
+(i) Let $(X, L', L')$ be a second Lebesgue integral on $(X, S)$, let $\mu'$ be the measure associated with $L'$ as in Theorem 7.6, and suppose $\mu(E) \leq \mu'(E)$, $E \in S$. Prove that $L' \subset L$ and that $L(f) \leq L'(f)$ for every nonnegative function $f$ in $L'$.
+
+(Hint: Use Propositions 6.6 and 7.2.)
+
+(ii) Verify the uniqueness assertion of Theorem 7.6 by showing that if $(X, S, \mu)$ is a measure space and $(X, L_1, L_1)$ and $(X, L_2, L_2)$ are Lebesgue integrals on $X$, each of which satisfies (6) with respect to $\mu$, then $L_1 = L_2$ and $L_1 = L_2$.
+
+C. If $(X, L, L)$ is a complex Lebesgue integral on a measurable space $X$, then, as noted in Example G, the restriction of $
+
+in $\mathbb{N}$ (recall Problem 6R). Show also that $\bigcup_{k=1}^{x} G_{m,k} = X$ for each $m$, and conclude that for each $m$ and for arbitrary positive $\varepsilon$ there exists a positive integer $k(m)$ such that $\mu(F_{m,k(m)}) < \varepsilon/2^m$. Set $F = \bigcup_{m=1}^{\infty} F_{m,k(m)}$, and show that $\mu(F) < \varepsilon$ and that $\{\Phi_n\}$ converges uniformly to $\Phi$ on $X \setminus F$.
+
+(ii) Use these observations to give a proof of Theorem 7.5. Conclude also that if $\{f_n\}$ is a sequence of measurable real-valued functions on $X$ converging point-wise to $+\infty$ in $\mathbb{R}^2$ on a set $E$ of finite measure, then for arbitrary positive $\varepsilon$ there exists a subset $F$ of $E$ such that $\mu(F) < \varepsilon$ and such that $\{f_n\}$ converges uniformly to $+\infty$ on $E \setminus F$.
+
+H. Show that an essentially bounded measurable function $f$ on a measure space $(X, S, \mu)$ is integrable $[\mu]$ if its support $N_f = \{x \in X : f(x) \neq 0\}$ has finite measure. If $f$ is bounded away from zero on $N_f$, the condition is both necessary and sufficient. (Thus, for example, as was noted in Problem B, a measurable simple function $s$ is integrable $[\mu]$ if and only if $\mu(N_s) < +\infty$.)
+
+I. Let $(X, S, \mu)$ be a measure space and let $f$ be an arbitrary complex-valued function defined on an arbitrary subset of $X$. Show that if $f$ is integrable $[\mu]$ over some measurable subset $E$ of $X$, and if $F$ is a measurable subset of $E$, then $f$ is also integrable $[\mu]$ over $F$. Let $R$ denote the collection of measurable sets over
+
+N. Let $(X, S, \mu)$ be a measure space, and suppose given a $\sigma$-ring $S_0$ contained in $S$ with the property that every set in $S$ is almost equal $[\mu]$ to some set in $S_0$. (In other words, for each set $E$ in $S$ there is a set $E_0$ in $S_0$ such that $\mu(E \nabla E_0) = 0$.) Show that every function measurable $[S]$ on $X$ is equal a.e. $[\mu]$ to a function that is measurable $[S_0]$. Hence for every integrable function $f$ on $(X, S, \mu)$ there is a function $f_0$ on $X$ that is equal to $f$ a.e. $[\mu]$ such that $f_0$ is integrable $[\mu|S_0]$ on $(X, S_0)$ and such that
+
+$$\int_X f \, d\mu = \int_X f_0 \, d(\mu|S_0).$$
+
+(Hint: Show that if $f$ is measurable $[S]$ and if $\varepsilon > 0$, then there exists a function $f_\varepsilon$ that is measurable $[S_0]$ and possesses the property that $|f - f_\varepsilon| \leq \varepsilon$ a.e. $[\mu]$. Construct a sequence of functions.)
+
+O. Let $(X, S, \mu)$ be a measure space, and let $f$ be nonnegative function defined and measurable on $X$ and having $\sigma$-finite support (Prob. J). Consider the supremum $M$ in $\mathbb{R}^n$ of the set of all integrals $\int s \, d\mu$ of integrable simple functions $s$ such that $0 \leq s \leq f$. Show that $f$ is integrable if and only if $M < +\infty$ and that in this case $M = \int f \, d\mu$. (This fact is exploited in many textbooks on integration theory to construct the Lebesgue integral with respect to a given measure $\mu$.) Show also that the supremum $M$ can be finite even if
+
+Then $f$ is integrable $[\mu]$ if and only if 
+...

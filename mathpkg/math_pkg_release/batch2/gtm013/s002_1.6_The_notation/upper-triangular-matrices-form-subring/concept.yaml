@@ -1,0 +1,23 @@
+id: upper-triangular-matrices-form-subring
+title_en: "Upper Triangular Matrices Form a Subring"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [triangular-matrix, subring, matrix-ring, upper-triangular]
+depends_on:
+  required: [upper-triangular-matrix, column-finite-matrix]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "1.14"
+    pages: ""
+    role_in_book: "States that upper/lower triangular matrices form subrings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

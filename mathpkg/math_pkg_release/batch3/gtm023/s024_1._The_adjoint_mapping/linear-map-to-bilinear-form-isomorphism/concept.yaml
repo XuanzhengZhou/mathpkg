@@ -1,0 +1,23 @@
+id: linear-map-to-bilinear-form-isomorphism
+title_en: "Isomorphism between Linear Transformations and Bilinear Forms via Inner Product"
+title_zh: "内积诱导的线性变换与双线性型的同构"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [linear-transformation, bilinear-form, isomorphism, inner-product-space, riesz-representation]
+depends_on:
+  required: [inner-product-space, linear-transformation, bilinear-form]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VIII"
+    section: "§1. The adjoint mapping"
+    pages: ""
+    role_in_book: "Establishes the fundamental correspondence between operators and bilinear forms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

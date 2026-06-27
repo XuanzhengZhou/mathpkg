@@ -1,0 +1,13 @@
+$(ab)(x) = \sum_{k=0}^{\infty} \left( \sum_{j=0}^{k} a_j b_{k-j} \right) x^k$
+
+which is clearly commutative. To verify that it is associative, let $a, b, c \in \mathbb{C}^N$ and observe that by A3 the term $(ab)c_n$ is
+
+$$\sum_{k=0}^{n} (ab)_k c_{n-k} = \sum_{k=0}^{n} \left( \sum_{j=0}^{k} a_j b_{k-j} \right) c_{n-k}$$
+
+$$= \sum_{j=0}^{n} \sum_{k=j}^{n} a_j b_{k-j} c_{n-k}$$
+
+$$= \sum_{j=0}^{n} a_j \sum_{k=0}^{n-j} b_k c_{n-(j+k)}$$
+
+$$= \sum_{j=0}^{n} a_j (bc)_{n-j}$$
+
+which is precisely $(a(bc))_n$. The multiplicative identity 1 is the sequence that assigns 1 to 0 and assigns 0 to everything else. One can straightforwardly verify that multiplication distributes over addition and that $(z(ab))(x) = ((za)b)(x)$ for all $z \in \mathbb{C}$ and $a, b \in \mathbb{C}^N$. We thus obtain the standard algebraic result:

@@ -1,0 +1,23 @@
+id: completeness-criterion
+title_en: "Theorem 21.32: Purely mathematical condition for completeness of a theory"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [completeness, theory, finitely-generated-substructure, embedding, model-completeness]
+depends_on:
+  required: []
+  recommended: [complete-theory, finitely-generated-substructure, embedding, model-complete]
+  suggested: [substructure, elementary-submodel, universal-formula]
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "21"
+    section: "4"
+    pages: ""
+    role_in_book: "Provides a purely mathematical (non-syntactic) sufficient condition for a theory to be complete, crowning the chapter on model completeness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

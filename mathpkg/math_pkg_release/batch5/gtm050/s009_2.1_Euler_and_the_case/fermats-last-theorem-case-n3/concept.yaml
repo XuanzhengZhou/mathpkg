@@ -1,0 +1,23 @@
+id: fermats-last-theorem-case-n3
+title_en: "Fermat's Last Theorem, Case n = 3"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-equations
+difficulty: advanced
+tags: [fermat-last-theorem, euler, cubic-diophantine-equation, infinite-descent]
+depends_on:
+  required: []
+  recommended: [infinite-descent-principle, unique-factorization-in-z, basic-number-theory]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.1-2.2"
+    pages: ""
+    role_in_book: "Euler's proof that the cubic case of Fermat's Last Theorem has no nontrivial solutions, presented as a historical introduction to the method of infinite descent and the arithmetic of quadratic forms a^2+3b^2."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

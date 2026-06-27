@@ -1,0 +1,23 @@
+id: regular-permutation-group
+title_en: "Regular Permutation Group"
+title_zh: "正则置换群"
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [regular, permutation-group, transitive, semiregular]
+depends_on:
+  required: [transitive-permutation-group]
+  recommended: [semiregular-permutation-group]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "1. Introduction"
+    pages: ""
+    role_in_book: "A transitive permutation group where only the identity fixes any point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

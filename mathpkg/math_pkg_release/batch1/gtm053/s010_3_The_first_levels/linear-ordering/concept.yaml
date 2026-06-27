@@ -1,0 +1,23 @@
+id: linear-ordering
+title_en: "Linear Ordering"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: order-theory
+difficulty: basic
+tags: [linear-order, total-order, binary-relation, comparability]
+depends_on:
+  required: [partial-ordering]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yuri I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "1"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines linear ordering via irreflexivity and comparability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

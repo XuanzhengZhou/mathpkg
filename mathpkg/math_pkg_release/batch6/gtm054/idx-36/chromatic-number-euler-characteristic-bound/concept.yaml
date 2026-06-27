@@ -1,0 +1,23 @@
+id: chromatic-number-euler-characteristic-bound
+title_en: "Chromatic Number Bound via Euler Characteristic and Genus"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: graph-theory
+difficulty: advanced
+tags: [chromatic-number, euler-characteristic, genus, nonplanar-graph, heawood-bound]
+depends_on:
+  required: []
+  recommended: [euler-characteristic-of-graph, genus-of-graph, chromatic-number, heawood-function]
+  suggested: [heawood-theorem, four-color-theorem]
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "VII"
+    section: "D"
+    pages: "214-216"
+    role_in_book: "core-result"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

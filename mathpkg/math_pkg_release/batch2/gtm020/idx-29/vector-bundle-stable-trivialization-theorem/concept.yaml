@@ -1,0 +1,23 @@
+id: vector-bundle-stable-trivialization-theorem
+title_en: "Stable Trivialization Theorem for Vector Bundles"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundle, stable-trivialization, trivial-bundle, CW-complex, basis-theorem]
+depends_on:
+  required: [trivial-summand-existence-for-vector-bundles]
+  recommended: [vector-bundle, cw-complex]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "9"
+    section: "1"
+    pages: ""
+    role_in_book: "The main decomposition theorem: every vector bundle over an n-dim CW-complex is stably equivalent to a bundle of bounded dimension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

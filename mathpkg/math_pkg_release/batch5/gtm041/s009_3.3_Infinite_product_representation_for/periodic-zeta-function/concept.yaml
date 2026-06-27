@@ -1,0 +1,23 @@
+id: periodic-zeta-function
+title_en: "Periodic Zeta Function"
+title_zh: "周期ζ函数"
+type: definition
+domain: number-theory
+subdomain: analytic-number-theory
+difficulty: intermediate
+tags: [periodic-zeta, hurwitz-zeta, fourier-series, lerch-transcendent]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "3"
+    section: "3.5"
+    pages: ""
+    role_in_book: "Definition of F(x,s), used alongside Hurwitz zeta in the proof of Iseki's formula"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

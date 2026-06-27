@@ -1,0 +1,23 @@
+id: edge-in-at-most-two-2-simplexes
+title_en: "Every Edge Lies in at Most Two 2-Simplexes"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: combinatorial-topology
+difficulty: intermediate
+tags: [triangulated-2-manifold, edge, 2-simplex, combinatorial-manifold]
+depends_on:
+  required: []
+  recommended: [edge-in-at-least-two-2-simplexes]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "4"
+    section: "8"
+    pages: ""
+    role_in_book: "Shows that no edge can belong to three or more 2-simplexes in a 2-manifold"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

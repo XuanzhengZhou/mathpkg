@@ -1,0 +1,23 @@
+id: higher-contact-manifold-bundle
+title_en: "Higher Contact Manifold as Fiber Bundle over Grassmannian"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [higher-contact, jet-space, grassmannian, fiber-bundle, singularity-theory, submanifold-germ]
+depends_on:
+  required: [contact-of-submanifold-germs]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky and Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "II"
+    section: "3"
+    pages: "184-185"
+    role_in_book: "Establishes the manifold structure of the space of k-th order contact elements, used to define contact classes as submanifolds of jet bundles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

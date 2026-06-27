@@ -1,0 +1,23 @@
+id: m-elementary-extension
+title_en: "m-Elementary Extension and m-Elementary Substructure"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [elementary-extension, elementary-substructure, m-elementary, dana-scott, decidability]
+depends_on:
+  required: [elementary-extension, elementary-substructure]
+  recommended: [quantifier-rank, formula-complexity]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "21"
+    section: "4"
+    pages: ""
+    role_in_book: "Modified notion of elementary equivalence used for proving decidability and completeness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

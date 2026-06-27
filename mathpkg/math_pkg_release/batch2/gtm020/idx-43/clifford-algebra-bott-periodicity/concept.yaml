@@ -1,0 +1,23 @@
+id: clifford-algebra-bott-periodicity
+title_en: "Bott Periodicity: C_{k+8} ≅ C_k ⊗ R(16) and C'_{k+8} ≅ C'_k ⊗ R(16)"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: clifford-algebras
+difficulty: intermediate
+tags: [clifford-algebra, bott-periodicity, periodicity, matrix-algebra, tensor-product]
+depends_on:
+  required: [clifford-algebra-low-dim-tensor-isomorphism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "5"
+    section: "5.8"
+    pages: ""
+    role_in_book: "The fundamental periodicity theorem for real Clifford algebras, foundational for K-theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

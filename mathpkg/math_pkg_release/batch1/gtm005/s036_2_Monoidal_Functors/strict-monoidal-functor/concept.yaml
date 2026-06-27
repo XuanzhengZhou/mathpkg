@@ -1,0 +1,23 @@
+id: strict-monoidal-functor
+title_en: "Strict Monoidal Functor"
+title_zh: "严格幺半函子"
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [monoidal-category, monoidal-functor, identity, strict]
+depends_on:
+  required: [monoidal-functor]
+  recommended: [strict-monoidal-category]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "2. Monoidal Functors"
+    pages: ""
+    role_in_book: "Defines monoidal functors whose coherence maps are identities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

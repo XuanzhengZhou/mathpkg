@@ -1,0 +1,23 @@
+id: forward-step
+title_en: "Forward Step in Semigroup Presentation"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability-theory
+difficulty: basic
+tags: [semigroup, word-problem, turing-machine, substitution, relation]
+depends_on:
+  required: [semigroup-presentation-from-turing-machine]
+  recommended: [word-problem]
+  suggested: []
+source_books:
+  - book_id: gtm022
+    author: "D. W. Barnes, J. M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "7"
+    section: "2. Word Problems"
+    pages: "112"
+    role_in_book: "Defines the forward substitution operation that models one step of Turing machine computation in the semigroup."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,5 @@
+The \textbf{Poisson process} $X_t(w)$, $0 \leq t < \infty$, is a process with independent increments where $X_t - X_\tau$, $t > \tau$, is Poisson distributed with mean $\lambda(t - \tau)$.
+
+Thus
+$$P(X_t = j_1, \ldots, X_{t_k} = j_k) = \frac{(\lambda t_1)^{j_1} e^{-\lambda t_1}}{j_1!} \prod_{u=1}^{k-1} \frac{[\lambda(t_{u+1} - t_u)]^{j_{u+1} - j_u}}{(j_{u+1} - j_u)!} e^{-\lambda(t_{u+1} - t_u)}$$
+for $0 \leq j_1 \leq \cdots \leq j_k$.

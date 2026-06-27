@@ -1,0 +1,15 @@
+\begin{definition}
+Let $A$ be a Lubin-Tate formal group over the ring of integers $\mathcal{O}_K$ of a local field $K$, and let $\pi$ be a uniformizer. Let $K_0 = K(A[\pi^n])$ be the extension obtained by adjoining the $\pi^n$-torsion points of $A$. Let $\mathcal{O}_0$ be the ring of integers in $K_0$, and let $\mathfrak{m}_0$ be its maximal ideal.
+
+For $x \in A(\mathfrak{m}_0)$ and $a \in K^{*}$, choose $t \in A(\mathfrak{m}_0)$ such that $[\pi^n]_A(t) = x$ (where $[\pi^n]_A$ denotes the endomorphism of $A$ corresponding to $\pi^n$), and define the Kummer pairing symbol
+$$\langle x, a \rangle_{A,\pi,n} = r_a(t) -_A t$$
+where $r_a$ is the reciprocity automorphism of $K_0$ over $K$ associated to $a$, and $-_{A}$ denotes subtraction in the formal group $A$.
+
+This pairing takes values in $A[\pi^n]$, the group of $\pi^n$-torsion points of $A$, and is independent of the choice of $t$ with $[\pi^n]_A(t) = x$.
+\end{definition}
+
+\begin{example}
+For the formal multiplicative group $A = \widehat{\mathbb{G}}_m$ (with $[\pi]_A(X) = (1+X)^{\pi} - 1$), the Kummer pairing recovers the classical norm residue symbol. Specifically, for $a \in K^{*}$ and $b \in K^{*}$ with $b$ sufficiently close to $1$, one has
+$$\langle b-1, a \rangle_{\widehat{\mathbb{G}}_m,\pi,n} = \zeta^{\nu(a,b)} - 1$$
+where $\zeta$ is a primitive $\pi^n$-th root of unity and $\nu(a,b)$ is the classical Hilbert symbol.
+\end{example}

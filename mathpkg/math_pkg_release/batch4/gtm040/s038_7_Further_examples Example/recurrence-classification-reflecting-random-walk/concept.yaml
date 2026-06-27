@@ -1,0 +1,23 @@
+id: recurrence-classification-reflecting-random-walk
+title_en: "Recurrence Classification of Reflecting Random Walk"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [reflecting-random-walk, recurrence, transience, null-recurrence, positive-recurrence]
+depends_on:
+  required: [reflecting-random-walk, asymptotic-return-probability-reflecting-walk]
+  recommended: [recurrence-classification]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "Kemeny, Snell, Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "7"
+    section: "7. Further examples"
+    pages: ""
+    role_in_book: "Complete recurrence/transience classification for the reflecting random walk"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

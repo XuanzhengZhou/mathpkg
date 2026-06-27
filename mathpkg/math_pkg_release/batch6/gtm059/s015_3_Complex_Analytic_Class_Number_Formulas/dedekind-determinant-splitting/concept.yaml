@@ -1,0 +1,23 @@
+id: dedekind-determinant-splitting
+title_en: "Dedekind Determinant Splitting"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: group-determinants
+difficulty: advanced
+tags: [dedekind-determinant, group-determinant, factorization, character-sum]
+depends_on:
+  required: [dedekind-determinant-formula]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3. Complex Analytic Class Number Formulas"
+    section: "6"
+    pages: ""
+    role_in_book: "Factorizes the Dedekind determinant further by splitting the character sum"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

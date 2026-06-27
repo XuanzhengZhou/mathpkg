@@ -1,0 +1,22 @@
+Let $\mathcal{L}$ be a language with a single binary relation symbol $\mathbf{R}$, and let
+$$
+\Gamma = \{\varphi \in \text{Sent}_{\mathcal{L}} : \Theta \models \varphi\},
+\quad\text{where}\quad
+\Theta = \{\forall v_0 \forall v_1 (\mathbf{R}v_0v_1 \rightarrow \mathbf{R}v_1v_0)\}.
+$$
+Let $\mathcal{L}'$ be a language with two binary relation symbols $\mathbf{L}$ and $\mathbf{M}$, and let
+$$
+\Gamma' = \{\varphi \in \text{Sent}_{\mathcal{L}'} : \Omega \models \varphi\},
+$$
+where $\Omega$ consists of the axioms for two equivalence relations:
+$$
+\begin{aligned}
+&\forall v_1 \mathbf{L}v_0v_0; \\
+&\forall v_0 \forall v_1 (\mathbf{L}v_0v_1 \rightarrow \mathbf{L}v_1v_0); \\
+&\forall v_0 \forall v_1 \forall v_2 (\mathbf{L}v_0v_1 \wedge \mathbf{L}v_1v_2 \rightarrow \mathbf{L}v_0v_2); \\
+&\forall v_0 \mathbf{M}v_0v_0; \\
+&\forall v_0 \forall v_1 (\mathbf{M}v_0v_1 \rightarrow \mathbf{M}v_1v_0); \\
+&\forall v_0 \forall v_1 \forall v_2 (\mathbf{M}v_0v_1 \wedge \mathbf{M}v_1v_2 \rightarrow \mathbf{M}v_0v_2).
+\end{aligned}
+$$
+Then $\Gamma$ and $\Gamma'$ are finitely inseparable.

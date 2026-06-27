@@ -1,0 +1,23 @@
+id: girth-of-multigraph
+title_en: "Girth of a multigraph"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: multigraph-cycles
+difficulty: basic
+tags: [girth, multigraph, cycle, forest]
+depends_on:
+  required: [multigraph, cycle, forest]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "Chapter VI"
+    section: "Section 30"
+    pages: ""
+    role_in_book: "Defines the girth γ(Γ) as the size of a smallest nonempty cycle, with γ(Γ)=∞ for forests."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

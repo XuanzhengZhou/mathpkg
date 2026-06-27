@@ -1,0 +1,23 @@
+id: ck-intersection-of-all-free-ideals
+title_en: "C_K(N) is the Intersection of All Free Ideals"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [free-ideal, finitely-supported-functions, C(N), C*(N), intersection-of-ideals]
+depends_on:
+  required: [free-ideal, ck-is-free-ideal]
+  recommended: [C-star-of-N]
+  suggested: [maximal-ideal]
+source_books:
+  - book_id: "gtm043"
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4.3"
+    pages: "65"
+    role_in_book: "Fundamental characterization: the ideal of finitely supported functions equals the intersection of all free ideals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

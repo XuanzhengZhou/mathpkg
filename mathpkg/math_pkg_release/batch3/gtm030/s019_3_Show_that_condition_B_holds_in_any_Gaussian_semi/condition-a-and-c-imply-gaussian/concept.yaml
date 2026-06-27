@@ -1,0 +1,23 @@
+id: condition-a-and-c-imply-gaussian
+title_en: "Conditions A and C Imply Gaussian"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: semi-group-theory
+difficulty: intermediate
+tags: [gaussian-semi-group, unique-factorization, condition-a, condition-c, gcd]
+depends_on:
+  required: [condition-a-factorization, condition-c-gcd-existence, coprime-to-factors-implies-coprime-to-product]
+  recommended: [condition-b-prime, gaussian-semi-group]
+  suggested: [distributivity-of-gcd, associativity-of-gcd]
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 1: A commutative semi-group satisfying A and C is Gaussian"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

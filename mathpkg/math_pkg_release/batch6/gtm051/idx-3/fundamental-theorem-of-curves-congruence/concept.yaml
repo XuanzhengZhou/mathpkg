@@ -1,0 +1,23 @@
+id: fundamental-theorem-of-curves-congruence
+title_en: "Fundamental Theorem of Curves: Congruence from Curvatures"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [frenet-frame, curvature, congruence, fundamental-theorem, curve-theory]
+depends_on:
+  required: [ith-curvature-distinguished-frenet-frame, invariance-frenet-connection-forms-congruence]
+  recommended: [ordinary-differential-equations, linear-system-uniqueness]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Thierry Aubin"
+    title: "A Course in Differential Geometry"
+    chapter: "1"
+    section: "1.3"
+    pages: "22-25"
+    role_in_book: "Fundamental theorem: Two curves in R^n with the same curvatures and speed are congruent via a proper isometry"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

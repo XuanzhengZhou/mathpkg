@@ -1,0 +1,28 @@
+id: x-automaton
+title_en: "X-Automaton"
+title_zh: "X-自动机"
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags:
+  - automaton
+  - dynamics
+  - process
+  - state-machine
+depends_on:
+  required:
+    - category-of-dynamics
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.3 Input Processes and Output Processes"
+    pages: ""
+    role_in_book: "Formal definition of an automaton in a category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: dual-statement
+title_en: "Dual Statement"
+title_zh: "对偶陈述"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [duality, dual-statement, opposite-category, arrow-reversal]
+depends_on:
+  required: [elementary-theory-of-abstract-category]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "II"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the dual of a statement in ETAC by reversing all arrows."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

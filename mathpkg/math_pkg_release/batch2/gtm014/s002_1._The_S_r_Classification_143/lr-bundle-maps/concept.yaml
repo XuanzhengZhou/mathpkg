@@ -1,0 +1,23 @@
+id: lr-bundle-maps
+title_en: "L^r(E,F) — Bundle Maps of Corank r"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: intermediate
+tags: [vector-bundle, corank, fiber-bundle, jet-space]
+depends_on:
+  required: [lr-linear-maps-corank, pi-star-proper-immersion]
+  recommended: [vector-bundle, associated-fiber-bundle]
+  suggested: [sr-submanifold-in-jet-space]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "Chapter VI: Classification of Singularities, Part I: The Thom-Boardman Invariants"
+    section: "§1. The S_r Classification"
+    pages: "145"
+    role_in_book: "Extends L^r(V,W) to vector bundles, needed to prove S_r is a submanifold of J^1(X,Y)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

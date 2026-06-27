@@ -1,0 +1,17 @@
+id: regular-ultrafilter-existence
+title_en: "Existence of a Regular Ultrafilter over the Set of Finite Subsets"
+title_zh: "有限子集上正则超滤子的存在性"
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [regular-ultrafilter, finite-intersection-property, ultraproduct, cardinality]
+depends_on:
+  required: []
+  recommended: [ultrafilter, finite-intersection-property]
+  suggested: [compactness-theorem, los-theorem]
+source_books:
+  - {book_id: "gtm037", author: "Ebbinghaus, Flum, Thomas", title: "Mathematical Logic", chapter: "18", section: "Model Theory", pages: "", role_in_book: "Construction of a regular ultrafilter over finite subsets (Proposition 18.36)"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

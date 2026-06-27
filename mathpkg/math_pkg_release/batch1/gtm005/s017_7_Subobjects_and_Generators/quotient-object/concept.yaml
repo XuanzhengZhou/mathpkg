@@ -1,0 +1,23 @@
+id: quotient-object
+title_en: "Quotient Object"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [quotient-object, epimorphism, equivalence-class, dual-notion]
+depends_on:
+  required: [epimorphism, subobject, factorization]
+  recommended: [dual-category]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V. Limits"
+    section: "7. Subobjects and Generators"
+    pages: ""
+    role_in_book: "Defines the dual categorical notion of quotient object via epis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

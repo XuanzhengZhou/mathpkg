@@ -1,0 +1,23 @@
+id: abstract-nonsingular-curve
+title_en: "Abstract Nonsingular Curve"
+title_zh: "抽象非奇异曲线"
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [abstract-curve, nonsingular-curve, discrete-valuation-ring, function-field, cofinite-topology]
+depends_on:
+  required: [discrete-valuation-ring, function-field]
+  recommended: [abstract-nonsingular-curve-topology]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "6"
+    pages: "59"
+    role_in_book: "Central definition: the abstract curve C_K as the set of all DVRs of K/k"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

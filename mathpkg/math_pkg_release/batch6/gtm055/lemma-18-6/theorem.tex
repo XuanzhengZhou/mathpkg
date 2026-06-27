@@ -1,0 +1,21 @@
+A self-conjugate subalgebra $\mathcal{A}$ of $\mathcal{C}(X)$
+
+is the Taylor series of the function $\sqrt{1 + \lambda}$ and therefore converges to $\sqrt{1 + \lambda}$ for $|\lambda| < 1$ (see Example 5J and Problem 5R). Since all of the factors $(\frac{1}{2} - k)$ in the numerator of $\binom{1/2}{n}$ are negative except the first, it is clear that if we define
+
+$$A_n = \left| \binom{\frac{1}{2}}{n} \right|,$$
+
+then
+
+$$\binom{\frac{1}{2}}{n} = (-1)^{n+1} A_n$$
+
+for all $n$ except $n = 0$. Hence, if $s_n$ denotes the $n$th partial sum of the series (7), and if we define $p_n(\lambda) = s_n(-\lambda)$, then
+
+$$p_n(\lambda) \equiv 1 - \sum_{k=1}^{n} A_k \lambda^k$$
+
+and the sequence $\{p_n(\lambda)\}$ converges to $\sqrt{1 - \lambda}$ for all $|\lambda| < 1$. In particular, if $t$ is real and $0 \leq t < 1$, then
+
+$$1 - \sum_{n=1}^{\infty} A_n t^n = \sqrt{1 - t}.$$
+
+It follows that $p_n(t) \geq 0$ for all $n$ and all $0 \leq t < 1$, and hence, by continuity, that $p_n(1) \geq 0$ for all $n$. Suppose now that $\varepsilon$ is a given positive number. We first choose a number $t_0$, $0 < t_0 < 1$, such that $\sqrt{1 - t_0} < \varepsilon/2$, and then a positive integer $n_0$ such that $p_{n_0}(t_0) < \varepsilon$. Then for $t_0 \leq t \leq 1$ and for all $n \geq n_0$, we have
+
+$$0 \leq \sqrt{1 - t} \leq p_n(t) \leq p_{n_0}(t) \leq p_{n_0}(t_

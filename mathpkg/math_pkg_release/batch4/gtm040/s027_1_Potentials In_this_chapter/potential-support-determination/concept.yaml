@@ -1,0 +1,13 @@
+id: potential-support-determination
+title_en: "Determination of a Potential by its Values on the Support (Proposition 8-19)"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [potential-theory, transient-chains, support, charge]
+depends_on: {required: [potential-game-decomposition, fundamental-matrix-reduced-chain], recommended: [], suggested: []}
+source_books: [{book_id: "gtm040", author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp", title: "Denumerable Markov Chains", chapter: "8", section: "1", pages: "", role_in_book: "Shows that a potential with support in E is determined by its restriction to E, and its charge is (I-P^E)g_E"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

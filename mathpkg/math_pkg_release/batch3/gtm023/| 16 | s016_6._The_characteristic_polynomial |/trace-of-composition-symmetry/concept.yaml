@@ -1,0 +1,23 @@
+id: trace-of-composition-symmetry
+title_en: "Symmetry of Trace under Composition"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [trace, composition, cyclic-property]
+depends_on:
+  required: [trace-of-linear-transformation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§7. The trace"
+    pages: "4.23"
+    role_in_book: "Establishes the fundamental cyclic property tr(ψ∘φ)=tr(φ∘ψ)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

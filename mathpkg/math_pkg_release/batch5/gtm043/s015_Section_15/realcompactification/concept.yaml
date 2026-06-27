@@ -1,0 +1,23 @@
+id: realcompactification
+title_en: "Realcompactification"
+title_zh: "实紧化"
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: intermediate
+tags: [realcompactification, realcompact, dense-embedding, C-embedded, vX]
+depends_on:
+  required: [realcompact-space, dense-subspace]
+  recommended: [compactification, C-embedded, stone-cech-compactification]
+  suggested: [hewitt-realcompactification-vx]
+source_books:
+  - book_id: gtm043
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "8"
+    section: "8.4"
+    pages: ""
+    role_in_book: "Defines realcompactification analogously to compactification"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

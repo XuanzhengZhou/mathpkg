@@ -1,0 +1,23 @@
+id: canonical-sheaf-of-subvariety
+title_en: "Canonical Sheaf of a Nonsingular Subvariety"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [canonical-sheaf, nonsingular-subvariety, adjunction-formula, conormal-sheaf, exterior-power]
+depends_on:
+  required: [canonical-sheaf-and-geometric-genus, conormal-sheaf-and-normal-sheaf, nonsingularity-via-sheaf-of-differentials]
+  recommended: [determinant-of-locally-free-sheaf, exact-sequence-of-vector-bundles]
+  suggested: [adjunction-formula]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Proposition 8.20: ω_Y ≅ ω_X ⊗ ∧^r N_{Y/X}, where N_{Y/X} is the normal sheaf, giving the adjunction formula for canonical sheaves"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

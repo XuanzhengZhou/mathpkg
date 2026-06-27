@@ -1,0 +1,38 @@
+Let $(X, S)$ be a measurable space, and suppose given a Lebesgue integral [real Lebesgue integral] $(X, \mathcal{L}, L)$ on $X$. For each measurable set $E$ in $X$, define
+
+$$\mu(E) = \begin{cases} L(\chi_E), & \chi_E \in \mathcal{L}, \\ +\infty, & \chi_E \notin \mathcal{L}. \end{cases}$$
+
+(6)
+
+Then $\mu$ is a measure on $(X, S)$. Conversely, if $\mu$ is any measure on $(X, S)$, then there exists a unique Lebesgue integral [real Lebesgue integral] $(X, \mathcal{L}, L)$ on $X$ that is related to $\mu$ as in (6). Thus (6) gives rise to a one-to-one correspondence between the set of all Lebesgue integrals [real Lebesgue integrals] on $(X, S)$ and the set of all measures on $(X, S)$.
+
+The proof that (6) defines a measure on $(X, S)$ is an easy exercise (Prob. A). Furthermore, the uniqueness of the Lebesgue integral [real Lebesgue integral] $L$ satisfying (6) with respect to a given measure $\mu$ is a consequence of the fact that (6) determines which characteristic functions, and therefore which simple functions, are integrable with respect to $L$, as well as the value of $L$ at all integrable simple functions (see Problem B). To prove the existence assertion of the theorem is a nontrivial task. The reader who wishes to provide a proof may do so by following the procedure for constructing the Lebesgue integral with respect to a given measure as set forth in any textbook on integration theory. (Programs for such a construction can be derived from Problems O and P; see also Example 9D and the proof of Theorem 9.10.)
+
+If $L$ is a (real or complex) Lebesgue integral on a measurable space $X$, and $\mu$ is the measure determined by $L$ via (6), then $\mu$ is called the measure associated with $L$. Likewise we say that $L$ is integration with respect to the measure $\mu$. In the same
+
+is integrable $[\mu]$, then $f$ is said to be integrable $[\mu]$ over $E$, $L(\tilde{f})$ is declared to be the integral of $f$ over $E$ with respect to $\mu$, and we write $L(\tilde{f}) = \int_E f d\mu$. Thus, if $f$ is integrable $[\mu]$ over $X$, then
+
+$$L(\chi_E f) = \int_E f d\mu$$
+
+for every measurable set $E$ (for in this case $\tilde{f} = \chi_E f$ is integrable $[\mu]$ along with $f$; cf. axiom $(\mathrm{L}_1)$).
+
+Let us pause to restate the defining properties of a Lebesgue integral in this more familiar terminology and notation. To begin with, we now suppose given a measure space $(X, \mathbf{S}, \mu)$. Axiom $(\mathrm{L}_1)$ states that if $f$ and $g$ are two complex-valued measurable functions on $X$ such that $|g| \leq |f|$, and if $f$ is integrable $[\mu]$, then $g$ is also integrable $[\mu]$ and $|\int g d\mu| \leq \int |f| d\mu$. In particular, $|f|$ is integrable $[\mu]$ and
+
+$$\left| \int f d\mu \right| \leq \int |f| d\mu.$$
+
+Axiom $(\mathrm{L}_2)$ states that if a sequence $\{f_n\}$ of functions integrable $[\mu]$ is Cauchy in the mean with respect to $\mu$, i.e., if
+
+$$\lim_{m,n} \int |f_m - f_n| d\mu = 0,$$
+
+and if $\{f_n\}$ also converges pointwise to $g$, then $g$ is integrable $[\mu]$ and $\int g d\mu = \lim_n \int f_n d\mu$. (It should also be remarked, of course, that the collection $\mathcal{L} = \mathcal{L}_\mu$ of functions integrable $[\mu]$ is a linear space
+
+Example H. Let $(X, S)$ be a measurable space, and let $J$ be a $\sigma$-ideal in $S$. The measure associated with the Lebesgue integral of Example A based on the $\sigma$-ideal $J$ assigns measure 0 to every set $E$ in $J$ and measure $+\infty$ to every set $E$ in $S \setminus J$. In particular, the zero linear functional on the space of all measurable functions on $(X, S)$ is Lebesgue integration with respect to the zero measure on $S$.
+
+Example I. Recall the Lebesgue integral $D$ constructed in Example C. The measure $\delta_{x_0}$ associated with this integral is given by
+
+$$\delta_{x_0}(E) = \chi_E(x_0), \quad E \in S.$$
+
+(The measure $\delta_{x_0}$ is known as the Dirac measure or Dirac mass concentrated at $x_0$.) More generally, if $\{x_n\}$ is a sequence of distinct points in a measurable space $(X, S)$, and if $S$ denotes the Lebesgue integral constructed in Example D, then the measure $\mu$ associated with $S$ may be described as follows: If $E$ is any measurable set, and if the number of points of the sequence $\{x_n\}$ belonging to $E$ is finite, then $\mu(E)$ is the number of those points; if the number of points of the sequence $\{x_n\}$ belonging to $E$ is infinite, then $\mu(E) = +\infty$. It should be noted that if the $\sigma$-ring of measurable sets $S$ in this example is insufficiently rich, then $\mu$ and its integral $S$ may not be very interesting. Suppose for example, to take the worst possible case, that the sequence $\{x_n\}$ were so chosen that every measurable set either contained all of the points of the sequence or no point of it. Then the only functions integrable with respect to $\mu$ would have integral zero, and $S$ would be one of the trivial integrals of Example A.
+
+Example J. If $S$ is the Lebesgue integral on $\m
+...

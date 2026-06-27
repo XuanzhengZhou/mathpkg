@@ -1,0 +1,23 @@
+id: zeros-equal-poles-in-fundamental-region
+title_en: "Zeros Equal Poles in the Fundamental Region"
+title_zh: "基本域中零点与极点个数相等"
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [modular-function, fundamental-region, zeros, poles, argument-principle]
+depends_on:
+  required: [modular-function, fundamental-region]
+  recommended: [modular-group, upper-half-plane]
+  suggested: ["j-invariant"]
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "2"
+    section: "2.4"
+    pages: "45-50"
+    role_in_book: "Theorem 2.4 — Fundamental counting principle for zeros and poles of modular functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

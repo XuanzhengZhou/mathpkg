@@ -1,0 +1,8 @@
+In a monoidal category $(V, \otimes, I, a, \ell, r)$, an \textbf{internal monoid} (or \textbf{monoid object}) is an object $M \in V$ equipped with a multiplication $\mu: M \otimes M \rightarrow M$ and a unit $\eta: I \rightarrow M$ such that the associativity and unit diagrams commute:
+\[
+\begin{array}{ccc}
+(M \otimes M) \otimes M \xrightarrow{a} M \otimes (M \otimes M) \xrightarrow{1 \otimes \mu} M \otimes M & \xrightarrow{\mu} & M \\
+{\scriptstyle \mu \otimes 1}\downarrow & & \uparrow{\scriptstyle \mu} \\
+M \otimes M & \xrightarrow{\mu} & M
+\end{array}
+\]

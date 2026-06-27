@@ -1,0 +1,23 @@
+id: serre-theorem
+title_en: "Serre's Theorem"
+title_zh: "Serre 定理"
+type: theorem
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [serre-theorem, semisimple-lie-algebra, root-system, cartan-matrix, generators-and-relations, serre-relations]
+depends_on:
+  required: [generators-relations-semisimple, free-lie-algebra, cartan-matrix]
+  recommended: [poincare-birkhoff-witt-theorem, root-system, semisimple-lie-algebra]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "VI"
+    section: "18"
+    pages: "102-114"
+    role_in_book: "Fundamental theorem: semisimple Lie algebras are characterized by Serre relations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

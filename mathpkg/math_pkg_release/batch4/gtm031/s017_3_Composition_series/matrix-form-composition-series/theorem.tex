@@ -1,0 +1,14 @@
+Let $\Omega$ be a set of linear transformations on a finite-dimensional vector space $\mathfrak{R}$. Let
+$$0 = \mathfrak{S}_0 \subset \mathfrak{S}_1 \subset \cdots \subset \mathfrak{S}_t = \mathfrak{R}$$
+be a composition series for $\Omega$, where each $\mathfrak{S}_i$ is invariant under $\Omega$ and $\mathfrak{S}_i$ is irreducible over $\mathfrak{S}_{i-1}$. Choose a basis of $\mathfrak{R}$ adapted to this chain (i.e., by successively extending a basis of each $\mathfrak{S}_{i-1}$ to a basis of $\mathfrak{S}_i$).
+
+Then for every $A \in \Omega$, the matrix of $A$ relative to this basis has the block upper-triangular form
+$$\begin{bmatrix}
+(\beta_1) & 0 & \cdots & 0 \\
+* & (\beta_2) & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+* & * & \cdots & (\beta_t)
+\end{bmatrix}$$
+where the blocks above the main diagonal are all zero. The diagonal block $(\beta_i)$ is precisely the matrix of the induced linear transformation $\bar{A}$ on the factor space $\mathfrak{S}_i / \mathfrak{S}_{i-1}$ relative to the coset basis
+$$(\bar{f}_{n_1+\cdots+n_{i-1}+1}, \bar{f}_{n_1+\cdots+n_{i-1}+2}, \dots, \bar{f}_{n_1+\cdots+n_i})$$
+where $n_i = \dim(\mathfrak{S}_i / \mathfrak{S}_{i-1})$.

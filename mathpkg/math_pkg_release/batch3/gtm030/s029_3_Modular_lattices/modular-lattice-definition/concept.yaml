@@ -1,0 +1,23 @@
+id: modular-lattice-definition
+title_en: "Modular Lattice (Dedekind Lattice)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: lattice-theory
+difficulty: basic
+tags: [modular, Dedekind, lattice, L5-condition]
+depends_on:
+  required: [distributive-lattice-condition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines modular lattices via the L_5 condition, a weakening of distributivity that holds for many important lattices in algebra such as the lattice of invariant subgroups of a group."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

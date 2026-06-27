@@ -1,0 +1,23 @@
+id: first-category-set-homeomorphic-to-nullset
+title_en: "First Category Sets Can Be Transformed into Nullsets by Homeomorphism"
+title_zh: "第一纲集可通过同胚变换为零测集"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [first-category, nullset, homeomorphism, residual-set, category-argument]
+depends_on:
+  required: [first-category-set, nullset, space-of-unit-interval-automorphisms, automorphism-space-is-g-delta]
+  recommended: [baire-category-theorem, residual-set]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "13"
+    section: "13"
+    pages: "57-63"
+    role_in_book: "Theorem 13.1; main result linking category and measure via homeomorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

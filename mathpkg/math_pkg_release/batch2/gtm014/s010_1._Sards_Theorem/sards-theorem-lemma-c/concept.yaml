@@ -1,0 +1,23 @@
+id: sards-theorem-lemma-c
+title_en: "Sard's Theorem — Lemma C (Measure Zero of f(C_i - C_{i+1}))"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [sard, critical-point, measure-zero, stratification, induction]
+depends_on:
+  required: [higher-order-critical-set]
+  recommended: [sards-theorem-lemma-b, sards-theorem-lemma-d]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Second lemma in the inductive proof of Sard's Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

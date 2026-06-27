@@ -1,0 +1,23 @@
+id: endomorphism-ring-vector-space-dimension
+title_en: "Endomorphism Ring as Vector Space and Its Dimension"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [endomorphism-ring, vector-space, dimension, normalized-matrix, commuting-transformations]
+depends_on:
+  required: [normalized-matrix-bijection, scalar-multiplication]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "3"
+    section: "16"
+    pages: ""
+    role_in_book: "Shows B is a vector space over the base field Phi, computes its dimension, and compares with the polynomial ring dimension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: product-complex-manifold
+title_en: "Product of Complex Manifolds"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: complex-manifolds
+difficulty: intermediate
+tags: [complex-manifold, product-manifold, cartesian-product, holomorphic-projection]
+depends_on:
+  required: [complex-manifold]
+  recommended: [complex-ringed-space, holomorphic-mapping]
+  suggested: [product-topology, holomorphic-function, biholomorphic-mapping]
+source_books:
+  - book_id: gtm038
+    author: "H. Grauert, K. Fritzsche"
+    title: "Several Complex Variables"
+    chapter: "V"
+    section: "V.3 Examples of Complex Manifolds"
+    pages: ""
+    role_in_book: "Proposition establishing that the Cartesian product of complex manifolds is again a complex manifold, with holomorphic projections"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

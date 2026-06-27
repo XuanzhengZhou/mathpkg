@@ -1,0 +1,13 @@
+id: multigraph
+title_en: "Multigraph"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: basic
+tags: [multigraph, graph, edge, blocksize]
+depends_on: {required: [system-definition, set-system], recommended: [], suggested: []}
+source_books: [{book_id: "gtm054", author: "Jack E. Graver and Mark E. Watkins", title: "Combinatorics with Emphasis on the Theory of Graphs", chapter: "I", section: "2", pages: "28-40", role_in_book: "Defines multigraphs as systems of blocksize 2; foundational for graph theory"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: thom-fundamental-class
+title_en: "Thom Fundamental Class and Thom Isomorphism"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: characteristic-classes
+difficulty: advanced
+tags: [thom-class, thom-isomorphism, cohomology, vector-bundle, euler-class]
+depends_on:
+  required: [vector-bundle]
+  recommended: [cohomology-ring, cup-product]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "7"
+    section: "7.3"
+    pages: "page_0265–page_0270"
+    role_in_book: "Defines the Thom class U_ξ and establishes the Thom isomorphism theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

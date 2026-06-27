@@ -1,0 +1,23 @@
+id: ab-category
+title_en: "Ab-category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [ab-category, enriched-category, additive-structure, preadditive-category]
+depends_on:
+  required: []
+  recommended: [category, hom-set]
+  suggested: [abelian-group]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VIII"
+    section: "2"
+    pages: "208-211"
+    role_in_book: "Defines the foundational structure for additive/abelian categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: character-homomorphism-inner-product-equality
+title_en: "Equality of Character Inner Product and Hom-Space Dimension"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [character-theory, inner-product, hom-space, orthogonality-relations]
+depends_on:
+  required: [character-of-representation, inner-product-of-class-functions, hom-space]
+  recommended: [orthogonality-relations-for-characters]
+  suggested: [schur-orthogonality]
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "7"
+    section: "7.3"
+    pages: ""
+    role_in_book: "Lemma 2 — fundamental identity linking character theory to Hom-spaces, used in Frobenius reciprocity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

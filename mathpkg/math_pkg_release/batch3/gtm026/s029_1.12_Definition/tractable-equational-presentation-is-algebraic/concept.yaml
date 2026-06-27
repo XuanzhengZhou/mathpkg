@@ -1,0 +1,23 @@
+id: tractable-equational-presentation-is-algebraic
+title_en: "Tractable Equational Presentations Yield Algebraic Functors"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: universal-algebra
+difficulty: advanced
+tags: [category-theory, equational-presentation, tractable-theory, algebraic-functor, omega-algebra, creates-limits, creates-quotients-of-congruences]
+depends_on:
+  required: [equational-presentation, tractable-theory, algebraic-functor, creates-limits, creates-quotients-of-congruences]
+  recommended: [omega-algebra]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.26"
+    pages: ""
+    role_in_book: "Same as 1.5.45: for a tractable equational presentation, the underlying set functor is algebraic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

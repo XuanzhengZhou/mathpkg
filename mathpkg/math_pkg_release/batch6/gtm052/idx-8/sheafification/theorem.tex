@@ -1,0 +1,5 @@
+Given a presheaf $\mathcal{F}$ on a topological space $X$, there exists a sheaf $\mathcal{F}^+$ and a morphism $\theta: \mathcal{F} \rightarrow \mathcal{F}^+$ with the property that for any sheaf $\mathcal{G}$ and any morphism $\varphi: \mathcal{F} \rightarrow \mathcal{G}$, there is a unique morphism $\psi: \mathcal{F}^+ \rightarrow \mathcal{G}$ such that $\varphi = \psi \circ \theta$. The pair $(\mathcal{F}^+, \theta)$ is unique up to unique isomorphism. $\mathcal{F}^+$ is called the \text{sheaf associated} to the presheaf $\mathcal{F}$, or the \text{sheafification} of $\mathcal{F}$.
+
+Explicitly, for any open set $U$, $\mathcal{F}^+(U)$ is the set of functions $s: U \rightarrow \bigcup_{P \in U} \mathcal{F}_P$ such that:
+(1) for each $P \in U$, $s(P) \in \mathcal{F}_P$, and
+(2) for each $P \in U$, there exists a neighborhood $V$ of $P$ contained in $U$, and an element $t \in \mathcal{F}(V)$, such that for all $Q \in V$, the germ $t_Q$ of $t$ at $Q$ equals $s(Q)$.

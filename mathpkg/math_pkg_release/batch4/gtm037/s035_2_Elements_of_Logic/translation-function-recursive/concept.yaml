@@ -1,0 +1,23 @@
+id: translation-function-recursive
+title_en: "Translation Function is Recursive (Proposition 11.27)"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: first-order-logic
+difficulty: advanced
+tags: [translation, recursive-function, relational-version, godel-numbering, effective-language]
+depends_on:
+  required: [relational-version-of-language, recursive-function, godel-numbering]
+  recommended: [effectivized-language, partial-recursive]
+  suggested: [church-thesis]
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "11"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Establishes that the formula translation from a language to its relational version is recursive, using weak Church's thesis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

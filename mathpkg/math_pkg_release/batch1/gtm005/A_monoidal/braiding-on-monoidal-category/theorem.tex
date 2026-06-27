@@ -1,0 +1,20 @@
+A \emph{braiding} for a monoidal category $M$ consists of a family of natural isomorphisms
+$$\gamma_{a,b} : a \square b \cong b \square a \tag{5}$$
+natural in $a$ and $b$, satisfying the following two \emph{hexagon axioms}:
+\[
+\begin{CD}
+a(bc) @>{\alpha}>> (ab)c @>{\gamma}>> c(ab) \\
+@V{1\gamma}VV @. @VV{\alpha}V \\
+a(cb) @>{\alpha}>> (ac)b @>{\gamma 1}>> (ca)b
+\end{CD}
+\tag{7a}
+\]
+\[
+\begin{CD}
+(ab)c @>{\alpha^{-1}}>> a(bc) @>{1\gamma}>> a(cb) \\
+@V{\gamma 1}VV @. @VV{\alpha^{-1}}V \\
+(ba)c @>{\alpha^{-1}}>> b(ac) @>{\gamma 1}>> (ca)b
+\end{CD}
+\tag{7b}
+\]
+A monoidal category equipped with a braiding is called a \emph{braided monoidal category}.

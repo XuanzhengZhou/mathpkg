@@ -1,0 +1,23 @@
+id: lindenbaums-theorem
+title_en: "Lindenbaum's Theorem"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [lindenbaum, completion, maximal-consistent-set, zorns-lemma, axiom-of-choice]
+depends_on:
+  required: [finitely-satisfiable]
+  recommended: [zorns-lemma, complete-theory]
+  suggested: [compactness-theorem, witness-extension-lemma]
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "2"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Key lemma in the first proof of the Compactness Theorem; every finitely satisfiable set can be extended to a complete one"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

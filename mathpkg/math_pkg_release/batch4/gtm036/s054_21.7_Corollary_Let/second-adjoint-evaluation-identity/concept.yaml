@@ -1,0 +1,31 @@
+id: second-adjoint-evaluation-identity
+title_en: "Evaluation and the Second Adjoint of a Transformation"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags:
+  - locally-convex-space
+  - second-adjoint
+  - evaluation-map
+  - continuous-linear-transformation
+  - bidual
+depends_on:
+  required: []
+  recommended:
+    - adjoint-operator
+    - evaluation-map
+    - strong-operator-topology
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "21"
+    section: "21.8"
+    pages: ""
+    role_in_book: "Proposition establishing that the second adjoint extends the original transformation in the sense of commuting with evaluation maps"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

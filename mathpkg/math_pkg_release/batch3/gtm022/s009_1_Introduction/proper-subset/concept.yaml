@@ -1,0 +1,23 @@
+id: proper-subset
+title_en: "Proper Subset"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [ZF, Zermelo-Fraenkel, proper-subset, strict-inclusion, sets]
+depends_on:
+  required: [subset-relation, axiom-of-extension]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Definition of proper (strict) subset relation, used in exercises on ordinals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

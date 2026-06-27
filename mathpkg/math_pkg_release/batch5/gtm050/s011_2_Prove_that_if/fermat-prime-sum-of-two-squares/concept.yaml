@@ -1,0 +1,23 @@
+id: fermat-prime-sum-of-two-squares
+title_en: "Fermat's Theorem on Primes as Sums of Two Squares"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: sums-of-squares
+difficulty: intermediate
+tags: [prime-numbers, sums-of-two-squares, fermat, euler, quadratic-forms]
+depends_on:
+  required: []
+  recommended: [modular-arithmetic, quadratic-residues, infinite-descent]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.4"
+    pages: ""
+    role_in_book: "Fermat's classical theorem that every prime of the form 4n+1 can be expressed as a sum of two squares, proved by Euler in 1747"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

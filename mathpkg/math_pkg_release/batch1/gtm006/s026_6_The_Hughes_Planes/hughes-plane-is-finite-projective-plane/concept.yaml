@@ -1,0 +1,23 @@
+id: hughes-plane-is-finite-projective-plane
+title_en: "The Hughes Plane is a Finite Projective Plane"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-planes
+difficulty: advanced
+tags: [finite-geometry, non-desarguesian-plane, hughes-plane, incidence-structure]
+depends_on:
+  required: [hughes-plane-construction]
+  recommended: [projective-plane-axioms, finite-projective-plane]
+  suggested: [collineation-group]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "9"
+    section: "6"
+    pages: ""
+    role_in_book: "Theorem 9.14 — establishes that the constructed incidence structure is a projective plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

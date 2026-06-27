@@ -1,0 +1,23 @@
+id: geodesic-reparametrization-affine
+title_en: "Geodesic Reparametrizations Are Positive Affine"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [geodesic, reparametrization, affine-parameter]
+depends_on:
+  required: [geodesic, orientation-preserving-reparametrization]
+  recommended: [geodesic-constant-speed]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "Sachs and Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "0"
+    section: "0.0.6"
+    pages: ""
+    role_in_book: "Characterizes how geodesics can be reparametrized while remaining geodesics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

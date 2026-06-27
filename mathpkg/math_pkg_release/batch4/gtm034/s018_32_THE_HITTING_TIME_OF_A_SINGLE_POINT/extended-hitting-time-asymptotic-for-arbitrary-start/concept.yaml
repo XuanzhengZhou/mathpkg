@@ -1,0 +1,20 @@
+id: extended-hitting-time-asymptotic-for-arbitrary-start
+title_en: "Extended Asymptotic for Hitting Time from Arbitrary Starting Point"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [hitting-time, asymptotic, finite-variance, potential-kernel, karama]
+depends_on: {required:[], recommended:[abel-limit-for-hitting-time-ratio, finite-variance-hitting-time-asymptotic], suggested:[]}
+source_books:
+  - book_id: "gtm034"
+    author: "Frank Spitzer"
+    title: "Principles of Random Walk"
+    chapter: "VI"
+    section: "32"
+    pages: "382"
+    role_in_book: "Extends P3 to arbitrary starting point, showing $P_x[T > n] \sim a(x) P_0[T > n]$"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

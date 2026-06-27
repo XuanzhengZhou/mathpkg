@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "9"
+section: "2"
+exercise_number: 13
+---
+
+$M_1, \ldots, M_n$ are Turing machines with the same alphabet. An algorithm requires that at each step, exactly one of $M_1, \ldots, M_n$ be applied to the result of the previous step. The Turing machine $M$, applied to the output of any step, determines which of $M_1, \ldots, M_n$ is to be applied for the next step. Show that there is a single Turing machine which can execute the algorithm and give the same ultimate output.

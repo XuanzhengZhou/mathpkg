@@ -1,0 +1,13 @@
+id: betti-number
+title_en: "Betti Number"
+title_zh: "贝蒂数"
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [betti-number, cohomology, homology, topological-invariant, manifold]
+depends_on: {required:[cohomology-group], recommended:[homology-group, de-rhams-theorem], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"Appendix 3",section:"Cohomology and homology",pages:"",role_in_book:"Definition — dimension of the cohomology group H^k(M,R)"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

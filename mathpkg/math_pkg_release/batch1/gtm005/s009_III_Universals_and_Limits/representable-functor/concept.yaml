@@ -1,0 +1,23 @@
+id: representable-functor
+title_en: "Representable Functor"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [representable-functor, yoneda-lemma, hom-functor]
+depends_on:
+  required: [functor, hom-set, natural-isomorphism]
+  recommended: [universal-element]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "III"
+    section: "2"
+    pages: ""
+    role_in_book: "Functor naturally isomorphic to a hom-functor"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

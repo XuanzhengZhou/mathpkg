@@ -1,0 +1,23 @@
+id: circuit-flow-function
+title_en: "Circuit Flow Function h_D"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [flow-space, circuit, multigraph, cocycle]
+depends_on:
+  required: []
+  recommended: [flow-space, cycle-space-of-multigraph]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "IV"
+    section: "B"
+    pages: "117-120"
+    role_in_book: "Defines the canonical flow function associated with a cyclically-ordered circuit in a multigraph"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

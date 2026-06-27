@@ -1,0 +1,23 @@
+id: finite-transient-visits
+title_en: "Finite Visits to Transient States"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, transient-states, finite-visits, almost-sure]
+depends_on:
+  required: [transient-state-finitude-of-expected-visits]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "7. Classification of states"
+    pages: ""
+    role_in_book: "Proposition 4-28: A Markov chain visits any finite subset of transient states only finitely often with probability one"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

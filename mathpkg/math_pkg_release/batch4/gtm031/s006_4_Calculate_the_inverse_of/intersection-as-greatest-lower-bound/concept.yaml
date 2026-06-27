@@ -1,0 +1,23 @@
+id: intersection-as-greatest-lower-bound
+title_en: "Intersection as Greatest Lower Bound in the Subspace Lattice"
+title_zh: "交集是子空间格中的最大下界"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [vector-space, subspace, lattice, intersection, greatest-lower-bound, meet]
+depends_on:
+  required: [vector-space, subspace, lattice-of-subspaces]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "II: Finite Dimensional Vector Spaces"
+    section: "9: Factor Spaces"
+    pages: "36-41"
+    role_in_book: "Characterizes the intersection operation in the lattice of subspaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

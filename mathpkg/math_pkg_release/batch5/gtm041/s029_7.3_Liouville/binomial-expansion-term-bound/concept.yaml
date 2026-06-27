@@ -1,0 +1,23 @@
+id: binomial-expansion-term-bound
+title_en: "Binomial Expansion Term Bound for Liouville Approximation"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-approximation
+difficulty: intermediate
+tags: [liouville-numbers, binomial-expansion, transcendence, rational-approximation]
+depends_on:
+  required: []
+  recommended: [liouvilles-approximation-theorem, liouville-number]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "7"
+    section: "7.3"
+    pages: ""
+    role_in_book: "Technical lemma bounding binomial expansion terms in the proof that Liouville numbers are transcendental"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

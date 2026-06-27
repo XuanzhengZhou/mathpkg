@@ -1,0 +1,14 @@
+id: nondegenerate-orthogonality-mapping
+title_en: "Orthogonality Mappings for Non-degenerate Bilinear Forms"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: bilinear-forms
+difficulty: advanced
+tags: [orthogonality, nondegenerate, bilinear-form, subspace-lattice, Galois-connection]
+depends_on: {required: [orthogonality, dimension-formula-for-orthogonal-subspaces, double-orthogonal-inclusion], recommended: [], suggested: []}
+source_books:
+  - {book_id: "gtm049", author: "K. W. Gruenberg, A. J. Weir", title: "Linear Geometry", chapter: "5", section: "5.2 Orthogonality", pages: "105-106", role_in_book: "Theorem 1. For a non-degenerate bilinear form, the ⊥ and ⊤ operators are mutually inverse bijections on the lattice of all subspaces of V, with explicit dimension relations and lattice-theoretic properties."}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

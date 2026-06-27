@@ -1,0 +1,23 @@
+id: pi-star-map
+title_en: "π*: Hom(Q,W) → Hom(V,W) — The Transpose Map"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: intermediate
+tags: [transpose-map, grassmannian, universal-quotient-bundle, corank]
+depends_on:
+  required: [lr-linear-maps-corank]
+  recommended: [grassmannian, universal-quotient-bundle]
+  suggested: [pi-star-proper-immersion]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "Chapter VI: Classification of Singularities, Part I: The Thom-Boardman Invariants"
+    section: "§1. The S_r Classification"
+    pages: "145"
+    role_in_book: "Construction (1.3): the map induced by the projection onto the universal quotient bundle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: polynomial-of-semisimple-is-nilpotent-iff-zero
+title_en: "For Semisimple φ, f(φ) Nilpotent Implies f(φ) = 0"
+title_zh: "半单变换的多项式若幂零则必为零"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [semisimple-transformation, nilpotent-transformation]
+  recommended: [polynomial-in-transformation, kernel]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "6"
+    pages: ""
+    role_in_book: "If φ is semisimple, a polynomial f(φ) is nilpotent only if it is already zero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

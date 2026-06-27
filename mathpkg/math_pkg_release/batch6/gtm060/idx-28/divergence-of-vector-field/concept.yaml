@@ -1,0 +1,13 @@
+id: divergence-of-vector-field
+title_en: "Divergence of a vector field"
+title_zh: "向量场的散度"
+type: definition
+domain: geometry
+subdomain: exterior-differentiation
+difficulty: intermediate
+tags: [divergence, vector-field, exterior-derivative, flux, source-density]
+depends_on: {required: [vector-field-to-differential-form-correspondence, integral-of-k-form-over-k-dimensional-cell], recommended: [exterior-derivative], suggested: []}
+source_books: [{book_id: "gtm060", author: "V.I. Arnold", title: "Mathematical Methods of Classical Mechanics", chapter: "7", section: "36", pages: "199-200", role_in_book: "Defines divergence as the source density, motivating the general concept of exterior differentiation"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

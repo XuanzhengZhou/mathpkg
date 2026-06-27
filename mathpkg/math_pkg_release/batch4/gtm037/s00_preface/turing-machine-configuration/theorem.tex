@@ -1,0 +1,12 @@
+A \text{tape description} is a function $F$ from $\mathbb{Z}$ into $\{0, 1\}$ such that $\{i \in \mathbb{Z} : Fi \neq 0\}$ is finite. A \text{configuration} is a triple $(F, d, e)$ where $F$ is a tape description, $d$ is a state, and $e \in \mathbb{Z}$.
+
+A pair $\langle (F, d, e), (F', d', e') \rangle$ is a \text{computation step} for a Turing machine $T$ provided that: if the line of the Turing machine beginning with $(d, Fe)$ is $(d, Fe, w, f)$, then:
+\begin{align*}
+\text{if } w = 0 &\text{ then } F' = F_0^e,\; d' = f,\; e' = e; \\
+\text{if } w = 1 &\text{ then } F' = F_1^e,\; d' = f,\; e' = e; \\
+\text{if } w = 2 &\text{ then } F' = F,\; d' = f,\; e' = e - 1; \\
+\text{if } w = 3 &\text{ then } F' = F,\; d' = f,\; e' = e + 1.
+\end{align*}
+Here $F_{\varepsilon}^e$ is the function $(F \sim \{(e, Fe)\}) \cup \{(e, \varepsilon)\}$, i.e., the tape description acting like $F$ except possibly at $e$, and $F_{\varepsilon}^e(e) = \varepsilon$.
+
+A \text{computation} of $T$ is a finite sequence $\langle (F_0, d_0, e_0), \ldots, (F_m, d_m, e_m) \rangle$ of configurations such that $d_0 = c_1$ (the initial state), each adjacent pair $(F_i, d_i, e_i), (F_{i+1}, d_{i+1}, e_{i+1})$ is a computation step for each $i < m$, and the row of the Turing machine beginning $(d_m, Fe_m)$ has $4$ as its third entry (i.e., the machine stops at the final configuration).

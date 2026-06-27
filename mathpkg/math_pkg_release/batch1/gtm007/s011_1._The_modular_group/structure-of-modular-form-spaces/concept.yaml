@@ -1,0 +1,23 @@
+id: structure-of-modular-form-spaces
+title_en: "Structure of Spaces of Modular Forms"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: ["modular-form", "dimension", "eisenstein-series", "delta-function", "cusp-form"]
+depends_on:
+  required: ["valence-formula-modular-function", "modular-form-definition", "eisenstein-series-modular-form"]
+  recommended: ["cusp-form"]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Gives the complete structure of the graded algebra of modular forms for SL2(Z)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

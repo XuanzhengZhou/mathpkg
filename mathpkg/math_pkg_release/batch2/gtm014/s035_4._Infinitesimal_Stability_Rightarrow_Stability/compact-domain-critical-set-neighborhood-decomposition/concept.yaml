@@ -1,0 +1,23 @@
+id: compact-domain-critical-set-neighborhood-decomposition
+title_en: "Proposition 4.5 — Deformation trivialization on a neighborhood of the critical point set (compact domain)"
+title_zh: "命题 4.5 — 紧致定义域上临界点集邻域内的形变平凡化"
+type: proposition
+domain: topology
+subdomain: singularity-theory
+difficulty: advanced
+tags: [infinitesimal-stability, deformation, compact-domain, critical-set, mather-theory]
+depends_on:
+  required: [deformation-germ-infinitesimally-stable-finite-set, critical-point-smooth-map]
+  recommended: [compact-manifold, partition-of-unity]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "IV"
+    section: "4"
+    pages: "138-141"
+    role_in_book: "Extends the pointwise deformation trivialization (Prop 4.3 and Theorem 4.4) to a full neighborhood of the critical point set Σ×{0}; a key patching step toward the global theorem."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

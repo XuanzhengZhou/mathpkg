@@ -1,0 +1,23 @@
+id: weierstrass-division-theorem
+title_en: "Weierstrass Division Theorem over a Complete Local Ring"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [weierstrass-preparation, complete-local-ring, power-series, division-algorithm]
+depends_on:
+  required: []
+  recommended: [complete-local-ring, power-series-ring]
+  suggested: [iwasawa-algebra]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "5"
+    pages: ""
+    role_in_book: "Theorem 2.1 (Weierstrass Division)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

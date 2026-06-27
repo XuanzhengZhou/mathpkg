@@ -1,0 +1,23 @@
+id: lcs-subspace-product-banach
+title_en: "Every Locally Convex Space is a Subspace of a Product of Banach Spaces"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: locally-convex-spaces
+difficulty: intermediate
+tags: [locally-convex-space, banach-space, product-space, subspace, embedding-theorem]
+depends_on:
+  required: [complete-lcs-projective-limit-banach, product-topology, locally-convex-space]
+  recommended: [completion]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "5.4"
+    pages: ""
+    role_in_book: "Corollary 2 of Theorem 5.4"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

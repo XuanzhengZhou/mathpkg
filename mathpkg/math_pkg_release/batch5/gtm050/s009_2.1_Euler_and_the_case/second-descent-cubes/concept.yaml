@@ -1,0 +1,23 @@
+id: second-descent-cubes
+title_en: "Second Descent: 2a, a-3b, a+3b are Cubes"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: diophantine-equations
+difficulty: advanced
+tags: [infinite-descent, coprime-factors, cubic-fermat-equation, cube-property, descent-step]
+depends_on:
+  required: [factorization-via-a2-plus-3b2]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.2"
+    pages: ""
+    role_in_book: "Shows that 2a, a-3b, a+3b are pairwise coprime and hence each is a cube, leading to β^3 + γ^3 = α^3 — a smaller solution of the original cubic equation."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

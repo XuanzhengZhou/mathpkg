@@ -1,0 +1,23 @@
+id: stone-weierstrass-algebraic-form
+title_en: "Stone-Weierstrass Theorem (Algebraic Form)"
+title_zh: "Stone-Weierstrass定理（代数形式）"
+type: theorem
+domain: analysis
+subdomain: banach-algebras
+difficulty: intermediate
+tags: [stone-weierstrass, subalgebra, continuous-functions, compact-space, separates-points, order-unit, krein-milman, radon-measure]
+depends_on:
+  required: []
+  recommended: [subalgebra, continuous-functions, compact-space, krein-milman-theorem, radon-measure]
+  suggested: [stone-weierstrass-order-form]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "V: Order Structures"
+    section: "8. Stone-Weierstrass and Representation Theorems"
+    pages: ""
+    role_in_book: "8.2: classical algebraic form; proof via Krein-Milman and Radon measures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

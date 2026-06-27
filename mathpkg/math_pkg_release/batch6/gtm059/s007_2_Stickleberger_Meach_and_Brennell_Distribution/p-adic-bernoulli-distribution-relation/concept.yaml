@@ -1,0 +1,23 @@
+id: p-adic-bernoulli-distribution-relation
+title_en: "p-adic limit relation for the Bernoulli distribution"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: ["bernoulli-distribution", "p-adic-integrality", "projective-limit", "stickelberger-ideal"]
+depends_on:
+  required: ["integralized-bernoulli-distribution", "bernoulli-distribution-congruence"]
+  recommended: ["p-adic-numbers", "projective-limit"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "2"
+    section: "Stickelberger Ideals and Bernoulli Distributions"
+    pages: "48-53"
+    role_in_book: "Theorem 2.2 — limit form of E2 showing E_{k,c}(x)=x^{k-1}E_{1,c}(x) in the p-adic projective limit"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

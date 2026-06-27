@@ -1,0 +1,23 @@
+id: prime-sum-of-four-squares
+title_en: "Every Odd Prime Times Some Smaller Integer is a Sum of Four Squares"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: sums-of-squares
+difficulty: intermediate
+tags: [lagrange-four-square, prime, quadratic-residue]
+depends_on:
+  required: []
+  recommended: [four-square-multiplication-identity]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. L. Bell, M. Machover"
+    title: "A Course in Mathematical Logic"
+    chapter: "16"
+    section: "1"
+    pages: ""
+    role_in_book: "Key lemma in the proof of Lagrange's four-square theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

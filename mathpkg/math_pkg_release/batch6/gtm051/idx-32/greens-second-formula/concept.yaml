@@ -1,0 +1,23 @@
+id: greens-second-formula
+title_en: "Green's Second Formula"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [greens-formula, laplacian, integral-formula, self-adjoint, symmetric]
+depends_on:
+  required: [greens-first-formula, laplace-beltrami-operator]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.7"
+    pages: "pp. 129–132"
+    role_in_book: "Second of Green's formulae, expressing symmetry of the Laplacian"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

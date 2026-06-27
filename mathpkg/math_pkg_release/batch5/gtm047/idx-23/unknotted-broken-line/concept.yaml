@@ -1,0 +1,23 @@
+id: unknotted-broken-line
+title_en: "Unknotted Broken Line in a Polyhedral 3-Cell"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [broken-line, unknotted, polyhedral-3-cell, tame-imbedding]
+depends_on:
+  required: [broken-line, polyhedral-3-cell, piecewise-linear-homeomorphism]
+  recommended: [broken-line-unknotted-in-polyhedral-3-cell]
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "19"
+    section: "19 (A Wild Arc with Simply Connected Complement)"
+    pages: ""
+    role_in_book: "Definition following Theorem 1 of Chapter 19; formalizes the notion of an unknotted broken line"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

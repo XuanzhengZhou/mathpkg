@@ -1,0 +1,23 @@
+id: dense-positive-semiorbit-residual
+title_en: "Residual Set of Points with Dense Positive Semiorbit"
+title_zh: "正向半轨稠密的点构成剩余集"
+type: theorem
+domain: topology
+subdomain: dynamical-systems
+difficulty: intermediate
+tags: [residual-set, positive-semiorbit, dense-orbit, Baire-category, complete-separable-metric-space]
+depends_on:
+  required: [transitive-automorphism]
+  recommended: [residual-set, Baire-category-theorem, countable-base]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "18"
+    section: "Transitive Transformations"
+    pages: ""
+    role_in_book: "Characterizes the size of the set of points with dense positive semiorbit"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

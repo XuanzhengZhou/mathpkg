@@ -1,0 +1,23 @@
+id: subdirect-product
+title_en: "Subdirect Product of Groups"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [subdirect-product, direct-product, homomorphism, projection]
+depends_on:
+  required: [complete-direct-product, homomorphism]
+  recommended: [subgroup]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "14"
+    pages: ""
+    role_in_book: "Defines subdirect product as a subgroup of a complete direct product whose projections are all surjective"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

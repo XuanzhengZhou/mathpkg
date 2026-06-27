@@ -1,0 +1,25 @@
+id: hom-functors-into-ens
+title_en: "Hom-Functors into Ens (Set_V)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [hom-functor, universe, ens, set-v, smallness]
+depends_on:
+  required: [covariant-hom-functor, contravariant-hom-functor]
+  recommended: [category, universe, grothendieck-universe]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    edition: "2nd"
+    year: 1998
+    chapter: "I"
+    section: "2. Contravariance and Opposites"
+    pages: "47-49"
+    role_in_book: "Extends hom-functors to categories without small hom-sets by using a suitably large universe V"
+content_hash: "ae0f05bb10f749e6bf7945e6f26deeb4"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

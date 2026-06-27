@@ -1,0 +1,23 @@
+id: self-reference-lemma
+title_en: "Self-Reference Lemma (Diagonal Lemma)"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: foundations
+difficulty: advanced
+tags: [self-reference, diagonal-lemma, godel-incompleteness, tarski-undefinability, fixed-point]
+depends_on:
+  required: [godel-numbering, representability]
+  recommended: [godel-incompleteness-theorem, tarski-undefinability-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "III"
+    section: "7"
+    pages: ""
+    role_in_book: "Fundamental lemma for both Tarski's and Gödel's arguments"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

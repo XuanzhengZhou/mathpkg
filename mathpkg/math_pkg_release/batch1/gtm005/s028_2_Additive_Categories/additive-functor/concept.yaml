@@ -1,0 +1,23 @@
+id: additive-functor
+title_en: "Additive Functor between Ab-Categories"
+title_zh: "Ab-范畴之间的加性函子"
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: basic
+tags: [ab-category, additive-functor, functor, biproduct]
+depends_on:
+  required: [ab-category]
+  recommended: [biproduct-characterization]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VIII. Abelian Categories"
+    section: "2. Additive Categories"
+    pages: ""
+    role_in_book: "Definition — a functor preserving the additive group structure on hom-sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

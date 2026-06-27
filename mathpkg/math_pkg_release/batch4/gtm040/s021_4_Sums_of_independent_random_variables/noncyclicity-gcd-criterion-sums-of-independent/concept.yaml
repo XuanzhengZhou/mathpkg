@@ -1,0 +1,23 @@
+id: noncyclicity-gcd-criterion-sums-of-independent
+title_en: "Noncyclicity GCD Criterion for Sums of Independent Random Variables"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [noncyclicity, period, sums-of-independent-random-variables, gcd]
+depends_on:
+  required: [decomposition-of-transition-probabilities-via-first-passage]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "4"
+    pages: ""
+    role_in_book: "Lemma 6-35: The period of a sums of independent random variables chain divides the gcd of step sizes with positive probability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

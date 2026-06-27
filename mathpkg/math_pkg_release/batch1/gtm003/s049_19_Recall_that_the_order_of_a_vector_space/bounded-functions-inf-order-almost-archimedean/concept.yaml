@@ -1,0 +1,30 @@
+id: bounded-functions-inf-order-almost-archimedean
+title_en: 'Bounded Real Functions with Inf-Order: Almost Archimedean but not Archimedean'
+title_zh: ''
+type: example
+domain: analysis
+subdomain: ordered-vector-spaces
+difficulty: intermediate
+tags:
+- almost-archimedean
+- archimedean
+- counterexample
+- function-space
+depends_on:
+  required:
+  - almost-archimedean-order
+  - archimedean-order
+  recommended:
+  - bounded-functions
+  suggested: []
+source_books:
+- book_id: gtm003
+  author: H. H. Schaefer
+  title: Topological Vector Spaces
+  chapter: Chapter V
+  section: Exercise 19(d)
+  pages: ''
+  role_in_book: Exercise problem - counterexample
+content_hash: 959700ffaec877c4
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

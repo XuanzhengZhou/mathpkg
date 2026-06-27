@@ -1,0 +1,23 @@
+id: polarity-conditions
+title_en: "Polarity Conditions in Homogeneous Coordinates (Theorem 2.28)"
+title_zh: "齐次坐标下的配极条件（定理2.28）"
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [polarity, correlation, homogeneous-coordinates, matrix, automorphism]
+depends_on:
+  required: [correlation-in-homogeneous-coordinates]
+  recommended: [semilinear-transformation]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II. Classical Projective Planes"
+    section: "5. The Line in the Plane"
+    pages: ""
+    role_in_book: "A correlation is a polarity iff the associated automorphism is involutory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

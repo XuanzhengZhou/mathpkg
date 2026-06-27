@@ -1,0 +1,23 @@
+id: classification-of-ruled-surfaces
+title_en: "Classification of Ruled Surfaces by Decomposability of the Normalized Bundle"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-surfaces
+difficulty: advanced
+tags: [ruled-surface, classification, locally-free-sheaf, decomposable, indecomposable, invariant-e]
+depends_on:
+  required: [normalized-bundle-invariant, section-formula-ruled-surface]
+  recommended: [locally-free-sheaf, extension-class, grothendieck-classification]
+  suggested: [atiyah-classification-vector-bundles-curves]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "2"
+    pages: "374"
+    role_in_book: "Main classification theorem: bounds on the invariant e based on decomposability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

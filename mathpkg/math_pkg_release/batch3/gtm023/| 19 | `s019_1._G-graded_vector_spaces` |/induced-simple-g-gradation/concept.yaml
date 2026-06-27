@@ -1,0 +1,23 @@
+id: induced-simple-g-gradation
+title_en: "Induced simple G-gradation from a Gp-gradation"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [gp-gradation, total-degree, induced-gradation, sum-homomorphism]
+depends_on:
+  required: [gp-gradation, induced-gradation-via-group-homomorphism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VI"
+    section: "§1. G-graded vector spaces"
+    pages: "185"
+    role_in_book: "Definition; constructs total degree from multi-grading"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: beta-x-minus-vx-characterization
+title_en: "Characterization of Points in $\beta X \setminus vX$"
+title_zh: "βX∖vX中点的刻画"
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [beta-X, vX, C-star, unit, z-filter, hyper-real]
+depends_on:
+  required: [hewitt-realcompactification-vx, stone-cech-compactification, C-star]
+  recommended: [hyper-real-ideal, z-filter]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "8"
+    section: "8.8"
+    pages: ""
+    role_in_book: "Relates C and C* distinction to vX via units of C that are not units of C*"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

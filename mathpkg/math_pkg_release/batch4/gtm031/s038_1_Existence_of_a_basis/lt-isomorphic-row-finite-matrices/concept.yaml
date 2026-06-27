@@ -1,0 +1,23 @@
+id: lt-isomorphic-row-finite-matrices
+title_en: "Isomorphism Between Linear Transformations and Row-Finite Matrices"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [linear-transformation, row-finite-matrix, isomorphism, matrix-representation]
+depends_on:
+  required: [row-finite-matrix, linear-transformation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "The correspondence between linear transformations and row-finite matrices is a bijection; the matrix of a sum is the sum of matrices, giving a group isomorphism."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

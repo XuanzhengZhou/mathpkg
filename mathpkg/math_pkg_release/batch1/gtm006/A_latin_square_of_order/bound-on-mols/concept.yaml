@@ -1,0 +1,23 @@
+id: bound-on-mols
+title_en: "Bound on the Number of Mutually Orthogonal Latin Squares"
+title_zh: "正交拉丁方数量的上界"
+type: theorem
+domain: combinatorics
+subdomain: latin-squares
+difficulty: intermediate
+tags: [mols, bound, mutually-orthogonal-latin-squares]
+depends_on:
+  required: [orthogonal-latin-squares, mols-normal-form]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "5"
+    section: "5. Latin Squares"
+    pages: ""
+    role_in_book: "Property 2 — maximum n-1 MOLS of order n"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

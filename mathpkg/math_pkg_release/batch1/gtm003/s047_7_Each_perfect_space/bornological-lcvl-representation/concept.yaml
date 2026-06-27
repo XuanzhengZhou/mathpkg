@@ -1,0 +1,23 @@
+id: bornological-lcvl-representation
+title_en: "Representation of Bornological Sequentially Complete LCVL"
+title_zh: "bornological且序列完备的LCVL的表示"
+type: theorem
+domain: analysis
+subdomain: ordered-topological-vector-spaces
+difficulty: advanced
+tags: [bornological, sequentially-complete, lcvl, inductive-limit, am-space, compact-space, representation-theorem]
+depends_on:
+  required: []
+  recommended: [bornological-space, sequentially-complete, locally-convex-vector-lattice, inductive-limit, am-space-with-unit]
+  suggested: [kakutanis-am-space-representation]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "V: Order Structures"
+    section: "8. Stone-Weierstrass and Representation Theorems"
+    pages: ""
+    role_in_book: "8.7: represents bornological sequentially complete l.c.v.l. as inductive limit of C_R(X_alpha)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

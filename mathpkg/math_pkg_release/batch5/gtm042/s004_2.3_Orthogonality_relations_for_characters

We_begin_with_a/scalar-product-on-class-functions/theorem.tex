@@ -1,0 +1,7 @@
+If $\phi$ and $\psi$ are two complex-valued functions on a finite group $G$, the scalar product $(\phi|\psi)$ is defined by
+$$(\phi|\psi) = \frac{1}{g} \sum_{t \in G} \phi(t)\psi(t)^*,$$
+where $g$ denotes the order of $G$ and $\psi(t)^*$ denotes the complex conjugate of $\psi(t)$. This is a scalar product: it is linear in $\phi$, semilinear in $\psi$, and $(\phi|\phi) > 0$ for all $\phi \neq 0$.
+
+If $\check{\psi}$ is the function defined by $\check{\psi}(t) = \psi(t^{-1})^*$, then
+$$(\phi|\psi) = \frac{1}{g} \sum_{t \in G} \phi(t)\check{\psi}(t^{-1}) = \langle \phi, \check{\psi} \rangle,$$
+where $\langle \phi, \psi \rangle = \frac{1}{g} \sum_{t \in G} \phi(t)\psi(t^{-1})$. In particular, if $\chi$ is the character of a representation of $G$, then $\check{\chi} = \chi$, so that $(\phi|\chi) = \langle \phi, \chi \rangle$ for all functions $\phi$ on $G$.

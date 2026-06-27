@@ -1,0 +1,23 @@
+id: weinstein-invariance-of-generating-functions
+title_en: "Weinstein's Theorem on Invariance of Poincaré's Generating Function"
+title_zh: "Weinstein关于庞加莱生成函数不变性定理"
+type: theorem
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [generating-function, invariance, symplectic-diffeomorphism, fixed-point, canonical-coordinates]
+depends_on:
+  required: []
+  recommended: [generating-function-for-symplectic-diffeomorphism, symplectic-diffeomorphism, canonical-coordinates, linearization]
+  suggested: [symplectic-topology]
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 9"
+    section: "F"
+    pages: "434-435"
+    role_in_book: "Establishes that the generating function is an invariant near a fixed point, enabling coordinate-independent fixed-point theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

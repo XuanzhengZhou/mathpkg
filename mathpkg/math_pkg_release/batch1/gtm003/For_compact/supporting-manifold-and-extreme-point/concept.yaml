@@ -1,0 +1,23 @@
+id: supporting-manifold-and-extreme-point
+title_en: "Supporting Manifold and Extreme Point"
+title_zh: "支持流形与极点"
+type: definition
+domain: analysis
+subdomain: convex-analysis
+difficulty: basic
+tags: [convex-set, supporting-manifold, supporting-hyperplane, extreme-point, locally-convex-space]
+depends_on:
+  required: []
+  recommended: [convex-set, topological-vector-space]
+  suggested: [krein-milman-theorem]
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "10"
+    section: "Compact Convex Sets"
+    pages: ""
+    role_in_book: "Definition 10.2: supporting manifold, supporting hyperplane, and extreme point of a convex set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

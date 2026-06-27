@@ -1,0 +1,15 @@
+---
+role: exercise
+locale: en
+chapter: "F"
+section: "52"
+exercise_number: 15
+---
+
+Let $\Lambda = (V, \mathcal{M})$ be a matroid and suppose that $\Lambda = \bigoplus_{i=1}^{k} \Lambda_i$, where $\Lambda_i = (V_i, \mathcal{M}_i)$ for $i = 1, \ldots, k$. Prove that:
+
+(a) If $\mathcal{T}$ is a Tutte subspace over $\mathbb{F}$ for $\Lambda$, and $U \subseteq V$, then $\{h|_{U} : h \in \mathcal{T}\}$ is a Tutte subspace over $\mathbb{F}$ for $\Lambda_{[U]}$. In particular, if $U = V_i$, then $\{h|_{U} : h \in \mathcal{T}\} = \mathcal{T} \cap \mathbb{F}^{V_i}$.
+
+(b) If $\mathcal{T}_i$ is a Tutte subspace over $\mathbb{F}$ for $\Lambda_i$ ($i = 1, \ldots, k$), then $\bigoplus_{i=1}^{k} \mathcal{T}_i$ is a Tutte subspace over $\mathbb{F}$ for $\Lambda$.
+
+(c) If $\mathcal{T}_i$ is a subspace of $\mathbb{Q}^{V_i}$ ($i = 1, \ldots, k$), then $\bigoplus_{i=1}^{k} \mathcal{T}_i$ is unimodular if and only if $\mathcal{T}_i$ is unimodular, for $i = 1, \ldots, k$. (Cf. Exercise IVA18.)

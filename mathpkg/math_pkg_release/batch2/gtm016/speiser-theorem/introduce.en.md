@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $V$ be a vector space over $K$ and $\sigma(v)$ a continuous $G$-product on $V$ with $G$ an algebraic subgroup of $\operatorname{Aut} K$. Then $V^G$ is a $K^G$-form of $V$, i.e., $V = K \otimes_{K^G} V^G$.

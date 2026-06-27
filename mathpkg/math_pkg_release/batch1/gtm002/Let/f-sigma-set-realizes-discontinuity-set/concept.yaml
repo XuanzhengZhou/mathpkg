@@ -1,0 +1,23 @@
+id: f-sigma-set-realizes-discontinuity-set
+title_en: "Any F-sigma Set is the Discontinuity Set of Some Bounded Function"
+title_zh: "任何F_σ集都是某个有界函数的不连续点集"
+type: theorem
+domain: analysis
+subdomain: real-analysis
+difficulty: intermediate
+tags: [f-sigma, discontinuity, real-function, constructive-proof]
+depends_on:
+  required: [discontinuity-set-is-f-sigma, oscillation-at-point]
+  recommended: [uniform-convergence, series-of-functions]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "7"
+    section: "7"
+    pages: "39-43"
+    role_in_book: "Converse to Theorem 7.1; shows F_σ is exact characterization of discontinuity sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

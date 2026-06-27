@@ -1,0 +1,23 @@
+id: orthogonal-group
+title_en: "Orthogonal Group of a Conic"
+title_zh: "圆锥曲线的正交群"
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [orthogonal-group, conic, collineation, automorphism, polarities]
+depends_on:
+  required: [conic]
+  recommended: [exercise-2-34, collineation]
+  suggested: [projective-general-linear-group, conjugate-subgroups]
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II"
+    section: "7. Conics"
+    pages: "61-67"
+    role_in_book: "Defines the orthogonal group as the subgroup of PGL(V) fixing a nonempty conic, equivalently the centralizer of the polarity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

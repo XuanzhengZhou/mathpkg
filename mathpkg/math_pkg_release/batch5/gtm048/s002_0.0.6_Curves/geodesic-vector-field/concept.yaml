@@ -1,0 +1,23 @@
+id: geodesic-vector-field
+title_en: "Geodesic Vector Field"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [vector-field, geodesic, covariant-derivative, integral-curve]
+depends_on:
+  required: [geodesic, vector-field, covariant-derivative]
+  recommended: [integral-curve]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "Sachs and Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "0"
+    section: "0.0.6"
+    pages: ""
+    role_in_book: "Defines vector fields whose integral curves are geodesics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

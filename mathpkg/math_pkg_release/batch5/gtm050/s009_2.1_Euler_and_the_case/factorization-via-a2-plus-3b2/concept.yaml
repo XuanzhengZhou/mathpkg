@@ -1,0 +1,23 @@
+id: factorization-via-a2-plus-3b2
+title_en: "Factorization of p and q via a^2 + 3b^2"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [quadratic-form, a2-plus-3b2, unique-factorization, cubic-fermat-equation, euler]
+depends_on:
+  required: [gcd-of-cubic-fermat-factors]
+  recommended: [unique-factorization-in-z-sqrt-minus3]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.2"
+    pages: ""
+    role_in_book: "Assuming p^2+3q^2 is a cube and using the identity (a^2+3b^2)^3, Euler deduces the factorization p = a(a-3b)(a+3b), q = 3b(a-b)(a+b) with coprime integers a,b."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

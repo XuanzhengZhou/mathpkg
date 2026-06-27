@@ -1,0 +1,23 @@
+id: classification-of-principal-g-bundles-over-cw-complexes
+title_en: "Classification Theorem for Principal G-Bundles over CW-Complexes"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: principal-bundles
+difficulty: advanced
+tags: [classifying-space, cw-complex, principal-bundle, classification-theorem, bijection]
+depends_on:
+  required: [homotopy-classification-via-isomorphic-pullbacks]
+  recommended: [principal-g-bundle, cw-complex, homotopy-classes, locally-trivial-bundle]
+  suggested: [universal-g-bundle, obstruction-theory]
+source_books:
+- book_id: gtm020
+  author: "Dale Husemoller"
+  title: "Fibre Bundles"
+  chapter: "4"
+  section: "13"
+  pages: ""
+  role_in_book: "Theorem 13.1: The main classification theorem. For a CW-complex B and a locally trivial principal G-bundle ω whose total space is sufficiently highly connected, the function φ_ω(B): [B, B_0] → k_G(B) sending a homotopy class to the isomorphism class of the pullback bundle is a bijection."
+content_hash: "a3c1be5f7ef71c02419b8050fbf8eaad241217a6edd367b58dd153ab3ea06be2"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

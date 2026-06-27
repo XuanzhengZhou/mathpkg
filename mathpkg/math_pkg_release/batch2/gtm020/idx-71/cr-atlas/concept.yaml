@@ -1,0 +1,23 @@
+id: cr-atlas
+title_en: "$C^r$-atlas"
+title_zh: "$C^r$图册"
+type: definition
+domain: geometry
+subdomain: differentiable-manifolds
+difficulty: advanced
+tags: [atlas, differentiable-structure, manifold]
+depends_on:
+  required: [chart, cr-map]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "18. Differentiable Manifolds"
+    section: "1"
+    pages: ""
+    role_in_book: "Definition 1.2: fundamental structure for differentiable manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

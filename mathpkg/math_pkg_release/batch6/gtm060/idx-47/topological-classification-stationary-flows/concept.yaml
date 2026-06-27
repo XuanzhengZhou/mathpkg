@@ -1,0 +1,23 @@
+id: topological-classification-stationary-flows
+title_en: "Topological Classification of Stationary Flows (Theorem 11)"
+title_zh: "定常流的拓扑分类（定理11）"
+type: theorem
+domain: geometry
+subdomain: hydrodynamics
+difficulty: advanced
+tags: [stationary-flow, bernoulli-surface, vorticity, topological-classification, torus]
+depends_on:
+  required: [vorticity-equation]
+  recommended: [liouville-theorem, torus, lie-group-action]
+  suggested: [ergodic-theory]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 2"
+    section: "Section 47"
+    pages: ""
+    role_in_book: "Theorem 11: Topological classification of stationary flows of ideal fluid on three-dimensional Riemannian manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

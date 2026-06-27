@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "21"
+section: "21"
+exercise_number: 11
+---
+
+Let phi: G -> G' be an epimorphism of connected algebraic groups. If T is a maximal torus of G, T' = phi(T), prove that C_G(T)^circ is mapped onto C_{G'}(T')^circ.

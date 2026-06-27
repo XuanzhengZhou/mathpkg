@@ -1,0 +1,23 @@
+id: corollary-a-star-in-u-star-d-n
+title_en: "Corollary: A*(u)_{k×n} ⊆ [u*]^k(d_n)"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: ["Lubin-Tate", "formal-group", "local-field"]
+depends_on:
+  required: ["lemma-a-star-in-m-n"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Corollary refining the inclusion of torsion in the kernel of the logarithm"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

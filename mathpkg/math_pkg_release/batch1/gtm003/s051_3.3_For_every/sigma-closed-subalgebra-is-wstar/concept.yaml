@@ -1,0 +1,23 @@
+id: sigma-closed-subalgebra-is-wstar
+title_en: "Every σ(W, V)-closed C*-subalgebra of a W*-algebra is a W*-algebra"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: von-neumann-algebras
+difficulty: advanced
+tags: [wstar-algebra, weak-star-closed, subalgebra, duality]
+depends_on:
+  required: [wstar-algebra-definition, pwp-sigma-closed-in-wstar]
+  recommended: [bipolar-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "6"
+    section: "6.4"
+    pages: ""
+    role_in_book: "Characterizes W*-subalgebras as precisely the σ-closed C*-subalgebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

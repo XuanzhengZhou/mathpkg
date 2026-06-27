@@ -1,0 +1,23 @@
+id: canonical-divisor-ruled-surface
+title_en: "Canonical Divisor of a Ruled Surface"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-surfaces
+difficulty: advanced
+tags: [ruled-surface, canonical-divisor, adjunction-formula, intersection-theory]
+depends_on:
+  required: [picard-group-of-ruled-surface, section-formula-ruled-surface]
+  recommended: [canonical-divisor, adjunction-formula, genus-of-curve]
+  suggested: [serre-duality]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "2"
+    pages: "373"
+    role_in_book: "Explicit formula for canonical divisor K of a ruled surface, used to compute K^2 and genus invariants"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

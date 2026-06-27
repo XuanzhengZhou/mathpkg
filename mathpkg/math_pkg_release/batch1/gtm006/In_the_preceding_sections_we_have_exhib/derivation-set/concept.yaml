@@ -1,0 +1,23 @@
+id: derivation-set
+title_en: "Derivation Set"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [derivation, finite-geometry, affine-plane, baer-subplane]
+depends_on:
+  required: []
+  recommended: [affine-plane, baer-subplane, projective-plane]
+  suggested: [derived-plane]
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "X"
+    section: "2. The Basic Results and Definitions"
+    pages: ""
+    role_in_book: "Definition of a derivation set for a finite affine plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

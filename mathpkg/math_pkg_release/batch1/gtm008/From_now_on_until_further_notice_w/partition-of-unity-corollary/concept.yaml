@@ -1,0 +1,23 @@
+id: partition-of-unity-corollary
+title_en: "Partition of Unity Corollary"
+title_zh: ""
+type: corollary
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: intermediate
+tags: [partition-of-unity, boolean-valued-universe, V-B, completeness]
+depends_on:
+  required: [maximum-principle, boolean-valued-universe]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: "155-156"
+    role_in_book: "Corollary of the Maximum Principle proof: any V^(B) set can be made complete"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

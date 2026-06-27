@@ -1,0 +1,23 @@
+id: liouvilles-theorem
+title_en: "Liouville's Theorem on Volume Preservation"
+title_zh: "刘维尔体积保持定理"
+type: theorem
+domain: applied-math
+subdomain: dynamical-systems
+difficulty: intermediate
+tags: [liouville-theorem, volume-preservation, divergence, ordinary-differential-equations, phase-flow]
+depends_on:
+  required: [volume-derivative-divergence-integral]
+  recommended: [determinant-expansion-first-order-trace]
+  suggested: [divergence-theorem, change-of-variables-formula]
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "B"
+    pages: "83-87"
+    role_in_book: "Core theorem: a system of ODEs with zero divergence preserves volume in phase space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

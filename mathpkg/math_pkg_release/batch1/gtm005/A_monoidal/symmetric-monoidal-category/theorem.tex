@@ -1,0 +1,11 @@
+A \emph{symmetric monoidal category} is a braided monoidal category in which the braiding $\gamma$ satisfies the additional condition
+$$\gamma_{b,a} \circ \gamma_{a,b} = 1_{a \square b},$$
+or equivalently $\gamma^2 = 1$, i.e., the diagram
+\[
+\begin{CD}
+a \square b @>{\gamma_{a,b}}>> b \square a \\
+@| @VV{\gamma_{b,a}}V \\
+a \square b @= a \square b
+\end{CD}
+\]
+commutes for all objects $a, b$. In this case, either one of the hexagon axioms (7) implies the other.

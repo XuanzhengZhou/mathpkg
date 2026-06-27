@@ -1,0 +1,23 @@
+id: formal-multiplicative-group-g-n
+title_en: "Corollary: Structure of the Formal Multiplicative Group"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: ["formal-group", "multiplicative-group", "Lubin-Tate", "cyclotomic"]
+depends_on:
+  required: ["log-norm-congruence-corollary"]
+  recommended: ["lubin-tate-formal-group-law"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "9"
+    section: "1"
+    pages: ""
+    role_in_book: "Description of the formal multiplicative group in terms of power series"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

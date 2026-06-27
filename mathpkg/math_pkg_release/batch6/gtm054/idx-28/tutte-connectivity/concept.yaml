@@ -1,0 +1,23 @@
+id: tutte-connectivity
+title_en: "Tutte connectivity of a multigraph"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: multigraph-connectivity
+difficulty: intermediate
+tags: [tutte-connectivity, multigraph, k-separated]
+depends_on:
+  required: [k-separated-multigraph]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "Chapter VI"
+    section: "Section 30"
+    pages: ""
+    role_in_book: "Defines the Tutte connectivity τ(Γ) as the minimum k for which Γ is k-separated."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

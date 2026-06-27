@@ -1,0 +1,13 @@
+id: sg-bar-is-primitive-recursive
+title_en: "The Modified Sign Function is Primitive Recursive"
+title_zh: "修正符号函数是原始递归的"
+type: lemma
+domain: logic
+subdomain: recursive-function-theory
+difficulty: basic
+tags: [primitive-recursive, sign-function, sg-bar]
+depends_on: {required: [subtraction-is-primitive-recursive], recommended: [constant-zero-function], suggested: []}
+source_books: [{book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "1", section: "Recursive Function Theory", pages: "43-46", role_in_book: "Demonstration that the modified sign function (sg-bar) is primitive recursive"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

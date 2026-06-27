@@ -1,0 +1,23 @@
+id: biconnected-multigraph
+title_en: "Biconnected Multigraph"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: basic
+tags: [multigraph, biconnected, connectivity, articulation-vertex]
+depends_on:
+  required: [multigraph, articulation-vertex]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "III"
+    section: "B"
+    pages: ""
+    role_in_book: "Definition of biconnected multigraph; introduces section IIIB"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: k-dimensional-singular-cell
+title_en: "k-dimensional singular cell (singular k-dimensional polyhedron)"
+title_zh: "k维奇异胞腔（奇异k维多面体）"
+type: definition
+domain: geometry
+subdomain: integration-of-forms
+difficulty: intermediate
+tags: [singular-cell, chain, manifold, integration-domain]
+depends_on: {required: [differential-k-form-on-manifold], recommended: [convex-polyhedron, differentiable-map], suggested: []}
+source_books: [{book_id: "gtm060", author: "V.I. Arnold", title: "Mathematical Methods of Classical Mechanics", chapter: "7", section: "35", pages: "195", role_in_book: "Defines the basic building block for chains over which differential forms are integrated"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

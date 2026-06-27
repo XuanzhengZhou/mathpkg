@@ -1,0 +1,23 @@
+id: weakly-free-object
+title_en: "Weakly Free Object"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [adjoint-functor, free-object, weak-universal-property, solution-set]
+depends_on:
+  required: [functor, category, morphism]
+  recommended: [free-object, left-adjoint, solution-set-condition]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.24"
+    pages: ""
+    role_in_book: "Intermediate construction in proof of General Adjoint Functor Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

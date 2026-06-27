@@ -1,0 +1,23 @@
+id: ratio-limit-for-hitting-time-of-single-point
+title_en: "Ratio limit for the hitting time of a single point"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [ratio-limit, hitting-time, random-walk, aperiodic, recurrent, transient]
+depends_on:
+  required: []
+  recommended: [potential-kernel, hitting-probability, green-function]
+  suggested: [markov-chain, stopping-time, abel-theorem]
+source_books:
+  - book_id: gtm034
+    author: Frank Spitzer
+    title: Principles of Random Walk, 2nd ed.
+    chapter: "VII"
+    section: "32"
+    pages: "?"
+    role_in_book: "Main result of Section 32: asymptotic ratio of hitting time survival probabilities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

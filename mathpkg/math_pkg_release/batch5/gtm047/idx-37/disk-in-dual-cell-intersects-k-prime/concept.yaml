@@ -1,0 +1,23 @@
+id: disk-in-dual-cell-intersects-k-prime
+title_en: "Lemma 8: A disk in a dual cell intersecting a pseudocell must intersect K'"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [disk, dual-cell, pseudocell, intersection, polyhedron, no-endpoints]
+depends_on:
+  required: [dual-cell-boundary-intersection-is-2-manifold]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "8"
+    section: "33"
+    pages: "239-246"
+    role_in_book: "Key lemma using the no-endpoints hypothesis to force intersection with K'"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

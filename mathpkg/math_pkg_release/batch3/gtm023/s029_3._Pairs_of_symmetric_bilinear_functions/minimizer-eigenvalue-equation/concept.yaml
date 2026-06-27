@@ -1,0 +1,23 @@
+id: minimizer-eigenvalue-equation
+title_en: "Minimizer of F(x) = Φ(x)/Ψ(x) satisfies generalized eigenvalue equation"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [symmetric-bilinear-forms, simultaneous-diagonalization, eigenvalue, minimization]
+depends_on:
+  required: [positive-definite-inner-product, symmetric-bilinear-function, nondegenerate-bilinear-form, continuous-function-on-sphere]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IX"
+    section: "§3, 9.14"
+    pages: ""
+    role_in_book: "Key lemma in the proof of simultaneous diagonalization of symmetric bilinear pairs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

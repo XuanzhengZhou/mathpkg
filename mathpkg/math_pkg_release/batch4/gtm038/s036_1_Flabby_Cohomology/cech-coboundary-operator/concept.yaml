@@ -1,0 +1,23 @@
+id: cech-coboundary-operator
+title_en: "Čech Coboundary Operator and Čech Complex"
+title_zh: "切赫上边缘算子与切赫复形"
+type: definition
+domain: topology
+subdomain: sheaf-cohomology
+difficulty: intermediate
+tags: ["Čech complex", "coboundary operator", "sheaf cohomology", "alternating cochain"]
+depends_on:
+  required: ["alternating-cech-cochain"]
+  recommended: ["cochain-complex", "cohomology-group"]
+  suggested: ["simplicial-cohomology", "nerve-of-covering"]
+source_books:
+  - book_id: "gtm038"
+    author: "Raghavan Narasimhan"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the Čech complex used to compute sheaf cohomology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

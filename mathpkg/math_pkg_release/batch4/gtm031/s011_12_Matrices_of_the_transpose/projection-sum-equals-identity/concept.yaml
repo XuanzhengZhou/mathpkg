@@ -1,0 +1,23 @@
+id: projection-sum-equals-identity
+title_en: "Sum of Projections Equals Identity"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [projection, direct-sum, identity-transformation]
+depends_on:
+  required: [projection-mapping-from-direct-sum]
+  recommended: [direct-sum-of-vector-spaces]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "2"
+    section: "12"
+    pages: ""
+    role_in_book: "Establishes that the sum of all projection mappings equals the identity transformation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

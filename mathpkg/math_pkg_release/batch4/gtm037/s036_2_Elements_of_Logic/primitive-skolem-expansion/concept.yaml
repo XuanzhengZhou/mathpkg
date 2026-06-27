@@ -1,0 +1,23 @@
+id: primitive-skolem-expansion
+title_en: "Primitive Skolem Expansion and Skolem Expansion"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [skolem-expansion, primitive-skolem-expansion, skolem-function, first-order-language, effective-expansion, Godel-numbering]
+depends_on:
+  required: [first-order-language, expansion-of-language, formula, free-variable, operation-symbol, partial-recursive-function]
+  recommended: [skolem-set-properties, theory]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "11"
+    section: "2"
+    pages: ""
+    role_in_book: "Defines primitive Skolem expansion (adding Skolem functions for existential formulas) and Skolem expansion (iterated primitive Skolem expansions)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

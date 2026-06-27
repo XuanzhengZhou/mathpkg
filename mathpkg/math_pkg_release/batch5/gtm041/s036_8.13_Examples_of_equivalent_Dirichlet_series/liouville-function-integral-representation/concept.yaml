@@ -1,0 +1,13 @@
+id: liouville-function-integral-representation
+title_en: "Integral Representation of zeta(2s)/((s-1)zeta(s)) via Liouville Function"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: riemann-zeta-function
+difficulty: advanced
+tags: [liouville-function, riemann-zeta, abel-summation, integral-representation, analytic-continuation]
+depends_on: {required: [], recommended: [liouville-function, abel-summation], suggested: [turans-theorem-zeta-half-plane]}
+source_books: [{book_id: "gtm041", author: "Tom M. Apostol", title: "Modular Functions and Dirichlet Series in Number Theory", chapter: "8", section: "8.14", pages: "", role_in_book: "Theorem 8.19 — expresses zeta(2s)/((s-1)zeta(s)) as a Mellin-type integral of the partial sums C(x) of Liouville's function"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

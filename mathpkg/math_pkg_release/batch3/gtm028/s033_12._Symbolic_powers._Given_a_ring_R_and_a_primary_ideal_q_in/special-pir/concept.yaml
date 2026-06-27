@@ -1,0 +1,23 @@
+id: special-pir
+title_en: "Special Principal Ideal Ring"
+title_zh: "特殊主理想环"
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [pir, principal-ideal-ring, nilpotent, local-ring]
+depends_on:
+  required: [principal-ideal-ring, prime-ideal, nilpotent-ideal]
+  recommended: [local-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "IV"
+    section: "15"
+    pages: ""
+    role_in_book: "Defines special PIRs. Together with PIDs, these generate all PIRs (Theorem 33)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

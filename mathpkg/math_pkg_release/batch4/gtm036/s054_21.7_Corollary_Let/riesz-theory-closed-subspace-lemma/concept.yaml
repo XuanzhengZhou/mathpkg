@@ -1,0 +1,32 @@
+id: riesz-theory-closed-subspace-lemma
+title_en: "Riesz Theory Closed Subspace Lemma"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags:
+  - riesz-theory
+  - completely-continuous
+  - linear-topological-space
+  - compact-operator
+  - nullspace
+  - convex-circled-neighborhood
+depends_on:
+  required: []
+  recommended:
+    - completely-continuous-linear-mapping
+    - compact-set
+    - convex-circled-neighborhood
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "21"
+    section: "21.7"
+    pages: ""
+    role_in_book: "Key lemma in the Riesz theory of completely continuous operators, providing a geometric separation property used to prove stabilization of nullspace and range sequences"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

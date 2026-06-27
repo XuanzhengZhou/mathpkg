@@ -1,0 +1,23 @@
+id: cardinal-partial-operation
+title_en: "The Cardinal m-Partial Operation"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [cardinal-arithmetic, keisler-shelah, infinite-cardinals]
+depends_on:
+  required: [cardinal-numbers, cardinal-exponentiation]
+  recommended: [gch]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "26"
+    section: "Elementary Classes and Elementary Equivalence"
+    pages: ""
+    role_in_book: "Definition 26.32: m^partial is the least cardinal n with m^n > m"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

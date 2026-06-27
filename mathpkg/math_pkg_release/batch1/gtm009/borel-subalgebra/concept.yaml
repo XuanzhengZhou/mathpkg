@@ -1,0 +1,20 @@
+id: borel-subalgebra
+title_en: "Borel Subalgebra"
+title_zh: "Borel 子代数"
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [borel, maximal-solvable, root-system, flag-variety]
+depends_on: {required: [solvable-lie-algebra, root-space-decomposition], recommended: [], suggested: [parabolic-subalgebra]}
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "16"
+    section: "16.3"
+    pages: "88-94"
+    role_in_book: "Maximal solvable subalgebra, key to geometric theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

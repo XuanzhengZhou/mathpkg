@@ -1,0 +1,23 @@
+id: explicit-reciprocity-for-divisible-x-and-units
+title_en: "Theorem 6.1 — Explicit Reciprocity Law for Divisible x and Unit z"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: [explicit-reciprocity-law, norm-residue-symbol, formal-group-units]
+depends_on:
+  required: [explicit-reciprocity-law]
+  recommended: [lubin-tate-formal-group-law]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "9"
+    section: "§6"
+    pages: ""
+    role_in_book: "Extends the explicit reciprocity law to the case where the second argument is a unit"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

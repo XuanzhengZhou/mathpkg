@@ -1,0 +1,23 @@
+id: derivation-is-involution
+title_en: "Derivation is an Involution"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [derivation, involution, derived-plane, finite-geometry]
+depends_on:
+  required: [derived-affine-plane, derived-line-intersection-is-affine-plane]
+  recommended: [derivation-set]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "X"
+    section: "2. The Basic Results and Definitions"
+    pages: ""
+    role_in_book: "Theorem 10.4: Double derivation recovers the original plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

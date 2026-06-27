@@ -1,0 +1,23 @@
+id: bonnets-theorem
+title_en: "Bonnet's Theorem"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [bonnet-theorem, complete-surface, positive-curvature, compactness, diameter-bound, myers-theorem]
+depends_on:
+  required: [complete-surface, gauss-curvature, geodesic, riemannian-metric]
+  recommended: [conjugate-point, jacobi-field, sturm-comparison-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.5"
+    pages: "pp. 161–163"
+    role_in_book: "Establishes compactness of complete surfaces with curvature bounded below by a positive constant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: abstract-curve-functor-is-faithful
+title_en: "Nonsingular Projective Curve Embeds as Open Subset of Abstract Curve"
+title_zh: "非奇异射影曲线嵌入为抽象曲线的开子集"
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [abstract-curve, projective-curve, functor, faithful, open-immersion]
+depends_on:
+  required: [abstract-nonsingular-curve, nonsingular-projective-curve]
+  recommended: [discrete-valuation-ring, function-field]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "6"
+    pages: "60-61"
+    role_in_book: "Theorem 6.7, the functor from nonsingular projective curves to C_K is an open immersion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

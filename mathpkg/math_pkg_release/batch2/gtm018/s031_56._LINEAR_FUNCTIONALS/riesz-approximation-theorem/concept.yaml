@@ -1,0 +1,23 @@
+id: riesz-approximation-theorem
+title_en: "Theorem C: Approximation Theorem for Positive Linear Functionals"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [riesz-representation, approximation, positive-linear-functional]
+depends_on:
+  required: [riesz-content-regularity, riesz-integral-lower-bound]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "56"
+    section: "56. LINEAR FUNCTIONALS"
+    pages: ""
+    role_in_book: "Key approximation result used to prove the reverse inequality Λ(f) ≤ ∫fdμ"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

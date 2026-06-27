@@ -1,0 +1,23 @@
+id: jacobi-gauss-sum-relation
+title_en: "Relation Between Jacobi Sums and Gauss Sums"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: character-sums
+difficulty: intermediate
+tags: ["jacobi-sum", "gauss-sum", "finite-fields", "character-sums", "stickelberger"]
+depends_on:
+  required: ["jacobi-sum-finite-field", "gauss-sum-finite-field"]
+  recommended: ["gauss-sum-product-formula"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "1"
+    pages: "3-4"
+    role_in_book: "Property GS3 — fundamental identity J(χ,ψ) = S(χ)S(ψ)/S(χψ)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,99 @@
+Let $E_n$ be any sequence of events (sets) in a probability space (a Borel field of subsets of a space on which there is a countably additive measure $\mu$ defined, of total mass one).
+
+(a) If $\sum \mu(E_n) < \infty$ then $\mu\left[ \bigcap_{n=1}^{\infty} \bigcup_{k=n}^{\infty} E_k \right] = 0.$
+
+(b) If $\sum \mu(E_n) = \infty$ and if for some $c > 0$
+
+$$\lim_{n \to \infty} \frac{\sum_{k=1}^{n} \sum_{m=1}^{n} \mu(E_k \cap E_m)}{\left[ \sum
+
+We shall prove P3 after completing the proof of T1. Part (a) of P3 states that the series in T1 diverges if the set $A$ is recurrent. From part (b) we want to conclude the converse. So we shall suppose that the series $\sum P_0[E_n]$ diverges. If we can then verify that the limit inferior in P3 is finite we shall know that the set $A$ is visited infinitely often with positive probability. But by T25.1 this probability is $h_A(0) = h_A$ which is either zero or one. If we prove that it is positive, then it is one!
+
+Now let $T_k$ be the first time the random walk is in the set $A_k$. Thus $P_0[E_k] = P_0[T_k < \infty]$ and
+
+$$P_0[E_k \cap E_m] = P_0[T_k < T_m < \infty] + P_0[T_m < T_k < \infty]$$
+
+$$\leq P_0[T_k < \infty] \max_{z \in A_k} P_z[T_m < \infty] + P_0[T_m < \infty] \max_{z \in A_m} P_z[T_k < \infty]$$
+
+$$= P_0[E_k] \max_{z \in A_k} \sum_{y \in A_m} G(x,y)E_{A_m}(y) + P_0[E_m] \max_{z \in A_m} \sum_{y \in A_k} G(x,y)E_{A_k}(y).$$
+
+Then one uses P1 in the form $G(x,y) \leq c_2|x-y|^{-1}$ to obtain the estimate
+
+$$P_0[E_k \cap E_m] \leq c_2P_0[E_k] \max_{z \in A_k} \sum_{y \in A_m} |x-y|^{-1}E_{A_m}(y)$$
+
+$$+ c_2P_0[E_m] \max_{z \in A_m} \sum_{y \in A_k} |x-y|^{-1}E_{A_k}(y).$$
+
+If $k < m - 1$ it follows from the geometry of the sets $
+
+because the estimate we derived holds also when $m < k - 1$, and the terms with $|k - m| \leq 1$ clearly are "too few" to affect the value of the limit superior.
+
+Now it remains only to prove the Borel-Cantelli Lemma. Part (a) comes from
+
+$$\mu \left[ \bigcap_{n=1}^{\infty} \bigcup_{k=n}^{\infty} E_k \right] = \lim_{n \to \infty} \mu \left[ \bigcup_{k=n}^{\infty} E_k \right] \leq \lim_{n \to \infty} \sum_{k=n}^{\infty} \mu(E_k) = 0.$$
+
+To prove part (b), let $\phi_k = 1$ if $E_k$ occurs, and zero otherwise. Let
+
+$$N_n = \sum_{k=1}^{n} \phi_k, \quad E(N_n) = \sum_{k=1}^{n} \mu(E_k).$$
+
+For any positive $\epsilon$, let $B_{n,\epsilon}$ denote the measurable set defined by the statement that
+
+$$N_k \geq \epsilon E(N_k) \text{ for some } k \geq n.$$
+
+The Schwarz inequality reads
+
+$$[E(fg)]^2 \leq E(f^2)E(g^2),$$
+
+and choosing the measurable functions
+
+$$f = \text{characteristic function of the set } B_{n,\epsilon}$$
+
+$$g = fN_n,$$
+
+$$\mu[B_{n,\epsilon}] = E(f^2) \geq \frac{[E(fg)]^2}{E(g^2)} \geq \frac{[E(fg)]^2}{E(N_n^2)} \geq \frac{\{E(N_n) - E[N_n(1 - f)]\}^2}{E(N_n^2)}$$
+
+But
+
+$$E[N_n(1 - f)] \leq \epsilon E(N_n)$$
+
+so that
+
+$$\mu[B_{n,\epsilon}] \geq (1 - \epsilon)^2 \frac{[E(N_n)]^2}{E(N_n^2)}$$
+
+for every $n \geq 1$. Because $E(N_n) \to
+
+Thus P3 is proved, and hence T1.
+
+Wiener's test (that is the name of T1 because it imitates a test due to N. Wiener for singular points of Newtonian potential) can occasionally be used to determine whether or not a particular set is recurrent. In general the computations are prohibitively difficult.
+
+E2 Let $A$ be a set of the form $A = \bigcup_{n \geq 1} (0,0,a(n))$ where $a(n)$ is a monotone sequence of positive integers. If $a(n) = n$ it is quite obvious on other grounds that $A$ is recurrent. To apply Wiener's test, when $A$ is any monotone sequence of points along the positive $x$-axis, observe that
+
+$$C(A_n) \leq \frac{|A_n|}{G(0,0)} = k_1 |A_n|,$$
+
+by P25.11, since single points have capacity $[G(0,0)]^{-1}$.
+
+To get an inequality going the other way, observe that, in view of P1,
+
+$$\sum_{y \in A_n} G(x,y) \leq k_2 \sum_{y \in A_n} |x-y|^{-1}$$
+
+for some $k_2 > 0$. Suppose now that we are dealing with a sequence $a(n)$ for which
+
+(1) $$\max_{x \in A_n} \sum_{y \in A_n} |x-y|^{-1} \leq k_3 < \infty,$$
+
+where $k_3$ is independent of $n$. Then we have
+
+$$f(x) = \sum_{y \in A_n} G(x,y) \leq k_3, \quad x \in A_n,$$
+
+which has the following potential theoretical interpretation: the charge which is identically one on $A_n$ gives rise to a potential $f(x)$ whose boundary values are at most $k_3$. In view of P25.10 the total equilibrium charge of $A_n$ (i.e., the capacity of $A_n$) is at least as great as $k_3^{-1}$ times the number of points in $A_n$, so that
+
+$$C(A_n) \geq k_3^{-1} |
+
+It remains to exhibit examples to show that (1) is ever satisfied. In fact, equation (1) turns out to be a relatively mild regularity condition concerning the sequence $a(n)$. It may be shown to hold when
+
+$$a(n + 1) - a(n) \geq \ln n$$
+
+for large enough values of $n$. This is not enough (as pointed out by Itô and McKean [46]) to decide whether or not the set of primes on the positive $x$-axis is visited infinitely often (in fact it is, cf. [28] and [77]). However our result permits the conclusion that the set
+
+$$A = \bigcup_{n \geq 1} (0, 0, a(n)), \quad a(n) = [n \cdot \ln n \cdot \ln_2 n \dots (\ln_k n)^{\alpha}],$$
+
+where $\ln_{k+1} n = \ln (\ln_k n)$, $k \geq 1$, $\ln_1 n = \ln n$, is visited infinitely often if and only if $\alpha \leq 1$.
+
+Wiener's test (T1) was phrased in such a way that the criterion for whether a particular set is transient or not seemed to depend on the random walk in question. We shall now use the maximum principle of potential theory, in the form given by P25.10, to show that this is not the case.

@@ -1,0 +1,23 @@
+id: universal-distribution-composite-case
+title_en: "Structure of the Universal Distribution for Composite Level"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [universal-distribution, distribution, stickelberger, bernoulli, composite-distribution, partial-fraction]
+depends_on:
+  required: [universal-distribution-prime-case, universal-distribution]
+  recommended: [partial-fraction-decomposition, chinese-remainder-theorem]
+  suggested: [cyclotomic-units, stickelberger-ideal, bernoulli-distribution]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields I and II"
+    chapter: "2"
+    section: "Universal Distributions"
+    pages: ""
+    role_in_book: "Extends the structure theorem for universal distributions to arbitrary composite level N"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

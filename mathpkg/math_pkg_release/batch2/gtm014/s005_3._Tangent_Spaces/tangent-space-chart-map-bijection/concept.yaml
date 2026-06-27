@@ -1,0 +1,23 @@
+id: tangent-space-chart-map-bijection
+title_en: "Tangent Space Chart Map is a Bijection"
+title_zh: "切空间图表映射是双射"
+type: lemma
+domain: geometry
+subdomain: smooth-manifolds
+difficulty: basic
+tags: [tangent-space, chart, bijection, equivalence-class, smooth-manifold]
+depends_on:
+  required: [tangency-of-curves-on-manifold]
+  recommended: [curve-on-manifold-based-at-point]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "1"
+    section: "3"
+    pages: ""
+    role_in_book: "Lemma 3.3 — establishes that T_pX is identified with R^n via charts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

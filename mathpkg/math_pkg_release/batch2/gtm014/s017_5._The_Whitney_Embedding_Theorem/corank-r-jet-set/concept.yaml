@@ -1,0 +1,23 @@
+id: corank-r-jet-set
+title_en: "Corank-r 1-Jet Set S_r"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [jet-bundle, corank, singularity-theory, thom-boardman, stratification]
+depends_on:
+  required: [corank-of-one-jet]
+  recommended: [jet-bundle]
+  suggested: [submanifold]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "5"
+    section: "The Whitney Embedding Theorem"
+    pages: ""
+    role_in_book: "definition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

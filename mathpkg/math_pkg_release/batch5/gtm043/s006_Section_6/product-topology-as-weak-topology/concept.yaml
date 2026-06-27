@@ -1,0 +1,23 @@
+id: product-topology-as-weak-topology
+title_en: "Product Topology as Weak Topology Induced by Projections"
+title_zh: "积拓扑作为投射诱导的弱拓扑"
+type: definition
+domain: topology
+subdomain: product-topology
+difficulty: intermediate
+tags: [product-topology, weak-topology, projection, initial-topology]
+depends_on:
+  required: [topology-determined-by-family-of-mappings, product-space]
+  recommended: [completely-regular-space]
+  suggested: [tychonoff-theorem]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.10"
+    pages: ""
+    role_in_book: "Defines product topology as a special case of the weak topology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

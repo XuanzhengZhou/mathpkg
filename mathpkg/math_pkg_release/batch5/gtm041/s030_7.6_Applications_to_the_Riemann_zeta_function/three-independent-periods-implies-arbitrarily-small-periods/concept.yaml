@@ -1,0 +1,23 @@
+id: three-independent-periods-implies-arbitrarily-small-periods
+title_en: "Three linearly independent periods imply arbitrarily small nonzero periods"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [periodic-functions, three-periods, kroneckers-theorem, meromorphic-functions, diophantine-approximation]
+depends_on:
+  required: [irrational-period-ratio-implies-arbitrarily-small-periods]
+  recommended: [kroneckers-approximation-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "7"
+    section: "7.7"
+    pages: ""
+    role_in_book: "Theorem 7.13 — if a meromorphic function has three periods linearly independent over the integers, then it has arbitrarily small nonzero periods."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

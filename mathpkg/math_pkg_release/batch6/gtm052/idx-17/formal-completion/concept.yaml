@@ -1,0 +1,23 @@
+id: formal-completion
+title_en: "Formal Completion of a Scheme Along a Closed Subscheme"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [formal-scheme, completion, inverse-limit, noetherian-scheme]
+depends_on:
+  required: [inverse-system, inverse-limit, completion-of-ring]
+  recommended: [inverse-limit-of-sheaves]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "9"
+    pages: "206-212"
+    role_in_book: "Definition — core construction for the theory of formal schemes; generalizes completion of a ring to a geometric setting"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

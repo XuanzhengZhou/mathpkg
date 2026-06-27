@@ -1,0 +1,23 @@
+id: lattice-quotient-bijection
+title_en: "Bijection between Lattices up to Homothety and H/G"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: ["lattice", "homothety", "elliptic-curve", "modular-group", "fundamental-domain"]
+depends_on:
+  required: ["the-modular-group", "fundamental-domain-of-modular-group"]
+  recommended: ["elliptic-curve", "weierstrass-function"]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Connects lattices in C to the quotient H/G, and hence to modular forms."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

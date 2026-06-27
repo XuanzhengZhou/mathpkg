@@ -1,0 +1,1 @@
+The $L^p$ spaces are the central function spaces in modern analysis. For $p=1$, it is the space of absolutely integrable functions; for $p=2$, it is a Hilbert space; for general $p$, they are Banach spaces.

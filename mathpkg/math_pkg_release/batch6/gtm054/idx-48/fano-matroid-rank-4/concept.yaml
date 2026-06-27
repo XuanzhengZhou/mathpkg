@@ -1,0 +1,23 @@
+id: fano-matroid-rank-4
+title_en: "Fano Matroid of Rank 4"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: matroid-theory
+difficulty: intermediate
+tags: [fano-matroid, matroid, projective-plane-of-order-2, cycle-system, rank-4]
+depends_on:
+  required: []
+  recommended: [matroid, cycle-system, independence-system, basis-system]
+  suggested: [projective-plane-of-order-2]
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "X"
+    section: "B"
+    pages: "288-294"
+    role_in_book: "B23 Example: introduces the Fano matroid of rank 4 as a concrete matroid arising from the projective plane of order 2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

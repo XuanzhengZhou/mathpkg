@@ -1,0 +1,23 @@
+id: quantifier-free-type
+title_en: "Quantifier-Free Type"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: basic
+tags: [quantifier-free, type, formula]
+depends_on:
+  required: [type, quantifier-free-formula]
+  recommended: [saturated-structure]
+  suggested: [quantifier-elimination-criterion]
+source_books:
+  - book_id: gtm053
+    author: "Yuri I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "3"
+    section: "3.18"
+    pages: ""
+    role_in_book: "Definition of quantifier-free type, precursor to quantifier elimination"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

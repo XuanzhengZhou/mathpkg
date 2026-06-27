@@ -1,0 +1,30 @@
+id: lens-space-definition
+title_en: Lens space L(p; q_1, ..., q_n)
+title_zh: ''
+type: definition
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags:
+- lens-space
+- spherical-space-form
+- finite-cyclic-group
+- join
+depends_on:
+  required:
+  - free-group-action-on-manifold
+  - join
+  - sphere
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm010
+  author: Marshall M. Cohen
+  title: A Course in Simple-Homotopy Theory
+  chapter: '26'
+  section: '26'
+  pages: ''
+  role_in_book: 'Central definition: the main example class of the book'
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

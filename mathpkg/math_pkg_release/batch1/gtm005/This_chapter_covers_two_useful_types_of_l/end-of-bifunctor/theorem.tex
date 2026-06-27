@@ -1,0 +1,11 @@
+An **end** of a functor $S: C^{\text{op}} \times C \rightarrow X$ is a universal dinatural transformation $\omega: e \mathbin{\dot{\rightarrow}} S$ from a constant $e \in X$ to $S$. Explicitly, it consists of an object $e \in X$ and for each $c \in C$ an arrow $\omega_c: e \rightarrow S(c, c)$, called a **wedge**, such that for each arrow $f: c \rightarrow c'$ the square
+
+$$\begin{array}{ccc}
+e & \xrightarrow{\omega_c} & S(c, c) \\
+\omega_{c'} \downarrow & & \downarrow S(1, f) \\
+S(c', c') & \xrightarrow{S(f, 1)} & S(c, c')
+\end{array}$$
+
+commutes, and $e$ is universal: for any wedge $\tau: x \rightarrow S$ there is a unique arrow $h: x \rightarrow e$ with $\omega_c \circ h = \tau_c$ for all $c \in C$. The end is denoted by integral notation:
+
+$$e = \int_c S(c, c) = \operatorname{End} S.$$

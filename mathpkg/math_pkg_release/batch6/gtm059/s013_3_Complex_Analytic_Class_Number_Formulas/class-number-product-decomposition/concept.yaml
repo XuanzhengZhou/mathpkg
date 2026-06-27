@@ -1,0 +1,23 @@
+id: class-number-product-decomposition
+title_en: "Product Decomposition of the Class Number"
+title_zh: "类数的乘积分解"
+type: theorem
+domain: number-theory
+subdomain: class-number-formula
+difficulty: advanced
+tags: [class-number, product-decomposition, real-field, imaginary-field, L-series]
+depends_on:
+  required: []
+  recommended: [analytic-class-number-formula, regulator, dirichlet-l-function]
+  suggested: [functional-equation]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "Complex Analytic Class Number Formulas"
+    pages: "86-89"
+    role_in_book: "Theorem 3.1 — expresses class number as product of certain arithmetic factors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

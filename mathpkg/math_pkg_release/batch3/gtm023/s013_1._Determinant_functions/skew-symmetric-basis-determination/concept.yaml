@@ -1,0 +1,23 @@
+id: skew-symmetric-basis-determination
+title_en: "Determination of skew symmetric n-linear maps by basis values"
+title_zh: "斜对称n重线性映射由基上的值决定"
+type: proposition
+domain: algebra
+subdomain: multilinear-algebra
+difficulty: intermediate
+tags: [skew-symmetric, basis, determinant, multilinear]
+depends_on:
+  required: [skew-symmetric-p-linear-map, p-linear-map]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IV"
+    section: "§1. Determinant functions"
+    pages: "4.2"
+    role_in_book: "Proposition II: An n-linear skew symmetric map on an n-dimensional space is determined by its value on one basis; vanishes on basis implies zero everywhere"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

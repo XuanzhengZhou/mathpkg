@@ -1,0 +1,15 @@
+Let \(G\) be an open subset of \(\mathbb{C}\) and \((\Omega, d)\) a complete metric space. Let \(C(G, \Omega)\) denote the set of continuous functions from \(G\) to \(\Omega\).
+
+A set \(\mathcal{F} \subset C(G, \Omega)\) is \textbf{equicontinuous at a point} \(z_0\) in \(G\) iff for every \(\epsilon > 0\) there is a \(\delta > 0\) such that for \(|z - z_0| < \delta\),
+\[
+d(f(z), f(z_0)) < \epsilon
+\]
+for every \(f\) in \(\mathcal{F}\).
+
+\(\mathcal{F}\) is \textbf{equicontinuous over a set} \(E \subset G\) if for every \(\epsilon > 0\) there is a \(\delta > 0\) such that for \(z\) and \(z'\) in \(E\) and \(|z - z'| < \delta\),
+\[
+d(f(z), f(z')) < \epsilon
+\]
+for all \(f\) in \(\mathcal{F}\).
+
+Note that if \(\mathcal{F} = \{f\}\) consists of a single function, then equicontinuity at \(z_0\) reduces to continuity of \(f\) at \(z_0\), and equicontinuity over \(E\) reduces to uniform continuity of \(f\) on \(E\). The essential feature of equicontinuity is that the same \(\delta\) works uniformly for all functions in the family \(\mathcal{F}\).

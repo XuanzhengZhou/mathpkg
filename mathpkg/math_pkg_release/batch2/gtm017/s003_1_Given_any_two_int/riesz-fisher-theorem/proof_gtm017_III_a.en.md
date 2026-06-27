@@ -1,0 +1,1 @@
+For mean square convergence: Let $\{X_n\}$ be Cauchy in $L^2$, i.e., $E|X_n - X_m|^2 \to 0$. Choose subsequence $n_k$ such that $E|X_{n_{k+1}} - X_{n_k}|^2 < 2^{-k}$. By Chebyshev, $\sum P(|X_{n_{k+1}} - X_{n_k}| > 2^{-k/2}) < \infty$. By Borel-Cantelli, $X_{n_k}$ converges a.s. to some $X$. Fatou's lemma gives $E|X_n - X|^2 \leq \liminf_k E|X_n - X_{n_k}|^2 \to 0$.

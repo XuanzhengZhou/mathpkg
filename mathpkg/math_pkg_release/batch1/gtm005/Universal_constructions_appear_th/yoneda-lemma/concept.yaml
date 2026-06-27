@@ -1,0 +1,23 @@
+id: yoneda-lemma
+title_en: "Yoneda Lemma"
+title_zh: ""
+type: lemma
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [yoneda, natural-transformation, hom-functor, set-valued-functor]
+depends_on:
+  required: [natural-transformation, hom-functor]
+  recommended: [functor-category]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "III"
+    section: "2. The Yoneda Lemma"
+    pages: "59"
+    role_in_book: "Fundamental lemma of category theory: natural transformations from a hom-functor D(r,-) to any set-valued functor K correspond bijectively to elements of Kr"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

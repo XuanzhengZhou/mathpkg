@@ -1,0 +1,23 @@
+id: symplectic-structure-on-poisson-leaves
+title_en: "Natural Symplectic Structure on Leaves of a Poisson Manifold"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: poisson-geometry
+difficulty: advanced
+tags: [poisson-manifold, symplectic-structure, symplectic-leaf, hamiltonian-vector-field, jacobi-identity]
+depends_on:
+  required: [poisson-manifold, symplectic-manifold]
+  recommended: [hamiltonian-vector-field, jacobi-identity]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "B. Poisson Mappings"
+    pages: "469-479"
+    role_in_book: "States that every leaf of a Poisson manifold carries a natural closed nondegenerate 2-form (symplectic structure) defined via Poisson brackets of Hamiltonian functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

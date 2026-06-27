@@ -1,0 +1,23 @@
+id: continuity-of-integration-map-vector-valued
+title_en: "Continuity of the Vector-Valued Integration Map"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: vector-valued-integration
+difficulty: advanced
+tags: [continuous-linear-map, vector-valued-integration, uniform-convergence, locally-convex-space]
+depends_on:
+  required: [locally-convex-space, space-of-continuous-functions, topology-of-uniform-convergence, riemann-integral-vector-valued-over-curve]
+  recommended: [continuous-function-on-curve-is-integrable]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "Appendix 1"
+    section: "Vector-Valued Holomorphic Functions"
+    pages: "214"
+    role_in_book: "Continuation of proposition (a): continuity of the linear integration map"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

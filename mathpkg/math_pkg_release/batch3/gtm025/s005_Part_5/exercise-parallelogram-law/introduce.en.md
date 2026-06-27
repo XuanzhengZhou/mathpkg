@@ -1,0 +1,1 @@
+The parallelogram law characterizes which norms come from an inner product. A normed space satisfies this identity iff it is an inner product space (equivalently, iff it is uniformly convex with modulus of convexity of power type 2).

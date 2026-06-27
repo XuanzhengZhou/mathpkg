@@ -1,0 +1,11 @@
+Let $\mu$ be a regular Borel measure on a locally compact Hausdorff space $X$. Then for any Borel measurable function $f$ on $X$ that is integrable $[\mu]$ there exists a sequence $\{g_n\}$ of integrable continuous functions on $X$ that converges to $f$ in the mean.
+
+Proof. It suffices to show that if $f$ is integrable $[\mu]$, then there exists a continuous function $g$ on $X$ such that $\int |f - g| d\mu$ is as small as desired. To this end, suppose first that $E$ is a Borel set such that $\mu(E) < +\infty$ and that $\varepsilon$ is a positive number. Since $\mu$ is regular, there exist a compact set $K$ and an open set $U$ such that $K \subset E \subset U$ and such that $\mu(U \setminus K) < \varepsilon$. By
+
+be a nested sequence of topologically bounded open sets such that $\mu(U_n) \rightarrow \mu(K)$ and $\nu(U_n) \rightarrow \nu(K)$ (see Problem D). By Problem 3V there exists for each $n$ a continuous function $g_n$ such that $\chi_K \leq g_n \leq \chi_{U_n}$, and therefore such that
+
+$$\mu(K) \leq \int g_n d\mu \leq \mu(U_n) \quad \text{and} \quad \nu(K) \leq \int g_n d\nu \leq \nu(U_n).$$
+
+Thus the sequence $\{\int g_n d\mu = \int g_n d\nu\}$ converges to both $\mu(K)$ and $\nu(K)$. Hence $\mu(K) = \nu(K)$, and it follows at once that $\mu = \nu$ since both measures are regular.
+
+We close this chapter by deriving a preliminary version of an important representation theorem due to F. Riesz. To this end we introduce the following definition.

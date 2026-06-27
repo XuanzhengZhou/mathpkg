@@ -1,0 +1,13 @@
+id: von-neumann-maharam-lower-density
+title_en: "Existence of a Lower Density (von Neumann--Maharam)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [lower-density, measure-space, complete-measure, von-neumann, maharam, lifting]
+depends_on: {required: ["complete-measure-space", "symmetric-difference", "nullset"], recommended: ["lebesgue-density-theorem"], suggested: ["stone-representation-theorem"]}
+source_books: [{book_id: "gtm002", author: "John C. Oxtoby", title: "Measure and Category", chapter: "22", section: "22. Category Measure Spaces", pages: "87", role_in_book: "Theorem 22.4; existence of a lower density for any complete finite measure space, due to von Neumann and Maharam"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: coarse-moduli-variety
+title_en: "Coarse moduli variety of curves of genus g"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: moduli-theory
+difficulty: advanced
+tags: [moduli-space, curves, algebraic-geometry]
+depends_on:
+  required: []
+  recommended: [fine-moduli-variety, flat-family, isomorphism-classes]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "IV"
+    section: "§5"
+    pages: ""
+    role_in_book: "Defines the coarse moduli variety M_g following Mumford"
+content_hash: "coarse-mod-hash"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

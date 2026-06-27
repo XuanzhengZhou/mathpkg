@@ -1,0 +1,23 @@
+id: limiting-hitting-probability-existence
+title_en: "Existence of Limiting Hitting Probabilities via Renewal Theorem"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [reflecting-random-walk, hitting-probability, renewal-theorem, ladder-process, markov-chain]
+depends_on:
+  required: [renewal-theorem, ladder-process]
+  recommended: [hitting-probability, reflecting-random-walk]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "Kemeny, Snell, Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "7"
+    section: "7. Further examples"
+    pages: ""
+    role_in_book: "Proves that limits H_{-∞,j} and H_{+∞,j} exist for describing the λ-matrix"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

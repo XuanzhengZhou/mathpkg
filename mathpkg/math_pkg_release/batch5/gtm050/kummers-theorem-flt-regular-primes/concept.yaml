@@ -1,0 +1,13 @@
+id: kummers-theorem-flt-regular-primes
+title_en: "Kummer's Theorem (FLT for Regular Primes)"
+title_zh: "库默尔定理（正则素数的费马大定理）"
+type: theorem
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [kummer, flt, regular-prime, ideal-factorization]
+depends_on: {required: [kummer-regular-prime-condition, cyclotomic-integers], recommended: [], suggested: []}
+source_books: [{book_id: "gtm050", author: "Harold M. Edwards", title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory", chapter: "5", section: "5.5", pages: "", role_in_book: "The central theorem of the book — Kummer's proof of FLT for regular primes"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

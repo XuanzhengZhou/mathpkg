@@ -1,0 +1,19 @@
+Let $(A_n)_{n=1}^{\infty}$ be a sequence of pairwise disjoint $\mu$-measurable subsets of $X$. Then
+
+(i) $\mu(T) = \sum
+
+$A_n \subset A'_{p+1}$ for $n \neq p + 1$, (2) can be written as
+
+$$\mu(T) = \mu(T \cap A_{p+1}) + \sum_{n=1}^{p} \mu(T \cap A_n) + \mu\left(T \cap A'_{p+1} \cap \bigcup_{n=1}^{p} A_n'\right)$$
+
+$$= \sum_{n=1}^{p+1} \mu(T \cap A_n) + \mu\left(T \cap \bigcup_{n=1}^{p+1} A_n'\right),$$
+
+and this is (1) for $p + 1$.
+
+The sequence of numbers $\left(\mu\left(T \cap \bigcup_{n=1}^{p} A_n'\right)\right)_{p=1}^{\infty}$ is a nonincreasing sequence bounded below by the number $\mu\left(T \cap \bigcup_{n=1}^{\infty} A_n'\right)$. It thus has a limit, which is greater than or equal to $\mu\left(T \cap \bigcup_{n=1}^{\infty} A_n'\right)$. Taking limits in the equality (1), we obtain
+
+$$\mu(T) = \lim_{p \to \infty} \sum_{n=1}^{p} \mu(T \cap A_n) + \lim_{p \to \infty} \mu\left(T \cap \bigcup_{n=1}^{p} A_n'\right)$$
+
+$$\geq \sum_{n=1}^{\infty} \mu(T \cap A_n) + \mu\left(T \cap \bigcup_{n=1}^{\infty} A_n'\right).$$
+
+Since the reversed inequality has already been established, this completes the proof. $\square$

@@ -1,0 +1,23 @@
+id: prenex-normal-form
+title_en: "Prenex Normal Form (Definition 10.80)"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: predicate-logic
+difficulty: intermediate
+tags: [prenex-normal-form, quantifier, formula, matrix, prefix, predicate-calculus]
+depends_on:
+  required: [quantifier-free-formula, formula]
+  recommended: [universal-quantifier, existential-quantifier]
+  suggested: [prenex-normal-form-theorem]
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.10"
+    pages: ""
+    role_in_book: "Defines prenex normal form formulas as those with all quantifiers at the front followed by a quantifier-free matrix"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

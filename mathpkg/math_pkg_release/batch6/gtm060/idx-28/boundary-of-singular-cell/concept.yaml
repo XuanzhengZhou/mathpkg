@@ -1,0 +1,13 @@
+id: boundary-of-singular-cell
+title_en: "Boundary of a singular cell"
+title_zh: "奇异胞腔的边界"
+type: definition
+domain: geometry
+subdomain: integration-of-forms
+difficulty: intermediate
+tags: [boundary, singular-cell, chain, orientation, outward-normal]
+depends_on: {required: [k-dimensional-singular-cell, boundary-of-convex-polyhedron], recommended: [], suggested: []}
+source_books: [{book_id: "gtm060", author: "V.I. Arnold", title: "Mathematical Methods of Classical Mechanics", chapter: "7", section: "35", pages: "198", role_in_book: "Extends the boundary operation from polyhedra to singular cells on a manifold"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

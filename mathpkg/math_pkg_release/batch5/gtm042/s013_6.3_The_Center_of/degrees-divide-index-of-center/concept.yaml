@@ -1,0 +1,23 @@
+id: degrees-divide-index-of-center
+title_en: "Degrees of Irreducible Representations Divide the Index of the Center"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [irreducible-representation, degree, center, index, schurs-lemma, tensor-product, algebraic-integer]
+depends_on:
+  required: [irreducible-representation, center-of-a-group, algebraic-integer-average-character, algebraic-integer]
+  recommended: [tensor-product-of-representations, schurs-lemma, integral-over-z-equivalent-properties]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "6"
+    section: "6.5"
+    pages: ""
+    role_in_book: "Proposition 17: The degrees of irreducible representations divide the index of the center in G"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

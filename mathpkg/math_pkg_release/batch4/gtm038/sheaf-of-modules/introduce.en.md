@@ -1,0 +1,1 @@
+A sheaf of $\mathbb{C}$-algebras has algebra structures on stalks that vary continuously. Sheaves of modules over such algebra sheaves are the basic objects in analytic geometry, analogous to modules over a ring.

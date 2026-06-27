@@ -1,0 +1,23 @@
+id: mackey-irreducibility-criterion
+title_en: "Mackey's Irreducibility Criterion"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [mackey-criterion, irreducibility, induced-representation, double-coset, restriction]
+depends_on:
+  required: [induced-representation, irreducible-representation, restriction-of-representation]
+  recommended: [mackey-formula, double-coset-decomposition]
+  suggested: [intertwining-number]
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "7"
+    section: "7.4"
+    pages: ""
+    role_in_book: "Proposition 23 — Mackey's fundamental criterion for determining when an induced representation is irreducible"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

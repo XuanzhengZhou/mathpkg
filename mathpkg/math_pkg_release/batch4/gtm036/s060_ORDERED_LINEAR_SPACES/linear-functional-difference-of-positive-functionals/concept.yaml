@@ -1,0 +1,23 @@
+id: linear-functional-difference-of-positive-functionals
+title_en: "Continuous Linear Functional as Difference of Positive Functionals"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: ordered-linear-spaces
+difficulty: intermediate
+tags: [continuous-linear-functional, positive-functional, monotonic-norm, ordered-normed-space]
+depends_on:
+  required: [ordered-linear-space]
+  recommended: [positive-cone]
+  suggested: [normal-cone]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "ORDERED LINEAR SPACES"
+    pages: "224"
+    role_in_book: "Characterizes when every continuous linear functional decomposes into positive functionals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

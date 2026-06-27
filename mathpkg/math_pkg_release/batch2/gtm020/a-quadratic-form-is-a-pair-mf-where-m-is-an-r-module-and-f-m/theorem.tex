@@ -1,0 +1,11 @@
+(1) $f(ax + a'x', y) = af(x,y) + a'f(x',y)$ for $a, a' \in R$ and $x, x', y \in M$.
+
+(2) $f(x,by + b'y') = bf(x,y)
+
+A quadratic form $(M, f)$ is nondegenerate if and only if $f(x, y) = 0$ for all $y \in M$ implies that $x = 0$. A quadratic form $(M, f)$ is nonsingular if and only if for each linear form $u: M \rightarrow R$ there exists a unique $y \in M$ such that $u(x) = f(x, y)$ for all $x \in M$. The two notions are equivalent if $R$ is a field.
+
+If $e_1, \ldots, e_n$ is a basis of $M$, the elements $f(e_i, e_j)$ completely determine $f$. For $x = \sum_i x_i e_i$ and $y = \sum_j y_j e_j$, we have $f(x, y) = f(\sum x_i e_i, \sum y_j e_j) = \sum_{i,j} f(e_i e_j) x_i y_j$. Moreover, the symmetry of $f$ is equivalent to $f(e_i, e_j) = f(e_j, e_i)$ for all $i, j$. When $R$ is an integral domain, $(M, f)$ is nondegenerate if and only if $\det [f(e_i, e_j)] \neq 0$, and it is nonsingular if and only if $\det [f(e_i, e_j)]$ is a unit.
+
+3.4 Examples. On $R^n$, $n$-dimensional euclidean space, $(x|y)$ and $-(x|y)$ are two very useful quadratic forms.
+
+3.5 Example. If $(M, f)$ is a quadratic form and if $E$ is a subspace of $M$, then $(E, f_E)$, where $f_E = f|E \times E$, is a quadratic form.

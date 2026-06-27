@@ -1,0 +1,23 @@
+id: krull-intersection-local-ring-corollary
+title_en: "Corollary 2 to Krull's Intersection Theorem: In a noetherian local ring, the intersection of powers of the maximal ideal is zero"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: [krull-intersection-theorem, local-ring, maximal-ideal, noetherian-ring]
+depends_on:
+  required: [krull-intersection-theorem]
+  recommended: [local-ring, maximal-ideal, noetherian-ring]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "IV"
+    section: "§6. Krull's intersection theorem"
+    pages: "216"
+    role_in_book: "Key application: in local rings, powers of maximal ideal intersect to zero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

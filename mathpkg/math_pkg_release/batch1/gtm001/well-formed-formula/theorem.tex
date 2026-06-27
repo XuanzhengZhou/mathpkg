@@ -1,0 +1,9 @@
+Rules for well-formed formulas:
+
+(1) If $a$ and $b$ are free variables, then $[a \in b]$ is a wff (atomic formula).
+
+(2) If $\varphi$ and $\psi$ are wffs, then $\neg \varphi$, $[\varphi \lor \psi]$, $[\varphi \land \psi]$, $[\varphi \rightarrow \psi]$, and $[\varphi \leftrightarrow \psi]$ are wffs.
+
+(3) If $\varphi$ is a wff and $x$ is a bound variable, then $(\forall x)\varphi(x)$ and $(\exists x)\varphi(x)$ are wffs, where $\varphi(x)$ is obtained from $\varphi$ by replacing each occurrence of some free variable $a$ by the bound variable $x$.
+
+(4) $(\forall x)[\varphi \rightarrow \psi(x)] \rightarrow [\varphi \rightarrow (\forall x)\psi(x)]$ where the free variable $a$ on which we are quantifying does not occur in $\varphi$.

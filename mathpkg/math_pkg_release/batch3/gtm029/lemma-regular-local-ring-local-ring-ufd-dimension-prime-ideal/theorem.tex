@@ -1,0 +1,13 @@
+A regular local ring $A$ of dimension 3 is a UFD.
+
+Let $a$ and $b$ be any two elements of $A$. By the theorem on syzygies, we have $\delta(Aa + Ab) \leq 2$. In the proof of Lemma 1, we have seen that $Aa \cap Ab$ is a first module of syzygies of $Aa + Ab$, whence $\delta(Aa \cap Ab) \leq 1$. Since $x \rightarrow ax$ is an isomorphism of $Ab:Aa$ onto $Aa \cap Ab$, we also have $\delta(Ab:Aa) \leq 1$. From this we are going to deduce that $Ab:Aa$ is free, therefore a principal ideal, and this will complete the proof since $Aa
+
+Since $b'(a' \gamma - d\beta) = a'(b' \gamma - c\beta)$, we have $b'x_j = a'y_j$ for every $j$, whence $y_j \in \mathfrak{q}$. On the other hand, each $\alpha_j$ is a linear combination of the elements $\beta, \gamma, \gamma_1, \cdots, \gamma_n$ of the basis of $F$. Let $m_j$ be the coefficient of $\gamma$ in this representation of $\alpha_j$. We have $m_j \in \mathfrak{m}$ since $F' \subset \mathfrak{m}F$. Comparing the coefficients of $\gamma$ in both sides of (2), we get $b' = \sum y_j m_j$, whence $b' \in \mathfrak{mq}$. This contradicts our choice of $b'$ and proves the lemma.
+
+Theorem. Every regular local ring $A$ is a UFD.
+
+Proof. We proceed by induction on dim $(A)$. By lemmas 2 and 3 we may assume that dim $(A) \geq 4$. We consider two elements $a, b$ of $A$, set $\mathfrak{b} = Aa + Ab$ and prove that $\delta(\mathfrak{b}) \leq 1$ (Lemma 1). Let $\mathfrak{m}$ be the maximal ideal of $A$. The ideals $\mathfrak{b}, \mathfrak{b} : \mathfrak{m}, \cdots, \mathfrak{b} : \mathfrak{m}^n, \cdots$ form an increasing sequence, whence there exists an integer $n$ such that $\mathfrak{b} : \mathfrak{m}^n = \mathfrak{b} : \mathfrak{m}^{n+1} = \cdots$. Setting $\mathfrak{a} = \mathfrak{b} : \mathfrak{m}^n$, we have $\mathfrak{a} : \mathfrak{m} = \mathfrak{a}$, whence $\mathfrak{m}$ is not an associated prime ideal of $\mathfrak
+
+m is not an associated prime ideal of $b + Ax$. In other words we have $(b + Ax):m = b + Ax$, whence $(b + Ax):m^n = b + Ax$. Now, since $a = b:m^n$, we have $a \subset (b + Ax):m^n = b + Ax$, and evidently $b \subset a$. For every $a \in a$, we may write $a = b + cx$ with $b \in b$ and $c \in A$; since $b \subset a$, we have $cx \in a$, whence $c \in a$ since $a:Ax = a$. In other words we have $a \subset b + ax$, whence $a = b + ma$ and therefore $a = b$.
+
+Now, since $b:Ax = b$ and since we obviously may assume that the elements $a, b$ belong to $m$ (whence $b \subset m$), we have $\delta(b + Ax) = 1 + \delta(b)$ (VII, § 13, Lemma 6), whence $\delta(b) \leq 1$. Q.E.D.

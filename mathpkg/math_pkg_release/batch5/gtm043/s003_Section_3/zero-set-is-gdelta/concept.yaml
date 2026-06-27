@@ -1,0 +1,23 @@
+id: zero-set-is-gdelta
+title_en: "Every Zero-Set is a G-delta Set"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: basic
+tags: [zero-set, g-delta, countable-intersection, open-set]
+depends_on:
+  required: [zero-set]
+  recommended: [g-delta-set, countable-intersection]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.10"
+    pages: ""
+    role_in_book: "Establishes that zero-sets are always G-delta sets, linking them to the Borel hierarchy"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: extreme-point
+title_en: "Extreme Point"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: convexity
+difficulty: intermediate
+tags: [convex-set, linear-topological-space, extreme-point, line-segment]
+depends_on:
+  required: [convex-set]
+  recommended: [convex-body]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, W. F. Donoghue Jr., Kenneth R. Lucas"
+    title: "Linear Topological Spaces"
+    chapter: "4"
+    section: "15"
+    pages: ""
+    role_in_book: "Core definition for the Krein-Milman theorem on existence of extreme points"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

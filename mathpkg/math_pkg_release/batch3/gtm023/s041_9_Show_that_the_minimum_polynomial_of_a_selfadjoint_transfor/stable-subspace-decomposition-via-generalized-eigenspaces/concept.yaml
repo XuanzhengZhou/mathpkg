@@ -1,0 +1,23 @@
+id: stable-subspace-decomposition-via-generalized-eigenspaces
+title_en: "Decomposition of Stable Subspaces via Generalized Eigenspaces"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [stable-subspace, generalized-eigenspace, primary-decomposition, projection-operator]
+depends_on:
+  required: [projection-operators-are-polynomials, stable-subspace]
+  recommended: [primary-decomposition-via-minimum-polynomial]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "13"
+    section: "13.6"
+    pages: ""
+    role_in_book: "Every stable subspace decomposes as the sum of its intersections with the generalized eigenspaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: lemma-supremum-in-s
+title_en: "Every Set in s Has a Supremum and an Infimum"
+title_zh: ""
+type: lemma
+domain: foundations
+subdomain: order-theory
+difficulty: advanced
+tags: [eta1-set, dedekind-complete, transfinite-induction, supremum, infimum]
+depends_on:
+  required: [set-of-01-transfinite-sequences]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "13"
+    section: "17"
+    pages: ""
+    role_in_book: "Establishes that s is Dedekind-complete"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

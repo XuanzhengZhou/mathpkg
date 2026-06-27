@@ -1,0 +1,23 @@
+id: completeness-of-direct-sum
+title_en: "Completeness of a Direct Sum of Complete Spaces"
+title_zh: "完备空间的直和的完备性"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [direct-sum, completeness, grothendieck-theorem, weak-star-continuity, locally-convex-space]
+depends_on:
+  required: [direct-sum-topology, grothendieck-completeness-theorem]
+  recommended: [weak-star-topology, equicontinuous-set, locally-convex-direct-sum]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "17"
+    section: "F"
+    pages: "178-179"
+    role_in_book: "Alternative proof of completeness of direct sum using Grothendieck's theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

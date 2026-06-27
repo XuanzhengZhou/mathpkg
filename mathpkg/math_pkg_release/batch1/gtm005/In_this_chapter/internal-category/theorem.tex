@@ -1,0 +1,40 @@
+Let $\mathcal{E}$ be a finitely complete category (i.e., possessing all finite products, pullbacks, and a terminal object). An \textbf{internal category} (or \textbf{category object}) $\mathbf{C}$ in $\mathcal{E}$ consists of:
+
+\begin{itemize}
+\item two objects $C_0, C_1 \in \mathcal{E}$, called respectively the \textit{object of objects} and the \textit{object of arrows};
+\item four morphisms in $\mathcal{E}$:
+  $$i : C_0 \to C_1, \quad d_0, d_1 : C_1 \to C_0, \quad \gamma : C_1 \times_{C_0} C_1 \to C_1,$$
+  called \textit{identity}, \textit{domain}, \textit{codomain}, and \textit{composition};
+\end{itemize}
+
+where $C_1 \times_{C_0} C_1$ is the pullback:
+\[
+\begin{CD}
+C_1 \times_{C_0} C_1 @>{\pi_2}>> C_1 \\
+@V{\pi_1}VV @VV{d_0}V \\
+C_1 @>>{d_1}> C_0
+\end{CD}
+\]
+
+These data are subject to the following commutativity conditions:
+\begin{enumerate}
+\item $d_0 \circ i = 1_{C_0} = d_1 \circ i : C_0 \to C_0$ \quad (domain and codomain of identity arrows);
+\item The diagrams for identity arrows acting as units under $\gamma$:
+\[
+\begin{CD}
+C_0 \times_{C_0} C_1 @>{i \times 1}>> C_1 \times_{C_0} C_1 @<{1 \times i}<< C_1 \times_{C_0} C_0
+\end{CD}
+\]
+with the composite $\gamma \circ (i \times 1) = \pi_2$ and $\gamma \circ (1 \times i) = \pi_1$;
+\item Domain and codomain of a composite:
+\[
+d_0 \circ \gamma = d_0 \circ \pi_1, \quad d_1 \circ \gamma = d_1 \circ \pi_2 : C_1 \times_{C_0} C_1 \to C_0;
+\]
+\item Associativity of composition:
+\[
+\gamma \circ (\gamma \times 1) = \gamma \circ (1 \times \gamma) : C_1 \times_{C_0} C_1 \times_{C_0} C_1 \to C_1,
+\]
+where $C_1 \times_{C_0} C_1 \times_{C_0} C_1$ denotes the iterated (triple) pullback.
+\end{enumerate}
+
+When $\mathcal{E} = \mathbf{Sets}$, an internal category is precisely an ordinary small category. When $\mathcal{E} = \mathbf{Grp}$, an internal category is a category in which both $C_0$ and $C_1$ are groups and the structural maps $i, d_0, d_1, \gamma$ are group homomorphisms.

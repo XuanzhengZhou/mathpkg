@@ -1,0 +1,23 @@
+id: character-criterion-for-projectivity
+title_en: "Character Criterion for Projectivity over a Complete Discrete Valuation Ring"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [projective-module, virtual-character, p-singular-element, brauer-character, discrete-valuation-ring, grothendieck-group]
+depends_on:
+  required: []
+  recommended: [cartan-homomorphism, grothendieck-group-rk, projective-a-g-module, p-regular-element, character-of-representation]
+  suggested: [brauer-lifting, induction-of-class-functions, elementary-subgroup]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "17"
+    section: "17.5"
+    pages: ""
+    role_in_book: "Characterizes projective A[G]-modules via vanishing of characters on p-singular elements"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

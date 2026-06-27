@@ -1,0 +1,23 @@
+id: equivalent-conditions-for-dense-c-embedded
+title_en: "Equivalent Conditions for Dense $C$-Embedded Subspaces"
+title_zh: "稠密C-嵌入子空间的等价条件"
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [dense, C-embedded, realcompact, vX, zero-set, z-ultrafilter]
+depends_on:
+  required: [C-embedded, dense-subspace, vX, zero-set]
+  recommended: [stone-cech-compactification, realcompact-space]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "8"
+    section: "8.6"
+    pages: ""
+    role_in_book: "Characterizes all spaces between X and vX in which X is C-embedded"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

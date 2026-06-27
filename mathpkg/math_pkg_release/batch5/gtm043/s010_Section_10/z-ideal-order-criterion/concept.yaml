@@ -1,0 +1,23 @@
+id: z-ideal-order-criterion
+title_en: "Order Criterion for Residue Classes Modulo a z-Ideal"
+title_zh: "z-理想商环的序判据"
+type: proposition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [z-ideal, residue-class, order, zero-set, continuous-function]
+depends_on:
+  required: [z-ideal, absolutely-convex-ideal]
+  recommended: [zero-set, residue-class-ring]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.4"
+    pages: ""
+    role_in_book: "Characterizes nonnegativity of residue classes modulo a z-ideal in terms of zero-sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

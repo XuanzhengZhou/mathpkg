@@ -1,0 +1,23 @@
+id: wandering-set
+title_en: "Wandering set"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: ergodic-theory
+difficulty: intermediate
+tags: [wandering-set, transformation, disjoint-preimages, measurable-mapping, dynamical-systems]
+depends_on:
+  required: [sigma-ring, sigma-ideal, s-measurable-mapping]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "17"
+    section: "The Poincaré Recurrence Theorem"
+    pages: ""
+    role_in_book: "Key definition for the abstract recurrence theorem; characterizes transformations that push sets away"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

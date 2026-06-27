@@ -1,0 +1,23 @@
+id: filter-extension-in-consistent-triple
+title_en: "Extending the Filter in an m-Consistent Triple"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [keisler-shelah, filter-extension, m-consistent, ultrafilter]
+depends_on:
+  required: [m-consistent-over-n, filter]
+  recommended: [ultrafilter]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "26"
+    section: "Elementary Classes and Elementary Equivalence"
+    pages: ""
+    role_in_book: "Lemma 26.40: extends D to decide membership of m sets while preserving consistency"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

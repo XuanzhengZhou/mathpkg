@@ -1,0 +1,23 @@
+id: krull-intersection-theorem
+title_en: "Krull's Intersection Theorem (Theorem 12): In a noetherian ring, the intersection of all powers of an ideal m is zero if and only if no element of 1-m is a zero-divisor"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [krull-intersection-theorem, noetherian-ring, zero-divisor, power-of-ideal]
+depends_on:
+  required: [zero-divisors-union-of-associated-primes]
+  recommended: [noetherian-ring, zero-divisor, power-of-ideal, associated-prime]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "IV"
+    section: "§6. Krull's intersection theorem"
+    pages: "216"
+    role_in_book: "One of the most important theorems in ideal theory; determines when powers of an ideal intersect to zero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

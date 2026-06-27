@@ -1,0 +1,23 @@
+id: bounded-right-difference-quotients-first-category
+title_en: "Functions with Bounded Right Difference Quotients Are of First Category"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [first-category, nowhere-differentiable, banach, baire-category, difference-quotient]
+depends_on:
+  required: [continuous-function-space, set-en-bounded-right-difference-quotients, en-is-closed, en-is-nowhere-dense]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "11"
+    section: "Nowhere Differentiable Functions"
+    pages: "53-54"
+    role_in_book: "Banach's theorem: the set of continuous functions having a bounded right difference quotient at some point is of first category in C"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

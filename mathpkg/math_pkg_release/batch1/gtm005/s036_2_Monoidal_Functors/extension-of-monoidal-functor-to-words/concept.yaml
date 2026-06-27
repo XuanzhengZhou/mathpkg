@@ -1,0 +1,23 @@
+id: extension-of-monoidal-functor-to-words
+title_en: "Extension of a Monoidal Functor to Tensor Words"
+title_zh: "幺半函子到张量词的扩展"
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [monoidal-category, monoidal-functor, tensor-words, extension, coherence]
+depends_on:
+  required: [monoidal-functor]
+  recommended: [tensor-words]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "2. Monoidal Functors"
+    pages: ""
+    role_in_book: "Extends F_2 and F_0 to arbitrary tensor products via word induction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

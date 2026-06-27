@@ -1,0 +1,23 @@
+id: sierpinski-nullset-category-mapping
+title_en: "Sierpinski's Duality Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-category
+difficulty: advanced
+tags: [continuum-hypothesis, nullset, first-category, bijection, duality]
+depends_on:
+  required: [continuum-hypothesis]
+  recommended: [lebesgue-nullset, baire-category, similar-classes-of-sets]
+  suggested: [sigma-ideal, cardinality-continuum]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "19"
+    section: "The Sierpinski-Erdos Duality Theorem"
+    pages: ""
+    role_in_book: "Theorem 19.2: Under CH, there exists a bijection mapping nullsets exactly to first category sets, establishing measure-category duality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

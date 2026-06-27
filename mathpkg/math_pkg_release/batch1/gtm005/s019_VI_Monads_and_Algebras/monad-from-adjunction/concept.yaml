@@ -1,0 +1,23 @@
+id: monad-from-adjunction
+title_en: "Every Adjunction Gives Rise to a Monad"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [monad, adjunction, unit, counit, horizontal-composition]
+depends_on:
+  required: [definition-of-monad, definition-of-adjunction]
+  recommended: [definition-of-horizontal-composition, definition-of-whiskering]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "1. Monads in a Category"
+    pages: "138"
+    role_in_book: "Shows that every adjunction induces a monad; the fundamental construction linking the two concepts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

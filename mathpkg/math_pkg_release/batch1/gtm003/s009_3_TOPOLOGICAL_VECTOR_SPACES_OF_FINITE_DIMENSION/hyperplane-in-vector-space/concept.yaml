@@ -1,0 +1,23 @@
+id: hyperplane-in-vector-space
+title_en: "Hyperplane in a Vector Space"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: vector-spaces
+difficulty: basic
+tags: [hyperplane, homogeneous-hyperplane, codimension-1, affine-subspace, maximal-proper-affine-subspace]
+depends_on:
+  required: [linear-manifold-in-vector-space]
+  recommended: [vector-space, subspace, codimension]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "1"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines hyperplanes, which are essential for Hahn-Banach separation theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

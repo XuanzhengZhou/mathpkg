@@ -1,0 +1,23 @@
+id: continuity-and-openness-theorem
+title_en: "Continuity and Openness of Additive Maps"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [additive-map, continuity, open-mapping, second-category, condition-of-baire]
+depends_on:
+  required: [condition-of-baire, second-category, additive-map]
+  recommended: [linear-topological-space, neighborhood]
+  suggested: [banach-subgroup-theorem, difference-theorem]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley"
+    title: "Linear Topological Spaces"
+    chapter: "10"
+    section: "10.7"
+    pages: ""
+    role_in_book: "Characterization of continuity/openness for additive maps between LTS"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

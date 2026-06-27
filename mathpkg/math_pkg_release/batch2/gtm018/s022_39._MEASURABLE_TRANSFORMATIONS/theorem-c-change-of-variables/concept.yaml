@@ -1,0 +1,23 @@
+id: theorem-c-change-of-variables
+title_en: "Theorem C: Change of Variables for Integrals"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [change-of-variables, pushforward-measure, integration]
+depends_on:
+  required: [pushforward-measure, lebesgue-integral, measurable-transformation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "VIII"
+    section: "39. Measurable Transformations"
+    pages: ""
+    role_in_book: "Fundamental change-of-variables: integral w.r.t. pushforward equals integral of composition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

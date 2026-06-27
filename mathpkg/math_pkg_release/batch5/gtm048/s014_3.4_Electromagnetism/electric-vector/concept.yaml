@@ -1,0 +1,23 @@
+id: electric-vector
+title_en: "Electric Vector (Measured)"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: intermediate
+tags: [electromagnetism, observer, electric-field, tensor-field]
+depends_on:
+  required: [electromagnetic-field]
+  recommended: [instantaneous-observer]
+  suggested: [charge-current-density]
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.4"
+    pages: "85-87"
+    role_in_book: "Part of Definition 3.4.2. The electric component an instantaneous observer measures from an electromagnetic field, obtained by contracting F with the observer's 4-velocity."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

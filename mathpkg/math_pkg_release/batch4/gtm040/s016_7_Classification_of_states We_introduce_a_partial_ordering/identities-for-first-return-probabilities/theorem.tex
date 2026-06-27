@@ -1,0 +1,11 @@
+The following identities connect the hitting probability matrix $H$ and the first-return probability matrix $\bar{H}$:
+
+(1) The probability starting in $i$ of returning to state $i$ at least $k$ times is $(\bar{H}_{ii})^k$ (with the convention $0^0 = 1$).
+
+(2) The probability starting in $i$ of returning at least $k$ times to $i$ before hitting $j$ is $({}_j\bar{H}_{ii})^k$, provided $i \neq j$.
+
+(3) The probability starting in $i$ of returning to $i$ via $j$ is ${}_i\bar{H}_{ij}H_{ji}$, provided $i \neq j$.
+
+(4) The probability starting in $i$ of reaching $j$ for the first time after $n$ returns to $i$ is $({}_j\bar{H}_{ii})^n {}_i\bar{H}_{ij}$, provided $i \neq j$.
+
+(5) The probability starting in $i$ of being in state $j$ at least $n$ times is $H_{ij}(\bar{H}_{jj})^{n-1}$.

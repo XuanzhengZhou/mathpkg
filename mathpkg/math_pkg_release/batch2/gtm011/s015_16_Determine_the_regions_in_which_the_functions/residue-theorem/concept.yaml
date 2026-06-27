@@ -1,0 +1,23 @@
+id: residue-theorem
+title_en: "Residue Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [residue, contour-integration, winding-number, isolated-singularity]
+depends_on:
+  required: [residue]
+  recommended: [cauchy-theorem, laurent-expansion, winding-number, isolated-singularity]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "V"
+    section: "§2. Residues"
+    pages: ""
+    role_in_book: "Theorem 2.2 — the central theorem relating contour integrals to residues"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

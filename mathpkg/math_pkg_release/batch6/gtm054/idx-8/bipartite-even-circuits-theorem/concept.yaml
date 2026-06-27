@@ -1,0 +1,23 @@
+id: bipartite-even-circuits-theorem
+title_en: "Characterization of Bipartite Multigraphs by Even Circuits"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [bipartite, even-circuit, cycle-space, multigraph, dual-to-euler]
+depends_on:
+  required: [circuit, euler-theorem, elementary-cycle-iff-circuit]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "III"
+    section: "A"
+    pages: ""
+    role_in_book: "Theorem A13: Algebraic dual to Euler's Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

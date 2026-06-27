@@ -1,0 +1,8 @@
+Let $L$ be a complete distributive lattice, i.e., a complete lattice in which for each $x \in L$ the map $x \wedge (-) : L \longrightarrow L$ preserves suprema. Then $L$ induces a fuzzy theory $(T, e, \circ)$ as follows:
+
+- $AT = L^A$ (the set of all functions from $A$ to $L$).
+- $Ae : A \longrightarrow AT$ sends $a$ to its characteristic function $\chi_a : A \longrightarrow L$ defined by
+  $$a' \chi_a = \begin{cases} 1 & \text{if } a' = a \\ 0 & \text{otherwise} \end{cases}$$
+  where $1$ is the greatest element and $0$ the least element of $L$.
+- Given $\alpha : A \longrightarrow L^B$ and $\beta : B \longrightarrow L^C$, the composition $\alpha \circ \beta : A \longrightarrow L^C$ is given by
+  $$c(\alpha \circ \beta) = \bigvee_{b \in B} (b\alpha \wedge c\beta).$$

@@ -1,0 +1,23 @@
+id: hilbert-product-formula
+title_en: "Hilbert product formula"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: intermediate
+tags: [hilbert-symbol, product-formula, quadratic-reciprocity, rational-numbers, local-global]
+depends_on:
+  required: []
+  recommended: [hilbert-symbol-definition, p-adic-numbers]
+  suggested: [quadratic-reciprocity-law]
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "III"
+    section: "2"
+    pages: ""
+    role_in_book: "Core theorem establishing the relation between local Hilbert symbols and quadratic reciprocity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

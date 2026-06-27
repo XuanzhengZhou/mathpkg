@@ -1,0 +1,23 @@
+id: clifford-module-periodicity
+title_en: "Periodicity of Clifford Module Invariants"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: clifford-algebras
+difficulty: advanced
+tags: [clifford-algebra, clifford-module, periodicity, k-theory, grothendieck-group]
+depends_on:
+  required: [bott-periodicity-clifford-algebras, complexified-clifford-periodicity]
+  recommended: [clifford-algebra-definition, grothendieck-group]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "5"
+    section: "5"
+    pages: ""
+    role_in_book: "Deduces periodicity relations for Grothendieck groups of Clifford modules from Bott periodicity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,21 @@
+We observe that
+(a) this set of cycles spans $\mathcal{X}(\Gamma)$, and
+(b) each edge of $\Gamma$ is an element of exactly two of these cycles.
+
+Observe how these properties are precisely dual to the properties of vertex cocycles in Proposition D3. What MacLane proved is that, in general, the existence of a list of cycles of $\Gamma$ satisfying conditions (a) and (b) is equivalent to the existence of a topological realization of the graph in the plane. The approach of this text, however, is combinatorial rather than topological. What we will do is to use MacLane’s combinatorial characterization of planarity as the definition of planarity.
+
+A sequence $Z_1, \ldots, Z_k$ of cycles of the multigraph $\Gamma$ is called a planar imbedding of $\Gamma$ if:
+(a) $\{Z_1, \ldots, Z_k\}$ spans $\mathcal{X}(\Gamma)$, and
+(b) if $e \in \text{Fnd}(\mathcal{X}(\Gamma))$, then $e \in Z_i$ for precisely two indices $i \in \{1, \ldots, k\}$.
+
+We say that $\Gamma$ is planar if it admits a planar imbedding.
+
+An isthmus of a multigraph of course belongs to no cycle while (cf. A21) all other edges belong to $\text{Fnd}(\mathcal{X}(\Gamma))$. By condition (b),
+
+$$\sum_{i=1}^{k
+
+of $\Gamma$). Whitney called $\Theta$ a “combinatorial dual” to $\Gamma$. The algebraic relation between $\Gamma$ and $\Theta$ is that $\mathcal{X}^{\perp}(\Theta) = \mathcal{X}(\Gamma)$. For this reason we prefer to say that $\Theta$ is “orthogonal” to $\Gamma$, rather than “dual” to $\Gamma$. Having characterized orthogonal multigraphs in purely combinatorial terms, Whitney then proved that a realization of a multigraph is planar in the topological sense if and only if some multigraph is orthogonal to it.
+
+An orthogonal multigraph $\Theta$ is shown in Figure E4 in solid lines superimposed on $\Gamma$ (cf. Figure E2) in broken lines. Solid and broken edges crossing each other receive the same label. Note how the “regions” of $\Gamma$ are precisely the vertex cocycles of $\Theta$, and vice versa. Surely the relationship between $\Gamma$ and $\Theta$ here is intuitively apparent. To obtain a realization of $\Theta$ from a realization of $\Gamma$, place a vertex in the interior of each “region” of $\Gamma$. These are the vertices of $\Theta$. Then across each edge $e$ of $\Gamma$ draw an edge of $\Theta$ joining the two vertices of $\Theta$ in the two regions of $\Gamma$ having $e$ on their boundary. Note that at the same time one vertex of $\Gamma$ appears in each “region” of $\Theta$. Had this construction been carried out beginning with $\Theta$, one would thereby have obtained $\Gamma$. We may rightly perceive at this juncture as did Whitney the equivalence between the planarity of $\Gamma$ and the existence of a multigraph $\Theta$ “orthogonal” to it.
+
+When this same multigraph $\Gamma$ is realized in the plane with different “regions” as in Figure E5a, however, the multigraph $\Theta$ obtained by the above method has instead the form of Figure E5b, which is obviously not isomorphic to the $\Theta$ of Figure E4. Comparing Figures E4 and E5b with $\Gamma_4$ and $\Gamma_5$ in Figure D4

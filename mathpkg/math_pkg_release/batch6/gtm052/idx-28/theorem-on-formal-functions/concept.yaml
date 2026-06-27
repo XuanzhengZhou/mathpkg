@@ -1,0 +1,23 @@
+id: theorem-on-formal-functions
+title_en: "Theorem on Formal Functions"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [formal-functions, higher-direct-images, coherent-sheaves, projective-morphisms, inverse-limits, formal-completion]
+depends_on:
+  required: [projective-morphism, coherent-sheaf, higher-direct-image, inverse-limit, noetherian-scheme]
+  recommended: [thickened-fibre, formal-completion, cohomology-of-schemes]
+  suggested: [krulls-theorem, adic-topology]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "11"
+    pages: ""
+    role_in_book: "main theorem of Chapter III, Section 11"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

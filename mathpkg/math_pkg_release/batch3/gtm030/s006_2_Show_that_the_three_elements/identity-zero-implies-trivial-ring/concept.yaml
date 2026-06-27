@@ -1,0 +1,23 @@
+id: identity-zero-implies-trivial-ring
+title_en: "Identity Equals Zero Implies Trivial Ring"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [ring-with-identity, trivial-ring, zero-ring]
+depends_on:
+  required: [ring-with-identity]
+  recommended: [zero-product-in-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "If 1=0 in a ring with identity, then the ring has only one element"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

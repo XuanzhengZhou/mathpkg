@@ -1,0 +1,11 @@
+Let $\mathcal{L} = (L, v, \mathcal{O}, \mathcal{R})$ be a first-order language. A **relational version** of $\mathcal{L}$ is a first-order language $\mathcal{L}' = (L, v, \emptyset, \mathcal{R}')$ such that $\mathcal{R} \subseteq \mathcal{R}'$ and there is a one-to-one function $T$ (called a **translation** of $\mathcal{L}$ into $\mathcal{L}'$) mapping $\operatorname{Dmn}\mathcal{O}$ onto $\operatorname{Dmn}\mathcal{R}' \setminus \operatorname{Dmn}\mathcal{R}$ with $\rho^{\mathcal{R}'}(T\mathbf{O}) = \rho^{\mathcal{O}}(\mathbf{O}) + 1$ for all $\mathbf{O} \in \operatorname{Dmn}\mathcal{O}$.
+
+With each formula $\varphi$ of $\mathcal{L}$ we associate its $\mathcal{L}',T$-translate $\varphi'$, defined recursively, starting from atomic formulas:
+\begin{align*}
+(v_j = v_i)' &= (v_j = v_i); \\
+(\mathbf{O} = v_i)' &= T_{\mathbf{O}} v_i \quad\text{for $\mathbf{O}$ an individual constant.}
+\end{align*}
+
+If $\mathbf{O}$ is an operation symbol of rank $m > 0$ and $\varphi$ is $\mathbf{O}\sigma_0\cdots\sigma_{m-1} = v_i$, let $\alpha_0,\ldots,\alpha_{m-1}$ be the first $m$ variables not occurring in $\varphi$, and set
+
+$$\varphi' = \exists\alpha_0\cdots\exists\alpha_{m-1}\big[(\sigma_0 = \alpha_0)' \land \cdots \land (\sigma_{m-1} = \alpha_{m-1})' \land T_{\mathbf{O}}\alpha_0\cdots\alpha_{m-1}v_i\big].$$

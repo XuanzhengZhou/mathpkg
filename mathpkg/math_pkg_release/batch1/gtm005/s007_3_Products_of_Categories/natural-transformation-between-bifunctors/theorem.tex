@@ -1,0 +1,8 @@
+Let $S, S': B \times C \to D$ be bifunctors. A \textbf{natural transformation} $\alpha: S \to S'$ between bifunctors is a function which assigns to each pair of objects $b \in B, c \in C$ an arrow
+$$\alpha(b, c): S(b, c) \to S'(b, c)$$
+in $D$ such that for every pair of arrows $f: b \to b'$ in $B$ and $g: c \to c'$ in $C$, the following diagram commutes:
+$$\begin{CD}
+S(b, c) @>{\alpha(b, c)}>> S'(b, c) \\
+@V{S(f, g)}VV @VV{S'(f, g)}V \\
+S(b', c') @>>{\alpha(b', c')}> S'(b', c')
+\end{CD}$$

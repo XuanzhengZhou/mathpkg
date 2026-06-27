@@ -1,0 +1,23 @@
+A category with objects $O$ is an $O$-graph $A$ equipped with two morphisms of $O$-graphs
+$$c : A \times_O A \to A \quad \text{(composition)}, \qquad i : O \to A \quad \text{(identity)}$$
+such that the following diagrams commute:
+\[
+\begin{array}{c}
+(A \times_O A) \times_O A \cong A \times_O (A \times_O A) \xrightarrow{1 \times c} A \times_O A \\[4pt]
+\downarrow \scriptstyle{c \times 1} \qquad\qquad \qquad\qquad \downarrow \scriptstyle{c} \\[4pt]
+A \times_O A \xrightarrow{\;c\;} A,
+\end{array}
+\qquad
+\begin{array}{c}
+A \cong A \times_O O \xrightarrow{1 \times i} A \times_O A \\[4pt]
+\parallel \qquad\qquad \downarrow \scriptstyle{c} \\[4pt]
+A \xleftarrow{\qquad} A,
+\end{array}
+\qquad
+\begin{array}{c}
+A \cong O \times_O A \xrightarrow{i \times 1} A \times_O A \\[4pt]
+\parallel \qquad\qquad \downarrow \scriptstyle{c} \\[4pt]
+A \xleftarrow{\qquad} A.
+\end{array}
+\]
+Here $1 \times c$ denotes $1 \times_O c$, and $i(b)$ is the identity arrow at $b \in O$.

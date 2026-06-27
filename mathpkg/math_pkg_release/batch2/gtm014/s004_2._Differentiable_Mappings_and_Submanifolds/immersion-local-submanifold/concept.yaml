@@ -1,0 +1,23 @@
+id: immersion-local-submanifold
+title_en: "Local Submanifold Property of Immersions"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-topology
+difficulty: intermediate
+tags: [immersion, submanifold, local-property, homeomorphism, corollary-2-5]
+depends_on:
+  required: [immersion, submanifold]
+  recommended: [implicit-function-theorem, differentiable-mapping-between-manifolds]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "I"
+    section: "2"
+    pages: ""
+    role_in_book: "Proposition 2.10: immersions are locally homeomorphisms onto submanifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

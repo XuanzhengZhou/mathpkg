@@ -1,0 +1,23 @@
+id: dual-space-dimension-theorem
+title_en: "Dimensionality of the Dual Space (Theorem 2)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [dual-space, dimension, cardinal-number, linear-functional, infinite-dimensional]
+depends_on:
+  required: [vector-space-cardinality-lemma, strongly-independent-existence-lemma, basis-of-vector-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "Theorem 2: If R is a vector space of infinite dimension b over Delta of cardinality d, then dim(R*) = d^b, the cardinal number of all functions from a set of cardinality b to a set of cardinality d."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

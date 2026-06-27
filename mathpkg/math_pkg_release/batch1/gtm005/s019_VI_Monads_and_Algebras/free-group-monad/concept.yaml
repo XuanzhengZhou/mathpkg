@@ -1,0 +1,23 @@
+id: free-group-monad
+title_en: "The Free Group Monad in Set"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [monad, free-group, adjunction, forgetful-functor, example]
+depends_on:
+  required: [definition-of-monad, monad-from-adjunction]
+  recommended: [definition-of-free-group, definition-of-forgetful-functor]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "1. Monads in a Category"
+    pages: "138"
+    role_in_book: "Concrete example of a monad arising from the free group adjunction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

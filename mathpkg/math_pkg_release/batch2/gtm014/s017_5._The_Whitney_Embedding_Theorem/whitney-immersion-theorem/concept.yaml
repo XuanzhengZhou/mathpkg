@@ -1,0 +1,23 @@
+id: whitney-immersion-theorem
+title_en: "Whitney Immersion Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [whitney, immersion, transversality, jet-bundle, generic-property]
+depends_on:
+  required: [immersions-open-subset, corank-r-submanifold, dense-transversality-parameter-set]
+  recommended: [thom-transversality, whitney-embedding]
+  suggested: [sards-theorem]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "5"
+    section: "The Whitney Embedding Theorem"
+    pages: ""
+    role_in_book: "theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

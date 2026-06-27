@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $\{A^{(k)}\}$ be a sequence of matrices. We say that $A = \lim_{k \to \infty} A^{(k)}$ exists if $A_{mn} = \lim_{k \

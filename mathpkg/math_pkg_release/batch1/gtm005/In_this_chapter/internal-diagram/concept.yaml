@@ -1,0 +1,23 @@
+id: internal-diagram
+title_en: "Internal Diagram (Left C-Object)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [internal-diagram, left-c-object, internal-category, action, presheaf]
+depends_on:
+  required: [internal-category]
+  recommended: [functor, pullback]
+  suggested: [copresheaf, natural-transformation]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XII"
+    section: "In this chapter"
+    pages: "281-285"
+    role_in_book: "Chapter introduction defining internal diagrams (left C-objects) as functors from an internal category to the ambient category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

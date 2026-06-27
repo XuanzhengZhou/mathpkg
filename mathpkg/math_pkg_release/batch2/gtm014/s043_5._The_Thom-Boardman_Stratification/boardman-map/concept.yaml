@@ -1,0 +1,23 @@
+id: boardman-map
+title_en: "Boardman Map"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [boardman-map, jet-extension, transversality, thom-boardman, singularity]
+depends_on:
+  required: []
+  recommended: [boardman-fiber-subbundle-theorem, jet-bundle, thom-transversality-theorem, higher-order-boardman-symbols]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VI"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines Boardman maps as those whose jet extensions are transversal to all universal Boardman subbundles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

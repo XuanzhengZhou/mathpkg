@@ -1,0 +1,23 @@
+id: order-ideal
+title_en: "Order ideal of an element in a module"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [order-ideal, annihilator, module-theory, principal-ideal-domain]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "3"
+    section: "9"
+    pages: "90-118"
+    role_in_book: "Defines the order ideal as a generalization of the order of an element; used in the structure theory of modules over PIDs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

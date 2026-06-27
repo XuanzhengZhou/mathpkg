@@ -1,0 +1,23 @@
+id: simultaneous-existential-generalization
+title_en: "Simultaneous Existential Generalization (Corollary 10.74)"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: predicate-logic
+difficulty: intermediate
+tags: [existential-generalization, simultaneous-substitution, existential-quantifier, predicate-calculus, term-substitution]
+depends_on:
+  required: [existential-generalization, simultaneous-substitution]
+  recommended: [simultaneous-universal-instantiation]
+  suggested: [substitutivity-of-equivalence]
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.10"
+    pages: ""
+    role_in_book: "Generalizes existential generalization to simultaneous substitution of multiple terms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

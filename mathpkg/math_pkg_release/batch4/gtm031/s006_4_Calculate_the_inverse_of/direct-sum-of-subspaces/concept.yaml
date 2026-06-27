@@ -1,0 +1,23 @@
+id: direct-sum-of-subspaces
+title_en: "Direct Sum of Subspaces"
+title_zh: "子空间的直和"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [vector-space, subspace, direct-sum, independent-subspaces]
+depends_on:
+  required: [vector-space, subspace, independent-subspaces-condition]
+  recommended: [sum-of-subspaces]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "II: Finite Dimensional Vector Spaces"
+    section: "10: Direct Sums and Independence"
+    pages: "36-41"
+    role_in_book: "Core definition establishing the direct sum decomposition of vector spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

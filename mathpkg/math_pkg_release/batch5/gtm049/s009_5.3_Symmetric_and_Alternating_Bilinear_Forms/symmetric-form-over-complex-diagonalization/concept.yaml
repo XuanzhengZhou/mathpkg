@@ -1,0 +1,23 @@
+id: symmetric-form-over-complex-diagonalization
+title_en: "Diagonalization of Symmetric Bilinear Forms over Complex Numbers"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: bilinear-forms
+difficulty: intermediate
+tags: [symmetric-bilinear-form, complex-numbers, diagonalization, congruence]
+depends_on:
+  required: [symmetric-bilinear-form, decomposition-of-symmetric-nonalternating-bilinear-form]
+  recommended: [complex-numbers, square-root]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K.W. Gruenberg, A.J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "5.3"
+    pages: "104"
+    role_in_book: "Proposition 7: Every symmetric bilinear form over C has a diagonal matrix I_r"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

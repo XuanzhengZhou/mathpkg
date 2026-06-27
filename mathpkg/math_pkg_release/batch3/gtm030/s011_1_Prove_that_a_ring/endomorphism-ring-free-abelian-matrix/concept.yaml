@@ -1,0 +1,23 @@
+id: endomorphism-ring-free-abelian-matrix
+title_en: "Endomorphism Ring of a Free Abelian Group Is Isomorphic to a Matrix Ring"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [endomorphism-ring, free-abelian-group, matrix-ring, integer-matrix, isomorphism]
+depends_on:
+  required: [matrix-of-endomorphism, endomorphism-ring-of-commutative-group]
+  recommended: [free-abelian-group, ring-of-integers, matrix-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "1"
+    section: "1.11"
+    pages: ""
+    role_in_book: "Example 2: endomorphism ring of a free abelian group is isomorphic to I_n"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

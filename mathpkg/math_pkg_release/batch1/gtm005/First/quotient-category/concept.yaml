@@ -1,0 +1,23 @@
+id: quotient-category
+title_en: "Quotient category by a congruence"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [quotient-category, congruence, projection-functor, universal-property]
+depends_on:
+  required: [congruence-on-category, category]
+  recommended: [functor]
+  suggested: [quotient-set, generators-and-relations]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "II"
+    section: "8"
+    pages: ""
+    role_in_book: "Proposition 1: construction of quotient categories with universal property"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

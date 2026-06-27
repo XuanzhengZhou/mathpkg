@@ -1,0 +1,13 @@
+id: lemma-real-eigenvalue
+title_en: "Real Eigenvalue Lemma for Sigma-Symmetric Mappings"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: bilinear-forms
+difficulty: intermediate
+tags: [sigma-symmetric, eigenvalue, real, complexification, positive-definite]
+depends_on: {required: [sigma-symmetric-mapping, eigenvector, complexification], recommended: [positive-definite-bilinear-form, conjugation], suggested: []}
+source_books: [{book_id: "gtm049", author: "Gruenberg and Weir", title: "Linear Geometry", chapter: "6", section: "6.4", pages: "", role_in_book: "Lemma 2: every sigma-symmetric f on a real vector space with positive definite sigma has a real eigenvalue, proved by complexification"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

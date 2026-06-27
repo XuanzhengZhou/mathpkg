@@ -1,0 +1,23 @@
+id: irreducible-over-subspace
+title_en: "Irreducible over a Subspace"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [irreducible, invariant-subspace, factor-space, induced-transformation, quotient]
+depends_on:
+  required: [invariant-subspace, factor-space-induced-transformation]
+  recommended: [composition-series-definition]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "Chapter III: Sets of Linear Transformations"
+    section: "3. Composition series"
+    pages: "131-132"
+    role_in_book: "Defining the irreducibility condition that makes each step in a composition series maximal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

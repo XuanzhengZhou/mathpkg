@@ -1,0 +1,7 @@
+A comonad in a category $A$ consists of an endofunctor $L : A \rightarrow A$ together with natural transformations $\varepsilon : L \rightarrow \mathrm{Id}_A$ and $\delta : L \rightarrow L^2$ satisfying
+
+$$\delta L \cdot \delta = L \delta \cdot \delta : L \rightarrow L^3,$$
+
+$$\varepsilon L \cdot \delta = 1_L = L \varepsilon \cdot \delta : L \rightarrow L.$$
+
+This is equivalent to saying that $\langle L, \varepsilon, \delta \rangle$ is a comonoid in the strict monoidal category $A^A$ of endofunctors of $A$, where the monoidal product is composition.

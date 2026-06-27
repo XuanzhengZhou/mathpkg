@@ -1,0 +1,23 @@
+id: nondegenerate-iff-determinant-nonzero
+title_en: "Non-Degenerate Bilinear Function iff Determinant Nonzero"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [bilinear-form, nondegenerate, determinant, symmetric]
+depends_on:
+  required: [nullspace-equals-kernel-of-associated-map, rank-of-symmetric-bilinear-function]
+  recommended: [determinant]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "2. The decomposition of E"
+    pages: ""
+    role_in_book: "Characterizes non-degeneracy via determinant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

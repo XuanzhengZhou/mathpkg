@@ -1,0 +1,23 @@
+id: sigma-star-homeomorphism-C-star-embedded
+title_en: "The Mapping σ* is a Homeomorphism and σ*[X] is C*-Embedded in P*"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: compactifications
+difficulty: advanced
+tags: [embedding, C-star-embedded, product-space, Tychonoff-embedding, Stone-Cech-compactification]
+depends_on:
+  required: [product-space-P-embedding, C-star-embedded-subspace, induced-homomorphism]
+  recommended: [weak-topology, sigma-homeomorphism-C-embedded]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "11"
+    section: "3"
+    pages: ""
+    role_in_book: "Establishes the embedding of X into P* via σ*, proving σ*[X] is C*-embedded in P*"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

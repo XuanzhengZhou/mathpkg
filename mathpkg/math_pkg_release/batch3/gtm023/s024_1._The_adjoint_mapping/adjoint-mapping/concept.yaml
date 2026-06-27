@@ -1,0 +1,23 @@
+id: adjoint-mapping
+title_en: "Adjoint Mapping"
+title_zh: "伴随映射"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [adjoint, inner-product-space, dual-mapping]
+depends_on:
+  required: [inner-product-space, dual-space, dual-mapping, linear-mapping]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VIII"
+    section: "§1. The adjoint mapping"
+    pages: ""
+    role_in_book: "Core definition of the adjoint mapping of a linear map between inner product spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

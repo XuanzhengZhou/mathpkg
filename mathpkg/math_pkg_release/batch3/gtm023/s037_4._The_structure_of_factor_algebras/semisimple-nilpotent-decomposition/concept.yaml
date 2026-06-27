@@ -1,0 +1,23 @@
+id: semisimple-nilpotent-decomposition
+title_en: "Semisimple-nilpotent decomposition (Jordan-Chevalley decomposition)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [semisimple, nilpotent, decomposition, minimum-polynomial, Jordan-Chevalley, prime-factorization]
+depends_on:
+  required: [semisimple-element, nilpotent-element, minimum-polynomial, prime-factorization, factor-algebra-prime-power-decomposition]
+  recommended: [polynomial-algebra, semisimple-derivative-invertibility]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "12"
+    section: "4. The structure of factor algebras"
+    pages: "389"
+    role_in_book: "The fundamental decomposition theorem: every element in a finite-dimensional commutative associative algebra uniquely decomposes as a sum of a semisimple and a nilpotent element, with explicit formulas for their minimum polynomials"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: elementary-circuit-elementary-flow
+title_en: "Elementary Circuits Define Elementary Flows"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [flow-space, elementary-circuit, elementary-flow, minimal-flow, cycle]
+depends_on:
+  required: []
+  recommended: [flow-space, circuit-flow-function, elementary-cycle, minimal-flow]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "IV"
+    section: "B"
+    pages: "117-120"
+    role_in_book: "Proposition B8 states that for an elementary circuit D in Γ, h_D is an elementary flow in F(V)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

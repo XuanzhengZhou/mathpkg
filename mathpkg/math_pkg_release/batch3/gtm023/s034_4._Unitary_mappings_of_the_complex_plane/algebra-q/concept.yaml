@@ -1,0 +1,23 @@
+id: algebra-q
+title_en: "The algebra Q of complex linear transformations"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [complex-linear-transformations, quaternions, division-algebra, adjugate]
+depends_on:
+  required: []
+  recommended: [adjoint-mapping, trace-of-transformation, determinant-of-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines the algebra Q, a 4-dimensional real division algebra isomorphic to the quaternions, built from complex linear transformations of the complex plane."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

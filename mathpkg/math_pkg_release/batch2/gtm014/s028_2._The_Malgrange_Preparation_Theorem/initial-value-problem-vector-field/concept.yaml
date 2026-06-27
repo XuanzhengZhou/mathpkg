@@ -1,0 +1,13 @@
+id: initial-value-problem-vector-field
+title_en: "Initial Value Problem for Vector Fields (Smooth Version)"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: several-variables
+difficulty: advanced
+tags: ["initial-value", "vector-field", "smooth-functions", "formal-solution"]
+depends_on: {required:["borel-theorem-smooth-functions"], recommended:[], suggested:[]}
+source_books: [{book_id:"gtm014",author:"M. Golubitsky, V. Guillemin",title:"Stable Mappings and Their Singularities",chapter:"IV",section:"§2. The Malgrange Preparation Theorem",pages:"",role_in_book:"Solves $\partial F/\partial t = XF$ with prescribed initial data"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

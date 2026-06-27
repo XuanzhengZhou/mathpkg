@@ -1,0 +1,23 @@
+id: continuous-bijection-complete-metrizable-isomorphism
+title_en: "Continuous bijection from complete metrizable t.v.s. is an isomorphism"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [banach, open-mapping-theorem, isomorphism, complete-metrizable, continuous-bijection]
+depends_on:
+  required: [banach-homomorphism-theorem]
+  recommended: [topological-homomorphism, separated-tvs]
+  suggested: [inverse-mapping-theorem]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "2"
+    pages: ""
+    role_in_book: "Corollary 1 to Theorem 2.1: a continuous bijection from a complete metrizable t.v.s. onto a Hausdorff t.v.s. is an isomorphism."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

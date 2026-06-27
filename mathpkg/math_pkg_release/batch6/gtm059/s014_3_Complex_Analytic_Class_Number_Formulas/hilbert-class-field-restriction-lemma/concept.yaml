@@ -1,0 +1,23 @@
+id: hilbert-class-field-restriction-lemma
+title_en: "Restriction of the Artin Symbol to the Hilbert Class Field (Lemma 1.4)"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: class-field-theory
+difficulty: advanced
+tags: [hilbert-class-field, artin-symbol, norm-map, abelian-extension]
+depends_on:
+  required: [hilbert-class-field, artin-symbol, ideal-class-group]
+  recommended: [galois-group, norm-map]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "4.6 The (±1)-conjectures"
+    pages: ""
+    role_in_book: "Technical lemma about restriction of the Artin symbol used to prove norm map injectivity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

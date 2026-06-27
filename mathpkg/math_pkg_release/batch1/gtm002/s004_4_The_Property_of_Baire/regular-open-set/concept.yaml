@@ -1,0 +1,23 @@
+id: regular-open-set
+title_en: "Regular Open Set"
+title_zh: "正则开集"
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: intermediate
+tags: [regular-open, interior, closure, boolean-algebra]
+depends_on:
+  required: [open-set, closure, interior]
+  recommended: [nowhere-dense-set, regular-closed-set]
+  suggested: [boolean-algebra-of-regular-open-sets, stone-representation]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "4"
+    section: "4. The Property of Baire"
+    pages: ""
+    role_in_book: "Definition providing canonical open representative for Baire property sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

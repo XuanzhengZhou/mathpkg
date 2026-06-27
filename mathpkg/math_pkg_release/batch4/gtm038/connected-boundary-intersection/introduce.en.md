@@ -1,0 +1,1 @@
+If a domain intersects both a region and its complement, then every connected component of the intersection has boundary points in the domain. This is a key topological lemma used in the study of holomorphic continuation.

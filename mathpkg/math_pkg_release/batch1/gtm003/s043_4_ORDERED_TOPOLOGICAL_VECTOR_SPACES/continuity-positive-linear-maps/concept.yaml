@@ -1,0 +1,23 @@
+id: continuity-positive-linear-maps
+title_en: "Continuity of Positive Linear Maps between Ordered Locally Convex Spaces"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: ordered-topological-vector-spaces
+difficulty: advanced
+tags: [positive-linear-map, continuity, Mackey-space, weakly-normal-cone, adjoint]
+depends_on:
+  required: [continuity-positive-linear-forms, ordered-locally-convex-space]
+  recommended: [Mackey-space, weakly-normal-cone, algebraic-adjoint]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "5"
+    pages: ""
+    role_in_book: "Proposition 5.6: Every positive linear map from a Mackey space with automatic continuity to a space with weakly normal cone is continuous"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: tangency-of-curves-in-mapping-space
+title_en: "Tangency of Curves in the Mapping Space"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: singularity-theory
+difficulty: intermediate
+tags: [tangent-space, smooth-curve, mapping-space, frechet-manifold]
+depends_on:
+  required: [smooth-mapping-space-is-frechet-manifold, tangent-space-of-frechet-manifold]
+  recommended: [frechet-derivative, tubular-neighborhood]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Golubitsky & Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "§1. Stable and Infinitesimally Stable Mappings"
+    pages: "86-89"
+    role_in_book: "Lemma 1.12: pointwise characterization of tangency, needed to compute (dγ_f)_e"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

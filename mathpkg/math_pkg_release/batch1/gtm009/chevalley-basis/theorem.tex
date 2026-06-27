@@ -1,0 +1,14 @@
+Let $L$ be a semisimple Lie algebra over $\mathbb{C}$ with Cartan subalgebra $H$ and root system $\Phi$. There exists a basis of $L$ consisting of:
+\begin{itemize}
+\item $h_\alpha = \frac{2h_\alpha'}{(\alpha, \alpha)}$ (for each simple root $\alpha$), where $h_\alpha'$ is the unique element of $H$ such that $\kappa(h_\alpha', h) = \alpha(h)$ for all $h \in H$,
+\item $x_\alpha$ (for each $\alpha \in \Phi$),
+\end{itemize}
+such that all structure constants are integers. Specifically:
+\begin{itemize}
+\item $[h_\alpha, h_\beta] = 0$,
+\item $[h_\alpha, x_\beta] = \frac{2(\beta, \alpha)}{(\alpha, \alpha)} x_\beta$ (these are integers, the Cartan integers),
+\item $[x_\alpha, x_{-\alpha}] = h_\alpha$,
+\item $[x_\alpha, x_\beta] = 0$ if $\alpha + \beta \notin \Phi$,
+\item $[x_\alpha, x_\beta] = \pm (r+1) x_{\alpha+\beta}$ if $\alpha + \beta \in \Phi$, where $r$ is the largest integer such that $\beta - r\alpha \in \Phi$.
+\end{itemize}
+Such a basis is called a \text{Chevalley basis}. It allows the construction of Lie algebras over arbitrary fields (including finite fields) and leads to Chevalley groups.

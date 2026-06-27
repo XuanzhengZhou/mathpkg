@@ -1,0 +1,23 @@
+id: infinite-r.e.-set-recursive-subset
+title_en: "Every Infinite Recursively Enumerable Set Has an Infinite Recursive Subset"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: recursion-theory
+difficulty: intermediate
+tags: ["recursively-enumerable", "recursive-sets", "infinite-sets", "subset"]
+depends_on:
+  required: []
+  recommended: ["recursive-set-definition", "recursively-enumerable-definition"]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "Joseph R. Shoenfield"
+    title: "Mathematical Logic"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Structural result about r.e. sets containing recursive subsets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

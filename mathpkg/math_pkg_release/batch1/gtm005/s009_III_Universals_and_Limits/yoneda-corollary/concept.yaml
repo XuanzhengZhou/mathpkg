@@ -1,0 +1,23 @@
+id: yoneda-corollary
+title_en: "Yoneda Corollary: Natural Transformations Between Hom-Functors"
+title_zh: ""
+type: corollary
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [yoneda-lemma, natural-transformation, hom-functor, yoneda-embedding]
+depends_on:
+  required: [yoneda-lemma, hom-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "III"
+    section: "2"
+    pages: ""
+    role_in_book: "Every natural transformation D(r,-) → D(s,-) is D(h,-) for unique h: s → r"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

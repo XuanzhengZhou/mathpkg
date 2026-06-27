@@ -1,0 +1,23 @@
+id: lb-lf-spaces-are-bornological
+title_en: "Every Space of Type (LB) or (LF) is Bornological"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [bornological, lb-space, lf-space, strict-inductive-limit, frechet-space]
+depends_on:
+  required: [bornological-space, every-metrizable-lcs-is-bornological, lb-space, lf-space]
+  recommended: [frechet-space, strict-inductive-limit]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "8"
+    section: "8.2"
+    pages: ""
+    role_in_book: "Corollary 2 of Theorem 8.2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

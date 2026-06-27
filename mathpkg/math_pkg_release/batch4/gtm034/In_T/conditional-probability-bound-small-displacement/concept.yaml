@@ -1,0 +1,20 @@
+id: conditional-probability-bound-small-displacement
+title_en: "Conditional probability bound for small displacement during excursion"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [conditional-probability, excursion, displacement, recurrent-random-walk]
+depends_on: {required:[], recommended:[return-probability, bernoulli-sum, exponential-bound], suggested:[occupation-time, stopping-time]}
+source_books:
+  - book_id: gtm034
+    author: Frank Spitzer
+    title: Principles of Random Walk, 2nd ed.
+    chapter: "VII"
+    section: "32"
+    pages: "?"
+    role_in_book: "Key estimate in the proof of T2: bounds the probability of small displacement or repeated values along excursions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

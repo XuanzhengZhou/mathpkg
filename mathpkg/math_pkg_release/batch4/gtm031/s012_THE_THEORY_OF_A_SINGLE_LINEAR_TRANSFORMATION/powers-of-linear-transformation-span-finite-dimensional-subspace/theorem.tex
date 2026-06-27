@@ -1,0 +1,8 @@
+Let $\mathfrak{R}$ be an $n$-dimensional vector space over a field $\Phi$ and let $\mathfrak{L} = \mathfrak{L}(\mathfrak{R}, \mathfrak{R})$ be the $n^2$-dimensional algebra of linear transformations of $\mathfrak{R}$ into itself. Let $A \in \mathfrak{L}$ and consider the subspace $[1, A, A^2, \dots]$ of $\mathfrak{L}$ spanned by the powers of $A$.
+
+Successively construct the linearly independent sets
+$$(1), \quad (1, A), \quad (1, A, A^2), \quad (1, A, A^2, A^3), \quad \dots$$
+Since $\dim_\Phi \mathfrak{L} = n^2$ is finite, this process terminates after a finite number of steps. Let $m$ be the first integer such that $A^m$ is linearly dependent on $1, A, \dots, A^{m-1}$. Then $(1, A, A^2, \dots, A^{m-1})$ is linearly independent, and
+$$A^m = \mu_0 1 + \mu_1 A + \cdots + \mu_{m-1} A^{m-1}$$
+for some $\mu_i \in \Phi$. Moreover, for all $k \ge 0$,
+$$A^{m+k} \in [1, A, A^2, \dots, A^{m-1}].$$

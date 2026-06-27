@@ -1,0 +1,23 @@
+id: diagonalization-lemma-nondegenerate-critical-point
+title_en: "Diagonalization Lemma for Nondegenerate Critical Points"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: several-variables
+difficulty: advanced
+tags: ["diagonalization", "nondegenerate-critical-point", "morse-lemma", "symmetric-bilinear-form", "induction"]
+depends_on:
+  required: ["smooth-function-expansion-lemma"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "I"
+    section: "§6. Morse Theory"
+    pages: ""
+    role_in_book: "Technical diagonalization lemma for proving the Morse Lemma via induction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

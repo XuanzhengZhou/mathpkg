@@ -1,0 +1,23 @@
+id: spherically-symmetric-spacetime
+title_en: "Spherically Symmetric Spacetime"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: intermediate
+tags: [spherical-symmetry, isometry-group, SO3, group-orbits, spacetime-symmetry]
+depends_on:
+  required: [isometry-group, group-orbit]
+  recommended: [spacelike-submanifold]
+  suggested: [Lorentz-group]
+source_books:
+  - book_id: "gtm048"
+    author: "Sachs & Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "8"
+    section: "8.4.6"
+    pages: ""
+    role_in_book: "formal definition of spherical symmetry in general relativity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

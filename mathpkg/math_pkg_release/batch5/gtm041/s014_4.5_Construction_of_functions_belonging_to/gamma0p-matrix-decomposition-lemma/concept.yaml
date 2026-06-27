@@ -1,0 +1,23 @@
+id: gamma0p-matrix-decomposition-lemma
+title_en: "Coset Decomposition Lemma for Γ₀(p)"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [modular-group, gamma0-subgroup, matrix-decomposition, coset-representatives, translation-operator]
+depends_on:
+  required: [modular-group, gamma0-subgroup, gamma0-p2-subgroup]
+  recommended: [linear-fractional-transformation, matrix-representation]
+  suggested: [coset-decomposition, congruence-subgroup]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "4"
+    section: "4.5"
+    pages: ""
+    role_in_book: "Matrix decomposition lemma used to prove that the operator f_p lands in functions automorphic under Γ₀(p)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

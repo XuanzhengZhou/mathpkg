@@ -1,0 +1,23 @@
+id: integral-closure-finite-type-domain
+title_en: "Theorem 9: Integral closure of a finite-type domain is a finite module"
+title_zh: "定理9：有限型整环的整闭包是有限模"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [integral-closure, finite-integral-domain, finite-module, noetherian-ring, transcendence-degree]
+depends_on:
+  required: [noetherian-integral-closure-is-finite-module, separating-transcendence-basis-theorem]
+  recommended: [finite-integral-domain, transcendence-basis, separable-extension, integral-dependence]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra. Vol. I"
+    chapter: "V"
+    section: "§4. Finiteness theorems"
+    pages: ""
+    role_in_book: "Main finiteness theorem for integral closures of finite-type domains over a field"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

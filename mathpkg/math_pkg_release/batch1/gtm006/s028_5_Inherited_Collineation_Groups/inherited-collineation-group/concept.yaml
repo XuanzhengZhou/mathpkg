@@ -1,0 +1,23 @@
+id: inherited-collineation-group
+title_en: "Inherited Collineation Group"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-planes
+difficulty: intermediate
+tags: [collineation-group, derivation, affine-plane, derived-plane]
+depends_on:
+  required: [inherited-collineation]
+  recommended: [derivation-set, derived-plane, collineation-group]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "10"
+    section: "5. Inherited Collineation Groups"
+    pages: ""
+    role_in_book: "Defines the inherited collineation group as the subgroup of the derived plane's collineation group induced by collineations of the original plane that preserve the derivation set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

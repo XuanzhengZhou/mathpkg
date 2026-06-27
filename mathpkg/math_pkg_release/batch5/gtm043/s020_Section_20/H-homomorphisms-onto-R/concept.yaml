@@ -1,0 +1,23 @@
+id: H-homomorphisms-onto-R
+title_en: "H is the Set of Homomorphisms of C(X) onto R and σ[X] is Dense in H"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: compactifications
+difficulty: advanced
+tags: [homomorphism, real-maximal-ideal, density, product-space, realcompactification]
+depends_on:
+  required: [sigma-homeomorphism-C-embedded, real-maximal-ideal, induced-homomorphism]
+  recommended: [product-space-P-embedding, C-embedded-subspace]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "11"
+    section: "7"
+    pages: ""
+    role_in_book: "Characterizes the closure H = cl σ[X] as the set of all homomorphisms onto R, with σ[X] dense"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

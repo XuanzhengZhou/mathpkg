@@ -1,0 +1,23 @@
+id: function-space-construction
+title_en: "Construction of Vector Spaces with Arbitrary Basis"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [vector-space, function-space, basis, cardinal-number, construction]
+depends_on:
+  required: [vector-space, basis-of-vector-space, cardinal-number]
+  recommended: [function-space-standard-basis]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "IX"
+    section: "2"
+    pages: "265-266"
+    role_in_book: "Constructs a vector space with a basis of any given cardinal number using function spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

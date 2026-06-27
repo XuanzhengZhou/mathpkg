@@ -1,0 +1,23 @@
+id: positive-capacity-condition
+title_en: "Condition for positive capacity"
+title_zh: "正容量的条件"
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [capacity, finite-set, hitting-probability, taboo-probability]
+depends_on:
+  required: [capacity-of-set, hitting-probability, equilibrium-distribution]
+  recommended: [mean-occupation-time]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Characterizes when a set has positive capacity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

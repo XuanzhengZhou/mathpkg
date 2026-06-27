@@ -1,0 +1,23 @@
+id: interior-of-n-prime-contains-no-ltd
+title_en: "Lemma 9: The interior of N' contains no locally tame disk"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [locally-tame-disk, ltd, polyhedral-disk, splitting, general-position]
+depends_on:
+  required: [disk-in-dual-cell-intersects-k-prime]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "8"
+    section: "33"
+    pages: "239-246"
+    role_in_book: "Eliminates LTDs from the interior of N', enabling the fundamental group argument"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

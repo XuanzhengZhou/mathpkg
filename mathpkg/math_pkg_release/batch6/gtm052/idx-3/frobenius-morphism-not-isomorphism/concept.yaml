@@ -1,0 +1,23 @@
+id: frobenius-morphism-not-isomorphism
+title_en: "The Frobenius morphism is bijective and bicontinuous but not an isomorphism"
+title_zh: "Frobenius态射是双射双连续的但不是同构"
+type: exercise
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [frobenius-morphism, characteristic-p, homeomorphism, inseparable]
+depends_on:
+  required: [morphism-of-varieties, isomorphism-of-varieties]
+  recommended: [field-characteristic, separable-extension]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "3"
+    pages: "19"
+    role_in_book: "Exercise 3.2(b); Frobenius counterexample"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

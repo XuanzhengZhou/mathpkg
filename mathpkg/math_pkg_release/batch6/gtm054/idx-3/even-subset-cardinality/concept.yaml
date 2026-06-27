@@ -1,0 +1,23 @@
+id: even-subset-cardinality
+title_en: "Cardinality of the Even Subset Space"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: algebraic-combinatorics
+difficulty: basic
+tags: [cardinality, even-subsets, power-set, corollary]
+depends_on:
+  required: [even-subset-is-subspace]
+  recommended: [power-set-vector-space]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "2"
+    section: "IIA"
+    pages: "41-48"
+    role_in_book: "Corollary A2 — counts the number of even-cardinality subsets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

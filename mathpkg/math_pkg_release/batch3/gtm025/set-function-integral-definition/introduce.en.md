@@ -1,0 +1,1 @@
+The integral over a measurable subset is defined by restricting the integrand via multiplication by the characteristic function. This extends the integral to function as a set function on measurable sets.

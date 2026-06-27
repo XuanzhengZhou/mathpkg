@@ -1,0 +1,23 @@
+id: theorem-v-decomposition-gamma-t-bar
+title_en: "Theorem V: Decomposition of the Factor Algebra into Semisimple Subalgebra and Radical"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [factor-algebra, semisimple, nilpotent, radical, direct-sum, irreducible-ideal, jordan-chevalley, structure-theorem]
+depends_on:
+  required: [semisimple-element, semisimple-and-nilpotent-parts]
+  recommended: [theorem-iv-semisimple-nilpotent-decomposition, lemma-iv-relatively-prime-polynomial-decomposition]
+  suggested: [irreducible-ideal, radical-of-algebra]
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "12"
+    section: "12.18"
+    pages: "390-394"
+    role_in_book: "Structure theorem describing the factor algebra Γ(t̄) as a direct sum of its semisimple subalgebra A and its radical, with A further decomposing as a direct sum of fields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

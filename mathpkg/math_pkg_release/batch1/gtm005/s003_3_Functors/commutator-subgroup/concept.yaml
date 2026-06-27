@@ -1,0 +1,14 @@
+id: commutator-subgroup
+title_en: "Commutator Subgroup"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [group-theory, commutator-subgroup, derived-subgroup, normal-subgroup, functoriality]
+depends_on: {required: [], recommended: [group, normal-subgroup, homomorphism], suggested: [abelianization]}
+source_books:
+  [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "I", section: "3", pages: "14", role_in_book: "Introduced as an example of a functor Grp to Grp; used to illustrate functoriality vs non-functoriality (center)"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

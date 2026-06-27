@@ -1,0 +1,16 @@
+In the ergodic basic example ($\sum_k \beta_k < \infty$), let $\alpha_j = \beta_j / \sigma_\infty$ where $\sigma_\infty = \sum_k \beta_k$ and $\sigma_i = \sum_{k=0}^{i-1} \beta_k$ with $\sigma_0 = 0$.
+
+The entry probabilities are:
+$$^i\lambda_j = \begin{cases} (j-i)\alpha_j & \text{if } j \geq i, \\ 1 - (i-j)\alpha_i & \text{if } j < i. \end{cases}$$
+
+The Green function is:
+$$G_{ij} = {^i\lambda_j} \, {^i N_{jj}} = \begin{cases} (j-i)\alpha_j & \text{if } j \geq i, \\ \frac{\alpha_j}{\alpha_i} + (j-i)\alpha_j & \text{if } j < i. \end{cases}$$
+
+The potential kernel $C$ is:
+$$C_{ij} = \begin{cases} \frac{\sigma_j}{\sigma_\infty} - \frac{\alpha_j}{\alpha_i} \frac{\sigma_i}{\sigma_\infty} & \text{if } j \geq i, \\ \frac{\sigma_j}{\sigma_\infty} - \frac{\alpha_j}{\alpha_i} \frac{\sigma_i}{\sigma_\infty} + \frac{\alpha_j}{\alpha_i} & \text{if } j < i. \end{cases}$$
+
+The dual potential kernel is:
+$$\hat{C}_{ij} = \frac{\alpha_j}{\alpha_i} G_{ji} = \begin{cases} (i-j)\alpha_j & \text{if } j \leq i, \\ (i-j)\alpha_j + 1 & \text{if } j > i. \end{cases}$$
+
+The mean hitting times are:
+$$M_{ij} = \frac{C_{ij}}{\alpha_j} = \begin{cases} \frac{1}{\alpha_j} \frac{\sigma_j}{\sigma_\infty} - \frac{1}{\alpha_i} \frac{\sigma_i}{\sigma_\infty} & \text{if } j \geq i, \\ \frac{1}{\alpha_j} \frac{\sigma_j}{\sigma_\infty} - \frac{1}{\alpha_i} \frac{\sigma_i}{\sigma_\infty} + \frac{1}{\alpha_i} & \text{if } j < i. \end{cases}$$

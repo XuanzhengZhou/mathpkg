@@ -1,0 +1,23 @@
+id: normal-cone-functional-decomposition
+title_en: "Normal Cone Implies Functional Decomposition into Positive Parts"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: ordered-linear-spaces
+difficulty: intermediate
+tags: [normal-cone, positive-functional, Krein, linear-functional]
+depends_on:
+  required: [linear-functional-difference-of-positive-functionals]
+  recommended: [normal-cone]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "ORDERED LINEAR SPACES"
+    pages: "224"
+    role_in_book: "Sufficient geometric condition for functional decomposition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,15 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+1.9 Proposition from Conway's "Functions of One Complex Variable I."
+Let $(X, d)$ be a metric space; then:
+
+(a) The sets $X$ and $\square$ are open;
+
+(b) If $G_1, \ldots, G_n$ are open
+
+closed. This, of course, is false as can be seen by looking at $\{z \in \mathbb{C} : \text{Re } z > 0\} \cup \{0\}$; it is neither open nor closed....

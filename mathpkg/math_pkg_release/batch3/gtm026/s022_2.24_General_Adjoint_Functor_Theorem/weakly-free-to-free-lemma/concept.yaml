@@ -1,0 +1,23 @@
+id: weakly-free-to-free-lemma
+title_en: "Lemma 2.25: Weakly Free to Free Refinement"
+title_zh: ""
+type: lemma
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [adjoint-functor, weakly-free, collective-equalizer, free-object, monomorphism]
+depends_on:
+  required: [weakly-free-object, collective-equalizer, equalizer, functor, monomorphism]
+  recommended: [general-adjoint-functor-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.25"
+    pages: ""
+    role_in_book: "Key lemma completing the proof of the General Adjoint Functor Theorem 2.24"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

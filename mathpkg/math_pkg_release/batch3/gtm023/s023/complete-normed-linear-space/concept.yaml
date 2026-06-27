@@ -1,0 +1,23 @@
+id: complete-normed-linear-space
+title_en: "Complete Normed Linear Space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [completeness, banach-space, cauchy-sequence, normed-space]
+depends_on:
+  required: [normed-linear-space, cauchy-sequence, convergent-sequence]
+  recommended: []
+  suggested: [banach-space]
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "5"
+    pages: "222-229"
+    role_in_book: "Definition introduced in problem statement within the Normed Vector Spaces section"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

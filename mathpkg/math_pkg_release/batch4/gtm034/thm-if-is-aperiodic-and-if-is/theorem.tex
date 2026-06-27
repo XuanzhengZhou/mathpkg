@@ -1,0 +1,55 @@
+If $P(x,y)$ is aperiodic, and if $f$ is regular relative to $P$ and bounded on $R$, then $f$ is constant on $R$.
+
+Proof: Given a transition function $P(x,y)$ and a function $f(x)$ satisfying the hypotheses of T1, we set
+
+$$g(x) = f(x) - f(x - a)$$
+
+where $a$ is (for the moment at least) an arbitrary element of $R^+$. Clearly $g(x)$ is a bounded function, and one easily verifies that
+
+$$Pg(x) = g(x), \quad x \in
+
+choose a sequence $x_n$ of points in $R$ such that
+
+$$\lim_{n \to \infty} g(x_n) = M,$$
+
+and let
+
+$$g_n(x) = g(x + x_n).$$
+
+Since $g(x)$ is bounded, one can select a subsequence $x_n'$ from the sequence $x_n$ such that, for a certain $x = x_0$
+
+$$\lim_{n \to \infty} g(x_0 + x_n') \text{ exists.}$$
+
+But one can do much better! One can take a subsequence $x_n''$ of this subsequence such that $g(x + x_n'')$ has a limit at $x = x_0$ and also at $x_1$. This process can be continued. It is famous as Cantor's diagonal process, the name being due to a convenient constructive procedure for getting a sequence which, from some point on, is a subsequence of each of a countable infinity of sequences $x_n^{(1)}, x_n^{(2)}, x_n^{(3)}, \ldots$ such that $x_n^{(k+1)}$ is a subsequence of $x_n^{(k)}$. Since $R$ is countable, this is all that is needed for the following conclusion: there exists a subsequence $n'$ of the positive integers such that
+
+$$\lim_{n' \to \infty} g_{n'}(x) = g^*(x)$$
+
+exists for every $x$ in $R$. It is clear that
+
+$$g^*(0) = M, \quad g^*(x) \leq M, \quad x \in R.$$
+
+It is also true (by dominated convergence) that
+
+$$Pg^*(x) = g^*(x), \quad x \in R.$$
+
+What has been accomplished is this: we have exhibited a function $g^*(x)$ which is "essentially regular," i.e., it becomes regular if one adds to it a suitable constant, and it has the property that it assumes its maximum at the origin. It is the latter property, which together with the aperiodicity of $P(x,y)$, will lead to the conclusion that $f(x)$ is constant.
+
+Iterating the operation by $P$ on
+
+Given any positive integer $r$ and any $\epsilon > 0$, one can therefore find an integer $n$ large enough so that
+
+$$g_n(a) > M - \epsilon, \quad g_n(2a) > M - \epsilon, \dots, g_n(ra) > M - \epsilon.$$
+
+Going back to the definition of $g_n(x)$ and adding these $r$ inequalities one has
+
+$$f(ra + x_n) - f(x_n) > r(M - \epsilon)$$
+
+for all large enough $n$. If $M$ were positive, then $r$ could have been chosen so large that $r(M - \epsilon)$ exceeds the least upper bound of $f(x)$. This is impossible and hence $M \leq 0$. Hence $g(x) \leq 0$ or $f(x) \leq f(x - a)$ for all $x \in R$, $a \in R^+$. But exactly the same process of reasoning could have been applied to the function $-f(x)$ giving $f(x) \geq f(x - a)$ so that
+
+$$f(x) = f(x - a) \text{ for } x \in R, \quad a \in R^+.$$
+
+That is all one can prove (no more is true) in the general case. But if the random walk is aperiodic, we can conclude that $f$ is constant; for arbitrary $y \in R$, it is then possible to write $y = a - b$ with $a$ and $b$ in $R^+$ so that $f(y) = f(y - a) = f(-b) = f(0)$.
+
+Now we shall embark on a long sequence of propositions (P1 through P8) each describing some different aspect of the asymptotic behavior of the Green function $G(x,y)$. Theorem T1 will be an indispensable tool at several points in our work. In fact after P3 or, at the latest after P6, it will be clear that T1 makes possible a simple and natural proof of the renewal theorem for positive random variables which was proved by Fourier analytical methods in Chapter II. Although T1 is sufficiently powerful so that, by taking full advantage of it, one could dispense entirely with the results of P9.2 and P9.
+
+Next we shall derive

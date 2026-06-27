@@ -1,0 +1,23 @@
+id: positive-basis
+title_en: "Positive Basis"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [positive-basis, orientation, determinant-function, permutation]
+depends_on:
+  required: [orientation-by-determinant]
+  recommended: [basis]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§8. Oriented vector spaces"
+    pages: "4.26"
+    role_in_book: "Defines positive basis and its behavior under permutations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

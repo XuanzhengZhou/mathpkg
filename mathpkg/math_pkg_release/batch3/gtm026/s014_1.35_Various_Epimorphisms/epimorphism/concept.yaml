@@ -1,0 +1,23 @@
+id: epimorphism
+title_en: "Epimorphism"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: basic
+tags: [epimorphism, epi, right-cancellation, categorical-surjectivity]
+depends_on:
+  required: []
+  recommended: []
+  suggested: [split-epimorphism, morphism-as-coequalizer]
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.35"
+    pages: ""
+    role_in_book: "Defines epimorphism as the weakest of three categorical surjectivity notions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

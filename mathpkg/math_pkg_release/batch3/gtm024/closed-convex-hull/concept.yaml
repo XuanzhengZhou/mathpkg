@@ -1,0 +1,23 @@
+id: closed-convex-hull
+title_en: "Closed Convex Hull"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: ["closed-convex-hull", "compactness", "join"]
+depends_on:
+  required: ["convex-hull-def", "linear-topological-space"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§11"
+  section: "11.A"
+  pages: "59"
+  role_in_book: "closure of convex hull"
+content_hash: "e052319388fd4821"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

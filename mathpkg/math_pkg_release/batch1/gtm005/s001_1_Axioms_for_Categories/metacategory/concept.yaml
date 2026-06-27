@@ -1,0 +1,30 @@
+id: metacategory
+title_en: Metacategory
+title_zh: ''
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags:
+- metacategory
+- category
+- identity
+- composition
+- category-theory
+depends_on:
+  required:
+  - metagraph
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: I
+  section: '1'
+  pages: ''
+  role_in_book: central definition; metacategory is the axiomatic notion of a category
+    without set-theoretic restrictions
+content_hash: bf0fc0c571a07590
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

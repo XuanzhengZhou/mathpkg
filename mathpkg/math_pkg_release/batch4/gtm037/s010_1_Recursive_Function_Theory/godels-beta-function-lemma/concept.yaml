@@ -1,0 +1,23 @@
+id: godels-beta-function-lemma
+title_en: "Gödel's Beta-Function Lemma"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: computability-theory
+difficulty: advanced
+tags: [beta-function, Godel-numbering, sequence-coding, Chinese-remainder-theorem, elementary-function]
+depends_on:
+  required: [beta-function, j-and-l-pairing-functions, properties-of-j-and-l]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "3"
+    section: "1"
+    pages: ""
+    role_in_book: "Theorem 3.46 (Number-theoretic: Gödel's beta-function lemma) proving that every finite sequence can be encoded via beta"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

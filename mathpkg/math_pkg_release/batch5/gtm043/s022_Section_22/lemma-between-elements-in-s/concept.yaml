@@ -1,0 +1,23 @@
+id: lemma-between-elements-in-s
+title_en: "Interpolation Lemma for Elements of s"
+title_zh: ""
+type: lemma
+domain: foundations
+subdomain: order-theory
+difficulty: advanced
+tags: [eta1-set, interpolation, order-topology, q-set]
+depends_on:
+  required: [set-of-01-transfinite-sequences, upper-elements-set-q]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "13"
+    section: "19"
+    pages: ""
+    role_in_book: "Key interpolation lemma used to prove Q is η₁"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: tangent-space-of-a-surface
+title_en: "Tangent Space of a Surface"
+title_zh: "曲面的切空间"
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [tangent-space, surface, differential, linear-subspace]
+depends_on:
+  required: [parameterized-surface-patch]
+  recommended: [tangent-space-of-rn, differential-of-smooth-map]
+  suggested: []
+source_books:
+  - book_id: gtm051
+    author: "Manfredo P. do Carmo"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: "3.1.1"
+    role_in_book: "Defines the fundamental linear object attached to a surface at each point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

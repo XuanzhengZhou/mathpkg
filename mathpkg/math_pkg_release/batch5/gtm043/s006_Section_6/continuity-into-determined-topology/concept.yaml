@@ -1,0 +1,23 @@
+id: continuity-into-determined-topology
+title_en: "Continuity into a Space with Topology Determined by C'"
+title_zh: "到由C'决定拓扑的空间的连续性"
+type: theorem
+domain: topology
+subdomain: weak-topology
+difficulty: intermediate
+tags: [weak-topology, continuity, determined-topology, continuous-function]
+depends_on:
+  required: [weak-topology-generated-by-family, continuous-function]
+  recommended: [completely-regular-space]
+  suggested: [product-topology]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.8"
+    pages: ""
+    role_in_book: "Theorem 3.8; useful criterion for continuity of mappings into a space whose topology is weak"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

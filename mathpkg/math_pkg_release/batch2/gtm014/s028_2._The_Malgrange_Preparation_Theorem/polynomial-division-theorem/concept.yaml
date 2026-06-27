@@ -1,0 +1,23 @@
+id: polynomial-division-theorem
+title_en: "Polynomial Division Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: singularity-theory
+difficulty: advanced
+tags: [division-theorem, smooth-functions, polynomial-division, malgrange-preparation]
+depends_on:
+  required: [generalized-cauchy-integral-formula]
+  recommended: [weierstrass-polynomial-division-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky and Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "IV"
+    section: "2"
+    pages: ""
+    role_in_book: "Key technical theorem: division by the polynomial P_k with smooth parameters"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

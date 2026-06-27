@@ -1,0 +1,23 @@
+id: axiom-schema-of-separation-zf2
+title_en: "Axiom Schema of Separation (ZF2)"
+title_zh: ""
+type: axiom
+domain: logic
+subdomain: set-theory
+difficulty: intermediate
+tags: [ZF, separation, comprehension, axiomatic-set-theory, axiom-schema]
+depends_on:
+  required: [first-order-zf-formal-theory]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: ""
+    section: "3"
+    pages: ""
+    role_in_book: "Second axiom schema of first-order ZF: for each predicate π(x) there is a subset of a given set consisting of elements satisfying π"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

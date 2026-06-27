@@ -1,0 +1,23 @@
+id: logic-formal-system
+title_en: "Logic (Formal System)"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: foundations
+difficulty: intermediate
+tags: [logic, formal-system, propositions, valuations, proofs, metalogic]
+depends_on:
+  required: []
+  recommended: [valuation-of-proposition-algebra, proof-in-propositional-calculus]
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes and J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "III"
+    section: "1"
+    pages: ""
+    role_in_book: "General definition of a logic as a formal system with propositions, valuations, and proofs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

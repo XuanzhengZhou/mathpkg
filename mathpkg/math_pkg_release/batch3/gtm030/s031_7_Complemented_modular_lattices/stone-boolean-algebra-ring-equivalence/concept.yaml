@@ -1,0 +1,23 @@
+id: stone-boolean-algebra-ring-equivalence
+title_en: "Stone's Theorem: Equivalence of Boolean Algebras and Boolean Rings"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: lattice-theory
+difficulty: intermediate
+tags: [boolean-algebra, boolean-ring, stone-representation, equivalence-of-categories]
+depends_on:
+  required: [boolean-algebra, boolean-ring, symmetric-difference-in-boolean-algebra]
+  recommended: [ring, lattice]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "VII"
+    section: "7. Complemented modular lattices"
+    pages: "210"
+    role_in_book: "Theorem 12 (Stone): equivalence of Boolean algebras and Boolean rings with identity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

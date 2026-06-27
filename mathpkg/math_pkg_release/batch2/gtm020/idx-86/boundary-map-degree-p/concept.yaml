@@ -1,0 +1,23 @@
+id: boundary-map-degree-p
+title_en: "The Map u_p on the Loop Space has p-Local Degree p"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: homotopy-theory
+difficulty: advanced
+tags: [boundary-map, loop-space, p-localization, double-suspension, degree-map, homology-isomorphism]
+depends_on:
+  required: [e-n-fibre-space]
+  recommended: [loop-suspension-adjunction, homology-of-loop-spaces, p-localization]
+  suggested: [james-decomposition, double-suspension-map]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "8"
+    section: "8.1"
+    pages: "351"
+    role_in_book: "Characterizes the boundary map u_p that is key to the double suspension analysis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

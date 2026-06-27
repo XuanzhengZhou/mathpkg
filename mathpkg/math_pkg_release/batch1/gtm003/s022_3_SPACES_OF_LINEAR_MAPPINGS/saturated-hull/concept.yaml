@@ -1,0 +1,23 @@
+id: saturated-hull
+title_en: "Saturated hull of a family of bounded sets"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [saturated-hull, bounded-sets, locally-convex-space]
+depends_on:
+  required: [saturated-family-bounded-sets]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "3"
+    pages: ""
+    role_in_book: "Definition; the 𝔖-topology is unchanged when replacing 𝔖 by its saturated hull"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

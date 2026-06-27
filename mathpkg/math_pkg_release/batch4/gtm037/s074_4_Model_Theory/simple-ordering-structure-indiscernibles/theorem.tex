@@ -1,0 +1,11 @@
+\textbf{Definition 27.15.}
+\begin{enumerate}
+\item[(i)] A \textit{simple ordering structure} is a pair $\mathfrak{A} = (A, \leq)$ such that $\leq$ is a simple ordering with field $A$.
+\item[(ii)] Let $\mathfrak{A} = (A, \leq)$ be a simple ordering structure, and $\mathfrak{B}$ an $\mathcal{L}$-structure ($\mathcal{L}$ is an arbitrary first-order language). We say that $\mathfrak{A}$ is \textit{homogeneous} for $\mathfrak{B}$, or is a \textit{set of indiscernibles} for $\mathfrak{B}$, provided that $A \subseteq B$ and the following condition holds:
+$$
+\forall n \in \omega \; \forall x \in {}^n\!A \; \forall y \in {}^n\!A \;
+\Big[ \big(\forall i,j < n \;(x_i < x_j \leftrightarrow y_i < y_j)\big)
+\;\longrightarrow\;
+\big(\mathfrak{B} \models \varphi[x_0,\ldots,x_{n-1}] \leftrightarrow \mathfrak{B} \models \varphi[y_0,\ldots,y_{n-1}] \;\text{ for all } \varphi \in \mathrm{Fmla}^n_{\mathcal{L}}\big) \Big].
+$$
+\end{enumerate}

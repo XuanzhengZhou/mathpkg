@@ -1,0 +1,23 @@
+id: additive-continuous-implies-measure
+title_en: "Characterization of Measures by Continuity (Theorem F)"
+title_zh: "用连续性刻画测度（定理F）"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-theory, continuity, characterization]
+depends_on:
+  required: [measure, finitely-additive-set-function]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "II"
+    section: "9"
+    pages: ""
+    role_in_book: "A finite, non-negative, additive set function is a measure iff it is continuous from below or continuous from above at 0"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

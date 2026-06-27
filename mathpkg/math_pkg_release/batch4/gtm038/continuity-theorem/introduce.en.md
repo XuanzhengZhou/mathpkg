@@ -1,0 +1,1 @@
+The Continuity theorem (Kontinuitätssatz) provides a sufficient condition for holomorphic continuation: if the larger domain of a Hartogs figure intersects the original domain in a connected set, every holomorphic function extends uniquely.

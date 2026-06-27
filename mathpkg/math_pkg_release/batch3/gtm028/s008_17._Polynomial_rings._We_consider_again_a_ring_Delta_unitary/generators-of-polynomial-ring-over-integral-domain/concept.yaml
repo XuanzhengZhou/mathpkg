@@ -1,0 +1,23 @@
+id: generators-of-polynomial-ring-over-integral-domain
+title_en: "Generators of Polynomial Ring over an Integral Domain"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [polynomial-ring, generator, automorphism, integral-domain]
+depends_on:
+  required: [polynomial-ring]
+  recommended: [integral-domain, unit]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "I"
+    section: "17"
+    pages: ""
+    role_in_book: "Characterizes all generators of a polynomial ring in one variable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

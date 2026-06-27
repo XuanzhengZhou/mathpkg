@@ -1,0 +1,23 @@
+id: truncated-character
+title_en: "Truncated Character $\chi_a$ on Finite Fields"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: character-sums
+difficulty: basic
+tags: [dirichlet-character, finite-field, truncated-character, fermat-curve]
+depends_on:
+  required: []
+  recommended: [multiplicative-character, teichmuller-character]
+  suggested: [jacobi-sum]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "6. Application to the Fermat Curve"
+    pages: "22-23"
+    role_in_book: "Auxiliary definition used to express point counts on the Fermat curve via character sums"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,49 @@
+shows that the ordered sets $C$ and $C'$ of all complete models and of all projective models respectively, are directed sets. Lemma 7 shows that $C'$ is a cofinal subset of $C$.
+
+In view of these properties, the partially ordered set $C$ and the continuous mappings $d_{M',M}$ $(M, M' \in C, M \leq M')$ give rise to an inverse system of topological spaces. The limit space of this inverse system, or the projective limit of the spaces $M \in C$ with respect to the mappings $d_{M',M}$ is then defined as the set $S(C)$ of all those points $P^0 = \{P_M; P_M \in M\}$ of the product $\prod_{M \in C} M$ which satisfy the relations $P_M = d_{M',M}(P_{M'})$, whenever $M \leq M'$; the topology in $S(C)$ is defined as the one induced in $S(C)$ by the usual product topology in the product space. We shall denote by $f_M$ the projection $P \rightarrow P_M$ of $S(C)$ into $M$. By definition of $S(C)$ we have $f_M = f_{M'} d_{M',M}$ whenever $M \leq M'$.
+
+We define in an entirely similar way the projective limit $S(C')$ of the projective models $M \in C'$, and denote by $f'_M$ the natural mapping of $S(C')$ into $M$. Since $C'$ is a cofinal subset of $C$, the elementary theory of projective limits shows the existence of a natural homeomorphism of $S(C)$ onto $S(C')$. But we shall not need this elementary fact, as we are going to prove that both $S(C)$ and $S(C')$ are naturally homeomorphic to the Riemann surface $S$ of $K$.
+
+In fact, given any element $v$ of $S$, the system of quasi-local
+
+determined by $\{1, x\}$. Consequently, $g'(v) \neq g'(v')$. Hence $g'$ is one-to-one.
+
+Since all the mappings $d_{S,M}$ are continuous (Lemma 4), their "product mapping" $g' : v \rightarrow \{d_{S,M}(R_v)\}$ is a continuous mapping of $S$ into $\prod_{M \in C'} M$, whence also a continuous mapping of $S$ onto the subspace $S(C')$.
+
+It remains to be proved that $g'$ is closed. Let $F$ be a closed subset of $S$. We obviously have $g'(F) = S(C') \cap \left(\prod_{M \in C'} d_{S,M}(F)\right)$. By Lemma 4 each set $d_{S,M}(F)$ is closed, whence also the product of these sets is closed. Therefore $g'(F)$ is a closed subset of $S(C')$. Q.E.D.
+
+NOTE: For further details concerning Riemann surfaces, and for applications of the compactness theorem 40 in Algebraic geometry (specifically, in the problem of local uniformization), see O. Zariski, "The compactness of the Riemann manifold of an abstract field of algebraic functions" (Bull. Amer. Math. Soc., 1944) and "Local uniformization on algebraic varieties" (Annals of Mathematics, 1940).
+
+§18. Derived normal models. Let $V/k$ be an affine variety (defined over a ground field $k$) in the affine $n$-space $A_n^K$ (K—a universal domain; see §5bis). Let $v = k[x_1, x_2, \cdots, x_n]$ be the coordinate ring of $V/k$; here $(x_1, x_2, \cdots, x_n)$ is a general point of $V/k$ and the $x_i$ may be assumed to belong to $K$ (since $K$ is a universal domain). Using the notations of §5bis and of the preceding section, we have a natural mapping of $V$ onto the affine model $V(v)$: to each point
+
+$Y_i = 0$, and if we take as non-homogeneous coördinates in that affine space the quotients $Y_0 / Y_i, Y_1 / Y_i, \cdots, Y_{i-1} / Y_i, Y_{i+1} / Y_i, \cdots, Y_n / Y_i$, then $(x_0 / x_i, x_1 / x_i, \cdots, x_{i-1} / x_i, x_{i+1} / x_i, \cdots, x_n / x_i)$ is a general point of $V_i / k$. It is then easily seen that there is a natural mapping of $V^\star$ onto the projective model $M$ determined by the set $\{x_0, x_1, \cdots, x_n\}$ and that, again, two points of $V^\star$ are mapped into one and the same point of $M$ if and only if they are $k$-isomorphic.
+
+By analogy with our definition of normal varieties, given in §14, we can define normality for the general models, over $k$, introduced in the preceding section ($k$ is now a ring, not necessarily a field). A model $M$ is normal if each element of $M$ is an integrally closed quasi-local domain. It is immediately seen that Theorem 34 of §14 continues to be valid for these, more general models; we have, namely, that an affine model $V(0)$ is normal if and only if $0$ is an integrally closed ring.
+
+The concept of a derived normal model is of importance in algebraic geometry. We shall introduce this concept here with reference to the more general type of models considered in the preceding section. We shall find it convenient to denote the "ground ring" not by $k$ but by some other letter, and denote by $k$ the field of quotients of the ground ring. This will facilitate references to some theorems proved in volume I. We shall therefore denote the ground ring by $R$. Following Nagata ("A general theory of Algebraic Geometry over Dedekind domains," I, American Journal of Mathematics, vol. 58 (1956), p. 79 and p. 86), we will impose on $
+
+[Only the following modifications must be made in the proof of the normalization theorem as given in volume I: (a) It is permissible to assume that the polynomial $P(U, X_1, X_2, \cdots, X_n)$ has coefficients in $R$. (b) The elements $a_i$ ($i=1, 2, \cdots, n$) must now be suitably chosen in $R$; this is possible, by Theorem 14 of Vol. I, Ch. I, § 18, since $R$ has infinitely many elements.]
+
+With the aid of this generalized normalization theorem we can now also extend Theorem 9 of Vol. I, Ch. V, § 4 in the following form:
+
+Let $R$ be a restricted domain, $A=R[x_1, x_2, \cdots, x_n]$ an integral domain which is finitely generated over $R$, and let $F$ be a finite algebraic extension of the quotient field $k(x_1, x_2, \cdots, x_n)$ of $A$, where $k$ is the quotient field of $R$. Then the integral closure $A'$ of $A$ in $F$ is a finite $A$-module (and is therefore finitely generated over $R$).
+
+Again, the proof is substantially the same as that of the cited Theorem 9 of Vol. I, Ch. V, § 4. We shall give here only those extra steps or modifications in the proof that are needed for the complete proof of the above generalized statement.
+
+(a) In the reduction to the case in which $F$ is the quotient field of $A$ we must take a basis $\{y_1, y_2, \cdots, y_q\}$ of $F$ over $k(x_1, x_2, \cdots, x_n)$ composed of elements which are integral over $A$ (and not merely over $k[x_1, x_2, \cdots, x_n]$). It is obvious that such a basis can be obtained by first finding a basis consisting of elements which are integral over $k[x_1, x_2, \cdots, x_n]$ and by multiplying each element of that basis by a suitable element of $R$.
+
+(b) Assuming
+
+Then Corollary 1 of Theorem 7 (Vol. I, Ch. V, §4) is applicable provided it is proved that $B$ is an integrally closed domain. We observe that $z_1, z_2, \cdots, z_d$ are algebraically independent over $R$ and that $R$ is integrally closed. To prove that this implies that $R[z_1, z_2, \cdots, z_d]$ is also integrally closed it is sufficient to consider the case $d=1$. Let then $B=R[z]$, where $z$ is a transcendental over $R$, and let $\xi$ be an element of the integral closure of $R[z]$ (in the quotient field of $R[z]$). Then necessarily $\xi \in k[z]$. Let then $\xi=f(z)=a_0z^q+a_1z^{q-1}+\cdots+a_q$, where the $a_i$ are in $k$. The ring $B[\xi]$ is a finite $B$-module. Since $B[\xi] \subset k[z]$, the finiteness of the $B$-module $B[\xi]$ implies the existence of an element $d$ of $R$, $d \neq 0$, such that $dB[\xi] \subset B$.
+
+In particular, $d\xi^i \in B$ for $i=1, 2, \cdots$. Since $z$ is transcendental over $R$ it follows from this that $da_0^i \in R$, for $i=1, 2, \cdots$. This implies that $a_0$ is integral over $R$, since $R$ is noetherian. Therefore $a_0 \in R$, $a_1z^{q-1}+\cdots+a_q$ is integral over $B$, and in a similar fashion it follows that $a_1, a_2, \cdots, a_q \in R$, which proves our assertion.†
+
+Having settled these algebraic preliminaries, we now consider an affine model $V(\varnothing)$, where $\varnothing$ is a ring between the ground ring $R$ and $K$, finitely generated over $R$.
+
+say, $P' \in V(\bar{o}_i)$. Then $P' = \bar{o}_{i,\bar{p}}$ where $\bar{p}$ is a prime ideal in $\bar{o}_i$, and $P = \bar{o}_{i,\bar{p}}$ where $\bar{p} = \bar{p} \cap \bar{o}_i$. It is clear that $P'$ contains as subring the integral closure $\bar{P}$ of $P$ in $F$. Let $\bar{P} = \mathfrak{m}(P') \cap \bar{P}$. The prime ideal $\bar{P}$ in $\bar{P}$ is the center of $v$ in $\bar{P}$ and is thus uniquely determined by $v$. It is a maximal ideal in $\bar{P}$ since $\bar{P} \cap P = \mathfrak{m}(P)$. We have $\mathfrak{m}(P') \cap \bar{P} = \bar{P}$, whence $P'$ dominates the local ring $\bar{P}$. On the other hand, we have that $\bar{o}_i$ is a subring of $\bar{P}$ and that $\bar{P} \cap \bar{o}_i = \bar{p}$ (since $\bar{P}$ and $\bar{p}$ are the centers of $v$ in $\bar{P}$ and $\bar{o}_i$ respectively). Therefore $\bar{P}$ dominates $P'$. It follows that $P' = \bar{P}$, showing that $P'$ is uniquely determined and that $M'$ is therefore an irredundant subset of $L$.
+
+The given model $M$ may possibly admit more than one representation as a finite union of affine models. However, the model $M'$ which we have just constructed, starting from a given representation of $M = \bigcup_{i=1}^{n} V(\bar{o}_i)$, depends only on $M$ and the field $F$. For, the above proof of the irredundant character of $M'$ shows clearly that $M'$ is the set of all local rings $\bar{P}$, where $\bar{P}$ ranges over the set of integral clos
+
+showing that $m(P'') \cap \bar{P}$ is a maximal ideal $\bar{P}$ of $\bar{P}$. Hence $P''$ dominates the element $\bar{P}_{\mathfrak{P}}$ of $M'$, showing that $M''$ dominates $M'$.
+
+Conversely, assume that $M'$ satisfies the stated condition and denote by $M^\star$ the derived normal model $N(M, F)$. By our assumption, as applied to $M'' = M^\star$, we have that $M^\star$ dominates $M'$. On the other hand, since $M'$ dominates $M$ and $R(M') = F$, it follows, from what we have just proved, that $M'$ dominates $M^\star$. Using the fact that both $M'$ and $M^\star$ are irredundant subsets of $L$ we conclude that $M' = M^\star$.

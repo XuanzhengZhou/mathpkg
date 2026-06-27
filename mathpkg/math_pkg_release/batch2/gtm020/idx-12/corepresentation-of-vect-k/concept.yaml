@@ -1,0 +1,23 @@
+id: corepresentation-of-vect-k
+title_en: "Corepresentation of the Cofunctor Vect_k by the Infinite Grassmannian"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: vector-bundles
+difficulty: advanced
+tags: [vector-bundles, classification, corepresentation, grassmannian, homotopy, natural-isomorphism]
+depends_on:
+  required: [vect-k-cofunctor, grassmannian-classifying-map]
+  recommended: [homotopy-classification-theorem-6-2, natural-transformation]
+  suggested: [yoneda-lemma, representable-functor]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "3"
+    section: "7"
+    pages: "50-51"
+    role_in_book: "The culminating theorem of the homotopy classification of vector bundles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

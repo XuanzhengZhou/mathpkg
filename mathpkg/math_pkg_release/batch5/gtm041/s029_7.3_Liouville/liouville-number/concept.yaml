@@ -1,0 +1,23 @@
+id: liouville-number
+title_en: "Liouville Number"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: diophantine-approximation
+difficulty: basic
+tags: [liouville, transcendental-number, rational-approximation]
+depends_on:
+  required: []
+  recommended: [algebraic-number]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "7"
+    section: "7.3"
+    pages: ""
+    role_in_book: "Defines Liouville numbers as real numbers that are extremely well approximated by rational numbers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

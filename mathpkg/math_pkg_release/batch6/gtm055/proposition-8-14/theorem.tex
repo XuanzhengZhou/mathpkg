@@ -1,0 +1,34 @@
+If $g$ is any continuous
+
+It is only fair to say that the above discussion develops but a very small fragment of a vast theory of differentiation. Much more could be said. For one thing, the hypothesis of continuity can be dropped outright in Theorem 8.12 (and therefore in Theorem 8.13 and Proposition 8.14 as well). Secondly, the theory of differentiation can be extended to much more general functions with much more general domains of definition. The reader who desires to study these topics more fully should consult a treatise on real analysis, such as [58]. Alternatively, he might consult the encyclopedic [26].
+
+PROBLEMS
+
+A. Let $(X, S_1)$ and $(X, S_2)$ be two measurable spaces with the same carrier $X$, and let $\mathcal{D}$ be a collection of sets belonging to both $S_1$ and $S_2$ that is closed with respect to the formation of finite intersections. Suppose $\varphi_1$ and $\varphi_2$ are signed [complex] measures on $(X, S_1)$ and $(X, S_2)$, respectively, such that $\varphi_1(E)$ and $\varphi_2(E)$ are finite and equal for every set $E$ in $\mathcal{D}$. Show that $\varphi_1 = \varphi_2$ on the entire $\sigma$-ring $S(\mathcal{D})$. (Hint: If $E_0$ is any one fixed set in $\mathcal{D}$, and if $Q$ denotes the collection of all those subsets $F$ of $E_0$ such that $\varphi_1(F) = \varphi_2(F)$, then $Q$ is a $\sigma$-quasiring containing the trace $\mathcal{D}_{E_0}$. Recall Problems 6D and 6K.)
+
+Problem A provides the basic uniqueness theorem used to establish all of the assertions of uniqueness made throughout Chapter 8. Neither of the principal hypotheses in this theorem can be omitted, even in the presence of the other. Thus, if $\kappa$ denotes the counting measure on $\mathbb{R}$, then, for example, $2\kappa$ agrees with $\kappa$ on the ring $H_r$ of half-open intervals (Ex. 6D) since both measures are infinite
+
+which $E_1$ and $E_2$ partition $X$. Show that if $A$ denotes an arbitrary subset of $X$, and if we write $A_{ij} = A \cap E_{ij}$, $i, j = 1, 2$, then
+
+$$\mu^*(A) = \mu^*(A_{11}) + \mu^*(A_{12}) + \mu^*(A_{21}) + \mu^*(A_{22}).$$
+
+Use this fact to show that the collection $M$ of all those subsets of $X$ that are measurable with respect to $\mu^*$ is a ring of sets and that $\mu^*$ is countably additive on $M$. (Hint: A finitely additive, countably subadditive, nonnegative set function defined on a ring of sets is automatically countably additive.) Show finally that $M$ is a $\sigma$-ring, and hence that $(X, M, \mu^*|M)$ is a measure space. The measure $\mu^*|M$ is called the measure defined by $\mu^*$. (Hint: It suffices to verify that $M$ is a $\sigma$-quasiring (Prob. 6J). If $\{E_n\}_{n=1}^{\infty}$ is a disjoint sequence of sets in $M$ with $E = \bigcup_n E_n$, and $A$ is an arbitrary subset of $X$, then it follows from what has already been shown that
+
+$$\mu^*(A) = \mu^*(A \setminus (E_1 \cup \cdots \cup E_n)) + \sum_{i=1}^{n} \mu^*(A \cap E_i)$$
+
+$$\geq \mu^*(A \setminus E) + \sum_{i=1}^{n} \mu^*(A \cap E_i)$$
+
+for every positive integer $n$.)
+
+D. Let us say that a collection $\%$ of subsets of a set $X$ is admissible if (i) the empty set $\emptyset$ belongs to $\%$ and (ii) $X$ is the union of some countable collection of sets belonging to $\%$. Let $\%$ be an admissible collection of subsets of $X
+
+able with respect to $\mu_n^*$ (see Problem C). Show that every cell in $\mathbb{R}^n$ is Lebesgue measurable, and hence that the $\sigma$-ring $S$ of Lebesgue measurable sets contains all Borel subsets of $\mathbb{R}^n$. (Hint: Show first that if $a$ is an arbitrary real number and $i_0$ is an integer, $i_0 = 1, \ldots, n$, then the half-space $\{(r_1, \ldots, r_n) \in \mathbb{R}^n : r_{i_0} \leq a\}$ is Lebesgue measurable.)
+
+F. The measure defined by Lebesgue outer measure $\mu_n^*$ introduced in the preceding problem agrees with Lebesgue–Borel measure $\mu_n$ on the Borel subsets of $\mathbb{R}^n$ (Examples B and C). Verify this by showing that if $Z$ is a cell in $\mathbb{R}^n$, then $\mu_n^*(Z) = |Z|$ (recall Problem A). Show also that if for any one fixed point $a = (a_1, \ldots, a_n)$ we write $T_a$ for the translation carrying each point $x = (x_1, \ldots, x_n)$ to $x + a = (x_1 + a_1, \ldots, x_n + a_n)$, then $\mu_n^*(T_a(A)) = \mu_n^*(A)$ for every subset $A$ of $\mathbb{R}^n$. Show, finally, that if $\Phi$ denotes the mapping of $\mathbb{R}^n$ onto itself defined for each point $x$ in $\mathbb{R}^n$ by $\Phi((x_1, \ldots, x_n)) = (a_1x_1, \ldots, a_nx_n)$, where $(a_1, \ldots, a_n)$ is some fixed $n$-tuple of positive numbers, then $\mu_n^*(\Phi(A)) = a_1 \cdots a_n \mu_n^*(A)$ for every subset $A$ of $\mathbb{R}^n$. (Hint: It is necessary to show that if $Z_0$ is a cell and $\{Z
+
+J. Let $B$ denote the $\sigma$-ring of Borel subsets of $\mathbb{R}$, and suppose given a measure $v$ on $(\mathbb{R}, B)$ which is finite on the bounded sets in $B$. Let
+
+$$f(t) = \begin{cases} v((0, t]), & t \geq 0, \\ -v((t, 0]), & t < 0. \end{cases}$$
+
+Show that $f$ is a monotone increasing 
+...

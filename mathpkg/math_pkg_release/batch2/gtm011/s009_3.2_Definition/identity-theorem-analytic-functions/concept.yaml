@@ -1,0 +1,23 @@
+id: identity-theorem-analytic-functions
+title_en: "Identity Theorem for Analytic Functions"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [identity-theorem, analytic-function, limit-point, region, uniqueness]
+depends_on:
+  required: [analytic-function-zero-limit-point-equivalence]
+  recommended: [analytic-function, connected-open-set]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.2"
+    pages: ""
+    role_in_book: "Corollary 3.8: two analytic functions on a region are identical iff their values agree on a set with a limit point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: inertia-ellipsoid-vectors
+title_en: "Inertia Ellipsoid as Level Set of Quadratic Form"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [inertia-ellipsoid, quadratic-form, moment-of-inertia, principal-axes]
+depends_on: {required: [kinetic-energy-quadratic-form-in-angular-velocity, principal-axes-of-rigid-body], recommended: [], suggested: []}
+source_books: [{book_id: "gtm060", author: "V.I. Arnold", title: "Mathematical Methods of Classical Mechanics", chapter: "6", section: "E", pages: "152", role_in_book: "Proves that the locus of e/sqrt(I_e) forms an ellipsoid"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

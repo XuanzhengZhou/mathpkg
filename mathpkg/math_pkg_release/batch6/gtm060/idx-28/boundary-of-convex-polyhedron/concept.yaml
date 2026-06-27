@@ -1,0 +1,13 @@
+id: boundary-of-convex-polyhedron
+title_en: "Boundary of a convex polyhedron"
+title_zh: "凸多面体的边界"
+type: definition
+domain: geometry
+subdomain: integration-of-forms
+difficulty: intermediate
+tags: [boundary, polyhedron, chain, orientation, outward-normal]
+depends_on: {required: [k-dimensional-chain], recommended: [convex-polyhedron], suggested: []}
+source_books: [{book_id: "gtm060", author: "V.I. Arnold", title: "Mathematical Methods of Classical Mechanics", chapter: "7", section: "35", pages: "197-198", role_in_book: "Defines the boundary of a polyhedron as a chain with induced orientations from the outward normal rule"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

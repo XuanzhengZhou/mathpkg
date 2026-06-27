@@ -1,0 +1,23 @@
+id: beta-x-measure
+title_en: "Boundary Measure beta^x"
+title_zh: "边界测度 beta^x"
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [boundary-measure, martin-boundary, potential-kernel, weak-star-convergence]
+depends_on:
+  required: [proposition-11-2]
+  recommended: [continuous-column-vector]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines the boundary measure beta^x obtained from the row vector {}_0N(x,·) via Proposition 11-2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

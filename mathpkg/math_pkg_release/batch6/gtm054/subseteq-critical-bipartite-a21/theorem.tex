@@ -1,0 +1,21 @@
+If $U \subseteq V_1$ and $U$ is a critical set in the bipartite graph $B$, then there exists a matching of $V_1 + U$ into $V_2 + N(U)$.
+
+PRO
+
+The abundance of existence results above notwithstanding, it is worthwhile to note that in any bipartite graph one can actually construct a largest matching, merely by applying the Flow Algorithm (IVD3) to the network constructed in the proof of the Main Matching Theorem.
+
+VB 1-Factors
+
+The notions developed for bipartite graphs in the previous section admit extensions to arbitrary graphs. Analogously to the concept of a mutual matching, we define a 1-factor of a graph $\Gamma = (V, \mathcal{E})$ to be a subset of $\mathcal{E}$ which is at once both independent and vertex-covering. Thus the existence of a 1-factor in $\Gamma$ is equivalent to $\nu_0(\Gamma) = 2\alpha_1(\Gamma)$ and implies that $\Gamma$ has no isolated vertices.
+
+For any subset $U \in \mathcal{P}(V)$, we consider the components of $\Gamma_U$ which contain an odd number of vertices and we let $\|U\|$ denote the number of such components. In case $U$ is independent, then $\|U\| = |U|$, and so our definition
+
+$$\delta(U) = \|U\| - |N(U)|$$
+
+as the deficiency of $U$ is clearly seen to include the definition of deficiency in §A as a special case. Analogously we define
+
+$$\delta(\Gamma) = \max\{\delta(U): U \in \mathcal{P}(V)\}$$
+
+and note that $\delta(\Gamma) \geq 0$ since $\delta(\varnothing) = 0$.
+
+Analogous to a critical set of §A is the following notion: $U$ is extremal if $\delta(U) = \delta(\Gamma)$. The precise relationship between these two terms will be made clear in the following proof.

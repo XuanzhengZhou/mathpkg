@@ -1,0 +1,23 @@
+id: uniqueness-of-analytic-continuation
+title_en: "Uniqueness of Analytic Continuation Along a Curve"
+title_zh: "沿曲线的解析延拓的唯一性"
+type: proposition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [analytic-continuation, uniqueness, germ, path, connectedness]
+depends_on:
+  required: [analytic-continuation-along-path, germ-of-analytic-function]
+  recommended: [function-element, identity-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "2.1"
+    pages: ""
+    role_in_book: "establishes that analytic continuation along a fixed curve is essentially unique"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: mean-first-passage-matrix-properties
+title_en: "Properties of the Mean First Passage Time Matrix"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [mean-first-passage-time, ergodic-chain, matrix-equation]
+depends_on:
+  required: [first-passage-time-matrix-relation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "4"
+    pages: ""
+    role_in_book: "Proposition 6-42: For an ergodic chain, M satisfies (1) M_dg=0 and M>=0, (2) M is finite-valued, (3) (I-P)M = E-D"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

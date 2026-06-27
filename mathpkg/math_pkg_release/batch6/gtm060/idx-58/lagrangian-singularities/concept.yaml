@@ -1,0 +1,23 @@
+id: lagrangian-singularities
+title_en: "Lagrangian singularities"
+title_zh: "拉格朗日奇点"
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [lagrangian-submanifold, caustic, singularity-theory, projection, generating-function]
+depends_on:
+  required: [lagrangian-submanifold]
+  recommended: [symplectic-manifold, cotangent-bundle]
+  suggested: [catastrophe-theory, maslov-index]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 12"
+    section: "A-B. Lagrangian singularities"
+    pages: ""
+    role_in_book: "Introduces singularities of projections of Lagrangian manifolds onto configuration space, encountered in Hamilton-Jacobi theory, caustics, and wave asymptotics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

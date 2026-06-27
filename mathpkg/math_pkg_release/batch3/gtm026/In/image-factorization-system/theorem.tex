@@ -1,0 +1,8 @@
+An \textit{image factorization system} in a category $\mathcal{H}$ is a pair $(E, M)$ where $E$ and $M$ are subclasses of the class of morphisms of $\mathcal{H}$ satisfying the following four axioms:
+
+\begin{enumerate}
+\item[(4.2)] $E$ and $M$ are subcategories of $\mathcal{H}$.
+\item[(4.3)] Every element of $E$ is an epimorphism and every element of $M$ is a monomorphism.
+\item[(4.4)] Every isomorphism is both in $E$ and in $M$.
+\item[(4.5)] Every $f: A \longrightarrow B$ in $\mathcal{H}$ has a unique $E$-$M$ factorization. More precisely, there exists $(e, m)$ with $e \in E$ and $m \in M$ such that $f = e \cdot m$ (so that the codomain of $e$ is the domain of $m$ — we denote it as $\mathrm{Im}(f)$) and whenever $(e', m')$ satisfies $e' \in E$, $m' \in M$, $f = e' \cdot m'$ there exists a (necessarily unique by (4.3)) isomorphism $\psi$ with $e \cdot \psi = e'$ and $\psi \cdot m' = m$.
+\end{enumerate}

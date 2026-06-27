@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "II"
+section: "IIC"
+exercise_number: 24
+---
+
+Prove that if $\Gamma_i$ is the bipartite graph of the system $\Lambda_i$ for $i = 0, 1, \ldots, n$, then $\Lambda_1, \ldots, \Lambda_n$ are the components of $\Lambda_0$ if and only if $\Gamma_1, \ldots, \Gamma_n$ are the components of $\Gamma_0$.

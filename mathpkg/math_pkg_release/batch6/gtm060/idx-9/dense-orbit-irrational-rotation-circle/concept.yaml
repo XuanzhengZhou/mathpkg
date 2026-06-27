@@ -1,0 +1,23 @@
+id: dense-orbit-irrational-rotation-circle
+title_en: "Dense Orbit of Irrational Rotation on the Circle"
+title_zh: "无理旋转在圆上的稠密轨道"
+type: theorem
+domain: applied-math
+subdomain: dynamical-systems
+difficulty: basic
+tags: [circle-rotation, irrational-rotation, dense-orbit, poincare-recurrence, topological-dynamics]
+depends_on:
+  required: [poincares-recurrence-theorem]
+  recommended: []
+  suggested: [diophantine-approximation]
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "B"
+    pages: "83-87"
+    role_in_book: "Application of Poincaré's recurrence theorem to irrational rotations on the circle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

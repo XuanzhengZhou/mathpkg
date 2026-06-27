@@ -1,0 +1,23 @@
+id: lifting-simple-modules-elementary-groups
+title_en: "Lifting of Simple Modules for Gamma_K-Elementary Groups"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [lifting, simple-module, gamma-k-elementary, modular-representation, semidirect-product, p-group]
+depends_on:
+  required: []
+  recommended: [brauer-theorem-modular-rk-pk, cde-commutation-with-res-induction]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "17"
+    section: "17.3 Proof of theorem 33"
+    pages: ""
+    role_in_book: "Key step in proving surjectivity of d: R_K(G) -> R_k(G)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

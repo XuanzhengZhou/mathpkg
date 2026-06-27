@@ -1,0 +1,23 @@
+id: order-of-dual-group
+title_en: "Order of the Dual Group"
+title_zh: "对偶群的阶"
+type: proposition
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [dual-group, order, finite-abelian-group]
+depends_on:
+  required: [dual-group-of-finite-abelian-group]
+  recommended: [extension-of-characters]
+  suggested: [cyclic-group]
+source_books:
+  - book_id: gtm007
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VI"
+    section: "§1.1"
+    pages: ""
+    role_in_book: "Establishes that the dual group has the same cardinality as the original group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

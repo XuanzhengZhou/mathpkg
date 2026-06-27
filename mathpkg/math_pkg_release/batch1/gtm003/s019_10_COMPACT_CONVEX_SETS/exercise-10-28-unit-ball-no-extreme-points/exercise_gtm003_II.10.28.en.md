@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "II"
+section: "10"
+exercise_number: 28
+---
+
+Let $E$ be the Banach space of real null sequences $x = (x_1, x_2, \ldots)$ with $\|x\| = \sup_n |x_n|$. The unit ball $B = \{ x : \|x\| \leq 1 \}$ in $E$ is closed and convex, but has no extreme points.

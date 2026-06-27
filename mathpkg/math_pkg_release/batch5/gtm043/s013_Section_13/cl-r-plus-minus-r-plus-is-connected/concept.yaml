@@ -1,0 +1,23 @@
+id: cl-r-plus-minus-r-plus-is-connected
+title_en: "cl R^+ - R^+ is connected"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: stone-cech-compactification
+difficulty: advanced
+tags: [stone-cech, beta-r, remainder, connected, positive-reals]
+depends_on:
+  required: [stone-cech-compactification, connected-space, compactification]
+  recommended: [cl-r-plus-equals-beta-r-plus]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "6"
+    section: "6.10"
+    pages: ""
+    role_in_book: "Connectedness of the remainder of βR^+"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: hamiltonian-eigenvalue-classification
+title_en: "Eigenvalue Classification of Quadratic Hamiltonians"
+title_zh: "二次哈密顿量的特征值分类"
+type: definition
+domain: applied-math
+subdomain: dynamical-systems
+difficulty: advanced
+tags: [hamiltonian-eigenvalues, jordan-blocks, normal-forms, quadratic-hamiltonian, symplectic-transformation]
+depends_on: {required:[hamiltonian-system, symplectic-linear-algebra], recommended:[jordan-normal-form, eigenvalues], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"Appendix 6",section:"Normal forms of quadratic hamiltonians",pages:"393",role_in_book:"Classifies eigenvalues of IA and Jordan block structure for quadratic Hamiltonians"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

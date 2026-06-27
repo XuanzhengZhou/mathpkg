@@ -1,0 +1,23 @@
+id: stabilizer-subgroup
+title_en: "Stabilizer Subgroup"
+title_zh: "稳定子群"
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [stabilizer, point-stabilizer, permutation-group, subgroup]
+depends_on:
+  required: [permutation-definition]
+  recommended: [orbit-of-permutation-group]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "1. Introduction"
+    pages: ""
+    role_in_book: "Subgroup of elements fixing a given point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

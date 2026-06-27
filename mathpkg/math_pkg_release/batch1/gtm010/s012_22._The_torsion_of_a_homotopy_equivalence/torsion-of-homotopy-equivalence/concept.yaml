@@ -1,0 +1,27 @@
+id: torsion-of-homotopy-equivalence
+title_en: "Torsion of a Homotopy Equivalence"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: simple-homotopy-theory
+difficulty: advanced
+tags: [torsion, homotopy-equivalence, whitehead-group, cw-complex, mapping-cylinder]
+depends_on:
+  required:
+    - torsion-of-a-cw-pair
+    - whitehead-group-of-a-cw-complex
+    - mapping-cylinder
+    - cellular-homotopy-equivalence
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm010
+    author: "Marshall M. Cohen"
+    title: "A Course in Simple-Homotopy Theory"
+    chapter: "22"
+    section: "The torsion of a homotopy equivalence"
+    pages: "81-84"
+    role_in_book: "Core definition extending torsion from CW pairs to homotopy equivalences"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

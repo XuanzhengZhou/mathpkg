@@ -1,0 +1,23 @@
+id: degree-divides-index-abelian-normal
+title_en: "Corollary: If A is an abelian normal subgroup of G, the degree of each irreducible representation of G divides the index (G:A)"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [abelian-normal-subgroup, irreducible-representation, degree, index, induced-representation]
+depends_on:
+  required: [induced-irreducible-from-normal-subgroup, abelian-group]
+  recommended: [homothety, center-of-group]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "8"
+    section: "8.1"
+    pages: ""
+    role_in_book: "Key arithmetic constraint on degrees of irreducible representations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: fundamental-potential-equations
+title_en: "Fundamental Potential Equations for Ergodic Chains"
+title_zh: ""
+type: corollary
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [ergodic-chains, potential-operator, stationary-distribution]
+depends_on:
+  required: [potential-existence-for-zero-integral-functions]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "3"
+    pages: ""
+    role_in_book: "Corollary 9-51 gives the fundamental operator equations relating P, C, G, and A"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

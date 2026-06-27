@@ -1,0 +1,23 @@
+id: linearized-vacuum-einstein-equation
+title_en: "Linearized Vacuum Einstein Equation"
+title_zh: "线性化真空爱因斯坦方程"
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: advanced
+tags: [einstein-equation, linearization, ricci-flat, perturbation-theory, gravitational-waves]
+depends_on:
+  required: [vacuum-constraint-equations, ricci-curvature, covariant-derivative, symmetric-tensor-field]
+  recommended: [einstein-field-equation, lie-derivative, linearized-gravity]
+  suggested: [gravitational-wave-equation, tt-gauge]
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs and Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "8"
+    section: "8.5.2"
+    pages: ""
+    role_in_book: "Definition: the PDE governing first-order perturbations of a Ricci-flat metric"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

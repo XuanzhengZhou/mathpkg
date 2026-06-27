@@ -1,0 +1,9 @@
+An object $K$ in a category $\mathcal{K}$ is called **injective** if $K$ is projective in the opposite category $\mathcal{K}^{\text{op}}$. Equivalently, $K$ is injective if for every morphism $f: A \to K$ and every monomorphism $i: A \rightarrowtail B$, there exists a morphism $g: B \to K$ such that $g \circ i = f$, i.e., the following diagram commutes:
+
+$$
+\begin{CD}
+A @>{i}>> B \\
+@V{f}VV @VV{\exists g}V \\
+K @= K
+\end{CD}
+$$

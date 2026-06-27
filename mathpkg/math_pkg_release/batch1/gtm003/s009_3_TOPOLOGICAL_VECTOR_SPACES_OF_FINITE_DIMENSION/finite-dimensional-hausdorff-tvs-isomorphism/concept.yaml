@@ -1,0 +1,23 @@
+id: finite-dimensional-hausdorff-tvs-isomorphism
+title_en: "Classification of Finite-Dimensional Hausdorff Topological Vector Spaces"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [finite-dimensional, hausdorff, isomorphism, product-topology, complete-field, classification]
+depends_on:
+  required: [one-dimensional-hausdorff-tvs-isomorphism, topological-direct-sum-characterization]
+  recommended: [complete-valuated-field, product-topology, quotient-tvs]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "1"
+    section: "3.2"
+    pages: ""
+    role_in_book: "Shows that over a complete field, the product topology is the unique Hausdorff t.v.s. topology on K^n"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

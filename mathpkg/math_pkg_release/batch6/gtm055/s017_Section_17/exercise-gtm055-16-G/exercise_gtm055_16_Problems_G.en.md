@@ -1,0 +1,14 @@
+---
+role: exercise
+locale: en
+chapter: "16"
+section: "Problems"
+exercise_number: "G"
+---
+
+Show that for any element $x$ of a Banach algebra $\mathcal{A}$, the sequence $\{\|x^n\|^{1/n}\}_{n=1}^{\infty}$ is always convergent and that the spectral radius $r_{\mathcal{A}}(x)$ is given by the formula
+$$r_{\mathcal{A}}(x) = \lim_{n} \|x^n\|^{1/n}.$$
+Thus, in particular, if $\mathcal{E}$ is a Banach space and $T$ is a bounded operator on $\mathcal{E}$, then
+$$r(T) = \lim_{n} \|T^n\|^{1/n}.$$
+
+\textit{Hint:} Review Problems 12M and 12P, and use Problem F.

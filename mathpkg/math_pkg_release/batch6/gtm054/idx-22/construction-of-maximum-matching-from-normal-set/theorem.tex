@@ -1,0 +1,12 @@
+Let $U$ be a normal subset of $V$ in a graph $\Gamma = (V, \mathcal{E})$, and let $B_U$ be the bipartite graph with vertex bipartition $\{C: C \text{ is the vertex set of a component of } \Gamma_U\}$ and $\{\{x\}: x \in N(U)\}$. Then each largest independent set $\mathcal{F}$ of edges of $\Gamma$ can be constructed as follows:
+
+\begin{enumerate}
+\item[(a)] Let $\mathcal{F}'$ be a matching of $\{\{x\}: x \in N(U)\}$ in $B_U$.
+\item[(b)] Let $C$ be the vertex set of a component of $\Gamma_U$. Regarding $C$ as a vertex of $B_U$,
+\begin{enumerate}
+\item[(i)] if $C$ is incident with an edge $E \in \mathcal{F}'$, then let $x_C$ be the vertex in $C$ incident with $E$ in $\Gamma$.
+\item[(ii)] if $C$ is incident with no edge in $\mathcal{F}'$, then arbitrarily select $x_C \in C$.
+\end{enumerate}
+\item[(c)] Since $U$ is normal, there exists a $1$-factor $\mathcal{F}_C$ in the component of $\Gamma_U$ with vertex set $C$.
+\item[(d)] Let $\mathcal{F} = \mathcal{F}' + \sum_C \mathcal{F}_C$.
+\end{enumerate}

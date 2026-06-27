@@ -1,0 +1,23 @@
+id: conormal-exact-sequence-for-closed-subscheme
+title_en: "Conormal Exact Sequence for a Closed Subscheme"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [sheaf-of-differentials, closed-subscheme, conormal-sheaf, exact-sequence]
+depends_on:
+  required: [sheaf-of-relative-differentials, closed-subscheme, sheaf-of-ideals]
+  recommended: [second-exact-sequence-of-differentials]
+  suggested: [conormal-sheaf-and-normal-sheaf]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Proposition 8.12: for a closed subscheme Z ⊂ X with ideal sheaf I, there is an exact sequence I/I² → Ω_{X/Y} ⊗ O_Z → Ω_{Z/Y} → 0 on Z"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

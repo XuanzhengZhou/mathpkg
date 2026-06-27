@@ -1,0 +1,23 @@
+id: pillay-faltings-superstability-equivalence
+title_en: "Pillay's Superstability Equivalence for Faltings' Theorem"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [faltings-theorem, superstability, one-basedness, pillay, model-theory-of-fields, diophantine-geometry]
+depends_on:
+  required: [faltings-lang-property-semiabelian, superstability, one-basedness, lang-property]
+  recommended: [algebraically-closed-field, strongly-minimal-set, geometric-stability-theory]
+  suggested: [mordell-lang-conjecture, trichotomy-principle, semiabelian-variety]
+source_books:
+  - book_id: "gtm053"
+    author: "Yuri I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "6"
+    section: "6.7"
+    pages: ""
+    role_in_book: "Model-theoretic reformulation of Faltings' theorem connecting Diophantine geometry to stability theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

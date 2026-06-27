@@ -1,0 +1,23 @@
+id: pseudo-metric-to-metric-quotient
+title_en: "Pseudo-Metric Space to Metric Space Quotient"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: metric-spaces
+difficulty: intermediate
+tags: [pseudo-metric, quotient-construction, equivalence-relation, metric-space]
+depends_on:
+  required: []
+  recommended: [pseudo-metric-space]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "10"
+    section: "10"
+    pages: ""
+    role_in_book: "Shows how to turn any pseudo-metric space into a genuine metric space by identifying points at distance zero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

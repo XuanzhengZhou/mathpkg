@@ -1,0 +1,23 @@
+id: factorization-in-gamma-n
+title_en: "Factorization property for transformations of order n"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [gamma-n, modular-group, hecke-operator, factorization]
+depends_on:
+  required: [triangular-representative-existence]
+  recommended: []
+  suggested: [nonequivalent-elements-gamma-n]
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.8"
+    pages: ""
+    role_in_book: "Theorem 6.9 — commutation relation essential for proving modularity of Hecke operators"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

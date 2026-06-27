@@ -1,0 +1,23 @@
+id: passive-gravitational-mass
+title_en: "Passive Gravitational Mass"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: newtonian-gravity
+difficulty: basic
+tags: [passive-mass, gravitational-force, point-particle, newtonian-physics, equivalence-principle]
+depends_on:
+  required: [newtonian-gravitational-potential]
+  recommended: [newtons-second-law]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs, Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "0"
+    section: "0.1.7"
+    pages: ""
+    role_in_book: "Defines the passive gravitational mass and the Newtonian gravitational force law, motivating the equivalence principle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

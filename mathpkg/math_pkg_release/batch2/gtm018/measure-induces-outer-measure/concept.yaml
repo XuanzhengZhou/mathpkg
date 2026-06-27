@@ -1,0 +1,23 @@
+id: measure-induces-outer-measure
+title_en: "Measure Induces Outer Measure (Theorem A)"
+title_zh: "测度诱导外测度（定理A）"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-theory, outer-measure, extension]
+depends_on:
+  required: [measure, outer-measure, hereditary-sigma-ring]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "II"
+    section: "10"
+    pages: ""
+    role_in_book: "Every measure extends to an outer measure on the generated hereditary sigma-ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: f-sigma-set-as-discontinuity-set
+title_en: "Every F-sigma Set is the Set of Discontinuities of Some Bounded Function"
+title_zh: "每个F_σ集都是某个有界函数的不连续点集"
+type: theorem
+domain: analysis
+subdomain: real-analysis
+difficulty: intermediate
+tags: [F-sigma, discontinuity, real-function, converse-theorem]
+depends_on: {required: [discontinuity-set-is-f-sigma], recommended: [], suggested: []}
+source_books: [{book_id: "gtm002", author: "John C. Oxtoby", title: "Measure and Category", chapter: "7", section: "7. Functions of First Class", pages: "Theorem 7.2", role_in_book: "converse theorem"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: multiplicity-reciprocity
+title_en: "Multiplicity Reciprocity for Induction and Restriction"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [frobenius-reciprocity, multiplicity, induced-representation, restriction, irreducible-representation]
+depends_on:
+  required: [frobenius-reciprocity, irreducible-representation]
+  recommended: [character-homomorphism-inner-product-equality]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "7"
+    section: "7.3"
+    pages: ""
+    role_in_book: "Proposition 21 — multiplicity of an irreducible of H in restriction equals multiplicity of the induced in the original"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

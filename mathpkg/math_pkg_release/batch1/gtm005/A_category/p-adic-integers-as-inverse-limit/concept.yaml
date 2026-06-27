@@ -1,0 +1,23 @@
+id: p-adic-integers-as-inverse-limit
+title_en: "p-adic Integers as Inverse Limit"
+title_zh: "p进整数作为逆向极限"
+type: definition
+domain: algebra
+subdomain: number-theory
+difficulty: intermediate
+tags: [p-adic, inverse-limit, limit, ring]
+depends_on:
+  required: [limit-of-diagram, ring, integers-modulo-pn]
+  recommended: [inverse-limit]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "1. Creation of Limits"
+    pages: ""
+    role_in_book: "Example of limits — the ring Z_p of p-adic integers as an inverse limit of Z/p^n Z"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

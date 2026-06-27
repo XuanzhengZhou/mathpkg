@@ -1,0 +1,23 @@
+id: euler-method-square-case
+title_en: "Euler's method for x^2 + cy^2 = square: factorization in Z[√-c]"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: intermediate
+tags: [euler, square, factorization, surd, z-sqrt-minus-c]
+depends_on:
+  required: [surd-ring-z-sqrt-minus-3]
+  recommended: [euler-analogy-prime-factors-cube]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem"
+    chapter: "2"
+    section: "2.3"
+    pages: ""
+    role_in_book: "Euler's treatment of squares as a precursor to his treatment of cubes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,20 @@
+id: lies-theorem
+title_en: "Lie's Theorem"
+title_zh: "李定理"
+type: theorem
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [lie, solvable, common-eigenvector, algebraically-closed]
+depends_on: {required: [solvable-lie-algebra], recommended: [engels-theorem], suggested: []}
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "4"
+    section: "4.1"
+    pages: "30-32"
+    role_in_book: "Analogous to Engel's theorem for solvable algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

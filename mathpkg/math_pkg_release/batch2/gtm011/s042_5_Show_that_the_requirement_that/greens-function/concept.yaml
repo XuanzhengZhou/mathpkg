@@ -1,0 +1,23 @@
+id: greens-function
+title_en: "Green's Function with Singularity at a"
+title_zh: "以 a 为奇点的格林函数"
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [greens-function, harmonic-function, singularity, dirichlet-problem, potential-theory]
+depends_on:
+  required: [harmonic-function, dirichlet-region]
+  recommended: [logarithmic-potential, poisson-kernel]
+  suggested: [conformal-mapping, riemann-mapping-theorem]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "X"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines the Green's Function, a fundamental solution for the Dirichlet Problem and key tool in conformal mapping and differential equations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

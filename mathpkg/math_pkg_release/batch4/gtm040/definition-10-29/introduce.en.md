@@ -1,0 +1,11 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+A finite-valued function $h \geq 0$ is minimal if
+
+(1) $h$ is regular, and
+(2) whenever $0 \leq h' \leq h$ with $h'$ regular, then $h' = ch$.

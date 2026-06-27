@@ -1,0 +1,23 @@
+id: homogeneous-symmetric-tensor
+title_en: "Homogeneous Symmetric Tensor"
+title_zh: "齐次对称张量"
+type: definition
+domain: algebra
+subdomain: multilinear-algebra
+difficulty: intermediate
+tags: [symmetric-tensor, tensor-algebra, symmetric-group, characteristic-zero]
+depends_on:
+  required: []
+  recommended: [tensor-algebra, symmetric-algebra]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "V"
+    section: "17"
+    pages: "102-114"
+    role_in_book: "Prerequisite for understanding the PBW theorem proof"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

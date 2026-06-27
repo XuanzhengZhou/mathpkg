@@ -1,0 +1,23 @@
+id: geodesic-spray-existence
+title_en: "Existence and Uniqueness of the Geodesic Spray"
+title_zh: "测地线喷雾的存在唯一性"
+type: proposition
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [tangent-bundle, horizontal-vector-field, geodesic-spray, identity-map, covariant-derivative]
+depends_on:
+  required: [horizontal-vector-field-on-tm, levi-civita-connection, identity-map, tangent-bundle]
+  recommended: [geodesic-flow, spray-geometry, ehresmann-connection]
+  suggested: [semispray, finsler-geometry]
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs and Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "8"
+    section: "8.6.1"
+    pages: ""
+    role_in_book: "Exercise 8.6.1(c): existence and uniqueness of the horizontal lift of the identity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

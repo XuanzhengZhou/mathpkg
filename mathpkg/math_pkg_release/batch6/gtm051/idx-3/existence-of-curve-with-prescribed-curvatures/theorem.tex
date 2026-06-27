@@ -1,0 +1,7 @@
+Let $\kappa_i(s) > 0$, $i = 1, \dots, n-1$, be continuous functions defined on an interval $J$ containing $0 \in \mathbb{R}$. Then there exists an interval $I \subset J$ containing $0$ and a unit speed curve $c: I \to \mathbb{R}^n$ whose distinguished Frenet frame $X(s)$ satisfies the Frenet equations with the prescribed curvature functions $\kappa_i(s)$.
+
+More precisely, define the skew-symmetric matrix $A(s)$ by $A_{i,i+1}(s) = \kappa_i(s)$, $A_{i+1,i}(s) = -\kappa_i(s)$, and $A_{ij}(s) = 0$ otherwise. Then the linear system $X'(s) = X(s) A(s)$ with initial condition $X(0) = I$ has a unique orthogonal matrix solution $X(s)$. Letting $T(s)$ be the first column of $X(s)$, the curve
+
+$$c(s) = \int_0^s T(\tau) \, d\tau$$
+
+is the desired unit speed curve.

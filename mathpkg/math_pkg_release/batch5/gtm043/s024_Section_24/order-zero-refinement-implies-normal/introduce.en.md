@@ -1,0 +1,7 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+If every cover of X has a refinement of order 0, then X is normal.

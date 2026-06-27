@@ -1,0 +1,23 @@
+id: banach-nowhere-differentiable-residual
+title_en: "Banach's Theorem: A Residual Set of Continuous Functions Are Nowhere Differentiable"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [nowhere-differentiable, banach, baire-category, residual-set, continuous-functions, one-sided-derivative]
+depends_on:
+  required: [bounded-right-difference-quotients-first-category, bounded-left-difference-quotients-first-category, continuous-function-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "11"
+    section: "Nowhere Differentiable Functions"
+    pages: "53-54"
+    role_in_book: "Main theorem: Banach (1931) proved that in the sense of Baire category, almost all continuous functions are nowhere differentiable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

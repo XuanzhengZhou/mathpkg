@@ -1,0 +1,13 @@
+id: riemann-integrability-homeomorphism-characterization
+title_en: "Characterization of Riemann Integrability under Homeomorphic Change of Variable"
+title_zh: "同胚变量替换下Riemann可积性的特征"
+type: theorem
+domain: analysis
+subdomain: real-analysis
+difficulty: advanced
+tags: [Riemann-integral, homeomorphism, first-category, nullset, countable-set]
+depends_on: {required: [first-category-to-nullset-homeomorphism, riemann-lebesgue-integrability-criterion], recommended: [], suggested: []}
+source_books: [{book_id: "gtm002", author: "John C. Oxtoby", title: "Measure and Category", chapter: "13", section: "13. Transforming Linear Sets into Nullsets", pages: "Theorem 13.3", role_in_book: "unification theorem; connects all three sigma-ideals"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

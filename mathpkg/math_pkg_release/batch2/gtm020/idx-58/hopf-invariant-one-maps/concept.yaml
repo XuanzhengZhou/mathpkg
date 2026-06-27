@@ -1,0 +1,23 @@
+id: hopf-invariant-one-maps
+title_en: "Existence of Maps of Hopf Invariant 1 for Dimensions 2, 4, and 8"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: [hopf-invariant, clifford-algebra, orthogonal-multiplication, bidegree, k-theory]
+depends_on:
+  required: [hopf-invariant-definition, homeomorphism-join-to-product-boundary]
+  recommended: [clifford-algebra, orthogonal-multiplication, bidegree]
+  suggested: [k-theory-ring, adams-operations]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "15"
+    section: "3. Hopf Invariant and Bidegree"
+    pages: ""
+    role_in_book: "Establishes the classical result that Hopf invariant 1 maps exist only for n=2,4,8 via Clifford algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

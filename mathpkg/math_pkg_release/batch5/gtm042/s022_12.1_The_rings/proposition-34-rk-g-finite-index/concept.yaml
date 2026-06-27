@@ -1,0 +1,23 @@
+id: proposition-34-rk-g-finite-index
+title_en: "Proposition 34: R_K(G) has finite index in \overline{R}_K(G)"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [finite-index, rationality, virtual-characters, field-extension, scalar-restriction]
+depends_on:
+  required: [rk-g-ring-of-k-characters, rbar-k-g-ring-of-k-valued-virtual-characters, lemma-12-d-times-rbar-k-g]
+  recommended: []
+  suggested: [proposition-35-psi-basis-of-rbar-k-g]
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "12"
+    section: "12.1"
+    pages: ""
+    role_in_book: "Shows that the gap between K-realizable and K-valued characters is finite; sets up Schur index refinement"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

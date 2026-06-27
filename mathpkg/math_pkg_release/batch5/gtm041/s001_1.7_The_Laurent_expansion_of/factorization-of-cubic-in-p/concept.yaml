@@ -1,0 +1,23 @@
+id: factorization-of-cubic-in-p
+title_en: "Factorization of the cubic in ℘ and distinctness of the half-period values"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: ["weierstrass-p", "elliptic-functions", "half-periods", "cubic", "discriminant", "roots"]
+depends_on:
+  required: ["weierstrass-p-function", "weierstrass-p-differential-equation", "half-period-values-e1-e2-e3"]
+  recommended: ["invariants-g2-g3"]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "1"
+    section: "1.10"
+    pages: ""
+    role_in_book: "Theorem 1.14, shows the cubic factors into (℘-e_1)(℘-e_2)(℘-e_3) with distinct roots, proving g_2^3 ≠ 27g_3^2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

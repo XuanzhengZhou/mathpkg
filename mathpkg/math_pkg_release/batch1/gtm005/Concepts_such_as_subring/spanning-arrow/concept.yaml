@@ -1,0 +1,20 @@
+id: spanning-arrow
+title_en: "Spanning Arrow"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [category-theory, adjoint-functor-theorem, solution-set, spanning]
+depends_on: {required: [functor, subobject], recommended: [adjoint-functor-theorem], suggested: [generating-set]}
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "7. Subobjects and Generators"
+    pages: ""
+    role_in_book: "Technical definition used in constructing solution sets for the Adjoint Functor Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

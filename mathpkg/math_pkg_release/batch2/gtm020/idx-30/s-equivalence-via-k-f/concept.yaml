@@ -1,0 +1,23 @@
+id: s-equivalence-via-k-f
+title_en: "$s$-equivalence classes are represented by $K_F(X)$"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: k-theory
+difficulty: advanced
+tags: [K-theory, vector-bundles, s-equivalence, Grothendieck-group, classification]
+depends_on:
+  required: []
+  recommended: [k-f-ring-of-space, stable-equivalence-of-vector-bundles, reduced-k-f-cofunctor]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "3"
+    section: "3.8"
+    pages: "130-132"
+    role_in_book: "Characterizes K_F(X) as s-equivalence classes of vector bundles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

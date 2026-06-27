@@ -1,0 +1,23 @@
+id: vector-lattice-element-decomposition
+title_en: "Decomposition of Elements in a Vector Lattice"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [decomposition, vector-lattice, positive-part, negative-part, positive-cone-generates]
+depends_on:
+  required: [vector-lattice, positive-part, negative-part]
+  recommended: [join-in-vector-lattice]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "23.1"
+    pages: ""
+    role_in_book: "Key identity: every element is difference of its positive and negative parts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

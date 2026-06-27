@@ -1,0 +1,23 @@
+id: artin-theorem-rk-g
+title_en: "Artin's theorem for R_K(G)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: ["representation-theory", "artin-theorem", "induction", "cyclic-subgroups", "rationality"]
+depends_on:
+  required: ["gamma-k-conjugacy", "artin-induction-theorem"]
+  recommended: ["cyclic-group", "induced-representation", "grothendieck-group"]
+  suggested: ["brauer-theorem"]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "12"
+    section: "12.5"
+    pages: ""
+    role_in_book: "Theorem 26: generalization of Artin's induction theorem to representations over arbitrary fields K of characteristic zero — every rational combination of R_K(G) characters is induced from cyclic subgroups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,24 @@
+We introduce some operations on expressions $\varphi, \psi$:
+
+\begin{enumerate}
+\item[(i)] $\neg \varphi = \langle L_0 \rangle \varphi$,
+\item[(ii)] $\varphi \vee \psi = \langle L_1 \rangle \varphi \psi$,
+\item[(iii)] $\varphi \wedge \psi = \langle L_2 \rangle \varphi \psi$,
+\item[(iv)] $\forall \alpha \varphi = \langle L_3 \rangle \langle \alpha \rangle \varphi$, where $\alpha$ is any individual variable,
+\item[(v)] $\varphi = \psi = \langle L_4 \rangle \varphi \psi$,
+\item[(vi)] $\varphi \rightarrow \psi = \neg \varphi \vee \psi$,
+\item[(vii)] $\varphi \leftrightarrow \psi = (\varphi \rightarrow \psi) \wedge (\psi \rightarrow \varphi)$,
+\item[(viii)] $\exists \alpha \varphi = \neg \forall \alpha \neg \varphi$, where $\alpha$ is any individual variable.
+\end{enumerate}
+
+Now we introduce analogous operations on $\omega$. For $m, n \in \omega$, let
+
+\begin{enumerate}
+\item[(i)'] $\neg' m = \text{Cat} (2^{gL0+1}, m)$,
+\item[(ii)'] $m \vee' n = \text{Cat} (\text{Cat} (2^{gL1+1}, m), n)$,
+\item[(iii)'] $m \wedge' n = \text{Cat} (\text{Cat} (2^{gL2+1}, m), n)$,
+\item[(iv)'] $\forall' mn = \text{Cat} (\text{Cat} (2^{gL3+1}, m), n)$,
+\item[(v)'] $m \equiv' n = \text{Cat} (\text{Cat} (2^{gL4+1}, m), n)$,
+\item[(vi)'] $m \rightarrow' n = \neg' m \vee' n$,
+\item[(vii)'] $m \leftrightarrow' n = (m \rightarrow' n) \wedge' (n \rightarrow' m)$.
+\end{enumerate}

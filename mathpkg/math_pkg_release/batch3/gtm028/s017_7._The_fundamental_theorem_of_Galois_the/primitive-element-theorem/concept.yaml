@@ -1,0 +1,23 @@
+id: primitive-element-theorem
+title_en: "Theorem of the Primitive Element"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: field-theory
+difficulty: intermediate
+tags: [primitive-element, separable-extension, finite-extension, algebraic-extension]
+depends_on:
+  required: [separable-extension, finite-extension, algebraic-extension, simple-extension]
+  recommended: [polynomial-ring, partial-derivative, characteristic-zero]
+  suggested: [galois-theory]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "II"
+    section: "§9. Theorem of the primitive element (or §7 overflow)"
+    pages: ""
+    role_in_book: "Theorem that every finite separable extension admits a primitive element"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

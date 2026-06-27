@@ -1,0 +1,23 @@
+id: momentum-from-phase-gradient
+title_en: "Momentum as Gradient of Phase"
+title_zh: ""
+type: definition
+domain: applied-math
+subdomain: semiclassical-approximation
+difficulty: intermediate
+tags: [momentum, phase-function, gradient, semiclassical-approximation, wkb-method]
+depends_on:
+  required: [phase-function, gradient]
+  recommended: [lagrangian-manifold, hamiltonian-mechanics, canonical-1-form]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 11"
+    section: "Short Wave Asymptotics"
+    pages: "pp. 446-452"
+    role_in_book: "Defines the classical momentum associated to a short-wave quantum state"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

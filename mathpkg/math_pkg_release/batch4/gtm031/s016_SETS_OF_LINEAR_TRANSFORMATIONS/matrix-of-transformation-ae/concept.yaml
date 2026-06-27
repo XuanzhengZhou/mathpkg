@@ -1,0 +1,23 @@
+id: matrix-of-transformation-ae
+title_en: "Matrix of the Linking Transformation A_E"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [linking-transformation, matrix-representation, block-matrix, invariant-subspace, quotient-space]
+depends_on:
+  required: [transformation-a-subscript-e, matrix-of-induced-transformation-in-invariant-subspace, natural-mapping-to-quotient-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "IV"
+    section: "2"
+    pages: ""
+    role_in_book: "Identifies the lower-left block of the reduced matrix as the matrix of A_E"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

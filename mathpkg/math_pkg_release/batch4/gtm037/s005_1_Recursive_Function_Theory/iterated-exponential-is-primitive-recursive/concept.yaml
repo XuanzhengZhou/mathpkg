@@ -1,0 +1,13 @@
+id: iterated-exponential-is-primitive-recursive
+title_en: "The Iterated Exponential Function is Primitive Recursive"
+title_zh: "迭代指数函数是原始递归的"
+type: lemma
+domain: logic
+subdomain: recursive-function-theory
+difficulty: intermediate
+tags: [iterated-exponential, ackermann-function, primitive-recursive, fast-growing-function]
+depends_on: {required: [exponentiation-is-primitive-recursive, primitive-recursion-schema], suggested: []}
+source_books: [{book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "2", section: "Elementary Recursive and Primitive Recursive Functions", pages: "43-46", role_in_book: "Lemma 2.36: The iterated exponential function a(m,n) is primitive recursive"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: theorem-14-12-u-subset-m
+title_en: "Subset relation with the ground model predicate"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [boolean-valued-models, forcing, ground-model]
+depends_on:
+  required: [theorem-14-10-m-is-transitive, theorem-14-11-m-bounded-by-check-k]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "14"
+    section: "14. Another Interpretation of V^{(B)}"
+    pages: ""
+    role_in_book: "Establishes that subset of M implies contained in some M-element"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

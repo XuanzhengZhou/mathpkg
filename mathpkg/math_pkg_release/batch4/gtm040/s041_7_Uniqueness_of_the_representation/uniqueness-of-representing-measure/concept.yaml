@@ -1,0 +1,13 @@
+id: uniqueness-of-representing-measure
+title_en: "Uniqueness of the Representing Measure on the Martin Boundary (Theorem 10-40)"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [martin-boundary, superregular-function, integral-representation, uniqueness, harmonic-measure]
+depends_on: {required: [h-process-probability-as-boundary-integral, exit-space-is-borel-set-of-full-harmonic-measure, k-process-absorbs-at-boundary], recommended: [superregular-function, normalized-superregular], suggested: [measure-theory-uniqueness]}
+source_books: [{book_id: "gtm040", author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp", title: "Denumerable Markov Chains", chapter: "10", section: "7. Uniqueness of the representation", pages: "", role_in_book: "Main uniqueness theorem: the measure representing a superregular function on the Martin boundary is uniquely determined"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

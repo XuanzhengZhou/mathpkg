@@ -1,0 +1,23 @@
+id: morse-index
+title_en: "Morse Index"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [morse-index, lagrangian-manifold, focal-points, phase-flow, calculus-of-variations]
+depends_on:
+  required: [focal-points-lagrangian-manifold]
+  recommended: [lagrangian-manifold, phase-flow]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 11"
+    section: "B. The Morse and Maslov Indices"
+    pages: "453-455"
+    role_in_book: "Defines the Morse index for phase curves on Lagrangian manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: elementary-topos
+title_en: "Elementary Topos"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [topos, elementary-topos, finite-limits, subobject-classifier, cartesian-closed, presheaf, sheaf]
+depends_on:
+  required: [subobject-classifier, cartesian-closed-category, finite-limit]
+  recommended: [exponential-object]
+  suggested: [presheaf, sheaf]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "10. Categories Like Sets"
+    pages: ""
+    role_in_book: "Core definition introducing topos theory as an alternative foundation for mathematics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

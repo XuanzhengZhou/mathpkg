@@ -1,0 +1,23 @@
+id: number-of-irreps-equals-number-of-conjugacy-classes
+title_en: "Number of Irreducible Representations Equals Number of Conjugacy Classes"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [irreducible-representations, conjugacy-classes, class-functions, dimension]
+depends_on:
+  required: [irreducible-characters-orthonormal-basis]
+  recommended: [class-function, conjugacy-class]
+  suggested: [dimension-of-space-of-class-functions]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "2"
+    section: "2.5"
+    pages: ""
+    role_in_book: "Corollary to Theorem 6. The number of distinct irreducible representations (up to isomorphism) of a finite group equals its number of conjugacy classes."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+The set $A$ is the half-line $[x \mid x > 0]$, $T = \min [n \mid n \geq 1, x_n \in A]$ as in D17.1, $H_A(x,y) = P_x[T < \infty, x_T = y]$ as in D10.1, and
+
+$$H_A(x) = \sum_{y \in A} H_A(x,y).$$
+
+When $T < \infty$ with probability one we call $x_T = Z$ as in D18.1. In this case $\hat{P}(x,y) = P_0[Z = y - x]$, and finally, $\hat{H}_A(x,y)$ is the hitting probability measure of the set $A$ for the random walk whose transition function is $\hat{P}(x,y)$.
+
+Obviously the hitting probabilities $H_A(x,y)$ are intimately connected with the Green function $G(x,y)$ of a transient random walk. For example, if $x \leq 0$ and $y > 0$, one has the identity P10.1(d)
+
+$$G(x,y) = \sum_{t=1}^{\infty} H_A(x,t)G(t,y),$$
+
+so that the asymptotic behavior of $H_A(x,t)$ as $x \rightarrow -\infty$ is related to that of $G(x,y)$. This connection seems sufficiently attractive to justify developing the basic facts about $H_A(x,y)$ in somewhat more detail than is absolutely necessary. These facts take the form of a simple classification. Obvious possibilities concerning the asymptotic behavior of $H_A(x,y)$ are given by
+
+(i) $$\lim_{x \rightarrow -\infty} H_A(x) = 0$$
+
+(ii) $$H_A(x) = 1 \text{ for all } x \text{ in } R \text{ and}$$
+
+$$\lim_{x \rightarrow -\infty} H_A(x,y) = 0 \text{ for } y \in A.$$
+
+(iii) $$H_A(x) = 1 \text{ for all } x \text{ in } R,$$
+
+$$\lim_{x \rightarrow -\infty} H_A(x,y) = \gamma_A(y) \text{ for } y \in
+
+This set of alternatives turns out to be exactly the same classification as (i) through (iii), as we shall now prove in

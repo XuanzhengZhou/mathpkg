@@ -1,0 +1,23 @@
+id: kestens-ratio-theorem-for-return-probabilities
+title_en: "Kesten's ratio theorem for return probabilities"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [ratio-theorem, kesten, return-probability, recurrent-random-walk, one-dimensional, strongly-aperiodic]
+depends_on:
+  required: []
+  recommended: [strongly-aperiodic-random-walk, return-probability]
+  suggested: [kesten-theorem, ratio-ergodic-theorem]
+source_books:
+  - book_id: gtm034
+    author: Frank Spitzer
+    title: Principles of Random Walk, 2nd ed.
+    chapter: "VII"
+    section: "32"
+    pages: "?"
+    role_in_book: "Central lemma for proving T1 in the infinite-variance case; due to Kesten (1963)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

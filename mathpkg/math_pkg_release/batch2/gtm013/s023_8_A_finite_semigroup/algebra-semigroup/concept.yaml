@@ -1,0 +1,23 @@
+id: algebra-semigroup
+title_en: "Algebra Semigroup"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: semigroup-theory
+difficulty: advanced
+tags: [algebra-semigroup, finite-semigroup, nilpotent-ideal, orthogonal-idempotents, semigroup-algebra]
+depends_on:
+  required: [semigroup, nilpotent-ideal, orthogonal-idempotents, semigroup-algebra]
+  recommended: [finite-semigroup, pierce-decomposition]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "8"
+    section: "23"
+    pages: "359"
+    role_in_book: "Defines algebra semigroups as a combinatorial model for finite-dimensional split basic algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

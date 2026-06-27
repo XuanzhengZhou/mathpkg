@@ -1,0 +1,9 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+4.1 Definition from Conway's "Functions of One Complex Variable I."
+A region $G$ is called a Dirichlet Region if the Dirichlet Problem can be solved for $G$. That is, $G$ is a Dirichlet Region if for each continuous function $f: \partial_\infty G \to \mathbb{R}$ there is a continuous function $u: G^- \to \mathbb{R}$ such that $u$ is harmonic in $G$ and $u(z) = f(z)$...

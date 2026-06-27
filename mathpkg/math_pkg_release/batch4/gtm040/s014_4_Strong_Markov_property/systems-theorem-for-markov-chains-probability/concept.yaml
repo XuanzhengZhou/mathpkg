@@ -1,0 +1,23 @@
+id: systems-theorem-for-markov-chains-probability
+title_en: "Systems Theorem for Markov Chains (Probability)"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [systems-theorem, strong-markov-property, random-time, probability-decomposition]
+depends_on:
+  required: [strong-markov-property, markov-chain, random-time]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "5"
+    pages: ""
+    role_in_book: "Theorem 4-10: Systems theorem - probability of a statement beyond a random time can be computed by decomposing over possible values of the state at that time"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

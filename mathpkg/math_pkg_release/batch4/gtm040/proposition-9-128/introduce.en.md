@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+A Markov chain with $P_{ii} = 0$ represents a circuit if and only if its states communicate and it has a positive regular measure $\alpha$ with respect to which it is $\alpha$-reversible.

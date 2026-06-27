@@ -1,0 +1,23 @@
+id: weak-distributive-law-cofinality-equivalence
+title_en: "Weak Distributive Law Characterizes Cofinality in Boolean-Valued Models"
+title_zh: "弱分配律刻画布尔值模型中的共尾性"
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: ["weak-distributive-law", "boolean-valued-model", "cofinality", "forcing", "V-B"]
+depends_on:
+  required: ["weak-distributive-law", "boolean-valued-universe"]
+  recommended: ["cofinality", "canonical-name"]
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "G. Takeuti, W.M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "20"
+    section: "20"
+    pages: ""
+    role_in_book: "Establishes that B satisfies the (ω, ω_α)-WDL iff in V^(B) the cofinality of ω_α^∨ is strictly greater than ω, providing the fundamental link between weak distributivity and cardinal preservation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

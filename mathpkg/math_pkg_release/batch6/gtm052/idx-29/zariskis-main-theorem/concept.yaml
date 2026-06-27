@@ -1,0 +1,23 @@
+id: zariskis-main-theorem
+title_en: "Zariski's Main Theorem (birational projective morphism version)"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [zariskis-main-theorem, birational-morphism, projective-morphism, connected-fibre, normal-scheme, integral-scheme]
+depends_on:
+  required: [connectedness-of-fibers-via-formal-functions, birational-morphism, projective-morphism, normal-scheme, integral-scheme]
+  recommended: [stein-factorization, finite-morphism]
+  suggested: [grothendiecks-formal-function-theorem, algebraic-version-of-zmt]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "11"
+    pages: "page_0294–page_0298"
+    role_in_book: "Corollary 11.4; one of the foundational structure results in algebraic geometry"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

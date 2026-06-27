@@ -1,0 +1,1 @@
+Absolutely continuous functions form a proper subclass of functions of bounded variation. Every absolutely continuous function is of bounded variation, but the Cantor function (Devil's staircase) is continuous, of bounded variation, but not absolutely continuous.

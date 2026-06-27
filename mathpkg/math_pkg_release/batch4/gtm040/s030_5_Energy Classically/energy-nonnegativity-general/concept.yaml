@@ -1,0 +1,23 @@
+id: energy-nonnegativity-general
+title_en: "Non-negativity of Energy for General Potentials"
+title_zh: ""
+type: corollary
+domain: probability
+subdomain: potential-theory
+difficulty: intermediate
+tags: [energy, non-negative, general-potential, decomposition, schwarz-inequality]
+depends_on:
+  required: [energy-nonnegativity-pure-potentials, schwarz-inequality-pure-potentials]
+  recommended: [potential-decomposition]
+  suggested: [equilibrium-potential]
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "8"
+    section: "5"
+    pages: ""
+    role_in_book: "proves energy is non-negative for all potentials of finite energy"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

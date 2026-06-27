@@ -1,0 +1,23 @@
+id: complete-cone-metrizable-tvs
+title_en: "Complete Metrizable t.v.s. from a Complete Cone (Lemma 2)"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: ordered-vector-spaces
+difficulty: advanced
+tags: ["cone", "complete-cone", "metrizable-tvs", "neighborhood-base", "complete-topological-vector-space", "andos-theorem"]
+depends_on:
+  required: ["cone", "metrizable-tvs", "complete-topological-vector-space"]
+  recommended: ["neighborhood-base", "circled-set", "radial-set"]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "3"
+    pages: ""
+    role_in_book: "Key lemma for Ando's theorem on normal cones in Banach spaces; constructs a complete metrizable t.v.s. from a complete cone"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

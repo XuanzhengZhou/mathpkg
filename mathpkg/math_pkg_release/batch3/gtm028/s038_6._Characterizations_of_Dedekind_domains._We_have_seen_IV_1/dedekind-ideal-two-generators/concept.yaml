@@ -1,0 +1,23 @@
+id: dedekind-ideal-two-generators
+title_en: "Every Ideal in a Dedekind Domain has a Basis of Two Elements"
+title_zh: "Dedekind环中每个理想可由两个元素生成"
+type: corollary
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [dedekind-domain, ideal-generation, two-generators]
+depends_on:
+  required: [dedekind-domain, quotient-dedekind-domain-is-pir]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "7"
+    pages: "277"
+    role_in_book: "Corollary 2 to Theorem 16"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

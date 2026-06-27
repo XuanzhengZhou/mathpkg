@@ -1,0 +1,39 @@
+If $A_1$ and $A_2$ are any two transient subsets of $R$, then
+
+(a) $C(A_1 \cup A_2) + C(A_1 \cap A_2) \leq C(A_1) + C(A_2)$.
+
+Here the capacity of the set $A_1 \cap A_2$ is defined as zero if $A_1$ and $A_2$ happen to be disjoint.
+
+(b) If $A_1 \subset A_2$, then $C(A_1) \leq C(A_2)$.
+
+Proof: For any transient subset $A \subset R$ let
+
+$$T_A = \min [k \mid 0 \leq k \leq \infty, x_k \in A], \text{ if } 1 \leq |A| \leq \infty$$
+
+and $T_A = +\infty$ if $A$ is the empty set. Then one argues probabilistically that, for each $x$ in $R$,
+
+$$P_x[T_{A_1 \cup A_2} < \infty] - P_x[T_{A_2} < \infty]$$
+
+$$= P_x[T_{A_1 \cup A_2} < \infty, T_{A_2} = \infty] \leq P_x[T_{A_1} < \infty, T_{A_1 \cap A_2} = +\infty]$$
+
+$$= P_x[T_{A_1} < \infty] - P_x[T_{A_1 \cap A_2} < \infty].$$
+
+Now observe that
+
+$$P_x[T_A < \infty] = H_A(x),$$
+
+unless $A$ is empty, but in that case it is correct if we define $H_A(x)$ to be
+
+The proof of part (b) is even simpler, since $T_{A_2} \leq T_{A_1}$ with probability one, so that
+
+$$P_z[T_{A_2} < \infty] - P_z[T_{A_1} < \infty] = H_{A_2}(x) - H_{A_1}(x) \geq 0$$
+
+which again gives the desired result by proper use of P9, part (c).
+
+One of the simplest corollaries of P9, mentioned in E1 above, is that
+
+$$C(A) \leq \frac{n}{G(0,0)} \text{ when } |A| = n.$$
+
+When $|A| = 1$, the capacity is exactly the reciprocal of $G(0,0)$, and part (a) of P11 gives the inequality for all $n$ by induction on $n$.
+
+Finally we present a theorem which shows that one is "almost never" interested in the capacity of an infinite transient set. The reason is that, if one excludes one important class of random walks, every infinite transient set has infinite capacity. Perhaps the main interest of T2 below lies in its simplicity, and in the elegant way it uses the renewal theorem, in its strongest form given by T24.2.

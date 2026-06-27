@@ -1,0 +1,23 @@
+id: taboo-visit-counts
+title_en: "Taboo Visit Counts and Matrices"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, expected-visits, taboo-probability, restricted-visits]
+depends_on:
+  required: [visit-variables-and-matrices]
+  recommended: [shifted-mean-matrix-identity]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "6"
+    pages: ""
+    role_in_book: "Defines visit counts restricted by avoiding a taboo state"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

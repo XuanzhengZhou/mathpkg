@@ -1,0 +1,23 @@
+id: characteristic-equation-eigenvalue
+title_en: "Characteristic Equation for Eigenvalues"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [eigenvalue, characteristic-equation, determinant, regular-transformation]
+depends_on:
+  required: [eigenvector-and-eigenvalue, determinant]
+  recommended: [linear-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§6. The characteristic polynomial"
+    pages: "4.18"
+    role_in_book: "Characterizes eigenvalues as solutions of the characteristic equation det(φ-λι)=0"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

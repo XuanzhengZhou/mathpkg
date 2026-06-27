@@ -1,0 +1,23 @@
+id: lemma-orthogonal-units
+title_en: "Lemma: Orthogonalized unit v0 in the Kummer-Takagi framework"
+title_zh: "引理: Kummer-Takagi框架中的正交化单位v0"
+type: lemma
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [orthogonal-units, kummer-takagi-exponents, idempotents, cyclotomic-units]
+depends_on:
+  required: [property-k4, kummer-homomorphism]
+  recommended: [cyclotomic-units, group-characters]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "6"
+    section: "6"
+    pages: ""
+    role_in_book: "Expresses the orthogonalized unit v0 as a product involving idempotent projections of 1-ζ^k"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

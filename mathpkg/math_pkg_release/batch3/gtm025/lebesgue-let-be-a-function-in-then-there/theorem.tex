@@ -1,0 +1,19 @@
+[LEBESGUE].** Let $f$ be a function in $\mathfrak{L}_1([a, b])$. Then there is a set $
+
+It follows that
+
+$$\left| \frac{1}{h} \int_{x}^{x+k} |f(t) - \alpha| dt - \frac{1}{h} \int_{x}^{x+k} |f(t) - \beta_n| dt \right| \leq \frac{1}{h} \int_{x}^{x+k} \frac{\varepsilon}{3} dt = \frac{\varepsilon}{3},$$
+
+and in turn that
+
+$$\left| \frac{1}{h} \int_{x}^{x+k} |f(t) - \alpha| dt - |f(x) - \alpha| \right| \leq \left| \frac{1}{h} \int_{x}^{x+k} |f(t) - \alpha| dt - \frac{1}{h} \int_{x}^{x+k} |f(t) - \beta_n| dt \right| + \left| \frac{1}{h} \int_{x}^{x+k} g_n(t) dt - g_n(x) \right| + |\beta_n - \alpha| < \frac{\varepsilon}{3} + \frac{\varepsilon}{3} + \frac{\varepsilon}{3} = \varepsilon$$
+
+if $x \in E$ and $0 < h < h_0$, where $h_0$ depends on $\varepsilon$ and $n$. But $n$ depends only on $\varepsilon$ and $\alpha$. Thus we conclude that
+
+$$\lim_{h \downarrow 0} \frac{1}{h} \int_{x}^{x+h} |f(t) - \alpha| dt = |f(x) - \alpha|$$
+
+for all $x \in E$ and $\alpha \in K$. A similar argument shows that
+
+$$\lim_{h \downarrow 0} \frac{1}{h} \int_{x-h}^{x} |f(t) - \alpha| dt = |f(x) - \alpha|$$
+
+for all $x \in E$ and $\alpha \in K$. $\square$

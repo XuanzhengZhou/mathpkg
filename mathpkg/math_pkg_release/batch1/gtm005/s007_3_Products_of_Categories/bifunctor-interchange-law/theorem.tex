@@ -1,0 +1,11 @@
+A bifunctor $S: B \times C \to D$ is determined by families of ordinary functors $L_c: B \to D$ (for each $c \in C$) and $M_b: C \to D$ (for each $b \in B$) such that $L_c b = M_b c = S(b, c)$, together with the \textbf{interchange law}: for all arrows $f: b \to b'$ in $B$ and $g: c \to c'$ in $C$,
+$$S(b', g) \circ S(f, c) = S(f, c') \circ S(b, g).$$
+
+Equivalently, the following diagram commutes:
+$$\begin{CD}
+S(b, c) @>{S(b, g)}>> S(b, c') \\
+@V{S(f, c)}VV @VV{S(f, c')}V \\
+S(b', c) @>>{S(b', g)}> S(b', c')
+\end{CD}$$
+
+Conversely, given families $L_c$ and $M_b$ satisfying $L_c b = M_b c$ and the interchange law, there is a unique bifunctor $S$ with these as its partial applications.

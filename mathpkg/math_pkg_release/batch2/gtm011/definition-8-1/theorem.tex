@@ -1,0 +1,23 @@
+The Riemann zeta function is defined for $\text{Re } z > 1$ by the equation
+
+$$\zeta(z) = \sum_{n=1}^{\infty} n^{-z}$$
+
+The zeta function, as well as the gamma function, has been the subject of an enormous amount of mathematical research since their introduction. The analysis of the zeta function has had a profound effect on number theory and this has, in turn, inspired more work on $\zeta$. In fact, one of the most famous unsolved problems in Mathematics is the location of the zeros of the zeta function.
+
+We wish to demonstrate a relationship between the zeta function and the gamma
+
+for Re $z > 0$. Performing a change of variable in this integral by letting $t = nu$ gives
+
+$$\Gamma(z) = n^z \int_0^\infty e^{-nt} t^{z-1} dt;$$
+
+that is
+
+$$n^{-z} \Gamma(z) = \int_0^\infty e^{-nt} t^{z-1} dt.$$
+
+If Re $z > 1$ and we sum this equation over all positive $n$, then
+
+$$\zeta(z) \Gamma(z) = \sum_{n=1}^{\infty} n^{-z} \Gamma(z)$$
+
+$$= \sum_{n=1}^{\infty} \int_0^\infty e^{-nt} t^{z-1} dt.$$
+
+We wish to show that this infinite sum can be taken inside the integral sign. But first, an analogue of Lemma 7.16.

@@ -1,0 +1,14 @@
+The following five propositions are pairwise equivalent:
+
+(i) The axiom of choice;
+(ii) Tukey’s lem
+
+every $f$-inductive family $\mathcal{I}$. It is easy to see that $\mathcal{I}_0$ is $f$-inductive. Thus $\mathcal{I}_0$ is the smallest $f$-inductive family, so any $f$-inductive family contained in $\mathcal{I}_0$ must be $\mathcal{I}_0$. We will make heavy use of this fact in proving that $\mathcal{I}_0$ is a chain.
+
+Let $\mathcal{H} = \{A \in \mathcal{I}_0 : B \in \mathcal{I}_0$ and $B \subsetneq A$ imply $f(B) \subset A\}$. We assert that if $A \in \mathcal{H}$ and $C \in \mathcal{I}_0$, then either $C \subset A$ or $f(A) \subset C$. To prove this assertion, let $A \in \mathcal{H}$ and define $\mathcal{G}_A = \{C \in \mathcal{I}_0 : C \subset A$ or $f(A) \subset C\}$. It suffices to show that $\mathcal{G}_A$ is $f$-inductive. Since $\varnothing \in \mathcal{I}_0$ and $\varnothing \subset A$, (1) is satisfied. Let $C \in \mathcal{G}_A$. Then we have either $C \subsetneq A$, $C = A$, or $f(A) \subset C$. If $C \subsetneq A$, then $f(C) \subset A$ because $A \in \mathcal{H}$. If $C = A$, then $f(A) \subset f(C)$. If $f(A) \subset C$, then $f(A) \subset f(C)$ because $C \subset f(C)$. Thus in every case $f(C) \in \mathcal{G}_A$ and (2) is satisfied. Next let $\mathcal{B}$ be a chain in $\mathcal{G}_A$. Then either $C \subset A$ for each $C \in \mathcal{B}$, in which case $\cup B \subset A$, or there exists a $C \in \mathcal{B}$ such that
+
+To show that (iii) implies (iv), let $(P, \leq)$ be any nonvoid partially ordered set in which each chain has an upper bound. By (iii) there is a maximal chain $M \subset P$. Let $m$ be an upper bound for $M$. Then $m$ is a maximal element of $P$, for if there is an $x \in P$ such that $m \leq x$ and $m \neq x$, then $M \cup \{x\}$ is a chain which properly includes $M$, contradicting the maximality of $M$.
+
+To prove that (iv) implies (v), let $S$ be any nonvoid set and let $\mathcal{X}$ denote the family of all well-ordered sets $(W, \leq)$ such that $W \subset S$. For example, $(\{x\}, \{(x, x)\}) \in \mathcal{X}$ for each $x \in S$. We next introduce an ordering on $\mathcal{X}$ by defining $(W_1, \leq_1) \preceq (W_2, \leq_2)$ to mean that either $W_1 = W_2$ and $\leq_1 = \leq_2$ or there exists $a \in W_2$ such that $W_1 = \{x \in W_2 : x \leq_2 a, x \neq a\}$ and $\leq_2$ agrees with $\leq_1$ on $W_1$. i.e., $\leq_1 \subset \leq_2$. We say that $(W_2, \leq_2)$ is a continuation of $(W_1, \leq_1)$. The reader should see without difficulty that $\leq$ is a partial ordering on $\mathcal{X}$.
+
+Let us show that Zorn's lemma can be applied to the partially ordered set $(\mathcal{X}, \preceq)$. Let $\mathcal{C} = \{(W_i, \leq_i)\}_{i \in I}$ be any nonvoid chain (relative to $\preceq$) in $\mathcal{X}$. Set $W = \bigcup_{i \in I} W_i$ and $\preceq = \bigcup_{i \in I} \preceq_i$

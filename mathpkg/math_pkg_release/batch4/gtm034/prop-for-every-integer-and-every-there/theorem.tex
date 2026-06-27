@@ -1,0 +1,42 @@
+For every integer $m$ and every $\epsilon > 0$ there is some $M = M(m,\epsilon)$ such that for each $A > 0$
+
+$$\lim_{n \to \infty} \frac{1}{n} \sum_{k=1}^{n-M} P[|S_k| \leq A \text{ or } S_{k+j} \neq S
+
+We define the random variables (characteristic functions of events) $J_k(A,n) = 1$ if $|S_k| \leq A$ and $T = n$, 0 otherwise; $L_k(m,M,n) = 1$ if $S_{k+j} \neq S_k$ for $m \leq j \leq M$, 0 otherwise. For any pair of events $A_1, A_2$, $P[A_1 \cup A_2 | B] \leq P[A_1 | B] + P[A_2 | B]$, so that the sum in P6 is bounded above by
+
+(1) $E\left[\sum_{k=1}^{n-M} J_k(A,n) | T = n\right] + E\left[\sum_{k=1}^{n-M} L_k(m,M,n) | T = n\right]$.
+
+Given $\eta > 0$ (to be given the value $\epsilon/2$ later) we pick $M$ so large that $P[S_{k+j} \neq S_k$ for $m \leq j \leq M] = P[S_j \neq 0$ for $m \leq j \leq M] \leq \eta$.
+
+This may be done, since $m$ is fixed and the random walk is recurrent. Then
+
+(2) $E\left[\sum_{k=1}^{n-M} L_k(m,M,n) | T = n\right]$
+$= E\left[\sum_{k=1}^{n-M} L_k; \sum_{k=1}^{n-M} L_k \leq 2n\eta | T = n\right]$
+$+ E\left[\sum_{k=1}^{n-M} L_k; \sum_{k=1}^{n-M} L_k > 2n\eta | T = n\right]$
+$\leq 2n\eta + \frac{n}{P[T = n]} P\left[\sum_{k=1}^{n-M} L_k(m,M,n) \geq 2n\eta\right]$.
+
+To continue the estimation observe that $L_k = L_k(m,M,n)$ depends on $X_{k+1}, X_{k+2}, \ldots, X_{k+M}$, but not on any of the other increments $X_n = S_n - S
+
+According to P5.3, if $I$ is a Bernoulli sum of $j$ independent random variables, each of them being one with probability $\eta$ and zero otherwise, then the probability that $I$ exceeds $2j\eta$ is less than a multiple of $e^{-cj}$. Hence
+
+(4) $$P\left[I_1 \geq 2\eta \frac{n}{M}\right] \leq c_1 e^{-c_2(n/M)},$$
+
+where $c_1, c_2$ are positive constants, depending only on $\eta$. Now one can combine (2), (3), and (4) to get
+
+(5) $$E\left[\sum_{k=1}^{n-M} L_k(m,M,n) \mid T=n\right] \leq 2n\eta + \frac{Mn}{F_n} c_1 e^{-c_2(n/M)}.$$
+
+Turning to the estimation of the sum involving $J_k(A,n)$, let $\phi_k$ be the random variable which is 1 if $|S_k| \leq A$ and 0 otherwise. Truncating just as was done in (2), one gets
+
+(6) $$E\left[\sum_{k=1}^{n-M} J_k(A,n) \mid T=n\right] \leq n\eta + \frac{n}{F_n} P\left[\sum_{k=1}^{n} \phi_k \geq n\eta \text{ and } T=n\right] \leq n\eta + \frac{n}{F_n} P\left[T \geq n \mid \sum_{k=1}^{n} \phi_k \geq n\eta\right].$$
+
+Now we choose some real $\chi > 0$ and an integer $r > 0$ such that
+
+(7) $$\min_{|a| \leq A} P[S_k = a \text{ for some } k < r] \geq \chi > 0.$$
+
+Then
+
+$$P[T \geq j + r \mid |S_j| \leq A] \leq 1 - \chi,$$
+
+and since the event that $\phi_1 + \cdots + \phi_n \geq n\eta$ implies that one of the subsequences $\phi_j + \phi_{
+
+Now we set $2\eta = \epsilon$ and then, taking the limit superior as $n \to \infty$, P6 will be proved if the two exponential terms in (9) go to zero faster than $F_n$. But that follows from P5, no matter what are the positive constants $c_2$ and $\chi$, and therefore P6 is true.

@@ -1,0 +1,23 @@
+id: residue-field-extension-galois
+title_en: "Residue Field Extension as Galois Extension"
+title_zh: "剩余域扩张是Galois扩张"
+type: theorem
+domain: algebra
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [dedekind-domain, galois-theory, residue-field, decomposition-group, inertia-group]
+depends_on:
+  required: [decomposition-group, inertia-group, conjugate-prime-ideals-galois]
+  recommended: [residue-field, galois-extension]
+  suggested: [decomposition-field-properties]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "10"
+    pages: "286"
+    role_in_book: "Theorem 24"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

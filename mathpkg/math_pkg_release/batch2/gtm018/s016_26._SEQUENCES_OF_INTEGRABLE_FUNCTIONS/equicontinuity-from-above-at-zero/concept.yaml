@@ -1,0 +1,23 @@
+id: equicontinuity-from-above-at-zero
+title_en: "Equicontinuity from Above at Zero for Sequences of Set Functions"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [equicontinuity, set-functions, decreasing-sequence, uniform-property, convergence-in-mean]
+depends_on:
+  required: [set-function-continuity-from-above-at-zero]
+  recommended: [sequence-of-set-functions, uniform-absolute-continuity]
+  suggested: [indefinite-integral]
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX"
+    section: "§26. Sequences of Integrable Functions"
+    pages: ""
+    role_in_book: "Uniform equicontinuity condition needed for the characterization of convergence in mean"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

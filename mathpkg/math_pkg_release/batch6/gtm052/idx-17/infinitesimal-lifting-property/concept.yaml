@@ -1,0 +1,23 @@
+id: infinitesimal-lifting-property
+title_en: "Infinitesimal Lifting Property for Nonsingular Affine Varieties"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [infinitesimal-deformation, lifting, nonsingular, derivations, module-of-differentials]
+depends_on:
+  required: [module-of-relative-differentials, nonsingular-variety, derivation]
+  recommended: [jacobian-criterion]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "206-212"
+    role_in_book: "Exercise 8.6(c) — characterizes smoothness via infinitesimal lifting over nilpotent extensions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

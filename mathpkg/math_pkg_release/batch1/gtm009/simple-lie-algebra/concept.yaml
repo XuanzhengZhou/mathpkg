@@ -1,0 +1,20 @@
+id: simple-lie-algebra
+title_en: "Simple Lie Algebra"
+title_zh: "单李代数"
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [simple, ideal, nonabelian]
+depends_on: {required: [notion-of-lie-algebra, ideal-of-lie-algebra], recommended: [], suggested: [semisimple-lie-algebra]}
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "2"
+    section: "2.1"
+    pages: "19-20"
+    role_in_book: "Building blocks of semisimple Lie algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

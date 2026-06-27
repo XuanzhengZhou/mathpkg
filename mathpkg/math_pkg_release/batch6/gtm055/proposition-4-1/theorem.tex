@@ -1,0 +1,33 @@
+Every metric space is normal and satisfies the first axiom of countability. A metric space satisfies the second axiom of countability if and only if it is separable. If $E$ is a subset of a metric space $X$, then a point $x$ of $X$ belongs to $E^{-}$ if and only if there exists a sequence $\{x_n\}$ in $E$ such that $x_n \rightarrow x$. If $f$ is a mapping of a metric space $X$ into a metric space $Y$, then $f$ is continuous at a point $x$ of $X$ if and only if, for every sequence $\{x_n\}$ in $X$, $x_n \rightarrow x$ implies $f(x_n) \rightarrow f(x)$.
+
+On occasion, we shall find the more general notion of a pseudometric useful. A nonnegative real-valued function $\sigma$ defined on the Cartesian product of a set $X$ with itself is a pseudometric on $X$ if
+
+(i) $\sigma(x, y) = \sigma(y, x)$,
+(ii) $\sigma(x, z) \leq \sigma(x, y) + \sigma(y, z)$,
+(iii) $\sigma(x, x) = 0$,
+
+for all points $x, y,$ and $z$ in $X$. A set $X$ equipped with a pseudometric is a pseudometric space. If $(X, \sigma)$ is a pseudometric space and $x_0$ is a point of $X$, then for any positive number $r$ the set
+
+$$D_r(x_0) = \{x \in X : \sigma(x, x_0) < r\}$$
+
+is the open ball in $X$ with center $x_0$ and radius $r$. If in this definition "$<$" is replaced by "$\leq$", the result is the closed ball with the same center and radius. Just as in a metric space, a subset $B$ of a pseudometric space $X$ is bounded if there exists a closed ball in $X$ that contains $B$. The collection of all open balls in $X$ is a base for a topology on $X$—the pseudometric topology or topology induced by the pseudometric. Whenever a pseudometric space is regarded as a topological space, it is understood that the topology employed is the pseudometric topology unless the contrary is expressly stipulated. In particular, limits of sequences and nets, as well as accumulation points of sets, are defined in a pseudometric space by regarding it as a topological space in the pseudometric topology. It is important to note that in an arbitrary pseudometric space, just as in the complex plane, a convergent sequence is necessarily bounded, but this need not be true of a convergent net (see Problem 3L). We also note that it results from these agreements that if $(X, \rho)$ is a metric space and $\{x_n\}_{n=1}^{\infty}$ is a sequence in $X$, then $\{x_n\}$ converges to the point $x_0$ of $X$ if and only if $\lim_n \rho(x_n, x_0) = 0$.
+
+If $(X, \sigma)$ is a metric [pseudometric] space and if $M$ is a subset of $X$, then the restriction $\sigma|(M \times M)$ is a metric [pseudometric] on $M$ called the relative metric [pseudometric]. The set $M$ equipped with this relative metric [p
+
+Two pseudometrics $\sigma_1$ and $\sigma_2$ on the same set $X$ are equivalent if their pseudometric topologies coincide. Similarly, two metrics $\rho_1$ and $\rho_2$ on the same set $X$ are equivalent if they give rise to the same metric topology. This amounts, of course, to saying that the identity map on $X$ is a homeomorphism between $(X, \rho_1)$ and $(X, \rho_2)$.
+
+Example A. If $\rho$ is a metric on a set $X$, then
+
+$$\rho'(x, y) = \frac{\rho(x, y)}{1 + \rho(x, y)}, \quad x, y \in X,$$
+
+is an equivalent metric on $X$. (That $\rho$ and $\rho'$ are equivalent is apparent from the fact that the function $f(t) = t/(1 + t)$ is strictly increasing on the ray $[0, +\infty) \cup \{u \in \mathbb{R} : u \geq 0\}$). The only hard part is to verify that $\rho'$ is a metric, and this follows at once from the following inequalities:
+
+$$\frac{u + v}{1 + u + v} \leq \frac{u + v + uv}{1 + u + v + uv} \leq \frac{u}{1 + u} + \frac{v}{1 + v}, \quad u, v \geq 0.$$
+
+Thus every (nonempty) metric space $(X, \rho)$ admits an equivalent metric $\rho'$ in which diam $X \leq 1$.
+
+If $X$ and $Y$ are metric spaces with metrics $\rho$ and $\rho'$, respectively, then a mapping $\varphi$ of $X$ into $Y$ is said to be isometric, or to be an isometry, if $\rho'(\varphi(x), \varphi(x')) = \rho(x, x')$ for every pair of points $x, x'$ in $X$. If there exists an isometry of $X$ onto $Y$, then $X$ and $Y$ are isometric, or isomorphic as metric spaces. Metric spaces that are isometric are indistinguishable for many purposes, and are frequently
+
+make this identification. In particular, a subset of a complete metric space is itself a complete metric space if and only if it is closed. More generally if $M$ is a subset of an arbitrary metric space $X$ and $M$ is complete as a subspace of $X$, then $M$ is closed in $X$ (see Problem I).
+
+A topological space $X$ is said to be metrizable if there exists a metric $\rho$ on $X$ such that the metric topology induced by $\rho$ coincides with the given topology on $X$. Clearly the metric that metrizes a given metrizable space is unique only up to equivalence. The following metrization theorem, due to Urysohn, is frequently useful.

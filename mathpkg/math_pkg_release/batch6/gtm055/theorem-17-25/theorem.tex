@@ -1,0 +1,13 @@
+Let $U$ be an open subset of $\mathbb{C}$, and let $\mathcal{F}_U$ denote the unital algebra of all locally analytic complex-valued functions defined on $U$. If $\mathcal{A}$ is a unital Banach algebra and $x$ is an element of $\mathcal{A}$ such that $\sigma_{\mathcal{A}}(x) \subset U$, then $f \rightarrow f(x)$ is an algebra homomorphism of $\mathcal{F}_U$ into $\mathcal{A}$ with the property that $\rho(1) = 1_{\mathcal{A}}$. Moreover, if $K$ denotes an arbitrary compact neighborhood of $\sigma_{\mathcal{A}}(x)$ contained in $U$, then $\rho$ is bounded with respect to the pseudonorm $\sigma(f) = \max_{\lambda \in K} |f(\lambda)|$, $f \in \mathcal{F}_U$. In particular, if a sequence $\{f_n\}$ in $\mathcal{F}_U$ converges to a limit uniformly on compact subsets of $
+
+about $\lambda = \infty$ that is uniformly and absolutely convergent on any circle $C_r$ with sufficiently large radius $r$ (e.g., for $r > \|x\|$, see Proposition 12.11). Hence, choosing any one such circle $C_r$, we have
+
+$$f_k(x) = \frac{1}{2\pi i} \int_{C_r} \lambda^k \left( \sum_{n=0}^{\infty} \frac{x^n}{\lambda^{n+1}} \right) d\lambda$$
+
+$$= \sum_{n=0}^{\infty} \left[ \frac{1}{2\pi i} \int_{C_r} \frac{d\lambda}{\lambda^{n-k+1}} \right] x^n = x^k.$$
+
+In particular, if $f(\lambda) \equiv 1$, then $f(x) = 1_{\mathcal{A}}$, and if $f(\lambda) \equiv \lambda$, then $f(x) = x$. Hence if $p(\lambda) = \alpha_0 + \cdots + \alpha_n \lambda^n$ is an arbitrary complex polynomial, then $p(x)$ as defined by the Riesz–Dunford functional calculus coincides with the customary sense of $p(x)$ (see Problem 2L).
+
+Example P. Suppose $U$ denotes the open disc $D_R = \{ \lambda \in \mathbb{C} : |\lambda| < R \}$. If $\mathcal{A}$ is a unital Banach algebra and $x$ is an element of $\mathcal{A}$, then $\sigma_{\mathcal{A}}(x) \subset U$ if and only if the spectral radius $r_{\mathcal{A}}(x)$ is smaller than $R$ (Prob. 12P). Moreover, if this is the case and if $f \in \mathcal{F}_U$, then $f$ possesses a power series expansion $f(\lambda) = \sum_{n=0}^{\infty} \alpha_n \lambda^n$ that converges to $f$ uniformly on compact subsets of $U$ (Th. 5.1). Hence, writing $f_N(\lambda) = \sum_{n=0}^{N} \
+
+to a limit $f_0$ uniformly on compact subsets of $U$, and likewise a sequence $\{x_n\}$ in $\mathcal{A}$ converging to $x_0$ (in norm). Then $f_n(x_n)$ is defined for all sufficiently large $n$, and the sequence $\{f_n(x_n)\}$ converges (in norm) to $f_0(x_0)$.

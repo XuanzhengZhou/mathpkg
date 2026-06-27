@@ -1,0 +1,23 @@
+id: radon-nikodym-theorem
+title_en: "Radon-Nikodym Theorem"
+title_zh: "Radon-Nikodym定理"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [measure-theory, radon-nikodym, density, derivative]
+depends_on:
+  required: [absolutely-continuous-measure, signed-measure, lebesgue-integral]
+  recommended: [hahn-decomposition-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "VI"
+    section: "31"
+    pages: ""
+    role_in_book: "The fundamental theorem relating absolutely continuous measures to densities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

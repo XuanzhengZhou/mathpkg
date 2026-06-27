@@ -1,0 +1,23 @@
+id: construction-of-minimizing-eigenvector
+title_en: "Existence of a minimizing eigenvector for the simultaneous diagonalization functional"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [symmetric-bilinear-form, simultaneous-diagonalization, minimax-principle, eigenvector]
+depends_on:
+  required: [homogeneity-of-functional-F, path-independence-of-integral-J]
+  recommended: [positive-definite-inner-product]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "3. Pairs of symmetric bilinear functions"
+    pages: ""
+    role_in_book: "Section 9.14 — constructs the first eigenvector via a minimization argument"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: sentential-equivalence-congruence
+title_en: "Congruence Properties of Sentential Equivalence"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: sentential-logic
+difficulty: intermediate
+tags: [sentential-logic, equivalence-relation, congruence, boolean-algebra]
+depends_on:
+  required: [sentential-equivalence-relation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "9"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Establishes that logical equivalence is a congruence with respect to the sentential connectives, making the quotient a Boolean algebra."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

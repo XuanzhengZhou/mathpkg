@@ -1,0 +1,23 @@
+id: lubin-tate-psi-reciprocity-lsr
+title_en: "LS R: Lubin-Tate Psi Reciprocity Formula"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: ["Lubin-Tate", "reciprocity", "local-symbol", "psi"]
+depends_on:
+  required: ["lubin-tate-pairing-ls7"]
+  recommended: ["lubin-tate-formal-group-law"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "17"
+    section: "17"
+    pages: ""
+    role_in_book: "Reciprocity law for the psi map in Lubin-Tate theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

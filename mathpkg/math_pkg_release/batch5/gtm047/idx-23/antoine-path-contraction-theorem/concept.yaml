@@ -1,0 +1,23 @@
+id: antoine-path-contraction-theorem
+title_en: "Antoine Path Contraction Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [antoine-set, path-contraction, fundamental-group, wild-imbedding]
+depends_on:
+  required: [antoine-set, fundamental-group]
+  recommended: [path-contractibility-in-antoine-set-complement]
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "18"
+    section: "18 (Antoine's Necklace)"
+    pages: ""
+    role_in_book: "Theorem 3 of Chapter 18; establishes contractibility reduction for paths in the complement of Antoine set components"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

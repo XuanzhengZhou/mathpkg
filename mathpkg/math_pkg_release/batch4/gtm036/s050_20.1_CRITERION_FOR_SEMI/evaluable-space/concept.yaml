@@ -1,0 +1,23 @@
+id: evaluable-space
+title_en: "Evaluable Space (Symmetric, Infratonnelé, Quasi-tonnelé, Quasi-barrelled)"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [evaluable, symmetric, infratonnele, quasi-tonnele, quasi-barrelled, bound-absorbing-barrel, evaluation-map, locally-convex-space, equicontinuous]
+depends_on:
+  required: [locally-convex-space, evaluation-map, strong-topology, bound-absorbing-barrel, equicontinuous]
+  recommended: [semi-reflexive-space, barrelled-space, mackey-space, bound-space]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "20"
+    section: "20.1"
+    pages: ""
+    role_in_book: "Definition of evaluable (symmetric, infratonnelé, quasi-tonnelé, quasi-barrelled) locally convex spaces via continuity of the evaluation map"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+Every regular Borel measure on the real line decomposes uniquely into three mutually singular parts: an absolutely continuous part (given by a density), a continuous singular part (like the Cantor measure), and a discrete (atomic) part.

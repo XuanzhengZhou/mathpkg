@@ -1,0 +1,23 @@
+id: euler-characteristic-invariance-2-manifold-boundary
+title_en: "Euler Characteristic Invariance for Compact 2-Manifolds with Boundary"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [euler-characteristic, 2-manifold, boundary, triangulation, topological-invariant]
+depends_on:
+  required: [euler-characteristic-of-finite-complex, triangulated-2-manifold]
+  recommended: [hauptvermutung-2-manifolds]
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "21"
+    section: "21"
+    pages: ""
+    role_in_book: "Establishes that Euler characteristic is well-defined independent of triangulation choice"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

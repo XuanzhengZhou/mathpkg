@@ -1,0 +1,9 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+2.30 Theorem from Conway's "Functions of One Complex Variable I."
+Let $G$ be either the whole plane $\mathbb{C}$ or some open disk. If $u: G \to \mathbb{R}$ is a harmonic function then $u$ has a harmonic conjugate....

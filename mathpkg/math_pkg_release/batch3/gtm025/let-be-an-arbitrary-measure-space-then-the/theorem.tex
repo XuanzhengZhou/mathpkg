@@ -1,0 +1,54 @@
+Let $(X, \mathcal{A}, \mu)$ be an arbitrary measure space. Then the mapping $T$ defined
+
+(a) Prove that $U$ has the following properties:
+
+(i) $\varnothing \notin U$;
+(ii) if $A \in U$ and $A \subset B \subset X$, then $B \in U$;
+(iii) if $A, B \in U$, then $A \cap B \in U$;
+(iv) if $A \subset X$, then $A \in U$ or $A' \in U$.
+
+Any family $U$ that satisfies (i)—(iii) is called a filter in $X$. A filter in $X$ satisfying (iv) is called an ultrafilter in $X$.
+
+(b) Prove that if $V$ is any ultrafilter in $X$ and if $\sigma$ is defined on $P(X)$ by
+
+$$\sigma(A) = \begin{cases} 1 & \text{if } A \in V, \\ 0 & \text{if } A \notin V, \end{cases}$$
+
+then $\sigma$ is a finitely additive measure on $(X, P(X))$.
+
+Thus we have set up a one-to-one correspondence between ultrafilters and finitely additive zero-one measures.
+
+(c) Let $(X, A, \mu)$ be any measure space and let $\tau$ be a finitely additive measure in $F(X, A, \mu)$. Prove that
+
+$$\int_X f g d\tau = \int_X f d\tau \cdot \int_X g d\tau$$
+
+for all $f, g \in \mathcal{L}_\infty$ if and only if $\tau(A) = 0$ or 1 for all $A \in A$.
+
+**(20.38) Exercise.** Let $X$ be a nonvoid set. A filter $U$ in $X$ is said to be free if $\cap U = \varnothing$. All other filters are said to be fixed. Prove the following.
+
+(a) If $U$ is a fixed ultrafilter in $X$, then there is a point $p \in X$ such that $U = \{A \in P(X) : p \in A\}$.
+
+(b) If $X$ is finite, then every ultrafilter in $X$ is fixed.
+
+(c
+
+Use Krein's extension theorem (14.27) to extend $L$ to a nonnegative linear functional on the space $\mathfrak{B}^r([0, 1])$ of all bounded real-valued functions on $[0, 1]$.
+
+(20.40) Exercise. (a) Prove that there exists a linear functional $M$ on $\mathfrak{B}^r(R)$ such that for all $f \in \mathfrak{B}^r(R)$ and all $t \in R$, we have
+
+(i) $$\inf\{f(x): x \in R\} \leq M(f) \leq \sup\{f(x): x \in R\}$$
+
+and
+
+(ii) $$M(f_t) = M(f).^1$$
+
+[Hints. Let $\mathfrak{H}$ be the linear subspace of $\mathfrak{B}^r(R)$ consisting of all finite sums of functions of the form $f_t - f$ for $f \in \mathfrak{B}^r(R)$ and $t \in R$. For
+
+$$h = \sum_{k=1}^{n} \left[ (f_k)_{t_k} - f_k \right] \in \mathfrak{H},$$
+
+prove that $\inf\{h(x): x \in R\} \leq 0$. Assuming that this is false, choose $\varepsilon > 0$ such that $h(x) \geq \varepsilon$ for all $x \in R$. Let $p$ be an arbitrary positive integer, and let $\Phi$ denote the set of all functions $\varphi$ from $\{1, 2, \ldots, n\}$ into $\{1, 2, \ldots, p\}$. Clearly $\bar{\Phi} = p^n$. For each $\varphi \in \Phi$, let $x(\varphi) = \varphi(1)t_1 + \varphi(2)t_2 + \cdots + \varphi(n)t_n$. Show that
+
+$$\sum_{\varphi \in \Phi} \left[ f_k(x(\varphi)) + f_k(x(\varphi)) \right] \leq 2p^{n-1} \|f_k\|_u$$
+
+It is easy to prove (iii). To prove that $\mu$ is additive, use the inequalities $\min\{f_A + f_B, n\} \leq \min\{f_A, n\} + \min\{f_B, n\} \leq \min\{f_A + f_B, 2n\}$. To prove (iv), use the equality $f_{(A+t)}(x) = f_A(x + t)$.
+
+Our third application of the Lebesgue-Radon-Nikodym theorem is to the study of yet another conjugate space. In (12.36), we saw that if $X$ is a locally compact Hausdorff space, then every nonnegative linear functional $I$ on $\mathfrak{C}_{00}(X)$ has the form $I(f) = \int_X f d\iota$ for some regular Borel measure $\iota$ on $X$. This fact is useful in identifying the conjugate space of the complex Banach space $\mathfrak{C}_0(X)$.

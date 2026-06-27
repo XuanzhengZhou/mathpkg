@@ -1,0 +1,23 @@
+id: ramification-groups-abelian
+title_en: "Higher Ramification Quotient Groups are Abelian"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [ramification-groups, abelian, higher-ramification, galois-theory, dedekind-domain]
+depends_on:
+  required: [decomposition-group, inertia-group, ramification-groups]
+  recommended: [galois-extension-of-dedekind-domains]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "10"
+    pages: "288"
+    role_in_book: "Theorem 25: Structure theorem for higher ramification groups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

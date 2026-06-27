@@ -1,0 +1,23 @@
+id: set-potential-operator
+title_en: "Set Potential Operator U_E"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: potential-theory
+difficulty: intermediate
+tags: [potential-theory, hitting-time, set-recurrence, neveu]
+depends_on:
+  required: []
+  recommended: [neveu-potential-operator, hitting-time, characteristic-function]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "Additional Notes"
+    section: "Optimal stopping problems"
+    pages: ""
+    role_in_book: "Supplementary notes on set potential operators"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

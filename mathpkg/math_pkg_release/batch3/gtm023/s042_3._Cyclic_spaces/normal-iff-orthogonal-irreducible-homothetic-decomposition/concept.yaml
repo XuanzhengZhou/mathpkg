@@ -1,0 +1,23 @@
+id: normal-iff-orthogonal-irreducible-homothetic-decomposition
+title_en: "Normal Transformation Decomposition into Orthogonal Homothetic Irreducibles"
+title_zh: "正规变换分解为正交位似不可约子空间"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [normal-transformation-is-semisimple, inner-product-space, irreducible-subspace]
+  recommended: [orthogonal-decomposition, homothetic-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "7"
+    pages: ""
+    role_in_book: "E decomposes as orthogonal sum of irreducible subspaces on which φ acts homothetically iff φ is normal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

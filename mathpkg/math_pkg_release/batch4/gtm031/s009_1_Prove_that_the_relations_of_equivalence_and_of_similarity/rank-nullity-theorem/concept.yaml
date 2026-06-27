@@ -1,0 +1,20 @@
+id: rank-nullity-theorem
+title_en: "Rank-Nullity Theorem"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [rank, nullity, linear-transformation, dimension, kernel, image]
+depends_on: {required: [rank-space, null-space, basis, linear-independence], recommended: [dimension-theorem], suggested: []}
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "III"
+    section: "9"
+    pages: "55-57"
+    role_in_book: "Theorem 4: Fundamental relation between rank and nullity of a linear transformation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

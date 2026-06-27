@@ -1,0 +1,23 @@
+id: basis-deformation-oriented-space
+title_en: "Basis Deformation in an Oriented Linear Space"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [basis, deformation, orientation, positive-basis]
+depends_on:
+  required: [basis-deformation-theorem, orientation-by-determinant]
+  recommended: [positive-basis]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§8. Oriented vector spaces"
+    pages: "4.35"
+    role_in_book: "Reformulation of the deformation theorem in terms of orientation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

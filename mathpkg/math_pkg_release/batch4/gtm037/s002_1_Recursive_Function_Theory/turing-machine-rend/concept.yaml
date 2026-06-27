@@ -1,0 +1,23 @@
+id: turing-machine-rend
+title_en: "Turing Machine T_rend — Right-End Detector"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability
+difficulty: intermediate
+tags: ["turing-machine", "tape-manipulation"]
+depends_on:
+  required: []
+  recommended: ["turing-machine-rseek0", "turing-machine-left", "turing-machine-right"]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "Ebbinghaus, Flum, Thomas"
+    title: "Mathematical Logic"
+    chapter: "1"
+    section: "1.X (Turing Machines)"
+    pages: ""
+    role_in_book: "Defines a Turing submachine that moves to the right end marker (00) and stops on the leftmost zero."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

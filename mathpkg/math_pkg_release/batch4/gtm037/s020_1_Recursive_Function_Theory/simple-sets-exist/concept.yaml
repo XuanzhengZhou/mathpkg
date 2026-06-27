@@ -1,0 +1,23 @@
+id: simple-sets-exist
+title_en: "Simple sets exist"
+title_zh: "单纯集存在"
+type: theorem
+domain: logic
+subdomain: recursion-theory
+difficulty: advanced
+tags: [simple-set, r.e.-set, recursive-function, Post-problem]
+depends_on:
+  required: []
+  recommended: [recursive-function, recursively-enumerable-set, unary-primitive-recursive-function]
+  suggested: [creative-set, productive-set, many-one-reducibility]
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "6"
+    section: "Recursive Function Theory"
+    pages: ""
+    role_in_book: "Establishes existence of simple sets, solving Post's problem via a non-recursive r.e. set that is not creative"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

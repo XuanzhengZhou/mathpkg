@@ -1,0 +1,23 @@
+id: hewitt-realcompactification-vx
+title_en: "Hewitt Realcompactification $vX$"
+title_zh: "Hewitt实紧化vX"
+type: definition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [vX, hewitt, realcompactification, beta-X, C-embedded, real-maximal-ideal]
+depends_on:
+  required: [stone-cech-compactification, realcompactification, real-maximal-ideal]
+  recommended: [equivalent-conditions-on-beta-x-point, C-embedded]
+  suggested: [vx-largest-c-embedded-subspace, vx-realcompactification-properties]
+source_books:
+  - book_id: gtm043
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "8"
+    section: "8.4"
+    pages: ""
+    role_in_book: "Defines the Hewitt realcompactification as the set of real points in βX"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,8 @@
+In any category, an object $p$ is called \textbf{projective} if for every epimorphism $g : b \twoheadrightarrow c$ and every arrow $h : p \rightarrow c$, there exists an arrow $h' : p \rightarrow b$ such that $h = g \circ h'$:
+
+$$\xymatrix{
+  & b \ar@{->>}[d]^{g} \\
+p \ar@{-->}[ur]^{\exists h'} \ar[r]_{h} & c
+}$$
+
+Equivalently, $p$ is projective precisely when the hom-functor $\hom(p, -)$ preserves epimorphisms, i.e., $g$ epic implies $\hom(p, g) : \hom(p, b) \rightarrow \hom(p, c)$ is epic in $\mathbf{Set}$.

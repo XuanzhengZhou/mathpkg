@@ -1,0 +1,23 @@
+id: spectral-theorem-normal-operators
+title_en: "Spectral Theorem for Normal Operators"
+title_zh: "正规算子的谱定理"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [spectral-theorem, normal-operator, Hilbert-space, Gelfand-transform, operational-calculus]
+depends_on:
+  required: [normal-operator, spectrum, c-star-algebra, gelfand-transform]
+  recommended: [continuous-functional-calculus, borel-functional-calculus]
+  suggested: [spectral-measure, projection-valued-measure]
+source_books:
+  - book_id: "gtm003"
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "11"
+    pages: ""
+    role_in_book: "Exercise 18: spectral theorem for normal operators via Gelfand transform"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

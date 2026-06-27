@@ -1,0 +1,14 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $P$ is a transition matrix, then
+
+$$\hat{P}^n = D(P^n)^T D^{-1}$$ and $$\{M_i[\hat{n}_j]\} = D\{M_i[n_j]\}^T D^{-1}.$$
+
+If $P$ is either (1) recurrent or (2) transient with only transient states, then $\hat{P}$ is of the same type. If $P$ is of the second type, then
+
+$$\hat{N} = DN^T D^{-1}.$$

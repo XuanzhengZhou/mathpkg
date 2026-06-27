@@ -1,0 +1,23 @@
+id: field-is-integral-domain
+title_en: "Every Field is an Integral Domain"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: field-theory
+difficulty: basic
+tags: [field, integral-domain, zero-divisor, unit]
+depends_on:
+  required: [field-definition, integral-domain-definition]
+  recommended: [zero-divisor-definition]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Volume I"
+    chapter: "I"
+    section: "8. Fields"
+    pages: "22"
+    role_in_book: "Immediate consequence of the field axioms establishing that fields form a subclass of integral domains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

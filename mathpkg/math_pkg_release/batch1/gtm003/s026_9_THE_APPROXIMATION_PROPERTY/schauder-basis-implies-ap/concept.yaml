@@ -1,0 +1,23 @@
+id: schauder-basis-implies-ap
+title_en: "Every Separable Banach Space with a Schauder Basis Has the Approximation Property"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [approximation-property, schauder-basis, banach-space, separable-space]
+depends_on:
+  required: [schauder-basis-coefficient-forms, approximation-property]
+  recommended: [schauder-basis]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "Chapter III"
+    section: "9. The Approximation Property. Compact Maps"
+    pages: ""
+    role_in_book: "Corollary to Theorem 9.6: Schauder basis implies approximation property"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

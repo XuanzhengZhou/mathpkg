@@ -1,0 +1,23 @@
+id: duality-au-and-fsimu
+title_en: "Strong Duality between A(U) and F(∼U)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [duality, strong-topology, analytic-functions, generalized-lf-space, isomorphism]
+depends_on:
+  required: [fc-inductive-limit-analytic-functions, generalized-lf-space, strong-topology-for-the-adjoint]
+  recommended: [iuv-continuity-and-fc-generalized-lf]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "Kelley, J.L. and Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "D"
+    section: "SPACES OF ANALYTIC FUNCTIONS II"
+    pages: ""
+    role_in_book: "Duality theorem: A(U)* ≅ F(∼U) with strong topologies"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

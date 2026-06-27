@@ -1,0 +1,23 @@
+id: vector-lattice
+title_en: "Vector Lattice"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [vector-lattice, riesz-space, ordered-vector-space, supremum, join, lattice-ordering]
+depends_on:
+  required: []
+  recommended: [ordered-vector-space, lattice, supremum, infimum]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "23.1"
+    pages: ""
+    role_in_book: "Defines vector lattices as ordered spaces with unique suprema; foundational to Riesz space theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

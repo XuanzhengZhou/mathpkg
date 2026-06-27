@@ -1,0 +1,23 @@
+id: gamma-k-integer
+title_en: "\\gamma_k integer (least positive residue of \\gamma^k mod \\lambda)"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: dirichlet-l-functions
+difficulty: basic
+tags: [primitive-root, residue, dirichlet-l-function, cyclotomic-field]
+depends_on:
+  required: [primitive-root]
+  recommended: [dirichlets-formula-for-l1-chi-odd]
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "6. Determination of the Class Number"
+    section: "6.5 Dirichlet's evaluation of L(1,\\chi)"
+    pages: ""
+    role_in_book: "Defines the integer appearing in the odd-character case of Dirichlet's explicit formula"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

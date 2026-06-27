@@ -1,0 +1,23 @@
+id: mackey-topology-order-dual-bound
+title_en: "Mackey Topology of the Order Dual is Bound"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: ordered-linear-spaces
+difficulty: advanced
+tags: [Mackey-topology, order-dual, bound-topology, vector-lattice]
+depends_on:
+  required: [vector-lattice-functional-order-bounded]
+  recommended: [order-dual]
+  suggested: [mackey-topology]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "ORDERED LINEAR SPACES"
+    pages: "224"
+    role_in_book: "Topological consequence of the order dual characterization"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

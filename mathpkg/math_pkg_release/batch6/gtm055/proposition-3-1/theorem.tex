@@ -1,0 +1,36 @@
+A collection $\mathcal{B}$ of subsets of a set $X$ forms a base for a topology on $X$ if and only if every point of $X$ lies in some element of $\mathcal{B}$ (briefly: if $\mathcal{B}$ covers $X$) and the intersection of every pair of sets belonging to $\mathcal{B}$ is a union of sets belonging to $\mathcal{B}$. (The only property that a collection $\mathcal{S}$ of subsets of $X$ must possess in order to be a subbase for a topology on $X$ is that it cover $X$.)
+
+Example A. The collection of all open intervals $(a, b)$, where $a, b \in \mathbb{R}$ and $a < b$, is a base for the usual topology on $\mathbb{R}$. Similarly, the collection of all
+
+open cells, i.e., the collection of all products of open intervals
+
+$$(a_1, b_1) \times \cdots \times (a_n, b_n)$$
+
+is a base for the usual topology on $\mathbb{R}^n$. A base for the usual topology on the complex plane $\mathbb{C}$ is given by the set of all open discs
+
+$$D_r(\alpha) = \{\lambda \in \mathbb{C} : |\alpha - \lambda| < r\},$$
+
+where $\alpha$ is a point of $\mathbb{C}$ and $r$ is a positive number. Similarly, the collection of all products of open discs
+
+$$D_{r_1}(\alpha_1) \times \cdots \times D_{r_n}(\alpha_n)$$
+
+is a base for the usual topology on $\mathbb{C}^n$. Since all of (the real and imaginary parts of) the parameters employed in defining these various bases may be restricted to assume only rational values, the spaces in this example all satisfy the second axiom of countability.
+
+Example B. Let $X$ be a simply ordered set containing at least two elements. For each $a$ in $X$ let
+
+$$L_a = \{x \in X : x < a\} \quad \text{and} \quad R_a = \{x \in X : x > a\}.$$
+
+Then the collection $\mathcal{S} = \{L_a : a \in X\} \cup \{R_a : a \in X\}$ is a subbase for a topology on $X$ called the order topology. A base for the order topology is given by $\mathcal{S} \cup \{R_a \cap L_b : a, b \in X, a < b\}$. The set $R_a \cap L_b, a < b$, is called an open interval and is sometimes denoted by $(a, b)$, just as when $X$ is the system of real numbers. The order topology on $\mathbb{R}$ is the usual topology on $\mathbb{R}$. Another situation in which the order topology is important arises when $X$ is a segment $W(\alpha)$ of ordinal numbers. In particular, if $\lambda$ is a limit ordinal, then a base for the order topology
+
+Recall that if $X$ and $Y$ are topological spaces, if $f$ is a mapping of $X$ into $Y$, and if $x_0 \in X$, then $f$ is continuous at $x_0$ if for every neighborhood $W$ of $f(x_0)$ in $Y$ there is a neighborhood $V$ of $x_0$ in $X$ such that $f(V) \subset W$; moreover, $f$ is continuous if it is continuous at every point of $X$. A mapping $f: X \to Y$ is continuous if and only if $f^{-1}(U)$ is open in $X$ for every open set $U$ in $Y$, or, equivalently, if and only if $f^{-1}(F)$ is closed in $X$ for every closed set $F$ in $Y$. A mapping $f: X \to Y$ with the property that $f(U)$ is open in $Y$ whenever $U$ is open in $X$ is an open mapping. Likewise, $f$ is a homeomorphism of $X$ onto $Y$ if $f$ is a one-to-one mapping of $X$ onto $Y$ such that both $f$ and $f^{-1}$ are continuous, i.e., such that $f$ is both continuous and open. Two topological spaces are homeomorphic if there exists a homeomorphism of one of them onto the other.
+
+Example D. If $X$ is any topological space, then the collection of continuous complex-valued functions on $X$ will be denoted by $\mathcal{C}(X)$, and the collection of continuous real-valued functions on $X$ by $\mathcal{C}_{\mathbb{R}}(X)$. It is clear that $\mathcal{C}(X)$ $[\mathcal{C}_{\mathbb{R}}(X)]$ is a unital linear algebra [real linear algebra] with respect to the usual operations of pointwise addition and multiplication. The space $\mathcal{C}(X)$ is the complexification of $\mathcal{C}_{\mathbb{R}}(X)$. If $A$ is an arbitrary subset of $X$, then the set of all functions in $\mathcal{C}(X)$ that vanish on $A$ is an ideal in $\mathcal{C}(X)$. If $\
+
+compactness implies compactness in spaces satisfying the second axiom of countability.
+
+Example F (Heine–Borel Theorem). Every closed interval $[a, b]$ in $\mathbb{R}$ is compact. Indeed, if $\mathcal{U}$ is an arbitrary open covering of $[a, b]$, if $T$ denotes the set of those numbers $t$ in $[a, b]$ with the property that the subinterval $[a, t]$ is covered by some finite number of sets in $\mathcal{U}$, and if $t_0 = \sup T$, then it is easy to see that $t_0 > a$ and $t_0 \in T$. But $t_0 < b$ is impossible, so $[a, b] = T$.
+
+More generally, a subset $K$ of $\mathbb{R}^n$ is compact if and only if $K$ is closed and is contained in some closed cell $[a_1, b_1] \times \cdots \times [a_n, b_n]$. This theorem, known as the Heine–Borel theorem, is an easy consequence of Proposition 3.2, Theorem 3.15 below, and the just established fact that closed intervals are compact.
+
+A topological space $X$ is a Hausdorff space if every two distinct points in $X$ have disjoint neighborhoods. A major role is played in modern analysis by compact Hausdorff spaces, and the fol
+...

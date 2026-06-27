@@ -1,0 +1,23 @@
+id: complete-intersection-dimension-bound
+title_en: "Dimension bound for varieties defined by q elements"
+title_zh: "由q个元素定义的簇的维数下界"
+type: exercise
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [complete-intersection, dimension, projective-variety, homogeneous-ideal]
+depends_on:
+  required: [projective-variety, dimension]
+  recommended: [krull-height-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "2"
+    pages: "13"
+    role_in_book: "Exercise 2.17(a)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

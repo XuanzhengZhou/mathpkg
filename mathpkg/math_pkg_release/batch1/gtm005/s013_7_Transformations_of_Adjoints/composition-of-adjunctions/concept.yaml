@@ -1,0 +1,30 @@
+id: composition-of-adjunctions
+title_en: Composition of Adjunctions
+title_zh: ''
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags:
+- adjunction
+- composition
+- adjoint-functor
+- category-theory
+depends_on:
+  required:
+  - adjunction
+  - functor-composition
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: IV
+  section: '8'
+  pages: ''
+  role_in_book: shows that two successive adjunctions compose to give a single adjunction;
+    forms the foundation for the category Adj of adjunctions
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

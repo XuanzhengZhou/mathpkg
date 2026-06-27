@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+$\Gamma$ is a bijection from the set $\mathbf{F}$ of subfields of $K$ to the set $\mathbf{G}$ of Galois subgroups of $\operatorname{Aut} K$.

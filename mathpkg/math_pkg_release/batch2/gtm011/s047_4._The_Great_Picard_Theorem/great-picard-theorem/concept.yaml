@@ -1,0 +1,23 @@
+id: great-picard-theorem
+title_en: "The Great Picard Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [essential-singularity, picard, normal-family, montel-caratheodory]
+depends_on:
+  required: [essential-singularity, normal-family, montel-caratheodory-theorem, removable-singularity]
+  recommended: [casorati-weierstrass-theorem, maximum-modulus-principle, mobius-transformation]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "XII"
+    section: "§4. The Great Picard Theorem"
+    pages: ""
+    role_in_book: "Main theorem of the section"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

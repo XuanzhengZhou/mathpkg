@@ -1,0 +1,23 @@
+id: maximal-ideal-c-star-real
+title_en: "Reality of Maximal Ideals in C* and Pseudocompactness"
+title_zh: "C*中极大理想的实性与伪紧性"
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [maximal-ideal, real-ideal, c-star, pseudocompact, hyper-real-ideal]
+depends_on:
+  required: [real-ideal, hyper-real-ideal, maximal-ideal]
+  recommended: [pseudocompact, c-star, hyper-real-ideal-properties]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.8"
+    pages: ""
+    role_in_book: "Shows that every maximal ideal in C* is real, and all maximal ideals in C are real exactly when X is pseudocompact"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

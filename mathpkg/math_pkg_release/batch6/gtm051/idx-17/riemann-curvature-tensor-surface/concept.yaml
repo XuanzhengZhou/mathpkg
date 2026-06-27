@@ -1,0 +1,23 @@
+id: riemann-curvature-tensor-surface
+title_en: "Riemann Curvature Tensor of a Surface (Definition 3.8.4)"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [curvature-tensor, riemann-curvature, surface-theory, gauss-curvature, christoffel-symbols]
+depends_on:
+  required: [christoffel-symbols, gauss-weingarten-equations]
+  recommended: [gauss-codazzi-mainardi-equations, first-fundamental-form]
+  suggested: [riemannian-curvature-tensor, sectional-curvature]
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.8"
+    pages: "pp. 70-72"
+    role_in_book: "Definition of the Riemann curvature tensor for a surface via Christoffel symbols"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: platonic-graph-biconnected
+title_en: "Every Platonic Graph is Biconnected"
+title_zh: ""
+type: lemma
+domain: combinatorics
+subdomain: graph-theory
+difficulty: advanced
+tags: [platonic-graph, biconnected, connectivity, orthogonal-graph, articulation-vertex]
+depends_on:
+  required: [orthogonal-platonic-graph-existence]
+  recommended: [platonic-graph, isthmus, biconnected-graph, articulation-vertex]
+  suggested: [platonic-graph-types-table-f16]
+source_books:
+  - book_id: gtm054
+    author: "Graver, J.E. and Watkins, M.E."
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "III"
+    section: "13 (III.F Platonic Graphs)"
+    pages: "104-107"
+    role_in_book: "Lemma F25: Proves all Platonic graphs are biconnected, a key structural result used to eliminate articulation vertices and simplify the classification of Platonic graphs."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

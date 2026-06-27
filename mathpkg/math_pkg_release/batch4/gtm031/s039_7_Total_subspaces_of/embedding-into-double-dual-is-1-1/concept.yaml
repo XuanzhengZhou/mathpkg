@@ -1,0 +1,26 @@
+id: embedding-into-double-dual-is-1-1
+title_en: Embedding into the Double Dual is Injective
+title_zh: ''
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: []
+depends_on:
+  required:
+  - total-subspace
+  - dual-space-mapping
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm031
+  author: Nathan Jacobson
+  title: 'Lectures in Abstract Algebra II: Linear Algebra'
+  chapter: 'Chapter VIII: The Ring of Linear Transformations'
+  section: 8. Dual spaces. Kronecker products
+  pages: 262-269
+  role_in_book: Establishes the symmetric duality between R and total subspaces of
+    R^*.
+content_hash: 658b14be4c950f23
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

@@ -1,0 +1,23 @@
+id: subbasic-closed-sets-via-ray-preimages
+title_en: "Subbasic Closed Sets via Preimages of Rays"
+title_zh: "通过射线原像的闭集子基"
+type: lemma
+domain: topology
+subdomain: weak-topology
+difficulty: intermediate
+tags: [weak-topology, subbase, closed-sets, ray-preimages, zero-set]
+depends_on:
+  required: [weak-topology-generated-by-family, subbase-for-closed-sets]
+  recommended: [zero-set]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.4"
+    pages: ""
+    role_in_book: "Explicit description of a subbase for the weak topology in terms of closed sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

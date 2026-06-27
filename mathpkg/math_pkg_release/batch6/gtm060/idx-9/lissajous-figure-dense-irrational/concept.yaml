@@ -1,0 +1,23 @@
+id: lissajous-figure-dense-irrational
+title_en: "Density of Lissajous Figure for Irrational Frequency Ratio"
+title_zh: "无理频率比下李萨如图形的稠密性"
+type: theorem
+domain: applied-math
+subdomain: dynamical-systems
+difficulty: basic
+tags: [lissajous-figure, dense-orbit, irrational-frequency, poincare-recurrence, torus-flow]
+depends_on:
+  required: [dense-winding-line-irrational-torus]
+  recommended: [poincares-recurrence-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "B"
+    pages: "83-87"
+    role_in_book: "Exercise problem: Lissajous figure as an application of dense winding line on torus"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

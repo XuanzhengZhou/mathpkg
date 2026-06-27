@@ -1,0 +1,10 @@
+Let $q \in P(X)$ and let $A \subseteq P(X)$. In the propositional calculus on the set $X$, a proof of $q$ from the assumptions $A$ is a finite sequence $p_1, p_2, \ldots, p_n$ of elements $p_i \in P(X)$ such that $p_n = q$ and for each $i$, either:
+\begin{itemize}
+\item $p_i \in \mathcal{A} \cup A$, where $\mathcal{A} = \mathcal{A}_1 \cup \mathcal{A}_2 \cup \mathcal{A}_3$ is the set of axioms with
+\begin{align*}
+\mathcal{A}_1 &= \{p \Rightarrow (q \Rightarrow p) \mid p, q \in P(X)\},\\
+\mathcal{A}_2 &= \{(p \Rightarrow (q \Rightarrow r)) \Rightarrow ((p \Rightarrow q) \Rightarrow (p \Rightarrow r)) \mid p, q, r \in P(X)\},\\
+\mathcal{A}_3 &= \{\sim\sim p \Rightarrow p \mid p \in P(X)\},
+\end{align*}
+\item or for some $j, k < i$, we have $p_k = (p_j \Rightarrow p_i)$ (Modus Ponens).
+\end{itemize}

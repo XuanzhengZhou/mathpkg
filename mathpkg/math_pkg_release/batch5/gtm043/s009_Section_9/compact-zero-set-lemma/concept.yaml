@@ -1,0 +1,23 @@
+id: compact-zero-set-lemma
+title_en: "Compactness Criterion via Free z-Filters"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [compact, zero-set, z-filter, free-filter, finite-intersection-property]
+depends_on:
+  required: [compact, zero-set, z-filter, z-filter-fixed-free]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4.10"
+    pages: ""
+    role_in_book: "Characterizes compact zero-sets as those belonging to no free z-filter."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

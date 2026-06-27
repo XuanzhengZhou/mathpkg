@@ -1,0 +1,13 @@
+id: einstein-de-sitter-model
+title_en: "Einstein-de Sitter Model"
+title_zh: "爱因斯坦-德西特模型"
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: intermediate
+tags: [cosmology, einstein-de-sitter, dust-model]
+depends_on: {required: [cosmological-model, einstein-de-sitter-spacetime], recommended: [dust-matter-model], suggested: []}
+source_books: [{book_id: "gtm048", author: "R. K. Sachs and H. Wu", title: "General Relativity for Mathematicians", chapter: "6", section: "6.2.9", pages: "", role_in_book: "simplest cosmological model"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

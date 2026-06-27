@@ -1,0 +1,20 @@
+id: finite-variance-hitting-time-asymptotic
+title_en: "Asymptotic Behavior of the Hitting Time for Finite Variance Random Walk"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [hitting-time, asymptotic, finite-variance, karama, tauberian]
+depends_on: {required:[], recommended:[karamatas-theorem, fourier-analysis], suggested:[]}
+source_books:
+  - book_id: "gtm034"
+    author: "Frank Spitzer"
+    title: "Principles of Random Walk"
+    chapter: "VI"
+    section: "32"
+    pages: "381-382"
+    role_in_book: "Precise asymptotic for $P_0[T > n]$ when variance is finite"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

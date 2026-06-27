@@ -1,0 +1,14 @@
+id: r0-is-elementary
+title_en: "R_0 Is Elementary"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [occurrence-relation, elementary-relation, arithmetization, Gödel-numbering]
+depends_on: {required: [occurrence-relation-r0], recommended: [cat-concatenation-function, elementary-relations], suggested: []}
+source_books:
+  - {book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "4. Recursive Function Theory", section: "4.1", pages: "", role_in_book: "Proves that the subword occurrence relation is elementary, enabling formal arithmetic reasoning about Markov algorithm computations"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

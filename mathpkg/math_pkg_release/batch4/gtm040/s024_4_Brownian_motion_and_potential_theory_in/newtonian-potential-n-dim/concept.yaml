@@ -1,0 +1,23 @@
+id: newtonian-potential-n-dim
+title_en: "Newtonian potential in n dimensions"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: potential-theory
+difficulty: intermediate
+tags: [newtonian-potential, potential-theory, logarithmic-potential, riesz-kernel, gamma-function]
+depends_on:
+  required: []
+  recommended: [brownian-motion-operator-n-dim, harmonic-functions]
+  suggested: [laplacian, fundamental-solution]
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "7"
+    section: "4. Brownian motion and potential theory in n dimensions"
+    pages: ""
+    role_in_book: "Defines the potential of a signed measure on R^n for Brownian motion potential theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,5 @@
+A Markov process $\{X_t, t \in T\}$ is specified by an initial measure $P(t_0, A)$ and a transition probability function $P(\tau, x; t, A)$ for $t_0 \leq \tau < t$, $x \in \Omega_X$, $A \in \mathfrak{F}_X$, satisfying:
+(i) $P(\tau, x; t, A)$ is a probability measure in $A$;
+(ii) It is measurable in $x$;
+(iii) Chapman-Kolmogorov: $P(\tau, x; t, A) = \int_{\Omega_X} P(\tau, x; t', dy) P(t', y; t, A)$ for $\tau < t' < t$.
+Joint probabilities are then $P[X_{t_0} \in A_0, \ldots, X_{t_n} \in A_n] = \int_{A_0} \cdots \int_{A_{n-1}} P(t_0, dy_0) P(t_0, y_0; t_1, dy_1) \cdots P(t_{n-1}, y_{n-1}; t_n, A_n)$. Given the present, past and future are conditionally independent.

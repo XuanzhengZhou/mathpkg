@@ -1,0 +1,13 @@
+id: restricted-transition-function
+title_en: "Restricted Transition Function on an Interval"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: random-walk
+difficulty: basic
+tags: [transition-function, interval, truncation, absorption-problem]
+depends_on: {required: [], recommended: [transition-function, random-walk], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "21", pages: "", role_in_book: "Defines the restriction of the transition function P to a finite interval [0,N], fundamental to the absorption problem"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

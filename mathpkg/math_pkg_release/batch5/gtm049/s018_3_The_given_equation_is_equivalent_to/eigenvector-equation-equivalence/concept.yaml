@@ -1,0 +1,23 @@
+id: eigenvector-equation-equivalence
+title_en: "Eigenvector Reduction for the Equation f = τg^{-1}"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [eigenvector, orthogonal-complement, bilinear-form, induction, semilinear-mapping]
+depends_on:
+  required: []
+  recommended: [eigenvector, orthogonal-complement, bilinear-form]
+  suggested: [induction-on-dimension]
+source_books:
+  - book_id: "gtm049"
+    author: "K. W. Gruenberg and A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "6"
+    section: "6.5"
+    pages: ""
+    role_in_book: "Exercise 3 solution — reduction via common eigenvector and orthogonal complement"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

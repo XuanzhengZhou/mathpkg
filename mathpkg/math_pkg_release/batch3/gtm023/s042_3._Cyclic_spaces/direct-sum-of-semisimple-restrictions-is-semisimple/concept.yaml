@@ -1,0 +1,23 @@
+id: direct-sum-of-semisimple-restrictions-is-semisimple
+title_en: "Direct Sum of Semisimple Restrictions is Semisimple"
+title_zh: "半单限制的直和是半单的"
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [semisimple-iff-minimum-polynomial-product-of-distinct-irreducibles]
+  recommended: [direct-sum, minimum-polynomial]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "6"
+    pages: ""
+    role_in_book: "If E decomposes into stable subspaces with semisimple induced transformations, then φ is semisimple"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

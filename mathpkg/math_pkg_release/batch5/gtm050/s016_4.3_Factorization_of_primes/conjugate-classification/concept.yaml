@@ -1,0 +1,23 @@
+id: conjugate-classification
+title_en: "Uniqueness of Prime Cyclotomic Integers with Given Norm"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: cyclotomic-integers
+difficulty: intermediate
+tags: [cyclotomic-integers, prime, conjugate, unit, norm]
+depends_on:
+  required: [kummer-prime-factor-theorem, conjugate-cyclotomic-integer]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "4"
+    section: "4.3"
+    pages: ""
+    role_in_book: "Third corollary: establishes that prime cyclotomic integers with the same prime norm differ only by a unit factor and a Galois conjugation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

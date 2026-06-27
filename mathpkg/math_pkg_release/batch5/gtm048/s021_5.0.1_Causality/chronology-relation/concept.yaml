@@ -1,0 +1,23 @@
+id: chronology-relation
+title_en: "Chronology Relation"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: basic
+tags: [causality, binary-relation, chronology, spacetime]
+depends_on:
+  required: [chronological-precedence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "5"
+    section: "5.0.1"
+    pages: ""
+    role_in_book: "Defines the binary relation representing chronological ordering on a spacetime"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

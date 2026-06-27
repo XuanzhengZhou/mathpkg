@@ -1,0 +1,23 @@
+id: contact-preserved-under-composition
+title_en: "Contact Preserved under Composition"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: differential-topology
+difficulty: intermediate
+tags: [jet-bundles, contact-equivalence, composition, functoriality]
+depends_on:
+  required: [kth-order-contact]
+  recommended: [chain-rule, smooth-map]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "2"
+    section: "2. Jet Bundles"
+    pages: ""
+    role_in_book: "Establishes that jet space operations are well-defined under composition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

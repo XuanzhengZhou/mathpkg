@@ -1,0 +1,1 @@
+The structure sheaf $\mathcal{O}$ of holomorphic functions is the fundamental sheaf in complex analysis. Every section of $\mathcal{O}$ over an open set corresponds to a unique holomorphic function on that set.

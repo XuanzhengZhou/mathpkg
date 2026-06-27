@@ -1,0 +1,23 @@
+id: inertial-forces-rotating-frame
+title_en: "Inertial Forces in a Rotating Coordinate System"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [inertial-force, rotating-frame, coriolis-force, centrifugal-force, non-inertial-frame, angular-velocity]
+depends_on:
+  required: [newtons-equation, angular-velocity]
+  recommended: [composition-of-velocities, inertial-force-translating-frame]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "6"
+    section: "27"
+    pages: ""
+    role_in_book: "Theorem describing three additional inertial forces that appear in a rotating coordinate system"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

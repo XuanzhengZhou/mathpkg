@@ -1,0 +1,23 @@
+id: potential-representation-via-k
+title_en: "Potential representation via the K-matrix"
+title_zh: "通过K矩阵表示位势"
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [potential-theory, k-matrix, weak-charge, normal-chain]
+depends_on:
+  required: [k-matrix, potential, weak-charge, normal-chain]
+  recommended: [dual-k-equals-k-hat]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Main representation theorem for potentials via K"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

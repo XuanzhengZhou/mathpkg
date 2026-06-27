@@ -1,0 +1,23 @@
+id: principal-ideal-nonempty-zeroset-fixed
+title_en: "Principal Ideal with Nonempty Zero-Set is Fixed"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: basic
+tags: [principal-ideal, zero-set, fixed-ideal, C(X), C*(X)]
+depends_on:
+  required: [fixed-ideal, principal-ideal]
+  recommended: [zero-set]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4.2"
+    pages: "64-65"
+    role_in_book: "Simple fact linking zero-sets of functions to the fixed/free status of principal ideals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

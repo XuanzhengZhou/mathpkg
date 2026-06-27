@@ -1,0 +1,1 @@
+The entropy of a stationary process generalizes entropy from finite spaces to processes with infinitely many elementary events. The limit exists by subadditivity and measures average information per symbol.

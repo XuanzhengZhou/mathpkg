@@ -1,0 +1,23 @@
+id: units-in-polynomial-ring-over-integral-domain
+title_en: "Units of a Polynomial Ring over an Integral Domain"
+title_zh: "整环上多项式环的单位"
+type: proposition
+domain: algebra
+subdomain: polynomial-rings
+difficulty: basic
+tags: [polynomial-ring, units, integral-domain, several-variables]
+depends_on:
+  required: [polynomial-ring-several-commuting-elements, integral-domain, unit, algebraic-independence]
+  recommended: [polynomial-representation-several-variables, degree-of-polynomial]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "II"
+    section: "10"
+    pages: ""
+    role_in_book: "Characterizes the units of a polynomial ring in several algebraically independent indeterminates over an integral domain"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

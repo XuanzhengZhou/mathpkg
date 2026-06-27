@@ -1,0 +1,23 @@
+id: closeness-to-filter
+title_en: "Closeness to a Filter"
+title_zh: "接近滤子"
+type: definition
+domain: topology
+subdomain: set-theory
+difficulty: intermediate
+tags: [filter, closeness, set-theory]
+depends_on:
+  required: [filter-on-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "5"
+    section: "5.13"
+    pages: ""
+    role_in_book: "Auxiliary definition: a subset A is close to a filter F if A contains a finite intersection of members of F"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

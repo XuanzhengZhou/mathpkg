@@ -1,0 +1,23 @@
+id: measure-algebra-ccc-complete
+title_en: "Measure Algebra Satisfies c.c.c. and Is Complete"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [measure-algebra, ccc, complete-boolean-algebra, continuum-hypothesis, independence]
+depends_on:
+  required: [countable-chain-condition, complete-boolean-algebra, measure-algebra, product-measure]
+  recommended: [borel-sets, null-ideal]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "19"
+    section: "19"
+    pages: ""
+    role_in_book: "Establishes that the measure algebra used for independence of CH satisfies c.c.c."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,9 @@
+Given $K: M \to C$, there is a bijection
+
+$$\mathrm{Cone}\bigl(a, (c \downarrow K) \xrightarrow{Q} M \xrightarrow{T} A\bigr) \cong \mathrm{Nat}\bigl(C(c, K-), A(a, T-)\bigr).$$
+
+Specifically, a cone $\tau: a \to TQ$ assigns to each $f: c \to Km$ an arrow $\tau(f, m): a \to Tm$ such that for each $h: m \to m'$,
+$$\tau(Kh \circ f, m') = Th \circ \tau(f, m).$$
+A natural transformation $\beta: C(c, K-) \to A(a, T-)$ assigns to each $m \in M$ and $f: c \to Km$ an arrow $\beta_m f: a \to Tm$ such that for each $h: m' \to m$,
+$$\beta_{m'}(Kh \circ f) = Th \circ \beta_m f.$$
+The bijection $\tau \leftrightarrow \beta$ is given by $\beta_m f = \tau(f, m)$.

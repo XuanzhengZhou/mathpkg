@@ -1,0 +1,23 @@
+id: intersection-free-maximal-ideals-realcompact
+title_en: "Intersection of Free Maximal Ideals in C(X) for Realcompact X"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [realcompact, free-maximal-ideal, compact-support, gel'fand-kolmogoroff, stone-cech]
+depends_on:
+  required: []
+  recommended: [realcompact-space, maximal-ideal, gel'fand-kolmogoroff-theorem, compact-support]
+  suggested: [c-embedded, completely-separated, stone-cech-compactification, z-filter]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "8"
+    section: "16"
+    pages: ""
+    role_in_book: "Theorem 8.19 characterizes the intersection of all free maximal ideals in C(X) when X is realcompact"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

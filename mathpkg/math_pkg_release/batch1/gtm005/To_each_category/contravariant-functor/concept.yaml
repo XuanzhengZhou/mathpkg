@@ -1,0 +1,23 @@
+id: contravariant-functor
+title_en: "Contravariant Functor"
+title_zh: "反变函子"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category-theory, contravariant-functor, opposite-category]
+depends_on:
+  required: [opposite-category, covariant-functor]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "II"
+    section: "2"
+    pages: "47-49"
+    role_in_book: "Defines contravariant functors via the opposite category; unifies covariant and contravariant treatment"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

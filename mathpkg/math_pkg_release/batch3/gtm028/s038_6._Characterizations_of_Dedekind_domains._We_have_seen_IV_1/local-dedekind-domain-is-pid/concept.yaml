@@ -1,0 +1,23 @@
+id: local-dedekind-domain-is-pid
+title_en: "A Local Dedekind Domain is a Principal Ideal Domain"
+title_zh: "局部Dedekind环是主理想环"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [dedekind-domain, local-ring, principal-ideal-domain, discrete-valuation-ring]
+depends_on:
+  required: [dedekind-domain, local-ring]
+  recommended: [dedekind-domain-proper-prime-invertible-maximal]
+  suggested: [discrete-valuation-ring-temp, principal-ideal-domain]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "6"
+    pages: "275-276"
+    role_in_book: "Theorem 15"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

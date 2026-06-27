@@ -1,0 +1,23 @@
+id: los-universal-class-theorem
+title_en: "Lós's Characterization of Universal Classes"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [universal-class, los-theorem, preservation-theorem, ultraproduct]
+depends_on:
+  required: [universal-class, substructure, ultraproduct]
+  recommended: [los-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "25"
+    section: "Preservation and Characterization Theorems"
+    pages: ""
+    role_in_book: "Theorem 25.2: K is a universal class iff SK = K and UpK = K"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

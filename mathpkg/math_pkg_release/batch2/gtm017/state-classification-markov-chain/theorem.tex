@@ -1,0 +1,12 @@
+Let $f_j^{(n)}$ be the probability of first return to state $j$ at time $n$. Set $f_j = \sum_{n=1}^{\infty} f_j^{(n)}$ (probability of eventual return) and $\mu_j = \sum_{n=1}^{\infty} n f_j^{(n)}$ (mean recurrence time).
+
+A state $j$ is classified as:
+\begin{itemize}
+\item \textbf{Transient} if $f_j < 1$ (return is not certain)
+\item \textbf{Recurrent} if $f_j = 1$ (return is certain)
+\item \textbf{Null} if recurrent with $\mu_j = \infty$ (infinite mean recurrence time)
+\item \textbf{Periodic} with period $t$ if return is only possible in multiples of $t$ steps ($t > 1$)
+\item \textbf{Persistent} (ergodic) if recurrent, non-null ($\mu_j < \infty$), and non-periodic
+\end{itemize}
+
+A class of states $C$ is \textbf{closed} if $p_{j,k} = 0$ whenever $j \in C$ and $k \notin C$. A closed class is \textbf{minimal} if it contains no proper closed subset.

@@ -1,0 +1,23 @@
+id: explicit-reciprocity-law
+title_en: "Theorem 5.1 — Explicit Reciprocity Law for the Norm Residue Symbol"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: [explicit-reciprocity-law, norm-residue-symbol, lubin-tate-formal-group, local-field, kummer-theory]
+depends_on:
+  required: []
+  recommended: [norm-residue-symbol, lubin-tate-formal-group-law, logarithm-of-formal-group]
+  suggested: [local-class-field-theory-primer]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "9"
+    section: "§5"
+    pages: ""
+    role_in_book: "Main explicit reciprocity law: computes the norm residue symbol (x, π_n) as a power series in x"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: standard-affine-open-isomorphic-to-affine-space
+title_en: "The standard affine open set U_i is isomorphic to affine space"
+title_zh: "标准仿射开集U_i同构于仿射空间"
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [projective-space, affine-space, isomorphism, standard-open-cover]
+depends_on:
+  required: [isomorphism-of-varieties, projective-variety]
+  recommended: [affine-variety]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "3"
+    pages: "17"
+    role_in_book: "Proposition 3.3; shows projective space is covered by affine spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,17 @@
+id: unit-of-normed-lattice
+title_en: "Unit of a Normed Lattice"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: normed-lattices
+difficulty: basic
+tags: ["unit", "normed-lattice", "unit-sphere", "order-unit"]
+depends_on:
+  required: []
+  recommended: ["normed-lattice", "vector-lattice", "normed-linear-space"]
+  suggested: []
+source_books:
+  - {book_id: "gtm036", author: "Kelley, J.L. and Namioka, I.", title: "Linear Topological Spaces", chapter: "24", section: "24.3", pages: "", role_in_book: "Definition appearing before Theorem 24.3; the largest element of the unit sphere in a normed lattice, when it exists, is called the unit. Relevant to the classification of $M$ spaces and $L$ spaces."}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

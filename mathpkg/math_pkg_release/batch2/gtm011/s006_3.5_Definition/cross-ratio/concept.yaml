@@ -1,0 +1,23 @@
+id: cross-ratio
+title_en: "Cross-Ratio"
+title_zh: "交比"
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [cross-ratio, mobius-transformation, invariant, projective-geometry]
+depends_on:
+  required: [cross-ratio-mapping]
+  recommended: [mobius-transformation, riemann-sphere]
+  suggested: [projective-geometry]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.7"
+    pages: "46-48"
+    role_in_book: "Defines the fundamental Möbius-invariant quantity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,5 @@
+A functor $T: C \rightarrow B$ is \emph{faithful} (or an \emph{embedding}) when for every pair $c, c'$ of objects of $C$ and every pair $f_1, f_2: c \rightarrow c'$ of parallel arrows of $C$, the equality $Tf_1 = Tf_2: Tc \rightarrow Tc'$ implies $f_1 = f_2$.
+
+Equivalently, $T$ is faithful when for every pair $c, c' \in C$, the function
+$$T_{c, c'}: \hom(c, c') \rightarrow \hom(Tc, Tc'), \quad f \mapsto Tf,$$
+is injective.

@@ -1,0 +1,23 @@
+id: inverse-property
+title_en: "Inverse Property (IP)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: loop-theory
+difficulty: intermediate
+tags: [loop, inverse-property, non-associative-algebra, moufang]
+depends_on:
+  required: [right-inverse-property, left-inverse-property]
+  recommended: [loop]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "6"
+    pages: "146-150"
+    role_in_book: "Combined property characterizing Moufang loops; converges with RIP+LIP for division rings coordinatizing projective planes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

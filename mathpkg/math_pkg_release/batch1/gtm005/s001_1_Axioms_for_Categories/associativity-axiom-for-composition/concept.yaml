@@ -1,0 +1,29 @@
+id: associativity-axiom-for-composition
+title_en: Associativity Axiom for Composition
+title_zh: ''
+type: axiom
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags:
+- associativity
+- composition
+- category-theory
+- axiom
+depends_on:
+  required:
+  - metacategory
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: I
+  section: '1'
+  pages: ''
+  role_in_book: one of the two axioms defining a metacategory; ensures composition
+    is associative
+content_hash: bb48d03c04902a09
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

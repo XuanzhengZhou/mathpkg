@@ -1,0 +1,23 @@
+id: castelnuovos-criterion
+title_en: "Castelnuovo's Criterion (Contraction Theorem)"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [algebraic-surfaces, birational-geometry, monoidal-transformation, exceptional-curve, castelnuovo, surface-contraction]
+depends_on:
+  required: [exceptional-curve-of-the-first-kind]
+  recommended: [monoidal-transformation, intersection-number, very-ample-divisor, nakayamas-lemma, normalization, factorization-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "5"
+    pages: "pp. 431–433"
+    role_in_book: "Fundamental theorem characterizing exceptional curves of the first kind as precisely those that arise from monoidal transformations; the converse to the observation that blowing up produces a (-1)-curve"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

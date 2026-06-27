@@ -1,0 +1,23 @@
+id: semisimple-g-module-via-invariant-hermitian-form
+title_en: "Semisimplicity of G-Module via Invariant Hermitian Form"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [semisimple, g-module, invariant-hermitian-form, compact-group, orthogonal-complement]
+depends_on:
+  required: [hermitian-form-on-f-module, g-module]
+  recommended: [haar-measure-properties]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "9"
+    section: "6"
+    pages: "page_0192.json–page_0198.json"
+    role_in_book: "Proves that G-modules with invariant hermitian forms are semisimple"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

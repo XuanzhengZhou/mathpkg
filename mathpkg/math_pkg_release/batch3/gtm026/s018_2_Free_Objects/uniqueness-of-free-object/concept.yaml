@@ -1,0 +1,23 @@
+id: uniqueness-of-free-object
+title_en: "Uniqueness of Free Objects up to Unique Isomorphism"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [free-object, universal-property, uniqueness, isomorphism]
+depends_on:
+  required: [free-object-over-k-with-respect-to-functor]
+  recommended: [functor, category, morphism]
+  suggested: [universal-property, adjoint-functor]
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2"
+    pages: "123-125"
+    role_in_book: "Establishes that free objects are unique up to unique compatible isomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

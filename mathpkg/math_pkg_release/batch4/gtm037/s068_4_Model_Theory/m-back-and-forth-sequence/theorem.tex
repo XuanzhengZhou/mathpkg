@@ -1,0 +1,11 @@
+Let $\mathfrak{A}$ and $\mathfrak{B}$ be $\mathcal{L}$-structures, and let $\alpha \in \omega \cup \{\omega\}$. An $\alpha$-sequence for $\mathfrak{A}$ and $\mathfrak{B}$ is a system $\langle I_m : m \in \alpha \rangle$ of relations satisfying the following conditions for all $m$:
+
+\begin{enumerate}
+\item[(3)] If $m + 1 \in \alpha$, $x I_m y$, and $a \in A$, then there is a $b \in B$ such that
+  $$\langle x_0, \ldots, x_{m-1}, a \rangle \; I_{m+1} \; \langle y_0, \ldots, y_{m-1}, b \rangle,$$
+  and similarly with the roles of $A$ and $B$ exchanged.
+
+\item[(4)] If $\alpha \in \omega \setminus \{1\}$ and $x I_{\alpha-1} y$, then $\mathfrak{A} \models \varphi[x]$ iff $\mathfrak{B} \models \varphi[y]$ for any atomic formula $\varphi$ with variables among $\{v_i : i \in \alpha - 1\}$. If $\alpha = \omega$, then $\mathfrak{A} \models \varphi[x]$ iff $\mathfrak{B} \models \varphi[y]$ for any $x \in {}^m A$ and $y \in {}^m B$ with $m \in \omega$, $x I_m y$, and any atomic formula $\varphi$ with $\operatorname{Fv} \varphi \subseteq \{v_0, \ldots, v_{m-1}\}$.
+\end{enumerate}
+
+Note that there is, trivially, always a $1$-sequence for any two structures $\mathfrak{A}$, $\mathfrak{B}$ in a language with no operation symbols, since then condition (4) holds vacuously, there being no atomic formulas without variables.

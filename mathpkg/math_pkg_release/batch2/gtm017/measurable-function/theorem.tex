@@ -1,0 +1,8 @@
+A real-valued function $X(w)$ on a probability space $(\Omega, \mathfrak{F}, P)$ is called \text{measurable} (with respect to $\mathfrak{F}$) if every set of the form $\{w \mid X(w) \leq y\}$, $y \in \mathbb{R}$, is an element of $\mathfrak{F}$. Such functions are also called \text{random variables}.
+
+The family of measurable functions is closed under:
+\begin{enumerate}
+\item Linear combinations: $\alpha X(w) + \beta Y(w)$ is measurable for any measurable $X, Y$ and real $\alpha, \beta$.
+\item Limits: $\lim_{n \to \infty} X_n(w)$ (if it exists) is measurable.
+\item Composition with Borel functions: $Y(X_1(w), \ldots, X_k(w))$ is measurable if $Y$ is Borel measurable and $X_1, \ldots, X_k$ are measurable.
+\end{enumerate}

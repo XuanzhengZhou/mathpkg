@@ -1,0 +1,23 @@
+id: multijet-bundle
+title_en: "Multijet Bundle J_s^k(X, Y)"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: ["jet-bundle", "multijet", "transversality", "singularity-theory"]
+depends_on:
+  required: ["configuration-space-xs"]
+  recommended: ["jet-bundle", "source-map"]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "II"
+    section: "§4. Transversality"
+    pages: ""
+    role_in_book: "defines-the-multijet-bundle-for-the-multijet-transversality-theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

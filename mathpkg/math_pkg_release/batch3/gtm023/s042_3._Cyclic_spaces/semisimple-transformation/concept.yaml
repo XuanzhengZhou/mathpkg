@@ -1,0 +1,23 @@
+id: semisimple-transformation
+title_en: "Semisimple Transformation"
+title_zh: "半单变换"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [linear-transformation, stable-subspace, complementary-subspace]
+  recommended: [semisimple, complete-reducibility]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "6"
+    pages: ""
+    role_in_book: "A transformation is semisimple if every stable subspace has a complementary stable subspace"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

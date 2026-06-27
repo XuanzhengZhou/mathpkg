@@ -1,0 +1,23 @@
+id: oscillation-bound-lemma
+title_en: "Oscillation Bound Lemma for Riemann Integrability"
+title_zh: "黎曼可积性的振幅界引理"
+type: lemma
+domain: analysis
+subdomain: real-analysis
+difficulty: intermediate
+tags: [oscillation, riemann-integral, bisection-method]
+depends_on:
+  required: [oscillation-at-point, oscillation-on-interval, riemann-integral]
+  recommended: [nested-intervals]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "7"
+    section: "7"
+    pages: "39-43"
+    role_in_book: "Lemma 7.6; key technical lemma for Lebesgue's integrability criterion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

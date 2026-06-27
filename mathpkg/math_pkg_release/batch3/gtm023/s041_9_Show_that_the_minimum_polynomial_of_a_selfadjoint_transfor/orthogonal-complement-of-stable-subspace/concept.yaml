@@ -1,0 +1,23 @@
+id: orthogonal-complement-of-stable-subspace
+title_en: "Orthogonal Complement of a Stable Subspace is Stable under the Dual"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [dual-mapping, stable-subspace, orthogonal-complement, pairing]
+depends_on:
+  required: [dual-mapping, stable-subspace]
+  recommended: [orthogonal-complement]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "13"
+    section: "13.8"
+    pages: ""
+    role_in_book: "If F is stable under φ then F^⊥ is stable under φ*"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

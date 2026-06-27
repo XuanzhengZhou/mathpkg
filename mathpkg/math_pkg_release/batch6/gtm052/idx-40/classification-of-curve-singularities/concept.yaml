@@ -1,0 +1,23 @@
+id: classification-of-curve-singularities
+title_en: "Classification of Curve Singularities via Blowing-Up"
+title_zh: ""
+type: classification
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [curve-singularities, classification, blowing-up, multiplicity, infinitely-near-points, delta-invariant]
+depends_on:
+  required: [infinitely-near-point, multiplicity, equivalence-of-curve-singularities]
+  recommended: [genus-via-normalization, delta-p-via-infinitely-near-points, normalization]
+  suggested: [analytic-isomorphism, formal-completion]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "3"
+    pages: "409-420"
+    role_in_book: "Remark 3.9.4; classifies curve singularities using the data of infinitely near multiplicities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

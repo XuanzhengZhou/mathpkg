@@ -1,0 +1,9 @@
+Let $\text{Rng}\,h$ be recursive, with $h$ recursive. Let $k$ be a recursive function such that $\text{Rng}\,k = g^{+*} \text{Sent}$. Define the binary recursive function $f$: for any $m, n \in \omega$,
+
+$$f(m, 0) = h(m)$$
+$$f(m, n + 1) = \begin{cases}
+k(n) & \text{if } \bigwedge_{i \leq n} g^{+-1} f(m, i) \rightarrow \neg g^{+-1} k(n) \notin \Gamma, \\
+f(m, n) & \text{otherwise.}
+\end{cases}$$
+
+Now let $\Delta_m = \{g^{+-1} f(m, i) : i \in \omega\}$ and $\Theta_m = \{\varphi \in \text{Sent} : \Delta_m \models \varphi\}$.

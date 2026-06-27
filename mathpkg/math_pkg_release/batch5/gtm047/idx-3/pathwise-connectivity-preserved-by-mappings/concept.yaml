@@ -1,0 +1,23 @@
+id: pathwise-connectivity-preserved-by-mappings
+title_en: "Pathwise Connectivity Preserved by Surjective Mappings"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: connectivity
+difficulty: basic
+tags: [pathwise-connected, surjective-mapping, preservation]
+depends_on:
+  required: [pathwise-connected-set, mapping-between-subspaces]
+  recommended: []
+  suggested: [connectivity-preserved-by-mappings]
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "1"
+    section: "Connectivity"
+    pages: ""
+    role_in_book: "Theorem 2. Pathwise connectivity is preserved under surjective continuous maps"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

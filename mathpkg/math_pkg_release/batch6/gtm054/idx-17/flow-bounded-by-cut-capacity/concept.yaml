@@ -1,0 +1,13 @@
+id: flow-bounded-by-cut-capacity
+title_en: "Flow bounded by cut capacity"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [network, flow, cut, capacity, inequality]
+depends_on: {required: [network-cut, cut-capacity, feasible-flow], recommended: [], suggested: []}
+source_books: [{book_id: "gtm054", author: "Jack E. Graver and Mark E. Watkins", title: "Combinatorics with Emphasis on the Theory of Graphs", chapter: "IV", section: "18", pages: "", role_in_book: "Proposition C2 — h(e_0) is bounded above by the capacity of any cut through e_0"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

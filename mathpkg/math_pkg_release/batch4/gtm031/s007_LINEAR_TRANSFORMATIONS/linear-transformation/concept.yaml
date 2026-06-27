@@ -1,0 +1,23 @@
+id: linear-transformation
+title_en: "Linear Transformation"
+title_zh: "线性变换"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [linear-transformation, vector-space, homomorphism, module-homomorphism]
+depends_on:
+  required: []
+  recommended: [vector-space, division-ring]
+  suggested: [module, o-homomorphism]
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "II"
+    section: "1. Definition and examples"
+    pages: "42-43"
+    role_in_book: "Introduces the central object of study for the entire chapter; the definition of a linear transformation between vector spaces over a division ring."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

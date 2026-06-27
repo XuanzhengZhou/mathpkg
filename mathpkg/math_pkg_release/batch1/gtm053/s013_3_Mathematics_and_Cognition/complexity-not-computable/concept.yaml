@@ -1,0 +1,23 @@
+id: complexity-not-computable
+title_en: "Kolmogorov Complexity is Not Computable"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: computability-theory
+difficulty: advanced
+tags: [kolmogorov-complexity, noncomputability, recursive-function]
+depends_on:
+  required: [kolmogorov-complexity-theorem]
+  recommended: [undecidable-set]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "III"
+    section: "9"
+    pages: ""
+    role_in_book: "Theorem that computing Kolmogorov complexity is algorithmically undecidable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

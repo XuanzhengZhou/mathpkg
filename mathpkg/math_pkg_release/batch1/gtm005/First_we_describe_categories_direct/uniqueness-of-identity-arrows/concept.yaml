@@ -1,0 +1,23 @@
+id: uniqueness-of-identity-arrows
+title_en: "Uniqueness of Identity Arrows"
+title_zh: "单位箭头的唯一性"
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category-theory, identity, uniqueness]
+depends_on:
+  required: [metacategory, unit-law-for-categories]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I. Categories, Functors, and Natural Transformations"
+    section: "1. Axioms for Categories"
+    pages: "9"
+    role_in_book: "justifies identifying identity arrows with objects"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

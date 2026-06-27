@@ -1,0 +1,23 @@
+id: hermite-bernoulli-number-congruence
+title_en: "Hermite's Theorem on Bernoulli Numbers"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: bernoulli-numbers
+difficulty: advanced
+tags: [bernoulli-numbers, hermite-theorem, p-adic-congruences, fermat-quotient]
+depends_on:
+  required: []
+  recommended: [bernoulli-numbers, fermat-little-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields I and II"
+    chapter: "1"
+    section: "1. Character Sums"
+    pages: "26-29"
+    role_in_book: "Hermite's classical congruence relating Bernoulli numbers to Fermat quotients"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

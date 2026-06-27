@@ -1,0 +1,23 @@
+id: plane-order-2-mod-4-with-even-collineation
+title_en: "Plane of Order n ≡ 2 mod 4 with Even-Order Collineation Forces n = 2"
+title_zh: "阶为 n ≡ 2 mod 4 且具有偶阶直射的平面必然 n = 2"
+type: theorem
+domain: combinatorics
+subdomain: finite-geometry
+difficulty: advanced
+tags: [projective-plane, order, collineation, elation, non-existence]
+depends_on:
+  required: []
+  recommended: [projective-plane, collineation, elation, baer-collineation]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "XIII"
+    section: "6"
+    pages: ""
+    role_in_book: "Theorem 13.18: if n ≡ 2 mod 4 and the plane has an even-order collineation, then n = 2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

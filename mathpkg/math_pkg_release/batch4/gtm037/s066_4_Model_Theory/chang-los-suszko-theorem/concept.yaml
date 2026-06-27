@@ -1,0 +1,23 @@
+id: chang-los-suszko-theorem
+title_en: "Chang-Łoś-Suszko Theorem"
+title_zh: "Chang-Łoś-Suszko定理"
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [universal-existential, preservation-theorem, directed-union, chain-union, chang, los, suszko]
+depends_on:
+  required: [universal-existential-formula]
+  recommended: [directed-set, elementary-chain, los-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "25"
+    section: "4"
+    pages: ""
+    role_in_book: "Theorem 25.16: Characterization of classes axiomatizable by universal-existential sentences"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

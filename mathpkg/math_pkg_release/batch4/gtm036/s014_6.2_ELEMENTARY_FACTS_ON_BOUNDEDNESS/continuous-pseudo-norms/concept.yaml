@@ -1,0 +1,23 @@
+id: continuous-pseudo-norms
+title_en: "Continuous Pseudo-norms"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [locally-convex-space, pseudo-norm, continuous-pseudo-norm, bounded-set, local-base, linear-map-continuity]
+depends_on:
+  required: [locally-convex-linear-topological-space, pseudo-norm]
+  recommended: [bounded-set, local-base]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "6"
+    section: "6.6"
+    pages: ""
+    role_in_book: "Characterizes locally convex topology via continuous pseudo-norms; connects boundedness to pseudo-norm diameters"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

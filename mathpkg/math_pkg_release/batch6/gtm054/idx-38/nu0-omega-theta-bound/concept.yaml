@@ -1,0 +1,23 @@
+id: nu0-omega-theta-bound
+title_en: "A6: Order of a graph is bounded by product of clique number and clique covering number"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [nu0, omega, theta, order-of-a-graph, vertex-covering, inequality]
+depends_on:
+  required: [clique, clique-covering-number-theta, graph]
+  recommended: [vertex-covering-number]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "VIII"
+    section: "A"
+    pages: "224-229"
+    role_in_book: "Bound on graph order via omega and theta, from complement of VIIA5"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

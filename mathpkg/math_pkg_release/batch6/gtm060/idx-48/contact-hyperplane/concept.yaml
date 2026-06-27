@@ -1,0 +1,29 @@
+id: contact-hyperplane
+title_en: Contact Hyperplane
+title_zh: ''
+type: definition
+domain: geometry
+subdomain: contact-geometry
+difficulty: intermediate
+tags:
+- contact
+- hyperplane
+- tangent-space
+- contact-element
+depends_on:
+  required:
+  - contact-element
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm060
+  author: V.I. Arnold
+  title: Mathematical Methods of Classical Mechanics
+  chapter: Appendix 4
+  section: D. The manifold of contact elements
+  pages: ''
+  role_in_book: Definition of the distinguished contact hyperplane in tangent space
+    to the manifold of contact elements
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

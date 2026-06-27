@@ -1,0 +1,23 @@
+id: finord-category
+title_en: "Finord (Category of Finite Sets)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [finord, finite-sets, finite-ordinals, set-omega]
+depends_on:
+  required: [category]
+  recommended: []
+  suggested: [ordinal-category]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "2"
+    pages: "26"
+    role_in_book: "Example: category of all finite sets via skeletal model"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

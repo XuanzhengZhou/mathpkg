@@ -1,0 +1,11 @@
+Let $N = \prod_{i=1}^{r} p_i^{e_i}$ be a positive integer with prime factorization. For each $x \in \frac{1}{N}\mathbb{Z}/\mathbb{Z}$, write $x$ in its partial fraction decomposition
+$$x = \sum_{i=1}^{r} \frac{a_i}{p_i^{e_i}} \pmod{\mathbb{Z}}, \quad 0 \leq a_i < p_i^{e_i}.$$
+Let $T_N$ be the set of elements $x = \sum a_i/p_i^{e_i}$ in $\frac{1}{N}\mathbb{Z}/\mathbb{Z}$ such that for each $i$, either $a_i$ is prime to $p_i$, or $a_i = 0$.
+
+\textbf{Theorem 9.2.} The universal distribution $U(N)$ for composite $N$ satisfies the same structure as Theorem 9.1 with respect to $T_N$:
+\begin{enumerate}
+  \item[(i)] The elements $[x]$ for $x \in T_N$ generate $U(N)$.
+  \item[(ii)] The elements $[x]$ for $x \in T_N$ are free generators of the abelian group $U(N)$.
+  \item[(iii)] The natural distribution on cyclotomic units realizes $U(N)$ as its image, establishing the universality property.
+\end{enumerate}
+The rank of $U(N)$ is $|T_N|$, which is given by $\prod_{i=1}^{r} (p_i^{e_i} - p_i^{e_i-1}) = \varphi(N)$.

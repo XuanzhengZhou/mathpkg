@@ -1,0 +1,23 @@
+id: burnsides-counting-lemma
+title_en: "Burnside's Counting Lemma (Result 1.14)"
+title_zh: "伯恩赛德计数引理（结果1.14）"
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [burnsides-lemma, orbit-counting, fixed-points, permutation-group]
+depends_on:
+  required: [orbit-of-permutation-group]
+  recommended: [stabilizer-subgroup]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "1. Introduction"
+    pages: ""
+    role_in_book: "Number of orbits equals average number of fixed points"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

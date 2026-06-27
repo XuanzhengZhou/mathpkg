@@ -1,0 +1,23 @@
+id: uniform-boundedness-theorem-locally-convex
+title_en: "Uniform Boundedness Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [uniform-boundedness, locally-convex-space, pointwise-boundedness, absorption-theorem]
+depends_on:
+  required: [pointwise-boundedness, uniform-boundedness-on-set, locally-convex-space]
+  recommended: [equicontinuity-boundedness-relations, absorption-theorem]
+  suggested: [banach-steinhaus-theorem]
+source_books:
+  - book_id: gtm036
+    author: "Kelley, J. L. and Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "12"
+    section: "12.4"
+    pages: ""
+    role_in_book: "Extends uniform boundedness to cases where equicontinuity fails, via the absorption theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

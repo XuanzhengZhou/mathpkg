@@ -1,0 +1,23 @@
+id: nonsingular-matrix-over-division-ring
+title_en: "Non-singular matrix over a division ring"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [matrix, nonsingular, regular, unit, division-ring, semigroup]
+depends_on:
+  required: [square-matrix-semigroup]
+  recommended: [unit, inverse-matrix]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "II"
+    section: "6"
+    pages: "26-28"
+    role_in_book: "Defines non-singular (regular) matrices as units in the semigroup Δ_n, i.e., matrices having a two-sided inverse"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: subspace-topology-adjunction
+title_en: "Subspace Topology via Slice Category Adjunction"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: category-theory
+difficulty: intermediate
+tags: [subspace-topology, slice-category, adjunction, right-adjoint-right-inverse]
+depends_on:
+  required: [forgetful-functor-top-to-set, slice-category]
+  recommended: [adjoint-functor]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IV. Adjoints"
+    section: "9. Adjoints in Topology"
+    pages: ""
+    role_in_book: "Categorical reformulation of subspace topology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

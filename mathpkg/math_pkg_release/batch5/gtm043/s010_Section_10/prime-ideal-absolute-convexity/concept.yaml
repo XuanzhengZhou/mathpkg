@@ -1,0 +1,23 @@
+id: prime-ideal-absolute-convexity
+title_en: "Absolute Convexity and Total Order for Prime Ideals in C(X)"
+title_zh: "C(X)中素理想的绝对凸性与全序性"
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [prime-ideal, absolutely-convex-ideal, total-order, c-star, residue-class-field, order-isomorphism]
+depends_on:
+  required: [prime-ideal, absolutely-convex-ideal, convex-ideal-quotient-ring]
+  recommended: [c-star, maximal-ideal, order-isomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.5"
+    pages: ""
+    role_in_book: "Proves every prime ideal in C(X) or C*(X) is absolutely convex, with totally ordered residue class ring containing a canonical copy of R"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

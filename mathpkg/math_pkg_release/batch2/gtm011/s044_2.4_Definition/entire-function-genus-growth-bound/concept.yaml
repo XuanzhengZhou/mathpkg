@@ -1,0 +1,23 @@
+id: entire-function-genus-growth-bound
+title_en: "Growth Bound for Entire Functions of Finite Genus"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [entire-function, genus, growth-bound, weierstrass-factorization, maximum-modulus]
+depends_on:
+  required: [finite-genus-entire-function, standard-form-canonical-product]
+  recommended: [weierstrass-primary-factor, canonical-product]
+  suggested: [entire-function-order]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "2.6"
+    pages: ""
+    role_in_book: "Establishes that genus μ controls exponential growth: |f(z)| < exp(α|z|^{μ+1}) for large |z|"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

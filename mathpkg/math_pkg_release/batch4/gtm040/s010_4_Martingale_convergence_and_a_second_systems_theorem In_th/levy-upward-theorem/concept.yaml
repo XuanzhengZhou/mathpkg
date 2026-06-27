@@ -1,0 +1,23 @@
+id: levy-upward-theorem
+title_en: "Levy upward theorem (martingale convergence of conditional expectations)"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: martingale-theory
+difficulty: advanced
+tags: [conditional-expectation, martingale-convergence, levy, filtration]
+depends_on:
+  required: [martingale-convergence-theorem, conditional-expectation, uniform-integrability]
+  recommended: [filtration]
+  suggested: [radon-nikodym-theorem]
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "3"
+    section: "4"
+    pages: ""
+    role_in_book: "Proposition 3-18: Conditional expectations given increasing partitions converge a.e. to the conditional expectation given the limit sigma-field"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

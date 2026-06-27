@@ -1,0 +1,11 @@
+A \emph{category} is a directed graph with two additional functions
+$$O \xrightarrow{\text{id}} A, \quad A \times_O A \xrightarrow{\circ} A,$$
+$$c \longmapsto \text{id}_c, \quad \langle g, f \rangle \longmapsto g \circ f,$$
+called \emph{identity} and \emph{composition} (also written as $gf$), such that
+$$\operatorname{dom}(\text{id} a) = a = \operatorname{cod}(\text{id} a), \quad \operatorname{dom}(g \circ f) = \operatorname{dom} f, \quad \operatorname{cod}(g \circ f) = \operatorname{cod} g$$
+for all objects $a \in O$ and all composable pairs of arrows $\langle g, f \rangle \in A \times_O A$, and such that the associativity and unit axioms hold:
+\begin{align}
+k \circ (g \circ f) &= (k \circ g) \circ f, \\
+f \circ \text{id}_{\operatorname{dom} f} &= f = \text{id}_{\operatorname{cod} f} \circ f,
+\end{align}
+for all composable triples $\langle k, g, f\rangle$ and all arrows $f$.

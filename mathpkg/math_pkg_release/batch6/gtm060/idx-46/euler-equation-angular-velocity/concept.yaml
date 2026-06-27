@@ -1,0 +1,13 @@
+id: euler-equation-angular-velocity
+title_en: "Euler Equation for Angular Velocity (Euler Theorem 5)"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: lie-groups
+difficulty: advanced
+tags: [euler-equation, angular-velocity, operation-b, lie-group]
+depends_on: {required:[operation-b, angular-velocity-body-space], recommended:[euler-equation-body], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V. I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"Appendix 2",section:"D",pages:"318-342",role_in_book:"Theorem 5: Euler equation for angular velocity ώ_c = B(ω_c, ω_c)"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

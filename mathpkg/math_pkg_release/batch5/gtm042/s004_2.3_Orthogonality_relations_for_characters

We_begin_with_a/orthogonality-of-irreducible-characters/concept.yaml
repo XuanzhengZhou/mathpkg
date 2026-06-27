@@ -1,0 +1,23 @@
+id: orthogonality-of-irreducible-characters
+title_en: "Orthogonality Relations for Irreducible Characters"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [orthogonality, irreducible-characters, scalar-product, character-theory]
+depends_on:
+  required: [scalar-product-on-class-functions, irreducible-representation]
+  recommended: [unitary-representation, schurs-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "2"
+    section: "2.3"
+    pages: ""
+    role_in_book: "Theorem 3. Fundamental orthogonality theorem: irreducible characters are orthonormal with respect to the scalar product on class functions."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

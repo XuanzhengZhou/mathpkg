@@ -1,0 +1,23 @@
+id: w-star-group-algebra-finite
+title_en: "W(G) is Finite via Faithful Normal Trace"
+title_zh: "W(G)通过忠实正规迹是有限的"
+type: proposition
+domain: analysis
+subdomain: operator-algebras
+difficulty: advanced
+tags: [W-star-algebra, W-group-algebra, normal-trace, faithful-trace, finite-von-Neumann-algebra]
+depends_on:
+  required: [w-star-group-algebra, normal-trace, faithful-positive-linear-form]
+  recommended: [Cauchy-Schwarz-inequality, finite-von-Neumann-algebra]
+  suggested: [type-II1-factor]
+source_books:
+  - book_id: "gtm003"
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "11"
+    pages: ""
+    role_in_book: "Exercise 26(a): W(G) is finite, admitting a faithful normal trace"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

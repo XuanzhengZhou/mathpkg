@@ -1,0 +1,23 @@
+id: conjugate-prime-ideals-galois
+title_en: "Conjugate Prime Ideals in Galois Extensions of Dedekind Domains"
+title_zh: "Dedekind环Galois扩张中的共轭素理想"
+type: theorem
+domain: algebra
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [dedekind-domain, galois-theory, prime-ideal, conjugate-ideals, ramification]
+depends_on:
+  required: [dedekind-domain, galois-extension]
+  recommended: [decomposition-group, integrally-closed-domain]
+  suggested: [decomposition-field-properties]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "10"
+    pages: "284"
+    role_in_book: "Theorem 22"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

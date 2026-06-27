@@ -1,0 +1,23 @@
+id: kummer-congruence
+title_en: "Kummer's congruence for Bernoulli numbers"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: intermediate
+tags: ["kummer-congruence", "bernoulli-numbers", "p-adic-integrality", "congruence"]
+depends_on:
+  required: ["bernoulli-numbers-integral-formula"]
+  recommended: ["bernoulli-numbers", "p-adic-numbers"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "2"
+    section: "Stickelberger Ideals and Bernoulli Distributions"
+    pages: "48-53"
+    role_in_book: "Corollary 1 — Kummer congruence: for even k in same residue class mod p-1, (1/k)B_k are congruent mod p"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

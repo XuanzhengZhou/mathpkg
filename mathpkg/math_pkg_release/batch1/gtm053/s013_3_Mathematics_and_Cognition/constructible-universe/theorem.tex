@@ -1,0 +1,12 @@
+Consider the following operations $F_1, \ldots, F_8$ on sets:
+$$F_1(X, Y) = \{X, Y\},\quad F_2(X, Y) = X \setminus Y,\quad F_3(X, Y) = X \times Y,$$
+$$F_4(X) = \operatorname{dom} X,\quad F_5(X) = \{\langle U, W \rangle \mid U, W \in X; U \in W\},$$
+$$F_6(X) = \{\langle U_1, U_2, U_3 \rangle \mid \langle U_2, U_3, U_1 \rangle \in X\},$$
+$$F_7(X) = \{\langle U_1, U_2, U_3 \rangle \mid \langle U_3, U_2, U_1 \rangle \in X\},$$
+$$F_8(X) = \{\langle U_1, U_2, U_3 \rangle \mid \langle U_1, U_3, U_2 \rangle \in X\}.$$
+
+For every $X \in V$, let $\mathcal{J}(X)$ be the closure of $X \cup \{X\}$ with respect to $F_1, \ldots, F_8$. Then:
+$$L_0 = \varnothing,$$
+$$L_{\alpha+1} = \mathcal{P}(L_\alpha) \cap \mathcal{J}(L_\alpha \cup \{L_\alpha\}),$$
+$$L_\alpha = \bigcup_{\beta < \alpha} L_\beta \text{ for limit } \alpha,$$
+$$L = \bigcup_{\alpha} L_\alpha.$$

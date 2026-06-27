@@ -1,0 +1,12 @@
+A \textbf{probability space} is a triple $(\Omega, \mathcal{F}, P)$ where:
+\begin{itemize}
+\item $\Omega$ is the space of sample points
+\item $\mathcal{F}$ is a sigma-field of subsets of $\Omega$ (the measurable sets or events)
+\item $P$ is a probability function defined on $\mathcal{F}$ satisfying:
+  \begin{enumerate}
+  \item $0 \leq P(A) \leq 1$ for all $A \in \mathcal{F}$
+  \item $P(\Omega) = 1$
+  \item (Countable additivity) For any denumerable collection of disjoint sets $A_i \in \mathcal{F}$,
+    $$P\left(\bigcup_i A_i\right) = \sum_i P(A_i).$$
+  \end{enumerate}
+\end{itemize}

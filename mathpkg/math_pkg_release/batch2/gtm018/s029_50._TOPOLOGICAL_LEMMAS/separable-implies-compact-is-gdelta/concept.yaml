@@ -1,0 +1,23 @@
+id: separable-implies-compact-is-gdelta
+title_en: "In a Separable Space Every Compact Set Is a G_delta"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: locally-compact-spaces
+difficulty: intermediate
+tags: [separable-space, compact-set, gdelta-set, locally-compact-hausdorff]
+depends_on:
+  required: [separable-space, compact-set, gdelta-set]
+  recommended: [locally-compact-hausdorff-space]
+  suggested: [level-sets-of-continuous-function-are-closed-gdelta]
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "X"
+    section: "50"
+    pages: ""
+    role_in_book: "sufficient condition for compact sets to be G_delta, connecting separability to Baire theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

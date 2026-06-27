@@ -1,0 +1,23 @@
+id: borel-subalgebra
+title_en: "Borel Subalgebra"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [borel-subalgebra, maximal-solvable, standard-borel, root-system]
+depends_on:
+  required: [cartan-subalgebra, root-system, solvable-lie-algebra]
+  recommended: [base-of-root-system, positive-roots]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "16"
+    section: "16.3"
+    pages: "91-101"
+    role_in_book: "Central definition for conjugacy theorems; Borel subalgebras are maximal solvable subalgebras and are all conjugate"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

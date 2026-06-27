@@ -1,0 +1,23 @@
+id: logarithm-branch-analytic
+title_en: "Analyticity of a Branch of the Logarithm"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [logarithm, branch, analytic, derivative]
+depends_on:
+  required: [inverse-function-analytic]
+  recommended: [complex-exponential, principal-branch-logarithm]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "5"
+    pages: ""
+    role_in_book: "Corollary 2.21 — a branch of the logarithm function is analytic and its derivative is 1/z"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

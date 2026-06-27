@@ -1,0 +1,23 @@
+id: identities-for-first-return-probabilities
+title_en: "Identities Connecting H and H̅ (Lemma 4-19)"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, hitting-probability, first-return-probability, strong-markov-property, identities]
+depends_on:
+  required: [strong-markov-property, hitting-probability-matrix, first-return-probability]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "7. Classification of states"
+    pages: ""
+    role_in_book: "Lemma 4-19: Five identities connecting hitting and first-return probabilities via the strong Markov property"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

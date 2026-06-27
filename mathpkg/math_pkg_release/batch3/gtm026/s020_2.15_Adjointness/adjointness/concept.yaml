@@ -1,0 +1,23 @@
+id: adjointness
+title_en: "Adjointness"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [adjunction, adjoint-functor, natural-transformation, triangular-identity, category-theory]
+depends_on:
+  required: [category, functor, natural-transformation]
+  recommended: [opposite-category, identity-functor]
+  suggested: [free-object, cofree-object]
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.15"
+    pages: ""
+    role_in_book: "Definition of adjointness as a 6-tuple of categories, functors, and natural transformations satisfying triangular identities. This terminology is used in place of 'adjunction' throughout the book."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

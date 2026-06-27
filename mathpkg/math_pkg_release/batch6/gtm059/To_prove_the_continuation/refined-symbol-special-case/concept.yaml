@@ -1,0 +1,23 @@
+id: refined-symbol-special-case
+title_en: "Refined Equality for the Symbol in the Special Polynomial Case"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: [lubin-tate, explicit-reciprocity-law, formal-group, power-series]
+depends_on:
+  required: []
+  recommended: [main-theorem-symbol-x-ni, lubin-tate-formal-group]
+  suggested: [formal-group-logarithm, norm-residue-symbol]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "9"
+    section: "10"
+    pages: ""
+    role_in_book: "Refinement of Theorem 5.1 when the Lubin-Tate formal group law is a polynomial"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

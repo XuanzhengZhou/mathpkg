@@ -1,0 +1,7 @@
+Let $p = 3n + 1$ be a prime. Then there exists a constructive method to find integers $a, b$ such that $p = a^2 + 3b^2$, proceeding as follows:
+
+\text{(i) Compute $2^n \bmod p$. If $2^n \equiv 1 \pmod{p}$, then compute $3^n \bmod p$, and so on, until one finds an integer $c$ such that $c^n \not\equiv 1 \pmod{p}$ but $(c-1)^n \equiv 1 \pmod{p}$.}
+
+\text{(ii) From $p \mid c^{3n} - (c-1)^{3n}$, deduce that $p$ divides $c^{2n} + c^n(c-1)^n + (c-1)^{2n}$. This yields a congruence that can be used to construct $a_0, b_0$ such that $a_0^2 + 3b_0^2 = kp$ for some integer $k$.}
+
+\text{(iii) Reduce $k$ by successive division using the multiplicative properties of the quadratic form $x^2 + 3y^2$, analogous to the Brahmagupta-Fibonacci identity for $x^2 + y^2$.}

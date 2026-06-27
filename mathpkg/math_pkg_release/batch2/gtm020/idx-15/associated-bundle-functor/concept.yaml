@@ -1,0 +1,23 @@
+id: associated-bundle-functor
+title_en: "Associated Bundle Functor"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: fibre-bundles
+difficulty: intermediate
+tags: [associated-bundle, functor, principal-bundle, fibre-bundle, category-theory]
+depends_on:
+  required: [principal-bundle, associated-bundle, fibre-bundle-morphism]
+  recommended: [functor]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "6"
+    section: "6.2"
+    pages: "62-63"
+    role_in_book: "States that the associated bundle construction is functorial"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

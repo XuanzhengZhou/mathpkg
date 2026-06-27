@@ -1,0 +1,23 @@
+id: axiom-of-union
+title_en: "Axiom of Union (ZF4)"
+title_zh: ""
+type: axiom
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [ZF, Zermelo-Fraenkel, union, sets]
+depends_on:
+  required: [axiom-of-extension, axiom-schema-of-subsets]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Fourth axiom of ZF; enables the formation of unions of sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

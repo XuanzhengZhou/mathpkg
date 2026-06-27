@@ -1,0 +1,23 @@
+id: banach-lattice
+title_en: "Banach Lattice"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: ordered-topological-vector-spaces
+difficulty: intermediate
+tags: [banach-space, vector-lattice, complete-normed-lattice]
+depends_on:
+  required: [normed-lattice, banach-space]
+  recommended: [al-space, am-space]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "7"
+    pages: ""
+    role_in_book: "Complete normed lattice; fundamental structure in Banach lattice theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

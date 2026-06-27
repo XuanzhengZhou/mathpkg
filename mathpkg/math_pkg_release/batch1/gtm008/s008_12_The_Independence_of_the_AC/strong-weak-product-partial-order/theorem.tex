@@ -1,0 +1,14 @@
+Let $P_i = \langle P_i, \leq \rangle$, $i \in I$, be a family of partial order structures with $I$ a set.
+
+\textbf{Strong product.}
+$$P = \prod_{i \in I}^{s} P_i$$
+is the partial order structure $\langle P, \leq \rangle$ where
+$$P \triangleq \prod_{i \in I} P_i$$
+and
+$$p_1 \leq p_2 \xrightarrow{\Delta} (\forall i \in I)[p_1(i) \leq p_2(i)] \text{ for } p_1, p_2 \in P.$$
+
+\textbf{Weak product.} If each $P_i$ has a greatest element $1_i$, $i \in I$, then
+$$P = \prod_{i \in I}^{w} P_i$$
+is the partial order structure $\langle P_0, \leq \rangle$ where
+$$P_0 \triangleq \{ p \mid p \in \prod_{i \in I} P_i \land (\exists F \subseteq I)[\bar{\bar{F}} < \omega \land (\forall i \in I - F)[p(i) = 1_i]] \}$$
+i.e., $P_0$ is the set of $p \in P$ with $p(i) = 1_i$ for all but finitely many $i \in I$, and $\leq$ is $\leq$ restricted to $P_0$.

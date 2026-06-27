@@ -1,0 +1,23 @@
+id: restriction-and-contraction-are-matroids
+title_en: "Restriction and Contraction of a Matroid are Matroids"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: matroid-theory
+difficulty: advanced
+tags: ["matroid", "restriction", "contraction", "minor"]
+depends_on:
+  required: []
+  recommended: ["matroid-definition", "matroid-circuit-axioms"]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Graver, J. E. and Watkins, M. E."
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "X"
+    section: "D"
+    pages: ""
+    role_in_book: "D10 Proposition. Establishes that restriction and contraction operations on a matroid always produce matroids."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

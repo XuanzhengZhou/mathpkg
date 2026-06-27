@@ -1,0 +1,48 @@
+Any prime divisor $v$ of a function field $K/k$ is a discrete valuation of rank 1, and the residue field $D_v$ of $v$ is itself a function field (of transcendence degree $r-1$ over $k$). Furthermore, the valuation ring $K_v$ of $v$ is the quotient ring of a finite integral domain $R$ (having $K$ as quotient field) with respect to a minimal prime ideal of $R$.
+
+Proof. It is obvious that $v$ must have rank 1 since $v$ has maximum dimension $r-1$ and cannot therefore be composite with any other valuation of higher dimension (see §3, Definition 1, Corollary 1, p. 10).
+
+We fix $r-1$ elements $x_1, x_2, \cdots, x_{r-1}$ in $K$ whose $v$-residues in $D_v$ are algebraically independent over $k$. Then it is clear that these elements $x_i$ are also algebraically independent over $k$ (§6, Lemma 2; see also proof of Corollary 1 of that lemma). We extend $\{x_1, x_2, \cdots, x_{r-1}\}$ to a transcendence basis $\{x_1, \cdots, x_r\}$ of $K/k$ and we denote by $v'$ the restriction of $v$ to the field $k(x) = k(x_1, x_2, \cdots, x_r)$. Since $K$ is an algebraic extension of $k(x)$, it follows that $v$ and $v'$ have the same dimension (§6, Lemma 2, Corollary 1). Hence $v'$ is a prime divisor of $k(x)/k$. We first show that our theorem is true for $v'$ and for the purely transcendental extension field $k(x) = k(x_1, x_2, \cdots, x_r)$ of $k
+
+The theorem can now easily be proved for $v$ and $K$ as follows:
+(1) since $K$ is a finite algebraic extension of $k(x)$ and $v$ is an extension of $v'$, also $v$ must be discrete (§11, Lemma 2, Corollary) and of rank 1 (§11, Lemma 2).
+(2) The residue field of $v$ is a finite algebraic extension of the residue field of $v'$ (§6, Lemma 2, Corollary 2) and is therefore also a finitely generated extension of $k$.
+(3) If $R$ denotes the integral closure of $k[x_1, x_2, \cdots, x_r]$ in $K$, then clearly $v$ is non-negative on $R$, the center $\mathfrak{p}$ of $v$ in $R$ is a prime ideal of dimension $r-1$ and is therefore a mimimal prime ideal in $R$; thus, since $R$ is a finite integral domain, hence noetherian, it follows, again by Theorem 16, Corollary 2 (§10) that $K_v = R_{\mathfrak{p}}$. This completes the proof.
+
+We note the following consequence of our theorem:
+
+Corollary. If a valuation $v$ of a field $K/k$ of algebraic functions of $r$ independent variables has dimension $s$ and rank $r-s$, then $v$ is discrete, and its residue field $D_v$ is a field of algebraic functions of $s$ independent variables. In particular, every valuation of $K/k$ of maximum rank $r$ is discrete.
+
+For, let $v = v' \circ \bar{v}$, where $v'$ has rank $r-s-1$ and $\bar{v}$ is a rank 1 valuation of the residue field $D_{v'}$ of $v'$. The dimension of $v'$ is $\leq r-rank v'$, i.e., $\dim v' \leq s+1$, and since $\bar{v}$ is non-trivial it follows that $\dim v' = s+1$, while $\dim \bar{v} = s$. Using induction from $
+
+cendence degree of $R/\mathfrak{p}'$ (Vol. I, Ch. II, §12, Theorems 28 and 29). We have therefore proved that
+
+(1) "$\mathfrak{p} < \mathfrak{p}'$" $\Rightarrow$ "$\dim \mathfrak{p} > \dim \mathfrak{p}'$."
+
+In particular, since the prime ideal (0) has dimension $r$, it follows that every proper prime ideal has dimension less than $r$ and that every prime ideal of dimension $r-1$ is minimal. The lemma which we wish to prove and which is fundamental in the dimension theory of finite integral domains is the converse of the second part of the last assertion:
+
+Lemma. If $\mathfrak{p}$ is a minimal prime ideal in a finite integral domain $R=k[x_1, x_2, \cdots, x_n]$, of transcendence degree $r$, then $\mathfrak{p}$ has dimension $r-1$.
+
+Proof. Assume first that $x_1, x_2, \cdots, x_n$ are algebraically independent over $k$, whence $r=n$ and $R$ is a polynomial ring in $n$ variables. Since $R$ is a unique factorization domain, $\mathfrak{p}$ is a principal ideal, say $\mathfrak{p}=Rf$, where $f$ is an irreducible element of $R$ (Vol. I, Ch. IV, §14, statement following immediately the definition of minimal prime ideals, p. 238). The polynomial $f=f(x_1, x_2, \cdots, x_n)$ must have positive degree since $\mathfrak{p} \neq (1)$. Hence at least one of the elements $x_i$ actually occurs in the formal polynomial expression of $f$. Let, say, $x_n$ occur in $f$. Then $\mathfrak{p}$ contains no polynomial which is independent of $x_n$, since $\mathfrak{p}=Rf$. It follows that the $\mathfrak{p}$-residues of $x_1, x_2, \cdots, x_{n-1}$ are algebraically independent
+
+of algebraic dependence, we see at once that $z_1, z_2, \cdots, z_r$ are algebraically independent over $k$ and form a transcendence basis of $\bar{R}/k$.
+
+Since $k$ is an infinite field, we have, by the preceding case, that $\bar{\mathfrak{p}} = r-1$. Consequently, again by Lemma 1 of Vol. I, Ch. V, §2, $\dim \mathfrak{p} = r-1$, and the proof of the lemma is complete.
+
+Corollary. If $R$ is a finite integral domain (over a ground field $k$) and if a prime ideal $\mathfrak{p}$ in $R$ is such that the quotient ring $R_{\mathfrak{p}}$ is a valuation ring, then the associated valuation $v$ of the quotient field $K$ of $R$ is a prime divisor of $K/k$ and $\mathfrak{p}$ is a minimal prime ideal in $R$.
+
+For, since $R_{\mathfrak{p}}$ is noetherian, the valuation $v$ is discrete, of rank 1 (§10, Theorem 16) and $R_{\mathfrak{p}}$ is a maximal subring of $K$; therefore $\mathfrak{p}R_{\mathfrak{p}}$ is (not only a maximal but also) a minimal prime ideal of $R_{\mathfrak{p}}$, showing that $\mathfrak{p}$ is a minimal prime ideal in $R$. By the preceding lemma, we have therefore $\dim \mathfrak{p} = r-1$, if $r$ is the transcendence degree of $R/k$, and hence $v$ is a prime divisor of $K/k$.
+
+Let $V$ be an affine variety in an affine $n$-space, such that $V$ is defined and is irreducible over $k$ and $K$ is $k$-isomorphic with the function field $k(V)$ of $V/k$. We shall identify $K$ with $k(V)$. If $\mathcal{P}$ is a prime divisor† of $K/k$ which is finite on the coördinate
+
+dimensional, hence minimal. Let $\mathcal{P}_0$ denote the $\mathfrak{q}_0$-adic valuation of the field $k(x_1, x_2, \cdots, x_r)$; then $\mathcal{P}_0$ is the only valuation of $k(x_1, x_2, \cdots, x_r)/k$ which has center $\mathfrak{q}_0$ in $k[x_1, x_2, \cdots, x_r]$.
+
+Any prime divisor of $K/k$ which has center $W$ on $V$ has center $\mathfrak{q}$ in $k[x_1, x_2, \cdots, x_n]$, hence has center $\mathfrak{q}_0$ in $k[x_1, x_2, \cdots, x_r]$; in other words: any prime divisor $\mathcal{P}$ of $K/k$ with center $W$ on $V$ must be an extension of $\mathcal{P}_0$. Since $K$ is a finite algebraic extension of $k(x_1, x_2, \cdots, x_r)$, $\mathcal{P}_0$ has only a finite number of extensions to $K$, and this proves the finiteness of the set of prime divisors of $K/k$ having center $W$. If $\mathcal{P}$ is any prime divisor of that set, then the ring $k[x]/\mathfrak{q}$ can be canonically identified with a subring of the residue field $\Delta$ of $\mathcal{P}$. Hence, the quotient field of that ring, i.e., the field $k(W)$, is a subfield of $\Delta$. Since $\Delta/k$ is a function field, of transcendence degree $r-1$, and since also $k(W)/k$ has transcendence degree $r-1$, the theorem is proved.
+
+There is an important case in which there is only one prime divisor of $K/k$ whose center is the given irreducible $(r-1)$-dimensional subvariety $W$ of $V/k$. If $W$ is an irreducible subvariety of $V/k$ and $\mathfrak{p}$ is the prime ideal of $W$ in the
+
+ideal in $R$), and thus the theorem is a direct consequence of Theorem 16, Corollary 1 (§ 10).
+
+Note that the first part of Theorem 33 is a special case of Theorem 16, Corollary 2 (§ 10), concerning minimal prime ideals in noetherian domains.
+
+A variety $V/k$ is said to be normal, or locally normal, if it is normal at each of its points. It is clear that if the coördinate ring $k[x]$ of $V$ is integrally closed, then $V$ is normal. We shall prove now the converse:

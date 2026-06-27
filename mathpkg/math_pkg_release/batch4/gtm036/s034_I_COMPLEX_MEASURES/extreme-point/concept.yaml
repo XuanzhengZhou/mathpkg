@@ -1,0 +1,23 @@
+id: extreme-point
+title_en: "Extreme Point of a Convex Set"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: convex-geometry
+difficulty: basic
+tags: [extreme-point, convex-set, line-segment]
+depends_on:
+  required: [convex-set]
+  recommended: []
+  suggested: [krein-milman-theorem]
+source_books:
+  - book_id: "gtm036"
+    author: "J.L. Kelley, I. Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "4"
+    section: "15 (Extreme Points)"
+    pages: ""
+    role_in_book: "Section 15, definition of extreme point for Krein-Milman theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

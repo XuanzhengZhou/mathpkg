@@ -1,0 +1,23 @@
+id: linear-ptr-definition
+title_en: "Linear Planar Ternary Ring"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: planar-ternary-ring
+difficulty: basic
+tags: [planar-ternary-ring, linear, addition, multiplication]
+depends_on:
+  required: [planar-ternary-ring]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D. R. Hughes, F. C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "5"
+    pages: "132-137"
+    role_in_book: "Definition of a linear PTR: one where T(x,m,k) = xm + k"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

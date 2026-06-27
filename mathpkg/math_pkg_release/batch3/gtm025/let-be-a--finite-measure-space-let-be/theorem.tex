@@ -1,0 +1,11 @@
+Let $(X, \mathcal{M}, \mu)$ be a $\sigma$-finite measure space, let $f$ be a nonnegative, real-valued, $\mathcal{M}$-measurable function on $X$, and let $E$ be any set in $\mathcal{M}$. Let $\varphi$ be a real-valued nondecreasing function with domain $[0, \infty[$ that is absolutely continuous on every interval $[0,
+
+apply (21.12) to the last integral in (1). This yields
+
+$$\int_X \xi_E(x) \int_0^\infty \xi_{[0,f(x)]}(t) \varphi'(t) dt d\mu(x) = \int_X \int_0^\infty \xi_E(x) \xi_{[0,f(x)]}(t) \varphi'(t) dt d\mu(x)$$
+
+$$= \int_0^\infty \xi_E(x) \xi_{[0,f(x)]}(t) d\mu(x) \varphi'(t) dt$$
+
+$$= \int_0^\infty \xi_E(x) \xi_{G_t}(x) d\mu(x) \varphi'(t) dt$$
+
+$$= \int_0^\infty \mu(E \cap G_t) \varphi'(t) dt.$$

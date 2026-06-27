@@ -1,0 +1,1 @@
+The Fourier coefficient generalizes the inner product definition for $\mathfrak{L}_1$ functions. The Fourier transform maps a function on the circle to a function on the integers, establishing the foundation of Fourier analysis.

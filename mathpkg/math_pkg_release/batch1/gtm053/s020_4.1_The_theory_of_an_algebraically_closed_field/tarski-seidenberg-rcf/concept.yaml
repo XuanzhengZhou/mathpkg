@@ -1,0 +1,13 @@
+id: tarski-seidenberg-rcf
+title_en: "Tarski–Seidenberg theorem on completeness and quantifier elimination for RCF"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [tarski-seidenberg, real-closed-field, completeness, quantifier-elimination, semialgebraic-geometry]
+depends_on: {required: [real-closed-field, real-closed-field-lemma], recommended: [quantifier-elimination, o-minimality], suggested: [semialgebraic-set]}
+source_books: [{book_id: "gtm053", author: "Yuri I. Manin", title: "A Course in Mathematical Logic for Mathematicians", chapter: "4", section: "4.7", pages: "", role_in_book: "Theorem 4.7: The theory RCF is complete and allows quantifier elimination"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

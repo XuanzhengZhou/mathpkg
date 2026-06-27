@@ -1,0 +1,13 @@
+id: polygon-boundary-limit-points
+title_en: "Every point of a polygon is a limit point of its interior and exterior"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: plane-topology
+difficulty: intermediate
+tags: [polygon, boundary, limit-point, frontier, interior, exterior]
+depends_on: {required: [interior-and-exterior-of-polygon, frontier-of-open-set-equals-closure-minus-set], recommended: [jordan-curve-theorem-for-polygons], suggested: []}
+source_books: [{book_id: "gtm047", author: "Moise", title: "Geometric Topology in Dimensions 2 and 3", chapter: "2", section: "Separation Properties of Polygons in R^2", pages: "29-30", role_in_book: "Theorem 5: establishes that the polygon is precisely the common boundary of its interior and exterior"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: generalized-hahn-banach-convex-functional
+title_en: "Generalized Hahn-Banach Theorem for Convex Functionals"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [hahn-banach-theorem, convex-functional, linear-functional, extension-theorem, conical-extension]
+depends_on:
+  required: [hahn-banach-theorem, convex-functional, linear-functional, subspace]
+  recommended: [convex-set, cone, separation-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "3"
+    section: "3.9"
+    pages: ""
+    role_in_book: "Remark E following Theorem 3.9; generalizes the Hahn-Banach theorem to convex functionals on convex sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

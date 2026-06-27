@@ -1,0 +1,23 @@
+id: crt-equivalent-to-distributivity
+title_en: "Chinese Remainder Theorem Equivalent to Distributivity of Ideal Operations"
+title_zh: "中国剩余定理等价于理想运算的分配律"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [chinese-remainder-theorem, distributivity, ideal-arithmetic]
+depends_on:
+  required: [ideal, ring-theory]
+  recommended: [chinese-remainder-theorem]
+  suggested: [dedekind-domain]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "7"
+    pages: "277-278"
+    role_in_book: "Theorem 18"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: filter-equivalence-boolean-algebra-partial-order
+title_en: "Proper Filter of Boolean Algebra iff Filter of Associated Partial Order"
+title_zh: "布尔代数的正常滤子等价于关联偏序的滤子"
+type: theorem
+domain: foundations
+subdomain: boolean-algebra
+difficulty: intermediate
+tags: [filter, boolean-algebra, partial-order, equivalence]
+depends_on:
+  required: [filter-for-partial-order, partial-order-associated-with-boolean-algebra, filter-boolean-algebra]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "5"
+    section: "Partial Order Structures and Topological Spaces"
+    pages: ""
+    role_in_book: "Theorem 5.5"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+The relation $p'u = fp$ is, in effect, the requirement that the following diagram be commutative.
+
+$$\begin{array}{ccc}
+E & \xrightarrow{u} & E' \\
+p & \downarrow & p' \\
+B & \xrightarrow{f} & B'
+\end{array}$$
+
+The bundle morphism condition $p'u = fp$ can also be expressed by the relation $u(p^{-1}(b)) \subset (p')^{-1}(f(b))$ for each $b \in B$; that is, the fibre over $b \in B$
+
+The bundle morphism condition $p'u = p$ can also be expressed by the relation $u(p^{-1}(b)) \subset (p')^{-1}(b)$ for each $b \in B$; that is, $u$ is fibre preserving. The bundle morphisms $u$ over $B$ are just the bundle morphisms $(u, 1_B)$.
+
+3.3 Examples. If $(E', p', B')$ is a subbundle of $(E, p, B)$ and if $f: B' \rightarrow B$ and $u: E' \rightarrow E$ are inclusion maps, then $(u, f): (E', p', B') \rightarrow (E, p, B)$ is a bundle morphism. The cross sections of $(E, p, B)$ are precisely the $B$-morphisms $s: (B, 1, B) \rightarrow (E, p, B)$. Consequently, every general property of morphisms applies to sections.
+
+The pair $(1_E, 1_B): (E, p, B) \rightarrow (E, p, B)$ is a bundle morphism that is a $B$-morphism. If $(u, f): (E, p, B) \rightarrow (E', p', B')$ and $(u', f')(E', p', B') \rightarrow (E''', p''', B''')$ are bundle morphisms, we have the following commutative diagram:
+
+$$\begin{array}{cccc}
+E & \xrightarrow{u} & E' & \xrightarrow{u'} & E'' \\
+p & \downarrow & p' & \downarrow & p'' \\
+B & \xrightarrow{f} & B' & \xrightarrow{f'} & B'' \\
+\end{array}$$
+
+Consequently, the compositions define a bundle morphism $(u'u, f'f'): (E, p, B) \rightarrow (E''', p''', B''')$ which is defined to be the composition $(u', f')(u, f)$ of $(u, f)$ and $(u', f')$.

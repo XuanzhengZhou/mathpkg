@@ -1,0 +1,20 @@
+id: ratio-limit-for-transient-random-walk
+title_en: "Ratio limit for transient random walk hitting time"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: intermediate
+tags: [ratio-limit, hitting-time, transient-random-walk, potential-kernel]
+depends_on: {required:[], recommended:[potential-kernel, green-function, hitting-probability], suggested:[abel-theorem, generating-function]}
+source_books:
+  - book_id: gtm034
+    author: Frank Spitzer
+    title: Principles of Random Walk, 2nd ed.
+    chapter: "VII"
+    section: "32"
+    pages: "?"
+    role_in_book: "Proof of T1 for the transient case"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

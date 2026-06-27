@@ -1,0 +1,18 @@
+\text{A category} $\mathcal{K}$ \text{is defined by the following data and axioms.}
+
+\textbf{Datum 1.} \text{There is given a class} $\operatorname{Obj}(\mathcal{K})$ \text{of $\mathcal{K}$-objects.}
+
+\textbf{Datum 2.} \text{For each ordered pair} $(A, B)$ \text{of $\mathcal{K}$-objects there is given a class} $\mathcal{K}(A, B)$ \text{of $\mathcal{K}$-morphisms from $A$ to $B$. If $f \in \mathcal{K}(A, B)$, $A$ is the domain of $f$ and $B$ is the codomain of $f$.}
+
+\textbf{Datum 3.} \text{For each $\mathcal{K}$-object $A$ there is given a distinguished $\mathcal{K}$-morphism} $\operatorname{id}_A \in \mathcal{K}(A, A)$ \text{called the identity of $A$.}
+
+\textbf{Datum 4.} \text{For each ordered triple} $(A, B, C)$ \text{of $\mathcal{K}$-objects there is given a composition law}
+$$
+\mathcal{K}(A, B) \times \mathcal{K}(B, C) \to \mathcal{K}(A, C), \quad (f, g) \mapsto fg.
+$$
+
+\textbf{Axiom 1.} \text{Composition is associative: given $f \in \mathcal{K}(A, B)$, $g \in \mathcal{K}(B, C)$, $h \in \mathcal{K}(C, D)$, then $(fg)h = f(gh) \in \mathcal{K}(A, D)$.}
+
+\textbf{Axiom 2.} \text{If $f \in \mathcal{K}(A, B)$ then $(\operatorname{id}_A)f = f = f(\operatorname{id}_B)$.}
+
+\textbf{Axiom 3.} \text{If $(A, B) \neq (A', B')$ then $\mathcal{K}(A, B) \cap \mathcal{K}(A', B') = \emptyset$.}

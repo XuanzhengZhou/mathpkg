@@ -1,0 +1,23 @@
+id: stationary-flow-conditional-extremum
+title_en: "Stationary Flow as Conditional Extremum of Kinetic Energy"
+title_zh: "定常流是动能的约束极值"
+type: theorem
+domain: geometry
+subdomain: hydrodynamics
+difficulty: advanced
+tags: [stationary-flow, kinetic-energy, conditional-extremum, variational-principle, isovorticial]
+depends_on:
+  required: [isovorticial-fields]
+  recommended: [euler-equations, variational-calculus, kinetic-energy]
+  suggested: [arnolds-stability-theorem, dirichlet-principle]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 2"
+    section: "Section 47"
+    pages: ""
+    role_in_book: "Theorem that stationary flows are conditional extrema of kinetic energy among isovorticial flows"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

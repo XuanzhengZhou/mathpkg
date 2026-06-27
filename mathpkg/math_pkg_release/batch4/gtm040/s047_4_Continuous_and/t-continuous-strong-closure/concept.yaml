@@ -1,0 +1,23 @@
+id: t-continuous-strong-closure
+title_en: "T-Continuous Functions in the Strong Closure of Elementary Functions"
+title_zh: "T-连续函数在初等函数强闭包中"
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [t-continuous, strong-closure, mazur-theorem, elementary-continuous-function, convex-hull]
+depends_on:
+  required: [t-continuous-function, limit-of-b-e-k]
+  recommended: [elementary-continuous-function]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Lemma 11-11. Every T-continuous function h is in the strong closure of the convex hull of {B^{E_k}(x,·)h} for an increasing sequence {E_k}"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

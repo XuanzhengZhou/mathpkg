@@ -1,0 +1,13 @@
+id: momentum-mapping
+title_en: "Momentum Mapping"
+title_zh: "动量映射"
+type: definition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [momentum-mapping, poisson-action, lie-algebra, dual-space, conserved-quantity]
+depends_on: {required:[poisson-action, symplectic-manifold], recommended:[lie-group, lie-algebra], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"Appendix 5",section:"Dynamical systems with symmetries",pages:"386",role_in_book:"Defines the momentum mapping P: M → g* for a Poisson action, generalizing linear and angular momentum"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,33 @@
+If $M$ is an arbitrary subset of a locally convex space $\mathcal{E}$, then $a(M^a))^a = M^a$. Furthermore
+
+M of $\Delta$. Then $f \circ \Phi = 0$ on $M$ for every $f$ in $\mathcal{M}^a$. If $M$ has any points of accumulation in $\Delta$, it follows that $f \circ \Phi = 0$ identically on $\Delta$ for every $f$ in $\mathcal{M}^a$ (Th. 5.2), and hence that the entire range $\Phi(\Delta)$ belongs to $a(\mathcal{M}^a) = M$. Thus if $\Phi(\lambda) \in M$ for every $\lambda$ in some subset of $\Delta$ possessing a single point of accumulation in $\Delta$, then the entire range of $\Phi$ is contained in $\mathcal{M}$.
+
+Suppose now, once again, that $\mathcal{E}$ is a separated locally convex space, and let $M$ denote a closed linear submanifold of $\mathcal{E}$. As is well known (cf. Example 2L), a linear functional $f$ in $\mathcal{E}^*$ can be factored through $\mathcal{E}/M$ if and only if $M$ is contained in the kernel of $f$, that is, if and only if $f \in \mathcal{M}^a$. Moreover, if $f$ does belong to $\mathcal{M}^a$, and if $\hat{f}$ denotes the unique linear functional on $\mathcal{E}/M$ such that $f = \hat{f} \circ \pi$, where $\pi$ denotes the natural projection of $\mathcal{E}$ onto $\mathcal{E}/M$, then $\hat{f}$ is clearly a continuous linear functional on $\mathcal{E}/M$ (since $\pi$ is an open mapping; recall Proposition 11.22). Finally, if $\hat{f}$ denotes an arbitrary element of $(\mathcal{E}/M)^*$, then $f = \hat{f} \circ \pi$ belongs to $\mathcal{M}^a$. Thus if we write $\alpha(\hat{f}) = \hat{f} \circ \pi$, $\hat{f} \in (\mathcal{E}/M)^*$, then $\alpha$ maps $(\mathcal{E}/M)^*$ onto $\mathcal{M}^a$, and it is a
+
+$\hat{\beta}(f + M^a) = f | \mathcal{M}$ defines a linear isomorphism of $\mathcal{E}^* / M^a$ onto $\mathcal{M}^*$. Suppose next that $\mathcal{E}$ is a Banach space. Then, according to Problem 12F, $\hat{\beta}$ is bounded with $\|\hat{\beta}\| \leq 1$. On the other hand, if $f$ is any element of $\mathcal{M}^*$, then by the Hahn–Banach theorem (Th. 14.3) there exists an extension $f_0$ of $f$ to the entire space $\mathcal{E}$ such that $\|f_0\| = \|f\|$, and for this functional we clearly have $\hat{\beta}(f_0 + M^a) = f$. But then $\|f\| = \|f_0\| \geq \|f_0 + M^a\| \geq \|f\|$ since $\|\hat{\beta}\| \leq 1$, which shows that $\hat{\beta}$ is an isometry.
+
+Propositions 16.6 and 16.7 show that subspaces and quotient spaces of Banach spaces are dual to one another. There is also a duality for linear transformations, and, here again, the basic definitions make sense in the general context of locally convex spaces. To see how this goes, let $\mathcal{E}$ and $\mathcal{F}$ be locally convex topological linear spaces, and let $T$ be a continuous linear transformation of $\mathcal{E}$ into $\mathcal{F}$. Then for each functional $f$ in the dual $\mathcal{F}^*$ the composition $f \circ T$ is an element of $\mathcal{E}^*$. Let us write $f^*$ for this functional, so that
+
+$$f^*(x) = f(Tx), \quad x \in \mathcal{E}, \quad f \in \mathcal{F}^*.$$
+
+Thus, setting $T^*f = f^*$, $f \in \mathcal{F}^*$, defines a mapping $T^*$ of $\mathcal{F}^*$ into $\mathcal{E}^*$, and it is a triviality to
+
+Example E. The most general (continuous) linear functional on $\mathbb{C}^n$ is of the form $f_y$, where $y = (\eta_1, \ldots, \eta_n)$ is itself an element of $\mathbb{C}^n$ and $f_y(x) = \sum_{i=1}^{n} \xi_i \eta_i$ for each $x = (\xi_1, \ldots, \xi_n)$. Moreover, in this notation, the basis for $(\mathbb{C}^n)^*$ dual to the natural basis $\{e_1, \ldots, e_n\}$ (Ex. 2B) is the basis $\{f_i = f_{e_i}\}_{i=1}^n$ (cf. Example A).
+
+Suppose now that $A$ is an $m \times n$ complex matrix, and let $T$ denote the (continuous) linear transformation of $\mathbb{C}^n$ into $\mathbb{C}^m$ defined by $A$, so that $T(\xi_1, \ldots, \xi_n) = (\zeta_1, \ldots, \zeta_m)$, where
+
+$$\begin{pmatrix}
+\zeta_1 \\
+\vdots \\
+\zeta_m
+\end{pmatrix} = A \begin{pmatrix}
+\zeta_1 \\
+\vdots \\
+\zeta_n
+\end{pmatrix}$$
+
+for each $(\xi_1, \ldots, \xi_n)$ in $\mathbb{C}^n$ (Prob. 2H). Then $A$ is the matrix of $T$ with respect to the natural bases for $\mathbb{C}^m$ and $\mathbb{C}^n$. Moreover, if $y = (\eta_1, \ldots, \eta_m)$ belongs to $\mathbb{C}^m$ and $x = (\xi_1, \ldots, \xi_n)$ to $\mathbb{C}^n$, then
+
+$$f_y(Tx) = (T^*f_y)(x) = \sum_{i=1}^{m} \sum_{j=1}^{n} \eta_i \alpha_{ij} \xi_j.$$
+
+A straightforward calculation based on this formula shows that if $B = (\beta_{ij})$ denotes the matrix of

@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "1"
+section: "002"
+exercise_number: 7
+---
+
+Let $g: A\Omega \longrightarrow A\Omega$ be a bijective $\Omega$-homomorphism. Prove that $g^{-1}$ is also an $\Omega$-homomorphism. Prove that $g$ maps $A$ bijectively onto $A$ and that $g = f\Omega$ for $f: A \longrightarrow A$, $af = ag$. [Hint: use 1.11.]

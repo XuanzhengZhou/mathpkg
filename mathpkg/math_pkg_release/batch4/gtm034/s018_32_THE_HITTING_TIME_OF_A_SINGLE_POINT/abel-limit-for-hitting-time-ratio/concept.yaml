@@ -1,0 +1,20 @@
+id: abel-limit-for-hitting-time-ratio
+title_en: "Abel Limit for the Hitting Time Ratio in Recurrent Random Walk"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [abel-summation, hitting-time, ratio-limit, recurrent-random-walk, green-function]
+depends_on: {required:[], recommended:[potential-kernel, green-function, stopping-time], suggested:[abels-theorem]}
+source_books:
+  - book_id: "gtm034"
+    author: "Frank Spitzer"
+    title: "Principles of Random Walk"
+    chapter: "VI"
+    section: "32"
+    pages: "378-381"
+    role_in_book: "Lemma establishing T1 for recurrent random walk via Abel summation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

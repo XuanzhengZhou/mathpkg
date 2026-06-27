@@ -1,0 +1,23 @@
+id: compact-one-to-one-immersion-is-diffeomorphism
+title_en: "A One-to-One Immersion of a Compact Manifold is a Diffeomorphism"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [diffeomorphism, immersion, compact-manifold, submersion]
+depends_on:
+  required: []
+  recommended: [inverse-function-theorem, compact-manifold, immersion, submersion]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Golubitsky & Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "§1. Stable and Infinitesimally Stable Mappings"
+    pages: "86-89"
+    role_in_book: "Lemma (unnumbered): used in proving Diff(X) is open in C^∞(X,X)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

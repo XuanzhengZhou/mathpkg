@@ -1,0 +1,23 @@
+id: subset-decomposition
+title_en: "Decomposition of Any Subset into Nullset and First Category Set"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [decomposition, nullset, first-category, subset]
+depends_on:
+  required: [line-decomposition]
+  recommended: [nullset, first-category-set]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Generalizes the line decomposition to arbitrary subsets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

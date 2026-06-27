@@ -1,0 +1,23 @@
+id: reduced-k-theory-of-spheres
+title_en: "Reduced K-Theory of Low-Dimensional Spheres"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: k-theory
+difficulty: advanced
+tags: [k-theory, spheres, bott-periodicity, homotopy-groups, orthogonal-group, unitary-group]
+depends_on:
+  required: [bott-periodicity-k-theory-spheres, reduced-k-functor]
+  recommended: [homotopy-groups-of-classical-groups]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "9"
+    section: "5.2"
+    pages: ""
+    role_in_book: "Explicit calculation of reduced K-theory of low-dimensional spheres for real, complex, and quaternionic cases"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

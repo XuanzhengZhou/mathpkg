@@ -1,0 +1,9 @@
+Let two first-order languages $\mathcal{L}_{\text{fac}}$ and $\mathcal{L}_{\text{ind}}$ be given. Suppose that $\langle \mathfrak{A}_i : i \in I \rangle$ is a system of $\mathcal{L}_{\text{fac}}$-structures. For any formula $\varphi$ of $\mathcal{L}_{\text{fac}}$ and any $f \in \omega \prod_{i \in I} A_i$ we set
+$$K_{\varphi}^{\mathfrak{A}} f = \{i \in I : \mathfrak{A}_i \models \varphi [\text{pr}_i \circ f]\}.$$
+
+An $\mathcal{L}_{\text{fac}}$, $\mathcal{L}_{\text{ind}}$-sequence is a sequence $\langle \varphi, \psi_0, \ldots, \psi_m \rangle$ such that $\varphi$ is a formula of $\mathcal{L}_{\text{ind}}$ with $\text{Fv} \varphi \subseteq \{v_0, \ldots, v_m\}$ and $\psi_0, \ldots, \psi_m$ are formulas of $\mathcal{L}_{\text{fac}}$. The sequence $\langle \varphi, \psi_0, \ldots, \psi_m \rangle$ is partitioning if the following formulas are tautologies:
+$$\bigvee_{i \leq m} \psi_i; \qquad \neg (\psi_i \wedge \psi_j) \quad \text{for } i \neq j.$$
+
+Given an $\mathcal{L}_{\text{ind}}$-structure $\mathfrak{B}$ with universe $\mathcal{P}I$, the generalized product $\mathfrak{C} = \prod_{i \in I} \mathfrak{A}_i$ is the $\mathcal{L}_{\text{prod}}$-structure with universe $\prod_{i \in I} A_i$, where for each $n \in \omega$,
+$$\mathbf{R}_n^{\mathfrak{C}} = \{f \in \omega^n \prod_{i \in I} A_i : \text{there is a } g \in \omega^n \prod_{i \in I} A_i \text{ such that } f \subseteq g \text{ and } \mathfrak{B} \models \varphi[K_{\psi_0}^1 g, \ldots, K_{\psi_m}^1 g]\},$$
+where $\zeta_n = \langle \varphi, \psi_0, \ldots, \psi_m \rangle$.

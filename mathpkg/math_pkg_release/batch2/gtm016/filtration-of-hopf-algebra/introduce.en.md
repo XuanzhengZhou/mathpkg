@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+A filtration for $H$ is a sequence $H_i$ of $K_H$-subspaces such that $H_0 = K_H I$, $H_i \subset H_{i+1}$, and each element of $H_{i+1}^0$ is primitive modulo $H_i$ for all $i$.

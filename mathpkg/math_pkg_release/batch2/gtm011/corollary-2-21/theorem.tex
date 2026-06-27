@@ -1,0 +1,43 @@
+A branch of the logarithm function is analytic and its derivative is $z^{-1}$.
+
+We designate the particular branch of the logarithm defined above on $\mathbb{C} - \{z \in \mathbb{R} : z \leq 0\}$ to be the principal branch of the logarithm. If we write $\log z$ as a function we will always take it to be the principal branch of the logarithm unless otherwise stated.
+
+If $f$ is a branch of the logarithm on an open connected set $G$ and if $b$ in $\mathbb
+
+Analytic functions
+
+$$\frac{f(z+h) - f(z)}{h} = \frac{f(x+h+iy) - f(x+iy)}{h}$$
+
+$$= \frac{u(x+h, y) - u(x, y)}{h} + i \frac{v(x+h, y) - v(x, y)}{h}$$
+
+Letting $h \to 0$ gives
+
+2.22 $f'(z) = \frac{\partial u}{\partial x}(x, y) + i \frac{\partial v}{\partial x}(x, y)$
+
+Now let $h \to 0$ through purely imaginary values; that is, for $h \neq 0$ and $h$ real,
+
+$$\frac{f(z+ih) - f(z)}{ih} = -i \frac{u(x, y+h) - u(x, y)}{h} + \frac{v(x, y+h) - v(x, y)}{h}$$
+
+Thus,
+
+2.23 $f'(z) = -i \frac{\partial u}{\partial y}(x, y) + \frac{\partial v}{\partial y}(x, y)$
+
+Equating the real and imaginary parts of (2.22) and (2.23) we get the Cauchy-Riemann equations
+
+2.24 $$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y} \text{ and } \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}$$
+
+Suppose that $u$ and $v$ have continuous second partial derivatives (we will eventually show that they are infinitely differentiable). Differentiating the Cauchy-Riemann equations again we get
+
+$$\frac{\partial^2 u}{\partial x^2} = \frac{\partial^2 v}{\partial x \partial y} \text{ and } \frac{\partial^2 u}{\partial y^2} = -\frac{\partial^2 v}{\partial y \partial x}$$
+
+Hence,
+
+2.25 $$\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0.$$
+
+Any real-valued function with continuous second derivatives
+
+Letting
+
+$$\varphi(s, t) = [u(x + s, y + t) - u(x, y)] - [u_x(x, y)s + u_y(x, y)t]$$
+
+(2.26) gives that

@@ -1,0 +1,1 @@
+Convergence in probability requires that for any positive tolerance $\varepsilon$, the probability that $X_n$ deviates from the limit $X$ by more than $\varepsilon$ tends to zero. This is a weaker mode than almost everywhere convergence. Convergence in probability is fundamental in statistics (consistency of estimators) and the weak law of large numbers.

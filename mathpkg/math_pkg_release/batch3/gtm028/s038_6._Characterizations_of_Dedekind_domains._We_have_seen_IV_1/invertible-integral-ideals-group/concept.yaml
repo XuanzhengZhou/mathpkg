@@ -1,0 +1,23 @@
+id: invertible-integral-ideals-group
+title_en: "Group Structure of Fractionary Ideals when Integral Ideals are Invertible"
+title_zh: "整理想可逆时分式理想构成群"
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [invertible-ideal, fractionary-ideal, group, dedekind-domain]
+depends_on:
+  required: [invertible-fractionary-ideal, fractionary-ideal, integral-ideal]
+  recommended: [invertible-ideal-unique-inverse]
+  suggested: [dedekind-domain]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "6"
+    pages: "272"
+    role_in_book: "Lemma 2 of Section 6"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

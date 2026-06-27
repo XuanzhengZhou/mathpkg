@@ -1,0 +1,23 @@
+Observe that $L^n(p)$ is the product of three matrices where $p_r^*(z) = \sum_{r \leq k \leq n} p_k z^{k-r}$ and $p_r^*(z) - zp_{r+1}^*(z) = p_r$.
+
+$$\begin{bmatrix}
+1 & p_1^*(z) & \cdots & p_n^*(z) \\
+0 & 1 & \cdots & 0 \\
+\cdots & \cdots & \cdots & \cdots \\
+0 & 0 & \cdots & 0 \\
+0 & 0 & \cdots & 1
+\end{bmatrix} \begin{bmatrix}
+p(z) & 0 & \cdots & 0 & 0 \\
+0 & 1 & \cdots & 0 & 0 \\
+\cdots & \cdots & \cdots & \cdots \\
+0 & 0 & \cdots & 1 & 0 \\
+0 & 0 & \cdots & 0 & 1
+\end{bmatrix} \begin{bmatrix}
+1 & 0 & \cdots & 0 & 0 \\
+- z & 1 & \cdots & 0 & 0 \\
+\cdots & \cdots & \cdots & \cdots \\
+0 & 0 & \cdots & 1 & 0 \\
+0 & 0 & \cdots & - z & 1
+\end{bmatrix}$$
+
+Consequently, $L^n(p) = (1 + N_1)(p \oplus 1_n)(1 + N_2)$, where $N_1$ and $N_2$ are nilpotent. Then $L_t^n(p) = (1 + tN_1)(p \oplus 1_n)(1 + tN_2)$ is a homotopy of clutching functions of $L^n(\zeta)$. This yields the following result.

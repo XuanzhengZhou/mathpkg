@@ -1,0 +1,23 @@
+id: nk-structure
+title_en: "(n,k)-Structure"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [type-theory, concrete-category, struct, power-set, cartesian-power]
+depends_on:
+  required: [struct-k]
+  recommended: [cartesian-power, power-set-operator]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "3"
+    section: "3.33"
+    pages: ""
+    role_in_book: "Definition 3.33: Type Theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

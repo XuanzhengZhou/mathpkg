@@ -1,0 +1,23 @@
+id: quotient-dedekind-domain-is-pir
+title_en: "Quotient of a Dedekind Domain by a Nonzero Ideal is a Principal Ideal Ring"
+title_zh: "Dedekind环模非零理想的商环是主理想环"
+type: corollary
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [dedekind-domain, quotient-ring, principal-ideal-ring]
+depends_on:
+  required: [dedekind-domain]
+  recommended: [dedekind-domain-finite-primes-is-pid]
+  suggested: [chinese-remainder-theorem]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "7"
+    pages: "276-277"
+    role_in_book: "Corollary 1 to Theorem 16"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

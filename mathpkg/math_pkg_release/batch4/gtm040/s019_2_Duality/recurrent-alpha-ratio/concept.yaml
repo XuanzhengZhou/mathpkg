@@ -1,0 +1,27 @@
+id: recurrent-alpha-ratio
+title_en: "Expected Visits for Recurrent Chains via Regular Measure"
+title_zh: ""
+type: corollary
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [duality, recurrent-chain, regular-measure, expected-visits]
+depends_on:
+  required: [
+    - n-bar-h-dual-relation
+  ]
+  recommended: [
+    - recurrent-chain, regular-measure
+  ]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "2. Duality"
+    pages: ""
+    role_in_book: "Corollary 6-21: for recurrent chains, expected visits ratio equals measure ratio"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

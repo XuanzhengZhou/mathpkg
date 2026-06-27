@@ -1,0 +1,15 @@
+Let $P$ be the partial order defined as follows:
+
+$$P \triangleq \{ \langle p_1, p_2 \rangle \mid p_1 \subseteq \omega \wedge p_2 \subseteq \omega \wedge \overline{p}_1 < \omega \wedge \overline{p}_2 < \omega \wedge p_1 \cap p_2 = 0 \}.$$
+
+$$\langle p_1, p_2 \rangle \leq \langle p'_1, p'_2 \rangle \xrightarrow{\Delta} p'_1 \subseteq p_1 \wedge p'_2 \subseteq p_2.$$
+
+$$\mathbf{P} \triangleq \langle P, \leq \rangle.$$
+
+For any $G \subseteq P$, define:
+
+$$\tilde{a}(G) \triangleq \{ n \in \omega \mid (\exists p_1, p_2)[n \in p_1 \wedge \langle p_1, p_2 \rangle \in G] \}.$$
+
+For any $a \subseteq \omega$, define:
+
+$$\tilde{G}(a) \triangleq \{ \langle p_1, p_2 \rangle \mid p_1 \subseteq a \wedge p_2 \subseteq \omega - a \wedge \langle p_1, p_2 \rangle \in P \}.$$

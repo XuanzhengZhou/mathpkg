@@ -1,0 +1,23 @@
+id: isovorticial-fields
+title_en: "Isovorticial Fields"
+title_zh: "等涡量场"
+type: definition
+domain: geometry
+subdomain: hydrodynamics
+difficulty: advanced
+tags: [ideal-fluid, diffeomorphism-group, coadjoint-orbit, vorticity]
+depends_on:
+  required: []
+  recommended: [volume-preserving-diffeomorphism, curl, lie-algebra-of-divergence-free-vector-fields]
+  suggested: [coadjoint-representation-of-diffeomorphism-group]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 2"
+    section: "Section 47"
+    pages: ""
+    role_in_book: "Definition of isovorticial fields as equivalence of velocity fields under volume-preserving diffeomorphisms preserving circulation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

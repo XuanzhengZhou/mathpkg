@@ -1,0 +1,11 @@
+Let $\mathcal{L}$ be a rich expansion of $\mathcal{L}$ by $C$, and let $S$ be a family of sets of sentences of $\mathcal{L}$. Then $S$ is a consistency family (for $\mathcal{L}, \mathcal{L}$) if and only if for each $\Gamma \in S$ all of the following hold, for all sentences $\varphi, \psi$ of $\mathcal{L}$:
+
+(C0) if $\Delta \subseteq \Gamma$, then $\Delta \in S$;
+(C1) $\varphi \notin \Gamma$ or $\neg\varphi \notin \Gamma$;
+(C2) if $\neg\neg\varphi \in \Gamma$, then $\Gamma \cup \{\varphi\} \in S$;
+(C3) if $\varphi \wedge \psi \in \Gamma$, then $\Gamma \cup \{\varphi\} \in S$ and $\Gamma \cup \{\psi\} \in S$;
+(C4) if $\varphi \vee \psi \in \Gamma$, then $\Gamma \cup \{\varphi\} \in S$ or $\Gamma \cup \{\psi\} \in S$;
+(C5) if $\forall\alpha\varphi \in \Gamma$, then for all $c \in C$, $\Gamma \cup \{\text{Subf}_c^\alpha\varphi\} \in S$;
+(C6) if $\exists\alpha\varphi \in \Gamma$, then for some $c \in C$, $\Gamma \cup \{\text{Subf}_c^\alpha\varphi\} \in S$;
+(C7) if $\alpha$ is a limit ordinal $< |\text{Fmla}_\mathcal{L}|$, $\Theta_\beta \in S$ for each $\beta < \alpha$, $\Theta_\beta \subseteq \Theta_\gamma$ whenever $\beta < \gamma < \alpha$, and $|\{c \in C : c \text{ occurs in some } \varphi \in \Theta_\beta \text{ for some } \beta < \alpha\}| < |C|$, then $\bigcup_{\beta < \alpha} \Theta_\beta \in S$;
+(C8) $|\{c \in C : c \text{ occurs in some } \varphi \in \Gamma\}| < |C|$.

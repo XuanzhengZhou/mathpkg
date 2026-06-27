@@ -1,0 +1,10 @@
+Let $L$ be a language in $\mathfrak{L}_1$ whose alphabet includes a relation $=$ of rank two. We write $t_1 = t_2$ instead of $= (t_1, t_2)$. If $P$ is a formula, $x$ is a variable, and $t$ is a term, let $P(x, t)$ denote the result of substituting $t$ in $P$ in place of any or all of the free occurrences of $x$ in $P$ for which $t$ is free. The axioms of equality are:
+
+\begin{enumerate}
+\item $x = x$ (reflexivity)
+\item $x = y \Rightarrow y = x$ (symmetry)
+\item $x = y \wedge y = z \Rightarrow x = z$ (transitivity)
+\item $x = t \Rightarrow (P(x, x) \Rightarrow P(x, t))$ (substitutivity of equality)
+\end{enumerate}
+
+When we speak of the special axioms for any language in $\mathfrak{L}_1$ having the symbol $=$, we always include among them the axioms of equality. Models in which $=$ is interpreted as equality are called \textit{normal models}.

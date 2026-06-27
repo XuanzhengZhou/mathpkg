@@ -1,0 +1,23 @@
+id: irreducible-polynomial-extension-field
+title_en: "Irreducible polynomial yields an extension field"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [irreducible-polynomial, factor-algebra, extension-field, polynomial-algebra]
+depends_on:
+  required: [polynomial-algebra, irreducible-polynomial, factor-algebra, field-extension]
+  recommended: [canonical-projection, monomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "12"
+    section: "4. The structure of factor algebras"
+    pages: "383"
+    role_in_book: "States that the factor algebra by an irreducible polynomial is an extension field"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: holomorphic-extension-punctured-polycylinder
+title_en: "Holomorphic Extension from Punctured Polycylinder"
+title_zh: "穿孔多圆柱上的全纯延拓"
+type: theorem
+domain: analysis
+subdomain: several-complex-variables
+difficulty: intermediate
+tags: [holomorphic-extension, polycylinder, several-complex-variables, hartogs-phenomenon]
+depends_on:
+  required: [holomorphic-function, polycylinder, continuity-theorem, identity-theorem-holomorphic]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm038"
+    author: "Hans Grauert, Klaus Fritzsche"
+    title: "Several Complex Variables"
+    chapter: "II. Domains of Holomorphy"
+    section: "1. The Continuity Theorem"
+    pages: "39-41"
+    role_in_book: "Special case of the Kugelsatz: extension from a polycylinder minus a smaller closed polycylinder to the whole polycylinder for n≥2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: third-homotopy-group-of-so3
+title_en: "Third Homotopy Group of SO(3)"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: homotopy-theory
+difficulty: intermediate
+tags: [special-orthogonal-group, homotopy-group, quaternion, hopf-fibration]
+depends_on:
+  required: [so3-homeomorphic-to-rp3, quaternion-action-on-so4]
+  recommended: [fundamental-group, higher-homotopy-groups]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "12"
+    pages: ""
+    role_in_book: "Computes $\pi_3(SO(3))$ using the quaternionic double cover"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

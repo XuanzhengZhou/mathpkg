@@ -1,0 +1,29 @@
+id: lemma-z-in-bounded-component
+title_en: "The Point Z Lies in a Bounded Component of the Complement of a 1-Sphere"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: planar-topology
+difficulty: advanced
+tags:
+  - jordan-curve-theorem
+  - bounded-component
+  - topological-1-sphere
+  - broken-line
+depends_on:
+  required: []
+  recommended: []
+  suggested:
+    - lemma-arc-a2-contains-point-of-b
+    - theorem-topological-1-sphere-separates-plane
+source_books:
+  - book_id: "gtm047"
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "4"
+    section: "4"
+    pages: "42-45"
+    role_in_book: "Key lemma establishing that the point Z between the last A_1-intersection and the first A_2-intersection of B lies in a bounded component, completing the proof of Theorem 3"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

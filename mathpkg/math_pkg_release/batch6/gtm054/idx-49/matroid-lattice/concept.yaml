@@ -1,0 +1,23 @@
+id: matroid-lattice
+title_en: "Matroid Lattice"
+title_zh: "拟阵格"
+type: definition
+domain: combinatorics
+subdomain: matroid-theory
+difficulty: intermediate
+tags: [matroid, lattice, semimodular, atom, join]
+depends_on:
+  required: []
+  recommended: [semimodular-lattice, geometry-matroid, lattice]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "X"
+    section: "49"
+    pages: "295-301"
+    role_in_book: "Defines matroid lattice as semimodular lattice where every element is a join of atoms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

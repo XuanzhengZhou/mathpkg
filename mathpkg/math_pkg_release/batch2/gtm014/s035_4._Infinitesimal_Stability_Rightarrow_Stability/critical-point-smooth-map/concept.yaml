@@ -1,0 +1,23 @@
+id: critical-point-smooth-map
+title_en: "Critical point of a smooth map and the critical point set"
+title_zh: "光滑映射的临界点与临界点集"
+type: definition
+domain: topology
+subdomain: singularity-theory
+difficulty: basic
+tags: [critical-point, differential-topology, smooth-map]
+depends_on:
+  required: []
+  recommended: [differential-of-smooth-map, surjective-linear-map]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "IV"
+    section: "4"
+    pages: "138-141"
+    role_in_book: "Defines the set of points where the differential is not surjective; the critical point set Σ is used to extend local deformation trivializations to a global neighborhood in Proposition 4.5."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

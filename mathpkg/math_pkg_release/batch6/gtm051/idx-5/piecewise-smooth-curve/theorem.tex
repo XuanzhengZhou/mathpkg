@@ -1,0 +1,10 @@
+A \text{piecewise smooth curve} is a continuous function $c: [a, b] \to \mathbb{R}^n$ together with a partition
+$$a = b_{-1} = a_0 < b_0 = a_1 < \ldots < b_{k-1} = a_k < b_k = a_{k+1} = b$$
+of $[a, b]$ such that each restriction $c_j := c|_{[a_j, b_j]}$, $0 \leq j \leq k$, is a differentiable curve. The points $c(a_j) = c(b_{j-1})$ are called \text{corners} of $c$.
+
+A piecewise smooth curve $c$ is called:
+\begin{itemize}
+\item \text{regular} if each $c_j$ is regular,
+\item \text{closed} if $c(a) = c(b)$,
+\item \text{simple closed} if $c$ is closed and $c|_{[a,b)}$ is one-to-one.
+\end{itemize}

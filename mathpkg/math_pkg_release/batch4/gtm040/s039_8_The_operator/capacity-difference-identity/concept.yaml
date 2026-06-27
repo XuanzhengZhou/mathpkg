@@ -1,0 +1,23 @@
+id: capacity-difference-identity
+title_en: "Capacity difference identity"
+title_zh: "容量差恒等式"
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [capacity, finite-set, difference-formula]
+depends_on:
+  required: [capacity-of-set, lambda-k-and-k-l-identities]
+  recommended: [escape-vector, equilibrium-distribution]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Express capacity differences, used for monotonicity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: generator-self-orthogonal
+title_en: "Generator is Self-Orthogonal"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: quadric-geometry
+difficulty: intermediate
+tags: [quadric, generator, orthogonality, projective-geometry, self-orthogonal]
+depends_on:
+  required: []
+  recommended: [orthogonal-complement, generator-of-quadric]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K. W. Gruenberg and A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "Exercises 14"
+    pages: ""
+    role_in_book: "Characterizes generators of a quadric as self-orthogonal subspaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

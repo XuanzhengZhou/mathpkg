@@ -1,0 +1,23 @@
+id: very-ampleness-via-base-points
+title_en: "Very Ampleness Condition via Base Points"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [very-ample, linear-system, base-points, separating-points, tangent-vectors]
+depends_on:
+  required: [linear-system-with-assigned-base-points, very-ample]
+  recommended: [complete-linear-system, blowing-up]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Remark 4.0.1; rephrases the very ampleness condition using base points"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

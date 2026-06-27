@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "XI"
+section: "1"
+exercise_number: 3
+---
+
+Use the above results to give another proof, independent of the coherence theorem, of Theorem 1 above. Note that this gives an independent proof of coherence, as in Theorem 2 above.

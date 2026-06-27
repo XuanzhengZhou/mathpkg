@@ -1,0 +1,23 @@
+id: monotone-convergence-normal-cone
+title_en: "Monotone Convergence in Ordered Locally Convex Spaces with Normal Cone"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: ordered-topological-vector-spaces
+difficulty: advanced
+tags: [normal-cone, directed-set, weak-convergence, monotone-convergence, C-saturated]
+depends_on:
+  required: [ordered-locally-convex-space, normal-cone, weak-topology]
+  recommended: [directed-set, hahn-banach-separation]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "4"
+    pages: ""
+    role_in_book: "Theorem 4.2: If a directed subset converges weakly to 0 in an ordered l.c.s. with normal cone, it converges in the original topology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

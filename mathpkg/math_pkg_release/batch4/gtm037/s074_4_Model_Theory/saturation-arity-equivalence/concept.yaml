@@ -1,0 +1,23 @@
+id: saturation-arity-equivalence
+title_en: "Equivalence of Saturation for Arbitrary Arity"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [saturation, types, arity, model-theory]
+depends_on:
+  required: [m-saturated-structure]
+  recommended: [compactness-theorem, type-realization]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: ""
+    title: "Mathematical Logic"
+    chapter: "28"
+    section: "Saturated Structures"
+    pages: ""
+    role_in_book: "Shows that the one-variable restriction in the definition of saturation is inessential; saturation with respect to 1-types implies saturation for types in any finite number of variables."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

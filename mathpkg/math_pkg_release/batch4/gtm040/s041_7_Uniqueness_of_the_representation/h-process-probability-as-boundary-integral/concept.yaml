@@ -1,0 +1,13 @@
+id: h-process-probability-as-boundary-integral
+title_en: "H-Process Probability as Integral Over Martin Boundary (Lemma 10-39)"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [h-process, martin-boundary, superregular-function, integral-representation]
+depends_on: {required: [superregular-function, martin-boundary, harmonic-measure], recommended: [k-process-definition, fubini-theorem], suggested: [measure-extension-theorem]}
+source_books: [{book_id: "gtm040", author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp", title: "Denumerable Markov Chains", chapter: "10", section: "7. Uniqueness of the representation", pages: "", role_in_book: "Lemma expressing h-process probability as integral of K-process probabilities over a boundary measure"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

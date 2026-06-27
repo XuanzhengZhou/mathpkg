@@ -1,0 +1,20 @@
+id: special-adjoint-functor-theorem
+title_en: "Special Adjoint Functor Theorem (SAFT)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [category-theory, adjoint-functor, adjoint-functor-theorem, cogenerator, complete-category, well-powered]
+depends_on: {required: [cogenerating-set, subobject, pullback, limit], recommended: [adjoint-functor-theorem, existence-of-initial-object-via-subobject-intersection], suggested: [stone-cech-compactification, watts-theorem]}
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "7. Subobjects and Generators"
+    pages: ""
+    role_in_book: "Theorem 2. One of the central existence theorems for adjoints, using a cogenerating set hypothesis."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

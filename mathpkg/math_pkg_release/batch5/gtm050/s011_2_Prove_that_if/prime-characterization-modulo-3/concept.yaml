@@ -1,0 +1,23 @@
+id: prime-characterization-modulo-3
+title_en: "Characterization of Primes Modulo 3 for the Form a^2 + 3b^2"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: basic
+tags: [prime-numbers, modulo-3, quadratic-forms, a2-plus-3b2]
+depends_on:
+  required: []
+  recommended: [modular-arithmetic]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.4"
+    pages: ""
+    role_in_book: "Classifies primes relative to the quadratic form a^2+3b^2: primes 3n+2 cannot be represented, while primes other than 3 are either 3n+1 or 3n+2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,29 @@
+id: correlation-of-projective-plane
+title_en: Correlation of a Projective Plane
+title_zh: ''
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags:
+- correlation
+- duality
+- projective-plane
+depends_on:
+  required:
+  - projective-plane
+  recommended:
+  - collineation-of-projective-plane
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '2'
+  pages: ''
+  role_in_book: Introduces the dual notion to collineation — mapping points to lines
+    and vice versa
+content_hash: 7ddc5161f367
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

@@ -1,0 +1,23 @@
+id: maillet-determinant-theorem
+title_en: "Maillet Determinant Theorem"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [maillet-determinant, class-number, cyclotomic-fields, hadamard-inequality]
+depends_on:
+  required: [least-positive-residue-r-ij, notation-r-ij-plus-minus]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "7"
+    pages: ""
+    role_in_book: "Central theorem relating the Maillet determinant to class number factors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

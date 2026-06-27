@@ -1,0 +1,23 @@
+id: regions-count-formula
+title_en: "Number of Regions in a Simple Planar Imbedding"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [planar-graph, region-count, cycle-space, betti-numbers]
+depends_on:
+  required: []
+  recommended: [cycle-space, simple-planar-imbedding, betti-numbers]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "III"
+    section: "12"
+    pages: "98-99"
+    role_in_book: "Fundamental formula connecting region count to Betti numbers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

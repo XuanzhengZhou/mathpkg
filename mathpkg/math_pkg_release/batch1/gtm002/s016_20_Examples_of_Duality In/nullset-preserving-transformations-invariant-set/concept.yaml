@@ -1,0 +1,23 @@
+id: nullset-preserving-transformations-invariant-set
+title_en: "Invariant Set Under Nullset-Preserving Transformations"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: real-analysis
+difficulty: advanced
+tags: [nullset-preserving, transformations, first-category, continuum-hypothesis, sierpinski]
+depends_on:
+  required: [nullset, first-category]
+  recommended: [continuum-hypothesis, symmetric-difference]
+  suggested: [group-of-transformations]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "20"
+    section: "20. Examples of Duality"
+    pages: "86-89"
+    role_in_book: "Proposition 20.4: For any class of c nullset-preserving transformations, there exists a first category set almost invariant under all of them"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

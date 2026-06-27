@@ -1,0 +1,23 @@
+id: quaternion-action-on-so4
+title_en: "Quaternion Action on SO(4) and Commutative Diagram"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: homotopy-theory
+difficulty: advanced
+tags: [quaternion, special-orthogonal-group, homotopy-group, real-projective-space, commutative-diagram]
+depends_on:
+  required: [so3-homeomorphic-to-rp3]
+  recommended: [quaternion-algebra, hopf-fibration]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "12"
+    pages: ""
+    role_in_book: "Describes the quaternionic description of maps from S^3 to SO(4) and SO(3)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

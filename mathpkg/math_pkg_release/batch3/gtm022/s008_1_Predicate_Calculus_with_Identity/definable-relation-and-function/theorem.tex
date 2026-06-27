@@ -1,0 +1,14 @@
+\textbf{Definition 2.11.} Let $M$ be a model of the theory $\mathcal{T}$.
+
+\begin{enumerate}
+  \item The $n$-ary relation $\rho$ on $M$ is said to be \textit{definable in $\mathcal{T}$} if $\rho = \psi(p)$ for some $n$-variable formula $p$ of $\mathcal{T}$, where
+  \[
+  \psi(p) = \{(m_1, \ldots, m_n) \in M^n \mid p(m_1, \ldots, m_n) \text{ is true in } M\}.
+  \]
+  
+  \item The function $f: M^n \to M$ is called a \textit{definable function} if there is an $(n + 1)$-variable formula $p$ of $\mathcal{T}$ such that
+  \begin{enumerate}
+    \item[(i)] for all $a_1, \ldots, a_n, b \in M$, $f(a_1, \ldots, a_n) = b$ if and only if $p(a_1, \ldots, a_n, b)$ is true, and
+    \item[(ii)] $\mathcal{T} \vdash (\forall x_1) \cdots (\forall x_n)(\exists! y)\, p(x_1, \ldots, x_n, y)$.
+  \end{enumerate}
+\end{enumerate}

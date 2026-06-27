@@ -1,0 +1,14 @@
+id: marczewski-theorem
+title_en: "Marczewski's Theorem on Finitely-Supported Product Families"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [Marczewski, separating-family, cardinality-bound, product-space, chain-condition]
+depends_on: {required: [separating-family-cardinal-bound], recommended: [quasi-disjoint, erdos-rado], suggested: []}
+source_books:
+  - {book_id: "gtm008", author: "Gaisi Takeuti, Wilson M. Zaring", title: "Axiomatic Set Theory", chapter: "5", section: "21. A Proof of Marczewski's Theorem", pages: "", role_in_book: "Theorem 21.5 (Marczewski): bounds the cardinality of a finitely-supported product family by γ; the main result of the section, proved via Corollary 21.4. [RECONSTRUCTED — theorem statement inferred from proof context; the original statement is embedded in the proof text and the section title]"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

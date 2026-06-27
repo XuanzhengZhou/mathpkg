@@ -1,0 +1,23 @@
+id: soundness-theorem
+title_en: "Soundness Theorem — Syntactic Implication implies Semantic Implication (Lemma 11.8)"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: first-order-logic
+difficulty: intermediate
+tags: [soundness, logical-implication, semantic-consequence, formal-proof, validity, logical-axiom, universal-validity]
+depends_on:
+  required: [formal-proof, formula-denotation, logical-axiom, tautology]
+  recommended: [sentential-model, universal-validity]
+  suggested: [deduction-theorem, completeness-theorem]
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "11"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Establishes soundness of first-order logic: every syntactically provable formula is semantically valid"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $(h_n, \mathcal{R}_n) \sim h$, then $(h_n, \mathcal{R}_n)$ is a supermartingale (martingale) if and only if $h$ is superregular (regular) and $P^k h$ is finite-valued for all $k$.

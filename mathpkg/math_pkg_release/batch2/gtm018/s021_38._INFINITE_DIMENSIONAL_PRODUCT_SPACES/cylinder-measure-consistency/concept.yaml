@@ -1,0 +1,30 @@
+id: cylinder-measure-consistency
+title_en: "Consistency of Finite-Dimensional Cylinder Measures"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags:
+  - cylinder-set
+  - product-measure
+  - consistency
+  - finite-dimensional-approximation
+depends_on:
+  required:
+    - cylinder-representation
+    - finite-product-measure
+  recommended:
+    - measurable-set-in-infinite-product-space
+  suggested: []
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX"
+    section: "38. Infinite Dimensional Product Spaces"
+    pages: ""
+    role_in_book: "Shows that the finite-dimensional projections of a cylinder have consistent measures, paving the way for the definition of the product set function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: maximum-principle-markov-potential-theory
+title_en: "Maximum Principle for Markov Potential Theory"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [maximum-principle, potential-theory, regular-function, absorbing-chain]
+depends_on:
+  required: [dirichlet-problem-denumerable-markov-chains]
+  recommended: [bounded-nonzero-regular-function-absorbing-chain]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "8"
+    section: "4"
+    pages: "220-225"
+    role_in_book: "Theorem 8-42; maximum principle for functions satisfying h = B^E h"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

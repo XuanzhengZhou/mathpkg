@@ -1,0 +1,23 @@
+id: criterion-for-distributive-law-via-zero-product
+title_en: "Criterion for the (I,J)-Distributive Law via Zero Products"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: boolean-algebras
+difficulty: advanced
+tags: [boolean-algebras, distributive-law, criterion, zero-product]
+depends_on:
+  required: []
+  recommended: [distributive-law, complete-boolean-algebra]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti and Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "18"
+    section: "Model Theoretic Consequences of the Distributive Laws"
+    pages: ""
+    role_in_book: "Remark 2 — provides a reduced criterion for the (I,J)-distributive law: one only needs to check that the Boolean product of sums vanishes whenever all products along selection functions vanish"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

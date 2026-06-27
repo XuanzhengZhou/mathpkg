@@ -1,0 +1,11 @@
+For the basic example Markov chain $P$ (transient case, $\beta_\infty > 0$):
+
+\textbf{Forward chain $P$:} Only finite sets are equilibrium sets. For a finite set $E$ with maximum element $m$, the equilibrium potential $h^E$ and equilibrium charge $e^E = (I-P)h^E$ are given by
+$$h_i^E = \begin{cases} 1 & \text{if } i \in E \\ \dfrac{\beta_\infty}{\beta_i} & \text{if } i > m \\ 0 & \text{otherwise,} \end{cases} \qquad e_i^E = \begin{cases} \dfrac{\beta_\infty}{\beta_m} & \text{if } i = m \\ 0 & \text{otherwise.} \end{cases}$$
+All non-empty finite sets have capacity $C(E) = \beta_\infty$. If $E$ is infinite, then $h^E = 1$ and $e^E = 0$, so $E$ is not an equilibrium set.
+
+\textbf{Reverse chain $\hat{P}$:} Every set $E$ (finite or infinite) is an equilibrium set for $\hat{P}$. For a set $E$ with least element $m$, the equilibrium potential is
+$$\hat{h}_i^E = \begin{cases} 1 & \text{if } i \geq m \\ 1 - \dfrac{\beta_\infty}{\beta_m} & \text{if } i < m, \end{cases}$$
+and the equilibrium charge is concentrated at $m$:
+$$\hat{e}_m^E = \frac{\beta_\infty}{\beta_m}, \quad \hat{e}_i^E = 0 \text{ for } i \neq m.$$
+When $m = 0$, $\hat{e}_0^E = \beta_\infty / \beta_0 = \beta_\infty$.

@@ -1,0 +1,23 @@
+id: taylor-radius-distance-boundary
+title_en: "Power Series Radius Equals Distance to Boundary"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [taylor-series, radius-of-convergence, distance-to-boundary, analytic-continuation]
+depends_on:
+  required: [taylor-expansion-analytic-functions]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "2.11"
+    pages: ""
+    role_in_book: "Relates the radius of convergence of the Taylor series to the distance to the boundary of the domain"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: mols-normal-form
+title_en: "MOLS Normal Form"
+title_zh: "正交拉丁方组的标准形"
+type: proposition
+domain: combinatorics
+subdomain: latin-squares
+difficulty: basic
+tags: [mols, normal-form, equivalence, latin-square]
+depends_on:
+  required: [equivalent-latin-squares, orthogonal-latin-squares]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "5"
+    section: "5. Latin Squares"
+    pages: ""
+    role_in_book: "Property 1 — any set of MOLS can be put in normal form"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

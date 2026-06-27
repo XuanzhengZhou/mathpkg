@@ -1,0 +1,18 @@
+Let $\mathcal{P}$ be a finite collection $\{(\gamma, m, e)\}$ of particles. Assume each $\gamma \in \mathcal{P}$ that has a future endpoint also contains it (i.e., if $\gamma: \mathcal{E} \rightarrow M$ has a future endpoint then $\operatorname{lub} \mathcal{E} \in \mathcal{E}$, in particular $\operatorname{lub} \mathcal{E} < \infty$), and dually for past endpoints.
+
+\begin{enumerate}
+  \item $x \in M$ is a \textbf{collision event} for $\mathcal{P}$ iff $x$ is an endpoint, future or past, for some $\gamma \in \mathcal{P}$.
+  \item $\gamma \in \mathcal{P}$ is \textbf{destroyed} ($\equiv$ \textbf{incoming}) at $x$ iff $x$ is the future endpoint of $\gamma$. Then $\gamma(b) = x$ for $b = \max \mathcal{E}$, and $\gamma_*b$ is well-defined.
+  \item $\gamma \in \mathcal{P}$ is \textbf{created} ($\equiv$ \textbf{outgoing}) at $x$ iff $x$ is the past endpoint of $\gamma$. Then $\gamma_*(a)$ for $a = \operatorname{glb} \mathcal{E}$ is well-defined.
+  \item $\operatorname{in}(x) \subset \mathcal{P}$ denotes the subset of particles destroyed at $x$, and $\operatorname{out}(x)$ is defined dually.
+\end{enumerate}
+
+$\mathcal{P}$ is a \textbf{consistent particle set} iff the following hold at every collision event $x$:
+
+\begin{enumerate}
+  \item[(a)] \textbf{Conservation of total 4-momentum:}
+    $$\sum_{\gamma \in \operatorname{in}(x)} \gamma_* = \sum_{\gamma \in \operatorname{out}(x)} \gamma_*.$$
+  \item[(b)] \textbf{Conservation of total charge:}
+    $$\sum_{\gamma \in \operatorname{in}(x)} e_\gamma = \sum_{\gamma \in \operatorname{out}(x)} e_\gamma,$$
+    where $e_\gamma$ denotes the electric charge of particle $\gamma$.
+\end{enumerate}

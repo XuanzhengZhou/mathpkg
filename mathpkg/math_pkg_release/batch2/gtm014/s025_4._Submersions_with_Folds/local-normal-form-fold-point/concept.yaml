@@ -1,0 +1,23 @@
+id: local-normal-form-fold-point
+title_en: "Local Normal Form for Fold Points"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: singularity-theory
+difficulty: advanced
+tags: ["fold-point", "normal-form", "local-coordinates", "morse-lemma", "whitney"]
+depends_on:
+  required: ["fold-point", "morse-lemma"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "§4. Submersions with Folds"
+    pages: ""
+    role_in_book: "Gives the canonical local coordinate representation near a fold point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

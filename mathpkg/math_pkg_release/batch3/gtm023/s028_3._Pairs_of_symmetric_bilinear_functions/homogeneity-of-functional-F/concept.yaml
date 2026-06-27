@@ -1,0 +1,23 @@
+id: homogeneity-of-functional-F
+title_en: "Homogeneity of the functional defined by the path-independent integral"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [symmetric-bilinear-form, functional, homogeneity, line-integral]
+depends_on:
+  required: [path-independence-of-integral-J]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "3. Pairs of symmetric bilinear functions"
+    pages: ""
+    role_in_book: "Establishes homogeneity of F, needed for the minimax argument"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

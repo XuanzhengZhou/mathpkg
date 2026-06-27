@@ -1,0 +1,23 @@
+id: z-ultrafilter-product-lemma
+title_en: "Fixedness of z-Ultrafilters on Products"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [z-ultrafilter, product-space, projection, tau-sharp, fixed-filter]
+depends_on:
+  required: [z-ultrafilter, product-space, tau-sharp-mapping, z-filter-fixed-free]
+  recommended: [compactness-via-fixed-ideals]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4.13"
+    pages: ""
+    role_in_book: "A key lemma for proving the Tychonoff product theorem via z-filters: if each projection of a z-ultrafilter on a product is fixed, then the ultrafilter itself is fixed."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

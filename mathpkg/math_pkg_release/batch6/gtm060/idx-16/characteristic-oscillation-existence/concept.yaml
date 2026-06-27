@@ -1,0 +1,23 @@
+id: characteristic-oscillation-existence
+title_en: "Existence of Characteristic Oscillation for Positive Eigenvalue"
+title_zh: "正特征值的特征振动存在性"
+type: corollary
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [characteristic-oscillation, eigenvalue, eigenvector, small-oscillations, normal-mode]
+depends_on:
+  required: [small-oscillations-direct-product-decomposition]
+  recommended: [eigenvalues, eigenvectors, linear-algebra]
+  suggested: [normal-modes]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "5"
+    section: "Small Oscillations"
+    pages: "116"
+    role_in_book: "Describes the form of a characteristic oscillation for a positive eigenvalue"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

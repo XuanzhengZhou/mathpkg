@@ -1,0 +1,13 @@
+\textbf{Definition 8.34.} Let $\langle \varphi_0, \ldots, \varphi_{m-1} \rangle$ be a finite sequence of sentences. Define
+
+$$\bigvee_{i < m} \varphi_i = \varphi_0 \lor \varphi_1 \lor \cdots \lor \varphi_{m-1},$$
+
+$$\bigwedge_{i < m} \varphi_i = \varphi_0 \land \varphi_1 \land \cdots \land \varphi_{m-1},$$
+
+with the natural inductive definitions:
+\begin{align*}
+\bigvee_{i < 0} \varphi_i &= \bot \quad (\text{falsum}),\\
+\bigvee_{i < m+1} \varphi_i &= \left(\bigvee_{i < m} \varphi_i\right) \lor \varphi_m,\\[4pt]
+\bigwedge_{i < 0} \varphi_i &= \top \quad (\text{verum}),\\
+\bigwedge_{i < m+1} \varphi_i &= \left(\bigwedge_{i < m} \varphi_i\right) \land \varphi_m.
+\end{align*}

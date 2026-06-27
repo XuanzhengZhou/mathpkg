@@ -1,0 +1,23 @@
+id: degenerate-plane
+title_en: "Degenerate Plane"
+title_zh: "退化平面"
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags: [degenerate-plane, closed-configuration, incidence-geometry]
+depends_on:
+  required: [closed-configuration]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "3"
+    section: "2. Basic Concepts"
+    pages: "88-92"
+    role_in_book: "Defines what is excluded from being a proper projective plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

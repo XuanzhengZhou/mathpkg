@@ -1,0 +1,11 @@
+The \textit{transition probability} $P_{jk}^{m,n}$ of passage from state $j$ at time $m$ to state $k$ at time $m + n$ satisfies
+
+$$P_{jk}^{m,n} \geq 0, \quad \sum_k P_{jk}^{m,n} = 1.$$
+
+The \textit{Chapman-Kolmogorov equation} holds:
+
+$$P_{jk}^{m,n+n'} = \sum_h P_{jh}^{m,n} P_{hk}^{m+n,n'},$$
+
+or in matrix notation, $P^{m,n+n'} = P^{m,n} P^{m+n,n'}$.
+
+A chain is \textit{constant} (time-homogeneous) if $P_{jk}^{m,n}$ is independent of $m$, denoted $P_{jk}^n$.

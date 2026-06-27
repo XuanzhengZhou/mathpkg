@@ -1,0 +1,23 @@
+id: special-linear-group
+title_en: "Special Linear Group SL(V)"
+title_zh: "特殊线性群SL(V)"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [special-linear, determinant, unimodular, matrix-group]
+depends_on:
+  required: [general-linear-group]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "4. Vector Spaces"
+    pages: ""
+    role_in_book: "Subgroup of GL(V) of determinant-1 transformations; important for classical groups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: riemann-mapping-lemma
+title_en: "Riemann Mapping Lemma"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [riemann-mapping, conformal-equivalence, normal-families, montel-theorem, hurwitz-theorem]
+depends_on:
+  required: [conformally-equivalent, analytic-function]
+  recommended: [montel-theorem, hurwitz-theorem, mobius-transformation]
+  suggested: [normal-family, equicontinuity]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VII"
+    section: "4"
+    pages: ""
+    role_in_book: "The key lemma that proves the Riemann Mapping Theorem by a normal families argument"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

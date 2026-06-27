@@ -1,0 +1,23 @@
+id: theorem-1664-two-supplementary-equivalence-relations-finitely-inseparable
+title_en: "Theorem 16.64: The Theory of Two Supplementary Equivalence Relations is Finitely Inseparable"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: mathematical-logic
+difficulty: advanced
+tags: [finite-inseparability, supplementary-equivalence-relations, undecidability]
+depends_on:
+  required: []
+  recommended: [theorem-1656-two-equivalence-relations-finitely-inseparable]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "Part 3"
+    section: "Decidable and Undecidable Theories"
+    pages: ""
+    role_in_book: "Establishes that the theory of two equivalence relations E and F which are supplementary (for any x,y there exists z with xEzFy) is finitely inseparable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

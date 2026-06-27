@@ -1,0 +1,23 @@
+id: right-sesquilinear-form
+title_en: "Right Sesquilinear Form"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: sesquilinear-forms
+difficulty: intermediate
+tags: [sesquilinear-form, semi-linear-mapping, right-sesquilinear, field-automorphism]
+depends_on:
+  required: [left-sesquilinear-form]
+  recommended: [semi-linear-mapping, bilinear-form]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "B"
+    section: "B"
+    pages: ""
+    role_in_book: "Defines right sesquilinear forms by interchanging the variables of a left sesquilinear form"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

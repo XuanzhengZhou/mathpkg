@@ -1,0 +1,23 @@
+id: recursive-enumerability-of-descriptive-validity
+title_en: "Recursive Enumerability of Valid Descriptive Sentences"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: descriptive-operator
+difficulty: advanced
+tags: [descriptive-triple, recursive-enumerability, eliminability, tau-operator]
+depends_on:
+  required: [eliminability-of-descriptions]
+  recommended: [descriptive-triple]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "29"
+    section: "5. Unusual Logics"
+    pages: ""
+    role_in_book: "Establishes that the set of valid sentences in a descriptive triple is recursively enumerable, enabling proof-theoretic development of the tau-operator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

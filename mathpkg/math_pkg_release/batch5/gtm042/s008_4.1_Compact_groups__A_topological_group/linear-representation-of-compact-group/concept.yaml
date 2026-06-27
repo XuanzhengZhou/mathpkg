@@ -1,0 +1,23 @@
+id: linear-representation-of-compact-group
+title_en: "Linear Representation of a Compact Group"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [linear-representation, compact-group, continuity, homomorphism, GL(V)]
+depends_on:
+  required: [compact-group, topological-group]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "4"
+    section: "4.3 Linear representations of compact groups"
+    pages: ""
+    role_in_book: "Extends the definition of linear representation from finite groups to compact groups by adding a continuity condition."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

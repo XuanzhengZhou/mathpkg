@@ -1,0 +1,23 @@
+id: equivalence-of-symplectic-inner-products
+title_en: "Equivalence of Symplectic Inner Products"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [symplectic, inner-product, automorphism, dimension-formula, selfadjoint, skew-symplectic]
+depends_on:
+  required: [symplectic-inner-product, symplectic-linear-transformation, symplectic-basis]
+  recommended: [even-dimensionality-of-symplectic-spaces]
+  suggested: [symplectic-group, lie-algebra-of-symplectic-group]
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "7"
+    pages: "347-352"
+    role_in_book: "Shows that any two symplectic inner products are related by a linear automorphism with prescribed block matrix structure, and computes the dimensions of symplectic selfadjoint and skew-symplectic transformations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

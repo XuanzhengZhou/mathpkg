@@ -1,0 +1,93 @@
+7 allows us to so choose $\delta$, given any $\epsilon > 0$, since the random walk has mean zero (being recurrent). Using (6) to estimate $f_{\delta}(x, \theta)$,
+
+$$\lim_{x \to +\infty} f_{\delta}(x, \theta) \leq \lim_{x \to +\infty} \frac{2}{\sigma^2 \pi x} \int_{-\delta}^{\delta} \frac{1 - \cos x \theta}{\theta^2} d\theta$$
+
+$$+ \lim_{x \to +\infty} \frac{1}{\pi x} \int_{-\delta}^{\delta} [1 - \cos x \theta] \left| \frac{2}{\sigma^2 \theta^2} - \frac{1}{1 - \phi(\theta)} \right| d\theta$$
+
+$$\leq \frac{2}{\sigma^2} \cdot \frac{1}{\pi} \int_{-\infty}^{\infty} \frac{1 - \cos t}{t^2} dt + \frac{\epsilon}{\pi} \lim_{x \to +\infty} \int_{-\delta}^{\delta} \frac{1 - \cos x \theta}{\theta^2 x} d\theta$$
+
+$$= \frac{2}{\sigma^2} + \epsilon.$$
+
+The same argument gives the underestimate
+
+$$\lim_{x \to +\infty} f_{\delta}(x, \theta) \geq \frac{2}{\sigma^2} - \epsilon$$
+
+and since $\epsilon$ is arbitrary, the proof of P4 is complete.
+
+Now we are ready to begin to prove that $a_n(x)$ converges for random walk of type I. In P2 we shall specialize to the set $C = \{0, 1\}$, and introduce the notation
+
+(1) $$\Pi_C(0, 1) = \Pi, \quad H_C(x, 0) = H(x),$$
+
+$$\sum_{t \in R} P_{n+1}(x, t) H_C(t, 0) = \sum_{t \in R} P_{n+1}(x, t) H(t) = f_n(x), \quad x \in R.$$
+
+Then P2, with
+
+If we call
+
+$$\lim_{n' \to \infty} f_{n'}(x) = f'(x),$$
+
+it is seen from (4) that
+
+(5) $$\lim_{n' \to \infty} f_{n'+1}(x) = \sum_{y \in R} P(x,y)f'(y), \quad x \in R.$$
+
+On the other hand, (2) gives
+
+$$f_{n+1}(x) - f_n(x) = [a_{n+1}(x) - a_n(x)]\Pi - [a_{n+1}(x-1) - a_n(x-1)]\Pi$$
+
+$$= [P_{n+1}(x-1,0) - P_{n+1}(x,0)]\Pi,$$
+
+and the last term tends to zero as $n \to \infty$ (by P7.6).
+
+Therefore
+
+$$\lim_{n' \to \infty} f_{n'+1}(x) = \lim_{n' \to \infty} f_{n'}(x) = f'(x),$$
+
+so that (5) becomes
+
+(6) $$f'(x) = \sum_{y \in R} P(x,y)f'(y), \quad x \in R.$$
+
+Thus $f'(x)$ is a bounded regular function. By either P13.1 or T24.1 it is then a constant, which we shall denote $f'$.
+
+The next step is to sum equation (3) over $x = 1, 2, \ldots, r$, where $r$ is an arbitrary positive integer. The result is
+
+(7) $$rf' = \sum_{x=1}^{r} H(x) + \Pi\alpha'(r), \quad r > 0.$$
+
+Similarly, summing (3) over $x = 0, -1, -2, \ldots, -r + 1,$
+
+(8) $$rf' = \sum_{x=-r+1}^{0} H(x) - \Pi\alpha'(-r), \quad r > 0.$$
+
+At this point let us assume that $\lim_{n \to \infty} a_n(x)$ does not exist for some
+
+at least at one point $x_0 \neq 0$ in $R$. (The origin is excluded since $a_n(0) = 0$ for each $n$.) In order to arrive at a contradiction, we shall apply the same argument which led to equations (7) and (8) to the sequence $n''$, and call
+
+$$\lim_{n'' \to \infty} f_{n''}(x) = f''.$$
+
+Now we subtract the $n''$-version of equation (7) from equation (7). This gives
+
+(10) $$r(f' - f'') = \Pi[\alpha'(r) - \alpha''(r)], \quad r > 0.$$
+
+Similarly, equation (8) gives
+
+(11) $$r(f' - f'') = -\Pi[\alpha'(-r) - \alpha''(-r)], \quad r > 0.$$
+
+Since $\Pi \neq 0$, equations (9), (10), and (11) imply that $f' \neq f''$; this may be seen by setting $r = x_0$ in (10) if $x_0 > 0$; otherwise by setting $r = -x_0$ in (11). Suppose now, as one may without loss of generality, that $f' > f''$. Then equation (10) gives
+
+$$\alpha'(r) \geq \frac{r}{\Pi}(f' - f''), \quad r > 0,$$
+
+and therefore also
+
+(12) $$\frac{\alpha'(r) + \alpha'(-r)}{r} \geq \frac{1}{\Pi}(f' - f'') > 0, \quad r > 0.$$
+
+But
+
+$$\alpha'(r) + \alpha'(-r) = \lim_{n \to \infty}[a_n(r) + a_n(-r)]$$
+
+which was shown to exist in P4, part (a). Therefore equation (12) implies
+
+(13) $$\lim_{r \to +\infty} \frac{1}{r} \lim_{n \to \infty}[a_n(r) + a_n(-r)] > 0,$$
+
+which contrad
+
+must travel by a different route. Although it will lead to the desired result, it should be noted that it uses arguments which fail for type I random walk. Specifically, we shall need to use T18.1 which asserts that the ladder random variable $Z$ of a random walk of type II has finite expected value.
+
+Our first goal is

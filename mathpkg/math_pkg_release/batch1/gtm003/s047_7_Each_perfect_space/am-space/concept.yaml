@@ -1,0 +1,23 @@
+id: am-space
+title_en: "(AM)-Space (Abstract M-Space)"
+title_zh: "抽象M空间"
+type: definition
+domain: analysis
+subdomain: banach-lattices
+difficulty: advanced
+tags: [banach-lattice, supremum-norm, kakutani, positive-cone]
+depends_on:
+  required: []
+  recommended: [banach-lattice, positive-cone, supremum]
+  suggested: [am-space-with-unit, al-space]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "V: Order Structures"
+    section: "8. Stone-Weierstrass and Representation Theorems"
+    pages: ""
+    role_in_book: "defines Banach lattices whose norm respects the lattice supremum on the positive cone"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

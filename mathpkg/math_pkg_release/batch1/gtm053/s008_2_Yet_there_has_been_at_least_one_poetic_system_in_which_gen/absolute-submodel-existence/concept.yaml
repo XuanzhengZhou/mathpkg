@@ -1,0 +1,23 @@
+id: absolute-submodel-existence
+title_en: "Existence of Absolute Submodel (Löwenheim–Skolem Absoluteness)"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [lowenheim-skolem, absoluteness, submodel, cardinality-bound]
+depends_on:
+  required: [absolute-formula]
+  recommended: [interpretation, cardinality, formula]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "I"
+    section: "7"
+    pages: ""
+    role_in_book: "Key proposition leading to the downward Löwenheim–Skolem theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

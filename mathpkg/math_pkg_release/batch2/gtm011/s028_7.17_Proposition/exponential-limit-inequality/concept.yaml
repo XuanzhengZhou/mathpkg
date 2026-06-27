@@ -1,0 +1,23 @@
+id: exponential-limit-inequality
+title_en: "Exponential Limit and Inequality via the Compound-Interest Sequence"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [exponential-function, limit-representation, inequality, uniform-convergence]
+depends_on:
+  required: []
+  recommended: [exponential-function, complex-logarithm, uniform-convergence-on-compact-sets]
+  suggested: [gamma-function, eulers-constant]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "7"
+    section: "7.17"
+    pages: ""
+    role_in_book: "Provides the exponential limit formula and a key inequality used in the proof of Theorem 7.15 (Gauss product formula for the Gamma function)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: cartesian-closed-category
+title_en: "Cartesian Closed Category"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [cartesian-closed-category, exponential-object, adjoint-functor]
+depends_on:
+  required: [category, product, terminal-object, adjunction]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IV"
+    section: "6"
+    pages: ""
+    role_in_book: "Category with terminal object, binary products, and exponentials"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

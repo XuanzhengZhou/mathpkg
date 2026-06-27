@@ -1,0 +1,21 @@
+Let $G$ be a region and let $f$ be an analytic function on $G$ with zeros $a_1, \ldots, a_m$ (repeated according to multiplicity). If $\gamma$ is a closed rectifiable curve in $G$ which does not pass through any point $a_k$ and if $\gamma \approx 0$ in $G$ then
+
+$$\frac{1}{2\pi i} \int_{\gamma} \frac{f'(z)}{f(z)} \, dz = \sum_{k=1}^{m} n(\gamma; a_k)
+
+As another illustration, let $\gamma : [0, 1] \to G$ be a closed rectifiable curve in $\mathbb{C}$, $\gamma \approx 0$. Suppose that $f$ is analytic in $G$. Then $f \circ \gamma = \sigma$ is a closed rectifiable curve in $\mathbb{C}$ (Exercise 1). Suppose that $\alpha$ is some complex number with $\alpha \notin \{\sigma\} = f(\{\gamma\})$, and let us calculate $n(\sigma; \alpha)$. We get
+
+$$n(\sigma; \alpha) = \frac{1}{2\pi i} \int_{\sigma} \frac{dw}{w - \alpha}$$
+
+$$= \frac{1}{2\pi i} \int_{\gamma} \frac{f'(z)}{f(z) - \alpha} dz$$
+
+$$= \sum_{k=1}^{m} n(\gamma; a_k)$$
+
+where $a_k$ are the points in $G$ with $f(a_k) = \alpha$. (To show the second equality above takes a little effort, although for $\gamma$ smooth it is easy. The details are left to the reader.)
+
+Note. It may be that there are infinitely many points in $G$ that satisfy the equation $f(z) = \alpha$. However, from what we have proved, all limit points of this sequence must lie on the boundary of $G$. It follows that $n(\gamma; z) \neq 0$ for at most a finite number of solutions of $f(z) = \alpha$. (See Exercise 2.)
+
+Now if $\beta$ in $\mathbb{C} - \{\sigma\}$ belongs to the same component of $\mathbb{C} - \{\sigma\}$ as does $\alpha$, then $n(\sigma; \alpha) = n(\sigma; \beta)$; or,
+
+$$\sum_{k} n(\gamma; z_k(\alpha)) = \sum_{j} n(\gamma; z_j(\beta))$$
+
+where $z_k(\alpha)$ and $z_j(\beta)$ are the points in $G$ that satisfy $f(z) = \alpha$ and $f(z) = \beta$ respectively. If we had chosen $\gamma$ so that $n(\gamma; z_k(\alpha

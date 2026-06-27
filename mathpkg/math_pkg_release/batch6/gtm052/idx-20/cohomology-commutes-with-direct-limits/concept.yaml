@@ -1,0 +1,23 @@
+id: cohomology-commutes-with-direct-limits
+title_en: "Sheaf cohomology commutes with direct limits on noetherian spaces"
+title_zh: "诺特空间上层上同调与正向极限交换"
+type: proposition
+domain: geometry
+subdomain: sheaf-cohomology
+difficulty: advanced
+tags: [cohomology, direct-limit, noetherian, sheaf]
+depends_on:
+  required: []
+  recommended: [flasque-sheaf, direct-limit-of-flasque-sheaves, derived-functor-cohomology]
+  suggested: [grothendieck-vanishing-theorem]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "§2 Cohomology of Sheaves"
+    pages: "208-209"
+    role_in_book: "Proposition 2.9 — cohomology commutes with direct limits on noetherian topological spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

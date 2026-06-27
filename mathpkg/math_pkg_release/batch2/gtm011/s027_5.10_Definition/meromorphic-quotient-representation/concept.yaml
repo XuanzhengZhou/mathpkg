@@ -1,0 +1,23 @@
+id: meromorphic-quotient-representation
+title_en: "Meromorphic Function as Quotient of Analytic Functions"
+title_zh: "亚纯函数表示为解析函数的商"
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [meromorphic-function, quotient-representation, analytic-function, poles, zeros]
+depends_on:
+  required: [weierstrass-product-theorem, meromorphic-function]
+  recommended: [removable-singularity]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "5"
+    section: "5.20"
+    pages: ""
+    role_in_book: "Shows H(G) is an integral domain whose quotient field is M(G)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

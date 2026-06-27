@@ -1,0 +1,12 @@
+---
+role: exercise
+locale: en
+chapter: "3"
+section: "7. Problems"
+exercise_number: 1
+---
+
+1. Show that if $\{f_n\}$ are denumerable-valued independent random variables, then
+$$M[f_{n+1} \mid f_0 \wedge \cdots \wedge f_n] = M[f_{n+1}].$$
+Show also that
+$$\Pr[f_0 \in A_0 \wedge f_1 \in A_1 \wedge \cdots \wedge f_n \in A_n] = \Pr[f_0 \in A_0] \cdots \Pr[f_n \in A_n].$$

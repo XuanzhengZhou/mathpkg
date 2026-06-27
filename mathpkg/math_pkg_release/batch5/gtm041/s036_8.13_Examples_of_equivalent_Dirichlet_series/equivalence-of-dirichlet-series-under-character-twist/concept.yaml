@@ -1,0 +1,23 @@
+id: equivalence-of-dirichlet-series-under-character-twist
+title_en: "Equivalence of Dirichlet series under Dirichlet character twist"
+title_zh: "Dirichlet级数在Dirichlet特征乘子下的等价性"
+type: theorem
+domain: number-theory
+subdomain: dirichlet-series
+difficulty: intermediate
+tags: [dirichlet-series, dirichlet-character, bohr-equivalence, L-series, multiplicative-function]
+depends_on:
+  required: []
+  recommended: [bohr-equivalence-theorem-ordinary-dirichlet-series]
+  suggested: [dirichlet-character, completely-multiplicative-function]
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "8"
+    section: "8.13"
+    pages: "184"
+    role_in_book: "Demonstrates Bohr equivalence between a Dirichlet series and its twist by a Dirichlet character, when coefficients are supported on integers coprime to the modulus."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

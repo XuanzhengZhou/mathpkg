@@ -1,0 +1,23 @@
+id: positive-definite-bilinear-form
+title_en: "Positive Definite Bilinear Form"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: bilinear-forms
+difficulty: basic
+tags: [bilinear-form, positive-definite, semi-definite, real, quadratic-form]
+depends_on:
+  required: [symmetric-bilinear-form, real-numbers]
+  recommended: [quadratic-form]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K.W. Gruenberg, A.J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "5.3"
+    pages: "105"
+    role_in_book: "Defines positive (semi-)definite real symmetric bilinear forms and quadratic forms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

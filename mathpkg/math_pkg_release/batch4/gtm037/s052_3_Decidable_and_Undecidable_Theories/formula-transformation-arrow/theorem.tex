@@ -1,0 +1,19 @@
+Let $\mathcal{L}$ be a first-order language. With any formula $\varphi$ of $\mathcal{L}$ we associate a new formula $\varphi \rightarrow$ as follows. If $\varphi$ is atomic, let $\varphi \rightarrow = \neg \varphi$. Further, let
+
+$$
+(\neg \varphi) \rightarrow = \varphi
+$$
+
+$$
+(\varphi \lor \psi) \rightarrow = \neg \varphi \land \neg \psi
+$$
+
+$$
+(\varphi \land \psi) \rightarrow = \neg \varphi \lor \neg \psi
+$$
+
+$$
+(\forall \alpha \varphi) \rightarrow = \exists \alpha \neg \varphi
+$$
+
+We may say that $\varphi \rightarrow$ is obtained from $\neg \varphi$ by shoving the negation sign one step inside, if possible, and eliminating an initial double negation.

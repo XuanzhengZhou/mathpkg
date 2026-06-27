@@ -1,0 +1,23 @@
+id: augmented-cech-complex
+title_en: "Augmented Čech Complex"
+title_zh: "增广切赫复形"
+type: theorem
+domain: topology
+subdomain: sheaf-cohomology
+difficulty: intermediate
+tags: ["Čech complex", "augmentation", "exact sequence", "cochain complex"]
+depends_on:
+  required: ["alternating-cech-cochain", "cech-coboundary-operator"]
+  recommended: ["cochain-complex", "exact-sequence"]
+  suggested: ["sheaf-cohomology", "global-sections-functor"]
+source_books:
+  - book_id: "gtm038"
+    author: "Raghavan Narasimhan"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Fundamental property linking global sections to the Čech complex"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

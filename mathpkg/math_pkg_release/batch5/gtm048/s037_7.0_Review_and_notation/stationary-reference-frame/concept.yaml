@@ -1,0 +1,23 @@
+id: stationary-reference-frame
+title_en: "Stationary Reference Frame"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [stationary, reference-frame, Killing-vector-field, time-independence, Lie-derivative]
+depends_on:
+  required: [reference-frame, Killing-vector-field]
+  recommended: [stationary-spacetime]
+  suggested: [static-reference-frame]
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "7"
+    section: "7.2"
+    pages: ""
+    role_in_book: "Definition of a stationary reference frame as part of the characterization of time-independent spacetimes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

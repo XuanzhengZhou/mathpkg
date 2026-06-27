@@ -1,0 +1,16 @@
+A simplicial object in a category $X$ is a functor $S : \Delta^{\text{op}} \rightarrow X$. Writing this functor as
+
+$$n + 1 \mapsto S_n, \quad \delta_i \mapsto d_i, \quad \sigma_j \mapsto s_j,$$
+
+a simplicial object may be described as a sequence $S_0, S_1, \ldots, S_n, \ldots$ of objects of $X$ (where $S_n$ is the object of $n$-simplices) together with arrows
+
+- face operators $d_i : S_n \rightarrow S_{n-1}$ for $i = 0, \ldots, n$ and $n > 0$,
+- degeneracy operators $s_i : S_n \rightarrow S_{n+1}$ for $i = 0, \ldots, n$ and $n \geq 0$,
+
+satisfying the simplicial identities
+
+$$d_i d_{j+1} = d_j d_i, \quad i \leq j$$
+
+$$s_{j+1} s_i = s_i s_j \quad i \leq j$$
+
+$$d_i s_j = \begin{cases} s_{j-1} d_i, & i < j \\ 1, & i = j, j + 1 \\ s_j d_{i-1} & i > j + 1. \end{cases}$$

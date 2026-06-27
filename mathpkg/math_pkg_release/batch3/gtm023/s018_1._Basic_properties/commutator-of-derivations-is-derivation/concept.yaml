@@ -1,0 +1,23 @@
+id: commutator-of-derivations-is-derivation
+title_en: "Commutator of Derivations is a Derivation"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: derivations
+difficulty: intermediate
+tags: [derivation, commutator, lie-algebra]
+depends_on:
+  required: [derivation-in-algebra]
+  recommended: [commutator]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "5"
+    section: "§1. Basic properties"
+    pages: "167"
+    role_in_book: "shows that the commutator of two derivations is again a derivation, giving the space of derivations a Lie algebra structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

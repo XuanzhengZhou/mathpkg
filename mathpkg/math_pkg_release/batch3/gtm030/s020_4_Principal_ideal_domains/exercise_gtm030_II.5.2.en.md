@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "II"
+section: "5"
+exercise_number: 2
+---
+
+Let $\mathfrak{A}$ be the totality of complex numbers $m + n\sqrt{-3}$ where $m$ and $n$ are either both integers or both halves of odd integers. Show that $\mathfrak{A}$ is a ring relative to the usual addition and multiplication. Prove that $\mathfrak{A}$ is Euclidean.

@@ -1,0 +1,8 @@
+For a probability distribution concentrated on the non-negative integers with $P(X = k) = p_k$, the \textbf{generating function} is defined as
+$$g(s) = \sum_{k=0}^{\infty} p_k s^k = E(s^X), \quad |s| \leq 1.$$
+
+The \textbf{$r$-th factorial moment} is given by
+$$E[X(X-1) \cdots (X-r+1)] = \lim_{s \to 1-} \frac{d^r}{ds^r} g(s).$$
+
+For the binomial distribution: $g(s) = (ps + q)^n$.
+For the Poisson distribution: $g(s) = e^{\lambda(s-1)}$.

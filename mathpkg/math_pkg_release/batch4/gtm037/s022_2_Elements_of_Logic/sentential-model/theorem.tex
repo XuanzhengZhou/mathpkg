@@ -1,0 +1,13 @@
+Let $\mathcal{P} = (n, c, P)$ be a sentential language. Members of $P^2$ are called models of $\mathcal{P}$. (Intuitively, $0$ means falsity, $1$ means truth, and a function $f \in P^2$ is just an assignment of a truth value to each sentence symbol of $P$.)
+
+Using the recursion principle for sentences, we can associate with each $f \in P^2$ a function $f^+: \text{Sent}_{\mathcal{P}} \to 2$ such that for any $s \in P$ and any $\varphi, \psi \in \text{Sent}_{\mathcal{P}}$:
+\begin{align*}
+f^+ \langle s \rangle &= f s,\\[4pt]
+f^+ \neg \varphi &= 1 \quad \text{if } f^+ \varphi = 0,\\
+f^+ \neg \varphi &= 0 \quad \text{if } f^+ \varphi = 1,\\[4pt]
+f^+ (\varphi \to \psi) &= 0 \quad \text{iff } f^+ \varphi = 1 \text{ and } f^+ \psi = 0.
+\end{align*}
+
+We say that $f$ is a model of $\varphi$ if $f^+ \varphi = 1$; $f$ is a model of a set $\Gamma$ of sentences iff $f^+ \varphi = 1$ for all $\varphi \in \Gamma$.
+
+We write $\Gamma \models_{\mathcal{P}} \varphi$ iff every model of $\Gamma$ is a model of $\varphi$, and we write $\models_{\mathcal{P}} \varphi$ instead of $\emptyset \models_{\mathcal{P}} \varphi$. Sentences $\varphi$ with $\models_{\mathcal{P}} \varphi$ are called tautologies.

@@ -1,0 +1,23 @@
+id: irreducible-subspace
+title_en: "Irreducible Subspace"
+title_zh: "不可约子空间"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [stable-subspace, linear-transformation]
+  recommended: [cyclic-space, decomposition]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines irreducible subspaces with respect to an induced linear transformation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

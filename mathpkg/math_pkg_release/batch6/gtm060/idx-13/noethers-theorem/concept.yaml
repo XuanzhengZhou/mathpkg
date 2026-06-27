@@ -1,0 +1,23 @@
+id: noethers-theorem
+title_en: "Noether's Theorem"
+title_zh: "诺特定理"
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: advanced
+tags: [noether-theorem, symmetry, conservation-law, first-integral, one-parameter-group, lagrangian-mechanics]
+depends_on:
+  required: [lagrangian-system-admits-mapping, one-parameter-group-of-diffeomorphisms, first-integral]
+  recommended: [lagrange-equations, tangent-bundle, pushforward]
+  suggested: [lie-group-action, symplectic-geometry, moment-map, hamiltonian-noether-theorem]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "4"
+    section: "20"
+    pages: "102-103"
+    role_in_book: "Central theorem connecting continuous symmetries to conservation laws in Lagrangian mechanics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

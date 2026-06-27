@@ -1,0 +1,23 @@
+id: geodesic-coordinate-properties
+title_en: "Geodesic Coordinate Properties"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [geodesic, geodesic-coordinates, first-fundamental-form, christoffel-symbols]
+depends_on:
+  required: [geodesic, frenet-frame, first-fundamental-form, christoffel-symbols]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "4"
+    section: "4.3"
+    pages: "90-93"
+    role_in_book: "Lemma 4.3.6: Properties of geodesic coordinate systems with respect to a unit-speed geodesic basis curve"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

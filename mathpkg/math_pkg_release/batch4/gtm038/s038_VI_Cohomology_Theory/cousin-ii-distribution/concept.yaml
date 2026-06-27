@@ -1,0 +1,23 @@
+id: cousin-ii-distribution
+title_en: "Cousin II Distribution"
+title_zh: "第二类库赞分布"
+type: definition
+domain: analysis
+subdomain: several-complex-variables
+difficulty: intermediate
+tags: [cousin-problem, multiplicative-distribution, complex-manifold, cocycle, nowhere-vanishing]
+depends_on:
+  required: [sheaf-of-germs-of-non-vanishing-holomorphic-functions, holomorphic-function]
+  recommended: [open-covering, complex-manifold]
+  suggested: [cocycle, cohomology-group]
+source_books:
+  - book_id: "gtm038"
+    author: "H. Grauert, K. Fritzsche"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "4"
+    pages: "178-179"
+    role_in_book: "Def. 4.1: Introduces the multiplicative Cousin II problem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

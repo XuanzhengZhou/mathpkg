@@ -1,0 +1,23 @@
+id: projective-variety-homogeneous-coordinate-ring
+title_en: "Properties of the homogeneous coordinate ring of a projective variety"
+title_zh: "射影簇齐次坐标环的性质"
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [projective-variety, homogeneous-coordinate-ring, local-ring, function-field]
+depends_on:
+  required: [projective-variety, local-ring-of-a-point-on-a-variety]
+  recommended: [graded-ring, localization, homogeneous-prime-ideal]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "3"
+    pages: "18"
+    role_in_book: "Theorem 3.4; projective analogue of Theorem 3.2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

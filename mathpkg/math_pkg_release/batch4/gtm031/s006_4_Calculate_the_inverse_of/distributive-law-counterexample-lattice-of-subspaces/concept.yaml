@@ -1,0 +1,23 @@
+id: distributive-law-counterexample-lattice-of-subspaces
+title_en: "Counterexample: Failure of the Distributive Law in the Subspace Lattice"
+title_zh: "反例：子空间格中分配律的失效"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [vector-space, subspace, lattice-of-subspaces, distributive-law, counterexample]
+depends_on:
+  required: [vector-space, subspace, lattice-of-subspaces, join-of-subspaces, intersection-as-greatest-lower-bound]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "II: Finite Dimensional Vector Spaces"
+    section: "9: Factor Spaces"
+    pages: "36-41"
+    role_in_book: "Demonstrates that the subspace lattice is not distributive via a concrete counterexample"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

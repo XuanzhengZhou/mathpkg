@@ -1,0 +1,23 @@
+id: left-difference-quotients-first-category
+title_en: "Left Difference Quotient Functions Are of First Category"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: real-analysis
+difficulty: intermediate
+tags: [baire-category, first-category, nowhere-differentiable, left-derivative, symmetry]
+depends_on:
+  required: [banach-nowhere-differentiable-theorem, bounded-difference-quotient-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "11"
+    section: "Nowhere Differentiable Functions"
+    pages: ""
+    role_in_book: "Corollary obtained by symmetry from the main theorem, establishing the left-side analog of Banach's result"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

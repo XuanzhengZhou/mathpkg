@@ -1,0 +1,23 @@
+id: invariance-of-v-n-under-index-shift
+title_en: "Invariance of v_n Under Index Shift"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: k-theory
+difficulty: advanced
+tags: [k-theory, clutching-map, bott-periodicity, vector-bundles]
+depends_on:
+  required: [l-n-operations-on-k-theory, clutching-construction]
+  recommended: [bott-periodicity]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "5"
+    section: "5.2"
+    pages: "page_0163–page_0164"
+    role_in_book: "Establishes that the element v_n(ζ,u) is independent of n, a key step toward the Bott periodicity theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

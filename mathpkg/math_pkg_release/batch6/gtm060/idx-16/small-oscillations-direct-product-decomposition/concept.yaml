@@ -1,0 +1,23 @@
+id: small-oscillations-direct-product-decomposition
+title_en: "Direct Product Decomposition of Small Oscillations"
+title_zh: "小振动的直积分解"
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [small-oscillations, principal-axes, quadratic-forms, direct-product, eigenvalues]
+depends_on:
+  required: [small-oscillations]
+  recommended: [simultaneous-diagonalization-quadratic-forms, eigenvalues, principal-axes-theorem]
+  suggested: [normal-modes, characteristic-frequencies]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "5"
+    section: "Small Oscillations"
+    pages: "115-116"
+    role_in_book: "Decomposes a Lagrangian system near equilibrium into independent one-dimensional harmonic oscillators"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

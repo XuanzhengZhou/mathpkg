@@ -1,0 +1,23 @@
+id: partial-geometry-two-class-pbib-design
+title_en: "Partial Geometry as a Two-Class PBIB-Design"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: partial-geometries
+difficulty: advanced
+tags: [partial-geometry, pbib-design, association-scheme, Bose]
+depends_on:
+  required: [partial-geometry-parameter-relations]
+  recommended: [pbib-design, two-class-association-scheme]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "IX"
+    section: "46"
+    pages: "270-277"
+    role_in_book: "Shows that every partial geometry yields a 2-class PBIB-design with explicit parameters"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

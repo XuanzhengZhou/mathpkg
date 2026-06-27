@@ -1,0 +1,9 @@
+Let $H(\mathbf{p}, \mathbf{q}, t)$ be a hamiltonian function and $S_0(\mathbf{q})$ a given function (the initial condition). Consider the hamiltonian system
+$$\dot{\mathbf{p}} = -\frac{\partial H}{\partial \mathbf{q}}, \quad \dot{\mathbf{q}} = \frac{\partial H}{\partial \mathbf{p}}$$
+with initial conditions
+$$\mathbf{q}(t_0) = \mathbf{q}_0, \quad \mathbf{p}(t_0) = \frac{\partial S_0}{\partial \mathbf{q}}\bigg|_{\mathbf{q}_0}.$$
+The solution $\mathbf{q} = \mathbf{q}(t)$ is the extremal of $\delta \int L \, dt = 0$, where $L$ is the Legendre transform of $H$, called the characteristic emanating from $\mathbf{q}_0$. If $t_1$ is sufficiently close to $t_0$, the characteristics do not intersect, and $\mathbf{q}_0$ and $t$ can be taken as coordinates. Then the function
+$$S(A) = S_0(\mathbf{q}_0) + \int_{\mathbf{q}_0, t_0}^{A} L(\mathbf{q}, \dot{\mathbf{q}}, t) \, dt$$
+(integrating along the characteristic leading to $A$) satisfies the Hamilton-Jacobi equation
+$$\frac{\partial S}{\partial t} + H\left( \frac{\partial S}{\partial \mathbf{q}}, \mathbf{q}, t \right) = 0$$
+with initial condition $S|_{t=t_0} = S_0$.

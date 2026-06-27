@@ -1,0 +1,23 @@
+id: irreducible-decomposition-is-cyclic-decomposition
+title_en: "Irreducible Decomposition is Cyclic Decomposition"
+title_zh: "不可约分解同时是循环分解"
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [decomposition-into-irreducible-subspaces, cyclic-subspace]
+  recommended: [cyclic-space, direct-sum]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Any decomposition into irreducible subspaces is also a decomposition into cyclic subspaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

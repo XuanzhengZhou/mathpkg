@@ -1,0 +1,23 @@
+id: monoidal-category
+title_en: "Monoidal Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [monoidal-category, tensor-product, coherence, pentagon-axiom, triangle-axiom, associativity, unit]
+depends_on:
+  required: [category, functor, natural-equivalence]
+  recommended: [product-of-categories, associativity-isomorphism-product, projection-natural-equivalences]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.1 Monoids in a Monoidal Category"
+    pages: ""
+    role_in_book: "Core definition (2.2) — the context in which monoids are defined"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

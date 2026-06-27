@@ -1,0 +1,23 @@
+id: field
+title_en: "Field"
+title_zh: "域"
+type: definition
+domain: algebra
+subdomain: field-theory
+difficulty: basic
+tags: [field, commutative, skewfield]
+depends_on:
+  required: [skewfield]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "1"
+    section: "2"
+    pages: ""
+    role_in_book: "Commutative specialization of skewfield; needed for Pappian planes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

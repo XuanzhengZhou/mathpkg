@@ -1,0 +1,23 @@
+id: duality-commutes-with-restriction-contraction
+title_en: "Duality Commutes with Restriction and Contraction"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: matroid-theory
+difficulty: advanced
+tags: ["matroid", "duality", "restriction", "contraction", "orthogonal-matroid"]
+depends_on:
+  required: []
+  recommended: ["matroid-duality-definitions", "restriction-and-contraction-are-matroids"]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Graver, J. E. and Watkins, M. E."
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "X"
+    section: "D"
+    pages: ""
+    role_in_book: "D13 Proposition. Shows that taking the orthogonal (dual) matroid commutes with both restriction and contraction operations."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

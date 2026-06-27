@@ -1,0 +1,23 @@
+id: hom-r-m-n-equals-hom-r-over-i
+title_en: "Hom_R(M,N) = Hom_{R/I}(M,N) for I Annihilating M and N"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [hom-set, ideal, annihilator, change-of-rings]
+depends_on:
+  required: []
+  recommended: [hom-set-is-abelian-group, ideal]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "4"
+    pages: ""
+    role_in_book: "Identifies Hom sets when an ideal annihilates both modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

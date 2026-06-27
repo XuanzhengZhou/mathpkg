@@ -1,0 +1,23 @@
+id: nullspace-equals-kernel-of-associated-map
+title_en: "Nullspace Equals Kernel of Associated Linear Map"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [bilinear-form, nullspace, kernel, dual-space]
+depends_on:
+  required: [nullspace-of-symmetric-bilinear-function, rank-of-symmetric-bilinear-function]
+  recommended: [dual-vector-space, linear-map]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "2. The decomposition of E"
+    pages: ""
+    role_in_book: "Connects nullspace to kernel of associated map; rank equals matrix rank"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

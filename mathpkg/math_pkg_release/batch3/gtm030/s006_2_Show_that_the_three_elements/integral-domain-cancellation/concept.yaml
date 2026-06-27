@@ -1,0 +1,23 @@
+id: integral-domain-cancellation
+title_en: "Cancellation Laws Characterize Integral Domains"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [integral-domain, cancellation-law, characterization]
+depends_on:
+  required: [integral-domain, zero-divisor]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "Ring is integral domain iff restricted cancellation laws hold"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: density-positive-operators-weak-topology
+title_en: "Density of Positive Operators in the Space of Linear Maps under Weak Topology"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: ordered-topological-vector-spaces
+difficulty: advanced
+tags: [weak-topology, density, positive-operators, normal-cone, tensor-product]
+depends_on:
+  required: [positive-cone-closed-s-topology, weakly-normal-cone]
+  recommended: [tensor-product, bipolars]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "5"
+    pages: ""
+    role_in_book: "Proposition 5.3: If C is weakly normal in E and F = D - D, then H - H is dense in L_s(E,F)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

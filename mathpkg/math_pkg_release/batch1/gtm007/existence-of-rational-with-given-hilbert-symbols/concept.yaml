@@ -1,0 +1,28 @@
+id: existence-of-rational-with-given-hilbert-symbols
+title_en: Existence of rational numbers with prescribed Hilbert symbols
+title_zh: ''
+type: theorem
+domain: number-theory
+subdomain: hilbert-symbol
+difficulty: advanced
+tags:
+- hilbert-symbol
+- existence
+- approximation
+- chinese-remainder-theorem
+- dirichlet-theorem
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm007
+  author: J.-P. Serre
+  title: A Course in Arithmetic
+  chapter: III
+  section: '2.2'
+  pages: 23-24
+  role_in_book: 'Theorem 4: existence of x in Q^* with given (a_i, x)_v'
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

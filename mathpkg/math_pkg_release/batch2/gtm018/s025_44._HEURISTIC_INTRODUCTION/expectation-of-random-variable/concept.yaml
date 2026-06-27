@@ -1,0 +1,20 @@
+id: expectation-of-random-variable
+title_en: "Expectation of a Random Variable"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: foundations
+difficulty: intermediate
+tags: [probability, expectation, integral, mean-value, average]
+depends_on: {required: [random-variable, probability-measure-space], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX. Probability"
+    section: "44. Heuristic Introduction"
+    pages: ""
+    role_in_book: "The expectation (average, mean value) of an integrable random variable f is the value of its integral ∫ f dμ."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

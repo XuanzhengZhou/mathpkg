@@ -1,0 +1,13 @@
+id: averaging-theorem-single-frequency
+title_en: "Averaging theorem for single-frequency systems"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: dynamical-systems
+difficulty: advanced
+tags: [averaging-method, perturbation-theory, single-frequency, adiabatic-invariants, ordinary-differential-equations]
+depends_on: {required:[nondegenerate-hamiltonian-system], recommended:[gronwall-differential-inequality], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"10",section:"52C",pages:"301-317",role_in_book:"Main theorem justifying the averaging principle for single-frequency systems over time interval O(1/epsilon)"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

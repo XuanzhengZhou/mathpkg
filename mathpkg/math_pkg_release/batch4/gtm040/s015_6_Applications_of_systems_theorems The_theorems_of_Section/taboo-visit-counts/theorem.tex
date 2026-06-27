@@ -1,0 +1,5 @@
+Let $k$ and $j$ be states of a Markov chain. By ${}^k n_j(\omega)$ is meant the number of times on the path $\omega$ that the process is in state $j$ before (and not including) the first time that the process is in $k$. Define ${}^k \bar{n}_j$ as the number of visits to $j$ before the process reaches $k$ after time $0$. Note that ${}^j n_j(\omega) = 0$, but ${}^j \bar{n}_j(\omega)$ is $1$ if $\omega$ starts with $j$.
+
+For fixed $k$, introduce the corresponding matrices ${}^k N$ and ${}^k \bar{N}$ by
+$${}^k N_{ij} = M_i[{}^k n_j(\omega)],$$
+$${}^k \bar{N}_{ij} = M_i[{}^k \bar{n}_j(\omega)].$$

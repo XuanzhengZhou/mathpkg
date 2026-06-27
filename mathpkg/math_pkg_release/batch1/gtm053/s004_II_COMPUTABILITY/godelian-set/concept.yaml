@@ -1,0 +1,23 @@
+id: godelian-set
+title_en: "Gödelian Set of Formulas"
+title_zh: "公式的哥德尔式集合"
+type: definition
+domain: logic
+subdomain: proof-theory
+difficulty: intermediate
+tags: [godelian, completeness, formal-deducibility, logical-axioms]
+depends_on:
+  required: [rules-of-deduction-mp-gen, tautology-axioms, quantifier-axioms]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "II"
+    section: "3"
+    pages: ""
+    role_in_book: "Abstract characterization of sets of true formulas"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

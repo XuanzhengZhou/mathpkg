@@ -1,0 +1,13 @@
+id: polygon-pl-homeomorphic-to-2-simplex
+title_en: "Polygon in R^2 is PL Homeomorphic to 2-Simplex"
+title_zh: "R²中多边形PL同胚于2-单形"
+type: theorem
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: intermediate
+tags: [polygon, pl-homeomorphism, 2-simplex, triangulation, r2]
+depends_on: {required: [piecewise-linear-homeomorphism, polygon, simplicial-complex], recommended: [free-face-deletion], suggested: []}
+source_books: [{book_id: "gtm047", author: "Edwin E. Moise", title: "Geometric Topology in Dimensions 2 and 3", chapter: "5", section: "5", pages: "52-57", role_in_book: "Theorem 5.3: Every polygon with interior in R^2 is PL homeomorphic to the standard 2-simplex"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,15 @@
+Let $R$ be a relation variable or constant of type $\sigma \neq 0$. If $R$ is a variable, let $S = xR$, and if $R$ is a constant, let $S = R^{\mathfrak{A}}$. If $\sigma = (\tau_0, \ldots, \tau_m)$ and $\rho_0, \ldots, \rho_m$ are terms of types $\tau_0, \ldots, \tau_m$ respectively, we define:
+
+$$(\mathfrak{A}, F, G) \models R\rho_0 \cdots \rho_m[x] \quad \text{iff} \quad (\rho_0^{\mathfrak{A}}[x], \ldots, \rho_m^{\mathfrak{A}}[x]) \in S.$$
+
+Further,
+
+$$(\mathfrak{A}, F, G) \models \neg\varphi[x] \quad \text{iff} \quad \text{not}\big[(\mathfrak{A}, F, G) \models \varphi[x]\big];$$
+
+$$(\mathfrak{A}, F, G) \models (\varphi \lor \psi)[x] \quad \text{iff} \quad (\mathfrak{A}, F, G) \models \varphi[x] \text{ or } (\mathfrak{A}, F, G) \models \psi[x];$$
+
+$$(\mathfrak{A}, F, G) \models (\varphi \land \psi)[x] \quad \text{iff} \quad (\mathfrak{A}, F, G) \models \varphi[x] \text{ and } (\mathfrak{A}, F, G) \models \psi[x];$$
+
+$$(\mathfrak{A}, F, G) \models \forall P_i^{\tau}\varphi[x] \quad \text{iff} \quad \text{for every } R \in G^{\tau} \text{ we have } (\mathfrak{A}, F, G) \models \varphi[x(P_i^{\tau}/R)];$$
+
+$$(\mathfrak{A}, F, G) \models \forall v_i^{\tau}\varphi[x] \quad \text{iff} \quad \text{for every } O \in F^{\tau} \text{ we have } (\mathfrak{A}, F, G) \models \varphi[x(v_i^{\tau}/O)].$$

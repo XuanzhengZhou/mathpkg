@@ -1,0 +1,23 @@
+id: hausdorff-maximal-principle
+title_en: "Hausdorff Maximal Principle"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: intermediate
+tags: [maximal-chain, axiom-of-choice, zorn-lemma, well-ordering]
+depends_on:
+  required: [maximal-element]
+  recommended: [partial-order]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "0"
+    section: "0.7"
+    pages: ""
+    role_in_book: "Fundamental maximal principle equivalent to Axiom of Choice; used to prove existence of prime ideals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

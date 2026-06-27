@@ -1,0 +1,11 @@
+\textbf{Corollary.} Let $B$ be a monoidal category. There is a function which assigns to each pair of words $v, w$ of the same length $n$ a unique natural isomorphism
+$$\mathrm{can}_B(v, w) : v_B \longrightarrow w_B : B^n \longrightarrow B,$$
+called the \textbf{canonical map} from $v_B$ to $w_B$, such that:
+\begin{itemize}
+\item the identity arrow $e \rightarrow e$ is canonical (between functors of $0$ variables),
+\item the identity transformation $\mathrm{id}_B : I_B \rightarrow I_B$ is canonical,
+\item $\alpha, \alpha^{-1}, \lambda, \lambda^{-1}, \varrho$, and $\varrho^{-1}$ are canonical,
+\item the composite as well as the $\square$-product of two canonical maps is canonical.
+\end{itemize}
+Here $w_B : B^n \rightarrow B$ is the functor of $n$ variables obtained by replacing each blank $(-)$ in the word $w$ by the identity functor of $B$, defined recursively by $(e_0)_B : 1 \rightarrow B$ as the constant functor $e \in B$, $(-)_B$ as the identity functor $B \rightarrow B$, and $(w \square w')_B$ as the composite
+$$B^{n+n'} = B^n \times B^{n'} \xrightarrow{w_B \times w'_B} B \times B \xrightarrow{\square} B.$$

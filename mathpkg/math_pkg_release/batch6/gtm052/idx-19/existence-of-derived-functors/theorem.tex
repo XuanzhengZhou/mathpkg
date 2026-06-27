@@ -1,0 +1,12 @@
+Let $\mathfrak{A}$ be an abelian category with enough injectives, and let $F: \mathfrak{A} \to \mathfrak{B}$ be a covariant left exact functor to another abelian category $\mathfrak{B}$. Then there exists a sequence of additive functors $R^i F: \mathfrak{A} \to \mathfrak{B}$ for $i \geqslant 0$, called the \text{right derived functors} of $F$, satisfying the following properties:
+
+\begin{enumerate}
+\item[(a)] $R^0 F \cong F$.
+\item[(b)] For each short exact sequence $0 \to A' \to A \to A'' \to 0$ in $\mathfrak{A}$, and for each $i \geqslant 0$, there exist natural connecting morphisms $\delta^i: R^i F(A'') \to R^{i+1} F(A')$ such that the sequence
+$$\cdots \to R^i F(A) \to R^i F(A'') \xrightarrow{\delta^i} R^{i+1} F(A') \to R^{i+1} F(A) \to \cdots$$
+is exact.
+\item[(c)] The $\delta^i$ are natural with respect to morphisms of short exact sequences.
+\item[(d)] Given a morphism of a short exact sequence $0 \to A' \to A \to A'' \to 0$ to another $0 \to B' \to B \to B'' \to 0$, the connecting morphisms $\delta^i$ give commutative diagrams
+$$ \begin{CD} R^i F(A'') @>{\delta^i}>> R^{i+1} F(A') \\ @VVV @VVV \\ R^i F(B'') @>{\delta^i}>> R^{i+1} F(B'). \end{CD} $$
+\item[(e)] For each injective object $I$ of $\mathfrak{A}$, and for each $i > 0$, we have $R^i F(I) = 0$.
+\end{enumerate}

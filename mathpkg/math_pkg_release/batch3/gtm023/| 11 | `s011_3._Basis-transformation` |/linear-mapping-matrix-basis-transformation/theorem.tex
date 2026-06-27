@@ -1,0 +1,13 @@
+Let $\varphi: E \to F$ be a linear mapping between vector spaces. Let $x_v, y_\mu$ and $\bar{x}_v, \bar{y}_\mu$ ($v = 1 \ldots n$, $\mu = 1 \ldots m$) be two pairs of bases of $E$ and $F$, respectively. Denote
+
+$$M(\varphi; x_v, y_\mu) = (\gamma_v^\mu), \qquad M(\varphi; \bar{x}_v, \bar{y}_\mu) = (\bar{\gamma}_v^\mu)$$
+
+where
+
+$$\varphi x_v = \sum_\mu \gamma_v^\mu y_\mu, \qquad \varphi \bar{x}_v = \sum_\mu \bar{\gamma}_v^\mu \bar{y}_\mu.$$
+
+Let $A = (\alpha_v^\lambda)$ be the basis-transformation matrix $x_v \to \bar{x}_v$ and $B = (\beta_\mu^\kappa)$ be the basis-transformation matrix $y_\mu \to \bar{y}_\mu$, with inverses $\check{A} = (\check{\alpha}_v^\lambda)$ and $\check{B} = (\check{\beta}_\mu^\kappa)$. Then
+
+$$\bar{\gamma}_v^\kappa = \sum_{\lambda, \mu} \check{\beta}_\mu^\kappa \, \gamma_\lambda^\mu \, \alpha_v^\lambda.$$
+
+In matrix notation: $\bar{\Gamma} = \check{B}^T \, \Gamma \, A^T$.

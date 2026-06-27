@@ -1,0 +1,23 @@
+id: equicontinuity-residual-theorem
+title_en: "Equicontinuity Points Form a Residual Set"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: baire-category
+difficulty: intermediate
+tags: [baire-category, residual-set, equicontinuity, pointwise-convergence, continuity]
+depends_on:
+  required: [first-category-set, residual-set, equicontinuity]
+  recommended: [pointwise-convergence, pseudo-metric]
+  suggested: [baire-theorem, condensation-theorem]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley"
+    title: "Linear Topological Spaces"
+    chapter: "9"
+    section: "9.2"
+    pages: ""
+    role_in_book: "Application of Baire category to equicontinuity of pointwise convergent sequences"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

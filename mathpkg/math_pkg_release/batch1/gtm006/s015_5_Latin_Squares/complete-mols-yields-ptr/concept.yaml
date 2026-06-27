@@ -1,0 +1,23 @@
+id: complete-mols-yields-ptr
+title_en: "Complete Set of MOLS Yields a Planar Ternary Ring"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: latin-squares
+difficulty: intermediate
+tags: [mols, planar-ternary-ring, complete-set, constructive-proof]
+depends_on:
+  required: [complete-set-of-mols, mols-normal-form-existence, mols-first-column-property]
+  recommended: [latin-square-from-ptr]
+  suggested: [planar-ternary-ring]
+source_books:
+  - book_id: gtm006
+    author: "D. R. Hughes, F. C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "5"
+    pages: "132-137"
+    role_in_book: "Converse theorem: Complete set of MOLS in normal form yields a PTR satisfying axioms (A),(B),(D),(E)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

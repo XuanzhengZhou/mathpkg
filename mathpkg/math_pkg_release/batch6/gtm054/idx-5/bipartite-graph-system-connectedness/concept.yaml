@@ -1,0 +1,23 @@
+id: bipartite-graph-system-connectedness
+title_en: "C23 Bipartite graph and system connectedness equivalence"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: hypergraph-theory
+difficulty: intermediate
+tags: [bipartite-graph, system, connectedness]
+depends_on:
+  required: [lambda-operator-on-subspace, component-partition-via-paths]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "II"
+    section: "IIC"
+    pages: "43-48"
+    role_in_book: "Relates system connectedness to graph connectedness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

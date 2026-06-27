@@ -1,0 +1,12 @@
+Let $E, F$ be vector spaces over a field $K$ and let $B(E, F)$ be the vector space of all bilinear forms on $E \times F$. For each pair $(x, y) \in E \times F$, the mapping $f \mapsto f(x, y)$ is a linear form on $B(E, F)$, and hence an element $u_{x,y}$ of the algebraic dual $B(E, F)^*$. The mapping $\chi: (x, y) \mapsto u_{x,y}$ of $E \times F$ into $B(E, F)^*$ is bilinear.
+
+The linear hull of $\chi(E \times F)$ in $B(E, F)^*$ is denoted by $E \otimes F$ and is called the **tensor product** of $E$ and $F$; $\chi$ is called the **canonical bilinear map** of $E \times F$ into $E \otimes F$. The element $u_{x,y}$ of $E \otimes F$ is denoted by $x \otimes y$, so that each element of $E \otimes F$ is a finite sum
+$$\sum_i \lambda_i (x_i \otimes y_i)$$
+(the sum over the empty set being $0$).
+
+For arbitrary subsets $A \subset E$, $B \subset F$, we write $A \otimes B = \chi(A \times B)$. For subspaces $M \subset E$, $N \subset F$, the symbol $M \otimes N$ denotes the linear hull of $\chi(M \times N)$.
+
+The following rules hold:
+$$\lambda(x \otimes y) = (\lambda x) \otimes y = x \otimes (\lambda y) \quad (\lambda \in K),$$
+$$(x_1 + x_2) \otimes y = x_1 \otimes y + x_2 \otimes y,$$
+$$x \otimes (y_1 + y_2) = x \otimes y_1 + x \otimes y_2.$$

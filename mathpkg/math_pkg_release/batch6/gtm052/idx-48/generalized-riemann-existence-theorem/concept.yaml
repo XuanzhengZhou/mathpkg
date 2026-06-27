@@ -1,0 +1,23 @@
+id: generalized-riemann-existence-theorem
+title_en: "Theorem 3.2 (Generalized Riemann Existence Theorem): Finite Morphisms of Analytic Spaces"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: complex-analytic-geometry
+difficulty: advanced
+tags: [riemann-existence, grauert-remmert, grothendieck, finite-morphism, hironaka]
+depends_on:
+  required: [associated-complex-analytic-space, finite-morphism]
+  recommended: [resolution-of-singularities]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix B"
+    section: "3"
+    pages: "442"
+    role_in_book: "Generalizes Riemann existence theorem to higher dimensions: finite analytic covers of algebraic schemes are algebraic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

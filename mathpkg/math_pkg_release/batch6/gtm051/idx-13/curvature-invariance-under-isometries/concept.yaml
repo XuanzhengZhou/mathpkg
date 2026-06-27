@@ -1,0 +1,23 @@
+id: curvature-invariance-under-isometries
+title_en: "Invariance of principal curvatures, Gauss curvature, and mean curvature under isometries of R^3"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [curvature-invariance, isometries, congruences, principal-curvatures, gauss-curvature, mean-curvature, change-of-variables]
+depends_on:
+  required: [gauss-curvature-and-mean-curvature, principal-curvatures]
+  recommended: [rigid-motions, isometries-of-euclidean-space]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "5"
+    pages: ""
+    role_in_book: "Fundamental invariance theorem showing that Gauss curvature is intrinsic and preserved under rigid motions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

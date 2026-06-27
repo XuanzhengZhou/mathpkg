@@ -1,0 +1,23 @@
+id: subregular-measure
+title_en: "Subregular Measure"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [subregular-measure, markov-chain, transition-matrix]
+depends_on:
+  required: [regular-measure]
+  recommended: [transition-matrix, p-regular-function]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "3"
+    section: "3"
+    pages: ""
+    role_in_book: "Definition extending regular measures: a non-negative row vector is subregular if it is dominated by its image under P."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

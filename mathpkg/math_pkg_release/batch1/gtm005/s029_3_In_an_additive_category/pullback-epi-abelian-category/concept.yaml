@@ -1,0 +1,23 @@
+id: pullback-epi-abelian-category
+title_en: "Pullback of an Epimorphism in an Abelian Category"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [abelian-category, pullback, epimorphism, kernel, short-exact-sequence]
+depends_on:
+  required: [abelian-category, pullback, epimorphism]
+  recommended: [kernel, short-exact-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VIII"
+    section: "4"
+    pages: ""
+    role_in_book: "Key property of pullbacks in abelian categories for diagram chasing"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

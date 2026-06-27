@@ -1,0 +1,23 @@
+id: productive-sets-have-infinite-recursive-subsets
+title_en: "Every productive set has an infinite recursive subset"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: recursive-function-theory
+difficulty: intermediate
+tags: [productive-set, recursive-subset, infinite-set, recursively-enumerable]
+depends_on:
+  required: []
+  recommended: [productive-set, recursive-set, recursively-enumerable]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "6"
+    section: "Recursive Function Theory"
+    pages: ""
+    role_in_book: "Shows that productive sets, though not r.e., always contain infinite recursive subsets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

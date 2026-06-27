@@ -1,0 +1,23 @@
+id: third-fundamental-form-cayley-relation
+title_en: "Third fundamental form relation III - 2H II + K I = 0"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [third-fundamental-form, cayley-hamilton, weingarten-map, gauss-curvature, mean-curvature, fundamental-forms]
+depends_on:
+  required: [third-fundamental-form, gauss-curvature-and-mean-curvature]
+  recommended: [first-fundamental-form, second-fundamental-form, weingarten-map]
+  suggested: [cayley-hamilton-theorem]
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "5"
+    pages: ""
+    role_in_book: "Shows that the third fundamental form is linearly dependent on I and II via the curvature functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

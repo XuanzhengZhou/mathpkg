@@ -1,0 +1,23 @@
+id: riemannian-manifold
+title_en: "Riemannian manifold"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [riemannian-manifold, metric, length, quadratic-form]
+depends_on:
+  required: [differentiable-manifold, tangent-vector]
+  recommended: [tangent-bundle]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnol'd"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "4"
+    section: "18"
+    pages: ""
+    role_in_book: "Defines Riemannian manifolds for measuring lengths of curves on configuration spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,25 @@
+id: iteration-theorem
+title_en: "Iteration Theorem (s-m-n Theorem)"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: recursion-theory
+difficulty: advanced
+tags: [iteration-theorem, smn-theorem, partial-recursive-functions, computability, kleene]
+depends_on:
+  required:
+    - normal-form-theorem
+    - class-of-partial-recursive-functions
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "H.-D. Ebbinghaus, J. Flum, W. Thomas"
+    title: "Mathematical Logic"
+    chapter: "5. Recursive Functions"
+    section: "5.1 Recursive Function Theory"
+    pages: ""
+    role_in_book: "Theorem 5.13: The s-m-n theorem provides a recursive function that uniformly transforms indices for partial recursive functions with additional parameters"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

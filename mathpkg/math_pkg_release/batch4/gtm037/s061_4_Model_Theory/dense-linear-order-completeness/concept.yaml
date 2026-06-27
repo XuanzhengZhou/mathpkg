@@ -1,0 +1,23 @@
+id: dense-linear-order-completeness
+title_en: "Completeness and Decidability of Dense Linear Orders Without Endpoints"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: model-theory
+difficulty: basic
+tags: [dense-linear-order, completeness, decidability, los-vaught-test, aleph-0-categoricity]
+depends_on:
+  required: [los-vaught-test, dense-linear-order, aleph-0-categoricity]
+  recommended: [recursive-axiomatizability]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "21"
+    section: "4"
+    pages: ""
+    role_in_book: "Application of the Loś-Vaught test to a classic theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

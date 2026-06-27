@@ -1,0 +1,23 @@
+id: join-of-convex-sets
+title_en: "Join of Convex Sets is Convex"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: convex-geometry
+difficulty: basic
+tags: [join, convex-set, convex-hull]
+depends_on:
+  required: [join-of-sets, convex-hull, convex-hull-of-union]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "2"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Consequence of computation rule (v)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

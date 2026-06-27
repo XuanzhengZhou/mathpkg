@@ -1,0 +1,23 @@
+id: deducibility-criterion
+title_en: "Deducibility Criterion"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [deducibility, completeness, first-order-logic, models]
+depends_on:
+  required: [godels-completeness-theorem]
+  recommended: [consistent-set, goedelian-set]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "I"
+    section: "6"
+    pages: ""
+    role_in_book: "Corollary of Gödel's Completeness Theorem characterizing deducibility and independence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

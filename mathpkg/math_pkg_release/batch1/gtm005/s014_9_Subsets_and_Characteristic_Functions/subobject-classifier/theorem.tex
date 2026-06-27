@@ -1,0 +1,8 @@
+Let $C$ be a category with a terminal object $1$. A \emph{subobject classifier} for $C$ is a monomorphism $t \colon 1 \to \Omega$ such that every monomorphism $m$ in $C$ is a pullback of $t$ in a unique way. In other words, for each monomorphism $m \colon S \rightarrowtail X$ there exists a unique morphism $\psi \colon X \to \Omega$ such that the following square is a pullback:
+$$
+\xymatrix{
+  S \ar[r] \ar[d]_{m} & 1 \ar[d]^{t} \\
+  X \ar[r]_{\psi} & \Omega
+}
+$$
+The morphism $\psi$ is called the \emph{classifying map} (or characteristic function) of the subobject $S$, and the monomorphism $t \colon 1 \to \Omega$ is called the \emph{universal} monomorphism.

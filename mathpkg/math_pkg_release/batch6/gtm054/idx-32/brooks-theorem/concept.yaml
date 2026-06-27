@@ -1,0 +1,23 @@
+id: brooks-theorem
+title_en: "Brooks' Theorem"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [chromatic-number, vertex-coloring, critical-graph, complete-graph, valency]
+depends_on:
+  required: []
+  recommended: [graph-coloring, critical-graph, kempe-chain]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "VII"
+    section: "VIIA"
+    pages: ""
+    role_in_book: "Classical corollary in chromatic graph theory providing an upper bound on the chromatic number of a graph in terms of its maximum degree, with the exception of complete graphs."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

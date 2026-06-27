@@ -1,0 +1,23 @@
+id: corollary-unique-isomorphism-onto-R
+title_en: "Corollary: Unique Isomorphism from a Ring onto R"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [isomorphism, real-numbers, uniqueness, automorphism, kernel]
+depends_on:
+  required: [theorem-archimedean-subfield-of-R, ring-homomorphism]
+  recommended: [kernel-of-homomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "0"
+    section: "0.23"
+    pages: ""
+    role_in_book: "Key uniqueness result; used in the study of homomorphisms from function rings onto R"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

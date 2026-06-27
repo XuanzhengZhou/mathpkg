@@ -1,0 +1,32 @@
+Let $P(x,y)$ be the transition function of a random walk
+
+where $(x - y)^{-2} \cdot \rho(x,y) \to 0$ uniformly in any interval $0 < a \leq x$, $y \leq b < 1$. Furthermore one can find a positive constant $M$ such that
+
+$$\max_{0 \leq x, y \leq 1} [f(x), f'(x), f''(x), \rho(x,y)] \leq M.$$
+
+If we take $0 < t < 1$ and denote $[Nt]N^{-1} = z(N,t) = z$, then
+
+$$\frac{2N^2}{\sigma^2} \sum_{k=0}^{N} \left[ \delta([Nt],k) - Q_N ([Nt],k) \right] f\left(\frac{k}{N}\right)$$
+
+$$= \frac{2N^2}{\sigma^2} \sum_{k=0}^{N} \left[ (N + 1)^{-1} f(z) - P(zN,k) \left\{ f(z) + \left(\frac{k}{N} - z\right) f'(z) \right. \right. \\
+\left. + \frac{1}{2} \left(\frac{k}{N} - z\right)^2 f''(z) + \rho\left(z, \frac{k}{N}\right) \right\} \right]$$
+
+$$= I_1 + I_2 + I_3 + I_4.$$
+
+Here the terms have been decomposed in such a way that
+
+$$I_1 = f(z) \frac{2N^2}{\sigma^2} \left[ 1 - \sum_{k=0}^{N} P(zN,k) \right],$$
+
+$$I_2 = f'(z) \frac{2N}{\sigma^2} \sum_{k=0}^{N} P(zN,k)(zN-k),$$
+
+$$I_3 = -f''(z) \frac{1}{\sigma^2} \sum_{k=0}^{N} P(zN,k)(zN-k)^2,$$
+
+$$I_4 = -\frac{2N^2}{\sigma^2} \sum_{k=0}^{N} P(zN,k) \rho
+
+The first term is exactly $2\epsilon$ and the second term tends to zero as $N \to \infty$ for the same (undisclosed, but obvious) reason that $I_1$ went to zero. Since $\epsilon$ is arbitrary, that completes the proof of P1.
+
+According to P21.3, one has reason to suspect that the inverse $g_N(x,y)$ of $I_N - Q_N$ will approach, as $N \to \infty$, the kernel
+
+$$R(s,t) = \min(s,t) - st,$$
+
+in much the same way as $I_N - Q_N$ approaches the second derivative operator. One might guess the formally correct analogue of P1 to be

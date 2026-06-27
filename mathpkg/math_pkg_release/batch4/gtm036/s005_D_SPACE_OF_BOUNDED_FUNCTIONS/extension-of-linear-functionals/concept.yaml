@@ -1,0 +1,23 @@
+id: extension-of-linear-functionals
+title_en: "Extension of Linear Functionals"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [linear-functional, extension, hamel-basis, axiom-of-choice, linear-space]
+depends_on:
+  required: [linear-space, linear-functional, subspace]
+  recommended: [hamel-basis, axiom-of-choice]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "0"
+    section: "E"
+    pages: ""
+    role_in_book: "States the purely algebraic extension theorem for linear functionals, a precursor to the Hahn-Banach theorem which adds continuity."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

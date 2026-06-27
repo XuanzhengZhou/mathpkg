@@ -1,0 +1,23 @@
+id: measure-algebra-satisfies-omega-omega-wdl
+title_en: "Measure Algebra Satisfies Omega-Omega Weak Distributive Law"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-algebras
+difficulty: advanced
+tags: [measure-algebra, weak-distributive-law, sigma-measure, strictly-positive-measure]
+depends_on:
+  required: [measure-algebra, omega-omega-weak-distributive-law]
+  recommended: [ccc]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "J.L. Bell"
+    title: "Axiomatic Set Theory"
+    chapter: "20"
+    section: "20. Weak Distributive Laws"
+    pages: ""
+    role_in_book: "Theorem 20.6: establishes that every measure algebra satisfies the (omega,omega)-weak distributive law, linking measure-theoretic and combinatorial properties of Boolean algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

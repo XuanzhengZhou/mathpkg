@@ -1,0 +1,23 @@
+id: regular-neighborhood-combinatorial-equivalence
+title_en: "Regular neighborhood of a triangulated 3-manifold with boundary is combinatorially equivalent to it"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [regular-neighborhood, triangulated-3-manifold, combinatorial-equivalence, plh]
+depends_on:
+  required: [regular-neighborhood, triangulated-3-manifolds-are-combinatorial]
+  recommended: [plh-swapping-2-cells-in-3-cell-boundary]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: ""
+    section: "23"
+    pages: ""
+    role_in_book: "Shows that the regular neighborhood of a subcomplex that is itself a 3-manifold with boundary is combinatorially equivalent to the subcomplex."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

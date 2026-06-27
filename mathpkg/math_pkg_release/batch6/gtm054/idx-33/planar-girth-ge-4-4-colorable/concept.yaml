@@ -1,0 +1,23 @@
+id: planar-girth-ge-4-4-colorable
+title_en: "Planar Graphs with Girth at Least 4 are 4-Colorable"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [planar-graph, chromatic-number, girth, four-color-problem]
+depends_on:
+  required: [planar-le-11-vertex-4-colorable, vertex-4-coloring-reduction]
+  recommended: [planar-graph, chromatic-number, girth]
+  suggested: [four-color-theorem]
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "VII"
+    section: "B"
+    pages: ""
+    role_in_book: "Corollary B7, girth condition implies 4-colorability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

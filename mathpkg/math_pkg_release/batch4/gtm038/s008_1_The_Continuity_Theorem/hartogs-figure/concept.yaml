@@ -1,0 +1,23 @@
+id: hartogs-figure
+title_en: "Hartogs Figure"
+title_zh: "Hartogs 图形"
+type: definition
+domain: analysis
+subdomain: several-complex-variables
+difficulty: intermediate
+tags: [hartogs-figure, several-complex-variables, holomorphic-extension, domain]
+depends_on:
+  required: [domain, continuous-function]
+  recommended: [holomorphic-function, polycylinder]
+  suggested: []
+source_books:
+  - book_id: "gtm038"
+    author: "Hans Grauert, Klaus Fritzsche"
+    title: "Several Complex Variables"
+    chapter: "II. Domains of Holomorphy"
+    section: "1. The Continuity Theorem"
+    pages: "39-41"
+    role_in_book: "Defines the Hartogs figure, a domain in C^n used in the continuity theorem to force holomorphic extension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

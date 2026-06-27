@@ -1,0 +1,12 @@
+Let $V$ be a topological vector space, i.e., a vector space with a topology in which addition and scalar multiplication are continuous. Let $|\cdot|: V \to \mathbf{R}$ be a continuous function satisfying for all $x, y \in V$:
+
+\begin{enumerate}
+\item[(a)] $|x| \geq 0$,
+\item[(b)] $|x| = 0$ if and only if $x = 0$,
+\item[(c)] $|x + y| \leq |x| + |y|$,
+\item[(d)] $|x| = |{-x}|$.
+\end{enumerate}
+
+Define a metric $d$ on $V$ by $d(x, y) = |x - y|$. If $V$ is complete with respect to this metric, then $V$ is a \text{Frechet space}.
+
+Every Banach space is a Frechet space, since the norm satisfies axioms (a)--(d). If $V_1$ and $V_2$ are Frechet spaces, then $L(V_1, V_2)$, the set of all continuous linear mappings of $V_1$ into $V_2$, is a Frechet space under $|f| = \sup_{|x|=1} |f(x)|$.

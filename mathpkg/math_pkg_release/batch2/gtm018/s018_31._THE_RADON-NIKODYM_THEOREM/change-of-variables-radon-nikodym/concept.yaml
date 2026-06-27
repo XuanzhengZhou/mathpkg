@@ -1,0 +1,23 @@
+id: change-of-variables-radon-nikodym
+title_en: "Change of Variables for Radon-Nikodym Integrals"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [radon-nikodym, change-of-variables, substitution, integral, measure]
+depends_on:
+  required: [radon-nikodym-theorem, chain-rule-radon-nikodym-derivatives]
+  recommended: [lebesgue-integral, radon-nikodym-derivative]
+  suggested: []
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "31"
+    section: "31. The Radon-Nikodym Theorem"
+    pages: ""
+    role_in_book: "Theorem B; substitution rule for Radon-Nikodym derivatives under the integral sign"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

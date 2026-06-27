@@ -1,0 +1,13 @@
+(a) $(V, D)$
+
+(b) $(X, \sigma(k))$
+
+Let $h$ be a feasible flow in $(V, D)$. We define $\bar{h}$: $Y \rightarrow \mathbb{N}$ by
+
+$$\bar{h}(x^i, y^i) = 0 \quad \text{for all } x, y \in V, i \in \{1, 2\};$$
+
+$$\bar{h}(x^1, y^2) = h(x, y) \quad \text{for all } x, y \in V;$$
+
+$$\bar{h}(x^2, y^1) = \begin{cases} h(x) & \text{if } x = y; \\ 0 & \text{if } x \neq y. \end{cases}$$
+
+By this definition, the definition of feasible flow in $(V, D)$, and F1, we have that $\bar{h}$ is a feasible flow in the network $(X, k)$. In fact, one easily verifies that the mapping $h \mapsto \bar{h}$ is a bijection from the set of feasible flows on $(V, D)$ onto the set of feasible flows on $(X, k)$. Furthermore, since $h(x_0) = \bar{h}(e_0)$ where $e_0 = (x_0^2, x_0^1)$, we have

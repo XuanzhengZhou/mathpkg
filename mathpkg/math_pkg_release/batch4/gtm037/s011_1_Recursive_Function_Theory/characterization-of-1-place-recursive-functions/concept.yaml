@@ -1,0 +1,23 @@
+id: characterization-of-1-place-recursive-functions
+title_en: "Characterization of 1-Place Recursive Functions"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: computability-theory
+difficulty: advanced
+tags: [recursive-function, closure-properties, characterization, Kleene]
+depends_on:
+  required: [composition, primitive-recursion, minimalization, exc-function]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "3"
+    section: "Recursive Functions; Turing Computability"
+    pages: ""
+    role_in_book: "Theorem 3.50 characterizing the class of 1-place recursive functions as the intersection of all sets closed under composition, pairing, and inversion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

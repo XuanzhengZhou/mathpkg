@@ -1,0 +1,23 @@
+id: relativization-is-boolean-algebra
+title_en: "Relativization of a Boolean Algebra is a Boolean Algebra"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: boolean-algebra
+difficulty: intermediate
+tags: [boolean-algebra, relativization, verification]
+depends_on:
+  required: [relativized-boolean-algebra]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "9"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Verifies that the relativization construction indeed yields a Boolean algebra."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

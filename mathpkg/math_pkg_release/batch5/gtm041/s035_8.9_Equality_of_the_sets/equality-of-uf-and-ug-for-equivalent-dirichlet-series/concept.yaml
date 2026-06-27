@@ -1,0 +1,23 @@
+id: equality-of-uf-and-ug-for-equivalent-dirichlet-series
+title_en: "Equality of U_f(σ_0) and U_g(σ_0) for Equivalent Dirichlet Series"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: dirichlet-series
+difficulty: advanced
+tags: [dirichlet-series, bohr-equivalence, set-of-values, absolute-convergence]
+depends_on:
+  required: []
+  recommended: [equivalent-dirichlet-series, bohr-series, basis-of-exponents, uf-sigma-zero]
+  suggested: [general-dirichlet-series, abscissa-of-absolute-convergence]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "8"
+    section: "8.9"
+    pages: ""
+    role_in_book: "Establishes that equivalent Dirichlet series have identical value sets at an absolute convergence abscissa"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

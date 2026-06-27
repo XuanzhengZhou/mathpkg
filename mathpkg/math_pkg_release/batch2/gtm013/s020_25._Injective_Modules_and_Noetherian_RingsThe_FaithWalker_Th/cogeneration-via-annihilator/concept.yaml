@@ -1,0 +1,23 @@
+id: cogeneration-via-annihilator
+title_en: "Cogeneration of R/I and Annihilator Ideals"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [cogenerator, annihilator, injective-module, quotient-module]
+depends_on:
+  required: [annihilator, cogenerator-module]
+  recommended: [injective-module, m-annihilator-lattice]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson and Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "25. Injective Modules and Noetherian Rings—The Faith–Walker Theorems"
+    pages: ""
+    role_in_book: "Lemma linking cogeneration of R/I to annihilator condition, used in the minimal cogenerator test for noetherian rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

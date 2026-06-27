@@ -1,0 +1,23 @@
+id: epimorphism-characterizations
+title_en: "Characterizations of Module Epimorphisms"
+title_zh: "模满同态的刻画"
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [module-theory, epimorphism, exact-sequence]
+depends_on:
+  required: [module-epimorphism, kernel-image-coimage-cokernel]
+  recommended: [zero-homomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "3. Homomorphisms of Modules"
+    pages: ""
+    role_in_book: "Proposition 3.3 — equivalent conditions for epimorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

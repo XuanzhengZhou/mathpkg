@@ -1,0 +1,1 @@
+A Markov process is characterized by the property that the future depends on the past only through the present state. The state space can be general: $\mathbb{R}$, $\mathbb{R}^k$, complex numbers, or abstract spaces.

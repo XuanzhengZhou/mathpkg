@@ -1,0 +1,23 @@
+id: dgamma2-dgamma1-onto
+title_en: "Lemma 5.12: The Direct Sum of Source and Target Actions is Surjective onto the Tangent Space of the Orbit"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [jet-bundle, tangent-space, orbit, diffeomorphism-group, surjectivity]
+depends_on:
+  required: [dgamma1-commutative-diagram, dgamma2-commutative-diagram, orbit-immersed-submanifold]
+  recommended: [lie-group-action, polynomial-jet]
+  suggested: [proposition-5-5-local-diffeomorphism-extension]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "5"
+    pages: "137-138"
+    role_in_book: "Central technical lemma: the tangent space to the orbit is spanned by the infinitesimal actions of Diff(X) and Diff(Y)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

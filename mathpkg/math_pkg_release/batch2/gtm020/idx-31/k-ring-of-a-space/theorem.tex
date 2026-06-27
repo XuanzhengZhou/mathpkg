@@ -1,0 +1,17 @@
+The $K_F(X)$ ring (or group for $F = \mathbf{H}$) of a space $X$ is the ring (or group) completion of $\text{Vect}_F(X)$.
+
+Here $\text{Vect}_F(X)$ denotes the set of isomorphism classes of $F$-vector bundles over $X$, which is a semiring (or semigroup) under direct sum and (where applicable) tensor product. The completion $\theta: \text{Vect}_F(X) \to K_F(X)$ is the universal map from $\text{Vect}_F(X)$ into a ring (or group).
+
+If $f: Y \to X$ is a map, then $K_F(f): K_F(X) \to K_F(Y)$ is defined by the commutativity of the diagram:
+
+$$
+\begin{array}{ccc}
+\text{Vect}_F(X) & \xrightarrow{\theta} & K_F(X) \\
+\text{Vect}_F(f) \downarrow & & \downarrow K_F(f) \\
+\text{Vect}_F(Y) & \xrightarrow{\theta} & K_F(Y)
+\end{array}
+$$
+
+where $\text{Vect}_F(f)(\xi)$ is the isomorphism class of $f^*(\xi)$ over $Y$.
+
+If $g: Z \to Y$ is a second map, then $K_F(fg) = K_F(g)K_F(f)$ and $K_F(1_X)$ is the identity on $K_F(X)$.

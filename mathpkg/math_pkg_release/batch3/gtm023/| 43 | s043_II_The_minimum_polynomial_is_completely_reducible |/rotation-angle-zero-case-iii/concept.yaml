@@ -1,0 +1,23 @@
+id: rotation-angle-zero-case-iii
+title_en: "Determination of the Rotation Angle ω = 0 — Case III"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [lorentz-transformation, minkowski-space, characteristic-polynomial, rotation-angle]
+depends_on:
+  required: [e1-structure-and-mapping-case-iii]
+  recommended: [characteristic-polynomial, eigenvalue]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter 13: Minkowski Space"
+    section: "II. The minimum polynomial is completely reducible"
+    pages: "455-457"
+    role_in_book: "Determination that the rotation angle ω must be 0 by comparing characteristic polynomials"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

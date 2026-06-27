@@ -1,0 +1,23 @@
+id: compatible-pre-order
+title_en: "Compatible Pre-Order on a Vector Space"
+title_zh: "向量空间上的相容预序"
+type: definition
+domain: analysis
+subdomain: ordered-vector-spaces
+difficulty: basic
+tags: [pre-order, vector-space, compatible, translation-invariant, positive-homogeneous]
+depends_on:
+  required: []
+  recommended: [pre-order, vector-space]
+  suggested: [ordered-vector-space]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "V: Order Structures"
+    section: "8. Stone-Weierstrass and Representation Theorems"
+    pages: ""
+    role_in_book: "exercise definition; prerequisite for defining ordered vector spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

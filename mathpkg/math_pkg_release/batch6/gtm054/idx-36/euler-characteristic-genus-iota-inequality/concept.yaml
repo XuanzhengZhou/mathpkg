@@ -1,0 +1,23 @@
+id: euler-characteristic-genus-iota-inequality
+title_en: "Inequality Relating Euler Characteristic, Genus, and Iota"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: advanced
+tags: [euler-characteristic, genus, iota-invariant, inequality, topological-graph-theory]
+depends_on:
+  required: []
+  recommended: [euler-characteristic-of-graph, genus-of-graph, iota-invariant, 2-cell-imbedding]
+  suggested: [chromatic-number-bound]
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "VII"
+    section: "D"
+    pages: "214-216"
+    role_in_book: "core-result"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

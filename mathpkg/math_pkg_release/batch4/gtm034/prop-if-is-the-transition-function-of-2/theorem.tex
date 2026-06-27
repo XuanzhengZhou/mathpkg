@@ -1,0 +1,39 @@
+If $P(x,y)$ is the transition function of a genuinely $d$-dimensional random walk ($d \geq 1$) with the property that
+
+(3) $Q(x,y) = \sum_{t \in R} P(x,t)P(y,t)$
+
+is also the transition function of a genuinely $d$-dimensional random walk, then there exists a constant $A > 0$, such that
+
+(4) $P_n(0,x) \leq An^{-d/2}, \quad x \in R, \quad n \geq 1$.
+
+Furthermore, every genuinely $d$-dimensional random walk ($d \geq 1$), with the single exception of those where $P(0,x) =
+
+$$\phi(\theta) = \sum_{x \in R} P(0,x)e^{ix\cdot\theta}$$
+
+is the characteristic function of the random walk, then $Q(x,y)$ has the characteristic function
+
+$$\psi(\theta) = \sum_{x \in R} Q(0,x)e^{ix\cdot\theta} = |\phi(\theta)|^2.$$
+
+Suppose now that we wish to get an upper bound for $P_n(0,x)$. Clearly
+
+$$(2\pi)^d \sup_{x \in R} P_{2n}(0,x) = \sup_{x \in R} \int e^{-ix\cdot\theta} \phi^{2n}(\theta) d\theta \leq \int |\phi(\theta)|^{2n} d\theta = \int \psi^n(\theta) d\theta,$$
+
+and the same upper bound is obtained if $P_{2n}(0,x)$ is replaced by $P_{2n+1}(x)$. Therefore (4) will be true if we can exhibit a constant $B > 0$ such that
+
+$$(2\pi)^d Q_n(0,0) = \int_C \psi^n(\theta) d\theta \leq Bn^{-d/2}, \quad n \geq 1.$$
+
+The stage is now almost set for the application of P5. We must observe only that we may assume $Q(x,y)$ to be aperiodic. If it were not, then, as remarked after D1, one might change coordinates to replace $Q(x,y)$ by a symmetric, $d$-dimensional, aperiodic transition function $Q'(x,y)$ such that $Q'_n(0,0) = Q_n(0,0)$. (The characteristic function of $Q'$ will be real but it might no longer be non-negative, and we shall want to use the non-negativity of $\psi$; but that is a decidedly minor point, as it suffices to prove (6) for even values of $n$.) As $\psi$ is real, P5 gives
+
+$$1 - \psi(\theta) \geq \lambda|\theta|^2, \quad \theta \in C,$$
+
+for some $\lambda > 0
+
+It is easy to verify that $P_{2n}(0,n - in)$ is of the order of $n^{-1/2}$ rather than $n^{-1}$, the reason being that $Q(x,y)$ is one-dimensional in this case.
+
+The proof of (5) is now immediate. As we saw, the true dimension of the state space of $Q(x,y)$ influences the asymptotic behavior of $P_n(0,x)$. Thus (5) will hold provided $Q(x,y)$ is at least genuinely one dimensional, i.e., if $Q(0,x) > 0$ for at least one $x \neq 0$. But an examination of (3) shows this to be always the case, except when $P(0,x) = 1$ for some $x \in R$, in which case $Q$ is zero dimensional ($Q(0,0) = 1$).
+
+This section is concluded by showing that P6 is the best possible result of its type, because there are random walks for which the upper bound is actually attained, in the sense that
+
+$$\lim_{n \to \infty} n^{d/2} P_n(0,x)$$
+
+exists and is positive for every $x$ in $R$ of dimension $d$. P7 and P8 will serve as preliminaries to the explicit calculation of such limits in P9 and P10.

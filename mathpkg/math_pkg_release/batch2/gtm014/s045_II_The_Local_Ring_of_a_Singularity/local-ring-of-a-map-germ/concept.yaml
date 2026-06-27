@@ -1,0 +1,31 @@
+id: local-ring-of-a-map-germ
+title_en: "The Local Ring of a Map Germ"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: intermediate
+tags:
+  - map-germ
+  - local-ring
+  - singularity
+  - pullback
+  - smooth-functions
+depends_on:
+  required: []
+  recommended:
+    - ring-of-germs-of-smooth-functions
+    - maximal-ideal-of-function-germs
+    - pullback-of-map-germ
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky and Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VII"
+    section: "Part II, §1"
+    pages: "176-177"
+    role_in_book: "Defines the fundamental algebraic invariant used to classify map germ singularities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

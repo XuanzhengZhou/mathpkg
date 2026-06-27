@@ -1,0 +1,23 @@
+id: gamma-shift-formula
+title_en: "Shift Formula: $\Gamma(z+n) = z(z+1)\cdots(z+n-1)\Gamma(z)$"
+title_zh: "Gamma 函数平移公式"
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [gamma-function, shift-formula, recurrence, factorial]
+depends_on:
+  required: [gamma-functional-equation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "7"
+    section: "7.8"
+    pages: ""
+    role_in_book: "Iterated form of the functional equation for integer shifts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

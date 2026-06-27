@@ -1,0 +1,23 @@
+id: unique-prime-cyclotomic-p-extension
+title_en: "Unique Prime in Cyclotomic Z_p-extension"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [cyclotomic-fields, zp-extension, unit-group, unique-prime, iwasawa-theory]
+depends_on:
+  required: []
+  recommended: [cyclotomic-zp-extension, maximal-p-abelian-extension, unit-group]
+  suggested: [class-field-theory]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "6"
+    section: "Kummer Theory over Cyclotomic Z_p-extension"
+    pages: ""
+    role_in_book: "Describes the structure of the maximal p-abelian extension when only one prime lies above p"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

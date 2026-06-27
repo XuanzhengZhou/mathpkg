@@ -1,0 +1,63 @@
+(a) If $f(\omega) = F(S_1, S_2, \ldots,
+
+In particular, let $f(\omega) = 1$ if $S_n = x \in R$, and 0 otherwise. Then
+
+$$E[f] = P[S_n = x] = P_n(0,x).$$
+
+(b) The random variables $\omega_n = X_n$ are pairwise independent functions. More generally, let $I$ and $J$ be two disjoint subsets of the natural numbers. Let $\mathcal{F}_I$ denote the smallest sub-$\sigma$-field which contains all sets of the form $[\omega | \omega_k = x]$ for $k \in I$ and $x \in R$, and define $\mathcal{F}_J$ in a similar way. Suppose now that $f(\omega)$ and $g(\omega)$ are integrable on $(\Omega, \mathcal{F}, \mathbf{P})$ and that $f(\omega)$ is measurable with respect to $\mathcal{F}_I$ and $g(\omega)$ with respect to $\mathcal{F}_J$. Then $f$ and $g$ are independent functions, and
+
+$$E[fg] = E[f]E[g].$$
+
+The proof is nothing more or less than an exercise in rewording the content of D1, with two minor exceptions. The last equation in part (a) made use of the definition of $P_n(0,x)$ in D1.1, and the last equation in part (b) is Fubini's theorem as given in equation (4) preceding D1.
+
+To exhibit the advantage of the language of sets (events) and their measures in a familiar setting we shall use P1 to give a proof of P1.2. According to D1.2 we may express $F_n(x,y)$ as
+
+$$F_n(x,y) = P[x + S_k \neq y \text{ for } k = 1, 2, \ldots, n - 1; x + S_n = y],$$
+
+$n \geq 1$.
+
+If we let $T = T(\omega)$ denote the first time that $x + S_n = y$, or more formally
+
+$$T = \min [k \mid 1 \leq k, x + S_k = y] \leq \infty$$
+
+then $T = T(\omega)$ is a random variable (
+
+are quite obvious. To prove part (c) of P1.2 we decompose the event that $x + S_n = y$. Using part (a) of P1 and the additivity of $P[\cdot]$,
+
+$$P_n(x,y) = P[x + S_n = y] = \sum_{k=1}^{n} P[x + S_n = y; T = k]^7$$
+
+$$= \sum_{k=1}^{n} P[T = k; S_n - S_k = 0].$$
+
+(Here we made the observation that $S_n - S_k = 0$ when $T = k$ and $x + S_n = y$.) Now we may apply part (b) of P1 in the following manner. For each fixed integer $k \geq 1$, let $I = \{1, 2, \ldots, k\}$ and $J = \{k+1, k+2, \ldots, n\}$. Then
+
+$$f_k = f_k(\omega) = \begin{cases} 1 \text{ if } T = k \\ 0 \text{ otherwise}, \end{cases}$$
+
+$$g_k = g_k(\omega) = \begin{cases} 1 \text{ if } S_n - S_k = 0 \\ 0 \text{ otherwise}, \end{cases}$$
+
+are a pair of independent random variables, $f_k(\omega)$ being measurable with respect to $\mathcal{F}_I$ and $g_k(\omega)$ with respect to $\mathcal{F}_J$. It follows that $E[f_k g_k] = E[f_k] E[g_k]$, and resuming our decomposition of $P_n(x,y)$ we obtain
+
+$$P_n(x,y) = \sum_{k=1}^{n} E[f_k] E[g_k] = \sum_{k=1}^{n} P[T = k] P[S_n - S_k = 0]$$
+
+$$= \sum_{k=1}^{n} F_k(x,y) P_{n-k}(0,0),$$
+
+which proves part (c) of P1.2.
+
+As a rule we shall not give such obvious probabilistic arguments in all detail. But occasionally they are sufficiently complicated to warrant careful exposition, and then
+
+If $A_n = [\omega \mid x_k = a_k, k = 1, \ldots, n], n \geq 0, a_k \in R$, then
+
+$$P_z[A_n] = P(x, a_1)P(a_1, a_2) \ldots P(a_{n-1}, a_n).$$
+
+The $\sigma$-field $\mathcal{F}_z$ is the smallest $\sigma$-field containing all the cylinder sets $A_n$, and $P_z[\cdot]$ is the unique countably additive measure on $\mathcal{F}_z$, having the desired value on cylinder sets. If $f(\omega) = f$ is integrable on $(\Omega_z, \mathcal{F}_z, P_z)$, its expectation is defined as
+
+$$E_z[f] = \int_{\Omega_z} f(\omega) dP_z(\omega).$$
+
+The triple $(\Omega_z, \mathcal{F}_z, P_z)$, being completely specified by the transition function $P(x,y)$ and the state space $R$, will be called "the random walk $x_n = x_n(\omega)$, starting at the point $x_0 = x$."
+
+When $x = 0$, it is obvious that the sequence $S_n, n \geq 0$, defined on $(\Omega, \mathcal{F}, P)$ by D1 is the same sequence of random variables as $x_n$, for $n \geq 0$, defined on $(\Omega_0, \mathcal{F}_0, P_0)$ by D2. When $x \neq 0$, then $S_n + x$ on $(\Omega, \mathcal{F}, P)$ corresponds to $x_n$ on $(\Omega_z, \mathcal{F}_z, P_z)$, in the sense that
+
+$$P[x + S_k = y_k, k = 1, 2, \ldots, n] = P_z[x_k = y_k, k = 1, 2, \ldots, n]$$
+
+for every set of points $y_1, y_2, \ldots, y_n$ in $R$.
+
+The advantage in this slight but important shift in our point of view is particularly important when one works with stopping times. R

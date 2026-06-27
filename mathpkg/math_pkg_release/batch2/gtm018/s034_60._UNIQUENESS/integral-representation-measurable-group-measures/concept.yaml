@@ -1,0 +1,23 @@
+id: integral-representation-measurable-group-measures
+title_en: "Integral representation formula for measurable group measures"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [measurable-group, haar-measure, left-invariant, integral-representation]
+depends_on:
+  required: []
+  recommended: [measurable-group, product-measure, fubini-theorem, measure-preserving-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "X"
+    section: "60. Uniqueness"
+    pages: ""
+    role_in_book: "Establishes integral representation linking two measures on a measurable group; the key technical lemma for proving uniqueness of measure."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

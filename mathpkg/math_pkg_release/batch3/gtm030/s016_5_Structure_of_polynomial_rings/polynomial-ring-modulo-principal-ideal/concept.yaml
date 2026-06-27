@@ -1,0 +1,23 @@
+id: polynomial-ring-modulo-principal-ideal
+title_en: "Polynomial Ring Modulo Principal Ideal"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: polynomial-rings
+difficulty: intermediate
+tags: [polynomial-ring, quotient-ring, principal-ideal, field]
+depends_on:
+  required: [principal-ideal-theorem-for-polynomial-rings, isomorphism-of-transcendental-polynomial-rings]
+  recommended: [field, principal-ideal, quotient-ring]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "5"
+    pages: ""
+    role_in_book: "Corollary 1: F[u] ≅ F[x]/(g(x)) for fields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

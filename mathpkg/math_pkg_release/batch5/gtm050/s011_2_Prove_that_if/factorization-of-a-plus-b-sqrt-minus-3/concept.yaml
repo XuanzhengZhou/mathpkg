@@ -1,0 +1,23 @@
+id: factorization-of-a-plus-b-sqrt-minus-3
+title_en: "Factorization of a + b√(-3) into Linear Factors"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: intermediate
+tags: [quadratic-integer-rings, z-sqrt-minus-3, factorization, unique-factorization, euler]
+depends_on:
+  required: [odd-factor-theorem-a2-plus-3b2, divisibility-by-two-for-a2-plus-3b2]
+  recommended: [ring-theory, algebraic-integers]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.5"
+    pages: ""
+    role_in_book: "Statement (3): the factorization theorem for numbers of the form a+b√(-3) with coprime a,b, into irreducible linear factors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: noncyclic-ergodic-chains-are-normal
+title_en: "Noncyclic Ergodic Chains Are Normal"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [ergodic-chains, normal-chains, potential-theory, mean-first-passage-time]
+depends_on:
+  required: []
+  recommended: [bound-on-difference-of-expected-occupation-times]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 9-49 proves that every noncyclic ergodic chain is normal and gives formulas for C and G"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

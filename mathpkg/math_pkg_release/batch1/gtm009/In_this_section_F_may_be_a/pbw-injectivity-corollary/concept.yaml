@@ -1,0 +1,23 @@
+id: pbw-injectivity-corollary
+title_en: "PBW Corollary B: Injectivity of the Canonical Map from L to U(L)"
+title_zh: "PBW 推论 B：L 到 U(L) 的自然映射是单射"
+type: corollary
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [pbw-theorem, universal-enveloping-algebra, injectivity, canonical-map]
+depends_on:
+  required: [poincare-birkhoff-witt-theorem, pbw-complement-corollary]
+  recommended: [universal-enveloping-algebra]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "V"
+    section: "17"
+    pages: "102-114"
+    role_in_book: "Corollary of PBW: L embeds into its universal enveloping algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

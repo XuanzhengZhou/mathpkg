@@ -1,0 +1,1 @@
+$L^1(\mathbb{R})$ with convolution is a Banach algebra, meaning that $\|f * g\|_1 \leq \|f\|_1 \|g\|_1$. This algebra is the domain of the Fourier transform and plays a central role in harmonic analysis.

@@ -1,0 +1,23 @@
+id: baire-implies-barreled
+title_en: "Every Locally Convex Baire Space is Barreled"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [barreled-space, baire-space, barre, locally-convex-space]
+depends_on:
+  required: [barreled-space, baire-space]
+  recommended: [barrel, locally-convex-space]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "7.1"
+    pages: ""
+    role_in_book: "Fundamental result: Baire category implies barreled"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

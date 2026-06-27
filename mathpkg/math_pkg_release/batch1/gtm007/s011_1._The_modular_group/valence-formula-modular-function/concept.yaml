@@ -1,0 +1,23 @@
+id: valence-formula-modular-function
+title_en: "The Valence Formula for Modular Functions"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: ["valence-formula", "modular-function", "zeros-and-poles", "fundamental-domain", "genus-zero"]
+depends_on:
+  required: ["modular-function-definition", "fundamental-domain-of-modular-group"]
+  recommended: ["argument-principle", "residue-theorem"]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "The key structural result relating the weight to the zeros and poles."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

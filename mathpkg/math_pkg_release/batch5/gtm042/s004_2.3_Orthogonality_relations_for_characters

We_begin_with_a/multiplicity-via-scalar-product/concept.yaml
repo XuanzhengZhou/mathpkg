@@ -1,0 +1,23 @@
+id: multiplicity-via-scalar-product
+title_en: "Multiplicity of an Irreducible Representation via Scalar Product"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [multiplicity, decomposition, irreducible-representations, scalar-product, characters]
+depends_on:
+  required: [orthogonality-of-irreducible-characters, direct-sum-decomposition]
+  recommended: [character-of-direct-sum]
+  suggested: [scalar-product-on-class-functions]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "2"
+    section: "2.3"
+    pages: ""
+    role_in_book: "Theorem 4. Shows that the scalar product of characters counts how many times an irreducible representation appears in a given representation."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

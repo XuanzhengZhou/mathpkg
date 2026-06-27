@@ -1,0 +1,19 @@
+A family $\mathcal{F} \subset M(G)$ is normal in $C(G, \mathbb{C}_\infty)$ iff $\mu(\mathcal{F}) \equiv \{\mu(f): f \in \mathcal{F}\}$ is locally bounded.
+
+Note. If $f_n(z) = nz$ for $n \geq 1$ then $\mu(f_n)(z) = \frac{2n}{1 + n^2 |z|^2}$. Thus $\mathcal{
+
+3.10 $\sum_{k=1}^{n} |w_k - w_{k-1}| \leq 2|z - z'|$;
+
+3.11 $\left| \frac{(1 + |f(w_{k-1})|^2)}{[(1 + |f(w_k)|^2)(1 + |f(w_{k-1})|^2)]^{\frac{1}{2}}} - 1 \right| < \alpha, \quad 1 \leq k \leq n$;
+
+3.12 $\left| \frac{f(w_k) - f(w_{k-1})}{w_k - w_{k-1}} - f'(w_{k-1}) \right| < \alpha, \quad 1 \leq k \leq n$.
+
+To see that such points can be found select a polygonal path $P$ in $K$ satisfying (3.9) and (3.10). Cover $P$ by small disks in which conditions similar to (3.11) and (3.12) hold, choose a finite subcover, and then pick points $w_0, \ldots, w_n$ on $P$ such that each segment $[w_{k-1}, w_k]$ lies in one of these disks. Then $\{w_0, \ldots, w_n\}$ will satisfy all of these conditions. If $\beta_k = [(1 + |f(w_{k-1})|^2)(1 + |f(w_k)|^2)]^{\frac{1}{2}}$ then
+
+$$d(f(z), f(z')) \leq \sum_{k=1}^{n} d(f(w_{k-1}), f(w_k))$$
+
+$$= \sum_{k=1}^{n} \frac{2}{\beta_k} |f(w_k) - f(w_{k-1})|$$
+
+$$\leq \sum_{k=1}^{n} \frac{2}{\beta_k} \left| \frac{f(w_k) - f(w_{k-1})}{w_k - w_{k-1}} - f'(w_{k-1}) \right| |w_k - w_{k-1}|$$
+
+$$+ \sum_{k=1}^{n} \frac{2}{\beta_k}

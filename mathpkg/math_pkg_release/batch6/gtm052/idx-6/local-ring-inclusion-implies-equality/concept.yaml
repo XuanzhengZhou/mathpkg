@@ -1,0 +1,23 @@
+id: local-ring-inclusion-implies-equality
+title_en: "Inclusion of Local Rings Implies Equality of Points"
+title_zh: "局部环包含蕴含点相等"
+type: lemma
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [local-ring, quasi-projective-variety, function-field, inclusion]
+depends_on:
+  required: [local-ring, quasi-projective-variety]
+  recommended: [affine-variety, function-field]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "6"
+    pages: "58"
+    role_in_book: "Lemma 6.4, ensures distinct points of a curve have distinct local rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: homological-determination-of-orientation
+title_en: "Homological Determination of the Orientation Number"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [orientation, homology, diffeomorphism, fundamental-class]
+depends_on:
+  required: [orientation-of-diffeomorphism]
+  recommended: [singular-homology, homotopy, reflection]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "3"
+    section: "3.4"
+    pages: ""
+    role_in_book: "Theorem relating the orientation number O(f) to the induced maps in homology and cohomology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

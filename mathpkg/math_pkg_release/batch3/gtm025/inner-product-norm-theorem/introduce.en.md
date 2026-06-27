@@ -1,0 +1,1 @@
+Every inner product induces a norm via the square root of the inner product of a vector with itself. The parallelogram law characterizes norms that come from inner products among all norms on a linear space.

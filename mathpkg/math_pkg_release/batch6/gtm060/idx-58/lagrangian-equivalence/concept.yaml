@@ -1,0 +1,23 @@
+id: lagrangian-equivalence
+title_en: "Lagrangian equivalence of Lagrangian mappings"
+title_zh: "拉格朗日映射的拉格朗日等价"
+type: definition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [lagrangian-mapping, symplectic-diffeomorphism, equivalence-relation, caustic-classification]
+depends_on:
+  required: [lagrangian-mapping]
+  recommended: [symplectic-diffeomorphism, cotangent-bundle]
+  suggested: [generating-family-equivalence, legendre-singularities]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 12"
+    section: "E. Lagrangian equivalence"
+    pages: ""
+    role_in_book: "Defines when two Lagrangian mappings are considered equivalent — via a symplectic diffeomorphism preserving fibers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

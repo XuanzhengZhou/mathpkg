@@ -1,0 +1,23 @@
+id: stream-function-of-commutator-is-jacobian
+title_en: "Stream Function of the Commutator is the Jacobian of Stream Functions"
+title_zh: "对易子的流函数是流函数的雅可比行列式"
+type: proposition
+domain: geometry
+subdomain: hydrodynamics
+difficulty: intermediate
+tags: [stream-function, commutator, jacobian, poisson-bracket, 2d-hydrodynamics]
+depends_on:
+  required: [stream-function-2d]
+  recommended: [poisson-bracket, jacobian-determinant]
+  suggested: [hamiltonian-mechanics]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 2"
+    section: "Section 47"
+    pages: ""
+    role_in_book: "Proposition relating the stream function of a commutator to the Jacobian of stream functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

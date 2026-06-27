@@ -1,0 +1,12 @@
+Let $\langle T, \eta, \mu \rangle$ be a monad in a category $X$. Then the $T$-algebras and their morphisms form a category $X^T$. There is an adjunction
+$$
+\langle F^T, G^T; \eta^T, \varepsilon^T \rangle: X \rightleftharpoons X^T
+$$
+with the following assignments:
+$$
+G^T(\langle x, h \rangle) = x, \qquad G^T(f) = f,
+$$
+$$
+F^T(x) = \langle Tx, \mu_x \rangle, \qquad F^T(f) = Tf,
+$$
+and $\eta^T = \eta$, while $\varepsilon^T_{\langle x, h \rangle} = h$ for each $T$-algebra $\langle x, h \rangle$. The monad defined in $X$ by this adjunction is precisely the original monad $T$.

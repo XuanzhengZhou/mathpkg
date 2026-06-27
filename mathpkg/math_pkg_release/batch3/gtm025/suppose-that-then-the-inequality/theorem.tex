@@ -1,0 +1,21 @@
+Suppose that $1 < p \leq 2$. Then the inequality
+
+(i) $(1 + x)^{p'} + (1 - x)^{p'} \leq 2(1 + x^p)^{\frac{1}{p-1}}
+
+so that we need only to prove (3). Expanding in power series, we have
+
+$$\frac{1}{2} \left[ (1 + u)^p + (1 - u)^p \right] - (1 + u^{p'})^{p-1}$$
+
+$$= \frac{1}{2} \left[ \sum_{k=0}^{\infty} \binom{p}{k} u^k + \sum_{k=0}^{\infty} \binom{p}{k} (-1)^k u^k \right] - \sum_{k=0}^{\infty} \binom{p-1}{k} u^{p'k}$$
+
+$$= \sum_{k=0}^{\infty} \left[ \binom{p}{2k} u^{2k} - \binom{p-1}{k} u^{p'k} \right]$$
+
+$$= \sum_{k=0}^{\infty} \left[ \binom{p}{2k} u^{2k} - \binom{p-1}{2k-1} u^{p'(2k-1)} - \binom{p-1}{2k} u^{p'2k} \right].$$
+
+As shown in (7.25), the last line of (4) converges absolutely and uniformly for $u \in [0, 1]$. We will show that each term $[ \cdots ]$ in this series is nonnegative. Plainly this will prove (3). The $k^{th}$ term is
+
+$$\frac{p(p-1)(p-2) \cdots (p-(2k-1))}{(2k)!} u^{2k} - \frac{(p-1)(p-2) \cdots (p-(2k-1))}{(2k-1)!} u^{p'(2k-1)}$$
+
+$$- \frac{(p-1)(p-2) \cdots (p-2k)}{(2k)!} u^{p'2k}$$
+
+$$= \frac{p(p-1)(2-p) \cdots (2k-1-p)}{(2k)!} u^{2k} - \frac{(p-1)(2-p

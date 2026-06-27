@@ -1,0 +1,22 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If $h$ is a continuous column vector and if $\{E_k\}$ is an increasing sequence of finite sets with union $S$, then
+
+$$\lim_k B^{E_k}(x, \cdot)h = \int_{*S} h(y)d\beta^x(y)$$
+
+pointwise for $x$ in $*S$.
+
+If $\nu = 0N(x, \cdot)$, then the associated $Q$-superregular measure is $\bar{\nu} = J(x, \cdot)$. Since $\beta^x$ is the measure for $J(x, \cdot)$, $\beta^x$ concentrates its mass at $x$ if $x$ is in $S$ or in $B^e$. Thus the right side of the identity of Proposition 11-9 equals $h(x)$ for all such $x$.
+
+Define a linear transformation $T$ of continuous functions to bounded functions on $*S$ by
+
+$$Th(x) = \int_{*S} h(y)d\beta^x(y).$$
+
+A continuous function $h$ such that $Th = h$ is said to be $T$-continuous. (The motivation for this name appears as Problem 2 at the end of the chapter.)
+
+We conclude this section by characterizing the $T$-continuous functions. Notice that if every boundary point is extreme, then every continuous function is $T$-continuous.

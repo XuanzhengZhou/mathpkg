@@ -1,0 +1,23 @@
+id: bose-necessary-condition-partial-geometry
+title_en: "Bose Necessary Condition for Existence of Partial Geometries"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: partial-geometries
+difficulty: advanced
+tags: [partial-geometry, necessary-condition, Bose, parameter-constraints, integrality]
+depends_on:
+  required: [partial-geometry-parameter-relations]
+  recommended: [partial-geometry-two-class-pbib-design]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "IX"
+    section: "46"
+    pages: "270-277"
+    role_in_book: "Gives integrality conditions that must be satisfied for a partial geometry to exist"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

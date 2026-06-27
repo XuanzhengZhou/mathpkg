@@ -1,0 +1,29 @@
+id: mesh-of-collection-of-sets
+title_en: "Mesh of a Collection of Sets"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: metric-spaces
+difficulty: basic
+tags:
+  - mesh
+  - diameter
+  - collection
+  - supremum
+  - decomposition
+depends_on:
+  required:
+    - diameter-of-set-in-metric-space
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "4"
+    section: "4"
+    pages: "42-45"
+    role_in_book: "General definition used to control the fineness of a brick-decomposition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

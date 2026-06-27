@@ -1,0 +1,23 @@
+id: tensor-product-monad-on-abelian-groups
+title_en: "Tensor Product Monad on Abelian Groups"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [monad, tensor-product, abelian-group, module, ring-action]
+depends_on:
+  required: [monad, tensor-product, abelian-group, ring]
+  recommended: [algebra-of-a-monad]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "1"
+    pages: "156-157"
+    role_in_book: "Example of a monad; the algebras are left R-modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

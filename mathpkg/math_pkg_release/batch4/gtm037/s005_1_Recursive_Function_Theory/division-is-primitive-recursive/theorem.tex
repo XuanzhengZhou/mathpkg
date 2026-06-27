@@ -1,0 +1,6 @@
+The floor division function $[x/y]$ on $\omega$ (with $[x/0] = 0$) is primitive recursive. Define an auxiliary function $f$ by primitive recursion:
+
+$$f(x, 0) = 0,$$
+$$f(x, \delta y) = f(x, y) + \overline{sg}\,|x - \delta\, rm(x, y)|.$$
+
+Then $[x/y] = f(y, x)$.

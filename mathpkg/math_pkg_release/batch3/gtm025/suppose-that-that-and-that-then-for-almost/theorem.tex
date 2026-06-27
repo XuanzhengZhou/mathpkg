@@ -1,0 +1,23 @@
+** Suppose that $1 < p < \infty$, that $f \in \mathfrak{L}_1(R)$, and that $g \in \mathfrak{L}_p(R)$. Then for almost every $x \in R$, the functions $y \rightarrow f(x - y)$ and $y \rightarrow f(y)$ and $g(x -
+
+[As in (8.14) and (12.44), $g_{-t}$ denotes the translate of $g$ by $-t$.] Since $h$ can be taken to never vanish, $e.g.$ $h(x) = \exp(-x^2)$, (1) implies that the integrals $\int_R |f(x - y)g(y)| \, dy$ and $\int_R |f(t)g(x - t)| \, dt$ are both finite for almost all $x \in R$. This proves our first assertion.
+
+It also follows from (1) and (21.13) that the mapping
+
+$$h \rightarrow \int_R h(x) f * g(x) \, dx$$
+
+is a bounded linear functional on $\mathfrak{L}_{p'}(R)$ with norm not exceeding $\|f\|_1 \cdot \|g\|_p$. Theorem (15.12) shows that there exists a function $\varphi \in \mathfrak{L}_p(R)$ such that
+
+$$\int_R h(x) \varphi(x) \, dx = \int_R h(x) f * g(x) \, dx$$
+
+(2)
+
+for all $h \in \mathfrak{L}_{p'}(R)$ and such that
+
+$$\|\varphi\|_p \leq \|f\|_1 \cdot \|g\|_p.$$
+
+From (2) and a standard argument, we infer that $\varphi = f * g$ a.e., and also that $f * g \in \mathfrak{L}_p(R)$ and $\|f * g\|_p \leq \|f\|_1 \cdot \|g\|_p$. Finally we have
+
+$$f * g(x) = \int_R f(x - y)g(y) \, dy = \int_R f(t)g(x - t) \, dt = g * f(x)$$
+
+for almost all $x$, i.e., for all $x$ such that these integrands are in $\mathfrak{L}_1(R)$.

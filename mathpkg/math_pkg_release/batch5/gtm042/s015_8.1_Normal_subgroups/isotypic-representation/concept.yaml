@@ -1,0 +1,23 @@
+id: isotypic-representation
+title_en: "Isotypic representation"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [isotypic, direct-sum, irreducible-representation]
+depends_on:
+  required: [irreducible-representation, direct-sum-of-representations]
+  recommended: [canonical-decomposition]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "8"
+    section: "8.1"
+    pages: ""
+    role_in_book: "Definition needed for Proposition 24's dichotomy"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

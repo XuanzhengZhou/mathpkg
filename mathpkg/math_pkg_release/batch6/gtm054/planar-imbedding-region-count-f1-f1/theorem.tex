@@ -1,0 +1,5 @@
+$$h(x) = \sum_{y \in V + \{x\}} h(x,y).$$
+
+A flow $h$ in $(V, D)$ is said to be feasible if $0 \leq h(x, y)$ for each $(x, y) \in W$ while $h(x) \leq j(x)$ for all $x \in V$. Finally, $h$ is said to be a maximum flow through $x_0$ if $h$ is a feasible flow and if $h(x_0) \geq h'(x_0)$ for every feasible flow $h'$ in $(V, D)$. A vertex-cut through $x_0$ is a subset $U \subseteq V + \{x_0\}$ such that every directed circuit through $x_0$ contains an element of $U$. Clearly $V + \{x_0\}$ is a vertex-cut through $x_0$. If there are no directed circuits through $x_0$, then $\varnothing$ is a vertex-cut through $x_0$. The capacity of a vertex-cut $U$ is
+
+$$j(U) = \sum_{x \in U} j(x).$$

@@ -1,0 +1,23 @@
+id: schurs-lemma
+title_en: "Schur's Lemma"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [schurs-lemma, simple-module, g-module, isomorphism, eigenvalue, algebraically-closed]
+depends_on:
+  required: [g-morphism-to-from-simple-module, simple-g-module]
+  recommended: [g-morphism, algebraically-closed-field]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "4"
+    pages: ""
+    role_in_book: "Classifies G-morphisms between simple G-modules: either zero or an isomorphism; over an algebraically closed field, an endomorphism is scalar multiplication"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

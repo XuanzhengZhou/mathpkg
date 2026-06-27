@@ -1,0 +1,13 @@
+(i) The theory $Q$ in $\mathcal{L}_{\text{nos}}$ is the theory axiomatized by the following sentences:
+(a) $\forall v_0 \forall v_1 (\mathbf{s}v_0 = \mathbf{s}v_1 \rightarrow v_0 = v_1)$;
+(b) $\forall v_0 \neg(\mathbf{s}v_0 = \mathbf{0})$;
+(c) $\forall v_0 [\neg(v_0 = \mathbf{0}) \rightarrow \exists v_1(\mathbf{s}v_1 = v_0)]$;
+(d) $\forall v_0(v_0 + \mathbf{0} = v_0)$;
+(e) $\forall v_0 \forall v_1 [v_0 + \mathbf{s}v_1 = \mathbf{s}(v_0 + v_1)]$;
+(f) $\forall v_0(v_0 \cdot \mathbf{0} = \mathbf{0})$;
+(g) $\forall v_0 \forall v_1(v_0 \cdot \mathbf{s}v_1 = v_0 \cdot v_1 + v_0)$.
+
+(ii) The theory $P$ in $\mathcal{L}_{\text{nos}}$ of Peano arithmetic is the collection of all sentences $\varphi$ such that $\Delta \vdash \varphi$, where $\Delta$ consists of the sentences (a), (b), (d)-(g) above and also, for each formula $\psi$, the induction axiom:
+$$[\psi(\mathbf{0}) \land \forall v_0 [\psi(v_0) \rightarrow \psi(\mathbf{s}v_0)] \rightarrow \forall v_0 \psi(v_0)].$$
+
+(iii) The theory $N$ in $\mathcal{L}_{\text{nos}}$ is the collection of all sentences $\varphi$ which hold in $(\omega, +, \cdot, \mathbf{s}, \mathbf{0})$.

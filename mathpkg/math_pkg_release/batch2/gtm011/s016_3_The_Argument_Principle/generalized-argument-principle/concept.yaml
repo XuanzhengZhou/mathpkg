@@ -1,0 +1,23 @@
+id: generalized-argument-principle
+title_en: "Generalized Argument Principle"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [argument-principle, contour-integration, zeros, poles, meromorphic, weighting-function]
+depends_on:
+  required: [argument-principle, meromorphic-function, cauchy-residue-theorem]
+  recommended: []
+  suggested: [inverse-function-formula]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "V"
+    section: "3"
+    pages: ""
+    role_in_book: "Generalizes the Argument Principle by introducing an analytic weight function g, yielding a formula for Σ g(zeros) - Σ g(poles)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

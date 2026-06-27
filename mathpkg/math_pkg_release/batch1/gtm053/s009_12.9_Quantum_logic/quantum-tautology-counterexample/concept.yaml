@@ -1,0 +1,23 @@
+id: quantum-tautology-counterexample
+title_en: "Kochen–Specker Counterexample: Classical Tautology Failing in B(E^3)"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: quantum-logic
+difficulty: advanced
+tags: [quantum-logic, kochen-specker, boolean-algebra, tautology, counterexample]
+depends_on:
+  required: [kochen-specker-nonembeddability, graph-gamma2-sphere-realization, partial-boolean-algebra]
+  recommended: [hilbert-closed-subspace-algebra]
+  suggested: [propositional-logic]
+source_books:
+  - book_id: "gtm053"
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "12"
+    section: "12.16"
+    pages: ""
+    role_in_book: "Explicit construction of a 117-variable logical polynomial that is a classical tautology but evaluates to 0 in B(E^3)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

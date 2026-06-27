@@ -1,0 +1,23 @@
+id: zero-finite-multiplicity
+title_en: "Zeros of Analytic Functions Have Finite Multiplicity"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [zero, multiplicity, analytic-function, factorization, identity-theorem]
+depends_on:
+  required: [analytic-function-zero-limit-point-equivalence]
+  recommended: [analytic-function, power-series]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.2"
+    pages: ""
+    role_in_book: "Corollary 3.9: each zero of a non-identically-zero analytic function has finite multiplicity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

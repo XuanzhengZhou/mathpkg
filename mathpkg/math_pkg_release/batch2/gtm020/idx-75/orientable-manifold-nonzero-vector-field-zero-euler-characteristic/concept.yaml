@@ -1,0 +1,23 @@
+id: orientable-manifold-nonzero-vector-field-zero-euler-characteristic
+title_en: "Orientable Manifold with Nonzero Vector Field has Zero Euler Characteristic"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [euler-characteristic, orientable-manifold, vector-field, euler-class, obstruction]
+depends_on:
+  required: [euler-class-euler-characteristic-relation, euler-class, euler-characteristic]
+  recommended: [orientable-manifold, tangent-bundle, nowhere-vanishing-section]
+  suggested: [poincare-hopf-theorem]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "7"
+    section: "7.3"
+    pages: ""
+    role_in_book: "Immediate corollary: existence of nonzero vector field forces Euler characteristic zero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

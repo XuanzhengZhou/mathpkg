@@ -1,0 +1,23 @@
+id: gram-schmidt-map
+title_en: "Gram-Schmidt map on Stiefel varieties"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: inner-product-spaces
+difficulty: basic
+tags: [gram-schmidt, orthogonalization, stiefel-variety, orthonormal-frame]
+depends_on:
+  required: [inner-product, orthonormal-basis, stiefel-variety]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "3"
+    section: "3.5"
+    pages: "107-110"
+    role_in_book: "Defines the Gram-Schmidt map that orthonormalizes a linearly independent k-tuple"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

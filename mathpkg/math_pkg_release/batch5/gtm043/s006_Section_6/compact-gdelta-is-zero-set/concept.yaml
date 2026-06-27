@@ -1,0 +1,23 @@
+id: compact-gdelta-is-zero-set
+title_en: "Every Compact G-Delta is a Zero-Set in a Completely Regular Space"
+title_zh: "完全正则空间中每个紧G_δ集是零集"
+type: corollary
+domain: topology
+subdomain: compactness
+difficulty: basic
+tags: [compact-set, g-delta, zero-set, completely-regular-space]
+depends_on:
+  required: [gdelta-containing-compact-contains-zero-set, compact-set, g-delta-set]
+  recommended: [zero-set]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.11"
+    pages: ""
+    role_in_book: "Corollary to Theorem 3.11(b); important special case frequently used in the theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

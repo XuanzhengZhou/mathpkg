@@ -1,0 +1,23 @@
+id: nonnegative-bounded-column-eigenvector
+title_en: "Convergence of iterates of a superharmonic column vector"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [normal-chain, superharmonic-function, limit-theorem]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "2"
+    pages: "264–273"
+    role_in_book: "Lemma 9-32; establishes that if h is non-negative bounded and Ph ≤ h, then lim P^n h exists"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

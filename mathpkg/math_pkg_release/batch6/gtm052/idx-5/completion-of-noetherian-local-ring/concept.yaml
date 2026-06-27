@@ -1,0 +1,23 @@
+id: completion-of-noetherian-local-ring
+title_en: "Completion of a Noetherian Local Ring"
+title_zh: "诺特局部环的完备化"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [completion, noetherian-local-ring, m-adic-topology, regularity, flatness]
+depends_on:
+  required: [noetherian-local-ring, regular-local-ring, m-adic-completion]
+  recommended: [faithfully-flat, krull-dimension]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "5"
+    pages: ""
+    role_in_book: "Recalls properties of completion needed for the definition of analytically isomorphic points"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

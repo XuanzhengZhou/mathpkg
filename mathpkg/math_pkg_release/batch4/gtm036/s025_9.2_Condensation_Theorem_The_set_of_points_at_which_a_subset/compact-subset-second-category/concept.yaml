@@ -1,0 +1,23 @@
+id: compact-subset-second-category
+title_en: "Compact Subset with Non-Void Interior is of the Second Category"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: baire-category
+difficulty: intermediate
+tags: [baire-category, second-category, compact, Hausdorff, regular-space]
+depends_on:
+  required: [first-category-set, compact-space]
+  recommended: [hausdorff-space, regular-space, interior]
+  suggested: [baire-theorem, locally-compact]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley"
+    title: "Linear Topological Spaces"
+    chapter: "9"
+    section: "9.2"
+    pages: ""
+    role_in_book: "Basic existence theorem for second category sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

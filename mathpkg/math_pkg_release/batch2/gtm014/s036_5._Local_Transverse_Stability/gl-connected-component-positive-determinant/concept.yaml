@@ -1,0 +1,23 @@
+id: gl-connected-component-positive-determinant
+title_en: "Lemma 5.4: Connected Component of Identity in GL(n,R)"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: lie-groups
+difficulty: basic
+tags: [general-linear-group, connected-component, determinant, lie-group]
+depends_on:
+  required: []
+  recommended: [general-linear-group-definition, determinant, matrix-exponential]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "5"
+    pages: "132"
+    role_in_book: "Characterizes the identity component of GL(n,R); used to connect diffeomorphisms with positive Jacobian determinant to the identity via continuous paths."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

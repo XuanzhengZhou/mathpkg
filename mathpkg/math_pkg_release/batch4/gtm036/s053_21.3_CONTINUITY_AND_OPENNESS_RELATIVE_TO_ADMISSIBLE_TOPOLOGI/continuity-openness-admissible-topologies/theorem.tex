@@ -1,0 +1,14 @@
+\begin{theorem}[Continuity and Openness Relative to Admissible Topologies]
+\label{thm:21.3}
+Let $(E,F)$ and $(G,H)$ be paired linear spaces, let $\mathcal{A}$ and $\mathcal{B}$ be admissible families of subsets of $F$ and $H$ respectively, and let $T$ be a linear transformation of $E$ into $G$ with dual $T'$. Then:
+
+\begin{itemize}
+\item[(i)] The transformation $T$ is $\mathcal{T}_{\mathcal{A}}$-$\mathcal{T}_{\mathcal{B}}$ continuous if and only if for each $B$ in $\mathcal{B}$ there is a member $A$ of $\mathcal{A}$ such that
+$$A \cap \overline{T'[H]} \subset \overline{T'[B]},$$
+where closures are relative to the topology $w(F,E)$. If, in addition, $E$ distinguishes points of $F$ and if each member of $\mathcal{B}$ is $w(H,G)$-compact (equivalently, $\mathcal{T}_{\mathcal{B}}$ is weaker than the Mackey topology $m(G,H)$), then $T'[H]$ is $w(F,E)$-closed.
+
+\item[(ii)] The transformation $T$ is $\mathcal{T}_{\mathcal{A}}$-$\mathcal{T}_{\mathcal{B}}$ relatively open if and only if for each $A$ in $\mathcal{A}$ there is a member $B$ of $\mathcal{B}$ such that $A_0 + T'[H]_0 \supset T'[B]_0$, where the subscript $0$ denotes the polar. If, in addition, $H$ distinguishes points of $G$ and each member of $\mathcal{A}$ is $w(F,E)$-compact (equivalently, $\mathcal{T}_{\mathcal{A}}$ is weaker than the Mackey topology $m(E,F)$), then $T'[H]$ is $w(F,E)$-closed.
+
+\item[(iii)] Under the hypotheses that $E$ distinguishes points of $F$ and each member of $\mathcal{A}$ is $w(F,E)$-compact (so that $\mathcal{T}_{\mathcal{A}} \subset m(E,F)$), the transformation $T$ is $\mathcal{T}_{\mathcal{A}}$-$\mathcal{T}_{\mathcal{B}}$ relatively open if and only if $T'[H]$ is $w(F,E)$-closed and for each $A$ in $\mathcal{A}$ there is $B$ in $\mathcal{B}$ such that $A \cap T'[H] \subset \overline{T'[B]}$, the closure being in $w(F,E)$.
+\end{itemize}
+\end{theorem}

@@ -1,0 +1,51 @@
+Let $t$ be algebraic over the quotient field of $0$, let $p'$ be a prime ideal in $0' = 0[t]$ such that the prime ideal $p = p' \cap 0$ has height 1 (i.e., $p$ is a minimal prime ideal in $0$). Then the $p'$-residue of $t$ is algebraic over $0/p$.
+
+Proof. Upon passing to the rings of quotients $0_p$ and $0'_{0-p}$ we achieve a reduction to the case in which $0$ is a local domain having $p$ as its only proper prime ideal (since $p'0'_{0-p}$ is obviously a prime ideal in $0'_{0-p}$ whose contraction to $0_p$ is $p0_p$). We therefore assume that $0$ is a local domain and that the minimal prime ideal $p$ of $0$ is also the maximal ideal of $0$ (0 is then a 1-dimensional local domain).
+
+Let $T$ be an indeterminate, let $\mathfrak{D}' = 0[T]$ and let $\mathfrak{M}'$ be the kernel of the homomorphism $\varphi$ of $\mathfrak{D}'$ onto $0'$ which is uniquely determined by the following two conditions: (1) $\varphi$ is the identity on $0$; (2) $\varphi(T) = t$. Then $\varphi$ is a proper homomorphism, i.e., $\mathfrak{M}' \neq (0)$. If we set $\mathfrak{P}' = \varphi^{-1}(\mathfrak{P}')$, then it is immediately seen that $\mathfrak{P}' \cap
+
+$\mathfrak{P}'$ is contained in every prime ideal of $\mathfrak{D}'x$, in particular in every isolated prime ideal of $\mathfrak{D}'x$. By the principal ideal theorem (Vol. I, Ch. IV, Theorem 29) it follows then that $\mathfrak{P}'$ is a minimal prime ideal in $\mathfrak{D}'$, in contradiction with $\mathfrak{P}' > \mathfrak{M}' > 0$. Q.E.D.
+
+Before proceeding with the proof of the next proposition we shall give another proof of the preceding lemma, which does not make use of the principal ideal theorem.
+
+In the first place, we can achieve a reduction to the case in which $t$ belongs to the quotient field of $\mathfrak{o}$. In fact, there exists an element $a \neq 0$ in $\mathfrak{o}$ such that the element $\tau = at$ is integral over $\mathfrak{o}$. We set $\mathfrak{o}'' = \mathfrak{o}[\tau]$, $\mathfrak{p}'' = \mathfrak{p}' \cap \mathfrak{o}''$. It is clear that the $\mathfrak{p}''$-residue $\bar{\tau}$ of $\tau$ is algebraic over $\mathfrak{o}/\mathfrak{p}$ (use a relation of integral dependence of $\tau$ over $\mathfrak{o}$) and that $\mathfrak{o}''/\mathfrak{p}'' = \mathfrak{o}/\mathfrak{p}[\bar{\tau}]$. Therefore it is sufficient to prove that the $\mathfrak{p}''$-residue of $t$ is algebraic over $\mathfrak{o}''/\mathfrak{p}''$. Now, since $\mathfrak{p}$ is minimal in $\mathfrak{o}$, $\mathfrak{p}''$ is minimal in $\mathfrak{o}''$ (Vol. I, p. 259), and since $\mathfrak{p}' \cap \mathfrak{o}'' = \mathfrak{p}''$ and $t$ belongs to the quotient
+
+$a_1, a_2, \cdots, a_n$ cannot all belong to $\mathfrak{p}$, for if they do we would have $a_0 = -(a_1 t + \cdots + a_n t^n) \in \mathfrak{o}' \cap \mathfrak{o}$, i.e., $a_0 \in \mathfrak{p}$, a contradiction).
+
+We shall use the preceding lemma for proving the following:
+
+**Proposition 1.** Let $\mathfrak{o}$ be a noetherian domain and let $\mathfrak{o}' = \mathfrak{o}[t]$ be a domain which contains $\mathfrak{o}$ and is a simple ring extension of $\mathfrak{o}$. Let $\mathfrak{p}'$ be a prime ideal in $\mathfrak{o}'$, different from $\mathfrak{o}'$; let $\mathfrak{p} = \mathfrak{p}' \cap \mathfrak{o}$ and let $\tau$ be the $\mathfrak{p}'$-residue of $t$.
+
+(A) If $t$ is transcendental over $\mathfrak{o}$, then (a) $h(\mathfrak{p}') = 1 + h(\mathfrak{p})$ and $\tau$ is algebraic over $\mathfrak{o}/\mathfrak{p}$, if $\mathfrak{p}' \neq \mathfrak{o}'/\mathfrak{p}$, and (b) $h(\mathfrak{p}') = h(\mathfrak{p})$ and $\tau$ is transcendental over $\mathfrak{o}/\mathfrak{p}$, if $\mathfrak{p}' = \mathfrak{o}'/\mathfrak{p}$. Furthermore, if $\mathfrak{p}$ is any prime ideal in $\mathfrak{o}$ then $\mathfrak{o}'/\mathfrak{p}$ is a prime ideal in $\mathfrak{o}'$, and we have $\mathfrak{o}'/\mathfrak{p} \cap \mathfrak{o} = \mathfrak{p}$.
+
+(B) If $t$ is algebraic
+
+be a strictly descending chain of prime ideals in $o'$ beginning with $p'$ and having maximal length, and let $q' \cap o = q$. Assertion (A) being trivial if $p' = (0)$, we use induction with respect to $h(p')$. We consider separately the two cases: (a) $p' \neq o'p$ or (b) $p' = o'p$.
+
+Case (a): $p' \neq o'p$.
+
+If $q' = o'p$, then $q = p$, and $h(q') = h(p)$ by the induction hypothesis. Hence $h(p') = 1 + h(q') = 1 + h(p)$.
+
+If $q' \neq o'p$, then $p > q$ (again by the preceding "remark"), and hence $h(p) > h(q)$. We also have $q' \neq o'q$, for in the contrary case we would have the strictly descending chain $p' > o'p > q'$, contrary to the maximality of the chain $p' > q' > \cdots$. Hence, by our induction hypothesis, we have $h(q') = 1 + h(q)$. Therefore $h(p') = 1 + h(q') = 2 + h(q) \leq 1 + h(p)$, whence $h(p') = 1 + h(p)$, in view of (2).
+
+Case (b): $p' = o'p$.
+
+If $q' = o'q$, then $p > q$ and $h(p') = 1 + h(q') = 1 + h(q)$ (by the induction hypothesis). Hence $h(p') \leq h(p)$, and thus $h(p') = h(p)$, in view of (1).
+
+Now assume that $q' > o'q$. By the induction hypothesis, we have $h(q') = 1 + h(q)$. Since $p' = o'p$, we have necessarily that $p > q$ and also that $\tau$ is transcendental over $o/p$. This property of $\tau$ can also be expressed as follows: if $\sigma$ is the $q'$-residue of $t$ (whence $\sigma
+
+In Proposition 1 it was assumed that there exists a prime ideal $p'$ in $o'$ such that $p' \cap o$ is the given prime ideal $p$ of $o$. We express that assumption by saying that $p$ is not lost in $o'$. There arises naturally the question of whether a given prime ideal $p$ in $o$ is or is not lost in $o'$. The answer is simple: $p$ is not lost if and only if $o'p \cap o = p$. The condition is obviously necessary for if $p' \cap o = p$ then $p \subset o'p \cap o \subset p' \cap o = p$, whence $o'p \cap o = p$. The converse has been established in the course of the proof of Theorem 3 of Vol. I, Ch. V, § 2 (by a reduction to the case in which $o$ is a local ring and $p$ is its maximal ideal).
+
+Another necessary and sufficient condition that $p$ be not lost in $o' = o[t]$, a condition which is valid also if $o$ is not noetherian, is the following: if $\mathfrak{D}'$ denotes the integral closure of $o_p$ in the quotient field $K'$ of $o'$, then $1/t$ does not belong to the intersection of the maximal prime ideals of $\mathfrak{D}'$. For the proof we make use of Theorem 8 in VI, § 5:
+
+$$\mathfrak{D}' = \bigcap_{v \in \mathfrak{N}} R_v,$$
+
+where $\mathfrak{N}$ denotes the set of all valuations of $K'$ which have center $p$ in $o$. Assume that there exists a maximal ideal $\mathfrak{M}'$ of $\mathfrak{D}'$ such that $1/t \notin \mathfrak{M}'$. Applying the cited Theorem 8 of VI, § 5, to the integrally closed local domain $\mathfrak{D}'_{\mathfrak{M}'}$ we see that there exists a valuation $v_0$ in $\mathfrak{N}$ such that $v_0(1/t) \leq
+
+to $p$ and that the $o'p$-residue $\tau$ of $t$ is transcendental over $n/p$. The other prime ideals in $o'$ which contract to $p$ are in $(1, 1)$ correspondence with the maximal ideals of the polynomial ring $o/p[\tau]$.
+
+For purposes of generalization of Proposition 1 we shall now restate Proposition 1. The notation being the same as in that proposition, we denote by $\dim_0 o'$ the transcendence degree of the quotient field of $o'$ over the quotient field of $o$. A similar meaning is attached to the notation $\dim_{o/p} o'/p'$. Then Proposition 1 is expressed by the following inequality:
+
+(5) $h(p') + \dim_{o/p} o'/p' \leq h(p) + \dim_0 o'$ with equality if $\dim_0 o' = 1$.
+
+A straightforward induction on $n$ yields at once the following generalization of Proposition 1:

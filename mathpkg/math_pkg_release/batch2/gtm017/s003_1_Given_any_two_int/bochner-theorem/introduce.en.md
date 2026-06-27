@@ -1,0 +1,1 @@
+Bochner's theorem provides a complete characterization of characteristic functions: a continuous function with value 1 at the origin is the Fourier-Stieltjes transform of a probability distribution if and only if it is positive definite. This is fundamental in harmonic analysis and probability theory.

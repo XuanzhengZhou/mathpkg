@@ -1,0 +1,23 @@
+id: dimension-max-independent
+title_en: "Maximum Number of Linearly Independent Vectors"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [vector-space, dimension, linear-independence, basis]
+depends_on:
+  required: [dimension, linear-independence, basis]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "1"
+    section: "1.20"
+    pages: ""
+    role_in_book: "Proposition I - Cardinality of bases is invariant; all bases have same size"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

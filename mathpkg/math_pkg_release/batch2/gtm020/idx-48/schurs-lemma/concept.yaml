@@ -1,0 +1,23 @@
+id: schurs-lemma
+title_en: "Schur's Lemma"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [schurs-lemma, simple-module, g-morphism, isomorphism, eigenvalue, algebraically-closed]
+depends_on:
+  required: [simple-g-module, g-morphism, g-morphism-to-from-simple-module]
+  recommended: [eigenvalue, algebraically-closed-field]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "4.10"
+    pages: "191"
+    role_in_book: "The fundamental lemma of representation theory, characterizing morphisms between simple (irreducible) G-modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

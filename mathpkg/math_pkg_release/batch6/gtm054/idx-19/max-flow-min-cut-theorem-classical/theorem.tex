@@ -1,0 +1,13 @@
+Let $((V, D), k, x_0, y_0)$ be a network where $(V, D)$ is a directed graph, $k: D \to \mathbb{N}$ is a capacity function, $x_0$ is the source, and $y_0$ is the sink. A function $f: D \to \mathbb{N}$ is a feasible flow if
+
+$$0 \leq f(x, y) \leq k(x, y) \quad \text{for all } (x, y) \in D,$$
+
+$$\sum_{\substack{y \in V \\ (x, y) \in D}} f(x, y) = \sum_{\substack{y \in V \\ (y, x) \in D}} f(y, x), \quad \text{for all } x \in V \setminus \{x_0, y_0\}.$$
+
+Let $v(f)$ denote the net outflow from $x_0$. A cut is a subset $U \subseteq V$ such that $x_0 \in U \subseteq V \setminus \{y_0\}$, with capacity
+
+$$k(U) = \sum_{\substack{(x, y) \in D \\ x \in U \\ y \in V \setminus U}} k(x, y).$$
+
+Then
+
+$$\max\{v(f): f \text{ is a feasible flow}\} = \min\{k(U): U \text{ is a cut}\}.$$

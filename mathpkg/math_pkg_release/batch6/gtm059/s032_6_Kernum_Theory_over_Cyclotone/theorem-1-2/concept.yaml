@@ -1,0 +1,23 @@
+id: theorem-1-2
+title_en: "Theorem 1.2: Kummer-Takagi exponent formula"
+title_zh: "定理1.2: Kummer-Takagi指数公式"
+type: theorem
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [kummer-takagi-exponents, kummer-homomorphism, iwasawa-theory]
+depends_on:
+  required: [theorem-1-1, kummer-homomorphism, property-k4]
+  recommended: [iwasawa-theory, p-adic-logarithm]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "6"
+    section: "6"
+    pages: ""
+    role_in_book: "Expresses the Kummer-Takagi exponent t_n in terms of the Kummer pairing: t_n = -1/2 φ0(n) mod p"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

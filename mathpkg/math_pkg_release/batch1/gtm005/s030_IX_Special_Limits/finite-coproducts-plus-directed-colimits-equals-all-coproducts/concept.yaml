@@ -1,0 +1,13 @@
+id: finite-coproducts-plus-directed-colimits-equals-all-coproducts
+title_en: "From Finite Coproducts and Directed Colimits to All Coproducts"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [coproduct, directed-colimit, filtered-colimit, category-theory, colimit-construction]
+depends_on: {required: [finite-coproduct, colimit, directed-preorder], recommended: [functor, natural-transformation], suggested: [coequalizer]}
+source_books: [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "IX", section: "Special Limits", pages: "", role_in_book: "Theorem 1: Reduces all small coproducts to finite coproducts plus directed colimits"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

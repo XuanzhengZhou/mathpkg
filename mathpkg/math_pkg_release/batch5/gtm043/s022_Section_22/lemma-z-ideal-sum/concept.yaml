@@ -1,0 +1,23 @@
+id: lemma-z-ideal-sum
+title_en: "Sum of Two z-Ideals Is a z-Ideal"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [z-ideal, ideal-sum, stone-cech-compactification]
+depends_on:
+  required: [z-ideal-definition, stone-cech-compactification]
+  recommended: [compactification-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "14"
+    section: "8"
+    pages: ""
+    role_in_book: "Technical lemma for analyzing intersections of prime ideal chains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

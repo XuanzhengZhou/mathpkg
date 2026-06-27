@@ -1,0 +1,23 @@
+id: vector-lattice-functional-order-bounded
+title_en: "Linear Functional on Vector Lattice — Difference of Positive Functionals"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: ordered-linear-spaces
+difficulty: intermediate
+tags: [vector-lattice, linear-functional, positive-functional, order-bounded-set]
+depends_on:
+  required: [ordered-linear-space]
+  recommended: [positive-cone, linear-functional-difference-of-positive-functionals]
+  suggested: [order-dual]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "ORDERED LINEAR SPACES"
+    pages: "224"
+    role_in_book: "Characterizes decomposable linear functionals on vector lattices"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

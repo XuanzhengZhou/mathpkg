@@ -1,0 +1,25 @@
+id: a-subspace-x-of-a-manifold-m-is-called-a-submanifold-provide
+title_en: 2.4 A subspace $X$ of a manifold $M$ is called a submanifold provided each
+  $x \in X$ has a chart $(U, \phi)$ of $M$ such that $X \cap U = \phi^{-1}((0 \times
+  \mathbf{R}^q) \cap H^n)$.
+title_zh: ''
+type: definition
+domain: geometry
+subdomain: characteristic-classes
+difficulty: advanced
+tags: []
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm020
+  author: Dale Husemoller
+  title: Fibre Bundles
+  chapter: 17. Chern Classes and Stiefel-Whitney Classes
+  section: '10'
+  pages: ''
+  role_in_book: Definition 2.4 in Chapter 17, Section 10
+content_hash: 978ade197d8651f7
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

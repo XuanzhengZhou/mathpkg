@@ -1,0 +1,23 @@
+id: class-number-imaginary-case
+title_en: "Class Number Formula for Imaginary Abelian Fields"
+title_zh: "虚Abel域的类数公式"
+type: theorem
+domain: number-theory
+subdomain: class-number-formula
+difficulty: advanced
+tags: [class-number, imaginary-field, real-subfield, unit-index, L-series, regulator]
+depends_on:
+  required: [analytic-class-number-formula, unit-index-q]
+  recommended: [class-number-product-decomposition, unit-index-lemma]
+  suggested: [p-adic-l-function]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "Complex Analytic Class Number Formulas"
+    pages: "86-89"
+    role_in_book: "Theorem 3.2 — expresses the class number of an imaginary abelian field in terms of its real subfield"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

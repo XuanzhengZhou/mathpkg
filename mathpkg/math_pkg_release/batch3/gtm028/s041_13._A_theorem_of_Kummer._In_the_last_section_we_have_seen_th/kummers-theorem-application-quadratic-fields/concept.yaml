@@ -1,0 +1,23 @@
+id: kummers-theorem-application-quadratic-fields
+title_en: "Kummer's Theorem Applied to Quadratic Fields"
+title_zh: ""
+type: example
+domain: algebra
+subdomain: algebraic-number-theory
+difficulty: intermediate
+tags: [kummer, quadratic-field, prime-decomposition, ramification, discriminant]
+depends_on:
+  required: [kummers-theorem, quadratic-field]
+  recommended: [legendre-symbol, integral-basis]
+  suggested: [class-number]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "13"
+    pages: ""
+    role_in_book: "Application of Kummer's theorem to determine prime decomposition in quadratic fields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

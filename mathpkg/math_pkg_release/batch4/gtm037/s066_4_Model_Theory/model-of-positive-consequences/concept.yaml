@@ -1,0 +1,23 @@
+id: model-of-positive-consequences
+title_en: "Model of Positive Consequences Lemma"
+title_zh: "正语句后果模型引理"
+type: lemma
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [positive-sentence, homomorphism, lyndon-theorem, model-existence]
+depends_on:
+  required: [positive-sentence]
+  recommended: [lyndon-positive-sentences-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "25"
+    section: "4"
+    pages: ""
+    role_in_book: "Lemma 25.21: Existence of a model positively embeddable into a given structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

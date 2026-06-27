@@ -1,0 +1,23 @@
+id: generated-surface
+title_en: "Generated Surface"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [surface, isometry, group-action, parameterization]
+depends_on:
+  required: [one-parameter-group-of-isometries]
+  recommended: [surface, surface-of-revolution]
+  suggested: []
+source_books:
+  - book_id: gtm051
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.3"
+    pages: "50-52"
+    role_in_book: "Unified framework for surfaces with symmetry"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

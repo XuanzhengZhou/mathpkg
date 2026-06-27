@@ -1,0 +1,14 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+5.10 Definition from Conway's "Functions of One Complex Variable I."
+An elementary factor is one of the following functions $E_p(z)$ for $p = 0, 1, \ldots$:
+
+$$E_0(z) = 1 - z,$$
+$$E_p(z) = (1 - z) \exp \left( z + \frac{z^2}{2} + \ldots + \frac{z^p}{p} \right), \quad p \geq 1.$$
+
+The function $E_p(z/a)$ has a simple zero at $z = a$ and no other zero. Also if $b$ is a...

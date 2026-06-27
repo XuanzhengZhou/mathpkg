@@ -1,0 +1,23 @@
+id: trivialization-of-vector-bundle-over-subset
+title_en: "Trivialization of a Vector Bundle over a Subset"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: k-theory
+difficulty: intermediate
+tags: [vector-bundle, trivialization, relative-k-theory, collapsing]
+depends_on:
+  required: []
+  recommended: [vector-bundle, restriction-of-vector-bundle]
+  suggested: [fibre-bundle]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "10. Relative K-Theory"
+    section: "1. Collapsing of Trivialized Bundles"
+    pages: "136-138"
+    role_in_book: "Definition 1.1: Introduces trivialization as a mechanism to identify fibres of a vector bundle over a subspace with a fixed vector space, enabling the collapsing construction central to relative K-theory."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

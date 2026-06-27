@@ -1,0 +1,23 @@
+id: gauss-sum-power-in-cyclotomic-field
+title_en: "Gauss Sum Power Lies in Cyclotomic Field"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [gauss-sum, cyclotomic-field, galois-action, character-sum]
+depends_on:
+  required: []
+  recommended: [gauss-sum, cyclotomic-extension, dirichlet-character]
+  suggested: [galois-theory, finite-fields]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Theorem 1.3: establishes that the m-th power of a Gauss sum lies in the cyclotomic field Q(ζ_m)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: tangent-bundle-is-smooth-manifold
+title_en: "Tangent Bundle is a Smooth Manifold"
+title_zh: "切丛是光滑流形"
+type: proposition
+domain: geometry
+subdomain: smooth-manifolds
+difficulty: intermediate
+tags: [tangent-bundle, smooth-manifold, atlas, transition-map, vector-bundle]
+depends_on:
+  required: [tangent-bundle, tangent-space-vector-space-structure]
+  recommended: [differential-of-smooth-map]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "1"
+    section: "3"
+    pages: ""
+    role_in_book: "Proposition 3.8 — endows TX with a global manifold structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

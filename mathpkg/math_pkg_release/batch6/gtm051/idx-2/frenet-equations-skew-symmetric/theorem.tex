@@ -1,0 +1,8 @@
+Let $e_i(t)$ be a moving $n$-frame along a curve $c$. Then there exist functions $\omega_{ij}(t)$ such that the \text{Frenet equations} hold:
+$$\dot{e}_i(t) = \sum_{j=1}^n \omega_{ij}(t) e_j(t).$$
+The connection matrix $\omega(t) = (\omega_{ij}(t))$ satisfies:
+\begin{enumerate}
+\item[(i)] $\omega_{ij}(t) + \omega_{ji}(t) = 0$, i.e., $\omega(t)$ is skew-symmetric.
+\item[(ii)] If $(e_i(t))$ is a distinguished Frenet frame, then $\omega_{ij}(t) = 0$ for $|i-j| \geq 2$, so $\omega$ has the tridiagonal form where only $\omega_{i,i+1}$ and $\omega_{i+1,i} = -\omega_{i,i+1}$ are non-zero.
+\end{enumerate}
+The functions $\kappa_i(t) := \omega_{i,i+1}(t)$ are called the \text{$i$-th curvature functions} of the curve.

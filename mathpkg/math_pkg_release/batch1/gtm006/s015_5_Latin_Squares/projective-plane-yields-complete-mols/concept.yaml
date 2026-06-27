@@ -1,0 +1,23 @@
+id: projective-plane-yields-complete-mols
+title_en: "Projective Plane Yields Complete Set of MOLS"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: latin-squares
+difficulty: intermediate
+tags: [projective-plane, mols, complete-set, ptr, coordinatization]
+depends_on:
+  required: [latin-square-from-ptr, complete-set-of-mols]
+  recommended: [projective-plane, planar-ternary-ring]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D. R. Hughes, F. C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "5"
+    pages: "132-137"
+    role_in_book: "Theorem: A finite projective plane coordinatized by a PTR yields a complete set of MOLS"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

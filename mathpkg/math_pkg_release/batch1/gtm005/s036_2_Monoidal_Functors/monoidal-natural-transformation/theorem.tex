@@ -1,0 +1,15 @@
+A \text{monoidal natural transformation} $\theta : (F, F_2, F_0) \rightarrow (G, G_2, G_0) : M \to M'$ between two monoidal functors is a natural transformation between the underlying ordinary functors $\theta : F \to G$ such that the following two diagrams commute in $M'$:
+
+\begin{center}
+\begin{tikzcd}
+F(a) \square F(b) \arrow[r, "F_2"] \arrow[d, "\theta_a \square \theta_b"'] & F(a \square b) \arrow[d, "\theta_{a \square b}"] \\
+G(a) \square G(b) \arrow[r, "G_2"] & G(a \square b)
+\end{tikzcd}
+\end{center}
+
+\begin{center}
+\begin{tikzcd}
+e' \arrow[r, "F_0"] \arrow[rd, "G_0"'] & F(e) \arrow[d, "\theta_e"] \\
+& G(e)
+\end{tikzcd}
+\end{center}

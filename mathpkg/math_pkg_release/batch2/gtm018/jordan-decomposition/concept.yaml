@@ -1,0 +1,23 @@
+id: jordan-decomposition-theorem
+title_en: "Jordan Decomposition Theorem"
+title_zh: "Jordan分解定理"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-theory, jordan-decomposition, signed-measure]
+depends_on:
+  required: [signed-measure, hahn-decomposition-theorem]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "VI"
+    section: "29"
+    pages: ""
+    role_in_book: "Every signed measure is the difference of two ordinary measures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

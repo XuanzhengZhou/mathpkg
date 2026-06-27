@@ -1,0 +1,23 @@
+id: morita-duality
+title_en: "Morita Duality"
+title_zh: "Morita对偶"
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [morita-duality, u-reflexive, bimodule, dualities, hom-functor]
+depends_on:
+  required: []
+  recommended: [u-reflexive-module, hom-functor-duality]
+  suggested: [balanced-bimodule, injective-cogenerator]
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "24. Morita Dualities"
+    pages: ""
+    role_in_book: "Core definition in Morita duality chapter"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

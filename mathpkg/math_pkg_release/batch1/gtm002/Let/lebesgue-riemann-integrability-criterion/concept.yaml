@@ -1,0 +1,23 @@
+id: lebesgue-riemann-integrability-criterion
+title_en: "Lebesgue's Criterion for Riemann Integrability"
+title_zh: "勒贝格黎曼可积性准则"
+type: theorem
+domain: analysis
+subdomain: real-analysis
+difficulty: intermediate
+tags: [riemann-integral, lebesgue-measure, nullset, continuity, discontinuity]
+depends_on:
+  required: [riemann-integral, nullset, oscillation-on-interval]
+  recommended: [oscillation-at-point, lebesgue-measure]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "7"
+    section: "7"
+    pages: "39-43"
+    role_in_book: "Theorem 7.5; characterizes Riemann integrability via continuity almost everywhere"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

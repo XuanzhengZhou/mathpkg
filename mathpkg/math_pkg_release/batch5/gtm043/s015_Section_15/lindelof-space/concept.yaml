@@ -1,0 +1,23 @@
+id: lindelof-space
+title_en: "Lindelöf Space"
+title_zh: "林德勒夫空间"
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: intermediate
+tags: [lindelof, countable-subcover, realcompact, covering-property]
+depends_on:
+  required: [countable-intersection-property, open-cover, closed-set]
+  recommended: [compact-space, z-filter]
+  suggested: [realcompact-space]
+source_books:
+  - book_id: gtm043
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "8"
+    section: "8.2"
+    pages: ""
+    role_in_book: "Defines Lindelöf spaces as a sufficient condition for realcompactness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

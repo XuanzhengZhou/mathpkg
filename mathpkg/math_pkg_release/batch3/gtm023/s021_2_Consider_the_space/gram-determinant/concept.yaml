@@ -1,0 +1,23 @@
+id: gram-determinant
+title_en: "Gram determinant"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [inner-product, gram-determinant, linear-dependence, normed-determinant]
+depends_on:
+  required: [inner-product-space, determinant, normed-determinant-function]
+  recommended: [schwarz-inequality]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "3. Normed determinant functions"
+    pages: ""
+    role_in_book: "Defines the Gram determinant and proves it is non-negative with equality iff vectors are linearly dependent"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

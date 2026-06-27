@@ -1,0 +1,23 @@
+id: weak-second-order-undefinability
+title_en: "Undefinability of Truth in Weak Second-Order Logic"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: foundations
+difficulty: advanced
+tags: [weak-second-order-logic, undefinability, tarski-theorem]
+depends_on:
+  required: [weak-second-order-logic, elementary-definability]
+  recommended: [godel-numbering, tarski-undefinability]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "30"
+    section: "Unusual Logics"
+    pages: ""
+    role_in_book: "Theorem 30.1: the set of weak second-order validities is not elementarily definable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

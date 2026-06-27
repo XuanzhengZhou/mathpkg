@@ -1,0 +1,23 @@
+id: equality-of-measure-and-power-series-norms
+title_en: "Equality of Measure and Power Series Norms"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: p-adic-measures
+difficulty: advanced
+tags: [p-adic, measure, power-series, sup-norm, norm-equality, cyclotomic-fields]
+depends_on:
+  required: [norm-on-measures-and-power-series]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields I and II"
+    chapter: "12"
+    section: "Operations on Measures and Power Series"
+    pages: ""
+    role_in_book: "Theorem 1.4; establishes equality between the sup norm defined on measures and the sup norm defined on the associated power series coefficients."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

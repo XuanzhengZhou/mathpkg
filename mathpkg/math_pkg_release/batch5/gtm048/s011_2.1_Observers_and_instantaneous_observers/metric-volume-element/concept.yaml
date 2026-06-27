@@ -1,0 +1,23 @@
+id: metric-volume-element
+title_en: "Metric Volume Element"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: basic
+tags: [volume-element, metric, orientation, general-relativity]
+depends_on:
+  required: []
+  recommended: [lorentzian-metric, differential-form, orientation]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "R.K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.0"
+    pages: ""
+    role_in_book: "Defines the metric volume element Omega, the canonical 4-form on an oriented spacetime"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

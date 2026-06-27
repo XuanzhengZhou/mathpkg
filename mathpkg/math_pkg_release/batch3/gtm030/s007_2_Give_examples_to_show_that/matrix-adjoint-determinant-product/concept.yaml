@@ -1,0 +1,23 @@
+id: matrix-adjoint-determinant-product
+title_en: "Product of a Matrix and Its Adjoint"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [adjoint, determinant, matrix-equation]
+depends_on:
+  required: [adjoint-of-a-matrix, cofactor-expansion-determinant, alien-cofactor-expansion-zero]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "7"
+    section: "2"
+    pages: ""
+    role_in_book: "Key matrix equation derived from cofactor expansion formulas"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: dimension-cardinality-invariant
+title_en: "Dimension as Cardinal Number (Cardinality of Hamel Bases)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [dimension, cardinal-number, hamel-base, linear-invariant]
+depends_on:
+  required: [linear-space, hamel-base]
+  recommended: [linearly-independent-set, hamel-base-existence]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Shows dimension is well-defined as a cardinal number"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

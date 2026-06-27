@@ -1,0 +1,23 @@
+id: flt-n5-first-case-impossible
+title_en: "Fermat's Last Theorem for $n=5$ — First Case Impossible"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-equations
+difficulty: advanced
+tags: [fermat-last-theorem, n-equals-5, dirichlet, case-ii]
+depends_on:
+  required: [dirichlet-lemma-p2-minus-5q2-fifth-power]
+  recommended: [fermat-last-theorem-case-n3, sophie-germain-theorem]
+  suggested: [pell-equation]
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "3"
+    section: "3.2"
+    pages: "page_0082–page_0097"
+    role_in_book: "Dirichlet's 1825 proof that the first subcase of Case II for n=5 is impossible"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

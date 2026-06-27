@@ -1,0 +1,23 @@
+id: biendomorphism-bimodule-is-faithfully-balanced
+title_en: "The Biendomorphism Bimodule is Faithfully Balanced"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [biendomorphism-ring, faithfully-balanced, bimodule, endomorphism-ring]
+depends_on:
+  required: [endomorphism-and-automorphism, faithfully-balanced-bimodule]
+  recommended: [balanced-bimodule, endomorphism-ring-of-regular-module]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "4"
+    pages: ""
+    role_in_book: "Every module M yields a faithfully balanced bimodule via its biendomorphism ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

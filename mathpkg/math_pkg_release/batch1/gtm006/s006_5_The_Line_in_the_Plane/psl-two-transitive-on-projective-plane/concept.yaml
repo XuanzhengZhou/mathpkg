@@ -1,0 +1,23 @@
+id: psl-two-transitive-on-projective-plane
+title_en: "PSL(V) is Two-Transitive on Points (Theorem 2.20)"
+title_zh: "PSL(V)在点上的二重传递性（定理2.20）"
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [psl, two-transitive, projective-plane, point-transitivity, collineation]
+depends_on:
+  required: [existence-of-perspectivity-between-lines]
+  recommended: [automorphism-group-of-projective-line]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II. Classical Projective Planes"
+    section: "5. The Line in the Plane"
+    pages: ""
+    role_in_book: "For a field K, PSL(3,K) is two-transitive on the points of the projective plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

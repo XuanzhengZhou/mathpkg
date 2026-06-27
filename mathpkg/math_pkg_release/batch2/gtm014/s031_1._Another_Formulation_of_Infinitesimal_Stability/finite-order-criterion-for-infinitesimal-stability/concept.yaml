@@ -1,0 +1,30 @@
+id: finite-order-criterion-for-infinitesimal-stability
+title_en: "Finite Order Criterion for Infinitesimal Stability"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: singularity-theory
+difficulty: intermediate
+tags:
+  - infinitesimal-stability
+  - malgrange-preparation
+  - finite-order
+  - jet-space
+depends_on:
+  required:
+    - infinitesimal-stability-of-germ
+  recommended:
+    - generalized-malgrange-preparation-theorem
+    - finitely-generated-module-over-rings-of-germs
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "§1"
+    pages: ""
+    role_in_book: "Shows that infinitesimal stability is a condition of finite order m = dim Y."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

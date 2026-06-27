@@ -1,0 +1,13 @@
+id: markov-field
+title_en: "Markov Field"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: random-fields
+difficulty: advanced
+tags: [markov-random-field, markov-field, neighbor-system, conditional-independence]
+depends_on: {required: [random-field, neighbor-system], recommended: [characteristic-of-random-field], suggested: [gibbs-field]}
+source_books: [{book_id: "gtm040", author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp", title: "Denumerable Markov Chains", chapter: "12", section: "1. Markov fields", pages: "", role_in_book: "Central definition of Chapter 12; a random field whose local characteristics depend only on neighbors"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

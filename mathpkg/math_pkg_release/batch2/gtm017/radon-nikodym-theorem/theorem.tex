@@ -1,0 +1,5 @@
+Let $m_1, m_2$ be measures on a sigma-field $\mathfrak{F}$. The measure $m_1$ is said to be \text{absolutely continuous} with respect to $m_2$, denoted $m_1 \ll m_2$, if $m_2(A) = 0$ implies $m_1(A) = 0$.
+
+\textbf{Radon-Nikodym Theorem:} If $m_1 \ll m_2$, there exists an $\mathfrak{F}$-measurable function $f(w) \geq 0$, uniquely defined up to an $m_2$-null set, such that
+$$m_1(A) = \int_A f(w) \, dm_2$$
+for every $A \in \mathfrak{F}$. The function $f = dm_1/dm_2$ is called the \text{Radon-Nikodym derivative}.

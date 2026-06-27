@@ -1,0 +1,23 @@
+id: alternative-division-ring
+title_en: "Alternative division ring"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: non-associative-algebra
+difficulty: intermediate
+tags: [alternative-law, division-ring, alternative-field, loop, non-associative]
+depends_on:
+  required: [division-ring]
+  recommended: [right-inverse-property, left-inverse-property]
+  suggested: [inverse-property-of-loops]
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "VI"
+    section: "6. Division Rings with Inverse Properties"
+    pages: ""
+    role_in_book: "Defines alternative division rings (alternative fields) as those satisfying both alternative laws; any division ring with IP is alternative (Lemma 6.13), linking the algebraic theory to Moufang planes."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

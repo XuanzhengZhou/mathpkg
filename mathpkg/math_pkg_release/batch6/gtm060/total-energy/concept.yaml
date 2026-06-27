@@ -1,0 +1,13 @@
+id: total-energy
+title_en: "Total Energy"
+title_zh: "总能量"
+type: definition
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: basic
+tags: [total-energy, energy, conserved-quantity]
+depends_on: {required:[kinetic-energy, potential-energy-1d], recommended:[], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"2",section:"4",pages:"13",role_in_book:"Defines total energy as sum of kinetic and potential"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

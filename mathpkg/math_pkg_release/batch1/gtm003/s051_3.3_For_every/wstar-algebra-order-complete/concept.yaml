@@ -1,0 +1,23 @@
+id: wstar-algebra-order-complete
+title_en: "Every W*-algebra is order complete; directed order-bounded sets in W_+ converge to their supremum in σ(W, V)"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: von-neumann-algebras
+difficulty: advanced
+tags: [wstar-algebra, order-complete, supremum, weak-star-topology, monotone-convergence]
+depends_on:
+  required: [wsa-wplus-sigma-closed]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Fundamental order-completeness property of W*-algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

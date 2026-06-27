@@ -1,0 +1,23 @@
+id: p-regular-elements
+title_en: "p-Regular Elements of a Finite Group"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: basic
+tags: ["p-regular", "modular-representation", "finite-groups", "brauer-character"]
+depends_on:
+  required: []
+  recommended: ["group-theory", "p-group"]
+  suggested: ["modular-representation-theory"]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "18"
+    section: "18.1"
+    pages: ""
+    role_in_book: "Foundation for defining Brauer characters; $G_{\text{reg}}$ is the domain on which modular characters are defined."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

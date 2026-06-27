@@ -1,0 +1,23 @@
+id: inner-product-with-equilibrium-potential
+title_en: "Inner Product with the Equilibrium Potential"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: potential-theory
+difficulty: intermediate
+tags: [inner-product, equilibrium-potential, equilibrium-set, symmetric-chain, dual]
+depends_on:
+  required: [energy-of-potential, equilibrium-energy-equals-capacity]
+  recommended: [symmetric-chain, dual-chain]
+  suggested: [equilibrium-set]
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "8"
+    section: "5"
+    pages: ""
+    role_in_book: "computes inner product with equilibrium potential, key to the fundamental equilibrium theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

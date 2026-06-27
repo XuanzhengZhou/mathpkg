@@ -1,0 +1,23 @@
+id: parallel-translation-theorem
+title_en: "Parallel Translation Theorem"
+title_zh: "平行移动定理"
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [parallel-transport, vector-fields, isometry, surfaces, intrinsic-geometry]
+depends_on:
+  required: []
+  recommended: [covariant-derivative, parallel-vector-field, geodesic]
+  suggested: [first-fundamental-form, christoffel-symbols, riemannian-metric]
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "4"
+    section: "4.2"
+    pages: "pp.86-89"
+    role_in_book: "Main theorem of Section 4.2 establishing existence, uniqueness, and isometry properties of parallel translation along curves on surfaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

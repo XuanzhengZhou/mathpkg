@@ -1,0 +1,23 @@
+id: strongly-isovalent-graph-k3
+title_en: "Strongly Isovalent Graph with p_{11}^1 = p_{11}^2 = 1 is K_3"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: strongly-isovalent-graphs
+difficulty: intermediate
+tags: [strongly-isovalent-graph, association-scheme, friendship-theorem, K3]
+depends_on:
+  required: []
+  recommended: [strongly-isovalent-graph, two-class-association-scheme]
+  suggested: [friendship-theorem]
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "IX"
+    section: "46"
+    pages: "270-277"
+    role_in_book: "Key lemma for the Friendship Theorem via strongly isovalent graphs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

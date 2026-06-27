@@ -1,0 +1,29 @@
+id: equivalence-of-homotopically-trivial-pairs
+title_en: Equivalence relation on homotopically trivial CW pairs
+title_zh: ''
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags:
+- cw-pair
+- equivalence-relation
+- whitehead-group
+- simple-homotopy
+depends_on:
+  required:
+  - cw-complex
+  - simple-homotopy-type
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm010
+  author: Marshall M. Cohen
+  title: A Course in Simple-Homotopy Theory
+  chapter: '6'
+  section: '6'
+  pages: ''
+  role_in_book: Defines the equivalence classes that form the Whitehead group
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

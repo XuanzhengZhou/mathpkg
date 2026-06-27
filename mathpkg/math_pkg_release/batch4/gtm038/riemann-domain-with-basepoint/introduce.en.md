@@ -1,0 +1,1 @@
+A Riemann domain generalizes the notion of a schlicht (single-sheeted) domain to allow branching, similar to Riemann surfaces over $\mathbb{C}$. The base point fixes a specific sheet above a point in $\mathbb{C}^n$.

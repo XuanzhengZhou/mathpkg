@@ -1,0 +1,23 @@
+id: unimodular-subspace
+title_en: "Unimodular Subspace"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: algebraic-combinatorics
+difficulty: intermediate
+tags: [unimodular, subspace, elementary-function, integer-values]
+depends_on:
+  required: [support-collection-and-minimal-function]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm054
+  author: "Jack E. Graver, Mark E. Watkins"
+  title: "Combinatorics with Emphasis on the Theory of Graphs"
+  chapter: "IV"
+  section: "15"
+  pages: ""
+  role_in_book: "Defines unimodular subspaces where every elementary function takes values in {0, 1, -1}"
+content_hash: "c1d2e3f4a5b6"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

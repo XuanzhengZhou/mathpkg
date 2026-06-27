@@ -1,0 +1,11 @@
+\text{Let } p \equiv 1 \pmod{4} \text{ be prime. There exists a constructive procedure to find integers } a, b \text{ such that } p = a^{2} + b^{2}, \text{ proceeding as follows:}
+
+\text{(1) Find integers } c, d \text{ with } c^{2} + d^{2} = kp \text{ for some } 0 < k < p.
+
+\text{(2) If } k = 1 \text{ then } p = c^{2} + d^{2} \text{ and we are done.}
+
+\text{(3) If } k > 1, \text{ choose integers } r, s \text{ with } r \equiv c \pmod{k}, s \equiv d \pmod{k}, \text{ and } |r|, |s| \leq k/2. \text{ Then } r^{2} + s^{2} = k\ell \text{ with } 0 < \ell < k.
+
+\text{(4) Use the identity } (c^{2}+d^{2})(r^{2}+s^{2}) = (cr \pm ds)^{2} + (cs \mp dr)^{2} \text{ with signs chosen so that } cr \pm ds \text{ and } cs \mp dr \text{ are divisible by } k.
+
+\text{(5) Divide by } k^{2} \text{ to obtain a new representation } p = a'^{2} + b'^{2} \text{ with a smaller multiplier, and repeat.}

@@ -1,0 +1,13 @@
+An \emph{arrows-only metacategory} $C$ consists of arrows, certain ordered pairs $\langle g, f \rangle$ called composable pairs of arrows, and an operation assigning to each composable pair $\langle g, f \rangle$ an arrow $g \circ f$, called their composite (notation: ``$g \circ f$ is defined'' means ``$\langle g, f \rangle$ is a composable pair'').
+
+An \emph{identity} of $C$ is an arrow $u$ such that $f \circ u = f$ whenever the composite $f \circ u$ is defined, and $u \circ g = g$ whenever $u \circ g$ is defined.
+
+The axioms are:
+\begin{enumerate}
+\item The composite $(k \circ g) \circ f$ is defined if and only if $k \circ (g \circ f)$ is defined; when either is defined, they are equal. The composite $k \circ g \circ f$ is defined when both $g \circ f$ and $k \circ g$ are defined.
+\item The composite $g \circ f$ is defined if and only if $\text{cod} f = \text{dom} g$ (in terms of identities: there exists an identity $u$ such that $f \circ u$ and $u \circ g$ are defined).
+\item For each arrow $f$, there exist identities $u$ and $u'$ such that $u' \circ f$ and $f \circ u$ are defined.
+\item For any two identities $u$ and $v$, the set of arrows with domain $u$ and codomain $v$ is determined.
+\end{enumerate}
+
+In this formulation, the objects of the metacategory correspond exactly to its identity arrows.

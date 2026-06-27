@@ -1,0 +1,13 @@
+Let $f$ be a meromorphic function on a region $G \subset \mathbb{C}$. Define $\mu(f): G \to \mathbb{R}$ by
+$$\mu(f)(z) = \frac{2|f'(z)|}{1 + |f(z)|^2}$$
+whenever $z$ is not a pole of $f$, and
+$$\mu(f)(a) = \lim_{z \to a} \frac{2|f'(z)|}{1 + |f(z)|^2}$$
+if $a$ is a pole of $f$.
+
+If $a$ is a pole of $f$ of order $m \geq 1$, write
+$$f(z) = g(z) + \frac{A_m}{(z-a)^m} + \cdots + \frac{A_1}{(z-a)}$$
+for $z$ in some disk about $a$ with $g$ analytic in that disk. Then:
+- If $m \geq 2$: $\displaystyle \lim_{z \to a} \frac{2|f'(z)|}{1 + |f(z)|^2} = 0$.
+- If $m = 1$: $\displaystyle \lim_{z \to a} \frac{2|f'(z)|}{1 + |f(z)|^2} = \frac{2}{|A_1|}$.
+
+It follows that $\mu(f) \in C(G, \mathbb{C})$ (a continuous function on $G$).

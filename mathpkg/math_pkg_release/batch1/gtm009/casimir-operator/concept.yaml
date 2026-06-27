@@ -1,0 +1,20 @@
+id: casimir-operator
+title_en: "Casimir Operator"
+title_zh: "Casimir 算子"
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [casimir, universal-enveloping-algebra, trace-form, semisimple]
+depends_on: {required: [semisimple-lie-algebra, killing-form], recommended: [universal-enveloping-algebra], suggested: []}
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "6"
+    section: "6.1"
+    pages: "38-43"
+    role_in_book: "Central construction for Weyl's theorem proof"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

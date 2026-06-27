@@ -1,0 +1,23 @@
+id: normal-element-attains-norm-at-state
+title_en: "For any normal element x in a C*-algebra A, there exists a state φ ∈ S(A) such that |φ(x)| = ||x||"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: cstar-algebras
+difficulty: advanced
+tags: [cstar-algebra, normal-element, state, norm-attainment, hahn-banach]
+depends_on:
+  required: [state-of-cstar-algebra, gelfand-transform]
+  recommended: [hahn-banach-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "4"
+    section: "4.1"
+    pages: ""
+    role_in_book: "Key lemma ensuring states separate points of A, used for the faithful representation theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

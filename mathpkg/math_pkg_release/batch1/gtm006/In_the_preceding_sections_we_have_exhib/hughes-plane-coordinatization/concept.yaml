@@ -1,0 +1,23 @@
+id: hughes-plane-coordinatization
+title_en: "Coordinatization of the Hughes Plane"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [coordinatization, hughes-plane, ternary-ring, projective-plane]
+depends_on:
+  required: [hughes-plane]
+  recommended: [planar-ternary-ring, projective-coordinates]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "IX"
+    section: "6. The Hughes Planes"
+    pages: ""
+    role_in_book: "Lemma 9.16: Coordinatization formulas for the Hughes plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

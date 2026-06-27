@@ -1,0 +1,23 @@
+id: gauss-sum-fourier-transform
+title_en: "Fourier Transform and Gauss Sum Inversion on Z(m)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: gauss-sums
+difficulty: intermediate
+tags: [fourier-transform, gauss-sum, inversion]
+depends_on:
+  required: [gauss-sum-on-zn]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Lang"
+    title: "Cyclotomic Fields"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "Theorem 1.2 - Fourier inversion for Gauss sums on Z(m)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

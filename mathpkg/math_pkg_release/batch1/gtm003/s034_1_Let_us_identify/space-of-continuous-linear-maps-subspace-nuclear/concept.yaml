@@ -1,0 +1,23 @@
+id: space-of-continuous-linear-maps-subspace-nuclear
+title_en: "Space of Continuous Linear Maps into a Nuclear Space"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [nuclear-space, space-of-linear-maps, equicontinuous-convergence, subspace-of-product]
+depends_on:
+  required: [nuclear-space, locally-convex-space, equicontinuous-convergence-topology]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; with M. P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "9"
+    pages: ""
+    role_in_book: "Theorem 9.6: $\mathcal{L}_e(E,F)$ is isomorphic with a subspace of the nuclear space $F^E$ when $E$ is nuclear"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: sum-of-fourth-powers-not-square
+title_en: "Sum of Two Fourth Powers Is Not a Square"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-equations
+difficulty: intermediate
+tags: [fourth-powers, square, infinite-descent, fermats-last-theorem]
+depends_on:
+  required: [fermats-last-theorem-n4, method-of-infinite-descent, pythagorean-triple-parametrization]
+  recommended: [relatively-prime-square-factors]
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem"
+    chapter: "1"
+    section: "1.5"
+    pages: ""
+    role_in_book: "Stronger form of FLT for n=4; the actual statement proved by the infinite descent argument"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

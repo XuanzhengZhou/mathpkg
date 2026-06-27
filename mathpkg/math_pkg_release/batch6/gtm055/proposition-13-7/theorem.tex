@@ -1,0 +1,38 @@
+Let $\mathcal{E}$ be a Banach space, let $T$ be a linear transformation of $\mathcal{E}$ into a normed space $\mathcal{F}$, and suppose the function $x \rightarrow \|Tx\|$ is lower semicontinuous on $\mathcal{E}$ (Ex. 3K). Then $T$ is bounded.
+
+Proof. The sets $M_n = \{x \in \mathcal{E} : \|Tx\| \leq n\}$ are closed for all positive integers $n$ and cover $\mathcal
+
+E. Let $\mathcal{E}$ and $\mathcal{F}$ be $F$-spaces, and let $S$ and $T$ be continuous linear transformations of $\mathcal{E}$ into $\mathcal{F}$ and of $\mathcal{F}$ into $\mathcal{E}$, respectively, such that $TS = 1_{\mathcal{E}}$ (so that $T$ is a left inverse of $S$ and $S$ is a right inverse of $T$). Show that the range of $S$ and the null space of $T$ are necessarily closed complementary submanifolds of $\mathcal{F}$. (Hint: $ST$ is idempotent.)
+
+F. Show that the assumption that the space $\mathcal{F}$ is complete cannot be omitted from the open mapping theorem, even when $\mathcal{E}$ and $\mathcal{F}$ are both normed spaces. (Hint: Construct a bounded linear operator $T$ on a Banach space $\mathcal{E}$ so that $T$ is one-to-one but is not bounded below. If $\mathcal{R} = \mathcal{R}(T)$, then $T : \mathcal{E} \rightarrow \mathcal{R}$ is a bounded linear transformation of $\mathcal{E}$ onto $\mathcal{R}$, but this mapping is not open.)
+
+G. Let $\mathcal{F}$ be an arbitrary infinite dimensional Banach space, and let $\{x_{\gamma}\}_{\gamma \in \Gamma}$ be an indexed Hamel basis for $\mathcal{F}$ consisting of unit vectors. Consider the normed space $\mathcal{L}$ consisting of all similarly indexed families of complex numbers $\{\lambda_{\gamma}\}_{\gamma \in \Gamma}$ with the property that $\lambda_{\gamma} = 0$ except for a finite number of indices $\gamma$, equipped with the norm $\|\{\lambda_{\gamma}\}\| = \sum_{\gamma} |\lambda_{\gamma}|$. (In connection with this construction the reader may wish to recall Problem 11T.) The linear transformation $T$ of $\mathcal{L}$ onto $\mathcal{F}$ defined by
+
+$$T(\{\lambda_{\gamma}\}) = \sum_{\gamma} \lambda_{\gamma} x_{\gamma}, \quad \{\lambda_{\gamma}\} \in \mathcal{L},$$
+
+is bounded but is not an open mapping. (Hint
+
+functions $f$ in $\mathcal{A}$ such that $f(0) = 0$. Use the open mapping theorem to show that the mapping of $M_0$ onto $\mathcal{A}$ consisting of multiplication by the function $m(\lambda) = 1/\lambda$ is continuous in the topology of uniform convergence on compact subsets of $D$.
+
+This last application illustrates very clearly a general principle concerning the open mapping theorem. It is, by its nature, restricted to yielding qualitative as opposed to quantitative information. As a matter of fact, if $f \in \mathcal{A}$ and $f(0) = 0$, then by the maximum modulus principle (Ex. 5M),
+
+$$|f(\lambda)| \leq \frac{M_r(f)}{r} |\lambda|, \quad |\lambda| \leq r,$$
+
+for all $0 < r < 1$, and from this quantitative estimate the asserted continuity follows at once. (The inequality (3) is known as Schwarz’s lemma.)
+
+L. In the text the open mapping theorem was used to deduce the closed graph theorem. Show, conversely, that the closed graph theorem can be used to prove the open mapping theorem. (Hint: First treat the case of a one-to-one linear transformation.)
+
+M. Suppose that a linear space $\mathcal{E}$ is complete with respect to each of two quasinorms $|I_1|$ and $|I_2|$, and suppose also that there exists some separated linear topology on $\mathcal{E}$ that is refined by both of the topologies induced by $|I_1|$ and $|I_2|$. Show that $|I_1|$ and $|I_2|$ must be equivalent. (Hint: Use Example C.)
+
+N. Let $\mathcal{F}$ and $\mathcal{G}$ be quasinormed spaces, and suppose given a one-to-one continuous linear transformation $S$ of $\mathcal{F}$ into $\mathcal{G}$. Show that if $T$ is a linear transformation of an $F$-space $\mathcal{E}$ into $\mathcal{F}$ such that $ST$ is continuous, then $T$ is continuous. (Hint: Apply Corollary 13.5.)
+
+O. ([1; Ch. III, Th. 8
+
+Problems Q and S raise the question whether it is possible for a linear submanifold of an $F$-space $\mathcal{F}$ to be of second category in $\mathcal{F}$ without coinciding with $\mathcal{F}$. That this is indeed always possible when $\mathcal{F}$ is infinite dimensional is shown by the following construction (Hausdorff [35]).
+
+T. Let $\mathcal{F}$ be an $F$-space, and let $X$ be a Hamel basis for $\mathcal{F}$. Let $\{x_n\}_{n=1}^X$ be an infinite sequence of distinct vectors in $X$, and let $X_0$ denote the subset of $X$ consisting of those vectors that do not appear in the sequence $\{x_n\}$. Show that if for each positive integer $n$, $\mathcal{M}_n$ denotes the linear submanifold of $\mathcal{F}$ generated algebraically by $X_0 \cup \{x_1, \ldots, x_n\}$, then no $\mathcal{M}_n$ coincides with $\mathcal{F}$, but at least one $\mathcal{M}_n$ is of second category in $\mathcal{F}$.
+
+The Hahn–Banach theorem
+
+Many of the important applications of the theory of topological linear spaces concern the relations between a space
+...

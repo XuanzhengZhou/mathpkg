@@ -1,0 +1,23 @@
+id: nuclear-space-characterization-via-dual-imbeddings
+title_en: "Characterization of Nuclear Spaces via Nuclear Canonical Imbeddings of Duals"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [nuclear-space, dual-imbedding, equicontinuous-set, nuclear-map, locally-convex-spaces]
+depends_on:
+  required: [nuclear-space, nuclear-map, canonical-imbedding, equicontinuous-set, polar-set]
+  recommended: [completed-quotient-normed-space, adjoint-of-nuclear-map]
+  suggested: [strong-dual, bidual]
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "Appendix: Tensor Products and Nuclear Spaces"
+    pages: "180-183"
+    role_in_book: "Provides a dual characterization of nuclear spaces in terms of nuclearity of canonical imbeddings between spaces associated with equicontinuous subsets of the dual, complementing the original definition using quotient spaces."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: set-omega-e-is-a-category
+title_en: "Set(Ω, E) is a category"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: universal-algebra
+difficulty: intermediate
+tags: [category-theory, equational-presentation, clone, omega-algebra]
+depends_on:
+  required: []
+  recommended: [equational-presentation, omega-algebra, omega-homomorphism]
+  suggested: [category-definition]
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.11"
+    pages: ""
+    role_in_book: "Establishes that the clone Set(Ω, E) forms a category under the composition defined in 2.8"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: sr-submanifold-genericity
+title_en: "Genericity of S_r(f) as a Submanifold"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [singularity, transversality, submanifold, codimension, jet-space]
+depends_on:
+  required: [sr-singularity, sr-set-of-mapping]
+  recommended: [thom-transversality-theorem, sr-submanifold-in-jet-space]
+  suggested: [whitney-immersion-theorem]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "Chapter VI: Classification of Singularities, Part I: The Thom-Boardman Invariants"
+    section: "§1. The S_r Classification"
+    pages: "143-144"
+    role_in_book: "Key genericity result for S_r singularities following from Thom Transversality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

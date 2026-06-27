@@ -1,0 +1,23 @@
+id: subset-with-inverse-in-neighborhood
+title_en: "Theorem A: Measurable subset with inverse product contained in a neighborhood of the identity"
+title_zh: "定理A: 可测子集其逆乘积包含于单位邻域"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [measurable-group, weil-topology, class-n, class-a]
+depends_on:
+  required: [measurable-group, class-a-measurable-group, class-n-measurable-group, symmetric-difference-metric]
+  recommended: [measurable-rectangle, fubinis-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "XII"
+    section: "62"
+    pages: "272-273"
+    role_in_book: "Key lemma linking class N to class A: every N-neighborhood contains an A-set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

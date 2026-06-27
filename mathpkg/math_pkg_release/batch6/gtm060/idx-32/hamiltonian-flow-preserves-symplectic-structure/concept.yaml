@@ -1,0 +1,23 @@
+id: hamiltonian-flow-preserves-symplectic-structure
+title_en: "Hamiltonian Phase Flow Preserves the Symplectic Structure"
+title_zh: "哈密顿相流保持辛结构"
+type: theorem
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [hamiltonian-phase-flow, symplectic-structure, integral-invariant, pullback, liouville-theorem]
+depends_on:
+  required: [hamiltonian-phase-flow, symplectic-manifold, pullback-of-differential-form]
+  recommended: [integral-invariant]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "8"
+    section: "38"
+    pages: "214-218"
+    role_in_book: "Central theorem: Hamiltonian dynamics preserves the symplectic form"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

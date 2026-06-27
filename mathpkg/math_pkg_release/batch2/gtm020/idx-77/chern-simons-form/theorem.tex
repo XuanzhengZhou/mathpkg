@@ -1,0 +1,12 @@
+Let $(E, \nabla)$ be a flat vector bundle over a manifold $M$, and let $q: \Pr(E) \to M$ be the associated principal bundle of $E$. Consider two connections on the induced bundle $q^*(E)$ over $\Pr(E)$:
+\begin{itemize}
+\item $\nabla_0$: the induced flat connection from $\nabla$ on $E$,
+\item $\nabla_1$: the canonical trivial connection on $q^*(E)$ coming from the canonical trivialization of the pullback over the total space of the principal bundle.
+\end{itemize}
+The affine homotopy $\nabla_t = (1-t)\nabla_0 + t\nabla_1$ defines a standard homotopy between them.
+
+For each invariant polynomial $\phi \in \text{Inv}_q$, there exists a canonical \textbf{Chern-Simons form} $\text{CS}(E, \nabla) \in A^{2q-1}(\Pr(E))$ on the principal bundle $\Pr(E)$ of $E$ satisfying
+$$
+\phi(K_0) = d(\text{CS}(E, \nabla)).
+$$
+Note that $K_0 = q^*(K)$ where $K$ is the curvature form on $M$ for the flat bundle, so $\phi(K_0) = q^*(\phi(K))$.

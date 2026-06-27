@@ -1,0 +1,23 @@
+id: degenerate-chain-criterion
+title_en: "Criterion for degeneracy from a single reference point"
+title_zh: "从单个参考点判断退化"
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [degenerate-chain, capacity, reference-state]
+depends_on:
+  required: [degenerate-chain, capacity-of-set]
+  recommended: [capacity-monotonicity]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Simplifies checking degeneracy to a single reference point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

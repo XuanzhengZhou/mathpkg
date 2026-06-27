@@ -1,0 +1,23 @@
+id: cartan-matrix
+title_en: "Cartan Matrix C of G (with respect to k)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [cartan, projective-module, composition-series, simple-module, modular-representation, finite-group]
+depends_on:
+  required: []
+  recommended: [cartan-homomorphism, projective-envelope, simple-kg-module]
+  suggested: [grothendieck-group-rk, grothendieck-group-pk]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "15"
+    section: "15.1"
+    pages: ""
+    role_in_book: "Defines the Cartan matrix expressing the Cartan homomorphism in canonical bases"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

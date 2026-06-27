@@ -1,0 +1,20 @@
+id: euclidean-domain-is-pid
+title_en: "Every Euclidean Domain is a PID"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: ["euclidean", "pid", "division-algorithm"]
+depends_on: {required: ["euclidean-domain", "principal-ideal-domain"], recommended: [], suggested: []}
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "II"
+    section: "5"
+    pages: ""
+    role_in_book: "Theorem 3"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

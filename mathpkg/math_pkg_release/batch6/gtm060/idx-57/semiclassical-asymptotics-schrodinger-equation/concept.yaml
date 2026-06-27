@@ -1,0 +1,23 @@
+id: semiclassical-asymptotics-schrodinger-equation
+title_en: "Semiclassical Asymptotics of the Schrödinger Equation"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: semiclassical-analysis
+difficulty: advanced
+tags: [schrodinger-equation, semiclassical, asymptotics, morse-index, maslov-index, lagrangian-manifold, stationary-phase]
+depends_on:
+  required: []
+  recommended: [morse-index, focal-points-lagrangian-manifold, lagrangian-manifold]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 11"
+    section: "B. The Morse and Maslov Indices"
+    pages: "453-455"
+    role_in_book: "Gives the asymptotic form of the solution to Schrödinger's equation with oscillating initial conditions using classical trajectories and the Morse-Maslov index"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: face-of-coordinate-mapping
+title_en: "Face of a coordinate mapping"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: basic
+tags: [pl-topology, coordinate-mapping, face, simplex, restriction]
+depends_on:
+  required: [coordinate-mapping, face-of-simplex]
+  recommended: [equivalence-relation-on-coordinate-mappings]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "7"
+    section: "Abstract complexes and PL complexes"
+    pages: "65-70"
+    role_in_book: "Defines the face relation for coordinate mappings, extending the simplicial face concept to PL mappings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

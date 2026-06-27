@@ -1,0 +1,23 @@
+id: decomposition-field-properties
+title_en: "Properties of the Decomposition Field"
+title_zh: "分解域的性质"
+type: theorem
+domain: algebra
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [dedekind-domain, galois-theory, decomposition-field, prime-ideal]
+depends_on:
+  required: [decomposition-field, decomposition-group, conjugate-prime-ideals-galois]
+  recommended: [inertia-group, inertia-field]
+  suggested: [residue-field-extension-galois]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "10"
+    pages: "285"
+    role_in_book: "Theorem 23"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,73 @@
+$$
+R(G) \xrightarrow{\alpha} H^*(B_G, Q)
+$$
+
+The morphism $ch$ is the Chern character, and $ch^*$ has the property that $ch^* M = e^{-\tau(M)}$ for $M$, a complex $T$-module.
+
+This theorem follows from (11.5) by comparing $R(G)$ with $R(T)$ and $H^*(B_G, Q)$ with $H^*(B_T, Q)$.
+
+APPENDIX 1
+
+Dold’s Theory of Local Properties of Bundles
+
+In this appendix we state the main results in the important paper of A. Dold [4]. These results are concerned with the relation between local and global properties of bundles.
+
+A.1 Definition. A covering $\{U_i\}$ of a space $X$ is numerable provided there exists a partition of unity $\{\eta_j\}$ on $X$ such that the covering $\{\eta_j^{-1}((0,1])\}$ refines $\{U_i\}$.
+
+We consider four properties of bundles. The main results of Dold are that if these properties hold locally they hold globally. That a property holds locally means it holds over each set in a numerable covering of the space.
+
+A.2 Definition. A halo of a subset $A$ in a space $X$ is an open set $V$ with $A \subset V$ such that there is a map $f: X \rightarrow [0,1]$ with $A \subset f^{-1}(1)$ and $f^{-1}((0,1]) \subset V$.
+
+A.3 Definition. The section extension property holds for a bundle $p: E \rightarrow X$ provided each cross section $s$ over $A \subset X$ which extends to a halo of $A$ also extends to all of $X$.
+
+The next statement refers to the local character of the section extension property.
+
+A.4 Theorem. Let $p: E \rightarrow X$ be a bundle. If $p: E \rightarrow X$ has the section extension property, its restriction to an open subset of $X$ has the section extension property. If $p: E \rightarrow X$ has the section extension property over the subsets $U_i$ of a numerable covering $\{U_i\}$, then $p: E \rightarrow X$ has the section extension property.
+
+The following definition is stronger than that used in Chap. 1.
+
+A.5 Definition. A bundle $p: E \rightarrow X$ is a fibration provided the homotopy lifting property holds for all spaces.
+
+A.6 Theorem. If a bundle $p: E \rightarrow X$ is a fibration when restricted to the subsets $U_i$ of a numerable covering $\{U_i\}$, then $p: E \rightarrow X$ is a fibration.
+
+The next concept is preserved under fibre homotopy equivalence.
+
+A.7 Definition. A bundle $p: E \rightarrow X$ is a weak fibration provided for each homotopy $h_t: W \rightarrow X$ and map $f: W \rightarrow E$ with $pf = h_0$ there is a homotopy $f_t: W \rightarrow E$ such that $pf_t = h_t$. Moreover, it is assumed that $f_0$ and $f$ are homotopic with a homotopy $k_t: W \rightarrow E$ such that $pk_t = f_0 = f$ for all $t \in [0,1]$ and $k_0 = f_0, k_1 = f$.
+
+A.8 Theorem. If a bundle $p: E \rightarrow X$ is a weak fibration when restricted to the subsets $U_i$ of a numerable covering $\{U_i\}$, then $p: E \rightarrow X$ is a weak fibration.
+
+We used a mild form of the next theorem in Chap. 16.
+
+A.9 Theorem. Let $f: E \rightarrow E'$ be an $X$-morphism of bundles $p: E \rightarrow X$ and $p': E' \rightarrow X$ over $X$. If the restriction of $f$ over subsets $U_i$ of a numerable covering $\{U_i\}$ of $X$ is a fibre homotopy equivalence, then $f: E \rightarrow E'$ is a fibre homotopy equivalence.
+
+In the three statements (A.6), (A.8), and (A.9), the proofs are achieved by reducing the statements to an application of (A.4) by mapping space construction.
+
+APPENDIX 2
+
+On the Double Suspension
+
+We analyze the pair $(\Omega^2 S^{2n+1}, S^{2n-1})$ considered by Toda [2] using the fibre space techniques of John Moore introduced in exposé 22 of the Cartan Séminaire 1954/55 and the process of localizing a space at a prime $p$. As in the approach of Toda, we consider a filtration $S^{2n-1} \subset \Omega F_n \subset \Omega^2 S^{2n+1}$. In our case the analysis of the pair $(\Omega F_n, S^{2n-1})$ depends on the nonexistence of elements of mod $p$ Hopf invariant one for $n > 1$. The boundary map $\pi_i(\Omega^2 S^{2n+1}, \Omega F_n) \rightarrow \pi_{i-1}(\Omega F_n, S^{2n-1})$ is exhibited as an induced map of the homotopy groups of spaces and related to the double suspension.
+
+We develop the necessary properties of $\Omega SX$ and $S\Omega SX$ in the first few sections and then give an exposition of the results related to the mod $p$ Hopf invariant. The single suspension sequence of I James (see Annals of Math., vol. 63, 1956, pp. 407–429) is included.
+
+1. $H_*(\Omega S(X))$ as an Algebraic Functor of $H_*(X)$
+
+Let $R$ be a commutative ring. In order to calculate $H_*(\Omega S(X), R)$ in terms of $H_*(X, R)$, we use the following preliminaries on the path space fibration $\pi: E(Y) \rightarrow Y$ where $\pi(\delta) = \delta(1)$ and $\pi^{-1}(\cdot) = \Omega(Y)$. We define $\mu$ to be the path product making the following diagram commutative
+
+$$\Omega(Y) \times E(Y) \xrightarrow{\mu} E(Y)$$
+
+given by the formula $\mu(\gamma, \delta)
+
+For $E(Y) \times E(Y)$ the subspace of $(\delta_1, \delta_2) \in E(Y) \times E(Y)$ with $\pi(\delta_1) = \pi(\delta_2)$, we define the path product $v: E(Y) \times_{\pi} E(Y) \rightarrow \Omega(Y)$ by the formula
+
+$$v(\delta_1, \delta_2) = \begin{cases} \delta_1(2t) & t \leq \frac{1}{2} \\ \delta_2(2 - 2t) & \frac{1}{2} \leq t \end{cases}$$
+
+Let $S_+(X)$ (resp. $S_-(X$)) denote the subspace of all $[x, t] \in S(X)$ where $\frac{1}{2} \leq t$ (resp. $t \leq \frac{1}{2}$), and identify $X$ with $S_+(X) \cap S_-(X)$. Restrict the pathspace fibration $\pi: E = E(\Omega(X)) \rightarrow S(X)$ to $\pi_{\pm}: E_{\pm} \rightarrow S_{\pm}(X)$ where $E_{\pm} = \pi^{-1}(S_{\pm}(X))$ over the cones $S_{\pm}(X)$.
+
+Now define maps $f_{\pm}$ and $g_{\pm}$ mapping the following diagrams commutative.
+
+$$\Omega S(X) \times S_{\pm}(X) \xrightarrow{f_{\pm}} E_{\pm}$$
+
+$$S_{\pm}(X)$$
+
+Let $u_{\pm}: S_{\pm}(X) \rightarrow E_{\pm}$ be the canonical cross sections given by $u_-[x, s](t) = [x, st]$ and $u_+[x, s](t) = [x, 1 - (1 - s)t]$. Then we define $f_{\pm}(\gamma, [x, s]) = \mu(\gamma, u_{\pm}([x, s]))$ and $g_{\pm}(\delta) = (v(\delta, u_{\pm}(\pi(\delta))), \pi(\delta))$. An easy construction will show that $f_{\pm}$ and $g_{\

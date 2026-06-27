@@ -1,0 +1,23 @@
+id: orthogonal-latin-squares
+title_en: "Orthogonal Latin Squares"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: latin-squares
+difficulty: basic
+tags: [latin-square, orthogonal-array, combinatorial-design]
+depends_on:
+  required: [latin-square]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D. R. Hughes, F. C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "5"
+    pages: "132-137"
+    role_in_book: "Definition of orthogonality for latin squares, needed for the connection to projective planes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: finite-closed-classes-are-recurrent
+title_en: "Finite Closed Equivalence Classes are Recurrent"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, closed-class, finite-class, recurrence]
+depends_on:
+  required: [equivalence-class-type-homogeneity, recurrent-classes-are-closed-and-maximal]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "7. Classification of states"
+    pages: ""
+    role_in_book: "Proposition 4-30: All closed equivalence classes consisting of finitely many states are recurrent"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

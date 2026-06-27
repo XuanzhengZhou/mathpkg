@@ -1,0 +1,23 @@
+id: product-extension-implies-closed
+title_en: "If T contains a product and each projection extends, then the product is closed in T"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: stone-cech-compactification
+difficulty: intermediate
+tags: [stone-cech, product-topology, extension, closed-set]
+depends_on:
+  required: [stone-cech-compactification, product-topology]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "6"
+    section: "6.11"
+    pages: ""
+    role_in_book: "Lemma about product spaces and extensions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

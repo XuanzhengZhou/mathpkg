@@ -1,0 +1,23 @@
+id: model-of-bounded-power
+title_en: "Model of Bounded Power from Consistency Family"
+title_zh: "一致性族的基数有界模型"
+type: corollary
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [model-existence, consistency-family, cardinality-bound, lowenheim-skolem, henkin-construction]
+depends_on:
+  required: [model-existence-with-admissible-functions, consistency-family, rich-expansion]
+  recommended: [model-existence-theorem, cardinality-of-language]
+  suggested: [downward-lowenheim-skolem-theorem, compactness-theorem]
+source_books:
+  - book_id: "gtm037"
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "4"
+    section: "Model Theory"
+    pages: ""
+    role_in_book: "Immediate corollary of Theorem 18.9 obtained by taking all admissible functions to be the identity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

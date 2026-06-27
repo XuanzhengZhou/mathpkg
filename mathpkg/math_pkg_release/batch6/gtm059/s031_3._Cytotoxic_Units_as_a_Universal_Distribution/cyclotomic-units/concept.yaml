@@ -1,0 +1,23 @@
+id: cyclotomic-units
+title_en: "Cyclotomic Units"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: basic
+tags: [cyclotomic-units, roots-of-unity, distribution-relations]
+depends_on:
+  required: []
+  recommended: [cyclotomic-fields, roots-of-unity, group-of-units]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "3. Cyclotomic Units as a Universal Distribution"
+    pages: ""
+    role_in_book: "Defines the group of cyclotomic units, the central object of the chapter"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

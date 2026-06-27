@@ -1,0 +1,23 @@
+id: separable-extension-tower-property
+title_en: "Tower Property of Separable Extensions"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: field-theory
+difficulty: basic
+tags: [separable-extension, tower, field-extension, transitivity]
+depends_on:
+  required: [separable-algebraic-element, simple-root-separability-criterion]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "II"
+    section: "5. Separable and inseparable algebraic extension"
+    pages: ""
+    role_in_book: "Lemma 2; if K/k is separable then K/L is separable for any intermediate L"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

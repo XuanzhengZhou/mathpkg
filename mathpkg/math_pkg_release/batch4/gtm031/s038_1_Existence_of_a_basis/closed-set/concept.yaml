@@ -1,0 +1,23 @@
+id: closed-set
+title_en: "Closed Set in a Topological Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [closed-set, topology, complement]
+depends_on:
+  required: [topological-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "A subset of a topological space is closed if its complement is open. Closed sets satisfy: arbitrary intersections and finite unions of closed sets are closed, and E and the empty set are closed."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

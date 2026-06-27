@@ -1,0 +1,23 @@
+id: algebra
+title_en: "Algebra"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: algebraic-structures
+difficulty: basic
+tags: [algebra, vector-space, bilinear-multiplication]
+depends_on:
+  required: [vector-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "W. Greub"
+    title: "Linear Algebra"
+    chapter: "V"
+    section: "1. Basic properties"
+    pages: "158"
+    role_in_book: "Definition 5.1: Fundamental definition of an algebra over a field"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

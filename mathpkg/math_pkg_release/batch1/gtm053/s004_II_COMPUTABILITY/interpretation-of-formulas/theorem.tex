@@ -1,0 +1,16 @@
+For an atomic formula $p(t_1, \ldots, t_r)$,
+$$|p(t_1, \ldots, t_r)|(\xi) = \begin{cases} 1, & \text{if } \langle t_1^\xi, \ldots, t_r^\xi \rangle \in \phi(p), \\ 0, & \text{otherwise}. \end{cases}$$
+
+For nonatomic formulas:
+$$|P \Leftrightarrow Q| = |P||Q| + (1 - |P|)(1 - |Q|)$$
+$$|P \Rightarrow Q| = 1 - |P| + |P||Q|$$
+$$|P \vee Q| = \max(|P|, |Q|)$$
+$$|P \wedge Q| = \min(|P|, |Q|)$$
+$$|\neg P| = 1 - |P|$$
+
+For quantifiers, let $\xi'$ be a variation of $\xi$ along $x$ (i.e. $y^\xi = y^{\xi'}$ for all variables $y \neq x$). Then
+$$|\forall x P|(\xi) = \min_{\xi'} |P|(\xi')$$
+$$|\exists x P|(\xi) = \max_{\xi'} |P|(\xi')$$
+where $\xi'$ runs through all variations of $\xi$ along $x$.
+
+A formula $P$ is called $\phi$-true if $|P|_\phi(\xi) = 1$ for all $\xi \in \overline{M}$. The interpretation $\phi$ (or $M$) is called a model for a set of formulas $E$ if all elements of $E$ are $\phi$-true.

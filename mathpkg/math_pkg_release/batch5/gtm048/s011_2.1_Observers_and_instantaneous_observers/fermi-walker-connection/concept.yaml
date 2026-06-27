@@ -1,0 +1,23 @@
+id: fermi-walker-connection
+title_en: "Fermi-Walker Connection"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: advanced
+tags: [fermi-walker, connection, observer, gyroscope, general-relativity]
+depends_on:
+  required: []
+  recommended: [orthogonal-decomposition, levi-civita-connection, instantaneous-observer]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "R.K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "2"
+    section: "2.2"
+    pages: ""
+    role_in_book: "Defines the unique connection over an observer that decomposes as projection of the Levi-Civita connection"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: dvr-is-local-ring-of-curve
+title_en: "DVR of K/k is Local Ring of Nonsingular Affine Curve"
+title_zh: "K/k的离散赋值环是非奇异仿射曲线的局部环"
+type: corollary
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [discrete-valuation-ring, nonsingular-curve, local-ring, affine-curve]
+depends_on:
+  required: [discrete-valuation-ring, nonsingular-curve]
+  recommended: [function-field, local-ring-of-a-point]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "6"
+    pages: "59"
+    role_in_book: "Corollary 6.6, every DVR arises geometrically as a local ring of a point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

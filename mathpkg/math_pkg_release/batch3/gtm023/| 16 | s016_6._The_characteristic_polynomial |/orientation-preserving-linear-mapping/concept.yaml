@@ -1,0 +1,23 @@
+id: orientation-preserving-linear-mapping
+title_en: "Orientation Preserving Linear Mapping"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [orientation-preserving, linear-isomorphism, determinant]
+depends_on:
+  required: [orientation-by-determinant, linear-isomorphism]
+  recommended: [determinant]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§8. Oriented vector spaces"
+    pages: "4.27"
+    role_in_book: "Defines orientation-preserving isomorphisms and relates to positive determinant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

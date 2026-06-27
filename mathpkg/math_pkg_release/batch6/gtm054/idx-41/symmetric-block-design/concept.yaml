@@ -1,0 +1,23 @@
+id: symmetric-block-design
+title_en: "Symmetric Block Design"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: design-theory
+difficulty: intermediate
+tags: [symmetric-block-design, bibd, 2-design, symmetric-design]
+depends_on:
+  required: [t-design, t-a-design]
+  recommended: [symmetric-lambda-linked-design]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "IX"
+    section: "A"
+    pages: "245"
+    role_in_book: "Defines symmetric block design as a (1,2;1,2)-design (a 2-design that is also a (;2)-design)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

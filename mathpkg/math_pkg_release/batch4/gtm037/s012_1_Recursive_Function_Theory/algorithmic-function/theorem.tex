@@ -1,0 +1,9 @@
+An $m$-ary function $f \colon \omega^m \to \omega$ is algorithmic (or Markov-computable) if there is a Markov algorithm $A$ such that for any $x_0, \ldots, x_{m-1} \in \omega$ there is a computation $\langle d_0, \ldots, d_n \rangle$ under $A$ satisfying:
+
+\begin{enumerate}
+\item $d_0 = 0\ 1^{(x_0 + 1)}\ 0\ \cdots\ 0\ 1^{(x_{m-1} + 1)}\ 0\ 2$;
+\item $\langle 2 \rangle$ occurs only once in $d_n$;
+\item $0\ 1^{(f(x_0, \ldots, x_{m-1}) + 1)}\ 0\ 2$ occurs in $d_n$.
+\end{enumerate}
+
+We then say that $A$ computes $f$.

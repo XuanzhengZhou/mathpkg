@@ -1,0 +1,14 @@
+id: fully-faithful-functor
+title_en: "Fully Faithful Functor"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category-theory, fully-faithful-functor, bijection-on-hom-sets, equivalence-of-categories]
+depends_on: {required: [functor, full-functor, faithful-functor], recommended: [subcategory, inclusion-functor], suggested: [equivalence-of-categories]}
+source_books:
+  [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "I", section: "3", pages: "15", role_in_book: "Defines fully faithful functors as those that are bijective on hom-sets, a notion that is weaker than isomorphism of categories but still strong"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: von-staudt-congruence
+title_en: "von Staudt's congruence for Bernoulli numbers"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: intermediate
+tags: ["von-staudt-congruence", "bernoulli-numbers", "p-adic-integrality", "denominator"]
+depends_on:
+  required: ["bernoulli-numbers-integral-formula"]
+  recommended: ["bernoulli-numbers", "p-adic-numbers"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "2"
+    section: "Stickelberger Ideals and Bernoulli Distributions"
+    pages: "48-53"
+    role_in_book: "Corollary 2 — von Staudt congruence: B_k ≡ -1/p mod Z_p when k ≡ 0 mod p-1"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

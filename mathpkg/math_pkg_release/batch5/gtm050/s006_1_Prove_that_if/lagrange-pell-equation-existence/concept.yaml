@@ -1,0 +1,23 @@
+id: lagrange-pell-equation-existence
+title_en: "Lagrange's Theorem: Pell's Equation Always Has Solutions"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-equations
+difficulty: advanced
+tags: [lagrange, pell-equation, existence-proof, cyclic-method, convergence]
+depends_on:
+  required: [pell-equation-definition, bhaskara-cyclic-method]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "1"
+    section: "1.9"
+    pages: ""
+    role_in_book: "First rigorous proof that Pell's equation always has solutions; the English and Fermat lacked this proof"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,6 @@
+The $\beta$-dual $\hat{P}$ of the basic example $P$ is given by
+$$\hat{P}_{ij} = \frac{\beta_j P_{ji}}{\beta_i} = \begin{cases} 1 & \text{if } j = i - 1, \\[4pt] \beta_j - \beta_{j+1} & \text{if } i = 0. \end{cases}$$
+Thus the reverse process proceeds deterministically one step at a time to the left until it reaches $0$. From $0$ it may jump to any state $j$ with probability
+$$\hat{P}_{0j} = \beta_j - \beta_{j+1}.$$
+Since $\sum_j \hat{P}_{0j} = 1 - \beta_\infty \leq 1$, the extended chain for $\hat{P}$ is absorbing when $\beta_\infty < 1$. The measure $\beta$ is regular for $\hat{P}$:
+$$\sum_i \beta_i \hat{P}_{ij} = \beta_j.$$

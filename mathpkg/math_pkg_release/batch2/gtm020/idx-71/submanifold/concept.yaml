@@ -1,0 +1,23 @@
+id: submanifold
+title_en: "Submanifold"
+title_zh: "子流形"
+type: definition
+domain: geometry
+subdomain: differentiable-manifolds
+difficulty: advanced
+tags: [submanifold, manifold, chart]
+depends_on:
+  required: [manifold, chart]
+  recommended: [cr-map]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "18. Differentiable Manifolds"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition 2.4: subspace that inherits a manifold structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

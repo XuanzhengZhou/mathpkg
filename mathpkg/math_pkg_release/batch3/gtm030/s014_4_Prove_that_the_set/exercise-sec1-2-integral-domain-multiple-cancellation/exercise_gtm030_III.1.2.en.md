@@ -1,0 +1,11 @@
+---
+role: exercise
+locale: en
+chapter: "III"
+section: "1"
+exercise_number: 2
+---
+
+Let $\mathfrak{A}$ be an integral domain that contains elements $a$ and $b \neq 0$ such that $ab + mb = 0$ for some integer $m$. Prove that
+$$ca + mc = 0 = ac + mc$$
+for all $c$ in $\mathfrak{A}$.

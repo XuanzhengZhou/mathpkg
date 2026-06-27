@@ -1,0 +1,23 @@
+id: simultaneous-universal-instantiation
+title_en: "Simultaneous Universal Instantiation (Corollary 10.73)"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: predicate-logic
+difficulty: intermediate
+tags: [universal-instantiation, simultaneous-substitution, universal-quantifier, predicate-calculus, term-substitution]
+depends_on:
+  required: [universal-specification, simultaneous-substitution]
+  recommended: [substitutivity-of-equivalence]
+  suggested: [change-of-bound-variable]
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.10"
+    pages: ""
+    role_in_book: "Generalizes universal instantiation to simultaneous substitution of multiple terms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

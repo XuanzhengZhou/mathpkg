@@ -1,0 +1,23 @@
+id: coefficient-space
+title_en: "Coefficient Space"
+title_zh: "系数空间"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [linear-equations, row-space, coefficient-matrix, span]
+depends_on:
+  required: [vector-space]
+  recommended: [linear-span]
+  suggested: [row-rank]
+source_books:
+  - book_id: gtm049
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "3"
+    section: "9"
+    pages: ""
+    role_in_book: "Defines the row space of a linear system as coefficient space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

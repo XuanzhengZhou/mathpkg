@@ -1,0 +1,23 @@
+id: adjoint-linear-transformation
+title_en: "Adjoint of a Linear Transformation (with respect to a scalar product)"
+title_zh: "线性变换的伴随（关于标量积）"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [adjoint, transpose, scalar-product, linear-transformation, euclidean-space]
+depends_on:
+  required: [euclidean-space, linear-transformation]
+  recommended: [positive-definite-symmetric-scalar-product]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "VI"
+    section: "2"
+    pages: ""
+    role_in_book: "Defines the adjoint of a linear transformation relative to a scalar product"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

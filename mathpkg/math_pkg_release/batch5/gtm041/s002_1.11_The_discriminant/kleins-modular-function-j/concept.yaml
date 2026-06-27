@@ -1,0 +1,23 @@
+id: kleins-modular-function-j
+title_en: "Klein's modular function J"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [klein-j-invariant, modular-function, eisenstein-series, discriminant]
+depends_on:
+  required: [discriminant-of-weierstrass-cubic]
+  recommended: [homogeneity-of-eisenstein-invariants, eisenstein-series]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "1"
+    section: "1.12"
+    pages: ""
+    role_in_book: "Defines Klein's modular function J as the quotient of g2^3 and Delta"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: surjectivity-of-d
+title_en: "Theorem 33: Surjectivity of the Decomposition Homomorphism d"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [modular-representation-theory, cde-triangle, decomposition-homomorphism, grothendieck-group, lifting]
+depends_on:
+  required: [decomposition-homomorphism-d, rk-grothendieck-group, rk-grothendieck-group-characteristic-p]
+  recommended: [homomorphism-e-pk-to-rk, cartan-homomorphism-c]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "16"
+    section: "16.1"
+    pages: ""
+    role_in_book: "Main theorem: every virtual representation over k lifts to characteristic zero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

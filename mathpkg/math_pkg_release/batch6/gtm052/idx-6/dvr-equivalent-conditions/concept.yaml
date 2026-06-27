@@ -1,0 +1,23 @@
+id: dvr-equivalent-conditions
+title_en: "Discrete Valuation Ring Equivalent Conditions"
+title_zh: "离散赋值环的等价条件"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [discrete-valuation-ring, dvr, regular-local-ring, dimension-one]
+depends_on:
+  required: [discrete-valuation-ring, noetherian-ring, local-ring]
+  recommended: [integrally-closed-domain, principal-ideal-domain]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "6"
+    pages: "57-58"
+    role_in_book: "Theorem 6.2A, equivalent characterizations of DVRs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

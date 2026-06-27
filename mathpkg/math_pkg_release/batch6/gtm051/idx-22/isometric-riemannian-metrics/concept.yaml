@@ -1,0 +1,23 @@
+id: isometric-riemannian-metrics
+title_en: "Isometric (Equivalent) Riemannian Metrics"
+title_zh: "等距（等价）黎曼度量"
+type: definition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [riemannian-metric, isometry, diffeomorphism, equivalence-relation]
+depends_on:
+  required: [riemannian-metric-on-open-subset-of-r2, diffeomorphism]
+  recommended: [pullback-metric]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Defines the equivalence relation for Riemannian metrics on open subsets of R^2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

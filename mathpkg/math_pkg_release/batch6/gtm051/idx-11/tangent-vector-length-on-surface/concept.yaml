@@ -1,0 +1,23 @@
+id: tangent-vector-length-on-surface
+title_en: "Length of Tangent Vector of a Curve on a Surface"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-geometry
+difficulty: basic
+tags: [curve, surface, first-fundamental-form, tangent-vector, arc-length]
+depends_on:
+  required: [curve-on-a-surface, first-fundamental-form]
+  recommended: [surface]
+  suggested: []
+source_books:
+  - book_id: gtm051
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.4"
+    pages: "50-52"
+    role_in_book: "Links the first fundamental form to curve length on a surface"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

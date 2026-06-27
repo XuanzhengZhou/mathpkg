@@ -1,0 +1,23 @@
+id: general-linear-group
+title_en: "General Linear Group GL(V)"
+title_zh: "一般线性群GL(V)"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [linear-transformation, group, matrix, vector-space]
+depends_on:
+  required: [semilinear-transformation]
+  recommended: [left-vector-space]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "4. Vector Spaces"
+    pages: ""
+    role_in_book: "The group of invertible linear transformations of V"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

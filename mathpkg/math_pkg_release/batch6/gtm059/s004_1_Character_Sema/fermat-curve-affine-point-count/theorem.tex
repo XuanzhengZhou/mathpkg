@@ -1,0 +1,11 @@
+Let $F = \mathbb{F}_q$ be a finite field with $q$ elements. Let $d \ge 2$ be an integer such that $d \mid (q-1)$. Let $\chi$ be a multiplicative character of $F^*$ of order $d$, and for each integer $a$ modulo $d$ let $\chi_a$ be the truncated character defined by
+$$\chi_a(u) = \begin{cases}
+\chi(u)^a & \text{if } u \neq 0,\\
+1 & \text{if } u = 0 \text{ and } a = 0,\\
+0 & \text{if } u = 0 \text{ and } a \neq 0.
+\end{cases}$$
+Consider the Fermat curve $V(d)$ defined by
+$$x^d + y^d = 1$$
+over $F$. Let $N$ be the number of affine points of $V(d)$ in $F$. Then
+$$N = q - \sum_{\substack{0 < a < d \\ 0 < b < d \\ a + b \not\equiv 0 \pmod{d}}} \chi_{a+b}(-1) \, J(\chi^a, \chi^b),$$
+where $J(\chi^a, \chi^b) = \sum_{u \in F} \chi_a(u) \chi_b(1-u)$ denotes the Jacobi sum.

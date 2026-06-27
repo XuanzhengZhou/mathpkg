@@ -1,0 +1,23 @@
+id: automorphic-image-nullset-under-ch
+title_en: "Existence of an Uncountable Set Whose Automorphic Images Are Nullsets"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: real-analysis
+difficulty: advanced
+tags: [automorphism, nullset, continuum-hypothesis, homeomorphism, sierpinski]
+depends_on:
+  required: [nullset, continuum-hypothesis]
+  recommended: [nullset-preserving-transformations-invariant-set, homeomorphism]
+  suggested: [borel-set]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "20"
+    section: "20. Examples of Duality"
+    pages: "86-89"
+    role_in_book: "Corollary 20.5: Under CH, there exists an uncountable set whose image under any automorphism is a nullset"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

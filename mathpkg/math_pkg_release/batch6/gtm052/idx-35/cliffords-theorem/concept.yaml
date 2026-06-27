@@ -1,0 +1,23 @@
+id: cliffords-theorem
+title_en: "Clifford's theorem on special linear systems"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-curves
+difficulty: advanced
+tags: [clifford-theorem, special-divisor, linear-system, curves]
+depends_on:
+  required: []
+  recommended: [riemann-roch-theorem, canonical-divisor, special-divisor]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "IV"
+    section: "§5"
+    pages: ""
+    role_in_book: "Theorem 5.4 — bound on dimension of special linear systems"
+content_hash: "clifford-thm-hash"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

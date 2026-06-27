@@ -1,0 +1,23 @@
+id: vandermonde-determinant-formula
+title_en: "Vandermonde Determinant Formula"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [determinant, vandermonde, polynomial-interpolation]
+depends_on:
+  required: [determinant]
+  recommended: [polynomial, symmetric-function]
+  suggested: [lagrange-interpolation]
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IV"
+    section: "Problems"
+    pages: ""
+    role_in_book: "Exercise; formula stated as Problem 4 for the reader to prove."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,15 @@
+Let $S: P^{\mathrm{op}} \times P \times C^{\mathrm{op}} \times C \to X$ be a functor such that the end $\int_c S(p, q, c, c)$ exists for all pairs $\langle p, q \rangle$ of objects of $P$. By the parameter theorems, regard these ends as a bifunctor $P^{\mathrm{op}} \times P \to X$, and regard $S$ as a bifunctor $(P \times C)^{\mathrm{op}} \times (P \times C) \to X$. Then there is an isomorphism
+
+$$\theta: \int_{\langle p, c \rangle} S(p, c, p, c) \cong \int_p \left[ \int_c S(p, p, c, c) \right].$$
+
+The "double end" on the left exists if and only if the end $\int_p$ on the right exists, and then there is a unique arrow $\theta$ in $X$ such that the diagram
+
+\[
+\begin{CD}
+\int_{\langle p, c \rangle} S(p,p,c,c) @>{\xi_{\langle p,c \rangle}}>> S(p,p,c,c) \\
+@V{\theta}VV @| \\
+\int_p \left[ \int_c S(p,p,c,c) \right] @>{\varrho_p}>> \int_c S(p,p,c,c) @>{\omega_{p,p,c}}>> S(p,p,c,c)
+\end{CD}
+\]
+
+commutes, where the horizontal arrows $\xi$, $\varrho$, and $\omega$ are the universal wedges belonging to the corresponding ends. Moreover, the arrow $\theta$ is an isomorphism.

@@ -1,0 +1,23 @@
+id: closed-geodesic-from-fundamental-group
+title_en: "Existence of Closed Geodesic from Fundamental Group Element"
+title_zh: "从基本群元素构造闭合测地线"
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [closed-geodesic, fundamental-group, universal-cover, covering-transformation, distance-function, variational-principle]
+depends_on:
+  required: [universal-covering-surface, fundamental-group, covering-transformation-fixed-point-free, geodesic]
+  recommended: [riemannian-metric, distance-function-manifold, first-variation-formula]
+  suggested: [gauss-bonnet-theorem, closed-geodesic-compact-isometry]
+source_books:
+  - book_id: gtm051
+    author: "W. Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.7"
+    pages: ""
+    role_in_book: "Central theorem connecting the fundamental group to the existence of closed geodesics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

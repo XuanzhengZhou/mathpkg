@@ -1,0 +1,23 @@
+id: class-n-weil-neighborhood
+title_en: "Class N in Weil Topology"
+title_zh: "Weil 拓扑中的类 N"
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [weil-topology, measurable-group, neighborhood-base]
+depends_on:
+  required: [class-a-weil-topology, symmetric-difference, measurable-set]
+  recommended: [haar-measure-definition]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "62"
+    section: "Weil Topology"
+    pages: "273"
+    role_in_book: "Defines the neighborhood base for the Weil topology on a measurable group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

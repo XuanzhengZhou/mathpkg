@@ -1,0 +1,23 @@
+id: dual-generalized-eigenspaces
+title_en: "Dual Generalized Eigenspaces"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [dual-mapping, generalized-eigenspace, primary-decomposition, minimum-polynomial]
+depends_on:
+  required: [dual-mapping, primary-decomposition-via-minimum-polynomial, minimum-polynomial-of-dual-transformation]
+  recommended: [dual-decomposition-from-stable-decomposition]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "13"
+    section: "13.8"
+    pages: ""
+    role_in_book: "Proposition I: The dual generalized eigenspaces are contained in the generalized eigenspaces of the dual transformation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

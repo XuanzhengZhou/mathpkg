@@ -1,0 +1,23 @@
+id: imbedding-index-monotonicity
+title_en: "Monotonicity of Imbedding Index: ι(Γ_{(E)}) ≤ ι(Γ)"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [imbedding-index, cycle-cover, subgraph, isthmus, cycle-space]
+depends_on:
+  required: [imbedding-index, cycle-cover]
+  recommended: [cycle-space, isthmus]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "Chapter VII"
+    section: "Section 34"
+    pages: "208-213"
+    role_in_book: "Fundamental monotonicity property of the imbedding index with respect to edge deletion"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

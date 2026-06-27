@@ -1,0 +1,1 @@
+The Cauchy integral formula for smooth functions includes a correction term involving $\partial f / \partial \overline{z}$. This inhomogeneous formula is the starting point for solving the $\overline{\partial}$-equation.

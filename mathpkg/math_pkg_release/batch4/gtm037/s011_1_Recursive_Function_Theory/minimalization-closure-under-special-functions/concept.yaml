@@ -1,0 +1,23 @@
+id: minimalization-closure-under-special-functions
+title_en: "Minimalization Preserves Membership in A for Special Functions"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: computability-theory
+difficulty: advanced
+tags: [recursive-function, minimalization, mu-operator, closure-properties, special-function]
+depends_on:
+  required: [special-function, minimalization, exc-function, l-function]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "3"
+    section: "Recursive Functions; Turing Computability"
+    pages: ""
+    role_in_book: "Lemma (27) showing that if a special function f is in A and g is obtained from f by minimalization, then g is in A"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: l-one-primitive-character-formula
+title_en: "Formula for L(1, chi) for Primitive Dirichlet Characters"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: dirichlet-l-functions
+difficulty: intermediate
+tags: [l-function, dirichlet-character, primitive-character, gauss-sum, cyclotomic-units]
+depends_on:
+  required: [dirichlet-character-definition, gauss-sum-definition]
+  recommended: [abel-dirichlet-series-test, even-odd-dirichlet-character]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields I and II"
+    chapter: "3"
+    section: "3. Complex Analytic Class Number Formulas"
+    pages: ""
+    role_in_book: "Closed-form evaluation of L(1, chi) in terms of Gauss sums and cyclotomic logarithms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: prop-18-1-total-variation-norm
+title_en: "Total Variation Norm Makes M(X) a Banach Space"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [borel-measure, total-variation, banach-space, riesz-representation]
+depends_on:
+  required: [complex-borel-measures-mx]
+  recommended: [total-variation-of-complex-measure]
+  suggested: []
+source_books:
+  - book_id: "gtm055"
+    author: "Brown and Pearcy"
+    title: "Introduction to Operator Theory I"
+    chapter: "18"
+    section: "19"
+    pages: ""
+    role_in_book: "Proves that M(X) with the total variation norm is complete"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+A UFD is an integral domain where every non-zero non-unit element factors uniquely into prime elements. The ring of convergent power series is shown to be a UFD via the Weierstrass preparation theorem.

@@ -1,0 +1,23 @@
+id: dimension-formula-bond-cospace
+title_en: "Dimension Formula for Bond Space and Cospace"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [dimension-formula, bond-space, cospace, orthogonal-complement]
+depends_on:
+  required: [bond-space, cospace]
+  recommended: [orthogonal-complement-dimension]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Graver, Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "II Algebraic Structures on Finite Sets"
+    section: "IID Cycle and Cocycle Spaces"
+    pages: "63"
+    role_in_book: "Display D5: dimension relation for bond space and its orthogonal complement"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

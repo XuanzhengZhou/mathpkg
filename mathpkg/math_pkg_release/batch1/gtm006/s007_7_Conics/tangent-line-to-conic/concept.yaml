@@ -1,0 +1,23 @@
+id: tangent-line-to-conic
+title_en: "Tangent Line to a Conic (Lemma 2.35)"
+title_zh: "二次曲线的切线（引理2.35）"
+type: lemma
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [conic, tangent, absolute-line, polarity, incidence]
+depends_on:
+  required: [line-meets-conic-at-most-two-points, absolute-element-of-polarity]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II. Classical Projective Planes"
+    section: "7. Conics"
+    pages: ""
+    role_in_book: "Tangent lines are the absolute lines of the associated polarity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

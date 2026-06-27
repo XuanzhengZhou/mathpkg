@@ -1,0 +1,23 @@
+id: affine-fixed-point-compact-convex
+title_en: "Fixed point theorem for affine maps on compact convex sets"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: linear-topological-spaces
+difficulty: advanced
+tags: [fixed-point, compact, convex, affine-map, linear-topological-space, markov-kakutani]
+depends_on:
+  required: [compact-convex-point-separation-lemma]
+  recommended: [compact-convex-set, strongly-separating-linear-functional, affine-map]
+  suggested: [markov-kakutani-fixed-point-theorem, schauder-fixed-point-theorem]
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: ""
+    section: "C. A Fixed Point Theorem"
+    pages: ""
+    role_in_book: "Main theorem of section C: a fixed point result for affine continuous self-maps of compact convex sets in linear topological spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

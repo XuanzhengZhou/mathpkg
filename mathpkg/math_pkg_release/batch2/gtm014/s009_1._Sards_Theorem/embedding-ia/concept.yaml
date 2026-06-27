@@ -1,0 +1,23 @@
+id: embedding-ia
+title_en: "Embedding i_a of R^{n-1} into R^n"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [embedding, slice, product-space, fubini-type]
+depends_on:
+  required: []
+  recommended: []
+  suggested: [measure-zero-fubini-type]
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "II"
+    section: "§1. Sard's Theorem"
+    pages: "41-43"
+    role_in_book: "Auxiliary definition for Theorem 1.7 — identifies slices of R^n"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

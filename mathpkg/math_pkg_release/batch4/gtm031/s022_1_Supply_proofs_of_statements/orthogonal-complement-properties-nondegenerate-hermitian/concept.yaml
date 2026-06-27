@@ -1,0 +1,23 @@
+id: orthogonal-complement-properties-nondegenerate-hermitian
+title_en: "Properties of Orthogonal Complement for Non-Degenerate Hermitian Scalar Products"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [orthogonal-complement, non-degenerate, hermitian, dimension, involution, lattice]
+depends_on:
+  required: [orthogonal-complement-hermitian, nondegenerate-scalar-product, hermitian-scalar-product]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "Bilinear Forms"
+    section: "7"
+    pages: "163-164"
+    role_in_book: "Core structure theorem for non-degenerate hermitian spaces; establishes the dimension formula and involutorial property of orthogonal complement"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

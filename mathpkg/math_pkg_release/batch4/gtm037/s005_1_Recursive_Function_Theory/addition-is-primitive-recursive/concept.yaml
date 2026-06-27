@@ -1,0 +1,13 @@
+id: addition-is-primitive-recursive
+title_en: "Addition is Primitive Recursive"
+title_zh: "加法是原始递归的"
+type: lemma
+domain: logic
+subdomain: recursive-function-theory
+difficulty: basic
+tags: [primitive-recursive, addition, recursion]
+depends_on: {required: [], recommended: [primitive-recursion-schema, composition-of-primitive-recursive-functions], suggested: []}
+source_books: [{book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "1", section: "Recursive Function Theory", pages: "43-46", role_in_book: "Demonstration that addition is primitive recursive via recursion on successor"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

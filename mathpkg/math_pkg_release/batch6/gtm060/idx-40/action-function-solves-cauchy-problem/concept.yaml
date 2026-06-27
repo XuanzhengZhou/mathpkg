@@ -1,0 +1,13 @@
+id: action-function-solves-cauchy-problem
+title_en: "Action Function Solves the Cauchy Problem for the Hamilton-Jacobi Equation"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: advanced
+tags: [hamiltonian-mechanics, cauchy-problem, action, partial-differential-equations, characteristics]
+depends_on: {required:[hamilton-jacobi-equation, action-functional, hamiltons-equations], recommended:[differential-of-action-function, legendre-transformation], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V. I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"9",section:"46",pages:"",role_in_book:"Constructs solutions of the Hamilton-Jacobi equation via characteristics"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

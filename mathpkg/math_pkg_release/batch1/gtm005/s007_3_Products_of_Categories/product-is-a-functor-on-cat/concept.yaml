@@ -1,0 +1,13 @@
+id: product-is-a-functor-on-cat
+title_en: "The Product is a Functor on Cat"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [product, Cat, small-categories, functor, product-category]
+depends_on: {required: [product-of-categories, product-of-functors, functoriality-of-product-of-functors], recommended: [Cat], suggested: []}
+source_books: [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "I", section: "3. Products of Categories", pages: "", role_in_book: "establishes that product of categories is a bifunctor on the category of small categories"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

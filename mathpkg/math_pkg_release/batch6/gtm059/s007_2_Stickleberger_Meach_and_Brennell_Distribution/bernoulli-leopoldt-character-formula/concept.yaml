@@ -1,0 +1,23 @@
+id: bernoulli-leopoldt-character-formula
+title_en: "Integral formula for generalized Bernoulli-Leopoldt numbers"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: ["bernoulli-leopoldt-numbers", "dirichlet-characters", "p-adic-integration", "stickelberger-element"]
+depends_on:
+  required: ["p-adic-bernoulli-distribution-relation", "bernoulli-numbers-integral-formula"]
+  recommended: ["dirichlet-characters", "bernoulli-numbers"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "2"
+    section: "Stickelberger Ideals and Bernoulli Distributions"
+    pages: "48-53"
+    role_in_book: "Theorem 2.4 — expresses generalized Bernoulli-Leopoldt numbers as character integrals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

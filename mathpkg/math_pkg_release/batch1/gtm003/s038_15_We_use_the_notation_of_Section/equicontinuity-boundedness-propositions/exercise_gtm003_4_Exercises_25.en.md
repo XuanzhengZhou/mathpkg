@@ -1,0 +1,23 @@
+---
+role: exercise
+locale: en
+chapter: "4"
+section: "Exercises"
+exercise_number: 25
+---
+
+Let $E, F$ be l.c.s. with respective duals $E', F'$. For any subset $Q \subset \mathcal{L}(E, F)$, denote by $Q'$ the set of adjoints $\{u' : u \in Q\}$. Consider the propositions:
+
+(i) $Q$ is equicontinuous.
+
+(ii) For each equicontinuous set $B \subset E'$, $Q'(B)$ is equicontinuous in $F'$.
+
+(iii) $Q'$ is equicontinuous in $\mathcal{L}(F'_\beta, E'_\beta)$.
+
+(iv) $Q$ is bounded in $\mathcal{L}_b(E, F)$.
+
+(v) $Q'$ is simply bounded in $L(F', E')$ with respect to $\sigma(E', E)$.
+
+(vi) $Q'$ is simply bounded in $L(F', E')$ with respect to $\beta(E', E)$.
+
+One has implications among these statements. Determine which implications hold in general.

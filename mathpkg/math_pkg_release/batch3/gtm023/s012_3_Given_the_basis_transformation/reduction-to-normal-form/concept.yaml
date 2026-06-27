@@ -1,0 +1,23 @@
+id: reduction-to-normal-form
+title_en: "Reduction of a Matrix to Normal Form by Elementary Transformations"
+title_zh: "通过初等变换将矩阵化为标准形"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [matrix, normal-form, elementary-transformations, rank, row-operations, column-operations]
+depends_on:
+  required: [elementary-basis-transformations-matrix-effect, normal-form-of-linear-mapping-matrix]
+  recommended: [rank-of-linear-mapping]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "3"
+    section: "4. Elementary transformations"
+    pages: "110-111"
+    role_in_book: "States and proves that every matrix can be brought to the normal form (3.31) by a sequence of elementary row and column operations."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: multijet-transversality-theorem
+title_en: "Multijet Transversality Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: ["transversality", "multijet", "residual-subset", "singularity-theory", "smooth-map"]
+depends_on:
+  required: ["multijet-extension", "multijet-bundle", "configuration-space-xs"]
+  recommended: ["thom-transversality-theorem", "residual-subset", "transversality", "compact-submanifold"]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "II"
+    section: "§4. Transversality"
+    pages: ""
+    role_in_book: "main-theorem-generalizing-thom-transversality-to-multijet-spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

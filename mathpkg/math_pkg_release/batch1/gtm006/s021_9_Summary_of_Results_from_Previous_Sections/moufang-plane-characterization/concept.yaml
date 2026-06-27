@@ -1,0 +1,23 @@
+id: moufang-plane-characterization
+title_en: "Characterization of Moufang Planes via Alternative Division Rings and (V,k)-Transitivity"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [moufang-plane, alternative-division-ring, planar-ternary-ring, vk-transitivity, moufang-condition]
+depends_on:
+  required: [planar-ternary-ring, alternative-division-ring, vk-transitivity, moufang-condition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "IV"
+    section: "9"
+    pages: ""
+    role_in_book: "Summary table entry (c): establishes the equivalence between the algebraic property (coordinating PTR is an alternative division ring) and the geometric property (Moufang plane)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

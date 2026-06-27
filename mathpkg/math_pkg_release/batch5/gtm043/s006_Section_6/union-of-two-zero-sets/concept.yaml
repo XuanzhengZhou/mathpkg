@@ -1,0 +1,23 @@
+id: union-of-two-zero-sets
+title_en: "Union of Two Zero-Sets is a Zero-Set"
+title_zh: "两个零集的并是零集"
+type: lemma
+domain: topology
+subdomain: zero-sets
+difficulty: basic
+tags: [zero-set, union, ring-of-continuous-functions]
+depends_on:
+  required: [zero-set, continuous-function]
+  recommended: []
+  suggested: [z-filter]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.4"
+    pages: ""
+    role_in_book: "Key algebraic property of zero-sets; ensures that Z(X) is closed under finite unions, making it a base"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

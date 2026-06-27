@@ -1,0 +1,23 @@
+id: cogredience-of-symmetric-matrices-algebraically-closed
+title_en: "Cogredience of Symmetric Matrices over Algebraically Closed Fields"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: bilinear-forms
+difficulty: intermediate
+tags: [symmetric-matrix, cogredience, algebraically-closed-field, rank, quadratic-form]
+depends_on:
+  required: [diagonalization-of-hermitian-scalar-products]
+  recommended: [symmetric-bilinear-form, cogredience, matrix-rank]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "5"
+    section: "8"
+    pages: "163-169"
+    role_in_book: "Theorem 4 — classification of symmetric matrices over algebraically closed fields: two are cogredient iff they have the same rank"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

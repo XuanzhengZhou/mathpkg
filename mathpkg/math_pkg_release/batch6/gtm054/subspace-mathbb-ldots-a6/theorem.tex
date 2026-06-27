@@ -1,0 +1,32 @@
+Let $L$ be a subspace of $\mathbb{Q}^X$, and let $h \in L$. Then $h = \sum_{i=1}^{m} h_i$ where $h_i \in L$ for $i = 1, \ldots, m$, and
+
+(a) $\sigma(h_i) \in \mathcal{M}(L)$;
+(b) $\sigma(h_i) \subseteq \sigma(h
+
+Then $\mu < 0$. Let $g' = h - \mu g''$. Since $\sigma(h) \notin \mathcal{M}(L), g''$ is not a scalar multiple of $h$, and so $g' \neq 0$. Clearly $g'$ satisfies (i).
+
+We next show that $g'$ satisfies (iii). If $x \in X$, then $g'(x)h(x) = [h(x)]^2 - \mu g''(x)h(x)$, which is clearly nonnegative when $x \in X + Y$. If $x \in Y$, then $h(x)/g''(x) \leq \mu < 0$, and so
+
+$$g'(x)h(x) = [h(x)]^2 - \frac{\mu g''(x)}{h(x)}[h(x)]^2$$
+
+$$= [h(x)]^2 \left(1 - \frac{\mu g''(x)}{h(x)}\right) \geq 0$$
+
+as required.
+
+For some point $y \in Y$, $\mu = h(y)/g''(y)$, and this point $y$ lies in $\sigma(h) + \sigma(g')$. Hence $|\sigma(g')| < |\sigma(h)|$, and we may apply the induction hypothesis to $g'$ to obtain
+
+$$g' = \sum_{i=1}^{p} g_i,$$
+
+where $g_i$ satisfies (i) and (ii) and $g_i(x)g'(x) \geq 0$ for each $i = 1, \ldots, p$. Thus for each $x \in X$, $g_i(x)$ and $g'(x)$ never have opposite sign. We have already shown that $g'(x)$ and $h(x)$ never have opposite sign. It follows that $g_1, \ldots, g_p$ also satisfy (iii). For definiteness, let $g = g_1$, and we have the desired function.
+
+Let $\nu = \min\{h(x)/g(x): x \in \sigma(g)\}$, and let
+
+$$h_1 = \nu g \quad \text{and} \quad h' = h - h_1.$$
+
+Since $g$
+
+as required. The condition required in (c) now follows from the definition of $h_1$, A8, and A9.
+
+The decomposition of $h$ guaranteed by Proposition A6 is called an $\mathcal{M}$-decomposition of $h$.
+
+The following is immediate.

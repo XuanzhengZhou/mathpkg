@@ -1,0 +1,23 @@
+id: connection-coefficients-orthogonal-coordinates
+title_en: "Connection Coefficients in Orthogonal Coordinates"
+title_zh: "正交坐标下的联络系数"
+type: lemma
+domain: geometry
+subdomain: differential-geometry
+difficulty: basic
+tags: [christoffel-symbols, orthogonal-coordinates, metric-coefficients, surfaces]
+depends_on:
+  required: [first-fundamental-form, christoffel-symbols]
+  recommended: []
+  suggested: [riemannian-metric]
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "4"
+    section: "4.2"
+    pages: "p.88"
+    role_in_book: "Technical lemma (4.2.4) giving simplified formulas for Christoffel symbols in orthogonal coordinates, used throughout the intrinsic geometry chapters"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

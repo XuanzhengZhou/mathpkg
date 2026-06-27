@@ -1,0 +1,23 @@
+id: subset-prime-to-ideal
+title_en: "Subset Prime to an Ideal"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [ideal, quotient-ring, multiplicative-system]
+depends_on:
+  required: [element-prime-to-ideal]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "III"
+    section: "10"
+    pages: ""
+    role_in_book: "extends element-prime definition to subsets, needed for studying multiplicative systems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

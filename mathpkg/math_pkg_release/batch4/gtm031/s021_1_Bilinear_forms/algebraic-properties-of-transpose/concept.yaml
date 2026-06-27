@@ -1,0 +1,23 @@
+id: algebraic-properties-of-transpose
+title_en: "Algebraic Properties of the Transpose"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [bilinear-form, transpose, additivity, linearity]
+depends_on:
+  required: [transpose-relative-to-bilinear-form]
+  recommended: [linear-transformation, homomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "Bilinear Forms"
+    section: "1. Bilinear forms"
+    pages: ""
+    role_in_book: "States the algebraic properties of the transpose mapping A → A'"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "IV"
+section: "§1"
+exercise_number: 10
+---
+
+Show that for any $w \in P(V, \mathcal{R})$, there is a representative $\tilde{w}$ of $w$ such that no variable $x \in V$ appears in $\tilde{w}$ more than once in a quantifier $(\forall x)$.

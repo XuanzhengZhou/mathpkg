@@ -1,0 +1,23 @@
+id: isomorphism-iff-homeomorphism-plus-local-ring-isomorphism
+title_en: "A morphism is an isomorphism iff it is a homeomorphism and induces isomorphisms on all local rings"
+title_zh: "态射是同构当且仅当它是同胚且在所有局部环上诱导同构"
+type: exercise
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [isomorphism, local-ring, homeomorphism, morphism]
+depends_on:
+  required: [isomorphism-of-varieties, induced-homomorphism-of-local-rings]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "3"
+    pages: "19"
+    role_in_book: "Exercise 3.3(b)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

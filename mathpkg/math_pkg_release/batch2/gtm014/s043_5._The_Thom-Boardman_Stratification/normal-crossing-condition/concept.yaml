@@ -1,0 +1,23 @@
+id: normal-crossing-condition
+title_en: "Condition NC (Normal Crossing Condition for Boardman Maps)"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [normal-crossing, boardman-map, transversality, general-position, tangent-space, jet-space]
+depends_on:
+  required: []
+  recommended: [boardman-map, boardman-fiber-subbundle-theorem, higher-order-boardman-symbols]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VI"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines the normal crossing condition that Boardman maps must satisfy to be stable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

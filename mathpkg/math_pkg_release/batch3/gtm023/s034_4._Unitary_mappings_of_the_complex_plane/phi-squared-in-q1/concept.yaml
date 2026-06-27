@@ -1,0 +1,23 @@
+id: phi-squared-in-q1
+title_en: "Square of a traceless element in Q_1"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [algebra-q, quaternions, traceless-operators, inner-product]
+depends_on:
+  required: [algebra-q, q-fundamental-identity]
+  recommended: [inner-product-on-algebra-q]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Derives φ² = -(φ,φ)ι for traceless φ, showing Q_1 elements square to negative scalars like pure imaginary quaternions."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

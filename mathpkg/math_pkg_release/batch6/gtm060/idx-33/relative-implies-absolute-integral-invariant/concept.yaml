@@ -1,0 +1,23 @@
+id: relative-implies-absolute-integral-invariant
+title_en: "Relative Integral Invariant Implies Absolute Integral Invariant of the Exterior Derivative"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: differential-forms
+difficulty: intermediate
+tags: [integral-invariant, differential-form, exterior-derivative, stokes-theorem, canonical-transformation]
+depends_on:
+  required: [relative-integral-invariant, absolute-integral-invariant, stokes-theorem]
+  recommended: [differential-k-form, exterior-derivative]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "7"
+    section: "38"
+    pages: "219"
+    role_in_book: "Shows that the exterior derivative of a relative integral invariant is an absolute integral invariant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

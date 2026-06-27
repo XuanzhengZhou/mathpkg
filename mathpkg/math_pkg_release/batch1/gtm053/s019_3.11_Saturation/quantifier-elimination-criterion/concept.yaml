@@ -1,0 +1,23 @@
+id: quantifier-elimination-criterion
+title_en: "Quantifier Elimination Criterion via Saturated Models"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [quantifier-elimination, saturated-model, automorphism, quantifier-free-type]
+depends_on:
+  required: [saturated-structure, quantifier-free-type, automorphism, saturated-types-automorphism]
+  recommended: [back-and-forth-system]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yuri I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "3"
+    section: "3.18"
+    pages: ""
+    role_in_book: "Characterization of quantifier elimination via automorphisms in saturated models"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

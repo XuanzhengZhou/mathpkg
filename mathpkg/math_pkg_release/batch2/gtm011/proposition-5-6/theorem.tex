@@ -1,0 +1,21 @@
+Let $(X, \mathcal{T})$ be a topological space.
+
+(a) If $A$ is an arcwise connected subset of $X$ then $A$ is connected.
+
+(b) If $X$ is locally arcwise connected then each component of $X$ is an open set.
+
+The converse to part (a) of the preceding proposition is not true. For example let
+
+$$X = \left\{ t + i \sin \frac{1}{t} : t > 0 \right\} \cup \{si : -1 \leq s \leq 1\}.$$
+
+Since $X$ is the closure of a connected set it is itself connected. However, there is no arc from the point $1/\pi$ to $i$ which lies in $X$. $X$ is also an example of a topological space which is connected but not locally arcwise connected.
+
+Suppose $X$ is connected and locally arcwise connected; does it follow that $X$ is arcwise connected? The answer is yes. In fact, this is an abstract version of a theorem which was proved about open connected subsets of the plane. Since disks in the plane are connected, it follows that open subsets of $\mathbb{C}$ are locally arcwise connected. Recall that in Theorem II
+
+Clearly $\sigma(0) = (a, [f]_a)$ and $\sigma(1) = (b, [f]_b)$; if it can be shown that $\sigma$ is continuous then $\sigma$ is the desired arc.
+
+Fix $t$ in $[0, 1]$ and let $N(g, V)$ be a neighborhood of $\sigma(t)$. Then $\gamma(t) \in V$ and $[f]_{\gamma(t)} = [g]_{\gamma(t)}$. So there is a number $r > 0$ such that $B(\gamma(t); r) \subset U \cap V$ and $f(z) = g(z)$ for $|z - \gamma(t)| < r$. Also, since $\gamma$ is continuous there is a $\delta > 0$ such that $|\gamma(s) - \gamma(t)| < r$ whenever $|s - t| < \delta$. Combining these last two facts gives that
+
+$$(t - \delta, t + \delta) \subset \sigma^{-1}(N(g, V)).$$
+
+It follows from Exercise 4.3 that $\sigma$ is continuous.

@@ -1,0 +1,23 @@
+id: second-category-set
+title_en: "Set of Second Category"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: baire-category
+difficulty: basic
+tags: [second-category, non-meager, baire-category]
+depends_on:
+  required: [first-category-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Complement to first category; describes 'large' sets in the sense of category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

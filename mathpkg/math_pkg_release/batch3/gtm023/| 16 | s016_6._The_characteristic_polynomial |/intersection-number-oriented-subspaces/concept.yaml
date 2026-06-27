@@ -1,0 +1,23 @@
+id: intersection-number-oriented-subspaces
+title_en: "Intersection Number of Oriented Subspaces"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [intersection-number, orientation, subspace, direct-decomposition]
+depends_on:
+  required: [orientation-by-determinant, direct-decomposition]
+  recommended: [orientation-by-direct-decomposition]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§8. Oriented vector spaces"
+    pages: "4.31"
+    role_in_book: "Defines the intersection number for oriented subspaces in a direct decomposition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,12 @@
+---
+role: exercise
+locale: en
+chapter: "4"
+section: "11"
+exercise_number: 12
+---
+
+Let $\Gamma_1$ be a subcontraction of $\Gamma$. Prove:
+
+(a) If $Z_1 \in \mathcal{X}(\Gamma_1)$, then $Z_1 \subseteq Z$ for some $Z \in \mathcal{X}(\Gamma)$.
+(b) If an edge $e$ of $\Gamma_1$ is an isthmus of $\Gamma$, then $e$ is an isthmus of $\Gamma_1$.

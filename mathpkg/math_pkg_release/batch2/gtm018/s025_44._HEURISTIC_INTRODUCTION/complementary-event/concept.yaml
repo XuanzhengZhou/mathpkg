@@ -1,0 +1,20 @@
+id: complementary-event
+title_en: "Complementary Event"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: foundations
+difficulty: basic
+tags: [probability, event, complement, set-theory]
+depends_on: {required: [event], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX. Probability"
+    section: "44. Heuristic Introduction"
+    pages: ""
+    role_in_book: "If E is an event, its complementary event E' occurs if and only if E does not occur; modeled as the set-theoretic complement."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

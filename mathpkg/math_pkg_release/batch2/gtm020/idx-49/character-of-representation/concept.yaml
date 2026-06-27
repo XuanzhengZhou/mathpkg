@@ -1,0 +1,23 @@
+id: character-of-representation
+title_en: "Character of a Representation"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [character, representation, trace, g-module, compact-group]
+depends_on:
+  required: [g-module, representation-ring]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "9"
+    section: "7"
+    pages: "page_0192.json–page_0198.json"
+    role_in_book: "Defines the character of a representation as the trace function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

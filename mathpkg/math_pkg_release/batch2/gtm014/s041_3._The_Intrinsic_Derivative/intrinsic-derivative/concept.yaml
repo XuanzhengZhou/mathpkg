@@ -1,0 +1,23 @@
+id: intrinsic-derivative
+title_en: "Intrinsic Derivative"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: ["intrinsic-derivative", "vector-bundle-homomorphism", "porteous", "thom-boardman", "kernel", "cokernel", "normal-space"]
+depends_on:
+  required: ["vector-bundle", "vector-bundle-homomorphism", "kernel", "cokernel"]
+  recommended: ["l-r-space", "normal-space", "trivialization"]
+  suggested: ["boardman-symbol", "thom-boardman-stratification"]
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky, Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "3"
+    pages: ""
+    role_in_book: "Core technical tool for Thom-Boardman stratification theory; a special case was introduced in Chapter II, Definition 6.5 as the Hessian"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

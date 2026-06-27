@@ -1,0 +1,23 @@
+id: fixed-ideal
+title_en: "Fixed Ideal"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: basic
+tags: [ideal, zero-set, completely-regular-space, C(X), C*(X)]
+depends_on:
+  required: []
+  recommended: [ideal, zero-set, completely-regular-space]
+  suggested: [maximal-ideal]
+source_books:
+  - book_id: "gtm043"
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4.1"
+    pages: "64"
+    role_in_book: "Foundational definition introducing the fixed/free dichotomy for ideals in rings of continuous functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

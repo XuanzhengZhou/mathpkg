@@ -1,0 +1,23 @@
+id: sentence-deduction-equivalence
+title_en: "Equivalence of Deduction Relations for Sentences (Theorem 10.85)"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: predicate-logic
+difficulty: advanced
+tags: [deduction, sentence, formal-proof, predicate-calculus, generalization, detachment]
+depends_on:
+  required: [formal-proof, generalization, detachment]
+  recommended: [deduction-theorem, logical-axiom]
+  suggested: [universal-generalization]
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.10"
+    pages: ""
+    role_in_book: "Establishes the equivalence of two deduction relations (⊢ and ⊢'') for sentences in first-order logic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

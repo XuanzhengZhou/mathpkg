@@ -1,0 +1,23 @@
+id: wstar-algebra-definition
+title_en: "A W*-algebra is a C*-algebra whose underlying normed space is a dual Banach space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: von-neumann-algebras
+difficulty: advanced
+tags: [wstar-algebra, von-neumann-algebra, dual-banach-space, predual]
+depends_on:
+  required: [cstar-algebra-definition, dual-banach-space]
+  recommended: [representation-of-cstar-algebra]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "6"
+    section: "6.0"
+    pages: ""
+    role_in_book: "Defines W*-algebras (abstract von Neumann algebras) as C*-algebras that are dual Banach spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

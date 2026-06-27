@@ -1,0 +1,23 @@
+id: braid-group-action-on-tensor-products
+title_en: "Braid Group Action on n-fold Tensor Products in Braided Monoidal Categories"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [braided-monoidal-category, braid-group, tensor-product, kan-canonical-map, coherence]
+depends_on:
+  required: []
+  recommended: [braided-monoidal-category, monoidal-category, braid-group]
+  suggested: [coherence-theorem-for-braided-monoidal-categories]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "6. Perspectives"
+    pages: ""
+    role_in_book: "States that composites of canonical maps on n-fold products in any braided monoidal category correspond bijectively to elements of the braid group B_n"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

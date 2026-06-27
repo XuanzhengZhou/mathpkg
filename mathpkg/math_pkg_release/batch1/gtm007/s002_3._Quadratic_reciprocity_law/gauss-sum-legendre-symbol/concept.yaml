@@ -1,0 +1,23 @@
+id: gauss-sum-legendre-symbol
+title_en: "Lemma 2: Gauss sum and Legendre symbol relation"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: gauss-sums
+difficulty: intermediate
+tags: [gauss-sum, legendre-symbol, quadratic-reciprocity, frobenius, characteristic-p]
+depends_on:
+  required: [legendre-symbol, gauss-sum-squared]
+  recommended: [finite-fields, frobenius-automorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "I"
+    section: "§3"
+    pages: ""
+    role_in_book: "Relates y^{p-1} to the Legendre symbol (p/l); second key lemma in the Gauss sum proof of quadratic reciprocity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

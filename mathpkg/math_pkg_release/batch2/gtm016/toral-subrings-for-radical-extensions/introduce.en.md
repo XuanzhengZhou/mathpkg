@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $K/k$ be a finite dimensional radical extension. Then the set of toral $k$-subcorings (resp. $k$-subbirings) of $H(K/k)$ is mapped bijectively to the set of $G$-stable diagonalizable toral $k$-subcorings (resp. $k$-subbirings) of $H(\bar{K}/k)$ by $T \mapsto \bar{T}$, with inverse $\bar{T} \mapsto \bar{T}^G$.

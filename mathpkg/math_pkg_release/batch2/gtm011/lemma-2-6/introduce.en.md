@@ -1,0 +1,11 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+2.6 Lemma from Conway's "Functions of One Complex Variable I."
+Let $x_0 \in X$ and let $\{D_j: j \in J\}$ be a collection of connected subsets of $X$ such that $x_0 \in D_j$ for each $j$ in $J$. Then $D = \bigcup \{D_j: j \in J\}$ is connected.
+
+Since both $C_1$ and $C_2$ are components, this gives $C_1 = C_1 \cup C_2 = C_2$, a contradiction....

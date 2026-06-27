@@ -1,0 +1,23 @@
+id: finite-matrices-associate
+title_en: "Finite Matrices with Finite Entries Associate"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: infinite-matrices
+difficulty: basic
+tags: [matrix, associativity, finite]
+depends_on:
+  required: [associativity-via-absolute-values]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "J.G. Kemeny, J.L. Snell, A.W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "1"
+    section: "1"
+    pages: "4"
+    role_in_book: "Special case: finite matrices always associate"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

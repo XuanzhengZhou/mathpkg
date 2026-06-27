@@ -1,0 +1,23 @@
+id: operator-norm
+title_en: "Operator Norm"
+title_zh: "算子范数"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [normed-space, linear-operator, operator-norm, supremum, bounded-operator]
+depends_on:
+  required: [normed-space, continuous-linear-map, bounded-set]
+  recommended: [banach-space, unit-ball]
+  suggested: [supremum]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Defines the standard norm on spaces of continuous linear operators between normed spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

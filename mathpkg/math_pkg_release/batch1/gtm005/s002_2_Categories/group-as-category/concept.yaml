@@ -1,0 +1,23 @@
+id: group-as-category
+title_en: "Group as a Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: basic
+tags: [group, inverse, one-object-category]
+depends_on:
+  required: [monoid]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "2"
+    pages: "25"
+    role_in_book: "Characterization of groups as one-object categories with inverses"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

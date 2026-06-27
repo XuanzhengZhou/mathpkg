@@ -1,0 +1,23 @@
+id: exercise-subsystem-cycle-cocycle
+title_en: "Exercise: Cycle and Cocycle Spaces of a Subsystem"
+title_zh: ""
+type: exercise
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [exercise, subsystem, cycle-space, cocycle-space, projection-map]
+depends_on:
+  required: [cycle-space, cocycle-space, subsystem]
+  recommended: [projection-map, restriction]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Graver, Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "II Algebraic Structures on Finite Sets"
+    section: "IID Cycle and Cocycle Spaces"
+    pages: "64"
+    role_in_book: "Exercise D13: prove three properties relating subsystem spaces to the ambient system"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

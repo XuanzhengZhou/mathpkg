@@ -1,0 +1,23 @@
+id: representation-ordered-lcs-normal-cone
+title_en: "Representation of Ordered Locally Convex Spaces with Normal Cone"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: ordered-topological-vector-spaces
+difficulty: advanced
+tags: [representation-theorem, normal-cone, locally-compact-space, R(X), order-isomorphism]
+depends_on:
+  required: [ordered-locally-convex-space, normal-cone, dual-cone]
+  recommended: [equicontinuous, topological-sum, locally-compact-space]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "4"
+    pages: ""
+    role_in_book: "Representation theorem: every ordered l.c.s. with normal cone embeds into R(X) for a locally compact space X"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

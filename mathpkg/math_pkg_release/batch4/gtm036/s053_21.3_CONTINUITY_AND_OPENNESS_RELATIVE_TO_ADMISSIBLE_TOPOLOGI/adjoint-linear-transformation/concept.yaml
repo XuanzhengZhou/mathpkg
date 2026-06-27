@@ -1,0 +1,23 @@
+id: adjoint-linear-transformation
+title_en: "Adjoint of a Linear Transformation"
+title_zh: "线性变换的伴随"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [adjoint, dual-transformation, locally-convex-space, weak-continuity, natural-pairing]
+depends_on:
+  required: [dual-transformation, locally-convex-space]
+  recommended: [weak-topology, weak-star-topology]
+  suggested: [continuous-linear-transformation]
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "21"
+    section: "21.3"
+    pages: ""
+    role_in_book: "Defines the adjoint T* of a continuous linear transformation T between locally convex spaces with natural pairings, as the unique dual transformation satisfying T*(h) = h \circ T"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

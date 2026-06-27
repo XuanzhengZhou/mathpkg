@@ -1,0 +1,23 @@
+id: modular-law-for-subspaces
+title_en: "Modular Law for Subspaces"
+title_zh: "子空间的模律"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [vector-space, subspace-lattice, modular-law, distributive-law, lattice-of-subspaces]
+depends_on:
+  required: [vector-space, subspace, join-of-subspaces, lattice-of-subspaces, intersection-as-greatest-lower-bound]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "II: Finite Dimensional Vector Spaces"
+    section: "9: Factor Spaces"
+    pages: "36-41"
+    role_in_book: "Weakened distributive law valid in the subspace lattice, a key modular lattice property"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

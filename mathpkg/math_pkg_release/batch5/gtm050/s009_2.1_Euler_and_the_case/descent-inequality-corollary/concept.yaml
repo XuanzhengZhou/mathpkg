@@ -1,0 +1,23 @@
+id: descent-inequality-corollary
+title_en: "Descent Inequality: α^3 β^3 γ^3 < z^3"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: diophantine-equations
+difficulty: intermediate
+tags: [infinite-descent, inequality, descent-step, cubic-fermat-equation]
+depends_on:
+  required: [second-descent-cubes]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "2"
+    section: "2.2"
+    pages: ""
+    role_in_book: "The final inequality establishing that the new solution (α,β,γ) is strictly smaller than the original, completing the infinite descent argument for the case where 3 does not divide p."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

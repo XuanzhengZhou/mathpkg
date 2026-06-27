@@ -1,0 +1,23 @@
+id: quadratic-function
+title_en: "Quadratic Function"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [quadratic-function, parallelogram-identity, bilinear-form]
+depends_on:
+  required: [parallelogram-identity, vector-space]
+  recommended: [symmetric-bilinear-function]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: ""
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "9.2"
+    pages: ""
+    role_in_book: "Defines quadratic functions via the parallelogram identity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

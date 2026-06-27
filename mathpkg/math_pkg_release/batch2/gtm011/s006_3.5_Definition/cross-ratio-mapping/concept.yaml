@@ -1,0 +1,23 @@
+id: cross-ratio-mapping
+title_en: "Existence and Uniqueness of the Cross-Ratio Mapping"
+title_zh: "交比映射的存在性与唯一性"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [cross-ratio, mobius-transformation, unique-mapping]
+depends_on:
+  required: [mobius-transformation, mobius-uniqueness-by-three-points]
+  recommended: [cross-ratio]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.5"
+    pages: "46-48"
+    role_in_book: "Constructs the unique Möbius transformation sending three given points to 1, 0, ∞"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

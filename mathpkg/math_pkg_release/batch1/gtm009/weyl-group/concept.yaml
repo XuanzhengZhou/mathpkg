@@ -1,0 +1,20 @@
+id: weyl-group
+title_en: "Weyl Group"
+title_zh: "Weyl 群"
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [weyl-group, root-system, reflection, coxeter-group, finite-group]
+depends_on: {required: [root-system-axioms], recommended: [], suggested: [coxeter-group]}
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "10"
+    section: "10.2"
+    pages: "62-63"
+    role_in_book: "Symmetry group of root system"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

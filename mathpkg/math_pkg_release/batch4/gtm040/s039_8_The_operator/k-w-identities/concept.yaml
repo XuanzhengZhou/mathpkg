@@ -1,0 +1,23 @@
+id: k-w-identities
+title_en: "(-K)W^E and W^E(-K) identities"
+title_zh: "(-K)W^E 和 W^E(-K) 恒等式"
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [k-matrix, finite-set, taboos-probability, normal-chain]
+depends_on:
+  required: [k-matrix, normal-chain, w-matrix, taboo-probability]
+  recommended: [potential-representation-via-k, equilibrium-distribution]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Connects K with taboo probabilities for finite sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

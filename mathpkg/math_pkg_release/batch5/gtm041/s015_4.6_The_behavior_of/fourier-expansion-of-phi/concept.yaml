@@ -1,0 +1,23 @@
+id: fourier-expansion-of-phi
+title_en: "Fourier Expansion of φ(τ) = Δ(qτ)/Δ(τ)"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [discriminant, Fourier-expansion, q-expansion, tau-function]
+depends_on:
+  required: []
+  recommended: [transformation-property-of-discriminant, discriminant-delta]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "4"
+    section: "4.7"
+    pages: ""
+    role_in_book: "Derives the Fourier (q-)expansion of φ, showing it is x^{q-1} times a power series with integer coefficients"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: elementary-circuit-flow-augmentation
+title_en: "Elementary circuit flow augmentation"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [network, flow, integral, circuit, augmentation, algorithm]
+depends_on: {required: [integral-flow-and-network, max-flow-min-cut-theorem, elementary-circuit], recommended: [], suggested: []}
+source_books: [{book_id: "gtm054", author: "Jack E. Graver and Mark E. Watkins", title: "Combinatorics with Emphasis on the Theory of Graphs", chapter: "IV", section: "18", pages: "", role_in_book: "Proposition D1 — in an integral network, a non-maximum flow can be augmented along an elementary circuit"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

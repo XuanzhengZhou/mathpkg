@@ -1,0 +1,1 @@
+Dini derivates generalize the ordinary derivative by replacing limits with liminf and limsup. They always exist as extended real numbers, even for nondifferentiable functions. A function is differentiable exactly when all four derivates are equal and finite.

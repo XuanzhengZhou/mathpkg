@@ -1,0 +1,13 @@
+id: category-measure-space
+title_en: "Category Measure Space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [category-measure, baire-property, first-category, measure-space, duality]
+depends_on: {required: ["measure-space", "baire-property", "first-category", "sigma-algebra"], recommended: ["regular-space", "category-measure"], suggested: ["extended-principle-of-duality"]}
+source_books: [{book_id: "gtm002", author: "John C. Oxtoby", title: "Measure and Category", chapter: "22", section: "22. Category Measure Spaces", pages: "86", role_in_book: "Central definition of the chapter; establishes the setting where measure and category coincide"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+Complex measures assign complex numbers to measurable sets, extending the concept of signed measure. The total variation is the smallest positive measure dominating the complex measure and is essential for defining the space of complex measures.

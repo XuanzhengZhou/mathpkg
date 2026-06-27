@@ -1,0 +1,23 @@
+id: first-integrals-2d-euler
+title_en: "First Integrals of Two-Dimensional Euler Equations"
+title_zh: "二维欧拉方程的第一积分"
+type: proposition
+domain: geometry
+subdomain: hydrodynamics
+difficulty: advanced
+tags: [first-integrals, euler-equations, vorticity, 2d-hydrodynamics, coadjoint-orbit]
+depends_on:
+  required: [isovorticity-same-distribution-2d, vorticity-2d]
+  recommended: [euler-equations, coadjoint-representation]
+  suggested: [noether-theorem, conservation-laws]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 2"
+    section: "Section 47"
+    pages: ""
+    role_in_book: "Proposition that 2D Euler equations have infinitely many first integrals given by moments of vorticity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

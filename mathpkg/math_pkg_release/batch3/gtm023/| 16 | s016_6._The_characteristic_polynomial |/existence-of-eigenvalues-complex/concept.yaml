@@ -1,0 +1,23 @@
+id: existence-of-eigenvalues-complex
+title_en: "Existence of Eigenvalues for Complex Linear Transformations"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [eigenvalue, complex-linear-space, fundamental-theorem-of-algebra]
+depends_on:
+  required: [characteristic-polynomial]
+  recommended: [fundamental-theorem-of-algebra]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§6. The characteristic polynomial"
+    pages: "4.20"
+    role_in_book: "Establishes that every linear transformation of a complex linear space has at least one eigenvalue"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: linear-automorphisms
+title_en: "Linear Automorphisms and the General Linear Group"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [automorphism, general-linear-group, group, composition]
+depends_on:
+  required: [linear-isomorphism, linear-transformation]
+  recommended: [group-axioms]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "2"
+    section: "§2. Operations with linear mappings, 2.12"
+    pages: ""
+    role_in_book: "Defines the group of linear automorphisms of a vector space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

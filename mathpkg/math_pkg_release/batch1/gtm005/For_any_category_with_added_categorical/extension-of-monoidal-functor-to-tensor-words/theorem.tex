@@ -1,0 +1,9 @@
+For a monoidal functor $(F, F_2, F_0) : M \to M'$, the maps $F_2$ for the product and $F_0$ for the unit can be extended to the functors defined by arbitrary tensor words $v$ in $n$ letters. For each such functor $v$ there is a natural transformation
+
+$$F_v : v(F a_1, \ldots, F a_n) \rightarrow F v(a_1, \ldots, a_n)$$
+
+natural in $a_1, \ldots, a_n$, such that $F_\square = F_2$ and $F_e = F_0$. The extension is defined inductively: for $v = v_1 \square v_2$, set
+
+$$F_{v_1 \square v_2} = F_2 \circ (F_{v_1} \square F_{v_2}).$$
+
+All diagrams in these natural transformations commute.

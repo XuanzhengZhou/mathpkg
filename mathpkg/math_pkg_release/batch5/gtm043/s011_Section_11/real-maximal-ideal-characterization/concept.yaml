@@ -1,0 +1,23 @@
+id: real-maximal-ideal-characterization
+title_en: "Characterization of Real Maximal Ideals"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [real-maximal-ideal, zero-set, countable-intersection-property, z-filter]
+depends_on:
+  required: [maximal-ideal, z-filter, zero-set]
+  recommended: [uniform-convergence, countably-compact]
+  suggested: [hyper-real-ideal]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.14"
+    pages: ""
+    role_in_book: "Central theorem: characterizes real maximal ideals in C(X) via closure under countable intersections of their zero-set families"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

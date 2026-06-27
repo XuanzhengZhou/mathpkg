@@ -1,0 +1,23 @@
+id: turing-machine-copy
+title_en: "Turing Machine T_copy — Single Block Copy"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability
+difficulty: intermediate
+tags: ["turing-machine", "tape-copy", "block-duplication"]
+depends_on:
+  required: ["turing-machine-lseek0", "turing-machine-rseek0"]
+  recommended: ["turing-machine-left", "turing-machine-right", "turing-machine-t0", "turing-machine-t1"]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "Ebbinghaus, Flum, Thomas"
+    title: "Mathematical Logic"
+    chapter: "1"
+    section: "1.X (Turing Machines)"
+    pages: ""
+    role_in_book: "Defines a Turing submachine that copies a single block of 1's."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

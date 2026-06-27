@@ -1,0 +1,23 @@
+id: topological-homomorphism
+title_en: "Topological homomorphism"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [linear-map, open-mapping, topological-homomorphism, quotient-map, embedding]
+depends_on:
+  required: []
+  recommended: [continuity-of-linear-map-at-zero, subspace-topology, quotient-topology]
+  suggested: [isomorphism-of-topological-vector-spaces]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "1"
+    pages: ""
+    role_in_book: "Definition of topological homomorphism: a continuous linear map that is open onto its image."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

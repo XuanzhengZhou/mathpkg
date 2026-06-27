@@ -1,0 +1,23 @@
+id: distance-function-connected-graph
+title_en: "Distance function on a connected graph"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-distance
+difficulty: basic
+tags: [distance, connected-graph, metric, shortest-path]
+depends_on:
+  required: [connected-graph, path]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "Chapter V"
+    section: "Section 30"
+    pages: ""
+    role_in_book: "Defines the distance function d on the vertex set of a connected graph as the minimum number of edges in a path between two vertices."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

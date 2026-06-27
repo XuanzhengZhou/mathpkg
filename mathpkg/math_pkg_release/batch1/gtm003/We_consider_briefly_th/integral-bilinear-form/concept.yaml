@@ -1,0 +1,23 @@
+id: integral-bilinear-form
+title_en: "Integral Bilinear Form"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [integral-bilinear-form, j-space, equicontinuous-convergence, tensor-product, nuclear-space]
+depends_on:
+  required: [bi-equicontinuous-convergence-topology]
+  recommended: [projective-tensor-product, injective-tensor-product]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces, Second Edition"
+    chapter: "III"
+    section: "9. Tensor Products and Nuclear Spaces"
+    pages: ""
+    role_in_book: "Defines the space of integral bilinear forms as the dual of the completed tensor product under the topology of bi-equicontinuous convergence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

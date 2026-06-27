@@ -1,0 +1,23 @@
+id: modular-group
+title_en: "Modular Group"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: basic
+tags: [modular-group, mobius-transformation, integer-matrices, determinant-one, projective-special-linear-group]
+depends_on:
+  required: [mobius-transformation, group, determinant]
+  recommended: [sl2z, projective-linear-group]
+  suggested: [upper-half-plane]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "2"
+    section: "2.2"
+    pages: ""
+    role_in_book: "Core definition — the modular group is the central group-theoretic object of the entire book"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

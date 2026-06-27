@@ -1,0 +1,23 @@
+id: implicit-function-theorem
+title_en: "Implicit Function Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: multivariable-calculus
+difficulty: intermediate
+tags: [implicit-function-theorem, C^s-differentiable, partial-derivative, rank, local-solution]
+depends_on:
+  required: [differentiable-mapping-between-manifolds, C^k-function-on-Rn]
+  recommended: [inverse-function-theorem, rank-of-differentiable-map]
+  suggested: []
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "I"
+    section: "2"
+    pages: ""
+    role_in_book: "Theorem 2.4: foundational theorem for local analysis of differentiable maps"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: countable-union-of-measure-zero-sets
+title_en: "Countable Union of Sets of Measure Zero"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [measure-zero, countable-union, sigma-ideal]
+depends_on:
+  required: [measure-zero-in-rn]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "II"
+    section: "§1. Sard's Theorem"
+    pages: "41-43"
+    role_in_book: "Lemma 1.2 — needed to show measure zero is well-defined on manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

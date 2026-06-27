@@ -1,0 +1,23 @@
+id: elementary-theory-of-an-abstract-category
+title_en: "Elementary Theory of an Abstract Category (ETAC)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [etac, axiomatic-category-theory, formal-language, atomic-statements, sentences]
+depends_on:
+  required: [category]
+  recommended: [axiom-of-category]
+  suggested: [first-order-logic]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "II. Constructions on Categories"
+    section: "1. Duality"
+    pages: "45-46"
+    role_in_book: "Defines the formal axiomatic language in which the duality principle operates, distinguishing between atomic statements and sentences"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

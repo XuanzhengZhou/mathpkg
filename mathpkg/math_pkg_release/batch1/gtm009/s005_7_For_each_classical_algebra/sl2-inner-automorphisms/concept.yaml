@@ -1,0 +1,23 @@
+id: sl2-inner-automorphisms
+title_en: "Inner Automorphisms of sl(2, F)"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [sl2, inner-automorphism, elementary-matrices, diagonal-automorphism, automorphism-group]
+depends_on:
+  required: [special-linear-lie-algebra-sl2, inner-automorphism, automorphism-of-lie-algebra]
+  recommended: [weyl-group, exp-nilpotent-derivation]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "16"
+    section: "16.Exercises"
+    pages: "91-101"
+    role_in_book: "Exercise computing explicit inner automorphisms of sl(2,F) and proving all diagonal automorphisms are inner"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

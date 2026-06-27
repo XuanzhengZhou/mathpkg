@@ -1,0 +1,23 @@
+id: exponential-sequence
+title_en: "Exponential Sequence of Sheaves"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: complex-analytic-geometry
+difficulty: advanced
+tags: [exponential-sequence, cohomology, picard-group, neron-severi]
+depends_on:
+  required: [sheaf-cohomology, complex-analytic-space]
+  recommended: [exponential-function]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix B"
+    section: "5"
+    pages: "446-447"
+    role_in_book: "The exponential sequence provides the link between topology, analytic geometry, and the Picard group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: comparison-theorem-for-kleisli-construction
+title_en: "Comparison Theorem for the Kleisli Construction"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [monad, kleisli-category, adjunction, comparison-functor, mac-lane]
+depends_on:
+  required: [monad, kleisli-category-of-a-monad, adjunction]
+  recommended: [eilenberg-moore-category]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "5. Free Algebras for a Monad"
+    pages: ""
+    role_in_book: "Establishes the Kleisli category as the initial resolution of a monad via a unique comparison functor"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

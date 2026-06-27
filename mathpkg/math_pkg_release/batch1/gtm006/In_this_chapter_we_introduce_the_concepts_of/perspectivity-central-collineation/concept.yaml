@@ -1,0 +1,30 @@
+id: perspectivity-central-collineation
+title_en: (V,l)-Perspectivity (Central Collineation)
+title_zh: ''
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags:
+- perspectivity
+- central-collineation
+- elation
+- homology
+depends_on:
+  required:
+  - collineation-of-projective-plane
+  recommended:
+  - quasiperspectivity
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '5'
+  pages: ''
+  role_in_book: Introduces the most important class of collineations for projective
+    plane theory
+content_hash: 6d032f90fe2b
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

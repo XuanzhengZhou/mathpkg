@@ -1,0 +1,23 @@
+id: phragmen-lindelof-sub-exponential-growth
+title_en: "Phragmén-Lindelöf Theorem with Sub-Exponential Growth"
+title_zh: "亚指数增长的 Phragmén-Lindelöf 定理"
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [phragmen-lindelof, angular-sector, sub-exponential-growth, maximum-principle]
+depends_on:
+  required: [phragmen-lindelof-angular-sector]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VI"
+    section: "§4"
+    pages: ""
+    role_in_book: "Sharpens Corollary 4.2: even when |f(z)| grows like exp(δ|z|^a) for arbitrarily small δ > 0 (sub-exponential relative to |z|^a), the bound |f(z)| ≤ M still holds."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

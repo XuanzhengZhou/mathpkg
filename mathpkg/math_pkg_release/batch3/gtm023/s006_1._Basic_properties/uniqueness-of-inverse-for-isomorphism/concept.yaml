@@ -1,0 +1,23 @@
+id: uniqueness-of-inverse-for-isomorphism
+title_en: "Uniqueness of Inverse for Linear Isomorphisms"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [linear-isomorphism, inverse, uniqueness]
+depends_on:
+  required: [linear-isomorphism, left-right-inverses]
+  recommended: [surjectivity-injectivity-one-sided-inverses]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "2"
+    section: "§2. Operations with linear mappings, 2.11"
+    pages: ""
+    role_in_book: "Establishes uniqueness of two-sided inverse for linear isomorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

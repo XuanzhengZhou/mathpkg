@@ -1,0 +1,23 @@
+id: projective-coordinate-system
+title_en: "Projective Coordinate System"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [projective-geometry, coordinate-system, projectivity, simplex-of-reference]
+depends_on:
+  required: [projectivity]
+  recommended: [projective-geometry, frame-of-reference]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "Gruenberg, K.W.; Weir, A.J."
+    title: "Linear Geometry"
+    chapter: "3"
+    section: "3.1 Affinities"
+    pages: ""
+    role_in_book: "Definition of projective (homogeneous) coordinate systems via projectivities onto P(F^{n+1})"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

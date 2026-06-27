@@ -1,0 +1,20 @@
+id: ratio-approximation-for-hitting-events
+title_en: "Ratio Approximation for Conditional Hitting Events"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [ratio-approximation, hitting-event, conditional-probability]
+depends_on: {required:[], recommended:[conditional-expectation-estimate-for-paths], suggested:[]}
+source_books:
+  - book_id: "gtm034"
+    author: "Frank Spitzer"
+    title: "Principles of Random Walk"
+    chapter: "VI"
+    section: "32"
+    pages: "387-388"
+    role_in_book: "Constructs approximating quantity $q_n$ with $|q_n/F_n-1| \leq \epsilon_1$, a key step in proving T2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

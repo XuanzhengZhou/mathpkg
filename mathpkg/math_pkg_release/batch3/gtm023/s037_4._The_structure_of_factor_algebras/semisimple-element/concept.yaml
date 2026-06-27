@@ -1,0 +1,23 @@
+id: semisimple-element
+title_en: "Semisimple element"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [semisimple, minimum-polynomial, relatively-prime, finite-dimensional-algebra]
+depends_on:
+  required: [minimum-polynomial, relatively-prime, finite-dimensional-algebra]
+  recommended: [irreducible-polynomial, polynomial-algebra]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "12"
+    section: "4. The structure of factor algebras"
+    pages: "388-389"
+    role_in_book: "Defines a semisimple element in a finite-dimensional commutative associative algebra as one whose minimum polynomial factors into relatively prime irreducible polynomials"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

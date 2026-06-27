@@ -1,0 +1,23 @@
+id: invariant-measure-subgroup-closed
+title_en: "Theorem G: Closedness of the subgroup preserving Baire measure under translations"
+title_zh: "定理G: 保持Baire测度平移不变子群的闭性"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [baire-measure, locally-compact-group, topological-group, closed-subgroup, translation-invariance]
+depends_on:
+  required: [baire-measure, locally-compact-group, topological-group]
+  recommended: [regularity-of-baire-measure]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "XII"
+    section: "62"
+    pages: "274"
+    role_in_book: "Auxiliary result: the subgroup of elements preserving a Baire measure under translation is closed"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

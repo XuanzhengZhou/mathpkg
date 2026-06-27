@@ -1,0 +1,23 @@
+id: nilpotent-and-semisimple-implies-zero
+title_en: "Simultaneously Nilpotent and Semisimple Implies Zero"
+title_zh: "同时幂零和半单则必为零"
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [polynomial-of-semisimple-is-nilpotent-iff-zero, nilpotent-transformation, semisimple-transformation]
+  recommended: [zero-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "6"
+    pages: ""
+    role_in_book: "If φ is simultaneously nilpotent and semisimple, then φ = 0"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

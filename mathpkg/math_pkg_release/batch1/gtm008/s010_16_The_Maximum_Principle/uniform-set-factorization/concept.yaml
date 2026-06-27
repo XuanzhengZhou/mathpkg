@@ -1,0 +1,23 @@
+id: uniform-set-factorization
+title_en: "Factorization of Uniform Sets into Boolean Scalar and Definite Set"
+title_zh: "一致集分解为布尔标量与确定集"
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: intermediate
+tags: [boolean-valued-universe, uniform-set, factorization, definite-set]
+depends_on:
+  required: [uniform-set-has-maximum, definite-set, supremum-of-boolean-valued-set]
+  recommended: [uniform-set-partition-of-unity]
+  suggested: [boolean-valued-factorization]
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: ""
+    role_in_book: "Every uniform Boolean-valued set can be written as b·v where b = sup(u) and v is definite and uniform, with v's domain being the elements of maximum membership."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

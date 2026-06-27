@@ -1,0 +1,11 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+$A_1B_1 + A_2B_3 = C_1$
+$A_1B_2 + A_2B_4 = C_2$
+$A_3B_1 + A_4B_3 = C_3$
+$A_3B_2 + A_4B_4 = C_4$.

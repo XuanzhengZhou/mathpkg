@@ -1,0 +1,30 @@
+id: theorem-4-29-baer-transitive-desarguesian
+title_en: 'Theorem 4.29 (Baer): Transitivity Equivalent to Desarguesian'
+title_zh: ''
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags:
+- baer
+- transitivity
+- desargues
+- perspectivity
+depends_on:
+  required:
+  - v-l-desarguesian
+  - perspectivity-central-collineation
+  recommended:
+  - lemma-4-18-transitivity-characterization
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '7'
+  pages: ''
+  role_in_book: Fundamental equivalence between geometric and algebraic transitivity
+content_hash: e8f83e5acd72
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

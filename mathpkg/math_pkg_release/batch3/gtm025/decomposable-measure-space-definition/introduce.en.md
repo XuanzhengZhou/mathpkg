@@ -1,0 +1,1 @@
+Decomposability is a technical condition ensuring the duality $L^1 \cong L^{\infty}$. Many important measure spaces (including all $\sigma$-finite spaces and locally compact groups with Haar measure) are decomposable.

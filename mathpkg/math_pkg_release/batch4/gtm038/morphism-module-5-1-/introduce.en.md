@@ -1,0 +1,12 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Theorem 5.1. is a key result in the theory of several complex variables. It appears in Chapter VII of Grauert and Fritzsche's textbook (GTM038).
+
+This theorem contributes to the understanding of real methods, providing essential machinery for working with functions of several complex variables.
+
+For further reading, see Grauert and Fritzsche, Several Complex Variables, GTM 38, Springer-Verlag, 1976.

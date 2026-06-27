@@ -1,0 +1,1 @@
+The Hahn decomposition separates the space into a positive set and a negative set. The positive variation, negative variation, and total variation decompose any signed measure into the difference of two ordinary measures.

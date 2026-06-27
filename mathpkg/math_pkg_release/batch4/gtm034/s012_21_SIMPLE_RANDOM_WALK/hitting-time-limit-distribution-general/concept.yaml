@@ -1,0 +1,13 @@
+id: hitting-time-limit-distribution-general
+title_en: "Limit Distribution of the Exit Time for General Random Walk"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [exit-time, limit-distribution, scaling-limit, moment-method, universality]
+depends_on: {required: [shifted-interval-hitting-time, iterated-green-function-limit], recommended: [moment-problem, laplace-transform], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "23", pages: "", role_in_book: "Proves the universal limit distribution of the exit time for all mean-zero finite-variance random walks"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

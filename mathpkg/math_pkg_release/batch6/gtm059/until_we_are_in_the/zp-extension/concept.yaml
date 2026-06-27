@@ -1,0 +1,23 @@
+id: zp-extension
+title_en: "Z_p-Extension"
+title_zh: "Z_p-扩张"
+type: definition
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: intermediate
+tags: [zp-extension, galois-group, p-adic-integers, number-field, iwasawa-theory]
+depends_on:
+  required: []
+  recommended: [galois-extension, p-adic-numbers, inverse-limit]
+  suggested: [profinite-group, cyclotomic-extension]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "Iwasawa Theory and Ideal Class Groups"
+    pages: ""
+    role_in_book: "Defines the fundamental object of Iwasawa theory: a Galois extension with Galois group isomorphic to the additive group of p-adic integers."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: countably-compact-implies-pseudocompact
+title_en: "Every countably compact space is pseudocompact"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: compactness-properties
+difficulty: intermediate
+tags: [countably-compact, pseudocompact, bounded-functions, finite-subcover]
+depends_on:
+  required: [pseudocompact-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.4"
+    pages: ""
+    role_in_book: "Relates countably compact to pseudocompact, a key implication in the theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

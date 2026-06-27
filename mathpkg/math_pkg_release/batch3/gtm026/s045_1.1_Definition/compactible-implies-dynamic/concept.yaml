@@ -1,0 +1,23 @@
+id: compactible-implies-dynamic
+title_en: "Every compactible monoid is dynamic"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: universal-algebra
+difficulty: advanced
+tags: [compactible-monoid, dynamic-monoid, coalescent-ideal, zorns-lemma, idempotent]
+depends_on:
+  required: [coalescent-ideal-dynamic-monoid, compactible-theory, idempotent-closed-subsemigroup]
+  recommended: [zorns-lemma, compact-hausdorff]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "4"
+    section: "1"
+    pages: ""
+    role_in_book: "Theorem 1.16; proves that compactness implies the dynamical property"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

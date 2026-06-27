@@ -1,0 +1,1 @@
+Irreducible elements cannot be factored nontrivially, while prime elements satisfy the defining property of primes in integers. In UFDs these notions coincide, but in general integral domains they may differ.

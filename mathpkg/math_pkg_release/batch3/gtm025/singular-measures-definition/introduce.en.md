@@ -1,0 +1,1 @@
+Singular measures live on disjoint sets. The Lebesgue decomposition theorem states that any measure can be uniquely decomposed into an absolutely continuous part and a singular part with respect to a reference measure.

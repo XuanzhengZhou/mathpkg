@@ -1,0 +1,23 @@
+id: combinatorial-3-manifold
+title_en: "Combinatorial 3-manifold"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [combinatorial-manifold, 3-manifold, triangulation, star-of-vertex, combinatorial-equivalence]
+depends_on:
+  required: [triangulated-n-manifold, combinatorial-equivalence, star-of-vertex]
+  recommended: [boundary-complex-of-triangulated-3-manifold]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: ""
+    section: "23"
+    pages: ""
+    role_in_book: "Defines combinatorial 3-manifolds as triangulated 3-manifolds where each vertex star is combinatorially equivalent to a 3-simplex."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: definition-of-monad
+title_en: "Definition of a Monad in a Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [monad, endofunctor, natural-transformation, unit, multiplication, associative-law]
+depends_on:
+  required: []
+  recommended: [definition-of-functor, definition-of-natural-transformation, definition-of-horizontal-composition]
+  suggested: [definition-of-monoid]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "1. Monads in a Category"
+    pages: "137-138"
+    role_in_book: "Fundamental definition introducing monads as monoids in the category of endofunctors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

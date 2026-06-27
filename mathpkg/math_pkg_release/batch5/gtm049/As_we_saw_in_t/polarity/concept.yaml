@@ -1,0 +1,23 @@
+id: polarity
+title_en: "Polarity"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [polarity, correlation, symmetric-bilinear-form, projective-geometry]
+depends_on:
+  required: [correlation, symmetric-bilinear-form]
+  recommended: [projective-space]
+  suggested: []
+source_books:
+  - book_id: gtm049
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "5.5"
+    pages: "109"
+    role_in_book: "Defines a polarity as a correlation coming from a symmetric bilinear form"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

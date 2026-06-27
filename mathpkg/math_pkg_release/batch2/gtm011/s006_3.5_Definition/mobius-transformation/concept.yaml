@@ -1,0 +1,23 @@
+id: mobius-transformation
+title_en: "Möbius Transformation"
+title_zh: "莫比乌斯变换"
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [linear-fractional-transformation, conformal-mapping, automorphism, riemann-sphere]
+depends_on:
+  required: [linear-fractional-transformation]
+  recommended: [complex-numbers, riemann-sphere]
+  suggested: [group-theory, conformal-mapping]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.5"
+    pages: "46-48"
+    role_in_book: "Core definition for the automorphism group of the Riemann sphere"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

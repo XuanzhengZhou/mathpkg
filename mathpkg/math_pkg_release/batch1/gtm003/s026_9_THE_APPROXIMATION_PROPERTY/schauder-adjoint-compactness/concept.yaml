@@ -1,0 +1,23 @@
+id: schauder-adjoint-compactness
+title_en: "Schauder's Theorem on Compactness of Adjoint Maps"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [schauder, compact-operator, adjoint-operator, normed-space, banach-space]
+depends_on:
+  required: []
+  recommended: [compact-linear-map, adjoint-operator, hahn-banach-theorem, alaoglu-theorem]
+  suggested: [banach-space]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "Chapter III"
+    section: "9. The Approximation Property. Compact Maps"
+    pages: ""
+    role_in_book: "Theorem 9.4 (Schauder): u is compact iff its adjoint u' is compact"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

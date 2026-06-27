@@ -1,0 +1,20 @@
+\begin{enumerate}
+\item[(i)] For $m \in \omega \sim 1$ we define an $m$-ary operation $\text{Con}_m$ on $\omega$ by induction on $m$. For any $x, y_0, \ldots, y_m \in \omega$,
+
+$$\text{Con}_1 x = x,$$
+$$\text{Con}_{m+1} (y_0, \ldots, y_m) = \text{Cat} (\text{Con}_m (y_0, \ldots, y_{m-1}), y_m).$$
+
+Also, we define $\text{Con}'$ by primitive recursion. For any $x, y \in \omega$,
+
+$$\text{Con}' (x, 0) = (x)_0,$$
+$$\text{Con}' (x, y+1) = \text{Cat} (\text{Con}' (x, y), (x)_{y+1}).$$
+
+Finally, we set $\text{Con}'' x = \text{Con}' (x, \text{lh } x)$ for any $x \in \omega$.
+
+\item[(ii)] $\text{Trm } \mathcal{L}$, the collection of \textit{terms} of $\mathcal{L}$, is the intersection of all classes $\Gamma$ of expressions such that the following conditions hold:
+
+\begin{enumerate}
+\item[(1)] $\langle v_m \rangle \in \Gamma$ for each $m \in \omega$;
+\item[(2)] if $\mathbf{O} \in \text{Dmn } \mathcal{O}$, say with $\mathcal{O}\mathbf{O} = m$, and if $\psi_0, \ldots, \psi_{m-1} \in \Gamma$, then $\langle \mathbf{O} \rangle \psi_0 \cdots \psi_{m-1} \in \Gamma$.
+\end{enumerate}
+\end{enumerate}

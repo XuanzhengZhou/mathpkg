@@ -1,0 +1,23 @@
+id: local-diffeomorphism-extension
+title_en: "Proposition 5.5: Extension of Local Diffeomorphism with Positive Jacobian"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-topology
+difficulty: advanced
+tags: [local-diffeomorphism, positive-determinant, bump-function, global-extension]
+depends_on:
+  required: [immersion-diffeomorphic-outside-compact, gl-connected-component-positive-determinant]
+  recommended: [inverse-function-theorem, taylors-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "5"
+    pages: "132-133"
+    role_in_book: "Key technical result: any local diffeomorphism near 0 with positive Jacobian can be extended to a global diffeomorphism equal to the identity outside a compact set."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

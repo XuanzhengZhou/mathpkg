@@ -1,0 +1,23 @@
+id: minimal-function-lifts-from-projection
+title_en: "A11: Minimal Function Lifts from Projection"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: algebraic-combinatorics
+difficulty: intermediate
+tags: [minimal-function, projection, subspace, lift]
+depends_on:
+  required: [m-decomposition-theorem, minimal-function-scalar-multiple, projection-pi-y]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm054
+  author: "Jack E. Graver, Mark E. Watkins"
+  title: "Combinatorics with Emphasis on the Theory of Graphs"
+  chapter: "IV"
+  section: "15"
+  pages: ""
+  role_in_book: "Every minimal function of a projected subspace lifts to a minimal function of the original subspace"
+content_hash: "b1c2d3e4f5a6"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

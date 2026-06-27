@@ -1,0 +1,23 @@
+id: algebraically-closed-difference-field
+title_en: "Algebraically Closed Difference Field"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [difference-fields, acfa, model-theory, existentially-closed]
+depends_on:
+  required: [difference-field]
+  recommended: [quantifier-free-formula, field-extension]
+  suggested: [acfa-simple-hrushovski]
+source_books:
+  - book_id: "gtm053"
+    author: "Yuri Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "5"
+    section: "5.9"
+    pages: ""
+    role_in_book: "defines the models of ACFA"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

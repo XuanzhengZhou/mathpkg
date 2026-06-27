@@ -1,0 +1,13 @@
+id: moment-convergence-criterion-hitting-time
+title_en: "Moment Convergence Criterion for the Exit Time"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: intermediate
+tags: [moment-convergence, exit-time, limit-distribution, method-of-moments]
+depends_on: {required: [limit-distribution-moments-uniqueness], recommended: [weak-convergence], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "23", pages: "", role_in_book: "Reduces the proof of T2 to showing that the moments of the scaled exit time converge to m_p"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

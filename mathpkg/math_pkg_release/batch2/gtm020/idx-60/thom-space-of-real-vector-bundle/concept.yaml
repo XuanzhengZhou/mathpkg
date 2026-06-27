@@ -1,0 +1,23 @@
+id: thom-space-of-real-vector-bundle
+title_en: "Thom space of a real vector bundle"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: [thom-space, vector-bundle, quotient-space, disc-bundle, sphere-bundle]
+depends_on:
+  required: [real-vector-bundle, disc-bundle, sphere-bundle, quotient-topology]
+  recommended: [riemannian-metric-on-vector-bundle]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "1"
+    pages: "page_0232.json–page_0233.json"
+    role_in_book: "Core definition of the Thom space, used throughout the Thom isomorphism theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

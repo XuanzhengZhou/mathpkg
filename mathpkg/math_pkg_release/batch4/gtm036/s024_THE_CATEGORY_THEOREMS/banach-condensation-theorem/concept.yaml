@@ -1,0 +1,23 @@
+id: banach-condensation-theorem
+title_en: "Banach Condensation Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: baire-category
+difficulty: intermediate
+tags: [banach, condensation, first-category, nowhere-dense, maximal-family, open-sets]
+depends_on:
+  required: [first-category-set, nowhere-dense-set]
+  recommended: [second-category-set, topological-space]
+  suggested: [baire-category-theorem]
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "3"
+    section: "9"
+    pages: ""
+    role_in_book: "One of the three primary tools for category in topological spaces; from the fact that a set A is of the second category, it is inferred that there is a non-void open set of points at which A is of the second category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

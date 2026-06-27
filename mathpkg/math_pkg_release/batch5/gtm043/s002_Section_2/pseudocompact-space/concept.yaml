@@ -1,0 +1,23 @@
+id: pseudocompact-space
+title_en: "Pseudocompact space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: pseudocompactness
+difficulty: intermediate
+tags: [pseudocompact, bounded-functions, compactness, cstar]
+depends_on:
+  required: [bounded-continuous-functions-cstar, ring-of-continuous-functions-cx]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.4"
+    pages: ""
+    role_in_book: "Key topological property characterized by the function ring C*(X)=C(X)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

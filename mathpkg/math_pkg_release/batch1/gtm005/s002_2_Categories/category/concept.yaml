@@ -1,0 +1,23 @@
+id: category
+title_en: "Category"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category, identity, composition, associativity, unit-axioms]
+depends_on:
+  required: [directed-graph, composable-pairs]
+  recommended: []
+  suggested: [metacategory, category-axioms]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "2"
+    pages: "24-25"
+    role_in_book: "Central definition of the entire text"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

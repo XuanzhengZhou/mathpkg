@@ -1,0 +1,23 @@
+id: mols-maximum-bound
+title_en: "Maximum Number of Mutually Orthogonal Latin Squares (Property 2)"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: latin-squares
+difficulty: intermediate
+tags: [mols, bound, combinatorial-design, latin-square]
+depends_on:
+  required: [latin-square, orthogonal-latin-squares]
+  recommended: [equivalent-latin-squares]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D. R. Hughes, F. C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "5"
+    pages: "132-137"
+    role_in_book: "Property 2: At most n-1 pairwise orthogonal n×n Latin squares exist"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

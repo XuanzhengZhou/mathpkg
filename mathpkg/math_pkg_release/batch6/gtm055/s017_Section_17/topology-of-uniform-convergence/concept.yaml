@@ -1,0 +1,23 @@
+id: topology-of-uniform-convergence
+title_en: "Topology of Uniform Convergence (Polar Topology)"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [uniform-convergence, polar-topology, dual-pair, pseudonorm, bounded-set]
+depends_on:
+  required: [dual-pair, polar-and-pre-polar, absorbs-and-bounded-set]
+  recommended: [pseudonorm, minkowski-functional]
+  suggested: [weak-topology, locally-convex-topology]
+source_books:
+  - book_id: "gtm055"
+    author: "Arlen Brown, Carl Pearcy"
+    title: "Introduction to Operator Theory I"
+    chapter: "16"
+    section: "16.4"
+    pages: ""
+    role_in_book: "Defines polar topologies — unified framework for weak, strong, and norm topologies"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

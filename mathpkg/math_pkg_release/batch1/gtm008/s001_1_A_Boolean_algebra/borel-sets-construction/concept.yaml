@@ -1,0 +1,31 @@
+id: borel-sets-construction
+title_en: "Borel Sets via Transfinite Induction"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: descriptive-set-theory
+difficulty: advanced
+tags:
+  - borel-sets
+  - transfinite-induction
+  - sigma-algebra
+  - topological-space
+  - aleph-one
+depends_on:
+  required:
+    - boolean-sigma-algebra
+    - topological-space
+  recommended:
+    - ordinal-arithmetic
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "3"
+    section: "1"
+    pages: ""
+    role_in_book: "Constructs the σ-algebra of Borel sets via a transfinite hierarchy of length ℵ₁"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

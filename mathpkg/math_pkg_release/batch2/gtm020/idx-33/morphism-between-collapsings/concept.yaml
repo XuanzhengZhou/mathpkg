@@ -1,0 +1,23 @@
+id: morphism-between-collapsings
+title_en: "Induced Morphism Between Collapsings"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: k-theory
+difficulty: intermediate
+tags: [vector-bundle, collapsing, morphism, functoriality, relative-k-theory]
+depends_on:
+  required: [collapsing-of-vector-bundle-with-trivialization]
+  recommended: [vector-bundle-morphism, existence-and-uniqueness-of-collapsing]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "10. Relative K-Theory"
+    section: "1. Collapsing of Trivialized Bundles"
+    pages: "136-138"
+    role_in_book: "Proposition 1.4: Establishes the functoriality of the collapsing construction — a morphism of bundles with trivializations induces a unique morphism between the corresponding collapsings, and isomorphisms induce isomorphisms."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

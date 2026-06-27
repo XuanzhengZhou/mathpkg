@@ -1,0 +1,23 @@
+id: limit-group-structure-via-forgetful-functor
+title_en: "Limit Group Structure via Forgetful Functor"
+title_zh: "通过遗忘函子构造极限群结构"
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [category, limit, group, forgetful-functor, set]
+depends_on:
+  required: [completeness-of-set, limit, forgetful-functor]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "1"
+    pages: ""
+    role_in_book: "Theorem 2 — shows that the forgetful functor Grp→Set lifts limits by endowing the limit set with a unique group structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

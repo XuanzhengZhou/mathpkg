@@ -1,0 +1,23 @@
+id: linearized-einstein-obedience
+title_en: "Obedience to the Linearized Vacuum Einstein Equation"
+title_zh: "服从线性化真空爱因斯坦方程"
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: advanced
+tags: [einstein-equation, linearization, perturbation-theory, symmetric-tensor-field]
+depends_on:
+  required: [linearized-vacuum-einstein-equation, symmetric-tensor-field, covariant-derivative]
+  recommended: [ricci-flat-spacetime, perturbation-theory]
+  suggested: [gravitational-waves, initial-value-problem]
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs and Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "8"
+    section: "8.5.2"
+    pages: ""
+    role_in_book: "Definition: when a symmetric (0,2)-tensor field obeys the linearized vacuum Einstein equation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $K/k$ be an algebraic function field and let $p > 1$. Then for any $p$-basis $S$ of $K/k$, the number of elements $|S|$ of $S$ is the dimension $\operatorname{Der}_k K : K$ of $\operatorname{Der}_k K$ over $K$.

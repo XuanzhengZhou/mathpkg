@@ -1,0 +1,1 @@
+The ring of convergent power series satisfies Hensel's lemma: a factorization of a polynomial at the origin can be uniquely lifted to a factorization over the ring. This is a fundamental algebraic property of $H_n$.

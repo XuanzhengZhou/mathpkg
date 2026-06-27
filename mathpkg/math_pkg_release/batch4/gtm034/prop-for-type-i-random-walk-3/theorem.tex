@@ -1,0 +1,25 @@
+For type I random walk
+
+$$\lim_{|x| \to \infty} [a(x + y) - a(x)] = 0, \quad y \in R.$$
+
+Proof: It clearly suffices to prove P8 for the particular value of $y = 1$. But in view of the identity preceding P7 it is enough to show that both limits in P7 exist and are equal to $\mu$. That will be done with the aid of T18.1, which is not really essential, and of the renewal theorem in the form of P24.7, which is essential. By T18.1, since $\sigma^2 = \infty$, we know that at least one of the ladder random variables $Z$ and $-\bar{Z}$ (defined in D18.1) has infinite expectation. We shall assume that $E[Z] = +\infty$, and complete the proof only in this case. Consideration of the reversed random walk would then automatically take care of those random walks with $E[Z] < \infty$ but $E[-\bar{Z}] = \infty$.
+
+We use the notation of D24.1, just as in the proof of P28.6, with the trivial modification that $A = [x \mid x \geq 0
+
+Hence
+
+$$\lim_{x \to -\infty} H(x) \geq \lim_{x \to +\infty} H(x).$$
+
+When this information is combined with P7 we get
+
+$$\lim_{x \to -\infty} H(x) = \mu = \lim_{x \to +\infty} H(x); \quad \lim_{x \to +\infty} H(x) \geq \mu.$$
+
+Now there are two possibilities. Possibly $E[-\bar{Z}] = \infty$, in which case the present argument may be repeated for the right half-line to show that
+
+$$\lim_{x \to -\infty} H(x) = \lim_{x \to +\infty} H(x) = \mu.$$
+
+The other possibility is that $E[-\bar{Z}] < \infty$. But in this case one can also employ the renewal theorem, in fact just as we did in the proof of P28.6, to conclude that
+
+$$\lim_{x \to +\infty} H(x) \text{ exists.}$$
+
+Finally, this limit cannot exist unless it is equal to the limit inferior which we just showed to be $\mu$. That completes the proof of P8.

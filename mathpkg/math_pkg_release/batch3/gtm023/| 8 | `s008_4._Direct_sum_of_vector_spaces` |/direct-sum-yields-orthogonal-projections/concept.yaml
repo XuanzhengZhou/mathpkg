@@ -1,0 +1,23 @@
+id: direct-sum-yields-orthogonal-projections
+title_en: "Direct Sum Decomposition Yields Orthogonal Projection Operators"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [projection-operator, direct-sum, canonical-injection, canonical-projection, orthogonal-projections]
+depends_on:
+  required: [direct-sum-internal, projection-operator, canonical-injection, canonical-projection]
+  recommended: [orthogonal-projections-direct-sum]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "2"
+    section: "4"
+    pages: "76"
+    role_in_book: "Converse of Proposition III: Direct sum decompositions correspond to orthogonal projection families"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

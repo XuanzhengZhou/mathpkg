@@ -1,0 +1,23 @@
+id: pseudo-norm-definition
+title_en: "Pseudo-Norm on a Linear Space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: normed-spaces
+difficulty: basic
+tags: [pseudo-norm, seminorm, pseudo-normable, vector-topology, Minkowski-functional]
+depends_on:
+  required: [linear-space, norm-definition]
+  recommended: [pseudo-metric, quotient-space]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "Kelley, J. L.; Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "2"
+    section: "6 (Normability, Metrizability, and Embedding; Local Convexity)"
+    pages: ""
+    role_in_book: "Defines pseudo-norm as a norm without the Hausdorff separation condition, characterizing pseudo-normable spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

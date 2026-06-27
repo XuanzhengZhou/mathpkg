@@ -1,0 +1,23 @@
+id: polynomial-pencil-nonvanishing
+title_en: "Existence of a parameter making the pencil of two symmetric bilinear functions non-degenerate"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [symmetric-bilinear-form, polynomial-pencil, determinant, nondegenerate, pencil]
+depends_on:
+  required: []
+  recommended: [determinant-function, symmetric-bilinear-form]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "3. Pairs of symmetric bilinear functions"
+    pages: ""
+    role_in_book: "Reduces the degenerate case to the non-degenerate case for the pencil"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

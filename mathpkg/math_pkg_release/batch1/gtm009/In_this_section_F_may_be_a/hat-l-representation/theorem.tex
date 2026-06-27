@@ -1,0 +1,10 @@
+Let $\hat{L}$ be the free Lie algebra on generators $\{\hat{x}_i, \hat{y}_i, \hat{h}_i \mid 1 \leq i \leq \ell\}$ over a field $F$ of characteristic $0$. Let $V$ be the tensor algebra (free associative algebra) on a vector space with basis $(v_1, \ldots, v_\ell)$. Define endomorphisms of $V$ by:
+\begin{align*}
+\hat{h}_j.1 &= 0,\\
+\hat{h}_j.v_{i_1} \cdots v_{i_t} &= -(c_{i_1 j} + \cdots + c_{i_t j}) v_{i_1} \cdots v_{i_t},\\
+\hat{y}_j.1 &= v_j,\\
+\hat{y}_j.v_{i_1} \cdots v_{i_t} &= v_j v_{i_1} \cdots v_{i_t},\\
+\hat{x}_j.1 &= 0 = \hat{x}_j.v_i,\\
+\hat{x}_j.v_{i_1} \cdots v_{i_t} &= v_{i_1}(\hat{x}_j.v_{i_2} \cdots v_{i_t}) - \delta_{i_1 j}(c_{i_2 j} + \cdots + c_{i_t j}) v_{i_2} \cdots v_{i_t}.
+\end{align*}
+Then there exists a unique representation $\hat{\phi}: \hat{L} \to \mathfrak{gl}(V)$ extending this action. Moreover, $\sum F \hat{h}_j \cap \operatorname{Ker} \hat{\phi} = 0$, so the Cartan subalgebra acts faithfully.

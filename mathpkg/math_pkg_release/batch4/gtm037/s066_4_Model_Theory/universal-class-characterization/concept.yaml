@@ -1,0 +1,23 @@
+id: universal-class-characterization
+title_en: "Characterization of Universal Classes"
+title_zh: "泛类的刻画"
+type: corollary
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [universal-class, substructure-closure, axiomatizability]
+depends_on:
+  required: [los-theorem]
+  recommended: [universal-class]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "25"
+    section: "4"
+    pages: ""
+    role_in_book: "Corollary 25.9: A class K is universal iff SK = K and K = Mod Γ for some set Γ of sentences"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,7 @@
+A \textbf{(strict) morphism of monoidal categories}
+$$T : \langle B, \square, e, \alpha, \lambda, \varrho \rangle \to \langle B', \square', e', \alpha', \lambda', \varrho' \rangle$$
+is a functor $T : B \to B'$ such that for all $a, b, c, f$, and $g$,
+$$T(a \square b) = Ta \square' Tb, \quad T(f \square g) = Tf \square' Tg, \quad Te = e',$$
+$$T\alpha_{a,b,c} = \alpha'_{Ta,Tb,Tc}, \quad T\lambda_a = \lambda'_{Ta}, \quad T\varrho_a = \varrho'_{Ta}.$$
+
+The category $\mathbf{Moncat}$ of all small monoidal categories has strict morphisms as arrows. For strict monoidal categories, the conditions on $\alpha$, $\lambda$, and $\varrho$ are omitted from the definition.

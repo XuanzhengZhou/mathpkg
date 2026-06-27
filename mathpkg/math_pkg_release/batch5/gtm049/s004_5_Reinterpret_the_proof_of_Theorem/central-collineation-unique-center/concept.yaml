@@ -1,0 +1,23 @@
+id: central-collineation-unique-center
+title_en: "Central Collineation has Unique Center"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [central-collineation, center, axis, projective-transformation, invariant-points]
+depends_on:
+  required: [projective-isomorphism-restriction-to-line]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "Gruenberg, K. W. and Weir, A. J."
+    title: "Linear Geometry"
+    chapter: "3"
+    section: "3.7"
+    pages: ""
+    role_in_book: "Establishes that a non-identity central collineation has exactly one center"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

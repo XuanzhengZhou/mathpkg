@@ -1,0 +1,23 @@
+id: genus-via-normalization
+title_en: "Genus Formula via Normalization"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [arithmetic-genus, normalization, curve-singularities, multiplicity, resolution-of-singularities]
+depends_on:
+  required: [arithmetic-genus, normalization, multiplicity]
+  recommended: [blowing-up, monoidal-transformation, strict-transform]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "3"
+    pages: "409-420"
+    role_in_book: "Example 3.9.2; expresses the genus of the normalization in terms of arithmetic genus and multiplicities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

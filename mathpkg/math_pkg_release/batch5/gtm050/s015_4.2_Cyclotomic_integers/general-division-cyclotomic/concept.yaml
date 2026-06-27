@@ -1,0 +1,13 @@
+id: general-division-cyclotomic
+title_en: "General Division of Cyclotomic Integers"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [cyclotomic, division, norm, ideal-factorization]
+depends_on: {required: [cyclotomic-integer, norm-cyclotomic-integer, division-by-ordinary-integer-cyclotomic, multiplicativity-of-norm], recommended: [conjugate-cyclotomic-integer], suggested: []}
+source_books: [{book_id: "gtm050", author: "Harold M. Edwards", title: "Fermat's Last Theorem", chapter: "4", section: "4.2", pages: "page_0098–page_0105", role_in_book: "Solution to the general division problem for cyclotomic integers, reducing it via the norm"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

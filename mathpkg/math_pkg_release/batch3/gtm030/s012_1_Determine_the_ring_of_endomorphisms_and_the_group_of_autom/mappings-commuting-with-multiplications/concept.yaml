@@ -1,0 +1,23 @@
+id: mappings-commuting-with-multiplications
+title_en: "Mappings Commuting with All Left or Right Multiplications are Right or Left Multiplications"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [ring, multiplication, endomorphism, commutation, centralizer]
+depends_on:
+  required: [right-multiplication-in-a-ring, left-multiplication-in-a-ring]
+  recommended: [endomorphism-ring, ring-with-identity, centralizer]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "14"
+    pages: ""
+    role_in_book: "Theorem 11 - characterizes right/left multiplications as maps commuting with all left/right multiplications"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

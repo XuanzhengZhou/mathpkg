@@ -1,0 +1,11 @@
+A \textbf{small category} is given by:
+\begin{enumerate}
+\item A set of objects $a, b, c, \ldots$;
+\item A function assigning to each ordered pair $\langle a, b\rangle$ of objects a set $\hom(a, b)$;
+\item For each ordered triple $\langle a, b, c\rangle$ of objects, a composition function $\hom(b,c) \times \hom(a,b) \rightarrow \hom(a,c)$, written $\langle g, f\rangle \mapsto g \circ f$;
+\item For each object $b$, an identity element $1_b \in \hom(b, b)$.
+\end{enumerate}
+These data must satisfy the associativity and unit axioms, plus the \textbf{disjointness} axiom:
+\begin{enumerate}
+\item[(v)] If $\langle a, b\rangle \neq \langle a', b'\rangle$, then $\hom(a, b) \cap \hom(a', b') = \emptyset$.
+\end{enumerate}

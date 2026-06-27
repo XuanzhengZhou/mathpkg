@@ -1,0 +1,23 @@
+id: tait-four-color-equivalence
+title_en: "Tait's Equivalence of Four-Color and Tait Coloring Conjectures"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [planar-graph, tait-coloring, four-color-problem, trivalent-graph, equivalence]
+depends_on:
+  required: [triangular-imbedding-tait-coloring, four-color-triangular-imbedding-equivalence]
+  recommended: [planar-graph, tait-coloring, trivalent-graph]
+  suggested: [four-color-theorem]
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "VII"
+    section: "B"
+    pages: ""
+    role_in_book: "Corollary B17, Tait's 1880 equivalence of the Four-Color Conjecture to edge-coloring of trivalent graphs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

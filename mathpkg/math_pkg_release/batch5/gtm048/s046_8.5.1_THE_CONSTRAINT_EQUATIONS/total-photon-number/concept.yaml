@@ -1,0 +1,23 @@
+id: total-photon-number
+title_en: "Total Photon Number in a Photon Gas"
+title_zh: "光子气体中的总光子数"
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: advanced
+tags: [photon-gas, light-cone, integration, volume-form, liouville-operator, occupation-number]
+depends_on:
+  required: [future-light-cone, liouville-theorem-photon-gas, photon-gas-distribution-function, integration-on-lightcone]
+  recommended: [volume-form, interior-product, liouville-operator]
+  suggested: [kinetic-theory, occupation-number, boltzmann-equation]
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs and Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "8"
+    section: "8.6.2"
+    pages: ""
+    role_in_book: "Definition: the total number of photons crossing a 6-submanifold N"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

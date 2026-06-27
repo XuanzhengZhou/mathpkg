@@ -1,0 +1,23 @@
+id: end-of-main-proof
+title_en: "Conclusion of the Main Theorem for the Symbol (x, w_n)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: [lubin-tate, explicit-reciprocity-law, hilbert-symbol, main-theorem-conclusion]
+depends_on:
+  required: []
+  recommended: [main-theorem-symbol-x-ni, main-theorem-divisible-x-unit, main-theorem-divisible-x-y-unit, special-lubin-tate-group-formula]
+  suggested: [local-class-field-theory, norm-residue-symbol]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "9"
+    section: "7"
+    pages: ""
+    role_in_book: "Final theorem concluding the proof of the explicit reciprocity law for the symbol (x, w_n)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: monad-in-a-preorder
+title_en: "Monad in a Preorder"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: basic
+tags: [monad, preorder, monotonic-function, closure-operator]
+depends_on:
+  required: [monad-in-a-category, preorder-as-category]
+  recommended: [closure-operator]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI. Monads and Algebras"
+    section: "1. Monads in a Category"
+    pages: ""
+    role_in_book: "Illustrative example: characterizes monads in preorders as closure operators"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

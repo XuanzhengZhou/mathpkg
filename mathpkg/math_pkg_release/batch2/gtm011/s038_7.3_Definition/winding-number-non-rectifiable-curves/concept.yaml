@@ -1,0 +1,23 @@
+id: winding-number-non-rectifiable-curves
+title_en: "Winding Number for Non-Rectifiable Closed Curves"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [winding-number, covering-space, exponential-map, non-rectifiable-curve]
+depends_on:
+  required: [covering-space, path-lifting-in-covering-space, exponential-function]
+  recommended: [winding-number-rectifiable, fundamental-group-of-punctured-plane]
+  suggested: [homotopy-characterization-by-winding-number]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "7"
+    section: "7.11"
+    pages: ""
+    role_in_book: "Extends the definition of winding number from rectifiable curves to arbitrary closed curves via the covering space lift of the radial projection, using the exponential map as a covering of the punctured plane."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "II"
+section: "11"
+exercise_number: 2
+---
+
+Let $\Delta = \prod_{i<j} (x_i - x_j)$. Show that if $\eta$ is a transposition then $\Delta \eta^* = -\Delta$. Use this to prove that if $\tau$ is a permutation that has a decomposition as a product of an even (odd) number of transpositions then any factorization of $\tau$ as a product of transpositions contains an even (odd) number of terms.

@@ -1,0 +1,13 @@
+id: category-object-in-grp-is-group-object-in-cat
+title_en: "Category Object in Grp Is a Group Object in Cat"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [internal-category, group-object, category-object, grp, cat, interchange]
+depends_on: {required:[internal-category, group-object, category], recommended:[group, small-category], suggested:[internal-group]}
+source_books: [{book_id:"gtm005",author:"Saunders Mac Lane",title:"Categories for the Working Mathematician",chapter:"XII",section:"1. Internal Categories",pages:"282",role_in_book:"Demonstrates the equivalence between a category object in the category of groups and a group object in the category of small categories"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

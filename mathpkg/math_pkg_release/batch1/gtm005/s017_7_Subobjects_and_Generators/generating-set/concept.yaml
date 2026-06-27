@@ -1,0 +1,23 @@
+id: generating-set
+title_en: "Generating Set (Generator)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [generator, generating-set, separating-family, generator-set]
+depends_on:
+  required: [parallel-pair]
+  recommended: [faithful-functor, representable-functor]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V. Limits"
+    section: "7. Subobjects and Generators"
+    pages: ""
+    role_in_book: "Defines generators and generating sets, fundamental to solution set and adjoint functor theorems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

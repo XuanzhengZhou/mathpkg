@@ -1,0 +1,23 @@
+id: adjoint-bilinear-form-interchange-arguments
+title_en: "Bilinear Form of the Adjoint by Interchanging Arguments"
+title_zh: "伴随的双线性型通过交换变量得到"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [adjoint, bilinear-form, interchange]
+depends_on:
+  required: [linear-map-to-bilinear-form-isomorphism, adjoint-mapping]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VIII"
+    section: "§1. The adjoint mapping"
+    pages: ""
+    role_in_book: "Relates the bilinear forms of a map and its adjoint"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

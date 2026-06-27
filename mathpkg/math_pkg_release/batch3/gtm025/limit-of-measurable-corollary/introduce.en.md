@@ -1,0 +1,1 @@
+Pointwise limits of measurable functions are measurable. This is one of the most important properties of measurability, as it allows limits to be freely taken within the class of measurable functions.

@@ -1,0 +1,35 @@
+$U_i = \{x \in V : \text{there exists an unsaturated } x_0x\text{-path of length } i \text{ but none of shorter length}\}$.
+
+Clearly $y_0 \in U_i$ for some $i$ if and only if there is an unsaturated $x_0y_0$-path. Since $U_i \cap U_j = \varnothing$ for $i \neq j$, $U_i \neq \varnothing$ for only finitely many indices $i$. Moreover, if $U_i = \varnothing$, then $U_j = \varnothing$ for all $j \geq i$.
+
+The sets $U_i$ admit an inductive construction as follows. Let $U_0 = \{x_0\}$, and assume $U_i$ has been constructed. Then $U_{i+1}$ is the collection of all $x \in V + U_0 + U_1 + \ldots + U_i$ such that for some $y \in U_i$, one has either $h(y, x) < k(y, x)$ or $h(x, y) > 0$. One readily sees that this construction is consistent with D6.
+
+Let $m$ be the smallest integer such that either $U_m = \varnothing$ or $y_0 \in U_m$. If $U_m = \varnothing$, then no unsaturated $x_0y_0$-path exists. If $y_0 \in U_m$, then an unsaturated $x_0y_0$-path exists and one may be constructed as follows. Write $x_m = y_0$, and for $j = m - 1, m - 2, \ldots, 0$, one may inductively select $x_j \in U_j$ and $e_{j+1} \in W$ such that either
+
+$$e_{j+1} = (x_j, x_{j+1}) \text{ and } h(e_{j+1}) < k(e_{j+1}), \text{ or}$$
+
+A new circuit D is 2, (2, 3), 3, (3, 4), 4, (4, 1), 1, (1, 9), 9, (9, 8), 8, (8, 2), 2. Adding this flow to $h$ yields the flow whose values are underlined in Figure D7.
+
+The next search yields: $U_0 = \{2\}$, $U_1 = \{3\}$, $U_2 = \{4\}$, $U_3 = \{5\}$, $U_4 = \{1, 6\}$, $U_5 = \{7, 9\}$, $U_6 = \{8\}$, which in turn yields a circuit D = 2, (2, 3), 3, (3, 4), 4, (4, 5), 5, (5, 1), 1, (1, 7), 7, (7, 8), 8, (8, 2), 2. The new flow $h + h_D$ is then underlined in Figure D8.
+
+Repeating the “subroutine” again yields: $U_0 = \{2\}$, $U_1 = \{3\}$, $U_2 = \{4\}$, $U_3 = \{5\}$, $U_4 = \{6\}$, $U_5 = \{7\}$, $U_6 = \{1\}$, $U_7 = \{9\}$, and $U_8 = \{8\}$. This clearly determines uniquely the circuit
+
+2, (2, 3), 3, ..., 6, (6, 7), 7, (1, 7), 1, (1, 9), 9, ..., 2.
+
+Note the edge (1, 7); it is our first example of a “back flow.” The new flow is depicted in Figure D9.
+
+IV Networks
+
+The final application of the subroutine now yields a minimum cut $C$. We have $U_0 = \{2\}, U_1 = \{3\}, U_2 = \{4\}, U_3 = \{5\}, U_4 = \emptyset$. Hence $U = \{2, 3, 4, 5\}$. The edges of $C$ which appear in D9 are $(8, 2), (1, 2), (1, 3), (3, 1), (4, 1), (5, 1)$, and $(5, 6)$. One easily checks that $k(C; e_0) = 5 = h(e_0)$.
+
+IVE The Classical Form of the Max-Flow–Min-Cut Theorem
+
+The Max-Flow–Min-Cut Theorem was developed, stated, and proved in this chapter in such a way as to be consistent with the algebraic structure of this book. For completeness we reformulate this result in the traditional form. This is the form in which the reader is most likely to encounter it in the literature, especially in the context of optimization problems.
+
+Rather than the multigraph $\Gamma = (V, f, W)$ considered in the previous sections, we now deal with an arbitrary directed graph $(V, D)$ and use the term “a capacity for $(V, D)$” to indicate any function $k: D \rightarrow \mathbb{N}$. Two vertices $x_0, y_0 \in V$ are distinguished and are called the “source” and “sink”, respectively. A “network” now denotes a 4-tuple $(V, D), k, x_0, y_0)$.
+
+A function $f: D \rightarrow \mathbb{N}$ is called a “feasible flow” for this network if
+(a) $0 \leq f(x, y) \leq k(x, y)$ for all $(x, y) \in D$, and
+(b) $\sum_{y \in V, (x, y) \in D} f(x, y) = \sum_{y \in V, (y, x) \in D} f(y, x)$, for all $x \in V + \{x_0, y_0\}$.
+
+As

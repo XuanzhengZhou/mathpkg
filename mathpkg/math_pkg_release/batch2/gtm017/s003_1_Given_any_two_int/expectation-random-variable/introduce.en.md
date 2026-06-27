@@ -1,0 +1,1 @@
+The expectation (or expected value) of a random variable is its Lebesgue integral with respect to the probability measure. This unifies the probabilistic concept of mean value with the measure-theoretic integral. For integrable random variables, it is a finite real number representing the long-run average over repeated independent trials.

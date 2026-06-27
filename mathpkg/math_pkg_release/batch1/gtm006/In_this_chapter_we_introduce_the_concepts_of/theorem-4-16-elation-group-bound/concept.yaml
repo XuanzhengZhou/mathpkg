@@ -1,0 +1,28 @@
+id: theorem-4-16-elation-group-bound
+title_en: 'Theorem 4.16: Bound on Elation Group Size'
+title_zh: ''
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags:
+- elation
+- finite-projective-plane
+- group-order
+depends_on:
+  required:
+  - elation
+  - lemma-4-8-quasiperspectivity-semiregular
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '5'
+  pages: ''
+  role_in_book: Upper bound on the order of elation groups in finite planes
+content_hash: a88d70f92590
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

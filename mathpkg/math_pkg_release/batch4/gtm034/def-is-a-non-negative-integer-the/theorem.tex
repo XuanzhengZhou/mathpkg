@@ -1,0 +1,35 @@
+$N$ is a non-negative integer, $[0,N]$ the interval consisting of the integers 0, 1, 2, ..., $N$.
+
+$$Q_N(x,y) = P(x,y) \text{ for } x,y \text{ in } [0,N],$$
+
+$$Q_N^0(x,y) = I_N(x,y) = \delta(x,y), \quad Q_N^1(x,y) = Q_N(x,y), \quad x,y \text{ in } [0,N],$$
+
+$$Q_N^{n+1}(x,y) = \sum_{t=0}^{N} Q_N^n(x,t)Q_N(t,y) \text{ for } x,y \text{ in } [0,N].$$
+
+$^1$ For a more complete discussion, see Feller [31], Vol. I, Chs. III and XIV, Kac [51], or Rényi [84], Ch. VII, §11.
+
+$$g_N(x,y) = \sum_{n=0}^{\infty} Q_N^n(x,y), \quad x,y \in [0,N],$$
+
+$$R_N(x,k) = \sum_{y=0}^{N} g_N(x,y)P(y,N+k) \text{ for } x \in [0,N], \quad k \geq 1,$$
+
+$$L_N(x,k) = \sum_{y=0}^{N} g_N(x,y)P(y,-k) \text{ for } x \in [0,N], \quad k \geq 1,$$
+
+$$R_N(x) = \sum_{k=1}^{\infty} R_N(x,k),$$
+
+$$L_N(x) = \sum_{k=1}^{\infty} L_N(x,k) \text{ for } x \in [0,N].$$
+
+Some of these definitions are old ones, such as that of $Q_N^k$. It is simply the $k^{\text{th}}$ iterate of the transition function $P(x,y)$ restricted to the set $[0,N]$. Similarly $g_N(x,y)$ was often encountered before, but in the terminology of D10.1 it would have to be written in the unappealingly complicated form
+
+$$g_N(x,y) = g_{R-[0,N]}(x,y).$$
+
+Going on to $R_N$ and $L_N$, note that $R$ stands for "right" and $L$ for "left." These functions are simply hitting probabilities, and in the terminology of D10.1 we would have had to write
+
+$$R_N(x,k) = H_{R-[0,N]}(x,N+k),$$
+
+$$L_N(x,k) = H_{R-[0,N]}(x,-k),$$
+
+for $x \in [0,N], k \geq 1$.
+
+To calculate these quantities for simple symmetric random walk is very easy. If we look at $Q_N(x,y)$ as an $N+1$ by $N+1$ square matrix (which it is!) then
+
+$$Q_N = \frac{1}{2} \begin{bmatrix} 0 & 1 & 0 & \cdots & 0 & 0 \\ 1 & 0 & 1 & \cd

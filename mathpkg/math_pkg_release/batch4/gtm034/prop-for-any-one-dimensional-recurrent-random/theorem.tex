@@ -1,0 +1,78 @@
+For any one-dimensional recurrent random walk the Wiener-Hopf equation (a) has the solution
+
+$$f(x) = u(0) + u(1) + \cdots + u(x), \quad x \geq 0,$$
+
+and (b) has the solution
+
+$$g(x) = v(0) + v(1) + \cdots + v(x), \quad x \geq 0.$$
+
+Proof: The theorem is actually valid if and only if both $T < \infty$ and $T^* < \infty$ with probability one (see problem 11 in Chapter VI). Therefore we shall use only the recurrence in the following way. As $T^* < \infty$, the left half-line $B = [x \mid x \leq -1]$ is sure to be visited, and
+
+$$\sum_{
+
+Observing that $g(0,t) = u(0)v(t)$, and that $u(0) = v(0)$, one obtains
+
+(1) $$\frac{1}{v(0)} = \sum_{y=-\infty}^{-1} \sum_{t=0}^{\infty} v(t)P(t,y).$$
+
+It will be convenient to take an arbitrary $x \geq 0$, and to rewrite (1) in the form
+
+(2) $$\frac{1}{v(0)} = \sum_{t=0}^{\infty} v(t) \sum_{y=-\infty}^{-1} P(t-y+x,x) = \sum_{t=0}^{\infty} v(t) \sum_{k=t+x+1}^{\infty} P(k,x).$$
+
+We are now able to prove part (b). It follows from the definition of $g(x,y)$ that
+
+(3) $$g(x,y) = \sum_{t=0}^{\infty} g(x,t)P(t,y) + \delta(x,y), \quad x \geq 0, y \geq 0.$$
+
+Setting $x = 0$ in (3)
+
+$$g(0,y) = u(0)v(y) = \sum_{t=0}^{\infty} u(0)v(t)P(t,y) + \delta(0,y),$$
+
+and summing on $y$ from 0 to $x$ one obtains
+
+(4) $$v(0) + \cdots + v(x) = \sum_{t=0}^{\infty} v(t) \sum_{y=0}^{x} P(t,y) + \frac{1}{v(0)} = \sum_{t=0}^{\infty} v(t) \sum_{k=t}^{t+x} P(k,x) + \frac{1}{v(0)}.$$
+
+Now we substitute into equation (4) the expression for $[v(0)]^{-1}$ obtained in (2). Thus
+
+$$v(0) + \cdots + v(x) = \sum_{t=0}^{\infty} v(t) \left[ \sum_{k=t}^{t+x} P(k,x) + \sum_{k=t+x+1}^{\infty} P(k,x) \right].$$
+
+That proves part (
+
+E2 Consider Bernoulli random walk with $P(0,1) = p < P(0,-1) = q$. To calculate $g(x,y)$ as painlessly as possible, observe that $g(x,0) = u(x)v(0)$ is the expected number of visits from $x$ to 0 before leaving the right half-line $x \geq 0$. Since the random walk must pass through 0, this expectation is independent of $x$. Thus $u(x)$ is constant. (The same argument shows, incidentally, that $u(x)$ is constant for every left-continuous random walk with mean $\mu \leq 0$.) By a slightly more complicated continuity argument one can also determine $v(x)$, but for the sake of variety, we shall determine $v(x)$ from P5. Equation (b) in P5 is
+
+$$qg(1) = g(0), \quad pg(n-1) + qg(n+1) = g(n), \quad n \geq 1.$$
+
+There is evidently a unique solution, except for the constant $g(0)$, namely
+
+$$g(n) = \left[ \frac{q}{q-p} - \frac{p}{q-p} \left( \frac{p}{q} \right)^n \right] g(0), \quad n \geq 0,$$
+
+so that, in view of P5, $v(0) = g(0)$ and
+
+$$v(n) = g(n) - g(n-1) = v(0) \left( \frac{p}{q} \right)^n \text{ for } n \geq 1.$$
+
+E3 As an amusing application of E2 consider the following random variables:
+
+(a) the maximum $W$ of the Bernoulli random walk with $p < q$ before the first visit to $(-\infty, -1]$, i.e.,
+
+$$W = \max_{0 \leq n \leq T^*} S_n,$$
+
+(b) the maximum $W'$ of the same random walk before the first return to 0 or to the set $(-\infty, 0]$, that is to say
+
+$$W' = \max_{0 \leq n \leq T'^*} S_n.$$
+
+An easy calculation gives
+
+$$E
+
+sequence. (Of course there will be an analogous class of random walks with $\mu > 0$, for which one gets similar results by reversing the process.)
+
+We impose two conditions. Aperiodicity is one of these, being essential for the renewal theorem to apply. The other is a growth restriction on $P(0,x)$ for large $|x|$. It will be satisfied in particular for bounded random walk, i.e., when $P(0,x) = 0$ for sufficiently large $|x|$. Such a growth restriction ((b) and (c) below) is essential. Without it, one can show that $v(x)$ will still tend to zero as $x \to +\infty$, but not exponentially.
+
+Thus we consider one-dimensional random walk satisfying
+
+(a) $P(0,x)$ aperiodic, $m < \infty, \mu < 0$,
+(b) for some positive real number $r$
+
+$$\sum_{x \in R} r^x P(0,x) = 1,$$
+
+(c) for the number $r$ in (b)
+
+$$0 < \sum_{x \in R} xr^x P(0,x) = \mu^{(r)} < \infty.$$

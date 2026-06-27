@@ -1,0 +1,23 @@
+id: eisenstein-series-are-only-noncusp-simultaneous-eigenforms
+title_en: "Eisenstein Series are the Only Non-Cusp Simultaneous Eigenforms"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [hecke-operator, simultaneous-eigenform, eisenstein-series, cusp-form, divisor-function]
+depends_on:
+  required: [hecke-operator, simultaneous-eigenform, eisenstein-series, cusp-form, normalized-eigenform]
+  recommended: [nonzero-first-coefficient-of-simultaneous-eigenform, normalized-simultaneous-eigenform-coefficient-equivalence]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.13"
+    pages: "140-143"
+    role_in_book: "Theorem 6.16: Classifies all simultaneous eigenforms in $M_{2k}$ -- cusp forms are the only interesting ones beyond Eisenstein series"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

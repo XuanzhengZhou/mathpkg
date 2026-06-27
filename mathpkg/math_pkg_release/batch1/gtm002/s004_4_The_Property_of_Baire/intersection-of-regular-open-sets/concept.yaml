@@ -1,0 +1,23 @@
+id: intersection-of-regular-open-sets
+title_en: "Intersection of Regular Open Sets"
+title_zh: "正则开集的交"
+type: theorem
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [regular-open-set, intersection, boolean-algebra]
+depends_on:
+  required: [regular-open-set]
+  recommended: [interior, closure]
+  suggested: [boolean-algebra-of-regular-open-sets]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "4"
+    section: "4. The Property of Baire"
+    pages: ""
+    role_in_book: "Theorem 4.7 — regular open sets are closed under finite intersection"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

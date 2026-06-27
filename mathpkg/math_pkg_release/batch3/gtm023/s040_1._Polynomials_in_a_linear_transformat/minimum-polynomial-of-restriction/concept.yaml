@@ -1,0 +1,23 @@
+id: minimum-polynomial-of-restriction
+title_en: "Minimum polynomial of the restriction to a polynomial kernel"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [linear-transformation, minimum-polynomial, restriction, invariant-subspace]
+depends_on:
+  required: [proper-inclusion-of-polynomial-kernels, kernel-of-polynomial-transformation]
+  recommended: [minimum-polynomial]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "§1. Polynomials in a linear transformation"
+    pages: ""
+    role_in_book: "Corollary II to Proposition III: the restriction to K(f) recovers f as minimum polynomial"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

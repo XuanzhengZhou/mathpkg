@@ -1,0 +1,23 @@
+id: light-signal
+title_en: "Light Signal"
+title_zh: "光信号"
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: intermediate
+tags: [causality, photon, equivalence-class, freely-falling]
+depends_on:
+  required: []
+  recommended: [spacetime, freely-falling-photon, causal-character]
+  suggested: [equivalence-class]
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "5"
+    section: "5.2"
+    pages: ""
+    role_in_book: "Core definition introducing light signals in general relativity as equivalence classes of freely falling photons"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

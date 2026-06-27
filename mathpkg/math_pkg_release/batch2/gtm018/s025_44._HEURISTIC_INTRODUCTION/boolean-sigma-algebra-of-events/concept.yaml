@@ -1,0 +1,20 @@
+id: boolean-sigma-algebra-of-events
+title_en: "Boolean σ-Algebra of Events"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: foundations
+difficulty: intermediate
+tags: [probability, boolean-algebra, sigma-algebra, events]
+depends_on: {required: [event, complementary-event, event-union, event-intersection], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX. Probability"
+    section: "44. Heuristic Introduction"
+    pages: ""
+    role_in_book: "The conclusion that probability theory is the study of Boolean σ-algebras of sets: events are sets; opposite events are complements; mutually exclusive events are disjoint; simultaneous occurrence is intersection."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: symmetric-difference-metric
+title_en: "Symmetric Difference Metric on Measurable Sets"
+title_zh: "可测集上的对称差度量"
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [metric-space, symmetric-difference, measurable-sets, pseudometric]
+depends_on:
+  required: [lebesgue-measure, symmetric-difference, pseudometric-space]
+  recommended: [metric-space]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "10"
+    section: "10"
+    pages: "50-52"
+    role_in_book: "Defines metric structure on measurable sets modulo nullsets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

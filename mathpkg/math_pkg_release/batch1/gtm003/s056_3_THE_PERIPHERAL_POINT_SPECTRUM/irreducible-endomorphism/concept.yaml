@@ -1,0 +1,23 @@
+id: irreducible-endomorphism
+title_en: "Irreducible Positive Endomorphism"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [positive-operators, banach-lattices, spectral-theory, irreducibility]
+depends_on:
+  required: [positive-endomorphism, spectral-radius, quasi-interior-point, resolvent]
+  recommended: [ordered-banach-space, positive-cone]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer, with M. P. Wolff"
+    title: "Topological Vector Spaces, Second Edition"
+    chapter: "Appendix D"
+    section: "3. The Peripheral Point Spectrum"
+    pages: ""
+    role_in_book: "Defines irreducibility for positive endomorphisms on ordered Banach spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

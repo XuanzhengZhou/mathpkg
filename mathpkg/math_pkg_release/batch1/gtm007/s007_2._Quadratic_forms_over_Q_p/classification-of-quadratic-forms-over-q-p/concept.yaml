@@ -1,0 +1,23 @@
+id: classification-of-quadratic-forms-over-q-p
+title_en: "Classification of Quadratic Forms over Q_p by Rank, Discriminant, and Epsilon Invariant"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: advanced
+tags: [classification, quadratic-form, p-adic, discriminant, epsilon-invariant, equivalence]
+depends_on:
+  required: [epsilon-invariant-of-quadratic-form, criterion-for-representing-an-element]
+  recommended: [discriminant-of-quadratic-form]
+  suggested: []
+source_books:
+  - book_id: gtm007
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "IV"
+    section: "§2.2.3"
+    pages: ""
+    role_in_book: "States and proves that two quadratic forms over Q_p are equivalent iff they have the same rank, discriminant, and epsilon invariant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

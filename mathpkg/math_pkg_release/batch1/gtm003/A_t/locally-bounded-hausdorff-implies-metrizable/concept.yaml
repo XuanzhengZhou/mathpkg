@@ -1,0 +1,23 @@
+id: locally-bounded-hausdorff-implies-metrizable
+title_en: "Locally Bounded Hausdorff t.v.s. is Metrizable"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [locally-bounded, metrizability, hausdorff, tvs, neighborhood-base]
+depends_on:
+  required: [locally-bounded-topological-vector-space, metrizability-criterion-countable-neighborhood-base]
+  recommended: [bounded-set-topological-vector-space, circled-set]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer, Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "I"
+    section: "6"
+    pages: ""
+    role_in_book: "Theorem 6.2 — locally bounded Hausdorff t.v.s. are metrizable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

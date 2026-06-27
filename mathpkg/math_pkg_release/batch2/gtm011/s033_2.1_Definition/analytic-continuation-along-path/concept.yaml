@@ -1,0 +1,23 @@
+id: analytic-continuation-along-path
+title_en: "Analytic Continuation Along a Path"
+title_zh: "沿路径的解析延拓"
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [analytic-continuation, path, function-element, germ]
+depends_on:
+  required: [function-element, germ-of-analytic-function]
+  recommended: [path, analytic-function]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "2.1"
+    pages: ""
+    role_in_book: "core definition enabling the propagation of analytic data along curves"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

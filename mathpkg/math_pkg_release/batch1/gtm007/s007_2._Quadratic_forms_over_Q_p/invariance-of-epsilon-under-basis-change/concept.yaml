@@ -1,0 +1,23 @@
+id: invariance-of-epsilon-under-basis-change
+title_en: "Invariance of the Epsilon Invariant under Change of Orthogonal Basis"
+title_zh: "ε不变量在正交基变换下的不变性"
+type: theorem
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: intermediate
+tags: [epsilon-invariant, hilbert-symbol, orthogonal-basis, invariance, p-adic]
+depends_on:
+  required: [epsilon-invariant-of-quadratic-module-over-qp, discriminant-of-quadratic-module-over-qp]
+  recommended: [hilbert-symbol, orthogonal-basis]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "J-P. Serre"
+    title: "A Course in Arithmetic"
+    chapter: "4"
+    section: "2"
+    pages: ""
+    role_in_book: "Establishes that ε(e) is a well-defined invariant independent of the choice of orthogonal basis, justifying the notation ε(Q)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

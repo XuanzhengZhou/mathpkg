@@ -1,0 +1,6 @@
+For the basic example Markov chain $P$ with parameters $\{p_i, q_i\}$ where $p_i + q_i = 1$, $p_i > 0$, $q_{i+1} > 0$ for $i \geq 0$, and
+$$\beta_0 = 1, \quad \beta_i = p_1 p_2 \cdots p_i \quad (i \geq 1), \quad \beta_\infty = \lim_{i \to \infty} \beta_i,$$
+the transition probabilities of the $\beta$-dual (reverse) chain $\hat{P}$ are given by
+$$\hat{P}_{ij} = \frac{\beta_j P_{ji}}{\beta_i} = \begin{cases} 1 & \text{if } j = i-1 \text{ and } i > 0 \\[4pt] \beta_j - \beta_{j+1} & \text{if } i = 0 \\[4pt] 0 & \text{otherwise.} \end{cases}$$
+
+Thus the reverse process proceeds deterministically one step at a time to the left until it reaches state $0$. From $0$ it may jump to any state $j$ with probability $\hat{P}_{0j} = \beta_j - \beta_{j+1}$. Since $\sum_j \hat{P}_{0j} = 1 - \beta_\infty < 1$ (in the transient case) and $0$ is reached from all states with probability one, the extended chain for $\hat{P}$ is absorbing.

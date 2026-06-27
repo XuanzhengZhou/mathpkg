@@ -1,0 +1,20 @@
+If $\gamma$ is a closed rectifiable curve in $G$ such that $\gamma \sim 0$ then $n(\gamma; w) = 0$ for all $w$ in $\mathbb{C} - G$.
+
+The converse of the above corollary is not valid. That is, there is a closed rectifiable curve $\gamma$ in a region $G$ such that $n(\gamma; w) = 0$ for all $w$ in $\mathbb{C} - G$ but $\gamma$ is not homotopic to a constant curve (Exercise 8).
+
+If $G$ is an open set and $\gamma_0$ and $\gamma_1$ are closed rectifiable curves in $G$ then $n(\gamma_0; a) = n(\gamma_1; a)$ for each $a$ in $\mathbb{C} - G$ provided $\gamma_0 \sim \gamma_1(G
+
+homotopic (FEP homotopic) if there is a continuous map $\Gamma: I^2 \rightarrow G$ such that
+
+$$\Gamma(s, 0) = \gamma_0(s) \quad \Gamma(s, 1) = \gamma_1(s)$$
+$$\Gamma(0, t) = a \quad \Gamma(1, t) = b$$
+
+for $0 \leq s, t \leq 1$.
+
+Again the relation of FEP homotopic is an equivalence relationship on curves from one given point to another (Exercise 3).
+
+Notice that if $\gamma_0$ and $\gamma_1$ are rectifiable curves from $a$ to $b$ then $\gamma_0 - \gamma_1$ is a closed rectifiable curve. Suppose $\Gamma$ satisfies (6.12) and define $\gamma: [0, 1] \rightarrow G$ by $\gamma(s) = \gamma_0(3s)$ for $0 \leq s \leq \frac{1}{3}$; $\gamma(s) = b$ for $\frac{1}{3} \leq s \leq \frac{2}{3}$; and $\gamma(s) = \gamma_1(3 - 3s)$ for $\frac{2}{3} \leq s \leq 1$. We will show that $\gamma \sim 0$. In fact, define $\Lambda: I^2 \rightarrow G$ by
+
+$$\Lambda(s, t) = \begin{cases} \Gamma(3s(1 - t), t) & \text{if } 0 \leq s \leq \frac{1}{3} \\ \Gamma(1 - t, 3s - 1 + 2t - 3st) & \text{if } \frac{1}{3} \leq s \leq \frac{2}{3} \\ \gamma_1((3 - 3s)(1 - t)) & \text{if } \frac{2}{3} \leq s \leq 1. \end{cases}$$
+
+Although this formula may appear mysterious it can easily be understood by seeing that for a given value of $t$, $\Lambda$ is the restriction of $\Gamma$ to the boundary of the square $[0, 1 - t] \times [t, 1

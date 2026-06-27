@@ -1,0 +1,23 @@
+id: universality-via-hom-sets
+title_en: "Universality via Hom-Sets"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [universal-arrow, hom-functor, natural-isomorphism, representable-functor]
+depends_on:
+  required: [universal-arrow-from-object-to-functor]
+  recommended: [natural-transformation, hom-functor]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "III"
+    section: "1. Universal Arrows"
+    pages: "57-58"
+    role_in_book: "Proposition 1 — characterizes universal arrows as natural isomorphisms between hom-functors, linking universality to representability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

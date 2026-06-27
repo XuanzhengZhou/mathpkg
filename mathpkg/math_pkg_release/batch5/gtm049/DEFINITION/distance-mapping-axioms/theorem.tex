@@ -1,0 +1,9 @@
+Let $V$ be a real vector space. A mapping $d: V \times V \to \mathbf{R}$ is called a \textbf{distance} (or a \textbf{metric}) on $V$ if it satisfies:
+\begin{itemize}
+\item[D.1.] $d(a, b) = d(b, a)$ for all $a, b \in V$;
+\item[D.2.] $d(a, b) \geq 0$ and $d(a, b) = 0 \iff a = b$;
+\item[D.3.] $d(a, c) \leq d(a, b) + d(b, c)$ for all $a, b, c \in V$ (triangle inequality);
+\item[D.4.] $d(a + c, b + c) = d(a, b)$ for all $a, b, c \in V$ (translation invariance);
+\item[D.5.] $d(xa, xb) = |x|\, d(a, b)$ for all $x \in \mathbf{R}$ (homogeneity);
+\item[D.6.] $d(a + b, 0)^2 + d(a - b, 0)^2 = 2(d(a, 0)^2 + d(b, 0)^2)$ (parallelogram law).
+\end{itemize}

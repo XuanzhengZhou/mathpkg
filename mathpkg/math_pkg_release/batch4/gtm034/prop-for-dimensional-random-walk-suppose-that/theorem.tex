@@ -1,0 +1,41 @@
+For $d$-dimensional random walk, $d \geq 1$, suppose that $m_1 < \infty$. If $\alpha$ is a vector in $E$, then
+
+$$\lim_{h \to 0} \frac{\phi(h\alpha) - 1}{h} = i\alpha \cdot \mu.$$
+
+If, in addition, $\mu = 0$ and $m_2 < \infty$, then
+
+$$\lim_{h \to 0} \frac{1 - \phi(h\alpha)}{h^2} = \frac{1}{2} Q(\alpha).$$
+
+Proof: Imitating the proof of P6 up to a point,
+
+$$|\phi(h\alpha) - 1| = |\sum(e^{ih\alpha \cdot z} - 1)P(0,x)|$$
+
+$$\leq \sum|
+
+But for complex $z$ with real part zero there is some $c > 0$ so that
+
+$$|e^2 - 1 - z| \leq c|z|^2, \quad \text{Re}(z) = 0.$$
+
+Hence
+
+$$\sum |e^{ih\alpha \cdot z} - 1 - ih\alpha \cdot x| P(0,x) \leq ch^2 \sum (\alpha \cdot x)^2 P(0,x),$$
+
+and by the Schwarz inequality
+
+$$\sum (\alpha \cdot x)^2 P(0,x) \leq |\alpha|^2 m_2 < \infty.$$
+
+Again therefore, one can interchange limits to obtain the desired result.
+
+To conclude this section it is only proper to point out that the Central Limit Theorem certainly belongs to the domain of ideas discussed here. Although it will play a decidedly minor role in the theory of random walk we shall sketch the essential ingredients of the traditional Fourier analytical proof of the Central Limit Theorem for identically distributed independent random variables.
+
+A monotone nondecreasing function $F(t)$, $-\infty < t < \infty$ is a distribution function if $F(-\infty) = 0$, $F(+\infty) = 1$. A sequence of distribution functions $F_n(t)$ is said to converge weakly to the distribution function $F(t)$ if
+
+$$\lim_{n \to \infty} \int_{- \infty}^{\infty} g(t) dF_n(t) = \int_{- \infty}^{\infty} g(t) dF(t)$$
+
+for every bounded continuous function $g(t)$, $-\infty < t < \infty$. An equivalent definition of weak convergence is the statement that $F_n(t)$ has the limit $F(t)$ for every real $t$ which is a point of continuity of $F(t)$.
+
+The Fourier transform of a distribution function $F(t)$,
+
+$$\phi(\lambda) = \int_{- \infty}^{\infty} e^{i\lambda t} dF(t), \quad -\infty < \lambda < \infty,$$
+
+is called the characteristic function of $F$. If $\phi_n$ are the characteristic functions of a sequence of distributions $F_n$, and if the sequence $F_n$ converges weakly to the

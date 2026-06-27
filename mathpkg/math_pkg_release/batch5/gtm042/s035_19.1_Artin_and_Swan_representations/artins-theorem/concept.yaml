@@ -1,0 +1,23 @@
+id: artins-theorem
+title_en: "Artin's Theorem on the Artin Character"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [artin-character, group-representation, character-theory, galois-group, integrality]
+depends_on:
+  required: [artin-character-a-g]
+  recommended: [class-function, character-of-representation, induced-representation]
+  suggested: [local-class-field-theory, conductor]
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "19"
+    section: "19.1 Artin and Swan representations"
+    pages: ""
+    role_in_book: "Central theorem: the Artin character is a true character"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

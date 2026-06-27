@@ -1,0 +1,23 @@
+id: gch-b-valid-under-ccc
+title_en: "GCH is B-valid in V^(B) under c.c.c."
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [gch, ccc, boolean-valued-models, cardinal-arithmetic]
+depends_on:
+  required: [complete-boolean-algebra, countable-chain-condition, generalized-continuum-hypothesis, boolean-valued-universe]
+  recommended: [cardinal-exponentiation]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "19"
+    section: "19"
+    pages: ""
+    role_in_book: "Shows that GCH is preserved in Boolean-valued models under c.c.c. and small cardinality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

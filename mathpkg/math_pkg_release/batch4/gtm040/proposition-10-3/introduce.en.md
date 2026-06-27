@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+The functions $u_E$ and $v_E$ have a $\mathcal{G}$-measurable subset of $\Omega$ as domain and are each $\mathcal{G}$-measurable.

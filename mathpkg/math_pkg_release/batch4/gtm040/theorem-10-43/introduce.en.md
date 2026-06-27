@@ -1,0 +1,66 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+
+
+and $S^{k*} = S^*$. By Lemma 10-32, $B_e^k = B_e$. The function $h/k$ is a bounded regular function for the $k$-process with
+
+$$\sum_i \pi_i^k \left( \frac{h_i}{k} \right) = \sum_i \pi_i h_i = 1,$$
+
+and hence Lemma 10-42 yields a function $g$ with
+
+$$\left( \frac{h}{k} \right)_i = \int_S K^k(i, x)g(x)d\mu^k(x)$$
+
+and
+
+$$\Pr^k \left[ \lim \frac{h(x_n)}{k(x_n)} = g(x_v^k) \right] = 1.$$
+
+As was pointed out in the proof of Lemma 10-34, $x_v^k$ is identical with $x_v$ and also
+
+$$\Pr^k[p] = \frac{1}{2} \Pr^1[p] + \frac{1}{2} \Pr^h[p]$$
+
+for all $p$. Thus $\Pr^k[p]$ cannot be one unless $\Pr^1(p)$ and $\Pr^h[p]$ both equal one, and we conclude that
+
+$$\Pr \left[ \lim \frac{h(x_n)}{k(x_n)} = g(x_v) \right] = 1$$
+
+or
+
+$$\Pr \left[ \lim \frac{h(x_n)}{\frac{1}{2} + \frac{1}{2}h(x_n)} = g(x_v) \right] = 1.$$
+
+Since $\{h(x_n)\}$ is a non-negative martingale, $\lim h(x_n)$ exists a.e. $[\Pr]$ and is finite. Therefore the above identity implies that
+
+$$\Pr \left[ \lim h(x_n) = \frac{g(x_v)}{2 - g(x_v)} \right] = 1.$$
+
+Thus to complete the proof, it suffices to prove that
+
+$$f(x) = \frac{g(x)}{2 - g(x)} \quad \text{a.e.} \quad [\mu].$$
+
+First we identify $g$ as the Radon–
+
+and thus the uniqueness part of Theorem 10-41 gives $\mu^h = g\mu^k$.
+
+Now, by Lemma 10-34, we have $\mu^k = \frac{1}{2}\mu + \frac{1}{2}\mu^h$. Hence
+
+$$f\mu + \mu_s = \mu^h = g\mu^k = \frac{1}{2}g\mu + \frac{1}{2}g\mu^h = \frac{1}{2}g\mu + \frac{1}{2}gf\mu + \frac{1}{2}g\mu_s$$
+
+or
+
+$$(2f - g - fg)\mu = (g - 2)\mu_s.$$
+
+Since $\mu$ and $\mu_s$ are singular with respect to each other, each side is the zero measure. For the left side, this statement means that
+
+$$2f - g - fg = 0 \quad \text{a.e.} \ [\mu]$$
+
+or
+
+$$f = \frac{g}{2 - g} \quad \text{a.e.} \ [\mu].$$
+
+The corollary to this theorem is the analog of Fatou’s Theorem; it is a translation of the theorem into a result in terms of harmonic measure. The statement of the corollary needs a way of singling out for attention a single point $x$ of $S^*$. One way of proceeding is to use the $K(\cdot, x)$ process, at least if $x$ is in $\bar{S}$; for in that case Proposition 10-35 shows that
+
+$$\Pr^{K(\cdot, x)}[x_v(\omega) = x] = 1.$$
+
+Corollary 10-44: Let $h \geq 0$ be a normalized regular function, and let $\mu^h = f\mu + \mu_s$ (with $f$ equal to zero on $S$) be the Lebesgue decomposition of $\mu^h$ with respect to $\mu$. Then for almost every $x$ [$\mu$] for which $K(\cdot, x)$ is normalized,

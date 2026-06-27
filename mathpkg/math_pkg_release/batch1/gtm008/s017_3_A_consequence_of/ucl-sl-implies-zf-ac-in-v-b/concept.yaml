@@ -1,0 +1,23 @@
+id: ucl-sl-implies-zf-ac-in-v-b
+title_en: "If B satisfies UCL and SL then V^{(B)} satisfies ZF+AC"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: advanced
+tags: [boolean-valued-models, ucl, sieve-law, zf, axiom-of-choice]
+depends_on:
+  required: []
+  recommended: [uniform-convergence-law, sieve-law, v-b-hierarchy]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "23"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 23.30: sufficient conditions for V^{(B)} to be a model of ZF+AC"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

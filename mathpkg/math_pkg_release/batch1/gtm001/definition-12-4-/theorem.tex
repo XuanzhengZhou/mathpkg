@@ -1,0 +1,69 @@
+(1) $[a \in b]^A \overset{\Delta}{\rightarrow} a \in b$.
+
+(2) $[\neg \psi]^A \overset{\Delta}{\rightarrow} \neg \psi^A$.
+
+(3) $[\psi \wedge \eta]^A \overset{\Delta}{\rightarrow} \psi^A \wedge \eta^A$.
+
+(4) $[(\forall x
+
+If $\varphi$ is of the form $\neg \psi$, then all of the free variables of $\psi$ are among $a_1, \ldots, a_n$. From the induction hypothesis
+
+$$[A \models \psi] \leftrightarrow \psi^A.$$
+
+Therefore
+
+$$\neg [A \models \psi] \leftrightarrow \neg \psi^A$$
+
+and hence
+
+$$[A \models \varphi] \leftrightarrow \varphi^A.$$
+
+If $\varphi$ is of the form $\psi \wedge \eta$, then all of the free variables of $\psi$ and of $\eta$ are among $a_1, \ldots, a_n$. As our induction hypothesis we have
+
+$$[A \models \psi] \leftrightarrow \psi^A,$$
+
+and
+
+$$[A \models \eta] \leftrightarrow \eta^A.$$
+
+Therefore
+
+$$[A \models \psi] \wedge [A \models \eta] \leftrightarrow \psi^A \wedge \eta^A.$$
+
+Hence
+
+$$[A \models \varphi] \leftrightarrow \varphi^A.$$
+
+If $\varphi$ is of the form $(\forall x) \psi(x)$, then there is an $x$ that is not among $a_1, \ldots, a_n$ and all of the free variables of $\psi(x)$ are among $a_1, \ldots, a_n, x$. From the induction hypothesis
+
+$$x \in A \rightarrow [[A \models \psi(x)] \leftrightarrow \psi^A(x)]$$
+
+and hence
+
+$$[x \in A \rightarrow A \models \psi(x)] \leftrightarrow [x \in A \rightarrow \psi^A(x)].$$
+
+Since $x$ is not among $a_1, \ldots, a_n$ we may generalize on $x$ and from properties of logic we conclude that
+
+$$(\forall x \in A)[A \models \psi(x)] \leftrightarrow (\forall x \in A) \psi^A(x).$$
+
+Hence
+
+$$[A \models \varphi] \leftr
+
+Logical Axioms
+
+(1) $\varphi \rightarrow [\psi \rightarrow \varphi]$.
+
+(2) $[\varphi \rightarrow [\psi \rightarrow \eta]] \rightarrow [[\varphi \rightarrow \psi] \rightarrow [\varphi \rightarrow \eta]]$.
+
+(3) $[\neg \varphi \rightarrow \neg \psi] \rightarrow [\psi \rightarrow \varphi]$.
+
+(4) $(\forall x)[\varphi \rightarrow \psi] \rightarrow [\varphi \rightarrow (\forall x)\psi]$ where the free variable on which we quantify does not occur in $\varphi$.
+
+(5) $(\forall x)\varphi(x) \rightarrow \varphi(a)$.
+
+Rules of Inference
+
+(1) From $\varphi \rightarrow \psi$ and $\varphi$ to infer $\psi$.
+
+(2) From $\varphi$ to infer $(\forall x)\varphi$.

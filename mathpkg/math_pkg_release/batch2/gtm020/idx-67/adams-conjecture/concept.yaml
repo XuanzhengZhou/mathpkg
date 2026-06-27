@@ -1,0 +1,23 @@
+id: adams-conjecture
+title_en: "Adams Conjecture"
+title_zh: "亚当斯猜想"
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: [K-theory, Adams-operations, J-homomorphism, stable-homotopy, vector-bundles]
+depends_on:
+  required: []
+  recommended: [j-homomorphism, adams-operations, k-theory-of-vector-bundles]
+  suggested: [stable-homotopy-groups-of-spheres, chern-character]
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "14"
+    section: "14"
+    pages: ""
+    role_in_book: "Major conjecture about the Adams operations and the J-homomorphism, with four proofs surveyed"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

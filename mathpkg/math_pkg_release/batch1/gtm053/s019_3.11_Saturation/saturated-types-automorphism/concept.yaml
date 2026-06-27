@@ -1,0 +1,23 @@
+id: saturated-types-automorphism
+title_en: "Type Equality and Automorphisms in Saturated Structures"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [saturation, automorphism, type, homogeneous]
+depends_on:
+  required: [saturated-structure, type, automorphism]
+  recommended: [homogeneous-structure]
+  suggested: [quantifier-elimination-criterion]
+source_books:
+  - book_id: gtm053
+    author: "Yuri I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "3"
+    section: "3.18"
+    pages: ""
+    role_in_book: "Characterizes type equality in saturated structures via automorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

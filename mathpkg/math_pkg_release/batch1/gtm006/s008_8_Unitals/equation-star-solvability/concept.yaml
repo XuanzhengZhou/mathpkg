@@ -1,0 +1,23 @@
+id: equation-star-solvability
+title_en: "Solvability of the Equation x^{1+\phi}a + x^{\phi}b + xb^{\phi} + c = 0"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: field-theory
+difficulty: intermediate
+tags: [involutory-automorphism, quadratic-equation, norm, galois]
+depends_on:
+  required: []
+  recommended: [equation-x-one-plus-phi-solutions, norm-one-subgroup]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "Hughes, D.R. and Piper, F.C."
+    title: "Projective Planes"
+    chapter: "2"
+    section: "8"
+    pages: ""
+    role_in_book: "Lemma 2.44; algebraic preparation for analyzing line-unital intersections"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

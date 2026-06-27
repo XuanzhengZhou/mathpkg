@@ -1,0 +1,23 @@
+id: symplectic-form-integral-invariant
+title_en: "Symplectic Form as Integral Invariant of Hamiltonian Flow"
+title_zh: "辛形式是哈密顿相流的积分不变量"
+type: theorem
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [integral-invariant, symplectic-form, hamiltonian-phase-flow, liouville-theorem]
+depends_on:
+  required: [integral-invariant, hamiltonian-phase-flow, hamiltonian-flow-preserves-symplectic-structure]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "8"
+    section: "38"
+    pages: "214-218"
+    role_in_book: "Reformulation of the preservation theorem in the language of integral invariants"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

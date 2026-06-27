@@ -1,0 +1,23 @@
+id: cluster-point-of-z-filter
+title_en: "Cluster Point of a z-Filter"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: filters-and-convergence
+difficulty: intermediate
+tags: [z-filter, cluster-point, zero-set, completely-regular]
+depends_on:
+  required: [z-filter, zero-set, completely-regular-space]
+  recommended: [closed-set, intersection]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "7"
+    pages: ""
+    role_in_book: "Definition of cluster point for z-filters"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

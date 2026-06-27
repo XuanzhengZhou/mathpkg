@@ -1,0 +1,23 @@
+id: empty-space-in-projective-geometry
+title_en: "Empty Space in Projective Geometry"
+title_zh: "射影几何中的空空间"
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags: [projective-geometry, empty-space, zero-subspace, g-dimension]
+depends_on:
+  required: [g-dimension, points-lines-planes-hyperplanes]
+  recommended: [projective-geometry-of-a-vector-space]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II. Classical Projective Planes"
+    section: "2. Basic Definitions and Results"
+    pages: "30-32"
+    role_in_book: "defines the empty space as the zero subspace"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

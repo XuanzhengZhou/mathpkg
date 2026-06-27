@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $p > 1$ and let $T$ be a diagonalizable toral $k$-subcoring (resp. $k$-subbiring) of $H(K/k)$. Then $T_\pi$ is a $\pi$-subcoring (resp. $\pi$-subbiring) of $H(K)$ and $H(K/K^T) = K\langle T \rangle = K\langle T_\pi \rangle$ (resp. $H(K/K^T) = KT = KT_\pi$).

@@ -1,0 +1,10 @@
+---
+role: introduce
+locale: en
+content_hash: "164a392fc8a7"
+written_against: "2026-06-27"
+---
+
+B1 (proposition) from Combinatorics with Emphasis on the Theory of Graphs.
+
+Let $\Gamma$ be given and let $A, Z \subset V, A \cap Z = \varnothing$. Suppose $\Gamma$ contains no AZ-edge. If $\sigma(A, Z) \geq m$, then $\Gamma$ contains an openly-disjoint $m$-family of AZ-paths...

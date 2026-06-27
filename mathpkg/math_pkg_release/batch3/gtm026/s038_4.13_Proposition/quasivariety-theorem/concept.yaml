@@ -1,0 +1,23 @@
+id: quasivariety-theorem
+title_en: "Quasivariety Theorem"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [quasivariety, regular-category, reflective-subcategory, E-M-factorization, small-set-of-objects]
+depends_on:
+  required: [regular-category, quasivariety]
+  recommended: [E-M-factorization, reflective-subcategory]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "4"
+    section: "4.21"
+    pages: "246-249"
+    role_in_book: "Theorem 4.21 characterizes quasivarieties as full replete subcategories closed under products and M-subobjects, serving as the main motivation for defining regular categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

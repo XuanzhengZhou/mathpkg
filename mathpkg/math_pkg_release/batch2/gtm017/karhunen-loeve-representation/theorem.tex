@@ -1,0 +1,7 @@
+\textbf{Karhunen-Loève Theorem:} Let $X_t$, $0 \leq t \leq T$, be a mean-square continuous random process with covariance function $r(t, \tau) = EX_t X_\tau$. Then
+$$X_t = \sum_{i=1}^{\infty} Z_i \frac{\varphi_i(t)}{\sqrt{\lambda_i}},$$
+where the $Z_i$ are orthonormal random variables:
+$$Z_i = \sqrt{\lambda_i} \int_0^T X_t \varphi_i(t) dt, \quad E Z_i Z_j = \delta_{i,j},$$
+and $\{\varphi_i\}$, $\{\lambda_i\}$ are eigenfunctions and eigenvalues of the integral equation with kernel $r(t, \tau)$.
+
+The convergence is in mean square. If $X_t$ is Gaussian, the $Z_i$ are independent $N(0,1)$ variables.

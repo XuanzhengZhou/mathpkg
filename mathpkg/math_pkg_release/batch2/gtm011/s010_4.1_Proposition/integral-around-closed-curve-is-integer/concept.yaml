@@ -1,0 +1,13 @@
+id: integral-around-closed-curve-is-integer
+title_en: "Integral around a closed rectifiable curve is an integer"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [complex-integration, winding-number, closed-curve, rectifiable-curve]
+depends_on: {required: [], recommended: [], suggested: []}
+source_books: [{book_id: "gtm011", author: "John B. Conway", title: "Functions of One Complex Variable I", chapter: "4", section: "4.1", pages: "", role_in_book: "Establishes that the integral (2πi)^{-1} ∫_γ dz/(z-a) is an integer, motivating the definition of the winding number"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

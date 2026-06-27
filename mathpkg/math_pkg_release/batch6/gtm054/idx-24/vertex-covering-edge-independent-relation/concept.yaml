@@ -1,0 +1,23 @@
+id: vertex-covering-edge-independent-relation
+title_en: "Relation Between Vertex-Covering Edge Sets and Independent Vertex Sets"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [vertex-covering, edge-set, independent-set, deficiency, graph-parameters]
+depends_on:
+  required: [deficiency-of-graph, alpha-parameters]
+  recommended: [matching-number, vertex-cover-number]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "V"
+    section: "C"
+    pages: ""
+    role_in_book: "Proposition C6: For any graph with k isolated vertices, $\beta_{10} + k = \alpha_1 + \delta$ and $\delta \leq \alpha_0 \leq \beta_{10} + k$."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

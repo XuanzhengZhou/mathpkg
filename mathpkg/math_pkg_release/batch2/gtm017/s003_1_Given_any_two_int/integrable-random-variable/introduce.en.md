@@ -1,0 +1,1 @@
+A general random variable is decomposed into its positive part $X_+$ and negative part $X_-$, both non-negative. The variable is called integrable when both parts are integrable, and its integral is the difference of the two integrals. This extends the Lebesgue integral from non-negative to real-valued measurable functions.

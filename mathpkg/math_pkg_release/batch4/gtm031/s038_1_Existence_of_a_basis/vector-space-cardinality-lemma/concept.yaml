@@ -1,0 +1,23 @@
+id: vector-space-cardinality-lemma
+title_en: "Cardinal Number of an Infinite-Dimensional Vector Space (Lemma 1)"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [cardinal-number, vector-space, dimension, infinite-cardinals]
+depends_on:
+  required: [basis-of-vector-space, invariance-of-basis-cardinality]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "Lemma 1: If dim R = b is infinite and the cardinal number of Delta is d, then the cardinal number of R is bd."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

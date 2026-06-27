@@ -1,0 +1,23 @@
+id: jacobi-sum-finite-field
+title_en: "Jacobi Sum on Finite Fields"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: character-sums
+difficulty: intermediate
+tags: ["jacobi-sum", "finite-fields", "multiplicative-character", "character-sums", "cyclotomic-fields"]
+depends_on:
+  required: []
+  recommended: ["gauss-sum-finite-field", "character-finite-field"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "1"
+    pages: "3-4"
+    role_in_book: "Core definition, basis for Stickelberger relations and class number formulas"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

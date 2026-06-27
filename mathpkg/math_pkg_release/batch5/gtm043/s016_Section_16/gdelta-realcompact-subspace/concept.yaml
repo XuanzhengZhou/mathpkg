@@ -1,0 +1,23 @@
+id: gdelta-realcompact-subspace
+title_en: "Subspaces of Realcompact G-delta Spaces"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: realcompact-spaces
+difficulty: intermediate
+tags: [realcompact, gdelta, subspace, cardinal-invariant]
+depends_on:
+  required: []
+  recommended: [realcompact-space, gdelta-set, gdelta-point]
+  suggested: [pseudocompact, lindelof]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "8"
+    section: "16"
+    pages: ""
+    role_in_book: "Corollary: if Y is realcompact and each point is a G-delta, then every subspace is realcompact"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

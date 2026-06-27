@@ -1,0 +1,15 @@
+A \textbf{Markov process} $\{X_t, t \in T\}$ with state space $\Omega_X$ and sigma-field $\mathcal{F}_X$ is specified by:
+\begin{enumerate}
+\item An initial probability measure $P(t_0, A)$ on $\mathcal{F}_X$.
+\item A transition probability function $P(\tau, x; t, A)$, $t_0 \leq \tau < t$, $x \in \Omega_X$, $A \in \mathcal{F}_X$, satisfying:
+  \begin{enumerate}
+  \item $P(\tau, x; t, \cdot)$ is a probability measure on $\mathcal{F}_X$
+  \item $P(\tau, \cdot; t, A)$ is $\mathcal{F}_X$-measurable
+  \item The Chapman-Kolmogorov equation:
+    $$P(\tau, x; t, A) = \int_{\Omega_X} P(\tau, x; t', dy) P(t', y; t, A)$$
+    for any $t'$ with $\tau < t' < t$
+  \end{enumerate}
+\end{enumerate}
+
+Given the present, past and future are independent:
+$$P(AB \mid X_t = x) = P(A \mid X_t = x) P(B \mid X_t = x).$$

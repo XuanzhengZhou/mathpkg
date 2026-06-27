@@ -1,0 +1,111 @@
+If $Q$ is a transient kernel and $f$ is a $Q$-excessive function, then
+
+$$f(x) = h(x) + u(x),$$
+
+where
+
+$$h(x) = \lim_{n \to \infty} \sum_{y \in S} Q_n(x,y)f(y) < \infty, \quad x \in S,$$
+
+is $Q$-regular, and where
+
+$$u(x) = \sum_{t \in S} g(x,t)[f(t) - Qf(t)], \quad x \in S,$$
+
+is a $Q$-potential. Moreover, this decomposition is unique.
+
+Proof: Let $f(x) - Qf(x) = \psi(x)$. Since $f$ is excessive, $\psi$ is non-negative on $S$. Furthermore
+
+$$Q_k f(x) - Q_{k+1} f(x) = Q_k\psi(x) \geq 0, \quad x \in S, \
+
+Now $g_n(x,y)$ increases to $g(x,y)$ as $n \to \infty$, and in view of the inequality
+
+$$g_n \psi(x) \leq f(x) < \infty, \quad x \in S,$$
+
+$$\lim_{n \to \infty} g_n \psi(x) = g \psi(x) < \infty, \quad x \in S.$$
+
+The function $g \psi(x)$ is the potential $u(x)$ in T1, and the argument which gave the existence of the limit of $g_n \psi(x)$ also implies that
+
+$$\lim_{n \to \infty} Q_{n+1} f(x) < \infty, \quad x \in S,$$
+
+exists. This is clearly a regular function (as $Q_n f$ and $Q_n(Qf)$ have the same limit) and so we identify it with $h(x)$ in T1. Thus the Riesz decomposition was obtained by letting $n \to \infty$ in $f = Q_{n+1} f + g_n \psi$.
+
+To prove uniqueness, suppose that $f = h' + u', h'$ regular, $u'$ a potential, in addition to $f = u + h$ with $u$ and $h$ as defined in T1. Then
+
+$$v(x) = u'(x) - u(x) = h(x) - h'(x), \quad x \in S,$$
+
+and since
+
+$$Qh(x) - Qh'(x) = h(x) - h'(x), \quad x \in S,$$
+
+we have
+
+$$Qv(x) = Q_n v(x) = v(x), \quad x \in S, \quad n \geq 0.$$
+
+Because $v(x)$ is the difference of two potentials, part (c) of P1 gives
+
+$$\lim_{n \to \infty} Q_n v(x) = 0 = v(x), \quad x \in S.$$
+
+This implies that $u(x) \equiv u'(x)$ and therefore also that $h(x) \equiv h'(x)$, establishing the uniqueness of the decomposition.
+
+This is all we shall need in the sequel, but it is tempting to pursue the subject a little further.
+
+Since $Q_n'(x,y) \leq Q_n(x,y)$ for $x,y$ in $S-A$, we have $g'(x,y) \leq g(x,y)$ for $x,y$ in $S-A$, so that $g'(x,y) < \infty$, which means that $Q'$ is a transient kernel over the set $S-A$. Next we define
+
+(1) $H_A(x,y) = \sum_{t \in S-A} g'(x,t)Q(t,y), \quad x \in S-A, \quad y \in A.$
+
+Observe that if we think of $Q(x,y)$ as defining a random process on the set $S$, then $H_A(x,y)$ would have the same probability interpretation as in D10.1. It would be the probability that the first visit to $A$ occurs at the point $y$, if the process starts at the point $x$ in $S-A$. It suggests the identity
+
+(2) $g(x,y) = \sum_{t \in A} H_A(x,t)g(t,y), \quad x \in S-A, \quad y \in A,$
+
+and the inequality
+
+(3) $\sum_{t \in A} H_A(x,t) \leq 1, \quad x \in S-A.$
+
+For random walk (2) and (3) were obtained in P10.1. Assuming, for the moment, that they are valid in this more general context, equation (2) implies
+
+$$u(x) = \sum_{y \in A} g(x,y)\psi(y) = \sum_{t \in A} H_A(x,t)u(t), \quad x \in S-A,$$
+
+so that
+
+$$u(x) \leq \left[ \sum_{t \in A} H_A(x,t) \right] \sup_{t \in A} u(t), \quad x \in S-A.$$
+
+Finally, one uses (3) to complete the proof of the maximum principle.
+
+For the proof of (2) and (3) the use of measure theory would indeed be a convenience, as it makes the intuitive use of stopping times legitimate. But an elementary proof of (2) and (3) based on the definition of $H_A(x,y)$ in (1) is not at all difficult.
+
+can study the regular functions of a transient kernel. More specifically, it will be seen that there is an intimate connection between the asymptotic behavior of the ratio
+
+$$\frac{g(x_1,y)}{g(x_2,y)} \quad \text{for large } |y|$$
+
+and the various $Q$-regular functions (if there are any). This connection was first systematically used by R. S. Martin [75], 1941, in his work with harmonic functions in arbitrary domains in the plane. All we shall attempt to do is to present useful special cases of a method for finding and representing $Q$-regular functions. In recent work in probability theory of Doob, Hunt, and others, this fruitful and, in its full generality, rather deep method is called the construction of the Martin boundary.
+
+Our excuse for attempting this foray into abstract potential theory is that probabilistic results from earlier chapters will find, rather unexpectedly, elegant applications in a new setting. For example, in E3 at the end of this section, we shall return to random walk on a half-line. Thus $R$ will be the set of integers, and it will be natural to take for $S$ the set $[0,\infty)$ of non-negative integers. If $P(x,y)$ is the transition function of an aperiodic random walk, and if $Q(x,y)$ is the restriction of $P(x,y)$ to $S$, then $Q$ becomes a transient kernel on $S$, in the sense of definition D1. If $g(x,y)$ is the Green function of $Q$ in the sense of D1, it is clear that it is simultaneously the Green function $g_B(x,y) = g(x,y)$ in the sense of definition D19.3. About this particular Green function we know a good deal. Thus, according to P19.3
+
+$$g(x,y) = \sum_{n=0}^{\min(x,y)} u(x-n)v(y-n), \quad x \geq 0, \quad y \geq 0,$$
+
+and in section 18 of Chapter IV we studied the functions $u(x)$ and $v(x)$ quite thoroughly. In particular the asymptotic properties of $g(x,y)$ should present no formidable difficulties, at least under reasonable auxiliary hypotheses. Using this information
+
+of D19.4. In P19.5 this equation was shown to have the solution
+
+$$f(x) = u(0) + u(1) + \cdots + u(x), \quad x \geq 0.$$
+
+Thus E3 will show that for recurrent aperiodic random walk the Wiener-Hopf equation has a unique non-negative solution, or, if one prefers a different viewpoint, that the function $u(x)$, which plays such a crucial role in fluctuation theory, has a simple potential theoretical characterization.
+
+Similarly, a strong case can be made for another look at aperiodic recurrent random walk in the plane. If $P(x,y)$ is the transition function on $R$, let $S = R - \{0\}$, $Q(x,y) = P(x,y)$ for $x,y$ in $R - \{0\}$. Then $Q$ is a transient kernel. According to P13.3
+
+$$\sum_{y \in R} P(x,y)a(y) - a(x) = \delta(x,0), \quad x \in R,$$
+
+where $a(x)$ is the potential kernel in P12.1. Since $a(0) = 0$, the above equation implies
+
+$$\sum_{y \in S} Q(x,y)a(y) = a(x), \quad x \in S,$$
+
+so that $a(x)$ is a $Q$-regular function on $S$. Is it (apart from a multiplicative constant) the only $Q$-regular function? It will follow, from P3 below, that this is so, and the reason we can prove it is that, according to P11.6 and P12.2, we know that
+
+$$g(x,y) = a(x) + a(-y) - a(x-y),$$
+
+and
+
+$$\lim_{|y| \to \infty} [a(x+y) - a(y)] = 0.$$
+
+The details will be given in E4. The last application, in E5 to analysis proper, will concern the Hausdorff moment problem.
+
+Two innovations of terminology are needed. Given any countable set $S$, and a real valued function $f(x)$ on $S$

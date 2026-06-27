@@ -1,0 +1,23 @@
+id: ck-is-free-ideal
+title_en: "C_K(N) is a Free Ideal"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: basic
+tags: [free-ideal, finitely-supported-functions, C(N), C*(N)]
+depends_on:
+  required: [free-ideal]
+  recommended: [C-star-of-N]
+  suggested: [ideal-containing-j-is-free]
+source_books:
+  - book_id: "gtm043"
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4.3"
+    pages: "65"
+    role_in_book: "Key example: the ideal of finitely supported functions is the intersection of all free ideals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

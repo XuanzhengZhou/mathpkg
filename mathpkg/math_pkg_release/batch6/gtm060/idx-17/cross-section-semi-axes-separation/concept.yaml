@@ -1,0 +1,23 @@
+id: cross-section-semi-axes-separation
+title_en: "Semi-Axes of Cross-Section Separate Semi-Axes of Ellipsoid"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: convex-geometry
+difficulty: intermediate
+tags: [ellipsoid, cross-section, semi-axes, separation, eigenvalue-interlacing]
+depends_on:
+  required: [extremal-property-of-eigenvalues]
+  recommended: [contained-ellipsoid-semi-axes-inequality]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "5"
+    section: "24"
+    pages: ""
+    role_in_book: "Theorem 4 of Section 24: Geometric version of the constraint frequency separation theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

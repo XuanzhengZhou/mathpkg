@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "V"
+section: "Exercises"
+exercise_number: 23
+---
+
+23. If $X$ is a compact space, the Banach lattice $\mathcal{C}_{\mathbf{R}}(X)$ is order complete exactly when $X$ is extremally disconnected (a Stonian space). Infer from this that $\mathcal{C}_{\mathbf{R}}(X)$ cannot be a dual Banach space, unless $X$ is Stonian, and not reflexive, unless $X$ is finite.

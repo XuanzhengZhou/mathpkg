@@ -1,0 +1,16 @@
+A \textbf{monoidal category} $\langle B, \square, e, \alpha, \lambda, \varrho \rangle$ is a category $B$ equipped with a bifunctor $\square : B \times B \to B$, an object $e \in B$, and natural isomorphisms
+$$\alpha = \alpha_{a,b,c} : a \square (b \square c) \cong (a \square b) \square c,$$
+$$\lambda_a : e \square a \cong a, \qquad \varrho_a : a \square e \cong a,$$
+such that the following two coherence diagrams commute.
+First, the \textbf{pentagon} diagram: for all $a, b, c, d \in B$,
+$$a \square (b \square (c \square d)) \xrightarrow{\alpha} (a \square b) \square (c \square d) \xrightarrow{\alpha} ((a \square b) \square c) \square d,$$
+$$a \square ((b \square c) \square d) \xrightarrow{\alpha} (a \square (b \square c)) \square d \xrightarrow{\alpha \square 1} ((a \square b) \square c) \square d$$
+commutes.
+
+Second, the \textbf{triangle} diagram: for all $a, c \in B$,
+$$a \square (e \square c) \xrightarrow{\alpha} (a \square e) \square c$$
+$$1 \square \lambda \downarrow \qquad \qquad \downarrow \varrho \square 1$$
+$$a \square c = a \square c$$
+commutes, and also $\lambda_e = \varrho_e : e \square e \to e$.
+
+In a strict monoidal category, $\alpha$, $\lambda$, and $\varrho$ are identities.

@@ -1,0 +1,28 @@
+id: theorem-4-28-ostrom-desargues-configuration
+title_en: 'Theorem 4.28 (Ostrom): Finite Planes Contain Desargues Configurations'
+title_zh: ''
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags:
+- desargues
+- finite-projective-plane
+- ostrom
+depends_on:
+  required:
+  - triangles-in-perspective
+  - desargues-configuration
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '7'
+  pages: ''
+  role_in_book: 'Deep result: every finite projective plane admits Desargues configurations'
+content_hash: ae08cec6f26b
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

@@ -1,0 +1,23 @@
+id: forgetful-functor-creates-limits
+title_en: "Forgetful Functor Creates Limits"
+title_zh: "遗忘函子创造极限"
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [category, limit, forgetful-functor, group, creates-limits]
+depends_on:
+  required: [creates-limits, limit-group-structure-via-forgetful-functor, completeness-of-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "1"
+    pages: ""
+    role_in_book: "Theorem 3 — restates Theorem 2 in the new terminology of creation of limits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

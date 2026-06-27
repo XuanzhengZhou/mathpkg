@@ -1,0 +1,23 @@
+id: complementary-module-via-derivative
+title_en: "Complementary Module via Derivative of Minimal Polynomial"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [complementary-module, different, lagrange-interpolation, derivative, minimal-polynomial, dedekind-domain]
+depends_on:
+  required: [complementary-module, minimal-polynomial, trace-form, lagrange-interpolation]
+  recommended: [separable-extension, dedekind-domain, integral-closure]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "IV"
+    section: "11. Different and discriminant"
+    pages: ""
+    role_in_book: "Expresses the complementary module in terms of the derivative of the minimal polynomial"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+P. Levy's inversion formula recovers the distribution function from its characteristic function. For continuity points $a,b$, the probability mass in $(a,b]$ is expressed as an improper integral. When the characteristic function is integrable, the distribution is absolutely continuous with a density given by the ordinary inverse Fourier transform.

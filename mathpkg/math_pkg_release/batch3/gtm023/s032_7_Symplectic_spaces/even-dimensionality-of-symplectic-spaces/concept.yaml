@@ -1,0 +1,23 @@
+id: even-dimensionality-of-symplectic-spaces
+title_en: "Even Dimensionality of Symplectic Spaces"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [symplectic, even-dimension, skew-symmetric, non-degenerate, bilinear-form]
+depends_on:
+  required: [symplectic-inner-product]
+  recommended: [skew-symmetric-bilinear-form, non-degenerate-bilinear-form]
+  suggested: [determinant, alternating-form]
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "7"
+    pages: "347-352"
+    role_in_book: "Characterizes when a symplectic structure can exist on a finite-dimensional vector space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

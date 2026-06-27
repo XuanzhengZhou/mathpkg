@@ -1,0 +1,28 @@
+A \textbf{monoidal category} is a 6-tuple $(\mathcal{K}, \otimes, I, a, b, c)$ where:
+\begin{itemize}
+\item $\mathcal{K}$ is a category,
+\item $\otimes: \mathcal{K} \times \mathcal{K} \to \mathcal{K}$ is a functor,
+\item $I$ is an object of $\mathcal{K}$ (the unit for $\otimes$),
+\item $(A,B,C)a: A \otimes (B \otimes C) \to (A \otimes B) \otimes C$,
+\item $Ab: I \otimes A \to A$,
+\item $Ac: A \otimes I \to A$
+\end{itemize}
+are natural equivalences subject to the commutativity of the following coherence diagrams:
+
+\textbf{Pentagon axiom:}
+$$
+\begin{CD}
+A \otimes (B \otimes (C \otimes D)) @>{a}>> (A \otimes B) \otimes (C \otimes D) @>{a}>> ((A \otimes B) \otimes C) \otimes D \\
+@V{\mathrm{id} \otimes a}VV @AA{a \otimes \mathrm{id}}A \\
+A \otimes ((B \otimes C) \otimes D) @>>{a}> (A \otimes (B \otimes C)) \otimes D
+\end{CD}
+$$
+
+\textbf{Triangle axiom (unit coherence):}
+$$
+\begin{CD}
+A \otimes (I \otimes C) @>{a}>> (A \otimes I) \otimes C \\
+@V{\mathrm{id} \otimes b}VV @VV{c \otimes \mathrm{id}}V \\
+A \otimes C @= A \otimes C
+\end{CD}
+$$

@@ -1,0 +1,23 @@
+id: cantor-set
+title_en: "Cantor Set"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: real-analysis
+difficulty: intermediate
+tags: [cantor-set, ternary, nullset, nowhere-dense, uncountable, perfect-set]
+depends_on:
+  required: [nullset, nowhere-dense-set]
+  recommended: [countable-set]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Prime example of an uncountable set that is both null and of first category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

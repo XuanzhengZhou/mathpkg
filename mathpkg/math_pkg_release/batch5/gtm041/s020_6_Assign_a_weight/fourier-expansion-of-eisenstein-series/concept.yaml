@@ -1,0 +1,23 @@
+id: fourier-expansion-of-eisenstein-series
+title_en: "Fourier Expansion of Eisenstein Series G_{2k}(tau)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [fourier-expansion, eisenstein-series, divisor-sum, zeta-function, q-expansion]
+depends_on:
+  required: [eisenstein-series, divisor-sum-function]
+  recommended: []
+  suggested: [fourier-expansion-of-discriminant]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.1"
+    pages: ""
+    role_in_book: "Introduces the q-expansion connecting Eisenstein series to divisor sums and zeta values"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,43 @@
+Let $\mathbf{C} = (C_0, C_1, i, d_0, d_1, \gamma)$ be an internal category in a finitely complete category $\mathcal{E}$.
+
+A \textbf{left $\mathbf{C}$-object} (also called an \textbf{internal diagram} on $\mathbf{C}$, or an \textbf{internal base-valued functor}) consists of:
+
+\begin{itemize}
+\item an object $H \in \mathcal{E}$, together with a projection morphism
+  $$\pi : H \to C_0;$$
+\item an action morphism
+  $$\mu : C_1 \times_{C_0} H \to H,$$
+  defined on the pullback
+  \[
+  \begin{CD}
+  C_1 \times_{C_0} H @>>> H \\
+  @VVV @VV{\pi}V \\
+  C_1 @>>{d_1}> C_0
+  \end{CD}
+  \]
+\end{itemize}
+
+satisfying the following laws:
+\begin{enumerate}
+\item \textbf{Unit law}: $\mu \circ (i \times 1_H) = 1_H$, i.e., the diagram
+\[
+\begin{CD}
+C_0 \times_{C_0} H @>{i \times 1}>> C_1 \times_{C_0} H \\
+@V{\cong}VV @VV{\mu}V \\
+H @= H
+\end{CD}
+\]
+commutes;
+
+\item \textbf{Associative law}: $\mu \circ (\gamma \times 1_H) = \mu \circ (1_{C_1} \times \mu)$, i.e., the diagram
+\[
+\begin{CD}
+C_1 \times_{C_0} C_1 \times_{C_0} H @>{1 \times \mu}>> C_1 \times_{C_0} H \\
+@V{\gamma \times 1}VV @VV{\mu}V \\
+C_1 \times_{C_0} H @>>{\mu}> H
+\end{CD}
+\]
+commutes.
+\end{enumerate}
+
+When $\mathcal{E} = \mathbf{Set}$, a left $\mathbf{C}$-object is precisely a (covariant) functor $H : \mathbf{C} \to \mathbf{Set}$ from the small category $\mathbf{C}$ to the ambient category of sets.

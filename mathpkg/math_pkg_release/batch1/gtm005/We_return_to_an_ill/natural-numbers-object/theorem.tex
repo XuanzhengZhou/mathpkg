@@ -1,0 +1,13 @@
+A \textbf{natural numbers object} (NNO) in a category is a diagram
+
+$$1 \xrightarrow{O} N \xrightarrow{s} N$$
+
+consisting of an object $N$, a global element $O : 1 \to N$ (zero), and an endomorphism $s : N \to N$ (successor), satisfying the following universal property: for any object $b$ and any arrows $h : 1 \to b$ and $k : b \to b$, there exists a unique arrow $f : N \to b$ making the diagram commute:
+
+$$\begin{array}{ccccc}
+1 & \xrightarrow{O} & N & \xrightarrow{s} & N \\
+& \searrow{\scriptstyle h} & {\scriptstyle f}\downarrow & & \downarrow{\scriptstyle f} \\
+& & b & \xrightarrow{k} & b
+\end{array}$$
+
+In functional notation, this means $f(O) = h$ and $f \circ s = k \circ f$, i.e., $f$ is defined by recursion: $f(0) = h$ and $f(s(n)) = k(f(n))$ for all $n \in N$.

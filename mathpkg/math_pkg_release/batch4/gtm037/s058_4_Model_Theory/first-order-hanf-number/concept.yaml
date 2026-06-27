@@ -1,0 +1,23 @@
+id: first-order-hanf-number
+title_en: "Hanf Number of First-Order Logic"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [hanf-number, first-order-logic, lowenheim-skolem]
+depends_on:
+  required: [hanf-number, upward-lowenheim-skolem-theorem]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "4"
+    section: "Model Theory"
+    pages: ""
+    role_in_book: "Corollary 19.30: the Hanf number of first-order languages is ω (text truncated in source)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

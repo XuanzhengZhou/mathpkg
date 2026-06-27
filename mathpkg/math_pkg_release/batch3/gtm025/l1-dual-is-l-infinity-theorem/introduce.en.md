@@ -1,0 +1,1 @@
+For decomposable measure spaces, the dual of $L^1$ is isometrically isomorphic to $L^{\infty}$. This representation theorem is fundamental for the study of finitely additive measures and the dual of $L^1$.

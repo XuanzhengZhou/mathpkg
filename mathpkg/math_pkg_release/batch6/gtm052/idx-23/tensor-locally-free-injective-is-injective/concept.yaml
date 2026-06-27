@@ -1,0 +1,23 @@
+id: tensor-locally-free-injective-is-injective
+title_en: "Tensor Product of Locally Free and Injective Sheaf is Injective"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [injective-sheaves, locally-free-sheaves, tensor-product, ringed-spaces]
+depends_on:
+  required: []
+  recommended: [injective-object, locally-free-sheaf, tensor-product-of-sheaves]
+  suggested: [sheaf-hom, dual-sheaf]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "6"
+    pages: "250-252"
+    role_in_book: "Lemma 6.6: if L is locally free of finite rank and I is injective, then L⊗I is injective"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

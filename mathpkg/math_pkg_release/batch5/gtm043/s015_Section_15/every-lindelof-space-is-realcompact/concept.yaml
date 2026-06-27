@@ -1,0 +1,23 @@
+id: every-lindelof-space-is-realcompact
+title_en: "Every Lindelöf Space is Realcompact"
+title_zh: "每个林德勒夫空间都是实紧的"
+type: theorem
+domain: topology
+subdomain: general-topology
+difficulty: intermediate
+tags: [lindelof, realcompact, z-filter, countable-intersection-property]
+depends_on:
+  required: [lindelof-space, realcompact-space, z-filter]
+  recommended: [real-maximal-ideal, fixed-ideal]
+  suggested: [hewitt-realcompactification-vx]
+source_books:
+  - book_id: gtm043
+    author: "Leonard Gillman, Meyer Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "8"
+    section: "8.2"
+    pages: ""
+    role_in_book: "Fundamental theorem linking Lindelöf property to realcompactness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

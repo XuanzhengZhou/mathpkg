@@ -1,0 +1,13 @@
+id: complete-theory-decidability
+title_en: "Decidability of complete recursively axiomatizable theories"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [decidability, complete-theory, recursive-axiomatization, proof-enumeration]
+depends_on: {required: [completeness, recursive-axiomatization], recommended: [godel-numbering], suggested: [decision-procedure]}
+source_books: [{book_id: "gtm053", author: "Yuri I. Manin", title: "A Course in Mathematical Logic for Mathematicians", chapter: "4", section: "4.12", pages: "", role_in_book: "General proposition: a complete theory axiomatizable by a recursively enumerable set of axioms is decidable"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

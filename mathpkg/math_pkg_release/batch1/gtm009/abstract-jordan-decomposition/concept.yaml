@@ -1,0 +1,20 @@
+id: abstract-jordan-decomposition
+title_en: "Abstract Jordan Decomposition in Semisimple Lie Algebras"
+title_zh: "半单李代数的抽象 Jordan 分解"
+type: theorem
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [jordan-decomposition, semisimple, ad-semisimple, ad-nilpotent, abstract]
+depends_on: {required: [semisimple-lie-algebra, jordan-chevalley-decomposition], recommended: [], suggested: []}
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "5"
+    section: "5.4"
+    pages: "40-42"
+    role_in_book: "Lifts Jordan decomposition to abstract setting"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

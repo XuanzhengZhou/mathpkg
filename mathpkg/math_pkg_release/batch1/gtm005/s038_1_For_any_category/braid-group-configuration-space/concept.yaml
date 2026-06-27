@@ -1,0 +1,25 @@
+id: braid-group-configuration-space
+title_en: "Braid Group as Fundamental Group of Configuration Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: configuration-spaces
+difficulty: intermediate
+tags: [braid-group, fundamental-group, configuration-space, artin]
+depends_on:
+  required: [artin-braid-group]
+  recommended: [fundamental-group, topological-space]
+  suggested: [covering-space, eilenberg-maclane-space]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    edition: "2nd"
+    year: 1998
+    chapter: "XI"
+    section: "4"
+    pages: ""
+    role_in_book: "Topological definition of braid groups via configuration spaces, providing a geometric foundation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

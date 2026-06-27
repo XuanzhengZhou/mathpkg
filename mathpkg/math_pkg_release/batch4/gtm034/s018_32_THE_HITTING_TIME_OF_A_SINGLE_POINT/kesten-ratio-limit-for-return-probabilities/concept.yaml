@@ -1,0 +1,23 @@
+id: kesten-ratio-limit-for-return-probabilities
+title_en: "Kesten's Ratio Limit Theorem for Return Probabilities"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [return-probability, ratio-limit, kesten, strongly-aperiodic]
+depends_on:
+  required: []
+  recommended: [strongly-aperiodic-random-walk, hitting-time-definition]
+  suggested: []
+source_books:
+  - book_id: "gtm034"
+    author: "Frank Spitzer"
+    title: "Principles of Random Walk"
+    chapter: "VI"
+    section: "32"
+    pages: "378-391"
+    role_in_book: "Kesten's 1963 theorem: for strongly aperiodic recurrent random walk in one dimension, the ratio of successive return probabilities converges to 1"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

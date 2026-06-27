@@ -1,0 +1,23 @@
+id: urysohn-extension-theorem
+title_en: "Urysohn's Extension Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [urysohn, c-star-embedded, extension, completely-separated, fundamental]
+depends_on:
+  required: [c-star-embedded, completely-separated-iff-disjoint-zero-sets]
+  recommended: [urysohn-lemma, tietze-extension]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "1"
+    section: "1.17"
+    pages: ""
+    role_in_book: "The fundamental theorem characterizing C*-embedding via complete separation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

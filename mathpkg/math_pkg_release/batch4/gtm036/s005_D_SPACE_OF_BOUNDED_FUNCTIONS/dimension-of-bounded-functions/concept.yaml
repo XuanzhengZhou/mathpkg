@@ -1,0 +1,23 @@
+id: dimension-of-bounded-functions
+title_en: "Dimension of the Space of Bounded Functions"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [bounded-functions, dimension, cardinality, linear-space]
+depends_on:
+  required: [space-of-bounded-functions, linear-independence-of-u-alpha]
+  recommended: [cardinal-arithmetic, hamel-basis]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "0"
+    section: "D"
+    pages: ""
+    role_in_book: "Shows that the algebraic dimension of B(S) is an exponential in cardinal arithmetic, illustrating the enormous size of infinite-dimensional function spaces."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

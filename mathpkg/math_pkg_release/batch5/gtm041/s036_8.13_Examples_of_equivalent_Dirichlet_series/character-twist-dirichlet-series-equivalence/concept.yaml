@@ -1,0 +1,13 @@
+id: character-twist-dirichlet-series-equivalence
+title_en: "Equivalence of Dirichlet Series Under Character Twists"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: dirichlet-series
+difficulty: advanced
+tags: [dirichlet-series, bohr-equivalence, dirichlet-characters, l-series]
+depends_on: {required: [], recommended: [bohr-equivalence-theorem, dirichlet-character], suggested: []}
+source_books: [{book_id: "gtm041", author: "Tom M. Apostol", title: "Modular Functions and Dirichlet Series in Number Theory", chapter: "8", section: "8.13", pages: "", role_in_book: "Theorem 8.17 — shows that twisting a Dirichlet series by a Dirichlet character preserves Bohr equivalence when the coefficients are supported on integers coprime to the modulus"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

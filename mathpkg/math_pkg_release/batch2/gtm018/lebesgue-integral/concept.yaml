@@ -1,0 +1,23 @@
+id: lebesgue-integral
+title_en: "Lebesgue Integral"
+title_zh: "Lebesgue积分"
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-theory, lebesgue-integral, integration]
+depends_on:
+  required: [integrable-simple-function, measurable-function, measure]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "V"
+    section: "25"
+    pages: ""
+    role_in_book: "The central concept of integration with respect to a measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

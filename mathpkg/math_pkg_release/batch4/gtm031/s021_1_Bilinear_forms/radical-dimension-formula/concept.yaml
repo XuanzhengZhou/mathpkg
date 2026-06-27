@@ -1,0 +1,23 @@
+id: radical-dimension-formula
+title_en: "Dimension Formula for Radicals of a Bilinear Form"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [bilinear-form, radical, dimension, rank]
+depends_on:
+  required: [left-radical-and-right-radical, canonical-form-of-bilinear-form]
+  recommended: [rank-nullity-theorem, dimension]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "Bilinear Forms"
+    section: "1. Bilinear forms"
+    pages: ""
+    role_in_book: "Relates the dimensions of the radicals to the dimension of the space and the rank"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

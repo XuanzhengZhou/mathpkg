@@ -1,0 +1,23 @@
+id: birkhoff-subcategory-induces-theory-map
+title_en: "Birkhoff Subcategory Induces Theory Map"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: universal-algebra
+difficulty: advanced
+tags: [birkhoff-subcategory, theory-map, algebraic-theory, reflection, kleisli-category]
+depends_on:
+  required: [abstract-birkhoff-subcategory, algebraic-theory, theory-map]
+  recommended: [kleisli-category, eilenberg-moore-category]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "3"
+    section: "3.2"
+    pages: ""
+    role_in_book: "Constructs the algebraic theory T' and the theory map lambda: T -> T' induced by an abstract Birkhoff subcategory, establishing the correspondence between Birkhoff subcategories and quotient theories."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

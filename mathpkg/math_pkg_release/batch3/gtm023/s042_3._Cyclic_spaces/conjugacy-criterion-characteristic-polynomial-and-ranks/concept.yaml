@@ -1,0 +1,23 @@
+id: conjugacy-criterion-characteristic-polynomial-and-ranks
+title_en: "Conjugacy Criterion: Same Characteristic Polynomial and Rank Condition"
+title_zh: "共轭准则：相同特征多项式与秩条件"
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [conjugacy-criterion-minimum-polynomial-and-ranks, characteristic-polynomial]
+  recommended: [rank, cayley-hamilton]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Two linear transformations are conjugate iff they have the same characteristic polynomial and satisfy (ii)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

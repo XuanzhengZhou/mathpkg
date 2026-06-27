@@ -1,0 +1,23 @@
+id: monotone-class
+title_en: "Monotone Class of Sets"
+title_zh: "单调类"
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [set-theory, monotone-class]
+depends_on:
+  required: [monotone-sequence-of-sets, limit-of-sequence-of-sets]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "I"
+    section: "6"
+    pages: ""
+    role_in_book: "A class closed under limits of monotone sequences"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

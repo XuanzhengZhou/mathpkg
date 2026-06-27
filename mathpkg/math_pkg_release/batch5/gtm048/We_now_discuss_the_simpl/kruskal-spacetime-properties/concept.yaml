@@ -1,0 +1,23 @@
+id: kruskal-spacetime-properties
+title_en: "Properties of Kruskal spacetime"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: general-relativity
+difficulty: advanced
+tags: [kruskal-spacetime, curvature, vacuum-spacetime, stationary-spacetime, killing-vector-field]
+depends_on:
+  required: [kruskal-spacetime, normal-schwarzschild-spacetime]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm048"
+    author: "Sachs-Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "7"
+    section: "7.5"
+    pages: ""
+    role_in_book: "Computes curvature invariant f and establishes global properties of Kruskal spacetime: vacuum, not flat, not stationary"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

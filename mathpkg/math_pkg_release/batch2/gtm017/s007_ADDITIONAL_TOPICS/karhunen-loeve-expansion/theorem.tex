@@ -1,0 +1,5 @@
+Let $X_t$, $0 \leq t \leq T$, be a real-valued random process with covariance $r(t,\tau) = E[X_t X_\tau]$ (assuming $E X_t = 0$). Let $\varphi_i(t)$ be orthonormal eigenfunctions with eigenvalues $\lambda_i$ of the integral equation $\varphi(t) = \lambda \int_0^T r(t,\tau) \varphi(\tau) d\tau$.
+
+Define $Z_i = \sqrt{\lambda_i} \int_0^T X_t \varphi_i(t) \, dt$. Then the process admits the expansion
+$$X_t = \sum_{i=1}^{\infty} Z_i \frac{\varphi_i(t)}{\sqrt{\lambda_i}}$$
+in the sense of mean square convergence. If $X_t$ is a Gaussian process, the $Z_i$ are independent standard normal variables.

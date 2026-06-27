@@ -1,0 +1,23 @@
+id: l1-vector-valued-integral-isomorphism
+title_en: "Isomorphism between Completed Projective Tensor Product and Vector-Valued L^1 Space"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: advanced
+tags: [projective-tensor-product, vector-valued-integration, bochner-integral, l1-space, isomorphism, radon-measure]
+depends_on:
+  required: [projective-tensor-product-topology, metrizability-projective-tensor-product]
+  recommended: [l1-space, vector-valued-function, bochner-integral, radon-measure]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "6"
+    pages: ""
+    role_in_book: "Theorem 6.5 — L^1(μ)⊗̃E ≅ L^1_E(μ) isomorphism via projective tensor product"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

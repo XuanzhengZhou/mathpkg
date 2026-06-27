@@ -1,0 +1,23 @@
+id: finitely-generated-projective
+title_en: "Finitely Generated Projective Module Characterization"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [finitely-generated, projective-module, direct-summand, free-module]
+depends_on:
+  required: [projective-module-equivalent-conditions]
+  recommended: [finitely-generated-module]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "5"
+    section: "17"
+    pages: ""
+    role_in_book: "Corollary 17.3 — finitely generated projective iff direct summand of finite-rank free module"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

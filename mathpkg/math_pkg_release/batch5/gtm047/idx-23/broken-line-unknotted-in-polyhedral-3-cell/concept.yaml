@@ -1,0 +1,23 @@
+id: broken-line-unknotted-in-polyhedral-3-cell
+title_en: "Broken Line Is Unknotted in a Polyhedral 3-Cell"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [broken-line, unknotted, polyhedral-3-cell, tame-imbedding, plh]
+depends_on:
+  required: [broken-line, polyhedral-3-cell, piecewise-linear-homeomorphism]
+  recommended: [unknotted-broken-line]
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "19"
+    section: "19 (A Wild Arc with Simply Connected Complement)"
+    pages: ""
+    role_in_book: "Theorem 1 of Chapter 19; establishes that every broken line in R^3 is tame and unknotted"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: broken-line-approximation-in-sphere-interior
+title_en: "Broken Line Approximation in the Interior of a 1-Sphere"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [broken-line, approximation, 1-sphere, schoenflies, interior]
+depends_on:
+  required: [1-sphere, broken-line, linear-accessibility-from-interior]
+  recommended: [interval-collections-for-1-sphere]
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "9"
+    section: "9"
+    pages: ""
+    role_in_book: "Constructs a broken line approximating an arc of J from inside I; used in the polygonal replacement step of the Schönflies proof"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: definition-of-t-algebra
+title_en: "Definition of a T-Algebra (Eilenberg-Moore Algebra)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [monad, t-algebra, eilenberg-moore-algebra, structure-map, associative-law, unit-law]
+depends_on:
+  required: [definition-of-monad]
+  recommended: [definition-of-functor, definition-of-natural-transformation]
+  suggested: [definition-of-monoid-action]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "1. Monads in a Category"
+    pages: "139"
+    role_in_book: "Defines algebras for a monad; the central notion in monadicity theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

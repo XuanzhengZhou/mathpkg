@@ -1,0 +1,23 @@
+id: tychonoff-theorem
+title_en: "Tychonoff Theorem: The Product of Compact Spaces is Compact"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: general-topology
+difficulty: advanced
+tags: [tychonoff, product-topology, compact, finite-intersection-property, zorns-lemma]
+depends_on:
+  required: [product-topology-definition, compactness-finite-intersection-property, zorns-lemma]
+  recommended: [product-topology-base, projection-function-definition]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "Chapter 2: Topological Spaces"
+    section: "2. The Collection of All Meager Borel Sets in a Topological Space"
+    pages: ""
+    role_in_book: "Theorem 3.32 (Tychonoff): Product of compact spaces is compact"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

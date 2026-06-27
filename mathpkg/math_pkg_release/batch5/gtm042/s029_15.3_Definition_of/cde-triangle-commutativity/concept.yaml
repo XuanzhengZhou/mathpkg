@@ -1,0 +1,23 @@
+id: cde-triangle-commutativity
+title_en: "Commutativity of the cde Triangle"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [modular-representation-theory, cde-triangle, cartan-homomorphism, decomposition-map]
+depends_on:
+  required: [homomorphism-e-pk-to-rk, cartan-homomorphism-c, decomposition-homomorphism-d]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "15"
+    section: "15.4"
+    pages: ""
+    role_in_book: "States that the cde triangle is commutative: c = d ∘ e, or equivalently C = D · E"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,28 @@
+id: desargues-configuration
+title_en: Desargues Configuration
+title_zh: ''
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags:
+- desargues
+- configuration
+- projective-geometry
+depends_on:
+  required:
+  - triangles-in-perspective
+  recommended:
+  - projective-plane
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '7'
+  pages: ''
+  role_in_book: Formally defines the Desargues configuration
+content_hash: 5ab972cc03f7
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

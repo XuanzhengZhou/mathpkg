@@ -1,0 +1,23 @@
+id: linear-independence
+title_en: "Linear Independence (Arbitrary Subset)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [linear-independence, vector-space, basis-theory]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "Defines linear independence for arbitrary (possibly infinite) subsets of a vector space: a set S is linearly independent if every finite subset of S is linearly independent."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,11 @@
+---
+role: exercise
+locale: en
+chapter: "V"
+section: "B"
+exercise_number: 17
+---
+
+(Errera [e.7]) Let $\Gamma$ be a connected trivalent graph in which all isthmuses lie on a single path. Show that $\Gamma$ has a $1$-factor.
+
+[Hint: use Exercise B16.]

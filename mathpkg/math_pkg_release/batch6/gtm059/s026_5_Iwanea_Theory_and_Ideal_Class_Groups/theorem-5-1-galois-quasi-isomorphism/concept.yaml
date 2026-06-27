@@ -1,0 +1,23 @@
+id: theorem-5-1-galois-quasi-isomorphism
+title_en: "Quasi-isomorphism for the Galois Group of the Maximal $p$-abelian Unramified Extension (Theorem 5.1)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: ["iwasawa-theory", "galois-group", "quasi-isomorphism", "unit-group", "class-field-theory"]
+depends_on:
+  required: ["maximal-p-abelian-unramified-extension", "lemma-unit-closure-intersection", "p-adic-l-functions"]
+  recommended: ["iwasawa-algebra"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "5"
+    pages: ""
+    role_in_book: "Theorem 5.1 — quasi-isomorphism between $G_M(K)$ and the $p$-adic completion of the unit group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

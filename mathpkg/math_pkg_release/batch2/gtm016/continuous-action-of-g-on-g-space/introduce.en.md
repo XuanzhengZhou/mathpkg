@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $X$ be a $G$-space and let $G$, $X$, $G \times X$ have the Krull, discrete, and product topologies respectively. If the product mapping $G \times X \to X$ is continuous, we say that $G$ acts continuously on $X$.

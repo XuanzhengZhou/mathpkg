@@ -1,0 +1,23 @@
+id: schoenflies-theorem-first-form
+title_en: "The Schönflies Theorem (First Form)"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [schoenflies-theorem, jordan-curve, 2-cell, 1-sphere, planar-topology, polygonal-approximation]
+depends_on:
+  required: [1-sphere, jordan-curve-theorem, interior-of-jordan-curve, 2-cell]
+  recommended: [separation-by-broken-lines-in-1-sphere, linear-accessibility-density-in-1-sphere, interval-collections-for-1-sphere, broken-line-approximation-in-sphere-interior]
+  suggested: [polygonal-schoenflies-theorem]
+source_books:
+  - book_id: "gtm047"
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "9"
+    section: "9"
+    pages: ""
+    role_in_book: "The main result of Section 9; establishes that the closure of the interior of any 1-sphere in R² is a 2-cell"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

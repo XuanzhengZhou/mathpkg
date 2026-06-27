@@ -1,0 +1,23 @@
+id: upper-triangular-matrix
+title_en: "Upper and Lower Triangular Matrices"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [triangular-matrix, upper-triangular, lower-triangular, matrix-ring]
+depends_on:
+  required: [matrix-over-ring]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "1.14"
+    pages: ""
+    role_in_book: "Defines upper and lower triangular matrices in the context of infinite matrix rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

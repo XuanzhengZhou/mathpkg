@@ -1,0 +1,23 @@
+id: w-sheaf-exact-functor
+title_en: "Theorem 1.6 (W is an Exact Functor)"
+title_zh: "定理 1.6 (W 是正合函子)"
+type: theorem
+domain: analysis
+subdomain: sheaf-cohomology
+difficulty: advanced
+tags: [exact-functor, flabby-sheaf, w-sheaf, sheaf-cohomology, several-complex-variables]
+depends_on:
+  required: []
+  recommended: [flabby-sheaf, exact-functor, w-sheaf-construction]
+  suggested: [sheaf-cohomology, abelian-category]
+source_books:
+  - book_id: "gtm038"
+    author: "Grauert, Hans and Fritzsche, Klaus"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Main result establishing that the flabby sheaf functor W preserves exactness; fundamental for sheaf cohomology theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

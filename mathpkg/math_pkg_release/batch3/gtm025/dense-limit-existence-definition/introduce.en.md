@@ -1,0 +1,1 @@
+One-sided limits describe the behavior of a function as it approaches a point from one direction. They are essential for studying discontinuities of monotone functions and for the theory of Stieltjes measures.

@@ -1,0 +1,23 @@
+id: homeomorphic-morphism-not-isomorphism
+title_en: "A bijective bicontinuous morphism need not be an isomorphism (cusp example)"
+title_zh: "双射双连续态射不一定是同构（尖点例子）"
+type: exercise
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [morphism, isomorphism, cusp, parametrization, homeomorphism]
+depends_on:
+  required: [morphism-of-varieties, isomorphism-of-varieties]
+  recommended: [affine-variety, regular-function]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "3"
+    pages: "19"
+    role_in_book: "Exercise 3.2(a); counterexample showing homeomorphic morphism need not be isomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

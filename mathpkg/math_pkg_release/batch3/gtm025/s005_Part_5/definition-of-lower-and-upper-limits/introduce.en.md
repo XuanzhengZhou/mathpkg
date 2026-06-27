@@ -1,0 +1,1 @@
+Lower and upper limits (liminf and limsup) capture the asymptotic bounds of a function near a point. They always exist as extended real numbers and provide a precise way to describe oscillatory behavior without requiring ordinary limits to exist.

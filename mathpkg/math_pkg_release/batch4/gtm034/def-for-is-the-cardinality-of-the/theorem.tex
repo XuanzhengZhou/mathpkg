@@ -1,0 +1,158 @@
+For $n \geq 0$, $R_n$ is the cardinality of the (random) subset of $R$ which consists of the points $0 = S_0, S_1, \ldots, S_n$.
+
+Thus $R_n$ (called the range of the random walk in time $n$) is clearly a measurable function on $(\Omega, \mathcal{F}, P)$ being simply the number of distinct elements in the sequence $S_0, S_1, \ldots, S_n$, or the number of distinct points visited by the random walk in time $n$.
+
+Note that it would be perfectly possible to define the probability law of $R_n$ (and that is all we shall be concerned with) in terms of the simple analytic setup of section 1. For example,
+
+$$P[R_2 = 1] = [P(0,0)]^2$$
+$$P[R_2 = 2] = \sum_{x \neq 0} P(0,x)[P(x,x) + P(x,0)] + P(0,0) \sum_{x \neq 0} P(0,x),$$
+
+but evidently this is not a very convenient representation.
+
+We shall be concerned with a weak law of large numbers for the sequence $R_n$ and we shall say that $R_n/n$ converges in measure to the constant $c$ if
+
+$$\lim_{n \to \infty} P\left[ \left| \frac{R_n}{n} - c \right| > \epsilon \right] = 0$$
+
+for every $\epsilon >
+
+is not useful, so that it is better to go back to D1, in order to represent $R_n$ as a sum of random variables, each of which has value 0 or 1 according as $S_n$ equals one of the preceding partial sums or not. We can write
+
+$$R_n = \sum_{k=0}^{n} \varphi_k,$$
+
+where $\varphi_0 = 1$, $\varphi_k(S_1, \ldots, S_k) = 1$ if $S_k \neq S_\nu$ for all $\nu = 0, 1, \ldots, k-1$, and $\varphi_k = 0$ otherwise. Then, even though the random variables $\varphi_k$ are not independent,
+
+$$E[R_n] = \sum_{k=0}^{n} E[\varphi_k].$$
+
+We have, for $k \geq 1$,
+
+$$E[\varphi_k] = P[S_k - S_{k-1} \neq 0, S_k - S_{k-2} \neq 0, \ldots, S_k \neq 0]$$
+$$= P[X_k \neq 0, X_k + X_{k-1} \neq 0, \ldots, X_k + \cdots + X_1 \neq 0]$$
+$$= P[X_1 \neq 0, X_1 + X_2 \neq 0, \ldots, X_1 + \cdots + X_k \neq 0]$$
+$$= P[S_j \neq 0 \text{ for } j = 1, 2, \ldots, k]$$
+$$= 1 - \sum_{j=1}^{k} F_j(0, 0),$$
+
+in the notation of D1.2. By D1.5
+
+$$\lim_{n \to \infty} E[\varphi_n] = 1 - F \geq 0,$$
+
+where $1 - F = 0$ if and only if the random walk is recurrent. It follows that the averages of $E[\varphi_n]$ also converge to $1 - F$, or
+
+$$\lim_{n \to \infty} \frac{1}{n} E
+
+In the transient case, a similar estimate (by the method of Chebychev's inequality) gives
+
+$$P \left[ \left| \frac{R_n}{n} - (1 - F) \right| > \epsilon \right] \leq \frac{1}{n^2 \epsilon^2} E \left[ |R_n - n(1 - F)|^2 \right]$$
+
+$$= \frac{1}{n^2 \epsilon^2} \sigma^2(R_n) + \frac{1}{\epsilon^2} \left\{ 1 - F - E \left[ \frac{R_n}{n} \right] \right\}^2.$$
+
+Here $\sigma^2(R_n) = E \left[ \{R_n - E[R_n]\}^2 \right]$ is the variance of $R_n$, and since we have shown that $E[R_n/n] \to 1 - F$, the proof will be complete if we can show that
+
+$$\lim_{n \to \infty} \frac{1}{n^2} \sigma^2(R_n) = 0.$$
+
+One calculates as follows:
+
+$$\sigma^2(R_n) = E \left[ \sum_{j=0}^{n} \sum_{k=0}^{n} \varphi_j \varphi_k \right] - \left[ \sum_{j=0}^{n} E[\varphi_j] \right]^2$$
+
+$$= \sum_{j=0}^{n} \sum_{k=0}^{n} \{E[\varphi_j \varphi_k] - E[\varphi_j] E[\varphi_k]\}$$
+
+$$\leq 2 \sum_{0 \leq j < k \leq n} \{E[\varphi_j \varphi_k] - E[\varphi_j] E[\varphi_k]\} + \sum_{j=0}^{n} E[\varphi_j].$$
+
+Now we observe that when $j < k$
+
+$$E[\varphi_j \varphi_k] = P[S_j \neq S_\alpha$ for $\alpha < j$ and $S_k \neq S_\beta$ for $\beta < k]$$
+
+$$\leq P[S_j \neq S_\alpha$ for $\alpha < j$ and $S_k \neq S_\beta$ for $
+
+assumes its maximum when $j = [n/2]$, the greatest integer in $n/2$. Setting $a_k = E\varphi_k$ and continuing the estimation, one therefore obtains
+
+$$\sigma^2(R_n) \leq 2 \sum_{j=0}^{n} E[\varphi_j]E[R_{n-{n/2}} + R_{{n/2}} - R_n] + E[R_n].$$
+
+Since we know that $E[R_n/n]$ tends to $1 - F$ as $n \to \infty$, it follows that
+
+$$\lim_{n \to \infty} \frac{\sigma^2(R_n)}{n^2} \leq 2(1 - F) \lim_{n \to \infty} E\left[ \frac{R_{n-{n/2}} + R_{{n/2}} - R_n}{n} \right]$$
+
+$$= 2(1 - F)\left[ \frac{1 - F}{2} + \frac{1 - F}{2} - (1 - F) \right] = 0.$$
+
+That completes the proof of T1.
+
+The method by which we proved T1 was devised by Dvoretzky and Erdős ([27], 1951) in the course of a detailed study of the range $R_n$ for simple random walk. One of their results was the strong law
+
+$$P\left[ \lim_{n \to \infty} \frac{R_n}{n} = 1 - F \right] = 1$$
+
+for simple random walk, which of course implies T1. Actually, this is a general theorem, valid for arbitrary random walk. We shall sketch a simple proof of (1) which is beyond the scope of this chapter as it depends on Birkhoff's ergodic theorem.
+
+E1 In order to establish (1) above, for arbitrary random walk, we shall introduce the upper and lower bounds
+
+$$D_n \leq R_n \leq R_{n,M}, \quad n \geq 0,$$
+
+defined as follows.
+
+We choose a (large) positive integer $M$ and define $R_{n,M}$ as the number of distinct points counted by "wiping the slate clean" at times $M, 2M, 3
+
+Now we let $M \to \infty$, and as it was shown in the proof of T1 that
+
+$$M^{-1}E[R_M] \to 1 - F,$$
+
+we have
+
+$$\lim_{n \to \infty} \frac{R_n}{n} \leq 1 - F,$$
+
+with probability one.
+
+Keeping in mind the definition of $R_n = R_n(X_1, X_2, \ldots, X_n)$ as a random variable on the measure space $(\Omega, \mathcal{F}, \mathbf{P})$ where $\omega_k = X_k(\omega)$, and the $X_k$ are independent with distribution $P(0,x) = \mathbf{P}[X_k = x]$, we define $D_n$ as the number of points visited in time $n$ which are never revisited at any later time. Thus $D_n$ will be a function on the same measure space $(\Omega, \mathcal{F}, \mathbf{P})$, and its precise definition is
+
+$$D_n = \sum_{k=0}^{n} \psi_k,$$
+
+where
+
+$$\psi_k = 1 \text{ if } X_{k+1} + \cdots + X_{k+\nu} \neq 0 \text{ for } \nu = 1, 2, \ldots$$
+
+$$= 0 \text{ otherwise.}$$
+
+It should be obvious that $D_n$ satisfies (2); every point which is counted in determining $D_n$ is certainly visited in time $n$.
+
+We are now ready to apply the individual ergodic theorem (see [23], p. 464 or [73], p. 421). Let $T$ be the shift operator on $\Omega$ defined by $(T\omega)_k = \omega_{k+1} = X_{k+1}$. It is measure preserving, i.e.,
+
+$$\mathbf{P}[T^{-1}A] = \mathbf{P}[A], \quad A \in \mathcal{F},$$
+
+so that the limit
+
+$$\lim_{n \to \infty} \frac{1}{n} \sum_{k=0}^{n} f(T^k\omega)$$
+
+exists with probability one (it may be a
+
+Remark: The above proof was discovered jointly with Kesten and Whitman (unpublished). Not only is it simpler than the proof of T1 but it also yields interesting generalizations without any further work. In problem 14 of Chapter VI it is shown how $R_n$, the number of points swept out in time $n$, may be replaced by the number of points swept out by a finite set. The limit in (1) is then the capacity of the set in question. Thus the study of $R_n$ takes us into the realm of potential theory, which will be discussed briefly in sections 13 (Chapter III) and 25 (Chapter VI). To anticipate a little, let us state the analogue of T1 and E1 for a three-dimensional Brownian motion process $x(t)$, the continuous time analogue of simple random walk in three space (see Feller [31], Vol. I, Ch. XIV). Suppose that $S$ is a compact subset of three-space. Let $x(\tau) + S$ denote the translate of $S$ by the random process $x(\tau)$. The set swept out by $S$ in time $t$ is the union of the sets $x(\tau) + S$ over $0 \leq \tau \leq t$, and we denote the Lebesgue measure (volume) of the set thus swept out as
+
+$$R_t(S) = \bigcup_{0 \leq t \leq t} \{x(\tau) + S\}.$$
+
+This definition makes sense since Brownian motion, when properly defined, is continuous almost everywhere on its probability space. On this space one can then prove, following the method of E1, that
+
+$$\lim_{t \to \infty} \frac{R_t(S)}{t} = C(S)$$
+
+exists almost everywhere. The limit $C(S)$ is nothing but the ordinary electrostatic capacity of the set $S$.
+
+We shall find it convenient, in section 25, to associate a notion of capacity with each random walk, and it will be seen (see E25.1) that the limit $1 - F$ in equation (1) is again simply the capacity of a set consisting of a single point.
+
+5. THE STRONG RATIO THEOREM
+
+Here we are concerned with ratios of transition probabilities of the form
+
+result, in T1 below, evidently constitutes a significant improvement over the weak ratio theorem P1.5. It was first proved by Chung and Erdös [11], 1951.
+
+This rather deep theorem will in fact "lie fallow" until we reach the last section of Chapter VII. There we shall be concerned with ratios of the form
+
+$$J_n(x) = \frac{\sum_{k=n}^{\infty} F_k(x,0)}{\sum_{k=n}^{\infty} F_k(0,0)},$$
+
+for recurrent random walk, and the proof of the convergence of $J_n(x)$ as $n \to \infty$ will make use of T1 which concerns the far simpler ratio $P_{n+1}(0,0)/P_n(0,0)$. While $P_{n+1}(0,0)/P_n(0,0)$ and even $P_n(0,x)/P_n(0,0)$ tend to the "uninteresting" limit one, this is not true of
+
+(1) $$\lim_{n \to \infty} J_n(x) = J(x).$$
+
+Since this fact lies at the heart of the theory of recurrent random walk, a few remarks, even out of their proper context are called for as motivation for later work. Long before we are able to prove (in T32.1) that the ratios $J_n(x)$ converge, we shall prove (in Chapters III and VII) that the series
+
+(2) $$\sum_{n=0}^{\infty} [P_n(0,0) - P_n(x,0)] = a(x)$$
+
+converges for arbitrary aperiodic random walk. This result is of course related to the problem of this section as it is much stronger than P1.5 while unfortunately being too weak to imply that $P_n(0,x)/P_n(0,0)$ converges. Thus our plan is the following. In this section we prove, by a rather "brute force" attack, that $P_n(0,x)/P_n(0,0) \to 1$, under suitable conditions (T1). Later (in Chapter III for dimension 2 and in Chapter VII for dimension 1) we establish (2), and finally, in section 32 (Chapter VII), we use (2) and T1 to show
+
+for arbitrary aperiodic random walk, recurrent or transient, regardless of dimension.
+
+It is clear that any set of conditions for the convergence of ratios like $P_n(0,x)/P_n(0,0)$ must ensure the positivity of $P_n(0,0)$, at least for all sufficiently large integers $n$. Observe that a random walk may be aperiodic, and even recurrent, and still fail to satisfy this condition. (For simple random walk in one dimension, $P_n(0,0) = 0$ for all odd $n$.) Thus we have to strengthen the condition of aperiodicity and we adopt a definition which may at first sight be complicated but which will be seen to accomplish what we want. At the same time it will be weak enough that it will impose no essential restriction. P1 will show that at least every recurrent random walk may be modified (by an appropriate change in its space and time scale) so as to be strongly aperiodic.

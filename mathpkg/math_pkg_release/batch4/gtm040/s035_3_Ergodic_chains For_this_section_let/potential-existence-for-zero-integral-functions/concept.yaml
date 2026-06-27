@@ -1,0 +1,23 @@
+id: potential-existence-for-zero-integral-functions
+title_en: "Potential Existence for Zero-Integral Functions"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [ergodic-chains, potentials, charges, stationary-distribution]
+depends_on:
+  required: []
+  recommended: [noncyclic-ergodic-chains-are-normal]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 9-50 gives sufficient conditions for a function to be a charge whose potential exists"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,10 @@
+Let $\mathcal{L}^* \triangleq \mathcal{L}(C(A))$ be the language obtained from $\mathcal{L}$ by introducing new individual constants $c_a$ for each $a \in A$. If $\varphi$ is a closed formula of $\mathcal{L}^*$, then $[\![\varphi]\!]$ is an element of $B$ defined recursively:
+\begin{enumerate}
+\item $[\![R_j(c_1, \ldots, c_n)]\!] \triangleq \phi(R_j)(\phi(c_1), \ldots, \phi(c_n))$ for every finite sequence of constants.
+\item $[\![\neg \psi]\!] \triangleq -[\![\psi]\!]$.
+\item $[\![\psi \land \chi]\!] \triangleq [\![\psi]\!] \cdot [\![\chi]\!]$.
+\item $[\![\psi \lor \chi]\!] \triangleq [\![\psi]\!] + [\![\chi]\!]$.
+\item $[\![\psi \rightarrow \chi]\!] \triangleq -[\![\psi]\!] + [\![\chi]\!]$.
+\item $[\![(\forall x) \psi(x)]\!] \triangleq \prod_{a \in A} [\![\psi(c_a)]\!]$.
+\item $[\![(\exists x) \psi(x)]\!] \triangleq \sum_{a \in A} [\![\psi(c_a)]\!]$.
+\end{enumerate}

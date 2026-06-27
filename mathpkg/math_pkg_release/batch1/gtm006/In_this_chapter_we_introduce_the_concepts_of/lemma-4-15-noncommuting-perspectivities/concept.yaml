@@ -1,0 +1,28 @@
+id: lemma-4-15-noncommuting-perspectivities
+title_en: 'Lemma 4.15: Non-Commuting Perspectivities'
+title_zh: ''
+type: lemma
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags:
+- perspectivity
+- commutator
+- collineation-group
+depends_on:
+  required:
+  - perspectivity-central-collineation
+  recommended:
+  - lemma-4-14-elation-commutation
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '5'
+  pages: ''
+  role_in_book: Shows when perspectivities do not commute, producing non-trivial commutators
+content_hash: b6f481c62c6c
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

@@ -1,0 +1,23 @@
+id: transpose-map-def
+title_en: "Transpose of a Linear Map"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: ["transpose", "adjoint", "dual-map"]
+depends_on:
+  required: ["algebraic-conjugate"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§1"
+  section: "1.H"
+  pages: "5"
+  role_in_book: "dual of a linear transformation"
+content_hash: "d0b02a47c8b581ce"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

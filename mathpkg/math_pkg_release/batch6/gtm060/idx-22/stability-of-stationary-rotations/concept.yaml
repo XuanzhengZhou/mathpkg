@@ -1,0 +1,23 @@
+id: stability-of-stationary-rotations
+title_en: "Stability of Stationary Rotations about Principal Axes"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [stability, liapunov-stability, rigid-body, stationary-rotation, principal-axes, euler-equations, intermediate-axis-theorem]
+depends_on:
+  required: [euler-equations-rigid-body, stationary-rotation, stationary-rotation-principal-axes]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "6"
+    section: "29"
+    pages: "154-160"
+    role_in_book: "Establishes the stability properties of stationary rotations — the tennis racket theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

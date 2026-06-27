@@ -1,0 +1,23 @@
+id: the-compactness-theorem
+title_en: "The Compactness Theorem"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: predicate-calculus
+difficulty: intermediate
+tags: [compactness, predicate-logic, semantic-consequence, finite-subset, model-theory]
+depends_on:
+  required: [the-satisfiability-theorem, the-adequacy-theorem]
+  recommended: [the-substitution-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "3"
+    section: "4"
+    pages: ""
+    role_in_book: "Consequence of completeness: semantic consequence is always finitary"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

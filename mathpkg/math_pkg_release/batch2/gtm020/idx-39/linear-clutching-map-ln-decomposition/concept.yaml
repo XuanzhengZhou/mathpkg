@@ -1,0 +1,23 @@
+id: linear-clutching-map-ln-decomposition
+title_en: "L^n Decomposition of a Linear Clutching Map"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: fibre-bundles
+difficulty: advanced
+tags: [vector-bundles, clutching-functions, k-theory, direct-sum-decomposition, polynomial-clutching]
+depends_on:
+  required: [clutching-bundle-decomposition-isomorphism]
+  recommended: [polynomial-clutching-map, clutching-map-projection-identity]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "10"
+    section: "4. Analysis of Linear Clutching Maps"
+    pages: "159-162"
+    role_in_book: "Notation 4.7: Definition of the L^n operator and its decomposition with respect to a linear clutching map"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

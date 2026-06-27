@@ -1,0 +1,13 @@
+id: dubins-shortest-curve-theorem
+title_en: "Dubins' Theorem on Shortest Curves with Curvature Constraint"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: ['plane-curves', 'optimal-control', 'shortest-path', 'curvature-constraint', 'dubins']
+depends_on: {required: [parametrized-curve, piecewise-smooth-curve], recommended: [], suggested: []}
+source_books: [{book_id: "gtm051", author: "Wilhelm Klingenberg", title: "A Course in Differential Geometry", chapter: "2", section: "2.4", pages: "", role_in_book: "Theorem characterizing shortest curves between two points with prescribed tangent directions and bounded curvature."}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

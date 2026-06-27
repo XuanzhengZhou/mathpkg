@@ -1,0 +1,14 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $E$ be a measurable set, and suppose $\{f_n\}$ is a sequence of non-negative measurable functions with
+
+$$f(x) = \sum_{n=1}^{\infty} f_n(x).$$
+
+Then
+
+$$\int_E f d\mu = \sum_{n=1}^{\infty} \int_E f_n d\mu.$$

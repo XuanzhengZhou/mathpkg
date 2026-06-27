@@ -1,0 +1,23 @@
+id: mols-normal-form-existence
+title_en: "Normal Form of Mutually Orthogonal Latin Squares (Property 1)"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: latin-squares
+difficulty: intermediate
+tags: [mols, normal-form, equivalence, latin-square]
+depends_on:
+  required: [latin-square, orthogonal-latin-squares, equivalent-latin-squares]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D. R. Hughes, F. C. Piper"
+    title: "Projective Planes"
+    chapter: "V"
+    section: "5"
+    pages: "132-137"
+    role_in_book: "Property 1: Any set of MOLS can be put in normal form via equivalence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

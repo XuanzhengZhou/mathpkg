@@ -1,0 +1,23 @@
+id: liouville-number
+title_en: "Liouville Number"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: transcendental-number-theory
+difficulty: intermediate
+tags: [liouville-number, transcendental-number, diophantine-approximation, irrational]
+depends_on:
+  required: [transcendental-number, irrational-number]
+  recommended: [liouville-approximation-lemma]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "2"
+    section: "2. Liouville Numbers"
+    pages: "16"
+    role_in_book: "The central object of Chapter 2. Liouville numbers are the first explicit examples of transcendental numbers, and their category and measure properties illustrate Baire's theorem and measure theory."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

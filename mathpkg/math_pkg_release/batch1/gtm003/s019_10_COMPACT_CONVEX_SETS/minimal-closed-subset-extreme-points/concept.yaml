@@ -1,0 +1,23 @@
+id: minimal-closed-subset-extreme-points
+title_en: "Corollary to Theorem 10.5 (Minimal Closed Subset of Extreme Points)"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [extreme-point, closed-convex-hull, compact-convex-set, minimal-closed-subset]
+depends_on:
+  required: [extreme-points-of-closed-convex-hull, extreme-point]
+  recommended: [closed-convex-hull, compact-set]
+  suggested: [krein-milman-theorem]
+source_books:
+  - book_id: "gtm003"
+    author: "Schaefer, H.H."
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "10"
+    pages: ""
+    role_in_book: "The set of extreme points is the minimal closed subset whose convex closure equals the compact convex set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

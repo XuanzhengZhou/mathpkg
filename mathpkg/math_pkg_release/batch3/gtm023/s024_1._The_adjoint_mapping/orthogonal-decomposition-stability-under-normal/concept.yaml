@@ -1,0 +1,23 @@
+id: orthogonal-decomposition-stability-under-normal
+title_en: "Orthogonal Decomposition Stability under Normal Transformations"
+title_zh: "正规变换下正交分解的稳定性"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [normal-transformation, orthogonal-decomposition, stable-subspace, restriction]
+depends_on:
+  required: [normal-transformation, orthogonal-direct-sum, stable-subspace, adjoint-mapping]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VIII"
+    section: "§1. The adjoint mapping"
+    pages: ""
+    role_in_book: "Characterizes normality via orthogonal decompositions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

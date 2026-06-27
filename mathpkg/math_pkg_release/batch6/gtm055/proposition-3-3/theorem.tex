@@ -1,0 +1,11 @@
+If $f$ is a continuous mapping of a [countably] compact topological space $X$ onto a topological space $Y$, then $Y$ is [countably] compact. If $f$ is a continuous one-to-one mapping of a compact space $X$ onto a Hausdorff space $Y$, then $f$ is
+
+Example G. Let $X$ be a normal topological space, and suppose given a finite open covering $\{U_1, \ldots, U_n\}$ of $X$. If $F = X \setminus (U_1 \cup \cdots \cup U_{n-1})$, then $F$ is a closed set contained in $U_n$, and there exists an open set $V$ such that $F \subset V \subset V^- \subset U_n$. Using this observation and an obvious induction argument, one verifies without difficulty the following important fact: If $\{U_1, \ldots, U_n\}$ is any finite open covering of a normal space $X$, then there exists a corresponding closed covering $\{F_1, \ldots, F_n\}$ of $X$ such that $F_i \subset U_i$, $i = 1, \ldots, n$.
+
+Suppose now, once again, that $\{U_1, \ldots, U_n\}$ is an open covering of $X$, and let $\{F_1, \ldots, F_n\}$ be a closed covering of $X$ such that $F_i \subset U_i$, $i = 1, \ldots, n$. By Urysohn’s lemma there exists, for each $i = 1, \ldots, n$, a continuous mapping $f_i$ of $X$ into $[0, 1]$ with the property that $\chi_{F_i} \leq f_i \leq \chi_{U_i}$. If $f = f_1 + \cdots + f_n$, then $f \geq 1$ on $X$. Hence if we define $g_i = f_i/f$, then the continuous functions $\{g_i, \ldots, g_n\}$ satisfy the following conditions:
+
+$$g_1 + \cdots + g_n = 1 \quad \text{and} \quad 0 \leq g_i \leq \chi_{U_i}, \quad i = 1, \ldots, n.$$
+
+Such a system of functions is customarily called a partition of unity on $X$ subordinate to the given open covering $\{U_1, \ldots, U_n\}$.
+
+Suppose now that $F$ is a closed

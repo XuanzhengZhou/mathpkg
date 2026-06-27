@@ -1,0 +1,23 @@
+id: dirichlet-region
+title_en: "Dirichlet Region"
+title_zh: "狄利克雷区域"
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [dirichlet-problem, harmonic-function, boundary-value-problem]
+depends_on:
+  required: []
+  recommended: [harmonic-function, perron-method, continuous-function]
+  suggested: [riemann-mapping-theorem]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "X"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines the class of regions for which the Dirichlet Problem is solvable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: change-of-basis-for-bilinear-form
+title_en: "Change of Basis for a Bilinear Form"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [bilinear-form, change-of-basis, matrix-transformation]
+depends_on:
+  required: [bilinear-form, matrix-of-bilinear-form]
+  recommended: [change-of-basis, matrix-multiplication]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "Bilinear Forms"
+    section: "1. Bilinear forms"
+    pages: ""
+    role_in_book: "Shows how the matrix of a bilinear form transforms under change of bases"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

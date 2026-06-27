@@ -1,0 +1,9 @@
+Let $T$ be an algebraic theory in $\mathbf{Set}$. If $T$ is bounded, the \textit{regular rank} of $T$ is the smallest infinite regular cardinal greater than or equal to the rank of $T$. The \textit{Lawvere theory} of $T$ is the category $\mathrm{Law}(T)$ whose objects are $\{\text{all cardinal numbers}\}$ or $\{\text{all cardinal numbers less than the regular rank of } T\}$ accordingly as $T$ is unbounded or bounded. Thus, $\sup(m_i \mid i \in n) \in \mathrm{Law}(T)$ whenever all $m_i$ and $n$ are.
+
+A morphism $\alpha: m \longrightarrow n$ in $\mathrm{Law}(T)$ is a morphism $\alpha: n \longrightarrow m$ in $\mathbf{Set}_T$ (see 3.2), that is a function $\alpha: n \longrightarrow mT$. Composition and identities are defined just as in $\mathbf{Set}_T$, specifically
+
+$$
+(m \xrightarrow{\alpha} n) * (n \xrightarrow{\beta} p) = (p \xrightarrow{\beta} n) \circ (n \xrightarrow{\alpha} m) = p \xrightarrow{\beta} nT \xrightarrow{\alpha T} mTT \xrightarrow{m\mu} mT
+$$
+
+where $*$ denotes the composition operation in $\mathrm{Law}(T)$, and $n\eta: n \longrightarrow n$ provides the identities. Since $\mathbf{Set}_T$ is a category, so is $\mathrm{Law}(T)$.

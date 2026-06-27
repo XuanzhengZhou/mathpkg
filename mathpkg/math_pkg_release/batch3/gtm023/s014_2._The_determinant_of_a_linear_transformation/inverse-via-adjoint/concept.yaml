@@ -1,0 +1,23 @@
+id: inverse-via-adjoint
+title_en: "Inverse of a Linear Transformation via the Classical Adjoint"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [inverse, classical-adjoint, determinant]
+depends_on:
+  required: [classical-adjoint-relations, determinant-regularity-condition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "4"
+    section: "2"
+    pages: ""
+    role_in_book: "Corollary to Proposition V: explicit formula for inverse"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

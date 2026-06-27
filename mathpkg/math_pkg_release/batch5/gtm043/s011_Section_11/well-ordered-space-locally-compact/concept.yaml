@@ -1,0 +1,23 @@
+id: well-ordered-space-locally-compact
+title_en: "Well-Ordered Space is Locally Compact"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: general-topology
+difficulty: intermediate
+tags: [well-ordered-space, locally-compact, one-point-compactification, ordinal-topology]
+depends_on:
+  required: [well-ordered-space-is-normal]
+  recommended: [locally-compact-space, one-point-compactification]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.11"
+    pages: ""
+    role_in_book: "Corollary: W(α) is locally compact, and if not compact then W(α+1) is its one-point compactification"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

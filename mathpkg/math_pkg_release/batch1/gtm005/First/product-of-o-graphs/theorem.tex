@@ -1,0 +1,11 @@
+Let $A$ and $B$ be two $O$-graphs. The product over $O$ is defined as
+$$A \times_O B = \{\, \langle g, f \rangle \mid \partial_0 g = \partial_1 f,\; g \in A,\; f \in B \,\},$$
+with domain and codomain functions
+$$\partial_0 \langle g, f \rangle = \partial_0 f, \qquad \partial_1 \langle g, f \rangle = \partial_1 g.$$
+
+This product operation is associative: for any three $O$-graphs $A, B, C$ there is an isomorphism
+$$A \times_O (B \times_O C) \cong (A \times_O B) \times_O C.$$
+
+The $O$-graph $O$ (with one identity arrow per object) acts as a unit:
+$$A \cong A \times_O O \quad \text{via} \quad f \mapsto \langle f, \partial_0 f \rangle,$$
+$$A \cong O \times_O A.$$

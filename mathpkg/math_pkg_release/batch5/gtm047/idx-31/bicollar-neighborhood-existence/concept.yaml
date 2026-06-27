@@ -1,0 +1,23 @@
+id: bicollar-neighborhood-existence
+title_en: "Existence of Bicollar Neighborhood for Compact Boundary"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [bicollar-neighborhood, 3-manifold, boundary, PLH, compact-boundary]
+depends_on:
+  required: [triangulated-3-manifold, piecewise-linear-homeomorphism, polyhedral-2-cell, regular-neighborhood]
+  recommended: [collar-neighborhood]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "31"
+    section: "Bicollar neighborhoods; an extension of the Loop theorem"
+    pages: "201-210"
+    role_in_book: "Theorem 2: Existence of a bicollar neighborhood for a compact boundary of a triangulated 3-manifold"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

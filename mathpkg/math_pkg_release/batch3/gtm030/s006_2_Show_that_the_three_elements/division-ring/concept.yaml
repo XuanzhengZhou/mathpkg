@@ -1,0 +1,23 @@
+id: division-ring
+title_en: "Division Ring"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [division-ring, skew-field, quasi-field, sfield, units]
+depends_on:
+  required: [ring-definition, ring-with-identity]
+  recommended: [integral-domain]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition: ring where non-zero elements form a multiplicative group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

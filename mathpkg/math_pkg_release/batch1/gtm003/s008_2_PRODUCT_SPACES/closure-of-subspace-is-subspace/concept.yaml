@@ -1,0 +1,23 @@
+id: closure-of-subspace-is-subspace
+title_en: "Closure of a Subspace is a Subspace"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [closure, subspace, tvs, LT1, LT2]
+depends_on:
+  required: [topological-vector-space, subspace-of-topological-vector-space]
+  recommended: [topological-closure]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; with M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "I"
+    section: "2"
+    pages: "32-33"
+    role_in_book: "Proposition 2.1. The closure of a subspace in a t.v.s. is again a subspace."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

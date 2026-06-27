@@ -1,0 +1,23 @@
+id: pointed-metric-spaces-product
+title_en: "Products in the Category of Pointed Metric Spaces"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: category-theory
+difficulty: intermediate
+tags: [category, metric-space, base-point, product, counterexample]
+depends_on:
+  required: ["product-in-category", "metric-spaces-distance-decreasing-have-products"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "1"
+    pages: ""
+    role_in_book: "Counterexample: product in pointed metric spaces has underlying set properly contained in the usual product set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

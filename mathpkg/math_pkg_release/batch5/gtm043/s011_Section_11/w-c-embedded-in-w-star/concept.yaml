@@ -1,0 +1,23 @@
+id: w-c-embedded-in-w-star
+title_en: "W is C-Embedded in W*"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: general-topology
+difficulty: intermediate
+tags: [c-embedded, well-ordered-space, continuous-extension, compactification]
+depends_on:
+  required: [continuous-function-on-w-constant-on-tail, w-and-w-star-definition]
+  recommended: [c-embedding, restriction-map, continuous-extension]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.13"
+    pages: ""
+    role_in_book: "Theorem: W is C-embedded in W*, establishing a key relationship between C(W) and C(W*)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,12 @@
+\text{Let $\mathcal{K}$, $\mathcal{L}$ be categories. A functor $H: \mathcal{K} \to \mathcal{L}$ consists of:}
+
+\begin{enumerate}
+\item \text{For each $\mathcal{K}$-object $A$, an $\mathcal{L}$-object $AH$.}
+\item \text{For each $\mathcal{K}$-morphism $f: A \to B$, an $\mathcal{L}$-morphism $fH: AH \to BH$.}
+\end{enumerate}
+
+\text{satisfying:}
+
+\textbf{Axiom 1.} $H$ \text{preserves identities: for every $\mathcal{K}$-object $A$, $(\operatorname{id}_A)H = \operatorname{id}_{AH}$.}
+
+\textbf{Axiom 2.} $H$ \text{preserves composition: given $f: A \to B$ and $g: B \to C$ in $\mathcal{K}$, $(fg)H = (fH)(gH): AH \to CH$ in $\mathcal{L}$.}

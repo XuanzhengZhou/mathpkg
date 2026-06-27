@@ -1,0 +1,23 @@
+id: compatible-g-and-h-gradations
+title_en: "Compatible G and H-gradations correspond to (G⊕H)-gradation"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [multi-grading, compatible-gradations, direct-sum-of-groups, bigrading]
+depends_on:
+  required: [g-graded-vector-space, induced-gradation-via-group-homomorphism]
+  recommended: [gp-gradation]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VI"
+    section: "§1. G-graded vector spaces"
+    pages: "185-186"
+    role_in_book: "Proposition; equivalence between compatible gradations and product gradations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: left-kan-extension
+title_en: "Left Kan Extension (Lan_K T)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [kan-extension, left-kan-extension, universal-property, functor-category]
+depends_on:
+  required: []
+  recommended: [right-kan-extension]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "X"
+    section: "3. The Kan Extension"
+    pages: ""
+    role_in_book: "Core definition: left Kan extension as universal arrow from T to A^K"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

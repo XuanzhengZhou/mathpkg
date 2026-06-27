@@ -1,0 +1,23 @@
+id: duality-principle-for-adjointness
+title_en: "Duality Principle for Adjointness"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [adjointness, duality, opposite-category, adjoint-functor, category-theory]
+depends_on:
+  required: [adjointness, opposite-category]
+  recommended: [opposite-functor, opposite-natural-transformation]
+  suggested: [cofree-object-adjointness-equivalence]
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.15"
+    pages: ""
+    role_in_book: "Duality principle showing that reversing all arrows in an adjointness yields another adjointness with the roles of the functors swapped and the unit/counit exchanged."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

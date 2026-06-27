@@ -1,0 +1,23 @@
+id: collapsing-of-vector-bundle-with-trivialization
+title_en: "Collapsing of a Vector Bundle with Respect to a Trivialization"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: k-theory
+difficulty: intermediate
+tags: [vector-bundle, collapsing, trivialization, quotient-space, relative-k-theory]
+depends_on:
+  required: [trivialization-of-vector-bundle-over-subset]
+  recommended: [vector-bundle-morphism]
+  suggested: [quotient-space]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "10. Relative K-Theory"
+    section: "1. Collapsing of Trivialized Bundles"
+    pages: "136-138"
+    role_in_book: "Definition 1.2: Defines the collapsing construction $\\xi/t$, which produces a vector bundle over $X/A$ from a bundle $\\xi$ over $X$ equipped with a trivialization $t$ over $A$. This is the core geometric operation underlying the relative K-theory group $K(X,A)$."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

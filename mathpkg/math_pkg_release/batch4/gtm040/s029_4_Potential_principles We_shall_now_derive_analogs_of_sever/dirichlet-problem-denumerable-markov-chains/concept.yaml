@@ -1,0 +1,23 @@
+id: dirichlet-problem-denumerable-markov-chains
+title_en: "Dirichlet Problem for Denumerable Markov Chains"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [dirichlet-problem, absorbing-chain, regular-function, boundary-value-problem]
+depends_on:
+  required: [bounded-nonzero-regular-function-absorbing-chain]
+  recommended: [absorbing-chain, potential-operator]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "8"
+    section: "4"
+    pages: "220-225"
+    role_in_book: "Theorem 8-41; solution to the Dirichlet problem for absorbing Markov chains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

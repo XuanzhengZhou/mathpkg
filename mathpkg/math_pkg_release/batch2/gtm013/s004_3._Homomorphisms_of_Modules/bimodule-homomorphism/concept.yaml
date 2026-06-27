@@ -1,0 +1,23 @@
+id: bimodule-homomorphism
+title_en: "(R,S)-Bimodule Homomorphism"
+title_zh: "(R,S)-双模同态"
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [module-theory, bimodule, homomorphism]
+depends_on:
+  required: [bimodule, left-module-homomorphism, right-module-homomorphism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "3. Homomorphisms of Modules"
+    pages: ""
+    role_in_book: "Definition of bimodule homomorphisms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

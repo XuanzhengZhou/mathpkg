@@ -1,0 +1,23 @@
+id: vector-field
+title_en: "Vector Field as a Section of the Tangent Bundle"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: basic
+tags: [vector-field, tangent-bundle, section, smooth-manifold]
+depends_on:
+  required: [section-of-vector-bundle]
+  recommended: [tangent-bundle]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "5"
+    section: "5. Vector Bundles"
+    pages: ""
+    role_in_book: "Definition 5.5(1) — names the section of TX as a vector field"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

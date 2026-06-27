@@ -1,0 +1,23 @@
+id: stone-extension-residue-characterization
+title_en: "Characterization of f*(p) via the residue class field"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [stone-extension, residue-class-field, hyper-real, c-x, one-point-compactification]
+depends_on:
+  required: [gelfand-kolmogoroff-theorem, stone-extension-to-r-star, residue-class-field]
+  recommended: [hyper-real-ideal]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "7"
+    section: "7.6"
+    pages: ""
+    role_in_book: "Connects Stone extension to algebraic properties of residue fields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

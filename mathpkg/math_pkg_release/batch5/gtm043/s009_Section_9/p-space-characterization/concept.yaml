@@ -1,0 +1,23 @@
+id: p-space-characterization
+title_en: "Equivalent Characterizations of P-Spaces"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [P-space, zero-set, G-delta, z-ideal, regular-ring, C(X), idempotent]
+depends_on:
+  required: [P-space, zero-set, G-delta, z-ideal, C(X), regular-ring]
+  recommended: [fixed-maximal-ideals-in-cx]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4J"
+    pages: ""
+    role_in_book: "Lists equivalent algebraic and topological characterizations of P-spaces: every G-delta is open, every zero-set is open, C(X) is a regular ring, every ideal is a z-ideal, etc."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

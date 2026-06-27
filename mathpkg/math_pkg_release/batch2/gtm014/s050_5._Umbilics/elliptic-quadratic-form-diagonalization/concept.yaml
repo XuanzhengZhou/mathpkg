@@ -1,0 +1,23 @@
+id: elliptic-quadratic-form-diagonalization
+title_en: "Lemma 5.22: Elliptic Quadratic Form Diagonalization"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [umbilic, elliptic, quadratic-form, diagonalization, singularity-theory]
+depends_on:
+  required: []
+  recommended: [lemma-quadratic-form-hyperbolic-diagonalization]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "II"
+    section: "5"
+    pages: "196-201"
+    role_in_book: "Elliptic analogue of Lemma 5.13; used to adapt the hyperbolic umbilic proof to the elliptic case in Theorem 5.10"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

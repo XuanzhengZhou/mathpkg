@@ -1,0 +1,23 @@
+id: noetherian-via-injective-decompositions
+title_en: "Characterization of Left Noetherian Rings via Injective Decompositions"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [noetherian-ring, injective-module, indecomposable-decomposition, direct-summand, azumaya-theorem]
+depends_on:
+  required: [noetherian-ring, injective-module, indecomposable-decomposition]
+  recommended: [indecomposable-decomposition-complements-summands, minimal-cogenerator, azumaya-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson and Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "25. Injective Modules and Noetherian Rings—The Faith–Walker Theorems"
+    pages: ""
+    role_in_book: "Central theorem linking noetherianity to decomposition properties of injective modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

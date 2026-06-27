@@ -1,0 +1,23 @@
+id: alternating-cech-cochain
+title_en: "Alternating Čech Cochain"
+title_zh: "交错切赫上链"
+type: definition
+domain: topology
+subdomain: sheaf-cohomology
+difficulty: intermediate
+tags: ["Čech cochain", "sheaf cohomology", "open covering", "alternating condition"]
+depends_on:
+  required: ["sheaf", "global-sections-functor"]
+  recommended: ["open-covering", "nerve-of-covering"]
+  suggested: ["simplicial-cohomology"]
+source_books:
+  - book_id: "gtm038"
+    author: "Raghavan Narasimhan"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Building block of Čech cohomology with values in a sheaf"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

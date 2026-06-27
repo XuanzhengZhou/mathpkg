@@ -1,0 +1,23 @@
+id: swan-character-is-character
+title_en: "Swan Character is a Character"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [swan-character, character-theory, group-representation, artin-character]
+depends_on:
+  required: [artins-theorem, swan-character-sw-g]
+  recommended: [class-function, regular-representation, scalar-product-of-characters]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "19"
+    section: "19.1 Artin and Swan representations"
+    pages: ""
+    role_in_book: "Proposition that the Swan character is a genuine character"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

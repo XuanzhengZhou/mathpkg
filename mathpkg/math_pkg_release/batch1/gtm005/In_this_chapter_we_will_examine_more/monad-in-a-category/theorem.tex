@@ -1,0 +1,19 @@
+A \text{monad} $T = \langle T, \eta, \mu \rangle$ in a category $X$ consists of a functor $T: X \to X$ and two natural transformations
+$$
+\eta: I_X \to T, \qquad \mu: T^2 \to T
+$$
+which make the following diagrams commute:
+$$
+\begin{array}{ccc}
+T^3 & \xrightarrow{T\mu} & T^2 \\
+{\scriptstyle \mu T}\downarrow & & \downarrow{\scriptstyle \mu} \\
+T^2 & \xrightarrow{\mu} & T
+\end{array}
+\qquad
+\begin{array}{ccc}
+T & \xrightarrow{\eta T} & T^2 \\
+{\scriptstyle T\eta}\downarrow & & \downarrow{\scriptstyle \mu} \\
+T^2 & \xrightarrow{\mu} & T
+\end{array}
+$$
+The natural transformation $\eta$ is called the \text{unit} and $\mu$ the \text{multiplication} of the monad $T$. The first diagram expresses the associative law for the monad, while the second diagram expresses the left and right unit laws.

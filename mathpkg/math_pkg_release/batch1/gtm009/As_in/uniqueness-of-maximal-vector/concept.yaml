@@ -1,0 +1,23 @@
+id: uniqueness-of-maximal-vector
+title_en: "Uniqueness of Maximal Vector in Irreducible Modules"
+title_zh: "不可约模中极大向量的唯一性"
+type: corollary
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [maximal-vector, irreducible-module, highest-weight, uniqueness]
+depends_on:
+  required: [structure-of-standard-cyclic-module, irreducible-module, maximal-vector]
+  recommended: [standard-cyclic-module]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "20"
+    section: "20.3"
+    pages: ""
+    role_in_book: "Corollary establishing that in an irreducible L-module the maximal vector is unique up to scalar, supporting the classification by highest weight"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,29 @@
+An extended stochastic process $\{x_n\}$ is the set of outcome functions for a measure space $(\Omega, \mathcal{G}, \text{Pr})$ such that
+
+(1) $\Omega$ is a double sequence space with state space $S \cup \{a, b\}$.
+(2) $\mathcal{F}$ is the smallest Borel field containing the field of cylinder sets of $\Omega$.
+(3) $\text{Pr}
+
+In examples it is necessary to have a method of constructing the measures for extended stochastic processes. If the measure $Pr$ has already been defined consistently on basic cylinder sets, we need a version of the Kolmogorov Theorem to prove that $Pr$ is completely additive on $\mathcal{F}$. Theorem 1-19 then will give the extension of $Pr$ to all of $\mathcal{G}$. At this point, therefore, we stop to outline a proof that $Pr$ is completely additive on $\mathcal{F}$.
+
+Now the argument of Lemma 2-1 easily shows that $Pr$ is non-negative and additive. Extend $\Omega$ to include the set of all doubly infinite sequences of $a$'s, $b$'s, and elements of $S$, and define $Pr$ to be zero on all cylinder subsets of the set added. Then if $Pr$ were a finite measure, we could temporarily rearrange the time scale and then conclude complete additivity by Theorem 2-4. But, in general, $Pr$ is merely sigma-finite and therefore we shall write it as the countable sum of totally finite non-negative additive set functions, each of which is a measure on cylinder sets depending on a bounded time interval. Each of the summands is completely additive by the above argument, and therefore $Pr$ is completely additive by Lemma 1-3. Thus all we need to do is decompose $Pr$ as such a sum. The countable family of statements indexed by $i \in S$ and by $n \geq 0$, consisting of
+
+$$x_0 = i$$
+
+$$x_{-n-1} = i \wedge x_{-n} = b$$
+
+$$x_n = a \wedge x_{n+1} = i,$$
+
+is a disjoint exhaustive family in the original double sequence space, and each statement is assigned finite $Pr$-measure. For each of these statements $q$, define
+
+$$\Pr^{(q)}(E) = \Pr[E \cap \{\omega \mid q\}]$$
+
+for $E$ in the field of cylinder sets. Then the family $\{\Pr^{(q)}\}$ is the required family of set functions.
+
+We now fix our attention on a single extended st
+
+let $v_E(\omega)$ be the supremum of all such $n$. Define $u = u_S$ and $v = v_S$; $u$ and $v$ are called the initial time and the final time, respectively.
+
+By condition (4) of the definition of $\Omega$, we see that $u(\omega)$ and $v(\omega)$ are defined for all $\omega$. Moreover, $u_E(\omega) \leq v_E(\omega)$ whenever $u_E(\omega)$ and $v_E(\omega)$ are defined. The values $u_E(\omega) = -\infty$ and $v_E(\omega) = +\infty$ are possible. If $x_n(\omega) \in E$ for some $n$, we have
+
+$$x_n(\omega) = \begin{cases} a & \text{if } n < u(\omega) \\ \text{element of } S - E & \text{if } u(\omega) \leq n < u_E(\omega) \\ \text{element of } S - E & \text{if } v_E(\omega) < n \leq v(\omega) \\ b & \text{if } v(\omega) < n. \end{cases}$$

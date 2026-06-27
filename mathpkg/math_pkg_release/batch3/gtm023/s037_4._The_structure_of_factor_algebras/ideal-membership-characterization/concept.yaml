@@ -1,0 +1,23 @@
+id: ideal-membership-characterization
+title_en: "Characterization of membership in the irreducible ideal components"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [factor-algebra, ideal-membership, irreducible-ideal, polynomial-algebra]
+depends_on:
+  required: [canonical-epimorphism-onto-irreducible-ideals, factor-algebra-prime-power-decomposition]
+  recommended: [ideal]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "12"
+    section: "4. The structure of factor algebras"
+    pages: "388"
+    role_in_book: "Characterizes when an element belongs to the i-th irreducible ideal component in terms of its polynomial representative"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,32 @@
+id: palmquist-bijection
+title_en: Palmquist Bijection
+title_zh: ''
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags:
+- adjoint-square
+- adjunction
+- natural-transformation
+- bijection
+- Palmquist
+- category-theory
+depends_on:
+  required:
+  - adjoint-square
+  - adjunction
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: IV
+  section: '7'
+  pages: ''
+  role_in_book: exercise by Palmquist establishing a bijection between natural transformations
+    alpha and beta in the context of adjoint squares
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

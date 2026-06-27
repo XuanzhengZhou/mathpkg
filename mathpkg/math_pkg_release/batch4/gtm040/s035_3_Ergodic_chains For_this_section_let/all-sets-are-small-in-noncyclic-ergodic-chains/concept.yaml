@@ -1,0 +1,23 @@
+id: all-sets-are-small-in-noncyclic-ergodic-chains
+title_en: "All Sets Are Small in Noncyclic Ergodic Chains"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [ergodic-chains, small-sets, stationary-distribution, taboo-potentials]
+depends_on:
+  required: []
+  recommended: [noncyclic-ergodic-chains-are-normal]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "3"
+    pages: ""
+    role_in_book: "Proposition 9-55 proves that in a noncyclic ergodic chain all sets are small with explicit formulas"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

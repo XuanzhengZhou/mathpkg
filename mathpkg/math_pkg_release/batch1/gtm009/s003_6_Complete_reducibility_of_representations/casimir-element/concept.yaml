@@ -1,0 +1,23 @@
+id: casimir-element
+title_en: "Casimir Element of a Representation"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: lie-algebra
+difficulty: advanced
+tags: [casimir, representation, semisimple, trace-form, lie-algebra]
+depends_on:
+  required: [semisimple-lie-algebra, l-module, killing-form]
+  recommended: [schurs-lemma, hom-space-as-l-module]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "II"
+    section: "6"
+    pages: ""
+    role_in_book: "Key construction used in the proof of Weyl's Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

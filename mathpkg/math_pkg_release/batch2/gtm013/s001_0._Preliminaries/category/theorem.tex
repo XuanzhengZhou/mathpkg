@@ -1,0 +1,7 @@
+A category $C = (\mathcal{C}, \operatorname{mor}_C, \circ)$ consists of:
+\begin{itemize}
+\item a class $\mathcal{C}$ whose elements are called objects;
+\item for each pair $A, B \in \mathcal{C}$, a set $\operatorname{mor}_C(A, B)$ whose elements are called morphisms (or arrows) from $A$ to $B$, written $f: A \to B$;
+\item for each triple $A, B, C \in \mathcal{C}$, a composition function $\circ: \operatorname{mor}_C(B, C) \times \operatorname{mor}_C(A, B) \to \operatorname{mor}_C(A, C)$,
+\end{itemize}
+such that composition is associative and for each object $A \in \mathcal{C}$ there exists an identity morphism $1_A \in \operatorname{mor}_C(A, A)$ satisfying $f \circ 1_A = f$ and $1_B \circ f = f$ for all $f: A \to B$.

@@ -1,0 +1,20 @@
+id: probability-measure-space
+title_en: "Probability Measure Space"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: foundations
+difficulty: basic
+tags: [probability, measure-space, probability-space]
+depends_on: {required: [boolean-sigma-algebra-of-events, probability-set-function, finite-additivity-of-probability, countable-additivity-of-probability], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX. Probability"
+    section: "44. Heuristic Introduction"
+    pages: ""
+    role_in_book: "The summary definition: numerical probability is a measure μ on a Boolean σ-algebra S of subsets of a set X, such that μ(X) = 1."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

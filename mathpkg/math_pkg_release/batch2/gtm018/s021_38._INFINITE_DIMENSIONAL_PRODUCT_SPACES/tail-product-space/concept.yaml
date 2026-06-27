@@ -1,0 +1,29 @@
+id: tail-product-space
+title_en: "Tail Product Space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags:
+  - product-space
+  - infinite-product
+  - tail-space
+  - cylinder-set
+depends_on:
+  required:
+    - infinite-cartesian-product
+  recommended: []
+  suggested:
+    - j-cylinder-set
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX"
+    section: "38. Infinite Dimensional Product Spaces"
+    pages: ""
+    role_in_book: "Defines tail product spaces used in the recursive decomposition of the infinite product"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

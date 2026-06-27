@@ -1,0 +1,23 @@
+id: irreducible-representation
+title_en: "Irreducible Representation of a C*-algebra"
+title_zh: "C*-代数的不可约表示"
+type: definition
+domain: analysis
+subdomain: operator-algebras
+difficulty: intermediate
+tags: [C*-algebra, representation-theory, irreducible-representation, cyclic-vector]
+depends_on:
+  required: [representation-of-c-star-algebra, cyclic-vector]
+  recommended: [commutant, state-space]
+  suggested: [gelfand-naimark-theorem, gns-construction]
+source_books:
+  - book_id: "gtm003"
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "VI"
+    section: "11"
+    pages: ""
+    role_in_book: "Exercise 12: definition of irreducible representation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

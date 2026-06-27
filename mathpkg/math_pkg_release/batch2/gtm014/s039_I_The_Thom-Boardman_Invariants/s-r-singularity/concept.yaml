@@ -1,0 +1,23 @@
+id: s-r-singularity
+title_en: "Singularity of Type $S_r$"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: intermediate
+tags: [singularity, corank, jet-space, thom-boardman, differentiable-map]
+depends_on:
+  required: []
+  recommended: [rank-of-differential, jet-bundle, s-r-submanifold-j1]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Introduces the rudimentary $S_r$ classification of singularities based on the corank of the differential"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

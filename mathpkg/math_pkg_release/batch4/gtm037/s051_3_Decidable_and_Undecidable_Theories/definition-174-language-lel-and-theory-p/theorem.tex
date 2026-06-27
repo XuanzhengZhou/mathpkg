@@ -1,0 +1,24 @@
+The language $\mathcal{L}_{\text{el}}$ is an expansion of $\mathcal{L}_{\text{nos}}$, and the theory $\mathcal{P}$ in $\mathcal{L}_{\text{el}}$ has the following axioms:
+
+(i) $\forall v_0(\neg s v_0 = 0)$;
+(ii) $\forall v_0 \forall v_1(s v_0 = s v_1 \rightarrow v_0 = v_1)$;
+(iii) $\forall v_0(v_0 + 0 = v_0)$;
+(iv) $\forall v_0 \forall v_1[v_0 + s v_1 = s(v_0 + v_1)]$;
+(v) $\forall v_0(v_0 \cdot 0 = 0)$;
+(vi) $\forall v_0 \forall v_1(v_0 \cdot s v_1 = v_0 \cdot v_1 + v_0)$;
+(vii) $\forall v_0 \forall v_1[(v_0 \leq v_1 \rightarrow v_0 + |v_0 - v_1| = v_1) \wedge (v_1 \leq v_0 \rightarrow v_1 + |v_0 - v_1| = v_0)]$ (introducing binary operation symbol $|-|$);
+(viii) $\forall v_0([v_0/0] = 0) \wedge \forall v_0 \forall v_1[v_1 \neq 0 \rightarrow \dots]$ (introducing binary operation symbol $[/]$, integer division);
+
+For any $m$-ary operation symbol $\mathbf{O}$ already introduced, an $m$-ary relation symbol $R_{\mathbf{O}}$ is introduced with the axiom:
+$$(xv) \ \forall v_0 \cdots \forall v_{m-1}(R_{\mathbf{O}} v_0 \cdots v_{m-1} \leftrightarrow \mathbf{O} v_0 \cdots v_{m-1} = \Delta 1).$$
+
+The induction axiom schema is also included:
+$$(xvi) \ \varphi(0) \land \forall v_0 [\varphi \rightarrow \varphi(s v_0)] \rightarrow \forall v_0 \varphi,$$
+where $\varphi$ is any formula of $\mathcal{L}_{\text{el}}$.
+
+Each nonlogical constant $F$ of $\mathcal{L}_{\text{el}}$ is associated with a number-theoretic object $\#F$ via the following assignments:
+$$\#0 = 0, \quad \#s = s, \quad \#+ = +, \quad \#\cdot = \cdot, \quad \#(|-|) = |-|, \quad \#[/] = [/],$$
+$$\#U_i^n = U_i^n,$$
+$$\#[C_m^n(\mathbf{O}; \mathbf{P}_0, \ldots, \mathbf{P}_{m-1})] = K_m^n(\#\mathbf{O}; \#\mathbf{P}_0, \ldots, \#\mathbf{P}_{n-1}),$$
+$$\#[\Sigma(\mathbf{O})] = \Sigma\#\mathbf{O}, \quad \#[\Pi(\mathbf{O})] = \Pi\#\mathbf{O},$$
+$$\#[R_{\mathbf{O}}] = \{(x_0, \ldots, x_{m-1}): \#\mathbf{O} x_0 \cdots x_{m-1} = 1\}.$$

@@ -1,0 +1,23 @@
+id: tau-homeomorphism-H-to-H-star
+title_en: "The Projection τ of H into H* is a Homeomorphism"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: compactifications
+difficulty: advanced
+tags: [homeomorphism, projection, embedding, realcompactification, Stone-Cech-compactification, vX-embedded-in-betaX]
+depends_on:
+  required: [H-homomorphisms-onto-R, H-star-compact-beta, product-space-P-embedding]
+  recommended: [sigma-homeomorphism-C-embedded, sigma-star-homeomorphism-C-star-embedded]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "11"
+    section: "11"
+    pages: ""
+    role_in_book: "Shows the natural embedding of vX into βX via the projection τ"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

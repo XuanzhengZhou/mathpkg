@@ -1,0 +1,23 @@
+id: characteristic-class-stability-criterion
+title_en: "Stability Criterion for Characteristic Classes"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: characteristic-classes
+difficulty: advanced
+tags: [characteristic-class, vector-bundle, stable, group-completion, k-theory]
+depends_on:
+  required: []
+  recommended: [definition-of-characteristic-class, grothendieck-group-completion]
+  suggested: [chern-class, stiefel-whitney-class]
+source_books:
+  - book_id: gtm020
+    author: Dale Husemoller
+    title: Fibre Bundles
+    chapter: "20"
+    section: "2"
+    pages: ""
+    role_in_book: "Determines when a characteristic class extends from the semigroup of vector bundles to K-theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

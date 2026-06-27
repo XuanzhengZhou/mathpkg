@@ -1,0 +1,23 @@
+id: integral-invariant
+title_en: "Integral Invariant of a Map"
+title_zh: "映射的积分不变量"
+type: definition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [integral-invariant, differential-form, pullback, symplectic-geometry]
+depends_on:
+  required: [differential-form, chain]
+  recommended: [pullback-of-differential-form]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "8"
+    section: "38"
+    pages: "214-218"
+    role_in_book: "Defines integral invariants as differential forms preserved under pullback by a map"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

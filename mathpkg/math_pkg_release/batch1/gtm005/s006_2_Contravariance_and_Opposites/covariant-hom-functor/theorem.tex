@@ -1,0 +1,13 @@
+Suppose that $C$ is a category with small hom-sets, so that each $\hom(a, b) = \{f \mid f: a \to b \text{ in } C\}$ is a small set, hence an object of the category $\mathbf{Set}$ of all small sets. For each object $a \in C$, the \text{covariant hom-functor} is
+
+$$
+C(a, -) = \hom(a, -): C \to \mathbf{Set}.
+$$
+
+Its object function sends each object $b$ to the set $\hom(a, b)$. Its arrow function sends each arrow $k: b \to b'$ to the function
+
+$$
+\hom(a, k): \hom(a, b) \to \hom(a, b')
+$$
+
+defined by the assignment $f \mapsto k \circ f$ for each $f: a \to b$.

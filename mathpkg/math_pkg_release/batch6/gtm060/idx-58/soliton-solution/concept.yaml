@@ -1,0 +1,23 @@
+id: soliton-solution
+title_en: "Soliton solution of the KdV equation"
+title_zh: "KdV方程的孤立子解"
+type: proposition
+domain: applied-math
+subdomain: integrable-systems
+difficulty: advanced
+tags: [soliton, kdv, traveling-wave, separatrix, newton-equation]
+depends_on:
+  required: [korteweg-de-vries-equation]
+  recommended: []
+  suggested: [inverse-scattering, n-soliton-solution]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "The Korteweg–de Vries equation"
+    pages: ""
+    role_in_book: "Derives the single-soliton solution via reduction to Newton's equation with a cubic potential"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

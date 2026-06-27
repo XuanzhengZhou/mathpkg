@@ -1,0 +1,23 @@
+id: minkowski-extreme-points
+title_en: "Minkowski Theorem on Compact Convex Sets"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: convex-geometry
+difficulty: intermediate
+tags: ["minkowski", "extreme-points", "compact-convex"]
+depends_on:
+  required: ["klee-minkowski-decomposition"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§8"
+  section: "8.C"
+  pages: "36"
+  role_in_book: "classical Minkowski theorem"
+content_hash: "8652713e98818c1a"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

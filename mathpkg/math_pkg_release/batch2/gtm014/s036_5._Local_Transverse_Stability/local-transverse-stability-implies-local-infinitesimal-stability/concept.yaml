@@ -1,0 +1,23 @@
+id: local-transverse-stability-implies-local-infinitesimal-stability
+title_en: "Theorem 5.13: Local Transverse Stability Implies Local Infinitesimal Stability"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [transverse-stability, infinitesimal-stability, jet-bundle, m-jet, stability-equivalence]
+depends_on:
+  required: [locally-transverse-stable, locally-infinitesimally-stable, dgamma2-dgamma1-onto, lambda-linear-injection, source-map-exact-sequence]
+  recommended: [dgamma1-commutative-diagram, dgamma2-commutative-diagram, corollary-1-3]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "5"
+    pages: "138"
+    role_in_book: "Main theorem of §5: the geometric condition of local transverse stability implies the algebraic condition of local infinitesimal stability."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

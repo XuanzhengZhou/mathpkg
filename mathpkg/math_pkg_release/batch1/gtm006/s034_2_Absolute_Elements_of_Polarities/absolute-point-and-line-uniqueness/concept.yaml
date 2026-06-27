@@ -1,0 +1,23 @@
+id: absolute-point-and-line-uniqueness
+title_en: "Uniqueness of Absolute Point-Line Incidence (Lemma 12.1)"
+title_zh: "绝对点线关联的唯一性（引理12.1）"
+type: lemma
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [polarity, absolute-point, absolute-line, incidence, uniqueness]
+depends_on:
+  required: [polarity-of-projective-plane]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "XII. Polarities"
+    section: "2. Absolute Elements of Polarities"
+    pages: ""
+    role_in_book: "Every absolute point lies on exactly one absolute line, and dually"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

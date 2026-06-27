@@ -1,0 +1,23 @@
+id: ring-completion-of-lambda-semiring
+title_en: "Ring completion of a λ-semiring"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: lambda-rings
+difficulty: advanced
+tags: [lambda-ring, ring-completion, grothendieck-group, lambda-semiring, power-series]
+depends_on:
+  required: [lambda-semiring]
+  recommended: [ring-completion, semiring]
+  suggested: [grothendieck-group, k-theory]
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "13"
+    section: "1.3"
+    pages: ""
+    role_in_book: "Extends a λ-semiring structure to the ring completion, enabling the construction of λ-ring structures on Grothendieck groups such as K(X)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

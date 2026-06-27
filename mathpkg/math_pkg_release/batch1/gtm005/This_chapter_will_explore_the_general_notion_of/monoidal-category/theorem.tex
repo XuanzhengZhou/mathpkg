@@ -1,0 +1,27 @@
+A \textbf{monoidal category} is a category $B$ equipped with a bifunctor $\square : B \times B \rightarrow B$, an object $e \in B$, and three natural isomorphisms
+\begin{align*}
+\alpha_{a,b,c} &: a \square (b \square c) \cong (a \square b) \square c, \\
+\lambda_a &: e \square a \cong a, \\
+\varrho_a &: a \square e \cong a,
+\end{align*}
+such that the following two coherence diagrams commute.
+
+\textbf{Pentagon axiom:} For all objects $a, b, c, d \in B$,
+\[
+\begin{CD}
+a \square (b \square (c \square d)) @>\alpha>> (a \square b) \square (c \square d) @>\alpha>> ((a \square b) \square c) \square d \\
+@V{1 \square \alpha}VV @VV{\alpha \square 1}V \\
+a \square ((b \square c) \square d) @>>\alpha> (a \square (b \square c)) \square d
+\end{CD}
+\]
+
+\textbf{Triangle axiom:} For all objects $a, c \in B$,
+\[
+\begin{CD}
+a \square (e \square c) @>\alpha>> (a \square e) \square c \\
+@V{1 \square \lambda}VV @VV{\varrho \square 1}V \\
+a \square c @= a \square c
+\end{CD}
+\]
+
+Moreover, $\lambda_e = \varrho_e : e \square e \rightarrow e$.

@@ -1,0 +1,23 @@
+id: broken-line
+title_en: "Broken Line"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: polyhedra
+difficulty: basic
+tags: [broken-line, polyhedral-arc, polyhedron]
+depends_on:
+  required: [arc]
+  recommended: [polyhedron, complex]
+  suggested: [broken-line-wise-connected]
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "1"
+    section: "Connectivity"
+    pages: ""
+    role_in_book: "Defines piecewise linear arcs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

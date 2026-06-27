@@ -1,0 +1,23 @@
+id: univalent-function-phi
+title_en: "The univalent function Φ(τ)"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [modular-function, gamma0-subgroup, univalent, eta-function, valence]
+depends_on:
+  required: []
+  recommended: [modular-function, eta-function, gamma0-subgroup, fundamental-domain]
+  suggested: [dedekind-eta-function, valence-formula]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "4"
+    section: "4.8"
+    pages: ""
+    role_in_book: "Introduces a univalent function Φ(τ) automorphic under Γ₀(q) for certain q, defined via the eta function ratio, which is later used to express j_p as a polynomial"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

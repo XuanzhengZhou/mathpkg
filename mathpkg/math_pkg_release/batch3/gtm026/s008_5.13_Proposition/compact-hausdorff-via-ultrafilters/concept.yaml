@@ -1,0 +1,23 @@
+id: compact-hausdorff-via-ultrafilters
+title_en: "Compactness and Hausdorff via Ultrafilter Convergence"
+title_zh: "用超滤子收敛刻画紧致与豪斯多夫"
+type: theorem
+domain: topology
+subdomain: general-topology
+difficulty: intermediate
+tags: [compact, hausdorff, ultrafilter, convergence, topology]
+depends_on:
+  required: [ultrafilter-convergence, ultrafilter-equivalent-characterizations]
+  recommended: [open-sets-via-ultrafilter-convergence]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "5"
+    section: "5.29"
+    pages: ""
+    role_in_book: "Theorem 5.29: ultrafilter-based characterization of compactness and the Hausdorff separation property"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: asymptotic-quantization-condition-with-maslov-index
+title_en: "Asymptotic quantization condition with Maslov index"
+title_zh: "带Maslov指标的渐近量子化条件"
+type: theorem
+domain: applied-math
+subdomain: semiclassical-analysis
+difficulty: advanced
+tags: [asymptotic-formula, maslov-index, quantization, eigenvalue, schrodinger-equation]
+depends_on:
+  required: [index-of-closed-curve-on-lagrangian-submanifold]
+  recommended: [maslov-index, lagrangian-submanifold]
+  suggested: [ebk-quantization, path-integral]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 11"
+    section: "C. Indices of closed curves"
+    pages: ""
+    role_in_book: "States the asymptotic formula relating eigenvalues of the Schrödinger equation to the Maslov index"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

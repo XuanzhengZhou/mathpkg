@@ -1,0 +1,23 @@
+id: abstract-curve-is-projective
+title_en: "Abstract Nonsingular Curve is Projective"
+title_zh: "抽象非奇异曲线是射影的"
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [abstract-curve, projective-curve, nonsingular-curve, function-field]
+depends_on:
+  required: [abstract-nonsingular-curve, projective-curve]
+  recommended: [abstract-curve-functor-is-faithful, abstract-curve-functor-is-full]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "6"
+    pages: "62-64"
+    role_in_book: "Theorem 6.9, main result: C_K is isomorphic to a nonsingular projective curve"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

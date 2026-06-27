@@ -1,0 +1,12 @@
+Consider a Lagrangian system with kinetic and potential energies given by quadratic forms
+
+$$T = \frac{1}{2}(A \dot{q}, \dot{q}), \quad U = \frac{1}{2}(B q, q), \quad q \in \mathbb{R}^n, \quad \dot{q} \in \mathbb{R}^n,$$
+
+where $A$ is positive-definite. There exists a linear change of coordinates $Q = C q$ that simultaneously diagonalizes both forms:
+
+$$T = \frac{1}{2} \sum_{i=1}^{n} \dot{Q}_i^2, \quad U = \frac{1}{2} \sum_{i=1}^{n} \lambda_i Q_i^2.$$
+
+Consequently, a system performing small oscillations is the direct product of $n$ one-dimensional systems with three possible cases:
+- Case 1: $\lambda = \omega^2 > 0$; solution is $Q = C_1 \cos \omega t + C_2 \sin \omega t$ (oscillation)
+- Case 2: $\lambda = 0$; solution is $Q = C_1 + C_2 t$ (neutral equilibrium)
+- Case 3: $\lambda = -k^2 < 0$; solution is $Q = C_1 \cosh kt + C_2 \sinh kt$ (instability)

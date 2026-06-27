@@ -1,0 +1,23 @@
+id: jacobi-field-taylor-expansion
+title_en: "Jacobi Field Taylor Expansion"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [jacobi-field, taylor-expansion, gauss-curvature, geodesic, sectional-curvature]
+depends_on:
+  required: [jacobi-field, geodesic, gauss-curvature, covariant-derivative]
+  recommended: [geodesic-polar-coordinates, exponential-map]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.4"
+    pages: "113-114"
+    role_in_book: "Taylor expansion of Jacobi fields used to compute length of small circles and area of small balls"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

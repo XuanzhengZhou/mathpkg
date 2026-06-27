@@ -1,0 +1,33 @@
+The Riemann surface $S$ of $K/k$ is quasi-compact (i.e., every open covering of $S$ contains a finite subcovering).
+
+Proof. Any valuation $v$ of $K$ is completely determined if one knows, for any element $x$ in $K$, whether $v(x)$ is positive, zero or negative. In other words, the elements $v$ in $S$ can be identified with
+
+follows at once that $S$ is quasi compact if and only if $S^\star$ is quasi compact. We shall therefore prove the quasi compactness of $S^\star$. In the rest of the proof we shall drop the asterisk, so that temporarily (until the end of the proof of the theorem) it should be understood that $S$ contains the trivial valuation of $K$.
+
+(2) We shall also introduce in $Z$ a stronger topology which will be Hausdorff, and we shall show that in the corresponding stronger topology of $Z^K$ the subset $S$ becomes a closed set. It will then follow, by Tychonoff’s theorem, that in the induced stronger topology $S$ is compact (i.e., quasi compact and Hausdorff), whence a fortiori the Riemann surface $S$ is quasi compact (in its original weaker topology).
+
+The stronger topology which we introduce in $Z$ shall be the discrete topology (every subset of $Z$ is open). For any $f$ in $Z^K$ the relation “$f \in S$” holds if and only if the following conditions are satisfied.
+
+(a) The set of all $x$ in $K$ such that $f(x) \in \{0, +\}$ is closed under addition and multiplication.
+
+(b) The above set contains $k$.
+
+(c) If $f(x) \notin \{0, +\}$ (whence $x \neq 0$, by (b)) then $f(1/x) \in \{+\}$.
+
+These conditions can be re-formulated as follows:
+
+(a') For any elements $x, y$ in $K$ we have either $f(x) = -$ or $f(y) = -$ or both $f(x+y)$ and $f(xy)$ are in $\{0, +\}$.
+
+(b') If $x \in k$ then $f(x) \in \{0, +\}$.
+
+(c') For any $x$ in $K$ either $f(x) \in \{0, +\}$ or $x \neq 0$ and $f(1/x) = +$.
+
+For any $x$ in $K$ denote by $pr_x$ the mapping $f \rightarrow f(x)$
+
+We shall now undertake a study of the Riemann surface $S$ from a different point of view. The objective of this study will be to show that $S$ can be regarded as the projective limit of an inverse system of certain topological spaces associated with finite subsets of $K$. The manner in which these spaces will be defined will be quite similar to that in which projective varieties are defined in algebraic geometry.
+
+We mean by a quasi-local ring a commutative ring (noetherian or non-noetherian) with identity, in which the non-units form an ideal. Thus, every valuation ring is a quasi-local ring, and a quasi-local ring is a local ring (Vol. I, p. 228) if and only if it is noetherian. We consider the set $L$ of all quasi-local rings (noetherian or non-noetherian) between $k$ and $K$. For $P$ in $L$, we denote by $\mathfrak{m}(P)$ the (unique) maximal ideal of $P$. For $P, P' \in L$, we say that $P$ dominates $P'$ if $P' \subset P$ and $\mathfrak{m}(P') = P' \cap \mathfrak{m}(P)$. A subset $M$ of $L$ is said to be irredundant (resp., complete) if, for any valuation $v$ of $K/k$ (trivial or non-trivial), the valuation ring $R_t$ dominates at most one (resp., at least one) element of $M$. We say that a subset $M'$ of $L$ dominates a subset $M$ of $L$ and we write $M \leq M'$ if every element of $M'$ dominates at least one element of $M$. This relation $M \leq M'$ is obviously transitive. If we, furthermore, suppose that $M$ is irredundant, then, by the extension theorem (Theorem 5, § 4), the element $P$ of $M$ which is dominated by a given element $P'$ of $M'$ is unique; thus the transformation $P' \rightarrow P$ is a mapping, called the domination mapping and denoted by $d_{M
+
+way: the closure of an element $P$ of $L$ is the set of all quasi-local rings $P'$ between $k$ and $P$; the proof is similar to that of theorem 38.
+
+For any ring $o$ between $k$ and $K$, we denote by $P(o)$ the set of all prime ideals of $o$ which are $\neq 0$, and we assign to $P(o)$ the following topology: a closed set is the set of all ideals $p \in P(o)$ which contain a given ideal $a$; it is indeed clear that any intersection and any finite union of sets of this type is a set of the same type. We denote by $V(o)$ the subset of $L$ composed of all quotient rings $o_p(p \in P(o))$.

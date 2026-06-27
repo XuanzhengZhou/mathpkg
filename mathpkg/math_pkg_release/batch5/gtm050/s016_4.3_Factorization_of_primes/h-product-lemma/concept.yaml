@@ -1,0 +1,23 @@
+id: h-product-lemma
+title_en: "Product Lemma for Prime Cyclotomic Divisors"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: cyclotomic-integers
+difficulty: intermediate
+tags: [cyclotomic-integers, norm, congruence, kummer-theory]
+depends_on:
+  required: [norm-of-cyclotomic-integer, congruence-mod-cyclotomic-integer]
+  recommended: [primitive-root-mod-p]
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "4"
+    section: "4.3"
+    pages: ""
+    role_in_book: "Technical lemma ensuring the existence of an integer j such that h(m^j) ≡ 0 mod p, completing the proof that a prime cyclotomic integer must divide some α-k"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

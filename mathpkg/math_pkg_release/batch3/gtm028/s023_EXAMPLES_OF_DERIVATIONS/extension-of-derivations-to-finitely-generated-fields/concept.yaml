@@ -1,0 +1,23 @@
+id: extension-of-derivations-to-finitely-generated-fields
+title_en: "Extension of Derivations to Finitely Generated Fields"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: field-theory
+difficulty: advanced
+tags: [derivation, field-extension, algebraic-relations]
+depends_on:
+  required: [derivation, vector-space-of-derivations]
+  recommended: [coefficientwise-derivation-extension]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "IV"
+    section: "Examples of Derivations"
+    pages: ""
+    role_in_book: "Theorem 39: conditions for extending a derivation D of K to F=K(x_1,...,x_n)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

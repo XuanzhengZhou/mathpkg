@@ -1,0 +1,1 @@
+A presheaf assigns algebraic data to open sets with consistent restriction maps. The sheafification process constructs a sheaf from a presheaf by taking germs, which is the standard way to define many important sheaves.

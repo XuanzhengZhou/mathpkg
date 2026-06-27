@@ -1,0 +1,23 @@
+id: exercise-2-primary-ideals
+title_en: "Primary Decomposition of the Additive Group of a Ring"
+title_zh: ""
+type: exercise
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [primary-decomposition, direct-sum, ideal, ring, p-group]
+depends_on:
+  required: [exercise-1-primary-decomposition, ideal, direct-sum]
+  recommended: [ring]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "14"
+    pages: ""
+    role_in_book: "Exercise: show that the primary components are ideals when the group is the additive group of a ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

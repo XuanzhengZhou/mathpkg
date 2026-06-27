@@ -1,0 +1,13 @@
+id: average-theorem
+title_en: "Average Theorem for Measurable Groups"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [measurable-group, average-theorem, convolution, integration, measurable-function]
+depends_on: {required: [measurable-group, measurable-group-covering, measurability-of-translates-and-inverses, product-measure], recommended: [fubini-theorem], suggested: [convolution]}
+source_books: [{book_id: "gtm018", author: "Paul R. Halmos", title: "Measure Theory", chapter: "XI", section: "59. Measurable Groups", pages: "", role_in_book: "Theorem F: the average theorem — integral formula for μ(x⁻¹A ∩ B) and measurability of μ(xA Δ B)"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

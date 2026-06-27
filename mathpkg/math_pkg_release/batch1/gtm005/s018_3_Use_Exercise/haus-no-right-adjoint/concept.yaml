@@ -1,0 +1,23 @@
+id: haus-no-right-adjoint
+title_en: "Inclusion of Hausdorff Spaces has No Right Adjoint"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: category-theory
+difficulty: intermediate
+tags: [hausdorff-space, right-adjoint, coequalizer, forgetful-functor]
+depends_on:
+  required: [hausdorff-category, adjoint-functor, coequalizer]
+  recommended: [haus-complete-cocomplete]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IV. Adjoints"
+    section: "9. Adjoints in Topology"
+    pages: ""
+    role_in_book: "Exercise 9.5: counterexample showing Haus→Top lacks right adjoint"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

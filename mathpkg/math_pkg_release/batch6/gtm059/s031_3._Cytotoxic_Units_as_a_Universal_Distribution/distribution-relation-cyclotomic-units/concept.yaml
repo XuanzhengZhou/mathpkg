@@ -1,0 +1,23 @@
+id: distribution-relation-cyclotomic-units
+title_en: "Cyclotomic Units Satisfy the Universal Distribution Relation"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: intermediate
+tags: [cyclotomic-units, distribution-relations, universal-distribution]
+depends_on:
+  required: [cyclotomic-units, cyclotomic-unit-relations]
+  recommended: [universal-distribution, group-ring]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "3. Cyclotomic Units as a Universal Distribution"
+    pages: ""
+    role_in_book: "Theorem 3.1: Establishes that the cyclotomic unit map satisfies the distribution formalism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

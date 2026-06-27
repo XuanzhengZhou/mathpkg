@@ -1,0 +1,23 @@
+id: thm-canonical-embedding
+title_en: "Theorem 5.2: Canonical embedding of curves"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-curves
+difficulty: intermediate
+tags: [canonical-morphism, canonical-embedding, hyperelliptic-curve, very-ample, rational-normal-curve, genus]
+depends_on:
+  required: [lemma-canonical-system-no-base-points, def-hyperelliptic-curve]
+  recommended: [canonical-sheaf, very-ample-line-bundle, morphism-to-projective-space]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "IV"
+    section: "5"
+    pages: ""
+    role_in_book: "Characterization of the canonical morphism: embedding for nonhyperelliptic curves, 2-to-1 onto rational normal curve for hyperelliptic curves"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: abstract-birkhoff-subcategory
+title_en: "Abstract Birkhoff Subcategory"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: universal-algebra
+difficulty: advanced
+tags: [birkhoff, subcategory, algebraic-theory, reflection, split-epimorphism]
+depends_on:
+  required: [algebraic-theory, full-replete-subcategory, reflection, split-epimorphism]
+  recommended: [kleisli-category, eilenberg-moore-category]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "3"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Defines the central notion of an abstract Birkhoff subcategory, generalizing Birkhoff's HSP theorem to the categorical setting."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

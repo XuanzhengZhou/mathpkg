@@ -1,0 +1,29 @@
+id: intersection-of-subalgebras-is-subalgebra
+title_en: "Intersection of Subalgebras Is a Subalgebra"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-algebras
+difficulty: basic
+tags:
+  - boolean-algebra
+  - subalgebra
+  - intersection
+  - sigma-algebra
+depends_on:
+  required:
+    - boolean-subalgebra
+    - boolean-sigma-algebra
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "3"
+    section: "1"
+    pages: ""
+    role_in_book: "Intersection of subalgebras is again a subalgebra; σ-completeness is preserved under intersection"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

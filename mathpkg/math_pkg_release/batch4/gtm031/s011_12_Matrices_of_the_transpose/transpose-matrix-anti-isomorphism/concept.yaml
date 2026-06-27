@@ -1,0 +1,23 @@
+id: transpose-matrix-anti-isomorphism
+title_en: "Transpose is an Anti-Isomorphism on Matrix Rings"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [transpose, anti-isomorphism, matrix-ring, dual-transformation]
+depends_on:
+  required: [matrix-of-the-transpose]
+  recommended: [anti-isomorphism-of-transpose]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "2"
+    section: "12"
+    pages: ""
+    role_in_book: "Establishes that matrix transpose is an anti-isomorphism of the matrix ring"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

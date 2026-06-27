@@ -1,0 +1,23 @@
+id: pointwise-kan-extension-characterization
+title_en: "Pointwise Kan Extension Characterization via Hom-Sets"
+title_zh: ""
+type: corollary
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [kan-extension, pointwise, hom-set, representability]
+depends_on:
+  required: [pointwise-right-kan-extension-via-limits, cone-bijection-for-kan-extensions]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "X"
+    section: "5. Kan Extensions as Coends"
+    pages: ""
+    role_in_book: "Corollary 4: hom-set characterization of pointwise Kan extensions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

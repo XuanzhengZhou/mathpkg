@@ -1,0 +1,17 @@
+---
+role: exercise
+locale: en
+chapter: "8"
+section: "36"
+exercise_number: 10
+---
+
+Prove:
+(a) If $K_n$ admits a triangular imbedding on some surface, then $n \equiv 0, 3, 4$, or 7 (modulo 12).
+(b) Under the assumption that $n \equiv 0, 3, 4$, or 7 (modulo 12), $K_n$ has a triangular imbedding if and only if
+$$\eta(K_n) = \left\{ \frac{(n - 3)(n - 4)}{12} \right\}.$$
+(c) Use the sequence $(1, 11, 14, 13, 15, 3, 8, 9, 7, 4, 17, 10, 18, 5, 16, 12, 2, 6)$ to prove that $\eta(K_{19}) = 20$.
+(d) Prove that $\eta(K_{12}) = 6$.
+
+Further References
+E. A. Nordhaus, [n.1], and A. T. White, [w.7].

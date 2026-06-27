@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $p > 1$ and let $t$ be a linear transformation of $V$. Then $t^{p^e}$ is semisimple for some $e$.

@@ -1,0 +1,13 @@
+id: simple-random-walk-exit-time-limit
+title_en: "Limit Distribution of the Exit Time for Simple Random Walk"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: intermediate
+tags: [exit-time, limit-distribution, simple-random-walk, scaling-limit]
+depends_on: {required: [interval-exit-time, eigenvalues-of-restricted-transition], recommended: [central-limit-theorem], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "21", pages: "", role_in_book: "Derives the limit distribution of the scaled exit time T_{2N} for simple random walk starting at the midpoint"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

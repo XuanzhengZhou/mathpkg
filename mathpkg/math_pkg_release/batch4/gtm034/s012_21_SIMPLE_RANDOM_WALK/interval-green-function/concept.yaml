@@ -1,0 +1,13 @@
+id: interval-green-function
+title_en: "Green Function of an Interval"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: random-walk
+difficulty: basic
+tags: [green-function, interval, potential-theory, expected-visits]
+depends_on: {required: [restricted-transition-function], recommended: [green-function], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "21", pages: "", role_in_book: "Defines the Green function g_N(x,y) as the expected number of visits from x to y before leaving the interval"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

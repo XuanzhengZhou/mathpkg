@@ -1,0 +1,23 @@
+id: prime-classification-quadratic-field
+title_en: "Classification of Rational Primes in a Quadratic Field"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: algebraic-number-theory
+difficulty: intermediate
+tags: [quadratic-field, prime-decomposition, gaussian-integers, dedekind-domain, ramification]
+depends_on:
+  required: [dedekind-domain, prime-ideal-factorization]
+  recommended: [decomposition-of-prime-ideals]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "8"
+    pages: "283"
+    role_in_book: "Example of prime ideal decomposition in quadratic fields"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

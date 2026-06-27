@@ -1,0 +1,23 @@
+id: trace-norm-formulas-under-homomorphism
+title_en: "Trace and Norm Formulas Under Homomorphism"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [trace, norm, homomorphism, residue-field, field-polynomial]
+depends_on:
+  required: [trace-mapping, norm-mapping, field-polynomial]
+  recommended: [residue-field, integral-closure]
+  suggested: [ramification-theory]
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "11"
+    pages: ""
+    role_in_book: "Lemma 1: relates trace and norm of residue classes to trace and norm of the original elements"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

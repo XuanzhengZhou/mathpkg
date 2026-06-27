@@ -1,0 +1,23 @@
+id: prenuclear-implies-hilbertian-embedding
+title_en: "Prenuclear Seminorms Characterize Hilbertian Embeddings"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [prenuclear, hilbert-space, embedding, L2-space, Radon-measure]
+depends_on:
+  required: [prenuclear-seminorm-and-subset, hilbert-space, L2-space, Radon-measure, locally-convex-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; with M. P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "10"
+    pages: ""
+    role_in_book: "Theorem 10.1: if every continuous seminorm is prenuclear, 0-neighborhoods embed into Hilbert subspaces of L^2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

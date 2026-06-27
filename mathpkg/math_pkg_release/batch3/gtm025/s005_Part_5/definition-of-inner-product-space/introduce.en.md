@@ -1,0 +1,1 @@
+An inner product space generalizes the dot product from Euclidean space to abstract vector spaces. The inner product is sesquilinear and positive definite. A complete inner product space is called a Hilbert space.

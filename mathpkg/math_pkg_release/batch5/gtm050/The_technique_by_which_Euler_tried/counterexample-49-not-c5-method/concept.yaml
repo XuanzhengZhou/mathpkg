@@ -1,0 +1,23 @@
+id: counterexample-49-not-c5-method
+title_en: "Counterexample 49 = 2^2 + 5·3^2 disproving Euler's general square method"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: intermediate
+tags: [counterexample, euler, square, z-sqrt-minus-c, failure-of-method]
+depends_on:
+  required: [euler-method-square-case]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem"
+    chapter: "2"
+    section: "2.3"
+    pages: ""
+    role_in_book: "Demonstrates that Euler's method fails for general c"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

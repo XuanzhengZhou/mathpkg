@@ -1,0 +1,23 @@
+id: fine-boundary-function
+title_en: "Fine Boundary Function"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [boundary-theory, martingale-convergence, denumerable-markov-chains, potential-theory]
+depends_on:
+  required: []
+  recommended: [regular-function, pi-integrable-function, martingale-limit]
+  suggested: [poisson-boundary, choquet-boundary]
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "10"
+    section: "9. Fine boundary functions"
+    pages: ""
+    role_in_book: "Defines the boundary values of regular functions on the exit boundary B_e"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

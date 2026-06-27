@@ -1,0 +1,23 @@
+id: arithmetical-relations
+title_en: "Arithmetical Relations"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability-theory
+difficulty: advanced
+tags: ["arithmetic-hierarchy", "arithmetical-relations", "recursive-function-theory"]
+depends_on:
+  required: ["sigma-m-pi-m-delta-m-relations"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "Part 1: Recursive Function Theory"
+    section: "5. Arithmetic Hierarchy"
+    pages: ""
+    role_in_book: "Defines arithmetical relations as the union of all Sigma_m and Pi_m classes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

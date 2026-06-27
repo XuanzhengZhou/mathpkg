@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "VI"
+section: "8"
+exercise_number: 4
+---
+
+Let $\mathfrak{B}$ be an ideal in a Noetherian ring. Define the $\omega569JNRXghklth power $\mathfrak{B}^\omega = \bigcap_{i=1}^\infty \mathfrak{B}^i$. Investigate its properties.

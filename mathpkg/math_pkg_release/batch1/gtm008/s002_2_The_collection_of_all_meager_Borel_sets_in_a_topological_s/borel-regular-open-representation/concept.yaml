@@ -1,0 +1,23 @@
+id: borel-regular-open-representation
+title_en: "Every Borel Set is the Symmetric Difference of a Regular Open Set and a Meager Set"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: descriptive-set-theory
+difficulty: intermediate
+tags: [borel-set, regular-open, meager, baire-property, symmetric-difference]
+depends_on:
+  required: [borel-sets-baire-property, regular-open-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "Chapter 2: Topological Spaces"
+    section: "2. The Collection of All Meager Borel Sets in a Topological Space"
+    pages: ""
+    role_in_book: "Corollary 3.11: Refinement with regular open set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

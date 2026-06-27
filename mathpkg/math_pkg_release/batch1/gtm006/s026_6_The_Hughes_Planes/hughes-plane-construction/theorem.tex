@@ -1,0 +1,17 @@
+Let $q$ be an odd prime power. By Lemma 9.6, there exists at least one nearfield $N$ of order $q^2$ whose kernel is $F = GF(q)$ and such that every element of $F$ commutes with each element of $N$.
+
+Let $V = \{(x_1, x_2, x_3) \mid x_i \in N,\ i = 1, 2, 3\}$. Define addition on $V$ by
+$$(x_1, x_2, x_3) + (y_1, y_2, y_3) = (x_1 + y_1, x_2 + y_2, x_3 + y_3)$$
+and define a left scalar multiplication by elements of $N$ by
+$$k(x_1, x_2, x_3) = (kx_1, kx_2, kx_3).$$
+
+The \textbf{points} of the Hughes plane $\mathcal{H}$ are the elements of $V$ other than $(0,0,0)$, where $\langle x \rangle = \langle y \rangle$ if and only if $x = ky$ for some non-zero $k \in N$.
+
+There exists a collineation $A$ of the yet-to-be-defined incidence structure such that $A^{q^2+q+1} = kI$ for some $k \in GF(q)$ and no smaller power of $A$ has this property. Thus $A$ has order $q^2+q+1$ as a permutation on the points of $\mathcal{H}$.
+
+The \textbf{lines} of $\mathcal{H}$ are the point sets
+$$L(t)A^m = \{A^m x \mid \langle x \rangle \in L(t)\}$$
+for $0 \leq m \leq q^2+q$, where either $t = 1$, or $t$ is an arbitrary element of $N \setminus F$, and where $L(t)$ is the set of points $\langle (x, y, z) \rangle$ satisfying
+$$x + yt + z = 0.$$
+
+Incidence in $\mathcal{H}$ is given by set-theoretic inclusion.

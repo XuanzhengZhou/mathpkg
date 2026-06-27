@@ -1,0 +1,28 @@
+id: theorem-4-13-perspectivity-subgroups
+title_en: 'Theorem 4.13: Γ_{(k,l)} and Γ_{(l,l)} are Subgroups'
+title_zh: ''
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags:
+- perspectivity
+- collineation-group
+- elation-group
+depends_on:
+  required:
+  - perspectivity-central-collineation
+  - lemma-4-12-perspectivity-property
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '5'
+  pages: ''
+  role_in_book: Shows unions of perspectivity subgroups are themselves subgroups
+content_hash: efb5c684a67d
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

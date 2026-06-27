@@ -1,0 +1,23 @@
+id: degree-of-algebraic-number
+title_en: "Degree of an Algebraic Number"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: basic
+tags: [algebraic-number, degree, minimal-polynomial]
+depends_on:
+  required: [algebraic-number]
+  recommended: [polynomial]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "2"
+    section: "2. Liouville Numbers"
+    pages: "14-15"
+    role_in_book: "Used in Liouville's approximation lemma (Lemma 2.2), which bounds how well an algebraic number of degree n can be approximated by rationals."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

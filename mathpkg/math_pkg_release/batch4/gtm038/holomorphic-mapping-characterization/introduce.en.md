@@ -1,0 +1,1 @@
+A mapping is holomorphic precisely when it pulls back holomorphic functions to holomorphic functions. This categorical characterization shows holomorphic mappings are the structure-preserving maps for the sheaf of holomorphic functions.

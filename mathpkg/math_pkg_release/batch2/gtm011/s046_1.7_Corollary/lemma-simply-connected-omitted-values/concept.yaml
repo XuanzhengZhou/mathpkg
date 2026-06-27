@@ -1,0 +1,23 @@
+id: lemma-simply-connected-omitted-values
+title_en: "Lemma 2.1"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: ["simply-connected", "analytic-function", "omitted-values", "logarithmic-branch", "schottky"]
+depends_on:
+  required: []
+  recommended: ["simply-connected-region-definition", "branch-of-logarithm"]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "2"
+    section: "2.1"
+    pages: ""
+    role_in_book: "key lemma for Schottky's theorem, constructs auxiliary functions for analytic f omitting 0 and 1"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: compact-decomposition-by-two-open-sets
+title_en: "Compact Decomposition by Two Open Sets"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: locally-compact-spaces
+difficulty: basic
+tags: [compact-set, open-cover, decomposition, locally-compact-hausdorff]
+depends_on:
+  required: [compact-set, open-set, disjoint-open-sets-separating-disjoint-compact-sets]
+  recommended: [locally-compact-hausdorff-space]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "X"
+    section: "50"
+    pages: ""
+    role_in_book: "topological lemma used in proof of countable subadditivity of inner content"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

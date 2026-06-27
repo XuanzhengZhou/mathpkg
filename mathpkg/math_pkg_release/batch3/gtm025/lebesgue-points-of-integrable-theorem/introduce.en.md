@@ -1,0 +1,1 @@
+The fundamental theorem of calculus for the Lebesgue integral: the derivative of the integral of an $L^1$ function recovers the function almost everywhere. This is the central result linking differentiation and integration.

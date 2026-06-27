@@ -1,0 +1,27 @@
+id: dual-b-e-formula
+title_en: "Dual of the Expected Number of Visits Matrix"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [duality, expected-visits, hitting-probability, taboo-probability]
+depends_on:
+  required: [
+    - duality-operator, alpha-dual-matrix
+  ]
+  recommended: [
+    - expected-visits, taboo-probability
+  ]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "2. Duality"
+    pages: ""
+    role_in_book: "Proposition 6-16: formula for dual of B^E"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

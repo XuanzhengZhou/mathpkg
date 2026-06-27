@@ -1,0 +1,23 @@
+id: projective-modular-character
+title_en: "Modular Character of a Projective Module"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: intermediate
+tags: ["modular-character", "projective-module", "lift-to-characteristic-zero"]
+depends_on:
+  required: ["modular-character", "projective-module"]
+  recommended: ["lifting-to-characteristic-zero", "cdvrs"]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "18"
+    section: "18.1"
+    pages: ""
+    role_in_book: "Property (vii); defines the character $\Phi_F$ of a projective $k[G]$-module $F$ as the ordinary character of a lift $\tilde{F}$ to characteristic zero."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

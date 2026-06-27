@@ -1,0 +1,23 @@
+id: monomial-basis-modular-forms
+title_en: "Monomial Basis for Spaces of Modular Forms"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: ["modular-form", "basis", "eisenstein-series", "monomial", "graded-algebra"]
+depends_on:
+  required: ["structure-of-modular-form-spaces", "eisenstein-series-modular-form"]
+  recommended: ["dimension-formula-modular-forms"]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Provides an explicit basis for every M_k in terms of Eisenstein series."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

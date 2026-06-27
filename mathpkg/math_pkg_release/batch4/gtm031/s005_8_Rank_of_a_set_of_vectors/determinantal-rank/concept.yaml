@@ -1,0 +1,23 @@
+id: determinantal-rank
+title_en: "Determinantal Rank"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [matrix, determinantal-rank, minor, determinant]
+depends_on:
+  required: [determinant, minor-of-a-matrix]
+  recommended: [row-rank-of-a-matrix]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "1"
+    section: "8"
+    pages: "33-35"
+    role_in_book: "Introduces determinant-based rank definition"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

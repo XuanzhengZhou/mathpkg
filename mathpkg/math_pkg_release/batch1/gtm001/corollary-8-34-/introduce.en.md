@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+The corollary **$1 < \gamma \wedge \gamma^{\alpha} < \gamma^{\beta} \rightarrow \alpha < \beta.$** (Corollary 8.34.) is a fundamental notion in axiomatic set theory, introduced in Chapter 8 of Takeuti and Zaring's *Introduction to Axiomatic Set Theory* (2nd ed., 1982). It forms part of the formal development of Zermelo-Fraenkel set theory with classes (GB or ZF).

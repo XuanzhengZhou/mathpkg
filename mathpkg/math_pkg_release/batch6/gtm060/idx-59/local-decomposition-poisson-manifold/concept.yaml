@@ -1,0 +1,23 @@
+id: local-decomposition-poisson-manifold
+title_en: "Local Decomposition of a Poisson Manifold (Lie's Theorem)"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: poisson-geometry
+difficulty: advanced
+tags: [poisson-manifold, symplectic-leaf, local-decomposition, clebsch-variables, casimir-functions]
+depends_on:
+  required: [poisson-manifold, symplectic-structure-on-poisson-leaves]
+  recommended: [poisson-bracket, darboux-coordinates]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "B. Poisson Mappings"
+    pages: "469-479"
+    role_in_book: "States that every Poisson manifold is locally decomposable into the product of a symplectic leaf and a complementary space where all Poisson brackets vanish"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

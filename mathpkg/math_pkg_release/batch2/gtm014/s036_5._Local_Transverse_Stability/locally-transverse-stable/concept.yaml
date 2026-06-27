@@ -1,0 +1,23 @@
+id: locally-transverse-stable
+title_en: "Definition 5.6: Locally Transverse Stable"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [transversality, jet-bundle, stability, singularities, orbit]
+depends_on:
+  required: [orbit-immersed-submanifold, transversality-definition]
+  recommended: [jet-bundle-definition, thom-transversality-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "V"
+    section: "5"
+    pages: "134"
+    role_in_book: "Defines the central notion of local transverse stability: a smooth map is locally transverse stable if its m-jet extension is transverse to the Diff-orbit of its jet."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

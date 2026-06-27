@@ -1,0 +1,13 @@
+---
+role: exercise
+locale: en
+chapter: "III"
+section: "6"
+exercise_number: 5
+---
+
+Let $X$ be a noetherian scheme, and assume that $\operatorname{Coh}(X)$ has enough locally frees (Ex. 6.4). Then for any coherent sheaf $\mathcal{F}$ we define the **homological dimension** of $\mathcal{F}$, denoted $\operatorname{hd}(\mathcal{F})$, to be the least length of a locally free resolution of $\mathcal{F}$ (or $+\infty$ if there is no finite one). Show:
+
+(a) $\mathcal{F}$ is locally free if and only if $\mathcal{E}xt^1(\mathcal{F}, \mathcal{G}) = 0$ for all $\mathcal{G} \in \operatorname{Mod}(X)$;
+
+(b) $\operatorname{hd}(\mathcal{F}) \leq n$ if and only if $\mathcal{E}xt^i(\mathcal{F}, \mathcal{G}) = 0$ for all $i > n$ and all $\mathcal{G} \in \operatorname{Mod}(X)$.

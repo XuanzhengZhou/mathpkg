@@ -1,0 +1,23 @@
+id: jordan-canonical-matrix
+title_en: "Jordan Canonical Matrix"
+title_zh: "Jordan 标准型矩阵"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [irreducible-iff-pure-power-minimum-polynomial-and-cyclic, cyclic-space]
+  recommended: [basis, companion-matrix, jordan-block]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines the Jordan canonical matrix for an irreducible transformation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: escape-probability-last-exit
+title_en: "Escape probability $\\theta^E$ of last exit from a finite set"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [escape-probability, last-exit, Q-nu-process, entrance-boundary, theta-E]
+depends_on:
+  required: [dual-q-process-entrance-boundary]
+  recommended: [admissible-row-vectors-entrance-boundary]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "11"
+    section: "2"
+    pages: ""
+    role_in_book: "Defines the escape probability measure theta^E used in approximating the entrance boundary measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

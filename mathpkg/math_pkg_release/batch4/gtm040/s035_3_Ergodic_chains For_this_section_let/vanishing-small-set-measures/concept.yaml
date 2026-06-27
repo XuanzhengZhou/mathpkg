@@ -1,0 +1,23 @@
+id: vanishing-small-set-measures
+title_en: "Vanishing of Small Set Measures at Infinity"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [ergodic-chains, small-sets, equilibrium-measures]
+depends_on:
+  required: [vanishing-taboo-probabilities, all-sets-are-small-in-noncyclic-ergodic-chains]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "3"
+    pages: ""
+    role_in_book: "Proposition 9-60 shows the equilibrium measure of singletons vanishes at infinity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

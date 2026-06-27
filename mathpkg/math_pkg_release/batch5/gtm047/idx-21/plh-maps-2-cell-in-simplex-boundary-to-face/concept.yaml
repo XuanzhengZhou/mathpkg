@@ -1,0 +1,29 @@
+id: plh-maps-2-cell-in-simplex-boundary-to-face
+title_en: "PLH Mapping a 2-Cell in the Boundary of a 3-Simplex to a Face"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: advanced
+tags:
+- plh
+- 3-simplex
+- 2-cell
+- polyhedron
+depends_on:
+  required:
+  - piecewise-linear-homeomorphism
+  - 3-simplex-has-push-property
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm047
+  author: "Edwin E. Moise"
+  title: "Geometric Topology in Dimensions 2 and 3"
+  chapter: ""
+  section: "21"
+  pages: ""
+  role_in_book: "Technical lemma for PL Schoenflies theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

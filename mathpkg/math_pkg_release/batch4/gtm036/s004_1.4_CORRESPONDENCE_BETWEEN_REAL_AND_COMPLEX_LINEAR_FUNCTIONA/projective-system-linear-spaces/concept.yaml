@@ -1,0 +1,23 @@
+id: projective-system-linear-spaces
+title_en: "Projective System (Inverse System) of Linear Spaces"
+title_zh: "线性空间的投射系统（逆向系统）"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [projective-system, inverse-system, directed-set, canonical-transformation, limit]
+depends_on:
+  required: [linear-space, directed-set]
+  recommended: [projective-limit]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "1"
+    section: "1.4"
+    pages: ""
+    role_in_book: "Defines projective systems as a formal structure for constructing limits of linear spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

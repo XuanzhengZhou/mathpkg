@@ -1,0 +1,23 @@
+id: laurent-expansion-of-weierstrass-p
+title_en: "Laurent expansion of the Weierstrass ℘ function near the origin"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: ["weierstrass-p", "laurent-series", "elliptic-functions", "eisenstein-series"]
+depends_on:
+  required: ["weierstrass-p-function", "eisenstein-series"]
+  recommended: ["laurent-series", "periodic-lattice"]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "1"
+    section: "1.7"
+    pages: ""
+    role_in_book: "Theorem 1.11, gives the Laurent series expansion of ℘ near 0 in terms of Eisenstein series"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

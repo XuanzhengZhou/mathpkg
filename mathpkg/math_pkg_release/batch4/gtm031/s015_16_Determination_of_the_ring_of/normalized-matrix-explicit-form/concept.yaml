@@ -1,0 +1,23 @@
+id: normalized-matrix-explicit-form
+title_en: "Explicit Form of Normalized Matrices"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [normalized-matrix, invariant-factors, principal-ideal-domain, canonical-form]
+depends_on:
+  required: [normalized-matrix, matrix-condition-for-o-endomorphism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "3"
+    section: "16"
+    pages: ""
+    role_in_book: "Explicitly characterizes which matrix entries are free, which are constrained, and which must vanish in the normalized matrix representation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

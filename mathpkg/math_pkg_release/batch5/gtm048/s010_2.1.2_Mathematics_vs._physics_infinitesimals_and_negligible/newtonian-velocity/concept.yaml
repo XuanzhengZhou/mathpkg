@@ -1,0 +1,23 @@
+id: newtonian-velocity
+title_en: "Newtonian velocity"
+title_zh: "牛顿速度"
+type: definition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: basic
+tags: [observer, orthogonal-decomposition, spacetime, velocity]
+depends_on:
+  required: []
+  recommended: [instantaneous-observer]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs, Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "2"
+    section: "2.1.3"
+    pages: ""
+    role_in_book: "Defines the Newtonian velocity observed by an instantaneous observer, bridging relativistic and Newtonian concepts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

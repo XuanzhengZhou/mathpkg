@@ -1,0 +1,31 @@
+id: measurable-set-in-infinite-product-space
+title_en: "Measurable Set in an Infinite Product Space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags:
+  - product-measure
+  - measurable-set
+  - sigma-ring
+  - sigma-algebra
+  - measurable-rectangle
+depends_on:
+  required:
+    - infinite-cartesian-product
+    - sigma-ring
+  recommended:
+    - measurable-rectangle
+  suggested: []
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX"
+    section: "38. Infinite Dimensional Product Spaces"
+    pages: ""
+    role_in_book: "Defines the sigma-algebra of measurable sets on which the infinite product measure lives"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,8 @@
+A polynomial over $\Gamma$ is an infinite sequence $f = (\alpha_0, \alpha_1, \ldots)$ with $\alpha_v \in \Gamma$ and only finitely many non-zero terms. With operations
+$$f + g = (\alpha_0 + \beta_0, \alpha_1 + \beta_1, \ldots), \quad fg = (\gamma_0, \gamma_1, \ldots) \text{ where } \gamma_k = \sum_{i+j=k} \alpha_i \beta_j,$$
+the set of polynomials forms a commutative associative algebra $\Gamma[t]$.
+
+Let $t = (0, 1, 0, \ldots)$. Then $t^k = (0, \ldots, 0, 1, 0, \ldots)$ and every polynomial can be written uniquely as
+$$f = \sum_{v=0}^{\infty} \alpha_v t^v.$$
+
+The degree $\deg f$ of a non-zero polynomial satisfies $\deg(f + g) \leq \max(\deg f, \deg g)$ and $\deg(fg) = \deg f + \deg g$. The embedding $i: \Gamma \to \Gamma[t]$, $i(\alpha) = (\alpha, 0, \ldots)$ is an injective algebra homomorphism.

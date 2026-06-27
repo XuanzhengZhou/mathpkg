@@ -1,0 +1,23 @@
+id: ford-circle-mapping-under-z-transform
+title_en: "Mapping of Ford Circles under z = -ik^2(tau - h/k)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: analytic-number-theory
+difficulty: advanced
+tags: [Ford-circles, Farey-series, Rademacher-path, Mobius-transformation, partition-function]
+depends_on:
+  required: [ford-circles, farey-series]
+  recommended: [rademacher-path-of-integration]
+  suggested: [modular-group, dedekind-eta-function]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "5"
+    section: "5.6"
+    pages: ""
+    role_in_book: "Describes how the change of variable z = -ik^2(tau - h/k) maps Ford circles to a standard circle, used in Rademacher's proof of the partition formula"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

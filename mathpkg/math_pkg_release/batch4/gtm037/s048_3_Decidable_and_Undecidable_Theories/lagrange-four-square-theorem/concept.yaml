@@ -1,0 +1,23 @@
+id: lagrange-four-square-theorem
+title_en: "Lagrange's Four-Square Theorem"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: sums-of-squares
+difficulty: intermediate
+tags: [lagrange, four-square, sum-of-squares, natural-numbers, integer-representation]
+depends_on:
+  required: []
+  recommended: [four-square-multiplication-identity, prime-sum-of-four-squares]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. L. Bell, M. Machover"
+    title: "A Course in Mathematical Logic"
+    chapter: "16"
+    section: "1"
+    pages: ""
+    role_in_book: "Used to define the natural numbers within the ring of integers, enabling the proof that the theory of (Z,+,·) is inseparable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

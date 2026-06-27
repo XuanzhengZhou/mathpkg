@@ -1,0 +1,23 @@
+id: rigid-body
+title_en: "Rigid Body"
+title_zh: ""
+type: definition
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: basic
+tags: [rigid-body, holonomic-constraint, configuration-space]
+depends_on:
+  required: []
+  recommended: [newtons-equation, holonomic-constraint]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "6"
+    section: "28"
+    pages: ""
+    role_in_book: "Definition of a rigid body as a system of point masses with fixed inter-point distances"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

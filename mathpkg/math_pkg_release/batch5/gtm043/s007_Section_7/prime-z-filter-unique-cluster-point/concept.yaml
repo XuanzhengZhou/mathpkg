@@ -1,0 +1,23 @@
+id: prime-z-filter-unique-cluster-point
+title_en: "Prime z-Filters Have At Most One Cluster Point"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: filters-and-convergence
+difficulty: advanced
+tags: [prime-z-filter, z-ultrafilter, cluster-point, completely-regular]
+depends_on:
+  required: [z-filter, prime-z-filter, z-ultrafilter, cluster-point-of-z-filter]
+  recommended: [zero-set]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "7"
+    pages: ""
+    role_in_book: "Theorem 3.17 / 3.18"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

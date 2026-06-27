@@ -1,0 +1,23 @@
+id: theorem-11-7-no-definable-wellordering
+title_en: "Theorem 11.7: No Definable Well-Ordering of $\mathcal{P}(\omega)$ in $M[G]$"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [forcing, independence, V=L, definability, well-ordering, automorphism]
+depends_on:
+  required: [partial-order-structure-p, theorem-11-5-automorphism-generic]
+  recommended: [generic-extension]
+  suggested: [ramified-language]
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti and Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "11"
+    section: "11 The Independence of V = L and the CH"
+    pages: ""
+    role_in_book: "Key step toward independence of V = L: no definable well-ordering of reals in the generic extension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

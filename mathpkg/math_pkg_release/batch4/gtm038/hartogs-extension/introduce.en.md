@@ -1,0 +1,1 @@
+The Hartogs extension theorem states that every holomorphic function on the smaller domain $\tilde{H}$ of a Hartogs figure extends uniquely to the larger domain $\tilde{P}$. This reveals a fundamental difference from one complex variable where such extension is not always possible.

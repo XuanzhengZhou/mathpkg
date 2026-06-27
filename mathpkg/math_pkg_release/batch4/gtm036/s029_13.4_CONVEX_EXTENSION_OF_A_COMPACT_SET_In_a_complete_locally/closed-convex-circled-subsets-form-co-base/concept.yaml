@@ -1,0 +1,32 @@
+id: closed-convex-circled-subsets-form-co-base
+title_en: "Closed Bounded Convex Circled Subsets Form a Co-base for Bounded Sets"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags:
+  - locally-convex-space
+  - bounded-set
+  - totally-bounded
+  - convex-circled-hull
+  - co-base
+depends_on:
+  required:
+    - co-base-dual-base
+    - locally-convex-space
+    - bounded-set
+    - totally-bounded-set
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "13"
+    section: "13.4"
+    pages: ""
+    role_in_book: "Application of the co-base terminology to characterize bounded and totally bounded sets in locally convex spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

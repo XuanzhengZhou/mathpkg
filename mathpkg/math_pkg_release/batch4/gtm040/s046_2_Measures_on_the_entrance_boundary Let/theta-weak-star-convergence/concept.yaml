@@ -1,0 +1,23 @@
+id: theta-weak-star-convergence
+title_en: "Weak-star convergence of escape measures to the entrance boundary measure"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [weak-star-convergence, escape-probability, entrance-boundary, theta-E, Proposition-11-5]
+depends_on:
+  required: [escape-probability-last-exit, entrance-boundary-probability-measure]
+  recommended: [theta-recurrence-formula]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "11"
+    section: "2"
+    pages: ""
+    role_in_book: "Proposition 11-5: Escape measures converge to the entrance boundary measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,32 @@
+id: category-of-adjunctions
+title_en: Category of Adjunctions
+title_zh: ''
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags:
+- category-of-adjunctions
+- Adj
+- adjunction
+- 2-category
+- category-theory
+depends_on:
+  required:
+  - adjunction
+  - composition-of-adjunctions
+  - conjugate-natural-transformations
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: IV
+  section: '8'
+  pages: ''
+  role_in_book: defines the category Adj whose objects are small categories and whose
+    arrows are adjunctions, with composition as defined; each hom-set is itself a category
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

@@ -1,0 +1,23 @@
+If $G$ is an open set in $\mathbb{C}$, $\gamma: [a,b] \to G$ is a rectifiable path, and $f: G \to \mathbb{C}$ is continuous then for every $\epsilon > 0$ there is a polygonal path $\Gamma$ in $G$ such that $\Gamma(a) = \gamma(a)$, $\Gamma(b) = \gamma(b)$, and $\left| \int_{\gamma} f - \int_{\Gamma} f \right| < \epsilon$
+
+1.21 $|\Gamma(t) - \gamma(\tau_k)| < \delta$ for $t_{k-1} \leq t \leq t_k$.
+
+Since $\int_{\Gamma} f = \int_a^b f(\Gamma(t))\Gamma'(t) dt$ it follows that
+
+$$\int_{\Gamma} f = \sum_{k=1}^{n} \frac{\gamma(t_k) - \gamma(t_{k-1})}{t_k - t_{k-1}} \int_{t_{k-1}}^{t_k} f(\Gamma(t)) dt.$$
+
+Using (1.20) we obtain
+
+$$\left| \int_{\gamma} f - \int_{\Gamma} f \right| \leq \epsilon + \left| \sum_{k=1}^{n} f(\gamma(\tau_k))[\gamma(t_k) - \gamma(t_{k-1})] - \int_{\Gamma} f \right|$$
+
+$$\leq \epsilon + \sum_{k=1}^{n} |\gamma(t_k) - \gamma(t_{k-1})|(t_k - t_{k-1})^{-1} \int_{t_{k-1}}^{t_k} |f(\Gamma(t)) - f(\gamma(\tau_k))| dt.$$
+
+Applying (1.21) to the integrand gives
+
+$$\left| \int_{\gamma} f - \int_{\Gamma} f \right| \leq \epsilon + \epsilon \sum_{k=1}^{n} |\gamma(t_k) - \gamma(t_{k-1})| \leq \epsilon(1 + V(\gamma)).$$
+
+The proof of Case I now follows.
+
+Case II. $G$ is arbitrary. Since $\{\gamma\}$ is compact there is a number $r$ with $0 < r < \text{dist}(\{\gamma\}, \partial G)$. Choose $\delta > 0$ such that $|\gamma(s) - \gamma(t)| < r$ when $|s - t| < \delta$. If $P = \{t_0 < t_1 < \ldots < t_n\}$ is a partition of $[a, b]$ with $\|P\| < \delta$ then $|\gamma(t) - \gamma(t_{k-1})
+
+The Fundamental Theorem of Calculus says that each continuous function has a primitive. This is far from being true for functions of a complex variable. For example let $f(z) = |z|^2 = x^2 + y^2$. If $F$ is a primitive of $f$ then $F$ is analytic. So if $F = U + iV$ then $x^2 + y^2 = F'(x + iy)$. Now, using the Cauchy-Riemann equations,

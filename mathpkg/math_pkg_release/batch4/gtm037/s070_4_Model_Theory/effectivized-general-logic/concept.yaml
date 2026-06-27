@@ -1,0 +1,23 @@
+id: effectivized-general-logic
+title_en: "Effectivized General Logic"
+title_zh: "可有效化的一般逻辑"
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [effectivization, general-logic, recursive-function, complementation, intersection, godel-numbering]
+depends_on:
+  required: [weak-effectivized-general-logic, recursive-function, general-logic]
+  recommended: [godel-numbering, language-reduct]
+  suggested: [lindstroms-theorem, effectivized-first-order-logic]
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "26"
+    section: "4"
+    pages: ""
+    role_in_book: "Definition of an effectivized general logic with recursive complementation, intersection, and validity check"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

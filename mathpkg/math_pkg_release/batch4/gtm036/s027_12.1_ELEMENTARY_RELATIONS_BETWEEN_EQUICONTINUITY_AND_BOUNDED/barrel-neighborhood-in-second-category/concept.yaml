@@ -1,0 +1,23 @@
+id: barrel-neighborhood-in-second-category
+title_en: "Every Barrel in a Second Category Space is a Neighborhood of Zero"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [barrel, second-category, neighborhood, linear-topological-space]
+depends_on:
+  required: [barrel-definition, second-category]
+  recommended: [linear-topological-space]
+  suggested: [banach-steinhaus-theorem]
+source_books:
+  - book_id: gtm036
+    author: "Kelley, J. L. and Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "12"
+    section: "12.1"
+    pages: ""
+    role_in_book: "Key geometric fact: in second category spaces, barrels are neighborhoods of 0, providing the geometric formulation of Banach-Steinhaus"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

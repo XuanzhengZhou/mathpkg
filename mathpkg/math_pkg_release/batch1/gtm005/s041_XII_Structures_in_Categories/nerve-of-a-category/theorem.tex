@@ -1,0 +1,26 @@
+Let $C$ be a small category. The \textbf{nerve} of $C$ is the simplicial set $N(C)$ defined for each $n \geq 0$ by the iterated pullback
+$$
+N(C)_n = C_1 \times_{C_0} C_1 \times_{C_0} \cdots \times_{C_0} C_1 \quad (n \text{ factors of } C_1),
+$$
+the set of composable $n$-tuples $(f_1, \ldots, f_n)$ of arrows with $d_1 f_i = d_0 f_{i+1}$ for $i = 1, \ldots, n-1$. For $n = 0$, $N(C)_0 = C_0$, the set of objects.
+
+The \textbf{face operators} $d_i : N(C)_n \to N(C)_{n-1}$ for $i = 0, \ldots, n$ are:
+$$
+d_0(f_1, \ldots, f_n) = (f_2, \ldots, f_n),
+$$
+$$
+d_i(f_1, \ldots, f_n) = (f_1, \ldots, f_i f_{i+1}, \ldots, f_n), \quad i = 1, \ldots, n-1,
+$$
+$$
+d_n(f_1, \ldots, f_n) = (f_1, \ldots, f_{n-1}).
+$$
+
+The \textbf{degeneracies} $s_j : N(C)_n \to N(C)_{n+1}$ for $j = 0, \ldots, n$ are defined by inserting identity arrows:
+$$
+s_0(f_1, \ldots, f_n) = (i_{d_0 f_1}, f_1, \ldots, f_n),
+$$
+$$
+s_j(f_1, \ldots, f_n) = (f_1, \ldots, f_j, i_{d_1 f_j}, f_{j+1}, \ldots, f_n), \quad j = 1, \ldots, n.
+$$
+
+These satisfy the standard simplicial identities.

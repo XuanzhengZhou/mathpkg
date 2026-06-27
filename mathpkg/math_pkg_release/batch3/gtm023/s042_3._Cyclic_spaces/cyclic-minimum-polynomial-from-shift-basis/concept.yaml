@@ -1,0 +1,23 @@
+id: cyclic-minimum-polynomial-from-shift-basis
+title_en: "Minimum Polynomial from Shift Basis"
+title_zh: "由移位基确定的最小多项式"
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [cyclic-space, minimum-polynomial, companion-matrix, shift-basis]
+depends_on:
+  required: [cyclic-space-shift-basis-characterization, minimum-polynomial]
+  recommended: [companion-matrix]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Gives explicit formula for minimum polynomial from the shift basis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

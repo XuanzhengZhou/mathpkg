@@ -1,0 +1,13 @@
+Let $\Gamma$ be a set of sentences in a first-order language $\mathcal{L}$. Define
+$$\mathfrak{M}_{\Gamma}^{\mathcal{L}} = \langle \mathrm{Fmla}_{\mathcal{L}} / {\equiv_{\Gamma}^{\mathcal{L}}}, +, \cdot, -, 0, 1, c_{\kappa}, d_{\kappa\lambda} \rangle_{\kappa,\lambda < \omega},$$
+where for any $\varphi, \psi \in \mathrm{Fmla}_{\mathcal{L}}$ and any $\kappa, \lambda \in \omega$,
+\begin{align*}
+[\varphi] + [\psi] &= [\varphi \vee \psi],\\
+[\varphi] \cdot [\psi] &= [\varphi \wedge \psi],\\
+-[\varphi] &= [\neg \varphi],\\
+0 &= [\neg v_0 = v_0],\\
+1 &= [v_0 = v_0],\\
+c_{\kappa}[\varphi] &= [\exists v_{\kappa} \varphi],\\
+d_{\kappa\lambda} &= [v_{\kappa} = v_{\lambda}].
+\end{align*}
+Then $\mathfrak{M}_{\Gamma}^{\mathcal{L}}$ is a $\mathrm{CA}_{\omega}$.

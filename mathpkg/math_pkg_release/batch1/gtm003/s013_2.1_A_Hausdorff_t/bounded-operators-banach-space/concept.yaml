@@ -1,0 +1,23 @@
+id: bounded-operators-banach-space
+title_en: "Space of Continuous Linear Maps is a Banach Space"
+title_zh: "连续线性映射空间是Banach空间"
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [operator-norm, banach-space, continuous-linear-map, normed-space, dual-space]
+depends_on:
+  required: [operator-norm, banach-space, normed-space, continuous-linear-map]
+  recommended: [topological-vector-space, completeness]
+  suggested: [dual-space, uniform-boundedness-principle]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Establishes that the operator norm makes L(L,N) a normed space which is complete whenever N is complete; in particular, the dual L' of any normed space is a Banach space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

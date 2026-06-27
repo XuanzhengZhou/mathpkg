@@ -1,0 +1,23 @@
+id: one-minus-idempotent
+title_en: "One Minus an Idempotent is an Idempotent"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [idempotent, complementary-idempotent]
+depends_on:
+  required: [idempotent-element]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "1.16"
+    pages: ""
+    role_in_book: "Shows that the complement of an idempotent is again an idempotent"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: gaussian-semigroup
+title_en: "Gaussian semigroup"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: factorization-theory
+difficulty: intermediate
+tags: [gaussian, unique-factorization, semigroup, irreducible]
+depends_on:
+  required: [irreducible-element, essentially-unique-factorization]
+  recommended: [commutative-semigroup, unit]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "IV"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition 1: defines Gaussian semigroups as those with unique factorization"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

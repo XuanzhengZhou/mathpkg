@@ -1,0 +1,23 @@
+id: average-covalence
+title_en: "Average Covalence of a Planar Multigraph"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: basic
+tags: [planar-graph, covalence, region-count, dual-graph]
+depends_on:
+  required: [regions-count-formula]
+  recommended: [average-valence, planar-imbedding]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "III"
+    section: "12"
+    pages: "99"
+    role_in_book: "Defines average covalence as the dual analogue of average valence, enabling Euler formula variants"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

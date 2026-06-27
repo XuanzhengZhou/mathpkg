@@ -1,0 +1,9 @@
+$T_{\text{seek}1}$ is the following machine:
+
+\[
+T_{\text{right}} \xrightarrow{\text{if } 0} T_1 \rightarrow T_{\text{left}} \xrightarrow{\text{if } 0} T_1 \rightarrow T_{l\text{seek}1} \rightarrow T_0 \rightarrow T_{\text{right}} \xrightarrow{\text{if } 0} T_1 \rightarrow T_{r\text{seek}1} \rightarrow T_0
+\]
+
+(Here by $T_{\text{right}} \xrightarrow{\text{if } 1} \text{Stop}$ we mean that the row $(1 \ 1 \ 4 \ 1)$ of $T_{\text{right}}$ is not to be changed.)
+
+This machine finds a $1$ and stops there. It must look both left and right to find such a $1$; $1$'s are written (but later erased) to keep track of how far the search has gone, so that the final tape description is the same as the initial one. If the tape is blank initially the computation continues forever.

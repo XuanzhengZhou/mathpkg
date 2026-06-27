@@ -1,0 +1,23 @@
+id: gradient-convex-function
+title_en: "Gradient of a Convex Function"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: convex-analysis
+difficulty: intermediate
+tags: ["gradient", "two-sided-derivative", "linear"]
+depends_on:
+  required: ["directional-derivative-existence", "subgradient-def"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§6"
+  section: "6.E"
+  pages: "29-30"
+  role_in_book: "smoothness concept for convex functions"
+content_hash: "2e05ed214c36156f"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

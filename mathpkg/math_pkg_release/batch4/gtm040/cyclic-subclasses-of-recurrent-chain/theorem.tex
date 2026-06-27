@@ -1,0 +1,5 @@
+Let $P$ be a recurrent Markov chain of period $d$. Define a relation $R$ on the state space by: $i R j$ if and only if, starting at $i$, the process can reach $j$ in $md$ steps for some integer $m$.
+
+Then $R$ is an equivalence relation partitioning the states into $d$ distinct \textbf{cyclic subclasses}. The $n$th subclass contains those states reachable from the starting state only at times congruent to $n$ modulo $d$, and the process moves cyclically through the subclasses in order.
+
+Observing the chain after every $d$th step yields a new Markov chain (by the strong Markov property) with transition matrix $P^d$, which is block-diagonal with $d$ blocks, each being the transition matrix of a recurrent non-cyclic chain.

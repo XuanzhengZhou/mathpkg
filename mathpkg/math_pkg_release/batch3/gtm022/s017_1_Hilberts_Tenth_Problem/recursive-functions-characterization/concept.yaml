@@ -1,0 +1,23 @@
+id: recursive-functions-characterization
+title_en: "Characterization of Recursive Functions via Initial Functions and Operations"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: recursion-theory
+difficulty: intermediate
+tags: [recursive-functions, primitive-recursive, composition, minimalisation, churchs-thesis, computability]
+depends_on:
+  required: [initial-functions, minimalisation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "Donald W. Barnes, John M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "10"
+    section: "1"
+    pages: ""
+    role_in_book: "Central characterization theorem: recursive functions = closure of initial functions under composition, primitive recursion, and minimalisation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

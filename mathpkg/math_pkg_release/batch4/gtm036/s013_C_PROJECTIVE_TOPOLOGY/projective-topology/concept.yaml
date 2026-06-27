@@ -1,0 +1,23 @@
+id: projective-topology
+title_en: "Projective Topology"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: linear-topological-spaces
+difficulty: intermediate
+tags: [projective-topology, initial-topology, weak-topology, linear-topological-space, vector-topology]
+depends_on:
+  required: []
+  recommended: [linear-topological-space, initial-topology, continuity]
+  suggested: [product-topology, subspace-topology]
+source_books:
+  - book_id: gtm036
+    author: "Kelley, J. L.; Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "2"
+    section: "C (Projective Topology)"
+    pages: ""
+    role_in_book: "Defines the projective topology as the weakest vector topology making a given class of linear maps continuous"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

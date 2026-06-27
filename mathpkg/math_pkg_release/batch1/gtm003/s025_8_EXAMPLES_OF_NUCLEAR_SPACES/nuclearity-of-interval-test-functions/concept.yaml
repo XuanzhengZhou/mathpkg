@@ -1,0 +1,23 @@
+id: nuclearity-of-interval-test-functions
+title_en: "Nuclearity of Test Functions Supported in an Interval"
+title_zh: "区间支集检验函数的核性"
+type: proposition
+domain: analysis
+subdomain: nuclear-spaces
+difficulty: intermediate
+tags: [nuclear-space, test-functions, compact-support, interval, d-i-space]
+depends_on:
+  required: [nuclearity-of-torus-test-functions, hereditary-property-of-nuclear-spaces]
+  recommended: [nuclear-space]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "III"
+    section: "8"
+    pages: ""
+    role_in_book: "Example 1 (corollary); D_I is nuclear as a consequence of D_T being nuclear and property (7.4)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

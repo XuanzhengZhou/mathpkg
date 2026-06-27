@@ -1,0 +1,13 @@
+id: symplectic-manifold
+title_en: "Symplectic Manifold"
+title_zh: "辛流形"
+type: definition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [symplectic, manifold, hamiltonian, phase-space, poisson-bracket]
+depends_on: {required:[symplectic-structure, manifold], recommended:[hamiltonian-vector-field, poisson-bracket], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"37",section:"Symplectic structures on manifolds",pages:"",role_in_book:"Definition — the pair (M^{2n}, ω^2)"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

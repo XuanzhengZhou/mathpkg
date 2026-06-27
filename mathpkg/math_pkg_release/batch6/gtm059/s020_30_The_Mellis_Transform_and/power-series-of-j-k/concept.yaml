@@ -1,0 +1,23 @@
+id: power-series-of-j-k
+title_en: "Power series associated with J_k for a nontrivial character"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: p-adic-l-functions
+difficulty: advanced
+tags: ["mellin-transform", "p-adic-l-function", "power-series", "character", "conductor"]
+depends_on:
+  required: []
+  recommended: ["p-adic-measures", "mellin-transform"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "The Mellin Transform and p-adic L-function"
+    pages: ""
+    role_in_book: "Proposition 3.5 — expresses the power series G_{k+1} associated with J_k in terms of G_k for a nontrivial character on Z_p^2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

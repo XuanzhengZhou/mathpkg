@@ -1,0 +1,23 @@
+id: am-space-with-unit
+title_en: "(AM)-Space with Unit"
+title_zh: "带单位的抽象M空间"
+type: definition
+domain: analysis
+subdomain: banach-lattices
+difficulty: advanced
+tags: [banach-lattice, order-unit, unit-ball, kakutani, continuous-functions]
+depends_on:
+  required: []
+  recommended: [am-space, order-unit, banach-lattice]
+  suggested: [kakutanis-am-space-representation]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "V: Order Structures"
+    section: "8. Stone-Weierstrass and Representation Theorems"
+    pages: ""
+    role_in_book: "defines (AM)-spaces possessing a distinguished order unit whose order interval is the unit ball"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

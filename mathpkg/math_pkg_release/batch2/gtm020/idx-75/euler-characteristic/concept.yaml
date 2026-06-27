@@ -1,0 +1,23 @@
+id: euler-characteristic
+title_en: "Euler Characteristic"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: basic
+tags: [euler-characteristic, cohomology, rational-coefficients, manifold]
+depends_on:
+  required: []
+  recommended: [cohomology-group, betti-number, rational-cohomology]
+  suggested: [closed-manifold, connected-manifold]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "7"
+    section: "7.1"
+    pages: ""
+    role_in_book: "Defines Euler characteristic for use in relating Euler class to topological invariant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

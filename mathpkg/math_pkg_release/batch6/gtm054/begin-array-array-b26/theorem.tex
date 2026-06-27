@@ -1,0 +1,27 @@
+$$\begin{array}{c c c c c c c c c c c}
+y_0 & y_1 & y_2 & y_3 & y_4 & y_5 & x_0 & x_1 & x_2 & x_3 & x_4
+\end{array}$$
+
+Case 1 0 1 2 1 2 1
+Case 2 0 1 2 1 2 3 2 0 1
+
+imbedding of a graph $\Gamma$ include every edge twice and span the cycle space of $\Gamma$. In §III E, we showed that any set $S$ of cycles which
+
+(a) spans $\mathcal{X}(\Gamma)$, and
+(b) includes each edge, except isthmuses, exactly twice
+
+may be taken as the set of boundaries of the regions of a topological imbedding of $\Gamma$—with suitable adjustments for isthmuses.
+
+It is natural to attempt to extend this combinatorial approach to imbeddings in other surfaces. (A surface is a compact, connected topological space in which every point has a neighborhood homeomorphic to an open disk in the Euclidean plane. It is also called a “compact 2-manifold.”) On surfaces other than the sphere, there exist circuits which are not homotopically trivial. On the other hand, condition (a) above means, in the light of §III E, that all circuits are homotopically trivial. The natural extension therefore, is simply to relax condition (a). We do this in the definition of a “cycle cover” below. The difficulty with this approach is that, while one always obtains an imbedding in a finite 2-dimensional cell complex, this complex need not be a surface. In particular, the vertices of the graph may appear as singular points on this complex.
+
+A purely combinatorial definition of an imbedding in an orientable surface has been given by Edmonds [e.1] and will be discussed in §E, where the topological approach of §III E will be extended to arbitrary surfaces. For the present, we confine ourselves to a combinatorial substitute for the genus of a topological imbedding, called the “imbedding index.” The main result of this section is a general theorem which has Heawood’s inequality and Ringel’s analog for the Euler characteristic as special cases.
+
+A cycle cover of a graph $\Gamma$ is a sequence $Z_1, \ldots, Z_m \in \mathcal{X}(\Gamma) + \{\varnothing\}$ such that each edge of $\Gamma$ belongs to $Z_i$ for at most two indices $i$. Observe that if the cycle $Z_1 + \cdots + Z_m$ is not empty and is appended to a cycle cover $Z_1, \ldots
+
+PROOF. Any subgraph of $\Gamma$ may be obtained by first deleting some edges of $\Gamma$ and then deleting some isolated vertices. Since isolated vertices affect neither the dimension of a cycle space nor the size of a cycle cover, we need show only that $\iota(\Gamma_{(E)}) \leq \iota(\Gamma)$ for any edge $E$ of $\Gamma$.
+
+By IIIC1a, $\dim(\mathcal{L}(\Gamma_{(E)})) = \dim(\mathcal{L}(\Gamma)) - 1$ unless $E$ is an isthmus, in which case $\dim(\mathcal{L}(\Gamma_{(E)})) = \dim(\mathcal{L}(\Gamma))$. Turning to cycle covers, we note that every cycle cover of $\Gamma_{(E)}$ is a cycle cover of $\Gamma$, and if $E$ is an isthmus, the converse also holds. Hence $\nu_{2}(\Gamma) \geq \nu_{2}(\Gamma_{(E)})$, with equality holding if $E$ is an isthmus. Hence $\iota(\Gamma_{(E)}) = \iota(\Gamma)$ for $E$ an isthmus. If $E$ is not an isthmus, then because of C2, it suffices to show that $\nu_{2}(\Gamma) \leq \nu_{2}(\Gamma_{(E)}) + 1$.
+
+Suppose $\nu_{2}(\Gamma) = \nu_{2}(Z_{1}, \ldots, Z_{m})$. If $E \notin \bigcup_{i=1}^{m} Z_{i}$, then $Z_{1}, \ldots, Z_{m}$ is also a cycle cover of $\Gamma_{(E)}$, and $\nu_{2}(\Gamma) = \nu_{2}(\Gamma_{(E)})$. If $E \in \bigcup_{i=1}^{m} Z_{i}$, then by including $Z_{1} + \ldots + Z_{m}$ if necessary, we may assume that $E$ belongs to exactly two of the cycles, say $Z_{m-1}$ and $Z_{m}$. It follows that $Z_{1}, \ldots, Z_{m-1}, (Z_{m-1} + Z_{m})$ is a cycle cover of $\
+
+and so by C2 (with the argument $\Gamma$ suppressed), $\iota \geq \nu_1 - \nu_0 + 2 - m$. From the definitions of cycle cover and girth, $m\gamma \leq 2\nu_1$, from which we deduce

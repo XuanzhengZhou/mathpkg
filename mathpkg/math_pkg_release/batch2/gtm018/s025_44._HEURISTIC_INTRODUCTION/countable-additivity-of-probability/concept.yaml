@@ -1,0 +1,20 @@
+id: countable-additivity-of-probability
+title_en: "Countable Additivity of Probability"
+title_zh: ""
+type: axiom
+domain: probability
+subdomain: foundations
+difficulty: intermediate
+tags: [probability, countable-additivity, sigma-additivity, axiom]
+depends_on: {required: [finite-additivity-of-probability], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX. Probability"
+    section: "44. Heuristic Introduction"
+    pages: ""
+    role_in_book: "If {E_n} is an infinite disjoint sequence of events, then μ(∪ E_n) = Σ μ(E_n). This σ-additivity is essential for modern probability theory."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

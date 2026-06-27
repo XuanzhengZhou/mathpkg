@@ -1,0 +1,20 @@
+A \textbf{comonad} in a category $A$ consists of a functor $L: A \to A$ and two natural transformations
+$$\varepsilon: L \to I_A, \qquad \delta: L \to L^2$$
+which make the following diagrams commute:
+
+\[
+\begin{CD}
+L @>{\delta}>> L^2 \\
+@V{\delta}VV @VV{L\delta}V \\
+L^2 @>>{\delta L}> L^3
+\end{CD}
+\qquad
+\begin{CD}
+L @= L @= L \\
+@| @VV{\delta}V @| \\
+IL @<<{\varepsilon L}<< L^2 @>>{L\varepsilon}>> LI
+\end{CD}
+\]
+
+The natural transformation $\varepsilon$ is called the \textbf{counit} and $\delta$ the \textbf{comultiplication}.
+Comonads are the formal dual of monads, obtained by reversing all arrows in the definition.

@@ -1,0 +1,23 @@
+id: finite-topology-discrete-iff-finite-dim
+title_en: "Finite Topology Is Discrete If and Only If Finite Dimensional"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [finite-topology, discrete-topology, finite-dimensional, infinite-dimensional]
+depends_on:
+  required: [finite-topology-linear-transformations, basis-of-vector-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "The topological space L(R,S) with the finite topology is discrete (every subset is open) if and only if R is finite dimensional."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

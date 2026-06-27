@@ -1,0 +1,23 @@
+id: addition-and-multiplication-in-ptr
+title_en: "Addition and Multiplication in a Planar Ternary Ring"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: non-associative-algebra
+difficulty: basic
+tags: [planar-ternary-ring, addition, multiplication, ternary-operation, binary-operation]
+depends_on:
+  required: [planar-ternary-ring]
+  recommended: [loop]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "5"
+    section: "4"
+    pages: ""
+    role_in_book: "Introduces binary operations of addition and multiplication derived from the ternary operation T of a PTR, forming loops (R,+) and (R*,·)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: lang-property-one-basedness-equivalence
+title_en: "Equivalence of Lang Property and One-Basedness"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [lang-property, one-basedness, geometric-stability-theory, strongly-minimal-sets, diophantine-geometry]
+depends_on:
+  required: [lang-property, one-basedness, strongly-minimal-set]
+  recommended: [locally-modular, pregeometry, hrushovski-pillay-coset-decomposition]
+  suggested: [trichotomy-conjecture, faltings-theorem, mordell-lang-conjecture]
+source_books:
+  - book_id: "gtm053"
+    author: "Yuri I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "6"
+    section: "6.7"
+    pages: ""
+    role_in_book: "Establishes the model-theoretic characterization of the Lang property via one-basedness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

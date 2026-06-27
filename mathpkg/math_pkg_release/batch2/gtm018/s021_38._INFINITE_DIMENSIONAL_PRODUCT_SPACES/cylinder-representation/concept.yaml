@@ -1,0 +1,32 @@
+id: cylinder-representation
+title_en: "Representation of Measurable J-Cylinders (Theorem A)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags:
+  - cylinder-set
+  - product-measure
+  - measurable-rectangle
+  - finite-dimensional-projection
+depends_on:
+  required:
+    - j-cylinder-set
+    - measurable-set-in-infinite-product-space
+    - tail-product-space
+  recommended:
+    - measurable-rectangle
+    - product-sigma-algebra
+  suggested: []
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX"
+    section: "38. Infinite Dimensional Product Spaces"
+    pages: ""
+    role_in_book: "Characterizes measurable cylinders as products of measurable subsets of the finite product with the tail space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

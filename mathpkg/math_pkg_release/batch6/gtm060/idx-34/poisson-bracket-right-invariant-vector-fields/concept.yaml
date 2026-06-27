@@ -1,0 +1,23 @@
+id: poisson-bracket-right-invariant-vector-fields
+title_en: "Poisson Bracket of Right-Invariant Vector Fields"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [poisson-bracket, right-invariant-vector-field, lie-group, lie-bracket]
+depends_on:
+  required: []
+  recommended: [lie-group, right-invariant-vector-field, lie-algebra-of-lie-group, poisson-bracket-of-vector-fields]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix F"
+    section: "F"
+    pages: "225"
+    role_in_book: "Relates the Poisson bracket of right-invariant vector fields to the Lie bracket of their values at the identity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,18 @@
+Let $X: \mathcal{H} \longrightarrow \mathcal{H}$ be an input and output process, $\mathbf{T} = (T, e, m)$ an algebraic theory in $\mathcal{H}$, and $\lambda: TX \longrightarrow XT$ a distributive law of $X$ over $\mathbf{T}$.
+
+An \textit{implicit $\lambda$-automaton} is an $8$-tuple
+$$\bar{M} = (\bar{Q}, \bar{\delta}, \xi, I, \bar{\tau}, Y, \theta, \bar{\beta})$$
+where:
+\begin{itemize}
+\item $(\bar{Q}, \bar{\delta}, \xi)$ is a $\lambda$-algebra,
+\item $\bar{\tau}: I \longrightarrow \bar{Q}$ is a $\mathcal{H}$-morphism,
+\item $\bar{\beta}: (\bar{Q}, \xi) \longrightarrow (Y, \theta)$ is a $\mathbf{T}$-homomorphism.
+\end{itemize}
+
+When $\mathbf{T} = (\mathrm{id}, \mathrm{id}, \mathrm{id})$ and $\lambda = \mathrm{id}$, \text{``implicit $\lambda$-automaton'' and ``$\lambda$-automaton'' coincide with ``$X$-automaton.''}
+
+The $X$-reachability map of the implicit $\lambda$-automaton $\bar{M}$ is the unique dynamorphic extension $r: (IX^\circ, I\mu_0) \longrightarrow (Q, \delta)$ of $\tau$. The reachability map of $\bar{M}$ is the $\mathbf{T}$-homomorphic extension $r^{\#}: (IX^\circ T, I\mu_0, IX^\circ m) \longrightarrow (\bar{Q}, \bar{\delta}, \xi)$ of $r$.
+
+The response of $\bar{M}$ is the composition $f = r \cdot \bar{\beta}: IX^\circ \to Y$.
+
+The observability map of $\bar{M}$ is the unique $\lambda$-homomorphic coextension of $\bar{\beta}$.

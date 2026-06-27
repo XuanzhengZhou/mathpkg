@@ -1,0 +1,11 @@
+---
+role: exercise
+locale: en
+chapter: "1"
+section: "1.6"
+exercise_number: 3
+---
+
+Let $a \in R$, a ring. Prove that if $a$ has more than one left inverse, then it has infinitely many.
+
+[Hint: Set $A = \{a' \in R \mid a'a = 1\}$. Then $A \neq \emptyset$. Fix $a_0 \in A$. Observe that $a' \mapsto aa' - 1 + a_0$ defines an injection from $A$ to a proper subset of itself.]

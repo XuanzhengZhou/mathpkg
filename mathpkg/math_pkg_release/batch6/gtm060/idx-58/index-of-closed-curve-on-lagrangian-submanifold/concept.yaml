@@ -1,0 +1,23 @@
+id: index-of-closed-curve-on-lagrangian-submanifold
+title_en: "Index of a closed curve on a Lagrangian submanifold"
+title_zh: "拉格朗日子流形上闭曲线的指标"
+type: definition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [maslov-index, lagrangian-submanifold, closed-curve, complex-structure, winding-number]
+depends_on:
+  required: [complex-structure-on-phase-space, lagrangian-submanifold]
+  recommended: [unitary-transformation-phase-space]
+  suggested: [maslov-index, morse-index]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 11"
+    section: "C. Indices of closed curves"
+    pages: ""
+    role_in_book: "Computes the Maslov index of a closed curve on a Lagrangian submanifold via the complex structure, as the winding number of the square of the determinant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

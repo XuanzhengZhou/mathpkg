@@ -1,0 +1,23 @@
+id: platonic-rho-3-is-graph
+title_en: "Platonic Graphs with Rho Equal to 3 are Simple Graphs"
+title_zh: ""
+type: lemma
+domain: combinatorics
+subdomain: graph-theory
+difficulty: advanced
+tags: [platonic-graph, simple-graph, rho, valence, isovalent, bipartite, cube, octahedron, k4]
+depends_on:
+  required: [platonic-graph-biconnected]
+  recommended: [platonic-graph, platonic-graph-types-table-f16, isocovalent-imbedding]
+  suggested: [complete-bipartite-graph, complete-graph]
+source_books:
+  - book_id: gtm054
+    author: "Graver, J.E. and Watkins, M.E."
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "III"
+    section: "13 (III.F Platonic Graphs)"
+    pages: "104-107"
+    role_in_book: "Lemma F26: States that Platonic graphs with $\rho(\Gamma)=3$ are simple graphs. The proof enumerates the three types (III, IV, V) showing they are $K_4$, the octahedron, and the cube respectively."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

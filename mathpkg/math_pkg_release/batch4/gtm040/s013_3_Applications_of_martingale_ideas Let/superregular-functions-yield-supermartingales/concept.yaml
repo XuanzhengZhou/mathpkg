@@ -1,0 +1,23 @@
+id: superregular-functions-yield-supermartingales
+title_en: "Superregular and Subregular Functions Yield Supermartingales and Submartingales"
+title_zh: ""
+type: corollary
+domain: probability
+subdomain: martingale-theory
+difficulty: intermediate
+tags: [superregular-function, subregular-function, supermartingale, submartingale, markov-chain]
+depends_on:
+  required: [regular-functions-yield-martingales, superregular-function, subregular-function]
+  recommended: [martingale, supermartingale, submartingale]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "3"
+    section: "3"
+    pages: ""
+    role_in_book: "Corollary to the martingale-regular function theorem: superregular functions yield supermartingales and subregular functions yield submartingales, with proofs obtained by inserting the appropriate inequality sign."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

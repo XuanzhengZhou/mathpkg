@@ -1,0 +1,23 @@
+id: tensor-algebra
+title_en: "Tensor Algebra"
+title_zh: "张量代数"
+type: definition
+domain: algebra
+subdomain: universal-algebra
+difficulty: intermediate
+tags: [tensor-product, graded-algebra, universal-property, associative-algebra]
+depends_on:
+  required: []
+  recommended: [tensor-product-of-vector-spaces]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "V"
+    section: "17"
+    pages: "91-92"
+    role_in_book: "Prerequisite construction for the universal enveloping algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

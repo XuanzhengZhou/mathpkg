@@ -1,0 +1,1 @@
+On a Stein manifold, every holomorphic function on an analytic subset extends to a global holomorphic function. This is a global extension theorem that relies on the vanishing of $H^1(X, \mathcal{I}_A)$ where $\mathcal{I}_A$ is the ideal sheaf of $A$.

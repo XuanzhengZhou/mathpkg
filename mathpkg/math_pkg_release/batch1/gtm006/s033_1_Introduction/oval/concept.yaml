@@ -1,0 +1,23 @@
+id: oval
+title_en: "Oval"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [oval, conic, non-desarguesian, finite-projective-plane]
+depends_on:
+  required: []
+  recommended: [conic, finite-projective-plane]
+  suggested: [segre-oval-theorem]
+source_books:
+  - book_id: "gtm006"
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "XII"
+    section: "1"
+    pages: ""
+    role_in_book: "Definition introduced in Chapter XII; the non-desarguesian generalization of a conic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

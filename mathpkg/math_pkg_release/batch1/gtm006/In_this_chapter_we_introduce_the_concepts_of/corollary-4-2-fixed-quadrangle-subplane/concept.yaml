@@ -1,0 +1,28 @@
+id: corollary-4-2-fixed-quadrangle-subplane
+title_en: 'Corollary to Lemma 4.2: Fixed Quadrangle Implies Subplane'
+title_zh: ''
+type: corollary
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags:
+- collineation
+- fixed-quadrangle
+- subplane
+depends_on:
+  required:
+  - lemma-4-2-fixed-set-closed-configuration
+  recommended:
+  - quadrangle
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '2'
+  pages: ''
+  role_in_book: Characterizes when a collineation is planar
+content_hash: 18bf650edf5a
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

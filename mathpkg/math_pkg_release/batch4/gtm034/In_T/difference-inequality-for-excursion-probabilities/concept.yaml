@@ -1,0 +1,20 @@
+id: difference-inequality-for-excursion-probabilities
+title_en: "Difference inequality for excursion probabilities"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [difference-inequality, excursion, return-probability, recurrent-random-walk]
+depends_on: {required:[], recommended:[ratio-approximation, excursion-probability], suggested:[combinatorial-decomposition]}
+source_books:
+  - book_id: gtm034
+    author: Frank Spitzer
+    title: Principles of Random Walk, 2nd ed.
+    chapter: "VII"
+    section: "32"
+    pages: "?"
+    role_in_book: "Final step in the proof of T2: relates q_n to q_{n+1}"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

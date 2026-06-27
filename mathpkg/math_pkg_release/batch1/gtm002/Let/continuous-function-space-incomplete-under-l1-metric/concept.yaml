@@ -1,0 +1,23 @@
+id: continuous-function-space-incomplete-under-l1-metric
+title_en: "C[a,b] is Incomplete under the L1 Metric"
+title_zh: "C[a,b]在L1度量下不完备"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [incompleteness, l1-metric, continuous-functions, counterexample]
+depends_on:
+  required: [l1-metric-on-continuous-functions, complete-metric-space]
+  recommended: [cauchy-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "10"
+    section: "10"
+    pages: "50-52"
+    role_in_book: "Demonstrates C[a,b] is not complete under L1 metric"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

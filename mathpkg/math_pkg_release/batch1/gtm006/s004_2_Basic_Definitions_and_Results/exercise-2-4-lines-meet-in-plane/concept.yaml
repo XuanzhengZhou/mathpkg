@@ -1,0 +1,23 @@
+id: exercise-2-4-lines-meet-in-plane
+title_en: "Exercise 2.4: Lines in a Projective Plane Meet in a Unique Point"
+title_zh: "练习2.4：射影平面中每条直线对交于唯一点"
+type: exercise
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags: [projective-plane, lines, intersection, g-dimension-two, exercise]
+depends_on:
+  required: [projective-geometry-of-a-vector-space, g-dimension, points-lines-planes-hyperplanes, exercise-2-3-distinct-lines]
+  recommended: [incidence-properties-of-projective-plane]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II. Classical Projective Planes"
+    section: "2. Basic Definitions and Results"
+    pages: "30-32"
+    role_in_book: "fundamental exercise establishing that projective planes satisfy the dual incidence axiom"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

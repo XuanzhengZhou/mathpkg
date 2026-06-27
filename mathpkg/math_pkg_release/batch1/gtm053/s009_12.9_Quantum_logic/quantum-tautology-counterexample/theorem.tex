@@ -1,0 +1,12 @@
+There exists a logical polynomial $R(p_1, \ldots, p_{117})$ in 117 variables, built using only the connectives $\vee$, $\wedge$, and $\neg$, such that:
+
+\begin{enumerate}
+\item[(i)] $R$ is a classical tautology (i.e., evaluates to $1$ under every $\{0, 1\}$-valued assignment in a Boolean algebra);
+\item[(ii)] $R$ is defined in the partial Boolean algebra $B(E^3)$ and takes the value $0 \in B(E^3)$ for some assignment of the variables to elements of $B(E^3)$.
+\end{enumerate}
+
+Explicitly, let $P(p, q, r)$ be a logical polynomial in three variables that takes the truth value $1$ exactly when precisely one of $|p|, |q|, |r|$ is $1$. Let $Q(p, q) = \neg p \vee \neg q$, which takes the value $1$ when at least one of $|p|, |q|$ is $0$. Index the vertices of $\Gamma_2$ from $1$ to $117$ and set
+
+$$R(p_1, \ldots, p_{117}) = \neg\left( \bigwedge_{\{i, j, k\}} P(p_i, p_j, p_k) \wedge \bigwedge_{\{r, s\}} Q(p_r, p_s) \right),$$
+
+where the first conjunction runs over all triples $\{i, j, k\}$ of mutually orthogonal vertices in a fixed realization of $\Gamma_2$ on $S^2$, and the second over all orthogonal pairs $\{r, s\}$. Then substituting for $p_i$ the line from the origin to the image of the $i$-th vertex yields $R = 0 \in B(E^3)$.

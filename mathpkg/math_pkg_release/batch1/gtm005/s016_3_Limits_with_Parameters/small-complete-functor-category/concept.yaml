@@ -1,0 +1,23 @@
+id: small-complete-functor-category
+title_en: "Small-completeness of functor categories"
+title_zh: ""
+type: corollary
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [limits, functor-categories, completeness, pointwise-limits]
+depends_on:
+  required: [pointwise-limits, small-complete-category, functor-category]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "3. Limits with Parameters"
+    pages: ""
+    role_in_book: "Direct corollary of pointwise limits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

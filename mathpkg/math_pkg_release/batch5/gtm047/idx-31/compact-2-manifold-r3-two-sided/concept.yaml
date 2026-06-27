@@ -1,0 +1,23 @@
+id: compact-2-manifold-r3-two-sided
+title_en: "Compact Polyhedral 2-Manifold in R^3 Is Two-Sided"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: geometric-topology
+difficulty: intermediate
+tags: [2-manifold, R3, two-sided, compact, separation, frontier]
+depends_on:
+  required: [polyhedral-2-manifold, two-sided-polyhedral-2-manifold, compact, R3]
+  recommended: [jordan-curve-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "31"
+    section: "Bicollar neighborhoods; an extension of the Loop theorem"
+    pages: "201-210"
+    role_in_book: "Theorem 6: Every compact connected polyhedral 2-manifold in R^3 is two-sided, and R^3 minus the manifold has exactly two components"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

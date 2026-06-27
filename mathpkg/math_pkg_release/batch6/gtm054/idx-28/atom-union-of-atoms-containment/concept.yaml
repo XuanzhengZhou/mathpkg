@@ -1,0 +1,23 @@
+id: atom-union-of-atoms-containment
+title_en: "Atom containment with respect to union of atoms"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: graph-connectivity
+difficulty: intermediate
+tags: [atom, union-of-atoms, neighborhood, containment]
+depends_on:
+  required: [atom-of-graph, distinct-atoms-disjoint, atom-fragment-containment]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "Chapter V"
+    section: "Section 30"
+    pages: ""
+    role_in_book: "Corollary D8: For an atom A and union U of atoms, exactly one of A⊆U, A⊆Ū, or A⊆N(U) holds."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,9 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+1.19 Lemma from Conway's "Functions of One Complex Variable I."
+If $G$ is an open set in $\mathbb{C}$, $\gamma: [a,b] \to G$ is a rectifiable path, and $f: G \to \mathbb{C}$ is continuous then for every $\epsilon > 0$ there is a polygonal path $\Gamma$ in $G$ such that $\Gamma(a) = \gamma(a)$, $\Gamma(b) = \gamma(b)$, and $\left| \int_{\gamma} f - \int_{\Gamma}...

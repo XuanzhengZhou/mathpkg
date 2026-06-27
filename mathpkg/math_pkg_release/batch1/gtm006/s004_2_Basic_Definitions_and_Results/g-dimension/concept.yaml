@@ -1,0 +1,23 @@
+id: g-dimension
+title_en: "Geometric Dimension (g-Dimension)"
+title_zh: "几何维数（g-维数）"
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags: [projective-geometry, dimension, g-dimension, subspace]
+depends_on:
+  required: [projective-geometry-of-a-vector-space]
+  recommended: [vector-space, algebraic-dimension]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II. Classical Projective Planes"
+    section: "2. Basic Definitions and Results"
+    pages: "30-32"
+    role_in_book: "defines the projective dimension convention"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: quasi-complete-implies-weakly-bounded-equals-strongly-bounded
+title_en: "Quasi-Complete Locally Convex Spaces Have Identical Weak and Strong Boundedness (Theorem 5.3)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [quasi-complete, bounded-set, weak-topology, strong-topology, locally-convex-space]
+depends_on:
+  required: [quasi-complete-space, strong-topology-and-strong-dual, weak-topology, bounded-set]
+  recommended: [infrabarreled-space, barrel]
+  suggested: [complete-space]
+source_books:
+  - book_id: gtm003
+    author: "H. H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "5"
+    pages: "146-156"
+    role_in_book: "Shows that for quasi-complete spaces, the strong topology on the dual is consistent with the duality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

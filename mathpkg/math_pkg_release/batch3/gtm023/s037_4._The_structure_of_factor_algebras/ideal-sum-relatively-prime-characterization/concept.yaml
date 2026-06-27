@@ -1,0 +1,23 @@
+id: ideal-sum-relatively-prime-characterization
+title_en: "Characterization of the ideal sum as full algebra and directness"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [factor-algebra, ideal, relatively-prime, direct-sum, lattice-isomorphism]
+depends_on:
+  required: [factor-algebra, polynomial-algebra, ideal, relatively-prime, least-common-multiple]
+  recommended: [lattice-isomorphism, order-preserving]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "12"
+    section: "4. The structure of factor algebras"
+    pages: "385-386"
+    role_in_book: "Characterizes when the sum of ideals equals the full algebra and when it is direct, in terms of relative primeness and least common multiples of the generating polynomials"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

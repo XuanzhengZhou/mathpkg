@@ -1,0 +1,14 @@
+id: faithful-functor
+title_en: "Faithful Functor"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category-theory, faithful-functor, embedding, hom-set-injectivity]
+depends_on: {required: [functor], recommended: [full-functor, fully-faithful-functor], suggested: [forgetful-functor]}
+source_books:
+  [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "I", section: "3", pages: "14-15", role_in_book: "Defines faithfulness as injectivity on hom-sets, a key property for distinguishing functorial strength"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

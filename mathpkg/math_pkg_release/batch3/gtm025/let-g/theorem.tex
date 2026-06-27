@@ -1,0 +1,14 @@
+Let $1 \leq p < \infty$, $f \in \mathfrak{L}_p(R)$, $g \
+[The existence of $F$ follows at once from (12.22) or (12.24).] Then if $x \in R$ and $|x| > 2a$, we have $[x - a, x + a] \subset F'$ and hence
+
+$$|f * g(x)| \leq |\int_F f(x - y) g(y) dy| + |\int_F f(x - y) g(y) dy|$$
+
+$$\leq \left( \int_F |f(x - y)|^p dy \right)^{\frac{1}{p}} \|g\|_{p'} + \|f\|_p \cdot \left( \int_F |g(y)|^{p'} dy \right)^{\frac{1}{p'}}$$
+
+$$\leq \left( \int_{x-a}^{x+a} |f(y)|^p dy \right)^{\frac{1}{p}} \cdot \|g\|_{p'} + \|f\|_p \cdot \varepsilon$$
+
+$$\leq \left( \int_{F'} |f(y)|^p dy \right)^{\frac{1}{p}} \cdot \|g\|_{p'} + \|f\|_p \cdot \varepsilon$$
+
+$$\leq \left( \|f\|_p + \|g\|_{p'} \right) \varepsilon.$$
+
+Thus $f * g$ vanishes at infinity, and so $f * g \in \mathfrak{C}_0(R)$. $\square$

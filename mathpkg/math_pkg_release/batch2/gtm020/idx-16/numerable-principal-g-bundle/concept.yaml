@@ -1,0 +1,23 @@
+id: numerable-principal-g-bundle
+title_en: "Numerable Principal G-Bundle"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: fibre-bundles
+difficulty: intermediate
+tags: [principal-bundle, numerable, locally-trivial, paracompact]
+depends_on:
+  required: [principal-g-bundle, numerable-covering]
+  recommended: [paracompact-space]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "9"
+    section: "9.2"
+    pages: "66"
+    role_in_book: "Defines the concept of a numerable principal G-bundle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

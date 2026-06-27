@@ -1,0 +1,23 @@
+id: function-space-standard-basis
+title_en: "Standard Basis of the Function Space"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [function-space, standard-basis, kronecker-delta, cardinal-number]
+depends_on:
+  required: [basis-of-vector-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "Constructs the space of all functions from an index set I to Delta and shows the Kronecker delta functions form a basis of cardinality |I|."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

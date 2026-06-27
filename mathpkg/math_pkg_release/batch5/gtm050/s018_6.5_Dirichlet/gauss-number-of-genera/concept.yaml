@@ -1,0 +1,23 @@
+id: gauss-number-of-genera
+title_en: "Gauss's Theorem on the Number of Genera"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: quadratic-forms
+difficulty: advanced
+tags: [gauss, genus-theory, quadratic-reciprocity, class-group, binary-quadratic-forms]
+depends_on:
+  required: []
+  recommended: [genus-of-divisor-classes, character-of-divisor-class]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "7"
+    section: "7.9"
+    pages: ""
+    role_in_book: "Gauss's theorem that the number of genera is 2^{m+ε-1}"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: elementary-function-growth-bound
+title_en: "Elementary Function Growth Bound"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: recursive-function-theory
+difficulty: advanced
+tags: [elementary-functions, ackermann-function, growth-bound, recursive-function-theory]
+depends_on:
+  required: []
+  recommended: [elementary-function, ackermann-function, ackermann-nested-upper-bound]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "2"
+    section: "2.6"
+    pages: ""
+    role_in_book: "Shows that every elementary function is dominated by a fixed iterate of the Ackermann function, a crucial technical lemma for characterizing the elementary recursive functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

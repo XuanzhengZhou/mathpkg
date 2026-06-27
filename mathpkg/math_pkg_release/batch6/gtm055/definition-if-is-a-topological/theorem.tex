@@ -1,0 +1,17 @@
+If $X$ is a topological space, then a net $\{x_\lambda\}_{\lambda \in \Lambda}$ in $X$ is said to converge to a point $x_0$ in $X$ and $x_0$ is said to be the limit of the net $\{x_\lambda\}$ (notation: $\lim_\lambda x_\lambda = x_0$ or $x_\lambda \rightarrow x_0$) if for every neighborhood $V$ of $x_0$ there exists an index $\lambda_V$, depending on $V$, such that $x_\lambda \in V$ for every $\lambda$ in $\Lambda$ such that $\lambda \geq \lambda_V$.
+
+Since the system $\mathbb{N}$ of positive integers and the system $\mathbb{N}_0$ of nonnegative integers are directed sets in the natural ordering, infinite sequences may be viewed as a very special, albeit very important, kind of net. Thus the foregoing definition serves to define convergence for an infinite sequence of points in an arbitrary topological space.
+
+Example O. Let $X$ be a simply ordered set containing at least two elements, and let $\{x_\lambda\}_{\lambda \in \Lambda}$ be a monotone increasing net in $X$. Then $\{x_\lambda\}$ converges in the order topology on $X$ (Ex. B) if and only if $\sup_{\lambda \in \Lambda} x_\lambda$ exists, and, if this supremum does exist,
+
+is known as the limit of $f$ as $t$ tends to a from above and is denoted by $\lim_{t \downarrow a} f(t)$ or by $f(a+)$. (The inverse ordering of $\mathbb{R}$ is the ordering $<$ defined by setting $s < t$ when and only when $t \leq s$. It is clear that an open interval is directed in this new ordering as well as in the natural ordering.)
+
+Example Q. Let $\{\lambda_\gamma\}_{\gamma \in \Gamma}$ be an indexed family of complex numbers, and let $\{\sigma_D\}_{D \in \mathcal{D}}$ denote the net of finite sums of the given family $\{\lambda_\gamma\}$ (Prob. 1M). If the net $\{\sigma_D\}_{D \in \mathcal{D}}$ is convergent in $\mathbb{C}$ to a limit $\sigma$, then the family $\{\lambda_\gamma\}$ is said to be summable, $\sigma$ is called the sum of the indexed family $\{\lambda_\gamma\}$, and we write
+
+$$\sigma = \sum_{\gamma \in \Gamma} \lambda_\gamma.$$
+
+Similarly, if $\{t_\gamma\}_{\gamma \in \Gamma}$ is an indexed family of extended real numbers such that $-\infty < t_\gamma \leq +\infty [-\infty \leq t_\gamma < +\infty]$ for every index $\gamma$ (Ex. 1B), and if the net $\{s_D\}_{D \in \mathcal{D}}$ of finite sums converges to a limit $s$ in the topological space $\mathbb{R}^n$ (Ex. C), then $s$ is called the sum of the indexed family $\{t_\gamma\}$ and we write
+
+$$s = \sum_{\gamma \in \Gamma} t_\gamma.$$
+
+(Note that when $s = \pm\infty$ we do not say that the family $\{t_\gamma\}$ is summable.) An indexed family $\{t_\gamma\}$ of nonnegative real numbers is summable in $\mathbb{R}$ if and only if the net of finite sums is bounded above in $\mathbb{R}$, and always possesses a sum in $\mathbb{R}^n$ (Ex. O). An

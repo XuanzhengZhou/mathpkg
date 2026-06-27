@@ -1,0 +1,23 @@
+id: recurrent-and-transient-states
+title_en: "Recurrent State and Transient State"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, state-classification, recurrence, transience, first-return-probability]
+depends_on:
+  required: [communication-of-states, first-return-probability]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "7. Classification of states"
+    pages: ""
+    role_in_book: "Definition 4-18: Defines recurrent and transient states via the first-return probability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

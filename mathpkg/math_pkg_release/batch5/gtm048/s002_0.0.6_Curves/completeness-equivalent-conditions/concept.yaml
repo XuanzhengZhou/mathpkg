@@ -1,0 +1,23 @@
+id: completeness-equivalent-conditions
+title_en: "Equivalent Conditions for Geodesic Completeness"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [completeness, geodesic, exponential-map, semi-riemannian]
+depends_on:
+  required: [exponential-map, maximal-geodesic]
+  recommended: [geodesic-constant-speed]
+  suggested: [hopf-rinow-theorem]
+source_books:
+  - book_id: gtm048
+    author: "Sachs and Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "0"
+    section: "0.0.6"
+    pages: ""
+    role_in_book: "Characterizes geodesic completeness via the exponential map and extendibility of geodesics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

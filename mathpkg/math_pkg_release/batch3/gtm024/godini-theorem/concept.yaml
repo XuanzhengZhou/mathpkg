@@ -1,0 +1,23 @@
+id: godini-theorem
+title_en: "Godini's Theorem on Proximal Subspaces"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: approximation-theory
+difficulty: advanced
+tags: ["godini", "proximal", "best-approximation", "quotient"]
+depends_on:
+  required: ["convex-set-def", "hahn-banach-theorem"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§15"
+  section: "15.B"
+  pages: "98-99"
+  role_in_book: "characterizes proximal subspaces"
+content_hash: "613dee8fe79f7a36"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

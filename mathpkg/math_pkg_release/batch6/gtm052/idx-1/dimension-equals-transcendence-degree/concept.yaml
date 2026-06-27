@@ -1,0 +1,14 @@
+id: dimension-equals-transcendence-degree
+title_en: "Dimension of a finitely generated domain equals transcendence degree"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [dimension-theory, transcendence-degree, krull-dimension, finitely-generated-algebra, noether-normalization]
+depends_on: {required: [krull-dimension-of-ring, height-of-prime-ideal], recommended: [dimension-of-affine-algebraic-set], suggested: []}
+source_books:
+  - {book_id: "gtm052", author: "Robin Hartshorne", title: "Algebraic Geometry", chapter: "I", section: "1", pages: "18-23", role_in_book: "Theorem 1.8A — fundamental dimension formula; reduces geometric dimension to transcendence degree"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

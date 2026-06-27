@@ -1,0 +1,23 @@
+id: automorphism-group-hyperplane-invariant
+title_en: "Isomorphism Between Hyperplane-Stabilizer and Affine Automorphism Group"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [automorphism-group, projective-geometry, affine-geometry, hyperplane, stabilizer]
+depends_on:
+  required: [affine-projective-isomorphism-restriction, group-homomorphism]
+  recommended: [split-product-aut-affine]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "Gruenberg, K. W. and Weir, A. J."
+    title: "Linear Geometry"
+    chapter: "3"
+    section: "3.6"
+    pages: ""
+    role_in_book: "Relates the stabilizer of a hyperplane in Aut P(V) to the affine automorphism group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

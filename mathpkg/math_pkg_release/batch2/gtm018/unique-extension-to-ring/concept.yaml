@@ -1,0 +1,23 @@
+id: unique-extension-to-ring
+title_en: "Unique Extension of Length to the Generated Ring (Theorem E)"
+title_zh: "长度到生成环的唯一扩张（定理E）"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-theory, extension, lebesgue-measure, uniqueness]
+depends_on:
+  required: [mu-countably-additive-on-P, semiclosed-intervals-class, ring-of-sets]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "II"
+    section: "8"
+    pages: ""
+    role_in_book: "The foundational extension theorem: length extends uniquely to a measure on the ring of finite disjoint unions of intervals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,7 @@
+Let $f(z) = \sum_{n=0}^{\infty
+
+wish to show that $R^{-1} = \lim \sup |na_n|^{1/(n-1)}$. Now it follows from l'Hôpital's rule that $\lim_{n \to \infty} \frac{\log n}{n-1} = 0$, so that $\lim_{n \to \infty} n^{1/(n-1)} = 1$. The result will follow from Exercise 2 if it can be shown that $\lim \sup |a_n|^{1/(n-1)} = R^{-1}$.
+
+Let $(R')^{-1} = \lim \sup |a_n|^{1/(n-1)};$ then $R'$ is the radius of convergence of $\sum_{n=1}^{\infty} a_n z^{n-1} = \sum_{n=1}^{\infty} a_{n+1} z^n$. Notice that $z \sum a_{n+1} z^n + a_0 = \sum a_n z^n;$ hence if $|z| < R'$ then $\sum |a_n z^n| = |a_0| + |z| \sum |a_{n+1} z^n| < \infty$. This gives $R' \leq R$. If $|z| < R$ and $z \neq 0$ then $\sum |a_n z^n| < \infty$ and $\sum |a_{n+1} z^n| = \frac{1}{|z|}. \sum |a_n z^n| + \frac{1}{|z|} |a_0| < \infty$, so that $R \leq R'$. This gives that $R = R'$ and completes the proof of part (a).
+
+(b) For $|z| < R$ put $g(z) = \sum_{n=1}^{\infty} na_n z^{n-1}, s_n(z) = \sum_{k=0}^{n} a_k z^k,$ and $R_n(z) = \sum_{k=n+1}^{\infty} a_k z^k$. Fix a point $w$ in $B(0; R)$ and fix $r$ with $|w| < r < R;$ we wish to show that $f'(w)$ exists and is equal

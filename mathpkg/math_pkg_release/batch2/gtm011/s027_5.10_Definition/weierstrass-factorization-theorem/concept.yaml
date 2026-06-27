@@ -1,0 +1,23 @@
+id: weierstrass-factorization-theorem
+title_en: "Weierstrass Factorization Theorem"
+title_zh: "Weierstrass 因式分解定理"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [weierstrass, factorization, entire-function, infinite-product, zeros]
+depends_on:
+  required: [weierstrass-product-theorem, elementary-factor]
+  recommended: [entire-function]
+  suggested: [hadamard-factorization]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "5"
+    section: "5.14"
+    pages: ""
+    role_in_book: "Canonical factorization of entire functions into zero factors and an exponential"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

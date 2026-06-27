@@ -1,0 +1,23 @@
+id: quasifield-plane-characterization
+title_en: "Characterization of Translation Planes via Quasifields and (k,k)-Transitivity"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [quasifield, translation-plane, planar-ternary-ring, vk-transitivity]
+depends_on:
+  required: [planar-ternary-ring, quasifield, vk-transitivity, translation-plane]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "IV"
+    section: "9"
+    pages: ""
+    role_in_book: "Summary table entry (g): establishes the equivalence between the algebraic property (coordinating PTR is a quasifield) and the geometric property (translation plane)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

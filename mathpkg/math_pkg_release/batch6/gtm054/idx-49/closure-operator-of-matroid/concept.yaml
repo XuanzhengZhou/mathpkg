@@ -1,0 +1,23 @@
+id: closure-operator-of-matroid
+title_en: "Closure Operator of a Matroid"
+title_zh: "拟阵的闭包算子"
+type: definition
+domain: combinatorics
+subdomain: matroid-theory
+difficulty: intermediate
+tags: [matroid, closure-operator, rank-function]
+depends_on:
+  required: []
+  recommended: [matroid, rank-function, closure-structure]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "X"
+    section: "49"
+    pages: "295-301"
+    role_in_book: "Defines the closure operator for a matroid via its rank function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: egoroff-theorem
+title_en: "Egoroff's Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [egoroff-theorem, uniform-convergence, measurable-function, lebesgue-measure, pointwise-convergence]
+depends_on:
+  required: [measurable-real-valued-function, lebesgue-measure]
+  recommended: [lusin-theorem]
+  suggested: [baire-property-characterization]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "8"
+    section: "The Theorems of Lusin and Egoroff"
+    pages: "46"
+    role_in_book: "States that pointwise convergence of measurable functions on a set of finite measure implies uniform convergence off a set of arbitrarily small measure; its category analogue is false"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

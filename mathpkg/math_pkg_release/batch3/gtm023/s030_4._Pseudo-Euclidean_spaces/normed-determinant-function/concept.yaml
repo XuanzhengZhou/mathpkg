@@ -1,0 +1,23 @@
+id: normed-determinant-function
+title_en: "Normed Determinant Function in a Pseudo-Euclidean Space"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: pseudo-euclidean-geometry
+difficulty: intermediate
+tags: [determinant-function, pseudo-euclidean, normed-determinant]
+depends_on:
+  required: [pseudo-euclidean-space, determinant-function]
+  recommended: [orthonormal-basis-pseudo-euclidean]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines the normed determinant function and proves exactly two exist"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

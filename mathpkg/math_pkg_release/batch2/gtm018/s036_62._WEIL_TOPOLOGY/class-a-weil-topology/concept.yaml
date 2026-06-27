@@ -1,0 +1,23 @@
+id: class-a-weil-topology
+title_en: "Class A in Weil Topology"
+title_zh: "Weil 拓扑中的类 A"
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [weil-topology, measurable-group, symmetric-difference]
+depends_on:
+  required: [measurable-group-definition, symmetric-difference, measurable-set]
+  recommended: [haar-measure-definition]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "62"
+    section: "Weil Topology"
+    pages: "273"
+    role_in_book: "Defines the class of sets EE^{-1} used to construct the Weil topology on a measurable group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

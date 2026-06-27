@@ -1,0 +1,23 @@
+id: substitution-of-equals-one-free-occurrence
+title_en: "Substitution of equals for equals (one free occurrence)"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: first-order-logic
+difficulty: intermediate
+tags: [substitution, equality, propositional-logic, first-order-logic]
+depends_on:
+  required: [equality-axioms, logical-connectives]
+  recommended: [tautologies, induction-on-formulas]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "10"
+    section: "Elements of Logic"
+    pages: ""
+    role_in_book: "Lemma establishing that replacing one free occurrence preserves logical equivalence under equality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

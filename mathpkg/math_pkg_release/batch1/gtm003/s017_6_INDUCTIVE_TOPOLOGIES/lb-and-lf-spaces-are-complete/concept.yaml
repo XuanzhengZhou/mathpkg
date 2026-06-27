@@ -1,0 +1,23 @@
+id: lb-and-lf-spaces-are-complete
+title_en: "Every (LB)-space and (LF)-space is Complete"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [lb-space, lf-space, completeness, strict-inductive-limit]
+depends_on:
+  required: [lb-space-and-lf-space, bounded-subsets-in-strict-inductive-limit]
+  recommended: [completeness, cauchy-filter]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "6"
+    pages: ""
+    role_in_book: "Key completeness result for inductive limits of Banach and Frechet spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,52 @@
+(Cauchy Integral Formula in a Disc). Let $D = D_R(\alpha)$ be a disc in $\mathbb{C}(R > 0)$, let $f$ be a function defined and analytic on $D$, and let $\gamma$ be a closed rectifiable arc in $D$. Then
+
+$$w_{\gamma}(\lambda) f(\lambda) = \frac{1}{2\pi
+
+The consequences of these two theorems are very numerous and of enormous importance. Here are a few that we shall find useful.
+
+Example H. Let $K$ denote a compact subset of a disc $D = D_R(\alpha)$, let $r$ be a positive radius such that $r < R$ and such that $K \subset D_r(\alpha)$, and let $d_0 = d(K, C_r(\alpha))$. Then for any analytic function $f$ on $D$, and for arbitrary $\lambda$ in $K$ and $\xi$ such that $|\xi| < d_0$, we have
+
+$$f(\lambda + \xi) - f(\lambda) = \frac{1}{2\pi i} \int_{C_r(\alpha)} f(\zeta) \left[ \frac{1}{\zeta - \lambda - \xi} - \frac{1}{\zeta - \lambda} \right] d\zeta$$
+
+$$= \frac{\xi}{2\pi i} \int_{C_r(\alpha)} \frac{f(\zeta) d\zeta}{(\zeta - \lambda)(\zeta - \lambda - \xi)}.$$
+
+Hence there exist positive constants $\varepsilon$ and $M$ (e.g., $\varepsilon = d_0/2$ and $M = 2r/d_0^2$) such that
+
+$$|f(\lambda + \xi) - f(\lambda)| \leq M |\xi| \max_{\zeta \in C_r(\alpha)} |f(\zeta)|$$
+
+whenever $\lambda \in K$ and $|\xi| < \varepsilon$.
+
+This discussion only pertains directly to compact subsets of a disc and functions analytic on that disc. However, every compact subset $K$ of a domain $\Delta$ can be covered by a finite number of open discs each as small as desired (Heine–Borel theorem; Example 3F), and $K$ can then be decomposed into the union of compact subsets each of which is contained in one of the covering discs (see Example 3G). Hence the foregoing observations lead directly to the following conclusion. Let $K$ be a compact subset of a domain $\Delta$, and let $U$ be any bounded open subset of $\Delta$
+
+whence it follows that
+
+$$\frac{f(\lambda + \xi) - f(\lambda)}{\xi} - \frac{f(\lambda + \eta) - f(\lambda)}{\eta}$$
+
+$$= \frac{\xi - \eta}{2\pi i} \int_{C_r(\alpha)} \frac{f(\zeta) d\zeta}{(\zeta - \lambda)(\zeta - \lambda - \xi)(\zeta - \lambda - \eta)}$$
+
+Hence, using the Heine–Borel theorem just as in the preceding example, we conclude that if $K$ is a compact subset of an arbitrary domain $\Delta$, and if $U$ is any bounded open subset of $\Delta$ such that $K \subset U$ and $U^{-} \subset \Delta$, then there exist positive constants $\varepsilon$ and $M$ such that
+
+$$\left| \frac{f(\lambda + \xi) - f(\lambda)}{\xi} - \frac{f(\lambda + \eta) - f(\lambda)}{\eta} \right| \leq M |\xi - \eta| \sup_{\zeta \in U} |f(\zeta)|$$
+
+for all $\lambda$ in $K$, all $\xi$ and $\eta$ such that $0 < |\xi|, |\eta| < \varepsilon$, and all analytic functions $f$ on $\Delta$. Letting $\eta$ tend to zero in (9) we find that
+
+$$\left| \frac{f(\lambda + \xi) - f(\lambda)}{\xi} - f'(\lambda) \right| \leq M |\xi| \sup_{\zeta \in U} |f(\zeta)|$$
+
+for all $\lambda$ in $K$ and all $\xi$ such that $0 < |\xi| < \varepsilon$. Thus the difference quotient of $f$ tends uniformly to $f'$ on $K$.
+
+Example J (Taylor’s Theorem and the Cauchy Estimates). Let $r, r',$ and $R$ be positive numbers such that $r' < r < R$, and let $\alpha$ be a point in the complex plane. Straightforward calculation discloses that for each $\zeta$ on $C
+
+(The coefficients $\alpha_n$ are also given by the familiar formula $\alpha_n = f^{(n)}(\alpha)/n!$ as noted in Example A, cf. Problem G.) Since $r'$ can be taken to be any positive number smaller than $r$, it follows that the representation (11) is valid for all $\lambda$ in $D_r(\alpha)$, and since $r$ can be taken to be any positive number smaller than $R$, we see that, in fact, the representation (11) holds everywhere in $D$. Thus Taylor’s theorem is proved. Moreover, from the expression (12) for the Taylor coefficients of $f$ we learn that
+
+$$|\alpha_n| \leq \frac{2\pi r}{2\pi} \frac{M_r}{r^{n+1}} = \frac{M_r}{r^n}, \quad n \in \mathbb{N}_0,$$
+
+where $M_r$ denotes the maximum modulus of $f$ on the circle $C_r(\alpha): M_r = \max\{|f(\zeta)|: |\zeta - \alpha| = r\}$. These inequalities are known as the Cauchy estimates for $f$ about the point $\alpha$.
+
+Example K (Liouville’s Theorem on Entire Functions). A function $f$ that is defined and analytic on the entire complex plane $\mathbb{C}$ is called an entire function. Examples of entire functions are polynomial functions, the exponential function, and the circular functions. If $f$ is an entire function and $\alpha$ an arbitrary complex number, then the Taylor series expansion
+
+$$f(\lambda) = \sum_{n=0}^{\infty} \alpha_n(\lambda - \alpha)^n$$
+
+of $f$ about $\alpha$ converges everywhere. Hence the Cauchy estimates hold for every $r > 0$. Thus $|\alpha_n| \leq M_r/r^n$ for every positive integer $n$ and every positive number $r$. From this we conclude immediately that if $f$ is a bounded entire function, then $f$ is a constant function. This result is known as Liouville’s theorem.
+
+Example L (Morera’s Theorem). Taylor’s theorem shows that an analytic function (tha
+...

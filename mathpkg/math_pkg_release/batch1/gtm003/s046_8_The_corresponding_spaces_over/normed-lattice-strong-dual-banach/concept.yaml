@@ -1,0 +1,23 @@
+id: normed-lattice-strong-dual-banach
+title_en: "The strong dual of a normed lattice is a Banach lattice; Banach lattice dual equals order dual"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: topological-vector-lattices
+difficulty: intermediate
+tags: [normed-lattice, banach-lattice, strong-dual, order-dual]
+depends_on:
+  required: []
+  recommended: [strong-dual-lcvl-order-complete, normed-lattice-definition, banach-lattice]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "8"
+    pages: ""
+    role_in_book: "Corollary 2 to (7.4): normed lattice dual is a Banach lattice; if Banach space, dual equals order dual"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

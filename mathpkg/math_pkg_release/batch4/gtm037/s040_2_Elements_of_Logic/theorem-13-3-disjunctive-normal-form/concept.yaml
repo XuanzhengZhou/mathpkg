@@ -1,0 +1,23 @@
+id: theorem-13-3-disjunctive-normal-form
+title_en: "Disjunctive normal form theorem"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: propositional-logic
+difficulty: intermediate
+tags: [disjunctive-normal-form, sentential-logic, propositional-calculus, normal-form]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "13"
+    section: "Decidable and Undecidable Theories"
+    pages: ""
+    role_in_book: "Used in decidability proofs via quantifier elimination; any quantifier-free formula is equivalent to a disjunction of conjunctions of basic formulas"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

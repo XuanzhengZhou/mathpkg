@@ -1,0 +1,23 @@
+id: omega-chromatic-inequality
+title_en: "A4: Clique number is at most the chromatic number"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: basic
+tags: [omega, chromatic-number, clique, vertex-coloring, inequality]
+depends_on:
+  required: [clique, vertex-chromatic-number]
+  recommended: [complete-set]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "VIII"
+    section: "A"
+    pages: "224-229"
+    role_in_book: "Basic inequality relating clique number and chromatic number"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

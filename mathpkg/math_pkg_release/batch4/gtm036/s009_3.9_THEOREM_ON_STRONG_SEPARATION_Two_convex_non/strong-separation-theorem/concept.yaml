@@ -1,0 +1,23 @@
+id: strong-separation-theorem
+title_en: "Theorem on Strong Separation of Convex Sets"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [convex-sets, separation-theorem, linear-functional, radial-set, strong-separation]
+depends_on:
+  required: [convex-set, linear-functional, radial-set, separation-theorem]
+  recommended: [hahn-banach-theorem, minkowski-functional]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "3"
+    section: "3.9"
+    pages: ""
+    role_in_book: "Main theorem of section 3.9; characterizes when two convex sets can be strongly separated by a linear functional"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

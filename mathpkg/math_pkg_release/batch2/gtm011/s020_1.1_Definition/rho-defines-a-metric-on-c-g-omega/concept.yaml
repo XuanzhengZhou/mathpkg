@@ -1,0 +1,23 @@
+id: rho-defines-a-metric-on-c-g-omega
+title_en: "ρ Defines a Metric on C(G, Ω)"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: metric-spaces
+difficulty: basic
+tags: ["metric-space", "function-space", "compact-convergence", "pseudometric"]
+depends_on:
+  required: ["metric-on-continuous-functions-space", "compact-exhaustion-of-open-sets-in-complex-plane"]
+  recommended: ["metric-space-axioms", "triangle-inequality"]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Verifies that ρ defined in (1.4) satisfies the metric axioms, making C(G, Ω) a metric space."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: weight-of-polynomial
+title_en: "Weight of a Polynomial"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: polynomials
+difficulty: basic
+tags: [polynomial-weight, enumeration, integer-coefficients]
+depends_on:
+  required: [polynomial]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "2"
+    section: "2. Liouville Numbers"
+    pages: "15"
+    role_in_book: "Introduced in the proof of Theorem 2.1 to enumerate all integer-coefficient polynomials, showing there are only countably many."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

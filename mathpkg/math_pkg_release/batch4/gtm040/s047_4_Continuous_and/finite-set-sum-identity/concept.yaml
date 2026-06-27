@@ -1,0 +1,23 @@
+id: finite-set-sum-identity
+title_en: "Finite Set Sum Identity for the Potential Kernel"
+title_zh: "位势核的有限集求和恒等式"
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [potential-kernel, finite-set, taboo-probability, martin-boundary]
+depends_on:
+  required: [lemma-9-37, theorem-9-15]
+  recommended: [proposition-6-16, proposition-6-17, lemma-9-14]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Lemma 11-8. Relates the potential kernel, the taboo probability, and the restricted transition matrix for finite sets containing 0"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: malgrange-preparation-theorem
+title_en: "Malgrange Preparation Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: singularity-theory
+difficulty: advanced
+tags: [preparation-theorem, smooth-functions, division-theorem, malgrange]
+depends_on:
+  required: [mather-division-theorem]
+  recommended: [weierstrass-preparation-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky and Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "IV"
+    section: "2"
+    pages: ""
+    role_in_book: "Core result: smooth preparation theorem, fundamental for singularity theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

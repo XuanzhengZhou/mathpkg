@@ -1,0 +1,23 @@
+id: lubin-tate-special-group-congruence
+title_en: "Lemma 6.3 — Addition Law Congruence for the Special Lubin-Tate Group"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: [lubin-tate-formal-group, group-law-congruence, formal-group-addition]
+depends_on:
+  required: [lubin-tate-formal-group-law]
+  recommended: [formal-group-logarithm]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "9"
+    section: "§6"
+    pages: ""
+    role_in_book: "Establishes that on the special Lubin-Tate group B, the group law addition and ordinary addition coincide up to higher-order terms, enabling the proof of Theorem 6.2 to carry over to this case"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

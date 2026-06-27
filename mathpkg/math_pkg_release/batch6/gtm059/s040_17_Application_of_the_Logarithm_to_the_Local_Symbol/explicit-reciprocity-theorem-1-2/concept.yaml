@@ -1,0 +1,23 @@
+id: explicit-reciprocity-theorem-1-2
+title_en: "Theorem 1.2: Explicit Reciprocity Law — Equality of Symbols"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: ["explicit-reciprocity", "Lubin-Tate", "local-symbol", "Wiles"]
+depends_on:
+  required: ["symbol-well-defined-condition", "reciprocity-law-theorem-1-1"]
+  recommended: ["logarithmic-derivative-operator-d-n"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "9"
+    section: "1"
+    pages: ""
+    role_in_book: "Main explicit reciprocity theorem linking the Hilbert symbol to the Lubin-Tate symbol"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

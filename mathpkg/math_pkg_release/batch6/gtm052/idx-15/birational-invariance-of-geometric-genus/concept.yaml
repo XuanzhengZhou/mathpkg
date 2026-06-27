@@ -1,0 +1,23 @@
+id: birational-invariance-of-geometric-genus
+title_en: "Birational Invariance of the Geometric Genus"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [geometric-genus, birational-invariance, canonical-sheaf, nonsingular-projective-variety]
+depends_on:
+  required: [canonical-sheaf-and-geometric-genus, birational-equivalence, rational-map]
+  recommended: [sheaf-of-relative-differentials, exact-sequence-of-differentials-for-morphism-composition]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Theorem 8.19: if X and X' are birationally equivalent nonsingular projective varieties over k, then p_g(X) = p_g(X')"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

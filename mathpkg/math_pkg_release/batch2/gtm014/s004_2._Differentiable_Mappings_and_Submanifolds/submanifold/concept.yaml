@@ -1,0 +1,23 @@
+id: submanifold
+title_en: "Submanifold"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-topology
+difficulty: basic
+tags: [submanifold, differentiable-manifold, chart, induced-topology, coordinate-neighborhood]
+depends_on:
+  required: [differentiable-mapping-between-manifolds, chart, differentiable-manifold]
+  recommended: [immersion, embedding-of-manifolds]
+  suggested: [immersed-submanifold]
+source_books:
+  - book_id: gtm014
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "I"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition 2.7: the standard definition of a submanifold via adapted charts"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

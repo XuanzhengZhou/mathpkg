@@ -1,0 +1,23 @@
+id: nilpotent-transformation
+title_en: "Nilpotent Transformation"
+title_zh: "幂零变换"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [linear-transformation, minimum-polynomial]
+  recommended: [nilpotent, degree-of-nilpotency, jordan-block]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "6"
+    pages: ""
+    role_in_book: "A transformation is nilpotent if some power is zero; equivalently its minimum polynomial is t^m"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

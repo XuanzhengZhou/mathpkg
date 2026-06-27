@@ -1,0 +1,23 @@
+id: pwp-sigma-closed-in-wstar
+title_en: "For any projection p in a W*-algebra W, pWp is σ(W, V)-closed and x ↦ pxp is σ(W, V)-continuous"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: von-neumann-algebras
+difficulty: advanced
+tags: [wstar-algebra, projection, corner-subalgebra, weak-star-closed, hereditary]
+depends_on:
+  required: [wstar-algebra-definition, hereditary-subalgebra-projection]
+  recommended: [bipolar-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "6"
+    section: "6.4"
+    pages: ""
+    role_in_book: "Shows that corner subalgebras pWp are weak-* closed in W*-algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

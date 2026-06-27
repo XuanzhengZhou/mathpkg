@@ -1,0 +1,23 @@
+id: cayley-algebra
+title_en: "Cayley Algebra (Octonions)"
+title_zh: "Cayley代数（八元数）"
+type: definition
+domain: algebra
+subdomain: non-associative-algebras
+difficulty: advanced
+tags: [cayley-algebra, octonions, alternative-algebra, g2, composition-algebra]
+depends_on:
+  required: [dot-product, cross-product, bilinear-form]
+  recommended: [quaternions, composition-algebras]
+  suggested: [jordan-algebras]
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "19"
+    section: "19.3"
+    pages: ""
+    role_in_book: "The Cayley algebra (octonions) is introduced to construct the exceptional simple Lie algebra G_2 as its derivation algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

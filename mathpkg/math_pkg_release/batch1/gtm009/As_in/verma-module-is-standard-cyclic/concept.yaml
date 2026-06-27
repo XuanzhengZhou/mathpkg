@@ -1,0 +1,23 @@
+id: verma-module-is-standard-cyclic
+title_en: "Verma Module Is Standard Cyclic"
+title_zh: "Verma模是标准循环模"
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [verma-module, standard-cyclic-module, universal-enveloping-algebra, induced-module]
+depends_on:
+  required: [verma-module, standard-cyclic-module, pbw-theorem]
+  recommended: [structure-of-standard-cyclic-module]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "20"
+    section: "20.3"
+    pages: ""
+    role_in_book: "Confirms that the Verma module Z(lambda) is indeed standard cyclic, so the Structure Theorem applies to it; establishes Z(lambda) as the universal highest weight module"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

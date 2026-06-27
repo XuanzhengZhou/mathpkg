@@ -1,0 +1,23 @@
+id: birkhoff-subcategory-closure-of-tensor-product
+title_en: "Birkhoff Subcategory Closure of the Tensor Product"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: algebraic-theories
+difficulty: advanced
+tags: [tensor-product, birkhoff-subcategory, beck-functor, algebraic-theory, closed-under-products, closed-under-subalgebras, closed-under-quotients]
+depends_on:
+  required: []
+  recommended: [algebraic-theory, tensor-product-of-theories, birkhoff-variety-theorem, beck-functor]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "6"
+    section: "1"
+    pages: ""
+    role_in_book: "Lemma 6.9: establishes that Set^S ⊗ T is a Birkhoff subcategory; key lemma for proving Theorem 6.10"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

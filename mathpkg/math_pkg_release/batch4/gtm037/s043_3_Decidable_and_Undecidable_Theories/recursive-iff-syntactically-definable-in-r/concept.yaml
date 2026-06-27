@@ -1,0 +1,13 @@
+id: recursive-iff-syntactically-definable-in-r
+title_en: "A function is recursive iff it is syntactically definable in R"
+title_zh: ""
+type: corollary
+domain: logic
+subdomain: computability-theory
+difficulty: advanced
+tags: [recursive-function, syntactic-definability, theory-R, logical-characterization]
+depends_on: {required: [syntactic-implies-recursive-for-cons-r-a-theory, every-recursive-function-syntactically-definable-in-r], recommended: [], suggested: []}
+source_books: [{book_id: "gtm037", author: "James Donald Monk", title: "Mathematical Logic", chapter: "14", section: "Decidable and Undecidable Theories", pages: "", role_in_book: "Logical characterization of recursiveness via theory R"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

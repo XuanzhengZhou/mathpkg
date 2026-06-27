@@ -1,0 +1,9 @@
+Let $F$ and $G$ be functors (of the same variance) between two categories $\mathcal{C}$ and $\mathcal{D}$. A \text{natural transformation} $\eta: F \to G$ is a class of morphisms $\eta_M: F(M) \to G(M)$ (one for each $M \in \mathcal{C}$) such that for each $f: M \to N$ in $\mathcal{C}$, the diagram
+
+$$\begin{array}{ccc}
+F(M) & \xrightarrow{F(f)} & F(N) \\
+{\scriptstyle \eta_M}\downarrow & & \downarrow{\scriptstyle \eta_N} \\
+G(M) & \xrightarrow{G(f)} & G(N)
+\end{array}$$
+
+commutes. (If $F$ and $G$ are contravariant, reverse the arrows $F(f)$ and $G(f)$ in this diagram.)

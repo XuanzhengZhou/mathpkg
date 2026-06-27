@@ -1,0 +1,23 @@
+id: modular-structure
+title_en: "Modular Structure (Modular Lattice)"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: quantum-logic
+difficulty: advanced
+tags: [quantum-logic, modular-lattice, birkhoff-von-neumann, lattice-theory]
+depends_on:
+  required: []
+  recommended: [lattice, boolean-algebra]
+  suggested: [orthomodular-lattice, complemented-modular-lattice]
+source_books:
+  - book_id: "gtm053"
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "12"
+    section: "12.16"
+    pages: ""
+    role_in_book: "Axiomatization of the lattice structure of closed subspaces in quantum logic, introduced by Birkhoff and von Neumann"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

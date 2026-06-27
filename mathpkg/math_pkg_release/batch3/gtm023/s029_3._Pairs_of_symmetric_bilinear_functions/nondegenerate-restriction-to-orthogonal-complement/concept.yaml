@@ -1,0 +1,23 @@
+id: nondegenerate-restriction-to-orthogonal-complement
+title_en: "Restriction of a non-degenerate bilinear function to an orthogonal complement is non-degenerate"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [symmetric-bilinear-forms, orthogonal-complement, nondegenerate-bilinear-form, induction-step]
+depends_on:
+  required: [nondegenerate-bilinear-form, orthogonal-complement, minimizer-eigenvalue-equation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IX"
+    section: "§3, 9.15"
+    pages: ""
+    role_in_book: "Induction step enabling the iterative construction of the diagonalizing basis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

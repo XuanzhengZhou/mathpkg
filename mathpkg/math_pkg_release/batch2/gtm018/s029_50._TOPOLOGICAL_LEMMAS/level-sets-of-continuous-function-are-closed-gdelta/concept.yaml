@@ -1,0 +1,23 @@
+id: level-sets-of-continuous-function-are-closed-gdelta
+title_en: "Level Sets of Continuous Functions Are Closed G_delta"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: locally-compact-spaces
+difficulty: intermediate
+tags: [continuous-function, level-set, gdelta-set, compact-gdelta, separating-function]
+depends_on:
+  required: [continuous-function, gdelta-set, compact-set]
+  recommended: [class-of-normalized-continuous-functions]
+  suggested: [continuous-separation-of-compact-and-closed]
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "X"
+    section: "50"
+    pages: ""
+    role_in_book: "characterizes compact G_delta sets as zero sets of functions in Fraktur F"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

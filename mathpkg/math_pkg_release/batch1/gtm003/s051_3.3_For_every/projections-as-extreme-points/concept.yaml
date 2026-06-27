@@ -1,0 +1,23 @@
+id: projections-as-extreme-points
+title_en: "Projections in a C*-algebra are precisely the extreme points of order intervals [0, p]"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: cstar-algebras
+difficulty: advanced
+tags: [cstar-algebra, projections, extreme-points, order-interval, geometric-characterization]
+depends_on:
+  required: [projection-equivalence-conditions, hereditary-subalgebra-projection]
+  recommended: [krein-milman-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "5"
+    section: "5.5"
+    pages: ""
+    role_in_book: "Geometric characterization of projections as extreme points of order intervals"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

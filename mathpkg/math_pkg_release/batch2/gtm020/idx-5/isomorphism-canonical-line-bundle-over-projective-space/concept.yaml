@@ -1,0 +1,23 @@
+id: isomorphism-canonical-line-bundle-over-projective-space
+title_en: "Isomorphism of Multiple of Canonical Line Bundle over Real Projective Space"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [canonical-line-bundle, real-projective-space, bundle-isomorphism, tangent-bundle, trivial-bundle, whitney-sum]
+depends_on:
+  required: [canonical-line-bundle, tangent-bundle-of-real-projective-space, trivial-bundle, fibre-product-of-bundles, normal-map-and-projection]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "4.8"
+    pages: "page_0032–page_0033"
+    role_in_book: "Example constructing an explicit isomorphism between (n+1) copies of the canonical line bundle and the Whitney sum of the tangent bundle of RP^n with the trivial line bundle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

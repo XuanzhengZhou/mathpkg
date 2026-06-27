@@ -1,0 +1,23 @@
+id: rademacher-series-for-partition-function
+title_en: "Rademacher's Convergent Series for the Partition Function"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: analytic-number-theory
+difficulty: advanced
+tags: [Rademacher, partition-function, convergent-series, Bessel-functions, Dedekind-eta, circle-method]
+depends_on:
+  required: [rademacher-path-of-integration, ford-circle-mapping-under-z-transform, estimates-for-z1-z2-and-chord, dedekind-eta-functional-equation]
+  recommended: [ford-circles, farey-series, hardy-ramanujan-asymptotic-formula]
+  suggested: [bessel-functions, modular-group, pentagonal-number-theorem]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "5"
+    section: "5.6"
+    pages: ""
+    role_in_book: "The culminating theorem of Chapter 5: Rademacher's exact convergent series representation for the partition function p(n)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

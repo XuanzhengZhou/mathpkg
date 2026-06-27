@@ -1,0 +1,23 @@
+id: induction-of-regular-representation
+title_en: "Regular Representation Induced from Subgroup"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [regular-representation, induced-representation, subgroup]
+depends_on:
+  required: [existence-and-uniqueness-of-induced-representation, regular-representation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "3"
+    section: "3.3"
+    pages: ""
+    role_in_book: "Example 1 — shows that the regular representation of G is induced from the regular representation of H"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

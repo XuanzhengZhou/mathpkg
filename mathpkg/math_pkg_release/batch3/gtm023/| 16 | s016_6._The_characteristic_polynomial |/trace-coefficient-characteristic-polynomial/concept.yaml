@@ -1,0 +1,23 @@
+id: trace-coefficient-characteristic-polynomial
+title_en: "Trace as Coefficient in the Characteristic Polynomial"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [trace, characteristic-polynomial, coefficient]
+depends_on:
+  required: [trace-of-linear-transformation, characteristic-polynomial]
+  recommended: [trace-of-composition-symmetry]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§7. The trace"
+    pages: "4.23"
+    role_in_book: "Relates the trace to the second coefficient of the characteristic polynomial"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

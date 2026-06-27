@@ -1,0 +1,13 @@
+---
+role: exercise
+locale: en
+chapter: "4"
+section: "Exercises"
+exercise_number: 28
+---
+
+Let $u: E \to F$ be a continuous linear map between l.c.s.
+
+(a) If for each convex, circled 0-neighborhood $U \subset E$, $u(U)$ is weakly dense in some 0-neighborhood $V \subset F$, then $u$ is nearly open.
+
+(b) If $F$ is barreled, $u$ is nearly open.

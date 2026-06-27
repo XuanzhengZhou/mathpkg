@@ -1,0 +1,23 @@
+id: gardner-theorem-on-stationary-kdv-solutions
+title_en: "Gardner's theorem on stationary points of higher KdV flows"
+title_zh: "Gardner关于高阶KdV流驻点的定理"
+type: theorem
+domain: applied-math
+subdomain: integrable-systems
+difficulty: advanced
+tags: [kdv, lax-pair, stationary-solutions, finite-gap-integration, schrodinger-operator]
+depends_on:
+  required: [lax-representation-kdv, korteweg-de-vries-equation]
+  recommended: [hamiltonian-systems]
+  suggested: [finite-gap-theory, novikov-equation, periodic-kdv]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "The Korteweg–de Vries equation"
+    pages: ""
+    role_in_book: "Characterizes stationary points of higher KdV flows via finite-dimensional integrable Hamiltonian systems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

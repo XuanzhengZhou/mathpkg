@@ -1,0 +1,1 @@
+A symmetric polynomial is invariant under all permutations of its variables. The elementary symmetric polynomials generate the ring of all symmetric polynomials, a fundamental result used in the theory of algebraic equations.

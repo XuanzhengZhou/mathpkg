@@ -1,0 +1,1 @@
+A measure $m_1$ is absolutely continuous with respect to $m_2$ if every $m_2$-null set is also $m_1$-null. Absolute continuity is the key hypothesis of the Radon-Nikodym theorem, which guarantees the existence of a density function. In probability, absolute continuity of a distribution with respect to Lebesgue measure means the existence of a probability density function.

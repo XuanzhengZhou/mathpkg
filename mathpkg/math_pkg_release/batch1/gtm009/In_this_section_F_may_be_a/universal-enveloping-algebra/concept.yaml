@@ -1,0 +1,23 @@
+id: universal-enveloping-algebra
+title_en: "Universal Enveloping Algebra"
+title_zh: "泛包络代数"
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [lie-algebra, associative-algebra, universal-property, representation-theory, tensor-algebra, pbw-theorem]
+depends_on:
+  required: [lie-algebra, tensor-algebra]
+  recommended: [associative-algebra, two-sided-ideal]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "V"
+    section: "17"
+    pages: "92-93"
+    role_in_book: "Central construction: the universal enveloping algebra translates Lie algebra representations into associative algebra modules, and is essential for the PBW Theorem and the representation theory of semisimple Lie algebras"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

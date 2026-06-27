@@ -1,0 +1,23 @@
+id: nondegenerate-period-mapping
+title_en: "Nondegenerate Period Mapping"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [period-mapping, nondegenerate, complex-manifold, cohomology, local-diffeomorphism]
+depends_on:
+  required: [period-mapping-definition]
+  recommended: [complex-manifold]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "F. Period Mappings and Poisson Structures"
+    pages: "469-479"
+    role_in_book: "Definition of nondegenerate period mapping when base and fibre have the same complex dimension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

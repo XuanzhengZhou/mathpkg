@@ -1,0 +1,23 @@
+id: moduli-count-poisson-germ
+title_en: "Theorem: Number of Moduli for a Germ of a Poisson Structure with Given Singular Curve"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: poisson-geometry
+difficulty: advanced
+tags: [moduli, poisson-structure, singular-curve, quasi-homogeneous, 2d]
+depends_on:
+  required: [degree-of-non-quasi-homogeneity, two-dim-poisson-normal-forms]
+  recommended: [moduli-count-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "E. The Quasi-Homogeneous Case"
+    pages: "469-479"
+    role_in_book: "States that the number of moduli for a Poisson structure germ with fixed singular curve equals the degree of non-quasi-homogeneity of the curve"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

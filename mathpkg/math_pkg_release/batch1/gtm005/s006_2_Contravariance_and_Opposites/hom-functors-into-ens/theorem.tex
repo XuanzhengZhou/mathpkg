@@ -1,0 +1,7 @@
+Given a category $C$, take a set $V$ large enough to include all subsets of the set of arrows of $C$ (for example, $V$ could be the power set of the set of arrows of $C$). Let $\mathbf{Ens} = \mathbf{Set}_V$ be the category with objects all sets $X \in V$, arrows all functions $f: X \to Y$ between two such sets, and composition the usual composition of functions. Then each hom-set $C(a, b) = \hom(a, b)$ is an object of this category $\mathbf{Ens}$, so the hom-functors are
+
+$$
+C(a, -): C \to \mathbf{Ens}, \qquad C(-, b): C^{\text{op}} \to \mathbf{Ens}.
+$$
+
+In particular, when $V$ is the universe of all small sets, $\mathbf{Ens} = \mathbf{Set}$; in general, $\mathbf{Ens}$ is a (variable) category of sets which acts as a receiving category for the hom-functors of a category or categories of interest.

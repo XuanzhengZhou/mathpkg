@@ -1,0 +1,13 @@
+id: riemann-integrable-functions-space
+title_en: "Space of Riemann Integrable Functions"
+title_zh: "Riemann可积函数空间"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [Riemann-integral, L1-space, pseudometric]
+depends_on: {required: [pseudometric-space, l1-metric-on-continuous-functions], recommended: [], suggested: []}
+source_books: [{book_id: "gtm002", author: "John C. Oxtoby", title: "Measure and Category", chapter: "10", section: "10. Examples of Metric Spaces", pages: "", role_in_book: "example of pseudometric becoming metric via quotient"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

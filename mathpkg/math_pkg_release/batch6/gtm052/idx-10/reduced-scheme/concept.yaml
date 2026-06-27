@@ -1,0 +1,23 @@
+id: reduced-scheme
+title_en: "Reduced Scheme"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [scheme, reduced, nilpotent, structure-sheaf]
+depends_on:
+  required: [scheme]
+  recommended: [nilradical]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "3"
+    pages: "80"
+    role_in_book: "Defines reducedness for schemes; equivalent to local rings having no nilpotent elements"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

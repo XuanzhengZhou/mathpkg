@@ -1,0 +1,23 @@
+id: main-theorem-symbol-x-ni
+title_en: "Main Theorem for the Symbol (x, n_i)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: [lubin-tate, explicit-reciprocity-law, hilbert-symbol, formal-groups]
+depends_on:
+  required: []
+  recommended: [lubin-tate-formal-group, hilbert-symbol, universal-norm-symbol]
+  suggested: [local-class-field-theory, p-adic-logarithm, kummer-theory]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "9"
+    section: "10"
+    pages: ""
+    role_in_book: "Main theorem relating the Hilbert symbol and the universal norm symbol for the symbol (x, n_i)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

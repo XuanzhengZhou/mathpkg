@@ -1,0 +1,23 @@
+id: differentials-and-separably-generated-extensions
+title_en: "Differentials and Separably Generated Field Extensions"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: field-theory
+difficulty: advanced
+tags: [differentials, separable-extensions, transcendence-degree, field-extensions, kahler-differentials]
+depends_on:
+  required: [relative-differentials-via-diagonal, transcendence-degree]
+  recommended: [separably-generated-extensions, separable-algebraic-extensions]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Theorem 8.6A: characterizes when a finitely generated field extension has dim_K Ω_{K/k} = tr.deg. K/k, with equality iff K is separably generated over k"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

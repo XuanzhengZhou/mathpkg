@@ -1,0 +1,29 @@
+id: "cyclic-subclasses-of-recurrent-chain"
+title_en: "Cyclic subclasses of a recurrent Markov chain"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags:
+  - cyclic-subclasses
+  - period
+  - state-space-partition
+  - relation-R
+  - p-to-the-d
+  - strong-markov-property
+depends_on:
+  required: ["definition-6-29", "proposition-6-28"]
+  recommended: ["strong-markov-property"]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "3. Cyclicity"
+    pages: "156-157"
+    role_in_book: "Partitions the state space of a cyclic recurrent chain into exactly d cyclic subclasses, through which the process moves cyclically; the d-step skeleton P^d decomposes into d separate non-cyclic chains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

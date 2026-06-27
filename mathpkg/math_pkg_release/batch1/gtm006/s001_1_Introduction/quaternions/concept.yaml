@@ -1,0 +1,23 @@
+id: quaternions
+title_en: "F-Quaternions (Quaternion Algebra)"
+title_zh: "F-四元数（四元数代数）"
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [quaternions, skewfield, division-algebra, non-commutative]
+depends_on:
+  required: [skewfield]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "1. Introduction"
+    pages: ""
+    role_in_book: "Classic example of a non-commutative skewfield"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

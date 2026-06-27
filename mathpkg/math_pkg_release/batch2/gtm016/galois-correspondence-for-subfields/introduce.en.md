@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $K/k$ be Galois and $G = \operatorname{Aut}_k K$. Then the mappings $k' \mapsto \operatorname{Aut}_{k'} K$ and $H \mapsto K^H$ are inverse bijections between the set of subfields $k'$ of $K$ containing $k$ and the set of subgroups $H$ of $G$.

@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $E$ be a small ergodic set. If $x$ is a function bounded on $E$, then there is a unique potential $g$ with support in $E$ which differs from $x$ on $E$ by a constant function. The potential is $g = B^Ex - (\lambda^Ex)1$.

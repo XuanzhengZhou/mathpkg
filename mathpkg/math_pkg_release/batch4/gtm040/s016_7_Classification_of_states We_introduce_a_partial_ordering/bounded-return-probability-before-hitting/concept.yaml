@@ -1,0 +1,23 @@
+id: bounded-return-probability-before-hitting
+title_en: "Bounded Return Probability Before Hitting Another State"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, return-probability, hitting, recurrence]
+depends_on:
+  required: [r-relation-on-states, recurrent-and-transient-states]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "7. Classification of states"
+    pages: ""
+    role_in_book: "Lemma 4-22: If i ≠ j and R(i,j), then the probability of returning to i before hitting j is strictly less than 1"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: abscissa-of-convergence-general-dirichlet-series
+title_en: "Abscissa of Convergence of General Dirichlet Series"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: dirichlet-series
+difficulty: intermediate
+tags: [general-dirichlet-series, convergence-abscissa, limsup]
+depends_on:
+  required: [general-dirichlet-series, convergence-halfplane-general-dirichlet-series]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "8"
+    section: "8.2"
+    pages: ""
+    role_in_book: "Identifies the limsup formula as the exact abscissa of convergence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

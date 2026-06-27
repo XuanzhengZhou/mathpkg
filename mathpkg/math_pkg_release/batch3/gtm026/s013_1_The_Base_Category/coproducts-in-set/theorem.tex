@@ -1,0 +1,5 @@
+In $\mathbf{Set}$, $\coprod_{i \in I} A_i$ exists and is the disjoint union
+$$\coprod_{i \in I} A_i = \{(i, a) : i \in I \text{ and } a \in A_i\}.$$
+The $i$th injection (coprojection) $\text{in}_i: A_i \to \coprod_{j \in I} A_j$ sends $a \in A_i$ to $(i, a)$.
+
+The universal property: for any family of functions $f_i: A_i \to B$, there exists a unique $f: \coprod A_i \to B$ such that $\text{in}_i \circ f = f_i$ for all $i \in I$, defined by $(i, a) \mapsto f_i(a)$.

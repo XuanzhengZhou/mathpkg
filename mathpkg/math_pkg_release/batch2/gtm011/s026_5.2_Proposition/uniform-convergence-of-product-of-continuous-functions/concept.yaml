@@ -1,0 +1,23 @@
+id: uniform-convergence-of-product-of-continuous-functions
+title_en: "Uniform Convergence of Infinite Product of 1 + g_n"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [infinite-product, uniform-convergence, continuous-functions]
+depends_on:
+  required: [absolute-convergence-of-infinite-product]
+  recommended: [uniform-convergence-of-series]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "5"
+    section: "5.2"
+    pages: ""
+    role_in_book: "Extends product convergence to function products with uniformity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

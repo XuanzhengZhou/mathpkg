@@ -1,0 +1,23 @@
+(The Hilbert Nullstellensatz): The ideal $\mathcal{I}(\mathcal{V}(A))$ of the variety of an ideal $A$ in $k[X_1, X_2, \cdots, X_n]$ is the radical of $A$. Or equivalently
+
+$\ldots, X_n, T]$ must be the unit ideal, and there exist then polynomials $B_i(X, T), B(X, T)$ in $k[X_1, X_2, \ldots, X_n, T]$ such that
+
+$$1 = B_1(X, T)F_1(X) + \ldots + B_q(X, T)F_q(X) + B(X, T)(1 - TF(X)).$$
+
+Substituting $1/F(X)$ for $T$ in this identity and clearing denominators, we obtain a relation of the form (9).
+
+Thus, in order to prove the Hilbert Nullstellensatz we have only to show the following: if $\mathfrak{A}$ is an ideal different from (1) then $\mathfrak{A}$ has at least one zero in $K$. Since every ideal different from (1) is contained in some proper prime ideal, it is sufficient to deal with the case of a prime ideal $\mathfrak{A} = \mathfrak{p}$, different from (1).
+
+The proof that a prime ideal $\mathfrak{p}$, different from (1), has always a zero in $K$, is immediate if $K$ is a universal domain (see VI, § 5bis, p. 22). For in that case, one can always construct a $k$-isomorphism of the residue class ring
+
+$$k[x_1, x_2, \ldots, x_n] = k[X_1, X_2, \ldots, X_n]/\mathfrak{p} \quad (x_i = \mathfrak{p}-\text{residue of } X_i)$$
+
+into $K$, and if $\mathfrak{p}$ is such an isomorphism then the point $(\varphi(x_1), \varphi(x_2), \ldots, \varphi(x_n))$ is a zero of $\mathfrak{p}$ in $K$. Thus, our proof of the Hilbert Nullstellensatz is complete if $K$ is a universal domain. The Nullstellensatz for the case of a universal domain is often referred to as the weak Nullstellensatz.
+
+To prove the Nullstellensatz in all generality, it is sufficient to prove it in the case in which $K = k
+
+use induction with respect to $n$. The ring $S = k[x_1, x_2, \cdots, x_n]$, assumed to be a field, contains the field $k(x_1)$, and we have $S = k(x_1)[x_2, x_3, \cdots, x_n]$. Hence, by our induction hypothesis, the elements $x_2, x_3, \cdots, x_n$ are algebraic over $k(x_1)$. It remains to show that $x_1$ is algebraic over $k$.
+
+Since each $x_i, 2 \leq i \leq n$, is algebraic over $k(x_1)$, there exists a polynomial $a(X)$, with coefficients in $k$, such that $a(x_1) \neq 0$ and such that the $n-1$ products $a(x_1)x_i, 2 \leq i \leq n$, are integral over $k[x_1]$. It follows that for any element $\xi = f(x_1, x_2, \cdots, x_n)$ of $S$ there exists an exponent $\rho$ (depending on $\xi$) such that $[a(x_1)]^\rho f(x_1, x_2, \cdots, x_n)$ is integral over $k[x_1]$. This holds, in particular, for every element $\xi$ of $k(x_1)$, since $k(x_1) \subset S$. Now, if $x_1$ were a transcendental over $k$, then $k[x_1]$ would be integrally closed in $k(x_1)$ and we would have, therefore, the absurd result that every element $\xi$ of $k(x_1)$ can be written as a quotient $A(x_1)/[a(x_1)]^\rho$ of two polynomials in $x_1$, with denominator equal to a power of a fixed polynomial $a(x_1)$, independent of $\xi$.
+
+SECOND

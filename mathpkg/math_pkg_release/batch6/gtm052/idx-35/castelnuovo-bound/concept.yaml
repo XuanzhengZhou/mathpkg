@@ -1,0 +1,23 @@
+id: castelnuovo-bound
+title_en: "Castelnuovo's bound for the genus of a space curve"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-curves
+difficulty: advanced
+tags: [space-curves, genus-bound, castelnuovo, projective-embedding]
+depends_on:
+  required: []
+  recommended: [hyperplane-section, very-ample-divisor, cliffords-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "IV"
+    section: "§6"
+    pages: ""
+    role_in_book: "Theorem 6.4 — classical bound on genus of curves in P^3"
+content_hash: "castel-thm-hash"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,27 @@
+id: response-map
+title_en: "Response Map"
+title_zh: "响应映射"
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags:
+  - response
+  - automaton
+  - reachability
+depends_on:
+  required:
+    - reachability-map
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.3 Input Processes and Output Processes"
+    pages: ""
+    role_in_book: "Defines the external behavior (response) of an automaton"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

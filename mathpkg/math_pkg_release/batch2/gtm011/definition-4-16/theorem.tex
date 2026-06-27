@@ -1,0 +1,17 @@
+Let $X$ be a set and suppose that for each point $x$ in $X$ there is a collection $\mathcal{N}_x$ of subsets of $X$ having the following properties:
+
+(a) for each $U$ in $\mathcal{N}_x$, $x \in U$;
+
+(b) if $U$ and $V \in \mathcal{N}_x$, there is a $W$ in $\mathcal{N}_x$ such that $W \subset U \cap V$;
+
+(c) if $U \in \mathcal{N}_x$ and $V \in \mathcal{N}_y$ then for each $z$ in $U \cap V$ there is a $W$ in $\mathcal{N}_z$ such that $W \subset U \cap V$.
+
+Then the collection $\{\mathcal{N}_x: x \in X\}$ is called a neighborhood system on $X$.
+
+If $(X, d)$ is a metric space and if $x \in X$ then $\mathcal{N}_x = \{B(x; \epsilon): \epsilon > 0\}$ gives a collection $\{\mathcal{N}_x: x \in X\}$ which is a neighborhood system. In fact, this was the prototype of the above definitions.
+
+Notice that condition (c) relates the neighborhood systems of different points. If only conditions (a) and (b) were satisfied, it would not follow that these neighborhoods would be open sets in the topology to be defined. For example, if $X$ is a metric space and $\mathcal{N}_x$ is the collection of closed balls about $x$ then $\{\mathcal{N}_x: x \in X\}$ satisfies conditions (a) and (b) but not (c). Moreover, it is easy to verify that by letting $x = y = z$ condition (b) can be deduced from (c) (Verify!).
+
+The next proposition relates neighborhood systems and topological spaces
+
+sets in $\mathcal{T}$ is clearly in $\mathcal{T}$, $\mathcal{T}$ is a topology. Finally, fix $x$ in and let $U \in \mathcal{N}_x$. If $y \in U$ it follows from part (c) of Definition 4.16 that there is a $V$ in $\mathcal{N}_y$ such that $V \subset U$. Thus $U \in \mathcal{T}$.

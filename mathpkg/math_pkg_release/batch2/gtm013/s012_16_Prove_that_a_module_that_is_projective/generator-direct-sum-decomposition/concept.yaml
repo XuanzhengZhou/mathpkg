@@ -1,0 +1,23 @@
+id: generator-direct-sum-decomposition
+title_en: "Generator Characterization via Direct Sum Decomposition"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [generator, direct-sum, free-module]
+depends_on:
+  required: []
+  recommended: [generator-module, direct-sum]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "5"
+    section: "17"
+    pages: ""
+    role_in_book: "Proposition 17.6 — generator iff some finite direct sum of copies contains R as a direct summand"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

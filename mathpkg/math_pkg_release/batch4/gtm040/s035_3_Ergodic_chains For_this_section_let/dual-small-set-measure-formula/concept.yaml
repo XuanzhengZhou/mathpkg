@@ -1,0 +1,23 @@
+id: dual-small-set-measure-formula
+title_en: "Dual Small Set Measure Formula"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [ergodic-chains, small-sets, dual-chain, mean-first-passage-time]
+depends_on:
+  required: []
+  recommended: [all-sets-are-small-in-noncyclic-ergodic-chains]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "3"
+    pages: ""
+    role_in_book: "Proposition 9-61 gives a formula for the dual equilibrium measure in terms of taboo mean times"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

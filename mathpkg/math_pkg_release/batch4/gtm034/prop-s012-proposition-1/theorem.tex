@@ -1,0 +1,11 @@
+$g_N(x,y) = g(x,y) - \sum_{k=1}^{\infty} R_N(x,k)g(N+k,y), \quad x,y \in [0,N]$.
+
+Proof: Let $x_n$ be the random walk with $x_0 = x$, $T_N$ the first time (the smallest $k$) such that $x_k \in R - [0,N]$, and $T$ the first time that $x_k < 0$. Clearly $T_N \leq T$, so that
+
+$$g_N(x,y) = E_z \sum_{k=0}^{T_N-1} \delta(y,x_k) = E_z \sum_{k=0}^{T-1} \delta(y,x_k) - E_z \sum_{k=T_N}^{T-1} \delta(y,x_k)$$
+
+$$= g(x,y) - E_z \left[ E_{x_T_N} \sum_{k=0}^{T-1} \delta(y,x_k) \right] = g(x,y) - E_z g(x_T_N,y)$$
+
+$$= g(x,y) - \sum_{k=1}^{\infty} R_N(x,k)g(N+k,y).$$
+
+Combined with T22.1 and P22.4, P1 will yield

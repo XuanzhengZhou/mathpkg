@@ -1,0 +1,23 @@
+id: affine-classification-of-quadrics-without-center
+title_en: "Affine Classification of Quadrics without Center"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: affine-geometry
+difficulty: advanced
+tags: [quadric, affine-equivalence, no-center, rank, index, normal-form, tangent-space, classification]
+depends_on:
+  required: []
+  recommended: [quadric, tangent-space-of-quadric, bilinear-form-equivalence-by-rank-and-index, uniqueness-theorem-for-quadrics]
+  suggested: [affine-classification-of-quadrics-with-center]
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "X. Quadrics"
+    section: "§3. Affine equivalence of quadrics"
+    pages: ""
+    role_in_book: "Theorem 10.16 — criterion for affine equivalence of two quadrics without center"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

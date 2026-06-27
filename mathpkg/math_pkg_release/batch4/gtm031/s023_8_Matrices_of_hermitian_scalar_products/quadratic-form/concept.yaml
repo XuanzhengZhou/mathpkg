@@ -1,0 +1,23 @@
+id: quadratic-form
+title_en: "Quadratic Form Determined by a Symmetric Scalar Product"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: bilinear-forms
+difficulty: basic
+tags: [quadratic-form, symmetric-bilinear-form, scalar-product]
+depends_on:
+  required: []
+  recommended: [symmetric-bilinear-form, scalar-product]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "5"
+    section: "8"
+    pages: "163-169"
+    role_in_book: "defines the quadratic form associated with a symmetric scalar product as the foundation for studying hermitian scalar products"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

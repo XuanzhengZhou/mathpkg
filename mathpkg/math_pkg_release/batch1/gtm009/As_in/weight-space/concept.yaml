@@ -1,0 +1,23 @@
+id: weight-space
+title_en: "Weight Space of a Lie Module"
+title_zh: "李模的权空间"
+type: definition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [weight-space, lie-module, cartan-subalgebra, diagonal-action, weight-decomposition]
+depends_on:
+  required: [cartan-subalgebra, lie-module, diagonalizable-linear-map]
+  recommended: [roots, adjoint-representation]
+  suggested: [semisimple-lie-algebra]
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "20"
+    section: "20.1"
+    pages: ""
+    role_in_book: "Fundamental definition for the representation theory of semisimple Lie algebras; weight spaces generalize the root space decomposition of the adjoint representation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,21 @@
+Let $C$ be an internal category in a finitely complete category $E$, and let $(H, \pi, \mu)$ and $(K, \pi', \mu')$ be left $C$-objects. A \textbf{morphism of $C$-objects} $\phi : H \to K$ is a morphism $\phi : H \to K$ in $E$ such that the following diagrams commute:
+
+\textit{Preservation of projection:}
+$$
+\begin{CD}
+H @>{\phi}>> K \\
+@V{\pi}VV @V{\pi'}VV \\
+C_0 @= C_0
+\end{CD}
+$$
+
+\textit{Preservation of the action:}
+$$
+\begin{CD}
+C_1 \times_{C_0} H @>{1 \times \phi}>> C_1 \times_{C_0} K \\
+@V{\mu}VV @V{\mu'}VV \\
+H @>>{\phi}> K
+\end{CD}
+$$
+
+When $E = \mathbf{Set}$, this makes $\phi$ exactly a natural transformation between the corresponding set-valued functors $H, K : C \to \mathbf{Set}$.

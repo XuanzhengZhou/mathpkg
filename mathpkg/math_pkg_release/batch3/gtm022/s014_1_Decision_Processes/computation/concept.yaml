@@ -1,0 +1,23 @@
+id: computation
+title_en: "Computation (of a Turing Machine)"
+title_zh: "计算（图灵机）"
+type: definition
+domain: logic
+subdomain: computability
+difficulty: intermediate
+tags: [turing-machine, computation, halting]
+depends_on:
+  required: [turing-machine, initial-state, terminal-state]
+  recommended: [instantaneous-description]
+  suggested: []
+source_books:
+  - book_id: gtm022
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "9"
+    section: "2"
+    pages: ""
+    role_in_book: "Formal definition of a terminating Turing machine computation as a finite sequence of states"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

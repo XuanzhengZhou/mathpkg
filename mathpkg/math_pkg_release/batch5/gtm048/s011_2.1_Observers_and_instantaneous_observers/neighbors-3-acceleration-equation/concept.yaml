@@ -1,0 +1,23 @@
+id: neighbors-3-acceleration-equation
+title_en: "3-Acceleration of a Neighbor in a Geodesic Reference Frame"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: advanced
+tags: [geodesic-reference-frame, neighbor, 3-acceleration, curvature, general-relativity]
+depends_on:
+  required: [neighbor-in-reference-frame, fermi-walker-connection]
+  recommended: [curvature-tensor, geodesic-reference-frame]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "R.K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "2"
+    section: "2.3"
+    pages: ""
+    role_in_book: "Expresses the 3-acceleration of a neighbor in a geodesic reference frame in terms of the curvature operator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $\sigma$ be an element of $\operatorname{Aut} K$ of finite order and let $y \in K$ such that $\operatorname{Tr}_\sigma(y) = 0$. Then $y = x - \sigma(x)$ for some $x \in K$.

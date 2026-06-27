@@ -1,0 +1,15 @@
+A \text{theory map} $\lambda: T \longrightarrow T'$ between algebraic theories $T = (T, \eta, \mu)$ and $T' = (T', \eta', \mu')$ in $\mathcal{K}$ is a natural transformation $\lambda: T \longrightarrow T'$ such that the following two diagrams commute:
+$$
+\begin{CD}
+\mathrm{id}_\mathcal{K} @= \mathrm{id}_\mathcal{K} \\
+@V{\eta}VV @VV{\eta'}V \\
+T @>>{\lambda}> T'
+\end{CD}
+\qquad
+\begin{CD}
+TT @>{\lambda \lambda}>> T'T' \\
+@V{\mu}VV @VV{\mu'}V \\
+T @>>{\lambda}> T'
+\end{CD}
+$$
+The composition of theory maps $\lambda: T \longrightarrow T'$ and $\lambda': T' \longrightarrow T''$ is the vertical composition of natural transformations $\lambda \cdot \lambda': T \longrightarrow T''$.

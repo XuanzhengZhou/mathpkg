@@ -1,0 +1,23 @@
+id: cusp-point
+title_en: "Cusp Point"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: [Whitney, cusp, simple-cusp, S1-singularity, singularity-theory, 2-manifold, order-of-contact]
+depends_on:
+  required: [S1-singularity]
+  recommended: [fold-point]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky and Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "IV"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition of cusp point and simple cusp point for maps between 2-manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

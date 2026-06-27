@@ -1,0 +1,23 @@
+id: modular-character
+title_en: "Modular Character (Brauer Character) of a k[G]-Module"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: intermediate
+tags: ["brauer-character", "modular-character", "modular-representation", "finite-groups", "p-regular"]
+depends_on:
+  required: ["p-regular-elements"]
+  recommended: ["group-algebra", "representation-theory", "diagonalizable-endomorphism"]
+  suggested: ["p-adic-valuation", "roots-of-unity"]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "18"
+    section: "18.1"
+    pages: ""
+    role_in_book: "Central definition of Chapter 18; the Brauer character is the modular analogue of the ordinary character in characteristic p."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

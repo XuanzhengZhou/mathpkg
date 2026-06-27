@@ -1,0 +1,23 @@
+id: infinitesimally-stable-mapping
+title_en: "Infinitesimally Stable Mapping"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: singularity-theory
+difficulty: intermediate
+tags: [infinitesimal-stability, vector-field, tangent-map, mather-criterion]
+depends_on:
+  required: [vector-field-along-mapping]
+  recommended: [stable-mapping, tangent-space, diffeomorphism-group]
+  suggested: [orbit-characterization-of-stability]
+source_books:
+  - book_id: gtm014
+    author: "Golubitsky & Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "§1. Stable and Infinitesimally Stable Mappings"
+    pages: "83-89"
+    role_in_book: "Definition 1.4(b): the computable criterion for stability via Mather's theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

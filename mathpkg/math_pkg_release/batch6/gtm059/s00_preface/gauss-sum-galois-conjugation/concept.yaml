@@ -1,0 +1,23 @@
+id: gauss-sum-galois-conjugation
+title_en: "Galois Action on Gauss Sums"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: character-sums
+difficulty: intermediate
+tags: ["gauss-sum", "galois-conjugation", "frobenius", "finite-fields", "character-sums"]
+depends_on:
+  required: ["gauss-sum-finite-field"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "1"
+    pages: "4"
+    role_in_book: "Property GS4 — invariance of Gauss sums under p-th power Frobenius"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

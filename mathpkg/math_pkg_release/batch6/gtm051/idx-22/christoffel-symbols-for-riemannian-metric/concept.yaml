@@ -1,0 +1,23 @@
+id: christoffel-symbols-for-riemannian-metric
+title_en: "Christoffel Symbols for a Riemannian Metric"
+title_zh: "黎曼度量的Christoffel符号"
+type: definition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [christoffel-symbols, levi-civita-connection, covariant-derivative, metric-compatibility]
+depends_on:
+  required: [riemannian-metric-on-open-subset-of-r2]
+  recommended: [levi-civita-connection, geodesic-equation]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Defines Christoffel symbols of the Levi-Civita connection for 2-dim Riemannian metrics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: smooth-extension-lemma
+title_en: "Smooth Extension from Complementary Subspaces"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: singularity-theory
+difficulty: advanced
+tags: [smooth-functions, extension-lemma, complementary-subspaces, whitney-extension]
+depends_on:
+  required: []
+  recommended: [smooth-functions, taylor-expansion]
+  suggested: [bump-functions]
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky and V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "2"
+    section: "2. The Malgrange Preparation Theorem"
+    pages: ""
+    role_in_book: "Technical lemma for constructing smooth extensions vanishing on zeroes of P_k in the proof of Theorem 2.2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: colimit-iff-left-kan-extension
+title_en: "Colimit as Left Kan Extension"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [kan-extension, colimit, limit, universal-property]
+depends_on:
+  required: [left-kan-extension, colimit, functor-category]
+  recommended: [natural-transformation, cone]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "X"
+    section: "7"
+    pages: "262-264"
+    role_in_book: "Shows that colimits (and limits) are special cases of Kan extensions along the functor to the terminal category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

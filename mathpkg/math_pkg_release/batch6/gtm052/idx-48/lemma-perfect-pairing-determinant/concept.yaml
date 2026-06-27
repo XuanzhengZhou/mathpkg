@@ -1,0 +1,23 @@
+id: lemma-perfect-pairing-determinant
+title_en: "Lemma 4.3: Determinant Relation for a Perfect Pairing"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [perfect-pairing, determinant, poincare-duality, functional-equation, linear-algebra]
+depends_on:
+  required: [lemma-trace-determinant]
+  recommended: [poincare-duality]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix C"
+    section: "4"
+    pages: "455-456"
+    role_in_book: "Linear algebra lemma used to derive the functional equation of the zeta function from Poincaré duality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

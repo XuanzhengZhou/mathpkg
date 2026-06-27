@@ -1,0 +1,23 @@
+id: immersions-open-subset
+title_en: "Immersions Form an Open Subset"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [immersion, open-condition, jet-bundle, c-infinity-topology]
+depends_on:
+  required: [immersion-via-jet-corank, corank-r-submanifold]
+  recommended: [c-infinity-topology]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "5"
+    section: "The Whitney Embedding Theorem"
+    pages: ""
+    role_in_book: "lemma"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

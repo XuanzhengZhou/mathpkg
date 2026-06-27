@@ -1,0 +1,23 @@
+id: disjoint-compact-completely-separated
+title_en: "Disjoint Compact Sets are Completely Separated in a Completely Regular Space"
+title_zh: "完全正则空间中不交紧集完全分离"
+type: theorem
+domain: topology
+subdomain: compactness
+difficulty: intermediate
+tags: [compact-set, completely-separated, completely-regular-space, zero-set, complete-separation]
+depends_on:
+  required: [completely-regular-space, compact-set, complete-separation, zero-set]
+  recommended: [finite-subcover, urysohn-extension-theorem]
+  suggested: [c-embedded]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.11"
+    pages: ""
+    role_in_book: "Theorem 3.11(a); key result linking compactness and separation in completely regular spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

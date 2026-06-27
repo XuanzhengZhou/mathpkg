@@ -1,0 +1,23 @@
+id: haar-measure
+title_en: "Haar Measure (Invariant Measure) on a Compact Group"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: intermediate
+tags: [haar-measure, invariant-measure, compact-group, right-invariance, left-invariance, probability-measure]
+depends_on:
+  required: [existence-and-uniqueness-of-invariant-measure, compact-group]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "4"
+    section: "4.2 Invariant measure on a compact group"
+    pages: ""
+    role_in_book: "Defines the Haar (invariant) measure on a compact group, which replaces the averaging operation used for finite groups."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

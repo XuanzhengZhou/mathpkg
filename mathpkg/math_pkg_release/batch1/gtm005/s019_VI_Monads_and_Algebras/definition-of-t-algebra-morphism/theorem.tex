@@ -1,0 +1,14 @@
+Let $T = \langle T, \eta, \mu \rangle$ be a monad in a category $X$, and let
+$\langle x, h \rangle$ and $\langle x', h' \rangle$ be $T$-algebras.
+A \textbf{morphism} $f: \langle x, h \rangle \to \langle x', h' \rangle$ of $T$-algebras is
+an arrow $f: x \to x'$ of $X$ which renders commutative the diagram
+
+\[
+\begin{CD}
+Tx @>{Tf}>> Tx' \\
+@V{h}VV @VV{h'}V \\
+x @>>{f}> x'
+\end{CD}
+\]
+
+That is, $h' \circ Tf = f \circ h$.

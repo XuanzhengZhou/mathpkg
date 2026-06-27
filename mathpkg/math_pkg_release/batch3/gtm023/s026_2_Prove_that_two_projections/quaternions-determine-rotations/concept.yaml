@@ -1,0 +1,23 @@
+id: quaternions-determine-rotations
+title_en: "Quaternions Determine Rotations (Proposition I)"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: linear-algebra
+difficulty: advanced
+tags: [quaternions, rotations, representation, unit-quaternion]
+depends_on:
+  required: [quaternions, rotation, canonical-complex-structure]
+  recommended: [rotation-angle]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: ""
+    title: "Linear Algebra"
+    chapter: "8"
+    section: "8.24"
+    pages: ""
+    role_in_book: "Proposition I: Two unit quaternions determine the same rotation only if they differ by sign"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

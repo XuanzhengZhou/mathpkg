@@ -1,0 +1,13 @@
+id: smith-normal-form-over-pid
+title_en: "Smith Normal Form over F[X]"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [smith-normal-form, equivalence, matrices, pid, invariant-factors]
+depends_on: {required: [elementary-move, rank-of-torsion-free-module, basis-of-torsion-free-module, structure-theorem-fg-modules-over-pid], recommended: [invariant-factors], suggested: []}
+source_books: [{book_id: "gtm049", author: "K. W. Gruenberg, A. J. Weir", title: "Linear Geometry", chapter: "VII", section: "7.4", pages: "", role_in_book: "Proposition 8; solves the matrix equivalence problem over F[X]"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

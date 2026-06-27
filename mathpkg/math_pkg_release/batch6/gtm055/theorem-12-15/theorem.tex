@@ -1,0 +1,42 @@
+(Uniform Boundedness Theorem). If $\mathcal{T}$ is a collection of bounded linear transformations of a Banach space $\mathcal{E}$ into a normed space $\
+
+Example V. Let $\{T_n\}_{n=1}^{\infty}$ be an infinite sequence of bounded linear transformations of a Banach space $\mathcal{E}$ into a Banach space $\mathcal{F}$, and suppose that for every vector $x$ in $\mathcal{E}$ the sequence $\{T_n x\}_{n=1}^{\infty}$ is convergent in $\mathcal{F}$ (briefly: $\{T_n\}$ is pointwise convergent on $\mathcal{E}$). Then for each $x$ in $\mathcal{E}$ the set $\{T_n x : n \in \mathbb{N}\}$ is, a fortiori, a bounded set, and it follows that there exists a constant $M$ such that $\| T_n \| \leq M$ for every $n$ in $\mathbb{N}$. From this it is a simple matter to conclude that the (linear) mapping of $\mathcal{E}$ into $\mathcal{F}$ defined by setting $Tx = \lim_n T_n x$ is bounded (by $M$). Note that we do not assert that the sequence $\{T_n\}$ converges to $T$ in $\mathcal{L}(\mathcal{E}, \mathcal{F})$.
+
+Problems
+
+A. Let $T$ be a linear transformation of a normed space $\mathcal{E}$ into a normed space $\mathcal{F}$. Verify the fact that if the set $\Phi$ of all positive numbers $M$ that satisfy (1) is not empty, then inf $\Phi \in \Phi$.
+
+B. If a linear transformation $T$ of a normed space $\mathcal{E}$ into another normed space $\mathcal{F}$ is bounded on any nonempty open set, then $T$ is continuous. Hence, in particular, if the function $\| Tx \|$ is continuous (or even upper semi-continuous; Example 3K) at a single point $x_0$ of $\mathcal{E}$, then $T$ is bounded.
+
+C. An $m \times n$ matrix $A = (\alpha_{ij})$ defines, in a natural way, a linear transformation $T$ from $\mathbb{C}^n$ into $\mathbb{C}^m$ according to the formula
+
+$$T(\xi_1, \ldots, \xi_n) = A
+
+F. Let $\mathcal{E}$ be a normed space, let $T$ be a linear transformation of $\mathcal{E}$ into a normed space $\mathcal{F}$, and let $M$ be a subspace of $\mathcal{E}$ contained in the kernel $\mathcal{K}(T)$. Show that the result $\hat{T}$ of factoring $T$ through $\mathcal{E} / \mathcal{K}$ (Ex. 2L) is bounded if and only if $T$ is, and that, when $T$ is bounded, then $\|\hat{T}\| = \|T\|$. Show likewise that $\hat{T}$ is open if and only if $T$ is. (Hint: See Problem 11H.)
+
+G. Let $M$ be a subset of a normed space $\mathcal{E}$, let $M$ be the subspace of $\mathcal{E}$ spanned by $M$, and let $\varphi$ be a mapping of $M$ into a normed space $\mathcal{F}$. Show that there exists a bounded linear transformation $T: \mathcal{M} \rightarrow \mathcal{F}$ that extends $\varphi$ if and only if there exists a positive constant $K$ such that
+
+$$\left\| \sum_{i=1}^{n} \lambda_i \varphi(x_i) \right\| \leq K \left\| \sum_{i=1}^{n} \lambda_i x_i \right\|$$
+
+for every linear combination $\lambda_1 x_1 + \cdots + \lambda_n x_n$ of vectors in $M$ (and every positive integer $n$).
+
+H. Let $\mathcal{E}$ and $\mathcal{F}$ be normed spaces, and suppose that each is a direct sum of two normed spaces—say $\mathcal{E} = \mathcal{E}_1 \oplus_1 \mathcal{E}_2$ and $\mathcal{F} = \mathcal{F}_1 \oplus_1 \mathcal{F}_2$—so that every vector in $\mathcal{E}$ is a pair $(x_1, x_2)$ where $x_i \in \mathcal{E}_i$, $i = 1, 2$, and similarly for $\mathcal{F}$.
+
+(i) If $T \in \mathcal{L}(\mathcal
+
+(iii) Let $\mathcal{G}$ be another normed space that is a direct sum $\mathcal{G} = \mathcal{G}_1 \oplus_1 \mathcal{G}_2$ and let $S \in \mathcal{L}(\mathcal{F}, \mathcal{G})$. Show that if the operator matrix for $S$ relative to the decompositions $\mathcal{F} = \mathcal{F}_1 \oplus_1 \mathcal{F}_2$ and $\mathcal{G} = \mathcal{G}_1 \oplus_1 \mathcal{G}_2$ is
+
+$$\begin{pmatrix} S_{11} & S_{12} \\ S_{21} & S_{22} \end{pmatrix}$$
+
+and if $T$ is as in (i), then the operator matrix for the product $ST$ relative to the decompositions $\mathcal{E} = \mathcal{E}_1 \oplus_1 \mathcal{E}_2$ and $\mathcal{G} = \mathcal{G}_1 \oplus_1 \mathcal{G}_2$ is the matrix
+
+$$\begin{pmatrix} S_{11} T_{11} + S_{12} T_{21} & S_{11} T_{12} + S_{12} T_{22} \\ S_{21} T_{11} + S_{22} T_{21} & S_{21} T_{12} + S_{22} T_{22} \end{pmatrix} = \begin{pmatrix} S_{11} & S_{12} \\ S_{21} & S_{22} \end{pmatrix} \begin{pmatrix} T_{11} & T_{12} \\ T_{21} & T_{22} \end{pmatrix}$$
+
+obtained by forming the formal product $(S_{ij})(T_{ij})$ by the row by column rule.
+
+(iv) If $\mathcal{E}_i = \mathcal{F}_i$, $i = 1, 2$, so that $\mathcal{E} = \mathcal{F}$ and $\mathcal{L}(\mathcal{E}, \mathcal{F}) = \mathcal{L}(\mathcal{E})$,
+
+is continuous and is, in fact, uniformly continuous on (some open neighborhood of) any subset of $\mathfrak{G}_{\mathcal{A}}$ upon which it is bounded. (Hint: Follow the proofs of Lemma 12.8 and Proposition 12.9.) Verify, finally that if $x_1, \ldots, x_n$ are elements of $\mathcal{A}$ that commute in pairs, then the product $x_1 \cdots x_n$ is invertible in $\mathcal{A}$ if and only if each $x_i$ is.
+
+L. Let $T$ be the weighted bilateral shift of Example F. Show that $T$ is invertible on $(\ell_p)^{\#}, 1 \leq p \leq +\
+...

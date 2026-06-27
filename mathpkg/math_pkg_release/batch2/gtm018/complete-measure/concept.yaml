@@ -1,0 +1,23 @@
+id: complete-measure
+title_en: "Complete Measure"
+title_zh: "完备测度"
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [measure-theory, complete-measure]
+depends_on:
+  required: [measure]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "II"
+    section: "7"
+    pages: ""
+    role_in_book: "A measure where all subsets of null sets are measurable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

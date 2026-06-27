@@ -1,0 +1,26 @@
+id: duality-operator
+title_en: "Duality Operator on Matrices and Vectors"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [duality, operator, matrix, row-vector, column-vector]
+depends_on:
+  required: [
+    - alpha-dual-matrix
+  ]
+  recommended: [
+  ]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "6"
+    section: "2. Duality"
+    pages: ""
+    role_in_book: "Definition 6-13: defines the duality operator dual X = D X^T D^{-1} for matrices and vectors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: subregular-function
+title_en: "Subregular Function"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [subregular-function, markov-chain, transition-matrix, subharmonic]
+depends_on:
+  required: [p-regular-function]
+  recommended: [transition-matrix, markov-chain]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "3"
+    section: "3"
+    pages: ""
+    role_in_book: "Definition extending P-regular functions: a function is subregular if it is dominated by its P-weighted average at every state."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: vorticity-2d
+title_en: "Vorticity in Two-Dimensional Hydrodynamics"
+title_zh: "二维流体力学中的涡度"
+type: definition
+domain: geometry
+subdomain: hydrodynamics
+difficulty: intermediate
+tags: [vorticity, curl, circulation, 2d-hydrodynamics, stream-function]
+depends_on:
+  required: [stream-function-2d]
+  recommended: [curl, circulation, stokes-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 2"
+    section: "Section 47"
+    pages: ""
+    role_in_book: "Definition of vorticity as scalar curl function in two-dimensional flows"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

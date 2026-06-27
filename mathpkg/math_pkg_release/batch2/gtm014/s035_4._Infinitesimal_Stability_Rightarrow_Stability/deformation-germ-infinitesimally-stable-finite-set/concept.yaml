@@ -1,0 +1,23 @@
+id: deformation-germ-infinitesimally-stable-finite-set
+title_en: "Theorem 4.4 — Infinitesimal stability at a finite set implies deformation trivialization"
+title_zh: "定理 4.4 — 有限集处的无穷小稳定性蕴含形变的平凡化"
+type: theorem
+domain: topology
+subdomain: singularity-theory
+difficulty: advanced
+tags: [infinitesimal-stability, deformation, mather-theory, singularity-theory, mgr-preparation]
+depends_on:
+  required: [deformation-germ-infinitesimally-stable-point]
+  recommended: [infinitesimal-stability, deformation-of-smooth-map, lemma-1-4]
+  suggested: [malgrange-preparation-theorem]
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "IV"
+    section: "4"
+    pages: "138-141"
+    role_in_book: "Generalizes Proposition 4.3 from a single point to an arbitrary finite set S; the proof replaces the Malgrange Preparation Theorem with Lemma 1.4."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

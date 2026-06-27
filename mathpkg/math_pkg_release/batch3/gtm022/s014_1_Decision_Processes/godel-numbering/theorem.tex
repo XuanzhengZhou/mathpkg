@@ -1,0 +1,15 @@
+Define a function $G: \{L, R\} \cup \mathfrak{S}^* \cup \mathfrak{Q}^* \to \mathbb{N}$ by
+
+$$G(L) = 1, \quad G(R) = 3, \quad G(s_i) = 4i + 5, \quad G(q_j) = 4j + 7 \quad (i, j \in \mathbb{N}).$$
+
+If the symbols $a_i$ have Gödel numbers $G(a_i) = n_i$ for $i = 1, \ldots, r$, then the \textbf{Gödel number of the string} $a_1 \cdots a_r$ is
+
+$$G(a_1 \cdots a_r) = p_1^{n_1} \cdots p_r^{n_r},$$
+
+where $p_k$ denotes the $k$-th prime (so $p_1 = 2, p_2 = 3, \ldots$). The empty string has no Gödel number.
+
+If $\sigma_1, \ldots, \sigma_s$ are strings of symbols, then the \textbf{Gödel number of the sequence} $\sigma_1, \ldots, \sigma_s$ is
+
+$$G(\sigma_1, \ldots, \sigma_s) = p_1^{G(\sigma_1)} p_2^{G(\sigma_2)} \cdots p_s^{G(\sigma_s)}.$$
+
+Finally, the \textbf{Gödel number of the Turing machine} $M$ is the Gödel number of the unique finite sequence of strings obtained by listing the ordered quadruples of $M$ in lexicographic order.

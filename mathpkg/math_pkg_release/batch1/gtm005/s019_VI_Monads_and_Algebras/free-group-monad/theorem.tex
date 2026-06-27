@@ -1,0 +1,12 @@
+The \textbf{free group monad} in $\mathbf{Set}$ is the monad defined by the adjunction
+$$\langle F, G, \varphi \rangle : \mathbf{Set} \rightharpoonup \mathbf{Grp}$$
+where $G: \mathbf{Grp} \to \mathbf{Set}$ is the forgetful functor and
+$F: \mathbf{Set} \to \mathbf{Grp}$ is the free group functor.
+Concretely, the endofunctor $T = GF: \mathbf{Set} \to \mathbf{Set}$ sends each set $S$
+to the underlying set of the free group on $S$, i.e., the set of all reduced words
+on the alphabet $S \sqcup S^{-1}$.
+
+The unit $\eta_S: S \to T S$ sends each element $s \in S$ to the word consisting
+of the single generator $s$. The multiplication $\mu_S: T^2 S \to T S$ simplifies
+a word of words into a single reduced word by concatenation and reduction
+(cancelling adjacent inverse pairs).

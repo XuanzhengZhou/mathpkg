@@ -1,0 +1,23 @@
+id: z-ideal-total-order-criterion
+title_en: "Total Order Criterion for Residue Class Rings Modulo z-Ideals"
+title_zh: "z-理想商环的全序判据"
+type: proposition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [z-ideal, total-order, prime-ideal, residue-class-ring, zero-set]
+depends_on:
+  required: [z-ideal, z-ideal-order-criterion, prime-ideal]
+  recommended: [total-order, zero-set]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.4"
+    pages: ""
+    role_in_book: "Shows that for z-ideals, the quotient ring is totally ordered exactly when the ideal is prime"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

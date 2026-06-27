@@ -1,0 +1,23 @@
+id: the-satisfiability-theorem
+title_en: "The Satisfiability Theorem"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: predicate-calculus
+difficulty: advanced
+tags: [satisfiability, consistency, model-existence, henkin-construction, predicate-logic]
+depends_on:
+  required: []
+  recommended: [the-substitution-theorem, lemma-4-13, lemma-2-11]
+  suggested: [deduction-theorem]
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "3"
+    section: "4"
+    pages: ""
+    role_in_book: "Core model-existence result: every consistent set of formulas has an interpretation (model)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

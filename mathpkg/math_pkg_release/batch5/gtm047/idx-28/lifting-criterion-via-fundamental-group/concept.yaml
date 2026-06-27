@@ -1,0 +1,23 @@
+id: lifting-criterion-via-fundamental-group
+title_en: "Lifting Criterion via the Fundamental Group"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: ["covering-space", "fundamental-group", "lifting", "closed-path", "monodromy"]
+depends_on:
+  required: ["covering", "group-associated-with-covering"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "7"
+    section: "24"
+    pages: ""
+    role_in_book: "Theorem 3; characterizes when a loop in the base lifts to a closed loop in the covering space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

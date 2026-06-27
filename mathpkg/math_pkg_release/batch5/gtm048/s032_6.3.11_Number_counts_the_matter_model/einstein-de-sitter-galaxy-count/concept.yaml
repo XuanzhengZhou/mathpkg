@@ -1,0 +1,13 @@
+id: einstein-de-sitter-galaxy-count
+title_en: "Galaxy number counts in the Einstein-de Sitter model"
+title_zh: ""
+type: proposition
+domain: applied-math
+subdomain: cosmology
+difficulty: advanced
+tags: [einstein-de-sitter, galaxy-counts, luminosity-distance, number-counts, cosmology, general-relativity, matter-model]
+depends_on: {required: [], recommended: [luminosity-distance, cosmological-frequency-ratio], suggested: [stokes-theorem, particle-flow, dust-matter-model]}
+source_books: [{book_id: "gtm048", author: "Sachs and Wu", title: "General Relativity for Mathematicians", chapter: "6", section: "6.3.11", pages: "", role_in_book: "Gives the formula for the number N of galaxies with luminosity distance ≤ d₀ in the Einstein–de Sitter matter model, replacing the naive Euclidean guess N = (4π/3)n d₀³"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

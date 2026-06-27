@@ -1,0 +1,23 @@
+id: transforming-first-category-set-into-nullset
+title_en: "Transforming First Category Sets into Nullsets"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [first-category, nullset, homeomorphism, automorphism, residual-set, oxtoby]
+depends_on:
+  required: [first-category-set, nullset, nowhere-dense-set]
+  recommended: [residual-set, baire-category-theorem]
+  suggested: [topologically-complete-space]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "13"
+    section: "13"
+    pages: ""
+    role_in_book: "Shows that any first category set can be mapped to a nullset via a homeomorphism of [0,1]"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

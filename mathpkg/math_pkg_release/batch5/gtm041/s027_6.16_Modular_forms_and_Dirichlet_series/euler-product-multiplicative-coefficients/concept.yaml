@@ -1,0 +1,23 @@
+id: euler-product-multiplicative-coefficients
+title_en: "Euler Product Representation for Dirichlet Series with Multiplicative Coefficients"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [euler-product, dirichlet-series, multiplicative-coefficients, hecke, modular-forms]
+depends_on:
+  required: [modular-form-dirichlet-series-correspondence]
+  recommended: [euler-product]
+  suggested: [ramanujan-tau-function]
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.16"
+    pages: "147-153"
+    role_in_book: "Theorem 6.19 — Gives the Euler product factorization when Fourier coefficients satisfy a multiplicative convolution identity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

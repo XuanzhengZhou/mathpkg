@@ -1,0 +1,13 @@
+id: left-c-object
+title_en: "Left C-Object (Internal Diagram)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [left-c-object, internal-diagram, internal-category, base-valued-functor, internal-presheaf]
+depends_on: {required:[internal-category], recommended:[pullback, functor, coproduct], suggested:[yoneda-lemma, presheaf]}
+source_books: [{book_id:"gtm005",author:"Saunders Mac Lane",title:"Categories for the Working Mathematician",chapter:"XII",section:"1. Internal Categories",pages:"282-283",role_in_book:"Defines a left action of an internal category C on an object H, also called an internal diagram or base-valued functor; generalizes functors C -> E to the internal setting"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

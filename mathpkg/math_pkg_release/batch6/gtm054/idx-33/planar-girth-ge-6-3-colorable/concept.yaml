@@ -1,0 +1,23 @@
+id: planar-girth-ge-6-3-colorable
+title_en: "Planar Graphs with Girth at Least 6 are 3-Colorable"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [planar-graph, chromatic-number, girth, exercise]
+depends_on:
+  required: []
+  recommended: [planar-graph, chromatic-number, girth]
+  suggested: [five-color-theorem, planar-girth-ge-4-4-colorable]
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "VII"
+    section: "B"
+    pages: ""
+    role_in_book: "Exercise B8, girth 6 implies 3-colorable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

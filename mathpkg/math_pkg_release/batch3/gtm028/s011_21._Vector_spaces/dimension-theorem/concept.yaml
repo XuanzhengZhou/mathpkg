@@ -1,0 +1,23 @@
+id: dimension-theorem
+title_en: "Dimension of a Vector Space"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [dimension, basis, cardinality, finite-dimensional, infinite-dimensional]
+depends_on:
+  required: [vector-space, basis-vector-space, basis-equivalence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "I"
+    section: "21"
+    pages: ""
+    role_in_book: "Theorem 22: Any two bases of V have the same number of elements; defines dimension, finite-dimensional, and infinite-dimensional"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

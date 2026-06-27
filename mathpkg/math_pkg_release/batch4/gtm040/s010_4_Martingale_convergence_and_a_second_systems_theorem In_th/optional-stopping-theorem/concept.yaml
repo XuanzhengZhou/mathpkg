@@ -1,0 +1,23 @@
+id: optional-stopping-theorem
+title_en: "Optional Stopping Theorem (Second Systems Theorem)"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: martingale-theory
+difficulty: advanced
+tags: [optional-stopping, stopping-time, martingale, fair-game]
+depends_on:
+  required: [martingale, stopping-time, stopping-time-integral-decomposition, mean-monotonicity-of-martingales]
+  recommended: [conditional-expectation]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "3"
+    section: "4"
+    pages: ""
+    role_in_book: "Theorem 3-15: Core result that a stopped martingale preserves mean under integrability conditions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

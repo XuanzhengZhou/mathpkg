@@ -1,0 +1,23 @@
+id: plurigenus
+title_en: "Plurigenus"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [canonical-sheaf, birational-invariant, projective-variety, kodaira-dimension]
+depends_on:
+  required: [canonical-sheaf, projective-variety]
+  recommended: []
+  suggested: [hodge-numbers, geometric-genus]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "206-212"
+    role_in_book: "Exercise 8.8 — introduces plurigenera as birational invariants; important for classification of varieties"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

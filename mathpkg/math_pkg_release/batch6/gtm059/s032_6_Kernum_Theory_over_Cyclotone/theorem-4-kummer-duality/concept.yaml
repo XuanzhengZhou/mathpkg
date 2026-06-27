@@ -1,0 +1,23 @@
+id: theorem-4-kummer-duality
+title_en: "Theorem 4: Kummer duality and the Galois tensor conjugate"
+title_zh: "定理4: Kummer对偶性与Galois张量共轭"
+type: theorem
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [kummer-duality, galois-cohomology, eigenspaces, complex-conjugation, ideal-class-group]
+depends_on:
+  required: [kummer-theory-cyclotomic-zp-extensions, theorem-4-3]
+  recommended: [galois-cohomology, class-field-theory]
+  suggested: [iwasawa-theory]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "6"
+    section: "6"
+    pages: ""
+    role_in_book: "States that the Kummer duality yields a compact structure via Galois tensor conjugate, with eigenspace analysis for complex conjugation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

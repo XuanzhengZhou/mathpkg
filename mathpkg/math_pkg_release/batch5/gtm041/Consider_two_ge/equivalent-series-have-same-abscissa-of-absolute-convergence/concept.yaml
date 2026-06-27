@@ -1,0 +1,23 @@
+id: equivalent-series-have-same-abscissa-of-absolute-convergence
+title_en: "Equivalent Dirichlet Series Have the Same Abscissa of Absolute Convergence"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: dirichlet-series
+difficulty: intermediate
+tags: [dirichlet-series, equivalence, abscissa-of-convergence, basis-independence]
+depends_on:
+  required: [equivalence-of-general-dirichlet-series]
+  recommended: [abscissa-of-absolute-convergence, bohr-matrix]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "8"
+    section: "8.7"
+    pages: "184–186"
+    role_in_book: "Theorem 8.10: establishes fundamental property of equivalent Dirichlet series"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

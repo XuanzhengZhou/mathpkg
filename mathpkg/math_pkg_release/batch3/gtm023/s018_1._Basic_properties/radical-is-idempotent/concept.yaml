@@ -1,0 +1,23 @@
+id: radical-is-idempotent
+title_en: "Radical of the Radical Equals the Radical"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: radical-theory
+difficulty: basic
+tags: [radical, idempotent]
+depends_on:
+  required: [radical-of-associative-algebra]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "5"
+    section: "§2. Ideals"
+    pages: "170"
+    role_in_book: "the radical applied twice equals the radical"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

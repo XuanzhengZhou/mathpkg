@@ -1,0 +1,23 @@
+id: fundamental-domain-of-modular-group
+title_en: "Fundamental Domain of the Modular Group"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: ["fundamental-domain", "modular-group", "upper-half-plane", "group-action"]
+depends_on:
+  required: ["the-modular-group"]
+  recommended: ["upper-half-plane", "group-action-on-spaces"]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Describes the standard fundamental domain D for the modular group action on H."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

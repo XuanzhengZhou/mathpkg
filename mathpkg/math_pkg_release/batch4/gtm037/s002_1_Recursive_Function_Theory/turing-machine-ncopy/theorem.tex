@@ -1,0 +1,14 @@
+$$T_{n \text{copy}} = T_{\text{copy}} \cdot T_{2 \text{copy}}^{n-1}$$
+
+For $n > 0$, $T_{n \text{copy}}$ acts as follows:
+\[
+0 \ 1^{(x_0+1)} \ 0 \ 1^{(x_1+1)} \ 0 \ \cdots \ 1^{(x_{(n-1)}+1)} \ 0 \ 0^{(x_0+2)}
+\]
+\[
+\vdots
+\]
+\[
+0 \ 1^{(x_0+1)} \ 0 \ 1^{(x_1+1)} \ 0 \ \cdots \ 0 \ 1^{(x_{(n-1)}+1)} \ 0 \ \cdots \ 1^{(x_0+1)} \ 0
+\]
+
+The tape is otherwise unchanged. This machine copies the $n$th block to the left.

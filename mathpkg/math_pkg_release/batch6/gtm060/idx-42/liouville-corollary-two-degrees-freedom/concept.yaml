@@ -1,0 +1,23 @@
+id: liouville-corollary-two-degrees-freedom
+title_en: "Integrability of Systems with Two Degrees of Freedom Given a Single Additional First Integral"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [liouville-theorem, two-degrees-of-freedom, first-integral, integrable-system, hamiltonian-mechanics]
+depends_on:
+  required: [liouville-theorem-integrable-systems, functions-in-involution]
+  recommended: [first-integral, hamiltonian-system]
+  suggested: [action-angle-variables, integrable-system]
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "10"
+    section: "49"
+    pages: ""
+    role_in_book: "Corollary 1 of Liouville's theorem: two degrees of freedom with an extra first integral is integrable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

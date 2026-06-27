@@ -1,0 +1,1 @@
+Levi's theorem establishes the equivalence between the global notion of pseudoconvexity (via Hartogs figures) and the local Levi condition on the boundary for domains with smooth boundary. This is a cornerstone result in several complex variables.

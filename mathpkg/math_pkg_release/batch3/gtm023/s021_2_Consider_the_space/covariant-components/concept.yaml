@@ -1,0 +1,23 @@
+id: covariant-components
+title_en: "Covariant components and the metric tensor"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [inner-product, dual-space, covariant-components, contravariant-components, metric-tensor]
+depends_on:
+  required: [canonical-isomorphism-inner-product-dual, dual-basis]
+  recommended: [gram-matrix-of-basis]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "4. Duality in an inner product space"
+    pages: ""
+    role_in_book: "Introduces covariant components, their relation to contravariant components via the metric tensor, and the simplification for orthonormal bases"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

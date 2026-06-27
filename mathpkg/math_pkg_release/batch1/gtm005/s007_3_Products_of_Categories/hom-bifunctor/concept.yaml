@@ -1,0 +1,13 @@
+id: hom-bifunctor
+title_en: "Hom Bifunctor"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [hom-functor, bifunctor, hom-set, contravariant, covariant]
+depends_on: {required: [bifunctor-contravariant-covariant, hom-functor], recommended: [], suggested: []}
+source_books: [{book_id: "gtm005", author: "Saunders Mac Lane", title: "Categories for the Working Mathematician", chapter: "I", section: "3. Products of Categories", pages: "", role_in_book: "defines the hom-functor as a bifunctor contravariant in the first variable and covariant in the second"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

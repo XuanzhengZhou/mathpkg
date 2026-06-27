@@ -1,0 +1,23 @@
+id: factoring-through-monomorphism
+title_en: "Factoring a Homomorphism through a Monomorphism"
+title_zh: "通过单同态分解同态"
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [module-theory, factorization, monomorphism]
+depends_on:
+  required: [module-monomorphism, left-module-homomorphism, kernel-image-coimage-cokernel]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "3. Homomorphisms of Modules"
+    pages: ""
+    role_in_book: "Proposition 3.6(2) — factoring homomorphisms through monic maps"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

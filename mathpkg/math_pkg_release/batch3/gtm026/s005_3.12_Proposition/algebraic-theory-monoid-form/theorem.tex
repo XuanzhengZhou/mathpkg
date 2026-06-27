@@ -1,0 +1,17 @@
+An algebraic theory (in monoid form) in a category $\mathcal{K}$ is a triple $(T, \eta, \mu)$ where:
+\begin{itemize}
+\item $T$ is a functor from $\mathcal{K}$ to $\mathcal{K}$,
+\item $\eta$ is a natural transformation from the identity functor of $\mathcal{K}$ to $T$,
+\item $\mu$ is a natural transformation from $TT$ to $T$,
+\end{itemize}
+all such that the three diagrams of 3.16 commute for every object $A$ of $\mathcal{K}$:
+
+$$\xymatrix{
+TTT \ar[r]^{T\mu} \ar[d]_{\mu T} & TT \ar[d]^{\mu} \\
+TT \ar[r]_{\mu} & T
+}$$
+
+$$\xymatrix{
+T \ar[r]^{\eta T} \ar[dr]_{\mathrm{id}_T} & TT \ar[d]^{\mu} & T \ar[l]_{T\eta} \ar[dl]^{\mathrm{id}_T} \\
+& T &
+}$$

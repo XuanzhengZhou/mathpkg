@@ -1,0 +1,23 @@
+id: finite-dim-subspace-has-complement
+title_en: "Every finite-dimensional subspace of a locally convex space has a complementary subspace"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [finite-dimensional, complementary-subspace, locally-convex-space, continuous-linear-forms]
+depends_on:
+  required: [locally-convex-space, hahn-banach-theorem]
+  recommended: [finite-dimensional-tvs]
+  suggested: [algebraic-complement]
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "4.1"
+    pages: ""
+    role_in_book: "Corollary 2: Any finite-dimensional subspace of a l.c.s. has a topological complement"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

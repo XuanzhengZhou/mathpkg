@@ -1,0 +1,23 @@
+id: gamma-functional-equation
+title_en: "Functional Equation of the Gamma Function: $\Gamma(z+1) = z\Gamma(z)$"
+title_zh: "Gamma 函数方程：$\Gamma(z+1) = z\Gamma(z)$"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [gamma-function, functional-equation, factorial, meromorphic-continuation]
+depends_on:
+  required: [gamma-function-definition, gamma-gauss-formula]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "7"
+    section: "7.7"
+    pages: ""
+    role_in_book: "Core functional equation extending the factorial property to the complex plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

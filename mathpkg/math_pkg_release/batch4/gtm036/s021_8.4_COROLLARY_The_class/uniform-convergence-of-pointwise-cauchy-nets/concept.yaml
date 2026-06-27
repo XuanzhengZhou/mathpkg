@@ -1,0 +1,23 @@
+id: uniform-convergence-of-pointwise-cauchy-nets
+title_en: "Uniform Convergence of Pointwise Convergent Cauchy Nets"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [nets, cauchy-net, uniform-convergence, pointwise-convergence, function-spaces]
+depends_on:
+  required: [cauchy-net, uniform-convergence-topology, closed-neighborhood]
+  recommended: [pointwise-convergence]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "8"
+    section: "8.5"
+    pages: ""
+    role_in_book: "Key lemma establishing that a Cauchy net in the uniform topology that converges pointwise must in fact converge uniformly"
+content_hash: "TBD"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

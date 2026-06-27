@@ -1,0 +1,23 @@
+id: signature-of-symmetric-bilinear-form
+title_en: "Signature of a Symmetric Bilinear Form"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: bilinear-forms
+difficulty: basic
+tags: [signature, sylvesters-law, real-symmetric-space, inertia]
+depends_on:
+  required: [sylvesters-law-of-inertia]
+  recommended: [positive-definite-bilinear-form]
+  suggested: []
+source_books:
+  - book_id: gtm049
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "5.3"
+    pages: "105"
+    role_in_book: "Defines the signature p-q as the invariant of a real symmetric bilinear form"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,14 @@
+Let $S^{n-1} = \{x \in \mathbf{R}^n \mid |x| = 1\}$ be the $(n-1)$-sphere, and let $N = (1,0,\ldots,0)$, $S = (-1,0,\ldots,0)$ be the north and south poles. Define stereographic projections
+\[
+\phi_N : S^{n-1} \setminus \{N\} \to \mathbf{R}^{n-1}, \quad
+\phi_N(x_1,\ldots,x_n) = \frac{1}{1-x_1}(x_2,\ldots,x_n)
+\]
+\[
+\phi_S : S^{n-1} \setminus \{S\} \to \mathbf{R}^{n-1}, \quad
+\phi_S(x_1,\ldots,x_n) = \frac{1}{1+x_1}(x_2,\ldots,x_n).
+\]
+Then $S^{n-1}$ is an analytic manifold. The transition map
+\[
+\phi_S \circ \phi_N^{-1} : \mathbf{R}^{n-1} \setminus \{0\} \to \mathbf{R}^{n-1} \setminus \{0\}
+\]
+is given by $y \mapsto y/|y|^2$. Since $(\phi_S \circ \phi_N^{-1}) \circ (\phi_S \circ \phi_N^{-1}) = \mathrm{id}$, we have $\det(d(\phi_S \circ \phi_N^{-1}))_y = \pm 1$, and evaluation at $y = (1,0,\ldots,0)$ shows the determinant is $-1$. To obtain an oriented analytic manifold structure, replace the last coordinate of $\phi_N$ by $-x_n/(1-x_1)$, which changes the determinant of the transition map to $+1$.

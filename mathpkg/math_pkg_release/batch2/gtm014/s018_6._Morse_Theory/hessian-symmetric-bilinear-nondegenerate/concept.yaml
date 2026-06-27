@@ -1,0 +1,23 @@
+id: hessian-symmetric-bilinear-nondegenerate
+title_en: "Hessian is Symmetric Bilinear and Nondegenerate at Nondegenerate Critical Points"
+title_zh: "Hessian是对称双线性型且在非退化临界点处非退化"
+type: proposition
+domain: geometry
+subdomain: differential-topology
+difficulty: intermediate
+tags: [hessian, symmetric-bilinear-form, nondegenerate, critical-point, morse-theory]
+depends_on:
+  required: [intrinsic-derivative-hessian, nondegenerate-critical-point]
+  recommended: [hessian-symmetry-at-critical-point, hessian-pullback-formula, nondegenerate-critical-point-hessian-nonsingular]
+  suggested: [morse-lemma]
+source_books:
+  - book_id: gtm014
+    author: "Golubitsky, M.; Guillemin, V."
+    title: "Stable Mappings and Their Singularities"
+    chapter: "6"
+    section: "6. Morse Theory"
+    pages: "76"
+    role_in_book: "Establishes invariant properties of the Hessian on manifolds; foundation for Morse lemma"
+content_hash: "prop-6-6-gtm014"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

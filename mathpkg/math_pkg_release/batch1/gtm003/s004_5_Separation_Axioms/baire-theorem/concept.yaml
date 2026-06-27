@@ -1,0 +1,23 @@
+id: baire-theorem
+title_en: "Baire's Theorem for Metrizable Spaces"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: general-topology
+difficulty: intermediate
+tags: [baire, metrizable, baire-space, category]
+depends_on:
+  required: [metrizable-topological-space, topological-space]
+  recommended: [complete-metrizable-uniform-space, nowhere-dense]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "0"
+    section: "8"
+    pages: ""
+    role_in_book: "Preliminaries — Baire category theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

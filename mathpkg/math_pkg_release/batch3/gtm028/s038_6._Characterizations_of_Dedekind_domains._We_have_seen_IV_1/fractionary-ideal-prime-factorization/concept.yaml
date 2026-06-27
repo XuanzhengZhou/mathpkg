@@ -1,0 +1,23 @@
+id: fractionary-ideal-prime-factorization
+title_en: "Unique Prime Power Factorization of Fractionary Ideals"
+title_zh: "分式理想的唯一素理想幂分解"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [dedekind-domain, fractionary-ideal, prime-factorization, valuation]
+depends_on:
+  required: [dedekind-domain, fractionary-ideal, dedekind-domain-proper-prime-invertible-maximal]
+  recommended: [prime-factorization-corollary]
+  suggested: [discrete-valuation-ring-temp]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "6"
+    pages: "273-274"
+    role_in_book: "Theorem 11 — main structure theorem for Dedekind domains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

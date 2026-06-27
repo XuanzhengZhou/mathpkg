@@ -1,0 +1,29 @@
+id: sigma-homomorphism
+title_en: "σ-Homomorphism of Boolean σ-Algebras"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: boolean-algebras
+difficulty: intermediate
+tags:
+  - boolean-algebra
+  - sigma-homomorphism
+  - homomorphism
+  - countable-operations
+depends_on:
+  required:
+    - boolean-sigma-algebra
+    - boolean-homomorphism
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "3"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines σ-homomorphisms as homomorphisms preserving countable joins and meets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

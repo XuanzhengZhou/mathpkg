@@ -1,0 +1,18 @@
+Let $A$ be a cyclic linear transformation with minimum polynomial
+
+$$\mu(\lambda) = \pi_1(\lambda)^{k_1} \pi_2(\lambda)^{k_2} \cdots \pi_s(\lambda)^{k_s},$$
+
+where the $\pi_i(\lambda)$ are distinct monic irreducible polynomials. Then there exists a basis of $\Re$ relative to which the matrix of $A$ has the block diagonal form
+
+$$B_1 \quad B_2 \quad \dots \quad B_s$$
+
+where each $B_i$ is a $k_i q_i \times k_i q_i$ matrix ($q_i = \deg \pi_i$) determined by $\pi_i(\lambda)^{k_i}$. Explicitly, if $\pi(\lambda) = \lambda^q - \rho_{q-1}\lambda^{q-1} - \cdots - \rho_0$, the block $B$ for $\pi(\lambda)^k$ has the form
+
+$$B = \begin{bmatrix}
+P & & & \\
+N & P & & \\
+& N & \ddots & \\
+& & N & P
+\end{bmatrix}$$
+
+where $P$ is the $q \times q$ companion matrix of $\pi(\lambda)$ and $N$ is the $q \times q$ matrix with a $1$ in the $(q, 1)$-position and zeros elsewhere. This matrix is called the \text{classical canonical matrix} of $A$.

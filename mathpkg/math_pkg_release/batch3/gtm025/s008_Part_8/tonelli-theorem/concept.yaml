@@ -1,0 +1,23 @@
+id: tonelli-theorem
+title_en: "Tonelli's Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [Tonelli, iterated-integral, nonnegative-function, product-measure, Fubini]
+depends_on:
+  required: [product-measure-definition, product-measure-is-sigma-finite, measurable-function]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm025
+    author: "Edwin Hewitt, Karl Stromberg"
+    title: "Real and Abstract Analysis"
+    chapter: "6"
+    section: "21"
+    pages: ""
+    role_in_book: "Tonelli's theorem for nonnegative measurable functions on product spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

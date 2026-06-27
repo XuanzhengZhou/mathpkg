@@ -1,0 +1,23 @@
+id: adjoint-action-chevalley-lattice
+title_en: "Adjoint Action Preserves Chevalley Lattice"
+title_zh: "伴随作用保持 Chevalley 格"
+type: proposition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [chevalley-basis, adjoint-action, divided-powers, lattice, binomial-coefficient]
+depends_on:
+  required: []
+  recommended: [chevalley-basis, adjoint-representation]
+  suggested: [binomial-coefficient-identity]
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "VII"
+    section: "25.5"
+    pages: ""
+    role_in_book: "Shows that divided powers of ad x_α preserve the Z-span of the Chevalley basis, a key step for constructing Chevalley groups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

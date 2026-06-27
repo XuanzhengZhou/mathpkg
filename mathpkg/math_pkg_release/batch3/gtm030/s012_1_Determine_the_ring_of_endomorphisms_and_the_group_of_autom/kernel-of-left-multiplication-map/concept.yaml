@@ -1,0 +1,23 @@
+id: kernel-of-left-multiplication-map
+title_en: "Kernel of the Left Multiplication Anti-Homomorphism is the Ideal of Left Annihilators"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [ring, left-multiplication, anti-homomorphism, kernel, annihilator, ideal]
+depends_on:
+  required: [left-multiplication-anti-homomorphism]
+  recommended: [ring-of-left-multiplications, left-annihilator, ideal]
+  suggested: []
+source_books:
+  - book_id: "gtm030"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "2"
+    section: "14"
+    pages: ""
+    role_in_book: "Identifies the kernel of a → a_l as the ideal of left annihilators"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

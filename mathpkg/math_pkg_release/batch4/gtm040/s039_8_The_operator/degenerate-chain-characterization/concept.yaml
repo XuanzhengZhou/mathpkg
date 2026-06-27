@@ -1,0 +1,23 @@
+id: degenerate-chain-characterization
+title_en: "Characterization of degenerate chains"
+title_zh: "退化链的特征"
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [degenerate-chain, hitting-probability, normal-chain]
+depends_on:
+  required: [degenerate-chain, hitting-probability, positive-capacity-condition]
+  recommended: [degenerate-chain-criterion]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Characterizes degenerate chains via hitting probabilities"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

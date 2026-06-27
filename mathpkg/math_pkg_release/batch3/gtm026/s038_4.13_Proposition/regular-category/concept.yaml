@@ -1,0 +1,23 @@
+id: regular-category
+title_en: "Regular Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [regular-category, factorization-system, E-M-factorization]
+depends_on:
+  required: [image-factorization-system]
+  recommended: [E-M-factorization, E-quotient-object]
+  suggested: [quasivariety]
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "4"
+    section: "4.15"
+    pages: "246-249"
+    role_in_book: "Definition 4.15 introduces regular categories as triples (H, E, M) with an image factorization system satisfying additional axioms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

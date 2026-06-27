@@ -1,0 +1,23 @@
+id: braiding
+title_en: "Braiding on a Monoidal Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [monoidal-category, braided-category, natural-isomorphism, hexagon-axiom]
+depends_on:
+  required: [monoidal-category]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "1. Symmetric Monoidal Categories"
+    pages: ""
+    role_in_book: "Defines the notion of a braiding on a monoidal category, leading to braided monoidal categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: faithful-representation-existence
+title_en: "For every C*-algebra there exists a faithful representation on a Hilbert space"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: cstar-algebras
+difficulty: advanced
+tags: [cstar-algebra, faithful-representation, hilbert-space, gns-construction, universal-representation]
+depends_on:
+  required: [normal-element-attains-norm-at-state, state-space-of-cstar-algebra]
+  recommended: [gns-construction]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "4"
+    section: "4.3"
+    pages: ""
+    role_in_book: "Establishes that every C*-algebra admits a faithful representation, the universal representation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

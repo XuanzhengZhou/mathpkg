@@ -1,0 +1,23 @@
+id: canonical-map-fundamental-domain
+title_en: "Canonical Map from Fundamental Domain to Quotient"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: modular-forms
+difficulty: basic
+tags: ["fundamental-domain", "modular-group", "quotient-map"]
+depends_on:
+  required: ["fundamental-domain-of-modular-group"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Direct consequence of Theorem 1, formalizes that D represents H/G."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

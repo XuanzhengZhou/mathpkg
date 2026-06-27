@@ -1,0 +1,23 @@
+id: signature-of-bilinear-function
+title_en: "Signature of a Symmetric Bilinear Function"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [bilinear-form, signature, index]
+depends_on:
+  required: [index-of-bilinear-function]
+  recommended: [decomposition-into-positive-negative-subspaces]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "2. The decomposition of E"
+    pages: ""
+    role_in_book: "Defines signature as the difference between positive and negative index dimensions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

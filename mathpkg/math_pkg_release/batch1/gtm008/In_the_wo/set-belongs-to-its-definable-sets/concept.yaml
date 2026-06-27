@@ -1,0 +1,13 @@
+id: set-belongs-to-its-definable-sets
+title_en: "Every Set Belongs to Its Own Definable Sets"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: constructibility
+difficulty: basic
+tags: [definable-set, constructible-hierarchy]
+depends_on: {required: ["set-of-definable-sets"], recommended: [], suggested: []}
+source_books: [{book_id: "gtm008", author: "Gaisi Takeuti, Wilson M. Zaring", title: "Axiomatic Set Theory", chapter: "7", section: "Relative Constructibility", pages: "", role_in_book: "$x \\in \\operatorname{Def}(x)$ and $x \\subseteq \\operatorname{Def}(x)$"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

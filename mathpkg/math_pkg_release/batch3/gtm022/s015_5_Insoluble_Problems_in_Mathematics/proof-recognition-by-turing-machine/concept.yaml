@@ -1,0 +1,23 @@
+id: proof-recognition-by-turing-machine
+title_en: "Proof Recognition by Turing Machine for Effectively Axiomatised Theories"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [turing-machine, proof-verification, effective-axiomatization, godel-number]
+depends_on:
+  required: []
+  recommended: [turing-machine, godel-numbering, effective-axiomatization]
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D. W. Barnes, J. M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "5"
+    section: "5"
+    pages: ""
+    role_in_book: "Proposition establishing that proof verification is computable for effectively axiomatised theories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

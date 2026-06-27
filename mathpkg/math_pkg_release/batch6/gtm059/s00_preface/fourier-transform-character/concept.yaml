@@ -1,0 +1,23 @@
+id: fourier-transform-character
+title_en: "Fourier Transform of a Multiplicative Character"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: character-sums
+difficulty: intermediate
+tags: ["fourier-transform", "multiplicative-character", "gauss-sum", "finite-fields"]
+depends_on:
+  required: ["fourier-transform-finite-field", "gauss-sum-finite-field"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "1"
+    pages: "2-3"
+    role_in_book: "Property GS1 — expresses Fourier transform of a multiplicative character in terms of its Gauss sum"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

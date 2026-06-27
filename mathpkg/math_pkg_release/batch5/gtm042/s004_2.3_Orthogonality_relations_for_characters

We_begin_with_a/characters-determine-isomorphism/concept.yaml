@@ -1,0 +1,23 @@
+id: characters-determine-isomorphism
+title_en: "Characters Determine Isomorphism Class of Representations"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: representation-theory
+difficulty: basic
+tags: [characters, isomorphism, representation-theory, classification]
+depends_on:
+  required: [uniqueness-of-multiplicity, orthogonality-of-irreducible-characters]
+  recommended: [multiplicity-via-scalar-product]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "2"
+    section: "2.3"
+    pages: ""
+    role_in_book: "Corollary 2 to Theorem 4. Shows that the character is a complete invariant: two representations are isomorphic if and only if they have the same character."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

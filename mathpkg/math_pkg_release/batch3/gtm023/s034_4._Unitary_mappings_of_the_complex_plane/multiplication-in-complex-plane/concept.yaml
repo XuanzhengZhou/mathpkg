@@ -1,0 +1,23 @@
+id: multiplication-in-complex-plane
+title_en: "Quaternionic multiplication in the complex plane"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [quaternions, complex-plane, division-algebra, multiplication]
+depends_on:
+  required: [algebra-q, mapping-phi-z]
+  recommended: [q-isomorphic-to-quaternions]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines a multiplication on the complex plane C making it into a real division algebra isomorphic to the quaternions."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

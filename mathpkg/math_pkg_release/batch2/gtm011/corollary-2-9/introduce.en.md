@@ -1,0 +1,11 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+2.9 Corollary from Conway's "Functions of One Complex Variable I."
+If the series $\sum_{n=0}^{\infty} a_n(z-a)^n$ has radius of convergence $R > 0$ then $f(z) = \sum_{n=0}^{\infty} a_n(z-a)^n$ is analytic in $B(a; R)$.
+
+Hence, $\exp z = \sum_{n=0}^{\infty} z^n/n!$ is analytic in $\mathbb{C}$. Before further examining the exponential function and defining $\cos z$ a...

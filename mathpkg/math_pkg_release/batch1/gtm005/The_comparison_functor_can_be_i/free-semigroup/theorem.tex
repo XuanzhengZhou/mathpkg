@@ -1,0 +1,10 @@
+The \text{free semigroup} $WX$ on a set $X$ consists of all words
+$$\langle x_1 \rangle \ldots \langle x_n \rangle$$
+of positive length $n$ spelled in letters $x_i \in X$, where we write $\langle x \rangle$ to distinguish the word $\langle x \rangle$ in $WX$ from the element $x \in X$. Words are multiplied by juxtaposition:
+$$(\langle x_1 \rangle \ldots \langle x_n \rangle)(\langle y_1 \rangle \ldots \langle y_m \rangle) = \langle x_1 \rangle \ldots \langle x_n \rangle \langle y_1 \rangle \ldots \langle y_m \rangle.$$
+
+Writing $WX = \coprod_{n=1}^{\infty} X^n$, the unit $\eta_X: X \to WX$ and multiplication $\mu_X: W^2 X \to WX$ of the word monad $\langle W, \eta, \mu \rangle$ on $\mathbf{Set}$ are given by
+$$\eta_X x = \langle x \rangle \quad \text{for each } x \in X,$$
+$$\mu_X(\langle \langle x_{11} \rangle \dots \langle x_{1n_1} \rangle \rangle \dots \langle \langle x_{k1} \rangle \dots \langle x_{kn_k} \rangle \rangle)$$
+$$= \langle x_{11} \rangle \dots \langle x_{1n_1} \rangle \dots \langle x_{k1} \rangle \dots \langle x_{kn_k} \rangle$$
+for all positive integers $k$, all $k$-tuples $n_1, \dots, n_k$ of positive integers, and all $x_{ij} \in X$.

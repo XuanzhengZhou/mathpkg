@@ -1,0 +1,13 @@
+id: interval-exit-time
+title_en: "Exit Time from an Interval"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: random-walk
+difficulty: basic
+tags: [exit-time, hitting-time, interval, stopping-time]
+depends_on: {required: [], recommended: [stopping-time, random-walk], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "21", pages: "", role_in_book: "Defines T_N as the hitting time of the exterior of the interval [0,N]"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,77 @@
+Let $\rho^1: G \rightarrow \text{GL}(V_1)$ and $\rho^2: G \rightarrow \text{GL}(V_2)$ be two linear representations of $G$, and let $\chi_1$ and $\chi_2$ be their characters. Then:
+
+(i) The character $\chi$ of the direct sum representation $V_1 \oplus V_2$ is equal to $\chi_1 + \chi_2$.
+
+(ii) The character $\psi$ of the tensor product representation $V_1 \otimes V_2$ is equal to $\chi_1 \cdot \chi_2$.
+
+Let us be given $\rho^1$ and $\rho^2$ in matrix form: $R_s^1, R_s^2$. The representation $V_1 \oplus V_2$ is then given by
+
+$$R_s = \begin{pmatrix} R_s^1 & 0 \\ 0 & R_s^2 \end{pmatrix}$$
+
+whence $\text{Tr}(R_s) = \text
+
+Chapter 2: Character theory
+
+Let $s \in G$. A basis $(e_i)$ of $V$ can be chosen consisting of eigenvectors for $\rho_s$; this follows for example from the fact that $\rho_s$ can be represented by a unitary matrix, cf. 1.3. We have then $\rho_s e_i = \lambda_i e_i$ with $\lambda_i \in C$, and so
+
+$$\chi(s) = \sum \lambda_i, \quad \chi(s^2) = \sum \lambda_i^2.$$
+
+On the other hand, we have
+
+$$(\rho_s \otimes \rho_s)(e_i \cdot e_j + e_j \cdot e_i) = \lambda_i \lambda_j \cdot (e_i \cdot e_j + e_j \cdot e_i),$$
+
+$$(\rho_s \otimes \rho_s)(e_i \cdot e_j - e_j \cdot e_i) = \lambda_i \lambda_j \cdot (e_i \cdot e_j - e_j \cdot e_i),$$
+
+hence
+
+$$\chi_\sigma^2(s) = \sum_{i < j} \lambda_i \lambda_j = \sum \lambda_i^2 + \sum_{i < j} \lambda_i \lambda_j = \frac{1}{2} (\sum \lambda_i)^2 + \frac{1}{2} \sum \lambda_i^2$$
+
+$$\chi_\alpha^2(s) = \sum_{i < j} \lambda_i \lambda_j = \frac{1}{2} (\sum \lambda_i)^2 - \frac{1}{2} \sum \lambda_i^2.$$
+
+The proposition follows.
+
+(Observe the equality $\chi_\sigma^2 + \chi_\alpha^2 = \chi^2$, which reflects the fact that $V \otimes V$ is the direct sum of $\text{Sym}^2(V)$ and $\text{Alt}^2(V)$).
+
+Exercises
+
+2.1. Let $\chi$ and $\chi'$ be the characters of two representations. Prove the formulas:
+
+$$(\chi + \chi')_\sigma^2 = \chi_\sigma^2 + \chi'_\sigma^2 + \chi \chi',$$
+
+$$(\chi + \chi')_\alpha^2 =
+
+where $\rho'_1$ is the contragredient of $\rho_1$, cf. ex. 2.3.
+
+2.2 Schur's lemma; basic applications
+
+Proposition 4 (Schur's lemma). Let $\rho^1: \mathbf{G} \rightarrow \mathbf{GL}(\mathbf{V}_1)$ and $\rho^2: \mathbf{G} \rightarrow \mathbf{GL}(\mathbf{V}_2)$ be two irreducible representations of $\mathbf{G}$, and let $f$ be a linear mapping of $\mathbf{V}_1$ into $\mathbf{V}_2$ such that $\rho_s^2 \circ f = f \circ \rho_s^1$ for all $s \in \mathbf{G}$. Then:
+
+(1) If $\rho^1$ and $\rho^2$ are not isomorphic, we have $f = 0$.
+
+(2) If $\mathbf{V}_1 = \mathbf{V}_2$ and $\rho^1 = \rho^2$, $f$ is a homothety (i.e., a scalar multiple of the identity).
+
+The case $f = 0$ is trivial. Suppose now $f \neq 0$ and let $\mathbf{W}_1$ be its kernel (that is, the set of $x \in \mathbf{V}_1$ such that $fx = 0$). For $x \in \mathbf{W}_1$ we have $f\rho_s^1 x = \rho_s^2 fx = 0$, whence $\rho_s^1 \chi \in \mathbf{W}_1$, and $\mathbf{W}_1$ is stable under $\mathbf{G}$. Since $\mathbf{V}_1$ is irreducible, $\mathbf{W}_1$ is equal to $\mathbf{V}_1$ or 0; the first case is excluded, as it implies $f = 0$. The same argument shows that the image $\mathbf{W}_2$ of $f$ (the set of $fx$, for $x \in \mathbf{V}_1$) is equal to $\mathbf{V}_2$. The two properties $\mathbf{W}_1 = 0$ and $\mathbf{W}_2 = \mathbf{V}_2$ show that $f
+
+Chapter 2: Character theory
+
+$$\text{Tr}(h^0) = \frac{1}{g} \sum_{t \in G} \text{Tr}((\rho^1_t)^{-1} h \rho^1_t) = \text{Tr}(h),$$
+
+and since $\text{Tr}(\lambda) = n \cdot \lambda$, we get $\lambda = (1/n) \text{Tr}(h)$.
+
+Now we rewrite corollary 1 assuming that $\rho^1$ and $\rho^2$ are given in matrix form:
+
+$$\rho^1_t = (r_{i_1 j_1}(t)), \rho^2_t = (r_{i_2 j_2}(t)).$$
+
+The linear mapping $h$ is defined by a matrix $(x_{i_2 i_1})$ and likewise $h^0$ is defined by $(x_{i_2 i_1}^0)$. We have by definition of $h^0$:
+
+$$x_{i_2 i_1}^0 = \frac{1}{g} \sum_{t, j_1, j_2} r_{i_2 j_2}(t^{-1}) x_{j_2 j_1} r_{j_1 i_1}(t).$$
+
+The right hand side is a linear form with respect to $x_{j_2 j_1}$; in case (1) this form vanishes for all systems of values of the $x_{j_2 j_1}$; thus its coefficients are zero. Whence:
+
+**Corollary 2. In case (1), we have:**
+
+$$\frac{1}{g} \sum_{t \in G} r_{i_2 j_2}(t^{-1}) r_{j_1 i_1}(t) = 0$$
+
+for arbitrary $i_1, i_2, j_1, j_2$.
+
+In case (2) we have similarly $h^0 = \lambda$, i.e., $x_{i_2 i_1}^0 = \lambda \delta_{i_2 i_1}$ ($\delta_{i_2 i_1}$ denotes the Kronecker symbol, equal to 1 if $i_1 = i_2$ and 0 otherwise), with $\lambda =

@@ -1,0 +1,23 @@
+id: lie-algebra-with-generators-and-relations
+title_en: "Lie Algebra with Generators and Relations"
+title_zh: "由生成元和关系定义的李代数"
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [free-lie-algebra, generators, relations, quotient, presentation]
+depends_on:
+  required: [free-lie-algebra]
+  recommended: [lie-algebra, ideal]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "V"
+    section: "17"
+    pages: "102-114"
+    role_in_book: "Definition needed for Serre's presentation of semisimple Lie algebras in Chapter VI"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

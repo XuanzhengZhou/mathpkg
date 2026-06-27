@@ -1,0 +1,23 @@
+id: cross-section-prolongation-theorem
+title_en: "Prolongation Theorem for Cross Sections"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: fibre-bundles
+difficulty: advanced
+tags: [cross-section, prolongation, locally-trivial-bundle, CW-complex, homotopy-classification]
+depends_on:
+  required: [locally-trivial-bundle, cross-section, relative-CW-complex, n-connected-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "7"
+    section: "1"
+    pages: "page_0037.json–page_0039.json"
+    role_in_book: "Theorem 7.1: fundamental prolongation theorem for cross sections — the core step in the homotopy classification of fibre bundles over CW-complexes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

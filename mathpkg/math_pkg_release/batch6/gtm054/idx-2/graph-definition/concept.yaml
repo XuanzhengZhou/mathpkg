@@ -1,0 +1,13 @@
+id: graph-definition
+title_en: "Graph"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: basic
+tags: [graph, multigraph, set-system]
+depends_on: {required: [multigraph, set-system], recommended: [], suggested: []}
+source_books: [{book_id: "gtm054", author: "Jack E. Graver and Mark E. Watkins", title: "Combinatorics with Emphasis on the Theory of Graphs", chapter: "I", section: "2", pages: "28-40", role_in_book: "Defines graphs as set systems of blocksize 2; the central object of study"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

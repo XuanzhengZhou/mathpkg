@@ -1,0 +1,23 @@
+id: invariance-of-phi-under-gamma0
+title_en: "Invariance of the univalent function Φ(τ) under Γ₀(q)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [modular-function, gamma0-subgroup, univalent, eta-function, dedekind-sums, automorphy-factor]
+depends_on:
+  required: []
+  recommended: [univalent-function-phi, eta-function-transformation, dedekind-sum-reciprocity, gamma0-subgroup]
+  suggested: [theorem-4.7, theorem-3.11]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "4"
+    section: "4.9"
+    pages: ""
+    role_in_book: "Proves that Φ(τ) is automorphic under Γ₀(q) for q = 2,3,5,7,13, establishing it as a genuine modular function for these levels"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

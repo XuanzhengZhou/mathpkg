@@ -1,0 +1,23 @@
+id: greens-function-conformal-invariance
+title_en: "Green's Function Is a Conformal Invariant"
+title_zh: "格林函数是共形不变量"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [greens-function, conformal-invariance, conformal-mapping, harmonic-function]
+depends_on:
+  required: [greens-function, conformal-equivalence, harmonic-function]
+  recommended: [riemann-mapping-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "X"
+    section: "5"
+    pages: ""
+    role_in_book: "Shows that Green's Functions transform naturally under conformal mappings, establishing their conformal invariance"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

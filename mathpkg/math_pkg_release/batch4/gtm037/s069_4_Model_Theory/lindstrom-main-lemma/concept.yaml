@@ -1,0 +1,23 @@
+id: lindstrom-main-lemma
+title_en: "Lindström Main Lemma — Existence of L-Projective Class with Finite Unary Predicate"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [lindstrom-theorem, general-logic, L-projective, downward-lowenheim-skolem]
+depends_on:
+  required: [general-logic, L-elementary-class]
+  recommended: [compactness-theorem, downward-lowenheim-skolem-theorem]
+  suggested: [lindstrom-first-theorem]
+source_books:
+  - book_id: gtm037
+    author: "H.-D. Ebbinghaus, J. Flum, W. Thomas"
+    title: "Mathematical Logic"
+    chapter: "XII"
+    section: "4"
+    pages: ""
+    role_in_book: "Lemma 26.22 — the main technical lemma underlying Lindström's first theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

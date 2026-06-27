@@ -1,0 +1,23 @@
+id: category-with-generators-and-relations
+title_en: "Category presented by generators and relations"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [generators, relations, presentation, free-category, quotient-category]
+depends_on:
+  required: [free-category-generated-by-graph, quotient-category, congruence-on-category]
+  recommended: [category]
+  suggested: [monoid-presentation]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "II"
+    section: "8"
+    pages: ""
+    role_in_book: "Definition of a category given by generators (a graph) and relations (on arrows)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

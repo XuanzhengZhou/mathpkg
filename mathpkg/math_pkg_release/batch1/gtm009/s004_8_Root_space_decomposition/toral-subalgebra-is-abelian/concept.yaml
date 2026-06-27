@@ -1,0 +1,23 @@
+id: toral-subalgebra-is-abelian
+title_en: "Toral Subalgebra is Abelian"
+title_zh: "环面子代数是交换的"
+type: lemma
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [toral-subalgebra, semisimple, abelian, adjoint-representation]
+depends_on:
+  required: []
+  recommended: [semisimple-lie-algebra, adjoint-representation, jordan-decomposition]
+  suggested: [engels-theorem]
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "8"
+    section: "8.1 Maximal toral subalgebras and roots"
+    pages: ""
+    role_in_book: "First lemma in root space decomposition, roughly analogous to Engel's Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

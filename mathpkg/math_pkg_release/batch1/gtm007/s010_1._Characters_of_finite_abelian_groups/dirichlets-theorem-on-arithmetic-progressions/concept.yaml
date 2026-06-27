@@ -1,0 +1,23 @@
+id: dirichlets-theorem-on-arithmetic-progressions
+title_en: "Dirichlet's Theorem on Arithmetic Progressions"
+title_zh: "狄利克雷算术级数定理"
+type: theorem
+domain: number-theory
+subdomain: analytic-number-theory
+difficulty: advanced
+tags: [prime-numbers, dirichlet-characters, l-functions, arithmetic-progressions]
+depends_on:
+  required: []
+  recommended: [character-of-finite-abelian-group, character-modulo-m, l-function]
+  suggested: [orthogonality-of-characters-sum, euler-product]
+source_books:
+  - book_id: gtm007
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VI"
+    section: "Introduction"
+    pages: ""
+    role_in_book: "Main theorem of Chapter VI, the culmination of the entire chapter"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

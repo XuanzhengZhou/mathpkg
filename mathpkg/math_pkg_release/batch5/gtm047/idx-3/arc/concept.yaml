@@ -1,0 +1,23 @@
+id: arc
+title_en: "Arc"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: polyhedra
+difficulty: basic
+tags: [arc, 1-cell, homeomorphism, interval]
+depends_on:
+  required: [homeomorphism, closed-interval-is-connected]
+  recommended: []
+  suggested: [broken-line, path]
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "1"
+    section: "Connectivity"
+    pages: ""
+    role_in_book: "Basic definition for polyhedral topology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

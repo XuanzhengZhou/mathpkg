@@ -1,0 +1,37 @@
+Let $g$ be an extended real-valued, $\mathcal{A}$-measurable function on $X$. For each real number $\alpha$, let $G_\alpha = \{x \in X : g(x) \geq \alpha\}$ and $L_\alpha = \{x \in X : g(x) \leq \alpha\}$. The function $g$ is a derivative of $\eta$ with respect to $\mu$ if and only if the following conditions obtain:
+
+(i) for every real number $\alpha$ and every $A \in \mathcal{A}$, we have
+
+$$
+
+or
+
+(b) there exist real numbers $\alpha$ and $\beta$ and a set $F \in \mathcal{A}$ such that $0 < \mu(F) < \infty$, $|\eta_s|(F) = 0$, and $g(x) \leq \alpha < \beta \leq f(x)$ for all $x \in F$.
+
+Assume that (a) holds. By (i) we have
+
+$$\eta(F) = \eta(G_\beta \cap F) \geq \beta \mu(G_\beta \cap F) = \beta \mu(F).$$
+
+(2)
+
+We also have
+
+$$\eta(F) = \eta_a(F) = \int_F f d\mu \leq \alpha \mu(F).$$
+
+(3)
+
+An obvious contradiction ensues from (2) and (3), and so (a) must fail. Likewise (b) fails. Thus $g = f \mu$-a.e., and so (20.53.i) holds for $g$.
+
+Now make the following definitions: $L = \{x \in X : g(x) = -\infty\}$; $G = \{x \in X : g(x) = \infty\}$; $B_0 = B \cap (L \cup G)$; and $P_0 = B \cap G$. We wish to show that (20.53.ii)–(20.53.iv) hold for $B_0$, $P_0$, and $g$. Since $B_0 \subset B$, it is obvious that $\mu(B_0) = 0$. It is also obvious that (20.53.iv) holds. Thus it suffices to show that $|\eta_s|(B_0') = 0$ and that $(P_0', P_0')$ is a Hahn decomposition for $\eta_s$.
+
+Since $\mu(B) = 0$ and $\eta_a \ll \mu$, we have $|\eta_a|(B) = 0$. Thus condition (ii) implies that for all $A \in \mathcal{A}$ and $\alpha \in R$, we have
+
+$$\eta_s(L_\alpha \cap A \cap B) = \eta(L_\alpha \cap A \cap B) \leq \
+
+and since $|\eta_s|(B') = 0$ and $|\eta_s|(B \cap L' \cap G') = 0$, we see that $P_0'$ is a nonpositive set for $\eta_s$. This completes our verification that $g$ is a derivative of $\eta$ with respect to $\mu$ if (i) and (ii) hold.
+
+(20.55) More discussion. The following notation and hypotheses are fixed throughout (20.55)–(20.60). Let $X$ be a set and $M$ a $\sigma$-algebra of subsets of $X$. Let $\mu$ be a measure on $M$ and $\eta$ a signed measure on $M$. Let $(M_n)_{n=1}^{\infty}$ be a sequence of $\sigma$-algebras of subsets of $X$ such that $\bigcup_{k=1}^{\infty} M_n \subset M$. We suppose that $\mu$ and $|\eta|$ are $\sigma$-finite on each of the $\sigma$-algebra $M_n$.
+
+For each $n \in N$, consider the measure spaces $(X, M_n, \mu)$ and $(X, M_n, \eta)$; that is, we restrict the domains of $\mu$ and $\eta$ to $M_n$. We write $\mu_n$ for $\mu$ on $M_n$ and $\eta_n$ for $\eta$ on $M_n$. Let $f_n$ be a derivative of $\eta_n$ with respect to $\mu_n$.
+
+We are concerned with pointwise limits of the sequence of functions $(f_n)$ under two hypotheses concerning $(M_n)$. Our first theorem is the following.

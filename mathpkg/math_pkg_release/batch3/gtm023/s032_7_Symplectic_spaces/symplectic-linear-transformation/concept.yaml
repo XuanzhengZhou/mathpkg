@@ -1,0 +1,23 @@
+id: symplectic-linear-transformation
+title_en: "Symplectic Linear Transformation"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [symplectic, linear-transformation, symplectomorphism, symplectic-group]
+depends_on:
+  required: [symplectic-inner-product]
+  recommended: [symplectic-basis]
+  suggested: [symplectic-group, hamiltonian-vector-field]
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "7"
+    pages: "347-352"
+    role_in_book: "Defines the morphisms in the category of symplectic vector spaces, i.e., linear maps preserving the symplectic structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

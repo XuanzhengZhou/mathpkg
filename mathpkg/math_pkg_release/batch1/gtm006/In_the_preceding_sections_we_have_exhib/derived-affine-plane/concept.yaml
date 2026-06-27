@@ -1,0 +1,23 @@
+id: derived-affine-plane
+title_en: "Derived Affine Plane"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [derivation, affine-plane, baer-subplane, finite-geometry]
+depends_on:
+  required: [derivation-set]
+  recommended: [affine-plane, baer-subplane]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "X"
+    section: "2. The Basic Results and Definitions"
+    pages: ""
+    role_in_book: "Definition of the derived affine plane D_g'(A) from a derivation set S"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

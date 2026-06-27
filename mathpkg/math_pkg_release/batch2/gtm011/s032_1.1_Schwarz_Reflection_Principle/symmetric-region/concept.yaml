@@ -1,0 +1,23 @@
+id: symmetric-region
+title_en: "Symmetric Region with Respect to the Real Axis"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [region, complex-conjugate, symmetry, real-axis, analytic-continuation]
+depends_on:
+  required: []
+  recommended: [region, analytic-function, complex-conjugate]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "9"
+    section: "9.1"
+    pages: ""
+    role_in_book: "Sets up the domain geometry for the Schwarz Reflection Principle: defines the condition G = G^* (symmetry under complex conjugation) and the decomposition into upper half-plane, lower half-plane, and real axis parts."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

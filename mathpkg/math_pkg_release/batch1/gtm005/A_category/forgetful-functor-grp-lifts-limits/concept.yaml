@@ -1,0 +1,23 @@
+id: forgetful-functor-grp-lifts-limits
+title_en: "Forgetful Functor from Groups Lifts Limits"
+title_zh: "从群范畴的遗忘函子提升极限"
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [category-theory, limits, forgetful-functor, groups, concrete-category]
+depends_on:
+  required: [category, functor, limit-of-diagram, forgetful-functor, group]
+  recommended: [completeness-of-set]
+  suggested: [creates-limits]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "1. Creation of Limits"
+    pages: ""
+    role_in_book: "Theorem 2 — establishes that limits in Grp are constructed on the underlying set limit"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: perfect-fluid-stress-energy-tensor-decomposition
+title_en: "Perfect Fluid Stress-Energy Tensor Decomposition"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: general-relativity
+difficulty: intermediate
+tags: [stress-energy-tensor, perfect-fluid, isotropy, reference-frame, energy-density, pressure, rest-mass]
+depends_on:
+  required: [spatially-isotropic-stress-energy-tensor]
+  recommended: [quasi-gas, instantaneous-observer, projection-tensor]
+  suggested: [stress-energy-tensor]
+source_books:
+  - book_id: gtm048
+    author: "Sachs, R. and Wu, H."
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.15"
+    pages: ""
+    role_in_book: "Proposition 3.15.1 — Characterizes the stress-energy tensor of a quasi-gas with everywhere spatially isotropic stress-energy"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

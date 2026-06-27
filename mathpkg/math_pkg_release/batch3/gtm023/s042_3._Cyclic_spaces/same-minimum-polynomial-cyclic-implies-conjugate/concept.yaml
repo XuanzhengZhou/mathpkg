@@ -1,0 +1,23 @@
+id: same-minimum-polynomial-cyclic-implies-conjugate
+title_en: "Cyclic Spaces with Same Minimum Polynomial Are Conjugate"
+title_zh: "具有相同最小多项式的循环空间共轭"
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [conjugate-linear-transformations, cyclic-space, minimum-polynomial]
+  recommended: [cyclic-generator-basis, companion-matrix]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "If E and F are cyclic with the same minimum polynomial, the transformations are conjugate"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

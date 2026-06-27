@@ -1,0 +1,13 @@
+Let $T: P \times C^{\mathrm{op}} \times C \rightarrow X$ be a functor such that for each object $p \in P$, the functor $T(p, -, -): C^{\mathrm{op}} \times C \rightarrow X$ has an end
+\[
+\omega_p: \int_c T(p, c, c) \rightarrow T(p, -, -)
+\]
+in $X$. Then there exists a unique functor $U: P \rightarrow X$ whose object function is
+\[
+U(p) = \int_c T(p, c, c)
+\]
+and whose arrow function, for each $h: p \rightarrow p'$ in $P$, is given by
+\[
+U(h) = \int_c T(h, c, c): \int_c T(p, c, c) \rightarrow \int_c T(p', c, c),
+\]
+where $T(h, c, c) = T(h, 1_c, 1_c)$ is the component of the natural transformation $T(-, c, c): P \rightarrow X$ at $h$.

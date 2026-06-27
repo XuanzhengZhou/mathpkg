@@ -1,0 +1,23 @@
+id: initial-object-via-limit-of-identity
+title_en: "Initial Object as Limit of the Identity Functor"
+title_zh: ""
+type: lemma
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [initial-object, limits, identity-functor, adjoint-functors]
+depends_on:
+  required: []
+  recommended: [limit-of-functor, initial-object, comma-category]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "X"
+    section: "1. Adjoints and Limits"
+    pages: ""
+    role_in_book: "Reduces initial objects to limits, used in formal criterion for adjoints"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

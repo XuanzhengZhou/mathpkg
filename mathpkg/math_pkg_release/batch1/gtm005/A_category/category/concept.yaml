@@ -1,0 +1,23 @@
+id: category
+title_en: "Category"
+title_zh: "范畴"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category, graph, composition, identity, associativity]
+depends_on:
+  required: []
+  recommended: [directed-graph, set-theory]
+  suggested: [metacategory]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "2"
+    pages: ""
+    role_in_book: "Core definition of the entire book"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

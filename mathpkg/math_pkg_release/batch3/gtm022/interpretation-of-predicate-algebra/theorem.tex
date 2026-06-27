@@ -1,0 +1,4 @@
+An interpretation of $P(V, \mathcal{R})$ consists of a non-empty set $U$ (the universe), a function $\varphi: V \rightarrow U$, a map $\psi: \mathcal{R} \rightarrow \operatorname{rel}(U)$ assigning to each relation symbol $r \in \mathcal{R}_n$ an $n$-ary relation $\psi r \subseteq U^n$, and a valuation $v: P(V, \mathcal{R}) \rightarrow \mathbb{Z}_2$ satisfying:
+(a) $v(r(x_1, \ldots, x_n)) = 1$ iff $(\varphi x_1, \ldots, \varphi x_n) \in \psi r$,
+(b) $v$ is an $\{F, \Rightarrow\}$-algebra homomorphism,
+(c) For $p = (\forall x)q(x)$: $v(p) = 1$ iff for every extension with a new variable $t$, $v'_{k-1}(q(t)) = 1$.

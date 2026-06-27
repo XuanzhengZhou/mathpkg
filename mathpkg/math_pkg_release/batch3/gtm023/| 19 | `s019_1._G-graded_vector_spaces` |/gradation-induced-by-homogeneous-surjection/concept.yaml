@@ -1,0 +1,23 @@
+id: gradation-induced-by-homogeneous-surjection
+title_en: "Gradation induced on the image of a homogeneous surjection"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [homogeneous-mapping, surjection, induced-gradation, factor-space]
+depends_on:
+  required: [homogeneous-linear-mapping, g-graded-subspace]
+  recommended: [kernel-of-homogeneous-mapping-is-graded-subspace]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "VI"
+    section: "§1. G-graded vector spaces"
+    pages: "183-184"
+    role_in_book: "Proposition; fundamental for constructing graded quotients"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

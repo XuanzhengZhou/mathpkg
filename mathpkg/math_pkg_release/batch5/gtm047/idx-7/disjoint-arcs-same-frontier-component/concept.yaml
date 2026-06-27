@@ -1,0 +1,29 @@
+id: disjoint-arcs-same-frontier-component
+title_en: "Two Disjoint Arcs in a 2-Cell with Endpoints on the Frontier Lie in the Frontier of the Same Component"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: planar-topology
+difficulty: advanced
+tags:
+  - disjoint-arcs
+  - frontier
+  - 2-cell
+  - separation
+  - brick-decomposition
+depends_on:
+  required: []
+  recommended: []
+  suggested:
+    - theorem-topological-1-sphere-separates-plane
+source_books:
+  - book_id: "gtm047"
+    author: "E.E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "4"
+    section: "4"
+    pages: "42-45"
+    role_in_book: "Structural theorem about the placement of disjoint arcs ending on the frontier of a 2-cell, used in the theory of 2-manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

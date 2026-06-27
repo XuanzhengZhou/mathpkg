@@ -1,0 +1,23 @@
+id: nondegenerate-critical-point
+title_en: "Nondegenerate Critical Point"
+title_zh: "非退化临界点"
+type: definition
+domain: geometry
+subdomain: differential-topology
+difficulty: intermediate
+tags: [critical-point, hessian, morse-theory, nondegenerate]
+depends_on:
+  required: []
+  recommended: [critical-point, hessian-matrix]
+  suggested: [morse-lemma]
+source_books:
+  - book_id: gtm014
+    author: "Golubitsky, M.; Guillemin, V."
+    title: "Stable Mappings and Their Singularities"
+    chapter: "6"
+    section: "6. Morse Theory"
+    pages: "75"
+    role_in_book: "Fundamental definition for Morse theory: classifies critical points by the Hessian"
+content_hash: "def-nondegenerate-cp-gtm014"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

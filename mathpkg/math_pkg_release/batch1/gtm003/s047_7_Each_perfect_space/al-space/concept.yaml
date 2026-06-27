@@ -1,0 +1,23 @@
+id: al-space
+title_en: "(AL)-Space (Abstract L-Space)"
+title_zh: "抽象L空间"
+type: definition
+domain: analysis
+subdomain: banach-lattices
+difficulty: advanced
+tags: [banach-lattice, l1-space, kakutani, norm-additivity, positive-cone]
+depends_on:
+  required: []
+  recommended: [banach-lattice, positive-cone, l1-space]
+  suggested: [am-space]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "V: Order Structures"
+    section: "8. Stone-Weierstrass and Representation Theorems"
+    pages: ""
+    role_in_book: "defines Banach lattices with additive norm on the positive cone"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

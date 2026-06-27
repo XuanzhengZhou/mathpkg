@@ -1,0 +1,23 @@
+id: quadratic-transformation-via-blowing-up
+title_en: "Quadratic Transformation as Blowing Up and Down"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [quadratic-transformation, blowing-up, blowing-down, projective-plane, exceptional-curve]
+depends_on:
+  required: [blowing-up, monoidal-transformation]
+  recommended: [projective-plane, strict-transform]
+  suggested: [cremona-transformation]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "4"
+    pages: "409-420"
+    role_in_book: "Shows the quadratic transformation of P^2 is blowing up 3 points then blowing down the strict transforms of the lines joining them"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

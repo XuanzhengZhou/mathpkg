@@ -1,0 +1,30 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+For any non-negative function $f$ defined on $X$, there exists a sequence of non-negative simple functions $\{s_n\}$ with the property that for each $x \in X$, $\{s_n(x)\}$ is a monotonically increasing sequence converging to $f(x)$. If $f$ is measurable, the $\{s_n\}$ may be taken to be measurable.
+
+Proof
+
+increases monotonically with $n$ to $f$. If $f$ is measurable, then so are $\{A_{nj}\}$ and $B_n$; thus $s_n$ is measurable.
+
+If $\mu$ is a measure defined on a Borel field $\mathcal{B}$ of subsets of $X$, we denote the measure space by the ordered triple $(X, \mathcal{B}, \mu)$. In $(X, \mathcal{B}, \mu)$ let $E$ be a set of the family $\mathcal{B}$, and suppose $s$ is a non-negative, measurable simple function, represented as in (*) above. Since $s$ is measurable, $A_n$ is measurable and $\mu(A_n \cap E)$ is defined for every $n$. Set
+
+$$I_E(s) = \sum_{n=1}^{N} c_n \mu(A_n \cap E).$$
+
+For any non-negative measurable function $f$, define the Lebesgue integral of $f$ on the set $E$ with respect to the measure $\mu$ by
+
+$$\int_E f d\mu = \sup I_E(s),$$
+
+where the supremum is taken over all simple functions $s$ satisfying $0 \leq s \leq f$. We note that the value of the integral is non-negative and possibly infinite. It can be verified that if $s$ is a non-negative measurable simple function, then
+
+$$\int_E s d\mu = I_E(s).$$
+
+If $f$ is an arbitrary measurable function, then by Proposition 1-33, $\int_E f^+ d\mu$ and $\int_E f^- d\mu$ are both defined. If the integrals of $f^+$ and $f^-$ are not both infinite, we define the integral of $f$ by $\int_E f d\mu = \int_E f^+ d\mu - \int_E f^- d\mu$. The function $f$ is said to be integrable on the set $E$ if $\int_E f^+ d\mu$ and $\int_E f^- d\mu$ are both finite.
+
+Following our examples of measure spaces and measurable functions, we give three examples of integration. A fourth example will arise in Chapter
+
+(3) Let $X$ be the denumerable set of points described in Example 4 of measure spaces, and let $\pi$ be a non-negative row vector defined on $X$. Then $\pi$ defines a measure on $X$. If $f$ is an arbitrary column vector defined on $X$, then $f$ is a function on the points of $X$. Furthermore, $f$ is measurable since all subsets of $X$ are measurable sets. The reader should verify that the integral of $f$ over the whole space $X$ with respect to the measure $\pi$ is the matrix product $\pi f$ and that the condition for the integral to be defined is precisely the condition for the matrix product to be well defined. Because of this application of Lebesgue integration, we often speak of column vectors as functions and non-negative row vectors as measures. We shall return to this example in Section 5 of this chapter. The proof of the next proposition is left to the reader.

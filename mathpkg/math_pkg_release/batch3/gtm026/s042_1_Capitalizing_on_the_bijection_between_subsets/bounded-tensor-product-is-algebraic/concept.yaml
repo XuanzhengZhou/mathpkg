@@ -1,0 +1,23 @@
+id: bounded-tensor-product-is-algebraic
+title_en: "Bounded Tensor Product is Algebraic"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: algebraic-theories
+difficulty: advanced
+tags: [algebraic-theory, bounded-theory, tensor-product, algebraic-functor, beck-functor]
+depends_on:
+  required: []
+  recommended: [algebraic-theory, bounded-algebraic-theory, tensor-product-of-theories, birkhoff-subcategory-closure-of-tensor-product]
+  suggested: [beck-tripleability-theorem]
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "6"
+    section: "1"
+    pages: ""
+    role_in_book: "Theorem 6.10: the main theorem establishing that the tensor product of bounded algebraic theories yields an algebraic functor"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

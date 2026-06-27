@@ -1,0 +1,23 @@
+id: normalized-bundle-invariant
+title_en: "Normalized Bundle and Invariant e of a Ruled Surface"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-surfaces
+difficulty: advanced
+tags: [ruled-surface, normalized-bundle, invariant, locally-free-sheaf, classification]
+depends_on:
+  required: [ruled-surface-is-projective-bundle]
+  recommended: [projective-bundle, degree-of-locally-free-sheaf]
+  suggested: [grothendieck-classification]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "2"
+    pages: "372"
+    role_in_book: "Introduces the invariant e = -deg E that classifies ruled surfaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,10 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+The symmetric random walk is recurrent in dimensions one and two and is transient in all dimensions greater than or equal to three.
+
+In the transient case of dimension $n \geq 3$, the $j$th entry in the 0th column of the $N$-matrix is of the order of a constant times $|j|^{-(n-2)}$. We conclude this chapter by proving the weaker result that the entries of that column tend to zero, but our proof will be for a more general situation.

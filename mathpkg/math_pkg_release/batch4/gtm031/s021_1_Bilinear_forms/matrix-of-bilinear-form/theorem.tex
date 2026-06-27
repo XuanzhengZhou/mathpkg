@@ -1,0 +1,9 @@
+Let $(e_1, e_2, \dots, e_n)$ be a basis for $\mathfrak{R}$ and $(f_1', f_2', \dots, f_{n'}')$ be a basis for $\mathfrak{R}'$. Write $x = \sum_{i=1}^{n} \xi_i e_i$ and $y' = \sum_{j=1}^{n'} f_j' \eta_j$. Then
+
+$$g(x, y') = g\!\left(\sum_i \xi_i e_i, \sum_j f_j' \eta_j\right) = \sum_{i=1}^{n} \sum_{j=1}^{n'} \xi_i \, g(e_i, f_j') \, \eta_j.$$
+
+The $n \times n'$ matrix $(\beta_{ij})$ with entries $\beta_{ij} = g(e_i, f_j')$ in $\Delta$ is called the \textbf{matrix of the bilinear form} $g$ relative to the given bases. Conversely, given any $n \times n'$ matrix $(\beta_{ij})$ with entries in $\Delta$, the function
+
+$$g(x, y') = \sum_{i=1}^{n} \sum_{j=1}^{n'} \xi_i \beta_{ij} \eta_j$$
+
+defines a bilinear form whose matrix relative to the given bases is $(\beta_{ij})$.

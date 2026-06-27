@@ -1,0 +1,13 @@
+For each object $b \in C$, the \text{contravariant hom-functor} is written covariantly as
+
+$$
+C(-, b) = \hom(-, b): C^{\text{op}} \to \mathbf{Set}.
+$$
+
+Its object function sends each object $a$ to the set $\hom(a, b)$. Its arrow function sends each arrow $g: a \to a'$ (i.e., each arrow $g^{\text{op}}: a' \to a$ in $C^{\text{op}}$) to the function
+
+$$
+\hom(g, b): \hom(a', b) \to \hom(a, b)
+$$
+
+defined by the assignment $f \mapsto f \circ g$ for each $f: a' \to b$.

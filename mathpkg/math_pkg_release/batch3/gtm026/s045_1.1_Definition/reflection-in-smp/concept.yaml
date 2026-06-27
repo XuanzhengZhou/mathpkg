@@ -1,0 +1,23 @@
+id: reflection-in-smp
+title_en: "Lambda as reflection of (1T,1-mu) in SMP(X,xi)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: universal-algebra
+difficulty: advanced
+tags: [algebraic-theory, enveloping-monoid, reflection, smp, birkhoff-subcategory]
+depends_on:
+  required: [enveloping-monoid]
+  recommended: [smp-subcategory, reflection, birkhoff-subcategory]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "4"
+    section: "1"
+    pages: ""
+    role_in_book: "Theorem 1.6; characterizes the canonical map from the free algebra on one generator to the enveloping monoid as a reflection"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: non-vanishing-first-fourier-coefficient-simultaneous-eigenform
+title_en: "Non-vanishing of first Fourier coefficient for simultaneous eigenforms"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [hecke-operator, simultaneous-eigenform, fourier-coefficient, modular-form]
+depends_on:
+  required: [simultaneous-eigenform, hecke-operator]
+  recommended: [modular-form, fourier-expansion]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.12"
+    pages: ""
+    role_in_book: "Theorem 6.14 — proves the first Fourier coefficient c(1) of a simultaneous eigenform is necessarily nonzero"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

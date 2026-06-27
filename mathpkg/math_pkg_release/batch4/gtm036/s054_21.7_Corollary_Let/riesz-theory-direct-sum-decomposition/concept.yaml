@@ -1,0 +1,32 @@
+id: riesz-theory-direct-sum-decomposition
+title_en: "Riesz Theory Direct Sum Decomposition"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags:
+  - riesz-theory
+  - completely-continuous
+  - direct-sum-decomposition
+  - nullspace
+  - range
+  - compact-operator
+depends_on:
+  required: []
+  recommended:
+    - completely-continuous-linear-mapping
+    - riesz-theory-nullspace-sequence-stabilizes
+    - riesz-theory-range-sequence-stabilizes
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "21"
+    section: "21.7"
+    pages: ""
+    role_in_book: "Part (d) of the Riesz theory outline: the stabilization indices for nullspaces and ranges coincide, and the space decomposes into the direct sum of the terminal nullspace and terminal range"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

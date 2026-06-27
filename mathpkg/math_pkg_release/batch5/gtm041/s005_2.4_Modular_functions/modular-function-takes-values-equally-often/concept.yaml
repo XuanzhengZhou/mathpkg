@@ -1,0 +1,23 @@
+id: modular-function-takes-values-equally-often
+title_en: "Modular Function Takes Every Value Equally Often"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [modular-function, zeros, poles, fundamental-region, value-distribution]
+depends_on:
+  required: [modular-function, zeros-equal-poles-modular-function]
+  recommended: [fundamental-region, meromorphic-function]
+  suggested: [liouvilles-theorem]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "2"
+    section: "2.4"
+    pages: ""
+    role_in_book: "Theorem 2.5 — value distribution of modular functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

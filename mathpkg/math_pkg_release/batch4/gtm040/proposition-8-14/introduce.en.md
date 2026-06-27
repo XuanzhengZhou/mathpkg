@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $g > 0$ be a pure potential with support in $E$, and let $P^*$ be the $h$-process for $h = g$. Then $g^* = 1$ is a potential, $\bar{P}^*$ is absorbing, and $(B^E)^*1 = 1$.

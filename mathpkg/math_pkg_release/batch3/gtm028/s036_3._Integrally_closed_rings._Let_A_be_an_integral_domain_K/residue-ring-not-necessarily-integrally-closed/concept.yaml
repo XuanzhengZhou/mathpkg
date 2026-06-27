@@ -1,0 +1,23 @@
+id: residue-ring-not-necessarily-integrally-closed
+title_en: "The residue class ring of an integrally closed domain need not be integrally closed"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [integrally-closed, residue-ring, quotient-ring, counterexample, finite-integral-domain]
+depends_on:
+  required: []
+  recommended: [integrally-closed-domain, ufd-is-integrally-closed, finite-integral-domain]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Volume I"
+    chapter: "V"
+    section: "3. Integrally closed rings"
+    pages: ""
+    role_in_book: "Example 3: counterexample showing integral closure is not preserved under taking residue class rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

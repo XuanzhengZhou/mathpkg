@@ -1,0 +1,23 @@
+id: long-exact-sequence-of-ext
+title_en: "Long Exact Sequence of Ext"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [ext-groups, long-exact-sequence, sheaf-cohomology, derived-functors, short-exact-sequence]
+depends_on:
+  required: []
+  recommended: [definition-of-ext-groups, derived-functors]
+  suggested: [long-exact-sequence-of-cohomology, delta-functors]
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "6"
+    pages: "250-252"
+    role_in_book: "Proposition 6.4: short exact sequence in the first argument of Hom yields a long exact sequence of Ext groups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

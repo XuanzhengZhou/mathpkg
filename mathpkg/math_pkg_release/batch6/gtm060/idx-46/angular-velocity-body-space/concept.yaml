@@ -1,0 +1,13 @@
+id: angular-velocity-body-space
+title_en: "Angular Velocity in the Body and in Space"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: lie-groups
+difficulty: intermediate
+tags: [angular-velocity, lie-group, rigid-body, left-translation, right-translation]
+depends_on: {required:[left-invariant-riemannian-metric], recommended:[adjoint-representation], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V. I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"Appendix 2",section:"C",pages:"318-342",role_in_book:"Define angular velocity in body (ω_c) and in space (ω_s) via left/right translation"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: cohn-vossen-open-surface-theorem
+title_en: "Cohn-Vossen Open Surface Theorem"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: global-differential-geometry
+difficulty: advanced
+tags: [open-surface, gauss-curvature, positive-curvature, complete-surface, geodesics, cohn-vossen]
+depends_on:
+  required: [complete-surface, gauss-curvature-and-mean-curvature, geodesic, closed-geodesics-fundamental-group]
+  recommended: [gauss-bonnet-theorem, exponential-map, cut-locus]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.8"
+    pages: "175-176"
+    role_in_book: "Major global theorem on complete open surfaces with positive curvature, summarizing Cohn-Vossen's results."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

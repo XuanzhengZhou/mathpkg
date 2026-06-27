@@ -1,0 +1,1 @@
+A complex ringed space is a topological space equipped with a sheaf of local $\mathbb{C}$-algebras. It is the most general setting for doing complex analytic geometry, with complex manifolds being special cases.

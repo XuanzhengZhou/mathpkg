@@ -1,0 +1,23 @@
+id: flabby-sheaf-surjectivity
+title_en: "Flabby Sheaf Surjectivity"
+title_zh: "松层满射性定理"
+type: theorem
+domain: topology
+subdomain: sheaf-cohomology
+difficulty: intermediate
+tags: ["flabby sheaf", "sheaf cohomology", "exact sequence", "global sections"]
+depends_on:
+  required: []
+  recommended: ["flabby-sheaf", "exact-sequence-of-sheaves", "global-sections-functor"]
+  suggested: ["injective-sheaf", "soft-sheaf"]
+source_books:
+  - book_id: "gtm038"
+    author: "Raghavan Narasimhan"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Fundamental property of flabby sheaves used throughout cohomology theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

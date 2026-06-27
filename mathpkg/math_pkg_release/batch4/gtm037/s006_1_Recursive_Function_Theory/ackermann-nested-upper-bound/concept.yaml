@@ -1,0 +1,23 @@
+id: ackermann-nested-upper-bound
+title_en: "Ackermann Nested Upper Bound"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: recursive-function-theory
+difficulty: intermediate
+tags: [ackermann-function, upper-bound, elementary-functions, induction]
+depends_on:
+  required: []
+  recommended: [ackermann-function]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "2"
+    section: "2.6"
+    pages: ""
+    role_in_book: "Establishes an upper bound for the nested Ackermann function, used to bound the growth of elementary functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

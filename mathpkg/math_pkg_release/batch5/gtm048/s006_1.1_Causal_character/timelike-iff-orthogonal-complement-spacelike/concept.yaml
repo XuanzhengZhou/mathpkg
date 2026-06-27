@@ -1,0 +1,23 @@
+id: timelike-iff-orthogonal-complement-spacelike
+title_en: "A Vector is Timelike iff its Orthogonal Complement is Spacelike"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: basic
+tags: [causal-structure, timelike, spacelike, orthogonal-complement]
+depends_on:
+  required: [causal-character-of-subspace, causal-character-via-orthogonal-complement]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "R.K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "1"
+    section: "1.1"
+    pages: ""
+    role_in_book: "Direct corollary of Lemma 1.1.3 for 1-dimensional subspaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

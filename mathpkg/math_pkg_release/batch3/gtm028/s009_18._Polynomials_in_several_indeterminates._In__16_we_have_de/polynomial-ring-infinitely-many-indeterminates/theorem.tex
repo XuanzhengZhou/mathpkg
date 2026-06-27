@@ -1,0 +1,7 @@
+Let $E$ be a set (possibly infinite), and let $I_E$ be the collection of all systems $(i) = (i_\alpha)_{\alpha \in E}$ where each $i_\alpha$ is a non-negative integer and $i_\alpha = 0$ for all but a finite number of $\alpha \in E$. For $(i), (j) \in I_E$, define $(i) + (j) = (i_\alpha + j_\alpha)_{\alpha \in E}$.
+
+Let $R$ be a ring with identity, and let $S$ be the set of all mappings $f: I_E \to R$ such that $(i)f = 0$ for all but a finite number of $(i) \in I_E$. Define addition pointwise and multiplication by
+$$(i)(f \cdot g) = \sum_{(j)+(k)=(i)} (j)f \cdot (k)g.$$
+Then $S$ is called a **polynomial ring** over $R$ with indeterminates indexed by $E$.
+
+For each $\alpha \in E$, the indeterminate $X_\alpha$ is defined as the mapping assigning $1_R$ to the element $(j^\alpha) \in I_E$ (having $1$ at coordinate $\alpha$ and $0$ elsewhere) and $0$ to all other elements of $I_E$. For a finite subset $\{\beta_1, \dots, \beta_n\} \subseteq E$, the subring $R[X_{\beta_1}, \dots, X_{\beta_n}]$ is isomorphic to the ordinary polynomial ring in $n$ variables.

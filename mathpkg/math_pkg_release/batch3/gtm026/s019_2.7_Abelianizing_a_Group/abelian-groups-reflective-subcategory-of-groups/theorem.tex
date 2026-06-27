@@ -1,0 +1,11 @@
+The category of abelian groups (with group homomorphisms) is a full reflective subcategory of the category of groups (with group homomorphisms). For any group $G$, let $N$ be the commutator subgroup of $G$ and let $\eta : G \longrightarrow G/N$ be the canonical projection. Then $\eta$ is the reflection map: for every homomorphism $f : G \longrightarrow A$ with $A$ abelian, there exists a unique homomorphism $f^{\#} : G/N \longrightarrow A$ defined by $(aN)f^{\#} = af$ such that the diagram
+
+\[
+\begin{CD}
+G @>{\eta}>> G/N \\
+@| @VV{f^{\#}}V \\
+G @>{f}>> A
+\end{CD}
+\]
+
+commutes (i.e., $\eta \cdot f^{\#} = f$). The map $f^{\#}$ is well-defined because the kernel of $f$ is a normal subgroup containing the set of commutators $C = \{ab(ba)^{-1} : a, b \in G\}$ (since $A$ is abelian), hence $\ker f$ contains $N$.

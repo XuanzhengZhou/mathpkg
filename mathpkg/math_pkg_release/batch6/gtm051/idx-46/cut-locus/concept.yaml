@@ -1,0 +1,23 @@
+id: cut-locus
+title_en: "Cut Locus"
+title_zh: "割迹"
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [cut-locus, riemannian-metric, geodesic, compact-surface, exponential-map]
+depends_on:
+  required: [geodesic, exponential-map, riemannian-metric, compact-surface]
+  recommended: [length-measuring-geodesic, distance-function]
+  suggested: [tangent-bundle, unit-tangent-bundle]
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.8"
+    pages: "174-188"
+    role_in_book: "primary_text"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

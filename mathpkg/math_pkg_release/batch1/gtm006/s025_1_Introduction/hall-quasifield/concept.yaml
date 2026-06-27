@@ -1,0 +1,23 @@
+id: hall-quasifield
+title_en: "Hall Quasifield"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-planes
+difficulty: advanced
+tags: [quasifield, translation-plane, non-desarguesian, hall-plane]
+depends_on:
+  required: []
+  recommended: [quasifield, planar-ternary-ring, translation-plane]
+  suggested: [kernel-of-quasifield, weak-quasifield]
+source_books:
+  - book_id: "gtm006"
+    author: "Hughes, D.R. and Piper, F.C."
+    title: "Projective Planes"
+    chapter: "IX"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition of Hall quasifield as the fundamental construction for Hall planes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: poisson-structure-from-period-mapping
+title_en: "Poisson Structure Arising from Period Mappings via Intersection Form"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: poisson-geometry
+difficulty: advanced
+tags: [poisson-structure, period-mapping, intersection-form, symplectic, homology]
+depends_on:
+  required: [nondegenerate-period-mapping, poisson-manifold]
+  recommended: [symplectic-structure-on-poisson-leaves]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 13"
+    section: "F. Period Mappings and Poisson Structures"
+    pages: "469-479"
+    role_in_book: "Shows that a skew-symmetric intersection form in middle-dimensional homology induces a Poisson structure on the base via a nondegenerate period mapping"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

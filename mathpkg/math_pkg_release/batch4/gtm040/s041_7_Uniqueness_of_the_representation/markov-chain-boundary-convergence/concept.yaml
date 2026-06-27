@@ -1,0 +1,13 @@
+id: markov-chain-boundary-convergence
+title_en: "Almost Everywhere Convergence of Regular Functions on Markov Chains (Theorem 10-43)"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [martin-boundary, regular-function, martingale-convergence, fatou-theorem, harmonic-measure]
+depends_on: {required: [bounded-regular-function-martingale-limit, integral-representation-of-superregular-functions], recommended: [radon-nikodym-derivative, lebesgue-decomposition, regular-function], suggested: [k-process-induced-chain]}
+source_books: [{book_id: "gtm040", author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp", title: "Denumerable Markov Chains", chapter: "10", section: "7. Uniqueness of the representation", pages: "", role_in_book: "Main theorem establishing almost everywhere convergence of nonnegative regular functions along sample paths, the Markov chain analog of Fatou's theorem"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

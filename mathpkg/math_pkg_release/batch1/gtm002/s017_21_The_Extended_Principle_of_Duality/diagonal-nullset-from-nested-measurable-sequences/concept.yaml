@@ -1,0 +1,23 @@
+id: diagonal-nullset-from-nested-measurable-sequences
+title_en: "Diagonal Nullset from Nested Measurable Sequences"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [measurable-set, nullset, nested-sequence, diagonal-argument, measure]
+depends_on:
+  required: [lebesgue-measure, measurable-set, nullset]
+  recommended: [countable-union-of-nullsets]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "4"
+    section: "21. The Extended Principle of Duality"
+    pages: ""
+    role_in_book: "Establishes a measure-theoretic diagonal selection principle for nested measurable sets, used to contrast with the failure of the category analogue"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

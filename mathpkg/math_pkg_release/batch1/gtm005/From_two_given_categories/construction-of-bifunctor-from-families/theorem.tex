@@ -1,0 +1,11 @@
+A bifunctor $S: B \times C \to D$ is determined by the families of ordinary functors
+$$L_c = S(-, c): B \to D \quad (c \in C), \qquad M_b = S(b, -): C \to D \quad (b \in B)$$
+satisfying $L_c(b) = M_b(c) = S(b, c)$. For any arrows $f: b \to b'$ in $B$ and $g: c \to c'$ in $C$, the following interchange condition holds:
+$$M_{b'}(g) \circ L_c(f) = L_{c'}(f) \circ M_b(g),$$
+or equivalently, the diagram
+$$\begin{array}{ccc}
+S(b, c) & \xrightarrow{S(b, g)} & S(b, c') \\
+{\scriptstyle S(f, c)}\downarrow & & \downarrow{\scriptstyle S(f, c')} \\
+S(b', c) & \xrightarrow{S(b', g)} & S(b', c')
+\end{array}$$
+commutes. Conversely, given families $L_c: B \to D$ and $M_b: C \to D$ with $L_c(b) = M_b(c)$ satisfying this condition, there exists a unique bifunctor $S$ with $S(-, c) = L_c$ and $S(b, -) = M_b$.

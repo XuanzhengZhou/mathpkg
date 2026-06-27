@@ -1,0 +1,23 @@
+id: regular-representation-normal-subgroup
+title_en: "Regular Permutation Representation and Normal Subgroups (Result 1.16)"
+title_zh: "正则置换表示与正规子群（结果1.16）"
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [regular-representation, coset, normal-subgroup, permutation-group]
+depends_on:
+  required: [regular-permutation-group]
+  recommended: [core-of-subgroup]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "1. Introduction"
+    pages: ""
+    role_in_book: "Regular permutation representation on cosets is regular iff the subgroup is normal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,20 @@
+id: mutually-exclusive-events
+title_en: "Mutually Exclusive Events"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: foundations
+difficulty: basic
+tags: [probability, event, disjoint, mutually-exclusive]
+depends_on: {required: [event, event-intersection], recommended: [], suggested: []}
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX. Probability"
+    section: "44. Heuristic Introduction"
+    pages: ""
+    role_in_book: "Two events E and F are mutually exclusive (incompatible) if they cannot occur simultaneously; in set-theoretic terms, they are disjoint sets with E ∩ F = ∅."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: semiregular-permutation-group
+title_en: "Semiregular Permutation Group"
+title_zh: "半正则置换群"
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [semiregular, permutation-group, regular, stabilizer]
+depends_on:
+  required: [stabilizer-subgroup]
+  recommended: [regular-permutation-group]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "I. Review of Basic Algebra"
+    section: "1. Introduction"
+    pages: ""
+    role_in_book: "A permutation group where only the identity fixes any point"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

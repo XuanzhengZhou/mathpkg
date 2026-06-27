@@ -1,0 +1,23 @@
+id: even-subset-is-subspace
+title_en: "Even Subsets Form a Subspace of Codimension 1"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: algebraic-combinatorics
+difficulty: intermediate
+tags: [vector-space, subspace, even-subsets, dimension, power-set]
+depends_on:
+  required: [even-subset-space]
+  recommended: [power-set-vector-space, symmetric-difference, cardinality-parity]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "2"
+    section: "IIA"
+    pages: "41-48"
+    role_in_book: "Proposition A1 — characterizes E(U) as a subspace and computes its dimension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

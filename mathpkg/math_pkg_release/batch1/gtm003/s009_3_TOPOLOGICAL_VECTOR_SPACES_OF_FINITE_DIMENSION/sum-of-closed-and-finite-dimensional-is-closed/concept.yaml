@@ -1,0 +1,23 @@
+id: sum-of-closed-and-finite-dimensional-is-closed
+title_en: "Sum of a Closed Subspace and a Finite-Dimensional Subspace is Closed"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [closed-subspace, finite-dimensional, sum, quotient-space, natural-map]
+depends_on:
+  required: [finite-dimensional-hausdorff-tvs-isomorphism]
+  recommended: [topological-vector-space, quotient-tvs, hausdorff-space]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "1"
+    section: "3.3"
+    pages: ""
+    role_in_book: "Shows that the sum of a closed subspace and a finite-dimensional subspace remains closed"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: course-of-values-function
+title_en: "Course-of-Values Function"
+title_zh: "历程值函数"
+type: definition
+domain: logic
+subdomain: recursive-function-theory
+difficulty: intermediate
+tags: [course-of-values, coding-sequence, primitive-recursive, godel-numbering]
+depends_on: {required: [primitive-recursive-function], recommended: [godel-beta-function, sequence-coding], suggested: []}
+source_books: [{book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "2", section: "Elementary Recursive and Primitive Recursive Functions", pages: "43-46", role_in_book: "Definition 2.31: The course-of-values function codes the entire history of a function's values"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

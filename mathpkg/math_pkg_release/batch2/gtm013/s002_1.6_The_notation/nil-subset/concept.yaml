@@ -1,0 +1,23 @@
+id: nil-subset
+title_en: "Nil Subset"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [nil, nilpotent, subset, nil-ideal]
+depends_on:
+  required: [nilpotent-element]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "1.17"
+    pages: ""
+    role_in_book: "Defines nil subsets as those consisting entirely of nilpotent elements"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

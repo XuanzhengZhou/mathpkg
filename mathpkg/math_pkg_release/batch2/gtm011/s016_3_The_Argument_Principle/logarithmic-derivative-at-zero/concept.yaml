@@ -1,0 +1,23 @@
+id: logarithmic-derivative-at-zero
+title_en: "Logarithmic Derivative at a Zero (Proposition 3.1)"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [logarithmic-derivative, zero, analytic-function, residue]
+depends_on:
+  required: [analytic-function, zero-of-order-m]
+  recommended: [argument-principle]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "5"
+    section: "3.1"
+    pages: ""
+    role_in_book: "computes the logarithmic derivative at a zero, used in proving the Argument Principle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

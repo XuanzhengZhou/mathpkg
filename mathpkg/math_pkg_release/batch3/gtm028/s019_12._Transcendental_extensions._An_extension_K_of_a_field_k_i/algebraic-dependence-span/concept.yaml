@@ -1,0 +1,23 @@
+id: algebraic-dependence-span
+title_en: "Algebraic Dependence Span Conditions"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: field-theory
+difficulty: intermediate
+tags: [algebraic-dependence, span-operator, dependence-relation]
+depends_on:
+  required: [transcendental-extension, algebraic-extension]
+  recommended: [transcendence-set]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "II. Elements of Field Theory"
+    section: "§12. Transcendental Extensions"
+    pages: ""
+    role_in_book: "Verifies that algebraic dependence satisfies the general dependence axioms (S1)-(S5) from I, §21; enables Zorn's Lemma application to transcendence bases"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

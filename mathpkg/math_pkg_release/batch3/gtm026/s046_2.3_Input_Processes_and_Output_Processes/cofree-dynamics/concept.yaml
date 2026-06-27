@@ -1,0 +1,27 @@
+id: cofree-dynamics
+title_en: "Cofree Dynamics"
+title_zh: "余自由动态"
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags:
+  - cofree-dynamics
+  - adjunction
+  - output-process
+depends_on:
+  required:
+    - output-process
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "2"
+    section: "2.3 Input Processes and Output Processes"
+    pages: ""
+    role_in_book: "Defines the cofree dynamics via the right adjoint to U"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

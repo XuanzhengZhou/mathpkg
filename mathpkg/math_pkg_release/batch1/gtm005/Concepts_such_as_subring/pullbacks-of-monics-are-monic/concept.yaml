@@ -1,0 +1,20 @@
+id: pullbacks-of-monics-are-monic
+title_en: "Pullbacks of Monics are Monic"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [category-theory, pullback, monomorphism, limit]
+depends_on: {required: [monomorphism, pullback], recommended: [subobject], suggested: [commutative-diagram, limit]}
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "7. Subobjects and Generators"
+    pages: ""
+    role_in_book: "Key lemma ensuring that subobjects are well-behaved under pullback"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

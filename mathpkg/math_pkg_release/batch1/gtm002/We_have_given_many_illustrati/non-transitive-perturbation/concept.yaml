@@ -1,0 +1,23 @@
+id: non-transitive-perturbation
+title_en: "Non-Transitive Perturbation Lemma"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: dynamical-systems
+difficulty: advanced
+tags: [transitive-automorphism, perturbation, uniform-metric, radial-contraction]
+depends_on:
+  required: [transitive-automorphism, uniform-metric-space-automorphisms]
+  recommended: [residual-set-dense-positive-semiorbit]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category (2nd ed.)"
+    chapter: "18"
+    section: "18"
+    pages: "78-81"
+    role_in_book: "Lemma used to show that transitive automorphisms are nowhere dense in H"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

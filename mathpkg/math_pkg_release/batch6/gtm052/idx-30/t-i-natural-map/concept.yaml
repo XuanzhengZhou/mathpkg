@@ -1,0 +1,23 @@
+id: t-i-natural-map
+title_en: "Natural Map from T^i(A) Tensored with M to T^i(M)"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [cohomology, natural-transformation, tensor-product, right-exactness, base-change]
+depends_on:
+  required: [t-i-cohomology-functor, complex-approximation-cohomology, tensor-product]
+  recommended: [right-exact-functor, direct-limit]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "12"
+    pages: ""
+    role_in_book: "Proposition 12.5 — natural map φ and criterion for right exactness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

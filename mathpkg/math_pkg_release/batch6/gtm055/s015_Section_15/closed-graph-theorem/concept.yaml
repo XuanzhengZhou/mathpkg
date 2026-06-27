@@ -1,0 +1,23 @@
+id: closed-graph-theorem
+title_en: "Closed Graph Theorem (Theorem 13.4)"
+title_zh: "闭图像定理"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [F-space, closed-graph, continuous-linear-transformation, direct-sum]
+depends_on:
+  required: []
+  recommended: [F-space, graph-of-linear-transformation, direct-sum-of-F-spaces]
+  suggested: [open-mapping-theorem]
+source_books:
+  - book_id: "gtm055"
+    author: "Arlen Brown, Carl Pearcy"
+    title: "Introduction to Operator Theory I"
+    chapter: "13"
+    section: "15"
+    pages: ""
+    role_in_book: "Characterizes continuity of linear transformations between F-spaces via closedness of their graph"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

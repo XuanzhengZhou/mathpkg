@@ -1,0 +1,23 @@
+id: noether-basis-theorem
+title_en: "Noether Basis Theorem (Theorem 1)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [noether-basis, subspace, complement, basis, emmy-noether]
+depends_on:
+  required: [basis-of-vector-space, subspace-complement]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "Theorem 1 (Emmy Noether): For a subspace S of R with basis B, there exists a Noether basis for S relative to B — a basis for S obtained via the complement construction."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: gdelta-point-is-zero-set
+title_en: "Every G-Delta Point is a Zero-Set in a Completely Regular Space"
+title_zh: "完全正则空间中每个G_δ点是零集"
+type: corollary
+domain: topology
+subdomain: separation-axioms
+difficulty: basic
+tags: [g-delta-point, zero-set, completely-regular-space, singleton]
+depends_on:
+  required: [gdelta-containing-compact-contains-zero-set, compact-set]
+  recommended: [zero-set]
+  suggested: [first-countable-space]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.11"
+    pages: ""
+    role_in_book: "Corollary to Theorem 3.11(b); special case for points"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

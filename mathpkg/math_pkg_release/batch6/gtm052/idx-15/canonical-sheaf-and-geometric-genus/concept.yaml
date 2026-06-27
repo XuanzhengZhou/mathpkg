@@ -1,0 +1,23 @@
+id: canonical-sheaf-and-geometric-genus
+title_en: "Canonical Sheaf and Geometric Genus"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [canonical-sheaf, geometric-genus, invertible-sheaf, exterior-power, birational-invariant]
+depends_on:
+  required: [sheaf-of-relative-differentials, nonsingular-variety]
+  recommended: [invertible-sheaf, exterior-power, global-sections]
+  suggested: [serre-duality]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Definition of the canonical sheaf ω_X = ∧^n Ω_{X/k} where n = dim X, and the geometric genus p_g = dim_k Γ(X, ω_X) for X projective and nonsingular"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

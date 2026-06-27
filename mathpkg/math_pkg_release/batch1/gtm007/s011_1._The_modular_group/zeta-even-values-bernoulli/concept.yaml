@@ -1,0 +1,23 @@
+id: zeta-even-values-bernoulli
+title_en: "Values of the Riemann Zeta Function at Positive Even Integers"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: ["riemann-zeta", "bernoulli-numbers", "special-values", "pi"]
+depends_on:
+  required: []
+  recommended: ["bernoulli-numbers", "riemann-zeta-function", "infinite-product-for-sine"]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Connects Bernoulli numbers to zeta values, used in computing Eisenstein series at infinity."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

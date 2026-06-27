@@ -1,0 +1,1 @@
+Every geometrically convex domain in $\mathbb{C}^n$ is automatically a domain of holomorphy. This provides a large class of examples and shows that convexity is a stronger condition than pseudoconvexity.

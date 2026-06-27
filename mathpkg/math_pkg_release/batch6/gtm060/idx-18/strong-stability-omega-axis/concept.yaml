@@ -1,0 +1,13 @@
+id: strong-stability-omega-axis
+title_en: "Strong Stability on the Omega-Axis"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [strong-stability, parametric-resonance, mathieu-equation, instability-zones]
+depends_on: {required:[strong-stability-trace-condition, stability-criterion-area-preserving-linear-mapping], recommended:[strong-stability], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"5",section:"24",pages:"",role_in_book:"Characterizes the strongly stable region for the equation ẍ=-ω²(1+εa(t))x, showing instability can only arise near ω=k/2"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

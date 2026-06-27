@@ -1,0 +1,23 @@
+id: handshaking-lemma
+title_en: "Handshaking Lemma for Multigraphs"
+title_zh: ""
+type: proposition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: basic
+tags: [handshaking-lemma, multigraph, valence, edge-count]
+depends_on:
+  required: [valence-of-vertex, multigraph-invariants]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "III"
+    section: "A"
+    pages: ""
+    role_in_book: "Fundamental identity relating sum of valences to number of edges"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

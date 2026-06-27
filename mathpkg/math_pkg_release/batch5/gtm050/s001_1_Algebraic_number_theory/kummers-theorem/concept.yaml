@@ -1,0 +1,13 @@
+id: kummers-theorem
+title_en: "Kummer's Theorem on Fermat's Last Theorem for Regular Primes"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [kummer, regular-prime, bernoulli-numbers, flt]
+depends_on: {required: [fermats-last-theorem, reduction-to-prime-exponents], recommended: [ideal-factorization, cyclotomic-integers], suggested: [bernoulli-numbers]}
+source_books: [{book_id: "gtm050", author: "Harold M. Edwards", title: "Fermat's Last Theorem", chapter: "Preface", section: "", pages: "", role_in_book: "The central theorem of the book, establishing a sufficient condition for FLT using ideal factorization"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

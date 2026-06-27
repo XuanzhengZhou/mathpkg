@@ -1,0 +1,73 @@
+Let $T$ be a $\lambda
+
+Now let $D$ be any countably infinite subset of $T$ (4.15) and let $H$ be the smallest additive subgroup of $R$ that contains $D$. That is, $H$ consists of all finite sums $\sum_{k=1}^{m} n_k d_k$, where the $n_k$'s are integers and the $d_k$'s are in $D$; from this it is clear that $H$ is countable.
+
+Consider the cosets $\{t + H : t \in R\}$. Since $H$ is a subgroup of $R$, these cosets are pairwise disjoint; i.e., for any $t_1$ and $t_2$, the cosets $t_1 + H$ and $t_2 + H$ are disjoint or identical. Let $\{t_\gamma : \gamma \in \Gamma\}$ be chosen in $R$ so that the sets $t_\gamma + H; \gamma \in \Gamma$, are all of the distinct cosets of $H$, i.e., $\gamma_1 = \gamma_2$ implies $(t_\gamma_1 + H) \cap (t_\gamma_2 + H) = \emptyset$, and for each $t \in R$, there is a $\gamma \in \Gamma$ such that $t + H = t_\gamma + H$. Let $\Gamma_0 = \{\gamma \in \Gamma : (t_\gamma + H) \cap T = \emptyset\}$. For each $\gamma \in \Gamma_0$, choose just one element $x_\gamma \in (t_\gamma + H) \cap T$, and let $E = \{x_\gamma : \gamma \in \Gamma_0\}$. [Since $T$ is contained in $\bigcup \{t_\gamma + H : \gamma \in \Gamma_0\}$ and $t_\gamma + H = \aleph_0$, we must have
+
+$$\bar{\Gamma}_0 = \bar{T} > \aleph_0.$$
+
+In finding $E$ we have twice made an uncountable number of arbitrary choices, and to do this we must invoke the axiom of choice$^1$.
+
+To prove that $E$ possesses the pathological properties ascribed to it
+
+$v = x_{\gamma} + h$ for some $h \in H$. Thus
+
+$$h = v - x_{\gamma} \in (T - T) \cap H = J,$$
+
+which proves (3). If (1) holds, then (3) implies that
+
+$$\mu(T) \leq \mu(J + E) = 0.$$
+
+Since $\lambda(T)$ is positive and $\mu(T) = \lambda(T)$, this is a contradiction, and (1) cannot hold. It is also obvious that
+
+$$J + E = (H \cap (T - T)) + E \subset (T - T) + T$$
+
+$$\subset [-3p, 3p],$$
+
+so that
+
+$$\mu(J + E) \leq \mu([-3p, 3p]) = \lambda([-3p, 3p]) = 6p < \infty.$$
+
+Thus (2) is impossible, and the assumption that $E \in \mathcal{A}$ must be rejected. $\square$
+
+(10.29) Remarks. (a) There exists a finitely additive measure $\mu$ on $\mathcal{P}(R)$ such that $\mu(A) = \lambda(A)$ for all $A \in \mathcal{M}_i$ and $\mu(x + A) = \mu(A)$ for $x \in R$ and $A \subset R$. This was first proved by S. BANACH [Fund. Math. 4, 7-33 (1923)]. The construction is sketched in (20.40) infra. A far-reaching generalization of BANACH's result appears in HEWITT and Ross, Abstract Harmonic Analysis I [Springer-Verlag, Heidelberg, 1963], pp. 242-245, to which interested readers are referred.
+
+(b) Countably additive extensions $\mu$ of Lebesgue measure to very large $\sigma$-algebras $\mathcal{M}$ of subsets of $R$ have been found, retaining the property that $\mu(x + A) = \mu(A)$. One can make $2^c$ new sets $\mu$-measurable, and in fact there is a family $\mathcal{D
+
+select a compact subset $E$ of $V$ such that $\iota(V \cap E') < \frac{1}{2} \varepsilon$. Using (9.24) again, choose an open set $W$ such that $V \cap A' \subset W \subset V$ and $\iota(W) < \frac{1}{2} \varepsilon$. The set $F = E \cap W'$ is compact. It is clear that $F \subset A$, for
+
+$$E \cap W' \subset E \cap (V' \cup A) \subset V \cap (V' \cup A) = A.$$
+
+We have
+
+$$\iota(A \cap F') = \iota(A \cap (E' \cup W)) \leq \iota(A \cap E') + \iota(A \cap W)$$
+
+$$\leq \iota(V \cap E') + \iota(W) < \frac{1}{2} \varepsilon + \frac{1}{2} \varepsilon = \varepsilon.$$
+
+Using the $\iota$-measurability of $A$, we see that $\iota(F) = \iota(A) - \iota(A \cap F') > \iota(A) - \varepsilon$. Since $\varepsilon$ is arbitrary, the theorem follows for $\iota(A) < \infty$.
+
+(II) Suppose that $\iota(A) = \infty$. In view of (9.24), we may suppose that the sets $B_n$ in our hypothesis are $\iota$-measurable [in fact, open]. Write $A_n = A \cap (B_1 \cup \cdots \cup B_n)$ for $n \in N$ and $A_0 = \varnothing$. Then $A_n$ is $\iota$-measurable, $\iota(A_n) < \infty$, $A_n \subset A_{n+1}$, and $\bigcup_{n=1}^{\infty} A_n = A.$
+
+By (10.11), $(X, \mathcal{M}, \iota)$ is a measure space; hence (10.13) implies that
+
+$$\infty = \iota(A) = \lim_{n \to \infty} \i
+
+It follows that $\iota(F) = \iota(U)$ and $\iota(U \cap F') = 0$. Hence
+
+$$A \cap U = A \cap [F \cup (U \cap F')] = (A \cap F) \cup (A \cap U \cap F')$$
+
+$$= \left( \bigcup_{n=1}^{\infty} (A \cap F_n) \right) \cup (A \cap U \cap F')$$
+
+and so, since $\iota(A \cap U \cap F') = 0$, $A \cap U$ is a countable union of $\iota$-measurable sets. Therefore (iv) implies (iii).
+
+Next suppose that (iii) holds and let $U$ be open of finite $\iota$-measure. Then $U$ and $A \cap U$ are both $\iota$-measurable, and so $U \cap A' = U \cap (U \cap A')'$ is $\iota$-measurable. Thus
+
+$$\iota(U) = \iota((U \cap A) \cup (U \cap A')) = \iota(U \cap A) + \iota(U \cap A')$$
+
+i.e., (iii) implies (ii).
+
+Suppose that (ii) holds, and let $T$ be an arbitrary subset of $X$. In establishing (10.5), we may suppose that $\iota(T) < \infty$, since otherwise $\iota(T) = \infty \geq \iota(T \cap A) + \iota(T \cap A')$. For a given $\varepsilon > 0$, choose an open set $U$ such that $T \subset U$ and $\iota(U) < \iota(T) + \varepsilon$. Then (ii) implies that
+
+$$\iota(T) + \varepsilon > \iota(U) \geq \iota(U \cap A) + \iota(U \cap A') \geq \iota(T \cap A) + \iota(T \cap A')'.$$
+
+Since $\varepsilon$ is arbitrary, we are through. $\square$

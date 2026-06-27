@@ -1,0 +1,12 @@
+For a Markov chain with stationary transition mechanism, let $f_j^{(n)}$ be the probability that the first return to state $j$ occurs at time $n$, and $f_j = \sum_{n=1}^{\infty} f_j^{(n)}$. The mean recurrence time is $\mu_j = \sum_{n=1}^{\infty} n f_j^{(n)}$ (with $\mu_j = \infty$ if the sum diverges). States are classified as:
+
+\begin{itemize}
+\item \text{Transient}: $f_j < 1$ (return is not certain).
+\item \text{Recurrent}: $f_j = 1$ (return is certain).
+  \begin{itemize}
+  \item \text{Null}: $\mu_j = \infty$ (infinite mean recurrence time).
+  \item \text{Non-null}: $\mu_j < \infty$.
+  \end{itemize}
+\item \text{Periodic with period $t$}: return is impossible except possibly in $t, 2t, 3t, \ldots$ steps, and $t > 1$ is the greatest such integer.
+\item \text{Persistent}: recurrent, non-null, and non-periodic (also called \text{ergodic}).
+\end{itemize}

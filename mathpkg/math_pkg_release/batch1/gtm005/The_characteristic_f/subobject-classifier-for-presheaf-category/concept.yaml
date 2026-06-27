@@ -1,0 +1,23 @@
+id: subobject-classifier-for-presheaf-category
+title_en: "Subobject Classifier for Presheaf Categories"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [subobject-classifier, presheaf, functor-category, sets-to-the-c, sieve]
+depends_on:
+  required: [subobject-classifier, presheaf, functor-category]
+  recommended: []
+  suggested: [subobject-classifier-for-arrow-category]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "9. Subsets and Characteristic Functions"
+    pages: ""
+    role_in_book: "Generalization of subobject classifier to all presheaf categories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

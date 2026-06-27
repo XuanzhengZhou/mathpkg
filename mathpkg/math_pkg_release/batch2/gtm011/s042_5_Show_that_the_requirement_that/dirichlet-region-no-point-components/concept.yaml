@@ -1,0 +1,23 @@
+id: dirichlet-region-no-point-components
+title_en: "Dirichlet Region from No Point Components in Complement"
+title_zh: "补集无点分量蕴含狄利克雷区域"
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: [dirichlet-region, complement-component, barrier, perron-method]
+depends_on:
+  required: [dirichlet-region, barrier-existence-by-nontrivial-component, barrier-implies-boundary-limit]
+  recommended: [harmonic-function]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "X"
+    section: "4"
+    pages: ""
+    role_in_book: "A sufficient geometric condition for a region to be a Dirichlet Region"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

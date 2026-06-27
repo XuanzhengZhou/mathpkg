@@ -1,0 +1,23 @@
+id: local-ring-as-coordinate-quotient
+title_en: "Local Ring as Quotient by Coordinate Functions"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: singularity-theory
+difficulty: intermediate
+tags: [local-ring, coordinate-functions, map-germ, quotient-ring, singularity]
+depends_on:
+  required: [ideal-of-graph-coordinates, local-ring-of-contact]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky and Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "II"
+    section: "3"
+    pages: "183"
+    role_in_book: "Identifies R_f(p) as C^∞(R^n)/(f_1,...,f_m), the fundamental algebraic description of the local ring of a singularity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

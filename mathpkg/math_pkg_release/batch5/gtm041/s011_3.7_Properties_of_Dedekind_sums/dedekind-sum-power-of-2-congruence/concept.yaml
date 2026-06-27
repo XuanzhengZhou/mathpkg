@@ -1,0 +1,23 @@
+id: dedekind-sum-power-of-2-congruence
+title_en: "Congruence modulo powers of 2 for Dedekind sums"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [dedekind-sums, congruence, powers-of-2]
+depends_on:
+  required: [dedekind-sums, dedekind-sum-reciprocity-law, dedekind-sum-mod-8-congruence]
+  recommended: [dedekind-sum-theta-congruence]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "3"
+    section: "3.7"
+    pages: ""
+    role_in_book: "Theorem 3.10: Congruence for Dedekind sums modulo powers of 2"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,31 @@
+id: conjugate-natural-transformations
+title_en: Conjugate Natural Transformations
+title_zh: ''
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags:
+- adjunction
+- conjugate
+- natural-transformation
+- category-theory
+depends_on:
+  required:
+  - natural-transformation
+  - adjunction
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: IV
+  section: '7'
+  pages: ''
+  role_in_book: defines when two natural transformations between the left and right
+    adjoints of two adjunctions are conjugate, forming the morphisms in the category
+    of adjunctions
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

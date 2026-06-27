@@ -1,0 +1,23 @@
+id: ulam-theorem-measure-aleph1
+title_en: "Ulam's theorem: finite measure on a set of power aleph-1 vanishing on singletons is identically zero"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [ulam-theorem, measure, aleph-one, inaccessible-cardinal, continuum-hypothesis]
+depends_on:
+  required: [finite-measure, well-ordering, countable-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "5"
+    section: "Non-Measurable Sets"
+    pages: ""
+    role_in_book: "Theorem 5.6; foundational result limiting the existence of measures defined on all subsets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

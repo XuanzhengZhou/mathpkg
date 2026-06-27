@@ -1,0 +1,23 @@
+id: proposition-7-5-potential-limit
+title_en: "Divergence of potential integrals for nonzero total charge in dimensions 1 and 2"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: potential-theory
+difficulty: advanced
+tags: [brownian-motion, potential-theory, transient-recurrence, limit-behavior, signed-measures]
+depends_on:
+  required: [newtonian-potential-n-dim, brownian-motion-operator-n-dim]
+  recommended: [dominated-convergence-theorem]
+  suggested: [laplacian-fundamental-solution]
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "7"
+    section: "4. Brownian motion and potential theory in n dimensions"
+    pages: ""
+    role_in_book: "Shows that in dimensions 1 and 2, the time-integrated Brownian motion operator diverges when the initial signed measure has nonzero total mass"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

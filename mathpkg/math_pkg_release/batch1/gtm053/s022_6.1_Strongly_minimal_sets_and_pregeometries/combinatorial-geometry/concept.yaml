@@ -1,0 +1,13 @@
+id: combinatorial-geometry
+title_en: "Combinatorial Geometry"
+title_zh: "组合几何"
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [pregeometry, matroid, dependence-relation, combinatorial-geometry]
+depends_on: {required: [combinatorial-pregeometry], recommended: [], suggested: [associated-geometry, modular-pregeometry]}
+source_books: [{book_id: "gtm053", author: "Yu. I. Manin", title: "A Course in Mathematical Logic for Mathematicians", chapter: "6 Geometric Stability Theory", section: "6.1 Strongly minimal sets and pregeometries", pages: "", role_in_book: "Defines geometry as a pregeometry with trivial closure of singletons"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

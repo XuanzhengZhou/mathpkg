@@ -1,0 +1,13 @@
+\text{Let $H, H': \mathcal{K} \to \mathcal{L}$ be two functors. A natural transformation $\alpha$ from $H$ to $H'$ is defined by:}
+
+\textbf{Datum.} \text{For each $\mathcal{K}$-object $A$ there is given an $\mathcal{L}$-morphism $A\alpha: AH \to AH'$.}
+
+\textbf{Axiom.} \text{For each $\mathcal{K}$-morphism $f: A \to B$ the following square commutes:}
+$$
+\begin{CD}
+AH @>{fH}>> BH \\
+@V{A\alpha}VV @V{B\alpha}VV \\
+AH' @>{fH'}>> BH'
+\end{CD}
+$$
+\text{i.e., } $A\alpha \circ fH' = fH \circ B\alpha$.

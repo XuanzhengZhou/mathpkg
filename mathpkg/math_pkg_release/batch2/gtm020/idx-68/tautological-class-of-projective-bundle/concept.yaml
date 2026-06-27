@@ -1,0 +1,23 @@
+id: tautological-class-of-projective-bundle
+title_en: "Tautological Class of the Projective Bundle"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: characteristic-classes
+difficulty: intermediate
+tags: [tautological-class, projective-bundle, chern-class, stiefel-whitney-class, classifying-map]
+depends_on:
+  required: []
+  recommended: [projective-bundle-associated-with-vector-bundle, canonical-line-subbundle-of-projective-bundle]
+  suggested: [classifying-space, universal-line-bundle]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "15"
+    section: "2"
+    pages: ""
+    role_in_book: "Defines the tautological class a_ξ = f*(z) as the pullback of the universal generator by the classifying map, which generates the cohomology of the projective bundle as a module over the base."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

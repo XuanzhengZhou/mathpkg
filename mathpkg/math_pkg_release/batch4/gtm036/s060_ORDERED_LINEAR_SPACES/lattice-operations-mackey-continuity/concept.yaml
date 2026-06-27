@@ -1,0 +1,23 @@
+id: lattice-operations-mackey-continuity
+title_en: "Continuity of Lattice Operations in the Mackey Topology"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: ordered-linear-spaces
+difficulty: advanced
+tags: [lattice-operations, Mackey-topology, continuity, vector-lattice, order-dual]
+depends_on:
+  required: [mackey-topology-order-dual-bound, lattice-pseudo-norms-mackey-base]
+  recommended: [order-dual]
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "23"
+    section: "ORDERED LINEAR SPACES"
+    pages: "224"
+    role_in_book: "Establishes compatibility between the lattice and topological structures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

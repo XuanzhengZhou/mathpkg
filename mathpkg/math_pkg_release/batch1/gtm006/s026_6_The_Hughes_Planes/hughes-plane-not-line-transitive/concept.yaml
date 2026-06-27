@@ -1,0 +1,23 @@
+id: hughes-plane-not-line-transitive
+title_en: "A Hughes Plane is Not $(V,\ell)$-Transitive"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: projective-planes
+difficulty: advanced
+tags: [finite-geometry, non-desarguesian-plane, hughes-plane, transitivity, translation-plane]
+depends_on:
+  required: [hughes-planes-non-desarguesian]
+  recommended: [translation-plane, dual-translation-plane, line-transitivity]
+  suggested: [elation, perspectivity]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "9"
+    section: "6"
+    pages: ""
+    role_in_book: "Corollary 2 — Hughes plane is not a translation plane nor a dual translation plane"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

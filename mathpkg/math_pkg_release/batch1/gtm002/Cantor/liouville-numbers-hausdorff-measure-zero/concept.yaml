@@ -1,0 +1,23 @@
+id: liouville-numbers-hausdorff-measure-zero
+title_en: "The Set of Liouville Numbers has s-Dimensional Hausdorff Measure Zero for Every s > 0"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [liouville-number, hausdorff-measure, null-set, fractal-dimension]
+depends_on:
+  required: [liouville-number, hausdorff-measure]
+  recommended: [lebesgue-measure]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "Theorem 2.4; shows Liouville numbers are measure-theoretically negligible despite being topologically generic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

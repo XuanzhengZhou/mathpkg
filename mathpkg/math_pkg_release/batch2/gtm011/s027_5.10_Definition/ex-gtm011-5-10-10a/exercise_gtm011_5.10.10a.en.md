@@ -1,0 +1,13 @@
+---
+role: exercise
+locale: en
+chapter: "5"
+section: "5.10"
+exercise_number: 10a
+---
+
+Suppose $G$ is an open set and $\{f_n\}$ is a sequence in $H(G)$ such that $f(z) = \prod f_n(z)$ converges in $H(G)$. Show that
+
+$$\sum_{k=1}^{\infty} \left[ f'_k(z) \prod_{n \neq k} f_n(z) \right]$$
+
+converges in $H(G)$ and equals $f'(z)$.

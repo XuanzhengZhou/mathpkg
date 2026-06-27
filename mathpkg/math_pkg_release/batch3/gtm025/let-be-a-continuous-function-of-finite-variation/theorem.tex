@@ -1,0 +1,89 @@
+Let $\varphi$ be a continuous function of finite variation with domain $[a, b] \subset R$ and range $[\alpha, \beta] \subset R$. Then
+
+Plainly we have
+
+$$\varphi(E) \subset \varphi \left( \bigcup_{k=1}^{\infty} c_k, d_k \right) = \bigcup_{k=1}^{\infty} \varphi \left( ] c_k, d_k \right).$$
+
+It is also evident that
+
+$$\lambda(\varphi(] c_k, d_k[)) = \lambda(\varphi([c_k, d_k])) = \omega_\varphi(c_k, d_k).$$
+
+Hence (2) and (1) imply that $\lambda(\varphi(E)) \leq \varepsilon$. Since $\varepsilon$ is arbitrary, $\lambda(\varphi(E)) = 0$ and $\varphi$ is an $N$-function.
+
+The converse is less obvious. Suppose that $\varphi$ is an $N$-function and assume that $\varphi$ is not absolutely continuous. By (18.23), there is a positive number $\varepsilon_0$ such that we can find a sequence
+
+$$\{ ] c_1^{(1)}, d_1^{(1)}[, \dots, ] c_l^{(1)}, d_l^{(1)}[ \} = \mathcal{D}_1,$$
+
+$$\{ ] c_1^{(2)}, d_1^{(2)}[, \dots, ] c_l^{(2)}, d_l^{(2)}[ \} = \mathcal{D}_2,$$
+
+$$\dots,$$
+
+$$\{ ] c_n^{(n)}, d_n^{(n)}[, \dots, ] c_l_n^{(n)}, d_l_n^{(n)}[ \} = \mathcal{D}_n,$$
+
+with the following properties. First, the intervals comprising each $\mathcal{D}_n$ are pairwise disjoint. Second, the inequalities
+
+$$\sum_{k=1}^{l_n} \omega_\varphi(c_k^{(n)}, d_k^{(n)}) \geq \varepsilon_0$$
+
+hold for all $n$. Third,
+
+$$\sum_{n=1}^{\infty} \sum_{k=1}^{l_n} \left( d_k^{(n)} - c_k^{(n)} \right) < \infty.$$
+
+For each $n$, and for $y \in [\alpha, \beta]$, let $N_n
+
+$\lambda(A_1) = 0$. Consider any point $y_0 \in A \cap A_1'$. There exists a sequence $(x_{n_j})_{j=1}^{\infty}$ ($n_1 < n_2 < \cdots$) of points in $[a, b]$ such that
+
+$$x_{n_j} \in \bigcup_{k=1}^{l_{n_j}} c_k^{(n_j)}, d_k^{(n_j)} \quad \text{and} \quad \varphi(x_{n_j}) = y_0$$
+
+($j = 1, 2, \ldots$). Since $y_0 \notin A_1$, only a finite number of the points $x_{n_j}$ are distinct, and so there is an $x_0 \in [a, b]$ in infinitely many of the sets $\bigcup_{k=1}^{l_{n_j}} c_k^{(n_j)}, d_k^{(n_j)}$ such that $\varphi(x_0) = y_0$. Write
+
+$$E = \bigcap_{j=1}^{\infty} \bigcup_{n=j}^{\infty} \left( \bigcup_{k=1}^{l_{n_j}} c_k^{(n_j)}, d_k^{(n_j)} \right).$$
+
+It is obvious that $x_0 \in E$. From (4) and (10.15) we infer that $\lambda(E) = 0$. Since $\varphi$ is an $N$-function, we have $\lambda(\varphi(E)) = 0$. We have proved above that $\varphi(E) \supset A \cap A_1'$, so that
+
+$$\lambda(A) = \lambda(A \cap A_1') = 0.$$
+
+(7)
+
+The definition of $A$ and (7) show that $\lim_{n \to \infty} N_n(y) = 0$ for almost all $y$ in $[\alpha, \beta]$. As $N_n \leq \nu$ and $\nu \in \mathfrak{L}_1([\alpha, \beta])$, we infer from Lebesgue's dominated convergence theorem (12.24) that
+
+$$\lim_{n \to \infty} \int_R N_n(y) dy = 0.$
+
+Since $g$ is linear on $[a_k, c_k]$ and on $[c_k, b_k]$, it is plain that
+
+$$\lambda(g(E \cap a_k, b_k)) = 0,$$
+
+and so
+
+$$\lambda(g(E)) \leq \lambda(\{0\}) + \sum_{k=1}^{\infty} \lambda(g(E \cap a_k, b_k)) = 0.$$
+
+If $\sum_{k=1}^{\infty} t_k = \infty$, then $g$ certainly fails to be absolutely continuous, since it has infinite variation.
+
+(18.27) Discussion. We close this section by giving a famous application of (18.5) [which in fact led Lebesgue to the definition (18.4) of the Lebesgue set]. Consider a function $f \in \mathfrak{L}_1([-\pi, \pi])$ and its Fourier coefficients $f(n)$ (16.33). The uniqueness theorem (16.34) tells us that $f$ is determined [as an element of $\mathfrak{L}_1([-\pi, \pi])$, of course] by the function $f$ defined on $Z$. This theorem leaves untouched the problem of reconstructing $f$ from $f$. This problem is important not only for its own sake but also for applications to physics, chemistry, and engineering, since many data obtained by spectroscopy, X-ray analysis, and the like, are nothing other than Fourier coefficients of functions which one wishes to determine. The simplest way to try to recapture $f$ from $f$ is by means of the Fourier series of $f$, the partial sums of which are defined as
+
+(i) $s_n f(x) = \sum_{k=-n}^{n} f(k) \exp(i k x)$ $(n = 0, 1, 2, \ldots)$.
+
+In order to rewrite (i) and other expressions to be defined shortly, we define $f$ on the entire line $R$ by periodicity: $f(x + 2k\pi) = f(x)$, for $x \in [-\pi, \pi]$ and $k \in Z$ [the number $f(\pi)$ has no importance for $f
+
+The function defined by (iii) is called the Dirichlet kernel and is denoted by $D_n(t)$. Thus we may write
+
+(iv) $s_n f(x) = \frac{1}{2\pi} \int_{-\pi}^{\pi} f(x - t) D_n(t) dt$.
+
+For many functions, the sequence $s_n f$ does in fact converge to $f$. For others it does not. To reconstruct $f$ from $f$, we follow FEJÉR$^2$ in taking the arithmetic means of the partial sums (i). Accordingly we define
+
+(v) $\sigma_n f(x) = \frac{1}{n + 1} \left[ s_0 f(x) + s_1 f(x) + \cdots + s_n f(x) \right]$
+
+$= \sum_{k=-n}^{n} \left( 1 - \frac{|k|}{n + 1} \right) f(k) \exp(i k x)$.
+
+Using (iv), we write
+
+(vi) $\sigma_n f(x) = \frac{1}{2\pi} \int_{-\pi}^{\pi} f(x - t) \left[ \frac{1}{n + 1} \left( D_0(t) + D_1(t) + \cdots + D_n(t) \right) \right] dt$.
+
+The expression $[\cdots]$ in (vi) is called the Fejér kernel; it is denoted by $K_n(t)$; and one easily proves that
+
+(vii) $K_n(t) = \begin{cases} \frac{1}{n + 1} \left[ \frac{\sin\left(\frac{1}{2}(n + 1)t\right)}{\sin\left(\frac{1}{2}t\right)} \right]^2 & \text{if } \sin\left(\frac{1}{2}t\right) \neq 0, \\ n + 1 & \text{if } \sin\left(\frac{1}{2}t\right) = 0. \end{cases}$
+
+The reader can easily verify the following:
+
+(viii) $K_n(-t) = K_n(t)$;
+
+(ix) $0 \leq K_n(t) \leq n + 1$;

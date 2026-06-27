@@ -1,0 +1,23 @@
+id: irrotational-and-rigid-reference-frame
+title_en: "Irrotational and Rigid Reference Frame"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: lorentzian-geometry
+difficulty: intermediate
+tags: [reference-frame, irrotational, rigid, spatial-expansion-tensor, general-relativity]
+depends_on:
+  required: [reference-frame, neighbor-in-reference-frame]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "R.K. Sachs, H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "2"
+    section: "2.3"
+    pages: ""
+    role_in_book: "Defines irrotationality and rigidity of reference frames via self-adjointness/skew-adjointness of the spatial expansion tensor A_Q"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

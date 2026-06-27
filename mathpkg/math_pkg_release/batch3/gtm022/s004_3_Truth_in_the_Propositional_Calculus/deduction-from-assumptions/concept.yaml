@@ -1,0 +1,23 @@
+id: deduction-from-assumptions
+title_en: "Deduction from Assumptions (Ded(A))"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: propositional-calculus
+difficulty: intermediate
+tags: [deduction, syntactic-consequence, ded-operator, provability]
+depends_on:
+  required: [proof-in-propositional-calculus]
+  recommended: []
+  suggested: [con-closure-operation]
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes and J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "II"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines Ded(A) as the set of propositions deducible from A, establishing the syntactic consequence operator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+When one Riemann domain is contained in another, functions on the larger domain can be restricted to the smaller one by composition with the inclusion morphism. This is the pullback operation for the sheaf of holomorphic functions on Riemann domains.

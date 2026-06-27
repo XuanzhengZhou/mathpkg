@@ -1,0 +1,23 @@
+id: large-categories
+title_en: "Large Categories via a Universe"
+title_zh: "通过宇宙构造的大范畴"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [large-category, universe, small-set, set-theory, grothendieck-universe]
+depends_on:
+  required: [category]
+  recommended: [set-theory, universe]
+  suggested: [grothendieck-universe]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "2"
+    pages: ""
+    role_in_book: "Foundation for constructing large categories (Set, Set_*, Ens, Cat) using a universe U"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

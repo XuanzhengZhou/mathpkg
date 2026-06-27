@@ -1,0 +1,23 @@
+id: quotient-topology-adjunction
+title_en: "Quotient Topology via Slice Category Adjunction"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: category-theory
+difficulty: intermediate
+tags: [quotient-topology, slice-category, adjunction, left-adjoint-right-inverse]
+depends_on:
+  required: [forgetful-functor-top-to-set, slice-category]
+  recommended: [subspace-topology-adjunction]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "IV. Adjoints"
+    section: "9. Adjoints in Topology"
+    pages: ""
+    role_in_book: "Dual to subspace topology adjunction; used to construct coequalizers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

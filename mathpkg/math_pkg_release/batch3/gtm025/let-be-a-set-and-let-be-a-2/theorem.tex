@@ -1,0 +1,62 @@
+Let $X$ be a set and let $\mathcal{R}$ be a nonvoid family of subsets of $X$ such that
+
+(i) $A, B \in \mathcal{R}$ implies $A \cup B \in \mathcal{R}$;
+
+(ii) $A, B \in \mathcal{R}$ implies $A \cap B' \in \mathcal{R}$.
+
+Then $\mathcal{R}$ is called a ring of sets. A ring of sets closed
+
+as rings or algebras of sets [see (1.25)]. Let $B$ be any set. Suppose that to each $a \in B$ there is assigned a unique element $a^* \in B$ and that to each pair of elements $a, b \in B$ there is assigned a unique element $a \vee b \in B$ such that these operations satisfy
+
+(i) $a \vee b = b \vee a$,
+(ii) $a \vee (b \vee c) = (a \vee b) \vee c$,
+(iii) $(a^* \vee b^*)^* \vee (a^* \vee b)^* = a$.
+
+Sets $B$ with operations $\vee$ and $^*$ [or similar operations] and satisfying axioms equivalent to (i)—(iii) were studied by many writers in the period 1890—1930. They bear the generic name Boolean algebras, after the English mathematician George Boole [1815—1864]. The axioms (i)—(iii) were given by the U.S. mathematician E. V. Huntington [1874—1952] [Trans. Amer. Math. Soc. 5, 288—309 (1904)].
+
+The reader will observe that if $a, b$ are interpreted as sets and $\vee$ and $^*$ as union and complementation, then (i)—(iii) are simple identities. Other operations can be defined in a Boolean algebra, e.g., $\wedge$ [the analogue of $\cap$ for sets], which is defined by $a \wedge b = (a^* \vee b^*)^*$. A great deal of effort has been devoted to investigating abstract Boolean algebras. In the 1930's, the contemporary U.S. mathematician M. H. Stone showed that any Boolean algebra can be interpreted as an algebra of sets in the following very precise way [Trans. Amer. Math. Soc. 40, 37—111 (1936)].
+
+Given any Boolean algebra $B$, there is a set $X
+
+(1.15) Exercise. Simplify as much as possible:
+(a) $(A \cup (B \cap (C \cup W')))'$;
+(b) $(((X' \cup Y) \cap (X \cup Y')))'$;
+(c) $(A \cap B \cap C) \cup (A' \cap B \cap C) \cup (A \cap B' \cap C') \cup (A \cap B' \cap C') \cup (A' \cap B \cap C') \cup (A' \cap B' \cap C')$.
+
+(1.16) Exercise [Poretsky]. Given two sets $X$ and $Y$, prove that $X = \varnothing$ if and only if $Y = X \triangle Y$.
+
+(1.17) Exercise. Describe in words the sets $\bigcup_{n=1}^{\infty} \bigcap_{k=n}^{\infty} A_k$ and $\bigcap_{n=1}^{\infty} \bigcup_{k=n}^{\infty} A_k$ where $\{A_1, A_2, \ldots, A_k, \ldots\}$ is any family of sets indexed by $N$. Also prove that the first set is a subset of the second.
+
+(1.18) Exercise. Prove:
+(a) $A \triangle (B \triangle C) = (A \triangle B) \triangle C$;
+(b) $A \cap (B \triangle C) = (A \cap B) \triangle (A \cap C)$;
+(c) $A \triangle A = \varnothing$;
+(d) $\varnothing \triangle A = A$.
+
+(1.19) Exercise. Let $\{A_i\}_{i \in I}$ and $\{B_i\}_{i \in I}$ be nonvoid families of sets. Prove that
+(i) $(\bigcup_i A_i) \triangle (\bigcup_i B_i) \subset \bigcup_i (A_i \triangle B_i)$.
+
+Prove by an example that the inclusion may be proper. Can you assert anything about (i) if the $U$'s are changed to $\cap$'s?
+
+(1.20) Exercise. For any sets $A, B$,
+
+(b) Generalize this identity to $v(A \cup B \cup C)$ and to $v(A \cup B \cup C \cup D)$.
+
+(c) A university registrar reported that the total enrollment in his university was 10,000 students. Of these, he stated, 2521 were married, 6471 were men, 3115 were over 21 years of age, 1915 were married men, 1873 were married persons over 21 years of age, and 1302 were married men over 21 years of age. Could this have been the case?
+
+(d) Help the registrar. For a student body of 10,000 members, find positive integers for the categories listed in (c) that are consistent with the identity you found in (b).
+
+**1.24 Exercise.** Prove that in any Boolean ring we have the identities
+
+(a) $x + x = 0$;
+(b) $xy = yx$.
+
+**1.25 Exercise.** (a) Let $B$ be the set of all positive integers that divide 30. For $x, y \in B$, let $x \vee y$ be the least common multiple of $x$ and $y$, and let $x^* = \frac{30}{x}$. Prove that $B$ is a Boolean algebra. Find an algebra of sets that represents $B$ as in (1.14).
+
+(b) Generalize (a), replacing 30 by any square-free positive integer.
+
+(c) Generalize (b) by considering the set $B$ of all square-free positive integers, defining $x \vee y$ as the least common multiple of $x$ and $y$, $x \wedge y$ as the greatest common divisor of $x$ and $y$, and $x \triangle y$ as $\frac{x \vee y}{x \wedge y}$. Show that $B$ can be represented as a certain ring of sets but not as an algebra of sets.
+
+§ 2. Relations and functions
+
+In this section we take up the concepts of relation and function, familiar in several forms from elementary analysis. We adopt the currently popular point of view that relations and functions are indistinguishable from their graphs, i

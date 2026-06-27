@@ -1,0 +1,23 @@
+id: extreme-points-of-closed-convex-hull
+title_en: "Theorem 10.5 (Extreme Points of Closed Convex Hull)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [extreme-point, closed-convex-hull, compact-set, locally-convex-space, milman-theorem]
+depends_on:
+  required: [extreme-point, extreme-point-in-supporting-hyperplane]
+  recommended: [closed-convex-hull, compact-set, locally-convex-space]
+  suggested: [krein-milman-theorem]
+source_books:
+  - book_id: "gtm003"
+    author: "Schaefer, H.H."
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "10"
+    pages: ""
+    role_in_book: "Milman's converse: extreme points of the closed convex hull lie in the original compact set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

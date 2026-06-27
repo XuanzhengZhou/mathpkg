@@ -1,0 +1,12 @@
+Let $\mathfrak{R}$ be a vector space over a field, and let $A$ be a linear transformation on $\mathfrak{R}$. Let $\mathfrak{S}$ be an invariant subspace of $\mathfrak{R}$ relative to $A$ (i.e., $\mathfrak{S} A \subseteq \mathfrak{S}$). Let $\bar{\mathfrak{R}} = \mathfrak{R}/\mathfrak{S}$ be the quotient space, with elements $\bar{x} = x + \mathfrak{S}$ for $x \in \mathfrak{R}$.
+
+The **induced linear transformation** $\bar{A}$ on $\bar{\mathfrak{R}}$ is defined by
+$$\bar{x} \bar{A} = \overline{xA} \qquad \text{for all } \bar{x} \in \bar{\mathfrak{R}}.$$
+
+This is well-defined because if $\bar{x} = \bar{y}$ then $x - y \in \mathfrak{S}$, and since $\mathfrak{S}$ is invariant, $(x - y)A \in \mathfrak{S}$, so $\overline{xA} = \overline{yA}$.
+
+If $\Omega$ is a set of linear transformations on $\mathfrak{R}$ all preserving $\mathfrak{S}$, then $\bar{\Omega}$ denotes the set of induced transformations $\{\bar{A} : A \in \Omega\}$ on $\bar{\mathfrak{R}}$.
+
+Explicitly, for a basis of $\mathfrak{R}$ adapted to $\mathfrak{S}$, if a coset basis element $\bar{f}_r$ satisfies
+$$\bar{f}_r \bar{A} = \sum_{s} \beta_{rs} \bar{f}_s,$$
+then the matrix $(\beta_{rs})$ is the matrix of the induced transformation $\bar{A}$ on the factor space relative to that coset basis.

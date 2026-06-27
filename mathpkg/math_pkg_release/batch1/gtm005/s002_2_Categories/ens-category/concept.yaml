@@ -1,0 +1,23 @@
+id: ens-category
+title_en: "Category Ens of All Sets"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [ens, sets, functions, large-category]
+depends_on:
+  required: [ens-v-category]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "2"
+    pages: "25-26"
+    role_in_book: "Large category: all sets and functions within a varying universe V"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

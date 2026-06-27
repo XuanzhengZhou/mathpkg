@@ -1,0 +1,23 @@
+id: singer-group-implies-desarguesian
+title_en: "Singer Group Implies Desarguesian (Characterization Theorem)"
+title_zh: "辛格群蕴含德萨格平面（特征定理）"
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [singer-group, desarguesian, characterization, cyclic, collineation]
+depends_on:
+  required: [singer-group]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "XIII. Singer Groups and Difference Sets"
+    section: "4. Some Characterizations of Desarguesian Planes"
+    pages: ""
+    role_in_book: "A finite projective plane with a cyclic Singer group is Desarguesian"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

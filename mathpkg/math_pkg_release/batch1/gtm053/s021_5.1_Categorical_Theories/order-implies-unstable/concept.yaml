@@ -1,0 +1,23 @@
+id: order-implies-unstable
+title_en: "Definable Order Implies Instability"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [stability-theory, order, unstable-theories, classification-theory]
+depends_on:
+  required: [stable-theory, definable-order]
+  recommended: [dedekind-cut]
+  suggested: []
+source_books:
+  - book_id: "gtm053"
+    author: "Yuri Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "5"
+    section: "5.5"
+    pages: ""
+    role_in_book: "fundamental criterion for instability"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

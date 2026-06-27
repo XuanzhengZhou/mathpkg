@@ -1,0 +1,23 @@
+id: carlitz-hadamard-determinant-bound
+title_en: "Carlitz-Hadamard Determinant Bound for Class Number"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: intermediate
+tags: [hadamard-inequality, maillet-determinant, class-number-bound, carlitz]
+depends_on:
+  required: [maillet-determinant-theorem]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "7"
+    pages: ""
+    role_in_book: "Bound on the Maillet determinant via Hadamard's inequality, yielding a class number estimate"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

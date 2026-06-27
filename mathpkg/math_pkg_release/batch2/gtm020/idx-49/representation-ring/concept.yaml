@@ -1,0 +1,23 @@
+id: representation-ring
+title_en: "Representation Ring"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [representation-ring, lambda-ring, topological-group, g-module]
+depends_on:
+  required: [g-module, lambda-semiring]
+  recommended: [ring-completion-of-lambda-semiring]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "9"
+    section: "5"
+    pages: "page_0192.json–page_0198.json"
+    role_in_book: "Defines the representation ring as ring completion of the semiring of G-modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

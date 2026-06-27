@@ -1,0 +1,25 @@
+Let $\mathbf{C}$ be an internal category in a finitely complete category $\mathcal{E}$, and let $(H, \pi_H, \mu_H)$ and $(K, \pi_K, \mu_K)$ be left $\mathbf{C}$-objects.
+
+A \textbf{morphism of left $\mathbf{C}$-objects} $\phi : H \to K$ is a morphism $\phi : H \to K$ in $\mathcal{E}$ such that the following diagrams commute:
+
+\begin{enumerate}
+\item \textbf{Preservation of the projection} (fibrewise condition):
+\[
+\begin{CD}
+H @>{\phi}>> K \\
+@V{\pi_H}VV @VV{\pi_K}V \\
+C_0 @= C_0
+\end{CD}
+\]
+
+\item \textbf{Naturality} (preservation of the action):
+\[
+\begin{CD}
+C_1 \times_{C_0} H @>{1 \times \phi}>> C_1 \times_{C_0} K \\
+@V{\mu_H}VV @VV{\mu_K}V \\
+H @>>{\phi}> K
+\end{CD}
+\]
+\end{enumerate}
+
+When $\mathcal{E} = \mathbf{Set}$, this defines exactly a natural transformation between the corresponding set-valued functors $H, K : \mathbf{C} \to \mathbf{Set}$: the first diagram asserts that $\phi$ sends each $H(c)$ to $K(c)$, and the second diagram asserts naturality (commutation with the action of arrows).

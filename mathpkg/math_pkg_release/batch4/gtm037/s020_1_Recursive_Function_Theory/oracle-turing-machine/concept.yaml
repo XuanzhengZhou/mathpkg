@@ -1,0 +1,23 @@
+id: oracle-turing-machine
+title_en: "Oracle Turing machine (g-Turing machine)"
+title_zh: "谕示图灵机"
+type: definition
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [oracle, Turing-machine, relative-computability, Turing-degree]
+depends_on:
+  required: []
+  recommended: [Turing-machine, recursive-function]
+  suggested: [Turing-degree, relative-recursiveness]
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "6"
+    section: "Recursive Function Theory"
+    pages: ""
+    role_in_book: "Defines oracle Turing machines as the foundation for relative computability and Turing degrees"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

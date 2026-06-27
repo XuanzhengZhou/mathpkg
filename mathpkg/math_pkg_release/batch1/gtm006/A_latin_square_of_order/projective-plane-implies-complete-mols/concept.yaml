@@ -1,0 +1,23 @@
+id: projective-plane-implies-complete-mols
+title_en: "Finite Projective Plane Implies Complete Set of MOLS"
+title_zh: "有限射影平面蕴含完全正交拉丁方组"
+type: theorem
+domain: geometry
+subdomain: finite-geometry
+difficulty: intermediate
+tags: [projective-plane, mols, complete-set, planar-ternary-ring]
+depends_on:
+  required: [latin-squares-from-ptr, complete-set-of-mols]
+  recommended: [planar-ternary-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "5"
+    section: "5. Latin Squares"
+    pages: ""
+    role_in_book: "Forward direction of equivalence between projective planes and MOLS"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

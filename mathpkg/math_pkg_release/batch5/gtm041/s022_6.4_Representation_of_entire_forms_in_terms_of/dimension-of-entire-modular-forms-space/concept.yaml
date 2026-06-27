@@ -1,0 +1,23 @@
+id: dimension-of-entire-modular-forms-space
+title_en: "Dimension of the Space of Entire Modular Forms M_k"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [modular-forms, dimension-formula, vector-space, entire-forms]
+depends_on:
+  required: [space-of-entire-modular-forms, entire-form-representation-by-eisenstein-and-delta]
+  recommended: [entire-forms-as-polynomials-in-g4-g6]
+  suggested: [cusp-forms-subspace]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.4"
+    pages: ""
+    role_in_book: "Dimension formula for the space of entire modular forms of weight k"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: kummer-homomorphism
+title_en: "Kummer homomorphism for local units"
+title_zh: "局部单位的Kummer同态"
+type: definition
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [kummer-homomorphism, local-units, iwasawa-theory, p-adic-logarithm, power-series]
+depends_on:
+  required: [local-units, p-adic-logarithm]
+  recommended: [iwasawa-theory, lubin-tate-formal-groups]
+  suggested: [kummer-takagi-exponents]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "6"
+    section: "6"
+    pages: ""
+    role_in_book: "Defines the Kummer homomorphism μ0(u) = D*((D*f)/(Df))(0)p for units in the cyclotomic Z_p-extension, using differential operators on associated power series"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

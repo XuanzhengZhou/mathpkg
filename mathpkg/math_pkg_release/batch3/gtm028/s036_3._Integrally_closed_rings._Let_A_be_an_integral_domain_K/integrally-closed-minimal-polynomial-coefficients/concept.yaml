@@ -1,0 +1,23 @@
+id: integrally-closed-minimal-polynomial-coefficients
+title_en: "Generalization of Theorem 4: Minimal polynomial of an integral element over an integrally closed domain"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [integrally-closed-domain, minimal-polynomial, integral-dependence, integral-closure]
+depends_on:
+  required: [integral-element-minimal-polynomial-coefficients]
+  recommended: [integrally-closed-domain, gauss-lemma-integrally-closed]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Volume I"
+    chapter: "V"
+    section: "3. Integrally closed rings"
+    pages: ""
+    role_in_book: "Generalization showing that for integrally closed A, the minimal polynomial itself lies in A[X]"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

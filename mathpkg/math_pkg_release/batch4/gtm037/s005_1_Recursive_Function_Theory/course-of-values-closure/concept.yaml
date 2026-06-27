@@ -1,0 +1,13 @@
+id: course-of-values-closure
+title_en: "Closure under Course-of-Values"
+title_zh: "历程值运算封闭性"
+type: proposition
+domain: logic
+subdomain: recursive-function-theory
+difficulty: intermediate
+tags: [course-of-values, closure-property, primitive-recursive]
+depends_on: {required: [course-of-values-function], recommended: [primitive-recursion-schema, composition-of-primitive-recursive-functions], suggested: []}
+source_books: [{book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "2", section: "Elementary Recursive and Primitive Recursive Functions", pages: "43-46", role_in_book: "Proposition 2.32: A function is in a class A closed under primitive recursive operations iff its course-of-values function is in A"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

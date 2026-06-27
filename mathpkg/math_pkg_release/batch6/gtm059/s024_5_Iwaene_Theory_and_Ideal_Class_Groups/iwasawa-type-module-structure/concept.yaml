@@ -1,0 +1,23 @@
+id: iwasawa-type-module-structure
+title_en: "Structure Formula for Iwasawa Type Modules"
+title_zh: "岩泽类型模的结构公式"
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [iwasawa-theory, modules-over-iwasawa-algebra, structure-theorem, torsion-modules]
+depends_on:
+  required: [iwasawa-algebra, iwasawa-type-module, torsion-module-structure]
+  recommended: [distinguished-polynomial, quasi-isomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "1"
+    pages: "138-140"
+    role_in_book: "Extends the structure theorem (Theorem 1.2) for finitely generated torsion Λ-modules to modules of Iwasawa type"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

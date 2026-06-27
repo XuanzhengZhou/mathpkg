@@ -1,0 +1,23 @@
+id: module-monomorphism
+title_en: "Module Monomorphism"
+title_zh: "模单同态"
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [module-theory, monomorphism, injective]
+depends_on:
+  required: [left-module-homomorphism]
+  recommended: [kernel-image-coimage-cokernel]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "3. Homomorphisms of Modules"
+    pages: ""
+    role_in_book: "Definition of monomorphisms (injective homomorphisms)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

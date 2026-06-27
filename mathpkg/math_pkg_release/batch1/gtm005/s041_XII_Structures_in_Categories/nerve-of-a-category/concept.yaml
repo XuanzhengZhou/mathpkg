@@ -1,0 +1,13 @@
+id: nerve-of-a-category
+title_en: "Nerve of a Category"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [nerve, simplicial-set, face-operators, degeneracies, composable-arrows, iterated-pullback]
+depends_on: {required:[pullback, simplicial-set], recommended:[internal-category, category], suggested:[classifying-space, geometric-realization]}
+source_books: [{book_id:"gtm005",author:"Saunders Mac Lane",title:"Categories for the Working Mathematician",chapter:"XII",section:"2. The Nerve of a Category",pages:"283-284",role_in_book:"Defines the nerve of a category as a simplicial set whose n-simplices are composable n-tuples of arrows, with face and degeneracy operators given by composition, deletion, and insertion of identities"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

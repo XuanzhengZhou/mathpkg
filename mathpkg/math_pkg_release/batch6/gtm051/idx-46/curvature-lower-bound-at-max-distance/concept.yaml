@@ -1,0 +1,23 @@
+id: curvature-lower-bound-at-max-distance
+title_en: "Curvature Lower Bound at Local Maximum of Distance"
+title_zh: "距离局部最大点处的曲率下界"
+type: axiom
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [curvature, unit-speed-curve, local-maximum, distance-function, inequality]
+depends_on:
+  required: [curvature-of-a-curve, unit-speed-curve, local-maximum]
+  recommended: [euclidean-norm, second-derivative]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "6"
+    section: "6.8"
+    pages: "174-188"
+    role_in_book: "exercise"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

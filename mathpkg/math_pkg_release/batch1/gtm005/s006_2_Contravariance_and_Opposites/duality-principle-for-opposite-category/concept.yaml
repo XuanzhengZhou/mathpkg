@@ -1,0 +1,25 @@
+id: duality-principle-for-opposite-category
+title_en: "Duality Principle for the Opposite Category"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [duality, opposite-category, elementary-theory, induction]
+depends_on:
+  required: [opposite-category]
+  recommended: [metacategory, category]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    edition: "2nd"
+    year: 1998
+    chapter: "I"
+    section: "2. Contravariance and Opposites"
+    pages: "47-49"
+    role_in_book: "Formalizes the duality principle: a statement Σ about C is true if and only if the dual statement Σ* is true about C^op"
+content_hash: "609f22f5ac9a3da414a9ae5e65975c37"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

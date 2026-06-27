@@ -1,0 +1,23 @@
+id: triangular-property-of-orthonormal-basis
+title_en: "Triangular Property of the Gram-Schmidt Orthonormal Basis"
+title_zh: "格拉姆-施密特标准正交基的三角性质"
+type: proposition
+domain: algebra
+subdomain: euclidean-geometry
+difficulty: basic
+tags: [gram-schmidt, triangular-matrix, orthonormal-basis, change-of-basis]
+depends_on:
+  required: [gram-schmidt-orthogonalization]
+  recommended: [cartesian-basis, triangular-matrix]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Observation about the triangular structure of the Gram-Schmidt transformation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

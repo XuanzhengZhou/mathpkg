@@ -1,0 +1,23 @@
+id: linear-fractional-transformation
+title_en: "Linear Fractional Transformation"
+title_zh: "线性分式变换"
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [mobius-transformation, complex-function, rational-function]
+depends_on:
+  required: []
+  recommended: [complex-numbers, complex-plane, rational-function]
+  suggested: [riemann-sphere, group-theory]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.5"
+    pages: "46-48"
+    role_in_book: "Introduces the fundamental class of conformal mappings of the Riemann sphere"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

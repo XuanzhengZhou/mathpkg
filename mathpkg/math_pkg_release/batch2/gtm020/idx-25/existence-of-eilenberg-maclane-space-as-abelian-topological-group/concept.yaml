@@ -1,0 +1,23 @@
+id: existence-of-eilenberg-maclane-space-as-abelian-topological-group
+title_en: "Existence of Eilenberg-MacLane spaces as abelian topological groups"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: homotopy-theory
+difficulty: advanced
+tags: [eilenberg-maclane-space, abelian-topological-group, classifying-space, loop-space]
+depends_on:
+  required: [eilenberg-maclane-space, classifying-space]
+  recommended: [loop-space, homotopy-exact-sequence]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "4.2"
+    pages: "99-102"
+    role_in_book: "Shows K(Pi,n) can be realized as an abelian topological group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

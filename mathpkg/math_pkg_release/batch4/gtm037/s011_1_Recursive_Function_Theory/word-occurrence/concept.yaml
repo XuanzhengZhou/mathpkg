@@ -1,0 +1,23 @@
+id: word-occurrence
+title_en: "Word Occurrence"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability-theory
+difficulty: basic
+tags: [Markov-algorithm, word, occurrence, substring]
+depends_on:
+  required: [markov-algorithm]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "4"
+    section: "Markov Algorithms"
+    pages: ""
+    role_in_book: "Definition of word occurrence in the context of Markov algorithms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

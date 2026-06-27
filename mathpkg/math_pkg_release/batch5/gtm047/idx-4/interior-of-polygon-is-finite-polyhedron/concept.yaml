@@ -1,0 +1,13 @@
+id: interior-of-polygon-is-finite-polyhedron
+title_en: "Interior of a polygon is a finite polyhedron"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: polyhedral-topology
+difficulty: intermediate
+tags: [polygon, interior, triangulation, polyhedron, convex-decomposition]
+depends_on: {required: [interior-and-exterior-of-polygon, triangulation-of-polytope], recommended: [], suggested: []}
+source_books: [{book_id: "gtm047", author: "Moise", title: "Geometric Topology in Dimensions 2 and 3", chapter: "2", section: "Separation Properties of Polygons in R^2", pages: "27", role_in_book: "Theorem 2: constructs an explicit triangulation of the closed interior"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

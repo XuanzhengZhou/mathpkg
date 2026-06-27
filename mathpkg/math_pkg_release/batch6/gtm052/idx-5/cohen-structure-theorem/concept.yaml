@@ -1,0 +1,23 @@
+id: cohen-structure-theorem
+title_en: "Cohen Structure Theorem"
+title_zh: "Cohen结构定理"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [cohen-structure-theorem, complete-regular-local-ring, formal-power-series, coefficient-field]
+depends_on:
+  required: [regular-local-ring, complete-local-ring, formal-power-series-ring]
+  recommended: [hensels-lemma, p-basis]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "5"
+    pages: ""
+    role_in_book: "Classifies complete regular local rings containing a field as formal power series rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

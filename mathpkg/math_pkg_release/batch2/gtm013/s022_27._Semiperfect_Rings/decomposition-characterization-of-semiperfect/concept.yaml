@@ -1,0 +1,23 @@
+id: decomposition-characterization-of-semiperfect
+title_en: "Decomposition Characterization of Semiperfect Rings"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: advanced
+tags: [semiperfect-ring, decomposition, complementing-direct-summands, projective-module, azumaya-theorem]
+depends_on:
+  required: [semiperfect-ring, decomposition-complementing-direct-summands]
+  recommended: [azumaya-theorem, projective-module]
+  suggested: [krull-schmidt-theorem]
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "27. Semiperfect Rings"
+    pages: ""
+    role_in_book: "Theorem 27.12 — characterizes semiperfect rings via decomposition properties of projective modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: division-in-fields
+title_en: "Division in Fields"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: field-theory
+difficulty: basic
+tags: [field, division, quotient, linear-equation, zero-divisor]
+depends_on:
+  required: [field-definition, field-multiplicative-group]
+  recommended: [group-equation-ax-equals-b]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Volume I"
+    chapter: "I"
+    section: "8. Fields"
+    pages: "22"
+    role_in_book: "Describes the fundamental division properties that make fields the natural setting for solving linear equations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

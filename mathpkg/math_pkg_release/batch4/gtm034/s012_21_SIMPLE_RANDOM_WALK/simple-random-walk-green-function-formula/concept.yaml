@@ -1,0 +1,13 @@
+id: simple-random-walk-green-function-formula
+title_en: "Explicit Formulas for the Green Function and Hitting Probabilities of Simple Random Walk"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: intermediate
+tags: [green-function, hitting-probability, simple-random-walk, exact-formula, spectral-decomposition]
+depends_on: {required: [eigenvalues-of-restricted-transition, interval-green-function], recommended: [spectral-theorem], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "21", pages: "", role_in_book: "Gives exact closed-form expressions for g_N, R_N, and L_N using the kernel R(x,y)"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

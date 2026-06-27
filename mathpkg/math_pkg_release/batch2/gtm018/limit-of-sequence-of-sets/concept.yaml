@@ -1,0 +1,23 @@
+id: limit-of-sequence-of-sets
+title_en: "Limit of a Sequence of Sets"
+title_zh: "集列的极限"
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [set-theory, limit, sequence-of-sets, convergence]
+depends_on:
+  required: [limsup-of-sets, liminf-of-sets]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "I"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines when a sequence of sets converges"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

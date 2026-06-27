@@ -1,0 +1,23 @@
+id: c-not-equal-to-g-in-infinite-ergodic-chains
+title_en: "C Is Not Equal to G in Infinite Noncyclic Ergodic Chains"
+title_zh: ""
+type: corollary
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [ergodic-chains, potential-matrix, green-matrix, infinite-chains]
+depends_on:
+  required: [asymptotic-properties-of-mean-first-passage-times]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "3"
+    pages: ""
+    role_in_book: "Corollary 9-64 proves C and G are distinct in infinite noncyclic ergodic chains"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

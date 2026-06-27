@@ -1,0 +1,23 @@
+id: subbundle-of-vector-bundle
+title_en: "Subbundle of a Vector Bundle"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundle, subbundle, smooth-submanifold, fiber-bundle]
+depends_on:
+  required: [family-of-vector-spaces]
+  recommended: [smooth-submanifold, vector-bundle]
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "I"
+    section: "5. Vector Bundles"
+    pages: "36-40"
+    role_in_book: "Definition 5.12 — defines subbundles of a vector bundle and gives one way to construct them"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: free-associative-algebra
+title_en: "Free associative algebra based on a vector space"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: advanced
+tags: [free-algebra, kronecker-product, tensor-algebra, associative-algebra]
+depends_on:
+  required: []
+  recommended: [kronecker-product-of-vector-spaces, associative-algebra]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "7"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines the free associative algebra as an infinite direct sum of Kronecker powers of a vector space."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: irreducible-commutative-set-irreducible-minimal-polynomial
+title_en: "Minimum polynomial is irreducible for commutative sets on an irreducible space"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [commutative-linear-transformations, minimum-polynomial, irreducible-space, invariant-subspace]
+depends_on:
+  required: [minimum-polynomial, irreducible-polynomial, invariant-subspace]
+  recommended: [commuting-linear-transformations]
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "9"
+    pages: ""
+    role_in_book: "Lemma leading to simultaneous triangularization theorem"
+content_hash: "b2c3d4e5f6a1"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

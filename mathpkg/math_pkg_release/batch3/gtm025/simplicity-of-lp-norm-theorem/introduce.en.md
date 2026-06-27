@@ -1,0 +1,1 @@
+With the $L^p$ norm and identification of almost-everywhere equal functions, $\mathfrak{L}_p$ becomes a normed linear space. This quotient construction is necessary because the norm would otherwise only be a seminorm.

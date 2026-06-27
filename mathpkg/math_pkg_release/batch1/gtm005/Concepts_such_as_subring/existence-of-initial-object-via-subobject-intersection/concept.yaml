@@ -1,0 +1,20 @@
+id: existence-of-initial-object-via-subobject-intersection
+title_en: "Existence of Initial Object via Intersection of Subobjects"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [category-theory, initial-object, subobject, intersection, cogenerator, limit]
+depends_on: {required: [subobject, cogenerating-set, pullback, product], recommended: [generating-set, equalizer], suggested: [special-adjoint-functor-theorem, adjoint-functor-theorem]}
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "7. Subobjects and Generators"
+    pages: ""
+    role_in_book: "Theorem 1. Provides a criterion for the existence of an initial object using cogenerators and subobject intersections."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

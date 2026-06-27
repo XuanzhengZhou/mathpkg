@@ -1,0 +1,23 @@
+id: c-matrix-z-representation
+title_en: "Representation of C and M via the Fundamental Matrix Z"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [z-matrix, c-matrix, m-matrix, strong-ergodic, fundamental-matrix]
+depends_on:
+  required: [z-matrix-fundamental-properties, c-matrix, m-matrix-mean-first-passage]
+  recommended: [strong-ergodic-chain, stationary-distribution]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "5. Strong ergodic chains"
+    pages: ""
+    role_in_book: "Proposition 9-77: Expresses C and M in terms of Z"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

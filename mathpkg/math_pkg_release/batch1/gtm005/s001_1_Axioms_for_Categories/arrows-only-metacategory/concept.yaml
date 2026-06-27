@@ -1,0 +1,30 @@
+id: arrows-only-metacategory
+title_en: Arrows-Only Metacategory
+title_zh: ''
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags:
+- arrows-only
+- metacategory
+- object-free
+- category-theory
+depends_on:
+  required:
+  - metacategory
+  - uniqueness-of-identity-arrow
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm005
+  author: Saunders Mac Lane
+  title: Categories for the Working Mathematician
+  chapter: I
+  section: '1'
+  pages: ''
+  role_in_book: alternative definition showing objects are not logically necessary;
+    conceptually important
+content_hash: 41bfeb54a3ddb20e
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

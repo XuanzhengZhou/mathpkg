@@ -1,0 +1,23 @@
+id: product-measure-absolute-continuity-extension
+title_en: "Extension of Absolutely Continuous Set Function on Product Space (Exercise 1)"
+title_zh: "乘积空间上绝对连续集函数的扩张"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [product-space, absolute-continuity, measure-extension, cylinder-set, radon-nikodym]
+depends_on:
+  required: [product-measure, absolute-continuity, kolmogorov-extension-theorem, cylinder-set]
+  recommended: [radon-nikodym-theorem, conditional-probability]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IX"
+    section: "49"
+    pages: ""
+    role_in_book: "Exercise generalizing Theorem A via absolute continuity with respect to product measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

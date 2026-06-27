@@ -1,0 +1,23 @@
+id: function-of-baire-first-class
+title_en: "Function of the First Class of Baire"
+title_zh: "贝尔第一类函数"
+type: definition
+domain: analysis
+subdomain: real-analysis
+difficulty: basic
+tags: [baire-class, pointwise-convergence, continuous-function, classification]
+depends_on:
+  required: [pointwise-convergence, continuous-function]
+  recommended: [oscillation-at-point]
+  suggested: [baires-theorem-on-first-class-functions]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "7"
+    section: "7"
+    pages: "39-43"
+    role_in_book: "Defines Baire class 1, the first level of the Baire hierarchy"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

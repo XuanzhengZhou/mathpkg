@@ -1,0 +1,23 @@
+id: creates-limits-properties
+title_en: "Properties of Functors that Create Limits"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [category-theory, creates-limits, struct, locally-small, well-powered, kernel-pair]
+depends_on:
+  required: [creates-limits, category-of-sets-with-structure, locally-small-category, well-powered-category]
+  recommended: [discretely-ordered, kernel-pair, monosubobject]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.16"
+    pages: ""
+    role_in_book: "Establishes structural properties of any limit-creating functor: it belongs to Struct(K) and preserves local-smallness and well-poweredness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

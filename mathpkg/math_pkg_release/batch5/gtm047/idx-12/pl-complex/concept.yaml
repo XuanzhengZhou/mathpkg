@@ -1,0 +1,23 @@
+id: pl-complex
+title_en: "PL complex"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: intermediate
+tags: [pl-topology, pl-complex, simplicial-complex, combinatorial-topology]
+depends_on:
+  required: [equivalence-class-of-coordinate-mapping, face-of-coordinate-mapping]
+  recommended: [pl-simplex, barycentric-coordinates]
+  suggested: [euclidean-complex]
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "7"
+    section: "Abstract complexes and PL complexes"
+    pages: "65-70"
+    role_in_book: "Central definition: a PL complex is a collection of PL simplexes satisfying face-closure, intersection, and local-finiteness axioms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

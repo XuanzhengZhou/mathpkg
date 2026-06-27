@@ -1,0 +1,28 @@
+id: desarguesian-plane
+title_en: Desarguesian Plane
+title_zh: ''
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags:
+- desarguesian
+- projective-plane
+- desargues-theorem
+depends_on:
+  required:
+  - v-l-desarguesian
+  - theorem-4-29-baer-transitive-desarguesian
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '7'
+  pages: ''
+  role_in_book: Defines the most important class of projective planes
+content_hash: 15fd24c2ace4
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

@@ -1,0 +1,23 @@
+id: kam-equilibrium-periodic
+title_en: "KAM Theorem near Equilibrium Positions (Periodic Case)"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: hamiltonian-mechanics
+difficulty: advanced
+tags: [KAM-theory, equilibrium-position, periodic-systems, birkhoff-normal-form, invariant-tori, liapunov-stability]
+depends_on:
+  required: [nondegeneracy-condition]
+  recommended: [kam-equilibrium-autonomous, kam-periodic-systems]
+  suggested: [birkhoff-normal-form, characteristic-frequencies]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnol'd"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 8"
+    section: "D.5"
+    pages: ""
+    role_in_book: "KAM variant for neighborhoods of equilibrium positions in periodic systems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

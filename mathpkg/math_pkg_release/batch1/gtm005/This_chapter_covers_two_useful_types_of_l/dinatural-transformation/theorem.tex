@@ -1,0 +1,11 @@
+Given categories $C, B$ and functors $S, T: C^{\text{op}} \times C \rightarrow B$, a **dinatural transformation** $\alpha: S \mathbin{\dot{\rightarrow}} T$ is a function $\alpha$ which assigns to each object $c \in C$ an arrow $\alpha_c: S(c, c) \rightarrow T(c, c)$ of $B$, called the component of $\alpha$ at $c$, such that for every arrow $f: c \rightarrow c'$ in $C$ the following hexagonal diagram is commutative:
+
+$$\begin{array}{ccc}
+S(c, c) & \xrightarrow{\alpha_c} & T(c, c) \\
+& S(1, f) \searrow & \nearrow T(f, 1) \\
+& S(c, c') & T(c', c) \\
+& S(f, 1) \swarrow & \searrow T(1, f) \\
+S(c', c') & \xrightarrow{\alpha_{c'}} & T(c', c')
+\end{array}$$
+
+That is, $T(f, 1_c) \circ \alpha_c \circ S(1_c, f) = T(1_{c'}, f) \circ \alpha_{c'} \circ S(f, 1_{c'})$.

@@ -1,0 +1,23 @@
+id: ramification-groups-commutator
+title_en: "Commutator of Higher Ramification Groups"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [ramification-groups, commutator, higher-ramification, galois-theory]
+depends_on:
+  required: [ramification-groups-abelian]
+  recommended: [decomposition-group, inertia-group]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "10"
+    pages: "289"
+    role_in_book: "Lemma 1 on commutator containment of higher ramification groups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

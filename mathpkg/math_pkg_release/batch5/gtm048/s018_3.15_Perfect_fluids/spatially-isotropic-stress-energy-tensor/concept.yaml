@@ -1,0 +1,23 @@
+id: spatially-isotropic-stress-energy-tensor
+title_en: "Spatially Isotropic Stress-Energy Tensor"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: intermediate
+tags: [stress-energy-tensor, isotropy, perfect-fluid, spacetime]
+depends_on:
+  required: []
+  recommended: [instantaneous-observer]
+  suggested: [stress-energy-tensor, projection-tensor]
+source_books:
+  - book_id: gtm048
+    author: "Sachs, R. and Wu, H."
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.15"
+    pages: ""
+    role_in_book: "Defines spatial isotropy of a stress-energy tensor as a key ingredient for perfect fluid models"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

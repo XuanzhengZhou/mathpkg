@@ -1,0 +1,23 @@
+id: two-body-problem-reduction
+title_en: "Reduction of the Two-Body Problem to a One-Body Problem"
+title_zh: "二体问题约化为单体问题"
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [two-body-problem, reduced-mass, center-of-mass, central-force]
+depends_on:
+  required: [center-of-mass, angular-momentum-conservation-central-field]
+  recommended: [newtons-equations]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "10"
+    pages: "55-67"
+    role_in_book: "Theorem reducing the two-body problem to the motion of a point with reduced mass"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

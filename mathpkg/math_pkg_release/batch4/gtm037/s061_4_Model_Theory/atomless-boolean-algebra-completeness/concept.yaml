@@ -1,0 +1,23 @@
+id: atomless-boolean-algebra-completeness
+title_en: "Completeness and Decidability of Nontrivial Atomless Boolean Algebras"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: basic
+tags: [atomless-boolean-algebra, completeness, decidability, los-vaught-test, aleph-0-categoricity]
+depends_on:
+  required: [los-vaught-test, atomless-boolean-algebra, aleph-0-categoricity]
+  recommended: [boolean-algebra, recursive-axiomatizability]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "21"
+    section: "4"
+    pages: ""
+    role_in_book: "Application of the Loś-Vaught test; follows from Theorem 9.48"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

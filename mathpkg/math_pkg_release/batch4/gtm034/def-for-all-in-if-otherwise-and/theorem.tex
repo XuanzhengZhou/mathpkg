@@ -1,0 +1,9 @@
+For all $x,y$ in $R$, $P_0(x,y) = \delta(x,y) = 1$ if $x = y, 0$ otherwise, and
+
+$$P_1(x,y) = P(x,y), \quad P_n(x,y) = \sum_{z_1 \in R, i=1,\ldots,n-1} P(x,x_1)P(x_1,x_2) \cdots P(x_{n-1},y), \quad n \geq 2.$
+
+obtained if one writes out the definition of $P_{m+n}(x,y)$ according to D1. The resulting sum is then over $x_1, x_2, \ldots, x_{m+n-1}$. Now (using absolute convergence) one may perform the summation over all the variables except $x_m$. If one then applies D1 to the result, one obtains precisely the first equation in P1, with $x_m$ taking the place of the variable of summation $t$. We leave it to the reader to check the case when $m = 0$ or $n = 0$, where the preceding argument is not strictly correct.
+
+The last two statements of P1 (which incidentally amount to the assertion that $P_n(x,y)$ is again a transition function of a random walk) are also easy to prove. One simply performs the indicated summation (over $n$) or translation (by $-x$) in D1.
+
+The probability interpretation of $P_n(x,y)$ is evident. It represents the probability that a "particle," executing the random walk, and starting at the point $x$ at time 0, will be at the point $y$ at time $n$. The next definition concerns a function of the same type: the probability, again starting at the point $x$ at time 0, that the first visit to the point $y$ should occur at time $n$. This function (unlike $P_n(x,y)$ it is not a transition function) will be called $F_n(x,y)$. In D2 we shall write $\{y\}$ to denote the subset of $R$ consisting of the element $y$, and $R - \{y\}$ will denote the state space $R$ with the point $y$ excluded.

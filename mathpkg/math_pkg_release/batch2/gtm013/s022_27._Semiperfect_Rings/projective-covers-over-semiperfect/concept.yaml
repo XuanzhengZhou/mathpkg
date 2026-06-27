@@ -1,0 +1,23 @@
+id: projective-covers-over-semiperfect
+title_en: "Characterization of Projective Covers over Semiperfect Rings"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [semiperfect-ring, projective-cover, finitely-generated-module, semisimple-module, jacobson-radical]
+depends_on:
+  required: [semiperfect-ring, projective-cover, jacobson-radical]
+  recommended: [semisimple-module, basic-set-of-primitive-idempotents]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "7"
+    section: "27. Semiperfect Rings"
+    pages: ""
+    role_in_book: "Theorem 27.13 — explicit construction of projective covers for finitely generated modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

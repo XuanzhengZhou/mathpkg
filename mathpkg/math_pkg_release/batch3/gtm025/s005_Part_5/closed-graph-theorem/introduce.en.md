@@ -1,0 +1,1 @@
+The Closed Graph Theorem states that for Banach spaces, a linear transformation with a closed graph is automatically continuous. The proof uses the Open Mapping Theorem applied to the projection from the graph.

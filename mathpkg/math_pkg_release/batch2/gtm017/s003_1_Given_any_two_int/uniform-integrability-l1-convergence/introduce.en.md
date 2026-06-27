@@ -1,0 +1,1 @@
+Uniform integrability together with pointwise convergence guarantees convergence in $L^1$ norm. This generalizes the dominated convergence theorem: rather than requiring a single dominating integrable function, one only needs the weaker condition that tail masses vanish uniformly. The result is essential for proving $L^1$ convergence when no obvious dominating function exists.

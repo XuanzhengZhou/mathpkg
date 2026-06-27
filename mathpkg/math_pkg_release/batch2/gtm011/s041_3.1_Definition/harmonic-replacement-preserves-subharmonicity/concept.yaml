@@ -1,0 +1,23 @@
+id: harmonic-replacement-preserves-subharmonicity
+title_en: "Harmonic Replacement Preserves Subharmonicity"
+title_zh: "调和替换保持次调和性"
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [subharmonic, harmonic-replacement, poisson-modification, potential-theory]
+depends_on:
+  required: [subharmonic-function, harmonic-function, poisson-integral]
+  recommended: [maximum-principle-for-subharmonic-functions, dirichlet-problem-on-disk]
+  suggested: [perron-function]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.7"
+    pages: "280"
+    role_in_book: "Shows that replacing a subharmonic function on a disk by its harmonic extension (Poisson modification) yields another subharmonic function; essential for the Perron method"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

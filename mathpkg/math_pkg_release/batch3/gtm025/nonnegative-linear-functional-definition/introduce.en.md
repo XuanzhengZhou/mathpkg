@@ -1,0 +1,1 @@
+A nonnegative linear functional on continuous functions with compact support is the starting point for the Daniell approach to integration. Every such functional can be extended to a Lebesgue-type integral on a much larger class of functions.

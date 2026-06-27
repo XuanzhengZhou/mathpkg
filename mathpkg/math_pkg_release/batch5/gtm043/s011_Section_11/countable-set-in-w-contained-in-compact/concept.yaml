@@ -1,0 +1,23 @@
+id: countable-set-in-w-contained-in-compact
+title_en: "Every Countable Set in W is Contained in a Compact Subspace"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: general-topology
+difficulty: intermediate
+tags: [well-ordered-space, compact, countable-set, ordinal-topology]
+depends_on:
+  required: [no-countable-set-cofinal-in-w, well-ordered-space-locally-compact]
+  recommended: [supremum, compact-subspace]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.12"
+    pages: ""
+    role_in_book: "Corollary of 5.12(a): Every countable subset of W is bounded, hence contained in a compact initial segment"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

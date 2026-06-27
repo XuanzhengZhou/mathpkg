@@ -1,0 +1,23 @@
+id: pappian-plane-characterization
+title_en: "Characterization of Pappian Planes via Fields and (V,k)-Transitivity"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [pappian-plane, field, planar-ternary-ring, transitivity, pappus-configuration]
+depends_on:
+  required: [planar-ternary-ring, field, pappus-configuration, vk-transitivity]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "IV"
+    section: "9"
+    pages: ""
+    role_in_book: "Summary table entry (a): establishes the equivalence between the algebraic property (coordinating PTR is a field) and the geometric property (pappian plane)."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

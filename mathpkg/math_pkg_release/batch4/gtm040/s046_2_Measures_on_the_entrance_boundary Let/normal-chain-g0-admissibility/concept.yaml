@@ -1,0 +1,23 @@
+id: normal-chain-g0-admissibility
+title_en: "Admissibility of the potential row $G_{0\\cdot}$ for normal chains"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [normal-chain, potential-matrix, G0-row, admissibility, entrance-boundary, Lemma-11-6]
+depends_on:
+  required: [admissible-row-vectors-entrance-boundary]
+  recommended: [harmonic-measure-normal-chain]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "11"
+    section: "3"
+    pages: ""
+    role_in_book: "Lemma 11-6: The 0th row of the potential matrix is admissible for normal chains, linking the potential theory to the entrance boundary"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

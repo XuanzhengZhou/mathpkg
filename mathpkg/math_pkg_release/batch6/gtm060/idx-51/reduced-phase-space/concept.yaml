@@ -1,0 +1,13 @@
+id: reduced-phase-space
+title_en: "Reduced Phase Space"
+title_zh: "约化相空间"
+type: definition
+domain: geometry
+subdomain: symplectic-geometry
+difficulty: advanced
+tags: [reduced-phase-space, momentum-mapping, symplectic-reduction, marsden-weinstein, orbit-space]
+depends_on: {required:[momentum-mapping, symplectic-manifold], recommended:[lie-group, quotient-manifold], suggested:[symplectic-reduction-theorem]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"Appendix 5",section:"Dynamical systems with symmetries",pages:"387-388",role_in_book:"Defines the reduced phase space F_p = M_p/G_p for a system with symmetry"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: extensional-subset-theorem
+title_en: "Scaled Extensional Subset Theorem"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: intermediate
+tags: [extensional, boolean-valued-universe, subset, V-B]
+depends_on:
+  required: [extensional-function, boolean-valued-universe, supremum-of-boolean-valued-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: "161-162"
+    role_in_book: "Technical lemma on scaling extensional sets to make them subsets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

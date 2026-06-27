@@ -1,0 +1,23 @@
+id: potential-in-normal-chain-formula
+title_en: "Potential in normal chain expressed via 0N and 0ν"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [normal-chain, potential-theory, denumerable-markov-chain]
+depends_on:
+  required: [normal-chain]
+  recommended: [i-nu-j-and-i-lambda-j]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "2"
+    pages: "264–273"
+    role_in_book: "Proposition 9-21; expresses the potential g of a function f with αf=0 in terms of 0N and 0ν in a normal chain"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

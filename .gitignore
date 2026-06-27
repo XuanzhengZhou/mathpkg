@@ -47,10 +47,11 @@ pipeline_output/
 
 # ─── math_pkg_release: 正式版概念数据 ───
 # 概念提取的临时标记文件（不上传）
-mathpkg/math_pkg_release/concepts_v7/**/.done
-mathpkg/math_pkg_release/concepts_v7/**/.fail
-mathpkg/math_pkg_release/concepts_v7/**/.lean.done
-mathpkg/math_pkg_release/concepts_v7/**/.lean.fail
+mathpkg/math_pkg_release/**/.done
+mathpkg/math_pkg_release/**/.fail
+mathpkg/math_pkg_release/**/.lean.done
+mathpkg/math_pkg_release/**/.lean.fail
+mathpkg/math_pkg_release/**/.proofs.done
 
 # API密钥 — 绝对不上传
 # 任何含sk-的文件都要检查

@@ -1,0 +1,23 @@
+id: adams-operations-ring-morphisms
+title_en: "Adams Operations are Ring Morphisms on K(X) and KO(X)"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: k-theory
+difficulty: advanced
+tags: [adams-operations, k-theory, ko-theory, ring-morphism, multiplicative]
+depends_on:
+  required: [ko-class-as-difference-of-oriented-bundles, simple-torus-modules]
+  recommended: [k-theory, adams-operations, representation-ring]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "10"
+    section: "10. The ψ-Operations on K(X) and KO(X)"
+    pages: "page_0199.json–page_0202.json"
+    role_in_book: "Main result establishing Adams operations as ring endomorphisms of K-theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

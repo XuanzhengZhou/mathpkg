@@ -1,0 +1,12 @@
+The \text{characteristic function} of a random variable $X$ with distribution function $F(x)$ is defined as the Fourier-Stieltjes transform
+$$\varphi(t) = E[e^{itX}] = \int_{-\infty}^{\infty} e^{itx} \, dF(x).$$
+
+Properties:
+\begin{enumerate}
+\item $\varphi(0) = 1$ and $|\varphi(t)| \leq 1$ for all $t$.
+\item $\varphi(t)$ is uniformly continuous.
+\item $\varphi$ is positive definite: for any $t_1, \ldots, t_k$ and complex $c_1, \ldots, c_k$,
+  $$\sum_{i,j=1}^{k} c_i \bar{c}_j \varphi(t_i - t_j) \geq 0.$$
+\item If $X_1, \ldots, X_k$ are independent, the characteristic function of $\sum X_i$ is $\prod \varphi_i(t)$.
+\item For $Y = aX + b$, $\varphi_Y(t) = e^{itb} \varphi(at)$.
+\end{enumerate}

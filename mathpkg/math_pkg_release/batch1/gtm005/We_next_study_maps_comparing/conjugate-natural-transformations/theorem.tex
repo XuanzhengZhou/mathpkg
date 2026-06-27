@@ -1,0 +1,11 @@
+Given two adjunctions
+$$\langle F, G, \varphi, \eta, \varepsilon \rangle : X \rightharpoonup A, \quad \langle F', G', \varphi', \eta', \varepsilon' \rangle : X \rightharpoonup A$$
+with the same categories $X$ and $A$, natural transformations
+$$\sigma : F \to F', \qquad \tau : G' \to G$$
+are said to be \textbf{conjugate} (for the given adjunctions) when the diagram
+$$\begin{array}{c}
+A(F'x, a) \cong X(x, G'a) \\
+(\sigma_x)^* = A(\sigma_x, a) \downarrow \quad \quad \downarrow X(x, \tau_a) \\
+A(Fx, a) \cong X(x, Ga)
+\end{array}$$
+commutes for every pair of objects $x \in X, a \in A$.

@@ -1,0 +1,23 @@
+id: stepwise-stiefel-projection-is-fibre-map
+title_en: "Stepwise Stiefel Projection is a Fibre Map"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: fibre-bundles
+difficulty: intermediate
+tags: [stiefel-variety, fibre-map, sphere-bundle, classical-groups]
+depends_on:
+  required: [local-triviality-of-stiefel-projection, stiefel-manifold]
+  recommended: [fibre-map, covering-homotopy-property]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "8"
+    section: "3"
+    pages: ""
+    role_in_book: "Corollary of local triviality: forgetting the last vector yields a fibre map between consecutive Stiefel manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

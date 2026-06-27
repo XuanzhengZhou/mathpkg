@@ -1,0 +1,13 @@
+id: "potential-function"
+title_en: "Potential function of a charge distribution"
+title_zh: "电荷分布的势函数"
+type: definition
+domain: analysis
+subdomain: potential-theory
+difficulty: basic
+tags: [potential, charge-distribution, coulomb, green-function]
+depends_on: {required:[], recommended:["finiteness-of-potential"], suggested:[]}
+source_books: [{book_id:"gtm040",author:"J.G. Kemeny, J.L. Snell, A.W. Knapp",title:"Denumerable Markov Chains",chapter:"7",section:"2",pages:"",role_in_book:"Defines the potential as the integral of 1/|x-y| against a charge distribution"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

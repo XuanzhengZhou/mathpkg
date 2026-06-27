@@ -1,0 +1,23 @@
+id: planar-graph-vertex-valence-at-most-5
+title_en: "Every Planar Graph Has a Vertex of Valence at Most 5"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: graph-theory
+difficulty: basic
+tags: [planar-graph, vertex-valence, valence-bound, five-color-theorem]
+depends_on:
+  required: [planar-graph-average-valence-bound]
+  recommended: [average-valence, planar-graph]
+  suggested: [five-color-theorem]
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "III"
+    section: "12"
+    pages: "101"
+    role_in_book: "Classical consequence of Euler's formula, fundamental to five-color theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

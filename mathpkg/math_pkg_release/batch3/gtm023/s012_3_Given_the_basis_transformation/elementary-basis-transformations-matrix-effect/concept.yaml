@@ -1,0 +1,23 @@
+id: elementary-basis-transformations-matrix-effect
+title_en: "Elementary Basis Transformations and Their Matrix Effects"
+title_zh: "基本基变换及其矩阵效应"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [basis-transformation, matrix, elementary-operations, row-operations, column-operations, linear-mapping]
+depends_on:
+  required: [linear-mapping-definition, basis-definition, normal-form-of-linear-mapping-matrix]
+  recommended: [matrix-of-linear-mapping]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "3"
+    section: "4. Elementary transformations"
+    pages: "109-110"
+    role_in_book: "Establishes the correspondence between elementary basis transformations in the domain/codomain and elementary row/column operations on the matrix of a linear mapping."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

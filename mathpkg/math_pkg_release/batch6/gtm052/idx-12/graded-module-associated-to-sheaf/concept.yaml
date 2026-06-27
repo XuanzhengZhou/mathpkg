@@ -1,0 +1,23 @@
+id: graded-module-associated-to-sheaf
+title_en: "Graded S-module associated to a sheaf: Gamma-star"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [graded-module, gamma-star, proj, sheaf-cohomology, global-sections]
+depends_on:
+  required: []
+  recommended: [serre-twisting-sheaf, graded-ring, proj-construction, global-sections]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines the functor from sheaves on Proj to graded modules, the right adjoint to the tilde construction"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: partition-decomposition-unique
+title_en: "Unique Partition Decomposition for Direct Sums with Local Endomorphism Rings"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags: [direct-sum-decomposition, local-endomorphism-ring, countably-generated, partition, krull-schmidt, azumaya-theorem]
+depends_on:
+  required: [countably-generated-local-endomorphism-decomposition, azumayas-theorem]
+  recommended: [local-endomorphism-ring, direct-sum-decomposition]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "5"
+    section: "26"
+    pages: ""
+    role_in_book: "Corollary 26.6: Uniqueness of decomposition for direct sums of countably generated modules with local endomorphism rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

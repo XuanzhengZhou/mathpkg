@@ -1,0 +1,11 @@
+Fix a complete Boolean algebra $B$. The universe $V^B$ of $B$-random sets is constructed by transfinite recursion:
+
+$V_0^B = \varnothing$.
+
+An element $X$ of $V_{\alpha+1}^B$ is an extensional function on a subset $D(X) \subset V_\alpha^B$ with values in $B$. The value $X(Z)$ for $Z \in D(X)$ is interpreted as the probability that $Z$ belongs to $X$.
+
+For any $X, Y \in V^B$, elements $\|X \in Y\| \in B$ and $\|X = Y\| \in B$ are defined recursively:
+$$\|X \in Y\| = \bigvee_{Z \in D(Y)} (\|X = Z\| \wedge \|Z \in Y\|)$$
+$$\|X = Y\| = \bigwedge_{Z \in D(X)} \|Z \in X\|' \vee \|Z \in Y\| \wedge \bigwedge_{Z \in D(Y)} \|Z \in Y\|' \vee \|Z \in X\|$$
+
+For limiting ordinals $\alpha$: $V_\alpha^B = \bigcup_{\beta < \alpha} V_\beta^B$.

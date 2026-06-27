@@ -1,0 +1,23 @@
+id: skolems-paradox
+title_en: "Skolem's Paradox"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: set-theory
+difficulty: advanced
+tags: [ZF, Skolem-paradox, countable-model, model-theory, Lowenheim-Skolem]
+depends_on:
+  required: [countable-model-of-zf-by-lowenheim-skolem, first-order-zf-formal-theory]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: ""
+    section: "3"
+    pages: ""
+    role_in_book: "Explains the apparent paradox that ZF has a countable model despite proving the existence of uncountable sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: rank-structure
+title_en: "Rank Structure"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: matroid-theory
+difficulty: intermediate
+tags: [rank-function, rank-structure, matroid, submodularity, semimodularity]
+depends_on:
+  required: []
+  recommended: [matroid, independence-system]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "X"
+    section: "C"
+    pages: "288-294"
+    role_in_book: "Axioms C1-C3: defines a rank structure as a pair (V, r) satisfying rank axioms that are equivalent to matroid independence systems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

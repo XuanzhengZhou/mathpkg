@@ -1,0 +1,23 @@
+id: sylvesters-law-of-inertia
+title_en: "Sylvester's Law of Inertia"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [bilinear-form, sylvester, inertia, index, diagonal-form, quadratic-form]
+depends_on:
+  required: [uniqueness-of-index-of-bilinear-function, index-of-bilinear-function]
+  recommended: [rank-of-symmetric-bilinear-function, decomposition-in-degenerate-case]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "2. The decomposition of E"
+    pages: ""
+    role_in_book: "Fundamental theorem: the number of positive coefficients in any diagonal form is invariant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

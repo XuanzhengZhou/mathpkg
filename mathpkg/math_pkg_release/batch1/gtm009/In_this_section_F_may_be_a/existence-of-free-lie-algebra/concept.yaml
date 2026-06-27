@@ -1,0 +1,23 @@
+id: existence-of-free-lie-algebra
+title_en: "Existence and Uniqueness of Free Lie Algebra"
+title_zh: "自由李代数的存在唯一性"
+type: theorem
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [free-lie-algebra, universal-property, tensor-algebra, existence, uniqueness]
+depends_on:
+  required: [free-lie-algebra, tensor-algebra]
+  recommended: [universal-enveloping-algebra]
+  suggested: []
+source_books:
+  - book_id: "gtm009"
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "V"
+    section: "17"
+    pages: "102-114"
+    role_in_book: "Existence proof for free Lie algebras via tensor algebra"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

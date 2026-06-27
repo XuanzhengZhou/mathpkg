@@ -1,0 +1,10 @@
+A \text{lattice} is a partially ordered set $L$ in which any two elements $a, b \in L$ have a least upper bound (l.u.b.), denoted $a \cup b$ ("join"), and a greatest lower bound (g.l.b.), denoted $a \cap b$ ("meet").
+
+The operations $\cup$ and $\cap$ satisfy the following algebraic axioms:
+\begin{align*}
+L_1 &\quad a \cup b = b \cup a, && a \cap b = b \cap a && \text{(commutativity)} \\
+L_2 &\quad (a \cup b) \cup c = a \cup (b \cup c), && (a \cap b) \cap c = a \cap (b \cap c) && \text{(associativity)} \\
+L_3 &\quad a \cup a = a, && a \cap a = a && \text{(idempotence)} \\
+L_4 &\quad (a \cup b) \cap a = a, && (a \cap b) \cup a = a && \text{(absorption)}
+\end{align*}
+Conversely, any set with two binary operations satisfying $L_1$-$L_4$ defines a lattice via $a \geq b \iff a \cup b = a \iff a \cap b = b$.

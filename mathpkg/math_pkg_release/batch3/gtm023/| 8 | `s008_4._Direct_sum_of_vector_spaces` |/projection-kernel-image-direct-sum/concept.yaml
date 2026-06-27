@@ -1,0 +1,23 @@
+id: projection-kernel-image-direct-sum
+title_en: "Projection Operator Kernel-Image Direct Sum Decomposition"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [projection-operator, direct-sum, kernel, image, idempotent]
+depends_on:
+  required: [projection-operator, direct-sum-internal, kernel, image]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "2"
+    section: "4"
+    pages: "75-76"
+    role_in_book: "Proposition II: Decomposition of a vector space via a projection operator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

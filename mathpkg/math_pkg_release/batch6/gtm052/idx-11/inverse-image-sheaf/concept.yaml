@@ -1,0 +1,23 @@
+id: inverse-image-sheaf
+title_en: "Inverse Image Sheaf $f^*\mathcal{G}$"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [inverse-image, pullback, sheaf-of-modules]
+depends_on:
+  required: [sheaf-of-OX-modules, morphism-of-ringed-spaces]
+  recommended: [direct-image-sheaf]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines the inverse image (pullback) of a sheaf of modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

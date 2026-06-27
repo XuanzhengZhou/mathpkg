@@ -1,0 +1,23 @@
+id: intrinsic-derivative-surjectivity-transversality
+title_en: "Intrinsic Derivative Surjectivity and Transversality"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags: ["intrinsic-derivative", "surjectivity", "transversality", "l-r-space", "corank"]
+depends_on:
+  required: ["intrinsic-derivative", "intrinsic-derivative-via-normal-space", "transversality"]
+  recommended: ["l-r-space"]
+  suggested: ["boardman-symbol"]
+source_books:
+  - book_id: "gtm014"
+    author: "Golubitsky, Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "III"
+    section: "3"
+    pages: ""
+    role_in_book: "Characterizes when the intrinsic derivative is surjective in terms of transversality; key for the Thom-Boardman stratification"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

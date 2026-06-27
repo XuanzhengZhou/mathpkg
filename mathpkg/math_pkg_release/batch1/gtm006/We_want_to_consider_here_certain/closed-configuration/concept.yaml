@@ -1,0 +1,23 @@
+id: closed-configuration
+title_en: "Closed Configuration"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: incidence-geometry
+difficulty: basic
+tags: [configuration, closed-configuration, incidence, projective-plane]
+depends_on:
+  required: [configuration]
+  recommended: [projective-plane]
+  suggested: [degenerate-configuration]
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "XI"
+    section: "2"
+    pages: ""
+    role_in_book: "Characterizes configurations that are 'complete' in the sense of having meets/joins for all same-type pairs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

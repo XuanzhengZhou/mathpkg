@@ -1,0 +1,23 @@
+id: normed-determinant-function-in-pure-quaternions
+title_en: "Normed Determinant Function in Pure Quaternion Space"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: division-algebras
+difficulty: intermediate
+tags: [determinant-function, quaternions, skew-symmetry, cross-product, orientation]
+depends_on:
+  required: [quaternion-algebra, determinant-function, oriented-euclidean-space]
+  recommended: [cross-product, normed-determinant-function]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "6"
+    pages: "222-229"
+    role_in_book: "Proposition I: The trilinear function Δ(x₁,x₂,x₃) = (x₁·x₂, x₃) is a normed determinant function in E₁ representing its orientation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

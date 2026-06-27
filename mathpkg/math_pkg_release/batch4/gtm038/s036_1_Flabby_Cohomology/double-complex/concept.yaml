@@ -1,0 +1,23 @@
+id: double-complex
+title_en: "Double Complex"
+title_zh: "双复形"
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: ["double complex", "anticommutativity", "total complex", "spectral sequence"]
+depends_on:
+  required: ["module", "homomorphism"]
+  recommended: ["cochain-complex", "chain-complex"]
+  suggested: ["spectral-sequence-of-double-complex", "total-complex"]
+source_books:
+  - book_id: "gtm038"
+    author: "Raghavan Narasimhan"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines double complexes used to compare Čech and sheaf cohomology via spectral sequences"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

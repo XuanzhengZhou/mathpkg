@@ -1,0 +1,23 @@
+id: orthogonal-group-triply-transitive
+title_en: "Orthogonal Group is Triply Transitive on Conic Points"
+title_zh: "正交群在圆锥曲线点上的三重传递性"
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [orthogonal-group, triply-transitive, conic, pgl, parametrization, fractional-linear-transformations]
+depends_on:
+  required: [orthogonal-group, conic-canonical-matrix-form]
+  recommended: [conic, pgl]
+  suggested: [projective-line, fractional-linear-transformation, isomorphism]
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes, F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II"
+    section: "7. Conics"
+    pages: "61-67"
+    role_in_book: "Theorem 2.37 - the orthogonal group is triply transitive on conic points and isomorphic to PGL(2,K)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

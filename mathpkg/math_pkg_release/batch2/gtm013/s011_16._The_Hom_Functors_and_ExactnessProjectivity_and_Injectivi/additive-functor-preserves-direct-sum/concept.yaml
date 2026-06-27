@@ -1,0 +1,23 @@
+id: additive-functor-preserves-direct-sum
+title_en: "Additive Functors Preserve Finite Direct Sums"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [additive-functor, direct-sum, covariant, contravariant]
+depends_on:
+  required: [additive-functor, direct-sum]
+  recommended: [additive-functor-preserves-split-exact]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "§16. The Hom Functors and Exactness—Projectivity and Injectivity"
+    pages: ""
+    role_in_book: "Proposition 16.3"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

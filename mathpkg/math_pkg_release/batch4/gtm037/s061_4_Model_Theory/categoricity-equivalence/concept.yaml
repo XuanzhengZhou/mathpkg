@@ -1,0 +1,23 @@
+id: categoricity-equivalence
+title_en: "Equivalence of Categoricity to Finite Cardinality"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [categoricity, m-categoricity, finite-models, upward-lowenheim-skolem]
+depends_on:
+  required: [categorical-theory, upward-lowenheim-skolem-theorem, elementary-extension]
+  recommended: [elementary-equivalence, consistent-theory]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "21"
+    section: "4"
+    pages: ""
+    role_in_book: "Shows that categoricity is a trivial notion for first-order logic — only finite theories"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

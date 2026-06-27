@@ -1,0 +1,25 @@
+Let $U$ be an open subset of $\mathbb{C}$, and let $K$ be a compact subset of $U$. Then there exists a finite set $\Delta_1, \ldots, \Delta_p$ of Jordan domains such that the corresponding Jordan regions $R_i = \Delta_i^-$ are pairwise disjoint, and such that
+
+$$K \subset \Delta_1 \cup \cdots \cup \Delta_p \quad
+
+that $J_i \subset \text{Int}(J_0)$, $i = 1, \ldots, n$, and if $R_i = (\text{Int}(J_i))^-$, $i = 1, \ldots, n$, then $\text{Int}(J_0) \setminus (R_1 \cup \cdots \cup R_n)$ is a bounded Jordan domain with boundary $J_0 \cup J_1 \cup \cdots \cup J_n$. Conversely, every bounded Jordan domain is of this form.
+
+A topological space is totally disconnected if its connected components are all singletons, i.e., if its one-point subsets are the only nonempty connected subsets that it possesses. The discrete topology on a set $X$ is the topology consisting of all the subsets of $X$; a set $X$ together with the discrete topology on $X$ is a discrete (topological) space. Such spaces are obviously totally disconnected. Here is a less trivial example of a totally disconnected space.
+
+Example J. Let $\mathcal{F}_0$ denote the singleton $\{[0, 1]\}$, i.e., the set whose sole element is the unit interval, and, for each positive integer $n$, let $\mathcal{F}_n$ denote the set of closed intervals obtained by removing the middle open third of each of the intervals in the set $\mathcal{F}_{n-1}$. (Thus $\mathcal{F}_n$ is a set of disjoint closed intervals $I_{n,1}, \ldots, I_{n,2^n}$.) If for each nonnegative integer $n$ we write
+
+$$F_n = \cup \mathcal{F}_n = I_{n,1} \cup \cdots \cup I_{n,2^n},$$
+
+then
+
+$$C = \bigcap_{n=0}^{\infty} F_n$$
+
+is the Cantor set. For each interval $I_{n,i}$ in $\mathcal{F}_n$ let us write $C_{n,i} = I_{n,i} \cap C$. The set $C_{n,i}$ is closed and is also open relative to $C$ (for an open interval slightly larger than $I_{n,i}$ meets $C$ in the same
+
+obviously a partial ordering (as noted, it is just another name for the inclusion ordering), and in this ordering the collection of all topologies on $X$ becomes a complete lattice (Prob. G). In particular, there is a finest topology on $X$ and a coarsest topology. The finest topology on $X$ is clearly the discrete topology introduced above; the coarsest topology on $X$ is the two-element topology $\{X, \emptyset\}$, sometimes known as the indiscrete topology.
+
+Example K. If $X$ is a simply ordered set, the collection of all sets $L_a = \{x \in X : x < a\}$, $a \in X$, together with the whole space $X$, is a base for a topology $\mathcal{T}_l$ on $X$ known as the left ray topology on $X$. Similarly, the collection of all sets $R_a = \{x \in X : x > a\}$, $a \in X$, together with $X$, is a base for a topology $\mathcal{T}_r$ on $X$ known as the right ray topology on $X$. The infimum $\mathcal{T}_l \wedge \mathcal{T}_r = \mathcal{T}_l \cap \mathcal{T}_r$ is easily seen to coincide with the indiscrete topology on $X$. The supremum $\mathcal{T}_l \vee \mathcal{T}_r$ contains all rays $L_a$ and $R_a$, $a \in X$, and therefore coincides with the order topology on $X$ (assuming that $X$ is not a singleton; see Example B).
+
+This construction is of particular importance when $X = \mathbb{R}$. If $Z$ denotes an arbitrary topological space and $f$ is a real-valued function defined on $Z$, then $f$ is continuous at a point $z_0$ of $Z$ when $\mathbb{R}$ is equipped with the left-ray topology $\mathcal{T}_l$ if and only if the following condition is satisfied: For every positive number $\varepsilon$ there exists a neighborhood $V$ of $z_0$ such that $f(z) < f(z_0) + \varepsilon$ for every $z$ in $V$. This situation is expressed by saying that
+
+A more sophisticated version of the above construction goes as follows.

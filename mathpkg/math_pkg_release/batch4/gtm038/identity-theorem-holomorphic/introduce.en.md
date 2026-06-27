@@ -1,0 +1,1 @@
+If two holomorphic functions agree on a nonempty open subset of a connected domain, they agree everywhere on the domain. This is the several-variable analogue of the identity theorem from one complex variable.

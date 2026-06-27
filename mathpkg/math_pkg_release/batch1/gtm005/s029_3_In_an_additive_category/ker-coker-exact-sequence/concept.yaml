@@ -1,0 +1,23 @@
+id: ker-coker-exact-sequence
+title_en: "Kernel-Cokernel Exact Sequence (Snake Lemma)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [abelian-category, exact-sequence, kernel, cokernel, snake-lemma, connecting-homomorphism]
+depends_on:
+  required: [abelian-category, pullback-epi-abelian-category, rules-for-members-abelian-category]
+  recommended: [short-exact-sequence, five-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VIII"
+    section: "4"
+    pages: ""
+    role_in_book: "Central theorem constructing the connecting homomorphism for diagram lemmas"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

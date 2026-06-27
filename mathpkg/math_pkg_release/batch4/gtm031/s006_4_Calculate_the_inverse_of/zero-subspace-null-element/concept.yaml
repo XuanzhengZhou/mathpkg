@@ -1,0 +1,23 @@
+id: zero-subspace-null-element
+title_en: "Zero Subspace as Null Element in the Subspace Lattice"
+title_zh: "零子空间是子空间格中的零元"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [vector-space, subspace, zero-subspace, lattice-of-subspaces, null-element]
+depends_on:
+  required: [vector-space, subspace, lattice-of-subspaces, join-of-subspaces]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "II: Finite Dimensional Vector Spaces"
+    section: "9: Factor Spaces"
+    pages: "36-41"
+    role_in_book: "Characterizes the zero subspace as the null element (bottom) of the subspace lattice"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

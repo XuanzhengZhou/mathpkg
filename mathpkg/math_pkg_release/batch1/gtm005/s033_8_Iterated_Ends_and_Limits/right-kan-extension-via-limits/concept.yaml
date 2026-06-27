@@ -1,0 +1,23 @@
+id: right-kan-extension-via-limits
+title_en: "Right Kan Extension via Limits"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [kan-extension, limits, comma-category, pointwise-kan-extension]
+depends_on:
+  required: [right-kan-extension, limit-of-functor]
+  recommended: [comma-category]
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "X"
+    section: "3. The Kan Extension"
+    pages: ""
+    role_in_book: "Explicit formula for right Kan extension as a limit over a comma category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

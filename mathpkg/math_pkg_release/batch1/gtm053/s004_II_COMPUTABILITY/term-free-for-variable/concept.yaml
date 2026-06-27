@@ -1,0 +1,23 @@
+id: term-free-for-variable
+title_en: "Term Free for a Variable in a Formula"
+title_zh: "项对公式中变量的自由代入"
+type: definition
+domain: logic
+subdomain: formal-languages
+difficulty: basic
+tags: [substitution, free-variables, hygiene, syntax]
+depends_on:
+  required: [free-and-bound-variable-occurrences]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "II"
+    section: "1"
+    pages: ""
+    role_in_book: "Hygiene condition for variable substitution"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

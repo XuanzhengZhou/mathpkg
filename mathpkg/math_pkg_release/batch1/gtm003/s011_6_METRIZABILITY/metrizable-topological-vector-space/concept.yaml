@@ -1,0 +1,23 @@
+id: metrizable-topological-vector-space
+title_en: "Metrizable Topological Vector Space"
+title_zh: "可度量化的拓扑向量空间"
+type: definition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [metrizable, topology, tvs, metric]
+depends_on:
+  required: []
+  recommended: [topological-vector-space]
+  suggested: [metric-space, uniform-space]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "I"
+    section: "6"
+    pages: "41-43"
+    role_in_book: "Core definition in the chapter on topological vector spaces; defines when a t.v.s. topology comes from a metric"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

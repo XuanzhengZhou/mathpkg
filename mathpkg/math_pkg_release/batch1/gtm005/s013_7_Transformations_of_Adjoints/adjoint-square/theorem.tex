@@ -1,0 +1,12 @@
+An \textbf{adjoint square} is an array of categories, functors, adjunctions, and natural transformations
+$$\begin{array}{ccc}
+X & \xrightarrow{\langle F, G, \varphi \rangle} A, & \sigma : F'H \xrightarrow{\cdot} KF, \\[4pt]
+H \downarrow & \xrightarrow{\langle F', G', \varphi' \rangle} A', & \tau : HG \xrightarrow{\cdot} G'K,
+\end{array}$$
+such that the following diagram of hom-sets always commutes:
+$$\begin{array}{ccc}
+A(Fx, a) & \xrightarrow{K} A'(KFx, Ka) & \xrightarrow{(\sigma_x)^*} A'(F'Hx, Ka) \\[4pt]
+\varphi \downarrow & & \downarrow \varphi' \\[4pt]
+X(x, Ga) & \xrightarrow{H} X'(Hx, HGa) & \xrightarrow{(\tau_a)_*} X'(Hx, G'Ka).
+\end{array}$$
+Each of $\sigma, \tau$ determines the other. The case $H = K = \text{identity functor}$ reduces to conjugate natural transformations as treated in the text.

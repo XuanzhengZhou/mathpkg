@@ -1,0 +1,23 @@
+id: exact-sequence-of-differentials-for-morphism-composition
+title_en: "Exact Sequence of Sheaves of Differentials for Composition of Morphisms"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [sheaf-of-differentials, exact-sequence, composition-of-morphisms, schemes]
+depends_on:
+  required: [sheaf-of-relative-differentials, first-exact-sequence-of-differentials]
+  recommended: [pullback-of-sheaves]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Proposition 8.11: for morphisms of schemes X → Y → Z, there is a right-exact sequence f^*Ω_{Y/Z} → Ω_{X/Z} → Ω_{X/Y} → 0"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

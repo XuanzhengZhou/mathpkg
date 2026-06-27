@@ -1,0 +1,8 @@
+Let $\mathcal{C}$ be the category of categories and functors. A \text{subcategory} of $\mathcal{K}$ is a $\mathcal{C}$-monosubobject of $\mathcal{K}$ as defined in 1.65, that is, a functor $H: \mathcal{L} \longrightarrow \mathcal{K}$ such that the induced maps
+$$\mathcal{L}(L_1, L_2) \xrightarrow{H} \mathcal{K}(L_1H, L_2H) \quad \text{for } L_1, L_2 \text{ in } \mathcal{L}$$
+are injective.
+
+A \text{literal subcategory} of $\mathcal{K}$ is a category $\mathcal{L}$ with $\mathrm{Obj}(\mathcal{L}) \subset \mathrm{Obj}(\mathcal{K})$ and $\mathcal{L}(L_1, L_2) \subset \mathcal{K}(L_1, L_2)$, i.e., a subclass of $\mathcal{K}$-morphisms closed under identities and composition. The arbitrary subcategory $[H]$ is represented by the inclusion functor of the literal subcategory
+$$\{L_1H \xrightarrow{fH} L_2H : L_1 \xrightarrow{f} L_2 \in \mathcal{L}\}.$$
+
+A subcategory $\mathcal{L}$ of $\mathcal{K}$ is \text{full} if for every $L_1, L_2$ in $\mathcal{L}$ the map $\mathcal{L}(L_1, L_2) \longrightarrow \mathcal{K}(L_1H, L_2H)$ is bijective (surjective, since injectivity is already assumed).

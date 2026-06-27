@@ -1,0 +1,23 @@
+id: primitive-ideal
+title_en: "Primitive Ideal of a Ring"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [primitive-ideal, primitive-ring, maximal-ideal]
+depends_on:
+  required: []
+  recommended: [primitive-ring, simple-module, annihilator]
+  suggested: []
+source_books:
+  - book_id: gtm013
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "9"
+    section: "15"
+    pages: ""
+    role_in_book: "Defines left/right primitive ideals as ideals P with R/P primitive"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

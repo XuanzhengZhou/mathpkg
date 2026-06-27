@@ -1,0 +1,23 @@
+id: no-cogenerator-in-groups
+title_en: "Non-Existence of Cogenerator in Groups"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [cogenerator, group-category, simple-group, even-permutation]
+depends_on:
+  required: [cogenerator, group, simple-group]
+  recommended: [even-permutation, parity]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.4"
+    pages: ""
+    role_in_book: "Example: proving that the category of groups admits no cogenerator"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: cotangent-bundle
+title_en: "Cotangent Bundle"
+title_zh: "余切丛"
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [cotangent-bundle, differentiable-manifold, 1-form, dual-space]
+depends_on:
+  required: []
+  recommended: [tangent-bundle, differential-form, differentiable-manifold]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "8"
+    section: "37"
+    pages: "214-218"
+    role_in_book: "Introduces the cotangent bundle as the phase space for Hamiltonian mechanics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

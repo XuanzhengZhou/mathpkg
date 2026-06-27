@@ -1,0 +1,23 @@
+id: projective-topology-as-projective-limit
+title_en: "Projective Topology as Projective Limit"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [projective-topology, projective-limit, hausdorff, embedding]
+depends_on:
+  required: [projective-topology, projective-topology-quotient-decomposition]
+  recommended: [projective-limit-natural-topology]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "Appendix"
+    section: "D"
+    pages: ""
+    role_in_book: "Shows that a Hausdorff projective topology realizes F as a projective limit of its images under the defining maps"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

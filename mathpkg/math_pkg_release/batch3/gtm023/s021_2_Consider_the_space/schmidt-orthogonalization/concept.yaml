@@ -1,0 +1,23 @@
+id: schmidt-orthogonalization
+title_en: "Schmidt orthogonalization (Gram-Schmidt process)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [inner-product, orthonormal-basis, gram-schmidt, orthogonalization]
+depends_on:
+  required: [inner-product-space, basis, linear-independence]
+  recommended: [gram-matrix-of-basis]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "2. Orthonormal bases"
+    pages: ""
+    role_in_book: "Constructive proof that every finite-dimensional inner product space admits an orthonormal basis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

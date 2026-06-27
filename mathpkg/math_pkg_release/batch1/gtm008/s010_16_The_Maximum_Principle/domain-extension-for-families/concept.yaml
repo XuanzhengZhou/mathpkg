@@ -1,0 +1,23 @@
+id: domain-extension-for-families
+title_en: "Domain Extension for Families in the Boolean-Valued Universe"
+title_zh: "布尔值宇宙中族的定义域扩张"
+type: theorem
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: intermediate
+tags: [boolean-valued-universe, domain-extension, forcing]
+depends_on:
+  required: []
+  recommended: [boolean-valued-universe, boolean-valued-equality]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: ""
+    role_in_book: "Technical lemma for the Maximum Principle — extends families of Boolean-valued sets to share a common domain while preserving equality."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

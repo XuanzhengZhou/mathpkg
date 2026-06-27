@@ -1,0 +1,23 @@
+id: prime-factorization-corollary
+title_en: "Unique Prime Ideal Factorization in Dedekind Domains"
+title_zh: "Dedekind环中理想的唯一素理想分解"
+type: corollary
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [dedekind-domain, prime-factorization, unique-factorization]
+depends_on:
+  required: [dedekind-domain-proper-prime-invertible-maximal, dedekind-domain]
+  recommended: [unique-factorization-invertible-ideals]
+  suggested: [fractionary-ideal-prime-factorization]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "6"
+    pages: "273"
+    role_in_book: "Corollary to Theorem 10"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

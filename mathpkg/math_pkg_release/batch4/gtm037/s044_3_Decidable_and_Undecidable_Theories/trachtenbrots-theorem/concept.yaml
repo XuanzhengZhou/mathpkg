@@ -1,0 +1,23 @@
+id: trachtenbrots-theorem
+title_en: "Trachtenbrot's Theorem"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: computability-theory
+difficulty: advanced
+tags: [spectral-representability, recursive-functions, trachtenbrot, universal-language]
+depends_on:
+  required: [spectral-representability, recursive-function]
+  recommended: [julia-robinson-theorem, syntactic-definability]
+  suggested: [lemma-14-24]
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "3"
+    section: "Decidable and Undecidable Theories"
+    pages: ""
+    role_in_book: "Main theorem establishing that every recursive function is spectrally representable — the converse of Lemma 14.23"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

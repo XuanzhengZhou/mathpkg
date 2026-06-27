@@ -1,0 +1,23 @@
+id: dirichlet-l1chi-even-characters
+title_en: "Dirichlet's Evaluation of $L(1,\\chi)$ for Even Characters"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: algebraic-number-theory
+difficulty: advanced
+tags: [dirichlet-l-function, cyclotomic-fields, class-number, gauss-sum]
+depends_on:
+  required: [dirichlet-character, cyclotomic-integer]
+  recommended: [l-series, primitive-root]
+  suggested: [class-number-formula]
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "6"
+    section: "6.5"
+    pages: "page_0210–page_0314"
+    role_in_book: "Explicit evaluation of L(1,χ) for even characters via logarithms of cyclotomic expressions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

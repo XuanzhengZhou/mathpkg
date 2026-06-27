@@ -1,0 +1,23 @@
+id: gauss-lemma
+title_en: "Gauss's Lemma"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [gauss-lemma, primitive-polynomial, content, ufd, polynomial-ring]
+depends_on:
+  required: [primitive-polynomial, content-of-polynomial, unique-factorization-domain]
+  recommended: [polynomial-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "I"
+    section: "17"
+    pages: ""
+    role_in_book: "Lemma 1 in proof of Theorem 10: Gauss's Lemma"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

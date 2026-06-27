@@ -1,0 +1,1 @@
+An approximate identity (or positive kernel) is a sequence of functions that approximates the Dirac delta. Convolution with an approximate identity provides a method for smoothing and approximating functions.

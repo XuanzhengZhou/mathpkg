@@ -1,0 +1,23 @@
+id: p-primary-class-group-projective-limit
+title_en: "p-Primary Class Group and Its Projective Limit"
+title_zh: "p-准素理想类群及其投射极限"
+type: definition
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: intermediate
+tags: [iwasawa-theory, class-group, p-primary-part, projective-limit, hilbert-class-field]
+depends_on:
+  required: [zp-extension, ideal-class-group]
+  recommended: [projective-limit, norm-map, hilbert-class-field]
+  suggested: [galois-cohomology]
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "Iwasawa Theory and Ideal Class Groups"
+    pages: ""
+    role_in_book: "Defines the fundamental Iwasawa module: the projective limit of p-primary parts of ideal class groups in the Z_p-extension tower."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: gauss-frame
+title_en: "Gauss Frame"
+title_zh: "高斯标架"
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [moving-frame, gauss-map, surface, basis]
+depends_on:
+  required: [gauss-unit-normal-field, parameterized-surface-patch]
+  recommended: [orthonormal-frame]
+  suggested: []
+source_books:
+  - book_id: gtm051
+    author: "Manfredo P. do Carmo"
+    title: "A Course in Differential Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: "3.1.7"
+    role_in_book: "Defines the natural moving frame adapted to a surface"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

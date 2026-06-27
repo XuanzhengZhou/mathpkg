@@ -1,0 +1,9 @@
+---
+role: exercise
+locale: en
+chapter: "17"
+section: "17.4"
+exercise_number: 1
+---
+
+Let $Z$ be an elementary submodel of $L_\kappa$. Show that there exists a $\bar{\kappa}$ and an elementary embedding $h: L_{\bar{\kappa}} \rightarrow L_\kappa$ such that $\mathcal{W}(h) = Z$.

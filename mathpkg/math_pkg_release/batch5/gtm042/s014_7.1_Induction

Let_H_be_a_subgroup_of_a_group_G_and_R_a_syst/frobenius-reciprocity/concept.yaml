@@ -1,0 +1,23 @@
+id: frobenius-reciprocity
+title_en: "Frobenius Reciprocity"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [frobenius-reciprocity, induced-representation, restriction, adjunction, character-theory]
+depends_on:
+  required: [induced-representation, restriction-of-representation, inner-product-of-class-functions]
+  recommended: [character-of-induced-representation, character-homomorphism-inner-product-equality]
+  suggested: [adjoint-functors, mackey-formula]
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "7"
+    section: "7.3"
+    pages: ""
+    role_in_book: "Theorem 13 — the fundamental reciprocity law relating induction and restriction of representations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

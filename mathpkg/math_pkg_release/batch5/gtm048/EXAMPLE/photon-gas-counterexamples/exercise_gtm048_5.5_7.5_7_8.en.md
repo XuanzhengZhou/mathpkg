@@ -1,0 +1,14 @@
+---
+role: exercise
+locale: en
+chapter: "5"
+section: "5.7"
+exercise_number: 5.7.8
+title: "Photon Gas Counterexamples"
+---
+
+A photon gas $F$ has many properties in addition to those described by its stress-energy tensor $\hat{T}$ and number density $N$. Construct two examples:
+
+(a) Find photon gases $F, F'$ on Minkowski space such that $F \neq F'$, $\hat{T} = \hat{T}'$, and $N = N'$.
+
+(b) Find a photon gas $F$ on Minkowski space $M$ such that $\operatorname{div} \hat{T} = 0 = \operatorname{div} N$ but $F$ is not conserved on $M$.

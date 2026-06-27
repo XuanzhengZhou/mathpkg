@@ -1,0 +1,23 @@
+id: r-relation-on-states
+title_en: "R-Relation (Partial Ordering on States)"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-chain, state-classification, partial-ordering, hitting-probability]
+depends_on:
+  required: [hitting-probability-matrix]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "7. Classification of states"
+    pages: ""
+    role_in_book: "Defines the R-relation as a partial ordering on the state space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

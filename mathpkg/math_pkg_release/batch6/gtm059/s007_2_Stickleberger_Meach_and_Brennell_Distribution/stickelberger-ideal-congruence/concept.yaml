@@ -1,0 +1,23 @@
+id: stickelberger-ideal-congruence
+title_en: "Congruence between generalized and ordinary Bernoulli numbers modulo p"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: ["stickelberger-ideal", "bernoulli-numbers", "Teichmuller-character", "congruence"]
+depends_on:
+  required: ["bernoulli-leopoldt-character-formula", "bernoulli-numbers-integral-formula"]
+  recommended: ["teichmuller-character", "iwasawa-theory"]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "2"
+    section: "Integral Stickelberger Ideals"
+    pages: "48-53"
+    role_in_book: "Theorem at start of §3 — relates B_{n,ω^{k-n}}/n to B_k/k modulo p"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

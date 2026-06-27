@@ -1,0 +1,23 @@
+id: lemma-3-G-tilde-a-bijection
+title_en: "Lemma 3: $\tilde{a}$ is a Bijection between $P$-generic Sets"
+title_zh: ""
+type: lemma
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [forcing, Cohen, partial-order, generic-filter, bijection]
+depends_on:
+  required: [partial-order-structure-p, lemma-1-a-tilde-G-a, lemma-2-G-tilde-a-G]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm008"
+    author: "Gaisi Takeuti and Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "11"
+    section: "11 The Independence of V = L and the CH"
+    pages: ""
+    role_in_book: "Establishes that $\tilde{a}$ is a one-to-one correspondence between $P$-generic sets and subsets of $\omega$"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

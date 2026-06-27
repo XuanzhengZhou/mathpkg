@@ -1,0 +1,23 @@
+id: equation-16-transformation-formula-for-lambda-sums
+title_en: "Equation (16) — Transformation Formula for Sums of λ-Functions (Lemma 2)"
+title_zh: "方程 (16) — λ-函数和的变换公式（引理 2）"
+type: lemma
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [Dedekind-eta-function, Iseki-formula, lambda-function, transformation-formula, Dedekind-sums]
+depends_on:
+  required: [lambda-function-definition, iseki-formula]
+  recommended: [dedekind-sums-definition, dedekind-functional-equation]
+  suggested: [bernoulli-periodic-function, modular-group]
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "3"
+    section: "3.6"
+    pages: ""
+    role_in_book: "The key technical lemma that, together with earlier work, proves Dedekind's functional equation for the eta function. Equation (16) of Lemma 2 relates sums of λ-functions under the transformation z ↦ 1/z with a shift involving Dedekind sums."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,10 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $E$ be an arbitrary set of states, and suppose that $E^P$, the chain $P$ with $E$ made absorbing, is an absorbing chain. If $h_E$ is any bounded function defined on $E$, then there exists a unique bounded function $\bar{h}$ whose restriction to $E$ is $h_E$ and which is regular on $\tilde{E}$. The function is
+
+$$\bar{h} = B^E \binom{h_E}{0}.$$

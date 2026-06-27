@@ -1,0 +1,23 @@
+id: fourier-expansion-step-function
+title_en: "Fourier Expansion of Step Functions on the p-adic Integers"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: p-adic-measures
+difficulty: intermediate
+tags: ["fourier-expansion", "step-function", "p-adic", "character", "measure"]
+depends_on:
+  required: ["p-adic-measure", "dirichlet-character", "fourier-transform-p-adic"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "12"
+    pages: "111–112"
+    role_in_book: "Fourier expansion formula for step functions constant on cosets of p^n"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: lebesgue-integral-measure-correspondence
+title_en: "Lebesgue Integral-Measure Correspondence"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [lebesgue-integral, measure, one-to-one-correspondence, characteristic-function]
+depends_on:
+  required: [lebesgue-integral-definition, measure-countable-subadditivity-semicontinuity]
+  recommended: [pseudometric-on-integrable-functions]
+  suggested: []
+source_books:
+  - book_id: "gtm055"
+    author: "Arlen Brown, Carl Pearcy"
+    title: "Introduction to Operator Theory I: Elements of Functional Analysis"
+    chapter: "7"
+    section: "8"
+    pages: ""
+    role_in_book: "Establishes the fundamental one-to-one correspondence between Lebesgue integrals and measures"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

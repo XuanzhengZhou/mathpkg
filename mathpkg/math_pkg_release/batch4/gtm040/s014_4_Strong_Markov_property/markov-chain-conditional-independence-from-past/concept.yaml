@@ -1,0 +1,23 @@
+id: markov-chain-conditional-independence-from-past
+title_en: "Markov Chain Conditional Independence from the Past"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: intermediate
+tags: [markov-property, conditional-independence, tail-field, past-field]
+depends_on:
+  required: [markov-chain, tail-field, markov-chain-one-step-conditional-independence]
+  recommended: [borel-field-extension, theorem-1-19]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "4"
+    section: "4"
+    pages: ""
+    role_in_book: "Lemma 4-7: Extends Lemma 4-6 from F_{n-1} to F_n and from T_{n+1} to T_n, making past and future symmetric around the present state x_n = i"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

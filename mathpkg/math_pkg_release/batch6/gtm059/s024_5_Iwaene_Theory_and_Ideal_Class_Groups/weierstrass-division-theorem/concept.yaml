@@ -1,0 +1,23 @@
+id: weierstrass-division-theorem
+title_en: "Weierstrass Division Theorem for Power Series over Complete Local Rings"
+title_zh: "完备局部环上幂级数的魏尔斯特拉斯除法定理"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [weierstrass-preparation, power-series, complete-local-ring, division-algorithm, p-adic-analysis]
+depends_on:
+  required: [complete-local-ring, power-series-ring]
+  recommended: [distinguished-polynomial, weierstrass-degree]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "2"
+    pages: "138-140"
+    role_in_book: "Division algorithm for power series over a complete local ring, used as the main technical tool for the structure theory of modules over the Iwasawa algebra Z_p[[X]]"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

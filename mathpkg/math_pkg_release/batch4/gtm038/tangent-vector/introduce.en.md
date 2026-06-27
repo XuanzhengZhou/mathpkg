@@ -1,0 +1,1 @@
+A tangent vector is a derivation on the ring of germs of differentiable functions. In local coordinates, every tangent vector has a unique representation as a linear combination of partial derivatives.

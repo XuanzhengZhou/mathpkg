@@ -1,0 +1,7 @@
+Let $\{\mathbf{A}_i = (A_i, L)\}_{i \in I}$ be a family of $L$-structures and let $U$ be a filter on $I$. Define the equivalence relation $\approx_U$ on $\prod_{i \in I} A_i$ by $\varphi \approx_U \psi$ iff $\{i \in I : \varphi(i) = \psi(i)\} \in U$. The \textbf{filtered product} $\prod_{i \in I} \mathbf{A}_i / U$ (also called the \textit{reduced product}) is the $L$-structure whose domain is $(\prod_{i \in I} A_i) / {\approx_U}$, with interpretations:
+
+\begin{itemize}
+\item For an $n$-ary relation symbol $p$: $p(\tilde{\varphi}_1, \ldots, \tilde{\varphi}_n)$ holds iff $\{i : \mathbf{A}_i \models p(\varphi_1(i), \ldots, \varphi_n(i))\} \in U$.
+\item For an $n$-ary function symbol $f$: $f(\tilde{\varphi}_1, \ldots, \tilde{\varphi}_n) = \tilde{\psi}$ iff $\{i : f^{\mathbf{A}_i}(\varphi_1(i), \ldots, \varphi_n(i)) = \psi(i)\} \in U$.
+\item For a constant symbol $c$: $c^{\prod \mathbf{A}_i / U} = \widetilde{(i \mapsto c^{\mathbf{A}_i})}$.
+\end{itemize}

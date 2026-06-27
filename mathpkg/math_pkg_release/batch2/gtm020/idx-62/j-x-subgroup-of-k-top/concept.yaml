@@ -1,0 +1,23 @@
+id: j-x-subgroup-of-k-top
+title_en: "J(X) is a Subgroup of the Topological K-Group"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: fibre-bundles
+difficulty: advanced
+tags: [j-group, j-homomorphism, k-theory, classifying-space, h-space, fibre-homotopy]
+depends_on:
+  required: [j-x-abelian-group, stable-fibre-homotopy-equivalence]
+  recommended: [classifying-space, h-space, homotopy-group, k-theory]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "5"
+    pages: "239-240"
+    role_in_book: "Relates J(X) to topological K-theory and the J-homomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: vitali-set
+title_en: "Vitali set"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [vitali-set, non-measurable, axiom-of-choice, translation-invariance]
+depends_on:
+  required: [lebesgue-measure, nullset, rational-numbers-subgroup]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "5"
+    section: "Non-Measurable Sets"
+    pages: ""
+    role_in_book: "First construction of a non-measurable set using the axiom of choice"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: orientation-by-determinant
+title_en: "Orientation by a Determinant Function"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [orientation, determinant-function, real-vector-space, equivalence-class]
+depends_on:
+  required: [determinant]
+  recommended: [real-vector-space]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§8. Oriented vector spaces"
+    pages: "4.26"
+    role_in_book: "Defines orientation of a real vector space via equivalence classes of determinant functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

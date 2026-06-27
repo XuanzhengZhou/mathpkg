@@ -1,0 +1,99 @@
+The field $\Delta^{\star}$ is a normal extension of $\Delta$. The group of automorphisms of $\Delta^{\star}$ over $\Delta$ is canonically isomorphic to the factor group $G_Z/G_T$.
+
+Proof. We first show that every automorphism $s$ in $G_Z$ defines an automorphism $\bar{s}$ of $\Delta^{\star}$ over $\Delta$. Given any element $\xi$ in $\Delta^{\star}$, there exists an element $x$ in $R_{v^{\star}}$ whose $v^{\star}$-residue is $\xi$. If $s \in G_Z$ then also $s(x) \in R_{v^{\star}}$. If $x'$ is another element of $R_{v^{\star}}$ with $v^{\star}$-residue $\xi$, then $x' - x \in \mathfrak{M}_{v^{\star}}$ and hence also $s(x') - s(x) \in \mathfrak{M}_{v^{\star}}$, since $s \in G_Z$. It follows that the $v^{\star}$-residue of $s(x)$, for given $s$ in $G_Z$, depends only on $\xi$. We denote this residue by $\bar{s}(\xi)$. It is immediate that the mapping $\xi \rightarrow \bar{s}(\xi)$ is an automorphism $\bar{s}$ of $\Delta^{\star}$, and that $\bar{s}$ is an automorphism over $\Delta$, for if $\xi \in \Delta$ then we can choose $x$ in $R_v$ and have then $s(x) = x$. It is also clear that the mapping $s \rightarrow \bar{s}$ is a homomorphism of $G_Z$ into the group $G(\Delta^{\star}/\Delta)$ of automorphisms of $\Delta^{\star}$ over $\Delta$ and that the kernel of this homomorphism is the inertia group $G_T$ of $v^{\star}$. We have now to show that $\Delta^{\star}$ is a
+
+$\bar{s}^{-1}(\xi) = \xi_2$. If we take now for $\xi$ a primitive element, over $\Delta$, of the maximal separable extension of $\Delta$ in $\Delta^\star$, then our result that every conjugate of $\xi$ over $\Delta$ is of the form $\bar{s}(\xi)$, $s \in G_Z$, implies that the homomorphism $s \rightarrow \bar{s}$ maps $G_Z$ onto the group $G(\Delta^\star/\Delta)$. This completes the proof of the theorem.
+
+In the sequel we shall denote by $K_Z$ and $K_T$ respectively the fixed fields of $G_Z$ and $G_T$; $K_Z$ is the decomposition field of $v^\star$, and $K_T$ is the inertia field of $v^\star$ (relative to $K$). We shall denote by $v_Z$ and $v_T$ respectively the restriction of $v^\star$ in $K_Z$ and $K_T$, by $\Delta_Z$ and $\Delta_T$ the residue fields of the valuations $v_Z$ and $v_T$, and by $\Gamma_Z$ and $\Gamma_T$ their respective value groups. Clearly $\Delta_Z$ is a subfield of $\Delta_T$, and $\Gamma_Z$ is a subgroup of $\Gamma_T$. Furthermore, $K_T$ is a normal extension of $K_Z$, with Galois group $G_Z/G_T$, since $G_T$ is a normal subgroup of $G_Z$.
+
+These definitions have a relative character, and it is easy to see how the decomposition field or inertia field of $v^\star$ is affected if we replace $K$ by another field $L$ between $K$ and $K^\star$. Namely, if we denote by $L_Z$ and $L_T$ respectively the decomposition field and the inertia field of $v^\star$, relative to $L$, then $L_Z$ is the compositum of $K_Z$ and $L$ (least subfield of $K^\star$ which contains both $K_Z$ and $L$) and similarly $L_T$ is the compositum of $K_T$ and $L$:
+
+(4) $L_Z = (K_Z, L
+
+K by the field $K_T$ it follows that $G(\Delta^\star/\Delta_T) = G_T/G_T = (1)$, showing that $\Delta^\star$ is purely inseparable over $\Delta_T$. On the other hand, we have already observed that $G_T$ is an invariant subgroup of $G_Z$ and that consequently $K_T$ is a normal separable extension of $K_Z$, with Galois group $G_Z/G_T$. Hence, if we replace in Theorem 21 the fields $K$ and $K^\star$ by the fields $K_Z$ and $K_T$ respectively, we find that $G(\Delta_T/\Delta_Z)$ is canonically isomorphic with $G_Z/G_T$. Since $[\Delta_T:\Delta_Z] \leq [K_T:K_Z] = \text{order of } G_Z/G_T$, it follows that $[\Delta_T:\Delta_Z] \leq \text{order of } G(\Delta_T/\Delta_Z)$, and hence $[\Delta_T:\Delta_Z] = \text{order of } G(\Delta_T/\Delta_Z)$, showing that $\Delta_T$ is a normal separable extension of $\Delta_Z$.
+
+We point out that in the course of this proof we have shown incidentally that
+
+$$[\Delta_T:\Delta_Z] = [K_T:K_Z].$$
+
+It remains to prove that $\Delta_Z = \Delta$. Let $\xi$ be any element of $\Delta_Z$. By the cited Lemma 2 of §7 we can find an element $x$ in $K_Z$ having $v_Z$-residue $\xi$ and such that $v'(x) > 0$ for every extension $v'$ of $v$ to $K_Z$, different from $v_Z$. If $x_i$ is any conjugate of $x$ (over $K$), different from $x$, then $x = s(x_i)$ for some $s$ in $G$, and we have necessarily $s \notin G_Z$ since $x_i \neq x$. By (1), we have $v^\star(x_i) = v^\star(s(x))$, and, furthermore, we have $v^\star(s(x) > 0$ since $v^\star s \neq v^\star$ (s
+
+different from $x$, then $v_Z(x_i) = 0$. Hence the norm $x \cdot \Pi x_i$ is an element $y$ of $K$ such that $v(y) = v_Z(x) + 0 = \alpha$. Therefore $\alpha \in \Gamma$ and $\Gamma_Z = \Gamma$. This completes the proof of the theorem in the case in which the extensions of $v$ to $K^\star$ are independent valuations.
+
+In the general case we shall use induction with respect to the number $g$ of distinct extensions of $v$ to $K^\star$, for if $g = 1$ then $K = K_Z$ (by Theorem 22, part (a)) and the equality $\Gamma = \Gamma_Z$ is then trivial.
+
+If $v$ has rank 1 then the $g$ extensions of $v$ to $K^\star$ are also of rank 1 and are therefore independent. We shall therefore assume that $v$ is of rank $> 1$ and we may also assume that the $g$ extensions of $v$ to $K^\star$ are not independent. We shall make use of the results proved at the end of the preceding section (§11, Note). From our assumption that the $g$ extensions of $v$ to $K^\star$ are dependent valuations follows that $\gamma(v')$ is not constantly equal to $g$ as $v'$ varies in the set $L(v)$. It was shown in §11 that in that case there exists a decomposition $v = v' \circ \bar{v}$ of $v$ satisfying the following condition: $\gamma(v') = h < g$, and if $v'_1^\star, v'_2^\star, \dots, v'_h^\star$ are the extensions of $v'$ to $K^\star$ then for each $s = 1, 2, \dots, h$ the extensions of $\bar{v}$ to the residue field $\Delta'_s^\star$ of $v'_s^\star$ are independent.
+
+To the decomposition $v = v' \circ \bar{v}$ there corresponds a decomposition $v^\star = v'^\star \circ \bar{v}^\star$, where $v'
+
+Since $h < g$, it follows from our induction hypothesis that Theorem 23 is valid for $v'$ and $v'^\star$, i.e., we have
+
+(7) $$\Gamma' = \Gamma'_{Z'} = \Gamma'_{T'},$$
+
+where $\Gamma'$ is the value group of $v'$. In view of (6), this also implies that
+
+(8) $$\Gamma' = \Gamma'_{Z} = \Gamma'_{T}.$$
+
+The decomposition $v^\star = v'^\star \circ \bar{v}^\star$ yields a corresponding decomposition of $v_{Z'}$:
+
+(9) $$v_{Z'} = v'_{Z'} \circ \bar{v}_{Z'},$$
+
+where $\bar{v}_{Z'}$ is the restriction of $\bar{v}^\star$ to the residue field $\Delta'_{Z'}$ of $v'_{Z'}$. By Theorem 22, part (b), we have that $\Delta'_{Z'}$ coincides with the residue field $\Delta'$ of $v'$. Since $\bar{v}_{Z'}$ is an extension of the valuation $\bar{v}$ of $\Delta'$, it follows that $\bar{v}_{Z'} = \bar{v}$. This, in conjunction with (9) and equality (7), shows that $\Gamma = \Gamma_{Z'}$. It is therefore only necessary to show that $\Gamma_{Z'} = \Gamma_{Z}$. Thus we may replace the field $K$ by the field $K_{Z'}$. We may therefore assume that $K$ is the decomposition field of $v'^\star$ and that therefore $v'^\star$ is the only extension of $v'$ to $K^\star$. The valuation $\bar{v}$ has then exactly $g$ extensions to $\Delta'^\star$, and by our choice of $v'$ these $g$ extensions are independent valuations.
+
+Let $H$ be the isolated subgroup of $\Gamma$ which corresponds to the decomposition $v = v' \circ \bar{v}$ ($H = \text{value group of } \bar{v}$; $\Gamma' = \Gamma/H = \text{value group of } v'$). Let
+
+It is clear that the index of $G_Z$ in $G$ is equal to the number $g$ of extensions of $v$ to $K^\star$. Hence
+
+(11) $$[K_Z:K] = g = (G:G_Z).$$
+
+We denote by $f_0$ the separable factor of the relative degree $f = [\Delta^\star:\Delta]$ and we set
+
+(12) $$f = f_0\pi^s,$$
+
+where $\pi$ is the characteristic of $\Delta$ if the characteristic is different from zero and is 1 otherwise. Theorems 21 and 22 show that
+
+(13) $$f_0 = [\Delta_T:\Delta_Z] = [K_T:K_Z] = \text{order of } G_Z/G_T.$$
+
+For any $s$ in $G_T$ and for any element $a$ of $K^\star$, $a \neq 0$, we denote by $(a, s)$ the $v^\star$-residue of $s(a)/a$. (By (3), this residue is different from $\infty$ and 0 if $s \in G_Z$ and hence, $a$ fortiori, also if $s$ is in $G_T$.) We have the following relations
+
+(14) $$(a, s) = 1 \quad \text{if} \quad a \in R_v, a \notin \mathfrak{M}_v, s \in G_T;$$
+
+(14') $$(ab, s) = (a, s)(b, s), \quad \left\{ \begin{array}{l} a, b \in K^\star; s, t \in G_T \\ a, st = (a, s)(a, t). \end{array} \right.$$
+
+Relation (14) is evident, since $s(a) - a = m \in \mathfrak{M}_v$, $s(a)/a = 1 + m/a$, and the $v$-residue of $m/a$ is zero if $a \notin \mathfrak{M}_v$. Also relation (14') is evident since $s(ab) = s(a)s(b)$. As to (14''),
+
+then (14") shows that the mapping
+
+(15') $\varphi: G_T \rightarrow \text{Hom} (K^{\star'}, \Delta^{\star'})$
+
+is a homomorphism. Similarly, for fixed $a$ in $K^{\star'}$, the mapping $s \rightarrow (a, s)$ is an element of $\text{Hom} (G_T, \Delta^{\star'})$. If we denote this element by $\psi(a)$:
+
+(16) $\psi(a): s \rightarrow (a, s), s \in G_T,$
+
+then (14') shows that the mapping
+
+(16') $\psi: K^{\star'} \rightarrow \text{Hom} (G_T, \Delta^{\star'})$
+
+is a homomorphism. We shall investigate the kernels of $\varphi$ and $\psi$ in order to determine to what extent the pairing $(a, s)$ is "faithful."
+
+The elements of the kernel of $\varphi$ are those elements $s$ of $G_T$ for which it is true that $\varphi(s)$ maps every element of $K^{\star'}$ into the element 1 of $\Delta^{\star'}$, i.e., those elements $s$ for which $(a, s) = 1$ for any $a$ in $K^{\star'}$. Now, $(a, s) = 1$ is equivalent to $v^{\star} \left( \frac{s(a)}{a} - 1 \right) > 0$. Hence the kernel of $\varphi$ consists of those elements $s$ of $G_T$ which satisfy the condition
+
+(17) $v^{\star} (s(x) - x) > v^{\star} (x),$ for all $x$ in $K^{\star'}$.
+
+These elements form therefore an invariant subgroup of $G_T$. This subgroup is denoted by $G_V$ and is called the large ramification group of $v^{\star}$.
+
+In the case of Dedekind rings treated in Chapter V, § 10, the large ramification group $G_V$ is the inverse image in $G_T$ of the subgroup $G'_1$ of $G_T / G_{V_2}$ mentioned in V, § 10, Theorem
+
+of $G_T/G_V$ into the group of homomorphisms of $\Gamma^\star/\Gamma$ into $\Delta^\star'$, while the homomorphism $\psi$, defined by (16) and (16'), gives rise to a homomorphism
+
+(19) $\bar{\psi}_1: \Gamma^\star/\Gamma \rightarrow \text{Hom} (G_T/G_V, \Delta^\star')$
+
+of $\Gamma^\star/\Gamma$ into the group of homomorphisms of $G_T/G_V$ into $\Delta^\star'$.
+
+We point out the special case in which $\Gamma^\star/\Gamma$ is a cyclic group of order $e$ [see (2)] (we have this case, for instance, if $v$ is a discrete valuation of rank 1). If we choose a generator $\alpha$ of $\Gamma^\star/\Gamma$ (for instance, $\alpha = \text{the } \Gamma$-coset of the smallest positive element of $\Gamma^\star$, if $v$ is discrete of rank 1), then any homomorphism $h$ of $\Gamma^\star/\Gamma$ into $\Delta^\star'$ is uniquely determined by the value $h(\alpha)$. Hence, if we set, for any $\sigma$ in $G_T/G_V$, $i(\sigma) = (\bar{\varphi}_1(\sigma))(\alpha)$, then $i$ is an isomorphism of $G_T/G_V$ into the multiplicative group $\Delta^\star'$ (see Vol. I, Ch. V, § 10, Theorem 25).
+
+We denote by $\pi$ the 'characteristic exponent' of the residue field $\Delta$ of $v$, i.e., $\pi$ is equal to the characteristic $p$ of $\Delta$ if $p \neq 0$ and is equal to 1 if $p = 0$. The finite abelian group $\Gamma^\star/\Gamma$ is the direct sum of a $\pi$-group $\bar{\Gamma}_\pi$ (= the set of elements $\bar{\alpha}$ such that the order of $\bar{\alpha}$ is a power of $\pi$) and a group $\bar{\Gamma}_0$ whose order is prime to $\pi$ ($\bar{\Gamma}_0 = \text{set of
+
+We note that in the case of characteristic zero $\tilde{\Gamma}_0$ coincides with $\Gamma^\star/\Gamma$.
+
+We now study the large ramification group $G_V$.

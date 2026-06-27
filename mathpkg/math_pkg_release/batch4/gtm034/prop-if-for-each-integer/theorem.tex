@@ -1,0 +1,49 @@
+If for each integer $p \geq 0,$
+
+$$\lim_{N \to \infty} E_0 \left[ \left( \frac{\sigma^2 T_N}{N^2} \right)^p \right] = m_p$$
+
+with $m_p$ given in P3, then T2 is true.
+
+The analysis of the moments of $T_N$ begins with a little trick. Keeping in mind that the random walk starts at $x_0 = 0$, we define the random variables
+
+$$\psi_{N,0} = 1, \quad N \geq 1,$$
+
+$$\psi_{N,k} = 1 \text{ if } |x_i| \leq N \text{ for } i = 1, 2, \ldots, k$$
+
+$$= 0 \text{ otherwise, } N \geq 1.$$
+
+Then
+
+$$T_N = \sum_{k=0}^{\infty} \psi_{N,k},$$
+
+$$T_N^2 = \sum_{k_1=0}^{\infty} \sum_{k_2=0}^{\infty} \psi_{N,k_1} \psi_{N,k_2} = \sum_{k_1=0}^{\infty} \sum_{k_2=0}^{\infty} \psi_{N,j},$$
+
+where $j = j(k_1,k_2) = \max(k_1,k_2)$. The number of distinct pairs $(k_1,k_2)$ of non-negative integers whose maximum is $j$ turns out to be $(j+1)^2 - j^2$, so that
+
+$$T_N^2 = \sum_{j=0}^{\infty} \psi_{N,j}[(j+1)^
+
+negative integers, all of which are less than or equal to $j$, turns out to be $(j + 1)^p - j^p$ (the difference between the volumes of two cubes!) and one can write
+
+$$\mathbf{T}_N^p = \sum_{j=0}^{\infty} \psi_{N,j}[(j + 1)^p - j^p], \quad p \geq 1, \quad N \geq 1.$$
+
+This gives us a very natural setup for the calculation of moments. In the terminology of D21.1
+
+$$\mathbf{E}_0[\psi_{N,j}] = \sum_{i=0}^{2N} Q_{2N}^i(N,i).$$
+
+If we define $g_{2N}^p(x,y)$ as the $p^{\text{th}}$ power of the matrix $g_{2N}(x,y)$, $0 \leq x, y \leq 2N$ then
+
+$$g_{2N}^p(x,y) = (I_{2N} - Q_{2N})^{-p}(x,y) = \sum_{k=0}^{\infty} \binom{-p}{k}(-1)^k Q_{2N}^k(x,y).$$
+
+Therefore
+
+(1) $$\sum_{y=0}^{2N} g_{2N}^p(N,y)$$
+
+$$= \sum_{k=0}^{\infty} \binom{-p}{k}(-1)^k \mathbf{E}_0[\psi_{N,k}]$$
+
+$$= \frac{1}{(p-1)!} \sum_{k=0}^{\infty} (k+1)(k+2) \cdots (k+p-1) \mathbf{E}_0[\psi_{N,k}].$$
+
+On the other hand,
+
+(2) $$\mathbf{E}_0[\mathbf{T}_N^p] = \sum_{k=0}^{\infty} [(k+1)^p - k^p] \mathbf{E}_0[\psi_{N,k}].$$
+
+Now we are in a position to show that

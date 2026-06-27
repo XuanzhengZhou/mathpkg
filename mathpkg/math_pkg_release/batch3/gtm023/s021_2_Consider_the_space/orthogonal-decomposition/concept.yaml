@@ -1,0 +1,23 @@
+id: orthogonal-decomposition
+title_en: "Orthogonal decomposition and orthogonal projection"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [inner-product, orthogonal-complement, orthogonal-decomposition, orthogonal-projection]
+depends_on:
+  required: [inner-product-space, orthogonal-complement, orthonormal-basis]
+  recommended: [schmidt-orthogonalization]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "7"
+    section: "2. Orthonormal bases"
+    pages: ""
+    role_in_book: "Establishes the orthogonal decomposition E = E_1 ⊕ E_1^\\perp and the formula for orthogonal projection"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

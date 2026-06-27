@@ -1,0 +1,5 @@
+Random variables $X_1, \ldots, X_k$ are said to be \text{jointly normally distributed} if every linear combination $t_1 X_1 + \cdots + t_k X_k$ is normally distributed. Let $\mathbf{m} = (m_1, \ldots, m_k)$ be the mean vector and $\mathbf{R} = (r_{u,v})$ the covariance matrix with $r_{u,v} = E[(X_u - m_u)(X_v - m_v)]$. The joint characteristic function is
+$$\varphi(t_1, \ldots, t_k) = \exp\left\{-\frac{1}{2} \mathbf{t} \mathbf{R} \mathbf{t}' + i \mathbf{t} \mathbf{m}'\right\}.$$
+
+If $\mathbf{R}$ is nonsingular, the joint density exists and is
+$$f(x_1, \ldots, x_k) = \frac{1}{(2\pi)^{k/2} |\mathbf{R}|^{1/2}} \exp\left\{-\frac{1}{2} (\mathbf{x} - \mathbf{m}) \mathbf{R}^{-1} (\mathbf{x} - \mathbf{m})'\right\}.$$

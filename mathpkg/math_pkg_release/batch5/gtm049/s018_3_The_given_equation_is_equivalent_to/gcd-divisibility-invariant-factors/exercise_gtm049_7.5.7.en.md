@@ -1,0 +1,15 @@
+---
+role: exercise
+locale: en
+chapter: "7"
+section: "7.5"
+exercise_number: 7
+---
+
+In part (b)(i) of the proof of Theorem 1 we argue thus: If $[d] = [m_j] + [m_k]$ and $d = um_j + vm_k$, put
+$$b_j' = vb_j - ub_k, \quad b_k' = \frac{m_j}{d} b_j + \frac{m_k}{d} b_k.$$
+Then $[b_j, b_k] = [b_j', b_k']$ and $m_j b_j + m_k b_k = db_k'$. Hence $d$ has length $\geq$ length $m_k$. Thus $xd = m_k$, where $x$ is invertible (exercise 5) and so $m_k$ divides $m_j$.
+
+Part (b)(ii): Let $d$ be a greatest common divisor of $m_k, n_k$ and suppose $d = um_k + vn_k$. Then $u$ times the first relation plus $v$ times the second yields
+$$\sum_{i=1}^{k-1} (um_i + vn_i) b_i + db_k = 0$$
+and so (again by exercise 5) $m_k = xd$, where $x$ is invertible. Thus $m_k$ divides $n_k$.

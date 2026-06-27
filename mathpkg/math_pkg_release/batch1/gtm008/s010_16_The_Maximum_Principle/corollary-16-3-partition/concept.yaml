@@ -1,0 +1,23 @@
+id: corollary-16-3-partition
+title_en: "Partition of Unity via Boolean-Valued Witnesses"
+title_zh: "布尔值划分单位元推论"
+type: corollary
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: intermediate
+tags: [boolean-valued-universe, partition-of-unity, maximum-principle]
+depends_on:
+  required: [maximum-principle, domain-extension-for-families]
+  recommended: []
+  suggested: [corollary-16-3-partition]
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: ""
+    role_in_book: "Corollary of the Maximum Principle — given a family of Boolean-valued sets and disjoint Boolean elements, there exists a set in the Boolean-valued universe combining them."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

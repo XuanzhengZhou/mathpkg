@@ -1,0 +1,23 @@
+id: local-symbol-independence
+title_en: "Independence of the Local Symbol from the Upper Index"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [local-symbol, explicit-reciprocity-law, norm-coherent-sequence, local-field, congruence]
+depends_on:
+  required: []
+  recommended: [logarithmic-derivative-congruence, h-k-congruence-formula]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "9"
+    section: "1. A Local Pairing with the Logarithmic Derivative"
+    pages: ""
+    role_in_book: "Lemma 3.2, establishes well-definedness of the local symbol [x]"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

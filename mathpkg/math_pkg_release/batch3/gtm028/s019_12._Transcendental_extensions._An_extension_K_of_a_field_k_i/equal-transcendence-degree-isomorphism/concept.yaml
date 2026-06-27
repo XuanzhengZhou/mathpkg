@@ -1,0 +1,23 @@
+id: equal-transcendence-degree-isomorphism
+title_en: "Equal Finite Transcendence Degree Implies Isomorphism (Theorem 29)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: field-theory
+difficulty: intermediate
+tags: [transcendence-degree, k-homomorphism, isomorphism, integral-domain]
+depends_on:
+  required: [transcendence-degree-homomorphism, transcendence-degree]
+  recommended: [k-homomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "II. Elements of Field Theory"
+    section: "§12. Transcendental Extensions"
+    pages: ""
+    role_in_book: "Shows that a surjective k-homomorphism between integral domains of equal finite transcendence degree must be an isomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

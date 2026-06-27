@@ -1,0 +1,23 @@
+id: total-description-map
+title_en: "Total Description Map"
+title_zh: "全描述映射"
+type: definition
+domain: algebra
+subdomain: universal-algebra
+difficulty: intermediate
+tags: [omega-algebra, recursion, interpretation, term-evaluation]
+depends_on:
+  required: [omega-algebra, principle-of-finitary-algebraic-general-recursion]
+  recommended: [uncoupling-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.18"
+    pages: ""
+    role_in_book: "Defines the evaluation map from Ω-words to algebra elements, making operations out of formulas"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

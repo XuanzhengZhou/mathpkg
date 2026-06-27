@@ -1,0 +1,23 @@
+id: factor-algebra-prime-power-decomposition
+title_en: "Decomposition of the factor algebra by prime-power factorization"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [factor-algebra, prime-factorization, direct-sum, ideal, idempotent, decomposition]
+depends_on:
+  required: [factor-algebra, prime-polynomial, ideal-sum-relatively-prime-characterization, lattice-isomorphism]
+  recommended: [idempotent, direct-sum-decomposition, polynomial-algebra]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "12"
+    section: "4. The structure of factor algebras"
+    pages: "386-388"
+    role_in_book: "Decomposes the factor algebra into a direct sum of ideals corresponding to the prime-power factors of f, and provides explicit formulas for the identity and indeterminate decompositions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

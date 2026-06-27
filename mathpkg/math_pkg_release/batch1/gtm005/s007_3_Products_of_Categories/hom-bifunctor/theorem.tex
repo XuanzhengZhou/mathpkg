@@ -1,0 +1,9 @@
+Let $C$ be a category with small hom-sets. The \textbf{hom bifunctor} is the functor
+$$\hom_C: C^{\text{op}} \times C \to \text{Set}$$
+defined on objects by $\hom_C(b, c)$ (the set of arrows $b \to c$ in $C$) and on arrows $(f^{\text{op}}, g): (b, c) \to (b', c')$ (where $f: b' \to b$ in $C$ and $g: c \to c'$ in $C$) by
+$$\hom_C(f, g)(h) = g \circ h \circ f$$
+for every $h \in \hom_C(b, c)$.
+
+The co- and contravariant hom-functors
+$$\hom_C(-, c): C^{\text{op}} \to \text{Set}, \quad \hom_C(b, -): C \to \text{Set}$$
+satisfy the interchange condition (4) for bifunctors, making $\hom_C$ a bifunctor.

@@ -1,0 +1,13 @@
+id: simplicial-approximation-existence
+title_en: "Existence of Simplicial Approximation"
+title_zh: "单纯逼近的存在性"
+type: proposition
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: intermediate
+tags: [simplicial-approximation, subdivision, finite-complex, mapping]
+depends_on: {required: [barycentric-subdivision, simplicial-complex, mesh], recommended: [barycentric-subdivision-mesh-bound], suggested: []}
+source_books: [{book_id: "gtm047", author: "Edwin E. Moise", title: "Geometric Topology in Dimensions 2 and 3", chapter: "5", section: "5", pages: "52-57", role_in_book: "Property 8: For a finite complex K and mapping into R^m, there exists a subdivision and an approximating map with controlled error"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: partially-ordered-set
+title_en: "Partially Ordered Set"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [partial-order, poset, reflexive, antisymmetric, transitive]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II: Linear Algebra"
+    chapter: "IV"
+    section: "1-6"
+    pages: ""
+    role_in_book: "Recalls the definition of a partially ordered set: a set with a binary relation a <= b satisfying reflexivity, antisymmetry, and transitivity. Initially defined in Chapter I."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

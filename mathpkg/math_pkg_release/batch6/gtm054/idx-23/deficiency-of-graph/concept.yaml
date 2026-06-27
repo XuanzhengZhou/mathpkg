@@ -1,0 +1,23 @@
+id: deficiency-of-graph
+title_en: "Deficiency of a graph"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [graph, deficiency, 1-factor, extremal-set]
+depends_on:
+  required: [deficiency-of-subset-general-graph]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "V"
+    section: "B"
+    pages: ""
+    role_in_book: "Definition: deficiency of a graph $\delta(\Gamma)$ as maximum subset deficiency"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+For $n \geqslant 2$, a compact set contained in a polycylinder cannot be a removable singularity for all holomorphic functions. More dramatically, every function holomorphic outside a small compact set extends to the whole polycylinder.

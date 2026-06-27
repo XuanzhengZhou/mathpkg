@@ -1,0 +1,23 @@
+id: lusin-theorem-for-baire-measures
+title_en: "Lusin's Theorem for Baire Measures"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [lusin-theorem, baire-measure, compact-baire-set, continuity, egoroff-theorem, regularity]
+depends_on:
+  required: [baire-measure, compact-baire-set, baire-function]
+  recommended: [egoroff-theorem, regularity-of-baire-measures]
+  suggested: []
+source_books:
+  - book_id: "gtm018"
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "55"
+    section: "55. Classes of Continuous Functions"
+    pages: ""
+    role_in_book: "Theorem C; Lusin's theorem — every Baire function is almost continuous on a compact set of large measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,19 @@
+Given a natural transformation $\gamma: S \Rightarrow S'$ between functors $S, S': C^{\mathrm{op}} \times C \to X$ which both have ends $\langle e, \omega \rangle$ and $\langle e', \omega' \rangle$, respectively, there is a unique arrow
+
+$$g = \int_c \gamma_{c,c}: e \to e'$$
+
+in $X$ such that for every $c \in C$ the following diagram commutes:
+
+$$
+\begin{CD}
+\int_c S(c,c) @>{\omega_c}>> S(c,c) \\
+@V{g}VV @VV{\gamma_{c,c}}V \\
+\int_c S'(c,c) @>>{\omega'_c}> S'(c,c)
+\end{CD}
+$$
+
+Equivalently, $\omega'_c \circ g = \gamma_{c,c} \circ \omega_c$ for all $c \in C$.
+
+Moreover, the assignment is functorial: for another natural transformation $\gamma': S' \Rightarrow S''$, we have
+
+$$\int_c (\gamma' \circ \gamma)_{c,c} = \left(\int_c \gamma'_{c,c}\right) \circ \left(\int_c \gamma_{c,c}\right).$$

@@ -1,0 +1,7 @@
+Given a diagram scheme $\Delta$, define the \textbf{dual scheme} $\Delta^{\text{op}}$ by
+$$N(\Delta^{\text{op}}) = N(\Delta), \qquad \Delta^{\text{op}}(i, j) = \Delta(j, i).$$
+
+If $(\Delta, D)$ is a diagram in $\mathcal{K}$, i.e., a functor $D: \Delta \to \mathcal{K}$, then a \textbf{colimit} of $(\Delta, D)$ is defined as the limit of the dual diagram $(\Delta^{\text{op}}, D)$ in $\mathcal{K}^{\text{op}}$:
+$$\operatorname{colim}(\Delta, D) = \lim(\Delta^{\text{op}}, D) \quad\text{in}\quad \mathcal{K}^{\text{op}}.$$
+
+Equivalently, a cocone on $(\Delta, D)$ with vertex $C$ is a natural transformation from $D$ to the constant functor at $C$, and a colimit is a universal cocone (initial among all cocones).

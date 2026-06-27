@@ -1,0 +1,23 @@
+Let $A$ be a local ring, $m$ its maximal ideal, $q$ an ideal in $A$ which is primary for $m$, and $B$ an overring of $A$ which is a finite $A$-module. Then $B$ is a semi-local ring, and $B_q$ is an open ideal in $B$. Let $\{p_i\}$ be the set of maximal ideals of $B$ and let $q_i$ be the primary component of $B_q$ relative to $p_i$. If no element $\neq 0$ in $A$ is a zero divisor in $B$, then the polynomials $[B:A]\bar{P}_q(n)$ and $\sum_i [B/p_i:A/m]\bar{P}_q_i(n)$ have the same degree and the same leading term.
+
+Proof. The assertions that $
+
+comaximal, $B/q^n$ is isomorphic to the direct sum of the rings $B/q_i^n$. Thus $\sum_i [B/p_i:A/m] \bar{P}_{q_i}(n)$ is, for $n$ large, the length of the $A$-module $B/Bq^n$.
+
+From now on we use the notation $\ell(E)$ for denoting the length of an $A$-module $E$. We have to compare $[B:A] \ell(A/q^n)$ and $\ell(B/Bq^n)$. Since $B$ is a finite $A$-module, we can find in $B$ a maximal system $\{b_1, \ldots, b_r\}$ ($r = [B:A]$) of elements which are linearly independent over $A$. Then there exists an element $a \neq 0$ in $A$ such that
+
+(4) $aB \subset E = \sum_{i=1}^{r} Ab_i \subset B$.
+
+The kernel of the canonical mapping of $E$ onto $(E+q^nB)/q^nB$ obviously contains $q^nE$. We thus have a canonical mapping of $E/q^nE$ onto $(E+q^nB)/q^nB$, whence the length of the latter module is at most equal to the length of the former. Since $E$ is a free $A$-module with $r$ generators it follows that
+
+(5) $r\ell(A/q^n) = \ell(E/q^nE) \geq \ell((E+q^nB)/q^nB) \geq \ell((aB+q^nB)/q^nB)$,
+
+i.e.,
+
+(5') $r\ell(A/q^n) \geq \ell(B/q^nB) - \ell(B/(aB+q^nB))$.
+
+On the other hand, the kernel of the canonical mapping of $aB$ onto $(aB+q^nE)/q^nE$ obviously contains $q^naB$. We therefore have a canonical mapping of $aB/q^naB$ onto $(aB+q^nE)/q^nE$. Since, by assumption
+
+length of $A'/q'n = A/(aA + q^n)$ is the same whether we regard this ring as an $A$-module or as an $A'$-module. Since $a$ is a regular element in $A$, the polynomial $\bar{P}_{q'}(n)$ is of degree $d-1$ (Corollary 2 to Theorem 20, § 9). On the other hand $\bar{P}_{q}(n)$ and $\ell(B/Bq^n) = \sum_i [B/p_i:A/m] \bar{P}_{q_i}(n)$ (for $n$ large) are polynomials of degree $d$, since $A$ is a local ring of dimension $d$ and since $B$ is a finite $A$-module. (Corollary 3 to Theorem 20, § 9.) It remains to study the term $\ell(B'/B'q^n)$ in (7). Since $B'$ is a finite $A$-module which is annihilated by $Aa$, it is also a finite $A'$-module ($A' = A/Aa$). The length of $B'/B'q^n$ is the same whether we regard this ring as an $A$-module or as an $A'$-module. Thus, since $A'$ is a local ring of dimension $d-1$, $\ell(B'/B'q^n)$ is, as above, a polynomial of degree $d-1$ for $n$ large.
+
+This being so, inequalities (7) prove that the degree of $\ell(B/Bq^n)$ is exactly $d$, and that the polynomials $\ell(B/Bq^n)$ and $r\bar{P}_{q}(n)$ have the same leading term. In view of what was shown in the earlier part of the proof, the length $\ell(B/Bq^n)$ of the $A$-module $B/Bq^n$ is equal to the polynomial $\sum_i [B/p_i:A/m] \bar{P}_{q_i}(n)$ for $n$ large. This proves our assertion.

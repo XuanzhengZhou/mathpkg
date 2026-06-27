@@ -1,0 +1,1 @@
+Convolution with an approximate identity converges to the original function in $L^p$ norm. This is the fundamental approximation theorem that justifies the use of mollifiers and the study of translation-invariant operators.

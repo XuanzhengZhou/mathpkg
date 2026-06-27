@@ -1,0 +1,10 @@
+Every arrow in $\Delta$ can be expressed as a composite of \textbf{face maps} $\delta_i^n: [n-1] \rightarrow [n]$ ($0 \leq i \leq n$), the injective map skipping $i$, and \textbf{degeneracy maps} $\sigma_i^n: [n+1] \rightarrow [n]$ ($0 \leq i \leq n$), the surjective map repeating $i$. These generate $\Delta$ subject to the simplicial identities:
+\begin{align*}
+\delta_j^{n+1} \circ \delta_i^n &= \delta_i^{n+1} \circ \delta_{j-1}^n \quad (i < j), \\
+\sigma_j^n \circ \sigma_i^{n+1} &= \sigma_i^n \circ \sigma_{j+1}^{n+1} \quad (i \leq j), \\
+\sigma_j^{n-1} \circ \delta_i^n &= \begin{cases}
+\delta_i^{n-1} \circ \sigma_{j-1}^{n-2} & (i < j) \\
+1_{[n-1]} & (i = j \text{ or } i = j+1) \\
+\delta_{i-1}^{n-1} \circ \sigma_j^{n-2} & (i > j+1).
+\end{cases}
+\end{align*}

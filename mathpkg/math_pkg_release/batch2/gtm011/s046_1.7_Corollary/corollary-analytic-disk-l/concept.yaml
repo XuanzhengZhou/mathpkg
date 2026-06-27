@@ -1,0 +1,23 @@
+id: corollary-analytic-disk-l
+title_en: "Corollary 1.11"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: ["blochs-constant", "analytic-function", "disk-containment", "derivative"]
+depends_on:
+  required: []
+  recommended: ["blochs-constant", "corollary-bloch-disk-radius"]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "1"
+    section: "1.11"
+    pages: ""
+    role_in_book: "corollary replacing 1/72 in Corollary 1.7 with Bloch's constant L, giving the best possible uniform bound"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

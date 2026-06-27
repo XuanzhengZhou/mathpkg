@@ -1,0 +1,23 @@
+id: duality-mu-pt-and-qt-f
+title_en: "Duality Relation between $\mu P^t$ and $Q^t f$"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: operator-theory
+difficulty: advanced
+tags: [duality, transition-operator, brownian-motion, semigroup, potential-theory]
+depends_on:
+  required: []
+  recommended: [transition-operator, brownian-motion-semigroup, space-of-finite-measures]
+  suggested: [riesz-representation-theorem]
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "7"
+    section: "3. Equivalence of Brownian motion and potential theory"
+    pages: "186-187"
+    role_in_book: "Duality linking the semigroup on measures to the semigroup on functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

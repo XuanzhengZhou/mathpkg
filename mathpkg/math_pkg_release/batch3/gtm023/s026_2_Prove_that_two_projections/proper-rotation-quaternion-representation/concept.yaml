@@ -1,0 +1,23 @@
+id: proper-rotation-quaternion-representation
+title_en: "Proper Rotation Quaternion Representation (Proposition II)"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: linear-algebra
+difficulty: advanced
+tags: [quaternions, rotation, representation, unit-quaternion]
+depends_on:
+  required: [quaternions-determine-rotations, quaternions]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: ""
+    title: "Linear Algebra"
+    chapter: "8"
+    section: "8.24"
+    pages: ""
+    role_in_book: "Proposition II: Every proper rotation of E can be written as x → axb^{-1}"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

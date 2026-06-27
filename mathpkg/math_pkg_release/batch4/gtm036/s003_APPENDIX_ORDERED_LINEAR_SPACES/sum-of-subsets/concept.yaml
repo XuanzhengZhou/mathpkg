@@ -1,0 +1,23 @@
+id: sum-of-subsets
+title_en: "Sum of Subsets of a Linear Space"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [sum-of-sets, minkowski-sum, subset-addition, scalar-multiplication-of-sets]
+depends_on:
+  required: [linear-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "John L. Kelley, Isaac Namioka, et al."
+    title: "Linear Topological Spaces"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Introduces algebraic operations on subsets; prerequisite for convexity and topological vector space theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

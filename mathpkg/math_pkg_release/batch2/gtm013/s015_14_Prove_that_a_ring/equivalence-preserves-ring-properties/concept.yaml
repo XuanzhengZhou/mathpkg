@@ -1,0 +1,23 @@
+id: equivalence-preserves-ring-properties
+title_en: "Morita Equivalence Preserves Ring-Theoretic Properties"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: ring-theory
+difficulty: advanced
+tags: [morita-equivalence, semisimple-ring, artinian-ring, noetherian-ring, primitive-ring, jacobson-radical]
+depends_on:
+  required: [morita-equivalent-rings, semisimple-ring, artinian-ring, noetherian-ring, primitive-ring, jacobson-radical]
+  recommended: [equivalence-preserves-module-properties]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "6"
+    section: "21"
+    pages: ""
+    role_in_book: "21.9 Corollary, ring properties preserved by Morita equivalence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

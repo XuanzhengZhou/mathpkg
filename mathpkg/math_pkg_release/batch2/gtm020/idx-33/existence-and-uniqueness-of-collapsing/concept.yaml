@@ -1,0 +1,23 @@
+id: existence-and-uniqueness-of-collapsing
+title_en: "Existence and Uniqueness of the Collapsing of a Vector Bundle"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: k-theory
+difficulty: intermediate
+tags: [vector-bundle, collapsing, trivialization, existence, uniqueness, relative-k-theory]
+depends_on:
+  required: [collapsing-of-vector-bundle-with-trivialization, trivialization-of-vector-bundle-over-subset]
+  recommended: [vector-bundle-morphism]
+  suggested: [cw-pair, neighborhood-deformation-retract]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "10. Relative K-Theory"
+    section: "1. Collapsing of Trivialized Bundles"
+    pages: "136-138"
+    role_in_book: "Proposition 1.3/1.4: Establishes that a collapsing exists iff the trivialization extends to an open neighborhood, that any two collapsings of the same bundle with the same trivialization are canonically isomorphic, and that every bundle over X/A arises as a collapsing."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

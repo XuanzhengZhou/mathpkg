@@ -1,0 +1,23 @@
+id: unitary-to-real-symplectic
+title_en: "Symplectic Structure from Unitary Space"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [unitary-space, symplectic, realification, inner-product, complex-structure]
+depends_on:
+  required: [symplectic-inner-product, symplectic-linear-transformation]
+  recommended: [unitary-space, inner-product-space, realification]
+  suggested: [kahler-manifold, complex-structure]
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "7"
+    pages: "347-352"
+    role_in_book: "Shows that the underlying real vector space of a unitary space carries both a positive definite symmetric inner product and a symplectic inner product, linked by the complex structure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: proposition-5-4-quasi-coherent-characterization
+title_en: "Proposition 5.4: Characterization of quasi-coherent and coherent sheaves"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [quasi-coherent-sheaf, coherent-sheaf, affine-scheme, tilde-construction]
+depends_on:
+  required: []
+  recommended: [quasi-coherent-sheaf, coherent-sheaf, spec-of-ring, tilde-module-sheaf]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "5"
+    pages: ""
+    role_in_book: "Gives the fundamental characterization: a sheaf is quasi-coherent iff it is locally of the form M~ on every affine open; coherent adds finite generation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

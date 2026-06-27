@@ -1,0 +1,23 @@
+id: many-sorted-translation
+title_en: "Translation Between Many-Sorted and Ordinary First-Order Logic"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: many-sorted-logic
+difficulty: intermediate
+tags: [many-sorted-logic, translation, first-order-logic, reduction, sort-predicates]
+depends_on:
+  required: [many-sorted-language, many-sorted-structure]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "29"
+    section: "5. Unusual Logics"
+    pages: ""
+    role_in_book: "Establishes the reduction of many-sorted logic to ordinary first-order logic through an associated language with unary sort predicates"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

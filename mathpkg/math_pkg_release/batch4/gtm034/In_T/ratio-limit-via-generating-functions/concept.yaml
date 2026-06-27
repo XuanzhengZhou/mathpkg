@@ -1,0 +1,20 @@
+id: ratio-limit-via-generating-functions
+title_en: "Ratio limit lemma via generating functions"
+title_zh: ""
+type: proposition
+domain: probability
+subdomain: random-walk
+difficulty: advanced
+tags: [ratio-limit, generating-function, hitting-time, recurrent-random-walk, finite-variance]
+depends_on: {required:[], recommended:[potential-kernel, green-function, stopping-time], suggested:[abel-theorem, generating-function]}
+source_books:
+  - book_id: gtm034
+    author: Frank Spitzer
+    title: Principles of Random Walk, 2nd ed.
+    chapter: "VII"
+    section: "32"
+    pages: "?"
+    role_in_book: "Lemma establishing T1 for recurrent random walk with finite variance via generating function identity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

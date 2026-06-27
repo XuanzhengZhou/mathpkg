@@ -1,0 +1,23 @@
+id: tail-set-category-dichotomy
+title_en: "Tail Set Category Dichotomy"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: descriptive-set-theory
+difficulty: advanced
+tags: [tail-set, property-of-baire, first-category, residual-set, zero-one-law, baire-category, product-space]
+depends_on:
+  required: [tail-set, property-of-baire, first-category-set, residual-set]
+  recommended: [baire-category-theorem, product-topology, cantor-set]
+  suggested: [kolmogorov-zero-one-law, kuratowski-ulam-theorem]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "4"
+    section: "21. The Extended Principle of Duality"
+    pages: ""
+    role_in_book: "Establishes the category analogue of the measure-theoretic zero-one law for tail sets, and the theorem generalizes to products of arbitrary families of Baire spaces with countable bases"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

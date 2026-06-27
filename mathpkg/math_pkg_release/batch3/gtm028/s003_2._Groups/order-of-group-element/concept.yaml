@@ -1,0 +1,23 @@
+id: order-of-group-element
+title_en: "Order of a Group Element"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [group, order, element, cyclic, finite, infinite]
+depends_on:
+  required: [group, cyclic-subgroup]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "I"
+    section: "2. Groups"
+    pages: "15-18"
+    role_in_book: "Defines the order of an element via its cyclic subgroup"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

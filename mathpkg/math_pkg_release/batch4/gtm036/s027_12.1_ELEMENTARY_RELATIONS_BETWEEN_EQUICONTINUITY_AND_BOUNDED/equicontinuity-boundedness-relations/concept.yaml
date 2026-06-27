@@ -1,0 +1,23 @@
+id: equicontinuity-boundedness-relations
+title_en: "Elementary Relations Between Equicontinuity and Boundedness"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [equicontinuity, boundedness, uniform-convergence, pointwise-convergence, linear-functions]
+depends_on:
+  required: [pointwise-boundedness, uniform-boundedness-on-set, equicontinuity]
+  recommended: [linear-topological-space, bounded-set, topology-of-uniform-convergence, topology-of-pointwise-convergence]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "Kelley, J. L. and Namioka, I."
+    title: "Linear Topological Spaces"
+    chapter: "12"
+    section: "12.1"
+    pages: ""
+    role_in_book: "Main theorem of the section, establishing hierarchy of boundedness conditions for families of linear functions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

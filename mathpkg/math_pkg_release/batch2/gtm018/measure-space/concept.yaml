@@ -1,0 +1,23 @@
+id: measure-space
+title_en: "Measure Space"
+title_zh: "测度空间"
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [measure-theory, measure-space]
+depends_on:
+  required: [measure, sigma-ring]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "IV"
+    section: "17"
+    pages: ""
+    role_in_book: "A set X together with a sigma-ring S of subsets and a measure mu on S"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

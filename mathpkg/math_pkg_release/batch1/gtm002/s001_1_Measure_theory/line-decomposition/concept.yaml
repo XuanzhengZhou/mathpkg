@@ -1,0 +1,23 @@
+id: line-decomposition
+title_en: "Decomposition of the Line into a Nullset and a First Category Set"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [decomposition, nullset, first-category, real-line]
+depends_on:
+  required: [nullset, first-category-set]
+  recommended: [cantor-set]
+  suggested: [baire-category-theorem]
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Demonstrates the duality between measure and category"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

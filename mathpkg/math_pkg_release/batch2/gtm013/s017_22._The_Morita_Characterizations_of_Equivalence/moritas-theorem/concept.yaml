@@ -1,0 +1,38 @@
+id: moritas-theorem
+title_en: "Morita's Theorem"
+title_zh: "森田定理"
+type: theorem
+domain: algebra
+subdomain: module-theory
+difficulty: advanced
+tags:
+  - morita-equivalence
+  - progenerator
+  - balanced-bimodule
+  - tensor-product
+  - hom-functor
+  - category-equivalence
+depends_on:
+  required:
+    - progenerator
+    - balanced-bimodule
+    - tensor-product-functor
+    - hom-functor
+    - category-equivalence
+  recommended:
+    - bimodule
+    - faithfully-balanced-bimodule
+  suggested:
+    - wedderburn-artin-theorem
+    - endomorphism-ring
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "4"
+    section: "22"
+    pages: ""
+    role_in_book: "Main characterization theorem for Morita equivalence of rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

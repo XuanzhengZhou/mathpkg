@@ -1,0 +1,23 @@
+id: ford-circles-tangency-points
+title_en: "Points of tangency of Ford circles for consecutive Farey fractions"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-approximation
+difficulty: intermediate
+tags: [ford-circles, farey-fractions, tangency-points, circle-method]
+depends_on:
+  required: [ford-circles-tangency-condition, farey-fractions]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "5"
+    section: "5.4"
+    pages: ""
+    role_in_book: "Theorem 5.7: explicit coordinates of Ford circle tangency points"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

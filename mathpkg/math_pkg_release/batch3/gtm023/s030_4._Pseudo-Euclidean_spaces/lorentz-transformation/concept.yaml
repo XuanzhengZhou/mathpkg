@@ -1,0 +1,23 @@
+id: lorentz-transformation
+title_en: "Lorentz Transformation"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: pseudo-euclidean-geometry
+difficulty: intermediate
+tags: [lorentz-transformation, minkowski-space, special-relativity, orthochroneous]
+depends_on:
+  required: [minkowski-space, pseudo-euclidean-rotation]
+  recommended: [fore-cone-past-cone]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "4"
+    pages: ""
+    role_in_book: "Defines Lorentz transformations and orthochroneous Lorentz transformations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

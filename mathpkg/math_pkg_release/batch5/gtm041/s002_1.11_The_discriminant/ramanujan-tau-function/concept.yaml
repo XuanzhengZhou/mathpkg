@@ -1,0 +1,23 @@
+id: ramanujan-tau-function
+title_en: "Ramanujan tau function"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: [ramanujan-tau, discriminant, modular-form, fourier-expansion]
+depends_on:
+  required: [discriminant-of-weierstrass-cubic]
+  recommended: [theorem-1-18-fourier-expansion-of-eisenstein-series]
+  suggested: []
+source_books:
+  - book_id: "gtm041"
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "1"
+    section: "1.15"
+    pages: ""
+    role_in_book: "Defines the Ramanujan tau function as the Fourier coefficients of the normalized discriminant"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

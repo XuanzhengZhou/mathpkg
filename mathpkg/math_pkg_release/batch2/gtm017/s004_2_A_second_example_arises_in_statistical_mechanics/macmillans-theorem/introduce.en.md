@@ -1,0 +1,1 @@
+MacMillan's theorem (AEP for ergodic processes): typical sequences have probability approximately $e^{-nH}$, with roughly $e^{nH}$ such sequences. Since $H \leq \log s$, this is typically much smaller than $s^n$.

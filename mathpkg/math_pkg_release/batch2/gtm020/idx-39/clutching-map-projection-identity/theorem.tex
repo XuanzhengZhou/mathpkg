@@ -1,0 +1,16 @@
+Let $X$ be a space and $\zeta$ a vector bundle over $X$. Let $p(x,z) = a(x)z + b(x)$ be a polynomial clutching map for $\zeta$ with $a(x), b(x) \in \operatorname{End}(\zeta_x)$ and $a(x)z + b(x)$ invertible for $|z| = 1$. Define
+$$
+p_0(x) = \frac{1}{2\pi i} \int_{|z|=1} (a(x)z + b(x))^{-1} a(x) \, dz
+$$
+and
+$$
+p_\infty(x) = \frac{1}{2\pi i} \int_{|z|=1} a(x)(a(x)z + b(x))^{-1} \, dz
+$$
+where $p_0, p_\infty: \zeta \to \zeta$ are bundle morphisms independent of $z$. Then for all $x \in X$ and $|z| = 1$,
+$$
+p(x,z) \, p_0(x) = p_\infty(x) \, p(x,z),
+$$
+and $p_0(x)$ and $p_\infty(x)$ are each projections, i.e.
+$$
+p_0(x) p_0(x) = p_0(x), \qquad p_\infty(x) p_\infty(x) = p_\infty(x).
+$$

@@ -1,0 +1,71 @@
+For $1 \leq p < \infty$, $\mathfrak{L}_p$ is a normed linear space over $K$, where we agree that $f = g$ means $f(x) = g(x)$
+
+$< n_k < \cdots$ and $\sum_{k=1}^{\infty} \| f_{n_{k+1}} - f_{n_k} \|_p = \alpha < \infty$. This is possible: e.g., we can select increasing $n_k$'s such that $\| f_m - f_{n_k} \|_p < 2^{-k}$ for all $m \geq n_k$. Now define
+
+$$g_k = |f_{n_1}| + |f_{n_2} - f_{n_1}| + \cdots + |f_{n_{k+1}} - f_{n_k}|, \text{ for } k = 1, 2, 3, \ldots.$$
+
+It is clear that
+
+$$\| g_k^p \|_1 = \| g_k \|_p^p = \left( \| |f_{n_1}| + |f_{n_2} - f_{n_1}| + \cdots + |f_{n_{k+1}} - f_{n_k}| \right)^p$$
+
+$$\leq \left( \| f_{n_1} \|_p + \sum_{j=1}^{k} \| f_{n_{j+1}} - f_{n_j} \|_p \right)^p \leq \left( \| f_{n_1} \|_p + \alpha \right)^p < \infty.$$
+
+Let $g = \lim_{k \to \infty} g_k$. By B. Levi's theorem (12.22), and the above estimate, we have
+
+$$\int g^p d\mu = \int \lim_{k \to \infty} g_k^p d\mu = \lim_{k \to \infty} \int g_k^p d\mu < \infty.$$
+
+Hence $g$ is in $\mathfrak{L}_p$; i.e.,
+
+$$\int \left[ |f_{n_1}| + \sum_{j=1}^{\infty} |f_{n_{j+1}} - f_{n_j}| \right]^p d\mu < \infty.$$
+
+The nonnegative integrand above must be finite $\mu$-a.e., and so
+
+is in $\mathfrak{L}_p$; and
+
+$$\lim_{n \to \infty} \|f - f_n\|_p = 0.$$ 
+
+(13.12) Remark. The function spaces $\mathfrak{L}_p'$ [real-valued $\mathcal{A}$-measurable functions defined $\mu$-a.e. on $X$ such that $\|f\|_p = (\int |f|^p d\mu)^{\frac{1}{p}} < \infty$] are real normed linear spaces for $1 \leq p < \infty$, and they too are complete. The proofs are very like the proofs for the complex spaces $\mathfrak{L}_p$.
+
+(13.13) Example. Let $D$ be any nonvoid set and consider all complex-valued functions $f$ on $D$ such that $\sum_{x \in D} |f(x)|^p < \infty$, where $0 < p < \infty$.
+
+[Recall that $\sum_{x \in D} |f(x)|^p = \sup \{ \sum_{x \in F} |f(x)|^p : F \text{ is a finite subset of } D \}.$]
+
+If $\mathcal{A}$ is all subsets of $D$ and $\mu$ the counting measure defined in (10.4.a), then these functions are the elements of $\mathfrak{L}_p(D, \mathcal{A}, \mu)$. Custom dictates that this space be designated by $l_p(D)$, and if $D = N$, simply by $l_p$. If $1 \leq p < \infty$, then $l_p(D)$ is a complete metric space in which the metric is obtained from the norm
+
+$$\|f\|_p = \left( \sum_{x \in D} |f(x)|^p \right)^{\frac{1}{p}}.$$
+
+The Hölder and Minkowski inequalities take the forms
+
+$$\sum_{x \in D} |f(x) g(x)| \leq \left( \sum_{x \in D} |f(x)|^p \right)^{\frac{1}{p}} \left( \sum_{x \in D} |g(x)|^
+
+and $\mathcal{A} = \mathcal{M}_1$], are very important function spaces in both pure and applied analysis.
+
+(13.15) Example. For $p = 2$, we obtain the famous function space $\mathcal{L}_2(X, \mathcal{A}, \mu)$. In this case $p = p' = 2$, and so Hölder's inequality takes the form
+
+$$\int |f g| d\mu \leq \|f\|_2 \|g\|_2$$
+
+for $f, g \in \mathcal{L}_2$. Consider the mapping that takes $\mathcal{L}_2 \times \mathcal{L}_2$ into $K$ by the rule
+
+$$(f, g) \rightarrow \int f \bar{g} d\mu = \langle f, g \rangle,$$
+
+where the equality defines $\langle f, g \rangle$. This mapping has the following properties:
+
+$$\langle f_1 + f_2, g \rangle = \langle f_1, g \rangle + \langle f_2, g \rangle;$$
+
+$$\alpha f, g = \alpha \langle f, g \rangle \text{ for } \alpha \in K;$$
+
+$$\overline{\langle f, g \rangle} = \langle g, f \rangle;$$
+
+$$\langle f, f \rangle > 0 \text{ for } f \neq 0.$$
+
+We infer from these identities [or directly] that
+
+$$\langle f, g_1 + g_2 \rangle = \langle f, g_1 \rangle + \langle f, g_2 \rangle,$$
+
+$$\langle f, \alpha g \rangle = \bar{\alpha} \langle f, g \rangle,$$
+
+and
+
+$$\langle 0, f \rangle = \langle f, 0 \rangle = 0.$$
+
+The spaces $\mathcal{L}_2$ can be described in abstract terms, as follows.

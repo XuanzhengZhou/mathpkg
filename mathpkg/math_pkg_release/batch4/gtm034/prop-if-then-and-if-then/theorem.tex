@@ -1,0 +1,119 @@
+If $\mu = 0$ then $E[T] = \infty$, and if $\mu > 0$, then
+
+$$E[T] = e^{\sum_{k=1}^{\infty} \frac{1}{k} P[S_k \leq 0]} < \infty.$$
+
+Proof:
+
+$$E[T] = \sum_{k=1}^{\infty} kP[T = k] = \lim_{t \to 1} \sum_{k=0}^{\infty} t^k P[T > k] = \lim_{t \to 1} \frac{1 - E[t^T]}{1 - t},$$
+
+as is verified by straightforward calculation. This limit may be finite or infinite. From part (a) of P17.5
+
+$$1 - E[t^T] = e^{-\sum_{k=1}^{\infty} \frac{t^k}{k} P[S_k > 0]},$$
+
+so that
+
+$$\frac{1 - E[t^T]}{1 - t} = e^{\sum_{k=1}^{\infty} \frac{t^k}{k} P[S_k \leq 0]}$$
+
+and
+
+$$E[T] = \lim_{t \to 1} e^{\sum_{k=1}^{\infty} \frac{t^k}{k} P[S_k \leq 0]} = e^{\sum_{k=1}^{\infty} \frac{1}{k} P[S_k \leq 0]} \leq \infty.$$
+
+By Theorem T17.1, the series in the last exponent is $+\infty$ (diverges) when $\mu = 0$, whereas it is finite when $\mu > 0$. (Strictly speaking the theorem in question gives this result for the series whose general term is $
+
+(Doob [23], p. 350). But for the sake of completeness, here is a direct proof.
+
+From P17.1
+
+$$\sum_{k=0}^{\infty} t^k \mathbf{E}[e^{i\theta k}; \mathbf{T} > k] = \frac{-i\theta}{1-t\phi(\theta)} \frac{1-\mathbf{E}[t^T e^{i\theta k}\mathbf{T}]}{-i\theta}.$$
+
+Since $\mu > 0$ we know from P1 that
+
+$$\sum_{k=0}^{\infty} \mathbf{P}[\mathbf{T} > k] = \mathbf{E}[\mathbf{T}] < \infty.$$
+
+Thus it appears reasonable to let $t \neq 1$, and to avoid difficulty on the right-hand side we do this only for such $\theta$ that $\phi(\theta) \neq 1$. Then
+
+$$\sum_{k=0}^{\infty} \mathbf{E}[e^{i\theta k}; \mathbf{T} > k] = \frac{-i\theta}{1-\phi(\theta)} \frac{1-\mathbf{E}[e^{i\theta k}\mathbf{T}]}{-i\theta},$$
+
+when $\phi(\theta) \neq 1$. Since the random walk is nondegenerate there is a deleted neighborhood of $\theta = 0$ where $\phi(\theta) \neq 1$. Letting $\theta \rightarrow 0$, assuming only values in this neighborhood,
+
+$$\lim_{\theta \rightarrow 0} \frac{-i\theta}{1-\phi(\theta)} = \frac{1}{\mu},$$
+
+by P6.4. Thus we conclude
+
+$$\mathbf{E}[\mathbf{T}] = \sum_{k=0}^{\infty} \mathbf{P}[\mathbf{T} > k] = \frac{1}{\mu} \lim_{\theta \rightarrow 0} \frac{1-\mathbf{E}[e^{i\theta k}\mathbf{T}]}{-i\theta},$$
+
+But $\mathbf{S}_T$ is a positive random variable and by P6.5 the existence of
+
+$$\lim_{\theta \rightarrow 0} \frac{1-\mathbf{E}[e^{i\theta
+
+may or may not be finite, and that will turn out to be the crux of the problem. We start with equation (3) in Example E17.1, and let $t \neq 1$ so that
+
+(1) $1 - \phi(\theta) = c \mid 1 - E[e^{i\theta S_T}] \mid^2$,
+
+where
+
+$$0 < c = \lim_{t \to 1} c(t) = \lim_{t \to 1} e^{\frac{1}{2n} \int_{-x}^{x} \ln [1 - \phi(\theta)] d\theta} < \infty.$$
+
+This much is clear about $c$ from (3) in E17.1. Although one can also show without much difficulty that $\ln [1 - \phi(\theta)]$ is integrable on the interval $[-\pi, \pi]$ so that
+
+$$c = e^{\frac{1}{2n} \int_{-x}^{x} \ln [1 - \phi(\theta)] d\theta},$$
+
+this fact will not be needed here (see problem 1).
+
+Now we divide equation (1) by $\theta^2$ and write
+
+(2) $$\frac{1 - \phi(\theta)}{\theta^2} = c \left| \frac{1 - E[e^{i\theta S_T}]}{-i\theta} \right|^2, \quad \theta \neq 0.$$
+
+The point of this exercise is that when $\theta$ approaches zero,
+
+$$\lim_{\theta \to 0} \frac{1 - \phi(\theta)}{\theta^2} = \frac{\sigma^2}{2}.$$
+
+We knew this from P6.4 when $\sigma^2 < \infty$, and a simple calculation confirms that the identity remains correct when $\sigma^2 = \infty$, in the sense that the limit is then also infinite.
+
+Considering the two cases separately, we have
+
+(i) when $\sigma^2 < \infty$
+
+$$\frac{\sigma^2}{2c} = \lim_{\theta \to 0} \left| \frac{1 - E[e^{i\theta S_T}]}{-i\theta} \right|^2.$$
+
+If we only knew
+
+trouble. The additional difficulties we shall encounter in the nonsymmetric case will definitely call for a more sophisticated approach. The result, in T1 below, will of course contain the truth of (3) as a special case.
+
+In case
+
+(ii) when $\sigma^2 = \infty$, heuristic reasoning along the above lines very strongly suggests that
+
+$$\mathbf{E}[\mathbf{S}_{\mathbf{T}}] = \infty.$$
+
+That is easy to prove, for if we had $\mathbf{E}[\mathbf{S}_{\mathbf{T}}] < \infty$, then from P6.4 one would get the contradictory conclusion that
+
+$$\sigma^2/2c = \{\mathbf{E}[\mathbf{S}_{\mathbf{T}}]\}^2 < \infty.$$
+
+A slightly different formulation of the problem is of considerable interest. By proper use of P17.5 one can rewrite equation (1) as
+
+$$1 - \phi(\theta) = \{1 - \mathbf{E}[e^{i\theta \mathbf{S}_{\mathbf{T}}}]\}\{1 - \mathbf{E}[e^{-i\theta \mathbf{S}_{\mathbf{T}}}]\}.$$
+
+Again dividing by $\theta^2$ and letting $\theta \rightarrow 0$, one is now led to the conjecture that
+
+$$\frac{\sigma^2}{2} = \mathbf{E}[\mathbf{S}_{\mathbf{T}}]\mathbf{E}[\mathbf{S}_{\mathbf{T}}],$$
+
+and of course it looks as though both expectations on the right would be finite if and only if $\sigma^2$ is finite.
+
+E2 For the left-continuous random walk of example E17.2 we found (in equation (6)) that
+
+$$1 - \mathbf{E}[t^{\mathbf{T}} z^{\mathbf{S}_{\mathbf{T}}}] = \frac{r(t)}{tP(0, -1)} \frac{z - tP(z)}{z - r(t)}$$
+
+When $\mu > 0$, we had $r(t) \rightarrow r(1) = \rho < 1$ as $t \nearrow 1$, so that a simple computation gives
+
+$$\mathbf{E}[\mathbf{T}] = \frac{\rho}{(
+
+In this case it is quite easy to show that $E[S_T] < \infty$ if and only if
+
+$$\sigma^2 = \sum_{k=-1}^{\infty} k^2 P(0,k) = P''(1) < \infty,$$
+
+but we omit the details.
+
+In one important respect the two preceding examples were misleading. It is possible to have a random walk with $m < \infty$, $\mu = 0$, $\sigma^2 = \infty$ so that nevertheless $E[S_T] < \infty$. To find the simplest possible example, consider right-continuous random walk, i.e., $P(0,1) > 0$, $P(0,x) = 0$ for $x > 2$. It is clearly possible to choose $P(0,k)$ for $k = 1, 0, -1, -2, \ldots$ in such a way that $\mu = 0$ and at the same time $\sigma^2 = \infty$. But if $\mu = 0$ we know that $T < \infty$. Now $S_T$ is a random variable which can assume only the value one. Therefore $E[S_T] = 1 < \infty$, even though $\sigma^2 = \infty$.
+
+To describe the actual state of affairs in an intuitively pleasing fashion it is necessary to consider the behavior of the random walk in regard to the left as well as the right half-line. Some new notation is unfortunately required for this purpose.

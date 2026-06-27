@@ -1,0 +1,23 @@
+id: lifting-of-continuous-function-from-square
+title_en: "Lifting of a Continuous Function from the Unit Square"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: covering-spaces
+difficulty: intermediate
+tags: [covering-space, lifting, homotopy-lifting, commutative-diagram]
+depends_on:
+  required: [covering-space, lifting-of-path]
+  recommended: [path-connected, locally-arcwise-connected]
+  suggested: [monodromy-theorem, path-lifting-in-covering-space]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "7"
+    section: "7.4"
+    pages: ""
+    role_in_book: "Establishes the unique lifting of maps from the unit square, which implies both the path lifting and homotopy lifting properties of covering spaces."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

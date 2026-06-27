@@ -1,0 +1,23 @@
+id: subbase-for-closed-sets
+title_en: "Subbase for the Closed Sets"
+title_zh: "闭集子基"
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [subbase, closed-sets, topology, finite-union, base]
+depends_on:
+  required: [closed-set, base-for-closed-sets]
+  recommended: [subbase-for-open-sets]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.4"
+    pages: ""
+    role_in_book: "Dual notion of subbase; used to generate bases for weak topologies via preimages of zero-sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

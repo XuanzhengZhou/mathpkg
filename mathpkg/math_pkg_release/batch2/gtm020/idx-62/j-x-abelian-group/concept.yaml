@@ -1,0 +1,23 @@
+id: j-x-abelian-group
+title_en: "The Direct Sum Induces an Abelian Group Structure on J(X)"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: fibre-bundles
+difficulty: advanced
+tags: [j-group, abelian-group, direct-sum, vector-bundle, stable-fibre-homotopy]
+depends_on:
+  required: [stable-fibre-homotopy-equivalence, fibre-homotopy]
+  recommended: [whitney-sum, ko-group, s-equivalence]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "16"
+    section: "5"
+    pages: "239"
+    role_in_book: "Establishes J(X) as an abelian group via direct sum of vector bundles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

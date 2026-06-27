@@ -1,0 +1,23 @@
+id: newton-method-p-adic
+title_en: "Newton's Method for p-adic Equations"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: p-adic-equations
+difficulty: advanced
+tags: [p-adic, newtons-method, hensels-lemma, root-lifting]
+depends_on:
+  required: [field-of-p-adic-numbers]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "II. p-Adic Fields"
+    section: "2. p-adic equations"
+    pages: ""
+    role_in_book: "Lemma (p-adic analogue of Newton's method): amelioration of approximate solutions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

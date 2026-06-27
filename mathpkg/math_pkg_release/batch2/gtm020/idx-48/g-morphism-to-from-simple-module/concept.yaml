@@ -1,0 +1,23 @@
+id: g-morphism-to-from-simple-module
+title_en: "G-Morphisms To and From Simple G-Modules"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [g-morphism, simple-module, monomorphism, epimorphism, representation-theory]
+depends_on:
+  required: [simple-g-module, g-morphism]
+  recommended: [kernel, cokernel]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "4.9"
+    pages: "190-191"
+    role_in_book: "A key structural result about morphisms between simple G-modules, leading to Schur's Lemma"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: horizontal-field-tangent-to-light-cone
+title_en: "Horizontal Vector Fields are Tangent to the Light Cone"
+title_zh: "水平向量场与光锥相切"
+type: proposition
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [tangent-bundle, light-cone, horizontal-vector-field, kinetic-energy, level-set]
+depends_on:
+  required: [horizontal-vector-field-on-tm, future-light-cone, horizontal-field-preserves-kinetic-energy]
+  recommended: [kinetic-energy-function, level-set-theorem]
+  suggested: [photon-gas, liouville-operator]
+source_books:
+  - book_id: gtm048
+    author: "Rainer K. Sachs and Hung-Hsi Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "8"
+    section: "8.6.1"
+    pages: ""
+    role_in_book: "Exercise 8.6.1(b): if v is in the light cone, H(v) is tangent to it"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

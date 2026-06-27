@@ -1,0 +1,23 @@
+id: path-independence-of-integral-J
+title_en: "Path independence of the line integral J for dimension at least three"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [symmetric-bilinear-form, line-integral, path-independence, simple-connectivity]
+depends_on:
+  required: [integral-J-definition]
+  recommended: [simple-connectivity]
+  suggested: []
+source_books:
+  - book_id: "gtm023"
+    author: "Greub"
+    title: "Linear Algebra"
+    chapter: "9"
+    section: "3. Pairs of symmetric bilinear functions"
+    pages: ""
+    role_in_book: "Ensures the functional is well-defined; uses simple connectivity for n ≥ 3"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: distinct-atoms-disjoint
+title_en: "Distinct atoms are disjoint"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: graph-connectivity
+difficulty: intermediate
+tags: [atom, fragment, disjointness]
+depends_on:
+  required: [atom-of-graph, atom-fragment-containment]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "Chapter V"
+    section: "Section 30"
+    pages: ""
+    role_in_book: "Corollary D7: In any graph, distinct atoms are disjoint."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

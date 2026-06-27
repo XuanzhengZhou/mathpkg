@@ -1,0 +1,33 @@
+Let $X$ be a set and $\mathcal{A}$ an algebra of subsets of $X$. A set function $\mu$ defined only on $\mathcal{A}$ is called a finitely additive measure if:
+
+(i) $0 \leq \mu(A) \leq \infty$ for all $A \in \mathcal{A}$
+
+$(X, \mathcal{A}, \mu)$ is called a finite measure space and $\mu$ a finite measure. If $X$ is the union of a countable family of sets in $\mathcal{A}$ each having finite measure, then $(X, \mathcal{A}, \mu)$ and $\mu$ are called $\sigma$-finite. If $\mu = 0$ or $\mu$ assumes only the values 0 and $\infty$, then $(X, \mathcal{A}, \mu)$ and $\mu$ are called degenerate.
+
+Outer measures offer a convenient method of obtaining measures, if we suitably restrict the family of subsets on which the outer measure is defined. Before entering on the technicalities of this construction, we give a few examples.
+
+**(10.4) Examples.** (a) Let $X$ be any set. For $A \subset X$, let
+
+$$v(A) = \begin{cases} \bar{A} & \text{if } A \text{ is finite}, \\ \infty & \text{if } A \text{ is infinite}. \end{cases}$$
+
+Then $v$ is a measure and also an outer measure on $\mathcal{P}(X)$. [It is easy to see that a measure on $\mathcal{P}(X)$ is also an outer measure.] The measure $v$ is usually called counting measure.
+
+(b) Let $X$ be any set. For $A \subset X$, let
+
+$$\mu(A) = \begin{cases} 0 & \text{if } A = \emptyset, \\ \infty & \text{if } A \neq \emptyset. \end{cases}$$
+
+Then $\mu$ is a [plainly degenerate] measure and also outer measure on $\mathcal{P}(X)$.
+
+(c) The set function identically zero is a degenerate measure on $\mathcal{P}(X)$, for any set $X$.
+
+(d) The most important outer measures for our purposes are the set functions $\iota$ constructed as in §9 for all subsets of a locally compact Hausdorff space $X$. See Theorem (9.21) for the proof that $\iota$ is an outer measure. The reader should be aware, however, that not all measures used in analysis are derived from set functions $\iota$.
+
+We now begin our
+
+not necessarily the largest possible $\sigma$-algebra, on which $\mu$ is a countably additive measure. [In (10.40), we point out conditions under which $M_\mu$ is the largest $\sigma$-algebra on which $\mu$ is countably additive.]
+
+(c) If $X$ is a locally compact Hausdorff space and $\iota$ is an outer measure as in §9, then the family $M_\iota$ of $\iota$-measurable sets contains all open sets. This fact, proved in (9.32), has important consequences as we shall see.
+
+(d) Let $\lambda$ be Lebesgue outer measure on $R$. The family $M_\lambda$ of $\lambda$-measurable sets is often called the family of Lebesgue measurable sets. We will use this phrase when convenient.
+
+We proceed to develop the properties of $\mu$-measurable sets. Throughout (10.7)–(10.11), $X$ is an arbitrary set and $\mu$ is an arbitrary outer measure on $\mathcal{P}(X)$.

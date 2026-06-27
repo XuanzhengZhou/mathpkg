@@ -1,0 +1,8 @@
+In the null recurrent basic example ($\beta_n \to 0$, $\sum_i \beta_i = +\infty$), for any finite set $E$:
+$$\lambda_i^E = \begin{cases} 1 & \text{if } i \text{ is the first state of } E, \\ 0 & \text{otherwise}. \end{cases}$$
+In particular,
+$$^i\lambda_j = \begin{cases} 1 & \text{if } j < i, \\ 0 & \text{if } j \geq i. \end{cases}$$
+The reverse chain enters finite sets from the right:
+$$\hat{\lambda}_i^E = \begin{cases} 1 & \text{if } i \text{ is the last state of } E, \\ 0 & \text{otherwise}, \end{cases}$$
+so that
+$$^i\hat{\lambda}_j = \begin{cases} 1 & \text{if } j > i, \\ 0 & \text{if } j \leq i. \end{cases}$$

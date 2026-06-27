@@ -1,0 +1,23 @@
+id: verma-module
+title_en: "Verma Module"
+title_zh: "Verma模"
+type: definition
+domain: algebra
+subdomain: representation-theory
+difficulty: advanced
+tags: [verma-module, universal-enveloping-algebra, induced-module, borel-subalgebra, highest-weight]
+depends_on:
+  required: [standard-cyclic-module, universal-enveloping-algebra, borel-subalgebra, tensor-product-of-modules]
+  recommended: [pbw-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "20"
+    section: "20.3"
+    pages: ""
+    role_in_book: "The Verma module Z(lambda) is the universal highest weight module of weight lambda; every standard cyclic module (hence every irreducible finite-dimensional module) is a quotient of a Verma module"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: norm-of-prime-mod-lambda
+title_en: "Norm of a Prime Cyclotomic Integer Modulo Lambda"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: cyclotomic-integers
+difficulty: basic
+tags: [cyclotomic-integers, norm, prime, congruence]
+depends_on:
+  required: [kummer-prime-factor-theorem]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm050
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "4"
+    section: "4.3"
+    pages: ""
+    role_in_book: "Second corollary: restricts the possible norms of prime cyclotomic integers to those primes congruent to 0 or 1 modulo lambda"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

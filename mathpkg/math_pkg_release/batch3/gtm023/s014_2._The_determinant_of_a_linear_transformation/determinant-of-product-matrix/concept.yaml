@@ -1,0 +1,23 @@
+id: determinant-of-product-matrix
+title_en: "Determinant of a Product of Matrices"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [determinant, matrix-product, multiplicativity]
+depends_on:
+  required: [determinant-of-matrix, determinant-of-composition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "4"
+    section: "3"
+    pages: ""
+    role_in_book: "Multiplicativity of matrix determinant (4.18)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

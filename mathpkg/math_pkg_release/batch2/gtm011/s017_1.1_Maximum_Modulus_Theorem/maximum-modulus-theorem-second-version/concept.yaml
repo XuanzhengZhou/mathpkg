@@ -1,0 +1,23 @@
+id: maximum-modulus-theorem-second-version
+title_en: "Maximum Modulus Theorem (Second Version)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [maximum-modulus, bounded-domain, continuous-extension]
+depends_on:
+  required: [maximum-modulus-theorem-first-version]
+  recommended: [boundary, continuous-function]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VI"
+    section: "1.2"
+    pages: ""
+    role_in_book: "Extends the maximum principle to bounded domains with continuous boundary values"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

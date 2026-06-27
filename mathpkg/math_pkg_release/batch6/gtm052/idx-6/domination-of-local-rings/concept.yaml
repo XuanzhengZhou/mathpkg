@@ -1,0 +1,23 @@
+id: domination-of-local-rings
+title_en: "Domination of Local Rings"
+title_zh: "局部环的支配"
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [local-ring, domination, valuation-ring]
+depends_on:
+  required: [local-ring]
+  recommended: [valuation-ring]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "6"
+    pages: "57"
+    role_in_book: "Definition used to characterize valuation rings via maximality"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

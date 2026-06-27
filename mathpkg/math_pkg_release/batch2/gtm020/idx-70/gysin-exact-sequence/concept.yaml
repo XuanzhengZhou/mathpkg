@@ -1,0 +1,23 @@
+id: gysin-exact-sequence
+title_en: "Gysin Exact Sequence for Vector Bundles"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: characteristic-classes
+difficulty: advanced
+tags: [gysin-sequence, cohomology, vector-bundle, euler-class, exact-sequence]
+depends_on:
+  required: [thom-fundamental-class, euler-class]
+  recommended: [cohomology-ring, cup-product]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "7"
+    section: "7.5"
+    pages: "page_0265–page_0270"
+    role_in_book: "Relates the cohomology of the base space to that of the sphere bundle via the Euler class"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: jacobi-delta-product
+title_en: "Jacobi's Product Formula for the Discriminant Modular Form"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: advanced
+tags: ["jacobi", "delta-function", "infinite-product", "modular-form", "ramanujan-tau"]
+depends_on:
+  required: ["structure-of-modular-form-spaces", "eisenstein-series-modular-form"]
+  recommended: ["infinite-products", "ramanujan-tau-function"]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Gives the celebrated product formula for the cusp form Delta of weight 12."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

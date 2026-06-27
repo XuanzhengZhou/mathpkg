@@ -1,0 +1,23 @@
+id: logarithmic-derivative-at-pole
+title_en: "Logarithmic Derivative at a Pole (Proposition 3.2)"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [logarithmic-derivative, pole, meromorphic-function, residue]
+depends_on:
+  required: [meromorphic-function, pole-of-order-m]
+  recommended: [argument-principle]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "5"
+    section: "3.2"
+    pages: ""
+    role_in_book: "computes the logarithmic derivative at a pole, used in proving the Argument Principle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

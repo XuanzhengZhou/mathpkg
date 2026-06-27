@@ -1,0 +1,23 @@
+id: vanishing-higher-direct-images-ruled-surface
+title_en: "Vanishing Higher Direct Images on Ruled Surface"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: algebraic-surfaces
+difficulty: advanced
+tags: [ruled-surface, higher-direct-images, cohomology, leray-spectral-sequence]
+depends_on:
+  required: [geometrically-ruled-surface, direct-image-locally-free-ruled-surface]
+  recommended: [higher-direct-image, cohomology-and-base-change]
+  suggested: [leray-spectral-sequence]
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "V"
+    section: "2"
+    pages: "371"
+    role_in_book: "Vanishing of higher direct images ensures cohomology of X reduces to cohomology of C"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

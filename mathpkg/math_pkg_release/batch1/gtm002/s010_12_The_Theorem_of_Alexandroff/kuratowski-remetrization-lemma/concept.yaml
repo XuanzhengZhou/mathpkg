@@ -1,0 +1,23 @@
+id: kuratowski-remetrization-lemma
+title_en: "Kuratowski Remetrization Lemma"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: metric-spaces
+difficulty: intermediate
+tags: [remetrization, complete-metric-space, cauchy-sequence, continuous-functions]
+depends_on:
+  required: []
+  recommended: [metric-space, complete-metric-space, cauchy-sequence, continuous-function]
+  suggested: [alexandroff-theorem]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "12"
+    section: "The Theorem of Alexandroff"
+    pages: "55-56"
+    role_in_book: "Provides the key technical lemma for proving the Alexandroff Theorem on topological completeness of G-delta sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

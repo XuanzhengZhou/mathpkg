@@ -1,0 +1,23 @@
+id: germ-support-set-open
+title_en: "Openness of the Support of a Complete Analytic Function (Theorem 5.12)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [sheaf-of-germs, complete-analytic-function, open-set, germ]
+depends_on:
+  required: [sheaf-of-germs, complete-analytic-function, germ]
+  recommended: [analytic-continuation-along-curve]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "5"
+    section: "5.6"
+    pages: ""
+    role_in_book: "shows that the set of points where a complete analytic function has a germ is open"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

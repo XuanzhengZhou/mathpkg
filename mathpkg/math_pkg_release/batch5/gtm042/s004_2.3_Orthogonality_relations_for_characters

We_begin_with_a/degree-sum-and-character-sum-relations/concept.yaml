@@ -1,0 +1,23 @@
+id: degree-sum-and-character-sum-relations
+title_en: "Degree Sum and Character Sum Relations for Irreducible Representations"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [irreducible-representations, degree-sum, character-sum, regular-representation]
+depends_on:
+  required: [multiplicity-of-irreducible-in-regular-representation, character-of-regular-representation]
+  recommended: [irreducible-characters]
+  suggested: []
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "2"
+    section: "2.4"
+    pages: ""
+    role_in_book: "Corollary 2 to Proposition 5. Derives the fundamental relations Σ n_i² = g and Σ n_i χ_i(s) = 0 for s ≠ 1, connecting irreducible degrees to the group order."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

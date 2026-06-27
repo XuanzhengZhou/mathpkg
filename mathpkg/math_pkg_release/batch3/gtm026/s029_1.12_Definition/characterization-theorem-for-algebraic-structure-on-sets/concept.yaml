@@ -1,0 +1,23 @@
+id: characterization-theorem-for-algebraic-structure-on-sets
+title_en: "Characterization Theorem for Algebraic Structure on Sets"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: universal-algebra
+difficulty: advanced
+tags: [category-theory, algebraic-functor, characterization, left-adjoint, separators, congruence, quotient]
+depends_on:
+  required: [algebraic-functor, category-of-sets-with-structure, creates-quotients-of-congruences, has-separators, left-adjoint]
+  recommended: [forgetful-functor, struct-set]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.13"
+    pages: ""
+    role_in_book: "Main characterization theorem: algebraic functors over Set are exactly those with left adjoint, separators, and creation of quotients of congruences"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

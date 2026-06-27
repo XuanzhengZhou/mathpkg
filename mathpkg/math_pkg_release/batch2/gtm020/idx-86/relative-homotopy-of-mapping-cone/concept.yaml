@@ -1,0 +1,23 @@
+id: relative-homotopy-of-mapping-cone
+title_en: "Comparison of Relative Homotopy and Homology for T_n, ΩF_n, and Ω²S^{2n+1}"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: homotopy-theory
+difficulty: advanced
+tags: [relative-homotopy, homology, mapping-cone, loop-space-of-fibre, double-suspension, p-localization]
+depends_on:
+  required: [tau-n-element, t-n-space]
+  recommended: [hurewicz-homomorphism, relative-homotopy-groups, p-localization]
+  suggested: [fibre-sequence-of-double-suspension]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "7"
+    section: "7.3"
+    pages: "348-349"
+    role_in_book: "Establishes that the map j_n induces an isomorphism in relative homotopy"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

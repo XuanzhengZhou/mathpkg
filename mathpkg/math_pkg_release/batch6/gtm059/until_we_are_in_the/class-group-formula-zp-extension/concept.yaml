@@ -1,0 +1,23 @@
+id: class-group-formula-zp-extension
+title_en: "Class Group Formula in Z_p-Extensions"
+title_zh: "Z_p-扩张中的类群公式"
+type: theorem
+domain: number-theory
+subdomain: iwasawa-theory
+difficulty: advanced
+tags: [iwasawa-theory, class-group, zp-extension, ideal-class-group, characteristic-polynomial]
+depends_on:
+  required: [p-primary-class-group-projective-limit, iwasawa-condition-iw, iwasawa-structure-theorem-module-form]
+  recommended: [characteristic-ideal, nakayamas-lemma]
+  suggested: []
+source_books:
+  - book_id: gtm059
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "Iwasawa Theory and Ideal Class Groups"
+    pages: ""
+    role_in_book: "Relates the class number of K_n to the characteristic polynomial of the Iwasawa module X."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

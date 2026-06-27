@@ -1,0 +1,29 @@
+Let $(X, S, \mu)$ and $(Y, T, v)$ be measure spaces, and let $f$ be a complex-valued function on $X \times Y$ that is measurable $[S \times T]$. Then for each $x$ in $X$ the function $f(x, y)$, considered as a function of the single variable $y$, is measurable $[T]$. Moreover, if $v$ is $\sigma$-finite, and if $A$ denotes the set of those points $x$ in $X$ such that $f(x, y)$ is integrable $[v]$ as a function of $y$, then $A$ is measurable and the function
+
+$$g(x) = \int_Y f(x, y)dv(y), \quad x \in A,$$
+
+is a measurable function on $A$. The analogous assertions obtained by inter-changing the
+
+If $X$ and $Y$ are arbitrary sets, and if $E$ is a subset of $X \times Y$, then for each point $x$ of $X$ we denote by $E_x$ the set
+
+$$E_x = \{y \in Y : (x, y) \in E\}.$$
+
+This set is called the $X$-section of $E$ determined by $x$; $Y$-sections of $E$ are defined analogously, and are denoted by $E^y$. It is an immediate consequence of Lemma 9.1 that if $(X, S, \mu)$ and $(Y, T, \nu)$ are any two measure spaces, and if $E$ is a subset of $X \times Y$ belonging to $S \times T$, then the section $E_x$ is a measurable subset of $Y$ for each $x$ in $X$, and, in the event that $\nu$ is $\sigma$-finite, the function $g(x) = \nu(E_x)$ is a measurable function on $X$. In this connection see Problems B and C.
+
+Example B. Let us take for both $(X, S)$ and $(Y, T)$ the unit interval $[0, 1]$ equipped with its ring of Borel sets, so that $(X \times Y, S \times T)$ is simply the unit square $Q$ equipped with its ring of Borel sets $B$ (see Example A). Let $\mu$ be ordinary Lebesgue–Borel measure on $(X, S)$, and let $\kappa$ be the counting measure on $(Y, T)$ (Ex. 7J). According to Lemma 9.1, if $A$ is any Borel set in $Q$, then the function $h(y) = \mu(A^y)$ is a Borel measurable function on $[0, 1]$. Irrespective of that fact, we may certainly define
+
+$$\xi(A) = \int_Y h(y) d\kappa(y) = \sum_{0 \leq y \leq 1} \mu(A^y),$$
+
+and it follows by the theorem of Beppo–Levi (Cor. 7.10) that the set function $\xi$ is a measure on $(Q, B)$
+
+a complex-valued function on $X \times Y$ that is integrable $[\mu \times v]$, then the function $g(x) = \int_Y f(x, y)dv(y)$ is measurable and integrable $[\mu]$ and we have
+
+$$\int_X g d\mu = \int_X \left[ \int_Y f(x, y)dv(y) \right] d\mu(x) = \int_{X \times Y} f d(\mu \times v).$$
+
+Similarly, the iterated integral
+
+$$\int_Y \left[ \int_X f(x, y)d\mu(x) \right] dv(y)$$
+
+exists and is equal to the product (or double) integral $\int_{X \times Y} f d(\mu \times v)$.
+
+In applications of the Fubini theorem it is of great importance to be able to determine when a measurable function on a product space $X \times Y$ is integrable with respect to the product of two measures. In this connection the following result, the proof of which is sketched in Problems C and D, is very useful.

@@ -1,0 +1,23 @@
+id: s-closure-of-s-cone-is-strict
+title_en: "Closure of an 𝔖-cone is a Strict 𝔖-cone (Corollary 2)"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: ordered-vector-spaces
+difficulty: intermediate
+tags: ["cone", "s-cone", "strict-s-cone", "closure", "weak-topology", "dual-cone", "bipolar"]
+depends_on:
+  required: ["s-cone", "strict-s-cone", "s-topology", "locally-convex-space"]
+  recommended: ["saturated-family", "bipolar-theorem"]
+  suggested: ["normal-cone-s-topology-equivalence"]
+source_books:
+  - book_id: "gtm003"
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "V"
+    section: "3"
+    pages: ""
+    role_in_book: "Shows that the weak closure of an 𝔖-cone is a strict 𝔖-cone"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

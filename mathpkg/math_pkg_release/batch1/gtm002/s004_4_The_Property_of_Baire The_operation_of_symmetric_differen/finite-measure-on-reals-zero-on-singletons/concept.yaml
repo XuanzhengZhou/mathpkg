@@ -1,0 +1,23 @@
+id: finite-measure-on-reals-zero-on-singletons
+title_en: "A finite measure on a set of power continuum vanishing on singletons is identically zero (under continuum hypothesis)"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [measure, continuum-hypothesis, ulam, aleph-one]
+depends_on:
+  required: [ulam-theorem-measure-aleph1, continuum-hypothesis]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "5"
+    section: "Non-Measurable Sets"
+    pages: ""
+    role_in_book: "Proposition 5.7; consequence of Ulam's theorem assuming the continuum hypothesis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

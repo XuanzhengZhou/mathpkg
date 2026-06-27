@@ -1,0 +1,19 @@
+Let $(Y, \mathbf{T})$ be a measurable space, let $(X, \mathbf{S}, \mu)$ be a measure space, and let $\Phi$ be a mapping of $X$ into $Y$ that is measurable $[\mathbf{S}, \mathbf{T}]$. If $\nu$ denotes the measure induced on $Y$ by $\Phi$ and $\mu$, and if $f$ is a measurable function on $Y$ that is either integrable $[\nu]$ or nonnegative, then
+
+$$\int_Y f \, dv = \int_X (f \circ \Phi) d\mu.$$
+
+In particular, $f$ is integrable $[\nu]$ if and only if $f \circ \Phi$ is integrable $[\mu]$, and
+
+$$\nu(E) = \mu(\Phi^{-1}(E)), \quad E \in \mathbf{T}.$$
+
+Example F. Let $f(t) = e^{it}$, $t \in \mathbb{R}$. Then $f$ maps $\mathbb{R}$ onto the unit circle $Z$ in a continuous fashion, and it follows that if $A$ belongs to the $\sigma$-ring $B$ of Borel subsets of $Z$, then $B = f^{-1}(A)$ is a Borel subset of $\mathbb{R}$. Moreover, $B$ has the property that $B + 2\pi = B$, from which it follows at once that, if we write $I_a = [a, a + 2\pi)$ for each real number $a$, then the Lebesgue measure of $B \cap I_a$ is independent of $a$. Hence, if $f_a = f|I_a$, then the measure induced on $(Z, \mathbf{B})$ by $f_a$ and Lebesgue–Borel measure on $I_a$
+
+on $E_1$ by $A$ and $\mu_n|E_0$, then $v = \mu_n/a^n$ on $E_1$ (Prob. F). Hence if $f$ is an arbitrary Lebesgue integrable function on $E_1$, then
+
+$$\int_{E_1} f \, d\mu_n = a^n \int_{E_0} f \circ A \, d\mu_n$$
+
+In particular, if $f$ is Lebesgue integrable over $\mathbb{R}^n$, then
+
+$$\int f \, d\mu_n = a^n \int f \circ A \, d\mu_n.$$
+
+A useful way of making one large measure space out of several smaller ones is the formation of direct sums.

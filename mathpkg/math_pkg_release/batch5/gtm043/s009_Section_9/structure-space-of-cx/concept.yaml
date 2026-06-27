@@ -1,0 +1,23 @@
+id: structure-space-of-cx
+title_en: "Structure Space of C(X)"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [structure-space, maximal-ideal-space, stone-topology, C(X)]
+depends_on:
+  required: [maximal-ideal, C(X), stone-topology]
+  recommended: [fixed-maximal-ideals-in-cx]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4.9"
+    pages: ""
+    role_in_book: "Defines the structure space of C(X) as the set of all maximal ideals endowed with the Stone topology."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

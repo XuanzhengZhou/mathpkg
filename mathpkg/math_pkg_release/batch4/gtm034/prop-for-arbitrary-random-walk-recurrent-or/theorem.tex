@@ -1,0 +1,15 @@
+For arbitrary random walk (recurrent or transient)
+
+(a) $\sum_{t \in R} P(x,t)H_A(t,y) - H_A(x,y)$
+$$= \begin{cases} \Pi_A(x,y) - \delta(x,y) \text{ for } x \in A, y \in A, \\ 0 \text{ for } x \in R - A, y \in A. \end{cases}$$
+
+(b) $0 \leq g_A(x,y) \leq g_A(y,y)$ for all $x \in R, y \in R$
+
+and if, in addition, the random walk is aperiodic, then
+$$g_A(x,x) < \infty, \quad x \in R.$$
+
+(c) For $x \in R - A, \quad y \in A,$
+$$H_A(x,y) = \sum_{t \in R} g_A(x,t)P(t,y).$$
+
+(d) For $x \in R - A, \quad y \in A,$
+$$G(x,y) = \sum_{t \in A} H_A(x,t)G(t,y).$$

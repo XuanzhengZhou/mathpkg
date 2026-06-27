@@ -1,0 +1,23 @@
+id: exact-functor
+title_en: "Exact Functor"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [exact-functor, left-exact, right-exact, category-theory]
+depends_on:
+  required: [left-exact-functor, right-exact-functor]
+  recommended: [exact-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "1"
+    section: "§16. The Hom Functors and Exactness—Projectivity and Injectivity"
+    pages: ""
+    role_in_book: "Definition of exact functor"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

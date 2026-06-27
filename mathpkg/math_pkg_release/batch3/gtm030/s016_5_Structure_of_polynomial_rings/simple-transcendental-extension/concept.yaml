@@ -1,0 +1,23 @@
+id: simple-transcendental-extension
+title_en: "Simple Transcendental Extension of a Field"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: field-theory
+difficulty: intermediate
+tags: [field-extension, transcendental-extension, field-of-fractions, rational-functions]
+depends_on:
+  required: [polynomial-ring]
+  recommended: [field-of-fractions, field, integral-domain]
+  suggested: []
+source_books:
+  - book_id: gtm030
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra I: Basic Concepts"
+    chapter: "3"
+    section: "5"
+    pages: ""
+    role_in_book: "Definition of simple transcendental extension via field of fractions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

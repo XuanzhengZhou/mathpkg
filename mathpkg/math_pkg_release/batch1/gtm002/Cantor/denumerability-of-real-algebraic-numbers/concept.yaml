@@ -1,0 +1,23 @@
+id: denumerability-of-real-algebraic-numbers
+title_en: "The Set of Real Algebraic Numbers is Denumerable"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [algebraic-number, denumerable, countable, cantor]
+depends_on:
+  required: [algebraic-number, polynomial-weight]
+  recommended: [countable-set]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "Theorem 2.1; used to prove existence of transcendental numbers via cardinality argument"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

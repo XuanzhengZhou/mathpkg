@@ -1,0 +1,27 @@
+(Hensel's lemma). Let $A$ be a complete local ring, $m$ its maximal ideal, $f(X) \in A[X]$ a monic polynomial of degree $n$ over $A$. For every polynomial $h(X) \in A[X]$, we denote by $\bar{h}(X)$ the polynomial over $A/m$ obtained from $h(X)$ on replacing its coefficients by their $m$-residues. If $\alpha(X)$ and $\alpha'(X)$ are relatively prime monic polynomials over $A/m$ of degrees $r$ and $n-r$ such that $\bar{f}(X) = \alpha(X)\alpha'(X)$, then there exist two monic polynomials $g(X), g'(X)$ over $A$, of degrees $r$ and $n-r$, such that $\bar{g}(X) = \alpha(X), \bar{g}'(X) = \alpha'(X)$ and $f
+
+In fact we can write $f(X) = (X - \alpha) \varphi(X)$, where $\varphi(X)$ is prime to $X - \alpha$. Theorem 17 shows the existence of a monic polynomial $X - a$ which divides $f(X)$ and such that $\bar{a} = \alpha$. If $a$ were a multiple root of $f(X)$, $\alpha$ would be a multiple root of $f(X)$, in contradiction with our assumption.
+
+EXAMPLES:
+
+(1) The polynomial $X^2 + 1$ has two simple roots in the prime field $GF(5)$, namely the classes of 2 and 3. Thus it admits two roots in the ring of 5-adic integers. Similarly for $X^2 - 2$ in the ring of 7-adic integers.
+
+(2) Let $A$ be a complete local domain whose residue field $A/\mathfrak{m}$ is the finite field $GF(q)$. Since the equation $X^{q-1} = 1$ admits $q-1$ simple roots in $GF(q)$, the ring $A$ contains all the $(q-1)$-th roots of unity. These roots form a multiplicative subgroup $V$ of $A$. If $A$ has characteristic $p \neq 0$ (where $q = p^b$), $V$ is even the multiplicative group of a subfield of $A$, since the $(p^b - 1)$-th roots of unity, in a field of characteristic $p$, constitute the set of non-zero elements of a subfield. This subfield is canonically isomorphic to $A/\mathfrak{m} = GF(q)$.
+
+(3) Theorem of implicit functions. Let $A$ be the power series ring $K[[x_1, \cdots, x_m]]$ in $m$ variables over a field $K$, and let
+
+$$P(z) = z^n + a_{n-1}(x)z^{n-1} + \cdots + a_1(x)z + a_0(x)$$
+
+be a monic polynomial over $A$. Suppose that the polynomial
+
+$$z^n + a_{n-1}(0)z^{
+
+element $L$. If $A/m$ were transcendental over $\varphi(L)$, we could find an element $x$ of $A$ such that $\varphi(x)$ is transcendental over $\varphi(L)$; then all the non-zero elements of the polynomial ring $L[x]$ would be outside of $m$, therefore units, and $A$ would then contain the quotient field of $L[x]$, in contradiction with the maximality of $L$. Thus $A/m$ is algebraic over $\varphi(L)$. Suppose that $A/m$ contains an element $\eta$ which is separable algebraic over $\varphi(L)$. Let $Y^n + \beta_{n-1} Y^{n-1} + \cdots + \beta_1 Y + \beta_0$ be the minimal polynomial of $\eta$ over $\varphi(L)$, and let $b_j$ be the representative of $\beta_j$ lying in $L$. The polynomial $f(Y) = Y^n + b_{n-1} Y^{n-1} + \cdots + b_1 Y + b_0$ over $A$ is such that $\eta$ is a simple root of $f(Y)$; thus, by Corollary 1, $f(Y)$ admits a simple root $y \in A$ such that $\varphi(y) = \eta$. Since $\varphi$ induces an isomorphism of $L$ onto $\varphi(L)$ which carries $f(Y)$ to $f(Y)$, the polynomial $f(Y)$ is irreducible over $L$, and the ring $L[y]$ is isomorphic to $\varphi(L)[\eta]$, which is a field. In view of the maximality of $L$, this implies that $y \in L$, whence $\eta \in \varphi(L)$. Therefore $A/m$ is purely inseparable over $\varphi(L)$.
+
+REMARK. If $A/m$ is a field of characteristic 0, then $A$ itself has characteristic 0, and Corollary 2 shows the existence of a subfield $L$ of $A$ which is a field of representatives for the residue classes mod $m$. It can be proved that such a field of representatives exists whenever $A$ is complete and has the same characteristic as $A/m$ (see
+
+$\alpha = \varepsilon, \alpha' = \varepsilon', y = 0$. Conditions (1) and (2) are satisfied. There thus exist elements $a, a'$ of $A$, admitting $\varepsilon$ and $\varepsilon'$ respectively as $m$-residues, and such that $aa' = 0$. We have $a + a' \equiv 1$ (mod $m$), whence $a + a'$ is an invertible element of $A$ since $A$ is complete (use formal expansion of $1/(1-T)$). Then the elements $e = a/(a + a')$, $e' = a'/(a + a')$ satisfy the relations $ee' = 0$, $e + e' = 1$, and are therefore two orthogonal idempotents. We therefore have a direct sum decomposition $A = Ae \oplus Ae'$ (Vol. I, Ch. III, § 13).
+
+We now proceed to prove the assertions about the ideals $v$ and $v'$. Since $e$ admits $\varepsilon$ as $m$-residue, it belongs to $v$, whence to every power $v^n$, since $e$ is an idempotent. We therefore have $Ae \subset n = \bigcap_{n=0}^{\infty} v^n$, and similarly $Ae' \subset n' = \bigcap_{n=0}^{\infty} v'^n$. Since $v$ and $v'$ are comaximal, $v^n$ and $v'^n$ are comaximal, and we have $v^n \cap v'^n = v^n v'^n = (vv')^n = (v \cap v')^n = m^n$ (Vol. I, Ch. III, § 13, Theorem 31). Since $\bigcap_{n=0}^{\infty} m^n = (0)$, this implies that $n \cap n' = (0)$. From $Ae \subset n$, $Ae' \subset n'$ and $Ae + Ae' = A$, we deduce that $n + n' = A$, whence $A$ is the
+
+q=2 being covered by Theorem 18. We notice that $A/m$ is the direct sum of $\mathfrak{v}_1/m$ and of $\sum_{j \neq 1} \mathfrak{v}_j/m$, and we apply Theorem 18 and the induction hypothesis. Further details are left to the reader.

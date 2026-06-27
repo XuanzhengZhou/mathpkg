@@ -1,0 +1,23 @@
+id: principle-of-condensers
+title_en: "Principle of Condensers"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [condenser-principle, potential-theory, equilibrium-set, hitting-probability]
+depends_on:
+  required: [principle-of-balayage]
+  recommended: [equilibrium-set, potential-charge, hitting-probability]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "8"
+    section: "4"
+    pages: "220-225"
+    role_in_book: "Theorem 8-51; the condenser principle for equilibrium sets with finite boundary"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

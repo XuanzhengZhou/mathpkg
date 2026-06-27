@@ -1,0 +1,23 @@
+id: semi-reflexive-implies-quasi-complete
+title_en: "Every Semi-Reflexive Space is Quasi-Complete"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [semi-reflexive, quasi-complete, locally-convex-space, bounded-set, equicontinuous]
+depends_on:
+  required: [semi-reflexive-space-equivalences]
+  recommended: [locally-convex-space, bounded-set, equicontinuous-set]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Schaefer, H.H.; Wolff, M.P."
+    title: "Topological Vector Spaces"
+    chapter: "5"
+    section: "5.5"
+    pages: ""
+    role_in_book: "Corollary of the semi-reflexive characterization theorem; establishes quasi-completeness as a consequence of semi-reflexivity"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

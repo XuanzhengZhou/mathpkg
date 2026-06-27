@@ -1,0 +1,23 @@
+id: cycle-matroid-closure
+title_en: "Closure in the Cycle Matroid"
+title_zh: "圈拟阵中的闭包"
+type: proposition
+domain: combinatorics
+subdomain: matroid-theory
+difficulty: intermediate
+tags: [matroid, cycle-matroid, closure, graph-theory, spanning-forest]
+depends_on:
+  required: []
+  recommended: [matroid, cycle-matroid, closure-operator-of-matroid]
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "X"
+    section: "49"
+    pages: "295-301"
+    role_in_book: "Example C22 — describes the rank and closure of the cycle matroid of a multigraph"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

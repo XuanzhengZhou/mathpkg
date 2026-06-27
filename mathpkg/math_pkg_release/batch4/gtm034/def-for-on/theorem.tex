@@ -1,0 +1,25 @@
+$Q_n(x,y)$ for $n \geq 0$ on $(R-A) \times (R-A)$,
+$H_A^{(n)}(x,y)$ for $n \geq 0$ on $R \times A$,
+$H_A(x,y)$ on $R \times A$,
+$\Pi_A(x,y)$ on $A \times A$,
+$g_A(x,y)$ on $R \times R$.
+
+The definitions are, in terms of the time $T = T_A$ of the first visit to $A$,
+
+$Q_n(x,y) = P_x[x_n = y; T > n]$;
+$H_A^{(n)}(x,y) = P_x[x_T = y; T = n]$ for $x \in R-A$,
+$= 0$ for $x \in A, n \geq 1$,
+$= \delta(x,y)$ for $x \in A, n = 0$;
+$H_A(x,y) = P_x[x_T = y; T < \infty]$ for $x \in R-A$,
+$= \delta(x,y)$ for $x \in A$;
+$\Pi_A(x,y) = P_x[x_T = y; T < \infty]$;
+$g_A(x,y) = \sum_{n=0}^{\infty} Q_n(x,y)$ for $x \in R-A, y \in R-A$,
+$= 0$ otherwise.
+
+It should be clear how to cast these definitions in a purely analytic form. For $Q_n(x,y)$ we define $Q_0(x,y) = \delta(x,y)$; then $Q(x,y) = Q_1(x,y) = P(x,y)$ when $(x,y)$ is in $(R-A) \times (R-A)$. Finally, just as in P1.1
+
+$$Q_{n+1}(x,y) = \sum_{t \in R-A} Q_n(x,t)Q(t,y).$$
+
+As for $H_A^{(n)}(x,y)$, with $x \in R-A,
+
+(P1(b) below) concerns the convergence of the sum defining $g_A(x,y)$—which perhaps is not quite obvious from D1; others concern relations between $H_A$, $\Pi_A$, and $g_A$. In later sections such relations will be shown to be familiar ones in the mathematical formulation of potential theory—but that is irrelevant at this juncture.

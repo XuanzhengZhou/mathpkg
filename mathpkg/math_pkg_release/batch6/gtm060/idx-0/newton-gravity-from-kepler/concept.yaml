@@ -1,0 +1,13 @@
+id: newton-gravity-from-kepler
+title_en: "Newton's Law of Gravity Derived from Kepler's First Law"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: intermediate
+tags: [newton, gravity, kepler, central-field, inverse-square-law]
+depends_on: {required:[keplers-first-law], recommended:[focal-equation-of-conic-section], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"2",section:"Supplement: Kepler Problem",pages:"",role_in_book:"Shows that Kepler's first law in a central field implies Newton's inverse-square law of gravitation"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

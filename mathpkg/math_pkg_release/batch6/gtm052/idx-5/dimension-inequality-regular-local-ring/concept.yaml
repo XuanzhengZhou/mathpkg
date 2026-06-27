@@ -1,0 +1,23 @@
+id: dimension-inequality-regular-local-ring
+title_en: "Dimension Inequality for Regular Local Rings"
+title_zh: "正则局部环的维数不等式"
+type: proposition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [regular-local-ring, krull-dimension, embedding-dimension, noetherian-local-ring]
+depends_on:
+  required: [regular-local-ring, noetherian-local-ring, krull-dimension]
+  recommended: [nakayamas-lemma, principal-ideal-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "I"
+    section: "5"
+    pages: ""
+    role_in_book: "Shows that the embedding dimension is always at least the Krull dimension for noetherian local rings"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

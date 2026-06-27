@@ -1,0 +1,14 @@
+id: nondegenerate-subspace-direct-sum-decomposition
+title_en: "Direct Sum Decomposition by a Non-degenerate Subspace"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: bilinear-forms
+difficulty: intermediate
+tags: [orthogonality, direct-sum, nondegenerate, subspace, bilinear-form]
+depends_on: {required: [orthogonality, dimension-formula-for-orthogonal-subspaces, lemma-orthogonal-complement-included-in-degenerate-radical], recommended: [], suggested: []}
+source_books:
+  - {book_id: "gtm049", author: "K. W. Gruenberg, A. J. Weir", title: "Linear Geometry", chapter: "5", section: "5.2 Orthogonality", pages: "106", role_in_book: "Proposition 5. The fundamental decomposition theorem: a non-degenerate subspace M yields a direct sum V = M ⊕ M⊥ = M ⊕ M⊤. This is the foundation for the structure theorems of §5.4."}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

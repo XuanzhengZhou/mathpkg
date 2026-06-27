@@ -1,0 +1,1 @@
+The expectation operator is linear: the expectation of any linear combination of integrable random variables equals the same linear combination of their individual expectations. This fundamental property follows from the linearity of the Lebesgue integral and is one of the most frequently used facts in probability theory.

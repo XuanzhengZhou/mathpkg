@@ -1,0 +1,10 @@
+If $B, B'$ are braided (or symmetric) monoidal categories, a \text{braided monoidal functor} is a monoidal functor $(F, F_2, F_0) : B \to B'$ which commutes with the braidings $\gamma$ and $\gamma'$ in the following sense:
+
+\begin{center}
+\begin{tikzcd}
+F(a) \square F(b) \arrow[r, "\gamma'"] \arrow[d, "F_2(a,b)"'] & F(b) \square F(a) \arrow[d, "F_2(b,a)"] \\
+F(a \square b) \arrow[r, "F(\gamma_{a,b})"] & F(b \square a)
+\end{tikzcd}
+\end{center}
+
+Here $\gamma$ and $\gamma'$ are the braidings of $B$ and $B'$, respectively.

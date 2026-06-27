@@ -1,0 +1,23 @@
+id: semi-reflexive-normed-reflexive-banach
+title_en: "Every Semi-Reflexive Normed Space is a Reflexive Banach Space"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [semi-reflexive, reflexive, banach-space, normed-space, barreled, quasi-complete]
+depends_on:
+  required: [semi-reflexive-implies-quasi-complete, reflexive-space-barreled-relative-compact]
+  recommended: [normed-space, banach-space, barreled-space]
+  suggested: [infrabarreled, bornological, mackey-space]
+source_books:
+  - book_id: "gtm003"
+    author: "Schaefer, H.H.; Wolff, M.P."
+    title: "Topological Vector Spaces"
+    chapter: "5"
+    section: "5.6"
+    pages: ""
+    role_in_book: "Corollary showing that semi-reflexivity and reflexivity coincide for normed spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

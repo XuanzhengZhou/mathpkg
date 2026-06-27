@@ -1,0 +1,8 @@
+A general sentential logic is a quadruple $\mathcal{P} = (K, P, f, g)$ such that $P \neq \emptyset$, $K \cap P = \emptyset$, $f$ is a function mapping $K$ into $\omega \sim 1$, and $g$ is a function assigning to each $k \in K$ an $f_k$-truth function $g_k$. Symbols of $\mathcal{P}$ are the members of $K \cup P$; expressions of $\mathcal{P}$ are finite sequences of symbols. With each $k \in K$ we associate an $f_k$-ary operation $\hat{k}$ on expressions:
+
+$$\hat{k}(\varphi_0, \ldots, \varphi_{m-1}) = \langle k \rangle \varphi_0 \cdots \varphi_{m-1}$$
+
+where $m = f_k$, for any expressions $\varphi_0, \ldots, \varphi_{m-1}$. The set of sentences of $\mathcal{P}$ is the intersection of all classes $\Gamma$ of expressions of $\mathcal{P}$ such that $\{\langle s \rangle : s \in P\} \subseteq \Gamma$ and $\Gamma$ is closed under all the operations $\hat{k}$ for $k \in K$. Given a model $h$ (a mapping of $P$ into $\{0,1\}$), the mapping $h^+$ of the set of sentences into $\{0,1\}$ is defined by recursion:
+
+$$h^+ \langle s \rangle = hs \quad \text{for } s \in P,$$
+$$h^+ \hat{k} \varphi_0 \cdots \varphi_{m-1} = g_k(h^+ \varphi_0, \ldots, h^+ \varphi_{m-1}).$$

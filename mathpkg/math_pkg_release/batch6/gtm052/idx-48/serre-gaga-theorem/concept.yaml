@@ -1,0 +1,23 @@
+id: serre-gaga-theorem
+title_en: "Theorem 2.1 (Serre, GAGA): Coherent Sheaves on Projective Varieties over C"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: complex-analytic-geometry
+difficulty: advanced
+tags: [gaga, serre, projective-variety, coherent-sheaf, cohomology]
+depends_on:
+  required: [associated-complex-analytic-space, coherent-sheaf, projective-variety]
+  recommended: [cohomology-of-sheaves]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "Appendix B"
+    section: "2"
+    pages: "440"
+    role_in_book: "The fundamental GAGA theorem: for projective X over C, the functor h gives an equivalence of coherent sheaves and isomorphisms on cohomology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

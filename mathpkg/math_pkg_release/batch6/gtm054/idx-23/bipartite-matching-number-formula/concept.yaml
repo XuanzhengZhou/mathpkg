@@ -1,0 +1,23 @@
+id: bipartite-matching-number-formula
+title_en: "Matching number formula for bipartite graphs via graph deficiency"
+title_zh: ""
+type: corollary
+domain: combinatorics
+subdomain: graph-theory
+difficulty: intermediate
+tags: [bipartite-graph, matching, deficiency, 1-factor, vertex-cover]
+depends_on:
+  required: [bipartite-deficiency-sum]
+  recommended: [main-matching-theorem, corollary-a5]
+  suggested: []
+source_books:
+  - book_id: gtm054
+    author: "Jack E. Graver and Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "V"
+    section: "B"
+    pages: ""
+    role_in_book: "Corollary B2: $\nu_0 = 2\alpha_1 + \delta$ for bipartite graphs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,15 @@
+$$XT \longrightarrow \mathcal{O}_X(T)$$
+$$\omega \vdash (\cdot)^X \xrightarrow{\bar{\omega}} T$$
+$$\langle X \xrightarrow{
+
+the naturality equation $X\alpha.fT = f^X.Y\alpha$, so that, defining $\omega = \langle \text{id}_X, X\alpha \rangle$, we have $\langle f, Y\hat{\omega} \rangle = \langle \langle \text{id}_X, X\alpha \rangle, fT \rangle = \langle \text{id}_X, f^X.Y\alpha \rangle = \langle f, Y\alpha \rangle$, that is $\hat{\omega} = \alpha$. Let us turn to 5.8 and 5.9. Starting with $\omega$, $\langle X\eta, (XT, X\mu)\tilde{\omega} \rangle = \langle X\eta, XT\hat{\omega}.X\mu \rangle = \langle \omega, X\eta.T.X\mu \rangle = \omega$ (by 3.16). Starting with $\alpha$, for each $f:X \longrightarrow Y$ and each T-algebra structure $\theta$ on $Y$ we have the T-homomorphic extension $f^\# = fT.\theta:(XT, X\mu) \longrightarrow (Y, \theta)$ of 4.13, and hence the naturality square
+
+$$XT^X \longrightarrow Y^X \longrightarrow XT \longrightarrow Y \longrightarrow fT.\theta$$
+
+Setting $\omega = \langle X\eta, (XT, X\mu)\alpha \rangle$, we have $\langle f, (Y, \theta)\tilde{\omega} \rangle = \langle f, Y\hat{\omega}.\theta \rangle = \langle X\eta, (XT, X\mu)\alpha.fT.\theta \rangle = \langle X\eta, (fT.\theta)^X.(Y, \theta)\alpha \rangle = \langle X\eta.fT.\theta, (Y, \theta)\alpha \rangle = \langle f.Y\eta.\theta, (Y, \theta)\alpha \rangle = \langle f, (Y, \theta)\alpha \rangle$.
+
+Passages (5.7) and (5.9) say
+
+S is a support of $\psi$ if such a factorization exists (and $\psi$ is independent of the elements of $X$ not in $S$). A subset $S$ of $X$ is a support of the semantic operation $\alpha: U^X \longrightarrow U$ if $S$ is a support of $(Y, \theta)\alpha: Y^X \longrightarrow Y$ for every T-algebra $(Y, \theta)$. The arity of $\alpha: U^X \longrightarrow U$ is defined by “$ar(\alpha) = \text{Min}(n:n$ is a cardinal and there exists a support of $\alpha$ of cardinal $n)$.” For example, let $x$ and $x'$ be distinct elements of $X$. Then sending $f: X \longrightarrow Y$ to $xf + x'f$ is a semantic operation in $X$ with respect to abelian group theory whose arity is 2. $S$ is a support if and only if $\{x, x'\} \subset S$. We must not infer from this example that the intersection of all supports is a support, however. For the ultrafilter theory of 3.21, if $U \in X\beta$, then the set of supports of the semantic operation is precisely $U!$ (See exercise 3.)
+
+We now show that syntactic arity and semantic arity coincide:

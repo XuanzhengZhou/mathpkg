@@ -1,0 +1,23 @@
+id: tridiagonal-determinant-recurrence
+title_en: "Tridiagonal Determinant Recurrence"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [determinant, recurrence-relation, tridiagonal-matrix]
+depends_on:
+  required: [determinant, laplace-expansion]
+  recommended: [linear-recurrence]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "IV"
+    section: "Problems"
+    pages: ""
+    role_in_book: "Exercise; stated as Problem 5 for the reader to prove."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

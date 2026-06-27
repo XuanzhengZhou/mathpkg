@@ -1,0 +1,23 @@
+id: theorem-10-8-derivation-set-exists
+title_en: "Existence of Derivation Set for Desarguesian Affine Plane"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: advanced
+tags: [derivation-set, desarguesian-plane, affine-plane, Baer-subplane]
+depends_on:
+  required: [affine-plane, desarguesian-plane, Baer-subplane, derivation-set]
+  recommended: [translation-plane, homology, perspectivity]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "Daniel R. Hughes, Fred C. Piper"
+    title: "Projective Planes"
+    chapter: "10"
+    section: "3"
+    pages: ""
+    role_in_book: "Establishes that desarguesian affine planes of order q^2 always possess a derivation set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

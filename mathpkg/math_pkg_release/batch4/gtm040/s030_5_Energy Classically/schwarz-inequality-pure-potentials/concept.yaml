@@ -1,0 +1,23 @@
+id: schwarz-inequality-pure-potentials
+title_en: "Schwarz Inequality for Pure Potentials of Finite Energy"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: potential-theory
+difficulty: intermediate
+tags: [schwarz-inequality, pure-potential, finite-energy, inner-product, capacity]
+depends_on:
+  required: [schwarz-inequality-finite-support, inner-product-approximation-lemma]
+  recommended: [energy-of-potential]
+  suggested: [equilibrium-potential]
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "8"
+    section: "5"
+    pages: ""
+    role_in_book: "extends Schwarz inequality to pure potentials of finite energy"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

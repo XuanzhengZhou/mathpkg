@@ -1,0 +1,23 @@
+id: forgetful-functor-grp-creates-limits
+title_en: "Forgetful Functor from Groups Creates Limits"
+title_zh: "从群范畴的遗忘函子创建极限"
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [category-theory, limits, forgetful-functor, creates-limits, groups]
+depends_on:
+  required: [creates-limits, forgetful-functor, group, limit-of-diagram]
+  recommended: [forgetful-functor-grp-lifts-limits]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "V"
+    section: "1. Creation of Limits"
+    pages: ""
+    role_in_book: "Theorem 3 — restates Theorem 2 using the terminology of creation of limits"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

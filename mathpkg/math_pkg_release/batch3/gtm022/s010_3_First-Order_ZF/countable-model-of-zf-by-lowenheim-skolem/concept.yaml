@@ -1,0 +1,23 @@
+id: countable-model-of-zf-by-lowenheim-skolem
+title_en: "Existence of a Countable Model of ZF via Löwenheim-Skolem"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: set-theory
+difficulty: advanced
+tags: [ZF, Lowenheim-Skolem, countable-model, model-theory]
+depends_on:
+  required: [first-order-zf-formal-theory, countability-of-language-of-zf]
+  recommended: []
+  suggested: [skolems-paradox]
+source_books:
+  - book_id: "gtm022"
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: ""
+    section: "3"
+    pages: ""
+    role_in_book: "Applies the Löwenheim-Skolem theorem to obtain a countable model of ZF"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

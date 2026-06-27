@@ -1,0 +1,29 @@
+id: generalized-malgrange-preparation-theorem
+title_en: "Generalized Malgrange Preparation Theorem"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: singularity-theory
+difficulty: advanced
+tags:
+  - malgrange-preparation
+  - smooth-functions
+  - finite-generation
+  - module-over-ring-of-germs
+depends_on:
+  required: []
+  recommended:
+    - finite-generation-under-submersion
+    - finite-generation-under-immersion
+  suggested: []
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "3"
+    section: "3"
+    pages: ""
+    role_in_book: "Central theorem of §3; generalizes the classical Malgrange Preparation Theorem to the setting of finitely generated modules over rings of smooth function germs"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

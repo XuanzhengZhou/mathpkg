@@ -1,0 +1,23 @@
+id: fubini-theorem
+title_en: "Fubini's Theorem"
+title_zh: "Fubini定理"
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-theory, fubini, iterated-integral, product-measure]
+depends_on:
+  required: [product-measure, lebesgue-integral]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "VII"
+    section: "36"
+    pages: ""
+    role_in_book: "The integral with respect to a product measure equals the iterated integral"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

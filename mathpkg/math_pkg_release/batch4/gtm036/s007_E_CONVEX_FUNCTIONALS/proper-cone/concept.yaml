@@ -1,0 +1,23 @@
+id: proper-cone
+title_en: "Proper Cone in a Real Linear Space"
+title_zh: "实线性空间中的真锥"
+type: definition
+domain: analysis
+subdomain: convex-analysis
+difficulty: basic
+tags: [proper-cone, cone, radial-kernel, convex-set]
+depends_on:
+  required: []
+  recommended: [cone-definition, convex-set]
+  suggested: [radial-kernel]
+source_books:
+  - book_id: gtm036
+    author: "J.L. Kelley, I. Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "3"
+    section: "E CONVEX FUNCTIONALS"
+    pages: ""
+    role_in_book: "Definition of proper cone, prerequisite for separation theorems"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

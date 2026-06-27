@@ -1,0 +1,11 @@
+Let $R$ be a ring. A pair $(M, \lambda)$ is a \textbf{left $R$-module} if $M$ is an abelian group (written additively) and $\lambda$ is a map from $R$ to the set of left endomorphisms of $M$ such that if $M$ is not zero,
+
+$$\lambda: R \rightarrow \operatorname{End}^l(M)$$
+
+is a ring homomorphism. Equivalently, for each $a \in R$ there is a mapping $\lambda(a): M \rightarrow M$ such that for all $a, b \in R$ and all $x, y \in M$:
+
+$$\lambda(a)(x + y) = \lambda(a)(x) + \lambda(a)(y), \quad \lambda(ab)(x) = \lambda(a)(\lambda(b)(x)),$$
+
+$$\lambda(a + b)(x) = \lambda(a)(x) + \lambda(b)(x), \quad \lambda(1)(x) = x.$$
+
+In practice, $\lambda$ is suppressed and we write $a x$ for $\lambda(a)(x)$.

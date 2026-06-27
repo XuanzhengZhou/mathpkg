@@ -1,0 +1,23 @@
+id: induced-representation-tensor-criterion
+title_en: "Tensor Product Criterion for Induced Representations"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [induced-representation, tensor-product, group-algebra, scalar-extension]
+depends_on:
+  required: [induced-representation, group-algebra]
+  recommended: [tensor-product-of-modules, scalar-extension]
+  suggested: []
+source_books:
+  - book_id: gtm042
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "7"
+    section: "7.1"
+    pages: ""
+    role_in_book: "Proposition 18 — characterizes induced representations via the tensor product, making existence and uniqueness obvious"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

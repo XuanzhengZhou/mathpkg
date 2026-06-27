@@ -1,0 +1,23 @@
+id: irreducible-modular-characters
+title_en: "Irreducible Modular Characters"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: intermediate
+tags: ["modular-character", "irreducible-representation", "simple-module", "brauer-character"]
+depends_on:
+  required: ["modular-character", "simple-kg-module", "sk"]
+  recommended: ["semisimple-module"]
+  suggested: ["brauers-theorem"]
+source_books:
+  - book_id: "gtm042"
+    author: "Jean-Pierre Serre"
+    title: "Linear Representations of Finite Groups"
+    chapter: "18"
+    section: "18.2"
+    pages: ""
+    role_in_book: "Definition at the start of Section 18.2; the irreducible modular characters are the Brauer characters of simple $k[G]$-modules."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

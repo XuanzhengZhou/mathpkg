@@ -1,0 +1,23 @@
+id: vacuous-quantifier-implication
+title_en: "Distribution of ∀ over → when Variable is Not Free (Proposition 10.64)"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: predicate-logic
+difficulty: intermediate
+tags: [universal-quantifier, implication, free-variable, predicate-calculus, quantifier-distribution]
+depends_on:
+  required: [universal-generalization]
+  recommended: [universal-specification, deduction-theorem]
+  suggested: [logical-axiom]
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "2"
+    section: "2.10"
+    pages: ""
+    role_in_book: "Shows that the universal quantifier can be distributed over implication when the quantified variable does not occur free in the antecedent"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

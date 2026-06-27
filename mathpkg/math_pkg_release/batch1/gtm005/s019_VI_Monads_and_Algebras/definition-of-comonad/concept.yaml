@@ -1,0 +1,23 @@
+id: definition-of-comonad
+title_en: "Definition of a Comonad in a Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [comonad, endofunctor, natural-transformation, counit, comultiplication, dual]
+depends_on:
+  required: [definition-of-monad]
+  recommended: [definition-of-functor, definition-of-natural-transformation]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI"
+    section: "1. Monads in a Category"
+    pages: "138"
+    role_in_book: "Dual notion to monad; used in coalgebra and descent theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: direct-sum-characterization-via-projections
+title_en: "Direct Sum Decomposition via Continuous Projections"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [direct-sum, projection, product-topology, tvs]
+depends_on:
+  required: [topological-vector-space, product-of-topological-vector-spaces]
+  recommended: [algebraic-direct-sum, continuous-linear-map]
+  suggested: []
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; with M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "I"
+    section: "2"
+    pages: "32-33"
+    role_in_book: "Theorem 2.2. A t.v.s. is the topological direct sum of n subspaces iff the associated projections are continuous."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

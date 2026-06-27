@@ -1,0 +1,23 @@
+id: infinite-product-convergence
+title_en: "Infinite Product of Complex Numbers"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [infinite-product, convergence, weierstrass-factorization, complex-numbers]
+depends_on:
+  required: [sequence, limit, complex-numbers]
+  recommended: []
+  suggested: [weierstrass-factorization-theorem]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "VII"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines infinite product convergence, foundational for the Weierstrass Factorization Theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

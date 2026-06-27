@@ -1,0 +1,23 @@
+id: fractionary-ideal
+title_en: "Fractionary Ideal"
+title_zh: "分式理想"
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [dedekind-domain, ideal-theory, quotient-field]
+depends_on:
+  required: []
+  recommended: [integral-domain, quotient-field, module]
+  suggested: [dedekind-domain]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "6"
+    pages: "271-272"
+    role_in_book: "Foundation for Dedekind domain theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

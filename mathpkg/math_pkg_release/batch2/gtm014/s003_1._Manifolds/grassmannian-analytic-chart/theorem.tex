@@ -1,0 +1,13 @@
+Equip $\mathbf{R}^n$ with an inner product $(\;,\;)$. For a subspace $V \subseteq \mathbf{R}^n$, let $\pi_V$ be the orthogonal projection of $\mathbf{R}^n$ onto $V$. For a $k$-dimensional subspace $V \subseteq \mathbf{R}^n$, define
+\[
+W_V = \{U \in G_{k,n} \mid \pi_{U,V} = \pi_V|_U : U \to V \text{ is a bijection}\}.
+\]
+Let $V^\perp$ be the orthogonal complement of $V$ in $\mathbf{R}^n$. Define the chart map
+\[
+\rho_V : W_V \to \operatorname{Hom}(V, V^\perp)
+\]
+by
+\[
+\rho_V(U) = \pi_{U,V^\perp} \circ \pi_{U,V}^{-1} \in \operatorname{Hom}(V, V^\perp),
+\]
+where $\pi_{U,V^\perp} : U \to V^\perp$ is the restriction of $\pi_{V^\perp}$ to $U$, and $\pi_{U,V}^{-1} : V \to U$ is the inverse of the bijection $\pi_{U,V}$. Then $\rho_V$ is a homeomorphism onto its image, and the collection $\{\rho_V\}$ for all $k$-dimensional subspaces $V$ forms an analytic atlas for $G_{k,n}$.

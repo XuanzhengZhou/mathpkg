@@ -1,0 +1,23 @@
+id: endomorphism-determined-by-generators
+title_en: "Endomorphism Determined by Action on Generators"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [endomorphism, module, generators, principal-ideal-domain]
+depends_on:
+  required: [finitely-generated-module-over-pid, order-ideal]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "3"
+    section: "16"
+    pages: ""
+    role_in_book: "Foundation for matrix representation of endomorphisms, shows B is determined by images of generators"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

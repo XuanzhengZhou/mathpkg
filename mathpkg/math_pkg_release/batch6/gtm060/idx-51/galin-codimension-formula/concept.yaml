@@ -1,0 +1,13 @@
+id: galin-codimension-formula
+title_en: "Galin's Codimension Formula for Degenerate Quadratic Hamiltonians"
+title_zh: "加林退化二次哈密顿量余维数公式"
+type: theorem
+domain: applied-math
+subdomain: dynamical-systems
+difficulty: advanced
+tags: [codimension, jordan-blocks, quadratic-hamiltonian, normal-forms, bifurcation, galin]
+depends_on: {required:[hamiltonian-eigenvalue-classification, jordan-normal-form], recommended:[codimension, bifurcation-theory], suggested:[]}
+source_books: [{book_id:"gtm060",author:"V.I. Arnold",title:"Mathematical Methods of Classical Mechanics",chapter:"Appendix 6",section:"Normal forms of quadratic hamiltonians",pages:"396-397",role_in_book:"Galin's theorem computing the codimension of the set of hamiltonians with given Jordan block structure"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

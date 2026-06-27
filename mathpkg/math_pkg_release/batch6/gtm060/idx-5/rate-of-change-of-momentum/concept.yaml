@@ -1,0 +1,23 @@
+id: rate-of-change-of-momentum
+title_en: "Rate of Change of Momentum of a System"
+title_zh: "质点系动量的变化率"
+type: theorem
+domain: applied-math
+subdomain: classical-mechanics
+difficulty: basic
+tags: [momentum, external-forces, newtons-second-law, system-of-particles]
+depends_on:
+  required: [momentum-of-a-system]
+  recommended: [newtons-second-law]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "10"
+    pages: "55-67"
+    role_in_book: "Theorem relating the rate of change of total momentum to external forces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

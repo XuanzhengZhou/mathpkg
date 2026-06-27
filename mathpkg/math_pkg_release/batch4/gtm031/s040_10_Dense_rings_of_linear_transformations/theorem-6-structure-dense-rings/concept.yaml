@@ -1,0 +1,14 @@
+id: theorem-6-structure-dense-rings
+title_en: "Theorem 6: Structure Theorem for Dense Rings of Linear Transformations"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [structure-theorem, dense-ring, finite-rank, total-subspace, sandwich]
+depends_on: {required: [dense-ring-finite-topology, total-subspace], recommended: [lemma-2-finite-rank-decomposition, irreducible-set-endomorphisms], suggested: [theorem-7-isomorphism-dense-rings]}
+source_books:
+  - {book_id: "gtm031", author: "Nathan Jacobson", title: "Lectures in Abstract Algebra II: Linear Algebra", chapter: "IX", section: "10", pages: "", role_in_book: "Central structure theorem characterizing dense rings as subrings sandwiched between the full ring L(R'|R) and the finite rank ideal F(R'|R)"}
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

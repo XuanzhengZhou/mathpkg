@@ -1,0 +1,23 @@
+id: length-invariance-under-localization-at-disjoint-multiplicative-system
+title_en: "Invariance of Length of Primary Ideal under Localization at a Disjoint Multiplicative System"
+title_zh: "准素理想在不相交乘法系局部化下的长度不变性"
+type: corollary
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [length-of-ideal, primary-ideal, localization, multiplicative-system]
+depends_on:
+  required: [additivity-of-length-of-ideals, primary-ideal]
+  recommended: [localization, multiplicative-system]
+  suggested: []
+source_books:
+  - book_id: "gtm028"
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra Vol. I"
+    chapter: "IV"
+    section: "13"
+    pages: ""
+    role_in_book: "Corollary. Length of a primary ideal is invariant under localization at multiplicative systems disjoint from it"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: normal-space
+title_en: "Normal Space"
+title_zh: "正规空间"
+type: definition
+domain: topology
+subdomain: separation-axioms
+difficulty: basic
+tags: [normal-space, separation-axioms, hausdorff, disjoint-neighborhoods]
+depends_on:
+  required: [hausdorff-space, closed-set, neighborhood]
+  recommended: [urysohn-lemma, tietze-extension-theorem]
+  suggested: [completely-regular-space, collectionwise-normal]
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.12"
+    pages: ""
+    role_in_book: "Definition of normality; a stronger separation axiom whose role is largely supplanted by complete regularity in the theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

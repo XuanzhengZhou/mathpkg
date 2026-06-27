@@ -1,0 +1,23 @@
+id: canonical-form-of-conic-matrix
+title_en: "Canonical Form of a Non-Empty Conic (Theorem 2.36)"
+title_zh: "非空二次曲线的标准型（定理2.36）"
+type: theorem
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [conic, canonical-form, matrix, diagonalization, homogeneous-coordinates]
+depends_on:
+  required: [conic-in-projective-plane, conic-parametrization-and-cardinality]
+  recommended: [homogeneous-coordinates]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "II. Classical Projective Planes"
+    section: "7. Conics"
+    pages: ""
+    role_in_book: "Canonical coordinate representation of conics; shows all non-empty conics are projectively equivalent"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

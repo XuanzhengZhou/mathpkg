@@ -1,0 +1,23 @@
+id: turing-computable-implies-recursive
+title_en: "Every Turing Computable Function is Recursive"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: computability-theory
+difficulty: advanced
+tags: [Turing-machine, recursive-function, Church-Turing-thesis, computability]
+depends_on:
+  required: [tm-is-elementary, v-function]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "3"
+    section: "1"
+    pages: ""
+    role_in_book: "Lemma 3.38 establishing that Turing computability implies recursiveness"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

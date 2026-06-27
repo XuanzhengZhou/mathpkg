@@ -1,0 +1,23 @@
+id: orthogonal-platonic-graph-existence
+title_en: "Existence of Orthogonal Connected Platonic Graph"
+title_zh: ""
+type: lemma
+domain: combinatorics
+subdomain: graph-theory
+difficulty: advanced
+tags: [platonic-graph, orthogonal-graph, isocovalent-imbedding, planar-graph]
+depends_on:
+  required: []
+  recommended: [platonic-graph, isocovalent-imbedding, orthogonal-multigraphs, vertex-cocycle]
+  suggested: [platonic-graph-types, euler-formula]
+source_books:
+  - book_id: gtm054
+    author: "Graver, J.E. and Watkins, M.E."
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "III"
+    section: "13 (III.F Platonic Graphs)"
+    pages: "104-107"
+    role_in_book: "Lemma F24: Establishes that every Platonic graph has an orthogonal connected Platonic companion, enabling structural analysis of Platonic graphs via orthogonality."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

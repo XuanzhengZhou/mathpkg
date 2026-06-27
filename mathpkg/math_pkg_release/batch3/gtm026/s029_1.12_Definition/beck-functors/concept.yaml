@@ -1,0 +1,13 @@
+id: beck-functor
+title_en: "Beck Functor"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [beck, limit-creation, coequalizer, algebraic]
+depends_on: {required: [creates-limits, creation-of-coequalizers-of-absolute-pairs], recommended: [algebraic-functor], suggested: []}
+source_books: [{book_id: "gtm026", author: "Ernest G. Manes", title: "Algebraic Theories", chapter: "3", section: "1.17", pages: "", role_in_book: "Definition of Beck functor as limit-creating + coequalizer-creating"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

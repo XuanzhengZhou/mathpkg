@@ -1,0 +1,23 @@
+id: cogredient-matrices
+title_en: "Cogredient Matrices"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [cogredience, matrix-equivalence, scalar-product, change-of-basis, anti-automorphism]
+depends_on:
+  required: [conjugate-transpose-matrix, matrix-of-scalar-product]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "Bilinear Forms"
+    section: "6"
+    pages: "161-162"
+    role_in_book: "Defines the equivalence relation for matrices of a scalar product; two matrices are cogredient iff they represent the same scalar product in different bases"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

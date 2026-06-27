@@ -1,0 +1,23 @@
+id: strictification-theorem-for-monoidal-categories
+title_en: "Strictification Theorem for Monoidal Categories"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [monoidal-category, strict-monoidal-category, coherence-theorem, monoidal-equivalence, Mac-Lane]
+depends_on:
+  required: [monoidal-category, strict-monoidal-category, strong-monoidal-functor]
+  recommended: [monoidal-equivalence, braided-monoidal-functor]
+  suggested: [coherence-theorem, free-monoid]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "XI"
+    section: "3"
+    pages: "271-273"
+    role_in_book: "Main theorem establishing that every monoidal category is monoidally equivalent to a strict one (Mac Lane's Coherence Theorem)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

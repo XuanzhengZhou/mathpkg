@@ -1,0 +1,23 @@
+id: x-and-boundary-connected
+title_en: "Lemma 5: X and its boundary can be chosen connected"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: geometric-topology
+difficulty: advanced
+tags: [connectedness, polyhedral-3-manifold, boundary, separation]
+depends_on:
+  required: [pseudocell-boundary-intersection-is-polygon]
+  recommended: [theorem-26-6, theorem-30-2]
+  suggested: []
+source_books:
+  - book_id: gtm047
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "8"
+    section: "33"
+    pages: "239-246"
+    role_in_book: "Ensures the target manifold X has connected interior and boundary"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

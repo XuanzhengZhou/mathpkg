@@ -1,0 +1,23 @@
+id: orthogonal-projection-invariance-under-frame-change
+title_en: "Invariance of Orthogonal Projection Under Orthonormal Frame Change"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: inner-product-spaces
+difficulty: basic
+tags: [orthogonal-projection, orthonormal-frame, stiefel-variety, gram-schmidt]
+depends_on:
+  required: [stiefel-manifold, grassmannian-manifold]
+  recommended: [orthogonal-projection]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "8"
+    section: "3"
+    pages: ""
+    role_in_book: "Key technical proposition ensuring the orthogonal projection onto a subspace is well-defined independent of the choice of orthonormal basis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: filter-with-element-equivalence
+title_en: "Membership in Filter with Added Element"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [filter, filter-generation, set-theory]
+depends_on:
+  required: [filter, set-theory]
+  recommended: [filter-generation-equivalence]
+  suggested: []
+source_books:
+  - book_id: gtm037
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "26"
+    section: "Elementary Classes and Elementary Equivalence"
+    pages: ""
+    role_in_book: "Proposition 26.30: membership in F_g(F U {Z})"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: fermat-curve-affine-point-count
+title_en: "Number of Affine Points of the Fermat Curve over a Finite Field"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: zeta-functions
+difficulty: advanced
+tags: [fermat-curve, character-sum, jacobi-sum, finite-field, point-counting]
+depends_on:
+  required: [truncated-character, jacobi-sum]
+  recommended: [gauss-sum, multiplicative-character]
+  suggested: [davenport-hasse-theorem]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "6. Application to the Fermat Curve"
+    pages: "22-24"
+    role_in_book: "Theorem 6.1; expresses the number of affine points on the Fermat curve over a finite field as a character sum involving Jacobi sums"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: complex-plane-division-algebra
+title_en: "The complex plane as a real division algebra"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [complex-plane, division-algebra, quaternions, multiplication]
+depends_on:
+  required: [algebra-q, mapping-phi-z, multiplication-in-complex-plane, phi-z-homomorphism]
+  recommended: [q-isomorphic-to-quaternions]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Main result of §11.15: Under the multiplication z₁z₂ = φ_{z₂}z₁, the complex plane C becomes a 4-dimensional real division algebra, providing an explicit model of the quaternions."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

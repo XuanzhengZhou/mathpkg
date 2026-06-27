@@ -1,0 +1,23 @@
+id: euler-characteristic-of-2-manifold-with-boundary-def
+title_en: "Euler Characteristic of a 2-Manifold with Boundary"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: geometric-topology
+difficulty: basic
+tags: [euler-characteristic, 2-manifold, boundary, topological-invariant]
+depends_on:
+  required: [euler-characteristic-invariance-2-manifold-boundary]
+  recommended: [triangulated-2-manifold]
+  suggested: []
+source_books:
+  - book_id: "gtm047"
+    author: "Edwin E. Moise"
+    title: "Geometric Topology in Dimensions 2 and 3"
+    chapter: "21"
+    section: "21"
+    pages: ""
+    role_in_book: "Extends Euler characteristic definition to 2-manifolds with boundary via triangulation invariance"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: characterization-of-subharmonic-functions
+title_en: "Characterization of Subharmonic Functions via the Maximum Principle"
+title_zh: "通过最大值原理刻画次调和函数"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [subharmonic, maximum-principle, harmonic, characterization]
+depends_on:
+  required: [subharmonic-function, maximum-principle-for-subharmonic-functions, harmonic-function]
+  recommended: [poisson-integral, dirichlet-problem-on-disk]
+  suggested: []
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.4"
+    pages: "279"
+    role_in_book: "Provides an equivalent characterization: φ is subharmonic iff for every subregion and harmonic function, φ−u satisfies the Maximum Principle"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

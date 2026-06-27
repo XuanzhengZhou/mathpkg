@@ -1,0 +1,23 @@
+id: static-spacetime
+title_en: "Static Spacetime"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [static, spacetime, stationary, irrotational, reference-frame]
+depends_on:
+  required: [static-reference-frame, stationary-spacetime]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "7"
+    section: "7.2"
+    pages: ""
+    role_in_book: "Definition of a static spacetime via existence of a static reference frame"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

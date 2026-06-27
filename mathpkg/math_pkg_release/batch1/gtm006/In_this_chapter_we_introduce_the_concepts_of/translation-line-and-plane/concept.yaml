@@ -1,0 +1,28 @@
+id: translation-line-and-plane
+title_en: Translation Line and Translation Plane
+title_zh: ''
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags:
+- translation-line
+- translation-plane
+- elation
+depends_on:
+  required:
+  - elation
+  - m-l-transitive
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '5'
+  pages: ''
+  role_in_book: Defines the fundamental notion of translation plane
+content_hash: cb9a2f6de46b
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

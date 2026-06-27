@@ -1,0 +1,23 @@
+id: james-nearly-reflexive-banach-space
+title_en: "James' Nearly Reflexive Banach Space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [banach-space, reflexive, isomorphic-to-bidual, james-space, counterexample, codimension-one]
+depends_on:
+  required: [banach-space, reflexive-space, second-adjoint, codimension]
+  recommended: [canonical-embedding]
+  suggested: []
+source_books:
+  - book_id: gtm036
+    author: "Kelley, Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "17"
+    section: "M"
+    pages: ""
+    role_in_book: "Example of a Banach space isomorphic to its bidual yet not reflexive; canonical image has codimension one"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

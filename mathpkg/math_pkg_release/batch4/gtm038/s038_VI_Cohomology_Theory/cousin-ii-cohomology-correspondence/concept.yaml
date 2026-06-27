@@ -1,0 +1,24 @@
+id: cousin-ii-cohomology-correspondence
+title_en: "Cousin II Cocycle Correspondence"
+title_zh: "第二类库赞上闭链对应"
+type: theorem
+domain: analysis
+subdomain: several-complex-variables
+difficulty: advanced
+tags: [cousin-ii-distribution, cocycle, cohomology, solvability]
+depends_on:
+  required: [cousin-ii-distribution, sheaf-of-germs-of-non-vanishing-holomorphic-functions]
+  recommended: [cocycle, coboundary, first-cohomology-group]
+  suggested: []
+source_books:
+  - book_id: "gtm038"
+    author: "H. Grauert, K. Fritzsche"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "4"
+    pages: "178-179"
+    role_in_book: "Theorem 4.7: Establishes correspondence between Cousin II distributions and cohomology classes in H^1(𝔘, O*)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"
+notes: "STATEMENT INCOMPLETE — the theorem statement is truncated at the section file boundary. The theorem as given starts: 'Let (U_t, f_t)_{t∈I} be a Cousin II distribution on X, 𝔘 = (U_t)_{t∈I}...' The remainder of the statement and proof are in the next section file (s039)."

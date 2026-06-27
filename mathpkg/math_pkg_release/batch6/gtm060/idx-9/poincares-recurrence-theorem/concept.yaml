@@ -1,0 +1,23 @@
+id: poincares-recurrence-theorem
+title_en: "Poincaré's Recurrence Theorem"
+title_zh: "庞加莱回归定理"
+type: theorem
+domain: applied-math
+subdomain: ergodic-theory
+difficulty: intermediate
+tags: [poincare-recurrence, volume-preservation, ergodic-theory, dynamical-systems, measure-theory]
+depends_on:
+  required: []
+  recommended: [phase-flow-preserves-volume, liouvilles-theorem]
+  suggested: [measure-theory, topological-dynamics]
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "2"
+    section: "B"
+    pages: "83-87"
+    role_in_book: "Fundamental recurrence result for volume-preserving dynamical systems, applied to Hamiltonian mechanics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

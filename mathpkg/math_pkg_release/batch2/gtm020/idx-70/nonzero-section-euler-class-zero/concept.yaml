@@ -1,0 +1,23 @@
+id: nonzero-section-euler-class-zero
+title_en: "Euler Class Vanishes for Bundles with Everywhere-Nonzero Cross Section"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: characteristic-classes
+difficulty: intermediate
+tags: [euler-class, cross-section, vector-bundle, line-bundle-splitting]
+depends_on:
+  required: [euler-class, cross-section-of-vector-bundle, euler-class-product-formula]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemöller"
+    title: "Fibre Bundles"
+    chapter: "8"
+    section: "8.3"
+    pages: "page_0265–page_0270"
+    role_in_book: "Shows that the existence of an everywhere-nonzero cross section forces the Euler class to vanish"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

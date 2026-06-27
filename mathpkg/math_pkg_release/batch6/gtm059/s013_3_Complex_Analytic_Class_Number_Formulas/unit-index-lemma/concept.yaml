@@ -1,0 +1,23 @@
+id: unit-index-lemma
+title_en: "Unit Index Formula"
+title_zh: "单位指数公式"
+type: lemma
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [unit-index, class-number, real-subfield, regulator, unit-group]
+depends_on:
+  required: [unit-index-q]
+  recommended: [class-number, regulator, discriminant]
+  suggested: [logarithmic-embedding]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "Complex Analytic Class Number Formulas"
+    pages: "86-89"
+    role_in_book: "Computes the unit index Q in terms of class numbers, regulators, and related invariants"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

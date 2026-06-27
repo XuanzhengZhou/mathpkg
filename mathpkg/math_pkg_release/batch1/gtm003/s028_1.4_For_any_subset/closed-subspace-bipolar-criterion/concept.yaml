@@ -1,0 +1,23 @@
+id: closed-subspace-bipolar-criterion
+title_en: "Criterion for a Subspace to Equal Its Bipolar"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [bipolar, subspace, weak-topology, closed-subspace, duality]
+depends_on:
+  required: [bipolar-theorem, vector-subspace, sigma-f-g-topology]
+  recommended: [polar-of-set]
+  suggested: [polar-lattice-anti-isomorphism]
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "IV"
+    section: "1.5"
+    pages: "page_0140"
+    role_in_book: "Corollary of the bipolar theorem characterizing subspaces equal to their bipolar"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

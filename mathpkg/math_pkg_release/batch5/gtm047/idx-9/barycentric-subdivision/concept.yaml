@@ -1,0 +1,13 @@
+id: barycentric-subdivision
+title_en: "Barycentric Subdivision of a Complex"
+title_zh: "复形的重心重分"
+type: definition
+domain: topology
+subdomain: piecewise-linear-topology
+difficulty: intermediate
+tags: [barycentric-subdivision, complex, simplex, barycenter, subdivision]
+depends_on: {required: [simplicial-complex, barycenter], recommended: [join-of-complexes, subdivision-of-complex], suggested: []}
+source_books: [{book_id: "gtm047", author: "Edwin E. Moise", title: "Geometric Topology in Dimensions 2 and 3", chapter: "5", section: "5", pages: "52-57", role_in_book: "Defines the first barycentric subdivision bK of a complex K by induction on dimension"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

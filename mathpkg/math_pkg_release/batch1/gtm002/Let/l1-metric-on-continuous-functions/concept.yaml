@@ -1,0 +1,23 @@
+id: l1-metric-on-continuous-functions
+title_en: "L1 Metric on Continuous Functions"
+title_zh: "连续函数空间上的L1度量"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [metric-space, l1-metric, continuous-functions, integral-metric]
+depends_on:
+  required: [riemann-integral, metric-space]
+  recommended: [continuous-function]
+  suggested: []
+source_books:
+  - book_id: "gtm002"
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "10"
+    section: "10"
+    pages: "50-52"
+    role_in_book: "Defines an alternative (non-complete) metric on C[a,b]"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

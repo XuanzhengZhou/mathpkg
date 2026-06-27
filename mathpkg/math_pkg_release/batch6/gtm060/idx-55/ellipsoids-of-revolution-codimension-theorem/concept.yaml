@@ -1,0 +1,23 @@
+id: ellipsoids-of-revolution-codimension-theorem
+title_en: "Codimension of Ellipsoids of Revolution"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: quadratic-forms
+difficulty: advanced
+tags: [ellipsoid-of-revolution, codimension, smooth-submanifold, parameter-count, multiplicity-of-eigenvalues]
+depends_on:
+  required: [manifold-of-ellipsoids, codimension-of-submanifold, dimension-of-grassmannian]
+  recommended: [smooth-submanifold, eigenvalue-multiplicity]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 10"
+    section: "Multiplicities of characteristic frequencies and ellipsoids of revolution"
+    pages: "438-445"
+    role_in_book: "Central theorem characterizing the degeneracy of ellipsoids with multiple axes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

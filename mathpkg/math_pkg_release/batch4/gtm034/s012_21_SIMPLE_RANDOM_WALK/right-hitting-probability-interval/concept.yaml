@@ -1,0 +1,13 @@
+id: right-hitting-probability-interval
+title_en: "Right Hitting Probability for an Interval"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: random-walk
+difficulty: basic
+tags: [hitting-probability, interval, exit-distribution, green-function]
+depends_on: {required: [interval-green-function], recommended: [hitting-probability], suggested: []}
+source_books: [{book_id: "gtm034", author: "Frank Spitzer", title: "Principles of Random Walk", chapter: "V", section: "21", pages: "", role_in_book: "Defines the hitting probability R_N(x,k) of exiting the interval on the right at N+k"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

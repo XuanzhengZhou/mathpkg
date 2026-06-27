@@ -1,0 +1,23 @@
+id: schottkys-theorem
+title_en: "Schottky's Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: advanced
+tags: ["schottky", "analytic-function", "omitted-values", "uniform-bound", "picard-theorem"]
+depends_on:
+  required: []
+  recommended: ["lemma-simply-connected-omitted-values", "lemma-2.2-disk-free-region"]
+  suggested: ["little-picard-theorem"]
+source_books:
+  - book_id: "gtm011"
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.3"
+    pages: ""
+    role_in_book: "key theorem bounding analytic functions omitting 0 and 1 on disks, a quantitative precursor to Picard's theorem"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+---
+role: exercise
+locale: en
+chapter: "2"
+section: "14"
+exercise_number: 2
+---
+
+Let $\mathfrak{G}$ be an arbitrary group and let $\mathfrak{M}$ be the complete set of mappings of $\mathfrak{G}$ into itself. If $\eta, \rho \in \mathfrak{M}$, define $\eta\rho$ to be the resultant and $\eta + \rho$ by
+
+$$g(\eta + \rho) = (g\eta)(g\rho)$$
+
+for all $g \in \mathfrak{G}$. Investigate the set $\mathfrak{M}$ relative to these two compositions.

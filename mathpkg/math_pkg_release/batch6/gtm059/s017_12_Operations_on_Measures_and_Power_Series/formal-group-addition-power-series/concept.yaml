@@ -1,0 +1,23 @@
+id: formal-group-addition-power-series
+title_en: "Formal Group Addition on Power Series"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: formal-groups
+difficulty: intermediate
+tags: ["formal-group", "power-series", "addition-law", "p-adic"]
+depends_on:
+  required: ["formal-group", "power-series-ring"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "1"
+    section: "12"
+    pages: "111–112"
+    role_in_book: "Defines the formal group addition operator X [+] x on power series"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

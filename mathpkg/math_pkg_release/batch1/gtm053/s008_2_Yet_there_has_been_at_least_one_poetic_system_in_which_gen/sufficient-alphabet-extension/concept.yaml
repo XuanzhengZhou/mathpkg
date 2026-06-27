@@ -1,0 +1,23 @@
+id: sufficient-alphabet-extension
+title_en: "Extension to Sufficient Alphabet"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: model-theory
+difficulty: advanced
+tags: [consistent, sufficient-alphabet, language-extension, new-constants]
+depends_on:
+  required: [sufficient-alphabet, consistent-set]
+  recommended: [logical-axioms, language, constant-symbols]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "I"
+    section: "6"
+    pages: ""
+    role_in_book: "Ensures the alphabet can be made sufficient for any consistent set by adding new constants"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

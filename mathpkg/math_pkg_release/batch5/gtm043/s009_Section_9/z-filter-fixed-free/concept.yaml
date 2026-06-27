@@ -1,0 +1,23 @@
+id: z-filter-fixed-free
+title_en: "Fixed and Free z-Filters"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: intermediate
+tags: [z-filter, fixed-filter, free-filter, zero-set, ideal]
+depends_on:
+  required: [z-filter, zero-set]
+  recommended: [fixed-maximal-ideals-in-cx]
+  suggested: []
+source_books:
+  - book_id: "gtm043"
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "4"
+    section: "4.10"
+    pages: ""
+    role_in_book: "Defines a z-filter as fixed or free according as the intersection of all its members is nonempty or empty. An ideal I in C(X) is fixed iff Z[I] is fixed."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

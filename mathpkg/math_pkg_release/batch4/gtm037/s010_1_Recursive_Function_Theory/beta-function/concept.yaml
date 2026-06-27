@@ -1,0 +1,23 @@
+id: beta-function
+title_en: "Gödel's Beta Function"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability-theory
+difficulty: intermediate
+tags: [beta-function, Godel-numbering, sequence-coding, elementary-function, Chinese-remainder-theorem]
+depends_on:
+  required: [j-and-l-pairing-functions, properties-of-j-and-l]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "3"
+    section: "1"
+    pages: ""
+    role_in_book: "Definition 3.45 introducing Gödel's beta function for encoding finite sequences of natural numbers"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

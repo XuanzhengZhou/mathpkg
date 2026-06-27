@@ -1,0 +1,5 @@
+Let $(X, \mathbf{S}, \mu)$ and $(Y, \mathbf{T}, \nu)$ be $\sigma$-finite measure spaces. If $f$ is a function that is measurable $[\mathbf{S} \times \mathbf{T}]$ and nonnegative on $X \times Y$, then
+
+$$\int_X \left[ \int_Y f(x, y) \, d\nu(y) \right] d\mu = \int_Y \left[ \int_X f(x, y) \, d\mu(x) \right] d\nu = \int_{X \times Y} f \, d(\mu \times \nu).$$
+
+Thus if $\varphi$ is an arbitrary measurable complex-valued function on $X \times Y$, and if the function $g(x) = \int_Y |\varphi(x, y)| \, d\nu(y)$ satisfies the condition $\int_X g \, d\mu < +\infty$ (or if $h(y) = \int_X |\varphi(x, y)| \, d\mu(x)$ satisfies the condition $\int_Y h \, d\nu < +\infty$), then $\varphi$ is integrable $[\mu \times \nu]$.

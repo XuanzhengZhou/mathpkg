@@ -1,0 +1,23 @@
+id: steiner-triple-system
+title_en: "Steiner Triple System"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: design-theory
+difficulty: basic
+tags: [steiner-triple-system, triple-system, lambda-1, blocksize-3]
+depends_on:
+  required: []
+  recommended: [triple-system, balanced-incomplete-block-design]
+  suggested: []
+source_books:
+- book_id: gtm054
+  author: "Jack E. Graver, Mark E. Watkins"
+  title: "Combinatorics with Emphasis on the Theory of Graphs"
+  chapter: "IX"
+  section: "C"
+  pages: "253-260"
+  role_in_book: "Definition of Steiner triple system"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

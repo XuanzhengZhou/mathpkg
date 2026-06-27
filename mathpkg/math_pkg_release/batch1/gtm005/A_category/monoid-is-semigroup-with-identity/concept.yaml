@@ -1,0 +1,23 @@
+id: monoid-is-semigroup-with-identity
+title_en: "A Monoid is Exactly a Semigroup with Identity Element"
+title_zh: "幺半群即带单位元的半群"
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [monoid, semigroup, identity-element, equivalence]
+depends_on:
+  required: [monoid-as-category, semigroup]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "2"
+    pages: ""
+    role_in_book: "Observation bridging the categorical and algebraic definitions of monoid"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

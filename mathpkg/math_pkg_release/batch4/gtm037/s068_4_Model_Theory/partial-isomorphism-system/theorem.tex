@@ -1,0 +1,11 @@
+Let $\mathfrak{A}$ and $\mathfrak{B}$ be $\mathcal{L}$-structures.
+
+A \textbf{partial isomorphism} of $\mathfrak{A}$ into $\mathfrak{B}$ is a one-one function $f$ mapping a subset of $A$ into $B$ such that if $m \leq |\operatorname{Dmn} f|$, $\varphi$ is an atomic formula, $\operatorname{Fv} \varphi \subseteq \{v_0, \ldots, v_{m-1}\}$, and $x \in {}^m \operatorname{Dmn} f$, then
+$$\mathfrak{A} \models \varphi[x] \quad\text{iff}\quad \mathfrak{B} \models \varphi[f \circ x].$$
+
+For any $\alpha \in \omega \cup \{\omega\}$, an \textbf{$\alpha$-system of partial isomorphisms} of $\mathfrak{A}$ into $\mathfrak{B}$ is a system $\langle I_m : m \in \alpha \rangle$ satisfying the following conditions:
+\begin{enumerate}
+\item[(i)] each $I_m$ is a nonempty set of partial isomorphisms of $\mathfrak{A}$ into $\mathfrak{B}$;
+\item[(ii)] if $m + 1 \in \alpha$, then $I_{m+1} \subseteq I_m$;
+\item[(iii)] if $m + 1 \in \alpha$, $f \in I_{m+1}$, and $a \in A$ (resp. $b \in B$), then there is a $g \in I_m$ such that $f \subseteq g$ and $a \in \operatorname{Dmn} g$ (resp. $b \in \operatorname{Rng} g$).
+\end{enumerate}

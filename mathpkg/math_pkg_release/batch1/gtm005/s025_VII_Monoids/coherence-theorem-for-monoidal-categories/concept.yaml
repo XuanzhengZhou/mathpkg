@@ -1,0 +1,23 @@
+id: coherence-theorem-for-monoidal-categories
+title_en: "Coherence Theorem for Monoidal Categories (Free Monoidal Category on One Generator)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [coherence, monoidal-category, free-construction, mac-lane-coherence]
+depends_on:
+  required: [monoidal-category, strict-morphism-of-monoidal-categories]
+  recommended: [word, free-category]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VII"
+    section: "2. Coherence"
+    pages: ""
+    role_in_book: "Central coherence theorem: every diagram of canonical maps commutes"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

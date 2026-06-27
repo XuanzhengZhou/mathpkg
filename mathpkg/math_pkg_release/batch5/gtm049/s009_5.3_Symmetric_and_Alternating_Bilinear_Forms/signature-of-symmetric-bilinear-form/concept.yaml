@@ -1,0 +1,23 @@
+id: signature-of-symmetric-bilinear-form
+title_en: "Signature of a Real Symmetric Bilinear Form"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: bilinear-forms
+difficulty: basic
+tags: [symmetric-bilinear-form, signature, Sylvester, real]
+depends_on:
+  required: [invariance-of-positive-negative-dimensions]
+  recommended: [positive-definite-bilinear-form]
+  suggested: []
+source_books:
+  - book_id: "gtm049"
+    author: "K.W. Gruenberg, A.J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "5.3"
+    pages: "106"
+    role_in_book: "Defines the signature p - q of a real symmetric bilinear form"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

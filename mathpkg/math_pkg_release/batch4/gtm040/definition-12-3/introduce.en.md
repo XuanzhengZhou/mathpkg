@@ -1,0 +1,72 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+A denumerable stochastic process $\{x_n\}$ satisfies the two-sided Markov property if
+
+$$\Pr[x_n = i_n \mid x_k = i_k; k \in \{m, m + 1, \ldots, M\} - \{n\}]$$
+
+$$= \begin{cases} \Pr[x_0 = i_0 \mid x_1 = i_1] & \text{if } 0 =
+
+property (Proposition 6-44). Otherwise the above conditional probability may be evaluated as
+
+$$\left( \pi P^m \right)_{i_m} \prod_{k=m}^{M-1} P_{i_k i_{k+1}}$$
+
+$$\left( \pi P^m \right)_{i_m} \left( \prod_{k=m}^{n-2} P_{i_k i_{k+1}} \right) P_{i_{n-1} i_{n+1}}^{(2)} \left( \prod_{k=n+1}^{M-1} P_{i_k i_{k+1}} \right)$$
+
+$$= P_{i_{n-1} i_n} P_{i_n i_{n+1}} / P_{i_{n-1} i_{n+1}}^{(2)}$$
+
+$$= \left( \pi P^{n-1} \right)_{i_{n-1}} P_{i_{n-1} i_n} P_{i_n i_{n+1}} / \left( \pi P^{n-1} \right)_{i_{n-1}} P_{i_{n-1} i_{n+1}}^{(2)}$$
+
+$$= \Pr[x_n = i_n \mid x_{n-1} = i_{n-1} \land x_{n+1} = i_{n+1}]$$
+
+The two-sided Markov property, unlike the ordinary Markov property, generalizes to any parameter set $T$ which has a neighbor system, i.e., a collection $\partial = \{ \partial a; a \in T \}$ of finite subsets of $T$ such that (i) $a \notin \partial a$, and (ii) $a \in \partial b$ if and only if $b \in \partial a$, $a, b \in T$. The sites $b \in \partial a$ are called the neighbors of $a$. We write $\bar{a} = \{ a \} \cup \partial a$. Also, for $A \subset V$ let
+
+$$\partial A = \{ b \in T - A : b \in \partial a \text{ for some } a \in A \}; \quad \bar{A} =
+
+PROOF: When $T$ is finite, (2) is simply the Markov field property with $\Lambda = T$, while the fact that $\mu_a^a$ depends only on $t \in \bar{a}$ together with (2) implies $\mu_a^T(\iota) = \mu_a^a(\iota) = \mu_a^a(\iota') = \mu_a^T(\iota')$ whenever $\iota$ and $\iota'$ agree on $\bar{a}$. To see that (3) implies (2), fix $a \in T$ and let $\kappa = \{k_t; t \in T - \bar{a}\}$ be any prescription of values from $S$ on $T - \bar{a}$. Denote by $p, q$, and $r$ the statements
+
+$$x_a = i_a, \quad x_t = i_t \text{ for all } t \in \partial a, \quad x_t = k_t \text{ for all } t \in T - \bar{a},$$
+
+respectively. Then (3) asserts that
+
+$$\Pr[p \mid q \wedge r_\kappa] = c \quad \text{for all } \kappa,$$
+
+or equivalently,
+
+$$\Pr[p \wedge q \wedge r_\kappa] = c \Pr[q \wedge r_\kappa].$$
+
+Summing over all possible $\kappa$, we obtain $\Pr[p \mid q] = c$. Thus $\Pr[p \mid q \wedge r_\kappa] = \Pr[p \mid q]$, which is precisely (2) when $k_t = i_t$ for all $t \in T - \bar{a}$. Finally, to show that (2) implies (1) we choose $\bar{a} \subset \Lambda \subset T$ and $\iota = \{i_t\} \in \Omega$. Since $\mu_a^a$ depends only on sites in $\bar{a}$, (2) yields
+
+$$\Pr[x_t = i_t \text{ for all } t \in \Lambda \wedge x_t = k_t \text{ for all } t \in T - \Lambda]$$
+
+$$= \Pr[x_t = i_t \
+
+Definition 12-8: A finite random field $\{x_t\}$ is a Gibbs field with potential $U$ if
+
+$$\mu(\{\iota\}) = z^{-1}e^{H_U(\iota)} \quad \iota \in \Omega,$$
+
+where $z = \sum_{\iota \in \Omega} \exp\{H_U(\iota)\}$ is often called the partition function. Implicit is the assumption $z \neq +\infty$, which imposes a condition on $U$. If $U$ is a neighbor potential, then $\{x_t\}$ is called a neighbor Gibbs field, and $H_U = \sum_{C \in \mathcal{C}} U_C$.
+
+We remark that the potential and energy of random field theory should not be confused with those of Markov chain theory presented in earlier chapters. These terms have common origins in classical physics.
+
+Example 12-9: $T$ is sometimes called a cubic lattice if no clique in the neighbor system for $T$ has more than two elements. The most important examples are subsets of the $d$-dimensional integer lattices $\mathbb{Z}^d$, where $\partial a = \{b \in T : |a - b| = 1\}$. When $T$ is a finite cubic lattice and $U$ is a neighbor potential, the energy function becomes
+
+$$H_U = \sum_{a \in T} U_{\{a\}} + \sum_{(a,b) \in \mathcal{N}} U_{\{a,b\}} \quad \text{where } \mathcal{N} = \{(a,b) : b \in \partial a\}.$$
+
+In this case $U$ is called a neighbor pair potential.
+
+Two lemmas prepare the way for the representation theorem for finite random fields. Given $\iota = \{i_t\}$ and $A \subset T$, the modification $\iota^A = \{i_t^A\}$ of $\iota$ has values
+
+$$i_t^A = \begin{cases} i_t & \text{for } t \in A \\ 0 & \text{otherwise.} \end{cases}$$
+
+We abbreviate $\iota^{A+a} = \iota^{A \cup \
+
+if and only if
+
+$$\Psi(A) = \sum_{B \subset A} \Phi(B) \quad \text{for all } A \subset A.$$
+
+(Here $|A|$ denotes the cardinality of the set $A$.)

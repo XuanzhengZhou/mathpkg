@@ -1,0 +1,34 @@
+id: progenerator
+title_en: "Progenerator"
+title_zh: "投射生成子"
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags:
+  - progenerator
+  - projective-module
+  - generator
+  - finitely-generated
+  - morita-theory
+depends_on:
+  required:
+    - projective-module
+    - generator-module
+    - finitely-generated-module
+  recommended:
+    - balanced-bimodule
+    - endomorphism-ring
+  suggested:
+    - morita-equivalence
+source_books:
+  - book_id: "gtm013"
+    author: "Frank W. Anderson, Kent R. Fuller"
+    title: "Rings and Categories of Modules"
+    chapter: "4"
+    section: "22"
+    pages: ""
+    role_in_book: "Fundamental definition for Morita equivalence theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: design-type
+title_en: "Design-Type"
+title_zh: ""
+type: definition
+domain: combinatorics
+subdomain: design-theory
+difficulty: intermediate
+tags: [design-type, combinatorial-design, parameter-set]
+depends_on:
+  required: [t-a-design]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm054"
+    author: "Jack E. Graver, Mark E. Watkins"
+    title: "Combinatorics with Emphasis on the Theory of Graphs"
+    chapter: "IX"
+    section: "A"
+    pages: "243"
+    role_in_book: "Defines design-type as the maximal set of parameters for which the design condition holds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: ultrapower
+title_en: "Ultrapower of an L-Structure"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [ultrapower, ultraproduct, ultrafilter, nonstandard-analysis, model-theory]
+depends_on:
+  required: [ultraproduct, ultrafilter]
+  recommended: [filtered-product, l-structure]
+  suggested: [loss-theorem, compactness-theorem]
+source_books:
+  - book_id: gtm053
+    author: "Yu. I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "2"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Special case of ultraproduct where all factors are identical; important in nonstandard analysis"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

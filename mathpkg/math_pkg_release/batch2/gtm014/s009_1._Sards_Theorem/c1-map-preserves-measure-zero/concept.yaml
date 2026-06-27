@@ -1,0 +1,23 @@
+id: c1-map-preserves-measure-zero
+title_en: "C^1 Map Preserves Measure Zero in R^n"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-zero, c1-map, lipschitz-bound, derivative-norm]
+depends_on:
+  required: [measure-zero-in-rn]
+  recommended: []
+  suggested: [measure-zero-preservation-under-c1-maps-on-manifolds]
+source_books:
+  - book_id: "gtm014"
+    author: "M. Golubitsky, V. Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "II"
+    section: "§1. Sard's Theorem"
+    pages: "41-43"
+    role_in_book: "Proposition 1.3 — second result needed to show measure zero is well-defined on manifolds"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

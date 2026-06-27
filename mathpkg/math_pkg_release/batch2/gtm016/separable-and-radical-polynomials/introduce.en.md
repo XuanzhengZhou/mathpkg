@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+We say that $f(X)$ is separable over $k$ if the roots $s_i$ are pairwise distinct, and radical (or purely inseparable) over $k$ if the $s_i$ are all equal.

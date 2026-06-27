@@ -1,0 +1,17 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+2.1 Definition from Conway's "Functions of One Complex Variable I."
+The function
+
+$$P_r(\theta) = \sum_{n=-\infty}^{\infty} r^{|n|} e^{in\theta},$$
+
+for $0 \leq r <
+
+Also $\frac{1+re^{i\theta}}{1-re^{i\theta}} = \frac{1+re^{i\theta}-re^{-i\theta}-r^2}{|1-re^{i\theta}|^2}$ so that
+
+2.2 $P_r(\theta) = \frac{1-r^2}{1-2r \cos \theta+r^2} = \text{Re}\left(\frac{1+re^{i\t...

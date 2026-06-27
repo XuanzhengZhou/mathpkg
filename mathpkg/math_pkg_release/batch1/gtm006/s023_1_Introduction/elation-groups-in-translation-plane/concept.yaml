@@ -1,0 +1,23 @@
+id: elation-groups-in-translation-plane
+title_en: "Elations in a Translation Plane"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: [translation-plane, elation, collineation-group, automorphism]
+depends_on:
+  required: [translation-plane, elation, collineation]
+  recommended: [projective-plane, automorphism-group]
+  suggested: [quasifield]
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "VII"
+    section: "2"
+    pages: ""
+    role_in_book: "Lemma 7.4. Structural properties of elation groups with respect to the line at infinity in a translation plane."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

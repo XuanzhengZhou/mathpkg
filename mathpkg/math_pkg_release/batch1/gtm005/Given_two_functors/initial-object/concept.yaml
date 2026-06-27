@@ -1,0 +1,23 @@
+id: initial-object
+title_en: "Initial Object"
+title_zh: "始对象"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category-theory, initial-object, universal-property]
+depends_on:
+  required: [category]
+  recommended: [terminal-object]
+  suggested: [null-object]
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I. Categories, Functors, and Natural Transformations"
+    section: "5. Monics, Epis, and Zeros"
+    pages: ""
+    role_in_book: "Definition of initial object"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

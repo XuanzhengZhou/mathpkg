@@ -1,0 +1,1 @@
+Measurability can be characterized by any of several families of generating sets. The equivalence of these conditions follows from the closure properties of $\sigma$-algebras under complements, countable unions, and countable intersections.

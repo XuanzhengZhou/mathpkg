@@ -1,0 +1,23 @@
+id: poisson-kernel
+title_en: "Poisson Kernel"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: intermediate
+tags: [poisson-kernel, harmonic, unit-disk, poisson-integral]
+depends_on:
+  required: [harmonic-function]
+  recommended: [fourier-series, unit-disk]
+  suggested: []
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "X"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Fundamental kernel for solving the Dirichlet problem on the unit disk"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

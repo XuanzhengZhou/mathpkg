@@ -1,0 +1,23 @@
+id: invertible-ideal-unique-inverse
+title_en: "Uniqueness of Inverse for Invertible Fractionary Ideals"
+title_zh: "可逆分式理想的逆的唯一性"
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [invertible-ideal, fractionary-ideal, dedekind-domain]
+depends_on:
+  required: [invertible-fractionary-ideal, fractionary-ideal]
+  recommended: [integral-ideal]
+  suggested: [dedekind-domain]
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski, Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "V"
+    section: "6"
+    pages: "272"
+    role_in_book: "Lemma 1 of Section 6"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

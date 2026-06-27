@@ -1,0 +1,23 @@
+id: finite-structure-always-saturated
+title_en: "Finite Structures are Saturated for Every Cardinal"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: basic
+tags: [saturation, finite-structure, cardinality]
+depends_on:
+  required: [kappa-saturated-structure, saturated-structure]
+  recommended: [type]
+  suggested: []
+source_books:
+  - book_id: gtm053
+    author: "Yuri I. Manin"
+    title: "A Course in Mathematical Logic for Mathematicians"
+    chapter: "3"
+    section: "3.11"
+    pages: ""
+    role_in_book: "Remark: finite structures are trivially κ-saturated for all κ"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

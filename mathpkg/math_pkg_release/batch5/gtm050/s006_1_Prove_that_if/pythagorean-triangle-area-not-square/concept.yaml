@@ -1,0 +1,23 @@
+id: pythagorean-triangle-area-not-square
+title_en: "No Pythagorean triangle has area equal to a square"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: diophantine-equations
+difficulty: advanced
+tags: [fermat, infinite-descent, pythagorean-triples, area, square-numbers, n4-case]
+depends_on:
+  required: []
+  recommended: [pythagorean-triples, infinite-descent]
+  suggested: []
+source_books:
+  - book_id: "gtm050"
+    author: "Harold M. Edwards"
+    title: "Fermat's Last Theorem: A Genetic Introduction to Algebraic Number Theory"
+    chapter: "1"
+    section: "1.6"
+    pages: ""
+    role_in_book: "Fermat's only extant proof; establishes the n=4 case of Fermat's Last Theorem via infinite descent"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

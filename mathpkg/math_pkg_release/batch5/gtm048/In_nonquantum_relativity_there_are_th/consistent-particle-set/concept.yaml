@@ -1,0 +1,23 @@
+id: consistent-particle-set
+title_en: "Consistent Particle Set and Collision Conservation Laws"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: general-relativity
+difficulty: advanced
+tags: [particle-collisions, conservation-laws, four-momentum, electric-charge, particle-physics]
+depends_on:
+  required: [lorentz-world-force-law, particle-spacetime, future-endpoint, past-endpoint]
+  recommended: [collision-event, decay-process]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "3"
+    section: "3.8"
+    pages: "page_0099.json–page_0108.json"
+    role_in_book: "Defines the mathematical framework for particle collisions and the conservation of total 4-momentum and electric charge"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

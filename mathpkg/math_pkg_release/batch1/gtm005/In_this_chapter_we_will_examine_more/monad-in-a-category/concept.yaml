@@ -1,0 +1,23 @@
+id: monad-in-a-category
+title_en: "Monad in a Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [monad, endofunctor, natural-transformation, monoid]
+depends_on:
+  required: [endofunctor, natural-transformation, identity-functor]
+  recommended: [monoid, adjunction, functor-composition]
+  suggested: [horizontal-composition]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VI. Monads and Algebras"
+    section: "1. Monads in a Category"
+    pages: ""
+    role_in_book: "Core definition: introduces monads as monoid objects in the category of endofunctors"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

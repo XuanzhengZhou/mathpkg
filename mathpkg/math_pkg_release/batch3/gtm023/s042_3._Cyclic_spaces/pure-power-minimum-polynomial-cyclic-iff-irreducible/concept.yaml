@@ -1,0 +1,23 @@
+id: pure-power-minimum-polynomial-cyclic-iff-irreducible
+title_en: "For Pure Power Minimum Polynomial, Cyclic iff Irreducible"
+title_zh: "当最小多项式为纯幂时循环等价于不可约"
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: []
+depends_on:
+  required: [irreducible-iff-pure-power-minimum-polynomial-and-cyclic, cyclic-space]
+  recommended: [irreducible-polynomial, stable-subspace]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "When mu = f^k with f irreducible, a stable subspace is cyclic iff it is irreducible"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

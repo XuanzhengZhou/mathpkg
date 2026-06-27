@@ -1,0 +1,18 @@
+Let $B_t: K \to k$ be a rotation of the coordinate system $K$ relative to the stationary inertial coordinate system $k$. Let $Q(t) \in K$ be the radius vector of a moving point in the moving coordinate system, and $q(t) = B_t Q(t) \in k$ the radius vector in the stationary system. Let $\Omega$ be the vector of angular velocity in the moving coordinate system. Assume the motion of the point $q$ in $k$ is subject to Newton's equation $m\ddot{q} = f(q, \dot{q})$.
+
+Then motion in the rotating coordinate system takes place as if three additional inertial forces acted on every moving point $Q$ of mass $m$:
+
+1. The inertial force of rotation: $m[\dot{\Omega}, Q]$,
+2. The Coriolis force: $2m[\Omega, \dot{Q}]$,
+3. The centrifugal force: $m[\Omega, [\Omega, Q]]$.
+
+Thus the equation of motion in $K$ is
+$$
+m\ddot{Q} = F - m[\dot{\Omega}, Q] - 2m[\Omega, \dot{Q}] - m[\Omega, [\Omega, Q]],
+$$
+where
+$$
+BF(Q, \dot{Q}) = f(BQ, (BQ)^*).
+$$
+
+The first of the inertial forces is observed only in nonuniform rotation. The second and third are present even in uniform rotation. The centrifugal force is always directed outward from the instantaneous axis of rotation $\Omega$ and has magnitude $|\Omega|^2 r$, where $r$ is the distance to this axis. This force does not depend on the velocity of the relative motion and acts even on a body at rest in $K$. The Coriolis force depends on the velocity $\dot{Q}$; in the northern hemisphere of the earth it deflects every body moving along the earth to the right, and every falling body eastward.

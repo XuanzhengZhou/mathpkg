@@ -1,0 +1,23 @@
+id: tarski-vaught-test
+title_en: "Tarski–Vaught Test for Elementary Substructures"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: intermediate
+tags: [elementary-substructure, tarski-vaught, criterion, satisfaction]
+depends_on:
+  required: [elementary-substructure]
+  recommended: [satisfaction-relation, formula-induction]
+  suggested: [downward-lowenheim-skolem-theorem]
+source_books:
+  - book_id: gtm037
+    author: "Herbert B. Enderton"
+    title: "A Mathematical Introduction to Logic"
+    chapter: "4"
+    section: "4"
+    pages: ""
+    role_in_book: "Proposition 19.16; provides a practical criterion for elementary substructure using only satisfaction in the larger model"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

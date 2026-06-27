@@ -1,0 +1,1 @@
+$\mathfrak{B}(H)$ is both a Banach space (under operator norm) and an algebra (under composition). The adjoint $T^*$ is the Hilbert space analogue of the conjugate transpose, making $\mathfrak{B}(H)$ a $C^*$-algebra.

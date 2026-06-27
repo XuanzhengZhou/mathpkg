@@ -1,0 +1,107 @@
+For aperiodic one-dimensional random walk with $P(0,x) = 0$ for $x \leq 0, \mu = \sum_{x=1}^{\infty} xP(0,x) \leq \infty,$
+
+$$\lim_{n \to +\infty} G
+
+This equation will be used to determine the value of
+
+(2) $L = \lim_{x \to +\infty} G(0,x)$
+
+which exists according to P2. We shall sum the variable $x$ in (1) from 0 to $n$. Observing that $P(0,t) = 0$ for $t \leq 0$ and $G(t,x) = 0$ for $t > x$, one obtains
+
+$$1 = \sum_{x=0}^{n} G(0,x) - \sum_{x=0}^{n} \sum_{t \in R} P(0,t)G(t,x)$$
+
+$$= \sum_{x=0}^{n} G(0,x) - \sum_{x=0}^{n} G(0,x)[P(0,0) + P(0,1) + \cdots + P(0,n-x)]$$
+
+$$= \sum_{x=0}^{n} G(0,x)[1 - \sum_{y=1}^{n-x} P(0,y)]$$
+
+$$= \sum_{x=0}^{n} G(0,n-x)f(x),$$
+
+where
+
+$$f(k) = \sum_{x=k+1}^{\infty} P(0,x).$$
+
+Observe that
+
+(3) $\sum_{k=0}^{\infty} f(k) = \mu$
+
+whether $\mu$ is finite or not. When $\mu < \infty$, we let $n \to \infty$ in
+
+(4) $1 = \sum_{x=0}^{n} G(0,n-x)f(x),$
+
+concluding by a dominated convergence argument from (2) and (3) that $1 = L\mu$ or $L = \mu^{-1}$, which is the desired limit. Finally, when $\mu = \infty$, the value of $L$ must be zero, for otherwise the right-hand side in (4) would tend to infinity as $n \to \infty$. Hence the proof of P3 is complete.
+
+Problems
+
+1. Extend P6.4 by proving that $m_{2k} < \infty$ whenever the characteristic function has a derivative of order $2k$ at the origin.
+
+2. Extend the result of P6.6 to
+
+$$m_3 = \frac{m_1}{m_2} + \frac{3}{2\pi m_2} \int_{-n}^{n} \text{Re} \frac{\phi(\theta) - 1 + m_2(1 - \cos \theta)}{(1 - \cos \theta)^2} d\theta,$$
+
+$m_3$ being finite if and only if the integral on the right exists in the sense of Lebesgue.
+
+3. Show that two-dimensional random walk is transient if $m < \infty$ and if the mean vector $\mu \neq 0$.
+
+4. Prove that if $\phi(\theta)$ is the characteristic function of a recurrent random walk, then so is $|\phi(\theta)|^2$. Consequently two identical, independent, recurrent random walks, starting at the same point, will meet infinitely often.
+
+5. For what real values of $\alpha$ is
+
+$$\phi(\theta) = 1 - \left| \sin \frac{\theta}{2} \right|^\alpha$$
+
+the characteristic function of a one-dimensional random walk? For each such value of $\alpha$, describe the asymptotic behavior of $P(0,x)$ as $|x| \to \infty$.
+
+6. If a one-dimensional random walk satisfies
+
+$$P(0,x) \sim |x|^{-3} \text{ as } |x| \to \infty,$$
+
+what can be said about the asymptotic behavior of $1 - \phi(\theta)$ as $|\theta| \to 0$?
+
+7. Simple random walk in the plane. In complex notation the random walk is $z_n$, with $z_0 = 0$. If $T$ is the time of the first visit of the random walk to the line $x = m + i, m = 0, \pm 1, \ldots$, let
+
+$$Q(0,m) = P_0[\text{Re} (z_T) = m].$$
+
+Show that
+
+$$\sum_{m=-\infty}^{\infty} Q(0,m)e^{im\theta} = 2 - \cos \theta - \sqrt{(1 - \cos \theta)(3 - \cos \theta)}.$$
+
+10. Simple random walk in three space. Let $Q(0,n)$ denote the probability that the first visit to the $x^3$-axis occurs at the point $x = (x^1, x^2, x^3)$ with $x^1 = x^2 = 0, x^3 = n$. (The starting point is the origin.) Show that if
+
+$$\psi(\theta) = \sum_{n=-\infty}^{\infty} Q(0,n)e^{in\theta},$$
+
+then
+
+$$[1 - \psi(\theta)]^{-1} = K\left(\frac{2}{3 - \cos\theta}\right),$$
+
+where $K$ is the elliptic integral
+
+$$K(z) = \frac{2}{\pi} \int_{0}^{\pi/2} \frac{dt}{\sqrt{1 - z^2 \sin^2 t}} = \sum_{n=0}^{\infty} \binom{2n}{n}^2 \left(\frac{x}{4}\right)^{2n}.$$
+
+11. Continued. If $F$ is the probability to return to zero, explain why
+
+$$G = (1 - F)^{-1} = \frac{1}{2\pi} \int_{-\pi}^{\pi} K\left(\frac{2}{3 - \cos\theta}\right) d\theta.$$
+
+This integral was evaluated by G. N. Watson [104], who showed that
+
+$$G = 3(18 + 12\sqrt{2} - 10\sqrt{3} - 7\sqrt{6})K^2(2\sqrt{3} + \sqrt{6} - 2\sqrt{2} - 3)$$
+
+$$= 1.5163860591 \ldots.$$
+
+Thus the probability that simple random walk in three-space will ever return to its starting point is $F = 1 - G^{-1} = 0.340537330 \ldots.$
+
+12. In the light bulb problem of E8.4, let $N_n$ denote the number of bulbs burning at time $n$ ($N_0 = 0$). Show that for $0 \leq s < 1,
+
+15. A particularly elegant continuous analogue of two-dimensional simple random walk is the random flight investigated by Lord Rayleigh (see [103], p. 419). Here
+
+$$x_n = X_1 + X_2 + \cdots + X_n, \quad n \geq 1$$
+
+where the $X_i$ are independent complex random variables with $|X_i| = 1$, whose arguments are equidistributed between 0 and $2\pi$. Develop the requisite Fourier analysis for spherically symmetric functions (see [5], Ch. 9) to conclude that
+
+$$\frac{1}{2}P[|x_n| < r] + \frac{1}{2}P[|x_n| \leq r] = r \int_0^\infty J_1(rt)J_0^n(t) dt$$
+
+for $n \geq 1, r > 0$. When $n \geq 2$ the right-hand side is a continuous function of $r$, and it follows that
+
+$$P[|x_n| < 1] = P[|x_n| \leq 1] = 1/(n + 1).$$
+
+Remark: $J_k(x)$ is the Bessel function of order $k$, which enters the picture because, for $k = 0, 1, 2, \ldots$
+
+$$J_k(x) = \frac{1}{2\pi} \int_{-\pi}^{\pi} e^{-ik\theta + ix \sin \theta} d\theta.$$

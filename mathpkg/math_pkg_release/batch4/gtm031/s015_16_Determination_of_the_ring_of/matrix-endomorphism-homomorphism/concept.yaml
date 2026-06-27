@@ -1,0 +1,23 @@
+id: matrix-endomorphism-homomorphism
+title_en: "Matrix-to-Endomorphism Homomorphism"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [endomorphism, matrix-representation, homomorphism, ring-theory]
+depends_on:
+  required: [endomorphism-matrix-subring]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm031
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "3"
+    section: "16"
+    pages: ""
+    role_in_book: "Establishes the homomorphism from the subring M of matrices to the endomorphism ring B"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

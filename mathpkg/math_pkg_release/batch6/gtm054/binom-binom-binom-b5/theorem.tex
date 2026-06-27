@@ -1,0 +1,17 @@
+$\sum_{j=k}^{n} \binom{n}{j} \binom{j}{k} = \binom{n}{k} 2^{n-k}$ where $0 \leq k \leq n$.
+
+If $U$ is an $n$-set, then Lemma B5 merely equates two different enumerations of the set
+
+$$\{(S, T): S \subseteq T \subseteq U; |S| = k\}.$$
+
+It may be instructive, however, to give a proof using generating functions.
+
+Proof of Lemma B5. By Example B1a, we have
+
+$$(1+x)^n = \sum_{j=0}^{n} \binom{n}{j} x^j,$$
+
+to which we apply $D^k$ (cf. A10a) and divide by $k!$:
+
+$$\frac{n!}{k!(n-k)!} (1+x)^{n-k} = \sum_{j=k}^{n} \binom{n}{j} \frac{j!}{k!(j-k)!} x^{j-k}.$$
+
+By Exercise A11, we may compose both sides of this equation with the constant polynomial 1, which yields the lemma.

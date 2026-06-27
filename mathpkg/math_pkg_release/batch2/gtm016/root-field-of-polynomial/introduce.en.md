@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Given a field $k$ and a polynomial $f(X)$ in $k[X]$, a root field of $f(X)$ over $k$ is a field extension $K$ of $k$ of the form $K = k(s)$ where $f(s) = 0$.

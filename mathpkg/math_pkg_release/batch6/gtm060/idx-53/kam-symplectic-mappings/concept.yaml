@@ -1,0 +1,23 @@
+id: kam-symplectic-mappings
+title_en: "KAM Theorem for Symplectic Mappings"
+title_zh: ""
+type: theorem
+domain: applied-math
+subdomain: hamiltonian-mechanics
+difficulty: advanced
+tags: [KAM-theory, symplectic-mappings, invariant-tori, perturbation-theory, discrete-dynamics]
+depends_on:
+  required: [nondegeneracy-condition]
+  recommended: [kam-theorem, diophantine-condition]
+  suggested: [symplectic-map, poincare-map]
+source_books:
+  - book_id: gtm060
+    author: "V. I. Arnol'd"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 8"
+    section: "D.3"
+    pages: ""
+    role_in_book: "KAM variant for area-preserving/symplectic mappings of the annulus"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

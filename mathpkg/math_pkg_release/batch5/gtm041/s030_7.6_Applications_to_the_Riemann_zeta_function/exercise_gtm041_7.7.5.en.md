@@ -1,0 +1,16 @@
+---
+role: exercise
+locale: en
+chapter: "7"
+section: "7"
+exercise_number: 5
+---
+
+Let $\alpha = (1 + \sqrt{5})/2$. This exercise shows that the inequality
+$$\left| \alpha - \frac{h}{k} \right| < \frac{c}{k^2}$$
+has only a finite number of solutions in integers $h$ and $k$ with $k > 0$ if $0 < c < 1/\sqrt{5}$.
+
+(a) Let $\beta = \alpha - \sqrt{5}$ so that $\alpha$ and $\beta$ are roots of the equation $x^2 - x - 1 = 0$. Show that for any integers $h$ and $k$ with $k > 0$ we have
+$$\frac{1}{k^2} \leq \left| \alpha - \frac{h}{k} \right| \left| \beta - \frac{h}{k} \right|$$
+and deduce that
+$$\frac{1}{k^2} \leq \left| \alpha - \frac{h}{k} \right|.$$

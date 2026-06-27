@@ -1,0 +1,23 @@
+id: reflexive-dual-equivalences
+title_en: "Equivalent Conditions for Reflexivity of E and its Dual"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [reflexive, semi-reflexive, barreled, strong-dual, weak-topology, mackey-topology, locally-convex-space]
+depends_on:
+  required: [reflexive-space-barreled-relative-compact, strong-dual-reflexive, semi-reflexive-space-equivalences]
+  recommended: [strong-topology, mackey-topology, barreled-space]
+  suggested: [consistent-topology, evaluation-map]
+source_books:
+  - book_id: "gtm003"
+    author: "Schaefer, H.H.; Wolff, M.P."
+    title: "Topological Vector Spaces"
+    chapter: "5"
+    section: "5.7"
+    pages: ""
+    role_in_book: "Equivalent characterizations linking reflexivity of E and E' to semi-reflexivity and barreledness of the weak and Mackey topologies"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

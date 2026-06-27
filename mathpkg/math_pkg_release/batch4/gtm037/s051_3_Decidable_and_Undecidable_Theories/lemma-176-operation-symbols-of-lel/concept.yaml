@@ -1,0 +1,23 @@
+id: lemma-176-operation-symbols-of-lel
+title_en: "Lemma 17.6: Representation of Operation Symbols in L_el"
+title_zh: ""
+type: lemma
+domain: logic
+subdomain: mathematical-logic
+difficulty: advanced
+tags: [operation-symbols, elementary-language, formalized-arithmetic, goedel-numbering]
+depends_on:
+  required: [definition-174-language-lel-and-theory-p]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "Part 3"
+    section: "Decidable and Undecidable Theories"
+    pages: ""
+    role_in_book: "Establishes that each operation symbol O of L_el (with its number-theoretic interpretation #O) is correctly represented in the theory P: if #O applied to numerals yields a value, P proves the corresponding equation"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: w-is-covariant-functor
+title_en: "W is a Covariant Functor on R-Module Sheaves"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: sheaf-theory
+difficulty: intermediate
+tags: [sheaf, functor, flabby-resolution, covariant]
+depends_on:
+  required: [flabby-resolution-sheaf-w]
+  recommended: [covariant-functor, sheaf-category]
+  suggested: []
+source_books:
+  - book_id: gtm038
+    author: "Grauert, H.; Fritzsche, K."
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Establishes that W is a covariant functor from the category of R-module sheaves to itself"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: sakai-normal-iff-sigma-continuous
+title_en: "Sakai's Theorem: A positive linear form on a W*-algebra is normal iff it is σ(W, V)-continuous"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: von-neumann-algebras
+difficulty: advanced
+tags: [wstar-algebra, sakai-theorem, normal-linear-form, predual, weak-star-continuous]
+depends_on:
+  required: [normal-linear-form, wstar-algebra-order-complete, projections-total-in-wstar]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "6"
+    section: "6.9"
+    pages: ""
+    role_in_book: "Sakai's fundamental theorem identifying normal forms with σ-continuous forms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

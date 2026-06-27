@@ -1,0 +1,23 @@
+id: weierstrass-preparation-theorem
+title_en: "Weierstrass Preparation Theorem"
+title_zh: "魏尔斯特拉斯预备定理"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [weierstrass-preparation, power-series, complete-local-ring, distinguished-polynomial, p-adic-analysis, iwasawa-theory]
+depends_on:
+  required: [weierstrass-division-theorem, complete-local-ring, distinguished-polynomial]
+  recommended: [weierstrass-degree, power-series-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "5"
+    section: "2"
+    pages: "138-140"
+    role_in_book: "Factorizes power series over a complete local ring into a distinguished polynomial times a unit; fundamental for the structure theory of Iwasawa modules"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

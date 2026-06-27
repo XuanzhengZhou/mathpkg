@@ -1,0 +1,23 @@
+id: directed-union-substructure
+title_en: "Directed Union Preserves Substructure Relation"
+title_zh: ""
+type: proposition
+domain: logic
+subdomain: model-theory
+difficulty: basic
+tags: [union-of-structures, directed-set, substructure, L-structure]
+depends_on:
+  required: [union-of-directed-structures]
+  recommended: [substructure, directed-set]
+  suggested: []
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "19"
+    section: "4. Model Theory"
+    pages: ""
+    role_in_book: "Basic property of the union of a directed set of structures: each member is a substructure of the union."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

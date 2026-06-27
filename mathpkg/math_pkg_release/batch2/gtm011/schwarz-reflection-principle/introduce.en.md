@@ -1,0 +1,9 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+1.1 Schwarz Reflection Principle from Conway's "Functions of One Complex Variable I."
+Let $G$ be a region such that $G = G^*$ (symmetric with respect to the real axis). If $f: G_+ \cup G_0 \to \mathbb{C}$ is a continuous function which is analytic on $G_+$ and if $f(x)$ is real for $x$ in $G_0$, then there is an analytic function $g:...

@@ -1,0 +1,23 @@
+id: normal-form-for-recursive-relations
+title_en: "Normal Form Theorem for Recursive Relations"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: recursion-theory
+difficulty: advanced
+tags: [recursion-theory, arithmetical-hierarchy, normal-form, kleene-t-predicate]
+depends_on:
+  required: [recursive-relation, kleene-t-predicate]
+  recommended: [partial-recursive-function]
+  suggested: [arithmetical-hierarchy]
+source_books:
+  - book_id: "gtm037"
+    author: "Ebbinghaus, Flum, Thomas"
+    title: "Mathematical Logic"
+    chapter: "5"
+    section: "1. Recursive Function Theory"
+    pages: ""
+    role_in_book: "Theorem 5.23 — Normal form for existential and universal quantification over recursive relations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

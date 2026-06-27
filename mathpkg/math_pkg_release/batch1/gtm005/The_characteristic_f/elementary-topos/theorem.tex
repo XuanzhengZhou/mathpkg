@@ -1,0 +1,10 @@
+An \textit{(elementary) topos} is a category $\mathcal{E}$ satisfying the following three axioms:
+
+\begin{enumerate}
+\item[(i)] $\mathcal{E}$ has all finite limits.
+\item[(ii)] $\mathcal{E}$ has a subobject classifier $\mathsf{true} : 1 \rightarrowtail \Omega$.
+\item[(iii)] $\mathcal{E}$ is cartesian closed: for every object $b \in \mathcal{E}$, the functor $a \mapsto a \times b$ has a right adjoint $c \mapsto c^b$, so that
+$$
+\hom_{\mathcal{E}}(a \times b, c) \cong \hom_{\mathcal{E}}(a, c^b).
+$$
+\end{enumerate}

@@ -1,0 +1,23 @@
+id: rotation
+title_en: "Rotation"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [rotation, isometry, orthogonal-group, inner-product-space]
+depends_on:
+  required: [inner-product-space, isometric-mapping]
+  recommended: [orthogonal-matrix, determinant]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: ""
+    title: "Linear Algebra"
+    chapter: "8"
+    section: "8.19"
+    pages: ""
+    role_in_book: "Defines rotations as isometric mappings of an inner product space into itself"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: invariance-of-phi-under-gamma0-q
+title_en: "Invariance of φ under Γ₀(q)"
+title_zh: ""
+type: proposition
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [discriminant, gamma0-q, automorphic-function, univalent-function]
+depends_on:
+  required: [transformation-property-of-discriminant]
+  recommended: [gamma0-p, univalent-function]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "4"
+    section: "4.7"
+    pages: ""
+    role_in_book: "Proves that φ(τ) = Δ(qτ)/Δ(τ) is automorphic under Γ₀(q), establishing it as a candidate univalent function"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

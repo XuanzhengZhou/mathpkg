@@ -1,0 +1,23 @@
+id: set-intersection-occupancy-inequality
+title_en: "Set intersection occupancy inequality"
+title_zh: "集合交的占位不等式"
+type: lemma
+domain: probability
+subdomain: markov-chains
+difficulty: advanced
+tags: [occupation-time, set-inequality, inclusion-exclusion]
+depends_on:
+  required: [mean-occupation-time, hitting-time]
+  recommended: [finite-set]
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "9"
+    section: "8"
+    pages: ""
+    role_in_book: "Combinatorial inequality for proving Choquet capacity property"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

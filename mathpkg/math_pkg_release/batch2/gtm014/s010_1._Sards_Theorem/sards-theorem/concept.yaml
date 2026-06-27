@@ -1,0 +1,23 @@
+id: sards-theorem
+title_en: "Sard's Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [sard, critical-value, measure-zero, smooth-manifold, transversality]
+depends_on:
+  required: []
+  recommended: [critical-value-of-smooth-map, measure-zero-definition, smooth-manifold]
+  suggested: [implicit-function-theorem, fubinis-theorem]
+source_books:
+  - book_id: "gtm014"
+    author: "Martin Golubitsky, Victor Guillemin"
+    title: "Stable Mappings and Their Singularities"
+    chapter: "1"
+    section: "1"
+    pages: ""
+    role_in_book: "Central theorem of Chapter 1; foundation for transversality and stability theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+The trigonometric system $\{e^{int}\}_{n \in \mathbb{Z}}$ is a complete orthonormal basis for $\mathfrak{L}_2([-\pi,\pi])$. The proof uses the Stone-Weierstrass theorem to show trigonometric polynomials are dense.

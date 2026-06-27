@@ -1,0 +1,23 @@
+id: sierpinski-positive-measure-subset
+title_en: "Sierpinski's Positive Outer Measure Subset Proposition"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: measure-and-category
+difficulty: intermediate
+tags: [sierpinski, positive-outer-measure, continuum-hypothesis, duality]
+depends_on:
+  required: [outer-measure, lebesgue-measure]
+  recommended: [lusin-set, continuum-hypothesis]
+  suggested: [lusin-second-category-subset, sierpinski-duality]
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "20"
+    section: "Examples of Duality"
+    pages: "page_0086.json–page_0089.json"
+    role_in_book: "Proposition 20.1* — Sierpinski's dual to Lusin's theorem (1924)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

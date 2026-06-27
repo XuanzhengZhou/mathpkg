@@ -1,0 +1,23 @@
+id: decidability-complete-theories
+title_en: "Decidability and Recursive Axiomatizability for Complete Theories"
+title_zh: ""
+type: theorem
+domain: logic
+subdomain: decidability
+difficulty: advanced
+tags: [decidability, complete-theory, recursive-axiomatizability, decision-procedure]
+depends_on:
+  required: []
+  recommended: [complete-theory, recursive-axiomatizability, recursively-enumerable-set]
+  suggested: [craigs-theorem, godel-numbering]
+source_books:
+  - book_id: "gtm037"
+    author: "J. Donald Monk"
+    title: "Mathematical Logic"
+    chapter: "15"
+    section: "3. Decidable and Undecidable Theories"
+    pages: ""
+    role_in_book: "Characterization: a complete theory is decidable iff it is recursively axiomatizable"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

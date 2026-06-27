@@ -1,0 +1,23 @@
+id: linfty-space
+title_en: "$L^\infty$ Space"
+title_zh: "$L^\infty$空间"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [measure-space, linfinity-space, banach-space, essentially-bounded, quotient-space, continuous-functions]
+depends_on:
+  required: [measure-space, banach-space, quotient-vector-space, bounded-function]
+  recommended: [lp-space, normable-space]
+  suggested: [compact-space, continuous-function-space]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Example; constructs the Banach space L^∞ of essentially bounded measurable functions and notes its representation as a space of continuous functions on a compact space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

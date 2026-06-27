@@ -1,0 +1,23 @@
+id: universal-element-yields-representation
+title_en: "Universal Element Yields Representation"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [universal-element, representable-functor, natural-isomorphism]
+depends_on:
+  required: [universal-element-of-functor, representation-of-functor]
+  recommended: [universal-arrow-from-object-to-functor]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "III"
+    section: "1. Universal Arrows"
+    pages: "58"
+    role_in_book: "Proposition 2 — relates universal elements of a set-valued functor K to representations of K via the one-point set"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

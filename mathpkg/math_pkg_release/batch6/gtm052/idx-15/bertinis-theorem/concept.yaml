@@ -1,0 +1,23 @@
+id: bertinis-theorem
+title_en: "Bertini's Theorem"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [bertini, hyperplane-section, nonsingular, projective-variety, linear-system]
+depends_on:
+  required: [nonsingular-variety, projective-space, linear-system]
+  recommended: [sheaf-of-relative-differentials, very-ample-divisor]
+  suggested: []
+source_books:
+  - book_id: gtm052
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "II"
+    section: "8"
+    pages: "page_0190.json–page_0200.json"
+    role_in_book: "Theorem 8.18: Let X be a nonsingular closed subvariety of P_k^n. Then there exists a hyperplane H not containing X such that H ∩ X is regular at every point. If dim X ≥ 2, then H ∩ X is connected."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

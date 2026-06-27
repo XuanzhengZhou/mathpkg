@@ -1,0 +1,42 @@
+{
+  "id": "standard-photon-frequency-ratio",
+  "title_en": "Lemma 6.0.10: Frequency Ratio for the Standard Photon",
+  "title_zh": "",
+  "type": "lemma",
+  "domain": "geometry",
+  "subdomain": "differential-geometry",
+  "difficulty": "intermediate",
+  "tags": [
+    "general-relativity",
+    "cosmology",
+    "standard-photon",
+    "frequency-ratio",
+    "einstein-de-sitter"
+  ],
+  "depends_on": {
+    "required": [
+      "einstein-de-sitter-spacetime",
+      "standard-photon"
+    ],
+    "recommended": [
+      "cosmological-frequency-ratio-formula"
+    ],
+    "suggested": [
+      "isometry-invariance-of-frequency-ratio"
+    ]
+  },
+  "source_books": [
+    {
+      "book_id": "gtm048",
+      "author": "Rainer K. Sachs, Hung-Hsi Wu",
+      "title": "General Relativity for Mathematicians",
+      "chapter": "6",
+      "section": "6.0",
+      "pages": "",
+      "role_in_book": "Technical lemma: explicit frequency ratio for the standard photon"
+    }
+  ],
+  "content_hash": "",
+  "extraction_date": "2026-06-27",
+  "extraction_agent": "v8-full-extract"
+}

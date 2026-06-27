@@ -1,0 +1,23 @@
+id: dimension-recursion-modular-forms
+title_en: "Dimension Recursion Formula for Spaces of Entire Modular Forms"
+title_zh: ""
+type: corollary
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [modular-forms, dimension-formula, recursion, vector-space]
+depends_on:
+  required: [cusp-forms-subspace, delta-isomorphism-modular-forms]
+  recommended: [dimension-of-entire-modular-forms-space]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.4"
+    pages: ""
+    role_in_book: "Recursive formula dim M_k = 1 + dim M_{k-12} for k ≥ 12"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

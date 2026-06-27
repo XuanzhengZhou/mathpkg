@@ -1,0 +1,23 @@
+id: tangent-bundle-of-manifold
+title_en: "Tangent bundle of a manifold"
+title_zh: "流形的切丛"
+type: definition
+domain: geometry
+subdomain: differentiable-manifolds
+difficulty: advanced
+tags: [tangent-bundle, manifold, vector-bundle, transition-functions]
+depends_on:
+  required: [manifold, vector-bundle, cr-atlas]
+  recommended: [chart, derivative]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "18. Differentiable Manifolds"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition 2.1: fundamental vector bundle associated to a manifold"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: measure-algebra
+title_en: "Measure Algebra"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: boolean-algebras
+difficulty: advanced
+tags: [measure-algebra, strictly-positive-measure, sigma-measure, complete-boolean-algebra, ccc]
+depends_on:
+  required: [boolean-sigma-algebra]
+  recommended: [ccc, complete-boolean-algebra]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "J.L. Bell"
+    title: "Axiomatic Set Theory"
+    chapter: "20"
+    section: "20. Weak Distributive Laws"
+    pages: ""
+    role_in_book: "Definition 20.5: introduces measure algebras as Boolean sigma-algebras admitting a strictly positive sigma-measure"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

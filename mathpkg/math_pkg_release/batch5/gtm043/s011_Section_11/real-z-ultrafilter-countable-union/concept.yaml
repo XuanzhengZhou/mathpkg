@@ -1,0 +1,23 @@
+id: real-z-ultrafilter-countable-union
+title_en: "Countable Union Property of Real z-Ultrafilters"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [real-z-ultrafilter, countable-union, zero-set, prime-z-filter]
+depends_on:
+  required: [real-z-ultrafilter, real-maximal-ideal-characterization]
+  recommended: [z-ultrafilter, countable-intersection-property]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "5"
+    section: "5.15"
+    pages: ""
+    role_in_book: "Proposition 5.15(a): If a countable union of zero-sets belongs to a real z-ultrafilter, then at least one of them belongs to it"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

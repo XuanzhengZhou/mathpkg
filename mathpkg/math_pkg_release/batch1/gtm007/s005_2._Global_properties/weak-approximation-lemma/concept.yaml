@@ -1,0 +1,23 @@
+id: weak-approximation-lemma
+title_en: "Weak approximation lemma"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: p-adic-numbers
+difficulty: intermediate
+tags: [weak-approximation, p-adic-numbers, rational-numbers, density, local-fields]
+depends_on:
+  required: [chinese-remainder-theorem]
+  recommended: [p-adic-absolute-value]
+  suggested: []
+source_books:
+  - book_id: "gtm007"
+    author: "Jean-Pierre Serre"
+    title: "A Course in Arithmetic"
+    chapter: "III"
+    section: "2"
+    pages: ""
+    role_in_book: "Approximation lemma used to construct global rational numbers matching prescribed local conditions up to squares"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

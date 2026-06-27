@@ -1,0 +1,1 @@
+The indefinite integral of an integrable function is absolutely continuous with respect to the underlying measure. This means that the integral over sufficiently small sets (in measure) is arbitrarily small.

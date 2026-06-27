@@ -1,0 +1,18 @@
+Let $f$ be a real-valued function on a closed interval $[a, b]$. For each partition $\mathcal{P} = \{s_i\}_{i=0}^n$ of $[a, b]$, define
+$$
+v_+(\mathcal{P}) = \sum_{i=1}^n [f(s_i) - f(s_{i-1})]^+, \qquad
+v_-(\mathcal{P}) = \sum_{i=1}^n [f(s_i) - f(s_{i-1})]^-.
+$$
+The numbers $v_+(\mathcal{P})$ and $v_-(\mathcal{P})$ are called the \textit{positive} and \textit{negative variations} of $f$ over $\mathcal{P}$, respectively. The nets $\{v_+(\mathcal{P})\}$ and $\{v_-(\mathcal{P})\}$ are both monotone increasing with respect to refinement of partitions. The function $f$ is of bounded variation on $[a, b]$ if and only if both nets are bounded. In that case, defining
+$$
+V_+(f; a, b) = \sup_{\mathcal{P}} v_+(\mathcal{P}), \qquad
+V_-(f; a, b) = \sup_{\mathcal{P}} v_-(\mathcal{P}),
+$$
+we have
+$$
+V(f; a, b) = V_+(f; a, b) + V_-(f; a, b)
+$$
+and
+$$
+f(b) - f(a) = V_+(f; a, b) - V_-(f; a, b).
+$$

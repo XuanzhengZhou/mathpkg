@@ -1,0 +1,23 @@
+id: continuity-of-composition-in-finite-topology
+title_en: "Continuity of Operations in the Finite Topology"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [finite-topology, continuity, linear-transformations, topological-ring]
+depends_on:
+  required: [finite-topology-linear-transformations, topological-space]
+  recommended: [continuous-function, product-topology]
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "IX"
+    section: "6"
+    pages: "270-274"
+    role_in_book: "Shows that addition, scalar multiplication, and composition are continuous in the finite topology"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

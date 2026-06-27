@@ -1,0 +1,23 @@
+$$a(x) = \sum_{n=1}^{\infty} n^2 x^n / (1-x)$$
+
+and the problem reduces to expressing $\sum_{n=1}^{\infty} n^2 x^n$ as a rational function. This may be done in two ways and we illustrate them both.
+
+Method 1. Beginning with $1/(1-x) = \sum_{n=0}^{\infty} x^n$, we apply $D$ and then "multiply by $x$," obtaining
+
+$$\frac{x}{(1-x)^2} = \sum_{n=1}^{\infty} nx^n.$$
+
+Repeating this pair of operations yields
+
+$$\frac{x+x^2}{(1-x)^3} = \sum_{n=1}^{\infty} n^2 x^n.$$
+
+Method 2. From Exercise A9b (with $n=3$) and A9c (with $n=2$) we obtain:
+
+$$\frac{x+x^2}{(1-x)^3} = x \sum_{j=0}^{\infty} \binom{2+j}{j} x^j + \sum_{j=2}^{\infty} \binom{j}{2} x^j$$
+
+$$= \sum_{j=1}^{\infty} \binom{j+1}{j-1} x^j + \sum_{j=2}^{\infty} \binom{j}{2} x^j$$
+
+$$
+
+XI Enumeration Theory
+
+Thus

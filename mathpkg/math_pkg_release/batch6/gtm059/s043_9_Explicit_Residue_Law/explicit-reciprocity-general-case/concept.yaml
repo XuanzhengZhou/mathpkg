@@ -1,0 +1,23 @@
+id: explicit-reciprocity-general-case
+title_en: "Theorem 7.1 — Explicit Reciprocity Law in the General Case"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: [explicit-reciprocity-law, norm-residue-symbol, lubin-tate-formal-group, general-case]
+depends_on:
+  required: [explicit-reciprocity-law, explicit-reciprocity-for-divisible-x-and-units]
+  recommended: [explicit-reciprocity-symbol-identity, lubin-tate-special-group-congruence]
+  suggested: [local-class-field-theory-primer]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "9"
+    section: "§7"
+    pages: ""
+    role_in_book: "Final conclusion of the explicit reciprocity law proof: the formula holds in the general case when $x$ is a unit"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: banach-mazur-game-b-winning-strategy
+title_en: "Player B has a winning strategy in the Banach-Mazur game if and only if A is of first category"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: descriptive-set-theory
+difficulty: advanced
+tags: [banach-mazur-game, winning-strategy, first-category, baire-category]
+depends_on:
+  required: [banach-mazur-game, strategy-banach-mazur-game, first-category-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "6"
+    section: "The Banach-Mazur Game"
+    pages: ""
+    role_in_book: "Theorem 6.1; the fundamental characterization of first category sets via the Banach-Mazur game"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+Let $P(x,y)$ be the transition function of a recurrent strongly aperiodic random walk. Given any point $x$ in $R$ and any $\epsilon, 0 < \epsilon < 1$, there is some $N = N(x,\epsilon)$ such that
+
+$$P_n(0,x) \geq (1-\epsilon)^n \text{ for } n \geq N.$$
+
+Proof: The random walk is recurrent, so that $\sum P_n(0,0) = \infty$, which implies that the power series $\sum x^nP_n(0,0)$ has radius of convergence one. Hence
+
+$$\lim_{n \to \infty} [P_n(0,0)]^{1/n} =
+
+When $n > 2m$, we write $n = (k + 1)m + r$, $0 < r \leq m$, so that
+
+$$P_n(0,x) \geq P_{m+r}(0,x)P_{km}(0,0),$$
+
+and using (2) and (3),
+
+$$P_n(0,x) \geq A(1 - \epsilon)^{mk} > A(1 - \epsilon)^n.$$
+
+Even though $A < 1$, we have shown that
+
+$$\lim_{n \to \infty} P_n(0,x)(1 - \epsilon)^{-n} > 0, \quad x \in R,$$
+
+for every $\epsilon$ between 0 and 1 which implies that P2 is true.
+
+The next lemma concerns a well-known$^{10}$ exponential lower bound for the Bernoulli distribution. In terms of Bernoulli random walk it becomes

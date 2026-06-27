@@ -1,0 +1,23 @@
+id: supremum-of-boolean-valued-set
+title_en: "Supremum of a Boolean-Valued Set"
+title_zh: "布尔值集的上确界"
+type: definition
+domain: foundations
+subdomain: boolean-valued-models
+difficulty: basic
+tags: [boolean-valued-universe, supremum, boolean-algebra]
+depends_on:
+  required: []
+  recommended: [boolean-valued-universe]
+  suggested: [uniform-set-has-maximum]
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "16"
+    section: "The Maximum Principle"
+    pages: ""
+    role_in_book: "Defines sup(u) as the Boolean sum of all membership values u(x), representing the total 'weight' of u."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

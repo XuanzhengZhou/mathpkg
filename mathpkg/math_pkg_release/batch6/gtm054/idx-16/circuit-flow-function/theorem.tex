@@ -1,0 +1,8 @@
+Let $\Gamma = (V, f, W)$ be the multigraph of a directed graph $(V, W)$, where for each $(x, y) \in W$, $f(x, y) = \{x, y\}$. Let $x_0, e_1, x_1, e_2, \ldots, e_m, x_m = x_0$ be a cyclically-ordered circuit, denoted by the symbol $D$. The function $h_D \in \mathbb{Q}^W$ is defined by
+$$
+h_D(e) = \begin{cases}
+1 & \text{if } e = (x_{i-1}, x_i) \text{ for some } i = 1, \ldots, m; \\
+-1 & \text{if } e = (x_i, x_{i-1}) \text{ for some } i = 1, \ldots, m; \\
+0 & \text{if } e \in W \setminus \{e_1, \ldots, e_m\}.
+\end{cases}
+$$

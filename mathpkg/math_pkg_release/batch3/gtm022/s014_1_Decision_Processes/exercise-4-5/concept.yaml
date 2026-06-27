@@ -1,0 +1,23 @@
+id: exercise-4-5
+title_en: "Exercise 4.5: Recursiveness of the Gödel Number Enumeration Function"
+title_zh: "习题 4.5：哥德尔数枚举函数的递归性"
+type: exercise
+domain: logic
+subdomain: computability
+difficulty: advanced
+tags: [godel-numbering, recursive-function, turing-machine, exercise]
+depends_on:
+  required: [godel-numbering]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm022
+    author: "D.W. Barnes, J.M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "9"
+    section: "4"
+    pages: ""
+    role_in_book: "Exercise proving that the enumeration of Turing machines by Gödel numbers is recursive"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

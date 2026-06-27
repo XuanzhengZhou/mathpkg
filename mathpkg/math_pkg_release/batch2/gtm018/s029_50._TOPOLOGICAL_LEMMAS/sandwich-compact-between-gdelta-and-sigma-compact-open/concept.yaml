@@ -1,0 +1,23 @@
+id: sandwich-compact-between-gdelta-and-sigma-compact-open
+title_en: "Sandwich Compact Set Between Compact G_delta and Sigma-Compact Open"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: locally-compact-spaces
+difficulty: intermediate
+tags: [compact-set, gdelta-set, sigma-compact, open-set, separating-function]
+depends_on:
+  required: [continuous-separation-of-compact-and-closed, level-sets-of-continuous-function-are-closed-gdelta]
+  recommended: [class-of-normalized-continuous-functions]
+  suggested: []
+source_books:
+  - book_id: gtm018
+    author: "Paul R. Halmos"
+    title: "Measure Theory"
+    chapter: "X"
+    section: "50"
+    pages: ""
+    role_in_book: "key lemma used to show every compact set can be approximated by Baire sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

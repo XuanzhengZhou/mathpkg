@@ -1,0 +1,28 @@
+id: triangles-in-perspective
+title_en: Triangles in Perspective from a Point and Line
+title_zh: ''
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags:
+- triangles
+- perspective
+- desargues
+depends_on:
+  required:
+  - projective-plane
+  - triangle
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm006
+  author: D. R. Hughes, F. C. Piper
+  title: Projective Planes
+  chapter: IV
+  section: '7'
+  pages: ''
+  role_in_book: Defines the Desargues configuration using triangle perspective
+content_hash: 2b6af8ad7931
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

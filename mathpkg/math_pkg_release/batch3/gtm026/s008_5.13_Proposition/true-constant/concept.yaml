@@ -1,0 +1,23 @@
+id: true-constant
+title_en: "True Constant"
+title_zh: "真常元"
+type: definition
+domain: algebra
+subdomain: universal-algebra
+difficulty: intermediate
+tags: [constant, true-constant, algebraic-theory, arity]
+depends_on:
+  required: [constant-in-universal-algebra]
+  recommended: []
+  suggested: [algebraic-theory]
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "5"
+    section: "5.13"
+    pages: ""
+    role_in_book: "Definition: an operation is a true constant iff its arity is 0, i.e. it takes no arguments"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

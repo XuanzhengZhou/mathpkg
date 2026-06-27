@@ -1,0 +1,23 @@
+id: isovorticial-implies-curl-equivalence
+title_en: "Isovorticial Fields Have Equivalent Vorticity under Diffeomorphism"
+title_zh: "等涡量场的涡度在微分同胚下等价"
+type: proposition
+domain: geometry
+subdomain: hydrodynamics
+difficulty: advanced
+tags: [isovorticial, vorticity, volume-preserving-diffeomorphism, ideal-fluid]
+depends_on:
+  required: [isovorticial-fields]
+  recommended: [curl, volume-preserving-diffeomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm060"
+    author: "V.I. Arnold"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "Appendix 2"
+    section: "Section 47"
+    pages: ""
+    role_in_book: "Proposition that isovorticial fields have their vorticities carried to each other by the diffeomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

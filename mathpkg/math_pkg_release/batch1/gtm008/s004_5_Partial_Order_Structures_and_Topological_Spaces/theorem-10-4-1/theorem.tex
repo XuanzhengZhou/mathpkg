@@ -1,0 +1,32 @@
+** $\langle M, P \rangle$ is a setting for forcing iff
+
+1. $M$ is a standard transitive model of $ZF$,
+2. $P$ is a partially ordered structure and $P \in M$,
+3. $M$ is countable.
+
+**Remark.** Under these assumptions we know that for each $p \in P$ there is a $G$ that is $P$-generic over $M$ and $p \in G$. In fact 1 and 3 could be weakened. In particular, it would be sufficient to require instead of 3
+
+$3'$. $P(P) \cap M$ is countable.
+
+The following theorem is a kind of completeness theorem for forcing.
+
+**Theorem 10.6.** If $\langle M, P \rangle$ is a setting for forcing then
+
+$$p \models \varphi \leftrightarrow (\forall G')[G' \text{ is } P\text{-generic over } M \wedge p \in G' \rightarrow M[G'] \models \varphi].$$
+
+**Proof.** Using the one-to-one correspondence between $P$-generic sets over $M$ and $M$-complete homomorphisms from $B$ into $2$ we need only show:
+
+$$p \models \varphi \leftrightarrow (\forall h')[h' : |B| \rightarrow |2| \text{ is an } M\text{-complete homomorphism}$$
+
+$$\wedge h'([p]^{-0}) = 1 \rightarrow h'([\varphi]) = 1].$$
+
+But the right-hand side is equivalent to
+
+$$[p]^{-0} \leq [[\varphi]]$$
+
+which in turn is equivalent to each of the following:
+
+$$p \in [[\varphi]]$$
+$$p \models \varphi.$$
+
+**Remark.** We could also define forcing either (1) by using the recursive conditions of Theorem 10.4 or (2) by the equivalence of Theorem 10.6. On

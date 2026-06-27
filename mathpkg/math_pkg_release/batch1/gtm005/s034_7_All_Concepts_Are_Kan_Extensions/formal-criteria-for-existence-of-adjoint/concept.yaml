@@ -1,0 +1,23 @@
+id: formal-criteria-for-existence-of-adjoint
+title_en: "Formal Criteria for the Existence of an Adjoint"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: category-theory
+difficulty: advanced
+tags: [adjoint-functor, kan-extension, right-kan-extension, unit, counit]
+depends_on:
+  required: [right-kan-extension, adjoint-functor, natural-transformation]
+  recommended: [unit-of-adjunction, counit-of-adjunction, triangle-identities]
+  suggested: []
+source_books:
+  - book_id: gtm005
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "X"
+    section: "7"
+    pages: "262-264"
+    role_in_book: "Characterizes adjoint functors in terms of existence and preservation of right Kan extensions, unifying the concepts of adjunction and Kan extension"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

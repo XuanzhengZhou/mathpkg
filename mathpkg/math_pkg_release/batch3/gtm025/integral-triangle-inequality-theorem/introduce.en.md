@@ -1,0 +1,1 @@
+The absolute value of an integral is bounded by the integral of the absolute value. This inequality is constantly used in estimating integrals and is equivalent to the triangle inequality for the $L^1$ norm.

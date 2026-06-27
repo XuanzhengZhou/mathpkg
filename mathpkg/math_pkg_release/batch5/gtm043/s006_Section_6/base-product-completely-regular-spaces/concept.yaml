@@ -1,0 +1,23 @@
+id: base-product-completely-regular-spaces
+title_en: "Base for Closed Sets in Product of Completely Regular Spaces"
+title_zh: "完全正则空间积中闭集的基"
+type: proposition
+domain: topology
+subdomain: product-topology
+difficulty: intermediate
+tags: [product-topology, completely-regular-space, zero-set, base, projection]
+depends_on:
+  required: [product-topology-as-weak-topology, completely-regular-space, zero-set]
+  recommended: [subbase-weak-topology-zero-set-preimages]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.10"
+    pages: ""
+    role_in_book: "Explicit description of a closed-set base for products of completely regular spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

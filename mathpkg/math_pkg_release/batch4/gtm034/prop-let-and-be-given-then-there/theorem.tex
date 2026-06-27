@@ -1,0 +1,677 @@
+Let $\epsilon_1 > 0$, $m$ and $A$ be given. Then there exist positive integers $k$ and $M$ such that
+
+$$\left| \frac{q_n}{F_n} - 1 \right| \leq \epsilon_1 \quad \text{for all sufficiently large } n,$$
+
+where
+
+$$q_n = \mathbf{P}[\mathbf{T} = n, |\mathbf{S}_k| > A \text{ and } \mathbf{S}_{k+j} = \mathbf{S}_k \text{ for some } m \leq j \leq M].$$
+
+Proof: Take $\epsilon$ in P6 to be $\epsilon = \epsilon_1^2$ and choose $M$ so that P6 holds. P6 implies that for every $\delta > 0$, and sufficiently large $n$,
+
+$$\sum_{k=1}^{n-M} \mathbf{P}[\{|\mathbf{S}_k| \leq A \text{ or } \mathbf{S}_{k+j} \neq \mathbf{S}_k \text{ for } m \leq j \leq M\} \cap \{\mathbf{T} = n\}] \leq (\epsilon_1^2 + \delta)nF_n,$$
+
+which shows that there are at least $\epsilon_1 n$ values of $k$ for which
+
+$$\mathbf{P}[\{|\mathbf{S}_k| \leq A \text{ or } \mathbf{S}_{k+j} \neq \mathbf{S}_k \text{ for } m \leq j \leq M\} \cap \{\mathbf{T} = n\}] \leq \epsilon_1 F_n.$$
+
+If we pick such a value of $k$ in the definition of $q_n$ (which depends on $k$), then
+
+$$(1 - \epsilon_1)F_n \leq q_n \
+
+according to T5.1, which is crucial for the proof. We choose $m$ so that
+
+(1) $|U_{k+1} - U_k| \leq \frac{\epsilon_1}{4} U_k$ for $k \geq m$,
+
+and $A$ so large that
+
+(2) $P[|S_j| \geq A$ for some $j \leq M+1] \leq \frac{\epsilon_1}{4} \min_{m \leq k \leq M+1} U_k$.
+
+To simplify the notation let
+
+$P[S_{k+j} = a, S_{k+r} \neq 0$ for $r = 1, \ldots, j-1$ $|S_k = a| = c_{k,j}(a) = c_{k,j}$
+
+$P[T = n-k-j; S_p \neq a$ for $p = 1, 2, \ldots, M-j$ $|S_0 = a| = d_{n-k,j}(a,M) = d_{n-k,j}^3$
+
+Then, decomposing $q_n$ according to the possible values of $S_k$ and according to the last time $k+j$ when $S_{k+j} = S_k$,
+
+$q_n = \sum_{|a| > A} P[S_k = a; T > k] \sum_{j=m}^{M} c_{k,j} d_{n-k,j}$.
+
+A similar decomposition for $\tilde{q}_{n+1}$ yields
+
+$\tilde{q}_{n+1} = \sum_{|a| > A} P[S_k = a; T > k] \sum_{j=m}^{M} c_{k,j+1} d_{n-k,j}$,
+
+so that
+
+(3) $q_n - \tilde{q}_{n+1} = \sum_{|a| > A} P[S_k = a; T > k] \sum_{j=m}^{M} (c_{k,j} - c_{k,j+1}) d_{n-k,j}$.
+
+To estimate this difference observe that
+
+$c_{k,j} = P[S_j = 0; S_r \neq -a$ for $r =
+
+In the same way one proves
+
+(5) $|c_{k,j+1} - U_{j+1}| \leq \frac{\epsilon_1}{4} U_j, \quad m \leq j \leq M.$
+
+Combining (4) and (5), we have
+
+$$|c_{k,j+1} - c_{k,j}| \leq \frac{\epsilon_1}{2} U_j + |U_{j+1} - U_j|,$$
+
+and now one concludes from (1) that
+
+$$|c_{k,j+1} - c_{k,j}| \leq \frac{3\epsilon_1}{4} U_j.$$
+
+Using (4) again, we obtain
+
+(6) $|c_{k,j+1} - c_{k,j}| \leq \frac{3\epsilon_1}{4} \left(1 - \frac{\epsilon_1}{4}\right)^{-1} c_{k,j} \leq \epsilon_1 c_{k,j},$$
+
+at least if, as we may assume, $\epsilon_1$ is sufficiently small.
+
+Applying (6) to equation (3) we have
+
+$$|q_n - \tilde{q}_{n+1}| \leq \epsilon_1 \sum_{|a| > A} P[S_k = a; T > k] \sum_{j=m}^{M} c_{k,j} d_{n-k,j} = \epsilon_1 q_n,$$
+
+which proves P8.
+
+We are now ready to complete the proof of T2. By definition $\tilde{q}_{n+1} \leq F_{n+1}$, and so by P8 and P7,
+
+$$F_{n+1} \geq \tilde{q}_{n+1} \geq (1 - \epsilon_1) q_n \geq (1 - \epsilon_1)^2 F_n$$
+
+for large enough $n$, which amounts to saying that
+
+$$\lim_{n \to \infty} \frac{F_{n+1}}{F_n} \geq 1.$$
+
+But an obvious modification of P7 gives
+
+$$\left| \frac{\tilde{q}_{n+1}}{F_{n+1}} - 1 \right| \leq \epsilon_1$$
+
+so that
+
+That implies
+
+$$\lim_{n \to \infty} \frac{F_{n+1}}{F_n} \leq 1,$$
+
+which completes the proof of T2. In view of the remarks preceding P5, we have also completed the proof of T1.
+
+Remark: One of the possible extensions of T1 was mentioned in Chapter III. It concerns the limit of the ratios
+
+$$\frac{P_z[T_B > n]}{P_0[T > n]},$$ as $n \to \infty$.
+
+The step from T1 to the theorem (proved in [60]) that these ratios have a limit, as $n \to \infty$, for every finite set $B$, requires considerable effort. As the discussion at the end of section 16 might lead one to expect, the difficulty consists in showing that the ratios $R_n/R_{2n}$ are bounded for every recurrent random walk. This is done in [60] by using very delicate estimates concerning the dispersion function of P. Lévy ([71], section 16).
+
+Other aspects of the asymptotic behavior of the sequences $R_n, U_n,$ and $F_n$ are still shrouded in mystery, giving rise to challenging conjectures. Kesten has shown ([61]) that every strongly aperiodic recurrent one-dimensional random walk in the domain of attraction of a symmetric stable law (i.e., satisfying
+
+$$0 < \lim_{\theta \to 0} |\theta|^{-\alpha}[1 - \phi(\theta)] = Q < \infty$$
+
+for some $\alpha$, $1 \leq \alpha \leq 2)$ has the property that
+
+(1) $$\lim_{n \to \infty} \frac{1}{F_n} \sum_{k=0}^{n} F_k F_{n-k} = 2.$$
+
+He conjectures that (1) holds for every strongly aperiodic recurrent random walk. This conjecture is related, in an obvious way, to the random variables
+
+$$T_k = \text{time of the } k^{\text{th}} \text{ return to } 0.$$
+
+Equation (1) simply states that $P_0[T_2 = n] / P_0[T_1 = n]$ tends to 2 as $n \to \infty$,
+
+Problems
+
+1. For one-dimensional aperiodic recurrent random walk with absolute moment of order $3 + \delta$ for some $\delta > 0$, show that
+
+$$\lim_{x \to \infty} \left[ a(x) - \frac{|x|}{\sigma^2} \right]$$
+
+exists and is finite. Is this true if only $\sigma^2$ is finite? (To obtain a sharp result, use problem 2 in Chapter II.)
+
+2. Here and in problem 3 the random walk is one dimensional and aperiodic, with a characteristic function $\phi(\theta)$ such that
+
+$$0 < \lim_{\theta \to 0} \frac{1 - \phi(\theta)}{|\theta|^\alpha} = Q < \infty$$
+
+for some $\alpha$, $1 \leq \alpha \leq 2$. Show that all such random walks are recurrent. Prove that
+
+$$\lim_{|x| \to \infty} P_0[T_{-x} < T_x] = 1/2,$$
+
+where $T_x$ is the time of the first visit to $x$.
+
+3. Continuation. Show that
+
+$$\lim_{|x| \to \infty} P_0[T_x < T_{2x}] = 2^{\alpha-2}.$$
+
+4. Extend T32.2 by showing that
+
+$$\lim_{n \to \infty} \frac{F_{n+1}}{F_n} = 1$$
+
+for every strongly aperiodic recurrent random walk in the plane.
+
+5. Here and in the next problem the random walk is one dimensional and aperiodic, with mean 0 and $\sigma^2 < \infty$. Use P32.3 to conclude that the ratios $R_n/R_{2n}$ are bounded in $n$. Then use the discussion at the end of Chapter III to prove that
+
+$$\lim_{n \to \infty} \frac{P_z[T_B > n]}{P_0[T > n]} = \lim_{y \to +\infty} g_B(x,y) = \frac{1}{2} \left[ \lim_{y \to +\infty} g_B(x,y) + \lim_{y \to -\infty} g_B(x,y) \right]$$
+
+for
+
+where $x \neq 0$ is an arbitrary point in $R$ (but not the origin). Show that either $f(x) \equiv 0$ for $x \neq 0$ or $f(x) > 0$ for all $x \neq 0$, and characterize those random walks which give $f(x) \equiv 0$.
+
+7. The mean square distance of a random walk $x_n$ from the origin, subject to the condition of no return to the origin in time $n$, is
+
+$$D_n = \mathbf{E}_0[|x_n|^2 |\mathbf{T} > n] = \frac{1}{R_n} \mathbf{E}_0[|x_n|^2; \mathbf{T} > n].$$
+
+Suppose that the random walk is genuinely $d$-dimensional, with mean vector zero and second moment $m_2 = \mathbf{E}_0[|x_1|^2] < \infty$. When the dimension $d = 1$, prove that
+
+$$D_n \sim 2nm_2 = 2\mathbf{E}_0[|x_n|^2] \text{ as } n \to \infty,$$
+
+whereas for dimension $d \geq 2$
+
+$$D_n \sim nm_2 = \mathbf{E}_0[|x_n|^2] \text{ as } n \to \infty.$$
+
+Hint: To obtain these asymptotic relations, first derive the identity
+
+$$\mathbf{E}_0[|x_n|^2; \mathbf{T} > n] = (R_0 + R_1 + \cdots + R_{n-1})m_2, \quad n \geq 1.$$
+
+8. Prove that the potential kernel $A(x,y)$ of a recurrent random walk determines the transition function uniquely.
+
+Hint: In the spirit of problem 13, Chapter VI, show that for every subset $B \subset R$, $\Pi_B(x,y)$ is determined by $A(x,y)$. This follows from T11.1 and T30.2 in all cases except for left-, or right-continuous random walk. (But even then $A(x,y)$ does determine $\Pi_B(x,y)$, according to the discussion
+
+10. For still another characterization of capacity define the energy dissipated by a finite set $A$ (or the expected area swept out by the set $A$) as
+
+$$E_n(A) = \sum_{x \in R} P_x[T_A \leq n].$$
+
+Investigate whether $E_n(A) - E_n(B)$ may be normalized appropriately so as to approximate $C(A) - C(B)$ for arbitrary recurrent random walk.
+
+Hint: Consider first the asymptotic Abel sums, showing that
+
+$$\sum_{n=0}^{\infty} t^n [E_n(A) - E_n(\{0\})] \sim \left[ \sum_{n=0}^{\infty} R_n t^n \right]^2 C(A) \text{ as } t \neq 1.$$
+
+Here, as usual, $R_n = P_0[T_0 > n]$. Conclude that
+
+$$\lim_{n \to \infty} \frac{E_n(A) - E_n(B)}{\sum_{k=0}^{n} R_k R_{n-k}} = C(A) - C(B)$$
+
+whenever this limit exists. (S. Port has shown [S23] that it exists for arbitrary recurrent random walk.)
+
+11. Prove, using the properties of $a(x)$, that for an arbitrary recurrent random walk the expected number of distinct points visited between successive visits to zero is always infinite.
+
+12. Prove that the potential kernel of arbitrary two-dimensional recurrent random walk satisfies
+
+(i) $$\lim_{|x| \to \infty} a(x) = \infty.$$
+
+13. Continuation. Prove that (i) also holds in one dimension when $\sigma^2 < \infty$. However, when $\sigma^2 = \infty$, show that either (i) holds, or
+
+(ii) $$\lim_{x \to +\infty} a(x) = M < \infty, \lim_{x \to -\infty} a(x) = +\infty,$$
+
+or
+
+(iii) $$\lim_{x \to +\infty} a(x) = +\infty, \lim_{x \to -\infty} a(x) = M < \infty.$$
+
+Note: The exact criteria for this classification are still unknown.
+
+1. Ahlfors, L. V., Complex analysis, McGraw-Hill Book Co., Inc., New York, 1953.
+2. Baxter, G., An analytic approach to finite fluctuation problems in probability, *J. d'Analyse Math.* 9, 31–70, 1961.
+3. Baxter, G., A norm inequality for a “finite-section” Wiener-Hopf equation, *Ill. J. Math.* 7, 97–103, 1963.
+4. Blackwell, D., Extension of a renewal theorem. *Pacific J. Math.* 3, 315–320, 1953.
+5. Bochner, S., Lectures on Fourier integrals, Princeton University Press, Princeton, N.J., 1959.
+6. Borel, E., Les probabilités dénombrables et leurs applications arithmétiques, *Rend. Circ. Mat. Palermo* 27, 247–271, 1909.
+7. Brelot, M., Éléments de la théorie classique du potentiel, Les cours de Sorbonne, Paris, 1959.
+8. Choquet, G., and J. Deny, Sur l'equation $\mu = \mu * \sigma$, *Comptes Rendus Ac. Sc. Paris* 250, 799–801, 1960.
+9. Chung, K. L., Markov chains with stationary transition probabilities, J. Springer, Berlin, 1960.
+10. Chung, K. L., On the renewal theorem in higher dimensions, *Skand. Aktuarietidskrift* 35, 188–194, 1952.
+11. Chung, K. L., and P. Erdös, Probability limit theorems assuming only the first moment, *Mem. Am. Math. Soc.* 6, 1951.
+12. Chung, K. L., and W. H. J. Fuchs, On the distribution of values of sums of random variables
+
+17. Cox, D. R., and W. L. Smith, Queues, Methuen & Co., London, 1961.
+18. Cramér, H., Mathematical methods of statistics, Princeton University Press, Princeton, N.J., 1946.
+19. Darling, D. A., The maximum of sums of stable random variables, Trans. Am. Math. Soc. 83, 164–169, 1956.
+20. Darling, D. A., and M. Kac, On occupation times for Markoff processes, Trans. Am. Math. Soc. 84, 444–458, 1957.
+21. Derman, C., A solution to a set of fundamental equations in Markov chains, Proc. Am. Math. Soc. 5, 332–334, 1954.
+22. Donsker, M., An invariance principle for certain probability limit theorems, Mem. Am. Math. Soc. 6, 1951.
+23. Doob, J. L., Stochastic processes, John Wiley and Sons., Inc., New York, 1953.
+24. Doob, J. L., Discrete potential theory and boundaries, J. Math. and Mech. 8, 433–458, 1959.
+25. Doob, J. L., J. L. Snell and R. E. Williamson, Application of boundary theory to sums of independent random variables, Contr. to Probability and Statistics (Hotelling Anniversary Volume) Stanford University Press, Stanford, Calif., pp. 182–197, 1960.
+26. Dudley, R. M., Random walk on Abelian groups, Proc. Am. Math. Soc. 13, 447–450, 1962.
+27. Dvoretzky, A., and P. Erdös, Some problems on random walk in space, Second Berkeley Symp. on Statistics and Probability, pp. 353–368, 1951.
+28. Erdös, P., A problem
+
+37. Halmos, P. R., Measure theory, D. Van Nostrand Co., Inc., Princeton, N.J., 1950.
+38. Halmos, P. R., Finite-dimensional vector spaces, D. Van Nostrand Co. Inc., Princeton, N.J., 1958.
+39. Hardy, G. H., Divergent Series, Clarendon Press, Oxford, England, 1949.
+40. Harris, T. E., Branching processes, J. Springer, Berlin, 1963.
+41. Hausdorff, F. Summationsmethoden und Momentfolgen, I, II, Math. Zeitschrift 9, 74–109 and 280–299, 1921.
+42. Hewitt, E., and L. J. Savage, Symmetric measures on Cartesian products, Trans. Am. Math. Soc. 80, 470–501, 1955.
+43. Hoeffding, W., On sequences of sums of independent random vectors, Fourth Berkeley Symp. on Statistics and Probability Vol. II, pp. 213–226, 1961.
+44. Hunt, G. A., Some theorems on Brownian motion, Trans. Am. Math. Soc. 81, 294–319, 1956.
+45. Hunt, G. A., Markoff chains and Martin boundaries, Ill. J. Math. 4, 313–340, 1960.
+46. Itô, K., and H. P. McKean, Jr., Potentials and the random walk, Ill. J. Math. 4, 119–132, 1960.
+47. Itô, K., and H. P. McKean, Jr., Diffusion processes and their sample paths, J. Springer, Berlin, 1965.
+48. Kac, M., Random walk and the theory of Brownian motion, Am. Math. Monthly 54, 369–391, 1947.
+4
+
+59. Kesten, H., Random walks with absorbing barriers and Toeplitz forms, *Ill. J. Math.* 5, 267-290, 1961.
+
+60. Kesten, H., and F. Spitzer, Ratio theorems for random walk, *Journal d'Analyse Math.* 11, 285-322, 1963.
+
+61. Kesten, H., Ratio theorems for random walk II, *Journal d'Analyse Math.* 11, 323-379, 1963.
+
+62. Khinchin, A. I., Sur la loi des grands nombres, *Comptes Rendus Ac. Sci. Paris* 188, 477-479, 1929.
+
+63. Kiefer, J., and J. Wolfowitz, On the characteristics of the general queueing process with applications to random walk, *Ann. Math. Stat.* 27, 147-161, 1956.
+
+64. Kingman, J. F. C., and S. Orey, Ratio limit theorems for Markov chains, *Proc. Am. Math. Soc.*, 15, 907-910, 1964.
+
+65. Kochen, S. B., and C. J. Stone, A note on the Borel-Cantelli problem *Ill. J. Math.*, to appear in 1964.
+
+66. Kolmogorov, A. N., Grundbegriffe der Wahrscheinlichkeitsrechnung, J. Springer, Berlin, 1933.
+
+67. Kolmogorov, A. N., Anfangsgrunde der Theorie der Markoffschen Ketten mit unendlich vielen möglichen Zuständen, *Mat. Sbornik N.S.* 1, 607-610, 1936.
+
+68. König, H., Neuer Beweis eines klassischen Tauber-Satzes, *Archiv der Math.* 9, 278-281, 1960.
+
+69
+
+79. Nevanlinna, R. H., Eindeutige analytische Funktionen, 2nd ed., J. Springer, Berlin, 1953.
+
+80. Orey, S., Potential kernels for recurrent Markov chains, *J. Math. Anal. and Appl.*, to appear in 1964.
+
+81. Paley E. A. C., and N. Wiener, Fourier transforms in the complex domain, *Am. Math. Soc. Coll. Publ.*, XIX, 1934.
+
+82. Pollaczek, F., Über eine Aufgabe der Wahrscheinlichkeitstheorie I-II, *Math. Zeitschrift* 32, 64-100 and 729-750, 1930.
+
+83. Polya, G., Über eine Aufgabe der Wahrscheinlichkeitrechnung betreffend die Irrfahrt im Strassennetz, *Math. Ann.* 84, 149-160, 1921.
+
+84. Rényi, A., Wahrscheinlichkeitrechnung, D.V.d. Wissenschaften, Berlin, 1962.
+
+85. Rényi, A., Legendre polynomials and probability theory, *Ann. Univ. Sc. Budapestiniensis III-IV*, 247-251, 1960-61.
+
+86. Riesz, F., Sur les fonctions surharmoniques et leur rapport à la theorie du potentiel 2, *Acta Math.* 54, 1930.
+
+87. Riesz, F., and B. Sz.-Nagy, Lecons d'Analyse Fonctionelle, Kiadó, Budapest, 1952.
+
+88. Rosén, B., On the asymptotic distribution of sums of independent identically distributed random variables, *Arkiv för Mat.* 4, 323-332, 1962.
+
+89. Smith, W. L., A frequency function form of the central limit theorem. *Proc. Cambridge Phil. Soc.*, 49, 462-472,
+
+99. Waerden, B. L. van der, Algebra II, 4th Ed., J. Springer, Berlin, 1959.
+
+100. Watanabe, T., On the theory of Martin boundaries induced by countable Markov processes, Mem. Coll. Science, University Kyoto, Series A 33, 39–108, 1960.
+
+101. Watanabe, T., Probabilistic methods in Hausdorff moment problem and Laplace-Stieltjes transform, J. Math. Soc. of Japan, 12, 192–206, 1960.
+
+102. Watanabe, T., On a theorem of F. L. Spitzer and C. J. Stone, Proc. Japan Academy 37, 346–351, 1961.
+
+103. Watson, G. N., A treatise on the theory of Bessel functions, 2nd Ed., Cambridge University Press, 1944.
+
+104. Watson, G. N., Three triple integrals, Oxford Qu. J. of Math. 10, 266–276, 1939.
+
+105. Widom, H., Toeplitz matrices, Math. Assoc. of America Studies in Mathematics, Vol. 3, 179–209, 1965.
+
+106. Zygmund, A., Trigonometric Series, I, II, Cambridge University Press, 1959.
+
+1. Breiman, L., Probability, Addison-Wesley, 1968.
+2. Brunel, A. and D. Revuz, Marches Recurrentes au sense de Harris sur les groupes localement compactes I, Ann. Sc. Ecole Norm. Sup. 7, 273-310, 1974.
+3. Bucy, R. S., Recurrent sets, Ann. Math. Stat. 36, 535-545, 1965.
+4. Chung, Kai Lai, A course in probability theory, 2nd ed. Academic Press, 1974.
+5. Darling, D. A. and P. Erdös, On the recurrence of a certain chain, Proc. Am. Math. Soc. 19, 336-338, 1968.
+6. Doney, An analogue of the renewal theorem in higher dimensions, Proc. London Math. Soc. 16, 669-684, 1966.
+7. Dym, H. and H. P. McKean, Fourier series and integrals, Academic Press, New York, 1972.
+8. Dynkin E. B. and A. A. Yushkevich, Markov processes—theorems and problems, Plenum Press, New York, 1969.
+9. Feller, W., An introduction to probability theory and its applications, Vol. II, 2nd ed. John Wiley and Sons, New York, 1971.
+10. Flatto, L. and J. Pitt, Recurrence criteria for random walks on countable Abelian groups, III, J. Math. 18, 1-20, 1974.
+11. Heyde, C. C., Revisits for transient random walk, Stoch. Proc. Appl. 1, 33-52, 1973.
+12. Jain, N. C. and S. Orey, On the range of a random walk, Israel J. Math. 6, 373-380, 1968.
+13. Jain,
+
+18. Kesten, H., A ratio limit theorem for symmetric random walk, *J. d'Analyse Math.* 23, 199-213, 1970.
+
+19. Kesten, H., Sums of independent random variables—without moment conditions, *Ann. Math. Stat.* 43, 701-732, 1972.
+
+20. Kesten, H. and F. Spitzer, Random walk on countably infinite Abelian groups, *Acta Math.* 114, 237-265, 1965.
+
+21. Ney, P. and F. Spitzer, The Martin boundary for random walk, *Trans. Am. Math. Soc.* 121, 116-132, 1966.
+
+22. Ornstein, D. S., Random walks I and II, *Trans. Am. Math. Soc.* 138, 1-43; and 45-60, 1969.
+
+23. Port, S. C., Limit theorems involving capacities for recurrent Markov chains, *J. Math. An. Appl.* 12, 555-569, 1965.
+
+24. Port, S. C., Limit theorems involving capacities, *J. Math. Mech.* 15, 805-832, 1966.
+
+25. Port, S. C. and C. J. Stone, Potential theory of random walks on Abelian groups, *Acta Math.* 122, 19-114, 1969.
+
+26. Stone, C., On the potential operator for one dimensional recurrent random walks, *Trans. Am. Math. Soc.* 136, 413-426, 1969.
+
+Abel's theorem, 199
+Abelian groups, 92, 281
+Absorption problem for simple random walk, 237
+random walk with mean 0, $\sigma^2 < \infty$, 244
+Actuarial science, 174
+A. e. convergence, 24
+Aperiodic random walk, 20, 67
+Arc-sine law, 227, 233, 258
+Area swept out by a set, 394
+
+Bachelier, L., 270
+Baxter, G., 174, 220, 271
+Bernoulli random walk definition, 2
+exponential bound, 45
+Green function, 8, 12
+regular functions, 131
+Bernstein's estimate, 45
+Bessel functions, 104, 235, 236
+Bessel's inequality, 57
+Beta function, 256
+Biorthogonal system, 271
+Birkhoff's ergodic theorem, 38, 53
+Blackwell, D., 195, 282, 284
+Borel, É., 32
+Borel-Cantelli lemma, 317
+Boundary, 327
+Branching process, 234
+Brownian motion, 40, 173, 219, 270, 312, 320
+
+Cantor's diagonal process, 277, 347
+Capacity definitions (transient random walk), 300, 303, 341
+electrostatic, 40
+inequalities, 304
+logarithmic (recurrent random walk), 366, 393, 394
+of finite sets, 40, 301
+of infinite sets, 305
+Capacitory potential, 300
+
+Catalan's constant, 124
+Cauchy distribution, 156
+Central limit theorem, 64
+
+Distribution function, 63
+Domain of attraction, 391
+Dominated convergence theorem, 25, 58
+Doob, J. L., 192, 298, 327
+Dudley, R. M., 95
+Dvoretzky, A., 38
+
+Eigenfunction expansion, 242
+Eigenvalues of quadratic forms, 70 for simple random walk, 239 distribution of, 272
+Elliptic integral, 103
+Entrance probability, 290
+Equilibrium charge for recurrent random walk, 146, 377 transient random walk, 300
+Equilibrium potential for recurrent random walk, 146 transient random walk, 300
+Erdős, P., 38, 41, 99, 232, 270
+Ergodic theory, 32
+Escape probability, 290
+Euler's constant, 124, 127
+Excessive function, 323
+Expectation, 26
+Exponential bound for Bernoulli sums, 45, 385, 387
+Exponential regular function, 340
+Extension theorem, 26
+Exterior Fourier series, 179, 220
+
+Factorization, 180
+Fatou's lemma, 84
+Favorable game, 217, 227
+Fejér representation, 182
+Feller, W., 18, 99, 195, 224, 225, 237, 288
+Finite set capacity of, 301 energy dissipated by, 394 volume swept out by, 40, 341
+Fluctuations, 218
+Fourier series, 54
+Fourier transform, 63
+Fraction of points visited, 271
+Friedrichs, K., 258
+Fubini's theorem, 25
+
+Function excessive, 32
+
+quadrant, 157, 173
+triangle, 172
+asymptotic behavior, 293, 312, 359
+Hitting time, 29, 106
+of exterior of interval, 242, 244, 262
+half-line, 189, 191, 195, 196
+single point, 377
+Hoeffding, W., 343
+Hunt, G. A., 159, 327, 334
+
+Ideal, 65
+Images, method of, 154
+Imbedded random walk, 257
+Independent functions, 25
+random variables, 27
+Infinite transient set, 339
+Inner function, 179, 220
+product, 248
+Integrable function, 25
+Interior Fourier series, 179, 220
+Interval absorption outside, 237
+Invariance principle, 270
+Inventory, 174
+Isomorphism, 65
+Isotropic random walk, 308
+Itô, K., 173, 316, 321, 339
+
+Kac, M., 159, 171, 231, 232, 237, 270, 272
+Karamata's theorem, 225, 382
+Katz, M., 232
+Kemeny, J. G., 120, 343
+Kemperman, J. H. B., 174, 185, 233
+Kesten, H., 40, 255, 256, 333, 378, 391
+Kninchin, A. I., 22
+Kiefer, J., 209
+Kolmogorov, A. N., 24, 32, 99
+König, H.,
+
+Mean of random walk, 21
+Mean recurrence time, 99
+Mean square distance, 393
+Measurable function, 24
+Measure theory, 24
+Mercer's theorem, 242, 268, 315
+Method of moments, 233, 263
+Minimum principle, 373
+Minimal regular functions, 340
+Minimal solution of Poisson's equation, 296
+Minkowski's lemma, 70
+Mittag-Leffler distribution, 231
+Module, 65
+Moments, method of, 233, 263
+Moment problem, 263, 338
+Morera's theorem, 180
+
+Nagy, B. Sz., 242
+Newtonian potential kernel, 307, 314
+Ney, P., 341
+Normal distribution, 53
+
+Occupation time problems, 231, 256
+Orey, S., 46, 288
+Ornstein, D., 23
+Orthogonal polynomials, 247
+Orthogonality of characters, 92
+eigenfunctions, 241
+exponentials, 55
+polynomials, 247
+Outer function, 179, 220
+
+Parseval's identity, 56
+Permutation cyclic, 384 of coordinates, 298
+Persistent random walk, 7
+Plus operator, 220
+Poisson's equation, 136, 294, 367 minimal solution, 296
+Poisson kernel, 185
+Poisson process, compound, 235
+Pollaczek, F., 174
+Pollard, H., 99
+Polya's theorem, 52
+
+Population in branching process, 234
+Positive partial sums, number of, 219
+Potential kernel, 123 asymptotic behavior, 123, 124, 358, 392 determines
+
+occupation time of, 53
+Random variable, 26
+expectation of, 26
+Range of random walk, 35, 52, 342
+strong law, 38
+weak law, 35
+Ratio ergodic theorem
+strong, 40, 49
+weak, 10
+Rational numbers
+random walk on, 95
+Rayleigh, Lord, 104
+Rectangle,
+random walk restricted to, 270
+Recurrence criteria, 23, 82, 83, 85
+Recurrent random walk
+definition, 7
+existence of potential kernel, 343, 352
+Recurrent set, 275, 296, 300
+characterization of, 316, 321
+Red (or green) points, 52, 272
+Reflection principle, 154
+Regular function, 130, 276, 294
+for transient kernel, 323
+integral representation for, 337, 341
+nonexistence of, 329
+Renewal theorem, 99, 100, 103, 201, 203, 282, 284, 288
+Rényi, A., 224, 235, 237
+Reproducing kernel, 250
+Reversed random walk, 111
+Riemann approximating sum, 88, 227, 261, 268
+Riemann Lebesgue lemma, 85, 96, 127, 355
+Riesz, F., 242, 324
+Riesz decomposition
+of excessive functions, 324, 326, 331, 337
+Right continuous random walk, 21, 33, 289
+see also left continuous random walk
+Robin's constant, 147
+Rosén, B., 199
+Rouché's theorem, 186
+
+Strongly aperiodic random walk, 42, 75
+Subgroup, 65, 339
+Superharmonic function, 323
+Symmetric random walk, 73, 87, 169, 182, 192, 204, 223, 224
+Szegö, G., 247
+
+Täcklind, S., 217
+Tauber’s theorem, 199
+Taylor, J., 312
+Temperature, 158
+Theta function, 273
+Three dimensional random walk
+Green function, 103, 308
+regular functions, 332
+transient sets, 316, 321
+Time dependent behavior, 159
+Time of first visit to a finite set, 391, 393
+a point, 377, 392
+Trace of transition matrix, 272
+Traffic, 174
+Transient kernel, 322
+Transient random walk, 7
+Green function of, 274
+Transient set, 275, 296, 300
+characterization of, 316, 321
+Transition function, 1
+
+asymptotic behavior of, 72
+Triangular lattice, 66
+Two-dimensional recurrent random walk, 113
+Type I and II random walk, 344
+
+Van der Pol, B., 128
+Vector module, 65
+Vibrating string, 241
+
+Wald’s lemma, 191
+Watanabe, T., 271, 327, 334
+Watson, G. N., 103
+Weak convergence, 63
+Weierstrass’ approximation theorem, 272
+Weight function, 249
+Whipple, F. J. W., 149, 150, 154
+Whitman, W., 40, 53
+Widom, H., 212
+Wiener, N.,
+
+Graduate Texts in Mathematics
+(continued from page ii)
+
+66 WATERHOUSE Introduction to Affine Group Schemes.
+67 SERRE. Local Fields.
+68 WEIDMANN Linear Operators in Hilbert Spaces
+69 LANG. Cyclotomic Fields II.
+70 MASSEY Singular Homology Theory.
+71 FARKAS/KRA. Riemann Surfaces. 2nd ed.
+72 STILLWELL Classical Topology and Combinatorial Group Theory 2nd ed
+73 HUNGERFORD. Algebra
+74 DAVENPORT Multiplicative Number Theory 3rd ed.
+75 HOCHSCHILD. Basic Theory of Algebraic Groups and Lie Algebras
+76 IITAKA. Algebraic Geometry.
+77 HECKE. Lectures on the Theory of Algebraic Numbers
+78 BURRIS/SANKAPPANAVAR. A Course in Universal Algebra.
+79 WALTERS. An Introduction to Ergodic Theory.
+80 ROBINSON. A Course in the Theory of Groups. 2nd ed.
+81 FORSTER. Lectures on Riemann Surfaces.
+82 BOTT/TU Differential Forms in Algebraic Topology.
+83 WASHINGTON. Introduction to Cyclotomic Fields 2nd ed.
+84 IRELAND/ROSEN A Classical Introduction to Modern Number Theory. 2nd ed.
+85 EDWARDS Fourier Series. Vol. II. 2nd ed
+86 VAN LINT. Introduction to Coding Theory. 2nd ed
+87 BROWN. Cohomology of Groups.
+88 PIERCE. Associative Algebras.
+89 LANG. Introduction to Algebraic and Abelian Functions 2nd ed
+90 BRØNDSTED An Introduction to Convex Polytopes
+91 BEARDON On the Geometry of Discrete Groups.
+92 DIESTEL. Sequences and Series in Banach Spaces.
+93 DUBROVIN/FOMENKO/NOVIKOV Modern Geometry—Methods and Applications. Part I. 2nd ed.
+94 WARNER. Foundations of Differentiable Manifolds and Lie Groups.
+95 SH
+
+129 FULTON/HARRIS Representation Theory
+A First Course
+Readings in Mathematics
+130 DODSON/POSTON. Tensor Geometry.
+131 LAM. A First Course in Noncommutative Rings.
+132 BEARDON. Iteration of Rational Functions
+133 HARRIS. Algebraic Geometry: A First Course.
+134 ROMAN. Coding and Information Theory
+135 ROMAN. Advanced Linear Algebra.
+136 ADKINS/WEINTRAUB. Algebra: An Approach via Module Theory.
+137 AXLER/BOURDON/RAMEY Harmonic Function Theory. 2nd ed.
+138 COHEN A Course in Computational Algebraic Number Theory.
+139 BREDON. Topology and Geometry.
+140 AUBIN Optima and Equilibria. An Introduction to Nonlinear Analysis.
+141 BECKER/WEISPFENNING/KREDEL Gröbner Bases. A Computational Approach to Commutative Algebra.
+142 LANG. Real and Functional Analysis. 3rd ed.
+143 DOOB. Measure Theory.
+144 DENNIS/FARB. Noncommutative Algebra.
+145 VICK. Homology Theory An Introduction to Algebraic Topology 2nd ed
+146 BRIDGES Computability: A Mathematical Sketchbook.
+147 ROSENBERG. Algebraic $K$-Theory and Its Applications.
+148 ROTMAN. An Introduction to the Theory of Groups. 4th ed.
+149 RATCLIFFE. Foundations of Hyperbolic Manifolds.
+150 EISENBUD. Commutative Algebra with a View Toward Algebraic Geometry
+151 SILVERMAN Advanced Topics in the Arithmetic of Elliptic Curves.
+152 ZIEGLER. Lectures on Polytopes.
+153 FULTON. Algebraic Topology A First Course.
+154 BROWN/PEARCY An Introduction to Analysis.
+155 KASSEL. Quantum Groups.
+156 KECHRIS. Classical Descriptive Set Theory.
+157 MALLI
+
+195 NATHANSON Elementary Methods in Number Theory
+196 OSBORNE Basic Homological Algebra
+197 EISENBUD/HARRIS. The Geometry of Schemes.
+198 ROBERT A Course in $p$-adic Analysis
+199 HEDENMALM/KORENBLUM/ZHU Theory of Bergman Spaces
+200 BAO/CHERN/SHEN. An Introduction to Riemann–Finsler Geometry
+201 HINDRY/SILVERMAN. Diophantine Geometry An Introduction.
+
+202 LEE Introduction to Topological Manifolds.
+203 SAGAN The Symmetric Group Representations, Combinatorial Algorithms, and Symmetric Function. 2nd ed.
+204 ESCOFIER Galois Theory
+205 FÉLIX/HALPERIN/THOMAS Rational Homotopy Theory.
+206 Murty Problems in Analytic Number Theory
+Readings in Mathematics
+
+This book is devoted to the study of random walk on the lattice points of ordinary Euclidean space. The theory of random walks, a central part of the theory of Markov chains, is connected with methods from harmonic analysis on the one hand and from potential theory on the other. Prerequisites for the book are some knowledge of two or three of the following areas: probability theory, real variables and measure, analytic functions, Fourier analysis, differential, and integral operators. More than 100 pages of examples and problems illustrate and clarify the presentation.
+
+"... This book certainly covers almost all major topics in the theory of random walk. It will be invaluable to both pure and applied probabilists, as well as to many people in analysis. References for the methods and results involved are very good. A useful interdependence guide is given. Excellent choice is made of examples, which are mostly concerned with very concrete calculations. Each chapter contains complementary material in the form of remarks, examples and problems which are often themselves interesting theorems."
+
+—T. Watanabe, Mathematical Reviews
+
+ISBN 0-387-95154-7
+www.springer-ny.com

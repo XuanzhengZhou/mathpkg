@@ -1,0 +1,23 @@
+id: dual-decomposition-from-stable-decomposition
+title_en: "Dual Decomposition Induced by a Stable Direct Decomposition"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [dual-mapping, stable-subspace, direct-decomposition, dual-pairing]
+depends_on:
+  required: [dual-mapping, orthogonal-complement-of-stable-subspace, direct-sum]
+  recommended: [dual-direct-decomposition]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "13"
+    section: "13.8"
+    pages: ""
+    role_in_book: "A direct decomposition into stable subspaces induces a dual decomposition of the dual space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: g-morphism-to-from-simple-module
+title_en: "G-Morphisms from and to a Simple G-Module"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [simple-g-module, g-morphism, monomorphism, epimorphism, representation-theory]
+depends_on:
+  required: [simple-g-module, g-morphism]
+  recommended: [g-module, kernel-cokernel]
+  suggested: [schurs-lemma]
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "4"
+    pages: ""
+    role_in_book: "Key property of simple G-modules: any G-morphism from a simple module is zero or mono; any G-morphism to a simple module is zero or epi"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

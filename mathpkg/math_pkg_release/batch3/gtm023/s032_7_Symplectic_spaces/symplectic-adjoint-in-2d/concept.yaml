@@ -1,0 +1,23 @@
+id: symplectic-adjoint-in-2d
+title_en: "Symplectic Adjoint in Dimension 2"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: symplectic-geometry
+difficulty: intermediate
+tags: [symplectic, adjoint, 2-dimensional, trace, linear-transformation]
+depends_on:
+  required: [symplectic-inner-product, symplectic-linear-transformation]
+  recommended: [adjoint-mapping, trace]
+  suggested: [symplectic-group-sp2]
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "7"
+    pages: "347-352"
+    role_in_book: "Provides an explicit formula for the symplectic adjoint of a linear transformation in the 2-dimensional case"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

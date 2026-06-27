@@ -1,0 +1,23 @@
+id: dcc-equivalent-to-acc-with-maximal-primes
+title_en: "Theorem 2: A ring with identity satisfies the d.c.c. if and only if it satisfies the a.c.c. and every proper prime ideal is maximal"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [descending-chain-condition, ascending-chain-condition, prime-ideal, maximal-ideal, artinian-ring, noetherian-ring]
+depends_on:
+  required: [prime-ideals-maximal-in-dcc-rings]
+  recommended: [ascending-chain-condition, descending-chain-condition, artinian-ring, noetherian-ring]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "IV"
+    section: "§2. Rings with descending chain condition"
+    pages: "203"
+    role_in_book: "Main theorem characterizing rings with d.c.c. (Artinian rings)"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

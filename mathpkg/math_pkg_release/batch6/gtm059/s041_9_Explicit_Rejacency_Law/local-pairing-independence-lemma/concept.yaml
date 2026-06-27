@@ -1,0 +1,23 @@
+id: local-pairing-independence-lemma
+title_en: "Independence of the Local Pairing Symbol (Lemma 3.2)"
+title_zh: ""
+type: lemma
+domain: number-theory
+subdomain: local-class-field-theory
+difficulty: advanced
+tags: [local-pairing, symbol, norm-coherence, lubin-tate, independence]
+depends_on:
+  required: []
+  recommended: [local-norm-residue-symbol, explicit-reciprocity-law, congruence-c1, congruence-c3]
+  suggested: [lubin-tate-formal-group]
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "9"
+    section: "9"
+    pages: ""
+    role_in_book: "Shows the local pairing symbol value is independent of the choice of auxiliary parameter m"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

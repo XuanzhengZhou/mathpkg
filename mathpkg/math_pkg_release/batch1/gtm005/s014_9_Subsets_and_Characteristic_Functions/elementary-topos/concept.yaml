@@ -1,0 +1,23 @@
+id: elementary-topos
+title_en: "Elementary Topos"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [elementary-topos, finite-limits, subobject-classifier, cartesian-closed, topos-theory]
+depends_on:
+  required: [subobject-classifier]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "9"
+    pages: ""
+    role_in_book: "Defines the notion of an elementary topos, a fundamental structure in categorical logic"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

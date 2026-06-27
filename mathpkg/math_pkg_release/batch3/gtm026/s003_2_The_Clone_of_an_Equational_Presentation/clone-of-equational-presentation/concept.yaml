@@ -1,0 +1,23 @@
+id: clone-of-equational-presentation
+title_en: "Clone of an Equational Presentation"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: universal-algebra
+difficulty: intermediate
+tags: [clone, equational-presentation, category, algebraic-theory, substitution]
+depends_on:
+  required: [equivalence-relation-induced-by-equational-presentation, universal-property-of-free-algebra]
+  recommended: [category, omega-homomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm026"
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "2"
+    pages: "25"
+    role_in_book: "Defines the clone category Set(Omega,E) as the central algebraic structure encoding substitution and composition of operations."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

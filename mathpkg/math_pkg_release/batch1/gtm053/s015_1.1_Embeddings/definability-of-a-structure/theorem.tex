@@ -1,0 +1,11 @@
+Let $L_0$ and $L_1$ be languages and assume $L_1$ is relational. One says that $L_1$ is interpreted in an $L_0$-structure $A$ if for some $n$:
+
+\begin{itemize}
+\item there is given an $L_0$-formula $Q(\bar{x})$ with $n$ free variables,
+\item there is given an $L_0$-formula $E(\bar{x}, \bar{y})$ with $2n$ free variables,
+\item for every $m$-ary predicate symbol $p_i$ in $L_1$ there is given an $L_0$-formula $P_i(\bar{x}_1, \ldots, \bar{x}_m)$ with $mn$ free variables,
+\end{itemize}
+
+such that $E(A)$ is an equivalence relation on the set $Q(A)$ and the $P_i(A)$ are relations on $Q(A)$ preserved by the equivalence $E(A)$.
+
+Under these assumptions one considers the domain $Q(A)/E(A)$ and the interpretation of the symbols $p_i$ on the domain given by $P_i(A)$. The resulting $L_1$-structure is said to be definable in $A$.

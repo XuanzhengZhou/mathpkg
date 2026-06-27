@@ -1,0 +1,23 @@
+id: g-module
+title_en: "G-Module"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: representation-theory
+difficulty: intermediate
+tags: [g-module, topological-group, group-action, linear-action, representation, g-space]
+depends_on:
+  required: [topological-group, vector-space]
+  recommended: [group-action, g-space]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "4"
+    section: "4.1"
+    pages: "190-191"
+    role_in_book: "Defines the fundamental algebraic object of G-modules used throughout the chapter on representation theory of compact groups"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

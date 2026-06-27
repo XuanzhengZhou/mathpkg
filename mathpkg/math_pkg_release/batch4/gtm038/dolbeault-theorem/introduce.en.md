@@ -1,0 +1,1 @@
+Dolbeault's theorem establishes the isomorphism between $\overline{\partial}$-cohomology and sheaf cohomology with coefficients in $\Omega^p$. This connects the analytic $\overline{\partial}$-equation to the algebraic sheaf theory.

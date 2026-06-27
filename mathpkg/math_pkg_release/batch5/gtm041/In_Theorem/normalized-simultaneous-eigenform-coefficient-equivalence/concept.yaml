@@ -1,0 +1,23 @@
+id: normalized-simultaneous-eigenform-coefficient-equivalence
+title_en: "Equivalence of Normalized Simultaneous Eigenforms and Multiplicative Fourier Coefficients"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [hecke-operator, simultaneous-eigenform, normalized-eigenform, fourier-coefficient, multiplicative-coefficients]
+depends_on:
+  required: [hecke-operator, simultaneous-eigenform, cusp-form, normalized-eigenform]
+  recommended: [eigenfunction-of-hecke-operators, nonzero-first-coefficient-of-simultaneous-eigenform]
+  suggested: []
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.13"
+    pages: "140-143"
+    role_in_book: "Theorem 6.15: Characterizes normalized simultaneous eigenforms via multiplicative property of Fourier coefficients"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

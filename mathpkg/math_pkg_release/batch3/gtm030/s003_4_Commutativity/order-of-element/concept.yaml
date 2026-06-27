@@ -1,0 +1,13 @@
+id: order-of-element
+title_en: "Order of a Group Element"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [order, element, group]
+depends_on: {required: [finite-cyclic-group-order, cyclic-group], recommended: [], suggested: []}
+source_books: [{book_id: "gtm030", author: "Nathan Jacobson", title: "Lectures in Abstract Algebra I: Basic Concepts", chapter: "1", section: "11", pages: "", role_in_book: "Defines the order of an element as the order of the cyclic subgroup it generates"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: ratio-equality-for-gibbs-measures
+title_en: "Ratio Equality for Measures in G_V"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: random-fields
+difficulty: advanced
+tags: [gibbs-field, ratio-equality, cylinder-probability, martin-boundary, regular-function]
+depends_on:
+  required: [neighbor-gibbs-field-infinite]
+  recommended: [phase-multiplicity-extreme-measures]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "12"
+    section: "4"
+    pages: "447-455"
+    role_in_book: "Provides the key ratio equality connecting arbitrary Gibbs measures to a reference measure, enabling the Martin boundary correspondence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: rotation-in-special-orthogonal-group
+title_en: "Rotation in the Special Orthogonal Group Between Two Points"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: intermediate
+tags: [rotation, special-orthogonal-group, sphere, tangent-bundle]
+depends_on:
+  required: []
+  recommended: [special-orthogonal-group, n-sphere]
+  suggested: []
+source_books:
+  - book_id: "gtm020"
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "5"
+    section: "9"
+    pages: ""
+    role_in_book: "defines the basic rotation used to compute the characteristic map of the tangent bundle of S^n"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

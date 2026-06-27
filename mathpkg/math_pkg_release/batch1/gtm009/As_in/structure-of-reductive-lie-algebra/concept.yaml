@@ -1,0 +1,23 @@
+id: structure-of-reductive-lie-algebra
+title_en: "Structure of Reductive Lie Algebras"
+title_zh: "约化李代数的结构"
+type: proposition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [reductive-lie-algebra, derived-subalgebra, center, semisimple, decomposition]
+depends_on:
+  required: [reductive-lie-algebra, semisimple-lie-algebra, complete-reducibility]
+  recommended: [killing-form-criterion]
+  suggested: []
+source_books:
+  - book_id: gtm009
+    author: "James E. Humphreys"
+    title: "Introduction to Lie Algebras and Representation Theory"
+    chapter: "19"
+    section: "19.1"
+    pages: ""
+    role_in_book: "Proposition giving structural decomposition of a reductive Lie algebra into its derived subalgebra (semisimple) and its center"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

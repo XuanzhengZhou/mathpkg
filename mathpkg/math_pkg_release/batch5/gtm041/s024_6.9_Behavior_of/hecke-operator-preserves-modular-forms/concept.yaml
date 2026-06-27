@@ -1,0 +1,23 @@
+id: hecke-operator-preserves-modular-forms
+title_en: "Hecke operator preserves spaces of modular forms and cusp forms"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: modular-forms
+difficulty: intermediate
+tags: [hecke-operator, modular-form, cusp-form, analytic-continuation, fourier-expansion]
+depends_on:
+  required: []
+  recommended: [hecke-operator-modular-invariance, fourier-expansion-of-hecke-transform]
+  suggested: [modular-form-weight-k, cusp-form]
+source_books:
+  - book_id: gtm041
+    author: "Tom M. Apostol"
+    title: "Modular Functions and Dirichlet Series in Number Theory"
+    chapter: "6"
+    section: "6.9"
+    pages: ""
+    role_in_book: "Shows that Hecke operators are endomorphisms of spaces of modular and cusp forms"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

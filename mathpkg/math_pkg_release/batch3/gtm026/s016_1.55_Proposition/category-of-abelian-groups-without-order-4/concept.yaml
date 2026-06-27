@@ -1,0 +1,23 @@
+id: category-of-abelian-groups-without-order-4
+title_en: "Category of Abelian Groups with No Element of Order 4"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [abelian-group, coequalizer-mono-factorization, counterexample, limit, colimit]
+depends_on:
+  required: [abelian-group, limit, colimit, coequalizer]
+  recommended: [coequalizer-mono-factorization, equalizer]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "1"
+    section: "1.4"
+    pages: ""
+    role_in_book: "Counterexample: a category with all small limits and colimits but without coequalizer-mono factorizations"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

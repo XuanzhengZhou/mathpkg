@@ -1,0 +1,23 @@
+id: complex-clifford-algebra-periodicity
+title_en: "Complex Periodicity: C_{k+2}^c ≅ C_k^c ⊗_R C(2)"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: clifford-algebras
+difficulty: intermediate
+tags: [clifford-algebra, complexification, periodicity, tensor-product, matrix-algebra]
+depends_on:
+  required: [clifford-algebra-bott-periodicity]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "5"
+    section: "5.9"
+    pages: ""
+    role_in_book: "Periodicity of complexified Clifford algebras, fundamental for complex K-theory"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

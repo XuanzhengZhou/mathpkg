@@ -1,0 +1,23 @@
+id: anticommutator-in-q1
+title_en: "Anticommutator formula in Q_1"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [algebra-q, quaternions, anticommutator, inner-product]
+depends_on:
+  required: [algebra-q, phi-squared-in-q1]
+  recommended: [inner-product-on-algebra-q]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Relates the symmetrized product (anticommutator) of two traceless elements in Q_1 to their inner product."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

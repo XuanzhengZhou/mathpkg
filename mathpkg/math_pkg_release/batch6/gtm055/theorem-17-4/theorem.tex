@@ -1,0 +1,35 @@
+For any measure space $(X, \mathbf{S}, \mu)$ the Lebesgue spaces $\mathcal{L}_p(X, \mathbf{S}, \mu)$, $1 \leq p \leq +\infty$, are complete, and are therefore Banach spaces.
+
+Proof. It suffices as always (see Problem 4E) to show that if a Cauchy sequence $\{f_n\}$ satisfies the added condition
+
+$$\sum_{n=1}^{\infty} \|f_{n+1} - f_n\|_p <
+
+if $E$ is any Borel set in $\mathbb{R}^n$, then $\mathcal{L}_p(E)$ will be understood to mean the Lebesgue space $\mathcal{L}_p(E, \mathbf{B}_E, \mu_n|E)$, where $\mathbf{B}_E$ denotes the $\sigma$-ring of Borel subsets of $E$. For each complex-valued function $f$ on $\mathbb{R}^n$ and each fixed element $a$ of $\mathbb{R}^n$ let us write $f_{(a)}$ for the translate of $f$ defined by
+
+$$f_{(a)}(x) = f(x + a), \quad x \in \mathbb{R}^n.$$
+
+Since $\mu_n$ is translation invariant (Prob. 8F), it is clear that if $f \in \mathcal{L}_p(\mathbb{R}^n)$ for some $p$, $1 \leq p \leq +\infty$, then $f_{(a)} \in \mathcal{L}_p(\mathbb{R}^n)$ too, and $\| f_{(a)} \|_p = \| f \|_p$. Thus if we write $T_a$ for the mapping defined by $T_a f = f_{(a)}$, $f \in \mathcal{L}_p(\mathbb{R}^n)$, $a \in \mathbb{R}^n$, then $T_a$ is an isometric isomorphism of $\mathcal{L}_p(\mathbb{R}^n)$ onto itself (with $(T_a)^{-1} = T_{-a}$) for each point $a$ of $\mathbb{R}^n$ and each $p$, $1 \leq p \leq +\infty$. Moreover, if $\Phi$ denotes the mapping $a \xrightarrow{\Phi} T_a$ of $\mathbb{R}^n$ into $\mathcal{L}(\mathcal{L}_p(\mathbb{R}^n))$, then $\Phi(a + b) = T_{a+b} = T_a T_b = \Phi(a)\Phi(b)$ for all $a, b$ in $\mathbb{R}^n$, since $T_{a+b} f = f_{(a+b)} = (f_{(b)})_{(a)} = T_a(T_b f)$ for
+
+multiplicative group $Z$ on the space $\mathcal{L}_p(Z)$.) Just as in the preceding example it is readily verified that for each fixed $f$ in $\mathcal{L}_p(Z)$, the mapping $\gamma \rightarrow f_{(\gamma)} = R_\gamma f$ of $Z$ into $\mathcal{L}_p(Z)$ is continuous on $Z$ whenever $1 \leq p < +\infty$. (The mapping $\gamma \rightarrow R_\gamma f$ need not be continuous as a mapping of $Z$ into $\mathcal{L}_\infty(Z)$. The mapping $\Psi$ of $Z$ into $\mathcal{L}(\mathcal{L}_p(Z))$ is not continuous for any value of $p$.)
+
+Example F. Let $\mathcal{P}$ denote the linear space of all complex-valued Borel measurable functions $f$ on the real line $\mathbb{R}$ with the property that $f_{(2\pi)} = f$, that is, the space of all measurable periodic functions with period $2\pi$. If $f$ is such a measurable periodic function, and if, for some real number $a, f$ is integrable with respect to Lebesgue measure over the period $[a, a + 2\pi]$, then
+
+$$\int_a^{a+2\pi} f(t)dt = \int_b^{b+2\pi} f(t)dt$$
+
+for any real number $b$. In this case we shall say that $f$ is integrable over a period and write
+
+$$\oint f(t)dt = \int_a^{a+2\pi} f(t)dt$$
+
+(where, as noted, $a$ can be taken to be any real number). Using this terminology, we define the space $\mathcal{P}_p$, $1 \leq p < +\infty$, to consist of the collection of all those functions $f$ in $\mathcal{P}$ such that $|f|^p$ is integrable over a period, and we write
+
+$$\|f\|_p = \left[ \oint |f(t)|^p dt \right]^{1/p}$$
+
+for all $f$ in $\mathcal{P}_p$. Likewise, by $\mathcal{P}_\infty$ we shall
+
+that the derivative $f'$ belongs to $\mathcal{L}_p([a, b])$ (see Problem 9N). It is easily seen that $\mathcal{W}_{1,p}$ is a dense linear submanifold of $\mathcal{L}_p([a, b])$. (Indeed, the polynomials are dense in $\mathcal{L}_p([a, b])$ by the Weierstrass theorem; cf. Example 18C.) Moreover, while the linear transformation $D: \mathcal{W}_{1,p} \rightarrow \mathcal{L}_p([a, b])$ defined by $D(f) = f', f \in \mathcal{W}_{1,p}$, is not bounded, it is closed (see Chapter 13). To see why this is so, note that the null space of $D$ is the space $\mathcal{N}$ of constant functions, and let $\hat{D}: \mathcal{W}_{1,2}/\mathcal{N} \rightarrow \mathcal{L}_p([a, b])$ be the linear transformation that results from factoring out $\mathcal{N}$. If $J$ denotes the (bounded) integral operator
+
+$$(Jf)(x) = \int_a^x f(t)dt, \quad a \leq x \leq b, \quad f \in \mathcal{L}_p([a, b])$$
+
+(Ex. C), and if $\pi$ denotes the natural projection of $\mathcal{L}_p([a, b])$ onto $\mathcal{L}([a, b])/\mathcal{N}$, then $\hat{D}$ is the set-theoretic inverse of $\pi \circ J$. Since the graph of the bounded transformation $\pi \circ J$ is certainly complete, it is clear that the graph of $\hat{D}$ is also (Prob. 13R). But from this it follows readily that the graph of $D$ is closed in $\mathcal{L}_p([a, b]) \oplus_1 \mathcal{L}_p([a, b])$. Observe that what we have shown implies that $\mathcal{W}_{1,2}$ is complete (and is therefore a Banach space) in the new norm
+
+$$\|f\| = \left[ \int_a^b |f(t)|^p

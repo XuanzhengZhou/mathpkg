@@ -1,0 +1,23 @@
+id: orthosymmetric-iff-symmetric-or-skew-symmetric
+title_en: "Orthosymmetric if and only if Symmetric or Skew-Symmetric"
+title_zh: ""
+type: proposition
+domain: geometry
+subdomain: bilinear-forms
+difficulty: intermediate
+tags: [orthosymmetry, symmetric-bilinear-form, skew-symmetric-bilinear-form]
+depends_on:
+  required: [orthosymmetric-bilinear-form, symmetric-bilinear-form, skew-symmetric-bilinear-form]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm049
+    author: "K. W. Gruenberg, A. J. Weir"
+    title: "Linear Geometry"
+    chapter: "5"
+    section: "5.3"
+    pages: "97"
+    role_in_book: "Proposition 6: characterizes orthosymmetric bilinear forms as precisely those that are either symmetric or skew-symmetric"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

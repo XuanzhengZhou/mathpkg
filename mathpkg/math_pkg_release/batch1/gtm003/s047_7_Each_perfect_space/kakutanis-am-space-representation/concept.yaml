@@ -1,0 +1,23 @@
+id: kakutanis-am-space-representation
+title_en: "Kakutani's Representation Theorem for (AM)-Spaces with Unit"
+title_zh: "Kakutani表示定理（带单位的AM空间）"
+type: theorem
+domain: analysis
+subdomain: banach-lattices
+difficulty: advanced
+tags: [kakutani, am-space, banach-lattice, representation-theorem, continuous-functions, compact-space, extreme-points, dual-unit-ball]
+depends_on:
+  required: []
+  recommended: [am-space-with-unit, positive-face-of-dual-unit-ball, extreme-points, continuous-functions]
+  suggested: [stone-weierstrass-order-form]
+source_books:
+  - book_id: "gtm003"
+    author: "Helmut H. Schaefer; Manfred P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "V: Order Structures"
+    section: "8. Stone-Weierstrass and Representation Theorems"
+    pages: ""
+    role_in_book: "8.5: represents every (AM)-space with unit as C_R(X) on the extreme points of the positive face"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

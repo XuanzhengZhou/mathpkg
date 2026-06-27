@@ -1,0 +1,1 @@
+If a product of normalized polynomials over the quotient field has coefficients in the original ring, then each factor already has coefficients in the ring. This is a form of Gauss's lemma for the ring of holomorphic functions.

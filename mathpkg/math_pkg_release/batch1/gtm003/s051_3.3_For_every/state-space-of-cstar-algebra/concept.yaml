@@ -1,0 +1,23 @@
+id: state-space-of-cstar-algebra
+title_en: "The set S(A) of all states is the state space of the C*-algebra A"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: cstar-algebras
+difficulty: intermediate
+tags: [cstar-algebra, state-space, compact-convex-set, weak-star-topology]
+depends_on:
+  required: [state-of-cstar-algebra]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "4"
+    section: "4.1"
+    pages: ""
+    role_in_book: "Defines the state space of a C*-algebra and notes its weak-* compactness in the unital case"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

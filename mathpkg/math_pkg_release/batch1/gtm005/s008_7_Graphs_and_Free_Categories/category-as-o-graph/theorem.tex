@@ -1,0 +1,21 @@
+A category with objects $O$ may be described as an $O$-graph $A$ equipped with two morphisms $c: A \times_O A \to A$ (composition) and $i: O \to A$ (identity) of $O$-graphs such that the diagrams
+
+\[
+\begin{CD}
+(A \times_O A) \times_O A @>{\cong}>> A \times_O (A \times_O A) @>{1 \times c}>> A \times_O A \\
+@VV{c \times 1}V @VVV{c}V \\
+A \times_O A @>{c}>> A
+\end{CD}
+\]
+
+and
+
+\[
+\begin{CD}
+A @>{\cong}>> A \times_O O @>{1 \times i}>> A \times_O A @<{i \times 1}<< O \times_O A @<{\cong}<< A \\
+@| @VVV{c}V @| \\
+A @= A @= A
+\end{CD}
+\]
+
+are commutative.

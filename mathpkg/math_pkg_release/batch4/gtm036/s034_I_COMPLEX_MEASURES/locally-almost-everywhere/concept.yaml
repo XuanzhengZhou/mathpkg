@@ -1,0 +1,23 @@
+id: locally-almost-everywhere
+title_en: "Locally Almost Everywhere"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [locally-almost-everywhere, measure-theory, sigma-finite]
+depends_on:
+  required: [almost-everywhere, sigma-finite-measure, locally-measurable-function]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm036"
+    author: "J.L. Kelley, I. Namioka"
+    title: "Linear Topological Spaces"
+    chapter: "4"
+    section: "Problem section (L^p duality, part b)"
+    pages: ""
+    role_in_book: "Definition needed for L^∞ on non-totally-finite measure spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

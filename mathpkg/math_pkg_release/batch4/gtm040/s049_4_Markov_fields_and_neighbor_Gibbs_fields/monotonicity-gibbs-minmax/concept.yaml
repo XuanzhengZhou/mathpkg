@@ -1,0 +1,23 @@
+id: monotonicity-gibbs-minmax
+title_en: "Monotonicity of Extremal Conditional Probabilities"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: random-fields
+difficulty: advanced
+tags: [gibbs-field, monotonicity, conditional-probability, extremal-probability, phase-transition]
+depends_on:
+  required: [neighbor-gibbs-field-infinite]
+  recommended: [finite-state-gibbs-existence-phase-criterion]
+  suggested: []
+source_books:
+  - book_id: gtm040
+    author: "John G. Kemeny, J. Laurie Snell, Anthony W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "12"
+    section: "4"
+    pages: "447-455"
+    role_in_book: "Establishes that the sequences of maxima and minima of conditional probabilities are monotone, ensuring the limits used in the phase multiplicity criterion exist"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,1 @@
+The Hahn-Banach theorem (and its corollaries) is a cornerstone of functional analysis, guaranteeing that bounded linear functionals on subspaces can be extended to the whole space without increasing their norm.

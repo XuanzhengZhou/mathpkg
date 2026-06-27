@@ -1,0 +1,23 @@
+id: nu-equals-mu-iff-dim-f-equals-deg-mu
+title_en: "Minimum Polynomial of Cyclic Subspace Equals That of Whole Space iff Maximal Dimension"
+title_zh: "循环子空间的最小多项式等于全空间的最小多项式当且仅当维数最大"
+type: corollary
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [cyclic-subspace, minimum-polynomial, dimension]
+depends_on:
+  required: [minimum-polynomial-degree-bounded-by-dimension, cyclic-subspace-degree-equals-min-poly-degree]
+  recommended: [minimum-polynomial, divisibility]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "XIII"
+    section: "3"
+    pages: ""
+    role_in_book: "Criterion for a cyclic subspace to share the minimum polynomial"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

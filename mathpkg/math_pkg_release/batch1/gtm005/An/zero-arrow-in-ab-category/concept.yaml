@@ -1,0 +1,23 @@
+id: zero-arrow-in-ab-category
+title_en: "Zero arrow in an Ab-category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: basic
+tags: [zero-arrow, zero-morphism, ab-category, preadditive-category]
+depends_on:
+  required: [ab-category]
+  recommended: []
+  suggested: [abelian-group]
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "VIII"
+    section: "2"
+    pages: "208-211"
+    role_in_book: "Defines the zero arrow in an Ab-category as the zero element of each hom-set abelian group"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

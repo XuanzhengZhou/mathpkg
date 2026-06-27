@@ -1,0 +1,8 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+Let $K/k$ be a finite dimensional radical extension and let $S$ and $T$ be diagonalizable toral $k$-subcorings of $H(K/k)$ with $S \subset T$. Then there is a natural correspondence between their weight decompositions.

@@ -1,0 +1,1 @@
+The identity theorem holds on any connected complex manifold: two holomorphic functions agreeing on a non-empty open set are identical everywhere. This fundamental principle extends from domains in $\mathbb{C}^n$ to arbitrary complex manifolds.

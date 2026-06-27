@@ -1,0 +1,23 @@
+id: canonical-bundles-on-projective-spaces
+title_en: "Relations between canonical bundles on real and complex projective spaces"
+title_zh: "实与复射影空间上标准丛的关系"
+type: theorem
+domain: topology
+subdomain: characteristic-classes
+difficulty: advanced
+tags: [canonical-line-bundle, projective-space, chern-class, stiefel-whitney-class, euler-class]
+depends_on:
+  required: [canonical-line-bundle, complexification, realization]
+  recommended: [chern-class, stiefel-whitney-class, euler-class]
+  suggested: []
+source_books:
+  - book_id: gtm020
+    author: "Dale Husemoller"
+    title: "Fibre Bundles"
+    chapter: "17. Chern Classes and Stiefel-Whitney Classes"
+    section: "11"
+    pages: ""
+    role_in_book: "Theorem 11.4: relations between canonical bundles on RP^{2n-1} and CP^{n-1}"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

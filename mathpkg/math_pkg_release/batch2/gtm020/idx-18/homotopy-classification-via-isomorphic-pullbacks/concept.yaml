@@ -1,0 +1,23 @@
+id: homotopy-classification-via-isomorphic-pullbacks
+title_en: "Homotopy Classification via Isomorphic Pullbacks of the Universal Bundle"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: principal-bundles
+difficulty: advanced
+tags: [classifying-space, homotopy-classification, pullback, universal-bundle]
+depends_on:
+  required: [homotopies-decomposing-universal-g-bundle-into-odd-even-parts]
+  recommended: [universal-g-bundle-omega-g, classifying-space-b-g]
+  suggested: [classification-of-principal-g-bundles-over-cw-complexes]
+source_books:
+- book_id: gtm020
+  author: "Dale Husemoller"
+  title: "Fibre Bundles"
+  chapter: "4"
+  section: "12"
+  pages: ""
+  role_in_book: "Theorem 12.4: If two maps into the classifying space B_G pull back isomorphic G-bundles, then the maps are homotopic. This is the key step in establishing that the classifying space functor yields a bijection between homotopy classes of maps and isomorphism classes of bundles."
+content_hash: "4d5fb5fcba58fa2d7f03c27de216530b34527e05e7782f32ae9ed6c9776e3370"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

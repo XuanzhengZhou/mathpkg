@@ -1,0 +1,27 @@
+id: simplicial-expansion
+title_en: Simplicial expansion
+title_zh: ''
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: basic
+tags:
+- simplicial-complex
+- expansion
+- simple-homotopy
+depends_on:
+  required:
+  - simplicial-collapse
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm010
+  author: Marshall M. Cohen
+  title: A Course in Simple-Homotopy Theory
+  chapter: '2'
+  section: '2'
+  pages: ''
+  role_in_book: Reverse of collapse; needed for simple-homotopy equivalence relation
+content_hash: ''
+extraction_date: '2026-06-27'
+extraction_agent: v8-full-extract

@@ -1,0 +1,11 @@
+---
+role: introduce
+locale: en
+content_hash: ""
+written_against: ""
+---
+
+If either of these conditions is satisfied, then $h = Nf$:
+
+1. There exists an equilibrium set $E$ such that $z(\omega) = 0$ for every path $\omega$ which does not go through $E$.
+2. The enlarged chain is absorbing and $z(\omega) = 0$ for every path $\omega$ which begins in the absorbing state.

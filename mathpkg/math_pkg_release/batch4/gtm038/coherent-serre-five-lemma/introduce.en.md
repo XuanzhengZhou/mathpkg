@@ -1,0 +1,1 @@
+In an exact sequence of five sheaves, if the four outer sheaves are coherent, the middle one is coherent too. Together with Oka's theorem, this provides powerful tools for proving coherence of analytic sheaves.

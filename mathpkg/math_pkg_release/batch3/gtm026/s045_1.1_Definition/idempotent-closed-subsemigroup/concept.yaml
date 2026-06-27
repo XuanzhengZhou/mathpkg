@@ -1,0 +1,23 @@
+id: idempotent-closed-subsemigroup
+title_en: "Every nonempty closed subsemigroup possesses an idempotent"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: universal-algebra
+difficulty: intermediate
+tags: [idempotent, subsemigroup, closed-set, compact-hausdorff, minimal-closed-subsemigroup]
+depends_on:
+  required: []
+  recommended: [semigroup, idempotent, compact-hausdorff, zorns-lemma]
+  suggested: []
+source_books:
+  - book_id: gtm026
+    author: "Ernest G. Manes"
+    title: "Algebraic Theories"
+    chapter: "4"
+    section: "1"
+    pages: ""
+    role_in_book: "Lemma 1.17; key technical lemma used in the proof of Theorem 1.16"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

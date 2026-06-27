@@ -1,0 +1,23 @@
+id: trace-inner-product-relation
+title_en: "Relation between inner product trace and real part"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [unitary-mapping, inner-product, trace, complex-plane]
+depends_on:
+  required: []
+  recommended: [adjoint-mapping]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "11"
+    section: "4"
+    pages: ""
+    role_in_book: "Establishes formula (11.32) relating the real part of (z, τz) to the trace of τ, showing that for det τ = 1 the real part depends only on |z|."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

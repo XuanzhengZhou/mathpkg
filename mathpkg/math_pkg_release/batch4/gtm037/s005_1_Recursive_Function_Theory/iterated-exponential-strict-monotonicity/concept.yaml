@@ -1,0 +1,13 @@
+id: iterated-exponential-strict-monotonicity
+title_en: "Strict Monotonicity of Iterated Exponential in the Iteration Count"
+title_zh: "迭代指数对迭代次数的严格单调性"
+type: lemma
+domain: logic
+subdomain: recursive-function-theory
+difficulty: basic
+tags: [iterated-exponential, strict-monotonicity, inequality]
+depends_on: {required: [iterated-exponential-lower-bound], suggested: []}
+source_books: [{book_id: "gtm037", author: "J. Donald Monk", title: "Mathematical Logic", chapter: "2", section: "Elementary Recursive and Primitive Recursive Functions", pages: "43-46", role_in_book: "Lemma 2.38: a(m,n) < a(m,n+1) for all m > 1"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

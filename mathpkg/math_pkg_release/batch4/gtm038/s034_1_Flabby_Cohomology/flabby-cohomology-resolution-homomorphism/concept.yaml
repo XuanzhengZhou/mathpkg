@@ -1,0 +1,23 @@
+id: flabby-cohomology-resolution-homomorphism
+title_en: "Flabby Cohomology Resolution Homomorphism"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: sheaf-theory
+difficulty: advanced
+tags: [sheaf, flabby-resolution, cohomology, chain-complex, homomorphism-of-resolutions]
+depends_on:
+  required: [flabby-resolution-sheaf-w, w-is-covariant-functor, w-is-exact-functor]
+  recommended: [chain-complex, quotient-complex]
+  suggested: []
+source_books:
+  - book_id: gtm038
+    author: "Grauert, H.; Fritzsche, K."
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Definition 1: Constructs the homomorphism W(phi) between flabby resolutions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

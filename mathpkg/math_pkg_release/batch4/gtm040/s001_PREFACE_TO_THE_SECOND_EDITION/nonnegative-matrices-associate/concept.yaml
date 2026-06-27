@@ -1,0 +1,23 @@
+id: nonnegative-matrices-associate
+title_en: "Non-Negative Matrices Associate under Multiplication"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: infinite-matrices
+difficulty: basic
+tags: [matrix, associativity, non-negative, multiplication]
+depends_on:
+  required: [matrix-multiplication-definition, limit-interchange-nondecreasing-double-sequence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm040"
+    author: "J.G. Kemeny, J.L. Snell, A.W. Knapp"
+    title: "Denumerable Markov Chains"
+    chapter: "1"
+    section: "1"
+    pages: "3"
+    role_in_book: "Fundamental result enabling working with products of non-negative matrices"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

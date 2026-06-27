@@ -1,0 +1,23 @@
+id: basis-deformation-theorem
+title_en: "Basis Deformation Theorem"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: advanced
+tags: [basis, deformation, orientation, determinant, continuous-deformation]
+depends_on:
+  required: [orientation-by-determinant, determinant]
+  recommended: [positive-basis]
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "Chapter IV"
+    section: "§8. Oriented vector spaces"
+    pages: "4.32-4.34"
+    role_in_book: "Characterizes when two bases can be continuously deformed into each other"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

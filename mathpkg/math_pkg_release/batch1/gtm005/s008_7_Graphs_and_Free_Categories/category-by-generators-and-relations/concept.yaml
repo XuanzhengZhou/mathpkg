@@ -1,0 +1,23 @@
+id: category-by-generators-and-relations
+title_en: "Category by Generators and Relations"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [generators-and-relations, free-category, quotient-category]
+depends_on:
+  required: [free-category-theorem, quotient-category]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm005"
+    author: "Saunders Mac Lane"
+    title: "Categories for the Working Mathematician"
+    chapter: "I"
+    section: "8"
+    pages: ""
+    role_in_book: "Category defined by a graph of generators and relations as C_G/R"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

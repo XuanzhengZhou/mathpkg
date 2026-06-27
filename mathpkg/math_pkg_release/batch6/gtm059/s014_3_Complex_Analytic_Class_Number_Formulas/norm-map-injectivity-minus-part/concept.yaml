@@ -1,0 +1,23 @@
+id: norm-map-injectivity-minus-part
+title_en: "Injectivity of the Norm Map on the Minus Part (Theorem 4.1.4)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: advanced
+tags: [norm-map, class-group, minus-part, imaginary-abelian-extension, iwasawa-theory]
+depends_on:
+  required: [plus-minus-eigenspaces, ideal-class-group, norm-map]
+  recommended: [hilbert-class-field, artin-symbol]
+  suggested: []
+source_books:
+  - book_id: "gtm059"
+    author: "Serge Lang"
+    title: "Cyclotomic Fields"
+    chapter: "3"
+    section: "4.6 The (±1)-conjectures"
+    pages: ""
+    role_in_book: "Establishes injectivity of the norm map on the minus eigenspace for imaginary abelian extensions"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

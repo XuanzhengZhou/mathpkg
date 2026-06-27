@@ -1,0 +1,23 @@
+id: riemannian-metric
+title_en: "Riemannian metric"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [riemannian-metric, metric-tensor, arc-length, quadratic-form]
+depends_on:
+  required: [riemannian-manifold, differentiable-manifold]
+  recommended: [tangent-bundle]
+  suggested: []
+source_books:
+  - book_id: gtm060
+    author: "V.I. Arnol'd"
+    title: "Mathematical Methods of Classical Mechanics"
+    chapter: "4"
+    section: "18"
+    pages: ""
+    role_in_book: "Defines the coordinate expression of the Riemannian metric"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

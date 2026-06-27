@@ -1,0 +1,23 @@
+id: local-riemannian-surface
+title_en: "Local Surface with Riemannian Metric"
+title_zh: "带黎曼度量的局部曲面"
+type: definition
+domain: geometry
+subdomain: riemannian-geometry
+difficulty: intermediate
+tags: [riemannian-surface, equivalence-class, local-coordinates, intrinsic-geometry]
+depends_on:
+  required: [isometric-riemannian-metrics]
+  recommended: [manifold, equivalence-class]
+  suggested: []
+source_books:
+  - book_id: "gtm051"
+    author: "Wilhelm Klingenberg"
+    title: "A Course in Differential Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Defines local Riemannian surface as an isometry class of local metrics"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

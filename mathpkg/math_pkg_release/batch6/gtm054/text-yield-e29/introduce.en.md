@@ -1,0 +1,16 @@
+---
+role: introduce
+locale: en
+content_hash: "d19950cc7788"
+written_against: "2026-06-27"
+---
+
+E29 (axiom) from Combinatorics with Emphasis on the Theory of Graphs.
+
+$n_1 p_{21}^1 = n_2 p_{11}^2$ and $n_2 p_{12}^2 = n_1 p_{21}^1$.
+
+By E10,
+
+$$p_{11}^1 + p_{12}^1 = n_1 - 1 \text{ and } p_{11}^2 + p_{12}^2 = n_1,$$
+
+which yield $p_{12}^1 = n_1 - 2$ and $

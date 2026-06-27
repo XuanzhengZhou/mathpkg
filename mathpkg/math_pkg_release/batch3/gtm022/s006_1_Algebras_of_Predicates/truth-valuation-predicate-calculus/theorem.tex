@@ -1,0 +1,6 @@
+An interpretation of $P(V, \mathcal{R})$ consists of a non-empty set $U$, a map $\varphi : V \to U$, and a map $\psi$ assigning to each $r \in \mathcal{R}_n$ an $n$-ary relation $\psi r \subseteq U^n$. A truth valuation is a function $v : P(V, \mathcal{R}) \to \mathbb{Z}_2$ satisfying:
+\begin{itemize}
+\item[(a)] For $r \in \mathcal{R}_n$ and $x_1, \ldots, x_n \in V$, $v(r(x_1, \ldots, x_n)) = 1$ if $(\varphi x_1, \ldots, \varphi x_n) \in \psi r$, and $0$ otherwise.
+\item[(b)] $v$ is a homomorphism of $\{F, \Rightarrow\}$-algebras.
+\item[$(c_k)$] Suppose $p = (\forall x)q(x)$ has depth $k$. Put $V' = V \cup \{t\}$ where $t \notin V$. If for every extension $\varphi' : V' \to U$ of $\varphi$ and for every $v'_{k-1} : P_{k-1}(V', \mathcal{R}) \to \mathbb{Z}_2$ such that $(\varphi', \psi, v'_{k-1})$ satisfy (a), (b) and $(c_i)$ for all $i < k$, we have $v'_{k-1}(q(t)) = 1$, then $v(p) = 1$; otherwise $v(p) = 0$.
+\end{itemize}

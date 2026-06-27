@@ -1,0 +1,23 @@
+id: inverse-property-of-loops
+title_en: "Inverse Property of a loop"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: loop-theory
+difficulty: basic
+tags: [loop, inverse, IP, RIP, LIP, planar-ternary-ring]
+depends_on:
+  required: [right-inverse-property, left-inverse-property]
+  recommended: [loop, quasigroup]
+  suggested: []
+source_books:
+  - book_id: gtm006
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "VI"
+    section: "6. Division Rings with Inverse Properties"
+    pages: ""
+    role_in_book: "Defines the full inverse property as the conjunction of RIP and LIP; loops with IP give rise to alternative division rings."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

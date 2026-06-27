@@ -1,0 +1,20 @@
+id: truth-lemma-forcing
+title_en: "Truth Lemma for the Forcing Language"
+title_zh: ""
+type: lemma
+domain: foundations
+subdomain: set-theory
+difficulty: advanced
+tags: [forcing, truth-lemma, generic-extension]
+depends_on: {required:[truth-in-mg, language-extension-unlimited-quantifiers], recommended:[denotation-under-g], suggested:[]}
+source_books:
+  - book_id: gtm001
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Introduction to Axiomatic Set Theory"
+    chapter: "18"
+    section: "18.5"
+    pages: ""
+    role_in_book: "Connects truth in the forcing language with truth in the generic extension M[G]"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

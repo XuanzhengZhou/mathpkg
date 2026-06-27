@@ -1,0 +1,11 @@
+A $B$-valued structure $\mathbf{A} = \langle A, \|{\cdot}\| \rangle$ for a language $\mathcal{L}$ with equality assigns to each atomic formula $t_1 = t_2$ a truth value $\|t_1 = t_2\| \in B$ such that:
+
+$$\|t_1 = t_2\| \cdot \|\varphi(t_1)\| \leq \|\varphi(t_2)\|$$
+
+for any formula $\varphi$, where the interpretation is defined by induction on the complexity of formulas:
+
+$$\|\neg \varphi\| \triangleq - \|\varphi\|$$
+$$\|\varphi \land \psi\| \triangleq \|\varphi\| \cdot \|\psi\|$$
+$$\|\varphi \lor \psi\| \triangleq \|\varphi\| + \|\psi\|$$
+$$\|\exists x \varphi(x)\| \triangleq \sum_{a \in A} \|\varphi(a)\|$$
+$$\|\forall x \varphi(x)\| \triangleq \prod_{a \in A} \|\varphi(a)\|$$

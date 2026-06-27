@@ -1,0 +1,23 @@
+id: mobius-group
+title_en: "The Group of Möbius Transformations"
+title_zh: "莫比乌斯变换群"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [mobius-transformation, group-theory, composition]
+depends_on:
+  required: [mobius-transformation, inverse-of-mobius-transformation]
+  recommended: [linear-fractional-transformation]
+  suggested: [group-theory, pgl2-c]
+source_books:
+  - book_id: gtm011
+    author: "John B. Conway"
+    title: "Functions of One Complex Variable I"
+    chapter: "3"
+    section: "3.5"
+    pages: "46-48"
+    role_in_book: "Establishes the algebraic structure of Möbius maps"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: hironakas-lemma
+title_en: "Lemma of Hironaka (Lemma 9.12)"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [flatness, normalization, noetherian-local-ring, associated-prime]
+depends_on:
+  required: []
+  recommended: [normalization, noetherian-ring, associated-prime, nakayamas-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm052"
+    author: "Robin Hartshorne"
+    title: "Algebraic Geometry"
+    chapter: "III"
+    section: "9"
+    pages: ""
+    role_in_book: "Key technical lemma used to prove that algebraic families of normal varieties are flat"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,23 @@
+id: continuity-into-product-coordinatewise
+title_en: "Continuity into a Product Space is Coordinatewise"
+title_zh: "到积空间的连续性是逐坐标的"
+type: theorem
+domain: topology
+subdomain: product-topology
+difficulty: basic
+tags: [product-topology, continuity, coordinate-projection, weak-topology]
+depends_on:
+  required: [product-topology-as-weak-topology, continuity-criterion-determining-family]
+  recommended: [continuous-function]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Leonard; Jerison, Meyer"
+    title: "Rings of Continuous Functions"
+    chapter: "3"
+    section: "3.10"
+    pages: ""
+    role_in_book: "Theorem 3.10(c); special case of the continuity criterion for product spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

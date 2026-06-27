@@ -1,0 +1,23 @@
+id: basis-characterization-of-isomorphism
+title_en: "Characterization of Linear Isomorphisms via Bases"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [linear-isomorphism, basis, linear-mapping, vector-space, characterization]
+depends_on:
+  required: [linear-isomorphism, basis-definition, image-of-generators-under-surjection, image-of-independent-set-under-injection]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "1"
+    section: "2"
+    pages: ""
+    role_in_book: "Key theorem — a linear isomorphism maps bases to bases, and conversely, if a linear map sends a basis to a basis, it is an isomorphism"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

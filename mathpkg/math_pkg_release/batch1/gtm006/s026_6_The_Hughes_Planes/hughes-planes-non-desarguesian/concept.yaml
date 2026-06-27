@@ -1,0 +1,23 @@
+id: hughes-planes-non-desarguesian
+title_en: "The Hughes Planes are Non-Desarguesian"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: projective-planes
+difficulty: advanced
+tags: [finite-geometry, non-desarguesian-plane, hughes-plane, desarguesian]
+depends_on:
+  required: [hughes-plane-is-finite-projective-plane, hughes-plane-coordinatization, hughes-plane-addition-is-field-addition]
+  recommended: [desarguesian-plane, linear-planar-ternary-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm006"
+    author: "D.R. Hughes and F.C. Piper"
+    title: "Projective Planes"
+    chapter: "9"
+    section: "6"
+    pages: ""
+    role_in_book: "Corollary 1 — establishes that Hughes planes are non-desarguesian"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

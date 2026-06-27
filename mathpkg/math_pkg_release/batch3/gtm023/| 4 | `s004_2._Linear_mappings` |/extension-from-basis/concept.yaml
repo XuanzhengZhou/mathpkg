@@ -1,0 +1,23 @@
+id: extension-from-basis
+title_en: "Extension of a Set Map from a Basis to a Unique Linear Mapping"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [basis, linear-mapping, extension, uniqueness, vector-space]
+depends_on:
+  required: [basis-definition, extension-from-generators, linear-mapping-definition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm023
+    author: "Werner Greub"
+    title: "Linear Algebra"
+    chapter: "1"
+    section: "2"
+    pages: ""
+    role_in_book: "Proposition II — a set map defined on a basis extends uniquely to a linear map on the whole space"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

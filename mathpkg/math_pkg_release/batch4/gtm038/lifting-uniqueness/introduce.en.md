@@ -1,0 +1,1 @@
+Two continuous liftings of the same map that agree at a single point must agree everywhere, provided the domain is connected. This is the fundamental uniqueness property for Riemann domains, analogous to the monodromy theorem.

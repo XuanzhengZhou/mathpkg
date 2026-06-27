@@ -1,0 +1,23 @@
+id: mp-unique-maximal-containing-op
+title_en: "M^p is the Unique Maximal Ideal Containing O^p"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [maximal-ideal, op-ideal, z-ideal, prime-ideal]
+depends_on:
+  required: [op-ideal, maximal-ideals-in-cx]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "7"
+    section: "14 (7.13)"
+    pages: ""
+    role_in_book: "establishes that O^p is contained in exactly one maximal ideal"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

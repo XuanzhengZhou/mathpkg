@@ -1,0 +1,21 @@
+$$\xi_1 = (E_1, p_1, B) \quad \text{and} \quad \xi_2 = (E_2, p_2, B)$$
+
+over $B$ is $(E_1 \oplus E_2, q, B)$, where $E_1 \oplus E_2$ is the subspace of all $(x, x') \in E_1 \times E_2$ with $p_1(x) = p_2(x')$ and $q(x, x') = p_1(x) = p_2(x')$.
+
+The fibre product is sometimes called the Whitney sum. The fibre $q^{-1}(b)$ of $(E_1 \oplus E_2, q, B)$ over $b \in B$ is $p_1^{-1}(b) \times p_2^{-1}(b) \subset E_1 \times E_2$. This is the reason for the term fibre product.
+
+We define $\oplus$: $\text{Bun}_B \times \text{Bun}_B \rightarrow \text{Bun}_B$ as a functor. Let $u_1: (E_1, p_1, B) \rightarrow (E'_1, p'_1, B)$ and $u_2: (E_2, p_2, B) \rightarrow (E'_2, p'_2, B)$ be two $B$-morphisms. Then we define the $B$-morphism $u_1 \oplus u_2: (E_1 \oplus E_2, q, B) \rightarrow (E'_1 \oplus E'_2, q', B)$ by the relation $(u_1 \oplus u_2)(x_1, x_2) = (u_1(x_1), u_2(x_2))$. Since $p'_1 u_1(x_1) = p_1(x_1) = p_2(x_2) = p'_2 u_2(x_2)$, $u_1 \oplus u_2$ is
+
+4.6 For the next two examples, we use the following notations. For each $b \in R^n$, $b \neq 0$, there are two linear functions $v_b: \mathbf{R}^n \rightarrow \mathbf{R}^n$, the normal map, and $\pi_b: \mathbf{R}^n \rightarrow \mathbf{R}$, the projection on $b$, such that $x = v_b(x) + \pi_b(x)x$, $\pi_b(x) = (b|x)/(b|b)$, $v_b(x) = x - \pi_b(x)b$, and $(b|v_b(x)) = 0$ for each $x \in \mathbf{R}^n$.
+
+4.7 Example. An isomorphism $u: \tau(S^n) \oplus v(S^n) \rightarrow \theta^{n+1}$ is defined by the relation $u((b, x), (b, x')) = (b, x + x')$ for $(b, x) \in E(\tau(S^n))$ and $(b, x') \in E(v(S^n))$. The inverse of $u$ is the $B$-morphism $v$ defined by the relation $v(b, x) = ((b, v_b(x)), (b, \pi_b(x)b))$.
+
+Let $\lambda$ denote the canonical line bundle on $RP^n$.
+
+4.8 Example. Over $RP^n$, there is an isomorphism $u: (n+1)\lambda \rightarrow \tau(RP^n) \oplus \theta^1$ with inverse $v$ defined by the following relations:
+
+$$u(\pm b, (a_0b, \ldots, a_nb)) = (\pm(b, v_b(a_0, \ldots, a_n)), (\pm b, \pi_b(a_0, \ldots, a_n))$$
+
+$$v(\pm b, (x, \pm b, k)) = (\pm b, p_0(x + kb)b, \ldots, p_n(x + kb)b)$$
+
+These maps are well defined and are inverses of each other from the relations $a = v_b(a) + \pi_b(a)b$ and $-a = -v_b

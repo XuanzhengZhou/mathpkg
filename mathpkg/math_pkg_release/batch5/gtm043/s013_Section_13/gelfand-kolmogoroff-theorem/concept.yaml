@@ -1,0 +1,23 @@
+id: gelfand-kolmogoroff-theorem
+title_en: "Gelfand-Kolmogoroff Theorem: maximal ideals in C(X)"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: rings-of-continuous-functions
+difficulty: advanced
+tags: [gelfand-kolmogoroff, maximal-ideals, c-x, stone-cech, z-ultrafilter]
+depends_on:
+  required: [stone-cech-compactification, maximal-ideal, z-ultrafilter, z-ideal]
+  recommended: [maximal-ideals-in-c-star-x]
+  suggested: []
+source_books:
+  - book_id: gtm043
+    author: "Gillman, Jerison"
+    title: "Rings of Continuous Functions"
+    chapter: "7"
+    section: "7.3"
+    pages: ""
+    role_in_book: "Central theorem linking maximal ideals of C(X) to points of βX"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

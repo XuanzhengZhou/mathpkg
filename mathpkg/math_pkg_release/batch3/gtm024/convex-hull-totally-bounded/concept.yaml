@@ -1,0 +1,23 @@
+id: convex-hull-totally-bounded
+title_en: "Convex Hull of Totally Bounded Sets (Mazur)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: ["convex-hull", "totally-bounded", "mazur"]
+depends_on:
+  required: ["closed-convex-hull", "locally-convex-space"]
+  recommended: []
+  suggested: []
+source_books:
+- book_id: "gtm024"
+  author: "Richard B. Holmes"
+  title: "Geometric Functional Analysis and its Applications"
+  chapter: "§11"
+  section: "11.B"
+  pages: "60-61"
+  role_in_book: "Mazur's theorem on total boundedness"
+content_hash: "9e2ecb3eee55102c"
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

@@ -1,0 +1,13 @@
+id: norm-cyclotomic-integer
+title_en: "Norm of a Cyclotomic Integer"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: cyclotomic-fields
+difficulty: intermediate
+tags: [cyclotomic, norm, algebraic-number-theory, factorization]
+depends_on: {required: [cyclotomic-integer, conjugate-cyclotomic-integer], recommended: [well-definedness-of-conjugation], suggested: []}
+source_books: [{book_id: "gtm050", author: "Harold M. Edwards", title: "Fermat's Last Theorem", chapter: "4", section: "4.2", pages: "page_0098–page_0105", role_in_book: "Most important tool for studying factorization of cyclotomic integers"}]
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

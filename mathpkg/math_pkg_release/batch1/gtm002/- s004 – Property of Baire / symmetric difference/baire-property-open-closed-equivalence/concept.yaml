@@ -1,0 +1,23 @@
+id: baire-property-open-closed-equivalence
+title_en: "Baire Property: Open and Closed Set Equivalence"
+title_zh: "贝尔性质的闭集刻画"
+type: theorem
+domain: topology
+subdomain: descriptive-set-theory
+difficulty: intermediate
+tags: [baire-category, property-of-baire, symmetric-difference]
+depends_on:
+  required: [property-of-baire, symmetric-difference]
+  recommended: [first-category, nowhere-dense, closure]
+  suggested: []
+source_books:
+  - book_id: gtm002
+    author: "John C. Oxtoby"
+    title: "Measure and Category"
+    chapter: "4"
+    section: "The Property of Baire"
+    pages: ""
+    role_in_book: "Theorem 4.1 — shows property of Baire can be characterized using closed sets instead of open sets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

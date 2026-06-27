@@ -1,0 +1,23 @@
+id: convex-hull-of-finite-union-of-compact-convex-sets
+title_en: "Convex Hull of Finite Union of Compact Convex Sets"
+title_zh: "有限个紧凸集之并的凸包"
+type: theorem
+domain: analysis
+subdomain: convex-analysis
+difficulty: intermediate
+tags: [compact-convex-set, convex-hull, locally-convex-space, finite-union]
+depends_on:
+  required: []
+  recommended: [locally-convex-space, compact-set, convex-set]
+  suggested: [krein-milman-theorem]
+source_books:
+  - book_id: gtm003
+    author: "H.H. Schaefer, M.P. Wolff"
+    title: "Topological Vector Spaces"
+    chapter: "10"
+    section: "Compact Convex Sets"
+    pages: ""
+    role_in_book: "Theorem 10.2: the convex hull of a finite union of compact convex subsets of a locally convex space is compact"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

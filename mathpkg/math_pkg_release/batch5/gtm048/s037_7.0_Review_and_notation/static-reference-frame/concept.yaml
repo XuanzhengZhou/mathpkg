@@ -1,0 +1,23 @@
+id: static-reference-frame
+title_en: "Static Reference Frame"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-geometry
+difficulty: advanced
+tags: [static, reference-frame, stationary, irrotational, Killing-vector-field]
+depends_on:
+  required: [stationary-reference-frame]
+  recommended: [static-spacetime, irrotational-reference-frame]
+  suggested: []
+source_books:
+  - book_id: gtm048
+    author: "R. K. Sachs and H. Wu"
+    title: "General Relativity for Mathematicians"
+    chapter: "7"
+    section: "7.2"
+    pages: ""
+    role_in_book: "Definition of a static reference frame as a stationary and irrotational reference frame"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

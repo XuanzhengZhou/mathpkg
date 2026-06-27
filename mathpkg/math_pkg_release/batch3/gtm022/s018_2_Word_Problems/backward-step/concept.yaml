@@ -1,0 +1,23 @@
+id: backward-step
+title_en: "Backward Step in Semigroup Presentation"
+title_zh: ""
+type: definition
+domain: logic
+subdomain: computability-theory
+difficulty: basic
+tags: [semigroup, word-problem, turing-machine, substitution, relation]
+depends_on:
+  required: [forward-step]
+  recommended: [semigroup-presentation-from-turing-machine]
+  suggested: []
+source_books:
+  - book_id: gtm022
+    author: "D. W. Barnes, J. M. Mack"
+    title: "An Algebraic Introduction to Mathematical Logic"
+    chapter: "7"
+    section: "2. Word Problems"
+    pages: "112"
+    role_in_book: "Defines the reverse substitution operation, complementary to the forward step."
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

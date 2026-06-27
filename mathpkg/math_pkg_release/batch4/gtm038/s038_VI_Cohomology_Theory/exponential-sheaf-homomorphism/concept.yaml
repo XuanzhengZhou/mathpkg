@@ -1,0 +1,23 @@
+id: exponential-sheaf-homomorphism
+title_en: "Exponential Sheaf Homomorphism"
+title_zh: "指数层同态"
+type: definition
+domain: analysis
+subdomain: several-complex-variables
+difficulty: intermediate
+tags: [sheaf-homomorphism, exponential-map, complex-manifold, short-exact-sequence]
+depends_on:
+  required: [sheaf-of-germs-of-non-vanishing-holomorphic-functions]
+  recommended: [structure-sheaf, z-module-homomorphism]
+  suggested: [long-exact-cohomology-sequence]
+source_books:
+  - book_id: "gtm038"
+    author: "H. Grauert, K. Fritzsche"
+    title: "Several Complex Variables"
+    chapter: "VI"
+    section: "4"
+    pages: "178-179"
+    role_in_book: "Defines the exponential sheaf map exp: O → O* used in cohomology exact sequence"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

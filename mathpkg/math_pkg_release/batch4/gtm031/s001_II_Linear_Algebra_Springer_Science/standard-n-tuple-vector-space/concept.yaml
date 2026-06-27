@@ -1,0 +1,23 @@
+id: standard-n-tuple-vector-space
+title_en: "Standard Vector Space of n-tuples over a Division Ring"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [vector-space, n-tuples, standard-model, division-ring]
+depends_on:
+  required: [abstract-vector-space, finite-dimensional-vector-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm031"
+    author: "Nathan Jacobson"
+    title: "Lectures in Abstract Algebra II. Linear Algebra"
+    chapter: "I"
+    section: "1"
+    pages: "3-16"
+    role_in_book: "Canonical example of a finite dimensional vector space; serves as the model for all finite dimensional spaces"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

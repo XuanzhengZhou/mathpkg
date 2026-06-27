@@ -1,0 +1,23 @@
+id: acc-ideal-is-finite-intersection-of-irreducibles
+title_en: "Lemma 1: In a ring with the ascending chain condition, every ideal is a finite intersection of irreducible ideals"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [ascending-chain-condition, irreducible-ideal, noetherian-ring, ideal-decomposition]
+depends_on:
+  required: []
+  recommended: [ascending-chain-condition, irreducible-ideal, noetherian-ring]
+  suggested: []
+source_books:
+  - book_id: gtm028
+    author: "Oscar Zariski and Pierre Samuel"
+    title: "Commutative Algebra, Vol. I"
+    chapter: "IV"
+    section: "§4. The Lasker-Noether decomposition theorem"
+    pages: "208"
+    role_in_book: "First step toward primary decomposition; every ideal decomposes into irreducibles"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

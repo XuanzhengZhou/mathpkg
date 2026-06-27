@@ -1,0 +1,23 @@
+id: circled-hull
+title_en: "Circled Hull of a Set"
+title_zh: "集合的圆包"
+type: definition
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [circled-hull, balanced-set, convex-hull]
+depends_on:
+  required: []
+  recommended: [circled-set, topological-vector-space]
+  suggested: []
+source_books:
+  - book_id: gtm003
+    author: "Helmut H. Schaefer"
+    title: "Topological Vector Spaces"
+    chapter: "II"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines convex hulls and circled hulls of subsets"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

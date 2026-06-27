@@ -1,0 +1,23 @@
+id: wdl-implies-splitable
+title_en: "If B satisfies the WDL then B is splitable"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: boolean-algebras
+difficulty: advanced
+tags: [boolean-algebras, weak-distributive-law, splitable]
+depends_on:
+  required: []
+  recommended: [omega-alpha-omega-beta-wdl, aleph-alpha-aleph-beta-splitable]
+  suggested: []
+source_books:
+  - book_id: gtm008
+    author: "Gaisi Takeuti, Wilson M. Zaring"
+    title: "Axiomatic Set Theory"
+    chapter: "23"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 23.36: the weak distributive law implies the splitable property"
+content_hash: ""
+extraction_date: "2026-06-27"
+extraction_agent: "v8-full-extract"

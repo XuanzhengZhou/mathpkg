@@ -1,0 +1,36 @@
+{
+  "id": "natural-isomorphism",
+  "title_en": "Natural Isomorphism (Natural Equivalence)",
+  "title_zh": "",
+  "type": "definition",
+  "domain": "foundations",
+  "subdomain": "category-theory",
+  "difficulty": "intermediate",
+  "tags": [
+    "natural-isomorphism",
+    "natural-equivalence",
+    "invertible"
+  ],
+  "depends_on": {
+    "required": [
+      "natural-transformation",
+      "invertible-arrow"
+    ],
+    "recommended": [],
+    "suggested": []
+  },
+  "source_books": [
+    {
+      "book_id": "gtm005",
+      "author": "Saunders Mac Lane",
+      "title": "Categories for the Working Mathematician",
+      "chapter": "I",
+      "section": "4",
+      "pages": "",
+      "role_in_book": "Used throughout the text to define equivalences of categories, adjunctions, and all universal properties."
+    }
+  ],
+  "content_hash": "db1338d9c5181de3",
+  "extraction_date": "2026-06-27",
+  "extraction_agent": "v8-full-extract"
+}
