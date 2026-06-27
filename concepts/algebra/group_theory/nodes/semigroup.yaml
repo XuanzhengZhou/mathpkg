@@ -1,0 +1,64 @@
+id: "semigroup"
+name:
+  en: "Semigroup"
+  zh: "半群"
+type: "definition"
+
+depends:
+  required: ["binary_operation"]
+  recommended: []
+  suggested: ["set_and_function"]
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "I"
+    section: "I.1"
+    pages: "25-27"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 1.3"
+    statement_latex: "A semigroup is a nonempty set G together with an associative binary operation on G. That is, a semigroup (S,\\ast) satisfies: (1) \\ast: S \\times S \\to S is a binary operation; (2) (a \\ast b) \\ast c = a \\ast (b \\ast c) for all a,b,c \\in S."
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "1"
+    section: "1.1"
+    pages: "3-7"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 1.3"
+    statement_latex: "A semigroup (S,\\ast) is a set S equipped with an associative binary operation \\ast. That is, \\ast: S \\times S \\to S and for all a,b,c \\in S, (a \\ast b) \\ast c = a \\ast (b \\ast c)."
+
+statements:
+  - type: "definition"
+    name: "Semigroup"
+    latex: |
+      \\text{A semigroup } (S,\\ast) \\text{ is a set } S \\text{ together with an associative binary operation } \\ast \\text{ on } S.
+
+  - type: "example"
+    name: "Full Transformation Semigroup"
+    latex: |
+      \\text{For any set } X, \\text{ let } T_X = \\{f \\mid f: X \\to X\\} \\text{ be the set of all functions from } X \\text{ to } X. \\text{ Then } (T_X, \\circ) \\text{ is a semigroup under composition.}
+
+  - type: "example"
+    name: "Natural Numbers under Addition"
+    latex: |
+      (\\mathbb{N}, +) \\text{ is a semigroup since addition of natural numbers is associative.}
+
+  - type: "example"
+    name: "Positive Integers under Multiplication"
+    latex: |
+      (\\mathbb{Z}^+, \\cdot) \\text{ is a semigroup since multiplication of positive integers is associative.}
+
+lean:
+  mathlib4_path: "Mathlib.Algebra.Group.Defs"
+  mathlib4_theorem: "Semigroup"
+  status: "complete"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.1.7"
+    description: "Show that the set of all functions f: X → X under composition is a semigroup. Verify that composition of functions is associative."
+    connects:
+      - "composition"
+      - "set_and_function"

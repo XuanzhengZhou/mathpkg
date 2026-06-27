@@ -1,0 +1,1722 @@
+[
+  {
+    "id": "roths_theorem",
+    "name": "Roth's Theorem",
+    "name_norm": "roths theorem",
+    "type": "Theorem",
+    "num_books": 2,
+    "books": [
+      "084",
+      "106"
+    ],
+    "statement": "If α is an algebraic number of degree ≥ 2, then for each fixed ε > 0 there are at most finitely many rational numbers p/q, q > 0, such that |α - p/q| < 1/q^{2+ε}. Consequently, there exists a constant c > 0 such that for all rationals p/q, |α - p/q| > c/q^{2+ε}.",
+    "proof_sketch": "Not provided (deep result by K. F. Roth, 1955).",
+    "depends_on": [
+      "diophantine approximation",
+      "siegels lemma",
+      "geometry of numbers"
+    ],
+    "num_occurrences": 2,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "cyclic_direct_summand_lemma_for_bounded_abelian_p_groups",
+    "name": "Cyclic direct summand lemma for bounded abelian p-groups",
+    "name_norm": "cyclic direct summand lemma for bounded abelian p-groups",
+    "type": "Lemma",
+    "num_books": 1,
+    "books": [
+      "080"
+    ],
+    "statement": "Let G be an abelian p-group whose elements have bounded orders and let g be an element of maximal order in G. Then ⟨g⟩ is a direct summand of G.",
+    "proof_sketch": "By Zorn's Lemma choose M ≤ G maximal with M ∩ ⟨g⟩ = 0. If M + ⟨g⟩ ≠ G, pick x ∈ G ∖ (M + ⟨g⟩) of minimal order. Then px ∈ M + ⟨g⟩, leading to relations that contradict maximality of M or minimality of x. Hence G = M ⊕ ⟨g⟩.",
+    "depends_on": [
+      "zorns lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "standard_decomposition_of_nondegenerate_skew_symmetric_bilin",
+    "name": "Standard Decomposition of Nondegenerate Skew-Symmetric Bilinear Forms",
+    "name_norm": "standard decomposition of nondegenerate skew-symmetric bilinear forms",
+    "type": "Theorem",
+    "num_books": 1,
+    "books": [
+      "080"
+    ],
+    "statement": "Let V be a vector space over GF(p) with a nondegenerate skew-symmetric bilinear form f. Then V decomposes as a direct sum V = V_1 ⊕ ... ⊕ V_n of 2-dimensional subspaces V_i with bases {u_i, v_i} such that f(u_i, v_i) = 1, f(u_i, v_j) = 0 for i ≠ j, and f(u_i, u_j) = 0 = f(v_i, v_j) for all i, j.",
+    "proof_sketch": "Standard linear algebra result; proof not given in text.",
+    "depends_on": [
+      "linear algebra",
+      "bilinear forms",
+      "nondegenerate",
+      "skew-symmetric"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "existence_of_sylow_p_subgroups_via_zorns_lemma",
+    "name": "Existence of Sylow p-subgroups via Zorn's Lemma",
+    "name_norm": "existence of sylow p-subgroups via zorns lemma",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "080"
+    ],
+    "statement": "Every p-subgroup of a group G is contained in a Sylow p-subgroup; hence Sylow p-subgroups always exist.",
+    "proof_sketch": "Consider the set of all p-subgroups of G containing a given p-subgroup, partially ordered by inclusion. Every chain has an upper bound (the union), so Zorn's Lemma yields a maximal element, which is a Sylow p-subgroup.",
+    "depends_on": [
+      "zorns lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "halls_residual_finiteness_for_finitely_generated_abelian_by_",
+    "name": "Hall's Residual Finiteness for Finitely Generated Abelian-by-Nilpotent Groups",
+    "name_norm": "halls residual finiteness for finitely generated abelian-by-nilpotent groups",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "080"
+    ],
+    "statement": "Let G be a finitely generated group with a normal abelian subgroup A such that G/A is nilpotent. Then G is residually finite.",
+    "proof_sketch": "Take non-identity g ∈ G. By Zorn's Lemma there is a normal subgroup N maximal not containing g. It suffices to show G/N is finite; assume N=1. Every nontrivial normal subgroup contains g. There is a unique smallest nontrivial normal subgroup M. If A=1, G is nilpotent, M is central of prime order p, and M lies in all nontrivial normal subgroups, so G is a p-group, hence finite. If A≠1, M ≤ A. M is a simple Z(G/A)-module, finite by 15.4.4. C = C_G(M) has finite index. By 15.3.6 there is n with γ_n(C) ∩ M = 1; since M ≤ ζC, γ_n(C)=1, so C is nilpotent. C is finitely generated because |G:C| is finite, so ζC is finitely generated abelian. Some power (ζC)^m is torsion-free, but intersects M trivially, forcing (ζC)^m = 1, so C is finite, hence G is finite.",
+    "depends_on": [
+      "zorns lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "refinement_to_an_alpha_composition_series",
+    "name": "Refinement to an Alpha-Composition Series",
+    "name_norm": "refinement to an alpha-composition series",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "080"
+    ],
+    "statement": "Every a-series can be refined to an a-composition series.",
+    "proof_sketch": "Consider the set of all refinements of the given a-series, partially ordered by refinement. For any chain, construct an upper bound by taking unions of lower terms and intersections of upper terms. Zorn's Lemma yields a maximal refinement, which is an a-composition series.",
+    "depends_on": [
+      "zorns lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "higman_embedding_theorem",
+    "name": "Higman Embedding Theorem",
+    "name_norm": "higman embedding theorem",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "080"
+    ],
+    "statement": "A finitely generated group embeds into a finitely presented group if and only if it is recursively presented.",
+    "proof_sketch": "Simulate the recursive enumeration of relations within a finitely presented group using HNN-extensions and free products.",
+    "depends_on": [
+      "recursive functions",
+      "free groups"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "short_exact_sequence_for_two_open_sets",
+    "name": "Proposition 15.2: Short Exact Sequence for Two Open Sets",
+    "name_norm": "short exact sequence for two open sets",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "082"
+    ],
+    "statement": "Let X = U ∪ V be the union of two open sets. There is a short exact sequence of singular chains: 0 → S_q(U ∩ V) → S_q(U) ⊕ S_q(V) → S^U_q(X) → 0.",
+    "proof_sketch": "Proof referenced but not provided in this excerpt.",
+    "depends_on": [
+      "singular chains"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "cubic_gauss_sum_cubed",
+    "name": "Cubic Gauss sum cubed",
+    "name_norm": "cubic gauss sum cubed",
+    "type": "Corollary",
+    "num_books": 1,
+    "books": [
+      "084"
+    ],
+    "statement": "If χ is a cubic character, then g(χ)^3 = p J(χ,χ).",
+    "proof_sketch": "Special case of Proposition 8.3.3 with n = 3. The product on the right has only one term J(χ,χ), and χ(-1) = 1 because χ is a cubic character.",
+    "depends_on": [
+      "χ(-1) = χ((-1)^3) = 1"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "clearing_denominators_for_algebraic_numbers",
+    "name": "Clearing Denominators for Algebraic Numbers",
+    "name_norm": "clearing denominators for algebraic numbers",
+    "type": "Lemma",
+    "num_books": 1,
+    "books": [
+      "084"
+    ],
+    "statement": "If β ∈ F, there is a nonzero integer b such that bβ ∈ D.",
+    "proof_sketch": "β satisfies a₀βⁿ + a₁βⁿ⁻¹ + … + aₙ = 0 with aᵢ∈ℤ, a₀≠0. Multiply by a₀ⁿ⁻¹ to see a₀β is an algebraic integer.",
+    "depends_on": [
+      "algebraic integer"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "biquadratic_reciprocity_for_primary_elements_with_coprime_co",
+    "name": "Biquadratic reciprocity for primary elements with coprime coordinates",
+    "name_norm": "biquadratic reciprocity for primary elements with coprime coordinates",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "084"
+    ],
+    "statement": "If (a, b) = 1, (c, d) = 1, then χ_π(λ) = χ_λ(π) (-1)^{((a-1)/2)((c-1)/2)}.",
+    "proof_sketch": "From the congruences cπ ≡ ae+bd (mod λ) and aπ ≡ ae+bd (mod π) one obtains χ_λ(c)χ_λ(π) = χ_λ(ae+bd) and χ_π(a)χ_π(λ) = χ_π(ae+bd). Multiplying the first by the conjugate of the second yields the reciprocity relation, with the sign factor arising from computing the terms on the right when a, c, ae+bd are nonunits.",
+    "depends_on": [
+      "general properties"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "existence_of_ideal_prime_to_a_fixed_ideal_in_every_ideal_cla",
+    "name": "Existence of ideal prime to a fixed ideal in every ideal class",
+    "name_norm": "existence of ideal prime to a fixed ideal in every ideal class",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "084"
+    ],
+    "statement": "Let K be an algebraic number field, D its ring of integers, and M ⊂ D a fixed ideal. Then every ideal class in K contains an ideal that is relatively prime to M.",
+    "proof_sketch": "Given an ideal class represented by A, construct an ideal C with (C, M) = 1 and A⁻¹ = C. Let {P₁, P₂, ..., P_t} be the primes dividing M but not A. For each prime P dividing A, let a(P) = ord_P(A). Choose π(P) ∈ P^{a(P)} \\ P^{a(P)+1}. Use the Chinese Remainder Theorem to find α ∈ D such that α ≡ π(P) (mod P^{a(P)+1}) for P|A, and α ≡ 1 (mod P_i) for i = 1,...,t. Then (α) = A C with (C, M) = 1, so the inverse class of A contains C prime to M. Consequently every ideal class contains an ideal prime to M.",
+    "depends_on": [
+      "chinese remainder theorem"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "gelfond_schneider_theorem",
+    "name": "Gelfond-Schneider Theorem",
+    "name_norm": "gelfond-schneider theorem",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "106"
+    ],
+    "statement": "If α and β are algebraic numbers with α ≠ 0, 1 and β irrational, then α^β is transcendental.",
+    "proof_sketch": "Using the method of Siegel–Shidlovsky or Gel'fond's original approach: assume algebraic and construct an auxiliary function to derive a contradiction by bounding derivatives and using arithmetic properties.",
+    "depends_on": [
+      "algebraic numbers",
+      "transcendence",
+      "exponential function"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "liouvilles_theorem_diophantine_approximation",
+    "name": "Liouville's Theorem (Diophantine Approximation)",
+    "name_norm": "liouvilles theorem (diophantine approximation",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "106"
+    ],
+    "statement": "If α is an algebraic number of degree d>1, there exists a constant c(α)>0 such that for all rational p/q, |α - p/q| > c(α) q^(-d).",
+    "proof_sketch": "Let f be the minimal polynomial of α. By the mean value theorem, |f(p/q)| ≤ |α-p/q| max|f'|. Since f(p/q) is a nonzero rational with denominator at most q^d, its absolute value is at least 1/q^d, giving the bound.",
+    "depends_on": [
+      "mean value theorem",
+      "minimal polynomials"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "corollary_on_s_units_modulo_roots_of_unity",
+    "name": "Corollary on S-units modulo roots of unity",
+    "name_norm": "corollary on s-units modulo roots of unity",
+    "type": "corollary",
+    "num_books": 1,
+    "books": [
+      "110"
+    ],
+    "statement": "Let k be a number field and S a finite subset of M_k containing the archimedean absolute values. Then k_s modulo the group of roots of unity in k is a free abelian group on s − 1 generators.",
+    "proof_sketch": "The kernel of the log map is the group of roots of unity in k (elements with all absolute values bounded form a finite group). The image is a free abelian group on s − 1 generators; the exact sequence yields the result.",
+    "depends_on": [
+      "unit theorem"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "schwartz_space_is_a_vector_space",
+    "name": "Schwartz Space is a Vector Space",
+    "name_norm": "schwartz space is a vector space",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "110"
+    ],
+    "statement": "The Schwartz space S is a vector space over the complex numbers C.",
+    "proof_sketch": "Clear from the definition; the sum of two rapidly decaying C^∞ functions and scalar multiples remain rapidly decaying C^∞.",
+    "depends_on": [
+      "schwartz space"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "differentiation_under_the_integral_sign",
+    "name": "Differentiation Under the Integral Sign",
+    "name_norm": "differentiation under the integral sign",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "110"
+    ],
+    "statement": "For suitable functions K(x,y) (e.g., Schwartz functions in x uniformly in y), ∂/∂y_j ∫ K(x,y) dx = ∫ ∂/∂y_j K(x,y) dx, provided the partial derivatives of K exist, are continuous, and bounded by an absolutely integrable function of x over R^n, independent of y.",
+    "proof_sketch": "Apply the mean value theorem to the difference quotient. Split the integral into a finite region and a tail. The tail is made small using the absolute integrability of the derivative bound. On the finite region, uniform continuity of the derivative forces the difference between the difference quotient and the derivative to be small as h → 0.",
+    "depends_on": [
+      "schwartz space"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "artin_reciprocity_law",
+    "name": "Artin Reciprocity Law",
+    "name_norm": "artin reciprocity law",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "110"
+    ],
+    "statement": "Let K/k be an abelian extension. There exists an admissible cycle c and a subgroup H of the ideal group I(c) containing the principal ideals P_c such that the Artin symbol p → (p, K/k) induces an isomorphism I(c)/H ≅ Gal(K/k), extended to all fractional ideals by multiplicativity.",
+    "proof_sketch": "Not provided in this excerpt; assumed known.",
+    "depends_on": [
+      "class field theory"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "characterisation_of_i_via_truncation_i",
+    "name": "Characterisation of I via truncation I'",
+    "name_norm": "characterisation of i via truncation i",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "133"
+    ],
+    "statement": "Let I be a homogeneous ideal, and let I' = I ∩ (Z₀,…,Zₙ)^k (the truncation). Then a polynomial F lies in I if and only if the product of F with every homogeneous polynomial of sufficiently high degree lies in I'.",
+    "proof_sketch": "F ∈ I implies its homogeneous components are in I, so multiplying by high-degree monomials pushes them into I'. Conversely, if F·G ∈ I' ⊂ I for all high-degree G, using Noetherianity one can show F ∈ I; the text gives the idea via the saturation.",
+    "depends_on": [
+      "homogeneous ideal",
+      "truncation i"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "ceiling_floor_identity",
+    "name": "Ceiling-Floor Identity",
+    "name_norm": "ceiling-floor identity",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "138"
+    ],
+    "statement": "⌈x⌉ = -⌊-x⌋.",
+    "proof_sketch": "By definition, ⌊-x⌋ is the largest integer ≤ -x, so -⌊-x⌋ is the smallest integer ≥ x, which is exactly ⌈x⌉.",
+    "depends_on": [
+      "floor function",
+      "ceiling function"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "positive_definite_quadratic_forms_as_gram_matrices",
+    "name": "Positive Definite Quadratic Forms as Gram Matrices",
+    "name_norm": "positive definite quadratic forms as gram matrices",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "138"
+    ],
+    "statement": "(1) If Q is the matrix of a positive definite quadratic form, then Q is the Gram matrix of some lattice basis, i.e. there exists a matrix B ∈ GL_n(R) such that Q = B^t B. (2) The Gram matrix of a lattice basis b_i determines this basis uniquely up to isometry. In other words, if the b_i and the b'_i have the same Gram matrix, then the b'_i can be obtained from the b_i by an orthogonal transformation. In matrix terms, B' = K B where K is an orthogonal matrix.",
+    "proof_sketch": "Take B as the coordinate matrix of a basis on an orthonormal basis of E; then Q = B^t B. For uniqueness up to isometry, if two bases have the same Gram matrix, their coordinate matrices satisfy B'^t B' = B^t B, so (B' B^{-1})^t (B' B^{-1}) = I, hence B' = K B with K orthogonal.",
+    "depends_on": [
+      "positive definite quadratic form",
+      "gram matrix",
+      "orthogonal matrix",
+      "lattice basis"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "sum_of_character_values",
+    "name": "Sum of Character Values",
+    "name_norm": "sum of character values",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "138"
+    ],
+    "statement": "Let χ be a Dirichlet character modulo q. (i) If χ ≠ χ₀, then ∑_{x∈(ℤ/qℤ)^*} χ(x) = 0. (ii) Dually, if x ≢ 1 (mod q), then ∑_{χ} χ(x) = 0, where the sum runs over all Dirichlet characters modulo q.",
+    "proof_sketch": "For (i), choose a with χ(a) ≠ 1 and let S = ∑_x χ(x); then χ(a)S = ∑_x χ(ax) = S, so (χ(a)-1)S = 0, hence S=0. For (ii), apply the same argument to the dual group of characters.",
+    "depends_on": [
+      "dirichlet character"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "zero_in_localizations",
+    "name": "Zero in localizations",
+    "name_norm": "zero in localizations",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "a. If m ∈ M, then m = 0 if and only if m goes to zero in each localization M_m at a maximal ideal m of R. b. M = 0 if and only if M_m = 0 for each maximal ideal m of R.",
+    "proof_sketch": "a. The annihilator I of m is not contained in m iff m becomes zero in M_m. m=0 iff I = R iff I is contained in no maximal ideal (using Zorn's lemma). b. Apply a to every element of M.",
+    "depends_on": [
+      "zorns lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "general_nullstellensatz",
+    "name": "General Nullstellensatz",
+    "name_norm": "general nullstellensatz",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "Let R be a Jacobson ring. If S is a finitely generated R-algebra, then S is a Jacobson ring. Moreover, if n ⊂ S is a maximal ideal, then m = n ∩ R is a maximal ideal of R, and S/n is a finite extension field of R/m.",
+    "proof_sketch": "The proof proceeds by reducing to the case S = R[x] using Lemma 4.20 and induction on the number of generators. Given a prime P of R[x] and a nonzero b in (R[x])/P with ((R[x])/P)[b⁻¹] a field, one shows (R[x])/P is a field. For the second statement, S/n is a field; its subring R/m is a domain integral over a field, hence a field, and the finite generation makes S/n a finite extension.",
+    "depends_on": [
+      "jacobson ring"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "rabinowitchs_trick_jacobson_criterion",
+    "name": "Rabinowitch's Trick (Jacobson Criterion)",
+    "name_norm": "rabinowitchs trick (jacobson criterion",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "For a ring R, the following are equivalent: (a) R is a Jacobson ring. (b) If P is a prime ideal of R and S = R/P contains a nonzero element b such that S[b⁻¹] is a field, then S is a field.",
+    "proof_sketch": "(a) ⇒ (b): R Jacobson implies S is Jacobson, so the intersection of maximal ideals of S is zero. In S[b⁻¹], primes correspond to primes of S not containing b. Since S[b⁻¹] is a field, b lies in every nonzero prime ideal of S, so (0) is maximal and S is a field. (b) ⇒ (a): Let Q be prime, I the intersection of maximal ideals containing Q. If I ≠ Q, pick x ∈ I \\ Q and apply (b) to S = R/Q with b = x + Q. One shows S[x⁻¹] is a field, forcing S to be a field and contradicting that Q is not maximal.",
+    "depends_on": [
+      "jacobson ring"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "radical_of_annihilator_and_properties_of_parameter_ideals",
+    "name": "Radical of Annihilator and Properties of Parameter Ideals",
+    "name_norm": "radical of annihilator and properties of parameter ideals",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "Let M be a finitely generated module over a ring R, and q an ideal. Then rad(ann(M/qM)) = rad(q + ann M). In particular, if (R, m) is local: (a) q is a parameter ideal for M iff q + ann M ⊇ m^n for some n ≫ 0 iff q is a parameter ideal for R/(ann M); (b) for a short exact sequence 0 → M' → M → M'' → 0, q is a parameter ideal for M iff it is a parameter ideal for both M' and M''; (c) dim M is the minimal number of generators of a parameter ideal for M.",
+    "proof_sketch": "To prove the radical equality, by Corollary 2.12 it is enough that a prime P contains ann(M/qM) iff P ⊇ q + ann M. By Proposition 2.1, P ⊇ ann(M/qM) iff (M/qM)_P ≠ 0. Nakayama's lemma gives (M/qM)_P = M_P/q_P M_P ≠ 0 iff M_P ≠ 0 and q_P ⊆ P_P. By Proposition 2.1 this holds iff P ⊇ ann M and P ⊇ q, i.e. P ⊇ q + ann M. Part (a) follows because rad(q+ann M)=m iff it contains a power of m, and ann(R/(ann M)/q(R/(ann M))) = q+ann M. Part (b) uses the induced exact sequence M'/qM' → M/qM → M''/qM'' → 0; finite length lifts from M' and M'' to M. Part (c): dim M = dim R/(ann M), so Corollary 10.7 via (a) yields the minimal number of generators.",
+    "depends_on": [
+      "nakayamas lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "dimension_equals_transcendence_degree_for_affine_domains",
+    "name": "Dimension equals transcendence degree for affine domains",
+    "name_norm": "dimension equals transcendence degree for affine domains",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If R is an affine domain over a field k, then dim R = tr.deg_k R.",
+    "proof_sketch": "Let d = dim R. By Noether normalization (Theorem 13.3), there exists a polynomial subring S = k[X₁, …, X_d] over which R is finite. Then tr.deg_k S = d, and since R is finite over S, tr.deg_k R = tr.deg_k S = d.",
+    "depends_on": [
+      "noether normalization"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "artinian_property_of_monomial_orders",
+    "name": "Artinian Property of Monomial Orders",
+    "name_norm": "artinian property of monomial orders",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "Let F be a free S-module with basis. Any monomial order on F is Artinian (every subset has a least element).",
+    "proof_sketch": "If X is a set of monomials of F, the submodule generated by X is generated by a finite subset Y (since S Noetherian). The least element of Y is the least element of X because every element of X is a multiple of an element of Y.",
+    "depends_on": [
+      "monomial order",
+      "s is noetherian"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "vanishing_of_derivation_on_1",
+    "name": "Vanishing of Derivation on 1",
+    "name_norm": "vanishing of derivation on 1",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "For any derivation d: S → M, d(1) = 0.",
+    "proof_sketch": "Compute d(1·1) = 1·d(1) + 1·d(1) = 2d(1). But d(1·1) = d(1). Hence d(1) = 2d(1), so d(1) = 0.",
+    "depends_on": [
+      "derivation"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "dimension_formula_for_polynomial_rings",
+    "name": "Dimension Formula for Polynomial Rings",
+    "name_norm": "dimension formula for polynomial rings",
+    "type": "Corollary",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "a) If k is a field, dim k[x₁,…,xᵣ] = r. b) For any ring R, dim R[x] = 1 + dim R. c) If P is a prime ideal of R, there exist prime ideals Q of R[x] contracting to P, and for a maximal such Q, dim R[x]Q = 1 + dim R_P.",
+    "proof_sketch": "Part a follows from b by induction. For b, any chain P₁ ⊂ … ⊂ P_d in R yields a chain P₁R[x] ⊂ … ⊂ P_dR[x] ⊂ P_dR[x]+(x), giving dim R[x] ≥ 1+dim R. The reverse inequality follows from part c. For part c, first treat R a field (P=0): R[x] is a PID, maximal Q has codimension 1. In general, localize at P to assume R local with maximal ideal P; any maximal Q containing P contracts to P. Apply Theorem 10.10 to obtain codim Q = 1 + dim R.",
+    "depends_on": [
+      "principal ideal theorem"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "depth_lemma_lemma_18_3",
+    "name": "Depth Lemma (Lemma 18.3)",
+    "name_norm": "depth lemma (lemma 18.3",
+    "type": "Lemma",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "Let (R, P) be a local ring, M a finitely generated R-module, I an ideal of R, and y ∈ P. Then depth((I, y), M) ≤ depth(I, M) + 1.",
+    "proof_sketch": "Let x1,...,xn generate I, set r = depth((I,y),M). By Theorem 17.4, Hi(M ⊗ K(x1,...,xn,y)) = 0 for i < r. By Corollary 17.11 and Nakayama, Hi(M ⊗ K(x1,...,xn)) = 0 for i < r-1. Theorem 17.4 then gives depth(I, M) ≥ r-1, so r ≤ depth(I,M)+1.",
+    "depends_on": [
+      "nakayamas lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "locality_and_completion_of_cohen_macaulay_rings_proposition_",
+    "name": "Locality and Completion of Cohen–Macaulay Rings (Proposition 18.8)",
+    "name_norm": "locality and completion of cohen–macaulay rings (proposition 18.8",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "R is Cohen–Macaulay iff R_P is Cohen–Macaulay for every maximal ideal P of R, and then R_Q is Cohen–Macaulay for every prime Q of R. A local ring is Cohen–Macaulay iff its completion is Cohen–Macaulay.",
+    "proof_sketch": "If R is CM and Q is prime, codim Q_Q = codim Q = depth(Q,R) ≤ depth Q_Q ≤ codim Q_Q by Proposition 18.2, so equality holds and R_Q is CM. If R_P is CM for all maximal P, Lemma 18.1 gives depth(P,R)=depth(P_P,R_P) and codim P = codim P_P, so R is CM. For local (R,P) with completion (R̂,P̂), codim P = codim P̂. If x₁,…,xₙ generate P, the Koszul complex over R̂ is K̂ = R̂ ⊗ K(x₁,…,xₙ). Flatness (Theorem 7.2b) and Nakayama (Theorem 7.2a) ensure nonzero finitely generated R-modules remain nonzero after tensoring, so depth(P,R)=depth(P̂,R̂) by Theorem 17.4.",
+    "depends_on": [
+      "nakayamas lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "uniqueness_of_colimits_up_to_isomorphism",
+    "name": "Uniqueness of colimits up to isomorphism",
+    "name_norm": "uniqueness of colimits up to isomorphism",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If a colimit of a diagram F exists, it is unique up to a unique isomorphism compatible with the cocone maps.",
+    "proof_sketch": "If (A, ψ) and (A', ψ') are colimits, the universal property yields unique maps γ: A → A' and γ': A' → A with γ∘ψ_B = ψ'_B and γ'∘ψ'_B = ψ_B. Then γ'∘γ: A → A satisfies (γ'∘γ)∘ψ_B = ψ_B, as does the identity id_A. Uniqueness in the universal property forces γ'∘γ = id_A. Similarly γ∘γ' = id_A', so γ is an isomorphism.",
+    "depends_on": [
+      "colimit of a diagram"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "colimit_as_a_functor",
+    "name": "Colimit as a functor",
+    "name_norm": "colimit as a functor",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If A has all colimits of diagrams of shape B, then colim defines a functor lim: Fun(B, A) → A from the category of functors (with natural transformations) sending a diagram F to its colimit and a natural transformation α: F → G to the unique morphism lim α: lim F → lim G induced by the composite cocone F(B) → G(B) → lim G.",
+    "proof_sketch": "For a natural transformation α: F → G, the maps F(B) → G(B) → lim G form a cocone from F to lim G. The universal property of lim F gives a unique map lim α: lim F → lim G. Functoriality follows from uniqueness of the induced map.",
+    "depends_on": [
+      "colimit of a diagram"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "homology_is_well_defined_on_k_m",
+    "name": "Homology is well-defined on K(M)",
+    "name_norm": "homology is well-defined on k(m",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "The nth homology module H_n(X) is well-defined for any object X in K(M), because homotopic maps induce identical maps on homology.",
+    "proof_sketch": "If f ~ g, then f - g = hd + dh, so H(f) = H(g). Thus homology depends only on the homotopy class.",
+    "depends_on": [
+      "the homotopy category of complexes"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "five_term_exact_sequence_tor",
+    "name": "Five-Term Exact Sequence (Tor)",
+    "name_norm": "five-term exact sequence (tor",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If 0 → A → B → C → 0 is a short exact sequence of modules and M is a module, then there is an exact sequence Tor_1(A,M) → Tor_1(B,M) → Tor_1(C,M) → A⊗M → B⊗M → C⊗M → 0.",
+    "proof_sketch": "Take a projective resolution of M and tensor with the short exact sequence; the resulting exact sequence of complexes gives a long exact sequence in homology, whose low-degree terms yield the five-term exact sequence.",
+    "depends_on": [
+      "definition of tor",
+      "long exact homology sequence"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "matroid_basis_cardinality_lemma",
+    "name": "Matroid Basis Cardinality Lemma",
+    "name_norm": "matroid basis cardinality lemma",
+    "type": "Lemma",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If B is a matroid, then all bases in B have the same cardinality.",
+    "proof_sketch": "Let r be the minimal cardinality among bases. For a basis B, prove by downward induction on the number of elements B shares with a basis B' of size r. If they share r elements, B = B' since no basis contains another. If they share s < r elements, choose b' ∈ B' \\ B. By the exchange property, there is a basis (B' \\ {b'}) ∪ {b} of size r sharing s+1 elements with B.",
+    "depends_on": [
+      "matroid",
+      "exchange property"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "absolute_convergence_of_local_height_series_on_e_mathbb_r_",
+    "name": "Absolute Convergence of Local Height Series on $E(\\mathbb{R})$",
+    "name_norm": "absolute convergence of local height series on $e(\\mathbb{r})$",
+    "type": "Theorem",
+    "num_books": 1,
+    "books": [
+      "151"
+    ],
+    "statement": "For an elliptic curve $E/\\mathbb{R}$ given by a Weierstrass equation, there exist constants $C_1, C_2 > 0$ such that $C_1 \\le \\frac{|z([2^n]P)|}{|x([2^n]P)|^2} \\le C_2$ for all $P \\in E(\\mathbb{R})$ and all $n$, and the series $\\sum_{n=0}^{\\infty} \\frac{1}{4^n} \\log|z([2^n]P)|$ is absolutely convergent.",
+    "proof_sketch": "Exercise 6.9(b): bound $z([2]P)$ in terms of $x(P)$ and iterate.",
+    "depends_on": [
+      "weierstrass equation",
+      "duplication formula"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "restriction_of_a_covering_is_a_covering",
+    "name": "Restriction of a Covering is a Covering",
+    "name_norm": "restriction of a covering is a covering",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "If p: Y → X is a covering and X' is any subspace of X, then the restriction p': Y' = p^{-1}(X') → X' is a covering.",
+    "proof_sketch": "For x in X', let N be an evenly covered neighborhood in X; then N ∩ X' is evenly covered by the restriction.",
+    "depends_on": [
+      "covering map",
+      "subspace topology"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "poincar_duality_for_compact_oriented_manifolds",
+    "name": "Poincaré Duality for Compact Oriented Manifolds",
+    "name_norm": "poincaré duality for compact oriented manifolds",
+    "type": "corollary",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "If X is a compact oriented n-manifold, then the pairing H^k X × H^{n-k} X -> R defined by (ω, μ) ↦ ∫_X ω ∧ μ is a perfect pairing: for every linear functional φ on H^{n-k} X there exists a unique ω ∈ H^k X such that φ(μ) = ∫_X ω ∧ μ for all μ ∈ H^{n-k} X.",
+    "proof_sketch": "Follows from the Duality Theorem and the nondegeneracy of the integration pairing.",
+    "depends_on": [
+      "duality theorem"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "lemma_c_10_surjectivity_of_",
+    "name": "Lemma C.10 (Surjectivity of φ*)",
+    "name_norm": "lemma c.10 (surjectivity of φ*",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "If φ: A → A' is one-to-one, then φ*: Hom(A', ℝ) → Hom(A, ℝ) is surjective.",
+    "proof_sketch": "Fix a maximal set {x_α} in A' such that no nontrivial integer linear combination lies in im(φ). For f ∈ Hom(A, ℝ) and any x ∈ A', choose n ≠ 0, y ∈ A with n x = Σ n_α x_α + φ(y). Define g(x) = (1/n) f(y). Show g is well-defined, a homomorphism, and φ*(g) = f.",
+    "depends_on": [
+      "induced linear map φ*",
+      "zorns lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "number_of_f_homomorphisms_equals_separable_degree",
+    "name": "Lemma 8.9: Number of F-homomorphisms Equals Separable Degree",
+    "name_norm": "number of f-homomorphisms equals separable degree",
+    "type": "Lemma",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "Let K be a finite extension of F, and let S be the separable closure of F in K. Then [S : F] is equal to the number of F-homomorphisms from K to an algebraic closure of F.",
+    "proof_sketch": "Embed K in an algebraic closure M. By the primitive element theorem, S = F(α) for some α, with r = [S : F]. The minimal polynomial of α over F has r distinct roots α₁,…,αᵣ in M. The maps σᵢ: S → M defined by f(α) ↦ f(αᵢ) are exactly the r distinct F-homomorphisms from S to M. Since K/S is purely inseparable, K is normal over S, so each σᵢ extends to an F-homomorphism K → M.",
+    "depends_on": [
+      "primitive element theorem"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "intermediate_fields_of_cyclic_kummer_extensions",
+    "name": "Corollary 9.7: Intermediate Fields of Cyclic Kummer Extensions",
+    "name_norm": "intermediate fields of cyclic kummer extensions",
+    "type": "corollary",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "Let K/F be a cyclic extension of degree n, and suppose F contains a primitive n-th root of unity. If K = F(n√a) with a ∈ F, then every intermediate field of K/F is of the form F(m√a) for some divisor m of n.",
+    "proof_sketch": "Let σ generate Gal(K/F). Subgroups are ⟨σ^t⟩ for t|n; write n=tm. Then σ^t fixes a^m=(n√a)^m, so F(a^m) ⊆ Fix(σ^t). By Prop 9.6, order of a^m F* is m, so [F(a^m):F]=m. The Fundamental Theorem gives [Fix(σ^t):F]=m, thus they are equal.",
+    "depends_on": [
+      "fundamental theorem of galois theory"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "radical_extensions_are_n_radical",
+    "name": "Radical Extensions are n-Radical",
+    "name_norm": "radical extensions are n-radical",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "If K = F(a1, ..., ar) is a radical extension with integers n1, ..., nr as in the definition, then K is an n-radical extension of F for n = n1 ··· nr.",
+    "proof_sketch": "Since a_i ∈ F(a1, ..., a_{i-1}) and n is a multiple of each n_i, we have a_i^n ∈ F(a1, ..., a_{i-1}) for all i, satisfying the condition for an n-radical extension with uniform n.",
+    "depends_on": [
+      "radical extension"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "chain_characterization_of_radical_extensions",
+    "name": "Chain Characterization of Radical Extensions",
+    "name_norm": "chain characterization of radical extensions",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "K is a radical extension of F if and only if there is a chain of fields F = F0 ⊆ F1 ⊆ ... ⊆ Fr = K such that F_{i+1} = F_i(a_i) for some a_i ∈ F_{i+1} with a_i^{n_i} ∈ F_i for some integer n_i.",
+    "proof_sketch": "Forward direction: Set F_i = F(a1,...,a_i). Then F_{i+1} = F_i(a_{i+1}) with a_{i+1}^{n_{i+1}} ∈ F_i. Converse: If a chain exists, then a_i ∈ F_i, so K = F(a1,...,ar) and the n_i satisfy the radical extension condition.",
+    "depends_on": [
+      "radical extension"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "transitivity_of_radical_extensions",
+    "name": "Transitivity of Radical Extensions",
+    "name_norm": "transitivity of radical extensions",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "If K/F is a radical extension and L/K is a radical extension, then L/F is a radical extension.",
+    "proof_sketch": "Let K = F(a1,...,ar) with a_i^{n_i} ∈ F(a1,...,a_{i-1}) and L = K(b1,...,bs) with b_j^{m_j} ∈ K(b1,...,b_{j-1}). Adjoining all a_i then all b_j gives a chain from F to L satisfying the radical condition. The combined chain yields a radical extension from F to L.",
+    "depends_on": [
+      "radical extension"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "characteristic_of_an_integral_domain",
+    "name": "Characteristic of an Integral Domain",
+    "name_norm": "characteristic of an integral domain",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "If R is an integral domain, then its characteristic char(R) is either 0 or a prime number.",
+    "proof_sketch": "Consider the map φ: Z → R sending n to n·1. Its image is a subring, and Z/ker(φ) is an integral domain, so ker(φ) is a prime ideal. Since ker(φ) is generated by char(R), char(R) must be 0 or prime.",
+    "depends_on": [
+      "integral domain",
+      "ring homomorphism",
+      "prime ideal"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "prime_implies_irreducible",
+    "name": "Prime implies Irreducible",
+    "name_norm": "prime implies irreducible",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "If a is a prime element in an integral domain R, then a is irreducible.",
+    "proof_sketch": "Suppose a = bc. Then a divides bc. Since a is prime, a divides b or a divides c. If a|b, then b = ad, so a = adc, implying dc = 1, so c is a unit. Similarly, if a|c, then b is a unit. Hence a is irreducible.",
+    "depends_on": [
+      "prime element",
+      "irreducible element"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "irreducibles_are_prime_in_a_ufd",
+    "name": "Irreducibles are Prime in a UFD",
+    "name_norm": "irreducibles are prime in a ufd",
+    "type": "Lemma",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "If R is a UFD and π ∈ R is irreducible, then π is prime.",
+    "proof_sketch": "Suppose π divides ab, so ab = πc. Factor c into irreducibles: c = θ₁...θ_k. Then πθ₁...θ_k is a factorization of ab into irreducibles. By unique factorization, the irreducible π must appear (up to associates) in the factorization of a or b. Thus π divides a or π divides b.",
+    "depends_on": [
+      "unique factorization domain",
+      "prime element",
+      "irreducible element"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "determination_of_f_automorphisms_by_generators",
+    "name": "Determination of F-automorphisms by generators",
+    "name_norm": "determination of f-automorphisms by generators",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "Let K = F(X) be a field extension of F generated by a subset X of K. If σ, τ ∈ Gal(K/F) satisfy σ|_X = τ|_X, then σ = τ. Thus, F-automorphisms of K are uniquely determined by their action on a generating set.",
+    "proof_sketch": "Any a ∈ K can be written as a rational function f(x_1,…,x_n)/g(x_1,…,x_n) with x_i ∈ X and coefficients in F. Since σ, τ fix F and respect addition/multiplication, applying them to this expression yields the same result if they agree on X.",
+    "depends_on": [
+      "galois group"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "real_square_roots_and_odd_degree_polynomials_have_roots",
+    "name": "Real square roots and odd degree polynomials have roots",
+    "name_norm": "real square roots and odd degree polynomials have roots",
+    "type": "Lemma",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "1. If f(x) = x^2 - a for some a > 0, then f has a root in ℝ. Therefore, every nonnegative real number has a real square root. 2. If deg(f) is odd, then f has a root in ℝ. Consequently, the only odd degree extension of ℝ is ℝ itself.",
+    "proof_sketch": "For part 1, f(0) < 0 and f(u) > 0 for large u; by the Intermediate Value Theorem there is c ∈ [0,u] with f(c) = 0. For part 2, assuming positive leading coefficient, limits as x→∞ and x→-∞ go to ∞ and -∞; the Intermediate Value Theorem gives a real root. If L/ℝ is an odd degree extension, take a ∈ L∖ℝ; then [ℝ(a):ℝ] is odd, so the minimal polynomial of a has odd degree and a real root, forcing it to be linear, so a ∈ ℝ and L = ℝ.",
+    "depends_on": [
+      "intermediate value theorem"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "properties_of_closed_sets",
+    "name": "Properties of closed sets",
+    "name_norm": "properties of closed sets",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "In a topological space X, the closed sets satisfy: (1) X and ∅ are closed; (2) if A and B are closed, then A ∪ B is closed; (3) if {A_i} is a collection of closed sets, then ⋂_i A_i is closed.",
+    "proof_sketch": "Follows immediately from the definition of a topology and DeMorgan's laws: complement of union is intersection of complements, and complement of intersection is union of complements.",
+    "depends_on": [
+      "topological space",
+      "closed set"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "existence_and_extension_of_transcendence_bases",
+    "name": "Theorem 19.14: Existence and Extension of Transcendence Bases",
+    "name_norm": "existence and extension of transcendence bases",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "Let K be a field extension of F. (1) There exists a transcendence basis for K/F. (2) If T ⊆ K such that K/F(T) is algebraic, then T contains a transcendence basis for K/F. (3) If S ⊆ K is algebraically independent over F, then S is contained in a transcendence basis of K/F. (4) If S ⊆ T ⊆ K, with S algebraically independent over F and K/F(T) algebraic, then there is a transcendence basis X for K/F with S ⊆ X ⊆ T.",
+    "proof_sketch": "Statement (4) implies the others by suitable choices of S and T. To prove (4), consider the set of all algebraically independent subsets of T containing S, ordered by inclusion. By Zorn’s lemma it has a maximal element M. If K were not algebraic over F(M), then F(T) would not be algebraic over F(M), so some t∈T is transcendental over F(M), and by Lemma 19.13, M∪{t} is algebraically independent, contradicting maximality. Hence K is algebraic over F(M), making M a transcendence basis within the desired bounds.",
+    "depends_on": [
+      "zorns lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "chain_complete_subset_collections_have_maximal_elements",
+    "name": "Chain-complete subset collections have maximal elements",
+    "name_norm": "chain-complete subset collections have maximal elements",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "Let X be a set and let S be a nonempty collection of subsets of X, partially ordered by inclusion. If for every chain T in S the union ∪T is an element of S, then S has a maximal element.",
+    "proof_sketch": "For any chain T, ∪T is an upper bound for T (since each t ∈ T satisfies t ⊆ ∪T) and ∪T ∈ S by hypothesis. Zorn's Lemma then implies S has a maximal element.",
+    "depends_on": [
+      "zorns lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "chain_complete_partial_function_collections_have_maximal_ele",
+    "name": "Chain-complete partial function collections have maximal elements",
+    "name_norm": "chain-complete partial function collections have maximal elements",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "Let X,Y be sets and let S be a nonempty collection of pairs (A,f) where A ⊆ X and f: A → Y, ordered by (A,f) ≤ (B,g) iff A ⊆ B and g|A = f. If for every chain T in S the pair (∪T, h) with h defined by h(x) = g(x) whenever (X,g) ∈ T and x ∈ X is an element of S, then S has a maximal element.",
+    "proof_sketch": "For a chain T, (M, h) with M = ∪T is an upper bound in S by construction (the function h is well-defined because T is a chain). By hypothesis (M,h) ∈ S, so Zorn's Lemma applies.",
+    "depends_on": [
+      "zorns lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "independence_of_fiber_restriction_map_for_locally_compact_sp",
+    "name": "Independence of fiber restriction map for locally compact spaces",
+    "name_norm": "independence of fiber restriction map for locally compact spaces",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "170"
+    ],
+    "statement": "Let X be a locally compact Hausdorff space and T a compact connected Hausdorff space. Then the induced homomorphism i_t^* : H_c^*(X × T; F × T) → H_c^*(X; F) is independent of the choice of t ∈ T.",
+    "proof_sketch": "For any cohomology class a, define K(a) = {t ∈ T : a ∈ Ker i_t^*}. Using 10.6, K(a) is open. Given t and β = i_t^*(a), the class a − π^*β lies in Ker i_t^*, so t ∈ K(a − π^*β). Consequently, for s near t, i_s^*(a) = i_s^*(π^*β) = β, showing s ↦ i_s^*(a) is locally constant. Since T is connected, the value is constant.",
+    "depends_on": [
+      "notation"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "leray_sheaves_for_vector_bundles",
+    "name": "Leray Sheaves for Vector Bundles",
+    "name_norm": "leray sheaves for vector bundles",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "170"
+    ],
+    "statement": "Let ξ be an n-plane bundle over a space Y with total space U. Identify Y with the zero section, set U₀ = U - Y, and let π: U → Y, π₀ = π|U₀. Then the Leray sheaf J^q(π; L) is the constant sheaf with stalks L for q = 0 and 0 otherwise; J^q(π, π₀; L) is the locally constant sheaf with stalks H^q(ℝ^n, ℝ^n - {0}; L).",
+    "proof_sketch": "Using an admissible local trivialisation V × ℝ^n, homotopy invariance reduces the computation to the disk relative to its boundary. Then 4.2 and 7.1 imply the constant and locally constant nature of the sheaves, with the claimed stalks.",
+    "depends_on": [
+      "homotopy invariance"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "transfer_isomorphism_for_sheaves_of_l_modules_prime_characte",
+    "name": "Transfer isomorphism for sheaves of L-modules (prime characteristic)",
+    "name_norm": "transfer isomorphism for sheaves of l-modules (prime characteristic",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "170"
+    ],
+    "statement": "Let ℱ be a sheaf of L-modules, where L is a field whose characteristic is relatively prime to the order of G. Then the map π*: H_Φ^*(X/G; ℱ) → H_Φ^*(X; π*ℱ)^G is an isomorphism.",
+    "proof_sketch": "From the relations μ* π*(b) = (ord G) b and π* μ*(a) = Σ g*(a), the image of π* lies in the G-invariants. Since ord G is invertible in L, multiplication by ord G is an isomorphism, hence π* is injective and its image is exactly the invariant subgroup, yielding the isomorphism.",
+    "depends_on": [
+      "transfer homomorphism"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "finite_group_action_preserves_cohomological_local_connectedn",
+    "name": "Finite group action preserves cohomological local connectedness over a field of prime characteristic",
+    "name_norm": "finite group action preserves cohomological local connectedness over a field of prime characteristic",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "170"
+    ],
+    "statement": "If X is a Hausdorff space and n-clc_L (cohomologically locally connected of degree n over a field L) with char(L) relatively prime to ord G, then the orbit space X/G is also n-clc_L.",
+    "proof_sketch": "For n=0 the statement is clear. For n>0, use the transfer to relate cohomology of neighborhoods in X and X/G. Given a point in X/G and an open neighborhood, lift to X; the G-action and invertibility of |G| in L allow one to average cocycles, showing that the relevant cohomological conditions descend from X to X/G (details in the surrounding proof sketch).",
+    "depends_on": [
+      "transfer homomorphism"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "nakayamas_lemma_corollary_submodule_equality",
+    "name": "Nakayama's Lemma Corollary (Submodule Equality)",
+    "name_norm": "nakayamas lemma corollary (submodule equality",
+    "type": "corollary",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "Let Q be a local ring with maximal ideal m, let M be a finitely generated Q-module, and let N be a submodule of M. If M = mM + N, then M = N.",
+    "proof_sketch": "Observe that m(M/N) = (mM + N)/N. The condition M = mM + N gives m(M/N) = M/N. Applying Nakayama's Lemma to M/N yields M/N = 0, hence M = N.",
+    "depends_on": [
+      "nakayamas lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "local_convergence_of_fixed_point_iteration",
+    "name": "Local convergence of fixed point iteration",
+    "name_norm": "local convergence of fixed point iteration",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "If g is differentiable at a fixed point z (g(z) = z) and |g'(z)| < 1, then the iteration z_{k+1} = g(z_k) converges to z for all starting values z_0 sufficiently close to z. Moreover, the smaller |g'(z)| is, the faster the convergence; the case g'(z) = 0 is especially favorable.",
+    "proof_sketch": "A special case of the Contraction Mapping Theorem; the proof shows that near z the map g is a contraction with constant |g'(z)|+ε < 1.",
+    "depends_on": [
+      "contraction mapping theorem"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "gr_bner_basis_algorithm_for_hilbert_bases",
+    "name": "Gröbner Basis Algorithm for Hilbert Bases",
+    "name_norm": "gröbner basis algorithm for hilbert bases",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "Let G be a Gröbner basis for I with respect to any elimination order > for which all z_i, t > v_j, and all v_j > w_k. Let S be the subset of G consisting of binomials v^\\alpha - w^\\alpha for \\alpha \\in Z_{\\ge 0}^N. Then H = \\{ \\alpha : v^\\alpha - w^\\alpha \\in S \\} is the Hilbert basis for K.",
+    "proof_sketch": "Idea similar to Theorem (1.11); see [Stu1] for full exposition.",
+    "depends_on": [
+      "hilbert basis"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "radical_ideal_property",
+    "name": "Radical Ideal Property",
+    "name_norm": "radical ideal property",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "For every ideal I ⊂ k[x1, ..., xn], √I is an ideal containing I.",
+    "proof_sketch": "See [CLO], Chapter 4, §2.",
+    "depends_on": [
+      "ideal",
+      "radical of an ideal"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "identity_value_of_order_function",
+    "name": "Identity Value of Order Function",
+    "name_norm": "identity value of order function",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "ρ(1) = 0, and ρ(f) = 0 if and only if f is a nonzero constant in Fq.",
+    "proof_sketch": "By the product axiom ρ(1) = ρ(1·1) = ρ(1)+ρ(1) forces ρ(1)=0. If ρ(f)=0, write f in a basis with distinct ρ-values; using linear independence and the bound on ρ of sums forces f to be constant.",
+    "depends_on": [
+      "order function"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "linear_independence_of_distinct_values",
+    "name": "Linear Independence of Distinct ρ Values",
+    "name_norm": "linear independence of distinct ρ values",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "Any set of elements of R with distinct ρ values is linearly independent over Fq.",
+    "proof_sketch": "Assume a nontrivial linear combination sums to zero. Take the term with maximal ρ-value; by the properties ρ(c·f)=ρ(f) for c≠0 and ρ(f+g) ≤ max(ρ(f),ρ(g)), the maximal ρ-value cannot cancel, contradiction.",
+    "depends_on": [
+      "order function"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "uniqueness_of_products_up_to_isomorphism",
+    "name": "Uniqueness of Products up to Isomorphism",
+    "name_norm": "uniqueness of products up to isomorphism",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "196"
+    ],
+    "statement": "If A and B are both products of the same family {A_i}, then A and B are isomorphic.",
+    "proof_sketch": "By the universal property of A, there is a unique θ: B → A making the product diagrams commute. Symmetrically, there is a unique η: A → B. Then θ η and η θ are morphisms into the products themselves; by uniqueness of the mediating morphism for the identity maps, θ η = id_A and η θ = id_B, so they are isomorphisms.",
+    "depends_on": [
+      "product of a family of objects"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "ker_coker_exact_sequence",
+    "name": "Ker-Coker Exact Sequence",
+    "name_norm": "ker-coker exact sequence",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "196"
+    ],
+    "statement": "Given a commutative diagram with exact columns, set K_i = ker φ_i and L_i = coker φ_i. Then the induced sequence K_1 → K_2 → K_3 → L_1 → L_2 → L_3 is exact.",
+    "proof_sketch": "Form a double complex with the given diagram and zero elsewhere; rows are complexes and columns are short exact. The homology at B_j is K_j and at C_j is L_j. Applying the long exact homology sequence (Theorem 3.3) yields the exact sequence connecting them.",
+    "depends_on": [
+      "long exact homology sequence"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "construction_of_local_coordinate_charts_on_y_",
+    "name": "Construction of local coordinate charts on Y(Γ)",
+    "name_norm": "construction of local coordinate charts on y(γ",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "228"
+    ],
+    "statement": "For a congruence subgroup Γ of SL2(Z) and any point π(τ) ∈ Y(Γ), let U be a neighborhood as in Corollary 2.2.3, set h = |Γτ|, and define δ(z) = (z - τ)/(z - τ̅) (a map taking τ to 0 and τ̅ to ∞). Then ψ(z) = (δ(z))^h identifies points of U exactly under the Γ-action, inducing a homeomorphism ϕ: π(U) → ψ(U) ⊂ C that serves as a local coordinate chart on the modular curve Y(Γ).",
+    "proof_sketch": "By Proposition 2.2.2 the stabilizer Γτ is cyclic of order h, and δ conjugates it to rotations z ↦ e^{2πi d/h} z. Corollary 2.2.3 guarantees that any identification in U comes from Γτ. Hence π(z1) = π(z2) ⇔ δ(z1) = e^{2πi d/h} δ(z2) ⇔ ψ(z1) = ψ(z2). The map ψ is open by the Open Mapping Theorem, yielding a bijective continuous open map ϕ defined by ϕ(π(z)) = ψ(z), which is therefore a homeomorphism.",
+    "depends_on": [
+      "open mapping theorem"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "connectedness_of_x_",
+    "name": "Connectedness of X(Γ)",
+    "name_norm": "connectedness of x(γ",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "228"
+    ],
+    "statement": "The extended upper half-plane H* is connected, and therefore its continuous image X(Γ) is connected.",
+    "proof_sketch": "Assume H* = O1 ∪ O2 with disjoint open sets. Intersecting with connected H forces one to contain H, so the other is contained in Q ∪ {∞}. But any nonempty subset of Q ∪ {∞} cannot be open in H*; thus one is empty, proving H* connected. X(Γ) is a continuous image, hence connected.",
+    "depends_on": [
+      "h is connected"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "hilbert_basis_theorem_special_case_for_polynomial_rings",
+    "name": "Hilbert Basis Theorem (Special Case for Polynomial Rings)",
+    "name_norm": "hilbert basis theorem (special case for polynomial rings",
+    "type": "Theorem",
+    "num_books": 1,
+    "books": [
+      "228"
+    ],
+    "statement": "The ring k[x1, ..., xn] is Noetherian, meaning that all ideals are finitely generated, or equivalently there is no infinite strictly increasing chain I1 ⊂ I2 ⊂ I3 ⊂ · · · of ideals.",
+    "proof_sketch": "Standard proof, e.g., by induction on n; see Fulton [Ful69].",
+    "depends_on": [
+      "hilbert basis theorem"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "relation_of_orders_of_vanishing_under_norm",
+    "name": "Relation of Orders of Vanishing under Norm",
+    "name_norm": "relation of orders of vanishing under norm",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "228"
+    ],
+    "statement": "For any nonzero f ∈ C(X)^*, ν_y(norm_h f) = ∑_{x ∈ h^{-1}(y)} ν_x(f).",
+    "proof_sketch": "Exercise 6.2.2(b).",
+    "depends_on": [
+      "norm map"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "cosets_partition_a_group",
+    "name": "Cosets Partition a Group",
+    "name_norm": "cosets partition a group",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "Let H be a subgroup of a group G. The left cosets of H form a partition of G; the right cosets of H form a partition of G.",
+    "proof_sketch": "Define relation xRy iff xy^{-1} ∈ H. R is reflexive (xx^{-1}=1∈H), symmetric (xy^{-1}∈H ⇒ yx^{-1}=(xy^{-1})^{-1}∈H), transitive (xy^{-1}, yz^{-1}∈H ⇒ xz^{-1}=(xy^{-1})(yz^{-1})∈H). Thus R is an equivalence relation. xRy iff x ∈ Hy, so equivalence classes are right cosets. Left cosets are obtained similarly from xLy iff y^{-1}x ∈ H.",
+    "depends_on": [
+      "left and right cosets"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "uniqueness_of_the_identity_element",
+    "name": "Uniqueness of the Identity Element",
+    "name_norm": "uniqueness of the identity element",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "A binary operation has at most one identity element; if an identity exists, it is unique.",
+    "proof_sketch": "Suppose e and f are both identity elements. Then e = e·f = f, because e is an identity gives e·f = f, and f is an identity gives e·f = e.",
+    "depends_on": [
+      "binary operation",
+      "identity element"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "inverse_of_inverse_and_product_inverse",
+    "name": "Inverse of Inverse and Product Inverse",
+    "name_norm": "inverse of inverse and product inverse",
+    "type": "Proposition 2.2",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "In a multiplicative group: (i) (x^{−1})^{−1} = x. (ii) (x_1 x_2 ⋯ x_n)^{−1} = x_n^{−1} ⋯ x_2^{−1} x_1^{−1}.",
+    "proof_sketch": "From uv = 1 follows v = u^{−1}. Thus x^{−1}x = 1 gives x = (x^{−1})^{−1}. For n=2, (xy)(y^{−1}x^{−1}) = 1, so y^{−1}x^{−1} = (xy)^{−1}; general case by induction.",
+    "depends_on": [
+      "group axioms"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "consequences_of_injectivity_and_surjectivity_for_homomorphis",
+    "name": "Consequences of Injectivity and Surjectivity for Homomorphisms",
+    "name_norm": "consequences of injectivity and surjectivity for homomorphisms",
+    "type": "Corollary",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "Let ϕ: A → B be a homomorphism of groups. If ϕ is injective, then A ≅ Im ϕ. If ϕ is surjective, then B ≅ A/Ker ϕ.",
+    "proof_sketch": "If ϕ is injective, Ker ϕ = {1} and A ≅ A/Ker ϕ ≅ Im ϕ by the First Isomorphism Theorem. If ϕ is surjective, then B = Im ϕ and B ≅ A/Ker ϕ by the same theorem.",
+    "depends_on": [
+      "first isomorphism theorem"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "first_sylow_theorem",
+    "name": "First Sylow Theorem",
+    "name_norm": "first sylow theorem",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "Let G be a finite group and let p be a prime. If p^k divides |G|, then G has a subgroup of order p^k.",
+    "proof_sketch": "First, for abelian G, existence of an element of order p is proved by induction on |G|: if |G|=p it is trivial; otherwise take a non-identity a. If p divides ord(a) we are done; else p divides |G|<a>|, so by induction G/<a> has an element of order p, and its preimage yields an element of order p in G. Then for general finite G, induction on |G|: if p divides |Z(G)|, take a subgroup A of order p in Z(G) (which is normal), then p^{k-1} divides |G/A|; by induction, G/A has a subgroup B/A of order p^{k-1}, so B has order p^k. If p does not divide |Z(G)|, use the class equation to find a conjugacy class C with |C| not divisible by p, so p^k divides the centralizer C(x) for x in C; by induction C(x) has a subgroup of order p^k.",
+    "depends_on": [
+      "class equation",
+      "lagranges theorem"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "free_product_as_a_group",
+    "name": "Free product as a group",
+    "name_norm": "free product as a group",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "If A ∩ B = 1, then the set A * B of all reduced nonempty words in A ∪ B is a group under the operation x . y = red(xy).",
+    "proof_sketch": "Associativity follows as in Proposition 6.5. The one-letter word (1) is reduced and serves as identity. The inverse of a reduced word (x1,…,xn) is (xn^{-1},…,x1^{-1}), which is reduced and satisfies x x^{-1} → 1, x^{-1} x → 1.",
+    "depends_on": [
+      "reduction of a word"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "existence_of_maximal_ideal_containing_any_proper_ideal",
+    "name": "Existence of Maximal Ideal Containing Any Proper Ideal",
+    "name_norm": "existence of maximal ideal containing any proper ideal",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "In a ring R with identity, every proper ideal is contained in a maximal ideal.",
+    "proof_sketch": "Given a proper ideal I, let S be the set of all proper ideals of R that contain I, partially ordered by inclusion. Every chain in S has an upper bound in S, namely its union, which is proper (since no proper ideal contains the identity) and is an ideal by Proposition 2.5. S is nonempty because I ∈ S. By Zorn's lemma, S has a maximal element M, which is a maximal ideal containing I.",
+    "depends_on": [
+      "zorns lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "feit_thompson_odd_order_theorem",
+    "name": "Feit-Thompson Odd Order Theorem",
+    "name_norm": "feit-thompson odd order theorem",
+    "type": "Theorem",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "Every finite group of odd order is solvable (equivalently, all nonabelian finite simple groups have even order).",
+    "proof_sketch": "Deep theorem proved by Feit and Thompson (1963); proof not provided in this text.",
+    "depends_on": [
+      "solvable group"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "factor_theorem",
+    "name": "Factor Theorem",
+    "name_norm": "factor theorem",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "Let R be commutative, r ∈ R, A ∈ R[X]. Then A is a multiple of X − r if and only if A(r) = 0.",
+    "proof_sketch": "Polynomial division yields A = (X−r)B + S with deg S < 1, so S is constant. Evaluating at r gives S = A(r). Hence X−r divides A iff A(r)=0.",
+    "depends_on": [
+      "evaluation homomorphism"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "decomposition_into_polynomial_and_polynomial_free_part",
+    "name": "Decomposition into polynomial and polynomial-free part",
+    "name_norm": "decomposition into polynomial and polynomial-free part",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "Every rational fraction can be written uniquely as the sum of a polynomial and a polynomial-free fraction in reduced form.",
+    "proof_sketch": "Existence: By Lemma 9.2 write the fraction in reduced form f/g. Polynomial division yields f = gq + r with deg r < deg g, giving f/g = q + r/g; r/g is polynomial-free and reduced. Uniqueness: Given two such decompositions, express both with a common reduced denominator and use the uniqueness from Lemma 9.2.",
+    "depends_on": [
+      "polynomial division"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "maximal_ideals_of_the_coordinate_ring",
+    "name": "Proposition 11.2: Maximal Ideals of the Coordinate Ring",
+    "name_norm": "maximal ideals of the coordinate ring",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "For an algebraic set A, let m_x = { f ∈ C(A) | f(x) = 0 } for x ∈ A. The map x ↦ m_x is a bijection from A onto the set of all maximal ideals of C(A).",
+    "proof_sketch": "By 10.5, x ↦ I({x}) bijects K^n with maximal ideals of K[X1,...,Xn]. By 10.6, x ∈ A iff I(A) ⊆ I({x}), so it bijects A with maximal ideals containing I(A). These correspond to maximal ideals of K[X1,...,Xn]/I(A) ≅ C(A).",
+    "depends_on": [
+      "coordinate ring",
+      "maximal ideal",
+      "algebraic set"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "preservation_of_discreteness_under_finite_extensions",
+    "name": "Preservation of Discreteness under Finite Extensions",
+    "name_norm": "preservation of discreteness under finite extensions",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "Let E be a finite extension of K, v a valuation on K, and w a valuation on E extending v. If v is discrete, then w is discrete.",
+    "proof_sketch": "Using the injective homomorphism g ↦ g^e from G_w to G_v, discreteness of G_v (isomorphic to Z) implies G_w is also discrete.",
+    "depends_on": [
+      "finite extension",
+      "discrete valuation"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "fundamental_equality_for_complete_discrete_valuations",
+    "name": "Fundamental Equality for Complete Discrete Valuations",
+    "name_norm": "fundamental equality for complete discrete valuations",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "Let E be a finite extension of K, v a discrete nonarchimedean absolute value on K, and w a discrete nonarchimedean absolute value on E extending v. If K is complete with respect to v, then e(w:v) f(w:v) = [E:K].",
+    "proof_sketch": "Existence and discreteness of w follow from 7.4 and 7.5. Choose generators v(p) = w(ρ)^e. Let f = f(w:v) and take β_j whose residues form a basis of F_w over F_v. Show the e f elements ρ^i β_j are linearly independent. Using completeness, expand any α ∈ E as Σ r_{ℓ i j} p^ℓ ρ^i β_j with r in a residue system, proving [E:K] = e f.",
+    "depends_on": [
+      "completeness"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "height_equals_localization_dimension",
+    "name": "Height equals localization dimension",
+    "name_norm": "height equals localization dimension",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "The height of a prime ideal p of R equals the dimension of the localization Rp.",
+    "proof_sketch": "Left to the reader; no proof provided.",
+    "depends_on": [
+      "krull dimension",
+      "localization of a ring"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "completeness_of_grps_and_preservation_by_forgetful_functor",
+    "name": "Completeness of Grps and preservation by forgetful functor",
+    "name_norm": "completeness of grps and preservation by forgetful functor",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "The category Grps is complete; in fact, in Grps, a limit can be assigned to every diagram. Moreover, the forgetful functor from Grps to Sets preserves all limits.",
+    "proof_sketch": "Given a diagram D in Grps over a graph G, form the standard limit L in Sets as the set of families (x_i) in the product of all D_i satisfying D_a(x_i)=x_j for edges a:i→j. Since each D_a is a homomorphism, L is a subgroup of the product, and the projections λ_i are homomorphisms. Any cone ϕ:A→D gives a unique cone map to L that is a homomorphism, so L is the limit in Grps. The forgetful functor preserves this limit because the underlying set and cone coincide with the Set-limit.",
+    "depends_on": [
+      "preservation of limits"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "hom_functor_preserves_limits",
+    "name": "Hom functor preserves limits",
+    "name_norm": "hom functor preserves limits",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "Let C be a locally small category. For every object A of C, the functor Hom_C(A, −) preserves all existing limits. In fact, λ is a limit cone of a diagram D in C if and only if Hom_C(A, λ) is a limit cone of the diagram Hom_C(A, D) for every object A of C. Dually, Hom_C(−, A) sends colimit cones to limit cones and colimits to limits.",
+    "proof_sketch": "Exercise; uses that Hom functors preserve products and equalizers, hence all limits, and the characterization via the Yoneda embedding.",
+    "depends_on": [
+      "preservation of limits"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "finitely_generated_ideals_characterization_of_noetherian_rin",
+    "name": "Finitely Generated Ideals Characterization of Noetherian Rings",
+    "name_norm": "finitely generated ideals characterization of noetherian rings",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "A commutative ring R is Noetherian if and only if every ideal of R is finitely generated.",
+    "proof_sketch": "(⇒) Let a be an ideal. The set S of all finitely generated ideals contained in a has a maximal element s by a.c.c. For any a∈a, s+(a) is finitely generated, lies in S, so s = s+(a), hence a∈s and a=s is finitely generated. (⇐) Suppose every ideal is finitely generated. Given a1⊆a2⊆···, their union a is an ideal, generated by some a1,...,ak. Each ai ∈ a_{n_i}; let N = max n_i. Then a ⊆ aN, so the chain stabilizes at N.",
+    "depends_on": [
+      "noetherian ring"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "existence_and_uniqueness_of_primitive_representation",
+    "name": "Existence and Uniqueness of Primitive Representation",
+    "name_norm": "existence and uniqueness of primitive representation",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "Let o be a valuation ring of a field K and let m be its maximal ideal. Every nonzero polynomial f ∈ K[X] can be written in the form f(X) = t f*(X), where t ∈ K, t ≠ 0, and f*(X) ∈ o[X] is primitive; moreover, t and f* are unique up to multiplication by units of o.",
+    "proof_sketch": "Take a valuation v with valuation ring o. For f = Σ a_i X^i, define V(f) = max_i v(a_i). Since f ≠ 0, V(f) = v(a_t) for some t, and then f = a_t f* where f* ∈ o[X] has a coefficient not in m, hence primitive. Uniqueness: if a g = b h with g, h primitive, then v(a) = V(a g) = V(b h) = v(b), so a/b is a unit and h = (a/b)g.",
+    "depends_on": [
+      "primitive polynomial"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "gausss_lemma_for_valuation_rings",
+    "name": "Gauss's Lemma for Valuation Rings",
+    "name_norm": "gausss lemma for valuation rings",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "Let o be a valuation ring of a field K. If f and g ∈ o[X] are primitive, then f g is primitive.",
+    "proof_sketch": "Let f = Σ a_i X^i, g = Σ b_j X^j. Take a valuation v such that o is its valuation ring. Choose the smallest indices i, j such that v(a_i) and v(b_j) are minimal. The coefficient of X^{i+j} in fg then has minimal valuation and is not in the maximal ideal m, so fg is primitive.",
+    "depends_on": [
+      "primitive polynomial"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "irreducible_decomposition_of_algebraic_sets",
+    "name": "Irreducible decomposition of algebraic sets",
+    "name_norm": "irreducible decomposition of algebraic sets",
+    "type": "corollary",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "Every algebraic set in K^n is uniquely an irredundant finite union of algebraic varieties.",
+    "proof_sketch": "A semiprime ideal is a finite irredundant intersection of unique prime ideals (primary decomposition + radical). By the correspondence in Corollary 10.6, the algebraic set is the union of the zero sets of those primes, which are algebraic varieties.",
+    "depends_on": [
+      "primary decomposition"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "subgroups_of_cyclic_groups_are_cyclic",
+    "name": "Subgroups of Cyclic Groups are Cyclic",
+    "name_norm": "subgroups of cyclic groups are cyclic",
+    "type": "Theorem",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "Every subgroup of a cyclic group is cyclic.",
+    "proof_sketch": "Let G = ⟨g⟩ and H ≤ G. If H = {1}, it is cyclic. Otherwise, let n be the smallest positive integer with gⁿ ∈ H. Then H = ⟨gⁿ⟩, because for any gᵐ ∈ H, write m = qn + r with 0 ≤ r < n; gʳ ∈ H forces r = 0.",
+    "depends_on": [
+      "cyclic group",
+      "subgroup"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "cyclic_group_of_roots_of_unity_and_primitive_roots",
+    "name": "Cyclic Group of Roots of Unity and Primitive Roots",
+    "name_norm": "cyclic group of roots of unity and primitive roots",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "The complex nth roots of unity form a cyclic group. ω_k = cos(2πk/n) + i sin(2πk/n) generates this group if and only if gcd(k, n) = 1 (i.e., ω_k is a primitive nth root of unity).",
+    "proof_sketch": "All nth roots are powers of ω_1, so ⟨ω_1⟩ is cyclic of order n. An element ω_1ᵏ has order n/gcd(k,n), so it generates the group iff gcd(k,n) = 1.",
+    "depends_on": [
+      "cyclic group",
+      "roots of unity",
+      "order of an element"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "automorphism_existence_for_prime_ideals_in_integral_closure",
+    "name": "Automorphism Existence for Prime Ideals in Integral Closure",
+    "name_norm": "automorphism existence for prime ideals in integral closure",
+    "type": "Lemma",
+    "num_books": 1,
+    "books": [
+      "256"
+    ],
+    "statement": "Let N be a field and K ⊆ N a subfield such that N is finite and normal over K. Let R ⊆ K be a subring that is integrally closed in K, and let S ⊆ N be the integral closure of R in N. Then for two prime ideals Q, ̃Q ∈ Spec(S) with R ∩ Q = R ∩ ̃Q, there exists σ ∈ G ≔ Aut_K(N) with ̃Q = σ(Q).",
+    "proof_sketch": "Take a ∈ ̃Q. The product over σ ∈ G of σ(a) lies in N^G, so Lemma 8.15 yields an n with b = ∏ σ(a)^{p^n} ∈ K, where p = char(K). As all σ(a) are integral over R, b is integral over R and actually lies in R. Moreover, b ∈ R ∩ ̃Q = R ∩ Q ⊆ Q. Since Q is prime, some σ(a) ∈ Q. Thus ̃Q is contained in the union of the σ(Q). By prime avoidance (Lemma 7.7), ̃Q ⊆ σ(Q) for some σ. Because R ∩ σ(Q) = R ∩ Q = R ∩ ̃Q, Theorem 8.12(b) forces equality ̃Q = σ(Q).",
+    "depends_on": [
+      "prime avoidance"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "chains_of_prime_ideals_in_an_affine_algebra",
+    "name": "Chains of prime ideals in an affine algebra",
+    "name_norm": "chains of prime ideals in an affine algebra",
+    "type": "Theorem",
+    "num_books": 1,
+    "books": [
+      "256"
+    ],
+    "statement": "Let A be an affine algebra and let P0 ⊊ P1 ⊊ ... ⊊ Pn be a maximal chain of prime ideals Pi ∈ Spec(A). Then n = dim(A/P0). In particular, if A is equidimensional (which is always the case if A is an affine domain), then every maximal chain of prime ideals of A has length equal to dim(A).",
+    "proof_sketch": "Induction on n. Replace A by A/P0 to reduce to the case where A is an affine domain and P0 = {0}. If n = 0, then {0} is a maximal ideal, so A is a field and dim(A) = 0 = n. The inductive step continues by considering the next prime ideal, but the remainder of the proof is not included in the excerpt.",
+    "depends_on": [
+      "induction on n"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "properties_of_covering_projections",
+    "name": "Properties of Covering Projections",
+    "name_norm": "properties of covering projections",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "270"
+    ],
+    "statement": "Let p: Y → X be a covering projection. Then (i) For every x ∈ X, p^{-1}(x) is a discrete subset of Y. (ii) p is a local homeomorphism. (iii) The topology on X is the quotient topology it inherits from Y via the map p.",
+    "proof_sketch": null,
+    "depends_on": [
+      "covering space"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "unique_path_lifting",
+    "name": "Unique Path Lifting",
+    "name_norm": "unique path lifting",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "270"
+    ],
+    "statement": "Let p: Y → X be a covering projection. Let x_0 ∈ X be arbitrary and let y_0 ∈ Y be any point with p(y_0) = x_0. Let f: I → X be an arbitrary map with f(0) = x_0. Then f has a unique lifting f̃: I → Y with f̃(0) = y_0, i.e., there is a unique f̃: I → Y with f̃(0) = y_0 making p ∘ f̃ = f.",
+    "proof_sketch": null,
+    "depends_on": [
+      "covering space"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "interior_and_boundary_of_manifold_with_boundary",
+    "name": "Interior and Boundary of Manifold with Boundary",
+    "name_norm": "interior and boundary of manifold with boundary",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "270"
+    ],
+    "statement": "If M is an n-manifold with nonempty boundary, then int(M) is an n-manifold and ∂M is an (n-1)-manifold.",
+    "proof_sketch": "The first statement is clear. For the second, take x in ∂M and a homeomorphism ϕx: Rn+ → U with x ∈ ϕx(∂Rn+). Restricting ϕx to ∂Rn+ (which is homeomorphic to Rn-1) gives a homeomorphism onto U ∩ ∂M.",
+    "depends_on": [
+      "manifold with boundary"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "cover_characterization_of_manifold_with_boundary",
+    "name": "Cover Characterization of Manifold with Boundary",
+    "name_norm": "cover characterization of manifold with boundary",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "270"
+    ],
+    "statement": "M is an n-manifold with boundary if and only if M is a Hausdorff space and M has an open cover {Uα} with each Uα homeomorphic to either Rn or Rn+.",
+    "proof_sketch": "Analogous to Lemma 6.1.2.",
+    "depends_on": [
+      "manifold with boundary"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  }
+]

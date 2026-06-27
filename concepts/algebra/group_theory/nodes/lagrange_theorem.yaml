@@ -1,0 +1,109 @@
+id: "lagrange_theorem"
+name:
+  en: "Lagrange's Theorem"
+  zh: "拉格朗日定理"
+type: "theorem"
+
+description:
+  en: "One of the most fundamental results in finite group theory: the order of any subgroup divides the order of the group. The proof introduces cosets as an essential tool for analyzing group structure."
+  zh: "有限群论最基本的结论之一：子群的阶整除群的阶。其证明引入了陪集作为分析群结构的基本工具。"
+
+depends:
+  required:
+    - subgroup
+    - coset
+  recommended:
+    - group_action
+  suggested:
+    - cyclic_group
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "I"
+    section: "I.4"
+    pages: "38-42"
+    approach: "abstract_axiomatic"
+    theorem_number: "Theorem 4.6"
+    statement_latex: |
+      \\text{Let } H \\leq G \\text{ with } G \\text{ finite. Then } |H| \\text{ divides } |G|.
+      \\text{Moreover, } |G| = [G:H] \\cdot |H|, \\text{ where } [G:H] \\text{ is the index of } H \\text{ in } G.
+
+  - source: "GTM080"
+    author: "Robinson"
+    chapter: "1"
+    section: "1.3"
+    pages: "15-17"
+    approach: "abstract_axiomatic"
+    theorem_number: "Theorem 1.3.6"
+    statement_latex: |
+      \\text{If } G \\text{ is a finite group and } H \\leq G, \\text{ then } |H| \\mid |G|.
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "2"
+    section: "2.4"
+    pages: "34-36"
+    approach: "abstract_axiomatic"
+    theorem_number: "Theorem 2.30"
+    statement_latex: |
+      \\text{If } G \\text{ is a finite group and } H \\leq G, \\text{ then } |G| = [G:H] \\cdot |H|.
+
+statements:
+  - type: "theorem"
+    name: "Lagrange's Theorem"
+    latex: |
+      \\text{Let } G \\text{ be a finite group and } H \\leq G \\text{ a subgroup. Then:}
+      \\\\
+      (1)\\quad |H| \\mid |G| \\qquad \\text{(the order of } H \\text{ divides the order of } G\\text{)}
+      \\\\
+      (2)\\quad |G| = [G:H] \\cdot |H| \\qquad \\text{(where } [G:H] \\text{ is the index, i.e., the number of left cosets)}
+    proof_sketch: |
+      1. \\textbf{Define left cosets:} For each g \\in G, define the left coset gH = \\{gh \\mid h \\in H\\}.
+      2. \\textbf{Cosets partition G:} Define the relation a \\sim b \\iff a^{-1}b \\in H. This is an equivalence relation (reflexive: a^{-1}a=e\\in H; symmetric: (a^{-1}b)^{-1}=b^{-1}a\\in H; transitive: a^{-1}b\\in H \\land b^{-1}c\\in H \\implies a^{-1}c\\in H). The equivalence classes are exactly the left cosets gH.
+      3. \\textbf{All cosets have the same size:} For any g \\in G, the map \\phi: H \\to gH defined by \\phi(h) = gh is a bijection. It is injective because gh_1=gh_2 \\implies h_1=h_2 (left cancellation), and surjective by definition of gH. Hence |gH| = |H|.
+      4. \\textbf{Count:} Since G is partitioned into [G:H] disjoint cosets, each of size |H|, we have |G| = [G:H] \\cdot |H|. Consequently, |H| divides |G|.
+
+  - type: "corollary"
+    name: "Order of Element Divides Group Order"
+    latex: |
+      \\text{For any element } a \\in G \\text{ of a finite group, } |a| \\mid |G|.
+      \\text{ In particular, } a^{|G|} = e.
+
+  - type: "corollary"
+    name: "Groups of Prime Order are Cyclic"
+    latex: |
+      \\text{If } |G| = p \\text{ where } p \\text{ is prime, then } G \\text{ is cyclic}.
+      \\text{ In fact, } G \\cong \\mathbb{Z}/p\\mathbb{Z}.
+
+lean:
+  mathlib4_path: "Mathlib.GroupTheory.Coset.Card"
+  mathlib4_theorem: "Subgroup.card_subgroup_dvd_card"
+  status: "complete"
+  alternate_forms:
+    - theorem: "Subgroup.card_mul_index"
+      path: "Mathlib.GroupTheory.Index"
+      statement: "Nat.card H * H.index = Nat.card G"
+    - theorem: "Subgroup.index_mul_card"
+      path: "Mathlib.GroupTheory.Index"
+      statement: "H.index * Nat.card H = Nat.card G"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.4.8"
+    description: "Prove that any group of prime order p is necessarily cyclic, and hence isomorphic to Z/pZ."
+    connects:
+      - cyclic_group
+  - type: "bridge"
+    source: "GTM148"
+    number: "2.35"
+    description: "Prove that a^(|G|) = e for all a in a finite group G. This is a direct consequence of Lagrange's theorem applied to the cyclic subgroup ⟨a⟩."
+    connects:
+      - cyclic_group
+  - type: "bridge"
+    source: "GTM080"
+    number: "1.3.10"
+    description: "Let G be a finite group and H, K ≤ G with H ≤ K ≤ G. Prove that [G:H] = [G:K]·[K:H]."
+    connects:
+      - subgroup

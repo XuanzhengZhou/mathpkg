@@ -1,0 +1,81 @@
+id: "kernel_of_homomorphism"
+name:
+  en: "Kernel of a Homomorphism"
+  zh: "同态的核"
+type: "definition"
+
+description:
+  en: "The kernel of a group homomorphism φ: G → H is the set of all elements of G that map to the identity of H. The kernel is always a normal subgroup of G."
+  zh: "群同态 φ: G → H 的核是 G 中所有映射到 H 的单位元的元素组成的集合。核总是 G 的正规子群。"
+
+depends:
+  required:
+    - group_homomorphism
+    - subgroup
+  recommended:
+    - normal_subgroup
+  suggested:
+    - group_action
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "I"
+    section: "I.5"
+    pages: "40-45"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 5.1"
+    statement_latex: |
+      \\text{If } \\varphi: G \\to H \\text{ is a group homomorphism, then } \\ker(\\varphi) = \\{ g \\in G \\mid \\varphi(g) = e_H \\}.
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "2"
+    section: "2.5"
+    pages: "38-42"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 2.35"
+    statement_latex: |
+      \\ker(\\varphi) = \\{ g \\in G : \\varphi(g) = 1 \\}
+
+statements:
+  - type: "theorem"
+    name: "Kernel is a Normal Subgroup"
+    name_zh: "核是正规子群"
+    latex: |
+      \\text{Let } \\varphi: G \\to H \\text{ be a group homomorphism. Then } \\ker(\\varphi) \\unlhd G.
+    proof_sketch: |
+      1. Show \\ker(\\varphi) \\le G: For a,b \\in \\ker(\\varphi), \\varphi(ab^{-1}) = \\varphi(a)\\varphi(b^{-1}) = \\varphi(a)\\varphi(b)^{-1} = e_H \\cdot e_H^{-1} = e_H, so ab^{-1} \\in \\ker(\\varphi). Thus \\ker(\\varphi) is a subgroup.
+      2. Show normality: Let g \\in \\ker(\\varphi) and h \\in G. Then \\varphi(hgh^{-1}) = \\varphi(h)\\varphi(g)\\varphi(h)^{-1} = \\varphi(h) \\cdot e_H \\cdot \\varphi(h)^{-1} = e_H. Hence hgh^{-1} \\in \\ker(\\varphi) for all h \\in G, so \\ker(\\varphi) \\unlhd G.
+
+  - type: "theorem"
+    name: "Injectivity Criterion via Kernel"
+    name_zh: "通过核判断单同态"
+    latex: |
+      \\text{A homomorphism } \\varphi: G \\to H \\text{ is injective if and only if } \\ker(\\varphi) = \\{ e_G \\}.
+    proof_sketch: |
+      1. If \\varphi is injective: \\varphi(g) = e_H \\implies \\varphi(g) = \\varphi(e_G) \\implies g = e_G.
+      2. If \\ker(\\varphi) = \\{e_G\\}: Suppose \\varphi(a) = \\varphi(b). Then \\varphi(ab^{-1}) = e_H, so ab^{-1} \\in \\ker(\\varphi) = \\{e_G\\}, hence a = b.
+
+lean:
+  mathlib4_path: "Mathlib.Algebra.Group.Subgroup.Basic"
+  mathlib4_theorem: "MonoidHom.ker"
+  status: "complete"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.5.10"
+    description: "Compute the kernel of the determinant map \\det: \\operatorname{GL}(2, \\mathbb{R}) \\to \\mathbb{R}^{\\times}."
+    description_zh: "计算行列式映射 \\det: GL(2,ℝ) → ℝ× 的核。"
+    connects:
+      - normal_subgroup
+      - quotient_group
+
+  - type: "bridge"
+    source: "GTM148"
+    number: "2.5.3"
+    description: "Prove that if φ: G → H has kernel K, then φ(a) = φ(b) if and only if aK = bK."
+    description_zh: "证明若 φ: G → H 的核为 K，则 φ(a) = φ(b) 当且仅当 aK = bK。"
+    connects:
+      - coset

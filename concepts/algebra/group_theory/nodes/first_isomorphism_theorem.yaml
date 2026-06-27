@@ -1,0 +1,139 @@
+id: "first_isomorphism_theorem"
+name:
+  en: "First Isomorphism Theorem"
+  zh: "第一同构定理"
+type: "theorem"
+
+description:
+  en: "Also called the Fundamental Homomorphism Theorem. If φ: G → H is a group homomorphism, then G/ker(φ) ≅ im(φ). This is the central structure theorem of group theory, linking kernels, images, and quotient groups."
+  zh: "也称为同态基本定理。若 φ: G → H 是群同态，则 G/ker(φ) ≅ im(φ)。这是群论的核心结构定理，将核、像和商群联系起来。"
+
+depends:
+  required:
+    - quotient_group
+    - kernel_of_homomorphism
+    - image_of_homomorphism
+    - group_isomorphism
+  recommended:
+    - normal_subgroup
+    - coset
+    - group_homomorphism
+  suggested:
+    - second_isomorphism_theorem
+    - third_isomorphism_theorem
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "I"
+    section: "I.5"
+    pages: "43-46"
+    approach: "abstract_axiomatic"
+    theorem_number: "Theorem 5.10"
+    statement_latex: |
+      \\text{If } \\varphi: G \\to H \\text{ is a group homomorphism, then } G/\\ker(\\varphi) \\cong \\operatorname{im}(\\varphi).
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "2"
+    section: "2.8"
+    pages: "52-58"
+    approach: "abstract_axiomatic"
+    theorem_number: "Theorem 2.58 (First Isomorphism Theorem)"
+    statement_latex: |
+      \\text{If } \\varphi: G \\to H \\text{ is a homomorphism, then } \\ker(\\varphi) \\unlhd G \\text{ and } G/\\ker(\\varphi) \\cong \\operatorname{im}(\\varphi).
+
+  - source: "GTM211"
+    author: "Dummit & Foote"
+    chapter: "3"
+    section: "3.3"
+    pages: "97-100"
+    approach: "abstract_axiomatic"
+    theorem_number: "Theorem 16 (First Isomorphism Theorem)"
+    statement_latex: |
+      \\text{If } \\varphi: G \\to H \\text{ is a homomorphism of groups, then } \\ker(\\varphi) \\unlhd G \\text{ and } G/\\ker(\\varphi) \\cong \\operatorname{im}(\\varphi).
+
+statements:
+  - type: "theorem"
+    name: "First Isomorphism Theorem"
+    name_zh: "第一同构定理"
+    latex: |
+      \\text{Let } \\varphi: G \\to H \\text{ be a group homomorphism. Then } \\ker(\\varphi) \\unlhd G, \\text{ and the map}
+      \\\[ \\psi: G/\\ker(\\varphi) \\to \\operatorname{im}(\\varphi), \\quad \\psi(g \\cdot \\ker(\\varphi)) = \\varphi(g) \\\]
+      \\text{is a well-defined group isomorphism. Consequently, } G/\\ker(\\varphi) \\cong \\operatorname{im}(\\varphi).
+    proof_sketch: |
+      1. SETUP: Let K = \\ker(\\varphi). Define \\psi: G/K \\to \\operatorname{im}(\\varphi) by \\psi(gK) = \\varphi(g).
+      2. WELL-DEFINED: Suppose aK = bK. Then a^{-1}b \\in K = \\ker(\\varphi), so \\varphi(a^{-1}b) = e_H.
+         This gives \\varphi(a)^{-1}\\varphi(b) = e_H, hence \\varphi(a) = \\varphi(b). Thus \\psi(aK) = \\psi(bK).
+      3. HOMOMORPHISM: \\psi(aK \\cdot bK) = \\psi((ab)K) = \\varphi(ab) = \\varphi(a)\\varphi(b) = \\psi(aK)\\psi(bK).
+      4. INJECTIVITY: Suppose \\psi(aK) = e_H. Then \\varphi(a) = e_H, so a \\in \\ker(\\varphi) = K.
+         Hence aK = K, the identity coset of G/K. Therefore \\ker(\\psi) = \\{K\\}, so \\psi is injective.
+      5. SURJECTIVITY: Let h \\in \\operatorname{im}(\\varphi). Then h = \\varphi(g) for some g \\in G.
+         Thus \\psi(gK) = \\varphi(g) = h, so \\psi is surjective onto \\operatorname{im}(\\varphi).
+      6. CONCLUSION: \\psi is a bijective homomorphism, hence an isomorphism. Therefore G/\\ker(\\varphi) \\cong \\operatorname{im}(\\varphi).
+
+  - type: "corollary"
+    name: "Injectivity ⇔ Trivial Kernel"
+    name_zh: "单同态等价于平凡核"
+    latex: |
+      \\varphi \\text{ is injective } \\iff \\ker(\\varphi) = \\{e_G\\} \\iff G \\cong \\operatorname{im}(\\varphi) \\text{ via } \\varphi \\text{ itself.}
+
+  - type: "corollary"
+    name: "Surjectivity ⇔ G/ker(φ) ≅ H"
+    name_zh: "满同态时 G/ker(φ) ≅ H"
+    latex: |
+      \\text{If } \\varphi \\text{ is surjective, then } \\operatorname{im}(\\varphi) = H, \\text{ so } G/\\ker(\\varphi) \\cong H.
+
+  - type: "example"
+    name: "ℝ/ℤ ≅ S¹"
+    name_zh: "ℝ/ℤ ≅ S¹（圆周群）"
+    latex: |
+      \\text{The map } \\varphi: \\mathbb{R} \\to S^1, \\; \\varphi(t) = e^{2\\pi i t} \\text{ is a homomorphism with } \\ker(\\varphi) = \\mathbb{Z} \\text{ and } \\operatorname{im}(\\varphi) = S^1. \\text{ Hence } \\mathbb{R}/\\mathbb{Z} \\cong S^1.
+
+  - type: "example"
+    name: "G/Z(G) ≅ Inn(G)"
+    name_zh: "G/Z(G) ≅ Inn(G)（内自同构群）"
+    latex: |
+      \\text{Define } \\varphi: G \\to \\operatorname{Aut}(G) \\text{ by } \\varphi(g) = \\text{conjugation by } g. \\text{ Then } \\ker(\\varphi) = Z(G) \\text{ and } \\operatorname{im}(\\varphi) = \\operatorname{Inn}(G). \\text{ Hence } G/Z(G) \\cong \\operatorname{Inn}(G).
+
+lean:
+  mathlib4_path: "Mathlib.GroupTheory.QuotientGroup.Basic"
+  mathlib4_theorem: "QuotientGroup.quotientKerEquivRange"
+  status: "complete"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.5.20"
+    description: "Apply the first isomorphism theorem to φ: ℝ → S¹, φ(t) = e^{2π i t}, to conclude ℝ/ℤ ≅ S¹."
+    description_zh: "将第一同构定理应用于 φ: ℝ → S¹, φ(t) = e^{2π i t}，推出 ℝ/ℤ ≅ S¹。"
+    connects:
+      - quotient_group
+      - group_isomorphism
+
+  - type: "bridge"
+    source: "GTM148"
+    number: "2.8.10"
+    description: "Let φ: G → H be a homomorphism with |G| = |H| < ∞. Show φ is injective iff φ is surjective iff φ is an isomorphism."
+    description_zh: "设 φ: G → H 是同态且 |G| = |H| < ∞。证明 φ 是单射当且仅当它是满射当且仅当它是同构。"
+    connects:
+      - group_isomorphism
+      - lagrange_theorem
+
+  - type: "bridge"
+    source: "GTM211"
+    number: "3.3.2"
+    description: "Use the first isomorphism theorem to prove that every subgroup of a quotient group G/N has the form H/N for some H ≤ G containing N."
+    description_zh: "用第一同构定理证明商群 G/N 的任意子群都具有 H/N 的形式，其中 H ≤ G 且 N ⊆ H。"
+    connects:
+      - quotient_group
+      - correspondence_theorem
+
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.5.25"
+    description: "Let φ: G → H be a homomorphism. Show that the preimage of a normal subgroup of H is a normal subgroup of G."
+    description_zh: "设 φ: G → H 是同态。证明 H 的正规子群的原像是 G 的正规子群。"
+    connects:
+      - normal_subgroup
+      - kernel_of_homomorphism

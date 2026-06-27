@@ -1,0 +1,79 @@
+id: "set_and_function"
+name:
+  en: "Set and Function"
+  zh: "集合与函数"
+type: "theory"
+
+depends:
+  required: []
+  recommended: []
+  suggested: []
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "0"
+    section: "0.1-0.3"
+    pages: "1-20"
+    approach: "naive_set_theory"
+    theorem_number: "Theorem 0.1"
+    statement_latex: "A set is a well-defined collection of objects, called elements or members. Two sets A and B are equal iff they have precisely the same elements."
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "0"
+    section: "0.1"
+    pages: "1-15"
+    approach: "naive_set_theory"
+    theorem_number: "Definition 0.1"
+    statement_latex: "A function f: A \\to B is a relation f \\subseteq A \\times B such that for each a \\in A, there exists a unique b \\in B with (a,b) \\in f."
+
+statements:
+  - type: "definition"
+    name: "Cartesian Product"
+    latex: |
+      \\text{Given sets } A \\text{ and } B, \\text{ the Cartesian product } A \\times B = \\{(a,b) \\mid a \\in A, b \\in B\\}.
+
+  - type: "definition"
+    name: "Relation"
+    latex: |
+      \\text{A relation } R \\text{ from } A \\text{ to } B \\text{ is a subset } R \\subseteq A \\times B.
+
+  - type: "definition"
+    name: "Function"
+    latex: |
+      \\text{A function (or map) } f: A \\to B \\text{ is a relation such that } \\forall a \\in A, \\exists! b \\in B \\text{ with } (a,b) \\in f \\text{. We write } f(a) = b.
+
+  - type: "definition"
+    name: "Injective (One-to-One)"
+    latex: |
+      \\text{A function } f: A \\to B \\text{ is injective if } \\forall a_1,a_2 \\in A, f(a_1) = f(a_2) \\implies a_1 = a_2.
+
+  - type: "definition"
+    name: "Surjective (Onto)"
+    latex: |
+      \\text{A function } f: A \\to B \\text{ is surjective if } \\forall b \\in B, \\exists a \\in A \\text{ such that } f(a) = b.
+
+  - type: "definition"
+    name: "Bijective"
+    latex: |
+      \\text{A function } f: A \\to B \\text{ is bijective if it is both injective and surjective.}
+
+  - type: "theorem"
+    name: "Inverse Function Criterion"
+    latex: |
+      \\text{A function } f: A \\to B \\text{ is bijective } \\iff \\text{ there exists a function } g: B \\to A \\text{ such that } g \\circ f = \\operatorname{id}_A \\text{ and } f \\circ g = \\operatorname{id}_B.
+
+lean:
+  mathlib4_path: "Mathlib.Data.Set.Basic"
+  mathlib4_theorem: "Set.mem_setOf_eq"
+  status: "complete"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "0.1.5"
+    description: "Prove that a function f: A → B is bijective if and only if it has an inverse function g: B → A such that f∘g = id_B and g∘f = id_A."
+    connects:
+      - "composition"
+      - "identity_function"

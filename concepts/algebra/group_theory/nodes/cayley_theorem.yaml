@@ -1,0 +1,80 @@
+id: "cayley_theorem"
+name:
+  en: "Cayley's Theorem"
+  zh: "凯莱定理"
+type: "theorem"
+
+description:
+  en: "Every group is isomorphic to a permutation group. This fundamental result shows that abstract group theory can always be reduced to the study of concrete symmetry groups."
+  zh: "每个群都同构于一个置换群。这一基本结论表明抽象群论总可以归结为对具体对称群的研究。"
+
+depends:
+  required:
+    - symmetric_group
+    - group_action
+  recommended:
+    - group_isomorphism
+    - subgroup
+  suggested:
+    - group_homomorphism
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "I"
+    section: "I.6"
+    pages: "49-51"
+    approach: "abstract_axiomatic"
+    theorem_number: "Theorem 6.8"
+    statement_latex: |
+      \\text{Every group } G \\text{ is isomorphic to a subgroup of the symmetric group } \\operatorname{Sym}(G).
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "2"
+    section: "2.9"
+    pages: "68-70"
+    approach: "abstract_axiomatic"
+    theorem_number: "Theorem 2.81"
+    statement_latex: |
+      \\text{If } |G| = n, \\text{ then } G \\text{ is isomorphic to a subgroup of } S_n.
+      \\text{ In particular, every finite group is a permutation group.}
+
+statements:
+  - type: "theorem"
+    name: "Cayley's Theorem"
+    latex: |
+      \\text{Let } G \\text{ be a group. For each } g \\in G, \\text{ define the left multiplication map }
+      \\lambda_g: G \\to G \\text{ by } \\lambda_g(x) = gx.
+      \\\\
+      \\text{Then } \\lambda_g \\in \\operatorname{Sym}(G) \\text{ (it is a bijection), and the map}
+      \\\\
+      \\Phi: G \\to \\operatorname{Sym}(G), \\quad \\Phi(g) = \\lambda_g
+      \\\\
+      \\text{is an injective group homomorphism. Hence } G \\cong \\operatorname{im}(\\Phi) \\leq \\operatorname{Sym}(G).
+      \\\\
+      \\text{If } |G| = n, \\text{ then } \\operatorname{Sym}(G) \\cong S_n, \\text{ so } G \\text{ embeds in } S_n.
+    proof_sketch: |
+      1. \\textbf{Left multiplication is bijective:} For each g \\in G, define \\lambda_g(x) = gx. This map is injective (gx = gy \\implies x = y by left cancellation) and surjective (for any y \\in G, \\lambda_g(g^{-1}y) = y). Hence \\lambda_g \\in \\operatorname{Sym}(G).
+      2. \\textbf{The map is a homomorphism:} \\Phi(gh) = \\lambda_{gh} maps x \\mapsto (gh)x = g(hx) = \\lambda_g(\\lambda_h(x)) = (\\lambda_g \\circ \\lambda_h)(x). So \\Phi(gh) = \\Phi(g) \\circ \\Phi(h).
+      3. \\textbf{The map is injective:} If \\Phi(g) = \\operatorname{id}_G, then gx = x for all x \\in G. Taking x = e gives g = e. Hence \\ker(\\Phi) = \\{e\\}, so \\Phi is injective.
+      4. \\textbf{Conclusion:} By the First Isomorphism Theorem, G \\cong G/\\ker(\\Phi) \\cong \\operatorname{im}(\\Phi) \\leq \\operatorname{Sym}(G).
+
+lean:
+  mathlib4_path: "Mathlib.GroupTheory.Perm.Subgroup"
+  mathlib4_theorem: "Equiv.Perm.subgroupOfMulAction"
+  status: "complete"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.6.12"
+    description: "Use Cayley's theorem to show that, up to isomorphism, there are only finitely many groups of any given finite order n. (This does NOT mean the classification is easy!)"
+    connects:
+      - symmetric_group
+  - type: "bridge"
+    source: "GTM148"
+    number: "2.82"
+    description: "Explicitly construct the embedding of the Klein four-group V_4 into S_4 using Cayley's construction. Find the image as a specific subgroup."
+    connects:
+      - group_isomorphism

@@ -1,0 +1,1621 @@
+[
+  {
+    "id": "definition_of_extra_special_p_group",
+    "name": "Definition of Extra-Special p-Group",
+    "name_norm": "definition of extra-special p-group",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "080"
+    ],
+    "statement": "A finite p-group G is called extra-special if G' and Z(G) coincide and have order p.",
+    "proof_sketch": null,
+    "depends_on": [
+      "p-group",
+      "commutator subgroup",
+      "center"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "conjugacy_classes_and_centralizers",
+    "name": "Conjugacy Classes and Centralizers",
+    "name_norm": "conjugacy classes and centralizers",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "080"
+    ],
+    "statement": "The conjugation action g ↦ (x ↦ g^{-1}xg) partitions G into orbits called conjugacy classes. The stabilizer of x is the centralizer C_G(x) = {g∈G | gx = xg}. The size of the conjugacy class of x is |G : C_G(x)|.",
+    "proof_sketch": "N/A",
+    "depends_on": [
+      "group actions",
+      "orbit-stabilizer theorem"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_inner_derivation_1_coboundary",
+    "name": "Definition of inner derivation (1-coboundary)",
+    "name_norm": "definition of inner derivation (1-coboundary",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "080"
+    ],
+    "statement": "For a ∈ A, define a function δ(a): G → A by g^{δ(a)} = [g,a] = a^{-g+1}. Such derivations are called inner derivations (or 1-coboundaries). The set of inner derivations is denoted Inn(G,A) or B^1(G,A).",
+    "proof_sketch": "The commutator identity [g_1 g_2, a] = [g_1, a]^{g_2}[g_2, a] shows δ(a) is a derivation.",
+    "depends_on": [
+      "derivation",
+      "g-module"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "free_resolution",
+    "name": "Free Resolution",
+    "name_norm": "free resolution",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "082"
+    ],
+    "statement": "An exact sequence 0 → R → F → A → 0 of Abelian groups in which F and R are free is called a free resolution of A.",
+    "proof_sketch": "As a subgroup of a free group, R is also free (Jacobson), so such resolutions exist.",
+    "depends_on": [
+      "exact sequence",
+      "free abelian group"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "singular_cochain_complex",
+    "name": "Singular Cochain Complex",
+    "name_norm": "singular cochain complex",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "082"
+    ],
+    "statement": "A singular q-cochain on a topological space X is a linear functional on the Z-module S_q(X) of singular q-chains. The group of singular q-cochains is s^q(X) = Hom(S_q(X), Z). The coboundary operator d is defined by (dw)(c) = w(∂c). The graded group S*(X) = ⊕ s^q(X) becomes a differential complex; the homology of this complex is the singular cohomology of X with integer coefficients, denoted H*(X). Replacing Z with an Abelian group G yields singular cohomology with coefficients in G, H*(X; G).",
+    "proof_sketch": "Definition; no proof required.",
+    "depends_on": [
+      "singular chains"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "section_frame_and_space_of_sections",
+    "name": "Section, Frame, and Space of Sections",
+    "name_norm": "section, frame, and space of sections",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "082"
+    ],
+    "statement": "A section over V is a map s: V → E with π ∘ s = id_V. The space of all sections is Γ(V, E). A frame is a collection of sections s₁,...,sₙ that form a basis of each fiber. A global zero section exists.",
+    "proof_sketch": "",
+    "depends_on": [
+      "vector bundle definition"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "transition_functions_and_cocycle_condition",
+    "name": "Transition Functions and Cocycle Condition",
+    "name_norm": "transition functions and cocycle condition",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "082"
+    ],
+    "statement": "Transition functions g_{αβ} of a vector bundle satisfy the cocycle condition g_{αβ} ∘ g_{βγ} = g_{αγ} on V_α ∩ V_β ∩ V_γ.",
+    "proof_sketch": "",
+    "depends_on": [
+      "vector bundle definition"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "bundle_map_definition",
+    "name": "Bundle Map Definition",
+    "name_norm": "bundle map definition",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "082"
+    ],
+    "statement": "A bundle map (homomorphism) between vector bundles E and E' is a fiber-preserving smooth map f: E → E' that is linear on corresponding fibers.",
+    "proof_sketch": "",
+    "depends_on": [
+      "vector bundle definition"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "jacobi_symbol_definition",
+    "name": "Jacobi Symbol Definition",
+    "name_norm": "jacobi symbol definition",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "084"
+    ],
+    "statement": "Let b be a positive odd integer with prime factorization b = p1 p2 ... pm, where the pi are not necessarily distinct. The Jacobi symbol (a/b) is defined as (a/b) = (a/p1)(a/p2)...(a/pm), where (a/pi) is the Legendre symbol.",
+    "proof_sketch": "",
+    "depends_on": [
+      "legendre symbol"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "quadratic_number_field",
+    "name": "Quadratic Number Field",
+    "name_norm": "quadratic number field",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "084"
+    ],
+    "statement": "An algebraic number field F is called a quadratic number field if [F : Q] = 2.",
+    "proof_sketch": null,
+    "depends_on": [
+      "algebraic number field",
+      "degree of a field extension"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "algebraic_variety",
+    "name": "Algebraic Variety",
+    "name_norm": "algebraic variety",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "084"
+    ],
+    "statement": "An algebraic set V defined by polynomials f1,...,fm is called an algebraic variety if the ideal generated by f1,...,fm in F[x1,...,xn] is a prime ideal.",
+    "proof_sketch": "None",
+    "depends_on": [
+      "algebraic set"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "algebraic_number_field_and_its_ring_of_integers",
+    "name": "Algebraic Number Field and its Ring of Integers",
+    "name_norm": "algebraic number field and its ring of integers",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "084"
+    ],
+    "statement": "An algebraic number field is a subfield F of the complex numbers with [F:ℚ] finite. The ring of algebraic integers in F is D = F ∩ Ω, where Ω is the set of all algebraic integers.",
+    "proof_sketch": "",
+    "depends_on": [
+      "field extension degree",
+      "algebraic integer"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "dedekind_ring",
+    "name": "Dedekind Ring",
+    "name_norm": "dedekind ring",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "084"
+    ],
+    "statement": "A Dedekind ring is an integral domain in which every nonzero ideal can be written uniquely as a product of prime ideals.",
+    "proof_sketch": "",
+    "depends_on": [
+      "ideal",
+      "prime ideal"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_f_p_for_an_elliptic_curve",
+    "name": "Definition of f_p for an elliptic curve",
+    "name_norm": "definition of f_p for an elliptic curve",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "084"
+    ],
+    "statement": "For the elliptic curve E : y² = x³ − Ax − B and a prime p, define f_p = − ∑_{x=0}^{p-1} ((x³ − Ax − B)/p).",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "elliptic curves",
+      "legendre symbol"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_hecke_characters_grossencharaktere",
+    "name": "Definition of Hecke characters (Grossencharaktere)",
+    "name_norm": "definition of hecke characters (grossencharaktere",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "084"
+    ],
+    "statement": "Characters introduced by Hecke, originally called 'Grossencharaktere'; in later terminology often called algebraic Hecke characters or characters of type A₀.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "algebraic number fields",
+      "ideles"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "weils_definition_of_local_and_global_zeta_functions",
+    "name": "Weil's definition of local and global zeta functions",
+    "name_norm": "weils definition of local and global zeta functions",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "084"
+    ],
+    "statement": "In his 1954 paper, Weil defines local and global zeta functions for a nonsingular algebraic variety defined over an algebraic number field.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "algebraic varieties",
+      "number fields"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "hecke_operator",
+    "name": "Hecke Operator",
+    "name_norm": "hecke operator",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "106"
+    ],
+    "statement": "For a positive integer n, the n-th Hecke operator T_n acts on modular forms of weight k by averaging over representatives of integral matrices of determinant n.",
+    "proof_sketch": "Definition via double coset decomposition: T_n f(z) = n^{k-1} ∑_{ad=n, 0≤b<d} d^{-k} f((az+b)/d). One checks it preserves modularity.",
+    "depends_on": [
+      "modular form",
+      "congruence subgroup",
+      "double coset"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "non_archimedean_absolute_value_valuation",
+    "name": "Non-Archimedean Absolute Value (Valuation)",
+    "name_norm": "non-archimedean absolute value (valuation",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "110"
+    ],
+    "statement": "An absolute value satisfying the stronger condition AV 4. |x + y|_v ≤ max(|x|_v, |y|_v) is called a valuation or non-archimedean.",
+    "proof_sketch": "",
+    "depends_on": [
+      "absolute value"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "dependence_of_absolute_values",
+    "name": "Dependence of Absolute Values",
+    "name_norm": "dependence of absolute values",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "110"
+    ],
+    "statement": "Two non-trivial absolute values are called dependent if they define the same topology; if they do not, they are independent.",
+    "proof_sketch": "",
+    "depends_on": [
+      "absolute value"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "partial_differential_operator_dp_on_schwartz_space",
+    "name": "Partial Differential Operator DP on Schwartz Space",
+    "name_norm": "partial differential operator dp on schwartz space",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "110"
+    ],
+    "statement": "For an n-tuple of non-negative integers P = (p1,...,pn), D^P = ∂^{|p|}/∂x1^{p1}...∂xn^{pn} where |p| = p1+...+pn. The operator D^P maps S into itself.",
+    "proof_sketch": "By definition of S, partial derivatives of all orders exist, are continuous, and tend to 0 rapidly at infinity.",
+    "depends_on": [
+      "schwartz space"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "multiplication_operator_mp_on_schwartz_space",
+    "name": "Multiplication Operator MP on Schwartz Space",
+    "name_norm": "multiplication operator mp on schwartz space",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "110"
+    ],
+    "statement": "M_j is multiplication by the j-th variable. M^P f(x) = x1^{p1}...xn^{pn} f(x). The operator M^P maps S into itself.",
+    "proof_sketch": "Multiplication by a polynomial preserves smoothness, and the product of a polynomial with a rapidly decaying function remains rapidly decaying.",
+    "depends_on": [
+      "schwartz space"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "conductor_of_a_p_adic_quasi_character",
+    "name": "Conductor of a p-adic Quasi-Character",
+    "name_norm": "conductor of a p-adic quasi-character",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "110"
+    ],
+    "statement": "For a p-adic field, the subgroups 1 + ℘ᵐ (m ≥ 0) form a fundamental system of neighborhoods of 1 in U. Any quasi-character c vanishes on some 1 + ℘ᵐ. The conductor 𝔣 of c is the ideal 𝔣 = ℘ᵐ where m is the smallest integer such that c(1 + ℘ᵐ) = 1. If m = 0, then 𝔣 = 0.",
+    "proof_sketch": "Since c is continuous and trivial on an open neighborhood of 1, and the subgroups 1+℘ᵐ form a basis, there exists a minimal m (or 0).",
+    "depends_on": [
+      "p-adic absolute value",
+      "units u"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "nearest_integer_function",
+    "name": "Nearest Integer Function",
+    "name_norm": "nearest integer function",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "138"
+    ],
+    "statement": "⌊x⌋ denotes an integer nearest to x, defined by ⌊x⌋ = ⌊x + 1/2⌋.",
+    "proof_sketch": "None",
+    "depends_on": [
+      "floor function"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "divisibility_notations",
+    "name": "Divisibility Notations",
+    "name_norm": "divisibility notations",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "138"
+    ],
+    "statement": "d|n means d divides n; d||n means d|n and (d, n/d) = 1; notations p|n and p^a||n imply p is prime, with p^a||n meaning p^a is the highest power of p dividing n.",
+    "proof_sketch": "None",
+    "depends_on": [
+      "greatest common divisor"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "signature_of_a_number_field",
+    "name": "Signature of a Number Field",
+    "name_norm": "signature of a number field",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "138"
+    ],
+    "statement": "The signature of a number field is the pair (r1, r2) where r1 is the number of embeddings of K whose image lie in R, and 2r2 is the number of non-real complex embeddings, so that r1 + 2r2 = n. Non-real embeddings come in complex conjugate pairs. If T is an irreducible polynomial defining K by one of its roots, r1 (resp. 2r2) is the number of real (resp. non-real) roots of T in C. When r2 = 0 (resp. r1 = 0) the field and polynomial are called totally real (resp. totally complex).",
+    "proof_sketch": null,
+    "depends_on": [
+      "embeddings of a number field",
+      "real numbers",
+      "complex numbers",
+      "complex conjugation"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_unit_divisibility_and_irreducible_element_in_a",
+    "name": "Definition of unit, divisibility, and irreducible element in an integral domain",
+    "name_norm": "definition of unit, divisibility, and irreducible element in an integral domain",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "138"
+    ],
+    "statement": "Let R be an integral domain. An element u in R is a unit if it has a multiplicative inverse in R. For a, b in R with b ≠ 0, we say that b divides a (written b | a) if there exists q ∈ R such that a = bq; such a q is unique and denoted a/b. An element p ∈ R is called irreducible (or prime) if whenever q divides p, either q or p/q is a unit.",
+    "proof_sketch": null,
+    "depends_on": [
+      "integral domain"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "fundamental_discriminant",
+    "name": "Fundamental Discriminant",
+    "name_norm": "fundamental discriminant",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "138"
+    ],
+    "statement": "An integer D is called a fundamental discriminant if D is the discriminant of a quadratic field K. Equivalently, D ≠ 1 and either D ≡ 1 (mod 4) and is squarefree, or D ≡ 0 (mod 4), D/4 is squarefree and D/4 ≡ 2 or 3 (mod 4).",
+    "proof_sketch": "N/A",
+    "depends_on": [
+      "discriminant of a number field"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "unit_group_and_torsion_subgroup",
+    "name": "Unit Group and Torsion Subgroup",
+    "name_norm": "unit group and torsion subgroup",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "138"
+    ],
+    "statement": "The set of units in a number field K form a multiplicative group denoted U(K). The torsion subgroup of U(K), consisting of the roots of unity in K, is denoted μ(K).",
+    "proof_sketch": null,
+    "depends_on": [
+      "algebraic integer",
+      "norm"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_the_arithmetic_geometric_mean_agm",
+    "name": "Definition of the Arithmetic-Geometric Mean (AGM)",
+    "name_norm": "definition of the arithmetic-geometric mean (agm",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "138"
+    ],
+    "statement": "Let a and b be two positive real numbers. The Arithmetic-Geometric mean of a and b, denoted by AGM(a,b), is defined as the common limit of the sequences a_n and b_n defined by a_0 = a, b_0 = b, a_{n+1} = (a_n + b_n)/2 and b_{n+1} = √(a_n b_n).",
+    "proof_sketch": "",
+    "depends_on": [
+      "sequences",
+      "limits",
+      "square root"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "quotient_field_of_an_integral_domain",
+    "name": "Quotient Field of an Integral Domain",
+    "name_norm": "quotient field of an integral domain",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "The quotient field K(R) of an integral domain R is the localization R[U^{-1}] where U = R \\ {0}.",
+    "proof_sketch": null,
+    "depends_on": [
+      "localization of a ring"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_normal_domain",
+    "name": "Definition of Normal Domain",
+    "name_norm": "definition of normal domain",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "An integral domain R is normal if it is integrally closed in its fraction field.",
+    "proof_sketch": "",
+    "depends_on": [
+      "integral closure",
+      "fraction field"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "family_as_morphism",
+    "name": "Family as Morphism",
+    "name_norm": "family as morphism",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "A family of varieties or algebras is a morphism; if φ: X → B is a morphism of varieties, the preimages of points of B (called fibers) are varieties that vary in a family parametrized by the points of B.",
+    "proof_sketch": null,
+    "depends_on": [
+      "morphism",
+      "varieties"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "discrete_valuation_ring_dvr",
+    "name": "Discrete valuation ring (DVR)",
+    "name_norm": "discrete valuation ring (dvr",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "A discrete valuation ring (DVR) is a one-dimensional regular local ring; equivalently, the valuation ring of a discrete valuation.",
+    "proof_sketch": "",
+    "depends_on": [
+      "discrete valuation",
+      "valuation ring",
+      "regular local ring"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "extension_of_monomial_order_to_terms",
+    "name": "Extension of Monomial Order to Terms",
+    "name_norm": "extension of monomial order to terms",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If um and vn are terms with non-zero coefficients u, v in k, and m, n are monomials with m > n (resp. m ≥ n) then we say um > vn (resp. um ≥ vn). This is not a partial order but a convenient notation.",
+    "proof_sketch": null,
+    "depends_on": [
+      "monomial order"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "initial_submodule",
+    "name": "Initial Submodule",
+    "name_norm": "initial submodule",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "For a monomial order > and a submodule M of F, in>(M) is the monomial submodule generated by {in>(f) : f ∈ M}.",
+    "proof_sketch": null,
+    "depends_on": [
+      "initial term"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "r_linear_derivation",
+    "name": "R-linear Derivation",
+    "name_norm": "r-linear derivation",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If S is an R-algebra, a derivation d: S → M is R-linear if it is a map of R-modules. The set of all R-linear derivations from S to M is denoted Der_R(S, M).",
+    "proof_sketch": "",
+    "depends_on": [
+      "derivation"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "depth_of_an_ideal_on_a_module",
+    "name": "Depth of an ideal on a module",
+    "name_norm": "depth of an ideal on a module",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "Let I be an ideal of R and M a finitely generated R-module. If IM ≠ M, define the depth of I on M, written depth(I, M), to be the length of any maximal M-sequence in I. If IM = M, set depth(I, M) = ∞. When M = R, write depth(I) for depth(I, R). If R is local with maximal ideal P, the depth of M is depth(P, M).",
+    "proof_sketch": "By Theorem 17.4, all maximal M-sequences in I have the same length whenever IM ≠ M, so depth(I, M) is well-defined.",
+    "depends_on": [
+      "regular sequences"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "koszul_complex_for_a_map_to_r",
+    "name": "Koszul complex (for a map to R)",
+    "name_norm": "koszul complex (for a map to r",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "The Koszul complex is associated to a sequence of elements of R, or equivalently to a map from a finitely generated free R-module F to R.",
+    "proof_sketch": "Standard construction using exterior powers; not detailed here.",
+    "depends_on": [
+      "exterior algebra"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "boundaries_cycles_and_homology",
+    "name": "Boundaries, Cycles, and Homology",
+    "name_norm": "boundaries, cycles, and homology",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "In a complex F, the elements of the image of φ_{i+1} are called boundaries, the elements of the kernel of φ_i are called cycles. The homology of F at F_i, denoted H_i(F), is the quotient module (ker φ_i) / (im φ_{i+1}).",
+    "proof_sketch": null,
+    "depends_on": [
+      "complex of modules"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "module_as_a_complex",
+    "name": "Module as a Complex",
+    "name_norm": "module as a complex",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "An R-module M may be considered as a complex with only one nonzero term (all other terms zero).",
+    "proof_sketch": null,
+    "depends_on": [
+      "complex of modules"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "limit_of_a_spectral_sequence",
+    "name": "Limit of a Spectral Sequence",
+    "name_norm": "limit of a spectral sequence",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "Given a spectral sequence, define submodules 0 = 1B ⊂ 2B ⊂ … ⊂ rB ⊂ … ⊂ rZ ⊂ … ⊂ 2Z ⊂ 1Z = 1E such that iE = iZ / iB. Let 1Z = 1E, 1B = 0. Having defined iB and iZ for i ≤ r, define r+1Z as the kernel of the composite map rZ → rZ/rB = rE → rE, and r+1B as the image of this map. Then set 00Z = ∩r rZ, 00B = ∪r rB. The limit is 00E = 00Z / 00B.",
+    "proof_sketch": "None (construction/definition).",
+    "depends_on": [
+      "spectral sequence"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "coproduct_as_a_colimit",
+    "name": "Coproduct as a colimit",
+    "name_norm": "coproduct as a colimit",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "The coproduct of a collection of objects {B_i} of A, denoted ∐_i B_i, is the colimit of the diagram consisting of the objects B_i together with only their identity morphisms.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "colimit of a diagram"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "coequalizer_as_a_colimit",
+    "name": "Coequalizer as a colimit",
+    "name_norm": "coequalizer as a colimit",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "The coequalizer of a pair of parallel morphisms ψ, ψ': C_1 → C_2 in A is the colimit of the diagram consisting of the objects C_1, C_2, their identity morphisms, and the two morphisms ψ, ψ'.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "colimit of a diagram"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "syzygy_modules",
+    "name": "Syzygy Modules",
+    "name_norm": "syzygy modules",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "Given an exact sequence 0 → N → F → M → 0 with F projective, N is called a first syzygy module of M. The nth syzygy module is defined inductively as the first syzygy module of the (n−1)st syzygy module. Syzygy modules are unique up to projective summands.",
+    "proof_sketch": "N/A",
+    "depends_on": [
+      "projective modules",
+      "exact sequences"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "bounded_below_complexes",
+    "name": "Bounded-below complexes",
+    "name_norm": "bounded-below complexes",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "K+(M) is the full subcategory of K(M) consisting of bounded-below complexes F such that F_i = 0 for i sufficiently small.",
+    "proof_sketch": "Definition by restriction.",
+    "depends_on": [
+      "the homotopy category of complexes"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "minimal_injective_resolution",
+    "name": "Minimal Injective Resolution",
+    "name_norm": "minimal injective resolution",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "An injective resolution ℰ of M is minimal if each E^n is the injective hull of ker(E^n → E^{n+1}).",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "injective resolution"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "graded_structure_on_the_tensor_algebra_of_a_graded_module",
+    "name": "Graded structure on the tensor algebra of a graded module",
+    "name_norm": "graded structure on the tensor algebra of a graded module",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If R is a graded ring concentrated in degree 0 and M = ⊕ M_i is a Z-graded R-module, then T_R(M) is Z-graded with i-th graded component ⊕_{k} ⊕_{i_1+⋯+i_k = i} M_{i_1} ⊗_R ⋯ ⊗_R M_{i_k}.",
+    "proof_sketch": "",
+    "depends_on": [
+      "tensor algebra"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "algebraic_independence_and_transcendence_basis",
+    "name": "Algebraic Independence and Transcendence Basis",
+    "name_norm": "algebraic independence and transcendence basis",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "A subset B of a field extension K/k is algebraically independent over k if the subfield k(B) is isomorphic to the rational function field k({X_b}_{b∈B}) via the map sending X_b to b. Equivalently, for any integer n, any nonzero polynomial f(t_1,…,t_n) with coefficients in k, and any distinct b_1,…,b_n ∈ B, f(b_1,…,b_n) ≠ 0. B is a transcendence basis for K over k if B is algebraically independent and K is algebraic over k(B).",
+    "proof_sketch": "",
+    "depends_on": [
+      "field extensions",
+      "algebraic elements",
+      "polynomial rings"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_normal_scheme",
+    "name": "Definition of Normal Scheme",
+    "name_norm": "definition of normal scheme",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "151"
+    ],
+    "statement": "A scheme is normal if all its local rings are integrally closed.",
+    "proof_sketch": "",
+    "depends_on": [
+      "local rings",
+      "integrally closed"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_finite_type_morphism",
+    "name": "Definition of Finite Type Morphism",
+    "name_norm": "definition of finite type morphism",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "151"
+    ],
+    "statement": "A morphism is of finite type if the extensions of local rings are finitely generated algebras.",
+    "proof_sketch": "",
+    "depends_on": [
+      "local rings",
+      "finitely generated algebras"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_uniformizer_at_a_point",
+    "name": "Definition of Uniformizer at a Point",
+    "name_norm": "definition of uniformizer at a point",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "151"
+    ],
+    "statement": "Fix a point p in Spec(R) with discrete valuation ord_p. A uniformizer u ∈ R for p is an element such that ord_p(u) = 1.",
+    "proof_sketch": "",
+    "depends_on": [
+      "discrete valuation ring",
+      "order function"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "vector_fields_agreeing_on_a_set",
+    "name": "Vector Fields Agreeing on a Set",
+    "name_norm": "vector fields agreeing on a set",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "Two vector fields V and W agree on a set A if V(P) = W(P) for all P in A.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "vector field"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "vector_field_on_a_sphere",
+    "name": "Vector Field on a Sphere",
+    "name_norm": "vector field on a sphere",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "A vector field V on a sphere S assigns to each point P in S a vector V(P) in the tangent space T_pS, with the mapping P ↦ V(P) being continuous. For the standard sphere S^2 = {(x,y,z): x^2+y^2+z^2=1}, the tangent space is T_pS = {(a,b,c): (a,b,c)·(x,y,z) = ax+by+cz = 0}.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "sphere",
+      "tangent space",
+      "continuity"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "isomorphism_of_coverings",
+    "name": "Isomorphism of Coverings",
+    "name_norm": "isomorphism of coverings",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "An isomorphism between coverings p: Y → X and p': Y' → X is a homeomorphism φ: Y → Y' such that p' ∘ φ = p.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "covering map",
+      "homeomorphism"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "reduced_zeroth_cohomology_group",
+    "name": "Reduced Zeroth Cohomology Group",
+    "name_norm": "reduced zeroth cohomology group",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "For a nonempty space U, the reduced 0th cohomology group H̃^0(U) is the quotient of the space of locally constant functions on U by the subspace of constant functions; thus dim H̃^0(U) = dim H^0(U) − 1, and U is connected iff H̃^0(U) = 0.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "locally constant function",
+      "quotient space",
+      "cohomology group"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "ramification_point",
+    "name": "Ramification Point",
+    "name_norm": "ramification point",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "A point P in X is called a ramification point for the analytic map f if its ramification index satisfies e_f(P) > 1.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "ramification index"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "chain_complex_of_an_ordered_simplicial_complex",
+    "name": "Chain Complex of an Ordered Simplicial Complex",
+    "name_norm": "chain complex of an ordered simplicial complex",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "For an ordered simplicial complex K (partial order on vertices such that each simplex is totally ordered), CnK is the free abelian group on the n-simplices. The boundary ∂:CnK → Cn-1K is defined by ∂(v0,…,vn) = ∑_{i=0}^n (-1)^i (v0,…,v̂i,…,vn).",
+    "proof_sketch": "None",
+    "depends_on": [
+      "abstract simplicial complex"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "singular_cohomology_groups",
+    "name": "Singular Cohomology Groups",
+    "name_norm": "singular cohomology groups",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "For a topological space X and abelian group G, the n-th singular cohomology group Hⁿ(X; G) is the quotient ker(δⁿ)/im(δⁿ⁻¹), where δ is the coboundary operator. Elements of ker are cocycles, elements of im are coboundaries.",
+    "proof_sketch": "Verify that δⁿ⁺¹ ∘ δⁿ = 0 using ∂² = 0, so im(δⁿ⁻¹) ⊆ ker(δⁿ), thus the quotient is defined.",
+    "depends_on": [
+      "coboundary operator"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "vector_space_structure_on_a_field_extension",
+    "name": "Vector Space Structure on a Field Extension",
+    "name_norm": "vector space structure on a field extension",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "For a field extension F ⊆ K, K is made into an F-vector space by defining scalar multiplication for α ∈ F and a ∈ K as α·a = αa (multiplication in K).",
+    "proof_sketch": null,
+    "depends_on": [
+      "field extension",
+      "vector space"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "finite_and_infinite_extensions",
+    "name": "Finite and Infinite Extensions",
+    "name_norm": "finite and infinite extensions",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "If [K : F] < ∞, then K is a finite extension of F; otherwise K is an infinite extension of F.",
+    "proof_sketch": null,
+    "depends_on": [
+      "degree of a field extension"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "field_of_formal_generalized_power_series_laurent_series",
+    "name": "Field of Formal Generalized Power Series (Laurent Series)",
+    "name_norm": "field of formal generalized power series (laurent series",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "For a field k, k((x)) is the set of formal sums ∑_{n=n0}^∞ a_n x^n with n0 ∈ Z and a_n ∈ k. Addition is termwise and multiplication is convolution. The set k((x)) is a field with these operations.",
+    "proof_sketch": null,
+    "depends_on": [
+      "field",
+      "formal power series"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "purely_transcendental_field_extension",
+    "name": "Purely transcendental field extension",
+    "name_norm": "purely transcendental field extension",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "A field K is purely transcendental over a subfield F if K is isomorphic to a field of rational functions over F in some number, finite or infinite, of variables. If K = F(t_1, ..., t_n) with {t_1, ..., t_n} algebraically independent, then K is often said to be a rational extension of F.",
+    "proof_sketch": null,
+    "depends_on": [
+      "field extension",
+      "rational functions",
+      "algebraic independence"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "standard_topology_on_",
+    "name": "Standard topology on ℝ",
+    "name_norm": "standard topology on ℝ",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "A nonempty subset U ⊆ ℝ is open if for every x ∈ U there exists δ > 0 such that (x - δ, x + δ) ⊆ U. Together with ∅, this defines the standard topology on ℝ.",
+    "proof_sketch": "Easy exercise to verify the topology axioms.",
+    "depends_on": [
+      "topological space"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "metric_space_topology",
+    "name": "Metric space topology",
+    "name_norm": "metric space topology",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "Let (X, d) be a metric space. A nonempty subset U ⊆ X is open if for every x ∈ U there exists δ > 0 such that the open ball B(x, δ) = {y ∈ X : d(x, y) < δ} is contained in U. This defines the metric space topology.",
+    "proof_sketch": "Straightforward verification using metric space axioms.",
+    "depends_on": [
+      "metric space",
+      "topological space"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "finite_complement_topology",
+    "name": "Finite complement topology",
+    "name_norm": "finite complement topology",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "On a set X, the finite complement topology is defined by declaring a proper subset of X closed if it is finite. Equivalently, a nonempty subset is open if its complement is finite.",
+    "proof_sketch": "Verification: finite unions and arbitrary intersections of finite sets are finite, so closed sets satisfy axioms.",
+    "depends_on": [
+      "topological space"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "finite_dimensional_vector_space",
+    "name": "Finite-Dimensional Vector Space",
+    "name_norm": "finite-dimensional vector space",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "If V has a finite basis, then V is said to be a finite dimensional vector space.",
+    "proof_sketch": "Definition.",
+    "depends_on": [
+      "dimension of a vector space"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "stable_quotient_of_an_ideal",
+    "name": "Stable Quotient of an Ideal",
+    "name_norm": "stable quotient of an ideal",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "The stable quotient of I with respect to f, denoted I : f^∞, is the ideal {g ∈ R : there exists n ≥ 1 for which f^n g ∈ I}.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "ideal",
+      "ring"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "adapted_monomial_order",
+    "name": "Adapted Monomial Order",
+    "name_norm": "adapted monomial order",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "A monomial order on k[z1,...,zm,w1,...,wn] is said to be adapted to a given linear function ℓ (presumably tailored for integer programming problems). (The full definition is truncated in the excerpt.)",
+    "proof_sketch": null,
+    "depends_on": [
+      "monomial order"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "pure_n_dimensional_polyhedral_complex",
+    "name": "Pure n-dimensional Polyhedral Complex",
+    "name_norm": "pure n-dimensional polyhedral complex",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "A polyhedral complex ∆ ⊂ R^n is said to be pure n-dimensional if every maximal element of ∆ (with respect to inclusion) is an n-dimensional polyhedron.",
+    "proof_sketch": null,
+    "depends_on": [
+      "polyhedral complex"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "adjacent_polytopes_in_a_complex",
+    "name": "Adjacent Polytopes in a Complex",
+    "name_norm": "adjacent polytopes in a complex",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "Two n-dimensional polytopes in a complex ∆ are said to be adjacent (definition continues in text).",
+    "proof_sketch": null,
+    "depends_on": [
+      "polyhedral complex"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "graded_resolution",
+    "name": "Graded Resolution",
+    "name_norm": "graded resolution",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "A graded resolution of a graded R-module M is a resolution ... → F_2 → F_1 → F_0 → M → 0 where each F_i is a graded free module and each differential is a graded homomorphism of degree zero.",
+    "proof_sketch": "",
+    "depends_on": [
+      "graded homomorphism"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "supporting_hyperplane_of_a_polytope",
+    "name": "Supporting Hyperplane of a Polytope",
+    "name_norm": "supporting hyperplane of a polytope",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "A supporting hyperplane H of a convex polytope P ⊂ ℝⁿ is a hyperplane such that P is entirely contained in one of the closed half-spaces determined by H and H ∩ P is non-empty.",
+    "proof_sketch": "This is a definition; no proof is required.",
+    "depends_on": [
+      "hyperplane",
+      "convex polytope",
+      "half-space"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "radical_and_radical_ideal",
+    "name": "Radical and Radical Ideal",
+    "name_norm": "radical and radical ideal",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "Let I ⊂ k[x1, ..., xn] be an ideal. The radical of I is √I = {g ∈ k[x1, ..., xn] : g^m ∈ I for some integer m ≥ 1}. I is a radical ideal if √I = I.",
+    "proof_sketch": "N/A",
+    "depends_on": [
+      "ideal"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "minimal_element_of_a_submodule",
+    "name": "Minimal Element of a Submodule",
+    "name_norm": "minimal element of a submodule",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "Let M be a nonzero submodule of k[x]^2. A minimal element of M with respect to a monomial order > is an element g ∈ M \\ {0} such that LT(g) is minimal with respect to >.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "monomial order"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "order_domain",
+    "name": "Order Domain",
+    "name_norm": "order domain",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "A pair (R, ρ) is an order domain if ρ is an order function on R.",
+    "proof_sketch": null,
+    "depends_on": [
+      "order function"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_a_lattice_polytope",
+    "name": "Definition of a Lattice Polytope",
+    "name_norm": "definition of a lattice polytope",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "A lattice polytope is a set of the form Conv(A), where A ⊂ ℤⁿ is finite. These are convex hulls of sets of points with integer coordinates.",
+    "proof_sketch": null,
+    "depends_on": [
+      "convex hull"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_an_affine_hyperplane",
+    "name": "Definition of an Affine Hyperplane",
+    "name_norm": "definition of an affine hyperplane",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "An affine hyperplane in ℝⁿ is defined by an equation of the form m·ν = −a, where ν is a nonzero vector in ℝⁿ and a is a real number.",
+    "proof_sketch": null,
+    "depends_on": [
+      "dot product"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_supporting_hyperplane_and_inward_normal",
+    "name": "Definition of Supporting Hyperplane and Inward Normal",
+    "name_norm": "definition of supporting hyperplane and inward normal",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "185"
+    ],
+    "statement": "For a polytope Q ⊂ ℝⁿ and a nonzero vector ν ∈ ℝⁿ, let a_Q(ν) = −min_{m∈Q} (m·ν). The equation m·ν = −a_Q(ν) is called a supporting hyperplane of Q, and ν is called an inward pointing normal.",
+    "proof_sketch": null,
+    "depends_on": [
+      "polytope",
+      "affine hyperplane",
+      "minimum"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "dirichlet_l_function",
+    "name": "Dirichlet L-function",
+    "name_norm": "dirichlet l-function",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "228"
+    ],
+    "statement": "For a Dirichlet character χ modulo N and Re(s) > 1, L(s, χ) = ∑_{n=1}^∞ χ(n) n^{-s} = ∏_{p prime} (1 - χ(p) p^{-s})^{-1}.",
+    "proof_sketch": "",
+    "depends_on": [
+      "dirichlet character"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "powers_with_integer_exponents",
+    "name": "Powers with Integer Exponents",
+    "name_norm": "powers with integer exponents",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "For a ∈ G: if n ≥ 0, a^n is the product of n copies of a (a^0 = 1, a^1 = a); if n < 0 with n = −m (m ≥ 0), then a^n = (a^m)^{−1}. In particular, a^{−1} is the inverse.",
+    "proof_sketch": "None.",
+    "depends_on": [
+      "group axioms"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "conjugacy_action_and_conjugacy_classes",
+    "name": "Conjugacy Action and Conjugacy Classes",
+    "name_norm": "conjugacy action and conjugacy classes",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "The action of G on itself by inner automorphisms is defined by g·x = gxg⁻¹ for all g, x ∈ G. The orbits under this action are the conjugacy classes of G; two elements are conjugate if they lie in the same conjugacy class.",
+    "proof_sketch": "",
+    "depends_on": [
+      "inner automorphism",
+      "group action definition"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_coordinate_ring_of_an_algebraic_set",
+    "name": "Definition of Coordinate Ring of an Algebraic Set",
+    "name_norm": "definition of coordinate ring of an algebraic set",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "The coordinate ring C(A) of an algebraic set A is the ring of all polynomial functions on A, with pointwise addition and multiplication. The field K is identified with the constant functions, making C(A) a ring extension of K generated by the coordinate functions.",
+    "proof_sketch": null,
+    "depends_on": [
+      "polynomial function",
+      "ring extension"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "zero_set_of_polynomials",
+    "name": "Zero set of polynomials",
+    "name_norm": "zero set of polynomials",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "Let K be a field and K its algebraic closure. For a set S ⊆ K[X1, ..., Xn], the zero set is Z(S) = { x ∈ K^n | f(x) = 0 for all f ∈ S }.",
+    "proof_sketch": "N/A",
+    "depends_on": [
+      "field",
+      "algebraic closure"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "algebraic_variety_definition",
+    "name": "Algebraic variety definition",
+    "name_norm": "algebraic variety definition",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "An algebraic set A ⊆ K^n is irreducible, or an algebraic variety, if A ≠ Ø and A is the zero set of a prime ideal.",
+    "proof_sketch": "",
+    "depends_on": [
+      "algebraic set",
+      "prime ideal"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "a_adic_filtration",
+    "name": "a-adic Filtration",
+    "name_norm": "a-adic filtration",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "For an ideal a of a commutative ring R, the a-adic filtration is the filtration a ⊇ a^2 ⊇ · · · ⊇ a^i ⊇ a^{i+1} ⊇ · · ·, where a^n is the ideal generated by all products a1···an with ai ∈ a.",
+    "proof_sketch": null,
+    "depends_on": [
+      "filtration"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "completion_relative_to_a_filtration",
+    "name": "Completion relative to a filtration",
+    "name_norm": "completion relative to a filtration",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "242"
+    ],
+    "statement": "Let A: a1 ⊇ a2 ⊇ · · · be a filtration on a commutative ring R. The completion of R relative to A is the ring R̂_A of all infinite sequences (x1 + a1, …, xi + ai, …) with xi ∈ R and xi + ai = xj + ai whenever j ≥ i (equivalently xi+1 ∈ xi + ai for all i ≥ 1). R̂_A is a subring of ∏ R/ai.",
+    "proof_sketch": null,
+    "depends_on": [
+      "filtration"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "transcendence_degree_of_an_algebra",
+    "name": "Transcendence degree of an algebra",
+    "name_norm": "transcendence degree of an algebra",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "256"
+    ],
+    "statement": "Let A be an algebra over a field K. The transcendence degree of A is defined as trdeg(A) := sup { |T| | T ⊆ A is finite and algebraically independent }, with trdeg(A) ∈ ℕ₀ ∪ {-1, ∞}, where -1 occurs if A = {0} is the zero ring (sup ∅ := -1).",
+    "proof_sketch": null,
+    "depends_on": [
+      "algebraically independent subset"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "r_algebra_homomorphism",
+    "name": "R-Algebra Homomorphism",
+    "name_norm": "r-algebra homomorphism",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "256"
+    ],
+    "statement": "An R-algebra homomorphism between R-algebras A (α: R→A) and B (β: R→B) is a ring homomorphism ϕ: A → B such that ϕ ∘ α = β.",
+    "proof_sketch": "None",
+    "depends_on": [
+      "r-algebra",
+      "ring homomorphism"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_lying_over_and_going_up",
+    "name": "Definition: Lying over and going up",
+    "name_norm": "definition: lying over and going up",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "256"
+    ],
+    "statement": "For an integral extension R ⊆ S, a prime ideal Q ∈ Spec(S) is said to lie over a prime ideal P ∈ Spec(R) if R ∩ Q = P. If additionally an ideal I ⊆ S is contained in Q, we say that we are going up from I.",
+    "proof_sketch": "None (definition)",
+    "depends_on": [
+      "prime ideal",
+      "integral extension"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "locally_principal_ideal",
+    "name": "Locally Principal Ideal",
+    "name_norm": "locally principal ideal",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "256"
+    ],
+    "statement": "A fractional ideal I of an integral domain R is called locally principal if for every prime ideal P ∈ Spec(R) the localization IP is a principal ideal of the local ring RP, i.e., IP = (a)RP for some a ∈ I.",
+    "proof_sketch": "None (definition introduced in Proposition 14.6(c)).",
+    "depends_on": [
+      "fractional ideal",
+      "localization at a prime ideal",
+      "principal ideal"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "initial_form_ideal",
+    "name": "Initial form ideal",
+    "name_norm": "initial form ideal",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "256"
+    ],
+    "statement": "For an ideal I ⊆ K[x1,…,xn], the initial form ideal is Iin := (fin | f ∈ I \\ {0}) in K[x1,…,xn].",
+    "proof_sketch": null,
+    "depends_on": [
+      "initial form"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "bilinear_form_definition",
+    "name": "Bilinear form definition",
+    "name_norm": "bilinear form definition",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "270"
+    ],
+    "statement": "Let R be a commutative ring and M a free R-module. A bilinear form ⟨ , ⟩ : M × M → R is a function that is linear in both arguments: (1) ⟨r₁m₁ + r₂m₂, m⟩ = r₁⟨m₁,m⟩ + r₂⟨m₂,m⟩, (2) ⟨m, r₁m₁ + r₂m₂⟩ = r₁⟨m,m₁⟩ + r₂⟨m,m₂⟩ for all r₁,r₂ ∈ R and m₁,m₂,m ∈ M.",
+    "proof_sketch": "None (definition)",
+    "depends_on": [
+      "commutative ring",
+      "free module",
+      "homomorphism"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  }
+]

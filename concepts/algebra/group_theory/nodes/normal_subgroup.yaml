@@ -1,0 +1,110 @@
+id: "normal_subgroup"
+name:
+  en: "Normal Subgroup"
+  zh: "正规子群"
+type: "definition"
+
+description:
+  en: "A subgroup N of G is normal (denoted N ⊴ G) if it is invariant under conjugation by any element of G. Normal subgroups are precisely the kernels of homomorphisms and the subgroups for which quotient groups can be formed."
+  zh: "子群 N ≤ G 称为正规子群（记作 N ⊴ G），如果它在 G 中任意元素的共轭作用下保持不变。正规子群恰好是同态的核，也是可以构造商群的子群。"
+
+depends:
+  required:
+    - subgroup
+    - group_homomorphism
+  recommended:
+    - kernel_of_homomorphism
+    - coset
+    - quotient_group
+  suggested:
+    - group_action
+    - sylow_theorems
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "I"
+    section: "I.5"
+    pages: "42-46"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 5.3"
+    statement_latex: |
+      N \\unlhd G \\text{ if and only if } gNg^{-1} = N \\text{ for all } g \\in G.
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "2"
+    section: "2.6"
+    pages: "42-48"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 2.40"
+    statement_latex: |
+      N \\unlhd G \\text{ if and only if } gNg^{-1} \\subseteq N \\text{ for all } g \\in G.
+
+statements:
+  - type: "definition"
+    name: "Equivalent Characterizations of Normal Subgroup"
+    name_zh: "正规子群的等价刻画"
+    latex: |
+      \\text{For a subgroup } N \\le G, \\text{ the following are equivalent:}
+      \\begin{enumerate}
+        \\item N \\unlhd G \\text{ (} gNg^{-1} \\subseteq N \\text{ for all } g \\in G \\text{)}
+        \\item gN = Ng \\text{ for all } g \\in G \\text{ (left and right cosets coincide)}
+        \\item N = \\ker(\\varphi) \\text{ for some homomorphism } \\varphi: G \\to H
+        \\item \\text{The set of left cosets } G/N \\text{ forms a group under } (aN)(bN) = (ab)N
+      \\end{enumerate}
+
+  - type: "theorem"
+    name: "Subgroup of Index 2 is Normal"
+    name_zh: "指数为2的子群是正规子群"
+    latex: |
+      \\text{If } H \\le G \\text{ and } [G : H] = 2, \\text{ then } H \\unlhd G.
+    proof_sketch: |
+      1. There are exactly two left cosets: H and gH (for g \\notin H), and exactly two right cosets: H and Hg.
+      2. The right cosets also partition G, so the non-identity coset must be Hg = gH.
+      3. Hence gH = Hg for all g \\in G, which implies H \\unlhd G.
+
+  - type: "example"
+    name: "Center is Normal"
+    name_zh: "中心是正规子群"
+    latex: |
+      Z(G) = \\{ z \\in G \\mid zg = gz \\text{ for all } g \\in G \\} \\unlhd G.
+
+  - type: "example"
+    name: "Alternating Group"
+    name_zh: "交错群"
+    latex: |
+      A_n \\unlhd S_n \\text{ with } [S_n : A_n] = 2.
+
+lean:
+  mathlib4_path: "Mathlib.Algebra.Group.Subgroup.Defs"
+  mathlib4_theorem: "Subgroup.Normal"
+  status: "complete"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.5.12"
+    description: "Prove every subgroup of index 2 is normal."
+    description_zh: "证明指数为2的子群必为正规子群。"
+    connects:
+      - coset
+      - quotient_group
+
+  - type: "bridge"
+    source: "GTM148"
+    number: "2.6.8"
+    description: "Show that the intersection of any collection of normal subgroups of G is again a normal subgroup of G."
+    description_zh: "证明 G 的任意多个正规子群的交仍是 G 的正规子群。"
+    connects:
+      - subgroup
+      - quotient_group
+
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.5.15"
+    description: "Prove that if N ⊴ G and H ≤ G, then N ∩ H ⊴ H."
+    description_zh: "证明若 N ⊴ G 且 H ≤ G，则 N ∩ H ⊴ H。"
+    connects:
+      - subgroup
+      - second_isomorphism_theorem

@@ -1,0 +1,64 @@
+id: "monoid"
+name:
+  en: "Monoid"
+  zh: "幺半群"
+type: "definition"
+
+depends:
+  required: ["semigroup"]
+  recommended: []
+  suggested: ["binary_operation", "set_and_function"]
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "I"
+    section: "I.1"
+    pages: "27-30"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 1.5"
+    statement_latex: "A monoid is a semigroup (M,\\ast) which contains an element e \\in M such that e \\ast a = a \\ast e = a for all a \\in M. The element e is called the identity element of M."
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "1"
+    section: "1.1"
+    pages: "7-10"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 1.4"
+    statement_latex: "A monoid is a triple (M,\\ast,e) where (M,\\ast) is a semigroup and e \\in M is an identity element satisfying e \\ast a = a = a \\ast e for all a \\in M."
+
+statements:
+  - type: "definition"
+    name: "Monoid"
+    latex: |
+      \\text{A monoid } (M,\\ast,e) \\text{ is a semigroup } (M,\\ast) \\text{ with an identity element } e \\in M \\text{ such that } \\forall a \\in M, e \\ast a = a \\ast e = a.
+
+  - type: "theorem"
+    name: "Uniqueness of Identity"
+    latex: |
+      \\text{The identity element of a monoid is unique. If } e \\text{ and } e' \\text{ are both identity elements, then } e = e \\ast e' = e'.
+
+  - type: "example"
+    name: "Trivial Monoid"
+    latex: |
+      (\\{e\\}, \\ast, e) \\text{ where } e \\ast e = e \\text{ is the trivial monoid.}
+
+  - type: "example"
+    name: "Integers under Multiplication"
+    latex: |
+      (\\mathbb{Z}, \\cdot, 1) \\text{ is a monoid with identity } 1 \\text{. Note that } (\\mathbb{Z}, \\cdot) \\text{ is not a group because } 2 \\text{ has no multiplicative inverse in } \\mathbb{Z}.
+
+lean:
+  mathlib4_path: "Mathlib.Algebra.Group.Defs"
+  mathlib4_theorem: "Monoid"
+  status: "complete"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.1.10"
+    description: "Prove the identity element of a monoid is unique. Show that if e and e' are both identities, then e = e'."
+    connects:
+      - "uniqueness"
+      - "semigroup"

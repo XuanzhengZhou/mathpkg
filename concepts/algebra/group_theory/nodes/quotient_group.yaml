@@ -1,0 +1,102 @@
+id: "quotient_group"
+name:
+  en: "Quotient Group"
+  zh: "商群"
+type: "definition"
+
+description:
+  en: "For a normal subgroup N of G, the quotient group G/N is the set of left cosets {gN | g ∈ G} with group operation (aN)(bN) = (ab)N. The natural projection π: G → G/N is a surjective homomorphism with kernel N."
+  zh: "对于 G 的正规子群 N，商群 G/N 是左陪集的集合 {gN | g ∈ G}，群运算为 (aN)(bN) = (ab)N。自然投影 π: G → G/N 是满同态，且 ker(π) = N。"
+
+depends:
+  required:
+    - normal_subgroup
+    - coset
+  recommended:
+    - group_homomorphism
+    - kernel_of_homomorphism
+  suggested:
+    - first_isomorphism_theorem
+    - second_isomorphism_theorem
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "I"
+    section: "I.5"
+    pages: "42-46"
+    approach: "abstract_axiomatic"
+    theorem_number: "Theorem 5.4"
+    statement_latex: |
+      \\text{Let } N \\unlhd G. \\text{ Then } G/N = \\{ gN \\mid g \\in G \\} \\text{ is a group under } (aN)(bN) = (ab)N.
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "2"
+    section: "2.8"
+    pages: "52-58"
+    approach: "abstract_axiomatic"
+    theorem_number: "Theorem 2.52"
+    statement_latex: |
+      \\text{If } N \\unlhd G, \\text{ the set of cosets } G/N \\text{ forms a group called the quotient group.}
+
+statements:
+  - type: "definition"
+    name: "Quotient Group Construction"
+    name_zh: "商群构造"
+    latex: |
+      G/N = \\{ gN \\mid g \\in G \\}, \\quad (aN)(bN) = (ab)N, \\quad (gN)^{-1} = g^{-1}N, \\quad e_{G/N} = N.
+    proof_sketch: |
+      1. The operation is well-defined because N is normal: if aN = a'N and bN = b'N, then a' = an_1, b' = bn_2 for some n_1,n_2 \\in N. Then (a'N)(b'N) = (an_1 bn_2)N = (ab(b^{-1}n_1 b)n_2)N = (ab)N since b^{-1}n_1 b \\in N.
+      2. Associativity follows from associativity in G.
+      3. N = eN serves as the identity: N \\cdot gN = (eN)(gN) = (eg)N = gN.
+      4. (gN)^{-1} = g^{-1}N is the inverse.
+
+  - type: "theorem"
+    name: "Natural Projection"
+    name_zh: "自然投影"
+    latex: |
+      \\pi: G \\to G/N, \\quad \\pi(g) = gN \\text{ is a surjective homomorphism with } \\ker(\\pi) = N.
+    proof_sketch: |
+      1. Homomorphism: \\pi(ab) = (ab)N = (aN)(bN) = \\pi(a)\\pi(b).
+      2. Surjective: every coset gN is \\pi(g).
+      3. Kernel: \\pi(g) = N \\iff gN = N \\iff g \\in N, so \\ker(\\pi) = N.
+
+  - type: "theorem"
+    name: "Universal Property of Quotient"
+    name_zh: "商群的泛性质"
+    latex: |
+      \\text{If } \\varphi: G \\to H \\text{ is a homomorphism with } N \\subseteq \\ker(\\varphi), \\text{ then there exists a unique } \\overline{\\varphi}: G/N \\to H \\text{ such that } \\overline{\\varphi} \\circ \\pi = \\varphi.
+
+lean:
+  mathlib4_path: "Mathlib.GroupTheory.QuotientGroup.Basic"
+  mathlib4_theorem: "QuotientGroup.quotient"
+  status: "complete"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.5.8"
+    description: "Show that G/Z(G) ≅ Inn(G) where Z(G) is the center of G."
+    description_zh: "证明 G/Z(G) ≅ Inn(G)，其中 Z(G) 是 G 的中心。"
+    connects:
+      - group_isomorphism
+      - first_isomorphism_theorem
+
+  - type: "bridge"
+    source: "GTM148"
+    number: "2.8.15"
+    description: "If G/N is abelian, prove that N contains the commutator subgroup G'."
+    description_zh: "若 G/N 是阿贝尔群，证明 N 包含换位子群 G'。"
+    connects:
+      - abelian_group
+      - normal_subgroup
+
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.5.18"
+    description: "Prove that (G × H) / (N × K) ≅ (G/N) × (H/K) for N ⊴ G, K ⊴ H."
+    description_zh: "证明 (G × H) / (N × K) ≅ (G/N) × (H/K)，其中 N ⊴ G, K ⊴ H。"
+    connects:
+      - group_isomorphism
+      - first_isomorphism_theorem

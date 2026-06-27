@@ -1,0 +1,71 @@
+id: "subgroup"
+name:
+  en: "Subgroup"
+  zh: "子群"
+type: "definition"
+
+depends:
+  required: ["group"]
+  recommended: []
+  suggested: ["monoid", "binary_operation", "set_and_function"]
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "I"
+    section: "I.2"
+    pages: "31-35"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 2.1"
+    statement_latex: "Let G be a group and H a nonempty subset of G. Then H is a subgroup of G, denoted H \\leq G, if H is closed under the binary operation of G and H itself forms a group under that operation."
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "1"
+    section: "1.2"
+    pages: "20-30"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 1.7"
+    statement_latex: "A subset H of a group G is a subgroup if (i) 1 \\in H, (ii) H is closed under multiplication: a,b \\in H \\implies ab \\in H, (iii) H is closed under inverses: a \\in H \\implies a^{-1} \\in H."
+
+statements:
+  - type: "definition"
+    name: "Subgroup"
+    latex: |
+      \\text{A nonempty subset } H \\subseteq G \\text{ of a group } G \\text{ is a subgroup, denoted } H \\leq G, \\text{ if:} \\\\
+      \\text{(1) } \\forall a,b \\in H, ab \\in H \\text{ (closure under multiplication);} \\\\
+      \\text{(2) } \\forall a \\in H, a^{-1} \\in H \\text{ (closure under inverses).}
+
+  - type: "theorem"
+    name: "Efficient Subgroup Criterion"
+    latex: |
+      \\text{Let } G \\text{ be a group and } H \\subseteq G \\text{ a nonempty subset. Then } H \\leq G \\iff \\forall a,b \\in H, ab^{-1} \\in H.
+
+  - type: "theorem"
+    name: "Intersection of Subgroups"
+    latex: |
+      \\text{Let } \\{H_i\\}_{i \\in I} \\text{ be a nonempty collection of subgroups of } G. \\text{ Then } \\bigcap_{i \\in I} H_i \\leq G.
+
+  - type: "example"
+    name: "Trivial Subgroup"
+    latex: |
+      \\{e\\} \\leq G \\text{ and } G \\leq G \\text{ are the trivial (improper) subgroups of } G.
+
+  - type: "example"
+    name: "Center is a Subgroup"
+    latex: |
+      Z(G) = \\{g \\in G \\mid gx = xg \\text{ for all } x \\in G\\} \\leq G.
+
+lean:
+  mathlib4_path: "Mathlib.Algebra.Group.Subgroup.Defs"
+  mathlib4_theorem: "Subgroup"
+  status: "complete"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.2.3"
+    description: "Prove that the intersection of any nonempty collection of subgroups of G is itself a subgroup of G."
+    connects:
+      - "group"
+      - "set_intersection"

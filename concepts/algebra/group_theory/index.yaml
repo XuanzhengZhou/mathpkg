@@ -1,0 +1,46 @@
+source:
+  name: mathpkg-core
+  version: "0.1.0"
+  description: "MathPkg Core Knowledge Graph — Group Theory"
+  maintainer: "mathpkg"
+  license: "Apache-2.0"
+
+topics:
+  - id: group_theory
+    name:
+      en: "Group Theory"
+      zh: "群论"
+    description:
+      en: "Foundations of group theory, from basic definitions through Lagrange's theorem, Cayley's theorem, and the orbit-stabilizer theorem. Covers the standard material of a first course in abstract algebra."
+      zh: "群论基础，从基本定义到拉格朗日定理、凯莱定理和轨道-稳定子定理。涵盖抽象代数入门课程的标准内容。"
+    concepts:
+      # Root foundations
+      - set_and_function          # C01: 集合与函数（根节点）
+      # Algebraic structure chain
+      - binary_operation          # C02: 二元运算
+      - semigroup                 # C03: 半群
+      - monoid                    # C04: 幺半群
+      - group                     # C05: 群
+      - abelian_group             # C06: 阿贝尔群
+      # Substructure
+      - subgroup                  # C07: 子群
+      # Structure-preserving maps
+      - group_homomorphism        # C08: 群同态
+      - kernel_of_homomorphism    # C09: 同态的核
+      - image_of_homomorphism     # C10: 同态的像
+      # Normal structure and quotients
+      - normal_subgroup           # C11: 正规子群
+      - coset                     # C12: 陪集
+      - quotient_group            # C13: 商群
+      - group_isomorphism         # C14: 群同构
+      # Fundamental theorems
+      - first_isomorphism_theorem # C15: 第一同构定理
+      # Important classes of groups
+      - symmetric_group           # C16: 对称群
+      - cyclic_group              # C17: 循环群
+      # Group actions
+      - group_action              # C18: 群作用
+      # Major structure theorems
+      - lagrange_theorem          # C19: 拉格朗日定理 ★
+      - cayley_theorem            # C20: 凯莱定理
+      - orbit_stabilizer_theorem  # C21: 轨道-稳定子定理

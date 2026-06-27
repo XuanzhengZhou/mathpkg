@@ -1,0 +1,113 @@
+id: "group_action"
+name:
+  en: "Group Action"
+  zh: "群作用"
+type: "definition"
+
+description:
+  en: "A (left) group action of G on a set X is a map G × X → X, (g, x) ↦ g·x satisfying identity and compatibility axioms. Group actions provide the natural language for symmetry, orbits, stabilizers, and counting arguments like Burnside's lemma."
+  zh: "群 G 在集合 X 上的（左）作用是映射 G × X → X, (g, x) ↦ g·x，满足单位元和相容性公理。群作用提供了对称性、轨道、稳定子群以及 Burnside 引理等计数论证的自然语言。"
+
+depends:
+  required:
+    - group
+    - symmetric_group
+  recommended:
+    - subgroup
+    - group_homomorphism
+  suggested:
+    - orbit_stabilizer_theorem
+    - cayley_theorem
+    - sylow_theorems
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "II"
+    section: "II.4"
+    pages: "88-92"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 4.1"
+    statement_latex: |
+      \\text{A left action of } G \\text{ on } X \\text{ is } G \\times X \\to X, (g,x) \\mapsto g \\cdot x \\text{ satisfying: } e \\cdot x = x, \\; (gh) \\cdot x = g \\cdot (h \\cdot x).
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "3"
+    section: "3.1"
+    pages: "90-96"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 3.1"
+    statement_latex: |
+      \\text{A group action of } G \\text{ on } X \\text{ is a homomorphism } G \\to \\operatorname{Sym}(X).
+
+statements:
+  - type: "definition"
+    name: "Orbit and Stabilizer"
+    name_zh: "轨道与稳定子群"
+    latex: |
+      \\text{Orbit: } \\operatorname{Orb}(x) = \\{ g \\cdot x \\mid g \\in G \\} \\subseteq X. \\\\[4pt]
+      \\text{Stabilizer: } \\operatorname{Stab}(x) = \\{ g \\in G \\mid g \\cdot x = x \\} \\le G. \\\\[4pt]
+      \\text{Fixed points of } g: \\operatorname{Fix}(g) = \\{ x \\in X \\mid g \\cdot x = x \\}.
+
+  - type: "theorem"
+    name: "Orbits Partition X"
+    name_zh: "轨道划分 X"
+    latex: |
+      \\text{The relation } x \\sim y \\iff \\exists g \\in G, g \\cdot x = y \\text{ is an equivalence relation. The equivalence classes are the orbits, so they partition } X.
+    proof_sketch: |
+      1. Reflexive: e \\cdot x = x, so x \\sim x.
+      2. Symmetric: if g \\cdot x = y, then g^{-1} \\cdot y = x.
+      3. Transitive: if g \\cdot x = y and h \\cdot y = z, then (hg) \\cdot x = z.
+      4. Hence ~ is an equivalence relation, and its classes (the orbits) partition X.
+
+  - type: "definition"
+    name: "Transitive and Faithful Actions"
+    name_zh: "传递作用与忠实作用"
+    latex: |
+      \\text{Transitive: there is exactly one orbit (} \\forall x,y \\in X, \\exists g \\in G, g \\cdot x = y \\text{).} \\\\[4pt]
+      \\text{Faithful: the homomorphism } G \\to \\operatorname{Sym}(X) \\text{ is injective (} g \\cdot x = x \\; \\forall x \\implies g = e \\text{).}
+
+  - type: "theorem"
+    name: "Burnside's Lemma"
+    name_zh: "Burnside 引理"
+    latex: |
+      \\text{Number of orbits } = \\frac{1}{|G|} \\sum_{g \\in G} |\\operatorname{Fix}(g)|.
+    proof_sketch: |
+      1. Count pairs (g, x) with g \\cdot x = x in two ways: \\sum_{g} |\\operatorname{Fix}(g)| = \\sum_{x} |\\operatorname{Stab}(x)|.
+      2. By orbit-stabilizer, |\\operatorname{Stab}(x)| = |G| / |\\operatorname{Orb}(x)|.
+      3. Sum over representatives: \\sum_{x} 1/|\\operatorname{Orb}(x)| = (number of orbits).
+      4. Combine to get the formula.
+
+lean:
+  mathlib4_path: "Mathlib.GroupTheory.GroupAction.Basic"
+  mathlib4_theorem: "MulAction"
+  status: "complete"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "II.4.3"
+    description: "Classify the orbits and stabilizers of the action of D_4 on the vertices of a square."
+    description_zh: "分类二面体群 D_4 作用在正方形顶点上的轨道和稳定子群。"
+    connects:
+      - orbit_stabilizer_theorem
+      - dihedral_group
+
+  - type: "bridge"
+    source: "GTM148"
+    number: "3.1.12"
+    description: "Prove that the stabilizers of points in the same orbit are conjugate: Stab(g·x) = g Stab(x) g^{-1}."
+    description_zh: "证明同一轨道中点的稳定子群共轭：Stab(g·x) = g Stab(x) g^{-1}。"
+    connects:
+      - normal_subgroup
+      - orbit_stabilizer_theorem
+
+  - type: "bridge"
+    source: "GTM073"
+    number: "II.4.8"
+    description: "Show that the action of G on itself by conjugation has orbits = conjugacy classes and stabilizers = centralizers."
+    description_zh: "证明 G 在自身上通过共轭作用的轨道是共轭类，稳定子群是中心化子。"
+    connects:
+      - class_equation
+      - sylow_theorems

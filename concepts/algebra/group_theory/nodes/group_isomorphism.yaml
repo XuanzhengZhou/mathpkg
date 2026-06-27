@@ -1,0 +1,96 @@
+id: "group_isomorphism"
+name:
+  en: "Group Isomorphism"
+  zh: "群同构"
+type: "definition"
+
+description:
+  en: "A group homomorphism φ: G → H is an isomorphism if it is bijective. Two groups G and H are isomorphic (G ≅ H) if there exists an isomorphism between them. Isomorphic groups have identical algebraic structure."
+  zh: "群同态 φ: G → H 如果既是单射又是满射，则称为同构。如果存在群同构 G → H，则称 G 和 H 同构（记作 G ≅ H）。同构的群具有完全相同的代数结构。"
+
+depends:
+  required:
+    - group_homomorphism
+  recommended:
+    - subgroup
+    - kernel_of_homomorphism
+    - image_of_homomorphism
+  suggested:
+    - first_isomorphism_theorem
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "I"
+    section: "I.5"
+    pages: "40-45"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 5.5"
+    statement_latex: |
+      \\varphi: G \\to H \\text{ is an isomorphism if } \\varphi \\text{ is a bijective homomorphism. } G \\cong H \\text{ means there exists an isomorphism } G \\to H.
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "2"
+    section: "2.4"
+    pages: "34-40"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 2.30"
+    statement_latex: |
+      G \\cong H \\text{ (} G \\text{ is isomorphic to } H \\text{) if there exists a bijective homomorphism } \\varphi: G \\to H.
+
+statements:
+  - type: "theorem"
+    name: "Isomorphism is an Equivalence Relation"
+    name_zh: "同构是等价关系"
+    latex: |
+      \\text{For groups: } G \\cong G \\text{ (reflexive); } G \\cong H \\implies H \\cong G \\text{ (symmetric); } G \\cong H \\text{ and } H \\cong K \\implies G \\cong K \\text{ (transitive).}
+    proof_sketch: |
+      1. Reflexive: identity map id_G is an isomorphism.
+      2. Symmetric: if φ: G → H is an isomorphism, then φ^{-1}: H → G is also a homomorphism and bijective.
+      3. Transitive: if φ: G → H and ψ: H → K are isomorphisms, then ψ∘φ: G → K is an isomorphism.
+
+  - type: "theorem"
+    name: "Isomorphic Groups Have the Same Algebraic Properties"
+    name_zh: "同构群具有相同的代数性质"
+    latex: |
+      \\text{If } G \\cong H, \\text{ then: } |G| = |H|; G \\text{ is abelian } \\iff H \\text{ is abelian; } G \\text{ is cyclic } \\iff H \\text{ is cyclic; the subgroup lattices are isomorphic.}
+
+  - type: "theorem"
+    name: "Classification of Finite Groups"
+    name_zh: "有限群的分类"
+    latex: |
+      \\text{Up to isomorphism, a group of order } n \\text{ has finitely many possibilities.} \\\\[4pt]
+      \\text{In particular: there is exactly one group of order 1, groups of prime order are unique (cyclic),} \\\\
+      \\text{and there are exactly 2 groups of order } p^2 \\text{ for prime } p.
+
+lean:
+  mathlib4_path: "Mathlib.Algebra.Group.Defs"
+  mathlib4_theorem: "MulEquiv"
+  status: "complete"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.5.2"
+    description: "Show that all cyclic groups of order n are isomorphic to ℤ/nℤ."
+    description_zh: "证明所有 n 阶循环群都同构于 ℤ/nℤ。"
+    connects:
+      - cyclic_group
+
+  - type: "bridge"
+    source: "GTM148"
+    number: "2.4.10"
+    description: "Prove that Aut(ℤ) ≅ {±1} and Aut(ℤ/nℤ) ≅ (ℤ/nℤ)^×."
+    description_zh: "证明 Aut(ℤ) ≅ {±1} 且 Aut(ℤ/nℤ) ≅ (ℤ/nℤ)^×。"
+    connects:
+      - cyclic_group
+      - group_action
+
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.5.6"
+    description: "Show that G is abelian if and only if the map g ↦ g^{-1} is an automorphism of G."
+    description_zh: "证明 G 是阿贝尔群当且仅当映射 g ↦ g^{-1} 是 G 的自同构。"
+    connects:
+      - abelian_group

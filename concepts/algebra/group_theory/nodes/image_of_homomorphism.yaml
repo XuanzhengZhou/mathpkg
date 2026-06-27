@@ -1,0 +1,87 @@
+id: "image_of_homomorphism"
+name:
+  en: "Image of a Homomorphism"
+  zh: "同态的像"
+type: "definition"
+
+description:
+  en: "The image of a group homomorphism φ: G → H is the set of all values φ(g) for g ∈ G. The image is always a subgroup of the codomain H, but not necessarily normal."
+  zh: "群同态 φ: G → H 的像是所有 φ(g) (g ∈ G) 的集合。像总是陪域 H 的子群，但不一定是正规的。"
+
+depends:
+  required:
+    - group_homomorphism
+    - subgroup
+  recommended:
+    - kernel_of_homomorphism
+    - normal_subgroup
+  suggested:
+    - first_isomorphism_theorem
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "I"
+    section: "I.5"
+    pages: "40-45"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 5.2"
+    statement_latex: |
+      \\operatorname{im}(\\varphi) = \\{ \\varphi(g) \\mid g \\in G \\} \\le H.
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "2"
+    section: "2.5"
+    pages: "38-42"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 2.36"
+    statement_latex: |
+      \\operatorname{im}(\\varphi) = \\{ \\varphi(g) : g \\in G \\} \\le H.
+
+statements:
+  - type: "theorem"
+    name: "Image is a Subgroup"
+    name_zh: "像是子群"
+    latex: |
+      \\text{Let } \\varphi: G \\to H \\text{ be a group homomorphism. Then } \\operatorname{im}(\\varphi) \\le H.
+    proof_sketch: |
+      1. Nonempty: \\varphi(e_G) = e_H \\in \\operatorname{im}(\\varphi).
+      2. Closed under product: \\varphi(a)\\varphi(b) = \\varphi(ab) \\in \\operatorname{im}(\\varphi).
+      3. Closed under inverse: \\varphi(a)^{-1} = \\varphi(a^{-1}) \\in \\operatorname{im}(\\varphi).
+      4. Therefore \\operatorname{im}(\\varphi) \\le H.
+
+  - type: "theorem"
+    name: "Surjectivity Criterion via Image"
+    name_zh: "通过像判断满同态"
+    latex: |
+      \\text{A homomorphism } \\varphi: G \\to H \\text{ is surjective if and only if } \\operatorname{im}(\\varphi) = H.
+
+  - type: "remark"
+    name: "Image Need Not Be Normal"
+    name_zh: "像未必是正规子群"
+    latex: |
+      \\text{The image of a homomorphism is not necessarily a normal subgroup of } H. \\text{ Example: embed a non-normal subgroup via inclusion.}
+
+lean:
+  mathlib4_path: "Mathlib.Algebra.Group.Subgroup.Basic"
+  mathlib4_theorem: "MonoidHom.range"
+  status: "complete"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.5.11"
+    description: "Prove that \\operatorname{im}(\\varphi) is a subgroup of H but not necessarily normal. Give a counterexample."
+    description_zh: "证明 im(φ) 是 H 的子群但未必是正规子群，并给出反例。"
+    connects:
+      - normal_subgroup
+
+  - type: "bridge"
+    source: "GTM148"
+    number: "2.5.7"
+    description: "Show that if φ: G → H is a homomorphism and K ≤ G, then φ(K) ≤ H. Is φ(K) normal if K is normal?"
+    description_zh: "证明若 φ: G → H 是同态且 K ≤ G，则 φ(K) ≤ H。若 K 是正规子群，φ(K) 是否一定是正规子群？"
+    connects:
+      - normal_subgroup
+      - quotient_group

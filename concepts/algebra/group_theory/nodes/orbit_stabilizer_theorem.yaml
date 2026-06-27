@@ -1,0 +1,89 @@
+id: "orbit_stabilizer_theorem"
+name:
+  en: "Orbit-Stabilizer Theorem"
+  zh: "轨道-稳定子定理"
+type: "theorem"
+
+description:
+  en: "A fundamental counting result for group actions: the size of an orbit times the size of its stabilizer equals the order of the group. This theorem unifies Lagrange's theorem, the class equation, and Burnside's lemma as special cases."
+  zh: "群作用的基本计数结论：轨道的大小乘以稳定子的大小等于群的阶。该定理将拉格朗日定理、类方程和伯恩赛德引理统一为特殊情形。"
+
+depends:
+  required:
+    - group_action
+    - lagrange_theorem
+  recommended:
+    - coset
+    - quotient_group
+  suggested:
+    - symmetric_group
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "II"
+    section: "II.4"
+    pages: "88-92"
+    approach: "abstract_axiomatic"
+    theorem_number: "Theorem 4.3"
+    statement_latex: |
+      \\text{Let } G \\text{ act on a set } X \\text{ and let } x \\in X.
+      \\text{ Then } |G| = |\\operatorname{Orb}(x)| \\cdot |\\operatorname{Stab}(x)|.
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "3"
+    section: "3.5"
+    pages: "105-109"
+    approach: "abstract_axiomatic"
+    theorem_number: "Theorem 3.49"
+    statement_latex: |
+      \\text{For any } x \\in X, \\text{ the map } G/\\operatorname{Stab}(x) \\to \\operatorname{Orb}(x)
+      \\text{ given by } g\\operatorname{Stab}(x) \\mapsto g \\cdot x \\text{ is a bijection}.
+      \\text{ Hence } |\\operatorname{Orb}(x)| = [G : \\operatorname{Stab}(x)].
+
+statements:
+  - type: "theorem"
+    name: "Orbit-Stabilizer Theorem"
+    latex: |
+      \\text{Let } G \\text{ be a finite group acting on a set } X \\text{ and let } x \\in X.
+      \\\\
+      \\text{Define the } \\textit{orbit} \\; \\operatorname{Orb}(x) = \\{g \\cdot x \\mid g \\in G\\} \\subseteq X.
+      \\\\
+      \\text{Define the } \\textit{stabilizer} \\; \\operatorname{Stab}(x) = \\{g \\in G \\mid g \\cdot x = x\\} \\leq G.
+      \\\\
+      \\text{Then: } \\; |G| = |\\operatorname{Orb}(x)| \\cdot |\\operatorname{Stab}(x)|.
+    proof_sketch: |
+      1. \\textbf{Stabilizer is a subgroup:} e \\cdot x = x \\implies e \\in \\operatorname{Stab}(x). If g, h \\in \\operatorname{Stab}(x), then (gh^{-1}) \\cdot x = g \\cdot (h^{-1} \\cdot x). Since h \\cdot x = x, we have h^{-1} \\cdot x = x, so (gh^{-1}) \\cdot x = g \\cdot x = x. Hence gh^{-1} \\in \\operatorname{Stab}(x). So \\operatorname{Stab}(x) \\leq G.
+      2. \\textbf{Define the map:} Consider \\varphi: G/\\operatorname{Stab}(x) \\to \\operatorname{Orb}(x) defined by \\varphi(g\\operatorname{Stab}(x)) = g \\cdot x.
+      3. \\textbf{Well-defined:} If g\\operatorname{Stab}(x) = h\\operatorname{Stab}(x), then h^{-1}g \\in \\operatorname{Stab}(x), so (h^{-1}g) \\cdot x = x. Applying h to both sides: g \\cdot x = h \\cdot x. Hence \\varphi(g\\operatorname{Stab}(x)) = \\varphi(h\\operatorname{Stab}(x)).
+      4. \\textbf{Injective:} If g \\cdot x = h \\cdot x, then (h^{-1}g) \\cdot x = x, so h^{-1}g \\in \\operatorname{Stab}(x). Hence g\\operatorname{Stab}(x) = h\\operatorname{Stab}(x).
+      5. \\textbf{Surjective:} For any g \\cdot x \\in \\operatorname{Orb}(x), the preimage is g\\operatorname{Stab}(x).
+      6. \\textbf{Apply Lagrange:} By the bijection, |\\operatorname{Orb}(x)| = |G/\\operatorname{Stab}(x)| = [G:\\operatorname{Stab}(x)]. By Lagrange's theorem: |G| = [G:\\operatorname{Stab}(x)] \\cdot |\\operatorname{Stab}(x)| = |\\operatorname{Orb}(x)| \\cdot |\\operatorname{Stab}(x)|.
+
+  - type: "corollary"
+    name: "Class Equation"
+    latex: |
+      \\text{For a finite group } G: \\; |G| = |Z(G)| + \\sum_{i=1}^{k} [G : C_G(g_i)]
+      \\\\
+      \\text{where } Z(G) \\text{ is the center, and } g_1, \\ldots, g_k \\text{ are representatives}
+      \\text{ of the non-central conjugacy classes.}
+
+lean:
+  mathlib4_path: "Mathlib.GroupTheory.GroupAction.Quotient"
+  mathlib4_theorem: "MulAction.card_orbit_mul_card_stabilizer_eq_card_group"
+  status: "complete"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "II.4.10"
+    description: "Derive the class equation from the orbit-stabilizer theorem by considering the conjugation action of G on itself."
+    connects:
+      - group_action
+  - type: "bridge"
+    source: "GTM148"
+    number: "3.52"
+    description: "Let G be a finite group of order p^n (p prime) acting on a finite set X. Prove that |X| ≡ |Fix(X)| (mod p), where Fix(X) = {x∈X | g·x=x ∀g∈G}. This is the Fixed Point Congruence."
+    connects:
+      - lagrange_theorem

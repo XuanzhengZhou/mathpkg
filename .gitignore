@@ -56,3 +56,21 @@ pipeline_output/def_reviews/
 pipeline_output/done_markers/
 pipeline_output/fix_results/
 pipeline_output/skel_done/
+
+# 本地工作文件（不上传）
+HANDOVER.md
+CLAUDE.md
+memory/
+*.old
+*.old_scanned
+
+# API密钥 — 绝对不上传
+# 任何含sk-的文件都要检查
+
+
+# 概念提取结果 — 上传结构，排除临时标记
+pipeline_output/concepts_v7/*/.done
+pipeline_output/concepts_v7/*/.fail
+pipeline_output/concepts_v7/*/.lean.done
+pipeline_output/concepts_v7/*/.lean.fail
+

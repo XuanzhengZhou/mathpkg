@@ -1,0 +1,69 @@
+id: "group"
+name:
+  en: "Group"
+  zh: "群"
+type: "definition"
+
+depends:
+  required: ["monoid"]
+  recommended: ["semigroup"]
+  suggested: ["binary_operation", "set_and_function"]
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "I"
+    section: "I.1"
+    pages: "27-30"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 1.7"
+    statement_latex: "A group is a monoid (G,\\ast,e) such that for every a \\in G there exists an element a^{-1} \\in G, called the inverse of a, with the property a \\ast a^{-1} = a^{-1} \\ast a = e."
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "1"
+    section: "1.1"
+    pages: "10-18"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 1.5"
+    statement_latex: "A group is a set G with a binary operation \\ast: G \\times G \\to G satisfying: (i) associativity: (a \\ast b) \\ast c = a \\ast (b \\ast c); (ii) identity: \\exists e \\in G, \\forall a \\in G, e \\ast a = a \\ast e = a; (iii) inverses: \\forall a \\in G, \\exists a^{-1} \\in G, a \\ast a^{-1} = a^{-1} \\ast a = e."
+
+statements:
+  - type: "definition"
+    name: "Group"
+    latex: |
+      \\text{A group } (G,\\ast,e) \\text{ is a monoid where every element } a \\in G \\text{ has an inverse } a^{-1} \\in G \\text{ such that } a \\ast a^{-1} = a^{-1} \\ast a = e.
+
+  - type: "theorem"
+    name: "Inverse of Product"
+    latex: |
+      \\text{In any group } G, \\text{ for all } a,b \\in G, (a \\ast b)^{-1} = b^{-1} \\ast a^{-1}.
+
+  - type: "theorem"
+    name: "Cancellation Laws"
+    latex: |
+      \\text{In any group } G: \\text{ (Left) } a \\ast b = a \\ast c \\implies b = c; \\text{ (Right) } b \\ast a = c \\ast a \\implies b = c.
+
+  - type: "theorem"
+    name: "Uniqueness of Inverses"
+    latex: |
+      \\text{For each } a \\in G, \\text{ the inverse element } a^{-1} \\text{ is unique.}
+
+  - type: "example"
+    name: "Symmetric Group"
+    latex: |
+      S_n = \\{\\sigma: \\{1,\\ldots,n\\} \\to \\{1,\\ldots,n\\} \\mid \\sigma \\text{ is bijective}\\} \\text{ is a group under composition, called the symmetric group of degree } n.
+
+lean:
+  mathlib4_path: "Mathlib.Algebra.Group.Defs"
+  mathlib4_theorem: "Group"
+  status: "complete"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.1.15"
+    description: "Prove that in any group G, (ab)⁻¹ = b⁻¹a⁻¹ for all a,b∈G. Use the definition of inverse and associativity."
+    connects:
+      - "inverse"
+      - "monoid"

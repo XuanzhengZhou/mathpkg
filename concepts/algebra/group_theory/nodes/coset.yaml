@@ -1,0 +1,101 @@
+id: "coset"
+name:
+  en: "Coset"
+  zh: "陪集"
+type: "definition"
+
+description:
+  en: "For a subgroup H of G, a left coset is gH = {gh | h ∈ H} and a right coset is Hg = {hg | h ∈ H}. Cosets partition the group G into equal-sized pieces and form the foundation for Lagrange's theorem and quotient groups."
+  zh: "对于子群 H ≤ G，左陪集为 gH = {gh | h ∈ H}，右陪集为 Hg = {hg | h ∈ H}。陪集将群 G 划分为等大小的片，是拉格朗日定理和商群的基础。"
+
+depends:
+  required:
+    - subgroup
+  recommended:
+    - group
+  suggested:
+    - lagrange_theorem
+    - quotient_group
+
+versions:
+  - source: "GTM073"
+    author: "Hungerford"
+    chapter: "I"
+    section: "I.4"
+    pages: "34-40"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 4.1"
+    statement_latex: |
+      \\text{Left coset of } H: gH = \\{ gh \\mid h \\in H \\}. \\quad \\text{Right coset of } H: Hg = \\{ hg \\mid h \\in H \\}.
+
+  - source: "GTM148"
+    author: "Rotman"
+    chapter: "2"
+    section: "2.7"
+    pages: "48-52"
+    approach: "abstract_axiomatic"
+    theorem_number: "Definition 2.47"
+    statement_latex: |
+      \\text{If } H \\le G \\text{ and } g \\in G, \\text{ then } gH = \\{ gh : h \\in H \\} \\text{ is a left coset of } H.
+
+statements:
+  - type: "theorem"
+    name: "Coset Equality Criterion"
+    name_zh: "陪集相等判定"
+    latex: |
+      aH = bH \\iff a^{-1}b \\in H, \\qquad Ha = Hb \\iff ab^{-1} \\in H.
+    proof_sketch: |
+      1. If aH = bH, then b = b \\cdot e \\in bH = aH, so b = ah for some h \\in H, giving a^{-1}b = h \\in H.
+      2. If a^{-1}b \\in H, write a^{-1}b = h \\in H. Then b = ah, so for any bh' \\in bH, bh' = a(hh') \\in aH, giving bH \\subseteq aH. Similarly aH \\subseteq bH, so aH = bH.
+
+  - type: "theorem"
+    name: "Cosets Partition the Group"
+    name_zh: "陪集划分群"
+    latex: |
+      \\text{The left cosets of } H \\text{ in } G \\text{ form a partition of } G.
+    proof_sketch: |
+      1. Every g \\in G belongs to gH (since g = g \\cdot e \\in gH). So the cosets cover G.
+      2. If aH \\cap bH \\neq \\emptyset, pick x = ah_1 = bh_2 \\in aH \\cap bH. Then a^{-1}b = h_1 h_2^{-1} \\in H, so aH = bH by the equality criterion.
+      3. Thus any two cosets are either equal or disjoint.
+
+  - type: "theorem"
+    name: "All Cosets Have the Same Cardinality"
+    name_zh: "所有陪集等势"
+    latex: |
+      |gH| = |H| \\text{ for all } g \\in G.
+    proof_sketch: |
+      1. Define the map f: H \\to gH by f(h) = gh. This is surjective by definition of gH.
+      2. If gh_1 = gh_2, multiply by g^{-1} on the left to get h_1 = h_2. So f is injective.
+      3. Thus f is a bijection, so |gH| = |H|.
+
+lean:
+  mathlib4_path: "Mathlib.GroupTheory.Coset.Basic"
+  mathlib4_theorem: "Subgroup.mem_leftCoset"
+  status: "complete"
+
+exercises:
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.4.3"
+    description: "Prove two left cosets of H in G are either equal or disjoint."
+    description_zh: "证明 H 在 G 中的两个左陪集要么相等要么不交。"
+    connects:
+      - lagrange_theorem
+      - quotient_group
+
+  - type: "bridge"
+    source: "GTM148"
+    number: "2.7.12"
+    description: "Let H ≤ G and suppose g_1, ..., g_r are representatives of all distinct left cosets. Show G = \\bigsqcup_{i=1}^r g_i H."
+    description_zh: "设 H ≤ G，g_1, ..., g_r 是所有不同左陪集的代表元。证明 G = ⊔_{i=1}^r g_i H（无交并）。"
+    connects:
+      - lagrange_theorem
+
+  - type: "bridge"
+    source: "GTM073"
+    number: "I.4.7"
+    description: "If [G : H] = n, prove that for any g ∈ G, some power g^k ∈ H with 1 ≤ k ≤ n+1."
+    description_zh: "若 [G : H] = n，证明对任意 g ∈ G，存在某个 k (1 ≤ k ≤ n+1) 使得 g^k ∈ H。"
+    connects:
+      - lagrange_theorem
+      - cyclic_group
