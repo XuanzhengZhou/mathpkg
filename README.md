@@ -27,15 +27,31 @@ Knowledge graph (graph.db, apt-inspired pkgCache)
 Lean 4 formal verification code
 ```
 
-## 📊 Current Progress
+## 📊 v1 Release (2026-06-27)
 
-| Milestone | Status |
+| Metric | Count |
 |---|---|
-| Structural analysis | 300+ source sets, 4,482 optimal chunks |
-| Concept extraction test | 6,374 concepts across 10 source sets |
-| Mathlib4 index + matching | 204K entries, 71.6% auto-match |
-| Dependency graph generation | Pending |
-| Lean translation | Pending |
+| **Books processed** | 62 |
+| **Concepts extracted** | 27,855 |
+| **Proofs extracted** | 13,494 |
+| **Exercises extracted** | 6,500+ |
+| **Total size** | 538 MB |
+| **Format** | 5 files/concept: concept.yaml + theorem.tex + introduce.en.md + proof + exercise |
+
+### By Domain
+
+| Domain | Books | Concepts | Proofs |
+|---|---|---|---|
+| Algebra | 15 | 6,582 | 2,930 |
+| Analysis | 13 | 6,695 | 3,329 |
+| Topology | 8 | 3,344 | 1,611 |
+| Geometry | 5 | 2,219 | 987 |
+| Number Theory | 6 | 2,188 | 1,140 |
+| Probability | 6 | 1,861 | 1,114 |
+| Logic | 3 | 1,697 | 758 |
+| Foundations | 2 | 1,305 | 764 |
+| Applied Math | 2 | 1,078 | 484 |
+| Combinatorics | 1 | 886 | 377 |
 
 ## 🚀 Quick Start
 
@@ -60,17 +76,14 @@ python3 pipeline_output/ocr_healthcheck.py
 
 | Directory | Content |
 |---|---|
-| `mathpkg/` | Core library: graph DB, dependency resolver, source management, extraction pipeline |
-| `cmd/` | CLI tool (`math source/update/show/install/mark`) |
-| `pipeline_output/` | Pipeline tools (section split, Flash analysis, Mathlib4 grep, OCR health) |
-| `pipeline_output/math_pkg_release/` | Production outputs: 6,374 concepts (concepts_v7) |
-| `pipeline_output/data/` | Reference data (Mathlib4 index, book lists) |
+| `mathpkg/` | Core library: graph DB, dependency resolver, source management |
+| `mathpkg/math_pkg_release/` | 🔥 **v1 Release**: 27,855 concepts by domain (algebra, analysis, topology, etc.) |
+| `cmd/` | CLI tool |
 | `workflows/` | Agent workflow scripts for parallel concept extraction |
-| `tests/` | 28 unit tests |
-| `docs/` | Project documentation (architecture, technical, phase histories) |
-| `concepts/` | Hand-curated reference concepts for data model validation |
-| `lean/MathPkg/` | Lean 4 project with verified theorems and proof skeletons |
-| `legacy/` | Archived historical scripts, data, and checkpoint states |
+| `tests/` | Unit tests |
+| `concepts/` | Hand-curated reference concepts |
+| `lean/MathPkg/` | Lean 4 project with verified theorems |
+| `BATCH_TRACE.yaml` | Batch provenance for every concept |
 
 ## 🔬 Key Findings
 
