@@ -11,18 +11,39 @@ var BOOK_SLUG = args.book_slug
 
 phase('List')
 
-// Use Python with JSON to list sections (handles spaces/parens AND embedded newlines in filenames)
-var sectionsRaw = ''
-try {
-  var r = await agent(
-    'python3 -c "import os, json; print(json.dumps(sorted(f for f in os.listdir(\'' + BOOK_DIR + '\') if f.startswith(\'s\') and f.endswith(\'.md\'))))"',
-    { label: 'list', phase: 'List' }
-  )
-  sectionsRaw = r || '[]'
-} catch(e) {}
-
+// Write section file list to /tmp/v8_sections_{book}.json (avoids embedded-newline issues)
 var sectionFiles = []
-try { sectionFiles = JSON.parse(sectionsRaw) } catch(e) { log('JSON parse error for sections') }
+var sectionCount = 0
+try {
+  // Write section list + metadata to temp file
+  await agent(
+    'python3 -c "import os, json; files=sorted(f for f in os.listdir(\'' + BOOK_DIR + '\') if f.startswith(\'s\') and f.endswith(\'.md\')); json.dump({\'files\':files,\'dir\':\'' + BOOK_DIR + '\',\'staging\':\'' + STAGING + '\'}, open(\'/tmp/v8_sections_' + BOOK_SLUG + '.json\',\'w\')); print(\'OK:\'+str(len(files)))"',
+    { label: 'list-write', phase: 'List' }
+  )
+  // Get count by parsing agent output for "OK:N"
+  var prepOut = ''
+  try {
+    var r3 = await agent(
+      'python3 -c "import json; d=json.load(open(\'/tmp/v8_sections_' + BOOK_SLUG + '.json\')); print(len(d[\'files\']))"',
+      { label: 'count', phase: 'List' }
+    )
+    prepOut = r3 || ''
+  } catch(e2) {}
+  var m = prepOut.match(/\d+/)
+  sectionCount = m ? parseInt(m[0]) || 0 : 0
+  // Also try direct Python approach
+  if (sectionCount === 0) {
+    var r4 = await agent(
+      'python3 -c "import json; print(len(json.load(open(\'/tmp/v8_sections_' + BOOK_SLUG + '.json\'))[\'files\']))"',
+      { label: 'count2', phase: 'List' }
+    )
+    var m2 = (r4 || '0').match(/\d+/)
+    sectionCount = m2 ? parseInt(m2[0]) || 0 : 0
+  }
+  log(BOOK_SLUG + ': ' + sectionCount + ' sections')
+  // Build sectionFiles from count (used for loop iteration only)
+  for (var k = 0; k < sectionCount; k++) sectionFiles.push('idx-' + k)
+} catch(e) { log('List error: ' + (e.message || '')) }
 log(BOOK_SLUG + ': ' + sectionFiles.length + ' sections found')
 
 if (sectionFiles.length === 0) {
