@@ -1,0 +1,12 @@
+Let $\phi : E \to E$ be a linear transformation of a finite dimensional vector space $E$ over a field $K$. Then $E$ is $\phi$-cyclic and $\phi$ has minimal polynomial $q = x^r + a_{r-1}x^{r-1} + \cdots + a_0 \in K[x]$ if and only if $\dim_K E = r$ and $E$ has an ordered basis $V$ relative to which the matrix of $\phi$ is
+\[
+A = \begin{pmatrix}
+0 & 1_K & 0 & 0 & \cdots & 0 & 0 \\
+0 & 0 & 1_K & 0 & \cdots & 0 & 0 \\
+0 & 0 & 0 & 1_K & 0 & \cdots & 0 & 0 \\
+\vdots & & & & & & & \vdots \\
+0 & 0 & 0 & 0 & 0 & \cdots & 0 & 1_K \\
+-a_0 & -a_1 & -a_2 & -a_3 & -a_4 & \cdots & -a_{r-2} & -a_{r-1}
+\end{pmatrix}.
+\]
+The matrix $A$ is called the \textbf{companion matrix} of the monic polynomial $q \in K[x]$. In this case $V = \{v, \phi(v), \phi^2(v), \ldots, \phi^{r-1}(v)\}$ for some $v \in E$.

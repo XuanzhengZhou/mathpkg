@@ -1,0 +1,1 @@
+Use the Jordan-Holder Theorem (Theorem VIII.1.11) or argue directly: each simple submodule is isomorphic to one from the other decomposition by considering projections. The number m equals the length of A as an R-module, which is well-defined.

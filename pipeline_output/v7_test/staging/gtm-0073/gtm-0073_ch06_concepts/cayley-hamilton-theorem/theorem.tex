@@ -1,0 +1,13 @@
+Let $\phi : E \to E$ be a linear transformation of an $n$-dimensional vector space over a field $K$ with characteristic polynomial $p_{\phi} \in K[x]$, minimal polynomial $q_{\phi} \in K[x]$, and invariant factors $q_1, \ldots, q_t \in K[x]$ ($q_t = q_\phi$).
+\begin{enumerate}
+\item The characteristic polynomial is the product of the invariant factors:
+\[
+p_{\phi} = q_1 q_2 \cdots q_t = q_1 q_2 \cdots q_{t-1} q_{\phi}.
+\]
+\item (Cayley-Hamilton) $\phi$ satisfies its characteristic polynomial:
+\[
+p_{\phi}(\phi) = 0.
+\]
+\item An irreducible polynomial in $K[x]$ divides $p_{\phi}$ if and only if it divides $q_{\phi}$.
+\end{enumerate}
+Analogous statements hold for any matrix $A \in \operatorname{Mat}_n K$.

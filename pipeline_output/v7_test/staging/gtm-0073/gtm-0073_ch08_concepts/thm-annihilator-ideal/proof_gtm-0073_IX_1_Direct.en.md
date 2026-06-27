@@ -1,0 +1,1 @@
+Clearly alpha(A) is a left ideal. If r in alpha(A) and s in R, then (rs)A = r(sA) subset rA = 0, so rs in alpha(A). Thus alpha(A) is a two-sided ideal. For a submodule B, the same argument shows that alpha(B) is a left ideal (right multiplication may not preserve B as a subset).

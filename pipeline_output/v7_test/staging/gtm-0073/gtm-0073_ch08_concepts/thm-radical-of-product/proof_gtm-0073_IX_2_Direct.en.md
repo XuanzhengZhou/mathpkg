@@ -1,0 +1,1 @@
+An element {a_i} in prod R_i is left quasi-regular iff each a_i is left quasi-regular in R_i. Thus prod J(R_i) is a left quasi-regular ideal of prod R_i, contained in J(prod R_i). Conversely, projection maps send J(prod R_i) into J(R_i).

@@ -1,0 +1,25 @@
+id: properties-of-cyclic-group-elements
+title_en: "Properties of Elements in a Cyclic Group"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [cyclic-group, order, element-order, generator]
+depends_on:
+  required: [classification-of-cyclic-groups]
+  recommended: []
+  suggested: []
+proof_deps:
+  classification-of-cyclic-groups: "G ≅ Z or G ≅ Z_m"
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: I
+    section: "I.3"
+    pages: ""
+    role_in_book: "Theorem 3.4 / Corollary"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

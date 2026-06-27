@@ -1,0 +1,24 @@
+id: cohen-noetherian-prime-fg
+title_en: "Cohen's Criterion for Noetherian Rings"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [Noetherian, prime-ideal, finitely-generated, Cohen]
+depends_on:
+  required: [maximal-non-finitely-generated-ideal-prime, acc-finitely-generated-submodule]
+  recommended: []
+  suggested: []
+proof_deps: {}
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: "VIII"
+    section: "VIII.4"
+    pages: ""
+    role_in_book: "Proposition 4.1 (I. S. Cohen)"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

@@ -1,0 +1,25 @@
+id: adjoint-via-representability
+title_en: "Left Adjoint via Representability"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [adjoint-functor, representable-functor]
+depends_on:
+  required: [adjoint-pair, functor-from-parameter-theorem]
+  recommended: []
+  suggested: []
+proof_deps:
+  functor-from-parameter-theorem: [theorem-1.9]
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: X
+    section: "X.2"
+    pages: ""
+    role_in_book: "Theorem 2.2"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

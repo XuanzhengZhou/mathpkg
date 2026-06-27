@@ -1,0 +1,1 @@
+If a^n = 0, let r = -a + a^2 - a^3 + ... + (-1)^{n-1} a^{n-1}. Then verify r + a + ra = 0 = a + r + ar. Thus a is both left and right quasi-regular. Therefore every nil left ideal is left quasi-regular, and by Theorem 2.3(iv) is contained in J(R).

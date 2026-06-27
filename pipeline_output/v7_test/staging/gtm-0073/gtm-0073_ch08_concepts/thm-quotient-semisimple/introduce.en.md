@@ -1,0 +1,1 @@
+Factoring out the Jacobson radical always yields a semisimple ring. This is a key property of any radical in the general sense: the radical of the quotient by the radical is zero. For the Jacobson radical, the regular maximal left ideals of R/J(R) correspond precisely to those of R, ensuring J(R/J(R)) = 0.

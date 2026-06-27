@@ -1,0 +1,9 @@
+Let $\mathcal{C}$ and $\mathcal{D}$ be categories. A contravariant functor $S$ from $\mathcal{C}$ to $\mathcal{D}$ (denoted $S : \mathcal{C} \to \mathcal{D}$) is a pair of functions (both denoted by $S$), an object function which assigns to each object $C$ of $\mathcal{C}$ an object $S(C)$ of $\mathcal{D}$ and a morphism function which assigns to each morphism $f : C \to C'$ of $\mathcal{C}$ a morphism
+\[
+S(f) : S(C') \to S(C)
+\]
+of $\mathcal{D}$ such that
+\begin{enumerate}
+\item[(i)] $S(1_C) = 1_{S(C)}$ for every identity morphism $1_C$ of $\mathcal{C}$;
+\item[(ii)] $S(g \circ f) = S(f) \circ S(g)$ for any two morphisms $f, g$ of $\mathcal{C}$ whose composite $g \circ f$ is defined.
+\end{enumerate}

@@ -1,0 +1,1 @@
+This theorem connects the concepts of primitive, simple, and semisimple rings. Every primitive ring is automatically semisimple. For simple rings, either J(R) = 0 (so R is semisimple and primitive) or J(R) = R (so R is a simple radical ring). In particular, the endomorphism ring of any vector space over a division ring is always semisimple.

@@ -1,0 +1,25 @@
+id: functor-from-parameter-theorem
+title_en: "Functor from a Parameterized Representable Structure"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [representable-functor, parameter-theorem, functor-construction]
+depends_on:
+  required: [representable-universal-equivalence, yoneda-lemma]
+  recommended: []
+  suggested: []
+proof_deps:
+  representable-universal-equivalence: [theorem-1.6]
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: X
+    section: "X.1"
+    pages: ""
+    role_in_book: "Theorem 1.9"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

@@ -1,0 +1,1 @@
+The Jacobson radical behaves well with respect to direct products: the radical of a product is the product of the radicals. An element of a product ring is quasi-regular if and only if each component is quasi-regular, which directly yields this result.

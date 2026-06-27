@@ -1,0 +1,24 @@
+id: adjoint-pair
+title_en: "Adjoint Pair of Functors"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [adjoint-functor, left-adjoint, right-adjoint, natural-isomorphism]
+depends_on:
+  required: [covariant-functor, natural-transformation]
+  recommended: [representable-functor]
+  suggested: []
+proof_deps: {}
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: X
+    section: "X.2"
+    pages: ""
+    role_in_book: "Definition 2.1"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

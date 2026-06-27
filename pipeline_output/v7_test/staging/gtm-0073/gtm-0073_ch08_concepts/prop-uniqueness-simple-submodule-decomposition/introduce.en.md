@@ -1,0 +1,1 @@
+The decomposition of a semisimple module into a direct sum of simple submodules is unique up to isomorphism: the number of simple summands and their isomorphism types are invariants (the Jordan-Holder theorem for semisimple modules). This is the module-theoretic analogue of the uniqueness of the Wedderburn-Artin decomposition.

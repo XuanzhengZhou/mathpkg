@@ -1,0 +1,1 @@
+When tensoring a K-algebra with a field extension F, the dimension over the base field K equals the dimension over F. This "conservation of dimension" is crucial for studying division algebras via scalar extension: extending scalars preserves the dimension.

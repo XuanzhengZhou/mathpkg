@@ -1,0 +1,1 @@
+Since R is left Artinian, A is a left R-module of finite length via the correspondence with left ideals of R. The D-dimension of A equals the length of A as an R-module, which is finite.

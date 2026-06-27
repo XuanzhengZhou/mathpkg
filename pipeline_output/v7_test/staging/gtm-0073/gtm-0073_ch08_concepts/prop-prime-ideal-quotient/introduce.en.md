@@ -1,0 +1,1 @@
+This proposition is the exact analogue of the relationship between left primitive ideals and primitive rings. A prime ideal is precisely the kernel of a homomorphism onto a prime ring. This establishes the "building block" correspondence for the prime radical theory.

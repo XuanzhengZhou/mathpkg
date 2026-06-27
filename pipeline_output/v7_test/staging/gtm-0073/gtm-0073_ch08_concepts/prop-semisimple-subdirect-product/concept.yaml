@@ -1,0 +1,24 @@
+id: semisimple-subdirect-product
+title_en: "Semisimple Rings are Subdirect Products of Primitive Rings"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [semisimple, primitive-ring, subdirect-product]
+depends_on:
+  required: [semisimple-ring, left-primitive-ideal, jacobson-radical]
+  recommended: []
+  suggested: []
+proof_deps: {}
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: IX
+    section: "IX.3"
+    pages: ""
+    role_in_book: "Proposition 3.2"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

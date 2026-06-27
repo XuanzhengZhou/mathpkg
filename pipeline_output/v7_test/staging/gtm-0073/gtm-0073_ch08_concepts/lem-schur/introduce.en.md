@@ -1,0 +1,1 @@
+Schur's Lemma states that the ring of R-module endomorphisms of a simple module is a division ring. This is a cornerstone result: every nonzero endomorphism of a simple module is an automorphism (invertible). Consequently, a simple module A over R becomes a vector space over the division ring D = Hom_R(A,A).

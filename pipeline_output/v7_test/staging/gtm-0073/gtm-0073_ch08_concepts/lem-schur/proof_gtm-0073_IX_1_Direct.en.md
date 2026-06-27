@@ -1,0 +1,1 @@
+Let f: A -> A be a nonzero R-module homomorphism. Then ker(f) is a submodule of A, so ker(f) = 0 or A. Since f != 0, ker(f) = 0, so f is injective. Im(f) is a submodule, so Im(f) = 0 or A. Since f != 0, Im(f) = A, so f is surjective. Thus f is an isomorphism, hence invertible in Hom_R(A,A). Therefore every nonzero element is a unit, so Hom_R(A,A) is a division ring.

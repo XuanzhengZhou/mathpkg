@@ -1,0 +1,9 @@
+Let $\mathcal{C}$ and $\mathcal{D}$ be categories and $S : \mathcal{C} \to \mathcal{D}$, $T : \mathcal{C} \to \mathcal{D}$ covariant functors. A natural transformation $\alpha : S \to T$ is a function that assigns to each object $C$ of $\mathcal{C}$ a morphism $\alpha_C : S(C) \to T(C)$ of $\mathcal{D}$ in such a way that for every morphism $f : C \to C'$ of $\mathcal{C}$, the diagram
+\[
+\begin{CD}
+S(C) @>{\alpha_C}>> T(C) \\
+@V{S(f)}VV @VV{T(f)}V \\
+S(C') @>{\alpha_{C'}}>> T(C')
+\end{CD}
+\]
+in $\mathcal{D}$ is commutative. If $\alpha_C$ is an equivalence for every $C$ in $\mathcal{C}$, then $\alpha$ is called a natural isomorphism and the functors $S$ and $T$ are said to be naturally isomorphic.

@@ -1,0 +1,1 @@
+This lemma establishes that left quasi-regular left ideals are always contained in the Jacobson radical (when defined via annihilators of simple modules). It is the other half of proving that J(R) is the unique maximal left quasi-regular left ideal.

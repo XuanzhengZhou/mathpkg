@@ -1,0 +1,25 @@
+id: subgroups-of-integers-cyclic
+title_en: "Every Subgroup of Z is Cyclic"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [integers, cyclic, subgroup, additive-group]
+depends_on:
+  required: [cyclic-subgroup]
+  recommended: []
+  suggested: []
+proof_deps:
+  division-algorithm: "to write h = qm + r with 0 ≤ r < m"
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: I
+    section: "I.3"
+    pages: ""
+    role_in_book: "Theorem 3.1"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

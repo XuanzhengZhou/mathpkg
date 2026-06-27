@@ -1,0 +1,1 @@
+An algebraic element in a K-algebra satisfies a polynomial equation with coefficients in K. This generalizes the notion of algebraic field extensions to algebras. If the algebra is finite-dimensional over K, every element is automatically algebraic.

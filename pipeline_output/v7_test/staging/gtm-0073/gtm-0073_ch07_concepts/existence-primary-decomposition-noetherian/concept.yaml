@@ -1,0 +1,24 @@
+id: existence-primary-decomposition-noetherian
+title_en: "Existence of Primary Decomposition in Noetherian Modules"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [primary-decomposition, Noetherian, existence]
+depends_on:
+  required: [primary-decomposition-submodule, acc-finitely-generated-submodule]
+  recommended: []
+  suggested: []
+proof_deps: {}
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: "VIII"
+    section: "VIII.3"
+    pages: ""
+    role_in_book: "Theorem 3.6"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

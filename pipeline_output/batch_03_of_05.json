@@ -1,0 +1,874 @@
+[
+  {
+    "id": "quotient_field_of_an_integral_domain",
+    "name": "Quotient Field of an Integral Domain",
+    "name_norm": "quotient field of an integral domain",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "The quotient field K(R) of an integral domain R is the localization R[U^{-1}] where U = R \\ {0}.",
+    "proof_sketch": null,
+    "depends_on": [
+      "localization of a ring"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "zero_in_localizations",
+    "name": "Zero in localizations",
+    "name_norm": "zero in localizations",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "a. If m ∈ M, then m = 0 if and only if m goes to zero in each localization M_m at a maximal ideal m of R. b. M = 0 if and only if M_m = 0 for each maximal ideal m of R.",
+    "proof_sketch": "a. The annihilator I of m is not contained in m iff m becomes zero in M_m. m=0 iff I = R iff I is contained in no maximal ideal (using Zorn's lemma). b. Apply a to every element of M.",
+    "depends_on": [
+      "zorns lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_normal_domain",
+    "name": "Definition of Normal Domain",
+    "name_norm": "definition of normal domain",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "An integral domain R is normal if it is integrally closed in its fraction field.",
+    "proof_sketch": "",
+    "depends_on": [
+      "integral closure",
+      "fraction field"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "general_nullstellensatz",
+    "name": "General Nullstellensatz",
+    "name_norm": "general nullstellensatz",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "Let R be a Jacobson ring. If S is a finitely generated R-algebra, then S is a Jacobson ring. Moreover, if n ⊂ S is a maximal ideal, then m = n ∩ R is a maximal ideal of R, and S/n is a finite extension field of R/m.",
+    "proof_sketch": "The proof proceeds by reducing to the case S = R[x] using Lemma 4.20 and induction on the number of generators. Given a prime P of R[x] and a nonzero b in (R[x])/P with ((R[x])/P)[b⁻¹] a field, one shows (R[x])/P is a field. For the second statement, S/n is a field; its subring R/m is a domain integral over a field, hence a field, and the finite generation makes S/n a finite extension.",
+    "depends_on": [
+      "jacobson ring"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "rabinowitchs_trick_jacobson_criterion",
+    "name": "Rabinowitch's Trick (Jacobson Criterion)",
+    "name_norm": "rabinowitchs trick (jacobson criterion",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "For a ring R, the following are equivalent: (a) R is a Jacobson ring. (b) If P is a prime ideal of R and S = R/P contains a nonzero element b such that S[b⁻¹] is a field, then S is a field.",
+    "proof_sketch": "(a) ⇒ (b): R Jacobson implies S is Jacobson, so the intersection of maximal ideals of S is zero. In S[b⁻¹], primes correspond to primes of S not containing b. Since S[b⁻¹] is a field, b lies in every nonzero prime ideal of S, so (0) is maximal and S is a field. (b) ⇒ (a): Let Q be prime, I the intersection of maximal ideals containing Q. If I ≠ Q, pick x ∈ I \\ Q and apply (b) to S = R/Q with b = x + Q. One shows S[x⁻¹] is a field, forcing S to be a field and contradicting that Q is not maximal.",
+    "depends_on": [
+      "jacobson ring"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "family_as_morphism",
+    "name": "Family as Morphism",
+    "name_norm": "family as morphism",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "A family of varieties or algebras is a morphism; if φ: X → B is a morphism of varieties, the preimages of points of B (called fibers) are varieties that vary in a family parametrized by the points of B.",
+    "proof_sketch": null,
+    "depends_on": [
+      "morphism",
+      "varieties"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "radical_of_annihilator_and_properties_of_parameter_ideals",
+    "name": "Radical of Annihilator and Properties of Parameter Ideals",
+    "name_norm": "radical of annihilator and properties of parameter ideals",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "Let M be a finitely generated module over a ring R, and q an ideal. Then rad(ann(M/qM)) = rad(q + ann M). In particular, if (R, m) is local: (a) q is a parameter ideal for M iff q + ann M ⊇ m^n for some n ≫ 0 iff q is a parameter ideal for R/(ann M); (b) for a short exact sequence 0 → M' → M → M'' → 0, q is a parameter ideal for M iff it is a parameter ideal for both M' and M''; (c) dim M is the minimal number of generators of a parameter ideal for M.",
+    "proof_sketch": "To prove the radical equality, by Corollary 2.12 it is enough that a prime P contains ann(M/qM) iff P ⊇ q + ann M. By Proposition 2.1, P ⊇ ann(M/qM) iff (M/qM)_P ≠ 0. Nakayama's lemma gives (M/qM)_P = M_P/q_P M_P ≠ 0 iff M_P ≠ 0 and q_P ⊆ P_P. By Proposition 2.1 this holds iff P ⊇ ann M and P ⊇ q, i.e. P ⊇ q + ann M. Part (a) follows because rad(q+ann M)=m iff it contains a power of m, and ann(R/(ann M)/q(R/(ann M))) = q+ann M. Part (b) uses the induced exact sequence M'/qM' → M/qM → M''/qM'' → 0; finite length lifts from M' and M'' to M. Part (c): dim M = dim R/(ann M), so Corollary 10.7 via (a) yields the minimal number of generators.",
+    "depends_on": [
+      "nakayamas lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "discrete_valuation_ring_dvr",
+    "name": "Discrete valuation ring (DVR)",
+    "name_norm": "discrete valuation ring (dvr",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "A discrete valuation ring (DVR) is a one-dimensional regular local ring; equivalently, the valuation ring of a discrete valuation.",
+    "proof_sketch": "",
+    "depends_on": [
+      "discrete valuation",
+      "valuation ring",
+      "regular local ring"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "dimension_equals_transcendence_degree_for_affine_domains",
+    "name": "Dimension equals transcendence degree for affine domains",
+    "name_norm": "dimension equals transcendence degree for affine domains",
+    "type": "theorem",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If R is an affine domain over a field k, then dim R = tr.deg_k R.",
+    "proof_sketch": "Let d = dim R. By Noether normalization (Theorem 13.3), there exists a polynomial subring S = k[X₁, …, X_d] over which R is finite. Then tr.deg_k S = d, and since R is finite over S, tr.deg_k R = tr.deg_k S = d.",
+    "depends_on": [
+      "noether normalization"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "artinian_property_of_monomial_orders",
+    "name": "Artinian Property of Monomial Orders",
+    "name_norm": "artinian property of monomial orders",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "Let F be a free S-module with basis. Any monomial order on F is Artinian (every subset has a least element).",
+    "proof_sketch": "If X is a set of monomials of F, the submodule generated by X is generated by a finite subset Y (since S Noetherian). The least element of Y is the least element of X because every element of X is a multiple of an element of Y.",
+    "depends_on": [
+      "monomial order",
+      "s is noetherian"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "extension_of_monomial_order_to_terms",
+    "name": "Extension of Monomial Order to Terms",
+    "name_norm": "extension of monomial order to terms",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If um and vn are terms with non-zero coefficients u, v in k, and m, n are monomials with m > n (resp. m ≥ n) then we say um > vn (resp. um ≥ vn). This is not a partial order but a convenient notation.",
+    "proof_sketch": null,
+    "depends_on": [
+      "monomial order"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "initial_submodule",
+    "name": "Initial Submodule",
+    "name_norm": "initial submodule",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "For a monomial order > and a submodule M of F, in>(M) is the monomial submodule generated by {in>(f) : f ∈ M}.",
+    "proof_sketch": null,
+    "depends_on": [
+      "initial term"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "r_linear_derivation",
+    "name": "R-linear Derivation",
+    "name_norm": "r-linear derivation",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If S is an R-algebra, a derivation d: S → M is R-linear if it is a map of R-modules. The set of all R-linear derivations from S to M is denoted Der_R(S, M).",
+    "proof_sketch": "",
+    "depends_on": [
+      "derivation"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "vanishing_of_derivation_on_1",
+    "name": "Vanishing of Derivation on 1",
+    "name_norm": "vanishing of derivation on 1",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "For any derivation d: S → M, d(1) = 0.",
+    "proof_sketch": "Compute d(1·1) = 1·d(1) + 1·d(1) = 2d(1). But d(1·1) = d(1). Hence d(1) = 2d(1), so d(1) = 0.",
+    "depends_on": [
+      "derivation"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "dimension_formula_for_polynomial_rings",
+    "name": "Dimension Formula for Polynomial Rings",
+    "name_norm": "dimension formula for polynomial rings",
+    "type": "Corollary",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "a) If k is a field, dim k[x₁,…,xᵣ] = r. b) For any ring R, dim R[x] = 1 + dim R. c) If P is a prime ideal of R, there exist prime ideals Q of R[x] contracting to P, and for a maximal such Q, dim R[x]Q = 1 + dim R_P.",
+    "proof_sketch": "Part a follows from b by induction. For b, any chain P₁ ⊂ … ⊂ P_d in R yields a chain P₁R[x] ⊂ … ⊂ P_dR[x] ⊂ P_dR[x]+(x), giving dim R[x] ≥ 1+dim R. The reverse inequality follows from part c. For part c, first treat R a field (P=0): R[x] is a PID, maximal Q has codimension 1. In general, localize at P to assume R local with maximal ideal P; any maximal Q containing P contracts to P. Apply Theorem 10.10 to obtain codim Q = 1 + dim R.",
+    "depends_on": [
+      "principal ideal theorem"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "depth_lemma_lemma_18_3",
+    "name": "Depth Lemma (Lemma 18.3)",
+    "name_norm": "depth lemma (lemma 18.3",
+    "type": "Lemma",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "Let (R, P) be a local ring, M a finitely generated R-module, I an ideal of R, and y ∈ P. Then depth((I, y), M) ≤ depth(I, M) + 1.",
+    "proof_sketch": "Let x1,...,xn generate I, set r = depth((I,y),M). By Theorem 17.4, Hi(M ⊗ K(x1,...,xn,y)) = 0 for i < r. By Corollary 17.11 and Nakayama, Hi(M ⊗ K(x1,...,xn)) = 0 for i < r-1. Theorem 17.4 then gives depth(I, M) ≥ r-1, so r ≤ depth(I,M)+1.",
+    "depends_on": [
+      "nakayamas lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "depth_of_an_ideal_on_a_module",
+    "name": "Depth of an ideal on a module",
+    "name_norm": "depth of an ideal on a module",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "Let I be an ideal of R and M a finitely generated R-module. If IM ≠ M, define the depth of I on M, written depth(I, M), to be the length of any maximal M-sequence in I. If IM = M, set depth(I, M) = ∞. When M = R, write depth(I) for depth(I, R). If R is local with maximal ideal P, the depth of M is depth(P, M).",
+    "proof_sketch": "By Theorem 17.4, all maximal M-sequences in I have the same length whenever IM ≠ M, so depth(I, M) is well-defined.",
+    "depends_on": [
+      "regular sequences"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "locality_and_completion_of_cohen_macaulay_rings_proposition_",
+    "name": "Locality and Completion of Cohen–Macaulay Rings (Proposition 18.8)",
+    "name_norm": "locality and completion of cohen–macaulay rings (proposition 18.8",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "R is Cohen–Macaulay iff R_P is Cohen–Macaulay for every maximal ideal P of R, and then R_Q is Cohen–Macaulay for every prime Q of R. A local ring is Cohen–Macaulay iff its completion is Cohen–Macaulay.",
+    "proof_sketch": "If R is CM and Q is prime, codim Q_Q = codim Q = depth(Q,R) ≤ depth Q_Q ≤ codim Q_Q by Proposition 18.2, so equality holds and R_Q is CM. If R_P is CM for all maximal P, Lemma 18.1 gives depth(P,R)=depth(P_P,R_P) and codim P = codim P_P, so R is CM. For local (R,P) with completion (R̂,P̂), codim P = codim P̂. If x₁,…,xₙ generate P, the Koszul complex over R̂ is K̂ = R̂ ⊗ K(x₁,…,xₙ). Flatness (Theorem 7.2b) and Nakayama (Theorem 7.2a) ensure nonzero finitely generated R-modules remain nonzero after tensoring, so depth(P,R)=depth(P̂,R̂) by Theorem 17.4.",
+    "depends_on": [
+      "nakayamas lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "koszul_complex_for_a_map_to_r",
+    "name": "Koszul complex (for a map to R)",
+    "name_norm": "koszul complex (for a map to r",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "The Koszul complex is associated to a sequence of elements of R, or equivalently to a map from a finitely generated free R-module F to R.",
+    "proof_sketch": "Standard construction using exterior powers; not detailed here.",
+    "depends_on": [
+      "exterior algebra"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "boundaries_cycles_and_homology",
+    "name": "Boundaries, Cycles, and Homology",
+    "name_norm": "boundaries, cycles, and homology",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "In a complex F, the elements of the image of φ_{i+1} are called boundaries, the elements of the kernel of φ_i are called cycles. The homology of F at F_i, denoted H_i(F), is the quotient module (ker φ_i) / (im φ_{i+1}).",
+    "proof_sketch": null,
+    "depends_on": [
+      "complex of modules"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "module_as_a_complex",
+    "name": "Module as a Complex",
+    "name_norm": "module as a complex",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "An R-module M may be considered as a complex with only one nonzero term (all other terms zero).",
+    "proof_sketch": null,
+    "depends_on": [
+      "complex of modules"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "limit_of_a_spectral_sequence",
+    "name": "Limit of a Spectral Sequence",
+    "name_norm": "limit of a spectral sequence",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "Given a spectral sequence, define submodules 0 = 1B ⊂ 2B ⊂ … ⊂ rB ⊂ … ⊂ rZ ⊂ … ⊂ 2Z ⊂ 1Z = 1E such that iE = iZ / iB. Let 1Z = 1E, 1B = 0. Having defined iB and iZ for i ≤ r, define r+1Z as the kernel of the composite map rZ → rZ/rB = rE → rE, and r+1B as the image of this map. Then set 00Z = ∩r rZ, 00B = ∪r rB. The limit is 00E = 00Z / 00B.",
+    "proof_sketch": "None (construction/definition).",
+    "depends_on": [
+      "spectral sequence"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "uniqueness_of_colimits_up_to_isomorphism",
+    "name": "Uniqueness of colimits up to isomorphism",
+    "name_norm": "uniqueness of colimits up to isomorphism",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If a colimit of a diagram F exists, it is unique up to a unique isomorphism compatible with the cocone maps.",
+    "proof_sketch": "If (A, ψ) and (A', ψ') are colimits, the universal property yields unique maps γ: A → A' and γ': A' → A with γ∘ψ_B = ψ'_B and γ'∘ψ'_B = ψ_B. Then γ'∘γ: A → A satisfies (γ'∘γ)∘ψ_B = ψ_B, as does the identity id_A. Uniqueness in the universal property forces γ'∘γ = id_A. Similarly γ∘γ' = id_A', so γ is an isomorphism.",
+    "depends_on": [
+      "colimit of a diagram"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "coproduct_as_a_colimit",
+    "name": "Coproduct as a colimit",
+    "name_norm": "coproduct as a colimit",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "The coproduct of a collection of objects {B_i} of A, denoted ∐_i B_i, is the colimit of the diagram consisting of the objects B_i together with only their identity morphisms.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "colimit of a diagram"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "coequalizer_as_a_colimit",
+    "name": "Coequalizer as a colimit",
+    "name_norm": "coequalizer as a colimit",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "The coequalizer of a pair of parallel morphisms ψ, ψ': C_1 → C_2 in A is the colimit of the diagram consisting of the objects C_1, C_2, their identity morphisms, and the two morphisms ψ, ψ'.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "colimit of a diagram"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "colimit_as_a_functor",
+    "name": "Colimit as a functor",
+    "name_norm": "colimit as a functor",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If A has all colimits of diagrams of shape B, then colim defines a functor lim: Fun(B, A) → A from the category of functors (with natural transformations) sending a diagram F to its colimit and a natural transformation α: F → G to the unique morphism lim α: lim F → lim G induced by the composite cocone F(B) → G(B) → lim G.",
+    "proof_sketch": "For a natural transformation α: F → G, the maps F(B) → G(B) → lim G form a cocone from F to lim G. The universal property of lim F gives a unique map lim α: lim F → lim G. Functoriality follows from uniqueness of the induced map.",
+    "depends_on": [
+      "colimit of a diagram"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "syzygy_modules",
+    "name": "Syzygy Modules",
+    "name_norm": "syzygy modules",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "Given an exact sequence 0 → N → F → M → 0 with F projective, N is called a first syzygy module of M. The nth syzygy module is defined inductively as the first syzygy module of the (n−1)st syzygy module. Syzygy modules are unique up to projective summands.",
+    "proof_sketch": "N/A",
+    "depends_on": [
+      "projective modules",
+      "exact sequences"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "bounded_below_complexes",
+    "name": "Bounded-below complexes",
+    "name_norm": "bounded-below complexes",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "K+(M) is the full subcategory of K(M) consisting of bounded-below complexes F such that F_i = 0 for i sufficiently small.",
+    "proof_sketch": "Definition by restriction.",
+    "depends_on": [
+      "the homotopy category of complexes"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "homology_is_well_defined_on_k_m",
+    "name": "Homology is well-defined on K(M)",
+    "name_norm": "homology is well-defined on k(m",
+    "type": "proposition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "The nth homology module H_n(X) is well-defined for any object X in K(M), because homotopic maps induce identical maps on homology.",
+    "proof_sketch": "If f ~ g, then f - g = hd + dh, so H(f) = H(g). Thus homology depends only on the homotopy class.",
+    "depends_on": [
+      "the homotopy category of complexes"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "minimal_injective_resolution",
+    "name": "Minimal Injective Resolution",
+    "name_norm": "minimal injective resolution",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "An injective resolution ℰ of M is minimal if each E^n is the injective hull of ker(E^n → E^{n+1}).",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "injective resolution"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "five_term_exact_sequence_tor",
+    "name": "Five-Term Exact Sequence (Tor)",
+    "name_norm": "five-term exact sequence (tor",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If 0 → A → B → C → 0 is a short exact sequence of modules and M is a module, then there is an exact sequence Tor_1(A,M) → Tor_1(B,M) → Tor_1(C,M) → A⊗M → B⊗M → C⊗M → 0.",
+    "proof_sketch": "Take a projective resolution of M and tensor with the short exact sequence; the resulting exact sequence of complexes gives a long exact sequence in homology, whose low-degree terms yield the five-term exact sequence.",
+    "depends_on": [
+      "definition of tor",
+      "long exact homology sequence"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "graded_structure_on_the_tensor_algebra_of_a_graded_module",
+    "name": "Graded structure on the tensor algebra of a graded module",
+    "name_norm": "graded structure on the tensor algebra of a graded module",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If R is a graded ring concentrated in degree 0 and M = ⊕ M_i is a Z-graded R-module, then T_R(M) is Z-graded with i-th graded component ⊕_{k} ⊕_{i_1+⋯+i_k = i} M_{i_1} ⊗_R ⋯ ⊗_R M_{i_k}.",
+    "proof_sketch": "",
+    "depends_on": [
+      "tensor algebra"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "algebraic_independence_and_transcendence_basis",
+    "name": "Algebraic Independence and Transcendence Basis",
+    "name_norm": "algebraic independence and transcendence basis",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "A subset B of a field extension K/k is algebraically independent over k if the subfield k(B) is isomorphic to the rational function field k({X_b}_{b∈B}) via the map sending X_b to b. Equivalently, for any integer n, any nonzero polynomial f(t_1,…,t_n) with coefficients in k, and any distinct b_1,…,b_n ∈ B, f(b_1,…,b_n) ≠ 0. B is a transcendence basis for K over k if B is algebraically independent and K is algebraic over k(B).",
+    "proof_sketch": "",
+    "depends_on": [
+      "field extensions",
+      "algebraic elements",
+      "polynomial rings"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "matroid_basis_cardinality_lemma",
+    "name": "Matroid Basis Cardinality Lemma",
+    "name_norm": "matroid basis cardinality lemma",
+    "type": "Lemma",
+    "num_books": 1,
+    "books": [
+      "150"
+    ],
+    "statement": "If B is a matroid, then all bases in B have the same cardinality.",
+    "proof_sketch": "Let r be the minimal cardinality among bases. For a basis B, prove by downward induction on the number of elements B shares with a basis B' of size r. If they share r elements, B = B' since no basis contains another. If they share s < r elements, choose b' ∈ B' \\ B. By the exchange property, there is a basis (B' \\ {b'}) ∪ {b} of size r sharing s+1 elements with B.",
+    "depends_on": [
+      "matroid",
+      "exchange property"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "absolute_convergence_of_local_height_series_on_e_mathbb_r_",
+    "name": "Absolute Convergence of Local Height Series on $E(\\mathbb{R})$",
+    "name_norm": "absolute convergence of local height series on $e(\\mathbb{r})$",
+    "type": "Theorem",
+    "num_books": 1,
+    "books": [
+      "151"
+    ],
+    "statement": "For an elliptic curve $E/\\mathbb{R}$ given by a Weierstrass equation, there exist constants $C_1, C_2 > 0$ such that $C_1 \\le \\frac{|z([2^n]P)|}{|x([2^n]P)|^2} \\le C_2$ for all $P \\in E(\\mathbb{R})$ and all $n$, and the series $\\sum_{n=0}^{\\infty} \\frac{1}{4^n} \\log|z([2^n]P)|$ is absolutely convergent.",
+    "proof_sketch": "Exercise 6.9(b): bound $z([2]P)$ in terms of $x(P)$ and iterate.",
+    "depends_on": [
+      "weierstrass equation",
+      "duplication formula"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_normal_scheme",
+    "name": "Definition of Normal Scheme",
+    "name_norm": "definition of normal scheme",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "151"
+    ],
+    "statement": "A scheme is normal if all its local rings are integrally closed.",
+    "proof_sketch": "",
+    "depends_on": [
+      "local rings",
+      "integrally closed"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_finite_type_morphism",
+    "name": "Definition of Finite Type Morphism",
+    "name_norm": "definition of finite type morphism",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "151"
+    ],
+    "statement": "A morphism is of finite type if the extensions of local rings are finitely generated algebras.",
+    "proof_sketch": "",
+    "depends_on": [
+      "local rings",
+      "finitely generated algebras"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "definition_of_uniformizer_at_a_point",
+    "name": "Definition of Uniformizer at a Point",
+    "name_norm": "definition of uniformizer at a point",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "151"
+    ],
+    "statement": "Fix a point p in Spec(R) with discrete valuation ord_p. A uniformizer u ∈ R for p is an element such that ord_p(u) = 1.",
+    "proof_sketch": "",
+    "depends_on": [
+      "discrete valuation ring",
+      "order function"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "vector_fields_agreeing_on_a_set",
+    "name": "Vector Fields Agreeing on a Set",
+    "name_norm": "vector fields agreeing on a set",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "Two vector fields V and W agree on a set A if V(P) = W(P) for all P in A.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "vector field"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "vector_field_on_a_sphere",
+    "name": "Vector Field on a Sphere",
+    "name_norm": "vector field on a sphere",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "A vector field V on a sphere S assigns to each point P in S a vector V(P) in the tangent space T_pS, with the mapping P ↦ V(P) being continuous. For the standard sphere S^2 = {(x,y,z): x^2+y^2+z^2=1}, the tangent space is T_pS = {(a,b,c): (a,b,c)·(x,y,z) = ax+by+cz = 0}.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "sphere",
+      "tangent space",
+      "continuity"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "isomorphism_of_coverings",
+    "name": "Isomorphism of Coverings",
+    "name_norm": "isomorphism of coverings",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "An isomorphism between coverings p: Y → X and p': Y' → X is a homeomorphism φ: Y → Y' such that p' ∘ φ = p.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "covering map",
+      "homeomorphism"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "reduced_zeroth_cohomology_group",
+    "name": "Reduced Zeroth Cohomology Group",
+    "name_norm": "reduced zeroth cohomology group",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "For a nonempty space U, the reduced 0th cohomology group H̃^0(U) is the quotient of the space of locally constant functions on U by the subspace of constant functions; thus dim H̃^0(U) = dim H^0(U) − 1, and U is connected iff H̃^0(U) = 0.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "locally constant function",
+      "quotient space",
+      "cohomology group"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "restriction_of_a_covering_is_a_covering",
+    "name": "Restriction of a Covering is a Covering",
+    "name_norm": "restriction of a covering is a covering",
+    "type": "Proposition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "If p: Y → X is a covering and X' is any subspace of X, then the restriction p': Y' = p^{-1}(X') → X' is a covering.",
+    "proof_sketch": "For x in X', let N be an evenly covered neighborhood in X; then N ∩ X' is evenly covered by the restriction.",
+    "depends_on": [
+      "covering map",
+      "subspace topology"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "ramification_point",
+    "name": "Ramification Point",
+    "name_norm": "ramification point",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "A point P in X is called a ramification point for the analytic map f if its ramification index satisfies e_f(P) > 1.",
+    "proof_sketch": "None (definition).",
+    "depends_on": [
+      "ramification index"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "poincar_duality_for_compact_oriented_manifolds",
+    "name": "Poincaré Duality for Compact Oriented Manifolds",
+    "name_norm": "poincaré duality for compact oriented manifolds",
+    "type": "corollary",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "If X is a compact oriented n-manifold, then the pairing H^k X × H^{n-k} X -> R defined by (ω, μ) ↦ ∫_X ω ∧ μ is a perfect pairing: for every linear functional φ on H^{n-k} X there exists a unique ω ∈ H^k X such that φ(μ) = ∫_X ω ∧ μ for all μ ∈ H^{n-k} X.",
+    "proof_sketch": "Follows from the Duality Theorem and the nondegeneracy of the integration pairing.",
+    "depends_on": [
+      "duality theorem"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "chain_complex_of_an_ordered_simplicial_complex",
+    "name": "Chain Complex of an Ordered Simplicial Complex",
+    "name_norm": "chain complex of an ordered simplicial complex",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "For an ordered simplicial complex K (partial order on vertices such that each simplex is totally ordered), CnK is the free abelian group on the n-simplices. The boundary ∂:CnK → Cn-1K is defined by ∂(v0,…,vn) = ∑_{i=0}^n (-1)^i (v0,…,v̂i,…,vn).",
+    "proof_sketch": "None",
+    "depends_on": [
+      "abstract simplicial complex"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "lemma_c_10_surjectivity_of_",
+    "name": "Lemma C.10 (Surjectivity of φ*)",
+    "name_norm": "lemma c.10 (surjectivity of φ*",
+    "type": "lemma",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "If φ: A → A' is one-to-one, then φ*: Hom(A', ℝ) → Hom(A, ℝ) is surjective.",
+    "proof_sketch": "Fix a maximal set {x_α} in A' such that no nontrivial integer linear combination lies in im(φ). For f ∈ Hom(A, ℝ) and any x ∈ A', choose n ≠ 0, y ∈ A with n x = Σ n_α x_α + φ(y). Define g(x) = (1/n) f(y). Show g is well-defined, a homomorphism, and φ*(g) = f.",
+    "depends_on": [
+      "induced linear map φ*",
+      "zorns lemma"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "singular_cohomology_groups",
+    "name": "Singular Cohomology Groups",
+    "name_norm": "singular cohomology groups",
+    "type": "Definition",
+    "num_books": 1,
+    "books": [
+      "153"
+    ],
+    "statement": "For a topological space X and abelian group G, the n-th singular cohomology group Hⁿ(X; G) is the quotient ker(δⁿ)/im(δⁿ⁻¹), where δ is the coboundary operator. Elements of ker are cocycles, elements of im are coboundaries.",
+    "proof_sketch": "Verify that δⁿ⁺¹ ∘ δⁿ = 0 using ∂² = 0, so im(δⁿ⁻¹) ⊆ ker(δⁿ), thus the quotient is defined.",
+    "depends_on": [
+      "coboundary operator"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "vector_space_structure_on_a_field_extension",
+    "name": "Vector Space Structure on a Field Extension",
+    "name_norm": "vector space structure on a field extension",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "For a field extension F ⊆ K, K is made into an F-vector space by defining scalar multiplication for α ∈ F and a ∈ K as α·a = αa (multiplication in K).",
+    "proof_sketch": null,
+    "depends_on": [
+      "field extension",
+      "vector space"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  },
+  {
+    "id": "finite_and_infinite_extensions",
+    "name": "Finite and Infinite Extensions",
+    "name_norm": "finite and infinite extensions",
+    "type": "definition",
+    "num_books": 1,
+    "books": [
+      "167"
+    ],
+    "statement": "If [K : F] < ∞, then K is a finite extension of F; otherwise K is an infinite extension of F.",
+    "proof_sketch": null,
+    "depends_on": [
+      "degree of a field extension"
+    ],
+    "num_occurrences": 1,
+    "mathlib4_distance": 1
+  }
+]

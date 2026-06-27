@@ -1,0 +1,15 @@
+The bijection $\psi_A : \operatorname{Nat}(h_A, T) \to T(A)$ of Corollary 1.7 is natural in both $A$ and $T$. Specifically, for any morphism $f : A \to B$ of $\mathcal{C}$ and any natural transformation $\sigma : T \to S$ of functors $\mathcal{C} \to \mathcal{S}$, the following diagrams commute:
+\[
+\begin{CD}
+\operatorname{Nat}(h_A, T) @>{\psi_A}>> T(A) \\
+@V{N^*(f)}VV @VV{T(f)}V \\
+\operatorname{Nat}(h_B, T) @>{\psi_B}>> T(B)
+\end{CD}
+\qquad
+\begin{CD}
+\operatorname{Nat}(h_A, T) @>{\psi_A}>> T(A) \\
+@V{N^*(\sigma)}VV @VV{\sigma_A}V \\
+\operatorname{Nat}(h_A, S) @>{\psi_A}>> S(A)
+\end{CD}
+\]
+where $N^*(f)(\beta)_C(g) = \beta_C(g \circ f)$ for $g \in h_B(C) = \hom_{\mathcal{C}}(B, C)$, and $N^*(\sigma)(\beta) = \sigma \beta$.

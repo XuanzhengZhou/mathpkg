@@ -1,0 +1,1 @@
+The fundamental characterization of semiprime rings: a ring is semiprime precisely when it has no nonzero nilpotent ideals. This is analogous to how semisimple rings have zero Jacobson radical. The proof uses the fact that any nilpotent ideal is contained in every prime ideal, so the prime radical (intersection of all prime ideals) contains all nilpotent ideals.

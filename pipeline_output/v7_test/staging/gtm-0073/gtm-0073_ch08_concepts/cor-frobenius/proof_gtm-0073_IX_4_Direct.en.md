@@ -1,0 +1,1 @@
+If D != R, pick a in D - R. Then R(a) is a proper algebraic field extension of R, so R(a) cong C. Thus C is isomorphic to a maximal subfield F of D. By Theorem 6.6, dim_R D = n^2 where n = [F:R] = 2, so dim_R D = 4. The result follows from the classification of 4-dimensional algebras.

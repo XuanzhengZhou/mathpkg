@@ -1,0 +1,25 @@
+id: permutation-parity-well-defined
+title_en: "A Permutation Cannot Be Both Even and Odd"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [parity, permutation, even, odd, well-defined]
+depends_on:
+  required: [even-odd-permutation, permutation-as-product-of-transpositions]
+  recommended: []
+  suggested: []
+proof_deps:
+  discriminant: "Δ(i₁,...,iₙ) = ∏_{j<k}(i_j - i_k)"
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: I
+    section: "I.6"
+    pages: ""
+    role_in_book: "Theorem 6.7"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

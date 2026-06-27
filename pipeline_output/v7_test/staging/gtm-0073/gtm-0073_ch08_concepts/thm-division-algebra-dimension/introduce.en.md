@@ -1,0 +1,1 @@
+A fundamental structure theorem for division algebras: the dimension of a division algebra over its center is always a perfect square, and tensoring with a maximal subfield splits the division algebra into a full matrix ring. This connects the theory of division algebras to central simple algebras and shows that every division algebra is "split" by a suitable field extension.

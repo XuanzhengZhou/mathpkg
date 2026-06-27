@@ -1,0 +1,1 @@
+Let d in D be algebraic over K with minimal polynomial f in K[x]. Since K is algebraically closed, f splits: f(x) = (x - k_1)...(x - k_n). Then f(d) = (d - k_1)...(d - k_n) = 0. Since D is a division ring with no zero divisors, some d - k_i = 0, so d = k_i in K.

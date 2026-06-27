@@ -1,0 +1,1 @@
+The ring-theoretic Wedderburn-Artin (Theorem 3.3) gives a ring isomorphism A cong prod Mat_{n_i}(D_i). One then verifies that each D_i inherits a K-algebra structure and the isomorphism respects K-scalar multiplication. The algebra ideals correspond to ring ideals by Theorem 5.2, so the ring-theoretic radical equals the algebra-theoretic radical.

@@ -1,0 +1,1 @@
+A nilpotent ideal is one where the product of any n elements from I is zero. This is a uniform condition on the whole ideal, stronger than being nil (each element individually nilpotent). Every nilpotent ideal is nil, but nil ideals need not be nilpotent. The Wedderburn radical in an Artinian ring is the maximal nilpotent ideal.

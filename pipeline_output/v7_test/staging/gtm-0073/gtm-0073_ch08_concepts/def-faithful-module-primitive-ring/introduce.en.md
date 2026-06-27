@@ -1,0 +1,1 @@
+A faithful module is one where only the zero element of the ring annihilates the whole module -- the ring acts "faithfully" on the module. A primitive ring is one that admits a simple faithful module; that is, the ring can be realized as a "dense" ring of endomorphisms of a vector space over a division ring, making primitive rings fundamental building blocks in ring theory.

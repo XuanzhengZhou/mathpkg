@@ -1,0 +1,24 @@
+id: hilbert-nullstellensatz
+title_en: "Hilbert Nullstellensatz"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [Nullstellensatz, algebraic-geometry, radical, affine-variety]
+depends_on:
+  required: [radical-of-ideal, noether-normalization-lemma]
+  recommended: []
+  suggested: []
+proof_deps: {}
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: "VIII"
+    section: "VIII.7"
+    pages: ""
+    role_in_book: "Proposition 7.4"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

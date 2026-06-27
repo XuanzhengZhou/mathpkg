@@ -1,0 +1,4 @@
+(i) => (ii): Let I = {r in R | Rr = 0}. Since R^2 != 0, I = 0. Since R is left Artinian, pick a minimal left ideal J. Then J has no proper submodules. The left annihilator alpha(J) cannot be R (otherwise RJ = 0), so alpha(J) = 0 by simplicity. Thus RJ != 0 and J is a faithful simple R-module, so R is primitive.
+(ii) => (iii): By Theorem 1.12 (Jacobson Density), R is isomorphic to a dense ring T of endomorphisms of a vector space V over a division ring D. Since R is left Artinian, T = Hom_D(V,V) and dim_D V is finite by Theorem 1.9.
+(iii) <=> (iv): By Theorem VII.1.4, the endomorphism ring of an n-dimensional vector space over D is isomorphic to Mat_n(D).
+(iv) => (i): Mat_n(D) is simple (Exercise III.2.9) and left Artinian (Corollary VIII.1.12).

@@ -2,7 +2,7 @@
 """用 DeepSeek Flash 分析完整 OCR 文本，识别 section 边界。全量文本，约 ¥12/28本。"""
 import json, os, re, time, requests
 
-API_KEY = "sk-f9820c6cd6ff448d9f7f0d54a1411d28"
+API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 API_URL = "https://api.deepseek.com/v1/chat/completions"
 OCR_DIR = "/home/a123/文档/mathpkg/pipeline_output/ocr_output"
 RESULT_DIR = "/home/a123/文档/mathpkg/pipeline_output/section_indexes/_flash_full"

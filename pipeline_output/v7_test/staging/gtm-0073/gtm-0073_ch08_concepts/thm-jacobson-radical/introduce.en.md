@@ -1,0 +1,1 @@
+The Jacobson radical J(R) is one of the most important ideals in ring theory, with four equivalent characterizations: via annihilators of simple modules, via regular maximal left ideals, via left primitive ideals, and via quasi-regularity. The radical is left-right symmetric. Its role is analogous to the nilradical in commutative algebra but applies to all rings.

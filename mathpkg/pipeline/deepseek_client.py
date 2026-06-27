@@ -15,7 +15,7 @@ from typing import Optional, List, Dict, Any
 logger = logging.getLogger(__name__)
 
 BASE_URL = "https://api.deepseek.com"
-DEFAULT_API_KEY = "sk-f9820c6cd6ff448d9f7f0d54a1411d28"
+DEFAULT_API_KEY = "os.environ.get("DEEPSEEK_API_KEY", "")"
 
 
 @dataclass

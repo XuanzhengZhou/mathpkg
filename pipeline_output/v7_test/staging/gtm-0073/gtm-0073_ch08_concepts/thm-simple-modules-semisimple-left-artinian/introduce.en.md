@@ -1,0 +1,1 @@
+This theorem classifies all simple modules over a semisimple left Artinian ring: up to isomorphism, there are exactly t simple modules (where t is the number of simple components), and each is isomorphic to a minimal left ideal. This gives a complete picture of the module category over such rings.

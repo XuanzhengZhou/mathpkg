@@ -1,0 +1,1 @@
+D otimes_K A is a finite-dimensional vector space over the division ring D, with basis obtained from a K-basis of A. A descending chain of left ideals corresponds to a descending chain of D-subspaces, which must stabilize by finite dimensionality.

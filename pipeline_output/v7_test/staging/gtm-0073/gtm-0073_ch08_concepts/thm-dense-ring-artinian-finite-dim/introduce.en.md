@@ -1,0 +1,1 @@
+For a dense ring of endomorphisms of a vector space V, the Artinian condition forces V to be finite-dimensional, and conversely. Moreover, in the finite-dimensional case, the dense ring must equal the full endomorphism ring Hom_D(V,V). This connects the abstract notion of "dense" to the concrete matrix rings: in finite dimensions, only the full matrix ring can be dense.

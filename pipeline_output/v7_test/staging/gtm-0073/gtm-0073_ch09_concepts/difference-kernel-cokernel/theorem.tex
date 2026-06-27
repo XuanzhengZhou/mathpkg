@@ -1,0 +1,11 @@
+Let $f : C \to D$ and $g : C \to D$ be morphisms of a category $\mathcal{C}$. A difference kernel (or equalizer) for the pair $(f, g)$ is a morphism $i : B \to C$ such that:
+\begin{enumerate}
+\item[(i)] $f i = g i$;
+\item[(ii)] if $h : A \to C$ is a morphism with $f h = g h$, then there exists a unique morphism $\bar{h} : A \to B$ such that $i \bar{h} = h$.
+\end{enumerate}
+
+A difference cokernel (or coequalizer) for the pair $(f, g)$ is a morphism $j : D \to E$ such that:
+\begin{enumerate}
+\item[(i)] $j f = j g$;
+\item[(ii)] if $k : D \to F$ is a morphism with $k f = k g$, then there exists a unique morphism $\bar{k} : E \to F$ such that $\bar{k} j = k$.
+\end{enumerate}

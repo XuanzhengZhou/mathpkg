@@ -1,0 +1,24 @@
+id: dedekind-domain-equivalences
+title_en: "Equivalent Characterizations of Dedekind Domains"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [Dedekind-domain, characterization, invertible-ideal, fractional-ideal]
+depends_on:
+  required: [dedekind-domain, fractional-ideal, invertible-ideal-projective, integral-closure]
+  recommended: []
+  suggested: []
+proof_deps: {}
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: "VIII"
+    section: "VIII.6"
+    pages: ""
+    role_in_book: "Theorem 6.10"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

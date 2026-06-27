@@ -1,0 +1,26 @@
+id: van-dyck-theorem
+title_en: "Van Dyck's Theorem"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [van-dyck, presentation, generators, relations, epimorphism]
+depends_on:
+  required: [presentation-of-group, homomorphism-factoring-theorem]
+  recommended: []
+  suggested: []
+proof_deps:
+  free-group-universal-property: "inclusion X → H induces F → H"
+  homomorphism-factoring-theorem: "N ⊂ Ker φ induces F/N → H"
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: I
+    section: "I.9"
+    pages: ""
+    role_in_book: "Theorem 9.5"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

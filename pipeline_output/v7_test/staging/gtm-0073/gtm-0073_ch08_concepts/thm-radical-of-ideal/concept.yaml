@@ -1,0 +1,24 @@
+id: radical-of-ideal
+title_en: "Jacobson Radical of an Ideal"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [jacobson-radical, ideal, semisimple]
+depends_on:
+  required: [jacobson-radical, semisimple-ring, radical-ring]
+  recommended: []
+  suggested: []
+proof_deps: {}
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: IX
+    section: "IX.2"
+    pages: ""
+    role_in_book: "Theorem 2.16"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

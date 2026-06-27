@@ -1,0 +1,26 @@
+id: finite-intersection-index
+title_en: "Index of Intersection of Finite-Index Subgroups"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [intersection, finite-index, subgroup]
+depends_on:
+  required: [subgroup-index-inequality, index-multiplicativity]
+  recommended: []
+  suggested: []
+proof_deps:
+  subgroup-index-inequality: "key inequality for the proof"
+  index-multiplicativity: "tower K < H∩K < G"
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: I
+    section: "I.4"
+    pages: ""
+    role_in_book: "Proposition 4.9"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

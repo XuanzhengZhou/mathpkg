@@ -1,0 +1,25 @@
+id: permutation-as-product-of-transpositions
+title_en: "Every Permutation is a Product of Transpositions"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: group-theory
+difficulty: basic
+tags: [permutation, transposition, cycle, product]
+depends_on:
+  required: [permutation-cycle-decomposition]
+  recommended: []
+  suggested: []
+proof_deps:
+  permutation-cycle-decomposition: "reduce to cycles, then factor each cycle"
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: I
+    section: "I.6"
+    pages: ""
+    role_in_book: "Corollary 6.5"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

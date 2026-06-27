@@ -1,0 +1,7 @@
+Let $\mathcal{C}$ and $\mathcal{D}$ be categories and $T : \mathcal{D} \to \mathcal{C}$ a covariant functor. Then $T$ has a left adjoint if and only if for each object $C$ of $\mathcal{C}$, the functor $\hom_{\mathcal{C}}(C, T(-)) : \mathcal{D} \to \mathcal{S}$ is representable.
+
+Conversely, suppose that for each $C$, there exists an object $S(C)$ of $\mathcal{D}$ that represents $\hom_{\mathcal{C}}(C, T(-))$. Then by Theorem 1.9 there is a covariant functor $S : \mathcal{C} \to \mathcal{D}$ such that $S(C)$ is the representing object for each $C$, and there is a natural isomorphism
+\[
+\hom_{\mathcal{D}}(S(-), -) \cong \hom_{\mathcal{C}}(-, T(-)).
+\]
+Thus $S$ is a left adjoint of $T$.

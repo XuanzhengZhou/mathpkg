@@ -1,0 +1,1 @@
+By Theorem 5.4, A cong prod Mat_{n_i} D_i where each D_i is a division algebra over K. Each D_i is finite-dimensional over K (otherwise A would be infinite-dimensional), hence algebraic over K. By Lemma 5.6, D_i = K for every i.

@@ -1,0 +1,1 @@
+Same proof as Proposition 3.2 with "semisimple" replaced by "semiprime" and "primitive" replaced by "prime". Use the set of all prime ideals and the canonical map R -> prod R/P.

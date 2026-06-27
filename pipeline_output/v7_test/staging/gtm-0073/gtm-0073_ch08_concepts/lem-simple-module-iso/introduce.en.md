@@ -1,0 +1,1 @@
+This lemma establishes that a ring can have at most one isomorphism class of faithful simple modules. Combined with Proposition 1.17, this uniqueness underpins the well-definedness of the dimension and division ring invariants in the Wedderburn-Artin theorem.

@@ -1,0 +1,1 @@
+A left quotient ring generalizes the field of fractions construction to noncommutative rings. Every regular element becomes invertible, and every element is a left fraction of two ring elements. The existence of a left quotient ring requires the Ore condition. Goldie's Theorem shows that semiprime left Goldie rings always have a semisimple Artinian left quotient ring.

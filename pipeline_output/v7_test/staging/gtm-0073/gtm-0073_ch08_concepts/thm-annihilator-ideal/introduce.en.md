@@ -1,0 +1,1 @@
+The annihilator of a module (or a subset of it) is the set of ring elements that send every element of the module to zero. For a left R-module A, the left annihilator of A is always a two-sided ideal. More generally, the left annihilator of any submodule is a left ideal. This fact is used extensively in relating module structure to ideal structure.

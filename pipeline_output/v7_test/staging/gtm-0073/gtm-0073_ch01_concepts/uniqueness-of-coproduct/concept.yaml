@@ -1,0 +1,25 @@
+id: uniqueness-of-coproduct
+title_en: "Uniqueness of Coproducts up to Equivalence"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: intermediate
+tags: [coproduct, equivalence, uniqueness, category]
+depends_on:
+  required: [categorical-coproduct]
+  recommended: []
+  suggested: []
+proof_deps:
+  universal-property: "dual argument to Theorem 7.3"
+source_books:
+  - book_id: gtm-0073
+    author: "Hungerford, Thomas W."
+    title: "Algebra"
+    chapter: I
+    section: "I.7"
+    pages: ""
+    role_in_book: "Theorem 7.5"
+content_hash: ""
+extraction_date: "2026-06-24"
+extraction_agent: "v7-gtm073"

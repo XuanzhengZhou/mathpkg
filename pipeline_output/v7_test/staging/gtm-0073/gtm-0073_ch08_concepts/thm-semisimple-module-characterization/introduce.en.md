@@ -1,0 +1,1 @@
+A module satisfying these equivalent conditions is called semisimple (or completely reducible). The theorem shows that semisimple modules are precisely the direct sums of simple modules, and that this is equivalent to the property that every submodule is a direct summand (i.e., the module is "injective" relative to its submodules).

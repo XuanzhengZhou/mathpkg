@@ -1,0 +1,1 @@
+The prime radical (also called the Baer lower radical or McCoy radical) is the intersection of all prime ideals. It is the smallest ideal whose quotient has no nonzero nilpotent ideals, and it is the radical associated with the property of being a nilpotent ring. In commutative rings, the prime radical coincides with the nilradical (the set of all nilpotent elements).

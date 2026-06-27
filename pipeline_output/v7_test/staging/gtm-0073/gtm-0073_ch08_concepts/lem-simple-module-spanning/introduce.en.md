@@ -1,0 +1,1 @@
+For a simple left Artinian ring, any faithful simple module must be finite-dimensional over its endomorphism division ring. This lemma is used in the proof of Proposition 1.17 to establish that the dimension invariant is well-defined.

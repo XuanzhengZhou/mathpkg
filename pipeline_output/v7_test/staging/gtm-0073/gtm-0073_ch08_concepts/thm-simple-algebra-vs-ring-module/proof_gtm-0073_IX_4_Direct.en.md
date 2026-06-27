@@ -1,0 +1,1 @@
+Let N be a simple algebra A-module. Any ring-submodule N_1 of N satisfies that AN_1 is an algebra submodule, so AN_1 = N (meaning N_1 = N) or AN_1 = 0 (meaning N_1 = 0). Thus N has no proper submodules. Conversely, if M is a simple ring A-module, then M = Ac is cyclic. Define k(rc) = (kr)c. This K-module structure is well-defined and makes M a simple algebra A-module.

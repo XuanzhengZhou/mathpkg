@@ -1,0 +1,1 @@
+(i) Every simple R-module A is isomorphic to R/M for some regular maximal left ideal M. Since R is a direct product of simple ideals I_j, the projection onto some component gives an isomorphism A cong to a minimal left ideal K_i subset I_j. (ii) Minimal left ideals in different components I_j and I_k are not isomorphic as R-modules because I_j annihilates K_k for k != j.

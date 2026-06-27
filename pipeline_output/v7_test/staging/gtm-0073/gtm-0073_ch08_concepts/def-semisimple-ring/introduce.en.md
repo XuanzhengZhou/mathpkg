@@ -1,0 +1,1 @@
+A semisimple ring is one whose Jacobson radical is zero -- intuitively, it has no "bad" quasi-regular elements. Semisimple rings are the "nice" rings in the radical-based structure theory analogy, playing the role that reduced rings play for the nilradical. Every division ring and the integers are semisimple.

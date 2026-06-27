@@ -1,0 +1,1 @@
+Let K be the center of D and F a maximal subfield. By Theorem 6.6, dim_K D = n^2 where n = [F:K]. All maximal subfields are isomorphic (finite fields of order q^n) and conjugate by Noether-Skolem. Thus D* = union of aF*a^{-1} over all a. But Lemma 6.10 says such a union cannot equal the whole group unless F = D, so n = 1 and D = K is a field.

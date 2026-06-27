@@ -1,0 +1,1 @@
+If X is a K-basis of A, then X otimes 1_F = {x otimes 1_F | x in X} is an F-basis of A otimes_K F. The map x -> x otimes 1_F is injective, and every element can be uniquely written as sum (x_i otimes 1_F) c_i with c_i in F.

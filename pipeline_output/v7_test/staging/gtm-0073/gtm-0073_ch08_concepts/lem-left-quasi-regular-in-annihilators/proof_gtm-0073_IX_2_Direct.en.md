@@ -1,0 +1,1 @@
+If I is not contained in the annihilator of some simple module A, then IA != 0. Since A is simple, IA = A. Then there exists a in I and x in A with ax != 0. Using quasi-regularity of a, derive a contradiction.
