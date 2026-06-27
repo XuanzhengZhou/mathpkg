@@ -42,30 +42,15 @@ legacy/
 # ─── 文档（本地保留） ───
 docs/
 
-# ─── pipeline_output: 运行时数据（不上传） ───
-pipeline_output/ocr_output/
-pipeline_output/ocr_healthcheck.log
-pipeline_output/__pycache__/
+# ─── pipeline_output: 整个目录不上传（临时/中间产物） ───
+pipeline_output/
 
-# ─── math_pkg_release: 正式版产物 ───
-# 概念提取的临时标记文件
-pipeline_output/math_pkg_release/concepts_v7/**/.done
-pipeline_output/math_pkg_release/concepts_v7/**/.fail
-pipeline_output/math_pkg_release/concepts_v7/**/.lean.done
-pipeline_output/math_pkg_release/concepts_v7/**/.lean.fail
-
-# section 拆分产物（体积大，本地生成）
-pipeline_output/stitched_sections/
-pipeline_output/section_indexes/
-
-# 大型参考数据（可本地重建）
-pipeline_output/data/mathlib4_index.json
-pipeline_output/data/mathlib4_names.json
-pipeline_output/data/ocr_all_books.json
-pipeline_output/data/ocr_all_books_full.json
-pipeline_output/data/all_books_quality.json
-pipeline_output/data/new_books_quality.json
-pipeline_output/data/content_analysis.json
+# ─── math_pkg_release: 正式版概念数据 ───
+# 概念提取的临时标记文件（不上传）
+mathpkg/math_pkg_release/concepts_v7/**/.done
+mathpkg/math_pkg_release/concepts_v7/**/.fail
+mathpkg/math_pkg_release/concepts_v7/**/.lean.done
+mathpkg/math_pkg_release/concepts_v7/**/.lean.fail
 
 # API密钥 — 绝对不上传
 # 任何含sk-的文件都要检查
