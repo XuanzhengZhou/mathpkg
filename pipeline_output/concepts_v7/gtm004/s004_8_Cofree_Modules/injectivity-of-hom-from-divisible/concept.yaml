@@ -1,0 +1,23 @@
+id: injectivity-of-hom-from-divisible
+title_en: "Injectivity of Hom_Z(Λ, G) for Divisible G"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [injective-module, divisible-group, hom-functor, cofree-module]
+depends_on:
+  required: [hom-adjunction-for-modules, injective-module, divisible-abelian-group]
+  recommended: [baers-criterion]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I. Modules"
+    section: "8. Cofree Modules"
+    pages: ""
+    role_in_book: "Theorem 8.2; proves that cofree modules are injective, the key structural result of the section"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

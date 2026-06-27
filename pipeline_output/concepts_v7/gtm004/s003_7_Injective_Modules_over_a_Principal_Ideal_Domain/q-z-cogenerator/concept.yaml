@@ -1,0 +1,23 @@
+id: q-z-cogenerator
+title_en: "Injective Cogenerator Q/Z for Abelian Groups"
+title_zh: "有理数模整数商群是阿贝尔群的内射上生成子"
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [module-theory, injective-module, cogenerator, abelian-group, q-over-z]
+depends_on:
+  required: [injective-module, abelian-group, rational-numbers]
+  recommended: [divisible-module, cofree-module]
+  suggested: [generator, projective-module, free-abelian-group]
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I"
+    section: "7. Injective Modules over a Principal Ideal Domain"
+    pages: ""
+    role_in_book: "Proposition establishing Q/Z as the injective cogenerator for the category of abelian groups"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

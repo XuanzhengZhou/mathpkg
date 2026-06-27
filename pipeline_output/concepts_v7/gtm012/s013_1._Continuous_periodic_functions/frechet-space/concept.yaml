@@ -1,0 +1,20 @@
+id: frechet-space
+title_en: "Frechet Space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [topological-vector-space, completeness, locally-convex-space, metrizable]
+depends_on: {required: [seminorm], recommended: [], suggested: []}
+source_books:
+  - book_id: gtm012
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "3"
+    section: "1. Continuous periodic functions"
+    pages: ""
+    role_in_book: "Abstract framework generalizing Banach spaces; 𝒫 is the key example"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: yoneda-equivalence-and-yext
+title_en: "Yoneda Equivalence Relation on n-Extensions and \operatorname{Yext}_A^n"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [n-extension, Yoneda-equivalence, Yext, Ext-functor, Yoneda-interpretation]
+depends_on:
+  required: [n-extension-definition, commutative-diagram]
+  recommended: [ext-group, 1-extension-equivalence]
+  suggested: [yoneda-product, baer-sum]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra (2nd ed.)"
+    chapter: "9. Ext^n and n-Extensions"
+    section: "9"
+    pages: ""
+    role_in_book: "Defines the Yoneda equivalence relation \rightsquigarrow and its generated equivalence \sim on n-extensions, and the set \operatorname{Yext}_A^n(A,B) of equivalence classes, which is the carrier of the Yoneda interpretation of Ext."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

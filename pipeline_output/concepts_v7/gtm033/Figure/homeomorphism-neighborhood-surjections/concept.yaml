@@ -1,0 +1,23 @@
+id: homeomorphism-neighborhood-surjections
+title_en: "Homeomorphisms Have a Neighborhood of Surjective Maps"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [homeomorphism, strong-topology, surjective-map, degree-theory]
+depends_on:
+  required: [homeomorphism, strong-topology]
+  recommended: [brouwer-fixed-point, degree-of-map]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2"
+    section: "1. The Weak and Strong Topologies on C^r(M,N)"
+    pages: ""
+    role_in_book: "Theorem 1.7. A homeomorphism between manifolds without boundary has a neighborhood consisting entirely of surjective maps in the C^0 strong topology."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

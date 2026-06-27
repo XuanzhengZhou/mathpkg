@@ -1,0 +1,23 @@
+id: linear-subspace-tvs
+title_en: "Linear Subspace Inherits TVS Structure"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [TVS, subspace, relative-topology]
+depends_on:
+  required: [topological-vector-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "Chapter 2 – Topological Vector Spaces"
+    section: "11. Real and complex topological vector spaces"
+    pages: ""
+    role_in_book: "Shows the TVS property is hereditary for linear subspaces."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

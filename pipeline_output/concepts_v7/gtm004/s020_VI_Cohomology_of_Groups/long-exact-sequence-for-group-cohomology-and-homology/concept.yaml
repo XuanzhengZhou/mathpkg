@@ -1,0 +1,23 @@
+id: long-exact-sequence-for-group-cohomology-and-homology
+title_en: "Proposition 2.3: Long Exact (Co)homology Sequences"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: ["long-exact-sequence", "group-cohomology", "group-homology", "derived-functor"]
+depends_on:
+  required: ["cohomology-and-homology-of-groups"]
+  recommended: ["long-exact-sequence-of-ext", "long-exact-sequence-of-tor"]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VI"
+    section: "2"
+    pages: ""
+    role_in_book: "Fundamental tool for computing (co)homology via short exact sequences"
+content_hash: "add1c18fd562"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

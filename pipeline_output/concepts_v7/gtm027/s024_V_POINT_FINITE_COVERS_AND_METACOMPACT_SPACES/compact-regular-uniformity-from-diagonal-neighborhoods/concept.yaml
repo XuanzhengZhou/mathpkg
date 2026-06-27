@@ -1,0 +1,23 @@
+id: compact-regular-uniformity-from-diagonal-neighborhoods
+title_en: "Uniqueness of Uniformity on Compact Regular Spaces"
+title_zh: "紧正则空间上一致性结构的唯一性"
+type: corollary
+domain: topology
+subdomain: uniform-spaces
+difficulty: intermediate
+tags: [compact, regular, uniformity, uniqueness, diagonal]
+depends_on:
+  required: [compact-uniform-space-neighborhoods-of-diagonal, compact-space, regular-space]
+  recommended: [uniformity, diagonal, uniform-topology]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Compact Spaces"
+    pages: ""
+    role_in_book: "Corollary 30: on a compact regular space, there is exactly one compatible uniformity"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

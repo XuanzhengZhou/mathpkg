@@ -1,0 +1,23 @@
+id: trivial-vector-bundle
+title_en: "Trivial Vector Bundle"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: vector-bundles
+difficulty: basic
+tags: [vector-bundle, trivial-bundle, trivialization, product-bundle]
+depends_on:
+  required: [vector-bundle]
+  recommended: [vector-bundle-morphism]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "4.1"
+    pages: ""
+    role_in_book: "Defines the simplest vector bundle — a model to which all locally trivial bundles are compared"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

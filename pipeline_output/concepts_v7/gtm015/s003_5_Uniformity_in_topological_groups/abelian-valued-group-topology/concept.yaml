@@ -1,0 +1,23 @@
+id: abelian-valued-group-topology
+title_en: "Left and right value topologies coincide for abelian groups"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-groups
+difficulty: intermediate
+tags: [abelian-group, value-topology, metrizability]
+depends_on:
+  required: [valued-group, value-metric-correspondence]
+  recommended: [abelian-group, topological-group]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "8"
+    section: "Valued topological groups"
+    pages: ""
+    role_in_book: "Shows that for abelian groups the two value topologies coincide and make the group a topological group."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

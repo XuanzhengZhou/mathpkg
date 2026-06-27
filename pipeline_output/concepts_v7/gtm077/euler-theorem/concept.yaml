@@ -1,0 +1,13 @@
+id: euler-theorem
+title_en: "Euler's Theorem (Theorem 9)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: elementary-number-theory
+difficulty: basic
+tags: [euler-theorem, totient, modular-arithmetic, group-theory]
+depends_on: {required: [euler-totient, residue-class, coprime-integers], recommended: [euler-totient-multiplicativity], suggested: []}
+source_books: [{book_id: "gtm077", author: "Erich Hecke", title: "Lectures on the Theory of Algebraic Numbers", chapter: "I", section: "2", pages: "", role_in_book: "Generalization of Fermat's little theorem; fundamental for RSA and modular exponentiation"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

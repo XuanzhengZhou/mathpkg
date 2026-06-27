@@ -1,0 +1,23 @@
+id: stone-cech-compactification
+title_en: "Stone-Čech compactification"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: compactifications
+difficulty: advanced
+tags: [stone-cech, compactification, completely-regular, universal-property]
+depends_on:
+  required: [completely-regular-space, compact-space]
+  recommended: [tychonoff-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "64"
+    section: "Stone-Čech compactification"
+    pages: ""
+    role_in_book: "Every completely regular space has a Stone-Čech compactification"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

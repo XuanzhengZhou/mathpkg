@@ -1,0 +1,23 @@
+id: ext1-isomorphic-to-ext
+title_en: "Isomorphism Between Ext^1 and the Classical Ext Group"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [ext-functor, derived-functor, projective-presentation, isomorphism, cohomology]
+depends_on:
+  required: [ext-functor-via-projectives, classical-ext-group, projective-resolution]
+  recommended: [projective-presentation, long-exact-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "II"
+    section: "7. The Functors Ext^n_A Using Projectives"
+    pages: ""
+    role_in_book: "Proposition 7.1: justifies the notation by showing Ext^1 matches the classical Ext group"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

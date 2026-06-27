@@ -1,0 +1,23 @@
+id: continuous-open-closed-implies-quotient
+title_en: "Continuous Open or Closed Surjection Induces Quotient Topology"
+title_zh: "连续开（或闭）满射导出商拓扑"
+type: theorem
+domain: topology
+subdomain: quotient-spaces
+difficulty: intermediate
+tags: [quotient-topology, open-map, closed-map, continuous-function, surjection]
+depends_on:
+  required: [quotient-topology]
+  recommended: [open-map, closed-map, continuous-function]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "3"
+    section: "Quotient Spaces"
+    pages: ""
+    role_in_book: "theorem-8"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

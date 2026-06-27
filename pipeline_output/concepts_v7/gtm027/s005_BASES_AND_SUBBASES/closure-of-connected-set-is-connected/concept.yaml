@@ -1,0 +1,23 @@
+id: closure-of-connected-set-is-connected
+title_en: "Closure of a Connected Set is Connected"
+title_zh: "连通集的闭包连通"
+type: theorem
+domain: topology
+subdomain: connectedness
+difficulty: basic
+tags: [connected, closure, connectedness-preservation]
+depends_on:
+  required: [connected-set, closure]
+  recommended: [separated-sets]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Bases and Subbases"
+    pages: ""
+    role_in_book: "Theorem 20 — closure preserves connectedness"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

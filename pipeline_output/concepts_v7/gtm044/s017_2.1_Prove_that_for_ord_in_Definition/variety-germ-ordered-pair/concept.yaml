@@ -1,0 +1,23 @@
+id: variety-germ-ordered-pair
+title_en: "Germ of a Variety at an Irreducible Subvariety (V_W)"
+title_zh: "簇在不可约子簇处的芽 (V_W)"
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [germ, variety, irreducible-subvariety, ordered-pair, lattice-operations]
+depends_on:
+  required: []
+  recommended: [irreducible-variety, subvariety, irreducible-component]
+  suggested: [coordinate-ring-localization]
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Formal definition of variety germ with set-theoretic operations"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

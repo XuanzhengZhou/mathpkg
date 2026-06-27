@@ -1,0 +1,23 @@
+id: every-neighborhood-of-zero-is-absorbent
+title_en: "Every Neighborhood of the Origin is Absorbent"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [TVS, absorbent-set, neighborhood, continuity]
+depends_on:
+  required: [topological-vector-space, absorbent-set-definition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "Chapter 2 – Topological Vector Spaces"
+    section: "17. Balanced sets, absorbent sets"
+    pages: ""
+    role_in_book: "Key lemma showing every TVS neighborhood of zero satisfies the absorbent property."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

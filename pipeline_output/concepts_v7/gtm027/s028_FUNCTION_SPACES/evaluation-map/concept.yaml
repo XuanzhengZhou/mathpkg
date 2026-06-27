@@ -1,0 +1,23 @@
+id: evaluation-map
+title_en: "Evaluation Map (Projection into Coordinate Space)"
+title_zh: "赋值映射（到坐标空间的投影）"
+type: definition
+domain: topology
+subdomain: function-spaces
+difficulty: basic
+tags: [evaluation-map, projection, function-space, pointwise-topology]
+depends_on:
+  required: [function-space]
+  recommended: [product-topology]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Pointwise Convergence"
+    pages: ""
+    role_in_book: "Defines the evaluation map which is fundamental to understanding function space topologies"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

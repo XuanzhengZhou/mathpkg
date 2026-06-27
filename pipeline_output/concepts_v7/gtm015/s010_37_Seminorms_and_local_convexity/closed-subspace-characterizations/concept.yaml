@@ -1,0 +1,23 @@
+id: closed-subspace-characterizations
+title_en: "Characterizations of closed subspaces in a locally convex TVS"
+title_zh: "局部凸拓扑向量空间中闭子空间的刻画"
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [locally-convex-space, closed-subspace, weak-topology, annihilator]
+depends_on:
+  required: [locally-convex-topological-vector-space, weak-topology, annihilator, closed-convex-weakly-closed]
+  recommended: [annihilator-properties]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "3"
+    section: "38"
+    pages: ""
+    role_in_book: "technical_corollary"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

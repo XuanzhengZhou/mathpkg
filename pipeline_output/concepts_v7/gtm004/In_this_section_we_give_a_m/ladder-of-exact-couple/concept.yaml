@@ -1,0 +1,23 @@
+id: ladder-of-exact-couple
+title_en: "Ladder of an Exact Couple"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [exact-couple, spectral-sequence, ladder, derived-couple]
+depends_on:
+  required: [exact-couple, q-processes-for-exact-couples]
+  recommended: [derived-couple]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "4. The Ladder of an Exact Couple"
+    pages: ""
+    role_in_book: "Constructs the ladder from an exact couple via iterative factorization of α and repeated Q-processes"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

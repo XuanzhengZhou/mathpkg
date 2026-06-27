@@ -1,0 +1,23 @@
+id: ascoli-theorem-equicontinuity
+title_en: "Theorem 7.17 — Ascoli Theorem (Equicontinuity Version)"
+title_zh: "Ascoli定理（等度连续版本）"
+type: theorem
+domain: topology
+subdomain: function-spaces
+difficulty: advanced
+tags: [ascoli-theorem, equicontinuity, compactness, compact-open-topology]
+depends_on:
+  required: [equicontinuous-family, compactness, compact-open-topology]
+  recommended: [pointwise-convergence, hausdorff-space]
+  suggested: [k-space]
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Compactness and Equicontinuity"
+    pages: ""
+    role_in_book: "Theorem 7.17 — the classical Ascoli theorem for function spaces with the compact-open topology"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

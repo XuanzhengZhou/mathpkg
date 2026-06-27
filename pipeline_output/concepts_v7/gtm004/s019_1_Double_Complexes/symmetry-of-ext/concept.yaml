@@ -1,0 +1,29 @@
+id: symmetry-of-ext
+title_en: Symmetry of Ext and Relations between Hom and Ext
+title_zh: ''
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags:
+- Ext
+- Hom
+- symmetry
+- abelian-groups
+depends_on:
+  required:
+  - associativity-relations-for-hom-tor-ext
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 4. Applications of the Künneth Formulas
+  pages: ''
+  role_in_book: third corollary of Theorem 4.3; establishes symmetry of Ext and intertwining
+    with Hom
+content_hash: fb66e6b8f256e6ca
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

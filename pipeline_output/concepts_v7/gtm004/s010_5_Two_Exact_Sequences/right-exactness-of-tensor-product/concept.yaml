@@ -1,0 +1,23 @@
+id: right-exactness-of-tensor-product
+title_en: "Right Exactness of the Tensor Product (Proposition 7.3)"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [tensor-product, exact-sequence, right-exactness, adjoint-functor]
+depends_on:
+  required: [tensor-hom-adjunction]
+  recommended: [tensor-product, exact-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "7. The Tensor Product"
+    pages: ""
+    role_in_book: "Establishes the right exactness of tensor product, motivating the definition of Tor"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

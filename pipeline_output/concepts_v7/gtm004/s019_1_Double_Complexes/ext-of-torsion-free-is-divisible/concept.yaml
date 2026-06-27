@@ -1,0 +1,31 @@
+id: ext-of-torsion-free-is-divisible
+title_en: Ext of a Torsion-Free Group is Divisible
+title_zh: ''
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags:
+- Ext
+- divisible-group
+- torsion-free
+- abelian-groups
+depends_on:
+  required:
+  - associativity-relations-for-hom-tor-ext
+  recommended:
+  - injective-module
+  - divisible-group
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 4. Applications of the Künneth Formulas
+  pages: ''
+  role_in_book: first corollary of Theorem 4.3; characterizes Ext(A,B) for torsion-free
+    A
+content_hash: 3b4294ce54bb655e
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

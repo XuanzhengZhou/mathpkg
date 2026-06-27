@@ -1,0 +1,23 @@
+id: equicontinuous-on-a-set
+title_en: "Equicontinuous on a Set"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: function-spaces
+difficulty: intermediate
+tags: [equicontinuity, restriction, ascoli-theorem, k-space]
+depends_on:
+  required: [equicontinuous-family, restriction]
+  recommended: [k-space]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Compactness and Equicontinuity"
+    pages: ""
+    role_in_book: "Defines equicontinuity on a set, needed for the Ascoli theorem on k-spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

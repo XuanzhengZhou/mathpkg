@@ -1,0 +1,23 @@
+id: frequently-in
+title_en: "Frequently In (Nets)"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: nets-and-convergence
+difficulty: basic
+tags: ["frequently-in", "net", "cofinal", "eventually-in"]
+depends_on:
+  required: ["net", "cofinal-subset"]
+  recommended: ["eventually-in", "convergence-of-net"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "2"
+    section: "Directed Sets and Nets"
+    pages: "81-87"
+    role_in_book: "Defines the 'frequently in' property for nets, dual to 'eventually in', and characterizes it via cofinal subsets."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

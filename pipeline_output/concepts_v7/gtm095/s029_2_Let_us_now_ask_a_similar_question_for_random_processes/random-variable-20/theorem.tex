@@ -1,0 +1,44 @@
+From this point of view of much interest are the instances, where random processes having desired properties can be built constructively, and with minimal use of “probabilistic structures.”
+
+To demonstrate such possibilities, consider the so-called renewal processes. (A particular case of them is the Poisson process; see Sect. 10 of Chap. 7, Vol. 2.)
+
+Let $(\sigma_1, \sigma_2, \ldots)$ be a sequence of independent identically distributed positive random variables with distribution function $F = F(x)$. (The existence of such a sequence follows from Corollary 1 to Theorem 1.)
+
+Based on $(\sigma_1, \sigma_2, \ldots)$, we form a new sequence $(T_0, T_1, \ldots)$ with $T_0 = 0$ and
+
+$$T_n = \sigma_1 + \cdots + \sigma_n, \quad n \geq 1.$$
+
+For illustrative purposes, let us think of $T_n$ as the time instant of, say, the $n$th telephone call. Then $\sigma_n$ is the time between the $(n-1)$th and $n$th calls.
+
+The random process $N = (N_t)_{t \geq 0}$ with constructively specified random variables
+
+$$N_t = \sum_{n=1}^{\infty} I(T_n \leq t)$$
+
+is referred to as a renewal process.
+
+Clearly, $N_t$ could also be defined as
+
+$$N_t = \max\{n : T_n \leq t\},$$
+
+i.e., $N_t$ is the number of calls that occur in the time interval $(0, t]$, and it is obvious that
+
+$$\{N_t \geq n\} = \{T_n \leq t\}.$$
+
+This simple formula is very useful because it reduces the study of probabilistic properties of the process $N = (N_t)_{t \geq 0}$ to the treatment of the variables $T_n = \sigma_1 + \cdots + \sigma_n$, which are sums of independent random variables $\sigma_1, \ldots, \sigma_n, n \geq 1$ (see Subsection 4 in Sect. 3 of Chapter 4 and Subsection
+
+2. Verify the consistency of the families of distributions in the corollaries to Theorems 1 and 2.
+3. Deduce Corollary 2, Theorem 2, from Theorem 1.
+4. Let $F_n$ denote the distribution function of $T_n$, $n \geq 1$ (see Subsection 4). Show that $F_{n+1}(t) = \int_0^t F_n(t-s) dF(s)$, $n \geq 1$, where $F_1 = F$.
+5. Show that $P\{N_t=n\} = F_n(t) - F_{n+1}(t)$ (see (17)).
+6. Show that the renewal function $m(t)$ defined in Subsection 4 satisfies the renewal equation
+$$m(t) = F(t) + \int_0^t m(t-x) dF(x).$$
+7. Show that the function defined by (20) is a unique solution of the equation (21) within the class of functions bounded on finite intervals.
+8. Let $T$ be an arbitrary set.
+   (i) Suppose that for every $t \in T$ a probability space $(\Omega_t, \mathcal{F}_t, P_t)$ is given. Put $\Omega = \prod_{t \in T} \Omega_t$, $\mathcal{F} = \bigotimes_{t \in T} \mathcal{F}_t$. Prove that there is a unique probability measure $P$ on $(\Omega, \mathcal{F})$ such that
+$$P\left(\prod_{t \in T} B_t\right) = \prod_{t \in T} P(B_t),$$
+where $B_t \in \mathcal{F}_t$, $t \in T$, and $B_t = \Omega_t$ for all but finitely many $t$. (Hint. Specify $P$ on an appropriate algebra and use the method of the proof of Ionescu Tulcea’s theorem.)
+(ii) Let for every $t \in T$ a measurable space $(E_t, \mathcal{E}_t)$ and a probability measure $P_t$ on it be given. Show that there is a probability space $(\Omega, \mathcal{
+
+$$P \left( \left| \frac{S_n}{n} - p \right| > \varepsilon \right) \to 0, \quad n \to \infty$$
+
+(see Sect. 5 of Chap. 1). In analysis this is known as convergence in measure.

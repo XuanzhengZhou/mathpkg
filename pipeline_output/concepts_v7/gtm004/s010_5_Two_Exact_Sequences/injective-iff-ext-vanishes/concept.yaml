@@ -1,0 +1,23 @@
+id: injective-iff-ext-vanishes
+title_en: "A Module is Injective iff Ext Vanishes (Corollary 5.6)"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [injective-module, ext-functor, characterization, duality]
+depends_on:
+  required: [hom-ext-sequence-first-variable]
+  recommended: [injective-module, ext-group]
+  suggested: [projective-iff-ext-vanishes]
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "5. Two Exact Sequences"
+    pages: ""
+    role_in_book: "Dual characterization of injective modules — the reader may easily prove the dual assertion"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

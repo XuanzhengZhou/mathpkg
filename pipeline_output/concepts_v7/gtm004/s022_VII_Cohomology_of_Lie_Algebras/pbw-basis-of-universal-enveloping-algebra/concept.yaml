@@ -1,0 +1,31 @@
+id: pbw-basis-of-universal-enveloping-algebra
+title_en: PBW Basis of the Universal Enveloping Algebra
+title_zh: 泛包络代数的PBW基
+type: corollary
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags:
+- pbw-theorem
+- universal-enveloping-algebra
+- basis
+- filtration
+depends_on:
+  required:
+  - universal-enveloping-algebra
+  - pbw-theorem
+  recommended:
+  - lie-algebra
+  - ordered-basis
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: VII
+  section: 1. Lie Algebras and their Universal Enveloping Algebra
+  pages: ''
+  role_in_book: Foundational concept for Lie algebra cohomology theory
+content_hash: 3b531d79e6e9d3db
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

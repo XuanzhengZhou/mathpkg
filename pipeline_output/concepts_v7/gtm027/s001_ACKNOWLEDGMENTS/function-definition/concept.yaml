@@ -1,0 +1,23 @@
+id: function-definition
+title_en: "Function (as a Set of Ordered Pairs)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: ["function", "ordered-pair", "domain", "range", "set-theoretic-definition"]
+depends_on:
+  required: ["ordered-pair", "set", "relation"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Functions"
+    pages: "10-12"
+    role_in_book: "Defines a function set-theoretically as a set of ordered pairs such that no two members have the same first coordinate."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: projective-over-pid-is-free
+title_en: "Over a PID Every Projective Module is Free"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [principal-ideal-domain, projective-module, free-module]
+depends_on:
+  required: [submodule-of-free-over-pid-is-free]
+  recommended: [projective-module-characterizations]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I. Modules"
+    section: "5. Modules over a Principal Ideal Domain"
+    pages: ""
+    role_in_book: "Corollary 5.2 — projective modules over PIDs are free"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

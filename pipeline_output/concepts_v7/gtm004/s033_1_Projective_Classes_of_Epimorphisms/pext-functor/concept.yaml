@@ -1,0 +1,23 @@
+id: pext-functor
+title_en: "The Pext Functor"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [relative-homological-algebra, pure-exact-sequence, ext-functor, pure-epimorphism]
+depends_on:
+  required: [e-derived-functor, pure-epimorphism, hom-functor]
+  recommended: [ext-functor]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX"
+    section: "2. $\mathcal{E}$-Derived Functors"
+    pages: "322"
+    role_in_book: "example"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

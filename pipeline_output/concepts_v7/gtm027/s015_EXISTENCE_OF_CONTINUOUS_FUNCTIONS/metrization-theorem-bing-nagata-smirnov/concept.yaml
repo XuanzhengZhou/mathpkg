@@ -1,0 +1,23 @@
+id: metrization-theorem-bing-nagata-smirnov
+title_en: "Bing-Nagata-Smirnov Metrization Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: metrization
+difficulty: advanced
+tags: ["metrization", "Bing-Nagata-Smirnov", "sigma-locally-finite", "sigma-discrete", "regular"]
+depends_on:
+  required: ["regular-space", "sigma-locally-finite-family", "metric-space"]
+  recommended: ["uryson-metrization-theorem", "sigma-discrete"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "4"
+    section: "Metrization"
+    pages: "124-130"
+    role_in_book: "The full characterization: a T1-space is metrizable iff it is regular and has a sigma-locally-finite (equivalently sigma-discrete) base."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

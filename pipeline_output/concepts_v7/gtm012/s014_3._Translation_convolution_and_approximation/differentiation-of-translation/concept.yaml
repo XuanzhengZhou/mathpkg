@@ -1,0 +1,23 @@
+id: differentiation-of-translation
+title_en: "Lemma 3.2: Uniform Convergence of Difference Quotient to Derivative"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: fourier-analysis
+difficulty: intermediate
+tags: [translation, differentiation, uniform-convergence, smooth-periodic-functions]
+depends_on:
+  required: [translation-operator, smooth-periodic-functions]
+  recommended: [uniform-continuity]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "3"
+    section: "3. Translation, convolution, and approximation"
+    pages: ""
+    role_in_book: "Key lemma linking translation difference quotients to derivatives in the uniform norm"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

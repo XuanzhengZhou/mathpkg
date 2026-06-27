@@ -1,0 +1,10 @@
+In \text{sampling without replacement}, $n \leq M$ balls are selected from an urn containing $M$ distinguishable balls and the selected balls are not returned. Two cases are distinguished:
+\begin{itemize}
+\item \text{Ordered samples without replacement} (called \text{arrangements of $n$ out of $M$ elements without repetitions}):
+$$\Omega = \{\omega : \omega = (a_1, \ldots, a_n), \; a_i \neq a_j \text{ for } i \neq j, \; a_i = 1, \ldots, M\},$$
+$$N(\Omega) = (M)_n = M(M-1)\cdots(M-n+1).$$
+
+\item \text{Unordered samples without replacement} (called \text{combinations of $n$ out of $M$ elements}):
+$$N(\Omega) = C_M^n = \binom{M}{n} = \frac{M!}{n!(M-n)!}.$$
+\end{itemize}
+This model corresponds to Fermi--Dirac statistics when particles are indistinguishable and subject to the Pauli exclusion principle.

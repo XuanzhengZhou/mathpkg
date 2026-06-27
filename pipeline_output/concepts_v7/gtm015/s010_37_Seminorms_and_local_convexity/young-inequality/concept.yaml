@@ -1,0 +1,23 @@
+id: young-inequality
+title_en: "Young's inequality for products of nonnegative real numbers"
+title_zh: "非负实数乘积的Young不等式"
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [young-inequality, convexity, lp-space, inequality]
+depends_on:
+  required: [convex-function, exponential-function]
+  recommended: [lp-space-definition]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "4"
+    section: "39"
+    pages: ""
+    role_in_book: "technical_lemma"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

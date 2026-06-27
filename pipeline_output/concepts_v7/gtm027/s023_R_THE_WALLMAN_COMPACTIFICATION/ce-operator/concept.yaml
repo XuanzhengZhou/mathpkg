@@ -1,0 +1,23 @@
+id: ce-operator
+title_en: "Closure-under-Finite-Intersections (ce) Operator"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: compactification
+difficulty: advanced
+tags: ["Wallman-compactification", "ce-operator", "ultrafilter", "closed-set"]
+depends_on:
+  required: ["closure-operator", "ultrafilter", "wallman-compactification"]
+  recommended: ["boolean-space"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "The Wallman Compactification"
+    pages: "165-168"
+    role_in_book: "Defines the ce operator on families of closed sets, fundamental to the Wallman compactification construction."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

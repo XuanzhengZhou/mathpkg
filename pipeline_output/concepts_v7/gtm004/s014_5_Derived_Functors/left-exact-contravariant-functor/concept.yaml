@@ -1,0 +1,23 @@
+id: left-exact-contravariant-functor
+title_en: "Left Exact Contravariant Functor"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [exact-functor, left-exactness, contravariant-functor, opposite-category]
+depends_on:
+  required: [left-exact-functor]
+  recommended: [contravariant-functor, opposite-category, exact-sequence]
+  suggested: [hom-functor]
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra (2nd Edition)"
+    chapter: "IV. Derived Functors"
+    section: "5. Derived Functors"
+    pages: ""
+    role_in_book: "Definition extending left exactness to contravariant functors for right derived functor theory"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

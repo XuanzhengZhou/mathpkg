@@ -1,0 +1,17 @@
+id: epimorphism-iff-surjective
+title_en: "Epimorphism iff Surjective in the Category of Modules"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: basic
+tags: [epimorphism, surjective, module-homomorphism, category-of-modules]
+depends_on:
+  required: [epimorphism-definition]
+  recommended: [module-homomorphism, quotient-module]
+  suggested: []
+source_books:
+  - {book_id: "gtm004", author: "P.J. Hilton and U. Stammbach", title: "A Course in Homological Algebra", chapter: "I. Modules", section: "6. Dualization, Injective Modules", pages: "", role_in_book: "Justifies the dualization procedure by showing the categorical and set-theoretic notions of epimorphism coincide for modules."}
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

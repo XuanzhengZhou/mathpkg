@@ -1,0 +1,23 @@
+id: homology-functor
+title_en: "The Homology Functor"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [homology, functor, chain-complex, graded-module]
+depends_on:
+  required: [chain-map-induces-homology, chain-complex, homology-module]
+  recommended: [functor, abelian-category]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV. Derived Functors"
+    section: "1. Complexes"
+    pages: ""
+    role_in_book: "Declares homology as a functor, the central organizing principle of homological algebra"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

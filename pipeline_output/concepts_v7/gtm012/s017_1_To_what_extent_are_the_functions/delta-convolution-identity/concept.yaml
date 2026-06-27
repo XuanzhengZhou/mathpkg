@@ -1,0 +1,23 @@
+id: delta-convolution-identity
+title_en: "Delta Distribution as Identity for Convolution of Distributions"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: basic
+tags: [delta-distribution, convolution, identity, periodic-distributions]
+depends_on:
+  required: [convolution-of-distributions-definition, delta-distribution]
+  recommended: [delta-convolution-smooth]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "7"
+    section: "7. Convolution of distributions"
+    pages: ""
+    role_in_book: "Establishes that the delta distribution is the multiplicative identity in the convolution algebra of periodic distributions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

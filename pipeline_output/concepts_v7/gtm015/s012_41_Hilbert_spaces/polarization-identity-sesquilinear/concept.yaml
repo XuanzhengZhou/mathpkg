@@ -1,0 +1,23 @@
+id: polarization-identity-sesquilinear
+title_en: "Polarization identity and Cauchy–Schwarz for positive sesquilinear forms"
+title_zh: "正半双线性形式的极化恒等式与柯西-施瓦茨不等式"
+type: theorem
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [sesquilinear-form, polarization-identity, cauchy-schwarz-inequality, hermitian-form, positive-form]
+depends_on:
+  required: [sesquilinear-form]
+  recommended: [cauchy-schwarz-inequality]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "41"
+    section: "Hilbert spaces"
+    pages: ""
+    role_in_book: "Records fundamental algebraic identities and inequalities for sesquilinear forms, including the polarization identity and Cauchy–Schwarz inequality in this general setting."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: ext-associativity
+title_en: "Associativity Relations for Hom, Ext, Tor, and Tensor Product"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [ext, hom, tor, tensor-product, associativity, abelian-groups]
+depends_on:
+  required: [ext-functor, tor-functor, hom-functor, tensor-product, dual-kunneth-theorem]
+  recommended: [kunneth-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "V"
+    section: "4"
+    pages: ""
+    role_in_book: "Theorem 4.3: associativity relations connecting Hom, Ext, Tor, and tensor product"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

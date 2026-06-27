@@ -1,0 +1,23 @@
+id: inversion-uniform-isomorphism
+title_en: "Inversion induces isomorphism of left and right uniformities"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-groups
+difficulty: intermediate
+tags: [inversion, uniform-isomorphism, left-uniformity, right-uniformity]
+depends_on:
+  required: [left-uniform-structure, right-uniform-structure]
+  recommended: [uniform-isomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "5"
+    section: "Uniformity in topological groups"
+    pages: ""
+    role_in_book: "Shows that inversion J maps the left uniformity onto the right uniformity."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

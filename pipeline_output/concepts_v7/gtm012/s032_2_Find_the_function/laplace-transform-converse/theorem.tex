@@ -1,0 +1,13 @@
+Suppose $g$ is holomorphic in the half-plane
+$$\{z \in \mathbb{C} \mid \operatorname{Re} z > a\}$$
+and satisfies the inequality
+$$|g(z)| \leq K \, (1 + |z|)^{-2} \, \exp(-M \operatorname{Re} z), \qquad \operatorname{Re} z > a,$$
+for some constants $K, M$. Then there exists a unique continuous function $f \colon \mathbb{R} \to \mathbb{C}$ with the properties
+\begin{enumerate}
+\item $\operatorname{supp}(f) \subset [M, \infty)$,
+\item for every $b > a$, $|f(t)| \leq K e^{bt}$ for all $t \in \mathbb{R}$,
+\item $Lf(z) = g(z)$ for $\operatorname{Re} z > b$ (in fact for all $\operatorname{Re} z > a$).
+\end{enumerate}
+Explicitly, $f$ is given by the contour integral
+$$f(t) = \frac{1}{2\pi i} \int_{C(b)} e^{zt} \, g(z) \, dz,$$
+where $C(b)$ is the vertical line $\{z \mid \operatorname{Re} z = b\}$ with $b > a$.

@@ -1,0 +1,19 @@
+Let $(\Omega^n, \mathcal{F}^n)_{n \geq 1}$ be a sequence of measurable spaces and let $(P^n)_{n \geq 1}$, $(\tilde{P}^n)_{n \geq 1}$ be sequences of probability measures with $P^n, \tilde{P}^n$ on $(\Omega^n, \mathcal{F}^n)$. Set
+
+$$Q^n = \frac{P^n + \tilde{P}^n}{2}, \quad z^n = \frac{dP^n}{dQ^n}, \quad \tilde{z}^n = \frac{d\tilde{P}^n}{dQ^n}.$$
+
+The following conditions are equivalent:
+
+\begin{itemize}
+\item[(a)] $(\tilde{P}^n) \triangle (P^n)$ (entire asymptotic separation),
+\item[(b)] $\displaystyle \lim_{\varepsilon \downarrow 0} \limsup_n \tilde{P}^n(z^n \geq \varepsilon) = 0$,
+\item[(c)] $\displaystyle \lim_{\alpha \downarrow 0} \limsup_n H(\alpha; P^n, \tilde{P}^n) = 0$,
+\item[(d)] $\displaystyle \limsup_n H(\alpha; P^n, \tilde{P}^n) = 0$ for all $\alpha \in (0, 1)$,
+\item[(e)] $\displaystyle \limsup_n H(\alpha; P^n, \tilde{P}^n) = 0$ for some $\alpha \in (0, 1)$.
+\end{itemize}
+
+Here $H(\alpha; P^n, \tilde{P}^n) = E_{Q^n}\big[(z^n)^\alpha (\tilde{z}^n)^{1-\alpha}\big]$ is the Hellinger integral of order $\alpha$.
+
+For direct product measures $P^n = P_1 \times \cdots \times P_n$, $\tilde{P}^n = \tilde{P}_1 \times \cdots \times \tilde{P}_n$, the criterion simplifies to:
+$$(\tilde{P}^n) \triangle (P^n) \iff \limsup_n \sum_{k=1}^n \big[1 - H(\alpha; P_k, \tilde{P}_k)\big] = \infty$$
+for any (and then all) $\alpha \in (0, 1)$.

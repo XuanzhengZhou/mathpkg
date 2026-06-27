@@ -1,0 +1,10 @@
+Let $D$ be a dense subset of the positive reals and for each $t \in D$ let $F_t$ be an open subset of a topological space $X$ such that:
+\begin{enumerate}
+\item[(a)] If $t < s$, then $F_t^{-} \subset F_s$;
+\item[(b)] $\bigcup \{F_t : t \in D\} = X$.
+\end{enumerate}
+For $x \in X$, let $f(x) = \inf \{t : x \in F_t\}$. Then:
+$$\{x : f(x) < s\} = \bigcup \{F_t : t \in D \text{ and } t < s\} \text{ is open}$$
+and
+$$\{x : f(x) \leq s\} = \bigcap \{F_t^{-} : t \in D \text{ and } t > s\} \text{ is closed}.$$
+Moreover, $f$ is continuous.

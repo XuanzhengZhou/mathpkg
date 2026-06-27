@@ -1,0 +1,23 @@
+id: inner-product-from-norm
+title_en: "Inner product defined from the norm (polarization formulas)"
+title_zh: "由范数定义的内积（极化公式）"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [inner-product, polarization-identity, pre-hilbert-space, norm]
+depends_on:
+  required: [pre-hilbert-space]
+  recommended: [hilbert-space]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "41"
+    section: "Hilbert spaces"
+    pages: ""
+    role_in_book: "Defines the inner product in a pre-Hilbert space via the norm, using the real and complex polarization formulas."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

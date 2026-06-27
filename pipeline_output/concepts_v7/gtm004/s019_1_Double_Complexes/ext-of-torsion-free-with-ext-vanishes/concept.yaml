@@ -1,0 +1,29 @@
+id: ext-of-torsion-free-with-ext-vanishes
+title_en: Vanishing of Iterated Ext for Torsion-Free Groups
+title_zh: ''
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags:
+- Ext
+- torsion-free
+- vanishing
+- abelian-groups
+depends_on:
+  required:
+  - associativity-relations-for-hom-tor-ext
+  recommended:
+  - ext-functor
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 4. Applications of the Künneth Formulas
+  pages: ''
+  role_in_book: second corollary of Theorem 4.3
+content_hash: 945e4aa46b140497
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

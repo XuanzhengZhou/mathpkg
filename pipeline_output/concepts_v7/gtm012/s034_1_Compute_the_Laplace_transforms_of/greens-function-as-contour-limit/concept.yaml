@@ -1,0 +1,13 @@
+id: greens-function-as-contour-limit
+title_en: "Existence and Form of the Green's Function as a Contour Integral"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: differential-equations
+difficulty: intermediate
+tags: [greens-function, contour-integral, residue-theorem, exponential-polynomial]
+depends_on: {required: [greens-function-for-polynomial-differential-operator, residue-theorem], recommended: [polynomial-differential-operator], suggested: []}
+source_books: [{book_id: "gtm012", author: "Beals", title: "Advanced Mathematical Analysis", chapter: "7", section: "Differential equations", pages: "215-216", role_in_book: "Establishes that the Green's function exists as a contour limit and is a linear combination of exponentials times powers of t for t > 0"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: extension-to-sphere-nonorientable
+title_en: "Theorem 1.9: Extension of Maps to the Sphere — Nonorientable Case"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [extension, sphere, mod-2-degree, nonorientable, boundary]
+depends_on:
+  required: [mod-2-degree, homotopy-invariance-of-degree, extension-to-sphere-orientable]
+  recommended: [orientation-double-cover]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "5"
+    section: "1. Degrees of Maps"
+    pages: ""
+    role_in_book: "Nonorientable analogue of Theorem 1.8"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,13 @@
+id: khinchins-law-of-large-numbers
+title_en: "Theorem 2 (Khinchin’s Law of Large Numbers). Let $\xi_1, \xi_2, \ldots$ be a sequence of independent identically distributed random variables with $E|\xi_1| < \infty$, $S_n = \xi_1 + \ldots + \xi_n$ and $E\xi_1 = m$. Then $S_n/n \xrightarrow{P} m$, that is, for every $\varepsilon > 0$"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: probability-theory
+difficulty: advanced
+tags: []
+depends_on: {required: [], recommended: [], suggested: []}
+source_books: [{book_id: "gtm095", author: "Albert N. Shiryaev", title: "Probability-1 (3ed, 2016)", chapter: "Chapter 3", section: "§3. Khinchin LLN, CLT for i.i.d., Poisson theorem", pages: "", role_in_book: ""}]
+content_hash: "d07a20f2a450"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

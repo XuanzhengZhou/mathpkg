@@ -1,0 +1,82 @@
+$$m_{\xi}^{(\nu)} = \sum_{\{r_1 \lambda^{(1)} + \cdots + r_x \lambda^{(x)} = \nu\}} \frac{1}{r_1! \cdots r_x!} \frac{\nu!}{(\lambda^{(1)})^{r_1} \cdots (\lambda^{(x)})^{r_x}} \prod_{j=1}^{x} [s_{\xi}^{(\lambda^{(j)})}]^{r_j},$$
+
+$$s_{\xi}^{(\nu)} = \sum_{\{r_1 \lambda^{(1)} + \cdots + r_x \lambda^{(x)} = \nu\}} \frac{(-1)^{q-1}(q-1)!}{r_1! \cdots r_x!} \frac{\nu!}{(\lambda^{(1)})^{r_1} \cdots (\lambda^{(x)})^{r_x}} \prod_{j=1}^{x} [m_{\xi}^{(\lambda^{(j)})}]^{r_j},$$
+
+where $\sum_{\{r_1 \lambda^{(1)} + \cdots + r_x \lambda^{(x)}
+
+Let $\xi = (\xi_1, \ldots, \xi_k)^*$ be a vector, and $I_\xi = \{1, 2, \ldots, k\}$ its set of indices. If $I \subseteq I_\xi$, let $\xi_I$ denote the vector consisting of the components of $\xi$ whose indices belong to $I$. Let $\chi(I)$ be the vector $\{\chi_1, \ldots, \chi_k\}$ for which $\chi_i = 1$ if $i \in I$, and $\chi_i = 0$ if $i \notin I$. These vectors are in one-to-one correspondence with the sets $I \subseteq I_\xi$. Hence we can write
+
+$$m_\xi(I) = m_\xi^{(\chi(I))}, \quad s_\xi(I) = s_\xi^{(\chi(I))}.$$
+
+In other words, $m_\xi(I)$ and $s_\xi(I)$ are simple moments and semi-invariants of the subvector $\xi_I$ of $\xi$.
+
+In accordance with the definition given in Subsection 3 of Sect. 1, Chap. 1, a decomposition of a set $I$ is an unordered collection of disjoint nonempty sets $I_p$ such that $\sum_p I_p = I$.
+
+In terms of these definitions, we have the formulas
+
+$$m_\xi(I) = \sum_{\Sigma_{p=1}^q I_p = I} \prod_{p=1}^q s_\xi(I_p),$$
+
+$$s_\xi(I) = \sum_{\Sigma_{p=1}^q I_p = I} (-1)^{q-1}(q-1)! \prod_{p=1}^q m_\xi(I_p),$$
+
+where $\sum_{\Sigma_{p=1}^q I_p = I}$ denotes summation over all decompositions of $I$, $1 \leq q \leq N(I)$, with $N(I)$ being the number of elements of the set $I$.
+
+We shall derive (46) from (44). If $\nu = \chi(I)$ and $\lambda^{(1)} + \cdots + \lambda^{(q)} = \nu$, then $\lambda^{(p)} = \chi(I_p)$,
+
+Example 5. Let $\xi \sim \mathcal{N}(m, \sigma^2)$. Since, by (9),
+
+$$\log \varphi_\xi(t) = itm - \frac{t^2 \sigma^2}{2},$$
+
+we have $s_1 = m, s_2 = \sigma^2$ by (39), and all the semi-invariants, from the third on, are zero: $s_n = 0, n \geq 3$.
+
+We may observe that by Marcinkiewicz’s theorem a function $\exp \mathcal{P}(t)$, where $\mathcal{P}$ is a polynomial, can be a characteristic function only when the degree of that polynomial is at most 2. It follows, in particular, that the Gaussian distribution is the only distribution with the property that all its semi-invariants $s_n$ are zero from a certain index onward.
+
+Example 6. If $\xi$ is a Poisson random variable with parameter $\lambda > 0$, then by (11)
+
+$$\log \varphi_\xi(t) = \lambda(e^{it} - 1).$$
+
+It follows that
+
+$$s_n = \lambda$$
+
+for all $n \geq 1$.
+
+Example 7. Let $\xi = (\xi_1, \ldots, \xi_n)^*$ be a random vector. Then
+
+$$m_\xi(1) = s_\xi(1),$$
+$$m_\xi(1, 2) = s_\xi(1, 2) + s_\xi(1)s_\xi(2),$$
+$$m_\xi(1, 2, 3) = s_\xi(1, 2, 3) + s_\xi(1, 2)s_\xi(3) + s_\xi(1, 3)s_\xi(2)$$
+$$+ s_\xi(2, 3)s_\xi(1) + s_\xi(1)s_\xi(2)s_\xi(3),$$
+
+These formulas show that the simple moments can be expressed in terms of the simple semi-invariants in a very symmetric way. If we put $\xi_1 \equiv \xi_2 \equiv \cdots \equiv \xi_k$, we then, of course, obtain (
+
+More precisely, let $F$ and $G$ be distribution functions with the same moments, i.e.
+
+$$\int_{-\infty}^{\infty} x^n dF(x) = \int_{-\infty}^{\infty} x^n dG(x)$$
+
+for all integers $n \geq 0$. The question is whether $F$ and $G$ must be the same.
+
+In general, the answer is “no.” To see this, consider the distribution $F$ with density
+
+$$f(x) = \begin{cases} ke^{-\alpha x^\lambda}, & x > 0, \\ 0, & x \leq 0, \end{cases}$$
+
+where $\alpha > 0$, $0 < \lambda < \frac{1}{2}$, and $k$ is determined by the condition $\int_{0}^{\infty} f(x) dx = 1$.
+
+Write $\beta = \alpha \tan \lambda \pi$ and let $g(x) = 0$ for $x \leq 0$ and
+
+$$g(x) = ke^{-\alpha x^\lambda} [1 + \varepsilon \sin(\beta x^\lambda)], \quad |\varepsilon| < 1, \ x > 0.$$
+
+It is evident that $g(x) \geq 0$. Let us show that
+
+$$\int_{0}^{\infty} x^n e^{-\alpha x^\lambda} \sin \beta x^\lambda dx = 0$$
+
+for all integers $n \geq 0$.
+
+For $p > 0$ and complex $q$ with $\text{Re} q > 0$, we have (see [1], Chapter 6, formula 6.1.1)
+
+$$\int_{0}^{\infty} t^{p-1} e^{-qt} dt = \frac{\Gamma(p)}{q^p}.$$
+
+Take $p = (n+1)/\lambda$, $q = \alpha + i\beta$, $t = x^\lambda$. Then
+
+$$\int_{0}^{\infty} x^{\lambda \{[(n+1)/\lambda] - 1\}} e^{-(\alpha+i\beta)x^\lambda} x^{\lambda-1} dx = \lambda \int_{0}^{\infty} x^n e^{-(\alpha+i\beta)
+
+We now give some conditions that guarantee the uniqueness of the solution of the moment problem.

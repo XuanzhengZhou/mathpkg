@@ -1,0 +1,23 @@
+id: theorem-4-4-baire-complete-metric
+title_en: "Theorem 4.4: Complete Metric and Baire Property for C^r Function Spaces"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [complete-metric, baire-space, c-r-topology, function-space, jet-map]
+depends_on:
+  required: [theorem-4-1-complete-metric-function-space, jet-space, c-r-topology]
+  recommended: [j-r-map, strong-topology]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2"
+    section: "4. Weak and Strong Topologies on Function Spaces"
+    pages: ""
+    role_in_book: "Extends complete metric and Baire results from C^0 to C^r function spaces via jet maps"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

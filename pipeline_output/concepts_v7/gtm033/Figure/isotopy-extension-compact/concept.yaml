@@ -1,0 +1,23 @@
+id: isotopy-extension-compact
+title_en: "Isotopy Extension Theorem for Compact Submanifolds"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [isotopy-extension, compact-submanifold, diffeotopy, ambient-isotopy]
+depends_on:
+  required: [compact-support-isotopy, tubular-neighborhood]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "8"
+    section: "1. Isotopy"
+    pages: ""
+    role_in_book: "Allows extending isotopies of compact submanifolds to ambient diffeotopies"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

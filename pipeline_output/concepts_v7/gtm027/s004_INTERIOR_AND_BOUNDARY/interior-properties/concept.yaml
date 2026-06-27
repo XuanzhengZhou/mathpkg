@@ -1,0 +1,23 @@
+id: interior-properties
+title_en: "Properties of the Interior"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [interior, open-set, accumulation-point, closure, complement]
+depends_on:
+  required: [interior, topological-space, closure, open-set, accumulation-point]
+  recommended: [interior-point]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Interior and Boundary"
+    pages: ""
+    role_in_book: "Theorem 9 — establishes the fundamental properties of the interior operator"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

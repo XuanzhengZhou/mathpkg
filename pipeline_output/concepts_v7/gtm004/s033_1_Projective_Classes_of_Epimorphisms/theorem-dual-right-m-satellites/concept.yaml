@@ -1,0 +1,23 @@
+id: theorem-dual-right-m-satellites
+title_en: "Right $\mathcal{M}$-Satellite Equals Right $\mathcal{M}$-Derived Functor"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [relative-homological-algebra, satellite-functor, injective-class, duality]
+depends_on:
+  required: [theorem-e-satellite-equals-e-derived, injective-class, left-exact-functor]
+  recommended: [duality]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX"
+    section: "3. Satellites"
+    pages: "327"
+    role_in_book: "core"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

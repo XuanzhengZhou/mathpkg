@@ -1,0 +1,23 @@
+id: ext-divisible-torsion-free
+title_en: "Ext into a Torsion-Free Group is Divisible"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [ext, divisible-group, torsion-free, abelian-groups]
+depends_on:
+  required: [ext-functor, tor-functor, torsion-free-group, divisible-group]
+  recommended: [ext-associativity]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "V"
+    section: "4"
+    pages: ""
+    role_in_book: "Corollary 4.4: if A is torsion-free then Ext(A, B) is divisible for all B"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

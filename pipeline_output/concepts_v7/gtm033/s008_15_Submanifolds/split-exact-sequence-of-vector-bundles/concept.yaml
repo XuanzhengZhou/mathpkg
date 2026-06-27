@@ -1,0 +1,23 @@
+id: split-exact-sequence-of-vector-bundles
+title_en: "Split Exact Sequence of Vector Bundles"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundle, exact-sequence, splitting, monomorphism, epimorphism]
+depends_on:
+  required: [exact-sequence-of-vector-bundles, vector-bundle-morphism]
+  recommended: []
+  suggested: [splitting-lemma]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "4.2"
+    pages: ""
+    role_in_book: "Defines when a short exact sequence of vector bundles decomposes as a direct sum"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

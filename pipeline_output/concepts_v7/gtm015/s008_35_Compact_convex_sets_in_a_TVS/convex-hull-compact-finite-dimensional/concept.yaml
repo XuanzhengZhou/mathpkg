@@ -1,0 +1,23 @@
+id: convex-hull-compact-finite-dimensional
+title_en: "Convex hull of a compact set in a finite-dimensional TVS is compact"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [convex-hull, compact-set, finite-dimensional, topological-vector-space]
+depends_on:
+  required: []
+  recommended: ["convex-hull-finite-set-compact"]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "35"
+    section: "Compact convex sets in a TVS"
+    pages: "150"
+    role_in_book: "Exercise (35.8) showing that finite-dimensionality eliminates the counterexamples to compactness of convex hulls"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

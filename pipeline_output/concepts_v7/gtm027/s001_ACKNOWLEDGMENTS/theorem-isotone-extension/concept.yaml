@@ -1,0 +1,23 @@
+id: theorem-isotone-extension
+title_en: "Theorem on Isotone Extension of Functions"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: order-theory
+difficulty: intermediate
+tags: ["isotone", "extension", "order-preserving", "chain", "order-bounded"]
+depends_on:
+  required: ["order-preserving-function", "extension-of-function", "order-complete", "chain-definition"]
+  recommended: ["supremum-infimum"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Orderings"
+    pages: "12-18"
+    role_in_book: "Theorem 10. Characterizes when an isotone function defined on a subset of a chain has an isotone extension to the whole chain."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

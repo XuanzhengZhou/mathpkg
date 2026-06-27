@@ -1,0 +1,23 @@
+id: exact-couple
+title_en: "Exact Couple"
+title_zh: "正合偶"
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [exact-couple, spectral-sequence, exact-triangle, abelian-category]
+depends_on:
+  required: [abelian-category, differential-object]
+  recommended: [spectral-sequence]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "1. Exact Couples and Spectral Sequences"
+    pages: ""
+    role_in_book: "Central algebraic structure from which spectral sequences are derived via the spectral sequence functor"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

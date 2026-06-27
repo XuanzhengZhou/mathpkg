@@ -1,0 +1,23 @@
+id: n-extension-definition
+title_en: "n-Extension of A by B"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [n-extension, Yoneda-ext, exact-sequence, Ext-functor]
+depends_on:
+  required: [exact-sequence, module, short-exact-sequence]
+  recommended: [1-extension, ext-group]
+  suggested: [yoneda-equivalence-relation, baer-sum]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra (2nd ed.)"
+    chapter: "9. Ext^n and n-Extensions"
+    section: "9"
+    pages: ""
+    role_in_book: "Generalizes the notion of a 1-extension (short exact sequence) to n-extensions, providing the geometric objects classified by the Yoneda interpretation of Ext^n."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

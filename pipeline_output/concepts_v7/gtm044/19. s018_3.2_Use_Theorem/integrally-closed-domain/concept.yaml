@@ -1,0 +1,23 @@
+id: integrally-closed-domain
+title_en: "Integrally Closed Domain (Normal Domain)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [integrally-closed, normal-domain, integral-element, quotient-field, dedekind-domain]
+depends_on:
+  required: []
+  recommended: [integral-domain, integral-element, quotient-field, localization]
+  suggested: [dedekind-domain, valuation-ring]
+source_books:
+  - book_id: "gtm044"
+    author: "Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "IV"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines normality; one of the two defining properties of a Dedekind domain"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

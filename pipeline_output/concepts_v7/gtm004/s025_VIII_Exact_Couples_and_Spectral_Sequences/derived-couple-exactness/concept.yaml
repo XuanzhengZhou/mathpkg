@@ -1,0 +1,23 @@
+id: derived-couple-exactness
+title_en: "Derived Couple Exactness (Theorem 1.1)"
+title_zh: "导出偶的正合性（定理 1.1）"
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [exact-couple, derived-couple, spectral-sequence, exactness]
+depends_on:
+  required: [exact-couple, spectral-sequence-functor]
+  recommended: [abelian-category, exact-sequence]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "1. Exact Couples and Spectral Sequences"
+    pages: ""
+    role_in_book: "Fundamental theorem ensuring the derived couple construction is well-defined and yields another exact couple"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

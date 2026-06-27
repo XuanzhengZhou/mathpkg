@@ -1,0 +1,23 @@
+id: maschke-theorem-ext-formulation
+title_en: "Maschke's Theorem in Ext Form"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: intermediate
+tags: [maschke-theorem, ext-group, group-algebra, modular-representation]
+depends_on:
+  required: [group-algebra, ext-functor, semisimple-module]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "4. Modular Representation Theory"
+    pages: "355-359"
+    role_in_book: "Theorem 4.1: Homological reformulation of Maschke's theorem using Ext"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

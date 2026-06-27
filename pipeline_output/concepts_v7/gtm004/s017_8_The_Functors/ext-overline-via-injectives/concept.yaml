@@ -1,0 +1,23 @@
+id: ext-overline-via-injectives
+title_en: "Definition of \overline{\operatorname{Ext}}_A^n via Injectives"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [Ext-functor, derived-functor, injective-resolution, right-derived-functor]
+depends_on:
+  required: [hom-functor, injective-resolution, right-derived-functor]
+  recommended: [left-exact-functor, cochain-complex, cohomology]
+  suggested: [projective-resolution, ext-via-projectives]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra (2nd ed.)"
+    chapter: "8. The Functors \overline{\operatorname{Ext}}_A^n Using Injectives"
+    section: "8"
+    pages: ""
+    role_in_book: "Defines Ext functors as right derived functors of the covariant Hom, providing the injective-resolution approach parallel to the projective-resolution approach."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

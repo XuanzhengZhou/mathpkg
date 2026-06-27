@@ -1,0 +1,23 @@
+id: homogenization-of-dehomogenization
+title_en: "Homogenization Does Not Always Invert Dehomogenization"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: ["homogenization", "dehomogenization", "non-inverse", "counterexample"]
+depends_on:
+  required: ["homogenization-of-polynomial", "dehomogenization-of-polynomial"]
+  recommended: ["dehomogenization-of-homogenization"]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "2. Affine and projective varieties; examples"
+    pages: ""
+    role_in_book: "Shows that the composition H_i ∘ D_i is not the identity on homogeneous polynomials."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

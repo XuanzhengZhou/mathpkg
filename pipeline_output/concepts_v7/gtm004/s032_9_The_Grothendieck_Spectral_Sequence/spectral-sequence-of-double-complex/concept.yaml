@@ -1,0 +1,23 @@
+id: spectral-sequence-of-double-complex
+title_en: "Spectral Sequences of a Double Complex"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [spectral-sequence, double-complex, filtration, total-complex, homology]
+depends_on:
+  required: [double-complex, spectral-sequence, filtration]
+  recommended: [total-complex, homology-group]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "9. The Grothendieck Spectral Sequence"
+    pages: ""
+    role_in_book: "Computes the E_0 and E_1 pages for both spectral sequences arising from the two standard filtrations of a double complex"
+content_hash: "4fef1d862d29932c317b4bba18beaf8ba389e7468e9fd1b493fcc0a391e9d0fc"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

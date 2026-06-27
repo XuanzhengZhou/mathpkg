@@ -1,0 +1,23 @@
+id: ext-via-projective-presentation
+title_en: "Ext via a Projective Presentation"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [ext-functor, projective-resolution, hom-functor, cokernel]
+depends_on:
+  required: [projective-presentation, hom-functor]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "2. The Functor Ext"
+    pages: ""
+    role_in_book: "Defines the Ext group relative to a fixed projective presentation"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

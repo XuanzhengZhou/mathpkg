@@ -1,0 +1,23 @@
+id: uniform-approximation-via-fourier-coefficients
+title_en: "Uniform Approximation via Fourier Coefficients"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: fourier-analysis
+difficulty: advanced
+tags: [fourier-coefficients, uniform-convergence, approximation, smooth-functions, periodic-functions]
+depends_on:
+  required: [smooth-periodic-functions, fourier-coefficients, smooth-periodic-fourier-coefficients-characterization, rapidly-decreasing-sequence]
+  recommended: [uniform-convergence, completeness-of-smooth-periodic-functions]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "5"
+    section: "§2. Fourier series, convolutions, and approximation"
+    pages: ""
+    role_in_book: "Theorem 2.2: Gives sufficient conditions on Fourier coefficients for a sequence of smooth periodic functions to converge uniformly (with all derivatives)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

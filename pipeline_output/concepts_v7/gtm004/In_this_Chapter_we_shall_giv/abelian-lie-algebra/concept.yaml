@@ -1,0 +1,23 @@
+id: abelian-lie-algebra
+title_en: "Abelian Lie Algebra"
+title_zh: "阿贝尔李代数"
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: basic
+tags: [lie-algebra, abelian, commutative, trivial-bracket]
+depends_on:
+  required: [lie-algebra]
+  recommended: [abelian-group]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "The trivial case of Lie algebra, important for resolutions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

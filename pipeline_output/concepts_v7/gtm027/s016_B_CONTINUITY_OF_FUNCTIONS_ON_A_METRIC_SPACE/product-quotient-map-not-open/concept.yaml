@@ -1,0 +1,23 @@
+id: product-quotient-map-not-open
+title_en: "Product of quotient maps need not be open"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: quotient-spaces
+difficulty: advanced
+tags: [quotient-map, product-topology, open-map, counterexample]
+depends_on:
+  required: [quotient-topology, product-topology, open-map]
+  recommended: [quotient-not-hausdorff]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: ""
+    section: "F. Example (The Tychonoff Plank) on subspaces of normal spaces"
+    pages: ""
+    role_in_book: "Counterexample showing the natural map from product to product of quotients is not open"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

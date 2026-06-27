@@ -1,0 +1,23 @@
+id: orientation-by-determinant
+title_en: "Orientation on R^2 via Determinant"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: basic
+tags: [orientation, determinant, basis, real-plane]
+depends_on:
+  required: []
+  recommended: [determinant, ordered-basis]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "9"
+    pages: ""
+    role_in_book: "Defines orientation on R^2 using determinant of basis matrix, as foundation for orientability of algebraic curves"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

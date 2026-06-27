@@ -1,0 +1,23 @@
+id: lie-ideal
+title_en: "Lie Ideal"
+title_zh: "李理想"
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: basic
+tags: [lie-algebra, ideal, subalgebra, normal-subobject]
+depends_on:
+  required: [lie-algebra, lie-subalgebra]
+  recommended: [ring-ideal]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the kernel of Lie algebra homomorphisms"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

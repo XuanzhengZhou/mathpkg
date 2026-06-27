@@ -1,0 +1,23 @@
+id: hom-ext-sequence-second-variable
+title_en: "Hom-Ext Sequence in the Second Variable (Theorem 5.2)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [hom-functor, ext-functor, exact-sequence, connecting-homomorphism, projective-presentation]
+depends_on:
+  required: [kernel-cokernel-exact-sequence]
+  recommended: [ext-group, hom-functor-exactness, projective-module]
+  suggested: [projective-presentation]
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "5. Two Exact Sequences"
+    pages: ""
+    role_in_book: "Core exact sequence linking Hom and Ext in the contravariant variable"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

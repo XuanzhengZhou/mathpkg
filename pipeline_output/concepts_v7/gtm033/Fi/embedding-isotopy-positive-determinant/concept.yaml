@@ -1,0 +1,23 @@
+id: embedding-isotopy-positive-determinant
+title_en: "Isotopy of Embeddings with Positive Determinant"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [embedding, isotopy, determinant, orientation, tubular-neighborhood, linearization]
+depends_on:
+  required: []
+  recommended: [tubular-neighborhood, isotopy, embedding]
+  suggested: [general-linear-group-connectedness, orientation-preserving-diffeomorphism]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "6. Collars and Tubular Neighborhoods of Neat Submanifolds"
+    pages: ""
+    role_in_book: "Shows that two embeddings of an n-disk or n-space at a point are isotopic rel 0 when the derivative of their transition map has positive determinant"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,34 @@
+id: associativity-relations-for-hom-tor-ext
+title_en: Associativity Relations for Hom, Tor, and Ext
+title_zh: ''
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags:
+- Hom
+- Tor
+- Ext
+- associativity
+- abelian-groups
+depends_on:
+  required:
+  - dual-kunneth-theorem
+  - associativity-relations-for-tor
+  recommended:
+  - ext-functor
+  - hom-functor
+  - tor-functor
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 4. Applications of the Künneth Formulas
+  pages: ''
+  role_in_book: derives associativity relations mixing Hom, Tor, and Ext from the
+    dual Künneth theorem
+content_hash: e68904e53db93a89
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

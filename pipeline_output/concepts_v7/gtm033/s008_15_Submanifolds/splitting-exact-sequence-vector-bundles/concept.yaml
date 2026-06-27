@@ -1,0 +1,23 @@
+id: splitting-exact-sequence-vector-bundles
+title_en: "Splitting of Short Exact Sequences of Vector Bundles"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundle, exact-sequence, splitting, paracompact, partition-of-unity]
+depends_on:
+  required: [exact-sequence-of-vector-bundles, split-exact-sequence-of-vector-bundles, vector-subbundle]
+  recommended: [partition-of-unity, paracompact-space]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "4.2"
+    pages: ""
+    role_in_book: "Theorem 2.2 — One of the most useful facts about vector bundles"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

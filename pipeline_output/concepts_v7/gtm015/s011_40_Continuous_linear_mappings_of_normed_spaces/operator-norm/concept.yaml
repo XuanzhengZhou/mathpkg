@@ -1,0 +1,23 @@
+id: operator-norm
+title_en: "Operator norm of a continuous linear mapping between normed spaces"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [normed-space, operator-norm, continuous-linear-mapping, bounded-linear-operator]
+depends_on:
+  required: [continuous-linear-mapping-equivalent-conditions]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Berberian, S.K."
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: ""
+    section: "40. Continuous linear mappings of normed spaces"
+    pages: ""
+    role_in_book: "Defines the operator norm as the supremum over the closed unit ball"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

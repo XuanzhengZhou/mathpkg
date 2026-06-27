@@ -1,0 +1,23 @@
+id: definition-measure-zero
+title_en: "Definition: Measure Zero in R^n"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: measure-theory
+difficulty: basic
+tags: [measure-zero, lebesgue-measure, n-cube, lindelof]
+depends_on:
+  required: [n-cube, measure-of-cube]
+  recommended: [lindelof-principle, countable-cover]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "3"
+    section: "1. The Morse-Sard Theorem"
+    pages: ""
+    role_in_book: "Defines measure zero in R^n as the foundational notion for the Morse-Sard theorem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

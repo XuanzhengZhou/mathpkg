@@ -1,0 +1,23 @@
+id: derivative-of-inversion
+title_en: "Derivative of the inversion map"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: banach-algebras
+difficulty: intermediate
+tags: [banach-algebra, derivative, inversion, frechet-derivative]
+depends_on:
+  required: [inversion-bicontinuity, banach-algebra-definition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "50"
+    section: "Invertibility in a Banach algebra with unity"
+    pages: ""
+    role_in_book: "Computes the derivative of the inversion map as -(x^{-1})^2"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

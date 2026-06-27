@@ -1,0 +1,23 @@
+id: unique-solution-first-order-inhomogeneous-linear-ode
+title_en: "Unique Solution of First-Order Inhomogeneous Linear ODE"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: ordinary-differential-equations
+difficulty: intermediate
+tags: [ode, first-order, linear, inhomogeneous, integrating-factor, variation-of-constants]
+depends_on:
+  required: [unique-solution-first-order-homogeneous-linear-ode, definition-of-complex-exponential-function]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "5"
+    section: "5"
+    pages: ""
+    role_in_book: "Generalizes Theorem 5.1 to inhomogeneous equations, introducing the integrating factor method"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

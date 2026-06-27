@@ -1,0 +1,5 @@
+Let $F : \mathfrak{C} \to \mathfrak{D}$ and $G : \mathfrak{D} \to \mathfrak{C}$ be functors. An adjunction $F \dashv G$ is equivalent to the existence of natural transformations $\varepsilon : 1_{\mathfrak{C}} \to GF$ (the \textit{unit}) and $\delta : FG \to 1_{\mathfrak{D}}$ (the \textit{counit}) satisfying the triangular identities:
+$$
+\delta F \circ F \varepsilon = 1_F, \qquad G \delta \circ \varepsilon G = 1_G.
+$$
+The adjugant is then given by $\eta(\varphi) = G\varphi \circ \varepsilon_X$ for $\varphi : FX \to Y$, with inverse $\xi(\psi) = \delta_Y \circ F\psi$ for $\psi : X \to GY$.

@@ -1,0 +1,13 @@
+id: full-embedding
+title_en: "Full Embedding of Categories"
+title_zh: "范畴的满嵌入"
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [category, functor, full-embedding, full-functor, faithful-functor]
+depends_on: {required: [full-functor, faithful-functor], recommended: [covariant-functor], suggested: []}
+source_books: [{book_id: "gtm004", author: "P. J. Hilton, U. Stammbach", title: "A Course in Homological Algebra", chapter: "II. Categories and Functors", section: "2. Functors", pages: "", role_in_book: "Defines full embedding, a functor that identifies source with a full subcategory of target"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

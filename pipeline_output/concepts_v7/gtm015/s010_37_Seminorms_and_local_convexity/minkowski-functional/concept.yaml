@@ -1,0 +1,23 @@
+id: minkowski-functional
+title_en: "Minkowski functional — balanced convex body as closed unit ball of a seminorm"
+title_zh: "Minkowski泛函——平衡凸体作为半范数的闭单位球"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [minkowski-functional, gauge, balanced-set, convex-body, seminorm]
+depends_on:
+  required: [seminorm, balanced-convex-body, topological-vector-space]
+  recommended: [seminorm-equality-from-unit-balls]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "3"
+    section: "37"
+    pages: ""
+    role_in_book: "core_result"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

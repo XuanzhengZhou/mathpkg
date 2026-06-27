@@ -1,0 +1,21 @@
+If $(x, y) \in \mathbb{R}^2$ and $(x, y) \neq (0, 0)$, let
+$$
+r = (x^2 + y^2)^{1/2}.
+$$
+Then $(r^{-1}x)^2 + (r^{-1}y)^2 = 1$, so there is a unique $\theta$, $0 \leq \theta < 2\pi$, such that
+$$
+\cos \theta = r^{-1}x, \qquad \sin \theta = r^{-1}y.
+$$
+This yields the **polar coordinates** representation:
+$$
+x = r \cos \theta, \qquad y = r \sin \theta,
+$$
+with the inverse relations
+$$
+r = (x^2 + y^2)^{1/2}, \qquad \theta = \tan^{-1}(y/x).
+$$
+Any point $p$ of the plane other than the origin is determined uniquely either by its Cartesian coordinates $(x, y)$ or by its polar coordinates $(r, \theta)$. A function defined on a subset of $\mathbb{R}^2$ can be expressed either as $f(x, y)$ or $g(r, \theta)$, related by
+\begin{align}
+f(x, y) &= g((x^2 + y^2)^{1/2}, \tan^{-1}(y/x)), \\
+g(r, \theta) &= f(r \cos \theta, r \sin \theta).
+\end{align}

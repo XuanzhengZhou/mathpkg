@@ -1,0 +1,37 @@
+For given $\alpha$ and $\beta$ the congruence
+
+$$\alpha\xi \equiv \beta \pmod{\alpha}$$
+
+can be solved by an integer $\xi$ in $K$ if and only if $(\alpha, \alpha)|\beta$. If $(\alpha, \alpha) = 1$, then the solution is completely determined mod $\alpha$.
+
+If we assume $(\alpha, \alpha) = 1$ to begin with, and let $\xi$ run through a system of $N(\alpha)$ numbers which are incongruent mod $\alpha$, then $\alpha\xi$ runs through all the residue classes mod $\alpha$, for it follows from $\alpha\xi_1 \equiv \alpha\xi_2 \pmod{\alpha}$ that $\alpha|\alpha(\xi_1 - \xi_2)$. However, since $(\alpha, \alpha) = 1$ we must have $\alpha|\xi_1 - \xi_2$, that is, $\xi_1 \equiv \xi_2 \pmod{\alpha}$ by the fundamental theorem. Thus, among the numbers $\alpha\xi$, one from the residue class of $\beta$ also occurs. For the same reason the solution is obviously determined uniquely mod $\alpha$.
+
+Moreover if we now have $(\alpha, \alpha) = \mathfrak{d}$ and there is an integer $\xi_0$ with $\alpha\xi_0 \equiv \beta \pmod{\alpha}$, then $\alpha\xi_0 = \beta + \rho$, where $\alpha|\rho$. Thus $\mathfrak{d}| \rho$ and $\mathfrak{d}| \alpha\xi_0 - \rho$, that is, $\
+
+Theorem 79. For two ideals $a$ and $b$, we always have
+
+$$N(a b) = N(a) \cdot N(b).$$
+
+Let $\alpha$ be a number divisible by $a$ such that $(\alpha, a b) = a$. If we let $\xi_i$ ($i = 1, 2, \ldots, N(b)$) run through a complete system of residues mod $b$ and let $\eta_k$ ($k = 1, 2, \ldots, N(a)$) run through a complete system of residues mod $a$, then no two of the numbers $\alpha \xi_i + \eta_k$ are congruent mod $a b$. On the other hand, each integer $\rho$ is congruent mod $a b$ to one of these numbers $\alpha \xi_i + \eta_k$. For let $\eta_k$ be determined so that
+
+$$\eta_k \equiv \rho \pmod{a}$$
+
+and then let $\xi$ be determined so that
+
+$$\alpha \xi \equiv \rho - \eta_k \pmod{a b}.$$
+
+Since $(\alpha, a b) = a$ and $a | \rho - \eta_k$ this congruence can be solved by Theorem 78 and $\xi$ can be determined mod $b$ so that $\xi$ can be chosen equal to $\xi_i$. Consequently the $N(a) \cdot N(b)$ numbers $\alpha \xi_i + \eta_k$ form a complete system of residues mod $a b$ and thus there must also be $N(a b)$ of them.
+
+Theorem 80. If $(a, b) = 1$, then $\varphi(a b) = \varphi(a) \cdot \varphi(b)$ and in general
+
+$$\varphi(a) = N(a) \prod_{p \mid a} \left(1 - \frac{1}{N(p)}\right)$$
+
+where $p$ runs through the distinct prime divisors of $a$.
+
+To see this let $\alpha$ be chosen so that $(\alpha, a b) = a$ and $\beta$ so that $(\beta, a b) = b$. Then if $\xi$ runs through a complete system of residues mod $b$ and $\eta$ runs through such
+
+factors $p = \mathfrak{p}_1 \mathfrak{p}_2 \cdots \mathfrak{p}_r$, then the positive rational integers $N(\mathfrak{p}_1) \cdots N(\mathfrak{p}_r)$ have as product $N(p) = p^n$, while none of these integers is $= 1$; thus their number $r$ must be $\leq n$.
+
+In this way we obtain one of the few statements which connect the degree of a field with other properties of the numbers of the field. If it is known that a rational prime $p$ is decomposable into $k$ ideal factors in a number field, then the degree of the field is at least $k$.
+
+One proves, as we did Theorem 12 about rational primes:

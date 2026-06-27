@@ -1,0 +1,23 @@
+id: linear-manifold-random-variables
+title_en: "Linear Manifold and Closed Linear Manifold Spanned by Random Variables"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: L2-theory
+difficulty: basic
+tags: [linear-manifold, closed-span, L2-space, mean-square-limit]
+depends_on:
+  required: [L2-space]
+  recommended: []
+  suggested: [projection-onto-closed-linear-manifold]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "Defines the linear manifold and its closure in L²"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

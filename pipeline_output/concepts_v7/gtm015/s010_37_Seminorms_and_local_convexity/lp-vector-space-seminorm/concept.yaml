@@ -1,0 +1,23 @@
+id: lp-vector-space-seminorm
+title_en: "$\mathcal{L}^p$ is a complex vector space and $f \mapsto \|f\|_p$ is a seminorm"
+title_zh: "$\mathcal{L}^p$是复向量空间且$f \mapsto \|f\|_p$是半范数"
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [lp-space, seminorm, vector-space]
+depends_on:
+  required: [lp-space-definition, minkowski-inequality, holder-inequality]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "4"
+    section: "39"
+    pages: ""
+    role_in_book: "technical_corollary"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

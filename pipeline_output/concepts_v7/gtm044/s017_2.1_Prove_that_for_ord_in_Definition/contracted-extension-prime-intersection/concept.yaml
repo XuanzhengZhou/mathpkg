@@ -1,0 +1,23 @@
+id: contracted-extension-prime-intersection
+title_en: "Contracted Extension is Intersection of Contained Prime Ideals"
+title_zh: "收缩扩张是包含在 p 中的素理想的交"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [contraction, extension, prime-ideal, germ, local-geometry, ideal-correspondence]
+depends_on:
+  required: []
+  recommended: [prime-ideal, ideal-contraction, ideal-extension, irreducible-decomposition]
+  suggested: [irreducible-ideal-contracted-extension, variety-germ-ordered-pair]
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Geometric meaning of contraction-extension: taking the germ at W"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

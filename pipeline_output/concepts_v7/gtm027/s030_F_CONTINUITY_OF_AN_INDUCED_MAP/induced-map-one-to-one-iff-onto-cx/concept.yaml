@@ -1,0 +1,23 @@
+id: induced-map-one-to-one-iff-onto-cx
+title_en: "Injectivity of F Characterized by F-star Mapping onto C(X)"
+title_zh: "F的单射性等价于F*映满C(X)"
+type: proposition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [induced-map, injectivity, C(X), Gelfand-duality]
+depends_on:
+  required: [induced-map-star-homomorphism]
+  recommended: [injective-map, surjective-homomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "S"
+    pages: ""
+    role_in_book: "Proposition (a)(iii): F one-to-one iff F* maps onto C(X)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

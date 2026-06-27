@@ -1,0 +1,7 @@
+\textbf{Laplace's equation} on the unit disc: $\Delta u = u_{xx} + u_{yy} = 0$ for $x^2 + y^2 < 1$, with boundary condition $u = f$ on the unit circle.
+
+For $f \in \mathbb{C}$ with Fourier coefficients $a_n$, the solution in polar coordinates is
+$$u(r, \theta) = \sum_{n=-\infty}^{\infty} a_n r^{|n|} e^{in\theta}, \quad 0 \leq r < 1.$$
+This can be written as the Poisson integral:
+$$u(r, \theta) = \frac{1}{2\pi} \int_0^{2\pi} P(r, \theta - \phi) f(\phi) \, d\phi,$$
+where $P(r, \theta) = \frac{1 - r^2}{1 - 2r\cos\theta + r^2}$ is the \textbf{Poisson kernel}.

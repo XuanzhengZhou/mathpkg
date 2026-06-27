@@ -1,0 +1,23 @@
+id: probability-distribution-random-variable
+title_en: "Probability Distribution of a Random Variable"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: random-variables
+difficulty: basic
+tags: [probability-distribution, random-variable, induced-measure, distribution-function, density]
+depends_on:
+  required: [random-variable-measurable-function, probability-measure]
+  recommended: [borel-sigma-algebra]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "4"
+    section: "1"
+    pages: ""
+    role_in_book: "defines the induced probability measure on the real line"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

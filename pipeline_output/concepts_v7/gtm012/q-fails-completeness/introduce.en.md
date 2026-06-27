@@ -1,0 +1,1 @@
+Theorem 2.1 shows that the rational numbers $\mathbb{Q}$ do not satisfy the completeness axiom. The set of rationals whose square is less than 2 is bounded above but has no rational least upper bound. This demonstrates the necessity of extending $\mathbb{Q}$ to $\mathbb{R}$ to obtain completeness.

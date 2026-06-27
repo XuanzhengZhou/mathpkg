@@ -1,0 +1,31 @@
+id: left-g-module
+title_en: Left g-Module (Lie Algebra Representation)
+title_zh: 左g-模（李代数表示）
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags:
+- lie-algebra
+- module
+- representation
+- universal-enveloping-algebra
+depends_on:
+  required:
+  - lie-algebra
+  - lie-algebra-homomorphism
+  recommended:
+  - universal-enveloping-algebra
+  suggested:
+  - endomorphism-ring
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: VII
+  section: 1. Lie Algebras and their Universal Enveloping Algebra
+  pages: ''
+  role_in_book: Foundational concept for Lie algebra cohomology theory
+content_hash: 2ce8f7d0de0d52fb
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

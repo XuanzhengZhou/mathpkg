@@ -1,0 +1,23 @@
+id: von-neumann-bicommutant-theorem
+title_en: "Von Neumann bicommutant theorem"
+title_zh: "冯·诺依曼双交换子定理"
+type: theorem
+domain: analysis
+subdomain: operator-algebras
+difficulty: advanced
+tags: [von-neumann-algebra, bicommutant, ultrastrong-closure, density-theorem]
+depends_on:
+  required: []
+  recommended: [von-neumann-algebra, bicommutant, ultrastrong-topology, star-algebra]
+  suggested: [kaplansky-density-theorem]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "68"
+    section: "Von Neumann algebras"
+    pages: "297-298"
+    role_in_book: "Theorem (68.21), the fundamental von Neumann bicommutant/density theorem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: ext-projective-injective-isomorphism
+title_en: "Ext via Projective and Injective Presentations are Isomorphic"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [ext-functor, projective-presentation, injective-presentation, natural-isomorphism, lambeks-lemma]
+depends_on:
+  required: [lambeks-lemma, ext-via-projective-presentation]
+  recommended: [injective-module, injective-presentation, projective-presentation]
+  suggested: [derived-functor, balanced-functor]
+source_books:
+  - book_id: "gtm004"
+    author: "Hilton, P. J.; Stammbach, U."
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "3"
+    pages: "106-107"
+    role_in_book: "Theorem 3.2 — shows that the two definitions of Ext (via projective presentations and via injective presentations) yield naturally isomorphic groups"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

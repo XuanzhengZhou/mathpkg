@@ -1,0 +1,18 @@
+\begin{definition}[$Q^{\varepsilon}$-process]
+Let $\mathfrak{A}$ be an abelian category. Consider a diagram
+\[
+A \xrightarrow{\beta} B \xrightarrow{\gamma} C
+\]
+and a monomorphism $\varrho : C_1 \rightarrowtail C$. Suppose that $\gamma\beta$ factors through $\varrho$, i.e., there exists a morphism $\delta : A \to C_1$ such that $\gamma\beta = \varrho\delta$. Form the pullback of $(\gamma, \varrho)$:
+\[
+\begin{CD}
+B_{0,1} @>{\gamma_{0,1}}>> C_1 \\
+@V{\varrho_{0,1}}VV @VV{\varrho}V \\
+B @>{\gamma}>> C
+\end{CD}
+\]
+Since $\varrho$ is monic, $B_{0,1} \cong \gamma^{-1}(C_1)$. Moreover, the factorization condition ensures the existence of a unique morphism $\beta_{0,1} : A \to B_{0,1}$ such that $\varrho_{0,1}\beta_{0,1} = \beta$. The $Q^{\varepsilon}$-process (or $Q^{\varrho}$-process) assigns to $(\beta, \gamma)$ the pair
+\[
+Q^{\varrho}(\beta, \gamma) = (\beta_{0,1}, \gamma_{0,1}).
+\]
+\end{definition}

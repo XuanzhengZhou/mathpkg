@@ -1,0 +1,23 @@
+id: maximal-essential-extension-theorem
+title_en: "Existence of Maximal Essential Extension"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [essential-extension, maximal-element, zorns-lemma, injective-hull]
+depends_on:
+  required: [essential-extension, essential-extension-characterization, injective-module]
+  recommended: [zorns-lemma, direct-summand]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I. Modules"
+    section: "9. Essential Extensions"
+    pages: ""
+    role_in_book: "Theorem 9.2; constructs maximal essential extensions via Zorn's Lemma, leading to the injective envelope"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

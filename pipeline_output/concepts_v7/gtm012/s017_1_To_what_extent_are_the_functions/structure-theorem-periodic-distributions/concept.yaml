@@ -1,0 +1,23 @@
+id: structure-theorem-periodic-distributions
+title_en: "Structure Theorem for Periodic Distributions"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: fourier-analysis
+difficulty: advanced
+tags: [distributions, structure-theorem, periodic-distributions, order, representation]
+depends_on:
+  required: [order-of-periodic-distribution, periodic-distributions, continuous-periodic-functions]
+  recommended: [differentiation-of-distributions]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "8"
+    section: "8. Summary of operations on periodic distributions"
+    pages: ""
+    role_in_book: "Characterizes all periodic distributions as derivatives of continuous functions plus a constant term"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

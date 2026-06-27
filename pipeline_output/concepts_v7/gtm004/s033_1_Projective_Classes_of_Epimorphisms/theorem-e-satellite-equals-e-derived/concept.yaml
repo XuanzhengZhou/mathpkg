@@ -1,0 +1,23 @@
+id: theorem-e-satellite-equals-e-derived
+title_en: "Left $\mathcal{E}$-Satellite Equals Left $\mathcal{E}$-Derived Functor"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [relative-homological-algebra, satellite-functor, e-derived-functor, universal-property]
+depends_on:
+  required: [e-derived-functor, e-satellite, right-e-exact-functor, projective-class]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX"
+    section: "3. Satellites"
+    pages: "323-326"
+    role_in_book: "core"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

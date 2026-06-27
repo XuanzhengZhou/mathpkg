@@ -1,0 +1,23 @@
+id: convergence-constants-lemma
+title_en: "Convergence of Constants Lemma (Convergence of Types)"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: convergence-in-distribution
+difficulty: advanced
+tags: [convergence-of-types, weak-convergence, characteristic-function, limit-theorem]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "§6. Infinitely divisible and stable distributions"
+    pages: ""
+    role_in_book: "Key technical lemma used in proof that limit distributions of normalized sums are stable"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

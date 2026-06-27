@@ -1,0 +1,23 @@
+id: theorem-set-algebra
+title_en: "Theorem 2: Elementary Algebra of Sets"
+title_zh: "定理2：集合的初等代数"
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [set-algebra, commutative-law, associative-law, distributive-law, de-morgan]
+depends_on:
+  required: [set-union, set-intersection, relative-complement]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Subsets and Complements; Union and Intersection"
+    pages: "3"
+    role_in_book: "Fundamental algebraic laws for set operations"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

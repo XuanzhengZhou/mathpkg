@@ -1,0 +1,23 @@
+id: module-complexity
+title_en: "Complexity $c_G(M)$ of a $kG$-Module"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: advanced
+tags: ['complexity', 'projective resolution', 'growth rate', 'module theory']
+depends_on:
+  required: ['projective-resolution', 'growth-of-sequence', 'indecomposable-module']
+  recommended: ['alperin-evens-carlson-theorem', 'chouinard-corollary']
+  suggested: ['cohomology-variety']
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "X. Survey of Some Applications"
+    section: "4. Modular Representation Theory"
+    pages: ""
+    role_in_book: ""
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: orthogonal-decomposition
+title_en: "Orthogonal Decomposition Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [orthogonal-projection, closed-subspace, hilbert-space, direct-sum, orthogonal-complement]
+depends_on:
+  required: [best-approximation-closed-convex, orthogonal-complement-definition, pythagorean-law-orthogonal]
+  recommended: [hilbert-space-definition, closed-linear-subspace]
+  suggested: [orthogonal-projection-operator]
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "42. Duality in Hilbert spaces"
+    section: "42.7"
+    pages: ""
+    role_in_book: "Fundamental structure theorem: every closed subspace of a Hilbert space admits an orthogonal complement that decomposes the space"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

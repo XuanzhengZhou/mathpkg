@@ -1,0 +1,12 @@
+Let $S_n = \xi_1 + \cdots + \xi_n$ where $\xi_i$ are independent Bernoulli random variables with $P(\xi_i = 1) = p$, $P(\xi_i = 0) = q = 1-p$. Let $\varphi(\lambda) = E e^{\lambda \xi_1} = 1 - p + p e^{\lambda}$. Then for $0 < a < 1$,
+$$
+P\left\{\frac{S_n}{n} \geq a\right\} \leq e^{-n \sup_{s > 0}[as - \log \varphi(s)]}, \tag{36}
+$$
+$$
+P\left\{\frac{S_n}{n} \leq a\right\} \leq e^{-n \sup_{s < 0}[as - \log \varphi(s)]}. \tag{37}
+$$
+The supremum for $p \leq a \leq 1$ is attained at $s_0$ satisfying $e^{s_0} = \frac{a(1-p)}{p(1-a)}$, giving
+$$
+\sup_{s > 0}[as - \log \varphi(s)] = H(a),
+$$
+where $H(a) = a \log\frac{a}{p} + (1-a) \log\frac{1-a}{1-p}$ is the binary relative entropy.

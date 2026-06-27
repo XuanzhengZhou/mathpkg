@@ -1,0 +1,23 @@
+id: basis-of-universal-enveloping-algebra
+title_en: "Basis of Universal Enveloping Algebra as Module over Lie Subalgebra"
+title_zh: "泛包络代数作为李代子代数模的基"
+type: corollary
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [universal-enveloping-algebra, basis, lie-subalgebra, module]
+depends_on:
+  required: [universal-enveloping-algebra, birkhoff-witt-theorem, lie-subalgebra]
+  recommended: [free-module]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Corollary 1.4; structural result on Ug as h-module"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

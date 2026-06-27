@@ -1,0 +1,23 @@
+id: evenly-continuous
+title_en: "Evenly Continuous Family"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: function-spaces
+difficulty: advanced
+tags: [even-continuity, ascoli-theorem, joint-continuity]
+depends_on:
+  required: [continuous-function, neighborhood]
+  recommended: [equicontinuous-family, jointly-continuous-topology]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Even Continuity"
+    pages: ""
+    role_in_book: "Defines even continuity, a purely topological analog of equicontinuity for the Ascoli theorem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

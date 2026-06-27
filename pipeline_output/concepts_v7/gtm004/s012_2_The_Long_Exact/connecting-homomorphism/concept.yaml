@@ -1,0 +1,23 @@
+id: connecting-homomorphism
+title_en: "Connecting Homomorphism"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [chain-complex, homology, exact-sequence, snake-lemma]
+depends_on:
+  required: [long-exact-homology-sequence]
+  recommended: [chain-complex, homology-group]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "2. The Long Exact (Co)Homology Sequence"
+    pages: ""
+    role_in_book: "Defined in Theorem 2.1 as the degree -1 morphism linking the homology of C to the homology of A in a short exact sequence of complexes"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

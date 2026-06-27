@@ -1,0 +1,23 @@
+id: dual-space-is-banach
+title_en: "The dual space of a normed space is a Banach space"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [normed-space, dual-space, banach-space, completeness]
+depends_on:
+  required: [dual-space-of-normed-space, completeness-of-bounded-linear-operators]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Berberian, S.K."
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: ""
+    section: "40. Continuous linear mappings of normed spaces"
+    pages: ""
+    role_in_book: "Immediate corollary: the scalar field is complete, so the dual is always Banach"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

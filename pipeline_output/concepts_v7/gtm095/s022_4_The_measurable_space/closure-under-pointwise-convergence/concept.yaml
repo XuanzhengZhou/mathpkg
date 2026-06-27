@@ -1,0 +1,23 @@
+id: closure-under-pointwise-convergence
+title_en: "Closure of Extended Random Variables under Pointwise Convergence"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-variables
+difficulty: intermediate
+tags: [pointwise-convergence, extended-random-variables, sup, inf, limsup, liminf, algebraic-operations]
+depends_on:
+  required: [random-variable-measurable-function, approximation-by-simple-random-variables]
+  recommended: [extended-real-line]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "4"
+    section: "4"
+    pages: ""
+    role_in_book: "establishes that the class of random variables is closed under limits and algebraic operations"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

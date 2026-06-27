@@ -1,0 +1,23 @@
+id: laplace-transform-converse
+title_en: "Converse to the Laplace transform theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: integral-transforms
+difficulty: intermediate
+tags: [laplace-transform, paley-wiener, holomorphic-function, support-condition, exponential-type]
+depends_on:
+  required: [laplace-transform, laplace-transform-holomorphic, laplace-inversion-formula]
+  recommended: [paley-wiener-theorem, fourier-transform, contour-integration]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "4"
+    section: "§5"
+    pages: ""
+    role_in_book: "Theorem 5.3: a Paley-Wiener type converse — a holomorphic function decaying sufficiently fast in a half-plane is the Laplace transform of a unique continuous function with bounded support and exponential growth"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: kernel-exactness-for-left-derived-functors
+title_en: "Kernel Exactness for Left Derived Functors"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [derived-functor, exact-sequence, projective-resolution, kernel]
+depends_on:
+  required: [left-derived-functors, right-exact-functor]
+  recommended: [projective-resolution, exact-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra (2nd Edition)"
+    chapter: "IV. Derived Functors"
+    section: "5. Derived Functors"
+    pages: ""
+    role_in_book: "Proposition 5.5 — relates the q-th derived functor to the kernel of a partial projective resolution"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

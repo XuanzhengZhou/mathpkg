@@ -1,0 +1,23 @@
+id: linear-form-from-inner-product
+title_en: "Linear Form Induced by an Inner Product Vector"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [inner-product, linear-form, dual-space, riesz-map]
+depends_on:
+  required: []
+  recommended: [inner-product-space, cauchy-schwarz-inequality, dual-space-definition]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "42. Duality in Hilbert spaces"
+    section: "42.1"
+    pages: ""
+    role_in_book: "Defines the canonical map from a vector to its induced linear form, the foundation of Hilbert space duality"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

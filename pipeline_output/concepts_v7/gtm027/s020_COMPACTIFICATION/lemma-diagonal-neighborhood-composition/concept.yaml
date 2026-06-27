@@ -1,0 +1,23 @@
+id: lemma-diagonal-neighborhood-composition
+title_en: "Symmetric Diagonal Neighborhood with Composition Property"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: uniform-spaces
+difficulty: intermediate
+tags: [diagonal, neighborhood, symmetric, composition]
+depends_on:
+  required: [product-topology, diagonal]
+  recommended: [even-cover]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "Paracompactness"
+    pages: ""
+    role_in_book: "Lemma 30: For any diagonal neighborhood U, there exists symmetric V with V ∘ V ⊂ U"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: non-meager-local-existence
+title_en: "Local Existence for Non-Meager Sets"
+title_zh: "非贫集的局部存在性"
+type: proposition
+domain: topology
+subdomain: metric-spaces
+difficulty: intermediate
+tags: [non-meager, baire, open-set, neighborhood, category]
+depends_on:
+  required: [meager-set, baires-theorem-category-form]
+  recommended: [nowhere-dense-set]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "FOR METRIC SPACES ONLY"
+    pages: ""
+    role_in_book: "Important consequence of the Baire category theorem; non-meager sets have points where they are locally non-meager"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

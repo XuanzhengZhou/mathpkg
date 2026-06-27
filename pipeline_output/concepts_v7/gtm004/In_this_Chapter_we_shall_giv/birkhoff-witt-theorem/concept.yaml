@@ -1,0 +1,23 @@
+id: birkhoff-witt-theorem
+title_en: "Birkhoff–Witt Theorem (Poincaré–Birkhoff–Witt Theorem)"
+title_zh: "Birkhoff–Witt 定理 (PBW 定理)"
+type: theorem
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags: [birkhoff-witt, pbw-theorem, universal-enveloping-algebra, basis, monomials]
+depends_on:
+  required: [lie-algebra, universal-enveloping-algebra]
+  recommended: [filtered-algebra, associated-graded-algebra]
+  suggested: [symmetric-algebra]
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Theorem 1.2; structural basis for universal enveloping algebra"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

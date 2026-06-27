@@ -1,0 +1,23 @@
+id: convolution-of-functions
+title_en: "Convolution of Baire functions on a locally compact group"
+title_zh: "局部紧群上Baire函数的卷积"
+type: definition
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: intermediate
+tags: [convolution, locally-compact-group, haar-measure, l1-group-algebra]
+depends_on:
+  required: []
+  recommended: [locally-compact-group, haar-measure, integrable-function]
+  suggested: [l1-group-algebra]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "69"
+    section: "Group representations"
+    pages: "303-304"
+    role_in_book: "Definition (69.4) of convolution of two Baire functions on G"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

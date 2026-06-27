@@ -1,0 +1,13 @@
+id: "lemma-2-3-ez-approximation"
+title_en: "Approximation of Exponentials by $\\mathcal{L}$ Functions"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [approximation, exponential-functions, test-functions]
+depends_on: {required: ["space-l", "l-seminorm"], recommended: [], suggested: []}
+source_books: [{book_id: "gtm012", author: "Richard Beals", title: "Advanced Mathematical Analysis", chapter: "7", section: "§2. The space $\\mathcal{L}$", pages: "", role_in_book: "Shows $e_z$ can be approximated by $\\mathcal{L}$ functions, enabling definition of Laplace transform on distributions"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

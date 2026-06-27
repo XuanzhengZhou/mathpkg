@@ -1,0 +1,23 @@
+id: injective-envelope
+title_en: "Injective Envelope (Injective Hull)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [injective-envelope, injective-hull, essential-extension, injective-module]
+depends_on:
+  required: [injective-envelope-uniqueness, maximal-essential-extension-theorem, essential-extension]
+  recommended: [injective-module, direct-summand]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I. Modules"
+    section: "9. Essential Extensions"
+    pages: ""
+    role_in_book: "Definition following Corollary 9.3; defines the injective envelope as the unique maximal essential extension"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: tor-via-ext-characterization
+title_en: "Characterization of Tor via Ext and Tensor Product"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [Tor-functor, Ext-functor, natural-transformation, tensor-product, derived-functor]
+depends_on:
+  required: [tor-as-derived-functor, ext-functor, tensor-product]
+  recommended: [ext-derived-functor-characterization]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "11"
+    pages: ""
+    role_in_book: "Characterization of Tor using Ext and natural transformations — Theorem 11.2"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

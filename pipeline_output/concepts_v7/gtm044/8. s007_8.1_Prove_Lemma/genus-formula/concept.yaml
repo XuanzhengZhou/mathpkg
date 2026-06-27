@@ -1,0 +1,23 @@
+id: genus-formula
+title_en: "Genus Formula for Nonsingular Plane Curves"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [genus, plane-curve, degree, topological-invariant]
+depends_on:
+  required: [nonsingular-curve-is-orientable, euler-formula-for-polyhedra]
+  recommended: [homogeneous-polynomial, discriminant, ramification]
+  suggested: [riemann-hurwitz-formula]
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "10"
+    pages: ""
+    role_in_book: "Theorem 10.1; the main result of Section 10, expressing the genus of a nonsingular plane curve directly from its degree"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

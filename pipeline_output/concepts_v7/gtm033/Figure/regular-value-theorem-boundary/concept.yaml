@@ -1,0 +1,23 @@
+id: regular-value-theorem-boundary
+title_en: "Regular Value Theorem for ∂-manifolds"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [regular-value, boundary, submanifold, preimage]
+depends_on:
+  required: [boundary-manifold, neat-submanifold, regular-value]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "1"
+    section: "4. Manifolds with Boundary"
+    pages: ""
+    role_in_book: "Extends the regular value theorem to manifolds with boundary"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

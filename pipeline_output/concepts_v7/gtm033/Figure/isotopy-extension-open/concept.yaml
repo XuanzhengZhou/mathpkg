@@ -1,0 +1,23 @@
+id: isotopy-extension-open
+title_en: "Isotopy Extension Theorem for Open Sets"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [isotopy-extension, open-set, compact-set, diffeotopy]
+depends_on:
+  required: [compact-support-isotopy]
+  recommended: [isotopy-extension-compact]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "8"
+    section: "1. Isotopy"
+    pages: ""
+    role_in_book: "Local-to-global isotopy extension for open sets"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: banach-steinhaus-theorem
+title_en: "The Banach-Steinhaus Theorem"
+title_zh: "Banach-Steinhaus 定理"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [banach-steinhaus, pointwise-convergence, operator-norm, boundedness]
+depends_on:
+  required: [uniform-boundedness-principle]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "5"
+    section: "47"
+    pages: ""
+    role_in_book: "Convergence form of the Uniform Boundedness Principle: pointwise limit of continuous linear operators is continuous"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

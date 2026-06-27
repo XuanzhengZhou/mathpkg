@@ -1,0 +1,13 @@
+id: equivalent-categories
+title_en: "Equivalent Categories"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [equivalence-of-categories, functor, natural-equivalence]
+depends_on: {required: [natural-equivalence, functor, category], recommended: [], suggested: []}
+source_books: [{book_id: "gtm004", author: "Peter J. Hilton, Urs Stammbach", title: "A Course in Homological Algebra (2ed, 1997)", chapter: "II. Categories and Functors", section: "4. Natural Transformations", pages: "", role_in_book: "Defines equivalence of categories as a pair of functors whose composites are naturally equivalent to the identity functors"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

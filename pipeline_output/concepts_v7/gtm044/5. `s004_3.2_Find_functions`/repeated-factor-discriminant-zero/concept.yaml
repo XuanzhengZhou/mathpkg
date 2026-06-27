@@ -1,0 +1,23 @@
+id: repeated-factor-discriminant-zero
+title_en: "Lemma 4.7: Repeated Factor iff Discriminant Zero"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: polynomial-rings
+difficulty: basic
+tags: [discriminant, repeated-factor, formal-derivative, characteristic-zero]
+depends_on:
+  required: [resultant-and-discriminant, polynomial-common-factor-criterion]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "4"
+    pages: ""
+    role_in_book: "Characterizes repeated factors via the discriminant, used to bound singular points"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

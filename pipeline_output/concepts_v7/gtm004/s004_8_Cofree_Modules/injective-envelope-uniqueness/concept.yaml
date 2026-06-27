@@ -1,0 +1,23 @@
+id: injective-envelope-uniqueness
+title_en: "Uniqueness of the Injective Envelope"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [injective-envelope, essential-extension, uniqueness, isomorphism]
+depends_on:
+  required: [maximal-essential-extension-theorem, essential-extension, injective-module]
+  recommended: [essential-monomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I. Modules"
+    section: "9. Essential Extensions"
+    pages: ""
+    role_in_book: "Corollary 9.3; establishes uniqueness of the injective envelope up to isomorphism"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

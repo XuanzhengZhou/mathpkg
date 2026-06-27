@@ -1,0 +1,11 @@
+Let $\mathfrak{A}$ be an abelian category. The \textbf{spectral sequence functor} $SS: \mathfrak{EC} \to \mathfrak{E}$ maps an exact couple $EC = \{D, E, \alpha, \beta, \gamma\}$ to the spectral sequence obtained by iterating the derived couple construction:
+
+Set $D_0 = D$, $E_0 = E$, $d_0 = \beta\gamma$. Define inductively
+\begin{align*}
+D_{n+1} &= \alpha D_n, \\
+E_{n+1} &= H(E_n, d_n) = \ker d_n / \operatorname{im} d_n, \\
+\alpha_{n+1} &= \alpha|_{D_{n+1}}, \\
+\beta_{n+1}(\alpha x) &= [\beta x], \\
+\gamma_{n+1}[z] &= \gamma(z),
+\end{align*}
+where $d_n = \beta_n\gamma_n$. Then $SS(EC) = \{(E_n, d_n)\}_{n \geq 0}$.

@@ -1,0 +1,23 @@
+id: hom-complex
+title_en: "Hom Complex of Chain Complexes"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [hom-complex, chain-complex, double-complex, total-complex, hom-functor]
+depends_on:
+  required: [chain-complex, double-complex, total-complex]
+  recommended: [hom-functor]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "V"
+    section: "1"
+    pages: ""
+    role_in_book: "Example (b) of a double complex: the Hom complex of two chain complexes"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

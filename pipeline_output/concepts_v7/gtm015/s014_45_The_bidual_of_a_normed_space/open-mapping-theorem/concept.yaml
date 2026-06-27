@@ -1,0 +1,23 @@
+id: open-mapping-theorem
+title_en: "The Open Mapping Theorem"
+title_zh: "开映射定理"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [open-mapping-theorem, banach-space, continuous-linear, surjective]
+depends_on:
+  required: [baire-category-theorem, continuous-linear-mapping]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "5"
+    section: "48"
+    pages: ""
+    role_in_book: "One of the three fundamental principles: surjective continuous linear maps between complete metrizable TVS are open"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

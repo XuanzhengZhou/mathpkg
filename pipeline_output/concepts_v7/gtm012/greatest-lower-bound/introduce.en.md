@@ -1,0 +1,1 @@
+The greatest lower bound (or infimum) of a set $A$ is the largest real number that is less than or equal to every element of $A$. It is unique when it exists. The existence of infima for bounded sets follows from the completeness axiom, since $\operatorname{glb} A = -\operatorname{lub}(-A)$.

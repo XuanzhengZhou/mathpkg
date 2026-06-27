@@ -1,0 +1,13 @@
+id: pull-back-via-adjunction
+title_en: "Pull-back as Value of a Right Adjoint"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [pull-back, adjoint-functor, comma-category, constant-functor]
+depends_on: {required: [pull-back, adjoint-functors, product-as-right-adjoint-to-constant-functor], recommended: [], suggested: []}
+source_books: [{book_id: "gtm004", author: "Peter J. Hilton, Urs Stammbach", title: "A Course in Homological Algebra (2ed, 1997)", chapter: "II. Categories and Functors", section: "8. Universal Constructions", pages: "", role_in_book: "Proposition 8.2: The pull-back of $(\varphi, \psi)$ is the value of a right adjoint to a constant functor into a comma category"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

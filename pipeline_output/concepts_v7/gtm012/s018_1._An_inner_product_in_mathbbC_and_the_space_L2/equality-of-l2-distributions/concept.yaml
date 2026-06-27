@@ -1,0 +1,23 @@
+id: equality-of-l2-distributions
+title_en: "Equality criterion for L^2 distributions via approximating sequences"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: hilbert-spaces
+difficulty: intermediate
+tags: [L2-space, distributions, well-definedness, Cauchy-sequence]
+depends_on:
+  required: [l2-space-of-distributions, schwarz-inequality-for-cc]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: ""
+    title: "Advanced Mathematical Analysis"
+    chapter: "4. Hilbert Spaces and Fourier Series"
+    section: "§1. An inner product in ℂ, and the space L²"
+    pages: ""
+    role_in_book: "Lemma 1.2; shows equality of L² limits is detected by norm convergence of the difference sequence"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

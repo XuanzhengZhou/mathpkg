@@ -1,0 +1,89 @@
+(a) $\Omega$ is a set of points $\omega$,
+(b) $\mathcal{F}$ is a $\sigma$-algebra of subsets of $\Omega$,
+(c) $P$ is a probability on $\mathcal{F}$,
+
+is called a probabilistic model (of an experiment) or a probability space. Here $\Omega$ is the sample space or space of elementary events, the sets $A$ in $\mathcal{F}$ are events, and $P(A)$ is the probability of the event $A$.
+
+It is clear from the definition that the axiomatic formulation of probability theory is based on set theory and measure theory. Accordingly, it is useful to have a table (see Table 2.1) displaying the ways in which various concepts are interpreted in the two theories. In the next two sections we shall give examples of the measurable spaces that are most important for probability theory and of how probabilities are assigned on them.
+
+4. PROBLEMS
+
+1. Let $\Omega = \{r : r \in [0, 1]\}$ be the set of rational points of $[0, 1]$, $\mathcal{A}$ the algebra of sets each of which is a finite sum of disjoint sets $A$ of one of the forms $\{r : a < r < b\}, \{r : a \leq
+
+Table 2.1
+
+| Notation | Set-theoretic interpretation | Interpretation in probability theory |
+| :--- | :--- | :--- |
+| $\omega$ | Element or point | Outcome, sample point, elementary event |
+| $\Omega$ | Set of points | Sample space; certain event |
+| $\mathcal{F}$ | $\sigma$-algebra of subsets | $\sigma$-algebra of events |
+| $A \in \mathcal{F}$ | Set of points | Event (if $\omega \in A$, we say that event $A$ occurs) |
+| $\overline{A} = \Omega \setminus A$ | Complement of $A$, i.e., the set of points $\omega$ that are not in $A$ | Event that $A$ does not occur |
+| $A \cup B$ | Union of $A$ and $B$, i.e., the set of points $\omega$ belonging either to $A$ or to $B$ (or to both) | Event that either $A$ or $B$ (or both) occurs |
+| $A \cap B$ (or $AB$) | Intersection of $A$ and $B$, i.e., the set of points $\omega$ belonging to both $A$ and $B$ | Event that both $A$ and $B$ occur |
+| $\emptyset$ | Empty set | Impossible event |
+| $A \cap B = \emptyset$ | $A$ and $B$ are disjoint | Events $A$ and $B$ are mutually exclusive, i.e., cannot occur simultaneously |
+| $A + B$ | Sum of sets, i.e., union of disjoint sets | Event that one of two mutually exclusive events occurs |
+| $A \setminus B$ | Difference of $A$ and $B$, i.e., the set of points that belong to $A$ but not to $B$ | Event that $A$ occurs and $B$ does not |
+| $A \triangle B$ | Symmetric difference of sets, i.e., $(A \setminus B) \cup (B \setminus A)$ | Event that $A$ or $B$ occurs, but not both |
+| $\bigcup_{n=1}^{\infty} A_n$ | Union of the sets $A_1,
+
+6. Let $\mu$ be a finitely additive measure on an algebra $\mathcal{A}$, and let the sets $A_1, A_2, \ldots \in \mathcal{A}$ be pairwise disjoint and satisfy $A = \sum_{i=1}^{\infty} A_i \in \mathcal{A}$. Then $\mu(A) \geq \sum_{i=1}^{\infty} \mu(A_i)$.
+
+7. Prove that
+
+$$\limsup A_n = \liminf \bar{A}_n, \quad \liminf A_n = \limsup \bar{A}_n,$$
+$$\liminf A_n \subseteq \limsup A_n, \quad \limsup(A_n \cup B_n) = \limsup A_n \cup \limsup B_n,$$
+$$\limsup A_n \cap \liminf B_n \subseteq \limsup(A_n \cap B_n) \subseteq \limsup A_n \cap \limsup B_n.$$
+
+If $A_n \uparrow A$ or $A_n \downarrow A$, then
+
+$$\liminf A_n = \limsup A_n.$$
+
+8. Let $\{x_n\}$ be a sequence of numbers and $A_n = (-\infty, x_n)$. Show that $x = \limsup x_n$ and $A = \limsup A_n$ are related in the following way: $(-\infty, x) \subseteq A \subseteq (-\infty, x]$. In other words, $A$ is equal to either $(-\infty, x)$ or to $(-\infty, x]$.
+
+9. Give an example to show that if a measure takes the value $+\infty$, countable additivity in general does not imply continuity at $\varnothing$.
+
+10. Verify the Boole inequality: $P(A \cap B) \geq 1 - P(\bar{A}) - P(\bar{B})$.
+
+11. Let $A_1, \ldots, A_n$ be events in $\mathcal{F}$. This system of events is said to be exchangeable (or interchangeable) if for any $1 \leq l \leq n$ the probabilities $P(A_{i_1} \ldots A_{
+
+14. Show that
+
+$$I \left( \bigcup_{n=1}^{\infty} A_n \right) = \max_{n \geq 1} I(A_n), \quad I \left( \bigcap_{n=1}^{\infty} A_n \right) = \min_{n \geq 1} I(A_n).$$
+
+15. Prove that
+
+$$P(\limsup A_n) \geq \limsup P(A_n), \quad P(\liminf A_n) \leq \liminf P(A_n).$$
+
+16. Let $A^* = \limsup A_n$ and $A_* = \liminf A_n$. Show that $P(A_n \setminus A_*) \to 0$ and $P(A^* \setminus A_n) \to 0$.
+
+17. Let $(A_n)$ be a sequence of sets such that $A_n \to A$ (in the sense that $A = A^* = A_*$). Show that $P(A \triangle A_n) \to 0$.
+
+18. Let $A_n$ converge to $A$ in the sense that $P(A \triangle A^*) = P(A \triangle A_*) = 0$. Show that then $P(A \triangle A_n) \to 0$.
+
+19. Prove that the symmetric difference $A \triangle B$ of sets $A$ and $B$ satisfies the following equality:
+
+$$I(A \triangle B) = I(A) + I(B) \pmod{2}.$$
+
+Deduce from this equality that $P(A \triangle B) = P(A) + P(B) - 2P(A \cap B)$. (Compare with Problem 4.) Verify also the following properties of the symmetric difference:
+
+$$(A \triangle B) \triangle C = A \triangle (B \triangle C), \quad (A \triangle B) \triangle (B \triangle C) = (A \triangle C),$$
+
+$$A \triangle B = C \Leftrightarrow A = B \triangle C.$$
+
+2 Algebras and $\sigma$-Algebras: Measurable Spaces
+
+1. Algebr
+
+This system of sets is a special case of the systems induced by decompositions. In fact, let
+
+$$\mathcal{D} = \{D_1, D_2, \ldots\}$$
+
+be a countable decomposition of $\Omega$ into nonempty sets:
+
+$$\Omega = D_1 + D_2 + \cdots; \quad D_i \cap D_j = \varnothing, \quad i \neq j.$$
+
+Then the system $\mathcal{A} = \alpha(\mathcal{D})$, formed by the sets that are finite or countable unions of elements of the decomposition (including the empty set) is an algebra (and a $\sigma$-algebra).
+
+The following lemma is particularly important since it establishes that in principle there is a smallest algebra, or $\sigma$-algebra, containing a given collection of sets.

@@ -1,0 +1,23 @@
+id: norm-density-reflexivity-equivalence
+title_en: "Norm Density of the Canonical Image and Reflexivity"
+title_zh: "典范像的范数稠密性与自反性"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [reflexive-banach-space, bidual, norm-density, completion]
+depends_on:
+  required: [dual-reflexivity, canonical-embedding-bidual]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "4"
+    section: "45"
+    pages: ""
+    role_in_book: "Relates norm-density of E in E'' to reflexivity of the completion and dual"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

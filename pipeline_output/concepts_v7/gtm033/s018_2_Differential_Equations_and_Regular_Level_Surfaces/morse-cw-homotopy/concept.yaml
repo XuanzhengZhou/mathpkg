@@ -1,0 +1,23 @@
+id: morse-cw-homotopy
+title_en: "Manifold Has Homotopy Type of a CW-Complex via Morse Theory"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: morse-theory
+difficulty: advanced
+tags: [morse-function, cw-complex, homotopy-equivalence, compact-manifold, cell-decomposition]
+depends_on:
+  required: [morse-function, cw-complex, admissible-morse-function, homotopy-equivalence]
+  recommended: [morse-multiple-critical-points-one-value]
+  suggested: [handle-decomposition, simple-homotopy-theory]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "6"
+    section: "6.4"
+    pages: ""
+    role_in_book: "Main theorem of Section 6.4: Morse theory produces CW-structures"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

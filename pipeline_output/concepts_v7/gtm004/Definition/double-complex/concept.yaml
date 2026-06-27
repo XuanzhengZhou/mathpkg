@@ -1,0 +1,23 @@
+id: double-complex
+title_en: "Double Complex of Chains"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [double-complex, bigraded-module, differential, chain-complex]
+depends_on:
+  required: [chain-complex, graded-module]
+  recommended: [category-of-modules]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "V"
+    section: "1"
+    pages: ""
+    role_in_book: "Main definition introducing double complexes as bigraded objects with two anticommuting differentials"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

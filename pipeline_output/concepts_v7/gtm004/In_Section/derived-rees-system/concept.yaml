@@ -1,0 +1,23 @@
+id: derived-rees-system
+title_en: "Derived Rees System"
+title_zh: "导出Rees系统"
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [rees-systems, derived-couple, spectral-sequences]
+depends_on:
+  required: [rees-system, derived-couple]
+  recommended: [derived-special-rees-system]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "6. Rees Systems and Filtered Complexes"
+    pages: ""
+    role_in_book: "Construction (6.14)-(6.16); generalizes the derived exact couple to Rees systems"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

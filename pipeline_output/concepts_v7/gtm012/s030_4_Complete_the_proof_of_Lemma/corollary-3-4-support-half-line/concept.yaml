@@ -1,0 +1,13 @@
+id: "corollary-3-4-support-half-line"
+title_en: "Support of a Distribution is Bounded Below"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [distribution, support]
+depends_on: {required: ["theorem-3-3-continuity-characterization", "support-of-distribution-l-prime"], recommended: [], suggested: []}
+source_books: [{book_id: "gtm012", author: "Richard Beals", title: "Advanced Mathematical Analysis", chapter: "7", section: "\\S3. The space $\\mathcal{L}'$", pages: "", role_in_book: "Shows that every distribution in $\\mathcal{L}'$ is supported in a half-line"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

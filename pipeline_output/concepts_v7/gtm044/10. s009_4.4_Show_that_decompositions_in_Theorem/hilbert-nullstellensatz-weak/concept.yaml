@@ -1,0 +1,25 @@
+id: hilbert-nullstellensatz-weak
+title_en: "Hilbert Nullstellensatz (Weak Form)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [nullstellensatz, polynomial-ring, complex-numbers, ideal, zero-set]
+depends_on:
+  required: [ideal]
+  recommended: [maximal-ideal, algebraically-closed-field]
+  suggested: []
+
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Central theorem; ideal-theoretic generalization of the Fundamental Theorem of Algebra"
+
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: unit-embedding-of-lie-algebra
+title_en: "Canonical Embedding of Lie Algebra into Its Universal Enveloping Algebra"
+title_zh: "李代数到其泛包络代数的典范嵌入"
+type: corollary
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [universal-enveloping-algebra, embedding, lie-algebra, pbw-theorem]
+depends_on:
+  required: [lie-algebra, universal-enveloping-algebra, birkhoff-witt-theorem]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Corollary 1.3; immediate consequence of Birkhoff-Witt Theorem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

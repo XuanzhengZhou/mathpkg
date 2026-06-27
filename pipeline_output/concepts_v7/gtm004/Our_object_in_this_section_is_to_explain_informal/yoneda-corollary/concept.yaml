@@ -1,0 +1,13 @@
+id: yoneda-corollary
+title_en: "Yoneda Embedding Corollary"
+title_zh: ""
+type: corollary
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [yoneda-embedding, natural-transformation, hom-functor, full-embedding]
+depends_on: {required: [yoneda-lemma, hom-functor], recommended: [full-subcategory], suggested: []}
+source_books: [{book_id: "gtm004", author: "Peter J. Hilton, Urs Stammbach", title: "A Course in Homological Algebra (2ed, 1997)", chapter: "II. Categories and Functors", section: "4. Natural Transformations", pages: "", role_in_book: "Corollary 4.2: The Yoneda embedding is a full embedding of the opposite category into the functor category"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: convolution-kernel
+title_en: "Convolution Kernel"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: real-analysis
+difficulty: basic
+tags: [convolution, mollifier, compact-support, approximation-theory, smooth-function]
+depends_on:
+  required: [support-radius]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2"
+    section: "Approximations"
+    pages: ""
+    role_in_book: "Defines convolution kernels as the building blocks for smoothing and approximating maps via convolution"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

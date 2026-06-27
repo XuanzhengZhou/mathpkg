@@ -1,0 +1,1 @@
+Compactness is a fundamental topological property generalizing the notion of closed and bounded sets in $\mathbb{R}^n$. A set is compact if every open cover admits a finite subcover. Compact sets are always closed and bounded; in $\mathbb{R}^n$ with the Euclidean metric, the converse also holds (Heine-Borel theorem).

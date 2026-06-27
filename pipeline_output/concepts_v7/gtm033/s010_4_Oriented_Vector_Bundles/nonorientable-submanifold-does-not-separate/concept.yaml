@@ -1,0 +1,23 @@
+id: nonorientable-submanifold-does-not-separate
+title_en: "Nonorientable Submanifold Does Not Separate Simply Connected Ambient Manifold"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [nonorientable, submanifold, separation, simply-connected, codimension-1]
+depends_on:
+  required: [orientability-of-separating-submanifold]
+  recommended: [simply-connected-space, orientable-manifold, nonorientable-manifold]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "4. Oriented Vector Bundles"
+    pages: ""
+    role_in_book: "Theorem 4.6; fundamental obstruction to separation by nonorientable hypersurfaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: ultrastrong-neighborhood-base
+title_en: "Basic neighborhood of zero for the ultrastrong topology"
+title_zh: "超强拓扑的零邻域基"
+type: proposition
+domain: analysis
+subdomain: operator-theory
+difficulty: advanced
+tags: [ultrastrong-topology, neighborhood-base, hilbert-space-direct-sum]
+depends_on:
+  required: []
+  recommended: [strong-operator-topology, hilbert-space-direct-sum, l2-sequence-space]
+  suggested: [ultraweakly-continuous-linear-forms]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "68"
+    section: "Von Neumann algebras"
+    pages: "296"
+    role_in_book: "Proposition (68.13) giving a convenient neighborhood base at 0 for the ultrastrong topology"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,3 @@
+Let $F: \mathfrak{C} \to \mathfrak{D}$ and $G: \mathfrak{D} \to \mathfrak{C}$ be functors, and let $\varepsilon: 1_{\mathfrak{C}} \to GF$ and $\delta: FG \to 1_{\mathfrak{D}}$ be natural transformations such that
+$$(\delta F) \circ (F\varepsilon) = 1_F, \quad (G\delta) \circ (\varepsilon G) = 1_G.$$
+Then the rule $\eta(\varphi) = G\varphi \circ \varepsilon_X$ (for $\varphi: FX \to Y$) defines a natural equivalence $\eta: \mathfrak{D}(FX, Y) \to \mathfrak{C}(X, GY)$, so that $\eta: F \dashv G$. Conversely, given $\eta: F \dashv G$, the unit and counit are recovered as $\varepsilon_X = \eta(1_{FX})$ and $\delta_Y = \eta^{-1}(1_{GY})$.

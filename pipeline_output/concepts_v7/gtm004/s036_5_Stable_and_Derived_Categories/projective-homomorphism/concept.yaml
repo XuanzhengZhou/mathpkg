@@ -1,0 +1,23 @@
+id: projective-homomorphism
+title_en: "Projective Homomorphism"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [projective-module, stable-category, homomorphism, factorization]
+depends_on:
+  required: [projective-module, homomorphism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "5. Stable and Derived Categories"
+    pages: "360-376"
+    role_in_book: "Definition: A homomorphism is projective if it factors through a projective module"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

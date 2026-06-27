@@ -1,0 +1,23 @@
+id: exact-sequence-of-lie-algebras-enveloping-algebra
+title_en: "Universal Enveloping Algebra of a Quotient Lie Algebra"
+title_zh: "商李代数的泛包络代数"
+type: corollary
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [exact-sequence, lie-algebra, universal-enveloping-algebra, tensor-product, quotient]
+depends_on:
+  required: [lie-algebra, lie-ideal, universal-enveloping-algebra, quotient-lie-algebra]
+  recommended: [tensor-product-of-modules, exact-sequence]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Corollary 1.6; relates Ug of quotient to tensor product"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

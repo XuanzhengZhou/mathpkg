@@ -1,0 +1,23 @@
+id: sufficient-sigma-subalgebra
+title_en: "Sufficient Sigma-Subalgebra"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: mathematical-statistics
+difficulty: intermediate
+tags: [sufficiency, sigma-algebra, conditional-probability, parameter-estimation]
+depends_on:
+  required: [probabilistic-statistical-model, conditional-expectation]
+  recommended: [sigma-algebra, probability-space]
+  suggested: [radon-nikodym-derivative]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "7"
+    section: "10"
+    pages: ""
+    role_in_book: "Definition 10; core concept for data reduction in statistics"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

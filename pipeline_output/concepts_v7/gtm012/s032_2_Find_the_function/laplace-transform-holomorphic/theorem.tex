@@ -1,0 +1,11 @@
+Suppose $f \colon \mathbb{R} \to \mathbb{C}$ is continuous and satisfies
+\begin{enumerate}
+\item $\operatorname{supp}(f) \subset [M, \infty)$,
+\item $|f(t)| \leq K e^{at}$ for all $t$.
+\end{enumerate}
+Then the Laplace transform $Lf$ is holomorphic in the half-plane
+$$\{z \in \mathbb{C} \mid \operatorname{Re} z > a\}.$$
+Its derivative is given by
+$$(Lf)'(z) = -\int_{-\infty}^{\infty} e^{-zt} \, t \, f(t) \, dt, \qquad \operatorname{Re} z > a.$$
+Moreover, $Lf$ satisfies the estimate
+$$|Lf(z)| \leq K \, (\operatorname{Re} z - a)^{-1} \, \exp\!\bigl(M(a - \operatorname{Re} z)\bigr), \qquad \operatorname{Re} z > a.$$

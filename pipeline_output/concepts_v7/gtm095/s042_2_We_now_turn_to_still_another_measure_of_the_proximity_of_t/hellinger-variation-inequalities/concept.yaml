@@ -1,0 +1,23 @@
+id: hellinger-variation-inequalities
+title_en: "Inequalities relating the Hellinger integral and the total variation distance"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: probability-metrics
+difficulty: intermediate
+tags: [hellinger-integral, total-variation, distance-inequality, kakutani-hellinger]
+depends_on:
+  required: [kakutani-hellinger-distance, total-variation-distance]
+  recommended: [cauchy-schwarz-inequality, jensen-inequality]
+  suggested: []
+source_books:
+  - book_id: gtm095
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "9.2"
+    pages: ""
+    role_in_book: "Theorem 1; establishes sharp inequalities between the Hellinger distance and total variation distance"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

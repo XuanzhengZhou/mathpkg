@@ -1,0 +1,23 @@
+id: probability-measure-from-n-dimensional-distribution-function
+title_en: "Existence and uniqueness of a probability measure from an n-dimensional distribution function"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: measure-theory
+difficulty: advanced
+tags: [n-dimensional, distribution-function, probability-measure, existence, uniqueness, product-space]
+depends_on:
+  required: [n-dimensional-distribution-function, probability-measure-from-distribution-function]
+  recommended: [caratheodory-extension-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "Shiryaev, A.N."
+    title: "Probability-1"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 2. Generalizes Theorem 1 to n-dimensional distribution functions and probability measures on R^n"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

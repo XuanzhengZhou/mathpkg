@@ -1,0 +1,23 @@
+id: closed-graph-theorem
+title_en: "The Closed Graph Theorem"
+title_zh: "闭图像定理"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [closed-graph-theorem, banach-space, continuous-linear, graph]
+depends_on:
+  required: [open-mapping-theorem, bicontinuous-isomorphism-corollary]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "5"
+    section: "48"
+    pages: ""
+    role_in_book: "One of the three fundamental principles: a linear map with closed graph between complete metrizable TVS is continuous"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: ordering-definition
+title_en: "Ordering (Partial Ordering)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: order-theory
+difficulty: basic
+tags: ["ordering", "partial-order", "quasi-order", "transitive-relation"]
+depends_on:
+  required: ["transitive-relation", "relation"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Orderings"
+    pages: "12-18"
+    role_in_book: "Defines an ordering (partial ordering, quasi-ordering) simply as a transitive relation."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

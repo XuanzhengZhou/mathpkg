@@ -1,0 +1,23 @@
+id: flat-module
+title_en: "Flat Module"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [flat-module, tensor-product, exact-sequence, monomorphism]
+depends_on:
+  required: [right-exactness-of-tensor-product]
+  recommended: [tensor-product, exact-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "7. The Tensor Product"
+    pages: ""
+    role_in_book: "Defines flat modules — modules for which the tensor product is exact on the left as well"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

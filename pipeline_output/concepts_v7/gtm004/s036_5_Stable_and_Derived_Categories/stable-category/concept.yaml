@@ -1,0 +1,23 @@
+id: stable-module-category
+title_en: "Stable Module Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [stable-category, projective-module, quotient-category, module-category]
+depends_on:
+  required: [projective-homomorphism, module-category]
+  recommended: [homotopy-category]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "5. Stable and Derived Categories"
+    pages: "360-376"
+    role_in_book: "Definition: The stable category StM_R has the same objects as the module category, with morphisms Hom/Phom"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

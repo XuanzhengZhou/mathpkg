@@ -1,0 +1,13 @@
+id: cramer-rao-inequality
+title_en: "Cramér–Rao Inequality (Information Inequality)"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: statistics
+difficulty: intermediate
+tags: [cramer-rao, information-inequality, lower-bound, variance, fisher-information]
+depends_on: {required: [unbiased-estimator, fisher-information-bernoulli], recommended: [], suggested: [cauchy-bunyakovskii-inequality]}
+source_books: [{book_id: "gtm095", author: "A. N. Shiryaev", title: "Probability-1", chapter: "1", section: "7. Estimating the Probability of Success in the Bernoulli Scheme", pages: "", role_in_book: "Fundamental lower bound on variance of unbiased estimators"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

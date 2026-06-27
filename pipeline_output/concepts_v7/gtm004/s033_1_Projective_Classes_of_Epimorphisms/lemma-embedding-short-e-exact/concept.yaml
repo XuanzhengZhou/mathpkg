@@ -1,0 +1,23 @@
+id: lemma-embedding-short-e-exact
+title_en: "Embedding of a Short $\mathcal{E}$-Exact Sequence"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [relative-homological-algebra, e-exact-sequence, e-projective-resolution, horseshoe-lemma]
+depends_on:
+  required: [e-exact-sequence, e-projective-object, e-admissible-morphism]
+  recommended: [horseshoe-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX"
+    section: "2. $\mathcal{E}$-Derived Functors"
+    pages: "320-321"
+    role_in_book: "core"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

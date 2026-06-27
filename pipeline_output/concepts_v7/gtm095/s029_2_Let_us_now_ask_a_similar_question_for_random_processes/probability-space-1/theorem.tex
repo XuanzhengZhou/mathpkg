@@ -1,0 +1,17 @@
+(a) $P(s, x; t, B)$ is a probability measure in $B$ for given $s, x$ and $t$;
+(b) for given $s, t$ and $B$, the function $P(s, x; t, B)$ is a Borel function of $x$;
+(c) for all $0 \leq s < t < \tau$ and $B \in \mathcal{B}(R)$, the Kolmogorov–Chapman equation
+
+$$P(s, x; \tau, B) = \int_{R} P(s, x; t, dy) P(t, y; \tau, B)$$
+
+is satisfied.
+
+Also let $\pi = \pi(\cdot)$ be a probability measure on $(R, \mathcal{B}(R))$. Then there are a probability space $(\Omega, \mathcal{F}, \mathsf{P})$ and a random process $X = (\xi_t)_{t \geq 0}$ defined on it, such that
+
+$$\mathsf{P}\{\xi_t_0 \leq x_0, \xi_t_1 \leq x_1, \ldots, \xi_t_n \leq x_n\} = \int_{-\infty}^{x_0} \pi(dy_0) \int_{-\infty}^{x_1} P(0, y_0; t_1, dy_1)$$
+
+$$\ldots \int_{-\infty}^{x_n} P(t_{n-1}, y_{n-1}; t_n, dy_n)$$
+
+for $0 = t_0 < t_1 < \cdots < t_n$.
+
+The process $X$ so constructed is a Markov process with initial distribution $\pi$ and transition probabilities $\{P(s, x; t, B)\}$.

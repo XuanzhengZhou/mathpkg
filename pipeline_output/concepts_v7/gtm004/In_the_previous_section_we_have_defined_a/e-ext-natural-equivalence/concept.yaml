@@ -1,0 +1,23 @@
+id: e-ext-natural-equivalence
+title_en: "Natural Equivalence between Extensions and Ext"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [ext-functor, extension-of-modules, natural-equivalence, bifunctor, yoneda-ext]
+depends_on:
+  required: [ext-via-projective-presentation, ext-bifunctor]
+  recommended: [extension-of-modules, baer-sum, natural-equivalence]
+  suggested: [yoneda-ext, derived-functor]
+source_books:
+  - book_id: "gtm004"
+    author: "Hilton, P. J.; Stammbach, U."
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "2"
+    pages: "102-104"
+    role_in_book: "Theorem 2.4 — the main theorem of the section: Yoneda Ext (E) is naturally equivalent to Ext defined via projective presentations"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

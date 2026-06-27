@@ -1,0 +1,23 @@
+id: between-theorem-for-semicontinuous-functions
+title_en: "Between Theorem for Semi-Continuous Functions"
+title_zh: "半连续函数的中间值定理"
+type: theorem
+domain: topology
+subdomain: paracompactness
+difficulty: advanced
+tags: [between-theorem, lower-semi-continuous, upper-semi-continuous, paracompact, partition-of-unity]
+depends_on:
+  required: [paracompact-space, partition-of-unity]
+  recommended: [lower-semi-continuous, upper-semi-continuous, continuous-function]
+  suggested: [countably-paracompact-space]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "X. The Between Theorem for Semi-Continuous Functions"
+    pages: ""
+    role_in_book: "Core theorem: existence of a continuous function between semi-continuous bounds on paracompact spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

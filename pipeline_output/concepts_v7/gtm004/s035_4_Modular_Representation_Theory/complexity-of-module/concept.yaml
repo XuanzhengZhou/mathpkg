@@ -1,0 +1,23 @@
+id: complexity-of-module
+title_en: "Complexity of a Module"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: advanced
+tags: [complexity, cohomology, module-theory, growth-rate]
+depends_on:
+  required: [krull-dimension-via-cohomology-growth, group-algebra, projective-resolution]
+  recommended: [quillen-krull-dimension]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "4. Modular Representation Theory"
+    pages: "355-359"
+    role_in_book: "Definition: Complexity c_G(M) as a numerical invariant of an indecomposable kG-module"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

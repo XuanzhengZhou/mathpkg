@@ -1,0 +1,33 @@
+Let $\mathfrak{A}$ be an abelian category in which the appropriate limits exist. Consider the exact couple
+$$
+\begin{CD}
+D @>{\alpha}>> D \\
+@A{\gamma}AA @VV{\beta}V \\
+E
+\end{CD}
+$$
+and the associated spectral sequence $\{E_{m,n}\}$ obtained from the $Q^{\eta}$-process (see Section 4). Then, via the limit and colimit constructions of Theorems 5.1 and 5.2, the following limits exist and coincide with the descriptions from Section 4:
+$$
+E_{0,\infty} = \varprojlim_n E_{0,n} = \bigcap_n E_{0,n},
+$$
+$$
+E_{m,\infty} = \varprojlim_n E_{m,n},
+$$
+$$
+E_{\infty,\infty} = \varprojlim_m E_{m,\infty} = \varprojlim_m \varprojlim_n E_{m,n}.
+$$
+Moreover, the following exact sequences hold, describing the limit terms $E_{\infty}$, $E_{\infty,n}$, and $E_{m,\infty}$:
+$$
+D_m \xrightarrow{\alpha_m} D_m \xrightarrow{\beta_{m,\infty}} E_{m,\infty} \xrightarrow{\gamma_{m,\infty}} I \xrightarrow{\alpha''} I,
+$$
+$$
+U \xrightarrow{\alpha'} U \xrightarrow{\beta_{\infty}} E_{\infty} \xrightarrow{\gamma_{\infty}} I \xrightarrow{\alpha''} I,
+$$
+$$
+U \xrightarrow{\alpha'} U \xrightarrow{\beta_{\infty,n}} E_{\infty,n} \xrightarrow{\gamma_{\infty,n}} D_n \xrightarrow{\alpha_n} D_n.
+$$
+In particular, the limit and colimit processes commute, so that
+$$
+\varprojlim_m \varinjlim_n E_{m,n} \cong \varinjlim_n \varprojlim_m E_{m,n}.
+$$
+The limit terms depend only on the spectral sequence and not on the exact couple used to generate it.

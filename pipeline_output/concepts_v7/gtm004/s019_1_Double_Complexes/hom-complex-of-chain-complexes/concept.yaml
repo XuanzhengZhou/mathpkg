@@ -1,0 +1,32 @@
+id: hom-complex-of-chain-complexes
+title_en: Hom Complex of Chain Complexes
+title_zh: ''
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags:
+- hom-complex
+- chain-complex
+- double-complex
+- dual-Kunneth
+depends_on:
+  required:
+  - double-complex-of-chains
+  - total-complex-tot-prime
+  recommended:
+  - hom-functor
+  suggested:
+  - dual-kunneth-theorem
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 1. Double Complexes
+  pages: ''
+  role_in_book: second primary example of a double complex; basis for the dual Kunneth
+    theorem
+content_hash: 8058efc6d0ae5076
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

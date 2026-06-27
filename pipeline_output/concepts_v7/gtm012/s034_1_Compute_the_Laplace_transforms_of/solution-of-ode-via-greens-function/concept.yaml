@@ -1,0 +1,13 @@
+id: solution-of-ode-via-greens-function
+title_en: "Solution of Linear ODEs via Green's Function Convolution"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: differential-equations
+difficulty: intermediate
+tags: [greens-function, convolution, linear-ode, existence, uniqueness, duhamel-principle]
+depends_on: {required: [greens-function-for-polynomial-differential-operator, characterization-of-greens-function], recommended: [polynomial-differential-operator], suggested: [convolution]}
+source_books: [{book_id: "gtm012", author: "Beals", title: "Advanced Mathematical Analysis", chapter: "7", section: "Differential equations", pages: "216-217", role_in_book: "Gives the explicit solution formula for p(D)u = f with zero initial data using Green's function convolution"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

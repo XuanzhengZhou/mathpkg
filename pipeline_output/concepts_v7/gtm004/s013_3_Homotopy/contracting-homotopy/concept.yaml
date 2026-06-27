@@ -1,0 +1,23 @@
+id: contracting-homotopy
+title_en: "Contracting Homotopy"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [chain-complex, homotopy, exact-sequence, acyclic]
+depends_on:
+  required: [homotopy-of-chain-maps]
+  recommended: [chain-complex, exact-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "3. Homotopy"
+    pages: "136"
+    role_in_book: "Special case of homotopy; a key tool for proving a complex is exact."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

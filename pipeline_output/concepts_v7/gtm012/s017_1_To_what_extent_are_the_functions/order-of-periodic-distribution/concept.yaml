@@ -1,0 +1,23 @@
+id: order-of-periodic-distribution
+title_en: "Order of a Periodic Distribution"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: advanced
+tags: [distributions, order, periodic-distributions, seminorm]
+depends_on:
+  required: [periodic-distributions, differentiation-of-distributions]
+  recommended: [structure-theorem-periodic-distributions]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "8"
+    section: "8. Summary of operations on periodic distributions"
+    pages: ""
+    role_in_book: "Defines the order of a distribution, measuring how many derivatives are needed to control its action on test functions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: gage-dictionary
+title_en: "Gage Dictionary for Uniform Spaces"
+title_zh: "一致空间的度规词典"
+type: theorem
+domain: topology
+subdomain: uniform-spaces
+difficulty: advanced
+tags: [gage, dictionary, uniform-topology, cauchy-net, uniform-continuity, product-uniformity]
+depends_on:
+  required: [uniform-space, gage]
+  recommended: [pseudo-metric, uniform-topology, cauchy-net, closure, product-uniformity]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Metrization"
+    pages: ""
+    role_in_book: "Theorem 19: translation between uniformity concepts and gage concepts"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

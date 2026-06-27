@@ -1,0 +1,23 @@
+id: approximate-eigenvalue-selfadjoint
+title_en: "Approximate eigenvalues and the boundary of spectrum"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: banach-spaces
+difficulty: intermediate
+tags: [approximate-eigenvalue, spectrum, boundary, topological-divisor-of-zero]
+depends_on:
+  required: [spectrum-definition, topological-divisor-of-zero]
+  recommended: [selfadjoint-real-spectrum]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "57"
+    section: "Spectrum in L(E)"
+    pages: ""
+    role_in_book: "The boundary of the spectrum is contained in the approximate point spectrum"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

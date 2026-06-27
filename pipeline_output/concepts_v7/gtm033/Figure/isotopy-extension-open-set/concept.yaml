@@ -1,0 +1,23 @@
+id: isotopy-extension-open-set
+title_en: "Isotopy Extension from Open Sets"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [isotopy-extension, open-set, diffeotopy, compact-support]
+depends_on:
+  required: [compact-support-isotopy, isotopy]
+  recommended: [isotopy-extension-compact-submanifold, tubular-neighborhood]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "8"
+    section: "1. Isotopy"
+    pages: ""
+    role_in_book: "Theorem 1.4. Extends an isotopy defined on an open set to a global diffeotopy, on a neighborhood of a compact subset."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

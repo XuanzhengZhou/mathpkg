@@ -1,0 +1,7 @@
+Under the classical definition of probability on a finite sample space $\Omega$, where $P(A) = N(A)/N(\Omega)$, the inclusion–exclusion principle takes the form
+
+$$P\left(\bigcup_{i=1}^{n} A_i\right) = \sum_{i=1}^{n} P(A_i) - \sum_{1 \leq i_1 < i_2 \leq n} P(A_{i_1} \cap A_{i_2}) + \cdots + (-1)^{n+1} P\left(\bigcap_{i=1}^{n} A_i\right).$$
+
+Equivalently,
+
+$$P\left(\bigcup_{i=1}^{n} A_i\right) = \sum_{\substack{S \subseteq \{1,\ldots,n\} \\ S \neq \varnothing}} (-1)^{|S|+1} P\left(\bigcap_{i \in S} A_i\right).$$

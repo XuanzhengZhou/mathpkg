@@ -1,0 +1,1 @@
+A set is open if every point in it is surrounded by some open ball entirely contained in the set. Open sets generalize the notion of open intervals in $\mathbb{R}$. The collection of open sets satisfies: arbitrary unions of open sets are open, and finite intersections of open sets are open.

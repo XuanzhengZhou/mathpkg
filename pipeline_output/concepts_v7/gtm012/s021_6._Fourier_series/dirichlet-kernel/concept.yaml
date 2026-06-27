@@ -1,0 +1,23 @@
+id: dirichlet-kernel
+title_en: "Dirichlet kernel"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: basic
+tags: [dirichlet-kernel, fourier-series, partial-sums, convolution, trigonometric-polynomial]
+depends_on:
+  required: [fourier-series, fourier-coefficients, convolution]
+  recommended: [trigonometric-identities, geometric-series]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "6"
+    section: "§6. Fourier series"
+    pages: ""
+    role_in_book: "Introduced in exercises; fundamental kernel for Fourier partial sums"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

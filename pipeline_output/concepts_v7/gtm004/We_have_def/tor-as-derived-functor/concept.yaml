@@ -1,0 +1,23 @@
+id: tor-as-derived-functor
+title_en: "Tor Functor as Left Derived Functor of Tensor Product"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [Tor-functor, derived-functor, tensor-product, projective-resolution]
+depends_on:
+  required: [derived-functor, tensor-product, projective-resolution, chain-complex]
+  recommended: [ext-functor]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "11"
+    pages: ""
+    role_in_book: "Definition of Tor_n as left derived functor of tensor product"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

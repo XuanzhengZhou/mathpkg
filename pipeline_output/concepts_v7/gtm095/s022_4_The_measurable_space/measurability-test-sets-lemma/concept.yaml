@@ -1,0 +1,23 @@
+id: measurability-test-sets-lemma
+title_en: "Test Sets Lemma for Measurability"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: random-variables
+difficulty: basic
+tags: [measurability, test-sets, sigma-algebra-generation, principle-of-appropriate-sets]
+depends_on:
+  required: [random-variable-measurable-function, sigma-algebra-generated-by-sets]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "4"
+    section: "2"
+    pages: ""
+    role_in_book: "reduces measurability verification from all Borel sets to a generating system"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

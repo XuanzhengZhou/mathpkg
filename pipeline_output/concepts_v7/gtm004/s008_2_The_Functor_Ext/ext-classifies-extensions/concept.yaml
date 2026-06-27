@@ -1,0 +1,23 @@
+id: ext-classifies-extensions
+title_en: "Natural Equivalence between Ext and Extension Classes"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [ext-functor, extension-classes, natural-equivalence, yoneda]
+depends_on:
+  required: [ext-is-bifunctor, baer-sum, extension-of-modules]
+  recommended: [independence-of-pi-star]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "2. The Functor Ext"
+    pages: ""
+    role_in_book: "Theorem 2.4; the fundamental classification theorem identifying Ext with extension classes"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

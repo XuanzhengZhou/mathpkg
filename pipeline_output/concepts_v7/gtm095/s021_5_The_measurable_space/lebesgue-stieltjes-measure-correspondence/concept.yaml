@@ -1,0 +1,23 @@
+id: lebesgue-stieltjes-measure-correspondence
+title_en: "Correspondence between Lebesgue-Stieltjes measures and generalized distribution functions"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: measure-theory
+difficulty: advanced
+tags: [lebesgue-stieltjes, generalized-distribution-function, one-to-one-correspondence, measure-extension]
+depends_on:
+  required: [lebesgue-stieltjes-measure, generalized-distribution-function, caratheodory-extension-theorem]
+  recommended: [probability-measure-from-distribution-function]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "Shiryaev, A.N."
+    title: "Probability-1"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Generalized Theorem 1. Establishes bijection between Lebesgue-Stieltjes measures and generalized distribution functions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

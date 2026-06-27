@@ -1,0 +1,23 @@
+id: pre-hilbert-space
+title_en: "Pre-Hilbert space"
+title_zh: "准希尔伯特空间"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [pre-hilbert-space, inner-product-space, parallelogram-law, completion]
+depends_on:
+  required: [hilbert-space]
+  recommended: [normed-space, completion-of-normed-space]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "41"
+    section: "Hilbert spaces"
+    pages: ""
+    role_in_book: "Defines pre-Hilbert space via the parallelogram law, connecting to the completion process."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

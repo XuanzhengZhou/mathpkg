@@ -1,0 +1,25 @@
+id: primary-ideal-radical-prime
+title_en: "Radical of a Primary Ideal is Prime"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: [primary-ideal, radical, prime-ideal, ring-theory]
+depends_on:
+  required: [primary-ideal-definition, radical-ideal, prime-ideal]
+  recommended: []
+  suggested: []
+
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "5"
+    section: "5.2"
+    pages: ""
+    role_in_book: "Exercise 5.2; fundamental property linking primary and prime ideals"
+
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

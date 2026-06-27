@@ -1,0 +1,11 @@
+Given an exact couple $\langle D, E; \alpha, \beta, \gamma \rangle$ in an abelian category $\mathfrak{A}$, split $\alpha: D \to D$ as an epimorphism followed by a monomorphism:
+
+$$D \xrightarrow{\sigma} D_1 \xrightarrow{\varrho} D, \quad \alpha = \varrho\sigma.$$
+
+Inductively, having defined $D_{n-1} \xrightarrow{\sigma_{n-1}} D_n \xrightarrow{\varrho_{n-1}} D_{n-1}$ with $\alpha_{n-1} = \varrho_{n-1}\sigma_{n-1}$, define
+
+$$\alpha_n = \sigma_{n-1}\varrho_{n-1}: D_n \to D_n$$
+
+and split $\alpha_n$ as $D_n \xrightarrow{\sigma_n} D_{n+1} \xrightarrow{\varrho_n} D_n$ with $\alpha_n = \varrho_n\sigma_n$.
+
+The \textbf{ladder} of the exact couple is the two-parameter family of diagrams obtained by applying $Q_{\sigma_m}$ and $Q^{\alpha_n}$ to the exact couple, yielding objects $E_{m,n}$ and morphisms fitting into the grid (4.17). The $n^{\text{th}}$ rung (the case $m=n$) recovers the $n^{\text{th}}$ derived couple.

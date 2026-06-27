@@ -1,0 +1,23 @@
+id: countable-orthonormal-basis
+title_en: "Countable Orthonormal Basis in L^2"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: L2-theory
+difficulty: advanced
+tags: [orthonormal-basis, L2-space, completeness, separable, parseval-identity]
+depends_on:
+  required: [system-of-orthogonal-random-variables, linear-manifold-random-variables]
+  recommended: [bessels-inequality]
+  suggested: [hermite-polynomials, haar-system]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "Defines a countable basis and separable Hilbert space of random variables"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

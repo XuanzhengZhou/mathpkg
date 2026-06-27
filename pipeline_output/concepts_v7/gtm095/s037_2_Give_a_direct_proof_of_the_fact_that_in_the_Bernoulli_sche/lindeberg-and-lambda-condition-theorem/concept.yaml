@@ -1,0 +1,23 @@
+id: lindeberg-and-lambda-condition-theorem
+title_en: "Theorem 2: Equivalence of Lindeberg Condition and Condition (Λ) under Asymptotic Smallness"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: limit-theorems
+difficulty: advanced
+tags: [central-limit-theorem, lindeberg-condition, condition-lambda, nonclassical-conditions, triangular-array]
+depends_on:
+  required: [lindeberg-condition]
+  recommended: [asymptotic-negligibility-condition]
+  suggested: []
+source_books:
+  - book_id: gtm095
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "III"
+    section: "§5. Nonclassical Conditions for the Central Limit Theorem"
+    pages: ""
+    role_in_book: "Theorem 2 clarifies the relationship between classical Lindeberg condition (L) and nonclassical condition (Λ)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

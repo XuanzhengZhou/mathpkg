@@ -1,0 +1,13 @@
+id: lebesgues-theorem-on-dominated-convergence
+title_en: "Theorem 3 (Lebesgue’s Theorem on Dominated Convergence). Let $\eta, \xi, \xi_1, \xi_2, \ldots$ be random variables such that $|\xi_n| \leq \eta$, $E\eta < \infty$ and $\xi_n \to \xi$ (a.s.). Then $E|\xi| < \infty$,"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: probability-theory
+difficulty: intermediate
+tags: []
+depends_on: {required: [], recommended: [], suggested: []}
+source_books: [{book_id: "gtm095", author: "Albert N. Shiryaev", title: "Probability-1 (3ed, 2016)", chapter: "Chapter 2", section: "§3. Expectation, dominated convergence, change of variables", pages: "", role_in_book: ""}]
+content_hash: "3d62c3b26d42"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

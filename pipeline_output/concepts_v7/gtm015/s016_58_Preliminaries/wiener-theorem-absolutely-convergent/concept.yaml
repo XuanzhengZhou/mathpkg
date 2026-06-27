@@ -1,0 +1,23 @@
+id: wiener-theorem-absolutely-convergent
+title_en: "Wiener's theorem on absolutely convergent Fourier series"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: advanced
+tags: [wiener, fourier-series, absolutely-convergent, banach-algebra, gel'fand]
+depends_on:
+  required: [l1-z-group-algebra, gel'fand-representation-theorem]
+  recommended: [banach-algebra-definition]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "63"
+    section: "Wiener's theorem"
+    pages: ""
+    role_in_book: "The reciprocal of a nowhere vanishing absolutely convergent trigonometric series is also absolutely convergent"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

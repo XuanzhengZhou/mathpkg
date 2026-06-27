@@ -1,0 +1,23 @@
+id: properties-of-characteristic-functions
+title_en: "Basic Properties of Characteristic Functions"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: characteristic-functions
+difficulty: advanced
+tags: [characteristic-function, uniform-continuity, symmetry, moments, taylor-expansion, analyticity]
+depends_on:
+  required: [characteristic-function-distribution]
+  recommended: [dominated-convergence-theorem]
+  suggested: [uniqueness-of-characteristic-functions, symmetric-distribution-characterization]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "2"
+    section: "12"
+    pages: ""
+    role_in_book: "Theorem 1 of Section 12 — the complete list of basic properties"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

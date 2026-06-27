@@ -1,0 +1,80 @@
+$$P_n(np + x\sqrt{npq}) \sim \frac{1}{\sqrt{2\pi npq}} e^{-x^2/2},$$
+
+i.e., as $n \to \infty,$
+
+$$\sup \{x: |x| \leq \psi(n)\} \left| \frac{P_n(np + x\sqrt{npq})}{1/\sqrt{2\pi npq}} e^{-x^2/2} - 1 \right| \to 0,$$
+
+where $\psi(n) = o(npq)^{1/6}$.
+
+We can reformulate these results in prob
+
+It is clear that $\Delta t_k = 1/\sqrt{npq} \to 0$ and the set of points $\{t_k\}$ as it were “fills” the real line. It is natural to expect that (11) can be used to obtain the integral formula
+
+$$P \left\{ a < \frac{S_n - np}{\sqrt{npq}} \leq b \right\} \sim \frac{1}{\sqrt{2\pi}} \int_a^b e^{-x^2/2} dx, \quad -\infty < a \leq b < \infty.$$
+
+Let us now give a precise statement.
+
+2. For $-\infty < a \leq b < \infty$ let
+
+$$P_n(a, b] = \sum_{a < x \leq b} P_n(np + x\sqrt{npq}),$$
+
+where the summation is over those $x$ for which $np + x\sqrt{npq}$ is an integer.
+
+It follows from the local theorem (see also (11)) that for all $t_k$ defined by $k = np + t_k\sqrt{npq}$ and satisfying $|t_k| \leq T < \infty$,
+
+$$P_n(np + t_k\sqrt{npq}) = \frac{\Delta t_k}{\sqrt{2\pi}} e^{-t_k^2/2}[1 + \varepsilon(t_k, n)],$$
+
+where
+
+$$\sup_{|t_k| \leq T} |\varepsilon(t_k, n)| \to 0, \quad n \to \infty.$$
+
+Consequently, if $a$ and $b$ are given so that $-T \leq a \leq b \leq T$, then
+
+$$\sum_{a < t_k \leq b} P_n(np + t_k\sqrt{npq}) = \sum_{a < t_k \leq b} \frac{\Delta t_k}{\sqrt{2\pi}} e^{-t_k^2/2} + \sum_{a < t_k \leq b} \varepsilon(t_k, n) \frac{\Delta t_k}{\sqrt{2\pi}} e^{-t_k^2/2}$$
+
+$$= \frac{1}{\sqrt{2\pi}} \int_a^b e^{-x^2/2}
+
+It also clear that
+
+$$\sup_{-T \leq a \leq b \leq T} |R_n^{(2)}(a, b)|$$
+$$\leq \sup_{|t_k| \leq T} |\varepsilon(t_k, n)| \cdot \sum_{|t_k| \leq T} \frac{\Delta t_k}{\sqrt{2\pi}} e^{-t_k^2/2}$$
+$$\leq \sup_{|t_k| \leq T} |\varepsilon(t_k, n)|$$
+$$\times \left[ \frac{1}{\sqrt{2\pi}} \int_{-T}^{T} e^{-x^2/2} dx + \sup_{-T \leq a \leq b \leq T} |R_n^{(1)}(a, b)| \right] \to 0,$$
+
+where the convergence of the right-hand side to zero follows from (15) and from
+
+$$\frac{1}{\sqrt{2\pi}} \int_{-T}^{T} e^{-x^2/2} dx \leq \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} e^{-x^2/2} dx = 1,$$
+
+the value of the last integral being well known. We write
+
+$$\Phi(x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{x} e^{-t^2/2} dt.$$
+
+Then it follows from (14)–(16) that
+
+$$\sup_{-T \leq a \leq b \leq T} |P_n(a, b] - (\Phi(b) - \Phi(a))| \to 0, \quad n \to \infty.$$
+
+We now show that this result holds for $T = \infty$ as well as for finite $T$. By (17), corresponding to a given $\varepsilon > 0$ we can find a finite $T = T(\varepsilon)$ such that
+
+$$\frac{1}{\sqrt{2\pi}} \int_{-T}^{T} e^{-x^2/2} dx > 1 - \frac{1}{4}\varepsilon.$$
+
+According to (18), we can find an $N$ such that for all $n > N$
+
+Therefore for $-\infty \leq a \leq -T < T \leq b \leq \infty$,
+
+$$\left| P_n(a, b) - \frac{1}{\sqrt{2\pi}} \int_a^b e^{-x^2/2} dx \right|$$
+$$\leq |P_n(-T, T] - \frac{1}{\sqrt{2\pi}} \int_T^{-T} e^{-x^2/2} dx|$$
+$$+ \left| P_n(a, -T] - \frac{1}{\sqrt{2\pi}} \int_a^{-T} e^{-x^2/2} dx \right| + \left| P_n(T, b] - \frac{1}{\sqrt{2\pi}} \int_T^b e^{-x^2/2} dx \right|$$
+$$\leq \frac{1}{4} \varepsilon + P_n(-\infty, -T] + \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{-T} e^{-x^2/2} dx + P_n(T, \infty)$$
+$$+ \frac{1}{\sqrt{2\pi}} \int_T^{\infty} e^{-x^2/2} dx \leq \frac{1}{4} \varepsilon + \frac{1}{2} \varepsilon + \frac{1}{8} \varepsilon + \frac{1}{8} \varepsilon = \varepsilon.$$
+
+By using (18) it is now easy to see that $P_n(a, b)$ tends to $\Phi(b) - \Phi(a)$ uniformly for $-\infty \leq a < b \leq \infty$.
+
+Thus we have proved the following theorem.
+
+De Moivre–Laplace Integral Theorem. Let $0 < p < 1$,
+
+$$P_n(k) = C_n^k p^k q^{n-k}, \quad P_n(a, b) = \sum_{a < x \leq b} P_n(np + x\sqrt{npq}).$$
+
+Then
+
+$$\sup_{-\infty \leq a < b \leq \infty} \left| P_n(a, b) - \frac{1}{\sqrt{2\pi}} \int_a^b e^{-x^2

@@ -1,0 +1,23 @@
+id: distribution-approximation-via-fourier-coefficients
+title_en: "Distribution Approximation via Fourier Coefficients"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: fourier-analysis
+difficulty: advanced
+tags: [fourier-coefficients, distributions, approximation, periodic-distributions, convergence]
+depends_on:
+  required: [periodic-distribution, fourier-coefficients, slowly-growing-sequence, distribution-fourier-coefficients-characterization]
+  recommended: [structure-theorem-periodic-distributions, order-of-periodic-distribution]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "5"
+    section: "§2. Fourier series, convolutions, and approximation"
+    pages: ""
+    role_in_book: "Theorem 2.3: Gives sufficient conditions on Fourier coefficients for a sequence of periodic distributions to converge in the sense of distributions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

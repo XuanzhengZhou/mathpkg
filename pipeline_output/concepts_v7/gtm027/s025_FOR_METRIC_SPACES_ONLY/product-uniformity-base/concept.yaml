@@ -1,0 +1,23 @@
+id: product-uniformity-base
+title_en: "Product Uniformity Base"
+title_zh: "积一致结构的基"
+type: definition
+domain: topology
+subdomain: uniform-spaces
+difficulty: basic
+tags: [product-uniformity, uniform-space, base, product-topology]
+depends_on:
+  required: [uniform-space, product-set]
+  recommended: [entourage]
+  suggested: [product-uniformity-action, closure-in-product-uniformity]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "FOR METRIC SPACES ONLY"
+    pages: ""
+    role_in_book: "Exercise B(a); defines the product uniformity for the product of two uniform spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,1 @@
+Complex conjugation sends $x + iy$ to $x - iy$. It is an involutive automorphism of $\mathbb{C}$ that fixes the real numbers. The product $z^*z$ is always a nonnegative real number, equal to the square of the Euclidean norm of $(x, y)$.

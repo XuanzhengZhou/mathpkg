@@ -1,0 +1,209 @@
+Let $A$ be an arbitrary class of ideals of $K$, and let $Z(t; A)$ denote the number of integral ideals in the class $A$ whose norm is $\leq t$. Then the limit
+
+$$\lim_{t \to \infty} \frac{Z(t; A)}{t} = \varkappa$$
+
+$^1$ Dirichlet developed his results only for quadratic fields and not for the ideals discussed here but in the context of quadratic forms (compare §53). The considerations were carried over to general algebraic number fields by Dedekind.
+
+exists, and is given by the formula
+
+$$\zeta = \frac{2^{r_1 + r_2} \pi^{r_2} R}{w |\sqrt{d}|}$$
+
+which is independent of $A$ and is determined by the field alone.
+
+(The notation is that of §§34, 35).
+
+Proof: Let $\mathfrak{a}$ be an integral ideal of the class $A^{-1}$, reciprocal to $A$, so that each ideal of $A$ becomes a principal ideal by multiplication by $\mathfrak{a}$. Accordingly, for each integral ideal $b$ in $A$ there exists a single principal ideal $(\omega)$ which is divisible by $b$ such that
+
+$$\mathfrak{a}b = \omega.$$
+
+Consequently $Z(t; A)$ is equal to the number of nonassociated integral numbers $\omega$ of the field which are divisible by $\mathfrak{a}$ and whose norm is $\leq t \cdot N(\mathfrak{a})$ in absolute value.
+
+We now attempt to extract a single element from each system of associated numbers by means of inequalities. For this purpose let $\varepsilon_1, \varepsilon_2, \ldots, \varepsilon_r$ be a system of $r$ basic units as in §35. To each number $\omega$ of the field different from 0, there is a uniquely determined system of real numbers $c_1, c_2, \ldots, c_r$ such that for the first $r$ conjugates we have:
+
+$$\log \frac{\omega^{(p)}}{\sqrt{N(\omega)}} = c_1 \log \left| \varepsilon_1^{(p)} \right| + \cdots + c_r \log \left| \varepsilon_r^{(p)} \right| \quad (p = 1, 2, \ldots, r).$$
+
+Let us call the $c_i$ the exponents of $\omega$. Again $e_p = 1$ if $K^{(p)}$ is real, $e_p = 2$ otherwise. Then since
+
+$$\sum_{p=1}^{r+1} e_p \log \left| \frac{\omega^{(p)}}{\sqrt{N(\omega)
+
+which satisfy the conditions
+
+$$|N(\omega)| = |\omega^{(1)} \cdot \omega^{(2)} \cdots \omega^{(n)}| \leq N(\mathfrak{a})t$$
+
+$$\log \left| \frac{\omega^{(p)}}{\sqrt{n} N(\omega)} \right| = \sum_{q=1}^{r} c_q \log |\varepsilon_q^{(p)}|;$$
+
+$$0 \leq c_q < 1 \quad (p = 1, \ldots, n).$$
+
+However, in order that $\omega$ be divisible by $\mathfrak{a}$ it is necessary and sufficient that
+
+$$\omega^{(p)} = \sum_{k=1}^{n} x_k \alpha_k^{(p)} \quad (p = 1, 2, \ldots, n)$$
+
+with rational integers $x_1, \ldots, x_n$, where $\alpha_1, \ldots, \alpha_n$ denotes a definite basis of the ideal $\mathfrak{a}$. Consequently, $w \cdot Z(t; A)$ is the number of rational integers $x_1, \ldots, x_n$ which satisfy the three conditions (85), (86), (87), where not all $x_i = 0$.
+
+If we now choose arbitrary real values for the $x_i$, then to the corresponding $\omega^{(p)}$ there is associated a uniquely determined real number $c_q$, by Equation (86), provided all $\omega^{(p)} \neq 0$. Now let $x_1, \ldots, x_n$ be the Cartesian rectangular coordinates of a point in $n$-dimensional space and, to begin with, consider only those points which do not lie on one of the manifolds $\omega^{(p)} = 0$ of lower dimension. Then Inequalities (85) and (86) obviously define, in the complementary space, a domain $B_t$ lying entirely in finite space; for we have
+
+$$|\omega^{(p)}| = \sqrt[n]{N(\omega)} \left| e^{\sum_{q=1}^{r} c_q \log |\varepsilon_q^{(p)}|} \right| \leq \sqrt[n]{t
+
+At the same time $B_1^*$ is that domain which is described by the following inequalities. Let us set
+
+$$\omega^{(p)} = \sum_{k=1}^{n} y_k \alpha_k^{(p)} \quad (p=1,2,\ldots,n)$$
+
+and now we have
+
+$$0 < |\omega^{(1)} \cdot \omega^{(2)} \cdots \omega^{(n)}| \leq N(\mathfrak{a})$$
+
+$$\log \left| \frac{\omega^{(p)}}{\sqrt{N(\omega)}} \right| = \sum_{q=1}^{r} c_q \log \left| \varepsilon_q^{(p)} \right|$$
+
+with $0 \leq c_q < 1$ ($p, q=1, 2, \ldots, r$) or
+
+$$|\omega^{(p)}| \leq e^{rM} \sqrt{N(\mathfrak{a})}$$ and at least one $\omega^{(p)} = 0$.
+
+Since this last condition defines only manifolds of lower dimension, this part of the domain makes no contribution to the $n$-fold integral and these conditions can be omitted.
+
+To evaluate the integral $J$ we introduce the real and imaginary parts of the $\omega^{(p)}$ as new variables in place of the $y$'s.
+
+We set
+
+$$z_p = \omega^{(p)} \quad \text{for } p=1,2,\ldots,r_1,$$
+
+$$z_p + iz_{p+r_2} = \omega^{(p)} \quad \text{for } p=r_1+1,\ldots,r_1+r_2,$$
+
+so that the functional determinant (as in Theorem 95)
+
+$$\left| \frac{\partial (z_1,\ldots,z_n)}{\partial (y_1,\ldots,y_n)} \right| = 2^{-r_2} N(\mathfrak{a}) \left| \sqrt{d} \right|.$$
+
+If we then introduce polar coordinates for $z_p$ and $z_{p+r_2}$:
+
+$$z_p = \rho_p \cos \varphi_{p-r_1} \quad (\rho_p > 0, 0 \
+
+The integration with respect to the $\varphi_i$ can be carried out; besides we need only integrate over the portion of the domain with $\rho_1 > 0, \ldots, \rho_{r_1} > 0$, if we put the factor $2^{r_1}$ before the integral. Thus we obtain
+
+$$J = \frac{2^{r_1+r_2} \pi^2}{N(\mathfrak{a}) |\sqrt{d}|} \int \cdots \int \rho_{r_1+1} \cdot \rho_{r_1+2} \cdots \rho_{r_1+r_2} d\rho_1 d\rho_2 \cdots d\rho_{r+1}$$
+
+$$= \frac{2^{r_1+r_2} \pi^2}{N(\mathfrak{a}) |\sqrt{d}|} \int \cdots \int dv_1 dv_2 \cdots dv_{r+1}$$
+
+if we introduce $v = \rho_k^{e_k}$. Then the conditions for the $v_i$ read:
+
+$$0 < v_1 \cdot v_2 \cdots v_{r+1} \leq N(\mathfrak{a}), \quad v_p > 0$$
+
+$$\log v_p = \frac{e_p}{n} \log(v_1 \cdots v_{r+1}) + e_p \sum_{q=1}^{r} c_q \log|\varepsilon_q^{(p)}|, \quad 0 \leq c_q < 1.$$
+
+Finally we introduce the $c_1, \ldots, c_r$ as new variables in place of the $v_i$ and set
+
+$$u = v_1 \cdot v_2 \cdots v_{r+1},$$
+
+and we thus obtain
+
+$$\log v_p = \frac{e_p}{n} \log u + e_p \sum_{q=1}^{r} c_p \log|\varepsilon_q^{(p)}|,$$
+
+$$\frac{\partial(v_1, \ldots, v_{r+1})}{\partial(u, c_1, \ldots, c_r)} = \frac{v_1 \cdot v_2 \cdots v_{r+1
+
+The number $Z(t)$, in whose definition the concept of class does not occur anymore, can now be calculated by another method, namely with the help of our knowledge of the decomposition of rational primes in the field. In this way the class number is connected with the decomposition laws, and thereby in certain cases a remarkably simple expression for the class number can be derived, of which no other way has led until now.
+
+If $F(m)$ denotes the number of integral ideals of the field whose norm is equal to the positive number $m$, then obviously
+
+$$Z(t) = \sum_{m=1}^{t} F(m).$$
+
+Here $\sum_{m=1}^{t}$ means that the summation index $m$ runs through all rational integers for which $1 \leq m \leq t$. Now, moreover, for two rational integers $a, b$
+
+$$F(ab) = F(a) \cdot F(b) \quad \text{if } (a, b) = 1. \tag{89}$$
+
+For, from two integral ideals $a$ and $b$ with $N(a) = a, N(b) = b$, an ideal $c = ab$ arises with $N(c) = ab$. And conversely if $c$ is an integral ideal with norm $ab$, let us set
+
+$$(c, a) = a_1, \quad (c, b) = b_1; \tag{90}$$
+
+from this it follows by multiplication that
+
+$$a_1 b_1 = (c^2, c a, c b, ab) = c \left( c, a, b, \frac{ab}{c} \right) = c.$$
+
+By passage to the conjugate, we obtain from (90) that $N(a_1)$, as a divisor of $a^n$, is thus coprime to $b$ and $N(b_1)$ is coprime to $a$, while the product $N(a_1) \cdot N(b_1) = ab$. Consequently, $N(a_1) = a, N(b_1) = b$, and $c$ is thus decomposed into two factors whose norms are $a$ and $b$ respectively. The assertion (89) follows from this.
+
+Generally, by use of
+
+positive value of the power. The $a_n$ are called the coefficients of the series. In case the series converges, it represents a function of $s$.
+
+**Lemma (a).** The series $\sum_{n=1}^{\infty} \frac{1}{n^s}$ converges for $s > 1$, and represents a continuous function of $s$, the so-called Riemann zeta-function $\zeta(s)$. Moreover
+
+$$\lim_{s \to 1} (s - 1)\zeta(s) = 1.$$
+
+It follows from the definition of the definite integral that
+
+$$\int_{n}^{n+1} \frac{dx}{x^s} < \frac{1}{n^s} < \int_{n-1}^{n} \frac{dx}{x^s} \quad (n > 1).$$
+
+Hence the series converges for $s > 1$; consequently, as a series with only positive continuous terms it represents a continuous function $\zeta(s)$, and
+
+$$\int_{1}^{\infty} \frac{dx}{x^s} < \zeta(s) < \int_{1}^{\infty} \frac{dx}{x^s} + 1,$$
+
+$$1 < (s - 1)\zeta(s) < s$$
+
+from which the limit relation follows.
+
+**Lemma (b).** Let us set
+
+$$S(m) = a_1 + a_2 + \cdots + a_m; \text{ hence } a_n = S(n) - S(n - 1).$$
+
+If there exists a number $\sigma$ ($\sigma > 0$) for which the quotient
+
+$$\left| \frac{S(m)}{m^\sigma} \right| < A, \quad (m = 1, 2, \ldots)$$
+
+(91)
+
+where $A$ is a constant independent of $m$, then the series $\sum_{n=1}^{\infty} a_n/n^s$ converges for $s > \sigma$ and represents a continuous function of $s$.
+
+Namely, for all positive integers $m$ and $h$
+
+$$\sum_{n=m}^{m+h} \frac{a_n}{n^s} = \sum_{n=
+
+Consequently, the series converges for $s > \sigma$, and indeed uniformly in each interval $\sigma + \delta \leq s \leq \sigma + \delta'$ (where $\delta' > \delta > 0$); thus it represents a continuous function of $s$ there.
+
+**Lemma (c).** If in the above notation
+
+$$\lim_{m \to \infty} \frac{S(m)}{m} = c,$$
+
+then, if $s$ approaches 1 (from $s > 1$),
+
+$$\lim_{s \to 1} (s - 1) \sum_{n=1}^{r} \frac{a_n}{n^s} = c.$$
+
+By (b) the series converges for $s > 1$. If we set
+
+$$S(n) = cn + \varepsilon_n n,$$
+
+where $\lim_{n \to \infty} \varepsilon_n = 0$ by hypothesis, and
+
+$$\varphi(s) = \sum_{n=1}^{r} \frac{a_n}{n^s},$$
+
+then, as above, it follows that for $s > 1$
+
+$$\left| \varphi(s) - c\zeta(s) \right| = s \left| \sum_{n=1}^{r} n\varepsilon_n \int_{n}^{n+1} \frac{dx}{x^{s+1}} \right| < s \sum_{n=1}^{r} \left| \varepsilon_n \right| \int_{n}^{n+1} \frac{dx}{x^s}.$$
+
+For an arbitrary $\delta > 0$ we now choose an integer $N$ such that $\left| \varepsilon_n \right| < \delta$ for $n \geq N$, and we choose $C$ in such a way that $\left| \varepsilon_n \right| < C$ for all $n$. It then follows that
+
+$$\left| (s - 1)\varphi(s) - c(s - 1)\zeta(s) \right| < Cs(s - 1) \sum_{n=1}^{N-1} \int_{n}^{n+1} \frac{dx}{x} + \delta s(s - 1) \sum_{N
+
+then the series can also be written as
+
+$$\zeta_k(s) = \sum_{n=1}^{\infty} \frac{F(n)}{n^s},$$
+
+and from Theorem 122 and Lemmas (b) and (c) we obtain
+
+**Theorem 123.** $\zeta_k(s)$ is defined by the convergent series (92) for $s > 1$ as a continuous function of $s$ and as $s$ approaches 1
+
+$$\lim_{s \to 1} (s - 1)\zeta_k(s) = h\varkappa.$$
+
+From this formula we now have a chance of calculating $h$ if we express $\zeta_k(s)$ in an essentially different form with the help of the prime ideals of $k$.
+
+**Theorem 124.** For $s > 1$, the equation
+
+$$\zeta_k(s) = \prod_p \frac{1}{1 - \frac{1}{N(p)^s}}.$$
+
+holds where $p$ runs through all distinct prime ideals $p$ of $k$.
+
+To begin with, this product converges, since $\sum_p 1/N(p)^s$ converges as the constituent of the series for $\zeta_k(s)$. For a single factor we obtain a convergent series of positive terms
+
+$$\frac{1}{1 - N(p)^s} = 1 + \frac{1}{N(p)^s} + \frac{1}{N(p^2)^s} + \cdots.$$
+
+If we multiply these expressions in a purely formal way for all $p$, then we obtain a series with terms
+
+$$\frac{1}{N(p_1^{\alpha_1} p_2^{\alpha_2} \cdots p_r^{\alpha_r})^s},$$
+
+where each product of powers of prime ideals appears exactly once in the norm symbol. However, by the fundamental theorem we obtain each integral ideal of $k$ exactly once in this form, that is, all terms of the convergent series $\zeta_k(s)$ appear exactly once. Since the series converges absolutely for $s > 1$ in each single factor and the product converges for $s > 1$, the equality of the values of the series, that is, the validity of

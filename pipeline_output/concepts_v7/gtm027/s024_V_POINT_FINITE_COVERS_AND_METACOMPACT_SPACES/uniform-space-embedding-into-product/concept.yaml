@@ -1,0 +1,23 @@
+id: uniform-space-embedding-into-product
+title_en: "Uniform Space Embedding into a Product of Metric Spaces"
+title_zh: "一致空间嵌入到度量空间的乘积"
+type: theorem
+domain: topology
+subdomain: uniform-spaces
+difficulty: intermediate
+tags: [uniform-space, embedding, product, metric-space, pseudo-metric, uniform-isomorphism]
+depends_on:
+  required: [uniform-space, product-uniformity]
+  recommended: [metric-space, pseudo-metric-space, uniform-isomorphism, hausdorff]
+  suggested: [uniformity-generated-by-uniformly-continuous-pseudometrics]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Metrization"
+    pages: ""
+    role_in_book: "Theorem 16 (Weil): every uniform space embeds into a product of pseudo-metric spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

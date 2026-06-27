@@ -1,0 +1,13 @@
+id: fisher-information-bernoulli
+title_en: "Fisher Information for Bernoulli Scheme"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: statistics
+difficulty: intermediate
+tags: [fisher-information, score-function, bernoulli, cramer-rao, log-likelihood]
+depends_on: {required: [unbiased-estimator], recommended: [], suggested: []}
+source_books: [{book_id: "gtm095", author: "A. N. Shiryaev", title: "Probability-1", chapter: "1", section: "7. Estimating the Probability of Success in the Bernoulli Scheme", pages: "", role_in_book: "Definition of Fisher information for the Bernoulli model"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

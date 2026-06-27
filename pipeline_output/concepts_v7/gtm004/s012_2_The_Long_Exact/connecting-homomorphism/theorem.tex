@@ -1,0 +1,17 @@
+Let $0 \to A \xrightarrow{\varphi} B \xrightarrow{\psi} C \to 0$ be a short exact sequence of chain complexes. For each $n \in \mathbb{Z}$, the connecting homomorphism is the map
+
+\[
+\omega_n : H_n(C) \to H_{n-1}(A)
+\]
+
+defined as follows: given a cycle $c \in C_n$ representing a homology class $[c] \in H_n(C)$, lift $c$ to $b \in B_n$ via the surjectivity of $\psi_n$, then apply the differential $\partial^B_n$ to obtain $\partial^B_n(b) \in B_{n-1}$. Since $\psi_{n-1}(\partial^B_n(b)) = \partial^C_n(\psi_n(b)) = \partial^C_n(c) = 0$, there exists a unique $a \in A_{n-1}$ with $\varphi_{n-1}(a) = \partial^B_n(b)$. Then
+
+\[
+\omega_n([c]) = [a] \in H_{n-1}(A).
+\]
+
+For cochain complexes, the connecting homomorphism has degree $+1$:
+
+\[
+\omega^n : H^n(C) \to H^{n+1}(A).
+\]

@@ -1,0 +1,23 @@
+id: classical-probability
+title_en: "Classical Method of Assigning Probabilities"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: foundations
+difficulty: basic
+tags: [classical-probability, equally-likely, laplace, combinatorics]
+depends_on:
+  required: [discrete-probability-space]
+  recommended: []
+  suggested: [ordered-samples, unordered-samples]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "5"
+    pages: ""
+    role_in_book: "Definition of the classical (equally likely) method of assigning probabilities: P(A) = N(A) / N(Omega)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

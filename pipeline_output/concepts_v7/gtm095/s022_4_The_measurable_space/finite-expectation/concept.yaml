@@ -1,0 +1,23 @@
+id: finite-expectation
+title_en: "Finite Expectation (Integrable Random Variable)"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: expectation
+difficulty: basic
+tags: [finite-expectation, integrability, absolute-convergence, L1]
+depends_on:
+  required: [expectation-general-random-variable]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "6"
+    section: "2"
+    pages: ""
+    role_in_book: "defines integrability as absolute convergence of the Lebesgue integral"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

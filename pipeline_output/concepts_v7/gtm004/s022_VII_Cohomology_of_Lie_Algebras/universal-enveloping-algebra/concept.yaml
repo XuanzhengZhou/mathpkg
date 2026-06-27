@@ -1,0 +1,31 @@
+id: universal-enveloping-algebra
+title_en: Universal Enveloping Algebra
+title_zh: 泛包络代数
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: advanced
+tags:
+- universal-enveloping-algebra
+- lie-algebra
+- tensor-algebra
+- pbw
+depends_on:
+  required:
+  - lie-algebra
+  - tensor-algebra
+  recommended:
+  - lie-ideal
+  suggested:
+  - associated-graded-algebra
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: VII
+  section: 1. Lie Algebras and their Universal Enveloping Algebra
+  pages: ''
+  role_in_book: Foundational concept for Lie algebra cohomology theory
+content_hash: 774f0aefddf03b33
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

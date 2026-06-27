@@ -1,0 +1,23 @@
+id: reflexive-relation
+title_en: "Reflexive Relation"
+title_zh: "自反关系"
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [reflexive, relation]
+depends_on:
+  required: [relation-definition, identity-relation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Relations"
+    pages: "8"
+    role_in_book: "Property used to define equivalence relations and orderings"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

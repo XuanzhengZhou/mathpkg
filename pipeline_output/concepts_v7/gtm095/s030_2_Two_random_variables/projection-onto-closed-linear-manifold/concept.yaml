@@ -1,0 +1,23 @@
+id: projection-onto-closed-linear-manifold
+title_en: "Projection onto a Closed Linear Manifold"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: L2-theory
+difficulty: advanced
+tags: [projection-theorem, closed-linear-manifold, L2-space, orthogonal-decomposition]
+depends_on:
+  required: [linear-manifold-random-variables, system-of-orthogonal-random-variables]
+  recommended: [bessels-inequality, conditional-expectation-wide-sense]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "Fundamental theorem on existence and uniqueness of projection in L²"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

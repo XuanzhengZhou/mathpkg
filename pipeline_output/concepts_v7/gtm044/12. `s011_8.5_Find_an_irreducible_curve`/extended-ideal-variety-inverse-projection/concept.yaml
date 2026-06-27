@@ -1,0 +1,23 @@
+id: extended-ideal-variety-inverse-projection
+title_en: "Theorem 10.1: The Variety of an Extended Ideal is the Inverse Projection"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [extended-ideal, variety, inverse-projection, coordinate-ring, embedding, lying-over]
+depends_on:
+  required: [homomorphism-induced-extension-contraction, maximal-ideal-contraction-under-embedding]
+  recommended: [coordinate-ring, variety, natural-projection]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "10"
+    section: "10.1"
+    pages: ""
+    role_in_book: "Characterizes the set of points in V_{R^*} lying above V(α) as V(α^e), showing V(α^e) = π^{-1}(V(α))"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

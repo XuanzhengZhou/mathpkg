@@ -1,0 +1,23 @@
+id: closure-of-epimorphisms
+title_en: "Closure of a Class of Epimorphisms"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [projective-class, relative-homological-algebra, closure-operator, epimorphism]
+depends_on:
+  required: [e-projective-object, abelian-category, epimorphism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "1. Projective Classes of Epimorphisms"
+    pages: "318-328"
+    role_in_book: "Definition: The closure C(E) consists of epimorphisms against which every E-projective object is projective"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

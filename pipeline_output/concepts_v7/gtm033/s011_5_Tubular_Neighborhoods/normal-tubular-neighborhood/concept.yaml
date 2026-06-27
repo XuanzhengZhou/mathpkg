@@ -1,0 +1,23 @@
+id: normal-tubular-neighborhood
+title_en: "Normal Tubular Neighborhood"
+title_zh: "法管状邻域"
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [normal-tubular-neighborhood, normal-bundle, submanifold, euclidean-space, orthogonal-complement]
+depends_on:
+  required: [tubular-neighborhood, normal-bundle, submanifold]
+  recommended: [nearest-point-projection]
+  suggested: []
+source_books:
+  - book_id: gtm033
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "5. Tubular Neighborhoods"
+    pages: ""
+    role_in_book: "Special tubular neighborhood using orthogonal complement fibres in Euclidean space"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

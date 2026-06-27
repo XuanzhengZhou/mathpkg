@@ -1,0 +1,23 @@
+id: binary-relative-entropy
+title_en: "Binary Relative Entropy Function"
+title_zh: "二元相对熵函数"
+type: definition
+domain: probability
+subdomain: large-deviations
+difficulty: intermediate
+tags: [relative-entropy, kl-divergence, bernoulli, rate-function]
+depends_on:
+  required: []
+  recommended: [entropy, kullback-leibler-divergence]
+  suggested: [cramer-chernoff-bound-bernoulli, sanov-theorem]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "6"
+    pages: "85"
+    role_in_book: "core"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

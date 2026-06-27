@@ -1,0 +1,31 @@
+id: boundary-construction-for-dual-kunneth-splitting
+title_en: Boundary Construction for the Dual Künneth Splitting
+title_zh: ''
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags:
+- hom-complex
+- boundary
+- splitting
+- dual-Kunneth
+depends_on:
+  required:
+  - dual-kunneth-theorem
+  - hom-complex-of-chain-complexes
+  recommended:
+  - lifting-of-homology-homomorphisms-to-chain-maps
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 3. The Dual Künneth Theorem
+  pages: ''
+  role_in_book: technical lemma used to construct the splitting of the dual Künneth
+    sequence
+content_hash: 22e1967bc90015ef
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

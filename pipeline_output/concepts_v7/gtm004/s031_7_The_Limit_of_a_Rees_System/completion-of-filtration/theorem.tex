@@ -1,0 +1,13 @@
+\textbf{Definition (8.9), (8.10).} Given a filtered object
+$$
+X^{p-1} \xrightarrow{\xi^p} X^p \xrightarrow{\nu^p} X \xrightarrow{\eta_p} X_p \xrightarrow{\xi_p} X_{p+1}
+$$
+in an abelian category $\mathfrak{A}$, define $X^\infty = \varinjlim_p X^p$ with structure maps $\nu^{\infty, p} : X^p \to X^\infty$, and let $X^\infty_p = X^\infty / X^p$. Then the \textit{completion} of the filtration is the bottom row of
+$$
+\begin{array}{ccccccc}
+X^{p-1} \xrightarrow{\xi^p} X^p \xrightarrow{\nu^p} X \xrightarrow{\eta_p} X_p \xrightarrow{\xi_p} X_{p+1} \\
+\downarrow{\scriptstyle \lambda} && \downarrow{\scriptstyle \lambda_p} && \downarrow{\scriptstyle \lambda_{p+1}} \\
+X^{p-1} \xrightarrow{\xi^p} X^p \xrightarrow{\nu^{\infty, p}} X^\infty \xrightarrow{\eta_p^\infty} X^\infty_p \xrightarrow{\xi_p^\infty} X^\infty_{p+1}
+\end{array}
+$$
+and then taking $Y = \varprojlim_p X^\infty_p = (X^\infty)_{-\infty}$ with the induced filtration, yielding the completed filtered object $\{Y^p\}$.

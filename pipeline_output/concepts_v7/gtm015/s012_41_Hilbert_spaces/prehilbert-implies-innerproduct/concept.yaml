@@ -1,0 +1,23 @@
+id: prehilbert-implies-innerproduct
+title_en: "Every pre-Hilbert space is an inner product space"
+title_zh: "每个准希尔伯特空间都是内积空间"
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [pre-hilbert-space, inner-product-space, equivalence, parallelogram-law]
+depends_on:
+  required: [real-inner-product-properties, complex-inner-product-properties]
+  recommended: [pre-hilbert-space, inner-product-from-norm]
+  suggested: [sesquilinear-form]
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "41"
+    section: "Hilbert spaces"
+    pages: ""
+    role_in_book: "Summarizes that Theorems 41.5 and 41.6 show every pre-Hilbert space can be regarded as an inner product space."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: de-morgans-laws-for-events
+title_en: "De Morgan's Laws for Events"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: foundations
+difficulty: basic
+tags: [de-morgan, set-operations, complement, union, intersection]
+depends_on:
+  required: [algebra-of-events]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "6"
+    pages: ""
+    role_in_book: "De Morgan's laws for events: complement of union equals intersection of complements, and vice versa"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

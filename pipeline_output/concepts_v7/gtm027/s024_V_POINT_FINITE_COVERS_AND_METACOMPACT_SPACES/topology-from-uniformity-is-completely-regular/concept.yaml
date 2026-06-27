@@ -1,0 +1,23 @@
+id: topology-from-uniformity-is-completely-regular
+title_en: "Uniform Topologies are Completely Regular"
+title_zh: "一致拓扑是完全正则的"
+type: corollary
+domain: topology
+subdomain: uniform-spaces
+difficulty: intermediate
+tags: [uniform-topology, completely-regular, tychonoff, embedding]
+depends_on:
+  required: [uniform-topology, uniform-space-embedding-into-product]
+  recommended: [completely-regular-space, tychonoff-embedding-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Metrization"
+    pages: ""
+    role_in_book: "Corollary 17: a topology is a uniform topology iff the space is completely regular"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: complete-filtration
+title_en: "Complete Filtration (Left and Right Completeness)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [filtration, completeness, limit, colimit, abelian-category]
+depends_on:
+  required: []
+  recommended: [filtered-object, limit, colimit]
+  suggested: [filtered-object-notation]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "8"
+    pages: ""
+    role_in_book: "Defines completeness for filtered objects, essential for morphism comparison theorems"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

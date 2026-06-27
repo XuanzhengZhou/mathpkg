@@ -1,0 +1,23 @@
+id: homomorphism-uniform-continuity
+title_en: "Continuity equals uniform continuity for group homomorphisms"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-groups
+difficulty: intermediate
+tags: [uniform-continuity, group-homomorphism, left-uniformity]
+depends_on:
+  required: [left-uniform-structure]
+  recommended: [group-homomorphism, uniform-continuity]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "5"
+    section: "Uniformity in topological groups"
+    pages: ""
+    role_in_book: "Establishes the equivalence of continuity and uniform continuity for group homomorphisms when both groups carry their left uniform structures."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

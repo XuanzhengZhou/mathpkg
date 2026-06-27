@@ -1,0 +1,23 @@
+id: essential-extension
+title_en: "Essential Extension of a Module"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [essential-extension, injective-hull, module-theory, submodule]
+depends_on:
+  required: [submodule, nontrivial-module]
+  recommended: [injective-module]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I. Modules"
+    section: "9. Essential Extensions"
+    pages: ""
+    role_in_book: "Definition of essential extension, foundational for the injective envelope construction"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

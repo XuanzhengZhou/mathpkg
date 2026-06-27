@@ -1,0 +1,23 @@
+id: topological-ring
+title_en: "Topological Ring"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: topological-algebra
+difficulty: basic
+tags: [ring, topology, continuity, addition, multiplication, topological-algebra]
+depends_on:
+  required: [topological-group]
+  recommended: [ring, topological-monoid]
+  suggested: [topological-module, topological-vector-space]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "1"
+    section: "1. Topological algebraic structures"
+    pages: ""
+    role_in_book: "Definition expanding topological structure to rings"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

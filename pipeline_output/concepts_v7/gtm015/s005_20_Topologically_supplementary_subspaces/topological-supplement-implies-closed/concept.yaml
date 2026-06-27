@@ -1,0 +1,23 @@
+id: topological-supplement-implies-closed
+title_en: "Topological Supplement Implies Closed"
+title_zh: "拓扑补蕴含闭性"
+type: corollary
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: basic
+tags: [topological-supplement, closed-subspace, separated-TVS, continuous-projector]
+depends_on:
+  required: [topological-direct-sum-via-continuous-projector, topological-direct-sum]
+  recommended: [separated-TVS]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "I. Topological Vector Spaces"
+    section: "20. Topologically supplementary subspaces"
+    pages: ""
+    role_in_book: "necessary-condition"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

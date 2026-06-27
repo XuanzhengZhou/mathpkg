@@ -1,0 +1,23 @@
+id: tubular-neighborhood-for-neat-submanifolds
+title_en: "Tubular Neighborhood for Neat Submanifolds"
+title_zh: "整齐子流形的管状邻域"
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [tubular-neighborhood, neat-submanifold, manifold-with-boundary, collar]
+depends_on:
+  required: [tubular-neighborhood, neat-submanifold, collar-restricts-to-neat-submanifold, existence-of-tubular-neighborhoods]
+  recommended: [normal-tubular-neighborhood]
+  suggested: []
+source_books:
+  - book_id: gtm033
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "6. Collars and Tubular Neighborhoods of Neat Submanifolds"
+    pages: ""
+    role_in_book: "Theorem 6.3 - Extends tubular neighborhood existence to manifolds with boundary"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

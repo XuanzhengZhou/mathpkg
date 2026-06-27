@@ -1,0 +1,23 @@
+id: product-uniformity-action-on-subset
+title_en: "Product Uniformity Action on Subsets"
+title_zh: "积一致结构对子集的作用"
+type: proposition
+domain: topology
+subdomain: uniform-spaces
+difficulty: basic
+tags: [product-uniformity, relation, entourage-action, product-space]
+depends_on:
+  required: [product-uniformity-base]
+  recommended: [entourage, relation-composition]
+  suggested: [closure-in-product-uniformity]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "FOR METRIC SPACES ONLY"
+    pages: ""
+    role_in_book: "Exercise B(b); formula for the action of a product entourage on a relation"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

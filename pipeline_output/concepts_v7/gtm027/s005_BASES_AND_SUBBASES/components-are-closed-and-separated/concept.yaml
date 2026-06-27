@@ -1,0 +1,23 @@
+id: components-are-closed-and-separated
+title_en: "Properties of Connected Components"
+title_zh: "连通分支的性质"
+type: theorem
+domain: topology
+subdomain: connectedness
+difficulty: intermediate
+tags: [component, connected, closed, separated, maximal]
+depends_on:
+  required: [component-of-topological-space, closure-of-connected-set-is-connected, union-of-non-separated-connected-sets]
+  recommended: [separated-sets]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Bases and Subbases"
+    pages: ""
+    role_in_book: "Theorem 22 — components are closed and distinct components are separated"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

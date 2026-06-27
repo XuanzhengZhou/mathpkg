@@ -1,0 +1,23 @@
+id: stationary-equivalence-spectral-sequence
+title_en: "Equivalence of Stationarity, Grading, and Dual Stationarity in Exact Couples"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [exact-couple, spectral-sequence, stationarity, grading, equivalence]
+depends_on:
+  required: [stationary-exact-couple, positively-graded-bigraded-object]
+  recommended: [graded-bigraded-object-implies-stationary]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "3"
+    section: "3. Finite Convergence Conditions for Filtered Chain Complexes"
+    pages: ""
+    role_in_book: "Theorem 3.3: establishes the equivalence between positive stationarity of α, negative grading of E, and positive stationarity of ᾶ"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

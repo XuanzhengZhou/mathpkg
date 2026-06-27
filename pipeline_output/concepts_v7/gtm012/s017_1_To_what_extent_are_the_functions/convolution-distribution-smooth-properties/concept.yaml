@@ -1,0 +1,23 @@
+id: convolution-distribution-smooth-properties
+title_en: "Properties of Convolution of a Distribution with a Smooth Function"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: intermediate
+tags: [convolution, distributions, smooth-functions, linearity, differentiation]
+depends_on:
+  required: [convolution-distribution-smooth-function, periodic-distributions]
+  recommended: [differentiation-of-convolution]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "7"
+    section: "7. Convolution of distributions"
+    pages: ""
+    role_in_book: "Establishes that the convolution F*u is smooth and satisfies bilinearity and differentiation rules"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

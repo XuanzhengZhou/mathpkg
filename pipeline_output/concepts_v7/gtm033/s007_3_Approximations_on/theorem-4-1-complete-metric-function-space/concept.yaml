@@ -1,0 +1,23 @@
+id: theorem-4-1-complete-metric-function-space
+title_en: "Theorem 4.1: Complete Metric on Weak Function Space"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [complete-metric, function-space, weak-topology, locally-compact, baire-space]
+depends_on:
+  required: [complete-metric-space, locally-compact, weak-topology]
+  recommended: [c-w-topology, countable-base]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2"
+    section: "4. Weak and Strong Topologies on Function Spaces"
+    pages: ""
+    role_in_book: "Establishes metrizability of the weak C^0 topology when domain is locally compact with countable base"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

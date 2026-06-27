@@ -1,0 +1,57 @@
+Let $\sigma_1(t_1), \sigma_2(t_2), \ldots, \sigma_n(t_n)$ be functions of $t_1, \ldots, t_n$ respectively such that $\sigma_{p+r_2} = \bar{\sigma}_p$ for $p = r_1 + 1, \ldots, r_1 + r_2$ and $\sigma_p$ is real for $p = 1, 2, \ldots, r_1$. Then if $t_1, \ldots, t_n$ tend to 0 simultaneously,
+
+$$\lim_{t \to 0} \sqrt{t_1 t_2 \cdots t_n} \theta(t, z, t \cdot \sigma; \mathfrak{f}) = \frac{1}{N(\mathfrak{f})|\sqrt{d}|},$$
+
+independently of $z$, provided
+
+$$\lim_{t_p \to 0} \sigma_p(t_p) = 0.$$
+
+To prove this we need only apply Theorem 158 to the series and substitute the value of the coefficient $a$ found above. Specifically if we
+
+from which we can read off the statement of Lemma (a) in the same way as in the preceding section.
+
+We now obtain a Gauss sum if, in (192), we take $\omega$ equal to a number in $k$ different from 0 and $f = 1$:
+
+$$\omega = \frac{b}{a\delta}, \quad (a, b) = 1.$$
+
+We have
+
+$$\theta(t, 0, \omega; 1) = \sum_{\rho \bmod a} e^{2\pi i S(\rho^2 \omega)} \theta(t, \rho, 0; a).$$
+
+Thus by Lemma (a)
+
+$$\lim_{t \to 0} \sqrt{t_1 \cdots t_n} \theta(t, 0, \omega; 1) = \frac{C(\omega)}{N(a)|\sqrt{d}|}. \tag{194}$$
+
+To investigate the right-hand side of (192) we introduce an auxiliary integral ideal $c$ such that
+
+$$c\delta = \delta \text{ is a number in } k \text{ and } (c, 4b) = 1.$$
+
+Moreover let
+
+$$b_1 \text{ be the denominator of } \frac{a}{4b}.$$
+
+Again it follows directly from the definition of the theta-series that
+
+$$\theta\left(\tau, 0, \varkappa; \frac{1}{\delta}\right) = \theta\left(\frac{\tau}{|\delta|^2}, 0, \frac{\varkappa}{\delta^2}; c\right) = \sum_{\rho \bmod b_1 \atop \rho \equiv 0(c)} \theta\left(\frac{\tau}{|\delta|^2}, \rho, \frac{\varkappa}{\delta^2}; b_1 c\right).$$
+
+By (191) we now have
+
+$$\varkappa^{(p)} = \frac{-\bar{\omega}^{(p)}}{t_p^2 + 4|\omega^{(p)}|^2} = -\frac{1}{4\omega^{(p)}} + \frac{t_p^2}{4\omega^{(p)}\left(t_p^2
+
+As was proved at the end of the preceding section, the last sum is again $C(-\gamma^2/4\omega)$, where $\gamma$ is an arbitrary number in $k$ for which
+
+$$\delta\gamma$$ is integral and relatively prime to $b_1$. (196)
+
+Then Equation (195) can be written
+
+$$\lim_{t \to 0} \sqrt{t_1 \cdots t_n} \theta\left(\tau, 0, \varkappa; \frac{1}{b}\right) = \left| \frac{N(2\omega)}{N(b_1)} \sqrt{d} \right| C\left(\frac{-\gamma^2}{4\omega}\right).$$ (197)
+
+Finally if, after multiplication by $\sqrt{t_1 \cdots t_n}$, we let all the $t$ tend to zero in Formula (192), and keep in mind that
+
+$$\lim_{t \to 0} W(t, \omega) = \left| \sqrt{N(2\omega)} \right| e^{-(\pi i/4)S(\sgn \omega)},$$
+
+where
+
+$$S(\sgn \omega) = \text{sgn} \omega^{(1)} + \cdots + \text{sgn} \omega^{(r_1)} \quad (= 0 \text{ if } r_1 = 0),$$ (198)
+
+then we obtain from (194) and (197):

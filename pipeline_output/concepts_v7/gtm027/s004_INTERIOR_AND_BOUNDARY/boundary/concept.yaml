@@ -1,0 +1,23 @@
+id: boundary
+title_en: "Boundary of a Set"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [boundary, interior, neighborhood, topological-space, frontier]
+depends_on:
+  required: [interior, interior-point, topological-space, neighborhood]
+  recommended: [interior-properties]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Interior and Boundary"
+    pages: ""
+    role_in_book: "Defines the boundary (frontier) operator on subsets of a topological space"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

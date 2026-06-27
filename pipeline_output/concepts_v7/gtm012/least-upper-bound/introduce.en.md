@@ -1,0 +1,1 @@
+The least upper bound (or supremum) of a set $A$ is the smallest real number that is greater than or equal to every element of $A$. It is unique when it exists. The existence of suprema for bounded sets is guaranteed by the completeness axiom of $\mathbb{R}$.

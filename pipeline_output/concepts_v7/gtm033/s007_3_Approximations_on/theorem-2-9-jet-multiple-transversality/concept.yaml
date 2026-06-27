@@ -1,0 +1,23 @@
+id: theorem-2-9-jet-multiple-transversality
+title_en: "Theorem 2.9: Jet Transversality to Multiple Submanifolds"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [jet-transversality, multiple-submanifolds, residual, immersion, transversality]
+depends_on:
+  required: [jet-transversality-theorem, baire-category-theorem, residual-set]
+  recommended: [immersion, submersion, singularity-theory]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "3"
+    section: "2. Transversality"
+    pages: ""
+    role_in_book: "Extends jet transversality to multiple submanifolds; used to reprove density of immersions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

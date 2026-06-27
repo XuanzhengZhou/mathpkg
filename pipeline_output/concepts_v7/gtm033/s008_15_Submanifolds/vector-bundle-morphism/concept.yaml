@@ -1,0 +1,23 @@
+id: vector-bundle-morphism
+title_en: "Vector Bundle Morphism"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundle, morphism, monomorphism, epimorphism, isomorphism, fibre-map]
+depends_on:
+  required: [vector-bundle]
+  recommended: [linear-map, commutative-diagram]
+  suggested: [category-theory]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "4.1"
+    pages: ""
+    role_in_book: "Defines the morphisms that form the category of vector bundles"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

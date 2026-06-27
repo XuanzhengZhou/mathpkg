@@ -1,0 +1,23 @@
+id: distribution-fourier-coefficients-characterization
+title_en: "Characterization of Fourier Coefficients of Periodic Distributions"
+title_zh: "周期分布傅里叶系数的刻画"
+type: theorem
+domain: analysis
+subdomain: fourier-analysis
+difficulty: advanced
+tags: [fourier-coefficients, periodic-distributions, slow-growth, characterization]
+depends_on:
+  required: [slowly-growing-sequence, fourier-coefficients, periodic-distributions]
+  recommended: [smooth-periodic-fourier-coefficients-characterization]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "5"
+    section: "§1. Fourier series of smooth periodic functions and of periodic distributions"
+    pages: ""
+    role_in_book: "Theorem 1.2: Gives necessary and sufficient condition for a sequence to be Fourier coefficients of a periodic distribution"
+content_hash: "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

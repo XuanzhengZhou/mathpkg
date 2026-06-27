@@ -1,0 +1,23 @@
+id: e-abelian-group-structure
+title_en: "Abelian Group Structure on Extensions"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [extension-of-modules, abelian-group, baer-sum, ext-functor]
+depends_on:
+  required: [e-ext-natural-equivalence]
+  recommended: [extension-of-modules, ext-bifunctor]
+  suggested: [baer-sum, group-cohomology]
+source_books:
+  - book_id: "gtm004"
+    author: "Hilton, P. J.; Stammbach, U."
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "2"
+    pages: "104"
+    role_in_book: "Corollary 2.5 — deduces that E(A,B) has a natural abelian group structure from the Ext equivalence"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

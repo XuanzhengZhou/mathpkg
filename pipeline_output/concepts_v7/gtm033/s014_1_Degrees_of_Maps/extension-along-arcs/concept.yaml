@@ -1,0 +1,23 @@
+id: extension-along-arcs
+title_en: "Lemma 1.7: Extension of a Map Along an Arc"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [extension, arc, tubular-neighborhood, degree, orientation]
+depends_on:
+  required: [tubular-neighborhood, degree-of-smooth-map, arc]
+  recommended: [extension-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "5"
+    section: "1. Degrees of Maps"
+    pages: ""
+    role_in_book: "Technical lemma for extending maps across arcs with matching signs"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

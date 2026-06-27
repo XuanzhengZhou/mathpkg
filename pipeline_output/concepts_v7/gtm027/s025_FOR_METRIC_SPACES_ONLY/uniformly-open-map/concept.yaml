@@ -1,0 +1,23 @@
+id: uniformly-open-map
+title_en: "Uniformly Open Map"
+title_zh: "一致开映射"
+type: definition
+domain: topology
+subdomain: uniform-spaces
+difficulty: intermediate
+tags: [uniformly-open, uniform-space, open-map, entourage]
+depends_on:
+  required: [uniform-space, entourage]
+  recommended: [open-map]
+  suggested: [completeness-preservation-uniformly-open]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "FOR METRIC SPACES ONLY"
+    pages: ""
+    role_in_book: "Definition; a map of uniform spaces is uniformly open iff images of uniform neighborhoods of points contain uniform neighborhoods of images"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

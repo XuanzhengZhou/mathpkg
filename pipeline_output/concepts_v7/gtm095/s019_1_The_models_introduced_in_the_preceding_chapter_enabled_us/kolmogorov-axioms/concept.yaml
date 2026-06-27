@@ -1,0 +1,23 @@
+id: kolmogorov-axioms
+title_en: "Kolmogorov's Axioms of Probability"
+title_zh: ""
+type: axiom
+domain: probability
+subdomain: foundations
+difficulty: intermediate
+tags: [kolmogorov, axioms, probability-space, measure-theoretic-foundations]
+depends_on:
+  required: [algebra-of-events]
+  recommended: [probability-model-infinite-trials]
+  suggested: [sigma-algebra]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "2"
+    section: "1"
+    pages: ""
+    role_in_book: "Introduction of Kolmogorov's axiomatic framework for probability theory"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

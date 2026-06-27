@@ -1,0 +1,23 @@
+id: not-surjective-right-tdz
+title_en: "Non-surjectivity and right topological divisors of zero"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: banach-spaces
+difficulty: intermediate
+tags: [banach-space, surjective, right-tdz, adjoint, bounded-below]
+depends_on:
+  required: [topological-divisor-of-zero, adjoint-operator-definition, bounded-below-definition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "57"
+    section: "Spectrum in L(E)"
+    pages: ""
+    role_in_book: "T is not surjective iff T is right TDZ iff T' is not bounded below"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

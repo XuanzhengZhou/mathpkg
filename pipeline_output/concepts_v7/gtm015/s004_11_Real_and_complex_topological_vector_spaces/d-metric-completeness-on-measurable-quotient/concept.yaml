@@ -1,0 +1,23 @@
+id: d-metric-completeness-on-measurable-quotient
+title_en: "Completeness of Metric d on the Measurable Quotient"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [completeness, convergence-in-measure, measurable-functions, Riesz-Weyl]
+depends_on:
+  required: [measurable-functions-quotient-modulo-null, convergence-in-metric-iff-convergence-in-measure]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "Chapter 2 – Topological Vector Spaces"
+    section: "15. The space (S)"
+    pages: ""
+    role_in_book: "Proves the metric completeness of [M]; a key step toward showing it is an F-space."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

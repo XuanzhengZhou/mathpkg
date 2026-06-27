@@ -1,0 +1,22 @@
+Given a Rees system (6.9)
+\begin{align*}
+D &\xrightarrow{\alpha} D \xrightarrow{\beta} E \xrightarrow{\gamma} D, \\
+\bar{D} &\xrightarrow{\bar{\alpha}} \bar{D} \xrightarrow{\bar{\beta}} E \xrightarrow{\bar{\gamma}} \bar{D}, \\
+\bar{D} &\xrightarrow{\xi} D \xrightarrow{\varphi} \Gamma \xrightarrow{\bar{\varphi}} \bar{D} \xrightarrow{\xi} D,
+\end{align*}
+the \textbf{derived Rees system} is obtained by passing to the derived couples of $\textcircled{1}$ and $\textcircled{2}$ and constructing the derived triangle as follows.
+
+Let $(\xi, 1)$ induce a morphism $(\xi_1, 1)$ of the derived couples, where $\xi_1 : D_1 \to D_1$. Apply the factorization process to the pair $(\varphi, \bar{\varphi})$: factor $\bar{\varphi}$ through its kernel and $\varphi$ through its cokernel to obtain
+\begin{align*}
+D_1 &\xrightarrow{\varphi_1} \Gamma \xrightarrow{\bar{\varphi}_1} \bar{D}_1, \\
+\varphi_1 \sigma &= \varphi, \quad \bar{\varphi}\bar{\varphi}_1 = \bar{\varphi},
+\end{align*}
+where $\sigma : D_1 \to D$ is the canonical inclusion and $\bar{\varphi} : \bar{D} \to \bar{D}_1$ is the canonical projection.
+
+The derived Rees system is then:
+\begin{align*}
+D_1 &\xrightarrow{\alpha_1} D_1 \xrightarrow{\beta_1} E_1 \xrightarrow{\gamma_1} D_1, \\
+\bar{D}_1 &\xrightarrow{\bar{\alpha}_1} \bar{D}_1 \xrightarrow{\bar{\beta}_1} E_1 \xrightarrow{\bar{\gamma}_1} \bar{D}_1, \\
+\bar{D}_1 &\xrightarrow{\xi_1} D_1 \xrightarrow{\varphi_1} \Gamma \xrightarrow{\bar{\varphi}_1} \bar{D}_1 \xrightarrow{\xi_1} D_1,
+\end{align*}
+where the exactness of the derived triangle $\bar{D}_1 \to D_1 \to \Gamma \to \bar{D}_1 \to D_1$ follows from Theorem 4.5.

@@ -1,0 +1,23 @@
+id: right-derived-functor-via-derived-category
+title_en: "Right Derived Functor via Derived Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [derived-category, derived-functor, injective-resolution]
+depends_on:
+  required: [derived-category, theorem-derived-category-vs-injective-homotopy-category, additive-functor]
+  recommended: [left-exact-functor]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "X"
+    section: "5. Stable and Derived Categories"
+    pages: ""
+    role_in_book: "Definition of right derived functor in the derived category framework"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

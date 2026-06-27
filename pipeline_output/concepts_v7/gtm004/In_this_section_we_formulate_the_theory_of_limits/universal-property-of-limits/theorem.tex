@@ -1,0 +1,9 @@
+Let $F : I \rightarrow \mathfrak{C}$ be a functor from a small index category $I$ to a category $\mathfrak{C}$. Suppose morphisms $\varphi_i : X \rightarrow F(i)$ are given for all $i \in I$ such that, for every morphism $\alpha : i \rightarrow j$ in $I$, the diagram
+$$
+\begin{CD}
+X @>{\varphi_i}>> F(i) \\
+@| @VV{F(\alpha)}V \\
+X @>{\varphi_j}>> F(j)
+\end{CD}
+$$
+commutes. Then there exists a unique morphism $\varphi : X \rightarrow \varprojlim F$ such that $\delta_i \circ \varphi = \varphi_i$ for all $i \in I$, where $\delta_i : \varprojlim F \rightarrow F(i)$ are the canonical projections given by the counit.

@@ -1,0 +1,23 @@
+id: laplace-inversion-formula
+title_en: "Laplace inversion formula"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: integral-transforms
+difficulty: intermediate
+tags: [laplace-transform, inversion-formula, contour-integral, bromwich-integral]
+depends_on:
+  required: [laplace-transform, laplace-transform-holomorphic]
+  recommended: [contour-integration, cauchy-integral-formula, residue-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "4"
+    section: "§5"
+    pages: ""
+    role_in_book: "Theorem 5.2: recovers the original function from its Laplace transform via a Bromwich contour integral"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

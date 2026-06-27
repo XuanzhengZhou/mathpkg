@@ -1,0 +1,23 @@
+id: ext-functor-via-projectives
+title_en: "Ext Functor via Projective Resolutions"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [ext-functor, derived-functor, projective-resolution, hom-functor, cohomology]
+depends_on:
+  required: [projective-resolution, right-derived-functor, hom-functor, cochain-complex]
+  recommended: [additive-functor, abelian-category]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "II"
+    section: "7. The Functors Ext^n_A Using Projectives"
+    pages: ""
+    role_in_book: "Defines the contravariant Ext functor as right derived functors of Hom(-, B)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

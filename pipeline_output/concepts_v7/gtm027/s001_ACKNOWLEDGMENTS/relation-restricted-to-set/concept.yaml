@@ -1,0 +1,23 @@
+id: relation-restricted-to-set
+title_en: "Relation Restricted to a Set"
+title_zh: "关系限制到集合"
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [restriction, relation]
+depends_on:
+  required: [relation-definition, cartesian-product, set-intersection]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Relations"
+    pages: "9"
+    role_in_book: "Technical tool for localized properties"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

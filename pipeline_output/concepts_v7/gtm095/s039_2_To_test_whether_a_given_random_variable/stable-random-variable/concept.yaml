@@ -1,0 +1,23 @@
+id: stable-random-variable
+title_en: "Stable Random Variable (Stable Distribution)"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: stable-distributions
+difficulty: intermediate
+tags: [stable-distribution, characteristic-function, limit-theorem, infinite-divisibility]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "§6. Infinitely divisible and stable distributions"
+    pages: ""
+    role_in_book: "Defines stable random variables as limits of normalized sums"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

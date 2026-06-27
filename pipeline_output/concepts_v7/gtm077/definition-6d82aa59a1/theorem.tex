@@ -1,0 +1,63 @@
+We call two nonzero ideals $a, b$ of the quadratic field $k$ equivalent in the strict sense, if there is a number $\lambda$ in $k$ such that
+
+It follows from $a \approx b$ that $a \sim b$. Conversely, if $a \sim b$, then obviously $a \approx b$ or $a \approx b\sqrt{d}$. A class in the wider sense thus splits into at most two classes relative to the strict concept of equivalence. Hence the class number $h_0$ in the strict sense is also finite and $\leq 2h$.
+
+Since the number $\mu$ is determined only up to a unit factor by the ideal equation $a = \mu b$, the two concepts of equivalence are identical if in each complete sequence of associated numbers some with positive norm occur. That is, if $k$ is imaginary or $k$ is real and the basic unit in $k$ has norm $-1$, then $h_0 = h$.
+
+In the cases yet remaining in which $k$ is real and each unit in $k$ has norm $\pm 1$, $a$ and $a\sqrt{d}$ are obviously not equivalent in the strict sense, and then $h_0 = 2h$.
+
+Now the main problem is to investigate the structure of the class group. However, at present, only a very small part of this has been achieved. The result is formulated in the following theorem.
+
+**Theorem 132.** The basis number of the strict class group belonging to 2 is $e_0(2) = t - 1$, where $t$ denotes the number of distinct primes which divide the discriminant $d$ of $k$.
+
+By Theorem 28, we must show that there exist exactly $2^{t-1}$ classes in $k$ whose square is the strict principal class. For this purpose we keep in mind that the $t$ distinct prime ideals $q_1, \ldots, q_t$, which divide $d$, have the property that their square is a rational principal ideal, thus $\approx 1$, by the decomposition laws mentioned above. We first show that each ideal $a$ with $a^2 \approx 1$ is necessarily equivalent to a product of powers of these $q$. From $a^2 \approx 1$ and $a a' \approx 1$, it follows that
+
+$$\frac{a}{a'} \approx 1, \quad \frac{
+
+where $r$ is a rational number and the $a_i$ are 0 or 1. However, this means
+
+$$a \approx q_1^{a_1} \cdots q_t^{a_t}$$
+
+as claimed since $N(1 + \omega) = \omega(1 + \omega')^2 > 0$.
+
+Such integral ideals in $k(\sqrt{d})$, which are equal to their conjugates but which do not contain a rational factor (except $\pm 1$), are called ambiguous ideals. Ideal classes which are equal to their conjugates are called ambiguous classes. Furthermore the above proof shows that an ambiguous ideal occurs in each ambiguous class.
+
+Now we must still show that among the $t$ ambiguous classes $Q_1, \ldots, Q_t$ which are defined by $q_1, \ldots, q_t$ respectively, there are exactly $t - 1$ independent classes (in the sense of group theory). Now if there is a relation
+
+$$Q_1^{a_1} \cdots Q_t^{a_t} = 1,$$
+
+which is not the trivial relation where all $a_i$ are even, then there is a number $\alpha$ such that
+
+$$\alpha = q_1^{a_1} \cdots q_t^{a_t}, \quad N(\alpha) > 0.$$
+
+Here we then have $(\alpha) = (\alpha')$, $\alpha = \eta\alpha'$, where $\eta$ is a unit, $N(\eta) = +1$. We now distinguish three cases:
+
+(a) $d < 0$, where we at once assume $d < -4$, since for $d = -3$ or $d = -4$ our Theorem 132 is already seen to be true because of $h = 1$ and $t = 1$. Then there are only the units $\pm 1$ in $k$, hence
+
+$$\alpha = \pm \alpha', \quad \alpha = r(\sqrt{d})^n \quad (n = 0 \text{ or } 1),$$
+
+where $r$ is a rational number. With $n = 0$ all exponents $a_i$ in (111) are even. With $n = 1$ at least one $
+
+The ideal $(1 + \varepsilon)$ is equal to its conjugate, but surely not equal to any rational principal ideal. For if
+
+$$1 + \varepsilon = r_1 \varepsilon^k$$
+
+held with rational $r_1$, then we would have
+
+$$\varepsilon = \frac{1 + \varepsilon}{1 + \varepsilon'} = \varepsilon^{2k}, \quad \varepsilon^{2k-1} = 1$$
+
+which is not the case. Consequently, $(1 + \varepsilon)$ has a decomposition
+
+$$(1 + \varepsilon) = \text{rational ideal} \times q_1^{b_1} \cdots q_t^{b_t},$$
+
+where at least one of the exponents $b_t$ is odd.
+
+Thus in each case we obtain that if a decomposition (111) for $\alpha$ holds, where the exponents $a_i$ are not all even, then $\alpha$ must be of one of the three forms (112), (113), (114), where $n$ is odd. Consequently the exponents $a_i$ in (110) are uniquely determined modulo 2. Hence there is at most one nontrivial relation between the $t$ classes $Q_1, \ldots, Q_t$. Conversely, however, there is actually one such relation as the decomposition of the principal ideals (in the strict sense) $\sqrt{d}, \varepsilon \sqrt{d}, 1 + \varepsilon$ shows in the cases (a), (b), (c) respectively, where at least one of the exponents $a_1, \ldots, a_t$ is odd.
+
+This means that among the classes $Q$, there are exactly $t - 1$ independent ones; thus Theorem 132 is proved.
+
+We formulate two important consequences of this:
+
+**Theorem 133.** If the discriminant $d$ of $k(\sqrt{d})$ is divisible by a single prime $(t = 1)$, then $h_0$ and hence also $h$ is odd and thus, provided $d > 0$, the norm of the fundamental unit $= -1$.
+
+**Theorem 134.** If $d$ is the product

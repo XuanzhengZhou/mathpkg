@@ -1,0 +1,23 @@
+id: morse-type-numbers-dominate-betti-numbers
+title_en: "Morse Type Numbers Dominate Betti Numbers"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: morse-theory
+difficulty: intermediate
+tags: [morse-function, type-number, betti-number, morse-inequalities]
+depends_on:
+  required: [morse-inequalities, type-number-of-morse-function, betti-numbers-and-homological-euler-characteristic]
+  recommended: []
+  suggested: [perfect-morse-function]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Simplest consequence of Morse inequalities: minimal critical point count"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

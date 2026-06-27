@@ -1,0 +1,3 @@
+Fix a complete $L$-theory $T$. A set $\tau$ of $L$-formulas $P(\bar{x})$ with $n$ free variables $\bar{x} = (x_1, \ldots, x_n)$ is called an \text{$n$-type} (in $T$) if for every $P_1(\bar{x}), \ldots, P_k(\bar{x}) \in \tau$,
+$$T \vDash \exists \bar{x} \bigwedge_{i \leq k} P_i(\bar{x}).$$
+A type $\tau$ is called \text{complete} if for every $P(\bar{x})$, either $P(\bar{x}) \in \tau$ or $\neg P(\bar{x}) \in \tau$. A type $\tau$ is \text{principal} if there exists $P(\bar{x})$ such that $T \vDash \exists \bar{x} P(\bar{x})$ and for all $Q(\bar{x}) \in \tau$, $T \vDash \forall \bar{x}(P(\bar{x}) \rightarrow Q(\bar{x}))$. Such $P$ is called a \text{principal formula} for $\tau$.

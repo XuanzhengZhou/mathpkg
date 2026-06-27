@@ -1,0 +1,10 @@
+Let $\xi_1, \xi_2, \ldots$ be independent identically distributed random variables with a continuous distribution function $F \in \mathbb{F}$, where $\mathbb{F}$ is the class of all continuous distribution functions. For $N \geq 1$, let
+$$F_N(x; \omega) = \frac{1}{N} \sum_{k=1}^{N} I(\xi_k(\omega) \leq x), \quad x \in R,$$
+be the empirical distribution function, and define the Kolmogorov--Smirnov statistics
+$$D_N(\omega) = \sup_{x \in R} |F_N(x; \omega) - F(x)|, \quad D_N^+(\omega) = \sup_{x \in R} \big(F_N(x; \omega) - F(x)\big).$$
+
+Then for any $N \geq 1$, the probability distributions of $D_N(\omega)$ and $D_N^+(\omega)$ are the same for all continuous distribution functions $F \in \mathbb{F}$.
+
+In particular, one may assume without loss of generality that $\xi_1, \xi_2, \ldots$ are uniformly distributed on $[0, 1]$, i.e., $F(x) = U(x) = x$ for $0 \leq x \leq 1$, so that
+$$D_N(\omega) = \sup_{t \in (0,1)} \left| \frac{1}{N} \sum_{i=1}^{N} I(\eta_i \leq t) - t \right|,$$
+where $\eta_1, \ldots, \eta_N$ are i.i.d. $\text{Uniform}[0,1]$ random variables.

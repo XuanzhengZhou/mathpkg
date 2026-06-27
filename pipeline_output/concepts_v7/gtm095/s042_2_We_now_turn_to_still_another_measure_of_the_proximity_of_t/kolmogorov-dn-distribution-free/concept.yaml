@@ -1,0 +1,23 @@
+id: kolmogorov-dn-distribution-free
+title_en: "Kolmogorov's lemma on the distribution-free property of the empirical process supremum"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: mathematical-statistics
+difficulty: advanced
+tags: [kolmogorov-smirnov, empirical-distribution, distribution-free, goodness-of-fit, glivenko-cantelli]
+depends_on:
+  required: [empirical-distribution-function, glivenko-cantelli-theorem, uniform-distribution]
+  recommended: [brownian-bridge, weak-convergence]
+  suggested: [kolmogorov-smirnov-test]
+source_books:
+  - book_id: gtm095
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "13.3"
+    pages: ""
+    role_in_book: "Lemma 1; establishes that the distribution of the Kolmogorov–Smirnov statistic does not depend on the underlying continuous distribution F"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

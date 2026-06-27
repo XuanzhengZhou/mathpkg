@@ -1,0 +1,23 @@
+id: uniform-boundedness-on-open-set
+title_en: "Uniform Boundedness on an Open Set in Baire Spaces"
+title_zh: "Baire 空间开集上的一致有界性"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [baire-space, pointwise-bounded, uniformly-bounded, continuous-functions]
+depends_on:
+  required: [baire-space-definition, baire-category-theorem]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "5"
+    section: "46"
+    pages: ""
+    role_in_book: "Key lemma for the Uniform Boundedness Principle: pointwise boundedness implies local uniform boundedness"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

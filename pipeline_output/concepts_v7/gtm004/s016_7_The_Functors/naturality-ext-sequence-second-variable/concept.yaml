@@ -1,0 +1,23 @@
+id: naturality-ext-sequence-second-variable
+title_en: "Naturality of the Long Exact Ext-Sequence in the Second Variable"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [ext-functor, naturality, long-exact-sequence, second-variable, natural-transformation, commutative-diagram]
+depends_on:
+  required: [ext-functor-via-projectives, long-exact-ext-sequence-second-variable, connecting-homomorphism]
+  recommended: [natural-transformation, commutative-diagram, short-exact-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "II"
+    section: "7. The Functors Ext^n_A Using Projectives"
+    pages: ""
+    role_in_book: "Proposition 7.6: establishes naturality of the long exact Ext sequence with respect to morphisms in both variables simultaneously"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,11 @@
+Let $BL$ denote the set of bounded continuous functions $f = f(x)$, $x \in E$, equipped with the norm
+
+$$\|f\|_{BL} = \|f\|_\infty + \sup_{x \neq y} \frac{|f(x) - f(y)|}{\rho(x, y)}.$$
+
+Define the dual bounded-Lipschitz metric on probability measures by
+
+$$\|P - \tilde{P}\|_{BL}^* = \sup_{\substack{f \in BL \\ \|f\|_{BL} \leq 1}} \left| \int_E f(x) \, P(dx) - \int_E f(x) \, \tilde{P}(dx) \right|.$$
+
+Then this metric metrizes weak convergence:
+
+$$\|P_n - P\|_{BL}^* \to 0 \quad\Longleftrightarrow\quad P_n \xrightarrow{w} P.$$

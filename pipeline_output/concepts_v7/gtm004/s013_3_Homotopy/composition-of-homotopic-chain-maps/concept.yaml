@@ -1,0 +1,23 @@
+id: composition-of-homotopic-chain-maps
+title_en: "Composition of Homotopic Chain Maps"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [chain-complex, homotopy, composition, chain-map]
+depends_on:
+  required: [homotopy-of-chain-maps]
+  recommended: [composition-of-morphisms]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "3. Homotopy"
+    pages: "136-137"
+    role_in_book: "Lemma 3.3. Shows homotopy is compatible with composition, a necessary condition for the homotopy category."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

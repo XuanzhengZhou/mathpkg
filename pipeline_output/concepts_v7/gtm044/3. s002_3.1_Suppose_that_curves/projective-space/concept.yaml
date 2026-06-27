@@ -1,0 +1,23 @@
+id: projective-space
+title_en: "Projective Space"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: intermediate
+tags: ["projective-space", "1-subspace", "projective-subspace", "codimension"]
+depends_on:
+  required: ["vector-space", "linear-subspace"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "1. Projective spaces"
+    pages: ""
+    role_in_book: "Defines n-dimensional projective space over an arbitrary field as the set of 1-subspaces of k^{n+1}."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,1 @@
+The limit superior (limsup) and limit inferior (liminf) capture the asymptotic extremal behavior of a sequence. The limsup is the largest limit point (or $+\infty$ if unbounded above), and the liminf is the smallest limit point. A sequence converges if and only if its limsup equals its liminf.

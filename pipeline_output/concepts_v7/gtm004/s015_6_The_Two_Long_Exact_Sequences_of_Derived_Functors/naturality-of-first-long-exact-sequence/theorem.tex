@@ -1,0 +1,26 @@
+\begin{proposition}[Naturality of the First Long Exact Sequence]
+Let $\tau: T \rightarrow T'$ be a natural transformation between additive covariant functors $T, T': \mathfrak{M}_A \rightarrow \mathfrak{Ub}$ and let the diagram
+\[
+\begin{array}{ccccc}
+A' & \xrightarrow{\mu} & A & \xrightarrow{\varepsilon} & A'' \\
+\downarrow\scriptstyle{\varphi'} & & \downarrow\scriptstyle{\varphi} & & \downarrow\scriptstyle{\varphi''} \\
+B' & \xrightarrow{\nu} & B & \xrightarrow{\eta} & B''
+\end{array}
+\]
+be commutative with short exact rows. Then the following diagram is commutative:
+\[
+\begin{array}{ccccccc}
+\cdots \rightarrow L_n T A' & \xrightarrow{L_n T \mu} & L_n T A & \xrightarrow{L_n T \varepsilon} & L_n T A'' & \xrightarrow{\omega_n} & L_{n-1} T A' & \rightarrow \cdots \\
+\downarrow\scriptstyle{\tau_{A'}} & & \downarrow\scriptstyle{\tau_A} & & \downarrow\scriptstyle{\tau_{A''}} & & \downarrow\scriptstyle{\tau_{A'}} \\
+\cdots \rightarrow L_n T' A' & \xrightarrow{L_n T' \mu} & L_n T' A & \xrightarrow{L_n T' \varepsilon} & L_n T' A'' & \xrightarrow{\omega_n'} & L_{n-1} T' A' & \rightarrow \cdots
+\end{array}
+\]
+and the following diagram is commutative:
+\[
+\begin{array}{ccccccc}
+\cdots \rightarrow L_n T A' & \xrightarrow{L_n T \mu} & L_n T A & \xrightarrow{L_n T \varepsilon} & L_n T A'' & \xrightarrow{\omega_n} & L_{n-1} T A' & \rightarrow \cdots \\
+\downarrow\scriptstyle{L_n T \varphi'} & & \downarrow\scriptstyle{L_n T \varphi} & & \downarrow\scriptstyle{L_n T \varphi''} & & \downarrow\scriptstyle{L_n T \varphi'} \\
+\cdots \rightarrow L_n T B' & \xrightarrow{L_n T \nu} & L_n T B & \xrightarrow{L_n T \eta} & L_n T B'' & \xrightarrow{\bar{\omega}_n} & L_{n-1} T B' & \rightarrow \cdots
+\end{array}
+\]
+\end{proposition}

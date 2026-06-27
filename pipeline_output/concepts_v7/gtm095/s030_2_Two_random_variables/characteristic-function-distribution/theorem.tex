@@ -1,0 +1,15 @@
+Let $F = F(x)$ be an $n$-dimensional distribution function on $(R^n, \mathcal{B}(R^n))$, with $x = (x_1, \ldots, x_n)^*$. Its characteristic function is the Fourier-Stieltjes transform
+
+$$\varphi(t) = \int_{R^n} e^{i(t, x)} \, dF(x), \quad t \in R^n,$$
+
+where $(t, x) = \sum_{k=1}^{n} t_k x_k$ denotes the Euclidean inner product.
+
+If $\xi = (\xi_1, \ldots, \xi_n)^*$ is a random vector with distribution function $F_\xi(x)$, its characteristic function is
+
+$$\varphi_\xi(t) = \int_{R^n} e^{i(t, x)} \, dF_\xi(x) = \mathsf{E}\, e^{i(t, \xi)}, \quad t \in R^n.$$
+
+If $F$ has density $f(x)$, then
+
+$$\varphi(t) = \int_{R^n} e^{i(t, x)} f(x) \, dx,$$
+
+so the characteristic function reduces to the ordinary Fourier transform of the density.

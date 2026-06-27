@@ -1,0 +1,17 @@
+id: module-quotient-of-free-module
+title_en: "Every Module is a Quotient of a Free Module"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [free-module, quotient, generators, epimorphism]
+depends_on:
+  required: []
+  recommended: [free-module, quotient-module]
+  suggested: []
+source_books:
+  - {book_id: "gtm004", author: "P.J. Hilton and U. Stammbach", title: "A Course in Homological Algebra", chapter: "I. Modules", section: "4. Free and Projective Modules", pages: "", role_in_book: "Shows that every module admits a free presentation; fundamental for constructing projective resolutions."}
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

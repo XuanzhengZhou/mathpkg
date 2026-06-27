@@ -1,0 +1,23 @@
+id: universal-enveloping-algebra
+title_en: "Universal Enveloping Algebra"
+title_zh: "泛包络代数"
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [universal-enveloping-algebra, lie-algebra, tensor-algebra, adjoint-functor]
+depends_on:
+  required: [lie-algebra, tensor-algebra]
+  recommended: [associative-algebra, quotient-algebra, adjoint-functor]
+  suggested: [birkhoff-witt-theorem]
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Central construction linking Lie algebras to associative algebras, enabling module theory"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

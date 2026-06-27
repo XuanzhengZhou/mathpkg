@@ -1,0 +1,23 @@
+id: product-normality-failure-counterexample
+title_en: "Product of Normal and Compact Hausdorff May Not Be Normal"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: product-spaces
+difficulty: advanced
+tags: ["normality", "product-space", "counterexample", "compact", "locally-compact"]
+depends_on:
+  required: ["normal-space", "product-space", "compact-space", "locally-compact-space"]
+  recommended: ["ordinal-space"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "Problems"
+    pages: "163-164"
+    role_in_book: "Problem 5.K. The product of a locally compact normal Hausdorff space and a compact Hausdorff space may fail to be normal. Example uses ordinal spaces."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: weak-topology-function-spaces
+title_en: "Weak Topology on C^r(M,N)"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [function-space, weak-topology, compact-open]
+depends_on:
+  required: [cr-manifold]
+  recommended: []
+  suggested: [strong-topology-function-spaces]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2"
+    section: "1. The Weak and Strong Topologies on C^r(M,N)"
+    pages: ""
+    role_in_book: "Defines the compact-open style topology on function spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

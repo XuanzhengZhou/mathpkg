@@ -1,0 +1,23 @@
+id: hilbert-basis-theorem
+title_en: "Hilbert Basis Theorem"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ring-theory
+difficulty: intermediate
+tags: [hilbert, noetherian, polynomial-ring, basis-theorem, finite-generation]
+depends_on:
+  required: [ascending-chain-condition-for-rings, basis-of-an-ideal]
+  recommended: [acc-equivalent-to-finite-basis]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "3"
+    section: "3.5"
+    pages: ""
+    role_in_book: "Theorem 3.5 — the fundamental result that Noetherianity is preserved under polynomial extension"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

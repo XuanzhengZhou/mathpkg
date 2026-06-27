@@ -1,0 +1,23 @@
+id: baires-theorem-category-form
+title_en: "Baire's Theorem (Category Form)"
+title_zh: "贝尔定理（纲形式）"
+type: theorem
+domain: topology
+subdomain: metric-spaces
+difficulty: intermediate
+tags: [baire, meager, first-category, complete-metric-space, dense]
+depends_on:
+  required: [meager-set, complete-metric-space]
+  recommended: [nowhere-dense-set]
+  suggested: [baires-theorem]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "FOR METRIC SPACES ONLY"
+    pages: ""
+    role_in_book: "Restatement of Baire's theorem in category terminology; the complement of a meager set in a complete metric space is dense"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

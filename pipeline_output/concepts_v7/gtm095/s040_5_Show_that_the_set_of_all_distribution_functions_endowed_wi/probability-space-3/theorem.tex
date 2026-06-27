@@ -1,0 +1,21 @@
+$$d_{\mathbb{P}}(X, Y) = \inf \{ \varepsilon > 0 : \mathbb{P} \left\{ \rho(X(\omega), Y(\omega)) \geq \varepsilon \right\} \leq \varepsilon \}. \tag{2}$$
+
+Remark 3. Whereas the definitions of convergence in probability and with probability one presume that all the random elements are defined on the same probability space, the definition $X_n \xrightarrow{\mathcal{D}} X$ of convergence in distribution is connected only with the convergence of distributions, and consequently, we may suppose that $X(\omega), X_1(\omega), X_2(\omega), \ldots$ have values in the same space $E$, but may be defined on “their own” probability spaces $(\Omega, \mathcal{F}, \mathbb{P}), (\Omega_1, \mathcal{F}_1, \mathbb{P}_1), (\Omega_2, \mathcal{F}_2, \mathbb{P}_2), \ldots$. However, without loss of generality we may always suppose that they are defined on the same probability space, taken as the direct product of the underlying spaces and with the definitions $X(\omega, \omega_1, \omega_2, \ldots) = X(\omega), X_1(\omega, \omega_1, \omega_2, \ldots) = X_1(\omega_1), \ldots$.
+
+2. By Definition 1 and the theorem on change of variables under the Lebesgue integral sign (Theorem 7 of Sect. 6, Chap. 2)
+
+$$X_n \xrightarrow{\mathcal{D}} X \Leftrightarrow \mathbb{E}f(X_n) \rightarrow \mathbb{E}f(X) \tag{3}$$
+
+for every bounded continuous function $f = f(x)$, $x \in E$.
+
+From (3) it is clear that, by Lebesgue’s theorem on dominated convergence (Theorem 3 of Sect. 6, Chap. 2), the limit $X_n \xrightarrow{\text{a.s.}} X$ immediately implies the limit $X_n \xrightarrow{\mathcal{D}} X$, which is
+
+$X^*_n \xrightarrow{a.s.} X^*$
+
+and
+
+$P^* = P, \quad P^*_n = P_n, \quad n \geq 1,$
+
+where $P^*$ and $P^*_n$ are the probability distributions of $X^*$ and $X^*_n$.
+
+Before turning to the proof, we first notice that it is enough to prove only the second conclusion, since the first follows from it if we take $P$ and $P_n$ to be the distributions of $X$ and $X_n$. Similarly, the second conclusion follows from the first. Second, we notice that the proof of the theorem in full generality is technically rather complicated. For this reason, here we give a proof only of the case $E = R$. This proof is rather transparent and moreover, provides a simple, clear construction of the required objectives. (Unfortunately, this construction does not work in the general case, even for $E = R^2$.)

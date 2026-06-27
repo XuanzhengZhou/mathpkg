@@ -1,0 +1,23 @@
+id: derived-category
+title_en: "Derived Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [derived-category, localization, quasi-isomorphism, triangulated-category, verdier]
+depends_on:
+  required: [triangulated-category, homotopy-category, quasi-isomorphism, localization-of-categories]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "5. Stable and Derived Categories"
+    pages: "360-376"
+    role_in_book: "Definition: The derived category is the localization of the homotopy category at quasi-isomorphisms"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: net
+title_en: "Net"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: nets-and-convergence
+difficulty: intermediate
+tags: ["net", "directed-set", "Moore-Smith-convergence", "generalized-sequence"]
+depends_on:
+  required: ["directed-set", "function"]
+  recommended: ["sequence", "convergence-of-net"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "2"
+    section: "Directed Sets and Nets"
+    pages: "81-87"
+    role_in_book: "Introduces nets as the fundamental generalization of sequences, enabling convergence theory in arbitrary topological spaces."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

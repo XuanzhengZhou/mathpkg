@@ -1,0 +1,23 @@
+id: approximate-identity-distributions
+title_en: "Approximation of Periodic Distributions by Smooth Functions"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: fourier-analysis
+difficulty: advanced
+tags: [approximate-identity, distributions, convolution, approximation, trigonometric-polynomials]
+depends_on:
+  required: [convolution-distribution-smooth-function, approximate-identity, periodic-distributions]
+  recommended: [convolution-distribution-convergence]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "7"
+    section: "7. Convolution of distributions"
+    pages: ""
+    role_in_book: "Proves that every periodic distribution can be approximated by smooth functions via convolution with an approximate identity"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

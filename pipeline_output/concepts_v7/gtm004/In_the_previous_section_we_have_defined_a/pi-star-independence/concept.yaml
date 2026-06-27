@@ -1,0 +1,23 @@
+id: pi-star-independence
+title_en: "Independence of the Induced Map on Ext from the Lifting"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [ext-functor, projective-presentation, natural-transformation, induced-map]
+depends_on:
+  required: [ext-via-projective-presentation]
+  recommended: [projective-presentation, hom-functor, natural-transformation]
+  suggested: [bifunctor]
+source_books:
+  - book_id: "gtm004"
+    author: "Hilton, P. J.; Stammbach, U."
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "2"
+    pages: "100-101"
+    role_in_book: "Lemma 2.1 — shows the induced map Ext^e(A,B) → Ext^e(A',B) depends only on α: A' → A, not on the lifting π"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

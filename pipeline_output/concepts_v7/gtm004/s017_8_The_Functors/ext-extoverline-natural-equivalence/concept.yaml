@@ -1,0 +1,23 @@
+id: ext-extoverline-natural-equivalence
+title_en: "Natural Equivalence of Ext_A^n and \overline{\operatorname{Ext}}_A^n"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [Ext-functor, natural-equivalence, balanced-functor, derived-functor]
+depends_on:
+  required: [ext-via-projectives, ext-overline-via-injectives]
+  recommended: [natural-transformation, derived-functor-universal-property]
+  suggested: [connecting-homomorphism]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra (2nd ed.)"
+    chapter: "8. The Functors \overline{\operatorname{Ext}}_A^n Using Injectives"
+    section: "8"
+    pages: ""
+    role_in_book: "Proposition 8.1 — proves that the two definitions of Ext (via projectives and via injectives) coincide via a natural equivalence, establishing Ext as a balanced bifunctor."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

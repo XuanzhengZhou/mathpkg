@@ -1,0 +1,23 @@
+id: projection-of-open-set
+title_en: "Projection of an Open Set is Open"
+title_zh: "开集的投影是开集"
+type: theorem
+domain: topology
+subdomain: product-spaces
+difficulty: basic
+tags: [projection, open-set, open-mapping, product-topology]
+depends_on:
+  required: []
+  recommended: [product-topology-arbitrary, projection-maps, open-set]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "3"
+    section: "Product Spaces"
+    pages: ""
+    role_in_book: "Shows that projections are open mappings in the product topology"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,9 @@
+Let $D$ be a dense subset of the positive real numbers. For each $t \in D$, let $F_t$ be a subset of a set $X$ such that:
+\begin{enumerate}
+\item[(a)] If $t < s$, then $F_t \subset F_s$;
+\item[(b)] $\bigcup \{F_t : t \in D\} = X$.
+\end{enumerate}
+For $x \in X$, define $f(x) = \inf \{t : x \in F_t\}$. Then for each real number $s$:
+$$\{x : f(x) < s\} = \bigcup \{F_t : t \in D \text{ and } t < s\}$$
+and
+$$\{x : f(x) \leq s\} = \bigcap \{F_t : t \in D \text{ and } t > s\}.$$

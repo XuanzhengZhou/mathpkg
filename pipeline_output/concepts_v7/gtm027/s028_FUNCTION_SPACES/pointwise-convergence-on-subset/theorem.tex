@@ -1,0 +1,9 @@
+Let $F$ be a family of functions, each on a set $X$ to a topological space $Y$, and let $A \subset X$. Let $R : F \to Y^A$ be the restriction map sending each $f \in F$ to its restriction $f|_A$. The \textbf{topology of pointwise convergence on $A$}, denoted $\wp_A$, is the smallest topology on $F$ such that $R$ is continuous. It consists of the inverse images under $R$ of the open subsets of $Y^A$ (with the product topology).
+
+A subbase for $\wp_A$ is the family of all sets of the form
+$$\{f \in F : f(x) \in U\}$$
+where $x \in A$ and $U$ is open in $Y$.
+
+A net $\{f_n, n \in D\}$ in $F$ converges to $g \in F$ relative to $\wp_A$ if and only if $\{f_n(x), n \in D\}$ converges to $g(x)$ in $Y$ for each $x \in A$.
+
+When $A = X$, the topology $\wp_X$ coincides with the full pointwise topology $\wp$.

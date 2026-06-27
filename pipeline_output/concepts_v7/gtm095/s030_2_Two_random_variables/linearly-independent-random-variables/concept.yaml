@@ -1,0 +1,23 @@
+id: linearly-independent-random-variables
+title_en: "Linearly Independent Random Variables"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: L2-theory
+difficulty: basic
+tags: [linear-independence, random-variables, L2-space, covariance-matrix]
+depends_on:
+  required: []
+  recommended: [L2-space]
+  suggested: [gram-schmidt-orthogonalization-random-variables]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "Defines linear independence for random variables and its equivalent via the Gram determinant"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

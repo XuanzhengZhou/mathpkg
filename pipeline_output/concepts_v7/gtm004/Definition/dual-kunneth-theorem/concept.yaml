@@ -1,0 +1,23 @@
+id: dual-kunneth-theorem
+title_en: "Dual Künneth Theorem"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [dual-kunneth-theorem, hom-complex, homology, ext, pid, universal-coefficient-theorem]
+depends_on:
+  required: [hom-complex, homology, ext-functor]
+  recommended: [kunneth-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "V"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 3.1: dual Künneth formula for homology of Hom complex"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

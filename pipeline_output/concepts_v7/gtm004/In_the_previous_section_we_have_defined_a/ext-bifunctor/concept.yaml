@@ -1,0 +1,23 @@
+id: ext-bifunctor
+title_en: "Ext is a Bifunctor"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [ext-functor, bifunctor, contravariant, covariant, abelian-category]
+depends_on:
+  required: [ext-projective-natural-equivalence, pi-star-independence]
+  recommended: [ext-via-projective-presentation, bifunctor]
+  suggested: [derived-functor, hom-functor]
+source_books:
+  - book_id: "gtm004"
+    author: "Hilton, P. J.; Stammbach, U."
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "2"
+    pages: "101-102"
+    role_in_book: "Theorem 2.3 — establishes Ext as a bifunctor, contravariant in the first and covariant in the second argument"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

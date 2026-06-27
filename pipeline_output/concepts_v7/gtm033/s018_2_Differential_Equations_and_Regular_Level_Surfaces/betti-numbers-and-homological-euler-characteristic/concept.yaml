@@ -1,0 +1,23 @@
+id: betti-numbers-and-homological-euler-characteristic
+title_en: "Betti Numbers and Homological Euler Characteristic"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [betti-number, euler-characteristic, homology, singular-homology]
+depends_on:
+  required: [singular-homology, vector-space, field]
+  recommended: [relative-homology]
+  suggested: [morse-inequalities, hopf-theorem]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Defines the topological invariants constrained by Morse type numbers"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

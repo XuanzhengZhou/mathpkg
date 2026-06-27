@@ -1,0 +1,13 @@
+Let $\xi_1, \xi_2, \ldots$ be a sequence of independent identically distributed random variables with
+$$E\xi_k = 0, \quad \text{Var}\,\xi_k = \sigma^2 > 0, \quad E|\xi_1|^3 < \infty.$$
+Let
+$$S_n = \frac{\xi_1 + \cdots + \xi_n}{\sigma\sqrt{n}}, \quad F_n(x) = P(S_n \leq x),$$
+and let $\Phi(x)$ be the standard normal distribution function.
+
+Then there exists an absolute constant $C > 0$ such that for all $n \geq 1$,
+$$\sup_{x \in R} |F_n(x) - \Phi(x)| \leq C \cdot \frac{E|\xi_1|^3}{\sigma^3 \sqrt{n}}.$$
+
+The optimal constant satisfies $0.4097 < C < 0.469$. With $\beta_3 = E|\xi_1|^3$, the proof uses the smoothing inequality: for any $T > 0$,
+$$\sup_x |F_n(x) - \Phi(x)| \leq \frac{1}{\pi} \int_{-T}^{T} \left|\frac{f_n(t) - \varphi(t)}{t}\right| dt + \frac{24}{\pi T},$$
+where $f_n(t) = E e^{itS_n}$ and $\varphi(t) = e^{-t^2/2}$, together with the estimate
+$$|f_n(t) - \varphi(t)| \leq \frac{7}{6} \frac{\beta_3}{\sqrt{n}} |t|^3 e^{-t^2/4}, \quad |t| \leq T = \frac{\sqrt{n}}{5\beta_3}.$$

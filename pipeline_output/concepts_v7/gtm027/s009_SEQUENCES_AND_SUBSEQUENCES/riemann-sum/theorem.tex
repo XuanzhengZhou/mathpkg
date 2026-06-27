@@ -1,0 +1,10 @@
+Let $f$ be a bounded real-valued function on $[a,b]$. A choice function for a subdivision $S$ is a function $c$ on $S$ such that $c(I) \in I$ for each $I \in S$. The Riemann sum for a subdivision $S$ and choice function $c$ is:
+$$R_f(S, c) = \sum\{|I| \, f(c(I)) : I \in S\}.$$
+
+The set of all pairs $(S, c)$, where $S$ is a subdivision and $c$ is a choice function for $S$, is directed in two ways:
+\begin{enumerate}
+\item[(i)] $(S, c) \geq (S', c')$ if $S$ is a refinement of $S'$ (refinement direction);
+\item[(ii)] $(S, c) \gg (S', c')$ if $\|S\| \leq \|S'\|$ (mesh direction), where $\|S\| = \max\{|I| : I \in S\}$.
+\end{enumerate}
+
+The net $(R_f, \gg)$ is a subnet of $(R_f, \geq)$. The limit of $(R_f, \gg)$ exists if and only if $\lim (D_f, \geq) = \lim (d_f, \geq)$, and in this case both limits agree.

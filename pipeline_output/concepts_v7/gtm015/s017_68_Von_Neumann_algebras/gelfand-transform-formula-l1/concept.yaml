@@ -1,0 +1,23 @@
+id: gelfand-transform-formula-l1
+title_en: "Gel'fand transform formula for L^1(G)"
+title_zh: "L^1(G)的Gel'fand变换公式"
+type: proposition
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: advanced
+tags: [gelfand-transform, lca-group, fourier-transform, character]
+depends_on:
+  required: []
+  recommended: [gelfand-transform, lca-group, character, maximal-ideal-space]
+  suggested: [pontryagin-duality, fourier-transform]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "70"
+    section: "The character group of an LCA group"
+    pages: "318-319"
+    role_in_book: "Proposition (70.8) giving the explicit Gel'fand transform formula"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

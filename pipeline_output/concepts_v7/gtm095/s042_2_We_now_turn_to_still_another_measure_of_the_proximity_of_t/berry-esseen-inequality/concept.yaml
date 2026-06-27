@@ -1,0 +1,23 @@
+id: berry-esseen-inequality
+title_en: "Berry–Esseen inequality for the rate of convergence in the Central Limit Theorem"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: limit-theorems
+difficulty: advanced
+tags: [central-limit-theorem, berry-esseen, convergence-rate, characteristic-function, normal-distribution]
+depends_on:
+  required: [central-limit-theorem, characteristic-function, normal-distribution]
+  recommended: [lyapunov-inequality, holder-inequality]
+  suggested: []
+source_books:
+  - book_id: gtm095
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "11.1"
+    pages: ""
+    role_in_book: "Theorem; provides the optimal uniform bound for the rate of convergence in the CLT for i.i.d. summands"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

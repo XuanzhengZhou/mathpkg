@@ -1,0 +1,23 @@
+id: idempotents-and-supplementary-subspaces
+title_en: "Idempotent Linear Maps Yield Supplementary Subspaces"
+title_zh: "幂等线性映射给出补子空间"
+type: proposition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [idempotent, projector, supplementary-subspace, direct-sum]
+depends_on:
+  required: [algebraic-supplementary-subspace, projector-associated-with-supplementary-subspaces]
+  recommended: [linear-map, kernel, image]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "I. Topological Vector Spaces"
+    section: "20. Topologically supplementary subspaces"
+    pages: ""
+    role_in_book: "converse-proposition"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

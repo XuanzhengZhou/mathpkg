@@ -1,0 +1,23 @@
+id: bezouts-theorem
+title_en: "Bézout's theorem"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [bezout, intersection-multiplicity, projective-plane, degree, algebraic-curves]
+depends_on:
+  required: [intersection-multiplicity]
+  recommended: [dimension-relation-for-intersections]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "I"
+    section: "3"
+    pages: ""
+    role_in_book: "central theorem relating intersection degree to product of curve degrees"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

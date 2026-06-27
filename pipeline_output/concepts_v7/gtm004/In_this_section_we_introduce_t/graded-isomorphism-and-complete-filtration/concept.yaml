@@ -1,0 +1,23 @@
+id: graded-isomorphism-and-complete-filtration
+title_en: "Isomorphism from Graded Isomorphism and Complete Filtration"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [filtered-object, complete-filtration, associated-graded, isomorphism]
+depends_on:
+  required: [complete-filtration-in-abelian-category, filtered-object]
+  recommended: [completeness-limit-characterization]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "8. Completions of Filtrations"
+    pages: ""
+    role_in_book: "Theorem 8.4; main theorem of Section 8, gives conditions for inferring H(C) ≅ H(C') from E_∞ ≅ E_∞'"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

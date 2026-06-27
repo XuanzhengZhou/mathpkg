@@ -1,0 +1,23 @@
+id: g-module
+title_en: "G-Module (Module over Group Ring)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: ["G-module", "group-action", "ZG-module", "representation"]
+depends_on:
+  required: ["integral-group-ring"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Equivalence between G-modules and ZG-modules"
+content_hash: "a8291c77d401"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

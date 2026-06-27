@@ -1,0 +1,22 @@
+id: uniqueness-of-identities
+title_en: "Uniqueness of Additive and Multiplicative Identities and Inverses"
+title_zh: "加法与乘法单位元及逆元的唯一性"
+type: lemma
+domain: algebra
+subdomain: field-properties
+difficulty: basic
+depends_on:
+  required: [additive-identity, additive-inverse, multiplicative-identity, multiplicative-inverse]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "1"
+    section: "2. Real and complex numbers"
+    pages: ""
+    role_in_book: "Note: '1 and x^{-1} are unique'; proof left as exercise"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

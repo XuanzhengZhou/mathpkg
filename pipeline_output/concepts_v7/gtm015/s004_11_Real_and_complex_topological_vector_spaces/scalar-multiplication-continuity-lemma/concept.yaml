@@ -1,0 +1,23 @@
+id: scalar-multiplication-continuity-lemma
+title_en: "Scalar Multiplication Continuity Lemma for Metrizable TVS"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [TVS, metrizable, scalar-multiplication, continuity, F-space]
+depends_on:
+  required: [topological-vector-space, tvs-compatibility-conditions]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "Chapter 2 – Topological Vector Spaces"
+    section: "13. Spaces of type (F)"
+    pages: ""
+    role_in_book: "Key technical lemma proving that separate continuity implies joint continuity for scalar multiplication in metrizable spaces."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

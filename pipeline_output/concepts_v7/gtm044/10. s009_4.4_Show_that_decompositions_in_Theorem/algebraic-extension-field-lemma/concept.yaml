@@ -1,0 +1,25 @@
+id: algebraic-extension-field-lemma
+title_en: "Lemma on Algebraic Elements in Field Extensions"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: field-theory
+difficulty: intermediate
+tags: [field-extension, algebraic-element, transcendental, polynomial-ring, induction]
+depends_on:
+  required: [algebraic-element, field-extension, transcendental-element]
+  recommended: [integral-dependence]
+  suggested: []
+
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "6"
+    section: "6.1"
+    pages: ""
+    role_in_book: "Key lemma used in the proof of the Nullstellensatz"
+
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

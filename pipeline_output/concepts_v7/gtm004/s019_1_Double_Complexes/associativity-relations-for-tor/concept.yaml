@@ -1,0 +1,30 @@
+id: associativity-relations-for-tor
+title_en: Associativity Relations for Tor
+title_zh: ''
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags:
+- Tor
+- associativity
+- tensor-product
+- abelian-groups
+depends_on:
+  required:
+  - kunneth-theorem
+  - tor-functor
+  recommended:
+  - associativity-of-tensor-product-of-chain-complexes
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 4. Applications of the Künneth Formulas
+  pages: ''
+  role_in_book: derives associativity properties of Tor from the Künneth theorem
+content_hash: 9d12a2217195fe3c
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

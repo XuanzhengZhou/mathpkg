@@ -1,0 +1,23 @@
+id: collar-restricts-to-neat-submanifold
+title_en: "Collar Restriction for Neat Submanifolds"
+title_zh: "领口在整齐子流形上的限制"
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [collar, neat-submanifold, manifold-boundary, restriction]
+depends_on:
+  required: [collar, collar-theorem, neat-submanifold]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm033
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "6. Collars and Tubular Neighborhoods of Neat Submanifolds"
+    pages: ""
+    role_in_book: "Theorem 6.2 - Refinement of collar theorem for neat submanifold pairs"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

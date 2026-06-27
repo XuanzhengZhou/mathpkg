@@ -1,0 +1,23 @@
+id: lebesgue-stieltjes-measure
+title_en: "Lebesgue-Stieltjes measure"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: measure-theory
+difficulty: intermediate
+tags: [lebesgue-stieltjes, measure, distribution-function, real-line, borel]
+depends_on:
+  required: [generalized-distribution-function, caratheodory-extension-theorem]
+  recommended: [lebesgue-measure-completion]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "Shiryaev, A.N."
+    title: "Probability-1"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines Lebesgue-Stieltjes measures as countably additive measures finite on bounded intervals"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

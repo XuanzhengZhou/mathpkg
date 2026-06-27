@@ -1,0 +1,23 @@
+id: induced-vector-bundle
+title_en: "Induced Vector Bundle (Pullback)"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundle, pullback, induced-bundle, fibred-product]
+depends_on:
+  required: [vector-bundle]
+  recommended: [vector-bundle-morphism]
+  suggested: [fibre-product, classifying-space]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "4.2"
+    pages: ""
+    role_in_book: "Defines the pullback construction, fundamental for classification of vector bundles"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

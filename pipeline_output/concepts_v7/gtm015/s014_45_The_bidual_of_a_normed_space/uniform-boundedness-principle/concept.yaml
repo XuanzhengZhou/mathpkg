@@ -1,0 +1,23 @@
+id: uniform-boundedness-principle
+title_en: "The Uniform Boundedness Principle"
+title_zh: "一致有界原理"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [uniform-boundedness-principle, banach-steinhaus, pointwise-bounded, operator-norm]
+depends_on:
+  required: [baire-category-theorem, uniform-boundedness-on-open-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "5"
+    section: "47"
+    pages: ""
+    role_in_book: "Core theorem of functional analysis: pointwise boundedness of continuous linear operators implies uniform boundedness of operator norms"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: approximation-by-simple-random-variables
+title_en: "Approximation of Random Variables by Simple Functions"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: random-variables
+difficulty: intermediate
+tags: [simple-function, approximation, random-variable, monotone-convergence, dyadic]
+depends_on:
+  required: [random-variable-measurable-function, simple-random-variable]
+  recommended: [pointwise-convergence]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "4"
+    section: "3"
+    pages: ""
+    role_in_book: "foundational approximation theorem used to define expectation"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

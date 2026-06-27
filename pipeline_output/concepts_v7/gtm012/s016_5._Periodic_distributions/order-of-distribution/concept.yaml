@@ -1,0 +1,23 @@
+id: order-of-distribution
+title_en: "Order of a Periodic Distribution"
+title_zh: "周期分布的阶"
+type: definition
+domain: analysis
+subdomain: distribution-theory
+difficulty: advanced
+tags: [distribution, order, seminorm, periodic]
+depends_on:
+  required: [periodic-distribution, derivative-of-distribution]
+  recommended: []
+  suggested: [seminorm, locally-convex-space]
+source_books:
+  - book_id: "gtm012"
+    author: ""
+    title: "Advanced Mathematical Analysis"
+    chapter: ""
+    section: "6. Determining the periodic distributions"
+    pages: ""
+    role_in_book: "classification of distributions by order of regularity"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

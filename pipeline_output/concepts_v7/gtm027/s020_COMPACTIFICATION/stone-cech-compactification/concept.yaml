@@ -1,0 +1,23 @@
+id: stone-cech-compactification
+title_en: "Stone-Čech Compactification"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: compactification
+difficulty: advanced
+tags: [stone-cech, compactification, tychonoff, evaluation-map, cube]
+depends_on:
+  required: [compactification-pair-definition, tychonoff-space, tychonoff-theorem, evaluation-map]
+  recommended: [compactification-partial-order]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "Compactification"
+    pages: ""
+    role_in_book: "Definition of the Stone-Čech compactification via the evaluation map into a cube"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

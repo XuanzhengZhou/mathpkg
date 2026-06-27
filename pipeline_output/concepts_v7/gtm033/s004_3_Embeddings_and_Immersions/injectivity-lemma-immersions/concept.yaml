@@ -1,0 +1,23 @@
+id: injectivity-lemma-immersions
+title_en: "Local Injectivity Lemma for Immersions"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [immersion, injectivity, local-homeomorphism]
+depends_on:
+  required: [immersion]
+  recommended: [inverse-function-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm033
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2. Function Spaces"
+    section: "2.1"
+    pages: ""
+    role_in_book: "Key lemma used in the proof that embeddings are open in the strong topology (Theorem 1.4)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

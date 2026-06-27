@@ -1,0 +1,23 @@
+id: even-cover
+title_en: "Even Cover"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: uniform-spaces
+difficulty: intermediate
+tags: [even-cover, diagonal, refinement, uniform]
+depends_on:
+  required: [open-cover, product-topology, refinement]
+  recommended: [lebesgue-covering-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "Lebesgue's Covering Lemma"
+    pages: ""
+    role_in_book: "Definition of an even cover via neighborhoods of the diagonal"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

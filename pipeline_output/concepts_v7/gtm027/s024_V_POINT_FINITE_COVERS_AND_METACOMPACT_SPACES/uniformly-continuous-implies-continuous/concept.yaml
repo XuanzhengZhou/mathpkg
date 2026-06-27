@@ -1,0 +1,23 @@
+id: uniformly-continuous-implies-continuous
+title_en: "Uniformly Continuous Implies Continuous"
+title_zh: "一致连续蕴含连续"
+type: theorem
+domain: topology
+subdomain: uniform-spaces
+difficulty: basic
+tags: [uniformly-continuous, continuous, uniform-topology, uniform-isomorphism, homeomorphism]
+depends_on:
+  required: [uniformly-continuous-function, uniform-topology]
+  recommended: [continuous-function, uniform-isomorphism, homeomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Uniform Spaces"
+    pages: ""
+    role_in_book: "Theorem 9: uniform continuity implies continuity; uniform isomorphisms are homeomorphisms"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

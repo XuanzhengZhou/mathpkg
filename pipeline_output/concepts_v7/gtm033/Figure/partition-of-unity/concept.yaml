@@ -1,0 +1,23 @@
+id: partition-of-unity
+title_en: "C^r Partition of Unity"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: basic
+tags: [partition-of-unity, bump-function, smooth-structure, gluing]
+depends_on:
+  required: [manifold, smooth-function, support-of-function]
+  recommended: [locally-finite-cover, bump-function]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2"
+    section: "2. Approximations"
+    pages: ""
+    role_in_book: "Fundamental definition: partitions of unity are the primary tool for gluing locally defined constructions into global ones on a manifold."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

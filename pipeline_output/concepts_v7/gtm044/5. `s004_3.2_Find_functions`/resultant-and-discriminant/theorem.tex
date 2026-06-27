@@ -1,0 +1,16 @@
+For polynomials $f(X) = a_0 X^m + \cdots + a_m$ and $g(X) = b_0 X^n + \cdots + b_n$ over a domain $D$, consider the homogeneous linear system arising from equating coefficients in $fG = gF$ with $\deg F < m$, $\deg G < n$. The determinant of the $(m+n) \times (m+n)$ coefficient matrix (with $n$ rows of $a$-entries and $m$ rows of $b$-entries) is called the **resultant of $f$ and $g$**, denoted $\mathcal{R}(f, g)$.
+
+If $f, g \in D[X_1, \ldots, X_t]$, then for any $i$,
+$$f, g \in D[X_1, \ldots, X_{i-1}, X_{i+1}, \ldots, X_t][X_i] = D'[X_i];$$
+the corresponding resultant is called the **resultant of $f$ and $g$ with respect to $X_i$**, denoted $\mathcal{R}_{X_i}(f, g)$.
+
+For any $f \in D[X]$, the formal derivative $df/dX \in D[X]$ is defined by
+$$\frac{d(au)}{dX} = a \frac{du}{dX}, \quad \frac{d(uv)}{dX} = u \frac{dv}{dX} + v \frac{du}{dX} \quad (a \in D, u, v \in D[X]).$$
+
+The resultant $\mathcal{R}(f, f')$ of $f \in D[X]$ and its derivative $f' = df/dX$ is called the **discriminant of $f$**, denoted $\mathcal{D}(f)$.
+
+If $f \in D[X_1, \ldots, X_t]$, then $\mathcal{R}_{X_i}(f, \partial f/\partial X_i)$ is called the **discriminant of $f$ with respect to $X_i$**, denoted $\mathcal{D}_{X_i}(f)$.
+
+If $f \in \mathbb{C}[X_1, \ldots, X_t]$, then the variety
+$$V(\mathcal{D}_{X_i}(f)) \subset \mathbb{C}_{X_1, \ldots, X_{i-1}, X_{i+1}, \ldots, X_t} = \mathbb{C}^{t-1}$$
+is called the **discriminant variety of $f$ with respect to $X_i$**.

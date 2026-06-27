@@ -1,0 +1,23 @@
+id: topological-algebra
+title_en: "Topological Algebra"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: topological-algebra
+difficulty: basic
+tags: [algebra, topology, continuity, topological-vector-space, topological-ring]
+depends_on:
+  required: [topological-vector-space, topological-ring]
+  recommended: [algebra-over-field, topological-field]
+  suggested: [banach-algebra, operator-algebra]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "1"
+    section: "1. Topological algebraic structures"
+    pages: ""
+    role_in_book: "Definition completing the hierarchy of topological algebraic structures"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

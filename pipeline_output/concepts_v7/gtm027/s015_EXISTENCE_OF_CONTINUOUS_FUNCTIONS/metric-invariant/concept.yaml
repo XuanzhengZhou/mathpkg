@@ -1,0 +1,23 @@
+id: metric-invariant
+title_en: "Metric Invariant"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: metric-spaces
+difficulty: basic
+tags: ["metric-invariant", "isometry", "metric-space", "topological-invariant"]
+depends_on:
+  required: ["metric-space", "pseudo-metric-space", "isometry"]
+  recommended: ["topological-invariant"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "4"
+    section: "Existence of Continuous Functions; Metric Spaces"
+    pages: "118-130"
+    role_in_book: "Defines a metric invariant as a property preserved by isometries. Contrasts with topological invariants: e.g., finite diameter is metric but not topological."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

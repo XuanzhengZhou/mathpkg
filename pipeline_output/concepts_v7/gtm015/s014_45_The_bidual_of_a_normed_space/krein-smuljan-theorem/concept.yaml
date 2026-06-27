@@ -1,0 +1,23 @@
+id: krein-smuljan-theorem
+title_en: "The Krein-Smuljan Theorem"
+title_zh: "Krein-Smuljan 定理"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [weak-star-closed, convex-set, dual-space, krein-smuljan]
+depends_on:
+  required: [weak-star-topology, convex-set, banach-alaoglu-theorem]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "4"
+    section: "44"
+    pages: ""
+    role_in_book: "Characterizes weak* closed convex sets in the dual of a Banach space"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: ext1-natural-equivalence-condition
+title_en: "Characterization of Natural Equivalences between Ext^1 Functors"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [Ext1, natural-equivalence, projective-module, Yoneda]
+depends_on:
+  required: [ext-functor, natural-transformation, projective-module]
+  recommended: [ext-derived-functor-characterization]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "10"
+    pages: ""
+    role_in_book: "Classification of natural equivalences between Ext^1 functors — Theorem 10.4"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

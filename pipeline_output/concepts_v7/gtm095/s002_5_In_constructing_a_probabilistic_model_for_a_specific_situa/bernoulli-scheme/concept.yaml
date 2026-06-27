@@ -1,0 +1,23 @@
+id: bernoulli-scheme
+title_en: "Bernoulli Scheme"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: discrete-distributions
+difficulty: basic
+tags: [bernoulli, binomial, coin-toss, independent-trials]
+depends_on:
+  required: [discrete-probability-space]
+  recommended: [binomial-distribution]
+  suggested: [multinomial-distribution]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "5"
+    pages: ""
+    role_in_book: "Definition of the Bernoulli scheme as the probabilistic model for n independent coin tosses with success probability p"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

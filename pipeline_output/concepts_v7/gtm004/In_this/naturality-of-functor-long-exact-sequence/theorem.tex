@@ -1,0 +1,18 @@
+Let $\alpha: A \rightarrow A'$ be a homomorphism of $A$-modules and let
+$$\begin{CD}
+T' @>{\tau'}>> T @>{\tau''}>> T'' \\
+@V{\varphi'}VV @V{\varphi}VV @V{\varphi''}VV \\
+S' @>{\sigma'}>> S @>{\sigma''}>> S''
+\end{CD}$$
+be a commutative diagram of additive functors and natural transformations such that the rows are exact on projectives. Then the following diagrams are commutative:
+$$\begin{CD}
+\cdots @>>> L_n T' A @>{L_n \tau'}>> L_n T A @>{L_n \tau''}>> L_n T'' A @>{\omega_n}>> L_{n-1} T' A @>>> \cdots \\
+@. @V{L_n \varphi'}VV @V{L_n \varphi}VV @V{L_n \varphi''}VV @V{L_n \varphi'}VV @. \\
+\cdots @>>> L_n S' A @>{L_n \sigma'}>> L_n S A @>{L_n \sigma''}>> L_n S'' A @>{\omega_n}>> L_{n-1} S' A @>>> \cdots
+\end{CD}$$
+and
+$$\begin{CD}
+\cdots @>>> L_n T' A @>{L_n \tau'}>> L_n T A @>{L_n \tau''}>> L_n T'' A @>{\omega_n}>> L_{n-1} T' A @>>> \cdots \\
+@. @V{L_n T' \alpha}VV @V{L_n T \alpha}VV @V{L_n T'' \alpha}VV @V{L_n T' \alpha}VV @. \\
+\cdots @>>> L_n T' A' @>{L_n \tau'}>> L_n T A' @>{L_n \tau''}>> L_n T'' A' @>{\omega_n}>> L_{n-1} T' A' @>>> \cdots
+\end{CD}$$

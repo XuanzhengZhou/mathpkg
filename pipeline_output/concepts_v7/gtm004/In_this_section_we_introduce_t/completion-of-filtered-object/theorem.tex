@@ -1,0 +1,12 @@
+Let $X$ be a filtered object in an abelian category $\mathfrak{A}$ with filtration
+$$X^{p-1} \xrightarrow{\xi^p} X^p \xrightarrow{\nu^p} X \xrightarrow{\eta_p} X_p \xrightarrow{\xi_p} X_{p+1}.$$
+
+First construct the colimit of the inclusions:
+$$(X^\infty; \nu^{\infty, p}) = \varinjlim (X^p, \xi^p).$$
+This yields the extended diagram
+$$X^{p-1} \xrightarrow{\xi^p} X^p \xrightarrow{\nu^{\infty, p}} X^\infty \xrightarrow{\eta^\infty_p} X^\infty_p \xrightarrow{\xi^\infty_p} X^\infty_{p+1}.$$
+
+Then construct the limit of the induced quotients:
+$$Y = (X^\infty)_{-\infty} = \varprojlim (X^\infty_p, \xi^\infty_p).$$
+
+The resulting filtered object $Y$ with filtrations $Y^p = \ker(Y \to X^\infty_p)$ is called the \textbf{completion} of the original filtered object $X$.

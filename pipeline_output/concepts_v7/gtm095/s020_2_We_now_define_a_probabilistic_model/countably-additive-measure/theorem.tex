@@ -1,0 +1,25 @@
+If a measure (let us stress that we mean a countably additive measure) $P$ on the $\sigma$-algebra $A$ satisfies $P(\Omega) = 1$, it is called a probability measure or a probability (defined on the sets that belong to the $\sigma$-algebra $A$).
+
+Probability measures have the following properties.
+
+If $\varnothing$ is the empty set then
+
+$$P(\varnothing) = 0.$$
+
+If $A, B \in \mathcal{A}$ then
+
+$$P(A \cup B) = P(A) + P(B) - P(A \cap B).$$
+
+If $A, B \in \mathcal{A}$ and $B \subseteq A$ then
+
+$$P(B) \leq P(A).$$
+
+If $A_n \in \mathcal{A}$, $n = 1, 2, \ldots$, and $\bigcup A_n \in \mathcal{A}$, then
+
+$$P(A_1 \cup A_2 \cup \cdots) \leq P(A_1) + P(A_2) + \cdots.$$
+
+The first three properties are evident. To establish the last one it is enough to observe that $\bigcup_{n=1}^{\infty} A_n = \sum_{n=1}^{\infty} B_n$, where $B_1 = A_1$, $B_n = \overline{A}_1 \cap \cdots \cap \overline{A}_{n-1} \cap A_n$, $n \geq 2$, $B_i \cap B_j = \varnothing$, $i \neq j$, and therefore
+
+$$P\left(\bigcup_{n=1}^{\infty} A_n\right) = P\left(\sum_{n=1}^{\infty} B_n\right) = \sum_{n=1}^{\infty} P(B_n) \leq \sum_{n=1}^{\infty} P(A_n).$$
+
+The next theorem, which has many applications, provides conditions under which a finitely additive set function is actually countably additive.

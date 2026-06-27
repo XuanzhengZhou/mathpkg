@@ -1,0 +1,23 @@
+id: manifold-with-boundary
+title_en: "Manifold with Boundary"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: basic
+tags: [manifold, boundary, halfspace, chart]
+depends_on:
+  required: [topological-manifold]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm033
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4. Manifolds with Boundary"
+    section: "4"
+    pages: ""
+    role_in_book: "Extends the basic definition of manifold to allow boundary points modeled on halfspaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

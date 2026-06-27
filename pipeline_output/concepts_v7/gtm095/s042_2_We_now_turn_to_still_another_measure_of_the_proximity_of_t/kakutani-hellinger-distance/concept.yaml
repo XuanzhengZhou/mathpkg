@@ -1,0 +1,23 @@
+id: kakutani-hellinger-distance
+title_en: "Kakutani–Hellinger distance"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: probability-metrics
+difficulty: intermediate
+tags: [hellinger, kakutani, distance, probability-measures, radon-nikodym]
+depends_on:
+  required: [radon-nikodym-derivative]
+  recommended: [total-variation-distance]
+  suggested: []
+source_books:
+  - book_id: gtm095
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "9.2"
+    pages: ""
+    role_in_book: "Definition 3; introduces the Kakutani–Hellinger distance between probability measures"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

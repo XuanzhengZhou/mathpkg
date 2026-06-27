@@ -1,0 +1,42 @@
+Here are some examples of martingales.
+
+Example 1. Let $\eta_1, \ldots, \eta_n$ be independent Bernoulli random variables with
+
+$$P(\eta_k = 1) = P(\eta_k = -1) = \frac{1}{2},$$
+
+$$S_k = \eta_1 + \cdots + \eta_k \quad \text{and} \quad \mathcal{D}_k = \mathcal{D}_{\eta_1, \ldots, \eta_k}.$$
+
+We observe that the decompositions $\mathcal{D}_k$ have a simple structure:
+
+$$\mathcal{D}_1 = \{D^+, D^-\},$$
+
+where $D^+ = \{\omega : \eta_1 = +1\}, D^- = \{\omega : \eta_1 = -1\};$$
+
+$$\mathcal{D}_2 = \{D^{++}, D^{+-}, D^{-+}, D^{--}\},$$
+
+where $D^{++} = \{\omega : \eta_1 = +1, \eta_2 = +1\}, \ldots, D^{--} = \{\omega : \eta_1 = -1, \eta_2 = -1\}$, etc.
+
+It is also easy to see that $\mathcal{D}_{\eta_1, \ldots, \eta_k} = \mathcal{D}_{S_1, \ldots, S_k}$.
+
+Let us show that $(S_k, \mathcal{D}_k)_{1 \leq k \leq n}$ form a martingale. In fact, $S_k$ is $\mathcal{D}_k$-measurable, and by (12) and (18) of Sect. 8
+
+$$E(S_{k+1} \mid \mathcal{D}_k) = E(S_k + \eta_{k+1} \mid \mathcal{D}_k)$$
+
+$$= E(S_k \mid \mathcal{D}_k) + E(\eta_{k+1} \mid \mathcal{D}_k) = S_k + E\eta_{k+1} = S_k.$$
+
+If we put $S_0 = 0$ and take $D_0 = \{\Omega\}$, the trivial
+
+$$\xi_k = \mathsf{E}(\xi_{k+1} \mid \mathcal{D}_k) = \mathsf{E}[\mathsf{E}(\xi_{k+2} \mid \mathcal{D}_{k+1}) \mid \mathcal{D}_k]$$
+$$= \mathsf{E}(\xi_{k+2} \mid \mathcal{D}_k) = \cdots = \mathsf{E}(\xi_n \mid \mathcal{D}_k).$$
+
+(3)
+
+Consequently the set of martingales $\xi = (\xi_k, \mathcal{D}_k)$ is exhausted by the martingales of the form (2). (We note that for infinite sequences $\xi = (\xi_k, \mathcal{D}_k)_{k \geq 1}$ this is, in general, no longer the case; see Problem 6 in Sect. 1 of Chap. 7, Vol. 2.)
+
+Example 4. Let $\eta_1, \ldots, \eta_n$ be a sequence of independent identically distributed random variables, $S_k = \eta_1 + \cdots + \eta_k$, and $\mathcal{D}_1 = \mathcal{D}_{S_n}, \mathcal{D}_2 = \mathcal{D}_{S_n, S_{n-1}}, \ldots, \mathcal{D}_n = \mathcal{D}_{S_n, S_{n-1}, \ldots, S_1}$. Let us show that the sequence $\xi = (\xi_k, \mathcal{D}_k)$ with
+
+$$\xi_1 = \frac{S_n}{n}, \xi_2 = \frac{S_{n-1}}{n-1}, \ldots, \xi_k = \frac{S_{n+1-k}}{n+1-k}, \ldots, \xi_n = S_1$$
+
+is a martingale. In the first place, it is clear that $\mathcal{D}_k \preceq \mathcal{D}_{k+1}$ and $\xi_k$ is $\mathcal{D}_k$-measurable. Moreover, we have by symmetry, for $j \leq n-k+1$,
+
+$$\mathsf{E}(\eta_j \mid \mathcal{D}_k

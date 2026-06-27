@@ -1,0 +1,13 @@
+id: euclidean-algorithm
+title_en: "Euclidean Algorithm"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: elementary-number-theory
+difficulty: basic
+tags: [euclidean-algorithm, gcd, division-algorithm]
+depends_on: {required: [division-algorithm, divisibility], recommended: [], suggested: []}
+source_books: [{book_id: "gtm077", author: "Erich Hecke", title: "Lectures on the Theory of Algebraic Numbers", chapter: "I", section: "1", pages: "", role_in_book: "Algorithm for computing the GCD of two integers"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: definition-jet-space-finite-order
+title_en: "Definition: Jet Space of Finite Order"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [jet-space, taylor-polynomial, prolongation, symmetric-multilinear-maps]
+depends_on:
+  required: [taylor-expansion, equivalence-relation, symmetric-multilinear-map]
+  recommended: [manifold, chart, bundle]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2"
+    section: "4. Weak and Strong Topologies on Function Spaces"
+    pages: ""
+    role_in_book: "Defines r-jets as equivalence classes of maps with same Taylor polynomial of order r"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

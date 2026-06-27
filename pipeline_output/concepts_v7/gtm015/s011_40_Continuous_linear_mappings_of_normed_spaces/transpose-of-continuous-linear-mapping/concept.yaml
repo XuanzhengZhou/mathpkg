@@ -1,0 +1,23 @@
+id: transpose-of-continuous-linear-mapping
+title_en: "Transpose (adjoint) of a continuous linear mapping between normed spaces"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [normed-space, dual-space, transpose, adjoint, continuous-linear-mapping]
+depends_on:
+  required: [dual-space-of-normed-space, operator-norm]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Berberian, S.K."
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: ""
+    section: "40. Continuous linear mappings of normed spaces"
+    pages: ""
+    role_in_book: "Defines the transpose T' ∈ L(F',E') for T ∈ L(E,F) via T'(g) = g ∘ T"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

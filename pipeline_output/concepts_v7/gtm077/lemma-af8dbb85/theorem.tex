@@ -1,0 +1,59 @@
+If the complex variables $t_1, \ldots, t_n$ simultaneously tend to zero in such a way that the real parts of $1/t_p$ tend to plus infinity, then
+
+$$\lim_{t \to 0} \sqrt{t_1 \cdots t_n} \theta(t, z; \mathfrak{a}) = \frac{1}{N(\mathfrak{a}) \sqrt{d}},$$
+
+independently of $z$.
+
+For if we denote the smallest of the $n$ numbers $\Re(1/t_p)$ by $r$, then
+
+$$\left| \exp \left\{ -\pi \sum_{p=1}^{n} \frac{1}{t_p} \lambda^{(p)^2} \right\} \right| \leq \exp \left\{ -\pi r \sum_{p=1}^{n} \lambda^{(p)^2} \right\} \leq e^{-\pi r c(m_1^2 + \cdots + m_n^2)},$$
+
+where, according to (172), $c$ is a suitably chosen positive constant independent of the $t_p$. The sum on the right side of (179) with the term $m_1 = \cdots = m_n = 0$ excluded is thus numerically
+
+$$\leq \left( \sum_{m=-\infty}^{\infty} e^{-\pi r c m^2} \right)^n - 1 < \left( 1 + 2 \sum_{m=1}^{\infty} e^{-\pi r c m} \right)^n - 1 = \left( 1 + \frac{2e^{-\pi r c}}{1 - e^{-\pi r c}} \right)^n - 1
+
+Here the inner sum over $v$ is again a theta-series, hence
+
+$$\theta(x - 2i\omega; 1) = \sum_{\rho \mod a} e^{2\pi i S(\rho^2\omega)} \theta(x, \rho; a).$$
+
+Finally by Lemma (a) we have
+
+$$\lim_{x \to 0} x^{n/2} \theta(x - 2i\omega; 1) = \frac{C(\omega)}{N(a)|\sqrt{d}|},$$
+
+where $C(\omega)$ denotes the Gauss sum of §54.
+
+In exactly the same way we deduce the behavior of the right side in (180) at $x = 0$. We set
+
+$$\frac{1}{t_p} = \frac{i}{2\omega^{(p)}} + \tau_p, \quad \text{where} \quad \tau_p = \frac{-ix}{2\omega^{(p)}(x - 2i\omega^{(p)})},$$
+
+and thus the real part of $1/\tau_p$ is
+
+$$\Re\left(\frac{1}{\tau_p}\right) = \frac{4\omega^{(p)^2}}{x};$$
+
+as $x \to 0$ it grows beyond all bounds. Furthermore, by $c$ we mean an integral auxiliary ideal so that $c\delta$ is a principal ideal $c\delta = \delta$, and $(c, 2b) = 1$. The numbers of $1/\delta$ are then of the form $\mu/\delta$ where $\mu$ runs through all numbers in $c$. In this way we obtain
+
+$$\theta\left(\frac{1}{t}; \frac{1}{\delta}\right) = \sum_{\mu \in c} \exp\left\{ -\pi \sum_{p=1}^{n} \left(\tau_p + \frac{i}{2\omega^{(p)}}\right) \frac{\mu^{(p)^2}}{\delta^{(p)^2}} \right\}.$$
+
+Now let
+
+$$b_1 \text{ be the denominator of } \frac{dc^2}{4\omega\delta^2} = \frac{a}{4b}.$$
+
+Then let us set $\mu
+
+From our convention for the meaning of the square root signs we have
+
+$$\lim_{x \to 0} \frac{1}{|x^{n/2}|} \sqrt{\frac{\tau_1 \cdots \tau_n}{N(\delta)^2}} = \frac{1}{|N(2\omega\delta)|},$$
+
+so that we can also write
+
+$$\lim_{x \to 0} x^{n/2} \theta \left( \frac{1}{t}; \frac{1}{\mathfrak{d}} \right) = \frac{|N(2\omega\delta)|}{|N(\mathfrak{b}_1\mathfrak{c})\sqrt{d}|} \cdot A. \tag{184}$$
+
+Finally, after multiplication by $x^{n/2}$, if we then let the quantity $x$ tend to zero in Formula (180) with $f = 1$ and keep in mind that in the denominator
+
+$$\lim_{x \to 0} \sqrt{(x - 2i\omega^{(1)}) \cdots (x - 2i\omega^{(n)})} = |\sqrt{N(2\omega)}| e^{-(\pi i/4)(\mathrm{sgn}\omega^{(1)} + \mathrm{sgn}\omega^{(2)} + \cdots + \mathrm{sgn}\omega^{(n)})},$$
+
+it follows from (181), (184), and $|d| = N(\mathfrak{d})$ that
+
+$$\frac{C(\omega)}{N(\mathfrak{a})} = |\sqrt{d}| \cdot \frac{\sqrt{N(2\omega)}}{N(\mathfrak{b}_1)} A \cdot e^{(\pi i/4)S(\mathrm{sgn}\omega)}$$
+
+$$\frac{C(\omega)}{|\sqrt{N(\mathfrak{a})}|} = \left| \frac{\sqrt{N(2\mathfrak{b})}}{N(\mathfrak{b}_1)} \right| e^{(\pi i/4)S(\mathrm{sgn}\omega)} A \quad \left( S(\mathrm{sgn}\omega) = \sum

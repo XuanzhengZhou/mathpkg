@@ -1,0 +1,23 @@
+id: distribution-time-derivative
+title_en: "Time derivative of a distribution-valued function"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: distribution-theory
+difficulty: intermediate
+tags: [distributions, time-derivative, periodic-distributions, heat-equation]
+depends_on:
+  required: [periodic-distributions]
+  recommended: [convergence-in-distribution-space]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "3"
+    section: "The heat equation: distribution solutions"
+    pages: ""
+    role_in_book: "Defines the time derivative of a family of distributions to formulate the heat equation in distribution space"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

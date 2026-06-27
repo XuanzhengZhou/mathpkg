@@ -1,0 +1,23 @@
+id: left-almost-periodic-function
+title_en: "Left Almost Periodic Function"
+title_zh: "左殆周期函数"
+type: definition
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: advanced
+tags: [almost-periodic-function, topological-group, compact-orbit, Bohr-compactification]
+depends_on:
+  required: [left-translate-definition]
+  recommended: [topological-group, compactness, orbit-closure, uniform-convergence]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "T"
+    pages: ""
+    role_in_book: "Definition of left almost periodic functions on a topological group"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

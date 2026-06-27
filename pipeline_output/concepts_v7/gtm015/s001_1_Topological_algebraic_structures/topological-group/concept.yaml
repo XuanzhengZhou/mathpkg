@@ -1,0 +1,23 @@
+id: topological-group
+title_en: "Topological Group"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: topological-algebra
+difficulty: basic
+tags: [group, topology, continuity, inversion, topological-algebra]
+depends_on:
+  required: [topological-monoid]
+  recommended: [group, product-topology, continuous-map]
+  suggested: [topological-ring]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "1"
+    section: "1. Topological algebraic structures"
+    pages: ""
+    role_in_book: "Core definition; the entire chapter studies topological groups"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

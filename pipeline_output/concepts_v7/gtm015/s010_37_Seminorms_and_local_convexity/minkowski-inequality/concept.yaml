@@ -1,0 +1,23 @@
+id: minkowski-inequality
+title_en: "Minkowski's inequality for $\mathcal{L}^p$ spaces"
+title_zh: "$\mathcal{L}^p$空间的Minkowski不等式"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [minkowski-inequality, lp-space, triangle-inequality, integral-inequality]
+depends_on:
+  required: [lp-space-definition, holder-inequality, lebesgue-integral]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "4"
+    section: "39"
+    pages: ""
+    role_in_book: "core_result"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

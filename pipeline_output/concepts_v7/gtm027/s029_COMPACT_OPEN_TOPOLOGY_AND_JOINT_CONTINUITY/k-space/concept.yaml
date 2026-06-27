@@ -1,0 +1,23 @@
+id: k-space
+title_en: "k-Space (Compactly Generated Space)"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: intermediate
+tags: [k-space, compactly-generated, compact-set]
+depends_on:
+  required: [compact-set, closed-set]
+  recommended: [locally-compact, first-countability]
+  suggested: [ascoli-theorem]
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Uniform Convergence on Compacta"
+    pages: ""
+    role_in_book: "Defines k-spaces and establishes that locally compact or first countable Hausdorff spaces are k-spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

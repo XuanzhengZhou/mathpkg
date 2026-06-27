@@ -1,0 +1,25 @@
+id: nullstellensatz-strong
+title_en: "Hilbert Nullstellensatz (Strong Form)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [nullstellensatz, prime-ideal, maximal-ideal, intersection, radical]
+depends_on:
+  required: [prime-ideal, maximal-ideal, hilbert-nullstellensatz-weak]
+  recommended: [ideal-closure-intersection-maximal]
+  suggested: []
+
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Strong form of Nullstellensatz; equality of intersection of prime ideals and intersection of maximal ideals"
+
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

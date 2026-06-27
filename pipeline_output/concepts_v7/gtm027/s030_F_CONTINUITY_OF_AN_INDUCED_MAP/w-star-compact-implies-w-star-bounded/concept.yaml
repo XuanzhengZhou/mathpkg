@@ -1,0 +1,23 @@
+id: w-star-compact-implies-w-star-bounded
+title_en: "Weak-Star Compactness Implies Weak-Star Boundedness"
+title_zh: "弱星紧致蕴含弱星有界"
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [weak-star-compactness, weak-star-boundedness, dual-space]
+depends_on:
+  required: [w-star-bounded-subset]
+  recommended: [weak-star-compact, uniform-boundedness]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "N"
+    pages: ""
+    role_in_book: "Proposition (d) part 3: w*-compact closure implies w*-bounded"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

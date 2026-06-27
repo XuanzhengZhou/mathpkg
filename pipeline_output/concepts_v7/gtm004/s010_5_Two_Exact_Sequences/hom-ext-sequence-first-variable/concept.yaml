@@ -1,0 +1,23 @@
+id: hom-ext-sequence-first-variable
+title_en: "Hom-Ext Sequence in the First Variable (Theorem 5.3)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [hom-functor, ext-functor, exact-sequence, connecting-homomorphism, projective-presentation]
+depends_on:
+  required: [kernel-cokernel-exact-sequence, compatible-projective-presentations]
+  recommended: [ext-group, hom-functor-exactness]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "5. Two Exact Sequences"
+    pages: ""
+    role_in_book: "Core exact sequence linking Hom and Ext in the first (contravariant) variable"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

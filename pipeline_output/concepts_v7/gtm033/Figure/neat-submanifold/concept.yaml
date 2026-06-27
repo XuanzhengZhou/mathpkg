@@ -1,0 +1,23 @@
+id: neat-submanifold
+title_en: "Neat Submanifold"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [submanifold, boundary, neatness, transversality]
+depends_on:
+  required: [boundary-manifold, submanifold]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "1"
+    section: "4. Manifolds with Boundary"
+    pages: ""
+    role_in_book: "Defines proper intersection of submanifold with boundary"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

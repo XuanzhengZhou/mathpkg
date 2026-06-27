@@ -1,0 +1,23 @@
+id: regular-lindelof-implies-paracompact
+title_en: "Regular Lindelöf Spaces are Paracompact"
+title_zh: "正则 Lindelöf 空间是仿紧的"
+type: proposition
+domain: topology
+subdomain: covering-properties
+difficulty: intermediate
+tags: [regular, lindelof, paracompact, covering]
+depends_on:
+  required: [regular-space, lindelof-space, paracompact-space]
+  recommended: [open-cover, locally-finite-refinement]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "Y. Paracompact Spaces"
+    pages: ""
+    role_in_book: "Proposition (a): every regular Lindelöf space is paracompact"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

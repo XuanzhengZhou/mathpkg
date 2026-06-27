@@ -1,0 +1,23 @@
+id: closed-subspace-completeness
+title_en: "Closed Subspaces of Complete Spaces are Complete"
+title_zh: "完备空间的闭子空间是完备的"
+type: theorem
+domain: topology
+subdomain: uniform-spaces
+difficulty: basic
+tags: [complete-space, closed-subspace, hausdorff, uniform-space]
+depends_on:
+  required: [complete-uniform-space, uniform-space]
+  recommended: [closed-set, hausdorff-space]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Completeness"
+    pages: ""
+    role_in_book: "Theorem 22: closed subspaces of complete spaces are complete; complete subspaces of Hausdorff spaces are closed"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

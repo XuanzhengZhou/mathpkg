@@ -1,0 +1,23 @@
+id: kolmogorovs-extension-theorem-r-infinity
+title_en: "Kolmogorov's Theorem on the Extension of Measures on (R^∞, B(R^∞))"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: measure-theory
+difficulty: advanced
+tags: [Kolmogorov, extension-theorem, cylinder-sets, consistent-measures, infinite-product-space]
+depends_on:
+  required: [caratheodory-extension-theorem]
+  recommended: [product-sigma-algebra, cylinder-set, probability-measure]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "2"
+    section: "4"
+    pages: ""
+    role_in_book: "fundamental theorem for constructing probability measures on infinite-dimensional spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: complex-numbers-as-r2
+title_en: "Complex numbers as ordered pairs of real numbers"
+title_zh: "复数作为实数有序对"
+type: definition
+domain: algebra
+subdomain: complex-numbers
+difficulty: basic
+tags: [complex-numbers, construction, ordered-pairs, field]
+depends_on:
+  required: [real-numbers]
+  recommended: [axioms-of-addition, axioms-of-multiplication]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "1"
+    section: "2. Real and complex numbers"
+    pages: ""
+    role_in_book: "Constructs C as R x R with explicit operations, avoiding postulating i"
+content_hash: "complex-numbers-construction-r2"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

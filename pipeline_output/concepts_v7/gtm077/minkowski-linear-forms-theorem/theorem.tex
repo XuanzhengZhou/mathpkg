@@ -1,0 +1,69 @@
+Assume we are given $n$ linear homogeneous expressions
+
+$$L_p(x) = \sum_{q=1}^{n} a_{pq} x_q \quad (p = 1, 2, \ldots, n),$$
+
+with real coefficients $a_{pq}$, whose determinant $D = |a_{pq}|$ is different from zero, as well as $n$ positive quantities $\varkappa_1, \ldots, \varkappa_n$, for which
+
+$$\varkappa_1 \cdot \varkappa_2 \cdot \cdots \cdot \varkappa_n \geq |D|.$$
+
+Then there are always $n$ rational integers $x_1, \ldots, x_n$, not all equal to 0, such that
+
+$$|L_p(x)| \leq \varkappa_p \quad (p = 1, \ldots, n).$$
+
+(48)
+
+The proof is along the lines of Minkowski's contribution to the geometry of numbers. To begin with we ask: "What can we say about the quantities $\varkappa$ if the $n$ inequalities (48) have no solution in rational integers $x_q \neq 0$?" We show that under these conditions $\varkappa_1 \cdot \varkappa_2 \cdot \cdots \cdot \varkappa_n < |D|$.
+
+To this end, we consider the parallelotope in the space of $n$ dimensions with Cartesian coordinates $x_1, \ldots, x_n$ such that
+
+$$|L_p(x)| \leq \frac{\varkappa_p}{2} \quad (p = 1, 2, \ldots, n)$$
+
+and think of the same parallelotope displaced parallel to itself so that its center, that is, the point 0, $\ldots, 0$, corresponds to all lattice points $g_1, \ldots, g_n$, where the $g_i$ run through all rational integers. In this way we have infinitely many parallelotopes $\Pi_{g_1,
+
+Consequently the sum of the volumes of all the $\Pi$ which belong to a definite square $|x_q| \leq L$ ($q = 1, 2, \ldots, n$) must be less than the volume $(2L)^n$ of this square, from which the assertion follows immediately. To see this we first let $c$ be a number such that the coordinates of all points of the initial figure $\Pi_{0, \ldots, 0}$ are all $\leq c$ in absolute value. Then in any case all $\Pi_{g_1, \ldots, g_n}$ such that
+
+$$|g_q| \leq L \quad (q = 1, \ldots, n)$$
+
+belong to the square $|x_q| \leq L + c$. Since from $|L_p(x - g)| \leq \kappa_p/2$ and $|g_q| \leq L$ it follows that $|x_q| = |x_q - g_q + g_q| \leq |x_q - g_q| + |g_q| \leq c + L$. Hence if $L$ is a positive rational integer, then there are $(2L + 1)^n$ such $\Pi_{g_1, \ldots, g_n}$ and their total volume is
+
+$$(2L + 1)^n J \leq (2L + 2c)^n,$$
+
+where $J$ is the volume of a single $\Pi$. After division by $L^n$ and passage to the limit as $L \to \infty$ it follows that
+
+$$J \leq 1.$$
+
+On the other hand we have
+
+$$J = \int \cdots \int |L_p(x)| \leq \kappa_p/2 \, dx_1 \cdots dx_n = \frac{1}{|D|} \int \cdots \int |y_p| \leq \kappa_p/2 \, dy_1 \cdots dy_n$$
+
+$$= \frac{\kappa_1 \kappa_2 \cdots \kappa_n}{|D|}.$$
+
+Thus if these inequalities cannot be solved in integers except 0, $\ldots, 0$, then $\kappa_1, \ldots, \kappa_n \leq |D|$.
+
+To prove this we replace the system $L_p(x)$ by that system of real forms $L'(x)$ which arises if the real and imaginary components of the $L_p(x)$ are considered by themselves. We take $L'_p(x) = L_p(x)$ if $L_p(x)$ is a real form; on the other hand if $L_\alpha(x)$ and $L_\beta(x)$ are conjugate imaginary and, say, $\alpha < \beta$, then we set
+
+$$L'_\alpha(x) = \frac{L_\alpha(x) + L_\beta(x)}{2}, \quad L'_\beta(x) = \frac{L_\alpha(x) - L_\beta(x)}{2i}.$$
+
+In the latter case we define
+
+$$\chi'_\alpha = \chi'_\beta = \frac{\chi_\alpha}{\sqrt{2}},$$
+
+and, on the other hand,
+
+$$\chi'_p = \chi_p$$
+
+in the first case.
+
+The system of real forms $L'$ now obviously has a determinant $D'$ with
+
+$$|D'| = 2^{-r_2}|D|,$$
+
+where $r_2$ denotes the number of pairs of complex conjugate forms among the $L_p(x)$. Hence since $\chi'_1 \cdots \chi'_n \geq |D'|$, there are rational integers $x_q$, which are not all 0, such that
+
+$$|L'_p(x)| \leq \chi'_p \quad (p = 1, \ldots, n).$$
+
+For a nonreal form $L_\alpha(x)$ we now have
+
+$$|L_\alpha(x)|^2 = L'_\alpha^2(x) + L'_\beta^2(x) \leq \chi'_\alpha^2 + \chi'_\beta^2 = \chi_\alpha^2$$
+
+from which the stated theorem follows.

@@ -1,0 +1,23 @@
+id: filtered-object-isomorphism-theorem
+title_en: "Isomorphism Theorem for Filtered Objects"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [filtered-object, isomorphism, associated-graded, completeness, abelian-category]
+depends_on:
+  required: [complete-filtration]
+  recommended: [filtered-object-notation, associated-graded]
+  suggested: [completeness-limit-proposition]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "8"
+    pages: ""
+    role_in_book: "Main theorem: isomorphism of graded objects + completeness implies isomorphism of filtered objects"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

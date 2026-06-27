@@ -1,0 +1,24 @@
+Let $\xi$ be a random variable with distribution function $F(x)$ and characteristic function $\varphi(t) = \mathsf{E}\, e^{it\xi}$. The following properties hold (stated for $n = 1$):
+
+(1) $\varphi(0) = 1$ and $|\varphi(t)| \leq 1$ for all $t \in \mathbb{R}$.
+
+(2) $\varphi(t)$ is uniformly continuous on $\mathbb{R}$.
+
+(3) $\varphi(-t) = \overline{\varphi(t)}$, i.e., $\varphi_{-\xi}(t) = \overline{\varphi_\xi(t)}$. Equivalently, the characteristic functions of $\xi$ and $-\xi$ are complex conjugates.
+
+(4) $\varphi(t)$ is real-valued if and only if the distribution of $\xi$ is symmetric, i.e., $\mathsf{P}(\xi \leq x) = \mathsf{P}(\xi \geq -x)$ for all $x$. In that case,
+$$\varphi(t) = \mathsf{E}[\cos t\xi] = \int_{-\infty}^{\infty} \cos(tx) \, dF(x).$$
+
+(5) If $\mathsf{E}|\xi|^n < \infty$ for some $n \geq 1$, then the derivatives $\varphi^{(r)}(t)$ exist for all $r \leq n$ and
+$$\varphi^{(r)}(t) = \int_{-\infty}^{\infty} (ix)^r e^{itx} \, dF(x), \qquad \mathsf{E}\,\xi^r = \frac{\varphi^{(r)}(0)}{i^r}.$$
+Moreover, the Taylor expansion holds:
+$$\varphi(t) = \sum_{r=0}^{n} \frac{(it)^r}{r!}\,\mathsf{E}\,\xi^r + \frac{(it)^n}{n!}\,\varepsilon_n(t),$$
+where $|\varepsilon_n(t)| \leq 3\,\mathsf{E}|\xi|^n$ and $\varepsilon_n(t) \to 0$ as $t \to 0$.
+
+(6) If $\varphi^{(2n)}(0)$ exists and is finite, then $\mathsf{E}\,\xi^{2n} < \infty$.
+
+(7) If $\mathsf{E}|\xi|^n < \infty$ for all $n \geq 1$ and
+$$\limsup_{n} \frac{(\mathsf{E}|\xi|^n)^{1/n}}{n} = \frac{1}{T} < \infty,$$
+then $\varphi(t)$ is analytic in $|t| < T$ and admits the power series representation
+$$\varphi(t) = \sum_{n=0}^{\infty} \frac{(it)^n}{n!}\,\mathsf{E}\,\xi^n$$
+for all $|t| < T$.

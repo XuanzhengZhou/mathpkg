@@ -1,0 +1,19 @@
+\begin{definition}[$Q_{\sigma}$-process]
+Let $\mathfrak{A}$ be an abelian category. Consider a diagram
+\[
+A \xrightarrow{\beta_{0,1}} B_{0,1} \xrightarrow{\gamma_{0,1}} C_1
+\]
+and an epimorphism $\sigma : A \twoheadrightarrow A_1$. Suppose that $\gamma_{0,1}\beta_{0,1}$ factors through $\sigma$; equivalently, if $\kappa = \ker\sigma$, then $\gamma_{0,1}\beta_{0,1}\kappa = 0$. Form the pushout of $(\beta_{0,1}, \sigma)$:
+\[
+\begin{CD}
+A @>{\beta_{0,1}}>> B_{0,1} \\
+@V{\sigma}VV @VV{\sigma_{0,1}}V \\
+A_1 @>{\beta_1}>> B_1
+\end{CD}
+\]
+where $B_1 = A_1 \amalg_A B_{0,1}$. The factorization condition ensures the existence of a unique morphism $\gamma_1 : B_1 \to C_1$ such that $\gamma_1\sigma_{0,1} = \gamma_{0,1}$. The $Q_{\sigma}$-process assigns to $(\beta_{0,1}, \gamma_{0,1})$ the pair
+\[
+Q_{\sigma}(\beta_{0,1}, \gamma_{0,1}) = (\beta_1, \gamma_1).
+\]
+Equivalently, $B_1$ is obtained by factoring out $\beta_{0,1}\sigma^{-1}(0)$ from $B_{0,1}$, i.e., $B_1 \cong B_{0,1} / \beta_{0,1}\sigma^{-1}(0)$.
+\end{definition}

@@ -1,0 +1,23 @@
+id: canonical-mapping-into-bidual
+title_en: "Canonical mapping (canonical embedding) of a normed space into its bidual"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [normed-space, bidual, canonical-mapping, isometric-embedding, duality]
+depends_on:
+  required: [canonical-isometric-embedding-into-bidual]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Berberian, S.K."
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: ""
+    section: "40. Continuous linear mappings of normed spaces"
+    pages: ""
+    role_in_book: "Names the evaluation map x ↦ x'' as the canonical mapping into the bidual"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: homogenization-of-polynomial
+title_en: "Homogenization of a Polynomial"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: ["homogenization", "dehomogenization", "projective-completion"]
+depends_on:
+  required: ["homogeneous-polynomial", "polynomial-ring"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "2. Affine and projective varieties; examples"
+    pages: ""
+    role_in_book: "Defines the homogenization of a polynomial, the key operation for passing from affine to projective varieties."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

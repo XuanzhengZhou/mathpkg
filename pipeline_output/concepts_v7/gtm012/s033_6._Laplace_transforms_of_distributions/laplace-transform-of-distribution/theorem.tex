@@ -1,0 +1,9 @@
+Let $F \in \mathcal{L}'$ and suppose there exist constants $k, a, M, K$ such that
+$$|F(u)| \leq K |u|_{k,a,M}, \quad \text{for all } u \in \mathcal{L}.$$
+If $\operatorname{Re} z > a$, let $(u_n)_{1}^{\infty} \subset \mathcal{L}$ be a sequence such that
+$$|u_n - e_z|_{k,a,M} \to 0 \quad \text{as } n \to \infty,$$
+where $e_z(t) = e^{-zt}$. Then $(F(u_n))_{n=1}^{\infty}$ is a Cauchy sequence in $\mathbb{C}$, and the \textbf{Laplace transform} $LF$ of the distribution $F$ is defined by
+$$LF(z) = \lim_{n \to \infty} F(u_n).$$
+Symbolically, we write
+$$LF(z) = F(e_z),$$
+even though $e_z \notin \mathcal{L}$. The value $LF(z)$ is independent of the particular sequence $(u_n)$ used to approximate $e_z$.

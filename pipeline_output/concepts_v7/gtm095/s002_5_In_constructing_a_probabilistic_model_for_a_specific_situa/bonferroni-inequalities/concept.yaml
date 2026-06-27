@@ -1,0 +1,23 @@
+id: bonferroni-inequalities
+title_en: "Bonferroni Inequalities"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: foundations
+difficulty: intermediate
+tags: [bonferroni, inequalities, inclusion-exclusion, probability-bounds]
+depends_on:
+  required: [inclusion-exclusion-principle]
+  recommended: []
+  suggested: [gumbel-inequalities, frechet-inequalities]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "6"
+    pages: ""
+    role_in_book: "Bonferroni inequalities bounding union probability by alternating truncated inclusion-exclusion sums"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

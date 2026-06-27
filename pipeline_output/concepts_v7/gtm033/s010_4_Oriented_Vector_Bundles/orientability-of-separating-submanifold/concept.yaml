@@ -1,0 +1,23 @@
+id: orientability-of-separating-submanifold
+title_en: "Orientability of Separating Codimension-1 Submanifold"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [orientability, separating, submanifold, simply-connected, codimension-1]
+depends_on:
+  required: [triviality-of-normal-bundle-of-boundary, separating-codimension-1-submanifold, orientability-in-short-exact-sequence]
+  recommended: [simply-connected-space, orientable-manifold]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "4. Oriented Vector Bundles"
+    pages: ""
+    role_in_book: "Theorem 4.5; orientation inheritance for separating hypersurfaces in simply connected ambient manifolds"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: sesquilinear-form
+title_en: "Sesquilinear form and inner product (complex case)"
+title_zh: "半双线性形式与内积（复情况）"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: intermediate
+tags: [sesquilinear-form, hermitian-form, inner-product, complex-vector-space, positive-definite]
+depends_on:
+  required: [bilinear-form]
+  recommended: [complex-vector-space]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "41"
+    section: "Hilbert spaces"
+    pages: ""
+    role_in_book: "Defines sesquilinear forms, Hermitian forms, and inner products on complex vector spaces — the algebraic foundation for complex Hilbert space theory."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: e-derived-functors-as-satellites
+title_en: "E-Derived Functors as E-Satellites"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [projective-class, relative-homological-algebra, derived-functor, satellite, connected-sequence]
+depends_on:
+  required: [right-e-exact-functor, e-connected-sequence, e-derived-functor]
+  recommended: [satellite-functor, universal-property]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "3. E-Satellites"
+    pages: "318-328"
+    role_in_book: "Theorem 3.2: Left E-derived functors are the left E-satellites of a right E-exact functor"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

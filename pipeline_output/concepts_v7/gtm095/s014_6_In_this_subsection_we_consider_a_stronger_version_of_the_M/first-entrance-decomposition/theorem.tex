@@ -1,0 +1,5 @@
+For a homogeneous Markov chain with $n$-step transition probabilities $p_{ij}^{(n)}$ and first arrival probabilities $f_{ij}^{(k)}$, the following decomposition holds:
+
+$$p_{ij}^{(n)} = \sum_{k=1}^{n} f_{ij}^{(k)} \, p_{jj}^{(n-k)},$$
+
+where $p_{jj}^{(0)} = 1$. This formula states that to go from $i$ to $j$ in $n$ steps, the chain must first reach $j$ at some time $k$ ($1 \leq k \leq n$) and then go from $j$ to $j$ in the remaining $n-k$ steps.

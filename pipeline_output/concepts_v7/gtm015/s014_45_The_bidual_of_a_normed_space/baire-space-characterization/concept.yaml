@@ -1,0 +1,23 @@
+id: baire-space-characterization
+title_en: "Characterizations of Baire Spaces"
+title_zh: "Baire 空间的等价刻画"
+type: theorem
+domain: topology
+subdomain: baire-category
+difficulty: intermediate
+tags: [baire-space, meager-set, complement, countable-union]
+depends_on:
+  required: [rare-and-meager-definition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "5"
+    section: "46"
+    pages: ""
+    role_in_book: "Provides equivalent conditions defining when a topological space is a Baire space"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

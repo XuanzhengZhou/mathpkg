@@ -1,0 +1,61 @@
+With odd $q$ and $a$, the congruence $x^q \equiv a \pmod{2^\alpha}$ always has exactly one solution. For $q = 2$ and odd $a$, $x^2 \equiv a \pmod{2^\alpha}$ is solvable for $\alpha \geq 3$ if and only if it is solvable mod 8, that is, if $a \equiv 1 \pmod{8}$, and indeed the number of incongruent solutions in this case is equal to 4. For $a \equiv 1 \pmod{4}$, $x^2 \equiv a \pmod{4}$ has two solutions, otherwise it has no solutions for odd
+
+If $x^2 \equiv a \pmod{8}$ is solvable, then the congruence is consequently also solvable mod $2^\alpha$. However, as we see by trying out the other cases, this congruence is solvable only for $a \equiv 1 \pmod{8}$.
+
+From this we immediately obtain an overview of the solutions of
+
+$$x^q \equiv a \pmod{n}$$
+
+(28)
+
+for composite $n$. Suppose $(a, n) = 1$. In order that the congruence be solvable mod $n$ it must be solvable modulo each power of a prime which divides $n$. If $n = p_1^{\alpha_1} p_2^{\alpha_2} \cdots p_r^{\alpha_r}$, where the $p_i$ are distinct primes, and if $N_i$ is the number of different solutions mod $p_i^{\alpha_i}$ of
+
+$$z^q \equiv a \pmod{p_i^{\alpha_i}}$$
+
+then the number of different solutions of (28) is
+
+$$N = N_1 \cdot N_2 \cdots N_r.$$
+
+To see this assume that the $r$ numbers $z_1, \ldots, z_r$ are solutions of $z_i^q \equiv a \pmod{p_i^{\alpha_i}}$ and then let us determine $x$ from
+
+$$x \equiv z_i \pmod{p_i^{\alpha_i}}, \quad (i = 1, 2, \ldots, r).$$
+
+Then
+
+$$x^q \equiv z_i^q \equiv a \pmod{p_i^{\alpha_i}}$$
+
+hence
+
+$$x^q \equiv a \pmod{n}.$$
+
+$x$ is uniquely determined mod $n$ by the $z_i$. Two different systems $z_i$ and $z_i'$ lead to the same $x$ mod $n$ if and only if $z_i \equiv z_i' \pmod{p_i^{\alpha_i}}$ for $i = 1, 2, \ldots, r$. On the other hand every solution $x$ of (28) is also a system of solutions of
+
+for each integer $a$, relatively prime to $n$, which has the following properties:
+
+(1) $\chi(a) = \chi(b)$, if $a \equiv b \pmod{n}$.
+(2) $\chi(a)\chi(b) = \chi(ab)$.
+(3) $\chi(a) \neq 0$ for all $a$ relatively prime to $n$.
+
+We complete this definition for the remaining integers by fixing
+
+(4) $\chi(a) = 0$, if $(a,n) > 1$.
+
+Statements (1)–(3) are valid for this extended system of arguments where $a$ is allowed to run through all integers.
+
+Each function $\chi(a)$ with the properties (1)–(4) is called a residue character of a mod $n$. There are exactly $h = \varphi(n)$ different residue characters mod $n$ and by Theorem 31 we have
+
+$$\sum_{k \pmod{n}} \chi(k) = \begin{cases} 0 & \text{if } \chi \text{ is not the principal character}, \\ \varphi(n) & \text{if } \chi \text{ is the principal character.} \end{cases}$$
+
+Here again we call that character which is equal to 1 for all $a$ relatively prime to $n$ the principal character. The summation $k \pmod{n}$ under $\sum$ signifies that the index $k$ runs through a complete residue system mod $n$. In an analogous manner we have
+
+$$\sum_{\chi} \chi(k) = \begin{cases} 0 & \text{if } k \neq 1 \pmod{n}, \\ \varphi(n) & \text{if } k \equiv 1 \pmod{n}. \end{cases}$$
+
+With the help of residue characters mod $n$ we now wish to give a different formulation of the conditions for the solvability of a congruence
+
+$$x^q \equiv a \pmod{n}$$
+
+which were developed in the preceding section. Here we will make the hypothesis:
+
+$$(q,n) = 1, \quad q \text{ prime}, \quad \text{and} \quad (a,n) = 1.$$
+
+Thus the class

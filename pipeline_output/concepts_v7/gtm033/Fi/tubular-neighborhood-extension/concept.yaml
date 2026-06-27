@@ -1,0 +1,23 @@
+id: tubular-neighborhood-extension
+title_en: "Extension of Tubular Neighborhoods from Boundary"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [tubular-neighborhood, neat-submanifold, collar, boundary-extension]
+depends_on:
+  required: []
+  recommended: [tubular-neighborhood, neat-submanifold, collar-neighborhood]
+  suggested: [isotopy-of-tubular-neighborhoods]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "6. Collars and Tubular Neighborhoods of Neat Submanifolds"
+    pages: ""
+    role_in_book: "Extension theorem showing every tubular neighborhood of the boundary can be realized as intersection with boundary of an interior tubular neighborhood"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

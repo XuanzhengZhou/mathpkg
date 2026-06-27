@@ -1,0 +1,23 @@
+id: induced-map-topological-inverse
+title_en: "Induced Map of a Homeomorphism Is an Isomorphism with Inverse"
+title_zh: "同胚映射诱导的代数同构及其逆"
+type: proposition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [induced-map, homeomorphism, algebra-isomorphism, Gelfand-duality]
+depends_on:
+  required: [induced-map-star-homomorphism, induced-map-composition-property]
+  recommended: [topological-map, inverse-map]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "S"
+    pages: ""
+    role_in_book: "Proposition (a)(v): homeomorphism induces isomorphism of function algebras"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

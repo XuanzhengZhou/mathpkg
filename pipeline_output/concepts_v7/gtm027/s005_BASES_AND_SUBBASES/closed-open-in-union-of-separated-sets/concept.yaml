@@ -1,0 +1,23 @@
+id: closed-open-in-union-of-separated-sets
+title_en: "Closed and Open Sets in a Union of Separated Complements"
+title_zh: "隔离补集并集中的闭集与开集判定"
+type: corollary
+domain: topology
+subdomain: connectedness
+difficulty: intermediate
+tags: [separated, closed, open, union, gluing]
+depends_on:
+  required: [closure-in-union-of-separated-sets, separated-sets]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Bases and Subbases"
+    pages: ""
+    role_in_book: "Corollary 19 — local closedness/openness implies global"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

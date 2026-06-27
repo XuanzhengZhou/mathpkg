@@ -1,0 +1,23 @@
+id: bipolar-closure-subspace
+title_en: "Bipolar of a Subset is the Smallest Closed Linear Subspace"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [bipolar, orthogonal-complement, closed-linear-subspace, hilbert-space, double-orthogonal]
+depends_on:
+  required: [double-orthogonal-complement, orthogonal-complement-definition]
+  recommended: [closed-linear-span]
+  suggested: [bipolar-theorem-banach-space]
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "42. Duality in Hilbert spaces"
+    section: "42.17"
+    pages: ""
+    role_in_book: "Exercise characterizing the double orthogonal complement of an arbitrary subset as its closed linear span"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,13 @@
+id: unit-counit-adjunction
+title_en: "Unit-Counit Formulation of Adjunction"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [adjoint-functor, unit, counit, natural-transformation]
+depends_on: {required: [adjoint-functors, natural-transformation], recommended: [], suggested: []}
+source_books: [{book_id: "gtm004", author: "Peter J. Hilton, Urs Stammbach", title: "A Course in Homological Algebra (2ed, 1997)", chapter: "II. Categories and Functors", section: "7. Adjoint Functors", pages: "", role_in_book: "Proposition 7.2: An adjunction is equivalently given by a unit $\varepsilon: 1 \to GF$ and counit $\delta: FG \to 1$ satisfying triangle identities"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

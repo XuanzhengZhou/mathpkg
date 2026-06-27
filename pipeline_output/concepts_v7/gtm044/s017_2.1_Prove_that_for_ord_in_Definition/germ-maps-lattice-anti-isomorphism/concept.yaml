@@ -1,0 +1,23 @@
+id: germ-maps-lattice-anti-isomorphism
+title_en: "Lattice Anti-Isomorphism Between G* and J* on Germs"
+title_zh: "芽映射 G* 与 J* 之间的格反同构"
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [germ, lattice-anti-isomorphism, ideal-variety-correspondence, local-geometry]
+depends_on:
+  required: []
+  recommended: [ideal-variety-correspondence, lattice, germ, variety-germ-ordered-pair]
+  suggested: [contracted-extension-prime-intersection, closed-ideal-extension-lattice]
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Establishes G* and J* as local analogues of the V and J maps"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

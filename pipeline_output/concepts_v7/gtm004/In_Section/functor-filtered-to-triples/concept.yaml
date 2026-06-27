@@ -1,0 +1,23 @@
+id: functor-filtered-to-triples
+title_en: "Functor from Filtered Complexes to Triples"
+title_zh: "从滤过复形到三元组的函子"
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [filtered-complexes, category-of-triples, functor]
+depends_on:
+  required: [category-of-triples, filtered-differential-object]
+  recommended: [rees-system]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "6. Rees Systems and Filtered Complexes"
+    pages: ""
+    role_in_book: "Constructs the triple that yields the Rees system of a filtered complex"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

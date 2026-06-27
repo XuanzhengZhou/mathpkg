@@ -1,0 +1,143 @@
+$$S_k = \eta_1 + \cdots + \eta_k, \quad 1 \leq k \leq n.$$
+
+Then (P-a.s
+
+Let us consider the martingale $\xi = (\xi_k, \mathcal{D}_k)_{1 \leq k \leq n}$ introduced in Example 4, with $\xi_k = S_{n+1-k}/(n+1-k)$ and $\mathcal{D}_k = \mathcal{D}_{S_{n+1-k}, \ldots, S_n}$.
+
+We define
+
+$$\tau = \min\{1 \leq k \leq n : \xi_k \geq 1\},$$
+
+taking $\tau = n$ on the set $\{\xi_k < 1 \text{ for all } k, 1 \leq k \leq n\} = \{\max_{1 \leq l \leq n}(S_l/l) < 1\}$. It is clear that $\xi_\tau = \xi_n = S_1 = 0$ on this set, and therefore
+
+$$\left\{\max_{1 \leq l \leq n} \frac{S_l}{l} < 1\right\} = \left\{\max_{1 \leq l \leq n} \frac{S_l}{l} < 1, S_n < n\right\} \subseteq \{\xi_\tau = 0\}. \tag{13}$$
+
+Now let us consider the outcomes for which simultaneously $\max_{1 \leq l \leq n}(S_l/l) \geq 1$ and $S_n < n$. Write $\sigma = n+1-\tau$. It is easy to see that
+
+$$\sigma = \max\{1 \leq k \leq n : S_k \geq k\}$$
+
+and therefore (since $S_n < n$) we have $\sigma < n$, $S_\sigma \geq \sigma$, and $S_{\sigma+1} < \sigma+1$. Consequently $\eta_{\sigma+1} = S_{\sigma+1} - S_\sigma < (\sigma+1) - \sigma = 1$, i.e., $\eta_{\sigma+1} = 0$. Therefore $\sigma \leq S_\sigma = S_{\sigma+1} < \sigma+1$, and consequently $S_\sigma = \sigma$ and
+
+$$\xi_\tau = \frac{S_{n+1-\tau}}{n+1-\tau} = \frac{S
+
+Let $\xi_1, \ldots, \xi_n$ be independent Bernoulli random variables with
+
+$$P(\xi_i = 1) = P(\xi_i = -1) = \frac{1}{2},$$
+
+$S_k = \xi_1 + \cdots + \xi_k$ and $a, b$ nonnegative integers such that $a - b > 0, a + b = n$.
+
+We are going to show that
+
+$$P\{S_1 > 0, \ldots, S_n > 0 \mid S_n = a - b\} = \frac{a - b}{a + b}. \tag{15}$$
+
+In fact, by symmetry,
+
+$$P\{S_1 > 0, \ldots, S_n > 0 \mid S_n = a - b\} = P\{S_1 < 0, \ldots, S_n < 0 \mid S_n = -(a - b)\} = P\{S_1 + 1 < 1, \ldots, S_n + n < n \mid S_n + n = n - (a - b)\} = P\{\eta_1 < 1, \ldots, \eta_1 + \cdots + \eta_n < n \mid \eta_1 + \cdots + \eta_n = n - (a - b)\} = \left[ 1 - \frac{n - (a - b)}{n} \right]^+ = \frac{a - b}{n} = \frac{a - b}{a + b},$$
+
+where we have put $\eta_k = \xi_k + 1$ and applied (12).
+
+Now formula (5) of Sect. 10 established in Lemma 1 of Sect. 10 by using the reflection principle follows from (15) in an evident way.
+
+Let us interpret $\xi_i = +1$ as a vote for candidate $A$ and $\xi_i = -1$ as a vote for $B$. Then $S_k$ is the difference between the numbers of votes cast for $A$ and $B$ at the time when $k$ votes have been recorded, and
+
+$$P\{S_1 > 0, \ldots, S_n > 0
+
+3. Show that every martingale $\xi = (\xi_i, \mathcal{D}_k)$ has uncorrelated increments: if $a < b < c < d$ then
+$$\text{Cov}(\xi_d - \xi_c, \xi_b - \xi_a) = 0.$$
+
+4. Let $\xi = (\xi_1, \ldots, \xi_n)$ be a random sequence such that $\xi_k$ is $\mathcal{D}_k$-measurable ($\mathcal{D}_1 \preceq \mathcal{D}_2 \preceq \cdots \preceq \mathcal{D}_n$). Show that a necessary and sufficient condition for this sequence to be a martingale (with respect to the system $(\mathcal{D}_k)$) is that $\mathsf{E}\xi_\tau = \mathsf{E}\xi_1$ for every stopping time $\tau$ (with respect to $(\mathcal{D}_k)$). (The phrase “for every stopping time” can be replaced by “for every stopping time that assumes two values.”)
+
+5. Show that if $\xi = (\xi_k, \mathcal{D}_k)_{1 \leq k \leq n}$ is a martingale and $\tau$ is a stopping time, then
+$$\mathsf{E}[\xi_n I_{\tau=k}] = \mathsf{E}[\xi_k I_{\tau=k}]$$
+for every $k$.
+
+6. Let $\xi = (\xi_k, \mathcal{D}_k)$ and $\eta = (\eta_k, \mathcal{D}_k)$ be two martingales, $\xi_1 = \eta_1 = 0$. Show that
+$$\mathsf{E}\xi_n \eta_n = \sum_{k=2}^{n} \mathsf{E}(\xi_k - \xi_{k-1})(\eta_k - \eta_{k-1})$$
+and in particular that
+$$\mathsf{E}\xi_n^2 = \sum_{k=2}^{n} \mathsf{E}(\xi_k - \xi_{k-1})^2.$$
+
+7. Let $\eta_1, \ldots, \eta_n$ be a sequence of independent identically distributed random variables with $\mathsf{E}\
+
+12 Markov Chains: Ergodic Theorem, Strong Markov Property
+
+1. We have discussed the Bernoulli scheme with
+
+$$\Omega = \{\omega : \omega = (x_1, \ldots, x_n), x_i = 0, 1\},$$
+
+where the probability $P(\{\omega\}) = p(\omega)$ of each outcome is given by
+
+$$p(\omega) = p(x_1) \cdots p(x_n),$$
+
+(1)
+
+with $p(x) = p^x q^{1-x}$. With these hypotheses, the variables $\xi_1, \ldots, \xi_n$ with $\xi_i(\omega) = x_i$ are independent and identically distributed with
+
+$$P(\xi_1 = x) = \cdots = P(\xi_n = x) = p(x), \quad x = 0, 1.$$
+
+If we replace (1) by
+
+$$p(\omega) = p_1(x_1) \cdots p_n(x_n),$$
+
+where $p_i(x) = p_i^x (1 - p_i)^{1-x}, 0 \leq p_i \leq 1$, the random variables $\xi_1, \ldots, \xi_n$ are still independent, but in general are differently distributed:
+
+$$P(\xi_1 = x) = p_1(x), \ldots, P(\xi_n = x) = p_n(x).$$
+
+We now consider a generalization that leads to dependent random variables that form what is known as a Markov chain.
+
+Let us suppose that
+
+$$\Omega = \{\omega : \omega = (x_0, x_1, \ldots, x_n), x_i \in X\},$$
+
+where $X$ is a finite set. Let there be given nonnegative functions $p_0(x), p_1(x, y), \ldots, p_n(x, y)$ such that
+
+$$\sum_{x \in X} p_0(x) = 1,$$
+
+$$\sum_{y \in X} p_k(x, y) = 1, \quad k = 1, \ldots, n; x \in X.$$
+
+For each $\omega = (x_0, x_1, \ldots, x_n
+
+Let us introduce the random variables $\xi_0, \xi_1, \ldots, \xi_n$ with $\xi_i(\omega) = x_i$ for $\omega = (x_1, \ldots, x_n)$. A simple calculation shows that
+
+$$\text{P}(\xi_0 = a) = p_0(a),$$
+$$\text{P}(\xi_0 = a_0, \ldots, \xi_k = a_k) = p_0(a_0)p_1(a_0, a_1) \cdots p_k(a_{k-1}, a_k).$$
+
+We now establish the validity of the following fundamental property of conditional probabilities in the probability model $(\Omega, \mathcal{A}, \text{P})$ at hand:
+
+$$\text{P}\{\xi_{k+1} = a_{k+1} \mid \xi_k = a_k, \ldots, \xi_0 = a_0\} = \text{P}\{\xi_{k+1} = a_{k+1} \mid \xi_k = a_k\}$$
+
+(under the assumption that $\text{P}(\xi_k = a_k, \ldots, \xi_0 = a_0) > 0$).
+
+By (4) and the definition of conditional probabilities (Sect. 3)
+
+$$\text{P}\{\xi_{k+1} = a_{k+1} \mid \xi_k = a_k, \ldots, \xi_0 = a_0\} = \frac{\text{P}\{\xi_{k+1} = a_{k+1}, \ldots, \xi_0 = a_0\}}{\text{P}\{\xi_k = a_k, \ldots, \xi_0 = a_0\}}$$
+$$= \frac{p_0(a_0)p_1(a_0, a_1) \cdots p_{k+1}(a_k, a_{k+1})}{p_0(a_0) \cdots p_k(a_{k-1}, a_k)} = p_{k+1}(a_k, a_{k+1})$$
+
+In a similar way we verify
+
+$$\text{P}\{\xi_{k+1} =
+
+$$P(A \mid B) = \begin{cases} \frac{P(AB)}{P(B)}, & \text{if } P(B) > 0, \\ 0, & \text{if } P(B) = 0. \end{cases}$$
+
+With this definition the formulas (5) and (7) hold without any additional assumptions like $P\{\xi_k = a_k, \ldots, \xi_0 = a_0\} > 0$.
+
+Let us emphasize that the difficulty related to the events of zero probability is very common for probability theory. We will give in Sect. 7, Chap. 2, a general definition of conditional probabilities (with respect to arbitrary decompositions, $\sigma$-algebras, etc.), which is both very natural and “works” in “zero probability” setups.
+
+Now, if we use the evident equation
+
+$$P(AB \mid C) = P(A \mid BC) P(B \mid C),$$
+
+we find from (7) that
+
+$$P\{\xi_n = a_n, \ldots, \xi_{k+1} = a_{k+1} \mid \mathcal{B}_k^\xi\} = P\{\xi_n = a_n, \ldots, \xi_{k+1} = a_{k+1} \mid \xi_k\}$$
+
+or
+
+$$P\{\xi_n = a_n, \ldots, \xi_{k+1} = a_{k+1} \mid \xi_0, \ldots, \xi_k\} = P\{\xi_n = a_n, \ldots, \xi_{k+1} = a_{k+1} \mid \xi_k\}.$$
+
+This equation admits the following intuitive interpretation. Let us think of $\xi_k$ as the position of a particle “at present,” with $(\xi_0, \ldots, \xi_{k-1})$ being the “past,” and $(\xi_{k+1}, \ldots, \xi_n)$ the “future.” Then (9) says that if the past and the present are given, the future depends only on the present and is independent of how the particle arrived at $\xi_k$, i.e., is independent of the past $(\xi_0, \
+
+The property of the independence of future and past, or, what is the same thing, the lack of dependence of the future on the past when the present is given, is called the Markov property, and the corresponding sequence of random variables $\xi_0, \ldots, \xi_n$ is a Markov chain.
+
+Consequently if the probabilities $p(\omega)$ of the sample points are given by (3), the sequence $(\xi_0, \ldots, \xi_n)$ with $\xi_i(\omega) = x_i$ forms a Markov chain.
+
+We give the following formal definition.

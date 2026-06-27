@@ -1,0 +1,30 @@
+If $p$ is a prime ideal and $p \mid ab$, then $p$ divides either $a$ or $b$ or both.
+
+For if $p$ does not divide the factor $b$, then
+
+$$(p, b) = (1),$$
+
+since, as a prime ideal, $p$ has no factors except (1) and $p$. It follows from (41) that
+
+$$a = a(1) = a(p, b) = (ap, ab)$$
+
+and since $p \mid ab$, $p$ must divide $a$.
+
+From this we obtain, as in rational number theory (Theorem 5), that a representation of an ideal as a product of prime ideals is possible, if at all, only in one single manner, except of course for the order of the factors.
+
+However, we are still missing the proof that a decomposition into prime ideal factors is always possible. For this we must show:
+
+(a) Every ideal $a$ which is not (0) has only finite many divisors.
+(b) Every proper divisor of $a$ ($a \neq (0)$) has fewer divisors than $a$.
+
+For the proof of (a) we recall that every ideal $a$ which is not (0) divides a certain principal ideal $(\alpha)$, and that each divisor of $a$ is also a divisor of $(\alpha)$. Thus it is sufficient to verify the finiteness of the number of divisors of each principal ideal $(\alpha)$, and here we may take $\alpha$ as a rational integer, since $\alpha \mid N(\alpha)$ implies $(\alpha) \mid N(\alpha)$ and $N(\alpha) = N$ is such a number.
+
+By Theorem 69, an ideal $(N)$ is divisible only by those ideals $a$ in which $N$ occurs. Now let $a = (\alpha_1, \ldots, \alpha_r)$ be a divisor of $(N)$, hence let $N$ occur in $a$. It is sufficient to assume $r \leq n$, since, for example, we can indeed choose for the $\alpha_i$ a basis for $a$. Now
+
+$$(\alpha_1, \ldots, \alpha_r) = (\
+
+c be a proper divisor of $a$. Thus $a = bc$ where $b \neq (1)$, $c \neq a$. Then $c$ surely does not have $a$ as a divisor, and consequently $c$ has at least one less divisor than $a$.
+
+Now at least one prime ideal must occur among the finitely many, say $m$, divisors of $a$ which are not $= (1)$, unless $a$ itself is $(1)$. Namely the divisor or divisors which have as few divisors as possible are obviously prime ideals by Lemma (b). Consequently, we can split off a prime ideal $p_1$ from $a$, $a = p_1a_1$, where $a_1$ has at most $m - 1$ divisors which are $= (1)$. In case we do not have $a_1 = (1)$, we can again split off a prime ideal $p_2$ from $a_1$, where $a_2$ has at most $m - 2$ divisors $= (1)$, $a = p_1p_2a_2$ and so on. Since the $a_1, a_2, \ldots$ always have decreasing numbers of divisors, the process must come to an end after finitely many steps, which can only occur if $a_k = (1)$. Then $a = p_1p_2 \cdots p_k$ is represented as a product of prime ideals, and we have proved
+
+**Theorem 72** (Fundamental Theorem of Ideal Theory). Every ideal in $K$ different from $(0)$ and $(1)$ can be written in one and only one way (except for order) as a product of prime ideals.

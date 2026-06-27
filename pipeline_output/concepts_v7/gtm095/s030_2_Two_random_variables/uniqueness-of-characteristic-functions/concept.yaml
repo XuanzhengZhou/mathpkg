@@ -1,0 +1,23 @@
+id: uniqueness-of-characteristic-functions
+title_en: "Uniqueness Theorem for Characteristic Functions"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: characteristic-functions
+difficulty: intermediate
+tags: [uniqueness, characteristic-function, distribution-function, fourier-stieltjes, inversion]
+depends_on:
+  required: [characteristic-function-distribution]
+  recommended: [stone-weierstrass-theorem, properties-of-characteristic-functions]
+  suggested: [levy-inversion-formula]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "2"
+    section: "12"
+    pages: ""
+    role_in_book: "Theorem 2 of Section 12 — uniqueness: the characteristic function uniquely determines the distribution"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

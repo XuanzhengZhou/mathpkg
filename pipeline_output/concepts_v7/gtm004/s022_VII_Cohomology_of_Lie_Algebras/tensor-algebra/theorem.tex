@@ -1,0 +1,15 @@
+Let $M$ be a vector space over a field $K$. Set $T_0 M = K$, and for $n \geq 1$ let $T_n M = M^{\otimes n}$ (the $n$-fold tensor product of $M$ with itself). The \textbf{tensor algebra} $TM$ is the direct sum
+$$
+TM = \bigoplus_{n=0}^{\infty} T_n M,
+$$
+with multiplication induced by the canonical isomorphism $T_p M \otimes T_q M \cong T_{p+q} M$:
+$$
+(m_1 \otimes \cdots \otimes m_p) \cdot (m'_1 \otimes \cdots \otimes m'_q) = m_1 \otimes \cdots \otimes m_p \otimes m'_1 \otimes \cdots \otimes m'_q,
+$$
+where $m_i, m'_j \in M$ for $1 \leq i \leq p$, $1 \leq j \leq q$.
+
+The tensor algebra $TM$ satisfies the following universal property: for any $K$-algebra $\Lambda$ and any $K$-linear map $f : M \to \Lambda$, there exists a unique algebra homomorphism $f_0 : TM \to \Lambda$ extending $f$, defined on homogeneous elements by
+$$
+f_0(m_1 \otimes \cdots \otimes m_p) = f(m_1) \cdot f(m_2) \cdot \cdots \cdot f(m_p).
+$$
+Equivalently, the tensor algebra functor $T$ is left adjoint to the forgetful functor from $K$-algebras to $K$-vector spaces.

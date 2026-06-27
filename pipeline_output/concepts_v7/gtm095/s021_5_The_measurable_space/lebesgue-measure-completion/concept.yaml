@@ -1,0 +1,23 @@
+id: lebesgue-measure-completion
+title_en: "Lebesgue measure and its completion"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: measure-theory
+difficulty: intermediate
+tags: [lebesgue-measure, completion, lebesgue-measurable-sets, borel-sets]
+depends_on:
+  required: [borel-sigma-algebra, probability-measure-from-distribution-function]
+  recommended: [caratheodory-extension-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "Shiryaev, A.N."
+    title: "Probability-1"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines Lebesgue measure on the real line and its extension to Lebesgue-measurable sets via completion"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

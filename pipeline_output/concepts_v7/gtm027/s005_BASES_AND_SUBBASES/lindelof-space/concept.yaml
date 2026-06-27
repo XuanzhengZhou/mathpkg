@@ -1,0 +1,23 @@
+id: lindelof-space
+title_en: "Lindelöf Space"
+title_zh: "Lindelöf 空间"
+type: definition
+domain: topology
+subdomain: covers-and-compactness
+difficulty: basic
+tags: [lindelof, countable-subcover, open-cover]
+depends_on:
+  required: [open-cover, subcover]
+  recommended: [lindelof-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Bases and Subbases"
+    pages: ""
+    role_in_book: "Definition of Lindelöf space"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

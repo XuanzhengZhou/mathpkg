@@ -1,0 +1,23 @@
+id: complete-filtration-in-abelian-category
+title_en: "Complete Filtration in an Abelian Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [filtration, abelian-category, limit, completion]
+depends_on:
+  required: [filtered-object, abelian-category, limit, colimit]
+  recommended: []
+  suggested: [completion-of-filtered-object]
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "8. Completions of Filtrations"
+    pages: ""
+    role_in_book: "Definition 8.5; defines completeness for filtered objects, needed for the isomorphism theorem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

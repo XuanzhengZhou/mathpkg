@@ -1,0 +1,23 @@
+id: left-lie-algebra-module
+title_en: "Left $\mathfrak{g}$-Module"
+title_zh: "左 g-模"
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [lie-algebra, module, representation, universal-enveloping-algebra]
+depends_on:
+  required: [lie-algebra, lie-algebra-homomorphism]
+  recommended: [module-over-associative-algebra, representation-theory]
+  suggested: [universal-enveloping-algebra]
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the objects on which Lie algebra cohomology is computed"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

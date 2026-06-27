@@ -1,0 +1,23 @@
+id: kan-extension-left-adjoint
+title_en: "Kan Extension as Left Adjoint to Restriction"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [kan-extension, adjoint-functor, colimit, functor-category]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX"
+    section: "5. Kan Extensions"
+    pages: ""
+    role_in_book: "Constructs the left Kan extension as a colimit, establishing it as left adjoint to precomposition"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

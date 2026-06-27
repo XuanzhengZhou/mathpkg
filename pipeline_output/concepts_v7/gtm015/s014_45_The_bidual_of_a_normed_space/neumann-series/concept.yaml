@@ -1,0 +1,23 @@
+id: neumann-series
+title_en: "Neumann series for Banach algebra elements"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: banach-algebras
+difficulty: intermediate
+tags: [neumann-series, banach-algebra, invertible, geometric-series]
+depends_on:
+  required: [banach-algebra-definition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "50"
+    section: "Invertibility in a Banach algebra with unity"
+    pages: ""
+    role_in_book: "Elements with norm < 1 have convergent geometric series, 1-z invertible"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

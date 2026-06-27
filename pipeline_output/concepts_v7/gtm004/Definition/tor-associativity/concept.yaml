@@ -1,0 +1,23 @@
+id: tor-associativity
+title_en: "Associativity of the Tor Functor"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [tor, associativity, tensor-product, abelian-groups]
+depends_on:
+  required: [tor-functor, tensor-product, kunneth-theorem]
+  recommended: [ext-functor]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "V"
+    section: "4"
+    pages: ""
+    role_in_book: "Theorem 4.2: associativity relations for Tor and tensor product of abelian groups"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

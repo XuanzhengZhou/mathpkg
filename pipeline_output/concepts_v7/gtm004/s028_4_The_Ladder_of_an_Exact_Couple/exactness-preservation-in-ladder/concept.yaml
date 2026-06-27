@@ -1,0 +1,23 @@
+id: exactness-preservation-in-ladder
+title_en: "Exactness preservation in the ladder construction"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [exact-couple, spectral-sequence, exactness, ladder, exact-sequence]
+depends_on:
+  required: [q-pullback-process, q-pushout-process]
+  recommended: [exact-couple]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "4. The Ladder of an Exact Couple"
+    pages: ""
+    role_in_book: "Theorem 4.4: If the bottom row is exact, all rows of the ladder are exact"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

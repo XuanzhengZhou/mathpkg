@@ -1,0 +1,23 @@
+id: riemanns-inequality
+title_en: "Riemann's Inequality (Riemann's Theorem)"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [riemanns-theorem, riemann-roch, riemann-inequality, divisor, l-space, genus]
+depends_on:
+  required: []
+  recommended: [divisor, riemann-roch-space, genus, linear-equivalence]
+  suggested: [noethers-theorem]
+source_books:
+  - book_id: "gtm044"
+    author: "Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "V"
+    section: "7"
+    pages: ""
+    role_in_book: "Lower bound for the dimension of the Riemann-Roch space L(D) in terms of degree and genus"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

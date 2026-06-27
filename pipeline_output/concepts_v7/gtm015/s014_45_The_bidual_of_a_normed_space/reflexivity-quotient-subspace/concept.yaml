@@ -1,0 +1,23 @@
+id: reflexivity-quotient-subspace
+title_en: "Reflexivity of Subspaces and Quotients"
+title_zh: "子空间与商空间的自反性"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [reflexive-banach-space, closed-subspace, quotient-space]
+depends_on:
+  required: [reflexivity-weak-compactness]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "4"
+    section: "45"
+    pages: ""
+    role_in_book: "Characterizes reflexivity of a Banach space via its closed subspaces and quotient spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

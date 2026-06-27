@@ -1,0 +1,23 @@
+id: orthogonal-structure-on-vector-bundle
+title_en: "Orthogonal Structure on a Vector Bundle"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundle, inner-product, orthogonal-group, riemannian-metric, gram-schmidt]
+depends_on:
+  required: [vector-bundle]
+  recommended: [inner-product-space, orthogonal-group]
+  suggested: [riemannian-manifold]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "4.2"
+    pages: ""
+    role_in_book: "Defines the notion of a continuously varying inner product on a vector bundle"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

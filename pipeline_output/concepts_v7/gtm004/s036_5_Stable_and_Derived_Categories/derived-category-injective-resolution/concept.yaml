@@ -1,0 +1,23 @@
+id: derived-category-injective-resolution-equivalence
+title_en: "Derived Category and Injective Resolutions"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [derived-category, injective-resolution, equivalence-of-categories]
+depends_on:
+  required: [derived-category, injective-resolution, enough-injectives]
+  recommended: [homotopy-category]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "5. Stable and Derived Categories"
+    pages: "360-376"
+    role_in_book: "Theorem 5.1: When enough injectives exist, the homotopy category of injective complexes is equivalent to D+"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

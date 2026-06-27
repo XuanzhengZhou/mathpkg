@@ -1,0 +1,23 @@
+id: irreducibility-equivalence
+title_en: "Irreducibility equivalence between group and algebra representations"
+title_zh: "群表示与代数表示不可约性的等价"
+type: lemma
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: advanced
+tags: [irreducible-representation, commutant, group-c-star-algebra, left-regular-representation]
+depends_on:
+  required: []
+  recommended: [irreducible-representation, cstar-algebra-left-regular, commutant, star-representation-to-unitary]
+  suggested: [gelfand-raikov-theorem]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "69"
+    section: "Group representations"
+    pages: "312"
+    role_in_book: "Lemma (69.25) connecting irreducibility of group and algebra representations"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

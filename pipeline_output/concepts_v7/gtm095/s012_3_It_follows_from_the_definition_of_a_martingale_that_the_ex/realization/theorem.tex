@@ -1,0 +1,25 @@
+If we consider $\mathcal{D}_k$ as the decomposition induced by observations for $k$ steps (for example, $\mathcal{D}_k = \mathcal{D}_{\eta_1, \ldots, \eta_k}$, the decomposition induced by the variables $\eta_1, \ldots, \eta_k$), then the $\mathcal{D}_k$-measurability of $I_{\{\tau=k\}}(\omega)$ means that the realization or nonrealization of the event $\{\tau=k\}$ is determined only by observations for $k$ steps (and is independent of the “future”).
+
+If $\mathcal{B}_k = \alpha(\mathcal{D}_k)$, then the $\mathcal{D}_k$-measurability of $I_{\{\tau=k\}}(\omega)$ is equivalent to the assumption that
+
+$$\{\tau=k\} \in \mathcal{B}_k.$$
+
+(6)
+
+We have already encountered specific examples of stopping times: the times $\tau_k^x$ and $\sigma_{2n}$ introduced in Sects. 9 and 10. Those times are special cases of stopping times of the form
+
+$$\tau^A = \min\{0 < k \leq n : \xi_k \in A\},$$
+
+$$\sigma^A = \min
+
+$$E(\xi_{\tau} \mid D) = \frac{E(\xi_{\tau} I_D)}{P(D)}$$
+$$= \frac{1}{P(D)} \sum_{l=1}^{n} E(\xi_l \cdot I_{\{\tau=l\}} \cdot I_D)$$
+$$= \frac{1}{P(D)} \sum_{l=1}^{n} E[E(\xi_n \mid \mathcal{D}_l) \cdot I_{\{\tau=l\}} \cdot I_D]$$
+$$= \frac{1}{P(D)} \sum_{l=1}^{n} E[E(\xi_n I_{\{\tau=l\}} \cdot I_D)$$
+$$= \frac{1}{P(D)} E(\xi_n I_D) = E(\xi_n \mid D),$$
+
+and consequently
+$$E(\xi_{\tau} \mid \mathcal{D}_1) = E(\xi_n \mid \mathcal{D}_1) = \xi_1.$$
+
+The equation $E \xi_{\tau} = E \xi_1$ then follows in an obvious way.
+This completes the proof of the theorem.

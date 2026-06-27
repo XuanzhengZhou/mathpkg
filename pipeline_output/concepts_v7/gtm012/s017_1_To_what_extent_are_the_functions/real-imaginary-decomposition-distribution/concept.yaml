@@ -1,0 +1,23 @@
+id: real-imaginary-decomposition-distribution
+title_en: "Real and Imaginary Parts of a Periodic Distribution"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: basic
+tags: [distributions, real-part, imaginary-part, decomposition, complex-conjugate]
+depends_on:
+  required: [periodic-distributions, complex-conjugate-distribution]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "8"
+    section: "8. Summary of operations on periodic distributions"
+    pages: ""
+    role_in_book: "Defines real distributions and the canonical decomposition into real and imaginary parts"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

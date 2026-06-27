@@ -1,0 +1,23 @@
+id: orthogonal-decomposition-L2
+title_en: "Orthogonal Decomposition in L^2"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: L2-theory
+difficulty: intermediate
+tags: [orthogonal-decomposition, L2-space, projection, perpendicular]
+depends_on:
+  required: [projection-onto-closed-linear-manifold]
+  recommended: [conditional-expectation-wide-sense]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "Defines the orthogonal decomposition of a random variable with respect to a closed linear manifold"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

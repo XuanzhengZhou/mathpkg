@@ -1,0 +1,23 @@
+id: morse-inequalities
+title_en: "Morse Inequalities"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: morse-theory
+difficulty: advanced
+tags: [morse-inequalities, betti-number, type-number, alternating-sum, homology]
+depends_on:
+  required: [morse-function, type-number-of-morse-function, betti-numbers-and-homological-euler-characteristic, admissible-morse-function]
+  recommended: [relative-homology]
+  suggested: [morse-homology, smale-condition]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "The central inequality theorem relating critical points to homology"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

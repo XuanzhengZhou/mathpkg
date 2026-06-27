@@ -1,0 +1,23 @@
+id: vector-bundle
+title_en: "Vector Bundle"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundle, atlas, transition-function, cocycle, fibre-bundle]
+depends_on:
+  required: []
+  recommended: [topological-space, vector-space, homeomorphism, general-linear-group]
+  suggested: [manifold, tangent-bundle]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "4.1"
+    pages: ""
+    role_in_book: "Core definition introducing the fundamental object of Chapter 4"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

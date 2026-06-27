@@ -1,0 +1,23 @@
+id: product-topological-group
+title_en: "Product Topological Group"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: topological-algebra
+difficulty: basic
+tags: [topological-group, product-topology, direct-product]
+depends_on:
+  required: [topological-group]
+  recommended: [product-topology, direct-product-of-groups]
+  suggested: [vector-group, torus]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "1"
+    section: "2. Topological Groups"
+    pages: ""
+    role_in_book: "Theorem enabling construction of new topological groups from existing ones"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

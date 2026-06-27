@@ -1,0 +1,23 @@
+id: hausdorff-unique-convergence
+title_en: "Hausdorff Space iff Unique Net Convergence"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: separation-axioms
+difficulty: intermediate
+tags: ["Hausdorff", "net", "convergence", "uniqueness-of-limits", "T2"]
+depends_on:
+  required: ["hausdorff-space", "net", "convergence-of-net"]
+  recommended: ["topological-space"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "2"
+    section: "Directed Sets and Nets"
+    pages: "81-87"
+    role_in_book: "Theorem 3. Establishes the equivalence between the Hausdorff separation axiom and uniqueness of net limits, a fundamental characterization."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: invertible-elements-not-open
+title_en: "Invertible Elements Not Open in the Measure Algebra"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [topological-ring, invertible-elements, pathology, measure-algebra]
+depends_on:
+  required: [measurable-quotient-is-metrizable-complete-tvs, line-in-neighborhood-small-measure]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "Chapter 2 – Topological Vector Spaces"
+    section: "15. The space (S)"
+    pages: ""
+    role_in_book: "Shows [M] differs fundamentally from Banach algebras where the invertible group is always open."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: jointly-continuous-topology
+title_en: "Jointly Continuous Topology"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: function-spaces
+difficulty: basic
+tags: [joint-continuity, evaluation-map, product-topology]
+depends_on:
+  required: [product-topology, continuous-function]
+  recommended: [function-space, compact-open-topology]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Compact Open Topology and Joint Continuity"
+    pages: ""
+    role_in_book: "Defines when a topology for a function space makes the evaluation map jointly continuous"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

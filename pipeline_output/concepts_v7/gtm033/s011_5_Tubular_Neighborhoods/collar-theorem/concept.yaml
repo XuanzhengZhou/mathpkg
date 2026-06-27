@@ -1,0 +1,23 @@
+id: collar-theorem
+title_en: "Collar Theorem"
+title_zh: "领口定理"
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [collar, manifold-boundary, smooth-manifold, retraction]
+depends_on:
+  required: [collar, manifold-with-boundary, partition-of-unity]
+  recommended: [smooth-retraction, regular-value]
+  suggested: []
+source_books:
+  - book_id: gtm033
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "6. Collars and Tubular Neighborhoods of Neat Submanifolds"
+    pages: ""
+    role_in_book: "Theorem 6.1 - Every C^∞ manifold boundary admits a collar neighborhood"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

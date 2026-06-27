@@ -1,0 +1,23 @@
+id: quotient-not-hausdorff
+title_en: "Quotient space that is not Hausdorff"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: quotient-spaces
+difficulty: advanced
+tags: [quotient-space, Hausdorff, counterexample, product-space]
+depends_on:
+  required: [quotient-topology, Hausdorff-space]
+  recommended: [Tychonoff-plank]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: ""
+    section: "F. Example (The Tychonoff Plank) on subspaces of normal spaces"
+    pages: ""
+    role_in_book: "Counterexample showing a quotient of a Hausdorff space need not be Hausdorff"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: closed-ideal-extension-lattice
+title_en: "Extension from J(R) to J(R_p) Preserves Sums and Intersections"
+title_zh: "从 J(R) 到 J(R_p) 的扩张保持和与交"
+type: proposition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [closed-ideal, extension, lattice-homomorphism, radical, sum, intersection]
+depends_on:
+  required: []
+  recommended: [closed-ideal, ideal-extension, radical-ideal, jacobson-radical]
+  suggested: [extension-preserves-intersections]
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Establishes that extension is a lattice homomorphism on closed ideals"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

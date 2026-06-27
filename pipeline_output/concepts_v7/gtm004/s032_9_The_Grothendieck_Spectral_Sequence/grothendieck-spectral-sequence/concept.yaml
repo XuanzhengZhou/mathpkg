@@ -1,0 +1,23 @@
+id: grothendieck-spectral-sequence
+title_en: "Grothendieck Spectral Sequence"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [spectral-sequence, derived-functor, grothendieck, acyclic, composite-functor]
+depends_on:
+  required: [spectral-sequence, derived-functor, injective-resolution, right-g-acyclic-object]
+  recommended: [double-complex, filtered-complex]
+  suggested: [lyndon-hochschild-serre-spectral-sequence]
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "9. The Grothendieck Spectral Sequence"
+    pages: ""
+    role_in_book: "Central theorem of the section; relates derived functors of composite functors via a spectral sequence"
+content_hash: "3da7e0678026a70cce1bec630c3e75b15a1725bebda867f3f32d6440196ca982"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

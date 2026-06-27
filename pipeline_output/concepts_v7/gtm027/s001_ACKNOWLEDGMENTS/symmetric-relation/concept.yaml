@@ -1,0 +1,23 @@
+id: symmetric-relation
+title_en: "Symmetric Relation"
+title_zh: "对称关系"
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [symmetric, relation]
+depends_on:
+  required: [relation-definition, inverse-relation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Relations"
+    pages: "8"
+    role_in_book: "Property used to define equivalence relations"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

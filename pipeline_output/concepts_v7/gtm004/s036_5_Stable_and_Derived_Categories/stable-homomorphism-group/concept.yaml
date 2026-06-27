@@ -1,0 +1,23 @@
+id: stable-homomorphism-group
+title_en: "Stable Homomorphism Group"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [stable-category, homomorphism, quotient-group]
+depends_on:
+  required: [projective-homomorphism, module-homomorphism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "X"
+    section: "5. Stable and Derived Categories"
+    pages: ""
+    role_in_book: "Definition of the quotient group of homomorphisms modulo projective homomorphisms"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

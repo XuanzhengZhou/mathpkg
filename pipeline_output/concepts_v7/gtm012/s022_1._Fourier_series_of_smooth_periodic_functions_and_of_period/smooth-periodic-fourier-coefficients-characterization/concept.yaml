@@ -1,0 +1,23 @@
+id: smooth-periodic-fourier-coefficients-characterization
+title_en: "Characterization of Fourier Coefficients of Smooth Periodic Functions"
+title_zh: "光滑周期函数傅里叶系数的刻画"
+type: theorem
+domain: analysis
+subdomain: fourier-analysis
+difficulty: intermediate
+tags: [fourier-coefficients, periodic-functions, rapid-decrease, characterization]
+depends_on:
+  required: [rapidly-decreasing-sequence, fourier-coefficients, smooth-periodic-functions]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "5"
+    section: "§1. Fourier series of smooth periodic functions and of periodic distributions"
+    pages: ""
+    role_in_book: "Theorem 1.1: Gives necessary and sufficient condition for a sequence to be Fourier coefficients of a smooth periodic function"
+content_hash: "8f14e45fceea167a5a36dedd4bea2543"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

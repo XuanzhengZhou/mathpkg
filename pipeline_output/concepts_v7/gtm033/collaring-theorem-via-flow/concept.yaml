@@ -1,0 +1,23 @@
+id: collaring-theorem-via-flow
+title_en: "Collaring Theorem via Flow of a Vector Field"
+title_zh: "通过向量场流构造领子的定理"
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [collar, boundary, vector-field, flow, embedding]
+depends_on:
+  required: [boundary-manifold, flow-of-vector-field]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "6"
+    section: "2"
+    pages: "152"
+    role_in_book: "Alternative proof of the collaring theorem using differential equations"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

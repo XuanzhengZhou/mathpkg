@@ -1,0 +1,9 @@
+The set of all tangent vectors is $TM$, the tangent bundle of $M$. The map
+$$p = p_M: TM \to M, \qquad [x,i,a] \mapsto x$$
+is well defined. For any subset $A \subset M$ we put $p^{-1}(A) = T_A M$; also $p^{-1}(x) = M_x$ for $x \in M$. If $U \subset M$ is open then $(U, \Phi|_U)$ is also a $C^{r+1}$ manifold, and we make the identification $T_U M = TU$.
+
+For any chart $(\varphi_i, U_i) \in \Phi$ there is a well-defined bijective map
+$$T\varphi_i: TU_i \to \varphi_i(U_i) \times \mathbb{R}^n \subset \mathbb{R}^n \times \mathbb{R}^n, \qquad [x,i,a] \mapsto (\varphi_i(x), a).$$
+The map $(T\varphi_j)(T\varphi_i)^{-1}$ is the homeomorphism
+$$(y,a) \mapsto (\varphi_j\varphi_i^{-1}(y), D(\varphi_j\varphi_i^{-1})(y)a).$$
+It follows that $TM$ has a topology making each $T\varphi_i$ a homeomorphism, and this topology is unique.

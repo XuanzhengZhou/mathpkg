@@ -1,0 +1,23 @@
+id: closed-balanced-convex-hull-compact
+title_en: "Closed balanced convex hull of a set with compact closure is compact"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [balanced-convex-hull, closed-convex-hull, compact-closure, complete-locally-convex-space]
+depends_on:
+  required: ["convex-hull-finite-union-compact-convex"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "35"
+    section: "Compact convex sets in a TVS"
+    pages: "150"
+    role_in_book: "Corollary giving compactness of closed balanced convex hull in complete locally convex spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

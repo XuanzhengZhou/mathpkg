@@ -1,0 +1,23 @@
+id: spectral-sequence-en-formula
+title_en: "Formula for Terms of a Spectral Sequence (Theorem 1.2)"
+title_zh: "谱序列项的公式（定理 1.2）"
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [spectral-sequence, exact-couple, en-term, differential]
+depends_on:
+  required: [exact-couple, spectral-sequence, derived-couple-exactness]
+  recommended: [abelian-category]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "1. Exact Couples and Spectral Sequences"
+    pages: ""
+    role_in_book: "Provides explicit formulas for the terms and differentials of the spectral sequence derived from an exact couple"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

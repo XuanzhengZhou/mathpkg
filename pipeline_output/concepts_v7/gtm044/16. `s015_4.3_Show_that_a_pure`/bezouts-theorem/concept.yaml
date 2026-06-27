@@ -1,0 +1,23 @@
+id: bezouts-theorem
+title_en: "Bezout's Theorem for Projective Varieties"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: ["bezout", "degree", "intersection-product", "projective-variety", "intersection-theory"]
+depends_on:
+  required: ["degree-of-product-of-varieties", "intersection-multiplicity"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "7"
+    section: "Bezout's theorem"
+    pages: ""
+    role_in_book: "The main theorem of the chapter: the degree of an intersection product equals the product of the degrees"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

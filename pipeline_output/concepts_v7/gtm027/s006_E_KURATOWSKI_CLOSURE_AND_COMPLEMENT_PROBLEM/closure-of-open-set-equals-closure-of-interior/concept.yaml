@@ -1,0 +1,23 @@
+id: closure-of-open-set-equals-closure-of-interior
+title_en: "Closure of an Open Set Equals Closure of Its Interior"
+title_zh: "开集的闭包等于其内部的闭包"
+type: lemma
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [closure, interior, open-set, complement]
+depends_on:
+  required: [closure-operator, interior-operator]
+  recommended: []
+  suggested: [kuratowski-closure-complement-problem]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "E"
+    pages: ""
+    role_in_book: "lemma-used-in-closure-complement-problem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

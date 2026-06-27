@@ -1,0 +1,23 @@
+id: maschke-theorem-homological
+title_en: "Theorem 4.1 (Maschke) — Homological Formulation"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: intermediate
+tags: ['Maschke', 'group algebra', 'Ext', 'characteristic p', 'semisimplicity']
+depends_on:
+  required: ['group-algebra', 'ext-functor', 'semisimple-module']
+  recommended: ['maschke-theorem-classical']
+  suggested: ['modular-representation-theory-intro']
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "X. Survey of Some Applications"
+    section: "4. Modular Representation Theory"
+    pages: ""
+    role_in_book: ""
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

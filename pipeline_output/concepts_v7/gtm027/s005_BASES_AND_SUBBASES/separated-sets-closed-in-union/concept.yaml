@@ -1,0 +1,23 @@
+id: separated-sets-closed-in-union
+title_en: "Characterization of Separated Sets via Relative Topology"
+title_zh: "隔离集在相对拓扑下的刻画"
+type: proposition
+domain: topology
+subdomain: connectedness
+difficulty: intermediate
+tags: [separated, relative-topology, closed-in-union]
+depends_on:
+  required: [separated-sets, subspace, subspace-topology-properties]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Bases and Subbases"
+    pages: ""
+    role_in_book: "Theorem 17 — separated iff both closed (or both open) in the union"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

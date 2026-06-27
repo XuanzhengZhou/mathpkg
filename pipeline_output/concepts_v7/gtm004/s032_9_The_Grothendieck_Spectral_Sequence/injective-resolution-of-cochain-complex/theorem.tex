@@ -1,0 +1,31 @@
+Let $F: \mathfrak{A} \to \mathfrak{B}$ be a left exact additive functor and let $I$ be an injective resolution of $A$ in $\mathfrak{A}$,
+
+$$I: I_0 \to I_1 \to I_2 \to \cdots.$$
+
+Write $F_r = FI_r$ and display the cocycles and coboundaries of the cochain complex
+
+$$F_0 \to F_1 \to F_2 \to \cdots$$
+
+as
+
+$$Z_0 \to F_0 \to B_1 \to Z_1 \to F_1 \to B_2 \to Z_2 \to F_2 \to \cdots.$$
+
+Then this may be resolved as a commutative diagram
+
+$$
+\begin{array}{cccccccc}
+Z_0 \to & F_0 \to & B_1 \to & Z_1 \to & F_1 \to & B_2 \to & \cdots \\
+\downarrow & \downarrow & \downarrow & \downarrow & \downarrow & \downarrow & \\
+K_{0,0} \to & J_{0,0} \to & L_{1,0} \to & K_{1,0} \to & J_{1,0} \to & L_{2,0} \to & \cdots \\
+\downarrow & \downarrow & \downarrow & \downarrow & \downarrow & \downarrow & \\
+K_{0,1} \to & J_{0,1} \to & L_{1,1} \to & K_{1,1} \to & J_{1,1} \to & L_{2,1} \to & \cdots \\
+\downarrow & \downarrow & \downarrow & \downarrow & \downarrow & \downarrow & \\
+\vdots & \vdots & \vdots & \vdots & \vdots & \vdots &
+\end{array}
+$$
+
+where each column is an (augmented) injective resolution of the object appearing at its head, and
+
+$$K_{r,s} \to J_{r,s} \to L_{r+1,s}$$
+
+is exact for all $r, s$.

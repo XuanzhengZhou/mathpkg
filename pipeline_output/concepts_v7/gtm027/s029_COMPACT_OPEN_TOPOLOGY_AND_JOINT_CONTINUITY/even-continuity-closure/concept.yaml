@@ -1,0 +1,23 @@
+id: even-continuity-closure
+title_en: "Theorem 7.19 — Even Continuity and Pointwise Closure"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: function-spaces
+difficulty: advanced
+tags: [even-continuity, pointwise-convergence, closure, joint-continuity]
+depends_on:
+  required: [evenly-continuous, pointwise-convergence-topology, regular-space]
+  recommended: [jointly-continuous-topology]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Even Continuity"
+    pages: ""
+    role_in_book: "Theorem 7.19 — the pointwise closure of an evenly continuous family is evenly continuous, and pointwise topology is jointly continuous on the closure"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

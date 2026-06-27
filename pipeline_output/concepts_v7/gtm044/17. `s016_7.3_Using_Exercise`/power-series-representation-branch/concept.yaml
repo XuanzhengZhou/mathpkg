@@ -1,0 +1,23 @@
+id: power-series-representation-branch
+title_en: "Power Series Representation of a Branch"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-curves
+difficulty: advanced
+tags: [branch, power-series, uniformizing-parameter, valuation-ring, center]
+depends_on:
+  required: [uniformizing-parameter, valuation-ring]
+  recommended: [branch, power-series, fractional-power-series]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "V"
+    section: "2"
+    pages: ""
+    role_in_book: "Theorem 2.33 — Every branch can be parametrized in a canonical simple form"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

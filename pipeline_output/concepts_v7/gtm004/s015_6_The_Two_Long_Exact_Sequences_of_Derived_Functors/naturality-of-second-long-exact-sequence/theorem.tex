@@ -1,0 +1,26 @@
+\begin{proposition}[Naturality of the Second Long Exact Sequence]
+Let $\alpha: A \rightarrow A'$ be a homomorphism of $A$-modules and let the diagram
+\[
+\begin{array}{ccccc}
+T' & \xrightarrow{\mu} & T & \xrightarrow{\varepsilon} & T'' \\
+\downarrow\scriptstyle{\varphi'} & & \downarrow\scriptstyle{\varphi} & & \downarrow\scriptstyle{\varphi''} \\
+S' & \xrightarrow{\nu} & S & \xrightarrow{\eta} & S''
+\end{array}
+\]
+be a commutative diagram of additive functors and natural transformations such that the rows are exact on projectives. Then the following diagram is commutative:
+\[
+\begin{array}{ccccccc}
+\cdots \rightarrow L_n T' A & \xrightarrow{L_n \mu_A} & L_n T A & \xrightarrow{L_n \varepsilon_A} & L_n T'' A & \xrightarrow{\omega_n} & L_{n-1} T' A & \rightarrow \cdots \\
+\downarrow\scriptstyle{L_n \varphi'_A} & & \downarrow\scriptstyle{L_n \varphi_A} & & \downarrow\scriptstyle{L_n \varphi''_A} & & \downarrow\scriptstyle{L_n \varphi'_A} \\
+\cdots \rightarrow L_n S' A & \xrightarrow{L_n \nu_A} & L_n S A & \xrightarrow{L_n \eta_A} & L_n S'' A & \xrightarrow{\bar{\omega}_n} & L_{n-1} S' A & \rightarrow \cdots
+\end{array}
+\]
+and the following diagram is commutative:
+\[
+\begin{array}{ccccccc}
+\cdots \rightarrow L_n T' A & \xrightarrow{L_n \mu_A} & L_n T A & \xrightarrow{L_n \varepsilon_A} & L_n T'' A & \xrightarrow{\omega_n} & L_{n-1} T' A & \rightarrow \cdots \\
+\downarrow\scriptstyle{L_n T' \alpha} & & \downarrow\scriptstyle{L_n T \alpha} & & \downarrow\scriptstyle{L_n T'' \alpha} & & \downarrow\scriptstyle{L_n T' \alpha} \\
+\cdots \rightarrow L_n T' A' & \xrightarrow{L_n \mu_{A'}} & L_n T A' & \xrightarrow{L_n \varepsilon_{A'}} & L_n T'' A' & \xrightarrow{\omega_n'} & L_{n-1} T' A' & \rightarrow \cdots
+\end{array}
+\]
+\end{proposition}

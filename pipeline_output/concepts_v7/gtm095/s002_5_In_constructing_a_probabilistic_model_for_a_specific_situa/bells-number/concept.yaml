@@ -1,0 +1,23 @@
+id: bells-number
+title_en: "Bell Number"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: combinatorics
+difficulty: intermediate
+tags: [bell-number, set-partitions, decompositions, combinatorics]
+depends_on:
+  required: [decomposition-of-sample-space]
+  recommended: []
+  suggested: [stirling-numbers]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "6"
+    pages: ""
+    role_in_book: "Formula for Bell number B_N counting the number of decompositions of an N-element set"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

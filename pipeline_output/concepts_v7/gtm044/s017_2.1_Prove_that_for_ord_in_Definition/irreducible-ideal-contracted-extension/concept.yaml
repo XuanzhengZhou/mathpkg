@@ -1,0 +1,23 @@
+id: irreducible-ideal-contracted-extension
+title_en: "Irreducible Ideals Contained in p Satisfy q = q^{ec}"
+title_zh: "包含在 p 中的不可约理想满足 q = q^{ec}"
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [irreducible-ideal, extension, contraction, prime-ideal, ideal-correspondence]
+depends_on:
+  required: []
+  recommended: [ideal-extension, ideal-contraction, irreducible-ideal, prime-ideal]
+  suggested: [coordinate-ring-localization]
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Key result for the ideal correspondence under localization"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

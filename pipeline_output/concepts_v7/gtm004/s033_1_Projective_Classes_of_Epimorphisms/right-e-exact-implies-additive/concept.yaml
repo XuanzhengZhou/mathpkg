@@ -1,0 +1,23 @@
+id: right-e-exact-implies-additive
+title_en: "Right E-Exact Functor is Additive"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [projective-class, relative-homological-algebra, functor, additive]
+depends_on:
+  required: [right-e-exact-functor, additive-functor]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "2. E-Derived Functors"
+    pages: "318-328"
+    role_in_book: "Proposition 2.4: Every right E-exact functor is additive"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

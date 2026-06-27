@@ -1,0 +1,13 @@
+id: duality-principle
+title_en: "Duality Principle in Category Theory"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: category-theory
+difficulty: basic
+tags: [duality, opposite-category, epimorphism, monomorphism]
+depends_on: {required: [category, opposite-category], recommended: [monomorphism-in-a-category, epimorphism-in-a-category], suggested: []}
+source_books: [{book_id: "gtm004", author: "Peter J. Hilton, Urs Stammbach", title: "A Course in Homological Algebra (2ed, 1997)", chapter: "II. Categories and Functors", section: "3. Duality", pages: "", role_in_book: "Explains the informal duality principle: interchanging epi/mono and reversing arrows in any category-theoretic statement yields a valid dual statement"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

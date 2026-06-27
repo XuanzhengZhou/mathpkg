@@ -1,0 +1,23 @@
+id: transitive-relation
+title_en: "Transitive Relation"
+title_zh: "传递关系"
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [transitive, relation, composition]
+depends_on:
+  required: [relation-definition, composition-of-relations]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Relations"
+    pages: "8"
+    role_in_book: "Defining property of orderings; third property of equivalence relations"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

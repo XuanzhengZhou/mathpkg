@@ -1,0 +1,23 @@
+id: baers-criterion
+title_en: "Baer's Criterion for Injective Modules"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [baers-criterion, injective-module, left-ideal, extension-property]
+depends_on:
+  required: []
+  recommended: [injective-module, module-over-a-ring]
+  suggested: [divisible-module, principal-ideal-domain]
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I. Modules"
+    section: "7. Injective Modules over a Principal Ideal Domain"
+    pages: ""
+    role_in_book: "Exercise 7.1; the fundamental criterion reducing injectivity checking from all monomorphisms to inclusions of left ideals"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

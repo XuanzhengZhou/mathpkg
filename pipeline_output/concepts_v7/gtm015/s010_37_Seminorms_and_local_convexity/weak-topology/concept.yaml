@@ -1,0 +1,23 @@
+id: weak-topology
+title_en: "The weak topology $\sigma(E,F)$ and $\sigma(F,E)$ induced by a duality"
+title_zh: "由对偶诱导的弱拓扑$\sigma(E,F)$与$\sigma(F,E)$"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [weak-topology, duality, initial-topology, locally-convex-space]
+depends_on:
+  required: [duality-between-vector-spaces, initial-topology, locally-convex-topology-from-seminorms]
+  recommended: [duality-notation, injective-duality-mapping]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "3"
+    section: "38"
+    pages: ""
+    role_in_book: "foundational_definition"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

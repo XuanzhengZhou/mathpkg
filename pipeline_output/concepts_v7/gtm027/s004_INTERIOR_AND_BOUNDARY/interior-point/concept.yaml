@@ -1,0 +1,23 @@
+id: interior-point
+title_en: "Interior Point"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [interior, point, neighborhood, topological-space]
+depends_on:
+  required: [topological-space, neighborhood]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Interior and Boundary"
+    pages: ""
+    role_in_book: "Introduces the notion of interior point as the inverse relation of neighborhood"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

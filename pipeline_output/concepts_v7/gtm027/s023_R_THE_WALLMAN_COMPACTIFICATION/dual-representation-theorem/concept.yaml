@@ -1,0 +1,23 @@
+id: dual-representation-theorem
+title_en: "Dual Representation Theorem (Stone Duality)"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: stone-duality
+difficulty: advanced
+tags: ["Stone-duality", "Boolean-algebra", "Boolean-space", "representation", "duality"]
+depends_on:
+  required: ["stone-representation-theorem", "boolean-space", "boolean-algebra", "characteristic-ring-boolean-space"]
+  recommended: ["wallman-compactification"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "The Wallman Compactification"
+    pages: "165-168"
+    role_in_book: "The dual representation theorem: the category of Boolean algebras is dually equivalent to the category of Boolean spaces. Every Boolean algebra is isomorphic to the clopen algebra of its Stone space."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: completeness-preservation-uniformly-open
+title_en: "Completeness Preservation Under Uniformly Open Maps"
+title_zh: "一致开映射下的完备性保持"
+type: theorem
+domain: topology
+subdomain: metric-spaces
+difficulty: advanced
+tags: [complete-metric-space, uniformly-open, continuous-map, completeness-preservation, hausdorff]
+depends_on:
+  required: [complete-metric-space, uniformly-open-map, hausdorff-space]
+  recommended: [closed-relation-ball-lemma]
+  suggested: [baires-theorem, closed-graph-theorem, open-mapping-theorem]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "FOR METRIC SPACES ONLY"
+    pages: ""
+    role_in_book: "Concluding theorem of the chapter; uniformly open continuous images of complete metric spaces are complete metric (if Hausdorff)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

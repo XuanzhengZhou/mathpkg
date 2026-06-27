@@ -1,0 +1,23 @@
+id: degree-of-a-map
+title_en: "Degree of a Map"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [degree, manifold, orientation, regular-value, bordism]
+depends_on:
+  required: [compact-manifold, orientation, regular-value, connected-manifold]
+  recommended: [sard-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "5"
+    section: "Introduction"
+    pages: ""
+    role_in_book: "Core definition: the degree of a map between compact manifolds"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

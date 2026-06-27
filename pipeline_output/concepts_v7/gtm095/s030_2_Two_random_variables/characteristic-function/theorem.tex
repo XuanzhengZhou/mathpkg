@@ -1,0 +1,87 @@
+$$\varphi_\xi(t) = \int_{R^n} e^{i(t,x)} dF_\xi(x), \quad t \in R^n,$$ (3)
+
+where $F_\xi = F_\xi(x)$ is the distribution function of the vector $\xi = (\xi_1, \ldots, \xi_n)^*$, $x = (x_1, \ldots, x_n)^*$.
+
+If $F(x)$ has a density $f = f(x)$ then
+
+$$\varphi(t) = \int_{R^n} e^{i(t,x)} f(x) dx.$$
+
+In other words, in this case the characteristic function is just the Fourier transform of $f(x)$.
+
+It follows from (3) and Theorem 7 of Sect. 6 (on change of variable in a Lebesgue integral) that the characteristic function $\varphi_\xi(t)$ of a random vector can also be defined by
+
+$$\varphi_\xi(t) = \mathbb{E} e^{i(t,\xi)}, \quad t \in R^n.$$ (4)
+
+We now present some basic properties of characteristic functions, stated and proved for $n = 1$. Further important results for the general case will be given as problems.
+
+Let $\xi = \
+
+Moreover, if $\xi_1, \xi_2, \ldots, \xi_n$ are independent random variables and $S_n = \xi_1 + \cdots + \xi_n$, then
+
+$$\varphi_{S_n}(t) = \prod_{j=1}^{n} \varphi_{\xi_j}(t).$$
+
+In fact,
+
+$$\varphi_{S_n} = \mathsf{E} e^{it(\xi_1 + \cdots + \xi_n)} = \mathsf{E} e^{it\xi_1} \cdots e^{it\xi_n}$$
+
+$$= \mathsf{E} e^{it\xi_1} \cdots \mathsf{E} e^{it\xi_n} = \prod_{j=1}^{n} \varphi_{\xi_j}(t),$$
+
+where we have used the property that the expectation of a product of independent (bounded) random variables (either real or complex; see Theorem 6 of Sect. 6, and Problem 1) is equal to the product of their expectations.
+
+Property (6) is the key to the proofs of limit theorems for sums of independent random variables by the method of characteristic functions (see Sect. 3, Chap. 3). In this connection we note that the distribution function $F_{S_n}$ is expressed in terms of the distribution functions of the individual terms in a rather complicated way, namely $F_{S_n} = F_{\xi_1} \ast \cdots \ast F_{\xi_n}$, where $*$ denotes convolution (see Subsection 4 of Sect. 8).
+
+Here are some examples of characteristic functions.
+
+Example 1. The characteristic function of a Bernoulli random variable $\xi$ with $\mathsf{P}(\xi = 1) = p$, $\mathsf{P}(\xi = 0) = q$, $p + q = 1$, $1 > p > 0$, is
+
+$$\varphi_{\xi}(t) = pe^{it} + q.$$
+
+If $\xi_1, \ldots, \xi_n$ are independent identically distributed random variables like $\xi$, then, writing $T_n = (S_n - np)/\sqrt{npq}$, we have
+
+$$\varphi_{T_n}(t) = \math
+
+$$\varphi_{\eta}(t) = e^{-t^2/2}.$$  
+
+(10)
+
+We have
+
+$$\varphi_{\eta}(t) = E e^{it\eta} = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} e^{itx} e^{-x^2/2} dx$$
+
+$$= \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} \sum_{n=0}^{\infty} \frac{(itx)^n}{n!} e^{-x^2/2} dx = \sum_{n=0}^{\infty} \frac{(it)^n}{n!} \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} x^n e^{-x^2/2} dx$$
+
+$$= \sum_{n=0}^{\infty} \frac{(it)^2n}{(2n)!} (2n-1)!! = \sum_{n=0}^{\infty} \frac{(it)^2n}{(2n)!} \frac{(2n)!}{2^n n!}$$
+
+$$= \sum_{n=0}^{\infty} \left( -\frac{t^2}{2} \right)^n \cdot \frac{1}{n!} = e^{-t^2/2},$$
+
+where we have used the formula (see Problem 7 in Sect. 8)
+
+$$\frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} x^{2n} e^{-x^2/2} dx \equiv E \eta^{2n} = (2n-1)!!.$$
+
+Example 3. Let $\xi$ be a Poisson random variable,
+
+$$P(\xi = k) = \frac{e^{-\lambda} \lambda^k}{k!}, \quad k = 0, 1, \dots.$$
+
+Then
+
+$$E e^{it\xi} = \sum_{k=0}^{\infty} e^{itk} \frac{e^{-\lambda} \lambda^k}{k!} = e^{-\lambda} \sum_{k=0}^{\infty} \frac{(\lambda e^{it})^k}{k!} = \exp\{\lambda
+
+$$\varphi^{(r)}(t) = \int_R (ix)^r e^{itx} dF(x),$$
+
+$$E \xi^r = \frac{\varphi^{(r)}(0)}{i^r},$$
+
+$$\varphi(t) = \sum_{r=0}^{n} \frac{(it)^r}{r!} E \xi^r + \frac{(it)^n}{n!} \varepsilon_n(t),$$
+
+where $|\varepsilon_n(t)| \leq 3 E |\xi|^n$ and $\varepsilon_n(t) \to 0$, $t \to 0$;
+
+(6) if $\varphi^{(2n)}(0)$ exists and is finite then $E \xi^{2n} < \infty$;
+
+(7) if $E |\xi|^n < \infty$ for all $n \geq 1$ and
+
+$$\limsup_n \frac{(E |\xi|^n)^{1/n}}{n} = \frac{1}{T} < \infty,$$
+
+then
+
+$$\varphi(t) = \sum_{n=0}^{\infty} \frac{(it)^n}{n!} E \xi^n$$
+
+for all $|t| < T$.

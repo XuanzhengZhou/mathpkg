@@ -1,0 +1,23 @@
+id: limit-term-of-spectral-sequence
+title_en: "Limit Term of a Spectral Sequence"
+title_zh: "谱序列的极限项"
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [spectral-sequence, limit-term, colimit, convergence]
+depends_on:
+  required: [spectral-sequence]
+  recommended: [categorical-limit, colimit]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "1. Exact Couples and Spectral Sequences"
+    pages: ""
+    role_in_book: "Defines the ultimate target object that a spectral sequence converges to"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

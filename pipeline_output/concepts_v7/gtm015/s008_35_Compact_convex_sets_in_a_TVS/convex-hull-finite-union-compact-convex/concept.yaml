@@ -1,0 +1,23 @@
+id: convex-hull-finite-union-compact-convex
+title_en: "Convex hull of a finite union of compact convex sets is compact"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [convex-hull, compact-convex-set, total-boundedness, topological-vector-space]
+depends_on:
+  required: []
+  recommended: ["convex-hull-finite-set-compact"]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "35"
+    section: "Compact convex sets in a TVS"
+    pages: "148-149"
+    role_in_book: "Main theorem establishing compactness of convex hulls of finite unions of compact convex sets"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

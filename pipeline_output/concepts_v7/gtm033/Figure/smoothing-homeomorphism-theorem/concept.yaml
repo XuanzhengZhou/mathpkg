@@ -1,0 +1,23 @@
+id: smoothing-homeomorphism-theorem
+title_en: "Smoothing Homeomorphisms Along a Common Boundary"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [smoothing, homeomorphism, diffeomorphism, collar, tubular-neighborhood, gluing]
+depends_on:
+  required: [ambient-tubular-neighborhood, collar-neighborhood, diffeomorphism, homeomorphism]
+  recommended: [gluing-manifolds, isotopy-extension]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "8"
+    section: "1. Isotopy"
+    pages: ""
+    role_in_book: "Theorem 1.9. A key technical result: a homeomorphism that is already a diffeomorphism on two halves meeting along a common boundary can be smoothed to a global diffeomorphism."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

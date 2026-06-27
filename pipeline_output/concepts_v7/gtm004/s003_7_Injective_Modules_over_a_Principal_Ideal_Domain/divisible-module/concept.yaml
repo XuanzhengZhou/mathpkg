@@ -1,0 +1,23 @@
+id: divisible-module
+title_en: "Divisible Module"
+title_zh: "可除模"
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [module-theory, injective-module, divisible-module, integral-domain]
+depends_on:
+  required: [module, integral-domain]
+  recommended: [injective-module]
+  suggested: [principal-ideal-domain]
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I"
+    section: "7. Injective Modules over a Principal Ideal Domain"
+    pages: ""
+    role_in_book: "Foundational definition for characterizing injective modules over PIDs"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

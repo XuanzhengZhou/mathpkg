@@ -1,0 +1,38 @@
+and
+
+$$P_{\xi}(x_i) = F_{\xi}(x_i) - F_{\xi}(x_i -),$$
+
+where $F_{\xi}(x -) = \lim_{y \uparrow x} F_{\xi}(y)$.
+
+If we suppose that $x_1 < x_2 < \cdots < x_m$ and put $F_{\xi}(x_0) = 0$, then
+
+$$P_{\xi}(x_i) = F_{\xi}(x_i) - F_{\xi}(x_{i-1}), \quad i = 1, \ldots, m.$$
+
+The following diagrams (Fig. 5) exhibit $P_{\xi}(x)$ and $F_{\xi}(x)$ for a binomial random variable.
+
+Fig. 5
+
+It follows immediately from Definition 2 that the distribution function $F_{\xi} = F_{\xi}(x)$ has the following properties:
+
+(1) $F_{\xi}(-\infty) = 0$, $F_{\xi}(+\infty) = 1$;
+(2) $F_{\xi}(x)$ is continuous on the right ($F_{\xi}(x+) = F_{\xi}(x)$) and piecewise constant.
+
+Along with random variables it is often necessary to consider random vectors $\xi = (\xi_1, \ldots, \xi_r)$ whose components are random variables. For example, when we considered the multinomial distribution we were dealing with a random vector $v = (v_1, \ldots, v_r)$, where $v_i = v_i(\omega)$ was the number of elements equal to $b_i$, $i = 1, \ldots, r$, in the sequence $\omega = (a_1, \ldots, a_n)$.
+
+The set of probabilities
+
+$$P_{\xi}(x_1, \ldots, x_r) = \mathbb{P}\{\omega : \xi_1(\omega) = x_1, \ldots, \xi_r(\omega) = x_r\},$$
+
+where $x_i \in X_i$, the range of $\xi_i$, is called the probability distribution of the random vector $\xi$, and the function
+
+$$F_\xi(x_1, \ldots, x_r) = \text{P}\{\omega : \xi_1(\omega) \leq x_1, \ldots, \xi_r(\omega) \leq x_r\},$$
+
+where $x_i \in R^1$, is called the distribution function of the random vector $\xi = (\xi_1, \ldots, \xi_r)$.
+
+For example, for the random vector $v = (v_1, \ldots, v_r)$ mentioned above,
+
+$$P_v(n_1, \ldots, n_r) = C_n(n_1, \ldots, n_r)p_1^{n_1} \cdots p_r^{n_r}$$
+
+(see (2), Sect. 2).
+
+2. Let $\xi_1, \ldots, \xi_r$ be a set of random variables with values in a (finite) set $X \subseteq R^1$. Let $\mathcal{X}$ be the algebra of all subsets of $X$.

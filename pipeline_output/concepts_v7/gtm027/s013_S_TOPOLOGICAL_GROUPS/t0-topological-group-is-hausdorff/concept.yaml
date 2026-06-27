@@ -1,0 +1,23 @@
+id: t0-topological-group-is-hausdorff
+title_en: "T₀ Topological Group is Hausdorff"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-groups
+difficulty: intermediate
+tags: [topological-group, separation-axioms, T0, Hausdorff, T1, T2]
+depends_on:
+  required: [topological-group]
+  recommended: [t0-space, hausdorff-space, separation-axioms]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "S"
+    section: "Topological Groups"
+    pages: ""
+    role_in_book: "theorem (g); shows that weak separation implies strong separation in topological groups"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

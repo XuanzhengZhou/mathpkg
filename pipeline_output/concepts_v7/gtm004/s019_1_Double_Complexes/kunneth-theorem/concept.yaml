@@ -1,0 +1,33 @@
+id: kunneth-theorem
+title_en: Künneth Theorem
+title_zh: ''
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags:
+- Kunneth
+- tensor-product
+- homology
+- spectral-sequence
+- Tor
+depends_on:
+  required:
+  - tensor-product-of-chain-complexes
+  - tor-functor
+  recommended:
+  - universal-coefficient-theorem
+  suggested:
+  - kunneth-spectral-sequence
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 2. The Künneth Theorem
+  pages: ''
+  role_in_book: main theorem of Section 2; expresses homology of tensor product in
+    terms of homologies of the factors
+content_hash: 5d3c3c7c87fcf2c5
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

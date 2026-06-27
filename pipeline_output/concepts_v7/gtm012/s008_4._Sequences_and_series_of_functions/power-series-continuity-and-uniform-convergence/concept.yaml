@@ -1,0 +1,13 @@
+id: power-series-continuity-and-uniform-convergence
+title_en: "Continuity of power series and uniform convergence of partial sums on subdiscs"
+title_zh: "幂级数的连续性及部分和在子圆盘上的一致收敛性"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [power-series, uniform-convergence, continuity, partial-sums, radius-of-convergence, disc]
+depends_on: {required: [uniform-convergence, completeness-of-uniform-cauchy-sequences, power-series], recommended: [radius-of-convergence, continuous-function], suggested: []}
+source_books: [{book_id: "gtm012", author: "Richard Beals", title: "Advanced Mathematical Analysis", chapter: "4", section: "4. Sequences and series of functions", pages: "", role_in_book: "Theorem 4.3; establishes that power series define continuous functions inside the disc of convergence"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: compact-metric-image-cantor
+title_en: "Every Compact Metric Space is a Continuous Image of the Cantor Space 2^omega"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: metric-spaces
+difficulty: intermediate
+tags: [compact-metric, cantor-space, continuous-image, dyadic-space]
+depends_on:
+  required: [compact-metric-space, cantor-space, compact-hausdorff-image-cantor]
+  recommended: [second-countable, separable]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "N"
+    section: "Examples on Closed Maps and Local Compactness"
+    pages: ""
+    role_in_book: "corollary"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

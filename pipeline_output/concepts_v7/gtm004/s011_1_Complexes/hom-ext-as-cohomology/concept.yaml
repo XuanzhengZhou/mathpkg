@@ -1,0 +1,23 @@
+id: hom-ext-as-cohomology
+title_en: "Hom and Ext as Cohomology of a Cochain Complex"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [Ext, Hom, cohomology, projective-presentation, derived-functor]
+depends_on:
+  required: [chain-complex, homology-module]
+  recommended: [Ext-functor, projective-presentation, cochain-complex]
+  suggested: [derived-functor]
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV. Derived Functors"
+    section: "1. Complexes"
+    pages: ""
+    role_in_book: "Motivating example: Ext and Hom arise from a projective presentation as cohomology of a short cochain complex"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

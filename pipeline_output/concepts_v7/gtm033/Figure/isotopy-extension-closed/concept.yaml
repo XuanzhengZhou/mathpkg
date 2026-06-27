@@ -1,0 +1,23 @@
+id: isotopy-extension-closed
+title_en: "Isotopy Extension for Closed Submanifolds (Bounded Velocity)"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [isotopy-extension, closed-submanifold, bounded-velocity, diffeotopy]
+depends_on:
+  required: [time-dependent-field-diffeotopy, isotopy-extension-compact]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "8"
+    section: "1. Isotopy"
+    pages: ""
+    role_in_book: "Generalizes isotopy extension to closed (noncompact) submanifolds"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

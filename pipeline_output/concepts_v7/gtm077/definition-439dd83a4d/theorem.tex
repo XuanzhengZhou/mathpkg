@@ -1,0 +1,61 @@
+A system of complex numbers is called a number field (or, more briefly, a field) if it contains more than one number and if along with the numbers $\alpha$ and $\beta$ it always contains $\alpha + \beta$, $\alpha - \beta$, $\alpha\beta$, and, if $\beta \neq 0$, $\alpha/\beta$.
+
+This means that all rational operations can be performed unrestrictedly within the system. Following Kronecker the term domain of rationality is also used in place of the term field. The additional condition, that the system is to contain more than one element, only excludes the system which consists of just a zero element, which satisfies the remaining conditions of the definition.
+
+The concept of a field is related to the concept of a group. By definition, the numbers of a field form an infinite Abelian group under composition by addition. Furthermore the numbers of the field, excluding 0, also form an Abelian group under composition by multiplication.
+
+Examples of number fields are:
+
+The system of all rational numbers.
+The system of all real numbers.
+The system of all complex numbers.
+
+The system of all numbers of the form $R(\omega)$, where $R(x)$ runs through all rational functions of $x$ with rational numbers as coefficients, where $\omega$ is a fixed number.
+
+Since $\alpha/\alpha = 1$, each field thus contains the number 1, and thus also $1 + 1 = 2$, $1 - 1 = 0$ etc. Thus it contains all integers and hence also all
+
+quotients of these, that is, all rational numbers. For this reason, the field of rational numbers, which we will denote by $k(1)$ is called the absolute domain of rationality. This field is contained in every number field.
+
+In this chapter we will be concerned with the algebra of number fields while, after introduction of certain numbers of the field as integral numbers, the arithmetic properties of number fields will be dealt with in the remaining chapters.
+
+Now let $k$ be an arbitrary number field. By a polynomial over $k$ we mean a polynomial all of whose coefficients are numbers from $k$. The quotient of two polynomials over $k$ is called a rational function over $k$. If $f(x)$ and $g(x)$ are polynomials over $k$, then, as is known, if $g(x)$ is of degree at least 1, two polynomials $q(x)$ and $r(x)$ can be determined so that
+
+$$f(x) = q(x)g(x) + r(x),$$
+
+(32)
+
+where the degree of $r(x)$ is less than that of $g(x)$. We call $r(x)$ the remainder of $f(x)$ mod $g(x)$. The coefficients of $q(x)$ and $r(x)$ can be calculated entirely from those of $f(x)$ and $g(x)$ by means of rational operations, and hence these coefficients likewise belong to $k$. If $r(x)$ is equal to 0, then $f(x)$ is said to be divisible by $g(x)$ or $g(x)$ divides $f(x)$; in symbols
+
+$$g(x) \mid f(x).$$
+
+If, in (32), the degree $m$ of $f(x)$ is less than the degree $n$ of $g(x)$, then $q = 0$ and $r(x) = f(x)$. On the other hand, if $m \geq n$, then the degree of $q(x)$ is equal to $m - n$, $q(x)$ is not 0, and the degree of $r(x)$ is $< n$. Hence if each of the two polynomials $f(x)$ and $g(x)$ is divisible by the other, then they differ only by a constant factor. The trivial factors of any polynomial $f(x)$ are the constants, that is,
+
+over the field of real numbers. Because of this we must leave the problem of the exact nature of polynomials irreducible over $k$, without discussing it here, and be satisfied with their existence.
+
+The most important fact concerning polynomials over $k$ is stated in the following theorem:
+
+**Theorem 48.** Two arbitrary nonzero polynomials $f_1(x)$ and $f_2(x)$ over $k$ have a uniquely determined greatest common divisor $d(x)$, that is, there is a polynomial $d(x)$ with leading coefficient 1, such that
+
+$$d(x) \mid f_1(x), \quad d(x) \mid f_2(x)$$
+
+and every polynomial which divides $f_1(x)$ and $f_2(x)$, also divides $d(x)$.
+
+Moreover, $d(x)$ can be represented in the form
+
+$$d(x) = g_1(x)f_1(x) + g_2(x)f_2(x),$$
+
+(33)
+
+where $g_1(x)$ and $g_2(x)$ are polynomials over $k$, and thus $d(x)$ is also a polynomial over $k$.
+
+The proof is well known from elementary algebra, yet no importance is attached there to the nature of the numerical coefficients which appear. For this reason we reproduce quite briefly a proof based on the proof of the analogous fact for rational numbers (Theorems 1 and 2). Among the polynomials
+
+$$L(x) = u_1(x)f_1(x) + u_2(x)f_2(x),$$
+
+where $u_1(x)$ and $u_2(x)$ run through all polynomials over $k$, we consider such a polynomial with leading coefficient 1 whose degree is as small as possible. Let $d(x)$ be such a polynomial and suppose that (33) holds. If $d(x)$ is of degree 0, then it is $= 1$ and hence it divides $f_1(x)$ and $f_2(x)$. But even if it is of higher degree, it must divide $f_1(x)$, for let the remainder $r(x)$ of $f_1(x)$ mod $d(x)$ be determined
+
+$$f_1(x) = q(x)d(x) +
+
+We write $(f_1(x), f_2(x)) = d(x)$ and call $f_1(x)$ and $f_2(x)$ relatively prime if $d = 1$. The greatest common divisor of two polynomials is completely defined by this alone, not only relative to a definite field $k$, while, in general, the property of irreducibility of a polynomial is relative to the field $k$ to which it belongs.
+
+We have immediately from Theorem 48:

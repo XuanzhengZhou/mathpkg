@@ -1,0 +1,23 @@
+id: reflexivity-weak-compactness
+title_en: "Reflexivity and Weak Compactness of the Unit Ball"
+title_zh: "自反性与单位球的弱紧性"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [reflexive-banach-space, weak-topology, compactness, closed-unit-ball]
+depends_on:
+  required: [goldstines-theorem, weak-topology, canonical-embedding-bidual]
+  recommended: [banach-alaoglu-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "4"
+    section: "45"
+    pages: ""
+    role_in_book: "Characterizes reflexive Banach spaces via weak compactness of the closed unit ball"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

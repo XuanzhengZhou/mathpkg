@@ -1,0 +1,23 @@
+id: h1-with-trivial-coefficients
+title_en: "H^1 with Trivial Coefficients"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: ["H^1", "trivial-module", "Hom", "abelianization"]
+depends_on:
+  required: ["h1-as-cokernel", "augmentation-ideal-mod-square-isomorphic-to-abelianization"]
+  recommended: ["derivation-crossed-homomorphism"]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VI"
+    section: "4"
+    pages: ""
+    role_in_book: "Formula (4.6) — H^1(G,A) for trivial A"
+content_hash: "3a92d57f1c84"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

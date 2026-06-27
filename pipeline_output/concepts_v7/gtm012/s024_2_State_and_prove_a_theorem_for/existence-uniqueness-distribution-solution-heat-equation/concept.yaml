@@ -1,0 +1,23 @@
+id: existence-uniqueness-distribution-solution-heat-equation
+title_en: "Existence and uniqueness of distribution solution to the heat equation"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: partial-differential-equations
+difficulty: advanced
+tags: [heat-equation, periodic-distributions, existence, uniqueness, fourier-series, smoothness]
+depends_on:
+  required: [periodic-heat-equation, distribution-time-derivative, periodic-distributions]
+  recommended: [fourier-coefficients, uniform-convergence]
+  suggested: [classical-solution-heat-equation]
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "3"
+    section: "The heat equation: distribution solutions"
+    pages: ""
+    role_in_book: "Main theorem of §3: constructs a unique smooth solution for any periodic distribution initial data"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

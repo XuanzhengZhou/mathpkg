@@ -1,0 +1,8 @@
+A \textbf{contravariant functor} from a category $\mathfrak{C}$ to a category $\mathfrak{D}$ is a covariant functor
+$$F: \mathfrak{C}^{\text{opp}} \to \mathfrak{D}.$$
+
+Equivalently, a contravariant functor $F: \mathfrak{C} \to \mathfrak{D}$ assigns to each object $X$ of $\mathfrak{C}$ an object $FX$ of $\mathfrak{D}$, and to each morphism $f: X \to Y$ in $\mathfrak{C}$ a morphism $Ff: FY \to FX$ in $\mathfrak{D}$, such that
+\begin{align}
+F(1_X) &= 1_{FX}, \\
+F(gf) &= F(f) F(g).
+\end{align}

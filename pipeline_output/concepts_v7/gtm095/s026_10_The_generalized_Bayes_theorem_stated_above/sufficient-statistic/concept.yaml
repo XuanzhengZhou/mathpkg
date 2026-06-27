@@ -1,0 +1,23 @@
+id: sufficient-statistic
+title_en: "Sufficient Statistic"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: mathematical-statistics
+difficulty: intermediate
+tags: [sufficiency, statistic, data-reduction, parameter-estimation]
+depends_on:
+  required: [sufficient-sigma-subalgebra, probabilistic-statistical-model]
+  recommended: [measurable-function, sigma-algebra]
+  suggested: [neyman-fisher-factorization-theorem]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "7"
+    section: "10"
+    pages: ""
+    role_in_book: "Definition 10 (continued); the statistic T is sufficient for the family P"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

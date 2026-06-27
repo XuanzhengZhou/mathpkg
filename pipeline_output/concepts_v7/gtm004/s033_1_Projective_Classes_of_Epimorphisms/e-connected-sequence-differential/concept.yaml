@@ -1,0 +1,23 @@
+id: e-connected-sequence-differential
+title_en: "E-Connected Sequence Yields Differential Long Sequence"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [projective-class, relative-homological-algebra, connected-sequence, differential]
+depends_on:
+  required: [e-admissible-morphism, e-exact-sequence, natural-transformation]
+  recommended: [delta-functor]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "3. E-Satellites"
+    pages: "318-328"
+    role_in_book: "Proposition 3.1: Every E-connected sequence yields a differential long sequence for each short E-exact sequence"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

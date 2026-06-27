@@ -1,0 +1,23 @@
+id: convolution-distribution-convergence
+title_en: "Continuity of Convolution under Distribution Convergence"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: fourier-analysis
+difficulty: intermediate
+tags: [convolution, distributions, convergence, sequential-continuity]
+depends_on:
+  required: [convolution-of-distributions-definition, convergence-in-distributions]
+  recommended: [convolution-sequential-continuity]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "7"
+    section: "7. Convolution of distributions"
+    pages: ""
+    role_in_book: "Shows that convolution of distributions is jointly sequentially continuous in each argument"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,10 @@
+Let $X$ be a set. A class $e$ of pairs $(S, s)$, where $S$ is a net in $X$ and $s \in X$, is a convergence class for $X$ if and only if it satisfies the following four conditions:
+
+\begin{enumerate}
+\item[(a)] If $S$ is a net such that $S_n = s$ for each $n$, then $(S, s) \in e$.
+\item[(b)] If $(S, s) \in e$, then $(T, s) \in e$ for every subnet $T$ of $S$.
+\item[(c)] If $(S, s) \notin e$, then there exists a subnet $T$ of $S$ such that no subnet of $T$ belongs to $e$ with limit $s$.
+\item[(d)] (Iterated limits) Let $D$ be a directed set, let $E_m$ be a directed set for each $m \in D$, let $F = D \times \prod\{E_m : m \in D\}$, and for $(m, f) \in F$ let $R(m, f) = (m, f(m))$. If $\lim_{n \in E_m} S(m, n) = T_m$ in $e$ for each $m \in D$ and $\lim_{m \in D} T_m = s$ in $e$, then $(S \circ R, s) \in e$.
+\end{enumerate}
+
+We write $\lim S_n = s$ $(e)$ or say $S$ converges $(e)$ to $s$ whenever $(S, s) \in e$.

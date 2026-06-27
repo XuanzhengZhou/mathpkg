@@ -1,0 +1,23 @@
+id: bounded-linear-operators-form-normed-algebra
+title_en: "The space of bounded linear operators on a normed space is a normed algebra"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [normed-algebra, banach-algebra, bounded-linear-operator, operator-norm, identity-operator]
+depends_on:
+  required: [normed-algebra-and-banach-algebra, operator-norm, completeness-of-bounded-linear-operators]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Berberian, S.K."
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: ""
+    section: "40. Continuous linear mappings of normed spaces"
+    pages: ""
+    role_in_book: "Shows that L(E) with composition and operator norm is a normed/Banach algebra"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: ext-via-projective-presentation
+title_en: "Ext Group via Projective Presentation"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [ext-functor, projective-presentation, cokernel, hom-functor]
+depends_on:
+  required: [projective-presentation]
+  recommended: [hom-functor, cokernel, exact-sequence]
+  suggested: [ext-functor, derived-functor]
+source_books:
+  - book_id: "gtm004"
+    author: "Hilton, P. J.; Stammbach, U."
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "2"
+    pages: "100"
+    role_in_book: "Defines Ext via a chosen projective presentation; superscript epsilon records dependence on presentation"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

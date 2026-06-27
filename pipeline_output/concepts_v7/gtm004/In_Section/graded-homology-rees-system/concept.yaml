@@ -1,0 +1,23 @@
+id: graded-homology-rees-system
+title_en: "Graded Homology in the Rees System of a Filtered Complex"
+title_zh: "滤过复形Rees系统中的分次同调"
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [rees-systems, filtered-complexes, graded-homology, convergence]
+depends_on:
+  required: [rees-system, functor-filtered-to-triples, graded-object]
+  recommended: [filtered-chain-complex]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "6. Rees Systems and Filtered Complexes"
+    pages: ""
+    role_in_book: "Proposition 6.6; identifies Gr∘H(C) within the Rees system of F(C)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: theorem-order-completeness
+title_en: "Theorem on Equivalence of Upper and Lower Bound Completeness"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: order-theory
+difficulty: basic
+tags: ["order-complete", "supremum", "infimum", "equivalence"]
+depends_on:
+  required: ["order-complete", "supremum-infimum"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Orderings"
+    pages: "12-18"
+    role_in_book: "Theorem 9. Order completeness with respect to upper bounds is equivalent to order completeness with respect to lower bounds."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

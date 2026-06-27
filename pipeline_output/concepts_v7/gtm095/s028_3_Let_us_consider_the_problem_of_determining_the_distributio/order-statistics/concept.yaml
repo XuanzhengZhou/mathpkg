@@ -1,0 +1,23 @@
+id: order-statistics
+title_en: "Order Statistics"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: distributions
+difficulty: intermediate
+tags: [order-statistics, minima, maxima, sample-range, joint-distribution]
+depends_on:
+  required: [distribution-function]
+  recommended: [density-transformation-formula]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Definition of order statistics and formulas for their marginal and joint densities"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

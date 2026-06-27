@@ -1,0 +1,23 @@
+id: j-homology-existence
+title_en: "Existence of J-Homology via Derived Kan Extension"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [homology, kan-extension, derived-functor, projective-class, small-category]
+depends_on:
+  required: [kan-extension-left-adjoint, projective-class-under-adjoint]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX"
+    section: "5. Kan Extensions"
+    pages: ""
+    role_in_book: "Establishes the existence of J-homology as the left derived functor of the Kan extension"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

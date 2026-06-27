@@ -1,0 +1,23 @@
+id: restriction-of-projective-injective-to-lie-subalgebra
+title_en: "Restriction of Projective and Injective Modules to Lie Subalgebras"
+title_zh: "投射和内射模到李子代数的限制"
+type: corollary
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [projective-module, injective-module, lie-subalgebra, restriction-of-scalars]
+depends_on:
+  required: [lie-subalgebra, left-lie-algebra-module, projective-module, injective-module]
+  recommended: [basis-of-universal-enveloping-algebra]
+  suggested: [change-of-rings]
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Corollary 1.5; follows from Corollary 1.4 and Theorem IV.12.5"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,45 @@
+The set of numbers $\lambda$ in $K$, for which the trace
+
+$$S(\lambda \alpha) = \sum_{p=1}^{n} \lambda^{(p)} \alpha^{(p)} = \text{integer}$$
+
+for each number $\alpha$ in $\alpha$, forms an ideal $\mathfrak{m}$. Here $\mathfrak{m}\alpha$ is an ideal independent of $\alpha$, determined only by the field $K$, and it is the reciprocal of an integral ideal $\mathfrak{d}$. A basis for $\mathfrak{m}$ can be formed from the $n$ numbers $\beta_1, \ldots, \beta_n$ which are determined along with their conjugates by the equations
+
+$$S(\beta_i \alpha_k) = e_{ik} \quad (i, k = 1, 2, \ldots, n)$$
+
+where $e_{ik} = 1$ if $i = k$, otherwise $e_{ik} = 0$.
+
+**Proof.** The numbers $\lambda$ with the property (64) cannot have arbitrarily large ideal denominators. This is true since the hypothesis is equivalent to $n$ equations
+
+$$S(\lambda \alpha_k) = g_k \quad (k = 1, 2, \ldots, n),$$
+
+where the $g_k$ are rational integers, and from the $n$ linear equations for $\lambda^{(1)}, \ldots, \lambda^{(n)}$ these $\lambda^{(i)}$ are obtained as quotients of two determinants. The denominator is the fixed determinant of the $\alpha_k^{(i)}$ which is equal to $N(\alpha)\sqrt{d}$. The numerator is an integral polynomial in the $\alpha_k^{(i)}$. Consequently there is an integer $\omega$ depending only on the $\alpha$, such that $\omega \lambda$ is an integer. Moreover, if $\lambda_1$ and $\lambda_2$ belong to this set of $\lambda$, then for all integers $\xi_1, \xi_2$
+
+$$S((\lambda_1 \xi
+
+and if we set
+
+$$S(\lambda \alpha_k) = g_k \quad (k = 1, 2, \ldots, n),$$
+
+where $\lambda$ satisfies (64), then we also have
+
+$$S(\lambda_0 \alpha_k) = g_k \quad \text{for } \lambda_0 = g_1 \beta_1 + \cdots + g_n \beta_n.$$
+
+Consequently
+
+$$\lambda = \lambda_0 = g_1 \beta_1 + \cdots + g_n \beta_n$$
+
+and the $\beta_1, \ldots, \beta_n$ form a basis for $\mathfrak{m}(\mathfrak{a})$, provided they are numbers in $K$. The latter fact is obtained directly from the representation of the solutions of (65) as a determinant. Alternatively by multiplication by $\alpha_i^{(q)}$ and summation over $i$ we can deduce from (65) the equivalent system of equations
+
+$$\sum_p \alpha_k^{(p)} \sum_i \beta_i^{(p)} \alpha_i^{(q)} = \sum_i e_{ik} \alpha_i^{(q)} = \alpha_k^{(q)} = \sum_p e_{pq} \alpha_k^{(p)}$$
+
+and from this we can deduce
+
+$$\sum_i \beta_i^{(p)} \alpha_i^{(q)} = e_{pq}, \quad \sum_i \beta_i^{(p)} \sum_q \alpha_q^{(q)} = \sum_q e_{pq} \alpha_k^{(q)}$$
+
+or
+
+$$\sum_{i=1}^{n} \beta_i^{(p)} S(\alpha_i \alpha_k) = \alpha_k^{(p)}.$$
+
+Since the coefficients on the left-hand side are now rational, the $\beta_i^{(p)}$ are numbers in $K^{(p)}$. Hence Theorem 101 is proved.
+
+For later applications (Chapter 8), we formulate this result in yet another way:

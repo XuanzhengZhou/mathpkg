@@ -1,0 +1,23 @@
+id: projective-iff-ext-vanishes
+title_en: "A Module is Projective iff Ext Vanishes (Corollary 5.5)"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [projective-module, ext-functor, characterization]
+depends_on:
+  required: [hom-ext-sequence-second-variable]
+  recommended: [projective-module, ext-group]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "5. Two Exact Sequences"
+    pages: ""
+    role_in_book: "Characterizes projective modules via vanishing of Ext — a fundamental homological criterion"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

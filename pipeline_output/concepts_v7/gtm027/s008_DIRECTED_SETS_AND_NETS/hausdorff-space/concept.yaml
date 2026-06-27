@@ -1,0 +1,23 @@
+id: hausdorff-space
+title_en: "Hausdorff Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: separation-axioms
+difficulty: basic
+tags: ["Hausdorff", "T2-space", "separated-space", "separation-axiom"]
+depends_on:
+  required: ["topological-space", "neighborhood", "disjoint-sets"]
+  recommended: ["convergence-of-net"]
+  suggested: ["hausdorff-unique-convergence"]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "2"
+    section: "Directed Sets and Nets"
+    pages: "81-87"
+    role_in_book: "Defines the Hausdorff separation axiom and connects it to uniqueness of net limits."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

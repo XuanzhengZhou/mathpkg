@@ -1,0 +1,15 @@
+Let $\eta_1, \eta_2, \ldots$ be an orthonormal system of random variables in $L^2$, and let $\overline{\mathcal{L}} = \overline{\mathcal{L}}\{\eta_1, \eta_2, \ldots\}$ be the closed linear manifold spanned by the system. Then for any $\xi \in L^2$, there exists a unique element $\hat{\xi} \in \overline{\mathcal{L}}$ such that
+
+$$\|\xi - \hat{\xi}\| = \inf \{\|\xi - \zeta\| : \zeta \in \overline{\mathcal{L}}\}.$$
+
+Moreover,
+
+$$\hat{\xi} = \lim_{n \to \infty} \sum_{i=1}^{n} (\xi, \eta_i) \eta_i,$$
+
+and $\xi - \hat{\xi} \perp \zeta$ for all $\zeta \in \overline{\mathcal{L}}$, i.e., $(\xi - \hat{\xi}, \zeta) = 0$ for every $\zeta \in \overline{\mathcal{L}}$.
+
+The representation $$\xi = \hat{\xi} + (\xi - \hat{\xi})$$ is called the orthogonal decomposition of $\xi$. The element $\hat{\xi}$ is the projection of $\xi$ onto $\overline{\mathcal{L}}$, and $\xi - \hat{\xi}$ is perpendicular to $\overline{\mathcal{L}}$.
+
+The mean-square estimation error is
+
+$$\Delta = \mathsf{E}|\xi - \hat{\xi}|^2 = \|\xi\|^2 - \sum_{i=1}^{\infty} |(\xi, \eta_i)|^2.$$

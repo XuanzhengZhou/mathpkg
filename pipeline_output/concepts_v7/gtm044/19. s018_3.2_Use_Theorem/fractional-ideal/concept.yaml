@@ -1,0 +1,23 @@
+id: fractional-ideal
+title_en: "Fractional Ideal"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [fractional-ideal, integral-domain, quotient-field, submodule, universal-denominator]
+depends_on:
+  required: []
+  recommended: [integral-domain, quotient-field, ideal, module]
+  suggested: [dedekind-domain]
+source_books:
+  - book_id: "gtm044"
+    author: "Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "IV"
+    section: "5"
+    pages: ""
+    role_in_book: "Defines fractional ideals as a generalization of ideals, enabling the divisor group construction"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

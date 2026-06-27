@@ -1,0 +1,23 @@
+id: proposition-e-connected-sequence-differential
+title_en: "$\mathcal{E}$-Connected Sequence Yields Differential Sequence"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [relative-homological-algebra, connected-sequence-of-functors, differential-sequence]
+depends_on:
+  required: [e-connected-sequence-of-functors, e-exact-sequence]
+  recommended: [differential-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX"
+    section: "3. Satellites"
+    pages: "322"
+    role_in_book: "core"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

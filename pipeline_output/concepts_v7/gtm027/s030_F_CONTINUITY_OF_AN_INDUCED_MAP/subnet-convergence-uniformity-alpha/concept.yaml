@@ -1,0 +1,23 @@
+id: subnet-convergence-uniformity-alpha
+title_en: "Subnet Construction for Uniform Convergence on a Directed Cover"
+title_zh: "有向覆盖上一致收敛的子网构造"
+type: proposition
+domain: topology
+subdomain: uniform-spaces
+difficulty: advanced
+tags: [subnet, uniform-convergence, directed-cover, function-spaces, iterated-net]
+depends_on:
+  required: []
+  recommended: [net, subnet, directed-set, uniformity-of-uniform-convergence, iterated-subnet]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "H"
+    pages: ""
+    role_in_book: "Exercise: explicit subnet formula for convergence in u|alpha"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

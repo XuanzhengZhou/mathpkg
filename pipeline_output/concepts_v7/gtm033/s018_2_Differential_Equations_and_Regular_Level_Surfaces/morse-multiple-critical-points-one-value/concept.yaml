@@ -1,0 +1,23 @@
+id: morse-multiple-critical-points-one-value
+title_en: "Morse Cell Decomposition for a Single Critical Value"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: morse-theory
+difficulty: advanced
+tags: [morse-function, critical-point, k-cell, deformation-retraction, cell-decomposition]
+depends_on:
+  required: [morse-function, type-number-of-morse-function, k-cell-in-manifold, admissible-morse-function]
+  recommended: [morse-unique-critical-point-k-cell]
+  suggested: [cw-complex, handle-decomposition]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Extends 3.1 to the case of multiple critical points sharing one critical value"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: w-star-topology-paracompact
+title_en: "Paracompactness of the Weak-Star Topology"
+title_zh: "弱星拓扑的仿紧致性"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [weak-star-topology, paracompactness, topological-completeness, dual-space]
+depends_on:
+  required: [alaoglu-theorem]
+  recommended: [paracompact-space, topologically-complete]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "N"
+    pages: ""
+    role_in_book: "Proposition (c): paracompactness of X* under w*-topology"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

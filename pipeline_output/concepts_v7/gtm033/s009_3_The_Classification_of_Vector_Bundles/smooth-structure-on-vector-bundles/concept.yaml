@@ -1,0 +1,23 @@
+id: smooth-structure-on-vector-bundles
+title_en: "Smooth Structure on C^r Vector Bundles"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [vector-bundles, smooth-structure, approximation, grassmannian, classifying-map]
+depends_on:
+  required: [classification-of-vector-bundles]
+  recommended: [smooth-approximation-theorem, pullback-bundle]
+  suggested: [analytic-approximation-theorem, bundle-isomorphism-theorem]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "3"
+    section: "3. The Classification of Vector Bundles"
+    pages: ""
+    role_in_book: "Theorem 3.5: Every C^r vector bundle over a C^∞ manifold admits a compatible C^∞ structure, unique up to C^∞ isomorphism"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

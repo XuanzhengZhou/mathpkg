@@ -1,0 +1,13 @@
+id: closed-hyperplane-topological-direct-sum
+title_en: "Topological direct sum decomposition by closed maximal subspace"
+title_zh: "闭极大子空间给出拓扑直和分解"
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [TVS, closed-maximal-subspace, topological-direct-sum, algebraic-supplement]
+depends_on: {required: ["continuous-linear-form-null-space-closed"], recommended: ["quotient-tvs-separated-when-subspace-closed", "algebraic-supplement"], suggested: []}
+source_books: [{book_id: "gtm015", author: "Sterling K. Berberian", title: "Lectures in Functional Analysis and Operator Theory", chapter: "2", section: "22", pages: "", role_in_book: "Topological consequence of closed maximal subspaces"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

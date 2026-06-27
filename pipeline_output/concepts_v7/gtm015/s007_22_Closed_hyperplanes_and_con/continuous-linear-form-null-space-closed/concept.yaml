@@ -1,0 +1,13 @@
+id: continuous-linear-form-null-space-closed
+title_en: "Continuity of linear form equivalent to closed null space"
+title_zh: "线性形式连续当且仅当零空间闭"
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [TVS, continuous-linear-form, closed-null-space, hyperplane]
+depends_on: {required: [], recommended: ["linear-form-null-space-codimension-1", "quotient-tvs-separated-when-subspace-closed"], suggested: ["one-dimensional-tvs-isomorphism-continuous"]}
+source_books: [{book_id: "gtm015", author: "Sterling K. Berberian", title: "Lectures in Functional Analysis and Operator Theory", chapter: "2", section: "22", pages: "", role_in_book: "Key result linking topological and algebraic properties of linear forms"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

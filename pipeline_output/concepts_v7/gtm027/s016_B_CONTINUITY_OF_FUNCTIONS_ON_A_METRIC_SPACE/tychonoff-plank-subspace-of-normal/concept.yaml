@@ -1,0 +1,23 @@
+id: tychonoff-plank-subspace-of-normal
+title_en: "Tychonoff Plank: subspace of a normal space may fail to be normal"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: separation-axioms
+difficulty: advanced
+tags: [Tychonoff-plank, normal-space, subspace, counterexample, separation-axioms]
+depends_on:
+  required: [normal-space, subspace-topology]
+  recommended: [ordinal-spaces, product-topology]
+  suggested: [ordinal-product-not-normal]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: ""
+    section: "F. Example (The Tychonoff Plank) on subspaces of normal spaces"
+    pages: ""
+    role_in_book: "Counterexample showing normality is not hereditary"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

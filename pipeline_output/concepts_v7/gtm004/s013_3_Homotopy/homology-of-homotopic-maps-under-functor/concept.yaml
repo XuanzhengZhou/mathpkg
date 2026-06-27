@@ -1,0 +1,23 @@
+id: homology-of-homotopic-maps-under-functor
+title_en: "Homology of Homotopic Maps under a Functor"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [chain-complex, homotopy, homology, additive-functor]
+depends_on:
+  required: [homotopy-of-chain-maps, additive-functor-preserves-homotopy]
+  recommended: [homology-functor]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "3. Homotopy"
+    pages: "137"
+    role_in_book: "Corollary 3.5. Used to detect non-homotopic maps via their action on homology under a functor."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

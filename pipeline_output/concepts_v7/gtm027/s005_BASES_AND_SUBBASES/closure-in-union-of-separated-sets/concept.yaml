@@ -1,0 +1,23 @@
+id: closure-in-union-of-separated-sets
+title_en: "Closure Decomposition for a Union of Separated Complements"
+title_zh: "隔离补集并集的闭包分解"
+type: theorem
+domain: topology
+subdomain: connectedness
+difficulty: intermediate
+tags: [closure, separated-sets, union, decomposition]
+depends_on:
+  required: [separated-sets, closure, subspace]
+  recommended: [separated-sets-closed-in-union]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Bases and Subbases"
+    pages: ""
+    role_in_book: "Theorem 18 — closure of subset equals union of relative closures"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

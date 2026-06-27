@@ -1,0 +1,23 @@
+id: definition-critical-point
+title_en: "Definition: Critical Point and Regular Value"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: basic
+tags: [critical-point, regular-value, c1-map, surjectivity, tangent-map]
+depends_on:
+  required: [tangent-map, c1-map, surjective-linear-map]
+  recommended: [morse-sard-theorem-1-3, regular-value-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "3"
+    section: "1. The Morse-Sard Theorem"
+    pages: ""
+    role_in_book: "Defines critical points and regular values, the essential concepts for the Morse-Sard theorem and transversality"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,9 @@
+Let $D_n$ be the number of permutations of $\{1, 2, \ldots, n\}$ with no fixed points (derangements), i.e., permutations $(a_1, \ldots, a_n)$ such that $a_i \neq i$ for all $i = 1, \ldots, n$. Then
+
+$$D_n = n! \sum_{k=0}^{n} \frac{(-1)^k}{k!}.$$
+
+Consequently, the probability of a complete derangement among all $n!$ equally likely permutations is
+
+$$P_n = \sum_{k=0}^{n} \frac{(-1)^k}{k!} = \frac{1}{e} + O\left(\frac{1}{(n+1)!}\right),$$
+
+and asymptotically $D_n \sim n!/e$ as $n \to \infty$.

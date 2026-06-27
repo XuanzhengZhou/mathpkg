@@ -1,0 +1,23 @@
+id: n-dimensional-distribution-function
+title_en: "n-dimensional distribution function"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: probability-distributions
+difficulty: intermediate
+tags: [multivariate-distribution, distribution-function, n-dimensional, random-vector]
+depends_on:
+  required: [distribution-function-on-real-line]
+  recommended: [borel-sigma-algebra]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "Shiryaev, A.N."
+    title: "Probability-1"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Definition 2. Defines n-dimensional distribution functions on R^n, generalizing the one-dimensional case"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

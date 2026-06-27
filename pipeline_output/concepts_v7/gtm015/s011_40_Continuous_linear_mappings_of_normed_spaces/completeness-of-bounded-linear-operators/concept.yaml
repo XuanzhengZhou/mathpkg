@@ -1,0 +1,23 @@
+id: completeness-of-bounded-linear-operators
+title_en: "Completeness of the space of continuous linear mappings when the codomain is Banach"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [banach-space, operator-norm, completeness, continuous-linear-mapping, bounded-linear-operator]
+depends_on:
+  required: [operator-norm, uniform-operator-topology]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Berberian, S.K."
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: ""
+    section: "40. Continuous linear mappings of normed spaces"
+    pages: ""
+    role_in_book: "Establishes that L(E,F) is a Banach space whenever F is a Banach space"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

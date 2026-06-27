@@ -1,0 +1,23 @@
+id: union-of-non-separated-connected-sets
+title_en: "Union of Non-Separated Connected Sets is Connected"
+title_zh: "非隔离连通集族的并集连通"
+type: theorem
+domain: topology
+subdomain: connectedness
+difficulty: basic
+tags: [connected, union, separated, connectedness-criterion]
+depends_on:
+  required: [connected-set, separated-sets]
+  recommended: [closure-of-connected-set-is-connected]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Bases and Subbases"
+    pages: ""
+    role_in_book: "Theorem 21 — union of connected sets with pairwise non-separation"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

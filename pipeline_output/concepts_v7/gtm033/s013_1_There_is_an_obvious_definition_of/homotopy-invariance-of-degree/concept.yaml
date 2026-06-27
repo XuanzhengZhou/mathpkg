@@ -1,0 +1,23 @@
+id: homotopy-invariance-of-degree
+title_en: "Homotopy Invariance of the Degree"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [degree, homotopy, bordism, orientation]
+depends_on:
+  required: [degree-of-a-map, homotopy, compact-manifold]
+  recommended: []
+  suggested: [sard-theorem, regular-value]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "5"
+    section: "Introduction"
+    pages: ""
+    role_in_book: "Core theorem: the degree is invariant under homotopy"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

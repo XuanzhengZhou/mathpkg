@@ -1,0 +1,23 @@
+id: ext-vanishes-for-integers
+title_en: "Ext groups vanish for the integers"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [Ext-functor, integers, projective-module, abelian-group]
+depends_on:
+  required: [ext-functor-definition, projective-module]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I"
+    section: "4. Computation of some Ext-Groups"
+    pages: ""
+    role_in_book: "Direct consequence of Proposition 2.6: since Z is a projective Z-module, Ext(Z, B) = 0 for any abelian group B"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

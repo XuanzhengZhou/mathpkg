@@ -1,0 +1,23 @@
+id: nonembedding-of-nonorientable-manifolds
+title_en: "Nonembedding Theorem for Nonorientable Manifolds"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [nonembedding, nonorientable, projective-space, embedding, codimension-1]
+depends_on:
+  required: [nonorientable-submanifold-does-not-separate]
+  recommended: [manifold, embedding, projective-space, jordan-brouwer-separation]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "4. Oriented Vector Bundles"
+    pages: ""
+    role_in_book: "Theorem 4.7; classical nonembedding result as a corollary of separation theory"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

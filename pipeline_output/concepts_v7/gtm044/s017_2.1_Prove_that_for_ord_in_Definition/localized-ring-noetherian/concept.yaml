@@ -1,0 +1,23 @@
+id: localized-ring-noetherian
+title_en: "The Localized Ring R_p is Noetherian"
+title_zh: "局部化环 R_p 是诺特的"
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [noetherian-ring, localization, contraction, ideal-chain]
+depends_on:
+  required: []
+  recommended: [noetherian-ring, localization, ideal-contraction]
+  suggested: [coordinate-ring-localization]
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Establishes that localization preserves the Noetherian property"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

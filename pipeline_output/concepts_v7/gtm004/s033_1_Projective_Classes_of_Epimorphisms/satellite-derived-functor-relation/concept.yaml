@@ -1,0 +1,23 @@
+id: satellite-derived-functor-relation
+title_en: "Satellite-Derived Functor Relation for E-Exact Functors"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [projective-class, relative-homological-algebra, derived-functor, satellite, zero-derived-functor]
+depends_on:
+  required: [e-derived-functors-as-satellites, right-e-exact-functor]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "3. E-Satellites"
+    pages: "318-328"
+    role_in_book: "Corollary 3.4: The satellites of L_0 H are the derived functors of H"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

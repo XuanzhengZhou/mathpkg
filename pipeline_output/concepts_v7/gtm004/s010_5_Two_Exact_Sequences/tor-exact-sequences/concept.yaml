@@ -1,0 +1,23 @@
+id: tor-exact-sequences
+title_en: "Two Exact Sequences for Tor (Theorem 8.3)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [tor-functor, exact-sequence, connecting-homomorphism, tensor-product]
+depends_on:
+  required: [kernel-cokernel-exact-sequence]
+  recommended: [tor-functor, tensor-product, exact-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "8. The Functor Tor"
+    pages: ""
+    role_in_book: "Core exact sequences for Tor — analog of Hom-Ext sequences for the tensor product"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

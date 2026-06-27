@@ -1,0 +1,23 @@
+id: pid-injective-iff-divisible
+title_en: "A Module over a PID is Injective iff it is Divisible"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [injective-module, divisible-module, principal-ideal-domain, baers-criterion]
+depends_on:
+  required: []
+  recommended: [injective-module, divisible-module, principal-ideal-domain, baers-criterion]
+  suggested: [projective-module, free-module, cofree-module]
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I. Modules"
+    section: "7. Injective Modules over a Principal Ideal Domain"
+    pages: ""
+    role_in_book: "Central theorem characterizing injective modules over a PID as exactly the divisible modules"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

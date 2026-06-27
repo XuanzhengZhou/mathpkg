@@ -1,0 +1,29 @@
+id: lie-algebra
+title_en: Lie Algebra
+title_zh: 李代数
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags:
+- lie-algebra
+- bracket
+- jacobi-identity
+- bilinear
+depends_on:
+  required: []
+  recommended:
+  - vector-space
+  - bilinear-map
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: VII
+  section: 1. Lie Algebras and their Universal Enveloping Algebra
+  pages: ''
+  role_in_book: Foundational concept for Lie algebra cohomology theory
+content_hash: 40a34225ef45ee69
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

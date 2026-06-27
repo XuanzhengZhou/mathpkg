@@ -1,0 +1,23 @@
+id: finite-filtration-implies-homologically-finite
+title_en: "Finite Filtration Implies Homologically Finite"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [finite-filtration, homologically-finite, chain-complex, spectral-sequence]
+depends_on:
+  required: [finite-filtration-chain-complex, homologically-finite-filtration]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "3"
+    section: "3. Finite Convergence Conditions for Filtered Chain Complexes"
+    pages: ""
+    role_in_book: "Proposition 3.4: shows that finiteness of a filtration is a stronger condition than homological finiteness"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

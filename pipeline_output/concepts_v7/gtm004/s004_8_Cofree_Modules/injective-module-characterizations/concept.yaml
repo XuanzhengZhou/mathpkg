@@ -1,0 +1,23 @@
+id: injective-module-characterizations
+title_en: "Equivalent Characterizations of Injective Modules"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [injective-module, exact-sequence, direct-summand, cofree-module, characterization]
+depends_on:
+  required: [injective-module, cofree-module, exact-sequence]
+  recommended: [hom-functor-exactness, split-monomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I. Modules"
+    section: "8. Cofree Modules"
+    pages: ""
+    role_in_book: "Theorem 8.4; the dual of Theorem 4.7, gives five equivalent characterizations of injective modules"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

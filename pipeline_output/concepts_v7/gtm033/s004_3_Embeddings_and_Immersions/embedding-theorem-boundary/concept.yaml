@@ -1,0 +1,23 @@
+id: embedding-theorem-boundary
+title_en: "Embedding Theorem for Manifolds with Boundary"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [embedding, boundary, whitney]
+depends_on:
+  required: [manifold-with-boundary, whitney-embedding-theorem]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm033
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4. Manifolds with Boundary"
+    section: "4"
+    pages: ""
+    role_in_book: "Theorem 4.3 - Extends the Whitney embedding theorem to manifolds with boundary"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

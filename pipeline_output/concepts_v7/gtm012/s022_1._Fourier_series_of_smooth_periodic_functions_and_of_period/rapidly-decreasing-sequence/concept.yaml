@@ -1,0 +1,23 @@
+id: rapidly-decreasing-sequence
+title_en: "Sequence of Rapid Decrease"
+title_zh: "急减序列"
+type: definition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: intermediate
+tags: [fourier-series, periodic-functions, sequence-space]
+depends_on:
+  required: [fourier-coefficients, periodic-functions]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "5"
+    section: "§1. Fourier series of smooth periodic functions and of periodic distributions"
+    pages: ""
+    role_in_book: "Defines the class of sequences that are Fourier coefficients of smooth periodic functions"
+content_hash: "405cb358e4e9af49f82b2cc3e889a79d"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

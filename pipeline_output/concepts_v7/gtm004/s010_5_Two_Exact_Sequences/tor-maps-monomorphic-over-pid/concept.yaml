@@ -1,0 +1,23 @@
+id: tor-maps-monomorphic-over-pid
+title_en: "Tor Maps are Monomorphic over a Principal Ideal Domain (Corollary 8.4)"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [principal-ideal-domain, tor-functor, monomorphism]
+depends_on:
+  required: [tor-exact-sequences]
+  recommended: [principal-ideal-domain, tor-functor]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "8. The Functor Tor"
+    pages: ""
+    role_in_book: "Specialization of Tor exact sequences to PIDs: the induced Tor maps are monomorphic"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

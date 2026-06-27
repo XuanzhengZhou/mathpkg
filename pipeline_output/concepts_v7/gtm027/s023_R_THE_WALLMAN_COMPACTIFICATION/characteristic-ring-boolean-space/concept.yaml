@@ -1,0 +1,23 @@
+id: characteristic-ring-boolean-space
+title_en: "Characteristic Ring of a Boolean Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: stone-duality
+difficulty: advanced
+tags: ["Boolean-space", "characteristic-ring", "Boolean-ring", "clopen", "Stone-duality"]
+depends_on:
+  required: ["boolean-space", "boolean-ring", "clopen-set"]
+  recommended: ["stone-representation-theorem"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "The Wallman Compactification"
+    pages: "165-168"
+    role_in_book: "The family of clopen subsets of a Boolean space forms a Boolean ring under symmetric difference and intersection. This ring characterizes the space via Stone duality."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,25 @@
+A \textbf{Rees system} in an abelian category $\mathfrak{A}$ consists of three exact couples
+\begin{align*}
+\textcircled{1} &: D \xrightarrow{\alpha} D \xrightarrow{\beta} E \xrightarrow{\gamma} D, \\
+\textcircled{2} &: \bar{D} \xrightarrow{\bar{\alpha}} \bar{D} \xrightarrow{\bar{\beta}} E \xrightarrow{\bar{\gamma}} \bar{D}, \\
+\textcircled{3} &: \bar{D} \xrightarrow{\xi} D \xrightarrow{\varphi} \Gamma \xrightarrow{\bar{\varphi}} \bar{D} \xrightarrow{\xi} D,
+\end{align*}
+together with morphisms connecting them, satisfying the following relations:
+\begin{align*}
+\alpha \xi &= \xi \bar{\alpha}, \\
+\beta \xi &= \bar{\beta}, \\
+\bar{\alpha} \bar{\varphi} &= \bar{\varphi} \varphi \alpha, \\
+\bar{\beta} \bar{\varphi} &= 0, \\
+\gamma \bar{\varphi} &= 0,
+\end{align*}
+and the additional condition that $\textcircled{3}$ is exact (so that $\xi, \varphi, \bar{\varphi}$ form an exact triangle).
+
+Equivalently, a Rees system is a diagram
+\begin{align*}
+D &\xrightarrow{\alpha} D \xrightarrow{\beta} E \xrightarrow{\gamma} D, \\
+\bar{D} &\xrightarrow{\bar{\alpha}} \bar{D} \xrightarrow{\bar{\beta}} E \xrightarrow{\bar{\gamma}} \bar{D}, \\
+\bar{D} &\xrightarrow{\xi} D \xrightarrow{\varphi} \Gamma \xrightarrow{\bar{\varphi}} \bar{D} \xrightarrow{\xi} D,
+\end{align*}
+where the first two rows are exact couples, the third row is an exact triangle, and the morphisms satisfy the commutativity relations above.
+
+Every exact couple $EC$ may be regarded as a Rees system by setting $\textcircled{1} = EC$, $\textcircled{2} = EC$, $\Gamma = 0$, $\xi = 1$.

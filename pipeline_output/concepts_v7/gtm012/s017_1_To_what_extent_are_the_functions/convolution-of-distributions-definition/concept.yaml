@@ -1,0 +1,23 @@
+id: convolution-of-distributions-definition
+title_en: "Convolution of Two Periodic Distributions"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: advanced
+tags: [convolution, distributions, periodic-distributions, duality]
+depends_on:
+  required: [convolution-distribution-smooth-function, distribution-representation-via-convolution, periodic-distributions]
+  recommended: [convolution-on-circle]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "7"
+    section: "7. Convolution of distributions"
+    pages: ""
+    role_in_book: "Defines the convolution of two distributions, extending the operation from functions to arbitrary distributions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

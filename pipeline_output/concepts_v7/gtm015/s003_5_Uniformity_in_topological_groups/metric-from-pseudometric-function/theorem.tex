@@ -1,0 +1,16 @@
+Let $$X$$ be a set and suppose $$f: X \times X \to \mathbb{R}$$ satisfies:
+\begin{enumerate}
+\item $$f(x, y) \geq 0$$ for all $$x, y$$;
+\item $$f(x, x) = 0$$ for all $$x$$;
+\item if $$\varepsilon > 0$$, the relations $$f(w, x) \leq \varepsilon$$, $$f(x, y) \leq \varepsilon$$, $$f(y, z) \leq \varepsilon$$ imply $$f(w, z) \leq 2\varepsilon$$.
+\end{enumerate}
+Define $$d: X \times X \to \mathbb{R}$$ by
+$$d(x, y) = \inf \sum_{k=1}^n f(x_{k-1}, x_k),$$
+where the infimum is over all finite systems $$\{x = x_0, x_1, \ldots, x_n = y\}$$. Then:
+\begin{enumerate}
+\setcounter{enumi}{3}
+\item $$\frac{1}{2} f(x, y) \leq d(x, y) \leq f(x, y)$$;
+\item $$d(x, z) \leq d(x, y) + d(y, z)$$;
+\item if $$f(x, y) = f(y, x)$$ for all $$x, y$$, then $$d(x, y) = d(y, x)$$ for all $$x, y$$.
+\end{enumerate}
+If additionally $$f(x, y) = f(y, x)$$ and $$f(x, y) > 0$$ whenever $$x \neq y$$, then $$d$$ is a metric on $$X$$.

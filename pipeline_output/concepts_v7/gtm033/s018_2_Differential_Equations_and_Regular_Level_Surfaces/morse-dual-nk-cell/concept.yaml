@@ -1,0 +1,23 @@
+id: morse-dual-nk-cell
+title_en: "Morse Dual Cell Attachment for a Single Critical Point"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: morse-theory
+difficulty: advanced
+tags: [morse-function, critical-point, dual-cell, deformation-retraction, transversality]
+depends_on:
+  required: [morse-function, morse-unique-critical-point-k-cell, admissible-morse-function]
+  recommended: [transverse-intersection]
+  suggested: [handle-decomposition, poincare-duality]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Dual version of 3.1 obtained by reversing the Morse function"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: dual-kunneth-splitting-lemma
+title_en: "Splitting Lemma for the Dual Künneth Sequence"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [dual-kunneth-theorem, splitting, hom-complex, boundary]
+depends_on:
+  required: [dual-kunneth-theorem, hom-complex]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "V"
+    section: "3"
+    pages: ""
+    role_in_book: "Lemma 3.2: key technical lemma for splitting the dual Künneth exact sequence"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

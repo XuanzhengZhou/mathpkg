@@ -1,0 +1,23 @@
+id: non-meager-w-star-bounded-equicontinuous
+title_en: "Equicontinuity of Weak-Star Bounded Sets in Non-Meager Spaces"
+title_zh: "非贫瘠空间中弱星有界集的等度连续性"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [Banach-Steinhaus, uniform-boundedness, equicontinuity, meager-set, Baire-category]
+depends_on:
+  required: [w-star-bounded-subset]
+  recommended: [non-meager, Baire-category-theorem, equicontinuous-family]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "N"
+    pages: ""
+    role_in_book: "Proposition (e): Banach-Steinhaus type theorem for dual spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

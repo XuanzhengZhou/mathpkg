@@ -1,0 +1,10 @@
+Consider the linear congruence
+$$ax + b \equiv 0 \pmod{n}, \quad n > 0.$$
+
+*If $(a, n) = 1$:* The congruence has exactly one solution modulo $n$.
+
+*If $(a, n) = d > 1$:* The congruence is solvable if and only if $d \mid b$. In this case, let $n = d n_1$, $a = d a_1$, $b = d b_1$; then the reduced congruence $a_1 x + b_1 \equiv 0 \pmod{n_1}$ has exactly one solution $x_0$ modulo $n_1$, and all solutions of the original congruence are given by
+$$x = x_0 + n_1 y, \quad y \in \mathbb{Z}.$$
+There are exactly $d$ distinct solutions modulo $n$, obtained by letting $y$ run through a complete residue system modulo $d$.
+
+When $(a, n) = 1$, the unique solution modulo $n$ can be expressed as $x \equiv -a' b \pmod{n}$ where $a'$ satisfies $a a' \equiv 1 \pmod{n}$.

@@ -1,0 +1,23 @@
+id: biinvariant-metric-biuniform
+title_en: "Bi-invariant metric implies bi-uniform"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: topological-groups
+difficulty: intermediate
+tags: [bi-invariant-metric, bi-uniform, left-uniformity, right-uniformity]
+depends_on:
+  required: [biuniform-group, left-invariant-metric-uniformity]
+  recommended: [bi-invariant-metric]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "10"
+    section: "Bi-uniform topological groups"
+    pages: ""
+    role_in_book: "Lemma showing that existence of a bi-invariant metric forces the group to be bi-uniform."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

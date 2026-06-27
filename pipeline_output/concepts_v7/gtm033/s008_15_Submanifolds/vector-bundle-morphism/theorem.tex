@@ -1,0 +1,20 @@
+Let $\xi_i = (p_i, E_i, B_i, \Phi_i)$ be a vector bundle, $i = 0, 1$.
+
+A \textbf{fibre map} $F: \xi_0 \to \xi_1$ is a map $F: E_0 \to E_1$ which covers a map $f: B_0 \to B_1$, i.e. the diagram
+\[
+\begin{CD}
+E_0 @>{F}>> E_1 \\
+@V{p_0}VV @VV{p_1}V \\
+B_0 @>{f}>> B_1
+\end{CD}
+\]
+commutes. If $x \in B_0$ and $f(x) = y$, then $F$ maps the fibre over $x$ into the fibre over $y$ by a map $F_x: \xi_{0x} \to \xi_{1y}$.
+
+If each $F_x$ is linear, $F$ is a \textbf{morphism of vector bundles}.
+\begin{itemize}
+\item If each $F_x$ is injective, $F$ is a \textbf{monomorphism}.
+\item If each $F_x$ is surjective, $F$ is an \textbf{epimorphism}.
+\item If each $F_x$ is bijective, $F$ is a \textbf{bimorphism} or \textbf{vector bundle map}.
+\end{itemize}
+
+If $F$ is a bimorphism covering a homeomorphism $f: B_0 \to B_1$, then $F$ is an \textbf{equivalence}. If $B_0 = B_1 = B$ and $f = 1_B$, then $F$ is an \textbf{isomorphism}, written $\xi_0 \cong \xi_1$.

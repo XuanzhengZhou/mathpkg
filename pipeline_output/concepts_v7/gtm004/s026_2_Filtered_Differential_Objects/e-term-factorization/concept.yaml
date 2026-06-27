@@ -1,0 +1,23 @@
+id: e-term-factorization
+title_en: "Factorization of the E-term Functor via Associated Graded Object"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [e-term, associated-graded, homology, functor-factorization, spectral-sequence]
+depends_on:
+  required: [associated-graded-object-functor, graded-objects-D-and-E]
+  recommended: [homology-functor, filtered-differential-object]
+  suggested: [exact-couple, spectral-sequence]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Spectral Sequences"
+    section: "2. Filtered Differential Objects"
+    pages: ""
+    role_in_book: "Shows that the E-term of a spectral sequence factorizes as homology composed with the associated graded functor"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

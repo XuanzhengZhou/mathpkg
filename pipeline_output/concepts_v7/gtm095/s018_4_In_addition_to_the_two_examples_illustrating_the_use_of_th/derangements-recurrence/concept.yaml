@@ -1,0 +1,23 @@
+id: derangements-recurrence
+title_en: "Derangements Recurrence Relation"
+title_zh: ""
+type: theorem
+domain: combinatorics
+subdomain: permutations
+difficulty: intermediate
+tags: [derangements, recurrence-relation, inclusion-exclusion]
+depends_on:
+  required: [derangements-formula]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "14"
+    pages: ""
+    role_in_book: "Recurrence relation for derangements: D_n = (n-1)(D_{n-1} + D_{n-2})"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

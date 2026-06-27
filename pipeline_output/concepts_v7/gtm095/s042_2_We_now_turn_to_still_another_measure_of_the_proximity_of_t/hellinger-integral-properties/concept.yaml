@@ -1,0 +1,23 @@
+id: hellinger-integral-properties
+title_en: "Properties of the Hellinger integral and Kakutani–Hellinger distance"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: probability-metrics
+difficulty: intermediate
+tags: [hellinger-integral, dominating-measure, metric, radon-nikodym]
+depends_on:
+  required: [kakutani-hellinger-distance, radon-nikodym-derivative]
+  recommended: [absolute-continuity]
+  suggested: []
+source_books:
+  - book_id: gtm095
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "9.2"
+    pages: ""
+    role_in_book: "Lemma 3; establishes that the Hellinger integral is independent of the dominating measure and that ρ is a metric"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

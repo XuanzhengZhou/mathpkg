@@ -1,0 +1,23 @@
+id: open-and-closed-quotient-maps
+title_en: "Open and Closed Quotient Maps"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: quotient-spaces
+difficulty: intermediate
+tags: ["quotient-map", "open-map", "closed-map", "continuous-map", "product"]
+depends_on:
+  required: ["quotient-space", "open-map", "closed-map", "continuous-function"]
+  recommended: ["product-space"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "3"
+    section: "Problems"
+    pages: "100-110"
+    role_in_book: "Problem on open and closed quotient maps. A continuous surjection is a quotient map iff it takes saturated open/closed sets to open/closed sets."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

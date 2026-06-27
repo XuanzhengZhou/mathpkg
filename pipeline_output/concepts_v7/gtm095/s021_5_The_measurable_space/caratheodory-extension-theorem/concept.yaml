@@ -1,0 +1,23 @@
+id: caratheodory-extension-theorem
+title_en: "Caratheodory's Extension Theorem"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: measure-theory
+difficulty: advanced
+tags: [caratheodory, measure-extension, sigma-algebra, algebra, sigma-finite]
+depends_on:
+  required: [sigma-algebra, measure]
+  recommended: [algebra-of-sets, sigma-additivity]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "Shiryaev, A.N."
+    title: "Probability-1"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Fundamental extension theorem used to construct probability measures from finitely additive set functions on algebras"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

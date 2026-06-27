@@ -1,0 +1,31 @@
+id: pullback-characterization-of-limits
+title_en: Pullback Characterization of Limits
+title_zh: 极限的拉回刻画
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags:
+- limits
+- pullback
+- colimit
+- universal-property
+depends_on:
+  required:
+  - limit-of-a-functor
+  - universal-property-of-limits
+  - pullback
+  recommended:
+  - commutation-of-iterated-limits
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: VIII
+  section: '5. Limits'
+  pages: ''
+  role_in_book: Theorem 5.2; characterizes the interaction of limits and pullbacks in a sequence of commuting squares
+content_hash: ''
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

@@ -1,0 +1,16 @@
+Let $(\Omega^n, \mathcal{F}^n)_{n \geq 1}$ be a sequence of measurable spaces and let $(P^n)_{n \geq 1}$, $(\tilde{P}^n)_{n \geq 1}$ be sequences of probability measures with $P^n, \tilde{P}^n$ on $(\Omega^n, \mathcal{F}^n)$. Set
+
+$$Q^n = \frac{P^n + \tilde{P}^n}{2}, \quad z^n = \frac{dP^n}{dQ^n}, \quad \tilde{z}^n = \frac{d\tilde{P}^n}{dQ^n}, \quad Z^n = \frac{\tilde{z}^n}{z^n}.$$
+
+The following conditions are equivalent:
+
+\begin{itemize}
+\item[(a)] $(\tilde{P}^n) \triangleleft (P^n)$ (contiguity),
+\item[(b)] $\displaystyle \lim_{\varepsilon \downarrow 0} \liminf_n \tilde{P}^n(z^n \geq \varepsilon) = 1$,
+\item[(b$'$)] $\displaystyle \limsup_n \tilde{P}^n(Z^n \leq N) = 0$ for every $N > 0$,
+\item[(c)] $\displaystyle \lim_{\alpha \downarrow 0} \liminf_n H(\alpha; P^n, \tilde{P}^n) = 0$,
+\item[(d)] $\displaystyle \liminf_n H(\alpha; P^n, \tilde{P}^n) = 0$ for all $\alpha \in (0, 1)$,
+\item[(e)] $\displaystyle \liminf_n H(\alpha; P^n, \tilde{P}^n) = 0$ for some $\alpha \in (0, 1)$.
+\end{itemize}
+
+Here $H(\alpha; P^n, \tilde{P}^n) = E_{Q^n}\big[(z^n)^\alpha (\tilde{z}^n)^{1-\alpha}\big]$ is the Hellinger integral of order $\alpha$.

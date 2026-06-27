@@ -1,0 +1,23 @@
+id: boundary-normal-bundle-orientation
+title_en: "Orientation of the Normal Bundle of the Boundary"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [orientation, boundary, normal-bundle, inward-pointing-vector, collar]
+depends_on:
+  required: [orientation-of-manifold, normal-bundle, collar-neighborhood]
+  recommended: [tangent-bundle]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "5"
+    section: "1. Degrees of Maps"
+    pages: ""
+    role_in_book: "Preliminary orientation setup for degree theory"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,32 @@
+id: limit-of-a-functor
+title_en: Limit of a Functor
+title_zh: 函子的极限
+type: definition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags:
+- limit
+- adjoint-functor
+- diagonal-functor
+- counit
+- index-category
+depends_on:
+  required:
+  - adjoint-functor
+  - functor-category
+  recommended:
+  - universal-property
+  - diagonal-functor
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: VIII
+  section: '5. Limits'
+  pages: ''
+  role_in_book: Defines limits in an arbitrary category via right adjoint to diagonal functor, foundational for the theory of limits of exact couples
+content_hash: ''
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

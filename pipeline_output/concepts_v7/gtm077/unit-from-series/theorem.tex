@@ -1,0 +1,51 @@
+$$\varepsilon^{2h} = e^{\sqrt{d} \sum_{n=1}^{\infty} \left(\frac{d}{n}\right)/n}$$
+
+represents a unit of infinite degree in $k(\sqrt{d})$ with $d > 0$. And
+
+$$\varepsilon^{2h} + \varepsilon'^{2h} = \varepsilon^{2h} + \varepsilon^{-2h} = e^{\sqrt{d}L(1)} + e^{-\sqrt{d}L(1)} = A$$
+
+is a rational integer such that this unit is the larger of the two roots of the equation
+
+$$x^2 - Ax + 1 = 0.$$
+
+The rational integer $A$ can thus also be calculated numerically by estimating the remainder of the convergent series $L(1)$ and with this we have a transcendental method for finding a unit in real quadratic fields.
+
+However, in each case the series $L(1)$ can be summed in a very visible way, and in particular a surprisingly simple expression is obtained for $h$ for imaginary quadratic fields.
+
+Since $\chi(n)$ is a periodic function of the integral argument $n$ with period $|d|$ for $n > 0$, the idea of expanding $\chi(n)$ in a kind of finite Fourier series seems natural. Thus we try to determine the $|d|$ quantities $c_n (n = 0, 1, \ldots, |d| - 1)$ in such a way that
+
+$$\chi(a) = \sum_{n=0}^{|d|-1} c_n \zeta^{an
+
+By Theorem 137, we obtain
+
+$$\chi(n) = \chi(-n) \cdot \text{sgn } d,$$
+
+(147)
+
+and from this follows an analogous property of $c_n$. For if we set
+
+$$\chi(-a) = \sum_{n} c_n \zeta^{-an},$$
+
+where $n$ runs through an arbitrary complete system of residues mod $d$, then since the same holds for $-n$, we obtain
+
+$$\chi(-a) = \sum_{n} c_{-n} \zeta^{an}, \quad \chi(a) = \sum_{n} c_{-n} \text{sgn } d \zeta^{an}.$$
+
+Since the $c_n$ are uniquely determined by (146)
+
+$$c_{-n} = c_n \text{sgn } d.$$
+
+(147a)
+
+We will take up the determination of the $c_n$ later; however, even now we can put $L(1)$ into an essentially different form:
+
+$$L(1) = \sum_{n=1}^{\infty} \frac{\chi(n)}{n} = \sum_{n=1}^{\infty} \frac{1}{n} \sum_{q=0}^{|d|-1} c_q \zeta^{qn}.$$
+
+Now as is known from $\zeta^q \neq 1, |\zeta| = 1,$
+
+$$-\log(1 - \zeta^q) = \sum_{n=1}^{\infty} \frac{\zeta^{qn}}{n},$$
+
+in particular, this series converges for $q \neq 0$ (mod $d$). Thus we must have $c_0 = 0$ since $\sum_{n=1}^{\infty} 1/n$ diverges but the whole series $L(1)$ converges. Hence we write
+
+$$L(1) = \sum_{q=1}^{|d|-1} c_q \sum_{n=1}^{\infty} \frac{\zeta^{qn} + \text{sgn } d \cdot \zeta^{-qn}}{n}.$$
+
+If we take the terms with $q$ and with $|d| - q$ together and we consider

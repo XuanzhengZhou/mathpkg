@@ -1,0 +1,23 @@
+id: left-invariant-metric-uniformity
+title_en: "Left-invariant compatible metric yields the left uniformity"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: topological-groups
+difficulty: intermediate
+tags: [left-invariant-metric, left-uniformity, metrizability]
+depends_on:
+  required: [left-uniform-structure, valued-group]
+  recommended: [metric-space, uniform-structure]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "7"
+    section: "Complete topological groups"
+    pages: ""
+    role_in_book: "Shows that the uniform structure derived from a left-invariant metric coincides with the left uniform structure of the group."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,37 @@
+id: limits-of-exact-couples-and-spectral-sequences
+title_en: Limits of Exact Couples and Spectral Sequences
+title_zh: 正合偶与谱序列的极限
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags:
+- exact-couple
+- spectral-sequence
+- limit
+- colimit
+- e-infinity
+- q-process
+- derived-couple
+depends_on:
+  required:
+  - limit-of-a-functor
+  - universal-property-of-limits
+  - exact-couple
+  - spectral-sequence
+  - derived-couple
+  recommended:
+  - commutation-of-iterated-limits
+  - pullback-characterization-of-limits
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: VIII
+  section: '5. Limits'
+  pages: ''
+  role_in_book: Theorem 5.3; the main theorem of the section, establishing the limit characterization of spectral sequences from exact couples
+content_hash: ''
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

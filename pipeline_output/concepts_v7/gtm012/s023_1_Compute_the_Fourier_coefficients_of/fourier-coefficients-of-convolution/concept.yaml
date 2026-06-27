@@ -1,0 +1,23 @@
+id: fourier-coefficients-of-convolution
+title_en: "Fourier Coefficients of Convolutions of Distributions"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: fourier-analysis
+difficulty: advanced
+tags: [fourier-coefficients, convolution, distributions, periodic-distributions]
+depends_on:
+  required: [fourier-coefficients, convolution-of-distributions-definition, convolution-distribution-smooth-function]
+  recommended: [properties-of-convolution, structure-theorem-periodic-distributions]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "5"
+    section: "§2. Fourier series, convolutions, and approximation"
+    pages: ""
+    role_in_book: "Theorem 2.1: Computes the Fourier coefficients of the convolution of two distributions and the convolution of a distribution with a smooth function"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

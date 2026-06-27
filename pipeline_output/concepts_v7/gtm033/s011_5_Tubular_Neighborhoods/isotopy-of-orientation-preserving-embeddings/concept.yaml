@@ -1,0 +1,23 @@
+id: isotopy-of-orientation-preserving-embeddings
+title_en: "Isotopy of Orientation-Preserving Embeddings of Disks"
+title_zh: "保向圆盘嵌入的合痕"
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [isotopy, embedding, disk, orientation-preserving, determinant, tubular-neighborhood]
+depends_on:
+  required: [isotopy, embedding, isotopy-uniqueness-of-tubular-neighborhoods, gln]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm033
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "6. Collars and Tubular Neighborhoods of Neat Submanifolds"
+    pages: ""
+    role_in_book: "Theorem 6.6 - Orientation-preserving embeddings of disks are isotopic rel basepoint"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

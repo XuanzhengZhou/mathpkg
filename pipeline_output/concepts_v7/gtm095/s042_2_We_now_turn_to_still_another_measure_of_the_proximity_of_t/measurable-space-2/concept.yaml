@@ -1,0 +1,13 @@
+id: measurable-space-2
+title_en: "Definition 1. We say that a sequence $(\tilde{P}^n)$ of measures is contiguous to the sequence $(P^n)$ (notation: $(\tilde{P}^n) \triangleleft (P^n)$) if, for all $A^n \in \mathcal{F}^n$ such that $P^n(A^n) \to 0$ as $n \to \infty$, we have $\tilde{P}^n(A^n"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: probability-theory
+difficulty: advanced
+tags: []
+depends_on: {required: [], recommended: [], suggested: []}
+source_books: [{book_id: "gtm095", author: "Albert N. Shiryaev", title: "Probability-1 (3ed, 2016)", chapter: "Chapter 3", section: "§2. Kakutani-Hellinger distance, contiguity", pages: "", role_in_book: ""}]
+content_hash: "c79c364a4fe8"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

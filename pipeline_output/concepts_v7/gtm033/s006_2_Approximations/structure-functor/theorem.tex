@@ -1,0 +1,8 @@
+Let $X$ be a set and $\mathfrak{Y}$ a family of subsets such that $X \in \mathfrak{Y}$ and the union of any collection of elements of $\mathfrak{Y}$ is again in $\mathfrak{Y}$. A structure functor on $X$ is a contravariant functor $\mathcal{F}$ from the partially ordered (by inclusion) set $\mathfrak{Y}$ to the category of sets, assigning to each $Y \in \mathfrak{Y}$ a set $\mathcal{F}(Y)$ and to each inclusion $Y' \subset Y$ a restriction map $\mathcal{F}_{Y'Y} \colon \mathcal{F}(Y) \to \mathcal{F}(Y')$, denoted $a \mapsto a|Y'$.
+
+A structure functor $(\mathcal{F}, \mathfrak{Y})$ is called:
+\begin{itemize}
+\item \text{nontrivial} if $\mathcal{F}(\emptyset) \neq \emptyset$,
+\item \text{continuous} if for every $Y \in \mathfrak{Y}$ which is the union of a directed family $\{Y_\alpha\}$ in $\mathfrak{Y}$, the map $\mathcal{F}(Y) \to \varprojlim \mathcal{F}(Y_\alpha)$ is bijective,
+\item \text{locally extendable} if for every $Y \in \mathfrak{Y}$ with $Y \neq X$, the restriction map $\mathcal{F}(X) \to \mathcal{F}(Y)$ is surjective.
+\end{itemize}

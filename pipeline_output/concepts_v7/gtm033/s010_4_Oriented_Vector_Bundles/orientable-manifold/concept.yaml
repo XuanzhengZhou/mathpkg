@@ -1,0 +1,23 @@
+id: orientable-manifold
+title_en: "Orientable Manifold"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: basic
+tags: [orientation, manifold, tangent-bundle, double-covering]
+depends_on:
+  required: [orientation-of-a-vector-bundle, oriented-double-covering-of-a-vector-bundle]
+  recommended: [tangent-bundle, manifold, covering-space]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "4. Oriented Vector Bundles"
+    pages: ""
+    role_in_book: "Definition of orientability for manifolds via the tangent bundle"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

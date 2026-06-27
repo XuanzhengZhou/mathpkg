@@ -1,0 +1,23 @@
+id: fourier-series
+title_en: "Fourier series"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: basic
+tags: [fourier-series, formal-series, exponential-series, trigonometric-series]
+depends_on:
+  required: [fourier-coefficients]
+  recommended: [l2-convergence, pointwise-convergence]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "6"
+    section: "§6. Fourier series"
+    pages: ""
+    role_in_book: "Defines the Fourier series as a formal trigonometric series"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

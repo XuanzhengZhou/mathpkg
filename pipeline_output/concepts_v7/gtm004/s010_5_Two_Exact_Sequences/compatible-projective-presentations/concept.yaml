@@ -1,0 +1,23 @@
+id: compatible-projective-presentations
+title_en: "Compatible Projective Presentations for a Short Exact Sequence (Lemma 5.4)"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [projective-presentation, short-exact-sequence, pullback, projective-module]
+depends_on:
+  required: []
+  recommended: [projective-module, exact-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "5. Two Exact Sequences"
+    pages: ""
+    role_in_book: "Technical lemma used to construct compatible projective presentations for proving the Hom-Ext sequence in the first variable"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

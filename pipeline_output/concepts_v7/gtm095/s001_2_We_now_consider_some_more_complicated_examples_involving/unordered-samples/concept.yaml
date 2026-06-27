@@ -1,0 +1,23 @@
+id: unordered-samples
+title_en: "Unordered Samples with Replacement"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: combinatorics
+difficulty: basic
+tags: [unordered-samples, sampling, with-replacement, combinations, combinatorics]
+depends_on:
+  required: []
+  recommended: [ordered-samples]
+  suggested: [binomial-coefficients]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "2"
+    pages: ""
+    role_in_book: "Formula for the number of unordered samples with replacement: N(M,n) = C_{M+n-1}^n"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

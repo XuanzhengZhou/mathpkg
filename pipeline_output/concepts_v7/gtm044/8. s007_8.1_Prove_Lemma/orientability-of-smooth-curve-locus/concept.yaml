@@ -1,0 +1,23 @@
+id: orientability-of-smooth-curve-locus
+title_en: "Orientability of the Smooth Locus of a Plane Curve"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [orientability, algebraic-curve, singular-points, smooth-locus]
+depends_on:
+  required: [orientable-smooth-2-manifold]
+  recommended: [complex-projective-plane, singular-point]
+  suggested: [implicit-mapping-theorem]
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "9"
+    pages: ""
+    role_in_book: "Lemma 9.5; establishes that removing finitely many singular points from a plane curve yields an orientable real 2-manifold"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: category-of-triples
+title_en: "Category of Triples over a Differential Category"
+title_zh: "微分范畴上的三元组范畴"
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [category-theory, differential-objects, filtered-complexes]
+depends_on:
+  required: [abelian-category, differential-object]
+  recommended: [filtered-differential-object]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "6. Rees Systems and Filtered Complexes"
+    pages: ""
+    role_in_book: "Intermediate category for constructing the Rees system from a filtered complex"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

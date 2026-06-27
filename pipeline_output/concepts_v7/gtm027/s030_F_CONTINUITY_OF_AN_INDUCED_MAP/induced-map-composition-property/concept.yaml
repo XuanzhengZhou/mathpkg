@@ -1,0 +1,23 @@
+id: induced-map-composition-property
+title_en: "Functoriality of the Induced Map"
+title_zh: "诱导映射的函子性"
+type: proposition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [induced-map, functoriality, composition, Gelfand-duality, contravariant]
+depends_on:
+  required: [induced-map-star-homomorphism]
+  recommended: [functor, contravariant-functor, composition]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "S"
+    pages: ""
+    role_in_book: "Proposition (a)(iv): functoriality of the star operation"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

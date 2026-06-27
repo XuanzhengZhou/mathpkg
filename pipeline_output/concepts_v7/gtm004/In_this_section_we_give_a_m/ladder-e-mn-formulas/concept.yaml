@@ -1,0 +1,23 @@
+id: ladder-e-mn-formulas
+title_en: "Limit Term Formulas for the Ladder"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [exact-couple, ladder, spectral-sequence, limit, e-infinity]
+depends_on:
+  required: [ladder-of-exact-couple]
+  recommended: [exactness-of-ladder-sequence, bicartesian-squares-in-ladder]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "4. The Ladder of an Exact Couple"
+    pages: ""
+    role_in_book: "Characterizes E_{m,n}, E_{m,∞}, E_∞, and E_{∞,n} in terms of the original exact couple data"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

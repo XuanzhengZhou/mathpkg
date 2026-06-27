@@ -1,0 +1,23 @@
+id: density-of-smooth-maps
+title_en: "Theorem 2.4: Density of Smooth Maps"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [approximation, smooth-maps, dense-subset, strong-cr-topology, function-spaces]
+depends_on:
+  required: [cr-norm-notation, convolution-approximation-theorem]
+  recommended: [norm-of-k-linear-map]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2"
+    section: "Approximations"
+    pages: ""
+    role_in_book: "Establishes that smooth maps are dense in the space of C^r maps under the strong C^r topology, a fundamental result for differential topology"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

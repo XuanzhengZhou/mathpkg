@@ -1,0 +1,23 @@
+id: commutativity-of-q-processes
+title_en: "Commutativity of Q-Processes"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [exact-couple, spectral-sequence, q-process, bicartesian-square]
+depends_on:
+  required: [q-processes-for-exact-couples]
+  recommended: [pullback, pushout]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "4. The Ladder of an Exact Couple"
+    pages: ""
+    role_in_book: "Theorem 4.1; establishes that applying Q_σ then Q^ε yields the same result as Q^ε then Q_σ"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: infinite-differentiability-of-power-series
+title_en: "Infinite Differentiability of Power Series"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: real-analysis
+difficulty: basic
+tags: [power-series, differentiability, analytic-functions, termwise-differentiation]
+depends_on:
+  required: []
+  recommended: [power-series-radius-of-convergence, termwise-differentiation-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "4"
+    section: "4"
+    pages: ""
+    role_in_book: "Establishes that power series are infinitely differentiable within their radius of convergence"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

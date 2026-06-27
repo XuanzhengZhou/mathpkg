@@ -1,0 +1,23 @@
+id: limit-diagram-of-rees-system
+title_en: "Limit Diagram of a Rees System"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [rees-system, limit, spectral-sequence, exact-sequence, abelian-category]
+depends_on:
+  required: []
+  recommended: [exact-couple, colimit, limit-functor, cokernel, kernel]
+  suggested: [filtered-differential-object, spectral-sequence-convergence]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "7"
+    pages: ""
+    role_in_book: "Main structural theorem linking Rees systems to spectral sequence limits"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

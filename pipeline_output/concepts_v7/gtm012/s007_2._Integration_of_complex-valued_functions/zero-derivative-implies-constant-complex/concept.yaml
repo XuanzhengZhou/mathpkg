@@ -1,0 +1,23 @@
+id: zero-derivative-implies-constant-complex
+title_en: "Zero derivative implies constant for complex-valued functions"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: complex-analysis
+difficulty: basic
+tags: [constant-function, zero-derivative, mean-value-theorem, complex-functions]
+depends_on:
+  required: [mean-value-theorem-real, differentiability-of-complex-functions]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "3"
+    section: "3. Differentiation of complex-valued functions"
+    pages: ""
+    role_in_book: "Corollary 3.5 — corollary of the Mean Value Theorem applied to real and imaginary parts"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

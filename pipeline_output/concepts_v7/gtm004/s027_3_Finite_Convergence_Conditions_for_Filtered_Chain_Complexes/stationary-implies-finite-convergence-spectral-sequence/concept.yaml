@@ -1,0 +1,23 @@
+id: stationary-implies-finite-convergence-spectral-sequence
+title_en: "Stationary Exact Couple Implies Finite Convergence of the Spectral Sequence"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [exact-couple, spectral-sequence, finite-convergence, stationarity]
+depends_on:
+  required: [stationary-exact-couple]
+  recommended: [exact-couple, spectral-sequence]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "3"
+    section: "3. Finite Convergence Conditions for Filtered Chain Complexes"
+    pages: ""
+    role_in_book: "Theorem 3.1: establishes that stationarity of the exact couple map guarantees finite convergence of the associated spectral sequence at each bidegree"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

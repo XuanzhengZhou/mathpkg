@@ -1,0 +1,23 @@
+id: equivalent-bounded-metric
+title_en: "Equivalent Bounded Metric Construction"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: metric-spaces
+difficulty: basic
+tags: [metric, equivalent-metric, bounded-metric]
+depends_on:
+  required: [fraction-inequality]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "Chapter 2 – Topological Vector Spaces"
+    section: "14. The space (s)"
+    pages: ""
+    role_in_book: "Shows every metric space admits an equivalent bounded metric; used for product metrization."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

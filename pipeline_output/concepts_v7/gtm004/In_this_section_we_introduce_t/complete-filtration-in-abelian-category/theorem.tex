@@ -1,0 +1,12 @@
+Let $\mathfrak{A}$ be an abelian category and let
+$$\cdots \subseteq X^{p-1} \subseteq X^p \subseteq \cdots \subseteq X, \quad -\infty < p < \infty$$
+be a filtered object in $\mathfrak{A}$. Let $\xi_p : X^{p-1} \hookrightarrow X^p$ and $\nu_p : X^p \hookrightarrow X$ be the inclusions, and let $\eta_p : X \twoheadrightarrow X_p = X/X^p$ be the cokernel of $\nu_p$, so that $X_p = X/X^p$ and $\xi_p : X_p \to X_{p+1}$ is induced by the inclusion $X^p \subseteq X^{p+1}$.
+
+The filtration is said to be:
+\begin{enumerate}
+\item \textbf{Left complete} if $X = \varinjlim_p X^p$ \text{ (i.e., the natural map } \varinjlim X^p \to X \text{ is an isomorphism)}.
+\item \textbf{Right complete} if $X = \varprojlim_p X_p$ \text{ (i.e., the natural map } X \to \varprojlim X_p \text{ is an isomorphism)}.
+\item \textbf{Complete} if it is both left and right complete.
+\end{enumerate}
+
+If $\mathfrak{A}$ is a category of modules, left completeness is equivalent to $X = \bigcup_p X^p$. Right completeness is equivalent to $\bigcap_p X^p = 0$ together with the condition that every compatible family $\{x_p \in X_p\}$ (with $\xi_p(x_p) = x_{p+1}$) lifts to an element $x \in X$.

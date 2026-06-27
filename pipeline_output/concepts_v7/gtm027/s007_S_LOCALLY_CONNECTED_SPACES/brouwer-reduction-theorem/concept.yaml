@@ -1,0 +1,23 @@
+id: brouwer-reduction-theorem
+title_en: "Brouwer Reduction Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: general-topology
+difficulty: advanced
+tags: ["brouwer", "reduction", "inductive-property", "irreducible-set", "second-countable", "lindelof"]
+depends_on:
+  required: ["inductive-property", "irreducible-set-with-respect-to-property", "second-axiom-of-countability", "lindelof-space"]
+  recommended: []
+  suggested: ["cantor-bendixson-theorem"]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "The Brouwer Reduction Theorem"
+    pages: ""
+    role_in_book: "Core theorem establishing existence of irreducible closed subsets for inductive properties in second-countable spaces."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

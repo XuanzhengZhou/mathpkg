@@ -1,0 +1,26 @@
+\begin{definition}[Graded factorization]
+Let $(D, E; \alpha, \beta, \gamma)$ be a (bi)graded exact couple, where $\alpha$ carries a nonzero (bi)degree. To ensure that the vertical morphisms in the ladder are degree-preserving, factor $\alpha$ as
+\[
+\alpha = \varrho\,\omega\,\sigma,
+\qquad
+D \xrightarrow{\alpha} D' \xrightarrow{\omega} D'' \xrightarrow{\varrho} D,
+\tag{4.29}
+\]
+where $\varrho$ and $\sigma$ are degree-preserving morphisms and $\omega : D' \xrightarrow{\cong} D''$ is an isomorphism carrying the (bi)degree of $\alpha$. More generally, for the $n$-fold iterate,
+\[
+\alpha^n = v_n\,\omega_n\,\eta_n,
+\]
+where $\omega_n : D'_n \xrightarrow{\cong} D''_n$ carries the degree of $\alpha^n$.
+\end{definition}
+
+\begin{remark}
+In the (bi)graded case, the ladder diagram (4.17) is replaced by
+\[
+D'_m \xrightarrow{\alpha'_m} D'_m \xrightarrow{\beta_{m,n}} E_{m,n} \xrightarrow{\gamma_{m,n}} D''_n \xrightarrow{\alpha''_n} D''_n
+\tag{4.30}
+\]
+with the compatibility condition $\alpha''_n\omega_n = \omega_n\alpha'_n$. To obtain an exact couple from the $n^{\text{th}}$ rung, one standardly chooses $D_n = D''_n$ and sets
+\[
+\alpha_n = \alpha''_n, \quad \beta_n = \beta'_n\omega_n^{-1}, \quad \gamma_n = \gamma''_n.
+\]
+\end{remark}

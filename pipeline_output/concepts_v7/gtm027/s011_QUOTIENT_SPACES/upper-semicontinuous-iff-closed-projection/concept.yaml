@@ -1,0 +1,23 @@
+id: upper-semicontinuous-iff-closed-projection
+title_en: "Upper Semi-continuity Equivalent to Closed Projection"
+title_zh: "上半连续分解等价于闭投影"
+type: theorem
+domain: topology
+subdomain: quotient-spaces
+difficulty: advanced
+tags: [upper-semi-continuous, decomposition, closed-map, projection, quotient-space]
+depends_on:
+  required: [upper-semicontinuous-decomposition, quotient-space]
+  recommended: [closed-map, open-closed-projection-characterization]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "3"
+    section: "Quotient Spaces"
+    pages: ""
+    role_in_book: "theorem-12"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

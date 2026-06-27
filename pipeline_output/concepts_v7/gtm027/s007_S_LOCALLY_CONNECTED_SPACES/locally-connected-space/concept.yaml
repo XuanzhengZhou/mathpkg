@@ -1,0 +1,23 @@
+id: locally-connected-space
+title_en: "Locally Connected Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: connectedness
+difficulty: intermediate
+tags: ["connectedness", "local-property", "component"]
+depends_on:
+  required: ["connected-space", "component", "neighborhood", "topological-space"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Locally Connected Spaces"
+    pages: ""
+    role_in_book: "Introduces the local connectedness property for topological spaces."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

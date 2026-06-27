@@ -1,0 +1,23 @@
+id: ordinal-product-not-normal
+title_en: "Product of ordinal spaces is not normal"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: ordinal-spaces
+difficulty: advanced
+tags: [ordinals, product-space, normal-space, counterexample, Tychonoff-plank]
+depends_on:
+  required: [product-topology, normal-space]
+  recommended: [ordinal-space-normality, ordinal-space-function-fixed-point]
+  suggested: [Tychonoff-plank]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: ""
+    section: "Problems (ordinal space properties)"
+    pages: ""
+    role_in_book: "Proposition showing that the product of two normal spaces need not be normal"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

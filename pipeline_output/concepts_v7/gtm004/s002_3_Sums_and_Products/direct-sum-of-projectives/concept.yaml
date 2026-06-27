@@ -1,0 +1,23 @@
+id: direct-sum-of-projectives
+title_en: "Direct Sum is Projective iff Each Summand is Projective"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [projective-module, direct-sum]
+depends_on:
+  required: []
+  recommended: [projective-module-definition, direct-sum-universal-property]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I. Modules"
+    section: "4. Free and Projective Modules"
+    pages: ""
+    role_in_book: "Proposition 4.5 — characterizes projectivity of direct sums"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

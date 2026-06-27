@@ -1,0 +1,23 @@
+id: extension-graph
+title_en: "Extension Graph $\Gamma(G)$"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: intermediate
+tags: ['extension graph', 'Ext', 'simple modules', 'Brauer']
+depends_on:
+  required: ['simple-module', 'ext-functor', 'group-algebra']
+  recommended: ['block']
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "X. Survey of Some Applications"
+    section: "4. Modular Representation Theory"
+    pages: ""
+    role_in_book: ""
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

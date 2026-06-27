@@ -1,0 +1,23 @@
+id: existence-of-compatible-cs-differential-structure
+title_en: "Existence and uniqueness of compatible C^s differential structure"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [differential-structure, compatibility, smooth-structure, uniqueness]
+depends_on:
+  required: [compatible-differential-structure, density-of-cs-maps-in-strong-cr-topology]
+  recommended: [extension-of-cr-maps-from-open-set]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2"
+    section: "2. Approximations"
+    pages: ""
+    role_in_book: "Theorem 2.9; constructs compatible C^s structures on C^r manifolds"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

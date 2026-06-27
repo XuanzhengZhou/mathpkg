@@ -1,0 +1,21 @@
+Given a short exact sequence $A \xrightarrow{\varphi} B \xrightarrow{\psi} C$ of chain complexes, there exists a morphism of degree $-1$ of graded modules $\omega : H(C) \to H(A)$ such that the triangle
+
+\[
+\begin{array}{ccc}
+H(A) & \longrightarrow & H(B) \\
+& \searrow\ \omega & \downarrow \\
+& & H(C)
+\end{array}
+\]
+
+is exact. Explicitly, the following sequence is exact:
+
+\[
+\cdots \xrightarrow{\omega_{n+1}} H_n(A) \xrightarrow{\varphi_n} H_n(B) \xrightarrow{\psi_n} H_n(C) \xrightarrow{\omega_n} H_{n-1}(A) \xrightarrow{\varphi_{n-1}} H_{n-1}(B) \xrightarrow{\psi_{n-1}} H_{n-1}(C) \xrightarrow{\omega_{n-1}} \cdots
+\]
+
+For cochain complexes, $\omega$ has degree $+1$ and the analogous long exact cohomology sequence holds:
+
+\[
+\cdots \xrightarrow{\omega^{n-1}} H^n(A) \xrightarrow{\varphi^n} H^n(B) \xrightarrow{\psi^n} H^n(C) \xrightarrow{\omega^n} H^{n+1}(A) \xrightarrow{\varphi^{n+1}} H^{n+1}(B) \xrightarrow{\psi^{n+1}} H^{n+1}(C) \xrightarrow{\omega^{n+1}} \cdots
+\]

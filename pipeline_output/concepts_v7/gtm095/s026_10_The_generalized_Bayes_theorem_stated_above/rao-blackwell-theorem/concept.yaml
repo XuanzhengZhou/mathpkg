@@ -1,0 +1,23 @@
+id: rao-blackwell-theorem
+title_en: "Rao-Blackwell Theorem"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: mathematical-statistics
+difficulty: intermediate
+tags: [sufficiency, unbiased-estimator, mean-squared-error, conditional-expectation, improvement]
+depends_on:
+  required: [sufficient-sigma-subalgebra, conditional-expectation, unbiased-estimator]
+  recommended: [jensens-inequality-conditional-expectation, mean-squared-error]
+  suggested: [lehmann-scheffe-theorem, uniformly-minimum-variance-unbiased-estimator]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "7"
+    section: "10"
+    pages: ""
+    role_in_book: "Theorem 8; shows that conditioning an unbiased estimator on a sufficient sigma-algebra yields an improved estimator"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

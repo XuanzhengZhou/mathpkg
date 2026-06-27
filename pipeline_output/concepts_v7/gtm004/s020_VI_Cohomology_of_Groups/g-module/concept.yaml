@@ -1,0 +1,23 @@
+id: g-module
+title_en: "G-Module (ZG-Module)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: ["group-module", "ZG-module", "group-action"]
+depends_on:
+  required: ["integral-group-ring"]
+  recommended: ["module-over-ring"]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the coefficient objects for group (co)homology"
+content_hash: "646346e25a8c"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

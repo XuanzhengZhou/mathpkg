@@ -1,0 +1,23 @@
+id: lemma-1-1-measure-zero-under-c1-map
+title_en: "Lemma 1.1: Measure Zero Preserved Under C^1 Maps"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [measure-zero, c1-map, lipschitz, lebesgue-measure]
+depends_on:
+  required: [measure-zero, c1-map, lipschitz-continuity]
+  recommended: [lindelof-principle, n-cube]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "3"
+    section: "1. The Morse-Sard Theorem"
+    pages: ""
+    role_in_book: "Foundational lemma for Morse-Sard theorem; measure zero sets are preserved under C^1 maps between equal-dimensional spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,13 @@
+id: uniform-cauchy-sequence
+title_en: "Uniform Cauchy sequence of bounded functions"
+title_zh: "有界函数的一致柯西列"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [uniform-cauchy-sequence, cauchy-sequence, sup-norm, uniform-convergence]
+depends_on: {required: [sup-norm], recommended: [cauchy-sequence, uniform-convergence], suggested: []}
+source_books: [{book_id: "gtm012", author: "Richard Beals", title: "Advanced Mathematical Analysis", chapter: "4", section: "4. Sequences and series of functions", pages: "", role_in_book: "Definition (4.1); used to characterize completeness of the space of bounded functions"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

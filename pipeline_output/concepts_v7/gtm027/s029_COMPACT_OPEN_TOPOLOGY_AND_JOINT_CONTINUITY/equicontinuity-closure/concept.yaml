@@ -1,0 +1,23 @@
+id: equicontinuity-closure
+title_en: "Theorem 7.14 — Equicontinuity is Preserved under Pointwise Closure"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: function-spaces
+difficulty: intermediate
+tags: [equicontinuity, pointwise-convergence, closure]
+depends_on:
+  required: [equicontinuous-at-a-point, pointwise-convergence-topology]
+  recommended: [closure]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Compactness and Equicontinuity"
+    pages: ""
+    role_in_book: "Theorem 7.14 — the pointwise closure of an equicontinuous family is equicontinuous"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

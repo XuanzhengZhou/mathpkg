@@ -1,0 +1,23 @@
+id: regular-interval-theorem
+title_en: "Regular Interval Theorem"
+title_zh: "正则区间定理"
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [morse-theory, regular-level-surface, diffeomorphism, product-structure]
+depends_on:
+  required: [gradient-vector-field, flow-of-vector-field, regular-value]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "6"
+    section: "2"
+    pages: "153"
+    role_in_book: "Key structural result: manifold without critical points is a product"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

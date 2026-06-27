@@ -1,0 +1,23 @@
+id: e-projective-object
+title_en: "E-Projective Object"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [projective-class, relative-homological-algebra, epimorphism, e-projective]
+depends_on:
+  required: [projective-object, abelian-category, epimorphism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "1. Projective Classes of Epimorphisms"
+    pages: "318-328"
+    role_in_book: "Definition: An object P is E-projective if it is projective relative to every epimorphism in the class E"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

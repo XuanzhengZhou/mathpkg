@@ -1,0 +1,23 @@
+id: e-derived-functors-long-exact-sequence
+title_en: "Long Exact Sequence of E-Derived Functors"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [projective-class, relative-homological-algebra, derived-functor, exact-sequence, connecting-homomorphism]
+depends_on:
+  required: [e-projective-object, derived-functor, short-exact-sequence, embedding-e-exact-diagram]
+  recommended: [long-exact-homology-sequence]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "2. E-Derived Functors"
+    pages: "318-328"
+    role_in_book: "Theorem 2.3: Short exact sequence of functors yields long exact sequence of E-derived functors"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

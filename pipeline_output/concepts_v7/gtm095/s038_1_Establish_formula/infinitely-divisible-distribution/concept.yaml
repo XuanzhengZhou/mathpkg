@@ -1,0 +1,23 @@
+id: infinitely-divisible-distribution
+title_en: "Infinitely Divisible Distribution"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: infinitely-divisible-distributions
+difficulty: intermediate
+tags: [infinitely-divisible, convolution, triangular-array, limit-theorems, levy-khintchine]
+depends_on:
+  required: []
+  recommended: [convolution-of-distributions, independent-random-variables, identically-distributed]
+  suggested: [characteristic-function, poisson-distribution, normal-distribution, limit-distribution]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "1"
+    pages: ""
+    role_in_book: "Defines the fundamental notion of infinite divisibility, which characterizes all possible limit distributions of sums of independent identically distributed random variables in a triangular array scheme."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

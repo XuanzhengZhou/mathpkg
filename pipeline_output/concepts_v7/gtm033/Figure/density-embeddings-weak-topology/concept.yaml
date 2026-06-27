@@ -1,0 +1,23 @@
+id: density-embeddings-weak-topology
+title_en: "Density of Embeddings and Immersions in the Weak Topology"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [embedding, immersion, weak-topology, density, approximation]
+depends_on:
+  required: [weak-topology, embedding, immersion, compact-manifold]
+  recommended: [whitney-embedding-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2"
+    section: "1. The Weak and Strong Topologies on C^r(M,N)"
+    pages: ""
+    role_in_book: "Proposition 1.0. States that embeddings are dense in the weak C^r topology when the target dimension is sufficiently high; this is the approximation form of Whitney's embedding theorem."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

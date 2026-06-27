@@ -1,0 +1,23 @@
+id: total-complex
+title_en: "Total Complex of a Double Complex"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [total-complex, double-complex, direct-sum, chain-complex]
+depends_on:
+  required: [double-complex, chain-complex]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "V"
+    section: "1"
+    pages: ""
+    role_in_book: "Construction of a single chain complex from a double complex via direct sum along antidiagonals"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

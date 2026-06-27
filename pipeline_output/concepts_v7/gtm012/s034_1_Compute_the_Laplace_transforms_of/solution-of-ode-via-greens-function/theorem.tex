@@ -1,0 +1,8 @@
+Suppose $p$ is a polynomial of degree $n > 0$, and suppose $f: [0, \infty) \to \mathbb{C}$ is a continuous function. Then there is a unique solution $u: [0, \infty) \to \mathbb{C}$ to the problem
+\begin{align}
+p(D)u(t) &= f(t), \quad t > 0; \\
+D^j u(0+) &= 0, \quad 0 \leq j \leq n-1.
+\end{align}
+This solution $u$ is given by
+$$u(t) = \int_0^t G(t-s) f(s) \, ds,$$
+where $G$ is the Green's function for the operator $p(D)$.

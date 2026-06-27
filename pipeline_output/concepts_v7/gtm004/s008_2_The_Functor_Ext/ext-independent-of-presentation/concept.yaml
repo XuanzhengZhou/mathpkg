@@ -1,0 +1,23 @@
+id: ext-independent-of-presentation
+title_en: "Ext is Independent of the Choice of Projective Presentation"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [ext-functor, projective-presentation, natural-equivalence, well-defined]
+depends_on:
+  required: [independence-of-pi-star, ext-via-projective-presentation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "2. The Functor Ext"
+    pages: ""
+    role_in_book: "Corollary 2.2; establishes that Ext defined via different projective presentations yields naturally isomorphic groups"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

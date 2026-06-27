@@ -1,0 +1,23 @@
+id: linear-ordering
+title_en: "Linear Ordering (Total Ordering)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: order-theory
+difficulty: basic
+tags: ["linear-ordering", "total-order", "chain", "comparability", "antisymmetry"]
+depends_on:
+  required: ["ordering-definition"]
+  recommended: ["chain-definition"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Orderings"
+    pages: "12-18"
+    role_in_book: "Defines a linear (total) ordering as a transitive relation that is antisymmetric and total on the set."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

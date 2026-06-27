@@ -1,0 +1,23 @@
+id: classical-solution-heat-equation
+title_en: "Classical solution of the heat equation"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: partial-differential-equations
+difficulty: intermediate
+tags: [heat-equation, classical-solution, boundary-value-problem, maximum-principle]
+depends_on:
+  required: [periodic-heat-equation]
+  recommended: [continuous-functions, uniform-convergence]
+  suggested: [distribution-solution-heat-equation]
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "4"
+    section: "The heat equation: classical solutions; derivation"
+    pages: ""
+    role_in_book: "Defines classical solution in contrast to distribution solution, with Dirichlet or Neumann boundary conditions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

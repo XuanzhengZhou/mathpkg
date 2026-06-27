@@ -1,0 +1,29 @@
+id: unit-embedding-of-lie-algebra-into-universal-enveloping-algebra
+title_en: Unit Embedding of a Lie Algebra into Its Universal Enveloping Algebra
+title_zh: 李代数到其泛包络代数的单位嵌入
+type: corollary
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags:
+- universal-enveloping-algebra
+- pbw-theorem
+- embedding
+depends_on:
+  required:
+  - universal-enveloping-algebra
+  recommended:
+  - lie-algebra
+  suggested:
+  - pbw-theorem
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: VII
+  section: 1. Lie Algebras and their Universal Enveloping Algebra
+  pages: ''
+  role_in_book: Foundational concept for Lie algebra cohomology theory
+content_hash: 440457c7dd3cfce2
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

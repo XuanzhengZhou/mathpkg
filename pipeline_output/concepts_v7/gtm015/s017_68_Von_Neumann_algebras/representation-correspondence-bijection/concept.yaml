@@ -1,0 +1,23 @@
+id: representation-correspondence-bijection
+title_en: "Bijection between star-representations and unitary representations"
+title_zh: "*-表示与酉表示的双射对应"
+type: theorem
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: advanced
+tags: [star-representation, unitary-representation, bijection, gel-fand-raikov]
+depends_on:
+  required: []
+  recommended: [star-representation-to-unitary, unitary-to-star-representation, l1-group-algebra]
+  suggested: [gelfand-raikov-theorem]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "69"
+    section: "Group representations"
+    pages: "311"
+    role_in_book: "Theorem (69.22) establishing the mutual inverse bijection"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

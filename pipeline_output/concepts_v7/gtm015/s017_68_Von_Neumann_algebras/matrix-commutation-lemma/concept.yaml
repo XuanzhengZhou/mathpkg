@@ -1,0 +1,23 @@
+id: matrix-commutation-lemma
+title_en: "Commutation criterion for matricial representation of operators"
+title_zh: "算子矩阵表示的交換判据"
+type: lemma
+domain: analysis
+subdomain: operator-theory
+difficulty: advanced
+tags: [operator-matrix, commutant, hilbert-space-direct-sum, amplification]
+depends_on:
+  required: []
+  recommended: [bounded-operator, hilbert-space-direct-sum, commutant]
+  suggested: [von-neumann-algebra]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "68"
+    section: "Von Neumann algebras"
+    pages: "297"
+    role_in_book: "Lemma (68.19) used in the proof of von Neumann's bicommutant theorem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: gumbel-inequalities
+title_en: "Gumbel Inequalities"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: foundations
+difficulty: advanced
+tags: [gumbel, inequalities, union-bound, probability-bounds]
+depends_on:
+  required: [inclusion-exclusion-principle]
+  recommended: [bonferroni-inequalities]
+  suggested: [frechet-inequalities]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "6"
+    pages: ""
+    role_in_book: "Gumbel's inequalities bounding the probability of a union via sums of union probabilities"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

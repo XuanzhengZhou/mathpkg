@@ -1,0 +1,23 @@
+id: component-of-topological-space
+title_en: "Component of a Topological Space"
+title_zh: "拓扑空间的连通分支"
+type: definition
+domain: topology
+subdomain: connectedness
+difficulty: basic
+tags: [component, connected, maximal-connected, equivalence-class]
+depends_on:
+  required: [connected-set]
+  recommended: [union-of-non-separated-connected-sets]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Bases and Subbases"
+    pages: ""
+    role_in_book: "Definition of connected component (implicit from context before Theorem 22)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

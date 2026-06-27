@@ -1,0 +1,129 @@
+Let $h = a_1 \cdot a_2 \cdots a_r$ and suppose that the integers $a_1, \ldots, a_r$ are pairwise relatively prime. Then each element $C$ of $\mathfrak{G}$ can be represented in one and only way in the form
+
+$$C = A_1 \cdot A_2 \cdots A_r$$
+
+with the conditions
+
+$$A_1
+
+then by Theorem 21
+
+$$A_i^{a_i} = C^{hn_i} = E$$
+
+and with this
+
+$$C = A_1 \cdot A_2 \cdots A_l.$$
+
+is represented in the required form. To see the uniqueness of the representation let $C = B_1 \cdot B_2 \cdots B_r$ be yet another representation of this type. Then
+
+$$(B_1 \cdot B_2 \cdots B_r)^{h/a_1} = (A_1 \cdot A_2 \cdots A_r)^{h/a_1}.$$
+
+(9)
+
+However, since composition is commutative, a fact which is used at this point for the first time, it follows from (9) that
+
+$$B_1^{h/a_1} \cdot B_2^{h/a_1} \cdots B_r^{h/a_1} = A_1^{h/a_1} \cdot A_2^{h/a_1} \cdots A_r^{h/a_1}.$$
+
+Now since $h/a_1$ is a multiple of each $a_2, a_3, \ldots, a_r$, the factors with the indices 2, 3, ..., $r$ must be equal to $E$ by the hypotheses about the $A_i, B_i$, hence
+
+$$B^{h/a_1} = A_1^{h/a_1}.$$
+
+Since $(a_1, h/a_1) = 1$, there are integers $x, y$ with $a_1x + (h/a_1)y = 1$ and recalling that
+
+$$E = B_1^{a_1} = A_1^{a_1},$$
+
+we have
+
+$$B_1 = B_1^{a_1x + (h/a_1)y} = A_1^{a_1x + (h/a_1)y} = A_1.$$
+
+In general, it follows in this fashion that $A_i = B_i$ and with this the uniqueness of the representation of $C$.
+
+If $a_i'$ is the number of different elements $A$ with the property
+
+$$A^{a_i} = E,$$
+
+then obviously the totality of these
+
+$\mathfrak{G}$ can be built up by this theorem. One can define $\mathfrak{G}$ simply as a “product” of these subgroups. However, if starting out from two groups $\mathfrak{G}_1$ and $\mathfrak{G}_2$ one merely wishes to define a group $\mathfrak{G}$ which has $\mathfrak{G}_1$ and $\mathfrak{G}_2$ as subgroups and which is then to be called the product of these groups, one must consider that at the outset the product of an element of $\mathfrak{G}_1$ with an element of $\mathfrak{G}_2$ has no meaning at all yet.
+
+For this reason we proceed as follows: We denote the elements of the Abelian group $\mathfrak{G}_i$ ($i = 1, 2$) with the subscript $i$. We now define a new group whose elements are pairs $(A_1, A_2)$ and we set
+
+(1) $(A_1, A_2) = (B_1, B_2)$ means $A_1 = B_1$ and $A_2 = B_2$.
+
+(2) The rule of composition for these pairs is to be $(A_1, A_2) \cdot (B_1, B_2) = (A_1 B_1, A_2 B_2)$.
+
+In this way the $h_1 \cdot h_2$ new elements ($h_i$ is the order of $\mathfrak{G}_i$) are combined to form an Abelian group $\mathfrak{G}$. The unit element of this group is $(E_1, E_2)$, where $E_i$ is the unit element of $\mathfrak{G}_i$. The $h_1$ elements $(A_1, E_2)$, where $A_1$ runs through the group $\mathfrak{G}_1$ obviously form a subgroup of $\mathfrak{G}$ and this group is isomorphic to $\mathfrak{G}_1$; likewise the group of elements $(E_1, A_2)$ is isomorphic to $\mathfrak{G}_2$. The two subgroups have only the one element $(E_
+
+$h_1, \ldots, h_r$ respectively $(h_i > 1)$ such that each element of $\mathfrak{G}$ is obtained in exactly one way in the form
+
+$$C = B_1^{x_1} B_2^{x_2} \cdots B_r^{x_r},$$
+
+where the integers $x_i$ each run through a complete system of residues mod $h_i$ independently of one another. Moreover the $h_i = p^{k_i}$ are prime powers and $h = h_1 \cdot h_2 \cdots h_r$.
+
+$r$ elements of this kind are called a basis for $\mathfrak{G}$.
+
+By our previous results the truth of this theorem is obtained at once for arbitrary $h$, as soon as it is proved for all Abelian groups of prime-power order.
+
+Hence let $h = p^k$ be the order of $\mathfrak{G}$, where $p$ is a prime and $k$ is an integer $\geq 1$. Then the order of each element of $\mathfrak{G}$ has a value $p^\alpha$, where $0 \leq \alpha \leq k$, $\alpha$ integral.
+
+A system of $m$ elements $A_1, \ldots, A_m$ with orders $a_1, \ldots, a_m$ is called independent if from $A_1^{x_1} \cdot A_2^{x_2} \cdots A_m^{x_m} = E$ it follows that
+
+$$x_i \equiv 0 \pmod{a_i} \quad \text{for } i = 1, 2, \ldots, m.$$
+
+For example, each element $A$ is an independent element. The product of powers of $m$ independent elements obviously forms a group which contains exactly $a_1 \cdot a_2 \cdots a_m$ different elements. If $A_1, \ldots, A_m$ are independent then the $m+1$ elements $A_1, \ldots, A_m, E$ are always independent and conversely. We now always agree on a numbering of the independent elements, such that the orders form a decreasing sequence:
+
+$$a_1 \geq a_2 \geq a_3 \cdots \ge
+
+element of $\mathfrak{G}$ is representable as a product of powers of the $B_i$—and for this the following lemmas suffice:
+
+**Lemma (a).** No element among the elements $B_1, \ldots, B_r$ can be a $p$th power of an element of $\mathfrak{G}$.
+
+If we had $B_m = C^p$ then the system obtained from the $B_1, \ldots, B_r$ by replacing $B_m$ with $C$ and possibly changing the numbering would also be independent, but obviously of higher rank than the maximal system $B_1, \ldots, B_r$, which is impossible.
+
+**Lemma (b).** If we replace one of the $B$, say $B_m$, in the system $B_1, \ldots, B_r$ by
+
+$$A = B_m^u B_{m+1}^{x_{m+1}} \cdots B_r^{x_r},$$
+
+where $u \neq 0$ (mod $p$), but the $x_i$ are arbitrary integers, then the rank does not change and the new system is again a maximal system.
+
+$A$ has the same order as $B_m$, since the orders of $B_{m+1}, \ldots, B_r$ are not larger than that of $B_m$, and thus are divisors of the order of $B_m$. Moreover, each product of powers from $A, B_{m+1}, \ldots, B_r$ is representable as a product of powers of $B_m, B_{m+1}, \ldots, B_r$, and conversely. Consequently the new system is also independent and thus it is a maximal system.
+
+**Lemma (c).** If an element $C^p$ is representable as a product of powers of the $B_i$, then the same holds for $C$.
+
+If, in fact,
+
+$$C^p = B_1^{x_1} \cdots B_r^{x_r},$$
+
+then all $x_i$ are $\equiv 0$ (mod $p$). For if $x_m = u$ were the first exponent which is not divisible by $p$, then let $B_m$ be replaced by
+
+$$A
+
+to decreasing order (as the order of $B$ is greater than 1 and hence $\geq p$). However they would have a higher rank than the maximal system $B_1, \ldots, B_r$, which is impossible. Hence the assumption is false and (c) is proved.
+
+By repeated application of (c) however, the representability of each element $A$ of $\mathfrak{G}$ through the $B_i$ is obtained. For if $A$ is of order $p^m$, then
+
+$$A^{p^m} = 1$$
+
+is certainly representable by the $B_i$. Hence, by (c), $A^{p^{m-1}}$ is also representable by the $B_i$, and thus also $A^{p^{m-2}}$ if $m > 1$ and so on until we arrive at $A^{p^0} = A$ itself.
+
+The elements of a basis for $\mathfrak{G}$ are not uniquely determined by $\mathfrak{G}$. Certain properties of the basis are nevertheless characteristic of $\mathfrak{G}$ itself. The number $e = e(p)$ of those basis elements whose order is divisible by the prime $p$ is considered the most important constant determined by $\mathfrak{G}$ alone; we call $e$ the basis number belonging to $p$. Its independence of the choice of basis elements is shown by
+
+**Theorem 27.** If $p$ is a prime, then the number of different elements of $\mathfrak{G}$ with the property
+
+$$A^p = 1$$
+
+is equal to $p^e$, where $e$ is the basis number belonging to $p$.
+
+If $B_1, B_2, \ldots, B_e$ are those basis elements whose orders are powers of $p$, then from
+
+$$A = B_1^{x_1} B_2^{x_2} \cdots B_e^{x_e} B_{e+1}^{x_{e+1}} \cdots B_r^{x_r}$$
+
+and $A^p = 1$
+
+we have the sequence of congruences
+
+$$px_i \equiv 0 \pmod{h_i} \quad i = 1, 2, \ldots, r,$$
+
+h
+
+group are powers of a single element $A$, the group is called cyclic, and $A$ is called a generator of the group. Here we have

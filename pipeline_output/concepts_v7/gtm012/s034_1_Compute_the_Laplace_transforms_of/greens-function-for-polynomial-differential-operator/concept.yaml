@@ -1,0 +1,13 @@
+id: greens-function-for-polynomial-differential-operator
+title_en: "Green's Function for a Polynomial Differential Operator"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: differential-equations
+difficulty: intermediate
+tags: [greens-function, differential-operator, polynomial, contour-integral, laplace-transform]
+depends_on: {required: [polynomial-differential-operator], recommended: [laplace-transform, residue-theorem], suggested: []}
+source_books: [{book_id: "gtm012", author: "Beals", title: "Advanced Mathematical Analysis", chapter: "7", section: "Differential equations", pages: "215", role_in_book: "Defines the Green's function as the inverse Laplace transform of 1/p(z), central to solving p(D)u = f"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

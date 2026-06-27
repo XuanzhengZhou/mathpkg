@@ -1,0 +1,23 @@
+id: density-lemma-linear-subspaces-cx
+title_en: "Density Lemma for Linear Subspaces of C(X)"
+title_zh: "C(X)线性子空间的稠密性引理"
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [density, C(X), linear-subspace, two-set-property, uniform-convergence]
+depends_on:
+  required: [two-set-property]
+  recommended: [C(X)-space, uniform-convergence-topology, linear-subspace]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "P"
+    pages: ""
+    role_in_book: "Main lemma: linear subspaces with two-set property are dense"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

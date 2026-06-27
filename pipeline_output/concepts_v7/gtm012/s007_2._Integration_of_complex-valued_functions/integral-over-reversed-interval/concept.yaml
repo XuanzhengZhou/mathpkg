@@ -1,0 +1,23 @@
+id: integral-over-reversed-interval
+title_en: "Integral over reversed and degenerate intervals"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: real-analysis
+difficulty: basic
+tags: [integral, reversed-interval, convention]
+depends_on:
+  required: [riemann-integral-complex, integral-additivity-over-intervals]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "2"
+    section: "2. Integration of complex-valued functions"
+    pages: ""
+    role_in_book: "Extends the integral notation to arbitrary order of limits and degenerate intervals"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

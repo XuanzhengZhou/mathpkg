@@ -1,0 +1,23 @@
+id: lying-over-equivalence
+title_en: "Theorem 10.8: Equivalence of Geometric and Algebraic Lying-Over"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [lying-over, ideal, variety, contraction, projection, dense, coordinate-ring, embedding]
+depends_on:
+  required: [variety-lying-over-concrete, ideal-lying-over, homomorphism-induced-extension-contraction]
+  recommended: [extended-ideal-variety-inverse-projection, natural-projection, zariski-topology]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "10"
+    section: "10.8"
+    pages: ""
+    role_in_book: "Establishes the equivalence between the algebraic notion of an ideal lying over another and the geometric notion of the corresponding variety lying over another"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

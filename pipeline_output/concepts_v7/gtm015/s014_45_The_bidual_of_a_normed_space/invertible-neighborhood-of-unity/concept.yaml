@@ -1,0 +1,23 @@
+id: invertible-neighborhood-of-unity
+title_en: "Elements near unity are invertible"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: banach-algebras
+difficulty: basic
+tags: [banach-algebra, invertible, unity, neumann-series]
+depends_on:
+  required: [neumann-series, banach-algebra-definition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "50"
+    section: "Invertibility in a Banach algebra with unity"
+    pages: ""
+    role_in_book: "If ||1-x|| < 1 then x is invertible"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

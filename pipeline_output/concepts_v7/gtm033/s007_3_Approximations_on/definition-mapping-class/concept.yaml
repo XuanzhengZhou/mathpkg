@@ -1,0 +1,23 @@
+id: definition-mapping-class
+title_en: "Definition: C^r Mapping Class"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [mapping-class, localization, c-r-topology, functor]
+depends_on:
+  required: [c-r-manifold, function-space]
+  recommended: [theorem-2-2-globalization, transversality]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "3"
+    section: "2. Transversality"
+    pages: ""
+    role_in_book: "Abstract definition of a mapping class used in the Globalization Theorem for transversality"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

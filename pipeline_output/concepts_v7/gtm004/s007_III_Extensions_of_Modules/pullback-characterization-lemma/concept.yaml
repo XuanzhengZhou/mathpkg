@@ -1,0 +1,23 @@
+id: pullback-characterization-lemma
+title_en: "Lemma 1.1: Pullback Characterization via Exact Sequence"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [pullback, exact-sequence, extension, kernel]
+depends_on:
+  required: [pullback, exact-sequence, kernel]
+  recommended: [extension-of-modules]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III. Extensions of Modules"
+    section: "1. Extensions"
+    pages: ""
+    role_in_book: "Key lemma linking pullbacks to exact sequences; used to construct induced maps on E(A,B)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,22 @@
+id: rationals-lack-completeness
+title_en: "The Rational Numbers Do Not Satisfy the Completeness Axiom"
+title_zh: "有理数不满足完备性公理"
+type: theorem
+domain: analysis
+subdomain: real-numbers
+difficulty: intermediate
+depends_on:
+  required: [completeness-axiom, least-upper-bound]
+  recommended: []
+  suggested: [rational-numbers]
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "1"
+    section: "2. Real and complex numbers"
+    pages: ""
+    role_in_book: "Theorem 2.1: distinguishes R from Q"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

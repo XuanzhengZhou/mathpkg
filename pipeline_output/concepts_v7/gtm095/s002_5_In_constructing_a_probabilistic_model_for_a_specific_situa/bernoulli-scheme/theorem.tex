@@ -1,0 +1,6 @@
+In the \text{Bernoulli scheme} (probabilistic model for $n$ tosses of a coin), the sample space is
+$$\Omega = \{\omega : \omega = (a_1, \ldots, a_n), \; a_i = 0, 1\},$$
+where $a_i = 1$ denotes ``success'' and $a_i = 0$ denotes ``failure'' at the $i$th trial. To each sample point $\omega = (a_1, \ldots, a_n)$ we assign the probability
+$$p(\omega) = p^{\sum a_i} q^{n - \sum a_i},$$
+where $p \geq 0$, $q \geq 0$, and $p + q = 1$. This assignment is consistent since
+$$\sum_{\omega \in \Omega} p(\omega) = \sum_{k=0}^{n} C_n^k p^k q^{n-k} = (p + q)^n = 1.$$

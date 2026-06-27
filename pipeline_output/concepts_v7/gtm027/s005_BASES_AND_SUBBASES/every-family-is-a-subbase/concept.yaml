@@ -1,0 +1,23 @@
+id: every-family-is-a-subbase
+title_en: "Every Non-Empty Family is a Subbase for Some Topology"
+title_zh: "每个非空集族都是某个拓扑的子基"
+type: proposition
+domain: topology
+subdomain: bases-and-subbases
+difficulty: basic
+tags: [subbase, topology-construction]
+depends_on:
+  required: [subbase-for-a-topology, finite-intersections-form-a-base]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Bases and Subbases"
+    pages: ""
+    role_in_book: "Universality of subbase construction; the generated topology is the smallest containing the family"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

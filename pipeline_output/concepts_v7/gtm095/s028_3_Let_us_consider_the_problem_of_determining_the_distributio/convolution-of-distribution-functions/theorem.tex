@@ -1,0 +1,6 @@
+Let $\xi$ and $\eta$ be independent random variables with distribution functions $F_\xi$ and $F_\eta$. The \text{convolution} of $F_\xi$ and $F_\eta$, denoted $F_\xi * F_\eta$, is defined by
+$$(F_\xi * F_\eta)(z) = \int_{-\infty}^{\infty} F_\xi(z - y) \, dF_\eta(y) = \int_{-\infty}^{\infty} F_\eta(z - x) \, dF_\xi(x).$$
+The distribution function of the sum $\zeta = \xi + \eta$ is
+$$F_\zeta = F_\xi * F_\eta.$$
+If densities $f_\xi$ and $f_\eta$ exist, then
+$$f_\zeta(z) = \int_{-\infty}^{\infty} f_\xi(z - y) f_\eta(y) \, dy = \int_{-\infty}^{\infty} f_\eta(z - x) f_\xi(x) \, dx.$$

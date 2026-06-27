@@ -1,0 +1,23 @@
+id: mesh-of-partition
+title_en: "Mesh of a partition"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: real-analysis
+difficulty: basic
+tags: [partition, mesh, riemann-integration, refinement]
+depends_on:
+  required: [partition-of-interval]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "2"
+    section: "2. Integration of complex-valued functions"
+    pages: ""
+    role_in_book: "Defines the size measure used in the limit definition of the Riemann integral"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

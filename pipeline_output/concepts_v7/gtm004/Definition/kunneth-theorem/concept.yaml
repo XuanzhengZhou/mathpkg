@@ -1,0 +1,23 @@
+id: kunneth-theorem
+title_en: "Künneth Theorem"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [kunneth-theorem, tensor-product, chain-complex, homology, tor, pid, splitting]
+depends_on:
+  required: [tensor-product-chain-complexes, homology, tor-functor]
+  recommended: [universal-coefficient-theorem]
+  suggested: [spectral-sequence]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "V"
+    section: "2"
+    pages: ""
+    role_in_book: "Theorem 2.1: main result expressing homology of tensor product in terms of Hom and Tor"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

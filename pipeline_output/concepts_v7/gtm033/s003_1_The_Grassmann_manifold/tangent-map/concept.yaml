@@ -1,0 +1,23 @@
+id: tangent-map
+title_en: "Tangent Map (Derivative of a Map Between Manifolds)"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: differential-topology
+difficulty: intermediate
+tags: [tangent-map, derivative, pushforward, chain-rule, functoriality]
+depends_on:
+  required: [tangent-bundle]
+  recommended: [smooth-map-between-manifolds]
+  suggested: []
+source_books:
+  - book_id: gtm033
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2. Differentiable Maps and the Tangent Bundle"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition of the derivative of a map between manifolds as a bundle map"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

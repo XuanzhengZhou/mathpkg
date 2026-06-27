@@ -1,0 +1,23 @@
+id: contiguity-of-probability-measures
+title_en: "Contiguity of sequences of probability measures"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: asymptotic-statistics
+difficulty: advanced
+tags: [contiguity, asymptotic-theory, probability-measures, le-cam]
+depends_on:
+  required: [absolute-continuity, sequence-of-measures]
+  recommended: [kakutani-hellinger-distance]
+  suggested: [entire-asymptotic-separation]
+source_books:
+  - book_id: gtm095
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "10.1"
+    pages: ""
+    role_in_book: "Definition 1; introduces contiguity as asymptotic absolute continuity for sequences of measures"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

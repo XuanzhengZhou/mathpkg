@@ -1,0 +1,23 @@
+id: chain-complex
+title_en: "Chain Complex"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [chain-complex, differential, graded-module]
+depends_on:
+  required: []
+  recommended: [graded-module, ring-with-unit]
+  suggested: [abelian-category]
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV. Derived Functors"
+    section: "1. Complexes"
+    pages: ""
+    role_in_book: "Foundational definition of the basic object of homological algebra"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

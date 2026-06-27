@@ -1,0 +1,23 @@
+id: regular-value-theorem-boundary-manifolds
+title_en: "Regular Value Theorem for Manifolds with Boundary"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [regular-value, boundary-manifold, neat-submanifold, preimage]
+depends_on:
+  required: [regular-value-theorem, boundary-manifold]
+  recommended: [neat-submanifold, submersion]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "1"
+    section: "4. Manifolds with Boundary"
+    pages: ""
+    role_in_book: "Theorem 4.1. Generalizes the regular value theorem to manifolds with boundary; the preimage of a regular value is a neat submanifold."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

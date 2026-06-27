@@ -1,0 +1,23 @@
+id: axioms-of-order
+title_en: "Axioms of order for the real numbers"
+title_zh: "实数序公理"
+type: axiom
+domain: analysis
+subdomain: ordered-field
+difficulty: basic
+tags: [order, positivity, trichotomy, real-numbers, ordered-field]
+depends_on:
+  required: [axioms-of-addition, axioms-of-multiplication]
+  recommended: []
+  suggested: [trichotomy-of-order, closure-of-positive-under-addition]
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "1"
+    section: "2. Real and complex numbers"
+    pages: ""
+    role_in_book: "Introduces positivity subset P to define order on R"
+content_hash: "o1o2-order-axioms"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

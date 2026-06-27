@@ -1,0 +1,23 @@
+id: tensor-tor-as-homology
+title_en: "Tensor Product and Tor as Homology of a Chain Complex"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [Tor, tensor-product, homology, projective-presentation, derived-functor]
+depends_on:
+  required: [chain-complex, homology-module]
+  recommended: [Tor-functor, projective-presentation, tensor-product]
+  suggested: [derived-functor]
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV. Derived Functors"
+    section: "1. Complexes"
+    pages: ""
+    role_in_book: "Motivating example: Tor arises from a projective presentation as homology of a short chain complex"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

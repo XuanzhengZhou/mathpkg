@@ -1,0 +1,13 @@
+id: continuous-complex-real-form-bijection
+title_en: "Bijection between continuous complex and real linear forms"
+title_zh: "连续复线性形式与实线性形式的双射"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [TVS, complex-linear-form, real-linear-form, continuous-form, real-part]
+depends_on: {required: ["complex-real-form-bijection"], recommended: ["continuous-linear-form-null-space-closed"], suggested: []}
+source_books: [{book_id: "gtm015", author: "Sterling K. Berberian", title: "Lectures in Functional Analysis and Operator Theory", chapter: "2", section: "22", pages: "", role_in_book: "Connects real and complex continuous duals"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

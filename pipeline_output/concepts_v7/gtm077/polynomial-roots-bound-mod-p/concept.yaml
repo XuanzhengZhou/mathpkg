@@ -1,0 +1,13 @@
+id: polynomial-roots-bound-mod-p
+title_en: "Bound on Roots of Polynomials Modulo a Prime (Theorem 12)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: polynomial-congruences
+difficulty: basic
+tags: [polynomial, roots, bound, prime-modulus, lagrange]
+depends_on: {required: [prime-modulus-factor-theorem, root-factor-theorem-mod-n, integral-polynomial], recommended: [], suggested: []}
+source_books: [{book_id: "gtm077", author: "Erich Hecke", title: "Lectures on the Theory of Algebraic Numbers", chapter: "I", section: "3", pages: "", role_in_book: "Lagrange's theorem for polynomial congruences; fundamental upper bound"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

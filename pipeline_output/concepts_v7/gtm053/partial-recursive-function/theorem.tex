@@ -1,0 +1,8 @@
+The class of \text{partial recursive functions} is the smallest class of partial functions $\mathbf{N}^k \to \mathbf{N}$ that:
+\begin{itemize}
+\item Contains the basic functions: zero, successor, and projection functions.
+\item Is closed under composition.
+\item Is closed under primitive recursion.
+\item Is closed under the $\mu$-operator (minimization): if $g(\bar{x}, y)$ is partial recursive, then $f(\bar{x}) = \mu y[g(\bar{x}, y) = 0]$ is partial recursive, where $\mu y[P(y)]$ is the least $y$ such that $P(y)$ holds and $P(z)$ is defined for all $z < y$.
+\end{itemize}
+A function is \text{(general) recursive} if it is partial recursive and total.

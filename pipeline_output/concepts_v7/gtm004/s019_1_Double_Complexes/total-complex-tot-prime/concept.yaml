@@ -1,0 +1,29 @@
+id: total-complex-tot-prime
+title_en: Total Complex (Direct Product)
+title_zh: ''
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags:
+- total-complex
+- double-complex
+- direct-product
+depends_on:
+  required:
+  - double-complex-of-chains
+  recommended:
+  - total-complex-tot
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 1. Double Complexes
+  pages: ''
+  role_in_book: second method to collapse a double complex into an ordinary chain
+    complex
+content_hash: 1c840b0869181237
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

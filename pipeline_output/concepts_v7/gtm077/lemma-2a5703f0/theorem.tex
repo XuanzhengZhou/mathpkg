@@ -1,0 +1,29 @@
+If in the above notation
+
+$$\lim_{m \to \infty} \frac{S(m)}{m} = c,$$
+
+then, if $s$ approaches 1 (from $s > 1$),
+
+$$\lim_{s \to 1} (s - 1) \sum_{n=1}^{r} \frac{a_n}{n^s} = c.$$
+
+By (b) the series converges for $s > 1$. If we set
+
+$$S(n) = cn + \varepsilon_n n,$$
+
+where $\lim_{n \to \infty} \varepsilon_n = 0$ by hypothesis, and
+
+$$\varphi(s) = \sum_{n=1}^{r} \frac{a_n}{n^s},$$
+
+then, as above, it follows that for $s > 1$
+
+$$\left| \varphi(s) - c\zeta(s) \right| = s \left| \sum_{n=1}^{r} n\varepsilon_n \int_{n}^{n+1} \frac{dx}{x^{s+1}} \right| < s \sum_{n=1}^{r} \left| \varepsilon_n \right| \int_{n}^{n+1} \frac{dx}{x^s}.$$
+
+For an arbitrary $\delta > 0$ we now choose an integer $N$ such that $\left| \varepsilon_n \right| < \delta$ for $n \geq N$, and we choose $C$ in such a way that $\left| \varepsilon_n \right| < C$ for all $n$. It then follows that
+
+$$\left| (s - 1)\varphi(s) - c(s - 1)\zeta(s) \right| < Cs(s - 1) \sum_{n=1}^{N-1} \int_{n}^{n+1} \frac{dx}{x} + \delta s(s - 1) \sum_{N
+
+then the series can also be written as
+
+$$\zeta_k(s) = \sum_{n=1}^{\infty} \frac{F(n)}{n^s},$$
+
+and from Theorem 122 and Lemmas (b) and (c) we obtain

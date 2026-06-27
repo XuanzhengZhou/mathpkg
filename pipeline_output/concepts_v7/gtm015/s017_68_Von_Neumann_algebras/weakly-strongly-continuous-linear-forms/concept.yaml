@@ -1,0 +1,23 @@
+id: weakly-strongly-continuous-linear-forms
+title_en: "Equivalence of weakly and strongly continuous linear forms on L(H)"
+title_zh: "L(H)上弱连续与强连续线性形式的等价性"
+type: proposition
+domain: analysis
+subdomain: operator-theory
+difficulty: intermediate
+tags: [weak-continuity, strong-continuity, linear-form, hahn-banach]
+depends_on:
+  required: []
+  recommended: [weak-operator-topology, strong-operator-topology, linear-form, hahn-banach-theorem]
+  suggested: [ultraweakly-continuous-linear-forms]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "68"
+    section: "Von Neumann algebras"
+    pages: "295"
+    role_in_book: "Proposition (68.9) characterizing weakly/strongly continuous linear forms"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

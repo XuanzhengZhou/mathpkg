@@ -1,0 +1,23 @@
+id: quotient-metric-D
+title_en: "Quotient metric and value on G/N from a left-invariant metric"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-groups
+difficulty: advanced
+tags: [quotient-metric, quotient-value, left-invariant-metric, closed-normal-subgroup]
+depends_on:
+  required: [valued-group, value-metric-correspondence, quotient-topology-left-group]
+  recommended: [quotient-group, metric-space]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "8"
+    section: "Valued topological groups"
+    pages: ""
+    role_in_book: "Constructs a left-invariant metric and value on the quotient by a closed normal subgroup."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

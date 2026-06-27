@@ -1,0 +1,23 @@
+id: existence-of-inverse-bundle
+title_en: "Existence of Inverse Bundle"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [vector-bundles, complementary-bundle, orthogonal-complement, whitney-sum, stable-equivalence]
+depends_on:
+  required: [monomorphism-extension-theorem]
+  recommended: [whitney-sum, orthogonal-structure-on-trivial-bundle]
+  suggested: [stable-equivalence-of-vector-bundles]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "3"
+    section: "3. The Classification of Vector Bundles"
+    pages: ""
+    role_in_book: "Theorem 3.3: Existence of a complementary n-plane bundle making the Whitney sum trivial"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

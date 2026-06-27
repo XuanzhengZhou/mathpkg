@@ -1,0 +1,23 @@
+id: cramer-chernoff-bound-bernoulli
+title_en: "Chernoff Bound for Bernoulli Sums"
+title_zh: "伯努利和的切尔诺夫界"
+type: theorem
+domain: probability
+subdomain: concentration-inequalities
+difficulty: intermediate
+tags: [chernoff-bound, bernoulli, large-deviations, moment-generating-function]
+depends_on:
+  required: [exponential-chebyshev-inequality]
+  recommended: [law-of-large-numbers]
+  suggested: [hoeffding-inequality-bernoulli]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "6"
+    pages: "85"
+    role_in_book: "core"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

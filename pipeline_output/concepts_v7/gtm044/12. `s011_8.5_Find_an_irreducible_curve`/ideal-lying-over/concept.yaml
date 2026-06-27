@@ -1,0 +1,23 @@
+id: ideal-lying-over
+title_en: "Definition 10.7: Ideal Lying Over (Algebraic)"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [lying-over, ideal, contraction, coordinate-ring, embedding]
+depends_on:
+  required: [homomorphism-induced-extension-contraction]
+  recommended: [coordinate-ring, contraction, closed-ideal]
+  suggested: [variety-lying-over-concrete]
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "10"
+    section: "10.7"
+    pages: ""
+    role_in_book: "Defines the algebraic notion of an ideal lying over another via contraction"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

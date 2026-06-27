@@ -1,0 +1,23 @@
+id: stone-representation-theorem
+title_en: "Stone Representation Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: stone-duality
+difficulty: advanced
+tags: ["Stone", "representation", "Boolean-algebra", "Boolean-ring", "set-algebra"]
+depends_on:
+  required: ["boolean-algebra", "boolean-ring", "boolean-space", "ultrafilter"]
+  recommended: ["dual-representation-theorem"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "The Wallman Compactification"
+    pages: "165-168"
+    role_in_book: "Stone's representation theorem: every Boolean algebra (Boolean ring) is isomorphic to a field of sets. Presented via the Wallman compactification framework."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

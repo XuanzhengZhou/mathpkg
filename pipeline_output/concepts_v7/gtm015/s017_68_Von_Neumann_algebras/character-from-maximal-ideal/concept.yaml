@@ -1,0 +1,23 @@
+id: character-from-maximal-ideal
+title_en: "Character of an LCA group from a maximal ideal"
+title_zh: "极大理想对应的LCA群特征标"
+type: definition
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: advanced
+tags: [character, maximal-ideal, lca-group, gelfand-transform]
+depends_on:
+  required: []
+  recommended: [lca-group, character, maximal-ideal, l1-group-algebra, gelfand-transform]
+  suggested: [duality-theorem]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "70"
+    section: "The character group of an LCA group"
+    pages: "318"
+    role_in_book: "Definition (70.7) associating a continuous group character with each maximal ideal"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

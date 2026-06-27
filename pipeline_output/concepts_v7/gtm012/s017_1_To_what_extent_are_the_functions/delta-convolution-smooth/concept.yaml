@@ -1,0 +1,23 @@
+id: delta-convolution-smooth
+title_en: "Convolution of the Delta Distribution with a Smooth Function"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: basic
+tags: [delta-distribution, convolution, differentiation, identity-operator]
+depends_on:
+  required: [convolution-distribution-smooth-function, delta-distribution]
+  recommended: [differentiation-of-distributions]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "7"
+    section: "7. Convolution of distributions"
+    pages: ""
+    role_in_book: "Shows that the delta distribution and its derivatives act as identity and differentiation operators under convolution"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

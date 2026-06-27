@@ -1,0 +1,55 @@
+A congruence modulo a prime ideal $\mathfrak{p}$
+
+$$x^m + \alpha_1 x^{m-1} + \cdots + \alpha_{m-1} x^{m-1} + \alpha_m \equiv 0 \pmod{\mathfrak{p}}$$
+
+with integer coefficients $\alpha$, has at most $m$ solutions $x$ which are incongruent modulo $\mathfrak{p}$.
+
+The system of $N(\mathfrak{a})$ residue classes mod $\mathfrak{a}$ again forms an Abelian group under composition by addition in that two integers $\alpha$ and $\beta$ determine by their sum $\alpha + \beta$ another residue class mod $\mathfrak{a}$ which depends only on the classes of $\alpha$ and $\beta$. Let the Abelian group of order $N(\mathfrak{a})$ which is defined in this way be called $\mathfrak{G}(\mathfrak{a})$. Theorem 19 of group theory $(A^h = E)$ asserts that for all $\alpha$
+
+$$\alpha \cdot N(\mathfrak{a}) \equiv 0 \pmod{\mathfrak{a}}$$
+
+since the unit element is represented by the residue class of 0. In particular it follows that for $\alpha = 1$
+
+$$N(\mathfrak{a}) \equiv
+
+Thus the group $\mathfrak{G}(\mathfrak{p})$ is cyclic for the prime ideals of degree 1 and only for these. The prime ideals of degree 1, of which an infinite number always exist, as will be seen in §43, play a decisive role in investigations of number fields.
+
+Moreover the system of residue classes mod $\mathfrak{a}$ relatively prime to $\mathfrak{a}$, forms a finite Abelian group under composition by multiplication in that two numbers $\alpha, \beta$ relatively prime to $\mathfrak{a}$ determine, by their product, a residue class $\alpha \cdot \beta$ mod $\mathfrak{a}$, which is completely determined by the residue classes of $\alpha$ and $\beta$ and which is, of course, also relatively prime to $\mathfrak{a}$. Thus we have exactly as before
+
+Theorem 84. The residue classes mod $\mathfrak{a}$ relatively prime to $\mathfrak{a}$, under composition by multiplication, form an Abelian group of order $\varphi(\mathfrak{a})$, which will be denoted by $\mathfrak{R}(\mathfrak{a})$. For each prime ideal $\mathfrak{p}, \mathfrak{R}(\mathfrak{p})$ is a cyclic group.
+
+A number $\rho$ whose powers yield all classes of $\mathfrak{R}(\mathfrak{p})$ is called a primitive root mod $\mathfrak{p}$.
+
+In particular for a prime ideal $\mathfrak{p}$ and every integer $\alpha$ of the field the generalization of Fermat’s theorem
+
+$$\alpha^{N(\mathfrak{p})} \equiv \alpha \pmod{\mathfrak{p}}$$
+
+holds.
+
+On the other hand we cannot conclude from this that all groups $\mathfrak{R}(\mathfrak{p}^a)$ are cyclic.
+
+Those classes of $\mathfrak{R}(\mathfrak{p})$ which can be represented by a rational number obviously form a subgroup of $\mathfrak{R}(\mathfrak{p})$; these are the classes of 1, 2, . . . , $p - 1$, if $N(\mathfrak{p}) = p^f$. These classes
+
+In this section a polynomial is an integral rational function of an arbitrary number of variables $x_1, \ldots, x_m$, in which the coefficients of the various products of powers are all integers in $K$.
+
+A polynomial $P(x_1, \ldots, x_m)$ is said to be $\equiv 0$ (mod $\mathfrak{a}$) if all coefficients are divisible by $\mathfrak{a}$. Moreover two polynomials $P$ and $Q$ are congruent to each other mod $\mathfrak{a}$ if the polynomial $P - Q \equiv 0$ (mod $\mathfrak{a}$). For polynomials which reduce to constants, this agrees with the definition of congruence of numbers.
+
+Theorem 86. If $\mathfrak{p}$ is a prime ideal, and if for two polynomials $P$ and $Q$ the product
+
+$$P(x_1, \ldots, x_m) \cdot Q(x_1, \ldots, x_m) \equiv 0 \pmod{\mathfrak{p}},$$
+
+then at least one of the polynomials is $\equiv 0 \pmod{\mathfrak{p}}$.
+
+The theorem is true for polynomials of 0 variables, that is, for constants. We show that it is correct in general by passing from $m$ to $m + 1$. Assume it is already proven for all polynomials with $m$ or fewer variables. Each polynomial of $m + 1$ variables can be put into the form
+
+$$P(x_0, \ldots, x_m) = \sum_k x_0^k P_k(x_1, \ldots, x_m)$$
+
+where the $P_k$ are polynomials in $x_1, \ldots, x_m$. Obviously $P \equiv 0 \pmod{\mathfrak{p}}$ means that all $P_k \equiv 0 \pmod{\mathfrak{p}}$. Without loss of generality we may replace $P$ and $Q$ by polynomials which are congruent to them mod $\mathfrak{p}$ in which the terms with the highest powers of $x_0$ are not congruent to
+
+In an analogous fashion we choose $\beta_1$ and $\beta_2$ to be integers such that $(\beta_1/\beta_2)B(x_1, \ldots, x_m)$ also has integer coefficients which are not all divisible by $\mathfrak{p}$. Then, by Theorem 85 the product
+
+$$\frac{\alpha_1}{\alpha_2} \cdot \frac{\beta_1}{\beta_2} A(x_1, \ldots, x_m) \cdot B(x_1, \ldots, x_m) = C(x_1, \ldots, x_m)$$
+
+is a polynomial which is not $\equiv 0$ (mod $\mathfrak{p}$), while $A \cdot B = (\alpha_2 \beta_2/\alpha_1 \beta_1)C$ also has integer coefficients. Hence $\mathfrak{p}^{a+b}$ is precisely the highest power of $\mathfrak{p}$ dividing $A \cdot B$ because of the numerical factor $\alpha_2 \beta_2/\alpha_1 \beta_1$.
+
+We now define the content, $J(P)$, of a polynomial to be the ideal which is equal to the GCD of the coefficients of $P$. Then it follows from what has been proved:

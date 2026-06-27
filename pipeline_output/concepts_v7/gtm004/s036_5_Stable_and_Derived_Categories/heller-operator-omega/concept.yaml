@@ -1,0 +1,23 @@
+id: heller-operator-omega
+title_en: "Heller Operator (Omega Functor)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [heller-operator, stable-category, syzygy, projective-resolution, omega-functor]
+depends_on:
+  required: [stable-module-category, projective-resolution, syzygy]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "5. Stable and Derived Categories"
+    pages: "360-376"
+    role_in_book: "Definition: Omega is the endofunctor on the stable category sending a module to the kernel of a projective cover"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,193 @@
+$G^2(1, d) = d$.
+
+By Equation (153) we
+
+Now the problem arises of finding which of the two values of $\sqrt{d}$ defines the number $G(1, d)$, which was given in a transcendental way by means of the exponential function. This is the famous problem of determining the sign of the Gauss sums, which we will settle in the next chapter.
+
+Theorem 152. The class number $h$ of the quadratic field with discriminant $d$ has the value
+
+$$h = -\frac{\rho}{|d|} \sum_{n=1}^{|d|-1} n \left( \frac{d}{n} \right), \quad \rho = \frac{-iG(1, d)}{|\sqrt{d}|} = \pm 1 \quad \text{for } d < -4.$$
+
+$$h = \frac{\rho}{2 \log \varepsilon} \log \frac{\prod_a \sin \frac{\pi a}{d}}{\prod_b \sin \frac{\pi b}{d}}, \quad \rho = \frac{G(1, d)}{|\sqrt{d}|} = \pm 1 \quad \text{for } d > 0.$$
+
+In the second expression $a$ and $b$ run through those numbers 1, 2, ..., $d-1$ for which
+
+$$\left( \frac{d}{a} \right) = -1, \quad \left( \frac{d}{b} \right) = +1$$
+
+respectively. The final result will be that we always have $\rho = +1$ (§58). The formula for the class number of an imaginary field then becomes remarkably simple, and from its structure it appears to belong completely to elementary number theory. In spite of this, until now no one has succeeded in proving this formula by purely number-theoretic methods without the transcendental techniques of Dirichlet. Up to now we have not been able to even show that the expression for $h$ is always positive by other methods. At present we can only take this formula, which is still completely incomprehensible to us, as a fact for calculations.
+
+The second formula behaves likewise. In particular, we obtain from it the fact that the quotient $\prod_a / \prod_b$ is a unit of the field $k(\sqrt{d})$. This latter formula
+
+By a binary quadratic form in the variables $x, y$ we mean an expression of the form
+
+$$F(x, y) = Ax^2 + Bxy + Cy^2,$$
+
+where the coefficients of the form, $A, B,$ and $C,$ are quantities independent of $x$ and $y$ and not all 0. Obviously such a form can always be represented as a product of two homogeneous linear functions of $x, y$:
+
+$$F(x, y) = (\alpha a + \beta y)(\alpha' x + \beta' y).$$
+
+(156)
+
+The four quantities $\alpha, \beta, \alpha', \beta'$ are, of course, not uniquely determined by $A, B, C$. For example, if $A \neq 0$
+
+$$F(x, y) = \left( \sqrt{A}x + \frac{B + \sqrt{B^2 - 4AC}}{2\sqrt{A}}y \right) \left( \sqrt{A}x + \frac{B - \sqrt{B^2 - 4AC}}{2\sqrt{A}}y \right).$$
+
+By comparing coefficients we confirm at once that
+
+$$D = B^2 - 4AC = (\alpha\beta' - \alpha'\beta)^2 = \begin{vmatrix} \alpha & \beta \\ \alpha' & \beta' \end{vmatrix}^2.$$
+
+(157)
+
+This expression is called the discriminant (or also the determinant) of the form.
+
+If we apply a homogeneous linear transformation
+
+$$x = ax'_1 + by'_1, \quad y = cx'_1 + dy'_1,$$
+
+(158)
+
+to the variables $x, y,$ then $F(x, y)$ is transformed into a quadratic form in $x', y'$. If we choose the form (156), then
+
+$$F(ax_1 + by_1, cx_1 + dy_1)$$
+
+$$= ((\alpha a + \beta c)x_1 + (\alpha b + \beta d)y_1)((\alpha' a + \beta' c)x_1 + (\alpha' b + \beta' d)y_1)$$
+
+$$= A
+
+This transformation is said to be reciprocal (inverse) to the transformation (158). Its determinant is $1/(ad - bc)$.
+
+We now consider exclusively those transformations where the coefficients $a, b, c, d$ are rational integers with determinant $ad - bc = +1$, the so called integral unimodular transformations. The reciprocal of such a transformation likewise has this property, as the above formulas show.
+
+Definition. If a form $F(x, y)$ is transformed into the form $F_1(x_1, y_1)$ by an integral unimodular transformation, then we say $F$ is equivalent to $F_1$, in symbols
+
+$$F \sim F_1.$$
+
+By what has just been demonstrated, we also have $F_1 \sim F$, as $F_1$ is transformed to $F$ by the reciprocal transformation. Thus the equivalence is symmetric in $F$ and $F_1$. Furthermore $F \sim F$ always holds.
+
+Lemma (a). If
+
+$$F_1 \sim F \quad \text{and} \quad F_1 \sim F_2$$
+
+holds for the three quadratic forms $F, F_1, F_2$, then
+
+$$F \sim F_2.$$
+
+In fact if there are two unimodular transformations with integral coefficients $a, b, c, d$ and $a_1, b_1, c_1, d_1$ respectively, for which
+
+$$F(ax + by, cx + dy) = F_1(x, y) \quad \text{and} \quad F_1(a_1x + b_1y, c_1x + d_1y) = F_2(x, y),$$
+
+then, in the first equation, we set
+
+$$x = a_1x_1 + b_1y_1, \quad y = c_1x_1 + d_1y_1.$$
+
+From now on we omit the index 1 from the variables $x_1, y_1$ whose designation does not really matter. By combination with the second equation it then follows that
+
+$$F((aa_1 + bc_1)x + (ab_1 + bd_1)y,
+
+Theorem 153. If $D$ is the discriminant of $F$ and $D > 0$, then $F(x, y)$ may take positive as well as negative values for appropriate real values of $x, y$. If $D < 0$, then either the value of $F$ is $\geq 0$ for all real $x, y$ or $F(x, y) \leq 0$ for all real $x, y$; $F(x, y) = 0$ is possible only for $x = y = 0$.
+
+For the proof we consider the decomposition
+
+$$A \cdot F(x, y) = \left( A x + \frac{B}{2} y \right)^2 - \frac{D}{4} y^2.$$
+
+Now if $D = B^2 - 4AC < 0$, then we must have $A \neq 0$ and it follows from the equation that
+
+$$AF(x, y) \geq 0,$$
+
+where the equality sign holds only if $y = 0$ and $A x + \frac{B}{2} y = 0$, that is, $x = y = 0$. Consequently, $F(x, y)$ always has the sign of $A$ if $x^2 + y^2 \neq 0$.
+
+On the other hand, if $D > 0$, then, to begin with, suppose that $A \neq 0$. Then
+
+$$A \cdot F(1, 0) = A^2 > 0$$
+
+$$A \cdot F(B, -2A) = -DA^2 < 0;$$
+
+hence both signs are possible for $F$ and $F$ can obviously also be zero for real $x, y$ without $x$ and $y$ both vanishing.
+
+If $D > 0$ and $A = 0$, then the equation
+
+$$F(x, y) = y(B x + C y)$$
+
+shows the truth of the assertion.
+
+The form $F$ is called indefinite if $D > 0$; on the other hand it is called definite if $D < 0$, and in the latter case it is called positive definite (respectively negative definite) if $F(x, y
+
+This form obviously has rational integral coefficients, as the divisor of the coefficients of the numerator is equal to the product $\alpha \alpha' = N(\alpha)$ by Theorem 87. Furthermore, by Equation (157) the discriminant is
+
+$$D = \frac{(\alpha_1 \alpha'_2 - \alpha_2 \alpha'_1)^2}{N(\alpha)^2} = e.$$
+
+If a form $F$ is derived from the ideal $\alpha$ in this way, then we say: $F$ belongs to $\alpha$ and we write $F \rightarrow \alpha$.
+
+With $e < 0$ we obviously obtain only positive definite forms, for the first coefficient is
+
+$$A = \frac{\alpha_1 \alpha'_1}{|N(\alpha)|} = \frac{|N(\alpha_1)|}{|N(\alpha)|} > 0.$$
+
+Lemma (b). For each indefinite $(e > 0)$ or positive definite $(e < 0)$ integral form $F$ with discriminant $e$ there is an ideal $\alpha$ such that $F \rightarrow \alpha$.
+
+To begin with, the form $F(x, y) = Ax^2 + Bxy + Cy^2$, where $B^2 - 4AC = e$, is a primitive polynomial since if $p$ divides $A, B, C$, then $e/p^2$ must also be a discriminant, which is possible only for discriminants of fields when $p = \pm 1$. We now consider the ideal
+
+$$m = \left( A, \frac{B - \sqrt{e}}{2} \right),$$
+
+where $\sqrt{e}$ denotes the positive (respectively positive imaginary) value. By Theorem 87, $N(m) = m \cdot m'$ is the content of the form
+
+$$\left( Ax + \frac{B - \sqrt{e}}{2} y \right) \left( Ax + \frac{B + \sqrt{e}}{2} y \right) = AF(x, y)$$
+
+$$N(m) = |A|.$$
+
+Consequently the two numbers $A$ and $(B - \sqrt{e})/2$ in $m
+
+Then in each case
+
+$$\lambda \lambda' A = |N(\lambda m)|$$
+
+and consequently $F \rightarrow \lambda m$.
+
+Theorem 154. Equivalent forms belong to equivalent ideals (in the strict sense) and conversely.
+
+We obtain
+
+$$F(x, y) = \frac{(\alpha_1 x + \alpha_2 y)(\alpha'_1 x + \alpha'_2 y)}{|N(a)|}$$
+
+$$G(x, y) = \frac{(\beta_1 x + \beta_2 y)(\beta'_1 x + \beta'_2 y)}{|N(b)|},$$
+
+respectively from the basis $\alpha_1, \alpha_2$ for $a$ and the basis $\beta_1, \beta_2$ for $b$. Thus the two bases have Property (161).
+
+Now if $F \sim G$, then there are rational integers $a, b, c, d$, with $ad - bc = 1$ such that
+
+$$F(ax + by, cx + dy) = G(x, y),$$
+
+$$\frac{((a\alpha_1 + c\alpha_2)x + (b\alpha_1 + d\alpha_2)y) \cdot ((a\alpha'_1 + c\alpha'_2)x + (b\alpha'_1 + d\alpha'_2)y)}{|N(a)|} = \frac{(\beta_1 x + \beta_2 y)(\beta'_1 x + \beta'_2 y)}{N(b)}.$$
+
+Since the quotients $-\beta_2/\beta_1$ and $-\beta'_2/\beta'_1$ are defined uniquely (except for order) as the zeros of $G(x, 1)$, we have
+
+$$\frac{a\alpha_1 + c\alpha_2}{b\alpha_1 + d\alpha_2} = \frac{\beta_1}{\beta_2} \text{ or } \frac{\beta'_1}{\beta'_2}.$$
+
+Thus there is a $\lambda$ such that
+
+$$a\alpha_1 + c\alpha_2 = \lambda\beta_1 \text{ or } \
+
+Since $ad - bc = 1$, $\lambda \beta_1, \lambda \beta_2$ is now also a basis for $\alpha$; thus
+
+$$\alpha = \lambda(\beta_1, \beta_2) = \lambda \cdot b$$
+
+$$\alpha \approx b.$$
+
+Conversely, suppose that $\alpha \approx b$ and $\lambda$ is a number with positive norm such that $\alpha = \lambda b$. Then $\lambda \beta_1, \lambda \beta_2$ must be a basis for $\alpha$ which thus arises from $\alpha_1, \alpha_2$ by an integral transformation with determinant $\pm 1$. Hence there are rational integers $a, b, c, d$, such that
+
+$$a\alpha_1 + c\alpha_2 = \lambda \beta_1, \quad b\alpha_1 + d\alpha_2 = \lambda \beta_2.$$
+
+It follows from Property (161) for both pairs and $N(\lambda) > 0$ that $ad - bc = +1$ and
+
+$$\lambda \lambda' = \left| \frac{N(\alpha)}{N(b)} \right|$$
+
+and from this Equation (163) follows, that is, $F \sim G.$
+
+By virtue of the fact stated in Theorem 154, the $h_0$ ideal classes of $k(\sqrt{d})$ are assigned in a well-defined and invertible manner to the classes of forms of discriminant $e$ (when $e < 0$ only to the positive definite forms). The number of nonequivalent integral forms with discriminant $d$ is hence finite, and indeed equal to $h_0$, or, with $e < 0$ equal to $2h_0$, if we include positive definite and negative definite forms. For example, each positive form with discriminant $-4$ is equivalent to $x^2 + y^2$, since $k(\sqrt{-4})$ has class number 1.
+
+A large part of ideal theory can then be translated into the language of the theory of forms and vice versa. The latter is of particular interest for the classical theory of reduced forms, with the help of which it is possible to set up, by inequalities
+
+To a large extent the theory of forms is concerned with the problem of which numbers can be represented by $F(x, y)$ if $x, y$ run through all pairs of rational integers. Obviously this goes back to the problem of which numbers appear as norms of integral ideals in a given ideal class.
+
+The difficult composition theory of classes of forms can be expressed very simply in the language of ideal theory if composition of forms is defined by that of the ideal classes.
+
+The investigation of those forms whose discriminant is $Q^2 e$, where $Q$ denotes a rational integer, is reduced to the number ring in $k(\sqrt{e})$ with conductor $Q$ (§36). Of the numbers which occur in an ideal, only those which belong to this ring will be considered. In this way the concept of ideals of a ring and the concept of ideal classes arise. These concepts are then applied to a class of forms of discriminant $Q^2 e$.

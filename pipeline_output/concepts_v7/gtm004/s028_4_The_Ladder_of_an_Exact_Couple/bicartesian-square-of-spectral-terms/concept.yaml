@@ -1,0 +1,23 @@
+id: bicartesian-square-of-spectral-terms
+title_en: "Bicartesian square of spectral sequence terms"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [exact-couple, spectral-sequence, bicartesian-square, ladder, e-term]
+depends_on:
+  required: [ladder-sequence-exactness, bicartesian-square-of-ladder-intermediates]
+  recommended: [spectral-sequence]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "4. The Ladder of an Exact Couple"
+    pages: ""
+    role_in_book: "Theorem 4.6: The square relating E_{m,n} terms is bicartesian"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,9 @@
+(a) For every random variable $\xi = \xi(\omega)$ (extended ones included) there is a sequence of simple random variables $\xi_1, \xi_2, \ldots$ such that $|\xi_n| \leq |\xi|$ and $\xi_n(\omega) \to \xi(\omega)$, $n \to \infty$, for all $\omega \in \Omega$.
+
+(b) If also $\xi(\omega) \geq 0$, there is a sequence of simple random variables $\xi_1, \xi_2, \ldots$ such that $\xi_n(\omega) \uparrow \xi(\omega)$, $n \to \infty$, for all $\omega \in \Omega$.
+
+For the nonnegative case, the construction for $n = 1, 2, \ldots$ is:
+
+$$\xi_n(\omega) = \sum_{k=1}^{n2^n} \frac{k-1}{2^n} I_{k,n}(\omega) + n I_{\{\xi(\omega) \geq n\}}(\omega),$$
+
+where $I_{k,n}$ is the indicator of $\{(k-1)/2^n \leq \xi(\omega) < k/2^n\}$.

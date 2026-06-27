@@ -1,0 +1,23 @@
+id: lemma-even-cover-open-sigma-discrete
+title_en: "From Even Covers to Open Sigma-Discrete Refinements"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: paracompactness
+difficulty: advanced
+tags: [even-cover, sigma-discrete, refinement, stone-trick]
+depends_on:
+  required: [even-cover, sigma-discrete-family, open-cover, well-ordering]
+  recommended: [lemma-even-cover-preserves-local-finiteness]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "Paracompactness"
+    pages: ""
+    role_in_book: "Lemma 33: Even covers imply existence of sigma-discrete refinements"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

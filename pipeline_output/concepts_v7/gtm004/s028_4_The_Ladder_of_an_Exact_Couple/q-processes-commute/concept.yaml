@@ -1,0 +1,23 @@
+id: q-processes-commute
+title_en: "Commutativity of Q-processes"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [exact-couple, spectral-sequence, Q-process, commutativity, ladder]
+depends_on:
+  required: [q-pullback-process, q-pushout-process]
+  recommended: [exact-couple]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "4. The Ladder of an Exact Couple"
+    pages: ""
+    role_in_book: "Theorem 4.1: The Q-pullback and Q-pushout processes commute"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

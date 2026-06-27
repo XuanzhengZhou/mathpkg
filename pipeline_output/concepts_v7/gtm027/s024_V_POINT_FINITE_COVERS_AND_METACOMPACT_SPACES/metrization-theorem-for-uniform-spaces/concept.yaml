@@ -1,0 +1,23 @@
+id: metrization-theorem-for-uniform-spaces
+title_en: "Metrization Theorem for Uniform Spaces"
+title_zh: "一致空间的度量化定理"
+type: theorem
+domain: topology
+subdomain: uniform-spaces
+difficulty: intermediate
+tags: [metrization, uniform-space, countable-base, pseudo-metrizable]
+depends_on:
+  required: [uniform-space, metrization-lemma-for-uniform-spaces]
+  recommended: [pseudo-metric, countable-base, hausdorff]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Metrization"
+    pages: ""
+    role_in_book: "Theorem 13: a uniform space is pseudo-metrizable iff its uniformity has a countable base"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

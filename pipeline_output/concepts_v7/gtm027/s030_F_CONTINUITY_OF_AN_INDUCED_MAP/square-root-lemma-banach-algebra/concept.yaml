@@ -1,0 +1,23 @@
+id: square-root-lemma-banach-algebra
+title_en: "Square Root Lemma for Banach Algebras"
+title_zh: "Banach代数的平方根引理"
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [Banach-algebra, square-root, power-series, unit-element]
+depends_on:
+  required: [banach-algebra-definition, binomial-coefficient-properties]
+  recommended: [power-series, norm-convergence]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Q"
+    pages: ""
+    role_in_book: "Lemma (c): existence of square roots in Banach algebras with unit"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: dual-reflexivity
+title_en: "Reflexivity of the Dual Space"
+title_zh: "对偶空间的自反性"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [reflexive-banach-space, dual-space]
+depends_on:
+  required: [reflexivity-weak-compactness]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "4"
+    section: "45"
+    pages: ""
+    role_in_book: "Establishes that reflexivity passes between a Banach space and its dual"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

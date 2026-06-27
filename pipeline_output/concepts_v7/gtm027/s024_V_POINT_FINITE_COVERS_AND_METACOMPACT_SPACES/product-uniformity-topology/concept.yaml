@@ -1,0 +1,23 @@
+id: product-uniformity-topology
+title_en: "Topology of the Product Uniformity is the Product Topology"
+title_zh: "乘积一致结构的拓扑是乘积拓扑"
+type: theorem
+domain: topology
+subdomain: uniform-spaces
+difficulty: intermediate
+tags: [product-uniformity, product-topology, uniform-continuity, projection]
+depends_on:
+  required: [product-uniformity, uniform-topology, product-topology]
+  recommended: [projection, uniformly-continuous-function]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Uniform Spaces"
+    pages: ""
+    role_in_book: "Theorem 10: compatibility of product uniformity and product topology"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

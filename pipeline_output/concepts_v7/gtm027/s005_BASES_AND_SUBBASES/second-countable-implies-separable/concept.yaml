@@ -1,0 +1,23 @@
+id: second-countable-implies-separable
+title_en: "Second Countable Spaces are Separable"
+title_zh: "第二可数空间是可分的"
+type: theorem
+domain: topology
+subdomain: countability-axioms
+difficulty: basic
+tags: [second-countable, separable, implication]
+depends_on:
+  required: [second-axiom-of-countability, separable-space]
+  recommended: [dense-set]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Bases and Subbases"
+    pages: ""
+    role_in_book: "Theorem 14 — second countable implies separable"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

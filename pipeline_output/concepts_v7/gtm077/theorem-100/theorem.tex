@@ -1,0 +1,77 @@
+Since the only real roots of unity are $\pm 1$, the numbers $\pm \varepsilon^n$ ($n = 0, \pm 1, \pm 2, \ldots$), where $\varepsilon$ is a fundamental unit, are all the units of
+
+of the equation $N(\eta) = \pm 1$, that is,
+
+$$x^2 - dy^2 = \pm 4$$  (104)
+
+with rational integers $x$ and $y$. This is the so-called Pell equation.
+
+In imaginary quadratic fields every unit $\eta$ is a root of unity. For $d < 0$ the above equation (where of course the upper sign must hold) has solutions only for $d \geq -4$ except for the trivial solutions, $y = 0, x = \pm 2$, that is, $\eta = \pm 1$. Indeed for $d = -4$, the equation has the two additional solutions $x = 0, y = \pm 1$, and for $d = -3$ the equation has four additional solutions $x = \pm 1, y = \pm 1$. Thus the number $w$ of roots of unity in $k(\sqrt{-3})$, the field of the third root of unity, is equal to 6 and the number of roots of unity in $k(\sqrt{-1})$ is equal to 4. In all other quadratic fields it is equal to 2.
+
+We now try to find a method from the general theory to decide whether or not two ideals $a, b$ of a quadratic field are equivalent and, by this, to give a complete system of nonequivalent ideals, thus also to calculate the class number.
+
+Since $N(b) = bb'$ is a rational principal ideal, the equivalence $a \sim b$ means the same thing as $ab' \sim 1$; thus we must decide whether a given ideal is a principal ideal. If the integral ideal $a$ is a greatest common divisor of two principal ideals $(\alpha, \beta)$, then $a$ is the content of the form $\alpha u + \beta v$. Consequently $a a' = N(a)$ is the content of $(\alpha u + \beta v)(\alpha' u + \beta' v) = \alpha \alpha' u^2 + uv(\alpha' \beta + \alpha \beta') + \beta \beta' v^2$, that is, $N(a)$ is the greatest common divisor of the rational numbers $\alpha \alpha', \alpha' \beta + \alpha \beta',
+
+is a unit in $k(\sqrt{d})$ with $\eta > 1$, then among the numbers $\alpha = \omega \eta^n$ ($n = 0, \pm 1, \pm 2, \ldots$) associated to a given $\omega$ we can surely find one such that
+
+$$1 \leq \left| \frac{\alpha}{\alpha'} \right| < \eta^2$$
+
+(compare Equation (86)). It is thus sufficient, for our problem, to look only for those solutions $\omega = (x + y\sqrt{d})/2$ for which these inequalities are also satisfied. The inequalities can also be written in the form
+
+$$|\omega'| \leq |\omega| < |\omega'|\eta^2 \text{ or } |\omega| \eta^{-2} < |\omega'| \leq |\omega|$$
+
+or, since $|\omega\omega'| = n$,
+
+$$\sqrt{n} \leq |\omega| < \eta\sqrt{n}$$
+
+$$\eta^{-1}\sqrt{n} < |\omega'| \leq \sqrt{n}. \tag{106}$$
+
+Moreover if we assume $\omega > 0$, then by Equation (105) with the plus sign, $\omega' > 0$ and it follows from (106), by addition, that
+
+$$(\eta^{-1} + 1)\sqrt{n} < x < (\eta + 1)\sqrt{n}; \tag{107}$$
+
+on the other hand, by Equation (105) with the minus sign,
+
+$$(\eta^{-1} + 1)\sqrt{n} < y\sqrt{d} < (\eta + 1)\sqrt{n}. \tag{108}$$
+
+In any case we need only examine whether a finite number of values $x, y$ satisfy Equation (105). Then we can determine by simple division whether among the numbers $\omega = (x + y\sqrt{d})/2$ found in this way, there are still associated numbers.
+
+Obtaining a unit $\eta$ can be achieved in various ways. The proof of Dirichlet’s unit theorem (Lemma (b) in §35) yields a process immediately. This is essentially a
+
+with norm 2. Here 2 becomes the square of a prime ideal $p$; this is obviously $= (\sqrt{\pm 2})$, so it is a principal ideal.
+
+2. In $k(\sqrt{7})$ with $d = 28$, the ideals with norms 2, 3, 4, 5 are to be found. Here the primes 2, 3, 5 now split into prime ideals as follows:
+
+$$2 = p_2^2, \quad 3 = p_3p'_3, \quad 5 \text{ itself is a prime ideal.}$$
+
+Hence there is only one ideal with norm 4, namely $p_2^2 = 2$, thus a principal ideal. Thus, except for the principal class, only the classes represented by $p_2, p_3, p'_3$ occur. We find, by trial $2 = 3^2 - 7 \cdot 1^2$, that is, $p_2 = (3 + \sqrt{7})$, thus $p_2 \sim 1$. Since $p_2 \sim p'_2, 3 + \sqrt{7}$ and $3 - \sqrt{7}$ must be associated, hence the quotient
+
+$$\eta = \frac{3 + \sqrt{7}}{3 - \sqrt{7}} = \frac{(3 + \sqrt{7})^2}{2} = 8 + 3\sqrt{7}$$
+
+is a unit. If $p_3$ were a principal ideal $(a + b\sqrt{7})$, then
+
+$$\pm 3 = a^2 - 7b^2, \text{ thus } \pm 3 \equiv a^2 \pmod{7}$$
+
+would have to hold. Accordingly, only the lower sign can hold, as $+3$ is a nonresidue mod 7. Thus, for $b$, by (108) we need only test the values $b$ with
+
+$$(9 - 3\sqrt{7})\sqrt{3} < b\sqrt{28} < (9 + 3\sqrt{7})\sqrt{3},$$
+
+that is,
+
+$$0 < b < (\sqrt{\frac{81}{28}} +
+
+Obviously the last one is a principal ideal. In order that $p_2 \sim p_3$, we would have to have $p_2 p'_3 \sim 1$. Since $N(p_2 p'_3) = 6$ we must see whether 6 is the norm of a number; this is the case
+
+$$6 = \frac{x^2 + 23y^2}{4}$$
+
+which only holds for $x = \pm 1, y = \pm 1$. Hence there are exactly two principal ideals with norm 6, and these are conjugate so that either $p_2 p'_3$ or $p_2 p_3$ are equal to a principal ideal. Let the notation relative to the conjugates be chosen so that $p_2 p'_3 \sim 1$. Consequently by (109) at most
+
+$$1, p_2, p'_2, p_2^2, p'_2^2$$
+
+remain as nonequivalent ideals. The ideal $p_2$ is equivalent neither to $p'_2$ nor to $p_2^2$; indeed, however, $p_2 \sim p'_2^2$, which means $p_2^3 \sim 1$. Then $N(p_2^3) = 8$ and 8 is the norm of the integer $(3 + \sqrt{-23})/2$, which is obviously divisible by no rational number except $\pm 1$. The only ideals, however, which are without rational factors and which have norm 8 are $p_2^3$ and $p'_2^3$ and consequently one of these, and hence also the other, is a principal ideal.
+
+Thus we find $h = 3$ and the three classes
+
+$$p_2, p_2^2, p_2^3 \sim 1$$
+
+as representatives.

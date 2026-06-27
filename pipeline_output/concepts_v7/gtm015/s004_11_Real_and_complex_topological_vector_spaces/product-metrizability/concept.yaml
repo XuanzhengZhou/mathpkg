@@ -1,0 +1,23 @@
+id: product-metrizability
+title_en: "Product of Metrizable Spaces is Metrizable"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: metric-spaces
+difficulty: intermediate
+tags: [metric, product-space, metrizability, countable-product]
+depends_on:
+  required: [equivalent-bounded-metric]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "Chapter 2 – Topological Vector Spaces"
+    section: "14. The space (s)"
+    pages: ""
+    role_in_book: "Constructs an explicit metric for countable products; the space (s) is the prototypical example."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

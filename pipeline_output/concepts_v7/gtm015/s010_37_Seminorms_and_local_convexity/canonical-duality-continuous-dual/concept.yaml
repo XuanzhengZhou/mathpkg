@@ -1,0 +1,23 @@
+id: canonical-duality-continuous-dual
+title_en: "Canonical duality between a locally convex TVS and its continuous dual"
+title_zh: "局部凸拓扑向量空间与其连续对偶之间的典范对偶"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [duality, continuous-dual, locally-convex-space, hahn-banach]
+depends_on:
+  required: [locally-convex-topological-vector-space, continuous-linear-form, duality-between-vector-spaces, hahn-banach-theorem]
+  recommended: [canonical-duality-all-linear-forms]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "3"
+    section: "38"
+    pages: ""
+    role_in_book: "example"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

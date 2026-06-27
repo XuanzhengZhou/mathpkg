@@ -1,0 +1,23 @@
+id: l1-convolution-algebra
+title_en: "$\ell^1(\mathbb{Z})$ is a Commutative Banach Algebra with Unity"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [banach-algebra, l1-space, convolution, commutative-algebra, unity]
+depends_on:
+  required: [convolution-on-l1, fourier-transform-of-convolution, little-l-one-space]
+  recommended: [banach-algebra]
+  suggested: [gel-fand-theory]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "0"
+    section: "Apéritif (Wiener's Theorem)"
+    pages: ""
+    role_in_book: "Remark 9; establishes the algebraic framework for the functional-analytic proof of Wiener's theorem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

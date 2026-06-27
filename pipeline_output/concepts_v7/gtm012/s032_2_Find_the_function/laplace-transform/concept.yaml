@@ -1,0 +1,23 @@
+id: laplace-transform
+title_en: "Laplace transform of a function"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: integral-transforms
+difficulty: basic
+tags: [laplace-transform, exponential-decay, half-plane, complex-integral]
+depends_on:
+  required: []
+  recommended: [continuous-function, support-of-function, improper-integral]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "4"
+    section: "§5"
+    pages: ""
+    role_in_book: "Defines the Laplace transform for continuous functions of exponential type with support bounded below"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

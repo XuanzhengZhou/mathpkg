@@ -1,0 +1,23 @@
+id: category-of-exact-couples
+title_en: "Category of Exact Couples"
+title_zh: "正合偶的范畴"
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [exact-couple, category-theory, spectral-sequence]
+depends_on:
+  required: [exact-couple, morphism-of-exact-couples]
+  recommended: [abelian-category]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "1. Exact Couples and Spectral Sequences"
+    pages: ""
+    role_in_book: "The domain category for the spectral sequence functor"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

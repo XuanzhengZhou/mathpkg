@@ -1,0 +1,23 @@
+id: complex-differentiability
+title_en: "Complex Differentiability"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: ["complex-differentiability", "analytic-function", "cauchy-riemann", "hartogs-theorem"]
+depends_on:
+  required: ["real-differentiability", "complex-numbers"]
+  recommended: ["cauchy-riemann-equations"]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "3. Implicit mapping theorems"
+    pages: ""
+    role_in_book: "Defines complex differentiability and notes its strong consequence: analyticity."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,9 @@
+Let $(x_n)_{n=1}^{\infty}$ be a bounded sequence of real numbers. For each $n$, define
+$$A_n = \{ x_k : k \geq n \},$$
+and set
+$$x'_n = \inf A_n, \qquad x''_n = \sup A_n.$$
+Since $A_n \supset A_{n+1}$, the sequence $(x'_n)_{n=1}^{\infty}$ is increasing and $(x''_n)_{n=1}^{\infty}$ is decreasing. Both are bounded, hence converge. We define
+$$\liminf_{n \to \infty} x_n = \lim_{n \to \infty} x'_n, \qquad \limsup_{n \to \infty} x_n = \lim_{n \to \infty} x''_n.$$
+These numbers are called the \textbf{lower limit} and the \textbf{upper limit} of the sequence, respectively. They satisfy
+$$-M \leq \liminf x_n \leq \limsup x_n \leq M$$
+where $M$ is a bound for $|x_n|$.

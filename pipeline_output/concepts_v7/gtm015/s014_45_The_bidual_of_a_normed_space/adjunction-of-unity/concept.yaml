@@ -1,0 +1,23 @@
+id: adjunction-of-unity
+title_en: "Adjunction of Unity to a Normed Algebra"
+title_zh: "赋范代数的单位化赋范"
+type: theorem
+domain: analysis
+subdomain: banach-algebras
+difficulty: intermediate
+tags: [normed-algebra, unitification, adjunction-of-unity]
+depends_on:
+  required: [normed-algebra-definition, unitification-construction]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "6"
+    section: "49"
+    pages: ""
+    role_in_book: "Shows how to norm the unitification to obtain a normed algebra"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,5 @@
+Let $J: \mathfrak{U} \rightarrow \mathfrak{B}$ be a functor between small categories. Define the precomposition functor $J^* : [\mathfrak{B}, \mathfrak{A}] \rightarrow [\mathfrak{U}, \mathfrak{A}]$ by $J^*(S) = S \circ J$. If $\mathfrak{A}$ admits colimits, then $J^*$ has a left adjoint $\tilde{J}: [\mathfrak{U}, \mathfrak{A}] \rightarrow [\mathfrak{B}, \mathfrak{A}]$, called the (left) Kan extension along $J$. For any object $V$ in $\mathfrak{B}$ and functor $T: \mathfrak{U} \rightarrow \mathfrak{A}$,
+$$
+\tilde{J}T(V) = \varinjlim_{(U,\psi) \in \mathfrak{J}_V} T_V(U,\psi),
+$$
+where $\mathfrak{J}_V$ is the category of $J$-objects over $V$: objects are pairs $(U, \psi)$ with $U \in \mathfrak{U}$ and $\psi: JU \rightarrow V$ in $\mathfrak{B}$, and $T_V(U,\psi) = T(U)$.

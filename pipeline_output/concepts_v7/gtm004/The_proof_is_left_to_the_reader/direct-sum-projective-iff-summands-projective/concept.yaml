@@ -1,0 +1,17 @@
+id: direct-sum-projective-iff-summands-projective
+title_en: "Direct Sum is Projective iff Each Summand is Projective"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [projective-module, direct-sum, universal-property]
+depends_on:
+  required: []
+  recommended: [projective-module, direct-sum-of-modules]
+  suggested: []
+source_books:
+  - {book_id: "gtm004", author: "P.J. Hilton and U. Stammbach", title: "A Course in Homological Algebra", chapter: "I. Modules", section: "4. Free and Projective Modules", pages: "", role_in_book: "Shows projectivity is preserved by and reflected from direct sums; dual is Proposition 6.3 for injectives."}
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

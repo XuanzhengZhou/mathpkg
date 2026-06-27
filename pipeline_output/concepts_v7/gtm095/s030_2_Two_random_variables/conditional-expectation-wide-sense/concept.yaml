@@ -1,0 +1,23 @@
+id: conditional-expectation-wide-sense
+title_en: "Conditional Expectation in the Wide Sense"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: L2-theory
+difficulty: intermediate
+tags: [conditional-expectation, wide-sense, linear-estimation, projection]
+depends_on:
+  required: [best-linear-estimator-orthonormal]
+  recommended: [projection-onto-closed-linear-manifold]
+  suggested: [conditional-expectation]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "Defines the wide-sense conditional expectation as the best linear estimator"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

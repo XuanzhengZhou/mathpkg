@@ -1,0 +1,23 @@
+id: closure-in-product-uniformity
+title_en: "Closure in Product Uniformity"
+title_zh: "积一致结构中的闭包"
+type: proposition
+domain: topology
+subdomain: uniform-spaces
+difficulty: basic
+tags: [closure, product-uniformity, relation, entourage, intersection]
+depends_on:
+  required: [product-uniformity-base, product-uniformity-action-on-subset]
+  recommended: [closure, intersection]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "FOR METRIC SPACES ONLY"
+    pages: ""
+    role_in_book: "Exercise B(c); formula for the closure of a relation in the product uniformity"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

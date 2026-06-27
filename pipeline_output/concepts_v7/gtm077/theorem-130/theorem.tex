@@ -1,0 +1,41 @@
+If $\chi$ is not the principal character, then
+
+$$L(1, \chi) = \lim_{s \to 1} L(s, \chi) \neq 0.$$
+
+The nonvanishing of the $L$-series is now an immediate consequence of the fact that $\zeta_k(s)$ becomes infinite to the first order at $s = 1$. For by (102) it follows for $a = b = 1$ that
+
+$$\sum_{\chi} \log L(s, \chi) = \varphi(m) \sum_{p \equiv 1 \pmod{m}} \frac{1}{p^s} + G(s),$$
+
+and, if we use (99), it follows from this that
+
+$$\sum_{\chi} \log L(s, \chi) = \frac{\varphi(m)}{n_0} \log \frac{1}{s - 1} + G_1(s)$$
+
+with $G(s)$ and $G_1(s)$ remaining finite. On the left-hand side only the term corresponding to the principal character $\chi_1(s)$ becomes infinitely large, by (101), and for the remaining part we thus obtain
+
+$$\sum_{\chi \neq \chi_1} \log L(s, \chi) = \left( \frac
+
+Theorem 131. If $(a, m) = 1$, then there are infinitely many positive primes $p$, for which $p \equiv a \pmod{m}$. That is $p = mx + a$ represents a prime infinitely often for $x = 1, 2, 3, \ldots$.
+
+As a side result we obtain
+
+$$\varphi(m) = n_0$$
+
+from the proof, that is, the exact degree of the field of $m$th roots of unity also follows from the decomposition laws. With this it is thus proved that the algebraic equation for $\zeta = e^{2\pi i/m}$ is irreducible over the field of rational numbers.
+
+If we go once more through the chain of conclusions which led us to the proof of Theorem 131, then the verification that $L(1, \chi) \neq 0$ appears as the most difficult point, and this verification was carried out from Equation (103) and the fact that the function $\zeta_k(s)$ becomes infinite to the first order at $s = 1$. This last fact was again based on the theorems in §40 about the density of ideals, in whose proofs the entire theory of units was required. It is now of importance that instead of these number-theoretic methods, more precise knowledge of the function-theoretic properties of the $L(s, \chi)$ can be used with the same success. Several remarks about this follow for purposes of orientation.
+
+To begin with, it can be proved by Lemma (b), §42, that $L(s, \chi)$ is differentiable at $s = 1$ (by termwise differentiation of the series) and that hence, if $L(1, \chi) = 0$, this function would have a zero of at least the first order at $s = 1$, for then
+
+$$\lim_{s \to 1} \frac{L(s, \chi)}{s - 1} = \lim_{s \to 1} \frac{L(s, \chi) - L(1, \chi)}{s - 1} = \frac{dL(s, \chi)}{ds} \Bigg|_{s = 1}$$
+
+exists. On the other hand, the product of all $\
+
+cannot occur. Thus we need only verify that $L(1, \chi) \neq 0$ for all quadratic characters $\chi$.
+
+$Mertens^2$ has proved this assertion by a direct estimate of all the real terms of the series. In this way we obtain a proof of Dirichlet’s theorem which is independent of the theory of fields.
+
+Dirichlet himself used the quadratic reciprocity law with which it is seen that the series $L(s, \chi)$ corresponding to real characters appear as factors in the zeta-functions of certain quadratic number fields, and so, for this reason, cannot be zero at $s = 1$. In contrast to the proof given above he does not need the arithmetic of cyclotomic fields, but only that of quadratic fields.
+
+Pure function-theoretic proofs comprise the latter group; they are capable of the farthest generalization. In these proofs the functions $L(s, \chi)$ are investigated as analytic functions of the complex variable $s$. It is shown that the $L(s, \chi)$ are regular analytic functions of $s$ for all finite values of $s$ with the exception of $L(s, \chi_1)$ which has a pole of the first order only at $s = 1$. Now if one of the $L$-series were zero at $s = 1$, the product of all these series would have to be a regular function of $s$ everywhere in the finite plane. The contradiction is then obtained, with the help of a general theorem of function theory, from the fact that such a Dirichlet series with positive coefficients must have at least one singular point in the finite plane.$^3$
+
+This idea, which is the foundation of Dirichlet’s method of introducing group characters, is capable of far-reaching generalization. We can start, instead of from the classification of rational numbers in $k(1)$ by residue classes mod $m$, with the numbers of any field, which are divided, in another way, into classes which form an Abelian group.$^4$ Finally Theorem 126 can also be directly applied to other fields instead of $k(e^{2\pi i m})$, even to relative fields. Moreover, each time we obtain verification of the existence of infinitely many primes (prime ideals) of the ground field with certain properties from a

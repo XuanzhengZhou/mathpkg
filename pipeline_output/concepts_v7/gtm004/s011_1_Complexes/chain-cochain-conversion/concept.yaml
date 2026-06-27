@@ -1,0 +1,23 @@
+id: chain-cochain-conversion
+title_en: "Conversion Between Chain and Cochain Complexes"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [chain-complex, cochain-complex, duality, grading]
+depends_on:
+  required: [chain-complex]
+  recommended: [cochain-complex]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV. Derived Functors"
+    section: "1. Complexes"
+    pages: ""
+    role_in_book: "Shows chain and cochain complexes are formally equivalent via reindexing"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

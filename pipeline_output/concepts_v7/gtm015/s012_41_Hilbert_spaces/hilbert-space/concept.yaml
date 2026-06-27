@@ -1,0 +1,23 @@
+id: hilbert-space
+title_en: "Hilbert space (parallelogram law definition)"
+title_zh: "希尔伯特空间（平行四边形律定义）"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [hilbert-space, banach-space, parallelogram-law, norm]
+depends_on:
+  required: []
+  recommended: [banach-space, normed-space]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "41"
+    section: "Hilbert spaces"
+    pages: ""
+    role_in_book: "Core definition establishing Hilbert spaces via the parallelogram law, an unconventional but efficient approach."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

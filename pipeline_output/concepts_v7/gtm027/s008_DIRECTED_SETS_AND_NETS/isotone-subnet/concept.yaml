@@ -1,0 +1,23 @@
+id: isotone-subnet
+title_en: "Isotone Subnet"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: nets-and-convergence
+difficulty: intermediate
+tags: ["subnet", "isotone", "cofinal", "net"]
+depends_on:
+  required: ["subnet", "directed-set", "cofinal-subset"]
+  recommended: ["net"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "2"
+    section: "Directed Sets and Nets"
+    pages: "81-87"
+    role_in_book: "Describes a simple sufficient condition for constructing subnets using isotone functions with cofinal range."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

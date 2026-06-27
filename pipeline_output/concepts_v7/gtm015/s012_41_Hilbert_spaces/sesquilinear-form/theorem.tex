@@ -1,0 +1,30 @@
+If $E$ is a complex vector space, a \textbf{sesquilinear form} on $E$ is a function $\varphi \colon E \times E \to \mathbb{C}$ that is linear in the first variable and conjugate-linear in the second, i.e., for all $x, y, z \in E$ and $\lambda \in \mathbb{C}$:
+
+\begin{enumerate}
+\item[(i)] $\varphi(x + y, z) = \varphi(x, z) + \varphi(y, z)$,
+\item[(ii)] $\varphi(\lambda x, y) = \lambda\,\varphi(x, y)$,
+\item[(iii)] $\varphi(x, y + z) = \varphi(x, y) + \varphi(x, z)$,
+\item[(iv)] $\varphi(x, \lambda y) = \lambda^*\,\varphi(x, y)$.
+\end{enumerate}
+
+The form is called \textbf{Hermitian} if
+
+\begin{enumerate}
+\item[(v)] $\varphi(y, x) = \varphi(x, y)^*$
+\end{enumerate}
+
+for all $x, y$ (in which case, conditions (iii) and (iv) are redundant); \textbf{positive} if
+
+\begin{enumerate}
+\item[(vi)] $\varphi(x, x) \geq 0$
+\end{enumerate}
+
+for all $x$; and \textbf{strictly positive} if
+
+\begin{enumerate}
+\item[(vii)] $\varphi(x, x) > 0$
+\end{enumerate}
+
+for all $x \neq \theta$.
+
+An \textbf{inner product} on $E$ is a strictly positive, Hermitian, sesquilinear form on $E$, i.e., a function satisfying (i), (ii), (v), and (vii) (hence all the rest). A \textbf{complex inner product space} is a complex vector space equipped with such an inner product; the inner product of $x$ and $y$ (in that order) is denoted $(x|y)$.

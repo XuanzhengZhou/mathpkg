@@ -1,0 +1,23 @@
+id: fourier-transform-on-l1
+title_en: "Fourier Transform on $\ell^1(\mathbb{Z})$"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: basic
+tags: [fourier-transform, l1-space, trigonometric-series, wiener-algebra]
+depends_on:
+  required: [little-l-one-space]
+  recommended: [fourier-series]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "0"
+    section: "Apéritif (Wiener's Theorem)"
+    pages: ""
+    role_in_book: "Definition (11); the map linking l^1(Z) to the Wiener algebra"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

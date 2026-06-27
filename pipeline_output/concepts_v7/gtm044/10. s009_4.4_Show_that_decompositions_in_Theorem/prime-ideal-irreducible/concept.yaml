@@ -1,0 +1,25 @@
+id: prime-ideal-irreducible
+title_en: "Every Prime Ideal is Irreducible"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: [prime-ideal, irreducible-ideal, ideal-intersection, ring-theory]
+depends_on:
+  required: [prime-ideal, irreducible-ideal]
+  recommended: []
+  suggested: []
+
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Shows prime ideals are irreducible; completes proof of Theorem 4.9"
+
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

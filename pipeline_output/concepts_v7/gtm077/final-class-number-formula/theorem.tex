@@ -1,0 +1,53 @@
+The class number $h$ of the quadratic field with discriminant $d$ has the value
+
+$$h = -\frac{\rho}{|d|} \sum_{n=1}^{|d|-1} n \left( \frac{d}{n} \right), \quad \rho = \frac{-iG(1, d)}{|\sqrt{d}|} = \pm 1 \quad \text{for } d < -4.$$
+
+$$h = \frac{\rho}{2 \log \varepsilon} \log \frac{\prod_a \sin \frac{\pi a}{d}}{\prod_b \sin \frac{\pi b}{d}}, \quad \rho = \frac{G(1, d)}{|\sqrt{d}|} = \pm 1 \quad \text{for } d > 0.$$
+
+In the second expression $a$ and $b$ run through those numbers 1, 2, ..., $d-1$ for which
+
+$$\left( \frac{d}{a} \right) = -1, \quad \left( \frac{d}{b} \right) = +1$$
+
+respectively. The final result will be that we always have $\rho = +1$ (§58). The formula for the class number of an imaginary field then becomes remarkably simple, and from its structure it appears to belong completely to elementary number theory. In spite of this, until now no one has succeeded in proving this formula by purely number-theoretic methods without the transcendental techniques of Dirichlet. Up to now we have not been able to even show that the expression for $h$ is always positive by other methods. At present we can only take this formula, which is still completely incomprehensible to us, as a fact for calculations.
+
+The second formula behaves likewise. In particular, we obtain from it the fact that the quotient $\prod_a / \prod_b$ is a unit of the field $k(\sqrt{d})$. This latter formula
+
+By a binary quadratic form in the variables $x, y$ we mean an expression of the form
+
+$$F(x, y) = Ax^2 + Bxy + Cy^2,$$
+
+where the coefficients of the form, $A, B,$ and $C,$ are quantities independent of $x$ and $y$ and not all 0. Obviously such a form can always be represented as a product of two homogeneous linear functions of $x, y$:
+
+$$F(x, y) = (\alpha a + \beta y)(\alpha' x + \beta' y).$$
+
+(156)
+
+The four quantities $\alpha, \beta, \alpha', \beta'$ are, of course, not uniquely determined by $A, B, C$. For example, if $A \neq 0$
+
+$$F(x, y) = \left( \sqrt{A}x + \frac{B + \sqrt{B^2 - 4AC}}{2\sqrt{A}}y \right) \left( \sqrt{A}x + \frac{B - \sqrt{B^2 - 4AC}}{2\sqrt{A}}y \right).$$
+
+By comparing coefficients we confirm at once that
+
+$$D = B^2 - 4AC = (\alpha\beta' - \alpha'\beta)^2 = \begin{vmatrix} \alpha & \beta \\ \alpha' & \beta' \end{vmatrix}^2.$$
+
+(157)
+
+This expression is called the discriminant (or also the determinant) of the form.
+
+If we apply a homogeneous linear transformation
+
+$$x = ax'_1 + by'_1, \quad y = cx'_1 + dy'_1,$$
+
+(158)
+
+to the variables $x, y,$ then $F(x, y)$ is transformed into a quadratic form in $x', y'$. If we choose the form (156), then
+
+$$F(ax_1 + by_1, cx_1 + dy_1)$$
+
+$$= ((\alpha a + \beta c)x_1 + (\alpha b + \beta d)y_1)((\alpha' a + \beta' c)x_1 + (\alpha' b + \beta' d)y_1)$$
+
+$$= A
+
+This transformation is said to be reciprocal (inverse) to the transformation (158). Its determinant is $1/(ad - bc)$.
+
+We now consider exclusively those transformations where the coefficients $a, b, c, d$ are rational integers with determinant $ad - bc = +1$, the so called integral unimodular transformations. The reciprocal of such a transformation likewise has this property, as the above formulas show.

@@ -1,0 +1,23 @@
+id: completeness-via-closed-sets-and-small-sets
+title_en: "Completeness via Closed Sets with the Finite Intersection Property"
+title_zh: "通过闭集族和有限交性质刻画完备性"
+type: theorem
+domain: topology
+subdomain: uniform-spaces
+difficulty: advanced
+tags: [complete-space, finite-intersection-property, small-sets, closed-sets]
+depends_on:
+  required: [complete-uniform-space, finite-intersection-property]
+  recommended: [closed-set, small-set, net, cluster-point]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Completeness"
+    pages: ""
+    role_in_book: "Theorem 23: characterization of completeness via families of closed sets containing small sets"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

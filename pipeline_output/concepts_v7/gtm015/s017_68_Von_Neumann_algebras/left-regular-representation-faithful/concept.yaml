@@ -1,0 +1,23 @@
+id: left-regular-representation-faithful
+title_en: "Left regular representation of L^1(G) is a faithful star-representation"
+title_zh: "L^1(G)的左正则表示是忠实的*-表示"
+type: theorem
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: advanced
+tags: [left-regular-representation, faithful-representation, star-representation, l1-group-algebra]
+depends_on:
+  required: []
+  recommended: [l1-group-algebra, star-representation, approximate-identity, l2-space]
+  suggested: [gelfand-raikov-theorem]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "69"
+    section: "Group representations"
+    pages: "307-308"
+    role_in_book: "Theorem (69.18) establishing the faithful *-representation of L^1(G) on L^2(G)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

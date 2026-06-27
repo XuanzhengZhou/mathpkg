@@ -1,0 +1,23 @@
+id: pullback-homotopy-invariance
+title_en: "Homotopy Invariance of Pullback"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundle, pullback, homotopy, covering-homotopy, induced-bundle]
+depends_on:
+  required: [induced-vector-bundle]
+  recommended: [homotopy-theory]
+  suggested: [covering-homotopy-theorem-for-vector-bundles]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "4.2"
+    pages: ""
+    role_in_book: "Theorem 2.4 — Corollary of the covering homotopy theorem; key to classification"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

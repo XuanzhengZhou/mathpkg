@@ -1,0 +1,23 @@
+id: holder-inequality
+title_en: "Hölder's inequality for $\mathcal{L}^p$ spaces"
+title_zh: "$\mathcal{L}^p$空间的Hölder不等式"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [holder-inequality, lp-space, integral-inequality]
+depends_on:
+  required: [lp-space-definition, young-inequality, lebesgue-integral]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "4"
+    section: "39"
+    pages: ""
+    role_in_book: "core_result"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

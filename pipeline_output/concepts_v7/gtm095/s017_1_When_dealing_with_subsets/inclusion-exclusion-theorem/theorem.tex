@@ -1,0 +1,11 @@
+Let $A_1, \ldots, A_n$ be subsets of a finite set $\Omega$. Then
+
+$$N\left(\bigcup_{i=1}^{n} A_i\right) = \sum_{i=1}^{n} N(A_i) - \sum_{1 \leq i_1 < i_2 \leq n} N(A_{i_1} \cap A_{i_2}) + \sum_{1 \leq i_1 < i_2 < i_3 \leq n} N(A_{i_1} \cap A_{i_2} \cap A_{i_3}) - \cdots + (-1)^{n+1} N\left(\bigcap_{i=1}^{n} A_i\right).$$
+
+Equivalently, in more concise form:
+
+$$N\left(\bigcup_{i=1}^{n} A_i\right) = \sum_{\substack{S \subseteq \{1,\ldots,n\} \\ S \neq \varnothing}} (-1)^{|S|+1} N\left(\bigcap_{i \in S} A_i\right).$$
+
+For the complements:
+
+$$N\left(\bigcap_{i=1}^{n} \overline{A}_i\right) = \sum_{S \subseteq \{1,\ldots,n\}} (-1)^{|S|} N\left(\bigcap_{i \in S} A_i\right).$$

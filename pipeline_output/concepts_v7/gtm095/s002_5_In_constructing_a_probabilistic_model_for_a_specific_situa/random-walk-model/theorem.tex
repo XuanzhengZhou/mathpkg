@@ -1,0 +1,5 @@
+Consider a particle that starts at zero and takes $n$ steps, each step being $+1$ with probability $p$ or $-1$ with probability $q = 1-p$. The sample space $\Omega$ consists of paths $\omega = (a_1, \ldots, a_n)$ with $a_i = \pm 1$. Let $\nu(\omega)$ be the number of $+1$ steps. The probability of path $\omega$ is
+$$p(\omega) = p^{\nu(\omega)} q^{n - \nu(\omega)}.$$
+The position after $n$ steps is $S_n = \nu(\omega) - (n - \nu(\omega))$. The probability that $S_n = k$ (where $k = -n, -n+2, \ldots, n$) is
+$$\text{P}(A_k) = C_n^{(n+k)/2} \, p^{(n+k)/2} \, q^{(n-k)/2}.$$
+In the \text{symmetric case} ($p = q = 1/2$), $\text{P}(A_k) = C_n^{(n+k)/2} \cdot 2^{-n}$.

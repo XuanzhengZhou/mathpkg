@@ -1,0 +1,18 @@
+Let $\tau: T \rightarrow T'$ be a natural transformation between additive covariant functors $T, T': \mathfrak{M}_A \rightarrow \mathfrak{Ub}$ and let the diagram
+$$\begin{CD}
+A' @>{\alpha'}>> A @>{\alpha''}>> A'' \\
+@V{\varphi'}VV @V{\varphi}VV @V{\varphi''}VV \\
+B' @>{\beta'}>> B @>{\beta''}>> B''
+\end{CD}$$
+be commutative with short exact rows. Then the following diagrams are commutative:
+$$\begin{CD}
+\cdots @>>> L_n T A' @>{L_n T \alpha'}>> L_n T A @>{L_n T \alpha''}>> L_n T A'' @>{\omega_n}>> L_{n-1} T A' @>>> \cdots \\
+@. @V{\tau_{A'}}VV @V{\tau_A}VV @V{\tau_{A''}}VV @V{\tau_{A'}}VV @. \\
+\cdots @>>> L_n T' A' @>{L_n T' \alpha'}>> L_n T' A @>{L_n T' \alpha''}>> L_n T' A'' @>{\omega_n'}>> L_{n-1} T' A' @>>> \cdots
+\end{CD}$$
+and
+$$\begin{CD}
+\cdots @>>> L_n T A' @>{L_n T \alpha'}>> L_n T A @>{L_n T \alpha''}>> L_n T A'' @>{\omega_n}>> L_{n-1} T A' @>>> \cdots \\
+@. @V{L_n T \varphi'}VV @V{L_n T \varphi}VV @V{L_n T \varphi''}VV @V{L_n T \varphi'}VV @. \\
+\cdots @>>> L_n T B' @>{L_n T \beta'}>> L_n T B @>{L_n T \beta''}>> L_n T B'' @>{\omega_n}>> L_{n-1} T B' @>>> \cdots
+\end{CD}$$

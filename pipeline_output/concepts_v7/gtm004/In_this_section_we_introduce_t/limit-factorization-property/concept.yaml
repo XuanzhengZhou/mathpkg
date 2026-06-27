@@ -1,0 +1,23 @@
+id: limit-factorization-property
+title_en: "Limit Factorization Property"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [limit, colimit, filtered-object, factorization]
+depends_on:
+  required: [filtered-object, limit, colimit]
+  recommended: []
+  suggested: [completeness-limit-characterization]
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "8. Completions of Filtrations"
+    pages: ""
+    role_in_book: "Proposition 8.2; establishes that limits commute with factorization in filtered objects"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

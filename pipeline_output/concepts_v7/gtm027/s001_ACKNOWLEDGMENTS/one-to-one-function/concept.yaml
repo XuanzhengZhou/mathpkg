@@ -1,0 +1,23 @@
+id: one-to-one-function
+title_en: "One-to-One Function (Injection)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: ["one-to-one", "injection", "inverse-function", "function"]
+depends_on:
+  required: ["function-definition"]
+  recommended: ["inverse-relation"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Functions"
+    pages: "10-12"
+    role_in_book: "Defines a one-to-one function (injection) as a function where distinct points have distinct images, equivalently, the inverse relation is also a function."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

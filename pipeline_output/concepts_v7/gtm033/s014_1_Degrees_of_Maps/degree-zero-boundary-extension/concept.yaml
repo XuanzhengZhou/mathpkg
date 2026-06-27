@@ -1,0 +1,23 @@
+id: degree-zero-boundary-extension
+title_en: "Lemma 1.2: Degree of a Map Extended from a Boundary is Zero"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [degree, boundary, extension, regular-value, bordism]
+depends_on:
+  required: [degree-of-smooth-map, orientation-along-arc, regular-value]
+  recommended: [sard-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "5"
+    section: "1. Degrees of Maps"
+    pages: ""
+    role_in_book: "Key lemma: maps extendable to a coboundary have degree zero"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

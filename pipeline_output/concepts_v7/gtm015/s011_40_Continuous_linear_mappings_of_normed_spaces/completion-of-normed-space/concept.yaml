@@ -1,0 +1,23 @@
+id: completion-of-normed-space
+title_en: "Every normed space is a dense linear subspace of a Banach space"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [normed-space, banach-space, completion, bidual, dense-subspace, canonical-mapping]
+depends_on:
+  required: [canonical-mapping-into-bidual, dual-space-is-banach]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Berberian, S.K."
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: ""
+    section: "40. Continuous linear mappings of normed spaces"
+    pages: ""
+    role_in_book: "Existence of a Banach space completion via the bidual"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

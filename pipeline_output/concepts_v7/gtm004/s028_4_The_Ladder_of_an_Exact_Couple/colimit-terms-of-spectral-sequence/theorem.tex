@@ -1,0 +1,13 @@
+\begin{definition}
+For an exact couple $(D, E; \alpha, \beta, \gamma)$, define the colimit term
+\[
+E_{\infty,n} = \lim_{\substack{\longrightarrow \\ m}} (E_{m,n}; \sigma_{m,n}) = E_{m,n} \Big/ \bigcup_{k \geq 0} \sigma^{-k}(0),
+\tag{4.25}
+\]
+where $\sigma^{k} = \sigma_{m+k-1,n} \circ \cdots \circ \sigma_{m+1,n} \circ \sigma_{m,n}$ is the iterated horizontal structure map. In concrete terms,
+\[
+E_{\infty,n} = \frac{\gamma^{-1}(\alpha^{n} D)}{\beta\alpha^{-\infty}(0)}.
+\tag{4.26}
+\]
+Moreover, $E_{\infty} = \lim_{n} E_{\infty,n}$, so the double limit can be computed by first taking the colimit over $m$ and then the limit over $n$.
+\end{definition}

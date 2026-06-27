@@ -1,0 +1,23 @@
+id: unit-tangent-bundle
+title_en: "Unit Tangent Bundle"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [tangent-bundle, unit-sphere, submanifold]
+depends_on:
+  required: [tangent-bundle]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm033
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "3. Embeddings and Immersions"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines the domain of the map τ used to find projection directions preserving the immersion condition"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

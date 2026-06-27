@@ -1,0 +1,23 @@
+id: induced-map-onto-iff-isomorphism
+title_en: "Surjectivity of F Characterized by F-star Being an Isomorphism onto a Unital Subalgebra"
+title_zh: "F的满射性等价于F*为到含幺子代数的同构"
+type: proposition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [induced-map, isomorphism, C(X), Gelfand-duality, surjectivity]
+depends_on:
+  required: [induced-map-star-homomorphism]
+  recommended: [isomorphism, subalgebra, unit-element]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "S"
+    pages: ""
+    role_in_book: "Proposition (a)(ii): F onto iff F* is an isomorphism onto a unital subalgebra"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

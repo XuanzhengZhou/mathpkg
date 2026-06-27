@@ -1,0 +1,23 @@
+id: fourier-series-expansion-in-l2
+title_en: "Fourier series expansion in L^2"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: fourier-analysis
+difficulty: intermediate
+tags: [fourier-series, l2-space, parseval-identity, fourier-coefficients, hilbert-space, orthonormal-basis]
+depends_on:
+  required: [exponential-orthonormal-basis-of-l2, hilbert-space, l2-space-of-periodic-distributions]
+  recommended: [orthonormal-basis-expansion, bessels-inequality]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "6"
+    section: "§6. Fourier series"
+    pages: ""
+    role_in_book: "Central theorem characterizing Fourier series expansion in L^2"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

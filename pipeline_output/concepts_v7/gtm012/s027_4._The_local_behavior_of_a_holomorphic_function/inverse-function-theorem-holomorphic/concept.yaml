@@ -1,0 +1,23 @@
+id: inverse-function-theorem-holomorphic
+title_en: "Inverse Function Theorem for Holomorphic Functions"
+title_zh: "全纯函数的反函数定理"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [inverse-function, holomorphic-function, local-inverse, biholomorphic]
+depends_on:
+  required: [local-representation-nonconstant-holomorphic]
+  recommended: [cauchy-integral-formula, power-series-expansion]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "4"
+    section: "4. The local behavior of a holomorphic function"
+    pages: ""
+    role_in_book: "Theorem 4.2 — local invertibility criterion"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,13 @@
+id: isometry
+title_en: "Isometry"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: metric-spaces
+difficulty: basic
+tags: [isometry, metric-space, distance-preserving, metric-invariant]
+depends_on: {required: [pseudo-metric, metric-space], recommended: [], suggested: [metric-invariant]}
+source_books: [{book_id: "gtm027", author: "John L. Kelley", title: "General Topology", chapter: "4", section: "Existence of Continuous Functions", pages: "", role_in_book: "Defines isometry as distance-preserving map between metric spaces"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

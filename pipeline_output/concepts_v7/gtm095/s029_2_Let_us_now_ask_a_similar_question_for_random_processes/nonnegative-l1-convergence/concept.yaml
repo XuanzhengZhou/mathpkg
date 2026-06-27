@@ -1,0 +1,13 @@
+id: nonnegative-l1-convergence
+title_en: "Almost Sure Convergence Plus Convergence of Expectations Implies L1 Convergence"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: limit-theorems
+difficulty: intermediate
+tags: [L1-convergence, almost-sure, expectation-convergence, nonnegative]
+depends_on: {required: [almost-sure-convergence, convergence-in-mean-of-order-p], recommended: [], suggested: []}
+source_books: [{book_id: "gtm095", author: "Shiryaev", title: "Probability-1", chapter: "2", section: "10", pages: "", role_in_book: "Theorem 3: For nonnegative r.v., a.s.+E convergence implies L1"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

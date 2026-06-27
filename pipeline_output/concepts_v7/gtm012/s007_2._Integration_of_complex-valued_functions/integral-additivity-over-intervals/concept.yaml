@@ -1,0 +1,23 @@
+id: integral-additivity-over-intervals
+title_en: "Additivity of the integral over subintervals"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: real-analysis
+difficulty: basic
+tags: [additivity, integral, subintervals, riemann-integral]
+depends_on:
+  required: [riemann-integral-complex]
+  recommended: [cauchy-criterion-riemann-integrability]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "2"
+    section: "2. Integration of complex-valued functions"
+    pages: ""
+    role_in_book: "Proposition 2.5 — the integral is additive with respect to the interval of integration"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

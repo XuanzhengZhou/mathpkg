@@ -1,0 +1,25 @@
+id: ideal-quotient-definition
+title_en: "Ideal Quotient (Colon Ideal)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: [ideal-quotient, colon-ideal, ideal, ring-theory]
+depends_on:
+  required: [ideal]
+  recommended: [primary-ideal-definition]
+  suggested: []
+
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "4"
+    section: "4.5"
+    pages: ""
+    role_in_book: "Defines the ideal quotient operation a:b, used to prove that irreducible ideals are primary"
+
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

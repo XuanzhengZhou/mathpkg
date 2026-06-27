@@ -1,0 +1,23 @@
+id: triangulated-category-structure
+title_en: "Triangulated Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [triangulated-category, derived-category, verdier, homotopy-category]
+depends_on:
+  required: [additive-category, chain-complex, homotopy-category]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "5. Stable and Derived Categories"
+    pages: "360-376"
+    role_in_book: "Definition: A triangulated category has an additive invertible endofunctor T and a distinguished class of triangles"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,51 @@
+Example 1. In the model of two tosses of a coin with sample space $\Omega = \{HH, HT, TH, TT\}$, define a random variable $\xi = \xi(\omega)$ by the table
+
+$$
+\begin{array}{c c c c c}
+\omega & HH & HT & TH & TT \\
+\xi(\omega) & 2 & 1 & 1 & 0
+\end{array}
+$$
+
+Here, from its very definition, $\xi(\omega)$ is nothing but the number of heads in the outcome $\omega$.
+
+Another extremely simple example of a random variable is the indicator (or characteristic function) of a set $A \in \mathcal{A}$:
+
+$$\xi = I_A(\omega),$$
+
+where*
+
+$$I_A(\omega) = \begin{cases} 
+1, & \omega \in A, \\
+0, & \omega \notin A.
+\end{cases}$$
+
+When experimenters are concerned with random variables that describe observations, their main interest is in the probabilities with which the random variables take various values. From this point of view they are interested
+
+Let $\mathcal{X}$ be the collection of all subsets of $X$, and let $B \in \mathcal{X}$. We can also interpret $B$ as an event if the sample space is taken to be $X$, the set of values of $\xi$.
+
+On $(X, \mathcal{X})$, consider the probability $P_{\xi}(\cdot)$ induced by $\xi$ according to the formula
+
+$$P_{\xi}(B) = \text{P}\{\omega : \xi(\omega) \in B\}, \quad B \in \mathcal{X}.$$
+
+It is clear that the values of this probability are completely determined by the probabilities
+
+$$P_{\xi}(x_i) = \text{P}\{\omega : \xi(\omega) = x_i\}, \quad x_i \in X.$$
+
+The set of numbers $\{P_{\xi}(x_1), \ldots, P_{\xi}(x_m)\}$ is called the probability distribution of the random variable $\xi$.
+
+Example 2. A random variable $\xi$ that takes the two values 1 and 0 with probabilities $p$ (“success”) and $q$ (“failure”), is called a Bernoulli* random variable. Clearly
+
+$$P_{\xi}(x) = p^x q^{1-x}, \quad x = 0, 1.$$  
+
+(1)
+
+A binomial (or binomially distributed) random variable $\xi$ is a random variable that takes the $n + 1$ values 0, 1, $\ldots$, $n$ with probabilities
+
+$$P_{\xi}(x) = C_n^x p^x q^{n-x}, \quad x = 0, 1, \ldots, n.$$  
+
+(2)
+
+Note that here and in many subsequent examples we do not specify the sample spaces $(\Omega, \mathcal{A}, \text{P})$, but are interested only in the values of the random variables and their probability distributions.
+
+The probabilistic structure of the random variables $\xi$ is completely specified by the probability distributions $\{P_{\xi}(x_i), i = 1, \ldots, m\}$. The concept of distribution function, which we now introduce, yields an equivalent description of the probabilistic structure of the random variables.

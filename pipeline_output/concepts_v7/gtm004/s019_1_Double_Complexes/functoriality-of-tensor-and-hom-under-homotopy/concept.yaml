@@ -1,0 +1,31 @@
+id: functoriality-of-tensor-and-hom-under-homotopy
+title_en: Functoriality of Tensor Product and Hom under Chain Homotopy
+title_zh: ''
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags:
+- chain-homotopy
+- tensor-product
+- hom-functor
+- functoriality
+depends_on:
+  required:
+  - tensor-product-of-chain-complexes
+  - hom-complex-of-chain-complexes
+  recommended:
+  - chain-homotopy
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 1. Double Complexes
+  pages: ''
+  role_in_book: shows that tensor product and Hom respect the homotopy relation between
+    chain maps
+content_hash: 0cba239d8beacd34
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

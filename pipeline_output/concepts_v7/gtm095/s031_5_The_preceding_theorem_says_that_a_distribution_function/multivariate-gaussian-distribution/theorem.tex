@@ -1,0 +1,7 @@
+An $n$-dimensional random vector $\xi = (\xi_1, \ldots, \xi_n)^*$ is called Gaussian, or normally distributed, with parameters $m$ and $\mathbb{R}$ (notation: $\xi \sim \mathcal{N}(m, \mathbb{R})$), where $m = (m_1, \ldots, m_n)^*$, $|m_k| < \infty$, and $\mathbb{R} = \|r_{kl}\|$ is a symmetric positive semi-definite $n \times n$ matrix, if its characteristic function is
+
+$$\varphi_\xi(t) = E e^{i(t,\xi)} = e^{i(t,m) - \frac{1}{2}(\mathbb{R}t, t)}, \quad t \in \mathbb{R}^n.$$
+
+When $\mathbb{R}$ is nonsingular, the distribution has density
+
+$$f(x) = \frac{|\mathbb{R}^{-1}|^{1/2}}{(2\pi)^{n/2}} \exp\left\{-\frac{1}{2}(\mathbb{R}^{-1}(x-m), (x-m))\right\}, \quad x \in \mathbb{R}^n.$$

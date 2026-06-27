@@ -1,0 +1,23 @@
+id: distribution-representation-by-derivative-of-function
+title_en: "Representation of a distribution as a derivative of a function"
+title_zh: "分布作为函数导数的表示定理"
+type: theorem
+domain: analysis
+subdomain: distribution-theory
+difficulty: advanced
+tags: ["distribution", "representation-theorem", "derivative", "order", "structure-theorem"]
+depends_on:
+  required: ["order-of-distribution", "distribution-defined-by-function", "lemma-approximation-of-absolute-value-by-test-functions"]
+  recommended: ["theorem-3-3-every-distribution-has-finite-order"]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "4"
+    section: "§4. Characterization of distributions of type L'"
+    pages: ""
+    role_in_book: "Theorem 4.3 — main structure theorem characterizing distributions of type L'"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

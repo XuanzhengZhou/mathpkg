@@ -1,0 +1,23 @@
+id: krull-dimension-via-cohomology-growth
+title_en: "Krull Dimension of Cohomology Ring via Growth Rate"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: advanced
+tags: [cohomology-ring, krull-dimension, growth-rate, group-cohomology]
+depends_on:
+  required: [group-cohomology, graded-ring, krull-dimension]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "4. Modular Representation Theory"
+    pages: "355-359"
+    role_in_book: "Definition: Krull dimension of H^*(G,k) defined through growth rate of dim H^n"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

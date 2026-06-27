@@ -1,0 +1,23 @@
+id: equivalent-coordinate-tuples
+title_en: "Equivalent Coordinate Tuples"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags: ["homogeneous-coordinates", "equivalence-relation", "projective-space"]
+depends_on:
+  required: ["coordinate-set-of-projective-point"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "1. Projective spaces"
+    pages: ""
+    role_in_book: "Formalizes the equivalence relation on coordinate tuples that defines projective points."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: convolution-riemann-sum-convergence
+title_en: "Riemann Sum Approximation of Convolution"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: fourier-analysis
+difficulty: intermediate
+tags: [convolution, riemann-sum, approximation, uniform-convergence]
+depends_on:
+  required: [convolution-on-circle, smooth-periodic-functions]
+  recommended: [uniform-convergence]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "7"
+    section: "7. Convolution of distributions"
+    pages: ""
+    role_in_book: "Shows that convolution can be approximated by Riemann sums, linking discrete and continuous convolution"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

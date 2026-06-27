@@ -1,0 +1,23 @@
+id: minimal-subcover-of-point-finite-cover
+title_en: "Minimal Subcover of a Point Finite Cover"
+title_zh: "点有限覆盖的极小子覆盖"
+type: proposition
+domain: topology
+subdomain: covering-properties
+difficulty: basic
+tags: [point-finite, minimal-subcover, cover, refinement]
+depends_on:
+  required: [point-finite-family]
+  recommended: [cover, subcover]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "V. Point Finite Covers and Metacompact Spaces"
+    pages: ""
+    role_in_book: "Proposition (b): existence of minimal subcovers for point finite covers"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

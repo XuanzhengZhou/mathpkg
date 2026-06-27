@@ -1,0 +1,23 @@
+id: order-complete
+title_en: "Order-Complete Set"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: order-theory
+difficulty: intermediate
+tags: ["order-complete", "supremum", "least-upper-bound", "Dedekind-complete"]
+depends_on:
+  required: ["ordering-definition", "supremum-infimum", "upper-bound-lower-bound"]
+  recommended: ["linear-ordering"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Orderings"
+    pages: "12-18"
+    role_in_book: "Defines an order-complete set as one where every non-empty subset with an upper bound has a supremum. The real numbers are order-complete."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

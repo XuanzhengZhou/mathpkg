@@ -1,0 +1,23 @@
+id: lindelof-theorem
+title_en: "Lindelöf's Theorem"
+title_zh: "Lindelöf 定理"
+type: theorem
+domain: topology
+subdomain: covers-and-compactness
+difficulty: intermediate
+tags: [lindelof, second-countable, countable-subcover]
+depends_on:
+  required: [second-axiom-of-countability, open-cover, subcover]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Bases and Subbases"
+    pages: ""
+    role_in_book: "Theorem 15 — Lindelöf's theorem on countable subcovers"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

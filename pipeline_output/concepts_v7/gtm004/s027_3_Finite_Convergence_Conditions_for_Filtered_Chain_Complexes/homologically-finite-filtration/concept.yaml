@@ -1,0 +1,23 @@
+id: homologically-finite-filtration
+title_en: "Homologically Finite Filtration of a Chain Complex"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [filtration, chain-complex, homologically-finite, spectral-sequence, convergence]
+depends_on:
+  required: [finite-filtration-chain-complex]
+  recommended: [filtered-chain-complex, homology]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "3"
+    section: "3. Finite Convergence Conditions for Filtered Chain Complexes"
+    pages: ""
+    role_in_book: "Defines homologically finite filtration; the key hypothesis of Theorem 3.5 guaranteeing finite convergence of the spectral sequence to the associated graded of H(C)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

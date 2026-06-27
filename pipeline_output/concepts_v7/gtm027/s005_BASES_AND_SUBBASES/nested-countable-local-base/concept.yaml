@@ -1,0 +1,23 @@
+id: nested-countable-local-base
+title_en: "Nested Countable Local Base"
+title_zh: "嵌套可数局部基"
+type: proposition
+domain: topology
+subdomain: countability-axioms
+difficulty: basic
+tags: [local-base, nested, first-countable, decreasing]
+depends_on:
+  required: [local-base, first-axiom-of-countability]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Bases and Subbases"
+    pages: ""
+    role_in_book: "Proposition on constructing nested decreasing local bases"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

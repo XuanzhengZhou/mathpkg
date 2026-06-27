@@ -1,0 +1,17 @@
+id: pid-submodule-of-projective-is-projective
+title_en: "Over a PID, Every Submodule of a Projective Module is Projective"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [principal-ideal-domain, projective-module, submodule, hereditary-ring]
+depends_on:
+  required: [pid-submodule-of-free-is-free, pid-projective-implies-free]
+  recommended: [projective-module]
+  suggested: []
+source_books:
+  - {book_id: "gtm004", author: "P.J. Hilton and U. Stammbach", title: "A Course in Homological Algebra", chapter: "I. Modules", section: "5. Modules over a Principal Ideal Domain", pages: "", role_in_book: "Direct corollary of Theorem 5.1; establishes that PIDs are hereditary rings."}
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

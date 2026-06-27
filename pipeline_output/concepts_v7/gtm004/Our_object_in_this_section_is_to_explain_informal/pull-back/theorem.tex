@@ -1,0 +1,6 @@
+Given $\varphi: A \to X$ and $\psi: B \to X$ in a category $\mathfrak{C}$, a \text{pull-back} of $(\varphi, \psi)$ is a pair of morphisms $\alpha: Y \to A$, $\beta: Y \to B$ such that:
+\begin{enumerate}
+\item[(i)] $\varphi \alpha = \psi \beta$;
+\item[(ii)] (Universal property) given any $\gamma: Z \to A$, $\delta: Z \to B$ with $\varphi \gamma = \psi \delta$, there exists a unique $\zeta: Z \to Y$ such that $\gamma = \alpha \zeta$ and $\delta = \beta \zeta$.
+\end{enumerate}
+If a pull-back exists, it is essentially unique: if $(\alpha', \beta')$ is another pull-back, there exists a unique equivalence $\omega: Y \to Y'$ with $\alpha' \omega = \alpha$, $\beta' \omega = \beta$.

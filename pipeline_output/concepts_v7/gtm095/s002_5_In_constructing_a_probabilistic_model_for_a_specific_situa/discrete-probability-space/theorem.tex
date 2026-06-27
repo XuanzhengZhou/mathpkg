@@ -1,0 +1,14 @@
+A \text{discrete probability space} is a triple $(\Omega, \mathcal{A}, \text{P})$ where:
+\begin{itemize}
+\item $\Omega = \{\omega_1, \ldots, \omega_N\}$ is a finite sample space,
+\item $\mathcal{A}$ is an algebra of subsets of $\Omega$,
+\item $\text{P}$ is a probability measure on $\mathcal{A}$, i.e., a set function $\text{P}: \mathcal{A} \to [0,1]$ satisfying:
+  \begin{enumerate}
+  \item $\text{P}(\Omega) = 1$,
+  \item $\text{P}(A \cup B) = \text{P}(A) + \text{P}(B) - \text{P}(A \cap B)$ for all $A, B \in \mathcal{A}$,
+  \item If $A \cap B = \varnothing$, then $\text{P}(A + B) = \text{P}(A) + \text{P}(B)$,
+  \item $\text{P}(\overline{A}) = 1 - \text{P}(A)$,
+  \item $\text{P}(\varnothing) = 0$.
+  \end{enumerate}
+\end{itemize}
+Equivalently, specifying nonnegative numbers $p_1, \ldots, p_N$ with $p_1 + \cdots + p_N = 1$ assigned to outcomes $\omega_1, \ldots, \omega_N$ determines a probability measure via $\text{P}(\{\omega_i\}) = p_i$.

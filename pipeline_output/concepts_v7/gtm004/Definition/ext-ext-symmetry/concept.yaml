@@ -1,0 +1,23 @@
+id: ext-ext-symmetry
+title_en: "Symmetry and Adjunction Isomorphisms for Ext and Hom"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [ext, hom, symmetry, adjunction, abelian-groups]
+depends_on:
+  required: [ext-functor, hom-functor, ext-associativity]
+  recommended: [tor-functor]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "V"
+    section: "4"
+    pages: ""
+    role_in_book: "Corollary 4.6: natural symmetry of iterated Ext and unnatural Hom-Ext adjunction"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

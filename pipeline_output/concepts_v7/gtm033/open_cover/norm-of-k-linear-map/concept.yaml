@@ -1,0 +1,23 @@
+id: norm-of-k-linear-map
+title_en: "Norm of a k-Linear Map"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: multilinear-algebra
+difficulty: basic
+tags: [multilinear-map, operator-norm, unit-sphere, k-linear-form, tensor-norm]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2"
+    section: "Approximations"
+    pages: ""
+    role_in_book: "Defines the operator norm of a k-linear map, needed to define the norms of higher-order derivatives in the C^r norm"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

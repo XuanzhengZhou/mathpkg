@@ -1,0 +1,23 @@
+id: riesz-representation
+title_en: "Riesz Representation Theorem"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [riesz-representation, hilbert-space, dual-space, self-dual, continuous-linear-form]
+depends_on:
+  required: [riesz-map-isometry, orthogonal-decomposition, linear-form-from-inner-product]
+  recommended: [hilbert-space-definition, dual-space-definition, kernel-of-linear-form]
+  suggested: [adjoint-operator, lax-milgram]
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "42. Duality in Hilbert spaces"
+    section: "42.12"
+    pages: ""
+    role_in_book: "Central theorem establishing self-duality of Hilbert spaces: every continuous linear form is an inner product with a unique vector"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

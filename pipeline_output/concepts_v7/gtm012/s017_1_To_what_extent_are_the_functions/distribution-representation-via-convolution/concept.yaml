@@ -1,0 +1,23 @@
+id: distribution-representation-via-convolution
+title_en: "Representation of a Distribution Induced by Convolution"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: intermediate
+tags: [distributions, convolution, representation, duality]
+depends_on:
+  required: [convolution-distribution-smooth-function, periodic-distributions]
+  recommended: [convolution-riemann-sum-convergence]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "7"
+    section: "7. Convolution of distributions"
+    pages: ""
+    role_in_book: "Relates the distribution F_f induced by f = F*u to the action of F on the convolution of the reflected function"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

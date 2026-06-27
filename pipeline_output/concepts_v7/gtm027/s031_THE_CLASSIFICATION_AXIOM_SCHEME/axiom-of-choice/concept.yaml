@@ -1,0 +1,13 @@
+id: axiom-of-choice
+title_en: "Axiom of Choice"
+title_zh: ""
+type: axiom
+domain: foundations
+subdomain: set-theory
+difficulty: intermediate
+tags: [axiom, choice, choice-function, zermelo, set-theory]
+depends_on: {required: [choice-function, function-definition], recommended: [], suggested: [well-ordering-theorem, hausdorff-maximal-principle]}
+source_books: [{book_id: "gtm027", author: "John L. Kelley", title: "General Topology", chapter: "Appendix", section: "Choice", pages: "273", role_in_book: "Axiom IX; the strong form of Zermelo's postulate"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

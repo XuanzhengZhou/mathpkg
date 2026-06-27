@@ -1,0 +1,23 @@
+id: compact-hausdorff-topology-maximality
+title_en: "Maximality of Compact Hausdorff Topologies among Function Space Topologies"
+title_zh: "紧致 Hausdorff 拓扑在函数空间拓扑中的极大性"
+type: proposition
+domain: topology
+subdomain: function-spaces
+difficulty: intermediate
+tags: [compactness, hausdorff, maximal-topology, homeomorphism, function-spaces]
+depends_on:
+  required: [compact-space, hausdorff-space, continuous-bijection, homeomorphism]
+  recommended: [pointwise-convergence-topology]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Pointwise Convergence"
+    pages: ""
+    role_in_book: "Shows that compact Hausdorff topologies are maximal among Hausdorff topologies; used to relate pointwise convergence topology to finer topologies"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

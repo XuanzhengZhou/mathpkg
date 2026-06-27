@@ -1,0 +1,23 @@
+id: double-orthogonal-complement
+title_en: "Double Orthogonal Complement of a Closed Subspace"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [orthogonal-complement, double-orthogonal, closed-subspace, hilbert-space, involution]
+depends_on:
+  required: [orthogonal-decomposition, orthogonal-complement-definition]
+  recommended: [closed-linear-subspace]
+  suggested: [bipolar-theorem]
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "42. Duality in Hilbert spaces"
+    section: "42.9"
+    pages: ""
+    role_in_book: "Establishes that the orthogonal complement operation is an involution on closed subspaces of a Hilbert space"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

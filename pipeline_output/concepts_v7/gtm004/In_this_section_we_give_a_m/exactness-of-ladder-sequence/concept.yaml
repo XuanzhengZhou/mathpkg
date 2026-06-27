@@ -1,0 +1,23 @@
+id: exactness-of-ladder-sequence
+title_en: "Exactness of the Ladder Sequence"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [exact-couple, ladder, spectral-sequence, exact-sequence]
+depends_on:
+  required: [q-processes-for-exact-couples, ladder-of-exact-couple]
+  recommended: [exact-sequence, exact-couple]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "4. The Ladder of an Exact Couple"
+    pages: ""
+    role_in_book: "Theorem 4.5; proves the sequence (4.17) is exact, establishing the ladder as a grid of exact sequences"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

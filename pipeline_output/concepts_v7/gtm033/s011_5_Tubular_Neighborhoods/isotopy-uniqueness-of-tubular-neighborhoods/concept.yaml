@@ -1,0 +1,23 @@
+id: isotopy-uniqueness-of-tubular-neighborhoods
+title_en: "Isotopy Uniqueness of Tubular Neighborhoods"
+title_zh: "管状邻域的合痕唯一性"
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [tubular-neighborhood, isotopy, uniqueness, canonical-homotopy, fibre-derivative]
+depends_on:
+  required: [isotopy-of-tubular-neighborhoods, tubular-neighborhood, existence-of-tubular-neighborhoods]
+  recommended: [fibre-derivative, vector-bundle-isomorphism]
+  suggested: []
+source_books:
+  - book_id: gtm033
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "5. Tubular Neighborhoods"
+    pages: ""
+    role_in_book: "Theorem 5.3 - Any two tubular neighborhoods of a closed submanifold are isotopic"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

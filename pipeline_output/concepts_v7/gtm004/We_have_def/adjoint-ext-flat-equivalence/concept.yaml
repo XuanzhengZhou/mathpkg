@@ -1,0 +1,23 @@
+id: adjoint-ext-flat-equivalence
+title_en: "Natural Equivalence of Ext under Adjoint Functors for Flat Modules"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [Ext-functor, adjoint-functor, flat-module, change-of-rings, natural-equivalence]
+depends_on:
+  required: [ext-functor, adjoint-functor, flat-module, change-of-rings]
+  recommended: [adjoint-theorem-for-derived-functors]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "12"
+    pages: ""
+    role_in_book: "Adjoint natural equivalence for Ext when the coefficient module is flat — Proposition 12.2"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

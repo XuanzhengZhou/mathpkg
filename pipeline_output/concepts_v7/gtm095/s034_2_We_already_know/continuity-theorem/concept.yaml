@@ -1,0 +1,23 @@
+id: continuity-theorem
+title_en: "Continuity Theorem for Characteristic Functions"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: weak-convergence
+difficulty: advanced
+tags: ["characteristic-function", "weak-convergence", "levy-continuity", "distribution-function"]
+depends_on:
+  required: []
+  recommended: ["weak-convergence", "characteristic-function", "distribution-function"]
+  suggested: ["tightness", "prohorov-theorem"]
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "2"
+    pages: ""
+    role_in_book: "Main theorem of §2, providing the basic method for proving weak convergence theorems on the real line"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: gr-h-for-filtered-chain-complex
+title_en: "Characterization of Gr∘H for Filtered Chain Complexes"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [filtered-chain-complexes, spectral-sequences, graded-homology, rees-systems]
+depends_on:
+  required: [filtered-chain-complex, rees-system]
+  recommended: [graded-functor]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "6. Rees Systems and Filtered Complexes"
+    pages: ""
+    role_in_book: "Proposition 6.6: expresses Gr∘H(C) in terms of data from the associated Rees system"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

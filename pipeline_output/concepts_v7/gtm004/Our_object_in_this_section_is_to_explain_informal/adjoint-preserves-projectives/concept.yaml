@@ -1,0 +1,13 @@
+id: adjoint-preserves-projectives
+title_en: "Left Adjoints Preserve Projectives"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [adjoint-functor, projective-object, epimorphism-preserving]
+depends_on: {required: [adjoint-functors, projective-object, epimorphism-in-a-category], recommended: [], suggested: []}
+source_books: [{book_id: "gtm004", author: "Peter J. Hilton, Urs Stammbach", title: "A Course in Homological Algebra (2ed, 1997)", chapter: "II. Categories and Functors", section: "10. Projective, Injective, and Free Objects", pages: "", role_in_book: "Proposition 10.2: If $F \dashv G$ and $G$ preserves epimorphisms, then $F$ maps projectives to projectives"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

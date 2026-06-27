@@ -1,0 +1,23 @@
+id: complete-quotient-theorem
+title_en: "Quotient of a metrizable complete group by a closed normal subgroup is complete"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-groups
+difficulty: advanced
+tags: [completeness, quotient-group, metrizable-group, closed-subgroup]
+depends_on:
+  required: [left-invariant-metric-uniformity, metric-vs-uniform-completeness, quotient-metric-D]
+  recommended: [complete-metric-space, quotient-group]
+  suggested: [Banach-space, Frechet-space]
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "9"
+    section: "Completeness of quotient groups"
+    pages: ""
+    role_in_book: "Key theorem ensuring that quotients of complete metrizable groups are complete; foundational for Banach space theory."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

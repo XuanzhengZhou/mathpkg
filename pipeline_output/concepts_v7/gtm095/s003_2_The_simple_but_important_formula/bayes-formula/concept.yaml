@@ -1,0 +1,23 @@
+id: bayes-formula
+title_en: "Bayes' Formula"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: foundations
+difficulty: basic
+tags: [bayes, conditional-probability, posterior, prior, inverse-probability]
+depends_on:
+  required: [conditional-probability, total-probability-formula]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "3"
+    pages: ""
+    role_in_book: "Bayes' formula for computing posterior probabilities from prior probabilities and likelihoods"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

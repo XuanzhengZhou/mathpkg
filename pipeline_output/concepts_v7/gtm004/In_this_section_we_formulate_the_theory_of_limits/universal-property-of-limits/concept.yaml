@@ -1,0 +1,30 @@
+id: universal-property-of-limits
+title_en: Universal Property of Limits
+title_zh: 极限的万有性质
+type: proposition
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags:
+- limit
+- universal-property
+- cone
+- adjoint-functor
+depends_on:
+  required:
+  - limit-of-a-functor
+  recommended:
+  - diagonal-functor
+  - adjoint-functor
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: VIII
+  section: '5. Limits'
+  pages: ''
+  role_in_book: States the universal property of limits, characterizing $\varprojlim F$ by a unique mediating morphism
+content_hash: ''
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

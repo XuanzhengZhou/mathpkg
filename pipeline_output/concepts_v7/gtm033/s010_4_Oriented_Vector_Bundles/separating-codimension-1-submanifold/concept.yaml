@@ -1,0 +1,23 @@
+id: separating-codimension-1-submanifold
+title_en: "Separating Codimension-1 Submanifold"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [separating, submanifold, codimension-1, normal-bundle, boundary]
+depends_on:
+  required: [triviality-of-normal-bundle-of-boundary]
+  recommended: [submanifold, connected-manifold, normal-bundle]
+  suggested: [invariance-of-domain]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "4. Oriented Vector Bundles"
+    pages: ""
+    role_in_book: "Lemma 4.4; structural result about separating hypersurfaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

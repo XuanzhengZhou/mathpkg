@@ -1,0 +1,23 @@
+id: tubular-neighborhood
+title_en: "Tubular Neighborhood"
+title_zh: "管状邻域"
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [tubular-neighborhood, vector-bundle, submanifold, embedding]
+depends_on:
+  required: [vector-bundle, submanifold, embedding, zero-section]
+  recommended: [neat-submanifold, retraction]
+  suggested: []
+source_books:
+  - book_id: gtm033
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "5. Tubular Neighborhoods"
+    pages: ""
+    role_in_book: "Core definition of tubular neighborhood of a submanifold"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

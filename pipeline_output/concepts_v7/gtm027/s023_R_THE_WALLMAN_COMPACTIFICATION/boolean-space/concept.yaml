@@ -1,0 +1,23 @@
+id: boolean-space
+title_en: "Boolean Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: stone-duality
+difficulty: advanced
+tags: ["Boolean-space", "Stone-space", "totally-disconnected", "compact", "Boolean-algebra"]
+depends_on:
+  required: ["compact-space", "hausdorff-space", "totally-disconnected", "clopen-set"]
+  recommended: ["stone-representation-theorem"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "The Wallman Compactification"
+    pages: "165-168"
+    role_in_book: "Defines a Boolean space as a compact Hausdorff space with a base of clopen sets (equivalently, a totally disconnected compact Hausdorff space). Central to Stone duality."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

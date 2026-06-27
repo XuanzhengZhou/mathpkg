@@ -1,0 +1,23 @@
+id: smoothing-homeomorphism
+title_en: "Smoothing Homeomorphisms Between Manifolds Split Along a Submanifold"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [smoothing, homeomorphism, diffeomorphism, collar, tubular-neighborhood]
+depends_on:
+  required: [ambient-tubular-neighborhood, collar-neighborhood]
+  recommended: [diffeomorphism]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "8"
+    section: "1. Isotopy"
+    pages: ""
+    role_in_book: "Converts a piecewise-diffeomorphic homeomorphism into a global diffeomorphism"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

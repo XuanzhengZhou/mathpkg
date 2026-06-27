@@ -1,0 +1,23 @@
+id: jet-transversality-theorem
+title_en: "Jet Transversality Theorem (Theorem 2.8)"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [jet-transversality, prolongation, submanifold, jet-space, thom-transversality]
+depends_on:
+  required: [definition-jet-space-finite-order, definition-transversality, parametric-transversality-theorem]
+  recommended: [jet-prolongation, submanifold-of-jets, submersion]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "3"
+    section: "2. Transversality"
+    pages: ""
+    role_in_book: "Main jet transversality result: approximating maps by those whose r-jet prolongation is transverse to a given submanifold of jet space"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

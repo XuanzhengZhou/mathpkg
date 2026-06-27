@@ -1,0 +1,23 @@
+id: ext-projective-natural-equivalence
+title_en: "Natural Equivalence of Ext Defined via Different Projective Presentations"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [ext-functor, projective-presentation, natural-equivalence, well-definedness]
+depends_on:
+  required: [pi-star-independence]
+  recommended: [ext-via-projective-presentation, projective-presentation]
+  suggested: [natural-transformation]
+source_books:
+  - book_id: "gtm004"
+    author: "Hilton, P. J.; Stammbach, U."
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "2"
+    pages: "101"
+    role_in_book: "Corollary 2.2 — Ext groups defined via different projective presentations are naturally equivalent, so the superscript epsilon may be dropped"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

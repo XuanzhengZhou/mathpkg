@@ -1,0 +1,9 @@
+For each $F \in L^2$ there exists a unique two-sided sequence $(a_n)_{n=-\infty}^{\infty} \subset \mathbb{C}$ such that
+$$\sum_{n=-N}^{N} a_n e_n \to F \quad \text{in } L^2 \text{ as } N \to \infty.$$
+The coefficients are given by
+$$a_n = F(e_n),$$
+and they satisfy Parseval's identity
+$$\sum_{n=-\infty}^{\infty} |a_n|^2 = \|F\|^2.$$
+More generally, if $F = \sum_{n=-\infty}^{\infty} a_n \exp(inx)$ and $G = \sum_{n=-\infty}^{\infty} b_n \exp(inx)$ in the above sense, then
+$$(F, G) = \sum_{n=-\infty}^{\infty} a_n b_n^* = \sum_{n=-\infty}^{\infty} F(e_n) G^*(e_n).$$
+Conversely, if $(a_n)_{n=-\infty}^{\infty} \subset \mathbb{C}$ satisfies $\sum_{n=-\infty}^{\infty} |a_n|^2 < \infty$, then there exists a unique $F \in L^2$ such that the Fourier expansion holds with coefficients $a_n$.

@@ -1,0 +1,31 @@
+$$P\left\{\sup_{k \geq n} |\xi_k - \xi| \geq \varepsilon\right\} = P\left\{\bigcup_{k \geq n} (|\xi_k - \xi| \geq \varepsilon)\right\} \leq \sum_{k \geq n} P\{|\xi_k - \xi| \geq \varepsilon\},$$
+
+a sufficient condition for $\xi_n \to \xi$ is that
+
+$$\sum_{k=1}^{\infty} P\{|\xi_k - \xi| \geq \varepsilon\} < \infty$$
+
+is satisfied for every $\varepsilon > 0$.
+
+It is appropriate to observe at this point that the reasoning used in obtaining (8) lets us establish the following simple but important result which is essential in studying properties that are satisfied with probability 1.
+
+Let $A_1, A_2, \ldots$ be a sequence of events in $\mathcal{F}$. Let (see Table 2.1 in Sect. 1) $\{A_n \text{ i.o.}\}$ denote the event $\limsup A_n$ that consists in the realization of infinitely many of $A_1, A_2, \ldots$.
+
+Borel–Cantelli
+
+and it is then easy to deduce that
+
+$$P \left( \bigcap_{k=n}^{\infty} \bar{A}_k \right) = \prod_{k=n}^{\infty} P(\bar{A}_k).$$
+
+(9)
+
+Since $\log(1-x) \leq -x$, $0 \leq x < 1$,
+
+$$\log \prod_{k=n}^{\infty} [1 - P(A_k)] = \sum_{k=n}^{\infty} \log[1 - P(A_k)] \leq -\sum_{k=n}^{\infty} P(A_k) = -\infty.$$
+
+Consequently
+
+$$P \left( \bigcap_{k=n}^{\infty} \bar{A}_k \right) = 0$$
+
+for all $n$, and therefore $P(A_n \text{ i.o.}) = 1$.
+
+This completes the proof of the lemma.

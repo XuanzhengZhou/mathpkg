@@ -1,0 +1,23 @@
+id: triangular-array-limit-characterization
+title_en: "Limit of Triangular Array Sums is Infinitely Divisible"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: limit-theorems
+difficulty: intermediate
+tags: [triangular-array, infinitely-divisible, limit-distribution, independent-identically-distributed, levy-khintchine]
+depends_on:
+  required: [infinitely-divisible-distribution]
+  recommended: [triangular-array-scheme, convergence-in-distribution, convolution-of-distributions]
+  suggested: [poisson-theorem, central-limit-theorem, levy-khintchine-representation]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "1"
+    pages: ""
+    role_in_book: "Characterizes the class of all possible limit distributions for sums of independent identically distributed random variables in a triangular array as precisely the infinitely divisible distributions."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

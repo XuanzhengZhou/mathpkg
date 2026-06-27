@@ -1,0 +1,43 @@
+For each power $p^k$ of the prime $p$,
+
+$$F(p^k) = \sum_{i=0}^{k} \left( \frac{d}{p^i} \right) = 1 + \sum_{i=1}^{k} \left( \frac{d}{p} \right)^i$$
+
+(144)
+
+Case (a): $(\frac{d}{p}) = -1$. If $N(\mathfrak{a}) = p^k$, then we must have $\mathfrak{a} = p^u$ with positive rational $u$; hence $2u = k$, i.e.
+
+$$F(p^k) = \begin{cases} 1, & \text{if } k \text{ even} \\ 0, & \text{if } k \text{ odd} \end{cases}$$
+
+in agreement with Equation (144).
+
+Case (b): $(\frac{d}{p}) = 0$. $p$ is the square of a prime ideal $\mathfrak{p}$, and it follows from $N(\mathfrak{a}) = p^k$ that $\mathfrak{a} = \mathfrak{p}^u$, so $u = k$ and $F(p^k) = 1$.
+
+Case (c): $(\frac{d}{
+
+then
+
+$$F(n) = F(p_1^{k_1}) \cdot F(p_2^{k_2}) \cdots F(p_r^{k_r}) = \prod_{i=1}^{r} \sum_{c_i=0}^{k_i} \left( \frac{d_i}{p_i^{c_i}} \right)$$
+
+$$F(n) = \sum_{\substack{c_1=0, \ldots, k_1 \\ c_2=0, \ldots, k_2 \\ \vdots}} \left( \frac{d}{p_1^{c_1} p_2^{c_2} \cdots p_r^{c_r}} \right) = \sum_{m|n} \left( \frac{d}{m} \right).$$
+
+We henceforth set
+
+$$\left( \frac{d}{n} \right) = \chi(n), \quad n > 0$$
+
+in order to thereby emphasize the fact already proved by Theorem 137, that for positive $n$, $\left( \frac{d}{n} \right)$ is a residue character mod $d$.
+
+We now substitute the expression found for $F(n)$ into Formula (88) of §41 and we obtain
+
+$$h \cdot \chi = \lim_{x \to \infty} \frac{\sum_{n \leq x} F(n)}{x} = \lim_{x \to \infty} \frac{1}{x} \sum_{n \leq x} \sum_{m|n} \chi(m).$$
+
+In the finite double sum we set (with $m'$ integral)
+
+$$n = m \cdot m', \quad \sum_{n \leq x} F(n) = \sum_{\substack{m,m' > 0 \\ m \cdot m' \leq x}} \chi(m),$$
+
+where $m, m'$ run through all natural numbers whose product is $\leq x$. Thus $m'$ is to run through those integers with the property
+
+$$1 \leq m' \leq \frac{x}{m},$$
+
+whose number is $[x/m]$, where $[u]$ denotes the largest integer $\leq u$. Consequently we obtain
+
+$$\sum_{1 \leq n \leq x} F(n) =

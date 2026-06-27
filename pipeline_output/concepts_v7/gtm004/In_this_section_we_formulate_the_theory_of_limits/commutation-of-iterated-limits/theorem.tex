@@ -1,0 +1,16 @@
+Let $\mathfrak{C}$ be an arbitrary category and let $I$, $J$ be small index categories. Using the canonical identifications
+$$
+\mathfrak{C}^{I \times J} \cong (\mathfrak{C}^J)^I \cong (\mathfrak{C}^I)^J,
+$$
+let $P : \mathfrak{C} \rightarrow \mathfrak{C}^{I \times J}$, $P_1 : \mathfrak{C} \rightarrow \mathfrak{C}^I$, $P_2 : \mathfrak{C} \rightarrow \mathfrak{C}^J$ be the diagonal functors. Suppose that $P_1$ and $P_2$ have right adjoints $R_1$ and $R_2$, respectively. Then the following diagram commutes:
+$$
+\begin{CD}
+\mathfrak{C}^{I \times J} @>{\cong}>> (\mathfrak{C}^J)^I @>{R_1}>> \mathfrak{C}^J \\
+@A{P}AA @AA{P_2^I}A @AA{P_2}A \\
+\mathfrak{C} @= \mathfrak{C} @= \mathfrak{C}
+\end{CD}
+$$
+Consequently, for any functor $F : I \times J \rightarrow \mathfrak{C}$, the iterated limits commute:
+$$
+\varprojlim_{I \times J} F \cong \varprojlim_{i \in I} \varprojlim_{j \in J} F(i,j) \cong \varprojlim_{j \in J} \varprojlim_{i \in I} F(i,j).
+$$

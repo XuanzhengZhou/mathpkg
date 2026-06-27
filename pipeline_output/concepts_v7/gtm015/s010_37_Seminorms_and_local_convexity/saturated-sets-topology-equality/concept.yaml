@@ -1,0 +1,23 @@
+id: saturated-sets-topology-equality
+title_en: "Equality of topologies from saturated seminorm families implies equality of families"
+title_zh: "饱和半范数族生成相同拓扑当且仅当族相等"
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [seminorm, saturation, locally-convex-topology, bijection]
+depends_on:
+  required: [saturation-same-topology, saturation-of-seminorm-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "3"
+    section: "37"
+    pages: ""
+    role_in_book: "technical_corollary"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

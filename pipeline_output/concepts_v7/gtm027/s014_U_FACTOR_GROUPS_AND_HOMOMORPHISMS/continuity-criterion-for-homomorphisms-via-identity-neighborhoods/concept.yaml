@@ -1,0 +1,23 @@
+id: continuity-criterion-for-homomorphisms-via-identity-neighborhoods
+title_en: "Continuity criterion for homomorphisms of topological groups via identity neighborhoods"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: topological-groups
+difficulty: intermediate
+tags: [homomorphism, continuity, topological-group, identity-neighborhood, criterion]
+depends_on:
+  required: []
+  recommended: [topological-group, homomorphism, continuous-map, neighborhood, identity-element]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "3"
+    section: "U Factor Groups and Homomorphisms"
+    pages: ""
+    role_in_book: "Proposition (d): A homomorphism f: G → H is continuous iff the inverse image of every identity neighborhood in H is an identity neighborhood in G"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

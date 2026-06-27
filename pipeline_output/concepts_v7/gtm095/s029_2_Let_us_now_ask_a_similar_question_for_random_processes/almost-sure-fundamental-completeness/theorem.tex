@@ -1,0 +1,7 @@
+If a sequence $(\xi_n)_{n \geq 1}$ of random variables is fundamental with probability 1, then there exists a random variable $\xi$ such that $\xi_n \xrightarrow{\text{a.s.}} \xi$.
+
+Let $\mathcal{N} = \{\omega : (\xi_n(\omega)) \text{ is not fundamental}\}$. Then $P(\mathcal{N}) = 0$, and for $\omega \in \Omega \setminus \mathcal{N}$ the limit $\lim \xi_n(\omega)$ exists. Define
+
+$$\xi(\omega) = \begin{cases} \lim_{n \to \infty} \xi_n(\omega), & \omega \in \Omega \setminus \mathcal{N}, \\ 0, & \omega \in \mathcal{N}. \end{cases}$$
+
+Then $\xi$ is a random variable and $\xi_n \xrightarrow{\text{a.s.}} \xi$.

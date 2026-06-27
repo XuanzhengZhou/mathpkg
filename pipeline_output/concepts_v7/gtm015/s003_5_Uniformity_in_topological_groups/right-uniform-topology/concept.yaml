@@ -1,0 +1,23 @@
+id: right-uniform-topology
+title_en: "Right uniform topology coincides with given topology"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-groups
+difficulty: intermediate
+tags: [uniform-structure, right-uniformity, topology]
+depends_on:
+  required: [right-uniform-structure]
+  recommended: [left-uniform-structure, uniform-topology]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "5"
+    section: "Uniformity in topological groups"
+    pages: ""
+    role_in_book: "States that the uniform topology derived from the right uniformity coincides with the original topology."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

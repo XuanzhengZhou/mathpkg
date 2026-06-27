@@ -1,0 +1,55 @@
+$$P_{2k, 2n} =
+
+Since $\{S_{2k} = 0\} \subseteq \{\sigma_{2n} \leq 2k\}$, we have
+
+$$\{S_{2k} = 0\} = \{S_{2k} = 0\} \cap \{\sigma_{2n} \leq 2k\} = \sum_{1 \leq l \leq k} \{S_{2k} = 0\} \cap \{\sigma_{2n} = 2l\}.$$
+
+Consequently
+
+$$u_{2k} = P(S_{2k} = 0) = \sum_{1 \leq l \leq k} P(S_{2k} = 0, \sigma_{2n} = 2l)$$
+
+$$= \sum_{1 \leq l \leq k} P(S_{2k} = 0 \mid \sigma_{2k} = 2l) P(\sigma_{2n} = 2l).$$
+
+But
+
+$$P(S_{2k} = 0 \mid \sigma_{2n} = 2l) = P(S_{2k} = 0 \mid S_1 \neq 0, \ldots, S_{2l-1} \neq 0, S_{2l} = 0)$$
+
+$$= P(S_{2l} + (\xi_{2l+1} + \cdots + \xi_{2k}) = 0 \mid S_1 \neq 0, \ldots, S_{2l-1} \neq 0, S_{2l} = 0)$$
+
+$$= P(S_{2l} + (\xi_{2l+1} + \cdots + \xi_{2k}) = 0 \mid S_{2l} = 0)$$
+
+$$= P(\xi_{2l+1} + \cdots + \xi_{2k} = 0) = P(S_{2(k-l)} = 0).$$
+
+Therefore
+
+$$u_{2k} = \sum_{1 \leq l \leq k} P\{S_{2(k-l)} = 0\} P\{\sigma_{2n} = 2l\},$$
+
+which proves (13).
+
+We turn now to the
+
+Let us suppose that $P_{2k, 2m} = u_{2k} \cdot u_{2m-2k}$ holds for $m = 1, \ldots, n-1$. Then we find from (13) and (14) that
+
+$$P_{2k, 2n} = \frac{1}{2} u_{2n-2k} \sum_{r=1}^{k} f_{2r} u_{2k-2r} + \frac{1}{2} u_{2k} \sum_{r=1}^{k} f_{2r} u_{2n-2r-2k}$$
+
+$$= \frac{1}{2} u_{2n-2k} u_{2k} + \frac{1}{2} u_{2k} u_{2n-2k} = u_{2k} u_{2n-2k}.$$
+
+This completes the proof of the lemma.
+
+Now let $\gamma(2n)$ be the number of time units that the particle spends on the positive axis in the interval $[0, 2n]$. Then, when $x < 1$,
+
+$$P\left\{\frac{1}{2} < \frac{\gamma(2n)}{2n} \leq x\right\} = \sum_{\{k: 1/2 < (2k/2n) \leq x\}} P_{2k, 2n}.$$
+
+Since
+
+$$u_{2k} \sim \frac{1}{\sqrt{\pi k}}$$
+
+as $k \to \infty$, we have
+
+$$P_{2k, 2n} = u_{2k} u_{2(n-k)} \sim \frac{1}{\pi \sqrt{k(n-k)}}$$
+
+as $k \to \infty$ and $n-k \to \infty$.
+
+Therefore
+
+$$\sum_{\{k: 1/2 < (2k/2n) \leq x\}} P_{2k, 2n} - \sum_{\{k: 1/2 < (2k/2n) \leq x\}} \frac{1}{\pi n} \left[ \frac{k}{n} \left(1 - \frac{k}{n}\right) \

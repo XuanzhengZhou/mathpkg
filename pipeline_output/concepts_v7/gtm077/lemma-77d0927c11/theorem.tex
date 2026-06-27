@@ -1,0 +1,90 @@
+If, in the above notation
+
+$$f(x) = \delta_m(x - \rho_1)(x - \rho_2) \cdots (x - \rho_m),$$
+
+then $\delta_m\rho_1\rho_2 \cdots \rho_k$ is an integer for each $k$ with $1 \leq k \leq m$.
+
+This follows by repeated application of Lemma (a) from which we obtain
+
+$$\frac{f(x)}{(x - \rho_{k+1})(x - \rho_{k+2}) \cdots (x - \rho_m)} = \delta_m(x - \rho_1) \cdots (x - \rho_k)$$
+
+as an integral polynomial whose constant term is $\pm \delta_m\rho_1 \cdots \rho_k$.
+
+We now arrive at the proof of Theorem 67 as follows: let the decomposition into linear factors be
+
+$$A(x) = \alpha_p(x - \rho_1)(x - \rho_2) \cdots (x - \rho_p)$$
+$$B(x) = \beta_r(x - \sigma_1)(x - \sigma_2) \cdots (x - \sigma_r).$$
+
+By hypothesis
+
+$$\frac{C(x)}{\delta} = \frac{\alpha_\rho \beta_r}{\delta}(x - \rho_1) \cdots (x - \sigma_r)$$
+
+has integral coefficients, hence by Lemma (b) each product
+
+$$\frac{\alpha_\rho \beta_r}{\delta} \cdot \rho_{n_1} \rho_{n_2} \cdots \rho_{n_i} \sigma_{m_1} \cdots \sigma_{m_k}$$
+
+(40)
+
+is an integer, where $n_1, \ldots, n_i$ and likewise $m_1, \ldots, m_k$ are any distinct indices ($i \leq p, k \leq r$). However, since $\alpha_i/\alpha_p$ and $\beta_k/\beta_r$ are elementary symmetric functions of the $\rho$ and of the $\sigma$, $\alpha_i\beta_k/\delta$ is a sum of terms of the form (40), and consequently an integer, as was to be proved
+
+with the $\beta_i$ integers in $K$. If we denote the GCD of the rational integers $c_p$ by $N$, so that $f(x)/N$ is a primitive polynomial, and set
+
+$$b = (\beta_1, \ldots, \beta_m),$$
+
+then we assert that the equation
+
+$$ab = (N)$$
+
+is true. Now $ab = (\ldots, \alpha_i \beta_k, \ldots)$. By Theorem 67, $N$ divides all $\alpha_i \beta_k$, since it divides each coefficient of $g(x)h(x)$. Hence
+
+$$\alpha_i \beta_k = \lambda_{ik} N$$
+
+where $\lambda_{ik}$ is an integer, and thus all $\alpha_i \beta_k$ and consequently all numbers of $ab$ belong to $(N)$. Secondly, however, $N$ is the GCD of all the coefficients $c_p$ of $h(x)g(x)$, and hence there are rational integers $x_p$, such that
+
+$$N = c_1 x_1 + c_2 x_2 + \cdots.$$
+
+Each $c$ is a sum of products $\alpha_i \beta_k$; consequently $N$ is representable in the form
+
+$$N = \sum_{i,k} u_{ik} \alpha_i \beta_k$$
+
+with $\mu_{ik}$ integers (actually rational integers). Thus $N$ and all numbers of $(N)$ belong to $ab$, that is, $(N) = ab$.
+
+By reason of the preceding theorem we see the uniqueness of division of ideals:
+
+**Theorem 68.** If $ab = ac$, then if $a \neq 0$, $b = c$.
+
+To see this we determine an ideal $m$ such that $am = (\delta)$ is a principal ideal. Then
+
+$$amb = amc, \quad (\alpha)b = (\alpha)c.$$
+
+The latter equation asserts that $\alpha$ times every number from $b$ is of the form $\alpha$ times a number from $c$, that is, every number of $b$ belongs to $c$, and likewise the converse is true; thus $b = c$.
+
+And now we obtain a new definition of divis
+
+Conversely if every number in $a$ is also a number in $c$, then for all integers $\lambda_{ik}$ there exist integers $\mu_{pk}$ for which
+
+$$\sum_i \lambda_{ik} \alpha_i = \sum_p \mu_{pk} \gamma_p;$$
+
+then for each $d = (\delta_1, \ldots, \delta_s)$
+
+$$\sum_k \sum_i \lambda_{ik} \alpha_i \delta_k = \sum_k \sum_p \mu_{pk} \gamma_p \delta_k,$$
+
+that is, each number in $a d$ belongs to $c d$. Now let us choose $d$ so that $c d = (\delta)$ is a principal ideal $(\delta \neq 0)$. If $a d = (\rho_1, \rho_2, \ldots)$, then each $\rho_i$ is a number from $(\delta)$; thus it is of the form $\lambda_i \delta$ with integral $\lambda_i$ and hence
+
+$$(\rho_1, \rho_2, \ldots) = (\delta)(\lambda_1, \lambda_2, \ldots),$$
+
+$$a d = c d \cdot (\lambda_1, \lambda_2, \ldots),$$
+
+$$a = c \cdot (\lambda_1, \lambda_2, \ldots),$$
+
+i.e., $c | a$.
+
+As an immediate consequence of this theorem we emphasize:
+
+Let $a$ be an ideal which is not $= (0)$.
+
+The integer $\alpha$ occurs in $a$ if and only if $a | (\alpha)$. If $a | (\alpha)$ and $a | (\beta)$, then also $a | (\lambda \alpha + \mu \beta)$ for all integers $\lambda, \mu$.
+
+It follows from $a b = (1)$ that $a = (1)$ and $b = (1)$.
+
+If each of two ideals is a divisor of the other, then they are equal.

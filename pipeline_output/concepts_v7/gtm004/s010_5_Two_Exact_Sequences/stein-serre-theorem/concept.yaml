@@ -1,0 +1,23 @@
+id: stein-serre-theorem
+title_en: "Stein-Serre Theorem: Ext Vanishing Implies Free for Countable Rank (Theorem 6.1)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [ext-functor, free-abelian-group, countable-rank, whitehead-problem, stein-serre]
+depends_on:
+  required: [projective-iff-ext-vanishes]
+  recommended: [ext-group, free-module, abelian-group, rank-of-abelian-group]
+  suggested: [countable-rank-free-subgroups]
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "6. A Theorem of Stein-Serre"
+    pages: ""
+    role_in_book: "Deep structural result: for countable rank abelian groups, Ext(A, Z)=0 characterizes freeness"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

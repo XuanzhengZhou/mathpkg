@@ -1,0 +1,23 @@
+id: pullback-exactness-characterization
+title_en: "Lemma 1.1: Pull-back Exactness Characterization"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [pullback, exact-sequence, kernel, universal-property]
+depends_on:
+  required: [pullback, kernel, exact-sequence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III. Extensions of Modules"
+    section: "1. Extensions"
+    pages: ""
+    role_in_book: "Characterises pullback squares in terms of exactness, a key technical tool for constructing induced extension maps"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

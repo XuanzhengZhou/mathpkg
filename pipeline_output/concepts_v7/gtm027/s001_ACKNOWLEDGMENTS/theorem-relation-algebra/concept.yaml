@@ -1,0 +1,23 @@
+id: theorem-relation-algebra
+title_en: "Theorem 5: Algebra of Relations"
+title_zh: "定理5：关系代数"
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [relation, composition, inverse, image]
+depends_on:
+  required: [relation-definition, composition-of-relations, inverse-relation, image-of-set-under-relation]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Relations"
+    pages: "8"
+    role_in_book: "Fundamental algebraic identities for relations"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

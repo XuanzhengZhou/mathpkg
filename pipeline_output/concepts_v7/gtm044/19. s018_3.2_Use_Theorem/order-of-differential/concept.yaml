@@ -1,0 +1,23 @@
+id: order-of-differential
+title_en: "Order of a Differential at a Point"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [differential, order, uniformizing-variable, algebraic-curve, holomorphic-differential]
+depends_on:
+  required: [differentials-of-a-field-extension]
+  recommended: [order-function, uniformizing-variable, local-ring]
+  suggested: [divisor-of-a-differential]
+source_books:
+  - book_id: "gtm044"
+    author: "Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "V"
+    section: "6"
+    pages: ""
+    role_in_book: "Defines the order of a differential at a point, enabling the definition of the divisor of a differential"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

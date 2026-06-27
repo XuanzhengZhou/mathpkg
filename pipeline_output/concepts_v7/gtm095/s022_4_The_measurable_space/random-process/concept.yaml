@@ -1,0 +1,23 @@
+id: random-process
+title_en: "Random Process (Stochastic Process)"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: random-processes
+difficulty: basic
+tags: [random-process, stochastic-process, time-domain, random-function, index-set]
+depends_on:
+  required: [random-variable-measurable-function, n-dimensional-random-vector]
+  recommended: [kolmogorovs-extension-theorem-r-t]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "5"
+    section: "1"
+    pages: ""
+    role_in_book: "fundamental definition of stochastic processes"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

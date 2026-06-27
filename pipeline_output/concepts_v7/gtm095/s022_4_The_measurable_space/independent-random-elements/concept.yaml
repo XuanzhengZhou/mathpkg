@@ -1,0 +1,23 @@
+id: independent-random-elements
+title_en: "Independent Random Elements (Mutual Independence)"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: independence
+difficulty: intermediate
+tags: [independence, random-elements, mutual-independence, product-measure, factorization]
+depends_on:
+  required: [random-element, independence-of-events, product-measure]
+  recommended: [random-variable-measurable-function]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "5"
+    section: "2"
+    pages: ""
+    role_in_book: "general definition of independence for arbitrary random elements"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

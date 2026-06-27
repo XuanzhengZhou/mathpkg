@@ -1,0 +1,23 @@
+id: closed-relation-ball-lemma
+title_en: "Closed Relation Ball Lemma"
+title_zh: "闭关系球引理"
+type: lemma
+domain: topology
+subdomain: metric-spaces
+difficulty: advanced
+tags: [closed-relation, complete-metric-space, ball, closure, banach]
+depends_on:
+  required: [complete-metric-space, closed-set, product-topology]
+  recommended: [uniformly-open-map]
+  suggested: [completeness-preservation-uniformly-open, closed-graph-theorem]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "FOR METRIC SPACES ONLY"
+    pages: ""
+    role_in_book: "Lemma formalizing an argument of Banach; critical for completeness preservation, closed graph, and open mapping theorems"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,12 @@
+For an exact couple $\mathit{EC} = \{D, E, \alpha, \beta, \gamma\}$ and each $n \geq 0$, the $n$-th term of the associated spectral sequence is given by
+$$E_n = \gamma^{-1}(\alpha^n D) / \beta(\alpha^{-n}(0)),$$
+and the differential $d_n : E_n \to E_n$ is induced by $\beta\alpha^{-n}\gamma$.
+
+Moreover, for each $n$ there is an exact sequence
+$$\alpha^n D \xrightarrow{\alpha_n} \alpha^n D \xrightarrow{\beta_n} E_n \xrightarrow{\gamma_n} \alpha^n D \xrightarrow{\alpha_n} \alpha^n D,$$
+where $\alpha_n$ is induced by $\alpha$, $\beta_n$ is induced by $\beta\alpha^{-n}$, and $\gamma_n$ is induced by $\gamma$.
+
+Consequently, there is a short exact sequence
+$$0 \to \operatorname{coker} \alpha_n \xrightarrow{\bar{\beta}_n} E_n \xrightarrow{\bar{\gamma}_n} \ker \alpha_n \to 0,$$
+where $\bar{\beta}_n, \bar{\gamma}_n$ are induced by $\beta_n, \gamma_n$, and
+$$\operatorname{coker} \alpha_n = \alpha^n D / \alpha^{n+1} D \cong D / (\alpha D \cup \alpha^{-n}(0)), \quad \ker \alpha_n = \alpha^n D \cap \alpha^{-1}(0).$$

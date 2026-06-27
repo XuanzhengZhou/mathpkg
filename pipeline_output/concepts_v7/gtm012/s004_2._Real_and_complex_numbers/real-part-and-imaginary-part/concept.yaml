@@ -1,0 +1,23 @@
+id: real-part-and-imaginary-part
+title_en: "Real part and imaginary part of a complex number"
+title_zh: "复数的实部与虚部"
+type: definition
+domain: algebra
+subdomain: complex-numbers
+difficulty: basic
+tags: [complex-numbers, real-part, imaginary-part, notation]
+depends_on:
+  required: [complex-numbers-as-r2]
+  recommended: []
+  suggested: [real-and-imaginary-parts]
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "1"
+    section: "2. Real and complex numbers"
+    pages: ""
+    role_in_book: "Defines notation Re(z) and Im(z) for components of a complex number"
+content_hash: "real-imag-part-def"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

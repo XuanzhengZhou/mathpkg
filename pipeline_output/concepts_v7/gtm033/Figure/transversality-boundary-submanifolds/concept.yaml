@@ -1,0 +1,23 @@
+id: transversality-boundary-submanifolds
+title_en: "Transversality Theorem for Manifolds with Boundary"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [transversality, boundary-manifold, submanifold, preimage]
+depends_on:
+  required: [transversality, boundary-manifold]
+  recommended: [neat-submanifold, regular-value-theorem-boundary-manifolds]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "1"
+    section: "4. Manifolds with Boundary"
+    pages: ""
+    role_in_book: "Theorem 4.2. Generalizes the transversality theorem: the preimage of a submanifold under a map transverse to it (and whose restriction to the boundary is also transverse) is a submanifold."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

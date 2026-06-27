@@ -1,0 +1,23 @@
+id: relative-complement
+title_en: "Relative Complement (Set Difference)"
+title_zh: "相对补集（差集）"
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [complement, difference, relative-complement]
+depends_on:
+  required: [absolute-complement, set-intersection]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Subsets and Complements; Union and Intersection"
+    pages: "3"
+    role_in_book: "Basic set operation for working within a fixed universe"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

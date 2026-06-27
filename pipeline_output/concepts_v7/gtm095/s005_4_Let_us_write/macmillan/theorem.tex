@@ -1,0 +1,57 @@
+(a) $e^{n(H-\
+
+Furthermore, since
+
+$$P(C(n, \varepsilon_1)) \geq N(C(n, \varepsilon_1)) \cdot \min_{\omega \in C(n, \varepsilon_1)} p(\omega),$$
+
+we have
+
+$$N(C(n, \varepsilon_1)) \leq \frac{P(C(n, \varepsilon_1))}{\min_{\omega \in C(n, \varepsilon_1)} p(\omega)} < \frac{1}{e^{-n(H + (1/2)\varepsilon)}} = e^{n(H + (1/2)\varepsilon)}$$
+
+and similarly
+
+$$N(C(n, \varepsilon_1)) \geq \frac{P(C(n, \varepsilon_1))}{\max_{\omega \in C(n, \varepsilon_1)} p(\omega)} > P(C(n, \varepsilon_1)) e^{n(H - (1/2)\varepsilon)}.$$
+
+Since $P(C(n, \varepsilon_1)) \to 1$, $n \to \infty$, there is an $n_1$ such that $P(C(n, \varepsilon_1)) > 1 - \varepsilon$ for $n > n_1$, and therefore
+
+$$N(C(n, \varepsilon_1)) \geq (1 - \varepsilon) \exp\{n(H - \frac{1}{2}\varepsilon)\}$$
+
+$$= \exp\{n(H - \varepsilon) + (\frac{1}{2}n\varepsilon + \log(1 - \varepsilon))\}.$$
+
+Let $n_2$ be such that
+
+$$\frac{1}{2}n\varepsilon + \log(1 - \varepsilon) > 0$$
+
+for $n > n_2$. Then when $n \geq n_0 = \max(n_1, n_2)$ we have
+
+$$N(C(n, \varepsilon_1)) \geq e^{n(H - \varepsilon)}.$$
+
+This completes the proof of the theorem.
+
+5. The law of large numbers for Bernoulli schemes lets us give a simple and elegant proof of the Weierstrass theorem on the approximation of continuous functions by polynomials.
+
+Let $f = f(p)$ be a continuous function on the interval
+
+Since the function $f = f(p)$, being continuous on $[0,1]$, is uniformly continuous, for every $\varepsilon > 0$ we can find $\delta > 0$ such that $|f(x) - f(y)| \leq \varepsilon$ whenever $|x - y| \leq \delta$. It is also clear that this function is bounded: $|f(x)| \leq M < \infty$.
+
+Using this and (8), we obtain
+
+$$|f(p) - B_n(p)| = \left| \sum_{k=0}^{n} \left[ f(p) - f\left(\frac{k}{n}\right) \right] C_n^k p^k q^{n-k} \right|$$
+
+$$\leq \sum_{\{k: |(k/n) - p| \leq \delta\}} |f(p) - f\left(\frac{k}{n}\right)| C_n^k p^k q^{n-k}$$
+
+$$+ \sum_{\{k: |(k/n) - p| > \delta\}} |f(p) - f\left(\frac{k}{n}\right)| C_n^k p^k q^{n-k}$$
+
+$$\leq \varepsilon + 2M \sum_{\{k: |(k/n) - p| > \delta\}} C_n^k p^k q^{n-k} \leq \varepsilon + \frac{2M}{4n\delta^2} = \varepsilon + \frac{M}{2n\delta^2}.$$
+
+Hence for Bernstein’s polynomials (15)
+
+$$\lim_{n \to \infty} \max_{0 \leq p \leq 1} |f(p) - B_n(p)| = 0,$$
+
+which is the conclusion of the Weierstrass theorem.
+
+6. PROBLEMS
+
+1. Let $\xi$ and $\eta$ be random variables with correlation coefficient $\rho$. Establish the following two-dimensional analog of Chebyshev’s inequality:
+
+$$P\{|\xi - E\xi| \geq \varepsilon \sqrt{\text{Var}\xi} \text{ or } |\eta - E\eta| \geq \varepsilon \sqrt{\text{Var}\eta}\} \leq \frac{

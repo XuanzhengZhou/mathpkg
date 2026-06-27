@@ -1,0 +1,23 @@
+id: pointwise-closed-family
+title_en: "Pointwise Closed Family of Functions"
+title_zh: "逐点闭函数族"
+type: definition
+domain: topology
+subdomain: function-spaces
+difficulty: basic
+tags: [pointwise-closed, product-space, function-family, closed-subset]
+depends_on:
+  required: [product-topology, closed-set, pointwise-convergence-topology]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Pointwise Convergence"
+    pages: ""
+    role_in_book: "Auxiliary definition used in the compactness criterion for function spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

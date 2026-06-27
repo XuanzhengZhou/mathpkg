@@ -1,0 +1,23 @@
+id: induced-maps-on-extensions
+title_en: "Induced Maps on Extension Classes"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [extension, pullback, pushout, functor, induced-map]
+depends_on:
+  required: [extension-of-modules, pullback-characterization-lemma]
+  recommended: [pullback-properties-lemma, pullback-from-exact-rows-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III. Extensions of Modules"
+    section: "1. Extensions"
+    pages: ""
+    role_in_book: "Defines the functorial structure of E(-,-) via pullback and pushout constructions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: positive-operator-characterization
+title_en: "Positive operators: quadratic form and spectrum"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: hilbert-spaces
+difficulty: intermediate
+tags: [positive-operator, self-adjoint, spectrum, quadratic-form]
+depends_on:
+  required: [selfadjoint-real-spectrum, hilbert-space-definition]
+  recommended: [spectrum-definition]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "57"
+    section: "Spectrum in L(E)"
+    pages: ""
+    role_in_book: "T >= 0 (quadratic form) iff T self-adjoint and spectrum in [0,infty)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

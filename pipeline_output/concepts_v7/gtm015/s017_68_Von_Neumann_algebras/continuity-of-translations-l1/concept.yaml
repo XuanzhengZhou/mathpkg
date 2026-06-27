@@ -1,0 +1,23 @@
+id: continuity-of-translations-l1
+title_en: "Continuity of translations in L^1(G)"
+title_zh: "L^1(G)中平移的连续性"
+type: lemma
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: intermediate
+tags: [translation-continuity, l1-space, locally-compact-group]
+depends_on:
+  required: []
+  recommended: [left-right-translates, l1-space, locally-compact-group]
+  suggested: [approximate-identity]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "69"
+    section: "Group representations"
+    pages: "305-306"
+    role_in_book: "Lemma (69.9) establishing L^1-continuity of group translations"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

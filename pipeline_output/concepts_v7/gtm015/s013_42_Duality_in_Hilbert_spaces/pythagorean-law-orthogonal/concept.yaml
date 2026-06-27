@@ -1,0 +1,23 @@
+id: pythagorean-law-orthogonal
+title_en: "Pythagorean Law for Orthogonal Vectors"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [pythagorean-theorem, orthogonal-vectors, inner-product-space, norm]
+depends_on:
+  required: [inner-product-space, orthogonal-vectors]
+  recommended: [cauchy-schwarz-inequality]
+  suggested: [parallelogram-law]
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "42. Duality in Hilbert spaces"
+    section: "42.6"
+    pages: ""
+    role_in_book: "Elementary algebraic consequence of orthogonality, used in the proof of the orthogonal projection theorem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

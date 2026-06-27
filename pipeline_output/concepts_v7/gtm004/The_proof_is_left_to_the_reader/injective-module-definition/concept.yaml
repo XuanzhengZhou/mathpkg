@@ -1,0 +1,17 @@
+id: injective-module-definition
+title_en: "Definition of Injective Module"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [injective-module, monomorphism, extension-property, dualization, projective-module]
+depends_on:
+  required: [epimorphism-definition, monomorphism-definition]
+  recommended: [projective-module]
+  suggested: []
+source_books:
+  - {book_id: "gtm004", author: "P.J. Hilton and U. Stammbach", title: "A Course in Homological Algebra", chapter: "I. Modules", section: "6. Dualization, Injective Modules", pages: "", role_in_book: "Defines injective modules by dualizing the definition of projective modules; fundamental to cohomology and derived functors."}
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

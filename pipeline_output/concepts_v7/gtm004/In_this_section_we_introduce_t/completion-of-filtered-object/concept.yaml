@@ -1,0 +1,23 @@
+id: completion-of-filtered-object
+title_en: "Completion of a Filtered Object"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [filtered-object, completion, limit, colimit, associated-graded]
+depends_on:
+  required: [complete-filtration-in-abelian-category, filtered-object]
+  recommended: [limit-factorization-property]
+  suggested: [completion-yields-complete-filtration]
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "8. Completions of Filtrations"
+    pages: ""
+    role_in_book: "Definition given after (8.10); constructs the completion of any filtered object"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

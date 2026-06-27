@@ -1,0 +1,23 @@
+id: derived-equivalence
+title_en: "Derived Equivalence"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [derived-category, equivalence-of-categories, modular-representation-theory]
+depends_on:
+  required: [derived-category, bounded-derived-categories, equivalence-of-categories]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "5. Stable and Derived Categories"
+    pages: "360-376"
+    role_in_book: "Definition: A derived equivalence is an equivalence between derived categories"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

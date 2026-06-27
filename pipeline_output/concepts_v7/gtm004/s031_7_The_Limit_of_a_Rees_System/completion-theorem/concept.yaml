@@ -1,0 +1,23 @@
+id: completion-theorem
+title_en: "Completion Theorem for Filtered Objects"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [filtration, completion, associated-graded, filtered-object, abelian-category]
+depends_on:
+  required: [completion-of-filtration, complete-filtration]
+  recommended: [filtered-object-notation, associated-graded]
+  suggested: [filtered-object-isomorphism-theorem]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "8"
+    pages: ""
+    role_in_book: "Main theorem: the completion yields a complete filtration with the same associated graded"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

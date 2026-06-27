@@ -1,0 +1,23 @@
+id: h1-as-kernel
+title_en: "Proposition 4.2: $H_1(G, B)$ as Kernel"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: ["h1-homology", "kernel", "augmentation-ideal", "tor"]
+depends_on:
+  required: ["cohomology-and-homology-of-groups", "augmentation-ideal"]
+  recommended: ["tor-functor"]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VI"
+    section: "4"
+    pages: ""
+    role_in_book: "Provides explicit formula for first homology group"
+content_hash: "1b3e80aff8c4"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

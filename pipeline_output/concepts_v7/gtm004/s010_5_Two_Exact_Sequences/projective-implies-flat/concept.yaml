@@ -1,0 +1,23 @@
+id: projective-implies-flat
+title_en: "Every Projective Module is Flat (Proposition 7.4)"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [projective-module, flat-module, implication]
+depends_on:
+  required: [flat-module]
+  recommended: [projective-module, tensor-product]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "7. The Tensor Product"
+    pages: ""
+    role_in_book: "Shows projectivity implies flatness — a key relationship between module properties"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

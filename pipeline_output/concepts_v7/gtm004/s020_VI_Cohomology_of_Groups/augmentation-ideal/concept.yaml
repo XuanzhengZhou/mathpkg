@@ -1,0 +1,23 @@
+id: augmentation-ideal
+title_en: "Augmentation Ideal"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: ["augmentation-ideal", "group-ring", "IG"]
+depends_on:
+  required: ["augmentation-of-group-ring"]
+  recommended: ["integral-group-ring"]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Fundamental ideal for computing group (co)homology"
+content_hash: "23293ae5c74d"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

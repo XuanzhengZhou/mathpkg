@@ -1,0 +1,23 @@
+id: homologically-finite-convergence-theorem
+title_en: "Homologically Finite Filtration Implies Finite Convergence of the Spectral Sequence"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [spectral-sequence, finite-convergence, homologically-finite, filtration, associated-graded, homology]
+depends_on:
+  required: [homologically-finite-filtration, stationary-implies-finite-convergence-spectral-sequence]
+  recommended: [filtered-chain-complex, exact-couple, graded-homology]
+  suggested: [finite-filtration-chain-complex]
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "3"
+    section: "3. Finite Convergence Conditions for Filtered Chain Complexes"
+    pages: ""
+    role_in_book: "Theorem 3.5: the main convergence theorem for spectral sequences of filtered chain complexes; gives finite convergence, finiteness of the induced filtration on homology, and the isomorphism E_∞ ≅ Gr∘H(C)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: poisson-binomial-approximation
+title_en: "Poisson approximation bound for the sum of independent Bernoulli variables"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: limit-theorems
+difficulty: intermediate
+tags: [poisson-approximation, binomial-distribution, total-variation, le-cam, bernoulli]
+depends_on:
+  required: [poisson-distribution, bernoulli-distribution, total-variation-distance, convolution]
+  recommended: [hellinger-variation-inequalities]
+  suggested: []
+source_books:
+  - book_id: gtm095
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "12.2"
+    pages: ""
+    role_in_book: "Theorem; gives a bound on the total variation distance between a Poisson-binomial distribution and its Poisson approximation"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

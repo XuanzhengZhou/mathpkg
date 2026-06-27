@@ -1,0 +1,23 @@
+id: tau-weak-closure-coincide
+title_en: "Coincidence of $\tau$-closure and weak closure for linear subspaces"
+title_zh: "线性子空间的$\tau$-闭包与弱闭包的一致"
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [locally-convex-space, closure, weak-topology, annihilator]
+depends_on:
+  required: [closed-subspace-characterizations, annihilator-properties]
+  recommended: [closed-convex-weakly-closed]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "3"
+    section: "38"
+    pages: ""
+    role_in_book: "exercise"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

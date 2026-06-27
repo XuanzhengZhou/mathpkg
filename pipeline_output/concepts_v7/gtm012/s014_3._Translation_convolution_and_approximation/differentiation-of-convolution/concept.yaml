@@ -1,0 +1,23 @@
+id: differentiation-of-convolution
+title_en: "Proposition 3.4: Differentiation of Convolution with a Smooth Function"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: intermediate
+tags: [convolution, differentiation, smooth-periodic-functions, derivative-under-integral]
+depends_on:
+  required: [convolution-on-circle, differentiation-of-translation]
+  recommended: [properties-of-convolution, convergence-of-difference-quotient-in-p]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "3"
+    section: "3. Translation, convolution, and approximation"
+    pages: ""
+    role_in_book: "Shows that convolution with a smooth function yields a smooth function, and differentiation passes to the smooth factor"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

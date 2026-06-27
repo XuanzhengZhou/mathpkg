@@ -1,0 +1,23 @@
+id: klee-biuniform-characterization
+title_en: "Klee's theorem: metrizable bi-uniform iff bi-invariant metric exists"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-groups
+difficulty: advanced
+tags: [Klee, bi-uniform, bi-invariant-metric, metrizable-group]
+depends_on:
+  required: [biuniform-group, biinvariant-metric-biuniform, left-invariant-metric-uniformity]
+  recommended: [Birkhoff-Kakutani-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "10"
+    section: "Bi-uniform topological groups"
+    pages: ""
+    role_in_book: "Characterizes bi-uniform metrizable groups in terms of bi-invariant metrics."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

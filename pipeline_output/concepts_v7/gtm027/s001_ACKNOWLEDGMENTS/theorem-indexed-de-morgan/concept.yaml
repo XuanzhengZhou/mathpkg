@@ -1,0 +1,23 @@
+id: theorem-indexed-de-morgan
+title_en: "Theorem 3: De Morgan Laws for Indexed Families"
+title_zh: "定理3：指标族的德摩根律"
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [indexed-family, de-morgan, union, intersection]
+depends_on:
+  required: [set-union, set-intersection, relative-complement]
+  recommended: [theorem-set-algebra]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Subsets and Complements; Union and Intersection"
+    pages: "4"
+    role_in_book: "Generalization of De Morgan laws to arbitrary families"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

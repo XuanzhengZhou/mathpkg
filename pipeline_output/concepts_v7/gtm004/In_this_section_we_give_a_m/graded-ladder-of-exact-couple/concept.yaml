@@ -1,0 +1,23 @@
+id: graded-ladder-of-exact-couple
+title_en: "Graded Ladder of an Exact Couple"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [exact-couple, ladder, spectral-sequence, grading, bigrading]
+depends_on:
+  required: [ladder-of-exact-couple]
+  recommended: [graded-module, spectral-sequence]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "4. The Ladder of an Exact Couple"
+    pages: ""
+    role_in_book: "Modifies the ladder construction for (bi)graded exact couples, ensuring vertical morphisms are degree-preserving"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

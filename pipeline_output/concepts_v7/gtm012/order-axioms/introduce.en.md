@@ -1,0 +1,1 @@
+The order axioms define positivity in $\mathbb{R}$. O1 (trichotomy) says every real number is either positive, zero, or negative. O2 says the sum and product of positive numbers are positive. These axioms make $\mathbb{R}$ an ordered field.

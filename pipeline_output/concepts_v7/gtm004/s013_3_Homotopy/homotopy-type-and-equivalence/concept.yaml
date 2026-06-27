@@ -1,0 +1,23 @@
+id: homotopy-type-and-equivalence
+title_en: "Homotopy Type and Homotopy Equivalence of Complexes"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [homotopy, chain-complex, homotopy-equivalence, homotopy-category]
+depends_on:
+  required: [homotopy-of-chain-maps, homotopy-category-of-chain-complexes]
+  recommended: [isomorphism, chain-map]
+  suggested: [derived-category]
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "3. Homotopy"
+    pages: "137"
+    role_in_book: "Defines homotopy equivalence of complexes; essential for the comparison theorem of projective resolutions."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

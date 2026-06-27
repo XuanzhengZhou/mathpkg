@@ -1,0 +1,23 @@
+id: k-cell-in-manifold
+title_en: "k-Cell in a Manifold"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: morse-theory
+difficulty: intermediate
+tags: [k-cell, embedding, disk, handle, cell-attachment]
+depends_on:
+  required: [manifold, embedding, disk]
+  recommended: []
+  suggested: [cw-complex, handle-decomposition]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Defines the building blocks for cell decompositions obtained from Morse functions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

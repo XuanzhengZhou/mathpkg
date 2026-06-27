@@ -1,0 +1,31 @@
+id: tensor-product-of-chain-complexes
+title_en: Tensor Product of Chain Complexes
+title_zh: ''
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags:
+- tensor-product
+- chain-complex
+- double-complex
+- Kunneth
+depends_on:
+  required:
+  - double-complex-of-chains
+  - total-complex-tot
+  recommended:
+  - tensor-product-of-modules
+  suggested:
+  - kunneth-theorem
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 1. Double Complexes
+  pages: ''
+  role_in_book: primary example of a double complex; basis for the Kunneth theorem
+content_hash: 09f18861cb0fce45
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

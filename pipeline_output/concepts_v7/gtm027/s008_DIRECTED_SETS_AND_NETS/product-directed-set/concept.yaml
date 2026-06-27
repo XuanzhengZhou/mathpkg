@@ -1,0 +1,23 @@
+id: product-directed-set
+title_en: "Product Directed Set"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: nets-and-convergence
+difficulty: intermediate
+tags: ["product", "directed-set", "cartesian-product", "product-order"]
+depends_on:
+  required: ["directed-set", "cartesian-product"]
+  recommended: ["iterated-limits-theorem"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "2"
+    section: "Directed Sets and Nets"
+    pages: "81-87"
+    role_in_book: "Defines the product directed set of two directed sets and of an arbitrary family, used in the iterated limits theorem."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

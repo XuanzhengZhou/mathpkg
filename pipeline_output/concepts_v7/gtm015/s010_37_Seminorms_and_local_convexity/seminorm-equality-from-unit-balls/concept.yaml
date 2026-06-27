@@ -1,0 +1,23 @@
+id: seminorm-equality-from-unit-balls
+title_en: "Equality of seminorms from equality of their closed unit balls"
+title_zh: "由闭单位球相等到半范数相等"
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [seminorm, gauge, convex-body]
+depends_on:
+  required: [seminorm]
+  recommended: [seminorm-closed-unit-ball-properties]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "3"
+    section: "37"
+    pages: ""
+    role_in_book: "technical_lemma"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

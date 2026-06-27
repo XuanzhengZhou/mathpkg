@@ -1,0 +1,23 @@
+id: boundary-manifold-definition
+title_en: "Boundary of a Manifold"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: basic
+tags: [manifold-with-boundary, boundary, chart, halfspace]
+depends_on:
+  required: [manifold, chart, diffeomorphism]
+  recommended: [manifold-without-boundary, neat-submanifold]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "1"
+    section: "4. Manifolds with Boundary"
+    pages: ""
+    role_in_book: "Core definition: the boundary ∂M of a manifold consists of points that map to the boundary of a halfspace under some (hence any) chart."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

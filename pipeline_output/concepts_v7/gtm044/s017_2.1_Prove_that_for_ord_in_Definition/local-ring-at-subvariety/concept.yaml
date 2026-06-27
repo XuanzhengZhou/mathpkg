@@ -1,0 +1,23 @@
+id: local-ring-at-subvariety
+title_en: "Local Ring of a Variety at an Irreducible Subvariety"
+title_zh: "簇在不可约子簇处的局部环"
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [local-ring, subvariety, rational-function, forms, homogeneous-coordinates]
+depends_on:
+  required: []
+  recommended: [coordinate-ring, projective-variety, irreducible-subvariety]
+  suggested: [coordinate-ring-localization, variety-germ-ordered-pair]
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Defines the local ring at an irreducible subvariety of a projective variety"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,9 @@
+Let $(\Omega_1, \mathcal{F}_1, \rho_1)$ and $(\Omega_2, \mathcal{F}_2, \rho_2)$ be measurable spaces with $\sigma$-finite measures, and let $\xi = \xi(\omega_1, \omega_2)$ be an $\mathcal{F}_1 \otimes \mathcal{F}_2$-measurable function. Suppose
+$$\int_{\Omega_1 \times \Omega_2} |\xi(\omega_1, \omega_2)| \, d(\rho_1 \times \rho_2) < \infty.$$
+Then:
+\begin{enumerate}
+\item[(1)] The integrals $\int_{\Omega_1} \xi(\omega_1, \omega_2) \rho_1(d\omega_1)$ and $\int_{\Omega_2} \xi(\omega_1, \omega_2) \rho_2(d\omega_2)$ are defined for $\rho_2$-almost all $\omega_2$ and $\rho_1$-almost all $\omega_1$, respectively;
+\item[(2)] They are respectively $\mathcal{F}_2$- and $\mathcal{F}_1$-measurable functions with the integrability conditions holding almost surely;
+\item[(3)] $$\int_{\Omega_1 \times \Omega_2} \xi(\omega_1, \omega_2) \, d(\rho_1 \times \rho_2) = \int_{\Omega_1} \left[ \int_{\Omega_2} \xi(\omega_1, \omega_2) \, \rho_2(d\omega_2) \right] \rho_1(d\omega_1)$$
+$$= \int_{\Omega_2} \left[ \int_{\Omega_1} \xi(\omega_1, \omega_2) \, \rho_1(d\omega_1) \right] \rho_2(d\omega_2).$$
+\end{enumerate}

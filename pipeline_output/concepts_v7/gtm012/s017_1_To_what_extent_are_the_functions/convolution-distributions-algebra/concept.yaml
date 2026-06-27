@@ -1,0 +1,23 @@
+id: convolution-distributions-algebra
+title_en: "Algebraic Properties of Convolution of Distributions"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: advanced
+tags: [convolution, distributions, commutativity, associativity, algebra]
+depends_on:
+  required: [convolution-of-distributions-definition, periodic-distributions]
+  recommended: [convolution-distribution-convergence]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "7"
+    section: "7. Convolution of distributions"
+    pages: ""
+    role_in_book: "Establishes that the space of periodic distributions forms a commutative convolution algebra with unit"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

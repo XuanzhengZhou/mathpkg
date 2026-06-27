@@ -1,0 +1,23 @@
+id: l2-space-of-distributions
+title_en: "The space L^2 of periodic distributions"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: hilbert-spaces
+difficulty: advanced
+tags: [L2-space, periodic-distributions, completion, Cauchy-sequence]
+depends_on:
+  required: [inner-product-on-cc, l2-norm-on-cc]
+  recommended: [schwarz-inequality-for-cc, equality-of-l2-distributions]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: ""
+    title: "Advanced Mathematical Analysis"
+    chapter: "4. Hilbert Spaces and Fourier Series"
+    section: "§1. An inner product in ℂ, and the space L²"
+    pages: ""
+    role_in_book: "Defines L² as the completion of ℂ with respect to the L² norm, realized as a space of periodic distributions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

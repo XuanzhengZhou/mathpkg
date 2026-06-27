@@ -1,0 +1,23 @@
+id: additive-functor-preserves-homotopy
+title_en: "Additive Functors Preserve Homotopy"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [chain-complex, homotopy, additive-functor, category-theory]
+depends_on:
+  required: [homotopy-of-chain-maps, additive-functor]
+  recommended: [homotopy-category-of-chain-complexes]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "3. Homotopy"
+    pages: "137"
+    role_in_book: "Lemma 3.4. Additive functors preserve the homotopy relation, inducing functors between homotopy categories."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

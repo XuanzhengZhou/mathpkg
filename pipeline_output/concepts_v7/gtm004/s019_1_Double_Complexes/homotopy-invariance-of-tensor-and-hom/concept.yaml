@@ -1,0 +1,30 @@
+id: homotopy-invariance-of-tensor-and-hom
+title_en: Homotopy Invariance of Tensor Product and Hom Complexes
+title_zh: ''
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags:
+- chain-homotopy
+- homotopy-equivalence
+- tensor-product
+- hom-functor
+depends_on:
+  required:
+  - functoriality-of-tensor-and-hom-under-homotopy
+  recommended:
+  - chain-homotopy-equivalence
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 1. Double Complexes
+  pages: ''
+  role_in_book: immediate consequence of Proposition 1.2; justifies homotopy-invariant
+    use of ⊗ and Hom
+content_hash: 88e59ef1b2267821
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

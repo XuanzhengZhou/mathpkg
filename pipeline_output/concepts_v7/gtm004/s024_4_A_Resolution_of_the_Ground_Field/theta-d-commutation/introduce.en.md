@@ -1,0 +1,1 @@
+The identity $\theta(y) d_n - d_n \theta(y) = 0$ states that the theta map commutes with the Chevalley--Eilenberg differential. This commutation, together with the bracket identity $\theta([x,y]) = [\theta(x), \theta(y)]$, is established by induction on $n$ and is essential for proving that $(C, d)$ is a complex of $\mathfrak{g}$-modules.

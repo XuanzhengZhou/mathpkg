@@ -1,0 +1,49 @@
+$$P\{|\xi| \geq \varepsilon\} \leq E|\xi|/\varepsilon,$$
+
+$$
+
+Therefore
+
+$$P_n \left\{ \left| \frac{S_n}{n} - p \right| \geq \varepsilon \right\} \leq \frac{pq}{n\varepsilon^2} \leq \frac{1}{4n\varepsilon^2},$$
+
+and, since $\varepsilon > 0$ is fixed, this implies the law of large numbers (5).
+
+![Graph of $P_n(k)$](image)
+
+It is clear from (4) and (5) that
+
+$$\sum_{\{k: |(k/n) - p| \geq \varepsilon\}} P_n(k) \to 0, \quad n \to \infty.$$
+
+We can clarify this graphically in the following way. Let us represent the binomial distribution $\{P_n(k), 0 \leq k \leq n\}$ as in Fig. 6.
+
+Then as $n$ increases the graph spreads out and becomes flatter. At the same time the sum of $P_n(k)$ over $k$, for which $np - n\varepsilon \leq k < np + n\varepsilon$, tends to 1.
+
+Let us think of the sequence of random variables $S_{n0}, S_{n1}, \ldots, S_{nn}$ as the path of a wandering particle. Then (9) has the following interpretation.
+
+Let us draw lines from the origin of slopes $kp$, $k(p + \varepsilon)$, and $k(p - \varepsilon)$. Then on the average the path follows the $kp$ line, and for every $\varepsilon > 0$ we can say that when $n$ is sufficiently large there is a large probability that the point $S_n$ specifying the position of the particle at time $n$ lies in the interval $[n(p - \varepsilon), n(p + \varepsilon)]$; see Fig. 7.
+
+The statement (5) goes by the name of James Bernoulli’s law of large numbers. We may remark that to be precise, Bernoulli’s proof consisted in establishing (9), which he did quite rigorously by using estimates for the “tails” of the binomial probabilities $P_n(k)$ (for the values of $k$ for which $|(k/n) - p| \geq \varepsilon
+
+and
+
+$$\sum_{\{k: |(k/n)-p| \leq \varepsilon\}} P_n(k) \sim \frac{1}{\sqrt{2\pi}} \int_{-\varepsilon}^{\varepsilon} \sqrt{n/pq} e^{-x^2/2} dx.$$
+
+2. The next section will be devoted to precise statements and proofs of these results. For the present we consider the question of the real meaning of the law of large numbers, and of its empirical interpretation.
+
+Let us carry out a large number, say $N$, of series of experiments, each of which consists of “$n$ independent trials with probability $p$ of the event $C$ of interest.” Let $S_n^i/n$ be the frequency of event $C$ in the $i$th series and $N_\varepsilon$ the number of series in which the frequency deviates from $p$ by less than $\varepsilon$:
+
+$$N_\varepsilon$$ is the number of $i$’s for which $|(S_n^i/n) - p| \leq \varepsilon$.
+
+Then by the law of large numbers
+
+$$N_\varepsilon/N \sim P_\varepsilon$$
+
+where $P_\varepsilon = P_n\{|(S_n^1/n) - p| \leq \varepsilon\}$.
+
+3. Let us apply the estimate obtained above,
+
+$$P\left\{\left|\frac{S_n}{n} - p\right| \geq \varepsilon\right\} = \sum_{\{k: |(k/n)-p| \geq \varepsilon\}} P_n(k) \leq \frac{1}{4n\varepsilon^2},$$
+
+to answer the following question that is typical of mathematical statistics: what is the least number $n$ of observations which guarantees (for arbitrary $0 < p < 1$) that
+
+$$P\left\{\left|\frac{S_n}{n} - p\right| \geq \varepsilon\right\} \geq 1 - \alpha,$$

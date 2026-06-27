@@ -1,0 +1,25 @@
+id: points-maximal-ideals-correspondence
+title_en: "Correspondence Between Points and Maximal Ideals"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: algebraic-geometry
+difficulty: basic
+tags: [maximal-ideal, polynomial-ring, affine-space, correspondence, nullstellensatz]
+depends_on:
+  required: [maximal-ideal, maximal-ideal-zero-nullstellensatz]
+  recommended: [affine-variety]
+  suggested: []
+
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Establishes the fundamental dictionary between geometry (points) and algebra (maximal ideals)"
+
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

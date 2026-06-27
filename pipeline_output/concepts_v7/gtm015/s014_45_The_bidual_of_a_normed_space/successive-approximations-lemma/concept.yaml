@@ -1,0 +1,23 @@
+id: successive-approximations-lemma
+title_en: "Successive Approximations Lemma"
+title_zh: "逐次逼近引理"
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [open-mapping, successive-approximations, complete-metric-space]
+depends_on:
+  required: [complete-metric-space, continuous-mapping]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "5"
+    section: "48"
+    pages: ""
+    role_in_book: "Shows how approximate inclusion implies exact inclusion for maps between complete metric spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

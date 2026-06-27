@@ -1,0 +1,23 @@
+id: subnet-eventually-lemma
+title_en: "Subnet Eventually Lemma"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: nets-and-convergence
+difficulty: intermediate
+tags: ["subnet", "net", "eventually-in", "frequently-in", "filter-base"]
+depends_on:
+  required: ["net", "subnet", "frequently-in", "eventually-in"]
+  recommended: ["isotone-subnet", "cofinal-subset"]
+  suggested: ["cluster-point"]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "2"
+    section: "Directed Sets and Nets"
+    pages: "81-87"
+    role_in_book: "Lemma 5. If a net is frequently in each member of a filter base, then there exists a subnet that is eventually in each member. Key technical lemma for characterizing cluster points via subnets."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

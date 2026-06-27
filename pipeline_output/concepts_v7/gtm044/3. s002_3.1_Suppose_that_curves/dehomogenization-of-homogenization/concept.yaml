@@ -1,0 +1,23 @@
+id: dehomogenization-of-homogenization
+title_en: "Dehomogenization Inverts Homogenization"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: ["homogenization", "dehomogenization", "inverse-relation"]
+depends_on:
+  required: ["homogenization-of-polynomial", "dehomogenization-of-polynomial"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "2. Affine and projective varieties; examples"
+    pages: ""
+    role_in_book: "Shows that dehomogenizing a homogenized polynomial recovers the original polynomial."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

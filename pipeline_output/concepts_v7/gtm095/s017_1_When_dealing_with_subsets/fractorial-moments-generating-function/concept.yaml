@@ -1,0 +1,23 @@
+id: factorial-moments-generating-function
+title_en: "Factorial Moments via Generating Functions"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: moments
+difficulty: intermediate
+tags: [factorial-moments, generating-function, derivatives, integer-valued]
+depends_on:
+  required: [generating-function]
+  recommended: [expectation]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "13"
+    pages: ""
+    role_in_book: "Formula expressing factorial moments through derivatives of the generating function"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

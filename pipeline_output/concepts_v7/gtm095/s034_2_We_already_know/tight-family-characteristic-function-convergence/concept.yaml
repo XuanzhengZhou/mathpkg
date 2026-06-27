@@ -1,0 +1,23 @@
+id: tight-family-characteristic-function-convergence
+title_en: "Characteristic Function Criterion for Tight Families"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: weak-convergence
+difficulty: intermediate
+tags: ["tightness", "characteristic-function", "weak-convergence", "probability-measures", "prohorov-theorem"]
+depends_on:
+  required: []
+  recommended: ["tight-family-weak-convergence-criterion", "characteristic-function", "prohorov-theorem", "uniqueness-of-characteristic-function"]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "2"
+    pages: ""
+    role_in_book: "Lemma 2 in §2, a key preliminary result for proving conclusion (2) of the Continuity Theorem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

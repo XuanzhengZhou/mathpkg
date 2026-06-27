@@ -1,0 +1,23 @@
+id: finite-irredundant-intersection-of-irreducible-ideals
+title_en: "Finite Irredundant Intersection Decomposition of Ideals"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: ideal-theory
+difficulty: intermediate
+tags: [ideal-decomposition, irreducible-ideal, irredundant-intersection, noetherian]
+depends_on:
+  required: [irreducible-ideal, hilbert-basis-theorem]
+  recommended: [ascending-chain-condition-for-rings]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "4"
+    section: "4.2"
+    pages: ""
+    role_in_book: "Theorem 4.2 — decomposition of ideals into irreducible components, a direct consequence of the Hilbert basis theorem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

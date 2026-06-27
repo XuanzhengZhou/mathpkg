@@ -1,0 +1,1 @@
+A set is bounded above if there exists some real number that is at least as large as every element of the set. Similarly, a set is bounded below if there exists some real number at most as large as every element. These concepts are fundamental to the completeness axiom and the construction of suprema and infima.

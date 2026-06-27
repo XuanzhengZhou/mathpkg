@@ -1,0 +1,8 @@
+Each positive integer $a > 1$ can be represented as a product of primes
+$$a = p_1 \cdot p_2 \cdot \cdots \cdot p_k,$$
+and this representation is unique up to the order of the factors. That is, if
+$$a = p_1^{a_1} p_2^{a_2} \cdots p_r^{a_r} = q_1^{b_1} q_2^{b_2} \cdots q_s^{b_s}$$
+are two factorizations into positive primes, then $r = s$ and after reordering, $p_i = q_i$ and $a_i = b_i$ for all $i$.
+
+Consequences: $b \mid a$ iff every prime exponent in $b$ is $\leq$ the corresponding exponent in $a$. Moreover,
+$$(a, b) = \prod p_i^{\min(a_i, b_i)}, \quad \operatorname{lcm}(a, b) = \prod p_i^{\max(a_i, b_i)}.$$

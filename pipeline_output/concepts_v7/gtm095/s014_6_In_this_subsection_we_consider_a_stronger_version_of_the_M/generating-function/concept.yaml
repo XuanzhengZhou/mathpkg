@@ -1,0 +1,23 @@
+id: generating-function
+title_en: "Generating Function of a Sequence"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: discrete-mathematics
+difficulty: basic
+tags: [generating-function, power-series, combinatorial-methods]
+depends_on:
+  required: []
+  recommended: [exponential-generating-function]
+  suggested: [convolution-property-generating-functions]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "13"
+    pages: ""
+    role_in_book: "Definition of the generating function A(x) of a sequence a = (a_0, a_1, ...)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

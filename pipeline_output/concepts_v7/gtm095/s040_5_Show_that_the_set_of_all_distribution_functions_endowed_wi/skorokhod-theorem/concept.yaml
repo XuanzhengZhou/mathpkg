@@ -1,0 +1,23 @@
+id: skorokhod-theorem
+title_en: "Skorokhod Representation Theorem"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: convergence-of-random-elements
+difficulty: advanced
+tags: [skorokhod, representation, almost-sure-convergence, weak-convergence, single-probability-space, coupling]
+depends_on:
+  required: [convergence-in-distribution-of-random-elements, almost-sure-convergence, quantile-function]
+  recommended: []
+  suggested: [lebesgue-dominated-convergence-theorem, change-of-variables-theorem]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "8"
+    pages: ""
+    role_in_book: "Main theorem of Section 8 — connection of weak convergence with almost sure convergence (Method of a Single Probability Space)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

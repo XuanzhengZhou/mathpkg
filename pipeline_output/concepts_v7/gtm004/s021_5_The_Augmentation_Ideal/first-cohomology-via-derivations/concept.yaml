@@ -1,0 +1,13 @@
+id: first-cohomology-via-derivations
+title_en: "First Cohomology Group as Derivations Modulo Inner Derivations"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [group-cohomology, first-cohomology, derivation, inner-derivation]
+depends_on: {required: ["derivation-crossed-homomorphism", "inner-derivation", "derivations-correspond-to-homomorphisms-from-augmentation-ideal"], recommended: ["group-cohomology"], suggested: []}
+source_books: [{book_id: "gtm004", author: "Peter J. Hilton, Urs Stammbach", title: "A Course in Homological Algebra", chapter: "VI. Cohomology of Groups", section: "5. The Augmentation Ideal, Derivations, and the Semi-Direct Product", pages: "", role_in_book: "gives the interpretation of H^1(G,A) for possibly non-trivial G-modules A"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

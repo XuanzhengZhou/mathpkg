@@ -1,0 +1,1 @@
+A limit point of $A$ is a point that can be approximated arbitrarily closely by points of $A$ (distinct from itself or not). A set is closed precisely when it is closed under the operation of taking limits of sequences from the set. The complement of an open set is closed, and vice versa.

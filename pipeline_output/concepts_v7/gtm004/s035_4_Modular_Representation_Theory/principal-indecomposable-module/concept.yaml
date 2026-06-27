@@ -1,0 +1,23 @@
+id: principal-indecomposable-module
+title_en: "Principal Indecomposable Module"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: intermediate
+tags: ['PIM', 'projective module', 'indecomposable', 'simple module correspondence']
+depends_on:
+  required: ['projective-module', 'indecomposable-module', 'group-algebra']
+  recommended: ['block']
+  suggested: ['cartan-matrix']
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "X. Survey of Some Applications"
+    section: "4. Modular Representation Theory"
+    pages: ""
+    role_in_book: ""
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

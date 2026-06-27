@@ -1,0 +1,7 @@
+Let $X_1, \ldots, X_n$ be independent identically distributed random variables with distribution function $F(x)$ and density $f(x)$. The \text{order statistics} $X^{(1)} \leq X^{(2)} \leq \cdots \leq X^{(n)}$ are the sample values sorted in increasing order. Then:
+\begin{enumerate}
+\item The density of $X^{(k)}$ is
+$$f_{X^{(k)}}(x) = n f(x) \, C_{n-1}^{k-1} [F(x)]^{k-1} [1 - F(x)]^{n-k}.$$
+\item The joint density of $(X^{(1)}, \ldots, X^{(n)})$ is
+$$f(x^1, \ldots, x^n) = \begin{cases} n! \, f(x^1) \cdots f(x^n), & x^1 < \cdots < x^n, \\ 0, & \text{otherwise}. \end{cases}$$
+\end{enumerate}

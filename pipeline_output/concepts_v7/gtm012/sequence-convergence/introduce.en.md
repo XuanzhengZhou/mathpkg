@@ -1,0 +1,1 @@
+A sequence converges to a limit $z$ if the terms eventually stay arbitrarily close to $z$. Geometrically, all but finitely many terms lie inside any given disc centered at $z$. The limit is unique: if $z_n \to z$ and $z_n \to w$, then $z = w$.

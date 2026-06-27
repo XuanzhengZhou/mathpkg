@@ -1,0 +1,13 @@
+id: term-by-term-differentiation-of-power-series
+title_en: "Term-by-term differentiation of power series"
+title_zh: "幂级数的逐项求导"
+type: theorem
+domain: analysis
+subdomain: complex-analysis
+difficulty: intermediate
+tags: [power-series, differentiation, term-by-term-differentiation, radius-of-convergence, derivative, uniform-convergence]
+depends_on: {required: [power-series-continuity-and-uniform-convergence, power-series], recommended: [radius-of-convergence, derivative, term-by-term-integration], suggested: []}
+source_books: [{book_id: "gtm012", author: "Richard Beals", title: "Advanced Mathematical Analysis", chapter: "4", section: "4. Sequences and series of functions", pages: "", role_in_book: "Theorem 4.4; justifies differentiation of power series term by term inside the disc of convergence"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

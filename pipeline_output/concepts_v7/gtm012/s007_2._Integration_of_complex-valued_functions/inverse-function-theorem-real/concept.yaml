@@ -1,0 +1,23 @@
+id: inverse-function-theorem-real
+title_en: "Inverse Function Theorem for real functions"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: real-analysis
+difficulty: intermediate
+tags: [inverse-function, derivative, strictly-increasing, real-functions]
+depends_on:
+  required: [mean-value-theorem-real]
+  recommended: [differentiability-implies-continuity-complex]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "3"
+    section: "3. Differentiation of complex-valued functions"
+    pages: ""
+    role_in_book: "Theorem 3.7 — differentiability of the inverse of a strictly monotone differentiable function"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

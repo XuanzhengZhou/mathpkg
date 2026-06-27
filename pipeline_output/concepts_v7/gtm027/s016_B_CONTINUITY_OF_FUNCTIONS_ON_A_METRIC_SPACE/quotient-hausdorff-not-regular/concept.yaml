@@ -1,0 +1,23 @@
+id: quotient-hausdorff-not-regular
+title_en: "Quotient space that is Hausdorff but not regular"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: quotient-spaces
+difficulty: advanced
+tags: [quotient-space, Hausdorff, regular, counterexample, separation-axioms]
+depends_on:
+  required: [quotient-topology, Hausdorff-space, regular-space]
+  recommended: [Tychonoff-plank]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: ""
+    section: "F. Example (The Tychonoff Plank) on subspaces of normal spaces"
+    pages: ""
+    role_in_book: "Counterexample showing that a quotient of a regular space need not be regular"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

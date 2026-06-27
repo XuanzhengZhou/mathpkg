@@ -1,0 +1,23 @@
+id: galton-watson-extinction-probability
+title_en: "Galton-Watson Extinction Probability"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: branching-processes
+difficulty: advanced
+tags: [galton-watson, branching-process, extinction, generating-function, fixed-point]
+depends_on:
+  required: [generating-function, composition-of-generating-functions]
+  recommended: [poisson-distribution]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "13"
+    pages: ""
+    role_in_book: "Theorem on extinction probability q for the Galton-Watson branching process"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

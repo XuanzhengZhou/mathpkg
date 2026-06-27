@@ -1,0 +1,31 @@
+id: tensor-hom-adjunction-for-chain-complexes
+title_en: Tensor-Hom Adjunction for Chain Complexes
+title_zh: ''
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags:
+- adjunction
+- tensor-product
+- hom-functor
+- chain-complex
+depends_on:
+  required:
+  - tensor-product-of-chain-complexes
+  - hom-complex-of-chain-complexes
+  recommended:
+  - tensor-hom-adjunction
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 1. Double Complexes
+  pages: ''
+  role_in_book: fundamental adjunction linking the tensor product and Hom complex;
+    used in Section 4 for associativity relations
+content_hash: 45751f0b25cf7cbc
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

@@ -1,0 +1,23 @@
+id: nakayama-lemma-variant
+title_en: "Nakayama Lemma Variant for Regular Local Rings"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [nakayama-lemma, local-ring, maximal-ideal, generator, m-mod-m-squared]
+depends_on:
+  required: []
+  recommended: [nakayama-lemma, local-ring, maximal-ideal, noetherian-ring]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "IV"
+    section: "4"
+    pages: ""
+    role_in_book: "Shows that generating modulo m^2 suffices for generating the maximal ideal; used in the proof of Theorem 4.8"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: extension-preserves-intersections
+title_en: "Extension of Ideals Preserves Finite Intersections"
+title_zh: "理想的扩张保持有限交"
+type: proposition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [ideal-extension, intersection, localization, irreducible-decomposition]
+depends_on:
+  required: []
+  recommended: [ideal-extension, irreducible-ideal, primary-decomposition]
+  suggested: [irreducible-ideal-contracted-extension]
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Key lattice property of the extension map from I(R) to I(R_p)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

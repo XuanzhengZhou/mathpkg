@@ -1,0 +1,13 @@
+The number of observations $n_3(\alpha)$ ensuring the validity of
+$$
+P\left\{\left|\frac{S_n}{n} - p\right| \leq \varepsilon\right\} \geq 1 - \alpha
+$$
+for any $0 \leq p \leq 1$ is given by
+$$
+n_3(\alpha) = \left[ \frac{\log(2/\alpha)}{2\varepsilon^2} \right],
+$$
+where $[x]$ denotes the integral part of $x$. Compared with the Chebyshev-based estimate $n_1(\alpha) = [(4\alpha\varepsilon^2)^{-1}]$, one has
+$$
+\frac{n_1(\alpha)}{n_3(\alpha)} = \frac{1}{2\alpha \log(2/\alpha)} \uparrow \infty, \quad \alpha \downarrow 0,
+$$
+showing that the exponential Chebyshev method gives a substantially more precise (smaller) required sample size, especially for small $\alpha$.

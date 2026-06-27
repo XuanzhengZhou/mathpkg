@@ -1,0 +1,23 @@
+id: degree-of-product-of-varieties
+title_en: "Degree of the Intersection Product of Two Varieties"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: ["degree", "intersection-product", "intersection-cycle", "bezout"]
+depends_on:
+  required: ["intersection-multiplicity-invariant"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "6"
+    section: "Intersection multiplicity"
+    pages: ""
+    role_in_book: "Defines the degree of the intersection product cycle V1·V2"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

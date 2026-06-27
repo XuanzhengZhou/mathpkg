@@ -1,0 +1,32 @@
+id: dual-kunneth-theorem
+title_en: Dual Künneth Theorem
+title_zh: ''
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags:
+- Kunneth
+- hom-complex
+- homology
+- Ext
+- cohomology
+depends_on:
+  required:
+  - hom-complex-of-chain-complexes
+  - ext-functor
+  recommended:
+  - kunneth-theorem
+  - universal-coefficient-theorem
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 3. The Dual Künneth Theorem
+  pages: ''
+  role_in_book: main theorem of Section 3; the Hom-analogue of the Künneth theorem
+content_hash: 14b643bebe18fc69
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

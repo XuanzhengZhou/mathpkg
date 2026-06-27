@@ -1,0 +1,23 @@
+id: associated-graded-object-functor
+title_en: "Associated Graded Object Functor"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [graded-object, functor, filtration, associated-graded]
+depends_on:
+  required: [filtered-object-of-abelian-category]
+  recommended: [graded-object, quotient-object]
+  suggested: [spectral-sequence, e-term]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Spectral Sequences"
+    section: "2. Filtered Differential Objects"
+    pages: ""
+    role_in_book: "Defines the Gr functor that extracts associated graded objects from filtered objects"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

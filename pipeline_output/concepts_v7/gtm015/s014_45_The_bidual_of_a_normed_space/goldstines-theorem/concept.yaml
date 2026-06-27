@@ -1,0 +1,23 @@
+id: goldstines-theorem
+title_en: "Goldstine's Theorem"
+title_zh: "Goldstine 定理"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [weak-star-topology, bidual, canonical-embedding, density]
+depends_on:
+  required: [canonical-embedding-bidual, weak-star-topology, closed-unit-ball]
+  recommended: [hahn-banach-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "4"
+    section: "45"
+    pages: ""
+    role_in_book: "Establishes that the image of the closed unit ball under the canonical embedding is weak* dense in the closed unit ball of the bidual"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

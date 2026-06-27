@@ -1,0 +1,30 @@
+id: associativity-of-tensor-product-of-chain-complexes
+title_en: Associativity of the Tensor Product of Chain Complexes
+title_zh: ''
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags:
+- tensor-product
+- associativity
+- chain-complex
+- free-resolution
+depends_on:
+  required:
+  - tensor-product-of-chain-complexes
+  recommended: []
+  suggested:
+  - kunneth-theorem
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 4. Applications of the Künneth Formulas
+  pages: ''
+  role_in_book: foundational fact used to derive associativity relations between Tor,
+    Hom, and Ext
+content_hash: 2172f77f2d1a427b
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

@@ -1,0 +1,23 @@
+id: cofree-module
+title_en: "Cofree Module"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [cofree-module, injective-module, character-module, divisible-group]
+depends_on:
+  required: [hom-z-module-structure, direct-product-of-modules]
+  recommended: [injective-module, divisible-abelian-group]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I. Modules"
+    section: "8. Cofree Modules"
+    pages: ""
+    role_in_book: "Central definition; cofree modules are the dual counterpart to free modules in injective contexts"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

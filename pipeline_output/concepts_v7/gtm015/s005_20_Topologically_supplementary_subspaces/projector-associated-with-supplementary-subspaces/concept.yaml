@@ -1,0 +1,23 @@
+id: projector-associated-with-supplementary-subspaces
+title_en: "Projector Associated with Supplementary Subspaces"
+title_zh: "补子空间关联的投影算子"
+type: definition
+domain: algebra
+subdomain: linear-algebra
+difficulty: basic
+tags: [projector, projection, idempotent, supplementary-subspace]
+depends_on:
+  required: [algebraic-supplementary-subspace]
+  recommended: [linear-map]
+  suggested: [kernel, image]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "I. Topological Vector Spaces"
+    section: "20. Topologically supplementary subspaces"
+    pages: ""
+    role_in_book: "core-definition"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: distribution-of-poisson-difference
+title_en: "Distribution of the Difference of Independent Poisson Variables"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: discrete-distributions
+difficulty: intermediate
+tags: [poisson, skellam-distribution, bessel-function, generating-function]
+depends_on:
+  required: [poisson-distribution, generating-function]
+  recommended: [convolution-property-generating-functions]
+  suggested: [modified-bessel-function]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "13"
+    pages: ""
+    role_in_book: "Explicit formula for the distribution of the difference of independent Poisson random variables using modified Bessel functions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

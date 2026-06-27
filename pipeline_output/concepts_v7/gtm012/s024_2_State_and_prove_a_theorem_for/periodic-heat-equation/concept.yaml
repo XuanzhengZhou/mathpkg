@@ -1,0 +1,23 @@
+id: periodic-heat-equation
+title_en: "Periodic heat equation (distribution formulation)"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: partial-differential-equations
+difficulty: intermediate
+tags: [heat-equation, periodic-distributions, diffusion-equation, fourier-series]
+depends_on:
+  required: []
+  recommended: [periodic-distributions, fourier-series, test-functions]
+  suggested: [classical-heat-equation, sobolev-spaces]
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "3"
+    section: "The heat equation: distribution solutions"
+    pages: ""
+    role_in_book: "Formulates the heat equation as a periodic problem in the distributional sense"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

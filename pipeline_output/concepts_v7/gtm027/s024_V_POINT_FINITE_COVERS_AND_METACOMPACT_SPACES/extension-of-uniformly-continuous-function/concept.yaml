@@ -1,0 +1,23 @@
+id: extension-of-uniformly-continuous-function
+title_en: "Extension of Uniformly Continuous Functions to the Closure"
+title_zh: "一致连续函数到闭包的延拓"
+type: theorem
+domain: topology
+subdomain: uniform-spaces
+difficulty: advanced
+tags: [extension, uniformly-continuous, complete-space, hausdorff, closure]
+depends_on:
+  required: [uniformly-continuous-function, complete-uniform-space, hausdorff-space]
+  recommended: [closure, uniform-space]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Completeness"
+    pages: ""
+    role_in_book: "Theorem 26: unique extension of uniformly continuous functions to complete Hausdorff codomains"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: l2-norm-on-cc
+title_en: "L^2 norm on the space of continuous periodic functions"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: hilbert-spaces
+difficulty: basic
+tags: [norm, L2-norm, periodic-functions, inner-product]
+depends_on:
+  required: [inner-product-on-cc]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: ""
+    title: "Advanced Mathematical Analysis"
+    chapter: "4. Hilbert Spaces and Fourier Series"
+    section: "§1. An inner product in ℂ, and the space L²"
+    pages: ""
+    role_in_book: "Defines the norm induced by the inner product on the space of continuous periodic functions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

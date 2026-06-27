@@ -1,0 +1,23 @@
+id: helly-space-first-countability
+title_en: "Helly Space Satisfies First Axiom of Countability"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: function-spaces
+difficulty: advanced
+tags: ["Helly-space", "first-countability", "sequential-compactness", "countability-axiom"]
+depends_on:
+  required: ["helly-space-compact-hausdorff", "first-axiom-of-countability"]
+  recommended: ["second-axiom-of-countability", "separable-space"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "Problems"
+    pages: "164"
+    role_in_book: "Problem 5.M(b). The Helly space satisfies the first axiom of countability (hence is sequentially compact) but is not separable."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

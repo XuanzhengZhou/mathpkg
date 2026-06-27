@@ -1,0 +1,23 @@
+id: compact-hausdorff-image-cantor
+title_en: "Every Compact Hausdorff Space is a Continuous Image of a Closed Subset of a Cantor Space"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: compactness
+difficulty: advanced
+tags: [compact-hausdorff, cantor-space, continuous-image, closed-subset, dyadic-space]
+depends_on:
+  required: [compact-space, hausdorff-space, cantor-space, product-topology]
+  recommended: [continuous-map, closed-set]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "N"
+    section: "Examples on Closed Maps and Local Compactness"
+    pages: ""
+    role_in_book: "theorem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

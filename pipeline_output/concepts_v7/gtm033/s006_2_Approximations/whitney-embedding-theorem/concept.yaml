@@ -1,0 +1,23 @@
+id: whitney-embedding-theorem
+title_en: "Whitney embedding theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [whitney, embedding, closed-submanifold, euclidean-space, dimension]
+depends_on:
+  required: [density-of-embeddings]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2"
+    section: "2. Approximations"
+    pages: ""
+    role_in_book: "Theorem 2.14; Whitney embedding: every n-manifold embeds as a closed submanifold of R^{2n+1}"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

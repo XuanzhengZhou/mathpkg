@@ -1,0 +1,23 @@
+id: ext-maps-epimorphic-over-pid
+title_en: "Ext Maps are Epimorphic over a Principal Ideal Domain (Corollary 5.7)"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [principal-ideal-domain, ext-functor, epimorphism, hom-ext-sequence]
+depends_on:
+  required: [hom-ext-sequence-second-variable, hom-ext-sequence-first-variable]
+  recommended: [principal-ideal-domain, projective-module]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "5. Two Exact Sequences"
+    pages: ""
+    role_in_book: "Specialized result for PID: the induced Ext maps in the Hom-Ext sequences are epimorphic"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

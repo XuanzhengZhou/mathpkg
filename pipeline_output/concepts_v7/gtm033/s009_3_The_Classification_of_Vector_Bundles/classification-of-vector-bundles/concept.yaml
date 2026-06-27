@@ -1,0 +1,23 @@
+id: classification-of-vector-bundles
+title_en: "Classification Theorem for Vector Bundles"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [vector-bundles, classification, grassmannian, classifying-map, homotopy, universal-bundle]
+depends_on:
+  required: [monomorphism-extension-theorem, monomorphism-extension-cylinder]
+  recommended: [covering-homotopy-theorem, grassmann-manifold, universal-bundle, pullback-bundle]
+  suggested: [stable-equivalence, topological-k-theory]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "3"
+    section: "3. The Classification of Vector Bundles"
+    pages: ""
+    role_in_book: "Theorem 3.4: Homotopy classification of k-plane bundles over an n-manifold via maps to the Grassmannian"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

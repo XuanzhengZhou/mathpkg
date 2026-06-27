@@ -1,0 +1,23 @@
+id: kernel-cokernel-exact-sequence
+title_en: "Kernel-Cokernel Exact Sequence (Lemma 5.1)"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [exact-sequence, kernel, cokernel, connecting-homomorphism, snake-lemma]
+depends_on:
+  required: []
+  recommended: [exact-sequence, commutative-diagram, kernel, cokernel]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "5. Two Exact Sequences"
+    pages: ""
+    role_in_book: "Fundamental lemma connecting kernels and cokernels, used to construct Hom-Ext and Tor exact sequences"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

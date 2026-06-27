@@ -1,0 +1,23 @@
+id: random-walk-model
+title_en: "Symmetric Random Walk Model"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: stochastic-processes
+difficulty: intermediate
+tags: [random-walk, bernoulli, binomial, symmetric]
+depends_on:
+  required: [bernoulli-scheme, binomial-distribution]
+  recommended: []
+  suggested: [martingale, markov-chain]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "5"
+    pages: ""
+    role_in_book: "Probabilistic model of a particle performing a symmetric random walk with step probabilities p and q"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

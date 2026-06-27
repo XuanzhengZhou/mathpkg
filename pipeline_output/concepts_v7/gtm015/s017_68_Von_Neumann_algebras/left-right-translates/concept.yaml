@@ -1,0 +1,23 @@
+id: left-right-translates
+title_en: "Left and right translates of functions on a group"
+title_zh: "群上函数的左平移与右平移"
+type: definition
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: basic
+tags: [translation, group-action, l1-space, modular-function]
+depends_on:
+  required: []
+  recommended: [locally-compact-group, haar-measure, l1-space]
+  suggested: [continuity-of-translations-l1]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "69"
+    section: "Group representations"
+    pages: "305"
+    role_in_book: "Definition (69.8) of left and right translates in L^1(G)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

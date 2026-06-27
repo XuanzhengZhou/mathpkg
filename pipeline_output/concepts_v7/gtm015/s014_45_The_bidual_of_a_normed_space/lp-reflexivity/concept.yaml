@@ -1,0 +1,23 @@
+id: lp-reflexivity
+title_en: "Reflexivity of L^p spaces"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: banach-spaces
+difficulty: intermediate
+tags: [Lp, reflexivity, banach-space, dual-space]
+depends_on:
+  required: [lp-banach-space, reflexive-banach-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "44"
+    section: "Duality in normed spaces"
+    pages: ""
+    role_in_book: "L^p spaces are reflexive for 1 < p < infinity; l^1 is not"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

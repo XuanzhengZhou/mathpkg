@@ -1,0 +1,23 @@
+id: absolute-order-at-point
+title_en: "Absolute Local Order of a Variety at a Point"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: ["absolute-order", "local-degree", "point-containing-transform"]
+depends_on:
+  required: ["local-degree-in-direction"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "6"
+    section: "Degree and order"
+    pages: ""
+    role_in_book: "Establishes that the local degree is independent of the direction for almost all directions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

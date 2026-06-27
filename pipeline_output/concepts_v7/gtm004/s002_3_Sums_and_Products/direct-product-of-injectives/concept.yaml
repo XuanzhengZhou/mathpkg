@@ -1,0 +1,23 @@
+id: direct-product-of-injectives
+title_en: "Direct Product of Injective Modules is Injective"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [injective-module, direct-product, dual-of-projective]
+depends_on:
+  required: [injective-module-definition]
+  recommended: [direct-product-universal-property]
+  suggested: [direct-sum-of-projectives]
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I. Modules"
+    section: "6. Dualization, Injective Modules"
+    pages: ""
+    role_in_book: "Proposition 6.3 — dual of Proposition 4.5: direct products preserve injectivity"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

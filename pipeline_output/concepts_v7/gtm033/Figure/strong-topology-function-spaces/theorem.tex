@@ -1,0 +1,16 @@
+The \textbf{strong topology} (also called the fine or Whitney topology) on $C^r(M,N)$ controls the behavior of maps "at infinity" on noncompact manifolds. For $f \in C^r(M,N)$, a strong basic neighborhood $\mathcal{N}^r(f; \Phi, \Psi, K, \varepsilon)$ is defined using:
+
+\begin{itemize}
+\item a locally finite atlas $\Phi = \{\varphi_i, U_i\}_{i \in \Lambda}$ of $M$,
+\item a family $\Psi = \{\psi_i, V_i\}_{i \in \Lambda}$ of charts on $N$ with $f(U_i) \subset V_i$,
+\item a family $K = \{K_i\}_{i \in \Lambda}$ of compact sets with $K_i \subset U_i$,
+\item a family $\varepsilon = \{\varepsilon_i\}_{i \in \Lambda}$ of positive numbers.
+\end{itemize}
+
+The set $\mathcal{N}^r(f; \Phi, \Psi, K, \varepsilon)$ consists of all $g \in C^r(M,N)$ such that $g(K_i) \subset V_i$ and
+
+$$\| D^k(\psi_i f \varphi_i^{-1})(x) - D^k(\psi_i g \varphi_i^{-1})(x) \| < \varepsilon_i$$
+
+for all $x \in \varphi_i(K_i)$, $k = 0, \ldots, r$, $i \in \Lambda$.
+
+The resulting topological space is denoted $C^r_S(M, N)$.

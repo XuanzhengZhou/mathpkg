@@ -1,0 +1,10 @@
+Let $P$ and $\tilde{P}$ be probability measures on $(\Omega, \mathcal{F})$ and let $Q$ be a probability measure dominating $P$ and $\tilde{P}$, i.e., $P \ll Q$ and $\tilde{P} \ll Q$. Denote
+$$z = \frac{dP}{dQ}, \quad \tilde{z} = \frac{d\tilde{P}}{dQ}.$$
+The \textbf{Kakutani--Hellinger distance} between $P$ and $\tilde{P}$ is the nonnegative number $\rho(P, \tilde{P})$ defined by
+$$\rho^2(P, \tilde{P}) = \frac{1}{2} E_Q\left[\sqrt{z} - \sqrt{\tilde{z}}\right]^2.$$
+Symbolically,
+$$\rho^2(P, \tilde{P}) = \frac{1}{2} \int_\Omega \left[\sqrt{dP} - \sqrt{d\tilde{P}}\right]^2.$$
+The \textbf{Hellinger integral} $H(P, \tilde{P})$ is defined by
+$$H(P, \tilde{P}) = E_Q\sqrt{z\tilde{z}},$$
+so that
+$$\rho^2(P, \tilde{P}) = 1 - H(P, \tilde{P}).$$

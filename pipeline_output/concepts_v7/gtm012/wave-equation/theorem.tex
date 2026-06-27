@@ -1,0 +1,5 @@
+The \textbf{wave equation} on the circle is
+$$\frac{\partial^2 u}{\partial t^2} = \frac{\partial^2 u}{\partial x^2}, \quad u(x, 0) = f(x), \quad u_t(x, 0) = g(x),$$
+where $f, g$ are periodic distributions. The solution is given by the d'Alembert formula:
+$$u(x, t) = \frac{1}{2}[f(x+t) + f(x-t)] + \frac{1}{2} \int_{x-t}^{x+t} g(s) \, ds,$$
+or equivalently via Fourier series with coefficients evolving as $\cos(nt)$ and $\sin(nt)/n$.

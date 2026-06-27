@@ -1,0 +1,23 @@
+id: first-countability-of-product
+title_en: "First Countability of Product Spaces"
+title_zh: "积空间的第一可数性"
+type: theorem
+domain: topology
+subdomain: product-spaces
+difficulty: intermediate
+tags: [first-countability, product-topology, indiscrete-space, countable-base]
+depends_on:
+  required: []
+  recommended: [first-axiom-of-countability, product-topology-arbitrary, indiscrete-space]
+  suggested: [countable-local-base]
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "3"
+    section: "Product Spaces"
+    pages: ""
+    role_in_book: "Characterizes precisely when an arbitrary product satisfies the first axiom of countability"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

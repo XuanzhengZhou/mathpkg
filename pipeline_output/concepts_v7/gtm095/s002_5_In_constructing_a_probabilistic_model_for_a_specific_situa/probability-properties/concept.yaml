@@ -1,0 +1,23 @@
+id: probability-measure-properties
+title_en: "Elementary Properties of Probability"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: foundations
+difficulty: basic
+tags: [probability, additivity, complement, monotonicity, finite-additivity]
+depends_on:
+  required: [discrete-probability-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "5"
+    pages: ""
+    role_in_book: "Basic properties of probability: P(empty)=0, P(Omega)=1, additivity, complement rule, union formula"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

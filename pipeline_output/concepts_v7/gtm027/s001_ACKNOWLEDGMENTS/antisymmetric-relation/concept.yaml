@@ -1,0 +1,23 @@
+id: antisymmetric-relation
+title_en: "Anti-Symmetric Relation"
+title_zh: "反对称关系"
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [antisymmetric, relation]
+depends_on:
+  required: [relation-definition, inverse-relation, empty-set]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Relations"
+    pages: "8"
+    role_in_book: "Property used to define partial and linear orders"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

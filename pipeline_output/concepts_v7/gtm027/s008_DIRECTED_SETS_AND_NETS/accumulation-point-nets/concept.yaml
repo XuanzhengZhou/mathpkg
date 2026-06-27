@@ -1,0 +1,23 @@
+id: accumulation-point-nets
+title_en: "Accumulation Point via Nets"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: nets-and-convergence
+difficulty: intermediate
+tags: ["accumulation-point", "net", "convergence", "closure"]
+depends_on:
+  required: ["net", "convergence-of-net", "accumulation-point", "topological-space"]
+  recommended: ["closure-nets"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "2"
+    section: "Directed Sets and Nets"
+    pages: "81-87"
+    role_in_book: "Characterizes accumulation points of a set in terms of nets converging from the set without the point."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

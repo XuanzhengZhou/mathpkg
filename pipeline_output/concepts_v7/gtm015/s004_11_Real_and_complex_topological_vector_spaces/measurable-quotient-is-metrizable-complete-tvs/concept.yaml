@@ -1,0 +1,23 @@
+id: measurable-quotient-is-metrizable-complete-tvs
+title_en: "Space of Measurable Functions Modulo Null is a Metrizable Complete TVS"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: intermediate
+tags: [TVS, F-space, metrizable, completeness, measure-theory]
+depends_on:
+  required: [measurable-functions-quotient-modulo-null, d-metric-completeness-on-measurable-quotient, f-space-is-metrizable-complete-tvs]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "Chapter 2 – Topological Vector Spaces"
+    section: "15. The space (S)"
+    pages: ""
+    role_in_book: "Main result of the section: [M] is an F-space; serves as a counterexample source."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

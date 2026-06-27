@@ -1,0 +1,23 @@
+id: existence-uniqueness-classical-solution-heat-equation
+title_en: "Existence and uniqueness of classical solution to the heat equation"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: partial-differential-equations
+difficulty: intermediate
+tags: [heat-equation, classical-solution, existence, uniqueness, maximum-principle, dirichlet-boundary]
+depends_on:
+  required: [classical-solution-heat-equation, maximum-principle-heat-equation, existence-uniqueness-distribution-solution-heat-equation]
+  recommended: [fourier-series, odd-periodic-extension]
+  suggested: [neumann-boundary-conditions]
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "4"
+    section: "The heat equation: classical solutions; derivation"
+    pages: ""
+    role_in_book: "Main theorem of §4: proves existence and uniqueness of classical solutions for Dirichlet boundary conditions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

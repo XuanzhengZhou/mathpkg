@@ -1,0 +1,13 @@
+id: abelian-category
+title_en: "Abelian Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [abelian-category, kernel, cokernel, image, exact-sequence]
+depends_on: {required: [additive-category, kernel-in-category-with-zero-object, monomorphism-in-a-category, epimorphism-in-a-category], recommended: [], suggested: []}
+source_books: [{book_id: "gtm004", author: "Peter J. Hilton, Urs Stammbach", title: "A Course in Homological Algebra (2ed, 1997)", chapter: "II. Categories and Functors", section: "9. Abelian Categories", pages: "", role_in_book: "Defines an abelian category as an additive category with kernels, cokernels, and the canonicalImage factorization"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

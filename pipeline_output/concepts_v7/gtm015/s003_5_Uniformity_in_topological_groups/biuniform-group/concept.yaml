@@ -1,0 +1,23 @@
+id: biuniform-group
+title_en: "Bi-uniform topological group"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: topological-groups
+difficulty: advanced
+tags: [bi-uniform, left-uniformity, right-uniformity]
+depends_on:
+  required: [left-uniform-structure, right-uniform-structure]
+  recommended: [topological-group]
+  suggested: [compact-group, abelian-group]
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "10"
+    section: "Bi-uniform topological groups"
+    pages: ""
+    role_in_book: "Defines the important class of groups where left and right uniformities coincide."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

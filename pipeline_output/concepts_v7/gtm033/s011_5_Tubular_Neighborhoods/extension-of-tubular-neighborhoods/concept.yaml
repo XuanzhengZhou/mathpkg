@@ -1,0 +1,23 @@
+id: extension-of-tubular-neighborhoods
+title_en: "Extension of Tubular Neighborhoods"
+title_zh: "管状邻域的延拓"
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [tubular-neighborhood, extension, neat-submanifold, collar, isotopy]
+depends_on:
+  required: [tubular-neighborhood, neat-submanifold, isotopy-uniqueness-of-tubular-neighborhoods]
+  recommended: [collar, tubular-neighborhood-for-neat-submanifolds]
+  suggested: []
+source_books:
+  - book_id: gtm033
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "6. Collars and Tubular Neighborhoods of Neat Submanifolds"
+    pages: ""
+    role_in_book: "Theorem 6.4 - Tubular neighborhoods on the boundary extend to the interior"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

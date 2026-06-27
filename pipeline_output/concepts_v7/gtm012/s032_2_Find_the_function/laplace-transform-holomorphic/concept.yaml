@@ -1,0 +1,23 @@
+id: laplace-transform-holomorphic
+title_en: "Holomorphicity and estimate of the Laplace transform"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: integral-transforms
+difficulty: intermediate
+tags: [laplace-transform, holomorphic-function, complex-differentiation, exponential-estimate]
+depends_on:
+  required: [laplace-transform]
+  recommended: [holomorphic-function, dominated-convergence-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "4"
+    section: "§5"
+    pages: ""
+    role_in_book: "Theorem 5.1: establishes that the Laplace transform is holomorphic, gives its derivative formula, and provides a uniform exponential estimate"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

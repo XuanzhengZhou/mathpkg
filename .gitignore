@@ -7,7 +7,6 @@ pipeline_output/ocr_output/
 pipeline_output/stitched/
 pipeline_output/stitched_v2/
 pipeline_output/stitched_sections/
-pipeline_output/concepts_v7/
 pipeline_output/section_indexes/
 
 # Python
@@ -69,8 +68,8 @@ memory/
 
 
 # 概念提取结果 — 上传结构，排除临时标记
-pipeline_output/concepts_v7/*/.done
-pipeline_output/concepts_v7/*/.fail
-pipeline_output/concepts_v7/*/.lean.done
-pipeline_output/concepts_v7/*/.lean.fail
+pipeline_output/concepts_v7/**/.done
+pipeline_output/concepts_v7/**/.fail
+pipeline_output/concepts_v7/**/.lean.done
+pipeline_output/concepts_v7/**/.lean.fail
 

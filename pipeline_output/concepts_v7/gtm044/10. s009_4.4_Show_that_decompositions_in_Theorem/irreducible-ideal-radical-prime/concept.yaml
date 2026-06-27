@@ -1,0 +1,25 @@
+id: irreducible-ideal-radical-prime
+title_en: "Radical of an Irreducible Ideal in a Noetherian Ring is Prime"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [irreducible-ideal, radical, prime-ideal, noetherian-ring]
+depends_on:
+  required: [irreducible-ideal, radical-ideal, prime-ideal, noetherian-ring, irreducible-ideal-primary]
+  recommended: [primary-ideal-radical-prime]
+  suggested: []
+
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "5"
+    section: "5.3"
+    pages: ""
+    role_in_book: "Exercise 5.3; combines irreducibility-primary connection with radical-prime connection"
+
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

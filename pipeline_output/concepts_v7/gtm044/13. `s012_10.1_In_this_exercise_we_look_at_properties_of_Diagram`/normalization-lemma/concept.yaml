@@ -1,0 +1,23 @@
+id: normalization-lemma
+title_en: "Lemma 11.5: Normalization Lemma"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: commutative-algebra
+difficulty: advanced
+tags: [normalization, integral-extension, noether-normalization, transcendence-degree, coordinate-ring]
+depends_on:
+  required: [integral-extension, transcendence-degree]
+  recommended: [polynomial-ring, algebraic-extension]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "11"
+    section: "11.5"
+    pages: ""
+    role_in_book: "Noether normalization for affine coordinate rings over C"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

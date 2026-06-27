@@ -1,0 +1,23 @@
+id: homomorphic-relation-isomorphism
+title_en: "Isomorphism Condition for the Homomorphic Relation $\Theta$"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [homomorphic-relation, rees-system, spectral-sequence, isomorphism, cokernel, kernel]
+depends_on:
+  required: [homomorphic-relation]
+  recommended: [limit-diagram-of-rees-system]
+  suggested: [spectral-sequence-convergence]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "7"
+    pages: ""
+    role_in_book: "Characterizes when the spectral sequence E_\infty is naturally isomorphic to \Gamma^+"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: fourier-coefficient-recovery
+title_en: "Fourier Coefficient Recovery Formula for Absolutely Summable Series"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: basic
+tags: [fourier-coefficients, fourier-series, absolutely-convergent, orthogonality]
+depends_on:
+  required: []
+  recommended: [fourier-series, uniform-convergence]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "0"
+    section: "Apéritif (Wiener's Theorem)"
+    pages: ""
+    role_in_book: "Remark 1; establishes the one-to-one correspondence between absolutely summable sequences and functions in the Wiener algebra"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

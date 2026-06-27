@@ -1,0 +1,23 @@
+id: generalized-distribution-function
+title_en: "Generalized distribution function"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: measure-theory
+difficulty: intermediate
+tags: [distribution-function, generalized, lebesgue-stieltjes, real-line, sigma-finite]
+depends_on:
+  required: [distribution-function-on-real-line]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "Shiryaev, A.N."
+    title: "Probability-1"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines generalized distribution functions on the real line, extending the concept to sigma-finite measures"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: unitary-to-star-representation
+title_en: "From continuous unitary representation to nondegenerate star-representation"
+title_zh: "从连续酉表示到非退化*-表示"
+type: theorem
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: advanced
+tags: [unitary-representation, star-representation, l1-group-algebra, sesquilinear-form]
+depends_on:
+  required: []
+  recommended: [unitary-representation, star-representation, l1-group-algebra, approximate-identity]
+  suggested: [representation-correspondence-bijection]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "69"
+    section: "Group representations"
+    pages: "310-311"
+    role_in_book: "Theorem (69.21) constructing a nondegenerate *-representation from a unitary representation"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

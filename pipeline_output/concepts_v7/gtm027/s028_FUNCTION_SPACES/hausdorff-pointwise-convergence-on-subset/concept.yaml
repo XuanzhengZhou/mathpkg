@@ -1,0 +1,23 @@
+id: hausdorff-pointwise-convergence-on-subset
+title_en: "Hausdorff Criterion for Pointwise Convergence on a Subset"
+title_zh: "子集上逐点收敛的 Hausdorff 判别准则"
+type: theorem
+domain: topology
+subdomain: function-spaces
+difficulty: intermediate
+tags: [hausdorff, pointwise-convergence, subset-topology, distinguishes-members, compactness, topological-identity]
+depends_on:
+  required: [pointwise-convergence-on-subset, distinguishes-members-of-family, hausdorff-space, compact-hausdorff-topology-maximality]
+  recommended: [restriction-map, product-topology]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Pointwise Convergence"
+    pages: ""
+    role_in_book: "Theorem 2 of Chapter 7: characterizes when φ_A is Hausdorff and when it coincides with the full pointwise topology"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: h1-with-trivial-coefficients
+title_en: "Theorem 4.6: $H^1(G, A) \cong \operatorname{Hom}(G_{\text{ab}}, A)$ for Trivial $A$"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: ["h1-cohomology", "trivial-module", "abelianization", "hom-group"]
+depends_on:
+  required: ["h1-as-cokernel", "augmentation-ideal-mod-square-isomorphic-to-abelianization"]
+  recommended: ["g-module"]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VI"
+    section: "4"
+    pages: ""
+    role_in_book: "Explicit computation of H^1 for trivial coefficient modules"
+content_hash: "ed452d48723d"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,407 @@
+$$[\psi_1(\omega), \psi_2(\omega)]$$
+
+where $\psi_1(\omega)$ and $\psi_2(\omega)$ are functions of sample points, is called a confidence interval of reliability $1 - \delta$ (or of significance level $\delta$) if
+
+$$P_\theta \{ \psi_1(\omega) \leq \theta \leq \psi_2(\omega) \} \geq 1 - \delta$$
+
+for all $\theta \in \Theta$.
+
+The preceding discussion shows that the interval
+
+$$[T^*_n - \frac{\lambda}{2\sqrt{n}}, T^*_n + \frac{\lambda}{2\sqrt{n}}]$$
+
+has reliability $1 - (1/\lambda^2)$. In point of fact, the reliability of this confidence interval is considerably higher, since Chebyshev’s inequality gives only crude estimates of the probabilities of events.
+
+To obtain more precise results we notice that
+
+$$\left\{ \omega : |\theta - T^*_n| \leq \lambda \sqrt{\frac{\theta(1 - \theta)}{n}} \right\} = \{ \omega : \psi_1(T^*_n, n) \leq \theta \leq \psi_2(T^*_n, n) \},$$
+
+where $\psi_1 = \psi_1(T^*_n, n)$ and $\psi_2 = \psi_2(T^*_n, n)$ are the roots of the quadratic equation
+
+$$(\theta - T^*_n)^2 = \frac{\lambda^2}{n} \theta(1 - \theta),$$
+
+which describes an ellipse situated as shown in Fig. 13.
+
+Fig. 13
+
+Now let
+
+$$F^n_\theta(x) = P_\theta \left\{ \frac{S_n - n\theta}{\sqrt{n\theta(1-\theta)}} \leq x \right\}.$$
+
+Then by (24) of Sect. 6
+
+$$\sup_x |F^n_\theta(x) - \Phi(x)| \leq \frac{1}{\sqrt{n\theta(1-\theta)}}.$$
+
+Therefore if we know a priori that
+
+$$0 < \Delta \leq \theta \leq 1 - \Delta < 1,$$
+
+where $\Delta$ is a constant, then
+
+$$\sup_x |F^n_\theta(x) - \Phi(x)| \leq \frac{1}{\Delta\sqrt{n}}$$
+
+and consequently
+
+$$P_\theta \left\{\psi_1(T^*_n, n) \leq \theta \leq \psi_2(T^*_n, n)\right\} = P_\theta \left\{ |\theta - T^*_n| \leq \lambda \sqrt{\frac{\theta(1-\theta)}{n}} \right\}$$
+
+$$= P_\theta \left\{ \frac{|S_n - n\theta|}{\sqrt{n\theta(1-\theta)}} \leq \lambda \right\}$$
+
+$$\geq (2\Phi(\lambda) - 1) - \frac{2}{\Delta\sqrt{n}}.$$
+
+Let $\lambda^*$ be the smallest $\lambda$ for which
+
+$$(2\Phi(\lambda) - 1) - \frac{2}{\Delta\sqrt{n}} \geq 1 - \delta^*.$$
+
+where $\delta^*$ is a given significance level. Putting $\delta = \delta^* - (2/\Delta\sqrt{n})$, we find that $\lambda^*$ satisfies the equation
+
+$$\Phi(\lambda) = 1 - \frac{1}{2}\delta.$$
+
+For large $n$ we may neglect the term $2/\Delta\sqrt{n}$ and assume that $\lambda^*$ satisfies
+
+$$\Phi(\lambda^*) = 1 - \frac{1}{2}\delta^*.$$
+
+In particular, if
+
+or, after iterating and then suppressing terms of order $O(n^{-3/4})$, we obtain
+
+$$T_n^* - 3\sqrt{\frac{T_n^*(1 - T_n^*)}{n}} \leq \theta \leq T_n^* + 3\sqrt{\frac{T_n^*(1 - T_n^*)}{n}}.$$  
+
+(9)
+
+Hence it follows that the confidence interval
+
+$$\left[ T_n^* - \frac{3}{2\sqrt{n}}, T_n^* + \frac{3}{2\sqrt{n}} \right]$$  
+
+(10)
+
+has (for large $n$) reliability 0.9973 (whereas Chebyshev’s inequality only provided reliability approximately 0.8889).
+
+To illustrate the practical meaning of this result, suppose that we carry out a large number $N$ of series of experiments, in each of which we estimate the parameter $\theta$ after $n$ observations. Then in about 99.73% of the $N$ cases the estimate will differ from the true value of the parameter by at most $\frac{3}{2\sqrt{n}}$. (On this topic see also the end of Sect. 5.)
+
+One should remember that the confidence interval (10) is approximate and valid only for large $n$. For the construction of the exact confidence interval with appropriate tables and references see [11].
+
+3. PROBLEMS
+
+1. Let it be known $a$ priori that $\theta$ takes values in the set $\Theta_0 \subseteq [0, 1]$. When does an unbiased estimator for $\theta$ exist, taking values only in $\Theta_0$?
+
+2. Under the conditions of the preceding problem, find an analog of the Rao–Cramér inequality and discuss the problem of efficient estimators.
+
+3. Under the conditions of the first problem, discuss the construction of confidence intervals for $\theta$.
+
+4. In addition to Problem 5 in Sect. 2 discuss the problem of unbiasedness and efficiency of the estimator $\hat{N}$ assuming that $N$ is sufficiently large, $N \gg M, N \gg n$. By analogy with the confidence intervals for $\theta$ (see (8) and (9)),
+
+a decomposition of $\Omega (D_i \in \mathcal{A}, \text{P}(D_i) > 0, i = 1, \ldots, k,$ and $D_1 + \cdots + D_k = \Omega)$. Also let $A$ be an event from $\mathcal{A}$ and $\text{P}(A \mid D_i)$ the conditional probability of $A$ with respect to $D_i$.
+
+With a set of conditional probabilities $\{\text{P}(A \mid D_i), i = 1, \ldots, k\}$ we may associate the random variable
+
+$$\pi(\omega) = \sum_{i=1}^{k} \text{P}(A \mid D_i) I_{D_i}(\omega)$$
+
+(cf. (5) of Sect. 4), that takes the values $\text{P}(A \mid D_i)$ on the atoms of $D_i$. To emphasize that this random variable is associated specifically with the decomposition $\mathcal{D}$, we denote it by
+
+$$\text{P}(A \mid \mathcal{D}) \text{ or } \text{P}(A \mid \mathcal{D})(\omega)$$
+
+and call it the conditional probability of the event $A$ with respect to the decomposition $\mathcal{D}$.
+
+This concept, as well as the more general concept of conditional probabilities with respect to a $\sigma$-algebra, which will be introduced later, plays an important role in probability theory, a role that will be developed progressively as we proceed.
+
+We mention some of the simplest properties of conditional probabilities:
+
+$$\text{P}(A + B \mid \mathcal{D}) = \text{P}(A \mid \mathcal{D}) + \text{P}(B \mid \mathcal{D});$$
+
+if $\mathcal{D}$ is the trivial decomposition consisting of the single set $\Omega$ then
+
+$$\text{P}(A \mid \Omega) = \text{P}(A).$$
+
+The definition of $\text{P}(A \mid \mathcal{D})$ as a random variable lets us speak of its expectation; by using this, we can write the formula for total probability (see (3), Sect. 3) in the following compact
+
+by $P(A \mid \eta)$ or $P(A \mid \eta)(\omega)$, and called the conditional probability of $A$ with respect to the random variable $\eta$. We also denote by $P(A \mid \eta = y_j)$ the conditional probability $P(A \mid D_j)$, where $D_j = \{\omega : \eta(\omega) = y_j\}$.
+
+Similarly, if $\eta_1, \eta_2, \ldots, \eta_m$ are random variables and $\mathcal{D}_{\eta_1, \eta_2, \ldots, \eta_m}$ is the decomposition induced by $\eta_1, \eta_2, \ldots, \eta_m$ with atoms
+
+$$D_{y_1, y_2, \ldots, y_m} = \{\omega : \eta_1(\omega) = y_1, \ldots, \eta_m(\omega) = y_m\},$$
+
+then $P(A \mid D_{\eta_1, \eta_2, \ldots, \eta_m})$ will be denoted by $P(A \mid \eta_1, \eta_2, \ldots, \eta_m)$ and called the conditional probability of $A$ with respect to $\eta_1, \eta_2, \ldots, \eta_m$.
+
+Example 1. Let $\xi$ and $\eta$ be independent identically distributed random variables, each taking the values 1 and 0 with probabilities $p$ and $q$. For $k = 0, 1, 2$, let us find the conditional probability $P(\xi + \eta = k \mid \eta)$ of the event $A = \{\omega : \xi + \eta = k\}$ with respect to $\eta$.
+
+To do this, we first notice the following useful general fact: if $\xi$ and $\eta$ are independent random variables with respective values $x$ and $y$, then
+
+$$P(\xi + \eta = z \mid \eta = y) = P(\xi + y = z).$$
+
+In fact,
+
+$$P(\xi + \eta = z \mid \eta = y) = \frac{P(\xi + \eta = z, \eta = y)}{P(\eta = y
+
+2. Let $\xi = \xi(\omega)$ be a random variable with values in the set $X = \{x_1, \ldots, x_n\}$:
+
+$$\xi = \sum_{j=1}^{l} x_j I_{A_j}(\omega), \quad A_j = \{\omega : \xi = x_j\},$$
+
+and let $\mathcal{D} = \{D_1, \ldots, D_k\}$ be a decomposition. Just as we defined the expectation of $\xi$ with respect to the probabilities $P(A_j), j = 1, \ldots, l$,
+
+$$E \xi = \sum_{j=1}^{l} x_j P(A_j),$$
+
+(8)
+
+it is now natural to define the conditional expectation of $\xi$ with respect to $\mathcal{D}$ by using the conditional probabilities $P(A_j | \mathcal{D}), j = 1, \ldots, l$. We denote this expectation by $E(\xi | \mathcal{D})$ or $E(\xi | \mathcal{D})(\omega)$, and define it by the formula
+
+$$E(\xi | \mathcal{D}) = \sum_{j=1}^{l} x_j P(A_j | \mathcal{D}).$$
+
+(9)
+
+According to this definition the conditional expectation $E(\xi | \mathcal{D})(\omega)$ is a random variable which, at all sample points $\omega$ belonging to the same atom $D_i$, takes the same value $\sum_{j=1}^{l} x_j P(A_j | D_i)$. This observation shows that the definition of $E(\xi | \mathcal{D})$ could have been expressed differently. In fact, we could first define $E(\xi | D_i)$, the conditional expectation of $\xi$ with respect to $D_i$, by
+
+$$E(\xi | D_i) = \sum_{j=1}^{l} x_j P(A_j | D_i) \left( = \frac{E[\xi I_{D_i}]}{P(D_i)}\right),$$
+
+(10)
+
+and then define
+
+$$E(\xi | \mathcal{D})(\omega) = \sum_{i=1}^{k} E(\xi | D_i) I_{D_i}(\omega
+
+The following properties of conditional expectations follow immediately from the definitions:
+
+$$E(a\xi + b\eta \mid \mathcal{D}) = aE(\xi \mid \mathcal{D}) + bE(\eta \mid \mathcal{D}), \quad a \text{ and } b \text{ constants};$$
+
+$$E(\xi \mid \Omega) = E\xi;$$
+
+$$E(C \mid \mathcal{D}) = C, \quad C \text{ constant};$$
+
+if $\xi = I_A(\omega)$ then
+
+$$E(\xi \mid \mathcal{D}) = P(A \mid \mathcal{D}).$$
+
+The last equation shows, in particular, that properties of conditional probabilities can be deduced directly from properties of conditional expectations.
+
+The following important property extends the formula for total probability (4):
+
+$$E E(\xi \mid \mathcal{D}) = E\xi.$$
+
+For the proof, it is enough to notice that by (4)
+
+$$E E(\xi \mid \mathcal{D}) = E \sum_{j=1}^{l} x_j P(A_j \mid \mathcal{D}) = \sum_{j=1}^{l} x_j E P(A_j \mid \mathcal{D}) = \sum_{j=1}^{l} x_j P(A_j) = E\xi.$$
+
+Let $\mathcal{D} = \{D_1, \ldots, D_k\}$ be a decomposition and $\eta = \eta(\omega)$ a random variable. We say that $\eta$ is measurable with respect to this decomposition, or $\mathcal{D}$-measurable, if $\mathcal{D}_\eta \preceq \mathcal{D}$, i.e., $\eta = \eta(\omega)$ can be represented in the form
+
+$$\eta(\omega) = \sum_{i=1}^{k} y_i I_{D_i}(\omega),$$
+
+where some $y_i$ might be equal. In other words, a random variable is $\mathcal{D}$-measurable if and only if it takes constant values on the atoms of $\mathcal{D}$.
+
+Example 2. If $\mathcal{D}$ is the trivial decomposition, $\mathcal{D} = \{\Omega\}$, then $\eta$ is $\mathcal{D}$-meas
+
+and therefore
+
+$$E(\xi \eta \mid \mathcal{D}) = \sum_{j=1}^{l} \sum_{i=1}^{k} x_j y_i P(A_j D_i \mid \mathcal{D})$$
+
+$$= \sum_{j=1}^{l} \sum_{i=1}^{k} x_j y_i \sum_{m=1}^{k} P(A_j D_i \mid D_m) I_{D_m}(\omega)$$
+
+$$= \sum_{j=1}^{l} \sum_{i=1}^{k} x_j y_i P(A_j D_i \mid D_i) I_{D_i}(\omega)$$
+
+$$= \sum_{j=1}^{l} \sum_{i=1}^{k} x_j y_i P(A_j \mid D_i) I_{D_i}(\omega).$$
+
+(19)
+
+On the other hand, since $I_{D_i}^2 = I_{D_i}$ and $I_{D_i} \cdot I_{D_m} = 0$, $i \neq m$, we obtain
+
+$$\eta E(\xi \mid \mathcal{D}) = \left[ \sum_{i=1}^{k} y_i I_{D_i}(\omega) \right] \cdot \left[ \sum_{j=1}^{l} x_j P(A_j \mid \mathcal{D}) \right]$$
+
+$$= \left[ \sum_{i=1}^{k} y_i I_{D_i}(\omega) \right] \cdot \sum_{m=1}^{k} \left[ \sum_{j=1}^{l} x_j P(A_j \mid D_m) \right] \cdot I_{D_m}(\omega)$$
+
+$$= \sum_{i=1}^{k} \sum_{j=1}^{l} y_i x_j P(A_j \mid D_i) \cdot I_{D_i}(\omega),$$
+
+which, with (19), establishes (17).
+
+We shall establish another important property of conditional expectations. Let $\mathcal{D}_1$ and $\mathcal{D}_2$ be two decompositions, with $\mathcal{D}_1 \preceq \mathcal{D}_2$ ($\mathcal{D}_2$ is “finer” than $\mathcal{D}_1$). Then
+
+Since
+$$P(A_j \mid \mathcal{D}_2) = \sum_{q=1}^{n} P(A_j \mid D_{2q}) I_{D_{2q}},$$
+we have
+$$E[P(A_j \mid \mathcal{D}_2) \mid \mathcal{D}_1] = \sum_{q=1}^{n} P(A_j \mid D_{2q}) P(D_{2q} \mid \mathcal{D}_1)$$
+$$= \sum_{q=1}^{n} P(A_j \mid D_{2q}) \left[ \sum_{p=1}^{m} P(D_{2q} \mid D_{1p}) I_{D_{1p}} \right]$$
+$$= \sum_{p=1}^{m} I_{D_{1p}} \cdot \sum_{q=1}^{n} P(A_j \mid D_{2q}) P(D_{2q} \mid D_{1p})$$
+$$= \sum_{p=1}^{m} I_{D_{1p}} \cdot \sum_{\{q : D_{2q} \subseteq D_{1p}\}} P(A_j \mid D_{2q}) P(D_{2q} \mid D_{1p})$$
+$$= \sum_{p=1}^{m} I_{D_{1p}} \cdot \sum_{\{q : D_{2q} \subseteq D_{1p}\}} \frac{P(A_j D_{2q})}{P(D_{2q})} \cdot \frac{P(D_{2q})}{P(D_{1p})}$$
+$$= \sum_{p=1}^{m} I_{D_{1p}} \cdot P(A_j \mid D_{1p}) = P(A_j \mid \mathcal{D}_1),$$
+which establishes (21).
+
+When $\mathcal{D}$ is induced by the random variables $\eta_1, \ldots, \eta_k$ (i.e., $\mathcal{D} = \mathcal{D}_{\eta_1, \ldots, \eta_k}$), the conditional expectation $E(\xi \mid \mathcal{D}_{\eta_1, \ldots, \eta_k})$ will be denoted by $E(\xi \
+
+As a special case of (20) we obtain the following useful formula:
+
+$$E[E(\xi | \eta_1, \eta_2) | \eta_1] = E(\xi | \eta_1).$$
+
+Example 3. Let us find $E(\xi + \eta | \eta)$ for the random variables $\xi$ and $\eta$ considered in Example 1. By (22) and (23),
+
+$$E(\xi + \eta | \eta) = E\xi + \eta = p + \eta.$$
+
+This result can also be obtained by starting from (8):
+
+$$E(\xi + \eta | \eta) = \sum_{k=0}^{2} kP(\xi + \eta = k | \eta) = p(1 - \eta) + q\eta + 2p\eta = p + \eta.$$
+
+Example 4. Let $\xi$ and $\eta$ be independent and identically distributed random variables. Then
+
+$$E(\xi | \xi + \eta) = E(\eta | \xi + \eta) = \frac{\xi + \eta}{2}.$$
+
+In fact, if we assume for simplicity that $\xi$ and $\eta$ take the values $1, 2, \ldots, m$, we find $(1 \leq k \leq m, 2 \leq l \leq 2m)$
+
+$$P(\xi = k | \xi + \eta = l) = \frac{P(\xi = k, \xi + \eta = l)}{P(\xi + \eta = l)} = \frac{P(\xi = k, \eta = l - k)}{P(\xi + \eta = l)}$$
+
+$$= \frac{P(\xi = k)P(\eta = l - k)}{P(\xi + \eta = l)} = \frac{P(\eta = k)P(\xi = l - k)}{P(\xi + \eta = l)}$$
+
+$$= P(\eta = k | \xi + \eta = l).$$
+
+This establishes the first equation in (26). To prove the second, it is enough to notice that
+
+$$2E(\xi | \xi + \eta) = E(\xi | \xi + \eta) + E(\eta | \
+
+4. PROBLEMS.
+
+1. Give an example of random variables $\xi$ and $\eta$ which are not independent but for which
+   $$E(\xi \mid \eta) = E\xi.$$
+   (Cf. (22).)
+
+2. The conditional variance of $\xi$ with respect to $\mathcal{D}$ is the random variable
+   $$\text{Var}(\xi \mid \mathcal{D}) = E[(\xi - E(\xi \mid \mathcal{D}))^2 \mid \mathcal{D}].$$
+   Show that
+   $$\text{Var}\xi = E \text{Var}(\xi \mid \mathcal{D}) + \text{Var}E(\xi \mid \mathcal{D}).$$
+
+3. Starting from (17), show that for every function $f = f(\eta)$ the conditional expectation $E(\xi \mid \eta)$ has the property
+   $$E[f(\eta) E(\xi \mid \eta)] = E[\xi f(\eta)].$$  (27)
+
+4. Let $\xi$ and $\eta$ be random variables. Show that $\inf_f E(\eta - f(\xi))^2$ is attained for $f^*(\xi) = E(\eta \mid \xi)$. (Consequently, the best estimator for $\eta$ in terms of $\xi$, in the mean-square sense, is the conditional expectation $E(\eta \mid \xi))$.
+
+5. Let $\xi_1, \ldots, \xi_n, \tau$ be independent random variables, where $\xi_1, \ldots, \xi_n$ are identically distributed and $\tau$ takes the values $1, 2, \ldots, n$. Show that if $S_\tau = \xi_1 + \cdots + \xi_\tau$ is the sum of a random number of the random variables, then
+   $$E(S_\tau \mid \tau) = \tau E\xi_1, \quad \text{Var}(S_\tau \mid \tau) = \tau \text{Var}\xi_1$$
+   and
+   $$E S_\tau = E \tau \cdot E\xi_1, \quad \text{Var} S_\tau = E \tau \cdot \text{Var}\
+
+In this and the next section we shall discuss a number of new probabilistic regularities, some of which are quite surprising. The ones that we discuss are again based on the Bernoulli scheme, although many results on the nature of random oscillations remain valid for random walks of a more general kind.
+
+2. Consider the Bernoulli scheme $(\Omega, \mathcal{A}, P)$, where $\Omega = \{\omega : \omega = (x_1, \ldots, x_n), x_i = \pm 1\}$, $\mathcal{A}$ consists of all subsets of $\Omega$, and $P(\{\omega\}) = p^{\nu(\omega)} q^{n-\nu(\omega)}$ with $\nu(\omega) = (\sum x_i + n)/2$. Let $\xi_i(\omega) = x_i, i = 1, \ldots, n$. Then, as we know, the sequence $\xi_1, \ldots, \xi_n$ is a sequence of independent Bernoulli random variables,
+
+$$P(\xi_i = 1) = p, \quad P(\xi_i = -1) = q, \quad p + q = 1.$$
+
+Let us put $S_0 = 0$, $S_k = \xi_1 + \cdots + \xi_k$, $1 \leq k \leq n$. The sequence $S_0, S_1, \ldots, S_n$ can be considered as the path of the random motion of a particle starting at zero. Here $S_{k+1} = S_k + \xi_k$, i.e., if the particle has reached the point $S_k$ at time $k$, then at time $k+1$ it is displaced either one unit up (with probability $p$) or one unit down (with probability $q$).
+
+Let $A$ and $B$ be integers, $A \leq 0 \leq B$. An interesting problem about this random walk is to find the probability that after $n$ steps the moving particle has left the interval $(A, B)$. It is also of interest to ask with what probability the particle leaves $(A, B)$ at $A$ or at $B$.
+
+That these are natural questions to ask becomes particularly clear if we interpret them in terms of a gambling game. Consider two players (first and second)
+
+For $0 \leq k \leq n$, we write
+
+$$\mathcal{A}_k^x = \sum_{0 \leq l \leq k} \{\omega : \tau_k^x = l, S_l^x = A\},$$
+
+$$\mathcal{B}_k^x = \sum_{0 \leq l \leq k} \{\omega : \tau_k^x = l, S_l^x = B\},$$
+
+and let
+
+$$\alpha_k(x) = \text{P}(\mathcal{A}_k^x), \quad \beta_k(x) = \text{P}(\mathcal{B}_k^x)$$
+
+be the probabilities that the particle leaves $(A, B)$ through $A$ or $B$ respectively, during the time interval $[0, k]$. For these probabilities we can find recurrent relations from which we can successively determine $\alpha_1(x), \ldots, \alpha_n(x)$ and $\beta_1(x), \ldots, \beta_n(x)$.
+
+Let, then, $A < x < B$. It is clear that $\alpha_0(x) = \beta_0(x) = 0$. Now suppose $1 \leq k \leq n$. Then by (3) of Sect. 3
+
+$$\beta_k(x) = \text{P}(\mathcal{B}_k^x) = \text{P}(\mathcal{B}_k^x \mid S_1^x = x + 1) \text{P}(\xi_1 = 1)$$
+
+$$+ \text{P}(\mathcal{B}_k^x \mid S_1^x = x - 1) \text{P}(\xi_1 = -1)$$
+
+$$= p \text{P}(\mathcal{B}_k^x \mid S_1^x = x + 1) + q \text{P}(\mathcal{B}_k^x \mid S_1^x = x - 1).$$
+
+We now show that
+
+$$\text{P}(\mathcal{B}_k^x \mid S_1^x = x + 1) = \text{P}(\mathcal{B}_{k-1}^{x+1}), \quad \text{P}(\mathcal{B}_k^x \mid S_1^x
+
+Fig. 15 Example of a path from the set $B_k^x$
+
+$$P(\mathcal{B}_k^x \mid S_1^x = x + 1)$$
+$$= P(\mathcal{B}_k^x \mid \xi_1 = 1)$$
+$$= P\{(x, x + \xi_1, \ldots, x + \xi_1 + \cdots + \xi_k) \in B_k^x \mid \xi_1 = 1\}$$
+$$= P\{(x + 1, x + 1 + \xi_2, \ldots, x + 1 + \xi_2 + \cdots + \xi_k) \in B_{k-1}^{x+1}\}$$
+$$= P\{(x + 1, x + 1 + \xi_1, \ldots, x + 1 + \xi_1 + \cdots + \xi_{k-1}) \in B_{k-1}^{x+1}\}$$
+$$= P(\mathcal{B}_{k-1}^{x+1}).$$
+
+In the same way,
+
+$$P(\mathcal{B}_k^x \mid S_1^x = x - 1) = P(\mathcal{B}_{k-1}^{x-1}).$$
+
+Consequently, by (3), for $x \in (A, B)$ and $k \leq n$,
+
+$$\beta_k(x) = p\beta_{k-1}(x + 1) + q\beta_{k-1}(x - 1),$$
+
+(4)
+
+where
+
+$$\beta_l(B) = 1, \quad \beta_l(A) = 0, \quad 0 \leq l \leq n.$$
+
+Similarly
+
+$$\alpha_k(x) = p\alpha_{k-1}(x + 1) + q\alpha_{k-1}(x - 1)$$
+
+(6)
+
+with
+
+$$\alpha_l(A) = 1, \quad \alpha_l(B) = 0, \quad 0 \leq l \leq n.$$
+
+Since $\alpha_0(x) = \beta_0(x) = 0, x \in (A, B)$, these recurrent relations can (at least
+
+For this purpose we notice that since $\mathcal{B}_{k-1}^x \subset \mathcal{B}_k^x$, $k \leq n$, we have $\beta_{k-1}(x) \leq \beta_k(x) \leq 1$. It is therefore natural to expect (and this is actually the case; see Subsection 3) that for sufficiently large $n$ the probability $\beta_n(x)$ will be close to the solution $\beta(x)$ of the equation
+
+$$\beta(x) = p\beta(x+1) + q\beta(x-1)$$
+
+with the boundary conditions
+
+$$\beta(B) = 1, \quad \beta(A) = 0$$
+
+that result from a formal approach to the limit in (4) and (5).
+
+To solve the problem in (7) and (8), we first suppose that $p \neq q$. We see easily that the equation has the two particular solutions $a$ and $b(q/p)^x$, where $a$ and $b$ are constants. Hence we look for a general solution of the form
+
+$$\beta(x) = a + b(q/p)^x.$$
+
+Taking account of (8), we find that for $A \leq x \leq B$
+
+$$\beta(x) = \frac{(q/p)^x - (q/p)^A}{(q/p)^B - (q/p)^A}.$$
+
+Let us show that this is the only solution of our problem. It is enough to show that all solutions of the problem in (7) and (8) admit the representation (9).
+
+Let $\tilde{\beta}(x)$ be a solution with $\tilde{\beta}(A) = 0$, $\tilde{\beta}(B) = 1$. We can always find constants $\tilde{a}$ and $\tilde{b}$ such that
+
+$$\tilde{a} + \tilde{b}(q/p)^A = \tilde{\beta}(A), \quad \tilde{a} + \tilde{b}(q/p)^{A+1} = \tilde{\beta}(A+1).$$
+
+Then it follows from (7) that
+
+$$\tilde{\beta}(A+2) = \tilde{a} + \tilde{b}(q/p)^{A+2}$$
+
+and generally
+
+$$\tilde{\beta}(x) = \
+
+If $p = q = \frac{1}{2}$, the only solutions $\beta(x)$ and $\alpha(x)$ of (7), (8) and (11), (12) are respectively
+
+$$\beta(x) = \frac{x - A}{B - A}$$
+
+and
+
+$$\alpha(x) = \frac{B - x}{B - A}.$$
+
+We note that
+
+$$\alpha(x) + \beta(x) = 1$$
+
+for $0 \leq p \leq 1$.
+
+We call $\alpha(x)$ and $\beta(x)$ the probabilities of ruin for the first and second players, respectively (when the first player’s bankroll is $x - A$, and the second player’s is $B - x$) under the assumption of infinitely many turns, which of course presupposes an infinite sequence of independent Bernoulli random variables $\xi_1, \xi_2, \ldots$, where $\xi_i = +1$ is treated as a gain for the first player, and $\xi_i = -1$ as a loss. The probability space $(\Omega, \mathcal{A}, \mathbb{P})$ considered at the beginning of this section turns out to be too small to allow such an infinite sequence of independent variables. We shall see later (Sect. 9, Chap. 2) that such a sequence can actually be constructed and that $\beta(x)$ and $\alpha(x)$ are in fact the probabilities of ruin in an unbounded number of steps.
+
+We now take up some corollaries of the preceding formulas.
+
+If we take $A = 0, 0 \leq x \leq B$, then the definition of $\beta(x)$ implies that this is the probability that a particle starting at $x$ arrives at $B$ before it reaches 0. It follows from (10) and (14) (Fig. 16) that
+
+$$\beta(x) = \begin{cases} 
+x/B, & p = q = 1/2, \\
+\frac{(q/p)^x - 1}{(q/p)^B - 1}, & p \neq q.
+\end{cases}$$
+
+Fig. 16 Graph of $\beta(x)$, the probability that a particle starting from $x$ reaches $B$ before reaching 0
+
+Now let $q

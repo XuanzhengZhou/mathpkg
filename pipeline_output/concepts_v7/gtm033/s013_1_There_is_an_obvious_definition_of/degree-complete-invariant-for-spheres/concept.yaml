@@ -1,0 +1,23 @@
+id: degree-complete-invariant-for-spheres
+title_en: "Degree as Complete Homotopy Invariant for Maps into Spheres"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [degree, homotopy, sphere, hopf-theorem, complete-invariant]
+depends_on:
+  required: [degree-of-a-map, homotopy-invariance-of-degree, sphere]
+  recommended: []
+  suggested: [hopf-degree-theorem]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "5"
+    section: "1"
+    pages: ""
+    role_in_book: "Main result of Section 5.1: degree classifies homotopy classes of maps into S^n"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

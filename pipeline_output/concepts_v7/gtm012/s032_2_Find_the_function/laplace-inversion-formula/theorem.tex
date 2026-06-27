@@ -1,0 +1,12 @@
+Suppose $f \colon \mathbb{R} \to \mathbb{C}$ is continuous and satisfies
+\begin{enumerate}
+\item $\operatorname{supp}(f) \subset [M, \infty)$,
+\item $|f(t)| \leq K e^{at}$ for all $t$.
+\end{enumerate}
+Let $g = Lf$ be its Laplace transform. For any $b > \max\{a, 0\}$, let $C$ be the vertical line
+$$C = \{z \in \mathbb{C} \mid \operatorname{Re} z = b\}.$$
+Then $f$ is the second derivative of the function $F$ defined by
+$$F(t) = \frac{1}{2\pi i} \int_{C} e^{zt} \, z^{-2} \, g(z) \, dz.$$
+Equivalently,
+$$F(t) = \int_{-\infty}^{t} (t - s) \, f(s) \, ds,$$
+and therefore $D^{2}F = f$.

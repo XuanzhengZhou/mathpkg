@@ -1,0 +1,23 @@
+id: submodule-of-free-over-pid-is-free
+title_en: "Every Submodule of a Free Module over a PID is Free"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [principal-ideal-domain, free-module, submodule, basis]
+depends_on:
+  required: []
+  recommended: [pid-definition, free-module-definition, well-ordering]
+  suggested: [transfinite-induction]
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I. Modules"
+    section: "5. Modules over a Principal Ideal Domain"
+    pages: ""
+    role_in_book: "Theorem 5.1 — fundamental structure theorem for modules over PIDs"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

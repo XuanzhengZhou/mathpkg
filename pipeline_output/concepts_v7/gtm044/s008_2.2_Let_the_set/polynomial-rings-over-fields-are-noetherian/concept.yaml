@@ -1,0 +1,23 @@
+id: polynomial-rings-over-fields-are-noetherian
+title_en: "Polynomial Rings over Fields are Noetherian"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: polynomial-rings
+difficulty: basic
+tags: [noetherian, polynomial-ring, field, hilbert-basis-theorem]
+depends_on:
+  required: [hilbert-basis-theorem]
+  recommended: [ascending-chain-condition-for-rings]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "3"
+    section: "3.6"
+    pages: ""
+    role_in_book: "Corollary 3.6 — the immediate consequence of the Hilbert basis theorem for polynomial rings over fields"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

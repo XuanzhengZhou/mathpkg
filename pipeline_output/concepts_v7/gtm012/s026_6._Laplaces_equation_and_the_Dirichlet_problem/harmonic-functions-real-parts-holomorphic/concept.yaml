@@ -1,0 +1,23 @@
+id: harmonic-functions-real-parts-holomorphic
+title_en: "Harmonic Functions as Real Parts of Holomorphic Functions"
+title_zh: "调和函数作为全纯函数的实部"
+type: theorem
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: intermediate
+tags: [harmonic-function, holomorphic-function, complex-analysis, cauchy-riemann]
+depends_on:
+  required: [harmonic-function]
+  recommended: [holomorphic-function, cauchy-riemann-equations]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: ""
+    title: "Advanced Mathematical Analysis"
+    chapter: "5"
+    section: "6. Laplace's equation and the Dirichlet problem"
+    pages: ""
+    role_in_book: "Theorem 6.2; establishes the fundamental link between harmonic functions and complex analysis"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

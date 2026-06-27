@@ -1,0 +1,23 @@
+id: acc-equivalent-to-finite-basis
+title_en: "a.c.c. Equivalent to Every Ideal Having a Finite Basis"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: ring-theory
+difficulty: basic
+tags: [noetherian, finite-basis, ascending-chain-condition, equivalent-condition]
+depends_on:
+  required: [ascending-chain-condition-for-rings, basis-of-an-ideal]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "3"
+    section: "3.3"
+    pages: ""
+    role_in_book: "Lemma 3.3 — the fundamental equivalence characterizing Noetherian rings"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

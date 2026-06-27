@@ -1,0 +1,23 @@
+id: l2-hilbert-space-inner-product
+title_en: "L^2 space as a Hilbert space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: hilbert-spaces
+difficulty: intermediate
+tags: [L2, hilbert-space, inner-product, lebesgue-integral]
+depends_on:
+  required: [lp-banach-space, hilbert-space-definition]
+  recommended: [hilders-inequality]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "39"
+    section: "The spaces L^p"
+    pages: ""
+    role_in_book: "L^2 is a Hilbert space with inner product given by the integral of fg*"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

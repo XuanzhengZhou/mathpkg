@@ -1,0 +1,1 @@
+The field axioms of addition define the additive structure of the real numbers. A1 (associativity) and A2 (commutativity) make addition well-behaved. A3 establishes an additive identity $0$, and A4 guarantees additive inverses. Together they make $(\mathbb{R}, +)$ an abelian group.

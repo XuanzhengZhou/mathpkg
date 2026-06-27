@@ -1,0 +1,23 @@
+id: subnet
+title_en: "Subnet"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: nets-and-convergence
+difficulty: intermediate
+tags: ["subnet", "net", "cofinal", "Moore-Smith-convergence"]
+depends_on:
+  required: ["net", "directed-set", "cofinal-subset"]
+  recommended: ["eventually-in", "convergence-of-net"]
+  suggested: ["subsequence"]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "2"
+    section: "Directed Sets and Nets"
+    pages: "81-87"
+    role_in_book: "Defines the subnet relation between nets, generalizing subsequences to the setting of directed sets."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

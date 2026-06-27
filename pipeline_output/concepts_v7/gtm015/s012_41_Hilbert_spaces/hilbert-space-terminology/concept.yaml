@@ -1,0 +1,23 @@
+id: hilbert-space-terminology
+title_en: "Terminological convention for Hilbert and inner product spaces"
+title_zh: "希尔伯特空间与内积空间的术语约定"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [terminology, hilbert-space, inner-product-space, complex-case]
+depends_on:
+  required: [prehilbert-innerproduct-equivalence]
+  recommended: [hilbert-space, sesquilinear-form]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "41"
+    section: "Hilbert spaces"
+    pages: ""
+    role_in_book: "Fixes the terminology for the remainder of the text: uses 'inner product space'/'Hilbert space' and restricts to the complex case."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: coordinate-set-of-projective-point
+title_en: "Coordinate Set of a Projective Point"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags: ["projective-coordinates", "homogeneous-coordinates"]
+depends_on:
+  required: ["projective-space", "vector-space"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "1. Projective spaces"
+    pages: ""
+    role_in_book: "Defines coordinates on projective space via nonzero vectors in the corresponding 1-subspace."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: ext-ext-vanishing-torsion-free
+title_en: "Vanishing of Iterated Ext for Torsion-Free First Argument"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [ext, vanishing, torsion-free, abelian-groups]
+depends_on:
+  required: [ext-functor, torsion-free-group]
+  recommended: [ext-associativity]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "V"
+    section: "4"
+    pages: ""
+    role_in_book: "Corollary 4.5: if A' is torsion-free then Ext(A', Ext(A, A'')) = 0"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

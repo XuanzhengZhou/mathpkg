@@ -1,0 +1,23 @@
+id: p-bijective-homomorphism
+title_en: "P-Bijective Homomorphism"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: group-theory
+difficulty: intermediate
+tags: [localization, p-bijective, homomorphism, nilpotent-group]
+depends_on:
+  required: [p-injective-homomorphism, p-surjective-homomorphism]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "X"
+    section: "2. Localization of Nilpotent Groups"
+    pages: ""
+    role_in_book: "Defines P-bijectivity as the combination of P-injectivity and P-surjectivity"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

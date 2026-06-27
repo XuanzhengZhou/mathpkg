@@ -1,0 +1,23 @@
+id: lifting-cochain-maps-acyclic-to-injective
+title_en: "Existence and uniqueness up to homotopy of cochain map lifts (injective version)"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: []
+depends_on:
+  required: ["chain-complex", "injective-module", "lifting-chain-maps-projective-to-acyclic"]
+  recommended: ["cochain-complex", "injective-resolution"]
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: "Hilton, P. J.; Stammbach, U."
+  title: "A Course in Homological Algebra"
+  chapter: "IV"
+  section: "3"
+  pages: ""
+  role_in_book: ""
+content_hash: "9159b9d46c87"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

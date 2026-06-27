@@ -1,0 +1,39 @@
+$$\text{P}\{\xi_1 = x_1, \ldots, \xi_r = x_r\} = \text{P}\{\xi_1 = x_1\} \cdots \text{P}\{\xi_r = x_r\}$$
+
+for all $x_1, \ldots, x_r \in X$; or, equivalently, if
+
+$$\text{P}\{\xi_1 \in B_1, \ldots, \xi_r \in B_r\} = \text{P}\{\xi_1 \in B_1\} \cdots \text{P}\{\xi_r \in B_r\}$$
+
+for all $B_1, \ldots, B_r \in \mathcal{X}$.
+
+We can get a very simple example of independent random variables from the Bernoulli scheme. Let
+
+$$\Omega = \{\omega : \omega = (a_1, \ldots, a_n), a_i =
+
+The case of independent random variables $\xi$ and $\eta$ is particularly important. In this case
+
+$$P\{\xi = x_i, \eta = y_j\} = P\{\xi = x_i\} P\{\eta = y_j\},$$
+
+and therefore
+
+$$P_\zeta(z) = \sum_{\{(i,j): x_i + y_j = z\}} P_\xi(x_i) P_\eta(y_j) = \sum_{i=1}^{k} P_\xi(x_i) P_\eta(z - x_i)$$
+
+(3)
+
+for all $z \in Z$, where in the last sum $P_\eta(z - x_i)$ is taken to be zero if $z - x_i \notin Y$.
+
+For example, if $\xi$ and $\eta$ are independent Bernoulli random variables, taking the values 1 and 0 with respective probabilities $p$ and $q$, then $Z = \{0, 1, 2\}$ and
+
+$$P_\zeta(0) = P_\xi(0)P_\eta(0) = q^2,$$
+
+$$P_\zeta(1) = P_\xi(0)P_\eta(1) + P_\xi(1)P_\eta(0) = 2pq,$$
+
+$$P_\zeta(2) = P_\xi(1)P_\eta(1) = p^2.$$
+
+It is easy to show by induction that if $\xi_1, \xi_2, \ldots, \xi_n$ are independent Bernoulli random variables with $P\{\xi_i = 1\} = p$, $P\{\xi_i = 0\} = q$, then the random variable $\zeta = \xi_1 + \cdots + \xi_n$ has the binomial distribution
+
+$$P_\zeta(k) = C_n^k p^k q^{n-k}, \quad k = 0, 1, \ldots, n.$$
+
+4. We now turn to the important concept of the expectation, or mean value, of a random variable.
+
+Let $(\Omega, \mathcal{A}, P)$ be a (discrete) probability space and $\xi = \xi(\omega)$ a random variable with values in the set $X = \

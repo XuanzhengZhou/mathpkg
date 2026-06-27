@@ -1,0 +1,23 @@
+id: product-of-hausdorff-spaces
+title_en: "Product of Hausdorff Spaces"
+title_zh: "Hausdorff空间的积"
+type: theorem
+domain: topology
+subdomain: product-spaces
+difficulty: basic
+tags: [hausdorff, product-topology, separation-axioms, topological-invariant]
+depends_on:
+  required: []
+  recommended: [hausdorff-space, product-topology-arbitrary, projection-maps]
+  suggested: [topological-invariant]
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "3"
+    section: "Product Spaces"
+    pages: ""
+    role_in_book: "Establishes that the Hausdorff property is preserved under arbitrary products"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: l2-completeness-theorem
+title_en: "L^2 is a Hilbert space: inner product structure and completeness"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: hilbert-spaces
+difficulty: intermediate
+tags: [L2-space, Hilbert-space, completeness, inner-product, norm]
+depends_on:
+  required: [inner-product-on-l2, l2-norm-on-cc, l2-space-of-distributions]
+  recommended: [schwarz-inequality-for-cc, equality-of-l2-distributions]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: ""
+    title: "Advanced Mathematical Analysis"
+    chapter: "4. Hilbert Spaces and Fourier Series"
+    section: "§1. An inner product in ℂ, and the space L²"
+    pages: ""
+    role_in_book: "Theorem 1.3; establishes that L² with the extended inner product is a complete inner product space"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

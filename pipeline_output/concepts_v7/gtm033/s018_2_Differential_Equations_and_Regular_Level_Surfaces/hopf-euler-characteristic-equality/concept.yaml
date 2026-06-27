@@ -1,0 +1,23 @@
+id: hopf-euler-characteristic-equality
+title_en: "Hopf's Theorem: Equality of Euler Characteristics"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [euler-characteristic, hopf-theorem, vector-field, betti-number, morse-function]
+depends_on:
+  required: [euler-characteristic, betti-numbers-and-homological-euler-characteristic, vector-field-index]
+  recommended: [morse-function, gradient-field]
+  suggested: [poincare-hopf-theorem, morse-inequalities]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Concludes Chapter 6.3 by equating two definitions of Euler characteristic"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

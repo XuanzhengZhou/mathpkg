@@ -1,0 +1,23 @@
+id: corollary-paracompact-normal
+title_en: "Every Paracompact Space is Normal"
+title_zh: ""
+type: corollary
+domain: topology
+subdomain: paracompactness
+difficulty: intermediate
+tags: [paracompact, normal, separation-axiom]
+depends_on:
+  required: [paracompactness, normal-space]
+  recommended: [lemma-even-cover-preserves-local-finiteness]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "Paracompactness"
+    pages: ""
+    role_in_book: "Corollary 32: Paracompactness implies normality"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

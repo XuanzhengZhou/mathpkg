@@ -1,0 +1,23 @@
+id: reeb-morse-two-critical-points
+title_en: "Reeb's Theorem: Morse Function with Two Critical Points"
+title_zh: "Reeb定理：具有两个临界点的Morse函数"
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [morse-theory, sphere, reeb, classification, critical-point]
+depends_on:
+  required: [morse-function, regular-interval-theorem, morse-lemma]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "6"
+    section: "2"
+    pages: "154"
+    role_in_book: "Classic characterization of the sphere via Morse theory"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

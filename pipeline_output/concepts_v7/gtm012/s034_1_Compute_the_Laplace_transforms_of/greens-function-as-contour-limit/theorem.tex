@@ -1,0 +1,8 @@
+Suppose $p$ is a polynomial of degree $n \geq 1$, and suppose $z_1, z_2, \ldots, z_r$ are the distinct roots of $p$, with multiplicities $m_1, m_2, \ldots, m_r$. Then the limit
+$$G(t) = \lim_{R \to \infty} \frac{1}{2\pi i} \int_{C_R} e^{tz} p(z)^{-1} \, dz$$
+exists for all $t \neq 0$ (when $n = 1$) or for all $t$ (when $n > 1$). Moreover:
+\begin{enumerate}
+\item $G(t) = 0$ for $t < 0$, and also for $t = 0$ if $n > 1$.
+\item For $t > 0$, $G(t)$ equals the sum of the residues of the meromorphic function $e^{tz} p(z)^{-1}$, hence is a linear combination of the functions
+$$t^k e^{z_j t}, \quad 0 \leq k < m_j, \quad 1 \leq j \leq r.$$
+\end{enumerate}

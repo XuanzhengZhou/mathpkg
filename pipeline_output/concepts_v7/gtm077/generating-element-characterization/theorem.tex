@@ -1,0 +1,93 @@
+A number $\alpha$ in $K(\theta)$ belongs to the ground field $k$ if and only if it is equal to its $n$ conjugates. A number $\alpha$ in $K(\theta)$ has degree $n$ with respect to $k$ if and only if it is distinct from all its conjugates. The latter condition is at the same time necessary and sufficient for the number $\alpha$ to generate the field $K(\theta)$.
+
+The first two statements follow immediately
+
+is a polynomial in $k$, as in the proof of Theorem 52. Likewise
+
+$$\frac{H(x)}{x - \alpha_i} = G(x, \alpha_i)$$
+
+is a polynomial in the quantities $x$, $\alpha_i$ with coefficients in $k$. Hence
+
+$$\Phi(x) = \sum_{i=1}^{n} \theta_i \frac{H(x)}{x - \alpha_i} = \sum_{i=1}^{n} \theta_i G(x, g(\theta_i))$$
+
+as a symmetric expression in $\theta_1, \ldots, \theta_n$, is also a polynomial over $k$, from which it follows for $x = \alpha_i$ that
+
+$$\theta_i = \frac{\Phi(\alpha_i)}{G(\alpha_i, \alpha_i)},$$
+
+because the denominator is certainly $\neq 0$ by definition.
+
+Until now we have represented each number from $K(\theta)$ as a linear combination of $1, \theta, \theta^2, \ldots, \theta^{n-1}$ with coefficients in $k$. However for very many purposes more freedom in the choice of these basis elements is desirable.
+
+We call $n$ numbers $\omega^{(1)}, \omega^{(2)}, \ldots, \omega^{(n)}$ a fundamental system of $K(\theta)$ if every number $\alpha$ in $K(\theta)$ can be represented in the form
+
+$$\alpha = \sum_{i=1}^{n} x_i \omega^{(i)}$$
+
+with coefficients $x_i$ in $k$.
+
+**Theorem 57.** In order that the numbers
+
+$$\omega^{(i)} = \sum_{k=1}^{n} c_{ik} \theta^{k-1} \quad (c_{ik} \text{ numbers in } k)$$
+
+form a fundamental system of $K(\theta)$, it is necessary and sufficient that the determinant $\|c_{ik}\| \neq 0$.
+
+Obviously we need only investigate when the numbers $1, \theta, \ldots, \theta^{n-1}$ can be represented in terms of the $\omega^{(i)}$ as
+
+$$\theta^{p-1} = \sum_{i=1}^{n} a_{
+
+However since no linear homogeneous relation holds between 1, $\theta$, ..., $\theta^{n-1}$ with coefficients in $k$, unless all coefficients are 0, we have
+
+$$\delta_{kp} = \sum_{i=1}^{n} a_{ki} c_{ip} = \begin{cases} 0 & \text{if } p \neq k, \\ 1 & \text{if } p = k. \end{cases}$$
+
+Thus the determinant $\|\delta_{kp}\|$ is $= 1$ and on the other hand it is equal to the product $\|a_{ki}\| \cdot \|c_{ip}\|$; hence the determinant of the $c_{ip} \neq 0$.
+
+**Theorem 58.** The $n$ numbers $\omega^{(1)}, \ldots, \omega^{(n)}$ in $K(\theta)$ form a fundamental system if and only if there is no linear relation
+
+$$\sum_{i=1}^{n} u_i \omega^{(i)} = 0$$
+
+with coefficients in $k$ except if all $u_i = 0$.
+
+The $n$ numbers $\omega^{(i)}$ of this type are said to be linearly independent. For, in the notation used above it would follow from (37) that
+
+$$0 = \sum_{i=1}^{n} u_i \sum_{k=1}^{n} c_{ik} \theta^{k-1}$$
+
+and as before, if the $u_i$ belong to $k$ and are not all $= 0$,
+
+$$\sum_{i=1}^{n} u_i c_{ik} = 0, \quad (k=1, \ldots, n);$$
+
+thus
+
+$$\|\copyright_{ik}\| = 0.$$
+
+However, if this determinant is $= 0$, then the system is not a fundamental system, and thus, as is known, the $n$ homogeneous equations for $u_i$
+
+$$\sum_{i=1}^{n} u_i c_{ik} = 0 \quad (k=1, \ldots, n)$$
+
+are solvable and indeed there is a solution among the nonvanishing solutions which is obtained by rational operations from the coefficients $
+
+(The index $k$ designates the row of the determinant; the index $i$ designates the column.) It follows from (35) that
+
+$$\Delta(\omega^{(1)}, \ldots, \omega^{(n)}) = \left\| c_{ik} \right\| \cdot \Delta(1, \theta, \ldots, \theta^{n-1}).$$
+
+By Theorem 57 this determinant is $\neq 0$ for each fundamental system and only for fundamental systems since by a known formula
+
+$$\Delta(1, \theta, \ldots, \theta^{n-1}) = \begin{vmatrix}
+1 & \theta_1 & \theta_1^2 & \cdots & \theta_1^{n-1} \\
+1 & \theta_2 & \theta_2^2 & \cdots & \theta_2^{n-1} \\
+1 & \theta_3 & \theta_3^2 & \cdots & \theta_3^{n-1} \\
+\vdots & \vdots & \vdots & \vdots \\
+1 & \theta_n & \theta_n^2 & \cdots & \theta_n^{n-1}
+\end{vmatrix} = \prod_{1 \leq i < k \leq n} (\theta_i - \theta_k),$$
+
+and therefore $\neq 0$. The determinant is a polynomial function of $\theta_1, \ldots, \theta_n$ with coefficients in $k$ (even in $k(1)$). If any of the $\theta_i$ are permuted, then this determinant changes at most by the factor $\pm 1$, thus its square is also symmetric in $\theta_1, \ldots, \theta_n$ and hence is a number of the ground field $k$. The same also holds for $\Delta^2(\omega_1, \ldots, \omega_n)$. Obviously this number is also independent of the numbering of the conjugates.
+
+As in the second half of the proof of Theorem 58, it is easily obtained that among the $n+1$ quantities of the field $K$, say $\beta^{(1)}, \beta^{(2)}, \ldots, \beta^{(n+1)}$, there is always a
+
+numbers also form a fundamental system of $K(\theta)$ (with respect to the ground field $k$), hence $mq = n$, $q = n/m$. With this the following theorem is proved:
+
+**Theorem 59.** If $\alpha$ is a number of degree $m$ over $k$ and if $\beta$ is a number of degree $q$ over $K(\alpha; k)$, then the field $K(\alpha, \beta; k)$ has degree $mq$ over $k$. Furthermore if $\theta_1, \ldots, \theta_n$ ($n = mq$) are the conjugates of a generating number of $K(\alpha, \beta; k)$ with respect to $k$, then these conjugates decompose into $m$ sequences with $q$ elements in each sequence; here the $q$ numbers of a sequence are always the conjugates with respect to $K(\alpha_i)$, where $\alpha_1, \ldots, \alpha_m$ are the $m$ conjugates of $\alpha$ with respect to $k$.
+
+A field $K(\beta; k)$, which is identical with all conjugate fields $K(\beta_i; k)$ ($i = 1, \ldots, n$) is called a Galois field or a normal field with respect to $k$. A number field $K(\alpha; k)$ is always contained as a subfield of a Galois field. This follows from the proof of Theorem 52 for the field which arises by adjunction of all relatively conjugate numbers $\alpha_1, \ldots, \alpha_n$ is obviously a Galois field with respect to $k$.
+
+From now on we will be concerned exclusively with those numbers which are algebraic with respect to $k(1)$; these will simply be called algebraic. Let us merely mention the following about other kinds of numbers:
+
+Numbers which are not algebraic are called transcendental. Liouville$^1$ (1851) first proved that there are transcendental numbers, by giving at the same time a method of constructing arbitrarily many such numbers. Later George Cantor$^2$ (1874) furnished a quite different proof which shows that the set of transcendental numbers has an even higher cardinality than the set of algebraic numbers.

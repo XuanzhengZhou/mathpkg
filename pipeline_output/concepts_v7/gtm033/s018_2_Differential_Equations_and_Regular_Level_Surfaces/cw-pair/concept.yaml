@@ -1,0 +1,23 @@
+id: cw-pair
+title_en: "CW-Pair"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [cw-complex, cw-pair, subcomplex, relative-topology]
+depends_on:
+  required: [cw-complex, subcomplex-of-cw-complex]
+  recommended: [relative-homology]
+  suggested: [cofibration, homotopy-extension-property]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "6"
+    section: "6.4"
+    pages: ""
+    role_in_book: "Defines the pair notion for CW-complexes"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

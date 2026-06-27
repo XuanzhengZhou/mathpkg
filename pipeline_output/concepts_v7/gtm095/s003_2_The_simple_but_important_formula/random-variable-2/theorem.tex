@@ -1,0 +1,95 @@
+$$E \xi = \sum_{i=1}^{k} x_i P(A_i).$$
+
+Since $A_i = \{\omega : \xi(\omega) = x_i\}$ and $P_\xi(x_i) = P(A_i)$, we have
+
+$$E \xi = \sum_{i=1}^{k} x_i P_\xi(x_i).$$
+
+Recalling the definition of $F_\xi = F_\xi(x)$ and writing
+
+$$\Delta F_\xi(x) = F_\xi(x) - F_\xi(x-),$$
+
+we obtain $P_\xi(x_i) = \Delta F_\xi(x_i)$ and consequently
+
+$$E \xi = \sum_{i=1}^{k} x_i \Delta F_\xi(x_i).$$
+
+Before discussing the properties of the expectation, we remark that it is often convenient to use another representation of the random variable $\xi$, namely
+
+$$\xi(\omega) = \sum_{j=1}^{l} x_j' I(B_j),$$
+
+where $B_1 + \cdots + B_l = \Omega$, but some of the $x_j'$ may be repeated. In this case $E \xi$ can be calculated from the formula $\sum_{j=1}^{l} x_j' P(B_j)$, which differs formally from (6) because in (6) the $x_i$ are all different. In fact,
+
+$$\sum_{\{j: x_j' = x_i\}} x_j' P(B_j) = x_i \sum_{\{j: x_j' = x_i\}} P(B_j) = x_i P(A_i)$$
+
+and therefore
+
+$$\sum_{j=1}^{l} x_j' P(B_j) = \sum_{i=1}^{k} x_i P(A_i).$$
+
+5. We list the basic properties of the expectation:
+
+(1) If $\xi \geq 0$ then $E \xi \geq 0$.
+
+(2) $E(a\xi + b\eta) = aE\xi + bE\eta$, where $a$ and $b$ are constants.
+
+(3)
+
+(5) If $\xi$ and $\eta$ are independent, then $E \xi \eta = E \xi \cdot E \eta$.
+
+(6) $(E | \xi \eta|)^2 \leq E \xi^2 \cdot E \eta^2$ (Cauchy–Bunyakovskii inequality).*
+
+(7) If $\xi = I(A)$ then $E \xi = P(A)$.
+
+Properties (1) and (7) are evident. To prove (2), let
+
+$$\xi = \sum_i x_i I(A_i), \quad \eta = \sum_j y_j I(B_j).$$
+
+Then
+
+$$a \xi + b \eta = a \sum_{i,j} x_i I(A_i \cap B_j) + b \sum_{i,j} y_j I(A_i \cap B_j)$$
+
+$$= \sum_{i,j} (ax_i + by_j) I(A_i \cap B_j)$$
+
+and
+
+$$E(a \xi + b \eta) = \sum_{i,j} (ax_i + by_j) P(A_i \cap B_j)$$
+
+$$= \sum_{i} ax_i P(A_i) + \sum_{j} by_j P(B_j)$$
+
+$$= a \sum_{i} x_i P(A_i) + b \sum_{j} y_j P(B_j) = a E \xi + b E \eta.$$
+
+Property (3) follows from (1) and (2). Property (4) is evident, since
+
+$$|E \xi| = \left| \sum_i x_i P(A_i) \right| \leq \sum_i |x_i| P(A_i) = E |\xi|.$$
+
+To prove (5) we note that
+
+$$E \xi \eta = E \left( \sum_i x_i I(A_i) \right) \left( \sum_j y_j I(B_j) \right)$$
+
+$$= E \sum_{i,j} x_i y_j I(A_i \cap B_j) = \sum_{i,j} x_i y_j P(A_i \cap B_j)$$
+
+$$= \sum_{i,j} x_i y_j P(A_i) P(B_j)$$
+
+$$= \left( \sum_i x_i P(A_i) \
+
+To prove property (6) we observe that
+
+$$\xi^2 = \sum_i x_i^2 I(A_i), \quad \eta^2 = \sum_j y_j^2 I(B_j)$$
+
+and
+
+$$E \xi^2 = \sum_i x_i^2 P(A_i), \quad E \eta^2 = \sum_j y_j^2 P(B_j).$$
+
+Let $E \xi^2 > 0, E \eta^2 > 0$. Put
+
+$$\tilde{\xi} = \frac{\xi}{\sqrt{E \xi^2}}, \quad \tilde{\eta} = \frac{\eta}{\sqrt{E \eta^2}}.$$
+
+Since $2|\tilde{\xi}\tilde{\eta}| \leq \tilde{\xi}^2 + \tilde{\eta}^2$, we have $2E|\tilde{\xi}\tilde{\eta}| \leq E\tilde{\xi}^2 + E\tilde{\eta}^2 = 2$. Therefore $E|\tilde{\xi}\tilde{\eta}| \leq 1$ and $(E|\xi\eta|)^2 \leq E\xi^2 \cdot E\eta^2$.
+
+However, if, say, $E\xi^2 = 0$, this means that $\sum_i x_i^2 P(A_i) = 0$ and consequently the mean value of $\xi$ is 0, and $P\{\omega : \xi(\omega) = 0\} = 1$. Therefore if at least one of $E\xi^2$ or $E\eta^2$ is zero, it is evident that $E|\xi\eta| = 0$ and consequently the Cauchy–Bunyakovskii inequality still holds.
+
+Remark. Property (5) generalizes in an obvious way to any finite number of random variables: if $\xi_1, \ldots, \xi_r$ are independent, then
+
+$$E\xi_1 \cdots \xi_r = E\xi_1 \cdots E\xi_r.$$
+
+The proof can be given in the same way as for the case $r = 2$, or by induction.
+
+Example 3. Let $\xi$ be a Bernoulli random variable, taking the values 1 and 0 with probabilities $p$ and $

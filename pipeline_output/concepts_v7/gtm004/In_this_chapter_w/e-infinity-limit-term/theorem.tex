@@ -1,0 +1,10 @@
+For a spectral sequence $E = \{(E_n, d_n)\}$, define the subobjects $E_{n, \infty}$ of $E_n$ inductively as those elements which are cycles for all differentials from $d_n$ onward. More precisely,
+$$E_{n,n+1} = Z(E_n), \quad E_{n,n+2} = \{x \in E_{n,n+1} \mid \sigma(x) \in Z(E_{n+1})\},$$
+and in general
+$$E_{n,n+k} = \{x \in E_{n,n+k-1} \mid \sigma^{k-1}(x) \in Z(E_{n+k-1})\},$$
+where $\sigma : E_n \to E_{n+1}$ is the canonical map factoring through $H(E_n, d_n) = E_{n+1}$.
+
+Set $E_{n,\infty} = \bigcap_{k \geq 1} E_{n,n+k}$. The maps $\sigma$ restrict to $E_{n,\infty} \to E_{n+1,\infty}$, giving a directed system, and the limit term is defined as the colimit
+$$E_\infty = \lim_{\longrightarrow} (E_{n,\infty}, \sigma).$$
+
+Equivalently, an element of $E_\infty$ is represented by an element $x \in E_{n,\infty}$ for some $n$, and $x$ represents $0$ if and only if it is a boundary for some $d_r$ with $r \geq n$.

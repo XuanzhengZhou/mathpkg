@@ -1,0 +1,15 @@
+Let $U$ be an open set of $\mathbb{R}_{X_1, \ldots, X_n}$. A function $f: U \to \mathbb{R}_Y$ is differentiable at $(a) = (a_1, \ldots, a_n) \in U$ provided there is a real $n$-plane through $(a_1, \ldots, a_n, f(a))$ given by
+
+$$Y = f(a) + c_1(X_1 - a_1) + \ldots + c_n(X_n - a_n)$$
+
+such that
+
+$$\lim_{(x) \to (a)} \frac{f(x) - [f(a) + c_1(x_1 - a_1) + \ldots + c_n(x_n - a_n)]}{|x_1 - a_1| + \ldots + |x_n - a_n|} = 0,$$
+
+where $(x) = (x_1, \ldots, x_n) \in U \setminus (a)$.
+
+The function $f$ is called differentiable on $U$ if it is differentiable at each point of $U$, and a map $f = (f_1, \ldots, f_m): U \to \mathbb{R}^m$ is differentiable at a point of $U$, or on $U$, if each $f_i$ is. If all partial derivatives
+
+$$\frac{\partial^n f_i}{\partial X_{j_1} \cdots \partial X_{j_n}}$$
+
+of each $f_i$ exist and are continuous at $(a)$ or on $U$, then $f$ is $C^n$ at $(a)$ or $C^n$ on $U$, respectively.

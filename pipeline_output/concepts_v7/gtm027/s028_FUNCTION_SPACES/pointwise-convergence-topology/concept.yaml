@@ -1,0 +1,23 @@
+id: pointwise-convergence-topology
+title_en: "Topology of Pointwise Convergence"
+title_zh: "逐点收敛拓扑"
+type: definition
+domain: topology
+subdomain: function-spaces
+difficulty: intermediate
+tags: [pointwise-convergence, product-topology, function-space, subbase, net-convergence]
+depends_on:
+  required: [product-topology, relative-topology, net-convergence]
+  recommended: [tychonoff-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Pointwise Convergence"
+    pages: ""
+    role_in_book: "Fundamental definition of the pointwise convergence topology for function spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

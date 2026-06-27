@@ -1,0 +1,32 @@
+id: lifting-of-homology-homomorphisms-to-chain-maps
+title_en: Lifting of Homology Homomorphisms to Chain Maps
+title_zh: ''
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags:
+- chain-map
+- homology
+- lifting
+- free-resolution
+depends_on:
+  required:
+  - chain-complex
+  - chain-map
+  recommended:
+  - free-module
+  - projective-module
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 2. The Künneth Theorem
+  pages: ''
+  role_in_book: key lemma for constructing chain maps from homology data; used in
+    proof of Künneth theorem
+content_hash: f795328bb86e631a
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

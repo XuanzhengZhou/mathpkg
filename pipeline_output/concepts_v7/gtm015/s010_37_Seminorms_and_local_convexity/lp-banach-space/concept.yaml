@@ -1,0 +1,23 @@
+id: lp-banach-space
+title_en: "L^p is a Banach space"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: banach-spaces
+difficulty: intermediate
+tags: [Lp, banach-space, completeness, riesz-fischer]
+depends_on:
+  required: [normed-space-definition, banach-space-definition]
+  recommended: [holders-inequality, minkowskis-inequality]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "39"
+    section: "The spaces L^p"
+    pages: ""
+    role_in_book: "L^p is a Banach space - completeness generalizing Riesz-Fischer"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

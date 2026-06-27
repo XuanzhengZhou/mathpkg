@@ -1,0 +1,23 @@
+id: lyndon-hochschild-serre-spectral-sequence
+title_en: "Lyndon–Hochschild–Serre Spectral Sequence"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [spectral-sequence, group-cohomology, lyndon, hochschild, serre, short-exact-sequence, normal-subgroup]
+depends_on:
+  required: [grothendieck-spectral-sequence, group-cohomology, short-exact-sequence]
+  recommended: [injective-module, induced-module, coinduced-module]
+  suggested: [homology-spectral-sequence]
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "9. The Grothendieck Spectral Sequence"
+    pages: ""
+    role_in_book: "Main application of the Grothendieck spectral sequence; fundamental tool in group cohomology"
+content_hash: "be5a886e50adf241c0feee7311cdd2401c1308a779252a59c3eafc0b39967f3f"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

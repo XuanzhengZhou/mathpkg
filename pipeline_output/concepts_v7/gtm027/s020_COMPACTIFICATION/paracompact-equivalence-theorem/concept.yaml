@@ -1,0 +1,23 @@
+id: paracompact-equivalence-theorem
+title_en: "Equivalent Characterizations of Paracompactness"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: paracompactness
+difficulty: advanced
+tags: [paracompact, locally-finite, sigma-discrete, even-cover, normal]
+depends_on:
+  required: [paracompactness, regular-space, even-cover, locally-finite-family, sigma-discrete-family]
+  recommended: [compact-regular-even-cover]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "Paracompactness"
+    pages: ""
+    role_in_book: "Theorem 28: Six equivalent conditions characterizing paracompactness in regular spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

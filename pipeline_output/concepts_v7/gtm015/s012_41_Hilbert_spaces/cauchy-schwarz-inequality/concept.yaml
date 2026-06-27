@@ -1,0 +1,23 @@
+id: cauchy-schwarz-inequality
+title_en: "Cauchy–Schwarz inequality (in pre-Hilbert spaces)"
+title_zh: "柯西-施瓦茨不等式（准希尔伯特空间中）"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [cauchy-schwarz-inequality, inner-product, pre-hilbert-space, norm]
+depends_on:
+  required: [real-inner-product-properties, complex-inner-product-properties]
+  recommended: [inner-product-from-norm]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "41"
+    section: "Hilbert spaces"
+    pages: ""
+    role_in_book: "Proves the Cauchy–Schwarz inequality for pre-Hilbert spaces, unifying the real and complex cases."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

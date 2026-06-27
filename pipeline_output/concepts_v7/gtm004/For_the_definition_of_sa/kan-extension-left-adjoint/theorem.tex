@@ -1,0 +1,7 @@
+Let $J: \mathfrak{U} \rightarrow \mathfrak{B}$ be a functor between small categories and let $\mathfrak{A}$ be a category. Define the restriction functor
+$$J^* : [\mathfrak{B}, \mathfrak{A}] \rightarrow [\mathfrak{U}, \mathfrak{A}]$$
+by $J^*(S) = S \circ J$.
+
+If $\mathfrak{A}$ admits colimits, then $J^* : [\mathfrak{B}, \mathfrak{A}] \rightarrow [\mathfrak{U}, \mathfrak{A}]$ has a left adjoint $\tilde{J} : [\mathfrak{U}, \mathfrak{A}] \rightarrow [\mathfrak{B}, \mathfrak{A}]$ given by
+$$\tilde{J} T(V) = \lim_{\longrightarrow} T_V,$$
+where $T_V : \mathfrak{J}_V \rightarrow \mathfrak{A}$ is defined on the category $\mathfrak{J}_V$ of $J$-objects over $V$ (objects are pairs $(U, \psi)$ with $U \in \mathfrak{U}$ and $\psi: JU \rightarrow V$) by $T_V(U, \psi) = T(U)$.

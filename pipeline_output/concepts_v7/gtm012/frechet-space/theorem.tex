@@ -1,0 +1,3 @@
+Let $X$ be a vector space. A \textbf{seminorm} on $X$ is a function $u \mapsto |u|$ satisfying $|u| \geq 0$, $|au| = |a|\,|u|$, $|u+v| \leq |u| + |v|$ (but $|u| = 0$ does not imply $u = 0$). Suppose there is a sequence of seminorms $|\cdot|_1, |\cdot|_2, \ldots$ with the property that $|u|_k = 0$ for all $k$ implies $u = 0$. Then a metric is defined by
+$$d'(u, v) = \sum_{k=1}^{\infty} 2^{-k} \frac{|u-v|_k}{1 + |u-v|_k}.$$
+If $X$ is complete with respect to $d'$, it is a \textbf{Frechet space}. The space $\mathcal{P}$ of smooth periodic functions with seminorms $|u|_k = |D^k u|$ is a Frechet space.

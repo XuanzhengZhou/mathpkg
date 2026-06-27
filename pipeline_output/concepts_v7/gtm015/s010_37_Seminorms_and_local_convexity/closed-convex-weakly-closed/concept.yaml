@@ -1,0 +1,23 @@
+id: closed-convex-weakly-closed
+title_en: "A convex set is closed if and only if it is weakly closed"
+title_zh: "凸集是闭的当且仅当它是弱闭的"
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [locally-convex-space, weak-topology, convex-set, mazur-theorem, separation]
+depends_on:
+  required: [locally-convex-topological-vector-space, weak-topology, hahn-banach-theorem]
+  recommended: [canonical-duality-continuous-dual]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "3"
+    section: "38"
+    pages: ""
+    role_in_book: "core_result"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

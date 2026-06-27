@@ -1,0 +1,1 @@
+The modulus $|z|$ of a complex number $z = x + iy$ is the Euclidean distance from the origin to the point $(x, y)$ in the plane. It satisfies $|zw| = |z| |w|$ and $|z + w| \leq |z| + |w|$. The inverse formula $z^{-1} = z^* |z|^{-2}$ follows from $z^*z = |z|^2$.

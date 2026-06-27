@@ -1,0 +1,23 @@
+id: kan-extension-coproduct-formula
+title_en: "Kan Extension Formula via Coproducts"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags: [kan-extension, coproduct, discrete-category]
+depends_on:
+  required: [kan-extension-left-adjoint, adjoint-of-product-functor]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX"
+    section: "5. Kan Extensions"
+    pages: ""
+    role_in_book: "Provides an explicit coproduct formula for the Kan extension in the discrete category case"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

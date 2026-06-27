@@ -1,0 +1,23 @@
+id: nonsingular-curve-is-orientable
+title_en: "Nonsingular Projective Curves are Orientable"
+title_zh: ""
+type: corollary
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: basic
+tags: [orientability, nonsingular-curve, projective-curve]
+depends_on:
+  required: [orientability-of-smooth-curve-locus]
+  recommended: [nonsingular-variety]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "9"
+    pages: ""
+    role_in_book: "Corollary 9.6; immediate consequence of Lemma 9.5"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

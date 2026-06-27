@@ -1,0 +1,7 @@
+Let $D$ be a chain complex and $E$ a cochain complex of $\Lambda$-modules. The \emph{Hom complex} $\operatorname{Hom}_{\Lambda}(D, E)$ is the chain complex $\operatorname{Tot}' B$, where $B$ is the double complex of chains defined by
+$$B_{p,q} = \operatorname{Hom}_{\Lambda}(D_{-p}, E_q),$$
+with differentials $\partial'$ and $\partial''$ satisfying $\partial' \partial' = 0$, $\partial'' \partial'' = 0$, and $\partial'' \partial' + \partial' \partial'' = 0$.
+
+The differential in $\operatorname{Tot}' B = \operatorname{Hom}_{\Lambda}(D, E)$ is given explicitly by
+$$(\partial^H f)_{p,q} = (-1)^{p+q} f_{p+1,q} \circ \partial + \partial \circ f_{p,q+1},$$
+where $f = \{f_{p,q}\}$ with $f_{p,q} : D_{-p} \rightarrow E_q$.

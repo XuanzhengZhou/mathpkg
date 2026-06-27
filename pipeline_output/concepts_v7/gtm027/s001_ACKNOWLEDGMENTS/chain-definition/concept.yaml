@@ -1,0 +1,23 @@
+id: chain-definition
+title_en: "Chain (Linearly Ordered Set)"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: order-theory
+difficulty: basic
+tags: ["chain", "linear-ordering", "total-order", "ordered-set"]
+depends_on:
+  required: ["linear-ordering", "set"]
+  recommended: ["ordering-definition"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Orderings"
+    pages: "12-18"
+    role_in_book: "Defines a chain as a set equipped with a linear ordering relation."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: unique-solution-second-order-linear-ode
+title_en: "Unique Solution of Second-Order Linear ODE via Operator Factorization"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: ordinary-differential-equations
+difficulty: intermediate
+tags: [ode, second-order, linear, operator-factorization, existence, uniqueness]
+depends_on:
+  required: [unique-solution-first-order-inhomogeneous-linear-ode, definition-of-complex-exponential-function]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "5"
+    section: "5"
+    pages: ""
+    role_in_book: "Shows how second-order linear ODEs can be reduced to two first-order equations via operator factorization"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

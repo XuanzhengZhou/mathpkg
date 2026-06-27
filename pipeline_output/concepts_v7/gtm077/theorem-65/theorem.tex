@@ -1,0 +1,113 @@
+Every ideal $a$ can be written in the form $(\alpha_1, \ldots, \alpha_r)$ with the $\alpha$ suitably chosen integers in $K$. Moreover, we may even take $r \leq n$.
+
+The numbers of an ideal $a$ which is not (0) (the case $a = (0)$ is trivial) obviously form an infinite Abelian group, under composition by addition, which is a subgroup of the group of all integers in $K$. Consequently by Theorem 34 the ideal $a$ has a basis, whose size is $\leq n$. On the other hand, by Theorem 37, the number of elements in this basis is equal to the number of independent elements in $a$; hence it is $n$, since, indeed, if $\alpha (\alpha \neq 0)$ belongs to $a$, the $n$ independent elements $\alpha, \theta\alpha, \theta^2\alpha, \ldots, \theta^{n-1}\alpha$ must also belong to $a$. Thus
+
+Every ideal in the field $k(1)$ is a principal ideal by Theorem 2, since it is a module if it is $\neq (0)$. On the other hand, the ideal $(1 + 2\sqrt{-5}, 3)$ in the field $K(\sqrt{-5})$ is not a principal ideal because of what was said in the preceding section. This ideal consists of all numbers divisible by $\sqrt{\lambda}$.
+
+If
+$(\alpha_1, \ldots, \alpha_r) = (A_1, \ldots, A_s)$ and $(\beta_1, \ldots, \beta_p) = (B_1, \ldots, B_q)$,
+
+then
+$(\alpha_1\beta_1, \ldots, \alpha_i\beta_k, \ldots, \alpha_r\beta_p) = (A_1B_1, \ldots, A_lB_m, \ldots, A_sB_q)$
+
+since
+$\alpha_i = \sum_l \lambda_{il}A_l, \quad \beta_k = \sum_m \mu_{km}B_m$
+
+implies that
+$\alpha_i\beta_k = \sum_{l,m} \lambda_{il}\mu_{km}A_lB_m$
+
+with integral $\lambda$, $\mu$ and conversely each $A_lB_m$ is a combination of the $\alpha_i\beta_k$.
+
+By the product $ab$ of two ideals $a = (\alpha_1, \ldots, \alpha_r)$ and $b = (\beta_1, \ldots, \beta_p)$ we mean the ideal
+$ab = (\alpha_1\beta_1, \ldots, \alpha_i\beta_k, \ldots, \alpha_r\beta_p)$
+
+thus defined uniquely by $a$ and $b$.
+
+It follows directly from this definition that multiplication of ideals is commutative and associative:
+
+$ab = ba, \quad a(bc) = (ab)c$.
+
+We set $a = a^1$ and for each positive rational integer $m$ we set $a^{m+1} = a^m a$ so that $a^{p+q} = a^p a^q$ as with ordinary powers.
+
+We call an ideal $a$
+
+Indeed the fact that divisibility of ideals can be reduced to divisibility of numbers, that not only the converse holds, is of basic significance for the foundations of ideal theory by virtue of the following theorem:
+
+Theorem 66. For each ideal $a$ there is an ideal $b$ different from (0) such that $ab$ is a principal ideal.
+
+The different ways of laying the foundations of ideal theory are distinguished in the proof of this theorem. Here we will use a method of Hurwitz which was greatly simplified by Steinitz. It rests on a generalization of the theorem of Gauss about polynomials which have algebraic integers as coefficients:
+
+Theorem 67. Let
+
+$$A(x) = \alpha_p x^p + \alpha_{p-1} x^{p-1} + \cdots + \alpha_0, \quad B(x) = \beta_r x^r + \beta_{r-1} x^{r-1} + \cdots + \beta_0$$
+
+be polynomials with integer coefficients, $\alpha_p, \beta_r \neq 0$. Then if an integer $\delta$ divides all coefficients $\gamma$ of
+
+$$C(x) = A(x) \cdot B(x) = \gamma_s x^s + \gamma_{s-1} x^s + \gamma_{s-1} x^{s-1} + \cdots + \gamma_0$$
+
+it also divides all products $\alpha_i \beta_k$.
+
+In order to prove this assertion, we need the following two lemmas:
+
+Lemma (a). If
+
+$$f(x) = \delta_m x^m + \delta_{m-1} x^{m-1} + \cdots + \delta_1 x + \delta_0 \quad (\delta_m \neq 0)$$
+
+is a polynomial with integral coefficients and $\rho$ is a root, then $f(x)/(x - \rho)$ also has integer coefficients.
+
+To begin with, $\delta_m \rho$ is an integer in any case, as we see immediately by Theorem 62 in a manner similar to that of the proof of Theorem 63.
+
+Moreover the lemma is true for $m = 1$, in which case $f(x)/(x - \rho) = \delta
+
+Lemma (b). If, in the above notation
+
+$$f(x) = \delta_m(x - \rho_1)(x - \rho_2) \cdots (x - \rho_m),$$
+
+then $\delta_m\rho_1\rho_2 \cdots \rho_k$ is an integer for each $k$ with $1 \leq k \leq m$.
+
+This follows by repeated application of Lemma (a) from which we obtain
+
+$$\frac{f(x)}{(x - \rho_{k+1})(x - \rho_{k+2}) \cdots (x - \rho_m)} = \delta_m(x - \rho_1) \cdots (x - \rho_k)$$
+
+as an integral polynomial whose constant term is $\pm \delta_m\rho_1 \cdots \rho_k$.
+
+We now arrive at the proof of Theorem 67 as follows: let the decomposition into linear factors be
+
+$$A(x) = \alpha_p(x - \rho_1)(x - \rho_2) \cdots (x - \rho_p)$$
+$$B(x) = \beta_r(x - \sigma_1)(x - \sigma_2) \cdots (x - \sigma_r).$$
+
+By hypothesis
+
+$$\frac{C(x)}{\delta} = \frac{\alpha_\rho \beta_r}{\delta}(x - \rho_1) \cdots (x - \sigma_r)$$
+
+has integral coefficients, hence by Lemma (b) each product
+
+$$\frac{\alpha_\rho \beta_r}{\delta} \cdot \rho_{n_1} \rho_{n_2} \cdots \rho_{n_i} \sigma_{m_1} \cdots \sigma_{m_k}$$
+
+(40)
+
+is an integer, where $n_1, \ldots, n_i$ and likewise $m_1, \ldots, m_k$ are any distinct indices ($i \leq p, k \leq r$). However, since $\alpha_i/\alpha_p$ and $\beta_k/\beta_r$ are elementary symmetric functions of the $\rho$ and of the $\sigma$, $\alpha_i\beta_k/\delta$ is a sum of terms of the form (40), and consequently an integer, as was to be proved
+
+with the $\beta_i$ integers in $K$. If we denote the GCD of the rational integers $c_p$ by $N$, so that $f(x)/N$ is a primitive polynomial, and set
+
+$$b = (\beta_1, \ldots, \beta_m),$$
+
+then we assert that the equation
+
+$$ab = (N)$$
+
+is true. Now $ab = (\ldots, \alpha_i \beta_k, \ldots)$. By Theorem 67, $N$ divides all $\alpha_i \beta_k$, since it divides each coefficient of $g(x)h(x)$. Hence
+
+$$\alpha_i \beta_k = \lambda_{ik} N$$
+
+where $\lambda_{ik}$ is an integer, and thus all $\alpha_i \beta_k$ and consequently all numbers of $ab$ belong to $(N)$. Secondly, however, $N$ is the GCD of all the coefficients $c_p$ of $h(x)g(x)$, and hence there are rational integers $x_p$, such that
+
+$$N = c_1 x_1 + c_2 x_2 + \cdots.$$
+
+Each $c$ is a sum of products $\alpha_i \beta_k$; consequently $N$ is representable in the form
+
+$$N = \sum_{i,k} u_{ik} \alpha_i \beta_k$$
+
+with $\mu_{ik}$ integers (actually rational integers). Thus $N$ and all numbers of $(N)$ belong to $ab$, that is, $(N) = ab$.
+
+By reason of the preceding theorem we see the uniqueness of division of ideals:

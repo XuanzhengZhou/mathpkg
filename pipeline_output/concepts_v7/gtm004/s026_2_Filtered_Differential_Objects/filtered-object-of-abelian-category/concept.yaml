@@ -1,0 +1,23 @@
+id: filtered-object-of-abelian-category
+title_en: "Filtered Object of an Abelian Category"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [filtered-object, abelian-category, filtration, graded-object]
+depends_on:
+  required: []
+  recommended: [abelian-category]
+  suggested: [associated-graded-object-functor]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Spectral Sequences"
+    section: "2. Filtered Differential Objects"
+    pages: ""
+    role_in_book: "Defines filtered objects in a general abelian category, used to construct the associated graded functor"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

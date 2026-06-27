@@ -1,0 +1,23 @@
+id: whitney-sum-of-vector-bundles
+title_en: "Whitney Sum of Vector Bundles"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundle, direct-sum, whitney-sum, exact-sequence]
+depends_on:
+  required: [vector-bundle, exact-sequence-of-vector-bundles, split-exact-sequence-of-vector-bundles]
+  recommended: []
+  suggested: [k-theory]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "4.2"
+    pages: ""
+    role_in_book: "Defines the direct sum construction for vector bundles"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: contiguity-equivalent-conditions
+title_en: "Equivalent conditions for contiguity via Hellinger integrals"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: asymptotic-statistics
+difficulty: advanced
+tags: [contiguity, hellinger-integral, le-cam, likelihood-ratio, lebesgue-derivative]
+depends_on:
+  required: [contiguity-of-probability-measures, hellinger-integral-properties, tightness-of-sequence-of-random-variables]
+  recommended: [absolute-continuity]
+  suggested: [entire-asymptotic-separation-conditions]
+source_books:
+  - book_id: gtm095
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "10.2"
+    pages: ""
+    role_in_book: "Theorem 1; characterizes contiguity in terms of Hellinger integrals and the Lebesgue derivative"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

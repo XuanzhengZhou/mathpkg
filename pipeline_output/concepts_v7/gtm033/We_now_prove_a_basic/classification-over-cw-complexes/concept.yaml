@@ -1,0 +1,23 @@
+id: classification-over-cw-complexes
+title_en: "Classification of Vector Bundles over CW Complexes"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: vector-bundles
+difficulty: advanced
+tags: [vector-bundle, cw-complex, classification, grassmann-manifold, homotopy]
+depends_on:
+  required: [classification-by-homotopy-classes]
+  recommended: [cw-complex, covering-homotopy-theorem]
+  suggested: [obstruction-theory]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "3"
+    section: "The Classification of Vector Bundles"
+    pages: ""
+    role_in_book: "Generalization of the classification theorem to CW complexes"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

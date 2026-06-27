@@ -1,0 +1,23 @@
+id: category-of-filtered-differential-objects
+title_en: "Category of Filtered Differential Objects"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [filtered-object, differential-object, category, exact-couple]
+depends_on:
+  required: [filtered-differential-object]
+  recommended: [abelian-category, differential-object]
+  suggested: [exact-couple]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Spectral Sequences"
+    section: "2. Filtered Differential Objects"
+    pages: ""
+    role_in_book: "Defines the source category for the functor to exact couples"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

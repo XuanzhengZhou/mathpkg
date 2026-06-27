@@ -1,0 +1,23 @@
+id: augmentation-ideal-mod-square-isomorphic-to-abelianization
+title_en: "Isomorphism IG/IG^2 ≅ G_ab"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: ["augmentation-ideal", "abelianization", "IG/IG^2", "G/G'"]
+depends_on:
+  required: ["augmentation-ideal"]
+  recommended: ["commutator-subgroup"]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VI"
+    section: "4"
+    pages: ""
+    role_in_book: "Lemma 4.1 — IG/(IG)^2 ≅ G/G' = G_ab"
+content_hash: "6f91c23a4d78"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

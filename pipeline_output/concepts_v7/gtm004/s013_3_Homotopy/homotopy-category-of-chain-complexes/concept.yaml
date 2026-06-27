@@ -1,0 +1,23 @@
+id: homotopy-category-of-chain-complexes
+title_en: "Homotopy Category of Chain Complexes"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [homotopy, chain-complex, category-theory, homotopy-category]
+depends_on:
+  required: [homotopy-of-chain-maps, homotopy-equivalence-relation, chain-complex]
+  recommended: [quotient-category]
+  suggested: [derived-category]
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "3. Homotopy"
+    pages: "137"
+    role_in_book: "Defines the homotopy category, a key construction in homological algebra where homotopic maps are identified."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

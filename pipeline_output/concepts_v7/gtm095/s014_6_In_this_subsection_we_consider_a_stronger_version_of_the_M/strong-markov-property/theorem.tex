@@ -1,0 +1,9 @@
+Let $\xi = (\xi_0, \ldots, \xi_n)$ be a homogeneous Markov chain with transition probabilities $p_{ij}$, and let $\tau$ be a stopping time (with respect to the natural filtration $\mathcal{B}_k^\xi$). Then for any event $A \in \mathcal{B}_\tau^\xi$ and $B \in \mathcal{B}_\tau^\xi$, if $P\{A \cap B \cap (\xi_\tau = a_0)\} > 0$, then
+
+$$P\{\xi_{\tau+1} = a_1 \mid A \cap B \cap (\xi_\tau = a_0)\} = p_{a_0 a_1}.$$
+
+More generally, for $l \geq 1$ and $P\{A \cap (\xi_\tau = a_0)\} > 0$,
+
+$$P\{\xi_{\tau+l} = a_l, \ldots, \xi_{\tau+1} = a_1 \mid A \cap (\xi_\tau = a_0)\} = p_{a_0 a_1} \cdots p_{a_{l-1} a_l}.$$
+
+For $l = 1$, this is equivalent to $P\{\xi_{\tau+1} \in C \mid A \cap B \cap (\xi_\tau = a_0)\} = P_{a_0}(C)$ for every $C \subseteq X$, where $P_{a_0}(C) = \sum_{a_1 \in C} p_{a_0 a_1}$.

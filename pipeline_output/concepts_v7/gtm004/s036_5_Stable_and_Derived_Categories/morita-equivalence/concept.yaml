@@ -1,0 +1,23 @@
+id: morita-equivalence
+title_en: "Morita Equivalence"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: ring-theory
+difficulty: advanced
+tags: [morita-theory, equivalence-of-categories, module-category, projective-generator]
+depends_on:
+  required: [module-category, equivalence-of-categories, projective-generator]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "5. Stable and Derived Categories"
+    pages: "360-376"
+    role_in_book: "Definition: Morita equivalence between rings via equivalence of module categories"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

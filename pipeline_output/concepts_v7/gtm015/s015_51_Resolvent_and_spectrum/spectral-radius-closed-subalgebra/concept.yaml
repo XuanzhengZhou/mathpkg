@@ -1,0 +1,13 @@
+id: spectral-radius-closed-subalgebra
+title_en: "Spectral Radius is Preserved Under Closed Subalgebras"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: banach-algebras
+difficulty: intermediate
+tags: [spectral-radius, closed-subalgebra, spectrum]
+depends_on: {required: [gelfand-spectral-radius-formula, spectral-radius], recommended: [], suggested: [spectrum-filling-holes]}
+source_books: [{book_id: "gtm015", author: "Sterling K. Berberian", title: "Lectures in Functional Analysis and Operator Theory", chapter: "55", section: "55.2", pages: "", role_in_book: "shows spectral radius is independent of containing algebra"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

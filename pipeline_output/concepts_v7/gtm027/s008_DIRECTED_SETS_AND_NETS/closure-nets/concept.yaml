@@ -1,0 +1,23 @@
+id: closure-nets
+title_en: "Closure via Nets"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: nets-and-convergence
+difficulty: intermediate
+tags: ["closure", "net", "convergence", "accumulation-point"]
+depends_on:
+  required: ["net", "convergence-of-net", "closure", "topological-space"]
+  recommended: ["accumulation-point-nets"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "2"
+    section: "Directed Sets and Nets"
+    pages: "81-87"
+    role_in_book: "Characterizes the closure of a set as the set of limits of nets lying in that set."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

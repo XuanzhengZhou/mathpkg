@@ -1,0 +1,23 @@
+id: h1-as-cokernel
+title_en: "Proposition 4.5: $H^1(G, A)$ as Cokernel"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: ["h1-cohomology", "cokernel", "derivations", "ext"]
+depends_on:
+  required: ["cohomology-and-homology-of-groups", "augmentation-ideal"]
+  recommended: ["ext-functor"]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VI"
+    section: "4"
+    pages: ""
+    role_in_book: "Provides explicit formula for first cohomology group"
+content_hash: "201cc0abbf87"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

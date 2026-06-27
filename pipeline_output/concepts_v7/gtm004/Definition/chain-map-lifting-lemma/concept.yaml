@@ -1,0 +1,23 @@
+id: chain-map-lifting-lemma
+title_en: "Chain Map Lifting Lemma"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [chain-map, lifting, homology, free-chain-complex]
+depends_on:
+  required: [chain-complex, chain-map, homology]
+  recommended: [projective-module]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "V"
+    section: "2"
+    pages: ""
+    role_in_book: "Lemma 2.3: lifting a homology homomorphism to a chain map when the source is free"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

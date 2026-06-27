@@ -1,0 +1,23 @@
+id: extension-property-stone-cech
+title_en: "Extension property of Stone-Čech compactification"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: compactifications
+difficulty: intermediate
+tags: [stone-cech, extension, continuous-function, compact]
+depends_on:
+  required: [stone-cech-compactification]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "64"
+    section: "Stone-Čech compactification"
+    pages: ""
+    role_in_book: "For every continuous f: T -> K with K compact, there exists unique continuous extension g: X -> K"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

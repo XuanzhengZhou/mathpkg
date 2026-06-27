@@ -1,0 +1,23 @@
+id: complete-accumulation-point
+title_en: "Complete Accumulation Point"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: compactness
+difficulty: advanced
+tags: ["complete-accumulation-point", "cardinal-number", "compactness", "accumulation-point"]
+depends_on:
+  required: ["accumulation-point", "cardinal-number", "topological-space"]
+  recommended: ["compact-space"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "Problems"
+    pages: "163-164"
+    role_in_book: "Problem 5.I. Defines a complete accumulation point: a point x such that every neighborhood of x intersects A in a set of the same cardinality as A."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

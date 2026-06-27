@@ -1,0 +1,23 @@
+id: ext-graph-of-group
+title_en: "Extension Graph of a Finite Group"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: intermediate
+tags: [ext-group, simple-module, graph, block-theory]
+depends_on:
+  required: [simple-module, ext-functor, group-algebra]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "4. Modular Representation Theory"
+    pages: "355-359"
+    role_in_book: "Definition: The graph Gamma(G) whose vertices are simple modules and edges record non-vanishing Ext^1"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

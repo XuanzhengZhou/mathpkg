@@ -1,0 +1,13 @@
+id: axiom-of-infinity
+title_en: "Axiom of Infinity"
+title_zh: ""
+type: axiom
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: [axiom, infinity, inductive-set, integers, set-theory]
+depends_on: {required: [ordinal-number, void-class, singleton], recommended: [], suggested: []}
+source_books: [{book_id: "gtm027", author: "John L. Kelley", title: "General Topology", chapter: "Appendix", section: "Integers", pages: "271", role_in_book: "Axiom VIII; existence of an infinite set"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

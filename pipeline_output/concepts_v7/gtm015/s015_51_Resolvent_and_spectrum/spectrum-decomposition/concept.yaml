@@ -1,0 +1,23 @@
+id: spectrum-decomposition
+title_en: "Decomposition of the spectrum: point, residual, continuous"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: spectral-theory
+difficulty: intermediate
+tags: [spectrum, point-spectrum, residual-spectrum, continuous-spectrum, eigenvalue]
+depends_on:
+  required: [spectrum-definition, approximate-point-spectrum]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "57"
+    section: "Spectrum in L(E)"
+    pages: ""
+    role_in_book: "Defines the residual spectrum and continuous spectrum of an operator"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

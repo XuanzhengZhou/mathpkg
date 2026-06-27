@@ -1,0 +1,23 @@
+id: spectral-sequence
+title_en: "Spectral Sequence"
+title_zh: "谱序列"
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [spectral-sequence, differential-object, homology, abelian-category]
+depends_on:
+  required: [differential-object]
+  recommended: [abelian-category, homology]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "1. Exact Couples and Spectral Sequences"
+    pages: ""
+    role_in_book: "Central definition of Chapter VIII; spectral sequences are the main object of study"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

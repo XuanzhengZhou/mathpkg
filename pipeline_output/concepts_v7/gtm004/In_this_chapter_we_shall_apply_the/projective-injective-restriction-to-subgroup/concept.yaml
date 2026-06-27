@@ -1,0 +1,23 @@
+id: projective-injective-restriction-to-subgroup
+title_en: "Restriction of Projective and Injective Modules to Subgroups"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: ["projective-module", "injective-module", "subgroup", "restriction"]
+depends_on:
+  required: ["g-module"]
+  recommended: ["projective-module", "injective-module"]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VI"
+    section: "1"
+    pages: ""
+    role_in_book: "Corollary 1.4 — projectives/injectives descend to subgroups"
+content_hash: "e516f84a2d93"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

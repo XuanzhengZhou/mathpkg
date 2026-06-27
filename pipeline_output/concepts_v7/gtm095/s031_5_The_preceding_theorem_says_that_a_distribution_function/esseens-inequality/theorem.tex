@@ -1,0 +1,176 @@
+$$\sup_x |F(x) - G(x)| \leq \frac{2}{\pi} \int_0^T \left| \frac{f(t) - g(t)}{t} \right| dt + \frac{24}{\pi T} \sup_x
+
+Table 2.4
+
+| Discrete distributions | Characteristic functions |
+| :--- | :--- |
+| Discrete uniform | $\frac{1}{N} \frac{e^{it}}{1-e^{it}} (1-e^{itN})$ |
+| Bernoulli | $q + pe^{it}$ |
+| Binomial | $[q + pe^{it}]^n$ |
+| Poisson | $\exp\{\lambda(e^{it} - 1)\}$ |
+| Geometric | $\frac{p}{1-qe^{it}}$ |
+| Negative binomial | $\left[ \frac{p}{1-qe^{it}} \right]^r$ |
+
+Table 2.5
+
+| Distributions having a density | Characteristic functions |
+| :--- | :--- |
+| Uniform on $[a, b]$ | $\frac{e^{itb} - e^{ita}}{it(b-a)}$ |
+| Normal, or Gaussian | $\exp\left\{itm - \frac{\sigma^2 t^2}{2}\right\}$ |
+| Gamma | $(1-it\beta)^{-\alpha}$ |
+| Beta | $\frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)} \sum_{k=0}^{\infty} \frac{(it)^k \Gamma(\alpha+k)}{k! \Gamma(\alpha+\beta+k) \Gamma(1+k)}$ |
+| Exponential | $\frac{\lambda}{\lambda-it}$ |
+| Two-sided exponential | $\frac{\lambda^2 e^{it\alpha}}{t^2 + \lambda^2}$ |
+| Chi-square | $(1-2it)^{-n/2}$ |
+| Student, or $t$-distribution | $\frac{\sqrt{\pi} \Gamma((n+1)/2)}{\Gamma(n/2)} \frac{\exp\left\{-\sqrt{n}\right|t|}{2^{2(m-1)}(m-1)!} \sum_{k=0}^{m-1} (2k)! C_{n-1+k}^2 (2\sqrt{n}|t|)^{m-1-k}$, for integer $m = \frac{n+1}{2}$ |
+| Cauchy | $e^{-\theta|t|}$ |
+
+and
+
+$$E f(\xi)
+
+4. Let $F = F(x_1, \ldots, x_n)$ be an $n$-dimensional distribution function and $\varphi = \varphi(t_1, \ldots, t_n)$ its characteristic function. Using the notation (12) of Sect. 3, establish the inversion formula
+
+$$P(a, b] = \lim_{c \to \infty} \frac{1}{(2\pi)^n} \int_{-c}^{c} \cdots \int_{-c}^{c} \prod_{k=1}^{n} \frac{e^{-it_k a_k} - e^{-it_k b_k}}{it_k} \varphi(t_1, \ldots, t_n) dt_1 \cdots dt_n.$$
+
+(We are to suppose that $(a, b]$ is an interval of continuity of $P(a, b]$, i.e., for $k = 1, \ldots, n$ the points $a_k, b_k$ are points of continuity of the marginal distribution functions $F_k(x_k)$ which are obtained from $F(x_1, \ldots, x_n)$ by taking all the variables except $x_k$ equal to $+\infty$.)
+
+5. Let $\varphi_k(t)$, $k \geq 1$, be characteristic functions, and let the nonnegative numbers $\lambda_k$, $k \geq 1$, satisfy $\sum \lambda_k = 1$. Show that $\sum \lambda_k \varphi_k(t)$ is a characteristic function.
+
+6. If $\varphi(t)$ is a characteristic function, are $\text{Re} \varphi(t)$ and $\text{Im} \varphi(t)$ characteristic functions?
+
+7. Let $\varphi_1, \varphi_2$ and $\varphi_3$ be characteristic functions, and $\varphi_1 \varphi_2 = \varphi_1 \varphi_3$. Does it follow that $\varphi_2 = \varphi_3$?
+
+8. Prove the formulas for characteristic functions given in Tables 2.4 and 2.5.
+
+9. Let $\xi$ be an integral-valued random variable and $\varphi_\xi(t)$ its characteristic function. Show that
+
+$$P(\xi = k) = \frac{1}{2\pi} \int_{-\pi}^{\pi} e^{-ikt} \
+
+13. Let $\varphi(t)$ be the characteristic function of a distribution $F = F(x)$. Let $\{x_n\}$ be the set of discontinuity points of $F$ ($\Delta F(x_n) \equiv F(x_n) - F(x_n-)>0$). Show that
+
+$$\lim_{T \to \infty} \frac{1}{T} \int_{-T}^{T} |\varphi(t)|^2 \, dt = \sum_{n \geq 1} (\Delta F(x_n))^2.$$
+
+14. The concentration function of a random variable $X$ is
+
+$$Q(X;l) = \sup_{x \in R} P\{x \leq X \leq x+l\}.$$
+
+Show that:
+
+(a) If $X$ and $Y$ are independent random variables, then
+
+$$Q(X+Y;l) \leq \min(Q(x;l), Q(Y;l)) \quad \text{for all } l \geq 0;$$
+
+(b) There exists $x'_l$ such that $Q(X;l) = P\{x'_l \leq X \leq x'_l + l\}$ and the distribution function of $X$ is continuous if and only if $Q(X;0) = 0.$
+
+15. Let $(m_n)_{n \geq 1}$ be the sequence of moments of a random variable $X$ with distribution function $F = F(x)$ ($m_k = \int_{-\infty}^{\infty} x^k \, dF(x)$). Show that $(m_n)_{n \geq 1}$ determines $F = F(x)$ uniquely whenever the series $\sum_{k=1}^{\infty} \frac{m_k}{k!} s^k$ absolutely converges for some $s > 0.$
+
+16. Let $\varphi(t) = \int_{-\infty}^{\infty} e^{itx} \, dF(x)$ be the characteristic function of $F = F(x)$. Show that
+
+$$\lim_{c \to \infty} \frac{1}{2c} \int_{-c}^{c} e^{-itx} \varphi(t) \, dt = F(x) - F(x-),$$
+
+$$\lim_{c \
+
+21. Let a characteristic function $\varphi(t)$ be such that $\varphi(t) = 1 + O(|t|^\alpha)$, $t \to 0$, where $\alpha \in (0, 2]$. Show that the random variable $\xi$ with characteristic function $\varphi(t)$ has then the following property:
+
+$$P\{|\xi| > x\} = O(x^{-\alpha}), \quad x \to \infty.$$
+
+22. If $\varphi(t)$ is a characteristic function, then $|\varphi(t)|^2$ is also a characteristic function.
+
+23. Let $X$ and $Y$ be independent identically distributed random variables with zero mean and unit variance. Prove using characteristic functions that if the distribution $F$ of $(X + Y)/\sqrt{2}$ is the same as that of $X$ and $Y$, then $F$ is the normal distribution.
+
+24. If $\varphi$ is a characteristic function, then so is $e^{\lambda(\varphi-1)}$ for any $\lambda \geq 0$.
+
+25. The Laplace transform of a nonnegative random variable $X$ with distribution function $F$ is the function $\hat{F} = \hat{F}(\lambda)$ defined by
+
+$$\hat{F}(\lambda) = E e^{-\lambda X} = \int_{[0, \infty)} e^{-\lambda x} dF(x), \quad \lambda \geq 0.$$
+
+Prove the following criterion (S. N. Bernstein): a function $f = f(\lambda)$ on $(0, \infty)$ is the Laplace transform of a distribution function $F = F(x)$ on $[0, \infty)$ if and only if this function is completely monotone (i.e., the derivatives $f^{(n)}(\lambda)$ of any order $n \geq 0$ exist and $(-1)^n f^{(n)}(\lambda) \geq 0$).
+
+26. Let $\varphi(t)$ be a characteristic function. Show that so are
+
+$$\int_0^1 \varphi(ut) du \quad \text{and} \quad \int_0^\infty e^{-u} \varphi(ut) du.$$
+
+13 Gaussian Systems
+
+1. Gaussian, or normal, distributions, random variables,
+
+A multidimensional Gaussian distribution is specified by a small number of parameters; this is a definite advantage in using it in the construction of simple probabilistic models. Gaussian random variables have finite second moments, and consequently they can be studied by Hilbert space methods. Here it is important that in the Gaussian case “uncorrelated” is equivalent to “independent,” so that the results of $L^2$-theory can be significantly strengthened.
+
+2. Let us recall that (see Sect. 8) a random variable $\xi = \xi(\omega)$ is Gaussian, or normally distributed, with parameters $m$ and $\sigma^2$ ($\xi \sim \mathcal{N}(m, \sigma^2)$), $|m| < \infty$, $\sigma^2 > 0$, if its density $f_\xi(x)$ has the form
+
+$$f_\xi(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-(x-m)^2/2\sigma^2},$$
+
+(1)
+
+where $\sigma = +\sqrt{\sigma^2}$. (This quantity $\sigma$ is called the standard deviation of $\xi$ from its mean value $E\xi$, cf. Definition 5 in Sect. 4 of Chap. 1.)
+
+As $\sigma \downarrow 0$, the density $f_\xi(x)$ “converges to the $\delta$-function supported at $x = m$.” It is natural to say that $\xi$ is normally distributed with mean $m$ and $\sigma^2 = 0$ ($\xi \sim \mathcal{N}(m, 0)$) if $\xi$ has the property that $P(\xi = m) = 1$.
+
+We can, however, give a definition that applies both to the nondegenerate ($\sigma^2 > 0$) and the degenerate ($\sigma^2 = 0$) cases. Let us consider the characteristic function $\varphi_\xi(t) \equiv E e^{it\xi}, t \in R$.
+
+If $P(\xi = m) = 1$, then evidently
+
+$$\varphi_\xi(t) = e^{itm},$$
+
+(2)
+
+whereas if $\xi \sim \mathcal{N}(m, \sigma^2)$, $\sigma^2 > 0$,
+
+where $m = (m_1, \ldots, m_n)^*$, $|m_k| < \infty$, and $\mathbb{R} = \|r_{kl}\|$ is a symmetric positive semi-definite $n \times n$ matrix; we use the abbreviation $\xi \sim \mathcal{N}(m, \mathbb{R})$.
+
+This definition immediately makes us ask whether (5) is in fact a characteristic function. Let us show that it is.
+
+First suppose that $\mathbb{R}$ is nonsingular. Then we can define the inverse $A = \mathbb{R}^{-1}$ and the function
+
+$$f(x) = \frac{|A|^{1/2}}{(2\pi)^{n/2}} \exp\left\{-\frac{1}{2}(A(x-m), (x-m))\right\},$$
+
+(6)
+
+where $x = (x_1, \ldots, x_n)^*$ and $|A| = \det A$. This function is nonnegative. Let us show that
+
+$$\int_{R^n} e^{i(t,x)}f(x) \, dx = e^{i(t,m)-(1/2)(\mathbb{R}t,t)},$$
+
+or equivalently that
+
+$$I_n \equiv \int_{R^n} e^{i(t,x-m)} \frac{|A|^{1/2}}{(2\pi)^{n/2}} e^{-(1/2)(A(x-m), (x-m))} \, dx = e^{-(1/2)(\mathbb{R}t,t)}.$$
+
+Let us make the change of variable
+
+$$x - m = \mathcal{O}u, \quad t = \mathcal{O}v,$$
+
+where $\mathcal{O}$ is an orthogonal matrix such that
+
+$$\mathcal{O}^*\mathbb{R}\mathcal{O} = D,$$
+
+and
+
+$$D = \begin{pmatrix} d_1 & 0 \\ \ddots & \\ 0 & d_n \end{pmatrix}$$
+
+is a diagonal matrix with $d_i \geq 0$ (see the proof of the lemma in Sect. 8). Since $|\mathbb{R}| = \det \mathbb{R} \neq 0$, we have $
+
+Together with (9) of Sect. 12 and (8), this yields
+
+$$I_n = (2\pi)^{-n/2} (d_1 \cdots d_n)^{-1/2} \int_{R^n} \exp(iv^* u - \frac{1}{2} u^* D^{-1} u) du$$
+
+$$= \prod_{k=1}^{n} (2\pi d_k)^{-1/2} \int_{-\infty}^{\infty} \exp\left(iv_k u_k - \frac{u_k^2}{2d_k}\right) du_k = \prod_{k=1}^{n} \exp\left(-\frac{1}{2} v_k^2 d_k\right)$$
+
+$$= \exp\left(-\frac{1}{2} v^* Dv\right) = \exp\left(-\frac{1}{2} v^* \mathcal{O}^* \mathbb{R} \mathcal{O} v\right) = \exp\left(-\frac{1}{2} t^* \mathbb{R} t\right) = \exp\left(-\frac{1}{2} (\mathbb{R} t, t)\right).$$
+
+It also follows from (6) that
+
+$$\int_{R^n} f(x) dx = 1. \tag{9}$$
+
+Therefore (5) is the characteristic function of a nondegenerate $n$-dimensional Gaussian distribution (see Subsection 3, Sect. 3).
+
+Now let $\mathbb{R}$ be singular. Take $\varepsilon > 0$ and consider the positive definite symmetric matrix $\mathbb{R}^\varepsilon \equiv \mathbb{R} + \varepsilon E$, where $E$ is the identity matrix. Then by what has been proved,
+
+$$\varphi^\varepsilon(t) = \exp\{i(t, m) - \frac{1}{2} (\mathbb{R}^\varepsilon t, t)\}$$
+
+is a characteristic function:
+
+$$\varphi^\varepsilon(t) = \int_{R^n} e^{i(t,x)} dF_\varepsilon(x),$$
+
+where $F_\varepsilon(x) = F_\varepsilon(x_1, \ldots, x_n)$ is an $n$-dimensional distribution function.
+
+As $\varepsilon \to

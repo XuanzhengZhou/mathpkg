@@ -1,0 +1,23 @@
+id: tensor-algebra
+title_en: "Tensor Algebra"
+title_zh: "张量代数"
+type: definition
+domain: algebra
+subdomain: universal-algebra
+difficulty: intermediate
+tags: [tensor-algebra, free-algebra, universal-property, graded-algebra]
+depends_on:
+  required: [vector-space, tensor-product]
+  recommended: [graded-algebra, free-object]
+  suggested: [multilinear-algebra]
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Preliminary construction for the universal enveloping algebra"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

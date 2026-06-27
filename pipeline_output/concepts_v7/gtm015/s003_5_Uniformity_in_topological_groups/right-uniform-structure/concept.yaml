@@ -1,0 +1,23 @@
+id: right-uniform-structure
+title_en: "Right uniform structure of a topological group"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: topological-groups
+difficulty: intermediate
+tags: [uniform-structure, right-uniformity, entourage]
+depends_on:
+  required: [left-uniform-structure]
+  recommended: [topological-group, uniform-structure]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "5"
+    section: "Uniformity in topological groups"
+    pages: ""
+    role_in_book: "Defines the right uniform structure using entourages V_r = {(x,y) : yx^{-1} ∈ V}."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

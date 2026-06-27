@@ -1,0 +1,23 @@
+id: normed-space-embedding
+title_en: "Every normed space embeds isometrically into C(X)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: banach-spaces
+difficulty: intermediate
+tags: [normed-space, isometry, continuous-functions, embedding]
+depends_on:
+  required: [normed-space-definition, banach-alaoglu-theorem]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "44"
+    section: "Duality in normed spaces"
+    pages: ""
+    role_in_book: "Any normed space embeds isometrically into C(X) for some compact X"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

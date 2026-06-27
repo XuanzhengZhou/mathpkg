@@ -1,0 +1,31 @@
+id: induced-isomorphism-for-exact-sequence-of-lie-algebras
+title_en: Induced Isomorphism for an Exact Sequence of Lie Algebras
+title_zh: 李代数正合序列的诱导同构
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags:
+- lie-algebra
+- exact-sequence
+- universal-enveloping-algebra
+- tensor-product
+depends_on:
+  required:
+  - lie-algebra
+  - lie-ideal
+  - universal-enveloping-algebra
+  recommended:
+  - exact-sequence
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: VII
+  section: 1. Lie Algebras and their Universal Enveloping Algebra
+  pages: ''
+  role_in_book: Foundational concept for Lie algebra cohomology theory
+content_hash: 8cbcb2dc403bcb43
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

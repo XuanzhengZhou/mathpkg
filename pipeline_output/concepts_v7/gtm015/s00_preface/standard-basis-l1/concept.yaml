@@ -1,0 +1,23 @@
+id: standard-basis-l1
+title_en: "Standard Basis $e_n$ of $\ell^1(\mathbb{Z})$"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [basis, l1-space, kronecker-delta, schauder-basis]
+depends_on:
+  required: [little-l-one-space]
+  recommended: []
+  suggested: [schauder-basis]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "0"
+    section: "Apéritif (Wiener's Theorem)"
+    pages: ""
+    role_in_book: "Definition (12); the fundamental building blocks of l^1(Z)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

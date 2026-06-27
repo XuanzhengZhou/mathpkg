@@ -1,0 +1,23 @@
+id: quotient-lie-algebra
+title_en: "Quotient Lie Algebra"
+title_zh: "商李代数"
+type: proposition
+domain: algebra
+subdomain: lie-algebras
+difficulty: intermediate
+tags: [lie-algebra, quotient, lie-ideal, exact-sequence]
+depends_on:
+  required: [lie-algebra, lie-ideal]
+  recommended: [quotient-vector-space]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VII"
+    section: "1"
+    pages: ""
+    role_in_book: "Construction of quotient objects in Lie algebra category"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

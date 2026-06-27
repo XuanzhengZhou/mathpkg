@@ -1,0 +1,23 @@
+id: h1-as-cokernel
+title_en: "H^1 as Cokernel"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: ["H^1", "Ext", "cokernel", "derivation"]
+depends_on:
+  required: ["cohomology-and-homology-of-groups", "augmentation-ideal"]
+  recommended: ["derivation-crossed-homomorphism"]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VI"
+    section: "4"
+    pages: ""
+    role_in_book: "Formula (4.5) — H^1 expressed as a cokernel"
+content_hash: "9e71f23a5b48"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

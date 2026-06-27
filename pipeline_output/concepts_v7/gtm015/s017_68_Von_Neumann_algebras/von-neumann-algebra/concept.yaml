@@ -1,0 +1,23 @@
+id: von-neumann-algebra
+title_en: "Von Neumann algebra"
+title_zh: "冯·诺依曼代数"
+type: definition
+domain: analysis
+subdomain: operator-algebras
+difficulty: advanced
+tags: [von-neumann-algebra, bicommutant, w-star-algebra]
+depends_on:
+  required: []
+  recommended: [hilbert-space, bounded-operator, commutant, star-algebra, bicommutant]
+  suggested: [c-star-algebra]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "68"
+    section: "Von Neumann algebras"
+    pages: "294"
+    role_in_book: "Definition (68.1) introducing von Neumann algebras as *-subalgebras equal to their bicommutant"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

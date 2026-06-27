@@ -1,0 +1,71 @@
+We assert that $U_1, \ldots, U_r, C_1, \ldots, C_q$ form a basis for $\mathfrak{U}$ if we omit the elements $U_i = E$. First, each element $U$ can be represented by the $U_1, \ldots, U_m$, hence also by the $U_1, \ldots
+
+occur, since, in fact, a system of values $z_k \neq 0$, $z_{k+1} = \cdots = z_m = 0$ always exists, so that
+
+$$U_k = B_k^{z_k}$$ belongs to $\mathfrak{U}$.
+
+From this we have immediately
+
+**Theorem 35.** If $\mathfrak{G}$ is a torsion-free Abelian group with finite basis $B_1, \ldots, B_h$, then every subgroup $\mathfrak{U}$ of $\mathfrak{G}$ with finite index has a basis $U_1, \ldots, U_n$ of the form
+
+$$U_1 = B_1^{r_{11}} B_2^{r_{12}} \cdots B_n^{r_{1n}},$$
+
+$$U_2 = B_2^{r_{22}} \cdots B_n^{r_{2n}},$$
+
+$$\vdots$$
+
+$$U_n = B_n^{r_{nn}},$$
+
+with $r_{ii} \neq 0$ for $i = 1, 2, \ldots, n$.
+
+**Theorem 36.** The index of $\mathfrak{U}$ in $\mathfrak{G}$ is $j = |r_{11} \cdot r_{22} \cdots r_{nn}|$.
+
+For the proof we must determine the maximum number of elements which can exist in $\mathfrak{G}$ such that no two differ by a factor in $\mathfrak{U}$. We first show that an element
+
+$$B_1^{x_1} B_2^{x_2} \cdots B_n^{x_n},$$
+
+where all $|x_i| < r_{ii}$, belongs to $\mathfrak{U}$ only if all $x_i = 0$. By the definition of the $U_i$ in the preceding proof $x_1$ must be divisible by $r_{11}$ and since $|x_1| < r_{11}$ we must have $x_1 = 0$. However then $x_2$ must be divisible by $r_{22}$ and must consequently also be $= 0$ etc.
+
+From this
+
+is an element of the system (19). Consequently, $A$ differs from this element only by a factor in $\mathfrak{U}$.
+
+We now investigate the connection between different systems of bases of a group $\mathfrak{G}$ in order to find properties of bases which are determined by $\mathfrak{G}$ alone.
+
+**Theorem 37.** If a torsion-free Abelian group $\mathfrak{G}$ has a finite basis of $n$ elements $B_1, \ldots, B_n$, then $n$ is the maximal number of independent elements of $\mathfrak{G}$, independent of the choice of basis.
+
+Since the $B_1, \ldots, B_n$ are independent in any case, there are $n$ independent elements in $\mathfrak{G}$ and thus we need only show that $n + 1$ elements in $\mathfrak{G}$ are not independent. In fact, between $n + 1$ arbitrary elements
+
+$$A_i = B_1^{c_{i1}} \cdot B_2^{c_{i2}} \cdots B_n^{c_{in}} \quad (i = 1, 2, \ldots, n + 1)$$
+
+there is the relation
+
+$$A_1^{x_1} A_2^{x_2} \cdots A_n^{x_{n+1}} = 1,$$
+
+if we choose the $n + 1$ integers $x_i$ so that they satisfy the $n$ linear homogeneous equations
+
+$$\sum_{i=1}^{n+1} x_i c_{ik} = 0 \quad (k = 1, 2, \ldots, n).$$
+
+As is known this is always possible since the coefficients $c_{ik}$ are integers.
+
+**Theorem 38.** From a basis $B_1, \ldots, B_n$ of a torsion-free Abelian group $\mathfrak{G}$ one can obtain all systems of bases $B'_1, \ldots, B'_n$ of $\mathfrak{G}$ in the form
+
+$$B'_i = B_1^{a_{i1}} B_2^{a_{i2}} \cdots B_n^{a_{in
+
+and if the $B$'s are substituted for the $B''$'s, then the $n^2$ equations
+
+$$\sum_{i=1}^{n} b_{qi} c_{ik} \begin{cases} 0 & \text{if } q \neq k, \\ 1 & \text{if } q = k, \end{cases}$$
+
+are obtained, by the basis property of the $B$'s. The determinant of this array is thus $= 1$; on the other hand, however, by the multiplication theorem of determinant theory, the determinant is equal to the product of the two determinants $|b_{ik}|$ and $|c_{ik}|$. Hence each of these integers must divide 1, and therefore each integer is itself $= \pm 1$; thus $|c_{ik}| = \pm 1$.
+
+Finally by combining the last three theorems we obtain
+
+**Theorem 39.** If $\mathfrak{G}$ is a torsion-free Abelian group with a finite basis $B_1, \ldots, B_n$, $\mathfrak{U}$ a subgroup of finite index $j$, then $\mathfrak{U}$ also has a finite basis $U_1, \ldots, U_n$, and the determinant $|a_{ik}|$ in the $n$ equations
+
+$$U_i = B_1^{a_{i1}} B_2^{a_{i2}} \cdots B_n^{a_{in}} \quad (i = 1, 2, \ldots, n)$$
+
+is always equal to $j$ in absolute value.
+
+The last assertion holds for the special basis mentioned in Theorem 36. The passage from the special basis $U'$ to an arbitrary basis $U$ is done by Theorem 38 using an array of exponents with determinant $\pm 1$. However, in the passage from $B$ to $U$ we obviously obtain an array of exponents whose determinant is equal to the product of the determinants which appear in the passage from $B$ to $U'$ and from $U'$ to $U$, and hence which is equal to $\pm j$.
+
+Finally we formulate a simple criterion for $\mathfrak{U

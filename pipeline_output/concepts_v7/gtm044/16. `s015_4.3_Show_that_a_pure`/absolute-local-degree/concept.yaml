@@ -1,0 +1,23 @@
+id: absolute-local-degree
+title_en: "Absolute Local Degree (Order) of a Variety at a Point"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: ["absolute-order", "local-degree", "multiplicity", "order-of-point"]
+depends_on:
+  required: ["absolute-order-at-point"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "6"
+    section: "Degree and order"
+    pages: ""
+    role_in_book: "Defines the absolute local degree, a fundamental numerical invariant of a point on a variety"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

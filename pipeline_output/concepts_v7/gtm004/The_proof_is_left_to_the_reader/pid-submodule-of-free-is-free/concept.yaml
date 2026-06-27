@@ -1,0 +1,17 @@
+id: pid-submodule-of-free-is-free
+title_en: "Over a PID, Every Submodule of a Free Module is Free"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: module-theory
+difficulty: intermediate
+tags: [principal-ideal-domain, free-module, submodule, basis, hereditary-ring]
+depends_on:
+  required: []
+  recommended: [principal-ideal-domain, free-module, submodule]
+  suggested: [well-ordering, transfinite-induction]
+source_books:
+  - {book_id: "gtm004", author: "P.J. Hilton and U. Stammbach", title: "A Course in Homological Algebra", chapter: "I. Modules", section: "5. Modules over a Principal Ideal Domain", pages: "", role_in_book: "Fundamental structure theorem for modules over PIDs; generalizes the fact that subgroups of free abelian groups are free."}
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: finer-decomposition
+title_en: "Finer Decomposition"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: foundations
+difficulty: basic
+tags: [decomposition, partial-order, refinement, atoms, algebra]
+depends_on:
+  required: [decomposition-of-sample-space]
+  recommended: [algebra-of-events]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition of when one decomposition is finer than another, with corresponding algebra inclusion"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

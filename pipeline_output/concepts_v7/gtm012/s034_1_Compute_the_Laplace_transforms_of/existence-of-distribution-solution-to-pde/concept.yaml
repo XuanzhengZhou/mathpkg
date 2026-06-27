@@ -1,0 +1,13 @@
+id: existence-of-distribution-solution-to-pde
+title_en: "Existence and Uniqueness of Distribution Solutions to Polynomial Differential Equations"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: distribution-theory
+difficulty: intermediate
+tags: [distribution, laplace-transform, polynomial-differential-operator, existence, uniqueness]
+depends_on: {required: [polynomial-differential-operator, laplace-transform-characterization], recommended: [greens-function-for-polynomial-differential-operator], suggested: []}
+source_books: [{book_id: "gtm012", author: "Beals", title: "Advanced Mathematical Analysis", chapter: "7", section: "Differential equations", pages: "214", role_in_book: "Establishes that p(D)F = H is always uniquely solvable in the space L' of distributions"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

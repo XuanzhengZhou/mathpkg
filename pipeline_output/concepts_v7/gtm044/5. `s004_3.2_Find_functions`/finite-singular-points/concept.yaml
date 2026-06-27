@@ -1,0 +1,23 @@
+id: finite-singular-points
+title_en: "Lemma 4.8: Finiteness of Singular Points on a Plane Curve"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [plane-curves, singular-points, discriminant, finiteness]
+depends_on:
+  required: [resultant-and-discriminant, repeated-factor-discriminant-zero]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "4"
+    pages: ""
+    role_in_book: "Shows that a plane curve has only finitely many points where both p and its Y-derivative vanish"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

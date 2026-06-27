@@ -1,0 +1,23 @@
+id: existence-of-partitions-of-unity
+title_en: "Existence of Partitions of Unity"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [partition-of-unity, existence, paracompact]
+depends_on:
+  required: [partition-of-unity, paracompactness]
+  recommended: [bump-function]
+  suggested: []
+source_books:
+  - book_id: gtm033
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2. Function Spaces"
+    section: "2.2"
+    pages: ""
+    role_in_book: "Existence theorem: every open cover of a paracompact C^r manifold admits a subordinate C^r partition of unity"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

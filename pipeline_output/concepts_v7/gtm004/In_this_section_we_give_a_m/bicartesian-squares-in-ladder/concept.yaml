@@ -1,0 +1,23 @@
+id: bicartesian-squares-in-ladder
+title_en: "Bicartesian Squares in the Ladder"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [exact-couple, ladder, bicartesian-square, spectral-sequence]
+depends_on:
+  required: [ladder-of-exact-couple, bicartesian-square-from-q-processes]
+  recommended: [exactness-of-ladder-sequence]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII"
+    section: "4. The Ladder of an Exact Couple"
+    pages: ""
+    role_in_book: "Theorem 4.6; establishes that each square in the ladder grid is bicartesian"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

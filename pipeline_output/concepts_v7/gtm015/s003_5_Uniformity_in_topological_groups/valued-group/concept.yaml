@@ -1,0 +1,23 @@
+id: valued-group
+title_en: "Valued group"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: topological-groups
+difficulty: basic
+tags: [value, norm, group, metric]
+depends_on:
+  required: []
+  recommended: [group, absolute-value]
+  suggested: [normed-vector-space]
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "8"
+    section: "Valued topological groups"
+    pages: ""
+    role_in_book: "Defines the algebraic structure underlying left-invariant metrics on groups."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

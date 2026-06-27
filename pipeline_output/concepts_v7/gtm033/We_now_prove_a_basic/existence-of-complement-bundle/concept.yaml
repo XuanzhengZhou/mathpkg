@@ -1,0 +1,23 @@
+id: existence-of-complement-bundle
+title_en: "Existence of Complement Bundle"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: vector-bundles
+difficulty: intermediate
+tags: [vector-bundle, direct-sum, complement, orthogonal-complement, trivial-bundle]
+depends_on:
+  required: [extension-of-bundle-monomorphism]
+  recommended: [orthogonal-structure-on-vector-bundle]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "3"
+    section: "The Classification of Vector Bundles"
+    pages: ""
+    role_in_book: "Corollary of Theorem 3.1 establishing existence of inverse bundles in K-theory"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

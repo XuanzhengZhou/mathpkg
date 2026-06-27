@@ -1,0 +1,23 @@
+id: homogeneous-variety-characterization
+title_en: "Characterization of Homogeneous Varieties"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: ["homogeneous-variety", "affine-variety", "projective-variety", "homogeneous-ideal"]
+depends_on:
+  required: ["homogeneous-subset", "homogeneous-polynomial", "affine-variety"]
+  recommended: ["projective-variety"]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "2. Affine and projective varieties; examples"
+    pages: ""
+    role_in_book: "Characterizes when an affine variety is homogeneous, i.e., defined by homogeneous polynomials."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

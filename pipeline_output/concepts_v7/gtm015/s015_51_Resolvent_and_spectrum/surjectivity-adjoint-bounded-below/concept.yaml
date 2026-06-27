@@ -1,0 +1,23 @@
+id: surjectivity-adjoint-bounded-below
+title_en: "T surjective iff T' is bounded below"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: banach-spaces
+difficulty: intermediate
+tags: [surjective, adjoint, bounded-below, banach-space]
+depends_on:
+  required: [adjoint-operator-definition, bounded-below-definition, adjoint-bounded-below-lemma]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "57"
+    section: "Spectrum in L(E)"
+    pages: ""
+    role_in_book: "In a Banach space, T is surjective iff T' is bounded below"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

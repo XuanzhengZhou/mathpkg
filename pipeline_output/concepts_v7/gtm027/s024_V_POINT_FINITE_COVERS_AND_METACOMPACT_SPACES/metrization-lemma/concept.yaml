@@ -1,0 +1,23 @@
+id: metrization-lemma-for-uniform-spaces
+title_en: "Metrization Lemma for Uniform Spaces"
+title_zh: "一致空间的度量化引理"
+type: lemma
+domain: topology
+subdomain: uniform-spaces
+difficulty: advanced
+tags: [metrization, uniform-space, pseudo-metric, chaining, countable-base]
+depends_on:
+  required: [uniform-space]
+  recommended: [pseudo-metric, sequence, diagonal]
+  suggested: [triangle-inequality]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Metrization"
+    pages: ""
+    role_in_book: "Lemma 12: key technical lemma for metrization of uniform spaces with countable base"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

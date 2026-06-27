@@ -1,0 +1,23 @@
+id: distribution-as-derivative-of-function
+title_en: "Distribution as derivative of a continuous function"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: distribution-theory
+difficulty: intermediate
+tags: [distribution, regular-distribution, distributional-derivative, order-of-distribution, structure-theorem]
+depends_on:
+  required: [distribution-order, regular-distribution, derivative-of-distribution]
+  recommended: [support-of-distribution, tempered-distribution]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "4"
+    section: "§4"
+    pages: ""
+    role_in_book: "Structure theorem: every distribution of finite order is a finite-order distributional derivative of a continuous function"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

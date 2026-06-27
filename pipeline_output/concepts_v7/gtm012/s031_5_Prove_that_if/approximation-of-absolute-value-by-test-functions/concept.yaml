@@ -1,0 +1,23 @@
+id: approximation-of-absolute-value-by-test-functions
+title_en: "Approximation of the absolute value function by test functions"
+title_zh: "用测试函数逼近绝对值函数"
+type: lemma
+domain: analysis
+subdomain: distribution-theory
+difficulty: intermediate
+tags: ["approximation", "test-functions", "absolute-value", "seminorm-convergence", "mollifier"]
+depends_on:
+  required: ["space-L-of-test-functions", "definition-of-distribution"]
+  recommended: ["seminorm-on-test-functions"]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "4"
+    section: "§4. Characterization of distributions of type L'"
+    pages: ""
+    role_in_book: "Lemma 4.2 — technical lemma for the proof of Theorem 4.3"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

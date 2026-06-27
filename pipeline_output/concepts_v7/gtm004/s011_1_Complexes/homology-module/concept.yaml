@@ -1,0 +1,23 @@
+id: homology-module
+title_en: "Homology Module of a Chain Complex"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [homology, chain-complex, graded-module, kernel, image]
+depends_on:
+  required: [chain-complex]
+  recommended: [graded-module, quotient-module]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV. Derived Functors"
+    section: "1. Complexes"
+    pages: ""
+    role_in_book: "Core definition: homology measures the failure of exactness of a chain complex"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

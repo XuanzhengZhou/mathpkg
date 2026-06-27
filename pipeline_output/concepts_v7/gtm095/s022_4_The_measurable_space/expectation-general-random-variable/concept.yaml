@@ -1,0 +1,23 @@
+id: expectation-general-random-variable
+title_en: "Expectation of a General Random Variable"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: expectation
+difficulty: intermediate
+tags: [expectation, Lebesgue-integral, random-variable, positive-part, negative-part]
+depends_on:
+  required: [lebesgue-integral-expectation-nonnegative]
+  recommended: [random-variable-measurable-function]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "6"
+    section: "2"
+    pages: ""
+    role_in_book: "extends the expectation to general (not necessarily nonnegative) random variables"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

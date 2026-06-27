@@ -1,0 +1,13 @@
+For $0 \leq r < 1$, the \text{Poisson kernel} $P_r(\theta)$ is defined by
+
+$$P_r(\theta) = \sum_{n=-\infty}^{\infty} r^{|n|} e^{in\theta}$$
+
+$$= 1 + \sum_{n=1}^{\infty} (re^{i\theta})^n + \sum_{n=1}^{\infty} (re^{-i\theta})^n$$
+
+$$= \frac{1 - r^2}{|1 - re^{i\theta}|^2} = \frac{1 - r^2}{1 - 2r \cos\theta + r^2}.$$
+
+Equivalently, in terms of the angular difference $\theta - \varphi$,
+
+$$P(r, \theta - \varphi) = \frac{1 - r^2}{1 - 2r \cos(\theta - \varphi) + r^2}.$$
+
+The Poisson kernel has the semigroup property: $P_r * P_s = P_{rs}$ for $0 \leq r, s < 1$, where $*$ denotes convolution on the circle.

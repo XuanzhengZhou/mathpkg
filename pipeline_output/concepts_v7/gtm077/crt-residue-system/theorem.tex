@@ -1,0 +1,21 @@
+If $a_1, a_2, \ldots, a_n$ are pairwise relatively prime integers, then a complete residue system mod $A$, where $A = a_1a_2 \cdots a_n$, is obtained in the form
+
+$$L(x_1, \ldots, x_n) = \frac{A}{a_1}c_1x_1 + \frac{A}{a_2}c_2x_2 + \cdots + \frac{A}{a_n}c_nx_n$$
+
+if the $x_i$ independently run through a complete residue system mod $a_i$ ($i = 1, 2, \ldots, n$). Here the $c_i$ may be arbitrary integers relatively prime to $a_i$.
+
+The number of these $L$ values is $|A|$ and they are incongruent mod $A$ since from the congruence mod $A$
+
+$$L(x_1, \ldots, x_n) = L(x'_1, \ldots, x'_n) \pmod{A}$$
+
+the same congruence follows modulo each $a_i$. Since
+
+$$\frac{A}{a_k} \e
+
+factor of $b$ and $n$ and conversely. Thus it makes sense to speak of the GCD of a residue class mod $n$ and $n$.
+
+In particular we ask for the number of residue classes mod $n$ which are relatively prime to $n$. This number is the Euler function $\varphi(n)$. To begin with, $\varphi(n)$ is easily determined for the case $n = p^k$, a power of a positive prime $p$, as $\varphi(p^k)$ is the number of those numbers among $1, \ldots, p^k$ which are not divisible by $p$. Among these the number divisible by $p$ is the number of multiples of $p$ between 1 and $p^k$, hence $p^{k-1}$, and thus
+
+$$\varphi(p^k) = p^k - p^{k-1} = p^k \left(1 - \frac{1}{p}\right).$$
+
+In order to determine $\varphi(n)$ for composite $n$ we now prove the

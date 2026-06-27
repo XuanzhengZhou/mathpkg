@@ -1,0 +1,23 @@
+Let $\mathfrak{A}$ be an abelian category. Given a diagram
+
+$$A \xrightarrow{\beta} B \xrightarrow{\gamma} C$$
+
+in $\mathfrak{A}$ and a monomorphism $\varrho: C_1 \rightarrowtail C$ such that $\gamma\beta$ factors through $\varrho$, the \textbf{$Q^{\varrho}$-process} produces $(\beta', \gamma') = Q^{\varrho}(\beta, \gamma)$ via the pullback
+
+$$\begin{array}{ccc}
+B' & \xrightarrow{\gamma'} & C_1 \\
+\varrho' \downarrow & \text{(PB)} & \downarrow \varrho \\
+B & \xrightarrow{\gamma} & C
+\end{array}$$
+
+where $B' = \gamma^{-1}(C_1)$, so that $\varrho'\beta' = \beta$ and $\gamma'\beta'$ factors through any epimorphism through which $\gamma\beta$ factors.
+
+Dually, given an epimorphism $\sigma: A \twoheadrightarrow A_1$ such that $\gamma\beta$ factors through $\sigma$, the \textbf{$Q_{\sigma}$-process} produces $(\beta_1, \gamma_1) = Q_{\sigma}(\beta, \gamma)$ via the pushout
+
+$$\begin{array}{ccc}
+A & \xrightarrow{\beta} & B \\
+\sigma \downarrow & \text{(PO)} & \downarrow \sigma_{0,1} \\
+A_1 & \xrightarrow{\beta_1} & B_1
+\end{array}$$
+
+where $B_1 = B / \beta\sigma^{-1}(0)$, so that $\gamma_1\sigma_{0,1} = \gamma$.

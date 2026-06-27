@@ -1,0 +1,23 @@
+id: isotopy-extension-closed-set
+title_en: "Isotopy Extension for Closed Sets (Bounded Velocity)"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [isotopy-extension, closed-set, bounded-velocity, diffeotopy]
+depends_on:
+  required: [time-dependent-field-diffeotopy, isotopy-extension-open]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "8"
+    section: "1. Isotopy"
+    pages: ""
+    role_in_book: "Most general isotopy extension theorem: closed sets with bounded velocity"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

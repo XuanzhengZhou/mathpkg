@@ -1,0 +1,23 @@
+id: polar-topology-on-dual
+title_en: "The $\mathfrak{S}$-topology on the dual space via seminorms of bounded sets"
+title_zh: "对偶空间上由有界集族定义的$\mathfrak{S}$-拓扑"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [dual-space, polar-topology, bounded-set, locally-convex-space, seminorm]
+depends_on:
+  required: [continuous-linear-form, bounded-set, seminorm]
+  recommended: [locally-convex-topology-from-seminorms]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "3"
+    section: "37"
+    pages: ""
+    role_in_book: "foundational_definition"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

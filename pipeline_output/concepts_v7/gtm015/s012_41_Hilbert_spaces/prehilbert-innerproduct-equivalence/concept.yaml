@@ -1,0 +1,23 @@
+id: prehilbert-innerproduct-equivalence
+title_en: "Equivalence of pre-Hilbert spaces and inner product spaces"
+title_zh: "准希尔伯特空间与内积空间的等价性"
+type: proposition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [pre-hilbert-space, inner-product-space, equivalence, parallelogram-law, polarization-identity]
+depends_on:
+  required: [prehilbert-implies-innerproduct, inner-product-induced-norm]
+  recommended: [hilbert-space, pre-hilbert-space]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "41"
+    section: "Hilbert spaces"
+    pages: ""
+    role_in_book: "The culmination of sections 41.1–41.11: the notions of pre-Hilbert space and inner product space are coextensive."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

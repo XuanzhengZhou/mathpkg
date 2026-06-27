@@ -1,0 +1,23 @@
+id: krull-dimension-cohomology-ring
+title_en: "Krull Dimension of the Cohomology Ring $H^*(G, k)$"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: cohomology-of-groups
+difficulty: advanced
+tags: ['Krull dimension', 'cohomology ring', 'growth rate', 'Sylow subgroup']
+depends_on:
+  required: ['growth-of-sequence', 'group-cohomology']
+  recommended: ['quillen-theorem']
+  suggested: ['commutative-algebra-dimension-theory']
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "X. Survey of Some Applications"
+    section: "4. Modular Representation Theory"
+    pages: ""
+    role_in_book: ""
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

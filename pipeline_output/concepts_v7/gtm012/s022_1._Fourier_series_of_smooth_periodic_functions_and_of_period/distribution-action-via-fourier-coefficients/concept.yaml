@@ -1,0 +1,23 @@
+id: distribution-action-via-fourier-coefficients
+title_en: "Action of Periodic Distribution Expressed via Fourier Coefficients"
+title_zh: "用傅里叶系数表示周期分布的作用"
+type: theorem
+domain: analysis
+subdomain: fourier-analysis
+difficulty: advanced
+tags: [periodic-distributions, fourier-coefficients, duality, parseval]
+depends_on:
+  required: [periodic-distributions, fourier-coefficients, distribution-fourier-coefficients-characterization]
+  recommended: [smooth-periodic-fourier-coefficients-characterization]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "5"
+    section: "§1. Fourier series of smooth periodic functions and of periodic distributions"
+    pages: ""
+    role_in_book: "Theorem 1.3: Expresses the action F(u) of a periodic distribution on a smooth periodic function in terms of their Fourier coefficient sequences"
+content_hash: "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

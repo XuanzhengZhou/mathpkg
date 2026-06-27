@@ -1,0 +1,13 @@
+id: euler-totient
+title_en: "Euler's Totient Function"
+title_zh: ""
+type: definition
+domain: number-theory
+subdomain: elementary-number-theory
+difficulty: basic
+tags: [euler-totient, phi-function, reduced-residue-system]
+depends_on: {required: [complete-residue-system, coprime-integers], recommended: [], suggested: []}
+source_books: [{book_id: "gtm077", author: "Erich Hecke", title: "Lectures on the Theory of Algebraic Numbers", chapter: "I", section: "2", pages: "", role_in_book: "Counts units in Z/nZ; essential for Euler's theorem and group theory of residue classes"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

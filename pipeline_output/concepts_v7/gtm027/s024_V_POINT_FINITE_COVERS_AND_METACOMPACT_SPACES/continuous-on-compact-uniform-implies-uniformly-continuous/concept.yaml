@@ -1,0 +1,23 @@
+id: continuous-on-compact-uniform-implies-uniformly-continuous
+title_en: "Continuous Functions on Compact Uniform Spaces are Uniformly Continuous"
+title_zh: "紧一致空间上的连续函数是一致连续的"
+type: theorem
+domain: topology
+subdomain: uniform-spaces
+difficulty: intermediate
+tags: [compact, uniform-space, continuous, uniformly-continuous]
+depends_on:
+  required: [compact-uniform-space-neighborhoods-of-diagonal, uniformly-continuous-implies-continuous]
+  recommended: [continuous-function, uniformly-continuous-function, gage]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Compact Spaces"
+    pages: ""
+    role_in_book: "Theorem 31: Heine-Cantor theorem for uniform spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,81 @@
+$$\frac{C(\omega)}{\left| \sqrt{N(a)} \right|} = \left| \frac{\sqrt{N(2b)}}{N(b_1)} \right| e^{(\pi i/4)S(\sgn \omega)} C\left(\frac{-\gamma^2}{4\omega}\right)$$ (199)
+
+holds for Gauss sums in $k$. Here $a, b$ are relatively prime integral ideals, $\omega = b/a\mathfrak{d}, b_1$ is the denominator of $a/4b$ and $\gamma$ and $S(\sgn \omega)$ are defined by (196) and (1
+
+Thus if $a, b$ are relatively prime rational integers, then
+
+$$C\left(\frac{b}{a}\right) = \sum_{n \mod a} e^{2\pi i(n^2 b/a)}.$$
+
+For odd $a$ the reciprocity formula, Theorem 163, asserts
+
+$$\frac{C\left(\frac{1}{a}\right)}{|\sqrt{a}|} = \frac{e^{(\pi i/4) \text{sgn } a}}{2\sqrt{2}} C\left(\frac{-a}{4}\right) = \frac{e^{(\pi i/4) \text{sgn } a}}{2\sqrt{2}} \sum_{n \mod 4} e^{-2\pi i(n^2 a/4)}$$
+
+$$C\left(\frac{-a}{4}\right) = 2(1 + e^{-(\pi i/2)a}) = 2(1 + (-i)^a) = 2(1 - i^a)$$
+
+$$e^{(\pi i/4) \text{sgn } a} = \frac{\sqrt{2}}{2}(1 + i \text{sgn } a)$$
+
+$$\frac{C\left(\frac{1}{a}\right)}{\sqrt{a}} = \frac{1}{2}(1 + i \text{sgn } a)(1 - i^a) = \begin{cases} 1 & \text{if } a > 0, a \equiv 1(4) \\ i & \text{if } a > 0, a \equiv 3(4) \end{cases}$$
+
+$$C\left(\frac{1}{a}\right) = \sqrt{(-1)^{a-1/2}a}, \quad \text{for } a > 0,$$
+
+where the root is to be taken positive (respectively positive imaginary). On the other hand, for primes $a$ we have
+
+$$C\left(\frac{1}{|a|}\right) = \sum_{n \mod a} \left(\frac{n}{a}\right) e^{2\pi i(n/|a|)}$$
+
+by (171). However, we have for an odd discriminant $a
+
+Now if $d_1$ and $d_2$ are two odd relatively prime discriminants, then by §52
+
+$$G(1, d_1 d_2) = \sum_{n \mod d_1 d_2} \left( \frac{n}{d_1} \right) \left( \frac{n}{d_2} \right) e^{2\pi i (n / |d_1 d_2|)}$$
+
+$$= \left( \frac{|d_2|}{d_1} \right) \left( \frac{|d_1|}{d_2} \right) G(1, d_1) G(1, d_2)$$
+
+$$= (-1)^{((\text{sgn } d_1 - 1) / 2) ((\text{sgn } d_2 - 1) / 2)} G(1, d_1) G(1, d_2).$$
+
+From this it follows that if (200) holds for two relatively prime discriminants $d_1, d_2$, then it is also valid for the product. Consequently, (200) is also true for each odd discriminant.
+
+Finally $G(1, -4)$ and $G(1, \pm 8)$ must still be calculated. We find
+
+$$G(1, -4) = 2i, \quad G(1, 8) = 2|\sqrt{2}|, \quad G(1, -8) = 2i|\sqrt{2}|. \quad (201)$$
+
+Finally, if $u$ is an odd discriminant and $q$ is a discriminant without odd prime factors, then by (152) and (153) in §52 we again have
+
+$$G(1, qu) = \left( \frac{q}{u} \right) \left( \frac{u}{q} \right) G(1, q) G(1, u) = (-1)^{((\text{sgn } q - 1) / 2) ((\text{sgn } u - 1) / 2)} G(1, q) G(1, u),$$
+
+from which, with
+
+the statement “$\alpha$ is totally positive” has a meaning only with respect to a given field which contains $\alpha$. For example $-1$ is not totally positive in $k(1)$, however it is indeed totally positive in the field $k(i)$.
+
+In order to make the simple ideas underlying our proof clear, we first make the simplifying assumption that the different $\delta$ of the field $k$ is a principal ideal (in the broadest sense), that is, there is a number $\delta$ in $k$ such that
+
+$$\delta = \delta.$$
+
+Now let $\alpha$ and $\beta$ be two relatively prime odd integers. If in (199) we set
+
+$$\omega = \frac{1}{\alpha \beta \delta}, \quad \gamma = \frac{1}{\delta}, \quad a = \alpha \beta, \quad b = 1, \quad b_1 = 4,$$
+
+then
+
+$$\frac{C\left(\frac{1}{\alpha \beta \delta}\right)}{\left|\sqrt{N(\alpha \beta)}\right|} = \frac{e^{(\pi i/4)S(\text{sgn } \alpha \beta \delta)}}{\left|\sqrt{N(8)}\right|} C\left(\frac{-\alpha \beta}{4\delta}\right).$$
+
+Moreover by (169) and Theorem 155
+
+$$C\left(\frac{1}{\alpha \beta \delta}\right) = \left(\frac{\alpha}{\beta}\right)\left(\frac{\beta}{\alpha}\right) C\left(\frac{1}{\alpha \delta}\right) C\left(\frac{1}{\beta \delta}\right).$$
+
+If we now assume that all Gauss sums with odd denominator and also all those with denominator 4 are different from 0 (which will be proved generally afterwards) then we can apply the reciprocity formula to the three sums which occur:
+
+$$\left(\frac{\alpha}{\beta}\right) \cdot \left(\frac{\beta}{\alpha}\right) = e^{(\pi i/4)S(\text{sgn } \alpha \beta \delta - \text{sgn } \alpha \delta - \text{sgn } \beta \delta)}. \quad \frac{C\left
+
+However, for real $\alpha, \beta, \delta$
+
+$$\text{sgn} \alpha \beta \delta - \text{sgn} \alpha \delta - \text{sgn} \beta \delta + \text{sgn} \delta = (\text{sgn} \alpha - 1)(\text{sgn} \beta - 1) \text{sgn} \delta$$
+
+$$\equiv 0 \pmod{4}.$$
+
+Hence
+
+$$\left( \frac{\alpha}{\beta} \right) \cdot \left( \frac{\beta}{\alpha} \right) = (-1)^{p \sum_{i=1}^{r_1} ((\text{sgn} \alpha(p) - 1)/2)((\text{sgn} \beta(p) - 1)/2)}.$$
+
+And this is the quadratic reciprocity law for two odd relatively prime numbers of which at least one is primary.
+
+We now omit any special assumptions about the field $k$. The general case in which the different of $k$ is not a principal ideal is made formally more complicated by the fact that we must still introduce accessory auxiliary ideals into the proof.

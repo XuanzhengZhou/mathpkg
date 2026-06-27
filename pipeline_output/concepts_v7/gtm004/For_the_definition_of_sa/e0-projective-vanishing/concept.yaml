@@ -1,0 +1,23 @@
+id: e0-projective-vanishing
+title_en: "Vanishing of Derived Kan Extension on E0-Projective Functors"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [derived-functor, kan-extension, projective-class, exact-coproducts]
+depends_on:
+  required: [j-homology-existence, exact-coproducts]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX"
+    section: "5. Kan Extensions"
+    pages: ""
+    role_in_book: "Shows that E0-projective functors are acyclic for the derived Kan extension when coproducts are exact"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

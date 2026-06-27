@@ -1,0 +1,19 @@
+Let $\alpha : A \to A'$ be a homomorphism of $A$-modules and let
+
+$$\begin{CD}
+B' @>>> B @>>> B'' \\
+@VVV @VV{\psi'}V @VV{\psi''}V \\
+\bar{B}' @>>> \bar{B} @>>> \bar{B}''
+\end{CD}$$
+
+be a commutative diagram with short exact rows. Then the following diagram commutes:
+
+$$\begin{CD}
+\cdots @>>> \operatorname{Ext}_A^n(A', B') @>>> \operatorname{Ext}_A^n(A', B) @>>> \operatorname{Ext}_A^n(A', B'') @>{\omega_n}>> \operatorname{Ext}_A^{n+1}(A', B') @>>> \cdots \\
+@. @VV{\alpha^*}V @VV{\alpha^*}V @VV{\alpha^*}V @VV{\alpha^*}V @. \\
+\cdots @>>> \operatorname{Ext}_A^n(A, B') @>>> \operatorname{Ext}_A^n(A, B) @>>> \operatorname{Ext}_A^n(A, B'') @>{\omega_n}>> \operatorname{Ext}_A^{n+1}(A, B') @>>> \cdots \\
+@. @VV{\psi'_*}V @VV{\psi_*}V @VV{\psi''_*}V @VV{\psi'_*}V @. \\
+\cdots @>>> \operatorname{Ext}_A^n(A, \bar{B}') @>>> \operatorname{Ext}_A^n(A, \bar{B}) @>>> \operatorname{Ext}_A^n(A, \bar{B}'') @>{\omega_n}>> \operatorname{Ext}_A^{n+1}(A, \bar{B}') @>>> \cdots
+\end{CD}$$
+
+That is, the long exact Ext-sequence in the second variable is natural with respect to morphisms in both variables.

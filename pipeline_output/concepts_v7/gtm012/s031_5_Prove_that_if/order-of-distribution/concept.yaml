@@ -1,0 +1,23 @@
+id: order-of-distribution
+title_en: "Order of a distribution"
+title_zh: "分布的阶"
+type: definition
+domain: analysis
+subdomain: distribution-theory
+difficulty: intermediate
+tags: ["distribution", "order", "seminorm", "continuity"]
+depends_on:
+  required: ["definition-of-distribution", "space-L-of-test-functions"]
+  recommended: []
+  suggested: ["theorem-3-3-every-distribution-has-finite-order"]
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "4"
+    section: "§4. Characterization of distributions of type L'"
+    pages: ""
+    role_in_book: "Definition introducing the classification of distributions by growth order"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

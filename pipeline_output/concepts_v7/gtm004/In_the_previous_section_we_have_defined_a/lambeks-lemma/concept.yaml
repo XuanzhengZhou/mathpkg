@@ -1,0 +1,23 @@
+id: lambeks-lemma
+title_en: "Lambek's Lemma"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [exact-sequence, isomorphism-theorem, kernel, image, lambek]
+depends_on:
+  required: []
+  recommended: [exact-sequence, kernel, image, noether-isomorphism-theorem]
+  suggested: [snake-lemma, ext-functor]
+source_books:
+  - book_id: "gtm004"
+    author: "Hilton, P. J.; Stammbach, U."
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "3"
+    pages: "105-106"
+    role_in_book: "Lemma 3.1 — key technical lemma used to equate Ext defined via projective and injective presentations; attributed to J. Lambek"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

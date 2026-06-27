@@ -1,0 +1,23 @@
+id: maximal-ideal-contraction-under-embedding
+title_en: "Lemma: Contraction of a Maximal Ideal is Maximal for Polynomial Ring Embeddings"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [maximal-ideal, contraction, polynomial-ring, embedding, coordinate-ring]
+depends_on:
+  required: [homomorphism-induced-extension-contraction]
+  recommended: [coordinate-ring, maximal-ideal, field]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "9"
+    section: "9.3"
+    pages: ""
+    role_in_book: "Establishes that for an embedding of polynomial rings R = C[x_1,...,x_n] ⊂ R^* = C[x_1,...,x_m] (m ≥ n), the contraction of any maximal ideal of R^* is maximal in R"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

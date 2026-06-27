@@ -1,0 +1,14 @@
+Let $T = [0, \infty)$ and let $\{P(s, x; t, B)\}$ be a family of nonnegative functions defined for $s, t \in T$, $t > s$, $x \in \mathbb{R}$, $B \in \mathcal{B}(\mathbb{R})$, satisfying:
+
+(a) $P(s, x; t, \cdot)$ is a probability measure on $(\mathbb{R}, \mathcal{B}(\mathbb{R}))$ for given $s, x$ and $t$;
+
+(b) for given $s, t$ and $B$, the function $P(s, \cdot; t, B)$ is a Borel function of $x$;
+
+(c) for all $0 \leq s < t < \tau$ and $B \in \mathcal{B}(\mathbb{R})$, the Kolmogorov–Chapman equation holds:
+$$P(s, x; \tau, B) = \int_{\mathbb{R}} P(s, x; t, dy) \, P(t, y; \tau, B).$$
+
+Let $\pi = \pi(\cdot)$ be a probability measure on $(\mathbb{R}, \mathcal{B}(\mathbb{R}))$. Then there exist a probability space $(\Omega, \mathcal{F}, \mathsf{P})$ and a random process $X = (\xi_t)_{t \geq 0}$ such that
+
+$$\mathsf{P}\{\xi_{t_0} \leq x_0, \ldots, \xi_{t_n} \leq x_n\} = \int_{-\infty}^{x_0} \pi(dy_0) \int_{-\infty}^{x_1} P(0, y_0; t_1, dy_1) \cdots \int_{-\infty}^{x_n} P(t_{n-1}, y_{n-1}; t_n, dy_n)$$
+
+for $0 = t_0 < t_1 < \cdots < t_n$. The process $X$ is a \textbf{Markov process} with initial distribution $\pi$ and transition probabilities $\{P(s, x; t, B)\}$.

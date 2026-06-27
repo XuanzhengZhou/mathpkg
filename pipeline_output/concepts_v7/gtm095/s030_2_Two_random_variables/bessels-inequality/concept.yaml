@@ -1,0 +1,23 @@
+id: bessels-inequality
+title_en: "Bessel's Inequality for Orthonormal Systems"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: L2-theory
+difficulty: basic
+tags: [bessels-inequality, orthonormal-system, L2-space, fourier-series]
+depends_on:
+  required: [system-of-orthogonal-random-variables]
+  recommended: [best-linear-estimator-orthonormal]
+  suggested: [countable-orthonormal-basis]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "2"
+    section: "2"
+    pages: ""
+    role_in_book: "States Bessel's inequality in the L² probabilistic setting"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

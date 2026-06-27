@@ -1,0 +1,23 @@
+id: locally-connected-base-characterization
+title_en: "Base Characterization of Locally Connected Spaces"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: connectedness
+difficulty: intermediate
+tags: ["locally-connected", "base", "open-connected-set"]
+depends_on:
+  required: ["locally-connected-space", "base-for-topology", "connected-space"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Locally Connected Spaces"
+    pages: ""
+    role_in_book: "Characterization of local connectedness via the existence of a base of open connected sets, presented as property (b)."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

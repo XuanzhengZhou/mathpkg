@@ -1,0 +1,15 @@
+Let $(\sigma_1, \sigma_2, \ldots)$ be a sequence of independent identically distributed positive random variables with distribution function $F = F(x)$. Define
+
+$$T_0 = 0, \quad T_n = \sigma_1 + \cdots + \sigma_n, \quad n \geq 1.$$
+
+The random process $N = (N_t)_{t \geq 0}$ defined by
+
+$$N_t = \sum_{n=1}^{\infty} I(T_n \leq t)$$
+
+is called a \textbf{renewal process}. Equivalently,
+
+$$N_t = \max\{n : T_n \leq t\},$$
+
+so that $N_t$ is the number of renewals occurring in $(0, t]$. The fundamental relation is
+
+$$\{N_t \geq n\} = \{T_n \leq t\}.$$

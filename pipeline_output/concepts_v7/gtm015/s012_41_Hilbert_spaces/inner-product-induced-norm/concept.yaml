@@ -1,0 +1,23 @@
+id: inner-product-induced-norm
+title_en: "Inner product induces a norm satisfying the parallelogram law"
+title_zh: "内积导出满足平行四边形律的范数"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [inner-product, induced-norm, parallelogram-law, pre-hilbert-space]
+depends_on:
+  required: [sesquilinear-form, bilinear-form]
+  recommended: [cauchy-schwarz-inequality]
+  suggested: [pre-hilbert-space]
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "41"
+    section: "Hilbert spaces"
+    pages: ""
+    role_in_book: "The converse direction: shows that every inner product space is a pre-Hilbert space."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: hilbert-left-invertible
+title_en: "Left invertibility in Hilbert space"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: hilbert-spaces
+difficulty: intermediate
+tags: [hilbert-space, left-invertible, bounded-below, adjoint]
+depends_on:
+  required: [hilbert-space-definition, bounded-below-definition]
+  recommended: [hilbert-invertibility-criteria]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "57"
+    section: "Spectrum in L(E)"
+    pages: ""
+    role_in_book: "T is left-invertible iff T is bounded below iff T*T is invertible"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

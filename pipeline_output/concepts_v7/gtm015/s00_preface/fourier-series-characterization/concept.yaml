@@ -1,0 +1,23 @@
+id: fourier-series-characterization
+title_en: "Characterization of Functions with Absolutely Convergent Fourier Series"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: intermediate
+tags: [fourier-series, absolutely-convergent, wiener-algebra, weierstrass-approximation]
+depends_on:
+  required: [fourier-coefficient-recovery]
+  recommended: [weierstrass-approximation-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "0"
+    section: "Apéritif (Wiener's Theorem)"
+    pages: ""
+    role_in_book: "Remark 2; characterizes the Wiener algebra in purely function-theoretic terms"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

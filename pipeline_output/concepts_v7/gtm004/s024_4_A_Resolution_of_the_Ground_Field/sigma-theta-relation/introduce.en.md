@@ -1,0 +1,1 @@
+The commutation relation $\sigma(y) d_{n-1} + d_n \sigma(y) = -\theta(y)$ links the $\mathfrak{g}$-module structure $\sigma$, the differential $d_n$, and the theta map. This relation forces the definition of $d_n$ inductively from $\theta$ and $\sigma$, and is essential in proving that $d_{n-1} d_n = 0$ and that $\theta(y) d_n = d_n \theta(y)$.

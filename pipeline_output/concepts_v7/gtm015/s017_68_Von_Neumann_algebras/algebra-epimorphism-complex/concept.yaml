@@ -1,0 +1,23 @@
+id: algebra-epimorphism-complex
+title_en: "Continuity of algebra epimorphisms to the complex numbers"
+title_zh: "Banach代数到复数的代数满同态的连续性"
+type: lemma
+domain: analysis
+subdomain: banach-algebras
+difficulty: intermediate
+tags: [banach-algebra, epimorphism, continuity, character]
+depends_on:
+  required: []
+  recommended: [banach-algebra, algebra-epimorphism, maximal-ideal, unitification]
+  suggested: [gelfand-mazur-theorem]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "70"
+    section: "The character group of an LCA group"
+    pages: "317-318"
+    role_in_book: "Lemma (70.4) on automatic continuity of algebra homomorphisms to C"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

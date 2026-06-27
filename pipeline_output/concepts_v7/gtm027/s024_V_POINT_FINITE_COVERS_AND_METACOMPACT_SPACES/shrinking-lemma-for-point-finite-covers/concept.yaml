@@ -1,0 +1,23 @@
+id: shrinking-lemma-for-point-finite-covers
+title_en: "Shrinking Lemma for Point Finite Open Covers"
+title_zh: "点有限开覆盖的收缩引理"
+type: proposition
+domain: topology
+subdomain: covering-properties
+difficulty: intermediate
+tags: [shrinking-lemma, point-finite, normal-space, open-cover]
+depends_on:
+  required: [point-finite-family, normal-space]
+  recommended: [open-cover, closure]
+  suggested: [maximal-principle]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "V. Point Finite Covers and Metacompact Spaces"
+    pages: ""
+    role_in_book: "Proposition (a): shrinking of point finite open covers in normal spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

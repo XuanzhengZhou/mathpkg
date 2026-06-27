@@ -1,0 +1,23 @@
+id: collar-of-boundary
+title_en: "Existence of Collars for Boundaries"
+title_zh: "边界领子的存在性"
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [collar, boundary, manifold-with-boundary, embedding]
+depends_on:
+  required: [boundary-manifold]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "6"
+    pages: "113-114"
+    role_in_book: "Every boundary of a smooth manifold admits a collar neighborhood"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

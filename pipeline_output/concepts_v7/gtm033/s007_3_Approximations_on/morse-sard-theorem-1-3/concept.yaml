@@ -1,0 +1,23 @@
+id: morse-sard-theorem-1-3
+title_en: "Morse-Sard Theorem (Theorem 1.3)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [morse-sard, critical-value, measure-zero, c-r-map, regular-value]
+depends_on:
+  required: [critical-point, regular-value, measure-zero, lemma-1-1-measure-zero-under-c1-map]
+  recommended: [fubini-theorem, taylor-expansion, implicit-function-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "3"
+    section: "1. The Morse-Sard Theorem"
+    pages: ""
+    role_in_book: "The central result justifying transversality: the set of critical values has measure zero"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

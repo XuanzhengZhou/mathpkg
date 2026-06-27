@@ -1,0 +1,23 @@
+id: iterated-limits-theorem
+title_en: "Theorem on Iterated Limits"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: nets-and-convergence
+difficulty: advanced
+tags: ["iterated-limits", "net", "product-directed-set", "Moore-Smith-convergence"]
+depends_on:
+  required: ["net", "convergence-of-net", "product-directed-set"]
+  recommended: ["subnet", "directed-set"]
+  suggested: ["diagonal-process"]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "2"
+    section: "Directed Sets and Nets"
+    pages: "81-87"
+    role_in_book: "Theorem 4. Shows how to construct a single net whose limit captures an iterated limit, using product directed sets. A fundamental result of Moore-Smith convergence theory."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

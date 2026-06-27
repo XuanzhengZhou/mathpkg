@@ -1,0 +1,23 @@
+id: type-number-of-morse-function
+title_en: "Type Number of a Morse Function"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: morse-theory
+difficulty: intermediate
+tags: [morse-function, critical-point, index, type-number, morse-inequalities]
+depends_on:
+  required: [morse-function, critical-point, index-of-critical-point]
+  recommended: [betti-number]
+  suggested: [morse-homology]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Defines the counting data of a Morse function used in Morse inequalities"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

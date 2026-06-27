@@ -1,0 +1,181 @@
+$$\text{Var} \xi = E(\xi - E\xi)^2.$$
+
+The number $\sigma = +\sqrt{\text{Var} \xi
+
+we have
+
+$$\text{Var} \xi = \text{E} \xi^2 - (\text{E} \xi)^2.$$
+
+Clearly $\text{Var} \xi \geq 0$. It follows from the definition that
+
+$$\text{Var}(a + b\xi) = b^2 \text{Var} \xi, \quad \text{where } a \text{ and } b \text{ are constants.}$$
+
+In particular, $\text{Var} a = 0$, $\text{Var}(b\xi) = b^2 \text{Var} \xi$.
+
+Let $\xi$ and $\eta$ be random variables. Then
+
+$$\text{Var}(\xi + \eta) = \text{E}((\xi - \text{E} \xi) + (\eta - \text{E} \eta))^2$$
+
+$$= \text{Var} \xi + \text{Var} \eta + 2 \text{E}(\xi - \text{E} \xi)(\eta - \text{E} \eta).$$
+
+Write
+
+$$\text{Cov}(\xi, \eta) = \text{E}(\xi - \text{E} \xi)(\eta - \text{E} \eta).$$
+
+This number is called the covariance of $\xi$ and $\eta$. If $\text{Var} \xi > 0$ and $\text{Var} \eta > 0$, then
+
+$$\rho(\xi, \eta) = \frac{\text{Cov}(\xi, \eta)}{\sqrt{\text{Var} \xi \cdot \text{Var} \eta}}$$
+
+is called the correlation coefficient of $\xi$ and $\eta$. It is easy to show (see Problem 7 below) that if $\rho(\xi, \eta) = \pm 1$, then $\xi$ and $\eta$ are linearly dependent:
+
+$$\eta = a\xi + b,$$
+
+with $a > 0$ if $\rho(\xi, \eta) = 1$ and $a < 0$ if $\rho(\xi, \eta) = -1$.
+
+We observe immediately that if $\xi$ and $\eta$ are independent, so are $\xi - \text{E} \xi$ and $\eta - \
+
+however, they are stochastically dependent (i.e., not independent with respect to the probability $P$):
+
+$$P\{\xi = 1, \eta = 1\} = 0 \neq \frac{1}{9} = P\{\xi = 1\} P\{\eta = 1\}.$$
+
+Properties (10) and (11) can be extended in the obvious way to any number of random variables:
+
+$$\text{Var}\left(\sum_{i=1}^{n} \xi_i\right) = \sum_{i=1}^{n} \text{Var}\xi_i + 2 \sum_{i>j} \text{Cov}(\xi_i, \xi_j).$$
+
+In particular, if $\xi_1, \ldots, \xi_n$ are pairwise independent (pairwise uncorrelated is sufficient), then
+
+$$\text{Var}\left(\sum_{i=1}^{n} \xi_i\right) = \sum_{i=1}^{n} \text{Var}\xi_i.$$
+
+Example 5. If $\xi$ is a Bernoulli random variable, taking the values 1 and 0 with probabilities $p$ and $q$, then
+
+$$\text{Var}\xi = \text{E}(\xi - \text{E}\xi)^2 = \text{E}(\xi - p)^2 = (1 - p)^2 p + p^2 q = pq.$$
+
+It follows that if $\xi_1, \ldots, \xi_n$ are independent identically distributed Bernoulli random variables, and $S_n = \xi_1 + \cdots + \xi_n$, then
+
+$$\text{Var}S_n = npq.$$
+
+8. Consider two random variables $\xi$ and $\eta$. Suppose that only $\xi$ can be observed. If $\xi$ and $\eta$ are correlated, we may expect that knowing the value of $\xi$ allows us to make some inference about the values of the unobserved variable $\eta$.
+
+Any function $f = f(\xi)$ of $\xi$ is called an estimator for $\eta$. We say that an estimator $f^* = f^*(\xi)$ is best (or optimal) in the mean-square sense if
+
+$$\text{E}(\
+
+In other words,
+
+$$\lambda^*(\xi) = E \eta + \frac{\text{Cov}(\xi, \eta)}{\text{Var}\xi} (\xi - E \xi).$$
+
+(16)
+
+The number $E(\eta - \lambda^*(\xi))^2$ is called the mean-square error of estimation. An easy calculation shows that it is equal to
+
+$$\Delta^* = E(\eta - \lambda^*(\xi))^2 = \text{Var}\eta - \frac{\text{Cov}^2(\xi, \eta)}{\text{Var}\xi} = \text{Var}\eta \cdot [1 - \rho^2(\xi, \eta)].$$
+
+(17)
+
+Consequently, the larger (in absolute value) the correlation coefficient $\rho(\xi, \eta)$ between $\xi$ and $\eta$, the smaller the mean-square error of estimation $\Delta^*$. In particular, if $|\rho(\xi, \eta)| = 1$ then $\Delta^* = 0$ (cf. Problem 7). On the other hand, if $\xi$ and $\eta$ are uncorrelated $(\rho(\xi, \eta) = 0)$, then $\lambda^*(\xi) = E \eta$, i.e., in the absence of correlation between $\xi$ and $\eta$ the best estimate of $\eta$ in terms of $\xi$ is simply $E \eta$ (cf. Problem 4).
+
+9. PROBLEMS.
+
+1. Verify the following properties of indicators $I_A = I_A(\omega)$:
+
+$$I_\emptyset = 0, \quad I_\Omega = 1, \quad I_A + I_A = 1,$$
+
+$$I_{AB} = I_A \cdot I_B,$$
+
+$$I_{A \cup B} = I_A + I_B - I_{AB}.$$
+
+The indicator of $\bigcup_{i=1}^n A_i$ is $1 - \prod_{i=1}^n (1 - I_{A_i})$, the indicator of $\overline{\bigcup_{i=1}^n A_i}$ is $\prod_{i=1}^n (1 - I_{A_i})$, the indicator of $\sum_{i=1}^n A_i$ is $\sum_{i=
+
+4. Show that $\inf_{-\infty < a < \infty} E(\xi - a)^2$ is attained for $a = E\xi$ and consequently
+
+$$\inf_{-\infty < a < \infty} E(\xi - a)^2 = \text{Var}\xi.$$
+
+5. Let $\xi$ be a random variable with distribution function $F_\xi(x)$ and let $m_e$ be a median of $F_\xi(x)$, i.e., a point such that
+
+$$F_\xi(m_e -) \leq \frac{1}{2} \leq F_\xi(m_e).$$
+
+Show that
+
+$$\inf_{-\infty < a < \infty} E|\xi - a| = E|\xi - m_e|.$$
+
+6. Let $P_\xi(x) = \text{P}\{\xi = x\}$ and $F_\xi(x) = \text{P}(\xi \leq x\}$. Show that
+
+$$P_{a\xi + b}(x) = P_\xi\left(\frac{x - b}{a}\right),$$
+
+$$F_{a\xi + b}(x) = F_\xi\left(\frac{x - b}{a}\right)$$
+
+for $a > 0$ and $-\infty < b < \infty$. If $y \geq 0$, then
+
+$$F_{\xi^2}(y) = F_\xi(+\sqrt{y}) - F_\xi(-\sqrt{y}) + P_\xi(-\sqrt{y}).$$
+
+Let $\xi^+ = \max(\xi, 0)$. Then
+
+$$F_{\xi^+}(x) = \begin{cases} 0, & x < 0, \\ F_\xi(0), & x = 0, \\ F_\xi(x), & x > 0. \end{cases}$$
+
+7. Let $\xi$ and $\eta$ be random variables with $\text{Var}\xi > 0$, $\text{Var}\eta > 0$, and let $\rho = \rho(\xi, \eta)$ be their correlation coefficient. Show that $|\rho| \leq 1$. If $|\rho| = 1$, there are constants $a$ and $b$ such that $\eta = a\xi + b$. Moreover, if $\rho = 1
+
+9. Use the equation
+
+$$\left( \text{Indicator of } \bigcup_{i=1}^{n} A_i \right) = \prod_{i=1}^{n} \left( 1 - I_{A_i} \right)$$
+
+to prove the formula $P(B_0) = 1 - S_1 + S_2 + \cdots \pm S_n$ in Problem 4 of Sect. 1.
+
+10. Let $\xi_1, \ldots, \xi_n$ be independent random variables, $\varphi_1 = \varphi_1(\xi_1, \ldots, \xi_k)$ and $\varphi_2 = \varphi_2(\xi_{k+1}, \ldots, \xi_n)$, functions respectively of $\xi_1, \ldots, \xi_k$ and $\xi_{k+1}, \ldots, \xi_n$. Show that the random variables $\varphi_1$ and $\varphi_2$ are independent.
+
+11. Show that the random variables $\xi_1, \ldots, \xi_n$ are independent if and only if
+
+$$F_{\xi_1, \ldots, \xi_n}(x_1, \ldots, x_n) = F_{\xi_1}(x_1) \cdots F_{\xi_n}(x_n)$$
+
+for all $x_1, \ldots, x_n$, where $F_{\xi_1, \ldots, \xi_n}(x_1, \ldots, x_n) = P\{\xi_1 \leq x_1, \ldots, \xi_n \leq x_n\}.$
+
+12. Show that the random variable $\xi$ is independent of itself (i.e., $\xi$ and $\xi$ are independent) if and only if $\xi = \text{const}.$
+
+13. Under what conditions on $\xi$ are the random variables $\xi$ and $\sin \xi$ independent?
+
+14. Let $\xi$ and $\eta$ be independent random variables and $\eta \neq 0$. Express the probabilities of the events $P\{\xi \eta \leq z\}$ and $P\{\xi/\eta \leq z\}$ in terms of the probabilities $P_{\xi}(x)$ and $P_{\eta}(y).$
+
+We introduce random variables $\xi_{n1}, \ldots, \xi_{nn}$ by taking $\xi_{ni}(\omega) = a_i$, $i = 1, \ldots, n$, where $\omega = (a_1, \ldots, a_n)$. As we saw above, the Bernoulli variables $\xi_{ni}(\omega)$ are independent and identically distributed:
+
+$$P_n \{\xi_{ni} = 1\} = p, \quad P_n \{\xi_{ni} = 0\} = q, \quad i = 1, \ldots, n.$$
+
+It is natural to think of $\xi_{ni}$ as describing the result of an experiment at the $i$th stage (or at time $i$).
+
+Let us put $S_{n0}(\omega) \equiv 0$ and
+
+$$S_{nk} = \xi_{n1} + \cdots + \xi_{nk}, \quad k = 1, \ldots, n.$$
+
+For notational simplicity we will write $S_n$ for $S_{nn}$. As we found above, $E_n S_n = np$ and consequently
+
+$$E_n \frac{S_n}{n} = p.$$
+
+In other words, the mean value of the frequency of “success,” i.e., $S_n/n$, coincides with the probability $p$ of success. Hence we are led to ask how much the frequency $S_n/n$ of success differs from its probability $p$.
+
+We first note that we cannot expect that, for a sufficiently small $\varepsilon > 0$ and for sufficiently large $n$, the deviation of $S_n/n$ from $p$ is less than $\varepsilon$ for all $\omega$, i.e., that
+
+$$\left| \frac{S_n(\omega)}{n} - p \right| \leq \varepsilon, \quad \omega \in \Omega_n.$$
+
+In fact, when $0 < p < 1$,
+
+$$P_n \left\{ \frac{S_n}{n} = 1 \right\} = P_n \{\xi_{n1} = 1, \ldots, \xi_{nn} = 1\} = p^n,$$
+
+$$P_n \left\{ \frac{S
+
+Then
+
+$$P_n \left\{ \left| \frac{S_n}{n} - p \right| \geq \varepsilon \right\} = \sum_{\{k : |(k/n) - p| \geq \varepsilon\}} P_n(k).$$
+
+It was proved by J. Bernoulli that, as $n \to \infty$, the expression in the right-hand side and hence the probability in the left-hand side tend to 0. The latter statement is called the law of large numbers.
+
+The analytic proof of this statement is rather involved, and we will prove that
+
+$$P_n \left\{ \left| \frac{S_n}{n} - p \right| \geq \varepsilon \right\} \to 0 \quad \text{as} \quad n \to \infty$$
+
+by probabilistic methods. For this purpose we will use the following inequality, which was established by Chebyshev.
+
+Chebyshev’s (Bienaymé–Chebyshev’s) inequality. Let $(\Omega, \mathcal{A}, P)$ be a (discrete) probability space and $\xi = \xi(\omega)$ a nonnegative random variable defined on $(\Omega, \mathcal{A})$.
+
+Then
+
+$$P\{\xi \geq \varepsilon\} \leq E\xi/\varepsilon$$
+
+for all $\varepsilon > 0$.

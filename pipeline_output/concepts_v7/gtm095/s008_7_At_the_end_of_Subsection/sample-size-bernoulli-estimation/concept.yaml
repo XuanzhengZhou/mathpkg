@@ -1,0 +1,23 @@
+id: sample-size-bernoulli-estimation
+title_en: "Sample Size for Bernoulli Probability Estimation"
+title_zh: "伯努利概率估计的样本量公式"
+type: theorem
+domain: probability
+subdomain: statistical-estimation
+difficulty: basic
+tags: [sample-size, bernoulli, estimation, confidence-interval]
+depends_on:
+  required: [hoeffding-inequality-bernoulli]
+  recommended: [estimator, consistent-estimator]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "6"
+    pages: "86"
+    role_in_book: "core"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

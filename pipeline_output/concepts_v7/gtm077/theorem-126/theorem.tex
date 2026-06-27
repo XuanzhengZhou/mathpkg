@@ -1,0 +1,93 @@
+If $\mathfrak{p}_1$ runs through the distinct prime ideals of degree one in $k$, then, for $s > 1$,
+
+$$\sum_{\mathfrak{p}_1} \frac{1}{N(\mathfrak{p}_1)^s} = \log \frac{1}{s-1} + g_1(s),$$
+
+where $g_1(s)$ again remains bounded as $s$ tends to 1. Hence there are infinitely many prime ideals of degree one in $k$.
+
+**Proof:** Let $\mathfrak{p}_f$ run through the distinct prime ideals of degree $f$ for $f = 1, 2, \ldots, n$. (Of course $\mathfrak{p}_f$ need not exist for each $f$.) Since at most $n$ distinct prime ideals of $k$ divide a given rational prime $p$ then, in any case, for $s > 1$,
+
+$$1
+
+where again $f(s)$ remains bounded. However, since $N(\mathfrak{p}_1) \geq 2$, we have for $s \geq 1$
+
+$$-\log \left(1 - \frac{1}{N(\mathfrak{p}_1)^s}\right) = \frac{1}{N(\mathfrak{p}_1)^s} + \varphi(\mathfrak{p}_1, s),$$
+
+$$0 \leq \varphi(\mathfrak{p}_1, s) = \frac{1}{2} \frac{1}{N(\mathfrak{p}_1)^{2s}} + \frac{1}{3} \frac{1}{N(\mathfrak{p}_1)^{3s}} + \cdots$$
+
+$$< \frac{1}{N(\mathfrak{p}_1)^{2s}} \left(1 + \frac{1}{2^s} + \frac{1}{4^s} + \cdots\right) < \frac{2}{N(\mathfrak{p}_1)^{2s}},$$
+
+and hence the sum over $\mathfrak{p}_1$ is
+
+$$0 \leq \sum_{\mathfrak{p}_1} \varphi(\mathfrak{p}_1, s) \leq 2 \sum_{\mathfrak{p}_1} \frac{1}{N(\mathfrak{p}_1)^{2s}} \leq 2n \sum_{p} \frac{1}{p^{2s}} \leq 2n \sum_{p} \frac{1}{p^2},$$
+
+that is, bounded for $s \geq 1$. Hence, in combination with (98) it follows that
+
+$$\log \zeta_k(s) - \sum_{\mathfrak{p}_1} \frac{1}{N(\mathfrak{p}_1)^s}$$
+
+remains bounded as $s$ tends to 1, and with this, by (96), we have proved (97). Hence if $s$ approaches 1 the sum over $\mathfrak{p}_1$ becomes arbitrarily large and thus it must consist of infinitely many terms.
+
+This general theorem, valid for every algebra
+
+Theorem 128. If $\chi(n)$ denotes a residue character of $n$ mod $m$, then the Dirichlet series
+
+$$L(s, \chi) = \sum_{n=1}^{\infty} \frac{\chi(n)}{n^s}$$
+
+is absolutely convergent for $s > 1$ and as long as $s > 1$ we have the product representation
+
+$$L(s, \chi) = \prod_{p} \frac{1}{1 - \frac{\chi(p)}{p^s}},$$
+
+(100)
+
+in which $p$ runs through all positive rational primes. If moreover, $\chi$ is not the principal character, then the infinite series for $L(s, \chi)$ is convergent even for $s > 0$.
+
+First of all the absolute convergence of the series and the product representation for $s > 1$ are obtained immediately from the fact that the coefficients $\chi(n)$ are not larger than 1 in absolute value, as $\chi(n)$ is either a root of unity, or, in case $(n, m) > 1$, equal to 0. Since the rule
+
+$$\chi(ab) = \chi(a)\chi(b)$$
+
+holds for all pairs of positive integers $a, b$, we now obtain
+
+$$\frac{1}{1 - \frac{\chi(p)}{p^s}} = 1 + \frac{\chi(p)}{p^s} + \frac{\chi(p^2)}{p^{2s}} + \cdots$$
+
+for each individual factor of the infinite product; by absolute convergence we thereby obtain Equation (100) from this by multiplication, in the same way as above in the proof of Theorem 124.
+
+Finally, if $\chi$ is not the principal character $\chi_1$ mod $m$, then, by the basic property of characters, $\sum_{n} \chi(n) = 0$, where $n$ runs through any complete system of residues mod $m$. Thus if the integer $x = y \cdot m + r$, where $y$ and $r$ are integers and $0 \leq r < m$, then
+
+$$\left| \sum_{n=1}^{x} \chi(n) \right| = \left| \sum_{
+
+If we define the log function, for $s > 0$, by the convergent series
+
+$$\log \frac{1}{1 - \frac{\chi(p)}{p^s}} = \frac{\chi(p)}{p^s} + \frac{1}{2} \frac{\chi(p^2)}{p^{2s}} + \frac{1}{3} \frac{\chi(p^3)}{p^{3s}} + \cdots = \frac{\chi(p)}{p^s} + \frac{f(s,p)}{p^{2s}},$$
+
+where obviously
+
+$$|f(s,p)| \leq 1 \quad \text{for } p \geq 2, s \geq 1,$$
+
+then the sum of these expressions, extended over all positive primes, converges for $s > 1$, and thus this sum represents one of the infinitely many values of $\log L(s,\chi)$. Then Theorem 129 holds for this value.
+
+Moreover, for the principal character $\chi = \chi_1$ we have, more precisely,
+
+$$L(s,\chi_1) = \log \frac{1}{s-1} + H(s),$$
+
+(101)
+
+where $H(s)$ remains finite for $s \geq 1$.
+
+For if we choose the field $k(1)$ for $k$ in (97), then we obtain that
+
+$$\sum_p \frac{1}{p^s} - \log \frac{1}{s-1}$$
+
+remains finite as $s \rightarrow 1$; on the other hand $\chi_1(p)$ is equal to 1 in general and different from 1 (i.e., equal to 0) only for the finitely many primes $p$ which divide $m$. Thus (101) is, in fact, proved.
+
+In order to go from here to sums which are extended only over the primes of a residue class mod $m$, let $a$ be an arbitrary rational integer which is coprime to $m$ and let $b$ be a rational integer such that
+
+$$ab \equiv 1 \pmod{m}.$$
+
+Then, as long as $s > 1$, if $\sum_x$ denotes a sum to be extended over
+
+Finally, let us now allow $s$ to tend toward the critical value 1. On the left-hand side, by (101), the term which is formed by the principal character $\chi = \chi_1$ becomes infinitely large and positive. Thus if the remaining summands remain finite, the entire left-hand side of (102) grows beyond all bounds. Consequently the sum on the right must contain infinitely many terms; hence there are infinitely many $p$ which are $\equiv a \pmod{m}$.
+
+Accordingly, the verification of the following assertion remains the essential point in Dirichlet’s train of thought:
+
+If $\chi$ is not the principal character, then the quantities $\log L(s, \chi)$ remain finite as $s$ tends to 1.
+
+Since these $L(s, \chi)$ are continuous functions of $s$, for $s > 0$, by the last part of Theorem 128, the assertion is identical with

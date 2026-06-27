@@ -1,0 +1,23 @@
+id: dehomogenization-of-polynomial
+title_en: "Dehomogenization of a Homogeneous Polynomial"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: ["dehomogenization", "homogenization", "affine-part"]
+depends_on:
+  required: ["homogeneous-polynomial", "polynomial-ring"]
+  recommended: ["homogenization-of-polynomial"]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "2. Affine and projective varieties; examples"
+    pages: ""
+    role_in_book: "Defines the dehomogenization operation, the inverse of homogenization on the affine part."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

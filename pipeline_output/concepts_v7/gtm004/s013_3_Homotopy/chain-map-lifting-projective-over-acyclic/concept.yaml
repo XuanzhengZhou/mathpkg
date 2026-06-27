@@ -1,0 +1,23 @@
+id: chain-map-lifting-projective-over-acyclic
+title_en: "Lifting of Maps from Projective to Acyclic Complexes"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [comparison-theorem, projective, acyclic, chain-map, lifting]
+depends_on:
+  required: [projective-module, acyclic-complex, chain-map, homotopy-of-chain-maps]
+  recommended: [projective-resolution-of-a-module]
+  suggested: [derived-functor]
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "4. Projective and Injective Resolutions"
+    pages: "138-139"
+    role_in_book: "Theorem 4.1. The fundamental comparison/lifting theorem; implies uniqueness of projective resolutions up to homotopy."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

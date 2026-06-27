@@ -1,0 +1,67 @@
+Each number $\alpha$ of the field, for which $\mathfrak{d}\alpha$ is integral can be represented in the form
+
+$$\alpha = \frac{\rho}{F'(\theta)}$$
+
+where $\rho$ is an integer of the ring $R(\theta)$ and $F'(\theta)$ is the different of $\theta$ as in (63).
+
+For the proof we consider the polynomial in $x$
+
+$$G(x) = \sum_{i=1}^{n} \alpha^{(i)} \frac{F(x)}{x - \theta^{(i)}}.$$ (66)
+
+where
+
+$$F(x) = \prod_{i=1}^{n} (x - \theta^{(i)}) = c_0 + c_1x + \cdots + c_{n-1}x^{n-1} + c_nx^n.$$
+
+$G(x)$ is a polynomial with rational integral coefficients since
+
+$$\frac{F(x)}{x - \theta} = \frac{F(x) - F(\theta)}{x - \theta} = \sum_{h=1}^{n} c_h \sum_{0 \leq r \leq h-1} x^r \theta^{h-r-1}$$
+
+and hence
+
+$$G(x) = \sum_{h=1}^{n} c_h \sum_{0 \leq r \leq h-1} x
+
+Lemma (b). For each number $\rho$ which belongs to the ring $R(\theta)$, we have
+
+$$S\left(\frac{\rho}{F'(\theta)}\right) = \text{integer}.$$
+
+Obviously this assertion needs only to be proved for $\rho = 1, \theta, \ldots, \theta^{n-1}$, where it follows directly from the so-called Euler formulas
+
+$$\sum_{i=1}^{n} \frac{\theta^{(i)k}}{F'(\theta^{(i)})} = \begin{cases} 0 & \text{for } k = 0, 1, 2, \ldots, n-2, \\ 1 & \text{for } k = n-1. \end{cases}$$
+
+These formulas follow, as we mention for the sake of completeness, from the Lagrange interpolation formula
+
+$$\sum_{i=1}^{n} \frac{\theta^{(i)k+1}}{F'(\theta^{(i)})} \frac{F(x)}{x - \theta^{(i)}} = \begin{cases} x^{k+1} & \text{for } k = 0, 1, \ldots, n-2, \\ x^n - F(x) & \text{for } k = n-1, \end{cases}$$
+
+if we set $x = 0$ (or also if we expand in powers of $1/x$ after division by $F(x)$).
+
+Theorem 104. All numbers of the ideal $\mathfrak{f} = F'(\theta)/\mathfrak{d}$ belong to the ring $R(\theta)$, and if all numbers of an ideal $\mathfrak{a}$ belong to the ring $R(\theta)$, then $\mathfrak{a}$ is divisible by $\mathfrak{f}$.
+
+If $\omega \equiv 0$ (mod $\mathfrak{f}$), then $\alpha = \omega/F'(\theta)$ is a number with denominator $\mathfrak{d}$, and by Lemma (a), $\alpha F'(\theta)$ must be a number of this ring. Hence the first part of our theorem is proved.
+
+Conversely, if all numbers of $\mathfrak{a}$ are numbers of
+
+arrange that $\theta$ is different from all of its conjugates, and in addition
+
+$$\theta \equiv 0 \pmod{\mathfrak{a}}, \quad \text{where } p = \mathfrak{p}^e \mathfrak{a}, (\mathfrak{a}, \mathfrak{p}) = 1,$$
+
+and $p$ is the rational prime which is divisible by $\mathfrak{p}$.
+
+If we now let $\gamma_i$ in (68) run through the $N(\mathfrak{p})$ numbers
+
+$$0, \theta, \theta^2, \ldots, \theta^{N(\mathfrak{p})-1}$$
+
+which are incongruent mod $\mathfrak{p}$, we see that each residue class mod $\mathfrak{p}^h$ can be represented by a number of the ring $R(\theta)$. But then, if (69) holds, the conductor $\mathfrak{f}$ of the ring cannot be divisible by $\mathfrak{p}$. For if
+
+$$N(\mathfrak{d}\mathfrak{f}) = p^k a, \quad \text{where } (a, p) = 1,$$
+
+then to begin with, by the above, to each integer $\omega$ there is a number $\rho$ of the ring such that
+
+$$\pi = \omega - \rho \equiv 0 \pmod{\mathfrak{p}^{ek}}.$$
+
+Here $\pi a\theta^k$ is divisible by $F'(\theta) = \mathfrak{d}\mathfrak{f}$, as the decomposition
+
+$$\frac{\pi a\theta^k}{F'(\theta)} = \frac{\pi\theta^k N(\mathfrak{d}\mathfrak{f})}{\mathfrak{d}\mathfrak{f}p^k} = \frac{N(\mathfrak{d}\mathfrak{f})}{\mathfrak{d}\mathfrak{f}} \frac{\pi\theta^k}{\mathfrak{p}^{ek}\mathfrak{a}^k}$$
+
+shows by (69). Hence by Lemma (a), this number can be represented in the form
+
+$$\

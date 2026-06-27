@@ -1,0 +1,13 @@
+Let $P$ and $\tilde{P}$ be probability measures on $(\Omega, \mathcal{F})$. Then the following inequalities hold between the Hellinger integral $H(P, \tilde{P})$ and the total variation distance $\|P - \tilde{P}\|$:
+
+$$2\left[1 - H(P, \tilde{P})\right] \leq \|P - \tilde{P}\| \leq \sqrt{8\left[1 - H(P, \tilde{P})\right]},$$
+
+$$\|P - \tilde{P}\| \leq 2\sqrt{1 - H^2(P, \tilde{P})}.$$
+
+In terms of the Kakutani--Hellinger distance $\rho(P, \tilde{P})$, where $\rho^2(P, \tilde{P}) = 1 - H(P, \tilde{P})$:
+
+$$2\rho^2(P, \tilde{P}) \leq \|P - \tilde{P}\| \leq \sqrt{8}\,\rho(P, \tilde{P}).$$
+
+For direct product measures $P^n = P \times \cdots \times P$ and $\tilde{P}^n = \tilde{P} \times \cdots \times \tilde{P}$, since $H(P^n, \tilde{P}^n) = [H(P, \tilde{P})]^n = e^{-\lambda n}$ with $\lambda = -\log H(P, \tilde{P}) \geq \rho^2(P, \tilde{P})$, the error probability in hypothesis testing satisfies:
+
+$$\frac{1}{2} e^{-2\lambda n} \leq \mathcal{E}r(P^n, \tilde{P}^n) \leq e^{-\lambda n} \leq e^{-n\rho^2(P, \tilde{P})}.$$

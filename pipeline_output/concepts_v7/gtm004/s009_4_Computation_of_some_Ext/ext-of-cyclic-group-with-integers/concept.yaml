@@ -1,0 +1,23 @@
+id: ext-of-cyclic-group-with-integers
+title_en: "Ext of a finite cyclic group with the integers"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [Ext-functor, cyclic-group, integers, projective-resolution, abelian-group]
+depends_on:
+  required: [ext-functor-definition, projective-presentation, hom-functor]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I"
+    section: "4. Computation of some Ext-Groups"
+    pages: ""
+    role_in_book: "Computation of Ext(Z_r, Z) using the projective presentation Z → Z → Z_r by multiplication by r"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

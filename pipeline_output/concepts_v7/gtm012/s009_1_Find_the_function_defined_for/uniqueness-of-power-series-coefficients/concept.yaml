@@ -1,0 +1,23 @@
+id: uniqueness-of-power-series-coefficients
+title_en: "Uniqueness of Power Series Coefficients"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: real-analysis
+difficulty: basic
+tags: [power-series, taylor-series, uniqueness, coefficients, analytic-functions]
+depends_on:
+  required: [infinite-differentiability-of-power-series]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "4"
+    section: "4"
+    pages: ""
+    role_in_book: "Shows that power series coefficients are uniquely determined by the function's derivatives at the center"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

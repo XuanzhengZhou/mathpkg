@@ -1,0 +1,23 @@
+id: homotopy-equivalence-relation
+title_en: "Homotopy is an Equivalence Relation"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [chain-complex, homotopy, equivalence-relation, chain-map]
+depends_on:
+  required: [homotopy-of-chain-maps]
+  recommended: [equivalence-relation]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "3. Homotopy"
+    pages: "136"
+    role_in_book: "Lemma 3.2. Establishes that homotopy is an equivalence relation, making it suitable for forming a quotient category."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

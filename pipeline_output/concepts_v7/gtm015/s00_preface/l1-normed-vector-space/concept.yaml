@@ -1,0 +1,23 @@
+id: l1-normed-vector-space
+title_en: "$\ell^1(\mathbb{Z})$ is a Normed Vector Space"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [l1-space, normed-vector-space, vector-space-operations, triangle-inequality]
+depends_on:
+  required: [little-l-one-space, l1-norm]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "0"
+    section: "Apéritif (Wiener's Theorem)"
+    pages: ""
+    role_in_book: "Establishes the vector space structure of l^1(Z) with norm properties"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

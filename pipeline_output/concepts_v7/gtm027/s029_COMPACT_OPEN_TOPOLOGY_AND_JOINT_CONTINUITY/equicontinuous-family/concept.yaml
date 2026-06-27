@@ -1,0 +1,23 @@
+id: equicontinuous-family
+title_en: "Equicontinuous Family"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: function-spaces
+difficulty: intermediate
+tags: [equicontinuity, uniform-space, ascoli-theorem]
+depends_on:
+  required: [equicontinuous-at-a-point]
+  recommended: [pointwise-convergence, compact-open-topology]
+  suggested: [evenly-continuous]
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Compactness and Equicontinuity"
+    pages: ""
+    role_in_book: "Defines an equicontinuous family of functions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

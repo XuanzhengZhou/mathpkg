@@ -1,0 +1,23 @@
+id: probability-distribution-random-process
+title_en: "Probability Distribution of a Random Process"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: random-processes
+difficulty: intermediate
+tags: [probability-distribution, random-process, finite-dimensional-distributions, induced-measure]
+depends_on:
+  required: [random-process, probability-distribution-random-variable, kolmogorovs-extension-theorem-r-t]
+  recommended: [cylinder-set]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "5"
+    section: "1"
+    pages: ""
+    role_in_book: "defines the distribution of a random process and its finite-dimensional marginals"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

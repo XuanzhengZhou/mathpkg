@@ -1,0 +1,9 @@
+Let $A' \xrightarrow{\varphi} A \xrightarrow{\psi} A''$ be a short exact sequence of $\Lambda$-modules and let $\varepsilon' : P' \to A'$ and $\varepsilon'' : P'' \to A''$ be projective presentations of $A'$ and $A''$ respectively. Then there exists a projective presentation $\varepsilon : P \to A$ and homomorphisms $\iota : P' \to P$ and $\pi : P \to P''$ such that the following diagram is commutative with exact rows:
+$$
+\begin{CD}
+0 @>>> P' @>{\iota}>> P @>{\pi}>> P'' @>>> 0 \\
+@. @V{\varepsilon'}VV @V{\varepsilon}VV @V{\varepsilon''}VV @. \\
+0 @>>> A' @>{\varphi}>> A @>{\psi}>> A'' @>>> 0
+\end{CD}
+$$
+Moreover, one may take $P = P' \oplus P''$ and choose $\varepsilon$ such that $\varepsilon|_{P'} = \varphi \varepsilon'$ and the composition $P'' \xrightarrow{\chi} A \xrightarrow{\psi} A''$ equals $\varepsilon''$.

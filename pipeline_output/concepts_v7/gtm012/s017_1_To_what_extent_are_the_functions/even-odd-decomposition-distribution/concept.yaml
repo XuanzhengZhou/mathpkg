@@ -1,0 +1,23 @@
+id: even-odd-decomposition-distribution
+title_en: "Even and Odd Parts of a Periodic Distribution"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: basic
+tags: [distributions, even-part, odd-part, decomposition, reversal]
+depends_on:
+  required: [periodic-distributions, reversal-of-distribution]
+  recommended: [real-imaginary-decomposition-distribution]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "8"
+    section: "8. Summary of operations on periodic distributions"
+    pages: ""
+    role_in_book: "Defines the even-odd decomposition of a distribution using the reversal operation"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

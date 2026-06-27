@@ -1,0 +1,1 @@
+Sequential compactness requires that every sequence in the set has a convergent subsequence whose limit also lies in the set. In metric spaces, compactness and sequential compactness are equivalent. Sequentially compact sets are always closed and bounded. Examples include finite sets and the set $\{0\} \cup \{1/n \mid n \in \mathbb{N}\}$ in $\mathbb{R}$.

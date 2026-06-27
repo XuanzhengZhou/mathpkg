@@ -1,0 +1,23 @@
+id: sigma-locally-finite-implies-metrizable
+title_en: "Sigma-Locally-Finite Base Implies Metrizable"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: metrization
+difficulty: advanced
+tags: ["metrization", "sigma-locally-finite", "regular", "Bing-Nagata-Smirnov"]
+depends_on:
+  required: ["regular-space", "sigma-locally-finite-family", "metric-space"]
+  recommended: ["uryson-metrization-theorem", "locally-finite-refinement"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "4"
+    section: "Metrization"
+    pages: "124-130"
+    role_in_book: "Sufficiency direction of the Bing-Nagata-Smirnov theorem: a regular T1-space with a sigma-locally-finite base is metrizable."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

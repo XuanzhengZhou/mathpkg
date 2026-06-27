@@ -1,0 +1,11 @@
+Now put
+
+$$F(\omega; x) = \begin{cases} \lim_{r \downarrow x} F_r(\omega), & \omega \notin A \cup B \cup C, \\ G(x), & \omega \in A \cup B \cup C, \end{cases}$$
+
+where $G(x)$ is any distribution function on $R$; we show that $F(\omega; x)$ satisfies the conditions of Definition 8.
+
+Let $\omega \notin A \cup B \cup C$. Then it is clear that $F(\omega; x)$ is a nondecreasing function of $x$. If $x < x' \leq r$, then $F(\omega; x) \leq F(\omega; x') \leq F(\omega; r) = F_r(\omega) \downarrow F(\omega, x)$ when $r \downarrow x$. Consequently $F(\omega; x)$ is continuous on the right. Similarly $\lim_{x \to \infty} F(\omega; x) = 1$, $\lim_{x \to -\infty} F(\omega; x) = 0$. Since $F(\omega; x) = G(x)$ when $\omega \in A \cup B \cup C$, it follows that $F(\omega; x)$ is a distribution function on $R$ for every $\omega \in \Omega$, i.e., condition (a) of Definition 6 is satisfied.
+
+By construction, $P(\xi \leq r | \mathcal{G})(\omega) = F_r(\omega) = F(\omega; r)$. If $r \downarrow x$, we have $F(\omega; r) \downarrow F(\omega; x)$ for all $\omega \in \Omega$ by the continuity on the right that we just established. But by conclusion (a) of Theorem 2, we have $P(\xi \leq r | \mathcal{G})(\omega) \rightarrow P(\xi \leq x | \mathcal{G})(\omega)$ (a. s.). Therefore $F(\omega; x) = P(\xi \leq x | \mathcal{G})(\omega)$ (a. s.), which establishes condition (b) of Definition 8.
+
+We now turn to the proof of the existence of a regular conditional distribution of $\

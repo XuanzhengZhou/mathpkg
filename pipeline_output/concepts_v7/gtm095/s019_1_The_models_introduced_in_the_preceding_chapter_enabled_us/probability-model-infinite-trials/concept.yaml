@@ -1,0 +1,23 @@
+id: probability-model-infinite-trials
+title_en: "Probabilistic Model for Infinite Independent Trials"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: foundations
+difficulty: intermediate
+tags: [infinite-coin-tosses, uncountable-sample-space, product-space, continuum]
+depends_on:
+  required: [kolmogorov-axioms]
+  recommended: [sigma-algebra]
+  suggested: [bernoulli-scheme]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "2"
+    section: "1"
+    pages: ""
+    role_in_book: "Motivation for Kolmogorov's axioms via the problem of infinitely many independent coin tosses"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,13 @@
+id: free-objects-are-projective
+title_en: "Free Objects are Projective"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [free-object, projective-object, adjoint-functor, underlying-functor]
+depends_on: {required: [adjoint-preserves-projectives, free-object, projective-object, sets-projective-and-injective], recommended: [], suggested: []}
+source_books: [{book_id: "gtm004", author: "Peter J. Hilton, Urs Stammbach", title: "A Course in Homological Algebra (2ed, 1997)", chapter: "II. Categories and Functors", section: "10. Projective, Injective, and Free Objects", pages: "", role_in_book: "Corollary 10.3: If the underlying functor preserves epimorphisms, every free object is projective"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

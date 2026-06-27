@@ -1,0 +1,23 @@
+id: convergence-in-product-topology
+title_en: "Convergence in the Product Topology"
+title_zh: "积拓扑下的收敛"
+type: theorem
+domain: topology
+subdomain: product-spaces
+difficulty: basic
+tags: [convergence, product-topology, nets, coordinatewise-convergence, pointwise-convergence]
+depends_on:
+  required: []
+  recommended: [product-topology-arbitrary, net-convergence, projection-maps]
+  suggested: [coordinatewise-convergence]
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "3"
+    section: "Product Spaces"
+    pages: ""
+    role_in_book: "Characterizes convergence of nets in product spaces as coordinatewise convergence"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

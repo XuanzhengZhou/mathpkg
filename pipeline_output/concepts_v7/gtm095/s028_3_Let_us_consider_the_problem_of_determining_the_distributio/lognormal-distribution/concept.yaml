@@ -1,0 +1,13 @@
+id: lognormal-distribution
+title_en: "Lognormal Distribution"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: distributions
+difficulty: intermediate
+tags: [lognormal, transformation, normal-distribution, exponential]
+depends_on: {required: [normal-probability-density, density-transformation-monotone], recommended: [], suggested: []}
+source_books: [{book_id: "gtm095", author: "A. N. Shiryaev", title: "Probability-1", chapter: "2", section: "8. Random Variables: II", pages: "", role_in_book: "Definition via transformation of a normal random variable"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

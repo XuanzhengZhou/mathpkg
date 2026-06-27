@@ -1,0 +1,25 @@
+id: maximal-ideal-zero-nullstellensatz
+title_en: "Nullstellensatz: Maximal Ideal Form"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [nullstellensatz, maximal-ideal, polynomial-ring, complex-numbers, zero]
+depends_on:
+  required: [maximal-ideal, hilbert-nullstellensatz-weak]
+  recommended: [algebraically-closed-field, noetherian-ring]
+  suggested: []
+
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Equivalent form of the Nullstellensatz; every maximal ideal of C[X_1,...,X_n] has a zero"
+
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

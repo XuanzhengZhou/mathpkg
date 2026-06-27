@@ -1,0 +1,23 @@
+id: composition-borel-function-random-variable
+title_en: "Composition of Borel Function with Random Variable"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: random-variables
+difficulty: basic
+tags: [Borel-function, composition, random-variable, measurability]
+depends_on:
+  required: [random-variable-measurable-function, borel-function]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "4"
+    section: "2"
+    pages: ""
+    role_in_book: "enables construction of new random variables via Borel transformations"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

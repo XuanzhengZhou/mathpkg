@@ -1,0 +1,23 @@
+id: tightness-of-sequence-of-random-variables
+title_en: "Tightness of a sequence of random variables with respect to a sequence of measures"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: asymptotic-statistics
+difficulty: advanced
+tags: [tightness, random-variables, sequence-of-measures, asymptotic-theory]
+depends_on:
+  required: [tightness-of-probability-measures, random-variable]
+  recommended: [contiguity-of-probability-measures]
+  suggested: []
+source_books:
+  - book_id: gtm095
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "10.2"
+    pages: ""
+    role_in_book: "Definition 3; extends tightness to sequences of random variables relative to sequences of measures"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

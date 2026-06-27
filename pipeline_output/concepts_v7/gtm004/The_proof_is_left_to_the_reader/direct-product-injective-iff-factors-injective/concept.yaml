@@ -1,0 +1,17 @@
+id: direct-product-injective-iff-factors-injective
+title_en: "Direct Product is Injective iff Each Factor is Injective"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [injective-module, direct-product, dualization]
+depends_on:
+  required: [injective-module-definition]
+  recommended: [direct-product-of-modules, direct-sum-projective-iff-summands-projective]
+  suggested: []
+source_books:
+  - {book_id: "gtm004", author: "P.J. Hilton and U. Stammbach", title: "A Course in Homological Algebra", chapter: "I. Modules", section: "6. Dualization, Injective Modules", pages: "", role_in_book: "Dual of Proposition 4.5; shows injectivity is preserved by direct products."}
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,13 @@
+id: derivation-from-homomorphism-into-semi-direct-product
+title_en: "Homomorphisms into Semi-Direct Product Determine Derivations"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [semi-direct-product, derivation, group-homomorphism, correspondence]
+depends_on: {required: ["universal-property-of-semi-direct-product", "semi-direct-product-of-group-by-module"], recommended: ["derivation-crossed-homomorphism"], suggested: []}
+source_books: [{book_id: "gtm004", author: "Peter J. Hilton, Urs Stammbach", title: "A Course in Homological Algebra", chapter: "VI. Cohomology of Groups", section: "5. The Augmentation Ideal, Derivations, and the Semi-Direct Product", pages: "", role_in_book: "converse to Proposition 5.3; every homomorphism into A×G gives a derivation"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

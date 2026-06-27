@@ -1,0 +1,23 @@
+id: cofree-module
+title_en: "Cofree Module"
+title_zh: "余自由模"
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [module-theory, injective-module, cofree-module, abelian-group, product]
+depends_on:
+  required: [free-module, direct-product, injective-module]
+  recommended: [divisible-module, q-z-cogenerator]
+  suggested: [cogenerator]
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I"
+    section: "7. Injective Modules over a Principal Ideal Domain"
+    pages: ""
+    role_in_book: "Definition introducing cofree abelian groups as the dual notion to free abelian groups"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

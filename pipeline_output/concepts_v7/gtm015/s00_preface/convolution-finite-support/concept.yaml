@@ -1,0 +1,23 @@
+id: convolution-finite-support
+title_en: "Convolution on Finitely Supported Sequences"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: basic
+tags: [convolution, finitely-supported, sequences, trigonometric-polynomials]
+depends_on:
+  required: [finitely-supported-sequences]
+  recommended: [convolution]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "0"
+    section: "Apéritif (Wiener's Theorem)"
+    pages: ""
+    role_in_book: "Remark 6; computes convolution formula for finitely supported sequences"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

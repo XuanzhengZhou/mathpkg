@@ -1,0 +1,23 @@
+id: hilbert-invertibility-criteria
+title_en: "Invertibility criteria in Hilbert space"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: hilbert-spaces
+difficulty: intermediate
+tags: [hilbert-space, invertible, bounded-below, adjoint]
+depends_on:
+  required: [hilbert-space-definition, adjoint-operator-definition, bounded-below-definition]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "57"
+    section: "Spectrum in L(E)"
+    pages: ""
+    role_in_book: "T is invertible iff both T and T* are bounded below"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

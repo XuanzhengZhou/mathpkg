@@ -1,0 +1,23 @@
+id: completeness-limit-characterization
+title_en: "Characterization of Completeness via Limits"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [complete-filtration, limit, colimit, filtered-object]
+depends_on:
+  required: [complete-filtration-in-abelian-category, limit-factorization-property]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "8. Completions of Filtrations"
+    pages: ""
+    role_in_book: "Proposition 8.3; relates left/right completeness to limits of subquotients"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

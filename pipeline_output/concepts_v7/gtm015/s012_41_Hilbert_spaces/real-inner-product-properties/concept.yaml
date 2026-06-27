@@ -1,0 +1,23 @@
+id: real-inner-product-properties
+title_en: "Properties of the inner product in a real pre-Hilbert space"
+title_zh: "实准希尔伯特空间中内积的性质"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [inner-product, real-pre-hilbert-space, bilinear-form, positive-definite, symmetric]
+depends_on:
+  required: [inner-product-from-norm]
+  recommended: [pre-hilbert-space]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "41"
+    section: "Hilbert spaces"
+    pages: ""
+    role_in_book: "Establishes that the real polarization formula yields a symmetric, positive definite, bilinear form."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

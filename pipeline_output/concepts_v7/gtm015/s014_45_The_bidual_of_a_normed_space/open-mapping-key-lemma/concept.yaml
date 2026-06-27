@@ -1,0 +1,23 @@
+id: open-mapping-key-lemma
+title_en: "Key Lemma for the Open Mapping Theorem"
+title_zh: "开映射定理关键引理"
+type: lemma
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [open-mapping-theorem, neighborhood, balanced-set, baire-space]
+depends_on:
+  required: [baire-category-theorem, topological-vector-space]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "5"
+    section: "48"
+    pages: ""
+    role_in_book: "Technical lemma: for a surjective continuous linear map between complete metrizable TVS, the closure of T(W) has interior"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

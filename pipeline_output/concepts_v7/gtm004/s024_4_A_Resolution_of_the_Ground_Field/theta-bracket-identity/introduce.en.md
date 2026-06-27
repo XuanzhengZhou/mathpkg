@@ -1,0 +1,1 @@
+The theta map satisfies the fundamental identity $\theta([x, y]) = \theta(x) \theta(y) - \theta(y) \theta(x)$, showing that $\theta$ is a Lie algebra homomorphism from $\mathfrak{g}$ to the endomorphisms of $C_n$ (with the commutator bracket). This identity is the key algebraic relation that ensures the Chevalley--Eilenberg differential squares to zero.

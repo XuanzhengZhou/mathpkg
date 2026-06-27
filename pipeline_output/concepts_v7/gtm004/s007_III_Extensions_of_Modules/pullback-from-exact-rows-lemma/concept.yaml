@@ -1,0 +1,23 @@
+id: pullback-from-exact-rows-lemma
+title_en: "Lemma 1.3: Pullback from Commutative Diagram with Exact Rows"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [pullback, exact-sequence, commutative-diagram, extension]
+depends_on:
+  required: [exact-sequence, pullback]
+  recommended: [pullback-characterization-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III. Extensions of Modules"
+    section: "1. Extensions"
+    pages: ""
+    role_in_book: "Partial converse to Lemma 1.2(i); guarantees that certain natural squares in extension theory are pullbacks"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

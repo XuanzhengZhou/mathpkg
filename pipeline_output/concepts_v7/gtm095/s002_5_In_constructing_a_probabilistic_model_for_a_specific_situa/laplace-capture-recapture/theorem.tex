@@ -1,0 +1,4 @@
+To estimate the size $N$ of a population, draw a sample of size $M$, mark its elements, and return them. Then draw $n$ elements from the mixed population. The probability that $X = m$ marked elements appear is given by the hypergeometric distribution:
+$$\text{P}_{N,M;n}\{X = m\} = \frac{C_M^{m} C_{N-M}^{n-m}}{C_N^n}.$$
+The \text{maximum likelihood estimator} of $N$ (for fixed $M, n, m$) is
+$$\hat{N} = \left\lfloor \frac{Mn}{m} \right\rfloor.$$

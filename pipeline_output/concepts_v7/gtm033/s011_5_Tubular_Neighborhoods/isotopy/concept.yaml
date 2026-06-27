@@ -1,0 +1,23 @@
+id: isotopy
+title_en: "Isotopy"
+title_zh: "合痕"
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [isotopy, homotopy, embedding, track, rel-isotopy]
+depends_on:
+  required: [homotopy, embedding, manifold]
+  recommended: [diffeotopy, ambient-isotopy]
+  suggested: []
+source_books:
+  - book_id: gtm033
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "5. Tubular Neighborhoods"
+    pages: ""
+    role_in_book: "Defines isotopy as a homotopy through embeddings, used to compare tubular neighborhoods"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

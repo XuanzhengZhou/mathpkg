@@ -1,0 +1,23 @@
+id: chain-map-tensor-hom-homotopy
+title_en: "Functoriality of Tensor and Hom Complexes under Homotopy"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [chain-map, homotopy, tensor-product-chain-complexes, hom-complex]
+depends_on:
+  required: [tensor-product-chain-complexes, hom-complex, chain-homotopy]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "V"
+    section: "1"
+    pages: ""
+    role_in_book: "Proposition 1.2: tensor and Hom complexes respect chain maps and chain homotopies"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

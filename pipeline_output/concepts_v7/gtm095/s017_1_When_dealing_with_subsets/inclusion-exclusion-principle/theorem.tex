@@ -1,0 +1,5 @@
+Let $A_1, \ldots, A_n$ be subsets of a finite set $\Omega$, and let $T = \{1, 2, \ldots, n\}$. Then
+$$N\!\left(\bigcup_{i=1}^{n} A_i\right) = \sum_{\varnothing \neq S \subseteq T} (-1)^{|S|+1} \, N\!\left(\bigcap_{i \in S} A_i\right).$$
+Equivalently,
+$$N\!\left(\bigcap_{i=1}^{n} \overline{A}_i\right) = N(\Omega) - \sum_{i=1}^{n} N(A_i) + \sum_{1 \leq i_1 < i_2 \leq n} N(A_{i_1} \cap A_{i_2}) - \cdots + (-1)^n N(A_1 \cap \cdots \cap A_n).$$
+The same formulas hold with $N$ replaced by probability $P$ when $P(A) = N(A)/N(\Omega)$.

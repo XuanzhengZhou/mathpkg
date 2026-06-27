@@ -1,0 +1,23 @@
+id: sigma-locally-finite-implies-normal
+title_en: "Regular Space with Sigma-Locally-Finite Base is Normal"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: metrization
+difficulty: advanced
+tags: ["normality", "sigma-locally-finite", "regular", "metrization", "paracompact"]
+depends_on:
+  required: ["regular-space", "normal-space", "sigma-locally-finite-family"]
+  recommended: ["locally-finite-family", "paracompact-space"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "4"
+    section: "Metrization"
+    pages: "124-130"
+    role_in_book: "A regular space with a sigma-locally-finite base is normal. This is a key lemma in the proof of the Bing-Nagata-Smirnov theorem."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

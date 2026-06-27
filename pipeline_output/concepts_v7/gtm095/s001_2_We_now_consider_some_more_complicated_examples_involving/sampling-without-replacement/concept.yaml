@@ -1,0 +1,23 @@
+id: sampling-without-replacement
+title_en: "Sampling without Replacement"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: combinatorics
+difficulty: basic
+tags: [sampling, without-replacement, urn-model, combinatorics, falling-factorial]
+depends_on:
+  required: []
+  recommended: [sampling-with-replacement]
+  suggested: [binomial-coefficients]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "2"
+    pages: ""
+    role_in_book: "Definition of sampling without replacement, with formulas for ordered and unordered cases: (M)_n and C_M^n"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

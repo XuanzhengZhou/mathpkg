@@ -1,0 +1,23 @@
+id: cofinal-subset
+title_en: "Cofinal Subset"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: nets-and-convergence
+difficulty: basic
+tags: ["cofinal", "directed-set", "subnet"]
+depends_on:
+  required: ["directed-set"]
+  recommended: ["net"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "2"
+    section: "Directed Sets and Nets"
+    pages: "81-87"
+    role_in_book: "Defines cofinal subsets of a directed set, used to characterize the 'frequently in' property and to construct subnets."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

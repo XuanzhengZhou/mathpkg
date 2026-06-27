@@ -1,0 +1,23 @@
+id: topological-vector-space
+title_en: "Topological Vector Space (TVS)"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [vector-space, topology, continuity, scalar-multiplication, functional-analysis]
+depends_on:
+  required: [topological-group, topological-ring]
+  recommended: [vector-space, topological-division-ring, topological-module]
+  suggested: [topological-algebra, normed-space]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "1"
+    section: "1. Topological algebraic structures"
+    pages: ""
+    role_in_book: "Definition of the primary object of study in functional analysis"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

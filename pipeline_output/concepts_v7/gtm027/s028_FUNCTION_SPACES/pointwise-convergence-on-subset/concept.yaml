@@ -1,0 +1,23 @@
+id: pointwise-convergence-on-subset
+title_en: "Topology of Pointwise Convergence on a Subset"
+title_zh: "子集上的逐点收敛拓扑"
+type: definition
+domain: topology
+subdomain: function-spaces
+difficulty: intermediate
+tags: [pointwise-convergence, subset-topology, restriction-map, function-space, subbase]
+depends_on:
+  required: [pointwise-convergence-topology, restriction-map]
+  recommended: [product-topology]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Pointwise Convergence"
+    pages: ""
+    role_in_book: "Defines the relativized pointwise topology on a subset A of the domain"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,107 @@
+If $d$ is the discriminant of a quadratic field and $n, m$ are positive integers, then
+
+$$\left( \frac{d}{n} \right) = \left( \frac{d}{m} \right) \quad \text{if } n \equiv m \pmod{d},
+
+Case 2: $a = 0$, thus $d \equiv 1$ (mod 4).
+
+$$\left( \frac{d}{2^b n'} \right) = \left( \frac{d}{2} \right)^b \left( \frac{d}{n'} \right) = \left( \frac{2}{d} \right)^b \left( \frac{n'}{d} \right) = \left( \frac{n}{d} \right),$$
+
+(127)
+
+from which the assertion can be read off immediately.
+
+Now we see from this theorem that the decomposition law for quadratic fields, as it was proved in §29, is indeed formally of a quite different type than that for cyclotomic fields, but on the other hand shows a great similarity relative to content. Theorem 137 shows that if two positive primes belong to the same residue class mod $d$, then they split in exactly the same manner in $k(\sqrt{d})$. Thus $k(\sqrt{d})$ is also a class field which belongs to a classification of the rational numbers mod $d$. For if we consider those numbers $n$ for which $\left( \frac{d}{n} \right)$ has the same nonzero value to be of the same "type," then the positive integers relatively prime to $d$ split into two types. By Theorem 137 all natural numbers congruent to $a$ mod $d$ belong to the same type as $a$. Consequently, one type consists of certain $\frac{1}{2}\varphi(d)$ residue classes mod $d$, which are relatively prime to $d$. If we assume that $a_1, a_2, \ldots, a_m$ ($m = \frac{1}{2}\varphi(d)$) are the numbers which are incongruent mod $d$ which belong to the same type as 1 (all quadratic residues mod $d$ occur among them), then the decomposition law reads:
+
+Let $p$ be a positive prime relatively prime to $d$ and let $f$ be the smallest positive exponent such that $p^f$ is congruent to one of the numbers $a_1, \ldots, a_m$ modulo $d$. Then $p$ splits into $2/f$ distinct prime ideals
+
+which we call the group of norm residues mod $n$ (for the field $k(\sqrt{d})$), and which we denote by $\mathfrak{R}(n)$. In particular, an integer $a$ which is relatively prime to $n$ is called a norm residue mod $n$, if there is an integer $\alpha$ in $k$ such that
+
+$$a \equiv N(\alpha) \pmod{n},$$
+
+otherwise $a$ is called a norm nonresidue mod $n$. (Those $a$ not relatively prime to $n$ thus remain quite outside of consideration in this sense.)
+
+It will now be shown that in general $\mathfrak{R}(p)$ and $\mathfrak{R}(p)$ are identical; these two groups are distinct only if the prime $p$ divides the discriminant $d$.
+
+**Theorem 138.** If the odd prime $p$ does not divide the discriminant $d$, then each rational integer relatively prime to $p$ is a norm residue mod $p$ for $k(\sqrt{d})$.
+
+We distinguish two cases in the proof.
+
+1. $p$ splits into two distinct factors $\mathfrak{p}$ and $\mathfrak{p}'$, of degree 1, in $k(\sqrt{d})$. Then there is a number $\pi$ in $k(\sqrt{d})$ which is divisible by $\mathfrak{p}$ but not by $\mathfrak{p}'$, and for each integer $\alpha$
+
+$$N(\pi' \alpha + \pi) \equiv \pi'^2 \alpha \pmod{\mathfrak{p}}.$$
+
+From this it follows that the rational numbers $N(\pi' \alpha + \pi)$ run through a complete system mod $\mathfrak{p}$, hence also mod $p$, if $\alpha$ runs through a complete system of residues mod $\mathfrak{p}$.
+
+2. $p$ is irreducible in $k(\sqrt{d})$, thus $p$ is a prime of degree 2. Let $\rho$ be a primitive root mod $p$ in $k(\sqrt{d})$. Then
+
+$$\rho^p \equiv \rho' \pmod{p} \quad \text{and hence} \quad N(\rho)
+
+If $q$ is the prime ideal of $k(\sqrt{d})$ which divides $q$, then each number $\alpha$ in $k$ is congruent to a rational number mod $q$, say $r$. However, since $q = q'$ it follows from $\alpha \equiv r \pmod{q}$ that $\alpha' \equiv r \pmod{q}$ and
+
+$$N(\alpha) \equiv r^2 \pmod{q}, \quad \text{hence also mod } q,$$
+
+that is, if $(r, q) = 1,
+
+$$\left( \frac{N(\alpha)}{q} \right) = +1.$$
+
+Conversely if the condition $\left( \frac{a}{q} \right) = +1$ is satisfied, then there is a rational integer $x$ with $a \equiv x^2 \pmod{q}$, and since $a \equiv N(x) \pmod{q}$, $a$ is a norm residue. Moreover we see that for arbitrary composite moduli $m, n$:
+
+**Lemma.** Suppose that $(m, n) = 1$. Then if for each $a$ there exist two integers $\alpha$ and $\beta$ in $k(\sqrt{d})$ such that
+
+$$a \equiv N(\alpha) \pmod{m} \quad \text{and} \quad a \equiv N(\beta) \pmod{n},$$
+
+there is also an integer $\gamma$ in $k(\sqrt{d})$ for which
+
+$$a \equiv N(\gamma) \pmod{mn}.$$
+
+To see this we choose positive exponents $b, c$ such that
+
+$$m^b \equiv 1 \pmod{n} \quad \text{and} \quad n^c \equiv 1 \pmod{m}$$
+
+(say $b = \varphi(n)$ and $c = \varphi(m)$). Then
+
+$$\gamma = n^c\alpha + m^b\beta$$
+
+has the asserted properties.
+
+As far as the prime 2 is concerned, we consider the group $\Re(2^a)$ for $a = 2$ or 3.
+
+**Theorem 140.** If the discrim
+
+We deal with the second part of the theorem in the same manner. For even $d$ exactly the following residue classes mod 8 appear as norm residues mod 8:
+
+$$N(\alpha) \equiv 1 \text{ or } 5 \pmod{8}, \quad \text{if} \quad \frac{d}{4} \equiv 3 \pmod{4}$$
+
+$$N(\alpha) \equiv 1 \text{ or } -1 \pmod{8}, \quad \text{if} \quad \frac{d}{4} \equiv 2 \pmod{8}$$
+
+$$N(\alpha) \equiv 1 \text{ or } 3 \pmod{8}, \quad \text{if} \quad \frac{d}{4} \equiv 6 \pmod{8}.$$
+
+Note that for $d/4 \equiv 3 \pmod{4}$ the only norm residues mod 4 lie in the residue class of 1 mod 4, hence also that $\Re(4)$ is different from $\Re(4)$.
+
+We now wish to express this state of affairs somewhat more clearly by using the general concepts of group theory from §10. Only the norm residues modulo the divisors of $d$ will be of interest. Let $q_1, q_2, \ldots, q_t$ be the $t$ distinct positive primes dividing $d$, with the exception that when $d$ is even, the number $q_t$ denotes the highest power of 2 dividing $d$. Then for each $i = 1, \ldots, t$ the group $\Re(q_i)$ of the norm residues in $k(\sqrt{d})$ is a group of index 2 in $\Re(q_i)$. By Theorem 33, the fact that a class in $\Re(q_i)$ belongs to this subgroup is thus expressed by the fact that a completely determined character of the group $\Re(q_i)$ has the value 1 for this class. This character $\chi_i(n)$ can be given immediately, where we denote the representative of the residue class by the argument $n$, as is common with residue classes. For by Theorem 139
+
+$$\chi_i(n) = \left( \frac{n}{q
+
+In view of the lemma, it thus follows immediately that
+
+**Theorem 141.** The group $\mathfrak{R}(d)$ of norm residues mod $d$ for a quadratic field with discriminant $d$ has index $2^t$ in $\mathfrak{R}(d)$, where $t$ is the number of distinct prime factors of $d$. In order that a number $n$ be a norm residue mod $d$, it is necessary and sufficient that the $t$ residue characters
+
+$$\chi_i(n) \quad (i = 1, \ldots, t)$$
+
+defined by (130) and (132), have the value $+1$.
+
+To make a study of the literature easier let us note that Hilbert also defined the norm residue concept for those numbers $n$ which are not coprime to $p$, and that in the remaining cases the definition has a different form:
+
+Definition of the Hilbert norm residue symbol: Let $n$ and $m$ be rational integers, $m$ not a square, $p$ a prime (including 2). If the number $n$ is congruent to the norm of an integer in $k(\sqrt{m})$ modulo each power $p^e$, then let us set
+
+$$\left(\frac{n, m}{p}\right) = +1$$
+
+and call $n$ the norm residue of the field $k(\sqrt{m})$ mod $p$. In each other case let this symbol be equal to $-1$, and let $n$ be called a norm nonresidue mod $p$.
+
+If $n$ is not divisible by $p$ and $p$ divides the discriminant of $k(\sqrt{m})$, then
+
+$$\left(\frac{n, d}{q_i}\right) = \chi_i(n) \quad (q_i \text{ odd})$$
+
+$$\left(\frac{n, d}{2}\right) = \chi_i(n) \quad (d \text{ even}).$$
+
+On the other hand, if $p$ does not divide $nd$, then we have $\left(\frac{n, d}{p}\right) = +1$.

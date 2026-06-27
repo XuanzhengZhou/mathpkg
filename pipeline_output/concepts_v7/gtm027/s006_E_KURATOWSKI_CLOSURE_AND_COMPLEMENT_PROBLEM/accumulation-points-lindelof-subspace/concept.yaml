@@ -1,0 +1,23 @@
+id: accumulation-points-lindelof-subspace
+title_en: "Accumulation Points in a Space Where Every Subspace Is Lindelöf"
+title_zh: "每个子空间都是Lindelöf的空间中的聚点"
+type: theorem
+domain: topology
+subdomain: general-topology
+difficulty: intermediate
+tags: [accumulation-point, lindelof, uncountable-set, cardinality]
+depends_on:
+  required: [lindelof-space, accumulation-point]
+  recommended: [cardinality-concepts]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "H"
+    pages: ""
+    role_in_book: "exercise-problem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

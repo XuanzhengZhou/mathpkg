@@ -1,0 +1,23 @@
+id: adequate-filtration-conditions
+title_en: "Adequate Filtration Conditions for Homology"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [filtration, homology, spectral-sequence, convergence, associated-graded]
+depends_on:
+  required: [induced-filtration-on-homology]
+  recommended: [associated-graded-object-functor]
+  suggested: [spectral-sequence-convergence]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Spectral Sequences"
+    section: "2. Filtered Differential Objects"
+    pages: ""
+    role_in_book: "States necessary conditions for the associated graded object to adequately represent the homology"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

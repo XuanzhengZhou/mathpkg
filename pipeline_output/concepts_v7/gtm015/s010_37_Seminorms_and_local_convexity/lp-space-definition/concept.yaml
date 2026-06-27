@@ -1,0 +1,23 @@
+id: lp-space-definition
+title_en: "Definition of $\mathcal{L}^p$ spaces and the $L^p$ seminorm"
+title_zh: "$\mathcal{L}^p$空间与$L^p$半范数的定义"
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [lp-space, measure-theory, seminorm, integration, conjugate-exponent]
+depends_on:
+  required: [measure-space, measurable-function, lebesgue-integral]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "4"
+    section: "39"
+    pages: ""
+    role_in_book: "foundational_definition"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

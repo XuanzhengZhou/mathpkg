@@ -1,0 +1,21 @@
+Suppose:
+
+\begin{enumerate}
+\item $\mathbb{C}$-valued functions $f_1, \ldots, f_q$ are complex-analytic in a neighborhood of $(0) \in \mathbb{C}_{X_1, \ldots, X_n} = \mathbb{C}_X$;
+\item $f_1(0) = \cdots = f_q(0) = 0$ (i.e., the origin of $\mathbb{C}^n$ is in the zero-set of $\{f_1, \ldots, f_q\}$);
+\item The $q \times n$ Jacobian matrix
+
+$$J(f)_x = J(f_1, \ldots, f_q)_x = \begin{pmatrix}
+\frac{\partial f_1}{\partial X_1} & \cdots & \frac{\partial f_1}{\partial X_n} \\
+\vdots & & \vdots \\
+\frac{\partial f_q}{\partial X_1} & \cdots & \frac{\partial f_q}{\partial X_n}
+\end{pmatrix}$$
+
+has constant rank $r$ throughout some $\mathbb{C}^n$-open neighborhood of $(0)$.
+\end{enumerate}
+
+Then there exist subspaces $\mathbb{C}^{n-r}$ and $\mathbb{C}^r$ ($\mathbb{C}^{n-r} \cap \mathbb{C}^r = (0)$), neighborhoods $U^{n-r} \subset \mathbb{C}^{n-r}$ and $U^r \subset \mathbb{C}^r$ about $(0)$, and a unique complex-analytic map
+
+$$\phi = (\phi_1, \ldots, \phi_r): U^{n-r} \to U^r$$
+
+such that within $U^{n-r} \times U^r$, the graph of $\phi$ coincides with the zero-set of $\{f_1, \ldots, f_q\}$.

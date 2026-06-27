@@ -1,0 +1,85 @@
+$$\int_0^\infty x^n dF(x) = n \int_0^\infty x^{n-1}[1 - F(x)] dx,$$
+
+$$\int_{-\infty}^0 |x|^n dF(x) = -\int_0^\infty x^n dF(-x) = n \int_0^\infty x^{n-1}F(-x) dx$$
+
+and
+
+$$E|\xi|^n = \int_{-\infty}^{\infty}|x|^n dF(x) = n \int_0^\infty x^{n-1}[1 - F(x) + F(-x)] dx.$$
+
+To prove (69) we observe that
+
+$$\int_0^b x^n dF(x) = -\int_0^b x^n d(1 - F(x))$$
+
+$$= -b^n(1 - F(b)) + n \int_0^b x^{n-1}(1 - F(x)) dx.$$
+
+Let us show that since $E|\xi|^n < \infty$,
+
+$$b^n(1 - F(b) + F(-b)) \leq b^nP(|\xi| \geq b) \to 0, \quad b \to \infty.$$
+
+In fact,
+
+$$E|\xi|^n = \sum_{k=1}^{\infty} \int_{k-1}^k |x|^n dF(x) < \infty$$
+
+and therefore
+
+$$\sum_{k \geq b+1} \int_{k-1}^k |x|^n dF(x) \to 0, \quad b \to \infty.$$
+
+But
+
+$$\sum_{k \geq b+1} \int_{k-1}^k |x|^n dF(x) \geq b^nP(|\xi| \geq b),$$
+
+which establishes (73).
+
+Taking the limit as $b \to \infty$ in (72), we obtain (69). Formula (70) is proved similarly, and (71) follows from (69) and (
+
+$$dZ_t = Z_{t-} dA(t), \quad Z_0 = 1.$$ (75)
+
+The formula that we have proved for integration by parts lets us solve (74) explicitly in the class of functions of locally bounded variation.
+
+We introduce the function (called the stochastic exponent, see [43])
+
+$$\mathcal{E}_t(A) = e^{A(t)-A(0)} \prod_{0 \leq s \leq t} (1 + \Delta A(s)) e^{-\Delta A(s)},$$ (76)
+
+where $\Delta A(s) = A(s) - A(s-)$ for $s > 0$, and $\Delta A(0) = 0$.
+
+The function $A(s)$, $0 \leq s \leq t$, has bounded variation and therefore has at most countably many discontinuities and the series $\sum_{0 \leq s \leq t} |\Delta A(s)|$ converges. It follows that
+
+$$\prod_{0 \leq s \leq t} (1 + \Delta A(s)) e^{-\Delta A(s)}, \quad t \geq 0,$$
+
+is a function of locally bounded variation.
+
+If $A^c(t) = A(t) - \sum_{0 \leq s \leq t} \Delta A(s)$ is the continuous component of $A(t)$, we can rewrite (76) in the form
+
+$$\mathcal{E}_t(A) = e^{A^c(t)-A^c(0)} \prod_{0 < s \leq t} (1 + \Delta A(s)).$$ (77)
+
+Let us write
+
+$$F(t) = e^{A^c(t)-A^c(0)}, \quad G(t) = \prod_{0 < s \leq t} (1 + \Delta A(s)), \quad G(0) = 1.$$
+
+Then by (62)
+
+$$\mathcal{E}_t(A) = F(t)G(t) = 1 + \int_0^t F(s) dG(s) + \int_0^t G(s-) dF(s)$$
+
+$$= 1 + \sum_{0 < s \leq t} F(s)G(s-)\Delta A(s) + \int_0^
+
+Put
+
+$$T = \inf \{t \geq 0 : Y(t) \neq 0\},$$
+
+where we take $T = \infty$ if $Y(t) = 0$ for $t \geq 0$.
+
+Since $A(t), t \geq 0$, is a function of locally bounded variation, there are two generalized distribution functions $A_1(t)$ and $A_2(t)$ such that $A(t) = A_1(t) - A_2(t)$. If we suppose that $T < \infty$, we can find a finite $T' > T$ such that
+
+$$[A_1(T') + A_2(T')] - [A_1(T) + A_2(T)] \leq \frac{1}{2}.$$
+
+Then it follows from the equation
+
+$$Y(t) = \int_T^t Y(s-) dA(s), \quad t \geq T,$$
+
+that
+
+$$\sup_{t \leq T'} |Y(t)| \leq \frac{1}{2} \sup_{t \leq T'} |Y(t)|$$
+
+and since $\sup_{t \leq T'} |Y(t)| < \infty$, we have $Y(t) = 0$ for $T < t \leq T'$, contradicting the assumption that $T < \infty$.
+
+Thus we have proved the following theorem.

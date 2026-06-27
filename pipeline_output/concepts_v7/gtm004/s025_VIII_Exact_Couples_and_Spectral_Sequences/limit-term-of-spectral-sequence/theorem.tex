@@ -1,0 +1,11 @@
+Let $E = \{(E_n, d_n)\}$ be a spectral sequence in an abelian category $\mathfrak{A}$. Define inductively
+\begin{align*}
+E_{n,n+1} &= Z(E_n) = \ker d_n, \\
+E_{n,n+2} &= \{x \in E_{n,n+1} \mid \sigma(x) \in Z(E_{n+1})\}, \\
+E_{n,n+3} &= \{x \in E_{n,n+2} \mid \sigma^2(x) \in Z(E_{n+2})\},
+\end{align*}
+and so on, where $\sigma: E_n \to E_{n+1}$ is the canonical map factoring through $H(E_n) \cong E_{n+1}$. Define
+$$E_{n,\infty} = \{x \in E_n \mid x \text{ is a cycle for every } d_r, r \geq n\},$$
+that is, $E_{n,\infty} = \bigcap_{k \geq 1} E_{n,n+k}$. The maps $\sigma$ restrict to $\sigma: E_{n,\infty} \to E_{n+1,\infty}$, yielding a directed system. The \textbf{limit term} of the spectral sequence is
+$$E_\infty = \lim_{\substack{\longrightarrow \\ n}} (E_{n,\infty}, \sigma).$$
+Explicitly, an element of $E_\infty$ is represented by an element $x$ of some $E_{n,\infty}$, and $x$ represents $0$ if and only if it is a boundary for some $d_r$ ($r \geq n$).

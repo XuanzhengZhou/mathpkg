@@ -1,0 +1,23 @@
+id: injective-resolution-of-cochain-complex
+title_en: "Injective Resolution of a Cochain Complex"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [injective-resolution, cochain-complex, double-complex, grothendieck-spectral-sequence]
+depends_on:
+  required: [injective-resolution, cochain-complex, exact-sequence]
+  recommended: [double-complex, cartan-eilenberg-resolution]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "9. The Grothendieck Spectral Sequence"
+    pages: ""
+    role_in_book: "Technical lemma used in the proof of Theorem 9.3 to construct the double complex resolution of FI"
+content_hash: "49a3cbe5f5e0386ad072d97a37ccd03217509c3195723ea4b6adef53136261c1"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

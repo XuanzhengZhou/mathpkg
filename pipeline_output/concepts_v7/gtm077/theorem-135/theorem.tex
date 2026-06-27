@@ -1,0 +1,91 @@
+If $p$ and $q$ are odd positive primes, then we have the relations
+
+(I) $(\frac{-1}{p}) = (-1)^{(p-1)/2},$
+(II) $(\frac{p}{q}) = (\frac{q}{p})(-1)^{((p-1)/2)((q-1)/2)},$
+(III) $(\frac{2}{p}) = (-1)^{(p^2-1)/8},$
+
+We obtain the first formula directly from the definition of the residue symbol, Equation (31) in §16. We can also deduce it from field theory, in a somewhat more involved way, but analogous to the subsequent proof of (II) and (III) as follows: If $(\frac{-1}{p}) = +1$, then $p$ splits in $k(\sqrt{-1})$ and since $h_0 = 1$, $p$ is the norm of a principal ideal $x$; hence $p = a^2 + b^2$. Since each square is $\equiv 0$ or 1 (mod 4), we hence have
+
+Accordingly $p^{h_0}$ is a quadratic residue mod $q$, and since $h_0$ is odd by Theorem 133, $p$ itself is a residue mod $q$, that is, $\left(\frac{p}{q}\right) = +1$. Since the hypothesis is symmetric in $p$ and $q$, Formula (II) is proved in our case.
+
+2. Suppose $q \equiv 1 \pmod{4}$, $p \equiv 3 \pmod{4}$. It follows from $\left(\frac{q}{p}\right) = +1$, as above, that also $\left(\frac{p}{q}\right) = +1$; therefore by (I), $\left(\frac{-p}{q}\right) = \left(\frac{-1}{q}\right)\left(\frac{p}{q}\right) = +1$.
+
+Conversely, if $\left(\frac{-p}{q}\right) = +1$, we conclude in the same way with the help of the field $k(\sqrt{-p})$, that $\left(\frac{q}{p}\right) = +1$; thus we always have
+
+$$\left(\frac{-p}{q}\right) = \left(\frac{q}{p}\right), \quad \text{that is,} \quad \left(\frac{p}{q}\right) = \left(\frac{q}{p}\right).$$
+
+in accordance with (II).
+
+3. Finally if $p \equiv q \equiv 3 \pmod{4}$, then we can likewise draw the conclusion that
+
+$$\left(\frac{-p}{q}\right) = +1 \quad \text{implies} \quad \left(\frac{-q}{p}\right) = -1,$$
+
+but the converse cannot be proved in this way. For this we go over to the field $k(\sqrt{pq})$ in which, by Theorem 134, $p$ or $q$ is the norm of an integer $(x + y\sqrt{pq})/2$. Suppose
+
+$$4p = x^2 - pqy^2.$$
+
+Here $x$ must be divisible by $p$, $x = pu$, so $4 = pu^2
+
+Legendre whose "denominator" is a prime was also defined for composite denominators at the end of §31. It should now be noted that the same reciprocity formulas also hold for this "Jacobi symbol."
+
+For the proof let $a$ and $b$ be any odd integers. Since
+
+$$(a - 1)(b - 1) \equiv 0 \pmod{4},$$
+
+we have
+
+$$ab - 1 \equiv a - 1 + b - 1 \pmod{4}$$
+
+$$\frac{ab - 1}{2} \equiv \frac{a - 1}{2} + \frac{b - 1}{2} \pmod{2}.$$
+
+(116)
+
+In the same way it follows from
+
+$$(a^2 - 1)(b^2 - 1) \equiv 0 \pmod{16}$$
+
+that
+
+$$\frac{a^2b^2 - 1}{8} \equiv \frac{a^2 - 1}{8} + \frac{b^2 - 1}{8} \pmod{2}.$$
+
+(117)
+
+By repeated application of this process we thus obtain for $r$ odd integers $p_1, \ldots, p_r$
+
+$$\frac{p_1 \cdot p_2 \cdots p_r - 1}{2} = \sum_{i=1}^{r} \frac{p_i - 1}{2} \pmod{2}$$
+
+$$\frac{(p_1 \cdot p_2 \cdots p_r)^2 - 1}{8} = \sum_{i=1}^{r} \frac{p_i^2 - 1}{2} \pmod{2}.$$
+
+Now suppose that the positive odd numbers $P$ and $Q$ are decomposed into their prime factors
+
+$$P = p_1 \cdot p_2 \cdots p_r, \quad Q = q_1 \cdot q_2 \cdots q_s.$$
+
+Then, by the definition in §31 and by application of (116) and (117),
+
+$$\left(\frac{-1}{P}\right) = \left(\frac{-1}{p_1}\right) \
+
+Then in order to formulate the reciprocity laws for negative numbers we use the symbol sgn $a$ (read signum $a$):
+
+$$\text{sgn } a = \begin{cases} +1 & \text{if } a > 0, \\ -1 & \text{if } a < 0. \end{cases}$$
+
+Note that $|a| = a \cdot \text{sgn } a$. With the help of this symbol we obtain at once from (116) that for odd $P$
+
+$$\left( \frac{-1}{P} \right) = (-1)^{(|P| - 1)/2} = (-1)^{(|P| - 1)/2} + (\text{sgn } P - 1)/2.$$
+
+Consequently for odd $P, Q$
+
+$$\left( \frac{P}{Q} \right) = \left( \frac{\text{sgn } P}{Q} \right) \left( \frac{|P|}{Q} \right)$$
+
+$$= (-1)^{((\text{sgn } P - 1)/2)((Q - 1)/2) + ((\text{sgn } P - 1)/2)((\text{sgn } Q - 1)/2)} \left( \frac{|P|}{Q} \right).$$
+
+Moreover, by (120)
+
+$$\left( \frac{|P|}{Q} \right) = \left( \frac{|P|}{|Q|} \right) = \left( \frac{|Q|}{|P|} \right) (-1)^{((|P| - 1)/2)((|Q| - 1)/2)}$$
+
+$$= \left( \frac{Q}{P} \right) (-1)^{((\text{sgn } Q - 1)/2)((|P| - 1)/2) + ((|P| - 1)/2)((|Q| - 1)/2)}.$$
+
+Finally we obtain from these formulas
+
+**Theorem 136.** (General Quadratic Reciprocity Law) If $P$ and $Q$ are odd rational integers, then
+
+$$\left

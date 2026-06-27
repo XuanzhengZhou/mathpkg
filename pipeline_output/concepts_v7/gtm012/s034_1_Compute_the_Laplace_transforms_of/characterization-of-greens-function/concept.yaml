@@ -1,0 +1,13 @@
+id: characterization-of-greens-function
+title_en: "Characterization and Uniqueness of the Green's Function"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: differential-equations
+difficulty: intermediate
+tags: [greens-function, characterization, uniqueness, polynomial-differential-operator, initial-conditions]
+depends_on: {required: [greens-function-for-polynomial-differential-operator, greens-function-as-contour-limit], recommended: [polynomial-differential-operator], suggested: []}
+source_books: [{book_id: "gtm012", author: "Beals", title: "Advanced Mathematical Analysis", chapter: "7", section: "Differential equations", pages: "215-216", role_in_book: "Characterizes Green's function by its action under p(D), its jump conditions, and its exponential-polynomial form; proves uniqueness"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

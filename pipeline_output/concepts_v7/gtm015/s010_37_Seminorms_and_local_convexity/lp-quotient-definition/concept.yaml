@@ -1,0 +1,23 @@
+id: lp-quotient-definition
+title_en: "L^p as a quotient space"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: banach-spaces
+difficulty: basic
+tags: [Lp, quotient-space, seminorm, null-functions]
+depends_on:
+  required: [lp-banach-space, quotient-norm]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "39"
+    section: "The spaces L^p"
+    pages: ""
+    role_in_book: "Defines L^p as quotient of L^p by the subspace of null functions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: baires-theorem
+title_en: "Baire's Theorem"
+title_zh: "贝尔定理"
+type: theorem
+domain: topology
+subdomain: metric-spaces
+difficulty: intermediate
+tags: [baire, complete-metric-space, dense-open-sets, locally-compact, category]
+depends_on:
+  required: []
+  recommended: [complete-metric-space, dense-set, nowhere-dense-set, locally-compact-space]
+  suggested: [meager-set, first-category]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "FOR METRIC SPACES ONLY"
+    pages: ""
+    role_in_book: "Theorem 34; fundamental result on completeness implying topological density of countable intersections of dense open sets"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

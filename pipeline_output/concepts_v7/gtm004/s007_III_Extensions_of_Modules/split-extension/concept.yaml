@@ -1,0 +1,23 @@
+id: split-extension
+title_en: "Split Extension"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [split-extension, direct-sum, extension]
+depends_on:
+  required: [extension-of-modules]
+  recommended: [direct-sum]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III. Extensions of Modules"
+    section: "1. Extensions"
+    pages: ""
+    role_in_book: "Introduces the trivial class of extensions; split extensions correspond to the zero element in Ext"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

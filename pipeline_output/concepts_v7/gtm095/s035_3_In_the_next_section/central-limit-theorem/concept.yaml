@@ -1,0 +1,13 @@
+id: central-limit-theorem
+title_en: "Corollary 1. Let $\{F_n\}$ be a sequence of distribution functions and $\{\varphi_n\}$ the corresponding sequence of characteristic functions. Also let $F$ be a distribution function and $\varphi$ its characteristic function. Then $F_n \xrightarrow{w} F$ if and only if $\varphi_n(t) \rightarrow \varphi(t)$ for all $t \in R$"
+title_zh: ""
+type: corollary
+domain: probability
+subdomain: probability-theory
+difficulty: advanced
+tags: []
+depends_on: {required: [], recommended: [], suggested: []}
+source_books: [{book_id: "gtm095", author: "Albert N. Shiryaev", title: "Probability-1 (3ed, 2016)", chapter: "Chapter 3", section: "§3. Khinchin LLN, CLT for i.i.d., Poisson theorem", pages: "", role_in_book: ""}]
+content_hash: "14bc1264f7e1"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: fourier-series-convergence-in-distributions
+title_en: "Convergence of Fourier Series of Periodic Distributions"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: fourier-analysis
+difficulty: advanced
+tags: [fourier-coefficients, fourier-series, periodic-distributions, convergence, duality]
+depends_on:
+  required: [periodic-distribution, fourier-coefficients, smooth-periodic-fourier-coefficients-characterization]
+  recommended: [distribution-action-via-fourier-coefficients]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "5"
+    section: "§1. Fourier series of smooth periodic functions and of periodic distributions"
+    pages: ""
+    role_in_book: "Corollary 1.4: Shows that the Fourier series of a distribution converges to it in the sense of distributions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

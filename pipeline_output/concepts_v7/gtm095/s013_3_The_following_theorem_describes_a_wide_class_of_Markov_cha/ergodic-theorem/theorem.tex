@@ -1,0 +1,220 @@
+(a) If there is an $n_0$ such that
+$$\min_{i,j} p_{ij}^{(n_0)} > 0,$$
+(21)
+
+then there are numbers $\pi_1, \ldots, \pi_N$ such that
+$$\pi_j > 0, \quad \sum_j \pi_j = 1$$
+(22)
+
+and
+$$p_{ij}^{(n)} \rightarrow \pi_j, \quad n \rightarrow \infty$$
+(23)
+
+for every $j \in X$ and $i \in X$.
+
+(b) Conversely, if there are numbers $\pi_1, \ldots, \pi_N$ satisfying (22) and (23), there is an $n_0$ such that (21) holds.
+
+(c) The numbers $(\pi_1, \ldots, \pi_N)$ satisfy the equations
+$$\pi_j = \sum_\alpha \pi_\alpha p_{\alpha j}, \quad j = 1, \ldots, N.$$
+(24)
+
+Let $\varepsilon = \min_{i,j} p_{ij}^{(n_0)} > 0$. Then
+
+$$p_{ij}^{(n_0+n)} = \sum_{\alpha} p_{i\alpha}^{(n_0)} p_{\alpha j}^{(n)} = \sum_{\alpha} \left[ p_{i\alpha}^{(n_0)} - \varepsilon p_{j\alpha}^{(n)} \right] p_{\alpha j}^{(n)} + \varepsilon \sum_{\alpha} p_{j\alpha}^{(n)} p_{\alpha j}^{(n)}$$
+
+$$= \sum_{\alpha} \left[ p_{i\alpha}^{(n_0)} - \varepsilon p_{j\alpha}^{(n)} \right] p_{\alpha j}^{(n)} + \varepsilon p_{jj}^{(2n)}.$$
+
+But $p_{i\alpha}^{(n_0)} - \varepsilon p_{j\alpha}^{(n)} \geq 0$; therefore
+
+$$p_{ij}^{(n_0+n)} \geq m_j^{(n)} \cdot \sum_{\alpha} \left[ p_{i\alpha}^{(n_0)} - \varepsilon p_{j\alpha}^{(n)} \right] + \varepsilon p_{jj}^{(2n)} = m_j^{(n)} (1 - \varepsilon) + \varepsilon p_{jj}^{(2n)},$$
+
+and consequently
+
+$$m_j^{(n_0+n)} \geq m_j^{(n)} (1 - \varepsilon) + \varepsilon p_{jj}^{(2n)}.$$
+
+In a similar way
+
+$$M_j^{(n_0+n)} \leq M_j^{(n)} (1 - \varepsilon) + \varepsilon p_{jj}^{(2n)}.$$
+
+Combining these inequalities, we obtain
+
+$$M_j^{(n_0+n)} - m_j^{(n_0+n)} \leq \left( M_j^{(n)} - m_j^{(n)} \right) \cdot (1 - \varepsilon)$$
+
+and consequently
+
+$$M_j^{(kn_0+n)} - m_j^{(kn_0+n)} \leq \left( M_j^{(
+
+plays a major role in the theory of Markov chains. Any nonnegative solution $q = (q_1, \ldots, q_N)$ of this system satisfying $\sum_\alpha q_\alpha = 1$ is said to be a stationary or invariant probability distribution for the Markov chain with transition matrix $\|p_{ij}\|$. The reason for this terminology is as follows.
+
+Take the distribution $q = (q_1, \ldots, q_N)$ for the initial one, i.e., let $p_j = q_j, j = 1, \ldots, N$. Then
+
+$$p_j^{(1)} = \sum_\alpha q_\alpha p_{\alpha j} = q_j$$
+
+and in general $p_j^{(n)} = q_j$. In other words, if we take $q = (q_1, \ldots, q_N)$ as the initial distribution, this distribution is unchanged as time goes on, i.e., for any $k$
+
+$$P(\xi_k = j) = P(\xi_0 = j), \quad j = 1, \ldots, N.$$
+
+Moreover, with initial distribution $q = (q_1, \ldots, q_N)$ the Markov chain $\xi = (\xi, q, \mathbb{P})$ is stationary: the joint distribution of the vector $(\xi_k, \xi_{k+1}, \ldots, \xi_{k+l})$ is independent of $k$ for all $l$ (assuming that $k + l \leq n$).
+
+Property (21) guarantees both the existence of limits $\pi_j = \lim p_{ij}^{(n)}$, which are independent of $i$, and the existence of an ergodic distribution, i.e., of a distribution $(\pi_1, \ldots, \pi_N)$ with $\pi_j > 0$. The distribution $(\pi_1, \ldots, \pi_N)$ is also a stationary distribution. Let us now show that the set $(\pi_1, \ldots, \pi_N)$ is the only stationary distribution.
+
+In fact, let $(\tilde{\pi}_1, \ldots, \tilde{\pi}_N)$ be another stationary distribution. Then
+
+$$\tilde{\pi}_j = \sum_\alpha \tilde{\
+
+reduces to
+
+$$q_1 = q_2,$$
+$$q_2 = q_1,$$
+
+of which the unique solution $(q_1, q_2)$ satisfying $q_1 + q_2 = 1$ is $(\frac{1}{2}, \frac{1}{2})$.
+
+We also notice that for this example the system $(24^*)$ with $x_j = q_j$ has the form
+
+$$q_0 = q_0p_{00} + q_1p_{10},$$
+$$q_1 = q_0p_{01} + q_1p_{11},$$
+
+from which, by the condition $q_0 + q_1 = 1$, we find that the unique stationary distribution $(q_0, q_1)$ coincides with the one obtained above:
+
+$$q_0 = \frac{1 - p_{11}}{2 - p_{00} - p_{11}},$$
+$$q_1 = \frac{1 - p_{00}}{2 - p_{00} - p_{11}}.$$
+
+We now consider some corollaries of the ergodic theorem.
+
+Let $A \subseteq X$ be a set of states, and
+
+$$I_A(x) = \begin{cases} 1, & x \in A, \\ 0, & x \notin A. \end{cases}$$
+
+Consider
+
+$$v_A(n) = \frac{I_A(\xi_0) + \cdots + I_A(\xi_n)}{n + 1}$$
+
+which is the fraction of the time spent by the particle in the set $A$. Since
+
+$$E[I_A(\xi_k) | \xi_0 = i] = P(\xi_k \in A | \xi_0 = i) = \sum_{j \in A} p_{ij}^{(k)} \quad (= p_i^{(k)}(A)),$$
+
+we have
+
+$$E[v_A(n) | \xi_0 = i] = \frac{1}{n + 1} \sum_{k=0}^{n} p_i^{(k)}(A)$$
+
+and in particular
+
+$$E[v_{\{j\}}(n) | \xi_0 = i] = \frac{
+
+$$P\{|v_A(n) - \pi_A| > \varepsilon\} \to 0, \quad n \to \infty,$$
+
+for every $\varepsilon > 0$, every set $A \subseteq X$ and every initial distribution.
+
+Before we undertake the proof, let us notice that we cannot apply the results of Sect. 5 directly to $I_A(\xi_0), \ldots, I_A(\xi_n), \ldots$, since these variables are, in general, dependent. However, the proof can be carried through along the same lines as for independent variables if we again use Chebyshev’s inequality, and apply the fact that for an ergodic chain with finitely many states there is a number $\rho$, $0 < \rho < 1$, such that
+
+$$|p_{ij}^{(n)} - \pi_j| \leq C \cdot \rho^n.$$
+
+Let us consider states $i$ and $j$ (which might be the same) and show that, for $\varepsilon > 0$,
+
+$$P\{|v_{j}(n) - \pi_j| > \varepsilon |\xi_0 = i\} \to 0, \quad n \to \infty.$$
+
+By Chebyshev’s inequality,
+
+$$P\{|v_{j}(n) - \pi_j| > \varepsilon |\xi_0 = i\} < \frac{E\{|v_{j}(n) - \pi_j|^2 |\xi_0 = i\}}{\varepsilon^2}.$$
+
+Hence we have only to show that
+
+$$E\{|v_{j}(n) - \pi_j|^2 |\xi_0 = i\} \to 0, \quad n \to \infty.$$
+
+A simple calculation shows that
+
+$$E\{|v_{j}(n) - \pi_j|^2 |\xi_0 = i\} = \frac{1}{(n+1)^2} \cdot E\left\{\left[ \sum_{k=0}^{n} \left(I_{jk}(\xi_k) - \pi_j\right) \right]^2 \mid \xi_0 = i\right\}$$
+
+$$= \frac{1}{(n
+
+where $C_1$ is a constant. Consequently
+
+$$\frac{1}{(n+1)^2} \sum_{k=0}^{n} \sum_{l=0}^{n} m_{ij}^{(k,l)} \leq \frac{C_1}{(n+1)^2} \sum_{k=0}^{n} \sum_{l=0}^{n} \left[ \rho^s + \rho^t + \rho^k + \rho^l \right]$$
+
+$$\leq \frac{4C_1}{(n+1)^2} \cdot \frac{2(n+1)}{1-\rho} = \frac{8C_1}{(n+1)(1-\rho)} \rightarrow 0, \quad n \rightarrow \infty.$$
+
+Then (28) follows from this, and we obtain (26) in an obvious way.
+
+5. In Sect. 9 we gave, for a random walk $S_0, S_1, \ldots$ generated by a Bernoulli scheme, recurrent equations for the probability and the expectation of the exit time at either boundary. We now derive similar equations for Markov chains.
+
+Let $\xi = (\xi_0, \ldots, \xi_N)$ be a Markov chain with transition matrix $\|p_{ij}\|$ and phase space $X = \{0, \pm 1, \ldots, \pm N\}$. Let $A$ and $B$ be two integers, $-N \leq A \leq 0 \leq B \leq N$, and $x \in X$. Let $\mathcal{B}_{k+1}$ be the set of paths $(x_0, x_1, \ldots, x_k), x_i \in X$, that leave the interval $(A, B)$ for the first time at the upper end, i.e., leave $(A, B)$ by going into the set $(B, B+1, \ldots, N)$.
+
+For $A \leq x \leq B$, put
+
+$$\beta_k(x) = \mathbb{P}\{(\xi_0, \ldots, \xi_k) \in \mathcal{B}_{k+1} \mid \xi_0 = x\}.$$
+
+In order to find these prob
+
+and
+
+$$\beta_k(x) = 0, \quad x = -N, \ldots, A.$$
+
+In a similar way we can find equations for $\alpha_k(x)$, the probabilities for first exit from $(A, B)$ through the lower boundary.
+
+Let $\tau_k = \min\{0 \leq l \leq k : \xi_l \notin (A, B)\}$, where $\tau_k = k$ if the set $\{\cdot\} = \varnothing$. Then the same method, applied to $m_k(x) = E(\tau_k \mid \xi_0 = x)$, leads to the following recurrent equations:
+
+$$m_k(x) = 1 + \sum_y m_{k-1}(y)p_{xy}$$
+
+(here $1 \leq k \leq n$, $A < x < B$). We define
+
+$$m_k(x) = 0, \quad x \notin (A, B).$$
+
+It is clear that if the transition matrix is given by (11) the equations for $\alpha_k(x), \beta_k(x)$ and $m_k(x)$ become the corresponding equations from Sect. 9, where they were obtained by essentially the same method that was used here.
+
+These equations have the most interesting applications in the limiting case when the walk continues for an unbounded length of time. Just as in Sect. 9, the corresponding equations can be obtained by a formal limiting process $(k \to \infty)$.
+
+By way of example, we consider the Markov chain with states $\{0, 1, \ldots, B\}$ and transition probabilities
+
+$$p_{00} = 1, \quad p_{BB} = 1,$$
+
+and
+
+$$p_{ij} = \begin{cases} p_i > 0, & j = i + 1, \\ r_i, & j = i, \\ q_i > 0, & j = i - 1, \end{cases}$$
+
+for $1 \leq i \leq B - 1$, where $p_i + q_i + r_i = 1$.
+
+For this chain, the corresponding graph is
+
+It is clear that states 0 and $B$ are absorbing, whereas for every other state $i$ the particle stays there with probability $r_i$, moves one step to the right with
+
+when $0 < j < B$, with the boundary conditions
+
+$$\alpha(0) = 1, \quad \alpha(B) = 0.$$
+
+Since $r_j = 1 - q_j - p_j$, we have
+
+$$p_j(\alpha(j+1) - \alpha(j)) = q_j(\alpha(j) - \alpha(j-1))$$
+
+and consequently
+
+$$\alpha(j+1) - \alpha(j) = \rho_j(\alpha(1) - 1),$$
+
+where
+
+$$\rho_j = \frac{q_1 \cdots q_j}{p_1 \cdots p_j}, \quad \rho_0 = 1.$$
+
+But
+
+$$\alpha(j+1) - 1 = \sum_{i=0}^{j} (\alpha(i+1) - \alpha(i)).$$
+
+Therefore
+
+$$\alpha(j+1) - 1 = (\alpha(1) - 1) \cdot \sum_{i=0}^{j} \rho_i.$$
+
+If $j = B-1$, we have $\alpha(j+1) = \alpha(B) = 0$, and therefore
+
+$$\alpha(1) - 1 = -\frac{1}{\sum_{i=0}^{B-1} \rho_i},$$
+
+whence
+
+$$\alpha(1) = \frac{\sum_{i=1}^{B-1} \rho_i}{\sum_{i=0}^{B-1} \rho_i} \quad \text{and} \quad \alpha(j) = \frac{\sum_{i=j}^{B-1} \rho_i}{\sum_{i=0}^{B-1} \rho_i}, \quad j = 1, \ldots, B.$$
+
+(This should be compared with the results of Sect. 9.)
+
+Now let $m(x) = \lim_k m_k(x)$, the limiting value of the average time taken to arrive at one of the states 0 or $B$. Then $m(0) = m(B) = 0$,
+
+$$m(x) = 1 + \sum_y m(y)p_{xy}$$
+
+and consequently for the example that we are considering,
+
+$$m(j) = 1 + q_j m(j-1) + r_j m(j) + p_j m(j+

@@ -1,0 +1,23 @@
+id: lemma-even-cover-preserves-local-finiteness
+title_en: "Even Cover Spaces Preserve Local Finiteness Under Diagonal Enlargement"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: paracompactness
+difficulty: advanced
+tags: [even-cover, locally-finite, discrete, diagonal-neighborhood]
+depends_on:
+  required: [even-cover, locally-finite-family, discrete-family]
+  recommended: [lemma-diagonal-neighborhood-composition]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "Paracompactness"
+    pages: ""
+    role_in_book: "Lemma 31: In spaces where open covers are even, locally finite families can be enlarged while preserving local finiteness"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

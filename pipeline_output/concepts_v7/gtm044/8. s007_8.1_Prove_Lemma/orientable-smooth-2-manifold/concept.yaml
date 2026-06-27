@@ -1,0 +1,23 @@
+id: orientable-smooth-2-manifold
+title_en: "Orientable Smooth 2-Manifold"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [orientability, smooth-manifold, jacobian, coordinate-charts]
+depends_on:
+  required: [orientation-by-determinant]
+  recommended: [smooth-manifold, jacobian-determinant, transition-map]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "9"
+    pages: ""
+    role_in_book: "Defines orientability for smooth 2-manifolds via positivity of Jacobian determinant of transition maps"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

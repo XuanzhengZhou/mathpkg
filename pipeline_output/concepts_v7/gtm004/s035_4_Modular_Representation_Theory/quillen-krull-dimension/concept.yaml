@@ -1,0 +1,23 @@
+id: quillen-krull-dimension-theorem
+title_en: "Quillen's Theorem on Krull Dimension of Cohomology"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: advanced
+tags: [quillen, cohomology-ring, krull-dimension, p-rank, elementary-abelian-subgroup]
+depends_on:
+  required: [krull-dimension-via-cohomology-growth, group-cohomology, elementary-abelian-p-group]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "4. Modular Representation Theory"
+    pages: "355-359"
+    role_in_book: "Theorem 4.2 (Quillen): Krull dimension equals maximal p-rank of elementary abelian p-subgroups"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: adjoint-natural-transformations-coincide
+title_en: "Coincidence of Adjoint Natural Transformations for Ext"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [Ext-functor, adjoint-functor, natural-transformation, change-of-rings]
+depends_on:
+  required: [ext-functor, adjoint-functor, natural-transformation, change-of-rings]
+  recommended: [adjoint-ext-flat-equivalence]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "12"
+    pages: ""
+    role_in_book: "Both adjoint constructions yield the same natural transformation — Proposition 12.4"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

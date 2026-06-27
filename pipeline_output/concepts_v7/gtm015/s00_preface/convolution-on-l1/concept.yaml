@@ -1,0 +1,23 @@
+id: convolution-on-l1
+title_en: "Convolution on $\ell^1(\mathbb{Z})$"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: basic
+tags: [convolution, l1-space, banach-algebra, product]
+depends_on:
+  required: [convolution-inequality-l1]
+  recommended: [little-l-one-space]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "0"
+    section: "Apéritif (Wiener's Theorem)"
+    pages: ""
+    role_in_book: "Definition (17); the convolution product on l^1(Z)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

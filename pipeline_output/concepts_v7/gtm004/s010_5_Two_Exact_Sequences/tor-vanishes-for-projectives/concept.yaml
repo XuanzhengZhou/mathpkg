@@ -1,0 +1,23 @@
+id: tor-vanishes-for-projectives
+title_en: "Tor Vanishes for Projective Modules (Proposition 8.1)"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [tor-functor, projective-module, vanishing]
+depends_on:
+  required: []
+  recommended: [tor-functor, projective-module, tensor-product]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "8. The Functor Tor"
+    pages: ""
+    role_in_book: "Foundational property: Tor vanishes when either argument is projective"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

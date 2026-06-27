@@ -1,0 +1,25 @@
+id: primary-ideal-definition
+title_en: "Primary Ideal"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: commutative-algebra
+difficulty: basic
+tags: [primary-ideal, ideal, ring-theory, radical, prime-ideal]
+depends_on:
+  required: [ideal]
+  recommended: [prime-ideal, radical-ideal]
+  suggested: [noetherian-ring]
+
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "4"
+    section: "4.5"
+    pages: ""
+    role_in_book: "Defines primary ideals as a generalization of prime ideals; used in primary decomposition theory"
+
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

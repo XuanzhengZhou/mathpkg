@@ -1,0 +1,23 @@
+id: graded-bigraded-object-implies-stationary
+title_en: "Graded Bigraded Object Implies Stationarity of Exact Couple Maps"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [bigraded-object, grading, exact-couple, stationarity]
+depends_on:
+  required: [positively-graded-bigraded-object, stationary-exact-couple]
+  recommended: [exact-couple]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "3"
+    section: "3. Finite Convergence Conditions for Filtered Chain Complexes"
+    pages: ""
+    role_in_book: "Proposition 3.2: establishes the direct implication from grading conditions of D or D̄ to stationarity of the corresponding maps"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

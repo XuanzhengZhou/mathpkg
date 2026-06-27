@@ -1,0 +1,23 @@
+id: convergent-net-is-cauchy
+title_en: "Convergent Nets are Cauchy Nets"
+title_zh: "收敛网是 Cauchy 网"
+type: theorem
+domain: topology
+subdomain: uniform-spaces
+difficulty: basic
+tags: [convergent-net, cauchy-net, uniform-topology, cluster-point]
+depends_on:
+  required: [net, convergence, cauchy-net, uniform-topology]
+  recommended: [cluster-point]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Completeness"
+    pages: ""
+    role_in_book: "Theorem 21: convergent nets are Cauchy; a Cauchy net with a cluster point converges"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

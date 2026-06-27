@@ -1,0 +1,20 @@
+A \textbf{category} $\mathfrak{C}$ consists of the following data:
+
+\begin{enumerate}
+\item A class of objects $A, B, C, \ldots$
+\item To each pair of objects $A, B$ of $\mathfrak{C}$, a set $\mathfrak{C}(A, B)$ of morphisms from $A$ to $B$.
+\item To each triple of objects $A, B, C$ of $\mathfrak{C}$, a law of composition
+  $$\mathfrak{C}(A, B) \times \mathfrak{C}(B, C) \to \mathfrak{C}(A, C).$$
+\end{enumerate}
+
+For $f \in \mathfrak{C}(A, B)$ we write $f: A \to B$; $A$ is the domain, $B$ the codomain. The composition of $f: A \to B$ and $g: B \to C$ is written $g \circ f$ or $gf$.
+
+These data satisfy the following axioms:
+
+\begin{itemize}
+\item[\textbf{A1.}] The sets $\mathfrak{C}(A_1, B_1)$ and $\mathfrak{C}(A_2, B_2)$ are disjoint unless $A_1 = A_2$ and $B_1 = B_2$.
+\item[\textbf{A2.}] Given $f: A \to B$, $g: B \to C$, $h: C \to D$, then
+  $$h(gf) = (hg)f \quad \text{(Associative law of composition)}.$$
+\item[\textbf{A3.}] To each object $A$ there is a morphism $1_A: A \to A$ such that, for any $f: A \to B$, $g: C \to A$,
+  $$f 1_A = f, \quad 1_A g = g \quad \text{(Identity morphism)}.$$
+\end{itemize}

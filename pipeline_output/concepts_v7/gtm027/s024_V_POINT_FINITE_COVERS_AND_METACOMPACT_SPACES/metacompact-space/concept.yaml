@@ -1,0 +1,23 @@
+id: metacompact-space
+title_en: "Metacompact Space"
+title_zh: "亚紧空间"
+type: definition
+domain: topology
+subdomain: covering-properties
+difficulty: intermediate
+tags: [metacompact, point-finite, refinement, covering]
+depends_on:
+  required: [point-finite-family]
+  recommended: [open-cover, paracompact-space]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "V. Point Finite Covers and Metacompact Spaces"
+    pages: ""
+    role_in_book: "Definition of metacompactness, a weakening of paracompactness using point finite refinements"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

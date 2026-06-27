@@ -1,0 +1,23 @@
+id: approximate-identity-approximation
+title_en: "Convolution approximation by approximate identities"
+title_zh: "近似单位元的卷积逼近"
+type: lemma
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: intermediate
+tags: [approximate-identity, convolution, l1-space, locally-compact-group]
+depends_on:
+  required: []
+  recommended: [convolution-of-functions, l1-space, approximate-identity, haar-measure]
+  suggested: [left-regular-representation-faithful]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "69"
+    section: "Group representations"
+    pages: "306-307"
+    role_in_book: "Lemma (69.13) showing approximate identities approximate in L^1 norm"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

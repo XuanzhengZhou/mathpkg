@@ -1,0 +1,21 @@
+Let $\mathfrak{C}$ be a category in which the required limits exist. Suppose given a sequence of commuting squares for $i \geq 0$:
+$$
+\begin{CD}
+A_{i+1} @>{\varphi_{i+1}}>> B_{i+1} \\
+@V{\alpha_i}VV @VV{\beta_i}V \\
+A_i @>{\varphi_i}>> B_i
+\end{CD}
+$$
+where each square is a pullback. Let
+$$
+A_{\infty} = \varprojlim_i A_i, \qquad B_{\infty} = \varprojlim_i B_i,
+$$
+with canonical projections $\delta_i^A : A_{\infty} \rightarrow A_i$ and $\delta_i^B : B_{\infty} \rightarrow B_i$. Let $\bar{\alpha} : A_{\infty} \rightarrow A_0$ and $\bar{\beta} : B_{\infty} \rightarrow B_0$ be the limit maps, and let $\varphi_{\infty} : A_{\infty} \rightarrow B_{\infty}$ be the map induced by the $\varphi_i$. Then the square
+$$
+\begin{CD}
+A_{\infty} @>{\varphi_{\infty}}>> B_{\infty} \\
+@V{\bar{\alpha}}VV @VV{\bar{\beta}}V \\
+A_0 @>{\varphi_0}>> B_0
+\end{CD}
+$$
+is a pullback.

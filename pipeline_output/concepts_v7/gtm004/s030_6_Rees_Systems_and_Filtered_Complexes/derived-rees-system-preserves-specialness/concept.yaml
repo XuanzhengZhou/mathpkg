@@ -1,0 +1,23 @@
+id: derived-rees-system-preserves-specialness
+title_en: "Derived Rees System Preserves Specialness"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [spectral-sequences, rees-systems, derived-couples]
+depends_on:
+  required: [special-rees-system, derived-rees-system]
+  recommended: [exact-couple]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "6. Rees Systems and Filtered Complexes"
+    pages: ""
+    role_in_book: "Proposition 6.5: shows the derived Rees system inherits specialness from the original"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

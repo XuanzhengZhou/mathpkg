@@ -1,0 +1,23 @@
+id: oriented-double-covering-of-a-vector-bundle
+title_en: "Oriented Double Covering of a Vector Bundle"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [orientation, vector-bundle, double-covering, pullback, simply-connected]
+depends_on:
+  required: [orientation-of-a-vector-bundle]
+  recommended: [pullback-bundle, covering-space, section-of-bundle]
+  suggested: [simply-connected-space]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "4. Oriented Vector Bundles"
+    pages: ""
+    role_in_book: "Canonical construction that encodes orientability as a section problem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

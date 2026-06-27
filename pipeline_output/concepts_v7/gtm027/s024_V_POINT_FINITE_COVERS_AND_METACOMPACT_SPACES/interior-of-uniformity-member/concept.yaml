@@ -1,0 +1,23 @@
+id: interior-of-uniformity-member
+title_en: "Interior of a Uniformity Member is in the Uniformity"
+title_zh: "一致性结构成员的内部分子一致性结构"
+type: theorem
+domain: topology
+subdomain: uniform-spaces
+difficulty: intermediate
+tags: [uniformity, interior, open-symmetric, base, product-topology]
+depends_on:
+  required: [uniformity, uniform-topology]
+  recommended: [interior, symmetric-relation, product-topology]
+  suggested: [symmetric-relation-triple-composition]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Uniform Spaces"
+    pages: ""
+    role_in_book: "Theorem 6: the interior of a uniformity member belongs to the uniformity; open symmetric members form a base"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

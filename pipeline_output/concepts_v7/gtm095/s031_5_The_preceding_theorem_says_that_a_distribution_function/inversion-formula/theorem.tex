@@ -1,0 +1,74 @@
+$$\varphi(t) = \int_{-\infty}^{\infty} e^{itx} dF(x)$$
+
+its characteristic function.
+
+(a) For any pair of points $a$ and $b$ ($a < b$) at which $F = F(x)$ is continuous,
+
+$$F(b) - F(a) = \lim_{c \to \infty} \frac{1}{2\pi} \int_{-c}^{c} \frac{e^{-ita} - e^{-itb}}{it} \varphi(t) dt. \tag{25}$$
+
+(b) If $\int_{-\infty}^{\infty} |\varphi(t)| dt < \infty$, the distribution function $F(x)$ has a density $f(x)$,
+
+$$F(x) = \int_{-\infty}^{x} f(y) dy \tag{26}$$
+
+and
+
+$$f(x) = \frac{1}{2\pi} \int_{-\infty}^{\infty} e^{-itx} \varphi(t) dt. \tag{27}$$
+
+Proof
+
+$$F(b) - F(a) = \int_{a}^{b} f(x) \, dx = \frac{1}{2\pi} \int_{a}^{b} \left[ \int_{-\infty}^{\infty} e^{-itx} \varphi(t) \, dt \right] \, dx$$
+$$= \frac{1}{2\pi} \int_{-\infty}^{\infty} \varphi(t) \left[ \int_{a}^{b} e^{-itx} \, dx \right] \, dt$$
+$$= \frac{1}{2\pi} \int_{-\infty}^{\infty} \varphi(t) \frac{e^{-ita} - e^{-itb}}{it} \, dt.$$
+
+After these remarks, which to some extent clarify (25), we turn to the proof.
+
+(a) We have
+
+$$\Phi_c = \frac{1}{2\pi} \int_{-c}^{c} \frac{e^{-ita} - e^{-itb}}{it} \varphi(t) \, dt$$
+$$= \frac{1}{2\pi} \int_{-c}^{c} \frac{e^{-ita} - e^{-itb}}{it} \left[ \int_{-\infty}^{\infty} e^{itx} dF(x) \right] \, dt$$
+$$= \frac{1}{2\pi} \int_{-\infty}^{\infty} \left[ \int_{-c}^{c} \frac{e^{-ita} - e^{-itb}}{it} e^{itx} \, dt \right] dF(x)$$
+$$= \int_{-\infty}^{\infty} \Psi_c(x) dF(x),$$
+
+(29)
+
+where we have put
+
+$$\Psi_c(x) = \frac{1}{2\pi} \int_{-c}^{c} \frac{e^{-ita} - e^{-itb}}{it} e^{itx} \, dt$$
+
+and applied Fubini’s theorem, which is applicable in this case because
+
+$$\left| \frac{e^{-ita} - e^{-itb}}{it} \cdot e^{itx} \right| = \left| \frac{e^{-ita} - e^{-itb}}{it} \right
+
+is uniformly continuous in $s$ and $t$, and
+
+$$g(s, t) \rightarrow \pi$$
+
+as $s \downarrow -\infty$ and $t \uparrow \infty$ (see [35], 3.721 or “Dirichlet integral” in Wikipedia). Hence there is a constant $C$ such that $|\Psi_c(x)| < C < \infty$ for all $c$ and $x$. Moreover, it follows from (30) and (31) that
+
+$$\Psi_c(x) \rightarrow \Psi(x), \quad c \rightarrow \infty,$$
+
+where
+
+$$\Psi(x) = \begin{cases} 0, & x < a, x > b, \\ \frac{1}{2}, & x = a, x = b, \\ 1, & a < x < b. \end{cases}$$
+
+Let $\mu$ be the measure on $(R, \mathcal{B}(R))$ such that $\mu(a, b] = F(b) - F(a)$. Recall that by assumption $a$ and $b$ are continuity points of $F(x)$, hence $F(a-) = F(a)$, $F(b-) = F(b)$ and $\mu(a) = \mu(b) = 0$. Then if we apply the dominated convergence theorem and use the formulas of Problem 1 of Sect. 3, we find that, as $c \rightarrow \infty$,
+
+$$\Phi_c = \int_{-\infty}^{\infty} \Psi_c(x) dF(x) \rightarrow \int_{-\infty}^{\infty} \Psi(x) dF(x)$$
+
+$$= \mu(a, b) + \frac{1}{2} \mu\{a\} + \frac{1}{2} \mu\{b\} = F(b) - F(a).$$
+
+Hence (25) is established.
+
+(b) Let $\int_{-\infty}^{\infty} |\varphi(t)| dt < \infty$. Write
+
+$$f(x) = \frac{1}{2\pi} \int_{-\infty}^{\infty} e^{-itx} \varphi(t) dt.$$
+
+It follows from the dominated convergence theorem that this is a continuous function of $x
+
+Hence it follows that
+
+$$F(x) = \int_{-\infty}^{x} f(y) \, dy, \quad x \in R,$$
+
+and since $f(x)$ is continuous and $F(x)$ is nondecreasing, $f(x)$ is the density of $F(x)$. This completes the proof of the theorem.
+
+Remark. The inversion formula (25) provides a second proof of Theorem 2.

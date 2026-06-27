@@ -1,0 +1,23 @@
+id: change-of-order-of-integration
+title_en: "Change of Order of Integration (Rectangle)"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: multivariable-calculus
+difficulty: intermediate
+tags: [fubini, integration, rectangle, continuous-function, order-of-integration]
+depends_on:
+  required: [riemann-integral, continuous-function]
+  recommended: [differentiation-under-integral-sign]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: ""
+    title: ""
+    chapter: ""
+    section: "7. Functions of two variables"
+    pages: ""
+    role_in_book: "Theorem 7.2 — justifies interchanging order of integration for continuous functions on rectangles"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

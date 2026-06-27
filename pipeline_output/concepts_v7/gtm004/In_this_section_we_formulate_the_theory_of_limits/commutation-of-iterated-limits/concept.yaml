@@ -1,0 +1,34 @@
+id: commutation-of-iterated-limits
+title_en: Commutation of Iterated Limits
+title_zh: 累次极限的交换性
+type: theorem
+domain: algebra
+subdomain: category-theory
+difficulty: advanced
+tags:
+- iterated-limits
+- commutation
+- bifunctor
+- diagonal-functor
+- adjoint-functor
+- product-category
+depends_on:
+  required:
+  - limit-of-a-functor
+  - universal-property-of-limits
+  recommended:
+  - adjoint-functor
+  - functor-category
+  - product-category
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: VIII
+  section: '5. Limits'
+  pages: ''
+  role_in_book: Theorem 5.1; establishes that limits over a product category can be taken iteratively and commute
+content_hash: ''
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

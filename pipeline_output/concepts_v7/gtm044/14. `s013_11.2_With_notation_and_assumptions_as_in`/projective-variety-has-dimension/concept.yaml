@@ -1,0 +1,23 @@
+id: projective-variety-has-dimension
+title_en: "Projective variety has dimension at each point (Theorem 2.8)"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: basic
+tags: [dimension, projective-variety, existence]
+depends_on:
+  required: [dimension-of-projective-variety]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "IV: Varieties of arbitrary dimension"
+    section: "2"
+    pages: ""
+    role_in_book: "States that every projective variety has a well-defined dimension at each point and a global dimension, following immediately from Definition 2.7."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

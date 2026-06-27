@@ -1,0 +1,23 @@
+id: hom-adjunction-for-modules
+title_en: "Adjoint Isomorphism for Hom and Co-Hom"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [adjunction, hom-functor, tensor-hom-adjunction, natural-isomorphism]
+depends_on:
+  required: [hom-z-module-structure]
+  recommended: [adjoint-functor, representable-functor]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I. Modules"
+    section: "8. Cofree Modules"
+    pages: ""
+    role_in_book: "Proposition 8.1; establishes the adjunction Hom_Λ(A, Hom_Z(Λ, G)) ≅ Hom_Z(A, G)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: topological-direct-sum-via-quotient-isomorphism
+title_en: "Topological Direct Sum via Quotient Isomorphism"
+title_zh: "拓扑直和与商空间同构"
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [topological-direct-sum, quotient-space, bicontinuous-isomorphism, TVS]
+depends_on:
+  required: [topological-direct-sum, canonical-isomorphism-to-quotient]
+  recommended: [quotient-topology, bicontinuous]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "I. Topological Vector Spaces"
+    section: "20. Topologically supplementary subspaces"
+    pages: ""
+    role_in_book: "characterization-theorem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

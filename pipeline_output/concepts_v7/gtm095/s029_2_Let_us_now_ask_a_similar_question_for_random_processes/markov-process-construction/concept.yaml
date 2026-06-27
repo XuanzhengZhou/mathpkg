@@ -1,0 +1,13 @@
+id: markov-process-construction
+title_en: "Markov Process with Given Initial Distribution and Transition Probabilities"
+title_zh: ""
+type: corollary
+domain: probability
+subdomain: markov-processes
+difficulty: advanced
+tags: [markov-process, transition-probability, kolmogorov-chapman, existence-theorem]
+depends_on: {required: [kolmogorov-existence-theorem, kolmogorov-chapman-equation], recommended: [], suggested: []}
+source_books: [{book_id: "gtm095", author: "Shiryaev", title: "Probability-1", chapter: "2", section: "2", pages: "", role_in_book: "Corollary 2: Existence of a Markov process from transition probabilities and initial distribution"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

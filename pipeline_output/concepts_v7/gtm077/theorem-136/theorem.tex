@@ -1,0 +1,43 @@
+(General Quadratic Reciprocity Law) If $P$ and $Q$ are odd rational integers, then
+
+$$\left
+
+Definition. If $a$ is a rational integer $\equiv 0$ or $1$ (mod 4) we set
+
+$$\left( \frac{a}{2} \right) = \left( \frac{a}{-2} \right) = \begin{cases} 0, & \text{if } a \equiv 0 \pmod{4}, \\ +1, & \text{if } a \equiv 1 \pmod{8}, \\ -1, & \text{if } a \equiv 5 \pmod{8}. \end{cases}$$
+
+By Theorem 136, $\left( \frac{a}{2} \right) = \left( \frac{2}{a} \right)$ if the first symbol has a meaning. Moreover for two such numbers $a$ and $a'$ it follows that
+
+$$\left( \frac{a}{2} \right) = \left( \frac{a'}{2} \right) \quad \text{if } a \equiv a' \pmod{8}$$
+
+$$\left( \frac{a \cdot a'}{2} \right) = \left( \frac{a}{2} \right) \cdot \left( \frac{a'}{2} \right).$$
+
+Finally, in general we set
+
+$$\left( \frac{a}{2} \right)^c = \left( \frac{a}{2^c} \right), \quad \left( \frac{a}{mn} \right) = \left( \frac{a}{m} \right) \cdot \left( \frac{a}{n} \right)$$
+
+for arbitrary denominators, if $a \equiv 0$ or $1$ (mod 4). This definition remains in agreement with the stipulation in §44 because each field discriminant is $\equiv 0$ or $1$ (mod 4).
+
+Theorem 137. If $d$ is the discriminant of a quadratic field and $n, m$ are positive integers, then
+
+$$\left( \frac{d}{n} \right) = \left( \frac{d}{m} \right) \quad \text{if } n \equiv m \pmod{d},
+
+Case 2: $a = 0$, thus $d \equiv 1$ (mod 4).
+
+$$\left( \frac{d}{2^b n'} \right) = \left( \frac{d}{2} \right)^b \left( \frac{d}{n'} \right) = \left( \frac{2}{d} \right)^b \left( \frac{n'}{d} \right) = \left( \frac{n}{d} \right),$$
+
+(127)
+
+from which the assertion can be read off immediately.
+
+Now we see from this theorem that the decomposition law for quadratic fields, as it was proved in §29, is indeed formally of a quite different type than that for cyclotomic fields, but on the other hand shows a great similarity relative to content. Theorem 137 shows that if two positive primes belong to the same residue class mod $d$, then they split in exactly the same manner in $k(\sqrt{d})$. Thus $k(\sqrt{d})$ is also a class field which belongs to a classification of the rational numbers mod $d$. For if we consider those numbers $n$ for which $\left( \frac{d}{n} \right)$ has the same nonzero value to be of the same "type," then the positive integers relatively prime to $d$ split into two types. By Theorem 137 all natural numbers congruent to $a$ mod $d$ belong to the same type as $a$. Consequently, one type consists of certain $\frac{1}{2}\varphi(d)$ residue classes mod $d$, which are relatively prime to $d$. If we assume that $a_1, a_2, \ldots, a_m$ ($m = \frac{1}{2}\varphi(d)$) are the numbers which are incongruent mod $d$ which belong to the same type as 1 (all quadratic residues mod $d$ occur among them), then the decomposition law reads:
+
+Let $p$ be a positive prime relatively prime to $d$ and let $f$ be the smallest positive exponent such that $p^f$ is congruent to one of the numbers $a_1, \ldots, a_m$ modulo $d$. Then $p$ splits into $2/f$ distinct prime ideals
+
+which we call the group of norm residues mod $n$ (for the field $k(\sqrt{d})$), and which we denote by $\mathfrak{R}(n)$. In particular, an integer $a$ which is relatively prime to $n$ is called a norm residue mod $n$, if there is an integer $\alpha$ in $k$ such that
+
+$$a \equiv N(\alpha) \pmod{n},$$
+
+otherwise $a$ is called a norm nonresidue mod $n$. (Those $a$ not relatively prime to $n$ thus remain quite outside of consideration in this sense.)
+
+It will now be shown that in general $\mathfrak{R}(p)$ and $\mathfrak{R}(p)$ are identical; these two groups are distinct only if the prime $p$ divides the discriminant $d$.

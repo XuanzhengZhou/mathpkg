@@ -1,0 +1,23 @@
+id: axioms-of-multiplication
+title_en: "Axioms of multiplication for the real numbers"
+title_zh: "实数乘法公理"
+type: axiom
+domain: algebra
+subdomain: field-axioms
+difficulty: basic
+tags: [field, multiplication, real-numbers, associative, commutative, identity, inverse]
+depends_on:
+  required: []
+  recommended: []
+  suggested: [axioms-of-addition, real-numbers]
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "1"
+    section: "2. Real and complex numbers"
+    pages: ""
+    role_in_book: "Foundation: makes R\{0} a multiplicative abelian group"
+content_hash: "m1m2m3m4-multiplication-axioms"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

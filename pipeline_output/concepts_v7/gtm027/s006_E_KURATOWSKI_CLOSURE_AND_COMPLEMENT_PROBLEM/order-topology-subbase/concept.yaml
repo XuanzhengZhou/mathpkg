@@ -1,0 +1,23 @@
+id: order-topology-subbase
+title_en: "Order Topology Subbase"
+title_zh: "序拓扑的子基"
+type: definition
+domain: topology
+subdomain: order-topology
+difficulty: basic
+tags: [order-topology, subbase, linearly-ordered-set]
+depends_on:
+  required: [linearly-ordered-set, subbase]
+  recommended: []
+  suggested: [order-topology-definition]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "I"
+    pages: ""
+    role_in_book: "exercise-problem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

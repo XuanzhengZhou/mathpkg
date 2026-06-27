@@ -1,0 +1,23 @@
+id: collar-restricts-to-submanifold
+title_en: "Collar Restriction to Neat Submanifold"
+title_zh: "领子对整齐子流形的限制"
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [collar, neat-submanifold, boundary, tubular-neighborhood]
+depends_on:
+  required: [collar-of-boundary, neat-submanifold]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "6"
+    pages: "114"
+    role_in_book: "Refinement of collaring theorem for neat submanifolds"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

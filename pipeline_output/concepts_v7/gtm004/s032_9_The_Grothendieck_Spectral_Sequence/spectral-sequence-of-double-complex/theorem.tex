@@ -1,0 +1,27 @@
+Let $(B, \partial', \partial'')$ be a double complex with commutative diagram
+
+$$
+\begin{array}{c}
+B_{r,s} \xrightarrow{d'} B_{r-1,s} \\
+\downarrow d'' \\
+B_{r,s-1} \xrightarrow{d'} B_{r-1,s-1}
+\end{array}
+$$
+
+where $d' = \partial'$ and $d'' = (-1)^r \partial''$ on $B_{r,s}$, with total differential $\partial = \partial' + \partial''$ in $\operatorname{Tot} B$.
+
+For the (first) spectral sequence associated with the filtration
+
+$${}_1 F^p(\operatorname{Tot} B)_q = \bigoplus_{r \leq p} B_{r, q-r},$$
+
+we have
+
+$${}_1 E_0^{p,q} = H_{q-p}(B_{p,*}, \partial'), \qquad {}_1 E_1^{p,q} = H_p(H_{q-p}(B, \partial'), \partial'').$$
+
+For the (second) spectral sequence associated with the filtration
+
+$${}_2 F^p(\operatorname{Tot} B)_q = \bigoplus_{s \leq p} B_{q-s, s},$$
+
+we have
+
+$${}_2 E_0^{p,q} = H_{q-p}(B_{*,p}, \partial''), \qquad {}_2 E_1^{p,q} = H_p(H_{q-p}(B, \partial''), \partial').$$

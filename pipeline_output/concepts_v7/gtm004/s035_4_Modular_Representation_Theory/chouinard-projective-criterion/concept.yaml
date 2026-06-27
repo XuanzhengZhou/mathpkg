@@ -1,0 +1,23 @@
+id: chouinard-projective-criterion
+title_en: "Chouinard's Projectivity Criterion"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: modular-representation-theory
+difficulty: advanced
+tags: [chouinard, projectivity, elementary-abelian-subgroup, detection]
+depends_on:
+  required: [alperin-evens-carlson-complexity, complexity-of-module, projective-module]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "4. Modular Representation Theory"
+    pages: "355-359"
+    role_in_book: "Corollary 4.4 (Chouinard): M is projective iff its restriction to every elementary abelian p-subgroup is projective"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: hilbert-right-invertible
+title_en: "Right invertibility in Hilbert space"
+title_zh: ""
+type: corollary
+domain: analysis
+subdomain: hilbert-spaces
+difficulty: intermediate
+tags: [hilbert-space, right-invertible, surjective, adjoint]
+depends_on:
+  required: [hilbert-space-definition, surjectivity]
+  recommended: [hilbert-left-invertible]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "57"
+    section: "Spectrum in L(E)"
+    pages: ""
+    role_in_book: "T is right-invertible iff T is surjective"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

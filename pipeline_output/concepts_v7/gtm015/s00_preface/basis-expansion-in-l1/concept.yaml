@@ -1,0 +1,23 @@
+id: basis-expansion-in-l1
+title_en: "Basis Expansion in $\ell^1(\mathbb{Z})$"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: basic
+tags: [schauder-basis, l1-space, basis-expansion, unconditional-convergence]
+depends_on:
+  required: [standard-basis-l1, little-l-one-space]
+  recommended: []
+  suggested: [schauder-basis, unconditional-summability]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "0"
+    section: "Apéritif (Wiener's Theorem)"
+    pages: ""
+    role_in_book: "Remark 5; shows that e_n form a Schauder basis and c_{00}(Z) is dense"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

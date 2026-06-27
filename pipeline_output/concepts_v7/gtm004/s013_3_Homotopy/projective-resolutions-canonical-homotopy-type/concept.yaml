@@ -1,0 +1,23 @@
+id: projective-resolutions-canonical-homotopy-type
+title_en: "Projective Resolutions Have the Same Homotopy Type"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [projective-resolution, homotopy-equivalence, canonical-isomorphism, comparison-theorem]
+depends_on:
+  required: [chain-map-lifting-projective-over-acyclic, homotopy-type-and-equivalence, projective-resolution-of-a-module]
+  recommended: [homotopy-category-of-chain-complexes]
+  suggested: [derived-category]
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "4. Projective and Injective Resolutions"
+    pages: "139"
+    role_in_book: "Proposition 4.3. Justifies that derived functors are independent of the choice of resolution."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

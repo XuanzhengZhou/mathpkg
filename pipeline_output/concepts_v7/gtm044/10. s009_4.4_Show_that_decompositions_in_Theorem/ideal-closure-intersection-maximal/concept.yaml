@@ -1,0 +1,25 @@
+id: ideal-closure-intersection-maximal
+title_en: "Ideal Closure as Intersection of Maximal Ideals"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [ideal-closure, maximal-ideal, intersection, nullstellensatz, radical]
+depends_on:
+  required: [maximal-ideal, ideal-closure-radical]
+  recommended: [points-maximal-ideals-correspondence]
+  suggested: []
+
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Characterizes the closure of an ideal as the intersection of all maximal ideals containing it"
+
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

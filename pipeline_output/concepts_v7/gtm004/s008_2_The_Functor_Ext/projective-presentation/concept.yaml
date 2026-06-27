@@ -1,0 +1,23 @@
+id: projective-presentation
+title_en: "Projective Presentation of a Module"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [projective-module, exact-sequence, presentation]
+depends_on:
+  required: [projective-module, exact-sequence]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "2. The Functor Ext"
+    pages: ""
+    role_in_book: "Defines the projective presentation as a foundational input for the Ext functor"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

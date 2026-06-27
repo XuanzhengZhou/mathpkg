@@ -1,0 +1,23 @@
+id: cohomology-and-homology-of-groups
+title_en: "Cohomology and Homology Groups of a Group"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: ["group-cohomology", "group-homology", "derived-functors", "Ext", "Tor"]
+depends_on:
+  required: ["g-module", "derived-functor"]
+  recommended: ["ext-functor", "tor-functor", "projective-resolution"]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VI"
+    section: "2"
+    pages: ""
+    role_in_book: "Core definition of the entire chapter"
+content_hash: "5ebcc5f4f390"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

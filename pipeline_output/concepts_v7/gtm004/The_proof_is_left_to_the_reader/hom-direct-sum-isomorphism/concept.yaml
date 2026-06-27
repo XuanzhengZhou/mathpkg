@@ -1,0 +1,17 @@
+id: hom-direct-sum-isomorphism
+title_en: "Isomorphism between Hom of Direct Sum and Product of Homs"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [hom-functor, direct-sum, direct-product, universal-property, adjunction]
+depends_on:
+  required: []
+  recommended: [direct-sum-of-modules, hom-functor, direct-product-of-modules]
+  suggested: []
+source_books:
+  - {book_id: "gtm004", author: "P.J. Hilton and U. Stammbach", title: "A Course in Homological Algebra", chapter: "I. Modules", section: "3. Sums and Products", pages: "", role_in_book: "Foundational isomorphism linking Hom and direct sum; essential for the Hom-tensor adjunction and derived functor computations."}
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

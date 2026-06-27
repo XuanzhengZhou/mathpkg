@@ -1,0 +1,23 @@
+id: augmentation-ideal-mod-square-isomorphic-to-abelianization
+title_en: "Lemma 4.1: $IG/(IG)^2 \cong G_{\text{ab}}$"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: ["augmentation-ideal", "abelianization", "group-homology", "commutator-subgroup"]
+depends_on:
+  required: ["augmentation-ideal"]
+  recommended: ["abelianization", "commutator-subgroup"]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VI"
+    section: "4"
+    pages: ""
+    role_in_book: "Key isomorphism linking the augmentation ideal to the abelianization of G"
+content_hash: "5aba3d35ed2d"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,25 @@
+id: prime-ideal-closed
+title_en: "Every Prime Ideal is Closed"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: algebraic-geometry
+difficulty: basic
+tags: [prime-ideal, closed-ideal, nullstellensatz, polynomial-ring]
+depends_on:
+  required: [prime-ideal, ideal-closure-radical, nullstellensatz-strong]
+  recommended: [ideal-closure-intersection-maximal]
+  suggested: []
+
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "5"
+    section: "5.1"
+    pages: ""
+    role_in_book: "Key corollary; primes are closed, used to prove Theorem 4.9"
+
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

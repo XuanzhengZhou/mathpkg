@@ -1,0 +1,23 @@
+id: probability-measure-from-distribution-function
+title_en: "Existence and uniqueness of a probability measure from a distribution function"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: measure-theory
+difficulty: advanced
+tags: [distribution-function, probability-measure, existence, uniqueness, caratheodory, real-line]
+depends_on:
+  required: [distribution-function-on-real-line, caratheodory-extension-theorem]
+  recommended: [sigma-algebra, algebra-of-sets]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "Shiryaev, A.N."
+    title: "Probability-1"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Theorem 1. Establishes the one-to-one correspondence between distribution functions and probability measures"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

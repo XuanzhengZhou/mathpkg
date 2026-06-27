@@ -1,0 +1,13 @@
+id: adjoint-determines-adjoint
+title_en: "Left Adjoint Determines Right Adjoint up to Natural Equivalence"
+title_zh: ""
+type: proposition
+domain: foundations
+subdomain: category-theory
+difficulty: intermediate
+tags: [adjoint-functor, uniqueness, natural-equivalence]
+depends_on: {required: [adjoint-functors, natural-equivalence], recommended: [], suggested: []}
+source_books: [{book_id: "gtm004", author: "Peter J. Hilton, Urs Stammbach", title: "A Course in Homological Algebra (2ed, 1997)", chapter: "II. Categories and Functors", section: "7. Adjoint Functors", pages: "", role_in_book: "Proposition 7.3: If $F \dashv G$, then $F$ determines $G$ up to natural equivalence"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,15 @@
+Let $\mathfrak{C}$ be an arbitrary category and $I$ a small connected index category. Let $P : \mathfrak{C} \rightarrow \mathfrak{C}^I$ be the diagonal (constant) functor, and suppose $P$ has a right adjoint $R : \mathfrak{C}^I \rightarrow \mathfrak{C}$ with $RP = 1_{\mathfrak{C}}$ and counit $\delta : PR \rightarrow 1_{\mathfrak{C}^I}$ satisfying $\delta P = 1$, $R\delta = 1$. Then for any functor $F : I \rightarrow \mathfrak{C}$, the \textbf{limit} of $F$ is defined by
+$$
+\lim F = R(F),
+$$
+and $\delta$ yields the morphisms $\delta_i : R(F) \rightarrow F(i)$ completing the description of the limit.
+
+The universal property of $\lim F$ is as follows: Let morphisms $\varphi_i : X \rightarrow F(i)$, $i \in I$, be given such that for all $\alpha : i \rightarrow j$ in $I$, the diagram
+$$
+\begin{CD}
+X @>{\varphi_i}>> F(i) \\
+@| @VV{F(\alpha)}V \\
+X @>>{\varphi_j}> F(j)
+\end{CD}
+$$
+is commutative. Then there exists a unique morphism $\varphi : X \rightarrow \lim F$ such that $\delta_i \varphi = \varphi_i$ for all $i \in I$.

@@ -1,0 +1,23 @@
+id: metric-completion-theorem
+title_en: "Metric Completion Theorem"
+title_zh: "度量空间的完备化定理"
+type: theorem
+domain: topology
+subdomain: uniform-spaces
+difficulty: intermediate
+tags: [completion, metric-space, pseudo-metric, isometry, cauchy-sequence]
+depends_on:
+  required: [metric-space, cauchy-sequence, isometry]
+  recommended: [complete-metric-space, dense-subset]
+  suggested: [extension-of-uniformly-continuous-function]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Completeness"
+    pages: ""
+    role_in_book: "Theorem 27: every (pseudo-)metric space has a completion"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

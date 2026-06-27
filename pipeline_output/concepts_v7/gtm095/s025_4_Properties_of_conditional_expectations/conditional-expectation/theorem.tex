@@ -1,0 +1,143 @@
+$$\int_{\{\omega : \eta \in B\}} \xi dP = \int_B m(y) P_\eta(dy), \quad B \in \mathcal{B}(\overline{R}).$$ (14)
+
+That such a function exists follows again from the Radon–Nikodym theorem if we observe that the set function
+
+$$Q(B) = \int_{\{\omega : \eta \in B\}} \xi dP$$
+
+is a signed measure absolutely continuous with respect to the measure $P_\eta$
+
+From an intuitive point of view, the conditional expectation $E(\xi \mid \eta = y)$ is simpler and more natural than $E(\xi \mid \eta)$. However, $E(\xi \mid \eta)$, considered as a $G_{\eta}$-measurable random variable, is more convenient to work with.
+
+Observe that Properties $A^*$–$K^*$ above and the conclusions of Theorem 2 can easily be transferred to $E(\xi \mid \eta = y)$ (replacing “almost surely” by “$P_{\eta}$-almost surely”). Thus, for example, Property $K^*$ transforms as follows: if $E|\xi| < \infty$ and $E|\xi f(\eta)| < \infty$, where $f = f(y)$ is a $B(\bar{R})$ measurable function, then
+
+$$E(\xi f(\eta) \mid \eta = y) = f(y) E(\xi \mid \eta = y) \quad (P_{\eta}-\text{a.s.}).$$
+
+In addition (cf. Property $J^*$), if $\xi$ and $\eta$ are independent, then
+
+$$E(\xi \mid \eta = y) = E\xi \quad (P_{\eta}-\text{a.s.}).$$
+
+We also observe that if $B \in B(R^2)$ and $\xi$ and $\eta$ are independent, then
+
+$$E[I_B(\xi, \eta) \mid \eta = y] = EI_B(\xi, y) \quad (P_{\eta}-\text{a.s.}),$$
+
+and if $\varphi = \varphi(x, y)$ is a $B(R^2)$-measurable function such that $E|\varphi(\xi, \eta)| < \infty$, then
+
+$$E[\varphi(\xi, \eta) \mid \eta = y] = E[\varphi(\xi, y)] \quad (P_{\eta}-\text{a.s.}).$$
+
+To prove (16) we make the following observation. If $B = B_1 \times B_2$, the validity of (16) will follow from
+
+$$\int_{\{\omega : \eta \in A\}} I_{B_1 \times B_2}(\
+
+For $y \notin \{y_1, y_2, \ldots\}$ the conditional probability $P(A \mid \eta = y)$ can be defined in any way, for example as zero.
+
+If $\xi$ is a random variable for which $E \xi$ exists, then
+
+$$E(\xi \mid \eta = y_k) = \frac{1}{P(\eta = y_k)} \int_{\{\omega : \eta = y_k\}} \xi dP.$$
+
+When $y \notin \{y_1, y_2, \ldots\}$ the conditional expectation $E(\xi \mid \eta = y)$ can be defined in any way (for example, as zero).
+
+Example 2. Let $(\xi, \eta)$ be a pair of random variables whose distribution has a density $f_{\xi, \eta}(x, y)$:
+
+$$P\{(\xi, \eta) \in B\} = \int_B f_{\xi, \eta}(x, y) \, dx \, dy, \quad B \in \mathcal{B}(R^2).$$
+
+Let $f_{\xi}(x)$ and $f_{\eta}(y)$ be the densities of the probability distributions of $\xi$ and $\eta$ (see (46), (55), and (56) in Sect. 6).
+
+Let us put
+
+$$f_{\xi \mid \eta}(x \mid y) = \frac{f_{\xi, \eta}(x, y)}{f_{\eta}(y)},$$
+
+(18)
+
+taking $f_{\xi \mid \eta}(x \mid y) = 0$ if $f_{\eta}(y) = 0$.
+
+Then
+
+$$P(\xi \in C \mid \eta = y) = \int_C f_{\xi \mid \eta}(x \mid y) \, dx, \quad C \in \mathcal{B}(R),$$
+
+(19)
+
+i.e., $f_{\xi \mid \eta}(x \mid y)$ is the density of a conditional probability distribution.
+
+In fact, to prove (19) it is enough to verify (17) for $B \in \mathcal{B}(R)$, $A = \{\xi \in C\}$. By (
+
+In a similar way we can show that if $E \xi$ exists, then
+
+$$E(\xi \mid \eta = y) = \int_{-\infty}^{\infty} xf_{\xi \mid \eta}(x \mid y) \, dx.$$  
+
+(20)
+
+Example 3. Let the length of time that a piece of apparatus will continue to operate be described by a nonnegative random variable $\eta = \eta(\omega)$ whose distribution function $F_{\eta}(y)$ has a density $f_{\eta}(y)$ (naturally, $F_{\eta}(y) = f_{\eta}(y) = 0$ for $y < 0$). Find the conditional expectation $E(\eta - a \mid \eta \geq a)$, i.e., the average time for which the apparatus will continue to operate given that it has already been operating for time $a$.
+
+Let $P(\eta \geq a) > 0$. Then according to the definition of conditional probability given in Subsection 1 and (45) of Sect. 6 we have
+
+$$E(\eta - a \mid \eta \geq a) = \frac{E[(\eta - a)I_{\{\eta \geq a\}}]}{P(\eta \geq a)} = \frac{\int_{\Omega}(\eta - a)I_{\{\eta \geq a\}} P(d\omega)}{P(\eta \geq a)}$$
+
+$$= \frac{\int_{a}^{\infty}(y - a)f_{\eta}(y) \, dy}{\int_{a}^{\infty}f_{\eta}(y) \, dy}.$$
+
+It is interesting to observe that if $\eta$ is exponentially distributed, i.e.
+
+$$f_{\eta}(y) = \begin{cases} \lambda e^{-\lambda y}, & y \geq 0, \\ 0, & y < 0, \end{cases}$$
+
+(21)
+
+then $E \eta = E(\eta \mid \eta \geq 0) = 1/\lambda$ and $E(\eta - a \mid \eta \geq a) = 1/\lambda$ for every $a > 0$. In other words, in this case the average time for which the apparatus continues to operate, assuming that
+
+Example 4 (Buffon’s Needle). Suppose that we toss a needle of unit length “at random” onto a pair of parallel straight lines, a unit distance apart, in a plane (see Fig. 29). What is the probability that the needle will intersect at least one of the lines?
+
+To solve this problem we must first define what it means to toss the needle “at random.” Let $\xi$ be the distance from the midpoint of the needle to the left-hand line. We shall suppose that $\xi$ is uniformly distributed on $[0, 1]$, and (see Fig. 29) that the angle $\theta$ is uniformly distributed on $[-\pi/2, \pi/2]$. In addition, we shall assume that $\xi$ and $\theta$ are independent.
+
+Fig. 29
+
+Let $A$ be the event that the needle intersects one of the lines. It is easy to see that if
+
+$$B = \{(a, x) : |a| \leq \pi/2, x \in [0, \frac{1}{2} \cos a] \cup [1 - \frac{1}{2} \cos a, 1]\},$$
+
+then $A = \{\omega : (\theta, \xi) \in B\}$, and therefore the probability in question is
+
+$$P(A) = E I_A(\omega) = E I_B(\theta(\omega), \xi(\omega)).$$
+
+By Property $G^*$ and formula (16),
+
+$$E I_B(\theta(\omega), \xi(\omega)) = E(E[I_B(\theta(\omega), \xi(\omega)) | \theta(\omega)])$$
+
+$$= \int_{\Omega} E[I_B(\theta(\omega), \xi(\omega)) | \theta(\omega)] P(d\omega)$$
+
+$$= \int_{-\pi/2}^{\pi/2} E[I_B(\theta(\omega), \xi(\omega)) | \theta(\omega) = a] P_{\theta}(da)$$
+
+$$= \frac{1}{\pi} \int_{-\pi/2}^{\pi/2} E I_B(a, \xi(\omega)) da = \frac{1}{\pi} \int_{-\pi/2}^{\pi/2} \cos a da = \frac
+
+Thus the probability that a “random” toss of the needle intersects one of the lines is $2/\pi$. This result can be used as the basis for an experimental evaluation of $\pi$. In fact, let the needle be tossed $N$ times independently. Define $\xi_i$ to be 1 if the needle intersects a line on the $i$th toss, and 0 otherwise. Then by the law of large numbers (see, for example, (5) in Sect. 5 of Chap. 1)
+
+$$P\left\{\left|\frac{\xi_1 + \cdots + \xi_N}{N} - P(A)\right| > \varepsilon\right\} \to 0, \quad N \to \infty,$$
+
+for every $\varepsilon > 0$.
+
+In this sense the frequency satisfies
+
+$$\frac{\xi_1 + \cdots + \xi_N}{N} \approx P(A) = \frac{2}{\pi}$$
+
+and therefore
+
+$$\frac{2N}{\xi_1 + \cdots + \xi_N} \approx \pi.$$
+
+This formula has actually been used for a statistical evaluation of $\pi$. In 1850, R. Wolf (an astronomer in Zurich) threw a needle 5000 times and obtained the value 3.1596 for $\pi$. Apparently this problem was one of the first applications (now known as “Monte Carlo methods”) of probabilistic-statistical regularities to numerical analysis.
+
+Remark 6. Example 4 (Buffon’s problem) is a typical example of a problem on geometric probabilities. In such problems one often can see how to assign probabilities to “elementary events” from geometric considerations based, for example, on a “symmetry.” (Cf. Subsections 3 and 4 in Sect. 1 of Chap. 1 and Sect. 3 of the present Chapter.) Problems 9 to 12 below deal with geometric probabilities.
+
+7. If $\{\xi_n\}_{n \geq 1}$ is a sequence of nonnegative random variables, then according to conclusion (f) of Theorem 2,
+
+$$E\left(\sum \xi_n | \mathcal{G}\right) = \sum E(\xi_n |
+
+$$\mathcal{N} = \bigcup \mathcal{N}(B_1, B_2, \ldots),$$
+
+(23)
+
+where the union is taken over all $B_1, B_2, \ldots$ in $\mathcal{F}$. Although the $P$-measure of each set $\mathcal{N}(B_1, B_2, \ldots)$ is zero, the $P$-measure of $\mathcal{N}$ can be different from zero (because of an uncountable union in (23)). (Recall that the Lebesgue measure of a single point is zero, but the measure of the set $\mathcal{N} = [0, 1]$ which is an uncountable sum of the individual points $\{x\}, 0 \leq x < 1$, is 1.)
+
+However, it would be convenient if the conditional probability $P(\cdot | \mathcal{G})(\omega)$ were a measure for each $\omega \in \Omega$, since then, for example, the calculation of conditional expectations $E(\xi | \mathcal{G})(\omega)$ could be carried out (see Theorem 3 below) in a simple way by averaging with respect to the measure $P(\cdot | \mathcal{G})(\omega)$:
+
+$$E(\xi | \mathcal{G}) = \int_{\Omega} \xi(\tilde{\omega}) P(d\tilde{\omega} | \mathcal{G})(\omega) \quad \text{(a. s.)}$$
+
+(cf. (10) in Sect. 8 of Chap. 1).
+
+We introduce the following definition.

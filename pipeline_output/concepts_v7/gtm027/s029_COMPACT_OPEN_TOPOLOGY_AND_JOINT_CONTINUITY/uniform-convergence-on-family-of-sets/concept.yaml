@@ -1,0 +1,23 @@
+id: uniform-convergence-on-family-of-sets
+title_en: "Uniform Convergence on Members of a Family of Sets"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: uniform-spaces
+difficulty: intermediate
+tags: [uniform-convergence, function-spaces, compact-convergence]
+depends_on:
+  required: [uniform-convergence-uniformity, family-of-sets]
+  recommended: [compact-set]
+  suggested: [compact-open-topology]
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Uniform Convergence"
+    pages: ""
+    role_in_book: "Defines the uniformity of uniform convergence on members of a family of subsets, interpolating between pointwise and uniform convergence"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

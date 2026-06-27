@@ -1,0 +1,13 @@
+Let $\mathfrak{C}$ and $\mathfrak{D}$ be categories. A \textbf{covariant functor} $F: \mathfrak{C} \to \mathfrak{D}$ assigns:
+
+\begin{enumerate}
+\item to each object $X$ of $\mathfrak{C}$ an object $FX$ of $\mathfrak{D}$;
+\item to each morphism $f: X \to Y$ in $\mathfrak{C}$ a morphism $Ff: FX \to FY$ in $\mathfrak{D}$;
+\end{enumerate}
+
+such that
+\begin{align}
+F(1_X) &= 1_{FX}, \\
+F(gf) &= F(g) F(f),
+\end{align}
+whenever $gf$ is defined in $\mathfrak{C}$.

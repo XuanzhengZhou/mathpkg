@@ -1,0 +1,23 @@
+id: compact-regular-even-cover
+title_en: "Every Open Cover of a Compact Regular Space is Even"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: compactness
+difficulty: intermediate
+tags: [compact, regular, even-cover, uniform]
+depends_on:
+  required: [compact-space, regular-space, even-cover]
+  recommended: [lebesgue-covering-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "Lebesgue's Covering Lemma"
+    pages: ""
+    role_in_book: "Theorem 27: Compact regular spaces have the even cover property"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

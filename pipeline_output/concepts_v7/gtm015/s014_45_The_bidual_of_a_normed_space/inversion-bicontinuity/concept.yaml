@@ -1,0 +1,23 @@
+id: inversion-bicontinuity
+title_en: "Inversion is bicontinuous in a Banach algebra"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: banach-algebras
+difficulty: intermediate
+tags: [banach-algebra, inversion, bicontinuous, topological-group]
+depends_on:
+  required: [banach-algebra-definition, invertible-group-is-open]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "50"
+    section: "Invertibility in a Banach algebra with unity"
+    pages: ""
+    role_in_book: "The mapping x -> x^{-1} on invertible elements is bicontinuous"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

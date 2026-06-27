@@ -1,0 +1,1 @@
+The Cauchy criterion characterizes convergence purely in terms of the sequence itself, without reference to a limit. A sequence is Cauchy if its terms eventually become arbitrarily close to each other. In $\mathbb{R}$ and $\mathbb{C}$, every Cauchy sequence converges — these spaces are complete. This theorem is fundamental to analysis.

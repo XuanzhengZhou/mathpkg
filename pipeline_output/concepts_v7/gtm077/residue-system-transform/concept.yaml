@@ -1,0 +1,13 @@
+id: residue-system-transform
+title_en: "Transformation of Residue Systems (Theorem 7)"
+title_zh: ""
+type: theorem
+domain: number-theory
+subdomain: elementary-number-theory
+difficulty: basic
+tags: [residue-system, affine-transformation, coprime]
+depends_on: {required: [complete-residue-system, congruence-cancellation], recommended: [], suggested: []}
+source_books: [{book_id: "gtm077", author: "Erich Hecke", title: "Lectures on the Theory of Algebraic Numbers", chapter: "I", section: "2", pages: "", role_in_book: "Shows how affine maps preserve complete residue systems when the multiplier is coprime to the modulus"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

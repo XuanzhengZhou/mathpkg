@@ -1,0 +1,24 @@
+A \textbf{vector bundle chart} on $(p, E, B)$ is a pair $(\varphi, U)$ where $U \subset B$ is open and $\varphi$ is a homeomorphism
+$$\varphi: p^{-1}(U) \to U \times \mathbb{R}^n$$
+such that the diagram
+\[
+\begin{CD}
+p^{-1}(U) @>{\varphi}>> U \times \mathbb{R}^n \\
+@V{p}VV @VV{\pi_1}V \\
+U @= U
+\end{CD}
+\]
+commutes, where $\pi_1(x, y) = x$. For each $x \in U$, the homeomorphism $\varphi_x$ is the composition
+$$\varphi_x: p^{-1}(x) \xrightarrow{\varphi} x \times \mathbb{R}^n \to \mathbb{R}^n.$$
+
+A \textbf{vector bundle atlas} $\Phi$ on $(p, E, B)$ is a family of vector bundle charts with values in the same $\mathbb{R}^n$, whose domains cover $B$, such that whenever $(\varphi, U)$ and $(\psi, V)$ are in $\Phi$ and $x \in U \cap V$, the homeomorphism
+$$\psi_x \varphi_x^{-1}: \mathbb{R}^n \to \mathbb{R}^n$$
+is linear. The map
+$$U \cap V \to GL(n), \quad x \mapsto \psi_x \varphi_x^{-1}$$
+is required to be continuous; it is called the \textbf{transition function} of the pair of charts. If $\Phi = \{\varphi_i, U_i\}_{i \in A}$, the family $\{g_{ij}\}$ of transition functions
+$$g_{ij}: U_i \cap U_j \to GL(n)$$
+satisfies the \textbf{cocycle identities}:
+$$g_{ij}(x)g_{jk}(x) = g_{ik}(x) \quad (x \in U_i \cap U_j \cap U_k),$$
+$$g_{ii}(x) = 1 \in GL(n).$$
+
+A \textbf{maximal} vector bundle atlas $\Phi$ is a \textbf{vector bundle} having fibre dimension $n$, projection $p$, total space $E$, and base space $B$. Denoted by $\xi = (p, E, B, \Phi)$. Often we write $E = E\xi$, $B = B\xi$.

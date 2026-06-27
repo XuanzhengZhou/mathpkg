@@ -1,0 +1,9 @@
+If $\xi_1, \xi_2, \ldots, \xi_n$ are independent random variables and $S_n = \xi_1 + \cdots + \xi_n$, then the characteristic function of the sum factorizes as the product of the characteristic functions of the summands:
+
+$$\varphi_{S_n}(t) = \prod_{j=1}^{n} \varphi_{\xi_j}(t).$$
+
+This follows from the independence and the fact that the expectation of a product of independent bounded (real or complex) random variables equals the product of their expectations:
+
+$$\varphi_{S_n}(t) = \mathsf{E}\, e^{it(\xi_1 + \cdots + \xi_n)} = \mathsf{E}\!\left[e^{it\xi_1} \cdots e^{it\xi_n}\right] = \mathsf{E}\, e^{it\xi_1} \cdots \mathsf{E}\, e^{it\xi_n}.$$
+
+In contrast, the distribution function of the sum is the convolution $F_{S_n} = F_{\xi_1} \ast \cdots \ast F_{\xi_n}$, which is a much more complicated operation.

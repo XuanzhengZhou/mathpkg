@@ -1,0 +1,23 @@
+id: line-in-neighborhood-small-measure
+title_en: "Line Through Origin Contained in Every Neighborhood"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: measure-theory
+difficulty: advanced
+tags: [pathology, F-space, non-locally-convex, measure-theory]
+depends_on:
+  required: [measurable-quotient-is-metrizable-complete-tvs]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "Chapter 2 – Topological Vector Spaces"
+    section: "15. The space (S)"
+    pages: ""
+    role_in_book: "Reveals pathological behavior when the measure assumes arbitrarily small positive values."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: hoeffding-inequality-bernoulli
+title_en: "Hoeffding Inequality for the Bernoulli Scheme"
+title_zh: "伯努利试验的霍夫丁不等式"
+type: theorem
+domain: probability
+subdomain: concentration-inequalities
+difficulty: intermediate
+tags: [hoeffding-inequality, bernoulli, concentration, exponential-bound]
+depends_on:
+  required: [exponential-chebyshev-inequality]
+  recommended: [binary-relative-entropy, cramer-chernoff-bound-bernoulli]
+  suggested: [law-of-large-numbers]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "6"
+    pages: "86"
+    role_in_book: "core"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

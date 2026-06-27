@@ -1,0 +1,9 @@
+A random variable $\xi$ has a symmetric distribution (i.e., $\mathsf{P}(\xi \leq x) = \mathsf{P}(\xi \geq -x)$ for all $x \in \mathbb{R}$) if and only if its characteristic function $\varphi_\xi(t)$ is real-valued for all $t \in \mathbb{R}$. In that case,
+
+$$\varphi(t) = \mathsf{E}[\cos t\xi] = \int_{-\infty}^{\infty} \cos(tx) \, dF(x),$$
+
+and the imaginary part vanishes identically:
+
+$$\int_{-\infty}^{\infty} \sin(tx) \, dF(x) = 0.$$
+
+The forward direction follows because $\sin(tx)$ is odd, so its integral against a symmetric distribution is zero. Conversely, if $\varphi(t)$ is real, then $\varphi(-t) = \overline{\varphi(t)} = \varphi(t)$, which by uniqueness implies the distribution of $\xi$ equals that of $-\xi$, i.e., the distribution is symmetric.

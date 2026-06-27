@@ -1,0 +1,23 @@
+id: subcomplex-of-cw-complex
+title_en: "Subcomplex of a CW-Complex"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: algebraic-topology
+difficulty: intermediate
+tags: [cw-complex, subcomplex, cw-pair, relative-homotopy]
+depends_on:
+  required: [cw-complex]
+  recommended: [cw-pair]
+  suggested: [relative-homology, cofibration]
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "6"
+    section: "6.4"
+    pages: ""
+    role_in_book: "Defines the notion of subobject in the category of CW-complexes"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

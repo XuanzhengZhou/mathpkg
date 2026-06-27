@@ -1,0 +1,23 @@
+id: injective-iff-divisible-over-pid
+title_en: "Injective Module over a PID if and only if Divisible"
+title_zh: "主理想整环上模的内射性等价于可除性"
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [module-theory, injective-module, divisible-module, principal-ideal-domain, pid]
+depends_on:
+  required: [injective-module, divisible-module, principal-ideal-domain]
+  recommended: [zorns-lemma, baers-criterion]
+  suggested: [projective-module, free-module]
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "I"
+    section: "7. Injective Modules over a Principal Ideal Domain"
+    pages: ""
+    role_in_book: "Theorem 7.1 — the main structural result characterizing injective modules over PIDs"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

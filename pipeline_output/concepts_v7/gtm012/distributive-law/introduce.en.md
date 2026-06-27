@@ -1,0 +1,1 @@
+The distributive law connects addition and multiplication in $\mathbb{R}$. It is the final field axiom needed to make $\mathbb{R}$ a complete ordered field. Together with A2, it also implies $(x + y)z = xz + yz$.

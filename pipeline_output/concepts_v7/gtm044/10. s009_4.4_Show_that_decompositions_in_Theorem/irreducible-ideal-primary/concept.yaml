@@ -1,0 +1,25 @@
+id: irreducible-ideal-primary
+title_en: "Irreducible Ideals are Primary in Noetherian Rings"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: commutative-algebra
+difficulty: intermediate
+tags: [irreducible-ideal, primary-ideal, noetherian-ring, ideal-quotient]
+depends_on:
+  required: [irreducible-ideal, primary-ideal-definition, noetherian-ring]
+  recommended: [ideal-quotient-definition]
+  suggested: []
+
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "4"
+    section: "4.5"
+    pages: ""
+    role_in_book: "Key structural result: in Noetherian rings, irreducible ideals are primary"
+
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

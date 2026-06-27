@@ -1,0 +1,23 @@
+id: probabilistic-statistical-model-bernoulli
+title_en: "Probabilistic-Statistical Model (Bernoulli Scheme)"
+title_zh: "概率统计模型（伯努利试验）"
+type: definition
+domain: probability
+subdomain: statistical-modeling
+difficulty: basic
+tags: [statistical-model, bernoulli, parameter-space, sample-space]
+depends_on:
+  required: []
+  recommended: [bernoulli-scheme, probability-space]
+  suggested: [estimator]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "1"
+    section: "7"
+    pages: "88"
+    role_in_book: "core"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

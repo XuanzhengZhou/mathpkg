@@ -1,0 +1,23 @@
+id: properties-of-convolution
+title_en: "Proposition 3.1: Algebraic Properties of Convolution on the Circle"
+title_zh: ""
+type: proposition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: basic
+tags: [convolution, commutativity, associativity, bilinearity, translation]
+depends_on:
+  required: [convolution-on-circle]
+  recommended: [translation-operator]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "3"
+    section: "3. Translation, convolution, and approximation"
+    pages: ""
+    role_in_book: "Establishes that convolution is a commutative, associative, bilinear operation commuting with translations"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

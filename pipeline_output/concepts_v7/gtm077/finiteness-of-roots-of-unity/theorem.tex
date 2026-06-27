@@ -1,0 +1,81 @@
+The group $\mathfrak{W}$ of all roots of unity in $K$ is finite, and indeed it is a cyclic group of order $w \geq 2$.
+
+Since all roots of unity, including all conjugates, have absolute value 1, the first assertion follows from the lemma. Moreover if $p$ is a prime dividing the order of $\mathfrak{W}$, then the number of solutions of $x^p = 1$ is equal to $p^1$, and thus, by Theorem 28, the basis number of the group $\mathfrak{W}$ belonging to $p$ is equal to 1. Thus the group is cyclic.
+
+For further investigations we introduce a definite numbering of the conjugate fields $K^{(p)}$. Let $\theta$ be a number generating the field $K$ and suppose that among the conjugates $\theta^{(1)}, \theta^{(2)}, \ldots, \theta^{(r_1)}$ are real, and the remaining $2r_2$ of the $\theta^{(p)}$ are nonreal.
+
+Thus this means:
+
+There are $r + 1$ units $\zeta, \eta_1, \eta_2, \ldots, \eta_r$, where $\zeta$ is a wth root of unity, such that each unit of the field is obtained exactly once in the form
+
+$$\varepsilon = \zeta^a \eta_1^{a_1} \cdots \eta_r^{a_r},$$
+
+where $a_1, \ldots, a_r$ are all rational integers and $a$ can only take the values 0, 1, 2, $\ldots, w - 1$. The $r$ units $\eta_1, \ldots, \eta_r$ are called fundamental units of the field.
+
+As preparation for the proof, which we will treat in this and the next section, we recall that $k$ units $\varepsilon_1, \ldots, \varepsilon_k$ of infinite order (that is, those which do not belong to $\mathfrak{W}$) are said to be independent in the sense of group theory, if a relation
+
+$$\varepsilon_1^{a_1} \varepsilon_2^{a_2} \cdots \varepsilon_k^{a_k} = 1$$
+
+with rational integers $a$ only exists if all $a_1 = \cdots = a_n = 0$. However, along with the one relation (55) the analogous ones always hold for all conjugates and hence
+
+$$|\varepsilon_1^{(i)}|^{a_1} |\varepsilon_2^{(i)}|^{a_2} \cdots |\varepsilon_k^{(i)}|^{a_k} = 1 \quad (i = 1, 2, \ldots, n)$$
+
+or
+
+$$\sum_{m=1}^{k} a_m \log|\varepsilon_m^{(i)}| = 0.$$
+
+(Here we mean the real values of the logarithms). Conversely, by Lemma (a), it follows immediately from the fact that relations (56) hold with rational integers $a$ for all $i = 1, 2, \ldots, n$, that $\varepsilon_1, \ldots, \varepsilon_k$ cannot be independent since then the number
+
+only if the $r$ linear homogeneous equations for the $k$ unknowns $\gamma_1, \ldots, \gamma_k$
+
+$$\sum_{m=1}^{k} \gamma_m \log|\varepsilon_m^{(i)}| = 0 \quad (i=1, 2, \ldots, r)$$
+
+have no solutions in rational integers $\gamma$ except $\gamma_m = 0$.
+
+Next we obtain an upper bound for the number $k$ of independent units by the following
+
+**Lemma (b).** If the $r$ relations (58) hold for the $k$ units $\varepsilon_1, \varepsilon_2, \ldots, \varepsilon_k$ with some real $\gamma_m$, which are not all zero, then $r$ such relations also hold with rational integers $\gamma_m$, which are not all zero.
+
+Obviously it is enough to prove this for those units which are not roots of unity. Suppose we choose a number $q$ such that the $r$ equations among the units $\varepsilon_1, \varepsilon_2, \ldots, \varepsilon_{q-1}$
+
+$$\sum_{m=1}^{q-1} \alpha_m \log|\varepsilon_m^{(i)}| = 0 \quad (i=1, \ldots, r)$$
+
+hold only for $\alpha_1 = \cdots = \alpha_{q-1} = 0$ and on the other such that between the $q$ units such a system
+
+$$\sum_{m=1}^{q} \beta_m \log|\varepsilon_m^{(i)}| = 0 \quad (i=1, 2, \ldots, r)$$
+
+holds with real $\beta_1, \ldots, \beta_q$ not all vanishing. Thus $2 \leq q \leq k$, and by the assumption about $q$ we necessarily have $\beta_q \neq 0$ and the $q-1$ quotients $\beta_1/\beta_q, \ldots, \beta_{q-1}/\beta_q$ in (59) are uniquely determined. Lemma (b) will be proved once we show that these $q-1$ quotients $\beta_m/\beta_q$ ($m=1, 2, \
+
+all have absolute value $< 1$, since for the corresponding $\eta$ we have
+
+$$\left| \log |\eta^{(i)}| \right| \leq \sum_{m=1}^{q-1} \left| \log |\varepsilon_m^{(i)}| \right| \quad (i=1,2,\ldots,n)$$
+
+and by Lemma (a) there can only be finitely many integers of the field with this property. Let $H$ be the number of distinct systems $\rho$ with $|\rho_i| \leq 1$. On the other hand, the set of all systems $(\rho_1, \ldots, \rho_{q-1})$ appearing in (61) has the property that along with $(\rho_1, \ldots, \rho_{q-1})$ the system
+
+$$(N\rho_1 - n_1, N\rho_2 - n_2, \ldots, N\rho_{q-1} - n_{q-1}),$$
+
+where $N, n_1, n_2, \ldots, n_{q-1}$ are arbitrary rational integers, also occurs in this set. Now for each $N$ the $n_1, \ldots, n_{q-1}$ can be chosen so that for all numbers $|N\rho_i - n_i| \leq \frac{1}{2}$ and for different values of $N$, if $\rho_1$ is irrational, the numbers $N\rho_1 - n_1$ always have different values. Thus, infinitely many systems $(\rho_1, \ldots, \rho_{q-1})$ are obtained, where all $|\rho_i| < 1$, contrary to what was proved above. Hence neither $\rho_1$ nor $\rho_2, \ldots, \rho_{q-1}$ can be irrational, so all $\alpha_m$ in (60) are rational, and the lemma is proved.
+
+Moreover, we obtain at the same time, with respect to the denominators which may appear in the $\rho_m$, that there exists a fixed rational integer $M \neq 0$, which depends only on $\varepsilon_1, \ldots, \varepsilon_{q-1}$ but not on
+
+Moreover, from (c) we have:
+
+**Lemma (d).** The group $\mathfrak{G}$ of all units has a finite basis, and the number $k$ of basis elements of infinite order is $\leq r$.
+
+For the proof let $\varepsilon_1, \ldots, \varepsilon_k$ be $k$ units of infinite order and suppose there do not exist $k + 1$ independent elements of infinite order. Then, by (b) and (c), for each unit $\eta$ in $K$ a system of equations
+
+$$\log|\eta^{(i)}| = \sum_{m=1}^{k} \frac{g_m}{M} \log|\varepsilon_m^{(i)}| \quad (i=1, 2, \ldots, n)$$
+
+holds, for a certain positive rational integer $M$, where the $g_m$ are rational integers. From this it follows by Lemma (a) that
+
+$$\eta^M = \varepsilon_1^{g_1} \varepsilon_2^{g_2} \cdots \varepsilon_k^{g_k} \zeta,$$
+
+where $\zeta$ is a root of unity in $K$, that is, a $w$th root of unity. Hence we have
+
+$$\eta = \varepsilon_1^{g_1/M} \varepsilon_2^{g_2/M} \cdots \varepsilon_k^{g_k/M} \zeta_0^x,$$
+
+where $\zeta_0 = e^{2\pi i/Mw}$, with rational integral $x$. We now consider the totality of products of powers of the $k + 1$ numbers
+
+$$H_1 = \varepsilon_1^{1/M}, \quad \ldots, H_k = \varepsilon_k^{1/M}, \quad H_{k+1} = \zeta_0$$
+
+with arbitrary but fixed values of the roots. The set of these numbers form a (mixed) Abelian group for which $H_1, \ldots, H_{k+1}$ is a basis. By what has already been proved, the group $\mathfrak{G}$ of all units of $K$ is contained as a subgroup, and indeed as a subgroup of finite index, since the $M

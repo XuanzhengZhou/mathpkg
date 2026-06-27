@@ -1,0 +1,23 @@
+id: cochain-map-lifting-acyclic-over-injective
+title_en: "Lifting of Cochain Maps from Acyclic to Injective Complexes"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [comparison-theorem, injective, acyclic, cochain-complex, lifting, dual]
+depends_on:
+  required: [chain-map-lifting-projective-over-acyclic, injective-module, cochain-complex]
+  recommended: [projective-resolution-of-a-module, duality]
+  suggested: [derived-functor]
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "4. Projective and Injective Resolutions"
+    pages: "139-140"
+    role_in_book: "Theorem 4.4. Dual of Theorem 4.1; justifies injective resolutions for right derived functors."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

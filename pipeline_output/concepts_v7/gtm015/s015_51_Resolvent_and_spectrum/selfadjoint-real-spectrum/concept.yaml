@@ -1,0 +1,23 @@
+id: selfadjoint-real-spectrum
+title_en: "Self-adjoint operators have real spectrum"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: hilbert-spaces
+difficulty: intermediate
+tags: [self-adjoint, spectrum, hilbert-space, real]
+depends_on:
+  required: [hilbert-space-definition, selfadjoint-operator-definition]
+  recommended: [spectrum-definition]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "57"
+    section: "Spectrum in L(E)"
+    pages: ""
+    role_in_book: "The spectrum of a self-adjoint operator on a Hilbert space is real"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

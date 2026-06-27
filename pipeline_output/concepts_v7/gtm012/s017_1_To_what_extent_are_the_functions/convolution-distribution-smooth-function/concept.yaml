@@ -1,0 +1,23 @@
+id: convolution-distribution-smooth-function
+title_en: "Convolution of a Periodic Distribution with a Smooth Periodic Function"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: intermediate
+tags: [convolution, distributions, periodic-distributions, smooth-functions]
+depends_on:
+  required: [periodic-distributions, smooth-periodic-functions, translation-operator]
+  recommended: [convolution-on-circle]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "7"
+    section: "7. Convolution of distributions"
+    pages: ""
+    role_in_book: "Extends convolution from functions to the pairing of a periodic distribution with a smooth periodic function"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

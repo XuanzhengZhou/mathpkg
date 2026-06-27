@@ -1,0 +1,23 @@
+id: induced-maps-in-group-cohomology
+title_en: "Natural Homomorphisms Induced by Group Homomorphisms"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: ["functoriality", "group-homomorphism", "cohomology", "homology", "change-of-groups"]
+depends_on:
+  required: ["cohomology-and-homology-of-groups"]
+  recommended: ["adjoint-functors", "restriction-of-scalars"]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VI"
+    section: "2"
+    pages: ""
+    role_in_book: "Establishes functoriality of (co)homology with respect to group homomorphisms"
+content_hash: "cdd60b99dfaf"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

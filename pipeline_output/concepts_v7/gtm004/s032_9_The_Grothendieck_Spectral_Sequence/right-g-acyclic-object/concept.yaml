@@ -1,0 +1,23 @@
+id: right-g-acyclic-object
+title_en: "Right G-Acyclic Object"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [acyclic, derived-functor, spectral-sequence, grothendieck]
+depends_on:
+  required: []
+  recommended: [derived-functor, injective-object, right-derived-functor]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "9. The Grothendieck Spectral Sequence"
+    pages: ""
+    role_in_book: "Defines the acyclicity condition needed for the Grothendieck spectral sequence hypothesis"
+content_hash: "bac732fc5dfa784857133744edfa3c1ea68360fba146f34e337910a723c896c0"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: discrete-non-metrizable-uniform-space
+title_en: "Discrete Non-Metrizable Uniform Space"
+title_zh: "离散不可度量化的一致空间"
+type: definition
+domain: topology
+subdomain: uniform-spaces
+difficulty: advanced
+tags: [uniform-space, non-metrizable, discrete, ordinal, counterexample]
+depends_on:
+  required: [uniform-space, metrizable-space, ordinal]
+  recommended: [entourage, uniformity-base]
+  suggested: [complete-metric-space]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "FOR METRIC SPACES ONLY"
+    pages: ""
+    role_in_book: "Exercise C; example of a uniform space whose topology is metrizable (discrete) but the uniformity is not"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

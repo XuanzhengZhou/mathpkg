@@ -1,0 +1,23 @@
+id: symmetric-approximate-identity
+title_en: "Symmetric approximate identity approximation in L^1(G)"
+title_zh: "L^1(G)中对称近似单位元的逼近"
+type: lemma
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: intermediate
+tags: [approximate-identity, convolution, l1-space, symmetric]
+depends_on:
+  required: []
+  recommended: [approximate-identity-approximation, convolution-of-functions, l1-space]
+  suggested: [left-regular-representation-faithful]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "69"
+    section: "Group representations"
+    pages: "307"
+    role_in_book: "Lemma (69.14), symmetrized version of approximate identity approximation"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

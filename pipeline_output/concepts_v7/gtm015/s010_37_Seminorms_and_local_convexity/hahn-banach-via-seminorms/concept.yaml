@@ -1,0 +1,23 @@
+id: hahn-banach-via-seminorms
+title_en: "Alternative proof of the Hahn-Banach theorem via seminorms and convex separation"
+title_zh: "通过半范数和凸分离给出的Hahn-Banach定理的替代证明"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [hahn-banach, seminorm, convex-separation, extension-theorem]
+depends_on:
+  required: [seminorm, hahn-banach-geometric-form, convex-separation]
+  recommended: [locally-convex-topology-from-seminorms]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "3"
+    section: "37"
+    pages: ""
+    role_in_book: "alternative_proof"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

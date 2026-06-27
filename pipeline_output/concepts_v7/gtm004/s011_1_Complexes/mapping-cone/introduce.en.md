@@ -1,0 +1,3 @@
+The **mapping cone** $E(\varphi)$ of a chain map $\varphi: C \rightarrow D$ is a new chain complex that encodes the map $\varphi$. It is defined by $E_n = C_{n-1} \oplus D_n$ with a differential that twists $\varphi$ into the $D$-component: $\partial_n(a,b) = (-\partial^C a, \varphi a + \partial^D b)$.
+
+The mapping cone fits into a natural short exact sequence $0 \to D \to E(\varphi) \to C[-1] \to 0$, where $C[-1]$ is the shifted complex. This construction is the algebraic analogue of the topological mapping cone and is fundamental to the theory of triangulated categories and derived categories.

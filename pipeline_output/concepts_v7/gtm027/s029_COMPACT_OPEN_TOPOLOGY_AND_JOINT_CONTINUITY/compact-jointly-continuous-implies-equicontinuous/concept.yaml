@@ -1,0 +1,23 @@
+id: compact-jointly-continuous-implies-equicontinuous
+title_en: "Theorem 7.16 — Compactness under a Jointly Continuous Topology Implies Equicontinuity"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: function-spaces
+difficulty: intermediate
+tags: [equicontinuity, compactness, joint-continuity]
+depends_on:
+  required: [equicontinuous-family, jointly-continuous-topology, compact-set]
+  recommended: [ascoli-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "Compactness and Equicontinuity"
+    pages: ""
+    role_in_book: "Theorem 7.16 — the converse direction: compactness plus joint continuity forces equicontinuity"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

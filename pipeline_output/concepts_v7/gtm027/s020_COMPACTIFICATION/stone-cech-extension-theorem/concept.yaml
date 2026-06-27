@@ -1,0 +1,23 @@
+id: stone-cech-extension-theorem
+title_en: "Stone-Čech Extension Theorem"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: compactification
+difficulty: advanced
+tags: [stone-cech, compactification, extension, tychonoff, universal-property]
+depends_on:
+  required: [stone-cech-compactification, tychonoff-space, compact-hausdorff-space]
+  recommended: [lemma-product-map-continuity]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "Compactification"
+    pages: ""
+    role_in_book: "Theorem 24: Universal extension property of the Stone-Čech compactification"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

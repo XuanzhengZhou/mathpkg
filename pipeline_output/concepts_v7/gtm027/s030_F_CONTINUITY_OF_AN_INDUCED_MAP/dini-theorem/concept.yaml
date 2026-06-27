@@ -1,0 +1,23 @@
+id: dini-theorem
+title_en: "Dini Theorem on Monotone Convergence"
+title_zh: "Dini定理：单调网的紧致一致收敛"
+type: theorem
+domain: topology
+subdomain: general-topology
+difficulty: basic
+tags: [Dini-theorem, monotone-convergence, compact-convergence, net, real-valued-functions]
+depends_on:
+  required: []
+  recommended: [net, pointwise-convergence, uniform-convergence-on-compacta, compact-subset]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "E"
+    pages: ""
+    role_in_book: "Dini theorem for monotone nets of continuous functions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: convolution-inequality-l1
+title_en: "Convolution is Well-Defined on $\ell^1(\mathbb{Z})$ and Satisfies $\|xy\|_1 \leq \|x\|_1 \|y\|_1$"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: intermediate
+tags: [convolution, l1-space, norm-inequality, banach-algebra, absolute-convergence]
+depends_on:
+  required: [little-l-one-space, l1-norm]
+  recommended: [convolution, fubini-theorem]
+  suggested: [banach-algebra]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "0"
+    section: "Apéritif (Wiener's Theorem)"
+    pages: ""
+    role_in_book: "Remark 7; justifies the definition of convolution on all of l^1(Z)"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

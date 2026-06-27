@@ -1,0 +1,13 @@
+For any two probability measures $P$ and $\tilde{P}$ on a metric space $(E, \mathcal{E}, \rho)$, define
+
+$$\sigma(P, \tilde{P}) = \inf \{\, \varepsilon > 0 : P(F) \leq \tilde{P}(F^\varepsilon) + \varepsilon \ \text{for all closed sets } F \in \mathcal{E} \,\},$$
+
+$$L(P, \tilde{P}) = \max\bigl[\,\sigma(P, \tilde{P}),\; \sigma(\tilde{P}, P)\,\bigr].$$
+
+Then the function $L(P, \tilde{P})$ has the following properties:
+
+\begin{enumerate}
+\item[(a)] $L(P, \tilde{P}) = L(\tilde{P}, P)$ \bigl(${}= \sigma(P, \tilde{P}) = \sigma(\tilde{P}, P)$\bigr),
+\item[(b)] $L(P, \tilde{P}) \leq L(P, \hat{P}) + L(\hat{P}, \tilde{P})$ for any probability measure $\hat{P}$,
+\item[(c)] $L(P, \tilde{P}) = 0$ if and only if $\tilde{P} = P$.
+\end{enumerate}

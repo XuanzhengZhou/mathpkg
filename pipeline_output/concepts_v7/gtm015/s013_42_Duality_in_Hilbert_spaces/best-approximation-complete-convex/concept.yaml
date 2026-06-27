@@ -1,0 +1,23 @@
+id: best-approximation-complete-convex
+title_en: "Best Approximation from a Complete Convex Set in an Inner Product Space"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [best-approximation, complete-convex-set, inner-product-space, minimizing-vector]
+depends_on:
+  required: [best-approximation-closed-convex, inner-product-space]
+  recommended: [completeness, convex-set]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "42. Duality in Hilbert spaces"
+    section: "42.13"
+    pages: ""
+    role_in_book: "Exercise generalizing the best approximation theorem from Hilbert spaces to complete convex subsets of inner product spaces"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

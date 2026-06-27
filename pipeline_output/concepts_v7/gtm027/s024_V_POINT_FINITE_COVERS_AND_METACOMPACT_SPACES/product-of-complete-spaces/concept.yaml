@@ -1,0 +1,23 @@
+id: product-of-complete-spaces
+title_en: "Product of Complete Uniform Spaces"
+title_zh: "完备一致空间的乘积"
+type: theorem
+domain: topology
+subdomain: uniform-spaces
+difficulty: intermediate
+tags: [complete-space, product, cauchy-net, projection]
+depends_on:
+  required: [complete-uniform-space, product-uniformity]
+  recommended: [cauchy-net, projection]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "6"
+    section: "Completeness"
+    pages: ""
+    role_in_book: "Theorem 25: product of complete spaces is complete; completeness is coordinatewise"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

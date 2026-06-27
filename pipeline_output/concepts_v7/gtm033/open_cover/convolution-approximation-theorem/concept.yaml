@@ -1,0 +1,23 @@
+id: convolution-approximation-theorem
+title_en: "Theorem 2.3: Convolution Approximation"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: approximation-theory
+difficulty: intermediate
+tags: [convolution, approximation, uniform-convergence, smooth-approximation, mollifier, cr-topology]
+depends_on:
+  required: [convolution-kernel, support-radius]
+  recommended: [cr-norm-notation]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2"
+    section: "Approximations"
+    pages: ""
+    role_in_book: "Shows that convolution with a smooth kernel produces C^s approximations to continuous maps, uniform on compact sets"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

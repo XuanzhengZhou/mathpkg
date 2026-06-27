@@ -1,0 +1,149 @@
+14. PROBLEMS
+
+1. Establish the representation (6).
+2. Prove the following extension of Property E. Let $\xi$ and $\eta$ be random variables for which $E\xi$ and $E\eta$ are defined and the sum $E\xi + E\eta$ is meaningful (does not have the form $\infty - \infty$ or $-\infty + \infty$). Then
+
+$$E(\xi + \eta) = E\xi + E\eta.$$
+
+3. Generalize Property G by showing that if $\xi = \eta$ (a. s.) and $E\xi$ exists, then $E\eta$ exists and $E\xi = E\eta$.
+
+4. Let $\xi$ be an extended random variable, $\mu$
+
+9. Find an example to show that in general the hypothesis “$\xi_n \leq \eta$, $E \eta > -\infty$” in Fatou’s lemma cannot be omitted.
+
+10. Prove the following variant of Fatou’s lemma. Let the family $\{\xi_n^+\}_{n \geq 1}$ of random variables be uniformly integrable. Then
+
+$$\limsup E \xi_n \leq E \limsup \xi_n.$$
+
+11. Dirichlet’s function
+
+$$d(x) = \begin{cases} 1, & x \text{ irrational}, \\ 0, & x \text{ rational}, \end{cases}$$
+
+is defined on $[0, 1]$, Lebesgue integrable, but not Riemann integrable. Why?
+
+12. Find an example of a sequence of Riemann integrable functions $\{f_n\}_{n \geq 1}$, defined on $[0, 1]$, such that $|f_n| \leq 1$, $f_n \rightarrow f$ almost everywhere (with Lebesgue measure), but $f$ is not Riemann integrable.
+
+13. Let $(a_{ij}; i,j \geq 1)$ be a sequence of real numbers such that $\sum_{i,j} |a_{ij}| < \infty$. Deduce from Fubini’s theorem that
+
+$$\sum_{i,j} a_{ij} = \sum_i \left( \sum_j a_{ij} \right) = \sum_j \left( \sum_i a_{ij} \right).$$
+
+14. Find an example of a sequence $(a_{ij}; i,j \geq 1)$ for which $\sum_{i,j} |a_{ij}| = \infty$ and the equations in (78) do not hold.
+
+15. Starting from simple functions and using the theorem on taking limits under the Lebesgue integral sign, prove the following result on integration by substitution.
+
+Let $h = h(y)$ be a nondecreasing continuously differentiable function on $[a, b]$, and let $f(x)$ be (Lebesgue) integrable on $[h(a), h(b)]$. Then the function $f(h(y))h'(y)$ is integra
+
+$$\xi_n \xrightarrow{P} \xi, \quad \eta_n \xrightarrow{P} \eta, \quad \zeta_n \xrightarrow{P} \zeta, \quad \eta_n \leq \xi_n \leq \zeta_n, \quad n \geq 1,$$
+$$E \zeta_n \rightarrow E \zeta, \quad E \eta_n \rightarrow E \eta,$$
+
+and the expectations $E \xi, E \eta, E \zeta$ are finite. Show that then $E \xi_n \rightarrow E \xi$ (Pratt’s lemma).
+
+If also $\eta_n \leq 0 \leq \zeta_n$ then $E |\xi_n - \xi| \rightarrow 0$.
+
+Deduce that if $\xi_n \xrightarrow{P} \xi, E |\xi_n| \rightarrow E |\xi|$ and $E |\xi| < \infty$, then $E |\xi_n - \xi| \rightarrow 0$.
+
+Give an example showing that, in general, under the conditions of Pratt’s lemma $E |\xi_n - \xi| \rightarrow 0$.
+
+20. Prove that $L_*f \leq L^*f$ and if $f$ is bounded and $\mu$ is finite then $L_*f = L^*f$ (see Remark 6).
+
+21. Prove that $E f = L_*f$ for bounded $f$ (see Remark 6).
+
+22. Prove the final statement of Remark 6.
+
+23. Let $X$ be a random variable and $F(x)$ its distribution function. Show that
+
+$$E X^+ < \infty \iff \int_a^\infty \log \frac{1}{F(x)} dx < \infty \quad \text{for some } a.$$
+
+24. Show that if $\lim_{x \to \infty} x^p P\{|\xi| > x\} = 0$ for $p > 0$ then $E |\xi|^r < \infty$ for all $r < p$. Give an example showing that for $r = p$ it is possible that $E |\
+
+$$F(s) = \frac{p}{1 - sq}, \quad |s| \leq 1.$$
+
+29. Besides the generating function $F(s)$, it is often expedient to consider the moment generating function $M(s) = \mathsf{E} e^{sX}$ (for $s$ such that $\mathsf{E} e^{sX} < \infty$).
+
+(a) Show that if the moment generating function $M(s)$ is defined for all $s$ in a neighborhood of zero ($s \in [-a, a], a > 0$), then $M(s)$ has derivatives $M^{(k)}(s)$ of any order $k = 1, 2, \ldots$ at $s = 0$ and
+
+$$M^{(k)}(0) = \mathsf{E} X^k$$
+
+(which explains the term for $M(s))$.
+
+(b) Give an example of a random variable for which $M(s) = \infty$ for all $s > 0$.
+
+(c) Show that the moment generating function of a Poisson random variable $X$ with $\lambda > 0$ is $M(s) = e^{-\lambda(1-e^s)}$ for all $s \in R$.
+
+30. Let $X_n \in L^r$, $0 < r < \infty$, and $X_n \xrightarrow{P} X$. Then the following conditions are equivalent:
+
+(i) The family $\{|X_n|^r, n \geq 1\}$ is uniformly integrable;
+
+(ii) $X_n \rightarrow X$ in $L^r$;
+
+(iii) $\mathsf{E}|X_n|^r \rightarrow \mathsf{E}|X|^r < \infty$.
+
+31. Spitzer’s identity. Let $X_1, X_2, \ldots$ be independent identically distributed random variables with $\mathsf{P}\{X_1 \leq 1\} = 1$ and let $S_n = X_1 + \cdots + X_n$. Then for $|u|, |t| < 1$
+
+$$\sum_{n=0}^{\infty} t^n \mathsf{E} e^{uM_n} = \exp \left( \
+
+is such that
+(a) it is Lebesgue integrable with respect to $\omega_1 \in \Omega_1$ for every $\omega_2$ and
+(b) it is Lebesgue integrable with respect to $\omega_2 \in \Omega_2$ for every $\omega_1$, but Fubibi’s theorem does not hold.
+
+36. Prove the Beppo Levi theorem: If random variables $\xi_1, \xi_2, \ldots$ are integrable $(E|\xi_n| < \infty$ for all $n \geq 1)$, $\sup_n E\xi_n < \infty$ and $\xi_n \uparrow \xi$, then $\xi$ is integrable and $E\xi_n \uparrow E\xi$ (cf. Theorem 1 (a)).
+
+37. Prove the following version of Fatou’s lemma: if $0 \leq \xi_n \rightarrow \xi$ (P-a. s.) and $E\xi_n \leq A < \infty$, $n \geq 1$, then $\xi$ is integrable and $E\xi \leq A$.
+
+38. (On relation of Lebesgue and Riemann integration.) Let a Borel function $f = f(x)$ be Lebesgue integrable on $R: \int_R |f(x)| \, dx < \infty$. Prove that for any $\varepsilon > 0$ there are:
+(a) a step function $f_\varepsilon(x) = \sum_{i=1}^n f_i I_{A_i}(x)$ with bounded intervals $A_i$ such that $\int_R |f(x) - f_\varepsilon(x)| \, dx < \varepsilon$;
+(b) an integrable continuous function $g_\varepsilon(x)$ with bounded support such that $\int_R |f(x) - g_\varepsilon(x)| \, dx < \varepsilon$.
+
+39. Show that if $\xi$ is an integrable random variable, then
+$$E\xi = \int_0^\infty P\{\xi > x\} \, dx - \int_{-\infty}^0 P\{\xi < x\} \, dx.$$
+
+40. Let $\xi$ and $\eta$
+
+7 Conditional Probabilities and Conditional Expectations with Respect to a $\sigma$-Algebra
+
+1. Let $(\Omega, \mathcal{F}, \mathbb{P})$ be a probability space and $A \in \mathcal{F}$ an event such that $\mathbb{P}(A) > 0$. As for finite probability spaces, the conditional probability of $B$ with respect to $A$ (denoted by $\mathbb{P}(B|A))$ means $\mathbb{P}(BA)/\mathbb{P}(A)$, and the conditional probability of $B$ with respect to the finite or countable decomposition $\mathcal{D} = \{D_1, D_2, \ldots\}$ such that $\mathbb{P}(D_i) > 0$, $i \geq 1$ (denoted by $\mathbb{P}(B|\mathcal{D})$) is the random variable equal to $\mathbb{P}(B|D_i)$ for $\omega \in D_i$, $i \geq 1$:
+
+$$\mathbb{P}(B|\mathcal{D}) = \sum_{i \geq 1} \mathbb{P}(B|D_i) I_{D_i}(\omega).$$
+
+In a similar way, if $\xi$ is a random variable for which $\mathbb{E}\xi$ is defined, the conditional expectation of $\xi$ with respect to the event $A$ with $\mathbb{P}(A) > 0$ (denoted by $\mathbb{E}(\xi|A))$ is $\mathbb{E}(\xi I_A)/\mathbb{P}(A)$ (cf. (10) in Sect. 8 of Chap. 1).
+
+The random variable $\mathbb{P}(B|\mathcal{D})$ is evidently measurable with respect to the $\sigma$-algebra $\mathcal{G} = \sigma(\mathcal{D})$, and is consequently also denoted by $\mathbb{P}(B|\mathcal{G})$ (see Sect. 8 of Chap. 1).
+
+However, in probability theory we may have to consider conditional probabilities with respect to events whose probabilities are zero.
+
+Consider, for example, the following experiment. Let $\xi$ be a random variable uniformly distributed on $[0, 1]$. If $\xi = x$, toss
+
+(a) $E(\xi \mid \mathcal{G})$ is $\mathcal{G}$-measurable;
+(b) for every $A \in \mathcal{G}$
+
+$$\int_A \xi \, dP = \int_A E(\xi \mid \mathcal{G}) \, dP.$$  
+
+(1)
+
+(2) The conditional expectation $E(\xi \mid \mathcal{G})$, or $E(\xi \mid \mathcal{G})(\omega)$, of any random variable $\xi$ with respect to the $\sigma$-algebra $\mathcal{G}$ is considered to be defined if
+
+$$\min(E(\xi^+ \mid \mathcal{G}), E(\xi^- \mid \mathcal{G})) < \infty \quad (\text{P-a. s.}),$$
+
+and it is given by the formula
+
+$$E(\xi \mid \mathcal{G}) \equiv E(\xi^+ \mid \mathcal{G}) - E(\xi^- \mid \mathcal{G}),$$
+
+where, on the set (of probability zero) of sample points for which $E(\xi^+ \mid \mathcal{G}) = E(\xi^- \mid \mathcal{G}) = \infty$, the difference $E(\xi^+ \mid \mathcal{G}) - E(\xi^- \mid \mathcal{G})$ is given an arbitrary value, for example zero.
+
+We begin by showing that, for nonnegative random variables, $E(\xi \mid \mathcal{G})$ actually exists. By Subsection 8 of Sect. 6 the set function
+
+$$Q(A) = \int_A \xi \, dP, \quad A \in \mathcal{G},$$
+
+(2)
+
+is a measure on $(\Omega, \mathcal{G})$, and is absolutely continuous with respect to $P$ (considered on $(\Omega, \mathcal{G}), \mathcal{G} \subseteq \mathcal{F}$). Therefore (by the Radon–Nikodým theorem) there is a nonnegative $\mathcal{G}$-measurable extended random variable $E(\xi \mid \mathcal{G})$ such that
+
+$$Q(A) = \int_A E(\xi \mid \mathcal{G}) \, d
+
+Remark 3. Suppose that $\xi$ is a random variable for which $E\xi$ exists. Then $E(\xi \mid G)$ could be defined as a $G$-measurable function for which (1) holds. This is usually just what happens. Our definition $E(\xi \mid G) \equiv E(\xi^+ \mid G) - E(\xi^- \mid G)$ has the advantage that for the trivial $\sigma$-algebra $G = \{ \emptyset, \Omega \}$ it reduces to the definition of $E\xi$ but does not presuppose the existence of $E\xi$. (For example, if $\xi$ is a random variable with $E\xi^+ = \infty$, $E\xi^- = \infty$, and $G = F$, then $E\xi$ is not defined, but in terms of Definition 1, $E(\xi \mid G)$ exists and is simply $\xi = \xi^+ - \xi^-$).
+
+Remark 4. Let the random variable $\xi$ have a conditional expectation $E(\xi \mid G)$ with respect to the $\sigma$-algebra $G$. The conditional variance $\text{Var}(\xi \mid G)$ of $\xi$ with respect to $G$ is the random variable
+
+$$\text{Var}(\xi \mid G) = E[(\xi - E(\xi \mid G))^2 \mid G].$$
+
+(Cf. the definition of the conditional variance $\text{Var}(\xi \mid D)$ with respect to a decomposition $D$, as given in Problem 2 in Sect. 8, Chap. 1, and the definition of the variance in Sect. 8).

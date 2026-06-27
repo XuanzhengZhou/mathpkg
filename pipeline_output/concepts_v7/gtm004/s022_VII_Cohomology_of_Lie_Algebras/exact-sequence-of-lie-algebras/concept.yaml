@@ -1,0 +1,30 @@
+id: exact-sequence-of-lie-algebras
+title_en: Exact Sequence of Lie Algebras
+title_zh: 李代数的正合序列
+type: definition
+domain: algebra
+subdomain: lie-algebras
+difficulty: basic
+tags:
+- lie-algebra
+- exact-sequence
+- lie-ideal
+- quotient
+depends_on:
+  required:
+  - lie-algebra
+  - lie-ideal
+  - lie-algebra-homomorphism
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: VII
+  section: 1. Lie Algebras and their Universal Enveloping Algebra
+  pages: ''
+  role_in_book: Foundational concept for Lie algebra cohomology theory
+content_hash: 7feb6817cc6c0ae3
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

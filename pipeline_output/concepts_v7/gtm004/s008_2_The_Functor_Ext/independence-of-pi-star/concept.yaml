@@ -1,0 +1,23 @@
+id: independence-of-pi-star
+title_en: "Independence of the Induced Map on Ext from the Choice of Lifting"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [ext-functor, projective-presentation, natural-transformation, lifting]
+depends_on:
+  required: [ext-via-projective-presentation, projective-module]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "2. The Functor Ext"
+    pages: ""
+    role_in_book: "Lemma 2.1; establishes that the induced map on Ext depends only on the module homomorphism, not on the chosen lifting to projective presentations"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

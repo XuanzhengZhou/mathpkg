@@ -1,0 +1,19 @@
+(Fundamental Theorem of Arithmetic). Each positive number $> 1$ can be represented in one—and except for the order of the factors—in only one way as a product of primes.
+
+For this it is sufficient to show that a prime $p$
+
+With this theorem about the unique decomposition of each number into prime factors we have a substantially different method of deciding the questions treated above, e.g., whether a given number $b$ divides another number $a$, how $(a, b)$ or the least common multiple of $a$ and $b$ is found, etc. Specifically, if we think of $a$ and $b$ as decomposed into their prime factors $p_1, \ldots, p_r$,
+
+$$a = p_1^{a_1} p_2^{a_2} \cdots p_r^{a_r}$$
+$$b = p_1^{b_1} p_2^{b_2} \cdots p_r^{b_r},$$
+
+where zero is also allowed for the exponents $a_i, b_i$, then obviously $b \mid a$ holds if and only if we always have $a_i \geq b_i$. Moreover we have
+
+$$(a, b) = p_1^{d_1} p_2^{d_2} \cdots p_r^{d_r}, \quad d_i = \min(a_i, b_i), \quad i = 1, 2, \ldots, r,$$
+$$v = p_1^{c_1} p_2^{c_2} \cdots p_r^{c_r}, \quad c_i = \max(a_i, b_i), \quad i = 1, 2, \ldots, r.$$
+
+The existence of infinitely many primes follows immediately from the fact that
+
+$$z = p_1 \cdot p_2 \cdots p_n + 1$$
+
+is a number which is not divisible by any of the primes $p_1, \ldots, p_n$. Hence $z$ is divisible by at least one prime number distinct from $p_1, \ldots, p_n$ and consequently if there are $n$ primes, then there are $n + 1$ primes.

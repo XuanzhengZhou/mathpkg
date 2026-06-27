@@ -1,0 +1,23 @@
+id: quillen-theorem
+title_en: "Theorem 4.2 (Quillen) — Krull Dimension and $p$-Rank"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: cohomology-of-groups
+difficulty: advanced
+tags: ['Quillen', 'Krull dimension', 'elementary abelian p-subgroup', 'p-rank', 'cohomology ring']
+depends_on:
+  required: ['krull-dimension-cohomology-ring', 'elementary-abelian-p-group']
+  recommended: ['alperin-evens-carlson-theorem']
+  suggested: ['quivens-stratification']
+source_books:
+  - book_id: "gtm004"
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "X. Survey of Some Applications"
+    section: "4. Modular Representation Theory"
+    pages: ""
+    role_in_book: ""
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

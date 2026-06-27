@@ -1,0 +1,23 @@
+id: function-domain-range
+title_en: "Domain and Range of a Function"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: ["function", "domain", "range", "onto", "into"]
+depends_on:
+  required: ["function-definition"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Functions"
+    pages: "10-12"
+    role_in_book: "Defines the terminology: a function is 'on' a set (domain), 'onto' a set (range equals), 'to'/'into' a set (range subset)."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

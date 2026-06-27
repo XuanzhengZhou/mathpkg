@@ -1,0 +1,23 @@
+id: upper-bound-lower-bound
+title_en: "Upper Bound and Lower Bound"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: order-theory
+difficulty: basic
+tags: ["upper-bound", "lower-bound", "ordered-set", "bound"]
+depends_on:
+  required: ["ordering-definition"]
+  recommended: []
+  suggested: ["supremum-infimum"]
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Orderings"
+    pages: "12-18"
+    role_in_book: "Defines upper and lower bounds of a subset in an ordered set."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

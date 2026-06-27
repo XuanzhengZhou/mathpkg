@@ -1,0 +1,23 @@
+id: components-not-separated-by-clopen-sets
+title_en: "Components Not Separated by Clopen Sets"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: connectedness
+difficulty: advanced
+tags: ["component", "connected", "clopen", "separation", "counterexample"]
+depends_on:
+  required: ["component-of-topological-space", "connected-space", "separated-sets"]
+  recommended: ["euclidean-plane"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Problems"
+    pages: "57-58"
+    role_in_book: "Problem 1.P. Provides a counterexample showing that two points belonging to distinct components may nevertheless always lie in the same half of any separation. The components {(0,0)} and {(0,1)} are not separated by any clopen set."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: evaluation-of-function-field
+title_en: "Evaluation of Function Field Elements on a Plane Curve"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-curves
+difficulty: advanced
+tags: [evaluation, function-field, power-series, valuation-ring, place]
+depends_on:
+  required: [uniformizing-parameter, valuation-ring]
+  recommended: [power-series-representation, place-extension-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "V"
+    section: "2"
+    pages: ""
+    role_in_book: "Theorem 2.32 — Existence of evaluation extending coordinate ring evaluation"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

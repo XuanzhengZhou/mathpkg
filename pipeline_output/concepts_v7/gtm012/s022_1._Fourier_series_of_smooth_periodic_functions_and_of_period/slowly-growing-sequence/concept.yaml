@@ -1,0 +1,23 @@
+id: slowly-growing-sequence
+title_en: "Sequence of Slow Growth"
+title_zh: "缓增序列"
+type: definition
+domain: analysis
+subdomain: fourier-analysis
+difficulty: intermediate
+tags: [fourier-series, periodic-distributions, sequence-space]
+depends_on:
+  required: [fourier-coefficients, periodic-distributions]
+  recommended: [rapidly-decreasing-sequence]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "5"
+    section: "§1. Fourier series of smooth periodic functions and of periodic distributions"
+    pages: ""
+    role_in_book: "Defines the class of sequences that are Fourier coefficients of periodic distributions"
+content_hash: "d3b2f1a5c7e8d9f0b4a6c8e2f5d7e9a1"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

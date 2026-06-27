@@ -1,0 +1,14 @@
+id: right-module
+title_en: "Right Λ-Module"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [module, opposite-ring, ring-action]
+depends_on: {required: [opposite-ring], recommended: [left-module-axioms], suggested: []}
+source_books:
+  - {book_id: "gtm004", author: "P.J. Hilton and U. Stammbach", title: "A Course in Homological Algebra", chapter: "I", section: "1", pages: "10–11", role_in_book: "Defines right modules via the opposite ring, unifying the treatment of left and right modules"}
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: derivation-crossed-homomorphism
+title_en: "Derivation (Crossed Homomorphism)"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: ["derivation", "crossed-homomorphism", "h1-cohomology", "principal-derivation"]
+depends_on:
+  required: ["g-module", "augmentation-ideal"]
+  recommended: ["h1-as-cokernel"]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VI"
+    section: "4"
+    pages: ""
+    role_in_book: "Interpretation of H^1 elements as derivations"
+content_hash: "6a8804184941"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

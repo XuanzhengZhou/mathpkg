@@ -1,0 +1,23 @@
+id: proposition-1-2-nowhere-dense-image
+title_en: "Proposition 1.2: C^1 Image from Lower-Dimensional Domain is Nowhere Dense"
+title_zh: ""
+type: proposition
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [nowhere-dense, measure-zero, c1-map, dimension, morse-sard]
+depends_on:
+  required: [lemma-1-1-measure-zero-under-c1-map, measure-zero]
+  recommended: [baire-category-theorem, dimension-theory]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "3"
+    section: "1. The Morse-Sard Theorem"
+    pages: ""
+    role_in_book: "Shows that a C^1 map from a lower-dimensional manifold has nowhere dense image; used in Morse-Sard proof"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

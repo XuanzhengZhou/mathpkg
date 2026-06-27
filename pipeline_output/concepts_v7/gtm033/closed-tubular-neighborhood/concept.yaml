@@ -1,0 +1,23 @@
+id: closed-tubular-neighborhood
+title_en: "Closed Tubular Neighborhood"
+title_zh: "闭管状邻域"
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: basic
+tags: [tubular-neighborhood, disk-bundle, submanifold]
+depends_on:
+  required: [tubular-neighborhood]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "4"
+    section: "6"
+    pages: "116"
+    role_in_book: "Defines closed disk tubular neighborhoods for compact submanifolds"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

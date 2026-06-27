@@ -1,0 +1,23 @@
+id: ladder-sequence-exactness
+title_en: "Exactness of the ladder sequence"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [exact-couple, spectral-sequence, ladder, exact-sequence, derived-couple]
+depends_on:
+  required: [exact-couple, exactness-preservation-in-ladder, q-processes-commute]
+  recommended: [derived-couple]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "4. The Ladder of an Exact Couple"
+    pages: ""
+    role_in_book: "Theorem 4.5: The ladder sequence is exact and E_{m,n} has an explicit description"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: n-dimensional-probability-density
+title_en: "n-dimensional probability density"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: probability-distributions
+difficulty: intermediate
+tags: [multivariate-density, n-dimensional, gaussian, normal-distribution, joint-density]
+depends_on:
+  required: [absolutely-continuous-measure-and-density, n-dimensional-distribution-function]
+  recommended: [multivariate-normal-distribution]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "Shiryaev, A.N."
+    title: "Probability-1"
+    chapter: "2"
+    section: "3"
+    pages: ""
+    role_in_book: "Defines n-dimensional probability density functions and the multivariate Gaussian (normal) density"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

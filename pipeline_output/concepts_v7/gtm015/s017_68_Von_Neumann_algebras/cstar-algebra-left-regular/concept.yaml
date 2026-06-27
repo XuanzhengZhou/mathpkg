@@ -1,0 +1,23 @@
+id: cstar-algebra-left-regular
+title_en: "Group C*-algebra from the left regular representation"
+title_zh: "左正则表示生成的群C*-代数"
+type: definition
+domain: analysis
+subdomain: operator-algebras
+difficulty: advanced
+tags: [group-c-star-algebra, left-regular-representation, l1-group-algebra, norm-closure]
+depends_on:
+  required: []
+  recommended: [left-regular-representation-faithful, c-star-algebra, l1-group-algebra]
+  suggested: [gelfand-raikov-theorem, gelfand-naimark-theorem]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "69"
+    section: "Group representations"
+    pages: "311-312"
+    role_in_book: "Definition (69.24) of the reduced group C*-algebra"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

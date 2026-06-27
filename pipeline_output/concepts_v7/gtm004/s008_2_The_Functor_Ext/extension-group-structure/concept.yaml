@@ -1,0 +1,23 @@
+id: extension-group-structure
+title_en: "Abelian Group Structure on Extension Classes"
+title_zh: ""
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [extension-classes, abelian-group, ext-functor, baer-sum]
+depends_on:
+  required: [ext-classifies-extensions, ext-is-bifunctor]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "2. The Functor Ext"
+    pages: ""
+    role_in_book: "Corollary 2.5; deduces that extension classes form an abelian group"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

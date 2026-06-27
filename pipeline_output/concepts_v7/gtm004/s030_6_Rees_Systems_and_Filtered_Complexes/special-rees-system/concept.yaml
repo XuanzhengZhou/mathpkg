@@ -1,0 +1,23 @@
+id: special-rees-system
+title_en: "Special Rees System"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [spectral-sequences, exact-couples, rees-systems]
+depends_on:
+  required: [rees-system]
+  recommended: [exact-couple]
+  suggested: [automorphism]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "6. Rees Systems and Filtered Complexes"
+    pages: ""
+    role_in_book: "Defines a strengthening of a Rees system with an automorphism θ; all Rees systems arising in practice are special"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

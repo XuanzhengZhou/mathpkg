@@ -1,0 +1,23 @@
+id: embedding-of-short-e-exact-sequence
+title_en: "Embedding of Short E-Exact Sequence in E-Projective Diagram"
+title_zh: ""
+type: lemma
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [projective-class, relative-homological-algebra, resolution, e-exact-sequence]
+depends_on:
+  required: [e-projective-object, e-admissible-morphism, short-exact-sequence]
+  recommended: [e-projective-complex]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IX. Relative Homological Algebra"
+    section: "2. E-Derived Functors"
+    pages: "318-328"
+    role_in_book: "Lemma 2.2: Any short E-exact sequence embeds in a diagram with E-projective rows and columns"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

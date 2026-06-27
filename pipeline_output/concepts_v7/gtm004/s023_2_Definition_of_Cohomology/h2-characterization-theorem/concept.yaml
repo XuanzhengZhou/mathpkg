@@ -1,0 +1,23 @@
+id: h2-characterization-theorem
+title_en: "Characterization of H^2 via equivalence classes of extensions"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [H2, lie-algebra-cohomology, extension-classification]
+depends_on:
+  required: [cohomology-group-of-lie-algebra, equivalence-of-extensions]
+  recommended: [h1-lie-algebra-cohomology]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "Hilton, P. J. and Stammbach, U."
+    title: "A Course in Homological Algebra"
+    chapter: "VII"
+    section: "3. H^2 and Extensions"
+    pages: ""
+    role_in_book: "Theorem 3.3: one-to-one correspondence between H^2 and extension classes"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

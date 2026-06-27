@@ -1,0 +1,31 @@
+If $\mathfrak{p}$ is a prime ideal, and if for two polynomials $P$ and $Q$ the product
+
+$$P(x_1, \ldots, x_m) \cdot Q(x_1, \ldots, x_m) \equiv 0 \pmod{\mathfrak{p}},$$
+
+then at least one of the polynomials is $\equiv 0 \pmod{\mathfrak{p}}$.
+
+The theorem is true for polynomials of 0 variables, that is, for constants. We show that it is correct in general by passing from $m$ to $m + 1$. Assume it is already proven for all polynomials with $m$ or fewer variables. Each polynomial of $m + 1$ variables can be put into the form
+
+$$P(x_0, \ldots, x_m) = \sum_k x_0^k P_k(x_1, \ldots, x_m)$$
+
+where the $P_k$ are polynomials in $x_1, \ldots, x_m$. Obviously $P \equiv 0 \pmod{\mathfrak{p}}$ means that all $P_k \equiv 0 \pmod{\mathfrak{p}}$. Without loss of generality we may replace $P$ and $Q$ by polynomials which are congruent to them mod $\mathfrak{p}$ in which the terms with the highest powers of $x_0$ are not congruent to
+
+In an analogous fashion we choose $\beta_1$ and $\beta_2$ to be integers such that $(\beta_1/\beta_2)B(x_1, \ldots, x_m)$ also has integer coefficients which are not all divisible by $\mathfrak{p}$. Then, by Theorem 85 the product
+
+$$\frac{\alpha_1}{\alpha_2} \cdot \frac{\beta_1}{\beta_2} A(x_1, \ldots, x_m) \cdot B(x_1, \ldots, x_m) = C(x_1, \ldots, x_m)$$
+
+is a polynomial which is not $\equiv 0$ (mod $\mathfrak{p}$), while $A \cdot B = (\alpha_2 \beta_2/\alpha_1 \beta_1)C$ also has integer coefficients. Hence $\mathfrak{p}^{a+b}$ is precisely the highest power of $\mathfrak{p}$ dividing $A \cdot B$ because of the numerical factor $\alpha_2 \beta_2/\alpha_1 \beta_1$.
+
+We now define the content, $J(P)$, of a polynomial to be the ideal which is equal to the GCD of the coefficients of $P$. Then it follows from what has been proved:
+
+**Theorem 87.** The content of a product of two polynomials is equal to the product of the contents of the two factors.
+
+With this we have achieved a considerable strengthening of Kronecker’s Theorem 67 and also the generalization of Theorem 13 of Gauss to several variables and arbitrary algebraic number fields.
+
+If in a valid congruence for a polynomial mod $\mathfrak{a}$, we replace the variables $x_1, \ldots, x_m$ by integers of the field $K$ to which the ideal $\mathfrak{a}$ belongs, then obviously we obtain a valid numerical congruence mod $\mathfrak{a}$ between the integers in $K$. Finally from
+
+$$\alpha^{N(\mathfrak{p})} \equiv \alpha \pmod{\mathfrak{p}}$$
+
+for each integer $\alpha$, it follows that for each polynomial $P(x_1, \ldots, x_m)$
+
+$$P

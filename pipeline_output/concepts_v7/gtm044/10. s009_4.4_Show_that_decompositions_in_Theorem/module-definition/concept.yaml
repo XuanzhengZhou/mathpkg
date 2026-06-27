@@ -1,0 +1,25 @@
+id: module-definition
+title_en: "Module over a Ring"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: module-theory
+difficulty: basic
+tags: [module, ring, commutative-group, scalar-multiplication, vector-space-generalization]
+depends_on:
+  required: [ring, commutative-group]
+  recommended: [vector-space]
+  suggested: [integral-dependence]
+
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "6"
+    section: "6.3"
+    pages: ""
+    role_in_book: "Introduces modules as a generalization of vector spaces, used in the proof of Lemma 6.1 and integral dependence arguments"
+
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

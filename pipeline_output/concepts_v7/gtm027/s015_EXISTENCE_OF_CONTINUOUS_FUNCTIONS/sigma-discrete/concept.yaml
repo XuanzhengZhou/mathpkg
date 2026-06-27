@@ -1,0 +1,23 @@
+id: sigma-discrete
+title_en: "Sigma-Discrete Family"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: metrization
+difficulty: advanced
+tags: ["sigma-discrete", "discrete-family", "locally-finite", "metrization", "refinement"]
+depends_on:
+  required: ["locally-finite-family", "discrete-family"]
+  recommended: ["sigma-locally-finite-family"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "4"
+    section: "Metrization"
+    pages: "124-130"
+    role_in_book: "Defines sigma-discrete families. A family is sigma-discrete if it is the countable union of discrete families. Used in the Bing-Nagata-Smirnov theorem."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

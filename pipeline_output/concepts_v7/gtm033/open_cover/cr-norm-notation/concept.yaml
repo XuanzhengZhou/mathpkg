@@ -1,0 +1,23 @@
+id: cr-norm-notation
+title_en: "C^r Norm Notation ||f||_{r,K}"
+title_zh: ""
+type: definition
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [cr-norm, function-spaces, derivatives, compact-convergence, sup-norm, k-linear-map]
+depends_on:
+  required: [norm-of-k-linear-map]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2"
+    section: "Approximations"
+    pages: ""
+    role_in_book: "Introduces the C^r norm notation used throughout approximation theorems to measure closeness of maps and their derivatives"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

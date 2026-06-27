@@ -1,0 +1,23 @@
+id: adjoint-bounded-below-lemma
+title_en: "Adjoint bounded below implies range contains a ball"
+title_zh: ""
+type: lemma
+domain: analysis
+subdomain: banach-spaces
+difficulty: intermediate
+tags: [adjoint, bounded-below, banach-space, hahn-banach]
+depends_on:
+  required: [adjoint-operator-definition, bounded-below-definition]
+  recommended: [hahn-banach-theorem]
+  suggested: []
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "57"
+    section: "Spectrum in L(E)"
+    pages: ""
+    role_in_book: "If T' is bounded below then the closed unit ball image has nonempty interior"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: projective-set
+title_en: "Projective Set"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: projective-geometry
+difficulty: basic
+tags: ["projective-set", "homogeneous-set", "projective-space"]
+depends_on:
+  required: ["homogeneous-subset", "projective-space"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "2. Affine and projective varieties; examples"
+    pages: ""
+    role_in_book: "Defines projective sets as subsets of projective space represented by homogeneous sets in affine space."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

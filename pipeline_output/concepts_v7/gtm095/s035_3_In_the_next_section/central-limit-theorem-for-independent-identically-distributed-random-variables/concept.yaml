@@ -1,0 +1,13 @@
+id: central-limit-theorem-for-independent-identically-distributed-random-variables
+title_en: "Theorem 3 (Central Limit Theorem for Independent Identically Distributed Random Variables). Let $\xi_1, \xi_2, \ldots$ be a sequence of independent identically distributed (nondegenerate) random variables with $E \xi_1^2 < \infty$ and $S_n = \xi_1 + \cdots + \xi_n$. Then as $n \rightarrow \infty$"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: probability-theory
+difficulty: advanced
+tags: []
+depends_on: {required: [], recommended: [], suggested: []}
+source_books: [{book_id: "gtm095", author: "Albert N. Shiryaev", title: "Probability-1 (3ed, 2016)", chapter: "Chapter 3", section: "§3. Khinchin LLN, CLT for i.i.d., Poisson theorem", pages: "", role_in_book: ""}]
+content_hash: "0a56b1b2cad7"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

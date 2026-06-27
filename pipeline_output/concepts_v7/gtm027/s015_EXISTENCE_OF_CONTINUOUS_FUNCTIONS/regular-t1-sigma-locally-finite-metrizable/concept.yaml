@@ -1,0 +1,13 @@
+id: regular-t1-sigma-locally-finite-metrizable
+title_en: "Regular T1 Space with Sigma-Locally Finite Base is Metrizable"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: metrization
+difficulty: advanced
+tags: [regular, t1, sigma-locally-finite, metrizable]
+depends_on: {required: [regular-space, t1-space, discrete-family, metrizable-space, urysohn-lemma, embedding-lemma], recommended: [], suggested: []}
+source_books: [{book_id: "gtm027", author: "John L. Kelley", title: "General Topology", chapter: "4", section: "Existence of Continuous Functions", pages: "127-128", role_in_book: "Lemma 20; proof that (b) implies (a) in metrization theorem"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,7 @@
+A $\Lambda$-module homomorphism $\varepsilon : B \rightarrow C$ is epimorphic (in the categorical sense) if and only if it is surjective.
+
+\begin{itemize}
+\item If $\varepsilon$ is surjective and $\alpha_1 \circ \varepsilon = \alpha_2 \circ \varepsilon$, then $\alpha_1(\varepsilon(b)) = \alpha_2(\varepsilon(b))$ for all $b \in B$. Since every $c \in C$ can be written as $c = \varepsilon(b)$ for some $b \in B$, it follows that $\alpha_1(c) = \alpha_2(c)$ for all $c \in C$, hence $\alpha_1 = \alpha_2$.
+
+\item Conversely, suppose $\varepsilon$ is epimorphic and consider the two homomorphisms $\pi : C \rightarrow C / \varepsilon(B)$ (canonical projection) and $0 : C \rightarrow C / \varepsilon(B)$ (zero map). Since $\pi \circ \varepsilon = 0 \circ \varepsilon$, we have $\pi = 0$, which forces $C / \varepsilon(B) = 0$, i.e. $\varepsilon(B) = C$.
+\end{itemize}

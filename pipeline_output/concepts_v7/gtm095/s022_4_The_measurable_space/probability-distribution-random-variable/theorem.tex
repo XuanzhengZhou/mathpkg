@@ -1,0 +1,17 @@
+A probability measure $P_\xi$ on $(R, \mathcal{B}(R))$ with
+
+$$P_\xi(B) = P\{\omega : \xi(\omega) \in B\}, \quad B \in \mathcal{B}(R),$$
+
+is called the probability distribution of the random variable $\xi$.
+
+For a discrete random variable the measure $P_\xi$ is concentrated on an at most countable set and can be represented as
+
+$$P_\xi(B) = \sum_{\{k : x_k \in B\}} p(x_k),$$
+
+where $p(x_k) = P\{\xi = x_k\} = \Delta F_\xi(x_k)$.
+
+A random variable $\xi$ is called continuous if its distribution function $F_\xi(x)$ is continuous for $x \in R$.
+
+A random variable $\xi$ is called absolutely continuous if there is a nonnegative function $f = f_\xi(x)$, called its density, such that
+
+$$F_\xi(x) = \int_{-\infty}^{x} f_\xi(y) \, dy, \quad x \in R.$$

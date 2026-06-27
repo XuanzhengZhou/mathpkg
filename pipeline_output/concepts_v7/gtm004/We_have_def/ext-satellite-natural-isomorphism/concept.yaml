@@ -1,0 +1,23 @@
+id: ext-satellite-natural-isomorphism
+title_en: "Natural Isomorphism between Natural Transformations from Ext and Left Satellite Functors"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [Ext-functor, satellite-functor, natural-transformation, Yoneda]
+depends_on:
+  required: [ext-functor, projective-resolution, additive-functor, natural-transformation]
+  recommended: [satellite-functor, derived-functor]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "10"
+    pages: ""
+    role_in_book: "Characterization of left satellite functors via Ext — Theorem 10.1"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

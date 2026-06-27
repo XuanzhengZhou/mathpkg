@@ -1,0 +1,105 @@
+**Theorem 156.** If the Gauss sum $C(\omega)$ belongs to the denominator $\mathfrak{a}$, and if $\mathfrak{a}$ is the square
+
+number. It is seen that $\theta(\tau)$ becomes infinite and that
+
+$$\lim_{\tau \to 0} \sqrt{\tau} \theta(\tau + 2ir)$$
+
+exists. This limit is the Gauss sum $C(-r)$ defined in the preceding section, except for unimportant numerical factors. Moreover, the behavior of $\theta(\tau)$ can be determined in yet a second way. There exists a "transformation formula" for $\theta(\tau)$:
+
+$$\theta\left(\frac{1}{\tau}\right) = \sqrt{\tau} \theta(\tau).$$
+
+By this formula the behavior of $\theta(\tau)$ at the point $\tau = 2ir$ is related to the behavior of $\theta(\tau')$ at the point
+
+$$\tau' = \frac{1}{2ir} = -\frac{2i}{4r}.$$
+
+As stated above, the behavior of the latter is related to the Gauss sum $C(1/4r)$. By comparing the two results we obtain a relation between $C(r)$ and $C(-1/4r)$ from which $C(r)$ can be determined and from which, with the help of the formulas of the preceding section, the reciprocity law follows.
+
+Suppose that the field $k$ has degree $n$, and that $k$ as well as all of its conjugate fields $k^{(p)}$ are real. Then in place of the simple theta-series, the $n$-tuple theta-series
+
+$$\sum_{\mu} e^{-\pi(t_1\mu^{(1)}^2 + t_2\mu^{(2)}^2 + \cdots + t_n\mu^{(n)}^2)}$$
+
+arises, where $t_1, \ldots, t_n$ are variables with positive real part, and the summation is to be extended over all integers $\mu$ of the field $k$. In this series, we set $t_p = w + 2i\omega^{(p)}$ where $\omega$ is a number from $k$ and let the positive quantity $w$ tend to zero.
+
+Finally, if $k$ is a general algebraic number field, among whose conjugates $k^{(1)}, \ldots, k^{(r)}$ are real and the remaining conjugates
+
+complicated. In order to make the main ideas of the proof more easily understandable, we first discuss in the next section the formally simpler case in which all conjugate fields of $k$ are real.
+
+To begin with, we develop the train of thought which leads to the definition and exposition of the theta-series and their transformation formulas.
+
+By a quadratic form in the $n$ variables $x_1, x_2, \ldots, x_n$ we mean an expression of the form
+
+$$Q(x_1, \ldots, x_n) = \sum_{i,k=1}^{n} a_{ik}x_i x_k = a_{11}x_1^2 + 2a_{12}x_1x_2 + \cdots,$$
+
+where the coefficients $a_{ik}$ are real or complex quantities independent of $x_1, \ldots, x_n$ with the symmetry property $a_{ik} = a_{ki}$.
+
+A quadratic form with real coefficients is called positive definite, if for all real $x_1, \ldots, x_n$
+
+$$Q(x_1, \ldots, x_n) \geq 0,$$
+
+and the equality sign holds only for $x_1 = x_2 = \cdots = 0$. For example $x_1^2 + x_2^2 + \cdots + x_n^2$ is a positive definite form in $x_1, \ldots, x_n$.
+
+**Lemma (a).** For each positive definite form $Q(x_1, \ldots, x_n)$ there is a positive quantity $c$, such that for all real $x_1, \ldots, x_n$
+
+$$Q(x_1, \ldots, x_n) \geq c(x_1^2 + x_2^2 + \cdots + x_n^2).$$
+
+By hypothesis $Q(y_1, \ldots, y_n) > 0$ for all points of the $n$-dimensional sphere $y_1^2 + y_2^2 + \cdots + y_n^2 = 1$. Consequently the continuous function $Q$ has a positive minimum $c$ on the surface of the sphere, that is,
+
+$$Q(y_1
+
+The series (173) is called an $n$-tuple theta-series.
+
+To prove this let the real part of $Q$ be denoted by $Q_0$. By Lemma (a) there is a positive $c$ such that
+
+$$Q_0(m_1 + u_1, \ldots, m_n + u_n) \geq c((m_1 + u_1)^2 + \cdots + (m_n + u_n)^2).$$
+
+Furthermore
+
+$$|e^{-\pi Q}| = e^{-\pi Q_0} \leq e^{-\pi c \sum_{i=1}^{n} (m_i + u_i)^2}.$$
+
+If we now restrict the real numbers $u_i$ to a domain $|u_i| \leq C/2$, then we obtain
+
+$$|e^{-\pi Q}| \leq e^{-\pi c \sum_{i=1}^{n} (m_i^2 - C|m_i|) + K},$$
+
+where $K$ is an appropriate constant.
+
+However, since the inequality
+
+$$|m_1| + \cdots + |m_n| \leq \sqrt{n(m_1^2 + \cdots + m_n^2)} \leq \varepsilon \sqrt{n}(m_1^2 + \cdots + m_n^2)$$
+
+is true for every $\varepsilon > 0$, provided that
+
+$$m_1^2 + \cdots + m_n^2 > \frac{1}{\varepsilon^2},$$
+
+(174)
+
+we obtain the estimate
+
+$$|e^{-\pi Q}| \leq \exp\{-\pi c(1 - \varepsilon C \sqrt{n})(m_1^2 + \cdots + m_n^2) + K\}.$$
+
+If we take $\varepsilon$ sufficiently small, then $a = c(1 - \varepsilon C \sqrt{n}) > 0$ and the terms of the given series are thus smaller in absolute value than the corresponding terms of the obviously convergent series with constant terms
+
+$$\sum_{m_1, \ldots, m_n} e^{-\pi a(m_1^2 + \cdots + m_n^2) + K}$$
+
+(with at most finitely
+
+Since $|m| < e^{|m|}$ we have
+
+$$|m_1^{c_1} \cdots m_n^{c_n}| < e^{c_1|m_1| + \cdots + c_n|m_n|} \quad (c_i \geq 0)$$
+
+and, reasoning as above, we then have the uniform convergence of the differentiated series. Therefore the theorem is completely proved.
+
+We now obtain the transformation formula for the theta-function, which we discussed at the beginning of this section, by expressing the periodicity of the function $T$ in terms of its development in a Fourier series and indeed by using the following fact which we quote from analysis.
+
+Let $\varphi(u_1, \ldots, u_n)$ be a (real or complex) function of $n$ real variables, which is periodic with period 1 in each argument. Moreover, suppose that all partial derivatives of $\varphi$ up to order $2n$ are continuous. Then $\varphi$ can be expanded in an absolutely convergent Fourier series
+
+$$\varphi(u_1, \ldots, u_n) = \sum_{m_1, \ldots, m_n} a(m_1, \ldots, m_n) e^{-2\pi i(m_1 u_1 + \cdots + m_n u_n)},$$
+
+in which the coefficients have the following values:
+
+$$a(m_1, \ldots, m_n) = \int_0^1 \cdots \int_0^1 e^{2\pi i(m_1 u_1 + \cdots + m_n u_n)} \varphi(u_1, \ldots, u_n) du_1 du_2 \cdots du_n.$$
+
+For $n = 1$ this theorem is usually proved in textbooks in analysis. Then it can easily be proved in general by induction on $n$.
+
+If we set $\varphi$ equal to the theta-function, which indeed does satisfy our hypotheses, then we obtain
+
+$$a(m_1, \ldots, m_n) = \int_0^1 \cdots \int_0^1 e^{2\pi i(m_1 u_1 + \cdots + m_n u_n)} \sum_{k_1, \ldots, k_n = -\infty

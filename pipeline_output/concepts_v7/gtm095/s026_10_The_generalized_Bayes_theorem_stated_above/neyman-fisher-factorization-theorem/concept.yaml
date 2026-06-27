@@ -1,0 +1,23 @@
+id: neyman-fisher-factorization-theorem
+title_en: "Neyman-Fisher Factorization Theorem"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: mathematical-statistics
+difficulty: intermediate
+tags: [sufficiency, factorization, likelihood, radon-nikodym-derivative, data-reduction]
+depends_on:
+  required: [sufficient-sigma-subalgebra, probabilistic-statistical-model, radon-nikodym-derivative]
+  recommended: [dominated-family, sigma-finite-measure]
+  suggested: [minimal-sufficient-statistic]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "7"
+    section: "10"
+    pages: ""
+    role_in_book: "Factorization criterion for sufficiency; provides an operational characterization of sufficient sigma-algebras"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

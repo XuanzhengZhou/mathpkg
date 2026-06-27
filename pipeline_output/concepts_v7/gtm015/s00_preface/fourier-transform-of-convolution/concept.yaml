@@ -1,0 +1,23 @@
+id: fourier-transform-of-convolution
+title_en: "Fourier Transform Converts Convolution to Pointwise Product"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: intermediate
+tags: [fourier-transform, convolution, l1-space, wiener-algebra, algebra-homomorphism]
+depends_on:
+  required: [fourier-transform-on-l1, convolution-on-l1]
+  recommended: [fubini-theorem]
+  suggested: [banach-algebra, gel-fand-transform]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "0"
+    section: "Apéritif (Wiener's Theorem)"
+    pages: ""
+    role_in_book: "Remark 8; the key identity linking convolution in l^1(Z) to pointwise multiplication in A"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

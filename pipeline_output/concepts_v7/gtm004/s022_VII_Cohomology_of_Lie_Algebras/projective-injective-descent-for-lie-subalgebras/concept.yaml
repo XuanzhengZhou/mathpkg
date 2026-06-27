@@ -1,0 +1,31 @@
+id: projective-injective-descent-for-lie-subalgebras
+title_en: Projective and Injective Module Descent for Lie Subalgebras
+title_zh: 李子代数的投射与内射模下降性质
+type: corollary
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags:
+- lie-algebra
+- projective-module
+- injective-module
+- subalgebra
+depends_on:
+  required:
+  - left-g-module
+  - projective-module
+  - injective-module
+  recommended:
+  - lie-subalgebra
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: VII
+  section: 1. Lie Algebras and their Universal Enveloping Algebra
+  pages: ''
+  role_in_book: Foundational concept for Lie algebra cohomology theory
+content_hash: 83423eebc9b9cf46
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

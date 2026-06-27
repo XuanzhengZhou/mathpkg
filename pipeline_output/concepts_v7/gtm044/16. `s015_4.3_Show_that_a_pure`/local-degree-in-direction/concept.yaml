@@ -1,0 +1,23 @@
+id: local-degree-in-direction
+title_en: "Local Degree of a Variety in a Given Direction"
+title_zh: ""
+type: definition
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: ["local-degree", "local-order", "direction", "intersection-multiplicity"]
+depends_on:
+  required: ["relative-intersection-multiplicity"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "6"
+    section: "Degree and order"
+    pages: ""
+    role_in_book: "Defines the local degree of a variety at a point relative to a direction"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

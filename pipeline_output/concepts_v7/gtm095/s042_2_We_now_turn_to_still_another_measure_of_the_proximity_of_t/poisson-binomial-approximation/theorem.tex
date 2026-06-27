@@ -1,0 +1,7 @@
+Let $\xi_1, \ldots, \xi_n$ be independent Bernoulli random variables with $P(\xi_k = 1) = p_k$, $P(\xi_k = 0) = 1 - p_k$ for $k = 1, \ldots, n$. Let $B$ be the distribution of the sum $S_n = \xi_1 + \cdots + \xi_n$ (the Poisson-binomial distribution), and let $\Pi$ be the Poisson distribution with parameter $\lambda = \sum_{k=1}^n p_k$. Denote $B_k = P(S_n = k)$ and $\pi_k = e^{-\lambda} \lambda^k/k!$.
+
+Then the total variation distance between $B$ and $\Pi$ satisfies:
+$$\|B - \Pi\| = \sum_{k=0}^{\infty} |B_k - \pi_k| \leq 2 \sum_{k=1}^{n} p_k^2.$$
+
+More precisely, with $C_1(\lambda) = 2\min(2, \lambda)$ (Prokhorov) and $C_2(\lambda) = 2\min(9, \lambda)$ (Le Cam):
+$$\|B - \Pi\| \leq C_2(\lambda) \max_{1 \leq k \leq n} p_k.$$

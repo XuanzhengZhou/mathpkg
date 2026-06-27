@@ -1,0 +1,11 @@
+For a homogeneous Markov chain $\xi = (\xi_0, \ldots, \xi_n)$ with transition matrix $\|p_{ij}\|$, define:
+
+(a) The probability of first return to state $i$ at time $k$:
+
+$$f_{ii}^{(k)} = P\{\xi_k = i, \; \xi_l \neq i, \; 1 \leq l \leq k-1 \mid \xi_0 = i\}.$$
+
+(b) For $i \neq j$, the probability of first arrival at state $j$ at time $k$:
+
+$$f_{ij}^{(k)} = P\{\xi_k = j, \; \xi_l \neq j, \; 1 \leq l \leq k-1 \mid \xi_0 = i\}.$$
+
+These can be expressed using the stopping time $\tau = \min\{1 \leq k \leq n : \xi_k = j\}$ (with $\tau = n+1$ if the set is empty) as $f_{ij}^{(k)} = P\{\tau = k \mid \xi_0 = i\}$.

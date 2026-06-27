@@ -1,0 +1,23 @@
+id: graded-factorization-of-couple-differential
+title_en: "Graded factorization of the differential in a bigraded exact couple"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [exact-couple, spectral-sequence, grading, bigraded, degree-preserving]
+depends_on:
+  required: [exact-couple, q-pullback-process, q-pushout-process]
+  recommended: [graded-module, derived-couple]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "P.J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "4. The Ladder of an Exact Couple"
+    pages: ""
+    role_in_book: "Defines the degree-preserving factorization needed to construct the ladder in the (bi)graded case"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

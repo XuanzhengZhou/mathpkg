@@ -1,0 +1,23 @@
+id: definition-infinite-jet-space
+title_en: "Definition: Infinite Jet Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [infinite-jet, inverse-limit, c-infinity, prolongation]
+depends_on:
+  required: [definition-jet-space-finite-order, inverse-limit]
+  recommended: [c-infinity-topology, jet-prolongation]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "2"
+    section: "4. Weak and Strong Topologies on Function Spaces"
+    pages: ""
+    role_in_book: "Defines J^∞ as the inverse limit of finite-order jet spaces for C^∞ topologies"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

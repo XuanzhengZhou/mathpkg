@@ -1,0 +1,10 @@
+A \text{contravariant functor} $F: \mathfrak{C} \to \mathfrak{D}$ is a covariant functor $F: \mathfrak{C}^{\text{opp}} \to \mathfrak{D}$. Explicitly:
+\begin{enumerate}
+\item[(i)] To each object $A$ of $\mathfrak{C}$, an object $FA$ of $\mathfrak{D}$.
+\item[(ii)] To each morphism $f: A \to B$ in $\mathfrak{C}$, a morphism $Ff: FB \to FA$ in $\mathfrak{D}$.
+\end{enumerate}
+These assignments must satisfy:
+\begin{enumerate}
+\item[(a)] $F(1_A) = 1_{FA}$ for all objects $A$ in $\mathfrak{C}$.
+\item[(b)] $F(gf) = (Ff)(Fg)$ for all morphisms $f: A \to B$, $g: B \to C$ in $\mathfrak{C}$.
+\end{enumerate}

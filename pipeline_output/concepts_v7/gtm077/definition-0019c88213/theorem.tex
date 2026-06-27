@@ -1,0 +1,40 @@
+For an arbitrary prime ideal $\mathfrak{p}$ in $k$ we set
+
+$$Q(\mu, \mathfrak{p}) = \begin{cases} 
+1, & \
+
+if $a$ has the decomposition
+
+$$a = p_1^{a_1} \cdots p_m^{a_m}$$
+
+and for each square $\mu^2$ in $k$
+
+$$Q(\mu^2, a) = 1.$$
+
+Thus we have for two integral ideals $a, b$ in $k$
+
+$$Q(\mu, ab) = Q(\mu, a)Q(\mu, b).$$
+
+Finally for odd $a$, which are relatively prime to the integers $\mu$ and $v$, we have
+
+$$Q(\mu v, a) = Q(\mu, a)Q(v, a).$$
+
+In the rational number field the introduction of this symbol would be superfluous, since there the number $\mu$ can always be assumed to be free of unnecessary square factors. But in other fields, where the class number is even, $\mu$ can have accessory square factors which can not be avoided.
+
+With the help of the symbol $Q$, the zeta-function of $K$ can be expressed through that of $k$ and an additional series, as was shown in §49 for the quadratic fields. For if $P$ denotes a prime ideal of $K$ then, in the notation of Theorem 108, the relative norm with respect to $k$ is $N_k(P) = p$ or $p^2$ and $N(P) = n(P)$ or $n(P^2)$, where $p$ is the prime ideal in $k$ which is divisible by $P$. In the infinite product
+
+$$\zeta_K(s) = \prod_P \frac{1}{1 - N(P)^s}$$
+
+we extract those factors which can be derived from all prime divisors $P$ of a fixed $p$. For these factors we then have
+
+$$\prod_P (1 - N(P)^s) = (1 - n(P)^s)(1 - Q(\mu, p)n(P)^s)$$
+
+and hence
+
+$$\zeta_K(s) = \zeta_k(s)Z(s)$$
+
+$$Z(s) = \prod_P \frac{1}{1 - Q(\mu, p)n(P)^s} = \sum_a \frac{Q(\mu, a)}{n(a)^s}.$$
+
+By the formula for the class number in
+
+From this fact we obtain the analogue of Theorem 147:

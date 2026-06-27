@@ -1,0 +1,23 @@
+id: unique-representation-in-associated-graded
+title_en: "Unique Representation of Elements in the Associated Graded Object"
+title_zh: ""
+type: proposition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags: [filtration, associated-graded, representation, homology]
+depends_on:
+  required: [adequate-filtration-conditions]
+  recommended: [induced-filtration-on-homology]
+  suggested: [spectral-sequence-convergence]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Spectral Sequences"
+    section: "2. Filtered Differential Objects"
+    pages: ""
+    role_in_book: "States the uniqueness of representation when adequate filtration conditions hold"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

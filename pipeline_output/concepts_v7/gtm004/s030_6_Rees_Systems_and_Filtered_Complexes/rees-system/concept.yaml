@@ -1,0 +1,23 @@
+id: rees-system
+title_en: "Rees System"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [spectral-sequences, exact-couples, filtered-complexes]
+depends_on:
+  required: [exact-couple]
+  recommended: [filtered-differential-object]
+  suggested: [abelian-category]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Exact Couples and Spectral Sequences"
+    section: "6. Rees Systems and Filtered Complexes"
+    pages: ""
+    role_in_book: "Introduces Rees systems as a generalization of exact couples that contain sufficient information to determine convergence of spectral sequences from filtered chain complexes"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

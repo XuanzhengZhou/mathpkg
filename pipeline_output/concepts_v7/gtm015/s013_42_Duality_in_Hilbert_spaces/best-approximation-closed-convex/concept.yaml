@@ -1,0 +1,23 @@
+id: best-approximation-closed-convex
+title_en: "Best Approximation from a Closed Convex Set in Hilbert Space"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: intermediate
+tags: [best-approximation, closed-convex-set, hilbert-space, minimizing-vector, projection]
+depends_on:
+  required: [inner-product-space, completeness, parallelogram-law]
+  recommended: [closed-set, convex-set, hilbert-space-definition]
+  suggested: [orthogonal-decomposition]
+source_books:
+  - book_id: gtm015
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "42. Duality in Hilbert spaces"
+    section: "42.3"
+    pages: ""
+    role_in_book: "Key geometric result: closed convex sets admit unique best approximations, the foundation for orthogonal projection"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

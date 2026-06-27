@@ -1,0 +1,23 @@
+id: adjoint-function-on-group
+title_en: "Adjoint of a function on a locally compact group"
+title_zh: "局部紧群上函数的伴随"
+type: definition
+domain: analysis
+subdomain: harmonic-analysis
+difficulty: intermediate
+tags: [adjoint, involution, modular-function, l1-group-algebra, haar-measure]
+depends_on:
+  required: []
+  recommended: [locally-compact-group, modular-function, haar-measure, involution]
+  suggested: [l1-group-algebra]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "69"
+    section: "Group representations"
+    pages: "305"
+    role_in_book: "Definition (69.6) of the adjoint of an integrable function on G"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

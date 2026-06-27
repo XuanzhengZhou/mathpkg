@@ -1,0 +1,23 @@
+id: milman-uniform-convexity-reflexivity
+title_en: "Milman's Theorem on Uniformly Convex Spaces"
+title_zh: "Milman 一致凸空间定理"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [uniformly-convex, reflexive-banach-space, milman]
+depends_on:
+  required: [uniform-convexity-definition, reflexivity-weak-compactness]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "4"
+    section: "45"
+    pages: ""
+    role_in_book: "Shows that every uniformly convex Banach space is reflexive, a deep geometric result"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

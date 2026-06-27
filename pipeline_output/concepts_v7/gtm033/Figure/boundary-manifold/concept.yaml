@@ -1,0 +1,23 @@
+id: boundary-manifold
+title_en: "∂-manifold (Manifold with Boundary)"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: differential-topology
+difficulty: intermediate
+tags: [manifold, boundary, differential-topology]
+depends_on:
+  required: [boundary-of-manifold]
+  recommended: [cr-manifold]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "1"
+    section: "4. Manifolds with Boundary"
+    pages: ""
+    role_in_book: "Defines manifolds that may have nonempty boundary"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

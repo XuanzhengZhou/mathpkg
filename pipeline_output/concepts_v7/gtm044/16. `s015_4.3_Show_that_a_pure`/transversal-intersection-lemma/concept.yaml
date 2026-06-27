@@ -1,0 +1,23 @@
+id: transversal-intersection-lemma
+title_en: "Transversal Intersection Lemma for Bezout's Theorem"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: ["transversal-intersection", "bezout-proof", "incidence-variety", "perturbation"]
+depends_on:
+  required: ["reduction-to-union-of-subspaces"]
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "7"
+    section: "Bezout's theorem"
+    pages: ""
+    role_in_book: "Establishes the existence of a transversal configuration for the Bezout count"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

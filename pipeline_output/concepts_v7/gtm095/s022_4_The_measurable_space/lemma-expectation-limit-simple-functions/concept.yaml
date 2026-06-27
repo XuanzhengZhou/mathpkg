@@ -1,0 +1,23 @@
+id: lemma-expectation-limit-simple-functions
+title_en: "Lemma on Expectation Limit for Simple Functions"
+title_zh: ""
+type: lemma
+domain: probability
+subdomain: expectation
+difficulty: intermediate
+tags: [expectation, simple-function, monotone-approximation, limit, consistency]
+depends_on:
+  required: [expectation-of-simple-random-variable, approximation-by-simple-random-variables]
+  recommended: [lebesgue-integral-expectation-nonnegative]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "6"
+    section: "2"
+    pages: ""
+    role_in_book: "ensures consistency of the Lebesgue integral definition"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

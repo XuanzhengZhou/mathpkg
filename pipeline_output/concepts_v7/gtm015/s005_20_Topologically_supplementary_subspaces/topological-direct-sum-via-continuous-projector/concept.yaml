@@ -1,0 +1,23 @@
+id: topological-direct-sum-via-continuous-projector
+title_en: "Topological Direct Sum via Continuous Projector"
+title_zh: "拓扑直和与连续投影算子"
+type: theorem
+domain: analysis
+subdomain: topological-vector-spaces
+difficulty: intermediate
+tags: [topological-direct-sum, continuous-projector, TVS]
+depends_on:
+  required: [topological-direct-sum, projector-associated-with-supplementary-subspaces, equivalent-conditions-topological-direct-sum]
+  recommended: [continuous-linear-map]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "I. Topological Vector Spaces"
+    section: "20. Topologically supplementary subspaces"
+    pages: ""
+    role_in_book: "characterization-theorem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

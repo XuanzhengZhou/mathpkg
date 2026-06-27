@@ -1,0 +1,23 @@
+id: lebesgue-integral-expectation-nonnegative
+title_en: "Lebesgue Integral / Expectation of a Nonnegative Random Variable"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: expectation
+difficulty: intermediate
+tags: [Lebesgue-integral, expectation, nonnegative-random-variable, simple-function, monotone-approximation]
+depends_on:
+  required: [approximation-by-simple-random-variables, expectation-of-simple-random-variable]
+  recommended: [monotone-convergence]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "6"
+    section: "2"
+    pages: ""
+    role_in_book: "defines the Lebesgue integral via monotone approximation by simple functions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

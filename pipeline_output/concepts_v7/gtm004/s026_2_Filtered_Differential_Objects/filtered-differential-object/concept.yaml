@@ -1,0 +1,23 @@
+id: filtered-differential-object
+title_en: "Filtered Differential Object"
+title_zh: ""
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [filtered-object, differential-object, spectral-sequence, exact-couple]
+depends_on:
+  required: []
+  recommended: [abelian-category, chain-complex, differential-object]
+  suggested: [exact-couple, spectral-sequence]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "VIII. Spectral Sequences"
+    section: "2. Filtered Differential Objects"
+    pages: ""
+    role_in_book: "Foundation for constructing spectral sequences from filtered chain complexes"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

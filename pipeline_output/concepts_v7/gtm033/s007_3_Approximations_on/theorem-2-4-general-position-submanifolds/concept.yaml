@@ -1,0 +1,23 @@
+id: theorem-2-4-general-position-submanifolds
+title_en: "Theorem 2.4: General Position of Submanifolds"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: differential-topology
+difficulty: advanced
+tags: [general-position, submanifold, transversality, embedding, approximation]
+depends_on:
+  required: [definition-transversality, submanifold, embedding]
+  recommended: [theorem-2-2-globalization, approximation-theorem]
+  suggested: []
+source_books:
+  - book_id: "gtm033"
+    author: "Morris W. Hirsch"
+    title: "Differential Topology"
+    chapter: "3"
+    section: "2. Transversality"
+    pages: ""
+    role_in_book: "Shows any submanifold can be perturbed by a small isotopy to intersect another submanifold transversely"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

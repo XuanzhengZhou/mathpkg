@@ -1,0 +1,27 @@
+id: total-complex-tot
+title_en: Total Complex (Direct Sum)
+title_zh: ''
+type: definition
+domain: algebra
+subdomain: homological-algebra
+difficulty: basic
+tags:
+- total-complex
+- double-complex
+- direct-sum
+depends_on:
+  required:
+  - double-complex-of-chains
+  recommended: []
+  suggested: []
+source_books:
+- book_id: gtm004
+  author: Peter J. Hilton, Urs Stammbach
+  title: A Course in Homological Algebra
+  chapter: V
+  section: 1. Double Complexes
+  pages: ''
+  role_in_book: first method to collapse a double complex into an ordinary chain complex
+content_hash: 66520d7e6e32e63a
+extraction_date: '2026-06-25'
+extraction_agent: v7-section-test

@@ -1,0 +1,23 @@
+id: locally-convex-product-of-banach
+title_en: "Locally convex TVS as subspace of a product of Banach spaces"
+title_zh: "局部凸拓扑向量空间作为Banach空间乘积的子空间"
+type: theorem
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [locally-convex-space, banach-space, product-space, embedding, characterization]
+depends_on:
+  required: [locally-convex-topological-vector-space, banach-space, seminorm-quotient]
+  recommended: [locally-convex-topology-from-seminorms]
+  suggested: []
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "3"
+    section: "37"
+    pages: ""
+    role_in_book: "structure_theorem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

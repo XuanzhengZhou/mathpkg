@@ -1,0 +1,23 @@
+id: restriction-of-function
+title_en: "Restriction of a Function"
+title_zh: ""
+type: definition
+domain: foundations
+subdomain: set-theory
+difficulty: basic
+tags: ["restriction", "function", "domain", "subset"]
+depends_on:
+  required: ["function-definition", "function-domain-range"]
+  recommended: ["extension-of-function"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "0"
+    section: "Functions"
+    pages: "10-12"
+    role_in_book: "Defines the restriction of a function to a subset of its domain."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

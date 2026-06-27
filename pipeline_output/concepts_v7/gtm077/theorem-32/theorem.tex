@@ -1,0 +1,39 @@
+If $A$ is an element of order $f$, then $\chi_n(A)$ is an $f$th root of unity. Among the $h$ numbers $\chi_n(A)$, $n = 1, \ldots, h$, all $f$th roots of unity occur equally often, namely $h/f$ times.
+
+To begin with, since $A^f = 1$: $\chi_n(A)^f = \chi_n(A^f) = \chi_n(1) = 1$. Thus the first part of the theorem is true. Now if $\zeta$ is an arbitrary $f$th root of unity, let us consider the sum
+
+$$\sum_{n=1}^{h} \left( \zeta^{-1} \chi_n(A) + \zeta^{-2} \chi_n(A^2) + \cdots + \zeta^{-f} \chi_n(A^f) \right) = S.$$
+
+Since by
+
+Then each character $\chi(A)$ is represented uniquely in the form
+
+$$\chi(A) = \chi_1^{y_1}(A) \chi_2^{y_2}(A) \cdots \chi_r^{y_r}(A),$$
+
+where
+
+$$A = B_1^{x_1} \cdots B_r^{x_r},$$
+
+by the $r$ basis characters
+
+$$\chi_q(A) = \zeta_q^{x_q} \quad (q = 1, 2, \ldots, r),$$
+
+where the $y_q$ are uniquely determined integers mod $h_q$. If we now assign the element
+
+$$B_1^{y_1} B_2^{y_2} \cdots B_r^{y_r}$$
+
+to the character
+
+$$\chi = \chi_1^{y_1} \chi_2^{y_2} \cdots \chi_r^{y_r}$$
+
+then an isomorphism between the group of characters and the group $\mathfrak{G}$ is obviously determined.
+
+Every subgroup can be determined with the help of the characters of an Abelian group. If one takes some distinct characters $\chi_1, \chi_2, \ldots, \chi_k$ of $\mathfrak{G}$, then the totality of elements $U$ for which $\chi_1(U) = \chi_2(U) = \cdots = \chi_k(U) = 1$ obviously forms a subgroup $\mathfrak{U}$ of $\mathfrak{G}$, since along with two elements $U_1$ and $U_2$ the product $U_1 \cdot U_2$ also has this property.
+
+Moreover it can be seen, as follows, that each subgroup $\mathfrak{U}$ of $\mathfrak{G}$ can be obtained in this way: let $\mathfrak{U}$ be an arbitrary subgroup of $\mathfrak{G}$; the factor group $\mathfrak{G}/\mathfrak{U}$ whose elements are the different cosets $A\mathfrak{U}$ is also an Abelian group, and accordingly it has exactly $j$ characters which are denoted by $\lambda_1(A\mathfrak{U})$, $\lambda_2(A\mathfrak
+
+we consider that the $\lambda_k$, which define the $\chi_k$ uniquely, form a group isomorphic to $\mathfrak{G}/\mathfrak{U}$ since they are exactly the characters of $\mathfrak{G}/\mathfrak{U}$. Hence they are representable by a basis, say $\lambda_1, \ldots, \lambda_{r_0}$, where $r_0$ is the number of basis elements of $\mathfrak{G}/\mathfrak{U}$. That is, each character $\lambda_k$ is a product of powers of these $r_0$ characters. Hence it follows from the $r_0$ conditions
+
+$$\chi_1(A) = \chi_2(A) = \cdots = \chi_{r_0}(A) = 1$$
+
+that all $j$ conditions (15) are satisfied for $A$ and with this it follows that $A$ belongs to $\mathfrak{U}$. If $h_i$ is the order of the basis character $\lambda_i$ and $\zeta_i (i = 1, 2, \ldots, r_0)$ are arbitrarily given $h_i$th roots of unity, then moreover there is always a coset $A\mathfrak{U}$ such that $\lambda_i(A\mathfrak{U}) = \zeta_i$ for $i = 1, 2, \ldots, r_0$. Thus we have proved

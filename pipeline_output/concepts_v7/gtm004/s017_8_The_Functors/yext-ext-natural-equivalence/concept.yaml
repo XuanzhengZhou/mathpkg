@@ -1,0 +1,23 @@
+id: yext-ext-natural-equivalence
+title_en: "Natural Equivalence of \operatorname{Yext}_A^n and \operatorname{Ext}_A^n"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [Yoneda-ext, Ext-functor, natural-equivalence, n-extension, Yoneda-interpretation]
+depends_on:
+  required: [yoneda-equivalence-and-yext, ext-via-projectives, n-extension-definition]
+  recommended: [projective-resolution, derived-functor, connecting-homomorphism]
+  suggested: [yoneda-product, baer-sum, balanced-functor]
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra (2nd ed.)"
+    chapter: "9. Ext^n and n-Extensions"
+    section: "9"
+    pages: ""
+    role_in_book: "Theorem 9.1 — the Yoneda interpretation of Ext^n: the set of equivalence classes of n-extensions is naturally isomorphic to the Ext group defined via derived functors. Provides a geometric/concrete interpretation of Ext^n."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

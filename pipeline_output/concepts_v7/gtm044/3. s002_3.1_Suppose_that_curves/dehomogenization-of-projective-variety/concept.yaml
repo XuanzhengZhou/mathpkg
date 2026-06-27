@@ -1,0 +1,23 @@
+id: dehomogenization-of-projective-variety
+title_en: "Dehomogenization Commutes with Variety Formation"
+title_zh: ""
+type: lemma
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: basic
+tags: ["dehomogenization", "projective-variety", "affine-variety"]
+depends_on:
+  required: ["dehomogenization-of-polynomial", "projective-variety", "affine-variety"]
+  recommended: ["homogenization-of-polynomial"]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "2. Affine and projective varieties; examples"
+    pages: ""
+    role_in_book: "Shows that dehomogenization at the level of varieties agrees with dehomogenization at the level of defining equations."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: quotient-group-is-topological-group
+title_en: "Quotient of a topological group by a normal subgroup is a topological group"
+title_zh: ""
+type: theorem
+domain: topology
+subdomain: topological-groups
+difficulty: intermediate
+tags: [topological-group, quotient-group, normal-subgroup, quotient-topology, separated-group]
+depends_on:
+  required: []
+  recommended: [topological-group, quotient-group-and-canonical-mapping, canonical-mapping-to-quotient-is-open-continuous, neighborhood-base-of-identity]
+  suggested: [separated-topological-group, closure-of-identity-is-closed-normal-subgroup]
+source_books:
+  - book_id: "gtm015"
+    author: "Sterling K. Berberian"
+    title: "Lectures in Functional Analysis and Operator Theory"
+    chapter: "1"
+    section: "4"
+    pages: ""
+    role_in_book: "Fundamental theorem establishing that the quotient construction preserves the topological group structure."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

@@ -1,0 +1,23 @@
+id: characteristic-function-distribution
+title_en: "Characteristic Function of a Distribution"
+title_zh: ""
+type: definition
+domain: probability
+subdomain: characteristic-functions
+difficulty: intermediate
+tags: [characteristic-function, fourier-stieltjes-transform, distribution-function]
+depends_on:
+  required: [distribution-function, expectation]
+  recommended: [fourier-transform]
+  suggested: [properties-of-characteristic-functions]
+source_books:
+  - book_id: "gtm095"
+    author: "A. N. Shiryaev"
+    title: "Probability-1"
+    chapter: "2"
+    section: "12"
+    pages: ""
+    role_in_book: "Definition 1 and Definition 2 of Section 12"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

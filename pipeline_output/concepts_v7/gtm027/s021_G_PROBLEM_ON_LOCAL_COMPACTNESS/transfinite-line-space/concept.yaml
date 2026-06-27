@@ -1,0 +1,23 @@
+id: transfinite-line-space
+title_en: "Transfinite Line Space"
+title_zh: ""
+type: definition
+domain: topology
+subdomain: order-topology
+difficulty: advanced
+tags: ["transfinite-line", "well-ordering", "lexicographic-order", "order-topology"]
+depends_on:
+  required: ["well-ordered-set", "order-topology", "lexicographic-order"]
+  recommended: ["long-line"]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "5"
+    section: "Problems"
+    pages: "164"
+    role_in_book: "Problem 5.L. Constructs the transfinite line: the lexicographic product of a well-ordered set A with [0,1)."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

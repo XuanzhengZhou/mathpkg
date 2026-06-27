@@ -1,0 +1,13 @@
+id: nested-set-closure-lemma
+title_en: "Nested Set Closure Lemma"
+title_zh: "嵌套集闭包引理"
+type: lemma
+domain: topology
+subdomain: continuous-functions
+difficulty: intermediate
+tags: [nested-sets, closure, open-sets, level-sets, urysohn-lemma]
+depends_on: {required: [nested-set-function-lemma, closure], recommended: [], suggested: []}
+source_books: [{book_id: "gtm027", author: "John L. Kelley", title: "General Topology", chapter: "4", section: "Existence of Continuous Functions", pages: "", role_in_book: "Lemma 3: refines nested set construction with closure conditions for Urysohn's lemma"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

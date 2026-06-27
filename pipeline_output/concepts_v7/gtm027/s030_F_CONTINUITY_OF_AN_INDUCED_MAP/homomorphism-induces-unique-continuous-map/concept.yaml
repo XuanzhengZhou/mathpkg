@@ -1,0 +1,23 @@
+id: homomorphism-induces-unique-continuous-map
+title_en: "Homomorphisms Between Function Algebras Are Induced by Continuous Maps"
+title_zh: "函数代数间的同态由连续映射诱导"
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: [homomorphism, induced-map, C(X), Gelfand-duality, Gelfand-Naimark]
+depends_on:
+  required: [induced-map-star-homomorphism]
+  recommended: [real-homomorphism, unit-preserving, Gelfand-transform]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "S"
+    pages: ""
+    role_in_book: "Proposition (e): every unit-preserving homomorphism is an induced map"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

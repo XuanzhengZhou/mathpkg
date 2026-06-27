@@ -1,0 +1,23 @@
+id: w-star-norm-bounded-compact
+title_en: "Weak-Star Compactness of Norm Bounded Closed Sets"
+title_zh: "范数有界弱星闭集的弱星紧致性"
+type: corollary
+domain: analysis
+subdomain: functional-analysis
+difficulty: advanced
+tags: [weak-star-topology, compactness, norm-bounded, dual-space]
+depends_on:
+  required: [alaoglu-theorem]
+  recommended: [weak-star-closed, norm-bounded]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "N"
+    pages: ""
+    role_in_book: "Corollary to Alaoglu's theorem"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

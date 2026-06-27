@@ -1,0 +1,23 @@
+id: axioms-of-addition
+title_en: "Axioms of addition for the real numbers"
+title_zh: "实数加法公理"
+type: axiom
+domain: algebra
+subdomain: field-axioms
+difficulty: basic
+tags: [field, addition, real-numbers, associative, commutative, identity, inverse]
+depends_on:
+  required: []
+  recommended: []
+  suggested: [real-numbers]
+source_books:
+  - book_id: "gtm012"
+    author: "Richard Beals"
+    title: "Advanced Mathematical Analysis"
+    chapter: "1"
+    section: "2. Real and complex numbers"
+    pages: ""
+    role_in_book: "Foundation: defines R as an additive abelian group"
+content_hash: "a1a2a3a4-addition-axioms"
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

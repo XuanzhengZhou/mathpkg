@@ -1,0 +1,23 @@
+id: local-base
+title_en: "Local Base (Neighborhood Base)"
+title_zh: "局部基（邻域基）"
+type: definition
+domain: topology
+subdomain: countability-axioms
+difficulty: basic
+tags: [local-base, neighborhood, first-countable]
+depends_on:
+  required: [neighborhood]
+  recommended: [base-for-a-topology]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Bases and Subbases"
+    pages: ""
+    role_in_book: "Definition of local base (neighborhood base) at a point"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

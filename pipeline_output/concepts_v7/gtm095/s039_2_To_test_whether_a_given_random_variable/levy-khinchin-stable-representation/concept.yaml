@@ -1,0 +1,23 @@
+id: levy-khinchin-stable-representation
+title_en: "Lévy–Khinchin Representation of Stable Distributions"
+title_zh: ""
+type: theorem
+domain: probability
+subdomain: stable-distributions
+difficulty: advanced
+tags: [stable-distribution, characteristic-function, Levy-Khinchin-formula, index-of-stability, skewness-parameter]
+depends_on:
+  required: [stable-random-variable]
+  recommended: [kolmogorov-levy-khinchin-representation]
+  suggested: []
+source_books:
+  - book_id: "gtm095"
+    author: "A.N. Shiryaev"
+    title: "Probability-1"
+    chapter: "3"
+    section: "§6. Infinitely divisible and stable distributions"
+    pages: ""
+    role_in_book: "General form of characteristic functions of all stable distributions"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

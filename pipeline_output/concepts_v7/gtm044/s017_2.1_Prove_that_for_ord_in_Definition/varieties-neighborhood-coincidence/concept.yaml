@@ -1,0 +1,23 @@
+id: varieties-neighborhood-coincidence
+title_en: "Varieties Coinciding in a Neighborhood are Equal"
+title_zh: "邻域上一致的两个簇相等"
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: intermediate
+tags: [varieties, neighborhood, irreducibility, Zariski-topology]
+depends_on:
+  required: []
+  recommended: [irreducible-variety, zariski-topology, projective-variety]
+  suggested: [theorem-2-11-chapter-iv]
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "3"
+    section: "3.1"
+    pages: ""
+    role_in_book: "Establishes that local equality of varieties implies global equality"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

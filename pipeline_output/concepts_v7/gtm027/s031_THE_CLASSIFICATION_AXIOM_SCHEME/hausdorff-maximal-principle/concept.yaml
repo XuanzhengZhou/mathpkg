@@ -1,0 +1,13 @@
+id: hausdorff-maximal-principle
+title_en: "Hausdorff Maximal Principle"
+title_zh: ""
+type: theorem
+domain: foundations
+subdomain: set-theory
+difficulty: intermediate
+tags: [hausdorff, maximal-principle, nest, chain, choice]
+depends_on: {required: [axiom-of-choice, nest, transfinite-induction], recommended: [], suggested: [zorn-lemma]}
+source_books: [{book_id: "gtm027", author: "John L. Kelley", title: "General Topology", chapter: "Appendix", section: "Choice", pages: "274", role_in_book: "Theorem 143; every set contains a maximal nest"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

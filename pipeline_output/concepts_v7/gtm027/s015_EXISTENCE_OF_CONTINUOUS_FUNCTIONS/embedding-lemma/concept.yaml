@@ -1,0 +1,13 @@
+id: embedding-lemma
+title_en: "Embedding Lemma (Evaluation Map)"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: function-spaces
+difficulty: intermediate
+tags: [embedding, evaluation-map, product-topology, distinguishing-points, open-map]
+depends_on: {required: [continuous-function, product-topology, open-map, one-to-one], recommended: [], suggested: []}
+source_books: [{book_id: "gtm027", author: "John L. Kelley", title: "General Topology", chapter: "4", section: "Existence of Continuous Functions", pages: "116", role_in_book: "Lemma 5; maps space into product via evaluation"}]
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

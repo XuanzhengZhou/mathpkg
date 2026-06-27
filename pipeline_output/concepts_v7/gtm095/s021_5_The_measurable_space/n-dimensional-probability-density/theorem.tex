@@ -1,0 +1,15 @@
+An $n$-dimensional absolutely continuous distribution function has the form
+
+$$F_n(x_1, \ldots, x_n) = \int_{-\infty}^{x_1} \cdots \int_{-\infty}^{x_n} f_n(t_1, \ldots, t_n)\,dt_1 \cdots dt_n,$$
+
+where $f_n(t_1, \ldots, t_n) \geq 0$ and
+
+$$\int_{-\infty}^{\infty} \cdots \int_{-\infty}^{\infty} f_n(t_1, \ldots, t_n)\,dt_1 \cdots dt_n = 1.$$
+
+The function $f_n$ is called the \textit{density} of the $n$-dimensional distribution function (or $n$-dimensional density).
+
+Let $\mathbf{R} = \|r_{ij}\|$ be a positive semi-definite symmetric $n \times n$ matrix. When $\mathbf{R}$ is positive definite with inverse $A = \|a_{ij}\|$, the \textit{multivariate Gaussian (normal) density} is
+
+$$f_n(x_1, \ldots, x_n) = \frac{|A|^{1/2}}{(2\pi)^{n/2}} \exp\left\{-\frac{1}{2} \sum_{i,j=1}^{n} a_{ij} (x_i - m_i)(x_j - m_j)\right\},$$
+
+where $m_i \in R$, $i = 1, \ldots, n$.

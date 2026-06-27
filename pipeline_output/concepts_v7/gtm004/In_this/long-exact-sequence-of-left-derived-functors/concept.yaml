@@ -1,0 +1,23 @@
+id: long-exact-sequence-of-left-derived-functors
+title_en: "Long Exact Sequence of Left Derived Functors"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [derived-functors, long-exact-sequence, projective-resolution, connecting-homomorphism]
+depends_on:
+  required: [left-derived-functor, projective-resolution, chain-complex, homology-long-exact-sequence]
+  recommended: [additive-functor, short-exact-sequence, horseshoe-lemma]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "6"
+    pages: ""
+    role_in_book: "First fundamental long exact sequence for derived functors"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

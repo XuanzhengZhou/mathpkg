@@ -1,0 +1,23 @@
+id: integration-in-polar-coordinates
+title_en: "Integration in Polar Coordinates"
+title_zh: ""
+type: theorem
+domain: analysis
+subdomain: multivariable-calculus
+difficulty: intermediate
+tags: [polar-coordinates, change-of-variables, double-integral, disc, jacobian]
+depends_on:
+  required: [polar-coordinates, change-of-order-of-integration]
+  recommended: [integration-over-triangle]
+  suggested: []
+source_books:
+  - book_id: "gtm012"
+    author: ""
+    title: ""
+    chapter: ""
+    section: "7. Functions of two variables"
+    pages: ""
+    role_in_book: "Theorem 7.4 — change of variables formula for integration over a disc using polar coordinates"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

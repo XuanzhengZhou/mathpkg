@@ -1,0 +1,23 @@
+id: euler-formula-for-polyhedra
+title_en: "Euler's Formula for Polyhedra"
+title_zh: ""
+type: lemma
+domain: topology
+subdomain: combinatorial-topology
+difficulty: intermediate
+tags: [euler-characteristic, polyhedron, genus, triangulation]
+depends_on:
+  required: []
+  recommended: [triangulation, topological-genus]
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "II"
+    section: "10"
+    pages: ""
+    role_in_book: "Lemma 10.2; topological lemma used in the proof of the genus formula"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

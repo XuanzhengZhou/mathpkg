@@ -1,0 +1,23 @@
+id: jacobian-criterion-for-smoothness
+title_en: "Jacobian Criterion for Smoothness (Affine)"
+title_zh: ""
+type: theorem
+domain: geometry
+subdomain: algebraic-geometry
+difficulty: advanced
+tags: [smoothness, jacobian, rank, codimension, irreducible-variety, affine-variety]
+depends_on:
+  required: []
+  recommended: []
+  suggested: []
+source_books:
+  - book_id: "gtm044"
+    author: "Keith Kendig"
+    title: "Elementary Algebraic Geometry"
+    chapter: "IV: Varieties of arbitrary dimension"
+    section: "4.1"
+    pages: "195-198"
+    role_in_book: "Establishes the Jacobian rank test for smoothness of an irreducible affine variety; the central criterion linking the algebraic notion of rank with the geometric notion of smoothness."
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

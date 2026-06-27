@@ -1,0 +1,23 @@
+id: closed-ideal-characterization
+title_en: "Characterization of Closed Ideals in C(X)"
+title_zh: "C(X)中闭理想的刻画"
+type: theorem
+domain: topology
+subdomain: algebraic-topology
+difficulty: advanced
+tags: [closed-ideal, C(X), vanishing-set, Gelfand-duality, maximal-ideal]
+depends_on:
+  required: [closed-subalgebra-representation]
+  recommended: [ideal, zero-set, closed-set]
+  suggested: []
+source_books:
+  - book_id: "gtm027"
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "7"
+    section: "S"
+    pages: ""
+    role_in_book: "Proposition (g): closed ideals correspond to zero sets"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

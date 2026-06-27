@@ -1,0 +1,23 @@
+id: separated-sets
+title_en: "Separated Sets"
+title_zh: "隔离集"
+type: definition
+domain: topology
+subdomain: connectedness
+difficulty: basic
+tags: [separated, closure, disjoint]
+depends_on:
+  required: [closure]
+  recommended: [topological-space]
+  suggested: []
+source_books:
+  - book_id: gtm027
+    author: "John L. Kelley"
+    title: "General Topology"
+    chapter: "1"
+    section: "Bases and Subbases"
+    pages: ""
+    role_in_book: "Definition of separated subsets of a topological space"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

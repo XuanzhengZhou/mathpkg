@@ -1,0 +1,23 @@
+id: long-exact-sequence-from-exact-sequence-of-functors
+title_en: "Long Exact Sequence of Derived Functors from Exact Sequence of Functors"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: advanced
+tags: [derived-functors, long-exact-sequence, exact-sequence-of-functors, connecting-homomorphism]
+depends_on:
+  required: [left-derived-functor, exact-on-projectives, homology-long-exact-sequence]
+  recommended: [short-exact-sequence-of-complexes, projective-resolution]
+  suggested: []
+source_books:
+  - book_id: "gtm004"
+    author: "P. J. Hilton, U. Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "IV"
+    section: "6"
+    pages: ""
+    role_in_book: "Second fundamental long exact sequence for derived functors — varying the functor"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"

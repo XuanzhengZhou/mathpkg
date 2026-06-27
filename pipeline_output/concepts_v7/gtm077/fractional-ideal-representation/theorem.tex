@@ -1,0 +1,131 @@
+Each ideal $g$ is the range of values of a linear form
+
+$$\xi_1 \rho_1 + \cdots + \xi_r \rho_r,$$
+
+where $\rho_1, \ldots, \rho_r$ are certain integers or fractions in $g$, while the $\xi_i$ run through all integers in $K$. We write $g = (\rho_1, \ldots, \rho_r)$.
+
+Let $v$ be chosen for $g$ according to (2). Then all products of $v$ with the numbers in $g$ obviously form an integral ideal $a = (\alpha_1, \ldots, \alpha_r)$ and then $g = (\alpha_1/v, \ldots, \alpha_r/v)$.
+
+If $\alpha_1, \ldots, \alpha_n$ is a basis for the integral ideal $a$, then, if we again regard $g$ as an infinite Abelian group, $\alpha_1/v, \ldots, \alpha_n/v$ is obviously a basis for $g$.
+
+The product of two ideals $g = (\gamma_1, \ldots, \gamma_r)$ and $r = (\rho_1, \ldots, \rho_s)$ is defined in the same way as for integral ideals:
+
+$$gr = (\ldots, \gamma_i \rho_k, \ldots),$$
+
+and this multiplication is also commutative and associative. Each ideal $g \neq (0)$ can be made into an integral ideal by multiplication by a suitable integral ideal $(v)$. Consequently it can also be made into a principal ideal $(\omega)$ by multiplication by an appropriate integral ideal.
+
+If $g \neq (0)$, then it follows from $gr = g\eta$ that $r = \eta$.
+
+The proof is word for word the same as for Theorem 68.
+
+If $g_1$ and $g_2$ are arbitrary ideals, $g_1 \neq (0)$, then there is exactly one $r$ such that
+
+$$g_1r = g_2.$$
+
+One writes $r = g_2/g_1$, and calls $r$ the quotient of $g_2$ and $g_1$. This notation is meaningful only for $
+
+equation
+
+$$\omega = \frac{a}{b},$$
+
+omitting parentheses.
+
+With fractional ideals we also wish to speak of divisibility in the sense that $a \mid b$ or $a \text{ divides } b$ is to mean that $b/a$ is an integral ideal. If $a$ and $b$ are integral ideals, then this definition agrees with the earlier definition of divisibility.
+
+Accordingly, an integer $\omega$ occurs in an ideal $g$ if and only if $(\omega)$ is divisible by $g$, that is, $(\omega)$ has a decomposition
+
+$$(\omega) = mg,$$
+
+with $m$ an integral ideal.
+
+Hence the number 1 occurs in all ideals which are the reciprocals of integral ideals $a$, that is, equal to $1/a$, and only in such ideals.
+
+If an ideal $g$ is represented as the quotient of two relatively prime ideals $a$ and $b$, then we define the norm of $g$:
+
+$$N(g) = \frac{N(a)}{N(b)}, \quad \text{if } g = \frac{a}{b}.$$
+
+This equation is also correct if $a, b$ are not relatively prime or if they are fractional ideals. Again we have
+
+$$N(g_1 \cdot g_2) = N(g_1) \cdot N(g_2).$$
+
+Between the basis and the norm there is again the relationship:
+
+If $\alpha_1, \ldots, \alpha_n$ is a basis for $g$, then
+
+$$N(g) = \left| \frac{\Delta(\alpha_1, \ldots, \alpha_n)}{\sqrt{d}} \right|.$$
+
+To prove this choose an integer $v \neq 0$ so that $vg$ is an integral ideal $b$, with basis $\beta_1, \ldots, \beta_m$. Then $\beta_1/v, \ldots, \beta_n/v$ is a basis for $g$ and
+
+$$N(g) = \frac{N(b)}{N(v)} = \frac{\Delta(\beta_1, \ldots, \beta_n)}{|N(v)|\sqrt{d}} = \frac{\Delta\left(\frac{\beta_1}{v},
+
+subsequently extended and sharpened considerably by Minkowski. This theorem and its proof is quite independent of the theories which were treated earlier. It reads as follows:
+
+**Theorem 94.** Assume we are given $n$ linear homogeneous expressions
+
+$$L_p(x) = \sum_{q=1}^{n} a_{pq} x_q \quad (p = 1, 2, \ldots, n),$$
+
+with real coefficients $a_{pq}$, whose determinant $D = |a_{pq}|$ is different from zero, as well as $n$ positive quantities $\varkappa_1, \ldots, \varkappa_n$, for which
+
+$$\varkappa_1 \cdot \varkappa_2 \cdot \cdots \cdot \varkappa_n \geq |D|.$$
+
+Then there are always $n$ rational integers $x_1, \ldots, x_n$, not all equal to 0, such that
+
+$$|L_p(x)| \leq \varkappa_p \quad (p = 1, \ldots, n).$$
+
+(48)
+
+The proof is along the lines of Minkowski's contribution to the geometry of numbers. To begin with we ask: "What can we say about the quantities $\varkappa$ if the $n$ inequalities (48) have no solution in rational integers $x_q \neq 0$?" We show that under these conditions $\varkappa_1 \cdot \varkappa_2 \cdot \cdots \cdot \varkappa_n < |D|$.
+
+To this end, we consider the parallelotope in the space of $n$ dimensions with Cartesian coordinates $x_1, \ldots, x_n$ such that
+
+$$|L_p(x)| \leq \frac{\varkappa_p}{2} \quad (p = 1, 2, \ldots, n)$$
+
+and think of the same parallelotope displaced parallel to itself so that its center, that is, the point 0, $\ldots, 0$, corresponds to all lattice points $g_1, \ldots, g_n$, where the $g_i$ run through all rational integers. In this way we have infinitely many parallelotopes $\Pi_{g_1,
+
+Consequently the sum of the volumes of all the $\Pi$ which belong to a definite square $|x_q| \leq L$ ($q = 1, 2, \ldots, n$) must be less than the volume $(2L)^n$ of this square, from which the assertion follows immediately. To see this we first let $c$ be a number such that the coordinates of all points of the initial figure $\Pi_{0, \ldots, 0}$ are all $\leq c$ in absolute value. Then in any case all $\Pi_{g_1, \ldots, g_n}$ such that
+
+$$|g_q| \leq L \quad (q = 1, \ldots, n)$$
+
+belong to the square $|x_q| \leq L + c$. Since from $|L_p(x - g)| \leq \kappa_p/2$ and $|g_q| \leq L$ it follows that $|x_q| = |x_q - g_q + g_q| \leq |x_q - g_q| + |g_q| \leq c + L$. Hence if $L$ is a positive rational integer, then there are $(2L + 1)^n$ such $\Pi_{g_1, \ldots, g_n}$ and their total volume is
+
+$$(2L + 1)^n J \leq (2L + 2c)^n,$$
+
+where $J$ is the volume of a single $\Pi$. After division by $L^n$ and passage to the limit as $L \to \infty$ it follows that
+
+$$J \leq 1.$$
+
+On the other hand we have
+
+$$J = \int \cdots \int |L_p(x)| \leq \kappa_p/2 \, dx_1 \cdots dx_n = \frac{1}{|D|} \int \cdots \int |y_p| \leq \kappa_p/2 \, dy_1 \cdots dy_n$$
+
+$$= \frac{\kappa_1 \kappa_2 \cdots \kappa_n}{|D|}.$$
+
+Thus if these inequalities cannot be solved in integers except 0, $\ldots, 0$, then $\kappa_1, \ldots, \kappa_n \leq |D|$.
+
+To prove this we replace the system $L_p(x)$ by that system of real forms $L'(x)$ which arises if the real and imaginary components of the $L_p(x)$ are considered by themselves. We take $L'_p(x) = L_p(x)$ if $L_p(x)$ is a real form; on the other hand if $L_\alpha(x)$ and $L_\beta(x)$ are conjugate imaginary and, say, $\alpha < \beta$, then we set
+
+$$L'_\alpha(x) = \frac{L_\alpha(x) + L_\beta(x)}{2}, \quad L'_\beta(x) = \frac{L_\alpha(x) - L_\beta(x)}{2i}.$$
+
+In the latter case we define
+
+$$\chi'_\alpha = \chi'_\beta = \frac{\chi_\alpha}{\sqrt{2}},$$
+
+and, on the other hand,
+
+$$\chi'_p = \chi_p$$
+
+in the first case.
+
+The system of real forms $L'$ now obviously has a determinant $D'$ with
+
+$$|D'| = 2^{-r_2}|D|,$$
+
+where $r_2$ denotes the number of pairs of complex conjugate forms among the $L_p(x)$. Hence since $\chi'_1 \cdots \chi'_n \geq |D'|$, there are rational integers $x_q$, which are not all 0, such that
+
+$$|L'_p(x)| \leq \chi'_p \quad (p = 1, \ldots, n).$$
+
+For a nonreal form $L_\alpha(x)$ we now have
+
+$$|L_\alpha(x)|^2 = L'_\alpha^2(x) + L'_\beta^2(x) \leq \chi'_\alpha^2 + \chi'_\beta^2 = \chi_\alpha^2$$
+
+from which the stated theorem follows.

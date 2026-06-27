@@ -1,0 +1,23 @@
+id: ext-is-bifunctor
+title_en: "Ext is a Bifunctor"
+title_zh: ""
+type: theorem
+domain: algebra
+subdomain: homological-algebra
+difficulty: intermediate
+tags: [ext-functor, bifunctor, contravariant, covariant]
+depends_on:
+  required: [ext-independent-of-presentation, bifunctor, category-of-modules]
+  recommended: [independence-of-pi-star]
+  suggested: []
+source_books:
+  - book_id: gtm004
+    author: "Peter J. Hilton, Urs Stammbach"
+    title: "A Course in Homological Algebra"
+    chapter: "III"
+    section: "2. The Functor Ext"
+    pages: ""
+    role_in_book: "Theorem 2.3; establishes the functoriality of Ext in both variables"
+content_hash: ""
+extraction_date: "2026-06-25"
+extraction_agent: "v7-section-test"
