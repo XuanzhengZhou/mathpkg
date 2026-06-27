@@ -73,3 +73,35 @@ pipeline_output/concepts_v7/**/.fail
 pipeline_output/concepts_v7/**/.lean.done
 pipeline_output/concepts_v7/**/.lean.fail
 
+
+# 发行版排除（本地保留）
+ARCHITECTURE.md
+PHASE0.md
+PHASE1.md
+TECHNICAL.md
+CLAUDE.md
+HANDOVER.md
+项目简介.md
+concept-encyclopedia-template.md
+extract_*.py
+populate_*.py
+v7_extract_*.py
+pipeline_output/*.json
+pipeline_output/books/
+pipeline_output/concepts/
+pipeline_output/concepts_batch1/
+pipeline_output/concepts_v2/
+pipeline_output/dedup/
+pipeline_output/def_*/
+pipeline_output/done_markers/
+pipeline_output/fix_results/
+pipeline_output/gapfill_output/
+pipeline_output/graph/
+pipeline_output/ocr_output/
+pipeline_output/section_indexes*/
+pipeline_output/skel_done/
+pipeline_output/stitched/
+pipeline_output/stitched_v2/
+pipeline_output/translations/
+pipeline_output/v7_test/
+pipeline_output/__pycache__/
