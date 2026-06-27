@@ -11,17 +11,18 @@ var BOOK_SLUG = args.book_slug
 
 phase('List')
 
-// Use Python to list sections (handles spaces/parens correctly)
+// Use Python with JSON to list sections (handles spaces/parens AND embedded newlines in filenames)
 var sectionsRaw = ''
 try {
   var r = await agent(
-    'python3 -c "import os; print(chr(10).join(sorted(f for f in os.listdir(\'' + BOOK_DIR + '\') if f.startswith(\'s\') and f.endswith(\'.md\'))))"',
+    'python3 -c "import os, json; print(json.dumps(sorted(f for f in os.listdir(\'' + BOOK_DIR + '\') if f.startswith(\'s\') and f.endswith(\'.md\'))))"',
     { label: 'list', phase: 'List' }
   )
-  sectionsRaw = r || ''
+  sectionsRaw = r || '[]'
 } catch(e) {}
 
-var sectionFiles = sectionsRaw.trim().split('\n').filter(function(x) { return x.length > 0 })
+var sectionFiles = []
+try { sectionFiles = JSON.parse(sectionsRaw) } catch(e) { log('JSON parse error for sections') }
 log(BOOK_SLUG + ': ' + sectionFiles.length + ' sections found')
 
 if (sectionFiles.length === 0) {
